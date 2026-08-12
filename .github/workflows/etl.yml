@@ -8,7 +8,7 @@ permissions:
 jobs:
   process-documents:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - name: Checkout Repositorio
         uses: actions/checkout@v4
@@ -35,3 +35,4 @@ jobs:
         run: |
           git add docs/
           git diff --staged --quiet || (git commit -m "docs: actualizacion automatica de markdown cisco" && git push)
+          
