@@ -11,6 +11,16 @@ def sanitize_filename(url):
     clean = re.sub(r'[^a-zA-Z0-9]', '_', clean)
     return clean[:100] + ".md"
 
+def is_english_url(url):
+    non_en_patterns = ['/ar_ae/', '/pt_br/', '/fr_ca/', '/zh_cn/', '/zh_tw/', '/de_de/', '/it_it/', '/ja_jp/', '/ko_kr/', '/es_mx/', '/nl_nl/']
+    for pattern in non_en_patterns:
+        if pattern in url:
+            return False
+    if 'cisco.com/c/' in url and '/c/en/us/' not in url:
+        if any(lang in url for lang in ['/c/ar_', '/c/pt_', '/c/fr_', '/c/zh_', '/c/de_', '/c/it_', '/c/ja_', '/c/ko_', '/c/es_', '/c/nl_']):
+            return False
+    return True
+
 def expand_sitemap(url):
     if not url.endswith((".xml", ".gz")):
         return [url]
@@ -30,12 +40,18 @@ def expand_sitemap(url):
             locs = []
             for sitemap in root.findall('.//{*}sitemap/{*}loc'):
                 if sitemap.text:
-                    locs.extend(expand_sitemap(sitemap.text))
+                    locs.extend(expand_sitemap(sitemap.text.strip()))
             return locs
 
-        locs = [loc.text for loc in root.findall('.//{*}loc') if loc.text]
-        print(f"Encontradas {len(locs)} URLs en el sitemap.")
-        return locs[:15] # Lote reducido para evitar timeouts en GitHub Actions
+        locs = []
+        for loc in root.findall('.//{*}loc'):
+            if loc.text:
+                clean_url = loc.text.strip()
+                if is_english_url(clean_url):
+                    locs.append(clean_url)
+                    
+        print(f"Encontradas {len(locs)} URLs válidas en en_us.")
+        return locs[:25]
     except Exception as e:
         print(f"Error procesando sitemap {url}: {e}")
     return []
@@ -70,7 +86,7 @@ async def crawl_urls():
                     cache_mode=CacheMode.BYPASS,
                     magic=True,
                     excluded_tags=["nav", "footer", "header", "aside", "script", "style"],
-                    css_selector="#fw-content, main, article, .cisco-content"
+                    css_selector="#fw-content, main, article, .content, .cisco-content"
                 )
                 if result.success and result.markdown:
                     filename = os.path.join(output_dir, sanitize_filename(url))
