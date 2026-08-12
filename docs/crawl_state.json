@@ -205,5 +205,6 @@
   "https://help.webexconnect.io/docs/decryption-node": "27e81361b6a9bf7519aa615d8e006a283c98ec3a59977732b496a12bbd09a0ae",
   "https://help.webexconnect.io/docs/call-user-node": "43dcfa3db10b8f60424065f8ea586f1e79eafc5618c9cb1291f9f933efcc9844",
   "https://help.webexconnect.io/docs/collect-input-node": "5342886ce719a9ce223de9c45e124fcbc1bd3694880d3060a6e860814f7bbc42",
-  "https://help.webexconnect.io/docs/play-node": "7fb394710918b98e692a1f25fdd3674ced48f4857a7ac9418e082b494f32cf28"
+  "https://help.webexconnect.io/docs/play-node": "7fb394710918b98e692a1f25fdd3674ced48f4857a7ac9418e082b494f32cf28",
+  "https://help.webexconnect.io/docs/record-node": "148fd63e45998503d6bbe6e93835c0a50929b3006b0f7d2ab08f896e0715c3be"
 }
