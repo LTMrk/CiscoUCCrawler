@@ -36,10 +36,51 @@ def get_max_depth_for_url(url):
             return depth
     return CONFIG.get("global_settings", {}).get("default_max_depth", 1)
 
-def sanitize_filename(url):
-    clean = re.sub(r'https?://', '', url)
-    clean = re.sub(r'[^a-zA-Z0-9]', '_', clean)
-    return clean[:100] + ".md"
+def get_group_filename(url):
+    url_lower = url.lower()
+    
+    # 1. COMUNICACIONES UNIFICADAS ON-PREMISE
+    if any(x in url_lower for x in ["cucm", "unified-communications-manager", "callmanager"]):
+        return "cisco_cucm.md"
+    if any(x in url_lower for x in ["unity", "unity-connection", "cuc"]):
+        return "cisco_unity.md"
+    if any(x in url_lower for x in ["expressway", "vcs", "video-communication-server"]):
+        return "cisco_expressway.md"
+    if any(x in url_lower for x in ["cube", "border-element", "vg-series", "catalyst-8000", "isr"]):
+        return "cisco_gateways_routers.md"
+    if any(x in url_lower for x in ["meeting-server", "cms"]):
+        return "cisco_cms.md"
+
+    # 2. CONTACT CENTER ON-PREMISE
+    if any(x in url_lower for x in ["uccx", "contact-center-express"]):
+        return "cisco_uccx.md"
+    if any(x in url_lower for x in ["ucce", "contact-center-enterprise", "cvp", "finesse"]):
+        return "cisco_ucce.md"
+
+    # 3. NUBE: CONTACT CENTER & CPAAS
+    if any(x in url_lower for x in ["webex-contact-center", "wxcc"]):
+        return "webex_contact_center.md"
+    if any(x in url_lower for x in ["webexconnect", "webex-connect", "imimobile"]):
+        return "webex_connect.md"
+    if any(x in url_lower for x in ["webexengage", "webex-engage"]):
+        return "webex_engage.md"
+
+    # 4. NUBE: WEBEX SUITE
+    if any(x in url_lower for x in ["webex-calling", "cloud-calling"]):
+        return "webex_calling.md"
+    if any(x in url_lower for x in ["meetings", "webinars", "training"]):
+        return "webex_meetings.md"
+    if any(x in url_lower for x in ["webex-app", "webex-teams", "messaging"]):
+        return "webex_app.md"
+
+    # 5. HARDWARE Y ENDPOINTS
+    if any(x in url_lower for x in ["hardware.webex.com", "collaboration-endpoints", "ip-phone", "8800-series", "room-series", "desk-series", "board-series", "headsets", "cameras"]):
+        return "cisco_devices_hardware.md"
+
+    # 6. FALLBACK: AGRUPACIÓN POR DOMINIO BASE
+    netloc = urlparse(url).netloc
+    safe_netloc = netloc.replace(".", "_").replace("-", "_")
+    return f"misc_{safe_netloc}.md"
 
 def normalize_url(url):
     return url.split('#')[0].split('?')[0].rstrip('/')
@@ -96,6 +137,7 @@ def log_error(url, reason):
     timestamp = datetime.now().isoformat()
     with open("logs/error.log", "a", encoding="utf-8") as f:
         f.write(f"[{timestamp}] ERROR - {reason} | URL: {url}\n")
+    print(f"REGISTRADO ERROR: {reason} en {url}")
 
 def load_state():
     state_file = "docs/crawl_state.json"
@@ -120,10 +162,10 @@ def git_commit_and_push():
         
         status = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
         if not status.stdout.strip():
-            return # No hay cambios para confirmar
+            return
             
         subprocess.run(["git", "add", "docs/", "logs/"], check=True)
-        subprocess.run(["git", "commit", "-m", "docs: actualizacion incremental de estado y logs"], check=True)
+        subprocess.run(["git", "commit", "-m", "docs: actualizacion incremental de estado, logs y agrupaciones"], check=True)
         subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=False)
         subprocess.run(["git", "push"], check=True)
     except Exception as e:
@@ -186,15 +228,16 @@ async def deep_crawl():
                     if content_hash in seen_hashes:
                         log_error(url, "CONTENIDO DUPLICADO EXACTO")
                     else:
-                        filename = os.path.join(output_dir, sanitize_filename(url))
-                        with open(filename, "w", encoding="utf-8") as md_file:
+                        filename = os.path.join(output_dir, get_group_filename(url))
+                        with open(filename, "a", encoding="utf-8") as md_file:
+                            md_file.write(f"\n\n---\n# ORIGEN: {url}\n\n")
                             md_file.write(result.markdown)
                         
                         state[url] = content_hash
                         seen_hashes.add(content_hash)
                         save_state(state)
                         git_commit_and_push()
-                        print(f"Guardado localmente: {filename}")
+                        print(f"Añadido al grupo local: {filename}")
                 
                 if depth < max_depth_allowed and hasattr(result, 'links'):
                     internal_links = result.links.get("internal", [])
@@ -212,4 +255,4 @@ async def deep_crawl():
 
 if __name__ == "__main__":
     asyncio.run(deep_crawl())
-                        
+
