@@ -14280,3 +14280,153 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-amazon-quick
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-amazon-quick)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-amazon-quick)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-amazon-quick)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Amazon Quick
+AI in Webex
+  * Webex MCP Servers
+  * Security Guides
+  * Cisco Onboarded MCP Servers
+  * Federated through External Registery
+  * Agentic Apps
+  * Connect Webex MCP Servers to External Clients
+    * [Overview](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers)
+    * [Amazon Quick](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-amazon-quick)
+    * [Claude Code](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-claude-code)
+    * [Claude Desktop](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-claude-desktop)
+    * [Codex](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-codex)
+    * [Copilot Studio](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-copilot-studio)
+    * [Cursor](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-cursor)
+    * [Gemini CLI](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-gemini-cli)
+    * [VS Code](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-vscode)
+  * Connect External MCP Servers to Webex AI
+  * [Beta Program Overview](https://developer.webex.com/mcp/docs/webex-developer-beta-program)
+
+
+## AI in Webex
+### Amazon Quick
+Connect Amazon Quick to a Webex MCP server.
+> Before configuring, you'll need OAuth 2.0 credentials. See [OAuth 2.0 setup instructions](https://developer.webex.com/docs/webex-agentic-mcp-servers#2-oauth-20) in the main guide.
+####  anchorPrerequisites
+anchor
+  * An **Amazon Quick Enterprise** subscription
+  * Admin access to the Amazon Quick console
+  * The Webex MCP server URL you want to connect to
+
+
+####  anchorSet Up the MCP Integration
+anchor
+###### 1. Open the Integrations Console
+  1. Sign in to the [Amazon Quick console](https://quicksight.aws.amazon.com)
+  2. In the left navigation, choose **Integrations**
+  3. Choose **Add**
+
+
+###### 2. Enter Server Details
+On the **Create Integration** page, fill in the following:
+  * **Name** — A descriptive name for your integration (e.g., `My Webex Meeting`) — this can be anything
+  * **Description** (optional) — Any text describing the integration's purpose
+  * **MCP server endpoint** — The full URL of the Webex MCP server (must start with `https://`)
+
+
+Choose **Next**.
+###### 3. Configure Authentication
+Select **User authentication (OAuth)** and provide the following credentials:
+You'll get the Client ID and Client Secret from your [Webex OAuth 2.0 Integration](https://developer.webex.com/docs/webex-agentic-mcp-servers#2-oauth-20)
+  * **Client ID** — The Client ID from your Webex Integration
+  * **Client Secret** — The Client Secret from your Webex Integration
+  * **Token URL** — `https://webexapis.com/v1/access_token`
+  * **Authorization URL** — `https://webexapis.com/v1/authorize`
+  * **Redirect URL** — The callback URL will be displayed by Amazon Quick after you select the authentication method
+
+
+> When creating your Webex Integration, use the **Redirect URL** shown in this step as the callback URL.
+Choose **Create and continue**.
+###### 4. Review and Enable Tools
+Amazon Quick connects to the Webex MCP server and automatically discovers the available tools. Review the list of discovered actions and enable the ones you want to use.
+Choose **Next** , then optionally share the integration with other users in your organization.
+####  anchorResources
+anchor
+  * [Amazon Quick Official Documentation](https://docs.aws.amazon.com/quick/latest/userguide/mcp-integration.html)
+
+
+##### In This Article
+  * [Prerequisites](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-amazon-quick#prerequisites)
+  * [Set Up the MCP Integration](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-amazon-quick#set-up-the-mcp-integration)
+  * [Resources](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-amazon-quick#resources)
+
+
+##### Related Resources
+  * [Amazon Quick Official Documentation](https://developer.webex.com/mcp/docs/Amazon%20Quick%20Official%20Documentation "Amazon Quick Official Documentation")
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)

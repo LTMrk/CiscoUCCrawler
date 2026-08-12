@@ -174,3 +174,4 @@ Code context:
 [2026-08-12T23:03:24.169216] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://devsupport.webex.com/requests
 [2026-08-12T23:03:25.855763] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (2532 bytes, 0 chars visible) | URL: https://status.webex.com
 [2026-08-12T23:03:33.539635] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/create/docs/agentic-apps-overview
+[2026-08-12T23:03:55.969847] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers
