@@ -77,3 +77,4 @@ Code context:
  781                       # Walk the redirect chain.  Playwright returns only the last
  782                       # hop, so we trace the `request.redirected_from` links until the
  783                       # first response that differs from the final one and surface its | URL: https://idreg.cloudapps.cisco.com/idreg/guestRegistration.do
+[2026-08-12T14:56:10.145915] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://software.cisco.com/download/navigator.html
