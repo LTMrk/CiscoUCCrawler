@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,8 +19,8 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
-  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)Show All Breadcrumbs
   * [Support](https://www.cisco.com/c/en/us/support/index.html)
   * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
@@ -28,211 +28,157 @@
   * [Configuration Examples and TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-configuration-examples-list.html)
 
 
-# Configure Backup and Restore from GUI in CUCM
+# Configure CUCM for Secure LDAP (LDAPS)
 ![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
 Download
 Print
 ### Available Languages
-  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
-  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
-  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
-  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
-  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
-  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
-  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
-  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
-  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
-  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
 
 
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.pdf) (835.3 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.pdf) (3.2 MB)   
 View with Adobe Reader on a variety of devices
-  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.epub) (1.0 MB)   
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.epub) (3.6 MB)   
 View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
-  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.mobi) (699.7 KB)   
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.mobi) (1.4 MB)   
 View on Kindle device or Kindle app on multiple devices
 
 
-Updated:June 10, 2026
-Document ID:214626
+Updated:June 5, 2026
+Document ID:215437
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
 ## Contents
-[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html#toc-hId-1132926206)
-[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html#toc-hId--674528257)
-[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html#toc-hId-16033217)
-[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html#toc-hId--1791421246)
-[Background Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html#toc-hId--1801924350)
-[Configure](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html#toc-hId-685588483)
-[Backup](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html#toc-hId-1376149957)
-[Restore](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html#toc-hId--431304506)
-[Troubleshoot](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html#toc-hId--441807610)
-[Related Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html#toc-hId--575492334)
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId--1323158057)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId-1164354776)
+[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId-1854916250)
+[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId-47461787)
+[Background Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId-36958683)
+[Verify and Install LDAPS Certificates](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId--1770495780)
+[Configure Secure LDAP Directory](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId-717017053)
+[Configure Secure LDAP Authentication](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId--1090437410)
+[Configure Secure Connections to AD for UC Services](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId-1397075423)
+[Verify](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId--410379040)
+[Troubleshoot](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId--544063764)
+[Related Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId-1943449069)
 ## Introduction
-This document describes the setup requirements for Backup and Restore features in CUCM from the Graphic User Interface (GUI).
+This document describes the procedure to update CUCM connections to AD from a non-secure LDAP connection to a secure LDAPS connection.
 ## Prerequisites
-### Requirements 
-Cisco recommends knowledge of these topics:
-  * `Cisco Unified Communications Manager (CUCM)`
-  * `Secure File Transfer Protocol (SFTP)`
-
-
+### Requirements
+Cisco recommends that you have knowledge of these topics:
+• AD LDAP Server  
+• CUCM LDAP Configuration
+• CUCM IM & Presence Service (IM/P)
 ### Components Used
-The information in this document is based on these software versions:
-  * `Cisco Unified Communications Manager` version 10.5.2.15900-8
-
-
+The information in this document is based on CUCM release 9.x and higher.
 The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
 ## Background Information
-The `Disaster Recovery System (DRS),`which can be invoked from CUCM Administration, provides full data backup and restore capabilities for all servers in the cluster. The DRS enables regularly scheduled automatic or user-invoked data backups.
-DRS restores its own parameters (backup device and schedule parameters) as part of the platform backup/restore. DRS backs up and restores the `drfDevice.xml` and `drfSchedule.xml` files. When the server is restored with these files, there is no need to reconfigure DRS backup device and schedule.
-The Disaster Recovery System includes these capabilities:
-  * A user interface in order to perform backup and restore tasks.
-  * A distributed system architecture with backup and restore functions.
-  * Scheduled backups
-  * Archive backups to a physical tape drive or remote SFTP server.
-
-
-The Disaster Recovery System contains two key functions: Master Agent (MA) and Local Agent (LA). 
-The Master Agent coordinates backup and restore activity with Local Agents. The system automatically activates the Master Agent and Local Agent on all nodes in the cluster.
-CUCM cluster (this involves the CUCM nodes and the `Cisco Instant Messaging & Presence (IM&P)` servers) must fulfill these requirements:
-  * `**Port 22**`open in order to establish the communication with SFTP server
-  * Validated that the `**IPsec**`and`**Tomcat**`certificates are not expired.
-In order to verify the validity of the certificates, navigate to `**Cisco Unified OS Administration > Security > Certificate Management**.`
-
-
-**Note** : In order to regenerate ipsec and Tomcat certificates, use the [Procedure to Regenerate Certificates in CUCM](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214231-certificate-regeneration-process-for-cis.html#anc18)
-  * Ensure that the Database Replication setup is completed and does not show any errors or mismatches from the CUCM Publisher and the IM&P Publisher servers.
-
-
-SFTP server settings must cover these requirements:  
-
-  * Log in credentials are available.
-  * It must be reachable from the CUCM server.
-  * Files are included in the path selected when a restore is performed.
-
-
-## Configure
-### Backup
-The `Disaster Recovery System` performs a cluster-level backup, which means that it collects backups for all servers in a CUCM cluster to a central location and archives the backup data to physical storage device.
-Step 1. To create backup devices on which data is saved; navigate to `**Disaster Recovery System > Backup > Backup Device**.`
-Step 2. Select `**Add New**;`define a`**Backup Device Name**`and enter the**SFTP** **values**. **Save**.
-[![Configure Backup and Restore from GUI - Configure Backup Device](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-00.png "Configure Backup and Restore from GUI - Configure Backup Device")
-Step 3. Create and edit backup schedules in order to back up data. Navigate to `**Backup > Scheduler**.`
-Step 4. Define a `**Schedule Name**.`Select the**`**Device Name**`**and check the`**Features**`based on your scenario.  
-
-[![Configure Backup and Restore from GUI - Scheduler Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-01.png "Configure Backup and Restore from GUI - Scheduler Configuration")
-Step 5. Configure a **scheduled** **backup** based on your scenario.
-[![Configure Backup and Restore from GUI - Frequency config](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-02.png "Configure Backup and Restore from GUI - Frequency config")
-Step 6. Select `**Save**`and notice the warning as shown in the image. Select`**OK**`in order to move forward.  
-
-[![Configure Backup and Restore from GUI - Pop-up Message](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-03.png "Configure Backup and Restore from GUI - Pop-up Message")
-Step 7. Once that `**Backup Schedule**`is created, select`**Enable Schedule**.`  
-
-[![Configure Backup and Restore from GUI - Scheduler Disabled](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-04.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-04.png "Configure Backup and Restore from GUI - Scheduler Disabled")
-Step 8. Wait until the status is changed to `**Enabled**.`  
-
-[![Configure Backup and Restore from GUI - Scheduler Enabled](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-05.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-05.png "Configure Backup and Restore from GUI - Scheduler Enabled")
-Step 9. If a Manual backup is required, navigate to `**Backup > Manual Backup**.`
-Step 10. Select the `**Device Name**`and check the`**Features**`based on your scenario.  
-
-[![Configure Backup and Restore from GUI - Manual Backup](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-06.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-06.png "Configure Backup and Restore from GUI - Manual Backup")
-Step 11. Select `**Start Backup**`and the operation is displayed in progress.
-[![Configure Backup and Restore from GUI - Backup Status](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-07.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-07.png "Configure Backup and Restore from GUI - Backup Status")
-Step 12. When the manual backup is completed, the completion message is displayed.  
-
-[![Configure Backup and Restore from GUI - Backup Completed](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-08.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-08.png "Configure Backup and Restore from GUI - Backup Completed")
-Step 13. To estimate the size of backup tar file that SFTP device uses, select `**Estimate Size**.`
-[![Configure Backup and Restore from GUI - Select Device and Feature](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-09.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-09.png "Configure Backup and Restore from GUI - Select Device and Feature")
-Step 14. Estimate size is displayed as shown in the image
-[![Configure Backup and Restore from GUI - Estimated Size](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-10.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-10.png "Configure Backup and Restore from GUI - Estimated Size")
+It is the responsibility of the Active Directory (AD) Administrator to configure AD Lightweight Directory Access Protocol (LDAP) for Lightweight Directory Access Protocol (LDAPS) . This includes the installation of CA-signed certificates that meet the requirement of an LDAPS certificate.
+[![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif "note-icon")
+**Note** : See this link for information in order to update from non-secure LDAP to secure LDAPS connections to AD for other Cisco Collaboration Applications: [Software Advisory: Secure LDAP Mandatory for Active Directory Connections](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html)
+## Verify and Install LDAPS Certificates
+Step 1. After the LDAPS certificate has been uploaded to the AD server, verify that LDAPS is enabled on the AD server with the **ldp.exe** tool.
+  1. Start the **AD** **Administration** Tool (**Ldp.exe**) on the AD server.
+  2. On the **Connection** menu, select **Connect**.
+  3. Enter the **Fully Qualified Domain Name** (FQDN) of the LDAPS server as the server.
+  4. Enter **636** as the port number.
+  5. Click **OK** , as shown in the image  
   
 
-**Note** : Estimate Size function is calculated based on previous successful backups and can vary in case configuration has been changed since the last backup.
-Step 15. To check the Status of the Backup while a backup runs, navigate to `**Backup > Backup Status**.`  
 
-[![Configure Backup and Restore from GUI - Backup Status Page](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-11.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-11.png "Configure Backup and Restore from GUI - Backup Status Page")
-Step 16. To consult the backup procedures performed in the system, navigate to `**Backup > History**.`  
 
-[![Configure Backup and Restore from GUI - Backup History](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-12.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-12.png "Configure Backup and Restore from GUI - Backup History")
-### Restore
-DRS restores mainly `drfDevice.xml` and `drfSchedule.xml` files. However, when a system data restoration is performed, you can choose which nodes in the cluster require to get restored.
-**Note** : Backup Device (SFTP server) must already be configured in order to retrieve the tar files from it and restore the system with these files.
-Step 1. Navigate to `**Disaster Recovery System > Restore > Restore Wizard**.`
-Step 2. Select the `**Device Name**`which stores the backup file to use for the restore. Select`**Next**.`
-[![Configure Backup and Restore from GUI - Restore Step1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-13.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-13.png "Configure Backup and Restore from GUI - Restore Step1")
-Step 3. Select the `**Backup File**`from the displayed list of available files as shown in the image. Selected backup file must include the information to restore.
-[![Configure Backup and Restore from GUI - Backup List](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-14.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-14.png "Configure Backup and Restore from GUI - Backup List")
-Step 4. From the list of available features, select the **feature** to restore.
-[![Configure Backup and Restore from GUI - Type of Restore](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-15.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-15.png "Configure Backup and Restore from GUI - Type of Restore")
-Step 5. Select the **nodes** in which to apply the restore.
-[![Configure Backup and Restore from GUI - Step 4 Restore](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-16.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-16.png "Configure Backup and Restore from GUI - Step 4 Restore")
-**Note** : One-Step Restore allows the restoration of the entire cluster if the Publisher has already been rebuilt or fresh installed. This option is visible ONLY if the backup file selected for restore is the backup file of the cluster and the features chosen for restore includes the feature(s) that is registered with both publisher and subscriber nodes.
-Step 6. Select `**Restore**`to start the process and Restore status is updated.
-[![Configure Backup and Restore from GUI - Restore Progress](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-17.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-17.png "Configure Backup and Restore from GUI - Restore Progress")
-Step 7. To verify the status of the restore, navigate to `**Restore > Current Status**.`  
-
-[![Configure Backup and Restore from GUI - Restore in Progress Sub](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-18.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-18.png "Configure Backup and Restore from GUI - Restore in Progress Sub")
-Step 8. `**Restore Status**`changes to`**SUCCESS**`when it is complete.
-  
-[![Configure Backup and Restore from GUI - Restore Completed](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-19.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-19.png "Configure Backup and Restore from GUI - Restore Completed")
-Step 9. For the changes to take effect, the system must be restarted.
-[![Configure Backup and Restore from GUI - CLI Reboot Server](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-20.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-20.png "Configure Backup and Restore from GUI - CLI Reboot Server")
-**Tip** : Use a supported procedure in order to restart the system [Shut Down or Restart the System ](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_administration-guide-1251/cucm_b_administration-guide-1251_chapter_01.html#CUCM_TK_S67B2DEC_00)
-Step 10. In order to consult the restore procedures performed in the system, navigate to `**Restore > History**.`  
-
-[![Configure Backup and Restore from GUI - Restore History](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-21.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in-21.png "Configure Backup and Restore from GUI - Restore History")
+[![Verify and Install LDAPS Certificates](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-00.png "Verify and Install LDAPS Certificates")
+For a successful connection on port 636, RootDSE information prints out in the right pane, as shown in the image:
+[![With Successful Connection on Port 636, RootDSE Info Prints out in Right Pane](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-01.png "With Successful Connection on Port 636, RootDSE Info Prints out in Right Pane")
+Repeat the procedure for port 3269, as shown in the image:
+[![Repeat Procedure for Port 3269](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-02.png "Repeat Procedure for Port 3269")
+For a successful connection on port 3269, RootDSE information prints out in the right pane, as shown in the image:
+[![For asuccessful Connection on Port 3269, RootDSE Info Prints out in Right Pane](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-03.png "For asuccessful Connection on Port 3269, RootDSE Info Prints out in Right Pane")
+Step 2. Obtain the root and any intermediate certificates that are part of the LDAPS server certificate and install these as tomcat-trust certificates on each of the CUCM and IM/P publisher nodes and as CallManager-trust on the CUCM publisher.
+The root and intermediate certificates that are part of an LDAPS server certificate, <hostname>.<Domain>.cer, are shown in the image:
+[![Root and Intermediate Certificates that are Part of LDAPS Server Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-04.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-04.png "Root and Intermediate Certificates that are Part of LDAPS Server Certificate")
+Navigate to CUCM publisher **Cisco Unified OS Administration > Security > Certificate Management**. Upload root as **tomcat-trust**(as shown in the image) and as **CallManager-trust** (not shown):
+[![Navigate to CUCM Publisher](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-05.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-05.png "Navigate to CUCM Publisher")
+Upload intermediate as **tomcat-trust**(as shown in the image) and as **CallManager-trust** (not shown):
+[![Upload Internediate as tomcat-trust](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-06.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-06.png "Upload Internediate as tomcat-trust")
+**Note:** If you have IM/P servers that are part of the CUCM cluster, you also need to upload these certificates to these IM/P servers.
+**Note:** As an alternative, you can install the LDAPS server certificate as tomcat-trust.
+Step 3. Restart **Cisco** **Tomcat** from the CLI of each node (CUCM and IM/P) in clusters. Additionally, for the CUCM cluster, verify that the Cisco DirSync service on the publisher node is started.
+In order to Restart the Tomcat service, you need to open a CLI session for each node and run the command **utils service restart Cisco Tomcat** , as shown in the image:
+[![Configure CUCM for Secure LDAP - Restart Tomcat](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-07.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-07.png "Configure CUCM for Secure LDAP - Restart Tomcat")
+Step 4. Navigate to CUCM publisher **Cisco Unified Serviceability > Tools > Control Center - Feature Services**, verify that the **Cisco DirSync** service is activated and started (as shown in the image), and restart the **Cisco CTIManager** service on each node if this is used (not shown):
+[![Navigate to CUCM Publisher and Verify that Service is Activated and Started](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-08.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-08.png "Navigate to CUCM Publisher and Verify that Service is Activated and Started")
+## Configure Secure LDAP Directory
+Step 1. Configure the CUCM LDAP Directory in order to utilize LDAPS TLS connection to AD on port 636.
+Navigate to **CUCM Administration > System > LDAP Directory**. Type the **FQDN** or the **IP address** of the LDAPS server for LDAP Server Information. Specify the LDAPS port of **636** and check the box for **Use TLS** , as shown in the image:
+[![Configure Secure LDAP Directory](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-09.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-09.png "Configure Secure LDAP Directory")
+[![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif "note-icon")
+**Note:** By default, after versions 10.5(2)SU2 and 9.1(2)SU3 FQDN configured in LDAP Server Information are checked against the Common Name of the certificate, in case the IP address is used instead of the FQDN, the command **utils ldap config ipaddr** is issued to stop the enforcement of FQDN to CN verification.
+Step 2. In order to complete the configuration change to LDAPS, click **Perform Full Sync Now** , as shown in the image:
+[![To Complete Configuration, Change LDAPS, Click Perform Full Sync Now](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-10.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-10.png "To Complete Configuration, Change LDAPS, Click Perform Full Sync Now")
+Step 3. Navigate to**CUCM Administration > User Management > End User** and verify that end-users are present, as shown in the image:
+[![Navigate to CUCM Administration, User Management, End User](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-11.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-11.png "Navigate to CUCM Administration, User Management, End User")
+Step 4. Navigate to **ccmuser** page (**https:// <ip address of cucm pub>/ccmuser**) in order to verify that the user log in is successful. 
+The ccmuser page for CUCM version 12.0.1 looks like this:
+[![Configure CUCM for Secure LDAP - Self Care Portal Login](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-12.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-12.png "Configure CUCM for Secure LDAP - Self Care Portal Login")
+The user can successfully log in after LDAP credentials are entered, as shown in the image:
+[![Configure CUCM for Secure LDAP - Self Care Portal Dashboard](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-13.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-13.png "Configure CUCM for Secure LDAP - Self Care Portal Dashboard")
+## Configure Secure LDAP Authentication
+Configure CUCM LDAP Authentication in order to utilize LDAPS TLS connection to AD on port 3269.
+Navigate to **CUCM Administration > System > LDAP Authentication**. Type the **FQDN** of the **LDAPS** **server** for LDAP Server Information. Specify the LDAPS port of **3269** and check the box for **Use TLS** , as shown in the image:
+[![Configure Secure LDAP Authentication](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-14.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-14.png "Configure Secure LDAP Authentication")
+[![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif "note-icon")
+**Note:** If you have Jabber clients, it is recommended to use port 3269 for LDAPS Authentication, since Jabber timeout for log in can occur if a secure connection to the global catalog server is not specified.
+## Configure Secure Connections to AD for UC Services
+If you need to secure UC services that utilize LDAP, configure these UC services to utilize port 636 or 3269 with TLS.
+Navigate to **CUCM administration > User Management > User Settings > UC Service**. Find Directory Service that points to AD. Type the **FQDN** of the **LDAPS server** as the Host Name/IP Address. Specify the port as **636** or **3269** and **protocol TLS** , as shown in the image:
+[![Configure Secure Connections to AD for UC Services](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-15.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-15.png "Configure Secure Connections to AD for UC Services")
+[![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif "note-icon")
+**Note:** The Jabber client machines also need to have the tomcat-trust LDAPS certificates that were installed on CUCM installed in the certificate management trust store of the Jabber client machine in order to allow the Jabber client to establish an LDAPS connection to AD.
+## Verify
+Use this section to confirm that your configuration works properly.
+In order to verify the actual LDAPS certificate/certificate chain sent from the LDAP server to CUCM for the TLS connection, export the LDAPS TLS Certificate from a CUCM packet capture. This link provides information on how to export a TLS certificate from a CUCM packet capture: [How to Export TLS Certificate from CUCM Packet Capture](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215438-how-to-export-tls-certifcate-from-cucm-p.html)
 ## Troubleshoot
-This section provides information to troubleshoot your configuration.
-CUCM cluster (this involves the CUCM nodes and the Cisco Instant Messaging & Presence servers) must fulfill these requirements:
-  * `Port 22` open in order to establish the communication with SFTP server.
-  * Validated that the `IPsec` and `Tomcat` certificates are not expired.
-In order to verify the validity of the certificates, navigate to `**Cisco Unified OS Administration > Security > Certificate Management**.`
-
-
-**Note** : To regenerate ipsec and Tomcat certificates, use the [Procedure to Regenerate Certificates in CUCM](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214231-certificate-regeneration-process-for-cis.html#anc18)
-  * Ensure that the Database Replication setup is completed and does not show any errors or mismatches from the CUCM Publisher and the IM&P Publisher servers.
-  * Validate reachability between the servers and the SFTP Server.
-  * Validate that all the servers in the cluster are authenticated with the command `**show network cluster**.`
-
-
-When Backup or Restore failures are reported and further assistance is required, this set of logs must be collected and shared with Technical Assistance Center (TAC):
-  * Cisco DRF Master Logs
-  * Cisco DRF Local Logs
-  * Failure logs from the DRF Current Status page
-  * Timestamp of the issue
-
-
+There is currently no specific information available to troubleshoot this configuration.
 ## Related Information
-  * [Supported SFTP Servers](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/14SU2/adminGd/cucm_b_administration-guide-14su2/cucm_m_back-up-the-system-14.html#reference_B453D11857C229177467D086484CA0DA)
+  * This link provides access to a video that walks through the LDAPS configurations: [Secure LDAP Directory and Authentication Walkthrough Video](https://www.youtube.com/watch?v=atQuRZv7g2E&quot;%20target=&quot;_self)
+  * [Technical Support & Documentation - Cisco Systems](https://www.cisco.com/c/en/us/support/index.html?referring_site=bodynav)
 
 
 ### Revision History  
 | Revision  | Publish Date  | Comments  |  
 | --- | --- | --- |  
-| 6.0  |  10-Jun-2026   | Updated Style Requirements and Formatting.  |  
-| 5.0  |  15-Jul-2025   | Updated Alt Text, SEO, and Formatting.  |  
-| 4.0  |  04-Nov-2022   | Requested documentation has been found to adhere to addressing and domain standards and is ready for external publication.  |  
-| 3.0  |  29-Oct-2021   | Minor change  |  
-| 2.0  |  28-Oct-2021   | Background information was expanded with information for the SFTP settings DB replication.  |  
-| 1.0  |  30-Oct-2019   | Initial Release  |  
-[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html "Back to Top")
+| 6.0  |  05-Jun-2026   | Recertification  |  
+| 4.0  |  05-Jun-2024   | Updated Formatting.  |  
+| 3.0  |  12-May-2023   | Removed PII. Added Alt Text. Updated for Style Requirements, Machine Translation and Formatting.  |  
+| 2.0  |  02-Feb-2023   | Added image alt text. Updated for formatting, style requirements and machine translation.  |  
+| 1.0  |  23-Aug-2021   | Initial Release  |  
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html "Back to Top")
 ![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
 ### Contributed by Cisco Engineers
-  * Alejandra Garcia Arzaluz
-Technical Solutions Specialist
+  * Adrian Esquillo
+Technical Consulting Engineer
 
 
 ### Was this Document Helpful?
 Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
 ### Contact Cisco
-  * [Open a Support Case ![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html)
+  * [Open a Support Case ![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
   * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
 
 
