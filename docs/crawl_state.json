@@ -2022,5 +2022,6 @@
   "https://developer.webex.com/docs/api/v1/meeting-invitees/create-a-meeting-invitee": "5e35eb1ac18f1ca70fc42b472cb7dcff14656e083a3db0eb5158ff908fdb46a3",
   "https://developer.webex.com/docs/api/v1/meeting-invitees/create-meeting-invitees": "b78f5e3971ffe2c3faf5f98c4f52d996f42e7807c4da89aaa52cc77fb4e428bb",
   "https://developer.webex.com/docs/api/v1/meeting-invitees/get-a-meeting-invitee": "92046309b8ec89941f6af7891d1f12fde5047200dfafc646317f54c3ac868313",
-  "https://developer.webex.com/docs/api/v1/meeting-invitees/update-a-meeting-invitee": "e38e6b9bedc3a4730f11ad8220695ebdf0386b7db16c523d66de8cb85e2e960a"
+  "https://developer.webex.com/docs/api/v1/meeting-invitees/update-a-meeting-invitee": "e38e6b9bedc3a4730f11ad8220695ebdf0386b7db16c523d66de8cb85e2e960a",
+  "https://developer.webex.com/docs/api/v1/meeting-invitees/delete-a-meeting-invitee": "9d754fe3985baaa38e7ad7150db5241568e1d2eb0873a51737b2fd3acb83cf35"
 }
