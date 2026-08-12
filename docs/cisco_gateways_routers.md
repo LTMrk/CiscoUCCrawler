@@ -25065,3 +25065,80 @@ For more information about the Cisco Product Warranties, go to: <https://www.cis
 To subscribe to receive end-of-life/end-of-sale information, go to: <https://cway.cisco.com/mynotifications>.
 Any authorized translation issued by Cisco Systems or affiliates of this end-of-life Product Bulletin is intended to help customers understand the content described in the English version. This translation is the result of a commercially reasonable effort; however, if there are discrepancies between the English version and the translated document, please refer to the English version, which is considered authoritative.
 ### Learn more
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/products-release-notes-list.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/products-release-notes-list.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/products-release-notes-list.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/products-release-notes-list.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/products-release-notes-list.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Routers](https://www.cisco.com/c/en/us/support/routers/category.html)
+  * [Cisco 4000 Series Integrated Services Routers](https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/series.html)
+
+
+# Release Notes
+Some links below may open a new browser window to display the document you selected.  
+|  View Documents by Topic  Choose a Topic Cisco IOS XE 17.x Releases Cisco IOS XE 16.x Releases [Choose a Topic](javascript:void\(0\))
+  * Choose a Topic
+  * Cisco IOS XE 17.x Releases
+  * Cisco IOS XE 16.x Releases
+
+ |  
+| --- |  
+Cisco IOS XE 17.x Releases
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE 17.18.x](https://www.cisco.com/c/en/us/td/docs/routers/access/isr4400/Release-notes/17-18-x/isr4k-rel-notes-xe-17-18.html)
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE 17.16.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-16/isr4k-rel-notes-xe-17-16.html) 24/Dec/2024
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE 17.15.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-15/isr4k-rel-notes-xe-17-15.html) 05/Mar/2026
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE 17.14.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-14/isr4k-rel-notes-xe-17-14.html) 29/Apr/2024
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE 17.13.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-13/isr4k-rel-notes-xe-17-13.html) 16/Dec/2023
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Dublin 17.12.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-12/isr4k-rel-notes-xe-17-12.html) 05/Aug/2026Updated
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Dublin 17.11.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-11/isr4k-rel-notes-xe-17-11.html) 06/Apr/2023
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Dublin 17.10.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-10/isr4k-rel-notes-xe-17-10.html) 16/Dec/2022
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Cupertino 17.9.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-9/isr4k-rel-notes-xe-17-9.html) 05/Aug/2026Updated
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Cupertino 17.8.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-8/isr4k-rel-notes-xe-17-8.html) 22/Apr/2022
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Cupertino 17.7.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-7/isr4k-rel-notes-xe-17-7.html) 17/Dec/2021
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Bengaluru 17.6.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-6/isr4k-rel-notes-xe-17-6.html) 18/Oct/2024
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Bengaluru 17.5.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-5/isr4k-rel-notes-xe-17-5.html) 31/Mar/2021
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Bengaluru 17.4.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-4/isr4k-rel-notes-xe-17-4.html) 01/Dec/2020
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Amsterdam 17.3.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-3/isr4k-rel-notes-xe-17-3.html) 28/Oct/2023
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Amsterdam 17.2.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-2/isr4k-rel-notes-xe-17-2.html) 09/Apr/2020
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Amsterdam 17.1.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-17-1/isr4k-rel-notes-xe-17-1.html) 18/Nov/2019
+Cisco IOS XE 16.x Releases
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Gibraltar 16.12.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-16-12/isr4k-rel-notes-xe-16-12.html) 05/Aug/2019
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Gibraltar 16.11.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-16-11/isr4k-rel-notes-xe-16-11.html) 19/Mar/2019
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Gibraltar 16.10.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-16-10/isr4k-rel-notes-xe-16-10.html) 19/Jul/2018
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Fuji 16.9.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-16-9/isr4k-rel-notes-xe-16-9.html) 19/Jul/2018
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Fuji 16.8.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-16-8/isr4k-rel-notes-xe-16-8.html) 24/Apr/2018
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Fuji 16.7.x](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-16-7/isr4k-rel-notes-xe-16-7.html) 17/Nov/2017
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Everest 16.6](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-16-6/isr4k-rel-notes-xe-16-6.html) 28/Jul/2017
+      * [Release Notes for Cisco 4000 Series ISRs, Cisco IOS XE Everest 16.5](https://www.cisco.com/c/en/us/td/docs/routers/access/4400/release/xe-16-rn/isr4k-rel-notes-xe-16-5.html) 17/Jul/2017
+
+
+  * 
+
+## Support Documentation
+  * [All Support Documentation for this Series](https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/series.html#~tab-documents)
+
+
