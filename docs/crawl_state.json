@@ -1932,5 +1932,6 @@
   "https://help.webex.com/en-us/article/njvdjf2/Configure-Webex-Calling-for-your-organization": "35c174835803ab6d476934391a00d34f61f2c9e6f9e3c034d02484e6f4d822c4",
   "https://apphub.webex.com/applications/call-control-call-control-llc": "8dc0061401950ba0b128682b2dd1badbcb86617a29be8a9a2a0b8a99ab7c766b",
   "https://developer.webex.com/docs/api/v1/user-call-settings/list-messages": "1af45b84d7db69c6dddab5da0974885f55c1d9087fac0a2fdc04e049298a16b3",
-  "https://developer.webex.com/docs/api/v1/user-call-settings/delete-message": "1b28343da5aa3375d17473eb15888e51b678631a0b801592d27f09656ec0b5af"
+  "https://developer.webex.com/docs/api/v1/user-call-settings/delete-message": "1b28343da5aa3375d17473eb15888e51b678631a0b801592d27f09656ec0b5af",
+  "https://developer.webex.com/docs/api/v1/user-call-settings/mark-as-read": "57e373d4e527da365de3aef50b801500a1067322b9b980b025fc6de33ed756a7"
 }
