@@ -1,6 +1,7 @@
 import os
 import asyncio
 import re
+import gzip
 import xml.etree.ElementTree as ET
 import requests
 from crawl4ai import AsyncWebCrawler, CacheMode
@@ -11,22 +12,34 @@ def sanitize_filename(url):
     return clean[:100] + ".md"
 
 def expand_sitemap(url):
-    if not url.endswith(".xml"):
+    if not url.endswith((".xml", ".gz")):
         return [url]
     try:
-        print(f"Expandiendo sitemap: {url}")
-        resp = requests.get(url, timeout=15)
-        if resp.status_code == 200:
-            root = ET.fromstring(resp.content)
-            namespaces = {'ns': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
-            locs = [loc.text for loc in root.findall('.//ns:loc', namespaces)]
-            if not locs:
-                locs = [loc.text for loc in root.findall('.//{*}loc')]
-            print(f"Encontradas {len(locs)} URLs en el sitemap.")
-            return locs[:30] # Límite de seguridad por ejecución
+        print(f"Descargando sitemap: {url}")
+        resp = requests.get(url, timeout=20)
+        if resp.status_code != 200:
+            return []
+        
+        content = resp.content
+        if url.endswith(".gz") or content.startswith(b'\x1f\x8b'):
+            content = gzip.decompress(content)
+            
+        root = ET.fromstring(content)
+        
+        # Soporte para índices de sitemaps anidados
+        if root.tag.endswith('sitemapindex'):
+            locs = []
+            for sitemap in root.findall('.//{*}sitemap/{*}loc'):
+                if sitemap.text:
+                    locs.extend(expand_sitemap(sitemap.text))
+            return locs
+
+        locs = [loc.text for loc in root.findall('.//{*}loc') if loc.text]
+        print(f"Encontradas {locs.__len__()} URLs en el sitemap.")
+        return locs[:40] # Límite operativo por ejecución
     except Exception as e:
         print(f"Error procesando sitemap {url}: {e}")
-    return [url]
+    return []
 
 async def crawl_urls():
     output_dir = "docs"
@@ -43,27 +56,32 @@ async def crawl_urls():
     for item in raw_inputs:
         urls.extend(expand_sitemap(item))
 
+    # Filtrar rutas de sitemaps para procesar únicamente documentos finales
+    valid_urls = [u for u in urls if not u.endswith((".xml", ".gz", ".zip"))]
+
     async with AsyncWebCrawler(verbose=True) as crawler:
-        for url in urls:
+        for url in valid_urls:
             print(f"Procesando: {url}")
             try:
                 result = await crawler.arun(
                     url=url,
-                    word_count_threshold=15,
+                    word_count_threshold=20,
                     exclude_external_links=True,
                     remove_overlay_elements=True,
                     process_iframes=True,
                     cache_mode=CacheMode.BYPASS,
                     magic=True,
-                    css_selector="main, article, .content, #main-content"
+                    excluded_tags=["nav", "footer", "header", "aside", "script", "style"],
+                    css_selector="#fw-content, main, article, .cisco-content"
                 )
                 if result.success and result.markdown:
                     filename = os.path.join(output_dir, sanitize_filename(url))
                     with open(filename, "w", encoding="utf-8") as md_file:
                         md_file.write(result.markdown)
-                    print(f"Guardado exitosamente: {filename}")
+                    print(f"Guardado: {filename}")
                 else:
-                    print(f"Error o contenido vacío en {url}")
+                    print(f"Contenido vacío o fallo en {url}")
+                await asyncio.sleep(1)
             except Exception as e:
                 print(f"Excepción crítica en {url}: {str(e)}")
 
