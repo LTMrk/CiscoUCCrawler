@@ -18825,3 +18825,72 @@ According to SEMVER recommendations to deprecate functionality in a previously r
 [Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
 © 2026 Cisco and/or its affiliates. All rights reserved.
 [](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+
+
+---
+# ORIGEN: https://developer.webex.com/my-apps/new/embedded-app
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+Webex developers: Get 50% off WebexOne with code **WX1DEVELOPER50** — [Register now!](https://www.webexone.com/)
+Webex developers: Get 50% off WebexOne with code **WX1DEVELOPER50** — [Register now!](https://www.webexone.com/)
+[Skip to main content](https://developer.webex.com/#main-content)
+#  BuildAI Serviceson Webex
+Everything you need to build, integrate, and scale on the Webex platform — from bots and integrations to AI-powered agents.
+[Start building](https://developer.webex.com/my-apps/new)[![Cisco home page AI Assistant symbol](https://developer.webex.com/)Go to Docs with AI Assistant](https://developer.webex.com/explore/docs)
+![](https://developer.webex.com/static/images/hero-illustration.9a1679acd6ec6532b6adbc22d9b67e1a.png)
+From real-time intelligence to autonomous agents — build what's next.
+MCP integrationsReal-time meeting intelligenceAI-powered agentsSmart workflows & automation
+MCP integrationsConnect to any tool.Connect agents to external tools, APIs, and data sources through the Model Context Protocol. Build composable integrations that any AI agent can discover and use.
+[Learn more](https://developer.webex.com/docs/webex-mcp-server-overview)
+![](https://developer.webex.com/static/images/mcp-deskpro.7e10bf81231d2e8c8b6fa179adf036aa.png)
+Why build on WebexNot only do you get the innovation you need, but the security and reliability only Cisco can deliver.
+[Start For Free→](https://developer.webex.com/my-apps/new)
+* * *
+Reach millions on App HubList your apps and AI agents on the Webex App Hub — where millions of users discover integrations.Explore Webex App HubAI-native platformBuilt-in support for MCP, A2A, and LLM — bring intelligent agents to life without building infrastructure.[View AI docs](https://developer.webex.com/docs/agentic-apps-overview)Market leaderGartner names Cisco as a Meeting Solutions Leader for fifteenth time.Read Analysis
+Everything you need to build, test, and launch on Webex
+Everything you need to start building on Webex — from sandbox environments to community support.[Learn More→](https://developer.webex.com/explore/docs)
+Go from idea to prototype in minutes.
+Launch a fully provisioned sandbox environment instantly — no setup, no wait. Start building, testing, and iterating on real Webex APIs right away.[Request sandbox](https://developer.webex.com/docs/developer-sandbox-guide)
+* * *
+Ship faster with production-ready code.
+* * *
+Learn by doing with hands-on guides.
+* * *
+Build alongside thousands of developers.
+* * *
+Join thousands of developers building on WebexStart building today or reach out to learn about partnership and integration opportunities.
+[Start building](https://developer.webex.com/docs/getting-started)[Contact us](https://app.smartsheet.com/b/form/ded8205ca16b47b8a77f99358c934d67)
+350+apps built this month
+500+active developers
+3agentic protocols
+10xAI service growth
+## Connect
+  * [Support](https://developer.webex.com/support)
+  * Developer Community
+  * [Developer Events](https://developer.webex.com/blog/categories/events)
+  * Contact Sales
+
+
+## Handy Links
+  * Webex Ambassadors
+  * Webex App Hub
+
+
+## Resources
+  * Open Source Bot Starter Kits
+  * Download Webex
+  * DevNet Learning Labs
+
+
+  * [Terms of Service](https://developer.webex.com/terms-of-service)
+  * Privacy Policy
+  * Cookie Policy
+  * Trademarks
+
+
+© 2026 Cisco and/or its affiliates. All rights reserved.
+You need to be signed in
+Please sign in to your Webex Account to Access AI Assist.
+[Sign in](https://developer.webex.com/login)
