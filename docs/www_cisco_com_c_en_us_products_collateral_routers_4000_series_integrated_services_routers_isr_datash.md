@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,8 +19,8 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.html)
-  * [...](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.html)Show All Breadcrumbs
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Routers](https://www.cisco.com/c/en/us/products/routers/index.html)
   * [Branch Routers](https://www.cisco.com/c/en/us/products/routers/branch-routers/index.html)
@@ -29,141 +29,236 @@
   * [Data Sheets](https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/datasheet-listing.html)
 
 
-# Asynchronous Terminal Server Interface Modules for Cisco 4000 Series Integrated Services Routers Data Sheet
+# High-Density Analog Voice and Fax Service Modules for Cisco 4000 Series ISRs Data Sheet
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.html)
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.html)
 Download
 Print
 ### Available Languages
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.html)
 
 
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.pdf) (360.5 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.pdf) (611.3 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:January 4, 2018
-Document ID:1515105255802109
+Updated:December 18, 2017
+Document ID:1513589642848101
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
 Product overview
-Asynchronous interface modules provide high-density terminal server functionality to Cisco® 4000 Series Integrated Services Routers (ISRs). Up to 200 terminal server connections can be supported on a single platform—eight more than are supported on the Cisco ISR G2. 
-Asynchronous interface modules are offered as both a Network Interface Module (NIM) and a high-density Service Module (SM) (Figure 1).
-Table 1 lists the asynchronous NIM and SM SKUs.
-**Table 1.** Cisco asynchronous interface modules for 4000 Series ISRs  
-|  SKU  |  Description  |  Supported interface  |  
-| --- | --- | --- |  
-|  NIM-16A  |  16-Port Async Serial NIM  |  RS-232  |  
-|  NIM-24A  |  24-Port Async Serial NIM  |  RS-232  |  
-|  SM-X-64A  |  64-Port Async Serial SM  |  RS-232  |  
-**Figure 1.** Asynchronous interface modules for Cisco 4000 Series ISRs 
-[![](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.docx/_jcr_content/renditions/datasheet-c78-739968_0.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.docx/_jcr_content/renditions/datasheet-c78-739968_0.jpg "Related image, diagram or screenshot.")
-Applications
-These modules provide highly flexible connections that allow access to EIA-232 ports across a LAN or WAN. 
-The asynchronous interface modules for the 4000 Series ISRs are specifically designed for terminal server use. This capability allows for out-of-band management of console ports, giving the network operator full console access to a network of remote devices from a central location. 
-The asynchronous interface modules for the Cisco 4000 Series ISRs do not support Serial Line Internet Protocol (SLIP) or Point-to-Point Protocol (PPP). Asynchronous routing and data encapsulation features are thus not supported.
-Platform support
-The NIM-16A and NIM-24A are supported in the NIM slots of all 4000 Series ISR platforms, whereas the SM-X-64A is supported only on 4000 Series platforms with an SM-X slot. 
-Table 2 lists the platforms that support each asynchronous interface module type.
-**Table 2.** Platform support  
-|  Module   |  Supporting platforms   |  
+The Cisco® High-Density Analog Voice and Fax Service Modules provide enterprises, managed services providers, and service providers the ability to directly connect public-switched telephone networks (PSTNs) and existing telephony equipment to Cisco 4000 Series Integrated Services Routers (ISRs). These fixed-port (FXS and FXO) modules provide Dual-Tone Multifrequency (DTMF) detection, voice compression and decompression, call progress tone generation, Voice Activity Detection (VAD), echo cancellation, and adaptive jitter buffering.
+[![](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.docx/_jcr_content/renditions/datasheet-c78-739991_0.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.docx/_jcr_content/renditions/datasheet-c78-739991_0.jpg "Related image, diagram or screenshot.")
+Product details
+The FXO port is used to connect to PBX or key systems, or to provide off-premises connections to the PSTN. It supports battery reversal detection and caller ID. The FXO port is also used to connect to analog Centralized Automatic Message Accounting (CAMA) trunks to provide dedicated E-911 service (in North America only).
+The FXS port is used to connect analog phones, modems, fax machines, and speaker phones to an enterprise IP voice system, so you can use them as extensions to your Cisco or third-party IP call-control system. Having these devices tightly integrated with the IP-based phone system is advantageous for increased manageability, scalability, and cost-effectiveness. The Direct Inward Dialing (DID) port is used to provide off-premises DID connection from the central office. It serves only incoming calls from the PSTN. Caller ID is not supported in DID mode.
+Cisco High-Density Analog Voice and Fax Service Modules are available in either a single-wide or double-wide form factor, as depicted in Table 1.
+**Table 1.** Form factors  
+|  Model  |  Picture  |  
 | --- | --- |  
-|  NIM-16A  |  Cisco 4221, 4321, 4331, 4351, 4431, 4451  |  
-|  NIM-24A  |  Cisco 4221, 4321, 4331, 4351, 4431, 4451  |  
-|  SM-X-64A  |  Cisco 4331, 4351, 4451  |  
-The number of asynchronous interface modules supported on each platform is governed only by the number of available slots. A maximum terminal server port count of 200 is achieved in the 4351 and 4451 ISRs by combining three NIM-24A modules with two SM-X-64A modules.
-Table 3 lists the maximum number of asynchronous interface modules per platform.
-**Table 3.** Maximum number of asynchronous interface modules per ISR  
-|  Platform   |  NIM-16A  |  NIM-24A  |  Maximum NIMs  |  Maximum   
-SM-X-64A  |  
+|  SM-X-8FXS/12FXO ●Single-wide service module   |  [![](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.docx/_jcr_content/renditions/datasheet-c78-739991_1.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.docx/_jcr_content/renditions/datasheet-c78-739991_1.jpg "Related image, diagram or screenshot.")  |  
+|  SM-X-16FXS/2FXO ●Single-wide service module   |  [![](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.docx/_jcr_content/renditions/datasheet-c78-739991_2.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.docx/_jcr_content/renditions/datasheet-c78-739991_2.jpg "Related image, diagram or screenshot.")  |  
+|  SM-X-24FXS/4FXO ●Single-wide service module   |  [![](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.docx/_jcr_content/renditions/datasheet-c78-739991_3.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.docx/_jcr_content/renditions/datasheet-c78-739991_3.jpg "Related image, diagram or screenshot.")  |  
+|  SM-X-72FXS ●Double-wide service module   |  [![](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.docx/_jcr_content/renditions/datasheet-c78-739991_4.png)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.docx/_jcr_content/renditions/datasheet-c78-739991_4.png "Related image, diagram or screenshot.")  |  
+Note: These service modules are supported only with the Cisco 4000 Series ISRs.
+Features and benefits
+The new generation of Cisco High-Density Analog Voice and Fax Service Modules improves upon the previous high-density analog and digital extension modules (EVMs). These improvements are highlighted below:
+●**On-board Digital Signal Processor (DSP):** The FXO and FXS service modules contain an onboard DSP and don’t require the router to have a dedicated packet voice DSP module (PVDM) on the motherboard. The DSP on the voice module is necessary for the voice features. It also provides for echo cancellation of up to 128-ms echo-tail length for demanding network conditions.
+●**Support for Online Insertion and Removal (OIR):** The FXS and FXO service modules support Online Insertion and Removal (OIR), reducing the downtime required for new or replacement modules. The service modules can be inserted into the SM-X slot on the supported Cisco 4000 Series ISRs without powering off the router.
+●**FXS-E (extended loops) support:** FXS ports on the new modules support FXS-E with the following details:
+◦Higher loop current (35 mA) to accommodate specialty phones
+◦Longer loop length for loops with 26 AWG wire, up to 11,000 feet (3400 meters)
+◦Higher ringing voltage (65 Vrms, no load)
+Refer to Table 2 for the number of FXS-E ports in each module. The SM-X-72FXS module supports two FXS-E modes:
+Mode 1 (default): First 16 ports are FXS-E enabled, with the remaining 56 ports as regular FXS. 
+Mode 2: First 56 ports are FXS-E enabled, with the remaining 16 ports disabled.
+**Note:** Switching between the modes requires reload of the ISR chassis.
+●**FXO failover bypass ports:** A failover bypass port, also called a failover trunk bypass, provides a way to use designated analog phone ports to make phone calls through the PSTN during a power outage. Table 2 summarizes the supported FXO failover bypass feature in each service module.
+In addition to the features listed above, the service modules support:
+●Caller line ID
+●G.711, G.729a, and G.726
+●G722, iLBC, GSMAMR-NB, and Internet Speech Audio Codec (iSAC)
+●Fax detection, pass-through, and relay (T.38)
+●Modem pass-through
+●DTMF detection
+●Echo cancellation
+●Voice activity detection
+●Comfort noise generation
+●Real-Time Control Protocol (RTCP)
+●Acoustic shock protection
+●Real-Time Transport Protocol (RTP)
+●RFC 4733 Digit Relay
+●Noise reduction is on the roadmap
+The FXS features include:
+●Support for either FXS or DID functionality
+●Message-Waiting Indicator (MWI)
+●Cable detection: GR909 line test
+The FXO features include:
+●Support for both ground-start and loop-start modes
+●Call Detail Record (CDR) information
+●Support for interworking with Cisco Unified Communications Manager (Skinny Client Control Protocol [SCCP]), H.323, Session Initiation Protocol (SIP), and Media Gateway Control Protocol (MGCP) 1.0
+●Cable detection
+●Overload protection
+**Table 2.** Feature and port comparison  
+|  Part number  |  Number of FXS ports  |  Number of FXO ports  |  FXO failover bypass ports  |  FXS-E enabled ports  |  
 | --- | --- | --- | --- | --- |  
-|  Cisco 4221, 4321   |  2  |  2  |  2  |  Not supported  |  
-|  Cisco 4331   |  2 (3*)  |  2 (3*)  |  2 (3*)  |  1   |  
-|  Cisco 4351, 4451   |  3 (5*)  |  3 (5*)  |  3 (5*)  |  2  |  
-|  Cisco 4431   |  3   |  3  |  3  |  Not supported  |  
-* When using SM-X-NIM-ADPTR. One 16- or 24-port module is supported per adapter. The Cisco 4331 ISR supports one adapter. The Cisco 4351 and 4451 ISRs support two adapters. The maximum number of SM-X-64A modules in this table assumes that no SM-X-NIM-ADPTR is being used for NIMs, 
-Software requirements
-Table 4 lists the minimum Cisco IOS® Software release required for each module.
-**Table 4.** Minimum Cisco IOS Software release  
-|  Module   |  Minimum Cisco IOS Software release   |  Cisco IOS XE feature set   |  
-| --- | --- | --- |  
-|  NIM-16A  |  16.3.1   |  IP Base and up   |  
-|  NIM-24A  |  16.3.1  |  IP Base and up  |  
-|  SM-X-64A  |  16.6.1  |  IP Base and up  |  
-Connectors and cabling
-Asynchronous interface modules are connected to RS-232 ports on network devices with what is commonly called an “Octal cable.” An Octal cable is an 8-port asynchronous cable consisting of an 8-port high-density connector fanning out into eight individual cables, each with an RJ-45 connector. Optional RJ-45- to DB-25 modular adapters are required when a conversion from RJ-45 to DB-25 is needed. 
-The 8-port connector is identical to the connector type used on the previous ISR platforms, and the asynchronous interface modules will thus support the use of the previous-generation asynchronous cable type CAB-HD8-ASYNC. 
-Table 5 lists the high-density 8-port EIA-232 asynchronous cables supported on the asynchronous interface modules.
-**Table 5.** Cables supported on the asynchronous interface modules  
-|  Cable SKU   |  Description   |  
+|  SM-X-8FXS/12FXO  |  8  |  12  |  8  |  8  |  
+|  SM-X-16FXS/2FXO  |  16  |  2  |  2  |  16  |  
+|  SM-X-24FXS/4FXO  |  24  |  4  |  4  |  16  |  
+|  SM-X-72FXS  |  72  |  –  |  –  |  Mode 1: 16 (FXS-E)/ 56 (FXS) Mode 2: 56 (FXS-E)/16 (disabled)  |  
+Analog phone connectivity
+Cisco High-Density Analog Voice and Fax Service Modules are ideal for analog phone deployments ranging from centralized to sparsely concentrated or distributed topologies. The 4000 Series ISRs offer many supplementary analog calling features, depending on the call control and signaling type used. Table 3 lists the supplementary analog calling features available.
+**Table 3.** Supplementary analog features available on 4000 Series ISRs using FXS and FXO service modules  
+|  Feature  |  SCCP features with Cisco Unified Communications Manager  |  SCCP features with Cisco Unified Communications Manager Express  |  SIP features with Cisco Unified Communications Manager  |  
+| --- | --- | --- | --- |  
+|  Basic call  |  X  |  X  |  X  |  
+|  Call forward all  |  X  |  X  |   |  
+|  Call forward busy  |  X  |  X  |   |  
+|  Call forward cancel  |  X  |  X  |   |  
+|  Call forward no answer  |  X  |  X  |   |  
+|  Call hold or resume  |  X  |  X  |  X  |  
+|  Call pickup group  |  X  |  X  |   |  
+|  Call pickup local  |  X  |  X  |   |  
+|  Call transfer blind  |  X  |  X  |   |  
+|  Call transfer consultative  |  X  |  X  |  X  |  
+|  Call waiting  |  X  |  X  |  X  |  
+|  Caller ID  |  X  |  X  |  X  |  
+|  Caller ID on call waiting  |  X  |  X  |  X  |  
+|  Malicious caller ID  |  X  |   |   |  
+|  Conference call  |  Up to 3 parties  |  Up to 3 parties  |  Up to 3 parties  |  
+|  Ad hoc conference call  |  Up to 3 parties  |  Up to 3 parties  |   |  
+|  Meet-Me conference call  |  X  |  X  |   |  
+|  Directed call park  |   |  X  |   |  
+|  Directed call pickup  |   |  X  |   |  
+|  Directed call pickup of ringing extension  |   |  X  |   |  
+|  Redial  |  X  |  X  |   |  
+|  Speed dial  |  X  |  X  |   |  
+|  Call toggle  |  X  |  X  |  X  |  
+|  Music on hold  |  X  |   |   |  
+|  Shared-line support*  |  X  |   |   |  
+|  Shared-line privacy  |  X  |   |   |  
+|  Precedence and preemption  |  X  |   |   |  
+|  Call back on busy  |  X  |   |   |  
+|  DC voltage visual message-waiting indicator (VMWI)  |  X  |   |   |  
+*Simultaneous ringing, hold, and resume across analog and IP phone. 
+The analog interface on the 4000 Series also supports Feature Access Codes (FACs) for invoking supplementary services.
+Fax and modem connectivity
+FXS ports on the Cisco High-Density Analog Voice and Fax Service Modules support fax machines and modems. When using fax machines, the gateways support T.38 fax relay and fax pass-through. T.38 fax relay technologies allow transfer of faxes across the network with high reliability using less bandwidth than a voice call. All modems can be connected to the SM-X voice and fax modules and are transferred over the network using modem pass-through.
+Protocols supported
+The voice gateways support the following protocols:
+●SCCP
+●H.323v4
+●MGCP
+●SIP
+●Real-Time Transport Protocol (RTP)
+●Secure Real-Time Transport Protocol (SRTP)
+●Trivial File Transfer Protocol (TFTP)
+●HTTP server
+●Simple Network Management Protocol (SNMP)
+●Telnet
+●Dynamic Host Configuration Protocol (DHCP)
+●DNS
+●Cisco Unified Communications Manager or Cisco Unified Communications Manager Express redundancy support using Hot Standby Router Protocol (HSRP)
+●Call survivability: MGCP failover to an H.323 connection to the Survivable Remote Site Telephony (SRST) router
+●T.38 fax relay and modem pass-through 
+●Codec support: G.711, and G.729a
+●RADIUS and TACACS+ for Telnet and authorization
+Platform support and compatibility 
+Platform compatibility 
+Cisco High-Density Analog Voice and Fax Service Modules are supported on an SM-X slot within the Cisco 4000 Series ISRs. Single-wide modules will occupy one SM-X slot, while double-wide modules will occupy two adjacent SM-X slots. Table 4 lists platform compatibility for the service modules.
+**Table 4.** 4000 Series ISR platform compatibility  
+|  4000 Series platform  |  SM-X-8FXS/12FXO  |  SM-X-16FXS/2FXO  |  SM-X-24FXS/4FXO  |  SM-X-72FXS  |  
+| --- | --- | --- | --- | --- |  
+|  4321  |  Not supported  |  Not supported  |  Not supported  |  Not supported  |  
+|  4331  |  1  |  1  |  1  |  Not supported  |  
+|  4351  |  2  |  2  |  2  |  1  |  
+|  4431  |  Not supported  |  Not supported  |  Not supported  |  Not supported  |  
+|  4451  |  2  |  2  |  2  |  1  |  
+Software compatibility 
+Cisco High-Density Analog Voice and Fax Service Modules are supported on the Cisco 4400 and 4300 Series ISRs and require Cisco IOS® XE Software Release 16.7.1 or later.
+The service modules provide gateway services for Cisco Unified Communications using Cisco Unified Communications Manager with SRST or Cisco Unified Communications Manager Express.
+Table 5 lists the software versions compatible with the FXO and FXS service modules.
+**Table 5.** Software compatibility  
+|  Product category  |  Compatible versions  |  
 | --- | --- |  
-|  CAB-HD8-ASYNC  |  Old generation for ISR G1 and G2   |  
-|  CAB-ASYNC-8  |  New generation; same connector and pin-out as CAB-HD8-ASYNC, but with slimmer housing  |  
-Due to the compact connector placement on the NIM-24A, only the new cable type CAB-ASYNC-8 with slimmer housing is supported in the lower and middle sockets. See Table 6. 
-Table 6 lists the cables supported by each module.
-**Table 6.** Cables supported by modules  
-|  NIM-16A  |  NIM-24A  |  SM-X-64A  |  
-| --- | --- | --- |  
-|  [![](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.docx/_jcr_content/renditions/datasheet-c78-739968_1.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.docx/_jcr_content/renditions/datasheet-c78-739968_1.jpg "Related image, diagram or screenshot.")  |  [![](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.docx/_jcr_content/renditions/datasheet-c78-739968_2.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.docx/_jcr_content/renditions/datasheet-c78-739968_2.jpg "Related image, diagram or screenshot.")  |  [![](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.docx/_jcr_content/renditions/datasheet-c78-739968_3.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.docx/_jcr_content/renditions/datasheet-c78-739968_3.jpg "Related image, diagram or screenshot.")  |  
-|  Upper socket: CAB-HD8-ASYNC or CAB-ASYNC-8  |  Upper socket: CAB-ASYNC-8 only  |  Upper sockets: CAB-HD8-ASYNC or CAB-ASYNC-8  |  
-|  –  |  Middle socket: CAB-ASYNC-8 only  |  –  |  
-|  Lower socket: CAB-HD8-ASYNC or CAB-ASYNC-8  |  Lower socket: CAB-HD8-ASYNC or CAB-ASYNC-8  |  Lower sockets: CAB-HD8-ASYNC or CAB-ASYNC-8  |  
-Connection rate
-9600 baud is the generally recommended connection rate for all terminal server modules. Higher connection rates can be used for a low number of simultaneous connections.
-Table 7 lists the recommended connection rate per module type.
-**Table 7.** Recommended connection rates  
-|  Baud rate  |  NIM-16A and NIM-24A  |  SM-X-64A  |  
-| --- | --- | --- |  
-|  9600  |  Recommended  |  Recommended  |  
-|  115200  |  Use only with a low number of simultaneous connections  |  Use only with a low number of simultaneous connections  |  
-|  230400  |  Not recommended  |  Not recommended  |  
-Supported command-line interface
-When an asynchronous interface module is inserted into the router, Cisco IOS Software will automatically create an asynchronous interface based on the slot number. However, since only terminal server service is supported, any eventual configuration of network protocols will have no effect. 
-Common specifications
-The specifications listed here are common to all serial and asynchronous modules.
-Agency approvals:
-●CAN/CSA 22.2 No. 60950-1-07, Second Edition (Canada)
-●EN 60950-1: 2006 (European Union)
-●UL 60950-1 (United States)
-●IEC 60950-1: 2005 (international)
-Immunity: 
-●CISPR24
-●EN 300386 
-●EN55024
-●KN35
-●TCVN 7317
-Emissions: 
-●FCC Part 15 Class A
-●ICES-003 Class A
-●EN55032 Class A
-●CISPR32 Class A
-●AS/NZS CISPR32 
-●VCCI Class A
-●EN 300386
-●EN61000-3-3
-●EN61000-3-2
-●KN 32: 2015
-●TCVN 7189
-Physical specifications: 
-●Single-wide NIM and SM-X modules, no slot restrictions
-●Dimensions (NIM modules) (H x W x D): 1.25 x 3.5 x 6.7 in. / 32 x 89 x 172 mm
-●Dimensions (SM-X-64A) (H x W x D): 1.58 x 8.1 x 9.2 in. / 40 x 206 x 233 mm
-Environmental specifications: 
-●Operating temperature: 32° to 104°F (0° to 40°C)
-●Storage temperature: -4° to 149°F (-20° to 65°C)
-●Relative humidity: 10 to 90 percent, noncondensing
-Cisco and partner services for the branch office
-Services from Cisco and our certified partners can help you transform the branch-office experience and accelerate business innovation and growth in Cisco Enterprise Networks. We have the depth and breadth of expertise to create a clear, replicable, optimized branch-office footprint across technologies. Planning and design services align technology with business goals and can increase the accuracy, speed, and efficiency of deployment.
-Technical services help improve operation efficiency, save money, and mitigate risk. Optimization services are designed to continuously improve performance and help your team succeed with new technologies.
-For more information
-For more information about Cisco Services, visit <https://www.cisco.com/go/services>.
-For more information about Cisco 4000 Series ISRs, visit: <https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/index.html>.
+|  Cisco IOS XE compatibility (4000 Series ISRs)  |  16.7.1 and above   |  
+|  Cisco Unified Communications Manager  |  10.5.2(SU6), 11.5.2(SU4), 12.0.1 and higher  |  
+|  Cisco Unified Communications Manager Express   |  Version compatible with Cisco IOS XE 16.7.1 and higher   |  
+|  Third-party call control  |  IP-based trunk: SIP and H.323  |  
+Product specifications
+Tables 6 and 7 provide the specifications for the FXS and FXO service modules in the 4000 Series ISRs.
+**Table 6.** Service module specifications  
+|  Feature  |  SM-X-8FXS/12FXO  |  SM-X-16FXS/2FXO  |  SM-X-24FXS/4FXO  |  SM-X-72FXS  |  
+| --- | --- | --- | --- | --- |  
+|  Tip and ring interfaces for each FXS port (SLIC)  |  
+|  Interface  |  FXS/FXO (RJ-21) RJ-21 ports 0 to 7: FXS RJ-21 ports 8 to 19: FXO  |  FXS/FXO (RJ-21) RJ-21 ports 0 to 15: FXS RJ-21 ports 16 and 17: FXO  |  FXS (RJ-21), FXO (RJ-11) RJ-21 ports 0 to 23: FXS RJ-11 ports 24 to 27: FXO  |  FXS (RJ-21)  |  
+|  Address signaling formats  |  In-band DTMF Out-of-band pulse  
+(8 to 12 pps)  |  In-band DTMF Out-of-band pulse  
+(8 to 12 pps)  |  In-band DTMF Out-of-band pulse  
+(8- to 2 pps)  |  In-band DTMF Out-of-band pulse  
+(8 to 12 pps)  |  
+|  FXS signaling formats  |  FXS loop-start, ground-start, and DID signaling  |  FXS loop-start, ground-start, and DID signaling  |  FXS loop-start, ground-start, and DID signaling  |  FXS loop-start, ground-start, and DID signaling  |  
+|  FXS loop resistance  |  ●Up to 600 ohms (including phone or terminal equipment) for short-loop-length port  ●Up to 1400 ohms (including phone and terminal equipment) for long-loop-length port   |  
+|  DID loop resistance  |  ●Up to 1800 ohms (including terminal equipment)   |  
+|  On-hook voltage  |  ●-44V   |  
+|  Off-hook loop current  |  ●25 mA (maximum) for short-loop-length port  ●35 mA (maximum) for long-loop-length port   |  
+|  Ring tone  |  ●Configurable for different country requirements   |  
+|  Ring voltage  |  ●54 Vrms into 5 ringer equivalence numbers (RENs) at zero-loop-length port (balanced) (short-loop-length port)  ●65 Vrms into 2 RENs at zero-loop-length port (balanced) (long-loop-length port)   |  
+|  Ring frequency  |  ●20, 25, 30, and 50 Hz   |  
+|  REN loading  |  ●5 RENs per port (short-loop-length port)  ●2 RENs per port (long-loop-length port)   |  
+|  RJ-11 FXS port terminating impedance option  |  ●600c, 600r, 900c, 900r, complex1, complex2, complex3, complex4, complex5, and complex6   |  
+|  Disconnect supervision  |  ●Power denial (calling party control and far-end disconnect)   |  
+|  Caller ID  |  ●On-hook transmission of Frequency-Shift-Keying (FSK) data  ●Support for DTMF caller ID   |  
+|  FXS loop length  |  ●Short-loop-length port: 3000 ft (900 m) with 26 AWG, 5500 ft (1700 m) with 24 AWG  ●Long-loop-length port: 11,000 ft (3400 m) with 26 AWG, 18,000 ft (5500 m) with 24 AWG   |  
+|  Cables  |  ●Category 3 and Category 5   |  
+|  Environment   |  
+|  Operating temperature  |  ●32º to 104ºF (0º to 40ºC)   |  
+|  Nonoperating temperature  |  ●-40º to 158ºF (-40º to 70ºC)   |  
+|  Voltage  |  12V from backplane  |  12V from backplane  |  12V from backplane  |  12V from backplane  |  
+|  Current  |  4.46A on 12V  |  5.86A on 12V  |  6.61A on 12V  |  10.68A on 12V  |  
+|  Power  |  53.55W  |  70.32W  |  79.37W  |  128.16W  |  
+|  Weight  |  1.90 lb (0.86 kg)  |  1.98 lb (0.90 kg)  |  2.12 lb (0.96 kg)  |  4.94 lb (2.24 kg)  |  
+|  Dimensions  
+(H x W x D)  |  1.58 x 7.44 x 7.6 in  
+4.02 x 18.90 x 19.30 cm  |  1.58 x 7.44 x 7.6 in  
+4.02 x 18.90 x 19.30 cm  |  1.58 x 7.44 x 7.6 in  
+4.02 x 18.90 x 19.30 cm  |  1.58 x 15.57 x 7.57 in  
+4.02 x 39.55 x 198.23 cm  |  
+**Table 7.** Regulatory standards compliance: Safety and EMC  
+|  Specification  |  Description  |  
+| --- | --- |  
+|  Safety  |  ●UL 60950-1  ●CAN/CSA C22.2 No. 60950-1  ●EN 60950-1  ●AS/NZS 60950-1  ●IEC 60950-1   |  
+|  Telecom  |  ●TIA/EIA/IS-968  ●CS-03  ●TBR21 (FXO)  ●ES 201 970 (FXS)  ●S002, S003  ●Homologation requirements vary by country and interface type. For specific country information, refer to the online approvals data base at:<https://www.ciscofax.com/>  |  
+|  EMC  |  ●47 CFR, Part 15  ●CES-003 Issue 4  ●EN55022 Class A/B  ●CISPR22 Class A/B  ●AS/NZS 3548 Class A  ●VCCI V-3  ●CNS 13438  ●EN 300-386   |  
+|  Immunity  |  ●EN 55024, CISPR 24  ●EN50082-1  ●EN 61000-6-1  ●EN300-386   |  
+|  NEBS  |  ●SR-3085 NEBS Level 3 (USA)  ●GR-1089-CORE Type 3  ●GR-63-CORE  ●GR-78-CORE   |  
+Homologation
+The High-Density Analog Voice and Fax Service Modules are approved for the countries listed in Table 8 for off-premises (FXO) and on-premises (FXS) connections. Approval for other countries is in progress. Refer to the Cisco Telecom Approvals Website for approval progress for other countries: [https://tools.cisco.com/cse/prdapp/jsp/externalsearch.do?action=externalsearch&page=EXTERNAL_SEARCH](https://tools.cisco.com/cse/prdapp/jsp/externalsearch.do?action=externalsearch&page=EXTERNAL_SEARCH).
+**Table 8.** Telecom approvals  
+|  SM-X-8FXS/12FXO  |  SM-X-16FXS/2FXO  |  SM-X-24FXS/4FXO  |  SM-X-72FXS  |  
+| --- | --- | --- | --- |  
+|  United States  |  United States  |  United States  |  United States  |  
+|  Canada  |  Canada  |  Canada  |  Canada  |  
+|  CE countries1  |  CE countries1  |  CE countries1  |  CE countries1  |  
+|  Australia  |  Australia  |  Australia  |  Australia  |  
+|  Japan  |  Japan  |  Japan  |  Japan  |  
+1 The CE mark is recognized in the following countries: Austria, Belgium, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Gibraltar, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxemburg, Malta, Monaco, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Sweden, Switzerland, and United Kingdom. 
+Ordering information
+Table 9 will help you understand all the components or parts you need to purchase in order to install and use the product. It also provides a direct link to the Cisco Ordering Tool and lists part numbers for customer convenience.
+To place an order, visit the [Cisco Ordering Home Page](https://www.cisco.com/en/US/ordering/index.shtml). To download software, visit the [Cisco Software Center](https://software.cisco.com/download/navigator.html).
+**Table 9.** Ordering information  
+|  Product ID  |  Product description  |  
+| --- | --- |  
+|  SM-X-8FXS/12FXO  |  Single-Wide High Density Analog Voice Service Module with 8 FXS and 12 FXO  |  
+|  SM-X-16FXS/2FXO  |  Single-Wide High Density Analog Voice Service Module with 16 FXS and 2 FXO  |  
+|  SM-X-24FXS/4FXO  |  Single-Wide High Density Analog Voice Service Module with 24 FXS and 4 FXO  |  
+|  SM-X-72FXS  |  Double-Wide High Density Analog Voice Service Module with 72 FXS  |  
 Cisco Capital
-Financing to Help You Achieve Your Objectives
-Cisco Capital can help you acquire the technology you need to achieve your objectives and stay competitive. We can help you reduce CapEx. Accelerate your growth. Optimize your investment dollars and ROI. Cisco Capital financing gives you flexibility in acquiring hardware, software, services, and complementary third-party equipment. And there’s just one predictable payment. Cisco Capital is available in more than 100 countries. [Learn more](https://www.cisco.com/web/ciscocapital/americas/us/index.html).
+Financing to help you achieve your objectives
+Cisco Capital® can help you acquire the technology you need to achieve your objectives and stay competitive. We can help you reduce CapEx. Accelerate your growth. Optimize your investment dollars and ROI. Cisco Capital financing gives you flexibility in acquiring hardware, software, services, and complementary third-party equipment. And there’s just one predictable payment. Cisco Capital is available in more than 100 countries. [Learn more](https://www.cisco.com/web/ciscocapital/americas/us/index.html).
 ### Contact Cisco
   * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
   * ##### Call Sales:
@@ -175,49 +270,3 @@ Cisco Capital can help you acquire the technology you need to achieve your objec
 
 ### Was this Document Helpful?
 Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
-By continuing to use our website, you acknowledge the use of cookies. 
-[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
-![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
-## Consent Manager
-Your opt out preference signal is honored.
-## Consent Manager
-  * ### Your Privacy
-  * ### Strictly Necessary Cookies
-  * ### Performance Cookies
-  * ### Targeting Cookies
-  * ### Functional Cookies
-
-
-#### Your Privacy
-When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
-#### Strictly Necessary Cookies
-Always Active
-These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
-Cookies Details
-#### Performance Cookies
-Performance Cookies
-These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
-Cookies Details
-#### Targeting Cookies
-Targeting Cookies
-These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
-Cookies Details
-#### Functional Cookies
-Functional Cookies
-These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
-Cookies Details
-Back Button
-### Cookie List
-Filter Button
-Consent Leg.Interest
-checkbox label label
-checkbox label label
-checkbox label label
-Clear
-  * checkbox label label
-
-
-Apply Cancel
-Save Settings
-Allow All
-[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
