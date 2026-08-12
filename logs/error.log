@@ -200,3 +200,22 @@ Code context:
 [2026-08-12T23:08:56.547927] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text on small page (160 bytes, 9 chars visible) | URL: https://developer.webex.com/docs/Webex.Application.Meeting
 [2026-08-12T23:09:13.601568] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/locations
 [2026-08-12T23:09:19.477154] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/ucm-profile
+[2026-08-12T23:09:30.217067] ERROR - Fallo HTTP o Crawler: Unexpected error in _crawl_web at line 778 in _crawl_web (../../../../../opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/crawl4ai/async_crawler_strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: net::ERR_NAME_NOT_RESOLVED at https://callinghelp.webex.com/calling-admin-portal-reports
+Call log:
+  - navigating to "https://callinghelp.webex.com/calling-admin-portal-reports", waiting until "domcontentloaded"
+
+
+Code context:
+ 773                                   tag="GOTO",
+ 774                                   params={"url": url},
+ 775                               )
+ 776                               response = None
+ 777                           else:
+ 778 →                             raise RuntimeError(f"Failed on navigating ACS-GOTO:\n{str(e)}")
+ 779   
+ 780                       # ──────────────────────────────────────────────────────────────
+ 781                       # Walk the redirect chain.  Playwright returns only the last
+ 782                       # hop, so we trace the `request.redirected_from` links until the
+ 783                       # first response that differs from the final one and surface its | URL: https://callinghelp.webex.com/calling-admin-portal-reports
