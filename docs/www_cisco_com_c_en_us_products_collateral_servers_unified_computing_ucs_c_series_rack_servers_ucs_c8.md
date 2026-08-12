@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-rs-amd-mi350x-gpus-eol.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-rs-amd-mi350x-gpus-eol.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-rs-amd-mi350x-gpus-eol.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,30 +19,25 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html)
+  * [](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-rs-amd-mi350x-gpus-eol.html)
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Servers - Unified Computing](https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html)
   * [Cisco UCS C-Series Rack Servers](https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/index.html)
-  * [Data Sheets](https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/datasheet-listing.html)
+  * [End-of-Life and End-of-Sale Notices](https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/eos-eol-notice-listing.html)
 
 
-# Cisco UCS C885A M8 Rack Server Data Sheet
-Data Sheet
+# End-of-Sale and End-of-Life Announcement for the Cisco UCS C885A M8 Rack Servers with AMD MI350X GPUs
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html)
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-rs-amd-mi350x-gpus-eol.html) to Save Content 
 Download
 Print
 ### Available Languages
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html)
-
-
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.pdf) (311.5 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-rs-amd-mi350x-gpus-eol.pdf) (247.6 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:July 14, 2026
+Updated:August 5, 2026
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
@@ -56,157 +51,83 @@ US/CAN | 5am-5pm PT
 
 
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html)
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-rs-amd-mi350x-gpus-eol.html) to Save Content 
 Download
 Print
 ### Available Languages
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html)
-
-
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.pdf) (311.5 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-rs-amd-mi350x-gpus-eol.pdf) (247.6 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:July 14, 2026
+Updated:August 5, 2026
 #### Table of Contents
 ![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
 ![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
 #### Table of Contents
-  * [Product overview](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Productoverview "Productoverview")
-  * [Features and benefits](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Featuresandbenefits "Featuresandbenefits")
-  * [Product specifications](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Productspecifications "Productspecifications")
-  * [Ordering information](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Orderinginformation "Orderinginformation")
-  * [Warranty information](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Warrantyinformation "Warrantyinformation")
-  * [Cisco Support](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#CiscoSupport "CiscoSupport")
-  * [Product sustainability](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Productsustainability "Productsustainability")
-  * [Product environmental information](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Productenvironmentalinformation "Productenvironmentalinformation")
-  * [Cisco and partner services](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Ciscoandpartnerservices "Ciscoandpartnerservices")
-  * [Cisco Capital](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#CiscoCapital "CiscoCapital")
-  * [Document history](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Documenthistory "Documenthistory")
+  * [Overview](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-rs-amd-mi350x-gpus-eol.html#Overview "Overview")
+  * [End-of-life milestones](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-rs-amd-mi350x-gpus-eol.html#Endoflifemilestones "Endoflifemilestones")
+  * [Product part numbers](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-rs-amd-mi350x-gpus-eol.html#Productpartnumbers "Productpartnumbers")
+  * [Product migration options](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-rs-amd-mi350x-gpus-eol.html#Productmigrationoptions "Productmigrationoptions")
+  * [For more information](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-rs-amd-mi350x-gpus-eol.html#Formoreinformation "Formoreinformation")
 
 
-The Cisco® UCS C885A M8 Rack Server is a dense GPU server that delivers massive, scalable performance for AI workloads, such as Large Language Model (LLM) training, fine-tuning, large model inferencing, and Retrieval Augmented Generation (RAG).
-Product overview
-Built on the [NVIDIA HGX platform](https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/dense-ai-gpu-servers/index.html), the Cisco UCS C885A M8 Rack Server is a dense-GPU server designed to deliver scalable accelerated compute capabilities to address the most demanding AI workloads, including large deep learning/Large Language Model (LLM) training, model fine-tuning, large model inferencing, and Retrieval-Augmented Generation (RAG).
-[![Related image, diagram or screenshot](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.docx/_jcr_content/renditions/ucs-c885a-m8-ds_0.png)](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.docx/_jcr_content/renditions/ucs-c885a-m8-ds_0.png "Related image, diagram or screenshot")
-[Watch video](https://players.brightcove.net/1384193102001/NJgI8K0ie_default/index.html?videoId=6373621490112)
-The server offers a MI350X OAM GPU to deliver massive, accelerated computational performance in a single server, as well as one NVIDIA ConnectX-7 NIC or **AMD Pensando Pollara NIC** per GPU to scale AI model training across a cluster of dense GPU servers.
-The server is managed by Cisco Intersight®, which can help reduce your Total Cost of Ownership (TCO) and increase your business agility.
-**Note:** Initially, the local server management interface will handle configuration and management, while Cisco Intersight will provide inventory capabilities through an integrated Device Connector. Full management operations and configurations through Cisco Intersight will be introduced shortly thereafter in a subsequent phase.
-The server is offered in fixed configurations that are optimized for intensive AI and HPC workloads.
-Features and benefits
-**Table 1.** Summary of features and benefits of Cisco UCS C885A M8  
-|  Feature  |  Benefit  |  
-| --- | --- |  
-|  **AMD MI350X OAM GPU**  |  GPU density and the high-speed interconnect for demanding AI model training jobs, such as large and small language model training and deep learning  |  
-|  **AMD EPYC CPU (Turin)**  |  High-performance, high–clock speed CPUs specifically selected for training/learning operations  |  
-|  **Eight NVIDIA ConnectX-7 NICs or AMD Pensando Pollara NICs**  |  400G East-West NICs provide high-speed inter-chassis, inter-GPU connectivity to perform training at scale. Each server also includes NVIDIA BlueField-3 DPUs or AMD Pollara NICs to accelerate GPU access to data.  |  
-|  **Up to 2x NVMe SSDs**  |  High-speed local storage for data caching to deliver maximum performance  |  
-|  **Hot-swappable, redundant power supplies**  |  Increased high availability  |  
-Product specifications
-**Table 2.** Specifications of Cisco UCS C885A M8 Rack Server  
-|  Item  |  Specifications  |  
-| --- | --- |  
-|  **Form factor**  |  8RU Rack Server  |  
-|  **Processors**  |  2x 5th Gen AMD EPYC 9575F 64 core, 3.3 GHz (Max Boost 5 GHz)   |  
-|  **Memory**  |  24x 128GB DDR5 up to 6,400 MT/s RDIMMs or 24x 96GB DDR5 up to 6,400 MT/s RDIMMs   |  
-|  **GPUs**  |  8x AMD MI350X OAM  |  
-|  **Boot Drive**  |  Up to 2x 960GB M.2 NVMe SSD  |  
-|  **Internal Storage**  |  Up to 2x 2.5” U.2 NVMe SSD  |  
-|  **PCIe Slots**  |  5x PCIe Gen5x16 FHHL for North-South NIC – NVIDIA ConnectX-7 (2x200G), NVIDIA ConnectX-7 (1x400G), NVIDIA ConnectX-7 (4x25G)  8x PCIe Gen5x16 HHHL for East-West NIC – NVIDIA ConnectX-7 (1x400G), **AMD Pensando Pollara** 400 (1x400G)  |  
-|  **OCP Slot**  |  1x OCP 3.0 PCIe Gen5x8 for Intel X710-T2L 2x10G RJ45 NIC  |  
-|  **Power Supplies**  |  2x 2.7kW 80Plus 12V CRPS Redundant Hot-swappable PSUs (N+1) 6x 3kW 80Plus 54V MCRPS Hot-swappable Redundant PSUs (N+2)  |  
-|  **Management**  |  [Cisco Intersight](https://www.cisco.com/c/en/us/products/servers-unified-computing/intersight/index.html)  |  
-|  **Hardware and Software Interoperability**  |  See the [Cisco Hardware and Software Interoperability List](https://www.cisco.com/c/en/us/support/servers-unified-computing/unified-computing-system/products-technical-reference-list.html) for a complete listing of supported operating systems and peripheral options  |  
-Ordering information
-UCS C885A M8 servers are offered in fixed configurations with each server product ID identifying a single fixed configuration. More details can be found in the ordering guide.
-**Table 3.** Cisco UCS C885A M8 ordering information  
-|  Part #  |  Product Description  |  
-| --- | --- |  
-|  **UCSC-885A-M8-M352**  |  2x AMD EPYC 9575F 3.3 GHz (Max Boost 5 GHz) CPUs, 8x AMD MI350X UBB GPUs, 24x 96GB 6400 DIMMs, 2x 960GB M.2 NVMe Boot Drive, 2x 1.92TB NVMe SSD Server Drives, 8x AMD Pensando Pollara 400 (1x400G) for East-West N/W, 2x NVIDIA ConnectX-7 (2x200G) for North-South N/W, 1x Intel X710-T2L  |  
-|  **UCSC-885A-M8-M353**  |  2x AMD EPYC 9575F 3.3 GHz (Max Boost 5 GHz) CPUs, 8x AMD MI350X UBB GPUs, 24x 96GB 6400 DIMMs, 2x 960GB M.2 NVMe Boot Drive, 2x 1.92TB NVMe SSD Server Drives, 8x NVIDIA ConnectX-7 (1x400G) for East-West N/W, 2x NVIDIA ConnectX-7(2x200G) for North-South N/W, 1x Intel X710-T2L  |  
-|  **UCSC-885A-M8-M354**  |  2x AMD EPYC 9575F 3.3 GHz (Max Boost 5 GHz) CPUs, 8x AMD MI350X UBB GPUs, 24x 128GB 6400 DIMMs, 2x 960GB M.2 NVMe Boot Drive, 2x 1.92TB NVMe SSD Server Drives, 8x AMD Pensando Pollara 400 (1x400G) for East-West N/W, 2x NVIDIA ConnectX-7 (1x400G) for North-South N/W, 1x Intel X710-T2L  |  
-|  **UCSC-885A-M8-M355**  |  2x AMD EPYC 9575F 3.3 GHz (Max Boost 5 GHz) CPUs, 8x AMD MI350X UBB GPUs, 24x 128GB 6400 DIMMs, 2x 960GB M.2 NVMe Boot Drive, 2x 1.92TB NVMe SSD Server Drives, 8x NVIDIA ConnectX-7 (1x400G) for East-West N/W, 2x NVIDIA ConnectX-7(2x200G) for North-South N/W, 1x Intel X710-T2L  |  
-|  **UCSC-885A-M8-M356**  |  2x AMD EPYC 9575F 3.3 GHz (Max Boost 5 GHz) CPUs, 8x AMD MI350X UBB GPUs, 24x 128GB 6400 DIMMS, 2x 960GB M.2 NVMe Boot Drive, 2x 1.92TB NVMe SSD Server Drives, 8x NVIDIA ConnectX-7 (1x400G) for East-West N/W, 2x NVIDIA ConnectX-7 (2x200G) AND 2x NVIDIA ConnectX-7 (4x25G) for North-South N/W,1x Intel X710-T2L  |  
-**Note:** All Network Interface Cards (NICs), SuperNICs, and Data Processing Units (DPUs) in the configurations above are crypto disabled.
-Warranty information
-Cisco UCS C885A M8 Rack Servers have a three-year Next-Business-Day (NBD) hardware warranty and 90-day software warranty.
-Cisco Support
-Augmenting the Cisco UCS warranty is Cisco Success Tracks. Success Tracks add the best of both digital and human intelligence to your support experience. For more detailed information on the ST deliverables, please refer to the description [here](https://www.cisco.com/c/dam/en_us/about/doing_business/legal/service_descriptions/docs/cisco-success-tracks.pdf).
-Product sustainability
-Information about Cisco’s Environmental, Social and Governance (ESG) initiatives and performance is provided in Cisco’s CSR and sustainability [reporting](https://www-1.compliance2product.com/c2p/getAttachment.do?code=YM6Y0yThdO6Wj1FxxYPYfUG2dtFkTeFWGpzLRO8tcURFEifUCRV403Tq2ZMWP6Ai).
-**Table 4.** Cisco environmental sustainability information  
-|  Sustainability Topic  |  Reference  |  
-| --- | --- |  
-|  **General**  |  Information on product-material-content laws and regulations  |  [Materials](https://www.cisco.com/c/en/us/about/product-innovation-stewardship/materials.html)  |  
-|  Information on electronic waste laws and regulations, including our products, batteries and packaging  |  [WEEE Compliance](https://www.cisco.com/c/en/us/about/product-innovation-stewardship/product-recycling/weee-compliance.html)  |  
-|  Information on product takeback and reuse program  |  [Cisco Takeback and Reuse Program](https://www.cisco.com/c/en/us/about/takeback-and-reuse.html)  |  
-|  Sustainability Inquiries  |  Contact: csr_inquiries@cisco.com  |  
-|  **Material**  |  Product packaging weight and materials  |  Contact: environment@cisco.com  |  
-Product environmental information
-Product environmental information for users per Commission Regulation (EU) 2019/424 <https://www.cisco.com/web/dofc/25451181.pdf>
-Cisco and partner services
-Cisco and our industry-leading partners deliver services that accelerate your transition to Cisco UCS solutions for AI and High-Performance Computing (HPC). Cisco Unified Computing Services can help you create an agile infrastructure, accelerate time to value, reduce costs and risks, and maintain availability during deployment and migration. After deployment, our services can help you improve performance, availability, and resiliency as your business needs evolve, and help you further mitigate risk. For more information, visit <https://www.cisco.com/go/unifiedcomputingservices>.
-Cisco Capital
-Flexible payment solutions to help you achieve your objectives
-Cisco Capital makes it easier to get the right technology to achieve your objectives, enable business transformation and help you stay competitive. We can help you reduce the total cost of ownership, conserve capital, and accelerate growth. In more than 100 countries, our flexible payment solutions can help you acquire hardware, software, services and complementary third-party equipment in easy, predictable payments. [Learn more](https://www.cisco.com/go/financing).
-Document history  
-|  New or revised topic  |  Described in  |  Date  |  
+Overview
+EOL15967
+Cisco announces the end-of-sale and end-of-life dates for the Cisco UCS C885A M8 Rack Servers with AMD MI350X GPUs. The last day to order the affected product(s) is October 15, 2026. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract.
+End-of-life milestones
+**Table 1.** End-of-life milestones and dates for the Cisco UCS C885A M8 Rack Servers with AMD MI350X GPUs  
+|  Milestone  |  Definition  |  Date  |  
 | --- | --- | --- |  
-|  Support for additional fixed configurations  |  [Ordering information](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#OI)  |  February 2025  |  
-|  Product environmental information  |  [Product environmental information](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#PE)  |  February 2025  |  
-### Our experts recommend
-  * [AI Performance: MLPerf Training on Cisco UCS C880A M8 Rack Server with NVIDIA B300 SXM GPUs White Paper](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/mlperf-b300-training-ucs-c880a-m8-rs-wp.html "AI Performance: MLPerf Training on Cisco UCS C880A M8 Rack Server with NVIDIA B300 SXM GPUs White Paper")
-  * [Cisco UCS C845A M8 Rack Server At a Glance](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c845a-m8-rack-server-aag.html "Cisco UCS C845A M8 Rack Server At a Glance")
-  * [Cisco UCS Servers with Intel Xeon 6 CPUs FAQ](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/intel-xeon-6-cpu-faq.html "Cisco UCS Servers with Intel Xeon 6 CPUs FAQ")
-
-
+|  **End-of-Life Announcement Date**  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  August 4, 2026   |  
+|  **End-of-Sale Date:  
+HW **  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  October 15, 2026   |  
+|  **Last Ship Date:  
+HW **  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  January 15, 2027   |  
+|  **End of SW Maintenance Releases Date:  
+HW **  |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.   |  October 15, 2027   |  
+|  **End of Vulnerability/Security Support:  
+HW **  |  The last date that Cisco Engineering may release a planned maintenance release or scheduled software remedy for a security vulnerability issue.   |  October 31, 2029   |  
+|  **End of Routine Failure Analysis Date:  
+HW **  |  The last-possible date a routine failure analysis may be performed to determine the cause of hardware product failure or defect.  |  October 15, 2027   |  
+|  **End of New Service Attachment Date:  
+HW **  |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  October 15, 2027   |  
+|  **End of Service Contract Renewal Date:  
+HW **  |  The last date to extend or renew a service contract for the product.  |  January 15, 2029   |  
+|  **Last Date of Support:  
+HW **  |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  October 31, 2029   |  
+HW = Hardware OS SW = Operating System Software App. SW = Application Software 
+Product part numbers
+**Table 2.** Product part numbers affected by this announcement  
+|  End-of-Sale Product Part Number  |  Product Description  |  Migration Product Part Number  |  Migration Product Description  |  Additional Information  |  
+| --- | --- | --- | --- | --- |  
+|  **UCSC-885A-M8-M351**  |  UCS C885A M8 Rack - MI350X GPU, 8x Pollara, 2x CX-7, 3TB Mem  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-CC-SLD24**  |  UCS C885A M8 CPU SLED AMD 9575F 128GB 6400DDR5 Pollara, CX-7  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-CC-SLD24=**  |  UCS C885A M8 CPU SLED AMD 9575F 96GB 6400 DDR5 Pollara  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **UCSC-885A-M8-M352**  |  UCS C885A M8 Rack-MI350X GPU, 8xPollara, 2x CX-7, 2.3TB Mem  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-CC-SLD20**  |  UCS C885A M8 CPU SLED AMD 9575F 96GB 6400 DDR5 Pollara CX-7  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-CC-SLD20=**  |  UCS C885A M8 CPU SLED AMD 9535 96GB DDR5 2xCX-7s  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **UCSC-885A-M8-M353**  |  UCS C885A M8 Rack - MI350X GPU, 8x CX-7, 2x CX-7, 2.3TB Mem  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-CC-SLD13**  |  UCS C885A M8 CPU SLED AMD 9575F 96GB 6400 DDR5 CX-7s  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-CC-SLD13=**  |  UCS C885A M8 CPU SLED AMD 9575F 96GB 6400 DDR5 CX-7s  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **UCSC-885A-M8-M354**  |  UCS C885A M8 Rack - MI350X GPU, 8x Pollara, 2x CX-7, 3TB Mem  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-CC-SLD21**  |  UCS C885A M8 CPU SLED AMD 9575F 128GB 6400 DDR5 Pollara CX-7  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-CC-SLD21=**  |  UCS C885A M8 CPU SLED AMD 9575F 128GB 6400 DDR5 Pollara CX-7  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **UCSC-885A-M8-M355**  |  UCS C885A M8 Rack - MI350X GPU, 8x CX-7, 2x CX-7, 3TB Mem  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-CC-SLD17**  |  UCS C885A M8 CPU SLED AMD 9575F 128GB 6400 DDR5 CX-7s  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-CC-SLD17=**  |  UCS C885A M8 CPU SLED AMD 9575F 128GB 6400 DDR5 CX-7s  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **UCSC-885A-M8-M356**  |  UCS C885A M8 Rack - MI350X GPU, 8x CX-7, 4x CX-7, 3TB Mem  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-CC-SLD22**  |  UCS C885A M8 CPU SLED AMD 9575F 128GB 6400 DDR5 CX-7  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-CC-SLD22=**  |  UCS C885A M8 CPU SLED AMD 9575F 128GB 6400 DDR5 CX-7  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-MI35-SLD**  |  UCS C885A M8 GPU SLED MI350X  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-MI35-SLD=**  |  UCS C885A M8 GPU SLED MI350X  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-DCSCMAA**  |  UCS C885A M8 DC-SCM Card AMD GPU, 5th Gen AMD EPYC CPU  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **C885A-M8-DCSCMAA=**  |  UCS C885A M8 DC-SCM Card AMD GPU, 5th Gen AMD EPYC CPU  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+Product migration options
+As part of our product lifecycle management, the AMD MI350X GPU-based offerings are being transitioned out of the portfolio. Customers evaluating or planning deployments with this platform are encouraged to migrate to Cisco's latest accelerated computing solution, delivering enhanced AI performance, scalability, and operational efficiency. Customers considering AMD MI350X-based deployments should evaluate transitioning into the Cisco UCS C845A to benefit from next-generation performance and long-term architectural scalability. The Cisco UCS C845A platform, powered by AMD Instinct™ MI350P GPUs, and AMD Pensando Pollara 400G NIC leverages the cutting-edge AMD CDNA™ 4 architecture to deliver a significant leap in computational power, specifically engineered to handle the most demanding generative AI and high-performance computing (HPC) workloads. The platform provides enhanced AI training and inference performance, high-bandwidth HBM3E memory, an open enterprise-ready ROCm™ software stack, and simplified deployment within existing infrastructure. By transitioning to this platform, organizations gain a robust, scalable foundation that is purpose-built to evolve alongside the rapidly changing landscape of AI and HPC, ensuring long-term investment protection and sustained performance gains.
+For more information
+For more information about the Cisco End-of-Life Policy, go to: <https://www.cisco.com/c/en/us/products/eos-eol-policy.html>.
+For more information about the Cisco Product Warranties, go to: <https://www.cisco.com/c/en/us/products/warranty-listing.html>.
+To subscribe to receive end-of-life/end-of-sale information, go to: <https://cway.cisco.com/mynotifications>.
+Any authorized translation issued by Cisco Systems or affiliates of this end-of-life Product Bulletin is intended to help customers understand the content described in the English version. This translation is the result of a commercially reasonable effort; however, if there are discrepancies between the English version and the translated document, please refer to the English version, which is considered authoritative.
 ### Learn more
-By continuing to use our website, you acknowledge the use of cookies. 
-[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
-![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
-## Consent Manager
-Your opt out preference signal is honored.
-## Consent Manager
-  * ### Your Privacy
-  * ### Strictly Necessary Cookies
-  * ### Performance Cookies
-  * ### Targeting Cookies
-  * ### Functional Cookies
-
-
-#### Your Privacy
-When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
-#### Strictly Necessary Cookies
-Always Active
-These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
-Cookies Details
-#### Performance Cookies
-Performance Cookies
-These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
-Cookies Details
-#### Targeting Cookies
-Targeting Cookies
-These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
-Cookies Details
-#### Functional Cookies
-Functional Cookies
-These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
-Cookies Details
-Back Button
-### Cookie List
-Filter Button
-Consent Leg.Interest
-checkbox label label
-checkbox label label
-checkbox label label
-Clear
-  * checkbox label label
-
-
-Apply Cancel
-Save Settings
-Allow All
-[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
