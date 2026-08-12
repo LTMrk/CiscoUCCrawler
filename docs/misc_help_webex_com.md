@@ -40182,3 +40182,154 @@ Recently Viewed
 [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
 ©2026 Cisco and/or its affiliates. All rights reserved. 
 [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+
+
+---
+# ORIGEN: https://help.webex.com/en-US/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac
+
+Skip To Content[![webex-logo](https://help.webex.com/logo/webexlogo.png)Help Center](https://help.webex.com/en-us)
+* ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
+* ![search icon](https://help.webex.com/images/search-icon.svg)
+  * [Get started](https://help.webex.com/en-us/getting-started)
+  * [Help by product](https://help.webex.com/en-us/products)
+  * [Administration](https://help.webex.com/en-us/administration)
+  * [What's new](https://help.webex.com/en-us/ld-v6m1dl)
+  * Resources
+Support
+[Join a meeting](https://signin.webex.com/join)
+[Developer Tools![Developer Tools](https://help.webex.com/images/pop-out-bold.svg)](https://developer.webex.com/)
+[Adoption Hub![](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/us/en/adopt/index.html)
+[Contact Support](https://help.webex.com/en-us/contact)
+learn
+[Video resources](https://help.webex.com/en-us/video-resources)
+[Webex Academy![Webex Academy](https://help.webex.com/images/pop-out-bold.svg)](https://academy.webex.com/learn)
+[Live Events and Webinars![Live Events and Webinars](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/learn/webinars-demos.html)
+[Webex Blog![Webex Blog](https://help.webex.com/images/pop-out-bold.svg)](https://blog.webex.com/)
+programs
+[Webex Community![Webex Community](https://help.webex.com/images/pop-out-bold.svg)](https://community.cisco.com/t5/webex-community/ct-p/webex-user)
+[Webex Insider![Webex Insider](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/insider)
+[App Hub![App Hub](https://help.webex.com/images/pop-out-bold.svg)](https://apphub.webex.com/)
+![Cisco AI Assistant](https://help.webex.com/images/ai.png)
+## Cisco AI Assistant
+The most advanced generative AI-powered platform for hybrid work and customer experience.
+[Learn more →](https://help.webex.com/en-us/webex-ai)
+![webex](https://help.webex.com/logo/webexsmall.png)[Download Webex](https://www.webex.com/downloads.html)
+[+1-888-469-3239](tel:+1-888-469-3239)[Contact Sales →](https://www.webex.com/contact-sales.html)
+  * ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
+  * English
+    * [ Dansk ](https://help.webex.com/da-dk/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Deutsch ](https://help.webex.com/de-de/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ English ](https://help.webex.com/en-us/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)![language tick](https://help.webex.com/images/checkbox-check.svg)
+    * [ Español ](https://help.webex.com/es-co/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Français ](https://help.webex.com/fr-fr/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Italiano ](https://help.webex.com/it-it/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Nederlands ](https://help.webex.com/nl-nl/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Português ](https://help.webex.com/pt-br/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Pyccĸий ](https://help.webex.com/ru-ru/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Svenska ](https://help.webex.com/sv-se/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Tϋrkçe ](https://help.webex.com/tr-tr/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ 한국어 ](https://help.webex.com/ko-kr/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ 日本語 ](https://help.webex.com/ja-jp/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ 简体中文 ](https://help.webex.com/zh-cn/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ 繁體中文 ](https://help.webex.com/zh-tw/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Română ](https://help.webex.com/ro-ro/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Magyar ](https://help.webex.com/hu-hu/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Polski ](https://help.webex.com/pl-pl/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Čeština ](https://help.webex.com/cs-cz/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Български ](https://help.webex.com/bg-bg/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Norsk ](https://help.webex.com/no-no/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Hrvatski ](https://help.webex.com/hr-hr/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Srpski ](https://help.webex.com/sr-rs/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Українська ](https://help.webex.com/uk-ua/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ العربية ](https://help.webex.com/ar-ae/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ עברית ](https://help.webex.com/he-il/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Suomi ](https://help.webex.com/fi-fi/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Slovenščina ](https://help.webex.com/sl-si/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+    * [ Slovenský ](https://help.webex.com/sk-sk/article/WBX000026120/How-Do-I-Clear-the-Webex-Cache-on-a-Mac)
+  * Sign In
+
+
+  * [Home](https://help.webex.com/)
+  * /
+  * Article
+
+
+This article applies to:
+  * ![](https://help.webex.com/images/products-icon.svg)
+Products
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/roles-icon.svg)
+Roles
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/operating-systems-icon.svg)
+Operating systems
+![](https://help.webex.com/images/arrow-down_16.svg)
+
+
+Was this article helpful?
+![close](https://help.webex.com/images/icn-close.svg)
+# Thanks for your feedback.
+![](https://help.webex.com/images/thumbs-up.svg)Yes, thank you!![](https://help.webex.com/images/thumbs-down.svg)Not really
+March 28, 2025 | 45258 view(s) | 136 people thought this was helpful
+![](https://help.webex.com/images/print-icon-new.svg)
+Subscribe
+How to Clear the Webex Cache on a Mac
+![list-menu](https://help.webex.com/images/feedback.svg)Feedback?
+Clearing the Webex cache on your Mac can be done quickly and may resolve an issue you're having with Webex. 
+**Follow these steps:**
+  1. Sign out of and close the Webex client.
+  2. Open **Finder**.
+  3. In the Finder menu bar, click **Go > Go to Folder...**  
+![MacFinder.png](https://help.webex.com/en-us/article/WBX000026120/How-to-Clear-the-Webex-Cache-on-a-Mac)
+  4. Enter **~/Library/Caches**
+  5. Locate the **Cisco-Systems.Spark** folder and/or the **Cisco Spark** folder. Delete all contents of the folder.
+  6. In the menu bar, click **Go > Go to Folder...**
+  7. Enter **~/Library/Application** Support
+  8. Locate the **Cisco-Systems.Spark** folder and/or the **Cisco Spark** folder. Delete all contents of the folder.
+  9. Launch Webex
+
+  
+For steps to clear the cache on Windows, see: [How Do I Clear the Cache for Webex?](https://help.webex.com/article/WBX000023766)
+Was this article helpful?
+Yes, thank you!
+Not really
+Was this article helpful?
+![](https://help.webex.com/images/arrow-down_20.svg)
+![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
+Recently Viewed
+![](https://help.webex.com/images/arrow-down_20.svg)
+  * [How to Clear the Webex Cache](https://help.webex.com/en-us/article/WBX000023766)
+  * [Embedded apps in Webex](https://help.webex.com/en-us/article/y1eqyd)
+  * [What's new in Webex Instant Connect](https://help.webex.com/en-us/article/4wwo57)
+  * [Configure Virtual Rounding](https://help.webex.com/en-us/article/6vsdoi)
+
+
+![](https://help.webex.com/icons/arrow-up_16.svg)
+## Small Business
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Pricing](https://pricing.webex.com/)[Webex App](https://www.webex.com/all-new-webex.html)[Meetings](https://www.webex.com/video-conferencing.html)[Calling](https://www.webex.com/cloud-calling.html)[Messaging](https://www.webex.com/team-collaboration.html)[Screen Sharing](https://www.webex.com/screen-sharing.html)
+## Enterprise
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Webex Suite](https://www.webex.com/collaboration-suite.html)[Calling](https://www.webex.com/cloud-calling.html)[Meetings](https://www.webex.com/video-conferencing.html)[Messaging](https://www.webex.com/team-collaboration.html)[Slido](https://www.webex.com/audience-engagement.html)[Webinars](https://www.webex.com/webinar.html)[Events](https://socio.events/)[Contact Center](https://www.webex.com/contact-center.html)[CPaaS](https://www.webex.com/customer-interaction-management.html)[Security](https://www.webex.com/security.html)[Control Hub](https://www.webex.com/control-hub.html)
+## Devices
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Headsets](https://hardware.webex.com/products/headsets)[Cameras](https://hardware.webex.com/products/cameras)[Desk Series](https://hardware.webex.com/products/desk-series)[Room Series](https://hardware.webex.com/products/room-series-and-kits)[Board Series](https://hardware.webex.com/products/board-series)[Phone Series](https://hardware.webex.com/products/phones)[Accessories](https://hardware.webex.com/products/accessories)
+## Solutions For
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Education](https://www.webex.com/industries/education.html)[Healthcare](https://www.webex.com/industries/healthcare.html)[Government](https://www.webex.com/industries/government.html)[Finance](https://www.webex.com/industries/financial-services.html)[Sports & Entertainment](https://www.webex.com/industries/sports-entertainment.html)[Frontline](https://www.webex.com/industries/frontline.html)[Nonprofits](https://www.webex.com/industries/nonprofits.html)[Startups](https://www.webex.com/industries/start-ups.html)[Hybrid Work](https://www.webex.com/hybrid-work.html)
+## Resources
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Downloads](https://www.webex.com/downloads.html)[Join a Test Meeting](https://www.webex.com/test-meeting.html)[Online Classes](https://help.webex.com/en-us/landing/onlineclasses)[Integrations](https://www.webex.com/products/integrations/index.html)[Accessibility](https://www.webex.com/accessibility.html)[Inclusivity](https://www.webex.com/inclusive-collaboration.html)[Live & On-Demand Webinars](https://www.webex.com/learn/webinars-demos.html)[Webex Community](https://cs.co/webexcommunity)[Webex Developers](https://developer.webex.com/)[News & Innovations](https://www.webex.com/resources/whats-new.html)
+## Company
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)[Contact Support](https://help.webex.com/en-us/contact)[Contact Sales](https://www.webex.com/us/en/dg/contact-sales.html)[Webex Blog](https://blog.webex.com/)[Webex Thought Leadership](https://webexahead.webex.com/)[Webex Merch Store](https://www.webexmerchstore.com/)[Careers](https://www.webex.com/company/careers.html)
+  * [![X](https://help.webex.com/images/social-x.svg)](https://twitter.com/webex)
+  * [![LinkedIn](https://help.webex.com/images/linkedinIcon.svg)](https://www.linkedin.com/company/webex)
+  * [![Facebook](https://help.webex.com/images/facebookIcon.svg)](https://www.facebook.com/webex)
+  * [![Youtube](https://help.webex.com/images/youtubeIcon.svg)](https://www.youtube.com/c/webex)
+  * [![Instagram](https://help.webex.com/images/insta.svg)](https://www.instagram.com/webex/)
+
+
+[Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+©2026 Cisco and/or its affiliates. All rights reserved. 
+[Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
