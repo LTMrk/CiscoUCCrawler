@@ -40,8 +40,6 @@
 Note: Cisco Meeting App (retired) redirects here.   |  
 [ ![Product Image of Cisco Meeting Server](https://www.cisco.com/c/dam/assets/support/product-images/series/conferencing-meeting-server.jpg/_jcr_content/renditions/conferencing-meeting-server-600x220.jpg)![](https://www.cisco.com/c/en/us/support/conferencing/meeting-server/series.html) Click to expand ](https://www.cisco.com/c/dam/assets/support/product-images/series/conferencing-meeting-server.jpg)
 [![Product Image of Cisco Meeting Server](https://www.cisco.com/c/dam/assets/support/product-images/series/conferencing-meeting-server.jpg/_jcr_content/renditions/conferencing-meeting-server-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/conferencing-meeting-server.jpg)
-[![Product Image of Cisco Meeting Server](https://www.cisco.com/c/dam/assets/support/product-images/series/conferencing-meeting-server-alternate1.jpg/_jcr_content/renditions/conferencing-meeting-server-alternate1-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/conferencing-meeting-server-alternate1.jpg)
-[![Product Image of Cisco Meeting Server](https://www.cisco.com/c/dam/assets/support/product-images/series/conferencing-meeting-server-series-alternate2.jpg/_jcr_content/renditions/conferencing-meeting-server-series-alternate2-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/conferencing-meeting-server-series-alternate2.jpg)
 Contact Cisco 
   * [Open a TAC Case Online](https://mycase.cloudapps.cisco.com/case)
   * US/Canada 800-553-2447
@@ -315,6 +313,7 @@ Reset
 mgctlbxN$MZP mgctlbxV$5.3.7 mgctlbxL$C
 ![](https://www.cisco.com/c/en/us/support/conferencing/meeting-server/series.html)
 mgctlbxN$MSC mgctlbxV$2.0.55 mgctlbxL$C
+[![Product Image of Cisco Meeting Server](https://www.cisco.com/c/dam/assets/support/product-images/series/conferencing-meeting-server-alternate1.jpg/_jcr_content/renditions/conferencing-meeting-server-alternate1-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/conferencing-meeting-server-alternate1.jpg)[![Product Image of Cisco Meeting Server](https://www.cisco.com/c/dam/assets/support/product-images/series/conferencing-meeting-server-series-alternate2.jpg/_jcr_content/renditions/conferencing-meeting-server-series-alternate2-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/conferencing-meeting-server-series-alternate2.jpg)
 By continuing to use our website, you acknowledge the use of cookies. 
 [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
 ![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)

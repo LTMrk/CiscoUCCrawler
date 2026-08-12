@@ -244,6 +244,7 @@ Unless specified, documentation for the Cisco VG Series Gateways is applicable t
 mgctlbxN$MZP mgctlbxV$5.3.7 mgctlbxL$C
 ![](https://www.cisco.com/c/en/us/support/unified-communications/vg-series-gateways/series.html)
 mgctlbxN$MSC mgctlbxV$2.0.55 mgctlbxL$C
+[![Product image of Cisco VG Series Gateways](https://www.cisco.com/c/dam/assets/support/product-images/series/unified-communications-vg-series-gateways-alternate3.jpg/_jcr_content/renditions/unified-communications-vg-series-gateways-alternate3-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/unified-communications-vg-series-gateways-alternate3.jpg)
 By continuing to use our website, you acknowledge the use of cookies. 
 [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
 ![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
@@ -290,4 +291,3 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
-[![Product image of Cisco VG Series Gateways](https://www.cisco.com/c/dam/assets/support/product-images/series/unified-communications-vg-series-gateways-alternate3.jpg/_jcr_content/renditions/unified-communications-vg-series-gateways-alternate3-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/unified-communications-vg-series-gateways-alternate3.jpg)

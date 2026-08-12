@@ -436,6 +436,14 @@ Saved Content
 
 Downloads
     
+Software is available based on release. Please select:
+  * Product release
+  * Bulk Administration Tool
+  * Unified Communications Manager Version 12.5
+  * Unified Communications Manager Version 14
+  * Unified Communications Manager Version 15
+
+
 Log in to see available downloads. 
 
 Community

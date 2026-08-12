@@ -36,6 +36,8 @@
 |   |  
 [ ![Product image of Cisco Catalyst 9300 Series Switches](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches.jpg/_jcr_content/renditions/switches-catalyst-9300-series-switches-600x220.jpg)![](https://www.cisco.com/c/en/us/support/switches/catalyst-9300-series-switches/series.html) Click to expand ](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches.jpg)
 [![Product image of Cisco Catalyst 9300 Series Switches](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches.jpg/_jcr_content/renditions/switches-catalyst-9300-series-switches-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches.jpg)
+[![Product image of Cisco Catalyst 9300 Series Switches](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate1.jpg/_jcr_content/renditions/switches-catalyst-9300-series-switches-alternate1-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate1.jpg)
+[![Product image of Cisco Catalyst 9300 Series Switches](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate2.jpg/_jcr_content/renditions/switches-catalyst-9300-series-switches-alternate2-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate2.jpg)
 Alerts 
   * Cisco is dedicated to protecting your business and networks from illegal activities. Purchase through official Cisco partners.   
 [Why where you purchase matters](https://www.cisco.com/go/brandprotection) | [Identify counterfeit and pirated products](https://www.cisco.com/go/identifycounterfeit) | [Serial Number Health Check](https://www.cisco.com/go/buyright)
@@ -71,209 +73,8 @@ Other Languages
 
 Documentation
     
-Filter
 ![](https://www.cisco.com/etc/designs/cdc/fw/i/search_icon.png)
 ![](https://www.cisco.com/etc/designs/cdc/fw/i/clear_search_icon.png)
-FilterNew Switch to Search
-Select Model
-  * Cisco Catalyst 9300 Switch 
-  * Cisco Catalyst 9300-48H-A Switch 
-  * Cisco Catalyst 9300-48H-E Switch 
-  * Cisco Catalyst 9300-48P-A7 Switch 
-  * Cisco Catalyst 9300-48P-A Switch 
-  * Cisco Catalyst 9300-48P-E Switch 
-  * Cisco Catalyst 9300-48S-A Switch 
-  * Cisco Catalyst 9300-48S-E Switch 
-  * Cisco Catalyst 9300-48T-A7 Switch 
-  * Cisco Catalyst 9300-48T-A Switch 
-  * Cisco Catalyst 9300-48T-E Switch 
-  * Cisco Catalyst 9300-48U-A7 Switch 
-  * Cisco Catalyst 9300-48U-A Switch 
-  * Cisco Catalyst 9300-48U-A-UL Switch 
-  * Cisco Catalyst 9300-48U-E Switch 
-  * Cisco Catalyst 9300-48U-E-UL Switch 
-  * Cisco Catalyst 9300-48UB-A Switch 
-  * Cisco Catalyst 9300-48UB-E Switch 
-  * Cisco Catalyst 9300-48UN-A7 Switch 
-  * Cisco Catalyst 9300-48UN-A Switch 
-  * Cisco Catalyst 9300-48UN-E Switch 
-  * Cisco Catalyst 9300-48UXM-A7 Switch 
-  * Cisco Catalyst 9300-48UXM-A Switch 
-  * Cisco Catalyst 9300-48UXM-E Switch 
-  * Cisco Catalyst 9300-24H-A Switch 
-  * Cisco Catalyst 9300-24H-E Switch 
-  * Cisco Catalyst 9300-24P-A7 Switch 
-  * Cisco Catalyst 9300-24P-A Switch 
-  * Cisco Catalyst 9300-24P-E Switch 
-  * Cisco Catalyst 9300-24S-A Switch 
-  * Cisco Catalyst 9300-24S-E Switch 
-  * Cisco Catalyst 9300-24T-A7 Switch 
-  * Cisco Catalyst 9300-24T-A Switch 
-  * Cisco Catalyst 9300-24T-E Switch 
-  * Cisco Catalyst 9300-24U-A7 Switch 
-  * Cisco Catalyst 9300-24U-A Switch 
-  * Cisco Catalyst 9300-24U-A-UL Switch 
-  * Cisco Catalyst 9300-24U-E Switch 
-  * Cisco Catalyst 9300-24U-E-UL Switch 
-  * Cisco Catalyst 9300-24UB Switch 
-  * Cisco Catalyst 9300-24UB-E Switch 
-  * Cisco Catalyst 9300-24UX-A7 Switch 
-  * Cisco Catalyst 9300-24UX-A Switch 
-  * Cisco Catalyst 9300-24UX-E Switch 
-  * Cisco Catalyst 9300-24UXB-A Switch 
-  * Cisco Catalyst 9300-24Y Switch 
-  * Cisco Catalyst 9300-24Y-A Switch 
-  * Cisco Catalyst 9300-24Y-E Switch 
-  * Cisco Catalyst 9300-12Y Switch 
-  * Cisco Catalyst 9300-12Y-A Switch 
-  * Cisco Catalyst 9300-12Y-E Switch 
-  * Cisco Catalyst 9300D Switch Stack 
-  * Cisco Catalyst 9300L Switch Stack 
-  * Cisco Catalyst 9300L-48P-4G-A Switch 
-  * Cisco Catalyst 9300L-48P-4G-E Switch 
-  * Cisco Catalyst 9300L-48P-4X-A Switch 
-  * Cisco Catalyst 9300L-48P-4X-E Switch 
-  * Cisco Catalyst 9300L-48PF-4G-A Switch 
-  * Cisco Catalyst 9300L-48PF-4G-E Switch 
-  * Cisco Catalyst 9300L-48PF-4X-A Switch 
-  * Cisco Catalyst 9300L-48PF-4X-E Switch 
-  * Cisco Catalyst 9300L-48T-4G-A Switch 
-  * Cisco Catalyst 9300L-48T-4G-E Switch 
-  * Cisco Catalyst 9300L-48T-4X-A Switch 
-  * Cisco Catalyst 9300L-48T-4X-E Switch 
-  * Cisco Catalyst 9300L-48UXG-4X-A Switch 
-  * Cisco Catalyst 9300L-48UXG-4X-E Switch 
-  * Cisco Catalyst 9300L-48UXG-2Q-A Switch 
-  * Cisco Catalyst 9300L-48UXG-2Q-E Switch 
-  * Cisco Catalyst 9300L-24P-4G-A Switch 
-  * Cisco Catalyst 9300L-24P-4G-E Switch 
-  * Cisco Catalyst 9300L-24P-4X-A Switch 
-  * Cisco Catalyst 9300L-24P-4X-E Switch 
-  * Cisco Catalyst 9300L-24T-4G-A Switch 
-  * Cisco Catalyst 9300L-24T-4G-E Switch 
-  * Cisco Catalyst 9300L-24T-4X-A Switch 
-  * Cisco Catalyst 9300L-24T-4X-E Switch 
-  * Cisco Catalyst 9300L-24UXG-4X-A Switch 
-  * Cisco Catalyst 9300L-24UXG-4X-E Switch 
-  * Cisco Catalyst 9300L-24UXG-2Q-A Switch 
-  * Cisco Catalyst 9300L-24UXG-2Q-E Switch 
-  * Cisco Catalyst 9300LM-48T-4Y Switch 
-  * Cisco Catalyst 9300LM-48U-4Y Switch 
-  * Cisco Catalyst 9300LM-48UX-4Y Switch 
-  * Cisco Catalyst 9300LM-24U-4Y Switch 
-  * Cisco Catalyst 9300X-48HX Switch 
-  * Cisco Catalyst 9300X-48HX-A Switch 
-  * Cisco Catalyst 9300X-48HX-E Switch 
-  * Cisco Catalyst 9300X-48HXN Switch 
-  * Cisco Catalyst 9300X-48HXN-A Switch 
-  * Cisco Catalyst 9300X-48HXN-E Switch 
-  * Cisco Catalyst 9300X-48TX Switch 
-  * Cisco Catalyst 9300X-48TX-A Switch 
-  * Cisco Catalyst 9300X-48TX-E Switch 
-  * Cisco Catalyst 9300X-24HX Switch 
-  * Cisco Catalyst 9300X-24HX-A Switch 
-  * Cisco Catalyst 9300X-24HX-E Switch 
-  * Cisco Catalyst 9300X-24Y-A Switch 
-  * Cisco Catalyst 9300X-24Y-E Switch 
-  * Cisco Catalyst 9300X-12Y-A Switch 
-  * Cisco Catalyst 9300X-12Y-E Switch 
-
-Software Type
-  * IOS XE Hardware Programmable Devices 
-  * IOS XE In-Service Software Upgrade (ISSU) Matrix 
-  * IOS XE Software 
-  * IOS XE Software AP Device Pack 
-  * IOS XE Software AP Service Pack 
-  * IOS XE Software Maintenance Upgrade AP Service Pack (SMU APSP) 
-  * IOS XE Software Maintenance Upgrades (SMU) 
-  * IOS XE Wireless Controller Software Package 
-  * NBAR2 Protocol Packs 
-  * Security Sensor 
-
-Software Version
-  * IOSXE-26.1 
-  * IOSXE-17.18 
-  * IOSXE-17.17 
-  * IOSXE-17.16 
-  * IOSXE-17.15 
-  * IOSXE-17.14 
-  * IOSXE-17.13 
-  * Gibraltar-16.12.6a 
-  * Gibraltar-16.12.6 
-  * Gibraltar-16.12.5 
-  * Gibraltar-16.12 
-  * Gibraltar-16.11 
-  * Fuji-16.9.8 
-  * Fuji-16.9 
-  * Everest-16.6 
-  * Dublin-17.12(Applicable to All Models of Cisco Catalyst 9300 Series Switches) 
-  * Dublin-17.12 
-  * Dublin-17.11(Applicable to All Models of Cisco Catalyst 9300 Series Switches) 
-  * Dublin-17.11 
-  * Dublin-17.10 
-  * Cupertino-17.9 
-  * Cupertino-17.8 
-  * Cupertino-17.7.1 
-  * Cupertino-17.7 
-  * Bengaluru-17.6.2 
-  * Bengaluru-17.6 
-  * Bengaluru-17.5 
-  * Bengaluru-17.4 
-  * Amsterdam-17.3.4 
-  * Amsterdam-17.3 
-  * Amsterdam-17.2 
-  * Amsterdam-17.1 
-  * 59.0.0 
-  * 58.0.0 
-  * 57.0.0 
-  * 56.0.0 
-  * 17.18(Applicable to All Models of Cisco Catalyst 9300 Series Switches) 
-  * 17.18 
-  * 17.15(Applicable to All Models of Cisco Catalyst 9300 Series Switches) 
-  * 17.15 
-  * 17.12(Applicable to All Models of Cisco Catalyst 9300 Series Switches) 
-  * 17.12 
-  * 17.11 
-  * 17.10 
-  * 17.9(Applicable to All Models of Cisco Catalyst 9300 Series Switches) 
-  * 17.9 
-  * 17.8 
-  * 17.7.1 
-  * 17.7 
-  * 17.6(Applicable to All Models of Cisco Catalyst 9300 Series Switches) 
-  * 17.6 
-  * 17.5 
-  * 17.4 
-  * 17.3.4 
-  * 17.3(Applicable to All Models of Cisco Catalyst 9300 Series Switches) 
-  * 17.3 
-  * 16.0.0 
-  * 4.4 
-  * 4.3.0 
-  * 4.3 
-
-Task
-  * Collections 
-  * Configuration 
-  * Data Sheets and Product Information 
-  * Design 
-  * Install and Upgrade 
-  * Literature 
-  * Maintain and Operate 
-  * Multimedia 
-  * Reference 
-  * Release and Compatibility 
-  * Security Notices 
-  * Troubleshooting 
-
-Reset all
-No results found. Please try different selections.
-See also: [](https://www.cisco.com/c/en/us/support/switches/catalyst-9300-series-switches/series.html)
-This search has over 50 results. You can make more selections to narrow your search.
-### Results
-![](https://www.cisco.com/etc/designs/cdc/fw/i/search_icon.png)
-![](https://www.cisco.com/etc/designs/cdc/fw/i/clear_search_icon.png)
-Switch to Filter
 ![](https://www.cisco.com/etc/designs/cdc/fw/i/spinner.gif)
 ## Top Search Results
 Load More View English Results View English Results Close Results
@@ -667,7 +468,7 @@ Reset
 mgctlbxN$MZP mgctlbxV$5.3.7 mgctlbxL$C
 ![](https://www.cisco.com/c/en/us/support/switches/catalyst-9300-series-switches/series.html)
 mgctlbxN$MSC mgctlbxV$2.0.55 mgctlbxL$C
-[![Product image of Cisco Catalyst 9300 Series Switches](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate1.jpg/_jcr_content/renditions/switches-catalyst-9300-series-switches-alternate1-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate1.jpg)[![Product image of Cisco Catalyst 9300 Series Switches](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate2.jpg/_jcr_content/renditions/switches-catalyst-9300-series-switches-alternate2-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate2.jpg)[![Product image of Cisco Catalyst 9300 Series Switches](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate3.jpg/_jcr_content/renditions/switches-catalyst-9300-series-switches-alternate3-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate3.jpg)[![Product image of Cisco Catalyst 9300 Series Switches](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate5.jpg/_jcr_content/renditions/switches-catalyst-9300-series-switches-alternate5-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate5.jpg)
+[![Product image of Cisco Catalyst 9300 Series Switches](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate3.jpg/_jcr_content/renditions/switches-catalyst-9300-series-switches-alternate3-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate3.jpg)[![Product image of Cisco Catalyst 9300 Series Switches](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate5.jpg/_jcr_content/renditions/switches-catalyst-9300-series-switches-alternate5-94x64.jpg)](https://www.cisco.com/c/dam/assets/support/product-images/series/switches-catalyst-9300-series-switches-alternate5.jpg)
 By continuing to use our website, you acknowledge the use of cookies. 
 [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
 ![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)

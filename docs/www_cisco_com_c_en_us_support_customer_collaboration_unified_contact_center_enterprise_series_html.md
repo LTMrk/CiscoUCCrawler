@@ -433,46 +433,9 @@ Community
 
   * Select a Community Board
 Reset
-  * All Boards
-  * Cisco Bug Discussions
-  * Collaboration Knowledge Base
-  * Collaboration Videos
-  * Contact Center
 
 
 ## Latest Community Activity For This Product
-  * [Cisco MediaSense End Of Life FAQ](https://community.cisco.com/t5/collaboration-knowledge-base/cisco-mediasense-end-of-life-faq/ta-p/3636105)
-ordering guide can be found here: _http://www.cisco.com/c/dam/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/customer-contact-og.pdf_ What options are available to new ,:Customer using MediaSense as recorder with SolutionsPlus for WFO Potentially affected Solutions: _UCCE,_ PCCE, HCS-CC The Customer can move the recording solution to one provided by the SolutionsPlus vendor,3a: Customer using MediaSense as Audio Streaming Resource for CVP Potentially affected Solutions: _UCCE,_ HCS-CC MediaSense 11.5 introduced the Audio Streaming capabilities for CVP as a potential replacement 
-Board: [Collaboration Knowledge Base](https://community.cisco.com/t5/collaboration-knowledge-base/tkb-p/4691-docs-collaboration-voice-video)Created by: Anil Verma Posted: 9 years ago Last modified: 2 weeks ago
-  * [Zero-Downtime Cisco UCCE Migration Methodology](https://community.cisco.com/t5/contact-center/zero-downtime-cisco-ucce-migration-methodology/td-p/5562890)
-ability to manage production call volume. Migration Objective The objective was to move from _UCCE_ 10.5 to _UCCE_ 12.6 without requiring a broad production outage. The migration strategy was designed around,legacy architecture followed a traditional enterprise _UCCE_ model: Customer Calls | Carrier / SIP / PSTN | Cisco Voice Gateway / CUBE | CUCM | CVP / VVB | _UCCE_ Router / Logger | Peripheral Gateways | Finesse ,12.6 Environment The target _UCCE_ 12.6 environment was prepared in parallel wherever possible. Cisco’s installation documentation emphasizes specific installation tasks for _UCCE_ components and notes the importance 
-Board: [Contact Center](https://community.cisco.com/t5/contact-center/bd-p/5926-discussions-contact-center)Created by: Ahmadalkayyali Posted: 1 month ago Last modified: 1 month ago
-  * [UCCE Deleted Object](https://community.cisco.com/t5/contact-center/ucce-deleted-object/td-p/5545133)
-I deleted a user in Agent Explorer, because I mistakenly placed their first name as their first and last, which created a bad Enterprise Name. Somehow when I deleted them, it still retained their Team 
-Board: [Contact Center](https://community.cisco.com/t5/contact-center/bd-p/5926-discussions-contact-center)Created by: wabrown Posted: 4 months ago Last modified: 3 months ago
-  * [UCCE/CVP 10.5 RONA is not working for IP orignated (internal) calls](https://community.cisco.com/t5/contact-center/ucce-cvp-10-5-rona-is-not-working-for-ip-orignated-internal/td-p/3597561)
-answer dialed number" i _UCCE_ ADS and maps it to CT -> _UCCE_ routing script, the RONA timer works as expected... I have always understood that the "Ring no answer dialed number" i _UCCE_ ADS is only used when, the RONA _UCCE_ ADS Timer to kick in for IP originated, but CVP RNA Timer though forces the agent to status Not Ready. Router Requery enabled for Skill Groups and PQ's. RONA Timer Config: _UCCE_ Agent Desktop 
-Board: [Contact Center](https://community.cisco.com/t5/contact-center/bd-p/j-disc-dev-contact-center)Created by: slavr Posted: 11 years ago Last modified: 5 months ago
-  * [UCCE with CVP streaming audio](https://community.cisco.com/t5/contact-center/ucce-with-cvp-streaming-audio/td-p/5356125)
-thinking if the above can be achieved then the AI bot part can be done as well? Need your input here _UCCE,_ CVP, ICM, VVB, 
-Board: [Contact Center](https://community.cisco.com/t5/contact-center/bd-p/5926-discussions-contact-center)Created by: rasheed911 Posted: 7 months ago Last modified: 7 months ago
-  * [Cisco CCE with Google Agent Assist](https://community.cisco.com/t5/contact-center/cisco-cce-with-google-agent-assist/td-p/5355501)
-implemented Google Agent Assist with the Cisco _UCCE_ 12.6.2 setup. Looking for a few clarifications about this. We have completed all the settings on the Cisco side.( _UCCE_ +CloudConnect+Control Hub). From the Google, types select FAQ option. _https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/222218-configure-cce-agent-answers-and-call-tra.html_ https://docs.cloud.google. 
-Board: [Contact Center](https://community.cisco.com/t5/contact-center/bd-p/5926-discussions-contact-center)Created by: Ramamoorthy Shanmugam Posted: 7 months ago Last modified: 7 months ago
-  * [CSCvd10535 - UCCE user integration fails when a new supervisor to be synced already exists in CUIC - 3](https://community.cisco.com/t5/cisco-bug-discussions/cscvd10535-ucce-user-integration-fails-when-a-new-supervisor-to/td-p/4179377)
-issue to CUIC where some agents were not syncing properly from _UCCE_. We found the following error when attempting synchronization in _UCCE_ User Integration Configuration. "FAILED [ doBulkInsert for Supervisors,We recently hit this bug in _UCCE_ 11.6.1 / CUIC 11.6.1.10000-44. Our client reported that some users were getting the following error when trying to view live data report gadgets in Finesse. "Request to,6 of the following document. _https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-intelligence-center/211629-CUIC-11-5-1-UCCE-User-Integration-fai.html_ run sql select * from cuic_data 
-Board: [Cisco Bug Discussions](https://community.cisco.com/t5/cisco-bug-discussions/bd-p/5451-discussions-cisco-bug-discussions)Created by: jpare Posted: 5 years ago Last modified: 7 months ago
-  * [UCCE and Splunk integration](https://community.cisco.com/t5/contact-center/ucce-and-splunk-integration/td-p/3958192)
-I am currently integrating _UCCE_ 10.5 with Splunk and want to prepare a good Use Case to demonstrate Splunk's feature to my management; however, I am getting short of ideas and want your suggestion for ,creating a use case. How can splunk help in improving the customer call journey experience, what all _UCCE_ dashboards can be prepared ( apart from CPU, hard disk). If there is a Splunk query which is handy,with anyone, please share with me. if there are any documents, videos available demonstrating Splunk-_UCCE_ integration, please share with me. 
-Board: [Contact Center](https://community.cisco.com/t5/contact-center/bd-p/5926-discussions-contact-center)Created by: NitinKumar66656 Posted: 6 years ago Last modified: 8 months ago
-  * [Integration between Cisco CUCM/UCCX/UCCE and ManageEngine ServiceDesk](https://community.cisco.com/t5/collaboration-videos/integration-between-cisco-cucm-uccx-ucce-and-manageengine/ba-p/5323128)
-Posting this video to show the possibility of Integration between Cisco CUCM/UCCX/_UCCE_ and ManageEngine ServiceDesk Plus using a 3rd party connector. Parsec Telesystems Cisco Connector application for , Zoho ManageEngine ServiceDesk Plus works as a bridge between ServiceDesk Plus and Cisco CUCM/UCCX/_UCCE_ /PCCE. On inbound call from the user to enterprise Agent/Technician the connector queries ServiceDesk 
-Board: [Collaboration Videos](https://community.cisco.com/t5/collaboration-videos/bg-p/4691-videos-collaboration-voice-video)Created by: PTS Posted: 11 months ago Last modified: 11 months ago
-  * [Reporting value of UCCE User Variable](https://community.cisco.com/t5/contact-center/reporting-value-of-ucce-user-variable/td-p/2400895)
-me to look in the t_Persistent_Variable table and yet it is blank. Thanks in advance for the help _UCCE_ version 8.5 
-Board: [Contact Center](https://community.cisco.com/t5/contact-center/bd-p/5926-discussions-contact-center)Created by: bruce.finney Posted: 12 years ago Last modified: 1 year ago
-
-There are no community discussions for this board.
 ## Solved Issues
 ## Community Documents
 By continuing to use our website, you acknowledge the use of cookies. 
