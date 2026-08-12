@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,8 +19,8 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)
-  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)Show All Breadcrumbs
   * [Support](https://www.cisco.com/c/en/us/support/index.html)
   * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
@@ -28,528 +28,161 @@
   * [Troubleshooting TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-tech-notes-list.html)
 
 
-# Troubleshoot Full Common Partition in CUCM
+# Recover from Ungraceful Shutdowns on VOS
 ![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)
 Download
 Print
 ### Available Languages
-  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)
-  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)
-  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)
-  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)
-  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)
-  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)
-  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)
-  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)
-  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)
-  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)
 
 
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.pdf) (1.0 MB)   
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.pdf) (43.2 KB)   
 View with Adobe Reader on a variety of devices
-  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.epub) (1.1 MB)   
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.epub) (107.9 KB)   
 View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
-  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.mobi) (740.0 KB)   
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.mobi) (125.1 KB)   
 View on Kindle device or Kindle app on multiple devices
 
 
-Updated:August 26, 2025
-Document ID:221038
+Updated:July 24, 2025
+Document ID:220970
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
 ## Contents
-[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId-1626033174)
-[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId--181421289)
-[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId-509140185)
-[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId--1298314278)
-[Background Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId--1308817382)
-[Validate Common Partition Space](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId--618255908)
-[Common Partition Clean-Up Methods](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId-1858753821)
-[Validate Virtualization Storage Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId--1745652001)
-[Log Partition Monitoring Tool](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId-741860832)
-[Execute Free Space COP File](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId--1760757110)
-[Delete Logs via CLI](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId-726755723)
-[Delete cm/trace Logs](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId--951616021)
-[Delete Core Dumps](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId-1535896812)
-[Modify Call Detail Records (CDR) Low/High Watermark Values](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId--400640370)
-[Purge CDR Analysis and Reporting (CAR) Database](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId-2086872463)
-[Deleted Unused Phone Firmware Files](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId-279418000)
-[Troubleshooting](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId--1657119182)
-[Related information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html#toc-hId-830393651)
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html#toc-hId--212700077)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html#toc-hId--2020154540)
+[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html#toc-hId--1329593066)
+[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html#toc-hId--649534696)
+[What is an Ungraceful Shutdown](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html#toc-hId--660037800)
+[Verifying a Ungraceful Shutdown Event](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html#toc-hId--1776930789)
+[Validate System Health](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html#toc-hId--1787433893)
+[Verify Power](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html#toc-hId--1792035898)
+[Verify Hardware](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html#toc-hId-695476935)
+[Verify Shutdown Procedure](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html#toc-hId--1111977528)
+[VOS Stability Checks](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html#toc-hId-1375535305)
+[Mitigation](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html#toc-hId-1926510956)
+[Remediation](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html#toc-hId-119056493)
 ## Introduction
-This document describes how to troubleshoot full common partition in a Unified Communications Manager (CUCM) server and how to clean-up storage.
+This document describes how to troubleshoot and resolve ungraceful shutdown issues on Voice Operating System (VOS) based systems.
 ## Prerequisites
-### Requirements
-Cisco recommends that you have knowledge of these topics:
-  * Real-Time Monitoring Tool (RTMT)
-  * CUCM GUI interface and CLI sessions
+### Requirements 
+Cisco recommends that you have knowledge of one or more of these topics:
+  * Cisco Unified Communications Manager (CUCM)
+  * Cisco Unified Instant Messaging & Presence (IM&P)
+  * Cisco Emergency Responder (CER)
+  * Cisco Unity Connection (CUC)
 
 
 ### Components Used
 The information in this document is based on these software and hardware versions:
-  * CUCM version 12.5.1.16900-48
+  * CUCM 12.5 or higher
+  * IM&P 12.5 or higher
+  * CER 12.5 or higher
+  * CUC 12.5 or higher
 
 
 The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
-## Background Information
-CUCM has three main disk partitions:
-  * Disk/active: contains the current CUCM version and its configuration.
-  * Disk/inactive: contains the previous version in case you need to switch after an upgrade for any reason.
-  * Disk/logging: this is also called common partition which holds all the enabled log/trace files and also used to store temporarily the upgrade ISO file during upgrade.
+## What is an Ungraceful Shutdown
+An ungraceful shutdown refers to the sudden or abrupt termination of VOS without performing the proper shutdown procedures. It typically occurs when the system is forced to stop or power off unexpectedly, without allowing the necessary processes and services to shut down gracefully.
+When a ungraceful shutdown has occurred, a warning message is displayed on the servers administration website. 
+[![Ungraceful Shutdown Web Interface Warning](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos-00.png "Ungraceful Shutdown Web Interface Warning")Ungraceful Shutdown Web Interface Warning
+This warning also displays if you log in via SSH or VMWare Console.
+[![Ungraceful Shutdown CLI](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos-01.png "Ungraceful Shutdown CLI")Ungraceful Shutdown CLI
+Common causes for ungraceful shutdowns include:
+  * Power outages
+  * Hardware failures
+  * Improper Virtual Machine shutdown, restart or halt procedures
 
 
-Common partition clean-up is required in two scenarios:
-  1. Log rotate is broken and logs do not get deleted leading to the logging (/common) partition to grow without bound. This can cause performance issues as the inability to logging affects the execution of different commands.
-  2. CUCM upgrade requires more space under common partition. [Pre-Upgrade Readiness COP File](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214137-upgrade-readiness-checks-cop-file-for-cu.html) validates different aspects of your cluster before the upgrade is performed, one of the modules is the Disk Space Check as CUCM upgrade requires at least 25GB of free space in the common partition.
+**Warning** : Ungraceful shutdowns can result in service interruptions, data loss, and system instability.
+### Verifying a Ungraceful Shutdown Event 
+To confirm that a ungraceful shut down occurred, log into the **CLI** and execute **file view install system-history.log**.
+Review the output of the system-history.log. If two boot events are consecutive without a proceeding shutdown or restart event, then a ungraceful shutdown has occurred. 
+admin:file view install system-history.log
+06/20/2023 10:22:48 | root: Shutdown 14.0.1.13900-155 Start
+06/20/2023 10:24:35 | root: Boot 14.0.1.13900-155 Start = OK, prior Shutdown
+07/10/2023 10:29:08 | root: Restart 14.0.1.13900-155 Start
+07/10/2023 10:30:05 | root: Boot 14.0.1.13900-155 Start = OK, prior Restart
+07/15/2023 11:14:29 | root: Boot 14.0.1.13900-155 Start = Ungraceful Shutdown, no prior Restart or Shutdown statement
+## Validate System Health
+It is important to identify the underlying cause of an ungraceful shutdown in order to take appropriate measures to prevent its recurrence and minimize the impact on the system and its users.
+### Verify Power
+Check if the VOS server has a stable power supply and is properly connected to power sources. Ensure that power cables are securely connected and not damaged.
+### Verify Hardware
+Access the servers Integrated Management Controller (IMC) or Integrated Dell Remote Access Controller (iDRAC) to review the server logs. Review the server logs for any hardware errors or warnings that indicate issues with hardware components.
+Many servers offer diagnostic tools that can be accessed during the boot process. These tools can perform comprehensive hardware tests, including memory tests, CPU tests, and disk checks. Use these diagnostic tools to identify any hardware issues or failures.
+**Note** : It is important to consult server manufacturers documentation and support resources for specific instructions on how to verify and troubleshoot hardware issues.
+### Verify Shutdown Procedure
+Forcing the VOS server to shut down using methods such as pressing the power button or unplugging the server without allowing the operating system to perform the necessary shutdown processes can lead to an ungraceful shutdown.
+### VOS Stability Checks
+To verify the stability of the VOS system, several utilities can be utilized. These utilities provide valuable information about the services, diagnostics, network, database integrity, and time synchronization.  
+|  **Utility**  |  **Description**  |  
+| --- | --- |  
+|  **utils service list**  |  This VOS command is used to check the status and health of the services running on the server. Reviewing the service list ensures that all essential services are running as expected. Any services that are stopped or experiencing issues can be an indication of a potential stability problems within the system.  |  
+|  **utils diagnose test**  |  This VOS command initiates a diagnostic test that performs various checks on system components, configurations, and services. It helps identify any potential issues or misconfiguration that could impact system stability. The diagnostic output provides administrators with diagnostic information and recommendations for resolving any identified problems.  |  
+|  **show network cluster**  |  This VOS command verifies the network connectivity between cluster nodes and displays the status of each cluster member. Administrators can examine the output data to ensure that the network is properly configured, all cluster members are online, and communication between them is stable. Network issues or inconsistencies can significantly impact the stability and reliability of the VOS system.  |  
+|  **show tech dbintegrity**  |  This VOS command generates a technical support file that includes information about the database integrity. It verifies the replication status, counters, and other crucial details related to the database. Checking the database integrity is vital for ensuring data consistency and system stability. Any issues detected by this command can help with the identification and resolution of potential database problems.  |  
+|  **utils ntp status**  |  This VOS command displays the Network Time Protocol (NTP) synchronization status on the server. It shows the NTP source being used, the synchronization status, and the time offset between the server and the configured NTP source. Proper time synchronization is essential for various system functions. Verifying the NTP status ensure that the VOS systems time is accurate and minimizes potential issues related to timing.  |  
+|  Recovery ISO File Check  |  This ISO utility is used to examine and verify the integrity of the file system on the VOS server. Perform the file check to confirm that the file system is healthy and free of any corruption or errors. The file check does not cover the integrity of the individual files which could contain corrupted elements For information about downloading and using the recovery ISO, please refer to the [Obtain and Run Recovery Software on the CUCM VM](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html "Obtain and Run Recovery Software on the CUCM VM") guide.   |  
+## Mitigation
+To mitigate the impact of ungraceful shutdowns, it is important to implement preventive measures such as regular backups, monitoring, and redundancy strategies.
+If proper shutdown procedures are not followed during maintenance activities, system upgrades, virtual machine restart or virtual machine shutdown, it can result in an ungraceful shutdown.
+## Remediation
+Recommended remediation for an ungraceful shutdown at the VOS level is to rebuild the affected nodes and restore from a good backup. This ensures file integrity of the system and restores the system to a stable state.
+Refer to the links provided for Instructions on how to restore from a backup. 
+  * [CUCM](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/14SU2/adminGd/cucm_b_administration-guide-14su2/cucm_m_restore-the-system.html "CUCM")
+  * [ IM&P](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/14_su2/cup0_b_config-and-admin-guide-14su2/cup0_b_config-and-admin-guide-1401_chapter_011110.html "IM&P")
+  * [CER](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su2/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-14su2/cer0_b_cisco-emergency-responder-administration-guide-1401_appendix_010010.html "CER")
+  * [CUC](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/install_upgrade/guide/b_14cuciumg/b_14cuciumg_chapter_01.html "CUC")
 
 
-### Validate Common Partition Space
-The useful commands to start troubleshooting Common Partition space issue are:
-  * show status
-  * show tech runtime disk
-  * show hardware
-  * show diskusage common sort 
-  * utils core active list
-  * utils core inactive list
-
-
-In order to validate disk space, use the **show status** command. The disk usage is displayed at the end of the command.
-
-```
-admin:**show status**  
-  
-Host Name          : xxxxxxxx-cucm1  
-Date               : Fri Sep 29, 2023 17:20:40  
-Time Zone          : Central Daylight Time (America/Mexico_City)  
-Locale             : en_US.UTF-8  
-Product Ver        : 12.5.1.16900-48  
-Unified OS Version : 7.0.0.0-4  
-  
-Uptime:  
- 17:20:42 up 141 days,  1:12,  1 user,  load average: 2.22, 0.98, 0.82  
-  
-CPU Idle:   85.86%  System:   07.58%    User:   05.56%  
-  IOWAIT:   00.51%     IRQ:   00.00%    Soft:   00.51%  
-  
-Memory Total:        7990056K  
-        Free:         130848K  
-        Used:        3963172K  
-      Cached:        3232656K  
-      Shared:         484376K  
-     Buffers:        3896036K  
-  
-                        Total            Free            Used  
-Disk/active         19805412K        6240536K       13345948K (69%)      
-Disk/inactive       19805412K        6601928K       12984556K (67%)      
-Disk/logging        69234984K        5315340K       60379628K (92%)    <--- Used common partition space  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-```
-
-Another command to validate storage is **show tech runtime disk** , with this command, you can validate the Filesystem for each partition. The Disk/active partition is mounted to /, the Disk/inactive partition is mounted to /partB, and the Disk/logging partition is mounted to /common.
-
-```
-admin:**show tech runtime disk**  
- -------------------- show platform runtime --------------------  
-  
-The disk usage:  
-Filesystem      Size  Used Avail Use% Mounted on  
-devtmpfs        3.8G     0  3.8G   0% /dev  
-tmpfs           3.9G   85M  3.8G   3% /dev/shm  
-tmpfs           3.9G  402M  3.5G  11% /run  
-tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup  
-/dev/sda2        19G   13G  6.0G  69% /                 <--- Active partition  
-/dev/sda1        19G   13G  6.3G  67% /partB            <--- Inactive partition  
-/dev/sda3       240M  9.5M  214M   5% /grub  
-/dev/sda6        67G   58G  5.1G  92% /common           <--- Logging partition  
-none            128M     0  128M   0% /var/log/ramfs/cm/trace/ccm/sdi  
-none            128M  1.6M  127M   2% /var/log/ramfs/cm/trace/ccm/sdl  
-none            128M   32K  128M   1% /var/log/ramfs/cm/trace/ccm/calllogs  
-none            128M     0  128M   0% /var/log/ramfs/cm/trace/ccm/dntrace  
-none            128M  1.4M  127M   2% /var/log/ramfs/cm/trace/lbm/sdl  
-none            128M     0  128M   0% /var/log/ramfs/cm/trace/cti/sdi  
-none            128M  556K  128M   1% /var/log/ramfs/cm/trace/cti/sdl  
-tmpfs           781M     0  781M   0% /run/user/504  
-tmpfs           781M     0  781M   0% /run/user/1000  
-tmpfs           781M     0  781M   0% /run/user/0  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-```
-
-## Common Partition Clean-Up Methods
-[![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif "caution-icon")
-**Caution** : The deleted files cannot be restored without performing a DRS restore of the entire cluster. Ensure that you understand the impact of any deleted file. Cisco recommends that you take a backup before deleting any file.
-### Validate Virtualization Storage Requirements
-Your CUCM implementation must be in compliance with disk virtualization requirements according to your version, refer to [Virtualization for CUCM Guide](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/uc_system/virtualization/virtualization-cisco-unified-communications-manager.html). Use **show hardware** command to verify the storage on your virtual machine.
-
-```
-admin:**show hardware**  
-  
-HW Platform       : VMware Virtual Machine  
-Processors        : 2  
-Type              : Intel(R) Xeon(R) CPU E5-2699A v4 @ 2.40GHz  
-CPU Speed         : 2400  
-Memory            : 8192 MBytes  
-Object ID         : 1.3.6.1.4.1.9.1.1348  
-OS Version        : UCOS 7.0.0.0-4.i386  
-Serial Number     : VMware-42 16 9b c5 f6 08 da f9-36 d7 72 7c 01 41 52 62  
-  
-RAID Version      :  
-No RAID controller information is available  
-  
-BIOS Information  :  
-PhoenixTechnologiesLTD 6.00 11/12/2020  
-  
-RAID Details      :  
-No RAID information is available  
------------------------------------------------------------------------  
-Physical device information  
------------------------------------------------------------------------  
-Number of Disks   : 1              <--- # of vdisks  
-Hard Disk #1  
-Size (in GB)      : 110            <--- disk size  
-  
-Partition Details :  
-  
-Disk /dev/sda: 14359 cylinders, 255 heads, 63 sectors/track  
-Units: sectors of 512 bytes, counting from 0  
-  
-   Device Boot    Start       End   #sectors  Id  System  
-/dev/sda1   *      2048  40511487   40509440  83  Linux  
-/dev/sda2      40511488  81020927   40509440  83  Linux  
-/dev/sda3      81020928  81545215     524288  83  Linux  
-/dev/sda4      81545216 230686719  149141504   5  Extended  
-/dev/sda5      81547264  89739263    8192000  82  Linux swap / Solaris  
-/dev/sda6      89741312 230686719  140945408  83  Linux  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-```
-
-[![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif "note-icon")
-**Note** : Adding vDisk is not supported as it would require re-partitioning by the application. If the storage configuration is not aligned with the requirements, you must rebuild the VM with the correct OVA template.
-### Log Partition Monitoring Tool
-Log Partition Monitoring Tool (LPM) uses configured thresholds to monitor the disk usage of the log partition on a server every 5 minutes. There are two alerts you can configure on RTMT to modify this thresholds:
-  1. LogPartitionLowWaterMarkExceeded (% disk space)—When the disk usage is higher than the percentage that you specify, LPM sends out an alarm message to syslog and an alert to RTMT Alert central. To save the log files and regain disk space, you can use trace and log central option in RTMT.
-  2. LogPartitionHighWaterMarkExceeded (% disk space)—When the disk usage is higher than the percentage that you specify, LPM sends an alarm message to syslog and an alert to RTMT Alert central. When this threshold value is reach the older log files are purged, and this creates additional disk space in the logging partition.
-
-
-To purge files, please refer to [Adjust WaterMark in RTMT of Call Manager Procedure Guide](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200581-Procedure-to-Adjust-WaterMark-in-RTMT-of.html).
-### Execute Free Space COP File
-If common partition space is not enough after adjusting High/Low WaterMark values, proceed to install the latest Cisco Free Common Space COP file.
-[![warning-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif "warning-icon")
-**Warning** : You must install the patch during a maintenance window because the installation during normal business hours temporarily impacts the system performance. Ensure that you install the patch when there is no other CLI or GUI activity on the system because the patch terminates all CLI and GUI sessions and restarts the Tomcat service.
-  1. Download latest Cisco Free Common Space COP file from [Software Download](https://software.cisco.com/download/home/286322286/type/286319173/release/COP-Files). Review [ReadMe](https://www.cisco.com/web/software/286319173/139477/free_common_space_v1.9_Readme.txt) file to understand the impact of running this COP file.
-  2. In order to install COP file, navigate to**Cisco Unified OS Administration > Software Upgrades > Install/Upgrade**, and validate software location settings and click **Next**.
-
-
-[![Install/Upgrade Software Location Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-00.png "Install/Upgrade Software Location Screen")Install/Upgrade Software Location Screen
-  1. Select **free common space COP file** and click **Next**.
-
-
-[![Software File Selection Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-01.png "Software File Selection Screen")Software File Selection Screen
-  1. COP file starts execution and frees common partition space.
-
-
-[![COP File Installation in Progress Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-02.png "COP File Installation in Progress Screen")COP File Installation in Progress Screen
-### Delete Logs via CLI
-When logging partition is full (100%) COP installation is going to fail. For this scenario, it is possible to delete logs manually from CLI. Run the **show diskusage common sort** command to identify huge files that are be consuming a lot of space.
-
-```
-admin:**show diskusage common sort**  
-  
-This command can take significantly long time,  
-and can also effect the system wide IOWAIT on your system.  
-Continue (y/n)?y  
-Filesystem     1K-blocks     Used Available Use% Mounted on  
-/dev/sda6       69234984 60388736   5306232  92% /common  
-60305892        /common/  
-60239612        /common/log  
-37020784        /common/log/taos-log-b  
-23209092        /common/log/taos-log-a  
-13585228        /common/log/taos-log-b/cm  
-9506060 /common/log/taos-log-b/car_db  
-9506016 /common/log/taos-log-a/car_db  
-9379480 /common/log/taos-log-b/cm/trace  
-8764376 /common/log/taos-log-a/cm  
-6222036 /common/log/taos-log-b/car_db/cardbspace  
-6222004 /common/log/taos-log-a/car_db/cardbspace  
-5998244 /common/log/taos-log-b/tomcat  
-5281404 /common/log/taos-log-a/cm/trace  
-4458320 /common/log/taos-log-b/tomcat/logs  
-4159960 /common/log/taos-log-b/core  
-4159952 /common/log/taos-log-b/core/core.jvm.core  
-2923152 /common/log/taos-log-b/cm/trace/dbl  
-2921840 /common/log/taos-log-b/cm/trace/dbl/sdi  
-2002008 /common/log/taos-log-b/car_db/cartempdbs  
-2002004 /common/log/taos-log-a/car_db/cartempdbs  
-1935008 /common/log/taos-log-b/cm/bin  
-1932000 /common/log/taos-log-a/cm/bin  
-1928508 /common/log/taos-log-a/cm/trace/ccm  
-1928424 /common/log/taos-log-a/cm/trace/ccm/sdl  
-1806628 /common/log/taos-log-b/cm/tftpdata  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-```
-
-#### Delete cm/trace Logs
-These are save commands to delete the log files from cm/trace path, run one at a time:
-  * **`file delete activelog cm/trace/ccm/sdl/* noconfirm`**
-  * **`file delete activelog cm/trace/cti/sdl/* noconfirm`**
-  * **`file delete activelog cm/trace/*/*/*/* noconfirm`**
-  * **`file delete activelog cm/trace/*/*/* noconfirm`**
-  * **`file delete activelog cm/trace/*/* noconfirm`**
-  * **`file delete activelog cm/trace/* noconfirm`**
-  * **`file delete inactivelog cm/trace/*/*/*/* noconfirm`**
-  * **`file delete inactivelog cm/trace/*/*/* noconfirm`**
-  * **`file delete inactivelog cm/trace/*/* noconfirm`**
-  * **`file delete inactivelog cm/trace/* noconfirm`**
-  * **`file delete activelog cm/log/ris/csv/*`**
-  * **`file delete activelog tomcat/logs/ccmservice/log4j/*`**
-  * **`file delete activelog /platform/snmp/*/*`**
-
-
-#### Delete Core Dumps
-Core dumps usually use a lot of space in disk. Identify them using **utils core active list** and **utils core inactive list** commands.
-
-```
-admin:**utils core active list**  
-      Size         Date            Core File Name  
-=================================================================  
-             2023-03-02 22:03:11   core.jvm.core  
-admin:  
-admin:**utils core inactive list**  
-      Size         Date            Core File Name  
-=================================================================  
- 292616 KB   2022-02-20 00:02:37   core.62556.6.ccm.1645336926  
-  
-  
-  
-  
-  
-  
-  
-
-```
-
-According to the partition, delete Core dumps with **file delete activelog core/filename** or **file delete inactivelog core/filename** and confirm no more Cores are listed.
-
-```
-admin:**file delete activelog core/core.jvm.core**  
-Delete the File core/core.jvm.core?  
-Enter "y" followed by return to continue: y  
-files: found = 1, deleted = 1  
-admin:  
-admin:**file delete inactivelog core/core.62556.6.ccm.1645336926**  
-Delete the File core/core.62556.6.ccm.1645336926?  
-Enter "y" followed by return to continue: y  
-files: found = 1, deleted = 1  
-admin:  
-admin:**utils core active list**  
-No core files found  
-admin:**utils core inactive list**  
-No core files found  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-```
-
-### Modify Call Detail Records (CDR) Low/High Watermark Values
-The File Manager component of the CDR Repository Manager runs hourly. When the File Manager runs, it deletes files with dates outside the configured preservation duration. It also checks whether the disk usage has exceeded the high water mark. If so, the system deletes the processed CDR files until the low water mark is reached, starting with the oldest files.
-  1. Navigate to **Cisco Unified Serviceability > Tools > CDR Management** and click the **first** **value** under **General Parameters** section.
-
-
-[![CDR Management Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-03.png "CDR Management Screen")CDR Management Screen
-  1. Modify **High Water Mark (%)** and **Low Water Mark (%)**.
-
-
-[![CDR Management Modify General Parameters Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-04.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-04.png "CDR Management Modify General Parameters Screen")CDR Management Modify General Parameters Screen
-### Purge CDR Analysis and Reporting (CAR) Database
-If CAR Database is using a lot of space, you can perform the purge of the database and release logging space. To do this:
-  1. Access to CAR web page, navigate to **Cisco Unified Serviceability > Tools > CDR Analysis and Reporting**.
-  2. Disable loader, navigate to**System > Scheduler > CDR Load**, check the **Disable Loader** check box and click the **Update**.
-
-
-[![Disable Loader Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-05.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-05.png "Disable Loader Screen")Disable Loader Screen
-  1. For the changes to take effect, navigate to **Cisco Unified Serviceability > Tools > Control Center - Network Services** **>** **Cisco CAR Scheduler** and restart service.
-  2. In order to purge CAR DB navigate **to System > Database > Manual Purge**, click **Table Information** to validate the oldest records for each type of table.
-
-
-[![CAR Table Information Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-06.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-06.png "CAR Table Information Screen")CAR Table Information Screen
-  1. Click **Close** , and select the **date range** to purge files of the selected table.
-
-
-[![Manual Database Purge Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-07.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-07.png "Manual Database Purge Screen")Manual Database Purge Screen
-### Deleted Unused Phone Firmware Files
-For upgrade scenarios, if there is not enough space in the common partition, delete the old/unused firmware from TFTP. To do this:
-  1. Navigate to **Cisco Unified OS Administration**** > Software ****Upgrades**** > Device Load Management**.
-  2. Apply a filter **Find Device Loads where****> Status**** > is ****exactly****> Not ****In Use**** > Find**.
-  3. Delete all the **device** **loads** with the status **Not****In****Use**.
-
-
-[![Device Load Management Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-08.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu-08.png "Device Load Management Screen")Device Load Management Screen
-## Troubleshooting
-If further help is needed, please open a case with Cisco TAC and gather these commands:
-  * **`show version active`**
-  * **`show network cluster`**
-  * **`show status`**
-  * **`show tech runtime disk`**
-  * **`show hardware`**
-  * **`show diskusage common sort`**
-
-
-## Related information
-  * [Upgrade Readiness Checks COP File for CUCM and IMPS](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214137-upgrade-readiness-checks-cop-file-for-cu.html)
-  * [Adjust WaterMark in RTMT of Call Manager Procedure](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200581-Procedure-to-Adjust-WaterMark-in-RTMT-of.html)
-  * [Cisco Unified Real-Time Monitoring Tool Administration Guide](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/rtmt/cucm_b_cisco-unified-rtmt-administration-1251/cucm_mp_g954ab28_00_getting-started.html?bookSearch=true#CUCM_RF_LC4C5BF4_00)
-  * [Cisco Unified CDR Analysis and Reporting Administration Guide](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_011111.html)
-  * [Call Detail Records Administration Guide](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/cdrdef/cucm_b_cdr-admin-guide-1251/cucm_b_cdr-admin-guide-1251_chapter_01.html)
-  * [Cisco Technical Support & Downloads](https://www.cisco.com/c/en/us/support/index.html?referring_site=bodynav)
-
-
+There is another option available in situations were rebuilding is not possible or unfavorable. The VOS command **utils ungraceful warn disable** is used to suppress the Web Administration and Console ungraceful shutdown warnings.   
+|  **Command**  |  **Description**  |  
+| --- | --- |  
+|  **utils ungraceful warn disable**  |  This vos command can be used to disable the Web Administration and Console warning message that appears when an ungraceful shutdown is detected. This command does not execute any system checks for file corruption.  |  
+This is not the recommended solution as this only suppresses the warning and does not address the underlying cause of the ungraceful shutdown. It is crucial to address the root cause and ensure the stability and integrity of the VOS system
+**Note** : If your server is unable to execute the **utils ungraceful warn disable** command please refer to Cisco bug ID [CSCvy68211](https://tools.cisco.com/bugsearch/bug/CSCvy68211 "Ungraceful shutdown detected message modify to be... rebuild of the node may be required..") as a COP file is needed to enable the command. 
 ### Revision History  
 | Revision  | Publish Date  | Comments  |  
 | --- | --- | --- |  
-| 2.0  |  26-Aug-2025   | Updated Formatting and Recertification.  |  
-| 1.0  |  05-Oct-2023   | Initial Release  |  
-[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html "Back to Top")
+| 2.0  |  24-Jul-2025   | Updated Formatting. Recertification  |  
+| 1.0  |  27-Sep-2023   | Initial Release  |  
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html "Back to Top")
 ![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
 ### Contributed by Cisco Engineers
-  * Belen Sanchez Torralva
-Technical Consulting Engineer
+  * Joel Burleigh
+Escalation Engineer
+  * Garrett Dribusch
+Escalation Engineer
 
 
 ### Was this Document Helpful?
 Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
 ### Contact Cisco
-  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220970-recover-from-ungraceful-shutdowns-on-vos.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
   * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
 
 
 ### This Document Applies to These Products
+  * [Emergency Responder](https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/series.html)
   * [Unified Communications Manager (CallManager)](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html)
+  * [Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+  * [Unity Connection](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html)
 
 
 By continuing to use our website, you acknowledge the use of cookies. 
