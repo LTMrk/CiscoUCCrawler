@@ -45603,3 +45603,161 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/blog/cisco-live-amsterdam-2026-webex-developer-sessions-roundup
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/blog/cisco-live-amsterdam-2026-webex-developer-sessions-roundup)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/blog/cisco-live-amsterdam-2026-webex-developer-sessions-roundup)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/blog/cisco-live-amsterdam-2026-webex-developer-sessions-roundup)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+# Cisco Live Amsterdam 2026: Webex Developer Sessions Roundup
+December 11, 2025
+![Adam Weeks](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt3280371eceea2196/6a60ed759ee77e32d96ed610/Adam_Headshot_Cropped.png?width=100&height=100&fit=crop)
+Adam WeeksTechnical Leader, Webex Developer Relations
+![Cisco Live Amsterdam 2026: Webex Developer Sessions Roundup](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt1570d1ddc29a2523/67cb20992c963b00981beee7/cisco-live-emea-25-wrapup-3.jpeg?width=900&height=317&fit=crop)
+This year’s Webex developer track features sessions on the latest APIs and programmability, advanced AI integrations, automation for desk phones and contact center, plus practical hands-on workshops. Whether you’re building bots, custom integrations, or embedding Webex features in business apps, there’s a session for you!
+### Full Session Details
+#### What’s New in Webex Programmability: Innovate Across Suite and Contact Center
+**Session ID:** [DEVNET-1699](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVNET-1699#/)  
+**Date:** Monday, Feb 9  
+**Time:** 2:30 PM - 3:15 PM CET  
+**Speakers:** Adam Weeks, Webex Developer Relations Technical Leader, Cisco - Distinguished Speaker; Phil Bellanti, Sr. Webex Developer Evangelist, Cisco - Distinguished Speaker
+Unlock the full potential of the Webex platform. Join us for an energizing session that explores the latest advancements in Webex programmability—covering both the Webex Suite and Webex Contact Center. Discover new APIs, SDKs, and extensibility features that empower developers to build custom experiences, automate workflows, and integrate seamlessly with business applications.
+* * *
+#### Integrating Webex Contact Center Agent Functionality into Web Applications with the WxCC SDK
+**Session ID:** [DEVNET-2082](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVNET-2082#/)  
+**Date:** Thursday, Feb 12  
+**Time:** 2:30 PM - 3:15 PM CET  
+**Speakers:** Joe Zanini, Developer Evangelist, Cisco
+Learn to enhance your web applications with the Webex Contact Center Agent SDK. Build lightweight, customizable widgets, integrate with existing systems, and optimize your agent and customer experiences.
+* * *
+#### Bring Your Own AI Virtual Agent to Webex Contact Center
+**Session ID:** [DEVNET-2203](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVNET-2203#/)  
+**Date:** Thursday, Feb 12  
+**Time:** 11:30 AM - 12:15 PM CET  
+**Speakers:** Anand Prabhu Lottiya Ganesan, Engineering Technical Leader, Cisco; Adam Weeks, Webex Developer Relations Technical Leader, Cisco - Distinguished Speaker
+Explore how to seamlessly integrate your own virtual agents (like AWS Lex) into Webex Contact Center, with live demonstrations and practical deployment steps.
+* * *
+#### API-Driven Cisco Desk Phone 9800 Series: Automation with Webex APIs and xAPI
+**Session ID:** [DEVNET-2221](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVNET-2221#/)  
+**Date:** Tuesday, Feb 10  
+**Time:** 1:00 PM - 1:45 PM CET  
+**Speakers:** Phil Bellanti, Sr. Webex Developer Evangelist, Cisco - Distinguished Speaker; David Scott, Product Manager, Cisco
+Automate and manage desk phones with Webex APIs and PhoneOS xAPI for streamlined operations and advanced programmability.
+* * *
+#### Implementing OAuth 2.0 Authorization for Webex Integrations
+**Session ID:** [DEVNET-2675](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVNET-2675#/)  
+**Date:** Thursday, Feb 12  
+**Time:** 4:00 PM - 4:45 PM CET  
+**Speakers:** Joe Zanini, Developer Evangelist, Cisco
+Get a walkthrough of OAuth flows for Webex Integrations, so your users can seamlessly authorize your apps and services.
+* * *
+#### Bring Your Own AI: Custom AI Integration with Webex AI Agent Studio
+**Session ID:** [DEVNET-2763](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVNET-2763#/)  
+**Date:** Wednesday, Feb 11  
+**Time:** 8:00 AM - 8:45 AM CET  
+**Speakers:** Rajitha Kantheti, Technical Solutions Specialist, Cisco
+Learn to integrate your own specialized AI or LLM into Webex AI Agent Studio and deploy industry-focused conversational agents into customer flows.
+* * *
+#### Modernize Your Contact Center: Route Any Task, Any Channel with Webex’s New Generic Task API
+**Session ID:** [DEVNET-2795](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVNET-2795#/)  
+**Date:** Monday, Feb 9  
+**Time:** 12:30 PM - 1:15 PM CET  
+**Speakers:** Victor Vazquez, Solutions Engineer, Cisco; Joe Zanini, Developer Evangelist, Cisco
+Discover how the new Generic Task API enables you to create and route customer interactions across any channel for a unified experience.
+* * *
+#### Webex Meeting Insights in Salesforce: An API-Driven AI Integration
+**Session ID:** [DEVNET-2804](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVNET-2804#/)  
+**Date:** Thursday, Feb 12  
+**Time:** 10:00 AM - 10:45 AM CET  
+**Speakers:** Adam Weeks, Webex Developer Relations Technical Leader, Cisco - Distinguished Speaker; Joe Zanini, Developer Evangelist, Cisco
+See a behind-the-scenes build of Salesforce integrations leveraging Webex Meeting Insights, with demos on automation, analytics, and secure access.
+* * *
+#### Deploying Webex Service Apps
+**Session ID:** [DEVWKS-2040](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVWKS-2040#/)  
+**Date:** Tuesday, Feb 10  
+**Time:** 10:00 AM - 10:45 AM CET  
+**Speakers:** Phil Bellanti, Sr. Webex Developer Evangelist, Cisco - Distinguished Speaker
+Get hands-on with Webex Service Apps, learning how to request admin permissions and manage service integrations in Control Hub.
+* * *
+#### Building CTI Connector Using Webex Contact Center Widgets
+**Session ID:** [DEVWKS-2315](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVWKS-2315#/)  
+**Date:** Thursday, Feb 12  
+**Time:** 9:30 AM - 11:15 AM CET  
+**Speakers:** Rajitha Kantheti, Technical Solutions Specialist, Cisco
+Embed Contact Center features directly into business applications and CRMs for improved workflows and agent productivity with Webex widgets.
+* * *
+Ready to take your Webex skills to the next level? [Register today](https://www.ciscolive.com/emea/attend/registration-packages.html?zid=pp) and don’t miss out on these must-attend developer sessions at Cisco Live Amsterdam 2026!
+Blog Categories
+  * [Product Announcements](https://developer.webex.com/blog/categories/product-announcements)
+  * [How To](https://developer.webex.com/blog/categories/how-tos)
+  * [Events](https://developer.webex.com/blog/categories/events)
+  * [Developer Stories](https://developer.webex.com/blog/categories/developer-stories)
+
+
+Share This Article
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
