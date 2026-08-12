@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,32 +19,28 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html)
-  * [...](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html)Show All Breadcrumbs
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Switches](https://www.cisco.com/c/en/us/products/switches/index.html)
   * [Campus LAN Switches - Access](https://www.cisco.com/c/en/us/products/switches/campus-lan-switches-access/index.html)
   * [Cisco Catalyst 9300 Series Switches](https://www.cisco.com/c/en/us/products/switches/catalyst-9300-series-switches/index.html)
-  * [Data Sheets](https://www.cisco.com/c/en/us/products/switches/catalyst-9300-series-switches/datasheet-listing.html)
+  * [White Papers](https://www.cisco.com/c/en/us/products/switches/catalyst-9300-series-switches/white-paper-listing.html)
 
 
-# Catalyst 9300 Stackwise System Architecture White Paper
-Data Sheet
+# Understanding Cisco StackPower White paper
+White Paper
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html)
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html) to Save Content 
 Download
 Print
 ### Available Languages
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html)
-
-
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.pdf) (2.7 MB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.pdf) (6.3 MB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:November 1, 2023
+Updated:January 12, 2021
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
@@ -58,433 +54,403 @@ US/CAN | 5am-5pm PT
 
 
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html)
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html) to Save Content 
 Download
 Print
 ### Available Languages
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html)
-
-
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.pdf) (2.7 MB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.pdf) (6.3 MB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:November 1, 2023
+Updated:January 12, 2021
 #### Table of Contents
 ![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
 ![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
 #### Table of Contents
-  * [Overview](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html#Overview "Overview")
-  * [Introduction to StackWise](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html#IntroductiontoStackWise "IntroductiontoStackWise")
-  * [Stacking components](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html#Stackingcomponents "Stackingcomponents")
-  * [Stacking architecture](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html#Stackingarchitecture "Stackingarchitecture")
-  * [Stack operations](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html#Stackoperations "Stackoperations")
-  * [Mixed Stack Operations](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html#MixedStackOperations "MixedStackOperations")
-  * [Licensing](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html#Licensing "Licensing")
-  * [Stack design](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html#Stackdesign "Stackdesign")
-  * [Summary](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.html#Summary "Summary")
+  * [Overview](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#Overview "Overview")
+  * [Benefits of Cisco StackPower technology](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#BenefitsofCiscoStackPowertechnology "BenefitsofCiscoStackPowertechnology")
+  * [Technology overview](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#Technologyoverview "Technologyoverview")
+  * [Cisco StackPower operation](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#CiscoStackPoweroperation "CiscoStackPoweroperation")
+  * [Use case for Cisco StackPower](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#UsecaseforCiscoStackPower "UsecaseforCiscoStackPower")
+  * [Intelligent power management](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#Intelligentpowermanagement "Intelligentpowermanagement")
+  * [Cisco StackPower topology](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#CiscoStackPowertopology "CiscoStackPowertopology")
+  * [Modes of operation](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#Modesofoperation "Modesofoperation")
+  * [Intelligent load shedding](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#Intelligentloadshedding "Intelligentloadshedding")
+  * [Best practices](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#Bestpractices "Bestpractices")
 
 
 Overview
-The network access model in the enterprise campus has evolved significantly from basic user connectivity to an intelligent, powerful, and high-speed building block. Security, cloud, mobility, and the Internet of Things (IoT) in enterprise networks have been driving the network toward major innovations. Cisco® Catalyst® 9000 software and hardware have been designed to address these current and future demands.
-Wireless technology is the industry’s new megatrend, and it presents a multidimensional challenge to enterprise IT organizations. This swiftly growing technology, with exponentially increasing numbers of mobile devices with high-performance demands, is rapidly changing the landscape of network infrastructure and its reliability. IT requires a reassessment of traditional network models and assembly of network designs that can respond with a broad set of evolutionary architectures. Stacking provides an opportunity to use a pay-as-you-grow model to meet these demands.
-As the wired and wireless Gigabit evolution begins at the access layer, user and application demands will increase to high-speed, low-latency data switching for optimal performance. Cisco has built a system architecture to support such innovations. The Cisco Catalyst 9000 family of switches were developed to meet these demands. The Cisco Catalyst 9000 family is completely revamped with modular Cisco IOS® Software (Cisco IOS XE) and a flexible Application-Specific Integrated Circuit (ASIC), called the Cisco Unified Access® Data Plane (UADP), with an x86 CPU to handle the future needs of the network. Cisco Catalyst 9300 Series Switches with Cisco StackWise®-1T,Cisco StackWise®-480 and StackWise®-320 offer platform, software, and network resiliency at the access layer. The 9300 Series is the industry’s highest-density stacking bandwidth solution with flexible uplink architecture. This white paper talks in detail about the benefits and architecture of StackWise-1T, StackWise-480 and StackWise-320.
-Introduction to StackWise
-The StackWise architecture allows stacking of up to eight switches in a ring topology to achieve 1T, 480G or 320G of stack bandwidth. The stacking architecture expands form factor, switching capacity, port density, and redundancy as well as providing a single control plane. This architecture provides resiliency, scalability, and central management. The latest Cisco Catalyst 9300 Series Switches support StackWise-1T/480/320. This technology is flexible, modular, and evolutionary, and it delivers Cisco IOS XE feature capabilities with hardware acceleration to every port in the stack.
-Cisco Catalyst 9300 Series Switches come in data, Power over Ethernet (PoE), Cisco Universal Power over Ethernet (Cisco UPOE®), and Multigigabit versions. Cisco Catalyst 9300 Series Switches is made up of modular uplink switch models and fixed uplink switch models. Modular uplink models of the Catalyst 9300X support StackWise-1T whereas modular uplink models of the Catalyst 9300 support Stackwise-480 and fixed uplink models support Stackwise-320. The hardware design of each model is cost-effective to support different network capacity load and switching performance.
-Up to a maximum of eight switches can be stacked together physically in a ring topology to form a single, unified, virtual stack system. A Cisco Catalyst 9300 Series Switch, when deployed in StackWise-1T/480/320 mode, has been designed to deliver deterministic and nonblocking switching performance to a maximum port density of 448 ports with a distributed data plane, single control plane, and management plane. The switching performance delivers hardware-accelerated, integrated borderless network services such as PoE, PoE+, Cisco UPOE, Quality of Service (QoS), Access Control Lists (ACLs), Flexible NetFlow, Cisco Encrypted Traffic Analytics (ETA), streaming telemetry, and many more services on every port.
-Depending on the requirement of each switch in the stack, a Cisco Catalyst 9300 Series Switch provides the flexibility for mixed-mode support between different models in a single stack ring. You can mix switches with different model variants (PoE, Cisco UPOE, data, Multigigabit) and different network modules in the stack.
-Figure 1 shows the StackWise-1T/480/320 technology when four switches are part of the stack.  
-Figure 2 shows simplified physical and logical views of a stack.
-[![Cisco Catalyst 9300 Series StackWise-1T/480/320 technology](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_0.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_0.png "Cisco Catalyst 9300 Series StackWise-1T/480/320 technology")
+Businesses require a highly available campus network. Network switch power redundancy is a critical component of overall campus redundancy. Cisco® StackPower is an innovative feature that aggregates all the available power in a stack of switches and manages it as one common power pool for the entire stack. This helps customers achieve more granular control over power use, resulting in savings that reduce the Total Cost of Ownership (TCO) of Cisco Catalyst® switches.
+[![Cisco StackWise® 480 and Cisco StackPower connectors](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_0.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_0.png "Cisco StackWise® 480 and Cisco StackPower connectors")
 Figure 1. 
-Cisco Catalyst 9300 Series StackWise-1T/480/320 technology
-[![Simplified Cisco Catalyst 9300 Series physical and logical views](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_1.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_1.png "Simplified Cisco Catalyst 9300 Series physical and logical views")
+Cisco StackWise® 480 and Cisco StackPower connectors
+This white paper focuses on the Cisco StackPower architecture and covers the following:
+●Benefits of Cisco StackPower
+●Technology overview
+●Cisco StackPower operation
+◦StackPower budgeting
+◦Adding a new switch to a power stack
+◦Zero-footprint RPS
+●Use cases of Cisco StackPower
+●Intelligent power management
+●Cisco StackPower topology
+●Modes of operation
+●Intelligent load shedding
+●Best practices
+Benefits of Cisco StackPower technology
+The benefits of Cisco StackPower technology are immediately tangible, and so are the savings. Consider a stack of switches, with each switch requiring a slightly higher power budget for some extra Power over Ethernet (PoE) devices randomly scattered in the stack. Purchasing an extra second power supply for each switch that needs additional power would be inefficient and expensive. With the Cisco StackPower solution, a common pool of power is made available, and additional power can automatically be redirected to the appropriate switch based on the available power budget in the common power pool.
+Cisco StackPower technology immediately produces savings by reducing the number of power supplies required per switch and the number of outlets required in the wiring closet. Additional savings accrue from minimizing energy waste due to inefficiency of power-supply operation at lower loads and reducing cooling requirements in the wiring closet. The technology also eliminates the need for external power shelves, thus freeing up additional space and power outlets in the wiring closet.
+Cisco StackPower also allows the deployment of larger power pools by using a Cisco Expandable Power System 2200 (XPS 2200). This system allows for a star topology that shares power with up to eight switches. For details, see “Cisco StackPower Topology” section.
+Cisco StackPower technology provides the following additional benefits:
+●Abstracts the location of a power supply from its physical location in a stack of switches, allowing for better use of available power capacity
+●Maximizes the efficiency of power supplies: Aggregated loads allow power supplies to operate at optimum efficiency, considerably reducing the waste of power over time
+●Provides or complements the power required for PoE+ and Cisco Universal POE (Cisco UPOE®) to any port in a stack
+●Enables a scalable PoE+ and Cisco UPOE infrastructure
+●Offers a pay-as-you-grow architecture, similar to Cisco StackWise technology
+●Offers improved reliability, availability, and efficiency with the XPS 2200 serving to up to eight switches
+●Enables a “zero-footprint” Redundant Power System (RPS)
+●Offers greater redundancy with the RPS:1+N vs. 1:N redundancy
+●Allows offlining of power supplies when extra capacity is available in the system
+●Lowers TCO by reducing the number of power supplies needed, the number of devices in the rack, the amount of heat in the wiring closet, and the number of AC outlets in the wiring closet
+Technology overview
+There are two commonly used power redundancy solutions for switches – full redundancy and partial redundancy. In full redundancy, every switch is attached to two power supplies, so that if one goes down, the other takes over. This scheme is also called 1:1 redundancy. In partial redundancy, there is one extra power supply for multiple switches. This is also called 1:N redundancy. Each has its drawbacks.
+Fully redundant power solutions (1:1) are often underutilized because every switch has a backup power supply that is idle under normal conditions. However, partially redundant power solutions (1:N) take time to come online in the event of a power failure leading to an outage.
+Cisco StackPower provides a revolutionary alternative to power redundancy for the Cisco access switches. It pools the available power supplies from all the switches and makes the pooled power available to all of them. The pooling of the power supplies is the most efficient way to distribute power to all the switches equally, because any switch can use the power from the pool, and if a power supply fails, excess power from the pool can be redistributed to the affected switch in no time.
+Figure 2 shows the different types of power redundancy.
+[![Ways of providing redundant power](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_1.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_1.png "Ways of providing redundant power")
 Figure 2. 
-Simplified Cisco Catalyst 9300 Series physical and logical views
-Stacking components
-Stacking cables are mandatory for stacking architecture. Stacking cables that support Cisco Catalyst 3850 Series Switches can be used for the 9300 modular uplink models, making them backward compatible. Depending on the physical setup of the infrastructure, different lengths of stacking cable may be needed. Each Cisco Catalyst switch supports a maximum of two stack cables for data stacking Table 1 and 2 list the available stacking cables for Catalyst 9300 models.
-**Table 1.** Different orderable stack cables for Modular Uplink models  
-|  Product ID   |  Description   |  
-| --- | --- |  
-|  **STACK-T1-50CM**  |  50CM Type 3 Stacking Cable   |  
-|  **STACK-T1-1M**  |  1M Type 3 Stacking Cable 3M   |  
-|  **STACK-T1-3M**  |  Type 3 Stacking Cable   |  
-For 9300 fixed uplink models, stack kit is mandatory for StackWise-320 and has to be ordered separately. Each stack kit consists of two stack adapters and one data stack cable.
-**Table 2.** Different orderable stack cables for 9300L fixed uplink models  
-|  Product ID   |  Description   |  
-| --- | --- |  
-|  **STACK-T3-50CM**  |  50CM Type 3 Stacking Cable (Default cable with 9300L Stack kit)   |  
-|  **STACK-T3-1M**  |  1M Type 3 Stacking Cable   |  
-|  **STACK-T3-3M**  |  3M Type 3 Stacking Cable   |  
-**Table 3.** Different orderable stack cables for 9300LM fixed uplink models  
-|  Product ID   |  Description   |  
-| --- | --- |  
-|  **STACK-T3A-50CM**  |  Data stack 50cm cable (default cable with C9300LM Stack Kit)  |  
-|  **STACK-T3A-1M**  |  Data stack 1m cable (cable option with C9300LM Stack Kit)  |  
-|  **STACK-T3A-3M**  |  Data stack 3m cable (cable option with C9300LM Stack Kit)  |  
-Stack ports
-Each Cisco Catalyst 9300 switch with modular uplinks comes with two stack ports located on the back panel of the switch to support the StackWise-1T/480 architecture. Figure 3 shows the stack port location on the 9300 Series switches.
-[![Stack cable and stack cable slot for 9300 modular uplink models](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_2.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_2.png "Stack cable and stack cable slot for 9300 modular uplink models")
+Ways of providing redundant power
+A key aspect of the Cisco StackPower technology is the way power is supplied and distributed to a switch in the stack.
+Cisco StackPower technology represents a new approach to power supply design and power distribution in a switch, but its effects and results are seen most significantly in a stack of switches.
+The ability to manage power as a shared resource is unique to a stack of switches that can operate as a single unit. Note that all power available in the power stack is combined into a single large pool of power, and the stack becomes a large single load to the power pool. Figure 3 demonstrates this concept.
+[![Cisco StackPower technology: One power pool, one load](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_2.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_2.png "Cisco StackPower technology: One power pool, one load")
 Figure 3. 
-Stack cable and stack cable slot for 9300 modular uplink models (C9300 and C9300X)
-For Cisco Catalyst 9300 switches with fixed uplink modules, stack kit has to be ordered which contains two stack adapters and one stack cable.
-[![Stack adapter for the 9300 fixed uplink models](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_3.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_3.png "Stack adapter for the 9300 fixed uplink models")
+Cisco StackPower technology: One power pool, one load
+A surplus of power in a power stack enables features such as zero-footprint RPS and 1+N redundancy instead of 1:N redundancy with a dedicated external RPS.
+Redundancy with Cisco StackPower technology is better than traditional(1:N) redundancy, because the redundant power supply is already inline (1+N) as opposed to being switched from one source to another, as is done with a classic redundant power supply (1:N). The 1+N redundancies are less susceptible to problems because the power is already available inline.
+Cisco StackPower operation
+The primary function of the StackPower circuitry is to maintain safe distribution of power from the Input Power supplies to all of the various loads. In typical power architectures, when a power supply goes over its limit for more than a few microseconds – it simply shuts down.
+One of the first issues to understand within the StackPower architecture is how this balance is maintained between the power available from the Input Power Supplies (e.g., PWR-C1-1100WAC) and all the various loads (e.g., Switching circuitry, PoE loads). In StackPower, this balance is maintained through a task known as the [StackPower budgeting algorithm](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#StackPowerbudgetingalgorithm), which is at the core of both the general operation of StackPower and is also integral to its resiliency and redundancy.
+When the balance goes negative, it is the job of the Budgeting Algorithm to notify what is known as Intelligent Load Shedding Algorithm (Discussed in Intelligent Load Shedding Section) to restore the balance. It does so, as its name implies, by “shedding” loads (based on user programmable priorities) until the balance is restored.
+This section describes the operational details of how Power Stacks are formed and maintained using the Budgeting Algorithm as well as how redundancy and resiliency are implemented using Load Shedding.
+StackPower budgeting
+Budgeting is integral to the operation of StackPower. Budgeting is required to maintain a balance between the available input power and the various loads.
+Budgeting Terminology
+Before getting into the details of how StackPower Budgeting works, there is a need to define some new terminology:
+●**Input power** – the aggregate of all of the Input Power supplies (e.g., PWR-C1-1100WAC).
+●**Allocated power** – the aggregate of the all Worst-Case power that could be consumed by all of the circuitry (Switches, StackPower, and PoE). Note that this does not include the Reserved Power.
+●**Unused power** – the difference between the Allocated and the Input Power. The Unused Power, for example, is available to be allocated as PoE when new PDs are attached to a switch.
+●**Actual power** – the power that is actually being drawn from all of the combined circuitry.
+●**Redundant power** – power set aside in Redundant Mode, equal to the rating of the largest supply installed in the Power Stack, to ensure no service disruption in the event of a single Input Supply outage.
+●**Reserved power** – all of the power reserved for functions other than Switches, Infrastructure, and PoE – which is to say the Overhead Power and the Redundant Power.
+●**Maximum switch power consumption** – the power allocated for the entire System (Switch plus StackPower infrastructure).
+●**Overhead power** – the power allocated for StackPower overhead – one time per Power Stack (30W).
+●**Infrastructure power** – the power allocated for StackPower infrastructure – normally part of the Maximum Switch Power except in cases where the Switch (but not the StackPower infrastructure) is powered down.
+StackPower budgeting algorithm
+With Cisco StackPower, switches deployed in a power stack discover each other and exchange messages to figure out how much power is available in the stack (power budget), to set priorities (or use default priority values) [discussed in [Intelligent power management section](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#Intelligentpowermanagement)], and to start booting Cisco IOS® Software on all switches, depending upon the power budget available in the stack.
+The boot-up sequence of events is as follows:
+1.Switches are interconnected in a ring topology and power is applied.
+2.All switches power up their Cisco StackPower infrastructure. Systems initially power up and perform topology discovery, initially requiring only the infrastructure power per system.
+3.All switches participate in the power stack, exchanging discover packets and informational messages regarding power resources and priorities.
+4.Once the topology is known and a master elected, the aggregate Input Power is computed to form an initial Unused Power number and the reserve power of 30W is subtracted once for the entire power stack.
+5.All the Switches are brought up in order of their relative priority to each other, each reducing the Unused Power by its Maximum Switch Power amount. Note that the order in which the Switches power up is regardless of whether or not any PoE is at a higher priority. All Switches are powered before any PoE is allocated. The PoE priority is ignored during this time for the sake of being expeditious – if not then in many cases it could take a long time to power up the entire Power Stack.
+6.In the case where there is not enough Unused Power for all Switches in a Ring, to allow for completion of the ring the StackPower infrastructure must be powered, so the Infrastructure Power remains deducted from the Unused Power.
+7.Once all of the Switches are powered up and IOS has had time to boot, the PoE ports then begin to classify and reduce the Unused Power by their required amounts.
+8.Once all the Switches are up and PoE power has been allocated, unless the configuration is changed (e.g., mode changes), the Input Power changes (e.g., supplies added or removed/failed), PoE PDs unplugged, etc., the budgeting will remain as is.
+9.Switches that did not receive a power allocation will remain in the power stack without booting until more power is added to the power budget.
+The power budget required is higher for Cisco StackPower operation. This higher budget allows each switch to budget enough power for the switch itself to power a high-power network module (if present) and to power its downstream neighbor’s Cisco StackPower logic (Multipoint Control Unit [MCU]), which is the minimum number of components in a switch to form a power stack without booting Cisco IOS XE Software. Power budget requirements for Cisco Catalyst 9300 Series models can be found in the Catalyst 9300 Data Sheet.
+Adding a new switch to a power stack
+Cisco StackPower technology adds resiliency to the stack by reserving enough power to bring up the MCU of any Cisco Catalyst 9300 Series Switch. Adding new members to an existing Power Stack (Ring or Star) can be accomplished without service interruption to the existing operational Power Stack. It is also possible to “merge” two existing Rings (e.g., two rings of two merged into a single ring of four) without service interruption to either ring.
+In all cases – to ensure there is no service interruption – care must be taken to ensure that the ring is broken at only point at a time.
+Zero-footprint redundant power supply
+The ability to provide redundancy without the need for an actual RPS is called zero-footprint RPS. The power stack discovers the members of the stack, aggregates power from all available sources in the stack, and subtracts from the power pool an amount of power equal to the largest power supply in the stack. It does not subtract the power supply itself, nor does it turn off any power supply.
+In the simplest example, a power stack is formed by using a special cable to connect switches to each other to form a closed ring, similar to the topology for a Cisco StackWise stack (Figure 4). Up to four switches can be part of a power stack in a ring topology, and up to eight switches can share power in a star topology by using an XPS 2200 (Figure 5). Current flows through the cables that form the power stack and feeds switches in need of power or complements the power requirements of other switches in the stack. It is a safe system with plenty of circuit breakers spread around the printed circuit board to cut off current to different components in the system or, if needed, to the system itself.
+[![Ring topology](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_3.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_3.png "Ring topology")
 Figure 4. 
-Stack adapter for the 9300 fixed uplink models.
-Stack connectors
-Figure 5 shows the stack connector for the Catalyst 9300 switch with modular uplinks. All stack ports are identical on all Cisco Catalyst 9300 Series modular uplink models. Any side of the stack cable can connect to any stack port. Make sure the screws are completely tightened and the connection is secure.
-[![Stack connector for 9300 modular uplink models](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_4.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_4.png "Stack connector for 9300 modular uplink models")
+Ring topology
+[![Star topology](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_4.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_4.png "Star topology")
 Figure 5. 
-Stack connector for 9300 modular uplink models(C9300 and C9300X)
-Figure 6 shows the stack connector for the Catalyst 9300 switch with fixed uplinks. All stack ports are identical on all Cisco Catalyst 9300 Series fixed uplink models. Any side of the stack cable can connect to any stack port. Make sure the screws are completely tightened and the connection is secure.
-[![Stack connector for 9300 fixed uplink models](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_5.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_5.png "Stack connector for 9300 fixed uplink models")
-Figure 6. 
-Stack connector for 9300 fixed uplink models
-Stacking architecture
-Ring architecture
-When the stack is operating in a full ring, it can deliver high-speed performance throughput of 1T/480/320 by each stack-member switch. This multifold performance improvement is possible by combining the new internal UADP ASIC and dual stack ports.
-The high-speed backplane of the Cisco Catalyst 9300 Series stack-ring fabric is constructed by daisy-chaining the stack-member switches with Cisco proprietary cables that connect rear-side stack ports. The Cisco stack fabric consists of six unidirectional data transmission rings.
-Figure 7, 8 and 9 provides a graphical illustration of the 9300 Series StackWise-1T/480/320 internal forwarding architecture.
-[![Cisco Catalyst 9300X StackWise-1T internal forwarding architecture \(Modular Uplink Models\)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_6.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_6.png "Cisco Catalyst 9300X StackWise-1T internal forwarding architecture \(Modular Uplink Models\)")
-Figure 7. 
-Cisco Catalyst 9300X StackWise-1T internal forwarding architecture (Modular Uplink Models)
-[![Cisco Catalyst 9300 StackWise-480 internal forwarding architecture \(Modular Uplink Models\)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_7.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_7.png "Cisco Catalyst 9300 StackWise-480 internal forwarding architecture \(Modular Uplink Models\)")
-Figure 8. 
-Cisco Catalyst 9300 StackWise-480 internal forwarding architecture (Modular Uplink Models)
-[![Cisco 9300L/9300LM Stackwise-320 internal forwarding architecture \(Fixed Uplink Models\)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_8.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_8.png "Cisco 9300L/9300LM Stackwise-320 internal forwarding architecture \(Fixed Uplink Models\)")
-Figure 9. 
-Cisco 9300L/9300LM Stackwise-320 internal forwarding architecture (Fixed Uplink Models)
-The aggregated throughput that a stack of switches supports is a combination of two major factors: 
-**Total transmission rings:** Each stack connector bundles multiple individual cables that carry data across the stack ring. The cabling structure creates six/four internal stack rings for modular/fixed uplink models, respectively. This hardware design significantly improves the data transmission performance of each stack port of a Cisco Catalyst 9300 Series Switch.
-**Maximum throughput per ring:** Each stack ring can transmit data up to 80 Gbps for Catalyst 9300X series and 40G for Catalyst 9300/9300L/C9300LM. For Catalyst 9300X models, we have six internal stack rings which will enable an aggregated throughput of 540G per switch (up to 1000G of unicast with Spatial Reuse Protocol [SRP]) and similarly Catalyst 9300 Modular Uplink models have six internal stack rings which enable aggregated throughput of 240G per switch (up to 480G of unicast with Spatial Reuse Protocol [SRP]). For fixed uplink module models, we have 4 internal stack rings to enable an aggregated throughput of 160G per switch (up to 320G of unicast with Spatial Reuse Protocol [SRP]).
-Table 4 describes the major details of the stacking architecture.
-**Table 4.** Cisco StackWise architecture details  
-|   |  Catalyst 9300X (Stackwise-1T)  |  Catalyst 9300 modular uplink models (Stackwise-480)  |  Catalyst 9300 fixed uplink models (Stackwise-320)  |  
-| --- | --- | --- | --- |  
-|  **Total number of rings**  |  6  |  6  |  4  |  
-|  **Throughput per ring**  |  90 Gbps  |  40 Gbps  |  40 Gbps  |  
-|  **Throughput per stack (full ring)**  |  540 Gbps  |  240 Gbps  |  160 Gbps  |  
-|  **Throughput per stack (full ring) with SRP**  |  1 Tbps  |  480 Gbps  |  320 Gbps  |  
-Stack discovery
-Once all switches are powered on and the stack interfaces are up, the Stack Discovery Protocol (SDP) discovers the stack topology using broadcasts. Neighbor information is shared with all other switches in the stack. In a full ring, discovery exits after all the members are found. In a half ring, the system waits for two minutes. Once all switches are discovered, switch numbers are determined. After switch number conflicts are resolved, the information is stored in a flash variable block for future use. ACTIVE election begins after discovery exits.
-The following command can be used to check the status of the stack cable and to identify the neighbor device of the stack cable.
-[![status of the stack cable](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_9.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_9.png "status of the stack cable")
-Active election
-To determine the single ACTIVE and STANDBY switch role during the complete stack reboot process or during the initial boot-up, all switches are required to go through an election process. All member switches participate in the election of an ACTIVE stack switch if they all boot up within the election window (120 seconds).
-The following parameters are taken into account in the order listed below for active switch election:
-●Highest priority
-●Lowest MAC address
-STANDBY is elected by the ACTIVE switch after two minutes to reduce the stress of high-availability sync on the stack.
-By default, the priority is 1 for all switches; hence it falls back to the MAC address to determine the ACTIVE switch if a priority is not defined explicitly. The switch with a lower MAC address will take the role of the ACTIVE switch. The remaining switches join the stack as member switches. Once all the switches in the stack are discovered as members, the ACTIVE switch elects the STANDBY switch. Any switch that you add to the stack after the completion of election process is considered a straggler and will not participate in the ACTIVE stack switch election.
-For deterministic system role election, it is recommended to adjust the switch priority for all stack switches. The switch with a higher priority becomes the ACTIVE switch. This configuration is a one-step process and is typically done at the time of the initial switch boot-up. The switch priorities are set in the ROMMON configuration of each individual switch in the stack ring. The switch priority configuration from ROMMON is parsed during the boot cycle instead of reading from the startup configuration stored in NVRAM. 
-Thus, the switch-priority configuration cannot be verified from startup or the running configuration since it is programmed into a different configuration component. 
-The priority of the Cisco Catalyst 9300 Series Switch can be modified from the EXEC mode. A reload is required for the change to take effect. The following commands show how to configure the switch priority and change switch numbers.  
-|  Cisco Catalyst 9300 Series   |  
-| --- |  
-|  9300>enable  9300**#switch <number> priority 15 ** !Set priority 15 to elect switch in ACTIVE role  9300**#switch <number> priority 14 ** !Set priority 14 to elect switch in STANDBY role  9300**#switch <number> priority 13 ** !Set priority 13 to elect switch in next STANDBY role  9300**#switch <number> priority 12 ** !Set priority 12 to elect switch in next STANDBY role  9300>enable  9300**#switch <number> renumber <number> ** !Statically renumber switch in stack-ring   |  
-There are two ways to influence a particular switch in the stack to take over the role of an ACTIVE switch: 
-●Configure the switch with the highest priority [highest priority is 15] to assume the role of the ACTIVE switch. 
-●If you prefer a particular switch to be the ACTIVE switch in the stack, power on that switch first to take on the role of the ACTIVE switch. 
-Some conditions apply for switches when deployed in StackWise-1T/480/320 
-●Valid switch numbers are 1 through 8 for Cisco Catalyst 9300 Series Switches. The port numbers of the member switches begin with the switch number, such as Gig1/0/1, Te1/1/1, or Fo1/1/1, depending on whether the ports are Gigabit Ethernet (GE), 10 GE, or 40 GE. Example: Switch 3 would have G3/0/1, Te3/1/1, Fo3/1/1 
-●Switch numbers are persistent, meaning that each switch keeps the same switch number after it reboots as a stack member, even if it is no longer part of the stack. 
-●The stack ACTIVE switch resolves any switch number conflicts and renumbers the switch. 
-●Switch numbering does not reflect the physical location of the switch. However, the numbering can be changed to match the physical location using the command “**switch current-stack-member-number renumber new-stack-member-number** ” from the enable mode.
-Example: “switch 1 renumber 2” renames switch 1 to 2 and changes the port numbers from G1/1/1 and Te1/1/1 to G2/1/1 and Te2/1/1. A reload is required for this to take effect.
-When you disconnect a stack member, the switch numbers and port numbers of the remaining stack members do not change, and the stack does not reload. 
-The system roles in the resilient StackWise-1T/480/320 architecture can be verified by running the commands shown below.
-9300-STACK#show switch
-Switch/Stack Mac Address: 046c.9d1f.3400 - Local Mac Address
-Mac persistency wait time: Indefinite
-H/W Current 
-Switch# Role Mac Address Priority Version State 
---------------------------------------------------------------- 
-*1 Active 046c.9d1f.3400 15 V01 Ready 
-2 Standby 046c.9d1f.3b80 14 V01 Ready 
-3 Member 046c.9d1f.6c00 13 V01 Ready 
-4 Member 7001.b544.5700 12 V01 Ready 
-9300-STACK#show redundancy 
-Redundant System Information : 
------------------------------- 
-Available system uptime = 2 days, 20 minutes 
-Switchovers system experienced = 0 
-Standby failures = 0 
-Last switchover reason = none 
-Hardware Mode = Duplex 
-Configured Redundancy Mode = sso 
-Operating Redundancy Mode = sso 
-Maintenance Mode = Disabled 
-Communications = Up 
-Current Processor Information : 
-------------------------------- 
-Active Location = slot 1 
-Current Software state = ACTIVE 
-Uptime in current state = 2 days, 20 minutes 
-Image Version = Cisco IOS Software [Fuji], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 16.9.1, RELEASE SOFTWARE (fc2) 
-Technical Support: http://www.cisco.com/techsupport 
-Copyright (c) 1986-2018 by Cisco Systems, Inc. 
-Compiled Tue 17-Jul-18 17:00 by mcpre 
-BOOT = flash:packages.conf 
-CONFIG_FILE = 
-Configuration register = 0x102 
-Peer Processor Information : 
----------------------------- 
-Standby Location = slot 2 
-Current Software state = STANDBY HOT 
-Uptime in current state = 2 days, 16 minutes 
-Image Version = Cisco IOS Software [Fuji], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 16.9.1, RELEASE SOFTWARE (fc2) 
-Technical Support: http://www.cisco.com/techsupport 
-Copyright (c) 1986-2018 by Cisco Systems, Inc. 
-Compiled Tue 17-Jul-18 17:00 by mcpre 
-BOOT = flash:packages.conf 
-CONFIG_FILE = 
-Configuration register = 0x102
-The STANDBY switch, which is in HOT-STANDBY mode, will transition into the ACTIVE role upon detecting failure of the primary ACTIVE switch. A new STANDBY switch will be elected from the available member switches, and it will transition to HOT-STANDBY. 
-Figure 10 shows the roles and operation of switches in a StackWise-1T/480/320 architecture.
-[![Roles and operation of StackWise-1T/480/320](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_10.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_10.png "Roles and operation of StackWise-1T/480/320")
-Figure 10. 
-Roles and operation of StackWise-1T/480/320
-Stackwise-1T/480/320 architecture 
-The forwarding architecture in the Cisco Catalyst 9300 Series Switches has been designed to provide 1T/480G/320 of stack bandwidth. The software architecture uses the credit-based token algorithm. To optimally forward the traffic within the stack ring, the packet-stripping function is performed on the destination switch instead of on the source or ingress switch. This mechanism is known as the spatial-reuse forwarding mechanism. 
-It allows multiple flows to coexist to enable a parallel forwarding design. The spatial-reuse capability significantly boosts data-plane switching performance in the stack-ring switching architecture. The broadcast and multicast packets are still required to do source stripping, since the location of the destination device is known and there could be multiple multicast listener devices within stack ring. 
-Distributed forwarding architecture 
-The forwarding architecture is designed to provide distributed switching across all member switches in the stack, as implemented in distributed, modular Cisco platforms. To optimize data-plane performance by using hardware resources from each Cisco Catalyst 9300 Series stack member switch, network services such as QoS, security ACLs, and others are fully distributed and programmed to locally enforce on network ports. This distributed hardware resource utilization process delivers wire-speed switching performance that increases overall system resource capacity, prevents centralized overload processing on the ACTIVE switch, and optimizes stack-ring bandwidth capacity. 
-Since Cisco StackWise-1T/480/320 technology is designed to offer modular-class system redundancy in stack design, It requires centralized control and a management plane with a distributed forwarding architecture. To logically appear as a single virtual switch, the IOS daemon (IOSd) process on the ACTIVE switch centrally manages all management-plane and network-control-plane operations with Layer 2 and Layer 3 protocols, including Spanning Tree Protocol (STP), IP routing, Cisco Express Forwarding, Policy-Based Routing (PBR), and others. 
-Depending on the implemented network protocols, the ACTIVE switch communicates with the rest of the multilayer or routed access infrastructure to dynamically develop the forwarding tables. The ACTIVE switch also updates all member switches for forwarding information. The distributed forwarding capability provides local switching lookup for the switching decision process. All ingress and egress wired data-plane traffic is fully distributed in a StackWise-1T/480/320 based system design.
-Independent of the IOSd operational state, the hardware Forwarding Information Base (FIB) is actively programmed in ASICs across all stack-member switches in a stack ring. Figure 11 shows the Cisco Catalyst 9300 Series system architecture with centralized processing for control and management functions and distributed forwarding.
-[![Related image, diagram or screenshot](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_11.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_11.png "Related image, diagram or screenshot")
-Figure 11. 
-Cisco Catalyst 9300 Series and centralized processing
-SSO/NSF architecture 
-The highly resilient Nonstop Forwarding and Stateful Switchover (NSF/SSO) technology is a widely deployed solution in mission-critical campus and branch network designs. The key advantage of NSF/SSO is that it constantly delivers network availability without compromising performance and scalability during planned or unplanned network outages. The StackWise-1T/480/320 architecture takes advantage of the same technology to maintain state machines and gracefully recover during an ACTIVE switch failure. 
-StackWise-1T/480/320 SSO technology expands Route Processor Redundancy (RPR) capabilities to provide transparent failover of several high-availability-aware Layer 2 and 3 protocols and Cisco IOS Software applications when the ACTIVE switchover occurs. 
-The state machines of non-high-availability-aware protocols and applications are not synchronized from ACTIVE to STANDBY, something the Cisco Catalyst 9300 Series Switch requires to rebuild adjacencies and forwarding entries during an ACTIVE switch failure. 
-NSF is a high-availability feature that can ensure continuous Layer 2 and 3 packet forwarding, which continues when an ACTIVE route processor switches over to a STANDBY switch. It effectively increases network availability by eliminating network downtime in the event of scheduled maintenance or an unexpected failure of the switch. NSF is used in conjunction with SSO. NSF enhances the Cisco Express Forwarding logic to allow Cisco Catalyst 9300 Series Switches in StackWise-1T/480/320 to continue using their last known forwarding information base data when a newly elected ACTIVE switch is learning routes.
-Figure 12 shows the NSF/SSO architecture in Cisco Catalyst 9300 Series StackWise-1T/480/320 mode.
-[![Related image, diagram or screenshot](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_12.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_12.png "Related image, diagram or screenshot")
-Figure 12. 
-Cisco Catalyst 9300 Series StackWise-1T/480/320 NSF/SSO architecture
-Implementing StackWise-1T/480/320 NSF/SSO 
-To increase availability, the SSO capability is enabled by default when Cisco Catalyst 9300 Series Switches are deployed in StackWise-480/320 mode. No additional user intervention is required to enable the SSO capability on a Cisco Catalyst 9300 Series system. The user can verify that SSO is configured and that the operational state is using a consistent CLI as a modular Cisco Catalyst system. The following example shows the sample output of SSO redundancy in the StackWise-1T/480/320 based network design.
-9300-STACK#sh redundancy states 
-my state = 13 -ACTIVE 
-peer state = 8 -STANDBY HOT 
-Mode = Duplex 
-Unit = Primary 
-Unit ID = 1 
-**Redundancy Mode (Operational) = sso**
-**Redundancy Mode (Configured) = sso**
-Redundancy State = sso 
-Maintenance Mode = Disabled 
-Manual Swact = enabled 
-Communications = Up 
-client count = 109 
-client_notification_TMR = 30000 milliseconds 
-RF debug mask = 0x0
-The NSF capability on Cisco Catalyst 9300 Series Switches can perform as an NSF helper system. However, with SSO protocol synchronization, the Cisco Catalyst 9300 Series system becomes an NSF-capable system as a modular Cisco Catalyst system. To enable the graceful restart capability for supported protocols, the network administrator must manually enable the graceful restart capability under a routing instance; otherwise the system may not gracefully recover protocol state machines and may cause a high recovery time during an ACTIVE switch failure event. The following code shows an example of how to enable NSF for the Enhanced Interior Gateway Routing Protocol (EIGRP).
-9300-STACK(config)#router eigrp 100 
-9300-STACK(config-router)#nsf 
-9300-STACK#sh ip protocols 
-***** IP Routing is NSF aware *****
-Routing Protocol is “eigrp 100” 
-<SNIP>
-NSF-aware route hold timer is 240 
-EIGRP NSF enabled 
-NSF signal timer is 20s 
-NSF converge timer is 120s 
-Router-ID: 172.168.2.2
-Stack operations
-Switch addition
-When adding a new switch to the stack, stack cables have to be connected appropriately prior to powering on the switch. The stack will operate at half bandwidth until the newly added switch has been powered on and has been discovered as a member. Once the switch had been discovered and is part of the stack, the stack ring transitions to the “Full” state.
-The following output shows that the stack is in “Half” ring state until the newly added switch is discovered.
-9300-STACK#show switch stack-ring speed
-**Stack Ring Speed : 240G**
-**Stack Ring Configuration : Half**
-Stack Ring Protocol : StackWise
-Figure 13 shows the stack cabling when three switches are operating in StackWise-1T/480/320.
-[![Stack with three switches](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_13.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_13.png "Stack with three switches")
-Figure 13. 
-Stack with three switches
-Figure 14 shows the stacking cable structure when a fourth switch has been added to the above stack.
-[![StackWise-480/320 with four switches](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_14.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_14.png "StackWise-480/320 with four switches")
-Figure 14. 
-StackWise-1T/480/320 with four switches
-The following logs describe the addition of a new switch to the stack.  
-|  Newly added member switch logs   |  
-| --- |  
-|  Initializing Hardware...  <SNIP> Current ROMMON image: Primary  Last reset cause : PowerOn  C9300-24UX platform with 8388608 Kbytes of main memory  boot: attempting to boot from [flash:packages.conf]  boot: reading file packages.conf  < SNIP > Waiting for 120 seconds for other switches to boot  **The switch number is 4** **All switches in the stack have been discovered. Accelerating discovery**  |  
-|  **The stack discovers this new switch and assigns a switch number of 4, as seen below:**  |  
-|  **9300-STACK#** ***Aug 20 18:44:51.427: %STACKMGR-6-SWITCH_ADDED: Switch 2 R0/0: stack_mgr: Switch 4 has been added to the stack.** ***Aug 20 18:44:51.428: %STACKMGR-6-SWITCH_ADDED: Switch 1 R0/0: stack_mgr: Switch 4 has been added to the stack.** ***Aug 20 18:44:51.430: %STACKMGR-6-SWITCH_ADDED: Switch 3 R0/0: stack_mgr: Switch 4 has been added to the stack.** **< SNIP> ** *Aug 20 18:44:57.034: %STACKMGR-6-SWITCH_ADDED: Switch 4 R0/0: stack_mgr: Switch 4 has been added to the stack.  *Aug 20 18:44:57.034: %STACKMGR-6-SWITCH_ADDED: Switch 4 R0/0: stack_mgr: Switch 4 has been added to the stack.  ***Aug 20 18:44:57.249: %HMANRP-6-HMAN_IOS_CHANNEL_INFO: HMAN-IOS channel event for switch 4: EMP_RELAY: Channel UP!**  |  
-It is recommended to have the stack cables connected to the newly added switch prior to powering it on. If the stack cables are connected after the switch has been powered on, it will result in reload of the newly added switch. A similar message will be seen during this process on the new switch, resulting in a reload:
-**“Chassis 1 reloading, reason - stack merge”**
-Switch deletion
-To remove a switch from the stack, the respective switch has be powered down and the stack cables have to be disconnected from the switch. The stack will operate at half bandwidth during this state until the stack cables are reconnected to form a full ring.
-Figures 15 and 16 show stack cable connections before and after the removal of SW-4 from the stack.
-[![Stack cable connections with four switches in the stack](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_15.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_15.png "Stack cable connections with four switches in the stack")
-Figure 15. 
-Stack cable connections with four switches in the stack
-SW-4 has been removed and the stack cable connections have been moved to bring the ring to the “Full” state.
-[![Stack cable connections after switch 4 has been removed from the stack](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_16.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_16.png "Stack cable connections after switch 4 has been removed from the stack")
-Figure 16. 
-Stack cable connections after switch 4 has been removed from the stack
-Stack split
-Figure 17 shows a common stack split scenario.
-[![Stack split scenario](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_17.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_17.png "Stack split scenario")
-Figure 17. 
-Stack split scenario
-When a stack split happens for unforeseen reasons, the member switches reload as they lose connectivity to both the ACTIVE and STANDBY switches, as shown in Figure 17.
-**Chassis 3 reloading, reason - lost both active and standby Chassis**
-4 reloading, reason - lost both active and standby
-SW-3 and SW-4 discover each other during the reload process and the ACTIVE switch is elected. The ACTIVE switch elects the STANDBY switch. In this scenario, the stack ring will continue to operate at half bandwidth until the link has been restored.
-Figure 18 illustrates another stack-split scenario.
-[![Another stack split scenario](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_18.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_18.png "Another stack split scenario")
-Figure 18. 
-Another stack split scenario
-The scenario in Figure 18 shows a stack split with the ACTIVE and STANDBY switches being split. In this scenario, none of the switches reload, as both the right half and left half have either an ACTIVE or STANDBY switch. In the right half topology, a new standby switch is elected. In the left half topology, the STANDBY switch takes over the ACTIVE role and a new STANDBY switch is elected. Both topologies operate at half bandwidth until the stack link restores.
-Stack merge
-When a stack merge occurs, as shown in Figure 20, the stack pair that has the lowest priority on the ACTIVE switch will reload and join the stack pair that has the highest priority. If the priority is same, the ACTIVE switch in the stack pair with the highest MAC address reloads.
-[![Related image, diagram or screenshot](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_19.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_19.png "Related image, diagram or screenshot")
-Figure 19. 
-Stack merge scenario
-In Figure 20, considering that SW-1 has a priority of 15, SW-2 has a priority of 14, SW-3 has a priority of 13, and SW-4 has a priority of 12, the stack merge will result in a reload of all switches only in the left half of the stack (SW3 and SW4), as they have a lower priority. The stack operates at “Half” ring until the switches in the left half have been discovered as members. If the priority is the same for all switches, the stack with the highest MAC address will reload.
-Auto-upgrade
-One of the options that gives the StackWise-1T/480/320 architecture greater flexibility is the ability to increase the number of ports in the wiring closet without needing to configure the management plane or upgrade the newly installed switch manually. The newly added switch automatically upgrades to the software that the stack is currently running, without any manual intervention. The hardware and software architecture of the Cisco Catalyst 9300 Series continues to provide backward compatibility to dynamically insert a new 9300 Series switch into the stack ring without a major network disruption. The system and management operation, network configuration, and topologies remain transparent for network upgrades and nonstop business communication. 
-As a best practice, the newly joined switch can automatically receive consistent software versions from an ACTIVE switch and bring the system online without any user intervention. To automatically download consistent software versions to newly joined switches, you can use the following command from the global configuration mode. The auto-upgrade feature is not supported in bundled mode.
-**9300-STACK#conf t**
-Enter configuration commands, one per line. End with CNTL/Z. 
-**9300-STACK(config)#software auto-upgrade enable**
-With the aforementioned command enabled, any member switch that is added to the stack will automatically upgrade to the current stack software.  
-|  Stack logs  |  
-| --- |  
-|  9300-STACK#  *Aug 20 22:56:20.696: %STACKMGR-6-SWITCH_ADDED: Switch 2 R0/0: stack_mgr: Switch 4 has been added to the stack.  *Aug 20 22:56:20.697: %STACKMGR-6-SWITCH_ADDED: Switch 1 R0/0: stack_mgr: Switch 4 has been added to the stack.  *Aug 20 22:56:20.740: %STACKMGR-6-SWITCH_ADDED: Switch 3 R0/0: stack_mgr: Switch 4 has been added to the stack.  *Aug 20 22:56:21.172: %BOOT-3-BOOTTIME_INCOMPATIBLE_SW_DETECTED: Switch 1 R0/0: issu_ stack: Incompatible software detected. Details: Chassis 4 is detected INCOMPATIBLE with software version of Active: FAILED: Version ‘16.06.03’ mismatch with Active’s running version ‘16.09.01’ for package: ‘guestshell’  ***Aug 20 22:56:21.298: %AUTO_UPGRADE-5-AUTO_UPGRADE_START_CHECK: Switch 1 R0/0: auto_ upgrade_client: Auto upgrade start checking for incompatible switches.** *Aug 20 22:56:24.452: %IOSXE_INFRA-6-PROCPATH_CLIENT_HOG: IOS shim client ‘chasfs’ has taken 3168 msec (runtime: 0 msec) to process a ‘stack chasfs fd’ message.  *Aug 20 22:56:25.476: %AUTO_UPGRADE-5-AUTO_UPGRADE_INITIATED: Switch 1 R0/0: auto_ upgrade_client: Auto upgrade initiated for switch 4.  *Aug 20 22:56:25.502: %AUTO_UPGRADE-5-AUTO_UPGRADE_SEARCH: Switch 1 R0/0: auto_upgrade_ client: Searching stack for software to upgrade switch 4. *Aug 20 22:56:25.518: %AUTO_UPGRADE-5-AUTO_UPGRADE_FOUND: Switch 1 R0/0: auto_upgrade_ client: Found donor switch 1 to auto upgrade switch 4.  *Aug 20 22:56:25.534: %AUTO_UPGRADE-5-AUTO_UPGRADE_START: Switch 1 R0/0: auto_upgrade_ client: Upgrading switch 4 with software from switch 1.  *Aug 20 22:57:05.536: %AUTO_UPGRADE_MODULAR-5-SMU_AUTO_UPGRADE_INITIATING: Switch 1 R0/0: auto_upgrade_client: Initiating SMU autoupgrade for switch 4  ***Aug 20 22:57:05.904: %AUTO_UPGRADE-5-AUTO_UPGRADE_FINISH: Switch 1 R0/0: auto_upgrade_ client: Finished installing software on switch 4.****à****upgrade complete** ***Aug 20 22:57:09.625: %AUTO_UPGRADE-5-AUTO_UPGRADE_RELOAD: Switch 1 R0/0: auto_upgrade_ client: Reloading switch 4 to complete the auto upgrade.****à reload after upgrade ** <SNIP > *Aug 20 23:00:07.066: %STACKMGR-6-SWITCH_ADDED: Switch 4 R0/0: stack_mgr: Switch 4 has been added to the stack.   |  
-Mixed Stack Operations
-Cisco StackWise technology supports mixed stacking between the Catalyst 9300X and Catalyst 9300 Sku’s to achieve lower costs and simplified network design for Enterprise Campuses and branch network design. The Catalyst 9300X FIbre and copper SKu’s can be stacked together using StackWise 1T to achieve an aggregated throughput of 1000 Gbps. As well as the Cisco Catalyst 9300X fibre/Copper SKu’s can also be stacked together with Cisco 9300 Modular uplink sku’s to achieve aggregated stacking bandwidth of 480 Gbps.
-Default Operation
-The default back stack interface speed is 480 Gbps for Cisco Catalyst 9300 and 9300X switches. 
-●If the stack group consist of homogeneous Catalyst 9300X connected in full ring architecture with less than 15 minutes of uptime the stack reloads automatically and achieve aggregated throughput of 1 Tbps. 
-●If the stack group consist of homogeneous Catalyst 9300X connected in half ring or with uptime more than 15 minutes then the automatic reload to higher throughput doesn’t happen and the switch needs to be manually configured via the CLI to achieve 1Tbps throughput.  
-|  CLI Command to change Stack throughput   |  
-| --- |  
-|  **C9300X(config)#switch stack-speed high** WARNING: Please confirm all switches physically connected to the stack are in Ready state with 'show switch' CLI command. Otherwise, some switches may not be able to join the stack after the reload, due to speed mismatch.  Stack bandwidth setting can be verified using 'show switch stack-bandwidth' command. It will require a reboot for the new stack speed to take effect. Do you want to continue?[y/n]? [yes]: y  |  
-●If the stack group consist of mix of Catalyst 9300 and Catalyst 9300X in full ring, for the first time all the stack members will go for reload and form a stack capable of 480 Gbps throughput. One additional reload is expected at this time to ensure the SDM template for all the members are same (The Feature scale for mixed stacking between C9300X and C9300 will be limited to C9300 Scale). The same behavior is observed for half-ring Stack design. 
-Deep buffer SKUs are not stackable with non-deep buffer SKUs 
-Adding a Switch to Mix Stack
-When adding a new switch to the stack, stack cables must be connected appropriately prior to powering on the switch.
-●If a Catalyst 9300X is being added to an existing Catalyst 9300 stack, the member Catalyst 9300X will go for an additional reload before joining the stack in order to match Catalyst 9300 SDM template.
-●If a Catalyst 9300 is being added to an existing Catalyst 9300X stack, the member Catalyst 9300 will stay in platform mismatch mode until the complete stack reload is performed.  
-|  Stack Logs   |  
-| --- |  
-|  9300-STACK#  *Apr 19 22:56:20.696: %STACKMGR-SWITCH: Switch 4: stack_mgr: sdm template mismatch loading lower scale template for mixed stacking.  **The Log is observed on adding catalyst 9300X to Mixed stack. The switch undergoes reload to match/load the current SDM template for Stack group.**  |  
-Removing a Switch from Mix Stack
-To remove a switch from the stack, the respective switch has be powered down and the stack cables have to be disconnected from the switch.
-●In full ring Stack design, when Catalyst 9300 is removed from mixed stack and rest of the stack is homogeneous Catalyst 9300X an additional reload is required to bring the stack to Catalyst 9300X SDM template.
-●In half ring Stack design, when Catalyst 9300 is removed from mixed stack and rest of the stack is homogeneous Catalyst 9300X, Stack remains in Catalyst 9300 SDM. We don’t upgrade the SDM to C9300X even after stack reload unless a full ring stack design is achieved.  
-|  Stack Logs   |  
-| --- |  
-|  9300-STACK#  *Apr 19 23:12:15.232: %STACKMGR-SWITCH: Switch 4: stack_mgr: sdm template mismatch loading higher scale template.  **The log may be observed when Catalyst 9300 is removed from the Mixed stack to form Catalyst 9300X homogeneous Stack(Full ring).**  |  
-Stackwise Mode button behaviour (Stackwise 1T and Stackwise 480)
-●Mode button can be used to change individual Switch Stack throughput. The Active switch in Stack can be identified from Active Switch LED. Pressing the button for 10+ seconds can toggle the throughput between 1Tbps or 480Gpbs. (After auto-reload the switch/stack boots up with alternate Stacking throughput 480Gpbs—1Tbps or 1Tbps---480Gbps).  
-|  Stackwise Blue beacon LED behaviour (First 135 second upon Stack intiation)   |  
-| --- |  
-|  **Blue Beacon LED Solid indicates high speed (Stackwise-1T)** **Blue Beacon LED 1 second-interval blinking indicates low speed (Stackwise-480)**  |  
-Licensing
-Licensing with Release 16.9 (Smart Licensing) 
-With Release 16.9.1, for which a Smart License is mandatory, the stack automatically enables the EVAL license on a new switch should a license mismatch be present on the newly added switch. Data programming will be done once the switch joins the stack. 
-This can be verified using the following command.
-9300-STACK#sh license usage 
-License Authorization: 
-Status: AUTHORIZED on Sep 25 22:53:33 2018 UTC 
-C9300 Network Advantage (C9300-24 Network Advantage): 
-Description: C9300-24P Network Advantage 
-**Count: 4****à****Number of switches in stack**
-Version: 1.0 
-Status: AUTHORIZED 
-C9300 Cisco DNA Advantage (C9300-24 Cisco DNA Advantage): 
-Description: C9300-24P Cisco DNA Advantage 
-Count: 4 
-Version: 1.0 
-Status: AUTHORIZED
-Licensing prior to Release 16.9
-Prior to Release 16.9.1, any newly added switch must have the same license as the stack to join the stack. If the newly installed switch does not have same license as the stack, the switch will be discovered but will not join the stack and will be reported as a license mismatch. No data programming will be done for this switch until the compatibility check is passed.
-The following message will appear when a switch experiences a license mismatch:  
-|  Logs on the newly added switch with license mismatch   |  
-| --- |  
-|  “Switch 4 has a license mismatch with the stack. Only on activating a compatible license will the switch join.”   |  
-|  Stack reports the license mismatch   |  
-| --- |  
-|  c9300-STACK#sh switch  Switch/Stack Mac Address : 046c.9d1f.3b80 - Local Mac Address  Mac persistency wait time: Indefinite  H/W Current  Switch# Role Mac Address Priority Version State  ---------------------------------------------------------------------  *1 Active 046c.9d1f.3b80 15 V01 Ready  2 Standby 046c.9d1f.3400 14 V01 Ready  3 Member 046c.9d1f.6c00 13 V01 Ready  4 Member 7001.b544.5700 12 V01 Lic-Mismatch   |  
-Manual intervention is needed to resolve this issue. This can be corrected by activating a Right-To-Use (RTU) license, followed by reloading the switch.
-c9300-1#license right-to-use activate network-advantage slot 4 accept General Terms 
-c9300-1#license right-to-use activate addon Cisco DNA-advantage evaluation slot 4 accept General Terms 
-c9300-1#reload slot 4
-Stack design
-Simplified multilayer network design
-The enterprise customer relies on real-time business applications such as voice, video, and others. The system reliability and network availability become a core, integrated service requirement to deliver nonstop communication in the network.
-When the access layer environment becomes highly dense, the StackWise-1T/480/320 pools up to eight physical chassis into a single logical system from a network design perspective. As the access layer network infrastructure expands, the device-pooling capability of the Cisco StackWise technology significantly simplifies operations and the network architecture itself.
-Cisco recommends designing and deploying the multilayer distribution block with four major elements in the overall architecture: reduced fault domain, increased network security, deterministic forwarding paths, and optimal resiliency. Designing and developing a wiring closet with this architecture requires isolated broadcast domains or VLANs for each workgroup category, device, and application type. This network design needs to apply consistently throughout the wiring closet network. It provides solid network security, stability, and reliability, and depending on the access layer network size, it may increase operational and troubleshooting complexity due to the increased number of VLANs, subnets, neighbor counts, and more.
-The Cisco Catalyst 9300 Series StackWise-1T/480/320 device-pooling design retains Cisco’s multilayer design principles. It also simplifies operational challenges with a reduced number of VLANs, STP instances, subnets, neighbor counts, etc. at the access and distribution layers. Figure 20 shows the simplified network design and operational data points between 9300 Series switches deployed in standalone mode in comparison to StackWise-1T/480/320 mode.
-[![Related image, diagram or screenshot](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_20.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_20.png "Related image, diagram or screenshot")
-Figure 20. 
-Comparison of Cisco Catalyst 9300 Series Switches in standalone mode to a StackWise-1T/480/320 multilayer
-Scalable StackWise-1T/480/320 cross-stack EtherChannel design 
-StackWise-1T/480/320 can enable the ability to build a single-uplink EtherChannel interface by bundling up to eight parallel physical links, which could then be distributed evenly across all stack switches. Multiple uplinks from a mission-critical access layer switch are a base requirement for reliable networks to provide high-speed data load sharing and to deliver 1+1 path redundancy upon failure. 
-However, from a forwarding perspective the Layer 2 network becomes suboptimal when multiple parallel interfaces are deployed between two Layer 2 Ethernet switches. 
-The cross-stack EtherChannel interface simplifies STP topology over the logical interface and builds loop-free forwarding paths across all bundled uplink ports. If the Cisco Catalyst 9300 Series Switch is deployed in routed access mode, the cross-stack EtherChannel can also be deployed as a Layer 3 uplink interface to simplify unicast or multicast neighbor adjacencies and simplified network topology with one forwarding table. Independent of the 9300 Series switch’s deployed mode (multilayer or routed access), during the member switch or member link failure the EtherChannel does not disrupt network topology tables and delivers deterministic, hardware-driven, subsecond network recovery processes. 
-Cisco Catalyst 9300 Series Switches support multiple physical uplink ports to connect distribution-layer switches. Typically, up to two physical uplink interfaces are deployed from access layer switches for optimal load balancing and redundancy in the wiring closet.
-When these switches are deployed in stack configuration mode, we recommend maintaining the same uplink connection design principle as a dual stack-member system. The recommendation is to use uplinks on the member switches with Multichassis EtherChannel (MEC), which helps with spanning multiple uplinks over the member switches. For example, eight Cisco Catalyst 9300 Series Switches deployed in a stack ring would have multiple diversified uplink ports from member switches. The remaining switches, where uplinks are not connected, would forward the data toward the core using a high-speed stack backplane. 
-This recommended uplink port design offers various benefits, from application performance to optimal user experience. Some key benefits include:
-●Improved application performance by increasing aggregated stack switching capacity with multiple, distributed, high-speed 10-Gbps/40-Gbps uplinks between stack member Cisco Catalyst switches 
-●Enhanced bidirectional traffic engineering with intelligent network data load sharing within the stack ring and across all distributed uplink physical ports 
-●Improved system and application performance by using the distributed forwarding architecture advantage of hardware resources: buffers, queues, Ternary Content-Addressable Memory (TCAM), and others 
-●Protection of the stack and network-level redundancy and reduction in congestion between distributed aggregation systems caused during a major outage at the access or distribution layer.
-[![Related image, diagram or screenshot](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_21.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_21.png "Related image, diagram or screenshot")
-Figure 21. 
-Cisco Catalyst 9300 Series StackWise-1T/480/320 uplink design best practices
-Optimal StackWise-1T/480/320 cross-stack forwarding EtherChannel design
-The egress data load forwarding from StackWise-1T/480/320 is determined based on how the upstream network is designed. The loop-free forwarding topology uses all available paths to switch data traffic based on precomputed Cisco Express Forwarding or EtherChannel hash results. In a distributed forwarding architecture the Cisco Catalyst 9300 Series stack switches verify the Layer 2 to Layer 3 data variables from incoming traffic to determine the best physical uplink ports before forwarding traffic to the upstream system.
-The Cisco Catalyst 9300 Series Switch requires more variables in packet tuples to perform granular switching decisions. In a large-scale design, the source MAC address-based EtherChannel load-sharing mode may deliver adequate results to use all upstream member links. However, in mid- to low-scale networks, the Cisco Catalyst 9300 Series may not have enough variable points to compute the best egress uplink path. In this case, in order to optimize the switching performance with granular packet forwarding decisions across all available cross-stack uplink paths, the default EtherChannel hash computation can be tuned to include Layer 2 to Layer 3 address variables. 
-The next-generation Cisco Catalyst 9300 Series is designed to support a large number of EtherChannel hash variables to deliver optimal upstream egress forwarding decisions. Table 5 outlines the supported Layer 2 to Layer 4 EtherChannel hash algorithm.
-**Table 5.** Cisco Catalyst 9300 Series EtherChannel hash algorithm  
-|  Layer   |  EtherChannel hash   |  
+Star topology
+The Cisco StackPower cables are thick but flexible, and they carry power as well as a data signal to provide a communications channel among the switches in the power stack. Table 1 lists Cisco StackPower and XPS cables.
+**Table 1.** Cisco StackPower and XPS cables  
+|  Product ID  |  Description  |  
 | --- | --- |  
-|  **Non-IP**  |  src-mac (default)   |  
-|  **Layer 2**  |  src-mac (default)  dst-mac  src-dst-mac   |  
-|  **Layer 3**  |  src-ip  dst-ip  src-dst-ip   |  
-|  **Layer 4**  |  src-port  dst-port  src-dst-port   |  
-|  **Layer 3 plus layer 4**  |  src-mixed-ip-port  dst-mixed-ip-port  src-dst-mixed-ip-port (Recommended)   |  
-The network administrator can adjust the default EtherChannel hash algorithm from a global configuration mode, as demonstrated in the sample code that follows.
-**Verification:**
-9300-STACK#show etherchannel load-balance 
-EtherChannel Load-Balancing Configuration: 
-9300-STACK#conf t 
-**src-mac**
-9300-STACK(config)**#port-channel load-balance src-dst-mixed-ip-port**
-EtherChannel Load-Balancing Addresses Used Per-Protocol: 
-**Non-IP: Source MAC address**
-**IPv4: Source MAC address**
-**IPv6: Source MAC address**
-Command to change the default load-balance method: 
-Verification:
-9300-STACK#sh etherchannel load-balance 
-EtherChannel Load-Balancing Configuration: 
-**src-dst-mixed-ip-port**
-EtherChannel Load-Balancing Addresses Used Per-Protocol: 
-**Non-IP: Source XOR Destination MAC address**
-**IPv4: Source XOR Destination IP address and TCP/UDP (layer-4) port number**
-**IPv6: Source XOR Destination IP address and TCP/UDP (layer-4) port number**
-Reliable StackWise-1T/480/320 cross-stack forwarding EtherChannel design
-The link aggregation protocols build stateful, consistent, and reliable EtherChannel communication between two systems. To successfully establish a logical EtherChannel interface between two systems, the link aggregation protocol performs several link parameter checks to assure that each member link is equipped to deliver consistent switching performance and network service in the event of failure. During the EtherChannel startup process, each end of the system verifies the capabilities of each local and remote member link, including attributes such as speed, duplex, protocol dependencies, QoS capabilities, and more.
-Cisco recommends bundling the cross-stack EtherChannel interface using link aggregation protocols such as Cisco Port Aggregation Protocol Plus (PAgP+) or Link Aggregation Control Protocol (LACP). The Cisco Catalyst 9300 Series Switch deployed in StackWise-1T/480/320 supports both link aggregation protocols (Figure 22).
-[![Related image, diagram or screenshot](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_22.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741468.docx/_jcr_content/renditions/white-paper-c11-741468_22.png "Related image, diagram or screenshot")
-Figure 22. 
-Cisco Catalyst 9300 Series cross-stack EtherChannel design
-Summary
-Next-generation Cisco Catalyst 9300 Series Switches have been designed to meet the future demands in wiring closet networks. Stackwise-1T/480/320 provides maximum port density at the access layer, along with platform, software, and network resiliency at the access layer. As more technologies are integrated into the system, the Cisco Catalyst 9300 Series offers operational simplicity, scalability, performance, and adaptability for future protocols. The software architecture of Cisco StackWise-1T/480/320 technology delivers superior performance and best-in-class resiliency along with the flexibility of a UADP ASIC. This document is primarily focused on the StackWise architecture for the Cisco Catalyst 9300 Series Switches.
+|  **CAB-SPWR-30CM**  |  30cm StackPower cable  |  
+|  **CAB-SPWR-150CM**  |  150cm StackPower cable  |  
+|  **CAB-XPS-58CM**  |  58cm XPS StackPower cable  |  
+|  **CAB-XPS-150CM**  |  150cm XPS StackPower cable  |  
+Cisco StackPower and XPS cables are keyed and have colored bands on the ends to help you understand what the connector can plug into.
+The cable shown in Figure 6 connects a Cisco Catalyst 9300 Series Switch to another 9300 Series switch in a power stack or to an XPS 2200. It has a green band on one end and a yellow band on the other.
+●The cable end with the green band can connect only to a Cisco Catalyst 9300 Series Switch.
+●The cable end with the yellow band can connect to a 9300 Series Switch or an XPS 2200.
+[![Cisco StackPower cable for use with the Cisco Catalyst 9300 Series Switches](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_5.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_5.png "Cisco StackPower cable for use with the Cisco Catalyst 9300 Series Switches")
+Figure 6. 
+Cisco StackPower cable for use with the Cisco Catalyst 9300 Series Switches
+Before connecting the switches in a power stack, follow these guidelines:
+●A switch power stack can include a maximum of four switches in a ring topology and eight switches in a star topology with the XPS 2200.
+●Size of the switch and any optional power-supply module: The 1100W power-supply module is 1.5 inches (3.81 cm) longer than the other modules, and with the attached cable retention clip, it extends 3 inches (7.62 cm) from the switch chassis. Stacking switches with the same power-supply modules together makes it easier to cable the switches.
+●Length of cable: Depending on the configurations that you have, you might need different-sized cables. If you do not specify the length of the Cisco StackPower cable, the 0.3-meter cable is supplied. If you need the 1.5-meter cable, you can order it from your Cisco supplier. For cable part numbers, refer to Table 2. The figures that follow provide examples of recommended Cisco StackPower cabling configurations.
+Figure 7 shows a ring configuration using both of the supplied 0.3-meter Cisco StackPower cables and one 1.5-meter cable. In this example, the switches are stacked in a vertical rack.
+[![Cisco StackPower ring topology](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_6.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_6.png "Cisco StackPower ring topology")
+Figure 7. 
+Cisco StackPower ring topology
+Figure 8 shows a star topology configuration. In this example, the switches are stacked in a vertical rack.
+[![Cisco StackPower star topology](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_7.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_7.png "Cisco StackPower star topology")
+Figure 8. 
+Cisco StackPower star topology
+The Cisco Catalyst 9300 Series Switches come with multiple power-supply options, and you can use any of them on any switch in a stack, in any combination. Table 2 lists these options.
+**Table 2.** Power-supply options for the Cisco Catalyst 9300 Series Switches  
+|  Product ID  |  Description  |  
+| --- | --- |  
+|  **PWR-C1-350WAC**  |  350W AC power supply   |  
+|  **PWR-C1-715WAC**  |  715W AC power supply   |  
+|  **PWR-C1-1100WAC**  |  1100W AC power supply   |  
+|  **PWR-C1-715WDC**  |  715W DC Power supply   |  
+|  **PWR-C1-350WAC-P**  |  350W AC power supply (Platinum rated)   |  
+|  **PWR-C1-715WAC-P**  |  715W DC Power supply (Platinum rated)   |  
+|  **PWR-C1-1100WAC-P**  |  1100W AC power supply (Platinum rated)   |  
+The Cisco Catalyst 9300 Series Switches provide two slots for redundant power supplies, but only one supply is needed to run a single switch unless full PoE+ is deployed on a 48-port switch. In that case, the power requirement is greater than 1700W, which is more than the 1100W provided by the largest available power supply. If the switch is deployed within a Cisco StackPower stack, a second power supply might not be needed if the stack has extra power to meet the requirements of this switch, though the power-supply slot must be covered to maintain proper airflow.
+You can mix the power-supply types either in a standalone switch or in a stack. That is, you can combine a 350W AC power supply (the default for a data-only switch) with a 715W or 1100W AC power supply (the default in a full PoE switch) or with a 715W DC power supply.
+The following are some important concepts for Cisco StackPower technology:
+●Cisco StackPower is responsible for negotiating and distributing power from a common power pool among the switches participating in the power stack.
+●Intelligent load shed is a mechanism used by Cisco StackPower to decide what devices must power down when the available power drops below the allocated power levels. A priority scheme is used to set different levels, which become useful when:
+◦Load shedding is needed due to the power budget falling below the allocated power levels.
+◦An initial allocation of power is needed to boot up into Cisco IOS XE Software. You can change priorities for powered devices and switches to values other than the preconfigured default values.
+●The physical placement of power supplies in a switch is independent of the power required for that switch as long as the best practices are followed. (Refer to [Best practices](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#Bestpractices) section).
+●The power stack reports all of the Cisco StackPower information to the stack master; therefore, configuring a power stack that spans multiple data stacks is not recommended (see the “[Best practices](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#Bestpractices)” section).
+Use case for Cisco StackPower
+[![Power stack of four switches](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_8.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_8.png "Power stack of four switches")
+Figure 9. 
+Power stack of four switches
+The following use case will help you understand Cisco StackPower technology and its main features.
+Switches A, B, C, and D, shown in Figure 9, have the following configuration and power draw requirements.
+●Switch A requires 948W [PoE + Switch Power Consumption] to provide full PoE on all of its 48 ports. It has only one 1100W power supply; capacity of 152W is available.
+●Switch B requires 248W, since it is a non-PoE switch. It has only one 350W power supply; extra power capacity of 102W is available.
+●Switch C requires 1648W [PoE + Switch Power Consumption]. It has one 1100W and one 715W power supply; extra power capacity of 167W is available.
+●Switch D requires 618W to provide partial PoE on some ports. This switch does not have any power supply, and it requires 618W of power.
+These switches have been cabled up to form a power stack to make use of unused power from switches with lower power requirements. This flexible use of available resources is the key benefit of Cisco StackPower technology.
+Let’s summarize the scenario:
+Power requirements for the power stack:
+Switches A through D = 948W + 248W + 1648W + 618W = 3462W
+Available power in the common pool of the power stack:
+Switches A through D = 1100W + 350W + 1100W + 715W = 3265W
+Power deficit = -197W
+Although the power stack in the example has extra capacity that gets placed in the power pool, it is not sufficient to power switch D and the PoE devices attached to it. To balance the system and achieve a positive power budget, we must add more power to the stack; a 350W power supply will solve the problem, but it must be installed in slot A of switch D (see the “Best Practices” section). With the addition of a 350W power supply, we will have a positive power budget, with 153W left over in case switches B or D require more power.
+Cisco StackPower technology provides the ability to share and redirect surplus power from switch C to switch D, which does not have any power supply. Note that switch D even boots up without a power supply, because the technology allocates and directs power to it. Please review the [Best practices](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.html#Bestpractices) section for recommended Deployments.
+Cisco StackPower can also provide redundancy without the extra rack unit in the rack. By adding one 1100W power supply to any of the open slots in the power stack, you can configure reserved power to be used if any power supply in the stack fails. This feature is called a zero-footprint redundant power supply.
+Displaying Cisco StackPower information
+You can use the Cisco IOS XE Software Command-Line Interface (CLI) to view details on Cisco StackPower, such as configured mode, port status, neighbor information, and power requirements, as well as default and configured priorities.
+**“show stack-power”**
+9300-STACK#show stack-power detail
+Power Stack Stack Stack Total Rsvd Alloc Unused Num Num
+Name Mode Topolgy Pwr(W) Pwr(W) Pwr(W) Pwr(W) SW PS
+-------------------- ------ ------- ------ ------ ------ ------ --- -
+Powerstack-1 SP-PS Ring 5115 35 1180 3900 4 5
+Power stack name: Powerstack-1
+Stack mode: Power sharing
+Stack topology: Ring
+Switch 1:
+Power budget: 1200
+Power allocated: 240
+Low port priority value: 20
+High port priority value: 11
+Switch priority value: 2
+Port 1 status: Connected
+Port 2 status: Connected
+Neighbor on port 1: Switch 4 - dcf7.199a.5e80
+Neighbor on port 2: Switch 2 - 046c.9d1f.3400
+Switch 2:
+Power budget: 1230
+Power allocated: 240
+Low port priority value: 19
+High port priority value: 10
+Switch priority value: 1
+Port 1 status: Connected
+Port 2 status: Connected
+Neighbor on port 1: Switch 1 - 046c.9d1f.3b80
+Neighbor on port 2: Switch 3 - 046c.9d1f.6c00
+Switch 3:
+Power budget: 1230
+Power allocated: 240
+Low port priority value: 21
+High port priority value: 12
+Switch priority value: 3
+Port 1 status: Connected
+Port 2 status: Connected
+Neighbor on port 1: Switch 2 - 046c.9d1f.3400
+Neighbor on port 2: Switch 4 - dcf7.199a.5e80
+Switch 4:
+Power budget: 1420
+Power allocated: 460
+Low port priority value: 22
+High port priority value: 13
+Switch priority value: 4
+Port 1 status: Connected
+Port 2 status: Connected
+Neighbor on port 1: Switch 3 - 046c.9d1f.6c00
+Neighbor on port 2: Switch 1 - 046c.9d1f.3b80
+The output of the “**show environment power all** ” command shows the power supplies included in power sharing. In the example below, switch 1 has no power supplies installed, switch 2 has an 1100W and a 715W power supply, switch 3 has two 1100W power supplies, and switch 4 has one 1100W power supply.
+**9300-STACK#sh environment power all**
+SW PID Serial# Status Sys Pwr PoE Pwr Watts
+-- ------------------ ---------- --------------- ------- ------- ----
+1A Not Present
+1B Not Present
+2A PWR-C1-1100WAC LIT21212WAR OK Good Good 1100
+2B PWR-C1-715WAC LIT211549FX OK Good Good 715
+3A PWR-C1-1100WAC LIT21212NFY OK Good Good 1100
+3B PWR-C1-1100WAC DTN2145V53F OK Good Good 1100
+4A PWR-C1-1100WAC-P ART2216FDQJ OK Good Good 1100
+4B Not Present
+The “**show stack-power budgeting** ” command will give you a clean picture of the total power, allocated power, and unused power, as shown below.
+**9300-STACK#show stack-power budgeting**
+Power Stack Stack Stack Total Rsvd Alloc Unused Num Num
+Name Mode Topolgy Pwr(W) Pwr(W) Pwr(W) Pwr(W) SW PS
+-------------------- ------ ------- ------ ------ ------ ------ --- --
+Powerstack-1 SP-PS Ring 5115 35 1180 3900 4 5
+Power Stack PS-A PS-B Power Alloc Avail Consumd Pwr
+SW Name (W) (W) Budgt(W) Power(W) Pwr(W) Sys/PoE(W)
+-- -------------------- ----- ----- -------- -------- ------ -----------
+1 Powerstack-1 0 0 1200 240 960 129 /0
+2 Powerstack-1 1100 715 1230 240 990 131 /0
+3 Powerstack-1 1100 1100 1230 240 990 127 /0
+4 Powerstack-1 1100 0 1420 460 960 143 /0
+-- -------------------- ----- ----- -------- -------- ------ ----------
+Totals: 1180 3900 530 /0
+The command below shows the switches’ priorities, and the number of high- and low-priority ports for each.
+**9300-STACK#sh stack-power load-shedding**
+Power Stack Stack Stack Total Rsvd Alloc Unused Num Num
+Name Mode Topolgy Pwr(W) Pwr(W) Pwr(W) Pwr(W) SW PS
+-------------------- ------ ------- ------ ------ ------ ------ --- ---
+Powerstack-1 SP-PS Ring 5115 35 1180 3900 4 5
+Power Stack Priority Consumd Consumd Consumd Alloc Alloc
+SW Name Sw-Hi-Lo Sw(W) Hi(W) Lo(W) Hi(W) Lo(W)
+-- -------------------- -------- ------- ------- ------- ----- -----
+1 Powerstack-1 2-11-20 129 0 0 0 0
+2 Powerstack-1 1-10-19 131 0 0 0 0
+3 Powerstack-1 3-12-21 127 0 0 0 0
+4 Powerstack-1 4-13-22 143 0 0 0 0
+-- -------------------- -------- ------- ------- ------- ----- -----
+Totals: 530 0 0 0 0
+Intelligent power management
+Placing all of the available power in a single pool has advantages: a load (the switches in the power stack and their respective powerable devices) is applied to the pooled power, making efficient use of the power resources of the stack. An administrator may conclude that too much power is available in one stack and may decide to take a power supply offline or pull it out and deploy it somewhere else.
+A traditional power supply reaches around 80 percent efficiency when the applied load is 60 percent and tops out at a load of perhaps 80 percent; therefore, to make the best possible use of power, it is a good idea to apply all of the load to a single power supply to reach higher efficiency more quickly before powering up a second power supply, and so on.
+A more energy-efficient scenario could involve the same four switches drawing power from the same source, as in a power stack. Four switches have a higher chance of reaching the optimal load on the power supply so the maximum efficiency can be reached sooner, translating into energy savings and more intelligent use of power. Note that Cisco IOS Software has the knobs to take a power supply offline and place it back online as required, and Cisco StackPower has the instrumentation to provide the information needed to take an action, but offlining a power supply requires administrator intervention.
+A maximum of 8400W is possible in a pool of power in a stack of four switches loaded with two 1100W power supplies each. This is obviously sufficient, even if the stack consists of four Cisco Catalyst 9300-48U switches requiring 30 ports of Cisco UPOE or full PoE+. Consider the math:
+4 switches x 30 ports x 60W = 7200W. This ls less than the available 8400W.
+If only one power supply is installed in each switch, we get 4400W in the power pool. Now we fall short, but the reality is that not everyone needs full Cisco UPOE on every port in a stack of four switches; hence, 4400W may be just fine. Here is where Cisco StackPower starts to provide savings by allowing the administrator to purchase power supplies as the need for power grows.
+Cisco StackPower topology
+The Cisco StackPower technology can be deployed in a ring topology as well as in a star topology over an XPS 2200, as shown earlier in Figures 7 and 8. Both topologies have advantages and disadvantages. A ring topology provides greater resiliency, because current can flow in either direction in the ring if a path fails. On the other hand, the number of switches in the ring topology is restricted to four, to ensure safety and prevent large currents through the cables. Some deployment scenarios create large currents that would require a larger gauge of wire in the Cisco StackPower cables, which reduces the manageability of the cables. Nonetheless, a stack of four is a common deployment.
+The star topology has no such restriction; all eight switches can share power through the XPS 2200, although one more piece of hardware is installed in the rack among the switches.
+Cisco expandable power system (XPS 2200)
+The XPS 2200 is the next-generation redundant power system, providing redundancy for up to eight Cisco Catalyst 9300 Series Switches as well as Cisco StackPower capability for up to eight 9300 Series switches.
+Modes of operation
+A StackPower Power Stack (Ring and Star) can be configured to operate in one of four different global modes, which effectively select the choices for two different criteria (non-strict mode and strict mode). Every switch in the Power Stack operates in the same mode as part of the stack. The modes of operation are:
+●Power-sharing mode (non-strict)
+●Power-sharing mode strict
+●Redundant mode (non-strict)
+●Redundant mode strict
+When a Power Stack is formed (via cable connections or when switches are booted), if there are conflicts amidst the switches and not all switches have the same Power Stack Mode in their configuration, precedence is given to Power Shared mode over Redundant mode, and Non-Strict mode has precedence over Strict.
+●In power-sharing mode (the default), all input power is available to be used for power loads. The total available power in all switches in the power stack (up to four) is treated as a single large power supply, with power available to all switches and to all powered devices connected to PoE ports. In this mode, the total available power is used for power budgeting decisions, and no power is reserved to accommodate power-supply failures. If a power supply fails, powered devices and switches could be shut down (load shedding).
+●In redundant mode, the power from the largest power supply in the system is subtracted from the power budget, reducing the total available power but providing backup power if a power supply fails. Although less power is available in the pool for switches and powered devices to draw from, this mode reduces the possibility of having to shut down switches or powered devices in case of a power failure or extreme power load.
+The following example illustrates the difference between these various modes:
+[![Power Stack of Four Switches.](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_9.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_9.png "Power Stack of Four Switches.")
+Figure 10. 
+Power Stack of Four Switches.
+Switches A, B, C, and D have the following configuration and power draw requirements:
+●The StackPower Ring itself requires a 30W Reserve budget.
+●Switch A requires 740W for full PoE and 248W to power its switch. Since it has only one 1100W power supply, there is an extra 152W of capacity added the to Unused power budget.
+●Switch B requires 240W for a 24 port non-PoE switch. Since it has only a 715W power supply, there is an extra 475W of capacity added to the Unused power budget.
+●Switch C requires 360W for 12W of PoE+ and 248W for the switch. Since it has an 1100W supply, there is an extra 1592W of capacity added to the Unused power budget.
+●Switch D requires 370W for Partial PoE and 248W for the switch. Since it has no power supplies, it will consume all of its power from the ring – drawing down the Unused power budget.
+Power shared Vs. Redundant budgeting modes:
+The default configuration is power-sharing mode nonstrict. Of course, you have the option of configuring strict mode, which would keep you from creating a negative power budget. The same is true for redundant mode.
+Take the example in Figure 10, in Power Share (non-redundant) Mode the budget is such that the Input Power is 3650W, the Allocated Power is 2444W, and therefore the Unused Power is 1206W.
+In the same configuration but in Redundant Mode, the budget is such that the Unused Power is now decreased by the 1100W Redundant Power, making it 106W.
+[![Power shared mode Vs. redundant mode](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_10.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_10.png "Power shared mode Vs. redundant mode")
+Figure 11. 
+Power shared mode Vs. redundant mode
+Strict Vs. Non-Strict Enforcement modes:
+You can configure the mode to run a strict power budget or a nonstrict power budget. In both modes, power is denied when no more power is available in the power budget.
+●In strict mode, when a power supply fails and the available power drops below the budgeted power, the system balances the budget through load shedding of powered devices, even if the actual power being consumed is less than the available power.
+●In nonstrict mode, the power stack is allowed to run in an overallocated state and is stable as long as the actual power does not exceed the available power. In this mode, a powered device drawing more than normal power could cause the power stack to start shedding loads. This situation is normally not a problem because most devices do not run at full power and the chances of multiple powered devices in the stack requiring maximum power at the same time is small.
+Taking again the example above in Figure 10, where the Actual Power is significantly less than what was Allocated (2444W v. 1330W). If, for example, both an 1100W and 715W supply failed, the Allocated Power figure of 2444W would exceed the Input Power mark of the remaining 2*1100W (2200W) Power supplies and the Power Stack would be operating “over budget.” Because the Actual Power is still 870W less than the Input Power from the power supplies, no hardware load sheds would be necessary in this case.
+However, if the Power Stack Mode is set to be Power Shared Strict or Redundant Strict (i.e., Strict Enforcement mode is enabled), then IOS Software will strictly enforce the power budgets and require that Allocated Power be equal to or less than Input Power, resulting in Load Shedding where power is taken away from sets of lowest priority PoE ports until the Allocated Power total is less than or equal to 2200W. Until there is budget again, PoE power will also be denied to any new PDs trying to classify, as well.
+In Power Shared and Redundant modes, (i.e., Non-Strict Enforcement), no action would be taken at all in this case, and the Power Stack would be allowed to run over-budget (more Allocated Power than Input Power, but less Actual than Input Power). The added risk in this scenario is that a hardware-triggered load shed is entirely possible based on nothing other than increases in PoE power consumption (i.e., Actual Power increases). This could happen if a bunch of users decided to pick up their phones and make phone calls at the same time, for example.
+It is assumed that, for most PoE SKUs, the Power Shared and Non-Strict Modes would be preferable since, especially with PoE PDs, the Allocated Power will be significantly greater than the Actual Power and, therefore, it may be likely that a failure would not require load shedding even in this most aggressive mode. However, each customer should analyze their particular situation to find the right balance between energy efficiency, TCO, and resiliency/redundancy.
+You configure power modes at a power-stack level (that is, the mode is the same for all switches in the power stack).
+You can also configure a switch connected in a power stack to not participate in the power stack by setting the switch to standalone power mode using the command below. This mode shuts down both Cisco StackPower ports.
+9300-STACK#conf t
+Enter configuration commands, one per line. End with CNTL/Z.
+9300-STACK(config)#
+9300-STACK(config)#stack-power switch 1
+9300-STACK(config-switch-stackpower)#standalone
+Intelligent load shedding
+The Cisco StackPower feature enables intelligent management of not only the power resources of a stack but also power failures.
+Load shedding is the process of shutting down devices if a power supply, cable, or system fails. For power stacks in power-sharing mode, there are two types of load shedding: immediate and graceful.
+●Immediate load shedding occurs when a failure could cause the power stack to fail very quickly, for example, a massive power failure in which multiple power supplies go offline for any reason and the available power cannot sustain the system.
+●Graceful load shedding can occur when a power supply fails and forces the power stack to reevaluate its power allocations. Switches and powered devices may shut down in order of their default or configured priority, starting with devices with priority 27, until the power budget matches the input power.
+Graceful load shedding is always enabled, and immediate load shedding occurs only when necessary.
+Notes on load shedding:
+●The method (immediate or graceful) is not user configurable but is based on the power budget.
+●Immediate load shedding also occurs in the order of configured priority, but it occurs very quickly to prevent hardware damage caused by loss of power.
+●If a switch is shut down because of load shedding, the output of the show stack-power detail privileged EXEC command still includes the MAC address of the shut-down switch as a neighbor switch, even though the switch is down. This command output shows the Cisco StackPower topology, even if there is not enough power to power up a switch.
+What is a balanced power stack? A balanced power stack is one that has a positive power budget; in other words, the available power is equal to or greater than the allocated power.
+Balanced power budget: Available power > Allocated power
+When a power stack suffers a power-supply failure, the available power budget drops, and if “strict” power-sharing mode has not been configured, the result is a negative power budget, causing the system to become unbalanced.
+Negative power budget: Available power < Allocated power
+If the allocated power is not currently being consumed, nothing would happen other than Cisco IOS XE Software messages appearing on the console, but as soon as PoE devices demand the allocated power, the system will start a load-shedding process until the power budget is balanced again.
+The design of the Cisco Catalyst 9300 Series Switches includes hardware to assign a priority to every port in the switch. This hardware allows us to tag ports for high and low priorities, which are set by default but can be programmed by the administrator. These priorities are used only when the switch or the stack needs to shed power to bring the system back into balance. Cisco IOS Software will generate plenty of console messages to inform the administrator about the situation.
+Priority scheme
+Cisco StackPower has a priority scheme that covers up to eight switches in a data stack and all of the ports in the entire stack.
+Priorities are set by default when the power stack gets created, but you can configure the priority in which a switch or powered device receives power (Figure 14). This priority determines the order in which devices are shut down if a power shortage occurs and graceful load shedding takes place. You can configure three priorities per system: the system (or switch) priority, the priority of the high-priority PoE ports on a switch, and the priority of the low-priority PoE ports on a switch.
+You can set port priority at the interface level for powered devices connected to a PoE port. By default, all ports are low priority.
+The Cisco Catalyst 9300 Series has the capability to create two groups of ports, high priority and low priority (Figure 14). High-priority ports are those connected to more important or critical powered devices and are preferred to retain inline PoE power in case of a power shortage. Cisco StackPower technology or the administrator assigns a priority level to those groups of ports.
+You can configure the priority values of each switch in the power stack and all high- and low-priority ports on that switch to set the order in which switches and ports are shut down when power is lost and load shedding must occur. Priority values are from 1 to 27; switches and ports with the highest values are shut down first (Figure 15).
+Switch priority, high port priority, and low port priority can be manually configured using the following commands.
+**9300-STACK#conf t**
+Enter configuration commands, one per line. End with CNTL/Z.
+9300-STACK(config)#stack-power switch 3
+9300-STACK(config-switch-stackpower)#power-priority switch 3
+9300-STACK(config-switch-stackpower)#power-priority high 10
+9300-STACK(config-switch-stackpower)#power-priority low 20
+9300-STACK(config)#end
+Any interface can be grouped into either a high priority or low priority using the following command at the interface level
+9300-STACK(config)#int GigabitEthernet1/0/1
+9300-STACK(config-if)#power inline port priority ?
+high high prority port
+low low prority port
+On any switch, the switch priority value must be lower than the port priority values, and the high-priority value must be set lower than the low-priority value. We recommend that you configure a different priority value for each switch and for its high- and low-priority ports. This configuration limits the number of devices shut down at one time during a loss of power. If you try to configure the same priority value on different switches in a power stack, the configuration is allowed, but you will receive a warning message.
+The default priority ranges, if none are configured, are 1 to 9 for switches, 10 to 18 for high-priority ports, and 19 to 27 for low-priority ports.
+[![Default Cisco StackPower priorities](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_11.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_11.png "Default Cisco StackPower priorities")
+Figure 12. 
+Default Cisco StackPower priorities
+Figure 12 shows the default priorities that Cisco StackPower technology uses and that an administrator can overwrite. As an example, a power stack can assign priority 2 to switch A, priority 10 to high-priority ports, and priority 20 to low-priority ports. Each switch in the stack will have a different priority set for the switch, the high-priority ports, and the low-priority ports, respectively. The priority levels are not repeated on any switch or port. In other words, if load shedding is required on switch A with priority level 10 for its high-priority ports, all other switches in the stack will have to shed their low-priority ports (priority 19 to 27) and their high-priority ports (priority 11 to 18) before switch A has to shed PoE power on its high-priority ports, because it has the highest priority level (10) for its high-priority ports.
+[![Load shed sequence](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_12.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_12.png "Load shed sequence")
+Figure 13. 
+Load shed sequence
+Cisco IOS XE Software can monitor administrator priority settings to make sure that a high-priority port in switch A cannot have a lower priority level than a low-priority port on another switch in the stack.
+As an administrator you can select any priority level for your switches and devices, as long as you keep the hierarchy of the switches, high-priority ports, and low-priority ports in such a way that a high-priority port will not be shed before a low-priority port.
+Best practices
+Cisco StackPower is an innovative technology that allows for the flexible and efficient use of the power resources in a stack of switches. Such an orchestration of hardware capabilities, resources, and features requires us to follow certain practices to ensure the proper and best use of this technology.
+We recommend that you:
+●**Balance the power stack:** To ensure that a severely Input/Load Imbalanced Power Stack is not created, ensure the following rules are followed:
+a. **Available v. Allocated power:** Make sure that the load off any single system is no more than 1000W over the amount of Input Power locally deployed in that system. For example, if a System in a Ring has a 350W power supply, then the load at that system should be no more than 1350W (e.g., 223W for the Switch and 1127W PoE).
+b. **Input Supplies: Install one in all before two in any.** In other words, never have two power supply slots filled in any system before you have at least one supply in all the systems of a Power Stack. Another easy way to remember it is to fill all of the “A” slots before you fill any of the “B” slots.
+Power-supply slots are named left to right; that is, power-supply slot A is on the left and power-supply slot B is on the right (closest to the edge of the switch).
+Following these simple rules allows for deployments that mitigate what would otherwise be unnecessary load shedding. That is to say, not following these rules could lead to deployments where, for example, a single cable cut could cause load shedding that would otherwise not occur. It also eliminates any case where simple load imbalances (without any equipment failures) would cause load shedding.
+As can be seen in Figure 14, that if these rules are not followed, pathologically unbalanced cases can be created where, for example, the switches on the right side have little Input Power but large Actual Power, whereas the switches on the left side have little Actual Power but large amounts of Input Power. During normal operation this would be fine – about 30A would flow through both the top and the bottom cable, equally. However, if a failure occurs that disables the top cable, 60A would be required to flow through the single bottom StackPower cable, when the cables are safety rated to carry only 55A in the worst-case. The StackPower circuitry would quickly detect this overcurrent and load shed so as to remain safe. By following the rules above this scenario would not be possible – as it violates both1a and 1b.
+[![Unbalanced power stack](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_13.png)](https://www.cisco.com/c/dam/en/us/products/collateral/switches/catalyst-9300-series-switches/white-paper-c11-741945.docx/_jcr_content/renditions/white-paper-c11-741945_13.png "Unbalanced power stack")
+Figure 14. 
+Unbalanced power stack
+●Do not configure power stacks that span across data stacks.
+Cisco StackPower is limited to four switches per power stack, although one data stack of eight switches can be configured over multiple power stacks; this is a supported deployment. A Data Stack of Eight switches can be deployed as two power stacks of four switches.
+●Configure strict modes and do not allow the power stack’s available power budget to go negative. Strict mode is not the default for the power sharing or redundant modes, but we recommend that you configure strict mode to force the system to shed loads as soon as the power budget falls below the allocated power, even if the power is not needed at that precise moment.
+●Changing Cisco StackPower modes is possible without reloading the Power Stack. There is no need to reload either the Power Stack or any of its members; nonetheless caution must be exercised when deciding to switch from Power-Sharing Mode to Redundant Mode. The reason is that although the power budget may be sufficient to sustain the power stack in power-sharing mode, it may not be enough to support redundant mode, which requires enough extra power in the budget to equal the largest power supply in the power stack. An insufficient power budget will cause a load shed of PoE devices and even switches in the power stack.
+We recommend first calculating the required power in the power stack and adding the amount of power to be reserved (the size of the largest power supply in the power stack) and comparing the requirement with the available power in the power stack.
+●Taking power supplies offline is supported but is not automatic. Cisco IOS XE has the necessary commands to manage the power supplies, and administrator intervention is required due to the multiple use cases that can be derived. Cisco IOS XE has multiple warning messages to prevent an unbalanced power stack.
+We recommend analyzing the deployment to make sure that turning off a power supply will not break any of the rules or recommendations stated earlier, such as filling in slot A of each switch in the stack before installing a power supply in slot B. Turning off a power supply would have an effect similar to removing the power supply.
 ### Our experts recommend
-  * [Cisco Catalyst 9000 Licensing White Paper](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9000-series-switches/catalyst-9000-licensing-wp.html "Cisco Catalyst 9000 Licensing White Paper")
   * [Support for Precision Time Protocol on Cisco Catalyst Switches FAQ](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-pte-cat-switches-faq-cte-en.html "Support for Precision Time Protocol on Cisco Catalyst Switches FAQ")
 
 
