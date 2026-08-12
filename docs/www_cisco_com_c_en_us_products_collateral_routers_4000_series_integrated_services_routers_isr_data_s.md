@@ -1,26 +1,26 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-612808.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-612808.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-612808.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
-  * [Products and Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
   * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
   * [Support](https://www.cisco.com/c/en/us/support/index.html)
-  * [Learn](https://www.cisco.com/c/en/us/training-events.html)
-  * [Explore Cisco](https://www.cisco.com/c/en/us/about/sitemap.html)
-  * [How to Buy](https://www.cisco.com/c/en/us/buy.html)
-  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html?dtid=odicdc001129)
-  * [Partner Program](https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html?ccid=cc000864&dtid=odiprc001129)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
   * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
-  * [Tools](https://www.cisco.com/site/us/en/partners/tools/index.html?dtid=odiprc001129)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
   * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
-  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html?ccid=cc000864&dtid=odiprc001129)
-  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html?dtid=odicdc001129)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html)
-  * [...](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-612808.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-612808.html)Show All Breadcrumbs
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Routers](https://www.cisco.com/c/en/us/products/routers/index.html)
   * [Branch Routers](https://www.cisco.com/c/en/us/products/routers/branch-routers/index.html)
@@ -29,251 +29,300 @@
   * [Data Sheets](https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/datasheet-listing.html)
 
 
-# Cisco Packet Voice Digital Signal Processor Modules (PVDMs) for Cisco Unified Communications Solutions
-Data Sheet
+# Cisco 4-Port, 8-Port, and 8-Port with PoE/PoE+ Gigabit Ethernet LAN Switch Network Interface Modules Data Sheet
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html)
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-612808.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-612808.html)
 Download
 Print
 ### Available Languages
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-612808.html)
 
 
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.pdf) (602.0 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-612808.pdf) (533.9 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:November 23, 2020
+Updated:November 30, 2017
+Document ID:1512102181589189
 Bias-Free Language
 ### Bias-Free Language
-The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/c/en/us/about/social-justice/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
-Contact Cisco
-  * Contact Cisco
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+Product Overview
+The 4- and 8-port Cisco® Gigabit Ethernet LAN Switch Network Interface Modules (NIMs) can reduce your company's total cost of ownership (TCO) by integrating Gigabit Ethernet switch ports within Cisco 4000 Series Integrated Services Routers (ISRs). These low-density Gigabit Ethernet switches offer small to medium-sized businesses and enterprise branch offices a combination of switching and routing integrated into a single device (Figure 1).
+Integration of these switches with Cisco IOS-XE Software allows network administrators to manage a single device using Cisco management tools or the router command-line interface (CLI) for LAN and WAN management needs. This approach reduces network complexity, lowers maintenance contract costs, and lessens staff training needs. It also simplifies software qualification efforts and delivers a consistent user experience at branch offices. Additionally, these low-density Gigabit Ethernet switching modules enable Cisco's industry-leading power initiatives, including per-port Power over Ethernet (PoE) and Power over Ethernet Plus (PoE+) power monitoring, which enhances the ability of the branch office to scale to higher performance requirements and still meet environmental initiatives for IT teams to operate a power-efficient network.
+The 4- and 8-port Gigabit Ethernet LAN Switch NIMs provide line-rate Layer 2 switching across onboard Gigabit Ethernet ports. The 4-port NIM has four 10/100/1000 switched Gigabit Ethernet ports. The 8-port NIM has eight 10/100/1000 switched Gigabit Ethernet ports, with a PoE/PoE+ version capable of powering all eight ports. The NIMs furthermore enable direct module-to-module communication through the use of the multigigabit fabric (MGF).
+The new features for the Gigabit Ethernet LAN Switch NIMs include four quality-of-service (QoS) queues per port, Shaped Deficit Weighted Round Robin (SDWRR), dynamic secure port, intra chassis cascading, up to 30W of PoE/PoE+ per port, and PoE per-port monitoring and policing.
+**Figure 1.** 4-Port, 8-Port, and 8-Port PoE/PoE+ Cisco Gigabit Ethernet LAN Switch Network Interface Modules 
+[![C78-612808-07_Figure01](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-612808.doc/_jcr_content/renditions/data_sheet_c78-612808_0.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-612808.doc/_jcr_content/renditions/data_sheet_c78-612808_0.jpg "C78-612808-07_Figure01")
+Secure Network Connectivity for Data, Voice, and Video
+When inserted in a Cisco 4000 Series ISR, the Gigabit Ethernet LAN Switch NIMs provide a fully integrated, highly secure networking and converged IP communications solution. From a single platform with an integrated switch, you can connect IP phones, wireless access points, and IP-based video cameras to your network and power them using IEEE 802.3af (PoE) and 802.3at (PoE+). With the optional integration of Cisco Unified Communications Manager Express, the router can also provide call processing for the phones. As users attempt network access, the NIMs can use IEEE 802.1X to validate the credentials of the end device and place the user in the appropriate VLAN.
+Features and Benefits
+The Gigabit Ethernet LAN Switch NIMs provide increased performance levels, enhanced per-port security, and ease of configuration. In addition, with intermodule cascading capabilities, they allow for port expandability over time.
+Table 1 lists some important business benefits of deploying an integrated switching solution.
+**Table 1.** Business Benefits  
+|  Customer Needs  |  How Addressed by Cisco NIMs  |  
+| --- | --- |  
+|  Total Cost of Ownership  |  
+|  ●Scaled network infrastructure across multiple sites  ●Decreased costs of operating multiple devices at the branch office  ●Optimized IT resources   |  ●An integrated switch solution lowers operating costs, simplifies troubleshooting, and enables businesses to scale.  ●One vendor also means one support center, eliminating blaming among vendors, thereby reducing troubleshooting time.  ●Cisco Smart Net Total Care™ support covers both ISRs and Cisco EtherSwitch® devices.   |  
+|  Ease of Management  |  
+|  ●Reduced network complexity and simplified branch-office router management  ●Single administration and configuration of LAN and WAN policies   |  ●Integrated switches allow simplified configuration and management.  ●CiscoWorks LAN Management Solution (LMS), Remote Monitoring (RMON1 and RMON2), and standards-based MIBs support provides configuration as well as detailed reporting and troubleshooting capabilities.  ●Simple Network Management Protocol Versions 1, 2, and 3 (SNMPv1, v2, and v3) offer comprehensive in-band management, and a CLI management console provides detailed out-of-band management.  ●The management interface uses standard SNMP or Secure Sockets Layer (SSL) to integrate Cisco and third-party management systems.   |  
+|  Green IT  |  
+|  ●Single power supply for Cisco EtherSwitch device and router   |  ●These switches provide two to eight times lower power consumption than standalone switches.  ●Because no additional rack space or power supply is needed, there is less to rack, stack, and cool.   |  
+Power over Ethernet
+Although PoE has been employed for more than a decade, the technology is still evolving. New and innovative applications continue to raise power requirements. The Cisco Gigabit Ethernet LAN Switch NIMs take advantage of the increased power capabilities of the Cisco 4000 Series ISRs. Table 9 provides information about total PoE (802.3af) and PoE+ (802.3at) power output per platform. Depending on the ISR platform type, total available power offered to PoE devices by the NIMs ranges from 120W to 500W. 
+Additional PoE features include the following:
+●Per-port power consumption control allows you to specify a maximum power setting on an individual port.
+●Per-port PoE power sensing measures the actual power being drawn, enabling more intelligent control of powered devices.
+●The Cisco PoE MIBs provide proactive visibility into power usage and allow you to set different power-level thresholds.
+●Cisco Discovery Protocol Version 2 allows the NIMs to negotiate a more granular power setting than the IEEE classification provides when connecting to Cisco devices such as IP phones or access points.
+Multigigabit Fabric
+The LAN switch NIMs have a gigabit connection to the MGF and transparently integrate into the system. Connecting over the MGF enables the NIM to directly communicate with other MGF-enabled modules in the system without involving the router’s forwarding architecture (Figure 2). Throughput for direct module-to-module traffic using the MGF will thereby not be limited by the platform’s performance license levels. Layer 2 switching of packets is thus done at the full Gigabit Ethernet line rate, either local to each LAN switch NIM or when transferring the MGF with multiple MGF-enabled modules installed in the system; module-to-module MGF traffic throughput is limited to 1 Gbps.
+**Figure 2.** Direct Module-to-Module Connection Without Involving CPU 
+[![C78-612808-07_Figure02](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-612808.doc/_jcr_content/renditions/data_sheet_c78-612808_1.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-612808.doc/_jcr_content/renditions/data_sheet_c78-612808_1.jpg "C78-612808-07_Figure02")
+Applications
+Small and Medium-Sized Branch Offices
+The Cisco Gigabit Ethernet LAN Switch NIMs in a small to medium-sized enterprise branch-office data deployment scenario provide the flexibility of integrated routing and switching functions in one device. This scenario allows the deployment of high-speed connections between individual network resources such as client desktops, servers, IP phones, wireless access points, and video devices from a single device and at the same time allows for WAN connectivity at Layer 3 through the router.
+When deployed in a unified communications environment, the 4- or 8-port NIMs transparently interoperate with analog or digital time-division multiplexing (TDM) voice gateway modules and Cisco Unified Communications Manager Express IP Telephony, Cisco Survivable Remote Site Telephony (SRST), or Cisco Unified Border Element solutions.
+The 8-port NIM with optional PoE/PoE+ provides power and phone discovery for IP phones. In addition, the NIMs support separate VLAN configuration for IP phones. The auxiliary VLAN feature allows network administrators to segment phones into separate logical networks, even though the data and voice infrastructures are physically the same. The phone discovery feature allows the 4-port and 8-port NIMs to automatically detect the presence of an IP phone; the 8-port NIM with PoE/PoE+ will supply power to it.
+Features and Benefits
+Table 2 provides an overview of the architecture, features, and benefits of the 4-port and 8-port Cisco Gigabit Ethernet LAN Switch NIMs, Table 3 lists other features of the new NIMs, and Table 4 lists the maximum number of VLANs supported per platform.
+**Table 2.** Architecture, Features, and Benefits  
+|  Feature  |  Benefit  |  
+| --- | --- |  
+|  4 or 8 10/100/1000BASE-TX ports  |  ●The switches offer line-rate forwarding for Layer 2 traffic on each port.   |  
+|  Autosensing, autonegotiation, and Automatic Media-Dependent Interface Crossed Over (Auto-MDIX)  |  ●Autosensing allows the switch to detect the speed of the attached device and automatically configure the port for 10-, 100-, or 1000-Mbps operation.  ●Autonegotiation allows the switch to automatically select half- or full-duplex transmission mode to optimize bandwidth on all the ports of the NIM.  ●Auto-MDIX allows the switch to automatically detect cable type (straight-through vs. crossover) between an attached device and the switch port.   |  
+|  Integrated switching  |  ●Integrated switching provides fewer points of management for remote and small branch offices.   |  
+|  Intrachassis stacking or cascading  |  ●Grouping LAN switch NIMs together is called cascading. The NIMs are capable of cascading on all Cisco 4000 Series ISRs using the internal MGF.  ●Cascading of multiple LAN switch NIMs over the MGF allows multiple NIMs to behave as a single switch.  ●Layer 2 switching of packets can be internal to each LAN switch NIM, or they can go through the MGF when multiple LAN switch NIMs in the system are acting as a unified switch. The router CPU is not involved in this operation.   |  
+|  IEEE 802.1P QoS (Traffic Prioritization)  |  ●This feature supports QoS based on the IEEE 802.1P class of service (CoS) and port-based prioritization, allowing the switch to change the CoS settings of tagged packets on a per-port basis.  ●Each port has four QoS queues. Strict priority is enforced by default. The routers support SDWRR with configurable weight on each queue.   |  
+|  802.1Q Trunking  |  ●This feature provides an industry wide VLAN tagging standard, allowing for trunks also to be set up to third-party devices.   |  
+|  802.1D Spanning Tree Protocol  |  ●This industry-standard link layer network protocol helps ensure a loop-free topology between Layer 2 devices regardless of vendor. IEEE 802.1D Spanning Tree Protocol is turned off by default.   |  
+|  Voice VLAN (VVLAN)  |  ●VVLANs enable Cisco IP phones to place voice and data in their own separate VLANs. The NIM switch port is manually configured as a trunk port to support voice and data VLANs on the same port. The switch then uses Cisco Discovery Protocol to dynamically configure the Cisco IP phones.   |  
+|  IEEE 802.1X authentication  |  ●Support for 802.1X port-based authentication, single/multiple host mode, guest VLAN, MAC Authentication Bypass (MAB), restricted VLAN, critical VLAN, and dynamic VLAN.   |  
+|  PoE+ (option)  |  ●Cisco Gigabit Ethernet technology with the appropriate PoE+ module and internal power supply can power Cisco IP phones and wireless access points. Support is provided for both IEEE 802.3af (PoE) and IEEE802.3at (POE+).   |  
+|  IP Multicast management support  |  ●The routers provide Internet Group Management Protocol (IGMP) Snooping in hardware for management support.   |  
+|  SNMP management  |  ●SNMP allows management of the MIB through a MIB browser.   |  
+|  Cisco IOS® Software CLI   |  ●This feature provides configuration through the Cisco IOS Software CLI and provides a common user interface for all the router functions.   |  
+|  CiscoWorks support  |  ●CiscoWorks network management software enables management on a per-port and per-switch basis, providing a common management interface for Cisco routers, switches, and hubs.  ●SNMPv1, v2, and v3 (noncryptographic) and Telnet interface support delivers comprehensive in-band management, and a CLI management console provides detailed out-of-band management.  ●Cisco Discovery Protocol Versions 1 and 2 enable a CiscoWorks network management station to automatically discover the switch in a network topology.  ●Support is provided by the CiscoWorks LAN Management Solution.   |  
+|  Cisco Discovery Protocol Versions 1 and 2  |  ●This protocol enables a CiscoWorks network management station to automatically discover the switch in a network topology.   |  
+|  Cisco VLAN Trunking Protocol   
+(VTP; client, server, and transparent modes)  |  ●Cisco VTP supports dynamic VLAN configuration across Cisco switches.   |  
+|  Cisco Configuration Professional -based configuration and device management   |  ●This feature simplifies initial configuration of a switch through a web-based GUI, eliminating the need for more complex terminal emulation programs and CLI knowledge.  ●Cisco Discovery Protocol reduces the cost of deployment by helping less-skilled personnel set up switches quickly and simply.   |  
+|  Status-indicator LEDs  |  ●Two LEDs per port provide visual indication of the switch-port status and PoE status.   |  
+**Table 3.** New Features  
+|  Feature  |  LAN Switch NIM  |  New Feature  |  
+| --- | --- | --- |  
+|  10/100/1000BASE-TX  |  ü  |  ü  |  
+|  IEEE 02.1Q Trunking  |  ü  |   |  
+|  IEEE 802.1D Spanning Tree  |  ü  |   |  
+|  Static and dynamic MAC address learning  |  ü  |   |  
+|  IEEE 802.1X port-based and multiple supplicant  |  ü  |   |  
+|  PoE (15.4W)  |  ü  |   |  
+|  PoE+ (30W)  |  ü  |  ü  |  
+|  IEEE 802.1u (guest VLAN)  |  ü  |   |  
+|  IEEE 802.1s Multiple Spanning Tree (MST)  |  ü  |   |  
+|  IEEE 802.1w Rapid Spanning Tree Protocol (RSTP)  |  ü  |   |  
+|  IGMP Snooping  |  ü  |   |  
+|  Auxiliary VLANS  |  ü  |   |  
+|  Maximum number of VLANs supported   |  60  |  ü  |  
+|  Maximum number of VLAN IDs   |  4094  |   |  
+|  SDWRR and fixed scheduling  |  ü  |  ü  |  
+|  4 QoS queues per port  |  ü  |  ü  |  
+|  IEEE 802.1p for 802.1q tagged packets  |  ü  |   |  
+|  Port-based priority for untagged packets  |  ü  |   |  
+|  Priority override  |  ü  |   |  
+|  Switched Port Analyzer (SPAN)  |  ü  |   |  
+|  SPAN across multiple NIMs  |  Not supported  |  Not supported  |  
+|  Number of Spanning Tree Protocol instances  |  1 per VLAN (60 maximum)  |   |  
+|  Per-port storm control  |  Not supported  |   |  
+|  MAC notification  |  ü  |   |  
+|  Dynamic secure port  |  Not supported  |   |  
+|  Secure port filtering (port security)  |  Not supported  |   |  
+|  Intrachassis cascading (no external link between NIM cards)  |  ü  |  ü  |  
+|  Private VLAN edge (protected port)  |  ü  |  ü  |  
+|  Protected port (across multiple NIMs)  |  ü  |  ü  |  
+|  Bridge protocol data unit (BPDU) guard  |  ü  |   |  
+|  PortFast  |  ü  |   |  
+|  Jumbo Frames  |  ü  |   |  
+|  VTP (client, server, and transparent modes)  |  ü  |   |  
+|  Per-VLAN Spanning Tree (PVST)  |  ü  |   |  
+|  Per-port power monitoring and policing  |  ü  |  ü  |  
+|  Hot Standby Router Protocol (HSRP), Virtual Router Redundancy Protocol (VRRP), and Gateway Load Balancing Protocol (GLBP) on VLAN interfaces  |  ü  |  ü  |  
+|  MGF integration  |  ü  |   |  
+|  CiscoWorks LAN Management Solution (LMS)  |  ü  |   |  
+|  RMON support  |  ü  |   |  
+|  Auto-MDIX  |  ü  |   |  
+|  Cisco EtherChannel technology  |  Not supported  |   |  
+**Table 4.** Maximum Number of VLANs Supported per Platform  
+|  Platform  |  Maximum Number of VLANs  |  
+| --- | --- |  
+|  Cisco 4221 ISR  |  60  |  
+|  Cisco 4321 ISR  |  60  |  
+|  Cisco 4331 ISR  |  60  |  
+|  Cisco 4351 ISR  |  60  |  
+|  Cisco 4431 ISR  |  60  |  
+|  Cisco 4451 ISR  |  60  |  
+Table 5 lists the PoE power-supply options for the Cisco 4000 Series routers.
+**Table 5.** Cisco 4000 Series ISRs PoE Power-Supply Product Numbers  
+|  Product Number  |  Description  |  
+| --- | --- |  
+|  PWR-4320-POE-AC=  |  Cisco 4321 PoE Power Supply  |  
+|  PWR-4330-POE-AC=  |  Cisco 4331 PoE Power Supply  |  
+|  PWR-4450-POE-AC=  |  Cisco 4351 PoE Power Supply  |  
+|  PWR-4430-POE-AC=  |  Cisco 4431 PoE Power Supply  |  
+|  PWR-4430-POE-AC/2=  |  Cisco 4431 PoE Power Supply (Redundant)  |  
+|  PWR-4450-POE-AC=  |  Cisco 4451 PoE Power Supply  |  
+|  PWR-4450-POE-AC/2=  |  Cisco 4451 PoE Power Supply (Redundant)  |  
+Platform Support
+Table 6 lists the platforms that support the new 4-port and 8-port Cisco Gigabit Ethernet LAN Switch NIMs.
+**Table 6.** Platform Maximum Support for the 4- and 8-port Cisco Gigabit Ethernet LAN Switch NIMs  
+|   |  Cisco 4221  |  Cisco 4321  |  Cisco 4331  |  Cisco 4351  |  Cisco 4431  |  Cisco 4451  |  
+| --- | --- | --- | --- | --- | --- | --- |  
+|  4-port non-PoE  |  2  |  2  |  2  |  3  |  3  |  3  |  
+|  8-port non-PoE  |  2  |  2  |  2  |  3  |  3  |  3  |  
+|  8-port PoE  |  NA  |  2  |  2  |  3  |  3  |  3  |  
+|  Maximum number of non-PoE ports  |  2 x 8  |  16  |  16  |  24  |  24  |  24  |  
+|  Maximum number of PoE ports at 30W in normal mode  |  NA  |  3  |  8  |  16  |  8  |  16  |  
+|  Maximum number of ports running at 30W in boost mode  |  NA  |  NA  |  NA  |  NA  |  16  |  33  |  
+Summary and Conclusion
+As companies strive to lower the costs of operation and at the same time increase productivity of their workforce by using network applications, higher-speed integrated branch-office solutions are required.
+The Cisco Gigabit Ethernet LAN Switch NIMs enable a high level of performance as well as POE+ capabilities. Other benefits are advanced Layer 2 switching features for data and IP communications, easy expandability, and simplified branch-office router management.
+Specifications
+Table 7 gives the technical specifications of the 4-port and 8-port NIMs.
+**Table 7.** Technical Specifications for the 4- Port (NIM-ES2-4) and 8-Port (NIM-ES2-8 and NIM-ES2-8-P) Cisco Gigabit Ethernet LAN Switch NIMs  
+|  Parameter  |  Specification  |  
+| --- | --- |  
+|  Form factor  |  ●NIM-ES2-4: Single-wide NIM form factor  ●NIM-ES2-8: Single-wide NIM form factor  ●NIM-ES2-8-P: Single-wide NIM form factor   |  
+|  Dimensions (H x W x D)  |  ●NIM-ES2-4: 0.8 x 3.1 x 4.8 in. (2.1 x 7.9 x 12.2 cm)  ●NIM-ES2-8: 0.8 x 6.2 x 4.8 in. (2.1 x 18.8 x 12.2 cm)  ●NIM-ES2-8-P: 0.8 x 6.2 x 4.8 in. (2.1 x 18.8 x 12.2 cm)   |  
+|  Weight  |  ●NIM-ES2-4: 79g (0.17 lb)  ●NIM-ES2-8: 108g (0.24 lb)  ●NIM-ES2-8-P: 149g (0.33 lb)   |  
+|  Standards  |  
+|  IEEE protocols  |  ●Gigabit Ethernet: IEEE 802.3 and 10BASE-T  ●Gigabit Ethernet: IEEE 802.3u, 100BASE-TX, and 1000BASE-TX  ●IEEE 802.1d Spanning Tree Protocol  ●IEEE 802.1p CoS for Traffic Prioritization  ●IEEE 802.1q VLAN  ●IEEE 802.1X Security  ●IEEE 802.3x Full Duplex  ●IEEE 802.3af Power over Gigabit Ethernet Standard   |  
+|  RFC  |  RFC 2284, PPP Extensible Authentication Protocol (EAP)  |  
+|  MIBs  |  ●RFC 1213  ●IF MIB  ●RFC 2037 ENTITY MIB  ●CISCO-CDP-MIB  ●CISCO-IMAGE-MIB  ●CISCO-FLASH-MIB  ●OLD-CISCO-CHASSIS-MIB  ●CISCO-VTP-MIB  ●CISCO-HSRP-MIB  ●OLD-CISCO-TS-MIB  ●CISCO-ENTITY-ASSET-MIB  ●CISCO-ENTITY-FRU-CONTROL-MIB  ●BRIDGE MIB (RFC 1493)   |  ●CISCO-VLAN-MEMBERSHIP-MIB  ●CISCO-VLAN-IFINDEX-RELATIONSHIP-MIB  ●RMON1-MIB  ●PIM-MIB  ●CISCO-STP-EXTENSIONS-MIB  ●OSPF MIB (RFC 1253)  ●IPMROUTE-MIB  ●CISCO-MEMORY-POOL-MIB  ●ETHER-LIKE-MIB (RFC 1643)  ●CISCO-ENTITY-FRU-CONTROL-MIB.my  ●CISCO-RTTMON-MIB  ●CISCO-PROCESS-MIB  ●CISCO-COPS-CLIENT-MIB   |  
+|   |  To obtain lists of supported MIBs by platform and Cisco IOS Software release, and to download MIB modules, go to the Cisco MIB website on Cisco.com at: [http://www.cisco.com/public/sw-center/netmgmt/cmtk/mibs.shtml](https://www.cisco.com/public/sw-center/netmgmt/cmtk/mibs.shtml).  |  
+|  Manageability  |  ●SNMP and Telnet interface support delivers comprehensive in-band management, and a CLI management console provides detailed out-of-band management.  ●An embedded RMON software agent supports four RMON groups (history, statistics, alarms, and events) for enhanced traffic management, monitoring, and analysis.  ●A SPAN port can mirror traffic from one or many ports to another port for monitoring all eight RMON groups with an RMON probe or network analyzer.  ●Trivial File Transfer Protocol (TFTP) reduces the cost of administering software upgrades by downloading from a centralized location.  ●Two LEDs per port provide convenient visual indication of the port link and PoE status.  ●Crash information support enables a switch to generate a crash file for improved troubleshooting.  ●Show-interface capabilities provide information about the configuration capabilities of any interface.   |  
+|  Connectors and cabling  |  ●10BASE-T ports: RJ-45 connectors, two-pair Category 3, 4, or 5 unshielded twisted pair (UTP) cabling  ●100BASE-TX ports: RJ-45 connectors; two-pair Category 5 UTP cabling  ●1000BASE-TX ports: RJ-45 connectors; two-pair Category 5e and Category 6 UTP cabling   |  
+|  LED indicators  |  ●Link status LED: One LED per port for indicating link status  ●PoE LED: One LED per port system for PoE status indication   |  
+|  Power Requirements  |  
+|  Internal power supply  |  Optional PoE system power supply available for all Cisco 4000 Series routers  |  
+|  Internal redundant power supply  |  For the Cisco 4431 and 4451 routers only  |  
+|  DC power support  |  ●DC system power input available on the Cisco 4351, 4431, and 4451 routers  ●PoE option not available with DC system power input   |  
+|  Software support  |  Minimum Cisco IOS-XE Software Release 3.15 for Cisco 4000 Series routers: IP Base License of the Universal image  |  
+|  Environmental  |  
+|  Operating temperature  |  32° to 104°F (0° to 40°C)   |  
+|  Operating humidity  |  10 to 90 percent, noncondensing  |  
+|  Nonoperating temperature  |  -4° to 149°F (-20° to 65°C)  |  
+|  Operating altitude  |  15,000 ft (4,570m)  |  
+|  Regulatory compliance, safety, and EMC  |  When installed in a Cisco 4000 Series router, the Cisco Gigabit Ethernet LAN Switch NIM meets the standards (regulatory compliance, safety, and EMC) of the router itself. Refer to the data sheets for the Cisco 4000 Series routers for more details.  |  
+Cisco 4000 Series Router Modes of Operation
+Table 8 describes the modes of operation for the Cisco 4000 Series routers, and Table 9 gives the power output of the routers.
+**Table 8.** Modes of Operation   
+|  Mode  |  Description  |  
+| --- | --- |  
+|  Normal  |  One PoE power supply  |  
+|  Redundant  |  Two PoE internal power supplies (Cisco 4431 and 4451) for 3 PoE NIMs  |  
+**Table 9.** Power Output   
+|   |  Cisco 4451  |  Cisco 4431  |  Cisco 4351  |  Cisco 4331  |  Cisco 4321  |  
+| --- | --- | --- | --- | --- | --- |  
+|  Normal PoE with single PoE power supply (watts)  |  500  |  250  |  500  |  250  |  110  |  
+|  Maximum number of ports running at 15.4W in normal mode  |  32  |  16  |  32  |  16  |  7  |  
+|  Maximum number of ports running at 20W in normal mode  |  25  |  12  |  25  |  12  |  5  |  
+|  Maximum power with dual PoE supplies in boost mode (watts)   |  1000  |  500  |  NA  |  NA  |  NA  |  
+|  Maximum number of ports running at 15.4W in boost mode  |  64  |  32  |   |   |   |  
+|  Maximum number of ports running at 20W in boost mode  |  50  |  25  |   |   |   |  
+Ordering Information
+To place an order, visit the [Cisco Ordering Home Page](https://www.cisco.com/en/US/ordering/or13/or8/order_customer_help_how_to_order_listing.html) and refer to Table 10.
+For more information about the Cisco 4000 Series routers, visit:   
+[http://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/index.html](https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/index.html).
+**Table 10.** Ordering Information   
+|  Product Number  |  Product Description  |  
+| --- | --- |  
+|  NIM-ES2-4=  |  4-port Layer 2 Gigabit Ethernet LAN Switch NIM  |  
+|  NIM-ES2-8=  |  8-port Layer 2 Gigabit Ethernet LAN Switch NIM  |  
+|  NIM-ES2-8-P=  |  8-port PoE/PoE+ Layer 2 Gigabit Ethernet LAN Switch NIM  |  
+Cisco IOS Software Support
+The Cisco Gigabit Ethernet LAN Switch NIMs are supported in IP Base and later images. No Cisco IOS Software technology or feature licenses are required. Table 11 provides the minimum Cisco IOS Software requirements.
+**Table 11.** Minimum Cisco IOS Software Release  
+|  Integrated Services Router  |  Minimum Cisco IOS Software Release  |  
+| --- | --- |  
+|  Cisco 4000 Series (except 4221)  |  IOS-XE 3.15.0: IP Base License of the Universal Image  |  
+|  Cisco 4221 Router  |  IOS-XE 16.4.1: IP Base License of the Universal Image  |  
+Service and Support
+Leading-edge technology deserves leading-edge support. Cisco offers a wide range of services programs to accelerate customer success. These innovative services programs are delivered through a unique combination of people, processes, tools, and partners, resulting in high levels of customer satisfaction. Cisco Services help you protect your network investment, optimize network operations, and prepare your network for new applications to extend network intelligence and the power of your business.
+Cisco Smart Net Total Care technical support is available on a one-time or annual contract basis. Support options range from help-desk assistance to proactive, onsite consultation.
+All support contracts include:
+●Major Cisco IOS Software updates in protocol, security, bandwidth, and feature improvements
+●Full access rights to Cisco.com technical libraries for technical assistance, electronic commerce, and product information
+●Access to the industry's largest dedicated technical support staff 24 hours a day
+For more information about Cisco Services, refer to [Cisco Technical Support Services](https://www.cisco.com/en/US/products/svcs/ps3034/serv_category_home.html) or [Cisco Advanced Services](https://www.cisco.com/go/services).
+Cisco and Partner Services for the Branch
+Services from Cisco and our partners can help you transform the branch-office experience and accelerate business innovation and growth. We have the depth and breadth of expertise to create a clear, replicable, optimized branch-office footprint across technologies. Planning and design services align technology with business goals and can increase the accuracy, speed, and efficiency of deployment. Technical services help improve operational efficiency, save money, and mitigate risk. Optimization services are designed to continuously improve performance and help your team succeed with new technologies. For more information, visit [http://www.cisco.com/go/services](https://www.cisco.com/go/services).
+Cisco Capital
+Financing to Help You Achieve Your Objectives
+Cisco Capital can help you acquire the technology you need to achieve your objectives and stay competitive. We can help you reduce CapEx. Accelerate your growth. Optimize your investment dollars and ROI. Cisco Capital financing gives you flexibility in acquiring hardware, software, services, and complementary third-party equipment. And there’s just one predictable payment. Cisco Capital is available in more than 100 countries. [Learn more](https://www.cisco.com/web/ciscocapital/americas/us/index.html).
+For More Information
+For more information about the Cisco Integrated Services Routers, visit [http://cisco.com/en/US/prod/routers/networking_solutions_products_genericcontent0900aecd806cab99.html](https://cisco.com/en/US/prod/routers/networking_solutions_products_genericcontent0900aecd806cab99.html) or contact your local Cisco account representative.
+For more information about Cisco products, contact:
+●United States and Canada: 800 553 NETS (6387)
+●Europe: 32 2 778 4242
+●Australia: 612 9935 4107
+●Other: 408 526-7209
+●Web: [http://www.cisco.com](https://www.cisco.com).
+### Contact Cisco
   * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
-  * Call Sales: [ 1-800-553-6387 ](tel:18005536387)   
-US/CAN | 5am-5pm PT 
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
   * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
   * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
 
 
-Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html)
-Download
-Print
-### Available Languages
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html)
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
 
 
-### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.pdf) (602.0 KB)   
-View with Adobe Reader on a variety of devices
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
 
 
-Updated:November 23, 2020
-#### Table of Contents
-![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
-![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
-#### Table of Contents
-  * [Product overview](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html#Productoverview "Productoverview")
-  * [Features and benefits](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html#Featuresandbenefits "Featuresandbenefits")
-  * [Form factor and options](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html#Formfactorandoptions "Formfactorandoptions")
-  * [Codec support and capacity](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html#Codecsupportandcapacity "Codecsupportandcapacity")
-  * [Cisco platform availability and performance](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html#Ciscoplatformavailabilityandperformance "Ciscoplatformavailabilityandperformance")
-  * [Product specifications](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html#Productspecifications "Productspecifications")
-  * [Ordering information](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html#Orderinginformation "Orderinginformation")
-  * [Cisco environmental sustainability](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html#Ciscoenvironmentalsustainability "Ciscoenvironmentalsustainability")
-  * [Cisco and partner services for the branch office](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html#Ciscoandpartnerservicesforthebranchoffice "Ciscoandpartnerservicesforthebranchoffice")
-  * [Cisco Capital](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html#CiscoCapital "CiscoCapital")
-
-
-Product overview
-The Cisco® Packet Voice Digital Signal Processor Modules (PVDMs) enable the Cisco Catalyst 8000 Edge Platforms Family and the Cisco 4000 Series Integrated Services Routers (ISRs) to provide rich-media capabilities such as high-density voice connectivity, conferencing, transcoding, media optimization, transrating, and secure voice for Cisco Unified Communications solutions. These new modules support unprecedented scale while allowing for a smaller solution footprint than ever before.
-[![On-Board Motherboard PVDM \(PVDM4-X\)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.doc/_jcr_content/renditions/data_sheet_c78-728307_0.png)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.doc/_jcr_content/renditions/data_sheet_c78-728307_0.png "On-Board Motherboard PVDM \(PVDM4-X\)")
-Figure 1. 
-On-Board Motherboard PVDM (PVDM4-X) 
-[![PVDM Enhanced Services Module \(SM-X-PVDM\)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.doc/_jcr_content/renditions/data_sheet_c78-728307_1.png)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.doc/_jcr_content/renditions/data_sheet_c78-728307_1.png "PVDM Enhanced Services Module \(SM-X-PVDM\)")
-Figure 2. 
-PVDM Enhanced Services Module (SM-X-PVDM) 
-[![PVDM Network Interface Module \(NIM-PVDM-X\)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.doc/_jcr_content/renditions/data_sheet_c78-728307_2.png)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.doc/_jcr_content/renditions/data_sheet_c78-728307_2.png "PVDM Network Interface Module \(NIM-PVDM-X\)")
-Figure 3. 
-PVDM Network Interface Module (NIM-PVDM-X)
-Features and benefits
-The PVDMs support digital voice connections, conferencing, universal transcoding, and media optimization services: 
-●**T1/E1 voice:** One of the primary uses of PVDMs is to packetize digital voice into IP packets to enable Time-Division Multiplexing (TDM) digital voice applications.
-●**Conferencing:** PVDM modules support ad hoc and meet-me conferencing with various codecs in conjunction with Cisco Unified Communications Manager and Cisco Unified Communications Manager Express.
-●**Universal transcoding:** In conjunction with Cisco IOS® Software, the PVDMs support universal transcoding, which allows conversion from any supported codec to any other supported codec.
-●**Transrating:** The PVDMs support transrating, in which the same codec is repacketized in order to connect dissimilar networks that have different codec packetization periods.
-●**Voice-quality management:** The PVDMs perform compression, voice-activity detection, jitter management, and echo cancellation. The echo cancellation offered in the PVDMs has a tail length of 128 milliseconds and complies with ITU-T G.168.
-●**Energy savings:** The motherboard PVDMs (PVDM4s) offer multiple power-saving modes, including a power-saver mode when the module is not in use. In power-saver mode, each PVDM4 can save up to 5 watts of power. 
-The analog voice modules (FXS, FXO, and E/M) and Basic Rate Interface (BRI) digital voice modules for the Catalyst 8000 and the 4000 Series ISRs contain built-in, nonconfigurable Digital Signal Processors (DSPs) and do not require any additional PVDMs for voice packetization.
-Refer to the [PVDM Q&A](https://www.cisco.com/en/US/prod/collateral/routers/ps10906/ps12522/qa_c67-728823.html) for commonly asked questions.
-Form factor and options
-The Cisco PVDMs are available in three form factors with four supported densities in each form factor:
-●Motherboard PVDMs (PVDM4) for densities up to 256 channels (Figure 1)
-●PVDM enhanced Services Modules (SM-X-PVDM) for densities up to 3080 channels (Figure 2)
-●NIM PVDM for densities up to 256 channels (Figure 3)
-The motherboard PVDMs are supported on all Cisco 4000 Series ISRs except the ISR 4461. They can be plugged directly into the single slot on the router motherboard or into the Network Interface Module (NIM) that supports T1/E1 ports. A PVDM4 module plugged into the motherboard delivers IP-based voice services such as conferencing, media optimization, and transcoding only. 
-A PVDM4 module plugged into the T1/E1 NIM would be used for voice T1/E1 connectivity. Any excess channels can be reused toward other IP-based services supported on the motherboard slot. Enhanced DSP architecture accommodates a new packet-processing engine optimized for rich-media voice applications, while concurrently supporting the TDM-IP voice framework. 
-The PVDM enhanced services modules are supported on all Catalyst 8300s and ISRs that contain an SM-X slot - namely the Cisco 4331, 4351, 4451 and 4461 ISRs.
-The PVDM network interface modules are supported on Catalyst 8300s and ISR 4461 all of which contain NIM slots.
-The SM-X modules and the NIM PVDM modules support only IP-based voice services and cannot be used for TDM applications.
-Table 1 lists the various PVDM options along with their slot requirements.
-**Table 1.** Cisco PVDM Part Numbers and Slot Requirements  
-|  Part Number  |  Slot  |  Description  |  
-| --- | --- | --- |  
-|  **PVDM4-32(=)**  |  On-board motherboard or T1/E1 module slot  |  32-channel high-density voice DSP module, or spare  |  
-|  **PVDM4-64(=)**  |  On-board motherboard or T1/E1 module slot  |  64-channel high-density voice DSP module, or spare  |  
-|  **PVDM4-128(=)**  |  On-board motherboard or T1/E1 module slot  |  128-channel high-density voice DSP module, or spare  |  
-|  **PVDM4-256(=)**  |  On-board motherboard or T1/E1 module slot  |  256-channel high-density voice DSP module, or spare  |  
-|  **SM-X-PVDM-500(=)**  |  Enhanced services module slot  |  768-channel high-density voice DSP module, or spare  |  
-|  **SM-X-PVDM-1000(=)**  |  Enhanced services module slot  |  1024-channel high-density voice DSP module, or spare  |  
-|  **SM-X-PVDM-2000(=)**  |  Enhanced services module slot  |  2048-channel high-density voice DSP module, or spare  |  
-|  **SM-X-PVDM-3000(=)**  |  Enhanced services module slot  |  3080-channel high-density voice DSP module, or spare  |  
-|  **NIM-PVDM-32(=)**  |  Network Interface module slot  |  NIM PVDM with 32-channel DSP  |  
-|  **NIM-PVDM-64(=)**  |  Network Interface module slot  |  NIM PVDM with 64-channel DSP  |  
-|  **NIM-PVDM-128(=)**  |  Network Interface module slot  |  NIM PVDM with 128-channel DSP  |  
-|  **NIM-PVDM-256(=)**  |  Network Interface module slot  |  NIM PVDM with 256-channel DSP  |  
-Codec support and capacity
-The PVDM4 modules support a wide range of codecs of different complexities. They support all codecs supported by the Cisco 2800/3800 High-Density PVDMs (PVDM3s). Table 2 lists the codecs supported on the PVDM4 and SM-X-PVDM modules, and Table 3 gives the channel densities of the PVDM4, SM-X-PVDM and NIM-PVDM modules. Table 4 lists the media-enhancement features.
-**Table 2.** Voice, Fax, and Modem Codec Support on PVDMs  
-|  Low-Complexity Codecs  |  Complexity  |  Motherboard PVDMs (PVDM4s)  |  PVDM Enhanced Services Modules (SM-X-PVDMs)  |  NIM PVDM Modules   |  
-| --- | --- | --- | --- | --- |  
-|  Clear channel  |  Low  |  Supported  |  Not applicable  |  Supported  |  
-|  G.711  |  Low  |  Supported  |  Supported  |  Supported  |  
-|  Fax and modem pass-through  |  Low  |  Supported  |  Not supported  |  Supported  |  
-|  G.722  |  Medium  |  Supported  |  Supported  |  Supported  |  
-|  G.726  |  Medium  |  Supported  |  Not supported  |  Supported  |  
-|  G.728  |  High  |  Supported  |  Not supported  |  Supported  |  
-|  G.729  |  High  |  Supported  |  Supported (mapped to G.729a)  |  Supported  |  
-|  G.729a  |  Medium  |  Supported  |  Supported  |  Supported  |  
-|  G.729b  |  High  |  Supported  |  Supported (mapped to G.729ab)  |  Supported  |  
-|  G.729ab  |  Medium  |  Supported  |  Supported  |  Supported  |  
-|  Fax Relay  |  Medium  |  Supported  |  Not supported  |  Supported  |  
-|  iLBC (Internet low bit rate codec)  |  High  |  Supported  |  Supported  |  Supported  |  
-|  iSAC (Internet speech audio codec)  |  High  |  Transcoding only  |  Transcoding only  |  Transcoding only  |  
-|  AMR-WB  |  High  |  Not supported   |  Not supported  |  Not supported   |  
-|  Modem relay  |  High  |  Supported  |  Not supported  |  Supported  |  
-**Table 3.** Channel Densities of PVDM4, NIM-PVDM-X and SM-X-PVDM Modules  
-|  Name  |  Number of Channels  |  
-| --- | --- |  
-|  Low Complexity  |  Medium Complexity  |  High Complexity  |  
-|  **PVDM4-32**  |  32  |  24  |  16  |  
-|  **PVDM4-64**  |  64  |  48  |  32  |  
-|  **PVDM4-128**  |  128  |  96  |  64  |  
-|  **PVDM4-256**  |  256  |  192  |  128  |  
-|  **SM-X-PVDM-500**  |  768  |  384  |  192  |  
-|  **SM-X-PVDM-1000**  |  1024  |  512  |  256  |  
-|  **SM-X-PVDM-2000**  |  2048  |  1024  |  512  |  
-|  **SM-X-PVDM-3000**  |  3080  |  1400  |  770  |  
-|  **NIM-PVDM-32**  |  32  |  24  |  16  |  
-|  **NIM-PVDM-64**  |  64  |  48  |  32  |  
-|  **NIM-PVDM-128**  |  128  |  96  |  64  |  
-|  **NIM-PVDM-256**  |  256  |  192  |  128  |  
-**Table 4.** Media-Enhancement Features  
-|  Feature  |  Motherboard PVDMs (PVDM4s)  |  PVDM Enhanced Services Modules (SM-X-PVDMs)  |  NIM PVDM Modules   |  
-| --- | --- | --- | --- |  
-|  Echo cancellation  |  Yes  |  No  |  Yes  |  
-|  Tone detection  |  Yes  |  Yes  |  Yes  |  
-|  Noise reduction  |  Yes  |  Yes  |  Yes  |  
-|  Acoustic shock prevention  |  Yes  |  Yes  |  Yes  |  
-|  Gain control  |  Yes  |  Yes  |  Yes  |  
-Cisco platform availability and performance
-The PVDM4 modules are supported on all Cisco 4000 Series ISRs except the ISR 4461. The platform motherboard has one slot for the PVDM4 module. You can plug any additional PVDM4 modules into the T1/E1 NIMs.
-The SM-X-PVDM modules are supported on the Catalyst 8300 and the Cisco 4000 Series ISRs with a SM-X slot. Table 5 provides details on the platform support. Tables 6 and 7 give information on platform performance for transcoding and conferencing, respectively.
-The NIM-PVDM-X modules are supported on the Catalyst 8300 and the ISR 4461.
-**Table 5.** Platform Availability for SM-X-PVDM Modules  
-|  4000 Series Platform  |  SM-X-PVDM-500 (maximum channels)  |  SM-X-PVDM-1000 (maximum channels)  |  SM-X-PVDM-2000 (maximum channels)  |  SM-X-PVDM-3000 (maximum channels)  |  
-| --- | --- | --- | --- | --- |  
-|  **C8300-1N1S-6T**  |  1 (500)  |  1 (1000)  |  1 (2000)  |  1 (3000)  |  
-|  **C8300-1N1S-4T2X**  |  1 (500)  |  1 (1000)  |  1 (2000)  |  1 (3000)  |  
-|  **C8300-2N2S-6T**  |  2 (1000)  |  2 (2000)  |  1 (2000)  |  1 (3000)  |  
-|  **C8300-2N2S-4T2X**  |  2 (1000)  |  2 (2000)  |  2 (4000)  |  2 (6000)  |  
-|  **4321**  |  Not supported  |  Not supported  |  Not supported  |  Not supported  |  
-|  **4331**  |  1 (500)  |  1 (1000)  |  Not supported  |  Not supported  |  
-|  **4351**  |  2 (1000)  |  1 (1000)  |  Not supported  |  Not supported  |  
-|  **4431**  |  Not supported  |  Not supported  |  Not supported  |  Not supported  |  
-|  **4451**  |  2 (1000)  |  2 (2000)  |  1 (2000)  |  1 (3000)  |  
-|  **4461**  |  3(1500)  |  3 (3000)  |  2 (4000)  |  2 (4000)  |  
-All SM-X-PVDM modules require minimum of 8GB RAM
-**Table 6.** Platform Performance for Transcoding  
-|  Platform   |  Low Complexity to Low Complexity  |  
-| --- | --- |  
-|  **C8300-1N1S-6T**  |  3336  |  
-|  **C8300-1N1S-4T2X**  |  3336  |  
-|  **C8300-2N2S-6T**  |  3592  |  
-|  **C8300-2N2S-4T2X**  |  6672  |  
-|  **4321**  |  768  |  
-|  **4331**  |  1024  |  
-|  **4351**  |  1280  |  
-|  **4431**  |  1024  |  
-|  **4451**  |  3336  |  
-|  **4461**  |  6160  |  
-**Table 7.** Platform Performance for Conferencing  
-|  Platform   |  Low Complexity (8-party)  |  
-| --- | --- |  
-|  **C8300-1N1S-6T**  |  498  |  
-|  **C8300-1N1S-4T2X**  |  520  |  
-|  **C8300-2N2S-6T**  |  591  |  
-|  **C8300-2N2S-4T2X**  |  937  |  
-|  **4321**  |  130  |  
-|  **4331**  |  220  |  
-|  **4351**  |  245  |  
-|  **4431**  |  241  |  
-|  **4451**  |  502  |  
-|  **4461**  |  850  |  
-Note that the 4000 Series ISRs do not support the PVDM3 modules, and the 2900 and 3900 Series ISRs do not support the PVDM4, SM-X-PVDM and NIM-PVDM-X modules.
-Product specifications
-Table 8 gives the specifications for the PVDM4 and SM-X-PVDM modules.
-**Table 8.** Module Specifications  
-|  Feature  |  Motherboard PVDMs (PVDM4s)  |  PVDM Enhanced Services Modules (SM-X-PVDMs)  |  PVDM Network Interface Modules (NIM-PVDM-X)  |  
-| --- | --- | --- | --- |  
-|  **Components**  |  
-|  **DSP**  |  Multicore DSP technology  |  Multicore DSP technology  |  Multicore DSP technology  |  
-|  **Interface**  |  Integrated Services Card (ISC) slot on motherboard or T1/E1 NIM  |  Enhanced services module (SM-X)  |  Network Interface module (NIM-PVDM-X)  |  
-|  **Features**  |  
-|  **Operating temperature**  |  32° to 122°F (0° to 50°C)  |  32° to 104°F (0° to 40°C)  |  32° to 122°F (0° to 50°C)  |  
-|  **Voltage**  |  3.3V  |  12V  |  12V  |  
-|  **Current**  |  1.47A  |  4.17A  |  1.25A  |  
-|  **Power**  |  4.85W  |  50W  |  15W  |  
-|  **Weight**  |  0.08 lb (36 g)  |  1.78 Ib (808 g)  |  0.45lb (204 g)  |  
-|  **Dimensions (H x W x D)**  |  0.67 x 2.50 x 2.62 in. (1.7 x 5.1 x 6.7 cm)  |  1.58 x 8.55 x 8.10 in. (4.0 x 21.7 x 20.6 cm)  |  1.25 x 3.50 x 7.24 in. (3.18 x 8.89 x 18.39 cm)  |  
-|  Regulatory and Compliance  |  
-|  **Safety**  |  Complies with: ●IEC 60950 (worldwide)  ●AS/NZS 60950-1 (Australia and New Zealand)  ● CAN/CSA-C22.2 No. 60950-1, 1 st and 2 nd Ed. (Canada)  ●GB4943-95 (People's Republic of China)  ●EN60950-1, 1 st and 2 nd Ed. (CENELEC; includes EU and EFTA)  ●NOM-019-SCFI-1998 (Mexico)  ●UL 60950-1, 1 st and 2 nd Ed. (United States)   |  Complies with: ●IEC 60950 (worldwide) + A1 and A2  ●AS/NZS 60950-1 (Australia and New Zealand)  ●CAN/CSA-C22.2 No. 60950-1, 2 nd Ed. (Canada)  ●GB4943-95 (People's Republic of China)  ●EN60950-1, 2 nd Ed. (CENELEC; includes EU and EFTA) plus Am1 and Am2  ●NOM-019-SCFI-1998 (Mexico)  ●UL 60950-1, 2 nd Ed. (United States)   |  Complies with: IEC 60950-1, 2nd Ed with all group differences and national deviations (worldwide) ●CAN/CSA-C22.2 No. 60950-1-07. (Canada)  ●EN 60950-1, 2 nd Ed. (CENELEC; includes EU and EFTA)  ●UL 60950-1, 2 nd Ed. (United States)  ●IEC 62368, 2 nd Ed with all group differences and national deviations (worldwide)  ●CAN/CSA-C22.2 No. 62368-1-14. (Canada)  ●EN 62368-1, 2 nd Ed. (CENELEC; includes EU and EFTA)  ●UL 62368-1, 2 nd Ed. (United States)   |  
-|  **Homologation**  |  Platform dependent  |  Platform dependent  |  Platform dependent  |  
-|  **Mean time between failures (MTBF)**  |  System dependent  |  System dependent  |  System dependent  |  
-|  **EMC**  |  
-|  **Emissions**  |  ●CISPR22, Class B  ●EN55022, Class B, CFR47, Part 15, Subpart B, Class B   |  ●CISPR22, Class A  ●EN55022, Class A, CFR47, Part 15, Subpart B, Class B   |  ●CISPR32, Class A  ●EN55032, Class A, CFR47, Part 15, Subpart B, Class A   |  
-|  **Harmonics**  |  EN61000-3-2  |  EN61000-3-2  |  EN61000-3-2  |  
-|  **Flicker**  |  EN61000-3-3  |  EN61000-3-3  |  EN61000-3-3  |  
-|  **Immunity**  |  ●CISPR24  ●EN 55024  ●EN50082-1   |  ●CISPR24  ●EN 55024  ●EN50082-1   |  ●CISPR24  ●EN 55024  ●EN61000-6-1   |  
-|  **Electrostatic discharge (ESD)**  |  EN 61000-4-2  |  EN 61000-4-2  |  EN 61000-4-2  |  
-|  **RF fields**  |  EN 61000-4-3  |  EN 61000-4-3  |  EN 61000-4-3  |  
-|  **EFT**  |  EN 61000-4-4  |  EN 61000-4-4  |  EN 61000-4-4  |  
-|  **Surge**  |  EN 61000-4-5  |  EN 61000-4-5  |  EN 61000-4-5  |  
-|  **Conducted RF**  |  EN 61000-4-6  |  EN 61000-4-6  |  EN 61000-4-6  |  
-|  **Power-frequency magnetic fields**  |  EN 6100-4-8  |  EN 6100-4-8  |  EN 6100-4-8  |  
-|  **Voltage dips, sags, and interruptions**  |  EN 61000-4-11  |  EN 61000-4-11  |  EN 61000-4-11  |  
-Ordering information
-To place an order, visit the [Cisco Ordering Home Page](https://www.cisco.com/en/US/ordering/index.shtml) and refer to Table 1. To download software, visit the [Cisco Software Center](https://www.cisco.com/cisco/web/download/index.html).
-Cisco environmental sustainability
-Information about Cisco’s environmental sustainability policies and initiatives for our products, solutions, operations, and extended operations or supply chain is provided in the “Environment Sustainability” section of Cisco’s [Corporate Social Responsibility](https://www-1.compliance2product.com/c2p/getAttachment.do?code=YM6Y0yThdO6Wj1FxxYPYfUG2dtFkTeFWGpzLRO8tcURFEifUCRV403Tq2ZMWP6Ai) (CSR) Report.
-Reference links to information about key environmental sustainability topics (mentioned in the “Environment Sustainability” section of the CSR Report) are provided in the following table:  
-|  Sustainability topic  |  Reference  |  
-| --- | --- |  
-|  Information on product material content laws and regulations  |  [Materials](https://www.cisco.com/c/en/us/about/product-innovation-stewardship/materials.html)  |  
-|  Information on electronic waste laws and regulations, including products, batteries, and packaging  |  [WEEE compliance](https://www.cisco.com/c/en/us/about/product-innovation-stewardship/product-recycling/weee-compliance.html)  |  
-Cisco makes the packaging data available for informational purposes only. It may not reflect the most current legal developments, and Cisco does not represent, warrant, or guarantee that it is complete, accurate, or up to date. This information is subject to change without notice.
-Cisco and partner services for the branch office
-Services from Cisco and our certified partners can help you transform the branch-office experience and accelerate business innovation and growth. We have the depth and breadth of expertise to create a clear, replicable, optimized branch-office footprint across technologies. Planning and design services align technology with business goals and can increase the accuracy, speed, and efficiency of deployment. Technical services help improve operational efficiency, save money, and mitigate risk. Optimization services are designed to continuously improve performance and help your team succeed with new technologies.
-Cisco Capital
-Flexible payment solutions to help you achieve your objectives
-Cisco Capital makes it easier to get the right technology to achieve your objectives, enable business transformation and help you stay competitive. We can help you reduce the total cost of ownership, conserve capital, and accelerate growth. In more than 100 countries, our flexible payment solutions can help you acquire hardware, software, services and complementary third-party equipment in easy, predictable payments. [Learn more](https://www.cisco.com/go/financing).
-### Our experts recommend
-  * [Miercom Performance Analysis: Cisco 4000 Series ISRs](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/miercom-isr4k-report.pdf "Miercom Performance Analysis: Cisco 4000 Series ISRs")
-  * [Cisco 4000 Series Integrated Services Routers At-A-Glance](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/at-a-glance-c45-732425.html "Cisco 4000 Series Integrated Services Routers At-A-Glance")
-
-
-### Learn more
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
