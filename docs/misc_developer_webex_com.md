@@ -18894,3 +18894,34 @@ Join thousands of developers building on WebexStart building today or reach out 
 You need to be signed in
 Please sign in to your Webex Account to Access AI Assist.
 [Sign in](https://developer.webex.com/login)
+
+
+---
+# ORIGEN: https://developer.webex.com/create/docs/(/docs/embedded-apps-guide
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/create/docs/\(/docs/embedded-apps-guide)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/create/docs/\(/docs/embedded-apps-guide)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/create/docs/\(/docs/embedded-apps-guide)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+# Page Not Found
+## Well, this is a bummer.
+The page you're looking for has moved or was removed. Either way, it's not here.
+[Return Home](https://developer.webex.com/)
+Still not working?[Contact Support](https://developer.webex.com/support)
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
