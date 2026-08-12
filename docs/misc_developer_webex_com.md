@@ -13627,3 +13627,168 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/create/docs/onboard-your-mcp-server
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/create/docs/onboard-your-mcp-server)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/create/docs/onboard-your-mcp-server)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/create/docs/onboard-your-mcp-server)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Onboard Your MCP Server
+Getting Started
+  * [Getting Started](https://developer.webex.com/create/docs)
+  * [Authentication](https://developer.webex.com/create/docs/authentication)
+  * [Login with Webex](https://developer.webex.com/create/docs/login-with-webex)
+  * [AI Assistant for Developers](https://developer.webex.com/create/docs/webex-aI-assistant-for-developers)
+  * Agentic Apps
+    * [Agentic Apps Overview](https://developer.webex.com/create/docs/agentic-apps-overview)
+    * [Onboard Your MCP Server](https://developer.webex.com/create/docs/onboard-your-mcp-server)
+    * [Onboard Your Agent](https://developer.webex.com/create/docs/onboard-your-agent)
+    * [Submit to App Hub & Badging](https://developer.webex.com/create/docs/agentic-apps-app-hub)
+    * [Provisioning on Control Hub](https://developer.webex.com/create/docs/provisioning-on-control-hub)
+  * Bots
+  * Embedded Apps
+  * Integrations
+  * Service Apps
+  * Instant Connect
+  * Workspace Integrations
+  * Bring Your Own Datasource
+  * [Suite Sandbox](https://developer.webex.com/create/docs/developer-sandbox-guide)
+  * [Contact Center Sandbox](https://developer.webex.com/create/docs/sandbox_cc)
+  * [Guest to Guest Sandbox](https://developer.webex.com/create/docs/g2g-sandbox)
+  * [Submit Your App](https://developer.webex.com/create/docs/app-hub-submission-process)
+  * [Tutorials](https://developer.webex.com/create/docs/tutorials)
+
+
+## Getting Started
+### Onboard Your MCP Server
+This guide helps developers register their MCP server on the [Webex Developer Portal](https://developer.webex.com/my-apps/new). For A2A (Agent2Agent) Agentic Apps, see [Onboard Your Agent](https://developer.webex.com/docs/onboard-your-agent).
+####  anchorPrerequisites
+anchor
+Before starting, ensure you have:
+  * Access to the Webex Developer Portal.
+  * A deployed MCP server reachable via HTTPS.
+  * Authentication details for your app. We support the following authentication types:
+    * `OAuth2 authorization code` – User-level OAuth flow where each user authenticates and grants access individually
+    * `OAuth2 client credentials` – Org-level OAuth flow using a single set of client credentials on behalf of the organization
+    * `API key` – A single static key issued at the org level to identify and authorize requests
+    * `User token` – An individual token representing a specific user's identity and session
+    * `Custom Header based Auth` – Custom authentication headers that can be configured at org or user level
+
+
+####  anchorStep-by-Step Registration Process
+anchor
+###### 1. Navigate to the Webex Developer Portal
+Open <https://developer.webex.com> in your browser.
+###### 2. Click Start Building Apps
+On the home page, click **Start Building Apps** to access the app creation interface.
+![Developer Portal landing page](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt12f5497065b70803/69c3c91563da6d47145a1e5a/agentic-app-onboarding-guide-1.png)
+Alternatively, you can click on your profile, select **My Webex Apps** from the dropdown and click on **Create a New App** on the **My Apps** page that appears (you will directly be taken to the app creation interface if you don't have any pre-existing apps).
+![My Webex Apps dropdown](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltaf7b89cf2e3655ad/69c3c915d4ca0e3747b00924/agentic-app-onboarding-guide-2.png)
+![Create a New App button](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt864b552d82a2bc35/69c3c914191b6b4e3c7c8194/agentic-app-onboarding-guide-3.png)
+###### 3. Select Create an Agentic App
+From the Create a New App page, click **Create an Agentic App** to begin the agentic app registration.
+![Create Agentic App option in the app overview page](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltc2125de8140f6554/69c3c915d4ca0e2d97b00928/agentic-app-onboarding-guide-4.png)
+###### 4. Enter App Details
+Fill in the following fields:
+  * **Module** : Select `MCP` (A2A coming soon).
+  * **Transport Type** : Select `Streamable HTTP` or `HTTP SSE`.
+  * **Name** : Unique name for your app.
+  * **Description** : Clear description of its purpose.
+  * **Logo** : Upload a 512x512 PNG/JPEG (or select from 3 default options).
+  * **App URL** : Public HTTPS endpoint.
+  * **Auth Type** : Choose from:
+    * `OAuth2_clientCredentials`
+    * `OAuth2_authorizationCode`
+    * `ApiKey`
+    * `UserToken`
+    * `CustomHeaderAuth`
+
+
+![Agentic App registration form](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt7a2850498ca94d5d/69c3c9155930181788eb2e87/agentic-app-onboarding-guide-5.png)
+![Agentic App registration form continued](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltbf4dc97560c58e5c/69c3c915593018772beb2e83/agentic-app-onboarding-guide-6.png)
+###### 5. Click Add Agentic App
+After completing all fields, click on the **Add Agentic App** button at the bottom of the registration page. The system will register your app and redirect you to the details page.
+The details page can also be accessed by going to the **My Apps** page and selecting the app you registered.
+![Agentic App details page](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt8707435361f4454c/69c3c9145dd8290da7c30856/agentic-app-onboarding-guide-7.png)
+####  anchorManaging Your Agentic App
+anchor
+From the details page, you can:
+  * View app ID and configuration.
+  * Edit name, description, URL, transport type or auth type.
+  * Submit a request to make the app public on the Webex App Hub
+  * Request admin approval for org/user level use.
+  * Delete the app.
+
+
+##### In This Article
+  * [Prerequisites](https://developer.webex.com/create/docs/onboard-your-mcp-server#prerequisites)
+  * [Step-by-Step Registration Process](https://developer.webex.com/create/docs/onboard-your-mcp-server#stepbystep-registration-process)
+  * [Managing Your Agentic App](https://developer.webex.com/create/docs/onboard-your-mcp-server#managing-your-agentic-app)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
