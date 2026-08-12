@@ -1700,3 +1700,101 @@ Company
   * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
 
 
+
+
+---
+# ORIGEN: https://explore.webex.com/webex-app-resources
+
+[ ![Sample logo image](https://cdn.pathfactory.com/assets/10866/heroes/1458332/2d5f7091-2142-4f6c-aaa4-12f400002ee0.png) Get started with the Webex App ](https://adopt.webex.com%20)
+[ Help Center ](https://help.webex.com/?utm_source=pathfactory&utm_content=content_playlist_cta)
+[ Webex Academy ](https://academy.webex.com/learn/?utm_source=pathfactory&utm_content=content_playlist_cta)
+[ Help Center ](https://help.webex.com/?utm_source=pathfactory&utm_content=content_playlist_cta)
+[ Webex Academy ](https://academy.webex.com/learn/?utm_source=pathfactory&utm_content=content_playlist_cta)
+11 results found 
+  * [ Featured  ](https://explore.webex.com/webex-app-resources)
+  * [ Featured  Get started with the Webex app  ](https://explore.webex.com/webex-app-resources/getting-started_webe)
+  * [ Featured  Download the Webex app  ](https://explore.webex.com/webex-app-resources/downloads-html)
+  * [ Featured  Connect your calendar  ](https://explore.webex.com/webex-app-resources/k2aot9)
+  * [ Featured  Edit your profile  ](https://explore.webex.com/webex-app-resources/nsu913b)
+  * [ Featured  Start a conversation  ](https://explore.webex.com/webex-app-resources/zi4dpc)
+  * [ Featured  Discover and join spaces  ](https://explore.webex.com/webex-app-resources/r78evy)
+  * [ Featured  Answer a call  ](https://explore.webex.com/webex-app-resources/webex-app---answer-a)
+  * [ Featured  Make a call  ](https://explore.webex.com/webex-app-resources/webex-app---call-any)
+  * [ Featured  Access more call settings  ](https://explore.webex.com/webex-app-resources/n3x8l4cb)
+  * [ Featured  Join a meeting  ](https://explore.webex.com/webex-app-resources/join-a-webex-meeting-9)
+  * [ Featured  Schedule a meeting from the calendar  ](https://explore.webex.com/webex-app-resources/webex-app---schedule)
+
+
+Read More 
+11 results found 
+[ ![Sample content thumbnail](https://explore.webex.com/webex-app-resources) Featured  ](https://explore.webex.com/webex-app-resources)
+[ Get started with the Webex app  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1166260/thumbnails/600x/d581adb4-228c-4a61-84a1-b8e0d1179219-1.png) Featured  ](https://explore.webex.com/webex-app-resources/getting-started_webe)
+[ Download the Webex app  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1166250/thumbnails/600x/cisco-webex-logo291x291.png) Featured  ](https://explore.webex.com/webex-app-resources/downloads-html)
+[ Connect your calendar  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/webex-app-resources/k2aot9)
+[ Edit your profile  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/webex-app-resources/nsu913b)
+[ Start a conversation  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/webex-app-resources/zi4dpc)
+[ Discover and join spaces  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/webex-app-resources/r78evy)
+[ Answer a call  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/webex-app-resources/webex-app---answer-a)
+[ Make a call  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/webex-app-resources/webex-app---call-any)
+[ Access more call settings  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/webex-app-resources/n3x8l4cb)
+[ Join a meeting  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1166886/thumbnails/600x/cisco-webex-logo-tn.png) Featured  ](https://explore.webex.com/webex-app-resources/join-a-webex-meeting-9)
+[ Schedule a meeting from the calendar  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/webex-app-resources/webex-app---schedule)
+Thumbnails Document Outline Attachments Layers
+Current Outline Item
+Previous Next
+Highlight All Match Case
+Match Diacritics Whole Words
+Color
+Size
+Color
+Thickness
+Opacity
+Presentation Mode Open Print Download [ Current View ](https://explore.webex.com/webex-app-resources "Current view \(copy or open in new window\)") Go to First Page Go to Last Page Rotate Clockwise Rotate Counterclockwise
+Text Selection Tool Hand Tool
+Page Scrolling Vertical Scrolling Horizontal Scrolling Wrapped Scrolling
+No Spreads Odd Spreads Even Spreads
+Document Properties…
+Toggle Sidebar Find
+Previous Next
+of 0
+Presentation Mode Open Print Print Download Download [ Current View ](https://explore.webex.com/webex-app-resources "Current view \(copy or open in new window\)")
+FreeText Annotation Ink Annotation
+Tools
+Zoom Out Zoom In
+Automatic Zoom Actual Size Page Fit Page Width 50% 75% 100% 125% 150% 200% 300% 400%
+More Information Less Information
+Close
+Enter the password to open this PDF file.
+Cancel OK
+File name:
+-
+File size:
+-
+Title:
+-
+Author:
+-
+Subject:
+-
+Keywords:
+-
+Creation Date:
+-
+Modification Date:
+-
+Creator:
+-
+PDF Producer:
+-
+PDF Version:
+-
+Page Count:
+-
+Page Size:
+-
+Fast Web View:
+-
+Close
+Preparing document for printing…
+0%
+Cancel
