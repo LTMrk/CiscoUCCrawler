@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-740935.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-740935.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-740935.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,8 +19,8 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html)
-  * [...](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-740935.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-740935.html)Show All Breadcrumbs
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Routers](https://www.cisco.com/c/en/us/products/routers/index.html)
   * [Branch Routers](https://www.cisco.com/c/en/us/products/routers/branch-routers/index.html)
@@ -29,183 +29,167 @@
   * [Data Sheets](https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/datasheet-listing.html)
 
 
-# Cisco 4000 Series Integrated Services Router Gigabit Ethernet WAN Modules Data Sheet
-Data Sheet
+# Cisco Multimode G.SHDSL Network Interface Module Data Sheet
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-740935.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.pdf) (801.5 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-740935.pdf) (370.5 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:July 17, 2019
+Updated:June 27, 2018
+Document ID:1530158553502481
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
-Contact Cisco
-  * Contact Cisco
+The Cisco® 4000 Series Integrated Services Routers Network Interface Module (NIM) supports single-port Cisco Multimode Four-Pair G.SHDSL-based WAN connectivity using both 802.3ah Ethernet in the first mile (EFM) and ATM modes. This NIM is used in modular routers that are deployed in Small and Medium-sized Businesses (SMBs) and enterprise branch offices.
+Product overview
+Designed to deliver high-speed Ethernet services over Symmetrical High-speed DSL (SHDSL) access, the multimode G.SHDSL NIM (Figure 1) offers symmetric data rates over one to four pairs of copper wire and supports both EFM and ATM modes. To achieve higher bandwidths, bonding of multiple pairs (4-wire, m-pair, inverse multiplexing over EFM bonding) is supported.
+**Figure 1.** Cisco Multimode Four-Pair G.SHDSL NIM (NIM-4SHDSL-EA) 
+[![](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-740935.docx/_jcr_content/renditions/datasheet-c78-740935_0.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-740935.docx/_jcr_content/renditions/datasheet-c78-740935_0.jpg "Related image, diagram or screenshot.")
+In EFM mode, the multimode G.SHDSL NIM allows bonding, as defined by IEEE 802.3ah, and is typically used in scenarios where individual links are aggregated using the 802.3ah loop aggregation. Depending on the number of wire pairs in service, the maximum data rate is 61.4 Mbps, with each line supporting up to 15 Mbps with 128-TCPAM. The NIM complies with the 2BASE-TL standard, which is based on the IEEE 802.3ah EFM standard. The 2BASE-TL standard uses the technology standard defined in ITU recommendation G.991.2 (G.SHDSL.).
+In ATM mode, the multimode G.SHDSL NIM allows bonding of multiple pairs up to four pairs (8-wire) with increased bandwidth by using data interleaving and m-pair mode. In m-pair mode, the multimode four-pair G.SHDSL NIM offers data rates up to 5.7 Mbps per pair and up to 22.7 Mbps over four pairs. (See Table 2 for the data rates supported by the multimode four-pair G.SHDSL NIM (NIM-4SHDSL-EA) under different modes.)
+The multimode four-pair G.SHDSL NIM cost-effectively allows service providers and enterprise customers to deliver Ethernet services to sites with no access to fiber by using bonded copper pairs with symmetrical bandwidth. These rates cover applications traditionally served by High-data-rate DSL (HDSL), Single-line DSL (SDSL), T1, E1, and services beyond E1.
+The multimode four-pair G.SHDSL NIM, together with the ISR 4000 series router, provides businesses the necessary bandwidth for critical traffic such as voice and videoconferencing and enables customers to save money by integrating voice and data traffic on the same WAN link. Service providers can increase subscriber revenue by bundling services and offering differentiated service levels through Service-Level Agreements (SLAs).
+Feature summary
+●Complies with standard, based on ITU recommendation G.991.2
+●Supports G.SHDSL Annexes A (U.S. signaling) and B (European signaling)
+●Supports Annexes F and G
+●Supports ATM or EFM modes (one mode at a time)
+●Offers symmetrical WAN speeds up to 1 x 2304 kbps over single copper pair, up to 2 x 2304 kbps over two copper pairs, up to 3 x 2304 kbps over three copper pairs, and up to 4 x 2304 kbps over four copper pairs using ITU-T G.991.2 annexes A and B
+●Offers symmetrical WAN speeds up to 1 x 5696 kbps over single copper pair, up to 2 x 5696 kbps over two copper pairs, up to 3 x 5696 kbps over three copper pairs, and up to 4 x 5696 kbps over four copper pairs using ITU-T G.991.2 annexes F and G
+●Supports EFM bonding; supports bonding of up to four SHDSL pairs 
+●In ATM mode, supports maximum of eight Permanent Virtual Circuits (PVCs)
+●Supports dying gasp and wetting current
+●Supports point-to-point configuration
+●Supports 802.1Q, QinQ (IEEE 802.1ad), trunk, and VLAN tagging
+●Supports ATM Class-of-Service (CoS) and IP Quality-of-Service (QoS) features, 802.1P, and Differentiated Services Code Point (DSCP)
+●Supports EFM (IEEE 802.3ah) Operation, Administration, and Maintenance (OA&M)
+●Offers ability to configure multiple G.SHDSL EFM NIMs per ISR 4000 router
+●Provides single RJ-45 connector system requirement
+System requirements
+●Multimode four-pair G.SHDSL NIMs are supported on all modular Cisco ISR 4000 series routers.
+●Multimode four-pair G.SHDSL NIMs are supported in all Cisco IOS® Software feature sets.
+●The ISR 4000 routers must be running Cisco IOS XE Software Release 16.8.1 or later.
+●The system requires no additional flash or DRAM memory beyond the specified minimum for the previously mentioned Cisco IOS releases.
+●The multimode four-pair G.SHDSL NIMs can be inserted into any NIM slot in any ISR 4000 router.
+Cisco Integrated Services Routers with multimode G.SHDSL EFM NIM applications
+Business-class DSL with backup WAN
+Cisco ISR 4000 routers with the four-pair G.SHDSL EFM NIM provide a business-class DSL solution for WAN access along with the option of a backup WAN interface (asymmetric DSL [ADSL] and ADSL2+, very-high-data-rate DSL 2 [VDSL2], ISDN Basic Rate Interface [BRI], T1/E1, analog modem, cable modem, third- and fourth-generation [3G and 4G, respectively], etc.) for mission-critical applications. The bonding feature offered on the G.SHDSL EFM NIM allows service providers to bond two or more pairs of G.SHDSL links to offer differentiated bandwidth based on SLAs.
+Business-class security
+Cisco ISR 4000 routers with the multimode G.SHDSL EFM NIMs can be optimized for Internet security with Cisco IOS Firewall supporting stateful inspection firewall and intrusion prevention system features. These platforms can also be optimized for VPNs to allow for secure use of the Internet for communications with the same policies and levels of security and performance as a private network. VPNs provide security through encryption tunneling, and the Cisco routers support hardware-based Triple Data Encryption Standard (3DES) IP Security (IPsec), Advanced Encryption Standard (AES), and SSL VPN. Encryption features can be enabled on the routers with the Advanced Security or any later feature set of the Cisco IOS XE Software. Further, Cisco ISR 4000 Web Security with the Cisco Umbrella™ solution enables branch offices to intelligently redirect web traffic to the cloud to enforce granular security and control policy over dynamic content, protecting branch-office users from threats such as Trojan horses, back doors, rogue scanners, viruses, and worms.
+Differentiated service offerings through IP
+Using Cisco QoS features, including Class-Based Weighted Fair Queuing (CBWFQ), Low-Latency Queuing (LLQ), Weighted Random Early Detection (WRED), etc., the Cisco ISR 4000 routers with the G.SHDSL NIM help service providers and resellers offer services that can differentiate bandwidth based on a specific application or a specific user.
+Metro Ethernet
+Service providers could also run Layer 2 Ethernet services and provide transparent LAN services over a metro Ethernet infrastructure. Service providers can take advantage of ISR 4000 support for Xconnect over Multiprotocol Label Switching over Generic Routing Encapsulation (GRE) with Static Pseudowire Provisioning and L2PT on Layer 2 ports, Dot1Q tunnel mode support on Layer 2 ports, customizable L2PT tunneling MAC address etc., and provide these Layer 2 Ethernet services.
+Converged platform for SMB and enterprise branch-office applications
+The Cisco 4000 Series Integrated Services Routers with the multimode G.SHDSL EFM NIMs offer you a choice of converged platforms that offer best-in-class data, security, WAN access, and voice services in a single system. The ISR 4000 routers embed voice functions directly inside the router, enabling you to deploy voice services by installing Cisco 2800/3800 High-Density Packet Voice Digital Signal Processor modules and the Cisco Integrated Services Module for IP telephony conferencing, voice gateways, as well as Cisco Unity® Express voicemail and Automated Attendant. For call processing, you can enable the Cisco Unified Communications Manager Express solution as part of Cisco IOS XE Software and reconfigure the same software to support Survivable Remote Site Telephony (SRST) for centralized call processing with Unified Communications Manager.
+Such an integrated solution rapidly enables service deployment, increases efficiency of network operations, and provides opportunities to protect, grow, and optimize your business.
+Multimode G.SHDSL NIM features
+Table 1 lists the features of the G.SHDSL NIM.
+**Table 1.** Multimode four-pair G.SHDSL NIM features  
+|  Features  |  Description  |  
+| --- | --- |  
+|  Annexes A and B  |  Yes  |  
+|  Annexes F and G  |  Yes  |  
+|  Support for 2-, 4-, and 8-wire modes  |  Yes  |  
+|  Support for M-pair bonding with Annex F and Annex G  |  Yes  |  
+|  EFM bonding  |  Yes  |  
+|  Connecter  |  RJ-45  |  
+|  Dying gasp  |  Yes  |  
+|  Wetting current  |  Yes  |  
+|  Line coding  |  4, 8, 16, 32, 64, 128  |  
+|  Rate adaption  |  Yes  |  
+|  Termination  |  Customer Premises Equipment (CPE)  |  
+|  Data rate  |  192 to 5696 kbps per pair Up to 15 Mbps per pair (Lantiq extension rates— supported if DSLAM supports it as well)  |  
+|  G.SHDSL chipset  |  Socrates-4e from Lantiq  |  
+Data rates supported with four-pair G.SHDSL EFM/ATM NIM
+Table 2 gives data rates for the four-pair G.SHDSL NIM in the two modes (EFM and ATM). 
+**Note:** Actual data rates depend upon factors such as loop length, line conditions, DSLAM line card and chipset, and data rates provisioned by the service provider.
+**Table 2.** DSL group and data rates  
+|  DSL group with 1-pair  |  
+| --- |  
+|  Annex A and B—192 to 2304 kbps Annex F and G (32 TC-PAM)—768 to 5696 kbps Annex F and G (16 TC-PAM)—2304 to 3840 kbps Annex A to F, and B to G (32 TC-PAM)—768 to 5696 kbps Annex A to F, and B to G (16 TC-PAM)—192 to 3840 kbps Annex A to F, and B to G (32 TC-PAM)—768 to 5696 kbps  |  
+|  DSL group with 2-pair  |  
+|  Annex A and B— 384 to 4608 kbps Annex F and G (32 TC-PAM)—1536 to 11,392 kbps Annex F and G (16 TC-PAM)—4608 to 7680 kbps Annex A to F, and B to G (32 TC-PAM)—1536 to 11,392 kbps Annex A to F, and B to G (16 TC-PAM)—384 to 7680 kbps  |  
+|  DSL group with 3-pair  |  
+|  Annex A and B— 576 to 6912 kbps Annex F and G (32 TC-PAM)— 2304 to 17,088 kbps Annex F and G (16 TC-PAM)— 6912 to 11,520 kbps Annex A to F, and B to G (32 TC-PAM)— 2304 to 17,088 kbps Annex A to F, and B to G (16 TC-PAM)— 576 to 11,520 kbps  |  
+|  DSL group with 4-pair  |  
+|  Annex A and B— 768 to 9216 kbps Annex F and G (32 TC-PAM)— 3072 to 22,784 kbps Annex F and G (16 TC-PAM)— 9216 to 15,360 kbps Annex A to F, and B to G (32 TC-PAM)— 3072 to 22,784 kbps Annex A to F, and B to G (16 TC-PAM)— 768 to 15,360 kbps  |  
+|  EFM bonding with 4-pair  |  
+|  Annex F and G (128 TC-PAM)— 9248 to 61,216 kbps Annex F and G (64 TC-PAM)—9216 to 50,944 kbps Annex A to F, and B to G (128 TC-PAM)— 800 to 61,216 kbps Annex A to F, and B to G (64 TC-PAM)— 768 to 50,944 kbps  |  
+Interoperability
+The multimode G.SHDSL NIM is based on the Lantiq chipset, and it operates when connected to a Digital Subscriber Line Access Multiplexer (DSLAM). Table 3 lists the DSLAMs that have been tested and are supported for interoperability. This table will be updated as more DSLAMs, line cards, and firmware versions are tested and supported in the future. For more information and details about DSLAM and NIM interoperability, please refer to [Cisco ISR4000 xDSL Interoperability](https://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/qa_c67-532551.pdf).
+**Table 3.** DSLAM interoperability  
+|  #  |  Mode  |  DSLAM  |  DSLAM chassis  |  Controller card  |  Line card  |  Firmware  |  
+| --- | --- | --- | --- | --- | --- | --- |  
+|  1  |  ATM  |  Alcatel ASAM 7300  |  7300  |  SANT-F  |  SMLT-A  |  LDP7AA46.030  |  
+|  SMLT-C  |  LPR9AA46.029  |  
+|  2  |  ATM  |  Huawei MA5603  |  5603  |  SCUB  |  SHEB  |  1.4.13  |  
+|  3  |  ATM  |  Lucent Stringer  |   |   |  LIM-SL-72  |  9.7.4 e21  |  
+|  LIM-SL-48  |  9.7.4 e21  |  
+|  4  |  ATM  |  ECI 480  |  480  |   |  STUC-16A  |  S3_8.10.16  |  
+|  STUC-32A  |  S3_8.10.16  |  
+|  5  |  ATM  |  Alcatel ISAM_7330_FTTN  |  7330  |  NANT-A  |  NSLT-A  |  1.4.1  |  
+|  SMLT-J  |  1.2.42  |  
+|  6  |  EFM  |  Alcatel ISAM_7330_FTTN  |  7330  |  NANT-A  |  NSLT-A  |  1.4.1  |  
+|  7  |  EFM  |  Huawei_5603  |  5603  |  SCUB  |  SHEB  |  1.4.13  |  
+|  8  |  EFM  |  Huawei_5600  |  5600  |   |  SHEB  |  1.4.18  |  
+|  9  |  EFM  |  Hatteras HN4000  |  HN4000  |   |   |  7.1.2  |  
+|  10  |  EFM  |  Actelis ML698  |  ML 698  |   |   |  SW: 7.10/35  |  
+Platform support
+Table 4 gives platform support details for the multimode G.SHDSL NIMs, and Table 5 shows the number of NIMs supported per router.
+**Table 4.** Supported ISR 4000 platforms  
+|  Platforms  |  Multimode Four-Pair G.SHDSL NIM  |  
+| --- | --- |  
+|  Platforms supported  |  ISR 4221, ISR 4321, ISR 4331, ISR 4351, ISR 4431, and ISR 4451  |  
+|  Onboard NIM slots on all platforms  |  Yes  |  
+**Table 5.** Number of supported multimode G.SHDSL double-wide NIMs per ISR 4000 platform  
+|  Platform part numbers  |  Maximum number of NIMs  |  
+| --- | --- |  
+|  Cisco 4321 and 4331 ISR routers  |  2  |  
+|  Cisco 4351, 4431, and 4451 ISR routers  |  3  |  
+Software requirements
+The single-port Cisco Multimode G.SHDSL NIM is supported on Cisco IOS XE Software Release 16.8.1 and later releases on Cisco 4321, 4331, 4351, 4431, and 4451 Integrated Services Routers.
+The G.SHDSL features are supported with the IP Base technology package license for the Cisco 4300 and 4400 Series Integrated Services Routers.
+Product number and ordering information
+Table 6 gives product ordering information, and Table 7 gives product hardware specifications.
+**Table 6.** Product ordering information  
+|  Product Number  |  Description  |  
+| --- | --- |  
+|  NIM-4SHDSL-EA  |  4-pair G.SHDSL EFM/ATM NIM  |  
+**Table 7.** Hardware specifications  
+|  Specification  |  Cisco Multimode Four-Pair G.SHDSL NIM  |  
+| --- | --- |  
+|  Chipset  |  Socrates-4e from Lantiq  |  
+|  Dimensions (H x W x D)  |  3.50 x 1.25 x 7.24 in. (8.89 x 3.18 x 18.39 cm)  |  
+|  Firmware version  |  IDC firmware version: V 1.7.2.6  |  
+|  Weight  |  0.40 lb (181g)  |  
+|  LEDs  |  EN/LP  |  Status of the system: Green: Operating system is running Amber: Indicates loopback mode  |  
+|  EFM  |  Green: Indicates EFM mode  |  
+|  ATM  |  Green: Indicates ATM mode  |  
+|  L0, L1, L2, L3  |  Status of link: Green on: Link is active Off: Link is inactive or not configured Amber: Link alarm Blinking green: Link is training Amber and green blinking Simultaneously: Loopback mode EN/LP is also amber  |  
+|  Ports  |  RJ-45 connector  |  
+|  Cable  |  RJ-45  |  
+|  Network Equipment Building Standards (NEBS) compliance  |  No  |  
+Safety, EMC, telecom, network homologation, power, and environmental requirements
+When installed in a Cisco ISR 4000 router, the multimode four-pair G.SHDSL NIM (NIM-4SHDSL-EA) does not change the standards (safety, EMC, telecom, network homologation, power, environmental requirements, and regulatory approvals) of the router itself. Refer to the Cisco 4000 Series Integrated Services Routers platform-specific links for regulatory compliance, safety, EMC, and telecom standards at <https://www.cisco.com/go/isr4000>.
+Cisco Capital
+Financing to help you achieve your objectives
+Cisco Capital can help you acquire the technology you need to achieve your objectives and stay competitive. We can help you reduce CapEx. Accelerate your growth. Optimize your investment dollars and ROI. Cisco Capital financing gives you flexibility in acquiring hardware, software, services, and complementary third-party equipment. And there’s just one predictable payment. Cisco Capital is available in more than 100 countries. [Learn more](https://www.cisco.com/web/ciscocapital/americas/us/index.html).
+For more information
+<https://www.cisco.com/c/en/us/td/docs/routers/access/interfaces/NIM/hardware/installation/guide/G-SHDSL-NIM-HIG.html>
+### Contact Cisco
   * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
-  * Call Sales: [ 1-800-553-6387 ](tel:18005536387)   
-US/CAN | 5am-5pm PT 
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
   * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
   * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
 
 
-Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html) to Save Content 
-Download
-Print
-### Available Languages
-### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.pdf) (801.5 KB)   
-View with Adobe Reader on a variety of devices
-
-
-Updated:July 17, 2019
-#### Table of Contents
-![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
-![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
-#### Table of Contents
-  * [Product Overview](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html#ProductOverview "ProductOverview")
-  * [Module Feature Comparison](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html#ModuleFeatureComparison "ModuleFeatureComparison")
-  * [Installation](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html#Installation "Installation")
-  * [Module LED Indicators](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html#ModuleLEDIndicators "ModuleLEDIndicators")
-  * [Deployment Examples](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html#DeploymentExamples "DeploymentExamples")
-  * [Features](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html#Features "Features")
-  * [Specifications](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html#Specifications "Specifications")
-  * [Additional References](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html#AdditionalReferences "AdditionalReferences")
-  * [Ordering Information](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html#OrderingInformation "OrderingInformation")
-  * [Technical Assistance](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html#TechnicalAssistance "TechnicalAssistance")
-  * [Cisco Capital](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html#CiscoCapital "CiscoCapital")
-
-
-Product Overview
-Cisco® Gigabit Ethernet WAN Modules bring high-density Small Form-Factor Pluggable (SFP) and copper (RJ-45) 1 Gigabit and 10 Gigabit Ethernet (GE) connectivity to the Cisco 4000 Series Integrated Services Routers (ISRs). Providing maximum flexibility, the modules accelerate applications such as Ethernet WAN access, inter-VLAN routing, and high-speed connectivity to LAN switches and servers.
-The ports on these modules work as routed Layer 3 ports. Layer 2 switching between local ports on the module or between ports on the module and other ports within the router system is not supported. The port terminates Layer 2 trunks from externally connected switches, and Layer 2 trunk and VLAN information is not switched onto other ports in the system. The host router routes all traffic entering these modules.
-Cisco Gigabit Ethernet WAN Modules do not support Power over Ethernet (PoE).
-Cisco offers four types of Ethernet WAN modules:
-●Cisco 1-Port Gigabit Ethernet WAN Network Interface Module (NIM-1GE-CU-SFP) (Figure 1)
-●Cisco 2-Port Gigabit Ethernet WAN Network Interface Module (NIM-2GE-CU-SFP) (Figure 1)
-●Cisco 6-Port High-Density Gigabit Ethernet WAN Service Module (SM-X-6X1G) (Figure 2)
-●Cisco 4-Port High-Density Gigabit or 1-Port 10 Gigabit Ethernet WAN Service Module (SM-X-4X1G-1X10G) (Figure 3)
-The Cisco 4-Port Gigabit or 1-Port 10 Gigabit Ethernet WAN Service Module can be operated in two mutually exclusive modes:
-●4-port Gigabit Ethernet mode
-●1-port 10 Gigabit Ethernet mode; use of the 10 Gigabit Ethernet port disables the other ports
-[![datasheet-c78-730527_0.jpg](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.docx/_jcr_content/renditions/datasheet-c78-730527_0.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.docx/_jcr_content/renditions/datasheet-c78-730527_0.jpg "datasheet-c78-730527_0.jpg")
-Figure 1. 
-Cisco 1- and 2-Port Gigabit Ethernet WAN Network Interface Modules
-[![datasheet-c78-730527_1.jpg](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.docx/_jcr_content/renditions/datasheet-c78-730527_1.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.docx/_jcr_content/renditions/datasheet-c78-730527_1.jpg "datasheet-c78-730527_1.jpg")
-Figure 2. 
-Cisco 6-Port High-Density Gigabit Ethernet WAN Service Module
-[![datasheet-c78-730527_2.jpg](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.docx/_jcr_content/renditions/datasheet-c78-730527_2.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.docx/_jcr_content/renditions/datasheet-c78-730527_2.jpg "datasheet-c78-730527_2.jpg")
-Figure 3. 
-Cisco 4-Port High-Density Gigabit or 1-Port 10 Gigabit Ethernet WAN Service Module
-Module Feature Comparison
-Table 1 compares the software and hardware features at a high level.
-**Table 1.** Feature Comparison  
-|  Variable  |  ISR 4000 Front-panel GE ports  |  Cisco 1-Port Gigabit Ethernet WAN NIM (NIM‑1GE-CU-SFP)  |  Cisco 2-Port Gigabit Ethernet WAN NIM (NIM‑2GE-CU-SFP)  |  Cisco 6-Port High-Density Gigabit Ethernet WAN Service Module (SM-X-6X1G)  |  Cisco 4-Port High-Density Gigabit or 1-Port 10 Gigabit Ethernet WAN Service Module (SM‑X‑4X1G-1X10G)  |  
-| --- | --- | --- | --- | --- | --- |  
-|  Form Factor  |  Built-in  |  Network Interface Module (NIM)  |  NIM  |  Single-wide Enhanced Service Module (SM-X)  |  SM-X  |  
-|  Cisco 4000 Series ISR support  |  All  |  All  |  4321, 4331, 4351, 4431, 4451, 4461  |  Platforms with SM-X slot  |  Platforms with SM-X slot  |  
-|  Auto-switchover and auto-failover*  |  Yes  |  Yes  |  Yes  |  Yes  |  Yes  |  
-|  Input packet classification on module  |  No  |  No  |  No  |  Yes**  |  Yes**  |  
-|  MACsec support* (IEEE 802.1AE)  |  No  |  No  |  256-bit  |  No  |  No  |  
-* Requires Cisco IOS ® XE Software Release 3.16. Auto-switchover and auto-failover are also supported on front-panel Gigabit Ethernet ports on the Cisco 4000 Series ISRs on the dual-phy GE interface ports. 
-** For the classifications of packets on the input queue (to apply Quality of Service [QoS]), two types of classification methods are supported: based on either IPv4 and IPv6 or standard 802.1Q. These methods are mutually exclusive. 
-The IPv4 and IPv6 classification rules can be enabled on up to three of the external ports. The same rules must apply to both IPv4 and IPv6 addresses. The 802.1Q-based classification is supported on all ports.
-The Cisco Gigabit Ethernet WAN Modules report the packet and byte statistics at an aggregate level per port. These statistics cannot be generated per VLAN. These measurements include policy drops, oversubscription drops, unicast, broadcast input, and output packet bytes or counts.
-Installation
-You can install service modules and network modules either before or after mounting the router. The 1- and 2-port NIMs also support the enhanced Service Module (SM-X) slot with an adaptor card. The Cisco Gigabit Ethernet WAN Modules support hard Online Insertion and Removal (OIR). You can insert them into the router while the router is powered on.
-For important tips, safety warnings, and other information you need to know before and during installation of the Cisco Gigabit Ethernet WAN Modules, please refer to [Installing Cisco Network Modules and Service Modules in Cisco Access Routers](https://www.cisco.com/en/US/docs/routers/access/interfaces/nm/hardware/installation/guide/InstNetM.html).
-**Warning:** To comply with the Telcordia GR-1089 Network Equipment Building Standards (NEBS) for electromagnetic compatibility and safety, connect the Gigabit Ethernet ports only to intrabuilding or unexposed wiring or cable. The intrabuilding cable must be shielded and the shield must be grounded at both ends. The intrabuilding port(s) of the equipment or subassembly must not be metallically connected to interfaces that connect to the Outside Plant (OSP) or its wiring. These interfaces are designed for use as intrabuilding interfaces for only type 2 or type 4 ports as described in [Telcordia GR-1089-CORE](https://telecom-info.telcordia.com/site-cgi/ido/docs.cgi?ID=SEARCH&DOCUMENT=GR-1089), and they require isolation from the exposed OSP cabling. The addition of primary protectors is not sufficient protection to connect these interfaces metallically to OSP wiring.
-Platform, SFP, and Cisco IOS XE Software Release Support
-The Cisco Gigabit Ethernet WAN Modules are generally supported on all Cisco 4000 Series ISRs subject to the availability of an appropriate slot. You may deploy as many modules as the platform slot density allows. For specific details about platform, SFP, and Cisco IOS XE Software support, visit the Ethernet WAN section at: <https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/relevant-interfaces-and-modules.html>.
-For configuration instructions, refer to the “Configuring Ethernet, Fast Ethernet, or Gigabit Ethernet Interfaces” chapter of **Configuring LAN Interfaces**. The guidelines in this chapter apply to all Cisco modular access routers.
-For more configuration instructions and other related documents, refer to the “Related Documents and Links” section on page 6 of that document.
-**Note:** Use the show diag command to check the hardware information of the Cisco Gigabit Ethernet WAN Service Modules.
-Module LED Indicators
-The Cisco Gigabit Ethernet WAN Modules have several EN (Enabled) or L (Link) LEDs located around the SFP and RJ-45 ports. The LEDs indicate that the module has passed its self-test and is available to the router. Tables 2 and 3 list the LED colors and their meanings.
-**Table 2.** EN (Enable) and L (Link) LED Status  
-|  LED State   |  System Status  |  
-| --- | --- |  
-|  Off  |  Default is Off when module is powered on for the first time. It is persistent until changed by the host software.  |  
-|  Solid green  |  The module is powered on and is functioning correctly.  |  
-|  Solid amber (SFP only)  |  The module has some failure.  |  
-**Table 3.** S (Speed) LED Status  
-|  LED State  |  Port Speed  |  
-| --- | --- |  
-|  Off  |  No link  |  
-|  1 blink  |  10 Mbps  |  
-|  2 blinks  |  100 Mbps  |  
-|  3 blinks  |  1 Gbps  |  
-Deployment Examples
-Cisco Intelligent WAN
-The [Cisco Intelligent WAN (IWAN)](https://www.cisco.com/en/US/netsol/ns1247/index.html) solution enables customers to deploy new services faster regardless of transport model, whether it is a private WAN using a Multiprotocol Label Switching (MPLS) offering, a common Internet connection, or hybrid WAN access consisting of both models. The Cisco IWAN solution furthermore allows organizations to realize significant cost benefits from using the common Internet as the underlying WAN infrastructure. Using the Cisco Integrated Services Router with [Application Experience (ISR-AX)](https://www.cisco.com/en/US/netsol/ns1226/index.html) services, based on application, endpoint, and network conditions, you can dynamically route traffic over multiple WAN connections in order to deliver the best-quality experience.
-Figure 4 demonstrates the use of the Cisco 1-Port 10 Gigabit Ethernet WAN Service Module as part of the Cisco IWAN solution. At the regional office, the Cisco 6-Port Gigabit Ethernet WAN Service Module aggregates the sub-rate Gigabit Ethernet WAN connections from different Internet Service Providers (ISPs). The remote branch-office routers connect to either one, or in some cases both, of those ISPs.
-[![datasheet-c78-730527_3.jpg](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.docx/_jcr_content/renditions/datasheet-c78-730527_3.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.docx/_jcr_content/renditions/datasheet-c78-730527_3.jpg "datasheet-c78-730527_3.jpg")
-Figure 4. 
-Cisco 6-Port Gigabit Ethernet Service Module as Part of Cisco IWAN Solution
-Fiber and Copper Aggregation within Building and Intracampus
-Figure 5 demonstrates the use of the Cisco 6-Port Gigabit Ethernet WAN Service Module in a campus LAN environment with the mix of copper and fiber cabling options. The Cisco 6-Port Gigabit Ethernet WAN Service Module provides great flexibility, eliminates the need for a separate switch, and increases network reliability.
-The combination of two service modules plus the 4 onboard ports can support up to 16 routed fiber ports in a single Cisco 4451-X chassis, adding superior scalability to intracampus networking connections.
-[![datasheet-c78-730527_4.jpg](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.docx/_jcr_content/renditions/datasheet-c78-730527_4.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.docx/_jcr_content/renditions/datasheet-c78-730527_4.jpg "datasheet-c78-730527_4.jpg")
-Figure 5. 
-Cisco 6-Port Gigabit Ethernet WAN Service Module for the Campus Network
-Aggregation for Mobile Service Provider Picocell or Femtocell Network Deployment
-Figure 6 demonstrates the use of the Cisco 4-Port Gigabit or 1-Port 10 Gigabit Ethernet WAN Service Modules in a typical mobile service provider’s (MSP’s) picocell or femtocell deployment. The module provides fiber aggregation to links from multiple intermediate distribution frames (IDFs), again eliminating the need for a separate switch and reducing the number of devices to provision and manage.
-[![datasheet-c78-730527_5.jpg](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.docx/_jcr_content/renditions/datasheet-c78-730527_5.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.docx/_jcr_content/renditions/datasheet-c78-730527_5.jpg "datasheet-c78-730527_5.jpg")
-Figure 6. 
-Cisco 4-Port Gigabit or 1-Port 10 Gigabit Ethernet WAN Service Modules for Aggregation in Picocell and Femtocell Deployments
-Features
-The Cisco Gigabit Ethernet WAN Service Modules are based on the technology of the onboard Gigabit Ethernet and SFP ports on the Cisco 4000 Series ISR. Feature support is therefore identical to that of the onboard ports.
-Specifications
-Tables 4 and 5 list the physical and environmental specifications, respectively, of the Cisco Gigabit Ethernet WAN Service Modules.
-**Table 4.** Physical Specifications   
-|   |  Cisco 1-Port Gigabit Ethernet WAN NIM (NIM‑1GE-CU-SFP)  |  Cisco 2-Port Gigabit Ethernet WAN NIM (NIM‑2GE-CU-SFP)  |  Cisco 6-Port High-Density Gigabit Ethernet WAN Service Module (SM‑X‑6X1G)  |  Cisco 4-Port High-Density Gigabit or 1-Port 10 Gigabit Ethernet WAN Service Module (SM‑X‑4X1G-1X10G)  |  
-| --- | --- | --- | --- | --- |  
-|  Form Factor  |  NIM  |  NIM  |  SM-X  |  SM-X  |  
-|  Dimensions  
-(H x W x D)  |  1.25 x 3.50 x 7.24 in. (32 x 89 x 184 mm)  |  1.25 x 3.50 x 7.24 in. (32 x 89 x 184 mm)  |  1.57 x 8.11 x 8.15 in (40 x 206 x 207 mm)  |  1.57 x 8.11 x 8.15 in (40 x 206 x 207 mm)  |  
-|  Weight  |  240 grams  |  252 grams  |  872 grams  |  848 grams  |  
-**Table 5.** Environmental Specifications  
-|   |  All models  |  
-| --- | --- |  
-|  Operating temperature  |  32 to 104°F (0 to 40°C)  |  
-|  Storage temperature  |  -38 to 150°F (-40 to 70°C)  |  
-|  Relative humidity  |  5 to 95%  |  
-|  Operating humidity  |  5 to 85%  |  
-Additional References
-References related to hardware installation, software configuration, and regulatory compliance information are available at the following resources:
-●[Connecting the Cisco NIM-1GE-CU-SFP and NIM-2GE-CU-SFP](https://www.cisco.com/c/en/us/td/docs/routers/access/interfaces/NIM/hardware/installation/guide/InstGENIMs.html)
-●[Connecting the Cisco SM-X-6X1G and SM-X-4X1G-1X10G](https://www.cisco.com/c/en/us/td/docs/routers/access/interfaces/sm/hardware/installation/guide/hig-6-10ge.html)
-●[Configuring the Cisco NIM-1GE-CU-SFP and NIM-2GE-CU-SFP](https://www.cisco.com/c/en/us/td/docs/routers/access/interfaces/NIM/software/configuration/guide/cfgGENIMs.html)
-●[Configuring SM-X-6X1G and SM-X-4X1G-1X10G](https://www.cisco.com/c/en/us/td/docs/routers/access/interfaces/sm/software/configuration/guide/cfg-6-10ge.html)
-●[Hardware Installation Guide for the Cisco 4451-X Integrated Services Router](https://www.cisco.com/en/US/docs/routers/access/4400/hardware/installation/guide/C4400isr.pdf)
-●[Cisco 4451-X Integrated Services Routers Software Configuration Guide](https://www.cisco.com/en/US/docs/routers/access/4400/software/configuration/guide/isr4400swcfg.pdf)
-●[Cisco Network Modules and Interface Cards Regulatory Compliance and Safety Information](https://www.cisco.com/en/US/docs/routers/access/interfaces/rcsi/IOHrcsi.html)
-●[Documentation Roadmap for the Cisco 4400 Series Integrated Services Routers](https://www.cisco.com/en/US/docs/routers/access/4400/roadmap/isr4400roadmap.html)
-Ordering Information
-Table 6 gives ordering information for the Cisco Gigabit Ethernet WAN Service Modules.
-**Table 6.** Ordering Information  
-|  Part Number  |  Description  |  
-| --- | --- |  
-|  NIM-1GE-CU-SFP(=)  |  1-port Gigabit Ethernet, dual-mode GE/SFP, Network Interface Module  |  
-|  NIM-2GE-CU-SFP(=)  |  2-port Gigabit Ethernet, dual-mode GE/SFP, Network Interface Module  |  
-|  SM-X-6X1G(=)  |  6-port Gigabit Ethernet, dual-mode GE/SFP, SM-X Module  |  
-|  SM-X-4X1G-1X10G(=)  |  4-port Gigabit Ethernet, dual-mode GE/SFP or 1-port 10G SFP+, SM-X Module  |  
-Technical Assistance
-The [Cisco Support](https://www.cisco.com/techsupport) website provides extensive online resources, including documentation and tools for troubleshooting and resolving technical problems with Cisco products and technologies.
-To receive security and technical information about your products, you can subscribe to various services, such as the Product Alert Tool (accessed from Field Notices), the [Cisco Technical Services Newsletter](https://www.cisco.com/web/services/technical-services-newsletter/index.html), and [Really Simple Syndication (RSS)](https://newsroom.cisco.com/rss-feeds) feeds.
-Access to most tools on the Cisco Support website requires a Cisco.com user ID and password.
-Cisco Capital
-Flexible payment solutions to help you achieve your objectives
-Cisco Capitalmakes it easier to get the right technology to achieve your objectives, enable business transformation and help you stay competitive. We can help you reduce the total cost of ownership, conserve capital, and accelerate growth. In more than 100 countries, our flexible payment solutions can help you acquire hardware, software, services and complementary third-party equipment in easy, predictable payments. [Learn more](https://www.cisco.com/go/financing).
-### Our experts recommend
-  * [Miercom Performance Analysis: Cisco 4000 Series ISRs](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/miercom-isr4k-report.pdf "Miercom Performance Analysis: Cisco 4000 Series ISRs")
-  * [Cisco 4000 Series Integrated Services Routers At-A-Glance](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/at-a-glance-c45-732425.html "Cisco 4000 Series Integrated Services Routers At-A-Glance")
-
-
-### Learn more
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
