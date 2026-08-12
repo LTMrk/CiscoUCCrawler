@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-742344.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-742344.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-742344.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-731087.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-731087.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-731087.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,75 +19,190 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-742344.html)
+  * [](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-731087.html)
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Contact Center](https://www.cisco.com/c/en/us/products/contact-center/index.html)
   * [Cisco Unified Contact Center Express](https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-express/index.html)
   * [End-of-Life and End-of-Sale Notices](https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-express/eos-eol-notice-listing.html)
 
 
-# End-of-Sale and End-of-Life Announcement for the Cisco End of Life announcement for Contact Center Express 10.0 Promotional Bundles
+# End-of-Sale and End-of-Life Announcement for the Cisco Unified Contact Center Express 8.5(1) - Part 1
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-742344.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-731087.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-742344.pdf) (185.5 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-731087.pdf) (508.7 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:May 2, 2019
-Document ID:1556847315084362
+Updated:January 11, 2019
+Document ID:1549302221739141
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
-EOL12989
-Cisco announces the end-of-sale and end-of-life dates for the Cisco End of Life announcement for Contact Center Express 10.0 Promotional Bundles. The last day to order the affected product(s) is June 1, 2019. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract. 
-**Table 1.** End-of-Life Milestones and Dates for the Cisco End-of-Life announcement for Contact Center Express 10.0 Promotional Bundles  
+EOL9639
+Cisco announces the end-of-sale and end-of-life dates for the Cisco Unified Contact Center Express 8.5(1) - Part 1. The last day to order the affected product(s) is August 25, 2014. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract.
+**Table 1.** End-of-Life Milestones and Dates for the Cisco Unified Contact Center Express 8.5(1) - Part 1  
 |  Milestone  |  Definition  |  Date  |  
 | --- | --- | --- |  
-|  End-of-Life Announcement Date   |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  May 1, 2019  |  
-|  End-of-Sale Date:  
-App SW   |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  June 1, 2019  |  
+|  End-of-Life Announcement Date  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  February 24, 2014  |  
+|  End-of-Sale Date  |  The last date to order the product through Cisco point-of-sale mechanisms. Theproduct is no longer for sale after this date.  |  August 25, 2014  |  
 |  Last Ship Date:  
-App SW   |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  August 30, 2019  |  
+App. SW  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  November 23, 2014  |  
 |  End of SW Maintenance Releases Date:  
-App SW   |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  May 31, 2020  |  
+App. SW  |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  August 25, 2015  |  
 |  End of New Service Attachment Date:  
-App SW   |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  May 31, 2020  |  
-|  End of Service Contract Renewal Date:   
-App SW   |  The last date to extend or renew a service contract for the product.  |  August 27, 2021  |  
+App. SW  |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  August 25, 2015  |  
+|  End of Service Contract Renewal Date:  
+App. SW  |  The last date to extend or renew a service contract for the product.  |  November 20, 2016  |  
 |  Last Date of Support:  
-App SW   |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  May 31, 2022  |  
+App. SW  |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  August 31, 2017  |  
 HW = Hardware OS SW = Operating System Software App. SW = Application Software 
 **Table 2.** Product Part Numbers Affected by This Announcement  
-|  End-of-Sale Product Part Number  |  Product Description   |  
-| --- | --- |  
-|  CCX-10-25E  |  CCX 10 Enhanced 25 seat Promo Bundle  |  
-|  CCX-10-25P  |  CCX 10 premium 25 seat Promo Bundle  |  
-|  CCX-10-5E  |  CCX 10 Enhanced 5 seat Promo Bundle  |  
-|  CCX-10-5P  |  CCX 10 Premium 5 seat Promo Bundle  |  
-|  CCX-10-ADD-K9  |  CCX 10.0 Add-on Licenses  |  
-|  CCX-10-NPS-K9=  |  CCX 10 Non Production System  |  
-|  CCX-10-WPL-NFR  |  CCX 10 UC 10 NFR  |  
-|  CCX-85-10-E-E-UPAK  |  CCX 10.0 UPGRADE PAK - 8.5 to 11.0, ENH-ENH  |  
-|  CCX-85-10-P-P-UPAK  |  CCX 10.0 UPGRADE PAK - 8.5 to 11.0, PRE-PRE  |  
-|  CCX-85-10-S-S-UPAK  |  CCX 10.0 UPGRADE PAK - 8.5 to 11.0, STD-STD  |  
-|  CCX-85-10EE-SUPAK  |  CCX 10.0 UPGRADE PAK - 8.5 to 11.0, ENH-ENH Seat  |  
-|  CCX-85-10PP-SUPAK  |  CCX 10.0 UPGRADE PAK - 8.5 to 11.0, PRE-PRE Seat  |  
-|  CCX-85-10SS-SUPAK  |  CCX 10.0 UPGRADE PAK - 8.5 to 11.0, STD-STD Seat  |  
-|  CCX-90-10P  |  CCX 9.0 10 Premium Seat Bundle  |  
-|  CCX-UPG-10-EHA-PAK  |  CCX 10 Enhanced HA Upgrade PAK  |  
-|  CCX-UPG-10-PHA-PAK  |  CCX 10 Premium HA Upgrade PAK  |  
+|  End-of-Sale Product PartNumber  |  Product Description  |  Replacement Product Part Number  |  Replacement Product Description  |  Additional Information  |  
+| --- | --- | --- | --- | --- |  
+|  CCX-40-85-EHA  |  CCX 8.5 UPGRADE - 4.0 to 8.5 ENH HA-HA  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-40-85-PHA  |  CCX 8.5 UPGRADE - 4.0 to 8.5 PRE HA-HA  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-41-85-EHA  |  CCX 8.5 UPGRADE - 4.1 to 8.5 ENH HA-HA  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-41-85-PHA  |  CCX 8.5 UPGRADE - 4.1 to 8.5 PRE HA-HA  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-41-85U-Q-QS1  |  CCX 8.5 UPGRADE - 4.1 to 8.5 Qty 1 QM-QM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-41-85U-W-WS1  |  CCX 8.5 UPGRADE - 4.1 to 8.5 Qty 1 WFM-WFM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-41-85UQAQMS1  |  CCX 8.5 UPGRADE - 4.1 to 8.5 Qty 1 QM-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-50-85-EHA  |  CCX 8.5 UPGRADE - 5.0 to 8.5 ENH HA-HA  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-50-85-PHA  |  CCX 8.5 UPGRADE - 5.0 to 8.5 PRE HA-HA  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-50-85U-A-AS1  |  CCX 8.5 UPGRADE - 5.0 to 8.5 Qty 1 AQM-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-50-85U-Q-QS1  |  CCX 8.5 UPGRADE - 5.0 to 8.5 Qty 1 QM-QM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-50-85U-W-WS1  |  CCX 8.5 UPGRADE - 5.0 to 8.5 Qty 1 WFM-WFM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-50-85UQAQMS1  |  CCX 8.5 UPGRADE - 5.0 to 8.5 Qty 1 QM-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-60-85-EHA  |  CCX 8.5 UPGRADE - 6.0 to 8.5 ENH HA-HA  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-60-85-PHA  |  CCX 8.5 UPGRADE - 6.0 to 8.5 PRE HA-HA  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-60-85U-A-AS1  |  CCX 8.5 UPGRADE - 6.0 to 8.5 Qty 1 AQM-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-60-85U-Q-QS1  |  CCX 8.5 UPGRADE - 6.0 to 8.5 Qty 1 QM-QM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-60-85U-W-WS1  |  CCX 8.5 UPGRADE - 6.0 to 8.5 Qty 1 WFM-WFM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-60-85UQAQMS1  |  CCX 8.5 UPGRADE - 6.0 to 8.5 Qty 1 QM-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-70-85-EHA  |  CCX 8.5 UPGRADE - 7.0 to 8.5 ENH HA-HA  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-70-85-PHA  |  CCX 8.5 UPGRADE - 7.0 to 8.5 PRE HA-HA  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-70-85U-A-AS1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 AQM-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-70-85U-C-CS1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 CR-CR Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-70-85U-CQMS1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 CR-QM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-70-85U-Q-QS1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 QM-QM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-70-85U-W-WS1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 WFM-WFM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-70-85UCAQMS1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 CR-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-70-85UQAQMS1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 QM-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-80-85-EHA  |  CCX 8.5 UPGRADE - 8.0 to 8.5 ENH HA-HA  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-80-85-PHA  |  CCX 8.5 UPGRADE - 8.0 to 8.5 PRE HA-HA  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-80-85U-A-AS1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 AQM-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-80-85U-C-CS1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 CR-CR Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-80-85U-CQMS1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 CR-QM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-80-85U-Q-QS1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 QM-QM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-80-85U-W-WS1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 WFM-WFM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-80-85UCAQMS1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 CR-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-80-85UQAQMS1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 QM-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-85-85U-CQMS1  |  CCX 8.5 UPGRADE - 80 to 8.5 Qty 1 CR-QM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-85-85UCAQMS1  |  CCX 8.5 UPGRADE - 8.5 to 8.5 Qty 1 CR-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-85-85UQAQMS1  |  CCX 8.5 UPGRADE - 8.5 to 8.5 Qty 1 QM-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-85-S-ADDS1-UWL  |  CCX 8.5 STD Seat Qty 1 (agent or supervisor) a la carte seat  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-85-UPG-LIC  |  CCX 8.5 UPGRADE - Physical Delivery LICENSES ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX-85-UPGRADE  |  CCX 8.5 UPGRADE-Product, UCSS pDelvery LICENSES ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX3X-85U-E-E-S1  |  CCX 8.5 UPGRADE - 3.0, 3.1 or 3.5 to 8.5 Qty 1 ENH-ENH Seat  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX3X-85U-E-P-S1  |  CCX 8.5 UPGRADE - 3.0, 3.1 or 3.5 to 8.5 Qty 1 ENH-PRE Seat  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX3X-85U-P-P-S1  |  CCX 8.5 UPGRADE - 3.0, 3.1 or 3.5 to 8.5 Qty 1 PRE-PRE Seat  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX3X-85U-S-E-S1  |  CCX 8.5 UPGRADE - 3.0, 3.1 or 3.5 to 8.5 Qty 1 STD-ENH Seat  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX3X-85U-S-P-S1  |  CCX 8.5 UPGRADE - 3.0, 3.1 or 3.5 to 8.5 Qty 1 STD-PRE Seat  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX3X-85U-S-S-S1  |  CCX 8.5 UPGRADE - 3.0, 3.1 or 3.5 to 8.5 Qty 1 STD-STD Seat  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX40-85U-E-E-S1  |  CCX 8.5 UPGRADE - 4.0 to 8.5 Qty 1 ENH-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX40-85U-E-P-S1  |  CCX 8.5 UPGRADE - 4.0 to 8.5 Qty 1 ENH-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX40-85U-P-P-S1  |  CCX 8.5 UPGRADE - 4.0 to 8.5 Qty 1 PRE-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX40-85U-S-E-S1  |  CCX 8.5 UPGRADE - 4.0 to 8.5 Qty 1 STD-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX40-85U-S-P-S1  |  CCX 8.5 UPGRADE - 4.0 to 8.5 Qty 1 STD-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX40-85U-S-S-S1  |  CCX 8.5 UPGRADE - 4.0 to 8.5 Qty 1 STD-STD Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX41-85U-E-E-S1  |  CCX 8.5 UPGRADE - 4.1 to 8.5 Qty 1 ENH-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX41-85U-E-P-S1  |  CCX 8.5 UPGRADE - 4.1 to 8.5 Qty 1 ENH-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX41-85U-P-P-S1  |  CCX 8.5 UPGRADE - 4.1 to 8.5 Qty 1 PRE-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX41-85U-S-E-S1  |  CCX 8.5 UPGRADE - 4.1 to 8.5 Qty 1 STD-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX41-85U-S-P-S1  |  CCX 8.5 UPGRADE - 4.1 to 8.5 Qty 1 STD-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX41-85U-S-S-S1  |  CCX 8.5 UPGRADE - 4.1 to 8.5 Qty 1 STD-STD Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX45-85U-E-E-S1  |  CCX 8.5 UPGRADE - 4.5 to 8.5 Qty 1 ENH-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX45-85U-E-P-S1  |  CCX 8.5 UPGRADE - 4.5 to 8.5 Qty 1 ENH-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX45-85U-P-P-S1  |  CCX 8.5 UPGRADE - 4.5 to 8.5 Qty 1 PRE-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX45-85U-S-E-S1  |  CCX 8.5 UPGRADE - 4.5 to 8.5 Qty 1 STD-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX45-85U-S-P-S1  |  CCX 8.5 UPGRADE - 4.5 to 8.5 Qty 1 STD-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX45-85U-S-S-S1  |  CCX 8.5 UPGRADE - 4.5 to 8.5 Qty 1 STD-STD Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX50-85U-E-E-S1  |  CCX 8.5 UPGRADE - 5.0 to 8.5 Qty 1 ENH-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX50-85U-E-P-S1  |  CCX 8.5 UPGRADE - 5.0 to 8.5 Qty 1 ENH-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX50-85U-P-P-S1  |  CCX 8.5 UPGRADE - 5.0 to 8.5 Qty 1 PRE-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX50-85U-S-E-S1  |  CCX 8.5 UPGRADE - 5.0 to 8.5 Qty 1 STD-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX50-85U-S-P-S1  |  CCX 8.5 UPGRADE - 5.0 to 8.5 Qty 1 STD-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX50-85U-S-S-S1  |  CCX 8.5 UPGRADE - 5.0 to 8.5 Qty 1 STD-STD Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX60-85U-E-E-S1  |  CCX 8.5 UPGRADE - 6.0 to 8.5 Qty 1 ENH-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX60-85U-E-P-S1  |  CCX 8.5 UPGRADE - 6.0 to 8.5 Qty 1 ENH-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX60-85U-P-P-S1  |  CCX 8.5 UPGRADE - 6.0 to 8.5 Qty 1 PRE-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX60-85U-S-E-S1  |  CCX 8.5 UPGRADE - 6.0 to 8.5 Qty 1 STD-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX60-85U-S-P-S1  |  CCX 8.5 UPGRADE - 6.0 to 8.5 Qty 1 STD-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX60-85U-S-S-S1  |  CCX 8.5 UPGRADE - 6.0 to 8.5 Qty 1 STD-STD Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX70-85U-E-E-S1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 ENH-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX70-85U-E-P-S1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 ENH-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX70-85U-P-P-S1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 PRE-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX70-85U-S-E-S1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 STD-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX70-85U-S-P-S1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 STD-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX70-85U-S-S-S1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 STD-STD Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX80-85U-E-E-S1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 ENH-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX80-85U-E-P-S1  |  CCX 8.5 UPGRADE -8.0 to 8.5 Qty 1 ENH-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX80-85U-P-P-S1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 PRE-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX80-85U-S-E-S1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 STD-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX80-85U-S-P-S1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 STD-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX80-85U-S-S-S1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 STD-STD Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX85-85U-E-P-S1  |  CCX 8.5 UPGRADE - 8.5 to 8.5 Qty 1 ENH-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX85-85U-S-E-S1  |  CCX 8.5 UPGRADE - 8.5 to 8.5 Qty 1 STD-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  CCX85-85U-S-P-S1  |  CCX 8.5 UPGRADE - 8.5 to 8.5 Qty 1 STD-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-70-85U-A-AS1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 AQM-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-70-85U-C-CS1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 CR-CR Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-70-85U-CQMS1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 CR-QM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-70-85U-Q-QS1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 QM-QM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-70-85U-W-WS1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 WFM-WFM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-70-85UCAQMS1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 CR-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-70-85UQAQMS1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 QM-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-80-85U-A-AS1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 AQM-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-80-85U-C-CS1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 CR-CR Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-80-85U-CQMS1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 CR-QM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-80-85U-Q-QS1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 QM-QM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-80-85U-W-WS1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 WFM-WFM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-80-85UCAQMS1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 CR-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-80-85UQAQMS1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 QM-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-85-85U-CQMS1  |  CCX 8.5 UPGRADE - 80 to 8.5 Qty 1 CR-QM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-85-85UCAQMS1  |  CCX 8.5 UPGRADE - 80 to 8.5 Qty 1 CR-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-85-85UQAQMS1  |  CCX 8.5 UPGRADE - 8.5 to 8.5 Qty 1 QM-AQM Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-85-UPG-LIC  |  CCX 8.5 UPGRADE - eDelivery LICENSES ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX-85-UPGRADE  |  CCX 8.5 UPGRADE-Product, UCSS eDelivery LICENSES ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX70-85U-E-E-S1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 ENH-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX70-85U-E-P-S1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 ENH-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX70-85U-P-P-S1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 PRE-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX70-85U-S-E-S1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 STD-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX70-85U-S-P-S1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 STD-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX70-85U-S-S-S1  |  CCX 8.5 UPGRADE - 7.0 to 8.5 Qty 1 STD-STD Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX80-85U-E-E-S1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 ENH-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX80-85U-E-P-S1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 ENH-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX80-85U-P-P-S1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 PRE-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX80-85U-S-E-S1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 STD-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX80-85U-S-P-S1  |  CCX 8.5 UPGRADE - 8.0to 8.5 Qty 1 STD-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX80-85U-S-S-S1  |  CCX 8.5 UPGRADE - 8.0 to 8.5 Qty 1 STD-STD Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX85-85U-E-P-S1  |  CCX 8.5 UPGRADE - 8.5 to 8.5 Qty 1 ENH-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX85-85U-S-E-S1  |  CCX 8.5 UPGRADE - 8.5 to 8.5 Qty 1 STD-ENH Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
+|  L-CCX85-85U-S-P-S1  |  CCX 8.5 UPGRADE - 8.5 to 8.5 Qty 1 STD-PRE Seat LICENSE ONLY  |  See the Product Migration Options section below for detailed information on replacing this product.  |   |   |  
 Product Migration Options
-There is no replacement available for the Cisco End-of-Life announcement for Contact Center Express 10.0 Promotional Bundles at this time.
+Customers are encouraged to migrate to the Unified Contact Center Express 9.0 or 10.0. Information about this product can be found at: <http://www.cisco.com/en/US/products/sw/custcosw/ps1846/index.html>.
+Customers may be able to use the Cisco Technology Migration Program (TMP) where applicable to trade-in eligible products and receive credit toward the purchase of new Cisco equipment. For more information about Cisco TMP, customers should work with their Cisco Partner or Cisco account team. Cisco Partners can find additional TMP information on Partner Central at <http://www.cisco.com/web/partners/incentives_and_promotions/tmp.html>.
+Customers may be able to continue to purchase Cisco Unified Contact Center Express 8.5(1) - Part 1 through the Cisco Certified Refurbished Equipment program. Refurbished units may be available in limited supply for sale in certain countries on a first-come, first-served basis until the Last Date of Support has been reached. For information about the Cisco Certified Refurbished Equipment program, go to: <http://www.cisco.com/go/eos>.
 Service prices for Cisco products are subject to change after the product End-of-Sale date.
-The Cisco Takeback and Recycle program helps businesses properly dispose of surplus products that have reached their end of useful life. The program is open to all business users of Cisco equipment and its associated brands and subsidiaries. For more information, go to: <https://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html>.
+The Cisco Takeback and Recycle program helps businesses dispose properly of surplus products that have reached their end of useful life. The program is open to all business users of Cisco equipment and its associated brands and subsidiaries. For more information, go to: <http://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html>.
 For More Information
-For more information about the Cisco End-of-Life Policy, go to: <https://www.cisco.com/en/US/products/products_end-of-life_policy.html>.
-For more information about the Cisco Product Warranties, go to: <https://www.cisco.com/en/US/products/prod_warranties_listing.html>.
-To subscribe to receive end-of-life/end-of-sale information, go to: <https://www.cisco.com/cisco/support/notifications.html>.
+For more information about the Cisco End-of-Life Policy, go to: <http://www.cisco.com/en/US/products/products_end-of-life_policy.html>.
+For more information about the Cisco Product Warranties, go to: <http://www.cisco.com/en/US/products/prod_warranties_listing.html>.
+To subscribe to receive end-of-life/end-of-sale information, go to: <http://www.cisco.com/cisco/support/notifications.html>.
+Subscribe for RSS Notifications for End-of-Life and End-of-Sale Notices
+To subscribe to the End-of-Life and End-of-Sale RSS Feed, insert the following URL into your RSS application: <http://www.cisco.com/web/feeds/products/end_of_life_rss.xml>.
 Any authorized translation issued by Cisco Systems or affiliates of this end-of-life Product Bulletin is intended to help customers understand the content described in the English version. This translation is the result of a commercially reasonable effort; however, if there are discrepancies between the English version and the translated document, please refer to the English version, which is considered authoritative.
 ### Contact Cisco
   * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
