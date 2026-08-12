@@ -18,17 +18,15 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Vaciar Carpeta Docs
+      - name: Vaciar Carpeta logs
         run: |
           mkdir -p docs
           rm -rf docs/*
           touch docs/.gitkeep
-          
-          - name: Vaciar Carpeta Docs
-        run: |
           mkdir -p logs
           rm -rf logs/*
           touch logs/.gitkeep
+          - name: Vaciar Carpeta Docs
 
       - name: Confirmar y Subir Cambios
         run: |
