@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,27 +19,28 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.html)
-  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html)Show All Breadcrumbs
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/products/unified-communications/index.html)
   * [Call Control](https://www.cisco.com/c/en/us/products/unified-communications/call-control/index.html)
   * [Cisco Unified Communications Manager (CallManager)](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/index.html)
-  * [Q&A](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/q-and-a-listing.html)
+  * [Bulletins](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/bulletin-listing.html)
 
 
-# Questions and Answers on Compliance with Kari’s Law and RAY BAUM’S Act
+# Cisco Unified Communications Manager, IM and Presence Service Bulletin for Cisco Push REST Service
+Bulletin
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.pdf) (145.7 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.pdf) (232.3 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:April 13, 2022
+Updated:December 14, 2023
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
@@ -53,98 +54,100 @@ US/CAN | 5am-5pm PT
 
 
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.pdf) (145.7 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.pdf) (232.3 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:April 13, 2022
+Updated:December 14, 2023
 #### Table of Contents
 ![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
 ![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
 #### Table of Contents
-  * [FCC Call routing regulations](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.html#FCCCallroutingregulations "FCCCallroutingregulations")
-  * [New deployments](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.html#Newdeployments "Newdeployments")
-  * [Existing deployments](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.html#Existingdeployments "Existingdeployments")
-  * [UCM: Scenarios for an emergency caller](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.html#UCMScenariosforanemergencycaller "UCMScenariosforanemergencycaller")
-  * [Emergency call notifications](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.html#Emergencycallnotifications "Emergencycallnotifications")
+  * [Background](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#Background "Background")
+  * [Impact](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#Impact "Impact")
+  * [Action](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#Action "Action")
+  * [Problem symptom](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#Problemsymptom "Problemsymptom")
+  * [For More Information](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#ForMoreInformation "ForMoreInformation")
 
 
-FCC Call routing regulations
-**Q.** How does the new National Suicide Prevention Lifeline impact MLTS? 
-**A.** On July 16, 2020, the FCC adopted rules to establish 988 as a nationwide, 3-digit dialing code for Americans in crisis to connect with suicide prevention and mental health crisis counselors. Starting July 16, 2022, an MLTS must be able to process 988 as an emergency call, to be routed to the National Suicide Prevention Lifeline. Also on this date, all calls to non-emergency external numbers in North America will require 10-digit dialing (area code + number), including calls to local area numbers. Users should be directed to dial 10-digits for all domestic calls. 
-**Q.** How does Kari’s Law apply to enterprise Multiline Telephone Systems (MLTS)? 
-**A.** Kari’s Law requires: 
-1.That MLTS be configured so callers can place 911 emergency calls without the need to dial a prefix; and
-2.That MLTS be configured to notify a secondary party (inside, or optionally outside the enterprise) that an emergency call is being made.
-**Q.** How does RAY BAUM’S Act apply to an enterprise MLTS? 
-**A.** RAY BAUM’S Act requires an MLTS to send dispatchable location given during a 911 call to the Public Safety Answering Point (PSAP). 
-**Q.** What is the effective compliance date for Kari’s law? 
-**A.** Compliance with Kari’s Law goes into effect on February 16, 2020. 
-**Q.** How does Cisco help enterprises meet Kari’s Law and RAY BAUM’S Act compliance for Cisco Unified Communications Manager oriented calling? 
-**A.** Cisco provides direct capabilities within the Cisco ® Unified Communications Manager (UCM) and Cisco Emergency Responder (CER) products to help enterprises be compliant with these laws. We strongly recommend contacting your legal counsel to determine your specific compliance obligations. 
-**Q.** Where on the FCC website can I read more about these laws? 
-**A.** For information about Kari’s Law and RAY BAUM'S Act, see the FCC posting at: <https://docs.fcc.gov/public/attachments/FCC-19-76A1.pdf>. 
-For information about the Suicide Prevention Lifeline, see the FCC posting at: <https://www.fcc.gov/suicide-prevention-hotline>
-New deployments
-**Q.** What version of Cisco Unified Communications Manager UCM) will include direct 911 and 988 dialing? 
-**A.** Cisco UCM allows administrators to configure any emergency dial pattern, including a direct 911 dial pattern. Starting with UCM Releases 11.5 SU8 and 12.5 SU3, Cisco has added configuration check and guidance for direct 911 dialing route patterns, as part of the installation in US specific time zones (where Federal Regulations may apply). If the system already has a direct 911 dialing pattern available, then there will be no changes to the GUI interface. 
-For 988 dialing, we offer native support for UCM Releases 14 SU2 and 11.5 SU11. All other releases are supported using COP files. 
-**Q.** What post-installation operations do I need to complete to help me meet Kari’s Law obligations? 
-**A.** After completing installation and configuring a direct 911 dial pattern, the installer should schedule a maintenance window with any and all local Public-Safety Answering Points (PSAPs) to verify that dialing 911 from a few phones will route directly and reach the correct PSAP. If testing compliance to RAY BAUM’S Act at the same time, after reaching the PSAP, ask the dispatch agent to verify the dispatch address for the calling device. 
-**Q.** I have common-area phones (lobby phones) which do not have Direct Inward Dialing numbers (DIDs). Does Cisco have a solution to help me comply with Kari’s Law and RAY BAUM’S Act? 
-**A.** Yes. The ability to dial 911 directly is required for common-area phones, like lobby phones. Cisco Emergency Responder helps track such phones, similarly and provide emergency treatment, based on the location of the caller so that the PSAP can identify the location of the caller and even call them back, in the event the original 911 call is disconnected. 
-**Q.** I have remote workers/users. How do these laws apply to them? 
-**A.** Remote workers, or users may not be subject to the same requirements as on-premises users (at this time), due to lack of access to their location information and lack of control over their device (may require connecting via a third-party access point that is outside the control of the enterprise). Additional information may be found in the FCC’s final rules ( <https://www.federalregister.gov/documents/2019/12/05/2019-20137/implementing-karis-lawand-ray-baums-act-inquiry-concerning-911-access-routing-andlocation-in>). 
-**Q.** I don’t have Cisco Emergency Responder. How do I order it? 
-**A.** Cisco Emergency Responder can be ordered separately using Product Number: EMRGNCY-RSPNDR. 
-Refer to the Cisco Unified Communications Solutions Ordering Guide at <https://www.cisco.com/c/dam/en/us/products/collateral/unified-communications/unified-communications-managercallmanager/guide-c07-739476.pdf> to learn more on how to order Cisco Emergency Responder. 
-If ordering User Connect Licensing (UCL), User Workspace Licensing (UWL) and Cisco Business Edition 6000 configurations in Cisco Commerce Workspace (CCW), it allows for the selection of CER software and license options. Refer to the Ordering Guide at <https://www.cisco.com/c/dam/en/us/products/collateral/unifiedcommunications/unified-communications-manager-callmanager/guide-c07-739476.pdf>. 
-Cisco Emergency Responder is included with the Flex Order Enterprise Agreement – Calling for On-premises, Hosted, or UCM Cloud. Flex Named User Calling customers can order CER as an add-on under Calling Services. 
-Refer to the Cisco Collaboration Flex Plan ordering guide at: <https://www.cisco.com/c/dam/en/us/products/collateral/customercollaboration/cisco-collaboration-flex-plan-ordering-guide.pdf> for more information. 
-**Q.** I am a Cisco Collaboration Flex Plan customer. How do I get Cisco Emergency Responder? 
-**A.** Cisco Emergency Responder is included with the Flex Order Enterprise Agreement – Calling for On-premises, Hosted, or UCM Cloud. Flex Named User Calling customers can order Cisco Emergency Responder as an add-on under Calling Services. Refer to the Cisco Collaboration Flex Plan ordering guide at <https://www.cisco.com/c/dam/en/us/products/collateral/customer-collaboration/cisco-collaboration-flex-plan-ordering-guide.pdf> for more details on how to get Cisco Emergency Responder. 
-**Q.** I plan to have the same UCM cluster serve non-U.S. offices. How do I handle emergency calls from those users? 
-**A.** Kari’s Law and RAY BAUM’S Act only apply to U.S. locations. Cisco Emergency Responder helps identify non-US location phones through an IP subnet and removes non-US location phones from tracking and accounting for licenses. 
-Existing deployments
-**Q.** I currently have no plans to upgrade UCM. What can I do to meet compliance with the new laws? 
-**A.** Since direct dialing to 911 is available in any version of Cisco UCM, Cisco recommends that all customers configure their existing deployments to support a direct 911 dialing pattern. We strongly recommend contacting your legal counsel to determine your specific compliance obligations. 
-**Q.** I currently don’t have Cisco Emergency Responder with UCM. What are my options for notification? 
-**A.** Since there is no native notification capability in UCM that allows a customer to satisfy Kari’s Law, customers will need to use an application to meet this aspect of the law. Some options that can be used to meet the notification section of Kari’s Law include: 
-●Cisco Emergency Responder
-●RedSky’s E911 Anywhere solution
-●Intrado’s Emergency Routing Gateway Service
-**Q.** My customer uses Extension Mobility. How do I ensure those callers are compliant for Kari’s Law and RAY BAUM’S Act? 
-**A.** Cisco Emergency Responder tracks users and devices as they physically move between buildings and ensures the correct location identification is sent to the emergency services dispatch center. Since the dispatch address for an emergency call is based on the physical location of the calling party, any U.S. site that has been properly configured in Cisco Emergency Responder will be able to ensure Extension Mobility user information is made available. 
-**Q.** I have Extension Mobility Cross Cluster (EMCC) deployed. Can Cisco Emergency Responder help me meet compliance? 
-**A.** Yes. In customer deployments that allow for user mobility between clusters, Cisco Emergency Responder can be configured to support both Kari’s Law and RAY BAUM’S Act. In an EMCC deployment, Cisco Emergency Responder servers will work together to track devices as they log in to phones that are registered to another cluster via Extension Mobility. This ensures that all users will have direct access to 911 services as well as the correct address for emergency services dispatch. And notification will allow local resources to receive notification, even if the calling party is registered to another cluster. 
-**Q.** I have Cisco Jabber users connected over Mobile and Remote Access (MRA). How can I track them when they are on the premises? 
-**A.** Jabber clients that use MRA for connectivity while on premises can be tracked using the Location Awareness feature in UCM. This can be accomplished by the Jabber administrator putting a corporate wireless SSID into the whitelisted SSID in the Jabber configuration file. Once configured, when the Jabber client is associated with the enterprise SSID, Jabber will send the upstream access point information to UCM so that the device client can be tracked to the access point, even when using MRA for UCM registration. 
-UCM: Scenarios for an emergency caller
-**Q.** I have analog phones. What do I need for these devices? 
-**A.** Analog phones are not tracked in the same manner as wired and wireless phones. To provide accurate location information. When using Cisco Emergency Responder, analog phones can be tracked either by the IP subnet of the Foreign Exchange Subscriber (FXS) device or by manually defining the directory number in Cisco Emergency Responder. 
-**Q.** I have third-party phones or Cisco phones behind third-party switches. How do I comply with the law? 
-**A.** Cisco Emergency Responder requires Cisco Discovery Protocol (CDP) support on phones, to provide switch port-based tracking. Any Cisco phones connected to third-party switches or third-party phones connected to Cisco switches can be tracked via their IP subnet or through manual definition. 
-**Q.** I am in a non-U.S. UCM cluster but have users in the United States. How do I ensure compliance for those users? 
-**A.** Kari’s Law and the RAY BAUM’S Act apply to any company that has U.S.-based facilities. Any emergency call from a user who is working in an enterprise location in the U.S. must be able to dial 911 directly, even if the UCM call processing nodes are deployed outside the U.S. Notification of any emergency call place by a caller in the U.S. should be generated irrespective of where the call control servers reside. We strongly recommend contacting your legal counsel to determine your specific compliance obligations. 
-**Q.** How can I prevent accidental 911 calls? 
-**A.** Due to the similarity of prefix-based offnet calling and the 911 emergency number, accidentally calling 911 can happen. In order to balance actual 911 calls with mis-dialed 911 calls, Cisco has a call flow that will insert a short notification announcement prior to routing the call to emergency services. The announcement can be a short message or a single ringtone. The notification should be as short as possible to minimize the delay in reaching emergency services. The Application Note—911 Call Announcement—for this call flow can be found at: <https://community.cisco.com/t5/collaboration-voice-andvideo/911-call-announcement/ta-p/3203809>. 
-Emergency call notifications
-**Q.** What is defined as notification by Kari’s Law? 
-**A.** Kari’s Law is not explicit as to the method of notification, but it allows for the installers, managers, and operators to use an “efficient and cost-effective notification solution.” Some examples of notification solutions include visual alerts on monitors, audible alarms, text and email messages, phone calls and, a network-based application. Cisco Emergency Responder’s use of phone calls and Cisco Emergency Responder’s ER user pages satisfy Kari’s Law’s notification requirement. We strongly recommend contacting your legal counsel to determine your specific compliance obligations. 
-**Q.** What information must be included in the notification? 
-**A.** Yes, Kari’s Law specifies that the minimum information that must be included in a notification includes: 1) The instance of a 911 call being placed; 2) a valid callback number; and 3) information about the caller’s location. Additional information may be included in a notification, but any notification must include these three items at a minimum. We strongly recommend contacting your legal counsel to determine your specific compliance obligations. 
-**Q.** Where should the notification go? Who can be notified? 
-**A.** The notification should go to a central location at the facility where the system is installed or to another person or organization regardless of location. 
-**Q.** How do I ensure an accurate dispatchable location at the PSAP? 
-**A.** Any emergency call handling product should be audited to ensure accurate and correct location information is confirmed by the PSAP. Cisco recommends that customers schedule a test window with their local PSAPs at least annually to confirm the transmission of emergency calls to the PSAP and confirm the dispatch location. Any test call to the PSAP should be arranged ahead of time so the PSAP is aware that a customer will be testing their emergency calling system. 
+Background
+When a cluster is enabled for push notifications, Cisco Unified CM and Cisco Unified Communication IM&P use the Cisco Push REST service in the Cisco cloud to send push notifications to either the Apple Push Notification Service (APNS) or the Google Firebase Cloud Messaging (FCM) Push Notification service, which send push notifications to compatible Cisco Jabber (for messaging and calling) or Cisco Webex App clients (for calling) that run on Apple iOS or Android devices. Push notifications allow the system to communicate with the client, even after it has entered into background mode (also known as suspended mode). On March 29, 2024, Cisco will migrate the Cisco Push REST service from one data center to another.
+Impact
+Cisco customers who use Cisco Unified Communications Manager (Unified CM) or Cisco Unified Communication IM & Presence Service (IM&P) to manage push notifications may experience a failure of push notifications on or after March 29, 2024, for the following clients:
+●Cisco Jabber
+●Cisco Webex applications
+●Apple Push Notifications Service (APNS)
+●Google Firebase Cloud Messaging (FCM)  
+  
+
+This issue is due to the migration of the data center hosting the Cisco Push REST service.
+Action
+The recommended method of configuration is as stated in [Push Notifications Prerequisites](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_01.html#reference_CE836F3E3283BCF699F2AFC21426B783) to add fos-a.wbx2.com, push.webexconnect.com, and idbroker.webex.com to the SSL Decryption Exclusion list in the firewall.
+There is no action necessary for customers who use the above recommended method of configuration. 
+For customers who have configured IP address in their Firewall ACL it is recommended to use the Fully Qualified Domain Name (FQDN) as stated above.
+For customers who have stringent firewall policies that are based on the IP address requirements, please contact Cisco Technical Assistance Center (TAC) before March 29, 2024, which is the production cutover date.
+For more information, see the [Push Notifications (On-Premises Deployments)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_01.html) chapter of the Push Notifications Deployment Guide
+Problem symptom
+Push notifications that are sent from Cisco Unified CM and Cisco Unified Communication IM&P may fail to reach Cisco Jabber as well as Cisco Webex Application for Apple iOS and Android mobile clients on or after March 29, 2024.
+For More Information
+For further assistance or for more information about this Service Bulletin, contact the Cisco Technical Assistance Center (TAC) using one of the following methods:
+●[Open a service request on Cisco.com](https://mycase.cloudapps.cisco.com/case)
+●[By email or telephone](https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html)
 ### Our experts recommend
   * [Case Study IP Telephony Deployment - ACU](https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-communications-manager-callmanager/13913-ACU-casestudy.html "Case Study IP Telephony Deployment - ACU")
   * [Cisco Unified Communications on Cisco HyperFlex At-a-Glance](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/at-a-glance-c45-741603.html "Cisco Unified Communications on Cisco HyperFlex At-a-Glance")
+  * [Questions and Answers on Compliance with Kari’s Law and RAY BAUM’S Act](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.html "Questions and Answers on Compliance  with Kari’s Law and RAY BAUM’S Act")
 
 
 ### Learn more
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
