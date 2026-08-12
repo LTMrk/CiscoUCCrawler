@@ -2075,5 +2075,6 @@
   "https://developer.webex.com/docs/api/v1/meeting-polls/list-meeting-polls": "0f0972deac1b57d5cbb19dc5077864945fdb0f198fa55860f2496b4041bd3a42",
   "https://developer.webex.com/docs/api/v1/meeting-polls/get-meeting-pollresults": "e985f4a4a037a9bea429468874c348bdc8e7947d7e7ca67a19caad14776e65a5",
   "https://developer.webex.com/docs/api/v1/meeting-polls/list-respondents-of-a-question": "1c27756dc8567a80b09aa5f839fb269b475ecba7338f21b2c474020d855e7eca",
-  "https://developer.webex.com/docs/api/v1/meeting-chats/list-meeting-chats": "f89e17f4e471becda3484bf349d267a5d7fa6192e60633bcd920957cc6e5ab17"
+  "https://developer.webex.com/docs/api/v1/meeting-chats/list-meeting-chats": "f89e17f4e471becda3484bf349d267a5d7fa6192e60633bcd920957cc6e5ab17",
+  "https://developer.webex.com/docs/api/v1/meeting-closed-captions/list-meeting-closed-captions": "3c6f782b0e2107d6defeb369fc50f506ad5ab13829718576b9b3bf68ef8f7fbf"
 }
