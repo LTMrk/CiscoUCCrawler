@@ -802,5 +802,9 @@
   "https://help.webexconnect.io/docs/validate-otp-node": {
     "hash": "28c41f4b613be3c5f4f13f5a37e748b1188b9ce98eaa1a191be48136c77f4641",
     "timestamp": "2026-08-12T23:53:16.628401"
+  },
+  "https://help.webexconnect.io/docs/encryption-node": {
+    "hash": "65291581b239737ab336fb9f11a9f3ce5bb7dcf34c7454cfc7b1b978c8f8d77d",
+    "timestamp": "2026-08-12T23:53:21.362534"
   }
 }
