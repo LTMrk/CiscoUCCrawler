@@ -170,3 +170,6 @@ Code context:
  783                       # first response that differs from the final one and surface its | URL: https://www.webex.com/content/dam/wbx/us/aag/cisco-video-phone-8875-for-webex_cm-4784.pdf
 [2026-08-12T23:01:34.182740] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://outshift.cisco.com/blog/multi-agentic-systems-agntcy-application-sdk-reference-application
 [2026-08-12T23:02:04.534211] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/create/docs/login-with-webex
+[2026-08-12T23:03:21.563782] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://devsupport.webex.com/requests/new
+[2026-08-12T23:03:24.169216] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://devsupport.webex.com/requests
+[2026-08-12T23:03:25.855763] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (2532 bytes, 0 chars visible) | URL: https://status.webex.com
