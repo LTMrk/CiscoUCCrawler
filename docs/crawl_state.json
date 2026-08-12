@@ -2019,5 +2019,6 @@
   "https://developer.webex.com/docs/api/v1/meetings/get-a-meeting-session-type": "72f283a5cd6275497e216df92668e7591de3d059f26982d88205b8c60e9314b1",
   "https://developer.webex.com/docs/api/v1/meetings/reassign-meetings-to-a-new-host": "2eff9fbbca3360be6c11f94c95d74a1be64a0ba2d0453e2d2dbd035567856398",
   "https://developer.webex.com/docs/api/v1/meeting-invitees/list-meeting-invitees": "737dfb239d614fdd1b99e67b83ddbc304e3a9657cc2145da85f8ee0401b7f318",
-  "https://developer.webex.com/docs/api/v1/meeting-invitees/create-a-meeting-invitee": "5e35eb1ac18f1ca70fc42b472cb7dcff14656e083a3db0eb5158ff908fdb46a3"
+  "https://developer.webex.com/docs/api/v1/meeting-invitees/create-a-meeting-invitee": "5e35eb1ac18f1ca70fc42b472cb7dcff14656e083a3db0eb5158ff908fdb46a3",
+  "https://developer.webex.com/docs/api/v1/meeting-invitees/create-meeting-invitees": "b78f5e3971ffe2c3faf5f98c4f52d996f42e7807c4da89aaa52cc77fb4e428bb"
 }
