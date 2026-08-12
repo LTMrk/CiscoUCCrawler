@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-aag.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-aag.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-aag.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,92 +19,73 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-aag.html)
+  * [](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html)
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Servers - Unified Computing](https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html)
   * [Cisco UCS C-Series Rack Servers](https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/index.html)
-  * [At-a-Glance](https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/at-a-glance-listing.html)
 
 
-# Cisco UCS C220 M7 Rack Server At-a-Glance
-At a Glance
+# Cisco UCS C245 M8 Rack Servers FAQ
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-aag.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-aag.pdf) (217.1 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.pdf) (126.6 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:December 14, 2023
+Updated:February 15, 2024
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
-Contact Cisco
-  * Contact Cisco
-  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
-  * Call Sales: [ 1-800-553-6387 ](tel:18005536387)   
-US/CAN | 5am-5pm PT 
-  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
-  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
-
-
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-aag.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-aag.pdf) (217.1 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.pdf) (126.6 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:December 14, 2023
+Updated:February 15, 2024
 #### Table of Contents
 ![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
 ![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
 #### Table of Contents
-  * [Great performance in a slim form factor](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-aag.html#Greatperformanceinaslimformfactor "Greatperformanceinaslimformfactor")
-  * [Benefits](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-aag.html#Benefits "Benefits")
-  * [What it offers](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-aag.html#Whatitoffers "Whatitoffers")
-  * [Learn more](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-aag.html#Learnmore "Learnmore")
+  * [Overview](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html#Overview "Overview")
+  * [Cisco UCS C245 M8 Rack Server](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html#CiscoUCSC245M8RackServer "CiscoUCSC245M8RackServer")
 
 
-Great performance in a slim form factor
-[![Cisco UCS C220 M7 Rack Server](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-aag.docx/_jcr_content/renditions/ucs-c220-m7-rack-server-aag_0.png)](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-aag.docx/_jcr_content/renditions/ucs-c220-m7-rack-server-aag_0.png "Cisco UCS C220 M7 Rack Server")
-The Cisco UCS C220 M7 Rack Server is a versatile general-purpose infrastructure and application server. This high-density, 1RU, 2-socket rack server delivers industry-leading performance and efficiency for a wide range of workloads, including virtualization, collaboration, and bare-metal applications.
-The Cisco UCS C220 M7 Rack Server extends the capabilities of the Cisco UCS rack server portfolio. It incorporates 5th Gen Intel Xeon Scalable Processors with 50 percent more cores per socket than the previous generation. Many applications will see significant performance and efficiency improvements with built-in accelerators into the CPUs.
-You can deploy the Cisco UCS C-Series Rack Servers as standalone servers or with Cisco Intersight to take advantage of Cisco standards-based unified computing innovations that can help reduce your Total Cost of Ownership (TCO) and increase your business agility.
-Benefits
-●Improve performance and efficiency and help achieve sustainability goals with more CPU cores and built-in accelerators the such as Intel Data Streaming Accelerator, Intel QuickAssist Technology, Intel Advanced Matrix Extensions (AMX) and In-Memory Analytics Accelerator (IAA), many applications will see significant performance improvements.
-●Decrease server Operating Expenses (OpEx) for power and cooling, management, and maintenance by consolidating older servers onto the latest generation of Cisco UCS C220 M7 Rack Servers.
-●Simplify administration and management of your server infrastructure with Cisco Intersight, freeing your IT staff to focus on mission-critical and value-added projects.
-●Designed for denser environments that do not require maximum storage.
-What it offers
-●Up to two 5th or 4th Gen Intel Xeon Scalable processors, up to 60 cores per socket
-●Memory:
-◦32x DDR5 DIMMs for up to 4 TB of capacity using 128 GB DIMMs
-◦Up to 5600 MT/s DDR5 memory, plus other speeds, depending on the CPU installed
-●Up to 3 PCIe 5.0 slots or PCIe 4.0 slots plus a hybrid modular LAN-on- Motherboard (mLOM)/ OCP slot
-●Support for Cisco UCS VIC 15000 Series with secure boot, enabling centralized management using Cisco Intersight and UCS adapters Manager
-●Support for third-party network and storage adapters 
-●Up to 10 SAS/SATA or NVMe disk drives
-◦RAID controller options available 
-●M.2 boot options
-◦Up to two 960 GB SATA with optional hardware RAID or 
-◦Up to two 960 GB NVMe
-◦Up to three GPUs supported per server
-●Flexible hardware management options
-◦Cisco Intersight Infrastructure Service SaaS-based cloud management
-◦Cisco UCS Manager
-◦Cisco Integrated Management Controller (CIMC)
-Learn more
-For more information about modernizing your infrastructure with the Cisco UCS C220 M7 Rack Server, refer to the [data sheet](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-m7-rack-server-ds.html) or [spec sheet](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c220m7-sff-specsheet.pdf). For more information about all Cisco UCS servers, please visit. <https://www.cisco.com/go/ucs>.
+Overview
+Q.What did Cisco® announce on February 6, 2024? 
+A.Cisco announced the Cisco UCS C245 M8 Rack Server based on AMD EPYC™ 9004 Series Processors. 
+Q.Are these servers quotable and orderable? 
+A.Customers may get quotes from their partners or Cisco sales team starting in early February and place orders in May 2024. 
+Q.Are you announcing the End-of-Life (EOL) of the C225 and C245 M6 servers? 
+A.There are no plans to EOL these servers. AMD recently extended the lifecycle of the AMD EPYC 3rd Gen Processors and plans to continue shipping these popular CPUs through CY2026. 
+Q.Will there be either a UCS C225 M8 Rack Server or a UCS X215c M8 Compute Node? 
+A.Yes, both those servers will be quotable mid-calendar 2024. 
+Cisco UCS C245 M8 Rack Server
+Q.What is the C245 M8 Rack Server? 
+A.The C245 M8 is a 2RU, two-socket server supporting 4th Gen AMD EPYC CPUs and is designed to support the 5th Gen AMD EPYC CPUs. 
+Q.How many cores do the 4th Gen AMD EPYC processors support? 
+A.The 4th Gen AMD EPYC processors support from 16 to 128 cores depending upon the model. 
+Q.What are some of the benefits of UCS C-Series C245 M8 server with AMD EPYC™ 4th Gen CPUs? 
+A.Supporting double the number of cores per socket than AMD-based M6 servers and delivering up to 2.8X more performance, compute-intensive applications will see significant performance improvements and will reap other benefits like power and cost efficiencies. 
+Q.How much memory is supported? 
+A.Up to 6 TB of DDR5 memory with speeds up to 4800 MT/s is supported. 
+Q.How many drives are supported? 
+A.Up to 24 Small-Form-Factor (SFF) front-loading hot-pluggable drives—NVMe/SAS/ SATA—and up to four additional rear drives. 
+Q.What network adapters are supported? 
+A.Cisco UCS 15000 Series Virtual Interface Cards (VICs) and a variety of 3rd-party adapters are supported. 
+Q.How is this server managed? 
+A.The server can be managed three ways: Cisco Intersight®, Cisco UCS® Manager, or with the Cisco Integrated Management Controller (IMC). 
 ### Our experts recommend
   * [From X440p to X580p. How Cisco is Expanding Modular Server Use Cases (Again) White Paper](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.html "From X440p to X580p. How Cisco is Expanding Modular Server Use Cases \(Again\) White Paper")
-  * [Cisco UCS Servers with Intel Xeon 6 CPUs FAQ](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/intel-xeon-6-cpu-faq.html "Cisco UCS Servers with Intel Xeon 6 CPUs FAQ")
+  * [Cisco UCS C845A M8 Rack Server At a Glance](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c845a-m8-rack-server-aag.html "Cisco UCS C845A M8 Rack Server At a Glance")
 
 
 ### Learn more
