@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,8 +19,8 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)
-  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)Show All Breadcrumbs
   * [Support](https://www.cisco.com/c/en/us/support/index.html)
   * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
@@ -28,336 +28,307 @@
   * [Configuration Examples and TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-configuration-examples-list.html)
 
 
-# Rebuild CUCM Publisher from Subscriber
+# Create New Certificates from Signed CA Certificates
 ![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)
 Download
 Print
 ### Available Languages
-  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)
-  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)
-  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)
-  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)
-  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)
-  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)
-  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)
-  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)
-  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)
-  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)
 
 
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.pdf) (513.1 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.pdf) (559.1 KB)   
 View with Adobe Reader on a variety of devices
-  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.epub) (540.0 KB)   
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.epub) (611.3 KB)   
 View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
-  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.mobi) (736.8 KB)   
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.mobi) (555.0 KB)   
 View on Kindle device or Kindle app on multiple devices
 
 
-Updated:May 27, 2026
-Document ID:221069
+Updated:November 12, 2025
+Document ID:217138
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
 ## Contents
-[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId--1841549795)
-[Background Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId--2038063300)
-[Gather Cluster Data](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId-2060390491)
-[Stop Replication on All Subscribers](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId-1863876986)
-[Install the CUCM Publisher](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId-1667363481)
-[Update Processnode Values on the Publisher](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId-1470849976)
-[Reboot the Publisher Node](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId-1274336471)
-[Verify Cluster Authentication](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId-1077822966)
-[Perform a New Backup](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId-881309461)
-[Add a Backup Device](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId-813878675)
-[Start a Manual Backup](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId-542133801)
-[Publisher Restore from the Subscriber DB](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId-639023303)
-[Restore Status](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId-149106791)
-[Run a Sanity Check on the Publisher DB](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId-245996293)
-[Reboot the Cluster](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId-49482788)
-[Verify Replication Setup Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId--147030717)
-[Replication Setup](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId--343544222)
-[Post Restore](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId--540057727)
-[Activate Services](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId--1029974239)
-[Install Data that was not Restored](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId--1226487744)
-[Troubleshoot](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId--961414551)
-[Cluster does not Authenticate](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId--1451331063)
-[Restoration does not Process CCMDB Component](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId--1647844568)
-[Replication Failure](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId--1844358073)
-[Phones do not Register or are Unable to Access Services](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html#toc-hId--2040871578)
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId-1243962065)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId-1924020435)
+[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId--1680385387)
+[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId--1000327017)
+[Business Impact](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId-1487185816)
+[Pre-check Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId--330771751)
+[Configure and Regenerate Certificates](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId-2023056358)
+[Tomcat Certificate](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId--1462769849)
+[IPSec Certificate](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId-1024742984)
+[CAPF Certificate](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId--782711479)
+[CallManager Certificate](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId--1659283354)
+[TVS Certificate](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId--979224984)
+[Troubleshoot Common Uploaded Certificate Error Messages](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId--1984879578)
+[CA Certificate is Not Available in the Trust-Store](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId--1175738489)
+[File /usr/local/platform/.security/tomcat/keys/tomcat.csr Does Not Exist](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId--495680119)
+[CSR Public Key and Certificate Public Key Do Not Match](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId-184378251)
+[CSR Subject Alternate Name (SAN) and Certificate SAN Does Not Match](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId-1562598562)
+[Trust Certificates with the Same CN are Not Replaced](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html#toc-hId--2052310364)
 ## Introduction
-This document describes restoring the Cisco Unified Communications Manager (CUCM) publisher node from a subscriber database without prior backup.
-## Background Information
-In early versions of CUCM, the publisher node was regarded as the only authoritative source for the Structured Query Language (SQL) DB. Consequently, if a publisher node was lost due to a hardware failure or a file system corruption, the only way to recover it was to reinstall and restore the DB from a Disaster Recovery System (DRS) backup.
-Some customers did not keep proper backups, or had backups that were out-of-date, so the only option was to rebuild and reconfigure the publisher server node. 
-In CUCM Version 8.6(1), a new feature was introduced in order to restore a publisher DB from a subscriber database.
-This document describes how to take advantage of this feature in order to successfully restore a publisher DB from the subscriber.
-Cisco strongly recommends that you keep a full Disaster Recovery Framework (DRF) backup of the entire cluster.
-Since this process only recovers the CUCM DB configuration, other data, such as certificates, Music on Hold (MoH), and TFTP files, are not recovered. In order to avoid these issues, keep a full cluster DRF backup.
-**Note** : Cisco recommends that you review and be familiar with the entire process described in this document before you begin.
-## Gather Cluster Data
-Before you reinstall the publisher, it is critical that you gather the pertinent details about the previous publisher. These details must match the original publisher installation:
-  * IP address
-  * Host name
-  * Domain name
-  * Security passphrase
-  * Exact CUCM version
-  * Installed Cisco Options Package (COP) files
+This document describes how to regenerate the certificates signed by a Certificate Authority (CA) in Cisco Unified Communications Manager (CUCM).
+## Prerequisites
+### Requirements
+Cisco recommends that you have knowledge of these topics:
+  * Real-Time Monitoring Tool (RTMT)
+  * CUCM Certificates
 
 
-In order to retrieve the first three items in the list, enter the **show network cluster** command at the current subscriber node CLI:
-
-```
-admin:**show network cluster**  
-172.18.172.213 cucm911ccnasub1  Subscriber authenticated  
-**172.18.172.212 cucm911ccnapub**  Publisher not authenticated - INITIATOR  
- since Tue Dec 3 12:43:24 2013  
-172.18.172.214 cucm911ccnasub2  Subscriber authenticated using TCP since  
- Sun Dec 1 17:14:58 2013
-```
-
-In this case, the IP address is **172.18.172.212** , the host name is **cucm911ccnapub** , and there is no domain name configured for the publisher. 
-The security passphrase (the fourth item in the list) is retrieved from the site documentation.
-If you are unsure about the security passphrase, make a best-effort guess, and you can attempt to verify and correct it as needed based on the CUCM version.
-If the security passphrase is incorrect, then a cluster outage is required in order to correct the situation. 
-In order to retrieve the exact CUCM version and the installed COP files (the last two items in the list), gather the system output from the **show version active** command:
-
-```
-admin:**show version active**  
-Active Master Version: **9.1.2.10000-28**  
-Active Version Installed Software Options:  
-**No Installed Software Options Found.**
-```
-
-In this case, Version 9.1.2.10000-28 is installed with no add-on COP files. 
-**Note** : It is possible that some COP files were previously installed on the publisher, but were not installed on the subscriber, and vice versa. Use this output as a guideline only.
-## Stop Replication on All Subscribers
-When the publisher is installed, it is critical that replication does not set up and delete the current subscriber DBs. In order to prevent this, enter the **utils dbreplication stop** command on all subscribers:
-
-```
-admin:**utils dbreplication stop**  
-
-********************************************************************************  
-This command can delete the marker file(s) so that automatic replication setup  
-is stopped  
-It can also stop any replication setup currently executing  
-********************************************************************************  
-  
-Deleted the marker file, auto replication setup is stopped  
-  
-Service Manager is running  
-Commanded Out of Service  
-A Cisco DB Replicator[NOTRUNNING]  
-Service Manager is running  
-A Cisco DB Replicator[STARTED]  
-  
-Completed replication process cleanup  
-  
-Please run the command 'utils dbreplication runtimestate' and make sure all nodes  
-are RPC reachable before a replication reset is executed
-```
-
-## Install the CUCM Publisher
-Gather a bootable image of the appropriate version, and perform an install with an upgrade to the appropriate version.
-**Note** : Most CUCM Engineering Special (ES) Releases are already bootable.
-Install the publisher and specify the correct values for the IP address, host name, domain name, and security passphrase mentioned previously. 
-## Update Processnode Values on the Publisher
-**Note** : The publisher must be aware of at least one subscriber server in order to restore the DB from that subscriber. Cisco recommends that you add all subscribers. 
-In order to retrieve the node list, enter the **run sql select name,description,nodeid from processnode** command at the CLI of a current subscriber.
-The name values can be host names, IP addresses, or Fully Qualified Domain Names (FQDNs).
-If you run CUCM Version 10.5(2) or later, the **utils disaster_recovery prepare restore pub_from_sub** command must be run on the publisher CLI before you can proceed to add nodes to **System > Server**:
-[![Update Processnode Values](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-00.png "Update Processnode Values")
-**Warning** : Many people using CUCM Version 10.5(2) or later skip the command **utils disaster_recovery prepare restore pub_from_sub** ; however, this is a critical command. Be sure not to skip any steps in this document.
-After you receive the node list, navigate to **System > Server **and add all of the name values other than **EnterpriseWideData** to the Publisher Server Unified CM Administration page.
-The name values must correspond to the **Host Name/IP Address** field on the **System > Server** menu.
-
-```
-admin:**run sql select name,description,nodeid from processnode**  
-name               description     nodeid  
-================== =============== ======  
-EnterpriseWideData                 1  
-**172.18.172.212**     CUCM901CCNAPub  2  
-**172.18.172.213**     CUCM901CCNASub1 3  
-**172.18.172.214**     CUCM901CCNASub2 4
-```
-
-**Note** : The default installation adds the publisher host name to the processnode table. You can change it to an IP address if the name column lists an IP address for the publisher. In this case, do not remove the publisher entry, but open and modify the current **Host Name/IP Address** field. 
-[![Default Installation 1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-01.png "Default Installation 1")
-[![Default Installation 2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-02.png "Default Installation 2")
-## Reboot the Publisher Node
-In order to restart the publisher after the processnode changes are complete, enter the **utils system restart** command:
-
-```
-admin:**utils system restart**  
-Do you really want to restart ?  
-Enter (yes/no)? yes  
-  
-Appliance is being Restarted ...  
-Warning: Restart could take up to 5 minutes.  
-  
-Shutting down Service Manager. Please wait...  
- \Service Manager shutting down services... Please Wait  
-  
-Broadcast message from root (Tue Dec  3 14:29:09 2013):  
-  
-The system is going down for reboot NOW!  
-Waiting .  
-  
-Operation succeeded
-```
-
-## Verify Cluster Authentication
-After the publisher restarts, if you made the changes correctly and the security passphrase is correct, the cluster must be in the authenticated state. In order to verify this, enter the **show network cluster** command:
-
-```
-admin:**show network cluster**  
-172.18.172.212 cucm911ccnapub  Publisher authenticated  
-172.18.172.213 cucm911ccnasub1  **Subscriber authenticated using TCP since  
- Tue Dec 3 14:24:20 2013**
-172.18.172.214 cucm911ccnasub2  **Subscriber authenticated using TCP since  
- Tue Dec 3 14:25:09 2013**
-```
-
-**Note** : If the subscribers do not appear as authenticated, refer to the Troubleshoot section of this document in order to resolve this issue before you proceed.
-## Perform a New Backup
-If no previous backup is available, perform a cluster backup on the DRS page.
-**Note** : Although you can use the subscriber DB for the restore, a backup is still required in order to restore the non-DB components.
-If no backup is available, then perform a new one; if a backup already exists, then you can skip this section.
-### Add a Backup Device
-Use the Navigation Menu in order to navigate to the **Disaster Recovery System** , and add a **backup** **device**.
-[![Add Backup Device](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-03.png "Add Backup Device")
-### Start a Manual Backup
-After the backup device is added, start a **manual** **backup**.
-**Note** : It is critical that the publisher node has the CCMDB component registered.
-[![Start Manual Backup](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-04.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-04.png "Start Manual Backup")
-## Publisher Restore from the Subscriber DB
-On the Disaster Recovery System page, navigate to **Restore > Restore Wizard**.
-If a current backup was available, and you skipped the previous section, check all of the feature check boxes in the **Select** **Features** section: **Enterprise License Manager (ELM)** if available, **CDR_CAR** , and **Unified** **Communications** **Manager** **(UCM)**.
-If you use a backup that was performed in the previous section, check only the **UCM** check box:
-[![Publisher Restore 1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-05.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-05.png "Publisher Restore 1")
-Click **Next**. Check the **publisher** **node** check box **(CUCM911CCNAPUB)** , and choose the **subscriber** **DB** from which the restoration takes place. Then, click **Restore**.
-[![Publisher Restore 2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-06.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-06.png "Publisher Restore 2")
-### Restore Status
-When the restoration reaches the CCMDB component, the Status text must appear as Restoring Publisher from Subscriber Backup:
-[![Restore Status](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-07.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-07.png "Restore Status")
-## Run a Sanity Check on the Publisher DB
-Before you reboot and set up replication, it is a good practice to verify that the restoration is successful and that the publisher DB contains the required information.
-Ensure that these queries return the same values on the publisher and subscriber nodes before you proceed:
-  * **run sql select count(*) from device**
-  * **run sql select count(*) from enduser**
+### Components Used
+  * CUCM release 14.x and 15.x
 
 
-## Reboot the Cluster
-After the restoration is complete, enter the **utils system restart** command on every node. Start with the publisher followed by each subscriber.
-
-```
-admin:**utils system restart**  
-Do you really want to restart ?  
-Enter (yes/no)? yes  
-  
- Appliance is being Restarted ...  
-Warning: Restart could take up to 5 minutes.  
-  
-Shutting down Service Manager. Please wait...  
- \ Service Manager shutting down services... Please Wait  
-  
-Broadcast message from root (Tue Dec  3 14:29:09 2013):  
-  
-The system is going down for reboot NOW!  
-Waiting .  
-  
-Operation succeeded
-```
-
-## Verify Replication Setup Requirements
-Navigate to the **Cisco** **Unified** **Reporting** page and generate a **Unified** **CM Database Status Report**.
-It is likely that replication cannot have set up yet, but it is important to ensure that the Unified CM Hosts, Unified CM Rhosts, and Unified CM Sqlhosts files match the publisher.
-If they do not, those nodes that do not match need to be rebooted again. If these files do not match, do not proceed to the next step or reset replication.
-[![Verify Replication Setup](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-08.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-08.png "Verify Replication Setup")
-## Replication Setup
-Dependent upon the version, replication cannot set up automatically. In order to check this, wait for all of the services to start, and enter the **utils dbreplication runtimestate** command. A state value of **0** indicates that setup is in progress, while a value of **2** indicates that replication is set up successfully for that node.
-This output indicates that the replication setup is in progress (state appears as **0** for two of the nodes):
-[![Replication Setup](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-09.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-09.png "Replication Setup")
-This output indicates that replication is set up successfully:
-[![Replication Setup Successful](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-10.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-10.png "Replication Setup Successful")
-If any nodes appear with a state value of **4** , or if replication does not successfully set up after several hours, enter the **utils dbreplication reset all** command from the publisher node.
-If replication continues to fail, refer to the [Troubleshooting CUCM Database Replication in Linux Appliance Model](https://community.cisco.com/t5/collaboration-knowledge-base/troubleshooting-cucm-database-replication-in-linux-appliance/ta-p/3111185) Cisco article for more information about how to troubleshoot the issue. 
-## Post Restore
-Since the DB restoration does not restore all of the previous components, many server-level items must be manually installed or restored.
-### Activate Services
-The DRF restoration does not activate any services. Navigate to **Tools > Service Activation**, and activate any necessary services that the publisher must run, based on the site documentation from the Unified Serviceability page:
-[![Activate Services](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-11.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber-11.png "Activate Services")
-### Install Data that was not Restored
-If a full backup was not available, you must reproduce certain manual configurations. Particularly, those configurations that involve certificates and TFTP functions:
-  * MoH files
-  * Device packs
-  * Dial plans (for non-North American Numbering Plan (NANP) dialing)
-  * Locales
-  * Any other miscellaneous COP files
-  * Any files that previously were manually uploaded to the publisher (if it was a TFTP server)
-  * Simple Network Management Protocol (SNMP) community strings
-  * Bulk certificate exports for Extension Mobility Cross Cluster (EMCC), Intercluster Location Bandwidth Manager (LBM), and Intercluster Lookup Service (ILS)
-  * Certificate exchanges for secure trunks, gateways, and conference bridges
+The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
+### Business Impact
+This table displays the business impact of each certificate renewal in your operation. Review the information carefully. Renew required certificates after hours or during quiet periods, based on the risk level of each certificate.
+[![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-00.png "alt-tag-for-image")
+## Pre-check Information
+Note: For Self-Signed certificate regeneration, refer to the [Certificate Regeneration Guide](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214231-certificate-regeneration-process-for-cis.html). For CA-Signed Multi-SAN certificate regeneration, refer to the [Multi-SAN Certificate Regeneration Guide](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118731-configure-san-00.html)
+Each Certificate Signing Request (CSR) type has different key usages and those are required in the Signed Certificate. The [Security Guide](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1/cucm_b_security-guide-1251/cucm_b_security-guide-1251_chapter_011101.html) includes a table with the required key usages for each type of certificate.
+To change the Subject Settings (Locality, State, Organization Unit, and so on) run this command:
+  * set web-security orgunit orgname locality state [country] [alternatehostname] 
 
 
-**Note** : For mixed-mode clusters, you must run the Certificate Trust List (CTL) client again.
-## Troubleshoot
-This section describes various scenarios that can cause this procedure to fail.
-### Cluster does not Authenticate
-If the cluster does not authenticate, the two most common causes are mismatched security passphrases and connectivity issues on TCP port 8500.
-In order to verify that the cluster security passphrases match, enter the **utils create report platform** command at the CLI of both nodes, and inspect the hash value from the **platformConfig.xml** file. These must match on the publisher and subscriber nodes.
-
-```
-  <IPSecSecurityPwCrypt>  
-    <ParamNameText>Security PW for this node</ParamNameText>  
-    <ParamDefaultValue>password</ParamDefaultValue><ParamValue>**0F989713763893AC831812812AB2825C8318  
-    12812AB2825C831812812AB2825C** </ParamValue>  
-  </IPSecSecurityPwCrypt>
-```
-
-If these match, verify the TCP connectivity on port 8500. If they do not match, there can be difficulties when you attempt to fix the passphrase due to several defects in the CUCM code that surround the procedure:
-  * Cisco bug ID [CSCtn79868](https://tools.cisco.com/bugsearch/bug/CSCtn79868) - pwrecovery tool resetting only sftpuser password
-  * Cisco bug ID [CSCug92142](https://tools.cisco.com/bugsearch/bug/CSCug92142) - pwrecovery tool does not update the internal user passwords
-  * Cisco bug ID [CSCug97360](https://tools.cisco.com/bugsearch/bug/CSCug97360) - selinux denials in pwrecovery utility
-  * Cisco bug ID [CSCts10778](https://tools.cisco.com/bugsearch/bug/CSCts10778) - Denials thrown for security Password Recovery procedure
-  * Cisco bug ID [CSCua09290](https://tools.cisco.com/bugsearch/bug/CSCua09290) - CLI "set password user security" did not set the correct apps password
-  * Cisco bug ID [CSCtx45528](https://tools.cisco.com/bugsearch/bug/CSCtx45528) - pwd reset cli returns good but does not change password
-  * Cisco bug ID [CSCup30002](https://tools.cisco.com/bugsearch/bug/CSCup30002) - DB service is down, after changing the security password on CUCM 10.5
-  * Cisco bug ID [CSCus13276](https://tools.cisco.com/bugsearch/bug/CSCus13276) - CUCM 10.5.2 security password recovery causes DB to not start at reboot
+The Tomcat certificate is regenerated automatically after you run the set web-security command. The new Self-Signed certificate is not applied unless the Tomcat service is restarted. Please refer to these guides for more information about this command:
+  * [Command Line Reference Guide](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU2/cucm_b_command-line-interface-reference-guide-1251Su2.html)
+  * [ Link to Cisco Community Steps ](https://community.cisco.com/t5/collaboration-voice-and-video/how-to-change-certificate-information-on-cucm-using-the-quot-set/ta-p/3160475)
+  * [Video](https://video.cisco.com/video/6174332851001)
 
 
-If the CUCM version contains fixes for all of these issues, the easiest solution is to complete the password recovery procedure detailed in [Cisco Unified Communications Operating System Administration Guide, Release 10.0(1)](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html#CUP0_TK_RA250DC3_00) on all nodes.
-If the CUCM version does not contain the fixes for these issues, then the Cisco Technical Assistance Center (TAC) can have the ability to perform a workaround, dependent upon the situation. 
-### Restoration does not Process CCMDB Component
-If the restoration does not list the DB component, then it is possible that the backup itself does not contain a DB component. Ensure that the publisher DB runs and can accept queries, and perform a new backup.
-### Replication Failure
-Refer to the [Troubleshooting CUCM Database Replication in Linux Appliance Model](https://community.cisco.com/t5/collaboration-knowledge-base/troubleshooting-cucm-database-replication-in-linux-appliance/ta-p/3111185) Cisco article in order to troubleshoot a replication failure.
-### Phones do not Register or are Unable to Access Services
-Since the DB restoration does not restore any certificates, if the publisher is the primary TFTP server, the signer is different.
-If the phones trust subscriber Trust Verification Service (TVS) certificates, and TCP port 2445 is open between the phones and the TVS servers, the issue must be resolved automatically.
-For this reason, Cisco recommends that you maintain full cluster DRF backups. 
-CUCM versions prior to Version 8.6 can also have certificate issues, even with a previous successful backup, due to Cisco bug ID [CSCtn50405](https://tools.cisco.com/bugsearch/bug/CSCtn50405).
-**Note** : Refer to the [Communications Manager Security By Default and ITL Operation and Troubleshooting](https://supportforums.cisco.com/docs/DOC-17679) Cisco article for additional information about how to troubleshoot Initial Trust List (ITL) files.
+## Configure and Regenerate Certificates
+The steps to regenerate Single-Node certificates in a CUCM cluster signed by a CA are listed for each type of certificate. It is not necessary to regenerate all the certificates in the cluster if they have not expired. 
+### Tomcat Certificate [![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-01.png "alt-tag-for-image")
+[![warning-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif "warning-icon")
+Warning: Tomcat certificate expiration or a bad process in the renewal can cause: SSO login failure, Phones are not able to access HTTPs services hosted on the CUCM node, such as Corporate Directory. CUCM can have various web issues, such as unable to access service pages from other nodes in the cluster. Extension Mobility (EM) or Extension Mobility Cross Cluster issues. Expressway Traversal Zone down (TLS Verify is enabled). If Unified Contact Center Express (UCCX) is integrated, due to security change from CCX, it is required to have uploaded CUCM Tomcat certificate (self-signed) or the Tomcat root and intermediate certificate (for CA signed) in UCCX tomcat-trust store since it effects Finesse desktop logins.
+Caution: Verify SSO is disabled in the cluster (CM Administration > System > SAML Single Sign-On). If SSO is enabled, it must be disabled and then enabled once the Tomcat certificate regeneration process is completed.
+On all the nodes (CallManager and IM&P) of the cluster:
+Step 1. Navigate to Cisco Unified OS Administration > Security > Certificate Management > Find and verify the expiration date of the Tomcat certificate.
+Step 2. Click Generate CSR > Certificate Purpose: tomcat. Select the desired settings for the certificate, then click Generate. Wait for the success message to appear and click Close.
+[![Certificate Signing Request Generated](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-02.png "Certificate Signing Request Generated")
+Step 3. Download the CSR. Click Download CSR, select Certificate Purpose: tomcat, and click Download.
+[![Download Certificate Signing Request](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-03.png "Download Certificate Signing Request")
+Step 4. Send the CSR to the Certificate Authority.
+Step 5. The Certificate Authority returns two or more files for the signed certificate chain. Upload the certificates in this order:
+  * Root CA certificate as tomcat-trust. Navigate to Certificate Management > Upload certificate > Certificate Purpose: tomcat-trust. Set the description of the certificate and browse the Root certificate file.
+  * Intermediate certificate as tomcat-trust (Optional). Navigate to Certificate Management > Upload certificate > Certificate Purpose: tomcat-trust. Set the description of the certificate and browse the intermediate certificate file.
+
+
+Note: Some CAs do not provide an intermediate certificate. If only the Root certificate was provided, this step can be omitted.
+  * CA-signed certificate as tomcat. Navigate to Certificate Management > Upload certificate > Certificate Purpose: tomcat. Set the description of the certificate and browse the CA-signed certificate file for the current CUCM node.
+
+
+Note: At this point, CUCM compares the CSR and the uploaded CA-signed certificate. If the information matches, the CSR disappears, and the new CA-signed certificate is uploaded. If you receive an error message after the certificate is uploaded, refer to the Upload Certificate Common Error Messages section.
+Step 6. To get the new certificate applied to the server, the Cisco Tomcat service needs to be restarted via CLI (start with Publisher, and then subscribers, one at a time), use the command utils service restart Cisco Tomcat.
+To validate the Tomcat certificate is now used by CUCM, navigate to the web page of the node and select Site Information (Lock Icon) in the Browser. Click the certificate option, and verify the date of the new certificate.
+[![Certificate Option](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-04.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-04.png "Certificate Option")
+[![Certificate Information](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-05.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-05.png "Certificate Information")
+### IPSec Certificate [![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-06.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-06.png "alt-tag-for-image")
+[![warning-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif "warning-icon")
+Warning: IPsec certificate expiration or a bad process in the renewal can cause: Disaster Recovery System (DRS)/Disaster Recovery Framework (DRF) is unable to function properly. IPsec tunnels to Gateway (GW) or to other CUCM clusters do not work.
+Caution: A backup or restore task must not be active when the IPSec certificate is regenerated.
+For all the nodes (CallManager and IM&P) of the cluster:
+Step 1. Navigate to Cisco Unified OS Administration > Security > Certificate Management > Find and verify the expiration date of the ipsec certificate.
+Step 2. Click Generate CSR > Certificate Purpose: ipsec. Select the desired settings for the certificate, then click Generate. Wait for the success message to appear and then click Close.
+Step 3. Download the CSR. Click Download CSR. Select Certificate Purpose ipsec and click Download.
+Step 4. Send the CSR to the Certificate Authority.
+Step 5. The Certificate Authority returns two or more files for the signed certificate chain. Upload the certificates in this order:
+  * Root CA certificate as ipsec-trust. Navigate to Certificate Management > Upload certificate > Certificate Purpose: ipsec-trust. Set the description of the certificate and browse the Root certificate file.
+  * Intermediate certificate as ipsec-trust (Optional). Navigate to Certificate Management > Upload certificate > Certificate Purpose: tomcat-trust. Set the description of the certificate and browse the intermediate certificate file.
+
+
+Note: Some CAs do not provide an intermediate certificate. If only the Root certificate was provided, this step can be omitted.
+    * CA-signed certificate as ipsec. Navigate to Certificate Management > Upload certificate > Certificate Purpose: ipsec. Set the description of the certificate and browse the CA-signed certificate file for the current CUCM node.
+
+
+Note: At this point, CUCM compares the CSR and the uploaded CA-signed certificate. If the information matches, the CSR disappears, and the new CA-signed certificate ia uploaded. If you receive an error message after the certificate is uploaded, please refer to the Upload Certificate Common Error Messages< /strong> section.
+Step 6. To get the new certificate applied to the server, the required services must be restarted (only if the service runs and is active). Navigate to:
+  * Cisco Unified Serviceability > Tools > Control Center - Network Services > Cisco DRF Master (Publisher)
+  * Cisco Unified Serviceability > Tools > Control Center - Network Services > Cisco DRF Local (Publisher and Subscribers)
+
+
+### CAPF Certificate[![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-07.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-07.png "alt-tag-for-image")
+[![warning-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif "warning-icon")
+Warning: CAPF certificate expiration or a bad process in the renewal can cause: Authentication and Encryption setup issues for endpoints (except online and offline CAPF mode), Phone VPN, 802.1x, and Phone Proxy. CTI, JTAPI, and TAPI.
+Note: To determine if the cluster is in Mixed Mode, navigate to Cisco Unified CM Administration > System > Enterprise Parameters > Cluster Security Mode (0 == Non-Secure; 1 == Mixed Mode).
+Note: CAPF service only runs in the Publisher, and that is the only certificate used. It is not necessary to get Subscriber nodes signed by a CA because they are not used. If the certificate is expired in the Subscribers and you would like to avoid the alerts of expired certificates, you can regenerate subscriber CAPF certificates as Self-Signed. For more information, see [CAPF Certificate as Self-Signed](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214231-certificate-regeneration-process-for-cis.html#anc21).
+In the Publisher:
+Step 1. Navigate to Cisco Unified OS Administration > Security > Certificate Management > Find and verify the expiration date of the CAPF certificate.
+Step 2. Click Generate CSR > Certificate Purpose: CAPF. Select the desired settings for the certificate, then click Generate. Wait for the success message to appear and click Close.
+Step 3. Download the CSR. Click Download CSR. Select Certificate Purpose CAPF and click Download.
+Step 4. Send the CSR to the Certificate Authority.
+Step 5. The Certificate Authority returns two or more files for the signed certificate chain. Upload the certificates in this order:
+    * Root CA certificate as CAPF-trust. Navigate to Certificate Management > Upload certificate > Certificate Purpose: CAPF-trust. Set the description of the certificate and browse the Root certificate file.
+    * Intermediate certificate as CAPF-trust (Optional). Navigate to Certificate Management > Upload certificate > Certificate Purpose: CAPF-trust. Set the description of the certificate and browse the intermediate certificate file.
+
+
+Note: Some CAs do not provide an intermediate certificate. If only the Root certificate was provided, this step can be omitted.
+  * CA-signed certificate as CAPF. Navigate to Certificate Management > Upload certificate > Certificate Purpose: CAPF. Set the description of the certificate and browse the CA-signed certificate file for the current CUCM node.
+
+
+Note: At this point, CUCM compares the CSR and the uploaded CA-signed certificate. If the information matches, the CSR disappears, and the new CA-signed certificate ia uploaded. If you receive an error message after the certificate is uploaded, please refer to the Upload Certificate Common Error Messages section.
+Step 6. If the cluster is in Mixed Mode, update the CTL before the services restart: [Token](https://community.cisco.com/t5/collaboration-voice-and-video/ip-phone-security-and-ctl-certificate-trust-list/ta-p/3116313) or [Tokenless](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118893-technote-cucm-00.html). If the cluster is in Non-Secure Mode, skip this step and proceed with the service restart.
+Step 7. To get the new certificate applied to the server the required services must be restarted (only if the service runs and is active). Navigate to:
+  * Cisco Unified Serviceability > Tools > Control Center - Network Services > Cisco Trust Verification Service (All nodes where the service runs.)
+  * Cisco Unified Serviceability > Tools > Control Center - Feature Services > Cisco TFTP (All nodes where the service runs.)
+  * Cisco Unified Serviceability > Tools > Control Center - Feature Services > Cisco Certificate Authority Proxy Function (Publisher)
+
+
+Step 8. Reset all the phones:
+  * Navigate to Cisco Unified CM Administration > System > Enterprise Parameters > Reset. A pop-up window appears with the statement, You are about to reset all devices in the system. This action cannot be undone. Continue? select OK and then click Reset.
+
+
+Note: Monitor device registration via RTMT. Once all phones register back you can proceed with the next certificate type.
+### CallManager Certificate [![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-08.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-08.png "alt-tag-for-image")
+[![warning-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif "warning-icon")
+Warning: Call manager certificate expiration or a bad process in the renewal can cause: Phone registration issues. Encrypted/authenticated phones do not register. Trivial File Transfer Protocol (TFTP) is not trusted (phones do not accept signed configuration files and/or ITL files). Secure Session Initiation Protocol (SIP) trunks or media resources (Conference bridges, Media Termination Point (MTP), Xcoders, and so on) do not register or work. The AXL request fails.
+Caution: Do not regenerate CallManager and TVS certificates at the same time. This causes an unrecoverable mismatch to the installed ITL on endpoints which requires the removal of the ITL from ALL endpoints in the cluster. Finish the entire process for CallManager, and once the phones are registered back, start the process for the TVS.
+Note: To determine if the cluster is in Mixed Mode, navigate to Cisco Unified CM Administration > System > Enterprise Parameters > Cluster Security Mode (0 == Non-Secure; 1 == Mixed Mode).
+For all the CallManager nodes of the cluster:
+Step 1. Navigate to Cisco Unified OS Administration > Security > Certificate Management > Find and verify the expiration date of the CallManager certificate.
+Step 2. Click Generate CSR > Certificate Purpose: CallManager. Select the desired settings for the certificate, then click Generate. Wait for the success message to appear and click Close.
+Step 3. Download the CSR. Click Download CSR. Select Certificate Purpose: CallManager and click Download. 
+Step 4. Send the CSR to the Certificate Authority .
+Step 5. The Certificate Authority returns two or more files for the signed certificate chain. Upload the certificates in this order:
+    * Root CA certificate as CallManager-trust. Navigate to Certificate Management > Upload certificate > Certificate Purpose: CallManager-trust. Set the description of the certificate and browse the Root certificate file.
+    * Intermediate certificate as CallManager-trust (Optional). Navigate to Certificate Management > Upload certificate > Certificate Purpose: CallManager-trust. Set the description of the certificate and browse the intermediate certificate file.
+
+
+Note: Some CAs do not provide an intermediate certificate. If only the Root certificate was provided, this step can be omitted.
+  * CA-signed certificate as CallManager. Navigate to Certificate Management > Upload certificate > Certificate Purpose: CallManager. Set the description of the certificate and browse the CA-signed certificate file for the current CUCM node.
+
+
+Note: At this point, CUCM compares the CSR and the uploaded CA-signed certificate. If the information matches, the CSR disappears, and the new CA-signed certificate is uploaded. If you receive an error message after the certificate is uploaded, refer to the Upload Certificate Common Error Messages section.
+Step 6. If the cluster is in Mixed Mode, update the CTL before the services restart: [Token](https://community.cisco.com/t5/collaboration-voice-and-video/ip-phone-security-and-ctl-certificate-trust-list/ta-p/3116313) or [Tokenless](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118893-technote-cucm-00.html). If the cluster is in Non-Secure Mode, skip this step and proceed with the services restart.
+Step 7. To get the new certificate applied to the server, the required services must be restarted (only if the service runs and is active). Navigate to:
+    * Cisco Unified Serviceability > Tools > Control Center - Network Services > Cisco Trust Verification Service
+    * Cisco Unified Serviceability > Tools > Control Center - Feature Services > Cisco TFTP
+    * Cisco Unified Serviceability > Tools > Control Center - Feature Services > Cisco CallManager
+    * Cisco Unified Serviceability > Tools > Control Center - Feature Services > Cisco CTIManager 
+
+
+Step 8. Reset all the phones:
+      * Navigate to Cisco Unified CM Administration > System > Enterprise Parameters > Reset. A pop-up window appears with the statement, You are about to reset all devices in the system. This action cannot be undone. Continue? select OK and then click Reset .
+
+
+Note: Monitor device registration via RTMT. Once all phones register back you can proceed with the next certificate type.
+### TVS Certificate [![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-09.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-09.png "alt-tag-for-image")
+[![warning-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif "warning-icon")
+Warning: A TVS certificate expiration or a faulty process causes phone registration issues; new phones cannot register to Cisco UCM. Devices registered to CUCM cannot access applications such as EM services, directory, and MIDlet when HTTPS is used. Authentication of TLs and configuration (cfg) files also fails.
+Caution: Do not regenerate CallManager and TVS certificates at the same time. This causes an unrecoverable mismatch to the installed ITL on endpoints which requires the removal of the ITL from ALL endpoints in the cluster. Finish the entire process for CallManager and once the phones are registered back, start the process for the TVS.
+For all the TVS nodes of the cluster:
+Step 1. Navigate to Cisco Unified OS Administration > Security > Certificate Management > Find and verify the expiration date of the TVS certificate.
+Step 2. Click Generate CSR > Certificate Purpose: TVS. Select the desired settings for the certificate, then click Generate. Wait for the success message to appear and click Close.
+Step 3. Download the CSR. Click Download CSR. Select Certificate Purpose TVS and click Download.
+Step 4. Send the CSR to the Certificate Authority.
+Step 5. The Certificate Authority returns two or more files for the signed certificate chain. Upload the certificates in this order:
+  * Root CA certificate as TVS-trust. Navigate to Certificate Management > Upload certificate > Certificate Purpose: TVS-trust. Set the description of the certificate and browse the Root certificate file.
+  * Intermediate certificate as TVS-trust (Optional). Navigate to Certificate Management > Upload certificate > Certificate Purpose: TVS-trust. Set the description of the certificate and browse the intermediate certificate file.
+
+
+Note: Some CAs do not provide an intermediate certificate. If only the Root certificate was provided, this step can be omitted.
+  * CA-signed certificate as TVS. Navigate to Certificate Management > Upload certificate > Certificate Purpose: TVS. Set the description of the certificate and browse the CA-signed certificate file for the current CUCM node.
+
+
+Note: At this point, CUCM compares the CSR and the uploaded CA-signed certificate. If the information matches, the CSR disappears, and the new CA-signed certificate is uploaded. If you receive an error message after the certificate is uploaded, refer to the Upload Certificate Common Error Messages section.
+Step 6. To get the new certificate applied to the server, the required services must be restarted (only if the service runs and is active). Navigate to:
+  * Cisco Unified Serviceability > Tools > Control Center - Feature Services > Cisco TFTP (All nodes where the service runs.)
+  * Cisco Unified Serviceability > Tools > Control Center - Network Services > Cisco Trust Verification Service (All nodes where the service runs.)
+
+
+Step 7. Reset all the phones:
+  * Navigate to Cisco Unified CM Administration > System > Enterprise Parameters > Reset. A pop-up window appears with the statement, You are about to reset all devices in the system. This action cannot be undone. Continue? select OK and then click Reset.
+
+
+Note: Monitor device registration via RTMT. Once all phones register back, you can proceed with the next certificate type.
+## Troubleshoot Common Uploaded Certificate Error Messages
+In this section are listed some of the most common Error Messages when a CA-signed certificate is uploaded.
+### CA Certificate is Not Available in the Trust-Store
+This error means the root or intermediate certificate was not uploaded to the CUCM. Verify those two certificates were uploaded as trust-store before the service certificate is uploaded.
+### File /usr/local/platform/.security/tomcat/keys/tomcat.csr Does Not Exist
+This error appears when a CSR does not exist for the certificate (tomcat, callmanager, ipsec, capf, tvs). Verify the CSR was created before and the certificate was created based on that CSR. Important points to keep in mind:
+  * Only 1 CSR per server and certificate type can exist. That means that if a new CSR is created, the old one is replaced.
+  * Wildcard certificates are not supported by CUCM.
+  * It is not possible to replace a service certificate that is currently in place without a new CSR.
+  * Another possible error for the same issue is “The file /usr/local/platform/upload/certs//tomcat.der could not be uploaded.” This depends on the CUCM version.
+
+
+### CSR Public Key and Certificate Public Key Do Not Match
+This error appears when the certificate provided by the CA has a different public key than the one sent in the CSR file. Possible reasons are:
+  * The incorrect certificate (maybe from another node) is uploaded.
+  * The CA certificate was generated with a different CSR.
+  * The CSR was regenerated, and it replaced the old CSR that was used to get the signed certificate.
+
+
+To verify the CSR and certificate public key match, there are multiple tools online such as [SSL](https://www.sslshopper.com/certificate-key-matcher.html). 
+[![SSLshopper](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-10.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-10.png "SSLshopper")
+Another possible error for the same issue is “The file /usr/local/platform/upload/certs//tomcat.der could not be uploaded.” This depends on the CUCM version.
+### CSR Subject Alternate Name (SAN) and Certificate SAN Does Not Match
+The SANs between the CSR and the Certificate must be the same. This prevents certification for Domains that are not allowed. To verify the SAN mismatch, these are the next steps:
+1. Decode the CSR and the certificate (base 64). There are different decoders available online, such as the [Decoder](https://certlogik.com/decoder/). 
+2. Compare the SAN entries and verify all of them match. The order is not important, but all the entries in the CSR must be the same in the Certificate. 
+For example, the CA-signed certificate has two extra SAN entries added, the Common Name of the certificate and an extra IP address.
+[![Check if CSR Matches Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-11.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-11.png "Check if CSR Matches Certificate")
+3. Once you have identified the SAN does not match, there are two options to fix this:
+  1. Request your CA administrator to issue a certificate with the exact same SAN entries that are sent in the CSR.
+  2. Create a CSR in CUCM that matches the requirements of the CA.
+
+
+To modify the CSR created by CUCM:
+  1. If the CA removes the domain, a CSR in CUCM can be created without the domain. While the CSR creation, remove the domain that is populated by default.
+  2. If a [Multi-SAN certificate](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118731-configure-san-00.html) is created, there are some CA that do not accept the -ms in the Common Name. The -ms can be removed from the CSR when it is created. 
+
+
+[![Remove MS](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-12.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-12.png "Remove MS")
+3. To add an Alternative Name apart from the ones autocompleted by CUCM:
+  1. If Multi-SAN certificate is used, more FQDN can be added. (IP addresses are not accepted.)
+
+
+[![Extra SAN](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-13.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-13.png "Extra SAN")
+b. If the certificate is Single Node, use the set web-security command. This command applies even for Multi-SAN certificates. (Any kind of domain can be added, also IP addresses are permitted.)
+For more information, see the [Command Line Reference Guide.](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU2/cucm_b_command-line-interface-reference-guide-1251Su2.html)
+### Trust Certificates with the Same CN are Not Replaced
+CUCM was designed to store only one certificate with the same Common Name and same certificate type. This means that if a certificate that is tomcat-trust already exists in the database and it needs to be replaced with a recent one with the same CN, CUCM removes the old certificate and replaces it with the new one.
+There are some cases when CUCM does not replace the old certificate:
+  1. The certificate uploaded is expired: CUCM does not allow you to upload an expired certificate.
+  2. The old certificate has a more recent FROM date than the new certificate. CUCM keeps the most recent certificate, and the older FROM date is cataloged as older. For this scenario, it is necessary to delete the unwanted certificate and then upload the new one.
+
+
+[![Old Certificate Compared to New Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-14.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica-14.png "Old Certificate Compared to New Certificate")
 ### Revision History  
 | Revision  | Publish Date  | Comments  |  
 | --- | --- | --- |  
-| 3.0  |  27-May-2026   | Updated Alt Text, Headings, and Formatting.  |  
-| 2.0  |  19-Dec-2024   | Initial Release, fixed alt text, spelling, hyperlinks.  |  
-| 1.0  |  11-Oct-2023   | Initial Release  |  
-[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html "Back to Top")
+| 5.0  |  12-Nov-2025   | Updated Alt Text, Machine Translation, and Formatting. Added table of impact and key recommendations for each certificate regeneration.  |  
+| 4.0  |  27-Aug-2024   | Updated Alt Text, Machine Translation, and Formatting.  |  
+| 3.0  |  14-Sep-2022   | Recertification  |  
+| 1.0  |  17-May-2021   | Initial Release  |  
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html "Back to Top")
 ![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
 ### Contributed by Cisco Engineers
-  * Cisco TAC Engineers
+  * Danny Duran
+Cisco TAC Project Manager
 
 
 ### Was this Document Helpful?
 Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
 ### Contact Cisco
-  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
   * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
 
 
@@ -365,49 +336,3 @@ Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Fe
   * [Unified Communications Manager (CallManager)](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html)
 
 
-By continuing to use our website, you acknowledge the use of cookies. 
-[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
-![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
-## Consent Manager
-Your opt out preference signal is honored.
-## Consent Manager
-  * ### Your Privacy
-  * ### Strictly Necessary Cookies
-  * ### Performance Cookies
-  * ### Targeting Cookies
-  * ### Functional Cookies
-
-
-#### Your Privacy
-When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
-#### Strictly Necessary Cookies
-Always Active
-These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
-Cookies Details
-#### Performance Cookies
-Performance Cookies
-These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
-Cookies Details
-#### Targeting Cookies
-Targeting Cookies
-These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
-Cookies Details
-#### Functional Cookies
-Functional Cookies
-These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
-Cookies Details
-Back Button
-### Cookie List
-Filter Button
-Consent Leg.Interest
-checkbox label label
-checkbox label label
-checkbox label label
-Clear
-  * checkbox label label
-
-
-Apply Cancel
-Save Settings
-Allow All
-[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
