@@ -7480,3 +7480,165 @@ Recently Viewed
 [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
 ©2026 Cisco and/or its affiliates. All rights reserved. 
 [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+
+
+---
+# ORIGEN: https://developer.webex.com/admin/docs/api/guides/webex-calling-provisioning-apis
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/admin/docs/api/guides/webex-calling-provisioning-apis)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/admin/docs/api/guides/webex-calling-provisioning-apis)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/admin/docs/api/guides/webex-calling-provisioning-apis)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Provisioning APIs
+Webex Admin
+  * [Overview](https://developer.webex.com/admin/docs/admin)
+  * [Authentication](https://developer.webex.com/admin/docs/authentication)
+  * Service Apps
+  * Guides
+    * [Partner's Guide](https://developer.webex.com/admin/docs/api/guides/partners-guide-to-using-the-webex-apis)
+    * [Audit Events Error Reference](https://developer.webex.com/admin/docs/api/guides/audit-events-api-response-error-codes-reference)
+    * [Hybrid Services](https://developer.webex.com/admin/docs/api/guides/managing-hybrid-services-licenses)
+    * [Webhooks](https://developer.webex.com/admin/docs/api/guides/webhooks)
+    * [Using Webex Service Apps](https://developer.webex.com/admin/docs/service-apps)
+    * [Real-time File DLP Basics](https://developer.webex.com/admin/docs/api/guides/webex-real-time-file-dlp-basics)
+    * [Provisioning APIs](https://developer.webex.com/admin/docs/api/guides/webex-calling-provisioning-apis)
+    * [SCIM-2 Overview](https://developer.webex.com/admin/docs/scim-2-overview)
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/admin/docs/api/changelog/webex-admin)
+  * [AI Assistant for Developers](https://developer.webex.com/admin/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/admin/docs/api/guides/troubleshooting)
+  * [Suite Sandbox](https://developer.webex.com/admin/docs/developer-sandbox-guide)
+
+
+## Webex Admin
+### Provisioning APIs
+The [Webex Calling platform](https://developer.webex.com/docs/webex-calling) includes a wide range of APIs and webhook events for a complete integrative experience. Developers can leverage these flexible APIs to build powerful [applications](https://developer.webex.com/docs/api/guides/integrations-and-authorization) that automate and extend all aspects of Webex Calling.
+There are three pillars for Webex Calling APIs that encapsulate the actions taken _before_ , _during_ , and _after_ phone calls. One pillar is the user-level [Call Control APIs](https://developer.webex.com/docs/api/v1/call-controls) which represents the actions _during_ active calls. These Call Control endpoints also provide information about current and previous calls for users, that can be used to power agent dashboards, call widgets, and more. The other two pillars of the Calling APIs are on the administrator level. The [analytics](https://developer.webex.com/docs/api/v1/webex-calling-detailed-call-history) & [report APIs](https://developer.webex.com/docs/api/v1/reports) are for actions made _after_ phone calls are finished. These APIs can be leveraged by admins to automatically retrieve rich historical call data and generate call detail reports. The remaining pillar and the focus of this guide are the Provisioning APIs, which contain the actions to get everything set up _before_ phone calls happen.
+####  anchorThe Purpose of Provisioning APIs
+anchor
+In broad terms, the Provisioning APIs automate bulk administrator tasks for Webex Calling that would otherwise be done manually, one at a time, in [Webex Control Hub](https://www.webex.com/control-hub.html). These APIs can be used to create reliable and scalable integration solutions for a variety of use cases for Webex Calling administration. Some of the more popular solutions built with these APIs are for automated **user on-boarding** or **3rd party migration** applications, where configurations must be applied consistently and accurately in high volumes. For example, check out the [UCentric integration](https://apphub.webex.com/applications/ucentric-automated-migration-to-webex-calling-mit-dynamic-technologies-ltd) in the [Webex App Hub](https://apphub.webex.com), which utilizes the Provisioning APIs in intuitive ways for a seamless migration solution.
+Let us take a closer look at this comprehensive collection of Provisioning APIs to find out what is available for developers. Please note, most of the embedded hyperlinks will either navigate to an official API reference page or the relevant Webex help article for more information on the individual features.
+####  anchorExploring the Provisioning APIs
+anchor
+Since there are many components to Webex Calling, the collection of Provisioning APIs is quite extensive. There are endpoints for configuring and managing users, devices, phone numbers, locations and much more. To examine the endpoints in more detail, we can group them into some basic categories:
+###### User Management APIs
+Some of the most widely utilized Calling APIs are for user management, to automate the provisioning of new users and the configuration of user calling settings. This category of APIs can optimize workflows for onboarding users quickly and efficiently. For example, an administrator integration that uses the People APIs to create a batch of new users and assign them Webex Calling licenses, then leverages the User Calling Settings API to configure each of their custom calling preferences. The API endpoints in this group are as follows:
+  * [People APIs](https://developer.webex.com/docs/api/v1/people) are used to create and [manage user accounts](https://help.webex.com/en-us/article/nz0krq9/Configure-and-manage-your-Webex-Calling-users) inside an organization. These endpoints support the automation of adding user accounts in Control Hub that will have Webex Calling services enabled.
+  * [User Call Settings APIs](https://developer.webex.com/calling/docs/api/v1/user-call-settings-1-2) control the Webex Calling settings for specific user accounts. This diverse set of endpoints supports the automation of variety of different individual user settings for: [application services](https://webexcallingtraining.verizon.com/administrator-application-services/), [barge-in](https://help.webex.com/en-us/article/g8dfhv/Allow-users-to-barge-in-to-other-people), [forwarding](https://help.webex.com/en-us/article/nfylvfcb/Webex-App-|-Manage-your-advanced-call-settings), [intercept](https://help.webex.com/en-us/article/n8rhdrd/Configure-call-intercept-in-Control-Hub), [call queue](https://help.webex.com/en-us/article/ns2bgr/Create-and-manage-call-queue), [recording](https://help.webex.com/en-us/article/ilga4/Manage-call-recording-for-Webex-Calling), [call waiting](https://help.webex.com/en-us/article/nfylvfcb/Webex-App-|-Manage-your-advanced-call-settings), [caller ID](https://help.webex.com/en-us/article/nh3x9zt/Specify-caller-ID-options-for-users-and-workspaces), [behaviors](https://help.webex.com/en-us/article/1lvb42/Set-up-calling-behavior), [DND (Do Not Disturb)](https://help.webex.com/en-us/article/0wg7gf/Silence-incoming-calls-to-your-phone-in-the-Calling-User-Portal), [executive assistant](https://help.webex.com/en-us/article/gfoc4o/Enable-executive-or-executive-assistant-services-for-a-Webex-Calling-user), [hoteling](https://help.webex.com/en-us/article/t2d9bx/Hoteling-in-Control-Hub), [monitoring](https://help.webex.com/en-us/article/a7d9dj/Monitoring-List---Other-Users-and-Call-Park-Extentions), [permissions](https://help.webex.com/en-us/article/q94e8c/Configure-calling-permissions-in-Control-Hub), [phone numbers](https://help.webex.com/en-us/article/nvjt3ce/Change-Users), [answer endpoints](https://help.webex.com/en-us/article/nfylvfcb/Webex-App-|-Manage-your-advanced-call-settings), [privacy](https://help.webex.com/en-us/article/ow5s3w/Prevent-someone-from-monitoring-a-user), [push-to-talk](https://help.webex.com/en-us/article/weu26r/Configure-push-to-talk-for-Webex-Calling-users), [receptionist client](https://help.webex.com/en-us/article/tj73rv/Get-started-with-your-Receptionist-Client), [schedules](https://help.webex.com/en-us/article/df34r8/Create-a-schedule-to-apply-to-your-call-settings-in-the-calling-user-portal), [shared-line appearance members](https://help.webex.com/en-us/article/d6gavk/Shared-line-appearance-for-Webex-App), and[voicemail](https://help.webex.com/en-us/article/fdkhld/Calling-User-Portal-|-Configure-your-voicemail-settings).
+
+
+###### Location Settings APIs
+The management of locations and the corresponding Webex Calling settings for those locations can be automated with this group of APIs. In this context, "locations" are physical places (office building, retail center, warehouse, etc.) that "users" and "workspaces" are assigned to. For example, these APIs can be used to create a script that would automatically configure the calling settings for all users in a new location. This script could be run whenever a new location is created, ensuring that all users in the location have the correct calling settings. The API endpoints in this category are as follows:
+  * [Locations APIs](https://developer.webex.com/docs/api/v1/locations) are used to create and manage [locations in Webex](https://help.webex.com/en-us/article/ajh6iy/Locations-in-Control-Hub) and correlate users & workspaces to locations.
+  * [Location Call Settings APIs](https://developer.webex.com/docs/api/v1/location-call-settings) are used to retrieve and/or update the following call configurations within a specific location: [location details](https://help.webex.com/en-us/article/njvdjf2/Configure-Webex-Calling-for-your-organization), [announcement language](https://help.webex.com/en-us/article/h12djs/Configure-the-language-for-your-audio-announcements-and-email-communication-inthe-calling-user-portal), [dial patterns](https://help.webex.com/en-us/article/njvdjf2/Configure-Webex-Calling-for-your-organization), [emergency callback numbers](https://help.webex.com/en-us/article/nj0abhbb/Configure-emergency-call-notifications-in-Control-Hub), [validate extensions](https://help.webex.com/en-us/article/fh3l46/Virtual-Extension-Configuration-in-Control-Hub), [music on hold,](https://help.webex.com/en-us/article/5fpo4u/Configure-music-on-hold-settings-for-your-location)[private network connect](https://help.webex.com/en-us/article/k1burf/Connect-Customer-Private-Network-to-Webex-Calling), and [routing choices](https://help.webex.com/en-us/article/h12djs/Configure-the-language-for-your-audio-announcements-and-email-communication-inthe-calling-user-portal).
+  * [Location Call Settings: Call Handling APIs](https://developer.webex.com/docs/api/v1/location-call-settings-call-handling) can be leveraged to read/write Webex Calling location settings pertaining to [call permissions](https://help.webex.com/en-us/article/q94e8c/Configure-calling-permissions-in-Control-Hub) and [intercepting](https://help.webex.com/en-us/article/n8rhdrd/Configure-call-intercept-in-Control-Hub) of inbound & outbound calls in an organization.
+  * [Location Call Settings: Schedules APIs](https://developer.webex.com/docs/api/v1/location-call-settings-schedules) are used to create business [schedules](https://help.webex.com/en-us/article/n6wyx8t/Create-and-Configure-a-Schedule-in-Cisco-Webex-Control-Hub) and manage scheduled events for specific locations.
+  * [Location Call Settings: Voicemail APIs](https://developer.webex.com/docs/api/v1/location-call-settings-voicemail) are for retrieving and modifying [voicemail groups](https://help.webex.com/en-us/article/mcjd4u/Manage-a-shared-voicemail-and-inbound-fax-box-for-Webex-Calling) to organize a shared mailbox by workgroup or department, and [voice portal settings](https://help.webex.com/en-us/article/nojp8ej/Configure-voice-portals-for-Webex-Calling-in-Control-Hub) for IVR (Interactive Voice Response) configuration.
+
+
+###### Workspace Calling and Device APIs
+This next category of APIs are for managing [workspaces](https://help.webex.com/en-us/article/1mqb9cb/Add-Shared-Devices-and-Services-to-a-Workspace) and the associated devices in Webex Calling. Workspaces help organize specific areas inside a "location" (such as conference rooms, meeting spaces, lobbies, lecture halls, etc.) and have individual call settings or specific devices assigned to them. The API endpoints in this group are as follows:
+  * [Workspaces APIs](https://developer.webex.com/docs/api/v1/workspaces) are for creating and managing workspaces in Webex, which represent where people work.
+  * [Workspace Call Settings APIs](https://developer.webex.com/docs/api/v1/workspace-call-settings) are for retrieving and modifying various call settings for a specific workspace, such as [forwarding](https://help.webex.com/en-us/article/nkw9o41/Configure-call-forwarding-for-users-and-workspaces), [call waiting](https://help.webex.com/en-us/article/1op6xg/Enable-Call-Waiting-for-Users-and-Workspace), [callerID](https://help.webex.com/en-us/article/nh3x9zt/Specify-caller-ID-options-for-users-and-workspaces), [monitoring](https://help.webex.com/en-us/article/a7d9dj/Monitoring-List---Other-Users-and-Call-Park-Extentions), [numbers](https://help.webex.com/en-us/article/wkj3f0/Manage-phone-numbers-in-Control-Hub), [permissions & access codes](https://help.webex.com/en-us/article/q94e8c/Configure-calling-permissions-in-Control-Hub), [intercepts](https://help.webex.com/en-us/article/n8rhdrd/Configure-call-intercept-in-Control-Hub), and [transfer numbers](https://developer.webex.com/docs/api/v1/workspace-call-settings/retrieve-transfer-numbers-settings-for-a-workspace).
+  * [Devices APIs](https://developer.webex.com/docs/api/v1/devices) are activating and managing [devices](https://help.webex.com/en-us/article/n9r1aac/Configure-and-manage-Webex-Calling-devices) that can be associated with a workspace.
+  * [Device Call Settings APIs](https://developer.webex.com/docs/api/v1/device-call-settings) are for managing various call settings when [configuring a device](<https://cisco.sharepoint.com/sites/DeveloperEvangelism/Docs/Blogs/Developer> Portal Blogs/Draft/ https:/help.webex.com/en-us/article/uil72l/Configure-and-modify-device-settings-in-Webex-Calling).
+
+
+###### Phone Numbers & Service Settings APIs
+Organizations that maintain a large amount of phone numbers need a dynamic approach to how they are administered. Integrations can use the Phone Numbers APIs to manage inbound phone numbers in a variety of ways, including by location, type, and routing. The management of virtual lines (allows a user to have multiple numbers without additional licensing) and voicemail configurations within an organization can also be automated.
+The API endpoints in this group are as follows:
+  * [Numbers APIs](https://developer.webex.com/docs/api/v1/numbers) are used to add, activate, and remove [phone numbers](https://help.webex.com/en-us/article/wkj3f0/Manage-phone-numbers-in-Control-Hub) at a location, and also validate and manage phone numbers in the organization.
+  * [Virtual Line Call Settings API](https://developer.webex.com/docs/api/v1/virtual-line-call-settings) has a single endpoint for retrieving a list of [virtual lines](https://help.webex.com/en-us/article/nthc9kbb/Multi-line-support-in-Webex-Calling-using-virtual-lines) in an organization.
+  * [Calling Service Settings APIs](https://developer.webex.com/docs/api/v1/calling-service-settings) are for retrieving and modifying [voicemail settings](https://help.webex.com/en-us/article/hc69wk/Configure-and-manage-voicemail-settings-for-a-Webex-Calling-user), rules, and [announcement languages](https://help.webex.com/en-us/article/no3c1rm/Set-the-preferred-language-for-your-organization-in-Control-Hub).
+
+
+###### Local Gateway APIs
+There are also APIs for retrieving and modifying the [local gateway configuration](https://help.webex.com/en-us/article/n0xb944/Configure-trunks,-route-groups,-and-dial-plans-for-Webex-Calling) for on-premises deployments inside an organization. These endpoints can create and manage the rules for routing to a local gateway, for handling calls between Webex Calling hosted users and on-premises PBX users. The API endpoints in this category are:
+  * [Call Routing APIs](https://developer.webex.com/docs/api/v1/call-routing) can be used to configure various settings on a local gateway, such as dial plans (custom prefixes, extension lengths, outbound preferences), trunks (connection between cloud calling and premises), and route groups (allow Webex Calling to distribute calls over multiple trunks).
+
+
+###### Calling Features APIs
+The last category of Provisioning APIs is for managing a range of [Webex Calling features](https://help.webex.com/en-us/article/0r7a2z/Set-up-your-Webex-Calling-features) inside an organization. Each specific feature has its own set of APIs for creating and managing the settings. Most of these settings are for improving the efficiency of call handling, compliance, and to ensure that callers are routed to the right agents. Automating these actions becomes particularly imperative for companies that have a large staff to manage. The API endpoints in this group are as follows:
+  * [Features: Auto Attendant APIs](https://developer.webex.com/docs/api/v1/features-auto-attendant) are for creating and managing greetings, menus, forwarding rules, and other features in [auto-attendants](https://help.webex.com/en-us/article/nsioxoi/Manage-auto-attendants-in-Control-Hub).
+  * [Features: Call Park APIs](https://developer.webex.com/docs/api/v1/features-call-park) allow the creation and management of [call park services](https://help.webex.com/en-us/article/nfoxd2m/Manage-call-park-in-Control-Hub), that allows users to keep active calls assigned to their extension while they are free to make & receive other calls.
+  * [Features: Call Pickup APIs](https://developer.webex.com/docs/api/v1/features-call-pickup) allow the creation and management of [call pickup groups](https://help.webex.com/en-us/article/tll322/Call-pickup-in-Control-Hub), that can answer calls for others when their line is busy.
+  * [Features: Call Queue APIs](https://developer.webex.com/docs/api/v1/features-call-pickup) allow the creation and management of [call queues](https://help.webex.com/en-us/article/tll322/Call-pickup-in-Control-Hub), for routing callers to the proper agents to help with a particular issue or question.
+  * [Features: Call Recording APIs](https://developer.webex.com/docs/api/v1/features-call-recording) provide access to [call recordings settings](https://developer.webex.com/help.webex.com/en-us/article/ilga4/Manage-call-recording-for-Webex-Calling) and compliance announcements.
+  * [Features: Hunt Group APIs](https://developer.webex.com/docs/api/v1/features-hunt-group) allow the creation and management of [hunt groups](https://help.webex.com/en-us/article/o6rfjeb/Manage-hunt-groups-in-Control-Hub), that route incoming calls to specific agents based on a predetermined pattern. This ensures inbound calls are answered by the proper agent or routed to a specific voicemail.
+  * [Features: Paging Group APIs](https://developer.webex.com/docs/api/v1/features-paging-group) allow the creation and management of [paging groups](https://help.webex.com/en-us/article/jqejtd/Configure-a-paging-group-in-Control-Hub), where users can send an audio message to a person, a department, or a team by dialing an assigned number or extension.
+  * [Features: Receptionist Client APIs](https://developer.webex.com/docs/api/v1/features-receptionist-client) are for creating and modifying [receptionist clients](https://help.webex.com/en-us/article/n8p8lmy/Receptionist-clients-in-Control-Hub), who are users that can screen inbound calls for certain people within their organization.
+
+
+####  anchorGetting Started
+anchor
+Since the Provisioning APIs require an administrator role, start by requesting a [free Webex Developer Sandbox](https://developer.webex.com/docs/developer-sandbox-guide), which provides exclusive access to a licensed organization. Once logged in as the sandbox administrator, follow [these instructions](https://help.webex.com/en-us/article/njvdjf2/Configure-Webex-Calling-for-your-organization) to configure the sandbox organization for Webex Calling. Additionally, this [helpful Vidcast](https://app.vidcast.io/share/974fc2b9-9ba1-4889-9d04-ea7751f92c33) shows how to set up basic Webex Calling extension dialing on the sandbox. Do note that these instructions explain how to set things up _manually_ in Control Hub. Developers can also utilize the Provisioning APIs that correspond to the actions in Control Hub to configure the sandbox.
+##### In This Article
+  * [The Purpose of Provisioning APIs](https://developer.webex.com/admin/docs/api/guides/webex-calling-provisioning-apis#the-purpose-of-provisioning-apis)
+  * [Exploring the Provisioning APIs](https://developer.webex.com/admin/docs/api/guides/webex-calling-provisioning-apis#exploring-the-provisioning-apis)
+  * [Getting Started](https://developer.webex.com/admin/docs/api/guides/webex-calling-provisioning-apis#getting-started)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
