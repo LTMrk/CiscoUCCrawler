@@ -30,3 +30,6 @@
 [2026-08-12T20:38:59.506737] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (14597 bytes, 0 chars visible) | URL: https://help.webex.com/en-us/landing/onlineclasses
 [2026-08-12T20:39:05.717968] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/accessibility.html
 [2026-08-12T20:39:07.004834] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/inclusive-collaboration.html
+[2026-08-12T20:39:59.221035] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/webex-mcp-server-overview
+[2026-08-12T20:40:06.606546] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/webex-contact-center
+[2026-08-12T20:40:13.571740] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/getting-started-with-search-api
