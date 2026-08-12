@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744595.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744595.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744595.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-741767.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-741767.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-741767.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,8 +19,8 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744595.html)
-  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744595.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-741767.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-741767.html)Show All Breadcrumbs
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/products/unified-communications/index.html)
   * [Call Control](https://www.cisco.com/c/en/us/products/unified-communications/call-control/index.html)
@@ -28,18 +28,18 @@
   * [End-of-Life and End-of-Sale Notices](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-listing.html)
 
 
-# End-of-Sale and End-of-Life Announcement for the Cisco CUCM Admin Security Token, 7.1 or Newer
+# End-of-Sale and End-of-Life Announcement for the Cisco Unified Communications Manager and Session Management Edition 10.X
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744595.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-741767.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744595.pdf) (260.0 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-741767.pdf) (292.9 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:December 14, 2020
+Updated:May 11, 2020
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
@@ -53,50 +53,70 @@ US/CAN | 5am-5pm PT
 
 
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744595.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-741767.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744595.pdf) (260.0 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-741767.pdf) (292.9 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:December 14, 2020
+Updated:May 11, 2020
 #### Table of Contents
 ![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
 ![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
 #### Table of Contents
-  * [Overview](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744595.html#Overview "Overview")
-    * [EOL13530](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744595.html#EOL13530 "EOL13530")
-  * [End-of-life milestones](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744595.html#Endoflifemilestones "Endoflifemilestones")
-  * [Product part numbers](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744595.html#Productpartnumbers "Productpartnumbers")
-  * [Product migration options](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744595.html#Productmigrationoptions "Productmigrationoptions")
-  * [For more information](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744595.html#Formoreinformation "Formoreinformation")
+  * [Overview](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-741767.html#Overview "Overview")
+  * [End-of-life milestones](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-741767.html#Endoflifemilestones "Endoflifemilestones")
+  * [Product part numbers](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-741767.html#Productpartnumbers "Productpartnumbers")
+  * [Product migration options](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-741767.html#Productmigrationoptions "Productmigrationoptions")
+  * [For more information](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-741767.html#Formoreinformation "Formoreinformation")
 
 
 Overview
-EOL13530
-Cisco announces the end-of-sale and end-of-life dates for the Cisco CUCM Admin Security Token, 7.1 or Newer. The last day to order the affected product(s) is March 15, 2021. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract. 
+EOL12642 - Amended
+Cisco announces the end-of-sale and end-of-life dates for the Cisco Unified Communications Manager and Session Management Edition 10.X. The last day to order the affected product(s) is July 2, 2019. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract.
 End-of-life milestones
-**Table 1.** End-of-life milestones and dates for the Cisco CUCM Admin Security Token, 7.1 or Newer  
+**Table 1.** End-of-Life Milestones and Dates for the Cisco Unified Communications Manager and Session Management Edition 10.X  
 |  Milestone  |  Definition  |  Date   |  
 | --- | --- | --- |  
-|  **End-of-Life Announcement Date**  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  December 14, 2020   |  
-|  **End-of-Sale Date  
-Accessory **  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  March 15, 2021   |  
-|  **Last Ship Date  
-Accessory **  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  June 13, 2021   |  
+|  **End-of-Life Announcement Date**  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  January 1, 2019   |  
+|  **End-of-Sale Date:  
+App SW **  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  July 2, 2019   |  
+|  **Last Ship Date:  
+App SW **  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  September 30, 2019   |  
+|  **End of SW Maintenance Releases Date:  
+App SW **  |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  July 1, 2020   |  
+|  **End of New Service Attachment Date:  
+App SW **  |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  July 1, 2020   |  
+|  **End of Service Contract Renewal Date:  
+App SW **  |  The last date to extend or renew a service contract for the product.  |  September 27, 2021   |  
+|  **Last Date of Support:  
+App SW **  |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  July 31, 2022   |  
+HW = Hardware OS SW = Operating System Software App. SW = Application Software 
+In response to the worldwide COVID-19 pandemic, Cisco Engineering is providing a limited extension to End of Software Maintenance for version 10.5 from Jul 1, 2020 until Oct 1, 2020 , to help Customers continue use their existing servers and plan for an upgrade. For more details refer: <https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/limited-extension-of-software-maintance-support-for-cucm-10-5-release.html>.
 Product part numbers
-**Table 2.** Product part numbers affected by this announcement  
+**Table 2.** Product Part Numbers Affected by This Announcement  
 |  End-of-Sale Product Part Number  |  Product Description  |  Replacement Product Part Number  |  Replacement Product Description  |  Additional Information   |  
 | --- | --- | --- | --- | --- |  
-|  **KEY-UCM-ADMIN2-K9=**  |  CUCM Admin Security Token, 7.1 or Newer  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  CM10.X-K9-LAB=  |  SW CM 10.X Lab Only, 20 CUWL PRO, 5 TP Room  |  CM12.0-K9-LAB  |  SW CM/SME 12.0 Lab Only, 20 CUWL, 5 TP Room , 50 CER  |  -  |  
+|  CM10.X-K9-NFR  |  SW CM 10.X Not For Resale, 20 CUWL PRO, 5 TP Room, 100 CER  |  CM12.0-K9-NFR  |  SW CM/SME 12.0 Not for Resale, 20 CUWL ,5 TP Room,100 CER  |  -  |  
+|  CUCM-VERS-10.X  |  CUCM Software Version 10.X  |  CUCM-VERS-12.0  |  CUCM Software version 12.0  |  -  |  
+|  CUCM-VERS-10.X-XU  |  CUCM Software Version 10.X Unrestricted  |  CUCM-VERS-12.0-XU  |  CUCM Software version 12.0 (Export Unrestricted)  |  -  |  
+|  R-PC-10X-STD-K9=  |  Prime Collaboration Standard 10.x  |  R-PC-12.X-STD-K9=  |  SW PID for Prime Collaboration 12.X  |  -  |  
+|  SME-10.X-K9-UPG=  |  SW Upgrade to SME 10.X for ESW/UCSS  |  SME-12.0-K9-UPG=  |  SW Upgrade to SME 12.0 for SWSS  |  -  |  
+|  SME-VERS-10.X  |  SME Software Version 10.X  |  SME-VERS-12.0  |  SME Software Version 12  |  -  |  
+|  SME10.X-K9-LAB=  |  SW CM-SME 10.X Lab Use Only  |  CM12.0-K9-LAB  |  SW CM/SME 12.0 Lab Only, 20 CUWL, 5 TP Room , 50 CER  |  -  |  
+|  SME10.X-K9-NFR  |  SW CM-SME10.X Not For Resale Use Only  |  CM12.0-K9-NFR  |  SW CM/SME 12.0 Not for Resale, 20 CUWL ,5 TP Room,100 CER  |  -  |  
+|  UCM-10.X-SW-K9-XU=  |  CUCM Software Version 10.X for PUT Only, Export Unrestricted  |  UCM-12.0-SW-K9-XU=  |  CUCM Software Version 12.0 for PUT Only, Export Unrestricted  |  -  |  
+|  UCM-10.X-SW-K9=  |  CUCM Software Version 10.X for PUT Only  |  UCM-12.0-SW-K9=  |  CUCM Software Version 12.0 for PUT Only  |  -  |  
+|  UP-UCM9TO10-ENHP-A  |  Upg to UCM 10.x Enh Plus from 9.x  |  UP-UCM9TO12-ENHP  |  Upg to UCM 12.x Enh Plus from 9.x  |  -  |  
+|  UPG-TP-9TO10-ROOM  |  Upg to UCM 10.x TP Room from 9.x  |  UPG-TP-9TO12-ROOM  |  Upg to UCM 12.x TP Room from 9.x  |  -  |  
+|  UPG-UCM9TO10-BAS-A  |  Upg to UCM 10.x Basic from 9.x  |  UPG-UCM9TO12-BAS  |  Upg to UCM 12.x Basic from 9.x  |  -  |  
+|  UPG-UCM9TO10-ENH-A  |  Upg to UCM 10.x Enhanced from 9.x  |  UPG-UCM9TO12-ENH  |  Upg to UCM 12.x Enhanced from 9.x  |  -  |  
+|  UPG-UCM9TO10-ESS-A  |  Upg to UCM 10.x Essential from 9.x  |  UPG-UCM9TO12-ESS  |  Upg to UCM 12.x Essential from 9.x  |  -  |  
 Product migration options
-The procedure to migrate from the CTL from USB eToken to tokenless is simple and does not require the USB eTokens.
-1.On the Unified CM Publisher, enter "utils ctl update CTLFile" command on the CLI and press Enter to migrate from hardware USB eToken to tokenless CTL. When prompted, confirm you want to continue by typing ‘y’ and pressing Enter. NOTE: When typing ‘y’, you might not see the ‘y’ on the screen, until after press the Enter key.
-2.Restart the CallManager and CTIManager services on all Unified CM nodes. With Unified CM releases prior to 12.x, also restart the TFTP service on the Unified CM TFTP nodes.
-3.Restart all the IP phones and endpoints in order to ensure they download the CTL file. For more details on the procedure and verification steps, refer to the CUCM Mixed Mode with Tokenless CTL TAC TechNote <https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118893-technote-cucm-00.html>. Tokenless solution is equally secure as the USB eToken and has less maintenance overhead. It does not need the physical security that is needed for USB etokens. Administrators do not have to worry about the loss of USB etokens and recovering the system from the loss. Tokenless solution does not have the overhead of installing of additional software tools like CTL client. Cisco recommends that the customers using USB eTokens, should migrate to tokenless solution at the earliest possibility. However, customers using USB eTokens, who do want to continue using USB eTokens, they may do so with their existing USB eTokens as long as they are valid and continue to work up to Cisco Unified CM 12.x release. In Cisco Unified CM 14 release onwards USB eToken can not be used to update CTL. Only option to update CTL would be to use tokenless CLI. Customer who want to continue using USB eTokens for sometime may buy few spare tokens before the EOS. After EOS new customers will have the Tokenless option only as they will not be able to buy any new USB eTokens.
 Service prices for Cisco products are subject to change after the product End-of-Sale date.
 The Cisco Takeback and Recycle program helps businesses properly dispose of surplus products that have reached their end of useful life. The program is open to all business users of Cisco equipment and its associated brands and subsidiaries. For more information, go to: <https://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html>.
 For more information
