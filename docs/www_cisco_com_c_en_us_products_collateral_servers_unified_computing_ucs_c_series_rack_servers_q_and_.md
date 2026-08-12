@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-2381951.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-2381951.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-2381951.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-743320.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-743320.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-743320.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,126 +19,78 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-2381951.html)
+  * [](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-743320.html)
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Servers - Unified Computing](https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html)
-  * [Cisco UCS B-Series Blade Servers](https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-b-series-blade-servers/index.html)
+  * [Cisco UCS C-Series Rack Servers](https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/index.html)
 
 
-# Cisco UCS M6 Servers with 3rd Gen Intel Xeon CPUs FAQ
+# Cisco UCS C240 SD M5 Rack Server FAQ
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-2381951.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-743320.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-2381951.pdf) (108.4 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-743320.pdf) (82.7 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:April 6, 2021
+Updated:January 27, 2020
+Document ID:1580173698286355
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
-Contact Cisco
-  * Contact Cisco
+Contents
+**Q.** What is Cisco announcing? 
+**A.** Cisco is expanding the Cisco UCS ® server portfolio with a new, short-depth rack server, the Cisco UCS C240 SD M5 Rack Server. 
+Hardware
+**Q.** What is the Cisco UCS C240 SD M5 Rack Server? 
+**A.** The Cisco UCS C240 SD M5 Rack Server is like the Cisco UCS C240 M5 – 2RU, up to two 2 nd Gen Intel ® Xeon ® Scalable processors, up to 24 DDR4 DIMMs with Intel Optane ™ DC persistent memory support, up to six PCIe Gen 3 slots, dual 10 Gb Ethernet LOMs, and M.2 drive options. 
+**Q.** How is the Cisco UCS C240 SD M5 different from the UCS C240 M5? 
+**A.** The primary differences are depth – the C240 SD M5 is 22”, the C240 M5 is 29” – and the number of drives supported: the C240 SD M5 up to 6, where the C240 M5 supports up to 26 drives. The C240 SD M5 also supports the Intel Altera Arria10 FPGA PCIe adapter for acceleration of packet distribution on the 5G edge network. 
+**Q.** What are the storage options? 
+**A.** The C240 SD M5 supports up to six 2.5” NVMe, SAS, or SATA drives up to 7.6 TB. Also available as boot drives are M.2 options up to 480 GB. 
+**Q.** What are the networking options for the C240 SD M5? 
+**A.** There are two 10Gbase-T Intel X550–based LOM ports. There is also optional support for Cisco 4 th Gen Virtual Interface Cards VICs) 10/25/40/100-Gbps, and for Intel X710 10/25/40 Gbps PCIe cards. 
+**Q.** Are the 10-Gbps LOM modules 1-Gbps-capable? 
+**A.** Yes. 
+**Q.** Does the optional RAID controller consume a PCIe slot? 
+**A.** No. The RAID controller plugs into a dedicated slot, leaving all PCIe slots available for other cards. 
+**Q.** Which fabric interconnects does the C240 SD M5 support? 
+**A.** The C240 SDS M5 supports Cisco UCS 6400 Series Fabric Interconnects. 
+Management
+**Q.** What are the server management solutions for the Cisco UCS C240 SD M5 Rack Server? 
+**A.** It can be managed with Cisco Intersight ™ through a Cisco Integrated Management Controller (CIMC) or through UCS Manager when connected to a fabric interconnect. 
+**Q.** Does the C240 SD M5 support any management tools other than those from Cisco? 
+**A.** There are many third-party management solutions, such as Ansible and Puppet, that can utilize Cisco’s management APIs. 
+Other
+**Q.** Where does the Cisco UCS C240 SD M5 Rack Server fit in Cisco’s edge compute server portfolio? 
+**A.** The C240 SD M5 is primarily targeted for telco, service providers, and industrial environments. Cisco HyperFlex ™ Edge is designed to put virtualized applications close to the customer in a 2–4 node solution that is centrally managed with Cisco Intersight exclusively. Cisco UCS Mini is designed for customers who prefer blade servers to run enterprise applications, have bare-metal applications, or need more servers than a HyperFlex Edge solution can support. The Cisco UCS E-Series, which is part of the Integrated Services Router (ISR) series, supports different types of network connectivity and light-weight applications. 
+**Q.** How does the C240 SD M5 differ from competitive servers? 
+**A.** Cisco offers two unmatched, unique differentiators: Cisco Virtual Interface Cards (VICs) and UCS Management including Cisco Intersight. 
+**Q.** What makes Cisco VICs unique? 
+**A.** Cisco VICs offer Cisco SingleConnect: the ability to use a single cable to support data, storage, and management traffic. Additionally, Cisco VICs can instantiate 256+ vNICs and vHBAs. 
+**Q.** What makes Cisco Intersight unique? 
+**A.** The Cisco Intersight platform transforms the way that customers deploy and manage their UCS and HyperFlex servers. It offers a more intelligent level of management that enables IT organizations to analyze, simplify, and automate their environments in ways that were not possible with prior generations of tools. 
+Cisco Intersight SaaS simplifies lifecycle management, making daily tasks easier for your development and operations teams. It scales to support whatever quantity of servers you deploy, wherever you deploy it. The platform continues to learn and evolve over time, and as it does, it will improve your ability to optimize your infrastructure with insights that help you continuously adapt to change. And it makes you more agile, so you can respond more quickly to problems and issues. 
+The new Intersight Optimizer extends its powerful capabilities beyond Cisco infrastructure management to include full-stack visibility from infrastructure to applications, including third-party infrastructure and resources in the cloud, all with a focus on optimizing IT resources to ensure application performance. 
+**Q.** What operating systems and hypervisors are supported by the C240 SD M5? 
+**A.** Refer to the UCS Hardware Compatibility List for the most up-to-date list: <https://ucshcltool.cloudapps.cisco.com/public/>. 
+**Q.** When will the C240 SD M5 be orderable? 
+**A.** Q2CY20. 
+**Q.** When will the C240 SD M5 ship? 
+**A.** Q2CY20. 
+**Q.** Where can I find more detailed information about the new Cisco UCS M5 servers? 
+**A.** Visit <https://cisco.com/go/UCS>. 
+### Contact Cisco
   * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
-  * Call Sales: [ 1-800-553-6387 ](tel:18005536387)   
-US/CAN | 5am-5pm PT 
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
   * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
   * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
 
 
-Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-2381951.html) to Save Content 
-Download
-Print
-### Available Languages
-### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-2381951.pdf) (108.4 KB)   
-View with Adobe Reader on a variety of devices
-
-
-Updated:April 6, 2021
-#### Table of Contents
-![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
-![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
-#### Table of Contents
-  * [General](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-2381951.html#General "General")
-  * [Common hardware questions](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-2381951.html#Commonhardwarequestions "Commonhardwarequestions")
-  * [Cisco UCS B200 M6 Blade Server](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-2381951.html#CiscoUCSB200M6BladeServer "CiscoUCSB200M6BladeServer")
-  * [Cisco UCS C220 M6 Rack Server](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-2381951.html#CiscoUCSC220M6RackServer "CiscoUCSC220M6RackServer")
-  * [Cisco UCS C240 M6 Rack Server](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/q-and-a-c67-2381951.html#CiscoUCSC240M6RackServer "CiscoUCSC240M6RackServer")
-
-
-General
-**Q.** What did Cisco announce on April 6, 2021? 
-**A.** Three new UCS servers: the Cisco UCS ® B200 M6 Blade Server, the Cisco UCS C220 M6 Rack Server, and the Cisco UCS C240 M6 Rack Server. 
-**Q.** What is different about the B200 M6, C220 M6, and C240 M6 servers? 
-**A.** These servers feature 3 rd Gen Intel ® Xeon ® Scalable Processors (aka “Ice Lake” CPUs), 3200 MHz memory, and PCIe 4.0. 
-**Q.** When will these servers be available? 
-**A.** They are orderable now and will ship in May. 
-**Q.** Have the UCS B480 M5, UCS C240 SD M5, UCS C480 M5, UCS C480 ML M5, or the UCS S3260 M5 servers been updated to these new CPUs? 
-**A.** No, these servers have not been updated. The four-socket B480 M5 and C480 M5 don’t support the “Ice Lake” CPUs. The other servers continue to be evaluated. 
-**Q.** Where can I find more detailed information about the new Cisco UCS M6 servers? 
-**A.** Visit <https://cisco.com/go/UCS>. 
-Common hardware questions
-**Q.** How many cores do the 3 rd Gen Intel Xeon Scalable CPUs have? 
-**A.** Processor core counts vary from eight to forty depending on the model. 
-**Q.** How much memory is supported? 
-**A.** Up to 8 TB when using DDR4 memory. Up to 12 TB total memory when used with Intel Optane ™ persistent memory. 
-**Q.** What version of PCIe is supported for I/O and storage? 
-**A.** Like the C225 M6 and C245 M6 announced in March, the C220 M6 and C240 M6 support PCIe 4.0. 
-**Q.** What operating systems and hypervisors are supported? 
-**A.** Check the [UCS Hardware and Software Compatibility](https://ucshcltool.cloudapps.cisco.com/public/) (HCL) website. 
-**Q.** Can I mix M6 servers with previous-generation servers? 
-**A.** You can mix M6 and older servers if you are running the minimum required UCS management software supporting M6 servers. See the HCL for information about which server generations are supported. 
-**Q.** Are the new M6 servers NEBS certified? 
-**A.** Plans for NEBS certification are in process. Check with your Cisco account team for timelines. 
-Cisco UCS B200 M6 Blade Server
-**Q.** How many mezzanine cards are supported? 
-**A.** There is a dedicated slot for mLOM VIC options, one rear mezzanine slot for VIC or port expansion options, and one front slot for the Cisco FlexStorage RAID controller, FlexStorage passthrough, or M.2 RAID controller. 
-**Q.** How many drives are supported? 
-**A.** Up to two front-loading SAS/SATA/NVMe drives or up to four internal M.2 drives. 
-**Q.** How many GPUs are supported? 
-**A.** Motherboard layout changes to support 3 rd Gen Intel Xeon Scalable Processors prohibit the support of GPUs. 
-**Q.** How are these servers managed? 
-**A.** There are multiple ways to manage all Cisco UCS servers. The preferred way is through Cisco Intersight ™ Managed Mode. Intersight is a cloud-based SaaS management platform that supports infrastructure management as well as many other services. You may also manage your servers with Cisco UCS Manager running a 6300 or 6400 series Fabric Interconnect. There are also many third-party management solutions, such as Ansible and Puppet, that can utilize Cisco’s management APIs. 
-Cisco UCS C220 M6 Rack Server
-**Q.** How many PCIe slots are supported? 
-**A.** Up to three PCIe 4.0 expansion slots. 
-**Q.** Is a PCIe slot the only way to support networking adapters (VIC or NIC)? 
-**A.** No, there is also a mLOM slot for VIC options as well as two 10Gbase-T Intel LOM ports. 
-**Q.** Are the 10-Gbps LOM modules 1-Gbps-capable? 
-**A.** Yes. 
-**Q.** How many disk drives are supported? 
-**A.** There are two different configurations. There is an all NVMe and a SAS/SATA version. Both support 10 disks. 
-**Q.** How many GPUs are supported? 
-**A.** Up to two GPUs are supported. 
-**Q.** Does the optional RAID controller consume a PCIe slot? 
-**A.** No. The RAID controller plugs into a dedicated slot, leaving all PCIe slots available for other cards. 
-**Q.** How are these servers managed? 
-**A.** There are multiple ways to manage all Cisco UCS servers. The preferred way is through Cisco Intersight Managed Mode. Intersight is a cloud-based SaaS management platform that supports infrastructure management as well as many other services. C-Series rack servers can also be managed with Intersight via the Cisco Integrated Management Controller (IMC). The Cisco IMC can also be used to manage rack servers in standalone mode. There are also many third-party management solutions, such as Ansible and Puppet, that can utilize Cisco’s management APIs. 
-Cisco UCS C240 M6 Rack Server
-**Q.** How many PCIe slots are supported? 
-**A.** Up to eight PCIe 4.0 expansion slots. 
-**Q.** Is a PCIe slot the only way to support networking adapters (VIC or NIC)? 
-**A.** No, there is also a mLOM slot for VIC options as well as two 10Gbase-T Intel LOM ports. 
-**Q.** Are the 10-Gbps LOM modules 1-Gbps-capable? 
-**A.** Yes. 
-**Q.** How many drives are supported? 
-**A.** There are five different configurations. There are two Small-Form- Factor (SFF) all-NVMe options: up to 16 or up to 28 drives; two similar options for SAS/SATA; and a fifth option with 16 Large- Form-Factor (LFF) drives + two SFF drives – up to four NMVe drives. 
-**Q.** What do you mean by “up to” for PCIe slots and drives? 
-**A.** The PCIe riser cages come in multiple versions. Four PCIe slots can be converted to NVMe storage. Those would be added to the front-load drives for the total supported drives. 
-**Q.** How many GPUs are supported? 
-**A.** Up to five GPUs are supported. 
-**Q.** Does the optional RAID controller consume a PCIe slot? 
-**A.** No. The RAID controller plugs into a dedicated slot, leaving all PCIe slots available for other cards. 
-**Q.** How are these servers managed? 
-**A.** There are multiple ways to manage all Cisco UCS servers. The preferred way is through Cisco Intersight Managed Mode. Intersight is a cloud-based SaaS management platform that supports infrastructure management as well as many other services. C-Series rack servers can also be managed with Intersight via the Cisco Integrated Management Controller (IMC). The Cisco IMC can also be used to manage rack servers in standalone mode. There are also many third-party management solutions, such as Ansible and Puppet, that can utilize Cisco’s management APIs. 
-### Our experts recommend
-  * [Cisco Compute Security Overview White Paper](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-manager/compute-security-overview-wp.html "Cisco Compute Security Overview White Paper")
-  * [Cisco UCS B200 M5 Blade Server At-a-Glance](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-b-series-blade-servers/at-a-glance-c45-739250.pdf "Cisco UCS B200 M5 Blade Server At-a-Glance")
-
-
-### Learn more
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
