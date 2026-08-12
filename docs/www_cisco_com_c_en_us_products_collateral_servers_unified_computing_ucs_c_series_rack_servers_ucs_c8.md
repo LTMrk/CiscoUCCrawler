@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,30 +19,30 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html)
+  * [](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html)
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Servers - Unified Computing](https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html)
   * [Cisco UCS C-Series Rack Servers](https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/index.html)
   * [Data Sheets](https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/datasheet-listing.html)
 
 
-# Cisco UCS C880A M8 Rack Server Data Sheet
+# Cisco UCS C885A M8 Rack Server Data Sheet
 Data Sheet
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html)
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html)
 Download
 Print
 ### Available Languages
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html)
 
 
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.pdf) (1.5 MB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.pdf) (311.5 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:July 21, 2026
+Updated:July 14, 2026
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
@@ -56,122 +56,107 @@ US/CAN | 5am-5pm PT
 
 
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html)
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html)
 Download
 Print
 ### Available Languages
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html)
 
 
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.pdf) (1.5 MB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.pdf) (311.5 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:July 21, 2026
+Updated:July 14, 2026
 #### Table of Contents
 ![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
 ![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
 #### Table of Contents
-  * [Value statement](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html#Valuestatement "Valuestatement")
-  * [Product overview](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html#Productoverview "Productoverview")
-  * [Prominent features](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html#Prominentfeatures "Prominentfeatures")
-  * [Platform support](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html#Platformsupport "Platformsupport")
-  * [Features and benefits](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html#Featuresandbenefits "Featuresandbenefits")
-  * [Product specifications](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html#Productspecifications "Productspecifications")
-  * [Ordering information](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html#Orderinginformation "Orderinginformation")
-  * [Warranty information](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html#Warrantyinformation "Warrantyinformation")
-  * [Cisco Support](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html#CiscoSupport "CiscoSupport")
-  * [Product sustainability](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html#Productsustainability "Productsustainability")
-  * [Product environmental information](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html#Productenvironmentalinformation "Productenvironmentalinformation")
-  * [Cisco and partner services](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html#Ciscoandpartnerservices "Ciscoandpartnerservices")
-  * [Cisco Capital](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html#CiscoCapital "CiscoCapital")
-  * [Learn more](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.html#Learnmore "Learnmore")
+  * [Product overview](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Productoverview "Productoverview")
+  * [Features and benefits](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Featuresandbenefits "Featuresandbenefits")
+  * [Product specifications](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Productspecifications "Productspecifications")
+  * [Ordering information](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Orderinginformation "Orderinginformation")
+  * [Warranty information](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Warrantyinformation "Warrantyinformation")
+  * [Cisco Support](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#CiscoSupport "CiscoSupport")
+  * [Product sustainability](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Productsustainability "Productsustainability")
+  * [Product environmental information](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Productenvironmentalinformation "Productenvironmentalinformation")
+  * [Cisco and partner services](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Ciscoandpartnerservices "Ciscoandpartnerservices")
+  * [Cisco Capital](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#CiscoCapital "CiscoCapital")
+  * [Document history](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#Documenthistory "Documenthistory")
 
 
-Value statement
-The Cisco UCS C880A M8 accelerates advanced AI and High-Performance Computing (HPC) workloads in every data center with next-generation NVIDIA HGX B300 NVL8 GPUs.
-[![Related image, diagram or screenshot](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.docx/_jcr_content/renditions/ucs-c880a-m8-rack-server-ds_0.png)](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.docx/_jcr_content/renditions/ucs-c880a-m8-rack-server-ds_0.png "Related image, diagram or screenshot")
-Figure 1. 
-UCS C880A M8 Front facing
-[![A close-up of a computerAI-generated content may be incorrect.](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.docx/_jcr_content/renditions/ucs-c880a-m8-rack-server-ds_1.png)](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-rack-server-ds.docx/_jcr_content/renditions/ucs-c880a-m8-rack-server-ds_1.png "A close-up of a computerAI-generated content may be incorrect.")
-Figure 2. 
-UCS C880A M8 Rear Facing
+The Cisco® UCS C885A M8 Rack Server is a dense GPU server that delivers massive, scalable performance for AI workloads, such as Large Language Model (LLM) training, fine-tuning, large model inferencing, and Retrieval Augmented Generation (RAG).
 Product overview
-Based on the NVIDIA HGX platform, the Cisco UCS C880A M8 Rack Server is a high-density, air-cooled rack server designed to power the most demanding Artificial Intelligence (AI) and High-Performance Computing (HPC) workloads. It integrates the NVIDIA HGX platform with eight NVIDIA HGX B300 (SXM) GPUs and is powered by two Intel® Xeon® 6th Gen Processors, making it ideal for real-time Large Language Model (LLM) inference, next-level training performance, and large-volume data processing. The C880A M8 supports customers across the entire AI stack, from large-scale model training and fine-tuning to real-time inferencing and large-volume data processing. It integrates seamlessly into Cisco’s AI strategy, connecting and protecting the AI era by providing robust compute infrastructure. This server expands the Cisco UCS® dense AI server portfolio, offering a powerful solution for enterprises across various industries, including service providers, financial services, manufacturing, healthcare, life sciences, and automotive. With its advanced architecture, the C880A M8 ensures unparalleled performance, scalability, and enterprise manageability, making it ideal for compute-intensive AI use cases such as large-scale AI model training, fine tuning, and inferencing.
-Prominent features
-Unleashing AI potential with NVIDIA HGX B300 
-The Cisco UCS C880A M8 Rack Server stands out by integrating the cutting-edge NVIDIA HGX platform with eight NVIDIA B300 (SXM) GPUs. This powerful GPU configuration is at the heart of its capability to deliver next-level performance for the most demanding AI workloads, including large-scale AI model training, fine tuning, and real-time inferencing. The B300 GPUs provide immense parallel processing capabilities and high-speed GPU interconnects, which are critical for accelerating complex deep learning models and large language models. This integration ensures that enterprises can achieve higher token throughput and improve the economics of their AI operations, enabling profitable scaling of LLM and agentic workloads. 
-Purpose-built for AI and HPC workloads 
-Beyond raw power, the Cisco UCS C880A M8 Rack Server is architected specifically to meet the unique demands of AI and HPC. Its design supports real-time large language model Inference, enabling rapid deployment and responsiveness for AI-driven applications. It also excels in next-level training performance, significantly reducing the time required to train complex AI models. Furthermore, its capacity for large-volume data processing makes it an ideal platform for data-science and big-data analytics, including GPU-accelerated ETL processes. This specialized design ensures that organizations can build, optimize, and utilize AI models efficiently, accelerating business growth with scalable and high-performance solutions.
-Platform support
-The Cisco UCS C880A M8 is a dedicated rack server platform designed to host and accelerate AI and HPC workloads. It supports various operating systems and virtualization platforms typically used in data center environments for AI/HPC deployments. Specific software stack compatibility includes NVIDIA AI Enterprise and NVIDIA NIM (NVIDIA Inference Microservices) for AI application deployment and optimization.
+Built on the [NVIDIA HGX platform](https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/dense-ai-gpu-servers/index.html), the Cisco UCS C885A M8 Rack Server is a dense-GPU server designed to deliver scalable accelerated compute capabilities to address the most demanding AI workloads, including large deep learning/Large Language Model (LLM) training, model fine-tuning, large model inferencing, and Retrieval-Augmented Generation (RAG).
+[![Related image, diagram or screenshot](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.docx/_jcr_content/renditions/ucs-c885a-m8-ds_0.png)](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.docx/_jcr_content/renditions/ucs-c885a-m8-ds_0.png "Related image, diagram or screenshot")
+[Watch video](https://players.brightcove.net/1384193102001/NJgI8K0ie_default/index.html?videoId=6373621490112)
+The server offers a MI350X OAM GPU to deliver massive, accelerated computational performance in a single server, as well as one NVIDIA ConnectX-7 NIC or **AMD Pensando Pollara NIC** per GPU to scale AI model training across a cluster of dense GPU servers.
+The server is managed by Cisco Intersight®, which can help reduce your Total Cost of Ownership (TCO) and increase your business agility.
+**Note:** Initially, the local server management interface will handle configuration and management, while Cisco Intersight will provide inventory capabilities through an integrated Device Connector. Full management operations and configurations through Cisco Intersight will be introduced shortly thereafter in a subsequent phase.
+The server is offered in fixed configurations that are optimized for intensive AI and HPC workloads.
 Features and benefits
-**Table 1.** Summary of features and benefits of the Cisco UCS C880A M8 Rack Server  
-|  Feature   |  Benefit  |  
+**Table 1.** Summary of features and benefits of Cisco UCS C885A M8  
+|  Feature  |  Benefit  |  
 | --- | --- |  
-|  **NVIDIA HGX with 8 NVIDIA B300 (SXM) GPUs**  |  Leverages NVIDIA’s flagship supercomputing GPUs to deliver unparalleled processing power, crucial for accelerating AI model training, fine tuning, and inferencing   |  
-|  **Two Intel Xeon 6 th Gen processors **  |  High-frequency, high-throughput CPUs optimized to complement GPU acceleration—ideal for feeding data into training and inference pipelines without bottlenecks   |  
-|  **Board-integrated NVIDIA ConnectX-8 NICs (E/W traffic)**  |  Embedded east/west 800G networking fabric delivers ultra-low latency, high-bandwidth inter-GPU, and inter-server communication for scalable AI training   |  
-|  **Upto 8 X E1.S NVMe SSDs**  |  High-performance local NVMe storage provides ultra-low-latency data caching and fast checkpointing for AI-model training.   |  
-|  **Hot-swappable, redundant power supplies**  |  Enterprise-class resiliency with redundant, easily serviceable power supplies designed to minimize downtime and maximize availability   |  
-|  **Real-time Large Language Model (LLM) inference**  |  Enables rapid and efficient deployment of LLMs, supporting real-time applications and services that require immediate responses   |  
-|  **Next-level training performance**  |  Significantly reduces the time required for training large and complex AI models, allowing for faster iteration and development cycles   |  
-|  **Large-volume data processing**  |  Designed to handle massive datasets, facilitating accelerated Extract, Transform, and Load (ETL) processes and GPU-accelerated big-data analytics   |  
-|  **Validated solutions for AI**  |  Part of Cisco’s strategy to offer validated AI solutions that encompass compute, network, storage, and software, ensuring reliable and optimized performance for AI factories   |  
-|  **Scalable infrastructure**  |  Optimized for high-density GPU platforms, delivering predictable performance across AI factories and allowing for flexible expansion inside Cisco AI PODs to accommodate growing AI demands  |  
+|  **AMD MI350X OAM GPU**  |  GPU density and the high-speed interconnect for demanding AI model training jobs, such as large and small language model training and deep learning  |  
+|  **AMD EPYC CPU (Turin)**  |  High-performance, high–clock speed CPUs specifically selected for training/learning operations  |  
+|  **Eight NVIDIA ConnectX-7 NICs or AMD Pensando Pollara NICs**  |  400G East-West NICs provide high-speed inter-chassis, inter-GPU connectivity to perform training at scale. Each server also includes NVIDIA BlueField-3 DPUs or AMD Pollara NICs to accelerate GPU access to data.  |  
+|  **Up to 2x NVMe SSDs**  |  High-speed local storage for data caching to deliver maximum performance  |  
+|  **Hot-swappable, redundant power supplies**  |  Increased high availability  |  
 Product specifications
-**Table 2.** Cisco UCS C880A M8 Rack Server key specifications (NVIDIA HGX B300 GPU-based configurations)  
-|  Component  |  Specification  |  
+**Table 2.** Specifications of Cisco UCS C885A M8 Rack Server  
+|  Item  |  Specifications  |  
 | --- | --- |  
-|  **Form factor**  |  10RU 19” rack server (based on NVIDIA’s HGX reference architecture)   |  
-|  **Processors**  |  2x Intel Xeon 6th Gen 6776P or 2x Intel Xeon 6th Gen 6767P   |  
-|  **Memory**  |  32x 64GB DDR5 RDIMM or 32x 96GB DDR5 RDIMM or 32x 128GB DDR5 RDIMM  |  
-|  **GPU**  |  8x Nvidia HGX B300 NVL8  |  
-|  **Boot Drive**  |  2x 960GB M.2 SATA SSD with RAID controller  |  
-|  **Internal Storage**  |  Up to 8x PCIe Gen5 x4 E1.S NVMe SSD  |  
-|  **E-W Networking**  |  8x GPU-board integrated ConnectX-8  |  
-|  **N-S Networking**  |  2x CX-7 2x200G (crypto) or 2x B3220 2x200G (crypto) or 2x B3240 2x400G (crypto) 1x OCP TFF Gen5 x8  |  
-|  **Power Supply**  |  12x 80PLUS 50V 3.2kW MCRPS hot-swappable redundant PSUs (N+N)  |  
-|  **Management**  |  Cisco BMC  |  
+|  **Form factor**  |  8RU Rack Server  |  
+|  **Processors**  |  2x 5th Gen AMD EPYC 9575F 64 core, 3.3 GHz (Max Boost 5 GHz)   |  
+|  **Memory**  |  24x 128GB DDR5 up to 6,400 MT/s RDIMMs or 24x 96GB DDR5 up to 6,400 MT/s RDIMMs   |  
+|  **GPUs**  |  8x AMD MI350X OAM  |  
+|  **Boot Drive**  |  Up to 2x 960GB M.2 NVMe SSD  |  
+|  **Internal Storage**  |  Up to 2x 2.5” U.2 NVMe SSD  |  
+|  **PCIe Slots**  |  5x PCIe Gen5x16 FHHL for North-South NIC – NVIDIA ConnectX-7 (2x200G), NVIDIA ConnectX-7 (1x400G), NVIDIA ConnectX-7 (4x25G)  8x PCIe Gen5x16 HHHL for East-West NIC – NVIDIA ConnectX-7 (1x400G), **AMD Pensando Pollara** 400 (1x400G)  |  
+|  **OCP Slot**  |  1x OCP 3.0 PCIe Gen5x8 for Intel X710-T2L 2x10G RJ45 NIC  |  
+|  **Power Supplies**  |  2x 2.7kW 80Plus 12V CRPS Redundant Hot-swappable PSUs (N+1) 6x 3kW 80Plus 54V MCRPS Hot-swappable Redundant PSUs (N+2)  |  
+|  **Management**  |  [Cisco Intersight](https://www.cisco.com/c/en/us/products/servers-unified-computing/intersight/index.html)  |  
 |  **Hardware and Software Interoperability**  |  See the [Cisco Hardware and Software Interoperability List](https://www.cisco.com/c/en/us/support/servers-unified-computing/unified-computing-system/products-technical-reference-list.html) for a complete listing of supported operating systems and peripheral options  |  
 Ordering information
-**Table 3.** Ordering information  
-|  Part #  |  Product description   |  
+UCS C885A M8 servers are offered in fixed configurations with each server product ID identifying a single fixed configuration. More details can be found in the ordering guide.
+**Table 3.** Cisco UCS C885A M8 ordering information  
+|  Part #  |  Product Description  |  
 | --- | --- |  
-|  **UCSC-880A-M8-B301**  |  2x Intel Xeon 6776P 2.3 GHz (Max Turbo 3.9 GHz) CPUs, 8x NVIDIA HGX B300 SXM GPUs, 32x 96GB up to 5,200 MT/s DIMMs, 2x 960GB M.2 SATA Boot Drive, 2x E1.S 3.84TB NVMe SSD Data drives, 8x NVIDIA ConnectX-8 (GPU board integrated) for East/West N/W, 2x NVIDIA ConnectX-7 (2x200G) crypto-enabled for North/South N/W, 1x Intel X710-T2L OCP   |  
-|  **UCSC-880A-M8-B302**  |  2x Intel Xeon 6776P 2.3 GHz (Max Turbo 3.9 GHz) CPUs, 8x NVIDIA HGX B300 SXM GPUs, 32x 96GB up to 5,200 MT/s DIMMs, 2x 960GB M.2 SATA Boot Drive, 2x E1.S 3.84TB NVMe SSD Data Drives, 8x NVIDIA ConnectX-8 (GPU board integrated) for East/West N/W, 2x NVIDIA B3220 (2x200G) crypto-enabled for North/South N/W, 1x Intel X710-T2L OCP   |  
-|  **UCSC-880A-M8-B303**  |  2x Intel Xeon 6776P 2.3 GHz (Max Turbo 3.9 GHz) CPUs, 8x NVIDIA HGX B300 SXM GPUs, 32x 128GB up to 5,200 MT/s DIMMs, 2x 960GB M.2 SATA Boot Drive, 2x E1.S 3.84TB NVMe SSD Data Drives, 8x NVIDIA ConnectX-8 (GPU board integrated) for East/West N/W, 2x NVIDIA ConnectX-7 (2x200G) crypto-enabled for North/South N/W, 1x Intel X710-T2L OCP   |  
-|  **UCSC-880A-M8-B304**  |  2x Intel Xeon 6776P 2.3 GHz (Max Turbo 3.9 GHz) CPUs, 8x NVIDIA HGX B300 SXM GPUs, 32x 128GB up to 5,200 MT/s DIMMs, 2x 960GB M.2 SATA Boot Drive, 2x E1.S 3.84TB NVMe SSD Data Drives, 8x NVIDIA ConnectX-8 (GPU board integrated) for East/West N/W, 2x NVIDIA B3220 (2x200G) crypto-enabled for North/South N/W, 1x Intel X710-T2L OCP   |  
-|  **UCSC-880A-M8-B305**  |  2x Intel Xeon 6776P 2.3 GHz (Max Turbo 3.9 GHz) CPUs, 8x NVIDIA HGX B300 SXM GPUs, 32x 96GB up to 5,200 MT/s DIMMs, 2x 960GB M.2 SATA Boot Drive, 2x E1.S 3.84TB NVMe SSD Data Drives, 8x NVIDIA ConnectX-8 (GPU board integrated) for East/West N/W, 2x NVIDIA B3240 (2x400G) crypto-enabled for North/South N/W, 1x Intel X710-T2L OCP   |  
-|  **UCSC-880A-M8-B306**  |  2x Intel Xeon 6776P 2.3 GHz (Max Turbo 3.9 GHz) CPUs, 8x NVIDIA HGX B300 SXM GPUs, 32x 128GB up to 5,200 MT/s DIMMs, 2x 960GB M.2 SATA Boot Drive, 2x E1.S 3.84TB NVMe SSD Data Drives, 8x NVIDIA ConnectX-8 (GPU board integrated) for East/West N/W, 2x NVIDIA B3240 (2x400G) crypto-enabled for North/South N/W, 1x Intel X710-T2L OCP   |  
-|  **UCSC-880A-M8-B307**  |  2x Intel Xeon 6776P 2.3 GHz (Max Turbo 3.9 GHz) CPUs, 8x NVIDIA HGX B300 SXM GPUs, 32x 64GB up to 5,200 MT/s DIMMs, 2x 960GB M.2 SATA Boot Drive, 2x E1.S 3.84TB NVMe SSD Data Drives, 8x NVIDIA ConnectX-8 (GPU board integrated) for East/West N/W, 2x NVIDIA ConnectX-7 (2x200G) crypto-enabled for North/South N/W, 1x Intel X710-T2L OCP   |  
-|  **UCSC-880A-M8-B308**  |  2x Intel Xeon 6767P 2.3 GHz (Max Turbo 3.9 GHz) CPUs, 8x NVIDIA HGX B300 SXM GPUs, 32x 96GB up to 5,200 MT/s DIMMs, 2x 960GB M.2 SATA Boot Drive, 2x E1.S 3.84TB NVMe SSD Data Drives, 8x NVIDIA ConnectX-8 (GPU board integrated) for East/West N/W, 2x NVIDIA ConnectX-7 (2x200G) crypto-enabled for North/South N/W, 1x Intel X710-T2L OCP  |  
+|  **UCSC-885A-M8-M352**  |  2x AMD EPYC 9575F 3.3 GHz (Max Boost 5 GHz) CPUs, 8x AMD MI350X UBB GPUs, 24x 96GB 6400 DIMMs, 2x 960GB M.2 NVMe Boot Drive, 2x 1.92TB NVMe SSD Server Drives, 8x AMD Pensando Pollara 400 (1x400G) for East-West N/W, 2x NVIDIA ConnectX-7 (2x200G) for North-South N/W, 1x Intel X710-T2L  |  
+|  **UCSC-885A-M8-M353**  |  2x AMD EPYC 9575F 3.3 GHz (Max Boost 5 GHz) CPUs, 8x AMD MI350X UBB GPUs, 24x 96GB 6400 DIMMs, 2x 960GB M.2 NVMe Boot Drive, 2x 1.92TB NVMe SSD Server Drives, 8x NVIDIA ConnectX-7 (1x400G) for East-West N/W, 2x NVIDIA ConnectX-7(2x200G) for North-South N/W, 1x Intel X710-T2L  |  
+|  **UCSC-885A-M8-M354**  |  2x AMD EPYC 9575F 3.3 GHz (Max Boost 5 GHz) CPUs, 8x AMD MI350X UBB GPUs, 24x 128GB 6400 DIMMs, 2x 960GB M.2 NVMe Boot Drive, 2x 1.92TB NVMe SSD Server Drives, 8x AMD Pensando Pollara 400 (1x400G) for East-West N/W, 2x NVIDIA ConnectX-7 (1x400G) for North-South N/W, 1x Intel X710-T2L  |  
+|  **UCSC-885A-M8-M355**  |  2x AMD EPYC 9575F 3.3 GHz (Max Boost 5 GHz) CPUs, 8x AMD MI350X UBB GPUs, 24x 128GB 6400 DIMMs, 2x 960GB M.2 NVMe Boot Drive, 2x 1.92TB NVMe SSD Server Drives, 8x NVIDIA ConnectX-7 (1x400G) for East-West N/W, 2x NVIDIA ConnectX-7(2x200G) for North-South N/W, 1x Intel X710-T2L  |  
+|  **UCSC-885A-M8-M356**  |  2x AMD EPYC 9575F 3.3 GHz (Max Boost 5 GHz) CPUs, 8x AMD MI350X UBB GPUs, 24x 128GB 6400 DIMMS, 2x 960GB M.2 NVMe Boot Drive, 2x 1.92TB NVMe SSD Server Drives, 8x NVIDIA ConnectX-7 (1x400G) for East-West N/W, 2x NVIDIA ConnectX-7 (2x200G) AND 2x NVIDIA ConnectX-7 (4x25G) for North-South N/W,1x Intel X710-T2L  |  
+**Note:** All Network Interface Cards (NICs), SuperNICs, and Data Processing Units (DPUs) in the configurations above are crypto disabled.
 Warranty information
-Cisco UCS C880A M8 Rack Servers have a three-year hardware warranty and 90-day software warranty.
+Cisco UCS C885A M8 Rack Servers have a three-year Next-Business-Day (NBD) hardware warranty and 90-day software warranty.
 Cisco Support
 Augmenting the Cisco UCS warranty is Cisco Success Tracks. Success Tracks add the best of both digital and human intelligence to your support experience. For more detailed information on the ST deliverables, please refer to the description [here](https://www.cisco.com/c/dam/en_us/about/doing_business/legal/service_descriptions/docs/cisco-success-tracks.pdf).
 Product sustainability
-Information about Cisco’s Environmental, Social, and Governance (ESG) initiatives and performance is provided in Cisco’s CSR and sustainability [reporting](https://www.cisco.com/c/dam/m/en_us/about/csr/esg-hub/_pdf/purpose-report-2024.pdf).
+Information about Cisco’s Environmental, Social and Governance (ESG) initiatives and performance is provided in Cisco’s CSR and sustainability [reporting](https://www-1.compliance2product.com/c2p/getAttachment.do?code=YM6Y0yThdO6Wj1FxxYPYfUG2dtFkTeFWGpzLRO8tcURFEifUCRV403Tq2ZMWP6Ai).
 **Table 4.** Cisco environmental sustainability information  
 |  Sustainability Topic  |  Reference  |  
 | --- | --- |  
-|  **General**  |  Information on product-material-content laws and regulations   |  [Materials](https://www.cisco.com/c/en/us/about/product-innovation-stewardship/materials.html)  |  
-|  Information on electronic waste laws and regulations, including our products, batteries, and packaging   |  [WEEE Compliance](https://www.cisco.com/c/en/us/about/product-innovation-stewardship/product-recycling/weee-compliance.html)  |  
-|  Information on product takeback and reuse program   |  [Cisco Takeback and Reuse Program](https://www.cisco.com/c/en/us/about/takeback-and-reuse.html)  |  
-|  Sustainability Inquiries   |  Contact: csr_inquiries@cisco.com  |  
-|  **Material**  |  Product packaging weight and materials   |  Contact: environment@cisco.com  |  
+|  **General**  |  Information on product-material-content laws and regulations  |  [Materials](https://www.cisco.com/c/en/us/about/product-innovation-stewardship/materials.html)  |  
+|  Information on electronic waste laws and regulations, including our products, batteries and packaging  |  [WEEE Compliance](https://www.cisco.com/c/en/us/about/product-innovation-stewardship/product-recycling/weee-compliance.html)  |  
+|  Information on product takeback and reuse program  |  [Cisco Takeback and Reuse Program](https://www.cisco.com/c/en/us/about/takeback-and-reuse.html)  |  
+|  Sustainability Inquiries  |  Contact: csr_inquiries@cisco.com  |  
+|  **Material**  |  Product packaging weight and materials  |  Contact: environment@cisco.com  |  
 Product environmental information
-Product environmental information for users per Commission Regulation (EU) 2019/424 <https://www.cisco.com/web/dofc/26047362.pdf>
+Product environmental information for users per Commission Regulation (EU) 2019/424 <https://www.cisco.com/web/dofc/25451181.pdf>
 Cisco and partner services
-Cisco and our industry-leading partners deliver services that accelerate your transition to Cisco UCS® solutions for AI and high-performance computing. Cisco Unified Computing Services™ can help you create an agile infrastructure, accelerate time to value, reduce costs and risks and maintain availability during deployment and migration. After deployment, our services can help you improve performance, availability, and resiliency as your business needs evolve, and help you further mitigate risk. 
-For more information, visit <https://www.cisco.com/go/unifiedcomputingservices>.
+Cisco and our industry-leading partners deliver services that accelerate your transition to Cisco UCS solutions for AI and High-Performance Computing (HPC). Cisco Unified Computing Services can help you create an agile infrastructure, accelerate time to value, reduce costs and risks, and maintain availability during deployment and migration. After deployment, our services can help you improve performance, availability, and resiliency as your business needs evolve, and help you further mitigate risk. For more information, visit <https://www.cisco.com/go/unifiedcomputingservices>.
 Cisco Capital
-Flexible payment options make it easier than ever to get the Cisco® technology you need. 
-Cisco Capital® delivers leading-edge payment solutions, allowing you to stay focused on what’s most important—your business. We can help you drive business outcomes, accelerate innovation and digital transformation, and adapt to market dynamics faster with flexible payment options tailored to your specific business needs. Reduce the total cost of ownership, conserve capital, and accelerate growth. We help you realize the full benefits of Cisco technology today, and in the future, and pay for it in the way that best suits your business requirements. Whether you are looking for a pay-as-you consume model, or need to bundle Cisco hardware, software, services, subscriptions, and third-party solutions, [learn more](https://salesconnect.cisco.com/CiscoCapital/s/) about how Cisco Capital can help.
-Learn more
-Visit the [Dense GPU](https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/dense-ai-gpu-servers/index.html) – HGX and OAM webpage.
+Flexible payment solutions to help you achieve your objectives
+Cisco Capital makes it easier to get the right technology to achieve your objectives, enable business transformation and help you stay competitive. We can help you reduce the total cost of ownership, conserve capital, and accelerate growth. In more than 100 countries, our flexible payment solutions can help you acquire hardware, software, services and complementary third-party equipment in easy, predictable payments. [Learn more](https://www.cisco.com/go/financing).
+Document history  
+|  New or revised topic  |  Described in  |  Date  |  
+| --- | --- | --- |  
+|  Support for additional fixed configurations  |  [Ordering information](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#OI)  |  February 2025  |  
+|  Product environmental information  |  [Product environmental information](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c885a-m8-ds.html#PE)  |  February 2025  |  
 ### Our experts recommend
   * [AI Performance: MLPerf Training on Cisco UCS C880A M8 Rack Server with NVIDIA B300 SXM GPUs White Paper](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/mlperf-b300-training-ucs-c880a-m8-rs-wp.html "AI Performance: MLPerf Training on Cisco UCS C880A M8 Rack Server with NVIDIA B300 SXM GPUs White Paper")
   * [Cisco UCS C845A M8 Rack Server At a Glance](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c845a-m8-rack-server-aag.html "Cisco UCS C845A M8 Rack Server At a Glance")
