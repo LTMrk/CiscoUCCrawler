@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,8 +19,8 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
-  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)Show All Breadcrumbs
   * [Support](https://www.cisco.com/c/en/us/support/index.html)
   * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
@@ -28,157 +28,324 @@
   * [Configuration Examples and TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-configuration-examples-list.html)
 
 
-# Configure CUCM for Secure LDAP (LDAPS)
+# Configure Mediated Model to Synchronize CUCM with Smart Accounts
 ![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)
 Download
 Print
 ### Available Languages
-  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
-  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
-  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
-  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
-  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
-  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
-  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
-  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
-  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
-  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)
 
 
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.pdf) (3.2 MB)   
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.pdf) (2.1 MB)   
 View with Adobe Reader on a variety of devices
-  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.epub) (3.6 MB)   
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.epub) (2.2 MB)   
 View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
-  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.mobi) (1.4 MB)   
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.mobi) (1.4 MB)   
 View on Kindle device or Kindle app on multiple devices
 
 
-Updated:June 5, 2026
-Document ID:215437
+Updated:June 4, 2026
+Document ID:212883
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
 ## Contents
-[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId--1323158057)
-[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId-1164354776)
-[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId-1854916250)
-[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId-47461787)
-[Background Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId-36958683)
-[Verify and Install LDAPS Certificates](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId--1770495780)
-[Configure Secure LDAP Directory](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId-717017053)
-[Configure Secure LDAP Authentication](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId--1090437410)
-[Configure Secure Connections to AD for UC Services](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId-1397075423)
-[Verify](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId--410379040)
-[Troubleshoot](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId--544063764)
-[Related Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html#toc-hId-1943449069)
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId-1075907257)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId-1755965627)
+[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId--1848440195)
+[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId-639072638)
+[Background Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId-628569534)
+[Where do I Create Smart Accounts](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId-1319131008)
+[Cisco Smart License Manager Service](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId--488323455)
+[Smart Licensing States in UCM](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId-1999189378)
+[Configure (Mediated Deployment)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId--632511283)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId-1984084269)
+[Configuration (Satellite)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId-176629806)
+[Configuration (Proxy Server)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId--1630824657)
+[Verify](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId-727605457)
+[Troubleshoot](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId--1079849006)
+[Known Bugs](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId--270707917)
+[Related Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html#toc-hId-2087722197)
 ## Introduction
-This document describes the procedure to update CUCM connections to AD from a non-secure LDAP connection to a secure LDAPS connection.
+This document describes mediated model configuration to synchronize your Cisco Unified Communications Manager (CUCM) with your Smart accounts.
 ## Prerequisites
 ### Requirements
 Cisco recommends that you have knowledge of these topics:
-• AD LDAP Server  
-• CUCM LDAP Configuration
-• CUCM IM & Presence Service (IM/P)
+  * Cisco Unified Communications Manager (CUCM) version 12.0
+  * Cisco License Central Satellite
+
+
 ### Components Used
-The information in this document is based on CUCM release 9.x and higher.
+The information in this document is based on these software and hardware versions:
+  * Cisco Call Manager version 12.0
+  * Cisco License Central Satellite
+
+
 The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
-## Background Information
-It is the responsibility of the Active Directory (AD) Administrator to configure AD Lightweight Directory Access Protocol (LDAP) for Lightweight Directory Access Protocol (LDAPS) . This includes the installation of CA-signed certificates that meet the requirement of an LDAPS certificate.
-[![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif "note-icon")
-**Note** : See this link for information in order to update from non-secure LDAP to secure LDAPS connections to AD for other Cisco Collaboration Applications: [Software Advisory: Secure LDAP Mandatory for Active Directory Connections](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html)
-## Verify and Install LDAPS Certificates
-Step 1. After the LDAPS certificate has been uploaded to the AD server, verify that LDAPS is enabled on the AD server with the **ldp.exe** tool.
-  1. Start the **AD** **Administration** Tool (**Ldp.exe**) on the AD server.
-  2. On the **Connection** menu, select **Connect**.
-  3. Enter the **Fully Qualified Domain Name** (FQDN) of the LDAPS server as the server.
-  4. Enter **636** as the port number.
-  5. Click **OK** , as shown in the image  
+## Background Information 
+Cisco Smart Software Licensing simplifies the licensing experience across the enterprise making it easier to purchase, deploy, track and renew Cisco Software. It provides visibility into license ownership and consumption through a single, simple user interface. 
+[![Cisco Smart Software Licensing Direct Deployment and Mediated Deployment](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-00.png "Cisco Smart Software Licensing Direct Deployment and Mediated Deployment")
+  1. You place an order on Cisco Commerce and associate the order with smart account. This information is populated on Cisco License Central, which resides on Cisco.com. Now, you have complete view of your orders and purchases.  
   
 
+  2. The product that has smart licensing enabled (via CLI or GUI), registers to Cisco License Central, and reports license consumption to Cisco License Central.   
+  
+Two models are there to report the usage:  
+  
+
+     * Direct Model- Customer Licensing information is where security is not a major concern. You can use HTTPS proxy or Transport Gateway to allow devices to talk to the through private network. This becomes the centralized access point for Cisco License Central. All of this is HTTPS so it is secured.  
+  
+
+     * Mediated Deployment Model- This is for those who have security concerns. You do not want your devices to talk directly to Cisco.com from your private network. You can install Cisco License Central Satellite on a VM, which resides on your premises, and acts as Cisco License Central. It can be synchronized with Cisco License Central on Cisco.com monthly, weekly, or totally disconnected. If you do not have an internet connection from your network, you can do file upload and download. All it needs to have is the synchronization to know the entitlement, as recommendation is to do the sync in 30 days. 
 
 
-[![Verify and Install LDAPS Certificates](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-00.png "Verify and Install LDAPS Certificates")
-For a successful connection on port 636, RootDSE information prints out in the right pane, as shown in the image:
-[![With Successful Connection on Port 636, RootDSE Info Prints out in Right Pane](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-01.png "With Successful Connection on Port 636, RootDSE Info Prints out in Right Pane")
-Repeat the procedure for port 3269, as shown in the image:
-[![Repeat Procedure for Port 3269](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-02.png "Repeat Procedure for Port 3269")
-For a successful connection on port 3269, RootDSE information prints out in the right pane, as shown in the image:
-[![For asuccessful Connection on Port 3269, RootDSE Info Prints out in Right Pane](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-03.png "For asuccessful Connection on Port 3269, RootDSE Info Prints out in Right Pane")
-Step 2. Obtain the root and any intermediate certificates that are part of the LDAPS server certificate and install these as tomcat-trust certificates on each of the CUCM and IM/P publisher nodes and as CallManager-trust on the CUCM publisher.
-The root and intermediate certificates that are part of an LDAPS server certificate, <hostname>.<Domain>.cer, are shown in the image:
-[![Root and Intermediate Certificates that are Part of LDAPS Server Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-04.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-04.png "Root and Intermediate Certificates that are Part of LDAPS Server Certificate")
-Navigate to CUCM publisher **Cisco Unified OS Administration > Security > Certificate Management**. Upload root as **tomcat-trust**(as shown in the image) and as **CallManager-trust** (not shown):
-[![Navigate to CUCM Publisher](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-05.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-05.png "Navigate to CUCM Publisher")
-Upload intermediate as **tomcat-trust**(as shown in the image) and as **CallManager-trust** (not shown):
-[![Upload Internediate as tomcat-trust](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-06.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-06.png "Upload Internediate as tomcat-trust")
-**Note:** If you have IM/P servers that are part of the CUCM cluster, you also need to upload these certificates to these IM/P servers.
-**Note:** As an alternative, you can install the LDAPS server certificate as tomcat-trust.
-Step 3. Restart **Cisco** **Tomcat** from the CLI of each node (CUCM and IM/P) in clusters. Additionally, for the CUCM cluster, verify that the Cisco DirSync service on the publisher node is started.
-In order to Restart the Tomcat service, you need to open a CLI session for each node and run the command **utils service restart Cisco Tomcat** , as shown in the image:
-[![Configure CUCM for Secure LDAP - Restart Tomcat](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-07.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-07.png "Configure CUCM for Secure LDAP - Restart Tomcat")
-Step 4. Navigate to CUCM publisher **Cisco Unified Serviceability > Tools > Control Center - Feature Services**, verify that the **Cisco DirSync** service is activated and started (as shown in the image), and restart the **Cisco CTIManager** service on each node if this is used (not shown):
-[![Navigate to CUCM Publisher and Verify that Service is Activated and Started](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-08.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-08.png "Navigate to CUCM Publisher and Verify that Service is Activated and Started")
-## Configure Secure LDAP Directory
-Step 1. Configure the CUCM LDAP Directory in order to utilize LDAPS TLS connection to AD on port 636.
-Navigate to **CUCM Administration > System > LDAP Directory**. Type the **FQDN** or the **IP address** of the LDAPS server for LDAP Server Information. Specify the LDAPS port of **636** and check the box for **Use TLS** , as shown in the image:
-[![Configure Secure LDAP Directory](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-09.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-09.png "Configure Secure LDAP Directory")
+### Where do I Create Smart Accounts
+  * To create a Customer Smart Account, log into CSC with your CCO ID and initiate a request for a Customer Smart Account.
+  * To create a Partner Holding Smart Account, log in to CSC with your CCO ID and initiate a request for a Partner Holding Account.
+  * You can also initiate a request for either type of Smart Account when ordering in CCW. Although, the recommended best practice is to proactively set up your Smart Accounts.
+
+
+**Note** : There is no upper limit; you can create as many Virtual Accounts as your company needs.
+### Cisco Smart License Manager Service
+Cisco Smart License Manager Service is a network service running only on CUCM publisher. Since this is a network service, it runs all the time and cannot be started or stopped from UI or CLI. Since no service runs on subscriber, none of the smart licensing operations can be done from the sub. The CLI commands also do not provide any output on sub,
+### Smart Licensing States in UCM
+There are two main statuses in Smart Licensing :  
+  
+
+Registration Status:There are 3 registration status types:  
+  
+
+  1. Unidentified / Unregistered
+  2. Registered
+  3. Unregistered-registered Expired
+
+
+Authorization Status:**  
+  
+**
+  * No License in use
+  * Evaluation Mode
+  * Evaluation Expired
+  * Authorized
+  * Out of compliance
+  * Authorization Expired
+
+
+[![Smart Licensing State in UCM](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-01.png "Smart Licensing State in UCM")
+In addition to the previous smart licensing statuses, UCM provides an overage period of 90 days (This is a concept already present in pre 12.0 with classic licensing. UCM can continue providing the overage period with smart licensing as well).
+## Configure (Mediated Deployment)
+### Prerequisites
+These ports must be enabled for communication with Cisco License Central:
+  * User Interface: HTTPS (port 8443)
+  * Product Registration: HTTPS (port 443), HTTP (port 80)
+  * Communication to Cisco License Central: HTTPS (tools.cisco.com, api.cisco.com, cloudsso.cisco.com), port 443
+
+
+There are 2 deployment options under mediated deployment model, 
+Connected using Proxy Server: Here you can use the proxy server to facilitate connectivity between CUCM and Smart Account.
+Disconnected: Used when there is NO direct connectivity from CUCM / Satellite to Cisco.com. Smart Account Synchronization must be done using file upload and download manually.
+### Configuration (Satellite)
+  1. Log in to satellite. Configure as new satellite. Verify Network settings. Configure valid NTP server. 
+
+
 [![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif "note-icon")
-**Note:** By default, after versions 10.5(2)SU2 and 9.1(2)SU3 FQDN configured in LDAP Server Information are checked against the Common Name of the certificate, in case the IP address is used instead of the FQDN, the command **utils ldap config ipaddr** is issued to stop the enforcement of FQDN to CN verification.
-Step 2. In order to complete the configuration change to LDAPS, click **Perform Full Sync Now** , as shown in the image:
-[![To Complete Configuration, Change LDAPS, Click Perform Full Sync Now](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-10.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-10.png "To Complete Configuration, Change LDAPS, Click Perform Full Sync Now")
-Step 3. Navigate to**CUCM Administration > User Management > End User** and verify that end-users are present, as shown in the image:
-[![Navigate to CUCM Administration, User Management, End User](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-11.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-11.png "Navigate to CUCM Administration, User Management, End User")
-Step 4. Navigate to **ccmuser** page (**https:// <ip address of cucm pub>/ccmuser**) in order to verify that the user log in is successful. 
-The ccmuser page for CUCM version 12.0.1 looks like this:
-[![Configure CUCM for Secure LDAP - Self Care Portal Login](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-12.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-12.png "Configure CUCM for Secure LDAP - Self Care Portal Login")
-The user can successfully log in after LDAP credentials are entered, as shown in the image:
-[![Configure CUCM for Secure LDAP - Self Care Portal Dashboard](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-13.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-13.png "Configure CUCM for Secure LDAP - Self Care Portal Dashboard")
-## Configure Secure LDAP Authentication
-Configure CUCM LDAP Authentication in order to utilize LDAPS TLS connection to AD on port 3269.
-Navigate to **CUCM Administration > System > LDAP Authentication**. Type the **FQDN** of the **LDAPS** **server** for LDAP Server Information. Specify the LDAPS port of **3269** and check the box for **Use TLS** , as shown in the image:
-[![Configure Secure LDAP Authentication](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-14.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-14.png "Configure Secure LDAP Authentication")
-[![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif "note-icon")
-**Note:** If you have Jabber clients, it is recommended to use port 3269 for LDAPS Authentication, since Jabber timeout for log in can occur if a secure connection to the global catalog server is not specified.
-## Configure Secure Connections to AD for UC Services
-If you need to secure UC services that utilize LDAP, configure these UC services to utilize port 636 or 3269 with TLS.
-Navigate to **CUCM administration > User Management > User Settings > UC Service**. Find Directory Service that points to AD. Type the **FQDN** of the **LDAPS server** as the Host Name/IP Address. Specify the port as **636** or **3269** and **protocol TLS** , as shown in the image:
-[![Configure Secure Connections to AD for UC Services](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-15.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory-15.png "Configure Secure Connections to AD for UC Services")
-[![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif "note-icon")
-**Note:** The Jabber client machines also need to have the tomcat-trust LDAPS certificates that were installed on CUCM installed in the certificate management trust store of the Jabber client machine in order to allow the Jabber client to establish an LDAPS connection to AD.
+**Note** : For the first time log in, the default credential for satellite log in is Admin/Admin!23.
+[![Configuration - Satellite Setup](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-02.png "Configuration - Satellite Setup")[![Satellite Setup - Network Settings](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-03.png "Satellite Setup - Network Settings")
+  1. Choose **Manual Setup** and download the Registration File. [![Manual Satellite Setup](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-04.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-04.png "Manual Satellite Setup")[![Satellite Setup - Register Satellite](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-05.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-05.png "Satellite Setup - Register Satellite")
+  2. Log into your Smart Account in [Cisco License Central](https://software.cisco.com/clc "https://software.cisco.com/clc").  
+  
+
+  3. Navigate to **Satellites** under the section of Cisco License Central and click **New Satellite...** button Add a new satellite. Associate the newly created virtual account to the satellite. Once this is done, generate the authorization file. [![Add New Satellite](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-06.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-06.png "Add New Satellite")[![New Satellite Setup](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-07.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-07.png "New Satellite Setup")[![Authorization File Generated and Download](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-08.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-08.png "Authorization File Generated and Download")
+  4. In order to complete registration process, navigate to the **satellite** log in and upload the authorization file. Satellite restarts. Now the satellite is synced to the virtual account.  
+  
+
+  5. Log in to **satellite** and generate a token.  
+  
+
+  6. Navigate to **CUCM admin page > System > Licensing > License Management > View/Edit the Licensing Smart Call Home settings** and then set the Cisco License Central satellite URL to [Device Request Handler](http://10.106.92.18/Transportgateway/services/DeviceRequestHandler%E2%80%99)(10.106.81.131 is the IP address of the satellite configured) and **save** , as shown in the image.   
+[![Set the SSM Satellite URL to Device Request Handler](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-09.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-09.png "Set the SSM Satellite URL to Device Request Handler")
+  7. Click **Register** and paste the token generated in step 6. [![Click Register and Paste the Token Generated in Step 6](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-10.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-10.png "Click Register and Paste the Token Generated in Step 6")
+
+
+### Configuration (Proxy Server)
+  1. Instead of using satellite server, you can also use proxy server. If CUCM is already registered via Direct Method or satellite, first deregister and navigate to **System > Licensing > License management**. Here you have Actions Tab, **selectderegister**.  
+  
+
+  2. If CUCM is not registered, directly choose **View/Edit** , the licensing Smart Callhome settings. Here add proxy server details, and be sure that proxy server has connectivity to tools.cisco.com so that CUCM can be synced to the virtual account via proxy server. [![Configure How the Product Instance will Communicate with Cisco](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-11.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-11.png "Configure How the Product Instance will Communicate with Cisco")
+  3. Generate Token request from virtual account. [![Generate Token Request from Virtual Account](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-12.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-12.png "Generate Token Request from Virtual Account")
+  4. Navigate to **CUCM**. Here, click **register** and paste the token copied in Step 3. [![Navigate to CUCM and Click Register and Paste the Token Copied in Step 3](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-13.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-13.png "Navigate to CUCM and Click Register and Paste the Token Copied in Step 3")
+
+
 ## Verify
-Use this section to confirm that your configuration works properly.
-In order to verify the actual LDAPS certificate/certificate chain sent from the LDAP server to CUCM for the TLS connection, export the LDAPS TLS Certificate from a CUCM packet capture. This link provides information on how to export a TLS certificate from a CUCM packet capture: [How to Export TLS Certificate from CUCM Packet Capture](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215438-how-to-export-tls-certifcate-from-cucm-p.html)
+[![Verify](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-14.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model-14.png "Verify")
+Show license summary.
+Smart Licensing is ENABLED.
+
+```
+Registration:
+  Status: REGISTERED
+  Smart Account: BU Production Test
+  Virtual Account: TAC-CollabTesting
+  Last Renewal Attempt: None
+  Next Renewal Attempt: Jul 25 15:11:23 2018 IST
+ 
+License Authorization:
+  Status: AUTHORIZED
+  Last Communication Attempt: SUCCEEDED
+  Next Communication Attempt: Feb 25 15:12:59 2018 IST
+
+License Usage:
+ 
+  License                     Entitlement Tag                                                                        Count        Status
+  --------------------------------------------------------------------------------------------------------------------------------------
+                              regid.2017-02.com.cisco.UCM_CUWL,12.0_cc59375a-1cd8-4b36-8366-6f4d2abba965             0            Init
+                              regid.2016-07.com.cisco.UCM_EnhancedPlus,12.0_d8372792-588c-4caa-b279-8587e5ce2f82     0            Init
+  66d0d1cf-4863-4761-91d0-d01d3eb1949aregid.2016-07.com.cisco.UCM_Enhanced,12.0_66d0d1cf-4863-4761-91d0-d01d3eb1949a         5            InCompliance
+  ef827a2f-f4ae-4ebb-887f-052737063d3aregid.2016-07.com.cisco.UCM_Basic,12.0_ef827a2f-f4ae-4ebb-887f-052737063d3a            2            InCompliance
+                              regid.2016-07.com.cisco.UCM_Essential,12.0_25f9c396-c67c-4519-aa98-d4b3ad18f805        0            Init
+                              regid.2016-07.com.cisco.UCM_TelePresenceRoom,12.0_d9a71418-29e9-4c9a-9d3a-1366ebe38e7c 0            Init
+```
+
+Show license UDI.
+
+```
+UDI: PID:UCM,SN:37624,UUID:6fe83addc80240bc92dc071ac7a37624
+```
+
+Show license all.
+
+```
+Smart Licensing Status
+=======================
+Smart Licensing is ENABLED
+ 
+Registration:
+  Status: REGISTERED
+  Smart Account: BU Production Test
+  Virtual Account: TAC-CollabTesting
+  Export-Controlled Functionality: Allowed
+  Initial Registration: SUCCEEDED on Jan 26 15:11:23 2018 IST
+  Last Renewal Attempt: SUCCEEDED on Jan 26 15:11:23 2018 IST
+  Next Renewal Attempt: Jul 25 15:11:23 2018 IST
+  Registration Expires: Jan 26 15:06:21 2019 IST
+ 
+License Authorization:
+  Status: AUTHORIZED on Jan 26 15:12:59 2018 IST
+  Last Communication Attempt: SUCCEEDED on Jan 26 15:12:59 2018 IST
+  Next Communication Attempt: Feb 25 15:12:59 2018 IST
+  Communication Deadline: Apr 26 15:06:59 2018 IST
+ 
+Evaluation Period:
+  Evaluation Mode: Not In Use
+  EVALUATION PERIOD EXPIRED on Nov 9 23:46:35 2017 IST
+ 
+License Usage
+=============
+License Authorization Status: AUTHORIZED as of Jan 26 15:12:59 2018 IST
+ 
+ (regid.2017-02.com.cisco.UCM_CUWL,12.0_cc59375a-1cd8-4b36-8366-6f4d2abba965)
+  Description: null
+  Count: 0
+  Version: 12.0
+  Status: Init
+ 
+ (regid.2016-07.com.cisco.UCM_EnhancedPlus,12.0_d8372792-588c-4caa-b279-8587e5ce2f82)
+  Description: null
+  Count: 0
+  Version: 12.0
+  Status: Init
+ 
+UC Manager Enhanced License (12.x) (regid.2016-07.com.cisco.UCM_Enhanced,12.0_66d0d1cf-4863-4761-91d0-d01d3eb1949a)
+  Description: UC Manager Enhanced License
+  Count: 5
+  Version: 12.0
+  Status: InCompliance
+ 
+UC Manager Basic License  (12.x) (regid.2016-07.com.cisco.UCM_Basic,12.0_ef827a2f-f4ae-4ebb-887f-052737063d3a)
+  Description: UC Manager Basic License
+  Count: 2
+  Version: 12.0
+  Status: InCompliance
+ 
+ (regid.2016-07.com.cisco.UCM_Essential,12.0_25f9c396-c67c-4519-aa98-d4b3ad18f805)
+  Description: null
+  Count: 0
+  Version: 12.0
+  Status: Init
+ 
+ (regid.2016-07.com.cisco.UCM_TelePresenceRoom,12.0_d9a71418-29e9-4c9a-9d3a-1366ebe38e7c)
+  Description: null
+  Count: 0
+  Version: 12.0
+  Status: Init
+ 
+Product Information
+===================
+UDI: PID:UCM,SN:37624,UUID:6fe83addc80240bc92dc071ac7a37624
+ 
+Agent Version
+=============
+Smart Agent for Licensing: 1.3.4
+```
+
 ## Troubleshoot
-There is currently no specific information available to troubleshoot this configuration.
+Collect the logs for troubleshooting issues related to registration:  
+  
+
+  * Packet capture from CUCM CLI
+  * License Manager logs
+  * Diagnostic logs from satellite
+
+
+### Known Bugs  
+  
+
+  * Cisco bug ID [CSCvh16069](https://tools.cisco.com/bugsearch/bug/CSCvh16069): Cisco Smart licensing satellite cannot borrow license from higher level to make it compliant.
+  * Cisco bug ID [CSCvf86710](https://tools.cisco.com/bugsearch/bug/CSCvf86710): Cisco Smart License Manager platform service does not run.
+  * Cisco bug ID [CSCvc94366](https://tools.cisco.com/bugsearch/bug/CSCvc94366): CUCM smart license registration to Cisco License Central does not accept the proxy port 443.
+  * Cisco bug ID [CSCvh72897:](https://tools.cisco.com/bugsearch/bug/CSCvh72897) Unable to use proxy server when authorization is enabled on proxy server.
+
+
 ## Related Information
-  * This link provides access to a video that walks through the LDAPS configurations: [Secure LDAP Directory and Authentication Walkthrough Video](https://www.youtube.com/watch?v=atQuRZv7g2E&quot;%20target=&quot;_self)
-  * [Technical Support & Documentation - Cisco Systems](https://www.cisco.com/c/en/us/support/index.html?referring_site=bodynav)
+  * [Cisco License Central](https://software.cisco.com/clc "https://software.cisco.com/clc")
+  * [Smart Software Manager Satellite Installation Guide](https://www.cisco.com/web/software/286285517/140621/Smart_Software_Manager_satellite_4.2.0_Installation_Guide.pdf)
+  * [Cisco Smart Software Manager Satellite User Guide ](https://www.cisco.com/web/software/286285517/140621/Smart_Software_Manager_satellite_4.2.0_User_Guide.pdf)
+  * [Technical Support & Documentation - Cisco Systems](https://www.cisco.com/c/en/us/support/index.html)
 
 
 ### Revision History  
 | Revision  | Publish Date  | Comments  |  
 | --- | --- | --- |  
-| 6.0  |  05-Jun-2026   | Recertification  |  
-| 4.0  |  05-Jun-2024   | Updated Formatting.  |  
-| 3.0  |  12-May-2023   | Removed PII. Added Alt Text. Updated for Style Requirements, Machine Translation and Formatting.  |  
-| 2.0  |  02-Feb-2023   | Added image alt text. Updated for formatting, style requirements and machine translation.  |  
-| 1.0  |  23-Aug-2021   | Initial Release  |  
-[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html "Back to Top")
+| 3.0  |  04-Jun-2026   | Replace references to "Cisco Smart Software Manager (SSM)" with "Cisco License Central."  |  
+| 2.0  |  14-Jun-2023   | Added Alt Text. Updated Title, Machine Translation, Style Requirements and Formatting.  |  
+| 1.0  |  12-Mar-2018   | Initial Release  |  
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html "Back to Top")
 ![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
 ### Contributed by Cisco Engineers
-  * Adrian Esquillo
-Technical Consulting Engineer
+  * Abhineet Kumar
+Cisco TAC Engineer
+  * Divya Jain
+Cisco TAC Engineer
 
 
 ### Was this Document Helpful?
 Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
 ### Contact Cisco
-  * [Open a Support Case ![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215437-configure-cucm-for-secure-ldap-directory.html)
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
   * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
 
 
