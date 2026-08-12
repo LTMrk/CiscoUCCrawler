@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,8 +19,8 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html)
-  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html)Show All Breadcrumbs
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/products/unified-communications/index.html)
   * [Call Control](https://www.cisco.com/c/en/us/products/unified-communications/call-control/index.html)
@@ -28,18 +28,18 @@
   * [End-of-Life and End-of-Sale Notices](https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html)
 
 
-# End-of-Sale and End-of-Life Announcement for the Cisco Business Edition 6000 Software Version 10.x (and Select Older Software) for New Systems and Version Upgrades
+# End-of-Sale and End-of-Life Announcement for the Cisco Select Collaboration Embedded OEM Licenses - Cisco Unified Communications Virtualization Hypervisor 5.x and Foundation 5.x
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.pdf) (335.3 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.pdf) (281.7 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:May 11, 2020
+Updated:April 29, 2020
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
@@ -53,84 +53,61 @@ US/CAN | 5am-5pm PT
 
 
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.pdf) (335.3 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.pdf) (281.7 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:May 11, 2020
+Updated:April 29, 2020
 #### Table of Contents
 ![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
 ![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
 #### Table of Contents
-  * [Overview](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html#Overview "Overview")
-  * [End-of-life milestones](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html#Endoflifemilestones "Endoflifemilestones")
-  * [Product part numbers](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html#Productpartnumbers "Productpartnumbers")
-  * [Product migration options](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html#Productmigrationoptions "Productmigrationoptions")
-  * [For more information](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html#Formoreinformation "Formoreinformation")
+  * [Overview](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html#Overview "Overview")
+    * [EOL11590 - Amended](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html#EOL11590Amended "EOL11590Amended")
+  * [End-of-life milestones](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html#Endoflifemilestones "Endoflifemilestones")
+  * [Product part numbers](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html#Productpartnumbers "Productpartnumbers")
+  * [Product migration options](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html#Productmigrationoptions "Productmigrationoptions")
+  * [For more information](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html#Formoreinformation "Formoreinformation")
 
 
 Overview
-EOL12641 - Amended
-Cisco announces the end-of-sale and end-of life dates for the Cisco Business Edition 6000 Software Version 10.x (and Select Older Software) for New Systems and Version Upgrades . The last day to order the affected product(s) is July 2, 2019 . Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract.
+EOL11590 - Amended
+Cisco announces the end-of-sale and end-of-life dates for the Cisco Select Collaboration Embedded OEM Licenses - Cisco Unified Communications Virtualization Hypervisor 5.x and Foundation 5.x. The last day to order the affected product(s) is September 4, 2017. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract. 
 End-of-life milestones
-**Table 1.** End-of-Life Milestones and Dates for the Cisco Business Edition 6000 Software Version 10.x (and Select Older Software) for New Systems and Version Upgrades  
+**Table 1.** End-of-life milestones and dates for the Cisco Select Collaboration Embedded OEM Licenses - Cisco Unified Communications Virtualization Hypervisor 5.x and Foundation 5.x  
 |  Milestone  |  Definition  |  Date   |  
 | --- | --- | --- |  
-|  **End-of-Life Announcement Date**  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  January 1, 2019   |  
+|  **End-of-Life Announcement Date**  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  March 6, 2017   |  
 |  **End-of-Sale Date:  
-App SW **  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  July 2, 2019   |  
+App SW **  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  September 4, 2017   |  
 |  **Last Ship Date:  
-App SW **  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  September 30, 2019   |  
+App SW **  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  December 3, 2017   |  
 |  **End of SW Maintenance Releases Date:  
-App SW **  |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  July 1, 2020   |  
+App SW **  |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  September 4, 2018   |  
 |  **End of New Service Attachment Date:  
-App SW **  |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  July 1, 2020   |  
+App SW **  |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  September 4, 2018   |  
 |  **End of Service Contract Renewal Date:  
-App SW **  |  The last date to extend or renew a service contract for the product.  |  September 27, 2021   |  
+App SW **  |  The last date to extend or renew a service contract for the product.  |  December 1, 2019   |  
 |  **Last Date of Support:  
-App SW **  |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  July 31, 2022   |  
+App SW **  |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  September 30, 2020   |  
 HW = Hardware OS SW = Operating System Software App. SW = Application Software 
-In response to the worldwide COVID-19 pandemic, Cisco Engineering is providing a limited extension to End of Software Maintenance for version 10.5 from Jul 1, 2020 until Oct 1, 2020 , to help Customers continue use their existing servers and plan for an upgrade. For more details refer: <https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/limited-extension-of-software-maintance-support-for-cucm-10-5-release.html>.
 Product part numbers
-**Table 2.** Product Part Numbers Affected by This Announcement  
+**Table 2.** Product part numbers affected by this announcement  
 |  End-of-Sale Product Part Number  |  Product Description  |  Replacement Product Part Number  |  Replacement Product Description  |  Additional Information   |  
 | --- | --- | --- | --- | --- |  
-|  BE-10X-UCL-STR  |  BE6000 v10 UCL Starter licenses  |  BE-12X-UCL-STR  |  BE6000 v12 UCL Starter licenses (35-pack)  |  -  |  
-|  BE-10X-UWLS-STR  |  BE6000 v10 UWL Standard Starter licenses  |  BE-12X-UWLS-STR  |  BE6000 v12 UWL Standard Starter licenses (35-pack)  |  -  |  
-|  BE6K-BAS-UPG  |  BE6000 Basic UCL - Standard SW Upgrade  |  UPG-6K-BAS  |  BE6000 Basic UCL - GCSC SW Upgrade  |  -  |  
-|  BE6K-ENH-UPG  |  BE6000 Enhanced UCL - Standard SW Upgrade  |  UPG-6K-ENH  |  BE6000 Enhanced UCL - GCSC SW Upgrade  |  -  |  
-|  BE6K-ENHP-UPG  |  BE6000 Enhanced Plus UCL - Standard SW Upgrade  |  UPG-6K-ENHP  |  BE6000 Enhanced Plus UCL - GCSC SW Upgrade  |  -  |  
-|  BE6K-ESS-UPG  |  BE6000 Essential UCL - Standard SW Upgrade  |  UPG-6K-ESS  |  BE6000 Essential UCL - GCSC SW Upgrade  |  -  |  
-|  BE6K-START-UCL200  |  BE 6000 - UCL Starter Bundle with 200 Enh + 200 VM Licenses  |  BE6K-START-UCL35  |  BE6000 Starter Bundle with 35 UCL Enh and 35 vmail Licenses  |  -  |  
-|  BE6K-START-UWL200  |  BE 6000 - User License Starter Bundle with 200 UWL Licenses  |  BE6K-START-UWL35  |  BE6000 Starter Bundle with 35 UWL Standard Licenses  |  -  |  
-|  BE6K-SW-10.X  |  Business Edition 6000 v10 export restricted software  |  BE6K-SW-12.5  |  Business Edition 6000 v12.5 export restricted software  |  -  |  
-|  BE6K-SW-10.X-XU  |  Business Edition 6000 v10 export unrestricted software  |  BE6K-SW-12.5-XU  |  Business Edition 6000 v12.5 export unrestricted software  |  -  |  
-|  BE6K-TP-RM-UPG  |  BE6000 TelePresence Room System UCL - Standard SW Upgrade  |  UPG-6K-TP-RM  |  BE6000 TelePresence Room System UCL - GCSC SW Upgrade  |  -  |  
-|  BE6K-UC-125  |  BE6K UC Users - Up to 125 users - Service Use Only  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  BE6K-UC-250  |  BE6K UC Users - Up to 250 users - Service Use Only  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  BE6S-SW-10.X  |  Business Edition 6000S v10 export restricted software  |  BE6K-SW-12.5  |  Business Edition 6000 v12.5 export restricted software  |  -  |  
-|  BE6S-SW-10.X-XU  |  Business Edition 6000S v10 export unrestricted software  |  BE6K-SW-12.5-XU  |  Business Edition 6000 v12.5 export unrestricted software  |  -  |  
-|  BE6S-SW-10X11X-K9  |  Media (no lic) for Cisco Collaboration 10.x, Export Restr  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  BE6S-SW-10X11X-XU  |  Media (no lic) for Cisco Collaboration 10.x, Export Unrestr  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  UPG-UCM9TO10-BAS  |  BE6000 Upgrade 9.x Basic license to 10.x  |  UCM-12X-BAS-UCL  |  BE6000 UCM 12X Basic User Connect Lic (new, addon, vers-upg)  |  -  |  
-|  UPG-UCM9TO10-BAS=  |  Upg to UCM 10.x Bas from 9.x  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  UPG-UCM9TO10-ENH  |  BE6000 Upgrade 9.x Enhanced license to 10.x  |  UCM-12X-ENH-UCL  |  BE6000 UCM 12X Enh User Connect Lic (new, addon, vers-upg)  |  -  |  
-|  UPG-UCM9TO10-ENH=  |  Upg to UCM 10.x Enh from 9.x  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  UPG-UCM9TO10-ENHP  |  BE6000 Upgrade 9.x Enhanced Plus license to 10.x  |  UCM-12X-ENHP-UCL  |  BE6000 UCM 12X Enh Plus User Conn Lic (new, addon, vers-upg)  |  -  |  
-|  UPG-UCM9TO10-ESS  |  BE6000 Upgrade 9.x Essential license to 10.x  |  UCM-12X-ESS-UCL  |  BE6000 UCM 12X Ess User Connect Lic (new, addon, vers-upg)  |  -  |  
-|  UPG-UCM9TO10-ESS=  |  Upg to UCM 10.x Ess from 9.x  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  UPG-UCM9TO10-PRO  |  UC Manager Upgrade PRO, v9.x to v10.x, 1 user  |  UCM-12X-UWLSTDMTG  |  BE6000 UCM 12X User Lic CUWL Std Mtgs (new, addon, vers-upg)  |  -  |  
-|  UPG-UCM9TO10-STD  |  UC Manager Upgrade STD, v9.x to v10.x, 1 user  |  UCM-12X-UWLSTDMTG  |  BE6000 UCM 12X User Lic CUWL Std Mtgs (new, addon, vers-upg)  |  -  |  
-|  UPG-UCM9TO10-TP  |  BE6000 Upgrade 9.x TP Room license to 10.x  |  UCM-12X-TP-UCL  |  BE6000 UCM 12X TP Room User Conn Lic (new, addon, vers-upg)  |  -  |  
-|  UPG-UCN9TO10-VM  |  BE6000 Upgrade 9.x Basic Voicemail license to 10.x  |  UCN-12X-VM-UCL  |  BE6000 Unity Connection 12x Basic Voicemail Lic addon to UCL  |  -  |  
-|  UPG-UCXN9TO10-PRO  |  Unity Connection Upgrade PRO, v9.x to v10.x, 1 user  |  UCXN-12X-UWLSTDMTG  |  BE6000 Unity Connection 12X Enh VM User for CUWL Std or Mtgs  |  -  |  
-|  UPG-UCXN9TO10-STD  |  Unity Connection Upgrade STD, v9.x to v10.x, 1 user  |  UCXN-12X-UWLSTDMTG  |  BE6000 Unity Connection 12X Enh VM User for CUWL Std or Mtgs  |  -  |  
+|  **R-VMW-UC-FND5-K9**  |  Cisco UC Virt. Foundation 5.x (2-Socket)  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **R-VMW-VS5-HYP-K9=**  |  BE6K Migrate STD 4.1 to Cisco UC Virt Hypervisor 5.0 - UCSS  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **VMW-UC-FND5-SNS**  |  Cisco UC Virt. Foundation 5.x SnS  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **VMW-VS-HYP**  |  Vmware vSphere - Hypervisor 4.x  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **VMW-VS5-HYP-K9**  |  Cisco UC Virt. Hypervisor 5.x (2-socket)  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  **VMW-VS5-HYP-USEL**  |  Cisco UC Virt. Hypervisor Entitlements  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
 Product migration options
+Cisco UC Virtualization Hypervisor 5.x (VMW-VS5-HYP-K9, VMW-VS5-HYP-SNS, VMW-VS5-HYP-USEL) was only purchaseable in conjunction with purchase of older Business Edition 6000 BE6000 and Business Edition 7000 BE7000 appliances. New purchases of BE6000 / BE7000 appliances have already migrated to replacement licenses and versions. Installed base must procure replacement license and support. For a BE6000 appliance, customer may purchase either R-VS6-HPLS-K9-MIG (under top-level R-CBE6K-K9, quantity 1) or VMW-VSP-STD-1A= with ISV1 service level (quantity equal to CPU count of appliance). For a BE7000 appliance, customer may purchase VMW-VSP-STD-1A= with ISV1 service level (quantity equal to CPU count of appliance). Other VMware vSphere ESXi license editions from UCS C220/C240 may also be considered. Purchasing VMware vSphere ESXi license direct from VMware may also be considered. For license-only Cisco UC Virtualization Foundation 5.x (R-VMW-UC-FND5-K9), there is no direct replacement. Installed base must procure replacement license and support. Customer may purchase VMW-VSP-STD-1A with ISV1 service level (quantity equal to CPU count of appliance). Other VMware vSphere ESXi license editions from UCS C220/C240 may also be considered. Purchasing VMware vSphere ESXi license direct from VMware may also be considered. More details may be found at: <https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/uc_system/virtualization/virtualization-software-requirements.html#license_comparison-shipping>.
 Service prices for Cisco products are subject to change after the product End-of-Sale date.
 The Cisco Takeback and Recycle program helps businesses properly dispose of surplus products that have reached their end of useful life. The program is open to all business users of Cisco equipment and its associated brands and subsidiaries. For more information, go to: <https://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html>.
 For more information
