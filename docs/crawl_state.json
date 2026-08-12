@@ -2015,5 +2015,6 @@
   "https://developer.webex.com/docs/api/v1/meetings/list-meeting-registrants": "2b0774a077a4f4a2be5638a67ee9ead1ee762b2daa40a04b1bf4634ae17549b1",
   "https://developer.webex.com/docs/api/v1/meetings/batch-update-meeting-registrants-status": "f58924a3d817903e76c4ab3e2a99bc81d921c403dbe8d5c636e1d78c72a5ec68",
   "https://developer.webex.com/docs/api/v1/meetings/register-a-meeting-registrant": "089d9a94d9a2b00f471d6777d4e199ad8244bdd80329b4fdbba669257cc508e5",
-  "https://developer.webex.com/docs/api/v1/meetings/list-meeting-session-types": "6b2a349d179990c5f8f5fc124e8b693fd581053de2e12420d26176a83ca7fefd"
+  "https://developer.webex.com/docs/api/v1/meetings/list-meeting-session-types": "6b2a349d179990c5f8f5fc124e8b693fd581053de2e12420d26176a83ca7fefd",
+  "https://developer.webex.com/docs/api/v1/meetings/get-a-meeting-session-type": "72f283a5cd6275497e216df92668e7591de3d059f26982d88205b8c60e9314b1"
 }
