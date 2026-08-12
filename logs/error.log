@@ -175,3 +175,15 @@ Code context:
 [2026-08-12T23:03:25.855763] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (2532 bytes, 0 chars visible) | URL: https://status.webex.com
 [2026-08-12T23:03:33.539635] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/create/docs/agentic-apps-overview
 [2026-08-12T23:03:55.969847] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers
+[2026-08-12T23:04:35.715690] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/agentic-token
+[2026-08-12T23:04:37.347013] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/my-apps/new/integration
+[2026-08-12T23:04:41.137900] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/webex-agentic-mcp-servers-amazon-quick
+[2026-08-12T23:04:45.175687] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/webex-agentic-mcp-servers-claude-code
+[2026-08-12T23:04:48.820307] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/webex-agentic-mcp-servers-claude-desktop
+[2026-08-12T23:04:52.240675] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/webex-agentic-mcp-servers-codex
+[2026-08-12T23:04:55.749893] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/webex-agentic-mcp-servers-copilot-studio
+[2026-08-12T23:04:59.200742] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/webex-agentic-mcp-servers-cursor
+[2026-08-12T23:05:02.690387] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/webex-agentic-mcp-servers-gemini-cli
+[2026-08-12T23:05:06.196061] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/webex-agentic-mcp-servers-vscode
+[2026-08-12T23:05:09.430294] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/create/docs/instant-connect
+[2026-08-12T23:05:12.474235] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/create/docs/instant-connect-meeting-links
