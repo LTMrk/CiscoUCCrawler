@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,8 +19,8 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)
-  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)Show All Breadcrumbs
   * [Support](https://www.cisco.com/c/en/us/support/index.html)
   * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
@@ -28,279 +28,171 @@
   * [Configuration Examples and TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-configuration-examples-list.html)
 
 
-# Configure CUCM Smart Licensing - Direct Model
+# Configure Single Number Reach for CallManager
 ![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)
 Download
 Print
 ### Available Languages
-  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)
-  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)
-  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)
-  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)
-  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)
-  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)
-  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)
-  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)
-  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)
-  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)
 
 
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.pdf) (1.2 MB)   
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.pdf) (2.2 MB)   
 View with Adobe Reader on a variety of devices
-  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.epub) (1.3 MB)   
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.epub) (2.3 MB)   
 View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
-  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.mobi) (830.1 KB)   
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.mobi) (1.9 MB)   
 View on Kindle device or Kindle app on multiple devices
 
 
-Updated:June 4, 2026
-Document ID:212915
+Updated:June 3, 2026
+Document ID:200447
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
 ## Contents
-[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId-1075907225)
-[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId--731547238)
-[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId--40985764)
-[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId--1848440227)
-[Background Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId--1858943331)
-[Direct Model](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId--1168381857)
-[Mediated Deployment Model](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId-1319130976)
-[Where Do I Create Smart Accounts](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId--488323487)
-[Cisco Smart License Manager Service](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId-1999189346)
-[Smart Licensing States in UCM](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId--503428596)
-[Configure (Direct Deployment)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId-1855001518)
-[Configuration](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId--1630824689)
-[Verify](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId-727605425)
-[Troubleshoot](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId--1079849038)
-[Known Bugs](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId-1536746514)
-[Related Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html#toc-hId--399790668)
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html#toc-hId-1846032918)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html#toc-hId--706124043)
+[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html#toc-hId-840172787)
+[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html#toc-hId--1711984174)
+[Background Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html#toc-hId-1970150001)
+[Configure](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html#toc-hId--582006960)
+[User Configuration](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html#toc-hId-964289870)
+[Remote Destination Profile Configuration](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html#toc-hId--1587867091)
+[Remote Destination Configuration](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html#toc-hId-1182592290)
+[Verify](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html#toc-hId-427386688)
+[Troubleshoot](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html#toc-hId--2124770273)
 ## Introduction
-This document describes the direct model configuration to synchronize your CUCM directly with your Smart accounts.
+This document describes the inputs and modifications commonly used when configuring Cisco Unified Mobility Application known as Mobile Connect. 
 ## Prerequisites
 ### Requirements
 Cisco recommends that you have knowledge of these topics:
-  * Cisco Unified Communications Manager (CUCM) version 12.0
+  * Remote destination Phone cannot be a phone registered to the same cluster. It could be a phone in a different cluster or a PSTN phone across the trunk/gateway .
+  * Remote destination phone can be reachable from the cluster of the desk phone .
 
 
 ### Components Used
-The information in this document is based on Cisco Call Manager version 12.0
+The information in this document is based on these software versions:
+  * Cisco Unified Call Manager (CUCM) 11.0.1.21900-11
+
+
 The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
-## Background Information 
-Cisco Smart Software Licensing is a new way to think about licensing. It simplifies the licensing experience across the enterprise and makes it easier to purchase, deploy, track, and renew Cisco Software. It provides visibility into license ownership and consumption through a single, simple user interface.
-[![Mediated Deployment and Direct Deployment](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct-00.png "Mediated Deployment and Direct Deployment")
-You place an order on Cisco Commerce and the order is associated with the smart account. This information is populated on [Cisco License Central](https://software.cisco.com/clc "https://software.cisco.com/clc"). Now, you have a complete view on what you have ordered and purchased.  
+## Background Information
+Cisco Unified Mobility application known as Mobile Connect, commonly called Single Number Reach (SNR), provides Cisco Unified Communications users with the ability to be reached via a single enterprise phone number that rings on both their IP desk phone and their cellular phone (Remote Destination), simultaneously. Mobile Connect users can pick up an incoming call on either of their desk or cellular phones and at any point and can move the in-progress call from one of these phones to the other without interruption.
+## Configure
+When you work with CUCM, the performed tasks are related to these activities:
+  * User Configuration 
+  * Remote Destination Profile Configuration 
+  * Remote Destination Configuration
+
+
+### User Configuration
+[![Select Device Association to Go to the User Device Association Page](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-00.png "Select Device Association to Go to the User Device Association Page")
+You are directed to a User Device Association page, where you can select the device which needs to be associated as the deskphone of the user, then click **Save Selected/Changes** , as shown in the image:
+[![Select the Device to be Associated with the User's Desk Phone and Save Changes](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-01.png "Select the Device to be Associated with the User's Desk Phone and Save Changes")
+Once done, as shown in the image, you must see the device name in the section controlled devices.
+[![The Device Name Displays in the Controlled Devices List](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-02.png "The Device Name Displays in the Controlled Devices List")
+Choose the **Primary extension** for the device, as shown in this image:
+[![Select the Primary Extension for the Device](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-03.png "Select the Primary Extension for the Device")
+Check the **Enable Mobility** check box. You can also modify the Maximum Wait Time for Desk Pickup and Remote Destination Limit, if required. Moreover, the default values can be seen in the image:
+[![Select the Enable Mobility Checkbox](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-04.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-04.png "Select the Enable Mobility Checkbox")
+### Remote Destination Profile Configuration
+Create a Remote Destination Profile (RDP) for the end user .  
   
-
-The product that has smart licensing enabled (via CLI or GUI), is registered to Cisco License Central, and report license consumption to Cisco License Central. Two models exist to report the usage.  
+In order to create a new RDP profile, navigate to **Device > Device Settings > Remote Destination Profile > Add new**.
+[![Enter Name, User ID, and Device Pool on the Remote Destination Profile Information Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-05.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-05.png "Enter Name, User ID, and Device Pool on the Remote Destination Profile Information Screen")
+Click **Save**. Now, you can see an option to add a new Directory Number (DN).
+Click **Add a new DN** to navigate to a directory number configuration where you need to specify the directory number of the desk phone with which you need to associate the RDP. Click **Save**.
+#### [![Click Add a new DN to Navigate to Directory number configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-06.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-06.png "Click Add a new DN to Navigate to Directory number configuration")
+It is also important to know that the CUCM attempts to reach the remote destination through the **Rerouting calling search Space**.
+[![Directory Number Configuration Screen with Success Message](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-07.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-07.png "Directory Number Configuration Screen with Success Message")
+After you save the directory number, specify the **correct CSS** against Rerouting calling search space. Click **Add a New Remote Destination** , as shown in the image:
+[![Click Add a New Remote Destination](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-08.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-08.png "Click Add a New Remote Destination")
+### Remote Destination Configuration
+Specify the Destination number, as this is the number for your remote destination .  
   
-
-### Direct Model
-Use this model in environments where devices can communicate directly to the Internet or can connect to the Internet via an HTTPS proxy. Communication to Cisco.com is via HTTPS, therefore all traffic is encrypted in transport. If traffic is sent through an HTTPS proxy or transport gateway, all communications between devices and Cisco.com is channeled through a centralized location if additional inspection or security policies need to be applied.   
+Ensure that the check box, **Enable Unified Mobility features, Enable Single Number Reach, Enable Move to Mobile** , is checked.  
   
-
-### Mediated Deployment Model
-Use this model in networks where devices do not have any form to connect to the Internet, and therefore cannot reach Cisco.com. This deployment model requires that you install a Cisco License Central satellite virtual machine on-premises which is then reachable by all internal hosts. The on-premise satellite can be deployed in a connected mode that synchronizes with Cisco License Central monthly, weekly, or can be deployed in a totally disconnected configuration which requires manual file uploads and downloads to keep the satellite in sync. The recommendation is to do a sync at least every 30 days. 
-### **Where Do I Create Smart Accounts**
-  * To create a Smart Account, log in to CSC with your CCO ID and initiate a request for a **Customer Smart Account**.  
+Single Number Reach Voicemail Policy provides two options:
+  1. Timer Control (default)
+  2. User Control   
   
-
-  * To create a Partner Holding Smart Account, log in to CSC with your CCO ID and initiate a request for a Partner Holding Account.  
+Under the **Timer Information** section, specify the amount of delay before the Remote Destination can ring.  
   
-
-  * You can also initiate a request for either type of Smart Account when you order in CCW. Although, the recommended best practice is to proactively set up your Smart Accounts.
-
-
-**Note** : There is no upper limit; you can create as many Virtual Accounts as your company needs.
-### Cisco Smart License Manager Service
-Cisco Smart License Manager Service is a network service, which runs only on CUCM publisher. Since this is a network service, it runs all the time and cannot be started or stopped from UI or CLI. Since there is no service that runs on the subscriber, none of the smart licensing operations can be done from the sub. The CLI commands also do not provide any output on the sub,
-### Smart Licensing States in UCM
-There are two main states in Smart Licensing:
-Registration Status: There are three registration Statuses:
-  1. Unidentified / Unregistered
-  2. Registered
-  3. Unregistered-registered Expired
-
-
-Authorization Status:
-  * No License in use
-  * Evaluation Mode
-  * Evaluation Expired
-  * Authorized
-  * Out of compliance
-  * Authorization Expired
-
-
-[![Smart Licensing States in UCM](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct-01.png "Smart Licensing States in UCM")
-In addition to these smart licensing states, UCM provides an overage period of 90 days (This is a concept already present in pre 12.0 with classic licensing. UCM continues to provide the average period with smart licensing as well)
-## Configure (Direct Deployment)
-**Note** : For direct deployment to work, your CUCM must have connectivity to the Internet.
-### Configuration
-  1. Log in to [Cisco Software Central](https://software.cisco.com/) with your username and password.  
+In case the Remote Destination is required to ring immediately, you can set the **Wait*** as zero.  
   
-
-  2. Select **Inventory** under **Smart Software Licensing**.  
+It is also important to calibrate the time in which the service provider of the remote destination sends the call to the voice-mail of the remote destination. The **S****top ringing this phone after** value can be set to lesser than that to ensure that the call does not go to the voicemail of the cell phone. This time value is specified against **S****top ringing this phone after** _._  
   
-
-  3. Generate a new Token. [![Generate a New Token](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct-02.png "Generate a New Token")
-  4. Under the CUCM admin page, navigate to**System > Licensing > License Management > View/Edit the Licensing Smart Call Home settings** and then Verify **Direct** is selected and **Production Cisco License Central URL** is updated.  
-[![Verify Direct is Selected and Production CSSM URL is Updated](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct-03.png "Verify Direct is Selected and Production CSSM URL is Updated")
-  5. Click **Register** and paste the token created in step 3, and click **Register**. This can be done from cli as well: **license smart register idtoken <token> [force]   
-[![Registration Successful](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct-04.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct-04.png "Registration Successful")**
+In the previous call manager version, these parameters had different names:  
 
 
+
+  * Delay before ringing timer 
+  * Answer too soon timer
+  * Answer too late timer
+
+
+[![Set Remote Destination Configuration Parameters](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-09.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-09.png "Set Remote Destination Configuration Parameters")
+If the SNR voicemail policy is configured for User Control, the timer information changes, as shown in the image:
+[![Timer Information Options when Single Number Reach voicemail Policy is Configured for User Control](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-10.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-10.png "Timer Information Options when Single Number Reach voicemail Policy is Configured for User Control")
+In case the SNR configuration needs to be restricted based on time and day, these options are modified as required. If no restriction needs to be applied, the**Ring Schedule** can be set to **All the time** and **When receiving a call****during the ring schedule** can be set to **Always ring this destination**.  
+  
+After you complete the configuration of remote destination, click **Save**.
+[![Ring Schedule Options for Single Number Reach Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-11.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-11.png "Ring Schedule Options for Single Number Reach Configuration")
+Check the checkbox, which is next to the line, and click **Save**.
+[![Select the Line Association Checkbox beside the Remote Destination Profile line](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-12.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-12.png "Select the Line Association Checkbox beside the Remote Destination Profile line")
 ## Verify
-[![Verify](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct-05.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct-05.png "Verify")
-  * **Show license summary**
+Use this section in order to confirm that your configuration works properly.
+Verify the **name** of the Remote Destination Profile, which is reflected on the End user page.
+[![Verify the Remote Destination Profile Name and Ensure that the Enable Mobility Option is Enabled](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-13.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-13.png "Verify the Remote Destination Profile Name and Ensure that the Enable Mobility Option is Enabled")
+On the directory number page, you must see the name of the Remote Destination Profile in the section Associated Devices.
+[![Verify that the Remote Destination Profile Name Appears in the Associated Devices List](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-14.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-14.png "Verify that the Remote Destination Profile Name Appears in the Associated Devices List")
+Perform a test through Dialed Number Analysis to check whether the call manager directs the call to the remote destination based on configuration or not.  
+  
+In order to perform a dialed number analysis, navigate to **Cisco Unified Serviceability > Tools > Dialed Number Analyzer > Analysis ****> Phones > Find > Choose the calling phone**.  
+  
+Specify the Directory number of the desk phone and click **Do Analysis**.  
 
-
-Smart Licensing is ENABLED.
-
-```
-Registration:
-  Status: REGISTERED
-  Smart Account: BU Production Test
-  Virtual Account: TAC-CollabTesting
-  Last Renewal Attempt: None
-  Next Renewal Attempt: Jul 25 15:11:23 2018 IST
- 
-License Authorization:
-  Status: AUTHORIZED
-  Last Communication Attempt: SUCCEEDED
-  Next Communication Attempt: Feb 25 15:12:59 2018 IST
- 
-License Usage:
-  License                     Entitlement Tag                                                                        Count        Status
-  --------------------------------------------------------------------------------------------------------------------------------------
-                              regid.2017-02.com.cisco.UCM_CUWL,12.0_cc59375a-1cd8-4b36-8366-6f4d2abba965             0            Init
-                              regid.2016-07.com.cisco.UCM_EnhancedPlus,12.0_d8372792-588c-4caa-b279-8587e5ce2f82     0            Init
-  66d0d1cf-4863-4761-91d0-d01d3eb1949aregid.2016-07.com.cisco.UCM_Enhanced,12.0_66d0d1cf-4863-4761-91d0-d01d3eb1949a         5            InCompliance
-  ef827a2f-f4ae-4ebb-887f-052737063d3aregid.2016-07.com.cisco.UCM_Basic,12.0_ef827a2f-f4ae-4ebb-887f-052737063d3a            2            InCompliance
-                              regid.2016-07.com.cisco.UCM_Essential,12.0_25f9c396-c67c-4519-aa98-d4b3ad18f805        0            Init
-                              regid.2016-07.com.cisco.UCM_TelePresenceRoom,12.0_d9a71418-29e9-4c9a-9d3a-1366ebe38e7c 0            Init
-```
-
-  * **Show license UDI**
-
-
-UDI: PID:UCM,SN:37624,UUID:6fe83addc80240bc92dc071ac7a37624
-  * **Show license all**
-
-
-```
-Smart Licensing Status
-=======================
-Smart Licensing is ENABLED
- 
-Registration:
-  Status: REGISTERED
-  Smart Account: BU Production Test
-  Virtual Account: TAC-CollabTesting
-  Export-Controlled Functionality: Allowed
-  Initial Registration: SUCCEEDED on Jan 26 15:11:23 2018 IST
-  Last Renewal Attempt: SUCCEEDED on Jan 26 15:11:23 2018 IST
-  Next Renewal Attempt: Jul 25 15:11:23 2018 IST
-  Registration Expires: Jan 26 15:06:21 2019 IST
- 
-License Authorization:
-  Status: AUTHORIZED on Jan 26 15:12:59 2018 IST
-  Last Communication Attempt: SUCCEEDED on Jan 26 15:12:59 2018 IST
-  Next Communication Attempt: Feb 25 15:12:59 2018 IST
-  Communication Deadline: Apr 26 15:06:59 2018 IST
- 
-Evaluation Period:
-  Evaluation Mode: Not In Use
-  EVALUATION PERIOD EXPIRED on Nov 9 23:46:35 2017 IST
- 
-License Usage
-=============
-License Authorization Status: AUTHORIZED as of Jan 26 15:12:59 2018 IST
- 
- (regid.2017-02.com.cisco.UCM_CUWL,12.0_cc59375a-1cd8-4b36-8366-6f4d2abba965)
-  Description: null
-  Count: 0
-  Version: 12.0
-  Status: Init
- 
- (regid.2016-07.com.cisco.UCM_EnhancedPlus,12.0_d8372792-588c-4caa-b279-8587e5ce2f82)
-  Description: null
-  Count: 0
-  Version: 12.0
-  Status: Init
- 
-UC Manager Enhanced License (12.x) (regid.2016-07.com.cisco.UCM_Enhanced,12.0_66d0d1cf-4863-4761-91d0-d01d3eb1949a)
-  Description: UC Manager Enhanced License
-  Count: 5
-  Version: 12.0
-  Status: InCompliance
- 
-UC Manager Basic License  (12.x) (regid.2016-07.com.cisco.UCM_Basic,12.0_ef827a2f-f4ae-4ebb-887f-052737063d3a)
-  Description: UC Manager Basic License
-  Count: 2
-  Version: 12.0
-  Status: InCompliance
- 
- (regid.2016-07.com.cisco.UCM_Essential,12.0_25f9c396-c67c-4519-aa98-d4b3ad18f805)
-  Description: null
-  Count: 0
-  Version: 12.0
-  Status: Init
- 
- (regid.2016-07.com.cisco.UCM_TelePresenceRoom,12.0_d9a71418-29e9-4c9a-9d3a-1366ebe38e7c)
-  Description: null
-  Count: 0
-  Version: 12.0
-  Status: Init
- 
-Product Information
-===================
-UDI: PID:UCM,SN:37624,UUID:6fe83addc80240bc92dc071ac7a37624
- 
-Agent Version
-=============
-Smart Agent for Licensing: 1.3.4
-```
-
+[![Set up the Dialed Number Analysis for the Directory Number of the Desk Phone](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-15.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-15.png "Set up the Dialed Number Analysis for the Directory Number of the Desk Phone")
+On the Analysis output, the call is extended to the RDP along with the desk phone, which confirms the eventual effects of SNR configuration.
+[![Verify the Dialed Digits in the Dialed Number Analysis Output](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-16.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-16.png "Verify the Dialed Digits in the Dialed Number Analysis Output")
+[![Verify the Device Name for the Desk Phone in the Dialed Number Analysis Output](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-17.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-17.png "Verify the Device Name for the Desk Phone in the Dialed Number Analysis Output")
+[![Verify the Device Name for the Remote Destination Profile in the Dialed Number Analysis Output](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-18.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un-18.png "Verify the Device Name for the Remote Destination Profile in the Dialed Number Analysis Output")
 ## Troubleshoot
-Please collect these logs to troubleshoot issues related to registration:
-  * Packet capture from CUCM CLI
-  * License Manager logs
-
-
-### Known Bugs
-  * Cisco bug ID [CSCvh16069](https://tools.cisco.com/bugsearch/bug/CSCvh16069) [![](https://techzone.cisco.com/html/assets/mag.gif)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html): Cisco Smart licensing satellite cannot borrow a license from a higher level to make it in compliance.
-  * Cisco bug ID [CSCvf86710](https://tools.cisco.com/bugsearch/bug/CSCvf86710) [![](https://techzone.cisco.com/html/assets/mag.gif)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html): Cisco Smart License Manager platform service does not run.
-  * Cisco bug ID [CSCvc94366](https://tools.cisco.com/bugsearch/bug/CSCvc94366)
-  * **[![](https://techzone.cisco.com/html/assets/mag.gif)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html):** CUCM smart license registration to Cisco License Central does not accept the proxy port 443.
-## Related Information 
-    * [Technical Support & Documentation - Cisco Systems](https://www.cisco.com/c/en/us/support/index.html)
-
-
+There is currently no specific information available to troubleshoot this configuration.
 ### Revision History  
 | Revision  | Publish Date  | Comments  |  
 | --- | --- | --- |  
-| 4.0  |  04-Jun-2026   | Replace references to "Cisco Smart Software Manager (SSM)" with "Cisco License Central."  |  
-| 3.0  |  20-Aug-2024   | Added Alt Text. Updated Style Requirements and Formatting.  |  
-| 2.0  |  14-Jul-2022   | Updates made for style requirements, machine translation, gerunds, etc. to comply with Cisco guidelines.  |  
-| 1.0  |  22-Mar-2018   | Initial Release  |  
-[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html "Back to Top")
+| 6.0  |  03-Jun-2026   | Recertification  |  
+| 5.0  |  27-Feb-2025   | Updated Acronyms and Formatting.  |  
+| 4.0  |  06-Sep-2024   | Updated Title Alt Text, Style Requirements, Machine Translation, Spacing, Reviewed for PII and Formatting.  |  
+| 3.0  |  28-Apr-2023   | Updated Title, Introduction, Style Requirements, Machine Translation, Gerunds and Formatting.  |  
+| 2.0  |  20-Apr-2022   | Updated disclaimer statement and title.  |  
+| 1.0  |  27-Apr-2016   | Initial Release  |  
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html "Back to Top")
 ![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
 ### Contributed by Cisco Engineers
-  * Abhineet Kumar
-Technical Consulting Engineer
-  * Divya Jain
+  * Sankalp Jain
 Technical Consulting Engineer
 
 
 ### Was this Document Helpful?
 Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
 ### Contact Cisco
-  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
   * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
 
 
@@ -308,3 +200,49 @@ Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Fe
   * [Unified Communications Manager (CallManager)](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html)
 
 
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
