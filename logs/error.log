@@ -198,3 +198,5 @@ Code context:
 [2026-08-12T23:08:07.572760] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/my-apps
 [2026-08-12T23:08:24.943538] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://admin.webex.com/apps/embeddedApps
 [2026-08-12T23:08:56.547927] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text on small page (160 bytes, 9 chars visible) | URL: https://developer.webex.com/docs/Webex.Application.Meeting
+[2026-08-12T23:09:13.601568] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/locations
+[2026-08-12T23:09:19.477154] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/ucm-profile
