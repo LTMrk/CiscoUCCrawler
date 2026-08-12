@@ -2119,5 +2119,6 @@
   "https://developer.webex.com/docs/api/v1/messages/delete-a-message": "e83abc3c9e0b84aec5368bbb08cd64cffefb24218bcb5d863b047d89526c9cbd",
   "https://developer.webex.com/docs/api/v1/memberships/delete-a-membership": "178f632e2668b0e26b004c863f1175a1d6c35ecbc891cfc8206ed6329878d01c",
   "https://developer.webex.com/docs/api/v1/memberships": "214d9807a7f020613100f36fe90d511afb195c14125d100e07759e1f36f876ec",
-  "https://developer.webex.com/docs/api/v1/events": "710dce244158411d7ad1f1420d9f6980188c7adb2b15a691d248d07af487cdee"
+  "https://developer.webex.com/docs/api/v1/events": "710dce244158411d7ad1f1420d9f6980188c7adb2b15a691d248d07af487cdee",
+  "https://developer.webex.com/docs/api/v1/team-memberships/create-a-team-membership": "7d7a914ad32d9bbbaedc4411e093fdca7646e2f2bffc96b60e1ecc2ae7535b55"
 }
