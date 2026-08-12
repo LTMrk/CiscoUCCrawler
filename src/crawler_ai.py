@@ -2,8 +2,39 @@ import os
 import asyncio
 import re
 import subprocess
+import json
+import hashlib
+from datetime import datetime
 from urllib.parse import urlparse, urljoin
 from crawl4ai import AsyncWebCrawler, CacheMode
+
+def load_config():
+    config_path = "config.json"
+    default_config = {
+        "global_settings": {
+            "default_max_depth": 1,
+            "request_delay_seconds": 1,
+            "word_count_threshold": 20
+        },
+        "domain_depths": {}
+    }
+    if os.path.exists(config_path):
+        try:
+            with open(config_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            log_error("CONFIG_LOAD", str(e))
+    return default_config
+
+CONFIG = load_config()
+
+def get_max_depth_for_url(url):
+    netloc = urlparse(url.lower()).netloc
+    domain_map = CONFIG.get("domain_depths", {})
+    for domain, depth in domain_map.items():
+        if domain in netloc:
+            return depth
+    return CONFIG.get("global_settings", {}).get("default_max_depth", 1)
 
 def sanitize_filename(url):
     clean = re.sub(r'https?://', '', url)
@@ -60,21 +91,39 @@ def is_allowed_domain(url):
     allowed = ['cisco.com', 'webex.com', 'webexconnect.io', 'webexengage.io']
     return any(domain in url for domain in allowed)
 
-def git_commit_and_push(filename):
+def log_error(url, reason):
+    os.makedirs("logs", exist_ok=True)
+    timestamp = datetime.now().isoformat()
+    with open("logs/error.log", "a", encoding="utf-8") as f:
+        f.write(f"[{timestamp}] ERROR - {reason} | URL: {url}\n")
+
+def load_state():
+    state_file = "docs/crawl_state.json"
+    if os.path.exists(state_file):
+        with open(state_file, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+def save_state(state):
+    with open("docs/crawl_state.json", "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2)
+
+def get_content_hash(content):
+    return hashlib.sha256(content.encode('utf-8')).hexdigest()
+
+def git_commit_and_push():
     try:
         subprocess.run(["git", "config", "--global", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "--global", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
-        subprocess.run(["git", "add", filename], check=True)
+        subprocess.run(["git", "add", "docs/", "logs/"], check=True)
         
         diff_check = subprocess.run(["git", "diff", "--staged", "--quiet"])
         if diff_check.returncode != 0:
-            commit_msg = f"docs: add {os.path.basename(filename)}"
-            subprocess.run(["git", "commit", "-m", commit_msg], check=True)
+            subprocess.run(["git", "commit", "-m", "docs: actualizacion incremental de estado y logs"], check=True)
             subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=False)
             subprocess.run(["git", "push"], check=True)
-            print(f"Sincronizado remotamente: {filename}")
     except Exception as e:
-        print(f"Error en sincronizacion Git para {filename}: {e}")
+        log_error("GIT_PUSH", str(e))
 
 async def deep_crawl():
     output_dir = "docs"
@@ -87,13 +136,18 @@ async def deep_crawl():
     with open("urls.txt", "r", encoding="utf-8") as f:
         seeds = [normalize_url(line.strip()) for line in f if line.strip() and not line.startswith("#")]
 
-    visited = set()
+    state = load_state()
+    seen_hashes = set(state.values())
+    visited = set(state.keys())
+    
     queue = asyncio.Queue()
-    max_depth = 2
     
     for seed in seeds:
-        if is_strict_en_us(seed) and is_allowed_domain(seed) and not is_blocked_by_user(seed):
+        if seed not in visited and is_strict_en_us(seed) and is_allowed_domain(seed) and not is_blocked_by_user(seed):
             await queue.put((seed, 0))
+
+    delay = CONFIG.get("global_settings", {}).get("request_delay_seconds", 1)
+    word_threshold = CONFIG.get("global_settings", {}).get("word_count_threshold", 20)
 
     async with AsyncWebCrawler(verbose=True) as crawler:
         while not queue.empty():
@@ -103,11 +157,13 @@ async def deep_crawl():
                 continue
             visited.add(url)
             
-            print(f"[Profundidad {depth}] Procesando: {url}")
+            max_depth_allowed = get_max_depth_for_url(url)
+            print(f"[Profundidad {depth}/{max_depth_allowed}] Procesando: {url}")
+            
             try:
                 result = await crawler.arun(
                     url=url,
-                    word_count_threshold=20,
+                    word_count_threshold=word_threshold,
                     exclude_external_links=True,
                     remove_overlay_elements=True,
                     process_iframes=True,
@@ -117,15 +173,26 @@ async def deep_crawl():
                     css_selector="#fw-content, main, article, .content, .cisco-content"
                 )
                 
-                if result.success and result.markdown:
-                    filename = os.path.join(output_dir, sanitize_filename(url))
-                    with open(filename, "w", encoding="utf-8") as md_file:
-                        md_file.write(result.markdown)
-                    print(f"Guardado localmente: {filename}")
-                    
-                    git_commit_and_push(filename)
+                if not result.success:
+                    log_error(url, f"Fallo HTTP o Crawler: {result.error_message}")
+                elif not result.markdown:
+                    log_error(url, "Contenido vacio tras filtrado DOM")
+                else:
+                    content_hash = get_content_hash(result.markdown)
+                    if content_hash in seen_hashes:
+                        log_error(url, "CONTENIDO DUPLICADO EXACTO")
+                    else:
+                        filename = os.path.join(output_dir, sanitize_filename(url))
+                        with open(filename, "w", encoding="utf-8") as md_file:
+                            md_file.write(result.markdown)
+                        
+                        state[url] = content_hash
+                        seen_hashes.add(content_hash)
+                        save_state(state)
+                        git_commit_and_push()
+                        print(f"Guardado localmente: {filename}")
                 
-                if depth < max_depth and hasattr(result, 'links'):
+                if depth < max_depth_allowed and hasattr(result, 'links'):
                     internal_links = result.links.get("internal", [])
                     for link_obj in internal_links:
                         raw_next_url = link_obj.get("href")
@@ -135,10 +202,10 @@ async def deep_crawl():
                                 if is_strict_en_us(next_url) and is_allowed_domain(next_url) and not is_blocked_by_user(next_url):
                                     await queue.put((next_url, depth + 1))
                                 
-                await asyncio.sleep(1)
+                await asyncio.sleep(delay)
             except Exception as e:
-                print(f"Excepcion critica en {url}: {str(e)}")
+                log_error(url, f"Excepcion critica: {str(e)}")
 
 if __name__ == "__main__":
     asyncio.run(deep_crawl())
-    
+                        
