@@ -2061,5 +2061,6 @@
   "https://developer.webex.com/docs/api/v1/meeting-preferences/get-audio-options": "91cd84524a347b38c5287d37fd4b54ce303e65f09fa35bc0830e9c71cf5f1ac5",
   "https://developer.webex.com/docs/api/v1/meeting-preferences/update-audio-options": "e5782aeb202b9d4f7b9d7c6763cb68366d01a238e896ae363951b2fb2c11bae3",
   "https://developer.webex.com/docs/api/v1/meeting-preferences/get-video-options": "aa05a764d1624042215663bea547d0f04dccd3d569c6e8a23332dbd6f3ec8bd7",
-  "https://developer.webex.com/docs/api/v1/meeting-preferences/update-video-options": "a8e4af1dd0d481211440dd8b2da3a3978ae5f20ac28a6c752587a568a401432e"
+  "https://developer.webex.com/docs/api/v1/meeting-preferences/update-video-options": "a8e4af1dd0d481211440dd8b2da3a3978ae5f20ac28a6c752587a568a401432e",
+  "https://developer.webex.com/docs/api/v1/meeting-preferences/get-scheduling-options": "1f9d06f4b56a2cedfb55e6be49cf3fd7f312f388ec7b10391db04873085d0790"
 }
