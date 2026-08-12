@@ -26,7 +26,6 @@ jobs:
           mkdir -p logs
           rm -rf logs/*
           touch logs/.gitkeep
-          - name: Vaciar Carpeta Docs
 
       - name: Confirmar y Subir Cambios
         run: |
