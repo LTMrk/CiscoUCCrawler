@@ -85,3 +85,4 @@ Code context:
  783                       # first response that differs from the final one and surface its | URL: https://www.webex.com//content/dam/www/us/en/guides/adopt/Cobrandable-QSG-Templates_Getting-Started.pptx
 [2026-08-12T18:23:37.299834] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (14597 bytes, 0 chars visible) | URL: https://academy.webex.com/learn/learning-plans/156/designing-and-deploying-cisco-video-enabled-devices
 [2026-08-12T18:23:39.298350] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: HTTP 503 with HTML content (246 bytes) | URL: https://help.webex.com/cp79g9
+[2026-08-12T18:23:53.082453] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (14597 bytes, 0 chars visible) | URL: https://academy.webex.com/learn/learning-plans/145/webex-control-hub-admin-professional
