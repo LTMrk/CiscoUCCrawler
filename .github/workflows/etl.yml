@@ -20,7 +20,7 @@ jobs:
 
       - name: Instalar Dependencias
         run: |
-          pip install crawl4ai
+          pip install crawl4ai requests
           playwright install chromium
 
       - name: Configurar Git Bot
