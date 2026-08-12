@@ -56,3 +56,7 @@
 [2026-08-12T18:18:24.987080] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/my-apps/new
 [2026-08-12T18:18:43.667071] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/getting-started
 [2026-08-12T18:21:18.561760] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: http://webex.com/us/en/solutions/industries/nonprofits.html
+[2026-08-12T18:22:08.102858] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://help.webex.com
+[2026-08-12T18:22:10.132061] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (14597 bytes, 0 chars visible) | URL: https://academy.webex.com
+[2026-08-12T18:22:11.869804] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://help.webex.com/contact
+[2026-08-12T18:22:13.181034] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/customers.html
