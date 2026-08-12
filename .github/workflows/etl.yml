@@ -1,4 +1,4 @@
-name: Cisco AI Crawler Local Commit
+name: Cisco AI Crawler Commit
 on:
   workflow_dispatch:
 
@@ -8,7 +8,7 @@ permissions:
 jobs:
   process-documents:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 500
     steps:
       - name: Checkout Repositorio
         uses: actions/checkout@v4
@@ -23,16 +23,6 @@ jobs:
           pip install crawl4ai requests
           playwright install chromium
 
-      - name: Configurar Git Bot
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Ejecutar Crawler AI
+      - name: Ejecutar Crawler AI Incremental
         run: python3 src/crawler_ai.py
-
-      - name: Confirmar y Subir Cambios
-        run: |
-          git add docs/
-          git diff --staged --quiet || (git commit -m "docs: actualizacion automatica de markdown cisco" && git push)
-          
+        
