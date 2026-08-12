@@ -4348,3 +4348,180 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/AI Assistant for Developers
+Webex Messaging
+  * [Overview](https://developer.webex.com/messaging/docs/messaging)
+  * Guides
+  * [REST API Basics](https://developer.webex.com/messaging/docs/basics)
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * SDK
+  * [AI Assistant for Developers](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/messaging/docs/api/guides/troubleshooting)
+  * [Widgets](https://developer.webex.com/messaging/docs/widgets)
+  * [Tutorials](https://developer.webex.com/messaging/docs/tutorials)
+  * [Suite Sandbox](https://developer.webex.com/messaging/docs/developer-sandbox-guide)
+  * [Beta Program Overview](https://developer.webex.com/messaging/docs/webex-developer-beta-program)
+  * [Webex Status API](https://developer.webex.com/messaging/docs/webex-status-api)
+
+
+## Webex Messaging
+### AI Assistant for Developers
+The **Webex AI Assistant for Developers** is a chat interface powered by a large language model (LLM) available on the Webex developer portal for Webex Contact Center and Webex Suite. It assists developers by presenting relevant documentation and APIs, and can generate code snippets to aid in building integrations.
+The assistant is accessible to all signed-in developers and can handle complex tasks by providing follow-up questions based on user queries. It offers different layout options, and users can share feedback to help improve the assistant.
+Usage is limited to fifteen prompts per day (once you reach 10 you’ll have 5 additional grace period prompts), and all chat sessions are deleted after 30 days if not referred to again.
+####  anchorGetting started with the AI Assistant
+anchor
+To access the AI Assistant:
+  1. Visit <https://developer.webex.com>
+  2. Login with your Developer portal login id. If you don’t have one, you can sign up.
+  3. You should see the AI Assistant icon ![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltae7e9b85b45b1f9c/ai-assistant-usage-guide-1.png?width=24&height=24) next to your profile icon. Click it to get started: ![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt11fe78c5269ad07a/ai-assistant-usage-guide-2.png)
+  4. You can start by selecting one of the quick action buttons or typing a query. ![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt783a30a8ac6fc07a/ai-assistant-usage-guide-3.png)
+  5. Select **Start building with Webex for Developers** for a guided tour of the AI Assistant: ![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltc2a3daffcfdb5043/ai-assistant-usage-guide-4.png)
+  6. In this screen you can choose a particular Webex Product, and the assistant will suggest follow up questions, or else you can go ahead and type out your own query.
+  7. Based on your query, the Assistant may prompt for more clarification on intent or what specific Webex Product and developer tool set the ask is related to, please select the appropriate option.
+
+
+Such responses will relate to which Webex product (Meetings, Calling, Contact Center, etc.) you’re referring to, or whether you are looking for documentation or code. Sometimes, the assistant might want to clarify if you are looking for an API or SDKs.
+  1. If the question is a generic question more related to search, then the Assistant will provide you with a direct answer to the best of its abilities.
+  2. You can review the response generated in the left pane, and the Assistant will also create a new chat in the chat history, so you can revisit this chat session at any point in the future.
+  3. At any time, select **New Chat** in the left pane to create an additional parallel new chat session, if you’d like to explore an unrelated topic.
+
+
+All chat sessions are deleted after 30 days if you don’t refer to them again.
+  1. You can **Rename** or **Delete** existing chat sessions by clicking on the **Options** menu adjacent to the chat.
+  2. You can use the following shortcuts when interacting with the assistant.
+
+
+  * **Shift+Return** /**Enter** executes your prompt immediately.
+  * **Return** /**Enter** alone adds a new line to your prompt.
+
+
+####  anchorLayout Options
+anchor
+Select the top right layout drop down to choose between full screen, floating or docked view:
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt0fe3768640824db3/ai-assistant-usage-guide-7.png)![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltb3544efe4af4dee6/ai-assistant-usage-guide-8.png)
+  * **Docked** : In this layout, the AI Assistant is docked to the right side of the page, and you can navigate developer pages while using the assistant as well
+  * **Full Screen** : The Assistant takes up the entire screen.
+  * **Floating** : The Assistant is centered on the screen with the portal visible in the background
+
+
+####  anchorGenerating and Modifying Code with AI Assistant
+anchor
+To generate and modify code using the AI Assistant:
+  1. Once code is generated, tweak the code by asking follow-up questions, using the edit bar options, **Refine** , **Regenerate** , or **Customize**.
+  2. Select **Suggest** on top of the code to select from some pre-set refine options to make the code modular, add comments or simplify: ![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltb3544efe4af4dee6/ai-assistant-usage-guide-8.png) ![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt48b9949a226f6b21/ai-assistant-usage-guide-6.png)
+  3. You can also tweak specific parts of the code by selecting/highlighting the specific lines and selecting **Customize** to enter your query: ![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt48b9949a226f6b21/ai-assistant-usage-guide-6.png) Right clicking the highlighted section of the code, provides the following inline edit options:
+
+
+  * **Refine**
+  * **Customize**
+  * **Copy**
+  * In the **Ask the AI Assistant a question** text box, you can enter a custom query with changes you are looking for in that specific section of the code. When you send your query, the assistant will create a new version of the code with changes as mentioned by you.
+
+
+  1. All editing options, except for copy and export, will create a new version.
+
+
+A maximum of 5 versions can be created.
+####  anchorShare Your Generated Code
+anchor
+Once you’re happy with the generated code, you can copy it or export it for download:
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltddc12f52ec1d50f8/ai-assistant-usage-guide-10.png)
+Or share directly with a specific Webex space:
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt674b74d9e718afc4/ai-assistant-usage-guide-11.png)![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt48b9949a226f6b21/ai-assistant-usage-guide-6.png)
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt48b9949a226f6b21/ai-assistant-usage-guide-6.png)
+####  anchorShare Feedback with the AI Assistant Team
+anchor
+To share feedback on the AI Assistant, simply click **Thumbs Up** or **Thumbs Down** for any response you like or dislike, respectively. To share more context, please add details in the text box when you share Thumbs up/Thumbs down feedback:
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt34cc25bce9736759/ai-assistant-usage-guide-12.png)
+To better assist the Webex team to improve the Assistant, you can toggle **Share the entire chat as context for improvement**. However, if you do this, certain members from the Webex team will be able to see the **entire** contents of your chat. **Please exercise caution to avoid sharing any sensitive information**!
+####  anchorLimitations
+anchor
+Please keep in mind the following limitations of the AI Assistant:
+  1. Usage is limited to fifteen prompts/queries per day. You’ll receive a warning at ten and will be limited after you reach fifteen prompts for the day.
+  2. While we try our best to ensure the context of the Assistant’s responses is relevant, it is possible that the AI Assistant can make mistakes and provide erroneous information. Please validate the information with the documentation provided by Webex and validate the code generated before using it.
+
+
+##### In This Article
+  * [Getting started with the AI Assistant](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers#getting-started-with-the-ai-assistant)
+  * [Layout Options](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers#layout-options)
+  * [Generating and Modifying Code with AI Assistant](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers#generating-and-modifying-code-with-ai-assistant)
+  * [Share Your Generated Code](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers#share-your-generated-code)
+  * [Share Feedback with the AI Assistant Team](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers#share-feedback-with-the-ai-assistant-team)
+  * [Limitations](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers#limitations)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
