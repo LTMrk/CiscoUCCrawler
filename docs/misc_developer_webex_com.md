@@ -37705,3 +37705,203 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/meeting/docs/service-apps
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/meeting/docs/service-apps)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/meeting/docs/service-apps)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/meeting/docs/service-apps)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Using Webex Service Apps
+Webex Meetings
+  * [Overview](https://developer.webex.com/meeting/docs/meetings)
+  * Guides
+    * [Access the API](https://developer.webex.com/meeting/docs/getting-started)
+    * [Meeting Resource Guide](https://developer.webex.com/meeting/docs/api/guides/access-meeting-resources-guide)
+    * [Integrations & Authorization](https://developer.webex.com/meeting/docs/integrations)
+    * [Using Webex Service Apps](https://developer.webex.com/meeting/docs/service-apps)
+    * [Webinar Guide](https://developer.webex.com/meeting/docs/api/guides/webinar-guide)
+    * [Webhooks](https://developer.webex.com/meeting/docs/api/guides/webhooks)
+    * [Meetings MCP Server](https://developer.webex.com/meeting/docs/meetings-mcp-server)
+  * [Guest to Guest Meetings](https://developer.webex.com/meeting/docs/guest-to-guest-meetings)
+  * [API Behavior Changes](https://developer.webex.com/meeting/docs/app-programming-interface-behavior-changes)
+  * [REST API Basics](https://developer.webex.com/meeting/docs/basics)
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/meeting/docs/api/changelog/webex-meetings)
+  * SDK
+  * [AI Assistant for Developers](https://developer.webex.com/meeting/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/meeting/docs/api/guides/troubleshooting)
+  * [Widgets](https://developer.webex.com/meeting/docs/widgets)
+  * [Tutorials](https://developer.webex.com/meeting/docs/tutorials)
+  * [Suite Sandbox](https://developer.webex.com/meeting/docs/developer-sandbox-guide)
+  * [Beta Program Overview](https://developer.webex.com/meeting/docs/webex-developer-beta-program)
+  * [Webex Status API](https://developer.webex.com/meeting/docs/webex-status-api)
+  * [XML API Deprecation](https://developer.webex.com/meeting/docs/webex-xml-api-deprecation-announcement)
+
+
+## Webex Meetings
+### Using Webex Service Apps
+Decouple your most important business processes from individual user life cycles.
+Service apps enable you to request admin permission to use Webex REST APIs, reducing dependence on a single user's authorization and mitigating any associated risks to your app. Instead, the actor for the API calls is a powerful machine account provisioned in the customer's org, ensuring your business automation flows will continue to run smoothly.
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt8766b07df737c0c4/642701bd2e3e5f1225cc19f2/service-apps-guide-1.png)
+Service Apps are often used for mission-critical business processes including:
+  * End to end provisioning of users
+  * Reporting dashboards for critical quality analysis
+  * Meeting scheduling systems
+  * Onboard new Webex calling users
+  * As part of BYODS [Bring your own Datasource](https://developer.webex.com/docs/bring-your-own-datasource)
+  * … and much more.
+
+
+Common to such apps is that they must run continually and be independent of any single user account. In contrast, for standard Integrations, if the authorizing user leaves the company or changes passwords, the Integration may break. In addition, unlike standard Integrations, Service Apps usually request data for many users and the whole org rather than on behalf of a single user.
+Service Apps do share many similarities with Integrations. The industry standard [OAuth 2.0 protocol](https://www.rfc-editor.org/rfc/rfc6749) underpins both. OAuth client creation, scope selection, and authorization are happening just as they do for Integrations; however, those flows are mostly abstracted in a GUI experience for both the developer and the admins.
+Two distinct personas are involved in putting a Service App into service: the developer and the full admin. Both of those workflows are described below.
+####  anchorService App Creation: Developer Flow
+anchor
+As a developer, to create your Service App you need to do the following:
+  1. Register your Service App with Webex.
+  2. Optionally, register a webhook for your Service App authorization.
+  3. Request admins’ authorization (must be a Full Admin).
+  4. Retrieve the access and the refresh token.
+  5. Use the access token to make your API calls.
+
+
+###### Register your Service App
+As a developer, you primarily work in the [Webex Developer Portal](https://developer.webex.com/meeting/docs/service-apps). Registering your Service App with Webex is easy:
+  1. Login to the Developer Portal and select **My Webex Apps** from the menu under your avatar.
+  2. At the top of the page, click **Create a New App** and then **Create a Service App** to start the wizard.
+
+
+You'll need to provide basic information, like your service app’s name, description, and logo. This information should be user-facing since admins will see it on the Control Hub’s management page. You also need to select the scopes for your Service App. For more information on scopes, please [see the Integrations app page](https://developer.webex.com/docs/integrations).
+Analytics and XSI scopes do not currently work with Service Apps, nor can they manage organization contacts. Meeting scopes have limited functionality, mostly in support of adminOnBehalf functions where a `hostEmail` must be provided. Also, note there is a limit on the number of scopes that can be selected. This is a string limit, and the scope list is limited to around 880 characters. We ask you to carefully select these scopes. Service Apps are very powerful, and admins will be reluctant to approve too much power to these Service Apps.
+If the Service App requests Compliance Officer scopes as indicated by the `spark-compliance:*` prefix, the Service App must be authorized in Control Hub by a Full Admin who also has the Compliance Officer role. If you see an error "Your changes were not updated. The request was unauthorized." you most likely are not a Compliance Officer, but the app needs compliance scopes to work. For questions on this restriction, please email devsupport@webex.com. 
+When a Service App works with the [Join a Meeting](https://developer.webex.com/docs/api/v1/meetings/join-a-meeting) API, the `hostEmail` must be provided. Otherwise, the API cannot work.
+After successful registration, you will be taken to a different page containing your integration's newly created _Client ID_ and _Client Secret_. The same client secret will be shown once only, so copy it and keep it safe! So far, all you have done is create an OAuth client. That’s why this process likely feels very familiar. It is the same for the Integrations app type.
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltb103caf0e1fb31fb/642701bde4a307119b1d0d7e/service-apps-guide-2.png)
+Things start deviating from Integrations in the top two sections on the Service App details page: **Admin Authorization** and **Webex App Hub** submissions. To understand those sections, we must first dive into the application visibility for Service Apps, which differs slightly from Integrations. When you create your Service App, initially its visibility is private. That means only **you** can authorize it if you also happen to be a full admin. If you are a regular user and need an admin’s help, you must follow a different process.
+###### Register a webhook for your Service App
+This is an optional step that avoids the need to regularly and manually check your Service App authorizations in the developer portal. Instead, you can register a webhook that will fire whenever one of your Service Apps is authorized or deauthorized. You have to register your webhook with the resource `serviceApp` and events of either `authorized` or `deauthorized.` Then, when an admin authorizes your Service App, you will receive a webhook. The webhook includes the authorizing’s org `orgId`, which you can use later to retrieve the access and refresh token pair.
+###### Request Authorization of a Service App Within the Developer's Org
+To request authorization in your own org, click **Request Admin Authorization**. This action makes your Service App visible in your org’s administrative tool (Control Hub), where a Full Admin can then authorize it. If you are working in a free org (usually an unpaid account), you should [request a sandbox](https://developer.webex.com/docs/developer-sandbox-guide), where you can create an admin to do the authorization.
+###### Request Authorization of a Service App in a Non-affiliated Org
+To request authorization in an org that is _not_ your own org, you need to **Submit to Webex AppHub**. When you do that, a manual review of your Service App with the App Hub team is initiated. You must fill in additional information including how the App Hub team can test your app, which vertical you serve, descriptions and tags shown on App Hub, landing and support pages, videos, and more. You can find more information in this [supporting blog](https://developer.webex.com/blog/hints-and-tips-for-submitting-an-app-to-the-webex-app-hub).
+###### Retrieve the Access and Refresh Token Pair
+After your Service App is authorized, you can retrieve the access and refresh token. You use them as you do for Integrations and the same token expiration policies apply; typically 14 days for the access token and 90 days for the refresh token. To get the token pair, go to the **Org Authorizations** section on your Service Apps details page. There is a drop-down list for all the orgs that authorized your Service App. You can also search by Org Id if you know the org ID and have many authorizations.
+Searching by name is not currently supported. To perform an `OrgID` search, you must first base64 encode the `OrgID` like this: ciscospark://us/ORGANIZATION/`OrgID`. The result will be a searchable `OrgID` format which starts with `Y2` that the search box will recognize. Base64 encoded example (remove all trailing equal signs before searching): `Y2lzY29zcGFyazovL...C0xMjM0NTY3ODkwMQ==`
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt6483f815b82b92f5/642701bdee7d7b1130d0cdd1/service-apps-guide-3.png)
+Once you have identified and selected the new org’s authorization, you can copy your client secret into the provided field and retrieve and copy the access and refresh tokens for the org. If you didn’t store the client's secret previously, you can regenerate it.
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt891d59b3f00f3d41/642701bdba298210fbb60741/service-apps-guide-4.png)
+If you see an error like the following, your secret wasn’t copied correctly to the clipboard. Manually select it from the field and try again.
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blta87addc6e75c0dc7/642701bd2cf9c710750b42df/service-apps-guide-5.png)
+If, on the other hand, you selected too many scopes, you will see this error message. There is no strict limit on the number of scopes. Instead, a character limit for all scopes combined, around 800, is being enforced. We ask you to carefully select your scopes, as admins will be reluctant to approve apps with scopes they think are unnecessary.
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt405d2b6caeff454f/6441892abeb11b4c338c3623/Screenshot_2023-04-20_at_11.32.11.png)
+###### Token retrieval via API
+Alternatively, you can call the API to retrieve your token pair. You do this by making an HTTP POST to your applications token endpoint (/applications/{appId}/token) with your [Personal Access Token](https://developer.webex.com/docs/getting-started) or an integration with the scope `spark:applications_token` as Bearer while supplying the `clientId,` `clientSecret`, and `targetOrgId` as application/json request body. If you do not want to use the portal as is desired by some automation systems, you can call the API to retrieve your token pair. You do this by making a HTTP POST to the token endpoint with your [Personal Access Token](https://developer.webex.com/docs/getting-started) or the token from a separate regular `integration` with the scope `spark:applications_token` as Bearer while supplying the `clientId,` `clientSecret`, and `targetOrgId` as application/json request body.
+
+```
+POST -H “Authorization: Bearer {token}” -H “Content-type: application/json” https: //webexapis.com/v1/applications/
+Y2lzY29zcGFyazovL3VzL0FQUExJQ0FUSU9OL0M1OYzOWVkMGMxMzhlNTFmNDZjOTI3ZDExNzAyMDY4/token -d ‘{"clientId":"C595e0eaa94a8b907579644b4ab1c7c511a7639ed0c138e51f46c927d11702068","clientSecret":"d5c127a9e4bf6007b9cd5c127a9e4bf6007b9c","targetOrgId":"Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi9jZTg2MWZiYS02ZTJmLTQ5ZjktOWE4NC1iMzU0MDA4ZmFjOWU”}’
+
+```
+
+###### Use the Access and Refresh Tokens to Make API Calls on Behalf of the Machine Account
+How you use the access token to call the Webex APIs and the refresh token to keep the access token fresh is well documented on the [Integrations app page](https://developer.webex.com/docs/integrations#using-the-refresh-token).
+####  anchorService App Creation: Admin Flow
+anchor
+You have the following responsibilities as an admin who wants to use a Service App:
+  * Be a Full Admin (read-only, device admins, etc., are insufficient).
+  * Understand the purpose of the Service App, the developer's background, the scopes you are authorizing, and how your organization will use it.
+  * Authorize the Service App for use in your org.
+
+
+###### Full Admin Authorization of a Service App
+To authorize a service app:
+  1. Log in to your organization's Control Hub (<https://admin.webex.com>).
+  2. Find the Service App you want to authorize. Service Apps can be found under **Management** > **Apps** > **Service Apps**. If you cannot see the Service App in question, you need to ask the developer to have them submit for Admin Authorization or App Hub submission You can click the Service App and will see the service app’s description, developer info, and requested scopes.
+  3. When ready to authorize the Service App, click **Authorize** followed by **Save**. Your name is shown as the authorizing user in Control Hub. An entry in AdminAudit events is also created, documenting who authorized the Service App.
+  4. Optionally, you may also wish to inform the developer that you have authorized their Service App.
+
+
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt4b933c95aae36841/642701bd79ce221199ffaeb2/service-apps-guide-6.png)
+####  anchorDeauthorizing a Service App
+anchor
+Any full admin in Control Hub can deauthorize a Service App. This often happens because an app is no longer needed or because of security concerns.
+To deauthorize a Service App:
+  1. Go to **Management** > **Apps** > **Service Apps** and highlight the Service App. Uncheck the authorized checkbox and then click **Save**.
+  2. The machine account created during authorization is deleted, and the tokens are invalidated.
+
+
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltabb2c6cffe94faa7/642701bd068c4912c0fbb3ff/service-apps-guide-7.png)
+If you registered a deauthorization webhook for your Service Apps, you will be informed of the administrative action via this mechanism. 
+##### In This Article
+  * [Service App Creation: Developer Flow](https://developer.webex.com/meeting/docs/service-apps#service-app-creation-developer-flow)
+  * [Service App Creation: Admin Flow](https://developer.webex.com/meeting/docs/service-apps#service-app-creation-admin-flow)
+  * [Deauthorizing a Service App](https://developer.webex.com/meeting/docs/service-apps#deauthorizing-a-service-app)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
