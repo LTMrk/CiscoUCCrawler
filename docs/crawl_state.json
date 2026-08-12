@@ -2046,5 +2046,6 @@
   "https://developer.webex.com/docs/api/v1/recordings/get-group-recording-details": "8a0f804d8bb6b8789612d09c73edd850e33acde13a27b2b15790997d0f61a6d5",
   "https://developer.webex.com/docs/api/v1/recording-report/list-of-recording-audit-report-summaries": "a600d444b3e7a3b42b6e97d4bf4731e4512165ef627a50767d2d2d933a9a43a4",
   "https://developer.webex.com/docs/api/v1/recording-report/get-recording-audit-report-details": "0a0c0d55758f17e165e4e178af2be2577e7542d0c3cc50d1a2e69a6e25c2c72a",
-  "https://developer.webex.com/docs/api/v1/recording-report/list-meeting-archive-summaries": "de3d0186fb0739651813bdfefb71ffe69ae0cf46a4390bbbb8dab686b7132d4c"
+  "https://developer.webex.com/docs/api/v1/recording-report/list-meeting-archive-summaries": "de3d0186fb0739651813bdfefb71ffe69ae0cf46a4390bbbb8dab686b7132d4c",
+  "https://developer.webex.com/docs/api/v1/recording-report/get-meeting-archive-details": "1a7aef5daca23f660a388a2619c62c8fa2eef210d4aeb975015bd3835ac2da89"
 }
