@@ -4808,3 +4808,242 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/datasheet-c78-743352.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/datasheet-c78-743352.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/datasheet-c78-743352.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/datasheet-c78-743352.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/datasheet-c78-743352.html)
+  * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Contact Center](https://www.cisco.com/c/en/us/products/contact-center/index.html)
+  * [Cisco Unified Contact Center Enterprise](https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/index.html)
+  * [Data Sheets](https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/datasheet-listing.html)
+
+
+# Cisco Unified Contact Center Enterprise 12.5 Data Sheet
+Data Sheet
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/datasheet-c78-743352.html) to Save Content 
+Download
+Print
+### Available Languages
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/datasheet-c78-743352.pdf) (397.5 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:July 27, 2020
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+Contact Cisco
+  * Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * Call Sales: [ 1-800-553-6387 ](tel:18005536387)   
+US/CAN | 5am-5pm PT 
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/datasheet-c78-743352.html) to Save Content 
+Download
+Print
+### Available Languages
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/datasheet-c78-743352.pdf) (397.5 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:July 27, 2020
+#### Table of Contents
+![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
+![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
+#### Table of Contents
+  * [Solutions overview](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/datasheet-c78-743352.html#Solutionsoverview "Solutionsoverview")
+  * [Ordering information](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/datasheet-c78-743352.html#Orderinginformation "Orderinginformation")
+  * [Upgrades](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/datasheet-c78-743352.html#Upgrades "Upgrades")
+  * [Cisco services](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/datasheet-c78-743352.html#Ciscoservices "Ciscoservices")
+  * [Cisco Capital](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/datasheet-c78-743352.html#CiscoCapital "CiscoCapital")
+  * [For more information](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/datasheet-c78-743352.html#Formoreinformation "Formoreinformation")
+
+
+Solutions overview
+The Cisco® Contact Center Enterprise (CCE) product line helps businesses and organizations deliver a connected digital experience, enabling you to provide contextual, continuous, and capability-rich journeys for your customers, across time and channels. The Contact Center Enterprise product line consists of three distinct product offerings, which are collectively covered in this data sheet:
+●Cisco Packaged Contact Center Enterprise (Packaged CCE) provides an enterprise-class contact center in a prepackaged deployment model that’s easy to install, configure, and administer. Packaged CCE offers easier ordering with a price advantage; reduced presales and post-sales cycles; and simplified deployment, operation, and maintenance. Packaged CCE includes Cisco Unified Communications Manager, Unified Customer Voice Portal (CVP), and Unified CCE (including built-in chat and email, Cisco Unified Intelligence Center, and the Cisco Finesse® web-based agent desktop). Packaged CCE is now available for contact center deployments with up to 12,000 agents.
+●Cisco Unified Contact Center Enterprise (Unified CCE) is suited to offering omni-channel customer care for service providers, outsourcers, and large enterprise companies. Unified CCE offers maximum flexibility and customization. It uses contact information and its deep knowledge of agents and other resources to route each contact to the best source of help. Agents receive a rich set of call and customer data—including context from previous interactions—to provide highly personal, efficient customer service. Unified CCE comes with Cisco Unified Intelligence Center for comprehensive reporting and the Cisco Finesse® web-based agent desktop for an enhanced, next-generation experience. Web chat and email are included with every agent license. Distributed fault tolerance helps ensure uninterrupted operation.
+●Cisco Hosted Collaboration Solution for Contact Center (HCS-CC) is designed for companies with small to large contact centers ranging from 10 to 24,000 knowledge workers or agents per customer instance. It is integrated with Cisco Hosted Collaboration Solution so customers can tap into multiple applications and services on one platform. Cisco HCS-CC delivers the advanced capabilities of Unified CCE and Unified CVP with all the benefits of cloud computing.
+Table 1 lists the new features and benefits available in the latest release of the product line.
+**Table 1.** New features and benefits  
+|  Feature  |  Benefits  |  
+| --- | --- |  
+|  Cloud Connect platform  |  This infrastructure enables customers to add complementary cloud-based services to provide enhanced capabilities to on-premises systems through a common data format.  |  
+|  Business metrics via Analyzer [Trials]  |  This cloud-based service provides a dashboard for abandoned contacts for voice, including trend analysis and where a call was abandoned (self-service or queue).  |  
+|  Customer Virtual Assistant  |  Bring conversational self-service capabilities to enterprises by integrating cloud-based speech engines such as Google Dialogflow to CVP, VVB.  |  
+|  Extensible next-generation unified administration for PCCE with UX refresh  |  Render external web-sites and embed containerized gadgets for third-party integrations in the PCCE unified admin (for example, admin gadgets for S+ partner applications).  |  
+|  Multi-version upgrade support for PCCE   |  Large enterprises (4000-12,000 workers) that have adopted Packaged CCE are able to upgrade their solution in a phased manner, component by component, much like UCCE.  |  
+|  Smart Licensing  |  Cisco’s simplified, cloud-based license management system takes away the traditional administrative overhead of applying for licenses and moving them between systems, and brings greater transparency with respect to entitlements versus usage. From the current release onward, customers will need to purchase CCE through a Smart License. This applies to both perpetual and Flex licenses.  |  
+|  Finesse user experience enhancements  |  Give more power to the agents. Now you can drag and drop Finesse gadgets and resize and rearrange the same as per agent-specific layouts. Agents can update call variables inline from their desktops, thereby aligning the call context directly at the source.  Agents and supervisors can now quickly get to their tasks by using shortcut keys. Finesse failover improvement makes the system highly available much faster than before. Supervisors can quickly search and retrieve an agent in the Team Performance gadget. The improved Finesse layout configuration UX makes layout management by administrators easier and less error-prone. The contact limit for Phonebook has been increased to 6000 contacts.  |  
+|  Security enhancements  |  Continuous security hardening protects sensitive customer and contact center user information and keeps infrastructure up to date against ongoing vulnerabilities.  |  
+|  Scaled outbound capacities with high availability  |  Extend outreach capabilities for marketing, collections-based campaigns, as well as one-on-one relationship management conversations. 2 times increase in outbound calls per second (to 240 cps system-wide). 2.5 times increase in simultaneous active campaigns (to 1500). 2 times increase in total supported dialer ports (to 12,000 system-wide).  |  
+|  Shared line between endpoints  |  Allow an agent to share an extension with multiple devices, thereby enhancing agent mobility between home and office.  |  
+|  Scale SSO to 24,000 users  |  Enable single sign-on (SSO) at a global level for all active users, thereby bringing the benefits of a simplified login experience and enhanced security.  |  
+|  Surveys via Webex Experience Management  |  Integrate the voice of the customer to empower agents and supervisors and enable them to provide personalized customer experience during voice conversations.   |  
+|  Transcripts via Voicea [Trials]  |  Assist wrap-up to agents by providing a transcript of their voice conversation with the consumer.  |  
+Table 2 lists the continuing features and benefits of the product line.
+**Table 2.** Continuing features and benefits  
+|  Feature  |  Benefits  |  
+| --- | --- |  
+|  **Solution features**  |  
+|  Next-generation unified administration for PCCE  |  A unified admin console on a single pane of glass can manage the end-to-end solution, including the PCCE system and partner applications.  |  
+|  Enhanced Finesse user experience for agents and supervisors, including built-in productivity tools   |  The contemporary design and enhanced agent experience combine with the next generation of Cisco’s market-leading thin client agent desktop. Improved back-office and front-office productivity helps to drive quicker issue resolution.  |  
+|  Reporting experience refresh for supervisors and administrators  |  Improved administration and operational experience for administrators. More large schedules are supported to pull data; up to 25,000 rows can be included in scheduled reports.  |  
+|  Enterprise-grade scale and reliability  |  Greater scale allows up to 24,000 actively logged-in agents for UCCE. HCS-CC solutions allow customers to have large deployments in a single instance.  Greater scale allows up to 12,000 actively logged-in agents for PCCE. Now you can bring all the benefits of the Packaged CCE solution to a larger set of customers.  |  
+|  End-to-end security for data in transit  |  Secure communication of PII data via TLS 1.2 can enable customers to comply with regulatory requirements.  |  
+|  Reduced long-distance toll charges and network bandwidth  |  The CCE product line treats the entire IP network as an intelligent switch, meaning that calls can be handled at the edge of the network, thereby reducing bandwidth usage.  |  
+|  Centralized services  |  For the large enterprise, a centralized contact center operation enables the software and administration to be maintained centrally. This centralized operation helps branch offices avoid purchasing and maintaining the software, installing their own upgrades, and making staffing decisions independently of the rest of the company.  |  
+|  Differentiated service  |  By retaining context as customers are transferred among agents, even between different locations and to at-home agents, your company can differentiate itself through superior customer service. For example, you can retrieve the information a customer has already supplied to purchase one product or service when the customer initiates another purchase or interaction elsewhere.  |  
+|  Allow control of network resources  |  The enterprise can control certain network resources, such as assigning agents to skill groups and defining routing based on a number called or caller-entered digits such as account numbers. In addition, you can control all functions from a single operating interface, reducing training and support requirements.  |  
+|  **Agent capabilities**  |  
+|  Cisco Enterprise Chat and Email (ECE)  |  Each agent license includes Cisco ECE, which offers multichannel capabilities with chat, email, and web callback. It helps businesses manage customer email messages and chats by automatically routing the chat or email to the correct resource, based upon information in the request and agent availability. With web collaboration, customers can chat with agents live over the web, with agents able to handle multiple chat sessions simultaneously. The email feature helps businesses manage large volumes of customer email inquiries by sending automated replies and routing the email to the right resource. With the web callback feature, customers can request a callback from a contact center when the right agent is available. ECE also provides reporting and monitoring tools to more effectively manage your contact center.  |  
+|  Cisco Finesse desktop software and API  |  The Cisco Finesse desktop is a next-generation agent and supervisor desktop solution designed to provide easy access to the applications and information your customer service organization needs through a customizable web-based interface. It offers your customer care representatives an intuitive, easy-to-use desktop design to help improve their performance and satisfaction, in turn enhancing their ability to provide quality customer service. For IT professionals, the Cisco Finesse application offers a thin-client agent desktop that integrates smoothly with the Cisco Collaboration portfolio. It is standards-compliant, and offers low cost of customization of the agent and supervisor desktops. The Cisco Finesse API allows companies to develop custom Cisco Finesse desktop capabilities tailored to meet the specific needs of their contact center operations. The Cisco Finesse API provides this feature through REST APIs and JavaScript libraries that simplify the development and integration of value-added applications and reduce the need for detailed desktop development expertise.  |  
+|  Single sign-on  |  The solution simplifies login and password management for agents and supervisors by allowing just one login for the Cisco Finesse desktop and associated gadgets. All SAML 2.0 compatible IdPs single sign-on is supported for the maximum of 24,000 concurrent agents in UCCE and HCS-CC, and maximum of 12,000 concurrent agents in PCCE.  |  
+|  Cisco Outbound Option  |  The Cisco Outbound Option, with its combination of outbound dialing modes, complements the powerful inbound call-handling capability of the CCE product line. You can build campaigns to use predictive, progressive, or preview dialing, which is integrated with inbound calls and compliant with contact center service levels, to offer a powerful blended solution. You can allocate agents to handle only inbound, only outbound, or both inbound and outbound contacts, offering an effective way to increase resource use in a contact center. Call-Progress Analysis (CPA; also known as answering machine detection) is enabled for the outbound dialer when using Cisco Unified Border Element. Outbound reports include Performance Monitoring (PerfMon) counters and personal call-back improvements for better agent usage.  |  
+|  Agent greeting  |  You can play a configurable, automated agent greeting to callers, standardizing the caller experience. The greeting helps keep the agent voices fresh because they do not have to repeat the same greeting on every call.  |  
+|  Agent whisper  |  Customers can play a configurable announcement to an agent right before the caller is connected, providing information about the type of call being delivered (for example, sales or tech support) and other guidance. Agents get information about the caller through their headset, speeding problem handling and improving first-call resolution.  |  
+|  Remote-agent support  |  Remote-agent support extends the contact center by providing Computer Telephony Integration (CTI), contact distribution, and reporting capabilities to remote agents in branch offices or at home, through either a broadband network connection or their home telephone line. The CCE product line provides identical user interfaces and feature functions to agents, regardless of location.  Cisco Unified Mobile Agent allows agents to choose their destination phone number during login time, and to change the number as often as they want, giving the contact center the flexibility to adapt to a fast-moving mobile workforce. With work-at-home programs, agents can be given location flexibility while reducing the contact center’s startup costs. This capability also allows agents to be on any phone device on any third-party switch infrastructure.  |  
+|  Extension Mobility  
+(cross-cluster)  |  This Cisco Unified Communications Manager feature, supported by CCE, allows agents to temporarily access their Cisco unified IP phone configuration, such as line appearances, services, and speed dials, from other Cisco unified IP phones.  |  
+|  Mobile agent call-by-call mode  |  Remote agents consume system resources (such as gateway ports and recording channels) only when actively on a call.  |  
+|  Cisco Finesse IP Phone Agent  |  The CCE product line supports IP Phone Agent, allowing agents to use their Cisco IP phone to perform common agent tasks such as setting their state (for example, ready or not ready).  |  
+|  **Self-service capabilities**  |  
+|  Self-service options  |  Cisco Unified CCE can easily be integrated with Cisco Unified Customer Voice Portal (Unified CVP), the de-facto Cisco IVR product, at an additional cost. Unified CCE can also integrate with Cisco Unified IP Interactive Voice Response (Unified IP IVR) or a third-party IVR and self-service systems through its open IVR Service Control interface. Packaged CCE and HCS-CC come with Unified CVP built in.  |  
+|  Cisco Unified Customer Voice Portal  |  Cisco Unified CVP operates with both Time-Division Multiplexing (TDM) and IP-based contact centers to provide a call management and treatment solution with a self-service IVR option that can use information available to customers on the corporate web server. With support for automatic speech recognition (ASR) and text to speech (TTS), callers can obtain personalized answers to their questions and conduct business in innovative ways without the costs of interacting with a live agent.  For example, with Cisco Unified CVP, you can pay a bill, order products and track delivery, locate a dealer, schedule a pickup, change name and address information, make travel arrangements, check payment status, receive notification of unusual activity, and request literature or product information.  |  
+|  **Management capabilities**  |  
+|  Supervisory features  |  Supervisors can view agent states and call information, send text chat messages to agents, interrupt or intercept calls, record conversations, and silently monitor agent calls from the corporate network or through a remote dial-in connection. These features add value to the supervisor's role in the contact center and help them effectively manage their teams. With supervisor and agent chat capabilities, supervisors can send text messages to agents participating in a call, allowing supervisors to coach agents unobtrusively on cross-sell and up-sell opportunities and help agents resolve customer situations. Supervisors can interrupt an agent's call to create a three-way conference, and then interact with both the caller and the agent to help resolve a concern. A supervisor can remove the agent from a call using the Intercept feature, allowing the supervisor and caller to complete the call on their own while the agent handles another customer request. Supervisors can change an agent's state from their desktop. For example, agents may forget to make themselves available to take calls after a break or neglect to log out when away from their workstations for an extended period. Supervisors can easily log out missing agents or make unintentionally idle agents ready to take calls. This function is critical to highly distributed contact center deployments. Supervisors also can change an agent's skill profile in real time. This capability gives supervisors tactical tools to manage their agent teams and support contact center management objectives.  |  
+|  Administration  |  Streamlined administration allows managers to perform all contact center administration centrally. The administrative interface allows agents to be set up to handle voice, web, chat, and email contacts, depending on their assigned skill sets. The interface allows system managers, administrators, and supervisors to develop, modify, or view routing scripts; manage the system configuration; monitor contact center performance; define and request reports; and help ensure system security. This one user interface provides enterprise-wide control across a single or multisite contact center.  |  
+|  Multitenancy with departments  |  Customers with multiple lines of business (LOBs) or departments can easily share the same instance of Unified CCE or Packaged CCE using the Departments feature. This feature allows you to assign resources, including agents, skill groups, call types, and precision queues, by LOB or department. When resources are assigned to a LOB or department, only the supervisor or manager of that LOB or department can view and manage those resources. In Unified CCE, you can manage departments through the Cisco Unified Contact Center Management Portal (Unified CCMP). In Packaged CCE, the native web administration allows management of departments. Along with configuration, scripting access is also segmented when using Internet Script Editor. Finally, using the Cisco Unified Intelligence Center Collections feature, you can segment reporting to match departments.  |  
+|  **System capabilities**  |  
+|  Open systems  |  The CCE product line takes full advantage of industry-standard hardware platforms, giving you the benefits of many software functions at a modest hardware cost. The open architecture of the system, which includes an Open Database Connectivity (ODBC)-compliant database, as well as Java, COM, and .NET interfaces for CTI applications, can integrate with existing contact center solutions, preserving investments in traditional systems and providing a platform for future applications.  |  
+|  Operating systems  |  The CCE product line supports Windows Server 2016, SQL Server 2017 (SQL Server 2016 for ECE, CCMP/CCDM), and VMware ESXi 6.5 and 6.7 with VMFS 6 on vmv 13.  |  
+|  Distributed fault tolerance  |  From the network to the desktop, all components and external application links provide carrier-class, distributed fault tolerance at both the hardware and software levels, with real-time application failover capabilities. Self-diagnostics and self-healing features allow the system to automatically take advantage of redundant components when required; the system is resilient to hardware component failures, communications network failures, and asynchronous software errors.  |  
+|  Network management  |  CCE product line software provides a Simple Network Management Protocol (SNMP) interface for integration into centralized network management systems. It also provides integration into a broader unified communications management infrastructure, bundled with Cisco Unified Communications Manager. It provides new levels of availability and manageability during deployments and upgrades, as well as during normal contact center operations.  |  
+|  Security  |  The CCE product line supports the latest in security and data integrity features and solutions to reduce attack surfaces and system vulnerability. Secure Sockets Layer (SSL) is available on all web-based applications, and Transport Layer Security (TLS 1.2) and IP Security (IPsec) support is available for sockets-based communications to secure data in transit across trusted and untrusted networks.  |  
+|  IPv6 dual mode  |  The CCE product line supports IPv6 endpoints in dual-network mode, enabling easier migration from IPv4.  |  
+|  **Product functions**  |  
+|  Routing functions  |  Precision routing sends the contact to the best available resource, based on information about the caller and the attributes of the agent. By delivering the contact effectively, companies can reduce overall handle time, decrease the need for multiple transfers, and increase customer satisfaction with the experience. Precision routing is supported for all contact channels, including voice, video, web, chat, and email.  |  
+|  Cisco pre-routing and post-routing functions  |  The Cisco pre-routing function makes routing decisions for each call while it is still in the carrier's network, enabling the Cisco platform to effectively segment customers, balance calls across the enterprise, and deliver each contact to the best enterprise resource the first time. The Cisco post-routing function provides the intelligent distribution of contacts already connected to a peripheral in your network, whether it is an automatic call distributor (ACD), PBX, IVR, web, or email server. When a contact requires redirection, Cisco Unified CCE applies business logic, instructing the peripheral to send the contact to the best available enterprise resource.  |  
+|  Customer profile routing  |  The CCE product line extends the sources of data available for making contact routing decisions and for populating agent desktop applications. For instance, you can perform a lookup in your customer database during routing to guide its decisions. You can also use information from CRM applications to match customers with agents and expand the data available to screen-pop applications. Wherever an agent is based, the system delivers context-call event and customer-profile data as a contact arrives, allowing the agent or application to personalize service and help maximize efficiency.  |  
+|  Agent request API  |  The agent request API enables businesses to add voice callback as a feature to their custom-developed applications for the web and for mobile applications. Businesses can present callback as one of the ways or channels their customers can contact them, allowing customers to choose the channel of communication that works best for them.  |  
+|  Outbound campaign management API  |  This API allows for more precise control over contact center outbound calling campaigns.  |  
+|  Reporting  |  The CCE product line provides real-time and historical data necessary for mission-critical contact center reporting across all media types. The solution provides accurate and timely reports on contact center activity, helping managers make informed decisions regarding staffing levels and contact handling procedures. Reporting is provided by the Cisco Unified Intelligence Center, which offers numerous report templates intended to meet common reporting needs. With the availability of the underlying data model and schema, you can easily develop custom reports to extend the solution to meet specific reporting needs. Furthermore, the CCE product line allows for the export of reporting data to external data warehouse environments for extended storage and advanced analytics. The Live Data feature provides a new real-time architecture with significant real-time refresh-rate improvements with actionable, real-time contact center information. Reports available from Cisco Unified Intelligence Center and reporting gadgets available on the Cisco Finesse desktop take advantage of this next-generation architecture.  |  
+|  Task routing  |  This feature coordinates an agent's ability to work on multiple tasks from various channels while allowing the agent to be interrupted with high-priority tasks as required. For instance, an agent who is assisting a customer using text chat could handle another chat request at the same time, increasing the agent's productivity. Agents also can be sent a task of a different channel type from their active task. For example, an agent responding to a customer's email message can be sent a voice call or a back-office task, allowing the agent to handle the real-time voice call and then return to the email message. In this way, you can optimize your agents' activities, helping ensure the highest level of customer service with the resources available.  |  
+|  Task Routing API  |  This API enables new types of interactions—such as third-party applications, videos, texts, and events from the Internet of Things (IoT)—to be routed to the contact center. The Task Routing API also allows precision routing capabilities to be applied to non-voice interactions.  |  
+Specific capabilities of Packaged CCE are described in Table 3.
+**Table 3.** Packaged CCE capabilities  
+|  Capability  |  Description  |  
+| --- | --- |  
+|  Scalability  |  Cisco Packaged CCE supports configurations of up to 12,000 agents at 105 calls per second, with up to 50 queues per agent and 15,000 call types. Consult the solution design guide for additional configuration limits for scaling.  |  
+|  Packaged CCE support for multisite (global) deployment  |  Packaged CCE supports up to 12 peripheral-gateway Unified Communications Manager pairs, enabling a broader range of geographic and segmentation deployment options.  |  
+|  Packaged CCE support for the application gateway  |  Packaged CCE can use the application gateway to obtain data from outside applications, enhancing its ability to support unique business processes and requirements.  |  
+|  Reduced integration costs  |  Until now, businesses had to integrate numerous products from different vendors, an expensive task that postponed service introduction. Cisco Packaged CCE provides inbound and outbound voice and video, IVR, and web interaction. In addition, the solution supports best-in-class contact center applications such as CRM, workforce management, recording and monitoring, and wallboards. By consolidating all contact center functions into a single platform, Cisco Packaged CCE reduces capital expenditures and integration expenses while accelerating time to market for a complete contact center solution.  |  
+|  Cisco Unified Computing System™ (Cisco UCS®), spec-based hardware support  |  Cisco UCS C240 M5 Rack Servers are supported. Packaged CCE also supports third-party hardware with specification-based configuration.  |  
+|  System inventory and notification  |  Taking advantage of the fixed deployment model of Packaged CCE, the system automatically generates a visual representation of a Packaged CCE deployment. It is a dashboard of administrative information, including name, IP address, and a single-pane-of-glass window that includes end-to-end solution administration such as self-service with Cisco Unified CVP and VVB configurations, desktop with Finesse (reason codes, etc.), multichannel with ECE, etc. It also serves as a level-one dashboard, providing visual notifications of errors or warnings of configuration or runtime problems through periodic auto-scans, keeping track of system health and reducing total cost of ownership (TCO).  |  
+|  Management  |  Packaged CCE uses built-in web administration gadgets and capabilities to manage the solution. Specific capabilities include system inventory, server status and notifications, automated installation and configuration, built-in status rules, built-in departments, built-in roles, one-click log collection, simplified trace setting, web gadgets to add/remove/update configuration and to perform agent reskilling, and multi-edit capabilities. REST APIs for these and other operations are exposed so that customers and partners can tailor them to their specific needs.  |  
+Specific capabilities of Unified CCE are described in Table 4.
+**Table 4.** Unified CCE capabilities  
+|  Capability  |  Description  |  
+| --- | --- |  
+|  Scalability  |  Cisco Unified CCE scales from small, single-site deployments of tens of agents up to large enterprise and hosted, distributed deployments that support thousands. Because the Cisco Unified CCE architecture is software-based, the system scales easily without causing obsolescence of any components. Cisco Unified CCE is designed to accommodate changing contact center environments.  |  
+|  Contact Director  |  The Contact Director deployment model uses contact-sharing technology to enable customers who have up to three Cisco Unified CCE systems to distribute calls across those systems, thus increasing overall agent and call-handling capacity. Contact sharing uses live data to learn about current conditions at those sites and can base routing decisions on factors such as number of calls in queue, agent availability, average handle time, or custom calculations.  |  
+|  Management  |  The Cisco Unified Contact Center Management Portal (CCMP) provides a simple-to-use web-based user interface to streamline the day-to-day provisioning and configuration operations that contact center managers, team leads, or administrators perform, such as moves, adds, or modifications of phones, agents, skill groups, and teams, and other common contact center administrative functions. Agents with appropriate permission are also provided a unique interface on the Cisco Unified CCMP on which they can make changes to their profile and work assignment. The unified configuration of the management portal is designed to simplify administration of both the applicable IP-based contact center elements and the Cisco Unified Communications Manager components. The Cisco Unified CCMP is a partitioned system that can support multiple business units with complete autonomy, and it offers hierarchical administration to support users at multiple levels within the business and specific roles and responsibilities. Finally, to help administrators and managers keep track of contact center modifications, it provides audit-trail reports detailing all configuration changes and usage of the management portal.  |  
+Specific capabilities of Hosted Collaboration Solution – Contact Center (HCS-CC) are described in Table 5.
+**Table 5.** HCS-CC capabilities  
+|  Capability  |  Description  |  
+| --- | --- |  
+|  Scalability  |  The HCS-CC solution is integrated with Cisco HCS's service management and data center architecture. The current release offers a service provider-specific deployment model designed for companies with tens of agents to 24,000 agents (or knowledge workers).  |  
+|  Management  |  The Contact Center Domain Manager (CCDM) provides service management for HCS-CC. CCDM has capabilities comparable to those of Unified CCMP (described in Table 4).  |  
+Ordering information
+To place an order, visit the [Cisco Ordering homepage](https://www.cisco.com/web/ordering/root/index.html). Detailed ordering information is available in the [Cisco Customer Care Solutions Ordering Guide](https://www.cisco.com/c/dam/en/us/products/collateral/customer-collaboration/CCBUorderingguide.pdf) (requires a Cisco.com login). Businesses should consult a Cisco Authorized Technology Provider or their Cisco account manager.
+Upgrades
+Upgrades from prior releases require Cisco Software Support Service (SWSS).
+Cisco services
+Adapt to market changes while increasing productivity, improving competitive advantage, and delivering a rich-media experience across any workspace. The combined strengths of Cisco and our partners provide a portfolio of services that can help you prepare your infrastructure for future changes aligning to long-term business goals. Together we create innovative, network-centric architecture solutions resulting in a scalable and responsive foundation that can help you realize the full value of your IT and communication investment.
+For more information about Cisco Contact Center Services, visit <https://www.cisco.com/go/uccservices>.
+Cisco Capital
+Flexible payment solutions to help you achieve your objectives
+Cisco Capital® financing makes it easier to get the right technology to achieve your objectives, enable business transformation and help you stay competitive. We can help you reduce the total cost of ownership, conserve capital, and accelerate growth. In more than 100 countries, our flexible payment solutions can help you acquire hardware, software, services, and complementary third-party equipment in easy, predictable payments. [Learn more](https://www.cisco.com/go/financing).
+For more information
+For more information about Cisco contact center products, visit <https://www.cisco.com/go/cc>.
+### Our experts recommend
+  * [Cisco Customer Contact Software Policy for Using Microsoft Security and Software Updates on Products Deployed on a Retail Installation of Windows Operating System](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/product_bulletin_c25-455396.html "Cisco Customer Contact Software Policy for Using Microsoft Security and Software Updates on Products Deployed on a Retail Installation of Windows Operating System")
+
+
+### Learn more
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
