@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744787.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744787.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744787.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,25 +19,25 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744787.html)
+  * [](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651.html)
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Contact Center](https://www.cisco.com/c/en/us/products/contact-center/index.html)
   * [Cisco Unified Contact Center Enterprise](https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/index.html)
   * [End-of-Life and End-of-Sale Notices](https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/eos-eol-notice-listing.html)
 
 
-# End-of-Sale and End-of-Life Announcement for the Cisco Unified Contact Center Enterprise, Cisco Packaged Contact Center Enterprise, Cisco Unified Intelligent Contact Management Enterprise, and Cisco HCS for Contact Center 12.0
+# End-of-Sale and End-of-Life Announcement for the Cisco Unified Contact Center Enterprise, Cisco Packaged Contact Center Enterprise, and Cisco Unified Intelligent Contact Management Enterprise 11.5
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744787.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744787.pdf) (459.7 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651.pdf) (376.2 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:January 25, 2021
+Updated:June 1, 2020
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
@@ -51,133 +51,106 @@ US/CAN | 5am-5pm PT
 
 
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744787.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744787.pdf) (459.7 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651.pdf) (376.2 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:January 25, 2021
+Updated:June 1, 2020
 #### Table of Contents
 ![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
 ![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
 #### Table of Contents
-  * [Overview](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744787.html#Overview "Overview")
-  * [End-of-life milestones](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744787.html#Endoflifemilestones "Endoflifemilestones")
-  * [Product part numbers](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744787.html#Productpartnumbers "Productpartnumbers")
-  * [Product migration options](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744787.html#Productmigrationoptions "Productmigrationoptions")
-  * [For more information](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744787.html#Formoreinformation "Formoreinformation")
+  * [Overview](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651.html#Overview "Overview")
+  * [End-of-life milestones](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651.html#Endoflifemilestones "Endoflifemilestones")
+  * [Product part numbers](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651.html#Productpartnumbers "Productpartnumbers")
+  * [Product migration options](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651.html#Productmigrationoptions "Productmigrationoptions")
+  * [For more information](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651.html#Formoreinformation "Formoreinformation")
 
 
 Overview
-EOL13640
-Cisco announces the end-of-sale and end-of life dates for the Cisco Unified Contact Center Enterprise, Cisco Packaged Contact Center Enterprise, Cisco Unified Intelligent Contact Management Enterprise, and Cisco HCS for Contact Center 12.0. The last day to order the affected product(s) is April 23, 2021 . Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract.
-This end-of-life announcement includes the 12.0 components bundled in the products: CCEH-MEDIA120-K9, ICMEH-MEDIA120-K9, ICMEH-V120-K9-UPG=, HCS-CC-MEDIA-120, and HCS-CC-PUT-120=. 
-These components are: 
-●Cisco Finesse 12.0 
-●Cisco SocialMiner 12.0 
-●Cisco Enterprise Chat and Email (ECE) 12.0 
-●Cisco Unified Intelligence Center (CUIC) 12.0 
-●Cisco Unified Customer Voice Portal (CVP) 12.0 
-●Cisco Virtualized Voice Browser (VVB) 12.0 
-●Cisco Unified Contact Center Management Portal (CCMP) 12.0 
-●Cisco Unified Contact Center Domain Manager (CCDM) 12.0 
-●Cisco Computer Telephony Integration Object Server (CTIOS) 12.0 
-Customers using Cisco Unified Contact Center Enterprise, Cisco Packaged Contact Center Enterprise, or Cisco Unified Intelligent Contact Management Enterprise 12.0 are encouraged to migrate to subsequent versions of the product using Cisco Collaboration Flex Plan Contact Center (A-FLEX-CC). 
-The link to the ordering guide for the subscription is below. 
-Cisco Collaboration Flex Plan Contact Center Ordering Guide (A-FLEX-CC): <https://www.cisco.com/c/dam/en/us/products/collateral/customer-collaboration/guide-c07-741219.pdf>
+EOL12384 - Amended
+Cisco announces the end-of-sale and end-of-life dates for the Cisco Unified Contact Center Enterprise, Cisco Packaged Contact Center Enterprise, and Cisco Unified Intelligent Contact Management Enterprise 11.5. The last day to order the affected product(s) is October 19, 2018. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract.
+This end-of-life announcement covers the 11.5 components bundled in the products: CCEH-MEDIA115-K9 and ICMEH-MEDIA115-K9. These components are:
+●Cisco Finesse 11.5
+●Cisco Unified Intelligence Center (CUIC) 11.5
+●Cisco Unified Customer Voice Portal (CVP) 11.5
+●Cisco SocialMiner 11.5
+●Cisco Remote Silent Monitor (RSM) 11.5
+●Cisco Unified Contact Center Management Portal (CCMP) 11.5
+●Cisco Computer Telephony Integration Object Server (CTIOS) 11.5
 End-of-life milestones
-**Table 1.** End-of-Life Milestones and Dates for the Cisco Unified Contact Center Enterprise, Cisco Packaged Contact Center Enterprise, Cisco Unified Intelligent Contact Management Enterprise, and Cisco HCS for Contact Center 12.0  
-|  Milestone  |  Definition  |  Date  |  
+**Table 1.** End-of-Life Milestones and Dates for the Cisco Unified Contact Center Enterprise, Cisco Packaged Contact Center Enterprise, and Cisco Unified Intelligent Contact Management Enterprise 11.5  
+|  Milestone  |  Definition  |  Date   |  
 | --- | --- | --- |  
-|  End-of-Life Announcement Date   |  The date the document that announces the end of sale and end of life of a product is distributed to the general public.  |  January 23, 2021   |  
-|  End-of-Sale Date :  
-App SW   |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  April 23, 2021   |  
-|  Last Ship Date :  
-App SW   |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  May 15, 2021   |  
-|  End of SW Maintenance Releases Date :  
-App SW   |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  April 23, 2022   |  
-|  End of Service Contract Renewal Date :   
-App SW   |  The last date to extend or renew a service contract for the product.  |  July 20, 2023   |  
-|  Last Date of Support :  
-App SW   |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  April 30, 2024   |  
+|  **End-of-Life Announcement Date**  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  April 20, 2018   |  
+|  **End-of-Sale Date:  
+App SW **  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  October 19, 2018   |  
+|  **Last Ship Date:  
+App SW **  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  January 17, 2019   |  
+|  **End of SW Maintenance Releases Date:  
+App SW **  |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  October 19, 2019   |  
+|  **End of New Service Attachment Date:  
+App SW **  |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  October 19, 2019   |  
+|  **End of Service Contract Renewal Date:  
+App SW **  |  The last date to extend or renew a service contract for the product.  |  January 14, 2021   |  
+|  **Last Date of Support:  
+App SW **  |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  October 31, 2021   |  
 HW = Hardware OS SW = Operating System Software App. SW = Application Software 
 Product part numbers
-**Table 2.** Product Part Numbers Affected by This Announcement  
-|  End-of-Sale Product Part Number  |  Product Description  |  Replacement Product Part Number  |  Replacement Product Description  |  Additional Information  |  
+**Table 2.** Product Part Numbers Affected by This Announcement   
+|  End-of-Sale Product Part Number  |  Product Description  |  Replacement Product  
+Part Number  |  Replacement Product Description  |  Additional Information   |  
 | --- | --- | --- | --- | --- |  
-|  CCE-PAC-AGENT  |  CCE Packaged Agent v12.0 and prior releases  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CCE-PAC-CVP-LIC-12  |  CVP Server and Port License PAKs v12.0  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CCE-PAC-CVP-STU-12  |  Call Studio 12.0  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CCE-PAC-M1-V12.X  |  Packaged CCE Version 12.0  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CCE-V12.0  |  CCE Version Selector 12.0  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CCEH-MEDIA120-K9  |  Media Kit for Unified CC Enterprise 12.0  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CUIC-V-LAB-PAK  |  Licensing PAK For Lab System  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12-BNDL-NFR  |  CVP 12.x UC NFR Media and Server License  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12-CC-150=  |  CVP 12.x Call Director (includes Software) - 150 Ports  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12-CC-300=  |  CVP 12.x Call Director (includes Software) - 300 Ports  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12-CC-600=  |  CVP 12.x Call Director (includes Software) - 600 Ports  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12-CC-850=  |  CVP 12.x Call Director (includes Software) - 850 Ports  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12-EVAL=  |  CVP 12.x Evaluation License (90 Day Expiry)  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12-MEDIA=  |  CVP 12 Media Only  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12-NFR-PAK  |  CVP 12 NFR PAK License  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12-NFR=  |  CVP 12.x Not-For-Resale  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12-NPS-PAK  |  CVP 12 NPS PAK License  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12-NPS=  |  CVP 12.x Not-for-production system  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12-PRD-UP=  |  CVP 12.0 Upgrade  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12-RPT-PRE  |  CVP 12.x Report System - Premium  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12-RPT-PRE=  |  CVP 12.x Report System - Premium  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12-SERVER-SW  |  CVP 12.0 Server Software  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12.X  |  CVP Configuration 12.0  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12X-FEAT-U-PT  |  CVP 12.x Feature Upgrade Port License  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12X-FEAT-UPG  |  CVP 12.x CVP QT or IPIVR migration to CVP 12.x E Delivery  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12X-PTS  |  CVP 12.x Port License  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12X-PTS-TOTAL  |  CVP 12.0 Total No PT - Auto Gen value  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12X-RED-ADD  |  CVP 12.x Additional Redundant Ports  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-12X-REDPT  |  CVP 12.x Redundant Ports  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-STU-12-NFR  |  CVP 12.0 Studio Lic for NFR  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-STU-12-PRD-UP=  |  CVP Studio 12.x Upgrade  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-STU-12=  |  CVP 12.0 Studio  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-VVB-12-SW  |  VVB 12.X Server Software [Security Enabled]  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CVP-VVB-12-SW-XU  |  VVB 12.X Server Software [Security Disabled]  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  HCS-CC-MEDIA-120  |  HCS-CC Upgrade Contact Center 12.0 Upgrade Media Set  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  HCS-CC-PUT-120=  |  HCS-CC Upgrade Contact Center 12.0 Upgrade Media Set  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICME-CTITOOLKIT  |  CTI Toolkit for Regular ICM Agent  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICME-IVRPRT-T1-L  |  ICM ENTERPRISE THIRD PARTY IVR PORT - TIER 1  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICME-IVRPRT-T2-L  |  ICM ENTERPRISE THIRD PARTY IVR PORT - TIER 2  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICME-IVRPRT-T3-L  |  ICM ENTERPRISE THIRD PARTY IVR PORT - TIER 3  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICME-IVRPRT-T4-L  |  ICM ENTERPRISE THIRD PARTY IVR PORT - TIER 4  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICME-PG-02  |  ICM ENTERPRISE ASPECT CALL CENTER PG  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICME-PG-03  |  ICM ENTERPRISE ASPECT CONTACT SERVER PG  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICME-PG-04  |  ICM ENTERPRISE AVAYA CMS PG  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICME-PG-05  |  ICM ENTERPRISE AVAYA CMS-LESS PG  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICME-PG-11  |  ICM ENTERPRISE NORTEL SYMPOSIUM PG (INCLUDES AAS)  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICME-REGAGT-T1  |  Regular ICM Agent Licenses - Tier 1  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICME-REGAGT-T2  |  Regular ICM Agent Licenses - Tier 2  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICME-REGAGT-T3  |  Regular ICM Agent Licenses - Tier 3  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICME-REGAGT-T4  |  Regular ICM Agent Licenses - Tier 4  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICME-V12.0  |  ICM V12.0 Version Selector  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICMEH-MEDIA120-K9  |  Media Kit for Unified ICM Enterprise 12.0  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  ICMEH-V120-K9-UPG=  |  ICM SW Upgrade to 12.0 for SWSS Customers  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  IPCE-DIALPORT-L  |  IPCC ENTERPRISE OUTBOUND DIALER PORT v12 and earlier  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  IPCE-PREMAGT-L  |  IPCC ENTERPRISE PREMIUM AGENT v12.0 and earlier  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  IPCE-SVR  |  UCC Enterprise Server License for v12 or prior releases  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CCEH-CUIC-TRIAL  |  License for Cisco Unified Intelligence Center Trial(Temporar  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CCEH-V120-K9-UPG=  |  UCCE SW Upgrade to 12.0 for SWSS Customers  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CUIC-NPS  |  Non-production SKUS for Cisco Unified Intelligence Center  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CUIC-TRIAL-PAK  |  Intelligence Center Trial License PAK  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CUIC-V-TRIAL-PAK  |  Licensing PAK For CUIC Trial System - UCS or MCS  |  There is currently no replacement product available for this product.  |  -  |  -  |  
+|  COL-CC-ADVG  |  Advantage 3 year term - Contact Center- 1K Units  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  COL-CC-3Y-ADVG=  |  Advantage 3 year term - Video - 1K Units Spare  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  CCC-SSSSSS-TT-ADVG  |  Advantage 3 year term - WebEx - 1K Units  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  COL-CC-T-ADVG  |  Advantage Program - Contact Center- 1K Units  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC10-LIC-KEY  |  EA CC License Key - Version 10.x  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC115-LIC-KEY  |  EA CC License Key - Version 11.5  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC11-LIC-KEY  |  EA CC License Key - Version 11.x  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-LIC-KEY  |  EA CC License Key - Version 9.x  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-SUITE=  |  EA CC Suite - Pricing subject to config and eligib reqs  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-AGT  |  EA Contact Center Enterprise Agent  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-AGT=  |  EA Contact Center Enterprise Agent for PUT  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-FMG-AGT  |  EA Contact Center Enterprise Agents - Full Mig  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-NEW-AGT  |  EA Contact Center Enterprise Agents - New  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-PRMG-AGT  |  EA Contact Center Enterprise Agents - Product Mig  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-IBMIG-AGT  |  EA Contact Center Enterprise IB Mig Agent  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-IBMIG-PORT  |  EA Contact Center Enterprise IB Mig Port  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-MIG-AGT  |  EA Contact Center Enterprise Mig Agent  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-MIG-PORT  |  EA Contact Center Enterprise Mig Port  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-PORT  |  EA Contact Center Enterprise Port  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-PORT=  |  EA Contact Center Enterprise Port for PUT  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-NEW-PORT  |  EA Contact Center Enterprise Ports - New  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-FMG-PORT  |  EA Contact Center Enterprise Ports - Full Migration  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-PRMG-PORT  |  EA Contact Center Enterprise Ports - Product Mig  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-BUNDLE-K9  |  Enterprise Agreement Contact Center Ent Suite - Top Level  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  HCS-CC-MEDIA-11  |  HCS-CC Contact Center 11.0 Media Set  |  HCS-CC-MEDIA-116  |  HCS-CC Upgrade Contact Center 11.6 Upgrade Media Set  |  -  |  
+|  HCS-CC-PUT-106=  |  HCS-CC Upgrade Contact Center 10.6 Upgrade Media Set  |  HCS-CC-PUT-116=  |  HCS-CC Upgrade Contact Center 11.6 Upgrade Media Set  |  -  |  
+|  HCS-CC-PUT-110=  |  HCS-CC Upgrade Contact Center 11.0 Upgrade Media Set  |  HCS-CC-PUT-116=  |  HCS-CC Upgrade Contact Center 11.6 Upgrade Media Set  |  -  |  
+|  HCS-CC-MEDIA-115  |  HCS-CC Upgrade Contact Center 11.5 Upgrade Media Set  |  HCS-CC-MEDIA-116  |  HCS-CC Upgrade Contact Center 11.6 Upgrade Media Set  |  -  |  
+|  EA-CC-PORT-COUNT  |  IVR Port Metric for the Customer Collaboration Suite  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-PORT-COUNT2  |  IVR Port Metric for the Customer Collaboration Suite  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  CCEH-MEDIA115-K9  |  Media Kit for Unified CC Enterprise 11.5  |  CCEH-MEDIA116-K9  |  Media Kit for Unified CC Enterprise 11.6  |  -  |  
+|  ICMEH-MEDIA115-K9  |  Media Kit for Unified ICM Enterprise 11.5  |  ICMEH-MEDIA116-K9  |  Media Kit for Unified ICM Enterprise 11.6  |  -  |  
+|  EA-CC-BUNDLE-RTU  |  Paper based RTU with Agent & Port Counts  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC10-BUNDLE-RTU  |  Paper based RTU with Agent & Port Counts  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC11-BUNDLE-RTU  |  Paper based RTU with Agent & Port Counts  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-AGT-COUNT  |  Total Peak Concurrent Agent for Customer Collaboration Suite  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  EA-CC-AGT-COUNT2  |  Total Peak Concurrent Agent for Customer Collaboration Suite  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
 Product migration options
-Customers using Cisco Unified Contact Center Enterprise, Cisco Packaged Contact Center Enterprise, or Cisco Unified Intelligent Contact Management Enterprise 12.0 are encouraged to migrate to subsequent versions of the product using Cisco Collaboration Flex Plan Contact Center (A-FLEX-CC). 
-The link to the ordering guide for the subscription is below. Cisco Collaboration Flex Plan Contact Center Ordering Guide (A-FLEX-CC): <https://www.cisco.com/c/dam/en/us/products/collateral/customer-collaboration/guide-c07-741219.pdf>
-Service prices for Cisco products are subject to change after the product End of Sale date.
+Contact your ATP Partner or Cisco Account Team for assistance planning an Enterprise Agreement refresh.
+Service prices for Cisco products are subject to change after the product End-of-Sale date.
+The Cisco Takeback and Recycle program helps businesses properly dispose of surplus products that have reached their end of useful life. The program is open to all business users of Cisco equipment and its associated brands and subsidiaries. For more information, go to: <https://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html>.
 For more information
-For more information about the Cisco End-of-Life Policy, go to [http://www.cisco.com/en/US/products/products_end-of-life_policy.html](https://www.cisco.com/en/US/products/products_end-of-life_policy.html)
-For more information about the Cisco Product Warranties, go to: [http://www.cisco.com/en/US/products/prod_warranties_listing.html](https://www.cisco.com/en/US/products/prod_warranties_listing.html)
-To subscribe to receive end-of-life/end-of-sale information, go to: [http://www.cisco.com/cisco/support/notifications.html](https://www.cisco.com/cisco/support/notifications.html)
+For more information about the Cisco End-of-Life Policy, go to: <https://www.cisco.com/en/US/products/products_end-of-life_policy.html>.
+For more information about the Cisco Product Warranties, go to: <https://www.cisco.com/en/US/products/prod_warranties_listing.html>.
+To subscribe to receive end-of-life/end-of-sale information, go to: <https://www.cisco.com/cisco/support/notifications.html>.
 Any authorized translation issued by Cisco Systems or affiliates of this end-of-life Product Bulletin is intended to help customers understand the content described in the English version. This translation is the result of a commercially reasonable effort; however, if there are discrepancies between the English version and the translated document, please refer to the English version, which is considered authoritative.
 ### Learn more
 By continuing to use our website, you acknowledge the use of cookies. 
