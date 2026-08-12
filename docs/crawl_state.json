@@ -2055,5 +2055,6 @@
   "https://developer.webex.com/docs/api/v1/meeting-transcripts/update-a-transcript-snippet": "2c7da95a9e38953e1983671375aca49dbc2599b218f52a53cddbd3c72e08bfaf",
   "https://developer.webex.com/docs/api/v1/meeting-summaries/get-summary-by-meeting-id": "531a6aba43682fdb482e33253265c8797d45669d1a68832498f2901a4c053231",
   "https://developer.webex.com/docs/api/v1/meeting-summaries/delete-a-summary": "52183b78602c4dfd0c1cb60ee21d7ee71aa3ac8a7b1acbe45fcf40ea64ed8fd5",
-  "https://developer.webex.com/docs/api/v1/meeting-preferences/get-meeting-preference-details": "98e4c0e13f5633db601f23acbc03185253405ecc3ef2421a3c6c023914b4a7d3"
+  "https://developer.webex.com/docs/api/v1/meeting-preferences/get-meeting-preference-details": "98e4c0e13f5633db601f23acbc03185253405ecc3ef2421a3c6c023914b4a7d3",
+  "https://developer.webex.com/docs/api/v1/meeting-preferences/get-personal-meeting-room-options": "bebf52124f41d85daf08a09ad78b63f493e3fb616cca8397e868393d9cdba171"
 }
