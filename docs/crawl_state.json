@@ -2105,5 +2105,6 @@
   "https://developer.webex.com/create/docs/integration-provided-features-in-control-hub": "f636590a0a784d068f64833964ccd85cf40f6a1a6951155ae862802cea72e898",
   "https://developer.webex.com/docs/api/v1/people/create-a-person": "fe4d7a6fb6a794c9b211ae7444f166e7b9c7e82e30cbd9c8548f3f67539f85ce",
   "https://developer.webex.com/docs/api/v1/people/update-a-person": "c183ed6795f2ecd570f4272d60e138537fa20293db622350833141260d016fcb",
-  "https://developer.webex.com/docs/api/v1/licenses/get-license-details": "a500b0beb1d58889b56bf20d02bb001f1d6bb54b2cfd5e85d5bd9a9baebf4760"
+  "https://developer.webex.com/docs/api/v1/licenses/get-license-details": "a500b0beb1d58889b56bf20d02bb001f1d6bb54b2cfd5e85d5bd9a9baebf4760",
+  "https://developer.webex.com/docs/api/v1/roles/list-roles": "11c840f183d22e4f3e4e9c28d72c57d5a1778db103586a84e3c4774a160d923f"
 }
