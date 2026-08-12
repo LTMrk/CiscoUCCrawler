@@ -58,3 +58,5 @@
 [2026-08-12T22:47:58.667972] ERROR - Command '['git', 'push']' returned non-zero exit status 1. | URL: GIT_PUSH
 [2026-08-12T22:48:08.731931] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (14597 bytes, 0 chars visible) | URL: https://academy.webex.com
 [2026-08-12T22:48:14.511647] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/customers.html
+[2026-08-12T22:48:38.562857] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: no_content_elements, script_heavy_shell (1832 bytes, 99 chars visible) | URL: https://signin.webex.com/joinameeting
+[2026-08-12T22:48:39.974261] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: no_content_elements, script_heavy_shell (1833 bytes, 99 chars visible) | URL: https://signin.webex.com
