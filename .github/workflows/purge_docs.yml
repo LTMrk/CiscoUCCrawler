@@ -1,0 +1,31 @@
+name: Purge Docs Directory
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  purge-documents:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout Repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Git Bot
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Vaciar Carpeta Docs
+        run: |
+          mkdir -p docs
+          rm -rf docs/*
+          touch docs/.gitkeep
+
+      - name: Confirmar y Subir Cambios
+        run: |
+          git add docs/
+          git diff --staged --quiet || (git commit -m "chore: purga completa del directorio docs" && git push)
+          
