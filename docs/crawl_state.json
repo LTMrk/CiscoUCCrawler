@@ -2067,5 +2067,6 @@
   "https://developer.webex.com/docs/api/v1/meeting-preferences/get-site-list": "5efc66e5bd530efe8c3be84fba740d821a2d38d68716e7d82e576cf6197597d9",
   "https://developer.webex.com/docs/api/v1/meeting-preferences/update-default-site": "53f203297cfc0c89bc52fafa1461d8dc81f2e23223a5a4b317bd34d0cb04ac41",
   "https://developer.webex.com/docs/api/v1/meeting-preferences/batch-refresh-personal-meeting-room-id": "41cbc52d12be0da8b14c7305a4b0eb43d2edc37bd3a28a02c260bdbc11047679",
-  "https://developer.webex.com/docs/api/v1/meetings-summary-report/list-meeting-usage-reports": "155b1309da1977bd35e02ce58960a401b660e598ccef13f658efecc314742360"
+  "https://developer.webex.com/docs/api/v1/meetings-summary-report/list-meeting-usage-reports": "155b1309da1977bd35e02ce58960a401b660e598ccef13f658efecc314742360",
+  "https://developer.webex.com/docs/api/v1/meetings-summary-report/list-meeting-attendee-reports": "f27fdc885c67bf36dcec0ee8a7f19caca6dd95aaaede8b684a54f1fd372e61ee"
 }
