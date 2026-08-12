@@ -1973,5 +1973,6 @@
   "https://developer.webex.com/docs/api/v1/webhooks/update-a-webhook": "aef63e7fe0410fd14bcb50719dce1fc47e75eb2615a23d5037ca8df50c68b0b7",
   "https://developer.webex.com/docs/api/v1/webhooks/delete-a-webhook": "99759b49728a57620669029394b267bb0bf51696c5292c4bccbbd3278dcc0a30",
   "https://developer.webex.com/blog/using-webhooks---rooms-messages-memberships-and-more-": "2876de2076d4719c4e4e22238b3014d8fc754e8ffd03206f02e1ce5c6b5e6f98",
-  "https://developer.webex.com/docs/api/v1/organizations/get-organization-details": "41c4dd15f1acd74a9317d6dcc1100b545828cc6997db63bac9c95434f524a789"
+  "https://developer.webex.com/docs/api/v1/organizations/get-organization-details": "41c4dd15f1acd74a9317d6dcc1100b545828cc6997db63bac9c95434f524a789",
+  "https://developer.webex.com/docs/api/v1/messages": "b329c4ea435a6f822841e0a205b742ed5571b1e1e8d81b1245546d13928c674b"
 }
