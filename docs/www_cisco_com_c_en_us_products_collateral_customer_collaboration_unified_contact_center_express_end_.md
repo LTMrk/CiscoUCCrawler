@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-667706.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-667706.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-667706.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-627762.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-627762.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-627762.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,500 +19,227 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-667706.html)
+  * [](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-627762.html)
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Contact Center](https://www.cisco.com/c/en/us/products/contact-center/index.html)
   * [Cisco Unified Contact Center Express](https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-express/index.html)
   * [End-of-Life and End-of-Sale Notices](https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-express/eos-eol-notice-listing.html)
 
 
-# End-of-Sale and End-of-Life Announcement for the Cisco Unified Contact Center Express 8.0
+# End-of-Sale and End-of-Life Announcement for the Cisco Unified Contact Center Express 6.0
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-667706.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-627762.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-667706.pdf) (229.8 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-627762.pdf) (159.1 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:January 14, 2019
-Document ID:1549302617422390
+Updated:January 11, 2019
+Document ID:1549302030116762
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
-EOL7523 
-Cisco announces the end-of-sale and end-of-life dates for the Cisco Unified Contact Center Express 8.0. The last day to order the affected product(s) is November 22, 2011. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available until the termination date of the contract, even if this date exceeds the Last Date of Support shown in Table 1. 
-**Table 1.** End-of-Life Milestones and Dates for the Cisco Unified Contact Center Express 8.0   
+EOL7221 
+Cisco announces the end-of-sale and end-of life dates for the Cisco Unified Contact Center Express 6.0. The last day to order the affected product(s) is April 8, 2011. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available until the termination date of the contract, even if this date exceeds the Last Date of Support shown in Table 1. 
+**Table 1.** End-of-Life Milestones and Dates for the Cisco Unified Contact Center Express 6.0   
 |  Milestone   |  Definition   |  Date   |  
 | --- | --- | --- |  
-|  End-of-Life Announcement Date   |  The date the document that announces the end of sale and end of life of a product is distributed to the general public.   |  May 24, 2011   |  
-|  End-of-Sale Date   |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.   |  November 22, 2011   |  
-|  Last Ship Date:  
-App. SW   |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.   |  February 20, 2012   |  
-|  End of SW Maintenance Releases Date:  
-App. SW   |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.   |  November 21, 2012   |  
-|  End of New Service Attachment Date:  
-App. SW   |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.   |  November 21, 2012   |  
-|  End of Service Contract Renewal Date:  
-App. SW   |  The last date to extend or renew a service contract for the product.   |  February 17, 2014   |  
-|  Last Date of Support:  
-App. SW   |  The last date to receive service and support for the product. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  November 30, 2014   |  
-  
+|  End-of-Life Announcement Date   |  The date the document that announces the end of sale and end of life of a product is distributed to the general public.   |  October 8, 2010   |  
+|  End-of-Sale Date   |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.   |  April 8, 2011   |  
+|  Last Ship Date: App. SW   |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.   |  July 7, 2011   |  
+|  End of SW Maintenance Releases Date: App. SW   |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.   |  April 7, 2012   |  
+|  End of New Service Attachment Date: App. SW   |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.   |  April 7, 2012   |  
+|  End of Service Contract Renewal Date: App. SW   |  The last date to extend or renew a service contract for the product.   |  July 4, 2013   |  
+|  Last Date of Support: App. SW   |  The last date to receive service and support for the product. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  April 30, 2014   |  
 HW = Hardware OS SW = Operating System Software App. SW = Application Software 
 **Table 2.** Product Part Numbers Affected by This Announcement   
 |  End-of-Sale Product Part Number   |  Product Description   |  Replacement Product Part Number   |  Replacement Product Description   |  Additional Information   |  
 | --- | --- | --- | --- | --- |  
-|  CCX-35-MEDIAKIT   |  CCX 8.0 UPG 3.5 Media Kit for phyiscal a la carte upgs only   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-3X-40-UPAK   |  CCX 8.0 UPGRADE PAK - 3.X to 4.0, ENH-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-70E-E-UPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 7.0, ENH-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-70E-P-UPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 7.0, ENH-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-70EE-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 7.0, ENH-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-70EP-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 7.0, ENH-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-70P-P-UPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 7.0, PRE-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-70PP-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 7.0, PRE-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-70S-E-UPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 7.0, STD-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-70S-P-UPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 7.0, STD-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-70S-S-UPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 7.0, STD-STD   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-70SE-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 7.0, STD-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-70SP-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 7.0, STD-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-70SS-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 7.0, STD-STD Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-80-E-E-UPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 8.0, ENH-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-80-E-P-UPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 8.0, ENH-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-80-EHA   |  CCX 8.0 UPGRADE - 4.0 to 8.0 ENH HA-HA   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-80-EPHA   |  CCX 8.0 UPGRADE - 4.0 to 8.0 ENH-PRE HA-HA   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-80-P-P-UPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 8.0, PRE-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-80-PHA   |  CCX 8.0 UPGRADE - 4.0 to 8.0 PRE HA-HA   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-80-S-E-UPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 8.0, STD-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-80-S-P-UPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 8.0, STD-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-80-S-S-UPAK   |  CCX 8.0 UPGRADE PAK - 4.0 to 8.0, STD-STD   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-40-MEDIAKIT   |  CCX 8.0 UPG 4.0 Media Kit for phyiscal a la carte upgs only   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80-E-E-UPAK   |  CCX 8.0 UPGRADE PAK - 4.1 to 8.0, ENH-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80-E-P-UPAK   |  CCX 8.0 UPGRADE PAK - 4.1 to 8.0, ENH-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80-EHA   |  CCX 8.0 UPGRADE - 4.1 to 8.0 ENH HA-HA   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80-EPHA   |  CCX 8.0 UPGRADE - 4.1 to 8.0 ENH-PRE HA-HA   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80-P-P-UPAK   |  CCX 8.0 UPGRADE PAK - 4.1 to 8.0, PRE-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80-PHA   |  CCX 8.0 UPGRADE - 4.1 to 8.0 PRE HA-HA   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80-S-E-UPAK   |  CCX 8.0 UPGRADE PAK - 4.1 to 8.0, STD-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80-S-P-UPAK   |  CCX 8.0 UPGRADE PAK - 4.1 to 8.0, STD-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80-S-S-UPAK   |  CCX 8.0 UPGRADE PAK - 4.1 to 8.0, STD-STD   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80EE-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.1 to 8.0, ENH-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80EP-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.1 to 8.0, ENH-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80PP-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.1 to 8.0, PRE-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80SE-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.1 to 8.0, STD-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80SP-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.1 to 8.0, STD-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80SS-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.1 to 8.0, STD-STD Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80U-Q-Q-PAK   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 QM-QM Seat PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80U-Q-QS1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 QM-QM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80U-W-W-PAK   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 WFM-WFM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80U-W-WS1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 WFM-WFM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80UQAQM-PAK   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 QM-AQM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-41-80UQAQMS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 QM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-70-E-E-UPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 7.0, ENH-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-70-E-P-UPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 7.0, ENH-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-70-P-P-UPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 7.0, PRE-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-70-S-E-UPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 7.0, STD-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-70-S-P-UPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 7.0, STD-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-70-S-S-UPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 7.0, STD-STD   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-70EE-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 7.0, ENH-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-70EP-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 7.0, ENH-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-70PP-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 7.0, PRE-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-70SE-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 7.0, STD-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-70SP-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 7.0, STD-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-70SS-SUPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 7.0, STD-STD Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-80-E-P-UPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 8.0, ENH-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-80-P-P-UPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 8.0, PRE-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-80-S-E-UPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 8.0, STD-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-80-S-P-UPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 8.0, STD-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-45-80-S-S-UPAK   |  CCX 8.0 UPGRADE PAK - 4.5 to 8.0, STD-STD   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80-E-E-UPAK   |  CCX 8.0 UPGRADE PAK - 5.0 to 8.0, ENH-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80-E-P-UPAK   |  CCX 8.0 UPGRADE PAK - 5.0 to 8.0, ENH-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80-EHA   |  CCX 8.0 UPGRADE - 5.0 to 8.0 ENH HA-HA   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80-EPHA   |  CCX 8.0 UPGRADE - 5.0 to 8.0 ENH-PRE HA-HA   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80-P-P-UPAK   |  CCX 8.0 UPGRADE PAK - 5.0 to 8.0, PRE-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80-PHA   |  CCX 8.0 UPGRADE - 5.0 to 8.0 PRE HA-HA   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80-S-E-UPAK   |  CCX 8.0 UPGRADE PAK - 5.0 to 8.0, STD-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80-S-P-UPAK   |  CCX 8.0 UPGRADE PAK - 5.0 to 8.0, STD-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80-S-S-UPAK   |  CCX 8.0 UPGRADE PAK - 5.0 to 8.0, STD-STD   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80EE-SUPAK   |  CCX 8.0 UPGRADE PAK - 5.0 to 8.0, ENH-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80EP-SUPAK   |  CCX 8.0 UPGRADE PAK - 5.0 to 8.0, ENH-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80PP-SUPAK   |  CCX 8.0 UPGRADE PAK - 5.0 to 8.0, PRE-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80SE-SUPAK   |  CCX 8.0 UPGRADE PAK - 5.0 to 8.0, STD-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80SP-SUPAK   |  CCX 8.0 UPGRADE PAK - 5.0 to 8.0, STD-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80SS-SUPAK   |  CCX 8.0 UPGRADE PAK - 5.0 to 8.0, STD-STD Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80U-A-A-PAK   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 AQM-AQM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80U-A-AS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 AQM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80U-Q-Q-PAK   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 QM-QM Seat PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80U-Q-QS1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 QM-QM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80U-W-W-PAK   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 WFM-WFM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80U-W-WS1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 WFM-WFM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80UQAQM-PAK   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 QM-AQM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-50-80UQAQMS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 QM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80-E-E-UPAK   |  CCX 8.0 UPGRADE PAK - 6.0 to 8.0, ENH-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80-E-P-UPAK   |  CCX 8.0 UPGRADE PAK - 6.0 to 8.0, ENH-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80-EHA   |  CCX 8.0 UPGRADE - 6.0 to 8.0 ENH HA-HA   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80-EPHA   |  CCX 8.0 UPGRADE - 6.0 to 8.0 ENH-PRE HA-HA   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80-P-P-UPAK   |  CCX 8.0 UPGRADE PAK - 6.0 to 8.0, PRE-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80-PHA   |  CCX 8.0 UPGRADE - 6.0 to 8.0 PRE HA-HA   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80-S-E-UPAK   |  CCX 8.0 UPGRADE PAK - 6.0 to 8.0, STD-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80-S-P-UPAK   |  CCX 8.0 UPGRADE PAK - 6.0 to 8.0, STD-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80-S-S-UPAK   |  CCX 8.0 UPGRADE PAK - 6.0 to 8.0, STD-STD   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80EE-SUPAK   |  CCX 8.0 UPGRADE PAK - 6.0 to 8.0, ENH-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80EP-SUPAK   |  CCX 8.0 UPGRADE PAK - 6.0 to 8.0, ENH-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80PP-SUPAK   |  CCX 8.0 UPGRADE PAK - 6.0 to 8.0, PRE-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80SE-SUPAK   |  CCX 8.0 UPGRADE PAK - 6.0 to 8.0, STD-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80SP-SUPAK   |  CCX 8.0 UPGRADE PAK - 6.0 to 8.0, STD-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80SS-SUPAK   |  CCX 8.0 UPGRADE PAK - 6.0 to 8.0, STD-STD Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80U-A-A-PAK   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 AQM-AQM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80U-A-AS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 AQM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80U-Q-Q-PAK   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 QM-QM Seat PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80U-Q-QS1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 QM-QM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80U-W-W-PAK   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 WFM-WFM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80U-W-WS1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 WFM-WFM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80UQAQM-PAK   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 QM-AQM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-60-80UQAQMS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 QM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80-E-E-UPAK   |  CCX 8.0 UPGRADE PAK - 7.0 to 8.0, ENH-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80-E-P-UPAK   |  CCX 8.0 UPGRADE PAK - 7.0 to 8.0, ENH-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80-EHA   |  CCX 8.0 UPGRADE - 7.0 to 8.0 ENH HA-HA   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80-EPHA   |  CCX 8.0 UPGRADE - 7.0 to 8.0 ENH-PRE HA-HA   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80-P-P-UPAK   |  CCX 8.0 UPGRADE PAK - 7.0 to 8.0, PRE-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80-PHA   |  CCX 8.0 UPGRADE - 7.0 to 8.0 PRE HA-HA   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80-S-E-UPAK   |  CCX 8.0 UPGRADE PAK - 7.0 to 8.0, STD-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80-S-P-UPAK   |  CCX 8.0 UPGRADE PAK - 7.0 to 8.0, STD-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80-S-S-UPAK   |  CCX 8.0 UPGRADE PAK - 7.0 to 8.0, STD-STD   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80EE-SUPAK   |  CCX 8.0 UPGRADE PAK - 7.0 to 8.0, ENH-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80EP-SUPAK   |  CCX 8.0 UPGRADE PAK - 7.0 to 8.0, ENH-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80PP-SUPAK   |  CCX 8.0 UPGRADE PAK - 7.0 to 8.0, PRE-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80SE-SUPAK   |  CCX 8.0 UPGRADE PAK - 7.0 to 8.0, STD-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80SP-SUPAK   |  CCX 8.0 UPGRADE PAK - 7.0 to 8.0, STD-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80SS-SUPAK   |  CCX 8.0 UPGRADE PAK - 7.0 to 8.0, STD-STD Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80U-A-A-PAK   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 AQM-AQM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80U-A-AS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 AQM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80U-C-CS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 CR-CR Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80U-CQM-PAK   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 CR-QM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80U-CQMS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 CR-QM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80U-Q-Q-PAK   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 QM-QM Seat PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80U-Q-QS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 QM-QM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80U-W-W-PAK   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 WFM-WFM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80U-W-WS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 WFM-WFM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80UCAQM-PAK   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 CR-AQM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80UCAQMS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 CR-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80UQAQM-PAK   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 QM-AQM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-80UQAQMS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 QM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-70-MEDIAKIT   |  CCX 8.0 UPG 7.0 Media Kit for phyiscal a la carte upgs only   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-80U-CQM-PAK   |  CCX 8.0 UPGRADE - 80 to 8.0 Qty 1 CR-QM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-80U-CQMS1   |  CCX 8.0 UPGRADE - 80 to 8.0 Qty 1 CR-QM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-80UCAQM-PAK   |  CCX 8.0 UPGRADE - 80 to 8.0 Qty 1 CR-AQM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-80UCAQMS1   |  CCX 8.0 UPGRADE - 80 to 8.0 Qty 1 CR-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-80UQAQM-PAK   |  CCX 8.0 UPGRADE - 8.0 to 8.0 Qty 1 QM-AQM PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-80UQAQMS1   |  CCX 8.0 UPGRADE - 8.0 to 8.0 Qty 1 QM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-A-AQM-LIC   |  CCX 8.0 ADDON Adv Quality Manager Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-A-CR-LIC   |  CCX 8.0 ADDON Compliance Recording Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-A-CRS-LIC   |  CCX 8.0 ADDON Compliance Recording Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-A-E-LIC   |  CCX 8.0 ADDON ENHANCED Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-A-EHA-LIC   |  CCX 8.0 ADDON ENHANCED HA (Dual Server Cluster)Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-A-P-LIC   |  CCX 8.0 ADDON PREMIUM Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-A-PHA-LIC   |  CCX 8.0 ADDON PREMIUM HA (Dual Server Cluster) Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-A-QM-LIC   |  CCX 8.0 ADDON Quality Manager Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-A-QMS-LIC   |  CCX 8.0 ADDON Quality Manager Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-A-S-LIC   |  CCX 8.0 ADDON STANDARD Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-A-WFM-LIC   |  CCX 8.0 ADDON Workforce Manager Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-AAQMS-LIC   |  CCX 8.0 ADDON Advanced Quality Manager Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-ADDON   |  CCX 8.0 ADDON Deployment-Product,UCSSpDelvery LICENSES ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-ADDON-LIC   |  CCX 8.0 ADDON - Physical Delivery LICENSES ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-AWFMS-LIC   |  CCX 8.0 ADDON Workforce Manager Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-BDL-ADDON   |  CCX 8.0 - CM,CME Bundle Licenses;ADD ON pDelveryLICENSESONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-BDL-UPG   |  CCX 8.0 -CM,CMEBundleLicenses;UPG,ADDONpDelvery;LICENSESONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-CM-BUNDLE   |  CCX 8.0 5 Seat CCX ENH CCM Bundle - AVAILABLE ONLY WITH CM   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-CMBLDLIC=   |  CCX 8.0 CCX CM Bundle, Appliance Entitlement pDelivery   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-CME-BUNDLE   |  CCX 8.0 2 Seat CCX ENH CCM Bundle - AVAILABLE ONLY WITH CME   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-CMEBLDLIC=   |  CCX 8.0 CCX CME Bundle, Appliance Entitlement pDelivery   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-CRMEDIAKIT   |  CCX 8.0 UPG CR Media Kit for phyiscal a la carte upgs only   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-CRMEDIAKIT=   |  CCX 8.0 Compliance Recording Qty 1 Media Kit - NO LICENSES   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-EP-BDL-U=   |  CCX 8.0 Upgrade 5 Seat ENH Bundle to Premium LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-HA-E-E-PAK   |  CCX 8.0 UPGRADE - HA ENH-HA ENH PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-HA-E-E-U   |  CCX 8.0 UPGRADE - HA ENH-HA ENH LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-HA-E-P-PAK   |  CCX 8.0 UPGRADE - HA ENH-HA PRE LICENSE PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-HA-E-P-U   |  CCX 8.0 UPGRADE - HA ENH-HA PRE LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-HA-P-P-PAK   |  CCX 8.0 UPGRADE - HA PRE-HA PRE LICENSE PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-HA-P-P-U   |  CCX 8.0 UPGRADE - HA PRE-HA PRE LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-MEDIA-KIT=   |  CCX 8.0 Qty 1 CCX Media Kit - NO LICENSES   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-MEDIAKIT   |  CCX 8.0 UPG 8.0 Media Kit for phyiscal a la carte upgs only   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-N-AQM-LIC   |  CCX 8.0 NEW Adv Quality Manager Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-N-CR-LIC   |  CCX 8.0 NEW Compliance Recording Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-N-CRS-LIC   |  CCX 8.0 NEW Compliance Recording Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-N-E-LIC   |  CCX 8.0 NEW ENHANCED Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-N-EHA-LIC   |  CCX 8.0 NEW ENHANCED HA (Dual Server Cluster) Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-N-ESS-LIC   |  CCX 8.0 NEW ENHANCED Non HA (Single Server) Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-N-P-LIC   |  CCX 8.0 NEW PREMIUM Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-N-PHA-LIC   |  CCX 8.0 NEW PREMIUM HA (Dual Server Cluster) Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-N-PSS-LIC   |  CCX 8.0 NEW PREMIUM Non HA (Single Server) Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-N-QM-LIC   |  CCX 8.0 NEW Quality Manager Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-N-QMS-LIC   |  CCX 8.0 NEW Quality Manager Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-N-S-LIC   |  CCX 8.0 NEW STANDARD Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-N-SSS-LIC   |  CCX 8.0 NEW STANDARD Non HA (Single Server) Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-N-WFM-LIC   |  CCX 8.0 NEW Workforce Manager Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-NAQMS-LIC   |  CCX 8.0 NEW Advanced Quality Manager Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-NEW   |  CCX 8.0 NEW Deployment-Product,UCSS pDelvery LICENSES ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-NEW-LIC   |  CCX 8.0 NEW - Physical Delivery LICENSES ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-NFR=   |  CCX 8.0 NFR Kit: PRE HA 6 seats Pre IB/OB/email, CR, AQM,WFM   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-NWFMS-LIC   |  CCX 8.0 NEW Workforce Manager Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-P-PAK   |  CCX 8.0 autoexpanded Physical Delivery PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-QMMEDIAKIT   |  CCX 8.0 UPG QM Media Kit for phyiscal a la carte upgs only   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-QMMEDIAKIT=   |  CCX 8.0 Quality Manager Qty 1 Media Kit - NO LICENSES   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-SRV-AQM-U   |  CCX 8.0 UPGRADE - AQM Server-LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-SRV-C-A-U   |  CCX 8.0 UPGRADE - CR-AQMServer-LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-SRV-C-Q-U   |  CCX 8.0 UPGRADE - CR-QM Server-LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-SRV-CR-U   |  CCX 8.0 UPGRADE - CR Server-LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-SRV-E-E-U   |  CCX 8.0 UPGRADE - Active Server ENH-ENH LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-SRV-E-P-U   |  CCX 8.0 UPGRADE - Active Server ENH-PRE LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-SRV-P-P-U   |  CCX 8.0 UPGRADE - Active Server PRE-PRE LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-SRV-Q-A-U   |  CCX 8.0 UPGRADE - QM-AQMServer-LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-SRV-QM-U   |  CCX 8.0 UPGRADE - QM Server-LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-SRV-S-E-U   |  CCX 8.0 UPGRADE - Active Server STD-ENH LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-SRV-S-P-U   |  CCX 8.0 UPGRADE - Active Server STD-PRE LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-SRV-S-S-U   |  CCX 8.0 UPGRADE - Active Server STD-STD LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-SRV-WFM-U   |  CCX 8.0 UPGRADE - WFM Server-LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-SRVRS-MEDIA   |  CCX 8.0 NEW Deployment-Appliances, Servers, Media Kits   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-UPG-LIC   |  CCX 8.0 UPGRADE - Physical Delivery LICENSES ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-UPGRADE   |  CCX 8.0 UPGRADE Deployment-Product,UCSSpDelveryLICENSESONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80-WPL-NFR   |  CCX 8.0 UC 8 NFR PRE HA 6 seats Pre IB/OB/email, CR, AQM,WFM   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80AQMMEDIAKIT   |  CCX 8.0 UPG AQM Media Kit for phyiscal a la carte upgs only   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80AQMMEDIAKIT=   |  CCX 8.0 Adv Quallity Manager Qty 1 Media Kit - NO LICENSES   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80E-P-SUPAK   |  CCX 8.0 UPGRADE PAK - 8.0, ENH-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80E-P-UPAK   |  CCX 8.0 UPGRADE PAK - 8.0, ENH-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80S-E-SUPAK   |  CCX 8.0 UPGRADE PAK - 8.0, STD-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80S-E-UPAK   |  CCX 8.0 UPGRADE PAK - 8.0, STD-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80S-P-SUPAK   |  CCX 8.0 UPGRADE PAK - 8.0, STD-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80S-P-UPAK   |  CCX 8.0 UPGRADE PAK - 8.0, STD-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80WFMMEDIAKIT   |  CCX 8.0 UPG WFM Media Kit for phyiscal a la carte upgs only   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX-80WFMMEDIAKIT=   |  CCX 8.0 Workforce Manager Qty 1 Media Kit - NO LICENSES   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX3X-80U-E-E-S1   |  CCX 8.0 UPGRADE - 3.0, 3.1 or 3.5 to 8.0 Qty 1 ENH-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX3X-80U-E-P-S1   |  CCX 8.0 UPGRADE - 3.0, 3.1 or 3.5 to 8.0 Qty 1 ENH-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX3X-80U-P-P-S1   |  CCX 8.0 UPGRADE - 3.0, 3.1 or 3.5 to 8.0 Qty 1 PRE-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX3X-80U-S-E-S1   |  CCX 8.0 UPGRADE - 3.0, 3.1 or 3.5 to 8.0 Qty 1 STD-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX3X-80U-S-P-S1   |  CCX 8.0 UPGRADE - 3.0, 3.1 or 3.5 to 8.0 Qty 1 STD-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX3X-80U-S-S-S1   |  CCX 8.0 UPGRADE - 3.0, 3.1 or 3.5 to 8.0 Qty 1 STD-STD Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX40-80U-E-E-S1   |  CCX 8.0 UPGRADE - 4.0 to 8.0 Qty 1 ENH-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX40-80U-E-P-S1   |  CCX 8.0 UPGRADE - 4.0 to 8.0 Qty 1 ENH-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX40-80U-P-P-S1   |  CCX 8.0 UPGRADE - 4.0 to 8.0 Qty 1 PRE-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX40-80U-S-E-S1   |  CCX 8.0 UPGRADE - 4.0 to 8.0 Qty 1 STD-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX40-80U-S-P-S1   |  CCX 8.0 UPGRADE - 4.0 to 8.0 Qty 1 STD-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX40-80U-S-S-S1   |  CCX 8.0 UPGRADE - 4.0 to 8.0 Qty 1 STD-STD Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX41-80U-E-E-S1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 ENH-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX41-80U-E-P-S1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 ENH-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX41-80U-P-P-S1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 PRE-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX41-80U-S-E-S1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 STD-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX41-80U-S-P-S1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 STD-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX41-80U-S-S-S1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 STD-STD Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX45-80U-E-E-S1   |  CCX 8.0 UPGRADE - 4.5 to 8.0 Qty 1 ENH-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX45-80U-E-P-S1   |  CCX 8.0 UPGRADE - 4.5 to 8.0 Qty 1 ENH-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX45-80U-P-P-S1   |  CCX 8.0 UPGRADE - 4.5 to 8.0 Qty 1 PRE-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX45-80U-S-E-S1   |  CCX 8.0 UPGRADE - 4.5 to 8.0 Qty 1 STD-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX45-80U-S-P-S1   |  CCX 8.0 UPGRADE - 4.5 to 8.0 Qty 1 STD-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX45-80U-S-S-S1   |  CCX 8.0 UPGRADE - 4.5 to 8.0 Qty 1 STD-STD Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX50-80U-E-E-S1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 ENH-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX50-80U-E-P-S1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 ENH-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX50-80U-P-P-S1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 PRE-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX50-80U-S-E-S1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 STD-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX50-80U-S-P-S1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 STD-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX50-80U-S-S-S1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 STD-STD Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX60-80U-E-E-S1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 ENH-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX60-80U-E-P-S1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 ENH-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX60-80U-P-P-S1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 PRE-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX60-80U-S-E-S1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 STD-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX60-80U-S-P-S1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 STD-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX60-80U-S-S-S1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 STD-STD Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX70-80U-E-E-S1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 ENH-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX70-80U-E-P-S1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 ENH-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX70-80U-P-P-S1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 PRE-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX70-80U-S-E-S1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 STD-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX70-80U-S-P-S1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 STD-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX70-80U-S-S-S1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 STD-STD Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX80-80U-E-P-S1   |  CCX 8.0 UPGRADE - 8.0 to 8.0 Qty 1 ENH-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX80-80U-S-E-S1   |  CCX 8.0 UPGRADE - 8.0 to 8.0 Qty 1 STD-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  CCX80-80U-S-P-S1   |  CCX 8.0 UPGRADE - 8.0 to 8.0 Qty 1 STD-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-41-80U-Q-QS1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 QM-QM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-41-80U-W-WS1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 WFM-WFM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-41-80UQAQMS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 QM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-50-80U-A-AS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 AQM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-50-80U-Q-QS1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 QM-QM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-50-80U-W-WS1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 WFM-WFM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-50-80UQAQMS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 QM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-60-80U-A-AS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 AQM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-60-80U-Q-QS1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 QM-QM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-60-80U-W-WS1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 WFM-WFM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-60-80UQAQMS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 QM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-70-80U-A-AS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 AQM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-70-80U-C-CS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 CR-CR Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-70-80U-CQMS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 CR-QM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-70-80U-Q-QS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 QM-QM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-70-80U-W-WS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 WFM-WFM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-70-80UCAQMS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 CR-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-70-80UQAQMS1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 QM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-80U-CQMS1   |  CCX 8.0 UPGRADE - 80 to 8.0 Qty 1 CR-QM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-80UCAQMS1   |  CCX 8.0 UPGRADE - 80 to 8.0 Qty 1 CR-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-80UQAQMS1   |  CCX 8.0 UPGRADE - 8.0 to 8.0 Qty 1 QM-AQM Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-A-AQM-LIC   |  CCX 8.0 ADDON Adv Quality Manager Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-A-CR-LIC   |  CCX 8.0 ADDON Compliance Recording Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-A-CRS-LIC   |  CCX 8.0 ADDON Compliance Recording Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-A-E-LIC   |  CCX 8.0 ADDON ENHANCED Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-A-EHA-LIC   |  CCX 8.0 ADDON ENHANCED HA (Dual Server Cluster)Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-A-P-LIC   |  CCX 8.0 ADDON PREMIUM Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-A-PHA-LIC   |  CCX 8.0 ADDON PREMIUM HA (Dual Server Cluster) Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-A-QM-LIC   |  CCX 8.0 ADDON Quality Manager Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-A-QMS-LIC   |  CCX 8.0 ADDON Quality Manager Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-A-S-LIC   |  CCX 8.0 ADDON STANDARD Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-A-WFM-LIC   |  CCX 8.0 ADDON Workforce Manager Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-AAQMS-LIC   |  CCX 8.0 ADDON Advanced Quality Manager Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-ADDON   |  CCX 8.0 ADDON Deployment-Product,UCSSeDelivery LICENSES ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-ADDON-LIC   |  CCX 8.0 ADDON - eDelivery LICENSES ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-AQM-L=   |  CCX 8.0 Advanced Quality Manager Srvr ,10 Seats LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-AQM10SL=   |  CCX 8.0 Advanced Quality Manager Seat Qty 10 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-AQM1SL=   |  CCX 8.0 Advanced Quality Manager Seat Qty 1 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-AQM25SL=   |  CCX 8.0 Advanced Quality Manager Seat Qty 25 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-AQM50SL=   |  CCX 8.0 Advanced Quality Manager Seat Qty 50 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-AWFMS-LIC   |  CCX 8.0 ADDON Workforce Manager Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-BDL-ADDON   |  CCX 8.0 - CM,CME Bundle Licenses;ADD ON eDelveryLICENSESONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-BDL-UPG   |  CCX 8.0 -CM,CMEBundleLicenses;UPG,ADDONeDelvery;LICENSESONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-CMBLDLIC=   |  CCX 8.0 CCX CM Bundle, Appliance Entitlement eDelivery   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-CR-L=   |  CCX 8.0 Compliance Recording Server , 10 Seats LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-CR10SL=   |  CCX 8.0 CR Seat Qty 10 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-CR1SL=   |  CCX 8.0 CR Seat Qty 1 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-CR25SL=   |  CCX 8.0 CR Seat Qty 25 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-CR50SL=   |  CCX 8.0 CR Seat Qty 50 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-E-10SL=   |  CCX 8.0 ENH Seat Qty 10 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-E-1SL=   |  CCX 8.0 ENH Seat Qty 1 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-E-25SL=   |  CCX 8.0 ENH Seat Qty 25 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-E-50SL=   |  CCX 8.0 ENH Seat Qty 50 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-E-L=   |  CCX 8.0 NEW ENHANCED Server and 10 Seats LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-E-PAK   |  CCX 8.0 autoexpanded eDelivery PAK   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-EHA-L=   |  CCX 8.0 NEW ENHANCED HA Server LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-EP-BDL-U=   |  CCX 8.0 Upgrade 5 Seat ENH Bundle to Premium LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-HA-E-E-U   |  CCX 8.0 UPGRADE - HA ENH-HA ENH LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-HA-E-P-U   |  CCX 8.0 UPGRADE - HA ENH-HA PRE LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-HA-P-P-U   |  CCX 8.0 UPGRADE - HA PRE-HA PRE LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-N-AQM-LIC   |  CCX 8.0 NEW Adv Quality Manager Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-N-CR-LIC   |  CCX 8.0 NEW Compliance Recording Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-N-CRS-LIC   |  CCX 8.0 NEW Compliance Recording Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-N-E-LIC   |  CCX 8.0 NEW ENHANCED Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-N-EHA-LIC   |  CCX 8.0 NEW ENHANCED HA (Dual Server Cluster) Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-N-ESS-LIC   |  CCX 8.0 NEW ENHANCED Non HA (Single Server) Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-N-P-LIC   |  CCX 8.0 NEW PREMIUM Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-N-PHA-LIC   |  CCX 8.0 NEW PREMIUM HA (Dual Server Cluster) Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-N-PSS-LIC   |  CCX 8.0 NEW PREMIUM Non HA (Single Server) Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-N-QM-LIC   |  CCX 8.0 NEW Quality Manager Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-N-QMS-LIC   |  CCX 8.0 NEW Quality Manager Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-N-S-LIC   |  CCX 8.0 NEW STANDARD Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-N-SSS-LIC   |  CCX 8.0 NEW STANDARD Non HA (Single Server) Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-N-WFM-LIC   |  CCX 8.0 NEW Workforce Manager Named Seat Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-NAQMS-LIC   |  CCX 8.0 NEW Advanced Quality Manager Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-NEW   |  CCX 8.0 NEW Deployment-Product,UCSS eDelivery LICENSES ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-NEW-LIC   |  CCX 8.0 NEW - eDelvery LICENSES ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-NWFMS-LIC   |  CCX 8.0 NEW Workforce Manager Server Qty 1 LICENSE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-P-10SL=   |  CCX 8.0 PRE Seat Qty 10 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-P-1SL=   |  CCX 8.0 PRE Seat Qty 1 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-P-25SL=   |  CCX 8.0 PRE Seat Qty 25 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-P-50SL=   |  CCX 8.0 PRE Seat Qty 50 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-P-L=   |  CCX 8.0 NEW PREMIUM Server and 10 Seats LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-PHA-L=   |  CCX 8.0 NEW PREMIUM HA Server LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-QM-L=   |  CCX 8.0 Quality Manager Server , 10 Seats LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-QM10SL=   |  CCX 8.0 Quality Manager Seat Qty 10 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-QM1SL=   |  CCX 8.0 Quality Manager Seat Qty 1 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-QM25SL=   |  CCX 8.0 Quality Manager Seat Qty 25 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-QM50SL=   |  CCX 8.0 Quality Manager Seat Qty 50 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-S-10SL=   |  CCX 8.0 STD Seat Qty 10 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-S-1SL=   |  CCX 8.0 STD Seat Qty 1 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-S-25SL=   |  CCX 8.0 STD Seat Qty 25 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-S-50SL=   |  CCX 8.0 STD Seat Qty 50 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-S-L=   |  CCX 8.0 NEW STANDARD Server and 10 Seats LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-SRV-AQM-U   |  CCX 8.0 UPGRADE - AQM Server-LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-SRV-C-A-U   |  CCX 8.0 UPGRADE - CR-AQMServer-LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-SRV-C-Q-U   |  CCX 8.0 UPGRADE - CR-QM Server-LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-SRV-CR-U   |  CCX 8.0 UPGRADE - CR Server-LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-SRV-E-E-U   |  CCX 8.0 UPGRADE - Active Server ENH-ENH LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-SRV-E-P-U   |  CCX 8.0 UPGRADE - Active Server ENH-PRE LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-SRV-P-P-U   |  CCX 8.0 UPGRADE - Active Server PRE-PRE LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-SRV-Q-A-U   |  CCX 8.0 UPGRADE - QM-AQMServer-LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-SRV-QM-U   |  CCX 8.0 UPGRADE - QM Server-LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-SRV-S-E-U   |  CCX 8.0 UPGRADE - Active Server STD-ENH LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-SRV-S-P-U   |  CCX 8.0 UPGRADE - Active Server STD-PRE LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-SRV-S-S-U   |  CCX 8.0 UPGRADE - Active Server STD-STD LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-SRV-WFM-U   |  CCX 8.0 UPGRADE - WFM Server-LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-UPG-LIC   |  CCX 8.0 UPGRADE - eDelivery LICENSES ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-UPGRADE   |  CCX 8.0 UPGRADE Deployment-Product,UCSSeDeliveryLICENSESONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-WFM-L=   |  CCX 8.0 Workforce Manager Server , 10 Seats LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-WFM10SL=   |  CCX 8.0 Workforce Manager Seat Qty 10 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-WFM1SL=   |  CCX 8.0 Workforce Manager Seat Qty 1 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-WFM25SL=   |  CCX 8.0 Workforce Manager Seat Qty 25 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80-WFM50SL=   |  CCX 8.0 Workforce Manager Seat Qty 50 LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX-80CMEBLDLIC=   |  CCX 8.0CCX CME Bundle, Appliance Entitlement eDelivery   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX3X-80U-E-E-S1   |  CCX 8.0 UPGRADE - 3.0, 3.1 or 3.5 to 8.0 Qty 1 ENH-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX3X-80U-E-P-S1   |  CCX 8.0 UPGRADE - 3.0, 3.1 or 3.5 to 8.0 Qty 1 ENH-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX3X-80U-P-P-S1   |  CCX 8.0 UPGRADE - 3.0, 3.1 or 3.5 to 8.0 Qty 1 PRE-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX3X-80U-S-E-S1   |  CCX 8.0 UPGRADE - 3.0, 3.1 or 3.5 to 8.0 Qty 1 STD-ENH Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX3X-80U-S-P-S1   |  CCX 8.0 UPGRADE - 3.0, 3.1 or 3.5 to 8.0 Qty 1 STD-PRE Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX3X-80U-S-S-S1   |  CCX 8.0 UPGRADE - 3.0, 3.1 or 3.5 to 8.0 Qty 1 STD-STD Seat   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX40-80U-E-E-S1   |  CCX 8.0 UPGRADE - 4.0 to 8.0 Qty 1 ENH-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX40-80U-E-P-S1   |  CCX 8.0 UPGRADE - 4.0 to 8.0 Qty 1 ENH-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX40-80U-P-P-S1   |  CCX 8.0 UPGRADE - 4.0 to 8.0 Qty 1 PRE-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX40-80U-S-E-S1   |  CCX 8.0 UPGRADE - 4.0 to 8.0 Qty 1 STD-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX40-80U-S-P-S1   |  CCX 8.0 UPGRADE - 4.0 to 8.0 Qty 1 STD-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX40-80U-S-S-S1   |  CCX 8.0 UPGRADE - 4.0 to 8.0 Qty 1 STD-STD Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX41-80U-E-E-S1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 ENH-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX41-80U-E-P-S1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 ENH-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX41-80U-P-P-S1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 PRE-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX41-80U-S-E-S1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 STD-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX41-80U-S-P-S1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 STD-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX41-80U-S-S-S1   |  CCX 8.0 UPGRADE - 4.1 to 8.0 Qty 1 STD-STD Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX45-80U-E-E-S1   |  CCX 8.0 UPGRADE - 4.5 to 8.0 Qty 1 ENH-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX45-80U-E-P-S1   |  CCX 8.0 UPGRADE - 4.5 to 8.0 Qty 1 ENH-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX45-80U-P-P-S1   |  CCX 8.0 UPGRADE - 4.5 to 8.0 Qty 1 PRE-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX45-80U-S-E-S1   |  CCX 8.0 UPGRADE - 4.5 to 8.0 Qty 1 STD-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX45-80U-S-P-S1   |  CCX 8.0 UPGRADE - 4.5 to 8.0 Qty 1 STD-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX45-80U-S-S-S1   |  CCX 8.0 UPGRADE - 4.5 to 8.0 Qty 1 STD-STD Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX50-80U-E-E-S1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 ENH-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX50-80U-E-P-S1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 ENH-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX50-80U-P-P-S1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 PRE-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX50-80U-S-E-S1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 STD-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX50-80U-S-P-S1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 STD-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX50-80U-S-S-S1   |  CCX 8.0 UPGRADE - 5.0 to 8.0 Qty 1 STD-STD Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX60-80U-E-E-S1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 ENH-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX60-80U-E-P-S1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 ENH-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX60-80U-P-P-S1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 PRE-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX60-80U-S-E-S1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 STD-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX60-80U-S-P-S1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 STD-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX60-80U-S-S-S1   |  CCX 8.0 UPGRADE - 6.0 to 8.0 Qty 1 STD-STD Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX70-80U-E-E-S1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 ENH-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX70-80U-E-P-S1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 ENH-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX70-80U-P-P-S1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 PRE-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX70-80U-S-E-S1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 STD-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX70-80U-S-P-S1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 STD-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX70-80U-S-S-S1   |  CCX 8.0 UPGRADE - 7.0 to 8.0 Qty 1 STD-STD Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX80-80U-E-P-S1   |  CCX 8.0 UPGRADE - 8.0 to 8.0 Qty 1 ENH-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX80-80U-S-E-S1   |  CCX 8.0 UPGRADE - 8.0 to 8.0 Qty 1 STD-ENH Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX80-80U-S-P-S1   |  CCX 8.0 UPGRADE - 8.0 to 8.0 Qty 1 STD-PRE Seat LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX80-E-MP-SLIC=   |  CCX 8.0 ENH Market Price Seat; qty 1, LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX80-EHA-MPLIC=   |  CCX 8.0 ENH Market Price HA Server SW;qty 1,LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX80-P-MP-SLIC=   |  CCX 8.0 PRE Market Price Seat; qty 1, LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX80-PHA-MPLIC=   |  CCX 8.0 PRE Market Price HA Server SW;qty 1,LICENSE ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX80E-MP10LIC=   |  CCX 8.0 ENH Market Price; server sw, 10 Seats, LICENSES ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
-|  L-CCX80P-MP10LIC=   |  CCX 8.0 PRE Market Price; server sw, 10 Seats, LICENSES ONLY   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.5   |   |  
+|  CCX-60-ADDON-ENH   |  CCX 6.0 ENH Configurable - ADD to an EXISTING deployment   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-ADDON-KIT   |  CCX 6.0 Add On Kit   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-ADDON-PRE   |  CCX 6.0 PRE Configurable - ADD to an EXISTING deployment   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-ADDON-STD   |  CCX 6.0 STD Configurable - ADD to an EXISTING deployment   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-AQM-MEDKIT   |  CCX 6.0 Cisco Advaced Quality Management Media   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-AQM-S1   |  CCX 6.0 Cisco Advanced Quality Management Seat Qty 1   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-AQMU-S1   |  CCX 4.1, 5.0 PRE QM to AQM Seat Qty1 SW Upg   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-BAQMU-S1   |  CCX 4.1, 5.0 PRE QM to AQM Seat Qty1 SW Upg   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-BDL-OS-ADD   |  CCX 6.0 OS, Server, ADD ON for UCM 5 or UCME 2 Seat Bundle   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-BDL-OS-UPG   |  CCX 6.0 OS, Server, UPG ENH-PRE for UCM 5/UCME 2 Seat Bundle   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-BUNDLE-OS   |  Operating System required for deployment on dedicated server   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-BUNDLE-OS=   |  Operating System required for deployment on dedicated server   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-CM-BUNDLE   |  5 Seat CCX ENH CCM Bundle - AVAILABLE ONLY WITH CCM   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-DIFF-UPG   |  CCX 3.X,4.0-6.0 UPGRADE STD-ENH,STD-PRE,ENH-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-ENH-ADDON   |  ADD ONs to an EXISTING 6.0 ENHANCED Deployment   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-ENH-ENH-UPG   |  CCX 3.X,4.0-6.0 UPG ENH-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-ENH-PRE-UPG   |  CCX 3.X,4.0-6.0 UPGRADE STD-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-ENHANCED   |  NEW 6.0 ENHANCED Deployment   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-EPU-S1   |  CCX 3.X,4.0-6.0 ENH-PRE Seat Qty 1 Upg   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-EU-S1   |  CCX 3.X,4.0-6.0 ENH Seat Qty 1 SW Upg   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-NEW-E   |  CCX 6.0 ENH NON-HA Server, Seat Software   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-NEW-E-HAE   |  CCX 6.0 ENH HA w/Expansion Servers - Server, Seat Software   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-NEW-E-HAS   |  CCX 6.0 ENH HA Dual Server - Server, Seat Software   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-NEW-ENH   |  CCX 6.0 ENH Server, Seat Software   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-NEW-P   |  CCX 6.0 PRE NON-HA Server, Seat Software   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-NEW-P-HAE   |  CCX 6.0 PRE HA w/Expansion Servers - Server, Seat Software   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-NEW-P-HAS   |  CCX 6.0 PRE HA Dual Server - Server, Seat Software   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-NEW-PRE   |  CCX 6.0 PRE Server, Seat Software   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-NEW-S   |  CCX 6.0 ENH NON-HA Server Software   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-NEW-STD   |  CCX 6.0 STD Configurable Option for server, seat software   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-NFR=   |  CCX 6.0 NFR Kit: PRE HA with 6 IBV,OBV,EIM,WIM,QM,WFM Seats   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-PRE-ADDON   |  ADD ONs to an EXISTING 6.0 PREMIUM Deployment   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-PRE-PRE-UPG   |  CCX 3.X,4.0-6.0 UPG PRE-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-PREMIUM   |  NEW 6.0 PREMIUM Deployment   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-PU-S1   |  CCX 3.X,4.0-6.0 PRE Seat Qty 1 SW Upg   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-QM-MEDKIT   |  CCX 6.0 Cisco Quality Management Media   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-QM-S1   |  CCX 6.0 Cisco Quality Management Seat Qty 1   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-QMU-S1   |  CCX 4.1, 5.0 PRE QM to 6.0 QM Seat Qty1 SW Upg   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-SAME-UPG   |  CCX 3.X,4.0-6.0 UPGRADE STD-STD,EHN-ENH,PRE-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-SEU-S1   |  CCX 3.X,4.0-6.0 STD-ENH Seat Qyt 1 Upg   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-SPU-S1   |  CCX 3.X,4.0-6.0 STD-PRE Seat Qty 1 Upg   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-STANDARD   |  NEW 6.0 STANDARD Deployment   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-STD-ADDON   |  ADD ONs to an EXISTING 6.0 STANDARD Deployment   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-STD-ENH-UPG   |  CCX 3.X,4.0-6.0 UPGRADE STD-ENH   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-STD-PRE-UPG   |  CCX 3.X,4.0-6.0 UPGRADE STD-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-STD-STD-UPG   |  CCX 3.X,4.0-6.0 UPG STD-STD   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-SU-S1   |  CCX 3.X,4.0-6.0 STD Seat Qty 1 SW Upg   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W03-E-E-U   |  CCX 4.1,5.0-6.0 UPG ENH-ENH, NO OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W03-E-P-U   |  CCX 4.1,5.0-6.0 UPG ENH-PRE NO OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W03-EHAE-U   |  CCX 4.0-6.0 UPG ENH HAE-HAE Actve,Stdby,NO OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W03-EHAS-U   |  CCX 4.1,5.0-6.0 UPG ENH HAS-HAS Actve,Stdby, NO OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W03-EPHAE-U   |  CCX 4.0-6.0 UPG ENH-PRE HAE-HAE Actve,Stdby,NO OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W03-EPHAS-U   |  CCX 4.1,5.0-6.0 UPG ENH-PRE HAS-HAS Actve,Stdby, NO OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W03-P-P-U   |  CCX 4.1,5.0-6.0 UPG PRE-PRE, NO OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W03-PHAE-U   |  CCX 4.0-6.0 UPG PRE HAE-HAE Actve,Stdby,NO OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W03-PHAS-U   |  CCX 4.1,5.0-6.0 UPG PRE HAS-HAS Actve,Stdby, NO OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W03-S-E-U   |  CCX 4.1,5.0-6.0 UPG STD-ENH, NO OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W03-S-P-U   |  CCX 4.1,5.0-6.0 UPG STD-PRE NO OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W03-S-S-U   |  CCX 4.1,5.0-6.0 UPG STD-STD NO OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W2K-E-E-U   |  CCX 3.X,4.0,4.5-6.0 UPG ENH-ENH, WITH Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W2K-E-P-U   |  CCX 3.X,4.0,4.5-6.0 UPG ENH-PRE WITH Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W2K-EHAE-U   |  CCX 4.0-6.0 UPG ENH HAE-HAE Actve,Stdby,WITH Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W2K-EHAS-U   |  CCX 4.0-6.0 UPG ENH HAS-HAS Actve,Stdby, WITH Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W2K-EPHAE-U   |  CCX 4.0-6.0 UPG ENH-PRE HAE-HAE Actve,Stdby,WITH Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W2K-EPHAS-U   |  CCX 4.0-6.0 UPG ENH-PRE HAS-HAS Actve,Stdby, WITH Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W2K-P-P-U   |  CCX 3.X,4.0,4.5-6.0 UPG PRE-PRE, WITH Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W2K-PHAE-U   |  CCX 4.0-6.0 UPG PRE HAE-HAE Actve,Stdby,WITH Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W2K-PHAS-U   |  CCX 4.0-6.0 UPG PRE HAS-HAS Actve,Stdby, WITH Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W2K-S-E-U   |  CCX 3.X,4.0,4.5-6.0 UPG STD-ENH WITH Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W2K-S-P-U   |  CCX 3.X,4.0,4.5-6.0 UPG STD-PRE WITH Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-W2K-S-S-U   |  CCX 3.X,4.0,4.5-6.0 UPG STD-STD WITH Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-WFM-MEDKIT   |  CCX 6.0 Cisco Workforce Management Media   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-WFM-S1   |  CCX 6.0 Cisco Workforce Management Seat Qty 1   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60-WFMU-S1   |  CCX 4.1, 5.0 PRE WFM to 6.0 WFM Seat Qty1 SW Upg   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60ENH-SEAT1   |  CCX 6.0 ENH Seat Qty 1 (agent or supervisor)   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60ENH-SEAT1=   |  CCX 6.0 ENH Seat Qty 1 (agent or supervisor)   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60EP-BUN-UPG=   |  CCX 6.0 UPG 5 Seat Bundle from ENH-PRE   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60PRE-SEAT1   |  CCX 6.0 PRE Seat Qty 1 (agent or supervisor)   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60PRE-SEAT1=   |  CCX 6.0 PRE Seat Qty 1 (agent or supervisor)   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60STD-SEAT1   |  CCX 6.0 STD Seat Qty 1 (agent or supervisor)   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60STD-SEAT10=   |  CCX 6.0 STD Seat Qty 10 (agent or supervisor)   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60STD-SEAT1=   |  CCX 6.0 STD Seat Qty 1 (agent or supervisor)   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60STD-SEAT25=   |  CCX 6.0 STD Seat Qty 25 (agent or supervisor)   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-60STD-SEAT50=   |  CCX 6.0 STD Seat Qty 50 (agent or supervisor)   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816H-60   |  CCX 6.0 7816 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816H-60-HAE   |  CCX 6.0 7816 HP HA Active,Standby SW,2 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816H-60-HAS   |  CCX 6.0 7816 HP HA Active,Standby SW,2 OS,2 SQL2K   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816H-60B-HAE   |  CCX 6.0 7816 HP HA UPG Active,Standby, 4 Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816H-60B-HAS   |  CCX 6.0 7816 HP HA UPG Active,Standby, 2 Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816H-60E=   |  CCX 6.0 ENH 7816 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816H-60P=   |  CCX 6.0 PRE 7816 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816H-60S=   |  CCX 6.0 STD 7816 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816I-60   |  CCX 6.0 7816 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816I-60-HAE   |  CCX 6.0 7816 IBM HA Active,Standby SW,2 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816I-60-HAS   |  CCX 6.0 7816 IBM HA Active,Standby SW,2 OS,2 SQL2K   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816I-60B-HAE   |  CCX 6.0 7816 IBM HA UPG Active,Standby, 4 Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816I-60B-HAS   |  CCX 6.0 7816 IBM HA UPG Active,Standby, 2 Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816I-60E=   |  CCX 6.0 ENH 7816 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816I-60P=   |  CCX 6.0 PRE 7816 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7816I-60S=   |  CCX 6.0 STD 7816 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825H-60   |  CCX 6.0 7825 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825H-60-HAE   |  CCX 6.0 7825 HP HA Active,Standby SW,2 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825H-60-HAS   |  CCX 6.0 7825 HP HA Active,Standby SW,2 OS,2 SQL2K   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825H-60B-HAE   |  CCX 6.0 7825 HP HA UPG Active,Standby, 4 Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825H-60B-HAS   |  CCX 6.0 7825 HP HA UPG Active,Standby, 2 Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825H-60E=   |  CCX 6.0 ENH 7825 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825H-60P=   |  CCX 6.0 PRE 7825 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825H-60S=   |  CCX 6.0 STD 7825 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825I-60   |  CCX 6.0 7825 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825I-60-HAE   |  CCX 6.0 7825 IBM HA Active,Standby SW,2 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825I-60-HAS   |  CCX 6.0 7825 IBM HA Active,Standby SW,2 OS,2 SQL2K   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825I-60B-HAE   |  CCX 6.0 7825 IBM HA UPG Active,Standby, 4 Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825I-60B-HAS   |  CCX 6.0 7825 IBM HA UPG Active,Standby, 2 Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825I-60E=   |  CCX 6.0 ENH 7825 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825I-60P=   |  CCX 6.0 PRE 7825 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7825I-60S=   |  CCX 6.0 STD 7825 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835H-60   |  CCX 6.0 7835 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835H-60-HAE   |  CCX 6.0 7835 HP HA Active,Standby SW,2 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835H-60-HAS   |  CCX 6.0 7835 HP HA Active,Standby SW,2 OS,2 SQL2K   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835H-60B-HAE   |  CCX 6.0 7835 HP HA UPG Active,Standby, 4 Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835H-60B-HAS   |  CCX 6.0 7835 HP HA UPG Active,Standby, 2 Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835H-60E=   |  CCX 6.0 ENH 7835 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835H-60P=   |  CCX 6.0 PRE 7835 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835H-60S=   |  CCX 6.0 STD 7835 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835I-60   |  CCX 6.0 7835 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835I-60-HAE   |  CCX 6.0 7835 IBM HA Active,Standby SW,2 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835I-60-HAS   |  CCX 6.0 7835 IBM HA Active,Standby SW,2 OS,2 SQL2K   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835I-60B-HAE   |  CCX 6.0 7835 IBM HA UPG Active,Standby, 4 Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835I-60B-HAS   |  CCX 6.0 7835 IBM HA UPG Active,Standby, 2 Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835I-60E=   |  CCX 6.0 ENH 7835 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835I-60P=   |  CCX 6.0 PRE 7835 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7835I-60S=   |  CCX 6.0 STD 7835 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845H-60   |  CCX 6.0 7845 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845H-60-HAE   |  CCX 6.0 7845 HP HA Active,Standby SW,2 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845H-60-HAS   |  CCX 6.0 7845 HP HA Active,Standby SW,2 OS,2 SQL2K   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845H-60B-HAE   |  CCX 6.0 7845 HP HA UPG Active,Standby, 4 Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845H-60B-HAS   |  CCX 6.0 7845 HP HA UPG Active,Standby, 2 Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845H-60E=   |  CCX 6.0 ENH 7845 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845H-60P=   |  CCX 6.0 PRE 7845 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845H-60S=   |  CCX 6.0 STD 7845 HP Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845I-60   |  CCX 6.0 7845 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845I-60-HAE   |  CCX 6.0 7845 IBM HA Active,Standby SW,2 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845I-60-HAS   |  CCX 6.0 7845 IBM HA Active,Standby SW,2 OS,2 SQL2K   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845I-60B-HAE   |  CCX 6.0 7845 IBM HA Active,Standby   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845I-60B-HAS   |  CCX 6.0 7845 IBM HA UPG Active,Standby, 2 Win2003 OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845I-60E=   |  CCX 6.0 ENH 7845 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845I-60P=   |  CCX 6.0 PRE 7845 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCX-7845I-60S=   |  CCX 6.0 STD 7845 IBM Server SW,OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-60-ADDONKIT   |  CCX-IVR 6.0 Add On Kit   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-60DB1PS1   |  CCX or IVR 6.0 MS SQL 2K Server 1 Processor Software   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-60DB1PS1=   |  CCX or IVR 6.0 MS SQL 2K Server 1 Processor Software   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-60DB2PS1   |  CCX or IVR 6.0 MS SQL 2K Server 2 Processors Software   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-60DB2PS1=   |  CCX or IVR 6.0 MS SQL 2K Server 2 Processors Software   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7816H-60ES   |  CCX or IVR 6.0 7816 Expansion Svr SW for HP Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7816H-60ES=   |  CCX or IVR 6.0 7816 Expansion Svr SW for HP Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7816I-60ES   |  CCX or IVR 6.0 7816 Expansion Svr SW for IBM Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7816I-60ES=   |  CCX or IVR 6.0 7816 Expansion Svr SW for IBM Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7825H-60ES   |  CCX or IVR 6.0 7825 Expansion Svr SW for HP Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7825H-60ES=   |  CCX or IVR 6.0 7825 Expansion Svr SW for HP Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7825I-60ES   |  CCX or IVR 6.0 7825 Expansion Svr SW for IBM Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7825I-60ES=   |  CCX or IVR 6.0 7825 Expansion Svr SW for IBM Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7835H-60ES   |  CCX or IVR 6.0 7835 Expansion Svr SW for HP Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7835H-60ES=   |  CCX or IVR 6.0 7835 Expansion Svr SW for HP Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7835I-60ES   |  CCX or IVR 6.0 7835 Expansion Svr SW for IBM Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7835I-60ES=   |  CCX or IVR 6.0 7835 Expansion Svr SW for IBM Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7845H-60ES   |  CCX or IVR 6.0 7845 Expansion Svr SW for HP Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7845H-60ES=   |  CCX or IVR 6.0 7845 Expansion Svr SW for HP Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7845I-60ES   |  CCX or IVR 6.0 7845 Expansion Svr SW for IBM Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
+|  CCXIVR-7845I-60ES=   |  CCX or IVR 6.0 7845 Expansion Svr SW for IBM Server w/OS   |  See Product Migration Options section for details.   |  Cisco Unified Contact Center Express 8.0 or later   |   |  
 Product Migration Options 
-Customers are encouraged to migrate to the Cisco Unified Contact Center Express 8.5. Information about this product can be found at: [http://www.cisco.com/en/US/products/sw/custcosw/ps1846/index.html](https://www.cisco.com/en/US/products/sw/custcosw/ps1846/index.html). 
-Customers can use the Cisco Technology Migration Program (TMP) to trade-in products and receive credit toward the purchase of new Cisco equipment. For more information about Cisco TMP, customers should work with their Cisco Partner or Cisco account team. Cisco Partners can find additional TMP information on Partner Central at [http://www.cisco.com/web/partners/pr11/incentive/tmp/index.html](https://www.cisco.com/web/partners/pr11/incentive/tmp/index.html)
-Customers may be able to continue to purchase the Cisco Unified Contact Center Express 8.0 through the Cisco Certified Refurbished Equipment program. Refurbished units may be available in limited supply for sale in certain countries on a first-come, first-served basis until the Last Date of Support has been reached. For information about the Cisco Certified Refurbished Equipment program, go to:  [http://www.cisco.com/go/eos](https://www.cisco.com/go/eos)
+Customers are encouraged to migrate to Cisco Unified Contact Center Express 8.0 or later. Information about this product can be found at: [http://www.cisco.com/en/US/products/sw/custcosw/ps1846/index.html](https://www.cisco.com/en/US/products/sw/custcosw/ps1846/index.html). 
+Customers can use the Cisco Technology Migration Program (TMP) to trade-in products and receive credit toward the purchase of new Cisco equipment. For more information about Cisco TMP, customers should work with their Cisco Partner or Cisco account team. Cisco Partners can find additional TMP information on Partner Central at [http://www.cisco.com/web/partners/pr11/incentive/tmp/index.html](https://www.cisco.com/web/partners/pr11/incentive/tmp/index.html). 
+Customers may be able to continue to purchase the Cisco Unified Contact Center Express 6.0 through the Cisco Certified Refurbished Equipment program. Refurbished units may be available in limited supply for sale in certain countries on a first-come, first-served basis until the Last Date of Support has been reached. For information about the Cisco Certified Refurbished Equipment program, go to: [http://www.cisco.com/go/eos](https://www.cisco.com/go/eos). 
 Service prices for Cisco products are subject to change after the product End of Sale date. 
-The Cisco Takeback and Recycle program helps businesses dispose properly of surplus products that have reached their end of useful life. The program is open to all business users of Cisco equipment and its associated brands and subsidiaries. For more information, go to: [http://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html](https://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html)
+The Cisco Takeback and Recycle program helps businesses dispose properly of surplus products that have reached their end of useful life. The program is open to all business users of Cisco equipment and its associated brands and subsidiaries. For more information, go to: [http://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html](https://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html). 
 For More Information 
-For more information about the Cisco Unified Contact Center Express 8.5, visit [http://www.cisco.com/en/US/products/sw/custcosw/ps1846/index.html](https://www.cisco.com/en/US/products/sw/custcosw/ps1846/index.html), or contact your local account representative. 
+For more information about the Cisco Unified Contact Center Express 8.0 or later, visit [http://www.cisco.com/en/US/products/sw/custcosw/ps1846/index.html](https://www.cisco.com/en/US/products/sw/custcosw/ps1846/index.html), or contact your local account representative. 
 For more information about the Cisco End-of-Life Policy, go to:   
-[http://www.cisco.com/en/US/products/products_end-of-life_policy.html](https://www.cisco.com/en/US/products/products_end-of-life_policy.html)
-[](https://www.cisco.com/en/US/products/products_end-of-life_policy.html)To subscribe to receive end-of-life/end-of-sale information, go to:   
-[http://www.cisco.com/cisco/support/notifications.html](https://www.cisco.com/cisco/support/notifications.html)
+[http://www.cisco.com/en/US/products/products_end-of-life_policy.html](https://www.cisco.com/en/US/products/products_end-of-life_policy.html). 
+To subscribe to receive end-of-life/end-of-sale information, go to: [http://www.cisco.com/cisco/support/notifications.html](https://www.cisco.com/cisco/support/notifications.html). 
 Subscribe for RSS Notifications for End-of-Life and End-of-Sale Notices 
-To subscribe to the End-of-Life and End-of-Sale RSS Feed, insert the following URL into your RSS application: [http://www.cisco.com/web/feeds/products/end_of_life_rss.xml](https://www.cisco.com/web/feeds/products/end_of_life_rss.xml)
+To subscribe to the End-of-Life and End-of-Sale RSS Feed, insert the following URL into your RSS application: [http://www.cisco.com/web/feeds/products/end_of_life_rss.xml](https://www.cisco.com/web/feeds/products/end_of_life_rss.xml). 
 Any authorized translation issued by Cisco Systems or affiliates of this end-of-life Product Bulletin is intended to help customers understand the content described in the English version. This translation is the result of a commercially reasonable effort; however, if there are discrepancies between the English version and the translated document, please refer to the English version, which is considered authoritative. 
 * * *
 ### Contact Cisco
