@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-739896.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-739896.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-739896.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740135.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740135.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740135.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,145 +19,154 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-739896.html)
+  * [](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740135.html)
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Contact Center](https://www.cisco.com/c/en/us/products/contact-center/index.html)
   * [Cisco Unified Contact Center Enterprise](https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/index.html)
   * [End-of-Life and End-of-Sale Notices](https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/eos-eol-notice-listing.html)
 
 
-# End-of-Sale and End-of-Life Announcement for the Cisco Unified Contact Center Enterprise, Cisco Packaged Contact Center Enterprise, and Cisco Unified Intelligent Contact Management Enterprise 11.0
+# End-of-Sale and End-of-Life Announcement for the Cisco Unified Contact Center Enterprise, Cisco Packaged Contact Center Enterprise, and Cisco Unified Intelligent Contact Management Enterprise 10.5
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-739896.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740135.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-739896.pdf) (436.6 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740135.pdf) (403.1 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:August 1, 2018
-Document ID:1509130456899115
+Updated:January 5, 2018
+Document ID:1515183301937114
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
-EOL12114 - Amended
-Cisco announces the end-of-sale and end-of-life dates for the Cisco Unified Contact Center Enterprise, Cisco Packaged Contact Center Enterprise, and Cisco Unified Intelligent Contact Management Enterprise 11.0. The last day to order the affected product(s) is April 27, 2018. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract.
-This end-of-life announcement covers the 11.0 components bundled in the products: CCEH-MEDIA110-K9, CCEH-V110-K9-UPG=, ICMEH-MEDIA110-K9, and ICMEH-V110-K9-UPG=. These components are:
-●Cisco Finesse 11.0
-●Cisco Unified Intelligence Center (CUIC) 11.0 
-●Cisco Unified Customer Voice Portal (CVP) 11.0 
-●Cisco SocialMiner 11.0 
-●Cisco Remote Silent Monitor (RSM) 11.0
-●Cisco Unified Contact Center Management Portal (CCMP) 11.0 
-●Cisco Computer Telephony Integration Object Server (CTIOS) 11.0 
-●Cisco Agent Desktop (CAD) 10.2
-**Please Note:** This End-of-Life Notice applies only to CTI-OS for Cisco Unified Intelligent Contact Management Enterprise or Hosted (ICM). End-of-Life of CTI-OS for Cisco Unified Contact Center Enterprise (UCCE) is governed by announcement EOL10137: <https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-733718.html>
-**Table 1.** End-of-Life Milestones and Dates for the Cisco Unified Contact Center Enterprise, Cisco Packaged Contact Center Enterprise, and Cisco Unified Intelligent Contact Management Enterprise 11.0  
+EOL12219 - Amended
+Cisco announces the end-of-sale and end-of life dates for the Cisco Unified Contact Center Enterprise, Cisco Packaged Contact Center Enterprise, and Cisco Unified Intelligent Contact Management Enterprise 10.5. The last day to order the affected product(s) is July 6, 2018. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract.
+This end-of-life announcement covers the 10.5 components bundled with the products whose part numbers are CCEH-MEDIA105-K9, CCEH-V105-K9-UPG=, ICMEH-MEDIA105-K9, and ICMEH-V105-K9-UPG=. These components are:
+●Cisco Computer Telephony Integration Object Server (CTIOS) 10.5
+●Cisco Unified Customer Voice Portal (CVP) 10.5
+●Cisco Unified Intelligence Center (CUIC) 10.5
+●Cisco Unified Contact Center Management Portal (CCMP) 10.5
+●Cisco SocialMiner 10.5
+●Cisco Finesse 10.5
+●Cisco Remote Expert Mobile 10.6
+**Table 1.** End-of-Life Milestones and Dates for the Cisco Unified Contact Center Enterprise, Cisco Packaged Contact Center Enterprise, and Cisco Unified Intelligent Contact Management Enterprise 10.5  
 |  Milestone  |  Definition  |  Date   |  
 | --- | --- | --- |  
-|  End-of-Life Announcement Date  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  October 27, 2017   |  
+|  End-of-Life Announcement Date  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  January 5, 2018   |  
 |  End-of-Sale Date:  
-App SW  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  April 27, 2018   |  
+App SW, License  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  July 6, 2018   |  
 |  Last Ship Date:  
-App SW  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  July 26, 2018   |  
-|  End of SW Maintenance Releases Date:  
-App SW  |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  April 27, 2019   |  
+App SW, License  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  October 4, 2018   |  
 |  End of New Service Attachment Date:  
-App SW  |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  April 27, 2019   |  
-|  End of Service Contract Renewal Date:   
-App SW  |  The last date to extend or renew a service contract for the product.  |  July 23, 2020   |  
+App SW  |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  July 6, 2019   |  
+|  End of SW Maintenance Releases Date : App SW  |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  July 6, 2019  |  
+|  End of Service Contract Renewal Date:  
+App SW  |  The last date to extend or renew a service contract for the product.  |  October 1, 2020   |  
 |  Last Date of Support:  
-App SW  |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  April 30, 2021   |  
+App SW  |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  July 31, 2021   |  
 HW = Hardware OS SW = Operating System Software App. SW = Application Software 
 **Table 2.** Product Part Numbers Affected by This Announcement  
 |  End-of-Sale Product Part Number  |  Product Description  |  Replacement Product Part Number  |  Replacement Product Description  |  Additional Information   |  
 | --- | --- | --- | --- | --- |  
-|  ICME-CTITOOLKIT-LC  |  CTI Toolkit for Regular ICM Agent License Certificate  |  ICME-CTITOOLKIT  |  CTI Toolkit for Regular ICM Agent  |  -  |  
-|  IPCE-SVR-ADDON  |  CCE Optional Items including Intelligence Center  |  IPCE-SVR  |  UCC Enterprise Server License  |  -  |  
-|  CCEH-CCP-SVR-LIC  |  CCP Server  |  IPCE-SVR  |  UCC Enterprise Server License  |  -  |  
-|  L-IPCE-AGENTSUPG  |  UCC Enterprise Agent Licenses Upgrade  |  IPCE-AGENTSUPG  |  UCC Enterprise Agent Licenses Upgrade  |  -  |  
-|  IPCE-MULTICHAN  |  CCE Multichannel Options  |  IPCE-PREMAGT-L  |  IPCC ENTERPRISE PREMIUM AGENT  |  -  |  
-|  IPCE-MP-TLKAGT-LC  |  Market Price CCE Premium Agent License Certificate  |  IPCE-PREMAGT-L  |  IPCC ENTERPRISE PREMIUM AGENT  |  -  |  
-|  CCE-MIG-SBL  |  Contact Center Enterprise SBL Migration  |  IPCE-BS-SIEBE-MGR  |  Migration SKU from Cisco connectors to b+s for Siebel  |  -  |  
-|  CRM-MKIT1-K9  |  CRM Connector MediaKit 1 (SAP)  |  IPCE-BS-SAP-MGR  |  Migration SKU from Cisco connectors to b+s for SAP  |  -  |  
-|  CCE-MIG-SAP  |  Contact Center Enterprise SAP Migration  |  IPCE-BS-SAP-MGR  |  Migration SKU from Cisco connectors to b+s for SAP  |  -  |  
-|  R-CVP-85-NPS=  |  CVP 8.5 Not-for-production system  |  IPCE-NPSENT-EC  |  IPCC Enterprise Non-Production Suite End Customer  |  -  |  
-|  CVP-70-BNDL-NFR  |  CVP Unified Communication NFR Media and VXML Server Lic  |  IPCE-NPSENT-EC  |  IPCC Enterprise Non-Production Suite End Customer  |  -  |  
-|  CCEH-CUIC8-NFR  |  License for partner lab version of CUIC  |  IPCE-NPSENT-EC  |  IPCC Enterprise Non-Production Suite End Customer  |  -  |  
-|  CCEH-CUIC-LAB  |  License for Cisco Unified Intelligence Center Customer Lab  |  IPCE-NPSENT-EC  |  IPCC Enterprise Non-Production Suite End Customer  |  -  |  
-|  ICMEH-MEDIA110-K9  |  Media Kit for Unified ICM Enterprise and Hosted 11.0  |  ICMEH-MEDIA116-K9  |  Media Kit for Unified ICM Enterprise 11.6  |  -  |  
-|  CCEH-MEDIA110-K9  |  Media Kit for Unified CC Enterprise and Hosted 11.0  |  CCEH-MEDIA116-K9  |  Media Kit for Unified CC Enterprise 11.6  |  -  |  
-|  CCEH-V110-K9-UPG=  |  UCCE SW Upgrade to 11.0 for SWSS Customers  |  CCEH-V116-K9-UPG=  |  UCCE SW Upgrade to 11.6 for SWSS Customers  |  -  |  
-|  ICMEH-V110-K9-UPG=  |  ICM SW Upgrade to 11.0 for SWSS Customers  |  ICMEH-V116-K9-UPG=  |  ICM SW Upgrade to 11.6 for SWSS Customers  |  -  |  
-|  UNIFIED-EA-80  |  Cisco Unified Expert Advisor 8.0 Bundle  |  See Product Migration Options section for details.  |  Collaboration Enterprise Agreement  |  -  |  
-|  UNIFIED-EA-7X  |  Cisco Unified Expert Advisor Top Level Bundle  |  See Product Migration Options section for details.  |  Collaboration Enterprise Agreement  |  -  |  
-|  MCP-NPSBASE10X-LIC  |  MediaSense Base Port License  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  MCP-C-11X-VID-LIC  |  MediaSense Video Session  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  MCP-C-11X-AUD-LIC  |  MediaSense Audio Session  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  MCP-10X-CCNPS-K9  |  MediaSense 10.x NPS  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  L-IPCE-MARKETPRICE  |  Contact Center Enterprise Market Price Licenses  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  L-CVP-UPG  |  CVP Upgrade  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  L-CVP-CCUPG  |  CVP 8.X /9.X Call Control Upgrade  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  L-CVP-85-STUUPG  |  CVP 8.5 Studio upgrade  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  L-CVP-85-SRVUPG  |  CVP 8.5 server upgrade  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  L-CVP-80-SRVUPG  |  CVP 8.0 server upgrade  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  L-CVP-80-CCSRVUP  |  CVP 8.0 Call Control Server Upgrade  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  ICS-60200  |  ISN Application Server Session  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  ICME-STDAGT-T1-L  |  ICM ENTERPRISE STANDARD AGENT - TIER 1  |  See Product Migration Options section for details.  |  ICME-REGAGT-Tx  |  -  |  
-|  ICME-ERIAGT-T4  |  ERI Agent Licenses - Tier 4  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  ICME-CRM-M-LC  |  CRM Connector for Regular ERI or ARI Agent License Cert.  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  ICME-CRM-LC  |  CRM Connector for Regular ERI or ARI Agent License Cert.  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  ICME-CCSKIT  |  ^MEDIAKIT COLLABORATION SERVER  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CVP-STU70-UE60-UP=  |  Call Studio 7.0 Upgrade From Previous CVP/Audium Studio  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-9XPT-MKTPRC  |  CVP 9.X Market Price Port License includes one redundant por  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CVP-8XRED-MKTPRC  |  CVP 8.X Market Price Redundant Ports  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CVP-8XPT-MKTPRC  |  CVP 8.X Market Price Port License  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CVP-8X-REDPT  |  CVP 8.X Redundant Ports  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-8X-RED-ADD  |  CVP 8.X Additional Redundant Ports  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-8X-PTS-TOTAL  |  CVP 8.X Total Num Ports  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-8X-PTS  |  CVP 8.X Port License  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-8X-MKTPRC  |  CVP 8.X Market Price Configuration  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CVP-8X-M500-REDPT  |  CVP 8.X Minimum 5000 Redundant Port License  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-8X-M500-PT  |  CVP 8.X Pt License Min 500 Ports  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-8X-FEAT-UPG  |  CVP 8.X CVP QT or IPIVR migration to CVP 8.0  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-8X-FEAT-U-RED  |  CVP 8.X Feature Upgrade Redundant Ports  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-8X-FEAT-U-PT  |  CVP 8.X Feature Upgrade Port License  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-80-MEDIA=  |  CVP 8.0 Media Only  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-7XRED-MKTPRC  |  CVP 7.X Redundant Ports - Market Price  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-7XPT-MKTPRC  |  CVP 7.X Port License - Market Price  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-7X-MKTPRC  |  CVP 7.X Market Price Licenses  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-4X7X-OD-SVRSIP  |  CVP 4.X 7.X ON DEMAND SERVER LIC -SIP ONLY-NO H323 USE  |  See Product Migration Options section for details.  |  Cisco Hosted Collaboration Solution for Contact Center  |  -  |  
-|  CVP-4X7X-OD-PORT  |  CVP 4.X 7.X ON DEMAND PORT LICENSE - 1 MONTH USE  |  See Product Migration Options section for details.  |  Cisco Hosted Collaboration Solution for Contact Center  |  -  |  
-|  CVP-4X7X-OD-LICSIP  |  CVP 4.X 7.X ON DEMAND Server Lic-750 Ports-No H323 USE  |  See Product Migration Options section for details.  |  Cisco Hosted Collaboration Solution for Contact Center  |  -  |  
-|  CVP-4X-REDPTS  |  CVP 4.X Redundant ports  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-4X-PTS-TOTAL  |  CVP 4.X Total No PT - Auto Gen value- DO NOT ENTER QTY  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-4X-PTS  |  CVP 4.X Port License  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-4X-M500-REDPT  |  CVP 4.X Redundant Port License  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-4X-M500-PT  |  CVP 4.X Pt License Min 500 Ports  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-4.X  |  CVP 4.X  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-10X-M500-RDPT  |  CVP 10.x Minimum 500 Redundant Port License  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-10X-M500-PT  |  CVP 10.X Pt License Min 500 Ports  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CVP-10-RPT-STD=  |  CVP 10.0 Report System - Standard  |  See Product Migration Options section for details.  |  Cisco Unified Customer Voice Portal  |  -  |  
-|  CUIS-PAK  |  License Certificate for CUIS UCSS  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CUIS-LAB-PAK  |  License Key for CUIS Lab Environment  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CUIC-V-STD-PAK  |  Licensing PAK For CUIC Standard - UCS or MCS  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CUIC-V-PREM-PAK  |  Licensing PAK For CUIC Premium  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CUIC-STD-PAK  |  Intelligence Center Standard License PAK  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CUIC-PREM-PAK  |  Intelligence Center Premium License PAK  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CUIC-LAB-PAK  |  Intelligence Center Lab System License PAK  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CRM-MKIT2-K9  |  CRM Connector MediaKit 2 (Salesforce Peoplesoft MS-CRM)  |  See Product Migration Options section for details.  |  Bucher + Suter CRM Connectors for UCCE  |  -  |  
-|  CCEH-SM-V110-K9  |  Media kit for SocialMiner 11.0  |  See Product Migration Options section for details.  |  IPCE-PREMAGT-L includes SM  |  -  |  
-|  CCEH-CUIC-STD-U=  |  Upgrade to Cisco Unified Intelligence Center Standard  |  See Product Migration Options section for details.  |  CUIC Premium  |  -  |  
-|  CCEH-CUIC-STD  |  License for Cisco Unified Intelligence Center Standard  |  See Product Migration Options section for details.  |  CUIC Premium  |  -  |  
-|  CCEH-CUIC-PREM-U=  |  Upgrade to Cisco Unified Intelligence Center Premium  |  See Product Migration Options section for details.  |  IPCE-PREMAGT-L includes CUIC Premium  |  -  |  
-|  CCEH-CUIC-PREM  |  License for Cisco Unified Intelligence Center Premium  |  See Product Migration Options section for details.  |  IPCE-PREMAGT-L includes CUIC Premium  |  -  |  
-|  CCEH-CADKIT102-K9  |  Media Kit for Cisco Agent Desktop 10.0(2)  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
-|  CCEH-CAD102-UPG=  |  CAD SW Upgrade To 11.0 for SWSS Customers  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
-|  CCE-PAC-CVP-STU-90  |  Call Studio 9.0  |  There is currently no replacement product available for this product.  |  -  |  -  |  
-|  CCE-PAC-CVP-LIC  |  CVP Server and Port License PAKs  |  There is currently no replacement product available for this product.  |  -  |  -  |  
+|  CCE-PAC-CVP-LIC-10  |  CVP Server and Port License PAKs v10  |  CCE-PAC-CVP-LIC-11  |  CVP Server and Port License PAKs for v11  |  -  |  
+|  CCE-PAC-CVP-STU-10  |  Call Studio 10.0  |  CCE-PAC-CVP-STU-11  |  Call Studio 11.0  |  -  |  
+|  CCE-PAC-M1-V10.X  |  Packaged CCE Version 10.x  |  CCE-PAC-M1-V11.X  |  Packaged CCE Version 11.x  |  -  |  
+|  CCEH-CUIC-NFR  |  License for Cisco Unified Intelligence Center Partner Lab  |  IPCE-NPSENT-EC  |  IPCC Enterprise Non-Production Suite End Customer  |  -  |  
+|  CCEH-FINESSE10X-K9  |  Cisco Finesse 10.x Media for CCE  |  CCEH-FINESSE11X-K9  |  Cisco Finesse 11.x Media for CCE  |  -  |  
+|  CCEH-MEDIA105-K9  |  Media Kit for Unified CC Enterprise and Hosted 10.5  |  CCEH-MEDIA116-K9  |  Media Kit for Unified CC Enterprise 11.6  |  -  |  
+|  CCEH-V105-K9-UPG=  |  UCCE SW Upgrade to 10.5 for UCSS Customers  |  CCEH-V116-K9-UPG=  |  UCCE SW Upgrade to 11.6 for SWSS Customers  |  -  |  
+|  CTI-AGT-BUND-L  |  Top level CTI AGENT (no charge agents)  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGT-T1-L  |  Cisco CTI Agent minimum 1  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGT-T100-L  |  Cisco CTI Agent minimum 100  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGT-T1000-L  |  Cisco CTI Agent minimum 1000  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGT-T2500-L  |  Cisco CTI Agent minimum 2500  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGT-T400-L  |  Cisco CTI Agent minimum 400  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGT-T6000-L  |  Cisco CTI Agent minimum 6000  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTCTD-BUND-L  |  Cisco Toolkit Desktop (no charge agents)  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTCTD-T1-L  |  Cisco Toolkit Desktop Tier 1-199 Agents  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTCTD-T100-L  |  Cisco Toolkit Desktop minimum 100  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTCTD-T1000-L  |  Cisco Toolkit Desktop minimum 1000  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTCTD-T200-L  |  Cisco Toolkit Desktop License - 200 to 499  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTCTD-T2500-L  |  Cisco Toolkit Desktop minimum 2500  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTCTD-T400-L  |  Cisco Toolkit Desktop minimum 400  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTCTD-T500-L  |  Cisco Toolkit Desktop License - 500 to 999  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTCTD-T6000-L  |  Cisco Toolkit Desktop minimum 6000  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTSBL-T1-L  |  Cisco CTI Siebel Agent Tier 1-199 Agents  |  See Product Migration Options section for details.  |  S+ Siebel Connector  |  -  |  
+|  CTI-AGTSBL-T100-L  |  Cisco CTI Siebel Agent minimum 100  |  See Product Migration Options section for details.  |  S+ Siebel Connector  |  -  |  
+|  CTI-AGTSBL-T1000-L  |  Cisco CTI Siebel Agent minimum 1000  |  See Product Migration Options section for details.  |  S+ Siebel Connector  |  -  |  
+|  CTI-AGTSBL-T200-L  |  Cisco CTI Siebel Agent License - 200 to 499  |  See Product Migration Options section for details.  |  S+ Siebel Connector  |  -  |  
+|  CTI-AGTSBL-T2500-L  |  Cisco CTI Siebel Agent minimum 2500  |  See Product Migration Options section for details.  |  S+ Siebel Connector  |  -  |  
+|  CTI-AGTSBL-T400-L  |  Cisco CTI Siebel Agent minimum 400  |  See Product Migration Options section for details.  |  S+ Siebel Connector  |  -  |  
+|  CTI-AGTSBL-T500-L  |  Cisco CTI Siebel Agent License - 500 to 999  |  See Product Migration Options section for details.  |  S+ Siebel Connector  |  -  |  
+|  CTI-AGTSBL-T6000-L  |  Cisco CTI Siebel Agent minimum 6000  |  See Product Migration Options section for details.  |  S+ Siebel Connector  |  -  |  
+|  CTI-AGTSEBL-BUND-L  |  Cisco Siebel Agents (no charge agents)  |  See Product Migration Options section for details.  |  S+ Siebel Connector  |  -  |  
+|  CTI-AGTSTD-T1-L  |  CTI Agent Tier 1-199 Agents  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTSTD-T100-L  |  CTI Agent Tier 100-399  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTSTD-T1000-L  |  CTI Agent minimum 1000  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTSTD-T200-L  |  CTI Agent License - 200 to 499  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTSTD-T2500-L  |  CTI Agent Tier 2500-5999  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTSTD-T400-L  |  CTI Agent Tier 400-999  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTSTD-T500-L  |  CTI Agent License - 500 to 999  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-AGTSTD-T6000-L  |  CTI Agent Tier 6000 and above  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-CON3RD-L  |  3rd Party CTI Connection  |  See Product Migration Options section for details.  |  S+ Siebel Connector  |  -  |  
+|  CTI-SUPCSD-L  |  Cisco Supervisor Desktop  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CTI-SUPCTS-L  |  Cisco Supervisor Toolkit  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  CUIS-PAK-UCSS  |  License Certificates for CUIS UCSS  |  There is currently no replacement product available for this product.  |  -  |  -  |  
+|  CVP-10-BNDL-NFR  |  CVP 10.0 UC NFR Media and VXML SRVR LIC  |  CVP-11-BNDL-NFR  |  CVP 11.0 UC NFR Media and VXML SRVR LIC  |  -  |  
+|  CVP-10-CC-150=  |  CVP 10.0 Call Director (includes Software) - 150 Ports  |  CVP-11-CC-150=  |  CVP 11.0 Call Director (includes Software) - 150 Ports  |  -  |  
+|  CVP-10-CC-300=  |  CVP 10.0 Call Director (includes Software) - 300 Ports  |  CVP-11-CC-300=  |  CVP 11.0 Call Director (includes Software) - 300 Ports  |  -  |  
+|  CVP-10-CC-600=  |  CVP 10.0 Call Director (includes Software) - 600 Ports  |  CVP-11-CC-600=  |  CVP 11.0 Call Director (includes Software) - 600 Ports  |  -  |  
+|  CVP-10-CC-850=  |  CVP 10.0 Call Director (includes Software) - 850 Ports  |  CVP-11-CC-850=  |  CVP 11.0 Call Director (includes Software) - 850 Ports  |  -  |  
+|  CVP-10-EVAL=  |  CVP 10.0 Evaluation License (90 Day Expiry)  |  CVP-11-EVAL=  |  CVP 11.0 Evaluation License (90 Day Expiry)  |  -  |  
+|  CVP-10-MEDIA=  |  CVP 10.0 and 10.5 Media Only  |  CVP-11-MEDIA=  |  CVP 11 Media Only  |  -  |  
+|  CVP-10-NFR-PAK  |  CVP 10 NFR PAK License  |  CVP-11-NFR-PAK  |  CVP 11 NFR PAK License  |  -  |  
+|  CVP-10-NFR=  |  CVP 10.0 Not-For-Resale  |  CVP-11-NFR=  |  CVP 11.0 Not-For-Resale  |  -  |  
+|  CVP-10-NPS-PAK  |  CVP 10 NPS PAK License  |  CVP-11-NPS-PAK  |  CVP 11 NPS PAK License  |  -  |  
+|  CVP-10-NPS=  |  CVP 10.0 Not-for-production system  |  CVP-11-NPS=  |  CVP 11.0 Not-for-production system  |  -  |  
+|  CVP-10-PRD-UP=  |  CVP 10.0 Upgrade (with media for both 10.0 and 10.5)  |  CVP-11-PRD-UP=  |  CVP 11.x Upgrade (with media for 11.0, 11.5, and 11.6)  |  -  |  
+|  CVP-10-RPT-PRE=  |  CVP 10.0 Report System - Premium  |  CVP-11-RPT-PRE=  |  CVP 11.0 Report System - Premium  |  -  |  
+|  CVP-10-SERVER-SW  |  CVP 10.0 Server Software (With media for 10.0 and 10.5)  |  CVP-11-SERVER-SW  |  CVP 11.0 Server Software (with media for 11.0 and 11.5)  |  -  |  
+|  CVP-10.X  |  CVP 10.x Configuration P Delivery  |  CVP-11.X  |  CVP 11.x Configuration P Delivery  |  -  |  
+|  CVP-10X-CCSRVUP  |  CVP 10.x Call Control Server Upgrade  |  CVP-11X-CCSRVUP  |  CVP 11x Call Control Server Upgrade  |  -  |  
+|  CVP-10X-CCUPG  |  CVP 10.x Call Control Session Upgrade  |  CVP-11X-CCUPG  |  CVP 11.x Call Control Session Upgrade  |  -  |  
+|  CVP-10X-FEAT-U-PT  |  CVP 10.x Feature Upgrade Port License  |  CVP-11X-FEAT-U-PT  |  CVP 11.x Feature Upgrade Port License  |  -  |  
+|  CVP-10X-FEAT-U-RED  |  CVP 10.x Feature Upgrade Redundant Ports  |  CVP-11X-FEAT-U-PT  |  CVP 11.x Feature Upgrade Port License  |  -  |  
+|  CVP-10X-FEAT-UPG  |  CVP 10.x CVP QT or IPIVR migration to CVP 10.0 E Delivery  |  CVP-11X-FEAT-UPG  |  CVP 11.x CVP QT or IPIVR migration to CVP 11.0 E Delivery  |  -  |  
+|  CVP-10X-MKTPRC  |  CVP 10.x Market Price Configuration  |  CVP-11X-MKTPRC  |  CVP 11.x Market Price Configuration  |  -  |  
+|  CVP-10X-PTS  |  CVP 10.x Port License includes one redundant port  |  CVP-11X-PTS  |  CVP 11.x Port License  |  -  |  
+|  CVP-10X-PTS-TOTAL  |  CVP 10.x Total No PT - Auto Gen value  |  CVP-11X-PTS-TOTAL  |  CVP 11.x Total No PT - Auto Gen value  |  -  |  
+|  CVP-10X-RED-ADD  |  CVP 10.x Additional Redundant Ports  |  CVP-11X-RED-ADD  |  CVP 11.x Additional Redundant Ports  |  -  |  
+|  CVP-10X-REDPT  |  CVP 10.x Redundant Ports  |  CVP-11X-REDPT  |  CVP 11.x Redundant Ports  |  -  |  
+|  CVP-10X-SRVUPG  |  CVP 10.x Server Upgrade  |  CVP-11X-SRVUPG  |  CVP 11.x Server Upgrade  |  -  |  
+|  CVP-10X-STUUPG  |  Call Studio 10.0 Upgrade  |  CVP-11X-STUUPG  |  Call Studio 11.0 Upgrade  |  -  |  
+|  CVP-10XPT-MKTPRC  |  CVP 10.X Market Price Port License includes one redundant po  |  CVP-11XPT-MKTPRC  |  CVP 11.X Market Price Port License  |  -  |  
+|  CVP-10XRD-MKTPRC  |  CVP 10.x Market Price Redundant Ports  |  CVP-11XRD-MKTPRC  |  CVP 11.x Market Price Redundant Ports  |  -  |  
+|  CVP-31-SASU-UPGRD=  |  CVP 30 to 31 Upgrade with SASU  |  See Product Migration Options section for details.  |  Latest CVP options  |  -  |  
+|  CVP-3X-CC-PT  |  CVP 3.X Call Control Port License  |  See Product Migration Options section for details.  |  Latest CVP options  |  -  |  
+|  CVP-3X-PT-MN500-P  |  CVP 3.X Self Service Pt License Min 500 Ports  |  See Product Migration Options section for details.  |  Latest CVP options  |  -  |  
+|  CVP-STU-10-EVAL  |  CVP 10.0 Studio Lic for EVAL  |  CVP-STU-11-EVAL  |  CVP 11.0 Studio Lic for EVAL  |  -  |  
+|  CVP-STU-10-NFR  |  CVP 10.0 Studio Lic for NFR  |  CVP-STU-11-NFR  |  CVP 11.0 Studio Lic for NFR  |  -  |  
+|  CVP-STU-10-PRD-UP=  |  CVP Studio 10.0 Upgrade  |  CVP-STU-11-PRD-UP=  |  CVP Studio 11.x Upgrade (with media for 11.0, 11.5, and 11.6  |  -  |  
+|  CVP-STU-10=  |  CVP 10.0 Studio  |  CVP-STU-11=  |  CVP 11.0 Studio  |  -  |  
+|  ICME-ERIAGT-T2  |  ERI Agent Licenses - Tier 2  |  IPCE-PREMAGT-L  |  IPCC ENTERPRISE PREMIUM AGENT  |  -  |  
+|  ICMEH-MEDIA105-K9  |  Media Kit for Unified ICM Enterprise and Hosted 10.5  |  ICMEH-MEDIA116-K9  |  Media Kit for Unified ICM Enterprise 11.6  |  -  |  
+|  ICMEH-V105-K9-UPG=  |  ICM SW Upgrade to 10.5 for UCSS Customers  |  ICMEH-V116-K9-UPG=  |  ICM SW Upgrade to 11.6 for SWSS Customers  |  -  |  
+|  IPCE-CTITLKIT-M-LC  |  Premium CAD to Toolkit Agent Migration License Certificate  |  See Product Migration Options section for details.  |  Cisco Finesse  |  -  |  
+|  IPCH-STARTERPACK  |  IPCC HOSTED STARTER PACK  |  See Product Migration Options section for details.  |  HCS-CC  |  -  |  
+|  L-CVP-1PTSUPG  |  CVP 10.x Port License upgrade  |  CVP-11PTSUPG  |  CVP 11.x Port License upgrade  |  -  |  
+|  L-CVP-1REDPTSUPG  |  CVP 10.x Redundant Ports upgrade  |  CVP-11REDPTSUPG  |  CVP 11.x Redundant Ports upgrade  |  -  |  
+|  MS-SQL2000-ENT  |  Non-OEM Microsoft SQL Server 2000 Enterprise (25 CALs)  |  There is currently no replacement product available for this product.  |  -  |  -  |  
+|  MS-SQL2000-STD  |  Non-OEM Microsoft SQL Server 2000 Standard (5 CALs)  |  There is currently no replacement product available for this product.  |  -  |  -  |  
+|  NO-OS-SELECTION  |  Customer provides operating system separately  |  There is currently no replacement product available for this product.  |  -  |  -  |  
+|  R-IPCE-NPSENT-EC  |  IPCC Enterprise Non-Production Suite End Customer  |  IPCE-NPSENT-EC  |  IPCC Enterprise Non-Production Suite End Customer  |  -  |  
+|  R-IPCE-SVR  |  UCC Enterprise Server License  |  IPCE-SVR  |  UCC Enterprise Server License  |  -  |  
+|  UNIFIED-EA-7.X  |  Cisco Unified Expert Advisor Top Level Bundle  |  There is currently no replacement product available for this product.  |  -  |  -  |  
 Product Migration Options
+Customers may be able to use the Cisco Technology Migration Program (TMP) where applicable to trade-in eligible products and receive credit toward the purchase of new Cisco equipment. For more information about Cisco TMP, customers should work with their Cisco Partner or Cisco account team. Cisco Partners can find additional TMP information on Partner Central at: <https://www.cisco.com/web/partners/incentives_and_promotions/tmp.html>.
+Customers may be able to continue to purchase the Cisco Unified Contact Center Enterprise, Cisco Packaged Contact Center Enterprise, and Cisco Unified Intelligent Contact Management Enterprise 10.5 through the Cisco Certified Refurbished Equipment program. Refurbished units may be available in limited supply for sale in certain countries on a first-come, first-served basis until the Last Date of Support has been reached. For information about the Cisco Certified Refurbished Equipment program, go to: <https://www.cisco.com/go/eos>.
 Service prices for Cisco products are subject to change after the product End-of-Sale date.
 The Cisco Takeback and Recycle program helps businesses properly dispose of surplus products that have reached their end of useful life. The program is open to all business users of Cisco equipment and its associated brands and subsidiaries. For more information, go to: <https://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html>.
 For More Information
