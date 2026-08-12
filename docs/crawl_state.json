@@ -1918,5 +1918,6 @@
   "https://developer.webex.com/docs/api/v1/groups": "37f8609d15bca7b43347feee18ad783baf5b302b121dc97f2ac4556a1f73a69f",
   "https://developer.webex.com/docs/api/v1/groups/create-a-group": "107bb1e77822a45f427507b77832621a170cadb876956ddbbeae81c8bad063d5",
   "https://developer.webex.com/docs/api/v1/groups/update-a-group": "5532eea31eb921a609e61b8cd7a6cabd278a5d188cdad9eb23ff5a9b3666a975",
-  "https://developer.webex.com/docs/api/v1/groups/get-group-details": "6cc42db74bcc6bf03c5eb543d0ea9c8dfe9d03701841b392520f917fd9cb3050"
+  "https://developer.webex.com/docs/api/v1/groups/get-group-details": "6cc42db74bcc6bf03c5eb543d0ea9c8dfe9d03701841b392520f917fd9cb3050",
+  "https://developer.webex.com/docs/api/v1/people/list-people": "b57ab5a8994b5c05935a11220cbb39a79569d2196d4c85baa95d5c411ea7fca3"
 }
