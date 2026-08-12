@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-737579.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-737579.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-737579.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-735213.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-735213.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-735213.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,8 +19,8 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-737579.html)
-  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-737579.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-735213.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-735213.html)Show All Breadcrumbs
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/products/unified-communications/index.html)
   * [Unified Communications Applications](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html)
@@ -28,52 +28,73 @@
   * [End-of-Life and End-of-Sale Notices](https://www.cisco.com/c/en/us/products/unified-communications/unity-connection/eos-eol-notice-listing.html)
 
 
-# End-of-Sale and End-of-Life Announcement for the Cisco Unity Connection 8.6.1
+# End-of-Sale and End-of-Life Announcement for the Cisco Unity Connection Version 9.x
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-737579.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-735213.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-737579.pdf) (183.5 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-735213.pdf) (208.3 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:July 15, 2016
-Document ID:1468607081525285
+Updated:June 30, 2015
+Document ID:1476482454347790
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
-EOL11081
-Cisco announces the end-of-sale and end-of-life dates for the Cisco Unity Connection 8.6.1. The last day to order the affected product(s) is January 13, 2017. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract.
-**Table 1.** End-of-Life Milestones and Dates for the Cisco Unity Connection 8.6.1  
+EOL10420
+Cisco announces the end-of-sale and end-of-life dates for the Cisco Unity Connection Version 9.x. The last day to order the affected product(s) is December 29, 2015. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract.
+**Table 1.** End-of-Life Milestones and Dates for the Cisco Unity Connection Version 9.x  
 |  Milestone  |  Definition  |  Date  |  
 | --- | --- | --- |  
-|  End-of-Life Announcement Date  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  July 15, 2016  |  
-|  End-of-Sale Date  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  January 13, 2017  |  
+|  End-of-Life Announcement Date  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  June 30, 2015  |  
+|  End-of-Sale Date  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  December 29, 2015  |  
 |  Last Ship Date:  
-App. SW  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  April 13, 2017  |  
+App. SW  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  March 28, 2016  |  
 |  End of SW Maintenance Releases Date:  
-App. SW  |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  January 13, 2018  |  
+App. SW  |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  December 28, 2016  |  
 |  End of New Service Attachment Date:  
-App. SW  |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  January 13, 2018  |  
+App. SW  |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  December 28, 2016  |  
 |  End of Service Contract Renewal Date:  
-App. SW  |  The last date to extend or renew a service contract for the product.  |  April 11, 2019  |  
+App. SW  |  The last date to extend or renew a service contract for the product.  |  March 26, 2018  |  
 |  Last Date of Support:  
-App. SW  |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.  |  January 31, 2020  |  
+App. SW  |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.  |  December 31, 2018  |  
 HW = Hardware OS SW = Operating System Software App. SW = Application Software 
 **Table 2.** Product Part Numbers Affected by This Announcement  
 |  End-of-Sale Product Part Number  |  Product Description  |  
 | --- | --- |  
-|  UNCN8-VER-K9-8.6.1  |  Unity Connection 8.6.1 SW Kit  |  
-|  UNCN861-MIG-K9=  |  Unity Connection 8.6.1 Migration from Unity/UCXn 1.x  |  
-|  UNCN861-VUP-K9=  |  Unity Connection 8.6.1 Upgrade  |  
+|  MIG-UCXN9-USR  |  Mig Unity 4.x or later/Unity Cxn 1.x to Unity Cxn 9.x Users  |  
+|  R-UCXN9-VUP-XU-K9  |  Migration from Unity 4.x or Unity Cxn 1.x to Unity Cxn 9.x  |  
+|  R-UNITYCN9-K9  |  Unity Connection 9.x Software  |  
+|  R-UNITYCN9-K9-LAB  |  Unity Connection 9.x Software  |  
+|  R-UNITYCN9-LAB-USR  |  Unity Connection 9x Lab  |  
+|  R-UNITYCN9-VUP-K9  |  Migration from Unity 4x or Unity Cxn 1x to Unity Cxn 9x  |  
+|  R-UNITYCN9-XU-K9  |  Unity Connection 9.x Software - Export Unrestricted  |  
+|  UCXN9-UTYMIG-K9-D=  |  Upg/Mig from Cxn 1.x/Unity4.x or later to Unity Cxn 9-Domino  |  
+|  UCXN9-UTYMIG-K9=  |  Upg/Mig from Unity Cxn 1.x/Unity 4.x or later to Unity Cxn 9  |  
+|  UCXN9-VER-UPG-K9=  |  Upgrade from Unity Cxn 2.x or later to Unity Connection 9.x  |  
+|  UCXN9-VERUPG-K9-D=  |  Upgrade from Unity Cxn 2.x or later to Unity Cxn 9.x -Domino  |  
+|  UNCN9-MIG-XU-D-K9=  |  Unity Connection 9.x Migration -Export Unrestricted - Domino  |  
+|  UNCN9-MIG-XU-K9=  |  Unity Connection 9.x Migration - Export Unrestricted  |  
+|  UNCN9-UPG-XU-D-K9=  |  Unity Connection 9.x Upgrade - Export Unrestricted - Domino  |  
+|  UNCN9-UPG-XU-K9=  |  Unity Connection 9.x Upgrade - Export Unrestricted  |  
+|  UNITYCN9-K9  |  Unity Connection 9.x Software  |  
+|  UNITYCN9-PAK  |  Unity Connection 9.x PAK  |  
+|  UNITYCN9-VUP-K9  |  Migration from Unity 4.x or Unity Cxn 1.x to Unity Cxn 9.x  |  
+|  UNITYCN9-VUP-USR  |  Upg Unity Cxn 2.x or later to Unity Cxn 9.x Users  |  
+|  UNITYCN9-VUP-XU-K9  |  Migration from Unity 4.x or Unity Cxn 1.x to Unity Cxn 9.x  |  
+|  UNITYCN9-XU-K9  |  Unity Connection 9.x Software - Export Unrestricted  |  
 Product Migration Options
-There is no replacement available for the Cisco Unity Connection 8.6.1 at this time.
-Customers are encouraged to migrate to Cisco Unity Connection 10.5.2
+There is no replacement available for the Cisco Unity Connection Version 9.x at this time.
+Customers are encouraged to migrate to Cisco Unity Connection Version 10.0 and later. Information about this product can be found at: <http://www.cisco.com/c/en/us/products/collateral/unified-communications/unity/data-sheet-c78-729872.html>.
+Customers may be able to use the Cisco Technology Migration Program (TMP) where applicable to trade-in eligible products and receive credit toward the purchase of new Cisco equipment. For more information about Cisco TMP, customers should work with their Cisco Partner or Cisco account team. Cisco Partners can find additional TMP information on Partner Central at <http://www.cisco.com/web/partners/incentives_and_promotions/tmp.html>.
+Customers may be able to continue to purchase the Cisco Unity Connection Version 9.x through the Cisco Certified Refurbished Equipment program. Refurbished units may be available in limited supply for sale in certain countries on a first-come, first-served basis until the Last Date of Support has been reached. For information about the Cisco Certified Refurbished Equipment program, go to: <http://www.cisco.com/go/eos>.
 Service prices for Cisco products are subject to change after the product End-of-Sale date.
-The Cisco Takeback and Recycle program helps businesses properly dispose of surplus products that have reached their end of useful life. The program is open to all business users of Cisco equipment and its associated brands and subsidiaries. For more information, go to: <http://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html>.
+The Cisco Takeback and Recycle program helps businesses dispose properly of surplus products that have reached their end of useful life. The program is open to all business users of Cisco equipment and its associated brands and subsidiaries. For more information, go to: <http://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html>.
 For More Information
+For more Information about the Cisco Unity Connection Version 10.x, visit <http://www.cisco.com/c/en/us/products/collateral/unified-communications/unity/data-sheet-c78-729872.html>, or contact your local account representative.
 For more information about the Cisco End-of-Life Policy, go to: <http://www.cisco.com/en/US/products/products_end-of-life_policy.html>.
 For more information about the Cisco Product Warranties, go to: <http://www.cisco.com/en/US/products/prod_warranties_listing.html>.
 To subscribe to receive end-of-life/end-of-sale information, go to: <http://www.cisco.com/cisco/support/notifications.html>.
