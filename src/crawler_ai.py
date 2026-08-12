@@ -26,7 +26,6 @@ def expand_sitemap(url):
             
         root = ET.fromstring(content)
         
-        # Soporte para índices de sitemaps anidados
         if root.tag.endswith('sitemapindex'):
             locs = []
             for sitemap in root.findall('.//{*}sitemap/{*}loc'):
@@ -35,8 +34,8 @@ def expand_sitemap(url):
             return locs
 
         locs = [loc.text for loc in root.findall('.//{*}loc') if loc.text]
-        print(f"Encontradas {locs.__len__()} URLs en el sitemap.")
-        return locs[:40] # Límite operativo por ejecución
+        print(f"Encontradas {len(locs)} URLs en el sitemap.")
+        return locs[:15] # Lote reducido para evitar timeouts en GitHub Actions
     except Exception as e:
         print(f"Error procesando sitemap {url}: {e}")
     return []
@@ -56,7 +55,6 @@ async def crawl_urls():
     for item in raw_inputs:
         urls.extend(expand_sitemap(item))
 
-    # Filtrar rutas de sitemaps para procesar únicamente documentos finales
     valid_urls = [u for u in urls if not u.endswith((".xml", ".gz", ".zip"))]
 
     async with AsyncWebCrawler(verbose=True) as crawler:
