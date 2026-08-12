@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html#fw-content)
-  * [Skip to search](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,14 +19,14 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html)
+  * [](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html)
   * [Support](https://www.cisco.com/c/en/us/support/index.html)
   * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
   * [Cisco Unity Connection](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html)
 
 
-# Cisco Unity Connection ViewMail for Microsoft Outlook Version 12.0
+# Cisco Unity Connection ViewMail for Microsoft Outlook Version 12.5
 * * *  
 | Series  | [Cisco Unity Connection](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html)  |  
 | --- | --- |  
@@ -37,7 +37,7 @@
 | Status  |  End of Support [EOL Details](https://www.cisco.com/c/en/us/products/unified-communications/unity-connection/eos-eol-notice-listing.html)   
  |  
 | --- | --- |  
-| Release Date  | 07-SEP-2017  |  
+| Release Date  | 01-JUL-2019  |  
 | End-of-Sale Date  |  31-AUG-2023   |  
 | End-of-Support Date  |  31-AUG-2025   |  
 |   |  
@@ -51,17 +51,17 @@ Contact Cisco
 
 
 Other Languages
-  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html "Arabic - عربي")
-  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html "Brazil - Português")
-  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html "Canada - Français")
-  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html "China - 简体中文")
-  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html "China - 繁體中文 \(臺灣\)")
-  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html "Germany - Deutsch")
-  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html "Italy - Italiano")
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html "Japan - 日本語")
-  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html "Korea - 한국어")
-  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html "Latin America - Español")
-  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html "Netherlands - Nederlands")
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html "Arabic - عربي")
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html "Brazil - Português")
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html "Canada - Français")
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html "China - 简体中文")
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html "China - 繁體中文 \(臺灣\)")
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html "Germany - Deutsch")
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html "Italy - Italiano")
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html "Japan - 日本語")
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html "Korea - 한국어")
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html "Latin America - Español")
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html "Netherlands - Nederlands")
 
 
   * Documentation
@@ -72,7 +72,7 @@ Other Languages
 
 Documentation
     
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html) to see full product documentation.
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html) to see full product documentation.
   * ### Data Sheets and Product Information
     * #### Data Sheets
       * [Cisco Unity Connection 14 Data Sheet ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/datasheet-c78-741693.html)06-Jul-2026
@@ -102,11 +102,11 @@ Documentation
       * [End-of-Sale and End-of-Life Announcement for the Cisco Unity Connection Version 2.0 ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity/end_of_life_notice_c51-526787.html)07-Apr-2009
 
 
-[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html "Back to Top")[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html "Back to Top")[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html "Back to Top") 
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html "Back to Top")[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html "Back to Top")[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html "Back to Top") 
 
 Downloads
     
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-0/model.html) to see available downloads. 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/unified-communications/unity-connection-viewmail-microsoft-outlook-version-12-5/model.html) to see available downloads. 
 
 Community
     
