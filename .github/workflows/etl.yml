@@ -17,7 +17,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
 
       - name: Instalar Dependencias
         run: |
@@ -36,4 +35,3 @@ jobs:
         run: |
           git add docs/
           git diff --staged --quiet || (git commit -m "docs: actualizacion automatica de markdown cisco" && git push)
-          
