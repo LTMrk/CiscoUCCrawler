@@ -2033,5 +2033,6 @@
   "https://developer.webex.com/docs/api/v1/recordings/list-recordings": "728e6fc926de1d30d5158ca1fde300feca57625935ddba118669c1a822decc85",
   "https://developer.webex.com/docs/api/v1/recordings/query-recordings": "c651c43e45b7f3a5ccf905223f90b15d1de1af7df86cdb0f28fbb4304a40eb46",
   "https://developer.webex.com/docs/api/v1/recordings/list-recordings-for-an-admin-or-compliance-officer": "387cb31682e17b27e7997baae340402819b858c2f0d6e62b341fb72c7a6c659a",
-  "https://developer.webex.com/docs/api/v1/recordings/query-recordings-for-an-admin-or-compliance-officer": "f129fe14603afa0d02e0a2c91c002b9ce67e1cb0899cc201364d9ce374c87ad6"
+  "https://developer.webex.com/docs/api/v1/recordings/query-recordings-for-an-admin-or-compliance-officer": "f129fe14603afa0d02e0a2c91c002b9ce67e1cb0899cc201364d9ce374c87ad6",
+  "https://developer.webex.com/docs/api/v1/recordings/get-recording-details": "8f2de09301d98cc7bfbc25a3585e1c3fa9e352c9c8a452123e8d8037a22d2c23"
 }
