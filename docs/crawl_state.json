@@ -2050,5 +2050,6 @@
   "https://developer.webex.com/docs/api/v1/recording-report/get-meeting-archive-details": "1a7aef5daca23f660a388a2619c62c8fa2eef210d4aeb975015bd3835ac2da89",
   "https://developer.webex.com/docs/api/v1/meeting-transcripts/list-meeting-transcripts": "077240b52459116167181209d7eabfe5ea70ae686fbe7ac1ec5072fb7616e516",
   "https://developer.webex.com/docs/api/v1/meeting-transcripts/download-a-meeting-transcript": "8f8601789ae03c7eb4e9edc23aaf45cb662d678ce07baa9eb1b55152958f59e4",
-  "https://developer.webex.com/docs/api/v1/meeting-transcripts/list-snippets-of-a-meeting-transcript": "a7aba84b4b2f7e9316dff95484d41687169724c9b5a0e1316daad80a144e3a49"
+  "https://developer.webex.com/docs/api/v1/meeting-transcripts/list-snippets-of-a-meeting-transcript": "a7aba84b4b2f7e9316dff95484d41687169724c9b5a0e1316daad80a144e3a49",
+  "https://developer.webex.com/docs/api/v1/meeting-transcripts/get-a-transcript-snippet": "da4a1964f65117ecde867318daa7b924b0b2428d06e4cd380c7d541bc38f8565"
 }
