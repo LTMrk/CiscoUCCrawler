@@ -5909,3 +5909,76 @@ Security Notices
   
 
 #### Customers Also Viewed 
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-release-notes-list.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-release-notes-list.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-release-notes-list.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-release-notes-list.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-release-notes-list.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Conferencing](https://www.cisco.com/c/en/us/support/conferencing/category.html)
+  * [Cisco Meeting Server](https://www.cisco.com/c/en/us/support/conferencing/meeting-server/series.html)
+
+
+# Release Notes
+Some links below may open a new browser window to display the document you selected.  
+|  View Documents by Topic  Choose a Topic Current releases [Choose a Topic](javascript:void\(0\))
+  * Choose a Topic
+  * Current releases
+
+ |  
+| --- |  
+Current releases
+      * [Cisco Meeting Server and web app 3.13 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-13/Cisco-Meeting-Server-and-web-app-Release-Notes-3-13.pdf) (PDF - 759 KB) 03/May/2026
+      * [Cisco Meeting Server and web app 3.12.2 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-12/Cisco-Meeting-Server-and-web-app-Release-Notes-3-12-2.pdf) (PDF - 768 KB) 26/Feb/2026
+      * [Cisco Meeting Server and web app 3.12.1 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-12/Cisco-Meeting-Server-and-web-app-Release-Notes-3-12-1.pdf) (PDF - 760 KB) 15/Dec/2025
+      * [Cisco Meeting Server and web app 3.12 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-12/Cisco-Meeting-Server-and-web-app-Release-Notes-3-12.pdf) (PDF - 708 KB) 30/Oct/2025
+      * [Cisco Meeting Server and web app 3.11.5 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-11/Cisco-Meeting-Server-and-web-app-Release-Notes-3-11-5.pdf) (PDF - 764 KB) 17/Feb/2026
+      * [Cisco Meeting Server and web app 3.11.4 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-11/Cisco-Meeting-Server-and-web-app-Release-Notes-3-11-4.pdf) (PDF - 773 KB) 12/Jan/2026
+      * [Cisco Meeting Server and web app 3.11.3 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-11/Cisco-Meeting-Server-and-web-app-Release-Notes-3-11_3.pdf) (PDF - 766 KB) 30/Sep/2025
+      * [Cisco Meeting Server and web app 3.11.2 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-11/Cisco-Meeting-Server-and-web-app-Release-Notes-3-11-2.pdf) (PDF - 752 KB) 25/Jul/2025
+      * [Cisco Meeting Server and web app 3.11.1 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-11/Cisco-Meeting-Server-and-web-app-Release-Notes-3-11-1.pdf) (PDF - 677 KB) 03/Jun/2025
+      * [Cisco Meeting Server and web app 3.11 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-11/Cisco-Meeting-Server-and-web-app-Release-Notes-3-11.pdf) (PDF - 729 KB) 30/Apr/2025
+      * [Cisco Meeting Server and web app 3.10.1 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-10/Cisco-Meeting-Server-and-web-app-Release-Notes-3-10-1.pdf) (PDF - 639 KB) 23/Jan/2025
+      * [Cisco Meeting Server and web app 3.10.2 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-10/Cisco-Meeting-Server-and-web-app-Release-Notes-3-10-2.pdf) (PDF - 644 KB) 27/Feb/2025
+      * [Cisco Meeting Server and web app 3.10 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-10/Cisco-Meeting-Server-and-web-app-Release-Notes-3-10.pdf) (PDF - 620 KB) 30/Sep/2024
+      * [Cisco Meeting Server and web app 3.9.2 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-9/Cisco-Meeting-Server-and-web-app-Release-Notes-3-9-2.pdf) (PDF - 689 KB) 30/Jul/2024
+      * [Cisco Meeting Server and web app 3.9.1 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-9/Cisco-Meeting-Server-and-web-app-Release-Notes-3-9-1.pdf) (PDF - 731 KB) 29/Apr/2024
+      * [Cisco Meeting Server and web app 3.9 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-9/Cisco-Meeting-Server-and-web-app-Release-Notes-3-9.pdf) (PDF - 716 KB) 12/Mar/2024
+      * [Cisco Meeting Server and web app 3.8.2 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-8/Cisco-Meeting-Server-and-web-app-Release-Notes-3-8-2.pdf) (PDF - 798 KB) 09/Aug/2024
+      * [Cisco Meeting Server and web app 3.8.1 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-8/Cisco-Meeting-Server-and-web-app-Release-Notes-3-8-1.pdf) (PDF - 1 MB) 12/Mar/2024
+      * [Cisco Meeting Server and web app 3.8.0 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-8/Cisco-Meeting-Server-and-web-app-Release-Notes-3-8.pdf) (PDF - 1 MB) 13/Mar/2024
+      * [Cisco Meeting Server and web app 3.7.2 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-7/Cisco-Meeting-Server-and-web-app-Release-Notes-3-7-2.pdf) (PDF - 819 KB) 08/Aug/2023
+      * [Cisco Meeting Server and web app 3.7.1 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-7/Cisco-Meeting-Server-and-web-app-Release-Notes-3-7-1.pdf) (PDF - 806 KB) 12/Jun/2023
+      * [Cisco Meeting Server and web app 3.7.0 Release Notes](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Release_Notes/Version-3-7/Cisco-Meeting-Server-and-web-app-Release-Notes-3-7.pdf) (PDF - 795 KB) 16/Mar/2023
+
+
+  *       * [End of maintenance and support policy for Cisco Meeting Server](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/White_papers/Cisco-Meeting-Server-End-of-Maintenance-and-support-of-sofware.pdf) (PDF - 579 KB) 04/May/2017
+
+
+## Support Documentation
+  * [All Support Documentation for this Series](https://www.cisco.com/c/en/us/support/conferencing/meeting-server/series.html#~tab-documents)
+
+
