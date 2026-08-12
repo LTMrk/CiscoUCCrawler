@@ -113,15 +113,19 @@ def get_content_hash(content):
 
 def git_commit_and_push():
     try:
+        os.makedirs("docs", exist_ok=True)
+        os.makedirs("logs", exist_ok=True)
         subprocess.run(["git", "config", "--global", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "--global", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
-        subprocess.run(["git", "add", "docs/", "logs/"], check=True)
         
-        diff_check = subprocess.run(["git", "diff", "--staged", "--quiet"])
-        if diff_check.returncode != 0:
-            subprocess.run(["git", "commit", "-m", "docs: actualizacion incremental de estado y logs"], check=True)
-            subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=False)
-            subprocess.run(["git", "push"], check=True)
+        status = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
+        if not status.stdout.strip():
+            return # No hay cambios para confirmar
+            
+        subprocess.run(["git", "add", "docs/", "logs/"], check=True)
+        subprocess.run(["git", "commit", "-m", "docs: actualizacion incremental de estado y logs"], check=True)
+        subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=False)
+        subprocess.run(["git", "push"], check=True)
     except Exception as e:
         log_error("GIT_PUSH", str(e))
 
