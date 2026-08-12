@@ -17717,3 +17717,225 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/create/docs/app-hub-submission-checklist-for-embedded-apps
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/create/docs/app-hub-submission-checklist-for-embedded-apps)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/create/docs/app-hub-submission-checklist-for-embedded-apps)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/create/docs/app-hub-submission-checklist-for-embedded-apps)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Submission Checklist for Embedded Apps
+Getting Started
+  * [Getting Started](https://developer.webex.com/create/docs)
+  * [Authentication](https://developer.webex.com/create/docs/authentication)
+  * [Login with Webex](https://developer.webex.com/create/docs/login-with-webex)
+  * [AI Assistant for Developers](https://developer.webex.com/create/docs/webex-aI-assistant-for-developers)
+  * Agentic Apps
+  * Bots
+  * Embedded Apps
+    * [Overview](https://developer.webex.com/create/docs/embedded-apps)
+    * [What's New](https://developer.webex.com/create/docs/embedded-apps-whats-new)
+    * [Developer Guide](https://developer.webex.com/create/docs/embedded-apps-guide)
+    * [Sidebar API Quick Start](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start)
+    * [Submission Checklist for Embedded Apps](https://developer.webex.com/create/docs/app-hub-submission-checklist-for-embedded-apps)
+    * [Embedded Apps Reference](https://developer.webex.com/create/docs/api/guides/embedded-apps-reference)
+    * Design Guidelines
+  * Integrations
+  * Service Apps
+  * Instant Connect
+  * Workspace Integrations
+  * Bring Your Own Datasource
+  * [Suite Sandbox](https://developer.webex.com/create/docs/developer-sandbox-guide)
+  * [Contact Center Sandbox](https://developer.webex.com/create/docs/sandbox_cc)
+  * [Guest to Guest Sandbox](https://developer.webex.com/create/docs/g2g-sandbox)
+  * [Submit Your App](https://developer.webex.com/create/docs/app-hub-submission-process)
+  * [Tutorials](https://developer.webex.com/create/docs/tutorials)
+
+
+## Getting Started
+### Submission Checklist for Embedded Apps
+Use these checklists to make sure your Embedded App is ready for submission to App Hub.
+####  anchorEmbedded App Review Process Overview
+anchor
+The Embedded App review process usually takes one to three weeks based on the completeness of your submission. Once you submit your app, your initial point of contact and someone from the Webex App Hub team will work with you throughout the review process.
+Cisco performs testing on all Embedded Apps before listing on the Webex App Hub.
+After approval, if your app is not functional or the information provided is invalid, the app will be removed from App Hub immediately. Rest assured we will notify you, provide support, and allow you to fix the issue so you can relist your app on the App Hub as soon as possible.
+####  anchorBusiness Checklist
+anchor
+  * [Branding](https://developer.webex.com/docs/app-hub-submission-checklist-for-embedded-apps#branding)
+  * [Quality Management](https://developer.webex.com/docs/app-hub-submission-checklist-for-embedded-apps#quality-management)
+  * [Privacy Policy](https://developer.webex.com/docs/app-hub-submission-checklist-for-embedded-apps#privacy-policy)
+  * [Contact Information](https://developer.webex.com/docs/app-hub-submission-checklist-for-embedded-apps#contact-information)
+  * [App Name and Logo](https://developer.webex.com/docs/app-hub-submission-checklist-for-embedded-apps#app-name-and-logo)
+
+
+###### Branding
+Learn more about Webex by Cisco’s branding considerations:
+  * [Launch Partner Brand Guidelines and Logos](https://resources.webex.com/webex/integration-partners?guest_pw=ee9ec6b533f59d511dbf94f7599c8c043294ae11111c71c5e3945aec2032c43b)
+  * [New Webex Suite and Branding](https://help.webex.com/en-us/jil5i/New-Webex-Suite-and-Branding)
+
+
+Ensure that: 
+  * Your app contains no references to Cisco in any links, including email addresses and descriptions.
+
+
+###### Quality Management
+Help us help your app thrive in the Webex ecosystem by creating a compelling internal landing tile surface and external Landing page to persuade users to enable your Embedded App and to help them get started.
+Ensure that:
+  * Your app serves a valid Webex end user need.
+  * Your app is in production and fully operational (no “proof of concepts” or demo apps).
+  * Your app’s description doesn’t include any mention of “demo”, “alpha”, or similar term.
+  * Your app’s description is in English (the developer site can be in another language) and free from grammatical errors, and includes the following:
+    * **App benefits** : An explanation of your app’s use cases and user benefits.
+    * **How to get started** : A summary on how the user can get started your app.
+    * **Third-party accounts** : Indicates if the app requires the user to create an account other than a Webex account.
+    * **Pricing** :Indicates the app’s business model. If the app is free to use, indicate so. Otherwise, include an additional sentence that states the app’s business model (for example, free or paid accounts), and includes a link to where users can find more information on pricing.
+  * The producer of the app is a real company.
+  * The app owner details are valid.
+  * The app is meant for specified workstreams (for example, embedded apps typically use a Meeting or Messaging space workstream).
+  * App does not include any advertisements.
+  * The categories you selected for the app (up to two) make sense.
+  * Video links use https:// protocol.
+  * The app is free of foul language and obscene images.
+  * App benefits are described with relevant content.
+
+
+###### Privacy Policy
+Cisco believes privacy is a fundamental human right. Privacy statements should focus on security, transparency, and accountability. See the [technical checklist](https://developer.webex.com/docs/app-hub-submission-checklist-for-embedded-apps#technical-checklist) for additional guidance.
+Ensure that:
+  * If requested by a customer, you can demonstrate compliance with all applicable privacy regulations and laws.
+  * The privacy policy is accessible and robust (see the [technical checklist](https://developer.webex.com/docs/app-hub-submission-checklist-for-embedded-apps#technical-checklist) for more details on specifications). 
+
+
+###### Contact Information
+Ensure that:
+  * The company name matches the contact email domain.
+  * The company website is valid and available.
+  * Support URLs are valid and available.
+
+
+###### App Name and Logo
+Your app name and logo must not include "Cisco," "Webex," or "Webex Meetings," or any other Cisco product names unless the app is created by Cisco Systems.
+Ensure that:
+  * Your app is free of any foul language and obscene images.
+  * Your app’s name and logo are relevant to the submitted app.
+  * Your app icon is exactly 512 x 512 px in height and width (JPG/PNG format).
+  * Screen shots of your app are appropriate and of high quality.
+
+
+####  anchorTechnical Checklist
+anchor
+  * [Secure Authentication](https://developer.webex.com/docs/app-hub-submission-checklist-for-embedded-apps#secure-authentication)
+  * [Quality Management](https://developer.webex.com/docs/app-hub-submission-checklist-for-embedded-apps#quality-management)
+  * [Privacy](https://developer.webex.com/docs/app-hub-submission-checklist-for-embedded-apps#privacy)
+  * [Design](https://developer.webex.com/docs/app-hub-submission-checklist-for-embedded-apps#design)
+
+
+###### Secure Authentication
+Ensure that:
+  * **Accounts** : Your app handles the meeting host role and meeting participant roles gracefully.
+    * **Your app responds with a coherent and useful error message when a command is incorrect or incorrect for the given user role.**
+    * You can login as each role for your Webex org (you can use the [List Roles API](https://developer.webex.com/docs/api/v1/roles/list-roles) to get a list of roles in your org).
+  * **Authorization** : Your app provides the option to revoke authorization for the embedded app.
+    * **Once the authorization for the embedded app has been revoked, it then reroutes back to the authorization URL again before it continues to work.**
+
+
+###### Quality Management
+Ensure that:
+  * Your app’s functionality matches its App Hub description.
+  * Tests with at least two accounts (share their credentials with the Cisco team) interact with each other smoothly (when applicable). 
+  * Your app is complete not a demo or a work in progress.
+  * Your app doesn’t include advertisements or promotions.
+  * Your app provides option to uninstall the embedded app (and this option works even if there is downloadable content required for the embedded app to function). 
+  * You’ve provided the ability to re-install the app.
+  * Your app’s performance benchmarks pass regression tests. For example, apps should start within two seconds and not crash the host app or reformat a user’s disk drive. 
+
+
+###### Privacy
+Ensure that:
+  * You provide a direct https link to a PrivacyURL.
+  * The PrivacyURL is available publicly (without needing to log into an any account).
+  * You provide a privacy policy that explains how you handle user data.
+  * If the privacy policy isn't available in English, you will need to send us a human-translated English version by email.
+  * Users have the capacity to request to delete, access, and transfer an individual’s data.
+  * Personal data that is ingested and processed is not maintained or further used unless for reasons that are clearly stated and agreed to in advance to support data privacy.
+
+
+###### Design
+Ensure that:
+  * Your messaging-based app meets requirements of the [Embedded Apps Design and Experience Guidelines for Messaging](https://developer.webex.com/docs/embedded-apps-design-guidelines-for-spaces).
+  * Your meeting-based app meets requirements of the [Embedded Apps Design and Experience Guidelines for Meetings](https://developer.webex.com/docs/embedded-apps-design-guidelines-for-meetings).
+  * Your app’s user interface is accessible and follows general UI considerations as outlined in the App Hub Submission Preparation Guide and Partner Guide.
+
+
+##### In This Article
+  * [Embedded App Review Process Overview](https://developer.webex.com/create/docs/app-hub-submission-checklist-for-embedded-apps#embedded-app-review-process-overview)
+  * [Business Checklist](https://developer.webex.com/create/docs/app-hub-submission-checklist-for-embedded-apps#business-checklist)
+  * [Technical Checklist](https://developer.webex.com/create/docs/app-hub-submission-checklist-for-embedded-apps#technical-checklist)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
