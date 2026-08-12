@@ -127599,3 +127599,124 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000-version-12-5/model.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000-version-12-5/model.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000-version-12-5/model.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000-version-12-5/model.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000-version-12-5/model.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
+  * [Cisco Business Edition 6000](https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000/series.html)
+
+
+# Cisco Business Edition 6000 Version 12.5
+* * *  
+| Series  | [Cisco Business Edition 6000](https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000/series.html)  |  
+| --- | --- |  
+| Overview  | [Product Overview](https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/index.html)  |  
+| Product Type  | [Call Control](https://www.cisco.com/c/en/us/products/unified-communications/call-control/index.html)  |  
+|  This product is no longer Supported by Cisco.   |  
+|   |  
+| Status  |  End of Support [EOL Details](https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html)   
+ |  
+| --- | --- |  
+| Release Date  | 01-AUG-2017  |  
+| End-of-Sale Date  |  24-APR-2021   |  
+| End-of-Support Date  |  30-APR-2024   |  
+|   |  
+|   |  
+Contact Cisco 
+  * [Open a TAC Case Online](https://mycase.cloudapps.cisco.com/case)
+  * US/Canada 800-553-2447
+  * [Worldwide Support Phone Numbers](https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html)
+  * [All Tools](https://www.cisco.com/c/en/us/support/web/tools-catalog.html)
+  * [![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png) Feedback](https://ciscocx.qualtrics.com/jfe/form/SV_2gAQDPastWsR6ke?Ref=)
+
+
+Other Languages
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/unified-communications/business-edition-6000-version-12-5/model.html "Arabic - عربي")
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/unified-communications/business-edition-6000-version-12-5/model.html "Brazil - Português")
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/unified-communications/business-edition-6000-version-12-5/model.html "Canada - Français")
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/unified-communications/business-edition-6000-version-12-5/model.html "China - 简体中文")
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/unified-communications/business-edition-6000-version-12-5/model.html "China - 繁體中文 \(臺灣\)")
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/unified-communications/business-edition-6000-version-12-5/model.html "Italy - Italiano")
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/unified-communications/business-edition-6000-version-12-5/model.html "Japan - 日本語")
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/unified-communications/business-edition-6000-version-12-5/model.html "Korea - 한국어")
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/unified-communications/business-edition-6000-version-12-5/model.html "Latin America - Español")
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/unified-communications/business-edition-6000-version-12-5/model.html "Netherlands - Nederlands")
+
+
+  * Documentation
+  * Downloads
+  * Community
+
+
+
+Documentation
+    
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/unified-communications/business-edition-6000-version-12-5/model.html) to see full product documentation.
+  * ### Data Sheets and Product Information
+    * #### Data Sheets
+      * [Cisco Business Edition 6000 and 7000 version 15 (M7 appliances) Data Sheet ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/data_sheet_c78-717454.html)24-Jun-2025
+    * #### End-of-Life and End-of-Sale Notices
+#### Most Recent
+      * [End-of-Sale and End-of-Life Announcement for the Cisco Business Edition 6000 (M6) Appliance ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-6000-m6-appliance-eol.html)01-Jul-2025
+      * [End-of-Sale and End-of-Life Announcement for the Cisco Business Edition 6000/7000 embedded virtualization commercial offers, all versions ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-6000-7000-embedded-eol.html)02-Apr-2025
+      * [End-of-Sale and End-of-Life Announcement for the Cisco Business Edition embedded virtualization licenses, version 6x ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-743878.html)21-Sep-2023
+      * [End-of-Sale and End-of-Life Announcement for the Cisco Business Edition 6000M (M5) and 6000H (M5) Appliances ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-appliances-eol.html)04-Apr-2023
+      * [End-of-Sale and End-of-Life Announcement for the Cisco Business Edition 6000 12.5 version and remainder of Perpetual Licensing for Applications ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744786.html)14-Sep-2021
+      * [End-of-Sale and End-of-Life Announcement for the Cisco Business Edition 6000 Software & Perpetual Licenses Version 11.5 ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744408.html)14-Sep-2021
+      * [End-of-Sale and End-of-Life Announcement for the Cisco Unified Workspace Licensing Meetings Edition for Cisco Business Edition 6000 ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744083.html)14-Sep-2021
+      * [End-of-Sale and End-of-Life Announcement for the Cisco Business Edition 6000 Software Version 10.5 for User Addons and Feature-level Upgrades ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744419.html)29-Oct-2020
+      * [End-of-Sale and End-of-Life Announcement for the Cisco Business Edition 6000 Software Version 10.x (and Select Older Software) for New Systems and Version Upgrades ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html)11-May-2020
+      * [End-of-Sale and End-of-Life Announcement for the Cisco Select Collaboration Embedded OEM Licenses - Cisco Unified Communications Virtualization Hypervisor 5.x and Foundation 5.x ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html)29-Apr-2020
+      * [End-of-Sale and End-of-Life Announcement for the Cisco Business Edition 6000M (M4) and 6000H (M4) Appliances ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-740522.html)02-Apr-2018
+      * [End-of-Sale and End-of-Life Announcement for the Cisco Business Edition 6000S (M2) Appliance ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-739191.html)08-Jun-2017
+      * [End-of-Sale and End-of-Life Announcement for the Cisco Business Edition 6000 Version 11.0 Software Options ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738414.html)12-Jan-2017
+      * [End-of-Sale and End-of-Life Announcement for the Cisco Unified Workspace Licensing Professional Edition Options for Business Edition 6000 ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738097.html)27-Oct-2016
+      * [End-of-Sale and End-of-Life Announcement for the Cisco Business Edition 6000 Video Gateway Bundle ](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-737956.html)03-Oct-2016
+[View all documentation of this type ](https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html)
+
+
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000-version-12-5/model.html "Back to Top")[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000-version-12-5/model.html "Back to Top")[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000-version-12-5/model.html "Back to Top") 
+
+Downloads
+    
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/unified-communications/business-edition-6000-version-12-5/model.html) to see available downloads. 
+
+Community
+    
+  * [Cisco Community Home](https://community.cisco.com/t5/technology-and-support/ct-p/technology-support)
+  * Ask a Question![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+
+
+  * Select a Community Board
+Reset
+
+
+## Latest Community Activity For This Product
+## Solved Issues
+## Community Documents
