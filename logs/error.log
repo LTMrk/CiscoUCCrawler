@@ -131,3 +131,7 @@ Code context:
 [2026-08-12T22:59:00.643021] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://cpaas.webex.com
 [2026-08-12T22:59:01.920154] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/customer-experience.html
 [2026-08-12T22:59:03.232541] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/collaboration-devices.html
+[2026-08-12T22:59:32.366968] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/sustainability.html
+[2026-08-12T22:59:33.623516] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/solutions/return-to-office.html
+[2026-08-12T22:59:34.897291] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/solutions/interoperability.html
+[2026-08-12T22:59:36.901549] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: no_content_elements, script_heavy_shell (2004 bytes, 99 chars visible) | URL: https://signin.webex.com/collabs/auth
