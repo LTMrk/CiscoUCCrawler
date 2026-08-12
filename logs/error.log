@@ -1,3 +1,7 @@
 [2026-08-12T23:39:59.130391] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: no_content_elements, script_heavy_shell (1832 bytes, 99 chars visible) | URL: https://signin.webex.com/join
 [2026-08-12T23:40:16.376507] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (14597 bytes, 0 chars visible) | URL: https://academy.webex.com/learn
 [2026-08-12T23:40:17.619279] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/learn/webinars-demos.html
+[2026-08-12T23:40:44.409789] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/all-new-webex.html
+[2026-08-12T23:40:45.664953] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/video-conferencing.html
+[2026-08-12T23:40:47.024935] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/cloud-calling.html
+[2026-08-12T23:40:48.286202] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/team-collaboration.html
