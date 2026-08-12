@@ -1,7 +1,7 @@
 {
   "global_settings": {
     "default_max_depth": 3,
-    "request_delay_seconds": 15,
+    "request_delay_seconds": 1,
     "word_count_threshold": 20
   },
   "domain_depths": {
