@@ -2065,5 +2065,6 @@
   "https://developer.webex.com/docs/api/v1/meeting-preferences/get-scheduling-options": "1f9d06f4b56a2cedfb55e6be49cf3fd7f312f388ec7b10391db04873085d0790",
   "https://developer.webex.com/docs/api/v1/meeting-preferences/update-scheduling-options": "4721d0c882ad7b0d738a5fe568b477d301fe29b019e3d34885498238a903cbf6",
   "https://developer.webex.com/docs/api/v1/meeting-preferences/get-site-list": "5efc66e5bd530efe8c3be84fba740d821a2d38d68716e7d82e576cf6197597d9",
-  "https://developer.webex.com/docs/api/v1/meeting-preferences/update-default-site": "53f203297cfc0c89bc52fafa1461d8dc81f2e23223a5a4b317bd34d0cb04ac41"
+  "https://developer.webex.com/docs/api/v1/meeting-preferences/update-default-site": "53f203297cfc0c89bc52fafa1461d8dc81f2e23223a5a4b317bd34d0cb04ac41",
+  "https://developer.webex.com/docs/api/v1/meeting-preferences/batch-refresh-personal-meeting-room-id": "41cbc52d12be0da8b14c7305a4b0eb43d2edc37bd3a28a02c260bdbc11047679"
 }
