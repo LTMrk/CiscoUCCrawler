@@ -2071,5 +2071,6 @@
   "https://developer.webex.com/docs/api/v1/meetings-summary-report/list-meeting-attendee-reports": "f27fdc885c67bf36dcec0ee8a7f19caca6dd95aaaede8b684a54f1fd372e61ee",
   "https://developer.webex.com/docs/guest-issuer": "a2279642b262ede135bf4478df5efd0ffdeb4e47d612c825fb3954cba96fda4b",
   "https://developer.webex.com/docs/api/v1/meeting-participants/query-meeting-participants-with-email": "4660b06c4ff2c8191350432ba3bfeeb5143124c521303e61444a22dcb9464b9c",
-  "https://developer.webex.com/api/v1/meeting-transcripts/list-meeting-transcripts-for-compliance-officer": "442470bc2ba62c3531ecbd1d057d7aa429cbd3e8f720eb5f0da0e4d16cdcb760"
+  "https://developer.webex.com/api/v1/meeting-transcripts/list-meeting-transcripts-for-compliance-officer": "442470bc2ba62c3531ecbd1d057d7aa429cbd3e8f720eb5f0da0e4d16cdcb760",
+  "https://developer.webex.com/docs/api/v1/meeting-polls/list-meeting-polls": "0f0972deac1b57d5cbb19dc5077864945fdb0f198fa55860f2496b4041bd3a42"
 }
