@@ -2024,5 +2024,6 @@
   "https://developer.webex.com/docs/api/v1/meeting-invitees/get-a-meeting-invitee": "92046309b8ec89941f6af7891d1f12fde5047200dfafc646317f54c3ac868313",
   "https://developer.webex.com/docs/api/v1/meeting-invitees/update-a-meeting-invitee": "e38e6b9bedc3a4730f11ad8220695ebdf0386b7db16c523d66de8cb85e2e960a",
   "https://developer.webex.com/docs/api/v1/meeting-invitees/delete-a-meeting-invitee": "9d754fe3985baaa38e7ad7150db5241568e1d2eb0873a51737b2fd3acb83cf35",
-  "https://developer.webex.com/docs/api/v1/meeting-participants/list-meeting-participants": "9ad0e98489c12b0af3e6ad2af2970d514cffbc1703a1d2322abb82e3d72ccae7"
+  "https://developer.webex.com/docs/api/v1/meeting-participants/list-meeting-participants": "9ad0e98489c12b0af3e6ad2af2970d514cffbc1703a1d2322abb82e3d72ccae7",
+  "https://developer.webex.com/docs/api/v1/meeting-participants/get-meeting-participant-details": "355d8efe05925cdb3a1e5e6cd398c72f724f51101994667746eb1e456d903039"
 }
