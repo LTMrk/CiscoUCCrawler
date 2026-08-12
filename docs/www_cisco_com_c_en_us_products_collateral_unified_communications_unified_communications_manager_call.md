@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/bulletin-c25-743410.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/bulletin-c25-743410.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/bulletin-c25-743410.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,8 +19,8 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html)
-  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/bulletin-c25-743410.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/bulletin-c25-743410.html)Show All Breadcrumbs
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/products/unified-communications/index.html)
   * [Call Control](https://www.cisco.com/c/en/us/products/unified-communications/call-control/index.html)
@@ -28,19 +28,19 @@
   * [Bulletins](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/bulletin-listing.html)
 
 
-# Cisco Unified Communications Manager, IM and Presence Service Bulletin for Cisco Push REST Service
+# Cisco Unity Connection Service Bulletin for Unified Messaging with Microsoft Office 365
 Bulletin
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/bulletin-c25-743410.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.pdf) (232.3 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/bulletin-c25-743410.pdf) (254.6 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:December 14, 2023
+Updated:June 17, 2022
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
@@ -54,50 +54,52 @@ US/CAN | 5am-5pm PT
 
 
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/bulletin-c25-743410.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.pdf) (232.3 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/bulletin-c25-743410.pdf) (254.6 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:December 14, 2023
+Updated:June 17, 2022
 #### Table of Contents
 ![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
 ![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
 #### Table of Contents
-  * [Background](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#Background "Background")
-  * [Impact](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#Impact "Impact")
-  * [Action](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#Action "Action")
-  * [Problem symptom](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#Problemsymptom "Problemsymptom")
-  * [For More Information](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#ForMoreInformation "ForMoreInformation")
+  * [Cisco Unity Connection product overview](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/bulletin-c25-743410.html#CiscoUnityConnectionproductoverview "CiscoUnityConnectionproductoverview")
+  * [Unified Messaging with Microsoft Office 365](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/bulletin-c25-743410.html#UnifiedMessagingwithMicrosoftOffice365 "UnifiedMessagingwithMicrosoftOffice365")
+  * [News lead](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/bulletin-c25-743410.html#Newslead "Newslead")
+  * [New feature](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/bulletin-c25-743410.html#Newfeature "Newfeature")
+  * [Upgrade path](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/bulletin-c25-743410.html#Upgradepath "Upgradepath")
+  * [Ordering information](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/bulletin-c25-743410.html#Orderinginformation "Orderinginformation")
 
 
-Background
-When a cluster is enabled for push notifications, Cisco Unified CM and Cisco Unified Communication IM&P use the Cisco Push REST service in the Cisco cloud to send push notifications to either the Apple Push Notification Service (APNS) or the Google Firebase Cloud Messaging (FCM) Push Notification service, which send push notifications to compatible Cisco Jabber (for messaging and calling) or Cisco Webex App clients (for calling) that run on Apple iOS or Android devices. Push notifications allow the system to communicate with the client, even after it has entered into background mode (also known as suspended mode). On March 29, 2024, Cisco will migrate the Cisco Push REST service from one data center to another.
-Impact
-Cisco customers who use Cisco Unified Communications Manager (Unified CM) or Cisco Unified Communication IM & Presence Service (IM&P) to manage push notifications may experience a failure of push notifications on or after March 29, 2024, for the following clients:
-●Cisco Jabber
-●Cisco Webex applications
-●Apple Push Notifications Service (APNS)
-●Google Firebase Cloud Messaging (FCM)  
-  
-
-This issue is due to the migration of the data center hosting the Cisco Push REST service.
-Action
-The recommended method of configuration is as stated in [Push Notifications Prerequisites](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_01.html#reference_CE836F3E3283BCF699F2AFC21426B783) to add fos-a.wbx2.com, push.webexconnect.com, and idbroker.webex.com to the SSL Decryption Exclusion list in the firewall.
-There is no action necessary for customers who use the above recommended method of configuration. 
-For customers who have configured IP address in their Firewall ACL it is recommended to use the Fully Qualified Domain Name (FQDN) as stated above.
-For customers who have stringent firewall policies that are based on the IP address requirements, please contact Cisco Technical Assistance Center (TAC) before March 29, 2024, which is the production cutover date.
-For more information, see the [Push Notifications (On-Premises Deployments)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_01.html) chapter of the Push Notifications Deployment Guide
-Problem symptom
-Push notifications that are sent from Cisco Unified CM and Cisco Unified Communication IM&P may fail to reach Cisco Jabber as well as Cisco Webex Application for Apple iOS and Android mobile clients on or after March 29, 2024.
-For More Information
-For further assistance or for more information about this Service Bulletin, contact the Cisco Technical Assistance Center (TAC) using one of the following methods:
-●[Open a service request on Cisco.com](https://mycase.cloudapps.cisco.com/case)
-●[By email or telephone](https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html)
+PB743410
+Cisco Unity Connection product overview
+Cisco Unity® Connection is a robust unified messaging and voicemail solution that accelerates collaboration by providing users with flexible message access options and the IT department with management simplicity.
+Cisco® Unity Connection boasts a robust feature set, including:
+●Fast, flexible user access to messages. Access and manage messages from your email inbox, web browser, Cisco Jabber®, a Cisco IP phone, smartphone, or tablet. Use the speech-activated tools for hands-free message retrieval or use speech-to-text transcriptions of voicemails, if preferred.
+●Simple and cost-effective administration and management. Cisco Unity Connection is virtualized, flexible, and easily integrated into diverse network and application environments. It provides easy provisioning, service activation, monitoring, performance analysis and reporting, upgrade and migration management, and license management.
+●Security, scalability, and compliance. Flexible in size and scale, Cisco Unity Connection is the unified messaging solution consistently selected by medium-sized businesses as well as global corporations, government agencies, and security-conscious individuals.
+Unified Messaging with Microsoft Office 365
+You can integrate Unity Connection with an Office 365 server for a unified messaging experience.
+When this feature is configured, you can synchronize your voicemails along with their transcriptions between Unity Connection and Office 365 mailboxes, use Text To Speech (TTS) to access Office 365 emails, and access Office 365 calendars and contacts.
+News lead
+Microsoft is changing the authentication mechanism supported by Exchange Online. Basic authentication will be deprecated and will support OAuth-based authentication.
+More information is available at https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online.
+New feature
+In Releases 11.5(1)SU8 / 12.5(1)SU2 and newer, Cisco Unity Connection supports the following types of authentication with Office 365:
+●OAuth-based authentication (new for this release)
+●Basic authentication
+Both types of authentication are supported until Microsoft fully deprecates basic authentication. After its deprecation, users must use OAuth-based authentication. System administrators can configure the authentication method in the Unified Messaging Service Configuration page of Cisco Unity Connection Administration.
+*For users of Cisco Unity Connection 11.5(1) SU7/12.5(1) SU1 and older releases, Unified Messaging with Office 365 will cease to work after Microsoft deprecates basic authentication. 
+Upgrade path
+OAuth-based authentication is available from Releases 11.5(1)SU8 / 12.5(1)SU2 and newer. Earlier releases of Cisco Unity Connection (for example, earlier 11.5(x) and 12.x releases) support basic authentication only when integrating with Office 365. Customers on earlier releases who wish to continue using Unified Messaging with Office 365 should plan to upgrade their deployments to Cisco Unity Connection Releases 11.5(1)SU8 / 12.5(1)SU2 or newer.
+Ordering information
+For 12.5(1)SU2+: <https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-version-12-x/model.html>.
+For 11.5(1)SU8+: <https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-version-11-x/model.html>.
 ### Our experts recommend
   * [Case Study IP Telephony Deployment - ACU](https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-communications-manager-callmanager/13913-ACU-casestudy.html "Case Study IP Telephony Deployment - ACU")
   * [Cisco Unified Communications on Cisco HyperFlex At-a-Glance](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/at-a-glance-c45-741603.html "Cisco Unified Communications on Cisco HyperFlex At-a-Glance")
