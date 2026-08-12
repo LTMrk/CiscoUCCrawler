@@ -2116,5 +2116,6 @@
   "https://developer.webex.com/docs/api/v1/reports/get-report-details": "4a4bfb05d37bc59ca7b21a54096574eae52295fdcba48c436295d5606dca1358",
   "https://developer.webex.com/docs/api/v1/reports/delete-a-report": "bd9c756cfa048925132533bf4d26237cbdbb07e121e6eaf4155a57cf142fb286",
   "https://developer.webex.com/docs/api/v1/organizations": "4ab3fe64f39770e8d24211ad2598d9fa791539ea3833e6667a2e125ba72c20c6",
-  "https://developer.webex.com/docs/api/v1/messages/delete-a-message": "e83abc3c9e0b84aec5368bbb08cd64cffefb24218bcb5d863b047d89526c9cbd"
+  "https://developer.webex.com/docs/api/v1/messages/delete-a-message": "e83abc3c9e0b84aec5368bbb08cd64cffefb24218bcb5d863b047d89526c9cbd",
+  "https://developer.webex.com/docs/api/v1/memberships/delete-a-membership": "178f632e2668b0e26b004c863f1175a1d6c35ecbc891cfc8206ed6329878d01c"
 }
