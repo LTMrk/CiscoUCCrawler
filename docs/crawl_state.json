@@ -2030,5 +2030,6 @@
   "https://developer.webex.com/docs/api/v1/meeting-participants/admit-participants": "9d7fe6d46f5c1c431d557cd2a0c8fe17e7a50934b007526cd418bc552e58f8ec",
   "https://developer.webex.com/docs/api/v1/meeting-participants/call-out-a-sip-participant": "1433e27d0ceba3226807158492c8acb9f6749f7d0d6cedcbcba5e98fa2b2be43",
   "https://developer.webex.com/docs/api/v1/meeting-participants/cancel-calling-out-a-sip-participant": "5f7bf22d100d7e0ce05a4298d8e8349a9e302b8f703b6126456e4d83d4d31c2b",
-  "https://developer.webex.com/docs/api/v1/recordings/list-recordings": "728e6fc926de1d30d5158ca1fde300feca57625935ddba118669c1a822decc85"
+  "https://developer.webex.com/docs/api/v1/recordings/list-recordings": "728e6fc926de1d30d5158ca1fde300feca57625935ddba118669c1a822decc85",
+  "https://developer.webex.com/docs/api/v1/recordings/query-recordings": "c651c43e45b7f3a5ccf905223f90b15d1de1af7df86cdb0f28fbb4304a40eb46"
 }
