@@ -51,3 +51,4 @@
 [2026-08-12T17:28:20.134942] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.cisco.com/c/en/us/products/contact-center/cloud-contact-center-solutions/index.html
 [2026-08-12T17:28:30.978668] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.cisco.com/c/en/us/products/collateral/contact-center/webex-contact-center/datasheet-c78-744541.html
 [2026-08-12T17:31:30.612925] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://software.cisco.com/download/navigator.html
+[2026-08-12T17:58:29.881026] ERROR - Command '['git', 'push']' returned non-zero exit status 1. | URL: GIT_PUSH
