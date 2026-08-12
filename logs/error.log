@@ -41,3 +41,8 @@
 [2026-08-12T17:03:02.544295] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text on small page (3996 bytes, 45 chars visible) | URL: https://help.webexconnect.io/edit/welcome
 [2026-08-12T17:03:05.348911] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://help.webexconnect.io/docs/send-sms
 [2026-08-12T17:03:17.155268] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://help.webexconnect.io/docs/introduction-1
+[2026-08-12T17:03:25.646229] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Cloudflare JS challenge | URL: https://help.webexconnect.io/docs/zendesk-node
+[2026-08-12T17:03:26.965094] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: HTTP 429 Too Many Requests | URL: https://help.webexconnect.io/docs/freshdesk-node
+[2026-08-12T17:03:28.241373] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: HTTP 429 Too Many Requests | URL: https://help.webexconnect.io/docs/zoho-crm
+[2026-08-12T17:03:29.509274] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: HTTP 429 Too Many Requests | URL: https://help.webexconnect.io/docs/shortened-urls
+[2026-08-12T17:03:31.213391] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/index.html
