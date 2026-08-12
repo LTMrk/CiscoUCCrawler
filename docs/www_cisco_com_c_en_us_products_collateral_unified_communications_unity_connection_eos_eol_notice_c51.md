@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-735213.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-735213.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-735213.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-731028.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-731028.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-731028.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,8 +19,8 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-735213.html)
-  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-735213.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-731028.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-731028.html)Show All Breadcrumbs
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/products/unified-communications/index.html)
   * [Unified Communications Applications](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html)
@@ -28,76 +28,137 @@
   * [End-of-Life and End-of-Sale Notices](https://www.cisco.com/c/en/us/products/unified-communications/unity-connection/eos-eol-notice-listing.html)
 
 
-# End-of-Sale and End-of-Life Announcement for the Cisco Unity Connection Version 9.x
+# End-of-Sale and End-of-Life Announcement for the Cisco Unity Connection Versions 8.5 and 8.6
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-735213.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-731028.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-735213.pdf) (208.3 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unity-connection/eos-eol-notice-c51-731028.pdf) (259.3 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:June 30, 2015
-Document ID:1476482454347790
+Updated:February 6, 2014
+Document ID:1459564750685345
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
-EOL10420
-Cisco announces the end-of-sale and end-of-life dates for the Cisco Unity Connection Version 9.x. The last day to order the affected product(s) is December 29, 2015. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract.
-**Table 1.** End-of-Life Milestones and Dates for the Cisco Unity Connection Version 9.x  
+EOL9582
+Cisco announces the end-of-sale and end-of-life dates for the Cisco Unity Connection Versions 8.5 and 8.6. The last day to order the affected product(s) is August 11, 2014. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s).Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract.
+**Table 1.** End-of-Life Milestones and Dates for the Cisco Unity Connection Versions 8.5 and 8.6  
 |  Milestone  |  Definition  |  Date  |  
 | --- | --- | --- |  
-|  End-of-Life Announcement Date  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  June 30, 2015  |  
-|  End-of-Sale Date  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  December 29, 2015  |  
+|  End-of-Life Announcement Date  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  February 10, 2014  |  
+|  End-of-Sale Date  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  August 11, 2014  |  
 |  Last Ship Date:  
-App. SW  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  March 28, 2016  |  
+App. SW  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  November 9, 2014  |  
 |  End of SW Maintenance Releases Date:  
-App. SW  |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  December 28, 2016  |  
+App. SW  |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  August 11, 2015  |  
 |  End of New Service Attachment Date:  
-App. SW  |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  December 28, 2016  |  
+App. SW  |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  August 11, 2015  |  
 |  End of Service Contract Renewal Date:  
-App. SW  |  The last date to extend or renew a service contract for the product.  |  March 26, 2018  |  
+App. SW  |  The last date to extend or renew a service contract for the product.  |  November 6, 2016  |  
 |  Last Date of Support:  
-App. SW  |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.  |  December 31, 2018  |  
+App. SW  |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  August 31, 2017  |  
 HW = Hardware OS SW = Operating System Software App. SW = Application Software 
 **Table 2.** Product Part Numbers Affected by This Announcement  
-|  End-of-Sale Product Part Number  |  Product Description  |  
+|  End-of-Sale Product   
+Part Number  |  Product Description  |  
 | --- | --- |  
-|  MIG-UCXN9-USR  |  Mig Unity 4.x or later/Unity Cxn 1.x to Unity Cxn 9.x Users  |  
-|  R-UCXN9-VUP-XU-K9  |  Migration from Unity 4.x or Unity Cxn 1.x to Unity Cxn 9.x  |  
-|  R-UNITYCN9-K9  |  Unity Connection 9.x Software  |  
-|  R-UNITYCN9-K9-LAB  |  Unity Connection 9.x Software  |  
-|  R-UNITYCN9-LAB-USR  |  Unity Connection 9x Lab  |  
-|  R-UNITYCN9-VUP-K9  |  Migration from Unity 4x or Unity Cxn 1x to Unity Cxn 9x  |  
-|  R-UNITYCN9-XU-K9  |  Unity Connection 9.x Software - Export Unrestricted  |  
-|  UCXN9-UTYMIG-K9-D=  |  Upg/Mig from Cxn 1.x/Unity4.x or later to Unity Cxn 9-Domino  |  
-|  UCXN9-UTYMIG-K9=  |  Upg/Mig from Unity Cxn 1.x/Unity 4.x or later to Unity Cxn 9  |  
-|  UCXN9-VER-UPG-K9=  |  Upgrade from Unity Cxn 2.x or later to Unity Connection 9.x  |  
-|  UCXN9-VERUPG-K9-D=  |  Upgrade from Unity Cxn 2.x or later to Unity Cxn 9.x -Domino  |  
-|  UNCN9-MIG-XU-D-K9=  |  Unity Connection 9.x Migration -Export Unrestricted - Domino  |  
-|  UNCN9-MIG-XU-K9=  |  Unity Connection 9.x Migration - Export Unrestricted  |  
-|  UNCN9-UPG-XU-D-K9=  |  Unity Connection 9.x Upgrade - Export Unrestricted - Domino  |  
-|  UNCN9-UPG-XU-K9=  |  Unity Connection 9.x Upgrade - Export Unrestricted  |  
-|  UNITYCN9-K9  |  Unity Connection 9.x Software  |  
-|  UNITYCN9-PAK  |  Unity Connection 9.x PAK  |  
-|  UNITYCN9-VUP-K9  |  Migration from Unity 4.x or Unity Cxn 1.x to Unity Cxn 9.x  |  
-|  UNITYCN9-VUP-USR  |  Upg Unity Cxn 2.x or later to Unity Cxn 9.x Users  |  
-|  UNITYCN9-VUP-XU-K9  |  Migration from Unity 4.x or Unity Cxn 1.x to Unity Cxn 9.x  |  
-|  UNITYCN9-XU-K9  |  Unity Connection 9.x Software - Export Unrestricted  |  
+|  UNITYCN8-7825  |  Unity Connection 8.x for 7825  |  
+|  UNITYCN8-7825-D  |  Unity Connection 8.x for 7825 - Domino  |  
+|  UNITYCN8-7835  |  Unity Connection 8.x for 7835  |  
+|  UNITYCN8-7835-D  |  Unity Connection 8.x for 7835 - Domino  |  
+|  UNITYCN8-7845  |  Unity Connection 8.x for 7845  |  
+|  UNITYCN8-7845-D  |  Unity Connection 8.x for 7845 - Domino  |  
+|  UNITYCN8-ADD-PS  |  Cisco Unity Connection 8.x Add-on for Public Sector  |  
+|  UNITYCN8-CPW  |  Cisco Unity Connection 8.x for CUWP  |  
+|  UNITYCN8-CPW-ADDON  |  Cisco Unity Connection 8.x Addon  |  
+|  UNITYCN8-CPW-PAK  |  Cisco Unity Connection 8.0 PAK and SW kit  |  
+|  UNITYCN8-CPW-USR  |  Cisco Unity Connection 8.0 Single User License  |  
+|  UNITYCN8-D-KIT  |  Unity Connection 8.x Domino Media and License  |  
+|  UNITYCN8-GOV-K9  |  Unity Connection 8.x Software  |  
+|  UNITYCN8-HA-7825  |  Unity Connection 8.x HA for 7825  |  
+|  UNITYCN8-HA-7825-D  |  Unity Connection 8.x HA for 7825 - Domino  |  
+|  UNITYCN8-HA-7835  |  Unity Connection 8.x HA for 7835  |  
+|  UNITYCN8-HA-7835-D  |  Unity Connection 8.x HA for 7835 - Domino  |  
+|  UNITYCN8-HA-7845  |  Unity Connection 8.x HA for 7845  |  
+|  UNITYCN8-HA-7845-D  |  Unity Connection 8.x HA for 7845 - Domino  |  
+|  UNITYCN8-HA-CPW  |  Cisco Unity Connection 8.0 High Availability  |  
+|  UNITYCN8-HA-PAK  |  Unity Connection 8.x HA PAK  |  
+|  UNITYCN8-HA-PORT  |  Unity Connection 8.x HA Ports  |  
+|  UNITYCN8-HA-PORT-D  |  Unity Connection 8.x HA Ports - Domino  |  
+|  UNITYCN8-HA-UPG  |  Upgrade HA to Unity Connection 8.x  |  
+|  UNITYCN8-HA-UPG-D  |  Upgrade HA to Unity Connection 8.x - Domino  |  
+|  UNITYCN8-HA-VMWARE  |  Unity Connection 8.x HA for VMware  |  
+|  UNITYCN8-HCS-ADDON  |  Cisco Unity Connection 8.x Add-On  |  
+|  UNITYCN8-HCS-PS  |  Cisco Unity Connection 8.x Add-on for Public Sector  |  
+|  UNITYCN8-HOTEL-ARC  |  One Unity Connection 8.x Hospitality Archive Mailbox  |  
+|  UNITYCN8-HOTEL-K9  |  Unity Connection 8.x Software  |  
+|  UNITYCN8-HOTEL-USR  |  One Unity Connection 8.x User - All user Features  |  
+|  UNITYCN8-K9  |  Unity Connection 8.x Software  |  
+|  UNITYCN8-MAXP-EA  |  Unity Connection 8.x Port License - Max ports for EA  |  
+|  UNITYCN8-MAXP-HCS  |  Unity Connection 8.x Port License - Max ports for HCS  |  
+|  UNITYCN8-NFR  |  Unity Connection 8.x Not for Resale  |  
+|  UNITYCN8-PAK  |  Unity Connection PAK  |  
+|  UNITYCN8-PORT  |  Unity Connection 8.x Ports  |  
+|  UNITYCN8-PORT-D  |  Unity Connection 8.x Ports - Domino  |  
+|  UNITYCN8-PT  |  Current Number of Ports in Existing Deployment  |  
+|  UNITYCN8-PT-LIC  |  Unity Connection 8.x Port License  |  
+|  UNITYCN8-RTU  |  Unity Connection 8.x Right to Use  |  
+|  UNITYCN8-SC-GUEST  |  Speech Connect for Cisco Unity Connection 8.x Guest User  |  
+|  UNITYCN8-SV10MO  |  SpeechView for Unity Connection 8.x 10 Month license (add-on  |  
+|  UNITYCN8-SV11MO  |  SpeechView for Unity Connection 8.x 11 Month license (add-on  |  
+|  UNITYCN8-SV1MO  |  SpeechView for Unity Connection 8.x 1 Month license (add-on)  |  
+|  UNITYCN8-SV25USR  |  SpeechView CUC 8.x One Yr bundle? 25 usr CUC, 25 usr SV  |  
+|  UNITYCN8-SV2MO  |  SpeechView for Unity Connection 8.x 2 Month license (add-on)  |  
+|  UNITYCN8-SV3MO  |  SpeechView for Unity Connection 8.x 3 Month license (add-on)  |  
+|  UNITYCN8-SV4MO  |  SpeechView for Unity Connection 8.x 4 Month license (add-on)  |  
+|  UNITYCN8-SV5MO  |  SpeechView for Unity Connection 8.x 5 Month license (add-on  |  
+|  UNITYCN8-SV6MO  |  SpeechView for Unity Connection 8.x 6 Month license (add-on)  |  
+|  UNITYCN8-SV7MO  |  SpeechView for Unity Connection 8.x 7 Month license (add-on)  |  
+|  UNITYCN8-SV8MO  |  SpeechView for Unity Connection 8.x 8 Month license (add-on)  |  
+|  UNITYCN8-SV9MO  |  SpeechView for Unity Connection 8.x 9 Month license (add-on)  |  
+|  UNITYCN8-SVANNUAL  |  SpeechView for Unity Connection 8.x Annual 12 month license  |  
+|  UNITYCN8-SVNFR  |  SpeechView for Unity Connection 8.x NFR Addon  |  
+|  UNITYCN8-SVNFR-USR  |  SpeechView for Unity Connection 8.x NFR Addon Usr (10 users)  |  
+|  UNITYCN8-USR  |  One Unity Connection 8.x User - All user Features  |  
+|  UNITYCN8-USR-ADDON  |  Unity Connection 8.x Additional Mailbox for CUWL Only  |  
+|  UNITYCN8-USR-D  |  One Unity Connection 8.x User - All user Features - Domino  |  
+|  UNITYCN8-USR-EA  |  Unity Connection 8.x User License for EA  |  
+|  UNITYCN8-USR-HCS  |  Unity Connection 8.x User License for HCS  |  
+|  UNITYCN8-UWL  |  Unity Connection 8.x for CUWL Only  |  
+|  UNITYCN8-UWL-D  |  Unity Connection 8.x Domino for CUWL Only  |  
+|  UNITYCN8-UWLA  |  Unity Connection 8.0 for CUWL Addon only  |  
+|  UNITYCN8-UWLA-D  |  Unity Connection 8.0 for CUWL Addon only - Domino  |  
+|  UNITYCN8-UWLA-PAK  |  Unity Connection 8.x Add-on Claim Cert w/PAK  |  
+|  UNITYCN8-VMWARE  |  Unity Connection 8.x for VMware  |  
+|  UNITYCN8-VMWARE-1  |  Unity Connection 8.x for VMware Platform Overlay 1  |  
+|  UNITYCN8-VMWARE-2  |  Unity Connection 8.x for VMware Platform Overlay 2  |  
+|  UNITYCN8-VMWARE-D  |  Unity Connection 8.x for VMware - Domino  |  
+|  UNITYCN8-VMWARE-XU  |  Unity Connection for VMware Export Unrestricted  |  
+|  UNITYCN8-VUP-K9  |  Migration from Unity 4.x or Unity Cxn 1.x to Unity Cxn 8.x  |  
+|  UNITYCN8-VUP-USR  |  Mig Unity 4.x or later/Unity Cxn 1.x to Unity Cxn 8.x Users  |  
+|  UNITYCN8-VUP-USR-D  |  Mig Unity 4.x or later/Unity Cxn 1.x to CUC 8.x Usr - Domino  |  
+|  UNITYCN8-VUP-XU-K9  |  Mig from Unity 4.x or UCxn 1.x to UCxn 8.x - Exp Unres  |  
+|  UNITYCN8-XU-K9  |  Unity Connection 8.x Software - Export Unrestricted  |  
 Product Migration Options
-There is no replacement available for the Cisco Unity Connection Version 9.x at this time.
-Customers are encouraged to migrate to Cisco Unity Connection Version 10.0 and later. Information about this product can be found at: <http://www.cisco.com/c/en/us/products/collateral/unified-communications/unity/data-sheet-c78-729872.html>.
+There is no replacement available for the Cisco Unity Connection Versions 8.5 and 8.6 at this time.
+Customers are encouraged to migrate to Cisco Unity Connection Version 9.0. Information about this product can be found at: <http://www.cisco.com/en/US/prod/collateral/voicesw/ps6789/ps5745/ps6509/data_sheet_c78-713325.html>.
+This notice does not apply to Cisco Unity Connection 8.x products for the government.
 Customers may be able to use the Cisco Technology Migration Program (TMP) where applicable to trade-in eligible products and receive credit toward the purchase of new Cisco equipment. For more information about Cisco TMP, customers should work with their Cisco Partner or Cisco account team. Cisco Partners can find additional TMP information on Partner Central at <http://www.cisco.com/web/partners/incentives_and_promotions/tmp.html>.
-Customers may be able to continue to purchase the Cisco Unity Connection Version 9.x through the Cisco Certified Refurbished Equipment program. Refurbished units may be available in limited supply for sale in certain countries on a first-come, first-served basis until the Last Date of Support has been reached. For information about the Cisco Certified Refurbished Equipment program, go to: <http://www.cisco.com/go/eos>.
+Customers may be able to continue to purchase Cisco Unity Connection Versions 8.5 and 8.6 through the Cisco Certified Refurbished Equipment program. Refurbished units may be available in limited supply for sale in certain countries on a first-come, first-served basis until the Last Date of Support has been reached. For information about the Cisco Certified Refurbished Equipment program, go to: <http://www.cisco.com/go/eos>.
 Service prices for Cisco products are subject to change after the product End-of-Sale date.
 The Cisco Takeback and Recycle program helps businesses dispose properly of surplus products that have reached their end of useful life. The program is open to all business users of Cisco equipment and its associated brands and subsidiaries. For more information, go to: <http://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html>.
 For More Information
-For more Information about the Cisco Unity Connection Version 10.x, visit <http://www.cisco.com/c/en/us/products/collateral/unified-communications/unity/data-sheet-c78-729872.html>, or contact your local account representative.
-For more information about the Cisco End-of-Life Policy, go to: <http://www.cisco.com/en/US/products/products_end-of-life_policy.html>.
-For more information about the Cisco Product Warranties, go to: <http://www.cisco.com/en/US/products/prod_warranties_listing.html>.
-To subscribe to receive end-of-life/end-of-sale information, go to: <http://www.cisco.com/cisco/support/notifications.html>.
+For more information about the Cisco Unity Connection Version 9.0, visit <http://www.cisco.com/en/US/prod/collateral/voicesw/ps6789/ps5745/ps6509/data_sheet_c78-713325.html>, or contact your local account representative.
+For more information about the Cisco End-of-Life Policy, go to:  
+<http://www.cisco.com/en/US/products/products_end-of-life_policy.html>.
+For more information about the Cisco Product Warranties, go to:  
+<http://www.cisco.com/en/US/products/prod_warranties_listing.html>.
+To subscribe to receive end-of-life/end-of-sale information, go to:  
+<http://www.cisco.com/cisco/support/notifications.html>.
 Subscribe for RSS Notifications for End-of-Life and End-of-Sale Notices
 To subscribe to the End-of-Life and End-of-Sale RSS Feed, insert the following URL into your RSS application: <http://www.cisco.com/web/feeds/products/end_of_life_rss.xml>.
 Any authorized translation issued by Cisco Systems or affiliates of this end-of-life Product Bulletin is intended to help customers understand the content described in the English version. This translation is the result of a commercially reasonable effort; however, if there are discrepancies between the English version and the translated document, please refer to the English version, which is considered authoritative.
