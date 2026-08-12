@@ -22167,3 +22167,151 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/blog/how-i-used-chatgpt-to-build-a-webex-integration
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/blog/how-i-used-chatgpt-to-build-a-webex-integration)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/blog/how-i-used-chatgpt-to-build-a-webex-integration)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/blog/how-i-used-chatgpt-to-build-a-webex-integration)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+# How I Used ChatGPT to Build a Webex Integration
+April 3, 2023
+![Adam Weeks](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt3280371eceea2196/6a60ed759ee77e32d96ed610/Adam_Headshot_Cropped.png?width=100&height=100&fit=crop)
+Adam WeeksTechnical Leader, Webex Developer Relations
+![How I Used ChatGPT to Build a Webex Integration](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltc53efe7fb345dd9d/642afd6b0afb1c108e792bce/chatgpt-integration-1.png?width=900&height=317&fit=crop)
+One of the most powerful features of Webex is its ability to integrate with other tools and platforms. In this blog post, we'll show you how to use ChatGPT, a large language model trained by OpenAI, to generate the code for a Webex integration that receives a webhook and converts the data into an adaptive card that is posted into a Webex space by a Webex bot.
+Using ChatGPT, you can generate the code needed to process the webhook data and generate an adaptive card that can display the data in a visually appealing way. You can then use this code to build your Webex integration.
+Whether you're a developer looking to streamline your integration workflows or a business user looking to improve your team's productivity, this blog post will provide you with a step-by-step guide to using ChatGPT to generate the code for a powerful Webex integration. So, let's get started!
+### Our Project
+Our ChatGPT-generated integration will receive a webhook from an external service and process the webhook data and convert it into an adaptive card. The adaptive card will display the data in a visually appealing way and provide buttons or other interactive elements that allow users to act on the data. Once the adaptive card has been generated, our integration will use a Webex bot to post the card into a Webex space, where it can be viewed and interacted with by the appropriate team members. This integration will allow teams to quickly and easily access and act on important data from external sources within their Webex spaces, improving collaboration and productivity.
+#### Webex Integrations
+A Webex integration is a connection between Webex and another tool or platform that allows you to enhance the functionality of both. With a Webex integration, you can bring together the collaboration features of Webex with the data and workflows of other tools, such as project management software or customer relationship management (CRM) systems. This allows you to streamline your workflows, reduce manual data entry, and collaborate more effectively with your team. For example, you might use a Webex integration to automatically create a Webex meeting when a new project is created in a project management tool, or to automatically post updates to a Webex space when a new lead is added to a CRM system. The possibilities are endless, and building a Webex integration can help you work smarter and more efficiently.
+#### Webhooks
+Webhooks are a way for applications to send real-time information to other applications or services. They work by sending an HTTP request to a URL specified by the receiving application, which triggers an action based on the data contained in the request. Webhooks are commonly used to trigger automated actions, such as sending notifications or updating data in response to an event in another application.
+#### Adaptive Cards
+Adaptive Cards are a type of user interface (UI) component that allows developers to create interactive, data-rich cards that can be displayed in various contexts, such as in a messaging app or on a website. Adaptive Cards can be customized to display different types of data, including text, images, and interactive elements like buttons or dropdown menus. They are designed to be flexible and responsive, adapting to different screen sizes and device types.
+#### Webex Bots
+Webex Bots are a type of virtual assistant that can interact with users in Webex spaces. Bots can be used to automate tasks, such as sending notifications or scheduling meetings, and can be customized to perform specific actions based on user input. Webex Bots are programmable using a variety of languages, including Python and JavaScript, and can be integrated with other applications and services using Webex APIs. Bots can improve team collaboration and productivity by providing quick access to important information and automating routine tasks.
+### Working with ChatGPT
+Since this was my first attempt at using ChatGPT to generate code, the first thing I did was to ask ChatGPT how to be successful in having it generate code (yes, very meta, but very rewarding). Here was its response:
+Copy
+
+```
+Define the inputs and outputs: Determine what data you want to receive 
+from the webhook, and how you want to display it in the adaptive card. 
+This will help you specify the inputs and outputs that are needed for 
+your code.
+
+Use ChatGPT to generate the code: Once you have defined your inputs and 
+outputs, you can use ChatGPT to generate the code needed to process the 
+webhook data and create the adaptive card. You can do this by providing 
+ChatGPT with a description of the functionality you want to implement 
+and the programming language you want to use.
+
+Test and refine the code: Once you have the code generated by ChatGPT, 
+you will need to test it to ensure that it works as expected. You may 
+need to make some tweaks and refinements to the code to get it working 
+perfectly with your specific webhook and Webex bot.
+
+Integrate the code with your webhook and Webex bot: Once you are 
+satisfied with the code, you can integrate it with your webhook and 
+Webex bot to start receiving data and posting adaptive cards in Webex spaces.
+
+```
+
+#### Inputs and Outputs
+I decided to make our sample application receive information about rocket launches. I told ChatGPT to generate a sample webhook payload that gives information about rocket launches. Without any other prompts, this information contained the basics like launch date, launch location, and mission name. But it also gave me info that I hadn’t considered like mission patch image URL, live feed URL, and rocket payload! I now had my “input”.
+For our output, I told it to generate an adaptive card with that information in version 1.3 spec since that is what Webex currently supports. It quickly printed the JSON for an adaptive card with that data. I copied the JSON and tested it in the Adaptive Card Designer, which worked perfectly!
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltfc71e5e190725254/642afd6bab116a10dd6a2d77/chatgpt-integration-2.png)
+#### Generate Code
+Now that I had my inputs and outputs, I asked ChatGPT to generate a python application with: “Now that we have a sample webhook and a sample adaptive card, can you write the code in python that would receive the webhook, process the data, then post the data as an adaptive card to a Webex space? Be sure to include comments since this is sample code.” I was presented with an app.py file that appeared to do exactly what I asked!
+#### Test and Refine
+When I ran the code, a Flask server started up and was listening on port 5000. I didn’t feel like setting up Postman, so I asked ChatGPT to generate a curl command that would send the webhook payload we generated earlier, here’s the output:
+
+```
+curl -X POST -H "Content-Type: application/json" -d @payload.json http://localhost:5000/webhook
+
+```
+
+Running the curl command, I had a couple of errors that I had ChatGPT fix. One was major: it didn’t run the app! One was the way it encoded the request body of the adaptive card which was a quick fix. I ran the application again (adding my bot token and room id) and received a message in my space!
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltfd9b72af3389a80f/642afd6bb57cb810acb7a9f2/chatgpt-integration-3.png)
+Once I had the basic functionality, I knew I wanted to add a few more features. Since security is paramount at Cisco, I asked ChatGPT to load the bot’s token and room id from environment variables instead of having it hard coded. It added the `dotenv` library and now our code is more secure for open sourcing!
+I also had it add a status page endpoint so that we can see the status of our bot via a web browser. It created a new `/status` endpoint and loaded the status page html via Flask’s `render_template` functionality.
+### Ship It
+Happy with the results, I set up a GitHub repository and was about to publish when I remembered I needed a `README.MD` file and a `.gitignore` file. Of course, I had ChatGPT generate those for me as well! They both looked great, so I included them in my repo and pushed to GitHub!
+The code is now available to try out and utilize for yourself!
+<https://github.com/WebexSamples/webhook-to-card>
+Check it out and give it a try. It was exciting to see how much ChatGPT knew about Webex APIs and integrations. Don’t overlook its capabilities for your next project!
+Blog Categories
+  * [Product Announcements](https://developer.webex.com/blog/categories/product-announcements)
+  * [How To](https://developer.webex.com/blog/categories/how-tos)
+  * [Events](https://developer.webex.com/blog/categories/events)
+  * [Developer Stories](https://developer.webex.com/blog/categories/developer-stories)
+
+
+Share This Article
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
