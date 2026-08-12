@@ -2012,5 +2012,6 @@
   "https://developer.webex.com/docs/api/v1/meetings/update-meeting-control-status": "46d2028af41a6b8c3a208a91f47b74b3b4c40b26ceb429aa44d7eb349141a1fc",
   "https://developer.webex.com/docs/api/v1/meetings/get-registration-form-for-a-meeting": "8c902feca41fb1e544bd417f1fbff5dfe416c988276bcd5b89b5fce2cd31153d",
   "https://developer.webex.com/docs/api/v1/meetings/get-detailed-information-for-a-meeting-registrant": "9a6b8bac58534f8c1c85202b83a4457b14cd36c20553e430ec22712d1cce076e",
-  "https://developer.webex.com/docs/api/v1/meetings/list-meeting-registrants": "2b0774a077a4f4a2be5638a67ee9ead1ee762b2daa40a04b1bf4634ae17549b1"
+  "https://developer.webex.com/docs/api/v1/meetings/list-meeting-registrants": "2b0774a077a4f4a2be5638a67ee9ead1ee762b2daa40a04b1bf4634ae17549b1",
+  "https://developer.webex.com/docs/api/v1/meetings/batch-update-meeting-registrants-status": "f58924a3d817903e76c4ab3e2a99bc81d921c403dbe8d5c636e1d78c72a5ec68"
 }
