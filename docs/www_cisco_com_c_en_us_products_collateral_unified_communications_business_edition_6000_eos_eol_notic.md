@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-739191.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-739191.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-739191.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738414.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738414.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738414.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,8 +19,8 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-739191.html)
-  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-739191.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738414.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738414.html)Show All Breadcrumbs
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/products/unified-communications/index.html)
   * [Call Control](https://www.cisco.com/c/en/us/products/unified-communications/call-control/index.html)
@@ -28,70 +28,61 @@
   * [End-of-Life and End-of-Sale Notices](https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html)
 
 
-# End-of-Sale and End-of-Life Announcement for the Cisco Business Edition 6000S (M2) Appliance
+# End-of-Sale and End-of-Life Announcement for the Cisco Business Edition 6000 Version 11.0 Software Options
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-739191.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738414.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-739191.pdf) (220.2 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738414.pdf) (198.1 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:June 8, 2017
-Document ID:1496943435417844
+Updated:January 12, 2017
+Document ID:1484066264487489
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
-EOL11287
-Cisco announces the end-of-sale and end-of-life dates for the Cisco Business Edition 6000S (M2) Appliance. The last day to order the affected product(s) is December 8, 2017. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract.
-**Table 1.** End-of-Life Milestones and Dates for the Cisco Business Edition 6000S (M2) Appliance  
+EOL11211
+Cisco announces the end-of-sale and end-of-life dates for the Cisco Business Edition 6000 Version 11.0 Software Options. The last day to order the affected product(s) is July 10, 2017. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract.
+**Table 1.** End-of-Life Milestones and Dates for the Cisco Business Edition 6000 Version 11.0 Software Options  
 |  Milestone  |  Definition  |  Date  |  
 | --- | --- | --- |  
-|  End-of-Life Announcement Date  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  June 9, 2017  |  
-|  End-of-Sale Date:  
-HW  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  December 8, 2017  |  
+|  End-of-Life Announcement Date  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  January 9, 2017  |  
+|  End-of-Sale Date  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  July 10, 2017  |  
 |  Last Ship Date:  
-HW  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  March 8, 2018  |  
-|  End of Routine Failure Analysis Date:   
-HW  |  The last-possible date a routine failure analysis may be performed to determine the cause of hardware product failure or defect.  |  December 8, 2018  |  
+App. SW  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  October 8, 2017  |  
+|  End of SW Maintenance Releases Date:  
+App. SW  |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  July 10, 2018  |  
 |  End of New Service Attachment Date:  
-HW  |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  December 8, 2018  |  
+App. SW  |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  July 10, 2018  |  
 |  End of Service Contract Renewal Date:  
-HW  |  The last date to extend or renew a service contract for the product.  |  March 5, 2022  |  
+App. SW  |  The last date to extend or renew a service contract for the product.  |  October 6, 2019  |  
 |  Last Date of Support:  
-HW  |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  December 31, 2022  |  
+App. SW  |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.  |  July 31, 2020  |  
 HW = Hardware OS SW = Operating System Software App. SW = Application Software 
 **Table 2.** Product Part Numbers Affected by This Announcement  
-|  End-of-Sale Product Part Number  |  Product Description  |  Replacement Product Part Number  |  Replacement Product Description  |  Additional Information  |  
+|  End-of-Sale Product  
+Part Number  |  Product Description  |  Replacement Product Part Number  |  Replacement Product Description  |  Additional Information  |  
 | --- | --- | --- | --- | --- |  
-|  BE6S-BRI-M2-K9  |  Cisco BE6000S (4xBRI,10xCUBE), Export Restricted SW  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  BE6S-BRI-M2-XU  |  Cisco BE6000S (4xBRI,10xCUBE), Export Unrestricted SW  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  BE6S-FXO-M2-K9  |  Cisco BE6000S (4xFXO,10xCUBE), Export Restricted SW  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  BE6S-FXO-M2-XU  |  Cisco BE6000S (4xFXO,10xCUBE), Export Unestricted SW  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  BE6S-PRI-M2-K9  |  Cisco BE6000S (1xPRI,10xCUBE), Export Restricted SW  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  BE6S-PRI-M2-XU  |  Cisco BE6000S (1xPRI,10xCUBE), Export Unrestricted SW  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CIT-8-16-MEM-UPG  |  Upgrades E140/160 First memory dimm from 8 to 16GB  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CIT-E160D-M2BUN/K9  |  UCS-E160D-M2/K9 bundled with ISR-G2  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CIT-HDSASED600G  |  600 GB, SAS SED hard disk drive for DoubleWide UCS-E  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CIT-PVDM3-32  |  32-channel high-density voice and video DSP module  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CIT-VIC2-2BRINT/TE  |  Two-port Voice Interface Card - BRI (NT and TE)  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CIT-VIC2-4FXO  |  Four-port Voice Interface Card - FXO (Universal)  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
-|  CIT-VWIC31MFTT1/E1  |  1-Port 3rd Gen Multiflex Trunk Voice/WAN Int. Card - T1/E1  |  See the Product Migration Options section below for detailed information on replacing this product.  |  -  |  -  |  
+|  BE6K-SW-11.0  |  Business Edition 6000 v11 export restricted software  |  BE6K-SW-11.5  |  Business Edition 6000 v11.5 export restricted software  |  -  |  
+|  BE6K-SW-11.0-XU  |  Business Edition 6000 v11 export unrestricted software  |  BE6K-SW-11.5-XU  |  Business Edition 6000 v11.5 export unrestricted software  |  -  |  
+|  BE6S-SW-11.0  |  Business Edition 6000S v11 export restricted software  |  BE6S-SW-11.5  |  Business Edition 6000S v11.5 export restricted software  |  -  |  
+|  BE6S-SW-11.0-XU  |  Business Edition 6000S v11 export unrestricted software  |  BE6S-SW-11.5-XU  |  Business Edition 6000S v11.5 export unrestricted software  |  -  |  
 Product Migration Options
-This announcement does not affect the Cisco Business Edition 6000M, 6000H, 7000M, or 7000H appliances, or the Cisco Business Edition 6000 overall solution. Customers of Cisco Business Edition 6000S are encouraged to migrate to the Cisco Business Edition 4000 or 6000M appliances. Information about the Cisco Business Edition 4000 Cisco product ID BE4SVK9 can be found at: [http://www.cisco.com/go/be4000](https://www.cisco.com/go/be4000). Information about the Cisco Business Edition 6000M Cisco product ID BE6MM4K9 or BE6MM4XU can be found at: [http://www.cisco.com/go/be6000](https://www.cisco.com/go/be6000).
-Customers may be able to use the Cisco Technology Migration Program (TMP) where applicable to trade-in eligible products and receive credit toward the purchase of new Cisco equipment. For more information about Cisco TMP, customers should work with their Cisco Partner or Cisco account team. Cisco Partners can find additional TMP information on Partner Central at [http://www.cisco.com/web/partners/incentives_and_promotions/tmp.html](https://www.cisco.com/web/partners/incentives_and_promotions/tmp.html).
-Customers may be able to continue to purchase the Cisco Business Edition 6000S (M2) Appliance through the Cisco Certified Refurbished Equipment program. Refurbished units may be available in limited supply for sale in certain countries on a first-come, first-served basis until the Last Date of Support has been reached. For information about the Cisco Certified Refurbished Equipment program, go to: [http://www.cisco.com/go/eos](https://www.cisco.com/go/eos).
+Customers are encouraged to migrate to Cisco Business Edition 6000 Version 11.5.
 Service prices for Cisco products are subject to change after the product End-of-Sale date.
-The Cisco Takeback and Recycle program helps businesses properly dispose of surplus products that have reached their end of useful life. The program is open to all business users of Cisco equipment and its associated brands and subsidiaries. For more information, go to: [http://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html](https://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html).
+The Cisco Takeback and Recycle program helps businesses properly dispose of surplus products that have reached their end of useful life. The program is open to all business users of Cisco equipment and its associated brands and subsidiaries. For more information, go to: <http://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html>[.](http://www.cisco.com/web/about/ac227/ac228/ac231/about_cisco_takeback_recycling.html)
 For More Information
-For more Information about the Cisco Business Edition 4000 or 6000M, visit [http://www.cisco.com/go/be6000](https://www.cisco.com/go/be6000), or contact your local account representative.
-For more information about the Cisco End-of-Life Policy, go to: [http://www.cisco.com/en/US/products/products_end-of-life_policy.html](https://www.cisco.com/en/US/products/products_end-of-life_policy.html).
-For more information about the Cisco Product Warranties, go to: [http://www.cisco.com/en/US/products/prod_warranties_listing.html](https://www.cisco.com/en/US/products/prod_warranties_listing.html).
-To subscribe to receive end-of-life/end-of-sale information, go to: [http://www.cisco.com/cisco/support/notifications.html](https://www.cisco.com/cisco/support/notifications.html).
+For more information about the Cisco End-of-Life Policy, go to:  
+<http://www.cisco.com/en/US/products/products_end-of-life_policy.html>[.](http://www.cisco.com/en/US/products/products_end-of-life_policy.html)
+For more information about the Cisco Product Warranties, go to:  
+<http://www.cisco.com/en/US/products/prod_warranties_listing.html>.
+To subscribe to receive end-of-life/end-of-sale information, go to:  
+<http://www.cisco.com/cisco/support/notifications.html>.
 Subscribe for RSS Notifications for End-of-Life and End-of-Sale Notices
-To subscribe to the End-of-Life and End-of-Sale RSS Feed, insert the following URL into your RSS application: [http://www.cisco.com/web/feeds/products/end_of_life_rss.xml](https://www.cisco.com/web/feeds/products/end_of_life_rss.xml).
+To subscribe to the End-of-Life and End-of-Sale RSS Feed, insert the following URL into your RSS application: <http://www.cisco.com/web/feeds/products/end_of_life_rss.xml>.
 Any authorized translation issued by Cisco Systems or affiliates of this end-of-life Product Bulletin is intended to help customers understand the content described in the English version. This translation is the result of a commercially reasonable effort; however, if there are discrepancies between the English version and the translated document, please refer to the English version, which is considered authoritative.
 ### Contact Cisco
   * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
@@ -104,3 +95,49 @@ Any authorized translation issued by Cisco Systems or affiliates of this end-of-
 
 ### Was this Document Helpful?
 Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
