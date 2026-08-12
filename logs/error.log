@@ -57,3 +57,4 @@
 [2026-08-12T22:46:39.943259] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: http://webex.com/us/en/solutions/industries/nonprofits.html
 [2026-08-12T22:47:58.667972] ERROR - Command '['git', 'push']' returned non-zero exit status 1. | URL: GIT_PUSH
 [2026-08-12T22:48:08.731931] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (14597 bytes, 0 chars visible) | URL: https://academy.webex.com
+[2026-08-12T22:48:14.511647] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/customers.html
