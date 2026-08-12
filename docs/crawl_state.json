@@ -2005,5 +2005,6 @@
   "https://developer.webex.com/docs/api/v1/meetings/list-group-meetings": "343c10103db4597c133fd3c6ad3ab7b742f993c010364c07054e50ee72254a0d",
   "https://developer.webex.com/docs/api/v1/meetings/patch-a-group-meeting": "515bd536dcf64c69d8a717d4c9b90b48618a232b39a3111461d1c24e115ef3e7",
   "https://developer.webex.com/docs/api/v1/meetings/update-a-meeting": "2bacc8ce856e0b9fbb8cc33e5b4febca7c37cf500d320e96de4fbabef8af760a",
-  "https://developer.webex.com/docs/api/v1/meetings/patch-a-meeting": "09755cf95b2c5e3ae00c419e0899d6ffc46456f51ef3f36f09a9a4911094c326"
+  "https://developer.webex.com/docs/api/v1/meetings/patch-a-meeting": "09755cf95b2c5e3ae00c419e0899d6ffc46456f51ef3f36f09a9a4911094c326",
+  "https://developer.webex.com/docs/api/v1/meetings/delete-a-meeting": "9fb91aab331d48054d382bca14e30bb78c31a70a459223a8efaea8cebcc0c431"
 }
