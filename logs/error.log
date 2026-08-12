@@ -78,3 +78,4 @@ Code context:
  782                       # hop, so we trace the `request.redirected_from` links until the
  783                       # first response that differs from the final one and surface its | URL: https://idreg.cloudapps.cisco.com/idreg/guestRegistration.do
 [2026-08-12T14:56:10.145915] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://software.cisco.com/download/navigator.html
+[2026-08-12T14:57:42.839048] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.cisco.com/c/en/us/solutions/collaboration/webex-teams.html
