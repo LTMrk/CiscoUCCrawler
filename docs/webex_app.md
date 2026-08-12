@@ -3381,3 +3381,970 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/messaging/docs/api/changelog/webex-messaging
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Changelog
+Webex Messaging
+  * [Overview](https://developer.webex.com/messaging/docs/messaging)
+  * Guides
+  * [REST API Basics](https://developer.webex.com/messaging/docs/basics)
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * SDK
+  * [AI Assistant for Developers](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/messaging/docs/api/guides/troubleshooting)
+  * [Widgets](https://developer.webex.com/messaging/docs/widgets)
+  * [Tutorials](https://developer.webex.com/messaging/docs/tutorials)
+  * [Suite Sandbox](https://developer.webex.com/messaging/docs/developer-sandbox-guide)
+  * [Beta Program Overview](https://developer.webex.com/messaging/docs/webex-developer-beta-program)
+  * [Webex Status API](https://developer.webex.com/messaging/docs/webex-status-api)
+
+
+# Changelog
+This page lists recent and upcoming changes to the Webex APIs. Contact [Webex Developer Support](https://developer.webex.com/support) with any questions.
+## August 10, 2026
+REST New
+  * A [service app](https://developer.webex.com/docs/service-apps) authorized with group level privileges can now access group recordings via the [List Group Recordings](https://developer.webex.com/docs/api/v1/recordings/list-group-recordings) and [Get Group Recording Details](https://developer.webex.com/docs/api/v1/recordings/get-group-recording-details) APIs.
+
+
+* * *
+## August 6, 2026
+New
+  * A [service app](https://developer.webex.com/docs/service-apps) authorized with group level privileges can now list group meetings or patch a group meeting via the [List Group Meetings](https://developer.webex.com/docs/api/v1/meetings/list-group-meetings) and [Patch a Group Meeting](https://developer.webex.com/docs/api/v1/meetings/patch-a-group-meeting) APIs.
+
+
+* * *
+## August 5, 2026
+REST Breaking Change
+  * Webex Calling (WxC) is being enhanced to support full Unicode for caller ID and to properly handle the firstName, lastName, and displayName fields for users and virtual lines. Previously, single dot (.) and dash (-) characters were used as placeholders when these fields were null or empty. However, this caused issues in some APIs where these placeholders appeared as literal characters, creating poor user experiences. The enhancement now treats single dot or dash values as null for these fields in APIs, eliminating these issues. Additionally, customers should avoid setting firstName, lastName, and displayName to single dot or dash characters, as these will now be treated as null values.
+As a result of this enhancement, the `firstName`, `lastName`, and `displayName` fields will become optional in Webex Calling APIs. This change affects the following APIs:
+    * [Get the details of a specific DECT Network Base Station](https://developer.webex.com/docs/api/v1/dect-devices-settings/get-the-details-of-a-specific-dect-network-base-station)
+    * [Get Specific DECT Network Handset Details](https://developer.webex.com/docs/api/v1/dect-devices-settings/get-specific-dect-network-handset-details)
+    * [Get List of Handsets for a DECT Network ID](https://developer.webex.com/docs/api/v1/dect-devices-settings/get-list-of-handsets-for-a-dect-network-id)
+    * [Search Shared-Line Appearance Members New](https://developer.webex.com/docs/api/v1/user-call-settings-2-2/search-shared-line-appearance-members-new)
+    * [Get My Own Details](https://developer.webex.com/docs/api/v1/call-settings-for-me-1-3/get-my-own-details)
+    * [Get My Call Pickup Group Settings](https://developer.webex.com/docs/api/v1/call-settings-for-me-1-3/get-my-call-pickup-group-settings)
+    * [Get My Secondary Line Owner Call Pickup Group Settings](https://developer.webex.com/docs/api/v1/call-settings-for-me-1-3/get-my-secondary-line-owner-call-pickup-group-settings)
+    * [Get My Executive Assigned Assistants](https://developer.webex.com/docs/api/v1/call-settings-for-me-1-3/get-my-executive-assigned-assistants)
+    * [Get My Executive Available Assistants](https://developer.webex.com/docs/api/v1/call-settings-for-me-1-3/get-my-executive-available-assistants)
+    * [Get Available Hoteling Hosts](https://developer.webex.com/docs/api/v1/call-settings-for-me-2-3/get-available-hoteling-hosts)
+    * [Get My Call Park Settings](https://developer.webex.com/docs/api/v1/call-settings-for-me-1-3/get-my-call-park-settings)
+    * [Get My Secondary Line Owner Call Park Settings](https://developer.webex.com/docs/api/v1/call-settings-for-me-1-3/get-my-secondary-line-owner-call-park-settings)
+These new changes will take effect by February 2027.
+
+
+* * *
+## July 21, 2026
+REST Warning
+  * Once PSTN connectivity is set up for a location, please go to the [Update the Emergency Address of a Location](https://developer.webex.com/docs/api/v1/pstn/update-the-emergency-address-of-a-location) API to update the location address.
+
+
+* * *
+## July 13, 2026
+SDK New
+  * The `webex-node` npm package provides a Webex JavaScript SDK designed for Node.js runtimes. Use it for command-line tools, automation, bots, webhook services, and backend integrations using Webex Messaging and other REST-backed capabilities.
+Install it with `npm install webex-node`. See the [Node.js SDK documentation](https://developer.webex.com/docs/sdks/node) and [webex-node introduction](https://developer.webex.com/blog/meet-webex-node-webex-javascript-sdk-built-for-node-js) for examples, supported use cases, and guidance on choosing between `webex-node` and the browser-focused `webex` package.
+Meetings, Calling, and Contact Center media flows are not supported by `webex-node`.
+
+
+* * *
+## July 9, 2026
+REST Breaking Change
+  * **Legacy endpoint API retirement date** : 31st of July 2026
+The legacy Webex Calling Detailed Call History Analytics API endpoints are being retired. All customers, partners, API integrations, and service applications using the legacy analytics API endpoints must migrate to the new endpoint APIs.
+After the above retirement date, requests sent to the legacy endpoints will no longer provide Call Detail Records (CDR) data. Any downstream systems that depend on Webex Calling CDR data will be impacted.
+Only the hostname is changing. There are no changes to authentication, authorization, OAuth flow, scopes, request format, response format, or API behavior.
+If you have already migrated to the new Webex Calling Analytics endpoint, no further action is required.
+Required customer action
+Update your integration code, service applications, scripts, and API clients to use the new Webex Calling Analytics endpoint for your region.
+    * Venue: United States / Canada | Existing FQDN : https://analytics.webexapis.com | New FQDN : https://analytics-calling.webexapis.com
+    * Venue: EU / EUN | Existing FQDN : https://analytics-eu.webexapis.com | New FQDN : https://analytics-calling-eu.webexapis.com
+    * Venue: India | Existing FQDN : https://analytics-in.webexapis.com | New FQDN : https://analytics-calling-in.webexapis.com
+    * Venue: Webex for Government | Existing FQDN : https://analytics-calling-gov.webexapis.com | New FQDN : No changes
+Additional Resources: [Detailed call history API](https://developer.webex.com/docs/api/v1/reports-detailed-call-history/get-detailed-call-history), [Live Stream Detailed call history API](https://developer.webex.com/docs/api/v1/reports-live-stream-detailed-call-history/get-live-stream-detailed-call-history), [Detailed call records Partner API endpoints](https://help.webex.com/en-us/article/n5zr85e/Detailed-call-records-webhook-for-Webex-Calling-in-Partner-Hub#concept-template_f605d9a6-2d0c-45e5-8543-ddfe7216cbde)
+
+
+* * *
+## July 8, 2026
+REST Breaking Change
+  * The October 10, 2025 changelog entry, “Updated FQDN links for Webex Calling detailed call history API,” has been reclassified from Update to Breaking Change. The original entry has also been relabeled accordingly.
+The required FQDN migration and implementation guidance remain unchanged. Customers and integration partners must update their integrations to use the new FQDNs. Integrations that continue to use the legacy endpoints will stop working. This breaking change applies to all API and integration users. Review the original October 10, 2025 entry and update integrations as needed.
+
+
+* * *
+## July 1, 2026
+REST Breaking Change
+  * The effective date for the [SCIMv2](https://developer.webex.com/docs/api/v1/scim-2-users) `accountStatus` field change announced on March 19, 2026 has moved from June 28, 2026 to July 28, 2026.
+Effective July 28, 2026, the [SCIMv2](https://developer.webex.com/docs/api/v1/scim-2-users) `accountStatus` field will transition from a single string to an array of strings. Update integrations to support the array values and the updated status mapping: `Suspended`, `Compliance`, or `Fraud`, replacing the legacy `Inactive` status.
+
+
+* * *
+## June 22, 2026
+REST Breaking Change
+  * As mentioned in the September 22, 2025 changelog, the value of the `firstName`, `lastName`, and `displayName` fields are being enhanced to support full Unicode for caller ID. Previously, single dot (.) and dash (-) characters were used as placeholders when these fields were null or empty. However, this caused issues in some APIs where these placeholders appeared as literal characters, creating poor user experiences. The enhancement now treats single dot or dash values as null for these fields in APIs, eliminating these issues. Additionally, customers should avoid setting firstName, lastName, and displayName to single dot or dash characters, as these will now be treated as null values. As a result of this enhancement, the `firstName`, `lastName`, and `displayName` fields will become optional in Webex Calling APIs. Additionally, the `displayName` field will now be consistently populated for all owner types, including both `PEOPLE` and `VIRTUAL_LINE` entities. This enhancement is scheduled to take place in July 2026.
+
+
+* * *
+## June 15, 2026
+REST Update
+  * Webex Calling Detailed Call History Reports (CDRs) — includes dedicated fields to give administrators and analysts deeper insight into AI Receptionist activity
+    * Transfer type — Indicates the type of transfer performed by the AI Receptionist. Examples include AI Receptionist Deflection By Intent (call routed to a number mapped to the identified intent) and AI Receptionist Deflection By Default (call routed to the pre-configured default number).
+    * Transfer Type Context — Provides additional context for the transfer, such as the specific intent name identified by the AI Receptionist during the conversation (for example, "for Pediatric Services" or "for Occupational Therapy").
+For details, see Webex Calling Detailed Call History report, [Get Detailed Call History API](https://developer.webex.com/docs/api/v1/reports-detailed-call-history/get-detailed-call-history), and [Get Detailed Call History - Live Stream API](https://developer.webex.com/docs/api/v1/reports-live-stream-detailed-call-history/get-detailed-call-history-live-stream).
+
+
+* * *
+## June 2, 2026
+Update
+  * The effective date for the SCIMv2 `accountStatus` field change announced on March 19, 2026 has been moved from May 28, 2026 to June 29, 2026.
+Effective June 29, 2026, the SCIMv2 `accountStatus` field will transition from a single string to an array of strings. Please update your integrations to support these new array values and the updated status mapping: "Suspended," "Compliance," or "Fraud," which replaces the legacy "Inactive" status.
+
+
+* * *
+## May 25, 2026
+REST Breaking Change
+  * As mentioned in the September 22, 2025 changelog, the value of the `firstName`, `lastName`, and `displayName` fields are being enhanced to support full Unicode for caller ID. Previously, single dot (.) and dash (-) characters were used as placeholders when these fields were null or empty. However, this caused issues in some APIs where these placeholders appeared as literal characters, creating poor user experiences. The enhancement now treats single dot or dash values as null for these fields in APIs, eliminating these issues. Additionally, customers should avoid setting firstName, lastName, and displayName to single dot or dash characters, as these will now be treated as null values. As a result of this enhancement, the `firstName`, `lastName`, and `displayName` fields will become optional in Webex Calling APIs. Additionally, the `displayName` field will now be consistently populated for all owner types, including both `PEOPLE` and `VIRTUAL_LINE` entities. This enhancement is scheduled to take place in June 2026.
+
+
+* * *
+## May 20, 2026
+REST New
+  * As a meeting host, you can now query recordings by the new [Query Recordings](https://developer.webex.com/docs/api/v1/recordings/query-recordings) API. As an admin or compliance officer, you can now query recordings by the new [Query Recordings For an Admin or Compliance Officer](https://developer.webex.com/docs/api/v1/recordings/query-recordings-for-an-admin-or-compliance-officer) API. These two new APIs are supposed to replace the existing [List Recordings](https://developer.webex.com/docs/api/v1/recordings/list-recordings) and [List Recordings For an Admin or Compliance Officer](https://developer.webex.com/docs/api/v1/recordings/list-recordings-for-an-admin-or-compliance-officer) APIs which are still supported and behave the same as before, but will be deprecated in the future due to limited support for special characters when filtering recordings by topic. It is recommended to use the new [Query Recordings](https://developer.webex.com/docs/api/v1/recordings/query-recordings) and [Query Recordings For an Admin or Compliance Officer](https://developer.webex.com/docs/api/v1/recordings/query-recordings-for-an-admin-or-compliance-officer) APIs.
+
+
+* * *
+## May 8, 2026
+REST New
+  * The Webex Calling Call Controls Members Me APIs are now available.
+These REST APIs add self-scoped member call control endpoints for the authenticated user, including:
+    * [Dial](https://developer.webex.com/docs/api/v1/call-controls-members-me/dial)
+    * [Answer](https://developer.webex.com/docs/api/v1/call-controls-members-me/answer)
+    * [Hangup](https://developer.webex.com/docs/api/v1/call-controls-members-me/hangup)
+    * [List Calls](https://developer.webex.com/docs/api/v1/call-controls-members-me/list-calls)
+    * [Get Call Details](https://developer.webex.com/docs/api/v1/call-controls-members-me/get-call-details)
+They use the `/telephony/calls/members/me` path pattern and provide a user-token counterpart to member-targeted call control APIs that use a specific `memberId`.
+These APIs support third-party call control for Webex Calling Multi Tenant users.
+
+
+* * *
+## May 6, 2026
+REST Breaking Change
+  * The following feature APIs will be impacted by the addition of the `memberType` field for getting organization or location level call-recording vendor users. This change affects `id` field in [Get Call Recording Vendor Users](https://developer.webex.com/docs/api/v1/features-call-recording/get-call-recording-vendor-users) and the `id` field within [Get Call Recording Vendor Users for a Location](https://developer.webex.com/docs/api/v1/features-call-recording/get-call-recording-vendor-users-for-a-location). After the changes are published `id` field will be encoded based on `memberType` which supports new types such as CALL_QUEUE etc.
+The changes will be in effect by first week of November 2026.
+
+
+* * *
+## May 1, 2026
+Breaking Change
+  * The Webex API no longer returns CORS (Access-Control-Allow-Origin) headers for requests originating from localhost.
+**Affected Origins** The following Origin header values are no longer supported in browser-based requests:
+http://localhost http://localhost:<port> (e.g., http://localhost:3000) https://localhost https://localhost:<port> (e.g., https://localhost:8443) Any http:// origin (all non-HTTPS origins)
+**Impact** Browser-based applications (SPAs, frontend JavaScript) making cross-origin requests to https://webexapis.com from a localhost origin will receive a CORS error. The API will process the request, but the browser will block the response from being read by JavaScript.
+This affects all API endpoints, including POST /v1/access_token used in the OAuth token exchange flow.
+Note: Non-browser clients (curl, Postman, server-side code) are not affected.
+**Recommended Migration** Developers running applications locally should adopt one of the following approaches:
+Use a backend proxy — Move API calls that require CORS (such as the OAuth token exchange) to a backend server. This also avoids exposing your client_secret in frontend code. Use a local reverse proxy with a custom domain — Tools like ngrok or a local DNS alias (e.g., myapp.local.dev) can provide a non-localhost origin. Use a real domain during development — Deploy to a staging environment with a proper HTTPS domain.
+**Reason** This change was made as a security hardening measure. Allowing localhost as a trusted CORS origin can expose applications to local attack vectors and encourages insecure patterns such as embedding OAuth client secrets in frontend code.
+
+
+* * *
+## April 30, 2026
+REST New
+  * We have updated our [webhook](https://developer.webex.com/messaging/docs/api/v1/webhooks) functionality for the messages/created event to ensure greater consistency across your integrations. Previously, webhooks were only triggered by live messages; going forward, they will also fire when a [scheduled message](https://help.webex.com/en-us/article/zphv2eb/Webex-App-%7C-Send-a-scheduled-message) is sent. This change allows you to reliably automate workflows and track activity for both live and scheduled communications seamlessly.
+
+
+* * *
+## April 27, 2026
+Breaking Change
+  * On June29 the following license names will be changed in the /license and /people APIs
+    * "Single License - Webex Common Area Calling" -> "Common Area Calling"
+    * "Single License - Webex Calling" -> "Webex Calling"
+    * "Single License - Webex Suite" -> "Webex Suite"
+    * "Single License - Webex Meetings" -> "Webex Meetings"
+    * "Single License - Webex Voice" -> "Webex Enhanced Calling"
+    * "Single License - CX Essentials" -> "Customer Assist"
+    * "Single License - Webex Calling Standard" -> "Calling Standard"
+    * "Customer Experience - Essential" -> "Customer Assist - Essential"
+
+
+* * *
+## April 20, 2026
+REST Breaking Change
+  * ### Announcement: Update to Webhook Delivery - HTTP/2 Header Standardization
+Overview We are pleased to announce an upcoming upgrade to our webhook delivery infrastructure to support HTTP/2. This transition improves performance and efficiency for our integrated services.
+Technical Change In accordance with RFC 9113, HTTP/2 requires all header field names to be transmitted in lowercase. As part of this upgrade, headers that were previously transmitted with mixed-case naming conventions-such as X-Spark-Signature-will now be delivered in lowercase (e.g., x-spark-signature).
+Action Required To ensure continued compatibility, we advise all developers and customers to review their webhook receiver implementations.
+Per RFC 9110, header field names are case-insensitive. We strongly recommend that your application logic be updated to perform case-insensitive header lookups when parsing incoming webhook requests. By treating header keys as case-insensitive, you ensure your integration remains robust and compatible with both current and future infrastructure standards.
+This change will be enacted after May 18, 2026 and does not affect Webex CC webhooks.
+
+
+* * *
+## March 27, 2026
+REST Update
+  * Introducing CDR fields for emergency call identification and location tracking
+    * Identify the Emergency Location Identification Number (ELIN) used for outbound emergency calls and inbound emergency callbacks, providing precise location information to emergency services.
+    * Track the source of the number used for emergency calls and callbacks, including ELIN Pool, Workspace ELIN, ECBN, and fallback scenarios, enabling visibility into emergency number routing.
+
+
+* * *
+## March 26, 2026
+REST Breaking Change
+  * As mentioned in the September 22, 2025 changelog, the value of the `firstName`, `lastName` and `displayName` fields are being enhanced to support full Unicode for caller ID. This enhancement is scheduled to take place in May 2026.
+
+
+* * *
+## March 24, 2026
+Webhook Breaking Change
+  * The existing webhook filter "address" for the "telephony_calls" resource is broken and does not activate after a user successfully registers for the webhook.
+To correct this problem, the name of the webhook filter "address" is now changed to "number" for the "telephony_calls" resource type. This change applies to the "created", "updated", and "deleted" webhook events. The filter definitions are documented in the webhook guide [webhooks](https://developer.webex.com/docs/api/guides/webhooks).
+
+
+* * *
+## March 19, 2026
+Breaking Change
+  * Effective June 29, 2026, the SCIMv2 accountStatus field will transition from a single string to an array of strings. Please update your integrations to support these new array values and the updated status mapping-"Suspended," "Compliance," or "Fraud"-which replaces the legacy "Inactive" status.
+
+
+* * *
+## March 13, 2026
+REST Breaking Change
+  * Effective April 27, 2026, the `id`, `webexDeviceId`, and `callingDeviceId` fields in the [Devices API](https://developer.webex.com/calling/docs/api/v1/devices) may return a `null` value. We recommend updating your integration logic to account for these changes.
+
+
+* * *
+## March 6, 2026
+Developer Portal Breaking Change
+  * Effective **Sep 9, 2026** for large organizations categorized by organization status API [Get Large Organization Status](https://developer.webex.com/calling/docs/api/v1/calling-service-settings/get-large-organization-status), location query parameter will be mandatory for these APIs
+    * [Search Members](https://developer.webex.com/calling/docs/api/v1/device-call-settings/search-members)
+    * [Search Available Members](https://developer.webex.com/docs/api/v1/dect-devices-settings/search-available-members)
+    * [Search Shared-Line Appearance Members New](https://developer.webex.com/calling/docs/api/v1/user-call-settings-2-2/search-shared-line-appearance-members-new)
+
+
+* * *
+## March 5, 2026
+REST Update
+  * Introducing CDR fields to identify call flows between Webex Contact Center and Webex Calling
+    * Improve call correlation across multiple call flow patterns linked to service interactions, enabling better tracking and analysis of complex call scenarios.
+    * Identify transfer or conference operations performed by Webex Contact Center on consultative calls, providing enhanced visibility into agent actions during call handling.
+
+
+* * *
+## March 2, 2026
+REST New
+  * A new optional `sendEmail` parameter is supported in the [Share a Recording](https://developer.webex.com/docs/api/v1/recordings/share-a-recording) API to control whether sharees receive email notifications when the recording is shared. Meanwhile, as a meeting host or cohost, you can share or unshare a recording by recording link via the new [Share a Recording Link](https://developer.webex.com/docs/api/v1/recordings/share-a-recording-link) API.
+
+
+* * *
+## January 26, 2026
+REST Breaking Change
+  * Effective Jan 26, 2026 the [/licenses](https://developer.webex.com/docs/api/v1/licenses) APIs will have updated license names:
+    * "Single License - Webex Common Area Calling " is changing to "Common Area Calling"
+    * "Single License - Webex Calling" is changing to "Webex Calling"
+    * "Single License - Webex Suite" is changing to "Webex Suite"
+    * "Single License - Webex Meetings" is changing to "Webex Meetings"
+    * "Single License - Webex Voice" is changing to "Webex Voice"
+    * "Single License - CX Essentials" is changing to "Customer Assist"
+
+
+* * *
+## January 21, 2026
+Guides New
+  * [Calling Device ID Guide](https://developer.webex.com/docs/calling-device-id-guide): New documentation explaining device identifier types (DEVICE, CALLING_DEVICE, PERIPHERAL), their lifecycles, and recent API improvements for working with Webex Calling devices.
+
+
+* * *
+## January 21, 2026
+REST New
+  * We’re pleased to announce the release of a new API for live meeting monitoring, which enables developers and administrators to programmatically retrieve live meeting metrics categorized by country. [Get Live Meeting metrics categorized by Country](https://developer.webex.com/docs/api/v1/live-monitoring/get-live-meeting-metrics-categorized-by-country) Retrieve live meeting metrics categorized by country for a specific meeting site or for all meeting sites owned by the customer organization.
+
+
+* * *
+## January 21, 2026
+Warning
+  * Update: Guest Issuer App Creation Now Disabled
+As previously announced, the Guest Issuer app type is deprecated and new apps should use the Service App approach. Effective immediately, the creation of new Guest Issuer apps is no longer allowed. New guest issuer functionality must now use the Service App mechanism.
+Existing Guest Issuer apps will continue to be supported until a clear migration path is available. No changes or deprecation will occur for existing apps within at least the next 6 months.
+
+
+* * *
+## January 20, 2026
+REST Update
+  * A new attribute `hasSummary` has been added to the response of the [Get a Meeting](https://developer.webex.com/docs/api/v1/meetings/get-a-meeting) and [List Meetings](https://developer.webex.com/docs/api/v1/meetings/list-meetings) APIs to indicate whether or not an ended meeting instance has a summary. A new boolean filter `hasSummary` has been added to the [List Meetings](https://developer.webex.com/docs/api/v1/meetings/list-meetings) API. If true, it only return meeting instances which have summary; if false, it only return those which have no summary; if it isn't specified, all meeting instances will be returned.
+
+
+* * *
+## January 19, 2026
+REST New
+  * New APIs have been added under [User Call Settings](https://developer.webex.com/docs/api/v1/user-call-settings-2-2) to manage a person’s Executive settings. Use the [Person Executive API](https://developer.webex.com/docs/api/v1/user-call-settings-1-2/modify-executive-assistant-settings-for-a-person) to configure a person as EXECUTIVE or EXECUTIVE_ASSISTANT, then use the new APIs to configure the related settings.
+
+
+* * *
+## January 15, 2026
+REST New
+  * We’re pleased to announce the release of three new meeting summary APIs, these new endpoints enable developers and admins to programmatically retrieve and manage meeting summaries:
+    * [Get Meeting Summaries](https://developer.webex.com/docs/api/v1/meeting-summaries/get-summary-by-meeting-id) Get the summary of an ended meeting instance by the meeting ID.
+    * [Get Summary For Compliance Officer](https://developer.webex.com/docs/api/v1/meeting-summaries/get-summary-for-compliance-officer) Lists available or deleted summaries of an ended meeting instance by meeting ID. This API can only be accessed by compliance officers. With this API, a compliance officer can list summaries of any ended meeting instances in his organization including available and deleted summaries
+    * [Delete Meeting Summaries](https://developer.webex.com/docs/api/v1/meeting-summaries/delete-a-summary) Removes a summary with a specified summary ID. The deleted summary cannot be recovered. A deleted summary can not be accessed by regular users, i.e. host or attendees, but can be access by compliance officers.
+
+
+* * *
+## January 13, 2026
+REST New
+  * Official documentation is now available for the [POST /service-apps/access-token](https://developer.webex.com/docs/api/v1/service-apps/create-service-app-access-token) endpoint. This allows developers to programmatically manage access tokens for Service Apps with the benefit of official technical references and support.
+
+
+* * *
+## January 12, 2026
+REST Update
+  * Previously, the Meeting Transcripts API returned only Webex Assistant meeting transcripts. This API has now been updated to support transcripts generated by Cisco AI Assistant. If both Webex Assistant and Cisco AI Assistant are enabled for a meeting, the transcript returned by this API will be generated by Cisco AI Assistant. For full details, see [Meeting Transcripts](https://developer.webex.com/docs/api/v1/meeting-transcripts).
+
+
+* * *
+## January 8, 2026
+REST Breaking Change
+  * The following feature APIs will be impacted by the deprecation of the `storageRegion` & `orgStorageRegionEnabled` fields for configuring call-recording storage region. This change affects `storageRegion` field in [Modify Org Call Recording Vendor Update](https://developer.webex.com/docs/api/v1/features-call-recording/set-organization-call-recording-vendor) and the `orgStorageRegionEnabled` as well as `storageRegion` fields within [Modify Location Call Recording Vendor Update](https://developer.webex.com/docs/api/v1/features-call-recording/set-call-recording-vendor-for-a-location). After deprecation these fields will be ignored and have no effect if present in the request payload. The deprecated fields (`storageRegion` & `orgStorageRegionEnabled`) will be removed by mid July 2026.
+
+
+* * *
+## January 5, 2026
+REST Update
+  * We are excited to announce that the People API now supports case-sensitive [email address updates](https://developer.webex.com/docs/api/v1/people/update-a-person). This feature will be enabled by default for all organizations on March 1, 2026. However, if you would like early access, please contact [Developer Support](https://developer.webex.com/explore/support) and we can enable this feature for your organization right away.
+
+
+* * *
+## January 5, 2026
+REST Update
+  * An updated Meeting Transcripts API description has been published. See [Meeting Transcripts](https://developer.webex.com/docs/api/v1/meeting-transcripts).
+
+
+* * *
+## December 19, 2025
+REST Update
+  * You can now assign webinar templates when creating webinars via the [Meetings Create API](https://developer.webex.com/docs/api/v1/meetings/create-a-meeting). This enhancement streamlines the process of setting up webinars by allowing you to apply a template-including post-meeting survey configurations-at creation time. Previously, users had to manually modify each webinar to configure surveys. Now, templates can be used to automate and standardize webinar setup, saving time for customers who schedule large volumes of webinars.
+Note: This feature applies to webinars only.
+
+
+* * *
+## December 12, 2025
+REST Breaking Change
+  * **After June 15, 2026** , the API paths for [Update](https://developer.webex.com/docs/api/v1/user-call-settings-1-2/modify-executive-assistant-settings-for-a-person) and [Retrieve](https://developer.webex.com/docs/api/v1/user-call-settings-1-2/retrieve-executive-assistant-settings-for-a-person) Executive Assistant Settings APIs will change:
+_from:_ **/v1/people/{personId}/features/executiveAssistant**
+_to:_ **/v1/telephony/config/people/{personId}/executive**
+
+
+* * *
+## December 10, 2025
+Webhook Update
+  * [Create Webhook](https://developer.webex.com/docs/api/v1/webhooks/create-a-webhook) has three new Webex Calling webhook resource types:
+    * `telephony_calls` - for call-related webhook events
+    * `telephony_conference` - for conference control webhook events
+    * `telephony_mwi` - for voicemail message waiting indicator webhook events
+
+
+* * *
+## December 5, 2025
+Breaking Change Update
+  * The effective date for the PATCH [/licenses](https://developer.webex.com/docs/api/v1/licenses/assign-licenses-to-users) API changes and related error code updates (see original changelog from September 22, 2025) is now January 26, 2026. Please refer to the original entry for full details.
+
+
+* * *
+## December 3, 2025
+REST Update
+  * New CDR field additions for [Webex Calling detailed call history API](https://developer.webex.com/docs/api/v1/reports-detailed-call-history/get-detailed-call-history) and [Webex Calling live stream detailed call history API](https://developer.webex.com/docs/api/v1/reports-live-stream-detailed-call-history/get-live-stream-detailed-call-history) to identify certified caller reputation (anti-spam) provider's scores. Refer [Reports for your collab article](https://help.webex.com/en-us/article/nmug598/Reports-for-Your-Cloud-Collaboration-Portfolio) for further details.
+
+
+* * *
+## November 26, 2025
+Guides New
+  * A new guide ["Converged Recordings APIs for Webex Calling"](https://developer.webex.com/docs/converged-recordings-apis-for-webex-calling) has been published.
+
+
+* * *
+## November 20, 2025
+REST Breaking Change
+  * When assigning multiple licenses in a single request in the [PATCH /licenses](https://developer.webex.com/admin/docs/api/v1/licenses/assign-licenses-to-users), the API will now return a 206 Partial Content status if some licenses are assigned successfully and others fail (e.g., user ineligible or license pool exhausted). The response will include details of any licenses that failed to be assigned. Previously, such requests returned a 400 Bad Request and none of the licenses were assigned. This change will be effective December 15th, 2025.
+Action Required: Update your applications to handle the 206 status code and check the response body for failed license assignments.
+In this context we also will replace some of the error codes:
+    * License Patch api: 400704 = "Invalid licenses: {licenses}" replaced with 400000 = "License not recognized {licenses}
+    * License Patch api: 400706 = "property locationId is required when only extension is provided for calling license:{licenses} replaced by 400 = "Unable to find location."
+    * License Patch api: 400707 = "Invalid siteUrls: {siteUrl}" replaced by 400216 = "Request contains invalid attendee siteUrls: {siteUrl}"
+
+
+* * *
+## November 18, 2025
+REST Breaking Change
+  * Change Notice: Email Address Casing in **update-a-person API**
+We are updating the [update-a-person API](https://developer.webex.com/docs/api/v1/people/update-a-person) to support changes to the case of an email address. Previously, updating the email address case via the people API was not possible, while it was supported in Control Hub and the [SCIMv2 API](https://developer.webex.com/docs/api/v1/scim-2-users). To ensure consistency, the people API will now adopt the same behavior as Control Hub, allowing the email address case to be changed using the PUT method.
+_Effective Date:_ March 1, 2026 Upon request to [Developer Support](https://developer.webex.com/explore/support) we can selectively enable this feature earlier.
+_Action Required:_ No action is needed unless you intend to modify the case of a user's email address through the API.
+_Example:_ Before: Changing user@example.com to User@example.com via API was not supported. After: This change will be supported using the PUT API.
+
+
+* * *
+## November 14, 2025
+Guides New
+  * A new [Guest to Guest Quickstart](https://developer.webex.com/docs/guest-to-guest-quickstart) guide has been added to the Webex Developer Portal.
+
+
+* * *
+## October 31, 2025
+REST Update
+  * Enhanced CDR delivery and historical data access: We are introducing the [cdr_stream endpoint API](https://developer.webex.com/calling/docs/api/v1/reports-live-stream-detailed-call-history/get-live-stream-detailed-call-history), which enables customers to collect call detail records (CDRs) immediately after a call ends—typically within one minute. This API also automatically retrieves and delivers any late records as soon as they are processed in the Webex Calling cloud, ensuring reliable and timely CDR delivery. Additionally, we have enhanced the existing partner and customer APIs to support queries for records from the past 30 days, an increase from the previous 48-hour limit. This enhancement gives users greater flexibility in accessing historical data.
+
+
+* * *
+## October 27, 2025
+REST Update
+  * Enhanced all DynamicDeviceSettings APIs to support ATA devices through the `familyOrModelDisplayName` parameter. This update adds comprehensive ATA device family support to existing device management capabilities.
+APIs Updated:
+**Organization/Location Level jobs**
+    * [Update Device Dynamic Settings Across Organization or Location](https://developer.webex.com/calling/docs/api/v1/device-call-settings/update-device-dynamic-settings-across-organization-or-location)
+    * [List Device Dynamic Settings Jobs](https://developer.webex.com/calling/docs/api/v1/device-call-settings/list-device-dynamic-settings-jobs)
+    * [Get Device Dynamic Settings Job Status](https://developer.webex.com/calling/docs/api/v1/device-call-settings/get-device-dynamic-settings-job-status)
+    * [List Device Dynamic Settings Job Errors](https://developer.webex.com/calling/docs/api/v1/device-call-settings/list-device-dynamic-settings-job-errors)
+**Organization/Location Level**
+    * [Get Location Device Dynamic Settings](https://developer.webex.com/calling/docs/api/v1/device-call-settings/get-location-device-dynamic-settings)
+    * [Get Customer Device Dynamic Settings](https://developer.webex.com/calling/docs/api/v1/device-call-settings/get-customer-device-dynamic-settings)
+**Device Level**
+    * [Get Device Dynamic Settings](https://developer.webex.com/calling/docs/api/v1/device-call-settings/get-device-dynamic-settings)
+    * [Update Device Dynamic Settings](https://developer.webex.com/calling/docs/api/v1/device-call-settings/update-device-dynamic-settings)
+**Supporting APIs**
+    * [Get Settings Groups](https://developer.webex.com/calling/docs/api/v1/device-call-settings/get-settings-groups)
+    * [Get Validation Schema](https://developer.webex.com/calling/docs/api/v1/device-call-settings/get-validation-schema)
+**Key Changes**
+Added ATA device family support to `familyOrModelDisplayName` parameter across all APIs Impact: Organizations can now manage ATA device settings through both bulk operations (organization/location level) and individual device operations (device level) using the same dynamic device settings APIs used for other device families.
+Compatibility: Fully backward compatible - no breaking changes to existing implementations.
+
+
+* * *
+## October 21, 2025
+REST Update
+  * A new field `internal` is added in [Wholesale Billing Reports POST API](https://developer.webex.com/wholesale/docs/api/v1/wholesale-billing-reports/create-a-wholesale-billing-report). This is not a mandatory parameter and maintains backward compatibility.
+
+
+* * *
+## October 10, 2025
+REST Breaking Change
+  * Updated FQDN links for [Webex Calling detailed call history API](https://developer.webex.com/docs/api/v1/reports-detailed-call-history/get-detailed-call-history): The FQDN links for the Webex Calling detailed call history API are changing. Please update your code to use the links provided below, which includes details about server regions and new FQDNs, by February 27, 2026. This update applies to all API and integration users.
+    * **Venue** : United States / Canada
+      * **Existing FQDN** : `https://analytics.webexapis.com` —> **New FQDN** : `https://analytics-calling.webexapis.com`
+    * **Venue** : EU / EUN
+      * **Existing FQDN** : `https://analytics-eu.webexapis.com` —> **New FQDN** : `https://analytics-calling-eu.webexapis.com`
+    * **Venue** : India
+      * **Existing FQDN** : `https://analytics-in.webexapis.com` —> **New FQDN** : `https://analytics-calling-in.webexapis.com`
+    * **Venue** : Webex for Government
+      * **Existing FQDN** : `https://analytics-calling-gov.webexapis.com` —> **New FQDN** : _No changes_
+
+
+* * *
+## October 6, 2025
+REST New
+  * **New SCIM Schema APIs Now Available**
+We’re pleased to announce the release of three new SCIM schema APIs for enhanced identity management:
+    * [Get User Schema](https://developer.webex.com/admin/docs/api/v1/scim-2-schemas/get-user-schema)
+      * Retrieve the complete schema definition for user resources, including all supported attributes, data types, and requirements.
+    * [Get Group Schema](https://developer.webex.com/admin/docs/api/v1/scim-2-schemas/get-group-schema)
+      * Access the schema details for group resources, allowing you to understand available group attributes and their structure.
+    * [Get Schema Using Group Schema ID](https://developer.webex.com/admin/docs/api/v1/scim-2-schemas/get-schema-using-group-schema-id)
+      * Look up a specific group schema by providing a group schema ID, enabling targeted schema discovery.
+_How to Use These APIs:_ These new endpoints enable developers and admins to programmatically discover the structure and requirements of user and group objects in your identity system. Use these APIs to:
+    * Identify all supported and required attributes for users and groups
+    * Dynamically build forms or interfaces based on available schema details
+    * Map and validate fields when integrating or synchronizing identity data between systems
+    * Ensure your applications comply with your organization's identity data standards
+For more details and integration guides, visit our [Admin documentation](https://developer.webex.com/admin/docs/admin/).
+
+
+* * *
+## October 1, 2025
+REST New
+  * As a meeting host, you can now share or unshare your recordings with other users via the [Share a Recording](https://developer.webex.com/docs/api/v1/recordings/share-a-recording) endpoint.
+
+
+* * *
+## September 30, 2025
+REST Update
+  * In [Webex Calling Detailed Call History API](https://developer.webex.com/docs/api/v1/reports-detailed-call-history/get-detailed-call-history), the following are the changes to the Rate Limits, Pagination Limits and the Window period. These changes apply to partners, customers, and integration consumers. You must update the API code implementation to prevent errors or disruptions.
+    * Rate Limits: For each organization ID, the API allows 1 initial request per minute per token scope level of access. Additionally, up to 10 paginated requests per minute per token are permitted.
+    * Pagination Limits: The maximum number of Call Detail Records (CDR) per page in the API response is changing. The new range will be between 500-5000 records per page. The Rate limit and Pagination limit changes apply from October 31, 2025.
+    * Window Period Changes:The current detailed call history API supports a 48-hour window for retrieving call records will be deprecated. Going forward, only a 12-hour window will be supported. Developers should update their code to accommodate this 12-hour range. This change will take effect from January 30, 2026.
+
+
+* * *
+## September 30, 2025
+REST New
+  * New CDR fields for reporting [Webex Calling Detailed Call History](https://developer.webex.com/docs/api/v1/reports-detailed-call-history/get-detailed-call-history)
+To enhance the Analytics and Billing needs in Webex Calling, eight new fields will be added to both CSV reports in Control Hub and CDR APIs. These new fields enable partners and customers to utilize the Detailed Call History reporting more effectively. They provide insights into various call flow occurrences, such as Call Park Recall, Call Hold Time, Call Queue Types, Auto Attendant Key Pressed, Route List Overage, Click-to-Call, and Calls Answered by Different Agents.
+
+
+* * *
+## September 22, 2025
+REST Breaking Change
+  * Webex Calling (WxC) is being enhanced to support full Unicode for caller ID and to properly handle the firstName, lastName, and displayName fields for users and virtual lines. Previously, single dot (.) and dash (-) characters were used as placeholders when these fields were null or empty. However, this caused issues in some APIs where these placeholders appeared as literal characters, creating poor user experiences. The enhancement now treats single dot or dash values as null for these fields in APIs, eliminating these issues. Additionally, customers should avoid setting firstName, lastName, and displayName to single dot or dash characters, as these will now be treated as null values.
+As a result of this enhancement, the `firstName`, `lastName`, and `displayName` fields will become optional in Webex Calling APIs. This change affects the following APIs:
+    * [Search Shared-Line Appearance Members](https://developer.webex.com/docs/api/v1/user-call-settings-2-2/search-shared-line-appearance-members)
+    * [Get Shared-Line Appearance Members](https://developer.webex.com/docs/api/v1/user-call-settings-2-2/get-shared-line-appearance-members)
+    * [Get Person Devices](https://developer.webex.com/docs/api/v1/device-call-settings/get-person-devices)
+    * [Read Caller ID Settings for a Person](https://developer.webex.com/docs/api/v1/user-call-settings-1-2/read-caller-id-settings-for-a-person)
+    * [Get a Person's Emergency Callback Number](https://developer.webex.com/docs/api/v1/emergency-services-settings/get-a-person-s-emergency-callback-number)
+    * [Retrieve a person's Monitoring Settings](https://developer.webex.com/docs/api/v1/user-call-settings-1-2/retrieve-a-person-s-monitoring-settings)
+    * [Read the List of Virtual Lines](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/read-the-list-of-virtual-lines)
+    * [Get Details for a Virtual Line](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/get-details-for-a-virtual-line)
+    * [Get List of Devices assigned for a Virtual Line](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/get-list-of-devices-assigned-for-a-virtual-line)
+    * [Read Caller ID Settings for a Virtual Line](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/read-caller-id-settings-for-a-virtual-line)
+    * [Get the Virtual Line's Emergency Callback settings](https://developer.webex.com/docs/api/v1/emergency-services-settings/get-the-virtual-line-s-emergency-callback-settings)
+    * [Get Workspace Devices](https://developer.webex.com/docs/api/v1/device-call-settings/get-workspace-devices)
+    * [Read Caller ID Settings for a Workspace](https://developer.webex.com/docs/api/v1/workspace-call-settings-1-2/read-caller-id-settings-for-a-workspace)
+    * [Get a Workspace Emergency Callback Number](https://developer.webex.com/docs/api/v1/emergency-services-settings/get-a-workspace-emergency-callback-number)
+    * [Retrieve Monitoring Settings for a Workspace](https://developer.webex.com/docs/api/v1/workspace-call-settings-1-2/retrieve-monitoring-settings-for-a-workspace)
+    * [Search Members](https://developer.webex.com/docs/api/v1/device-call-settings/search-members)
+    * [Search Available Members](https://developer.webex.com/docs/api/v1/dect-devices-settings/search-available-members)
+    * [Get Device Members](https://developer.webex.com/docs/api/v1/device-call-settings/get-device-members)
+    * [Read the List of Call Queue Agents with Customer Experience Essentials](https://developer.webex.com/docs/api/v1/features-call-queue/read-the-list-of-call-queue-agents-with-customer-experience-essentials)
+    * [Get Call Queue Available Agents](https://developer.webex.com/docs/api/v1/features-call-queue/get-call-queue-available-agents)
+    * [Get Details for a Call Queue Agent with Customer Experience Essentials](https://developer.webex.com/docs/api/v1/features-call-queue/get-details-for-a-call-queue-agent-with-customer-experience-essentials)
+    * [Read Receptionist Client Settings for a Person](https://developer.webex.com/docs/api/v1/user-call-settings-1-2/read-receptionist-client-settings-for-a-person)
+    * [Read the List of Virtual Extensions](https://developer.webex.com/docs/api/v1/features-virtual-extensions/read-the-list-of-virtual-extensions)
+    * [Get a Virtual Extension](https://developer.webex.com/docs/api/v1/features-virtual-extensions/get-a-virtual-extension)
+    * [Get available agents from Call Parks](https://developer.webex.com/docs/api/v1/features-call-park/get-available-agents-from-call-parks)
+    * [Get Details for a Call Park](https://developer.webex.com/docs/api/v1/features-call-park/get-details-for-a-call-park)
+    * [Get available agents from Call Pickups](https://developer.webex.com/docs/api/v1/features-call-pickup/get-available-agents-from-call-pickups)
+    * [Get Details for a Call Pickup](https://developer.webex.com/docs/api/v1/features-call-pickup/get-details-for-a-call-pickup)
+    * [List Available Agents](https://developer.webex.com/docs/api/v1/features-customer-experience-essentials/list-available-agents)
+    * [Get a Location Emergency callback number](https://developer.webex.com/docs/api/v1/location-call-settings/get-a-location-emergency-callback-number)
+    * [Get Details for a Hunt Group](https://developer.webex.com/docs/api/v1/features-hunt-group/get-details-for-a-hunt-group)
+    * [Get Details for a Paging Group](https://developer.webex.com/docs/api/v1/features-paging-group/get-details-for-a-paging-group)
+    * [Get Details for a Call Queue with Customer Experience Essentials](https://developer.webex.com/docs/api/v1/features-call-queue/get-details-for-a-call-queue-with-customer-experience-essentials)
+    * [Get details for a Receptionist Contact Directory](https://developer.webex.com/docs/api/v1/location-call-settings/get-details-for-a-receptionist-contact-directory)
+    * [Get Location Voicemail Group](https://developer.webex.com/docs/api/v1/location-call-settings-voicemail/get-location-voicemail-group)
+    * [Get Details for an Auto Attendant](https://developer.webex.com/docs/api/v1/features-auto-attendant/get-details-for-an-auto-attendant).
+Additionally, the `displayName` field will now be consistently populated for all owner types, including both `PEOPLE` and `VIRTUAL_LINE` entities. This enhancement ensures uniform data representation across the following APIs:
+    * [Get Available Phone Numbers for a Location with Given Criteria](https://developer.webex.com/docs/api/v1/location-call-settings/get-available-phone-numbers-for-a-location-with-given-criteria)
+    * [Get Location Call Intercept Available Phone Numbers](https://developer.webex.com/docs/api/v1/location-call-settings/get-location-call-intercept-available-phone-numbers)
+    * [Get Location ECBN Available Phone Numbers](https://developer.webex.com/docs/api/v1/location-call-settings/get-location-ecbn-available-phone-numbers)
+    * [Get the List of Phone Numbers Available for External Caller ID](https://developer.webex.com/docs/api/v1/location-call-settings/get-the-list-of-phone-numbers-available-for-external-caller-id)
+    * [Get Auto Attendant Call Forward Available Phone Numbers](https://developer.webex.com/docs/api/v1/features-auto-attendant/get-auto-attendant-call-forward-available-phone-numbers)
+    * [Get Hunt Group Call Forward Available Phone Numbers](https://developer.webex.com/docs/api/v1/features-hunt-group/get-hunt-group-call-forward-available-phone-numbers)
+    * [Get Operating Mode Call Forward Available Phone Numbers](https://developer.webex.com/docs/api/v1/features-operating-modes/get-operating-mode-call-forward-available-phone-numbers)
+    * [Get Call Queue Call Forward Available Phone Numbers](https://developer.webex.com/docs/api/v1/features-call-queue/get-call-queue-call-forward-available-phone-numbers)
+    * [Get Workspace Call Forward Available Phone Numbers](https://developer.webex.com/docs/api/v1/workspace-call-settings-2-2/get-workspace-call-forward-available-phone-numbers)
+    * [Get Workspace Call Intercept Available Phone Numbers](https://developer.webex.com/docs/api/v1/workspace-call-settings-2-2/get-workspace-call-intercept-available-phone-numbers)
+    * [Get Workspace ECBN Available Phone Numbers](https://developer.webex.com/docs/api/v1/workspace-call-settings-2-2/get-workspace-ecbn-available-phone-numbers)
+    * [Get Person Call Forward Available Phone Numbers](https://developer.webex.com/docs/api/v1/user-call-settings-2-2/get-person-call-forward-available-phone-numbers)
+    * [Get Person Call Intercept Available Phone Numbers](https://developer.webex.com/docs/api/v1/user-call-settings-2-2/get-person-call-intercept-available-phone-numbers)
+    * [Get Person ECBN Available Phone Numbers](https://developer.webex.com/docs/api/v1/user-call-settings-2-2/get-person-ecbn-available-phone-numbers)
+    * [Get Virtual Line Call Forward Available Phone Numbers](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/get-virtual-line-call-forward-available-phone-numbers)
+    * [Get Virtual Line Call Intercept Available Phone Numbers](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/get-virtual-line-call-intercept-available-phone-numbers)
+    * [Get Virtual Line ECBN Available Phone Numbers](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/get-virtual-line-ecbn-available-phone-numbers)
+These changes will take effect by March 2026.
+
+
+* * *
+## September 22, 2025
+REST Breaking Change
+  * When assigning multiple licenses in a single request in the [PATCH /licenses](https://developer.webex.com/admin/docs/api/v1/licenses/assign-licenses-to-users), the API will now return a 206 Partial Content status if some licenses are assigned successfully and others fail (e.g., user ineligible or license pool exhausted). The response will include details of any licenses that failed to be assigned. Previously, such requests returned a 400 Bad Request and none of the licenses were assigned. This change will be effective December 15th, 2025.
+Action Required: Update your applications to handle the 206 status code and check the response body for failed license assignments.
+In this context we also will replace some of the error codes:
+    * License Patch api: 400704 = "Invalid licenses: {licenses}" replaced with 400000 = "License not recognized {licenses}
+    * License Patch api: 400706 = "property locationId is required when only extension is provided for calling license:{licenses} replaced by 400 = "Unable to find location."
+    * License Patch api: 400707 = "Invalid siteUrls: {siteUrl}" replaced by 400216 = "Request contains invalid attendee siteUrls: {siteUrl}"
+
+
+* * *
+## September 21, 2025
+Warning
+  * API Gateway Upgrade Scheduled: Regional Rollout Dates & Important Notes
+We are planning an important upgrade to the API Gateway at the front end of the Webex Developer Program. This update involves upgrading a core library. During our previous upgrade attempts in select regions, we encountered issues and rolled back the changes. We are now sharing our rollout schedule in advance to keep you informed and prepared. Regional Upgrade Schedule
+Middle East: September 23–24, 2025 Japan: September 25, 2025 Europe: October 7, 2025 US (East & West): October 14, 2025
+Why this upgrade matters: Some customers may notice breaking changes, especially if their applications rely on non-standard API usage. The upgraded API Gateway enforces stricter checks and will no longer accept some previously tolerated behaviors. In particular, passing header parameters for certain APIs, or sending values as query parameters instead of in the POST body, will be rejected if this does not conform to the published API documentation and specifications.
+What you should do: If your integration experiences issues after the upgrade, please first check that your API calls conform to the official Webex API documentation. If you are impacted or notice unexpected behavior, contact our support team immediately. We will monitor each rollout and can roll back changes if severe issues are identified.
+Notes: These changes have already been trialed in the Middle East, Japan, and Frankfurt (Europe). While we are hopeful for a smooth rollout, please be prepared for possible disruptions, especially in the US regions, which see the highest and most diverse traffic.
+Thank you for your understanding and partnership as we work to improve the reliability and security of the Webex Developer Platform.
+
+
+* * *
+## September 10, 2025
+REST Breaking Change
+  * Breaking: JWT token expiration in Integer format
+We will follow a stricter implementation for the JWT guest token to follow the standards more closely. Previously a string was accepted in the `exp` field to indicate when the token expires. We are changing this field to allow an Integer only. This change will be enforced Nov 1, 2025. You can make the change right now as today both string and int will be accepted.
+Example:
+{..."exp":"1730793600",...}
+->
+{..."exp":1730793600, ...}
+
+
+* * *
+## September 9, 2025
+REST Breaking Change
+  * The maximum number of phone numbers that can be passed to the [Get Phone Numbers for an Organization with Given Criteria](https://developer.webex.com/calling/docs/api/v1/numbers/get-phone-numbers-for-an-organization-with-given-criteria) API, `phoneNumbers` query parameter will be **20** , effective March 15 2026.
+
+
+* * *
+## September 8, 2025
+REST Warning
+  * Notice: Stricter Header Validation
+We've implemented stricter validation for API request headers. If your API calls suddenly stop working and you haven't made any changes on your end, please double-check your headers for correctness. Requests with incorrect or missing headers will now be rejected.
+Examples: • If you send a GET request with any Content-Type header (e.g., Content-Type: application/json or Content-Type: application/x-www-form-urlencoded), the request may be rejected. • If you send a POST request with JSON or XML data but use Content-Type: application/x-www-form-urlencoded instead of the correct content type (e.g., application/json or application/xml), the request will also be rejected.
+
+
+* * *
+## August 25, 2025
+REST Breaking Change
+  * The following feature APIs will be impacted by the deprecation of the `firstName` and `lastName` fields for configuring caller ID and dialing names: [Create an Auto Attendant](https://developer.webex.com/docs/api/v1/features-auto-attendant/create-an-auto-attendant), [Get Details for an Auto Attendant](https://developer.webex.com/docs/api/v1/features-auto-attendant/get-details-for-an-auto-attendant), [Update an Auto Attendant](https://developer.webex.com/docs/api/v1/features-auto-attendant/update-an-auto-attendant), [Create a Call Queue with Customer Experience Essentials](https://developer.webex.com/docs/api/v1/features-call-queue/create-a-call-queue-with-customer-experience-essentials), [Get Details for a Call Queue with Customer Experience Essentials](https://developer.webex.com/docs/api/v1/features-call-queue/get-details-for-a-call-queue-with-customer-experience-essentials), [Update a Call Queue](https://developer.webex.com/docs/api/v1/features-call-queue/update-a-call-queue), [Create a Hunt Group](https://developer.webex.com/docs/api/v1/features-hunt-group/create-a-hunt-group), [Get Details for a Hunt Group](https://developer.webex.com/docs/api/v1/features-hunt-group/get-details-for-a-hunt-group), [Update a Hunt Group](https://developer.webex.com/docs/api/v1/features-hunt-group/update-a-hunt-group), [Create a new Paging Group](https://developer.webex.com/docs/api/v1/features-paging-group/create-a-new-paging-group), [Get Details for a Paging Group](https://developer.webex.com/docs/api/v1/features-paging-group/get-details-for-a-paging-group), [Update a Paging Group](https://developer.webex.com/docs/api/v1/features-paging-group/update-a-paging-group), [Create a new Voicemail Group for a Location](https://developer.webex.com/docs/api/v1/location-call-settings-voicemail/create-a-new-voicemail-group-for-a-location), [Get Location Voicemail Group](https://developer.webex.com/docs/api/v1/location-call-settings-voicemail/get-location-voicemail-group), [Modify Location Voicemail Group](https://developer.webex.com/docs/api/v1/location-call-settings-voicemail/modify-location-voicemail-group), [Get VoicePortal](https://developer.webex.com/docs/api/v1/location-call-settings-voicemail/get-voiceportal), and [Update VoicePortal](https://developer.webex.com/docs/api/v1/location-call-settings-voicemail/update-voiceportal). Admins should now use `directLineCallerIdName.selection` and `directLineCallerIdName.customName` for configuring caller ID, and `dialByName` for configuring dialing names.
+If `directLineCallerIdName.selection` is set to `DISPLAY_NAME`, the caller ID value can be viewed and updated using the `name` field in the same APIs.
+If a request includes any of the deprecated fields (`firstName`, `lastName`) and any of the new fields (`directLineCallerIdName.selection`, `directLineCallerIdName.customName`, or `dialByName`) as well, only the new fields will be processed and the deprecated fields will be ignored.
+However, if only the deprecated fields are present, their combined value will be used for direct line caller ID and dialing configurations. If only one deprecated field is provided, the system will use the existing value of the missing field (if available) to calculate the combined value.
+These changes will take effect by September 2025 and the deprecated fields (`firstName`, `lastName`) will be removed by the end of March 2026.
+
+
+* * *
+## August 25, 2025
+REST Breaking Change
+  * [Configure Caller ID Settings for a Workspace](https://developer.webex.com/docs/api/v1/workspace-call-settings-1-2/configure-caller-id-settings-for-a-workspace) and [Read Caller ID Settings for a Workspace](https://developer.webex.com/docs/api/v1/workspace-call-settings-1-2/read-caller-id-settings-for-a-workspace) will see the deprecation of the `displayName` and `displayDetail` fields for configuring caller ID and dialing names of workspaces. Caller ID should now be configured with `directLineCallerIdName.selection` and `directLineCallerIdName.customName`, and dialing names with `dialByName`.
+If `directLineCallerIdName.selection` is set to `DISPLAY_NAME`, admins can view and configure the corresponding caller ID value in the `displayName` field using the [Get Workspace Details](https://developer.webex.com/docs/api/v1/people/get-person-details) and [Update a Workspace](https://developer.webex.com/docs/api/v1/workspaces/update-a-workspace) APIs.
+If a request includes any of the deprecated fields (`displayName`, `displayDetail`) and any of the new fields (`directLineCallerIdName.selection`, `directLineCallerIdName.customName`, or `dialByName`) as well, only the new fields will be processed and the deprecated fields will be ignored.
+However, if only the deprecated fields are present, their combined value will be used for direct line caller ID and dialing configurations. If only one deprecated field is provided, the system will use the existing value of the missing field (if available) to calculate the combined value.
+These changes will take effect by September 2025 and the deprecated fields (`displayName`, `displayDetail`) will be removed by the end of March 2026.
+
+
+* * *
+## August 25, 2025
+REST Breaking Change
+  * [Configure Caller ID Settings for a Person](https://developer.webex.com/docs/api/v1/user-call-settings-1-2/configure-caller-id-settings-for-a-person), [Read Caller ID Settings for a Person](https://developer.webex.com/docs/api/v1/user-call-settings-1-2/read-caller-id-settings-for-a-person), [Configure Caller ID Settings for a Virtual Line](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/configure-caller-id-settings-for-a-virtual-line), and [Read Caller ID Settings for a Virtual Line](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/read-caller-id-settings-for-a-virtual-line) will be impacted by the deprecation of the `firstName` and `lastName` fields for configuring caller ID and dialing names of users and virtual lines. Admins should now use `directLineCallerIdName.selection` and `directLineCallerIdName.customName` to configure caller ID, and `dialByFirstName` and `dialByLastName` to set dialing names.
+If `directLineCallerIdName.selection` is set to `DISPLAY_NAME`, `FIRSTNAME_LASTNAME`, or `LASTNAME_FIRSTNAME`, admins can view the corresponding caller ID values in the `firstName`, `lastName`, and `displayName` fields using the [Get Person Details](https://developer.webex.com/docs/api/v1/people/get-person-details) and [Get Details for a Virtual Line](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/get-details-for-a-virtual-line) APIs for users and virtual lines, respectively. Admins can also update these fields and configure the caller ID for these selections, using the [Update a Person](https://developer.webex.com/docs/api/v1/people/update-a-person) and [Update a Virtual Line](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/update-a-virtual-line) APIs.
+If a request includes any of the deprecated fields (`firstName`, `lastName`) and any of the new fields (`directLineCallerIdName.selection`, `directLineCallerIdName.customName`, `dialByFirstName`, or `dialByLastName`) as well, only the new fields will be processed and the deprecated fields will be ignored.
+However, if only the deprecated fields are present, the corresponding dial-by field will be updated (`dialByFirstName` if `firstName` is present, or `dialByLastName` if `lastName` is present) and their combined value will be used for direct line caller ID configuration. If only one deprecated field is provided, the system will use the existing value of the missing field (if available) to calculate the combined value and configure the direct line caller ID.
+[Create a Virtual Line](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/create-a-virtual-line), [Read the List of Virtual Lines](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/read-the-list-of-virtual-lines), and [Update a Virtual Line](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/update-a-virtual-line) will deprecate the `callerIdFirstName` and `callerIdLastName` fields for configuring virtual line caller ID. Instead, admins should use [Configure Caller ID Settings for a Virtual Line](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/configure-a-caller-id-settings-for-a-virtual-line) and [Read Caller ID Settings for a Virtual Line](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/read-caller-id-settings-for-a-virtual-line) to configure and view virtual line caller ID settings.
+These changes will take effect by September 2025 and the deprecated fields (`firstName`, `lastName`) will be removed by the end of March 2026.
+
+
+* * *
+## July 31, 2025
+REST Warning
+  * We are updating the rate limits on the People API to ensure fair access for all customers. This change is being made because some accounts were making extremely frequent calls, impacting the experience for others. With the new limits, most customers will benefit from improved access. Some users may notice an increase in 429 (Too Many Requests) responses, though we are working to keep this to a minimum. Thank you for your understanding and support.
+
+
+* * *
+## July 28, 2025
+REST Breaking Change
+  * From September 8, 2025, [Get Shared-Line Appearance Members](https://developer.webex.com/docs/api/v1/user-call-settings-2-2/get-shared-line-appearance-members) will be replaced with [Get Shared-Line Appearance Members New](https://developer.webex.com/docs/api/v1/user-call-settings-2-2/get-shared-line-appearance-members-new) and [Search Shared-Line Appearance Members](https://developer.webex.com/docs/api/v1/user-call-settings-2-2/search-shared-line-appearance-members) will be replaced by [Search Shared-Line Appearance Members New](https://developer.webex.com/docs/api/v1/user-call-settings-2-2/search-shared-line-appearance-members-new) and [Put Shared-Line Appearance Members](https://developer.webex.com/docs/api/v1/user-call-settings-2-2/put-shared-line-appearance-members) will be replaced by [Put Shared-Line Appearance Members New](https://developer.webex.com/docs/api/v1/user-call-settings-2-2/put-shared-line-appearance-members-new) and [Retrieve a person's Application Services Settings](https://developer.webex.com/docs/api/v1/user-call-settings-1-2/retrieve-a-person-s-application-services-settings) will be replaced by [Retrieve a person's Application Services Settings New](https://developer.webex.com/docs/api/v1/user-call-settings-2-2/retrieve-a-person-s-application-services-settings-new).
+
+
+* * *
+## June 24, 2025
+REST New
+  * As an admin, you can now delete a recording using the [Delete a Recording By an Admin](https://developer.webex.com/docs/api/v1/recordings/delete-a-recording-by-an-admin) API without specifying the `hostEmail` parameter as long as the recording to be deleted is on a site which is managed by the admin. The admin can delete a recording using this new API even if the "Allow hosts to reassign, edit, disable, and delete meeting" option is disabled on the target site.
+
+
+* * *
+## June 12, 2025
+REST Warning
+  * We have identified an issue with the guest-to-guest Service App in our developer program. When a Service App is deleted without **first removing its authorizations** , the license it consumes within your organization is **not released and cannot be reused**. To ensure proper license management, please make sure to **remove all authorizations associated with the Service App before deleting it**. This will free up the license for future use.
+
+
+* * *
+## June 9, 2025
+REST New
+  * As an admin, you can now retrieve a meeting using a meeting ID with the [Get a Meeting By an Admin](https://developer.webex.com/docs/api/v1/meetings/get-a-meeting-by-an-admin) API, or retrieve meetings with a meeting number or web link with the [List Meetings By an Admin](https://developer.webex.com/docs/api/v1/meetings/list-meetings-by-an-admin) API. No `hostEmail` parameter or `password` is required, but sensitive attributes like `agenda`, `hostKey`, `password`, etc. are hidden from the response.
+
+
+* * *
+## June 3, 2025
+REST New
+  * As a meeting host, cohost or compliance officer, you can now end a meeting with a specified meeting ID using the [End a Meeting](https://developer.webex.com/docs/api/v1/meetings/end-a-meeting) API.
+
+
+* * *
+## June 3, 2025
+REST New
+  * A new attribute `hasSlido` has been added to the response of the [Get a Meeting](https://developer.webex.com/docs/api/v1/meetings/get-a-meeting) and [List Meetings](https://developer.webex.com/docs/api/v1/meetings/list-meetings) APIs to indicate whether or not an ended meeting instance has Slido interactions. A new boolean filter `hasSlido` has been added to the [List Meetings](https://developer.webex.com/docs/api/v1/meetings/list-meetings) API. If true, it only return meeting instances which have Slido interactions; if false, it only return those which have no Slido interactions; if it isn't specified, all meeting instances will be returned. Note that the `hasSlido` attribute is true for an ended meeting instance if Slido is enabled for the meeting and there are interactions like Q&A or polling in Slido.
+
+
+* * *
+## May 27, 2025
+REST New
+  * Admins can now submit a request for up to 1,000 numbers in the `MOVE` operation type when using the [Initiate Number Jobs](https://developer.webex.com/docs/api/v1/numbers/initiate-number-jobs) API. Additionally, the [Initiate Move Users Job](https://developer.webex.com/docs/api/v1/user-call-settings-2-2/validate-or-initiate-move-users-job) has now been enhanced to support non-calling user moves.
+
+
+* * *
+## May 15, 2025
+REST New
+  * Admins can now update the `ownerID` in a request when using [Reassign Recordings](https://developer.webex.com/docs/api/v1/converged-recordings/reassign-recordings) to change the owner of a recording. This is particularly useful in cases involving virtual lines or workspaces that do not have an associated email address.
+
+
+* * *
+## May 12, 2025
+REST Breaking Change
+  * In the near future, the `numberOfRings` parameter will be limited to values between 2 and 20 for User, Workspace, and Virtual Profile Call Forwarding and Voicemail `PUT` APIs. The same validation will also apply to `numberOfRings` and `baseLocationNumberOfRings` for the Workspace Sequential Ring API.
+
+
+* * *
+## May 1, 2025
+Update
+  * The [Setup PSTN Connection for a Location](https://developer.webex.com/docs/api/v1/pstn/setup-pstn-connection-for-a-location) API now requires the `spark-admin:telephony_pstn_read` scope in addition to the scope already documented.
+
+
+* * *
+## April 29, 2025
+New
+  * The new [Update a Virtual Extension](https://developer.webex.com/docs/api/v1/beta-features-virtual-extensions/update-a-virtual-extension) and [Delete a Virtual Extension](https://developer.webex.com/docs/api/v1/beta-features-virtual-extensions/delete-a-virtual-extension) APIs require the `Identity:contact` scope in addition to the roles and scopes already documented.
+
+
+* * *
+## April 28, 2025
+REST New
+  * When Cisco 8875 devices are upgraded to PhoneOS 3.4 or later, they will operate like desk phones. These devices can no longer be configured using [PUT settings](https://developer.webex.com/docs/api/v1/device-call-settings/update-device-settings) and [GET settings API](https://developer.webex.com/docs/api/v1/device-call-settings/get-device-settings). Instead, they should be configured in the same way as Cisco 9800 series devices, using the [Device Configuration APIs](https://developer.webex.com/docs/api/v1/device-configurations). Additionally, these devices are no longer configurable at the location or organization level through the [Change Device Settings Job API](https://developer.webex.com/docs/api/v1/device-call-settings/change-device-settings-across-organization-or-location-job).
+
+
+* * *
+## April 15, 2025
+Breaking Change
+  * Previously, authorized bots could access a person's pronouns based on Control Hub settings. However, to prioritize customer privacy and ensure data is used only when necessary, we are disabling this feature. This change should go into effect at the end of April, 2025.
+
+
+* * *
+## April 7, 2025
+New
+  * Partner organizations that manage their customers through Webex Partner Hub can now download Partner Hub reports directly using the [Partner Reports Template](https://developer.webex.com/docs/api/v1/partner-reports-templates) API.
+
+
+* * *
+## April 4, 2025
+Breaking Change
+  * For user convenience, the previous `List Meetings of a Meeting Series` API has been merged into the [List Meetings](https://developer.webex.com/docs/api/v1/meetings/list-meetings) API.
+
+
+* * *
+## March 31, 2025
+New
+  * We are excited to announce a new feature: [guest-to-guest meetings](https://developer.webex.com/docs/service-apps-as-g2g-meeting-facilitator-guide) can now be set up with [end-to-end encryption](https://help.webex.com/en-us/article/nsj2xpfb/Schedule-a-Webex-Meeting-with-end-to-end-encryption). To take advantage of this enhanced security, please ensure that the Service App for guest-to-guest meetings is reauthorized.
+
+
+* * *
+## March 14, 2025
+Warning
+  * The data for the `Video Duration` field in the Calling Media Quality report has occasionally been reported as higher than expected. We're addressing this discrepancy to make sure that the data accurately reflects the actual video duration during calls. This change will be applied to historical data, affecting records up to 13 months prior from when the change goes live and will be enacted starting 3/18. The Video Duration field also exists in the Calling Engagement report, but this change won't affect this report as it's being obsoleted.
+
+
+* * *
+## March 3, 2025
+Breaking Change
+  * As mentioned in the [November changelog](https://developer.webex.com/docs/api/changelog#2024-november), the values of the `errorCodes` field returned by the [Get a Trunk](https://developer.webex.com/docs/api/v1/call-routing/get-a-trunk) endpoint will be updated. This update is scheduled to take place in April 2025.
+
+
+* * *
+## February 24, 2025
+New
+  * We are excited to introduce a new group of APIs for [Domain Management](https://developer.webex.com/docs/api/v1/domain-management). An administrator can [verify](https://developer.webex.com/docs/api/v1/domain-management/verify-domain) a domain and [claim ownership](https://developer.webex.com/docs/api/v1/domain-management/claim-domain) of it for their organization. Verifying a domain ensures that a user in a given organization belongs to that specific domain. Previously claimed domains can be released using the [unclaim](https://developer.webex.com/docs/api/v1/domain-management/unclaim-domain) and [unverify](https://developer.webex.com/docs/api/v1/domain-management/unverify-domain) APIs.
+
+
+* * *
+## February 21, 2025
+Major
+  * Due to unforseen circumstances we have updated our internet SSL certificate issuer from GoDaddy to HydrantId. This change may require developers to update their applications to incorporate the new certificate chain. You can download the Identrust chain from [here](https://www.identrust.com/support/downloads). Impact • Applications relying on the old certificate chain from GoDaddy may experience failures in establishing secure connections. • Developers need to update their applications to trust the new certificate chain issued by HydrantId. Action Required: • Review and update your application's SSL/TLS configuration to include the new certificate chain provided by HydrantId. • Test your applications to ensure compatibility with the new certificate chain and confirm that secure connections are established successfully.
+
+
+* * *
+## February 14, 2025
+New
+  * As a meeting host, you can set up live streaming for a meeting with the `enabledLiveStream` and `liveStream` attributes when the meeting is created using [Create a Meeting](https://developer.webex.com/docs/api/v1/meetings/create-a-meeting). When the meeting is started, the meeting host can start the live streaming by selecting the three dots, choosing **Start live streaming** and then **Go live** from the meeting client. The live streaming is started for the meeting without any ad-hoc configuration required. Live streaming can also be enabled for an existing meeting using [Patch a Meeting](https://developer.webex.com/docs/api/v1/meetings/patch-a-meeting) or [Update a Meeting](https://developer.webex.com/docs/api/v1/meetings/update-a-meeting) with the `enabledLiveStream` and `liveStream` attributes.
+
+
+* * *
+## February 11, 2025
+New
+  * As a host or cohost of a meeting, you can invite a SIP participant to join the meeting via the [Call Out a SIP Participant](https://developer.webex.com/docs/api/v1/meeting-participants/call-out-a-sip-participant) API. You can also cancel the call to a SIP participant before the ringing on the invited SIP device stops via the [Cancel Calling Out a SIP Participant](https://developer.webex.com/docs/api/v1/meeting-participants/cancel-calling-out-a-sip-participant) API.
+
+
+* * *
+## February 6, 2025
+New
+  * Descriptions of the following fields have been added to [Get Detailed Call History](https://developer.webex.com/docs/api/v1/reports-detailed-call-history/): Caller ID number, External caller ID number, Redirecting party UUID, Device owner UUID, Call Recording Platform Name, Call Recording Result, Call Recording Trigger, and Public Calling IP Address.
+
+
+* * *
+## January 24, 2025
+New
+  * The DECT serviceability password or the admin override password provide read/write access to DECT base stations for performing system serviceability and troubleshooting functions. New APIs have been added under [DECT Device Settings](https://developer.webex.com/docs/api/v1/dect-devices-settings) to create and manage serviceability passwords.
+
+
+* * *
+## January 21, 2025
+Breaking Change
+  * Starting March 2nd, 2025, the `sharedLineIndex` field will be mandatory when `lineKeyType` is `SHARED_LINE` for the following APIs: [Modify Device Layout by Device ID](https://developer.webex.com/docs/api/v1/device-call-settings/modify-device-layout-by-device-id), [Create a Line Key Template](https://developer.webex.com/docs/api/v1/device-call-settings/create-a-line-key-template), and [Modify a Line Key Template](https://developer.webex.com/docs/api/v1/device-call-settings/modify-a-line-key-template).
+
+
+* * *
+## January 21, 2025
+New
+  * We are implementing an update to the API response structure for breakout sessions for [meeting participants](https://developer-portal.int-first-general1.ciscospark.com/docs/api/v1/meeting-participants/list-meeting-participants) on the Webex Suite Meeting Platform (WSMP). This change is driven by the transition to our fully distributed, scalable, and resilient infrastructure.
+Previous Behavior: In the past, when a participant moved from the main session to a breakout session, and then to another breakout session, the API response aligned the breakout sessions under a single main session: • MSession • BrO1 • BrO2
+New Behavior: With WSMP, each breakout session will now appear under the main session every time, as follows: • MSession • BrO1 • MSession • BrO2
+This adjustment means the API response will include the main session for each breakout session entry, even if only one main session exists. As a result, you will need to utilize session identifiers to consolidate these repeated main session entries in your reporting systems.
+Please update your systems accordingly to accommodate this change.
+
+
+* * *
+## January 21, 2025
+Breaking Change
+  * As mentioned in the [November month's changelog](https://developer.webex.com/docs/api/changelog#2024-november), the values of the `errorCodes` field returned by the [Get a Trunk](https://developer.webex.com/docs/api/v1/call-routing/get-a-trunk) endpoint will be updated. This update is scheduled to take place in February 2025.
+
+
+* * *
+## January 13, 2025
+New
+  * Webhooks for Webex events are provided with a `X-Spark-Signature` when a [secret has been provided during webhook registration](https://developer.webex.com/docs/api/guides/webhooks#handling-requests-from-webex). The signature corresponds to the `HMAC-SHA1` hash of the webhook payload. We now offer additional HMAC's namely `HMAC-SHA256` and `HMAC-SHA512`. These can be found in the new header `X-Webex-Signature`.
+
+
+* * *
+## December 18, 2024
+Breaking Change
+  * Starting January 27, 2025, the Emergency Call Back Number (ECBN) setting retrieval and modification APIs will support using a Hunt Group and the previously supported types of People, Place, and Virtual Line. API callers should be prepared for the ECBN identifier and type associated with an entity to refer to a Hunt Group. Enhanced APIs will be [Get Location ECBN Available Phone Numbers](https://developer.webex.com/docs/api/v1/location-call-settings/get-location-ecbn-available-phone-numbers), [Get Person ECBN Available Phone Numbers](https://developer.webex.com/docs/api/v1/user-call-settings/get-person-ecbn-available-phone-numbers), [Get Workspace ECBN Available Phone Numbers](https://developer.webex.com/docs/api/v1/workspace-call-settings/get-workspace-ecbn-available-phone-numbers), [Get Virtual Line ECBN Available Phone Numbers](https://developer.webex.com/docs/api/v1/virtual-line-call-settings/get-virtual-line-ecbn-available-phone-numbers), [Update a Location Emergency callback number](https://developer.webex.com/docs/api/v1/location-call-settings/update-a-location-emergency-callback-number), [Update a Person's Emergency Callback Number](https://developer.webex.com/docs/api/v1/emergency-services-settings/update-a-person%27s-emergency-callback-number), [Update a Workspace Emergency Callback Number](https://developer.webex.com/docs/api/v1/emergency-services-settings/update-a-workspace-emergency-callback-number), [Update a Virtual Line's Emergency Callback settings](https://developer.webex.com/docs/api/v1/emergency-services-settings/update-a-virtual-line%27s-emergency-callback-settings), [Get a Location Emergency callback number](https://developer.webex.com/docs/api/v1/location-call-settings/get-a-location-emergency-callback-number), [Get a Person's Emergency Callback Number](https://developer.webex.com/docs/api/v1/emergency-services-settings/get-a-person%27s-emergency-callback-number), [Get a Workspace Emergency Callback Number](https://developer.webex.com/docs/api/v1/emergency-services-settings/get-a-workspace-emergency-callback-number), [Get the Virtual Line's Emergency Callback settings](https://developer.webex.com/docs/api/v1/emergency-services-settings/get-the-virtual-line%27s-emergency-callback-settings).
+
+
+* * *
+## November 21, 2024
+Breaking Change
+  * The values of the `errorCodes` field returned by the [Get a Trunk](https://developer.webex.com/docs/api/v1/call-routing/get-a-trunk) endpoint will be changing on January 24, 2025. Please prepare your code to use these new values:
+| Old Error Code | New Error Code | |----------------|-------------------------------------| | `E1001` | `F_TO_FQDN_DNS_FAILURE` | | `E1002` | `F_TO_CONN_TRANSPORT_ISSUE` | | `E1003` | `F_TO_CONN_CERT_INVALID_CA` | | `E1004` | `F_TO_CONN_CERT_EXPIRED` | | `E1005` | `F_TO_CONN_CERT_EXPIRED_CA` | | `E1006` | `F_TO_FQDN_FQDN_MISSING_CN_SAN` | | `E1007` | `E_TO_NO_RESPONSE` | | `E1008` | `F_FROM_CONN_CERT_INVALID_CERT` | | `E1009` | `F_FROM_CONN_CERT_DISTRUST_CA` | | `E1010` | `F_FROM_CONN_CERT_EXPIRED_CERT_CHAIN` | | `E1011` | `F_FROM_FAILED_SIP_OPTIONS` | | `E1012` | `E_FROM_SERVER_ERROR_UNAVAILABLE` | | `E1013` | `F_TO_CONN_CERT_REVOKED_CERT` | | `E1014` | `F_FROM_CONN_CERT_REVOKED_CERT` | | `E1015` | `F_FROM_CONN_CERT_EXPIRED` | | `E1016` | `F_FROM_CONN_CERT_ERROR` | | `E1017` | `F_TO_CONN_CERT_ERROR` |
+
+
+* * *
+## November 12, 2024
+Breaking Change
+  * As highlighted in the [API Behavior Changes document](https://developer.webex.com/docs/app-programming-interface-behavior-changes), the `rooms/meetingInfo` API may not return information after an organization was moved to the Webex Suite Meetings Platform. As explained, the reason is that in WSMP, there is only a loose concept of a space meeting. The meeting does not happen in the space but must be scheduled via the [/meetings REST endpoints](https://developer.webex.com/docs/api/v1/meetings/create-a-meeting). The meetings REST endpoint also provides the SIP dial info for the meeting like in this example response. Please utilize this REST endpoint to avoid service disruption.
+
+```
+   ...
+    "siteUrl": "site4-example.webex.com",
+    "webLink": "https://site4-example.webex.com/site4/j.php?MTID=md41817da6a55b0925530cb88b3577b1e",
+    "registerLink": "https://cisco.webex.com/weblink/register/r55981368ee48e2a6f00b93231508c404",
+    "sipAddress": "123456789@site4-example.webex.com",
+    ...
+
+```
+
+The /meetingInfo endpoint is now deprecated, and we may shut it down entirely on January 31, 2025, when most customers should be on WSMP.
+
+
+* * *
+## November 11, 2024
+Warning
+  * Meeting Attendee Report Update We're updating the Meeting Attendee report to accurately reflect the values for LOCATION field. We'll be labeling the LOCATION column as LOCATION (DEPRECATED) and adding new COUNTRY, STATE, and CITY columns for more specific location data. Additionally, the OS and BROWSER columns will now include version information.
+
+
+* * *
+## October 17, 2024
+Breaking Change
+  * As a reminder, effective today, the field `answerConfirmationEnabled` has been renamed to `answerConfirmationRequiredEnabled` within the simultaneous ring settings of the Workspace API. This change applies to both the [GET](https://developer.webex.com/docs/api/v1/workspace-call-settings/retrieve-simultaneous-ring-settings-for-a-workspace) and [MODIFY](https://developer.webex.com/docs/api/v1/workspace-call-settings/modify-simultaneous-ring-settings-for-a-workspace) endpoints. During the transition period ( [original change log published on 30th August 2024](https://developer.webex.com/docs/api/changelog#2024-august) ), both fields were accessible in the payload for `GET` and `MODIFY` operations. Please ensure that your implementations have been updated to reflect this change.
+
+
+* * *
+## October 11, 2024
+Breaking Change
+  * The [Guest Issuer](https://developer.webex.com/docs/guest-issuer) API function will reach its End of Life (EOL) on December 31, 2025. After this date, the Guest Issuer approach will no longer be supported or available.  
+All guest issuer apps must transition to using [Service Apps](https://developer.webex.com/docs/sa-guest-management) for creating temporary identities to ensure continuity and take advantage of the enhanced features and support offered by Service Apps.
+
+
+* * *
+[](https://developer.webex.com/api/content/changelog/feed)
+Subscribe to RSS
+## Contents
+  * 2026
+  * [August](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [July](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [June](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [May](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [April](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [March](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [January](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * 2025
+  * [December](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [November](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [October](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [September](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [August](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [July](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [June](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [May](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [April](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [March](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [February](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [January](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * 2024
+  * [December](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [November](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * [October](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
