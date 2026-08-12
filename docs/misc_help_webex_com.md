@@ -39794,3 +39794,215 @@ Recently Viewed
 [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
 ©2026 Cisco and/or its affiliates. All rights reserved. 
 [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+
+
+---
+# ORIGEN: https://help.webex.com/en-us/article/y1eqyd/Embedded-apps-in-Webex
+
+Skip To Content[![webex-logo](https://help.webex.com/logo/webexlogo.png)Help Center](https://help.webex.com/en-us)
+* ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
+* ![search icon](https://help.webex.com/images/search-icon.svg)
+  * [Get started](https://help.webex.com/en-us/getting-started)
+  * [Help by product](https://help.webex.com/en-us/products)
+  * [Administration](https://help.webex.com/en-us/administration)
+  * [What's new](https://help.webex.com/en-us/ld-v6m1dl)
+  * Resources
+Support
+[Join a meeting](https://signin.webex.com/join)
+[Developer Tools![Developer Tools](https://help.webex.com/images/pop-out-bold.svg)](https://developer.webex.com/)
+[Adoption Hub![](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/us/en/adopt/index.html)
+[Contact Support](https://help.webex.com/en-us/contact)
+learn
+[Video resources](https://help.webex.com/en-us/video-resources)
+[Webex Academy![Webex Academy](https://help.webex.com/images/pop-out-bold.svg)](https://academy.webex.com/learn)
+[Live Events and Webinars![Live Events and Webinars](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/learn/webinars-demos.html)
+[Webex Blog![Webex Blog](https://help.webex.com/images/pop-out-bold.svg)](https://blog.webex.com/)
+programs
+[Webex Community![Webex Community](https://help.webex.com/images/pop-out-bold.svg)](https://community.cisco.com/t5/webex-community/ct-p/webex-user)
+[Webex Insider![Webex Insider](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/insider)
+[App Hub![App Hub](https://help.webex.com/images/pop-out-bold.svg)](https://apphub.webex.com/)
+![Cisco AI Assistant](https://help.webex.com/images/ai.png)
+## Cisco AI Assistant
+The most advanced generative AI-powered platform for hybrid work and customer experience.
+[Learn more →](https://help.webex.com/en-us/webex-ai)
+![webex](https://help.webex.com/logo/webexsmall.png)[Download Webex](https://www.webex.com/downloads.html)
+[+1-888-469-3239](tel:+1-888-469-3239)[Contact Sales →](https://www.webex.com/contact-sales.html)
+  * ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
+  * English
+    * [ Dansk ](https://help.webex.com/da-dk/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Deutsch ](https://help.webex.com/de-de/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ English ](https://help.webex.com/en-us/article/y1eqyd/Embedded-apps-in-Webex)![language tick](https://help.webex.com/images/checkbox-check.svg)
+    * [ Español ](https://help.webex.com/es-co/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Français ](https://help.webex.com/fr-fr/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Italiano ](https://help.webex.com/it-it/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Nederlands ](https://help.webex.com/nl-nl/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Português ](https://help.webex.com/pt-br/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Pyccĸий ](https://help.webex.com/ru-ru/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Svenska ](https://help.webex.com/sv-se/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Tϋrkçe ](https://help.webex.com/tr-tr/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ 한국어 ](https://help.webex.com/ko-kr/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ 日本語 ](https://help.webex.com/ja-jp/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ 简体中文 ](https://help.webex.com/zh-cn/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ 繁體中文 ](https://help.webex.com/zh-tw/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Română ](https://help.webex.com/ro-ro/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Magyar ](https://help.webex.com/hu-hu/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Polski ](https://help.webex.com/pl-pl/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Čeština ](https://help.webex.com/cs-cz/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Български ](https://help.webex.com/bg-bg/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Norsk ](https://help.webex.com/no-no/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Hrvatski ](https://help.webex.com/hr-hr/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Srpski ](https://help.webex.com/sr-rs/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Українська ](https://help.webex.com/uk-ua/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ العربية ](https://help.webex.com/ar-ae/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ עברית ](https://help.webex.com/he-il/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Suomi ](https://help.webex.com/fi-fi/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Slovenščina ](https://help.webex.com/sl-si/article/y1eqyd/Embedded-apps-in-Webex)
+    * [ Slovenský ](https://help.webex.com/sk-sk/article/y1eqyd/Embedded-apps-in-Webex)
+  * Sign In
+
+
+  * [Home](https://help.webex.com/)
+  * /
+  * Article
+
+
+This article applies to:
+  * ![](https://help.webex.com/images/products-icon.svg)
+Products
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/industries-icon.svg)
+Industries
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/roles-icon.svg)
+Roles
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/operating-systems-icon.svg)
+Operating systems
+![](https://help.webex.com/images/arrow-down_16.svg)
+
+
+Was this article helpful?
+![close](https://help.webex.com/images/icn-close.svg)
+# Thanks for your feedback.
+![](https://help.webex.com/images/thumbs-up.svg)Yes, thank you!![](https://help.webex.com/images/thumbs-down.svg)Not really
+July 28, 2026 | 20807 view(s) | 29 people thought this was helpful
+![](https://help.webex.com/images/print-icon-new.svg)
+Subscribe
+Embedded apps in Webex
+![list-menu](https://help.webex.com/images/feedback.svg)Feedback?
+Bring the web apps your users already use into Webex. Your users can use embedded apps directly in a Webex meeting or space. 
+In Control Hub, you can enable public apps or your own private embedded apps. Your users access the apps directly in their Webex meetings and spaces. 
+Through the [Webex Developer Portal](https://developer.webex.com/), you create your own apps and register them for use with Webex. For more information, see [Embedded Apps](https://developer.webex.com/docs/embedded-apps).
+There are  public and  private embedded apps. We have approved  public apps for use by everyone. You can add  private apps and enable them just for your organization.
+Webex for Government only supports  private embedded apps. Use [https://developer-usgov.webex.com](https://developer-usgov.webex.com/) instead of the commercial Webex Developer Portal.
+  * [Authentication](https://help.webex.com/en-us/article/y1eqyd/Embedded-apps-in-Webex#reference-template_5c7e2f84-4858-4591-82f0-7bcc7181bebd)
+  * [Allow or block public apps](https://help.webex.com/en-us/article/y1eqyd/Embedded-apps-in-Webex#Cisco_Task_in_List_GUI.dita_embeddedapp2)
+  * [Approve or deny a private app](https://help.webex.com/en-us/article/y1eqyd/Embedded-apps-in-Webex#Cisco_Task_in_List_GUI.dita_embeddedapp1)
+  * [Recommend apps](https://help.webex.com/en-us/article/y1eqyd/Embedded-apps-in-Webex#task-template_38215376-92b8-442d-a763-d38019faef47)
+  * [Configure groups in the app](https://help.webex.com/en-us/article/y1eqyd/Embedded-apps-in-Webex#reference-template_efa75960-36cc-4290-9309-8c9c3fe191b0)
+  * [Configure PII in the app](https://help.webex.com/en-us/article/y1eqyd/Embedded-apps-in-Webex#task-template_9fa56843-b090-4f0d-ad11-f69612065b27)
+
+
+At this time, Embedded Apps only support web-based authentication. The following authentication schemes are not supported:
+  * Non-web based authentication such as Kerberos. 
+  * Integration authentication via mobile device management such as Microsoft Intune.
+  * SSO authentication schemes that block the embedded browser.
+  * Okta multi-factor authentication on MacOS.
+
+
+We recommend initiating system browser authentication for any authentication that is not supported in the embedded browser. For more information, see: [Third-Party Single Sign-On (SSO) Support](https://developer.webex.com/docs/embedded-apps-guide#thirdparty-single-signon-sso-support).
+You can allow or block specific embedded apps for your organization through Control Hub. 
+Webex for Government doesn't support public embedded apps.  
+| 1  |  Sign in to [Control Hub](https://admin.webex.com/).  |  
+| --- | --- |  
+| 2  |  Under **Management** , select Apps > Embedded Apps. The Embedded Apps page shows the available apps and their status.   |  
+| 3  |  On the Public tab, you can click Allow new public apps by default to toggle all public apps. This switch changes the state of all current public apps to the new state. By default, all the apps are enabled.  |  
+| 4  |  To allow or block a specific app, click that app to open the App Details pane. In the Access section, use the following settings to choose who can access that app:
+  * All users—Allow all users. The status of the app changes to Allowed.
+  * Select Groups—Search and select the groups that you want to allow access. The status of the app changes to Limited. See _Configure groups in the app_ tab for more information.
+  * No users—Restrict any user. The status of the app changes to Blocked.
+
+The Details pane provides links for more information about the app.  |  
+| 5  |  If the app requires access to PII, see the _Configure PII in the app_ tab.  |  
+Developers create new private embedded apps for your organization in the [Webex Developer Portal](https://developer.webex.com/). When the app is ready, they submit the app for approval through the portal. You approve or deny those requests inControl Hub.
+For Webex for Government, use [https://developer-usgov.webex.com](https://developer-usgov.webex.com/) instead of the commercial Webex Developer Portal.  
+| 1  |  Sign in to [Control Hub](https://admin.webex.com/).  |  
+| --- | --- |  
+| 2  |  Under Management, select Apps > Embedded Apps. By default, the Private tab shows the status of any private app submitted for approval. Click Show in-development apps to see the apps that developers are working on.  |  
+| 3  |  Click the app that's pending approval to open the Details pane.  |  
+| 4  |  Click Submission status and choose one of the following:
+  * In-development—Show the requests in development.
+  * Denied—Show the apps that are denied approval.
+  * Approved—Show the approved apps.
+    * All users—Show all the approved users.
+    * Select groups—Show the approved users of the selected groups. See _'Configure groups in the app'_ for information on how to create groups.
+
+ |  
+| 5  |  If the app requires access to PII, see the _Configure PII in the app_ tab.  |  
+The developer sees your decision on the app's page in the [Webex Developer Portal](https://developer.webex.com/).
+You can choose up to 3 apps you want to recommend to users by flagging them as _recommended_ in Control Hub. Webex App displays your recommended apps, both public and private, to users under **Suggestions for you**.
+Webex for Government doesn't support public embedded apps.  
+| 1  |  Sign in to [Control Hub](https://admin.webex.com/).  |  
+| --- | --- |  
+| 2  |  Under **Management** , select Apps > Embedded Apps.  |  
+| 3  |  Choose the app want to recommend from the list, either public or private. Check the Recommended box, and click Save.  You can choose a maximum of 3 recommended apps.  |  
+| 4  |  In the apps list, a recommended app displays a Recommended tag. Webex App displays your recommended apps in the Suggestions for you section, following Recently used.  |  
+You can create a new group using one of the following options: 
+  * Perform a group sync by following the steps in [Set up Azure AD Wizard app in Control Hub](https://help.webex.com/en-us/article/heauzeb/Set-up-Azure-AD-Wizard-App-in-Control-Hub#_9c79a158-ee26-4fc6-a986-87389351a4e5).
+  * Use Webex APIs to create a group by following the steps in [Create a group](https://developer.webex.com/docs/api/v1/groups/create-a-group).
+
+
+Personally Identifiable Information (PII) includes UUID, OrgID, email address, display name, first name, last name, Meeting ID, Meeting Title, Space ID, and Space Title.
+By default, the PII restrictions are enabled for the apps. Users outside of your organization will not be allowed to share any PII with a third-party app.
+You can allow your app to share PII with third-party apps using the following steps:  
+| 1  |  Sign in to [Control Hub](https://admin.webex.com/).  |  
+| --- | --- |  
+| 2  |  Under Management, select Apps > Embedded Apps.  |  
+| 3  |  You can allow PII access to both Public and Private apps.
+  * If your app is public, click the Public tab, and click the app from the list. Then, in the PII Restrictions section, disable the toggle.
+  * If your app is private, click the Private tab, and click the app from the list. Then, in the PII Restrictions section, disable the toggle.
+
+ |  
+Was this article helpful?
+Yes, thank you!
+Not really
+Was this article helpful?
+![](https://help.webex.com/images/arrow-down_20.svg)
+![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
+Recently Viewed
+![](https://help.webex.com/images/arrow-down_20.svg)
+  * [What's new in Webex Instant Connect](https://help.webex.com/en-us/article/4wwo57)
+  * [Configure Virtual Rounding](https://help.webex.com/en-us/article/6vsdoi)
+  * [Control remote cameras with Instant Connect](https://help.webex.com/en-us/article/nuwutmx)
+  * [Webex App | Webex Instant Connect](https://help.webex.com/en-us/article/nl3z97c)
+
+
+![](https://help.webex.com/icons/arrow-up_16.svg)
+## Small Business
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Pricing](https://pricing.webex.com/)[Webex App](https://www.webex.com/all-new-webex.html)[Meetings](https://www.webex.com/video-conferencing.html)[Calling](https://www.webex.com/cloud-calling.html)[Messaging](https://www.webex.com/team-collaboration.html)[Screen Sharing](https://www.webex.com/screen-sharing.html)
+## Enterprise
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Webex Suite](https://www.webex.com/collaboration-suite.html)[Calling](https://www.webex.com/cloud-calling.html)[Meetings](https://www.webex.com/video-conferencing.html)[Messaging](https://www.webex.com/team-collaboration.html)[Slido](https://www.webex.com/audience-engagement.html)[Webinars](https://www.webex.com/webinar.html)[Events](https://socio.events/)[Contact Center](https://www.webex.com/contact-center.html)[CPaaS](https://www.webex.com/customer-interaction-management.html)[Security](https://www.webex.com/security.html)[Control Hub](https://www.webex.com/control-hub.html)
+## Devices
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Headsets](https://hardware.webex.com/products/headsets)[Cameras](https://hardware.webex.com/products/cameras)[Desk Series](https://hardware.webex.com/products/desk-series)[Room Series](https://hardware.webex.com/products/room-series-and-kits)[Board Series](https://hardware.webex.com/products/board-series)[Phone Series](https://hardware.webex.com/products/phones)[Accessories](https://hardware.webex.com/products/accessories)
+## Solutions For
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Education](https://www.webex.com/industries/education.html)[Healthcare](https://www.webex.com/industries/healthcare.html)[Government](https://www.webex.com/industries/government.html)[Finance](https://www.webex.com/industries/financial-services.html)[Sports & Entertainment](https://www.webex.com/industries/sports-entertainment.html)[Frontline](https://www.webex.com/industries/frontline.html)[Nonprofits](https://www.webex.com/industries/nonprofits.html)[Startups](https://www.webex.com/industries/start-ups.html)[Hybrid Work](https://www.webex.com/hybrid-work.html)
+## Resources
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Downloads](https://www.webex.com/downloads.html)[Join a Test Meeting](https://www.webex.com/test-meeting.html)[Online Classes](https://help.webex.com/en-us/landing/onlineclasses)[Integrations](https://www.webex.com/products/integrations/index.html)[Accessibility](https://www.webex.com/accessibility.html)[Inclusivity](https://www.webex.com/inclusive-collaboration.html)[Live & On-Demand Webinars](https://www.webex.com/learn/webinars-demos.html)[Webex Community](https://cs.co/webexcommunity)[Webex Developers](https://developer.webex.com/)[News & Innovations](https://www.webex.com/resources/whats-new.html)
+## Company
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)[Contact Support](https://help.webex.com/en-us/contact)[Contact Sales](https://www.webex.com/us/en/dg/contact-sales.html)[Webex Blog](https://blog.webex.com/)[Webex Thought Leadership](https://webexahead.webex.com/)[Webex Merch Store](https://www.webexmerchstore.com/)[Careers](https://www.webex.com/company/careers.html)
+  * [![X](https://help.webex.com/images/social-x.svg)](https://twitter.com/webex)
+  * [![LinkedIn](https://help.webex.com/images/linkedinIcon.svg)](https://www.linkedin.com/company/webex)
+  * [![Facebook](https://help.webex.com/images/facebookIcon.svg)](https://www.facebook.com/webex)
+  * [![Youtube](https://help.webex.com/images/youtubeIcon.svg)](https://www.youtube.com/c/webex)
+  * [![Instagram](https://help.webex.com/images/insta.svg)](https://www.instagram.com/webex/)
+
+
+[Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+©2026 Cisco and/or its affiliates. All rights reserved. 
+[Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
