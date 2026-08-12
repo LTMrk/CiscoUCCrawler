@@ -46247,3 +46247,146 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/blog/announcing-webex-developer-sessions-at-cisco-live-amsterdam-2025
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/blog/announcing-webex-developer-sessions-at-cisco-live-amsterdam-2025)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/blog/announcing-webex-developer-sessions-at-cisco-live-amsterdam-2025)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/blog/announcing-webex-developer-sessions-at-cisco-live-amsterdam-2025)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+# Announcing Webex Developer Sessions at Cisco Live Amsterdam 2025
+January 13, 2025
+![Adam Weeks](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt3280371eceea2196/6a60ed759ee77e32d96ed610/Adam_Headshot_Cropped.png?width=100&height=100&fit=crop)
+Adam WeeksTechnical Leader, Webex Developer Relations
+![Announcing Webex Developer Sessions at Cisco Live Amsterdam 2025](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltbd6c2cc741c9e959/67800e22d9df89403ce0276b/header.png?width=900&height=317&fit=crop)
+We're thrilled to announce a lineup of exciting sessions tailored for Webex developers at Cisco Live Amsterdam 2025! Whether you're looking to enhance your virtual meeting applications, dive into AI innovations, or explore the latest in Webex platform APIs, we've got something for everyone. Get ready to engage with industry experts, participate in hands-on workshops, and expand your skills with our diverse range of sessions at `#CiscoLiveEMEA`.
+In addition to our sessions, we will feature two booths inside the **World of Solutions** :
+  * **Open Ecosystem Integrations** : Try out some of the curated apps from the [Webex AppHub](https://apphub.webex.com/).
+  * **Webex for Developers** : Explore all the developer features of Webex and see a demo in action.
+
+
+For a deeper dive into developer features, visit our booth in the **DevNet Zone** on Wednesday, Feb 12 for the **Webex Takeover**.
+### Classroom Sessions
+**Extending Webex Contact Center with Flow Designer Extensibility (NEW!)**
+  * **Description** : Unlock the full potential of your contact center with Flow Designer's advanced features.
+  * **Session ID** : DEVNET-2915
+  * **Speaker** : Adam Weeks
+  * **Date & Time**: Wednesday, Feb 12, 3:30 PM
+  * [More Info](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVNET-2915#/)
+
+
+**AI Innovations with Cisco Webex: Transforming Industries through Smart Applications**
+  * **Description** : Discover how AI integrations with Cisco Webex SDKs are reshaping various industries.
+  * **Session ID** : DEVNET-2127
+  * **Speaker** : Adam Weeks
+  * **Date & Time**: Monday, Feb 10, 2:30 PM
+  * [More Info](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVNET-2127#/)
+
+
+**Implementing OAuth 2.0 Authorization for Webex Integrations**
+  * **Description** : Learn to implement OAuth flows for secure Webex app authorization.
+  * **Session ID** : DEVNET-2675
+  * **Speaker** : Joe Zanini
+  * **Date & Time**: Thursday, Feb 13, 11:30 AM
+  * [More Info](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVNET-2675#/)
+
+
+**What’s New in Webex Platform APIs: Messaging, Meetings, Calling, SDKs, and Embedded Apps (NEW!)**
+  * **Description** : Stay updated with the latest innovations in Webex Platform APIs and SDKs.
+  * **Session ID** : BRKCOL-2907
+  * **Speaker** : Phil Bellanti
+  * **Date & Time**: Tuesday, Feb 11, 9:30 AM
+  * [More Info](https://www.ciscolive.com/emea/learn/session-catalog.html?search=BRKCOL-2907#/)
+
+
+**Enhance Your Contact Center with Webex: A Developer's Introduction to APIs and Automation**
+  * **Description** : Explore Webex Contact Center APIs for efficient troubleshooting and automation.
+  * **Session ID** : CISCOU-2043
+  * **Speaker** : Adam Weeks
+  * **Date & Time**: Thursday, Feb 13, 12:30 PM
+  * [More Info](https://www.ciscolive.com/emea/learn/session-catalog.html?search=CISCOU-2043#/)
+
+
+**How to Improve Digital Channels Customer Interactions with Video Combining Instant Connect and Webex Connect**
+  * **Description** : Enhance customer service with Instant Connect and Webex Connect integration.
+  * **Session ID** : DEVNET-2701
+  * **Speaker** : Victor Vazquez
+  * **Date & Time**: Thursday, Feb 13 12:30 PM
+  * [More Info](https://www.ciscolive.com/emea/learn/session-catalog.html?search=devnet-2701#/)
+
+  
+
+### Workshops
+**Enhancing Virtual Meetings with Webex's Guest-to-Guest Platform (NEW!)**
+  * **Description** : Create seamless virtual meetings for non-licensed users with hands-on coding experience.
+  * **Session ID** : DEVWKS-2903
+  * **Speaker** : Phil Bellanti
+  * **Date & Time**: Monday, Feb 10, 3:30 PM
+  * [More Info](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVWKS-2903#/)
+
+
+**Build-a-Bot with Webex**
+  * **Description** : An interactive workshop to build your first Webex bot, enhancing collaboration and automation.
+  * **Session ID** : DEVWKS-1149
+  * **Speaker** : Phil Bellanti
+  * **Date & Time**: Wednesday, Feb 12, 11:30 AM
+  * [More Info](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVWKS-1149#/)
+
+
+**Building your First Embedded App on Webex**
+  * **Description** : Create a Webex Embedded App, covering development, testing, and app approval processes.
+  * **Session ID** : DEVWKS-1650
+  * **Speaker** : Joe Zanini
+  * **Date & Time**: Thursday, Feb 13, 12:30 PM
+  * [More Info](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVWKS-1650#/)
+
+
+**Deploying Webex Service Apps**
+  * **Description** : Gain hands-on experience with creating and deploying Webex Service Apps.
+  * **Session ID** : DEVWKS-2040
+  * **Speaker** : Phil Bellanti
+  * **Date & Time**: Tuesday, Feb 11, 4:00 PM
+  * [More Info](https://www.ciscolive.com/emea/learn/session-catalog.html?search=DEVWKS-2040#/)
+
+  
+
+### See You Soon!
+Join us at Cisco Live Amsterdam 2025 for an unparalleled opportunity to network, learn, and innovate. Whether you're a seasoned developer or new to Webex, our sessions will provide you with the knowledge and tools to push the boundaries of what's possible. See you there! [Register today!](https://www.ciscolive.com/emea.html?zid=pp)
+Blog Categories
+  * [Product Announcements](https://developer.webex.com/blog/categories/product-announcements)
+  * [How To](https://developer.webex.com/blog/categories/how-tos)
+  * [Events](https://developer.webex.com/blog/categories/events)
+  * [Developer Stories](https://developer.webex.com/blog/categories/developer-stories)
+
+
+Share This Article
+Related Articles
+![Cisco Live Amsterdam: A Celebration of Innovation and Community](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt3c20850783d01f42/65dcc117330e0008d67f57d7/cisco-live-amsterdam-wrap-up-2024-1.png?width=600&height=300&fit=crop)
+Events
+[Cisco Live Amsterdam: A Celebration of Innovation and Community](https://developer.webex.com/blog/cisco-live-amsterdam-a-celebration-of-innovation-and-community)
+Adam Weeks
+February 26, 2024
+![Webex for Developers at Cisco Live Amsterdam](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltee0da7eee67af183/63b735dc7775c203ffb24e2a/webex-for-devs-cisco-live-emea-23-1.png?width=600&height=300&fit=crop)
+Events
+[Webex for Developers at Cisco Live Amsterdam](https://developer.webex.com/blog/webex-for-developers-at-cisco-live-amsterdam)
+Adam Weeks
+January 9, 2023
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
