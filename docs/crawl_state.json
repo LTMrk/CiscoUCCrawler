@@ -2043,5 +2043,6 @@
   "https://developer.webex.com/docs/api/v1/recordings/share-a-recording": "86d9531d5849c08459234b0110ce197a75a6c020811b4ce5c842a27f762456db",
   "https://developer.webex.com/docs/api/v1/recordings/share-a-recording-link": "5bd74ad91d35ae7cd268e60e46bb38fd0e62e40c7393b27b7809216cf889d41e",
   "https://developer.webex.com/docs/api/v1/recordings/list-group-recordings": "455e7a11a54203ea8af551c3bea73a1d4bb71aa4d8a50a026ab0693dd92ec27a",
-  "https://developer.webex.com/docs/api/v1/recordings/get-group-recording-details": "8a0f804d8bb6b8789612d09c73edd850e33acde13a27b2b15790997d0f61a6d5"
+  "https://developer.webex.com/docs/api/v1/recordings/get-group-recording-details": "8a0f804d8bb6b8789612d09c73edd850e33acde13a27b2b15790997d0f61a6d5",
+  "https://developer.webex.com/docs/api/v1/recording-report/list-of-recording-audit-report-summaries": "a600d444b3e7a3b42b6e97d4bf4731e4512165ef627a50767d2d2d933a9a43a4"
 }
