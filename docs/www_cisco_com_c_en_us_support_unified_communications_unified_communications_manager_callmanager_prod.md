@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-installation-and-configuration-guides-list.html#fw-content)
-  * [Skip to search](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-installation-and-configuration-guides-list.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-installation-and-configuration-guides-list.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-maintenance-guides-list.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-maintenance-guides-list.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-maintenance-guides-list.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,14 +19,14 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-installation-and-configuration-guides-list.html)
+  * [](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-maintenance-guides-list.html)
   * [Support](https://www.cisco.com/c/en/us/support/index.html)
   * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
   * [Cisco Unified Communications Manager (CallManager)](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html)
 
 
-# Configuration Guides
+# Maintain and Operate Guides
 Some links below may open a new browser window to display the document you selected.  
 |  View Documents by Topic  Choose a Topic Cisco Unified Communications Manager Version 15 Cisco Unified Communications Manager Version 14 Cisco Unified Communications Manager Version 12.5 [Choose a Topic](javascript:void\(0\))
   * Choose a Topic
@@ -37,63 +37,71 @@ Some links below may open a new browser window to display the document you selec
  |  
 | --- |  
 Cisco Unified Communications Manager Version 15
-      * [Configuration and Administration of the IM and Presence Service, Release 15 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/15_0/cup0_b_config-and-admin-guide-15.html)
-      * [Feature Configuration Guide for Cisco Unified Communications Manager, Release 15 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/cucm_b_feature-configuration-guide-for-15.html)
-      * [Push Notifications Deployment Guide](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide.html)
-      * [System Configuration Guide for Cisco Unified Communications Manager, Release 15 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/systemConfig/cucm_b_system-configuration-guide-15.html) Updated
-      * [Database Setup Guide for the IM and Presence Service, Release 15 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/database_setup/15/cup0_b_database-setup-guide-15.html) Updated
-      * [Interdomain Federation Guide for the IM and Presence Service, Release 15](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/interdomain_federation/15/cup0_b_interdomain-federation-guide-15.html)
-      * [Microsoft Outlook Calendar Integration for the IM and Presence Service, Release 15 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/exchange_integration/15/cup0_b_ms-outlook-calendar-integration-15.html)
-      * [Instant Messaging Compliance for the IM and Presence Service](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/im_compliance/12_5_1/cup0_b_im-compliance-guide.html)
-      * [Partitioned Intradomain Federation Guide for the IM and Presence Service](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/intradomain_federation/12_5_1/cup0_b_partitioned-intradomain-federation-1251.html)
+      * [Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15.html)
+      * [Bulk Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/15/cucm_b_bulk-administration-guide-15.html)
+      * [Call Reporting and Billing Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/15/cucm_b_reporting-billing-administration-guide-15.html)
+      * [Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 15 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/15/rtmt/cucm_b_cisco-unified-rtmt-administration-15.html) Updated
+      * [Prime Collaboration Deployment Administration Guide, Release 15 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/15/cucm_b_pcd-admin-guide-15.html)
+      * [SAML SSO Deployment Guide for Cisco Unified Communications Applications, Release 15 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/15/cucm_b_saml-sso-deployment-guide-release-15.html)
+      * [Security Guide for Cisco Unified Communications Manager, Release 15 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/15_0/cucm_b_security-guide-release-15.html)
 Cisco Unified Communications Manager Version 14
-      * [Configuration and Administration of the IM and Presence Service, Release 14 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/14_su2/cup0_b_config-and-admin-guide-14su2.html)
-      * [Database Setup Guide for the IM and Presence Service, Release 14 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/database_setup/14/cup0_b_database-setup-guide-1401.html)
-      * [Feature Configuration Guide for Cisco Unified Communications Manager, Release 14 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/14SU2/cucm_b_feature-configuration-guide-for-cisco14su2.html)
-      * [Interdomain Federation Guide for the IM and Presence Service, Release 14 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/interdomain_federation/14/cup0_b_interdomain-federation-guide-14.html)
-      * [Microsoft Outlook Calendar Integration for the IM and Presence Service, Release 14 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/exchange_integration/14_0_1/cup0_b_ms-outlook-calendar-integration-1401.html)
-      * [Push Notifications Deployment Guide](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide.html)
-      * [System Configuration Guide for Cisco Unified Communications Manager, Release 14 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/14/systemConfig/cucm_b_system-configuration-guide-14su2.html) Updated
-      * [Instant Messaging Compliance for the IM and Presence Service](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/im_compliance/12_5_1/cup0_b_im-compliance-guide.html)
-      * [Partitioned Intradomain Federation Guide for the IM and Presence Service](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/intradomain_federation/12_5_1/cup0_b_partitioned-intradomain-federation-1251.html)
-      * [Remote Call Control with Microsoft Lync Server for IM and Presence Service, Release 14 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/lync_integration/14/cup0_b_rcc-lync-server-integration-14.html)
+      * [Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/14SU2/adminGd/cucm_b_administration-guide-14su2.html)
+      * [Bulk Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/14SU1/cucm_b_bulk-administration-guide-14SU1.html)
+      * [Call Reporting and Billing Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/14/cucm_b_reporting-billing-administration-guide-14.html)
+      * [Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 14 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/14SU2/rtmt/cucm_b_cisco-unified-rtmt-administration-14Su2.html) Updated
+      * [Prime Collaboration Deployment Administration Guide, Release 14 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/14/cucm_b_pcd-admin-guide-1401.html)
+      * [SAML SSO Deployment Guide for Cisco Unified Communications Applications, Release 14 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/14/cucm_b_saml-sso-deployment-guide-Release-14.html)
+      * [Security Guide for Cisco Unified Communications Manager Release 14 and SUs](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/14SU2/cucm_b_security-guide-14su2.html)
 Cisco Unified Communications Manager Version 12.5
-      * [Feature Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU6/cucm_b_feature-configuration-guide-for-cisco12su6.html)
-      * [Configuration and Administration of the IM and Presence Service, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1/cup0_b_config-and-admin-guide-1251.html)
-      * [Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU4 to 12.5(1)SU7](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su4/cup0_b_config-and-admin-guide-1251su4.html)
-      * [Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU3](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su3/cup0_b_config-and-admin-guide-1251su3.html)
-      * [Database Setup Guide for the IM and Presence Service, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/database_setup/12_5_1/cup0_b_database-setup-guide-1251.html)
-      * [Database Setup Guide for the IM and Presence Service, Release 12.5(1)SU2](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/database_setup/12_5_1/cup0_b_database-setup-guide-1251su2.html)
-      * [Database Setup Guide for the IM and Presence Service, Release 12.5(1)SU1](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/database_setup/12_5_1/cup0_b_database-setup-guide-1251su1.html)
-      * [Feature Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/featureConfig/cucm_b_feature-configuration-guide-1251.html)
-      * [Feature Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU4/cucm_b_feature-configuration-guide-cisco1251su4.html)
-      * [Feature Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU3](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU3/cucm_b_feature-configuration-guide-for-cisco1251su3.html)
-      * [Feature Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU2/cucm_b_feature-configuration-guide-for-cisco1251SU2.html)
-      * [Feature Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/cucm_b_feature-configuration-guide-for-cisco1251SU1.html)
-      * [Interdomain Federation Guide for the IM and Presence Service, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/interdomain_federation/12_5_1/cup0_b_interdomain-federation-1251.html)
-      * [Interdomain Federation Guide for the IM and Presence Service, Release 12.5(1)SU3](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/interdomain_federation/12_5_1/cup0_b_interdomain-federation-1251su3.html)
-      * [Jabber for Everyone Quick Start Guide](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/jabber_for_everyone/12_5_1/cup0_b_jabber-for-everyone-solution-guide.html)
-      * [Microsoft Outlook Calendar Integration for the IM and Presence Service, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/exchange_integration/12_5_1/cup0_b_ms-outlook-calendar-integration-1251.html)
-      * [Microsoft Outlook Calendar Integration for the IM and Presence Service, Release 12.5(1)SU2 to 12.5(1)SU8](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/exchange_integration/12_5_1/cup0_b_ms-outlook-calendar-integration-1251su2.html)
-      * [Partitioned Intradomain Federation Guide for the IM and Presence Service](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/intradomain_federation/12_5_1/cup0_b_partitioned-intradomain-federation-1251.html)
-      * [Push Notifications Deployment Guide](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide.html)
-      * [Remote Call Control with Microsoft Lync Server for IM and Presence Service, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/lync_integration/12_5_1/cup0_b_rcc-lync-server-integration-1251.html)
-      * [System Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/systemConfig/cucm_b_system-configuration-guide-1251.html)
-      * [System Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4 to 12.5(1)SU7](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU4/systemConfig/cucm_b_system-configuration-guide-1251su4.html)
-      * [System Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU3](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU3/systemConfig/cucm_b_system-configuration-guide-1251su3.html)
-      * [System Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU2/systemConfig/cucm_b_system-configuration-guide-1251su2.html)
-      * [System Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/systemConfig/cucm_b_system-configuration-guide-1251su1.html)
-      * [Instant Messaging Compliance for the IM and Presence Service](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/im_compliance/12_5_1/cup0_b_im-compliance-guide.html)
+      * [ Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4 ](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1SU4/cucm_b_bulk-administration-guide-1251su4.html)
+      * [ Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2 ](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1_SU2/cucm_b_bulk-administration-guide-1251su2.html)
+      * [ Cisco Unified CDR Analysis and Reporting Administration Guide, Release 12.5(1) ](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251.html)
+      * [Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_administration-guide-1251.html)
+      * [Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6 and 12.5(1)SU7](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU6/adminGd/cucm_b_administration-guide-1251su6.html)
+      * [Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU4/cucm_b_administration-guide-1251su4.html)
+      * [Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU3](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU3/adminGd/cucm_b_administration-guide-1251su3.html)
+      * [Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/adminGd/cucm_b_administration-guide-1251SU1.html)
+      * [Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1/cucm_b_bulk-administration-guide-1251.html)
+      * [Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_SU6/cucm_b_bulk-administration-guide-1251su6.html)
+      * [Call Detail Records Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/cdrdef/cucm_b_cdr-admin-guide-1251.html)
+      * [Call Reporting and Billing Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/12_5_1/cucm_b_reporting-billing-administration-guide-1251SU1.html)
+      * [Changing the IP Address and Hostname for Cisco Unified Communications Manager and IM and Presence Service, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/12_5_1/ipchange/cucm_b_change-ip-address-hostname-1251.html)
+      * [Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/rtmt/cucm_b_cisco-unified-rtmt-administration-1251.html)
+      * [Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)SU4](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1SU4/rtmt/cucm_b_cisco-unified-real-time-monitoring-1251su4.html)
+      * [Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)SU3](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1SU3/rtmt/cucm_b_cisco-unified-real-time-monitoring-1251su3.html)
+      * [Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)SU2](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1_su2/rtmt/cucm_b_cisco-unified-rtmt-administration-1251su2.html)
+      * [Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)SU1](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1SU1/rtmt/cucm_b_cisco-unified-rtmt-administration-1251su1.html)
+      * [Cisco Unified Serviceability Administration Guide, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_serviceability-admin-guide-1251.html)
+      * [Cisco Unified Serviceability Administration Guide, Release 12.5(1)SU1](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/cucm_b_serviceability-admin-guide-1251su1.html)
+      * [Managed Services Guide for Cisco Unified Communications Manager and IM and Presence Service](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/managed_services/12_5_1/cucm_b_managed-services-guide-1251.html)
+      * [Manager Assistant User Guide for Cisco Unified Communications Manager, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/managed_services/12_5_1/cucm_b_manager-assistant-user-guide-1251.html)
+      * [Prime Collaboration Deployment Administration Guide, Release 12.6(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-admin-guide_126.html)
+      * [Prime Collaboration Deployment Administration Guide, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-admin-guide-1251.html)
+      * [SAML SSO Deployment Guide for Cisco Unified Communications Applications, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/12_5_1/cucm_b_saml-sso-deployment-guide-12_5.html)
+      * [Security Guide for Cisco Unified Communications Manager, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1/cucm_b_security-guide-1251.html)
+      * [Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU6/cucm_b_security-guide-1251su6.html)
+      * [Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU5](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU5/cucm_b_security-guide-1251su5.html)
+      * [Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU4/cucm_b_security-guide-1251su4.html)
+      * [Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU3](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU3/cucm_b_security_guide_1251SU3.html)
+      * [Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU2/cucm_b_security-guide-1251SU2.html)
+      * [Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1_SU1/cucm_b_security-guide-125SU1.html)
+      * [Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU2](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su2/cup0_b_config-and-admin-guide-1251su2.html)
+      * [Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1.html)
 
 
-  * 
+  *       * [Monitoring Cisco Unified Communications Manager IM and Presence, Release 9.1(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/monitoring_guide/9_1_1/CUCM_BK_M74FEDA9_00_monitoring-cucm-presence-guide-91.html) 06/Dec/2013
+      * [Monitoring Cisco Unified Communications Manager IM and Presence, Release 9.0(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/monitoring_guide/9_0_1/CUCM_BK_M2F290D8_00_monitoring-cucm-presence-guide-90.html) 06/Dec/2013
+      * [Compatibility Information for Cisco Unified Communications Manager and IM and Presence Service, Release 10.x ](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/matrix/10_x/CUCM_BK_CD1DB914_00_compat_matrix.html) 01/Sep/2015
+
 
 ## Support Documentation
   * [All Support Documentation for this Series](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html#~tab-documents)
 
 
-Configuration
-[ Programming Guides](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-programming-reference-guides-list.html)   
+Maintain and Operate
+[ End-User Guides](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-user-guide-list.html)   
+  
+[ Maintain and Operate TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/tsd-products-support-maintain-and-operate-technotes-list.html)   
   
 
 #### Customers Also Viewed 
