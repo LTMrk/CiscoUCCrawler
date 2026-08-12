@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/datasheet-c78-737408.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/datasheet-c78-737408.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/datasheet-c78-737408.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/v-14-premises-calling-applications-eol.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/v-14-premises-calling-applications-eol.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/v-14-premises-calling-applications-eol.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,64 +19,115 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/datasheet-c78-737408.html)
-  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/datasheet-c78-737408.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/v-14-premises-calling-applications-eol.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/v-14-premises-calling-applications-eol.html)Show All Breadcrumbs
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/products/unified-communications/index.html)
   * [Call Control](https://www.cisco.com/c/en/us/products/unified-communications/call-control/index.html)
   * [Cisco Unified Communications Manager (CallManager)](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/index.html)
-  * [Data Sheets](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/datasheet-listing.html)
+  * [End-of-Life and End-of-Sale Notices](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-listing.html)
 
 
-# Cisco Unified Communications Manager 11.5 Data Sheet
+# End-of-Sale and End-of-Life Announcement for the Cisco Version 14 of On-premises Calling applications (including Cisco Unified Communications Manager) - Perpetual
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/datasheet-c78-737408.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/v-14-premises-calling-applications-eol.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/datasheet-c78-737408.pdf) (261.3 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/v-14-premises-calling-applications-eol.pdf) (209.1 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:August 8, 2016
-Document ID:1470677279233366
+Updated:May 14, 2025
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
-Cisco® Unified Communications Manager is the heart of Cisco collaboration services, enabling session and call control for video, voice, messaging, mobility, instant messaging, and presence.
-Product Overview
-What if you could collaborate more effectively with customers and partners on any network? With any device? From anywhere? Cost-effectively, reliably, and securely? With Cisco Unified Communications Manager you can. 
-Today’s workplace challenges the collaboration environment in unprecedended ways. More mobile workers use more devices than ever before. Web and video conferencing intersect. 
-We are the industry leader in enterprise call and session management platforms, with more than 200,000 customers worldwide, and more than 85 million Cisco IP phones and tens of millions of soft clients deployed. Cisco Unified Communications Manager is the core of Cisco’s collaboration portfolio. It delivers people-centric user and administrative experiences while supporting the full range of collaboration services, including video, voice, instant messaging and presence, messaging, and mobility on Cisco as well as third-party devices.
-New with Cisco Unified Communications Manager Version 11.5
-Table 1 lists major features in Cisco Unified Communications Manager Version 11.5.
-**Table 1.** High-Level Features in Cisco Unified Communications Manager 11.5  
-|  Feature  |  Benefits   |  
-| --- | --- |  
-|  Instant messaging and presence  |  ●Persistent chat high availability helps ensure that Cisco Jabber® clients can seamlessly continue to use the persistent chat rooms in the event of IM and Presence Service node failure or Text Conferencing (TC) service failure.  ●Multidevice messaging enables broadcasting of chat to all devices the user is currently logged in to and synchronizing the read progress among devices.  ●Support for Microsoft SQL Server (2014, 2014 SP1, 2012 SP3) as an external database to store information from the persistent group chat, message archiver (IM compliance), and managed file transfer features.  ●Wizard-based interdomain federation configuration for easier configuration.  ●Ability to back up users’ contacts automatically and import or export nonpresence contacts through bulk administration (BAT).  ●Addition of logging level controls to improve the troubleshooting experience.   |  
-|  Cisco Spark Hybrid Services  |  ●Dedicated remote device enables Cisco Spark™ hybrid call service with no incremental licensing impact for users with at least UCL Enhanced licensing.   |  
-|  PIN synchronization  |  ●PIN synchronization allows users to log in to Extension Mobility, Conference Now, Mobile Connect, and their Cisco Unity® Connection voicemail using the same end-user PIN.  ●End-user PIN is synchronized from Cisco Unified Communications Manager to Cisco Unity Connection and vice versa when the feature is enabled.  ●Can synchronize the PIN when it is changed through self-care portal, administrative XML (AXL), BAT, and Cisco Unified Communications Manager administration GUI.   |  
-|  Hitless device pack installation  |  ●Administrator can install a device package to enable a new device without a need for a clusterwide reboot. However, the TFTP service needs a restart.   |  
-|  Enterprise directory user search   |  ●Provides the ability to search the users in the enterprise directory through UDS proxy.  ●Expands the user search base beyond 160,000 users, as administrators no longer need to configure or synchronize user accounts to the database solely for user searches.  ●Enables mobile and remote access (MRA) clients or endpoints to search the enterprise directory directly when they are connected outside the enterprise firewall.  ●Supports various directory server types.   |  
-|  Location Awareness Service   |  ●Allows administrators to determine the physical location from which a phone connects to the company network.  ●For wireless networks, administrators can view the wireless access point infrastructure and which mobile devices currently associate to those access points. For wired networks, administrators can view the Ethernet switch infrastructure and see which devices are currently connected to those switches.  ●Helps integrated applications such as Cisco Emergency Responder determine the physical location of a user who places an emergency call.  ●Third-party applications can query the location information through the AXL interface and get location updates through AXL change notification.   |  
-|  Single SAML SSO agreement   |  ●Administrator can provision a single SAML single sign-on (SSO) agreement per Unified Communications Manager cluster, resulting in improved SSO configuration manageability and reduced total cost of ownership (TCO).   |  
-|  Administration simplicity  |  ●Unified Communications Manager cluster in mixed-mode security now allows self-provisioning functionality.  ●Better manageability of locally significant certificates (LSCs) by the ability to generate LSC reports, renew LSCs via BAT, and monitor LSCs for certificate expiration.  ●Simplified Transport Layer Security (TLS)-based Inter-cluster Lookup Service (ILS) set up using the common root CA certificate import on each of the clusters, avoiding the tedious process of cross import of certificates between the clusters.   |  
-|  Security enhancements  |  ●Improved cryptography with the inclusion of 3072- and 4096-bit RSA certificate key size and AES-256 RSA/elliptical curve support for SIP, Tomcat, and XMPP interfaces. Ability to configure minimum cipher control on the SIP/SRTP interface and enable/disable elliptical curve cipher on the HTTPS Tomcat interface.  ●SHA-2 signature is allowed for LSCs.  ●Support for SHA-2 file signature for the Unified Communications Manager configuration and trust list files for supported endpoints.  ●Form-based authentication support for web applications and API services to avoid browser caching of credentials.  ●Support for SAML SSO for Cisco Unified Real-Time Monitoring Tool (RTMT) to enable two-factor authentication.  ●Ability to segregate roles as read-only or read-write for AXL and CLI.   |  
-|  Miscellaneous  |  ●Microsoft Windows 10 operating system support for Cisco Unified TAPI Client, Cisco Unified JTAPI Client for Windows, Cisco Unified Communications Manager Security Token Advisory (CTL Client), Cisco Unified Communications Manager Real-Time Monitoring Tool for Windows (RTMT), and Cisco Unified Communications Manager Assistant Console.  ●Ability to get agent login status in hunt group (HLog) through JTAPI API and TAPI interface.  ●Support for negotiation of forward error correction (FEC) for audio so that endpoints controlled by Unified Communications Manager are more resilient to media packet loss and deliver higher audio quality.  ●Ability to encrypt the iX application media channel in video conferences so that privacy of information transmitted in this channel, such as the identities of meeting participants, is protected.   |  
-Cisco Capital
-Financing to Help You Achieve Your Objectives
-Cisco Capital can help you acquire the technology you need to achieve your objectives and stay competitive. We can help you reduce CapEx. Accelerate your growth. Optimize your investment dollars and ROI. Cisco Capital financing gives you flexibility in acquiring hardware, software, services, and complementary third-party equipment. And there’s just one predictable payment. Cisco Capital is available in more than 100 countries. [Learn more](http://www.cisco.com/web/ciscocapital/americas/us/index.html).
-For More Information
-For more information about Cisco Unified Communications Manager, please visit <http://www.cisco.com/go/unifiedcm> or contact your local Cisco account representative.
-### Contact Cisco
+Contact Cisco
+  * Contact Cisco
   * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
-  * ##### Call Sales:
-  * [ 1-800-553-6387 ](tel:18005536387)
-  * US/CAN | 5am-5pm PT
+  * Call Sales: [ 1-800-553-6387 ](tel:18005536387)   
+US/CAN | 5am-5pm PT 
   * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
   * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
 
 
-### Was this Document Helpful?
-Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/v-14-premises-calling-applications-eol.html) to Save Content 
+Download
+Print
+### Available Languages
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/v-14-premises-calling-applications-eol.pdf) (209.1 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:May 14, 2025
+#### Table of Contents
+![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
+![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
+#### Table of Contents
+  * [Overview](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/v-14-premises-calling-applications-eol.html#Overview "Overview")
+  * [End-of-life milestones](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/v-14-premises-calling-applications-eol.html#Endoflifemilestones "Endoflifemilestones")
+  * [Product Part Numbers](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/v-14-premises-calling-applications-eol.html#ProductPartNumbers "ProductPartNumbers")
+  * [Product migration options](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/v-14-premises-calling-applications-eol.html#Productmigrationoptions "Productmigrationoptions")
+  * [For more information](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/v-14-premises-calling-applications-eol.html#Formoreinformation "Formoreinformation")
+
+
+Overview
+EOL15245 - Amended
+Cisco announces the end-of-sale and end-of-life dates for the Cisco Version 14 of On-premises Calling applications (including Cisco Unified Communications Manager) - Perpetual. The last day to order the affected product(s) is April 7, 2025. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract. 
+This EOL bulletin applies to the following releases of the following applications:
+●Cisco Unified Communications Manager 14 (CUCM) 
+●Session Management Edition 14 (SME) 
+●CUCM Instant Messaging & Presence Service 14 (IMP) 
+●Cisco Emergency Responder 14 (CER) 
+●Unity Connection 14 (CUC) 
+●Cisco Prime Collaboration Deployment 14 (PCD) 
+●Cisco Expressway X14 
+Customers are encouraged to migrate to the latest release of On-premises Calling or to Cloud Calling under Collaboration Flex Plan 3.0.
+Customers who need additional licensing and / or to renew software support will be able to get full support for their on-premises calling deployments by renewing to Collaboration Flex Plan. For more information about Collaboration Flex Plan 3.0, reference the ordering guides at this link: <https://www.cisco.com/c/en/us/partners/tools/collaboration-ordering-guides.html>.
+End-of-life milestones
+**Table 1.** End-of-life milestones and dates for the Cisco Version 14 of On-premises Calling applications (including Cisco Unified Communications Manager) - Perpetual  
+|  Milestone  |  Definition  |  Date  |  
+| --- | --- | --- |  
+|  **End-of-Life Announcement Date**  |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  October 7, 2024   |  
+|  **End-of-Sale Date:  
+App SW **  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  April 7, 2025   |  
+|  **Last Ship Date:  
+App SW **  |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  July 6, 2025   |  
+|  **End of SW Maintenance Releases Date:  
+App SW **  |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.   |  April 7, 2026   |  
+|  **End of New Service Attachment Date:  
+App SW **  |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  October 7, 2024   |  
+|  **End of Service Contract Renewal Date:  
+App SW **  |  The last date to extend or renew a service contract for the product.  |  October 7, 2024   |  
+|  **Last Date of Support:  
+App SW **  |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  April 30, 2027   |  
+HW = Hardware OS SW = Operating System Software App. SW = Application Software 
+Product Part Numbers
+**Table 2.** Product part numbers affected by this announcement  
+|  End-of-Sale Product Part Number  |  Product Description  |  Replacement Product Part Number  |  Replacement Product Description  |  Additional Information  |  
+| --- | --- | --- | --- | --- |  
+|  **CALL-SW-14.X-K9**  |  PS Calling for EMEAR - Software Version 14  |  CALL-SW-15.X-K9  |  PS Calling for EMEAR - Software Version 15  |  -  |  
+|  **CALL-SW-14.X-XU-K9**  |  PS Calling for EMEAR - Software Version 14 XU  |  CALL-SW-15.X-XU-K9  |  PS Calling for EMEAR - Software Version 15 XU  |  -  |  
+|  **CM14-K9-DLT**  |  SW CM 14 Not for Resale, 20 CUWL PRO, 5 TP Room  |  A-FLEX-SW-15-K9  |  On-Premises SW Bundle v15  |  -  |  
+|  **CSR14X-K9-DLT**  |  UC 14.X Partner Demo/Lab/Training Kit-Marketplace Order Only  |  There is currently no replacement product available for this product.  |  -  |  -  |  
+|  **CSR14X-K9-DLT=**  |  UC 14 Partner Demo/Lab/Training Kit - Product Upgrade Tool  |  There is currently no replacement product available for this product.  |  -  |  -  |  
+|  **E3C-SW-14-K9**  |  On-Premises SW Bundle v14 (1)  |  E3C-SW-15-K9  |  On-Premises SW Bundle v15  |  -  |  
+|  **UC-14-LAB-K9=**  |  SW CM/SME 14 Lab Only, 20 CUWL, 5 TP Room, 50 CER  |  There is currently no replacement product available for this product.  |  -  |  -  |  
+|  **UC-14-SW-K9-XU=**  |  CUCM Software Version 14 for MCE Only, Export Unrestricted  |  UC-15-SW-K9-XU=  |  CUCM Software Version 15 for MCE Only, Export Unrestricted  |  -  |  
+|  **UC-14-SW-K9=**  |  CUCM Software Version 14 for MCE Only  |  UC-15-SW-K9=  |  CUCM Software Version 15 for MCE Only  |  -  |  
+|  **CMS-DLT-NFR**  |  Cisco Meeting Server DLT Kit  |  There is currently no replacement product available for this product.  |  -  |  -  |  
+|  **LIC-EXP-RMS-DLT**  |  Expressway Rich Media Session  |  There is currently no replacement product available for this product.  |  -  |  -  |  
+|  **CMS-3X-DLT-K9**  |  Cisco Meeting Server Partner, Demo, Lab, Training (DLT)  |  There is currently no replacement product available for this product.  |  -  |  -  |  
+|  **CUAC14X-ADV-NFR**  |  Cisco Unified Attendant Console Advanced 14.x NFR Lic  |  There is currently no replacement product available for this product.  |  -  |  -  |  
+|  **CUAC14X-STND-NFR**  |  Cisco Unified Attendant Console Standard 14.x NFR Lic  |  There is currently no replacement product available for this product.  |  -  |  -  |  
+Product migration options
+Customers are encouraged to migrate to the latest release of On-premises Calling or to Cloud Calling under Collaboration Flex Plan 3.0. For more information about Collaboration Flex Plan 3.0, reference the ordering guides at this link: <https://www.cisco.com/c/en/us/partners/tools/collaboration-ordering-guides.html>
+For more information
+For more information about the Cisco End-of-Life Policy, go to: <https://www.cisco.com/c/en/us/products/eos-eol-policy.html>.
+For more information about the Cisco Product Warranties, go to: <https://www.cisco.com/c/en/us/products/warranty-listing.html>.
+To subscribe to receive end-of-life/end-of-sale information, go to: <https://cway.cisco.com/mynotifications>.
+Any authorized translation issued by Cisco Systems or affiliates of this end-of-life Product Bulletin is intended to help customers understand the content described in the English version. This translation is the result of a commercially reasonable effort; however, if there are discrepancies between the English version and the translated document, please refer to the English version, which is considered authoritative.
+### Learn more
