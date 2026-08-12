@@ -101282,3 +101282,99 @@ A.Additional VMware integration and Incident Management integration with Service
 
 
 ### Learn more
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html)
+  * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Servers - Unified Computing](https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html)
+  * [Cisco UCS C-Series Rack Servers](https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/index.html)
+
+
+# Cisco UCS C245 M8 Rack Servers FAQ
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html) to Save Content 
+Download
+Print
+### Available Languages
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.pdf) (126.6 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:February 15, 2024
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html) to Save Content 
+Download
+Print
+### Available Languages
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.pdf) (126.6 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:February 15, 2024
+#### Table of Contents
+![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
+![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
+#### Table of Contents
+  * [Overview](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html#Overview "Overview")
+  * [Cisco UCS C245 M8 Rack Server](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-faq.html#CiscoUCSC245M8RackServer "CiscoUCSC245M8RackServer")
+
+
+Overview
+Q.What did Cisco® announce on February 6, 2024? 
+A.Cisco announced the Cisco UCS C245 M8 Rack Server based on AMD EPYC™ 9004 Series Processors. 
+Q.Are these servers quotable and orderable? 
+A.Customers may get quotes from their partners or Cisco sales team starting in early February and place orders in May 2024. 
+Q.Are you announcing the End-of-Life (EOL) of the C225 and C245 M6 servers? 
+A.There are no plans to EOL these servers. AMD recently extended the lifecycle of the AMD EPYC 3rd Gen Processors and plans to continue shipping these popular CPUs through CY2026. 
+Q.Will there be either a UCS C225 M8 Rack Server or a UCS X215c M8 Compute Node? 
+A.Yes, both those servers will be quotable mid-calendar 2024. 
+Cisco UCS C245 M8 Rack Server
+Q.What is the C245 M8 Rack Server? 
+A.The C245 M8 is a 2RU, two-socket server supporting 4th Gen AMD EPYC CPUs and is designed to support the 5th Gen AMD EPYC CPUs. 
+Q.How many cores do the 4th Gen AMD EPYC processors support? 
+A.The 4th Gen AMD EPYC processors support from 16 to 128 cores depending upon the model. 
+Q.What are some of the benefits of UCS C-Series C245 M8 server with AMD EPYC™ 4th Gen CPUs? 
+A.Supporting double the number of cores per socket than AMD-based M6 servers and delivering up to 2.8X more performance, compute-intensive applications will see significant performance improvements and will reap other benefits like power and cost efficiencies. 
+Q.How much memory is supported? 
+A.Up to 6 TB of DDR5 memory with speeds up to 4800 MT/s is supported. 
+Q.How many drives are supported? 
+A.Up to 24 Small-Form-Factor (SFF) front-loading hot-pluggable drives—NVMe/SAS/ SATA—and up to four additional rear drives. 
+Q.What network adapters are supported? 
+A.Cisco UCS 15000 Series Virtual Interface Cards (VICs) and a variety of 3rd-party adapters are supported. 
+Q.How is this server managed? 
+A.The server can be managed three ways: Cisco Intersight®, Cisco UCS® Manager, or with the Cisco Integrated Management Controller (IMC). 
+### Our experts recommend
+  * [From X440p to X580p. How Cisco is Expanding Modular Server Use Cases (Again) White Paper](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.html "From X440p to X580p. How Cisco is Expanding Modular Server Use Cases \(Again\) White Paper")
+  * [Cisco UCS C845A M8 Rack Server At a Glance](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c845a-m8-rack-server-aag.html "Cisco UCS C845A M8 Rack Server At a Glance")
+
+
+### Learn more
