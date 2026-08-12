@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,227 +19,183 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
-  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)Show All Breadcrumbs
   * [Support](https://www.cisco.com/c/en/us/support/index.html)
   * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
-  * [Cisco Unity Connection](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html)
-  * [Troubleshooting TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/products-tech-notes-list.html)
+  * [Cisco Unified Communications Manager (CallManager)](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html)
+  * [Troubleshooting TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-tech-notes-list.html)
 
 
-# Obtain and Run Recovery Software on the CUCM VM
+# Troubleshoot Zombie/Defunct Processes in UC Servers
 ![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)
 Download
 Print
 ### Available Languages
-  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
-  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
-  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
-  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
-  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
-  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
-  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
-  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
-  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
-  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)
 
 
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.pdf) (801.2 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.pdf) (372.5 KB)   
 View with Adobe Reader on a variety of devices
-  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.epub) (621.0 KB)   
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.epub) (446.5 KB)   
 View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
-  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.mobi) (721.5 KB)   
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.mobi) (304.0 KB)   
 View on Kindle device or Kindle app on multiple devices
 
 
-Updated:June 16, 2026
-Document ID:118948
+Updated:February 10, 2021
+Document ID:216747
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
 ## Contents
-[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html#toc-hId-1816420694)
-[Background Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html#toc-hId--735736267)
-[Download Recovery Software ISO Image](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html#toc-hId-1007074068)
-[Upload ISO Image to the ESXi Datastore](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html#toc-hId--1545082893)
-[Required VM Settings Prior to Recovery](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html#toc-hId-197727442)
-[Post-Recovery Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html#toc-hId-1940537777)
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html#anc0)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html#anc1)
+[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html#anc2)
+[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html#anc3)
+[Background Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html#anc4)
+[Check Zombies using UCOS Admin CLI](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html#anc5)
+[Troubleshoot/Clear the Zombies Manually](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html#anc6)
+[Restart the Appropriate Service](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html#anc7)
+[Reboot the Server](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html#anc8)
+[Kill the Parent Process](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html#anc9)
+[Verify](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html#anc10)
 ## Introduction
-This document describes how to obtain and run the Recovery Software for the Cisco Unified Communications Manager (CUCM).
+This document describes how to work with zombie processes seen on CUCM, IMnP, and other Cisco UC products when logged in using Admin CLI.
+## Prerequisites
+### Requirements
+Cisco recommends that you have knowledge of using Admin CLI of the UC servers:
+  * Cisco Unified Communications Manager (CUCM)
+  * Cisco Unified Instant Messaging and Presence Server (IMnP)
+  * Cisco Unity Connection Server (CUC)
+
+
+### Components Used
+This document is not restricted to specific software and hardware versions.
+The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
 ## Background Information
-This document describes how to obtain and run the Recovery Software for the Cisco Unified Communications Manager (CUCM), as well as the changes that are required to the Virtual Machine (VM) settings before and after recovery.
-The Recovery Software ISO images are saved in the ESXi datastore.
-Datastores are logical containers, analogous to file systems, which hide the specifics of each storage device and provide a uniform model for the storage of VM files. Datastores can also be used to store ISO images, VM templates, and floppy images.
+The Unified Communications servers are essentially Linux OS based applications. When a process dies on Linux, it is not all removed from memory immediately, its process descriptor (PID) stays in memory which only takes a tiny amount of memory. This process becomes a defunct process and the process's parent is notified that its child process has died. The parent process is then supposed to read the dead process's exit status and completely remove it from the memory. Once this is done using the wait() system call, the zombie process is eliminated from the process table. This is known as reaping the zombie process. This generally happens very quickly, so you will not see zombie processes accumulating on your system.
+However, sometimes the parent processes do not do the wait() signal call, and the child process will stick in the memory until cleaned up. In other words, a zombie process is a process whose execution is completed but it still has an entry in the process table, as the parent process still needs to read its child's exit status.
+## Check Zombies using UCOS Admin CLI
   
-The vSphere Client is used in order to access the different types of storage devices that your ESXi host discovers, and in order to deploy datastores on them.
-## Download Recovery Software ISO Image
-To obtain the Recovery Software ISO image:
-  1. From the Cisco homepage, navigate to **Downloads Home** >**Products** >**Unified Communications** >**Call Control** >**Unified Communications Manager (CallManager)**.  
+From the CLI, the presence of zombies can be checked using the command **show process load**.
   
-
-  2. Click the appropriate CUCM version and download the **Recovery Software** :  
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-00.png "Related image, diagram or screenshot.")
+## Troubleshoot/Clear the Zombies Manually
   
-[![Select a Software Type](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-00.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-00.jpeg "Select a Software Type")  
+Apart from the tiny memory used to hold the PID as mentioned previously, Zombie processes do not use any system resources, but they do retain their process ID. In UC servers, the memory provided to the system is large so the possibility of the system to run out of PIDs for other processes due to the presence of Zombies is very less.
+So, the zombies can be left on the system, where they are automatically cleared at the **next system reboot**.
+However, if there is a requirement to clear out the zombies in the system, you can follow a certain line of action
+### Restart the Appropriate Service
   
-
-  3. Download the Recovery Software ISO image and save it in the **ESXi Datastore**.
-
-
-## **Upload ISO Image to the ESXi Datastore**
-Complete these steps to upload the Recovery Software ISO image to the datastore via the vSphere Client Version 5.0:
-  1. Log into the vSphere Client:  
-  
-[![Log Into vSphere Client](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-01.png "Log Into vSphere Client")  
+It is required to figure out the concerned process and hence the service which leaks the child process.  
   
 
-  2. Click **Datastore and Datastore Clusters** :  
+  1. From the CLI output, take the output of **show process list** and **show process list detail**. 
   
-[![Click Datastore and Datastore Clusters](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-02.png "Click Datastore and Datastore Clusters")  
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-01.png "Related image, diagram or screenshot.")
   
-
-  3. Right-click the datastore where you want to upload the file and click **Browse Datastore** :  
-  
-[![Click Browse Database](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-03.png "Click Browse Database")  
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-02.png "Related image, diagram or screenshot.")
+  2. Copy the outputs in a text editor and search the file for the text 'defunct'.  
   
 
-  4. Choose the folder where you want to upload the ISO image:  
-  
-[![Upload the ISO Image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-04.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-04.jpeg "Upload the ISO Image")  
+  3. Note down the Process IDs (pid) and Parent Process IDs (ppid) for those defunct processes.  
   
 
-  5. Click the **Upload files** tab:  
-  
-[![Upload Files](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-05.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-05.jpeg "Upload Files")  
-  
-
-  6. Browse to the folder location where the image is saved on your machine:  
-  
-[![Browse to Image File](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-06.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-06.jpeg "Browse to Image File")  
-  
-
-  7. Once you select the file, a pop-up message appears. Choose **Yes** :  
-  
-[![Upload Download Operation Warning](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-07.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-07.jpeg "Upload Download Operation Warning")  
-  
-The ISO image then begins to upload to the datastore:  
-  
-[![Upload Image to Datastore](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-08.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-08.jpeg "Upload Image to Datastore")
+  4. Track down the ppid in the document to find the associated process.
 
 
-## Required VM Settings Prior to Recovery
-Complete these steps to ensure the VM settings are correct before you run the Recovery Software:
-  1. From the vSphere Client, navigate to the CUCM VM machine.  
+**Example 1**
+CUCM: When I search the file for the text 'defunct', I see that there's a PID 22908 that is defunct.
+  
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-03.png "Related image, diagram or screenshot.")  
   
 
-  2. Right-click the VM where you want to run the Recovery Software and power off the VM:  
-  
-[![Select VM](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-09.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-09.jpeg "Select VM")  
+The ppid for that PID is 29815. On tracking 29815 in the document, I see that the process is related to AMC service.   
   
 
-  3. Right-click and navigate to **Edit Settings** :  
   
-[![Edit Settings](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-10.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-10.jpeg "Edit Settings")  
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-04.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-04.png "Related image, diagram or screenshot.")
+Solution- Restart **AMC(Alert Manager and Collector Service)** on this node clears the Zombie.
+**Example 2**
+CUCM: When the file for the text **defunct** is searched, I see that there's a PID 10025 that is defunct.
   
-
-  4. From the Hardware tab, select the **CD/DVD drive** , check the **Connect at power on** checkbox, and browse to the **recovery.iso** image that you saved in the datastore:  
-  
-[![Select CD/DVD Drive](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-11.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-11.jpeg "Select CD/DVD Drive")  
-  
-
-  5. From the **Options** tab, select **Boot Options** , check the **Force BIOS Setup** checkbox, select**OK** , and power on the VM:  
-  
-[![Select Boot Options](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-12.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-12.jpeg "Select Boot Options")  
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-05.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-05.png "Related image, diagram or screenshot.")  
   
 
-  6. The VM boots into BIOS mode. Navigate to the boot menu:  
+The ppid for that PID is 26732. On tracking 26732 in the document, you see that the process is related to the Trace Collection Service.
   
-[![Navigate to Boot Menu](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-13.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-13.jpeg "Navigate to Boot Menu")  
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-06.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-06.png "Related image, diagram or screenshot.")
+Solution -Restart the **Trace Collection Service** on this node clears the Zombie.
+**Example 3**
+CUCM: When the file for the text **defunct** is searched, you see that there's a PID 23959 that is defunct.
   
-
-  7. Use the **plus (+)** symbol to move the **CD-ROM Drive** option to the top of the list:  
-  
-[![Move CD-ROM Option to the Top of List](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-14.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-14.jpeg "Move CD-ROM Option to the Top of List")  
-  
-
-  8. Press the **F10** key, and you are prompted to save this setting:  
-  
-[![Setup Confirmation](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-15.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-15.jpeg "Setup Confirmation")  
-  
-The system now loads with the CD-ROM drive where the Recovery Software is located. When the system boots up, you see the options that are shown in the next image.  
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-07.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-07.png "Related image, diagram or screenshot.")  
   
 
-  9. Choose option **F** (press the **F** key):  
+The ppid for that PID is 26764. On tracking 26764 in the document, I see that the process is related to the CDR Repository service(cdrrep)
   
-[![Choose Option F](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-16.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-16.jpeg "Choose Option F")  
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-08.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-08.png "Related image, diagram or screenshot.")
+Solution - Restart the **CDR Repository Service** clears this Zombie.
+**Example 4**
+CUC: When the file for the text **defunct** is searched, you see that there's are three PIDs 325, 370, 387 that are defunct.
   
-The File System check begins:  
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-09.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-09.png "Related image, diagram or screenshot.")
+The ppid for all those PIDs is 7827. On tracking 7827 in the document, you see that the process is related to the Connection File Syncer service.
   
-[![File System Check Begins](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-17.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-17.jpeg "File System Check Begins")  
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-10.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-10.png "Related image, diagram or screenshot.")
+Solution - Restart the **Connection File Syncer** service clears the Zombies.
+**Example 5**
+IMnP: When the file for the text **defunct** is searched, you see that there's a PID 1806 that is defunct.
   
-Once the File System check is complete, you are taken back to the main menu:  
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-11.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-11.png "Related image, diagram or screenshot.")
+The ppid for that PID is 1775. On tracking 1775 in the document, you see that the process is an SFTP connection to another IMnP node in the same cluster.
   
-[![Main Menu](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-18.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-18.jpeg "Main Menu")  
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-12.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-12.png "Related image, diagram or screenshot.")
+Solution - In IMnP, SFTP owned Defunct SSH processes might be seen. They have been found to be cosmetic and can be removed by a **reboot of the server.**
+### Reboot the Server
+A reboot of the concerned server clears all the stale entries in the process-table and **consequentially clears the zombies in the system**.
+### Kill the Parent Process
+From Linux, you can’t kill zombie processes the way normal processes are killed with the SIGKILL signal — zombie processes are already dead. However, you can kill the parent process. The command used in that scenario are: 
+**kill -9 <ppid>**
+Contact TAC for carrying out this workaround. Ensure care while killing the parent process to ensure that no critical service is abruptly brought down.
+## Verify
+Once the zombies have been cleared, use the same command **show process load** to check the zombie count.
   
-
-  10. Choose option **Q** (press the **Q** key) to quit the Recovery Software program. You are then prompted to reboot the system, as seen in this image:  
-  
-[![Choose Option Q to Quit Recovery Software Program](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-19.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-19.jpeg "Choose Option Q to Quit Recovery Software Program")
-
-
-## **Post-Recovery Requirements**
-**Note** : Before you proceed with the reboot, ensure that you uncheck the **Force entry into BIOS** checkbox.
-Complete these steps after you have run the Recovery Software:
-  1. Right-click the **VM** , navigate to **Edit Settings** >**Options** >**Advanced** >**Boot Options** , and ensure that **The next time the virtual machine boots, force entry into the BIOS setup screen** checkbox is unchecked:  
-  
-[![Boot Options](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-20.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-20.jpeg "Boot Options")  
-  
-
-  2. From the **Hardware** tab, uncheck the **Connected** and **Connect at Power ON** checkboxes:  
-  
-[![Hardware Tab to Uncheck Connected and Connect at Power ON](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-21.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-21.jpeg "Hardware Tab to Uncheck Connected and Connect at Power ON")  
-  
-
-  3. Proceed to reboot the system:  
-  
-
-    1. Right-click the **CUCM VM**.  
-  
-
-    2. Power off the machine.  
-  
-
-    3. Power on the machine.  
-  
-
-[![Power On the Machine](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-22.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00-22.jpeg "Power On the Machine")
-
-
-**Note** : Although the Recovery Software helps fix the file system errors and move the system out of the Read-Only mode, Cisco recommends as a best practice that either the server is upgraded to the next patch level or is rebuilt.
-### Revision History  
-| Revision  | Publish Date  | Comments  |  
-| --- | --- | --- |  
-| 4.0  |  16-Jun-2026   | Updated some spelling.  |  
-| 3.0  |  03-Jun-2024   | Added Alt Text. Updated Formatting.  |  
-| 2.0  |  19-Apr-2023   | Recertification  |  
-| 1.0  |  30-Apr-2015   | Initial Release  |  
-[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html "Back to Top")
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-13.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in-13.png "Related image, diagram or screenshot.")
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html "Back to Top")
 ![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
 ### Contributed by Cisco Engineers
-  * Neeraj Nair
-Technical Consulting Engineer
+  * Animesh Lochan
+Cisco TAC Engineer
 
 
 ### Was this Document Helpful?
 Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
 ### Contact Cisco
-  * [Open a Support Case ![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html)
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/216747-troubleshoot-zombie-defunct-processes-in.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
   * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
+
+
+### This Document Applies to These Products
+  * [Unified Communications Manager (CallManager)](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html)
+  * [Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+  * [Unity Connection](https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html)
 
 
 By continuing to use our website, you acknowledge the use of cookies. 
