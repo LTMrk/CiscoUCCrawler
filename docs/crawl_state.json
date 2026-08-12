@@ -2063,5 +2063,6 @@
   "https://developer.webex.com/docs/api/v1/meeting-preferences/get-video-options": "aa05a764d1624042215663bea547d0f04dccd3d569c6e8a23332dbd6f3ec8bd7",
   "https://developer.webex.com/docs/api/v1/meeting-preferences/update-video-options": "a8e4af1dd0d481211440dd8b2da3a3978ae5f20ac28a6c752587a568a401432e",
   "https://developer.webex.com/docs/api/v1/meeting-preferences/get-scheduling-options": "1f9d06f4b56a2cedfb55e6be49cf3fd7f312f388ec7b10391db04873085d0790",
-  "https://developer.webex.com/docs/api/v1/meeting-preferences/update-scheduling-options": "4721d0c882ad7b0d738a5fe568b477d301fe29b019e3d34885498238a903cbf6"
+  "https://developer.webex.com/docs/api/v1/meeting-preferences/update-scheduling-options": "4721d0c882ad7b0d738a5fe568b477d301fe29b019e3d34885498238a903cbf6",
+  "https://developer.webex.com/docs/api/v1/meeting-preferences/get-site-list": "5efc66e5bd530efe8c3be84fba740d821a2d38d68716e7d82e576cf6197597d9"
 }
