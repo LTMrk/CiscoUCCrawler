@@ -2036,5 +2036,6 @@
   "https://developer.webex.com/docs/api/v1/recordings/query-recordings-for-an-admin-or-compliance-officer": "f129fe14603afa0d02e0a2c91c002b9ce67e1cb0899cc201364d9ce374c87ad6",
   "https://developer.webex.com/docs/api/v1/recordings/get-recording-details": "8f2de09301d98cc7bfbc25a3585e1c3fa9e352c9c8a452123e8d8037a22d2c23",
   "https://developer.webex.com/docs/api/v1/recordings/delete-a-recording": "5721a7423594e48c7d09c3e439e0674a6b55818ffc169af42dbc2c392788a5e1",
-  "https://developer.webex.com/docs/api/v1/recordings/delete-a-recording-by-an-admin": "ac58917ff1c6e3b9e22d7fbb8cbe16cda430e1540a9d6fe7738de84bfdcc3c51"
+  "https://developer.webex.com/docs/api/v1/recordings/delete-a-recording-by-an-admin": "ac58917ff1c6e3b9e22d7fbb8cbe16cda430e1540a9d6fe7738de84bfdcc3c51",
+  "https://developer.webex.com/docs/api/v1/recordings/move-recordings-into-the-recycle-bin": "5aca98e592230b1a7bb1b1af3feb01cbbfdc2325d90eb4618410297c0fcef7c2"
 }
