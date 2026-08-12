@@ -1,0 +1,13 @@
+{
+  "global_settings": {
+    "default_max_depth": 1,
+    "request_delay_seconds": 1,
+    "word_count_threshold": 20
+  },
+  "domain_depths": {
+    "developer.webex.com": 3,
+    "help.webex.com": 2,
+    "cisco.com": 1,
+    "developer.cisco.com": 3
+  }
+}
