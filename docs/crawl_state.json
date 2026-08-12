@@ -2028,5 +2028,6 @@
   "https://developer.webex.com/docs/api/v1/meeting-participants/get-meeting-participant-details": "355d8efe05925cdb3a1e5e6cd398c72f724f51101994667746eb1e456d903039",
   "https://developer.webex.com/docs/api/v1/meeting-participants/update-a-participant": "f1fa97e2ecdc39bb1ab3d949fdde237826ba0cb353df046f204316d0827ddfc4",
   "https://developer.webex.com/docs/api/v1/meeting-participants/admit-participants": "9d7fe6d46f5c1c431d557cd2a0c8fe17e7a50934b007526cd418bc552e58f8ec",
-  "https://developer.webex.com/docs/api/v1/meeting-participants/call-out-a-sip-participant": "1433e27d0ceba3226807158492c8acb9f6749f7d0d6cedcbcba5e98fa2b2be43"
+  "https://developer.webex.com/docs/api/v1/meeting-participants/call-out-a-sip-participant": "1433e27d0ceba3226807158492c8acb9f6749f7d0d6cedcbcba5e98fa2b2be43",
+  "https://developer.webex.com/docs/api/v1/meeting-participants/cancel-calling-out-a-sip-participant": "5f7bf22d100d7e0ce05a4298d8e8349a9e302b8f703b6126456e4d83d4d31c2b"
 }
