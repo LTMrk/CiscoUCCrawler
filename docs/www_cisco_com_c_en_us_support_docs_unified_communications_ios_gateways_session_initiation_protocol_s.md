@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,240 +19,150 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)
-  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html)
   * [Support](https://www.cisco.com/c/en/us/support/index.html)
   * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
   * [Cisco IOS Gateways with Session Initiation Protocol (SIP)](https://www.cisco.com/c/en/us/support/unified-communications/ios-gateways-session-initiation-protocol-sip/series.html)
-  * [Configuration Examples and TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/ios-gateways-session-initiation-protocol-sip/products-configuration-examples-list.html)
 
 
-# Configure SIP Local Gateway with Audio Codecs Only for WebEx Calling
+# How to Get Packet Capture from VXML Gateway for Signal and Voice Analysis
 ![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html) to Save Content 
-[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html)
 Download
 Print
 ### Available Languages
-  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)
-  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)
-  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)
-  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)
-  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)
-  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)
-  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)
-  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)
-  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)
-  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)
-  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html)
 
 
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.pdf) (9.2 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.pdf) (731.5 KB)   
 View with Adobe Reader on a variety of devices
-  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.epub) (84.5 KB)   
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.epub) (660.5 KB)   
 View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
-  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.mobi) (71.2 KB)   
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.mobi) (800.7 KB)   
 View on Kindle device or Kindle app on multiple devices
 
 
-Updated:June 17, 2022
-Document ID:217922
+Updated:October 24, 2017
+Document ID:212411
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
 ## Contents
-[](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html#anc0)
-[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html#anc1)
-[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html#anc2)
-[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html#anc3)
-[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html#anc4)
-[Background Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html#anc5)
-[Configure](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html#anc6)
-[](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html#anc7)
-[Verify](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html#anc8)
-[](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html#anc9)
-[Troubleshoot](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html#anc10)
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html#anc0)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html#anc1)
+[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html#anc2)
+[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html#anc3)
+[Take Packet Capture on VXML Gateway](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html#anc4)
+[](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html#anc5)
+[Verify](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html#anc6)
 ## Introduction
-This document describes how to configure the Cisco Unified Border Element (CUBE) to not forward video codecs to the IP Telefony Service Provider (ITSP) when the ITSP informs that they are not supported as part of the INVITE message and the integration is done via Session Initiation Protocol (SIP).
+This document describes how to get a packet capture (pcap) from a VXML Gateway for signal and voice analysis.
 ## Prerequisites
 ### Requirements
 Cisco recommends that you have knowledge of these topics:
-  * Cisco WebEx Calling (formerly BroadCloud)
-  * Cisco Unified Border Element (CUBE)
+  * Unified Customer Voice Portal (CVP)
+  * Voice Extensible Markup Language Gateway (VXML GW) 
+  * Whireshark tool
 
 
 ### Components Used
-The information in this document is based on these software and hardware versions:
-  * Cisco Cloud Service Router 1000v
-  * Cisco Internetwork Operating System (Cisco IOS® XE) 17.03.04a
-
-
-  
+This document is not restricted to specific software and hardware versions.
 The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
-## Background Information
-It is assumed that the integration between WebEx Calling, Local Gateway (LGW), and the ITSP is already up and functional.
-## Configure
-Step 1. Access to the configuration mode of the device:
+## Take Packet Capture on VXML Gateway
+You can get a pcap to check signaling and media from the Cisco VXML GW with this procedure for interface **g0/0**. You need to change inteface name in the command to the appropriate one.
 
 ```
-device# configure terminal
+**conf t **  
+**ip traffic profile test mode capture **  
+**bidirectional **  
+**exit  
+**  
+**int g0/0**  
+**ip traffic apply test size 20000000 **  
+**end **  
+**  
+traffic int g0/0 clear **  
+**traffic int g0/0 start **
 ```
 
-Step 2. Navigate into the voice service voip configuration mode:
+VXML gateway capturing traffic, so make a test call and quickly stop the packet capture.
 
 ```
-device(config)# voice service voip
+**traffic int g0/0 stop**
 ```
 
-Step 3. Navigate into the sip sub-configuration mode:
+In order to copy the pcap to an TFTP server type this command.
 
 ```
-device(conf-voi-serv)# sip
+**traffic int g0/0 copy tftp://x.x.x.x/g00.pcap **
 ```
 
-Step 4. Enable the **audio forced** function in the sip sub-configuration mode:
+In order to copy the pcap to an FTP server type this command.
 
 ```
-device(conf-serv-sip)# audio forced
+**traffic int g0/0copy ftp://username:password@x.x.x.x/g00.pcap**
 ```
 
+The screenshot shows the pcap file **port1.pcap** opened with Wireshark tool.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate-00.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate-00.jpeg "Related image, diagram or screenshot.")
 ## Verify
-To verify that no video codecs are sent to the ITSP, this debug can be enabled to check the INVITE offered to the ITSP:
+In order to verify that the packet capture is valid use this procedure.
+Step 1. Filter sip signalling. 
+Enter **sip** keyword in **Filter** textbox.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate-01.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate-01.jpeg "Related image, diagram or screenshot.")
+Step 2. Open the RTP streams with Wireshark Player.
+  * Navigate to **Telephony - Voip Calls**
+  * Choose the call in question 
+  * Select **Player**
+
+
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate-02.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate-02.jpeg "Related image, diagram or screenshot.")
+Step 3. Click **Decode.**
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate-03.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate-03.jpeg "Related image, diagram or screenshot.")
+Step 4. Playback the recording.
+In order to playback the recorded conversation select the decoded graph for the call in question and select **Play**.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate-04.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate-04.jpeg "Related image, diagram or screenshot.")
+The procedure described can be used to troubleshoot issues with audio quality, one-way audio or dead air conditions.
+These debug commands can be typed on the VXML gateway for additional diagnosis.
 
 ```
-device# debug ccsip messages
+**debug ccsip mess**  
+**debug ccsip error**  
+**debug voip ccapi inout **  
+**debug voip dialpeer inout**  
+**debug http client all**  
+**debug voip application script**  
+**debug voip application vxml**  
+**debug voip rtp session named-events**  
+**debug voip rtp sess nse**  
+**debug voip rtp**
 ```
 
-  
-For example:  
-  
-
-
-```
-device# debug ccsip messages  
-
-Received:
-INVITE sip:123456@X.X.X.X:5061;transport=tls;dtg=XXXXX SIP/2.0
-Via:SIP/2.0/TLS X.X.X.X:8934;
-From:"Caller"<sip:987654@X.X.X.X;user=phone>;tag=1396950124-1643195813910-
-To:<sip:123456@25105600.eu10.bcld.webex.com;user=phone>
-Call-ID:SSE111653910260122-2086314723@X.X.X.X
-CSeq:100 INVITE
-Contact:<sip:X.X.X.X:8934;transport=tls>
-P-Asserted-Identity:"Caller"<sip:123456@X.X.X.X;user=phone>
-Privacy:none
-Allow:ACK,BYE,CANCEL,INFO,INVITE,OPTIONS,PRACK,REFER,NOTIFY,UPDATE
-Recv-Info:x-broadworks-client-session-info
-X-Cisco-Region-ID:eu
-X-Cisco-Org-Id:4b11285e-4879-4ed3-bfe7-331ea8affabe
-X-BroadWorks-Correlation-Info:bfaffbad-7d4c-42ad-8a7f-7e74c1db8a1d
-Accept:application/media_control+xml,application/sdp,multipart/mixed
-Supported:
-Max-Forwards:69
-Session-ID:86acc1810080432799428436deb94327;remote=00000000000000000000000000000000
-Content-Type:application/sdp
-Content-Length:1241
-
-v=0
-o=Agent IN IP4 X.X.X.X
-s=-
-c=IN IP4 X.X.X.X
-b=AS:4064
-t=0 0
-m=audio 36796 RTP/SAVP 99 9 8 0 18 101 108
-b=TIAS:64000
-a=rtpmap:99 opus/48000/2
-a=fmtp:99 maxplaybackrate=16000;sprop-maxcapturerate=16000;maxaveragebitrate=64000;stereo=0;sprop-stereo=0;usedtx=0
-a=rtpmap:9 G722/8000
-a=rtpmap:8 PCMA/8000
-a=rtpmap:0 PCMU/8000
-a=rtpmap:18 G729/8000
-a=fmtp:18 annexb=no
-a=rtpmap:101 telephone-event/8000
-a=fmtp:101 0-15
-a=rtpmap:108 telephone-event/48000
-a=fmtp:108 0-15
-a=ptime:20
-a=sendrecv
-a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-a=video 36840 RTP/SAVP 112 111 110
-b=TIAS:4000000
-a=rtpmap:112 H264/90000
-a=fmtp:112 profile-level-id=640c16;packetization-mode=1;max-fs=3600;max-mbps=108000
-a=rtpmap:111 H264/90000
-a=fmtp:111 profile-level-id=428016;packetization-mode=1;max-fs=3600;max-mbps=108000
-a=rtpmap:110 H264/90000
-a=fmtp:110 profile-level-id=428016;packetization-mode=0;max-fs=3600;max-mbps=108000
-a=imageattr:* recv [x=800,y=480,q=0.60] [x=1280,y=720,q=0.50]
-a=rtcp-fb:* nack pli
-a=rtcp-fb:* ccm fir
-a=rtcp-fb:* ccm tmmbr
-a=sendrecv
-a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  
-  
-
-Sent:
-INVITE sip:123456@X.X.X.X:5061;transport=tls;dtg=XXXXX SIP/2.0
-Via:SIP/2.0/UDP X.X.X.X:8934;
-From:"Caller"<sip:987654@X.X.X.X>;tag=AC42468-22E3
-To:<sip:123456@25105600.eu10.bcld.webex.com>;tag=soos4o7b
-Call-ID:726BDDE6-7DCE11EC-BC5BC09B-9E9BA404@X.X.X.X
-CSeq:100 INVITE
-Contact:<sip:X.X.X.X:8934;transport=udp>
-P-Asserted-Identity:"Caller"<sip:123456@X.X.X.X;user=phone>
-Privacy:none
-Allow:ACK,BYE,CANCEL,INFO,INVITE,OPTIONS,PRACK,REFER,NOTIFY,UPDATE
-Accept:application/media_control+xml,application/sdp,multipart/mixed
-Supported:
-Max-Forwards:69
-Session-ID:86acc1810080432799428436deb94327;remote=00000000000000000000000000000000
-Content-Type:application/sdp
-Content-Length:1241
-
-v=0
-o=Agent IN IP4 X.X.X.X
-s=-
-c=IN IP4 X.X.X.X
-b=AS:4064
-t=0 0
-m=audio 36796 RTP/SAVP 99 9 8 0 18 101 108
-b=TIAS:64000
-a=rtpmap:99 opus/48000/2
-a=fmtp:99 maxplaybackrate=16000;sprop-maxcapturerate=16000;maxaveragebitrate=64000;stereo=0;sprop-stereo=0;usedtx=0
-a=rtpmap:9 G722/8000
-a=rtpmap:8 PCMA/8000
-a=rtpmap:0 PCMU/8000
-a=rtpmap:18 G729/8000
-a=fmtp:18 annexb=no
-a=rtpmap:101 telephone-event/8000
-a=fmtp:101 0-15
-a=rtpmap:108 telephone-event/48000
-a=fmtp:108 0-15
-a=ptime:20
-a=sendrecv
-
-```
-
-## Troubleshoot
-There is currently no specific information available for this configuration.
-### Revision History  
-| Revision  | Publish Date  | Comments  |  
-| --- | --- | --- |  
-| 1.0  |  17-Jun-2022   | Initial Release  |  
-[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html "Back to Top")
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html "Back to Top")
 ![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
 ### Contributed by Cisco Engineers
-  * Leonardo Correa
+  * Ricardo Mancera
 Cisco TAC Engineer
+  * Edited by Natalia Fuentes Fuentes
 
 
 ### Was this Document Helpful?
 Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
 ### Contact Cisco
-  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
   * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
 
 
