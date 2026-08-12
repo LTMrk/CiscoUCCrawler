@@ -2098,5 +2098,6 @@
   "https://developer.webex.com/docs/api/v1/device-configurations/list-device-configurations-for-device": "8ec83a69abb54e7664ece94b3a3460c0c4579cecabc2a1f0a79207fba24a7487",
   "https://developer.webex.com/docs/api/v1/device-configurations/update-device-configurations": "5501c4004ed5cd0e60bc5768f749ca114fc7f6dd3a462ecd5ddab3180328b63f",
   "https://developer.webex.com/docs/api/v1/xapi/query-status": "beac2fad37b25eb3067fcfbbc81e33ab7e256989f8f0cedb024ee8370853d3a6",
-  "https://developer.webex.com/docs/api/v1/xapi/execute-command": "a9182a24455506e322e509f6a9f1d67ef79cbc3249af3f64e1bc607f53ca0f74"
+  "https://developer.webex.com/docs/api/v1/xapi/execute-command": "a9182a24455506e322e509f6a9f1d67ef79cbc3249af3f64e1bc607f53ca0f74",
+  "https://developer.webex.com/docs/api/v1/xapi/query-schema": "c98a6ce683e6a8150bf446cbf019e57ff3a44bdf024f9c6674f831432e73e79d"
 }
