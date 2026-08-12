@@ -39,7 +39,6 @@ def get_max_depth_for_url(url):
 def get_group_filename(url):
     url_lower = url.lower()
     
-    # 1. COMUNICACIONES UNIFICADAS ON-PREMISE
     if any(x in url_lower for x in ["cucm", "unified-communications-manager", "callmanager"]):
         return "cisco_cucm.md"
     if any(x in url_lower for x in ["unity", "unity-connection", "cuc"]):
@@ -51,13 +50,11 @@ def get_group_filename(url):
     if any(x in url_lower for x in ["meeting-server", "cms"]):
         return "cisco_cms.md"
 
-    # 2. CONTACT CENTER ON-PREMISE
     if any(x in url_lower for x in ["uccx", "contact-center-express"]):
         return "cisco_uccx.md"
     if any(x in url_lower for x in ["ucce", "contact-center-enterprise", "cvp", "finesse"]):
         return "cisco_ucce.md"
 
-    # 3. NUBE: CONTACT CENTER & CPAAS
     if any(x in url_lower for x in ["webex-contact-center", "wxcc"]):
         return "webex_contact_center.md"
     if any(x in url_lower for x in ["webexconnect", "webex-connect", "imimobile"]):
@@ -65,7 +62,6 @@ def get_group_filename(url):
     if any(x in url_lower for x in ["webexengage", "webex-engage"]):
         return "webex_engage.md"
 
-    # 4. NUBE: WEBEX SUITE
     if any(x in url_lower for x in ["webex-calling", "cloud-calling"]):
         return "webex_calling.md"
     if any(x in url_lower for x in ["meetings", "webinars", "training"]):
@@ -73,11 +69,9 @@ def get_group_filename(url):
     if any(x in url_lower for x in ["webex-app", "webex-teams", "messaging"]):
         return "webex_app.md"
 
-    # 5. HARDWARE Y ENDPOINTS
     if any(x in url_lower for x in ["hardware.webex.com", "collaboration-endpoints", "ip-phone", "8800-series", "room-series", "desk-series", "board-series", "headsets", "cameras"]):
         return "cisco_devices_hardware.md"
 
-    # 6. FALLBACK: AGRUPACIÓN POR DOMINIO BASE
     netloc = urlparse(url).netloc
     safe_netloc = netloc.replace(".", "_").replace("-", "_")
     return f"misc_{safe_netloc}.md"
@@ -140,14 +134,15 @@ def log_error(url, reason):
     print(f"REGISTRADO ERROR: {reason} en {url}")
 
 def load_state():
-    state_file = "docs/crawl_state.json"
+    state_file = "logs/crawl_state.json"
     if os.path.exists(state_file):
         with open(state_file, "r", encoding="utf-8") as f:
             return json.load(f)
     return {}
 
 def save_state(state):
-    with open("docs/crawl_state.json", "w", encoding="utf-8") as f:
+    os.makedirs("logs", exist_ok=True)
+    with open("logs/crawl_state.json", "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2)
 
 def get_content_hash(content):
@@ -183,7 +178,7 @@ async def deep_crawl():
         seeds = [normalize_url(line.strip()) for line in f if line.strip() and not line.startswith("#")]
 
     state = load_state()
-    seen_hashes = set(state.values())
+    seen_hashes = {data.get("hash") for data in state.values() if isinstance(data, dict)}
     visited = set(state.keys())
     
     queue = asyncio.Queue()
@@ -216,7 +211,8 @@ async def deep_crawl():
                     cache_mode=CacheMode.BYPASS,
                     magic=True,
                     excluded_tags=["nav", "footer", "header", "aside", "script", "style"],
-                    css_selector="#fw-content, main, article, .content, .cisco-content"
+                    css_selector="#fw-content, main, article, .content, .cisco-content",
+                    js_code="await new Promise(r => setTimeout(r, 5000));"
                 )
                 
                 if not result.success:
@@ -233,7 +229,10 @@ async def deep_crawl():
                             md_file.write(f"\n\n---\n# ORIGEN: {url}\n\n")
                             md_file.write(result.markdown)
                         
-                        state[url] = content_hash
+                        state[url] = {
+                            "hash": content_hash,
+                            "timestamp": datetime.now().isoformat()
+                        }
                         seen_hashes.add(content_hash)
                         save_state(state)
                         git_commit_and_push()
@@ -255,4 +254,3 @@ async def deep_crawl():
 
 if __name__ == "__main__":
     asyncio.run(deep_crawl())
-
