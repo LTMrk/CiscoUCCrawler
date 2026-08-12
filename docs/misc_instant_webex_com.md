@@ -39,3 +39,21 @@ Begin Integration
 ![](https://instant.webex.com/a47909283b096572f4cdd6dfea5b97b2.svg)
 ©2021 Cisco and/or its affiliates. All Rights Reserved.
 English(US)
+
+
+---
+# ORIGEN: https://instant.webex.com/mediatest
+
+English(US)
+![check mark](https://instant.webex.com/ac3e269b0e5933a7fcb7f146e0957ffc.svg)
+![check mark](https://instant.webex.com/ac3e269b0e5933a7fcb7f146e0957ffc.svg)
+![check mark](https://instant.webex.com/ac3e269b0e5933a7fcb7f146e0957ffc.svg)
+![check mark](https://instant.webex.com/ac3e269b0e5933a7fcb7f146e0957ffc.svg)
+![check mark](https://instant.webex.com/ac3e269b0e5933a7fcb7f146e0957ffc.svg)
+#### Device check
+To ensure a smooth virtual visit, we recommend performing these device checks.
+![infoBadge](https://instant.webex.com/5108227854e30443399237341e3089ac.svg)
+Make sure to allow access to microphone and camera when prompted.
+Start test
+Skip
+![Cisco logo](https://instant.webex.com/b1b1143dcbf9af2c6bbc0b7c72f9788c.svg)
