@@ -44928,3 +44928,64 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/docs/api/v1/teams
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/messaging/docs/api/v1/teams)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/messaging/docs/api/v1/teams)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/messaging/docs/api/v1/teams)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Teams
+Webex Messaging
+  * [Overview](https://developer.webex.com/messaging/docs/messaging)
+  * Guides
+  * [REST API Basics](https://developer.webex.com/messaging/docs/basics)
+  * API REFERENCE
+  * All APIs
+    * [Attachment Actions](https://developer.webex.com/messaging/docs/api/v1/attachment-actions)
+    * [ECM folder linking](https://developer.webex.com/messaging/docs/api/v1/ecm-folder-linking)
+    * [Events](https://developer.webex.com/messaging/docs/api/v1/events)
+    * [Hybrid Data Security (HDS)](https://developer.webex.com/messaging/docs/api/v1/hybrid-data-security-hds)
+    * [Memberships](https://developer.webex.com/messaging/docs/api/v1/memberships)
+    * [Messages](https://developer.webex.com/messaging/docs/api/v1/messages)
+    * [People](https://developer.webex.com/messaging/docs/api/v1/people)
+    * [Room Tabs](https://developer.webex.com/messaging/docs/api/v1/room-tabs)
+    * [Rooms](https://developer.webex.com/messaging/docs/api/v1/rooms)
+    * [Team Memberships](https://developer.webex.com/messaging/docs/api/v1/team-memberships)
+    * [Teams](https://developer.webex.com/messaging/docs/api/v1/teams)
+    * [Webhooks](https://developer.webex.com/messaging/docs/api/v1/webhooks)
+  * [Changelog](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * SDK
+  * [AI Assistant for Developers](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/messaging/docs/api/guides/troubleshooting)
+  * [Widgets](https://developer.webex.com/messaging/docs/widgets)
+  * [Tutorials](https://developer.webex.com/messaging/docs/tutorials)
+  * [Suite Sandbox](https://developer.webex.com/messaging/docs/developer-sandbox-guide)
+  * [Beta Program Overview](https://developer.webex.com/messaging/docs/webex-developer-beta-program)
+  * [Webex Status API](https://developer.webex.com/messaging/docs/webex-status-api)
+
+
+Webex Messaging
+## Teams
+Teams are groups of people with a set of rooms that are visible to all members of that team. This API is used to manage the teams themselves. Teams are created and deleted with this API. You can also update a team to change its name, for example.
+To manage people in a team see the [Team Memberships API](https://developer.webex.com/docs/api/v1/team-memberships).
+To manage team rooms see the [Rooms API](https://developer.webex.com/docs/api/v1/rooms).
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
