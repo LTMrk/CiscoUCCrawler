@@ -129,7 +129,7 @@ Modele urządzeń
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-27 sierpnia 2025 | 1948 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
+27 sierpnia 2025 | 1949 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/vector.svg)
 Subskrybuj
 Czy ten artykuł był pomocny?
@@ -472,8 +472,8 @@ Ostatnio przeglądane
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Instalacja nowej słuchawki DECT](https://help.webex.com/pl-pl/article/okkepcb)
   * [Używanie zestawu nagłownego USB z telefonem Cisco z serii 8800 Multiplatform Firmware](https://help.webex.com/pl-pl/article/o87r6f)
-  * [Kapacity aplikací | Webex](https://help.webex.com/pl-pl/article/n8vw82eb)
-  * [Configure the Web Engine on Board, Desk, and Room Series devices](https://help.webex.com/pl-pl/article/nvt0sa9)
+  * [Advanced diagnostics and troubleshooting for your Webex for Government meetings in Control Hub](https://help.webex.com/pl-pl/article/1mmd43)
+  * [Sæt paneler ind og ud i Webex-møder](https://help.webex.com/pl-pl/article/wum32)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

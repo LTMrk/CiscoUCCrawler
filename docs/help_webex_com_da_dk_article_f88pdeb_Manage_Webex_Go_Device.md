@@ -89,7 +89,7 @@ Var denne artikel nyttig?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Tak for din feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja tak!![](https://help.webex.com/images/thumbs-down.svg)Ikke rigtigt
-02. december 2024 | 457 visning(er) | 0 personer fandt dette nyttigt
+02. december 2024 | 458 visning(er) | 0 personer fandt dette nyttigt
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonner
 # Administrer Webex Go-enhed
@@ -147,10 +147,10 @@ Var denne artikel nyttig?
 ![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
 Set for nyligt
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Doživljavate loš kvalitet zvuka na slušalicama](https://help.webex.com/da-dk/article/n88bsp3)
-  * [Moja slušalica se ne puni](https://help.webex.com/da-dk/article/n7vsft5)
-  * [Het People Insights-profiel van iemand anders bekijken tijdens een vergadering of webinar](https://help.webex.com/da-dk/article/yoeh9bb)
-  * [Prilagodite slušalice pomoću Cisco Headsets mobilne aplikacije](https://help.webex.com/da-dk/article/n5i7u82)
+  * [Aplicación de Webex | Filtrar sus @ Menciones](https://help.webex.com/da-dk/article/nr6yt2r)
+  * [Webex Edge for Devices](https://help.webex.com/da-dk/article/cy2l2z)
+  * [Cisco Webex Edge Ses Müşteri Yöneticisi Sorun Giderme Kılavuzu](https://help.webex.com/da-dk/article/WBX9000035655)
+  * [Hacer que el | cambio sea la aplicación de Webex](https://help.webex.com/da-dk/article/nqqfb0e)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

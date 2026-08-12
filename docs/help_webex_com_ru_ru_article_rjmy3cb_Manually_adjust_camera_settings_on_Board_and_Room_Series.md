@@ -86,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Благодарим вас за обратную связь.
 ![](https://help.webex.com/images/thumbs-up.svg)Да, спасибо!![](https://help.webex.com/images/thumbs-down.svg)Не совсем
-12 июня 2025 г. | 3382 – просмотры | 0 – пользователи, которые сочли этот материал полезным
+12 июня 2025 г. | 3383 – просмотры | 0 – пользователи, которые сочли этот материал полезным
 ![](https://help.webex.com/images/print-icon-new.svg)
 Подписаться
 # Мануально настраивать настройки камеры на Board, столе и номере
@@ -146,10 +146,10 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 
 Недавно просмотренное
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Какво е новото в RTM на едро](https://help.webex.com/ru-ru/article/naxx10)
-  * [الميزات الجديدة في Webex Calling](https://help.webex.com/ru-ru/article/rdmb0)
-  * [שילוב לוחות שנה עם רשימת הפגישות של היישום Webex Meetings](https://help.webex.com/ru-ru/article/nkyt47k)
-  * [تنشيط Webex Go على هاتفك المحمول](https://help.webex.com/ru-ru/article/qajdar)
+  * [Aktiver Webex Go på din mobiltelefon](https://help.webex.com/ru-ru/article/qajdar)
+  * [Nyheder i rtm, der giver andre muligheder](https://help.webex.com/ru-ru/article/naxx10)
+  * [Co je nového ve službě Webex Calling](https://help.webex.com/ru-ru/article/rdmb0)
+  * [Ztlumit všechny účastníky během schůzek na Board, u stolu a v řadě místností](https://help.webex.com/ru-ru/article/ijxk6bb)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

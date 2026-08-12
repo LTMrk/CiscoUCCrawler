@@ -90,7 +90,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-2024년 12월 11일 | 2292 명이 봄 | 0 명이 이 정보가 유용하다고 평가했습니다.
+2024년 12월 11일 | 2293 명이 봄 | 0 명이 이 정보가 유용하다고 평가했습니다.
 ![](https://help.webex.com/images/vector.svg)
 구독
 이 문서가 도움이 되었습니까?
@@ -162,10 +162,10 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
 최근에 확인함
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Cisco IP Phone Pornire rapidă pentru apelarea în aplicația Webex (Unified CM)](https://help.webex.com/ko-kr/article/nv3h903)
-  * [Apeluri cu apelare rapidă pe receptorul DECT](https://help.webex.com/ko-kr/article/nu7vxeg)
-  * [Moduri de alimentare a telefonului](https://help.webex.com/ko-kr/article/ntbhc9s)
-  * [Przekazywanie połączeń z Twojego analogowego telefonu](https://help.webex.com/ko-kr/article/xlu5hm)
+  * [Depanarea și întreținerea căștilor Cisco seria 560](https://help.webex.com/ko-kr/article/n0z4ueb)
+  * [Instalați noul dvs. receptor DECT](https://help.webex.com/ko-kr/article/okkepcb)
+  * [Utilizați căști USB cu telefonul dvs. Cisco 8800 cu firmware pentru mai multe platforme](https://help.webex.com/ko-kr/article/o87r6f)
+  * [Informații importante privind siguranța căștilor](https://help.webex.com/ko-kr/article/o3i448)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

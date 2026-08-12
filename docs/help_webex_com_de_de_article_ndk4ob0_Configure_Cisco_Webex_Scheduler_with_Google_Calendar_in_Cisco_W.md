@@ -2,6 +2,9 @@ Direkt zum Inhalt[![webex-logo](https://help.webex.com/logo/webexlogo.png)Hilfec
 * ![Suchsymbol](https://help.webex.com/images/search-icon.svg)Suche...Ctrl K
 * ![Suchsymbol](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant für Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Erste Schritte](https://help.webex.com/de-de/getting-started)
   * [Hilfe nach Produkt](https://help.webex.com/de-de/products)
   * [Administration](https://help.webex.com/de-de/administration)
@@ -86,7 +89,7 @@ War dieser Artikel hilfreich für Sie?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Danke für Ihr Feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, vielen Dank!![](https://help.webex.com/images/thumbs-down.svg)Eigentlich nicht
-06. Dezember 2024 | 1381 Ansicht(en) | 0 Personen fanden das hilfreich
+06. Dezember 2024 | 1382 Ansicht(en) | 0 Personen fanden das hilfreich
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonnieren
 # Konfigurieren der Webex-Funktion zum Ansetzen mit Google-Kalender im Cisco Webex Control Hub
@@ -118,7 +121,7 @@ Kürzlich angezeigt
   * [Generiranje aktivacijskog koda za uređaj](https://help.webex.com/de-de/article/ndb7w0db)
   * [Webex 앱 | People Insights 프로필 보기](https://help.webex.com/de-de/article/fl4hyw)
   * [Statusi omogućavanja i pretplate u okruženju Control Hub](https://help.webex.com/de-de/article/nctesy)
-  * [Cisco Jabber Kullanıcı ve Yönetim Makaleleri](https://help.webex.com/de-de/article/1pwgym)
+  * [Aktivér politikken for automatisk sletning for Webex-optagelser](https://help.webex.com/de-de/article/nue0dlp)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

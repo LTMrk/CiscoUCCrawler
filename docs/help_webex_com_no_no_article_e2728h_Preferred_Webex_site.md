@@ -86,7 +86,7 @@ Roller
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-03. april 2026 | 977 visning(er) | 0 personer mente dette var nyttig
+03. april 2026 | 978 visning(er) | 0 personer mente dette var nyttig
 ![](https://help.webex.com/images/vector.svg)
 Abonner
 Var denne artikkelen nyttig?
@@ -153,8 +153,8 @@ Nylig sett
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Aplicativo Webex | Chame a atenção de alguém com @Mentions](https://help.webex.com/no-no/article/p5k20o)
   * [如何联系 Cisco Webex 销售人员？](https://help.webex.com/no-no/article/WBX000022806)
-  * [Webex Contact Center에 대한 음성 채널 설정](https://help.webex.com/no-no/article/2dputx)
-  * [Mesagerie în echipă Cisco Jabber](https://help.webex.com/no-no/article/nki4ba4)
+  * [Kako da rukujem namenskim portovima (dok me ne podrži portal CCA-SP)?](https://help.webex.com/no-no/article/WBX000026962)
+  * [Zašto se moj portal ne pojavljuje na PORTALU CCA-SP?](https://help.webex.com/no-no/article/WBX000026410)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

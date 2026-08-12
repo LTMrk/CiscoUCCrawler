@@ -89,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Благодарим вас за обратную связь.
 ![](https://help.webex.com/images/thumbs-up.svg)Да, спасибо!![](https://help.webex.com/images/thumbs-down.svg)Не совсем
-03 декабря 2024 г. | 753 – просмотры | 0 – пользователи, которые сочли этот материал полезным
+03 декабря 2024 г. | 754 – просмотры | 0 – пользователи, которые сочли этот материал полезным
 ![](https://help.webex.com/images/print-icon-new.svg)
 Подписаться
 # Приложение Webex | Перенос вызова в совещание

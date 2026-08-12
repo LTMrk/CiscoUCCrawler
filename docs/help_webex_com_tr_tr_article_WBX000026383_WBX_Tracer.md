@@ -86,7 +86,7 @@ Bu makale yararlı oldu mu?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Geri bildiriminiz için teşekkürler.
 ![](https://help.webex.com/images/thumbs-up.svg)Evet, teşekkürler!![](https://help.webex.com/images/thumbs-down.svg)Pek değil
-03 Aralık 2024 | 953 görüntüleme(ler) | 0 kişi bunun yararlı olduğunu düşündü
+03 Aralık 2024 | 954 görüntüleme(ler) | 0 kişi bunun yararlı olduğunu düşündü
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abone Olun
 Microsoft Windows’da Webex Izleyici Günlüklerini Yakalama

@@ -83,7 +83,7 @@ Da li je ovaj članak bio koristan?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Hvala na povratnim informacijama.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, hvala vam!![](https://help.webex.com/images/thumbs-down.svg)Ne baš
-03. децембар 2024. | 217 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
+03. децембар 2024. | 218 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
 ![](https://help.webex.com/images/print-icon-new.svg)
 Pretplati se
 Brojevi poziva se ne pojavljuju po abecednom redosledu na globalnoj listi brojeva poziva za CCA-SP kupce
@@ -125,7 +125,7 @@ Nedavno pregledano
   * [Cloudově připojená PSTN pro dedikovanou instanci](https://help.webex.com/sr-rs/article/nw3ygtq)
   * [Cisco Jabber Articole utilizator și administrare](https://help.webex.com/sr-rs/article/1pwgym)
   * [유선 전화에서 기본 전화 걸기](https://help.webex.com/sr-rs/article/nfih595)
-  * [Cisco IP Phone Pornire rapidă pentru apelarea în aplicația Webex (Unified CM)](https://help.webex.com/sr-rs/article/nv3h903)
+  * [Depanarea și întreținerea căștilor Cisco seria 560](https://help.webex.com/sr-rs/article/n0z4ueb)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

@@ -89,7 +89,7 @@ Byl tento článek užitečný?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Děkujeme za vaši zpětnou vazbu.
 ![](https://help.webex.com/images/thumbs-up.svg)Ano, děkuji!![](https://help.webex.com/images/thumbs-down.svg)Ne, díky
-16. března 2026 | 1027 zobrazení | 0 osob/y, podle nichž byl obsah užitečný
+16. března 2026 | 1028 zobrazení | 0 osob/y, podle nichž byl obsah užitečný
 ![](https://help.webex.com/images/print-icon-new.svg)
 Přihlásit se k odběru
 # Aplikace Webex | Volání na Webex

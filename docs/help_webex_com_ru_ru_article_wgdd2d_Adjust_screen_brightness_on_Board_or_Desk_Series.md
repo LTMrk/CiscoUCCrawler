@@ -86,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Благодарим вас за обратную связь.
 ![](https://help.webex.com/images/thumbs-up.svg)Да, спасибо!![](https://help.webex.com/images/thumbs-down.svg)Не совсем
-06 декабря 2024 г. | 823 – просмотры | 0 – пользователи, которые сочли этот материал полезным
+06 декабря 2024 г. | 824 – просмотры | 0 – пользователи, которые сочли этот материал полезным
 ![](https://help.webex.com/images/print-icon-new.svg)
 Подписаться
 Регулировка яркости экрана на устройствах серии Board или Desk
@@ -116,7 +116,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
   * [Реакции на совещаниях на устройствах Cisco](https://help.webex.com/ru-ru/article/w8l8wf)
   * [Протокол CDP (Cisco Discovery Protocol) на устройствах серии Board, Desk и Room](https://help.webex.com/ru-ru/article/rot4m5)
   * [Мануально настраивать настройки камеры на Board, столе и номере](https://help.webex.com/ru-ru/article/rjmy3cb)
-  * [Какво е новото в RTM на едро](https://help.webex.com/ru-ru/article/naxx10)
+  * [Aktiver Webex Go på din mobiltelefon](https://help.webex.com/ru-ru/article/qajdar)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

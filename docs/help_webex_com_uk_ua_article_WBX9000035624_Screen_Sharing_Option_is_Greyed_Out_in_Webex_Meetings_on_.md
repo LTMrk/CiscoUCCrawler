@@ -86,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Дякуємо за відгук.
 ![](https://help.webex.com/images/thumbs-up.svg)Так, дякую!![](https://help.webex.com/images/thumbs-down.svg)Не дуже
-09 грудня 2024 р. | 558 переглядів | 2 — користувачі, які вважають цей матеріал корисним
+09 грудня 2024 р. | 559 переглядів | 2 — користувачі, які вважають цей матеріал корисним
 ![](https://help.webex.com/images/print-icon-new.svg)
 Оформити передплату
 Не вдалося надати спільний доступ до екрана на Mac

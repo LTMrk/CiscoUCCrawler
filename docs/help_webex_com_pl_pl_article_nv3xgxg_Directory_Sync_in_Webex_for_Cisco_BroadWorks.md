@@ -2,6 +2,9 @@ Przejdź do treści[![webex-logo](https://help.webex.com/logo/webexlogo.png)Cent
 * ![ikona wyszukiwania](https://help.webex.com/images/search-icon.svg)Wyszukaj...Ctrl K
 * ![ikona wyszukiwania](https://help.webex.com/images/search-icon.svg)
 * ![Asystent AI Cisco dla Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Rozpocznij](https://help.webex.com/pl-pl/getting-started)
   * [Pomoc według produktu](https://help.webex.com/pl-pl/products)
   * [Administrowanie](https://help.webex.com/pl-pl/administration)
@@ -93,7 +96,7 @@ Systemy operacyjne
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-10 lutego 2025 | 741 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
+10 lutego 2025 | 743 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/vector.svg)
 Subskrybuj
 Czy ten artykuł był pomocny?

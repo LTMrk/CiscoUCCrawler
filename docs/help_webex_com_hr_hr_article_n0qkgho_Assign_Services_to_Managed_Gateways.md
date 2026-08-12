@@ -87,7 +87,7 @@ Operacijski sustavi
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-11. listopada 2025. | 674 prikaz(i) | 0 osobe(a) su to označile kao korisno
+11. listopada 2025. | 675 prikaz(i) | 0 osobe(a) su to označile kao korisno
 ![](https://help.webex.com/images/vector.svg)
 Pretplata
 Je li taj članak bio koristan?

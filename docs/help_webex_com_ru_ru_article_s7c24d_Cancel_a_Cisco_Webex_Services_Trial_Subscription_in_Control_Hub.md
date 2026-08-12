@@ -2,6 +2,9 @@
 * ![пиктограмма поиска](https://help.webex.com/images/search-icon.svg)Поиск...Ctrl K
 * ![пиктограмма поиска](https://help.webex.com/images/search-icon.svg)
 * ![Интеллектуальный помощник Cisco для Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Начало работы](https://help.webex.com/ru-ru/getting-started)
   * [Справка по продукту](https://help.webex.com/ru-ru/products)
   * [Администрирование](https://help.webex.com/ru-ru/administration)
@@ -86,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Благодарим вас за обратную связь.
 ![](https://help.webex.com/images/thumbs-up.svg)Да, спасибо!![](https://help.webex.com/images/thumbs-down.svg)Не совсем
-11 августа 2026 г. | 837 – просмотры | 0 – пользователи, которые сочли этот материал полезным
+11 августа 2026 г. | 838 – просмотры | 0 – пользователи, которые сочли этот материал полезным
 ![](https://help.webex.com/images/print-icon-new.svg)
 Подписаться
 Отмените пробную подписку на Cisco Webex Services в Control Hub.
@@ -108,7 +111,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
   * [Rozpocznij sesję i zaproś klientów lub innych uczestników w Webex Support](https://help.webex.com/ru-ru/article/n39kcbx)
   * [Начало работы с трубкой Cisco IP DECT](https://help.webex.com/ru-ru/article/nh7qk3p)
   * [Nagrania spotkań Webex z obsługą urządzeń wideo](https://help.webex.com/ru-ru/article/n36lh5cb)
-  * [Aankomende vergaderingen weergeven in User Hub](https://help.webex.com/ru-ru/article/1syxbj)
+  * [Inhoud delen in Webex Training](https://help.webex.com/ru-ru/article/ngpfivv)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

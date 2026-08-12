@@ -94,7 +94,7 @@ Uloge
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-09. децембар 2024. | 1717 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
+09. децембар 2024. | 1718 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
 ![](https://help.webex.com/images/vector.svg)
 Pretplati se
 Da li je ovaj članak bio koristan?
@@ -234,7 +234,7 @@ Nedavno pregledano
   * [Вибір способу локалізації відомостей про нараду службою гібридного календаря](https://help.webex.com/sr-rs/article/nx598zq)
   * [Centrul de date Singapore pentru Webex Calling](https://help.webex.com/sr-rs/article/nmjf42d)
   * [Clientul recepționer | Plasează un apel activ în așteptare](https://help.webex.com/sr-rs/article/ngi3hgq)
-  * [I Can't Enter Names into the Alternate Host Field when Scheduling a Meeting using Webex Desktop App](https://help.webex.com/sr-rs/article/WBX58194)
+  * [Nutzen Sie Webex Go auf Ihrem Mobiltelefon](https://help.webex.com/sr-rs/article/ng0os0ab)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

@@ -89,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 感謝您的意見回饋。
 ![](https://help.webex.com/images/thumbs-up.svg)是的，謝謝！![](https://help.webex.com/images/thumbs-down.svg)不完全是
-2025年6月12日 | 1468 次檢視 | 6 人認為這有幫助
+2025年6月12日 | 1469 次檢視 | 6 人認為這有幫助
 ![](https://help.webex.com/images/print-icon-new.svg)
 訂閱
 # Board、Desk 和 Room 系列的頻寬管理

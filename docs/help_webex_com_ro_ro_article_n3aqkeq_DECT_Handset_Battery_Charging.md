@@ -86,7 +86,7 @@ A fost util acest articol?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Mulțumim pentru feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, mulțumim!![](https://help.webex.com/images/thumbs-down.svg)Nu chiar
-03 decembrie 2024 | 500 vizualizare(ări) | 1 persoane au considerat că este util
+03 decembrie 2024 | 501 vizualizare(ări) | 1 persoane au considerat că este util
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonare
 Încărcarea bateriei receptorului DECT

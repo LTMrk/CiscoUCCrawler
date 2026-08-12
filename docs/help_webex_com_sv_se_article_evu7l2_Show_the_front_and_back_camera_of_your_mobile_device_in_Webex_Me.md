@@ -86,7 +86,7 @@ Var den här artikeln användbar?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Tack för din feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja tack!![](https://help.webex.com/images/thumbs-down.svg)Inte riktigt
-02 december 2024 | 465 visning(ar) | 0 personer tyckte att detta var till hjälp
+02 december 2024 | 466 visning(ar) | 0 personer tyckte att detta var till hjälp
 ![](https://help.webex.com/images/print-icon-new.svg)
 Prenumerera
 # Visa den mobila enhetens främre och bakre kamera i Webex Meetings
@@ -110,7 +110,7 @@ Senaste visade
   * [Diagnostica avanzata e risoluzione dei problemi per le tue riunioni Webex for Government in Control Hub](https://help.webex.com/sv-se/article/1mmd43)
   * [Съобщения на екипа на Cisco Jabber](https://help.webex.com/sv-se/article/nki4ba4)
   * [Cisco Jabber Kullanıcı ve Yönetim Makaleleri](https://help.webex.com/sv-se/article/1pwgym)
-  * [Where can I find more information about the Cisco Headset 700 Series?](https://help.webex.com/sv-se/article/g6ekes)
+  * [Administrasjon av Cisco Room USB](https://help.webex.com/sv-se/article/okk7ms)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

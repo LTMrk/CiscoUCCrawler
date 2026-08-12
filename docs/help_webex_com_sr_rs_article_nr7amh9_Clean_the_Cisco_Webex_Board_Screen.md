@@ -89,7 +89,7 @@ Da li je ovaj članak bio koristan?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Hvala na povratnim informacijama.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, hvala vam!![](https://help.webex.com/images/thumbs-down.svg)Ne baš
-11. јун 2026. | 819 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
+11. јун 2026. | 820 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
 ![](https://help.webex.com/images/print-icon-new.svg)
 Pretplati se
 Čišćenje i dezinfekcija uređaja Board, Desk i Room Series
@@ -121,10 +121,10 @@ Srodni članci
 
 Nedavno pregledano
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Konfiguracija virtualnih kućnih brojeva u okruženju Control Hub](https://help.webex.com/sr-rs/article/fh3l46)
-  * [Приложение Webex | Предотвращение перегрузки информацией](https://help.webex.com/sr-rs/article/s5idef)
-  * [Приложение Webex | Перенос вызова в совещание](https://help.webex.com/sr-rs/article/nmd26kk)
-  * [Webex Edge for Devices](https://help.webex.com/sr-rs/article/cy2l2z)
+  * [Скрытие сведений о совещаниях на устройствах серии Board, настольных и комнатных](https://help.webex.com/sr-rs/article/nc0wizm)
+  * [Webex 應用程式 | 避免資訊過載](https://help.webex.com/sr-rs/article/s5idef)
+  * [Webex 應用程式 | 將通話轉移至會議](https://help.webex.com/sr-rs/article/nmd26kk)
+  * [错误：“安装失败。请重试。错误 [104]”](https://help.webex.com/sr-rs/article/WBX58356)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

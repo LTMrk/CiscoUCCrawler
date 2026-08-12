@@ -83,7 +83,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 感謝您的意見回饋。
 ![](https://help.webex.com/images/thumbs-up.svg)是的，謝謝！![](https://help.webex.com/images/thumbs-down.svg)不完全是
-2024年12月04日 | 240 次檢視 | 0 人認為這有幫助
+2024年12月04日 | 241 次檢視 | 0 人認為這有幫助
 ![](https://help.webex.com/images/print-icon-new.svg)
 訂閱
 # 使用 Webex Meetings 行動應用程式在活動和訓練課程中提出意見反應

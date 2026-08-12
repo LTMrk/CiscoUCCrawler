@@ -80,7 +80,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 感謝您的意見回饋。
 ![](https://help.webex.com/images/thumbs-up.svg)是的，謝謝！![](https://help.webex.com/images/thumbs-down.svg)不完全是
-2025年5月19日 | 1269 次檢視 | 0 人認為這有幫助
+2025年5月19日 | 1270 次檢視 | 0 人認為這有幫助
 ![](https://help.webex.com/images/print-icon-new.svg)
 訂閱
 如何在 Cisco Commerce Workspace (CCW) 中變更或修改設定聯絡人電子郵件地址？
@@ -231,51 +231,3 @@ _更新後的配置聯絡電子郵件將顯示在訂單行中：_
 [條款和條件](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[隱私權聲明](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookie](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[商標](https://www.cisco.com/web/siteassets/legal/trademark.html)
 ©2026 Cisco 和/或其子公司。保留所有權利。
 [條款和條件](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[隱私權聲明](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookie](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[商標](https://www.cisco.com/web/siteassets/legal/trademark.html)
-![](https://t.co/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=e6083dc6-b780-4ab1-86c5-f7c358b257ca&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=652581a2-2d4b-408b-8152-634e69c37937&pt=%E5%A6%82%E4%BD%95%E5%9C%A8%20Cisco%20Commerce%20Workspace%20\(CCW\)%20%E4%B8%AD%E8%AE%8A%E6%9B%B4%E6%88%96%E4%BF%AE%E6%94%B9%E8%A8%AD%E5%AE%9A%E8%81%AF%E7%B5%A1%E4%BA%BA%E9%9B%BB%E5%AD%90%E9%83%B5%E4%BB%B6%E5%9C%B0%E5%9D%80%EF%BC%9F&tw_document_href=https%3A%2F%2Fhelp.webex.com%2Fzh-tw%2Farticle%2FWBX000028108%2F%25E5%25A6%2582%25E4%25BD%2595%25E5%259C%25A8-Cisco-Commerce-Workspace-\(CCW\)-%25E4%25B8%25AD%25E8%25AE%258A%25E6%259B%25B4%25E6%2588%2596%25E4%25BF%25AE%25E6%2594%25B9%25E8%25A8%25AD%25E5%25AE%259A%25E8%2581%25AF%25E7%25B5%25A1%25E4%25BA%25BA%25E9%259B%25BB%25E5%25AD%2590%25E9%2583%25B5%25E4%25BB%25B6%25E5%259C%25B0%25E5%259D%2580%25EF%25BC%259F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1786528470513.608849163249041156&txn_id=o1rwk&type=javascript&version=2.4.1)![](https://analytics.twitter.com/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=e6083dc6-b780-4ab1-86c5-f7c358b257ca&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=652581a2-2d4b-408b-8152-634e69c37937&pt=%E5%A6%82%E4%BD%95%E5%9C%A8%20Cisco%20Commerce%20Workspace%20\(CCW\)%20%E4%B8%AD%E8%AE%8A%E6%9B%B4%E6%88%96%E4%BF%AE%E6%94%B9%E8%A8%AD%E5%AE%9A%E8%81%AF%E7%B5%A1%E4%BA%BA%E9%9B%BB%E5%AD%90%E9%83%B5%E4%BB%B6%E5%9C%B0%E5%9D%80%EF%BC%9F&tw_document_href=https%3A%2F%2Fhelp.webex.com%2Fzh-tw%2Farticle%2FWBX000028108%2F%25E5%25A6%2582%25E4%25BD%2595%25E5%259C%25A8-Cisco-Commerce-Workspace-\(CCW\)-%25E4%25B8%25AD%25E8%25AE%258A%25E6%259B%25B4%25E6%2588%2596%25E4%25BF%25AE%25E6%2594%25B9%25E8%25A8%25AD%25E5%25AE%259A%25E8%2581%25AF%25E7%25B5%25A1%25E4%25BA%25BA%25E9%259B%25BB%25E5%25AD%2590%25E9%2583%25B5%25E4%25BB%25B6%25E5%259C%25B0%25E5%259D%2580%25EF%25BC%259F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1786528470513.608849163249041156&txn_id=o1rwk&type=javascript&version=2.4.1)![](https://t.co/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=51dbcb90-8537-419b-99db-be6de92bac58&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=652581a2-2d4b-408b-8152-634e69c37937&pt=%E5%A6%82%E4%BD%95%E5%9C%A8%20Cisco%20Commerce%20Workspace%20\(CCW\)%20%E4%B8%AD%E8%AE%8A%E6%9B%B4%E6%88%96%E4%BF%AE%E6%94%B9%E8%A8%AD%E5%AE%9A%E8%81%AF%E7%B5%A1%E4%BA%BA%E9%9B%BB%E5%AD%90%E9%83%B5%E4%BB%B6%E5%9C%B0%E5%9D%80%EF%BC%9F&tw_document_href=https%3A%2F%2Fhelp.webex.com%2Fzh-tw%2Farticle%2FWBX000028108%2F%25E5%25A6%2582%25E4%25BD%2595%25E5%259C%25A8-Cisco-Commerce-Workspace-\(CCW\)-%25E4%25B8%25AD%25E8%25AE%258A%25E6%259B%25B4%25E6%2588%2596%25E4%25BF%25AE%25E6%2594%25B9%25E8%25A8%25AD%25E5%25AE%259A%25E8%2581%25AF%25E7%25B5%25A1%25E4%25BA%25BA%25E9%259B%25BB%25E5%25AD%2590%25E9%2583%25B5%25E4%25BB%25B6%25E5%259C%25B0%25E5%259D%2580%25EF%25BC%259F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1786528470513.608849163249041156&txn_id=o4k82&type=javascript&version=2.4.1)![](https://analytics.twitter.com/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=51dbcb90-8537-419b-99db-be6de92bac58&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=652581a2-2d4b-408b-8152-634e69c37937&pt=%E5%A6%82%E4%BD%95%E5%9C%A8%20Cisco%20Commerce%20Workspace%20\(CCW\)%20%E4%B8%AD%E8%AE%8A%E6%9B%B4%E6%88%96%E4%BF%AE%E6%94%B9%E8%A8%AD%E5%AE%9A%E8%81%AF%E7%B5%A1%E4%BA%BA%E9%9B%BB%E5%AD%90%E9%83%B5%E4%BB%B6%E5%9C%B0%E5%9D%80%EF%BC%9F&tw_document_href=https%3A%2F%2Fhelp.webex.com%2Fzh-tw%2Farticle%2FWBX000028108%2F%25E5%25A6%2582%25E4%25BD%2595%25E5%259C%25A8-Cisco-Commerce-Workspace-\(CCW\)-%25E4%25B8%25AD%25E8%25AE%258A%25E6%259B%25B4%25E6%2588%2596%25E4%25BF%25AE%25E6%2594%25B9%25E8%25A8%25AD%25E5%25AE%259A%25E8%2581%25AF%25E7%25B5%25A1%25E4%25BA%25BA%25E9%259B%25BB%25E5%25AD%2590%25E9%2583%25B5%25E4%25BB%25B6%25E5%259C%25B0%25E5%259D%2580%25EF%25BC%259F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1786528470513.608849163249041156&txn_id=o4k82&type=javascript&version=2.4.1)
-![](https://bat.bing.com/action/0?ti=5221058&Ver=2&mid=180b319b-60e7-4d9f-a0e4-3eeb240c0910&bo=1&sid=d05f9350963311f1bff28fe3c91dea8d&vid=d05f7960963311f18c263ff2e3aae671&vids=0&msclkid=N&pi=0&lg=en-US&sw=1080&sh=600&sc=24&tl=%E5%A6%82%E4%BD%95%E5%9C%A8%20Cisco%20Commerce%20Workspace%20\(CCW\)%20%E4%B8%AD%E8%AE%8A%E6%9B%B4%E6%88%96%E4%BF%AE%E6%94%B9%E8%A8%AD%E5%AE%9A%E8%81%AF%E7%B5%A1%E4%BA%BA%E9%9B%BB%E5%AD%90%E9%83%B5%E4%BB%B6%E5%9C%B0%E5%9D%80%EF%BC%9F&p=https%3A%2F%2Fhelp.webex.com%2Fzh-tw%2Farticle%2FWBX000028108%2F%25E5%25A6%2582%25E4%25BD%2595%25E5%259C%25A8-Cisco-Commerce-Workspace-\(CCW\)-%25E4%25B8%25AD%25E8%25AE%258A%25E6%259B%25B4%25E6%2588%2596%25E4%25BF%25AE%25E6%2594%25B9%25E8%25A8%25AD%25E5%25AE%259A%25E8%2581%25AF%25E7%25B5%25A1%25E4%25BA%25BA%25E9%259B%25BB%25E5%25AD%2590%25E9%2583%25B5%25E4%25BB%25B6%25E5%259C%25B0%25E5%259D%2580%25EF%25BC%259F&r=&lt=6204&evt=pageLoad&sv=2&cdb=AQER&rn=749796)
-By continuing to use our website, you acknowledge the use of cookies. 
-[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
-![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
-## Consent Manager
-Your opt out preference signal is honored.
-## Consent Manager
-  * ### Your Privacy
-  * ### Strictly Necessary Cookies
-  * ### Performance Cookies
-  * ### Targeting Cookies
-  * ### Functional Cookies
-
-
-#### Your Privacy
-When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
-#### Strictly Necessary Cookies
-Always Active
-These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
-Cookies Details
-#### Performance Cookies
-Performance Cookies
-These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
-Cookies Details
-#### Targeting Cookies
-Targeting Cookies
-These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
-Cookies Details
-#### Functional Cookies
-Functional Cookies
-These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
-Cookies Details
-Back Button
-### Cookie List
-Filter Button
-Consent Leg.Interest
-checkbox label label
-checkbox label label
-checkbox label label
-Clear
-  * checkbox label label
-
-
-Apply Cancel
-Save Settings
-Allow All
-[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)

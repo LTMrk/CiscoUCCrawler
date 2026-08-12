@@ -86,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 感谢您的反馈。
 ![](https://help.webex.com/images/thumbs-up.svg)是的，谢谢！![](https://help.webex.com/images/thumbs-down.svg)不完全是
-2024年12月03日 | 669 次查看 | 0 人认为有帮助
+2024年12月03日 | 670 次查看 | 0 人认为有帮助
 ![](https://help.webex.com/images/print-icon-new.svg)
 订阅
 # 在 Cisco Webex 站点管理中启用本地录制

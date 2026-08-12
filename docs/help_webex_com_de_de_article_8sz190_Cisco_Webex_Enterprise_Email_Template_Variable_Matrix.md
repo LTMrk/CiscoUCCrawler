@@ -83,7 +83,7 @@ War dieser Artikel hilfreich für Sie?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Danke für Ihr Feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, vielen Dank!![](https://help.webex.com/images/thumbs-down.svg)Eigentlich nicht
-29. November 2024 | 489 Ansicht(en) | 0 Personen fanden das hilfreich
+29. November 2024 | 490 Ansicht(en) | 0 Personen fanden das hilfreich
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonnieren
 Variable Matrix der Cisco WebEx Enterprise

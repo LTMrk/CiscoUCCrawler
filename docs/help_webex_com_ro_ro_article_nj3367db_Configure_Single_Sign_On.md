@@ -83,7 +83,7 @@ A fost util acest articol?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Mulțumim pentru feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, mulțumim!![](https://help.webex.com/images/thumbs-down.svg)Nu chiar
-09 decembrie 2024 | 158 vizualizare(ări) | 0 persoane au considerat că este util
+09 decembrie 2024 | 159 vizualizare(ări) | 0 persoane au considerat că este util
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonare
 # Configurarea conectării unice

@@ -86,7 +86,7 @@ A fost util acest articol?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Mulțumim pentru feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, mulțumim!![](https://help.webex.com/images/thumbs-down.svg)Nu chiar
-11 decembrie 2024 | 243 vizualizare(ări) | 0 persoane au considerat că este util
+11 decembrie 2024 | 244 vizualizare(ări) | 0 persoane au considerat că este util
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonare
 # Cisco IP Phone Pornire rapidă pentru apelarea în aplicația Webex (Unified CM)

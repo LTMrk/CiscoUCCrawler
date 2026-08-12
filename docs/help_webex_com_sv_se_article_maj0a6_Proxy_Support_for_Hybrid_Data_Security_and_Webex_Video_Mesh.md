@@ -83,7 +83,7 @@ Var den här artikeln användbar?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Tack för din feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja tack!![](https://help.webex.com/images/thumbs-down.svg)Inte riktigt
-24 april 2026 | 1202 visning(ar) | 0 personer tyckte att detta var till hjälp
+24 april 2026 | 1203 visning(ar) | 0 personer tyckte att detta var till hjälp
 ![](https://help.webex.com/images/print-icon-new.svg)
 Prenumerera
 # Proxystöd för hybrid datasäkerhet och videonät

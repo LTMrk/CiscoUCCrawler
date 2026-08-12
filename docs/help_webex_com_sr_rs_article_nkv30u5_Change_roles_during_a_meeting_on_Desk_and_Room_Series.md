@@ -89,7 +89,7 @@ Da li je ovaj članak bio koristan?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Hvala na povratnim informacijama.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, hvala vam!![](https://help.webex.com/images/thumbs-down.svg)Ne baš
-11. јун 2026. | 696 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
+11. јун 2026. | 697 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
 ![](https://help.webex.com/images/print-icon-new.svg)
 Pretplati se
 Promenite uloge tokom sastanka na Desk i Room Series

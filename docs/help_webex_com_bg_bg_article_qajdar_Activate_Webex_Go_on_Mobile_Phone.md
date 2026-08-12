@@ -89,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Благодарим за обратната връзка.
 ![](https://help.webex.com/images/thumbs-up.svg)Благодарим!![](https://help.webex.com/images/thumbs-down.svg)Не
-03 декември 2024 г. | 1286 преглеждане(ия) | 1 души считат, че това е полезно
+03 декември 2024 г. | 1287 преглеждане(ия) | 1 души считат, че това е полезно
 ![](https://help.webex.com/images/print-icon-new.svg)
 Абониране
 # Активиране на Webex Go на вашия мобилен телефон

@@ -86,7 +86,7 @@ A fost util acest articol?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Mulțumim pentru feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, mulțumim!![](https://help.webex.com/images/thumbs-down.svg)Nu chiar
-31 martie 2025 | 357 vizualizare(ări) | 0 persoane au considerat că este util
+31 martie 2025 | 358 vizualizare(ări) | 0 persoane au considerat că este util
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonare
 # Aflați mai multe despre asocierea site-urilor dvs. Webex cu Control Hub
@@ -125,10 +125,10 @@ Articole conexe
 
 Vizualizate recent
 ![](https://help.webex.com/images/arrow-down_20.svg)
+  * [Verificare e-mail Webex Meetings](https://help.webex.com/ro-ro/article/n7i635u)
+  * [Activați politica de ștergere automată pentru înregistrările Webex](https://help.webex.com/ro-ro/article/nue0dlp)
   * [Încărcarea bateriei receptorului DECT](https://help.webex.com/ro-ro/article/n3aqkeq)
   * [Konfigurowanie handlu elektronicznego dla swojej witryny Webex w usłudze Administrowanie witryną Cisco Webex](https://help.webex.com/ro-ro/article/ns9kodx)
-  * [Odbierz Ostrzeżenie W Przypadku Przekroczenia Pojemności Miejsca Do Przechowywania W Witrynie Webex](https://help.webex.com/ro-ro/article/npyqshab)
-  * [Configurați opțiunile de aspect pentru site-ul dvs. Webex](https://help.webex.com/ro-ro/article/njfc0yg)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

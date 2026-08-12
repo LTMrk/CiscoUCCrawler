@@ -89,7 +89,7 @@ Vond u dit artikel nuttig?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Hartelijk dank voor uw feedback
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, bedankt!![](https://help.webex.com/images/thumbs-down.svg)Niet echt
-24 april 2026 | 788 weergave(n) | 0 personen vonden dit nuttig
+24 april 2026 | 789 weergave(n) | 0 personen vonden dit nuttig
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonneren
 # Het People Insights-profiel van iemand anders bekijken tijdens een vergadering of webinar

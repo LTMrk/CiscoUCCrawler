@@ -87,7 +87,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-11 августа 2026 г. | 1684 – просмотры | 1 – пользователи, которые сочли этот материал полезным
+11 августа 2026 г. | 1685 – просмотры | 1 – пользователи, которые сочли этот материал полезным
 ![](https://help.webex.com/images/vector.svg)
 Подписаться
 Была ли статья полезной?
@@ -151,8 +151,8 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Aplicativo Webex Evite | a sobrecarga de informações](https://help.webex.com/ru-ru/article/s5idef)
   * [Poboljšana linija spasavanja za sprečavanje samoubistva 988 za Webex Calling](https://help.webex.com/ru-ru/article/8hp9k1)
-  * ["Cisco Webex Meeting Center" desidera registrare lo schermo di questo computer](https://help.webex.com/ru-ru/article/WBX9000029629)
-  * [Singapore-datacenter för Webex Calling](https://help.webex.com/ru-ru/article/nmjf42d)
+  * [Функція «Одне натискання кнопки» (OBTP) з Microsoft Exchange](https://help.webex.com/ru-ru/article/y5stdw)
+  * [Webexアプリ | 空間内の全員の注目を集める](https://help.webex.com/ru-ru/article/tfqhfx)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

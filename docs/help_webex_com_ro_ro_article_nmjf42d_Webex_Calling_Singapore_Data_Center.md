@@ -89,7 +89,7 @@ A fost util acest articol?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Mulțumim pentru feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, mulțumim!![](https://help.webex.com/images/thumbs-down.svg)Nu chiar
-09 aprilie 2025 | 303 vizualizare(ări) | 0 persoane au considerat că este util
+09 aprilie 2025 | 304 vizualizare(ări) | 0 persoane au considerat că este util
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonare
 # Centrul de date Singapore pentru Webex Calling
@@ -112,9 +112,9 @@ A fost util acest articol?
 Vizualizate recent
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Clientul recepționer | Plasează un apel activ în așteptare](https://help.webex.com/ro-ro/article/ngi3hgq)
-  * [I Can't Enter Names into the Alternate Host Field when Scheduling a Meeting using Webex Desktop App](https://help.webex.com/ro-ro/article/WBX58194)
-  * [Достъп до вашия профил за повиквания отвсякъде](https://help.webex.com/ro-ro/article/0ku8qo)
-  * [基于网络的 Webex Meetings、Webex Training 或 Webex Events 录制文件的播放控制选项](https://help.webex.com/ro-ro/article/zey2h4)
+  * [Nutzen Sie Webex Go auf Ihrem Mobiltelefon](https://help.webex.com/ro-ro/article/ng0os0ab)
+  * [Webex Go-Gerät verwalten](https://help.webex.com/ro-ro/article/f88pdeb)
+  * [Създаване на графици за настройки за повиквания](https://help.webex.com/ro-ro/article/szrrto)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

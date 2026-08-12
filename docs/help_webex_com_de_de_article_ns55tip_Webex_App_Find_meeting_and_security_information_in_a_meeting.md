@@ -89,7 +89,7 @@ War dieser Artikel hilfreich für Sie?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Danke für Ihr Feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, vielen Dank!![](https://help.webex.com/images/thumbs-down.svg)Eigentlich nicht
-13. März 2026 | 1323 Ansicht(en) | 0 Personen fanden das hilfreich
+13. März 2026 | 1324 Ansicht(en) | 0 Personen fanden das hilfreich
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonnieren
 # Webex-App | Meeting- und Sicherheitsinformationen in einem Meeting finden
@@ -140,10 +140,10 @@ War dieser Artikel hilfreich für Sie?
 ![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
 Kürzlich angezeigt
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Konfigurera och hantera Webex Calling-enheter](https://help.webex.com/de-de/article/n9r1aac)
-  * [Tillgängliga funktioner efter licenstyp för Webex Calling](https://help.webex.com/de-de/article/n1qbbp7)
-  * [Chamada de emergência E911 no Webex para BroadWorks](https://help.webex.com/de-de/article/bb690w)
-  * [Systémové požadavky webex Meetings a informace pro různé platformy](https://help.webex.com/de-de/article/n6rk5el)
+  * [Aplikacja Webex | Przyciągnij uwagę wszystkich w przestrzeni](https://help.webex.com/de-de/article/tfqhfx)
+  * [Migrați de la Instrumente de productivitate la programul de completare Webex Scheduler](https://help.webex.com/de-de/article/nvx0mw4)
+  * [Aplikacja Webex | Dodawanie skrótu do strony internetowej do spacji](https://help.webex.com/de-de/article/tdcefv)
+  * [Aplikacja Webex | Otwórz skrót do strony internetowej w przestrzeni](https://help.webex.com/de-de/article/sjkdsg)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

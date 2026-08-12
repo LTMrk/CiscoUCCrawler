@@ -2,6 +2,9 @@ Preskoči do sadržaja[![webex-logo](https://help.webex.com/logo/webexlogo.png)C
 * ![ikona pretrage](https://help.webex.com/images/search-icon.svg)Pretraga...Ctrl K
 * ![ikona pretrage](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant za Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Prvi koraci](https://help.webex.com/sr-rs/getting-started)
   * [Pomoć po proizvodima](https://help.webex.com/sr-rs/products)
   * [Administracija](https://help.webex.com/sr-rs/administration)

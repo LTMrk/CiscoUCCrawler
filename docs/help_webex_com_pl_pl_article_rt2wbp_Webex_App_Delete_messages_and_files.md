@@ -89,7 +89,7 @@ Czy ten artykuł był pomocny?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Dziękujemy za opinię.
 ![](https://help.webex.com/images/thumbs-up.svg)Tak, dziękuję!![](https://help.webex.com/images/thumbs-down.svg)Niezupełnie
-13 marca 2026 | 1942 — liczba wyświetleń | 4 — liczba osób, które uznały to za pomocne
+13 marca 2026 | 1944 — liczba wyświetleń | 4 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/print-icon-new.svg)
 Subskrybuj
 # Aplikacja Webex | Usuń wiadomości i pliki
@@ -124,8 +124,8 @@ Ostatnio przeglądane
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Fejl: "Kørselsfejl for Microsoft Visual C++ Runtime Library", når du deltager i et møde](https://help.webex.com/pl-pl/article/WBX60571)
   * [Konfiguruj kolejkę połączeń](https://help.webex.com/pl-pl/article/nzkg083)
-  * [Aflați mai multe despre asocierea site-urilor dvs. Webex cu Control Hub](https://help.webex.com/pl-pl/article/n98lqvl)
-  * [Încărcarea bateriei receptorului DECT](https://help.webex.com/pl-pl/article/n3aqkeq)
+  * [Ghid de implementare Enterprise Webex Meetings pentru întâlniri cu dispozitive video activate](https://help.webex.com/pl-pl/article/nmdp0hq)
+  * [Atribuirea rolului de gestionare a utilizatorilor în administrarea site-ului Webex](https://help.webex.com/pl-pl/article/nka5cbp)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

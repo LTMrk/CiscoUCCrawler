@@ -92,7 +92,7 @@ Operating systems
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-September 21, 2024 | 270120 view(s) | 613 people thought this was helpful
+September 21, 2024 | 270122 view(s) | 613 people thought this was helpful
 ![](https://help.webex.com/images/vector.svg)
 Subscribe
 Was this article helpful?
@@ -210,8 +210,8 @@ Recently Viewed
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Webex App bots](https://help.webex.com/en-us/article/lvhkvbb)
   * [Webex Meetings integration with Slack](https://help.webex.com/en-us/article/n9e61edb)
-  * [Promenite uloge tokom sastanka na Desk i Room Series](https://help.webex.com/en-us/article/nkv30u5)
-  * [Isključite video prenos tokom sastanka u Seriji Board, Desk i Room](https://help.webex.com/en-us/article/njk6e0i)
+  * [مثال](https://help.webex.com/en-us/article/nhqh1mf)
+  * [استخدام Board وDesk Series مع مسافات Webex](https://help.webex.com/en-us/article/ngybf7w)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

@@ -86,7 +86,7 @@ Was this article helpful?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Thanks for your feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Yes, thank you!![](https://help.webex.com/images/thumbs-down.svg)Not really
-March 30, 2026 | 67204 view(s) | 80 people thought this was helpful
+March 30, 2026 | 67205 view(s) | 80 people thought this was helpful
 ![](https://help.webex.com/images/print-icon-new.svg)
 Subscribe
 Blank White Screen when Application or Desktop Sharing
@@ -122,10 +122,10 @@ Related Articles
 
 Recently Viewed
 ![](https://help.webex.com/images/arrow-down_20.svg)
+  * [Düşük Bant Genişliğine Sahip Katılımcılar Webex HQ veya HD Video Görüntüleyebilir ya da Paylaşabilir mi?](https://help.webex.com/en-us/article/WBX59760)
   * [Microsoft Windows’da Webex Izleyici Günlüklerini Yakalama](https://help.webex.com/en-us/article/WBX000026383)
   * [Fel: "Det går inte att ansluta till ljud" när du Webex-ljud konferens.](https://help.webex.com/en-us/article/WBX9000033889)
   * [Det gick inte att hitta Google Play Store för att installera Webex Meetings-appen för Android för kinesiska fastlandet](https://help.webex.com/en-us/article/WBX9000033637)
-  * [Cisco מוצר ובטיחות טלפון בחדר](https://help.webex.com/en-us/article/945d69)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

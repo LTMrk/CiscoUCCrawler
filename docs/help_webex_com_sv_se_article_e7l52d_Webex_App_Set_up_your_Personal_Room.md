@@ -89,7 +89,7 @@ Var den här artikeln användbar?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Tack för din feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja tack!![](https://help.webex.com/images/thumbs-down.svg)Inte riktigt
-13 mars 2026 | 1126 visning(ar) | 0 personer tyckte att detta var till hjälp
+13 mars 2026 | 1127 visning(ar) | 0 personer tyckte att detta var till hjälp
 ![](https://help.webex.com/images/print-icon-new.svg)
 Prenumerera
 # Webex-appen | Konfigurera ditt personliga rum

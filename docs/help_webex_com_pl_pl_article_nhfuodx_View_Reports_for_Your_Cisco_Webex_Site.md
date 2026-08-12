@@ -97,7 +97,7 @@ Systemy operacyjne
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-21 lutego 2025 | 867 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
+21 lutego 2025 | 868 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/vector.svg)
 Subskrybuj
 Czy ten artykuł był pomocny?

@@ -86,7 +86,7 @@ Questo articolo è stato utile?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Grazie per il feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Sì, grazie.![](https://help.webex.com/images/thumbs-down.svg)Non proprio
-09 dicembre 2024 | 1465 vista/e | 2 persone pensano che sia stato utile
+09 dicembre 2024 | 1466 vista/e | 2 persone pensano che sia stato utile
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abbonati
 "Cisco Webex Meeting Center" desidera registrare lo schermo di questo computer

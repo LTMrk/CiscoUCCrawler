@@ -89,7 +89,7 @@ Czy ten artykuł był pomocny?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Dziękujemy za opinię.
 ![](https://help.webex.com/images/thumbs-up.svg)Tak, dziękuję!![](https://help.webex.com/images/thumbs-down.svg)Niezupełnie
-02 grudnia 2024 | 305 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
+02 grudnia 2024 | 307 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/print-icon-new.svg)
 Subskrybuj
 # Kontroluj przesyłanie awatarów do pokojów osobistych w witrynie Webex
@@ -113,9 +113,9 @@ Powiązane artykuły
 Ostatnio przeglądane
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Zezwalaj użytkownikom na organizowanie spotkań z urządzenia wideo bez kodu PIN w Cisco Webex Site Administration](https://help.webex.com/pl-pl/article/nfgr7ux)
-  * [Webex-appen | Test forbindelsen din med helsesjekkeren](https://help.webex.com/pl-pl/article/n2g8glg)
-  * [Webex-appen | Tilbakestill det glemte passordet](https://help.webex.com/pl-pl/article/n02v0b8)
-  * [Webex-appen | Vis når du er borte fra kontoret](https://help.webex.com/pl-pl/article/lk7294)
+  * [Webex-appen | Finn ut hvilken ringetjeneste du har](https://help.webex.com/pl-pl/article/nbtgrzx)
+  * [Upućivanje osnovnih poziva (ATA 191 i 192)](https://help.webex.com/pl-pl/article/ffsb4u)
+  * [Endre skriftstørrelsen for Chat-panelet](https://help.webex.com/pl-pl/article/n8yddtl)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

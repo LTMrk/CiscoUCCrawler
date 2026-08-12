@@ -89,7 +89,7 @@ Var den här artikeln användbar?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Tack för din feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja tack!![](https://help.webex.com/images/thumbs-down.svg)Inte riktigt
-11 juni 2026 | 1155 visning(ar) | 0 personer tyckte att detta var till hjälp
+11 juni 2026 | 1156 visning(ar) | 0 personer tyckte att detta var till hjälp
 ![](https://help.webex.com/images/print-icon-new.svg)
 Prenumerera
 Headset och handenheter som stöds för skrivbords-, Board- och rumsenheter
@@ -165,8 +165,8 @@ Senaste visade
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Slanje HTTP zahteva sa uređaja Board, Desk i Room Series](https://help.webex.com/sv-se/article/nthg6le)
   * [Čišćenje i dezinfekcija uređaja Board, Desk i Room Series](https://help.webex.com/sv-se/article/n6biz7y)
-  * [Konfiguracija virtualnih kućnih brojeva u okruženju Control Hub](https://help.webex.com/sv-se/article/fh3l46)
-  * [Приложение Webex | Предотвращение перегрузки информацией](https://help.webex.com/sv-se/article/s5idef)
+  * [Скрытие сведений о совещаниях на устройствах серии Board, настольных и комнатных](https://help.webex.com/sv-se/article/nc0wizm)
+  * [Webex 應用程式 | 避免資訊過載](https://help.webex.com/sv-se/article/s5idef)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

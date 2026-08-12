@@ -88,7 +88,7 @@ Operációs rendszerek
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-2026. április 24. | 24070 megtekintés | 529 személy érezte ezt hasznosnak
+2026. április 24. | 24071 megtekintés | 529 személy érezte ezt hasznosnak
 ![](https://help.webex.com/images/vector.svg)
 Előfizetés
 Hasznos volt ez a cikk?
@@ -139,8 +139,8 @@ Nemrég megtekintve
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Приховання списку учасників у навчальних заняттях Webex](https://help.webex.com/hu-hu/article/WBX41580)
   * [如何建立 Cisco ID（CCO ID）？](https://help.webex.com/hu-hu/article/WBX000027729)
-  * [Configure Cisco Call for Microsoft Teams](https://help.webex.com/hu-hu/article/n0l9q2z)
-  * [Fabriksåterställning och säker datarensning för Cisco enheter](https://help.webex.com/hu-hu/article/npebq9bb)
+  * [אפליקציית Webex | מדריך לשילוב Microsoft OneDrive ו-SharePoint Online](https://help.webex.com/hu-hu/article/njip7kp)
+  * [Yeniden Board, Masa ve Oda Serisi cihazlarını yayın moduna al](https://help.webex.com/hu-hu/article/nlx2tvs)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

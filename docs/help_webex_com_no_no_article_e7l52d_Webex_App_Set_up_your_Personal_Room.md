@@ -89,7 +89,7 @@ Var denne artikkelen nyttig?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Takk for tilbakemeldingen.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, takk!![](https://help.webex.com/images/thumbs-down.svg)Egentlig ikke
-13. mars 2026 | 1062 visning(er) | 0 personer mente dette var nyttig
+13. mars 2026 | 1063 visning(er) | 0 personer mente dette var nyttig
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonner
 # Webex-appen | Konfigurer ditt personlige rom
@@ -123,7 +123,7 @@ Nylig sett
   * [Angi et foretrukket Webex-nettsted for brukere i Control Hub](https://help.webex.com/no-no/article/e2728h)
   * [Aplicativo Webex | Chame a atenção de alguém com @Mentions](https://help.webex.com/no-no/article/p5k20o)
   * [如何联系 Cisco Webex 销售人员？](https://help.webex.com/no-no/article/WBX000022806)
-  * [Webex Contact Center에 대한 음성 채널 설정](https://help.webex.com/no-no/article/2dputx)
+  * [Kako da rukujem namenskim portovima (dok me ne podrži portal CCA-SP)?](https://help.webex.com/no-no/article/WBX000026962)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

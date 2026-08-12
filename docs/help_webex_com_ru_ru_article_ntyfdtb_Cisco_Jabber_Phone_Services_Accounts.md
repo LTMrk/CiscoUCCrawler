@@ -2,6 +2,9 @@
 * ![пиктограмма поиска](https://help.webex.com/images/search-icon.svg)Поиск...Ctrl K
 * ![пиктограмма поиска](https://help.webex.com/images/search-icon.svg)
 * ![Интеллектуальный помощник Cisco для Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Начало работы](https://help.webex.com/ru-ru/getting-started)
   * [Справка по продукту](https://help.webex.com/ru-ru/products)
   * [Администрирование](https://help.webex.com/ru-ru/administration)
@@ -83,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Благодарим вас за обратную связь.
 ![](https://help.webex.com/images/thumbs-up.svg)Да, спасибо!![](https://help.webex.com/images/thumbs-down.svg)Не совсем
-16 апреля 2026 г. | 28046 – просмотры | 69 – пользователи, которые сочли этот материал полезным
+16 апреля 2026 г. | 28053 – просмотры | 69 – пользователи, которые сочли этот материал полезным
 ![](https://help.webex.com/images/print-icon-new.svg)
 Подписаться
 # Cisco Jabber статьи о пользователях и администраторах
@@ -99,10 +102,10 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
 Недавно просмотренное
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Integrera kalendrar med möteslistan i Webex Meetings appen](https://help.webex.com/ru-ru/article/nkyt47k)
-  * [Hoe gebruik ik Fiddler om webverkeer vast te leggen?](https://help.webex.com/ru-ru/article/WBX56995)
-  * [Csatlakozzon Microsoft Teams-értekezletekhez Board, Desk és Room sorozatú eszközökön](https://help.webex.com/ru-ru/article/n3r2ihu)
-  * [Etiquetas y atributos HTML seguros de Webex](https://help.webex.com/ru-ru/article/836tdx)
+  * [Hoe gebruik ik de HTTP Debugger om webverkeer vast te leggen?](https://help.webex.com/ru-ru/article/WBX9000026011)
+  * [SSO-fout: ' eenmalige aanmelding is mislukt. Ongeldige status code in antwoord '](https://help.webex.com/ru-ru/article/WBX9000009033)
+  * [Cisco Çağrı Planı numara taşıma yönergeleri ve politikaları](https://help.webex.com/ru-ru/article/01sijg)
+  * [Fout: 'De gebruikersverificatie is mislukt. Reden: Geen gebruikersaccount in het systeem gevonden (3)'](https://help.webex.com/ru-ru/article/WBX66750)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

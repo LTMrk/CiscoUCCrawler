@@ -86,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-09 липня 2026 р. | 1395 переглядів | 0 — користувачі, які вважають цей матеріал корисним
+09 липня 2026 р. | 1396 переглядів | 0 — користувачі, які вважають цей матеріал корисним
 ![](https://help.webex.com/images/vector.svg)
 Оформити передплату
 Чи була ця стаття корисною?

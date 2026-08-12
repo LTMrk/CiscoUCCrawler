@@ -89,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # شكرًا على ملاحظاتك.
 ![](https://help.webex.com/images/thumbs-up.svg)نعم، شكرًا لك!![](https://help.webex.com/images/thumbs-down.svg)ليس فعليًا
-24 أبريل 2026 | 1450 طريقة (طرق) العرض | 0 اعتقد أشخاص أن هذا كان مفيدًا
+24 أبريل 2026 | 1451 طريقة (طرق) العرض | 0 اعتقد أشخاص أن هذا كان مفيدًا
 ![](https://help.webex.com/images/print-icon-new.svg)
 اشتراك
 # تحديث تطبيق Cisco Webex Meetings لسطح المكتب
@@ -117,10 +117,10 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
 عُرض مؤخرًا
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [瀏覽器在嘗試加入會議時返回 HTTP 500 內部伺服器錯誤](https://help.webex.com/ar-ae/article/WBX25586)
-  * [傳送歡迎電子郵件功能在 Cisco Webex Meetings 網站管理中為灰色](https://help.webex.com/ar-ae/article/WBX19638)
-  * [無法存取 Webex 網站](https://help.webex.com/ar-ae/article/WBX1831)
-  * [كيف يمكنني طلب شهادة Webex ISO27001؟](https://help.webex.com/ar-ae/article/WBX82980)
+  * [安排 Webex 會議時，「在主持人之前加入」選項呈現灰色顯示](https://help.webex.com/ar-ae/article/WBX40644)
+  * [如何將鎖定的主持人帳戶解除鎖定？](https://help.webex.com/ar-ae/article/WBX38988)
+  * [Bejelentkezési problémák a Webex alkalmazással](https://help.webex.com/ar-ae/article/n5q6x5j)
+  * [解決 Webex 中遺漏「我的報告」按鈕的問題](https://help.webex.com/ar-ae/article/WBX34308)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

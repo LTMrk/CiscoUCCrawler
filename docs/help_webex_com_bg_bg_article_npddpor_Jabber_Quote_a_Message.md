@@ -77,7 +77,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Благодарим за обратната връзка.
 ![](https://help.webex.com/images/thumbs-up.svg)Благодарим!![](https://help.webex.com/images/thumbs-down.svg)Не
-06 декември 2024 г. | 2494 преглеждане(ия) | 0 души считат, че това е полезно
+06 декември 2024 г. | 2495 преглеждане(ия) | 0 души считат, че това е полезно
 ![](https://help.webex.com/images/print-icon-new.svg)
 Абониране
 # Съобщения на екипа на Cisco Jabber
@@ -92,9 +92,9 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 Наскоро преглеждани
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Cisco Jabber Kullanıcı ve Yönetim Makaleleri](https://help.webex.com/bg-bg/article/1pwgym)
-  * [Where can I find more information about the Cisco Headset 700 Series?](https://help.webex.com/bg-bg/article/g6ekes)
-  * [Proxystöd för hybrid datasäkerhet och videonät](https://help.webex.com/bg-bg/article/maj0a6)
-  * [在 Cisco Webex 站点管理中启用本地录制](https://help.webex.com/bg-bg/article/5eg60b)
+  * [Administrasjon av Cisco Room USB](https://help.webex.com/bg-bg/article/okk7ms)
+  * [在安排培训课程时添加测验](https://help.webex.com/bg-bg/article/6hkiil)
+  * [Soluționați problemele privind apelurile Webex Calling în Control Hub](https://help.webex.com/bg-bg/article/frj1efb)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

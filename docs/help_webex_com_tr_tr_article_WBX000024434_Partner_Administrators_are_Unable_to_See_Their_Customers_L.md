@@ -86,7 +86,7 @@ Bu makale yararlı oldu mu?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Geri bildiriminiz için teşekkürler.
 ![](https://help.webex.com/images/thumbs-up.svg)Evet, teşekkürler!![](https://help.webex.com/images/thumbs-down.svg)Pek değil
-10 Nisan 2026 | 358 görüntüleme(ler) | 0 kişi bunun yararlı olduğunu düşündü
+10 Nisan 2026 | 359 görüntüleme(ler) | 0 kişi bunun yararlı olduğunu düşündü
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abone Olun
 İş Ortağı Yöneticileri Oturumda Müşterilerinin Listelenenlerini Cisco Webex Control Hub
@@ -114,9 +114,9 @@ Bu makale yararlı oldu mu?
 En Son Görüntülenenler
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Az emberekre való fókuszálás a Board, Desk és Room sorozaton](https://help.webex.com/tr-tr/article/n997hz9)
-  * [Webex 앱 | 통화 또는 미팅 중에 장치 오디오 및 비디오 제어](https://help.webex.com/tr-tr/article/n50c4uf)
-  * [Twórz szablony spotkań Webex dla swojej wirtualnej klasy](https://help.webex.com/tr-tr/article/slc96m)
-  * [Webex Meetings のリリースノート](https://help.webex.com/tr-tr/article/xcwws1)
+  * [DECT ハンドセットで Bluetooth ヘッドセットを使用する](https://help.webex.com/tr-tr/article/netttpw)
+  * [ Установите многоплатформовые телефоны Cisco IP Phone серий 7800 и 8800 на стене](https://help.webex.com/tr-tr/article/n3vaq4i)
+  * [Видеоконференции Webex Meetings, авторизованные в соответствии со стандартом FedRAMP.](https://help.webex.com/tr-tr/article/nuvrie0)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

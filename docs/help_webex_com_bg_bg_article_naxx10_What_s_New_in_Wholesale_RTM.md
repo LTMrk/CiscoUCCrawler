@@ -86,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Благодарим за обратната връзка.
 ![](https://help.webex.com/images/thumbs-up.svg)Благодарим!![](https://help.webex.com/images/thumbs-down.svg)Не
-11 август 2026 г. | 974 преглеждане(ия) | 0 души считат, че това е полезно
+11 август 2026 г. | 976 преглеждане(ия) | 0 души считат, че това е полезно
 ![](https://help.webex.com/images/print-icon-new.svg)
 Абониране
 Какво е новото в RTM на едро

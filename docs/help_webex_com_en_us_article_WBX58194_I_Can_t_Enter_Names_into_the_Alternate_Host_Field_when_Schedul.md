@@ -80,7 +80,7 @@ Was this article helpful?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Thanks for your feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Yes, thank you!![](https://help.webex.com/images/thumbs-down.svg)Not really
-May 27, 2026 | 7977 view(s) | 24 people thought this was helpful
+May 27, 2026 | 7978 view(s) | 24 people thought this was helpful
 ![](https://help.webex.com/images/print-icon-new.svg)
 Subscribe
 I Can't Enter Names into the Alternate Host Field when Scheduling a Meeting using Webex Desktop App
@@ -115,7 +115,7 @@ Recently Viewed
   * [Достъп до вашия профил за повиквания отвсякъде](https://help.webex.com/en-us/article/0ku8qo)
   * [基于网络的 Webex Meetings、Webex Training 或 Webex Events 录制文件的播放控制选项](https://help.webex.com/en-us/article/zey2h4)
   * [Novedades de UCM Cloud](https://help.webex.com/en-us/article/6f5s54)
-  * [Det gick inte att visa chattkonversationen som skedde innan jag deltog i Webex Meetings](https://help.webex.com/en-us/article/WBX9000035356)
+  * [Brug Webex Go på din mobiltelefon](https://help.webex.com/en-us/article/ng0os0ab)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

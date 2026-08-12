@@ -86,7 +86,7 @@ A fost util acest articol?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Mulțumim pentru feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, mulțumim!![](https://help.webex.com/images/thumbs-down.svg)Nu chiar
-16 aprilie 2026 | 13697 vizualizare(ări) | 7 persoane au considerat că este util
+16 aprilie 2026 | 13708 vizualizare(ări) | 7 persoane au considerat că este util
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonare
 # Cisco Jabber Articole utilizator și administrare
@@ -105,7 +105,7 @@ Vizualizate recent
   * [Brojevi poziva se ne pojavljuju po abecednom redosledu na globalnoj listi brojeva poziva za CCA-SP kupce](https://help.webex.com/ro-ro/article/WBX000026408)
   * [Cloudově připojená PSTN pro dedikovanou instanci](https://help.webex.com/ro-ro/article/nw3ygtq)
   * [유선 전화에서 기본 전화 걸기](https://help.webex.com/ro-ro/article/nfih595)
-  * [Cisco IP Phone Pornire rapidă pentru apelarea în aplicația Webex (Unified CM)](https://help.webex.com/ro-ro/article/nv3h903)
+  * [Depanarea și întreținerea căștilor Cisco seria 560](https://help.webex.com/ro-ro/article/n0z4ueb)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

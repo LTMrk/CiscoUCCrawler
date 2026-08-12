@@ -2,6 +2,9 @@ Ir para o conteúdo[![webex-logo](https://help.webex.com/logo/webexlogo.png)Cent
 * ![ícone de pesquisa](https://help.webex.com/images/search-icon.svg)Procurar...Ctrl K
 * ![ícone de pesquisa](https://help.webex.com/images/search-icon.svg)
 * ![Assistente de IA da Cisco para Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Introdução](https://help.webex.com/pt-br/getting-started)
   * [Ajuda por produto](https://help.webex.com/pt-br/products)
   * [Administração](https://help.webex.com/pt-br/administration)
@@ -83,7 +86,7 @@ Este artigo foi útil?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Obrigado pelos seus comentários.
 ![](https://help.webex.com/images/thumbs-up.svg)Sim, obrigado!![](https://help.webex.com/images/thumbs-down.svg)Na verdade não
-09 de dezembro de 2024 | 3480 visualização(ões) | 22 pessoas acharam que isso foi útil
+09 de dezembro de 2024 | 3481 visualização(ões) | 22 pessoas acharam que isso foi útil
 ![](https://help.webex.com/images/print-icon-new.svg)
 Inscrever-se
 # Introdução ao Webex Events (clássico)

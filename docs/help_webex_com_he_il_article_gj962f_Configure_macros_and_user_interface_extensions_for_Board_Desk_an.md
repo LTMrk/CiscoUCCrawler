@@ -2,6 +2,9 @@
 * ![סמל חיפוש](https://help.webex.com/images/search-icon.svg)חיפוש...Ctrl K
 * ![סמל חיפוש](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant עבור Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [תחילת העבודה](https://help.webex.com/he-il/getting-started)
   * [עזרה לפי מוצר](https://help.webex.com/he-il/products)
   * [ניהול](https://help.webex.com/he-il/administration)
@@ -88,7 +91,7 @@ Device models
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-28 במאי 2026 | 1406 תצוגות | 0 אנשים חשבו שזה היה מועיל
+28 במאי 2026 | 1407 תצוגות | 0 אנשים חשבו שזה היה מועיל
 ![](https://help.webex.com/images/vector.svg)
 הירשם כמנוי
 האם המאמר הועיל לך?

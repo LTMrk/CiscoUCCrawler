@@ -2,6 +2,9 @@
 * ![검색 아이콘](https://help.webex.com/images/search-icon.svg)검색...Ctrl K
 * ![검색 아이콘](https://help.webex.com/images/search-icon.svg)
 * ![Webex용 Cisco AI Assistant](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [시작하기](https://help.webex.com/ko-kr/getting-started)
   * [제품별 도움말](https://help.webex.com/ko-kr/products)
   * [관리](https://help.webex.com/ko-kr/administration)
@@ -86,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 피드백을 보내 주셔서 감사합니다.
 ![](https://help.webex.com/images/thumbs-up.svg)예, 감사합니다!![](https://help.webex.com/images/thumbs-down.svg)별로
-2026년 4월 24일 | 1216 명이 봄 | 1 명이 이 정보가 유용하다고 평가했습니다.
+2026년 4월 24일 | 1217 명이 봄 | 1 명이 이 정보가 유용하다고 평가했습니다.
 ![](https://help.webex.com/images/print-icon-new.svg)
 구독
 # Webex 앱 | People Insights 프로필 보기
@@ -119,9 +122,9 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 최근에 확인함
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Statusi omogućavanja i pretplate u okruženju Control Hub](https://help.webex.com/ko-kr/article/nctesy)
-  * [Cisco Jabber Kullanıcı ve Yönetim Makaleleri](https://help.webex.com/ko-kr/article/1pwgym)
-  * [启用或禁用 Webex 标签页](https://help.webex.com/ko-kr/article/n9yjwceb)
-  * [Alterar o endereço de e-mail para a sua conta](https://help.webex.com/ko-kr/article/nme40aeb)
+  * [Aktivér politikken for automatisk sletning for Webex-optagelser](https://help.webex.com/ko-kr/article/nue0dlp)
+  * [Configurer la compression des données](https://help.webex.com/ko-kr/article/cyg1ibb)
+  * [Почніть особисту кімнату За Допомогою Google .Новий домен](https://help.webex.com/ko-kr/article/nj2i902)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

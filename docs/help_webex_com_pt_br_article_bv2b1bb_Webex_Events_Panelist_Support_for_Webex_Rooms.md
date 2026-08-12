@@ -88,7 +88,7 @@ Modelos de dispositivos
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-18 de junho de 2026 | 1390 visualização(ões) | 0 pessoas acharam que isso foi útil
+18 de junho de 2026 | 1391 visualização(ões) | 0 pessoas acharam que isso foi útil
 ![](https://help.webex.com/images/vector.svg)
 Inscrever-se
 Este artigo foi útil?
@@ -155,7 +155,7 @@ Visualizados recentemente
   * [Использование настройки "Классная комната" на устройствах серии Room](https://help.webex.com/pt-br/article/59f85m)
   * [Aplicativo Webex Evite | a sobrecarga de informações](https://help.webex.com/pt-br/article/s5idef)
   * [Poboljšana linija spasavanja za sprečavanje samoubistva 988 za Webex Calling](https://help.webex.com/pt-br/article/8hp9k1)
-  * ["Cisco Webex Meeting Center" desidera registrare lo schermo di questo computer](https://help.webex.com/pt-br/article/WBX9000029629)
+  * [Функція «Одне натискання кнопки» (OBTP) з Microsoft Exchange](https://help.webex.com/pt-br/article/y5stdw)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

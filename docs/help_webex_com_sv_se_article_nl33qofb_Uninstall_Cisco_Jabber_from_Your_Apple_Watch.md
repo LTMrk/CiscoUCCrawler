@@ -2,6 +2,9 @@ Gå vidare till innehåll[![webex-logo](https://help.webex.com/logo/webexlogo.pn
 * ![sökikon](https://help.webex.com/images/search-icon.svg)Sök...Ctrl K
 * ![sökikon](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant för Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Kom igång](https://help.webex.com/sv-se/getting-started)
   * [Hjälp efter produkt](https://help.webex.com/sv-se/products)
   * [Administration](https://help.webex.com/sv-se/administration)
@@ -83,7 +86,7 @@ Var den här artikeln användbar?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Tack för din feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja tack!![](https://help.webex.com/images/thumbs-down.svg)Inte riktigt
-16 april 2026 | 14050 visning(ar) | 59 personer tyckte att detta var till hjälp
+16 april 2026 | 14054 visning(ar) | 59 personer tyckte att detta var till hjälp
 ![](https://help.webex.com/images/print-icon-new.svg)
 Prenumerera
 # Cisco Jabber Användar- och administrationsartiklar
@@ -100,9 +103,9 @@ Var den här artikeln användbar?
 Senaste visade
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Bluetooth Pairing Failed on a DX70 or DX80 in the Cisco Webex Room OS](https://help.webex.com/sv-se/article/WBX000025869)
-  * [Integrera kalendrar med möteslistan i Webex Meetings appen](https://help.webex.com/sv-se/article/nkyt47k)
-  * [Hoe gebruik ik Fiddler om webverkeer vast te leggen?](https://help.webex.com/sv-se/article/WBX56995)
-  * [Csatlakozzon Microsoft Teams-értekezletekhez Board, Desk és Room sorozatú eszközökön](https://help.webex.com/sv-se/article/n3r2ihu)
+  * [Hoe gebruik ik de HTTP Debugger om webverkeer vast te leggen?](https://help.webex.com/sv-se/article/WBX9000026011)
+  * [SSO-fout: ' eenmalige aanmelding is mislukt. Ongeldige status code in antwoord '](https://help.webex.com/sv-se/article/WBX9000009033)
+  * [Cisco Çağrı Planı numara taşıma yönergeleri ve politikaları](https://help.webex.com/sv-se/article/01sijg)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

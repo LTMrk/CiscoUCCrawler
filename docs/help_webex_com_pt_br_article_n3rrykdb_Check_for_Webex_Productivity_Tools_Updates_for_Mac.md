@@ -89,7 +89,7 @@ Este artigo foi útil?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Obrigado pelos seus comentários.
 ![](https://help.webex.com/images/thumbs-up.svg)Sim, obrigado!![](https://help.webex.com/images/thumbs-down.svg)Na verdade não
-11 de agosto de 2026 | 732 visualização(ões) | 2 pessoas acharam que isso foi útil
+11 de agosto de 2026 | 734 visualização(ões) | 2 pessoas acharam que isso foi útil
 ![](https://help.webex.com/images/print-icon-new.svg)
 Inscrever-se
 Migrar do Ferramentas de Produtividade para o add-In do Agendador Webex
@@ -123,7 +123,7 @@ Visualizados recentemente
   * [Aplikacja Webex | Usuń wiadomości i pliki](https://help.webex.com/pt-br/article/rt2wbp)
   * [Fejl: "Kørselsfejl for Microsoft Visual C++ Runtime Library", når du deltager i et møde](https://help.webex.com/pt-br/article/WBX60571)
   * [Konfiguruj kolejkę połączeń](https://help.webex.com/pt-br/article/nzkg083)
-  * [Aflați mai multe despre asocierea site-urilor dvs. Webex cu Control Hub](https://help.webex.com/pt-br/article/n98lqvl)
+  * [Ghid de implementare Enterprise Webex Meetings pentru întâlniri cu dispozitive video activate](https://help.webex.com/pt-br/article/nmdp0hq)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

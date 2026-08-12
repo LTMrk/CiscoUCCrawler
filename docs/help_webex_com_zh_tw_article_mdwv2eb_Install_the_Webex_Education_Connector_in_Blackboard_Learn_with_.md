@@ -2,6 +2,9 @@
 * ![搜尋標示](https://help.webex.com/images/search-icon.svg)搜尋...Ctrl K
 * ![搜尋標示](https://help.webex.com/images/search-icon.svg)
 * ![適用於 Webex 的 Cisco AI Assistant](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [入門](https://help.webex.com/zh-tw/getting-started)
   * [依產品提供的說明](https://help.webex.com/zh-tw/products)
   * [管理](https://help.webex.com/zh-tw/administration)

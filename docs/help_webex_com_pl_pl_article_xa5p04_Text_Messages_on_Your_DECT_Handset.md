@@ -99,7 +99,7 @@ Modele urządzeń
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-06 grudnia 2024 | 565 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
+06 grudnia 2024 | 566 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/vector.svg)
 Subskrybuj
 Czy ten artykuł był pomocny?

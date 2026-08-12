@@ -88,7 +88,7 @@ Modele urządzeń
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-11 grudnia 2024 | 606 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
+11 grudnia 2024 | 607 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/vector.svg)
 Subskrybuj
 Czy ten artykuł był pomocny?

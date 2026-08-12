@@ -2,6 +2,9 @@ Gå vidare till innehåll[![webex-logo](https://help.webex.com/logo/webexlogo.pn
 * ![sökikon](https://help.webex.com/images/search-icon.svg)Sök...Ctrl K
 * ![sökikon](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant för Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Kom igång](https://help.webex.com/sv-se/getting-started)
   * [Hjälp efter produkt](https://help.webex.com/sv-se/products)
   * [Administration](https://help.webex.com/sv-se/administration)

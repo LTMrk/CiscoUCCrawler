@@ -89,7 +89,7 @@ Var denne artikkelen nyttig?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Takk for tilbakemeldingen.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, takk!![](https://help.webex.com/images/thumbs-down.svg)Egentlig ikke
-20. mars 2026 | 801 visning(er) | 0 personer mente dette var nyttig
+20. mars 2026 | 802 visning(er) | 0 personer mente dette var nyttig
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonner
 # Webex-appen | Vis når du er borte fra kontoret

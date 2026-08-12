@@ -2,6 +2,9 @@
 * ![arama simgesi](https://help.webex.com/images/search-icon.svg)Ara...Ctrl K
 * ![arama simgesi](https://help.webex.com/images/search-icon.svg)
 * ![Webex için Cisco AI Assistant](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Başlama](https://help.webex.com/tr-tr/getting-started)
   * [Ürüne göre yardım](https://help.webex.com/tr-tr/products)
   * [Yönetim](https://help.webex.com/tr-tr/administration)
@@ -83,7 +86,7 @@ Bu makale yararlı oldu mu?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Geri bildiriminiz için teşekkürler.
 ![](https://help.webex.com/images/thumbs-up.svg)Evet, teşekkürler!![](https://help.webex.com/images/thumbs-down.svg)Pek değil
-06 Aralık 2024 | 340 görüntüleme(ler) | 0 kişi bunun yararlı olduğunu düşündü
+06 Aralık 2024 | 341 görüntüleme(ler) | 0 kişi bunun yararlı olduğunu düşündü
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abone Olun
 Çağrıyı doğrudan aktarma (Doğrudan Aktarma)

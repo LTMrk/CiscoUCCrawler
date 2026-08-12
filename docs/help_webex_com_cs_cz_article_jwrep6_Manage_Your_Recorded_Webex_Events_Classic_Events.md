@@ -2,6 +2,9 @@ Přejít na obsah[![webex-logo](https://help.webex.com/logo/webexlogo.png)Centru
 * ![ikona hledání](https://help.webex.com/images/search-icon.svg)Hledat...Ctrl K
 * ![ikona hledání](https://help.webex.com/images/search-icon.svg)
 * ![Cisco asistent s umělou inteligencí pro Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Začínáme](https://help.webex.com/cs-cz/getting-started)
   * [Nápověda podle produktu](https://help.webex.com/cs-cz/products)
   * [Správa](https://help.webex.com/cs-cz/administration)
@@ -89,7 +92,7 @@ Operační systémy
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-29. listopadu 2024 | 585 zobrazení | 0 osob/y, podle nichž byl obsah užitečný
+29. listopadu 2024 | 586 zobrazení | 0 osob/y, podle nichž byl obsah užitečný
 ![](https://help.webex.com/images/vector.svg)
 Přihlásit se k odběru
 Byl tento článek užitečný?

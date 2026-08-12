@@ -2,6 +2,9 @@ Preskoči do sadržaja[![webex-logo](https://help.webex.com/logo/webexlogo.png)C
 * ![ikona pretrage](https://help.webex.com/images/search-icon.svg)Pretraga...Ctrl K
 * ![ikona pretrage](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant za Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Prvi koraci](https://help.webex.com/sr-rs/getting-started)
   * [Pomoć po proizvodima](https://help.webex.com/sr-rs/products)
   * [Administracija](https://help.webex.com/sr-rs/administration)
@@ -83,7 +86,7 @@ Da li je ovaj članak bio koristan?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Hvala na povratnim informacijama.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, hvala vam!![](https://help.webex.com/images/thumbs-down.svg)Ne baš
-16. април 2026. | 13420 prikaz/prikaza | 2 osobe/osoba misle da je ovo korisno
+16. април 2026. | 13422 prikaz/prikaza | 2 osobe/osoba misle da je ovo korisno
 ![](https://help.webex.com/images/print-icon-new.svg)
 Pretplati se
 # Cisco Jabber Članci o korisnicima i administraciji
@@ -101,8 +104,8 @@ Nedavno pregledano
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Android용 앱 오류의 목록은 어디에서 Webex Meetings 있습니까?](https://help.webex.com/sr-rs/article/WBX9000016908)
   * [Starta ett möte i Webex Meetings och mobilappen](https://help.webex.com/sr-rs/article/niif9tab)
-  * [使用 Webex Meetings 行動應用程式在活動和訓練課程中提出意見反應](https://help.webex.com/sr-rs/article/mp2jz)
-  * [Filtrirajte i sortirajte pitanja u Slido](https://help.webex.com/sr-rs/article/1yh9vx)
+  * [Detectare alarmă pe dispozitivele din seriile Board, Desk și Room](https://help.webex.com/sr-rs/article/n76l9zbb)
+  * [Izbrišite sadržaj sastanka i vebinara koji je kreirao Webex Assistant za sastanke](https://help.webex.com/sr-rs/article/3cotpr)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

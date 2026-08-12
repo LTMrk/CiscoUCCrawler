@@ -2,6 +2,9 @@ Vaya a contenido[![webex-logo](https://help.webex.com/logo/webexlogo.png)Centro 
 * ![icono de búsqueda](https://help.webex.com/images/search-icon.svg)Buscar...Ctrl K
 * ![icono de búsqueda](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant para Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Comenzar](https://help.webex.com/es-co/getting-started)
   * [Ayuda por producto](https://help.webex.com/es-co/products)
   * [Administración](https://help.webex.com/es-co/administration)
@@ -86,7 +89,7 @@ Sistemas operativos
 ![close](https://help.webex.com/images/icn-close.svg)
 # Gracias por sus comentarios.
 ![](https://help.webex.com/images/thumbs-up.svg)Sí, gracias![](https://help.webex.com/images/thumbs-down.svg)En realidad no
-09 de enero de 2026 | 1117 vista(s) | 0 personas pensaron que esto fue útil
+09 de enero de 2026 | 1118 vista(s) | 0 personas pensaron que esto fue útil
 ![](https://help.webex.com/images/print-icon-new.svg)
 Suscribirse
 # Etiquetas y atributos HTML seguros de Webex

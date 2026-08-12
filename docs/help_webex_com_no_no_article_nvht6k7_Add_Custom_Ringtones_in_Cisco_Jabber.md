@@ -2,6 +2,9 @@ Gå til innhold[![webex-logo](https://help.webex.com/logo/webexlogo.png)Hjelpese
 * ![søkeikon](https://help.webex.com/images/search-icon.svg)Søk...Ctrl K
 * ![søkeikon](https://help.webex.com/images/search-icon.svg)
 * ![Cisco assistent for kunstig intelligens for Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Kom i gang](https://help.webex.com/no-no/getting-started)
   * [Hjelp etter produkt](https://help.webex.com/no-no/products)
   * [Administrasjon](https://help.webex.com/no-no/administration)
@@ -83,7 +86,7 @@ Var denne artikkelen nyttig?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Takk for tilbakemeldingen.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, takk!![](https://help.webex.com/images/thumbs-down.svg)Egentlig ikke
-16. april 2026 | 14739 visning(er) | 0 personer mente dette var nyttig
+16. april 2026 | 14741 visning(er) | 0 personer mente dette var nyttig
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonner
 # Cisco Jabber Bruker- og administrasjonsartikler
@@ -100,9 +103,9 @@ Var denne artikkelen nyttig?
 Nylig sett
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Bluetooth Pairing Failed on a DX70 or DX80 in the Cisco Webex Room OS](https://help.webex.com/no-no/article/WBX000025869)
-  * [Integrera kalendrar med möteslistan i Webex Meetings appen](https://help.webex.com/no-no/article/nkyt47k)
-  * [Hoe gebruik ik Fiddler om webverkeer vast te leggen?](https://help.webex.com/no-no/article/WBX56995)
-  * [Csatlakozzon Microsoft Teams-értekezletekhez Board, Desk és Room sorozatú eszközökön](https://help.webex.com/no-no/article/n3r2ihu)
+  * [Hoe gebruik ik de HTTP Debugger om webverkeer vast te leggen?](https://help.webex.com/no-no/article/WBX9000026011)
+  * [SSO-fout: ' eenmalige aanmelding is mislukt. Ongeldige status code in antwoord '](https://help.webex.com/no-no/article/WBX9000009033)
+  * [Cisco Çağrı Planı numara taşıma yönergeleri ve politikaları](https://help.webex.com/no-no/article/01sijg)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

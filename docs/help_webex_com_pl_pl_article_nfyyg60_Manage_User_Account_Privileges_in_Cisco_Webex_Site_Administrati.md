@@ -83,7 +83,7 @@ Role
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-12 grudnia 2025 | 1209 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
+12 grudnia 2025 | 1210 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/vector.svg)
 Subskrybuj
 Czy ten artykuł był pomocny?
@@ -170,8 +170,8 @@ Ostatnio przeglądane
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Kontroluj przesyłanie awatarów do pokojów osobistych w witrynie Webex](https://help.webex.com/pl-pl/article/nfv6t5f)
   * [Zezwalaj użytkownikom na organizowanie spotkań z urządzenia wideo bez kodu PIN w Cisco Webex Site Administration](https://help.webex.com/pl-pl/article/nfgr7ux)
-  * [Webex-appen | Test forbindelsen din med helsesjekkeren](https://help.webex.com/pl-pl/article/n2g8glg)
-  * [Webex-appen | Tilbakestill det glemte passordet](https://help.webex.com/pl-pl/article/n02v0b8)
+  * [Webex-appen | Finn ut hvilken ringetjeneste du har](https://help.webex.com/pl-pl/article/nbtgrzx)
+  * [Upućivanje osnovnih poziva (ATA 191 i 192)](https://help.webex.com/pl-pl/article/ffsb4u)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

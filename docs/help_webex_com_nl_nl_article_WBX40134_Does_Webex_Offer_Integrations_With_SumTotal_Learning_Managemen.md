@@ -2,6 +2,9 @@ Doorgaan naar inhoud[![webex-logo](https://help.webex.com/logo/webexlogo.png)Hel
 * ![pictogram Zoeken](https://help.webex.com/images/search-icon.svg)Zoeken...Ctrl K
 * ![pictogram Zoeken](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI-assistent voor Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Aan de slag](https://help.webex.com/nl-nl/getting-started)
   * [Hulp bij product](https://help.webex.com/nl-nl/products)
   * [Beheer](https://help.webex.com/nl-nl/administration)
@@ -80,7 +83,7 @@ Vond u dit artikel nuttig?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Hartelijk dank voor uw feedback
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, bedankt!![](https://help.webex.com/images/thumbs-down.svg)Niet echt
-06 december 2024 | 228 weergave(n) | 0 personen vonden dit nuttig
+06 december 2024 | 229 weergave(n) | 0 personen vonden dit nuttig
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonneren
 Biedt Webex integraties met het Learning Management System (LMS) van SumTotal?

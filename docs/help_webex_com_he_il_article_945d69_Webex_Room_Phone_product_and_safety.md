@@ -113,7 +113,7 @@ Device models
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-28 בינואר 2026 | 612 תצוגות | 0 אנשים חשבו שזה היה מועיל
+28 בינואר 2026 | 613 תצוגות | 0 אנשים חשבו שזה היה מועיל
 ![](https://help.webex.com/images/vector.svg)
 הירשם כמנוי
 האם המאמר הועיל לך?
@@ -287,7 +287,7 @@ Devraient également être informés des utilisateurs que les radars à haute pu
   * [¿Cómo genero un registro de la aplicación de escritorio de Webex para Mac?](https://help.webex.com/he-il/article/WBX83730)
   * [المشاكل والقيود المعروفة لدعم Webex](https://help.webex.com/he-il/article/n27440cb)
   * [تحديث تطبيق Cisco Webex Meetings لسطح المكتب](https://help.webex.com/he-il/article/n1kwkd6)
-  * [瀏覽器在嘗試加入會議時返回 HTTP 500 內部伺服器錯誤](https://help.webex.com/he-il/article/WBX25586)
+  * [安排 Webex 會議時，「在主持人之前加入」選項呈現灰色顯示](https://help.webex.com/he-il/article/WBX40644)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

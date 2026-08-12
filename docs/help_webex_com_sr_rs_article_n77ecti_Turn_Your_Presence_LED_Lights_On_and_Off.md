@@ -89,7 +89,7 @@ Da li je ovaj članak bio koristan?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Hvala na povratnim informacijama.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, hvala vam!![](https://help.webex.com/images/thumbs-down.svg)Ne baš
-05. децембар 2024. | 362 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
+05. децембар 2024. | 363 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
 ![](https://help.webex.com/images/print-icon-new.svg)
 Pretplati se
 # Uključite i isključite LED lampicu za prisustvo

@@ -89,7 +89,7 @@ War dieser Artikel hilfreich für Sie?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Danke für Ihr Feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, vielen Dank!![](https://help.webex.com/images/thumbs-down.svg)Eigentlich nicht
-20. März 2026 | 851 Ansicht(en) | 1 Personen fanden das hilfreich
+20. März 2026 | 852 Ansicht(en) | 1 Personen fanden das hilfreich
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonnieren
 # Webex-App | Starten Sie Ihren Arbeitstag
@@ -127,7 +127,7 @@ Kürzlich angezeigt
   * [Navigacija pomoću DECT slušalica, softverski tasteri i ekran](https://help.webex.com/de-de/article/n5iyqfs)
   * [Webex-App | Entfernen einer Person aus einem Team](https://help.webex.com/de-de/article/nswq2ry)
   * [Webex-App | Meeting- und Sicherheitsinformationen in einem Meeting finden](https://help.webex.com/de-de/article/ns55tip)
-  * [Konfigurera och hantera Webex Calling-enheter](https://help.webex.com/de-de/article/n9r1aac)
+  * [Aplikacja Webex | Przyciągnij uwagę wszystkich w przestrzeni](https://help.webex.com/de-de/article/tfqhfx)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

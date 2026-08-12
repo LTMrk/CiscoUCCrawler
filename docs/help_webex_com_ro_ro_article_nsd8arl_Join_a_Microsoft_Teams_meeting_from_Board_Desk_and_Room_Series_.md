@@ -2,6 +2,9 @@ Salt la conținut[![webex-logo](https://help.webex.com/logo/webexlogo.png)Centru
 * ![pictograma de căutare](https://help.webex.com/images/search-icon.svg)Căutați...Ctrl K
 * ![pictograma de căutare](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant pentru Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Începeți](https://help.webex.com/ro-ro/getting-started)
   * [Ajutor în funcție de produs](https://help.webex.com/ro-ro/products)
   * [Administrare](https://help.webex.com/ro-ro/administration)
@@ -86,7 +89,7 @@ A fost util acest articol?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Mulțumim pentru feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, mulțumim!![](https://help.webex.com/images/thumbs-down.svg)Nu chiar
-18 iunie 2026 | 3487 vizualizare(ări) | 0 persoane au considerat că este util
+18 iunie 2026 | 3489 vizualizare(ări) | 0 persoane au considerat că este util
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonare
 Intrați în întâlniri Microsoft Teams de pe dispozitivele din seriile Board, Desk și Room
@@ -176,8 +179,8 @@ Vizualizate recent
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Visa Webex Meeting information](https://help.webex.com/ro-ro/article/n52k7wo)
   * [Настройте параметры встречи для вашего сайта.](https://help.webex.com/ro-ro/article/z6i2j4)
-  * [Cisco Jabber Gebruikers- en beheerartikelen](https://help.webex.com/ro-ro/article/1pwgym)
-  * [Biedt Webex integraties met het Learning Management System (LMS) van SumTotal?](https://help.webex.com/ro-ro/article/WBX40134)
+  * [Organisez des réunions, des webinaires et des événements Webex pour les personnes qui ont de l’envergure ou sont mal malentendantes](https://help.webex.com/ro-ro/article/9dqbhw)
+  * [Felkészülés a Cisco Webex hibrid szolgáltatások telepítése előtt](https://help.webex.com/ro-ro/article/jja499)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

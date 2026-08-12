@@ -2,6 +2,9 @@ Passa al contenuto[![webex-logo](https://help.webex.com/logo/webexlogo.png)Centr
 * ![icona di ricerca](https://help.webex.com/images/search-icon.svg)Cerca...Ctrl K
 * ![icona di ricerca](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant per Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Per iniziare](https://help.webex.com/it-it/getting-started)
   * [Guida per prodotto](https://help.webex.com/it-it/products)
   * [Amministrazione](https://help.webex.com/it-it/administration)
@@ -83,7 +86,7 @@ Questo articolo è stato utile?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Grazie per il feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Sì, grazie.![](https://help.webex.com/images/thumbs-down.svg)Non proprio
-09 dicembre 2024 | 732 vista/e | 0 persone pensano che sia stato utile
+09 dicembre 2024 | 733 vista/e | 0 persone pensano che sia stato utile
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abbonati
 Non si accede all'app desktop Webex Meetings o agli Strumenti di produttività (PT).
@@ -114,10 +117,10 @@ Questo articolo è stato utile?
 ![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
 Visualizzati di recente
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Mostrar la información del directorio de usuarios en las tarjetas de contacto en la aplicación Webex.](https://help.webex.com/it-it/article/7dthy9)
-  * [사용자가 전화 통화에 끼어들 수 있게 허용](https://help.webex.com/it-it/article/no2mhge)
-  * [Webex 앱 | 그룹에 참여](https://help.webex.com/it-it/article/fr4sm5)
-  * [Synchronizacja katalogów w Webex dla Cisco BroadWorks](https://help.webex.com/it-it/article/nv3xgxg)
+  * [Konfigurirajte i izmijenite postavke uređaja u usluzi Webex Calling](https://help.webex.com/it-it/article/uil72l)
+  * [Postanite partner tvrtke Cisco i počnite prodavati Cisco Webex](https://help.webex.com/it-it/article/nghgxfx)
+  * [Postavljanje sigurnosti za mobilne uređaje](https://help.webex.com/it-it/article/nggu6hc)
+  * [Windows용 Microsoft Outlook에서 Webex 생산성 도구 활성화](https://help.webex.com/it-it/article/nl758tr)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

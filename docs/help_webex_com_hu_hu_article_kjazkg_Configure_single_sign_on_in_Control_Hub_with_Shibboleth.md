@@ -99,7 +99,7 @@ Operációs rendszerek
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-2025. október 31. | 1155 megtekintés | 0 személy érezte ezt hasznosnak
+2025. október 31. | 1156 megtekintés | 0 személy érezte ezt hasznosnak
 ![](https://help.webex.com/images/vector.svg)
 Előfizetés
 Hasznos volt ez a cikk?

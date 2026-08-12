@@ -86,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # תודה על המשוב.
 ![](https://help.webex.com/images/thumbs-up.svg)כן, תודה רבה!![](https://help.webex.com/images/thumbs-down.svg)לא באמת
-07 באוגוסט 2026 | 1409 תצוגות | 0 אנשים חשבו שזה היה מועיל
+07 באוגוסט 2026 | 1410 תצוגות | 0 אנשים חשבו שזה היה מועיל
 ![](https://help.webex.com/images/print-icon-new.svg)
 הירשם כמנוי
 העבר את שיחות הטלפון שלך

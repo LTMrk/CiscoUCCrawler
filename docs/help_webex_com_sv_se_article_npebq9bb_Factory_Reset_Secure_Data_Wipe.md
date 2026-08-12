@@ -89,7 +89,7 @@ Var den här artikeln användbar?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Tack för din feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja tack!![](https://help.webex.com/images/thumbs-down.svg)Inte riktigt
-28 maj 2026 | 626 visning(ar) | 2 personer tyckte att detta var till hjälp
+28 maj 2026 | 629 visning(ar) | 2 personer tyckte att detta var till hjälp
 ![](https://help.webex.com/images/print-icon-new.svg)
 Prenumerera
 Fabriksåterställning och säker datarensning för Cisco enheter

@@ -2,6 +2,9 @@ Preskoči na sadržaj[![webex-logo](https://help.webex.com/logo/webexlogo.png)Ce
 * ![ikona traženja](https://help.webex.com/images/search-icon.svg)Pretraživanje...Ctrl K
 * ![ikona traženja](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant za Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Početak rada](https://help.webex.com/hr-hr/getting-started)
   * [Pomoć prema proizvodu](https://help.webex.com/hr-hr/products)
   * [Administracija](https://help.webex.com/hr-hr/administration)
@@ -86,7 +89,7 @@ Operacijski sustavi
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-24. travnja 2026. | 783 prikaz(i) | 0 osobe(a) su to označile kao korisno
+24. travnja 2026. | 784 prikaz(i) | 0 osobe(a) su to označile kao korisno
 ![](https://help.webex.com/images/vector.svg)
 Pretplata
 Je li taj članak bio koristan?
@@ -145,10 +148,10 @@ Je li taj članak bio koristan?
 ![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
 Nedavno prikazano
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Cisco Jabber Kullanıcı ve Yönetim Makaleleri](https://help.webex.com/hr-hr/article/1pwgym)
-  * [启用或禁用 Webex 标签页](https://help.webex.com/hr-hr/article/n9yjwceb)
-  * [Alterar o endereço de e-mail para a sua conta](https://help.webex.com/hr-hr/article/nme40aeb)
-  * [Cisco Proximity 4.0: Skyparing](https://help.webex.com/hr-hr/article/n1v31g9)
+  * [Aktivér politikken for automatisk sletning for Webex-optagelser](https://help.webex.com/hr-hr/article/nue0dlp)
+  * [Configurer la compression des données](https://help.webex.com/hr-hr/article/cyg1ibb)
+  * [Почніть особисту кімнату За Допомогою Google .Новий домен](https://help.webex.com/hr-hr/article/nj2i902)
+  * [Webex Training Accessibility Features](https://help.webex.com/hr-hr/article/krcq8ab)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

@@ -2,6 +2,9 @@
 * ![пиктограмма поиска](https://help.webex.com/images/search-icon.svg)Поиск...Ctrl K
 * ![пиктограмма поиска](https://help.webex.com/images/search-icon.svg)
 * ![Интеллектуальный помощник Cisco для Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Начало работы](https://help.webex.com/ru-ru/getting-started)
   * [Справка по продукту](https://help.webex.com/ru-ru/products)
   * [Администрирование](https://help.webex.com/ru-ru/administration)
@@ -83,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Благодарим вас за обратную связь.
 ![](https://help.webex.com/images/thumbs-up.svg)Да, спасибо!![](https://help.webex.com/images/thumbs-down.svg)Не совсем
-03 декабря 2024 г. | 395 – просмотры | 0 – пользователи, которые сочли этот материал полезным
+03 декабря 2024 г. | 396 – просмотры | 0 – пользователи, которые сочли этот материал полезным
 ![](https://help.webex.com/images/print-icon-new.svg)
 Подписаться
 Сервисная программа для удаления WebEx Java Applet

@@ -86,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Дякуємо за відгук.
 ![](https://help.webex.com/images/thumbs-up.svg)Так, дякую!![](https://help.webex.com/images/thumbs-down.svg)Не дуже
-24 квітня 2026 р. | 395 переглядів | 0 — користувачі, які вважають цей матеріал корисним
+24 квітня 2026 р. | 396 переглядів | 0 — користувачі, які вважають цей матеріал корисним
 ![](https://help.webex.com/images/print-icon-new.svg)
 Оформити передплату
 # Вибір способу локалізації відомостей про нараду службою гібридного календаря
@@ -112,8 +112,8 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Centrul de date Singapore pentru Webex Calling](https://help.webex.com/uk-ua/article/nmjf42d)
   * [Clientul recepționer | Plasează un apel activ în așteptare](https://help.webex.com/uk-ua/article/ngi3hgq)
-  * [I Can't Enter Names into the Alternate Host Field when Scheduling a Meeting using Webex Desktop App](https://help.webex.com/uk-ua/article/WBX58194)
-  * [Достъп до вашия профил за повиквания отвсякъде](https://help.webex.com/uk-ua/article/0ku8qo)
+  * [Nutzen Sie Webex Go auf Ihrem Mobiltelefon](https://help.webex.com/uk-ua/article/ng0os0ab)
+  * [Webex Go-Gerät verwalten](https://help.webex.com/uk-ua/article/f88pdeb)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

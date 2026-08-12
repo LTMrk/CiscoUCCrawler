@@ -2,6 +2,9 @@ Gå til indhold[![webex-logo](https://help.webex.com/logo/webexlogo.png)Hjælpec
 * ![søgeikon](https://help.webex.com/images/search-icon.svg)Søg...Ctrl K
 * ![søgeikon](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant til Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Kom i gang](https://help.webex.com/da-dk/getting-started)
   * [Hjælp efter produkt](https://help.webex.com/da-dk/products)
   * [Administration](https://help.webex.com/da-dk/administration)
@@ -86,7 +89,7 @@ Var denne artikel nyttig?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Tak for din feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja tak!![](https://help.webex.com/images/thumbs-down.svg)Ikke rigtigt
-06. december 2024 | 522 visning(er) | 0 personer fandt dette nyttigt
+06. december 2024 | 523 visning(er) | 0 personer fandt dette nyttigt
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonner
 # Konfigurer Webex-planlægningsprogram med Google Kalender i Cisco Webex Control Hub

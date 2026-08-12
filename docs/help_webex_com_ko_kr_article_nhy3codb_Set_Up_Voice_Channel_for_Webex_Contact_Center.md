@@ -131,7 +131,7 @@ RONA 및 음성 메일 시간 초과 설정 구성
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-2026년 7월 03일 | 2051 명이 봄 | 0 명이 이 정보가 유용하다고 평가했습니다.
+2026년 7월 03일 | 2052 명이 봄 | 0 명이 이 정보가 유용하다고 평가했습니다.
 ![](https://help.webex.com/images/vector.svg)
 구독
 이 문서가 도움이 되었습니까?

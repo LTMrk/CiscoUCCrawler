@@ -83,7 +83,7 @@ A fost util acest articol?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Mulțumim pentru feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, mulțumim!![](https://help.webex.com/images/thumbs-down.svg)Nu chiar
-09 decembrie 2024 | 173 vizualizare(ări) | 0 persoane au considerat că este util
+09 decembrie 2024 | 174 vizualizare(ări) | 0 persoane au considerat că este util
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonare
 Clientul recepționer | Plasează un apel activ în așteptare
@@ -111,10 +111,10 @@ Articole conexe
 
 Vizualizate recent
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [I Can't Enter Names into the Alternate Host Field when Scheduling a Meeting using Webex Desktop App](https://help.webex.com/ro-ro/article/WBX58194)
-  * [Достъп до вашия профил за повиквания отвсякъде](https://help.webex.com/ro-ro/article/0ku8qo)
-  * [基于网络的 Webex Meetings、Webex Training 或 Webex Events 录制文件的播放控制选项](https://help.webex.com/ro-ro/article/zey2h4)
-  * [Novedades de UCM Cloud](https://help.webex.com/ro-ro/article/6f5s54)
+  * [Nutzen Sie Webex Go auf Ihrem Mobiltelefon](https://help.webex.com/ro-ro/article/ng0os0ab)
+  * [Webex Go-Gerät verwalten](https://help.webex.com/ro-ro/article/f88pdeb)
+  * [Създаване на графици за настройки за повиквания](https://help.webex.com/ro-ro/article/szrrto)
+  * [取消鏈結 Google Home 裝置與 Webex Meetings 行動應用程式](https://help.webex.com/ro-ro/article/y3tzu)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

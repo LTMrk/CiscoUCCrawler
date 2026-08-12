@@ -86,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 感謝您的意見回饋。
 ![](https://help.webex.com/images/thumbs-up.svg)是的，謝謝！![](https://help.webex.com/images/thumbs-down.svg)不完全是
-2025年5月19日 | 6975 次檢視 | 63 人認為這有幫助
+2025年5月19日 | 6976 次檢視 | 63 人認為這有幫助
 ![](https://help.webex.com/images/print-icon-new.svg)
 訂閱
 如何建立 Cisco ID（CCO ID）？
@@ -109,10 +109,10 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 
 最近檢視
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Configure Cisco Call for Microsoft Teams](https://help.webex.com/zh-tw/article/n0l9q2z)
-  * [Fabriksåterställning och säker datarensning för Cisco enheter](https://help.webex.com/zh-tw/article/npebq9bb)
-  * [ابدأ بعقد الاجتماعات في تطبيق Webex على الويب](https://help.webex.com/zh-tw/article/9eed9t)
-  * [העבר את שיחות הטלפון שלך](https://help.webex.com/zh-tw/article/4efsep)
+  * [אפליקציית Webex | מדריך לשילוב Microsoft OneDrive ו-SharePoint Online](https://help.webex.com/zh-tw/article/njip7kp)
+  * [Yeniden Board, Masa ve Oda Serisi cihazlarını yayın moduna al](https://help.webex.com/zh-tw/article/nlx2tvs)
+  * [Присъединяване към среща в Webex](https://help.webex.com/zh-tw/article/nrbgeodb)
+  * [مشاكل تسجيل الدخول إلى Webex](https://help.webex.com/zh-tw/article/n5q6x5j)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

@@ -86,7 +86,7 @@ Bu makale yararlı oldu mu?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Geri bildiriminiz için teşekkürler.
 ![](https://help.webex.com/images/thumbs-up.svg)Evet, teşekkürler!![](https://help.webex.com/images/thumbs-down.svg)Pek değil
-10 Nisan 2026 | 358 görüntüleme(ler) | 0 kişi bunun yararlı olduğunu düşündü
+10 Nisan 2026 | 359 görüntüleme(ler) | 0 kişi bunun yararlı olduğunu düşündü
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abone Olun
 Webex SSO (AD) Active Directory parolalar, Common Identity (CI) ile Senkronize Değil

@@ -98,7 +98,7 @@ Operační systémy
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-11. června 2026 | 10084 zobrazení | 0 osob/y, podle nichž byl obsah užitečný
+11. června 2026 | 10085 zobrazení | 0 osob/y, podle nichž byl obsah užitečný
 ![](https://help.webex.com/images/vector.svg)
 Přihlásit se k odběru
 Byl tento článek užitečný?

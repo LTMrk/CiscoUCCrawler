@@ -2,6 +2,9 @@
 * ![أيقونة البحث](https://help.webex.com/images/search-icon.svg)بحث...Ctrl K
 * ![أيقونة البحث](https://help.webex.com/images/search-icon.svg)
 * ![مساعد Cisco الذي يعمل بالذكاء الاصطناعي لـ Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [بدء الاستخدام](https://help.webex.com/ar-ae/getting-started)
   * [المساعدة حسب المنتج](https://help.webex.com/ar-ae/products)
   * [الإدارة](https://help.webex.com/ar-ae/administration)
@@ -83,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # شكرًا على ملاحظاتك.
 ![](https://help.webex.com/images/thumbs-up.svg)نعم، شكرًا لك!![](https://help.webex.com/images/thumbs-down.svg)ليس فعليًا
-09 ديسمبر 2024 | 721 طريقة (طرق) العرض | 0 اعتقد أشخاص أن هذا كان مفيدًا
+09 ديسمبر 2024 | 722 طريقة (طرق) العرض | 0 اعتقد أشخاص أن هذا كان مفيدًا
 ![](https://help.webex.com/images/print-icon-new.svg)
 اشتراك
 # تمكين أو تعطيل خدمات Webex Cloud-Connected UC في Control Hub

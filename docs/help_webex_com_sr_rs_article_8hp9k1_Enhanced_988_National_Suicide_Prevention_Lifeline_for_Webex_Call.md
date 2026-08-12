@@ -85,7 +85,7 @@ Uloge
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-29. новембар 2024. | 1237 prikaz/prikaza | 1 osobe/osoba misle da je ovo korisno
+29. новембар 2024. | 1238 prikaz/prikaza | 1 osobe/osoba misle da je ovo korisno
 ![](https://help.webex.com/images/vector.svg)
 Pretplati se
 Da li je ovaj članak bio koristan?
@@ -133,10 +133,10 @@ Srodni članci
 
 Nedavno pregledano
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * ["Cisco Webex Meeting Center" desidera registrare lo schermo di questo computer](https://help.webex.com/sr-rs/article/WBX9000029629)
-  * [Singapore-datacenter för Webex Calling](https://help.webex.com/sr-rs/article/nmjf42d)
-  * [Egyszeri bejelentkezés konfigurálása a Control Hubban a Shibboleth segítségével](https://help.webex.com/sr-rs/article/kjazkg)
-  * [Crear transcripciones de grabaciones en reuniones y seminarios web](https://help.webex.com/sr-rs/article/n18892z)
+  * [Функція «Одне натискання кнопки» (OBTP) з Microsoft Exchange](https://help.webex.com/sr-rs/article/y5stdw)
+  * [Webexアプリ | 空間内の全員の注目を集める](https://help.webex.com/sr-rs/article/tfqhfx)
+  * [Webex アプリ | スペースにウェブサイトのショートカットを追加する](https://help.webex.com/sr-rs/article/tdcefv)
+  * [Webex アプリ | スペースでウェブサイトのショートカットを開く](https://help.webex.com/sr-rs/article/sjkdsg)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

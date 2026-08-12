@@ -86,7 +86,7 @@ Czy ten artykuł był pomocny?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Dziękujemy za opinię.
 ![](https://help.webex.com/images/thumbs-up.svg)Tak, dziękuję!![](https://help.webex.com/images/thumbs-down.svg)Niezupełnie
-05 grudnia 2024 | 355 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
+05 grudnia 2024 | 356 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/print-icon-new.svg)
 Subskrybuj
 Regulacja podświetlenia wieloplatformowego telefonu Cisco 7800

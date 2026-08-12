@@ -91,7 +91,7 @@ Modeli uređaja
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-18. јун 2026. | 1563 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
+18. јун 2026. | 1564 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
 ![](https://help.webex.com/images/vector.svg)
 Pretplati se
 Da li je ovaj članak bio koristan?

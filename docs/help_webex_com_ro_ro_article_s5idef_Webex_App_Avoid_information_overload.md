@@ -89,7 +89,7 @@ A fost util acest articol?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Mulțumim pentru feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, mulțumim!![](https://help.webex.com/images/thumbs-down.svg)Nu chiar
-20 martie 2026 | 488 vizualizare(ări) | 0 persoane au considerat că este util
+20 martie 2026 | 489 vizualizare(ări) | 0 persoane au considerat că este util
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonare
 # Aplicația | Webex Evitați supraîncărcarea informațiilor

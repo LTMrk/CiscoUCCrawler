@@ -108,7 +108,7 @@ Operativsystemer
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-12. december 2025 | 1729 visning(er) | 0 personer fandt dette nyttigt
+12. december 2025 | 1730 visning(er) | 0 personer fandt dette nyttigt
 ![](https://help.webex.com/images/vector.svg)
 Abonner
 Var denne artikel nyttig?
@@ -313,9 +313,9 @@ Var denne artikel nyttig?
 Set for nyligt
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Administrer Webex Go-enhed](https://help.webex.com/da-dk/article/f88pdeb)
-  * [Doživljavate loš kvalitet zvuka na slušalicama](https://help.webex.com/da-dk/article/n88bsp3)
-  * [Moja slušalica se ne puni](https://help.webex.com/da-dk/article/n7vsft5)
-  * [Het People Insights-profiel van iemand anders bekijken tijdens een vergadering of webinar](https://help.webex.com/da-dk/article/yoeh9bb)
+  * [Aplicación de Webex | Filtrar sus @ Menciones](https://help.webex.com/da-dk/article/nr6yt2r)
+  * [Webex Edge for Devices](https://help.webex.com/da-dk/article/cy2l2z)
+  * [Cisco Webex Edge Ses Müşteri Yöneticisi Sorun Giderme Kılavuzu](https://help.webex.com/da-dk/article/WBX9000035655)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

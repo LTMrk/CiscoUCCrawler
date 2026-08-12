@@ -86,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 感謝您的意見回饋。
 ![](https://help.webex.com/images/thumbs-up.svg)是的，謝謝！![](https://help.webex.com/images/thumbs-down.svg)不完全是
-2026年4月24日 | 628 次檢視 | 0 人認為這有幫助
+2026年4月24日 | 629 次檢視 | 0 人認為這有幫助
 ![](https://help.webex.com/images/print-icon-new.svg)
 訂閱
 # 設定 Amazon Alexa 以使用 Webex Meetings

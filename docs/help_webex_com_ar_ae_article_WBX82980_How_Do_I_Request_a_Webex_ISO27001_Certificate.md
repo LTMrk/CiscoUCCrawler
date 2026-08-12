@@ -83,7 +83,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # شكرًا على ملاحظاتك.
 ![](https://help.webex.com/images/thumbs-up.svg)نعم، شكرًا لك!![](https://help.webex.com/images/thumbs-down.svg)ليس فعليًا
-06 ديسمبر 2024 | 227 طريقة (طرق) العرض | 0 اعتقد أشخاص أن هذا كان مفيدًا
+06 ديسمبر 2024 | 228 طريقة (طرق) العرض | 0 اعتقد أشخاص أن هذا كان مفيدًا
 ![](https://help.webex.com/images/print-icon-new.svg)
 اشتراك
 كيف يمكنني طلب شهادة Webex ISO27001؟
@@ -103,7 +103,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
   * [A Webex Meetings asztali alkalmazás letöltése](https://help.webex.com/ar-ae/article/0tow9g)
   * [Приховання списку учасників у навчальних заняттях Webex](https://help.webex.com/ar-ae/article/WBX41580)
   * [如何建立 Cisco ID（CCO ID）？](https://help.webex.com/ar-ae/article/WBX000027729)
-  * [Configure Cisco Call for Microsoft Teams](https://help.webex.com/ar-ae/article/n0l9q2z)
+  * [אפליקציית Webex | מדריך לשילוב Microsoft OneDrive ו-SharePoint Online](https://help.webex.com/ar-ae/article/njip7kp)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

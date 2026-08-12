@@ -89,7 +89,7 @@ Var denne artikkelen nyttig?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Takk for tilbakemeldingen.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, takk!![](https://help.webex.com/images/thumbs-down.svg)Egentlig ikke
-16. mars 2026 | 1123 visning(er) | 0 personer mente dette var nyttig
+16. mars 2026 | 1125 visning(er) | 0 personer mente dette var nyttig
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonner
 # Webex-appen | Test forbindelsen din med helsesjekkeren

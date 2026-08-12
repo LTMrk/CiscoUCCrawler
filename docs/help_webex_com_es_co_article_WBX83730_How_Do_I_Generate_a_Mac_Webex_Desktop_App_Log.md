@@ -86,7 +86,7 @@ Sistemas operativos
 ![close](https://help.webex.com/images/icn-close.svg)
 # Gracias por sus comentarios.
 ![](https://help.webex.com/images/thumbs-up.svg)Sí, gracias![](https://help.webex.com/images/thumbs-down.svg)En realidad no
-06 de diciembre de 2024 | 442 vista(s) | 0 personas pensaron que esto fue útil
+06 de diciembre de 2024 | 443 vista(s) | 0 personas pensaron que esto fue útil
 ![](https://help.webex.com/images/print-icon-new.svg)
 Suscribirse
 ¿Cómo genero un registro de la aplicación de escritorio de Webex para Mac?
@@ -125,8 +125,8 @@ Recién vistos
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [المشاكل والقيود المعروفة لدعم Webex](https://help.webex.com/es-co/article/n27440cb)
   * [تحديث تطبيق Cisco Webex Meetings لسطح المكتب](https://help.webex.com/es-co/article/n1kwkd6)
-  * [瀏覽器在嘗試加入會議時返回 HTTP 500 內部伺服器錯誤](https://help.webex.com/es-co/article/WBX25586)
-  * [傳送歡迎電子郵件功能在 Cisco Webex Meetings 網站管理中為灰色](https://help.webex.com/es-co/article/WBX19638)
+  * [安排 Webex 會議時，「在主持人之前加入」選項呈現灰色顯示](https://help.webex.com/es-co/article/WBX40644)
+  * [如何將鎖定的主持人帳戶解除鎖定？](https://help.webex.com/es-co/article/WBX38988)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

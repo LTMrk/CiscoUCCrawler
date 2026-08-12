@@ -86,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Благодарим вас за обратную связь.
 ![](https://help.webex.com/images/thumbs-up.svg)Да, спасибо!![](https://help.webex.com/images/thumbs-down.svg)Не совсем
-05 декабря 2024 г. | 1743 – просмотры | 3 – пользователи, которые сочли этот материал полезным
+05 декабря 2024 г. | 1745 – просмотры | 3 – пользователи, которые сочли этот материал полезным
 ![](https://help.webex.com/images/print-icon-new.svg)
 Подписаться
 Протокол CDP (Cisco Discovery Protocol) на устройствах серии Board, Desk и Room
@@ -115,9 +115,9 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 Недавно просмотренное
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Мануально настраивать настройки камеры на Board, столе и номере](https://help.webex.com/ru-ru/article/rjmy3cb)
-  * [Какво е новото в RTM на едро](https://help.webex.com/ru-ru/article/naxx10)
-  * [الميزات الجديدة في Webex Calling](https://help.webex.com/ru-ru/article/rdmb0)
-  * [שילוב לוחות שנה עם רשימת הפגישות של היישום Webex Meetings](https://help.webex.com/ru-ru/article/nkyt47k)
+  * [Aktiver Webex Go på din mobiltelefon](https://help.webex.com/ru-ru/article/qajdar)
+  * [Nyheder i rtm, der giver andre muligheder](https://help.webex.com/ru-ru/article/naxx10)
+  * [Co je nového ve službě Webex Calling](https://help.webex.com/ru-ru/article/rdmb0)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

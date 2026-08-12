@@ -89,7 +89,7 @@ Czy ten artykuł był pomocny?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Dziękujemy za opinię.
 ![](https://help.webex.com/images/thumbs-up.svg)Tak, dziękuję!![](https://help.webex.com/images/thumbs-down.svg)Niezupełnie
-13 marca 2026 | 1318 — liczba wyświetleń | 2 — liczba osób, które uznały to za pomocne
+13 marca 2026 | 1319 — liczba wyświetleń | 2 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/print-icon-new.svg)
 Subskrybuj
 # Aplikacja Webex | Zaproś innych do przyłączenia się do Ciebie

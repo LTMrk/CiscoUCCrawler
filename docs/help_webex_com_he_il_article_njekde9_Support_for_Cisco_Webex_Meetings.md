@@ -98,7 +98,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-11 ביוני 2026 | 3491 תצוגות | 0 אנשים חשבו שזה היה מועיל
+11 ביוני 2026 | 3492 תצוגות | 0 אנשים חשבו שזה היה מועיל
 ![](https://help.webex.com/images/vector.svg)
 הירשם כמנוי
 האם המאמר הועיל לך?

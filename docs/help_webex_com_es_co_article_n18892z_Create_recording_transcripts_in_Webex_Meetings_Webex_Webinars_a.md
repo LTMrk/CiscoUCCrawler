@@ -86,7 +86,7 @@ Sistemas operativos
 ![close](https://help.webex.com/images/icn-close.svg)
 # Gracias por sus comentarios.
 ![](https://help.webex.com/images/thumbs-up.svg)Sí, gracias![](https://help.webex.com/images/thumbs-down.svg)En realidad no
-19 de mayo de 2025 | 4068 vista(s) | 1 personas pensaron que esto fue útil
+19 de mayo de 2025 | 4069 vista(s) | 1 personas pensaron que esto fue útil
 ![](https://help.webex.com/images/print-icon-new.svg)
 Suscribirse
 # Crear transcripciones de grabaciones en reuniones y seminarios web

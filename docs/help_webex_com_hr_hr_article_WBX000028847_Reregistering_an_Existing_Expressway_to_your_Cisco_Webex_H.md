@@ -2,6 +2,9 @@ Preskoči na sadržaj[![webex-logo](https://help.webex.com/logo/webexlogo.png)Ce
 * ![ikona traženja](https://help.webex.com/images/search-icon.svg)Pretraživanje...Ctrl K
 * ![ikona traženja](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant za Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Početak rada](https://help.webex.com/hr-hr/getting-started)
   * [Pomoć prema proizvodu](https://help.webex.com/hr-hr/products)
   * [Administracija](https://help.webex.com/hr-hr/administration)
@@ -80,7 +83,7 @@ Je li taj članak bio koristan?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Hvala na povratnim informacijama.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, hvala!![](https://help.webex.com/images/thumbs-down.svg)Ne baš
-06. prosinca 2024. | 257 prikaz(i) | 0 osobe(a) su to označile kao korisno
+06. prosinca 2024. | 258 prikaz(i) | 0 osobe(a) su to označile kao korisno
 ![](https://help.webex.com/images/print-icon-new.svg)
 Pretplata
 Nije uspjelo ponovno registriranje postojećeg Expressway priključka na vašu organizaciju Cisco Webex hibridnih usluga
@@ -115,9 +118,9 @@ Je li taj članak bio koristan?
 Nedavno prikazano
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Non si accede all'app desktop Webex Meetings o agli Strumenti di produttività (PT).](https://help.webex.com/hr-hr/article/WBX48595)
-  * [Mostrar la información del directorio de usuarios en las tarjetas de contacto en la aplicación Webex.](https://help.webex.com/hr-hr/article/7dthy9)
-  * [사용자가 전화 통화에 끼어들 수 있게 허용](https://help.webex.com/hr-hr/article/no2mhge)
-  * [Webex 앱 | 그룹에 참여](https://help.webex.com/hr-hr/article/fr4sm5)
+  * [Konfigurirajte i izmijenite postavke uređaja u usluzi Webex Calling](https://help.webex.com/hr-hr/article/uil72l)
+  * [Postanite partner tvrtke Cisco i počnite prodavati Cisco Webex](https://help.webex.com/hr-hr/article/nghgxfx)
+  * [Postavljanje sigurnosti za mobilne uređaje](https://help.webex.com/hr-hr/article/nggu6hc)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

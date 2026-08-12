@@ -97,7 +97,7 @@ Modeli uređaja
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-07. kolovoza 2026. | 1769 prikaz(i) | 0 osobe(a) su to označile kao korisno
+07. kolovoza 2026. | 1770 prikaz(i) | 0 osobe(a) su to označile kao korisno
 ![](https://help.webex.com/images/vector.svg)
 Pretplata
 Je li taj članak bio koristan?

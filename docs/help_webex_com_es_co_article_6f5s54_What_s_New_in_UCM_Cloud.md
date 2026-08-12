@@ -83,7 +83,7 @@ Funciones
 ![close](https://help.webex.com/images/icn-close.svg)
 # Gracias por sus comentarios.
 ![](https://help.webex.com/images/thumbs-up.svg)Sí, gracias![](https://help.webex.com/images/thumbs-down.svg)En realidad no
-03 de diciembre de 2024 | 489 vista(s) | 0 personas pensaron que esto fue útil
+03 de diciembre de 2024 | 490 vista(s) | 0 personas pensaron que esto fue útil
 ![](https://help.webex.com/images/print-icon-new.svg)
 Suscribirse
 # Novedades de UCM Cloud
@@ -124,10 +124,10 @@ En realidad no
 ![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
 Recién vistos
 ![](https://help.webex.com/images/arrow-down_20.svg)
+  * [Brug Webex Go på din mobiltelefon](https://help.webex.com/es-co/article/ng0os0ab)
   * [Det gick inte att visa chattkonversationen som skedde innan jag deltog i Webex Meetings](https://help.webex.com/es-co/article/WBX9000035356)
   * [Manage call recording for Webex Calling](https://help.webex.com/es-co/article/ilga4)
   * [Fel: ”Begäran misslyckades med statuskod 400” vid start Slido i ett möte](https://help.webex.com/es-co/article/WBX9000034465)
-  * [从 Webex Meetings 移动应用程序中断开 Google Home 设备的链接](https://help.webex.com/es-co/article/y3tzu)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

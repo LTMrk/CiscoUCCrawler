@@ -2,6 +2,9 @@
 * ![검색 아이콘](https://help.webex.com/images/search-icon.svg)검색...Ctrl K
 * ![검색 아이콘](https://help.webex.com/images/search-icon.svg)
 * ![Webex용 Cisco AI Assistant](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [시작하기](https://help.webex.com/ko-kr/getting-started)
   * [제품별 도움말](https://help.webex.com/ko-kr/products)
   * [관리](https://help.webex.com/ko-kr/administration)

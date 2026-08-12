@@ -2,6 +2,9 @@
 * ![пиктограмма поиска](https://help.webex.com/images/search-icon.svg)Поиск...Ctrl K
 * ![пиктограмма поиска](https://help.webex.com/images/search-icon.svg)
 * ![Интеллектуальный помощник Cisco для Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Начало работы](https://help.webex.com/ru-ru/getting-started)
   * [Справка по продукту](https://help.webex.com/ru-ru/products)
   * [Администрирование](https://help.webex.com/ru-ru/administration)
@@ -82,7 +85,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-19 декабря 2025 г. | 1889 – просмотры | 1 – пользователи, которые сочли этот материал полезным
+19 декабря 2025 г. | 1891 – просмотры | 1 – пользователи, которые сочли этот материал полезным
 ![](https://help.webex.com/images/vector.svg)
 Подписаться
 Была ли статья полезной?
@@ -163,10 +166,10 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 
 Недавно просмотренное
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Cisco Jabber Gebruikers- en beheerartikelen](https://help.webex.com/ru-ru/article/1pwgym)
-  * [Biedt Webex integraties met het Learning Management System (LMS) van SumTotal?](https://help.webex.com/ru-ru/article/WBX40134)
-  * [Não foi possível registrar um dispositivo Webex Room ou Webex Call IP no Webex](https://help.webex.com/ru-ru/article/WBX000023772)
-  * [Autoriser les utilisateurs à se connecter à votre Site Cisco Webex Meetings avec des comptes tiers](https://help.webex.com/ru-ru/article/hgxam4)
+  * [Organisez des réunions, des webinaires et des événements Webex pour les personnes qui ont de l’envergure ou sont mal malentendantes](https://help.webex.com/ru-ru/article/9dqbhw)
+  * [Felkészülés a Cisco Webex hibrid szolgáltatások telepítése előtt](https://help.webex.com/ru-ru/article/jja499)
+  * [Ik kan me niet aanmelden bij de bureaublad-app Webex Meetings of Productiviteitstools (PT).](https://help.webex.com/ru-ru/article/WBX48595)
+  * [Rejoindre un événement Webex (Classique)](https://help.webex.com/ru-ru/article/kwmj5eb)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

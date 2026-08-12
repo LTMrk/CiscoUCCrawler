@@ -83,7 +83,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Дякуємо за відгук.
 ![](https://help.webex.com/images/thumbs-up.svg)Так, дякую!![](https://help.webex.com/images/thumbs-down.svg)Не дуже
-06 грудня 2024 р. | 331 переглядів | 0 — користувачі, які вважають цей матеріал корисним
+06 грудня 2024 р. | 332 переглядів | 0 — користувачі, які вважають цей матеріал корисним
 ![](https://help.webex.com/images/print-icon-new.svg)
 Оформити передплату
 Приховання списку учасників у навчальних заняттях Webex
@@ -129,9 +129,9 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 Нещодавно переглянуті
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [如何建立 Cisco ID（CCO ID）？](https://help.webex.com/uk-ua/article/WBX000027729)
-  * [Configure Cisco Call for Microsoft Teams](https://help.webex.com/uk-ua/article/n0l9q2z)
-  * [Fabriksåterställning och säker datarensning för Cisco enheter](https://help.webex.com/uk-ua/article/npebq9bb)
-  * [ابدأ بعقد الاجتماعات في تطبيق Webex على الويب](https://help.webex.com/uk-ua/article/9eed9t)
+  * [אפליקציית Webex | מדריך לשילוב Microsoft OneDrive ו-SharePoint Online](https://help.webex.com/uk-ua/article/njip7kp)
+  * [Yeniden Board, Masa ve Oda Serisi cihazlarını yayın moduna al](https://help.webex.com/uk-ua/article/nlx2tvs)
+  * [Присъединяване към среща в Webex](https://help.webex.com/uk-ua/article/nrbgeodb)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

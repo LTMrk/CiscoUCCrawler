@@ -89,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # شكرًا على ملاحظاتك.
 ![](https://help.webex.com/images/thumbs-up.svg)نعم، شكرًا لك!![](https://help.webex.com/images/thumbs-down.svg)ليس فعليًا
-03 ديسمبر 2024 | 1908 طريقة (طرق) العرض | 0 اعتقد أشخاص أن هذا كان مفيدًا
+03 ديسمبر 2024 | 1910 طريقة (طرق) العرض | 0 اعتقد أشخاص أن هذا كان مفيدًا
 ![](https://help.webex.com/images/print-icon-new.svg)
 اشتراك
 # تنشيط Webex Go على هاتفك المحمول

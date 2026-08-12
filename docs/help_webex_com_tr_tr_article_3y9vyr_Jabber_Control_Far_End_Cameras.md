@@ -2,6 +2,9 @@
 * ![arama simgesi](https://help.webex.com/images/search-icon.svg)Ara...Ctrl K
 * ![arama simgesi](https://help.webex.com/images/search-icon.svg)
 * ![Webex için Cisco AI Assistant](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Başlama](https://help.webex.com/tr-tr/getting-started)
   * [Ürüne göre yardım](https://help.webex.com/tr-tr/products)
   * [Yönetim](https://help.webex.com/tr-tr/administration)
@@ -83,7 +86,7 @@ Bu makale yararlı oldu mu?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Geri bildiriminiz için teşekkürler.
 ![](https://help.webex.com/images/thumbs-up.svg)Evet, teşekkürler!![](https://help.webex.com/images/thumbs-down.svg)Pek değil
-16 Nisan 2026 | 18464 görüntüleme(ler) | 24 kişi bunun yararlı olduğunu düşündü
+16 Nisan 2026 | 18467 görüntüleme(ler) | 24 kişi bunun yararlı olduğunu düşündü
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abone Olun
 # Cisco Jabber Kullanıcı ve Yönetim Makaleleri
@@ -100,9 +103,9 @@ Bu makale yararlı oldu mu?
 En Son Görüntülenenler
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Bluetooth Pairing Failed on a DX70 or DX80 in the Cisco Webex Room OS](https://help.webex.com/tr-tr/article/WBX000025869)
-  * [Integrera kalendrar med möteslistan i Webex Meetings appen](https://help.webex.com/tr-tr/article/nkyt47k)
-  * [Hoe gebruik ik Fiddler om webverkeer vast te leggen?](https://help.webex.com/tr-tr/article/WBX56995)
-  * [Csatlakozzon Microsoft Teams-értekezletekhez Board, Desk és Room sorozatú eszközökön](https://help.webex.com/tr-tr/article/n3r2ihu)
+  * [Hoe gebruik ik de HTTP Debugger om webverkeer vast te leggen?](https://help.webex.com/tr-tr/article/WBX9000026011)
+  * [SSO-fout: ' eenmalige aanmelding is mislukt. Ongeldige status code in antwoord '](https://help.webex.com/tr-tr/article/WBX9000009033)
+  * [Cisco Çağrı Planı numara taşıma yönergeleri ve politikaları](https://help.webex.com/tr-tr/article/01sijg)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

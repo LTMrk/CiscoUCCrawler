@@ -89,7 +89,7 @@ Was this article helpful?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Thanks for your feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Yes, thank you!![](https://help.webex.com/images/thumbs-down.svg)Not really
-April 14, 2026 | 119897 view(s) | 164 people thought this was helpful
+April 14, 2026 | 119898 view(s) | 164 people thought this was helpful
 ![](https://help.webex.com/images/print-icon-new.svg)
 Subscribe
 # Use the Cisco Webex Desktop App to Share Your Screen with a Video Device
@@ -118,7 +118,7 @@ Recently Viewed
   * [Record screen activity using the Webex Recorder](https://help.webex.com/en-us/article/nifdygr)
   * [Webex App bots](https://help.webex.com/en-us/article/lvhkvbb)
   * [Webex Meetings integration with Slack](https://help.webex.com/en-us/article/n9e61edb)
-  * [Promenite uloge tokom sastanka na Desk i Room Series](https://help.webex.com/en-us/article/nkv30u5)
+  * [مثال](https://help.webex.com/en-us/article/nhqh1mf)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

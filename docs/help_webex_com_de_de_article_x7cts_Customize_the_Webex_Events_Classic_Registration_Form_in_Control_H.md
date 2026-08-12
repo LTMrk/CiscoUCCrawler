@@ -2,6 +2,9 @@ Direkt zum Inhalt[![webex-logo](https://help.webex.com/logo/webexlogo.png)Hilfec
 * ![Suchsymbol](https://help.webex.com/images/search-icon.svg)Suche...Ctrl K
 * ![Suchsymbol](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant für Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Erste Schritte](https://help.webex.com/de-de/getting-started)
   * [Hilfe nach Produkt](https://help.webex.com/de-de/products)
   * [Administration](https://help.webex.com/de-de/administration)
@@ -86,7 +89,7 @@ War dieser Artikel hilfreich für Sie?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Danke für Ihr Feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, vielen Dank!![](https://help.webex.com/images/thumbs-down.svg)Eigentlich nicht
-06. Dezember 2024 | 694 Ansicht(en) | 0 Personen fanden das hilfreich
+06. Dezember 2024 | 695 Ansicht(en) | 0 Personen fanden das hilfreich
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonnieren
 # Anpassen des Registrierungsformulars für Events (klassisch) in Control Hub

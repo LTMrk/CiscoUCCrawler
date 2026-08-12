@@ -89,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 피드백을 보내 주셔서 감사합니다.
 ![](https://help.webex.com/images/thumbs-up.svg)예, 감사합니다!![](https://help.webex.com/images/thumbs-down.svg)별로
-2026년 4월 24일 | 2869 명이 봄 | 2 명이 이 정보가 유용하다고 평가했습니다.
+2026년 4월 24일 | 2870 명이 봄 | 2 명이 이 정보가 유용하다고 평가했습니다.
 ![](https://help.webex.com/images/print-icon-new.svg)
 구독
 # 사용자를 진행 중인 Webex 미팅으로 초대

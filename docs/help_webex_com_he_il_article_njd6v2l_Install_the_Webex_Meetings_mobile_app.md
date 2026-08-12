@@ -89,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # תודה על המשוב.
 ![](https://help.webex.com/images/thumbs-up.svg)כן, תודה רבה!![](https://help.webex.com/images/thumbs-down.svg)לא באמת
-17 באפריל 2026 | 1410 תצוגות | 0 אנשים חשבו שזה היה מועיל
+17 באפריל 2026 | 1411 תצוגות | 0 אנשים חשבו שזה היה מועיל
 ![](https://help.webex.com/images/print-icon-new.svg)
 הירשם כמנוי
 # התקן את יישום Webex Meetings לנייד
@@ -125,7 +125,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
   * [הצג משתתפים כשידיהם מורמות בפגישות Webex](https://help.webex.com/he-il/article/nivey11)
   * [התחל פגישה ביישום שולחן העבודה Webex Meetings וביישום למכשירים ניידים](https://help.webex.com/he-il/article/niif9tab)
   * [הפוך משתתף אחר למארח ועזוב את פגישת החדר האישי של Webex](https://help.webex.com/he-il/article/ni1zit2)
-  * [تحديد إعدادات الفيديو المتقدمة لتطبيق Webex Meetings](https://help.webex.com/he-il/article/n3t9lrab)
+  * [Рекомендоване співвідношення сторін для пейзажного та портретного перегляду в додатку Cisco Webex Meetings для Android](https://help.webex.com/he-il/article/WBX9000033166)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

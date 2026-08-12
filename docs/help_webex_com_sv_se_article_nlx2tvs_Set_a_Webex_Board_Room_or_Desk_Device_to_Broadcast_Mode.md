@@ -89,7 +89,7 @@ Var den här artikeln användbar?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Tack för din feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja tack!![](https://help.webex.com/images/thumbs-down.svg)Inte riktigt
-20 maj 2026 | 180 visning(ar) | 0 personer tyckte att detta var till hjälp
+20 maj 2026 | 181 visning(ar) | 0 personer tyckte att detta var till hjälp
 ![](https://help.webex.com/images/print-icon-new.svg)
 Prenumerera
 # Ställ in enheterna Board, Desk och Room Series på sändningsläge

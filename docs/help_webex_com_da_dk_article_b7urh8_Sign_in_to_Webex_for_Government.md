@@ -89,7 +89,7 @@ Var denne artikel nyttig?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Tak for din feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja tak!![](https://help.webex.com/images/thumbs-down.svg)Ikke rigtigt
-02. december 2024 | 279 visning(er) | 0 personer fandt dette nyttigt
+02. december 2024 | 280 visning(er) | 0 personer fandt dette nyttigt
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonner
 # Log ind på Webex for forvaltninger

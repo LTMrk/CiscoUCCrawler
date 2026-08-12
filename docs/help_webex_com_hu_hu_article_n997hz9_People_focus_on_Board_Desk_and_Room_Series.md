@@ -86,7 +86,7 @@ Hasznos volt ez a cikk?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Köszönjük visszajelzését.
 ![](https://help.webex.com/images/thumbs-up.svg)Igen, köszönöm!![](https://help.webex.com/images/thumbs-down.svg)Nem igazán
-2024. december 06. | 759 megtekintés | 0 személy érezte ezt hasznosnak
+2024. december 06. | 760 megtekintés | 0 személy érezte ezt hasznosnak
 ![](https://help.webex.com/images/print-icon-new.svg)
 Előfizetés
 Az emberekre való fókuszálás a Board, Desk és Room sorozaton
@@ -154,10 +154,10 @@ Kapcsolódó cikkek
 
 Nemrég megtekintve
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Webex 앱 | 통화 또는 미팅 중에 장치 오디오 및 비디오 제어](https://help.webex.com/hu-hu/article/n50c4uf)
-  * [Twórz szablony spotkań Webex dla swojej wirtualnej klasy](https://help.webex.com/hu-hu/article/slc96m)
-  * [Webex Meetings のリリースノート](https://help.webex.com/hu-hu/article/xcwws1)
-  * [Rozwiązywanie problemów i rozpraszanie uwagi w Webex Events](https://help.webex.com/hu-hu/article/sfpl5eb)
+  * [DECT ハンドセットで Bluetooth ヘッドセットを使用する](https://help.webex.com/hu-hu/article/netttpw)
+  * [ Установите многоплатформовые телефоны Cisco IP Phone серий 7800 и 8800 на стене](https://help.webex.com/hu-hu/article/n3vaq4i)
+  * [Видеоконференции Webex Meetings, авторизованные в соответствии со стандартом FedRAMP.](https://help.webex.com/hu-hu/article/nuvrie0)
+  * [Installieren Sie Ihr neues Cisco IP-Telefon der Serie 7800 (Multiplattform-Telefon).](https://help.webex.com/hu-hu/article/u7u2g6)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

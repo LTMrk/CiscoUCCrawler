@@ -86,7 +86,7 @@ Was this article helpful?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Thanks for your feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Yes, thank you!![](https://help.webex.com/images/thumbs-down.svg)Not really
-September 14, 2024 | 1256 view(s) | 3 people thought this was helpful
+September 14, 2024 | 1257 view(s) | 3 people thought this was helpful
 ![](https://help.webex.com/images/print-icon-new.svg)
 Subscribe
 # Where can I find more information about the Cisco Headset 700 Series?

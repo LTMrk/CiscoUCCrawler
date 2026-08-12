@@ -88,7 +88,7 @@ Sistemas operacionais
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-04 de dezembro de 2024 | 782 visualização(ões) | 0 pessoas acharam que isso foi útil
+04 de dezembro de 2024 | 783 visualização(ões) | 0 pessoas acharam que isso foi útil
 ![](https://help.webex.com/images/vector.svg)
 Inscrever-se
 Este artigo foi útil?

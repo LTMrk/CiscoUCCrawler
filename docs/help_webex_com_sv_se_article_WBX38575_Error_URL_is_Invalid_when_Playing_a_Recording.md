@@ -86,7 +86,7 @@ Var den här artikeln användbar?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Tack för din feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja tack!![](https://help.webex.com/images/thumbs-down.svg)Inte riktigt
-06 december 2024 | 706 visning(ar) | 1 personer tyckte att detta var till hjälp
+06 december 2024 | 707 visning(ar) | 1 personer tyckte att detta var till hjälp
 ![](https://help.webex.com/images/print-icon-new.svg)
 Prenumerera
 Fel: "URL är ogiltig". när du spelar upp en inspelning
@@ -123,7 +123,7 @@ Senaste visade
   * [Zarządzanie uprawnieniami kont użytkowników w Cisco Webex Site Administration](https://help.webex.com/sv-se/article/nfyyg60)
   * [Kontroluj przesyłanie awatarów do pokojów osobistych w witrynie Webex](https://help.webex.com/sv-se/article/nfv6t5f)
   * [Zezwalaj użytkownikom na organizowanie spotkań z urządzenia wideo bez kodu PIN w Cisco Webex Site Administration](https://help.webex.com/sv-se/article/nfgr7ux)
-  * [Webex-appen | Test forbindelsen din med helsesjekkeren](https://help.webex.com/sv-se/article/n2g8glg)
+  * [Webex-appen | Finn ut hvilken ringetjeneste du har](https://help.webex.com/sv-se/article/nbtgrzx)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

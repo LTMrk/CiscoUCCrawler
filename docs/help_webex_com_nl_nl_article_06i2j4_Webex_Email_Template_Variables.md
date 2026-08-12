@@ -2,6 +2,9 @@ Doorgaan naar inhoud[![webex-logo](https://help.webex.com/logo/webexlogo.png)Hel
 * ![pictogram Zoeken](https://help.webex.com/images/search-icon.svg)Zoeken...Ctrl K
 * ![pictogram Zoeken](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI-assistent voor Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Aan de slag](https://help.webex.com/nl-nl/getting-started)
   * [Hulp bij product](https://help.webex.com/nl-nl/products)
   * [Beheer](https://help.webex.com/nl-nl/administration)
@@ -85,7 +88,7 @@ Besturingssystemen
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-24 april 2026 | 1208 weergave(n) | 0 personen vonden dit nuttig
+24 april 2026 | 1209 weergave(n) | 0 personen vonden dit nuttig
 ![](https://help.webex.com/images/vector.svg)
 Abonneren
 Vond u dit artikel nuttig?

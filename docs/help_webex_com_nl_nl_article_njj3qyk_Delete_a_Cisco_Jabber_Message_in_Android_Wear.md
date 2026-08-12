@@ -2,6 +2,9 @@ Doorgaan naar inhoud[![webex-logo](https://help.webex.com/logo/webexlogo.png)Hel
 * ![pictogram Zoeken](https://help.webex.com/images/search-icon.svg)Zoeken...Ctrl K
 * ![pictogram Zoeken](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI-assistent voor Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Aan de slag](https://help.webex.com/nl-nl/getting-started)
   * [Hulp bij product](https://help.webex.com/nl-nl/products)
   * [Beheer](https://help.webex.com/nl-nl/administration)
@@ -83,7 +86,7 @@ Vond u dit artikel nuttig?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Hartelijk dank voor uw feedback
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, bedankt!![](https://help.webex.com/images/thumbs-down.svg)Niet echt
-16 april 2026 | 14249 weergave(n) | 22 personen vonden dit nuttig
+16 april 2026 | 14253 weergave(n) | 22 personen vonden dit nuttig
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonneren
 # Cisco Jabber Gebruikers- en beheerartikelen
@@ -100,9 +103,9 @@ Vond u dit artikel nuttig?
 Onlangs bekeken
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Bluetooth Pairing Failed on a DX70 or DX80 in the Cisco Webex Room OS](https://help.webex.com/nl-nl/article/WBX000025869)
-  * [Integrera kalendrar med möteslistan i Webex Meetings appen](https://help.webex.com/nl-nl/article/nkyt47k)
-  * [Hoe gebruik ik Fiddler om webverkeer vast te leggen?](https://help.webex.com/nl-nl/article/WBX56995)
-  * [Csatlakozzon Microsoft Teams-értekezletekhez Board, Desk és Room sorozatú eszközökön](https://help.webex.com/nl-nl/article/n3r2ihu)
+  * [Hoe gebruik ik de HTTP Debugger om webverkeer vast te leggen?](https://help.webex.com/nl-nl/article/WBX9000026011)
+  * [SSO-fout: ' eenmalige aanmelding is mislukt. Ongeldige status code in antwoord '](https://help.webex.com/nl-nl/article/WBX9000009033)
+  * [Cisco Çağrı Planı numara taşıma yönergeleri ve politikaları](https://help.webex.com/nl-nl/article/01sijg)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

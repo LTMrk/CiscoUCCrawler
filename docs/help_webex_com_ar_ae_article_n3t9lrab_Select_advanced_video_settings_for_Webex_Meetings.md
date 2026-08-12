@@ -89,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # شكرًا على ملاحظاتك.
 ![](https://help.webex.com/images/thumbs-up.svg)نعم، شكرًا لك!![](https://help.webex.com/images/thumbs-down.svg)ليس فعليًا
-16 مارس 2026 | 1136 طريقة (طرق) العرض | 0 اعتقد أشخاص أن هذا كان مفيدًا
+16 مارس 2026 | 1137 طريقة (طرق) العرض | 0 اعتقد أشخاص أن هذا كان مفيدًا
 ![](https://help.webex.com/images/print-icon-new.svg)
 اشتراك
 # تحديد إعدادات الفيديو المتقدمة لتطبيق Webex Meetings
@@ -155,8 +155,8 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [عناوين Webex SIP في Control Hub](https://help.webex.com/ar-ae/article/n3ltzqcb)
   * [Android İçin Cisco Webex Meetings Uygulamasında Yatay ve Dikey Görünüm İçin Önerilen En Boy Oranı](https://help.webex.com/ar-ae/article/WBX9000033166)
+  * [Düşük Bant Genişliğine Sahip Katılımcılar Webex HQ veya HD Video Görüntüleyebilir ya da Paylaşabilir mi?](https://help.webex.com/ar-ae/article/WBX59760)
   * [Microsoft Windows’da Webex Izleyici Günlüklerini Yakalama](https://help.webex.com/ar-ae/article/WBX000026383)
-  * [Fel: "Det går inte att ansluta till ljud" när du Webex-ljud konferens.](https://help.webex.com/ar-ae/article/WBX9000033889)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

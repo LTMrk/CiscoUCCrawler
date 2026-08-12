@@ -2,6 +2,9 @@
 * ![검색 아이콘](https://help.webex.com/images/search-icon.svg)검색...Ctrl K
 * ![검색 아이콘](https://help.webex.com/images/search-icon.svg)
 * ![Webex용 Cisco AI Assistant](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [시작하기](https://help.webex.com/ko-kr/getting-started)
   * [제품별 도움말](https://help.webex.com/ko-kr/products)
   * [관리](https://help.webex.com/ko-kr/administration)
@@ -83,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 피드백을 보내 주셔서 감사합니다.
 ![](https://help.webex.com/images/thumbs-up.svg)예, 감사합니다!![](https://help.webex.com/images/thumbs-down.svg)별로
-2024년 12월 03일 | 714 명이 봄 | 1 명이 이 정보가 유용하다고 평가했습니다.
+2024년 12월 03일 | 715 명이 봄 | 1 명이 이 정보가 유용하다고 평가했습니다.
 ![](https://help.webex.com/images/print-icon-new.svg)
 구독
 Webex Room OS 장치에서 시스템 절전 모드 해제에 대한 제한 사항은 무엇입니까?
@@ -118,7 +121,7 @@ _참고:_ 이 기능은 개발에서 솔루션을 검색할 때 SX10 및 DX70에
   * [Intrați în întâlniri Microsoft Teams de pe dispozitivele din seriile Board, Desk și Room](https://help.webex.com/ko-kr/article/n3r2ihu)
   * [Visa Webex Meeting information](https://help.webex.com/ko-kr/article/n52k7wo)
   * [Настройте параметры встречи для вашего сайта.](https://help.webex.com/ko-kr/article/z6i2j4)
-  * [Cisco Jabber Gebruikers- en beheerartikelen](https://help.webex.com/ko-kr/article/1pwgym)
+  * [Organisez des réunions, des webinaires et des événements Webex pour les personnes qui ont de l’envergure ou sont mal malentendantes](https://help.webex.com/ko-kr/article/9dqbhw)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

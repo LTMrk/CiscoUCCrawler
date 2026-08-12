@@ -89,7 +89,7 @@ War dieser Artikel hilfreich für Sie?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Danke für Ihr Feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, vielen Dank!![](https://help.webex.com/images/thumbs-down.svg)Eigentlich nicht
-26. Juni 2026 | 1143 Ansicht(en) | 0 Personen fanden das hilfreich
+26. Juni 2026 | 1144 Ansicht(en) | 0 Personen fanden das hilfreich
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonnieren
 Webex-App | Voice-Clip senden

@@ -2,6 +2,9 @@ Ir para o conteúdo[![webex-logo](https://help.webex.com/logo/webexlogo.png)Cent
 * ![ícone de pesquisa](https://help.webex.com/images/search-icon.svg)Procurar...Ctrl K
 * ![ícone de pesquisa](https://help.webex.com/images/search-icon.svg)
 * ![Assistente de IA da Cisco para Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Introdução](https://help.webex.com/pt-br/getting-started)
   * [Ajuda por produto](https://help.webex.com/pt-br/products)
   * [Administração](https://help.webex.com/pt-br/administration)
@@ -83,7 +86,7 @@ Este artigo foi útil?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Obrigado pelos seus comentários.
 ![](https://help.webex.com/images/thumbs-up.svg)Sim, obrigado!![](https://help.webex.com/images/thumbs-down.svg)Na verdade não
-12 de junho de 2025 | 37423 visualização(ões) | 48 pessoas acharam que isso foi útil
+12 de junho de 2025 | 37425 visualização(ões) | 48 pessoas acharam que isso foi útil
 ![](https://help.webex.com/images/print-icon-new.svg)
 Inscrever-se
 # Ajuste as configurações da câmera de forma Board, Mesa e Série de salas
@@ -146,7 +149,7 @@ Visualizados recentemente
   * [Board, Masa ve Oda Serisinde selfview'e erişme ve ayarlama](https://help.webex.com/pt-br/article/6895sz)
   * [Nije uspjelo ponovno registriranje postojećeg Expressway priključka na vašu organizaciju Cisco Webex hibridnih usluga](https://help.webex.com/pt-br/article/WBX000028847)
   * [Non si accede all'app desktop Webex Meetings o agli Strumenti di produttività (PT).](https://help.webex.com/pt-br/article/WBX48595)
-  * [Mostrar la información del directorio de usuarios en las tarjetas de contacto en la aplicación Webex.](https://help.webex.com/pt-br/article/7dthy9)
+  * [Konfigurirajte i izmijenite postavke uređaja u usluzi Webex Calling](https://help.webex.com/pt-br/article/uil72l)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

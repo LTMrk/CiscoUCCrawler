@@ -83,7 +83,7 @@ A fost util acest articol?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Mulțumim pentru feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, mulțumim!![](https://help.webex.com/images/thumbs-down.svg)Nu chiar
-16 aprilie 2026 | 13693 vizualizare(ări) | 7 persoane au considerat că este util
+16 aprilie 2026 | 13704 vizualizare(ări) | 7 persoane au considerat că este util
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonare
 # Cisco Jabber Articole utilizator și administrare
@@ -101,8 +101,8 @@ Vizualizate recent
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Diagnostica avanzata e risoluzione dei problemi per le tue riunioni Webex for Government in Control Hub](https://help.webex.com/ro-ro/article/1mmd43)
   * [Съобщения на екипа на Cisco Jabber](https://help.webex.com/ro-ro/article/nki4ba4)
-  * [Where can I find more information about the Cisco Headset 700 Series?](https://help.webex.com/ro-ro/article/g6ekes)
-  * [Proxystöd för hybrid datasäkerhet och videonät](https://help.webex.com/ro-ro/article/maj0a6)
+  * [Administrasjon av Cisco Room USB](https://help.webex.com/ro-ro/article/okk7ms)
+  * [在安排培训课程时添加测验](https://help.webex.com/ro-ro/article/6hkiil)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

@@ -2,6 +2,9 @@ Gå vidare till innehåll[![webex-logo](https://help.webex.com/logo/webexlogo.pn
 * ![sökikon](https://help.webex.com/images/search-icon.svg)Sök...Ctrl K
 * ![sökikon](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant för Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Kom igång](https://help.webex.com/sv-se/getting-started)
   * [Hjälp efter produkt](https://help.webex.com/sv-se/products)
   * [Administration](https://help.webex.com/sv-se/administration)
@@ -86,7 +89,7 @@ Var den här artikeln användbar?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Tack för din feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja tack!![](https://help.webex.com/images/thumbs-down.svg)Inte riktigt
-24 april 2026 | 653 visning(ar) | 0 personer tyckte att detta var till hjälp
+24 april 2026 | 654 visning(ar) | 0 personer tyckte att detta var till hjälp
 ![](https://help.webex.com/images/print-icon-new.svg)
 Prenumerera
 # Starta ett möte i Webex Meetings och mobilappen
@@ -131,9 +134,9 @@ Var den här artikeln användbar?
 Senaste visade
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Cisco Jabber Članci o korisnicima i administraciji](https://help.webex.com/sv-se/article/1pwgym)
-  * [使用 Webex Meetings 行動應用程式在活動和訓練課程中提出意見反應](https://help.webex.com/sv-se/article/mp2jz)
-  * [Filtrirajte i sortirajte pitanja u Slido](https://help.webex.com/sv-se/article/1yh9vx)
-  * [Настройте шаблони за автоматично присвояване на лицензи за потребителите на Webex Calling](https://help.webex.com/sv-se/article/n8iptxg)
+  * [Detectare alarmă pe dispozitivele din seriile Board, Desk și Room](https://help.webex.com/sv-se/article/n76l9zbb)
+  * [Izbrišite sadržaj sastanka i vebinara koji je kreirao Webex Assistant za sastanke](https://help.webex.com/sv-se/article/3cotpr)
+  * [CTI sans frontières pour l’instance dédiée](https://help.webex.com/sv-se/article/6yojgab)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

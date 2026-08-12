@@ -89,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 感谢您的反馈。
 ![](https://help.webex.com/images/thumbs-up.svg)是的，谢谢！![](https://help.webex.com/images/thumbs-down.svg)不完全是
-2025年2月19日 | 1723 次查看 | 3 人认为有帮助
+2025年2月19日 | 1724 次查看 | 3 人认为有帮助
 ![](https://help.webex.com/images/print-icon-new.svg)
 订阅
 # 基于网络的 Webex Meetings、Webex Training 或 Webex Events 录制文件的播放控制选项
@@ -132,9 +132,9 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 最近查看
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Novedades de UCM Cloud](https://help.webex.com/zh-cn/article/6f5s54)
+  * [Brug Webex Go på din mobiltelefon](https://help.webex.com/zh-cn/article/ng0os0ab)
   * [Det gick inte att visa chattkonversationen som skedde innan jag deltog i Webex Meetings](https://help.webex.com/zh-cn/article/WBX9000035356)
   * [Manage call recording for Webex Calling](https://help.webex.com/zh-cn/article/ilga4)
-  * [Fel: ”Begäran misslyckades med statuskod 400” vid start Slido i ett möte](https://help.webex.com/zh-cn/article/WBX9000034465)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

@@ -86,7 +86,7 @@ Czy ten artykuł był pomocny?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Dziękujemy za opinię.
 ![](https://help.webex.com/images/thumbs-up.svg)Tak, dziękuję!![](https://help.webex.com/images/thumbs-down.svg)Niezupełnie
-09 grudnia 2024 | 777 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
+09 grudnia 2024 | 778 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/print-icon-new.svg)
 Subskrybuj
 Instalacja nowej słuchawki DECT
@@ -206,9 +206,9 @@ Czy ten artykuł był pomocny?
 Ostatnio przeglądane
 ![](https://help.webex.com/images/arrow-down_20_closed.svg)
   * [Używanie zestawu nagłownego USB z telefonem Cisco z serii 8800 Multiplatform Firmware](https://help.webex.com/pl-pl/article/o87r6f)
-  * [Kapacity aplikací | Webex](https://help.webex.com/pl-pl/article/n8vw82eb)
-  * [Configure the Web Engine on Board, Desk, and Room Series devices](https://help.webex.com/pl-pl/article/nvt0sa9)
-  * [Aplikace Webex | Kliknutím zavoláte z jiné aplikace](https://help.webex.com/pl-pl/article/n87vxwfb)
+  * [Advanced diagnostics and troubleshooting for your Webex for Government meetings in Control Hub](https://help.webex.com/pl-pl/article/1mmd43)
+  * [Sæt paneler ind og ud i Webex-møder](https://help.webex.com/pl-pl/article/wum32)
+  * [Преглед на отчети в User Hub](https://help.webex.com/pl-pl/article/47hkcw)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

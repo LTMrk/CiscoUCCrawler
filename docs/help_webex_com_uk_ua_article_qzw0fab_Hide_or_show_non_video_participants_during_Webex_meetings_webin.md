@@ -86,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Дякуємо за відгук.
 ![](https://help.webex.com/images/thumbs-up.svg)Так, дякую!![](https://help.webex.com/images/thumbs-down.svg)Не дуже
-13 березня 2026 р. | 1413 переглядів | 0 — користувачі, які вважають цей матеріал корисним
+13 березня 2026 р. | 1414 переглядів | 0 — користувачі, які вважають цей матеріал корисним
 ![](https://help.webex.com/images/print-icon-new.svg)
 Оформити передплату
 # Приховування або показ учасників без відеозв'язку під час зустрічей та вебінарів

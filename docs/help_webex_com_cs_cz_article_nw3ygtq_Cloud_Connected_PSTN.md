@@ -90,7 +90,7 @@ Operační systémy
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-03. června 2025 | 941 zobrazení | 0 osob/y, podle nichž byl obsah užitečný
+03. června 2025 | 942 zobrazení | 0 osob/y, podle nichž byl obsah užitečný
 ![](https://help.webex.com/images/vector.svg)
 Přihlásit se k odběru
 Byl tento článek užitečný?
@@ -185,8 +185,8 @@ Naposledy zobrazené
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Cisco Jabber Articole utilizator și administrare](https://help.webex.com/cs-cz/article/1pwgym)
   * [유선 전화에서 기본 전화 걸기](https://help.webex.com/cs-cz/article/nfih595)
-  * [Cisco IP Phone Pornire rapidă pentru apelarea în aplicația Webex (Unified CM)](https://help.webex.com/cs-cz/article/nv3h903)
-  * [Apeluri cu apelare rapidă pe receptorul DECT](https://help.webex.com/cs-cz/article/nu7vxeg)
+  * [Depanarea și întreținerea căștilor Cisco seria 560](https://help.webex.com/cs-cz/article/n0z4ueb)
+  * [Instalați noul dvs. receptor DECT](https://help.webex.com/cs-cz/article/okkepcb)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

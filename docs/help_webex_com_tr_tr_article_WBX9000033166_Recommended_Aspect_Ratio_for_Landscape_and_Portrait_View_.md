@@ -86,7 +86,7 @@ Bu makale yararlı oldu mu?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Geri bildiriminiz için teşekkürler.
 ![](https://help.webex.com/images/thumbs-up.svg)Evet, teşekkürler!![](https://help.webex.com/images/thumbs-down.svg)Pek değil
-10 Nisan 2026 | 319 görüntüleme(ler) | 0 kişi bunun yararlı olduğunu düşündü
+10 Nisan 2026 | 320 görüntüleme(ler) | 0 kişi bunun yararlı olduğunu düşündü
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abone Olun
 Android İçin Cisco Webex Meetings Uygulamasında Yatay ve Dikey Görünüm İçin Önerilen En Boy Oranı
@@ -113,10 +113,10 @@ Bu makale yararlı oldu mu?
 
 En Son Görüntülenenler
 ![](https://help.webex.com/images/arrow-down_20.svg)
+  * [Düşük Bant Genişliğine Sahip Katılımcılar Webex HQ veya HD Video Görüntüleyebilir ya da Paylaşabilir mi?](https://help.webex.com/tr-tr/article/WBX59760)
   * [Microsoft Windows’da Webex Izleyici Günlüklerini Yakalama](https://help.webex.com/tr-tr/article/WBX000026383)
   * [Fel: "Det går inte att ansluta till ljud" när du Webex-ljud konferens.](https://help.webex.com/tr-tr/article/WBX9000033889)
   * [Uygulama veya Masaüstü Paylaşımı Sırasında Boş Beyaz Ekran](https://help.webex.com/tr-tr/article/WBX13788)
-  * [Det gick inte att hitta Google Play Store för att installera Webex Meetings-appen för Android för kinesiska fastlandet](https://help.webex.com/tr-tr/article/WBX9000033637)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

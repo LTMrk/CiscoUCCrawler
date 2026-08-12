@@ -89,7 +89,7 @@ Je li taj članak bio koristan?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Hvala na povratnim informacijama.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, hvala!![](https://help.webex.com/images/thumbs-down.svg)Ne baš
-10. kolovoza 2026. | 1084 prikaz(i) | 0 osobe(a) su to označile kao korisno
+10. kolovoza 2026. | 1085 prikaz(i) | 0 osobe(a) su to označile kao korisno
 ![](https://help.webex.com/images/print-icon-new.svg)
 Pretplata
 Konfiguracija virtualnih kućnih brojeva u okruženju Control Hub

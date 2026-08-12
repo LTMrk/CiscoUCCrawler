@@ -89,7 +89,7 @@ Czy ten artykuł był pomocny?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Dziękujemy za opinię.
 ![](https://help.webex.com/images/thumbs-up.svg)Tak, dziękuję!![](https://help.webex.com/images/thumbs-down.svg)Niezupełnie
-06 grudnia 2024 | 301 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
+06 grudnia 2024 | 302 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/print-icon-new.svg)
 Subskrybuj
 # Przekazywanie połączeń z Twojego analogowego telefonu

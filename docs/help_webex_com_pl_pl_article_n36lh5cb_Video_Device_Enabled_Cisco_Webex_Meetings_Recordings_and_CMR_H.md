@@ -2,6 +2,9 @@ Przejdź do treści[![webex-logo](https://help.webex.com/logo/webexlogo.png)Cent
 * ![ikona wyszukiwania](https://help.webex.com/images/search-icon.svg)Wyszukaj...Ctrl K
 * ![ikona wyszukiwania](https://help.webex.com/images/search-icon.svg)
 * ![Asystent AI Cisco dla Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Rozpocznij](https://help.webex.com/pl-pl/getting-started)
   * [Pomoc według produktu](https://help.webex.com/pl-pl/products)
   * [Administrowanie](https://help.webex.com/pl-pl/administration)
@@ -86,7 +89,7 @@ Czy ten artykuł był pomocny?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Dziękujemy za opinię.
 ![](https://help.webex.com/images/thumbs-up.svg)Tak, dziękuję!![](https://help.webex.com/images/thumbs-down.svg)Niezupełnie
-24 kwietnia 2026 | 297 — liczba wyświetleń | 1 — liczba osób, które uznały to za pomocne
+24 kwietnia 2026 | 298 — liczba wyświetleń | 1 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/print-icon-new.svg)
 Subskrybuj
 # Nagrania spotkań Webex z obsługą urządzeń wideo
@@ -111,10 +114,10 @@ Czy ten artykuł był pomocny?
 ![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
 Ostatnio przeglądane
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Aankomende vergaderingen weergeven in User Hub](https://help.webex.com/pl-pl/article/1syxbj)
-  * [Lokale opnames inschakelen in Cisco Webex-sitebeheer](https://help.webex.com/pl-pl/article/5eg60b)
-  * [Stream dine Webex-møder, webinarer eller begivenheder på Twitter](https://help.webex.com/pl-pl/article/n74jsa8)
-  * [Безконтактното сдвояване не работи между Webex настолни клиенти и стайни устройства](https://help.webex.com/pl-pl/article/WBX000024538)
+  * [Inhoud delen in Webex Training](https://help.webex.com/pl-pl/article/ngpfivv)
+  * [Configurar Webex UC conectada a la nube para dispositivos locales](https://help.webex.com/pl-pl/article/nzt6c0b)
+  * [Tests en beoordelingen in Webex Training](https://help.webex.com/pl-pl/article/n82bh9v)
+  * [Deelnemen aan een praktijklab in Webex Training](https://help.webex.com/pl-pl/article/n72bh9v)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

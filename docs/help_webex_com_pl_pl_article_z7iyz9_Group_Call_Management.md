@@ -3434,10 +3434,10 @@ Powiązane artykuły
 
 Ostatnio przeglądane
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Aflați mai multe despre asocierea site-urilor dvs. Webex cu Control Hub](https://help.webex.com/pl-pl/article/n98lqvl)
-  * [Încărcarea bateriei receptorului DECT](https://help.webex.com/pl-pl/article/n3aqkeq)
-  * [Konfigurowanie handlu elektronicznego dla swojej witryny Webex w usłudze Administrowanie witryną Cisco Webex](https://help.webex.com/pl-pl/article/ns9kodx)
-  * [Odbierz Ostrzeżenie W Przypadku Przekroczenia Pojemności Miejsca Do Przechowywania W Witrynie Webex](https://help.webex.com/pl-pl/article/npyqshab)
+  * [Ghid de implementare Enterprise Webex Meetings pentru întâlniri cu dispozitive video activate](https://help.webex.com/pl-pl/article/nmdp0hq)
+  * [Atribuirea rolului de gestionare a utilizatorilor în administrarea site-ului Webex](https://help.webex.com/pl-pl/article/nka5cbp)
+  * [Omogućite smernice za automatsko brisanje za Webex snimke](https://help.webex.com/pl-pl/article/nue0dlp)
+  * [مثيل مخصص لـ Webex Calling - التكوين الأساسي](https://help.webex.com/pl-pl/article/2vpf1)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

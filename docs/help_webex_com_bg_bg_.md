@@ -1,7 +1,6 @@
 Преминаване към съдържанието[![webex-logo](https://help.webex.com/logo/webexlogo.png)Помощен център](https://help.webex.com/bg-bg)
 * ![икона за търсене](https://help.webex.com/images/search-icon.svg)Търсене...Ctrl K
 * ![икона за търсене](https://help.webex.com/images/search-icon.svg)
-* ![Cisco AI Assistant за Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
   * [Първи стъпки](https://help.webex.com/bg-bg/getting-started)
   * [Помощ по продукт](https://help.webex.com/bg-bg/products)
   * [Администриране](https://help.webex.com/bg-bg/administration)
@@ -28,7 +27,6 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![webex](https://help.webex.com/logo/webexsmall.png)[Download Webex](https://www.webex.com/downloads.html)
 [+1-888-469-3239](tel:+1-888-469-3239)[Contact Sales →](https://www.webex.com/contact-sales.html)
   * ![икона за търсене](https://help.webex.com/images/search-icon.svg)Търсене...Ctrl K
-  * ![Cisco AI Assistant за Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
   * Български
     * [ Dansk ](https://help.webex.com/da-dk/)
     * [ Deutsch ](https://help.webex.com/de-de/)

@@ -89,7 +89,7 @@ War dieser Artikel hilfreich für Sie?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Danke für Ihr Feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, vielen Dank!![](https://help.webex.com/images/thumbs-down.svg)Eigentlich nicht
-16. März 2026 | 2138 Ansicht(en) | 1 Personen fanden das hilfreich
+16. März 2026 | 2139 Ansicht(en) | 1 Personen fanden das hilfreich
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonnieren
 # Webex-App | Wiederherstellen von Teams

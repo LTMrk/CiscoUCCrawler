@@ -89,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 感谢您的反馈。
 ![](https://help.webex.com/images/thumbs-up.svg)是的，谢谢！![](https://help.webex.com/images/thumbs-down.svg)不完全是
-2026年4月24日 | 1088 次查看 | 1 人认为有帮助
+2026年4月24日 | 1089 次查看 | 1 人认为有帮助
 ![](https://help.webex.com/images/print-icon-new.svg)
 订阅
 # 从 Webex Meetings 移动应用程序中断开 Google Home 设备的链接
@@ -116,7 +116,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
   * [Hvad er Webex Go](https://help.webex.com/zh-cn/article/n2fha94)
   * [Brug Webex Go på din mobiltelefon](https://help.webex.com/zh-cn/article/ng0os0ab)
   * [Administrer Webex Go-enhed](https://help.webex.com/zh-cn/article/f88pdeb)
-  * [Doživljavate loš kvalitet zvuka na slušalicama](https://help.webex.com/zh-cn/article/n88bsp3)
+  * [Aplicación de Webex | Filtrar sus @ Menciones](https://help.webex.com/zh-cn/article/nr6yt2r)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

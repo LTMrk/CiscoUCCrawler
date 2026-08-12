@@ -93,7 +93,7 @@ Operativsystemer
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-12. december 2025 | 3124 visning(er) | 0 personer fandt dette nyttigt
+12. december 2025 | 3126 visning(er) | 0 personer fandt dette nyttigt
 ![](https://help.webex.com/images/vector.svg)
 Abonner
 Var denne artikel nyttig?
@@ -182,8 +182,8 @@ Set for nyligt
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Brug Webex Go på din mobiltelefon](https://help.webex.com/da-dk/article/ng0os0ab)
   * [Administrer Webex Go-enhed](https://help.webex.com/da-dk/article/f88pdeb)
-  * [Doživljavate loš kvalitet zvuka na slušalicama](https://help.webex.com/da-dk/article/n88bsp3)
-  * [Moja slušalica se ne puni](https://help.webex.com/da-dk/article/n7vsft5)
+  * [Aplicación de Webex | Filtrar sus @ Menciones](https://help.webex.com/da-dk/article/nr6yt2r)
+  * [Webex Edge for Devices](https://help.webex.com/da-dk/article/cy2l2z)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

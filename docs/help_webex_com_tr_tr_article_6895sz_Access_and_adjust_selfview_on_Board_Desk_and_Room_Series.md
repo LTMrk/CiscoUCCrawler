@@ -2,6 +2,9 @@
 * ![arama simgesi](https://help.webex.com/images/search-icon.svg)Ara...Ctrl K
 * ![arama simgesi](https://help.webex.com/images/search-icon.svg)
 * ![Webex için Cisco AI Assistant](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Başlama](https://help.webex.com/tr-tr/getting-started)
   * [Ürüne göre yardım](https://help.webex.com/tr-tr/products)
   * [Yönetim](https://help.webex.com/tr-tr/administration)
@@ -83,7 +86,7 @@ Bu makale yararlı oldu mu?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Geri bildiriminiz için teşekkürler.
 ![](https://help.webex.com/images/thumbs-up.svg)Evet, teşekkürler!![](https://help.webex.com/images/thumbs-down.svg)Pek değil
-11 Haziran 2026 | 2229 görüntüleme(ler) | 0 kişi bunun yararlı olduğunu düşündü
+11 Haziran 2026 | 2230 görüntüleme(ler) | 0 kişi bunun yararlı olduğunu düşündü
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abone Olun
 Board, Masa ve Oda Serisinde selfview'e erişme ve ayarlama
@@ -138,8 +141,8 @@ En Son Görüntülenenler
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Nije uspjelo ponovno registriranje postojećeg Expressway priključka na vašu organizaciju Cisco Webex hibridnih usluga](https://help.webex.com/tr-tr/article/WBX000028847)
   * [Non si accede all'app desktop Webex Meetings o agli Strumenti di produttività (PT).](https://help.webex.com/tr-tr/article/WBX48595)
-  * [Mostrar la información del directorio de usuarios en las tarjetas de contacto en la aplicación Webex.](https://help.webex.com/tr-tr/article/7dthy9)
-  * [사용자가 전화 통화에 끼어들 수 있게 허용](https://help.webex.com/tr-tr/article/no2mhge)
+  * [Konfigurirajte i izmijenite postavke uređaja u usluzi Webex Calling](https://help.webex.com/tr-tr/article/uil72l)
+  * [Postanite partner tvrtke Cisco i počnite prodavati Cisco Webex](https://help.webex.com/tr-tr/article/nghgxfx)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

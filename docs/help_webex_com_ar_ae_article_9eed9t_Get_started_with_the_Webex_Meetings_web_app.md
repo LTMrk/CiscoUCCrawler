@@ -89,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # شكرًا على ملاحظاتك.
 ![](https://help.webex.com/images/thumbs-up.svg)نعم، شكرًا لك!![](https://help.webex.com/images/thumbs-down.svg)ليس فعليًا
-09 يوليو 2026 | 6435 طريقة (طرق) العرض | 5 اعتقد أشخاص أن هذا كان مفيدًا
+09 يوليو 2026 | 6436 طريقة (طرق) العرض | 5 اعتقد أشخاص أن هذا كان مفيدًا
 ![](https://help.webex.com/images/print-icon-new.svg)
 اشتراك
 ابدأ بعقد الاجتماعات في تطبيق Webex على الويب

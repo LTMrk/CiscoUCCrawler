@@ -2,6 +2,9 @@
 * ![搜索图标](https://help.webex.com/images/search-icon.svg)搜索...Ctrl K
 * ![搜索图标](https://help.webex.com/images/search-icon.svg)
 * ![适用于 Webex 的 Cisco AI 助手](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [入门](https://help.webex.com/zh-cn/getting-started)
   * [依产品提供的帮助](https://help.webex.com/zh-cn/products)
   * [管理](https://help.webex.com/zh-cn/administration)
@@ -83,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 感谢您的反馈。
 ![](https://help.webex.com/images/thumbs-up.svg)是的，谢谢！![](https://help.webex.com/images/thumbs-down.svg)不完全是
-2026年4月16日 | 22633 次查看 | 42 人认为有帮助
+2026年4月16日 | 22635 次查看 | 42 人认为有帮助
 ![](https://help.webex.com/images/print-icon-new.svg)
 订阅
 # Cisco Jabber 用户和管理文章
@@ -100,9 +103,9 @@ Cisco Jabber 的管理文章已移至 Cisco.com。 它们已被整理成 _[ Cisc
 最近查看
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Bluetooth Pairing Failed on a DX70 or DX80 in the Cisco Webex Room OS](https://help.webex.com/zh-cn/article/WBX000025869)
-  * [Integrera kalendrar med möteslistan i Webex Meetings appen](https://help.webex.com/zh-cn/article/nkyt47k)
-  * [Hoe gebruik ik Fiddler om webverkeer vast te leggen?](https://help.webex.com/zh-cn/article/WBX56995)
-  * [Csatlakozzon Microsoft Teams-értekezletekhez Board, Desk és Room sorozatú eszközökön](https://help.webex.com/zh-cn/article/n3r2ihu)
+  * [Hoe gebruik ik de HTTP Debugger om webverkeer vast te leggen?](https://help.webex.com/zh-cn/article/WBX9000026011)
+  * [SSO-fout: ' eenmalige aanmelding is mislukt. Ongeldige status code in antwoord '](https://help.webex.com/zh-cn/article/WBX9000009033)
+  * [Cisco Çağrı Planı numara taşıma yönergeleri ve politikaları](https://help.webex.com/zh-cn/article/01sijg)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

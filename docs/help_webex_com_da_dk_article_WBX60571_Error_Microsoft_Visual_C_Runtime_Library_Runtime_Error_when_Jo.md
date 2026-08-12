@@ -86,7 +86,7 @@ Var denne artikel nyttig?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Tak for din feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja tak!![](https://help.webex.com/images/thumbs-down.svg)Ikke rigtigt
-26. marts 2026 | 1156 visning(er) | 1 personer fandt dette nyttigt
+26. marts 2026 | 1158 visning(er) | 1 personer fandt dette nyttigt
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonner
 Fejl: "Kørselsfejl for Microsoft Visual C++ Runtime Library", når du deltager i et møde
@@ -123,9 +123,9 @@ Var denne artikel nyttig?
 Set for nyligt
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Konfiguruj kolejkę połączeń](https://help.webex.com/da-dk/article/nzkg083)
-  * [Aflați mai multe despre asocierea site-urilor dvs. Webex cu Control Hub](https://help.webex.com/da-dk/article/n98lqvl)
-  * [Încărcarea bateriei receptorului DECT](https://help.webex.com/da-dk/article/n3aqkeq)
-  * [Konfigurowanie handlu elektronicznego dla swojej witryny Webex w usłudze Administrowanie witryną Cisco Webex](https://help.webex.com/da-dk/article/ns9kodx)
+  * [Ghid de implementare Enterprise Webex Meetings pentru întâlniri cu dispozitive video activate](https://help.webex.com/da-dk/article/nmdp0hq)
+  * [Atribuirea rolului de gestionare a utilizatorilor în administrarea site-ului Webex](https://help.webex.com/da-dk/article/nka5cbp)
+  * [Omogućite smernice za automatsko brisanje za Webex snimke](https://help.webex.com/da-dk/article/nue0dlp)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

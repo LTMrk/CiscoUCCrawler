@@ -86,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-09 април 2025 г. | 1441 преглеждане(ия) | 0 души считат, че това е полезно
+09 април 2025 г. | 1442 преглеждане(ия) | 0 души считат, че това е полезно
 ![](https://help.webex.com/images/vector.svg)
 Абониране
 Беше ли полезна тази статия?
@@ -155,8 +155,8 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [基于网络的 Webex Meetings、Webex Training 或 Webex Events 录制文件的播放控制选项](https://help.webex.com/bg-bg/article/zey2h4)
   * [Novedades de UCM Cloud](https://help.webex.com/bg-bg/article/6f5s54)
+  * [Brug Webex Go på din mobiltelefon](https://help.webex.com/bg-bg/article/ng0os0ab)
   * [Det gick inte att visa chattkonversationen som skedde innan jag deltog i Webex Meetings](https://help.webex.com/bg-bg/article/WBX9000035356)
-  * [Manage call recording for Webex Calling](https://help.webex.com/bg-bg/article/ilga4)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

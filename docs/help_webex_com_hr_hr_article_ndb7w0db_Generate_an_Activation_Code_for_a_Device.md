@@ -2,6 +2,9 @@ Preskoči na sadržaj[![webex-logo](https://help.webex.com/logo/webexlogo.png)Ce
 * ![ikona traženja](https://help.webex.com/images/search-icon.svg)Pretraživanje...Ctrl K
 * ![ikona traženja](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant za Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Početak rada](https://help.webex.com/hr-hr/getting-started)
   * [Pomoć prema proizvodu](https://help.webex.com/hr-hr/products)
   * [Administracija](https://help.webex.com/hr-hr/administration)
@@ -79,7 +82,7 @@ Uloge
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-22. siječnja 2026. | 1379 prikaz(i) | 2 osobe(a) su to označile kao korisno
+22. siječnja 2026. | 1380 prikaz(i) | 2 osobe(a) su to označile kao korisno
 ![](https://help.webex.com/images/vector.svg)
 Pretplata
 Je li taj članak bio koristan?
@@ -134,8 +137,8 @@ Nedavno prikazano
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Webex 앱 | People Insights 프로필 보기](https://help.webex.com/hr-hr/article/fl4hyw)
   * [Statusi omogućavanja i pretplate u okruženju Control Hub](https://help.webex.com/hr-hr/article/nctesy)
-  * [Cisco Jabber Kullanıcı ve Yönetim Makaleleri](https://help.webex.com/hr-hr/article/1pwgym)
-  * [启用或禁用 Webex 标签页](https://help.webex.com/hr-hr/article/n9yjwceb)
+  * [Aktivér politikken for automatisk sletning for Webex-optagelser](https://help.webex.com/hr-hr/article/nue0dlp)
+  * [Configurer la compression des données](https://help.webex.com/hr-hr/article/cyg1ibb)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

@@ -2,6 +2,9 @@ Ir para o conteúdo[![webex-logo](https://help.webex.com/logo/webexlogo.png)Cent
 * ![ícone de pesquisa](https://help.webex.com/images/search-icon.svg)Procurar...Ctrl K
 * ![ícone de pesquisa](https://help.webex.com/images/search-icon.svg)
 * ![Assistente de IA da Cisco para Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Introdução](https://help.webex.com/pt-br/getting-started)
   * [Ajuda por produto](https://help.webex.com/pt-br/products)
   * [Administração](https://help.webex.com/pt-br/administration)
@@ -86,7 +89,7 @@ Este artigo foi útil?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Obrigado pelos seus comentários.
 ![](https://help.webex.com/images/thumbs-up.svg)Sim, obrigado!![](https://help.webex.com/images/thumbs-down.svg)Na verdade não
-11 de agosto de 2026 | 2589 visualização(ões) | 3 pessoas acharam que isso foi útil
+11 de agosto de 2026 | 2590 visualização(ões) | 3 pessoas acharam que isso foi útil
 ![](https://help.webex.com/images/print-icon-new.svg)
 Inscrever-se
 Alterar o endereço de e-mail para a sua conta
@@ -115,7 +118,7 @@ Visualizados recentemente
   * [Cisco Proximity 4.0: Skyparing](https://help.webex.com/pt-br/article/n1v31g9)
   * [Aggiungi un widget dell'app Webex](https://help.webex.com/pt-br/article/mze7bh)
   * [Bluetooth Pairing Failed on a DX70 or DX80 in the Cisco Webex Room OS](https://help.webex.com/pt-br/article/WBX000025869)
-  * [Cisco Jabber статьи о пользователях и администраторах](https://help.webex.com/pt-br/article/1pwgym)
+  * [Hoe gebruik ik de HTTP Debugger om webverkeer vast te leggen?](https://help.webex.com/pt-br/article/WBX9000026011)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

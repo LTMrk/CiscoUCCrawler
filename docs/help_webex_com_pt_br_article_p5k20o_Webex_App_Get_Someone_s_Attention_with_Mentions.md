@@ -89,7 +89,7 @@ Este artigo foi útil?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Obrigado pelos seus comentários.
 ![](https://help.webex.com/images/thumbs-up.svg)Sim, obrigado!![](https://help.webex.com/images/thumbs-down.svg)Na verdade não
-20 de março de 2026 | 1271 visualização(ões) | 1 pessoas acharam que isso foi útil
+20 de março de 2026 | 1272 visualização(ões) | 1 pessoas acharam que isso foi útil
 ![](https://help.webex.com/images/print-icon-new.svg)
 Inscrever-se
 # Aplicativo Webex | Chame a atenção de alguém com @Mentions
@@ -111,9 +111,9 @@ Artigos relacionados
 Visualizados recentemente
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [如何联系 Cisco Webex 销售人员？](https://help.webex.com/pt-br/article/WBX000022806)
-  * [Webex Contact Center에 대한 음성 채널 설정](https://help.webex.com/pt-br/article/2dputx)
-  * [Mesagerie în echipă Cisco Jabber](https://help.webex.com/pt-br/article/nki4ba4)
-  * [Brojevi poziva se ne pojavljuju po abecednom redosledu na globalnoj listi brojeva poziva za CCA-SP kupce](https://help.webex.com/pt-br/article/WBX000026408)
+  * [Kako da rukujem namenskim portovima (dok me ne podrži portal CCA-SP)?](https://help.webex.com/pt-br/article/WBX000026962)
+  * [Zašto se moj portal ne pojavljuje na PORTALU CCA-SP?](https://help.webex.com/pt-br/article/WBX000026410)
+  * [USB 착신 전환: 마우스 또는 키보드를 Desk Pro에 연결](https://help.webex.com/pt-br/article/nvadeve)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

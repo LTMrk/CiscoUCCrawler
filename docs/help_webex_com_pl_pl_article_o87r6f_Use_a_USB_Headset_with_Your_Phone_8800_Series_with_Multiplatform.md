@@ -85,7 +85,7 @@ Modele urządzeń
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-11 grudnia 2024 | 528 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
+11 grudnia 2024 | 530 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/vector.svg)
 Subskrybuj
 Czy ten artykuł był pomocny?
@@ -124,10 +124,10 @@ Czy ten artykuł był pomocny?
 ![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
 Ostatnio przeglądane
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Kapacity aplikací | Webex](https://help.webex.com/pl-pl/article/n8vw82eb)
-  * [Configure the Web Engine on Board, Desk, and Room Series devices](https://help.webex.com/pl-pl/article/nvt0sa9)
-  * [Aplikace Webex | Kliknutím zavoláte z jiné aplikace](https://help.webex.com/pl-pl/article/n87vxwfb)
-  * [Webex 應用程式 | 檢視從 Google 雲端硬碟共用的檔案](https://help.webex.com/pl-pl/article/m4ukjr)
+  * [Advanced diagnostics and troubleshooting for your Webex for Government meetings in Control Hub](https://help.webex.com/pl-pl/article/1mmd43)
+  * [Sæt paneler ind og ud i Webex-møder](https://help.webex.com/pl-pl/article/wum32)
+  * [Преглед на отчети в User Hub](https://help.webex.com/pl-pl/article/47hkcw)
+  * [Интеграция системы единого входа в Control Hub](https://help.webex.com/pl-pl/article/lfu88u)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

@@ -83,7 +83,7 @@ Vond u dit artikel nuttig?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Hartelijk dank voor uw feedback
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, bedankt!![](https://help.webex.com/images/thumbs-down.svg)Niet echt
-06 december 2024 | 640 weergave(n) | 0 personen vonden dit nuttig
+06 december 2024 | 642 weergave(n) | 0 personen vonden dit nuttig
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonneren
 # De taal voor audiomededelingen en e-mailcommunicatie bijwerken

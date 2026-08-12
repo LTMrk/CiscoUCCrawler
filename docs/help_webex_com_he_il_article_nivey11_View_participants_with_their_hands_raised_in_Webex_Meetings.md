@@ -88,7 +88,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-24 באפריל 2026 | 1651 תצוגות | 0 אנשים חשבו שזה היה מועיל
+24 באפריל 2026 | 1652 תצוגות | 0 אנשים חשבו שזה היה מועיל
 ![](https://help.webex.com/images/vector.svg)
 הירשם כמנוי
 האם המאמר הועיל לך?
@@ -131,8 +131,8 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [התחל פגישה ביישום שולחן העבודה Webex Meetings וביישום למכשירים ניידים](https://help.webex.com/he-il/article/niif9tab)
   * [הפוך משתתף אחר למארח ועזוב את פגישת החדר האישי של Webex](https://help.webex.com/he-il/article/ni1zit2)
-  * [تحديد إعدادات الفيديو المتقدمة لتطبيق Webex Meetings](https://help.webex.com/he-il/article/n3t9lrab)
-  * [عناوين Webex SIP في Control Hub](https://help.webex.com/he-il/article/n3ltzqcb)
+  * [Рекомендоване співвідношення сторін для пейзажного та портретного перегляду в додатку Cisco Webex Meetings для Android](https://help.webex.com/he-il/article/WBX9000033166)
+  * [Blank hvid skærm ved applikations- eller desktop-deling](https://help.webex.com/he-il/article/WBX13788)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

@@ -83,7 +83,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 感谢您的反馈。
 ![](https://help.webex.com/images/thumbs-up.svg)是的，谢谢！![](https://help.webex.com/images/thumbs-down.svg)不完全是
-2024年12月05日 | 1224 次查看 | 3 人认为有帮助
+2024年12月05日 | 1226 次查看 | 3 人认为有帮助
 ![](https://help.webex.com/images/print-icon-new.svg)
 订阅
 如何联系 Cisco Webex 销售人员？
@@ -101,10 +101,10 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
 最近查看
 ![](https://help.webex.com/images/arrow-down_20.svg)
+  * [Kako da rukujem namenskim portovima (dok me ne podrži portal CCA-SP)?](https://help.webex.com/zh-cn/article/WBX000026962)
+  * [Zašto se moj portal ne pojavljuje na PORTALU CCA-SP?](https://help.webex.com/zh-cn/article/WBX000026410)
+  * [USB 착신 전환: 마우스 또는 키보드를 Desk Pro에 연결](https://help.webex.com/zh-cn/article/nvadeve)
   * [Webex Contact Center에 대한 음성 채널 설정](https://help.webex.com/zh-cn/article/2dputx)
-  * [Mesagerie în echipă Cisco Jabber](https://help.webex.com/zh-cn/article/nki4ba4)
-  * [Brojevi poziva se ne pojavljuju po abecednom redosledu na globalnoj listi brojeva poziva za CCA-SP kupce](https://help.webex.com/zh-cn/article/WBX000026408)
-  * [Cloudově připojená PSTN pro dedikovanou instanci](https://help.webex.com/zh-cn/article/nw3ygtq)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

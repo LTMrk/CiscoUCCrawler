@@ -2,6 +2,9 @@ Skip To Content[![webex-logo](https://help.webex.com/logo/webexlogo.png)Help Cen
 * ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
 * ![search icon](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant for Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Get started](https://help.webex.com/en-us/getting-started)
   * [Help by product](https://help.webex.com/en-us/products)
   * [Administration](https://help.webex.com/en-us/administration)
@@ -83,7 +86,7 @@ Was this article helpful?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Thanks for your feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Yes, thank you!![](https://help.webex.com/images/thumbs-down.svg)Not really
-June 08, 2026 | 2465 view(s) | 7 people thought this was helpful
+June 08, 2026 | 2466 view(s) | 7 people thought this was helpful
 ![](https://help.webex.com/images/print-icon-new.svg)
 Subscribe
 Configure the cleanup timer on Board and Desk Series

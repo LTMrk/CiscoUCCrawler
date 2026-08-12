@@ -89,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 感謝您的意見回饋。
 ![](https://help.webex.com/images/thumbs-up.svg)是的，謝謝！![](https://help.webex.com/images/thumbs-down.svg)不完全是
-2024年12月04日 | 253 次檢視 | 0 人認為這有幫助
+2024年12月04日 | 254 次檢視 | 0 人認為這有幫助
 ![](https://help.webex.com/images/print-icon-new.svg)
 訂閱
 # 連接Cisco 耳機730 USB-C 纜線
@@ -117,7 +117,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
   * [開始使用您的 Cisco 耳機 730](https://help.webex.com/zh-tw/article/nxxey0cb)
   * [İş Ortağı Yöneticileri Oturumda Müşterilerinin Listelenenlerini Cisco Webex Control Hub](https://help.webex.com/zh-tw/article/WBX000024434)
   * [Az emberekre való fókuszálás a Board, Desk és Room sorozaton](https://help.webex.com/zh-tw/article/n997hz9)
-  * [Webex 앱 | 통화 또는 미팅 중에 장치 오디오 및 비디오 제어](https://help.webex.com/zh-tw/article/n50c4uf)
+  * [DECT ハンドセットで Bluetooth ヘッドセットを使用する](https://help.webex.com/zh-tw/article/netttpw)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

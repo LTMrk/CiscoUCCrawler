@@ -83,7 +83,7 @@ Var den här artikeln användbar?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Tack för din feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja tack!![](https://help.webex.com/images/thumbs-down.svg)Inte riktigt
-09 december 2024 | 146 visning(ar) | 0 personer tyckte att detta var till hjälp
+09 december 2024 | 147 visning(ar) | 0 personer tyckte att detta var till hjälp
 ![](https://help.webex.com/images/print-icon-new.svg)
 Prenumerera
 Det gick inte att visa chattkonversationen som skedde innan jag deltog i Webex Meetings

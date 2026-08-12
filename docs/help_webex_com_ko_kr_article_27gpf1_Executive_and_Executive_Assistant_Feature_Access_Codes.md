@@ -2,6 +2,9 @@
 * ![검색 아이콘](https://help.webex.com/images/search-icon.svg)검색...Ctrl K
 * ![검색 아이콘](https://help.webex.com/images/search-icon.svg)
 * ![Webex용 Cisco AI Assistant](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [시작하기](https://help.webex.com/ko-kr/getting-started)
   * [제품별 도움말](https://help.webex.com/ko-kr/products)
   * [관리](https://help.webex.com/ko-kr/administration)
@@ -89,7 +92,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 피드백을 보내 주셔서 감사합니다.
 ![](https://help.webex.com/images/thumbs-up.svg)예, 감사합니다!![](https://help.webex.com/images/thumbs-down.svg)별로
-2024년 12월 02일 | 391 명이 봄 | 0 명이 이 정보가 유용하다고 평가했습니다.
+2024년 12월 02일 | 392 명이 봄 | 0 명이 이 정보가 유용하다고 평가했습니다.
 ![](https://help.webex.com/images/print-icon-new.svg)
 구독
 # 임원진 및 임원진 지원자 기능 액세스 코드

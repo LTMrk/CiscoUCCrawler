@@ -97,7 +97,7 @@ Sisteme de operare
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-21 februarie 2025 | 834 vizualizare(ări) | 0 persoane au considerat că este util
+21 februarie 2025 | 835 vizualizare(ări) | 0 persoane au considerat că este util
 ![](https://help.webex.com/images/vector.svg)
 Abonare
 A fost util acest articol?

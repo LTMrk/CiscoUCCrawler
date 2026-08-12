@@ -86,7 +86,7 @@ Byl tento článek užitečný?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Děkujeme za vaši zpětnou vazbu.
 ![](https://help.webex.com/images/thumbs-up.svg)Ano, děkuji!![](https://help.webex.com/images/thumbs-down.svg)Ne, díky
-19. února 2025 | 1629 zobrazení | 0 osob/y, podle nichž byl obsah užitečný
+19. února 2025 | 1630 zobrazení | 0 osob/y, podle nichž byl obsah užitečný
 ![](https://help.webex.com/images/print-icon-new.svg)
 Přihlásit se k odběru
 # Přidejte webové aplikace do Board a Desk Series

@@ -86,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 感謝您的意見回饋。
 ![](https://help.webex.com/images/thumbs-up.svg)是的，謝謝！![](https://help.webex.com/images/thumbs-down.svg)不完全是
-2024年12月06日 | 2634 次檢視 | 5 人認為這有幫助
+2024年12月06日 | 2635 次檢視 | 5 人認為這有幫助
 ![](https://help.webex.com/images/print-icon-new.svg)
 訂閱
 瀏覽器在嘗試加入會議時返回 HTTP 500 內部伺服器錯誤

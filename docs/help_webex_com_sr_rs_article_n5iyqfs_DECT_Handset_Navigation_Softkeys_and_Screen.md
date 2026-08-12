@@ -86,7 +86,7 @@ Da li je ovaj članak bio koristan?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Hvala na povratnim informacijama.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, hvala vam!![](https://help.webex.com/images/thumbs-down.svg)Ne baš
-05. децембар 2024. | 431 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
+05. децембар 2024. | 432 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
 ![](https://help.webex.com/images/print-icon-new.svg)
 Pretplati se
 Navigacija pomoću DECT slušalica, softverski tasteri i ekran
@@ -161,8 +161,8 @@ Nedavno pregledano
 ![](https://help.webex.com/images/arrow-down_20_closed.svg)
   * [Webex-App | Entfernen einer Person aus einem Team](https://help.webex.com/sr-rs/article/nswq2ry)
   * [Webex-App | Meeting- und Sicherheitsinformationen in einem Meeting finden](https://help.webex.com/sr-rs/article/ns55tip)
-  * [Konfigurera och hantera Webex Calling-enheter](https://help.webex.com/sr-rs/article/n9r1aac)
-  * [Tillgängliga funktioner efter licenstyp för Webex Calling](https://help.webex.com/sr-rs/article/n1qbbp7)
+  * [Aplikacja Webex | Przyciągnij uwagę wszystkich w przestrzeni](https://help.webex.com/sr-rs/article/tfqhfx)
+  * [Migrați de la Instrumente de productivitate la programul de completare Webex Scheduler](https://help.webex.com/sr-rs/article/nvx0mw4)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

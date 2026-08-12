@@ -2,6 +2,9 @@
 * ![икона за търсене](https://help.webex.com/images/search-icon.svg)Търсене...Ctrl K
 * ![икона за търсене](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant за Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Първи стъпки](https://help.webex.com/bg-bg/getting-started)
   * [Помощ по продукт](https://help.webex.com/bg-bg/products)
   * [Администриране](https://help.webex.com/bg-bg/administration)
@@ -83,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Благодарим за обратната връзка.
 ![](https://help.webex.com/images/thumbs-up.svg)Благодарим!![](https://help.webex.com/images/thumbs-down.svg)Не
-08 май 2025 г. | 350 преглеждане(ия) | 0 души считат, че това е полезно
+08 май 2025 г. | 351 преглеждане(ия) | 0 души считат, че това е полезно
 ![](https://help.webex.com/images/print-icon-new.svg)
 Абониране
 Безконтактното сдвояване не работи между Webex настолни клиенти и стайни устройства

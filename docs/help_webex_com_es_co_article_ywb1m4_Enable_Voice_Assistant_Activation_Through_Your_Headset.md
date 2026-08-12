@@ -89,7 +89,7 @@ Modelos de dispositivos
 ![close](https://help.webex.com/images/icn-close.svg)
 # Gracias por sus comentarios.
 ![](https://help.webex.com/images/thumbs-up.svg)Sí, gracias![](https://help.webex.com/images/thumbs-down.svg)En realidad no
-06 de diciembre de 2024 | 554 vista(s) | 0 personas pensaron que esto fue útil
+06 de diciembre de 2024 | 555 vista(s) | 0 personas pensaron que esto fue útil
 ![](https://help.webex.com/images/print-icon-new.svg)
 Suscribirse
 # Habilite el asistente de voz en la aplicación Auriculares de Cisco

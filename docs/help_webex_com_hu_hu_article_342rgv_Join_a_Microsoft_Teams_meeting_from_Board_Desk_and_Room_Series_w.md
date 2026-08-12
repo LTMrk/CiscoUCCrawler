@@ -2,6 +2,9 @@ Ugrás a tartalomhoz[![webex-logo](https://help.webex.com/logo/webexlogo.png)Sú
 * ![keresés ikon](https://help.webex.com/images/search-icon.svg)Keresés...Ctrl K
 * ![keresés ikon](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant a Webex számára](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Első lépések](https://help.webex.com/hu-hu/getting-started)
   * [Súgó termék szerint](https://help.webex.com/hu-hu/products)
   * [Felügyelet](https://help.webex.com/hu-hu/administration)
@@ -86,7 +89,7 @@ Hasznos volt ez a cikk?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Köszönjük visszajelzését.
 ![](https://help.webex.com/images/thumbs-up.svg)Igen, köszönöm!![](https://help.webex.com/images/thumbs-down.svg)Nem igazán
-2026. június 18. | 3513 megtekintés | 0 személy érezte ezt hasznosnak
+2026. június 18. | 3515 megtekintés | 0 személy érezte ezt hasznosnak
 ![](https://help.webex.com/images/print-icon-new.svg)
 Előfizetés
 Csatlakozzon Microsoft Teams-értekezletekhez Board, Desk és Room sorozatú eszközökön

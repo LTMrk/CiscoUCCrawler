@@ -2,6 +2,9 @@ Passa al contenuto[![webex-logo](https://help.webex.com/logo/webexlogo.png)Centr
 * ![icona di ricerca](https://help.webex.com/images/search-icon.svg)Cerca...Ctrl K
 * ![icona di ricerca](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant per Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Per iniziare](https://help.webex.com/it-it/getting-started)
   * [Guida per prodotto](https://help.webex.com/it-it/products)
   * [Amministrazione](https://help.webex.com/it-it/administration)
@@ -86,7 +89,7 @@ Questo articolo è stato utile?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Grazie per il feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Sì, grazie.![](https://help.webex.com/images/thumbs-down.svg)Non proprio
-16 marzo 2026 | 1094 vista/e | 0 persone pensano che sia stato utile
+16 marzo 2026 | 1095 vista/e | 0 persone pensano che sia stato utile
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abbonati
 # Aggiungi un widget dell'app Webex
@@ -119,9 +122,9 @@ Questo articolo è stato utile?
 Visualizzati di recente
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Bluetooth Pairing Failed on a DX70 or DX80 in the Cisco Webex Room OS](https://help.webex.com/it-it/article/WBX000025869)
-  * [Cisco Jabber статьи о пользователях и администраторах](https://help.webex.com/it-it/article/1pwgym)
-  * [Integrera kalendrar med möteslistan i Webex Meetings appen](https://help.webex.com/it-it/article/nkyt47k)
-  * [Hoe gebruik ik Fiddler om webverkeer vast te leggen?](https://help.webex.com/it-it/article/WBX56995)
+  * [Hoe gebruik ik de HTTP Debugger om webverkeer vast te leggen?](https://help.webex.com/it-it/article/WBX9000026011)
+  * [SSO-fout: ' eenmalige aanmelding is mislukt. Ongeldige status code in antwoord '](https://help.webex.com/it-it/article/WBX9000009033)
+  * [Cisco Çağrı Planı numara taşıma yönergeleri ve politikaları](https://help.webex.com/it-it/article/01sijg)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

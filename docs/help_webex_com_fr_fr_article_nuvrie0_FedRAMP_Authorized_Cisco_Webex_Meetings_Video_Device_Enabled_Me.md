@@ -2,6 +2,9 @@ Aller au Contenu[![webex-logo](https://help.webex.com/logo/webexlogo.png)Centre 
 * ![icône de recherche](https://help.webex.com/images/search-icon.svg)Rechercher...Ctrl K
 * ![icône de recherche](https://help.webex.com/images/search-icon.svg)
 * ![Assistant IA de Cisco](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Commencer](https://help.webex.com/fr-fr/getting-started)
   * [Aide par produit](https://help.webex.com/fr-fr/products)
   * [Administration](https://help.webex.com/fr-fr/administration)
@@ -83,7 +86,7 @@ Cet article était-il utile ?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Merci pour votre commentaire.
 ![](https://help.webex.com/images/thumbs-up.svg)Oui, merci !![](https://help.webex.com/images/thumbs-down.svg)Pas vraiment
-24 avril 2026 | 348 vue(s) | 0 personnes ont trouvé ceci utile
+24 avril 2026 | 349 vue(s) | 0 personnes ont trouvé ceci utile
 ![](https://help.webex.com/images/print-icon-new.svg)
 S’abonner
 # Réunions Webex Meetings autorisées par FedRAMP avec prise en charge des périphériques vidéo

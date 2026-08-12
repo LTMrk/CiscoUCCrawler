@@ -2,6 +2,9 @@
 * ![пиктограмма поиска](https://help.webex.com/images/search-icon.svg)Поиск...Ctrl K
 * ![пиктограмма поиска](https://help.webex.com/images/search-icon.svg)
 * ![Интеллектуальный помощник Cisco для Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Начало работы](https://help.webex.com/ru-ru/getting-started)
   * [Справка по продукту](https://help.webex.com/ru-ru/products)
   * [Администрирование](https://help.webex.com/ru-ru/administration)
@@ -83,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Благодарим вас за обратную связь.
 ![](https://help.webex.com/images/thumbs-up.svg)Да, спасибо!![](https://help.webex.com/images/thumbs-down.svg)Не совсем
-09 декабря 2024 г. | 776 – просмотры | 0 – пользователи, которые сочли этот материал полезным
+09 декабря 2024 г. | 777 – просмотры | 0 – пользователи, которые сочли этот материал полезным
 ![](https://help.webex.com/images/print-icon-new.svg)
 Подписаться
 Начало работы с трубкой Cisco IP DECT
@@ -133,9 +136,9 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 Недавно просмотренное
 ![](https://help.webex.com/images/arrow-down_20_closed.svg)
   * [Nagrania spotkań Webex z obsługą urządzeń wideo](https://help.webex.com/ru-ru/article/n36lh5cb)
-  * [Aankomende vergaderingen weergeven in User Hub](https://help.webex.com/ru-ru/article/1syxbj)
-  * [Lokale opnames inschakelen in Cisco Webex-sitebeheer](https://help.webex.com/ru-ru/article/5eg60b)
-  * [Stream dine Webex-møder, webinarer eller begivenheder på Twitter](https://help.webex.com/ru-ru/article/n74jsa8)
+  * [Inhoud delen in Webex Training](https://help.webex.com/ru-ru/article/ngpfivv)
+  * [Configurar Webex UC conectada a la nube para dispositivos locales](https://help.webex.com/ru-ru/article/nzt6c0b)
+  * [Tests en beoordelingen in Webex Training](https://help.webex.com/ru-ru/article/n82bh9v)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

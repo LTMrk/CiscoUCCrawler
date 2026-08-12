@@ -89,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 感謝您的意見回饋。
 ![](https://help.webex.com/images/thumbs-up.svg)是的，謝謝！![](https://help.webex.com/images/thumbs-down.svg)不完全是
-2025年7月30日 | 3542 次檢視 | 11 人認為這有幫助
+2025年7月30日 | 3543 次檢視 | 11 人認為這有幫助
 ![](https://help.webex.com/images/print-icon-new.svg)
 訂閱
 # 開始使用您的 Cisco 耳機 730
@@ -184,8 +184,8 @@ Cisco 耳機 730附有 USB 配接器，可用於沒有提供可靠藍牙解決�
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [İş Ortağı Yöneticileri Oturumda Müşterilerinin Listelenenlerini Cisco Webex Control Hub](https://help.webex.com/zh-tw/article/WBX000024434)
   * [Az emberekre való fókuszálás a Board, Desk és Room sorozaton](https://help.webex.com/zh-tw/article/n997hz9)
-  * [Webex 앱 | 통화 또는 미팅 중에 장치 오디오 및 비디오 제어](https://help.webex.com/zh-tw/article/n50c4uf)
-  * [Twórz szablony spotkań Webex dla swojej wirtualnej klasy](https://help.webex.com/zh-tw/article/slc96m)
+  * [DECT ハンドセットで Bluetooth ヘッドセットを使用する](https://help.webex.com/zh-tw/article/netttpw)
+  * [ Установите многоплатформовые телефоны Cisco IP Phone серий 7800 и 8800 на стене](https://help.webex.com/zh-tw/article/n3vaq4i)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

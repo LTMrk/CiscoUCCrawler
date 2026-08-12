@@ -2,6 +2,9 @@ Skip To Content[![webex-logo](https://help.webex.com/logo/webexlogo.png)Help Cen
 * ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
 * ![search icon](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant for Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Get started](https://help.webex.com/en-us/getting-started)
   * [Help by product](https://help.webex.com/en-us/products)
   * [Administration](https://help.webex.com/en-us/administration)
@@ -90,7 +93,7 @@ Operating systems
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-November 26, 2025 | 29446 view(s) | 142 people thought this was helpful
+November 26, 2025 | 29450 view(s) | 142 people thought this was helpful
 ![](https://help.webex.com/images/vector.svg)
 Subscribe
 Was this article helpful?
@@ -180,7 +183,7 @@ Recently Viewed
   * [Android용 앱 오류의 목록은 어디에서 Webex Meetings 있습니까?](https://help.webex.com/en-us/article/WBX9000016908)
   * [Starta ett möte i Webex Meetings och mobilappen](https://help.webex.com/en-us/article/niif9tab)
   * [Cisco Jabber Članci o korisnicima i administraciji](https://help.webex.com/en-us/article/1pwgym)
-  * [使用 Webex Meetings 行動應用程式在活動和訓練課程中提出意見反應](https://help.webex.com/en-us/article/mp2jz)
+  * [Detectare alarmă pe dispozitivele din seriile Board, Desk și Room](https://help.webex.com/en-us/article/n76l9zbb)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

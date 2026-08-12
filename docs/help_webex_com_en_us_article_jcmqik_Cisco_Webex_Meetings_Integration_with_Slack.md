@@ -89,7 +89,7 @@ Was this article helpful?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Thanks for your feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Yes, thank you!![](https://help.webex.com/images/thumbs-down.svg)Not really
-April 11, 2026 | 77903 view(s) | 304 people thought this was helpful
+April 11, 2026 | 77904 view(s) | 304 people thought this was helpful
 ![](https://help.webex.com/images/print-icon-new.svg)
 Subscribe
 # Webex Meetings integration with Slack
@@ -132,10 +132,10 @@ Was this article helpful?
 ![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
 Recently Viewed
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Promenite uloge tokom sastanka na Desk i Room Series](https://help.webex.com/en-us/article/nkv30u5)
-  * [Isključite video prenos tokom sastanka u Seriji Board, Desk i Room](https://help.webex.com/en-us/article/njk6e0i)
-  * [Otvaranje Microsoft OneDrive belih tabli na uređajima serije Board i Desk](https://help.webex.com/en-us/article/njjlcwt)
-  * [Koristite serije Board, Desk i Room sa aplikacijom Webex](https://help.webex.com/en-us/article/nj0al88)
+  * [مثال](https://help.webex.com/en-us/article/nhqh1mf)
+  * [استخدام Board وDesk Series مع مسافات Webex](https://help.webex.com/en-us/article/ngybf7w)
+  * [قم بتكوين مؤقت التنظيف على Board و Desk Series](https://help.webex.com/en-us/article/nfadkjp)
+  * [Rešavanje problema sa uređajem Board, Desk i Room Series ](https://help.webex.com/en-us/article/o9j6zx)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

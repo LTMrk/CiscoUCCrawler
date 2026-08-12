@@ -86,7 +86,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Благодарим вас за обратную связь.
 ![](https://help.webex.com/images/thumbs-up.svg)Да, спасибо!![](https://help.webex.com/images/thumbs-down.svg)Не совсем
-30 апреля 2025 г. | 979 – просмотры | 0 – пользователи, которые сочли этот материал полезным
+30 апреля 2025 г. | 980 – просмотры | 0 – пользователи, которые сочли этот материал полезным
 ![](https://help.webex.com/images/print-icon-new.svg)
 Подписаться
 # Реакции на совещаниях на устройствах Cisco
@@ -123,8 +123,8 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Протокол CDP (Cisco Discovery Protocol) на устройствах серии Board, Desk и Room](https://help.webex.com/ru-ru/article/rot4m5)
   * [Мануально настраивать настройки камеры на Board, столе и номере](https://help.webex.com/ru-ru/article/rjmy3cb)
-  * [Какво е новото в RTM на едро](https://help.webex.com/ru-ru/article/naxx10)
-  * [الميزات الجديدة في Webex Calling](https://help.webex.com/ru-ru/article/rdmb0)
+  * [Aktiver Webex Go på din mobiltelefon](https://help.webex.com/ru-ru/article/qajdar)
+  * [Nyheder i rtm, der giver andre muligheder](https://help.webex.com/ru-ru/article/naxx10)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

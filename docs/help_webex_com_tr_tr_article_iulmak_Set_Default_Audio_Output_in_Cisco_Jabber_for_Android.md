@@ -83,7 +83,7 @@ Bu makale yararlı oldu mu?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Geri bildiriminiz için teşekkürler.
 ![](https://help.webex.com/images/thumbs-up.svg)Evet, teşekkürler!![](https://help.webex.com/images/thumbs-down.svg)Pek değil
-16 Nisan 2026 | 18463 görüntüleme(ler) | 24 kişi bunun yararlı olduğunu düşündü
+16 Nisan 2026 | 18466 görüntüleme(ler) | 24 kişi bunun yararlı olduğunu düşündü
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abone Olun
 # Cisco Jabber Kullanıcı ve Yönetim Makaleleri
@@ -99,10 +99,10 @@ Bu makale yararlı oldu mu?
 ![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
 En Son Görüntülenenler
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [Where can I find more information about the Cisco Headset 700 Series?](https://help.webex.com/tr-tr/article/g6ekes)
-  * [Proxystöd för hybrid datasäkerhet och videonät](https://help.webex.com/tr-tr/article/maj0a6)
-  * [在 Cisco Webex 站点管理中启用本地录制](https://help.webex.com/tr-tr/article/5eg60b)
-  * [Додайте індивідуальний брендинг на пристрої серії Board, Desk і Room](https://help.webex.com/tr-tr/article/rcxqacb)
+  * [Administrasjon av Cisco Room USB](https://help.webex.com/tr-tr/article/okk7ms)
+  * [在安排培训课程时添加测验](https://help.webex.com/tr-tr/article/6hkiil)
+  * [Soluționați problemele privind apelurile Webex Calling în Control Hub](https://help.webex.com/tr-tr/article/frj1efb)
+  * [Cisco IP Conference Phone 7832 Multiplatform Phones](https://help.webex.com/tr-tr/article/jdpyd1)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

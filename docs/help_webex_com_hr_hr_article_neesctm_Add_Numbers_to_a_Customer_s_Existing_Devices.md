@@ -2,6 +2,9 @@ Preskoči na sadržaj[![webex-logo](https://help.webex.com/logo/webexlogo.png)Ce
 * ![ikona traženja](https://help.webex.com/images/search-icon.svg)Pretraživanje...Ctrl K
 * ![ikona traženja](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant za Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Početak rada](https://help.webex.com/hr-hr/getting-started)
   * [Pomoć prema proizvodu](https://help.webex.com/hr-hr/products)
   * [Administracija](https://help.webex.com/hr-hr/administration)
@@ -86,7 +89,7 @@ Je li taj članak bio koristan?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Hvala na povratnim informacijama.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, hvala!![](https://help.webex.com/images/thumbs-down.svg)Ne baš
-24. travnja 2026. | 227 prikaz(i) | 0 osobe(a) su to označile kao korisno
+24. travnja 2026. | 228 prikaz(i) | 0 osobe(a) su to označile kao korisno
 ![](https://help.webex.com/images/print-icon-new.svg)
 Pretplata
 # Dodajte brojeve na postojeće uređaje korisnika

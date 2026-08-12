@@ -2,6 +2,9 @@ Preskoči na sadržaj[![webex-logo](https://help.webex.com/logo/webexlogo.png)Ce
 * ![ikona traženja](https://help.webex.com/images/search-icon.svg)Pretraživanje...Ctrl K
 * ![ikona traženja](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant za Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Početak rada](https://help.webex.com/hr-hr/getting-started)
   * [Pomoć prema proizvodu](https://help.webex.com/hr-hr/products)
   * [Administracija](https://help.webex.com/hr-hr/administration)
@@ -83,7 +86,7 @@ Je li taj članak bio koristan?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Hvala na povratnim informacijama.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, hvala!![](https://help.webex.com/images/thumbs-down.svg)Ne baš
-16. travnja 2026. | 13415 prikaz(i) | 3 osobe(a) su to označile kao korisno
+16. travnja 2026. | 13416 prikaz(i) | 3 osobe(a) su to označile kao korisno
 ![](https://help.webex.com/images/print-icon-new.svg)
 Pretplata
 # Cisco Jabber Članci o korisnicima i administraciji
@@ -99,10 +102,10 @@ Je li taj članak bio koristan?
 ![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
 Nedavno prikazano
 ![](https://help.webex.com/images/arrow-down_20.svg)
-  * [使用 Webex Meetings 行動應用程式在活動和訓練課程中提出意見反應](https://help.webex.com/hr-hr/article/mp2jz)
-  * [Filtrirajte i sortirajte pitanja u Slido](https://help.webex.com/hr-hr/article/1yh9vx)
-  * [Настройте шаблони за автоматично присвояване на лицензи за потребителите на Webex Calling](https://help.webex.com/hr-hr/article/n8iptxg)
-  * [Verifica della versione dell'app desktop Cisco Webex Meetings](https://help.webex.com/hr-hr/article/0usc4ab)
+  * [Detectare alarmă pe dispozitivele din seriile Board, Desk și Room](https://help.webex.com/hr-hr/article/n76l9zbb)
+  * [Izbrišite sadržaj sastanka i vebinara koji je kreirao Webex Assistant za sastanke](https://help.webex.com/hr-hr/article/3cotpr)
+  * [CTI sans frontières pour l’instance dédiée](https://help.webex.com/hr-hr/article/6yojgab)
+  * [Группировка устройств с тегами в Control Hub](https://help.webex.com/hr-hr/article/n57ehgbb)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

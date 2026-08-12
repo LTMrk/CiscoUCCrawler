@@ -83,7 +83,7 @@ Var den här artikeln användbar?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Tack för din feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja tack!![](https://help.webex.com/images/thumbs-down.svg)Inte riktigt
-09 december 2024 | 345 visning(ar) | 1 personer tyckte att detta var till hjälp
+09 december 2024 | 346 visning(ar) | 1 personer tyckte att detta var till hjälp
 ![](https://help.webex.com/images/print-icon-new.svg)
 Prenumerera
 Fel: "Det går inte att ansluta till ljud" när du Webex-ljud konferens.

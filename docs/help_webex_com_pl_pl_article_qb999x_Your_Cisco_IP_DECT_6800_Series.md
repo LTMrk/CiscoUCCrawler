@@ -88,7 +88,7 @@ Modele urządzeń
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-03 grudnia 2024 | 791 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
+03 grudnia 2024 | 792 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/vector.svg)
 Subskrybuj
 Czy ten artykuł był pomocny?
@@ -175,7 +175,7 @@ Ostatnio przeglądane
   * [Rozwiązywanie problemów i konserwacja zestawu słuchawkowego Cisco Headset 560 Series](https://help.webex.com/pl-pl/article/n0z4ueb)
   * [Instalacja nowej słuchawki DECT](https://help.webex.com/pl-pl/article/okkepcb)
   * [Używanie zestawu nagłownego USB z telefonem Cisco z serii 8800 Multiplatform Firmware](https://help.webex.com/pl-pl/article/o87r6f)
-  * [Kapacity aplikací | Webex](https://help.webex.com/pl-pl/article/n8vw82eb)
+  * [Advanced diagnostics and troubleshooting for your Webex for Government meetings in Control Hub](https://help.webex.com/pl-pl/article/1mmd43)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

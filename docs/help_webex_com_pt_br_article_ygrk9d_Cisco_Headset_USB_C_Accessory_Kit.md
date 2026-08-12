@@ -89,7 +89,7 @@ Este artigo foi útil?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Obrigado pelos seus comentários.
 ![](https://help.webex.com/images/thumbs-up.svg)Sim, obrigado!![](https://help.webex.com/images/thumbs-down.svg)Na verdade não
-04 de dezembro de 2024 | 456 visualização(ões) | 0 pessoas acharam que isso foi útil
+04 de dezembro de 2024 | 457 visualização(ões) | 0 pessoas acharam que isso foi útil
 ![](https://help.webex.com/images/print-icon-new.svg)
 Inscrever-se
 # Kit de acessórios USB-C para fone de ouvido Cisco

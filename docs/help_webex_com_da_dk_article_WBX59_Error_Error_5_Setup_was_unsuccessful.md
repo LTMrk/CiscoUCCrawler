@@ -2,9 +2,6 @@ Gå til indhold[![webex-logo](https://help.webex.com/logo/webexlogo.png)Hjælpec
 * ![søgeikon](https://help.webex.com/images/search-icon.svg)Søg...Ctrl K
 * ![søgeikon](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant til Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
-![](https://help.webex.com/images/wca-old.png)
-Webex Chat Assistant is now Cisco AI Assistant
-Same help, now built right into the navigation
   * [Kom i gang](https://help.webex.com/da-dk/getting-started)
   * [Hjælp efter produkt](https://help.webex.com/da-dk/products)
   * [Administration](https://help.webex.com/da-dk/administration)

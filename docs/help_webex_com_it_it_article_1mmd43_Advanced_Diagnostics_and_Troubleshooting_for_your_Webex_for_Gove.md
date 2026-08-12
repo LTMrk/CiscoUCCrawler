@@ -86,7 +86,7 @@ Questo articolo è stato utile?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Grazie per il feedback.
 ![](https://help.webex.com/images/thumbs-up.svg)Sì, grazie.![](https://help.webex.com/images/thumbs-down.svg)Non proprio
-29 novembre 2024 | 1132 vista/e | 0 persone pensano che sia stato utile
+29 novembre 2024 | 1133 vista/e | 0 persone pensano che sia stato utile
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abbonati
 # Diagnostica avanzata e risoluzione dei problemi per le tue riunioni Webex for Government in Control Hub
@@ -314,8 +314,8 @@ Visualizzati di recente
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Съобщения на екипа на Cisco Jabber](https://help.webex.com/it-it/article/nki4ba4)
   * [Cisco Jabber Kullanıcı ve Yönetim Makaleleri](https://help.webex.com/it-it/article/1pwgym)
-  * [Where can I find more information about the Cisco Headset 700 Series?](https://help.webex.com/it-it/article/g6ekes)
-  * [Proxystöd för hybrid datasäkerhet och videonät](https://help.webex.com/it-it/article/maj0a6)
+  * [Administrasjon av Cisco Room USB](https://help.webex.com/it-it/article/okk7ms)
+  * [在安排培训课程时添加测验](https://help.webex.com/it-it/article/6hkiil)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

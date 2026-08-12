@@ -2,6 +2,9 @@
 * ![икона за търсене](https://help.webex.com/images/search-icon.svg)Търсене...Ctrl K
 * ![икона за търсене](https://help.webex.com/images/search-icon.svg)
 * ![Cisco AI Assistant за Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Първи стъпки](https://help.webex.com/bg-bg/getting-started)
   * [Помощ по продукт](https://help.webex.com/bg-bg/products)
   * [Администриране](https://help.webex.com/bg-bg/administration)
@@ -86,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # Благодарим за обратната връзка.
 ![](https://help.webex.com/images/thumbs-up.svg)Благодарим!![](https://help.webex.com/images/thumbs-down.svg)Не
-20 юни 2025 г. | 662 преглеждане(ия) | 0 души считат, че това е полезно
+20 юни 2025 г. | 664 преглеждане(ия) | 0 души считат, че това е полезно
 ![](https://help.webex.com/images/print-icon-new.svg)
 Абониране
 # Настройте шаблони за автоматично присвояване на лицензи за потребителите на Webex Calling

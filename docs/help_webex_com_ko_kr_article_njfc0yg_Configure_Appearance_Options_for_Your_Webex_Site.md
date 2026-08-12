@@ -83,7 +83,7 @@ Webex 홍보 콘텐츠 숨기기
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-2024년 12월 03일 | 1016 명이 봄 | 0 명이 이 정보가 유용하다고 평가했습니다.
+2024년 12월 03일 | 1017 명이 봄 | 0 명이 이 정보가 유용하다고 평가했습니다.
 ![](https://help.webex.com/images/vector.svg)
 구독
 이 문서가 도움이 되었습니까?

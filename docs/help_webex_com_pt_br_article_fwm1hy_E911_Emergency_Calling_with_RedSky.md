@@ -95,7 +95,7 @@ Funções
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-09 de janeiro de 2026 | 1353 visualização(ões) | 0 pessoas acharam que isso foi útil
+09 de janeiro de 2026 | 1354 visualização(ões) | 0 pessoas acharam que isso foi útil
 ![](https://help.webex.com/images/vector.svg)
 Inscrever-se
 Este artigo foi útil?

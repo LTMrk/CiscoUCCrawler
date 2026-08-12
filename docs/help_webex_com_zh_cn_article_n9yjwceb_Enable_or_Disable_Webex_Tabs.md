@@ -2,6 +2,9 @@
 * ![搜索图标](https://help.webex.com/images/search-icon.svg)搜索...Ctrl K
 * ![搜索图标](https://help.webex.com/images/search-icon.svg)
 * ![适用于 Webex 的 Cisco AI 助手](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [入门](https://help.webex.com/zh-cn/getting-started)
   * [依产品提供的帮助](https://help.webex.com/zh-cn/products)
   * [管理](https://help.webex.com/zh-cn/administration)
@@ -84,7 +87,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-2026年4月24日 | 858 次查看 | 2 人认为有帮助
+2026年4月24日 | 859 次查看 | 2 人认为有帮助
 ![](https://help.webex.com/images/vector.svg)
 订阅
 这篇文章对您有帮助吗？

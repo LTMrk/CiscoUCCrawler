@@ -83,7 +83,7 @@ Da li je ovaj članak bio koristan?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Hvala na povratnim informacijama.
 ![](https://help.webex.com/images/thumbs-up.svg)Da, hvala vam!![](https://help.webex.com/images/thumbs-down.svg)Ne baš
-09. децембар 2024. | 183 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
+09. децембар 2024. | 184 prikaz/prikaza | 0 osobe/osoba misle da je ovo korisno
 ![](https://help.webex.com/images/print-icon-new.svg)
 Pretplati se
 Klijent recepcionara | je smestio aktivni poziv na čekanje
@@ -114,7 +114,7 @@ Nedavno pregledano
   * [Prvi koraci sa klijentom recepcionera](https://help.webex.com/sr-rs/article/tj73rv)
   * [Вибір способу локалізації відомостей про нараду службою гібридного календаря](https://help.webex.com/sr-rs/article/nx598zq)
   * [Centrul de date Singapore pentru Webex Calling](https://help.webex.com/sr-rs/article/nmjf42d)
-  * [I Can't Enter Names into the Alternate Host Field when Scheduling a Meeting using Webex Desktop App](https://help.webex.com/sr-rs/article/WBX58194)
+  * [Nutzen Sie Webex Go auf Ihrem Mobiltelefon](https://help.webex.com/sr-rs/article/ng0os0ab)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

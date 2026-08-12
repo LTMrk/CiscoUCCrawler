@@ -86,7 +86,7 @@ Var denne artikkelen nyttig?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Takk for tilbakemeldingen.
 ![](https://help.webex.com/images/thumbs-up.svg)Ja, takk!![](https://help.webex.com/images/thumbs-down.svg)Egentlig ikke
-20. mai 2026 | 647 visning(er) | 0 personer mente dette var nyttig
+20. mai 2026 | 648 visning(er) | 0 personer mente dette var nyttig
 ![](https://help.webex.com/images/print-icon-new.svg)
 Abonner
 # Få tilgang til API for Board-, skrivebords- og romserieenheter

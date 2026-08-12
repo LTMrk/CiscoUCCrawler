@@ -2,6 +2,9 @@ Przejdź do treści[![webex-logo](https://help.webex.com/logo/webexlogo.png)Cent
 * ![ikona wyszukiwania](https://help.webex.com/images/search-icon.svg)Wyszukaj...Ctrl K
 * ![ikona wyszukiwania](https://help.webex.com/images/search-icon.svg)
 * ![Asystent AI Cisco dla Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Rozpocznij](https://help.webex.com/pl-pl/getting-started)
   * [Pomoc według produktu](https://help.webex.com/pl-pl/products)
   * [Administrowanie](https://help.webex.com/pl-pl/administration)
@@ -91,7 +94,7 @@ Systemy operacyjne
 ![](https://help.webex.com/images/arrow-down_16.svg)
 
 
-03 grudnia 2024 | 765 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
+03 grudnia 2024 | 766 — liczba wyświetleń | 0 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/vector.svg)
 Subskrybuj
 Czy ten artykuł był pomocny?
@@ -218,8 +221,8 @@ Ostatnio przeglądane
 ![](https://help.webex.com/images/arrow-down_20.svg)
   * [Начало работы с трубкой Cisco IP DECT](https://help.webex.com/pl-pl/article/nh7qk3p)
   * [Nagrania spotkań Webex z obsługą urządzeń wideo](https://help.webex.com/pl-pl/article/n36lh5cb)
-  * [Aankomende vergaderingen weergeven in User Hub](https://help.webex.com/pl-pl/article/1syxbj)
-  * [Lokale opnames inschakelen in Cisco Webex-sitebeheer](https://help.webex.com/pl-pl/article/5eg60b)
+  * [Inhoud delen in Webex Training](https://help.webex.com/pl-pl/article/ngpfivv)
+  * [Configurar Webex UC conectada a la nube para dispositivos locales](https://help.webex.com/pl-pl/article/nzt6c0b)
 
 
 ![](https://help.webex.com/icons/arrow-up_16.svg)

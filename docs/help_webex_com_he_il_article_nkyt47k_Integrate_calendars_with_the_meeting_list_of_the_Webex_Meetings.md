@@ -89,7 +89,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # תודה על המשוב.
 ![](https://help.webex.com/images/thumbs-up.svg)כן, תודה רבה!![](https://help.webex.com/images/thumbs-down.svg)לא באמת
-24 באפריל 2026 | 799 תצוגות | 0 אנשים חשבו שזה היה מועיל
+24 באפריל 2026 | 800 תצוגות | 0 אנשים חשבו שזה היה מועיל
 ![](https://help.webex.com/images/print-icon-new.svg)
 הירשם כמנוי
 # שילוב לוחות שנה עם רשימת הפגישות של היישום Webex Meetings

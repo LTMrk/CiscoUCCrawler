@@ -83,7 +83,7 @@ The most advanced generative AI-powered platform for hybrid work and customer ex
 ![close](https://help.webex.com/images/icn-close.svg)
 # 感谢您的反馈。
 ![](https://help.webex.com/images/thumbs-up.svg)是的，谢谢！![](https://help.webex.com/images/thumbs-down.svg)不完全是
-2025年11月19日 | 2627 次查看 | 5 人认为有帮助
+2025年11月19日 | 2628 次查看 | 5 人认为有帮助
 ![](https://help.webex.com/images/print-icon-new.svg)
 订阅
 哪里可以找到国际技术支持号码？

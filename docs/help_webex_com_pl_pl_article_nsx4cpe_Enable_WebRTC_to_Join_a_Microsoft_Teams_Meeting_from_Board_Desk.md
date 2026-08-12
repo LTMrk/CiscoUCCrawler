@@ -2,6 +2,9 @@ Przejdź do treści[![webex-logo](https://help.webex.com/logo/webexlogo.png)Cent
 * ![ikona wyszukiwania](https://help.webex.com/images/search-icon.svg)Wyszukaj...Ctrl K
 * ![ikona wyszukiwania](https://help.webex.com/images/search-icon.svg)
 * ![Asystent AI Cisco dla Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
   * [Rozpocznij](https://help.webex.com/pl-pl/getting-started)
   * [Pomoc według produktu](https://help.webex.com/pl-pl/products)
   * [Administrowanie](https://help.webex.com/pl-pl/administration)
@@ -86,7 +89,7 @@ Czy ten artykuł był pomocny?
 ![close](https://help.webex.com/images/icn-close.svg)
 # Dziękujemy za opinię.
 ![](https://help.webex.com/images/thumbs-up.svg)Tak, dziękuję!![](https://help.webex.com/images/thumbs-down.svg)Niezupełnie
-28 maja 2026 | 2024 — liczba wyświetleń | 1 — liczba osób, które uznały to za pomocne
+28 maja 2026 | 2025 — liczba wyświetleń | 1 — liczba osób, które uznały to za pomocne
 ![](https://help.webex.com/images/print-icon-new.svg)
 Subskrybuj
 Włącz WebRTC i CVI, aby dołączyć do spotkania Microsoft Teams z serii Board, Desk i Room
