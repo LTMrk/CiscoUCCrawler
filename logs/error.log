@@ -81,3 +81,4 @@ Code context:
  781                       # Walk the redirect chain.  Playwright returns only the last
  782                       # hop, so we trace the `request.redirected_from` links until the
  783                       # first response that differs from the final one and surface its | URL: https://www.webex.com//content/dam/www/us/en/guides/adopt/Cobrandable-QSG-Templates_Getting-Started.pptx
+[2026-08-12T22:49:52.674521] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (14597 bytes, 0 chars visible) | URL: https://academy.webex.com/learn/learning-plans/156/designing-and-deploying-cisco-video-enabled-devices

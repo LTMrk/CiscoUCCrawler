@@ -37394,3 +37394,266 @@ Contact support
 [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
 ©2026 Cisco and/or its affiliates. All rights reserved. 
 [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+
+
+---
+# ORIGEN: https://help.webex.com/cp79g9
+
+Skip To Content[![webex-logo](https://help.webex.com/logo/webexlogo.png)Help Center](https://help.webex.com/en-us)
+* ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
+* ![search icon](https://help.webex.com/images/search-icon.svg)
+  * [Get started](https://help.webex.com/en-us/getting-started)
+  * [Help by product](https://help.webex.com/en-us/products)
+  * [Administration](https://help.webex.com/en-us/administration)
+  * [What's new](https://help.webex.com/en-us/ld-v6m1dl)
+  * Resources
+Support
+[Join a meeting](https://signin.webex.com/join)
+[Developer Tools![Developer Tools](https://help.webex.com/images/pop-out-bold.svg)](https://developer.webex.com/)
+[Adoption Hub![](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/us/en/adopt/index.html)
+[Contact Support](https://help.webex.com/en-us/contact)
+learn
+[Video resources](https://help.webex.com/en-us/video-resources)
+[Webex Academy![Webex Academy](https://help.webex.com/images/pop-out-bold.svg)](https://academy.webex.com/learn)
+[Live Events and Webinars![Live Events and Webinars](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/learn/webinars-demos.html)
+[Webex Blog![Webex Blog](https://help.webex.com/images/pop-out-bold.svg)](https://blog.webex.com/)
+programs
+[Webex Community![Webex Community](https://help.webex.com/images/pop-out-bold.svg)](https://community.cisco.com/t5/webex-community/ct-p/webex-user)
+[Webex Insider![Webex Insider](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/insider)
+[App Hub![App Hub](https://help.webex.com/images/pop-out-bold.svg)](https://apphub.webex.com/)
+![Cisco AI Assistant](https://help.webex.com/images/ai.png)
+## Cisco AI Assistant
+The most advanced generative AI-powered platform for hybrid work and customer experience.
+[Learn more →](https://help.webex.com/en-us/webex-ai)
+![webex](https://help.webex.com/logo/webexsmall.png)[Download Webex](https://www.webex.com/downloads.html)
+[+1-888-469-3239](tel:+1-888-469-3239)[Contact Sales →](https://www.webex.com/contact-sales.html)
+  * ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
+  * English
+    * [ Dansk ](https://help.webex.com/da-dk/article/cp79g9)
+    * [ Deutsch ](https://help.webex.com/de-de/article/cp79g9)
+    * [ English ](https://help.webex.com/en-us/article/cp79g9)![language tick](https://help.webex.com/images/checkbox-check.svg)
+    * [ Español ](https://help.webex.com/es-co/article/cp79g9)
+    * [ Français ](https://help.webex.com/fr-fr/article/cp79g9)
+    * [ Italiano ](https://help.webex.com/it-it/article/cp79g9)
+    * [ Nederlands ](https://help.webex.com/nl-nl/article/cp79g9)
+    * [ Português ](https://help.webex.com/pt-br/article/cp79g9)
+    * [ Pyccĸий ](https://help.webex.com/ru-ru/article/cp79g9)
+    * [ Svenska ](https://help.webex.com/sv-se/article/cp79g9)
+    * [ Tϋrkçe ](https://help.webex.com/tr-tr/article/cp79g9)
+    * [ 한국어 ](https://help.webex.com/ko-kr/article/cp79g9)
+    * [ 日本語 ](https://help.webex.com/ja-jp/article/cp79g9)
+    * [ 简体中文 ](https://help.webex.com/zh-cn/article/cp79g9)
+    * [ 繁體中文 ](https://help.webex.com/zh-tw/article/cp79g9)
+    * [ Română ](https://help.webex.com/ro-ro/article/cp79g9)
+    * [ Magyar ](https://help.webex.com/hu-hu/article/cp79g9)
+    * [ Polski ](https://help.webex.com/pl-pl/article/cp79g9)
+    * [ Čeština ](https://help.webex.com/cs-cz/article/cp79g9)
+    * [ Български ](https://help.webex.com/bg-bg/article/cp79g9)
+    * [ Norsk ](https://help.webex.com/no-no/article/cp79g9)
+    * [ Hrvatski ](https://help.webex.com/hr-hr/article/cp79g9)
+    * [ Srpski ](https://help.webex.com/sr-rs/article/cp79g9)
+    * [ Українська ](https://help.webex.com/uk-ua/article/cp79g9)
+    * [ العربية ](https://help.webex.com/ar-ae/article/cp79g9)
+    * [ עברית ](https://help.webex.com/he-il/article/cp79g9)
+    * [ Suomi ](https://help.webex.com/fi-fi/article/cp79g9)
+    * [ Slovenščina ](https://help.webex.com/sl-si/article/cp79g9)
+    * [ Slovenský ](https://help.webex.com/sk-sk/article/cp79g9)
+  * Sign In
+
+
+In this article
+Ask the AI Assistant a question
+Create conversation threads and ask follow-up questions
+![dropdown icon](https://help.webex.com/images/arrow-down_20.svg)
+Workspaces context
+Example prompts
+Known limitations
+Use context for workspaces and devices information
+
+
+Turn off the AI Assistant
+Frequently asked questions
+Additional resources
+  * [Home](https://help.webex.com/)
+  * /
+  * Article
+
+
+May 08, 2026 | 6546 view(s) | 15 people thought this was helpful
+![](https://help.webex.com/images/vector.svg)
+Was this article helpful?
+![close](https://help.webex.com/images/icn-close.svg)
+# Thanks for your feedback.
+![](https://help.webex.com/images/thumbs-up.svg)Yes, thank you!![](https://help.webex.com/images/thumbs-down.svg)Not really
+In this article
+![cross icon](https://help.webex.com/images/cancel_18.svg)
+Ask the AI Assistant a question
+Create conversation threads and ask follow-up questions
+![](https://help.webex.com/images/arrow-down_20.svg)
+Workspaces context
+Example prompts
+Known limitations
+Use context for workspaces and devices information
+
+
+Turn off the AI Assistant
+Frequently asked questions
+Additional resources
+# Use the Cisco AI Assistant in Control Hub
+![list-menu](https://help.webex.com/images/list-menu.svg)In this article
+![list-menu](https://help.webex.com/images/feedback.svg)Feedback?
+The AI Assistant allows you to ask “how do I” questions relating to setup and configuration of the Webex Suite. 
+  * [](https://help.webex.com/article/cp79g9#concept-template_7bfef670-b4f1-484e-953c-f0daceb65ee9)
+  * [Ask the AI Assistant a question](https://help.webex.com/article/cp79g9#task-template_1c3d8f1f-d214-4b05-a9a9-c21bff7354ec)
+  * [Create conversation threads and ask follow-up questions](https://help.webex.com/article/cp79g9#reference-template_f7c703ab-ea16-45c2-886c-f021a150ee6e)
+  * [](https://help.webex.com/article/cp79g9#task-template_773d2242-220e-4911-bd7c-6981dd86de52)
+  * [Workspaces context](https://help.webex.com/article/cp79g9#reference-template_e81e3a8f-3901-4947-a3e7-ae7e3b4c5c10)
+  * [Use context for workspaces and devices information](https://help.webex.com/article/cp79g9#task-template_c0b2a36f-0a79-4ba3-8f25-b1ebef39fa92)
+  * [Turn off the AI Assistant](https://help.webex.com/article/cp79g9#task-template_289e0510-42ee-47d0-a87f-88464666f7f6)
+  * [Frequently asked questions](https://help.webex.com/article/cp79g9#reference-template_b05d73af-f57f-47b6-a0ef-0c9163c31b91)
+  * [Additional resources](https://help.webex.com/article/cp79g9#concept-template_d0f0abe1-b9e9-4e4e-a6ae-6192925b34fe)
+
+
+You can also see your previous conversation history, play it back, and ask follow-up questions, while maintaining the full context of your previous interactions.
+The Cisco AI Assistant in Control Hub can answer questions pertaining to the Webex Suite, which includes products such as Messaging, Meetings, Calling, and Contact Center.
+The AI Assistant is only trained to answer questions directly pertaining to the Webex Suite of products.
+The AI Assistant is available only to administrators who can sign in to Control Hub.
+To turn off the AI Assistant, see _Turn off Cisco AI Assistant_ below.
+## Ask the AI Assistant a question  
+| 1  |  Sign in to [Control Hub](https://admin.webex.com).  |  
+| --- | --- |  
+| 2  |  Click ![Cisco AI Assistant icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/481001-482000/481104.jpg).  |  
+| 3  |  Click ![new thread button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/488001-489000/488666.svg) Start new thread to start a thread. - or - Click ![Menu icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/439001-440000/439808.jpg), then click ![new thread button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/488001-489000/488666.svg) New thread.  |  
+| 4  |  Select a question, or enter your question in the Cisco AI Assistant box. A list of answers is shown.
+  1. To provide feedback, click ![the like button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/483001-484000/483991.svg) or ![the dislike button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/483001-484000/483992.svg), then click a reason you chose this rating (optional) and enter additional feedback. This helps us improve the quality of the information we provide.
+  2. To see the help article from which the answer was provided, click Sources, then click the source article you want.
+
+ |  
+## Create conversation threads and ask follow-up questions
+You can create conversation threads on specific topics and ask follow-up questions. The Control Hub Cisco AI Assistant responds with answers within the context of the previous interaction. Threads are useful if you want to keep your interactions with the AI Assistant on specific topics distinct, so that you can revisit a topic later and continue where you left off. The context of the conversation is maintained and used by the AI Assistant to further refine its responses to follow-up questions.
+Context management in threads offers several benefits in organizing and managing conversations in the AI Assistant:
+  * **Relevance** —By setting the context of a conversation to a specific topic or project, the AI Assistant can provide more relevant responses and suggestions. This ensures that the information provided is tailored to the specific context, leading to more accurate and helpful assistance.
+  * **Efficiency** —Context management allows you to quickly switch between different topics or projects within the AI Assistant. By maintaining separate contexts for each thread, you can easily navigate and find the relevant information you need without getting mixed up in unrelated conversations.
+  * **Organization** —Threads and context management provide a structured way to keep track of different topics and projects. You can create separate threads for different conversations, making it easier to locate and reference specific discussions when needed. This helps to maintain a well-organized and clutter-free environment.
+
+
+Overall, context management in threads improves relevance, efficiency, organization, and collaboration in the AI Assistant.
+There is no limit to the number of threads you can create.
+**Examples of contextual questions using threads**
+  * What is a virtual background?
+  * How do I set it up in Control Hub?
+  * What is the maximum size?
+
+
+You can see your recent conversation threads in the AI Assistant.   
+| 1  |  Sign in to [Control Hub](https://admin.webex.com).  |  
+| --- | --- |  
+| 2  |  Click ![Cisco AI Assistant icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/481001-482000/481104.jpg).  |  
+| 3  |  Click ![Menu icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/439001-440000/439808.jpg).  Conversation thread history is limited to 360 days.  |  
+| 4  |  Click any conversation to replay it. You can continue the conversation where you left off.   |  
+## Workspaces context
+Using workspaces as context in AI Assistant lets you view and manage devices and workspaces across your organization. You can also use it to monitor device issues and workspace utilization. Your questions are answered with insights into your deployment and actionable steps you can take to improve meeting experiences and resource management.
+You can get information on Cisco collaboration devices, including IP phones, and third-party peripherals that are connected to a Cisco device.
+![Workspaces page in Control Hub with Cisco AI Assitant chat open in the right side. The context Workspaces is selected and the AI assistant has responded to questions.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/490001-500000/496001-497000/496294.jpg)
+In the AI Assistant you get read-only access to your organization’s workspaces and devices. You can find information on individual devices and workspaces, all devices and workspaces in your organization, or a subset based on location settings. The AI Assistant with Workspace context provides:
+  * **Comprehensive monitoring:** View and track devices and workspaces across the organization.
+They also provide comprehensive event history tracking for both individual devices and the entire organization, alongside error code lookups to simplify issue resolution.
+  * **Configuration management:** Monitor device configurations and track changes over time.
+Check current configurations and discover the organization's configuration schema. They also support side-by-side configuration comparisons and template-based audits, helping to identify and resolve deviations from standard templates.
+  * **Utilization analytics:** Access detailed insights into how workspaces are being used, including occupancy trends and frequency.
+Track environmental and usage metrics, such as temperature, noise, and booking patterns, to help rank room popularity and identify under-utilized or overcrowded spaces.
+  * **Historical diagnostics:** Retrieve and analyze device history to identify patterns and resolve recurring issues faster.
+
+
+### Example prompts
+  * **Workspace insights and optimization**
+    * “Analyze workspace usage across all conference rooms this week”
+    * “Show me top workspaces that need my attention”
+    * “Which rooms have the lowest utilization rates?”
+  * **Troubleshooting**
+    * “Give me a guide to fix the audio issue in Room 3B”
+    * “What are the top unresolved issues in the last 24 hours?”
+    * “Show me all devices with connectivity issues”
+  * **Device management**
+    * “Spot the difference between this device and its template configuration”
+    * “Compare device settings across all rooms on Floor 5”
+    * “Show me devices that need firmware updates”
+
+
+### Known limitations
+  * Currently limited to read-only operations, where all information presented is observational and does not alter the state of devices, workspaces, or configurations.
+  * You can only access data from workspaces and devices your role settings gives you access to.
+  * Charts are currently not available.
+
+
+### Use context for workspaces and devices information  
+| 1  |  Sign in to [Control Hub](https://admin.webex.com).  |  
+| --- | --- |  
+| 2  |  Click ![Cisco AI Assistant icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/481001-482000/481104.jpg).  |  
+| 3  |  Click ![new thread button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/488001-489000/488666.svg) Start new thread to start a thread. - or - Click ![Menu icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/439001-440000/439808.jpg), then click ![new thread button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/488001-489000/488666.svg) New thread.  |  
+| 4  |  Click @Add context and choose Workspaces. ![Close up of the ask AI Assistant field with Add context selected. Add context shows the Workspaces context option.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/490001-500000/496001-497000/496295.jpg)  |  
+| 5  |  Select a question, or enter your question in the Cisco AI Assistant box. A list of answers is shown.
+  1. To provide feedback, click ![the like button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/483001-484000/483991.svg) or ![the dislike button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/483001-484000/483992.svg), then click a reason you chose this rating (optional) and enter additional feedback. This helps us improve the quality of the information we provide.
+  2. To see the help article from which the answer was provided, click Sources, then click the source article you want.
+
+ |  
+## Turn off the AI Assistant  
+| 1  |  Sign in to [Control Hub](https://admin.webex.com).  |  
+| --- | --- |  
+| 2  |  Go to Organization Settings > Settings > Cisco AI Assistant & AI features.  |  
+| 3  |  Click Customize Cisco AI Assistant & AI features.  |  
+| 4  |  In the Control Hub section, turn off Allow the Assistant in Control Hub.  |  
+| 5  |  Click Save.  |  
+## Frequently asked questions
+### Types of questions you can ask the AI Assistant
+  * How do I configure SSO?
+  * How do I add users?
+  * How do I set up office hours for my devices?
+  * How do I create groups?
+  * How do I turn off the chat feature in meetings for all my users?
+
+
+### How does the AI Assistant use Artificial Intelligence?
+The AI Assistant answers are sourced from the articles available in [Webex Help Center](https://help.webex.com/) using the Retrieval-Augmented Generation (RAG) technique. Questions and answers are provided in English. Support for other languages may be available in future releases. 
+When you ask a question, the AI Assistant leverages Microsoft Azure infrastructure services, specifically Large Language Models (LLMs), to provide answers. Microsoft processes data, but does not store personal data shared with it, for delivery of this service.
+## Additional resources
+  * [Adoption tips](https://explore.webex.com/boost-awareness)
+  * [User resources](https://explore.webex.com/ai-assistant-user)
+  * [AI Development, Data Privacy, Security, and Safety](https://help.webex.com/noae57p/)
+
+
+Was this article helpful?
+Yes, thank you!
+Not really
+Was this article helpful?
+![](https://help.webex.com/images/arrow-down_20.svg)
+![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
+![](https://help.webex.com/icons/arrow-up_16.svg)
+## Small Business
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Pricing](https://pricing.webex.com/)[Webex App](https://www.webex.com/all-new-webex.html)[Meetings](https://www.webex.com/video-conferencing.html)[Calling](https://www.webex.com/cloud-calling.html)[Messaging](https://www.webex.com/team-collaboration.html)[Screen Sharing](https://www.webex.com/screen-sharing.html)
+## Enterprise
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Webex Suite](https://www.webex.com/collaboration-suite.html)[Calling](https://www.webex.com/cloud-calling.html)[Meetings](https://www.webex.com/video-conferencing.html)[Messaging](https://www.webex.com/team-collaboration.html)[Slido](https://www.webex.com/audience-engagement.html)[Webinars](https://www.webex.com/webinar.html)[Events](https://socio.events/)[Contact Center](https://www.webex.com/contact-center.html)[CPaaS](https://www.webex.com/customer-interaction-management.html)[Security](https://www.webex.com/security.html)[Control Hub](https://www.webex.com/control-hub.html)
+## Devices
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Headsets](https://hardware.webex.com/products/headsets)[Cameras](https://hardware.webex.com/products/cameras)[Desk Series](https://hardware.webex.com/products/desk-series)[Room Series](https://hardware.webex.com/products/room-series-and-kits)[Board Series](https://hardware.webex.com/products/board-series)[Phone Series](https://hardware.webex.com/products/phones)[Accessories](https://hardware.webex.com/products/accessories)
+## Solutions For
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Education](https://www.webex.com/industries/education.html)[Healthcare](https://www.webex.com/industries/healthcare.html)[Government](https://www.webex.com/industries/government.html)[Finance](https://www.webex.com/industries/financial-services.html)[Sports & Entertainment](https://www.webex.com/industries/sports-entertainment.html)[Frontline](https://www.webex.com/industries/frontline.html)[Nonprofits](https://www.webex.com/industries/nonprofits.html)[Startups](https://www.webex.com/industries/start-ups.html)[Hybrid Work](https://www.webex.com/hybrid-work.html)
+## Resources
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Downloads](https://www.webex.com/downloads.html)[Join a Test Meeting](https://www.webex.com/test-meeting.html)[Online Classes](https://help.webex.com/en-us/landing/onlineclasses)[Integrations](https://www.webex.com/products/integrations/index.html)[Accessibility](https://www.webex.com/accessibility.html)[Inclusivity](https://www.webex.com/inclusive-collaboration.html)[Live & On-Demand Webinars](https://www.webex.com/learn/webinars-demos.html)[Webex Community](https://cs.co/webexcommunity)[Webex Developers](https://developer.webex.com/)[News & Innovations](https://www.webex.com/resources/whats-new.html)
+## Company
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)[Contact Support](https://help.webex.com/en-us/contact)[Contact Sales](https://www.webex.com/us/en/dg/contact-sales.html)[Webex Blog](https://blog.webex.com/)[Webex Thought Leadership](https://webexahead.webex.com/)[Webex Merch Store](https://www.webexmerchstore.com/)[Careers](https://www.webex.com/company/careers.html)
+  * [![X](https://help.webex.com/images/social-x.svg)](https://twitter.com/webex)
+  * [![LinkedIn](https://help.webex.com/images/linkedinIcon.svg)](https://www.linkedin.com/company/webex)
+  * [![Facebook](https://help.webex.com/images/facebookIcon.svg)](https://www.facebook.com/webex)
+  * [![Youtube](https://help.webex.com/images/youtubeIcon.svg)](https://www.youtube.com/c/webex)
+  * [![Instagram](https://help.webex.com/images/insta.svg)](https://www.instagram.com/webex/)
+
+
+[Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+©2026 Cisco and/or its affiliates. All rights reserved. 
+[Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
