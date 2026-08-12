@@ -1,6 +1,6 @@
-  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-2471470.html#eot-doc-wrapper)
-  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-2471470.html)
-  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-2471470.html)
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744533.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744533.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744533.html)
 
 
   * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
@@ -19,8 +19,8 @@
   * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
 
 
-  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-2471470.html)
-  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-2471470.html)Show All Breadcrumbs
+  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744533.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744533.html)Show All Breadcrumbs
   * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
   * [Unified Communications](https://www.cisco.com/c/en/us/products/unified-communications/index.html)
   * [Call Control](https://www.cisco.com/c/en/us/products/unified-communications/call-control/index.html)
@@ -28,18 +28,18 @@
   * [End-of-Life and End-of-Sale Notices](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-listing.html)
 
 
-# End-of-Sale and End-of-Life Announcement for the Cisco Perpetual Licensing for Session Management Edition (SME)
+# End-of-Sale and End-of-Life Announcement for the Version 11.5 Software of Cisco Unified Communications Manager, Cisco Emergency Responder, Cisco Unity Connection and associated On-Premises and Hosted Flex subscription
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-2471470.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744533.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-2471470.pdf) (274.0 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744533.pdf) (507.5 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:May 20, 2021
+Updated:December 15, 2020
 Bias-Free Language
 ### Bias-Free Language
 The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
@@ -53,81 +53,128 @@ US/CAN | 5am-5pm PT
 
 
 Save
-[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-2471470.html) to Save Content 
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744533.html) to Save Content 
 Download
 Print
 ### Available Languages
 ### Download Options
-  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-2471470.pdf) (274.0 KB)   
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744533.pdf) (507.5 KB)   
 View with Adobe Reader on a variety of devices
 
 
-Updated:May 20, 2021
+Updated:December 15, 2020
 #### Table of Contents
 ![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
 ![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
 #### Table of Contents
-  * [Overview](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-2471470.html#Overview "Overview")
-  * [End-of-life milestones](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-2471470.html#Endoflifemilestones "Endoflifemilestones")
-  * [Product part numbers](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-2471470.html#Productpartnumbers "Productpartnumbers")
-  * [Product migration options](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-2471470.html#Productmigrationoptions "Productmigrationoptions")
-  * [For more information](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-2471470.html#Formoreinformation "Formoreinformation")
+  * [Overview](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744533.html#Overview "Overview")
+    * [EOL13693 - Amended](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744533.html#EOL13693Amended "EOL13693Amended")
+  * [End-of-life milestones](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744533.html#Endoflifemilestones "Endoflifemilestones")
+  * [Product part numbers](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744533.html#Productpartnumbers "Productpartnumbers")
+  * [Product migration options](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744533.html#Productmigrationoptions "Productmigrationoptions")
+  * [For more information](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-744533.html#Formoreinformation "Formoreinformation")
 
 
 Overview
-EOL13894
-Cisco announces the end-of-sale and end-of-life dates for the Cisco Perpetual Licensing for Session Management Edition (SME). The last day to order the affected product(s) is November 17, 2021. Customers with active service contracts will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts, support will be available under the terms and conditions of customers' service contract.
-Customers are encouraged to migrate to Session Management Edition under A-FLEX-3. The link to the ordering guide for FLEX subscription is below. 
-Cisco Collaboration Flex Plan 3.0 Ordering Guide: <https://www.cisco.com/c/en/us/products/collateral/unified-communications/spark-flex-plan/guide-c07-744224.html>.
-Additionally, customers utilizing the Not for Resale program are encouraged to migrate to V12.5 or higher. Additional program details are available at this link: <https://www.cisco.com/c/en/us/partners/incentives/standard-not-for-resale.html#~cuwp-to-nfr-transition>.
+EOL13693 - Amended
+Cisco announces the end-of-sale and end-of-life dates for the Version 11.5 Software of Cisco Unified Communications Manager, Cisco Emergency Responder, Cisco Unity Connection and associated On-Premises and Hosted Flex subscription. The last day to order the affected product(s) is May 31, 2021. The last day to renew or add to an existing subscription is May 31, 2022 . Customers with active service contracts and subscriptions (as applicable) will continue to receive support from the Cisco Technical Assistance Center (TAC) as shown in Table 1 of the EoL bulletin. Table 1 describes the end-of-life milestones, definitions, and dates for the affected product(s). Table 2 lists the product part numbers affected by this announcement. For customers with active and paid service and support contracts and subscriptions (as applicable), support will be available under the terms and conditions of customers' service contract and subscription.
+This end-of-life announcement includes these 11.5 components: 
+●Cisco Unified Communications Manager 11.5 
+●Cisco Emergency Responder 11.5 
+●Session Management Edition 11.5 
+●Cisco Unified Communications Instant Messaging & Presence 11.5 
+●Cisco Unity Connection 11.5
+Customers should migrate to On Premises and Partner Hosted Smart Licensing under Cisco Collaboration Flex Plan 3.0. The ordering guide for Flex Plan 3.0 can be found at the link below: <https://www.cisco.com/c/en/us/partners/tools/collaboration-ordering-guides.html>. 
+Existing 11.5 customers may continue adding additional users through 31 May 2022. 
+For additional information related to End-of-Sale of the Version 11.x Unified Communication Manager Software refer to these previously announced EOL Bulletins: 
+●EOL11446 - <https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/eos-eol-notice-c51-738520.html>
+●EOL13549 - <https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-licensing/eos-eol-notice-c51-744284.html>
 End-of-life milestones
-**Table 1.** End-of-Life Milestones and Dates for the Cisco Perpetual Licensing for Session Management Edition (SME)  
-|  Milestone  |  Definition  |  Date   |  
+**Table 1.** End-of-Life Milestones and Dates for the Version 11.5 Software of Cisco Unified Communications Manager, Cisco Emergency Responder, Cisco Unity Connection and associated On-Premises and Hosted Flex subscription  
+|  Milestone  |  Definition  |  Date  |  
 | --- | --- | --- |  
-|  End-of-Life Announcement Date   |  The date the document that announces the end-of-sale and end-of-life of a product is distributed to the general public.  |  May 19, 2021   |  
-|  End-of-Sale Date:  
-App SW   |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  November 17, 2021   |  
-|  Last Ship Date:  
-App SW   |  The last-possible ship date that can be requested of Cisco and/or its contract manufacturers. Actual ship date is dependent on lead time.  |  February 15, 2022   |  
-|  End of SW Maintenance Releases Date:  
-App SW   |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  November 17, 2022   |  
-|  End of New Service Attachment Date:  
-App SW   |  For equipment and software that is not covered by a service-and-support contract, this is the last date to order a new service-and-support contract or add the equipment and/or software to an existing service-and-support contract.  |  November 17, 2022   |  
-|  End of Service Contract Renewal Date:   
-App SW   |  The last date to extend or renew a service contract for the product.  |  February 13, 2024   |  
-|  Last Date of Support:  
-App SW   |  The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.   |  November 30, 2024   |  
-HW = Hardware OS SW = Operating System Software App. SW = Application Software 
+|  **End-of-Life Announcement Date**  |  The date the document that announces the end of sale and end of life of a product is distributed to the general public.  |  November 30, 2020   |  
+|  **End-of-Sale Date** *  |  The last date to order the product through Cisco point-of-sale mechanisms. The product is no longer for sale after this date.  |  May 31, 2021   |  
+|  **End of SW Maintenance Releases Date:  
+Subscription **  |  The last date that Cisco Engineering may release any final software maintenance releases or bug fixes. After this date, Cisco Engineering will no longer develop, repair, maintain, or test the product software.  |  May 31, 2022   |  
+|  **End of Change/Renewal Date** * **:  
+Subscription **  |  The last date to Renew or Add to an existing subscription.  |  May 31, 2022   |  
+|  **Last Date of Support** ** **:  
+Subscription **  |  The last date to receive applicable subscription entitlements, service and support for the product as entitled by active subscriptions and service contracts(as applicable) or by warranty terms and conditions. After this date, all subscription and support services for the product are unavailable, and the product becomes obsolete.   |  May 31, 2024   |  
+*The requested subscription start date needs to be on or before the End-of-Sale Date for new subscriptions, and on or before the End of Change/Renewal Date for subscription changes and renewals. 
+**The projected subscription term end date for new or changing subscriptions needs to be on or before the Last Date of Support. 
 Product part numbers
-**Table 2.** Product Part Numbers Affected by This Announcement  
-|  End-of-Sale Product Part Number  |  Product Description   |  
-| --- | --- |  
-|  **HCS-SME-K9-LAB**  |  HCS SME Lab Bundle   |  
-|  **LIC-SME-SESS-UPG**  |  SME SESSION Upgrade - 1 Session   |  
-|  **SME-12.5-K9-UPG=**  |  SW Upgrade to SME 12.5 for SWSS   |  
-|  **SME-RTU**  |  SME Right to Use Certificate   |  
-|  **SME-SESSION**  |  Include PAK Auto-expanding User for SME   |  
-|  **SME-SESSION-LIC**  |  Top Level SKU For Session License   |  
-|  **SME-VERS-12.5**  |  SME Software Version 12.5   |  
-|  **HCS-12X-SME-LAB**  |  HCS SME 12.5x Lab Bundle   |  
-|  **LIC-SME-SESSION**  |  License - 1 Session   |  
-|  **MIG-SME-SESSION**  |  Ala Carte Upgrade for 1 SME Session   |  
-|  **SME11.0-K9-LAB**  |  SW CM/SME 11.0 Lab Only, 20 CUWL PRO, 5 TP Room   |  
-|  **SME11.5-K9-LAB**  |  SW CM/SME 11.5 Lab Only, 20 CUWL PRO, 5 TP Room   |  
-|  **SME11.5-K9-NFR**  |  SW CM/SME 11.5 Not for Resale, 20 CUWL PRO, 5 TP Room   |  
-|  **SME-11.5-K9-UPG=**  |  SW Upgrade to SME 11.5 for ESW/UCSS   |  
-|  **SME11-HCS**  |  Session Manager 11.x Sessions for HCS   |  
-|  **SME-12X-HCS**  |  Session Manager 12.5x for HCS   |  
-|  **SME-VERS-11.5**  |  SME Software Version 11.5   |  
+**Table 2.** Product part numbers affected by this announcement  
+|  End-of-Sale Product Part Number  |  Product Description  |  Replacement Product Part Number  |  Replacement Product Description  |  Additional Information  |  
+| --- | --- | --- | --- | --- |  
+|  A-FLEX-SW-11X-K9  |  On-Premises & Partner Hosted Calling SW Bundle v11 (1)  |  A-FLEX-SW-12X-K9  |  On-Premises & Partner Hosted Calling SW Bundle v12 (1)  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-FLEX-SW-11-XU-K9  |  On-Premises & Hosted Calling SW Bundle for Russia v11.5 (1)  |  A-FLEX-SW-12-XU-K9  |  On-Premises & Hosted Calling SW Bundle for Russia v12.5 (1)  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-FLEX-SW-11.5-K9  |  On-Premises & Partner Hosted Calling SW Bundle v11.5 (1)  |  A-FLEX-SW-12.5-K9  |  On-Premises & Partner Hosted Calling SW Bundle v12 (1)  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-FLEX-ER-11X-K9  |  Emergency Responder SW Bundle v11 (1)  |  A-FLEX-ER-12X-K9  |  Emergency Responder SW Bundle v12 (1)  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRM-S-UCM-11X-K9  |  UC Manager 11.x - SW Kit for UCM  |  A-PRMW-SW-CCS1-K9  |  Cisco Software Subscription - Software delivery  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRMW-S-UCM11X-K9  |  UC Manager 11.x - SW Kit for UCM  |  A-PRMW-SW-CCS1-K9  |  Cisco Software Subscription - Software delivery  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-HST-SW-NU-11X-K9  |  Cisco Collaboration Subscription (CCS) - Software Download  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-PRM-SW-CCS1-K9  |  Cisco Software Subscription - Software delivery  |  A-PRMW-SW-CCS1-K9  |  Cisco Software Subscription - Software delivery  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRM-LIC-ESS-11X  |  Essential 11.x - License Subscription  |  A-PRM-LIC-ESS-12X  |  Essential 12.x - License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRM-TPROOM-11X  |  TelePresence Room License for EntW 11.x-License Subscription  |  A-PRM-TPROOM-12X  |  TelePresence Room License for EntW 12.x-License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRM-LIC-PS-11X  |  Public Space License for 11X - License Subscription  |  A-PRM-LIC-PS-12X  |  Public Space License for 12X - License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-HST-LIC-ESS-11X  |  Hosted Essential 11.x - License Subscription  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-HST-TPROOM-11X  |  Hosted TelePresence Room License for EntW 11.x -License Subs  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-HSTW-LIC-PS-11X  |  Hosted Public Space License for 11X - License Subscription  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-FLEX-P-ESS-11X  |  Essential v11 License (1)  |  A-FLEX-P-ESS-12X  |  Essential v12 License (1)  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-FLEX-P-TPRM-11X  |  Telepresence Room v11 License (1)  |  A-FLEX-P-TPRM-12X  |  Telepresence Room v12 License (1)  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-FLEX-H-ESS-11X  |  Essential v11 License (1)  |  A-FLEX-H-ESS-12X  |  Essential v12 License (1)  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-FLEX-H-TPRM-11X  |  Telepresence Room v11 License (1)  |  A-FLEX-H-TPRM-12X  |  Telepresence Room v12 License (1)  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-FLEX-H-UCM-11X  |  Unified Communications Manager v11 License (1)  |  A-FLEX-H-UCM-12X  |  Unified Communications Manager v12 License (1)  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-FLEX-P-COMMON11X  |  Common Area v11 License (1)  |  A-FLEX-P-COMMON12X  |  Common Area v12 License (1)  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-FLEX-P-ER-11X  |  Emergency Responder v11 License (1)  |  A-FLEX-P-ER-12X  |  Emergency Responder v12 License (1)  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-FLEX-P-UCM-11X  |  Unified Communications Manager v11 License (1)  |  A-FLEX-P-UCM-12X  |  Unified Communications Manager v12 License (1)  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-FLEX-P-UCXN-11X  |  Unity Connection v11 License (1)  |  A-FLEX-P-UCXN-12X  |  Unity Connection v12 License  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-FLEX-SME-11X  |  Session Manager v11 (1)  |  A-FLEX-SME-12X  |  Session Manager v12 (1)  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-HST-LIC-ER-11X  |  Hosted ER 11.x 911 - User License Subscription  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-HST-LIC-PS-11X  |  Hosted Public Space License for 11X - License Subscription  |  There is currently no replacement product available for this product.  |   |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-HST-LIC-UCM-11X  |  Hosted UC Manager 11.x - User License Subscription  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-HST-LIC-UCX-11X  |  Hosted Unity Connection 11.x - User License Subscription  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-HSTW-LIC-ER-11X  |  Hosted ER 11.x 911 - User License Subscription  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-HSTW-LIC-ESS-11X  |  Hosted Essential 11.x - License Subscription  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-HSTW-LIC-UCM-11X  |  Hosted UC Manager 11.x - User License Subscription  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-HSTW-LIC-UCX-11X  |  Hosted Unity Connection 11.x - User License Subscription  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-HSTW-TP-PAK  |  Hosted Enable Advanced Networking Option - PAK  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-HSTW-TPROOM-11X  |  Hosted TelePresence Room License for EA 11.x - License Subs  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-HSTW-UCM-PAK  |  Hosted UC Manager - PAK  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-PRM-LIC-ER-11X  |  ER 11.x 911 - User License Subscription  |  A-PRM-LIC-ER-12X  |  ER 12.x 911 - User License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRM-LIC-PSPA-11X  |  Public Space License for 11X - License Subscription  |  A-PRM-LIC-PS-12X  |  Public Space License for 12X - License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRM-LIC-UCM-11X  |  UC Manager 11.x - User License Subscription  |  A-PRM-LIC-UCM-12X  |  UC Manager 12.x - User License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRM-LIC-UCX-11X  |  Unity Connection 11.x - User License Subscription  |  A-PRM-LIC-UCX-12X  |  Unity Connection 12.x - User License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRM-LIC-UCXN-11X  |  Unity Connection 11.x - User License Subscription  |  A-PRM-LIC-UCX-12X  |  Unity Connection 12.x - User License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRMW-LIC-ER11X  |  ER 11.x 911 - User License Subscription  |  A-PRM-LIC-ER-12X  |  ER 12.x 911 - User License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRMW-LIC-ER-11X  |  ER 11.x 911 - User License Subscription  |  A-PRM-LIC-ER-12X  |  ER 12.x 911 - User License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRMW-LIC-ESS11X  |  Essential 11.x - License Subscription  |  A-PRM-LIC-ESS-12X  |  Essential 12.x - License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRMW-LIC-ESS-11X  |  Essential 11.x - License Subscription  |  A-PRM-LIC-ESS-12X  |  Essential 12.x - License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRMW-LIC-PS-11X  |  Public Space License for 11X - License Subscription  |  A-PRM-LIC-PS-12X  |  Public Space License for 12X - License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRMW-LIC-PSPA11X  |  Public Space License for 11X - License Subscription  |  A-PRM-LIC-PS-12X  |  Public Space License for 12X - License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRMW-LIC-UCM11X  |  UC Manager 11.x - User License Subscription  |  A-PRM-LIC-UCM-12X  |  UC Manager 12.x - User License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRMW-LIC-UCM-11X  |  UC Manager 11.x - User License Subscription  |  A-PRM-LIC-UCM-12X  |  UC Manager 12.x - User License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRMW-LIC-UCX-11X  |  Unity Connection 11.x - User License Subscription  |  A-PRM-LIC-UCX-12X  |  Unity Connection 12.x - User License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRMW-LIC-UCXN11X  |  Unity Connection 11.x - User License Subscription  |  A-PRM-LIC-UCX-12X  |  Unity Connection 12.x - User License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRMW-TPROOM11X  |  TelePresence Room License for EA 11.x - License Subscription  |  A-PRM-TPROOM-12X  |  TelePresence Room License for EntW 12.x-License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRMW-TPROOM-11X  |  TelePresence Room License for EA 11.x - License Subscription  |  A-PRM-TPROOM-12X  |  TelePresence Room License for EntW 12.x-License Subscription  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-PRMW-UCM-PAK  |  Collab Subscription UCM PAK SKU  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-SPK-AU-C-HST11  |  Hosted Calling C3 Version 11 and Business Messaging  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-SPK-AU-C-PRM11  |  On-Premise Calling v11  |  A-SPK-AU-C-PRM12  |  On-Premise Calling v12  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-SPK-EDUEC-PCL2  |  On-Premise Calling v11 & Advanced Meetings (OA PID)  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-SPK-EDUEC-PRM11  |  On-Premise Calling v11 & Advanced Meetings  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-SPK-EMP-C1-HST11  |  Hosted Calling C1 Version 11 and Business Messaging  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-SPK-EMP-C1-PRM11  |  On-Premise Calling v11 & Business Messaging  |  A-SPK-EMP-C1-PRM12  |  On-Premise Calling v12 & Business Messaging  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-SPK-EMP-C3-HST11  |  Hosted Calling C3 Version 11 and Business Messaging  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
+|  A-SPK-EMP-C3-PRM11  |  On-Premise Calling v11 & Advanced Meetings  |  A-SPK-EMP-C3-PRM12  |  On-Premise Calling v12 & Advanced Meetings  |  Customers should migrate to EA or NU Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0.  |  
+|  A-SPK-NU-C1-HST11  |  Hosted Calling C1 Version 11 (1)  |  There is currently no replacement product available for this product.  |  -  |  Customers should migrate to Hosted NU or EA Calling Smart Licensing under A-FLEX-3 Cisco Collaboration Flex Plan 3.0  |  
 Product migration options
-Customers are encouraged to migrate to Session Management Edition under A-FLEX-3. The link to the ordering guide for FLEX subscription is below.
-Cisco Collaboration Flex Plan 3.0 Ordering Guide: <https://www.cisco.com/c/en/us/products/collateral/unified-communications/spark-flex-plan/guide-c07-744224.html>.
-Additionally, customers utilizing the Not for Resale program are encouraged to migrate to V12.5 or higher. Additional program details are available at this link: <https://www.cisco.com/c/en/us/partners/incentives/standard-not-for-resale.html#~cuwp-to-nfr-transition>.
-Service prices for Cisco products are subject to change after the product End-of-Sale date.
+Customers should migrate to On Premises and Partner Hosted Smart Licensing under Cisco Collaboration Flex Plan 3.0. The ordering guide for Flex Plan 3.0 can be found at the link below: <https://www.cisco.com/c/en/us/partners/tools/collaboration-ordering-guides.html>
 For more information
-For more information about the Cisco End-of-Life Policy, go to: <https://www.cisco.com/en/US/products/products_end-of-life_policy.html>.
-For more information about the Cisco Product Warranties, go to: <https://www.cisco.com/en/US/products/prod_warranties_listing.html>.
-To subscribe to receive end-of-life/end-of-sale information, go to: <https://www.cisco.com/cisco/support/notifications.html>.
+For more information about the Cisco End-of-Life Policy, go to: <https://www.cisco.com/en/US/products/products_end-of-life_policy.html>
+For more information about the Cisco Product Warranties, go to: <https://www.cisco.com/en/US/products/prod_warranties_listing.html>
+To subscribe to receive end-of-life/end-of-sale information, go to: <https://www.cisco.com/cisco/support/notifications.html>
 Any authorized translation issued by Cisco Systems or affiliates of this end-of-life Product Bulletin is intended to help customers understand the content described in the English version. This translation is the result of a commercially reasonable effort; however, if there are discrepancies between the English version and the translated document, please refer to the English version, which is considered authoritative.
 ### Learn more
 By continuing to use our website, you acknowledge the use of cookies. 
