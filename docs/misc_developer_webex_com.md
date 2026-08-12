@@ -45872,3 +45872,241 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/blog/webex-for-developers-at-cisco-live-san-diego-2025
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/blog/webex-for-developers-at-cisco-live-san-diego-2025)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/blog/webex-for-developers-at-cisco-live-san-diego-2025)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/blog/webex-for-developers-at-cisco-live-san-diego-2025)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+# Webex for Developers at Cisco Live San Diego 2025
+May 1, 2025
+![Adam Weeks](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt3280371eceea2196/6a60ed759ee77e32d96ed610/Adam_Headshot_Cropped.png?width=100&height=100&fit=crop)
+Adam WeeksTechnical Leader, Webex Developer Relations
+![Webex for Developers at Cisco Live San Diego 2025](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt7012bbb90c9d4aed/6813b19f5f67266d09bfa594/foobar2.png?width=900&height=317&fit=crop)
+We’re heading to sunny San Diego for Cisco Live 2025, and the Webex for Developers team is ready to connect with you! From building with our APIs and SDKs to previewing what’s coming next, this is your opportunity to learn, share, and build better collaboration experiences.
+  * 📍 Where: Cisco Live San Diego 2025
+  * 📅 When: June 9–13, 2025
+  * 🧠 Who: Webex Product, Engineering, and Developer Relations
+  * 🏁 Find us: Webex for Developers Booth in the DevNet Zone (Tuesday & Wednesday)
+
+  
+
+### Why You Should Join
+  
+
+  * Dive into Webex APIs, SDKs, Embedded Apps, and Contact Center integrations
+  * Attend sessions led by Webex engineers and evangelists
+  * Learn how to get published on the App Hub
+  * Visit the Webex for Developers booth to ask questions and explore use cases
+
+  
+
+### Webex Developer Session Lineup
+All sessions are listed in the Cisco Live Session Catalog: <https://www.ciscolive.com/global/learn/session-catalog.html#/>.
+#### Lab Sessions
+  
+
+  * Configuring Business Outcome using Proactive Digital Channels with AI Agent and AI Assistant
+    * Session ID: LTRCCT-2015
+    * Speaker: Rue Green, Sr. Solutions Engineer / Full Stack Developer, Cisco - Distinguished Speaker, Hall of Fame Speaker
+    * Date: Wednesday, Jun 11
+    * Time: 8:00 AM - 12:00 PM PDT
+
+  
+
+#### CISCOU Sessions
+  
+
+  * Innovating with Webex for Developers
+    * Session ID: CISCOU-1033
+    * Speaker: Phil Bellanti, Sr. Webex Developer Evangelist, Cisco - Distinguished Speaker
+    * Date: Monday, Jun 9
+    * Time: 2:00 PM - 2:30 PM PDT
+
+  
+
+#### DevNet Lightning Talk Sessions
+  
+
+  * Navigating the Webex App Hub Review Process: Best Practices for Developers
+    * Session ID: DEVLIT-1203
+    * Speaker: Joe Zanini, Developer Evangelist, Cisco
+    * Date: Tuesday, Jun 10
+    * Time: 3:30 PM - 3:50 PM PDT
+  * Exploring the Webex Developer Beta Program: Engage, Test, and Innovate
+    * Session ID: DEVLIT-1843
+    * Speaker: Adam Weeks, Senior Engineering Manager, Cisco - Distinguished Speaker
+    * Date: Wednesday, Jun 11
+    * Time: 3:30 PM - 3:50 PM PDT
+
+  
+
+#### DevNet Classroom Sessions
+  
+
+  * Webex Contact Center Developer Overview - DEVNET-1699
+    * Session ID: DEVNET-1699
+    * Speaker: Adam Weeks, Senior Engineering Manager, Cisco - Distinguished Speaker
+    * Date: Wednesday, Jun 11
+    * Time: 1:00 PM - 1:45 PM PDT
+  * Integrating Webex Contact Center Agent Functionality into Web Applications with the WxCC SDK
+    * Session ID: DEVNET-2082
+    * Speaker: Arun Ganeshan, Software Engineering Technical Leader, Cisco
+    * Date: Tuesday, Jun 10
+    * Time: 1:30 PM - 2:15 PM PDT
+  * Discover and Build with Webex Service Apps: A Guide for Webex Developers
+    * Session ID: DEVNET-2134
+    * Speaker: Joe Zanini, Developer Evangelist, Cisco
+    * Date: Tuesday, Jun 10
+    * Time: 11:30 AM - 12:15 PM PDT
+  * Build Integrations with Webex AI Assistant for Developers
+    * Session ID: DEVNET-2155
+    * Speaker: Adam Ranganathan, Director, Software Engineering, Cisco
+    * Date: Wednesday, Jun 11
+    * Time: 12:00 PM - 12:45 PM PDT
+  * Implementing OAuth 2.0 Authorization for Webex Integrations 
+    * Session ID: DEVNET-2675
+    * Speaker: Joe Zanini, Developer Evangelist, Cisco
+    * Date: Thursday, Jun 12
+    * Time: 11:30 AM - 12:15 PM PDT
+  * How to improve digital channels customer interactions with video
+    * Session ID: DEVNET-2701
+    * Speaker: Victor Vazquez, Solutions Engineer, Cisco
+    * Date: Thursday, Jun 12
+    * Time: 9:30 AM - 10:15 AM PDT
+  * Extending Webex Contact Center with Flow Designer Extensibility
+    * Session ID: DEVNET-2915
+    * Speaker: Adam Weeks, Senior Engineering Manager, Cisco - Distinguished Speaker
+    * Date: Thursday, Jun 12
+    * Time: 10:30 AM - 11:15 AM PDT
+
+  
+
+#### DevNet Workshop Sessions
+  
+
+  * Build-a-Bot with Webex
+    * ID: DEVWKS-1149
+    * Speaker: Phil Bellanti, Sr. Webex Developer Evangelist, Cisco - Distinguished Speaker
+    * Date: Tuesday, Jun 10
+    * Time: 1:30 PM - 2:15 PM PDT
+  * Building your First Embedded App on Webex
+    * Session ID: DEVWKS-1650
+    * Speaker: Joe Zanini, Webex Developer Evangelist, Cisco
+    * Date: Wednesday, Jun 11
+    * Time: 2:00 PM - 2:45 PM PDT
+  * Deploying Webex Service Apps
+    * Session ID: DEVWKS-2040
+    * Speaker: Phil Bellanti, Sr. Webex Developer Evangelist, Cisco - Distinguished Speaker
+    * Date: Wednesday, Jun 11
+    * Time: 4:00 PM - 4:45 PM PDT
+  * Enhancing Virtual Meetings with Webex's Guest-to-Guest Platform
+    * Session ID: DEVWKS-2903
+    * Speaker: Phil Bellanti, Sr. Webex Developer Evangelist, Cisco - Distinguished Speaker
+    * Date: Thursday, Jun 12
+    * Time: 9:30 AM - 10:15 AM PDT
+
+  
+
+### Meet the Team in the DevNet Zone
+We’ll be at the Webex for Developers booth on Tuesday and Wednesday, ready to help you:
+  * Get started with the Webex platform
+  * Debug or architect your integration
+  * Share feedback and get support
+
+
+Whether you're an experienced dev or just getting started, we’d love to meet you!
+### Let’s Build Together
+  
+
+  * ✅ Register for Cisco Live: <https://www.ciscolive.com>
+  * ✅ Explore the Session Catalog: <https://www.ciscolive.com/global/learn/session-catalog.html#/>
+  * ✅ Browse APIs and SDKs: [https://developer.webex.com](https://developer.webex.com/)
+
+
+We’ll see you in San Diego!
+Blog Categories
+  * [Product Announcements](https://developer.webex.com/blog/categories/product-announcements)
+  * [How To](https://developer.webex.com/blog/categories/how-tos)
+  * [Events](https://developer.webex.com/blog/categories/events)
+  * [Developer Stories](https://developer.webex.com/blog/categories/developer-stories)
+
+
+Share This Article
+Related Articles
+![Cisco Live Amsterdam 2025: A Spectacular Event for Webex Developers](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltd0da2ecb6e48d61e/67cb2147af5e64c27dcd427d/cisco-live-emea-25-wrapup-1.jpeg?width=600&height=300&fit=crop)
+Events
+[Cisco Live Amsterdam 2025: A Spectacular Event for Webex Developers](https://developer.webex.com/blog/cisco-live-amsterdam-2025-a-spectacular-event-for-webex-developers)
+Adam Weeks
+March 7, 2025
+![Webex Developers: A Look Back at Cisco Live Las Vegas 2024](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt92de69a9f15fe3d3/667c32507589924372077a6c/cisco-live-us-2024-wrapup-1.png?width=600&height=300&fit=crop)
+Events
+[Webex Developers: A Look Back at Cisco Live Las Vegas 2024](https://developer.webex.com/blog/webex-developers-a-look-back-at-cisco-live-las-vegas-2024)
+Adam Weeks
+June 26, 2024
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
