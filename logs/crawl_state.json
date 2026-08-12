@@ -1094,5 +1094,9 @@
   "https://help.webexconnect.io/docs/outbound-webhooks": {
     "hash": "9b31bb8ac38562da8133d43631d020d5e7d8c204b8b45944855fe3d0551d3540",
     "timestamp": "2026-08-12T23:59:13.660970"
+  },
+  "https://help.webexconnect.io/docs/mtls-configuration-for-outbound-webhooks": {
+    "hash": "509619fdfae910a32ae205ad5c3ff1486c83435e5f3053e51e1bd097bb67d58d",
+    "timestamp": "2026-08-12T23:59:18.712098"
   }
 }
