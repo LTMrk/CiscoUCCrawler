@@ -1,361 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/paging-server/eos-eol-notice-c51-738655.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/703/fn70379.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160927-openssl.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20161123-ntpd.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20161026-linux.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160603-ntpd.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160504-openssl.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160302-openssl.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160218-glibc.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20150612-openssl.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20150310-ssl.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20150128-ghost.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216176-change-network-settings-in-informacast-w.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/212079-Configure-InformaCast-Paging-Server-Cisc.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/products-maintenance-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-operating-system/212430-troubleshoot-basic-paging-upgrade-error.html",
-    "depth": 1
-  },
-  {
-    "url": "https://community.cisco.com/t5/technology-and-support/ct-p/technology-support",
-    "depth": 1
-  },
-  {
-    "url": "https://supportforums.cisco.com/node/add/discussion",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/products/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/solutions/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/learn/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/buy/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/support-help/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/all-products.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/unified-communications/communications-gateways/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/buy.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tools-catalog.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/saved/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/725/fn72510.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/741/fn74146.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/datasheet-c78-741973.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/vg410-analog-voice-gateway-ds.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/vg420-analog-voice-gateway-ds.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg450-analog-voice-gateways/datasheet-c78-741460.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/vg450-eol.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/vg-310320-eol.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/vg-unified-communications-products-eol.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/select-vg202xm-analog-voice-gateway-eol.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/eos-eol-notice-c51-2456922.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/eos-eol-notice-c51-2457165.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/eos-eol-notice-c51-744463.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/eos-eol-notice-c51-741597.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/eos-eol-notice-c51-733203.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/eos-eol-notice-c51-732984.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/end_of_life_notice_c51-569310.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/end_of_life_notice_c51-728269.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/end_of_life_notice_c51-728328.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/bulletin-c25-2479306.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/725/fn72570.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/725/fn72511.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/725/fn72509.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/642/fn64285.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/200/fn29374.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/vg-series-gateways/212138-Configure-VG224-SCCP-Secure-Encrypted.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/routers/2600-series-multiservice-platforms/15079-recovery-c2600.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/64282-impedance-choice.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/wc-vg400-analog-tele-adapter-wp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://community.cisco.com/t5/technology-and-support/ct-p/technology-support",
-    "depth": 1
-  },
-  {
-    "url": "https://supportforums.cisco.com/node/add/discussion",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/products/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/solutions/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/learn/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/buy/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/support-help/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/all-products.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/category.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/routers/branch-routers/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-listing.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tools-catalog.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/null",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/4221-integrated-services-router-isr/model.html",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/routers/4321-integrated-services-router/model.html",
     "depth": 1
   },
@@ -287533,6 +287177,4230 @@
   },
   {
     "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/paging-server/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/paging-server/eos-eol-notice-c51-738655.pdf",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/docs/general/warranty/English/EU1KEN_.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/support/tsd_cisco_worldwide_contacts.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/docs/general/warranty/English/EU1KEN_.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/support/tsd_cisco_worldwide_contacts.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/images/cisco-alert.svg",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/resources/security_vulnerability_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20160302-openssl/cvrf/cisco-sa-20160302-openssl_cvrf.xml",
+    "depth": 2
+  },
+  {
+    "url": "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20160302-openssl",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/docs/general/warranty/English/EU1KEN_.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/support/tsd_cisco_worldwide_contacts.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "http://tools.cisco.com/security/center/viewAlert.x",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/docs/general/warranty/English/EU1KEN_.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/support/tsd_cisco_worldwide_contacts.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "http://blogs.cisco.com/security/understanding-logjam-and-future-proofing-your-infrastructure",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/images/cisco-alert.svg",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/resources/security_vulnerability_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/cvssCalculator.x",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/images/blue-square.png",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20150310-ssl/cvrf/cisco-sa-20150310-ssl_cvrf.xml",
+    "depth": 2
+  },
+  {
+    "url": "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20150310-ssl",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/images/cisco-alert.svg",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/resources/security_vulnerability_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20150128-ghost/cvrf/cisco-sa-20150128-ghost_cvrf.xml",
+    "depth": 2
+  },
+  {
+    "url": "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20150128-ghost",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/web/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "http://blogs.cisco.com/talos/ghost-glibc",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCtb70375",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/voice_ip_comm/cuipph/all_models/xsi/9_1_1/xsidevguide911.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCve47332",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCtb70375",
+    "depth": 2
+  },
+  {
+    "url": "https://supportforums.cisco.com/document/44741/collecting-packet-capture-cisco-ip-phone",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-voice-and-video/integrating-basic-cisco-paging-basic-informacast-with-cucm/ta-p/3161322",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCuy56088",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCut91894",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216176-change-network-settings-in-informacast-w.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216176-change-network-settings-in-informacast-w.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216176-change-network-settings-in-informacast-w.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/csc",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/212079-Configure-InformaCast-Paging-Server-Cisc.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/212079-Configure-InformaCast-Paging-Server-Cisc.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/212079-Configure-InformaCast-Paging-Server-Cisc.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-operating-system/212430-troubleshoot-basic-paging-upgrade-error.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-operating-system/212430-troubleshoot-basic-paging-upgrade-error.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-operating-system/212430-troubleshoot-basic-paging-upgrade-error.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-express/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/bulletin-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/portal/pub/download/portal/select.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/ata-180-series-analog-telephone-adaptors/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-7900-series/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/switches/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/switches/catalyst-9200-r-series-switches/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/switches/catalyst-9200-r-series-switches/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/725/fn72578.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/switches/catalyst-9200-series-switches/223262-perform-password-recovery-on-catalyst.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/switches/catalyst-9200-series-switches/222282-upgrading-catalyst-9200-switches.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4221-integrated-services-router-isr/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4321-integrated-services-router/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4331-integrated-services-router-isr/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4351-integrated-services-router/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4441-x-integrated-services-router-isr/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4451-x-integrated-services-router-isr/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4461-integrated-services-router/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/asr-1000-series-ios-xe-sd-wan/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/csr-1000v-series-ios-xe-sd-wan/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8000v-edge-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/switches/catalyst-9606-switch/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/6300-embedded-service-router/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/isr-1000-series-ios-xe-sd-wan/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/isr-4000-series-ios-xe-sd-wan/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/integrated-services-virtual-router/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/network-convergence-system-520-router/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8300-series-edge-platforms/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8300-series-edge-platforms/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://snvui.cisco.com/snv/FN74146",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/routers/catalyst-8300-edge-platform/225727-upgrade-software-on-catalyst-8000-edge.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4451-x-integrated-services-router-isr/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4461-integrated-services-router/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/asr-1000-series-ios-xe-sd-wan/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/enterprise-nfv-infrastructure-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/isr-1000-series-ios-xe-sd-wan/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/isr-4000-series-ios-xe-sd-wan/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/sd-wan/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/datasheet-c78-741973.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/cse/prdapp/jsp/externalsearch.do",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/wc-vg400-analog-tele-adapter-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/vg410-analog-voice-gateway-ds.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://pas.cisco.com/pdtcnc/%23",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/clc/access-directory",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/buy/licensing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/wc-vg400-analog-tele-adapter-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/vg420-analog-voice-gateway-ds.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://pas.cisco.com/pdtcnc",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/clc/access-directory",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/buy/licensing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/wc-vg400-analog-tele-adapter-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg450-analog-voice-gateways/datasheet-c78-741460.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/cse/prdapp/jsp/externalsearch.do",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/vg450-eol.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/remanufactured.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/warranty-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/vg-310320-eol.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/warranty-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/vg-unified-communications-products-eol.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/warranty-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/select-vg202xm-analog-voice-gateway-eol.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/warranty-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/eos-eol-notice-c51-2456922.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/eos-eol-notice-c51-2457165.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/eos-eol-notice-c51-744463.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/eos-eol-notice-c51-741597.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/eos-eol-notice-c51-733203.pdf",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/product_data_sheet09186a00801d87f6.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/eos-eol-notice-c51-732984.pdf",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/end_of_life_notice_c51-569310.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/prod/collateral/voicesw/ps6790/gatecont/ps2250/ps5516/product_data_sheet09186a00801d87f6.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/partners/pr11/incentive/tmp/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_end_of_life.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/end_of_life_notice_c51-728269.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/end_of_life_notice_c51-728328.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8200-series-edge-platforms/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8200-series-edge-platforms/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8000v-edge-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/switches/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/switches/catalyst-9300-series-switches/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/switches/catalyst-9300-series-switches/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/switches/catalyst-9300-series-switches/214814-recommended-releases-for-catalyst-9200-9.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/switches/catalyst-9300-series-switches/222280-upgrading-catalyst-9300-switches.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8000v-edge-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/isr-1000-series-ios-xe-sd-wan/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8200-series-edge-platforms/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8200-series-edge-platforms/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/743/fn74350.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8000v-edge-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/isr-1000-series-ios-xe-sd-wan/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/vg-series-gateways/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/support/tsd_cisco_worldwide_contacts.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/ServiceRequestTool/scm/mgmt/case",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/vg-series-gateways/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/warp/customer/tech_tips/index/fn.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cgi-bin/tablebuild.pl/vg248",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "http://tools.cisco.com/RPF/register/register.do",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cgi-bin/Support/Bugtool/onebug.pl",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cgi-bin/Support/Bugtool/onebug.pl",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/warp/customer/687/Directory/DirTAC.shtml",
+    "depth": 2
+  },
+  {
+    "url": "http://tools.cisco.com/ServiceRequestTool/create",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cgi-bin/Support/FieldNoticeTool/field-notice",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/vg-series-gateways/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/vg-series-gateways/212138-Configure-VG224-SCCP-Secure-Encrypted.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/vg-series-gateways/212138-Configure-VG224-SCCP-Secure-Encrypted.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/vg-series-gateways/212138-Configure-VG224-SCCP-Secure-Encrypted.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/index.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/tech/tk801/tk36/technologies_tech_note09186a0080121ac5.shtml",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/warp/customer/471/76.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/warp/customer/130/xmodem_generic.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/web/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/tech/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/tech/voice/ip-telephony-voice-over-ip-voip/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/tech/voice/ip-telephony-voice-over-ip-voip/tsd-technology-support-troubleshooting-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/64282-impedance-choice.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/tech/tk652/tk653/technologies_tech_note09186a00800a6210.shtml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/tech/tk652/tk653/technologies_tech_note09186a0080094fac.shtml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/prod/collateral/modules/ps3115/product_data_sheet0900aecd8016c1c6_ps5855_Products_Data_Sheet.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/prod/collateral/modules/ps5365/product_data_sheet0900aecd801c595e_ps274_Products_Data_Sheet.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/tech/tk801/tk36/technologies_tech_note09186a0080121ac5.shtml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/ios/12_3t/voice/command/reference/vrht_i1_ps5207_TSD_Products_Command_Reference_Chapter.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/swa/i/icon_popup_short.gif",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/warp/public/687/Directory/DirTAC.shtml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/ios/12_3t/voice/command/reference/vrht_t1_ps5207_TSD_Products_Command_Reference_Chapter.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/ServiceRequestTool/create",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/RPF/register/register.do",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/ios/12_2/12_2z/12_2zj/feature/guide/flex_dsp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/ios/12_3t/12_3t8/feature/guide/hdadv_vm.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/ios/12_2t/12_2t8/feature/guide/ft_hdanm.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/web/psa/default.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/web/psa/default.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/web/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/vg-series-gateways/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/vg-series-gateways/wc-vg400-analog-tele-adapter-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/webex-calling/datasheet-c78-742056.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/routers/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/940-integrated-services-router/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/1000-series-integrated-services-routers-isr/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/1900-series-integrated-services-routers-isr/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/2900-series-integrated-services-routers-isr/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/3900-series-integrated-services-routers-isr/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/8100-series-secure-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/8200-series-secure-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/8300-series-secure-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/8400-series-secure-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/8500-series-secure-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/secure-console-servers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/asr-903-series-aggregation-services-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/asr-901-series-aggregation-services-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/asr-901-10g-series-aggregation-services-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/asr-920-series-aggregation-services-router/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/asr-1000-series-aggregation-services-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/asr-9000-series-aggregation-services-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/800-series-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/small-business-rv-series-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/8000-series-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/8000-series-virtual-router-emulator/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8000v-edge-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8200-series-edge-platforms/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8200-series-edge-ucpe/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8300-series-edge-platforms/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8300-series-edge-ucpe/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8500-series-edge-platforms/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8500l-series-edge-platforms/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/network-convergence-system-520-router/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/network-convergence-system-540-series-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/network-convergence-system-560-series-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/network-convergence-system-5000-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/network-convergence-system-5500-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/network-convergence-system-5700-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/network-convergence-system-6000-series-router/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/optical-networking/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/optical-networking/network-convergence-system-1000-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/optical-networking/network-convergence-system-2000-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/optical-networking/network-convergence-system-4000-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/optical-networking/network-convergence-system-4200-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/sd-routing/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/sd-wan/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/sd-wan-network-hub/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/vedge-router-model/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/xe-sd-wan-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/5000-series-enterprise-network-compute-system/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/cloud-services-router-1000v/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/enterprise-nfv-infrastructure-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/integrated-services-virtual-router/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/ios-xrd/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/ios-xrv-9000-router/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/500-series-wpan-industrial-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/800-series-industrial-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/1000-series-connected-grid-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/2010-connected-grid-router/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/ic3000-industrial-compute-gateway/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/6300-embedded-service-router/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/ir1000-series-rugged-secure-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/1101-industrial-integrated-services-router/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-ir1800-rugged-series-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-ir8100-heavy-duty-series-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-ir8300-rugged-series-router/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/agile-services-networking/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/carrier-routing-system/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/cloud-native-bng-control-plane/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/crosswork-planning/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/routed-pon/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/wide-area-application-services-waas-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/quantum-wan-automation-visibility-engine/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/5900-series-embedded-services-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-cellular-gateways/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-wireless-gateway-cg110-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/interface-module-lorawan-868mhz-915mhz/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/video/cbr-series-converged-broadband-routers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/retired.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/4000-series-integrated-services-routers/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/wireless/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/trials-offers.html",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/news/cisco-iq-is-generally-available-heres-what-that-actually-means",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/switches/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/optics-transceiver-modules/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/silicon-one/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/software/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/access-networking/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/cloud-networking/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/industrial-iot/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/software/internet-cloud-intelligence/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/network-security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/service-provider/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/networking-cloud/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/ai-defense/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/secure-email/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/firewalls/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/hypershield/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/identity-services-engine/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/secure-access/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/xdr/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/security/hybrid-mesh-firewall/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/industrial-security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/physical-security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/secure-access-service-edge-sase/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/talos/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/security/zero-trust-access/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/security/securing-agentic-ai/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/security/secure-access/live-demo.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/collaboration/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/computing/converged-infrastructure/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/fabric-interconnects-extenders/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/hybrid-cloud-operations/intersight-platform/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/hyperconverged/nutanix/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/data-center/stack-automation-quali/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/unified-edge/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/cloud-computing/promotions-free-trials/intersight-free-trial.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/cloud-application-security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/observability/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/catalyst-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/wan/sd-wan-manager/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/cloud-systems-management/iot-operations-dashboard/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/service-provider/networking/mobility-services-platform/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/cloud-networking/nexus-platform/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/industrial-security/cyber-vision/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/industrial-security/secure-equipment-access/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/security-cloud/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/buy/enterprise-software-buying-program.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/software/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/trials-demos.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/services/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/services/professional/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/services/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/services/modern-data-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/services/future-workplace/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/small-business/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/netops.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/data-center/ai-at-the-edge/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-networking-in-data-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/mass-scale-infrastructure/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/secure-ai-factory/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-assistant/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/education/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/financial-services/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/government/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/healthcare/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/manufacturing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/mining/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/energy/oil-gas/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/retail/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/smart-building/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/sports-media-entertainment/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/transportation/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/energy/utilities/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/industries.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/design-zone/industries.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/industrial-iot/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/home",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/sdwan/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/enterprise-networks/solution-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/computing/hybrid-cloud/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/security/data-center-security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/security/secure-hybrid-work/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/security/zero-trust/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/secure-campus/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/unified-branch/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/design-zone/campus-branch.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/service-provider/networking/agile-services/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/service-provider/networking/broadband/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/service-provider/industry/cable/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/routed-optical-networking/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/routed-pon/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud/edge-cloud-for-content-delivery.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/software/iot-control-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/wireless/private-5g/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/sdaccess/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/sdwan/security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/build-your-practice/managed-services/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/small-business/networking/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/small-business/security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/small-business/collaboration/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/small-business/selector-tool.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/small-business/small-business-promotions-and-free-trials/buy-cisco-small-business-products-online.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/small-business/trials-offers.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/licensing/licensing-support.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/switches/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/security/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/wireless/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/docs/technical-documentation.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/a-to-z-series-index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/returns/returns-portal.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tsd-cisco-small-business-support-center-contacts.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/buy/licensing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/clc/access-directory",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/buy/enterprise-agreement/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://ccrc.cisco.com/ccwr",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cisco.com/bugsearch",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mydevices",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/research/home",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/sncheck",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tsd-products-field-notice-summary.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/cloud-status.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/small-business-support-community/ct-p/5541-small-business-support",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/devnet/ct-p/4409j-developer-home",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/partner-hub/ct-p/2002j-partner-home",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/project-gallery/con-p/customer-success-stories",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/cisco-insider-user-group/ct-p/ccp-home",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/technology-and-support-events-and-webinars/eb-p/ts-events-webinars-bd",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/training/ciscou/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/events/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://u.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/training/modeling-labs/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://learningnetwork.cisco.com/s",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/learning",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/continuing-education/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/recertification/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/enterprise-training/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/training/learning-credits/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/training/training-catalog/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/partner-resources.html",
+    "depth": 2
+  },
+  {
+    "url": "https://certsupport.cisco.com/s",
+    "depth": 2
+  },
+  {
+    "url": "https://salesconnect.cisco.com/americaspartnercommunity/s/enablement-training-calendar",
+    "depth": 2
+  },
+  {
+    "url": "https://experiences.cisco.com/amer/ai-readiness-for-data-centers",
+    "depth": 2
+  },
+  {
+    "url": "https://experiences.cisco.com/amer/simplify-it-with-sd-wan",
+    "depth": 2
+  },
+  {
+    "url": "https://cloudsecurity.cisco.com/webinar-security-transformation-with-cisco-xdr",
+    "depth": 2
+  },
+  {
+    "url": "https://experiences.cisco.com/amer",
+    "depth": 2
+  },
+  {
+    "url": "https://experiences.cisco.com/amer/cisco-mclaren-innovation-speed",
+    "depth": 2
+  },
+  {
+    "url": "https://experiences.cisco.com/amer",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/small-business/how-to-set-up-router.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/security/what-is-cybersecurity.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-firewall.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-industry-4-0.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/industrial-iot/what-is-iot.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-wi-fi-7.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-aiops.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/security/what-is-cloud-security.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/computing/what-is-hybrid-cloud.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/security/what-is-secure-access-service-edge-sase.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/software/what-is-software-as-a-service-saas.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/industrial-iot/industrial-networking-report/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/site/sandbox",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/modeling-labs",
+    "depth": 2
+  },
+  {
+    "url": "https://u.cisco.com/store/lab",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/executive-perspectives/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/startnow",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/learning/search",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/training/courses/prne.html",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange",
+    "depth": 2
+  },
+  {
+    "url": "https://video.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/cisco-validated/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/visio-stencil-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/multicloud/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/training/black-belt-academy/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/cisco-on-cisco/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/evolved-partner-ecosystem/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/trials-demos.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/content/cdc/login.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/cisco-validated.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools-training/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/catalyst-8200-series-platforms/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/catalyst-8300-series-platforms/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet-c78-732542.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/4000-series-integrated-services-routers/resources.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/wan-software/dna-subscription-wan/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/routers/product-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/services/lifecycle-services/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/wireless/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/trials-offers.html",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/news/cisco-iq-is-generally-available-heres-what-that-actually-means",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/switches/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/optics-transceiver-modules/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/silicon-one/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/software/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/access-networking/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/cloud-networking/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/industrial-iot/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/software/internet-cloud-intelligence/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/network-security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/service-provider/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/networking-cloud/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/ai-defense/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/secure-email/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/firewalls/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/hypershield/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/identity-services-engine/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/secure-access/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/xdr/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/security/hybrid-mesh-firewall/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/industrial-security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/physical-security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/secure-access-service-edge-sase/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/talos/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/security/zero-trust-access/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/security/securing-agentic-ai/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/security/secure-access/live-demo.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/collaboration/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/computing/converged-infrastructure/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/fabric-interconnects-extenders/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/hybrid-cloud-operations/intersight-platform/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/hyperconverged/nutanix/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/data-center/stack-automation-quali/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/unified-edge/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/cloud-computing/promotions-free-trials/intersight-free-trial.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/cloud-application-security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/observability/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/catalyst-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/wan/sd-wan-manager/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/cloud-systems-management/iot-operations-dashboard/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/service-provider/networking/mobility-services-platform/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/cloud-networking/nexus-platform/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/industrial-security/cyber-vision/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/industrial-security/secure-equipment-access/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/security-cloud/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/buy/enterprise-software-buying-program.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/software/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/trials-demos.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/services/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/services/professional/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/services/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/services/modern-data-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/services/future-workplace/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/small-business/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/netops.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/data-center/ai-at-the-edge/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-networking-in-data-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/mass-scale-infrastructure/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/secure-ai-factory/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-assistant/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/education/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/financial-services/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/government/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/healthcare/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/manufacturing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/mining/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/energy/oil-gas/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/retail/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/smart-building/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/sports-media-entertainment/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/transportation/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/industries/energy/utilities/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/industries.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/design-zone/industries.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/industrial-iot/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/home",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/sdwan/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/enterprise-networks/solution-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/computing/hybrid-cloud/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/security/data-center-security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/security/secure-hybrid-work/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/security/zero-trust/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/secure-campus/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/unified-branch/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/design-zone/campus-branch.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/service-provider/networking/agile-services/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/service-provider/networking/broadband/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/service-provider/industry/cable/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/routed-optical-networking/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/routed-pon/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud/edge-cloud-for-content-delivery.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/software/iot-control-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/wireless/private-5g/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/sdaccess/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/sdwan/security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/build-your-practice/managed-services/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/small-business/networking/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/small-business/security/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/small-business/collaboration/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/small-business/selector-tool.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/small-business/small-business-promotions-and-free-trials/buy-cisco-small-business-products-online.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/small-business/trials-offers.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/licensing/licensing-support.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/switches/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/security/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/wireless/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/docs/technical-documentation.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/a-to-z-series-index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/returns/returns-portal.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tsd-cisco-small-business-support-center-contacts.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/buy/licensing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/clc/access-directory",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/buy/enterprise-agreement/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://ccrc.cisco.com/ccwr",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cisco.com/bugsearch",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mydevices",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/research/home",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/sncheck",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tsd-products-field-notice-summary.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/cloud-status.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/small-business-support-community/ct-p/5541-small-business-support",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/devnet/ct-p/4409j-developer-home",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/partner-hub/ct-p/2002j-partner-home",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/project-gallery/con-p/customer-success-stories",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/cisco-insider-user-group/ct-p/ccp-home",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/technology-and-support-events-and-webinars/eb-p/ts-events-webinars-bd",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/training/ciscou/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/events/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://u.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/training/modeling-labs/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://learningnetwork.cisco.com/s",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/learning",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/continuing-education/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/recertification/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/enterprise-training/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/training/learning-credits/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/training/training-catalog/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/partner-resources.html",
+    "depth": 2
+  },
+  {
+    "url": "https://certsupport.cisco.com/s",
+    "depth": 2
+  },
+  {
+    "url": "https://salesconnect.cisco.com/americaspartnercommunity/s/enablement-training-calendar",
+    "depth": 2
+  },
+  {
+    "url": "https://experiences.cisco.com/amer/ai-readiness-for-data-centers",
+    "depth": 2
+  },
+  {
+    "url": "https://experiences.cisco.com/amer/simplify-it-with-sd-wan",
+    "depth": 2
+  },
+  {
+    "url": "https://cloudsecurity.cisco.com/webinar-security-transformation-with-cisco-xdr",
+    "depth": 2
+  },
+  {
+    "url": "https://experiences.cisco.com/amer",
+    "depth": 2
+  },
+  {
+    "url": "https://experiences.cisco.com/amer/cisco-mclaren-innovation-speed",
+    "depth": 2
+  },
+  {
+    "url": "https://experiences.cisco.com/amer",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/small-business/how-to-set-up-router.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/security/what-is-cybersecurity.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-firewall.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-industry-4-0.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/industrial-iot/what-is-iot.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-wi-fi-7.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-aiops.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/security/what-is-cloud-security.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/computing/what-is-hybrid-cloud.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/security/what-is-secure-access-service-edge-sase.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/software/what-is-software-as-a-service-saas.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/topics/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/networking/industrial-iot/industrial-networking-report/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/site/sandbox",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/modeling-labs",
+    "depth": 2
+  },
+  {
+    "url": "https://u.cisco.com/store/lab",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/executive-perspectives/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/startnow",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/learning/search",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/training/courses/prne.html",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange",
+    "depth": 2
+  },
+  {
+    "url": "https://video.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/cisco-validated/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/visio-stencil-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/multicloud/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/training/black-belt-academy/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/cisco-on-cisco/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/evolved-partner-ecosystem/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/trials-demos.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/content/cdc/login.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/cisco-validated.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools-training/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/enterprise-networks/sd-wan/one-on-one-live-demo.html",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/networking/redefining-branch-networking-cisco-secure-routers-and-unified-branch",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/resources.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/security-cloud-control/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/offers/assets/idc-unified-branch-ai-enhanced-report.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/collateral/networking/sdwan-routers/8000-secure-routers/8300-series-secure-routers-ds.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/collateral/networking/sdwan-routers/8000-secure-routers/8200-series-secure-routers-ds.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/collateral/networking/sdwan-routers/8000-secure-routers/8100-series-secure-routers-ds.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/meraki-security-appliances/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/1000-series-integrated-services-routers-isr/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/catalyst-8000-edge-platforms/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/routers/product-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/collateral/networking/sdwan-routers/8000-secure-routers/8500-series-secure-routers-ds.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/collateral/networking/sdwan-routers/8000-secure-routers/8400-series-secure-routers-ds.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/catalyst-8500-series-platforms/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/industrial-routers-gateways/catalyst-ir1100-rugged-series/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/industrial-routers-gateways/catalyst-ir1800-rugged-series/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/industrial-routers-gateways/catalyst-ir8100-heavy-duty-series/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/industrial-routers-gateways/catalyst-ir8300-rugged-series/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/8000-series/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/network-convergence-system-5700-series/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/asr-9000-series-aggregation-services-routers/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/network-convergence-system-500-series/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/meraki-secure-sdwan/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/900-series-integrated-services-routers/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/remote-worker-gateways/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/remote-worker-gateways/meraki-teleworker-gateways/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/cellular-gateways/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/catalyst-8000v-edge-software/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/sdwan-routers/meraki-security-appliances-virtual/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/routers/solution-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/services/success-tracks/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/routers/router-selector.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/routers/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/routers/eos-eol-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/isr4461-series-platform-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/select-isr4k-series-platform-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/cat-6-network-interface-modules-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-741362.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/isr4200-isr4300-sel-isr4400-spa-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/isr-4200-4300-platform-brazil-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/eos-eol-notice-c51-743638.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-6-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-8-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-7-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/isr-4000-advanced-promotional-product-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/select-isr-products-software-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/select-isr4k-software-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/select-isr4k-accessories-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-3-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-5-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-16/eos-eol-notice-c51-744154.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/eos-eol-notice-c51-744388.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-744454.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-741918.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/eos-eol-notice-c51-742700.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-743116.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-743081.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-903-series-aggregation-services-routers/eos-eol-notice-c51-742965.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/eos-eol-notice-c51-742343.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-742337.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4221-integrated-services-router-isr/eos-eol-notice-c51-742328.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-742069.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-741594.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-741196.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-740983.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-740376.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3850-series-switches/eos-eol-notice-c51-740255.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-739841.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4400-series-integrated-services-routers-isr/eos-eol-notice-c51-730942.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3850-series-switches/eos-eol-notice-c51-739568.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-738833.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3850-series-switches/eos-eol-notice-c51-738673.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-737081.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-736431.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/isr4461-series-platform-eol-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/select-isr4k-series-platform-eol-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-741362-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/isr4200-isr4300-sel-isr4400-spa-eol-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/isr-4000-advanced-promotional-product-eol-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/select-isr-products-software-eol-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/select-isr4k-software-eol-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/select-isr4k-accessories-eol-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-744454-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-743116-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-743081-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/eos-eol-notice-c51-742700-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/eos-eol-notice-c51-742343-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-742337-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4221-integrated-services-router-isr/eos-eol-notice-c51-742328-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-742069-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-741918-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-741594-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-741196-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-740983-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-739841-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3850-series-switches/eos-eol-notice-c51-739568-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-738833-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3850-series-switches/eos-eol-notice-c51-738673-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-737081-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/eos-eol-notice-c51-736431-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/cat-6-network-interface-modules-eol-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-9-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-12-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-14-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-13-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-11-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-10-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-16-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/15796-cisco-ios-xe-17-17-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-15-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/null/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-snort3-multi-dos-XFWkWSwz.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-ftd-snort3-vbavuls-96UcVVed.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-snort3-mime-vulns-tTL8PgVH.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-snort3-dcerpc-vulns-J9HNF4tH.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/tsd-products-support-translated-end-user-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/aag_c83-731053.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/at-a-glance-c45-732425.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/at-a-glance-c45-737753.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet-c78-732542.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-728307.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-730527.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-740935.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739968.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739991.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet_c78-612808.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-739839.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733646.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet_C78-738218.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet_C78-738511.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-C78-734341.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/security/router-security/datasheet-c78-736114.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733645.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/15796-cisco-ios-xe-17-17-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-15-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-9-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/isr4461-series-platform-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/select-isr4k-series-platform-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-12-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-14-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/cat-6-network-interface-modules-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-c51-741362.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-13-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/isr4200-isr4300-sel-isr4400-spa-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/isr-4200-4300-platform-brazil-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-11-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-10-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/ios-xe-17/ios-xe-17-6-x-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/725/fn72578.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/723/fn72323.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/722/fn72265.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/703/fn70335.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/702/fn70288.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/643/fn64321.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-utd-snort3-dos-bypas-b4OUEwxD.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-snort3-ips-bypass-uE69KBMd.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-snort-ftd-zXYtnjOM.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-snort-app-bypass-cSBYCATq.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-snort-dos-9D3hJLuj.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-snort-dos-s2R7W9UU.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-sni-data-exfil-mFgzXqLN.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-http-fp-bp-KfDdcQhc.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-snort-tfo-bypass-MmzZrtes.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-snort-filepolbypass-67DEwMe2.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-snort-ethernet-dos-HGXgJH8n.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-ftd-bypass-3eCfd24j.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-snort_filepolbypass-m4X5DgOP.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20190513-secureboot.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/products-command-reference-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/routers/4000-series-integrated-services-routers/217135-performance-license-on-cisco-isr4000.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/vg200-gateway/8111-21.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/dial-access/virtual-private-dialup-network-vpdn/118442-config-isr4000-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/routers/4000-series-integrated-services-routers/118792-config-isr-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/products-installation-and-configuration-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/routers/4000-series-integrated-services-routers/221135-critical-temperature-condition-is-observ.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/routers/3900-series-integrated-services-routers/119139-technote-isr-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/routers/4000-series-integrated-services-routers/213851-isr-waas-installation-guide-on-isr-4000.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/routers/4000-series-integrated-services-routers/210760-Monitor-CPU-Usage-On-ISR4300-Series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/routers/4000-series-integrated-services-routers/200678-Troubleshoot-Cisco-4000-Series-ISR-Stuck.html",
     "depth": 2
   }
 ]
