@@ -8246,5 +8246,9 @@
   "https://developer.webex.com/docs/api/v1/meetings-summary-report/list-meeting-usage-reports": {
     "hash": "155b1309da1977bd35e02ce58960a401b660e598ccef13f658efecc314742360",
     "timestamp": "2026-08-13T02:17:24.462861"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings-summary-report/list-meeting-attendee-reports": {
+    "hash": "f27fdc885c67bf36dcec0ee8a7f19caca6dd95aaaede8b684a54f1fd372e61ee",
+    "timestamp": "2026-08-13T02:17:30.907814"
   }
 }
