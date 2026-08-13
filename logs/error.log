@@ -538,3 +538,5 @@ Code context:
 [2026-08-13T13:44:57.684727] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://experiences.cisco.com/amer/simplify-it-with-sd-wan
 [2026-08-13T13:45:03.535243] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://experiences.cisco.com/amer
 [2026-08-13T13:45:20.560952] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://www.cisco.com/content/cdc/login.html
+[2026-08-13T13:45:36.207944] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://www.cisco.com/c/en/us/solutions/collaboration/index.html
+[2026-08-13T13:45:37.895193] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.cisco.com/c/en/us/products/unified-communications/index.html
