@@ -7994,5 +7994,9 @@
   "https://developer.webex.com/docs/api/v1/meetings/update-a-meeting": {
     "hash": "2bacc8ce856e0b9fbb8cc33e5b4febca7c37cf500d320e96de4fbabef8af760a",
     "timestamp": "2026-08-13T02:10:44.189954"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings/patch-a-meeting": {
+    "hash": "f9e87fcf5e13019a39f66197b9f20a49cfed99107ffc7c8c1903b7488d07375b",
+    "timestamp": "2026-08-13T02:10:50.945945"
   }
 }
