@@ -8242,5 +8242,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-preferences/batch-refresh-personal-meeting-room-id": {
     "hash": "41cbc52d12be0da8b14c7305a4b0eb43d2edc37bd3a28a02c260bdbc11047679",
     "timestamp": "2026-08-13T02:17:17.727979"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings-summary-report/list-meeting-usage-reports": {
+    "hash": "155b1309da1977bd35e02ce58960a401b660e598ccef13f658efecc314742360",
+    "timestamp": "2026-08-13T02:17:24.462861"
   }
 }
