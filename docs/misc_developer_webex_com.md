@@ -13992,3 +13992,136 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/create/docs/agentic-apps-app-hub
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/create/docs/agentic-apps-app-hub)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/create/docs/agentic-apps-app-hub)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/create/docs/agentic-apps-app-hub)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Submit to App Hub & Badging
+Getting Started
+  * [Getting Started](https://developer.webex.com/create/docs)
+  * [Authentication](https://developer.webex.com/create/docs/authentication)
+  * [Login with Webex](https://developer.webex.com/create/docs/login-with-webex)
+  * [AI Assistant for Developers](https://developer.webex.com/create/docs/webex-aI-assistant-for-developers)
+  * Agentic Apps
+    * [Agentic Apps Overview](https://developer.webex.com/create/docs/agentic-apps-overview)
+    * [Onboard Your MCP Server](https://developer.webex.com/create/docs/onboard-your-mcp-server)
+    * [Onboard Your Agent](https://developer.webex.com/create/docs/onboard-your-agent)
+    * [Submit to App Hub & Badging](https://developer.webex.com/create/docs/agentic-apps-app-hub)
+    * [Provisioning on Control Hub](https://developer.webex.com/create/docs/provisioning-on-control-hub)
+  * Bots
+  * Embedded Apps
+  * Integrations
+  * Service Apps
+  * Instant Connect
+  * Workspace Integrations
+  * Bring Your Own Datasource
+  * [Suite Sandbox](https://developer.webex.com/create/docs/developer-sandbox-guide)
+  * [Contact Center Sandbox](https://developer.webex.com/create/docs/sandbox_cc)
+  * [Guest to Guest Sandbox](https://developer.webex.com/create/docs/g2g-sandbox)
+  * [Submit Your App](https://developer.webex.com/create/docs/app-hub-submission-process)
+  * [Tutorials](https://developer.webex.com/create/docs/tutorials)
+
+
+## Getting Started
+### Submit to App Hub & Badging
+Learn how to submit your agentic app for review to make it public on the Webex App Hub
+This guide helps developers submit an already registered app to be made public on the [Webex App Hub](https://apphub.webex.com/). By publishing your agentic apps here, you allow third-party applications to leverage your APIs securely.
+####  anchorSubmit your App for review
+anchor
+Once you have registered your app on the developer portal, you have the option to submit your app to the App Hub via the details page of your app.
+![Developer Portal submit button](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blta26f9f258ef722d5/69c8289ba0fd9e03b70f3e29/agentic-app-submission-guide-1.png)
+Clicking this button will open up a form that asks for the required details. 
+![App Hub submission form](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltea8545e21e5c09fa/69c8289c2cdc8a7e151d2ca8/agentic-app-submission-guide-2.png)
+Ensure that you review the [submission criteria](https://developer.webex.com/create/docs/app-hub-submission-process) while filling the required fields.
+Once you have filled all the details, click on the submit button at the bottom of the page. Once submitted, your app will undergo review to see if it fits the criteria to be made public.
+####  anchorBadging
+anchor
+Once approved, your agentic app will receive one of the following badges based on its certification level and origin:
+###### Cisco Official (ciscoOfficial): Developed and certified by Cisco
+This classification indicates that the application is developed and maintained by Cisco itself or its OEM partners. For developers, this means the app is a first-party offering with direct Cisco support and integration. Customers can trust these apps as they come from Cisco's own MCP servers, ensuring reliability and security.
+###### Cisco Onboarded (ciscoOnboarded): Developed by a third-party and certified by Cisco
+These are external MCP servers that have been certified by Cisco. Developers submitting apps under this classification have undergone Cisco's certification process, which validates the app's compatibility and security. Customers can expect these apps to meet Cisco's standards even though they are from external sources.
+###### Partner Onboarded (partnerOnboarded): Developed by a Cisco Partner and reviewed by Cisco
+This classification is for partner servers that have been reviewed by Cisco. Developers from Cisco partners have their applications reviewed to ensure quality and compliance. Customers can rely on these apps as vetted partner solutions that complement Cisco's ecosystem.
+###### Developer Onboarded (developerOnboarded): Developed by a Developer and reviewed by Cisco
+This category includes developer servers reviewed by Cisco. Independent developers or smaller teams have their apps reviewed for basic compliance and functionality. Customers can explore innovative or niche applications here, with the understanding that these have passed Cisco's review process.
+###### Federated through Registry (federatedThroughRegistry): Developed by a third-party and imported from an External Registry
+Applications imported from an external registry without manual review fall under this classification. Developers can publish apps more quickly but without Cisco's direct certification. Customers should be aware that these apps have not undergone Cisco's manual review and may vary in quality or support.
+####  anchorView Apps on App Hub
+anchor
+All approved apps are made public and are visible on the App Hub.
+![App Hub landing page](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt04a76a42d7b6a18b/69c8289c711bf73b5fbb9c65/agentic-app-submission-guide-3.png)
+##### In This Article
+  * [Submit your App for review](https://developer.webex.com/create/docs/agentic-apps-app-hub#submit-your-app-for-review)
+  * [Badging](https://developer.webex.com/create/docs/agentic-apps-app-hub#badging)
+  * [View Apps on App Hub](https://developer.webex.com/create/docs/agentic-apps-app-hub#view-apps-on-app-hub)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
