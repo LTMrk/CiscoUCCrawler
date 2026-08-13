@@ -8110,3 +8110,184 @@ Company
   * [English](https://blog.webex.com/collaboration/video-conferencing/webex-new-innovations-back-to-office/)
 
 
+
+
+---
+# ORIGEN: https://blog.webex.com/collaboration-devices/return-to-in-person
+
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-primary-logo.svg)](https://blog.webex.com)
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-secondary-logo.svg)](https://blog.webex.com)
+  * [Collaboration](https://blog.webex.com/category/collaboration/)
+  * [Workspaces](https://blog.webex.com/category/workspaces/)
+  * [Customer Experience](https://blog.webex.com/category/customer-experience/)
+  * [Event Management](https://blog.webex.com/category/event-management/)
+  * [Innovation & AI](https://blog.webex.com/category/innovation-ai/)
+
+
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2079%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/workspaces/return-to-in-person) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/workspaces/return-to-in-person&title=Return%20to%20in-person:%20Enabling%20equitable%20experiences%20for%20all) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/workspaces/return-to-in-person)
+[ ](https://blog.webex.com/workspaces/return-to-in-person/ "Copy Link") [ ](https://blog.webex.com/workspaces/return-to-in-person/ "Print")
+[Workspaces](https://blog.webex.com/category/workspaces/)
+# Return to in-person: Enabling equitable experiences for all
+On Jun 9, 2022Nov 25, 2023By [Snorre Kjesbu](https://blog.webex.com/contributors/snorrekjesbu/)4 Min Read
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/workspaces/return-to-in-person) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/workspaces/return-to-in-person&title=Return%20to%20in-person:%20Enabling%20equitable%20experiences%20for%20all) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/workspaces/return-to-in-person)
+[ ](https://blog.webex.com/workspaces/return-to-in-person/ "Copy Link") [ ](https://blog.webex.com/workspaces/return-to-in-person/ "Print")
+![Cisco Video Phone 8875 Feature](https://blog.webex.com/wp-content/uploads/2022/06/snorre-devices-feature.jpg)
+### Spaces enabled with open-platform technology support choice and consistent experiences for everyone, everywhere.
+People are ready for hybrid. Since workers started spending time away from the office, [they report](https://www.cisco.com/c/m/en_us/solutions/global-hybrid-work-study.html#blade-hero) being happier, healthier, wealthier, and having stronger familial ties. Remote work has created a new possible for the modern workplace; where emotional, financial, mental, physical, and social well-being are supported. With these improved remote experiences, office spaces will need to work harder than ever to support the well-being of its visitors to attract them. Companies can ready their offices with technology that supports equitable working experiences including:  Return to in-person 
+  * Rich data that empowers office visitors with choice.
+  * Devices that enable consistent and personalized experiences — at any desk.
+  * Technology that supports equal visibility and participation, wherever you are.
+
+
+As the great “Return to Office” begins, technology brings great potential to promote equity and fairness – both in-person and remote – across collaboration and meeting experiences.
+## Your office visit, your choice
+Offices will be a hub for collaboration, and a space to create culture and community. For culture and community to thrive, employees must first and foremost feel safe. 97% of employees want changes to make their [offices feel safer](https://www.webex.com/gp/hybrid-work-research.html), while some underrepresented groups have expressed interest in not returning at all. To attract workers and build a positive culture, traditional office spaces will have to work harder than ever before. With [technology-enhanced buildings](https://blog.webex.com/hybrid-work/return-to-office/), employees can have the visibility and control to choose when, where, and how they engage with the hybrid office place. Webex Devices integration with DNA Smart Workspaces gives users visibility to rich information like occupancy statistics and environment data, to make informed decisions about where they work.
+For instance, if needing some social interaction brought them to the office, they can intentionally book a desk next to their teammates. Or, employees can see and choose spaces to stay socially distanced, put on a headset like the [Bang & Olufsen Cisco 980](https://blog.webex.com/collaboration-devices/available-now-the-hybrid-headset-designed-for-life-and-perfected-for-business/ "Bang & Olufsen Cisco 980") and focus. Users have agency in when and where they work.
+Of course, equity means equal opportunities for all — regardless of meeting platforms and tools currently in use. Webex Devices sensor data is available in the [Webex Control Hub](https://www.webex.com/control-hub.html), and now available for integration with Smart Workspaces for [DNA Spaces](https://dnaspaces.cisco.com/). And as we remain committed to providing simplified data accessibility for all, Webex devices sensor data integration with third-party workplace management platforms will come later this year.
+![Woman In Office Speaking With Employee At Home During the Return To In-Person Movement](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20980%20520%22%3E%3C/svg%3E)
+## Personalized, consistent experiences at any desk  Return to in-person 
+The idea of “equitable experiences for all” is the [nirvana of hybrid work](https://blog.webex.com/collaboration-devices/webex-hybrid-work/) experiences, but it can feel like an intimidating goal to reach when “for all” means a lot of people. If scale wasn’t a factor, we’d deploy an immersive video conferencing experience in every conference room and remote home office. [Hybrid work](https://blog.webex.com/category/hybrid-work/), solved.
+But scale is a challenge as companies are majorly shifting their IT, HR and facilities strategies to support hybrid work. At Webex, we are constantly working to solve for this challenge- with affordable solutions that bring consistent and personal experiences to every desk. Solutions like the new [Cisco Video Phone 8875 for Webex](https://blog.webex.com/collaboration-devices/cisco-video-phone-8875/) — a personalized and premium video phone that supplies consistent hybrid work experiences at an affordable price point.
+I’ve [previously shared](https://blog.webex.com/collaboration-devices/webex-hybrid-work/) our vision for personalized hot desking experiences at the office to create inclusive experiences in shared spaces. We are furthering that vision with the 8875. It’s an affordable solution for hot desking where users will be able to simply scan a QR code to login and access their schedule, join meetings, and make or receive phone calls from their own business phone number — making even shared spaces at the office feel personal.
+## An equal seat at the conference room table  Return to in-person
+If you had the opportunity to join remote participants from a conference room pre-pandemic, you might remember the experience. Remote participants on the call would have their own window, often with their name somewhere within the picture. A conference room joins the call, and suddenly 10 floating heads appear in one small on-screen window. Something like CONF-FL2 would be the label. Companies like Rebel are the forerunners of this megatrend, adapting their workspaces for hybrid work and hybrid events at scale.
+Imagine being on that call, about to share possibly the best idea you’ve ever had, and you’re this person:
+![Webex Video Call Highlighting The Person Speaking, Demonstrating The Webex People Focus Feature](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20800%20450%22%3E%3C/svg%3E)
+You might not want to come into the office the next time you have a meeting and something important to share. Remote participants have better visibility in the virtual meeting space… and the same could be said the other way around for the physical meeting space. It’s just one of the many complex challenges of hybrid collaboration, and Webex devices are solving for it. Our room conferencing devices, like the [Webex Room Bar](https://www.webex.com/devices/webex-room-bar.html), use AI and [People Focus](https://blog.webex.com/webex-devices/creating-inclusive-meeting-experiences-with-people-focus-camera-intelligence/) to ensure all participants have equal presence on the virtual call.
+We are extending People Focus with a new option on our devices — it’s called Frames. Frames captures meeting room attendees in the most efficient way on-screen, leaving any blank space out of the view. This new feature provides better visibility to your physical attendees in any meeting, including on third-party platforms.
+With inclusive experiences like this one, coupled with technology that is open and extensible to support how you are meeting, collaboration devices support work that’s more equitable. Hybrid work, made better.
+**Learn More:**
+  * [Improve employee productivity with personalized experiences on purpose-built Webex Desk Series devices](https://blog.webex.com/webex-devices/improve-employee-productivity-with-personalized-experiences-on-purpose-built-webex-desk-series-devices/ "Improve employee productivity with personalized experiences on purpose-built Webex Desk Series devices")
+  * [Reimagine work, with Webex](https://blog.webex.com/hybrid-work/hybrid-work-with-webex/ "Reimagine work, with Webex")
+  * [The best video conferencing equipment for 2022](https://blog.webex.com/collaboration-devices/best-video-conferencing-equipment/ "The best video conferencing equipment for 2022")
+
+
+#### About The Author
+![Snorre Kjesbu](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2096%22%3E%3C/svg%3E)
+Snorre Kjesbu Senior Vice President & General Manager of Collaboration Cisco
+Snorre Kjesbu leads an integrated multi-billion-dollar business encompassing Customer Experience, Devices, and the entire Webex Suite.
+[Learn more](https://blog.webex.com/contributors/snorrekjesbu/)
+#### Topics
+[Accessibility and Inclusivity](https://blog.webex.com/tag/accessibility-and-inclusivity/)[Business Headset](https://blog.webex.com/tag/business-headset/)[Cisco Headset 900 Series](https://blog.webex.com/tag/cisco-headset-900-series/)[Collaboration Solutions](https://blog.webex.com/tag/collaboration-solutions/)[Collaboration Tools](https://blog.webex.com/tag/collaboration-tools/)[IT Solutions](https://blog.webex.com/tag/it-solutions/)[People Focus](https://blog.webex.com/tag/people-focus/)[Video Intelligence](https://blog.webex.com/tag/video-intelligence/)[Webex Control Hub](https://blog.webex.com/tag/webex-control-hub/)[Webex Devices](https://blog.webex.com/tag/webex-devices/)[Webex Room Series](https://blog.webex.com/tag/webex-room-series/)[Workforce Management](https://blog.webex.com/tag/workforce-management/)
+* * *
+## More like this
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Collaboration, Workspaces Cisco named 2026 Global Enterprise Desktop Phone Company of the ... By John Reeder5 Min Read ](https://blog.webex.com/collaboration/cisco-named-2026-global-enterprise-desktop-phone-company-of-the-year-by-frost-sullivan/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Workspaces Zero Touch Provisioning: Instant Collaboration By Rajesh Patwardhan2 Min Read ](https://blog.webex.com/workspaces/zero-touch-provisioning-instant-collaboration/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201184%22%3E%3C/svg%3E)simple Collaboration, Workspaces How Industry Leaders Turned Collaboration Into a Competitive ... By Dik Whitten8 Min Read ](https://blog.webex.com/collaboration/how-industry-leaders-turned-collaboration-into-a-competitive-advantage/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Workspaces The Last Mile of AI Infrastructure Has Been Missing. Not Anymore. By Espen Løberg6 Min Read ](https://blog.webex.com/workspaces/last-mile-of-ai-infrastructure-has-been-missing-not-anymore/)
+Products
+  * [Webex Suite](https://www.webex.com/suite/collaboration-suite.html)
+  * [Meetings](https://www.webex.com/meetings.html)
+  * [Calling](https://www.webex.com/enterprise-cloud-calling.html)
+  * [Messaging](https://www.webex.com/team-collaboration.html)
+  * [Events](https://www.webex.com/events.html)
+  * [Video Messaging](https://vidcast.io/)
+  * [Polling](https://www.webex.com/suite/polling.html)
+  * [Webinars](https://www.webex.com/webinar.html)
+  * [Whiteboarding](https://www.webex.com/suite/whiteboard.html)
+  * [Cloud Contact Center](https://www.webex.com/us/en/products/customer-experience/contact-center.html)
+  * [CPaaS](https://www.webex.com/us/en/products/customer-experience/cpaas.html)
+
+
+Footer Terms Menu
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/workspaces/return-to-in-person/)
+
+
+Devices
+  * [Room Devices](https://www.webex.com/us/en/devices/room-devices.html)
+  * [Desk Devices](https://www.webex.com/us/en/devices/desk-series.html)
+  * [Digital Whiteboards](https://www.webex.com/us/en/devices/digital-whiteboards.html)
+  * [Phones](https://www.webex.com/us/en/devices/phone-series.html)
+  * [Cameras](https://www.webex.com/us/en/devices/cameras.html)
+  * [Headsets](https://www.webex.com/us/en/devices/headsets.html)
+  * [Room Accessories](https://www.webex.com/us/en/devices/accessories.html)
+
+
+Resources
+  * [Pricing](https://pricing.webex.com/us/en/)
+  * [Downloads](https://www.webex.com/downloads.html)
+  * [Help Center](https://help.webex.com/)
+  * [Webex Community](https://cs.co/webexcommunity)
+  * [Product Essentials](https://essentials.webex.com/)
+  * [Watch Webinars](https://www.webex.com/learn/webinars-demos.html)
+  * [App Hub](https://apphub.webex.com/)
+  * [Accessibility](https://www.webex.com/accessibility.html)
+  * [Developers](https://developer.webex.com/)
+
+
+Company
+  * [Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)
+  * [Webex Customer Advocacy Program](https://www.webex.com/us/en/dg/customer-advocacy-program.html)
+  * [Contact Support](https://help.webex.com/contact/)
+  * [Contact Sales](https://www.webex.com/contact-sales.html?locale=US)
+  * [Webex Merch Store](https://merchandise.cisco.com/featured/webex-by-cisco.html)
+  * [Careers](https://www.webex.com/company/careers.html)
+
+
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://twitter.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.linkedin.com/company/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.facebook.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.youtube.com/c/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.instagram.com/webex/)
+
+
+©2026 Cisco and/or its affiliates. All Rights Reserved.
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/workspaces/return-to-in-person/)
+
+
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
