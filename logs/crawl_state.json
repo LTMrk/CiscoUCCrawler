@@ -2802,5 +2802,9 @@
   "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cc-mult-vuln-gK4TFXSn.html": {
     "hash": "44574218e49b4b40e3c8c3c1d030c1f03963d4a30bba0cafd42b1da31c126e36",
     "timestamp": "2026-08-13T00:32:05.652678"
+  },
+  "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cc-unauth-rce-QeN8h7mQ.html": {
+    "hash": "543be70e134d6445679581c3edd209c6f0afa1df9bd4d73387d11b26c2f3e67b",
+    "timestamp": "2026-08-13T00:32:10.060763"
   }
 }
