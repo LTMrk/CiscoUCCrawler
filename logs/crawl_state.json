@@ -8214,5 +8214,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-preferences/update-audio-options": {
     "hash": "e5782aeb202b9d4f7b9d7c6763cb68366d01a238e896ae363951b2fb2c11bae3",
     "timestamp": "2026-08-13T02:16:32.728676"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-preferences/get-video-options": {
+    "hash": "aa05a764d1624042215663bea547d0f04dccd3d569c6e8a23332dbd6f3ec8bd7",
+    "timestamp": "2026-08-13T02:16:39.153167"
   }
 }
