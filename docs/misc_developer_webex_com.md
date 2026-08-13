@@ -46277,3 +46277,140 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/blog/cisco-live-amsterdam-2025-a-spectacular-event-for-webex-developers
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/blog/cisco-live-amsterdam-2025-a-spectacular-event-for-webex-developers)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/blog/cisco-live-amsterdam-2025-a-spectacular-event-for-webex-developers)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/blog/cisco-live-amsterdam-2025-a-spectacular-event-for-webex-developers)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+# Cisco Live Amsterdam 2025: A Spectacular Event for Webex Developers
+March 7, 2025
+![Adam Weeks](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt3280371eceea2196/6a60ed759ee77e32d96ed610/Adam_Headshot_Cropped.png?width=100&height=100&fit=crop)
+Adam WeeksTechnical Leader, Webex Developer Relations
+![Cisco Live Amsterdam 2025: A Spectacular Event for Webex Developers](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltd0da2ecb6e48d61e/67cb2147af5e64c27dcd427d/cisco-live-emea-25-wrapup-1.jpeg?width=900&height=317&fit=crop)
+Cisco Live Amsterdam 2025 has wrapped up, and what an incredible event it was! Developers from around the globe gathered to explore the latest innovations in Webex technology, engage in hands-on workshops, and network with industry experts. Here's a look back at some of the highlights from this year's event.
+### Engaging Sessions and Workshops
+Webex Developers at Cisco Live Amsterdam 2025 had the opportunity to participate in a variety of sessions and workshops designed to enhance their skills and knowledge. From deep dives into the latest Webex technologies to interactive hands-on experiences, our sessions were tailored to meet the diverse interests and expertise levels of our attendees. Webex for Developers was represented in multiple areas across Cisco Live, including the DevNet Zone, CiscoU, and even Collaboration Breakout sessions!
+#### Classroom Sessions
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltd5daa6483f1f28fa/cisco-live-emea-25-wrapup-2.jpeg)
+Our classroom sessions offered developers the chance to dive deep into the latest Webex technologies with expert-led discussions. Highlights included:
+  * **Extending Webex Contact Center with Flow Designer Extensibility (DEVNET-2915)** : Unlock advanced features for your contact center.
+  * **AI Innovations with Cisco Webex: Transforming Industries through Smart Applications (DEVNET-2127):** Discover how AI is reshaping industries.
+  * **Implementing OAuth 2.0 Authorization for Webex Integrations (DEVNET-2675):** Learn secure OAuth flows for Webex apps.
+  * **What’s New in Webex Platform APIs: Messaging, Meetings, Calling, SDKs, and Embedded Apps (BRKCOL-2907):** Stay updated with the latest Webex innovations.
+  * **Enhance Your Contact Center with Webex: A Developer's Introduction to APIs and Automation (CISCOU-2043):** Explore APIs for troubleshooting and automation.
+  * **Navigating the Webex App Hub Review Process: Best Practices for Developers (DEVLIT-1203):** Learn about how to successfully submit your app to the Webex AppHub
+
+
+Most sessions are available for replay on the [Cisco Live On Demand Replay site](https://www.ciscolive.com/on-demand/on-demand-library.html).
+#### Workshops
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt1570d1ddc29a2523/cisco-live-emea-25-wrapup-3.jpeg)
+Our hands-on workshops were a hit, providing practical experience and fostering collaboration. Popular workshops included:
+  * **Enhancing Virtual Meetings with Webex's Guest-to-Guest Platform (DEVWKS-2903):** Create seamless virtual meetings for non-licensed users.
+  * **Build-a-Bot with Webex (DEVWKS-1149):** Get hands-on experience building your first Webex bot.
+  * **Building your First Embedded App on Webex (DEVWKS-1650):** Learn to develop and deploy Webex Embedded Apps.
+  * **Deploying Webex Service Apps (DEVWKS-2040):** Gain experience with creating and deploying Service Apps.
+
+  
+
+### Booths Across Cisco Live
+Our booths were a central hub of activity throughout Cisco Live, offering attendees opportunities to engage with the latest Webex technologies and developer tools. Visitors explored integrations, developer features, and received expert guidance on how to leverage these tools to enhance their projects.
+#### Webex for Developers Booth
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt203a6d2e4403c782/cisco-live-emea-25-wrapup-4.jpeg)
+The **Webex for Developers** booth was buzzing with activity as attendees explored the full range of Webex developer features. Visitors to the booth had the opportunity to see an entire customer journey powered by Webex Contact Center, Webex Bots, Webex Instant Connect, and Webex Connect, all connected via developer interfaces!
+#### Open Ecosystem Integrations Booth
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt8b0de13005a1588e/cisco-live-emea-25-wrapup-5.png)
+At the **Open Ecosystem Integrations** booth, participants had the opportunity to try out apps from [apphub.webex.com](https://apphub.webex.com/).
+#### DevNet Zone Booth
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltf661e25f99142415/cisco-live-emea-25-wrapup-6.jpeg)
+At our booth in the **DevNet Zone** , developers were able to try out the new AI-Assistant feature as well as other developer features, with experts on hand to answer questions and provide demonstrations.
+### Memorable Moments
+One of the standout moments was the enthusiastic participation in our interactive workshops, where developers collaborated to create innovative solutions. The networking opportunities were abundant, fostering connections that will continue to inspire collaboration and growth within the Webex developer community.
+### Thank You to Our Attendees
+Thank you to everyone who joined us at Cisco Live Amsterdam 2025. Your passion and creativity are what drive the future of Webex technology. We hope you left with new ideas, skills, and connections that will propel your projects to new heights. Let’s keep in touch on the [Developer Community Forums](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)!
+Stay tuned for more updates and events from the Webex Developer team. We can't wait to see what you'll create next!
+Blog Categories
+  * [Product Announcements](https://developer.webex.com/blog/categories/product-announcements)
+  * [How To](https://developer.webex.com/blog/categories/how-tos)
+  * [Events](https://developer.webex.com/blog/categories/events)
+  * [Developer Stories](https://developer.webex.com/blog/categories/developer-stories)
+
+
+Share This Article
+Related Articles
+![Announcing Webex Developer Sessions at Cisco Live Amsterdam 2025](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltbd6c2cc741c9e959/67800e22d9df89403ce0276b/header.png?width=600&height=300&fit=crop)
+Events
+[Announcing Webex Developer Sessions at Cisco Live Amsterdam 2025](https://developer.webex.com/blog/announcing-webex-developer-sessions-at-cisco-live-amsterdam-2025)
+Adam Weeks
+January 13, 2025
+![Webex for Developers at Cisco Live Amsterdam](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltee0da7eee67af183/63b735dc7775c203ffb24e2a/webex-for-devs-cisco-live-emea-23-1.png?width=600&height=300&fit=crop)
+Events
+[Webex for Developers at Cisco Live Amsterdam](https://developer.webex.com/blog/webex-for-developers-at-cisco-live-amsterdam)
+Adam Weeks
+January 9, 2023
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
