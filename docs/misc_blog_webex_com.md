@@ -8414,3 +8414,176 @@ Company
   * [English](https://blog.webex.com/collaboration/hybrid-work/video-meeting-fatigue/)
 
 
+
+
+---
+# ORIGEN: https://blog.webex.com/customer-experience/one-platform-one-customer-journey-organizations-unify-calling-contact-center-webex
+
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-primary-logo.svg)](https://blog.webex.com)
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-secondary-logo.svg)](https://blog.webex.com)
+  * [Collaboration](https://blog.webex.com/category/collaboration/)
+  * [Workspaces](https://blog.webex.com/category/workspaces/)
+  * [Customer Experience](https://blog.webex.com/category/customer-experience/)
+  * [Event Management](https://blog.webex.com/category/event-management/)
+  * [Innovation & AI](https://blog.webex.com/category/innovation-ai/)
+
+
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2079%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/collaboration/one-platform-one-customer-journey-organizations-unify-calling-contact-center-webex) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/collaboration/one-platform-one-customer-journey-organizations-unify-calling-contact-center-webex&title=One%20Platform,%20One%20Customer%20Journey:%20How%20Organizations%20Unify%20...) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/collaboration/one-platform-one-customer-journey-organizations-unify-calling-contact-center-webex)
+[ ](https://blog.webex.com/collaboration/one-platform-one-customer-journey-organizations-unify-calling-contact-center-webex/ "Copy Link") [ ](https://blog.webex.com/collaboration/one-platform-one-customer-journey-organizations-unify-calling-contact-center-webex/ "Print")
+[Collaboration](https://blog.webex.com/category/collaboration/), [Customer Experience](https://blog.webex.com/category/customer-experience/)
+# One Platform, One Customer Journey: How Organizations Unify Calling and Contact Center with Webex
+On Mar 20, 2026Mar 20, 2026By [Manu Parhar](https://blog.webex.com/contributors/mparhar/)5 Min Read
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/collaboration/one-platform-one-customer-journey-organizations-unify-calling-contact-center-webex) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/collaboration/one-platform-one-customer-journey-organizations-unify-calling-contact-center-webex&title=One%20Platform,%20One%20Customer%20Journey:%20How%20Organizations%20Unify%20...) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/collaboration/one-platform-one-customer-journey-organizations-unify-calling-contact-center-webex)
+[ ](https://blog.webex.com/collaboration/one-platform-one-customer-journey-organizations-unify-calling-contact-center-webex/ "Copy Link") [ ](https://blog.webex.com/collaboration/one-platform-one-customer-journey-organizations-unify-calling-contact-center-webex/ "Print")
+![](https://blog.webex.com/wp-content/uploads/2026/03/contact-center-with-webex.jpg)
+Organizations often struggle with the complexity created by running enterprise telephony and contact center systems on separate platforms. IT teams must manage multiple admin tools, fragmented analytics, and disconnected policies across different systems. This separation also affects customer service. Agents may have difficulty reaching the right employees inside the organization, slowing resolution times and creating inconsistent customer experiences.
+Webex solves this challenge with a single platform. By bringing industry-recognized [Webex Calling](https://www.webex.com/suite/enterprise-cloud-calling.html) and [Webex Contact Center](https://www.webex.com/us/en/products/customer-experience/contact-center.html) together, organizations can manage users, policies, and services from one system while enabling seamless collaboration between agents and employees across the business. The result is simpler operations for IT, incredible cost savings for businesses, and faster, more connected customer interactions.
+Two organizations, [AIDS Healthcare Foundation (AHF)](https://blog.webex.com/customer-experience/aids-healthcare-foundations-digital-transformation-with-webex/) and [Trive Inc.](https://blog.webex.com/customer-experience/trive-launched-public-sector-contact-center-three-months-webex-contact-center/), illustrate how this approach works in practice. One supports healthcare services on a global scale. The other launched a public sector concierge center under strict security requirements and a compressed timeline. In both cases, a unified Webex platform reduced operational complexity while improving how they serve customers.
+## The Impact of Fragmented Communications Platforms
+When enterprise calling and contact center platforms operate separately, organizations face increased operational complexity and fragmented service delivery. That separation introduces operational challenges across the business:
+  * **Inconsistent customer experiences:** When systems are disconnected, customers are often transferred between departments without context. Agents may lack visibility into previous interactions, and service quality can vary depending on where the call lands.
+  * **Increased IT complexity:** Multiple platforms mean multiple administrative tools, policy frameworks, vendor relationships, and reporting systems. Maintaining these environments requires more resources and slows the pace of change.
+  * **Fragmented analytics:** When reporting data lives across different systems, it becomes harder to measure service performance, identify operational bottlenecks, or prioritize improvements.
+  * **Greater compliance challenges:** Organizations in regulated industries or public sector environments often require strict controls around call recording, notifications, data handling, and system availability. Managing those requirements across multiple platforms adds risk and complexity.
+
+
+For organizations aiming to improve customer experience while increasing operational efficiency, communications fragmentation becomes a strategic constraint.
+## Webex: A Unified Platform for Enterprise Calling and Contact Center
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201672%201028%22%3E%3C/svg%3E)
+Cisco has delivered unified enterprise calling and contact center platforms for decades on-premises with [Cisco Unified Communications Manager (UCM)](https://www.webex.com/us/en/products/suite/enterprise-cloud-calling/CUCM.html) and [UCCX](https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-express/index.html) and [UCCE](https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/index.html). With [Webex Calling](https://www.webex.com/suite/enterprise-cloud-calling.html) and [Webex Contact Center](https://www.webex.com/us/en/products/customer-experience/contact-center.html), Cisco builds on this proven experience to deliver a cloud platform that unifies enterprise telephony, contact center, and collaboration in a single environment.
+Unifying calling and contact center on a single platform delivers several key advantages:
+  * **Centralized administration:** Through Webex Control Hub, IT teams manage users, locations, policies, devices, and many essential services from a single interface, simplifying operations and improving governance.
+  * **Flexible, centrally managed PSTN connectivity:** Organizations can manage PSTN connectivity centrally while selecting from a wide range of certified global providers for both employee calling and contact center operations.
+  * **Seamless collaboration between agents and employees:** Agents can quickly connect with subject matter experts across the organization, enabling faster issue resolution and smoother handoffs between departments.
+  * **Cloud agility with enterprise flexibility:** Organizations gain the speed and scalability of cloud deployment while still supporting compliance-driven requirements such as call recording, data storage, and retention.
+  * **A smooth path to the cloud for existing Cisco customers:** For the more than 30 million users running UCM on-premises, this approach provides a smoother path to the cloud by allowing organizations to evolve their architecture over time rather than forcing a disruptive migration.
+  * **A foundation for analytics and AI:** Because interactions occur on the same platform, organizations can apply analytics, automation, AI-assisted workflows, and digital engagement capabilities across their communications environment.
+  * **A complete collaboration device portfolio:** Cisco offers a complete portfolio of devices, including [Cisco phones](https://www.webex.com/us/en/devices/phone-series.html), [Cisco desk devices](https://www.webex.com/us/en/devices/desk-series.html), and [room systems](https://www.webex.com/us/en/devices.html), that are centrally managed. With hot desking support, agents and employees can personalize any workspace while maintaining a consistent experience across locations.
+
+
+The unified Webex platform simplifies communications management while strengthening the customer experience. By bringing enterprise calling, contact center, and devices together, organizations gain streamlined administration, greater agility through cloud innovation, and a consistent experience across users and workspaces. The outcome is more efficient operations and faster, more consistent service that drives higher customer satisfaction.
+## How Two Webex Customers are Modernizing Calling and Customer Service
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201672%201028%22%3E%3C/svg%3E)
+Organizations adopting the unified [Webex Calling](https://www.webex.com/suite/enterprise-cloud-calling.html) and [Webex Contact Center](https://www.webex.com/us/en/products/customer-experience/contact-center.html) platform have realized measurable improvements in speed, scalability, operational insight, and collaboration. Recent deployments from [AIDS Healthcare Foundation (AHF)](https://blog.webex.com/customer-experience/aids-healthcare-foundations-digital-transformation-with-webex/) and [Trive Inc.](https://blog.webex.com/customer-experience/trive-launched-public-sector-contact-center-three-months-webex-contact-center/) demonstrate how Webex supports organizations with very different operational requirements while delivering consistent business outcomes.
+**Speed**
+Webex enables organizations to deploy modern contact center capabilities quickly without the complexity of traditional infrastructure.
+  * Trive built and launched the Yokohama DX Concierge Center in approximately three months, including testing and deployment.
+  * The cloud-based architecture enabled a new public-sector citizen services operation to go live far faster than a traditional on-premises implementation.
+
+
+> Building an on-premises system from scratch was not realistic… such projects can take a year or more.”
+> -Ms. Tomoe Harada, Manager at Trive
+**Scale**
+The unified [Webex](https://www.webex.com/) Cloud platform provides the flexibility to support rapid organizational growth while maintaining consistent service.
+  * AIDS Healthcare Foundation deployed 2,200 [Webex Suite](https://www.webex.com/suite/collaboration-suite.html) licenses and 360 concurrent [Webex Contact Center](https://www.webex.com/us/en/products/customer-experience/contact-center.html) licenses, with plans to expand to 450–500 licenses.
+  * The platform supports operations across numerous locations while maintaining consistent communications and service performance.
+
+
+**Insight and Efficiency**
+Integrated analytics and AI capabilities help organizations improve service quality and reduce manual work.
+  * Supervisors gain real-time dashboards and automated reporting to track metrics such as response times and service levels.
+  * AI-powered capabilities such as call transcripts, summaries, and automated scoring help reduce post-call documentation and administrative work.
+
+
+**Connectivity**
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201672%201028%22%3E%3C/svg%3E)
+Agents and employees collaborate on the same platform, improving resolution speed and service outcomes.
+  * At AIDS Healthcare Foundation, staff across locations can collaborate more easily while supporting patient inquiries.
+  * At Trive’s Yokohama DX Concierge Center, agents coordinate responses across services while handling a wide range of citizen inquiries.
+  * Operating on a single platform allows agents to quickly connect with the right expertise across the organization, reducing transfers and improving resolution times.
+
+
+> Webex offered a full comprehensive platform with its UC and CC and collaboration services.”
+> -Rudy Esfahani, IT Director of Communication at AHF
+Together, these deployments show how a unified Webex platform enables organizations to scale services, improve operational insight, and deliver more connected customer experiences.
+## The Advantage of a Unified Platform
+Customers do not experience your internal systems. They experience how quickly you respond, how effectively you resolve issues, and how consistently you deliver service.
+A unified [Webex Calling](https://www.webex.com/suite/enterprise-cloud-calling.html) and [Webex Contact Center](https://www.webex.com/us/en/products/customer-experience/contact-center.html) platform removes the fragmentation that often stands in the way. By bringing enterprise calling, contact center, and collaboration together, organizations can simplify operations, gain better visibility into service performance, and scale customer engagement with confidence.
+Ready to modernize your communications platform? [Contact us](https://www.webex.com/us/en/dg/contact-sales.html) to learn how a unified platform can transform your customer experience.
+**Learn more**
+[Webex Calling](https://www.webex.com/suite/enterprise-cloud-calling.html)
+[Webex Contact Center](https://www.webex.com/us/en/products/customer-experience/contact-center.html)
+[Contact Sales](https://www.webex.com/us/en/dg/contact-sales.html)
+#### About The Author
+![Manu Parhar](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2096%22%3E%3C/svg%3E)
+Manu Parhar Director of Product Marketing Cisco
+Manu currently serves as Director of Product Marketing for the Webex Customer Experience Solutions portfolio, which includes Webex Contact Center, an AI-powered customer experience platform and Webex Connect, a cloud communications platform (CPaaS).
+[Learn more](https://blog.webex.com/contributors/mparhar/)
+#### Topics
+[Webex Calling](https://blog.webex.com/tag/webex-calling/)[Webex Contact Center](https://blog.webex.com/tag/webex-contact-center-2/)
+* * *
+## More like this
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Collaboration, Workspaces Cisco named 2026 Global Enterprise Desktop Phone Company of the ... By John Reeder5 Min Read ](https://blog.webex.com/collaboration/cisco-named-2026-global-enterprise-desktop-phone-company-of-the-year-by-frost-sullivan/)
+[ ![Intelligent Customer Experiences graphic showing connected interactions between people, people and AI, and AI systems.](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201774%20887%22%3E%3C/svg%3E)simple Customer Experience The winning strategy for delivering exceptional customer ... By Vinod Muthukrishnan6 Min Read ](https://blog.webex.com/customer-experience/connected-intelligence-customer-experience-strategy/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Customer Experience, Customer Stories, Innovation & AI How Estes Is Building Smarter Customer Care with Webex AI By Krishna Tyagi, Jill Townsend5 Min Read ](https://blog.webex.com/innovation-ai/how-estes-is-building-smarter-customer-care-with-webex-ai/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201104%22%3E%3C/svg%3E)simple Collaboration Eight years running! Cisco is named a Leader in the 2026 Gartner® ... By Amit Barave7 Min Read ](https://blog.webex.com/collaboration/eight-years-running-cisco-named-leader-2026-gartner-magic-quadrant-unified-communications-service-ucaas/)
+Products
+  * [Webex Suite](https://www.webex.com/suite/collaboration-suite.html)
+  * [Meetings](https://www.webex.com/meetings.html)
+  * [Calling](https://www.webex.com/enterprise-cloud-calling.html)
+  * [Messaging](https://www.webex.com/team-collaboration.html)
+  * [Events](https://www.webex.com/events.html)
+  * [Video Messaging](https://vidcast.io/)
+  * [Polling](https://www.webex.com/suite/polling.html)
+  * [Webinars](https://www.webex.com/webinar.html)
+  * [Whiteboarding](https://www.webex.com/suite/whiteboard.html)
+  * [Cloud Contact Center](https://www.webex.com/us/en/products/customer-experience/contact-center.html)
+  * [CPaaS](https://www.webex.com/us/en/products/customer-experience/cpaas.html)
+
+
+Footer Terms Menu
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/collaboration/one-platform-one-customer-journey-organizations-unify-calling-contact-center-webex/)
+
+
+Devices
+  * [Room Devices](https://www.webex.com/us/en/devices/room-devices.html)
+  * [Desk Devices](https://www.webex.com/us/en/devices/desk-series.html)
+  * [Digital Whiteboards](https://www.webex.com/us/en/devices/digital-whiteboards.html)
+  * [Phones](https://www.webex.com/us/en/devices/phone-series.html)
+  * [Cameras](https://www.webex.com/us/en/devices/cameras.html)
+  * [Headsets](https://www.webex.com/us/en/devices/headsets.html)
+  * [Room Accessories](https://www.webex.com/us/en/devices/accessories.html)
+
+
+Resources
+  * [Pricing](https://pricing.webex.com/us/en/)
+  * [Downloads](https://www.webex.com/downloads.html)
+  * [Help Center](https://help.webex.com/)
+  * [Webex Community](https://cs.co/webexcommunity)
+  * [Product Essentials](https://essentials.webex.com/)
+  * [Watch Webinars](https://www.webex.com/learn/webinars-demos.html)
+  * [App Hub](https://apphub.webex.com/)
+  * [Accessibility](https://www.webex.com/accessibility.html)
+  * [Developers](https://developer.webex.com/)
+
+
+Company
+  * [Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)
+  * [Webex Customer Advocacy Program](https://www.webex.com/us/en/dg/customer-advocacy-program.html)
+  * [Contact Support](https://help.webex.com/contact/)
+  * [Contact Sales](https://www.webex.com/contact-sales.html?locale=US)
+  * [Webex Merch Store](https://merchandise.cisco.com/featured/webex-by-cisco.html)
+  * [Careers](https://www.webex.com/company/careers.html)
+
+
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://twitter.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.linkedin.com/company/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.facebook.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.youtube.com/c/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.instagram.com/webex/)
+
+
+©2026 Cisco and/or its affiliates. All Rights Reserved.
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/collaboration/one-platform-one-customer-journey-organizations-unify-calling-contact-center-webex/)
+
+
