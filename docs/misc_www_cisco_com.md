@@ -253519,3 +253519,202 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+![5G Network Architecture](https://www.cisco.com/content/dam/en/us/solutions/service-provider/images/5g-network-architecture-1600x480.jpg)
+  * [](https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html)
+  * [Solutions](https://www.cisco.com/c/en/us/solutions/index.html)
+  * [Service Provider](https://www.cisco.com/c/en/us/solutions/service-provider/index.html)
+
+
+# 5G Network Architecture
+Break free of proprietary limitations to realize the potential of 5G with a Cisco open, cloud-native architecture.
+  * [Cisco 5G agility (1:24)](javascript:void\(0\);)
+
+
+[](https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html)
+  * [5G Network Architecture](https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html#5g-network-architecture)
+  * [5G Monetization](https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html#5g-monetization)
+  * [Solutions](https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html#solutions)
+  * [Products](https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html#products)
+  * [Resources](https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html#resources)
+
+[](https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html)
+Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+## Deploy services your customers want, when and where they need them
+The Cisco cloud-to-client approach unifies multivendor mobile solutions into an open, cloud-native architecture. Build a 5G network that is cost-efficient, simplified, and trustworthy. Differentiate your business with connected experiences and cloud services.
+### Unify your architecture
+The Cisco Cloud-to-client, open, multivendor, multi-technology 5G architecture simplifies the complicated.
+### Reduce your costs
+Simplified IP network operations and service creation improves efficiency.
+### Monetize your network
+An application and mode-driven cloud platform freely and quickly monetizes new services.
+### Mitigate your risk
+Secured and trusted solutions for your network establishes premium value with your customers.
+## Cisco 5G cloud-native architecture
+Deploy a proven open 5G ecosystem, dedicated to simplifying an open and converged access network, allowing connections to move between various access types. Enhance quality of experience, cost management, and traffic optimization all in one 5G architecture.
+## Reimagining the emerging mobile network
+As a new provider of mobile network services, you need an innovative yet proven network. With a Cisco 5G software-defined architecture, your network will be defined by applications and services not just access technology. 
+  * [Watch video (3:41)](javascript:void\(0\);)
+  * [Read white paper](https://www.cisco.com/c/en/us/solutions/service-provider/mobile-internet/reimagining-mobile-network.html)
+
+
+  
+
+## Evolving the existing mobile network
+Transform your existing network into an automated, software-defined 5G network and achieve the same benefits once thought only possible with a new network. Cisco provides a step-by-step map to 5G success.
+  * [Watch video (4:13)](javascript:void\(0\);)
+  * [Read white paper](https://www.cisco.com/c/en/us/solutions/service-provider/5g-transformation/software-defined-mobile-networks.html)
+
+
+## Tap into 5G monetization
+Differentiate your business with connected experiences and cloud services. This is the heart of a 5G monetization strategy.
+Through new innovation in cloud-based packet core, seamless business-to-service provider network connections, automation advances, and a trusted secure infrastructure, the road to a profitable mobile network has never been clearer.
+See how Cisco can help monetize your 5G network.
+  * [Read the ebook](https://ebooks.cisco.com/story/monetizing-5g/)
+
+
+###  5G network solutions 
+Build a 5G mobile network that is cost-efficient, simplified, and trustworthy.
+###  [ Open vRAN ](https://blogs.cisco.com/sp/open-vran-collaboration-to-accelerate-solution-deployments)
+An Ecosystem dedicated to building and validating open software solutions for the Radio Access Network.
+###  [ 5G Transport and xHaul ](https://www.cisco.com/c/en/us/solutions/service-provider/mobile-internet/5g-transport.html)
+Industry leading backhaul, midhaul, and fronthaul solutions for your 5G radio access network and more.
+###  [ Built-in Trust and Security ](https://www.cisco.com/c/m/en_us/network-intelligence/service-provider/digital-transformation/built-in-trust.html)
+Trust and security solutions that protect your network and services.
+###  [ Internet of Things for the 5G era ](https://www.cisco.com/site/us/en/solutions/networking/industrial-iot/index.html)
+Trusted and secure IoT solutions with the scale and ease you need to succeed.
+## 5G network products
+### [_Packet Core for 5G and 4G_ Cloud-native mobile core drives revenue with greater agility. ](https://www.cisco.com/c/en/us/products/wireless/packet-core/index.html)
+### [_Policy Suite_ Mobile policy, charging, and subscriber data management helps control and monetize the network. ](https://www.cisco.com/c/en/us/products/wireless/policy-suite-mobile/index.html)
+### [_Cloud Services Stack for Mobility_ Accelerate 4G and 5G mobile core deployments with everything you need in one validated package. ](https://www.cisco.com/c/dam/en_us/services/downloads/cisco-cloud-services-stack-mobility-at-a-glance.pdf)
+### [_NCS 500 Series_ Converge services and scale with 5G routers for fronthaul, midhaul, and backhaul. ](https://www.cisco.com/c/en/us/products/routers/network-convergence-system-500-series-routers/index.html)
+### [_Network Optimization Tools_ Improve customer experience while reducing costs and RAN congestion with minimal cost, time and effort. ](https://www.cisco.com/c/en/us/products/wireless/traffic-optimization/index.html)
+### [_Crosswork Automation_ Automate, simplify, save money with more efficient network operations. ](https://www.cisco.com/site/us/en/products/networking/software/crosswork-network-automation/index.html)
+### [Pay-as-you-grow flexible subscriptions](https://www.cisco.com/c/en/us/buy/payment-solutions.html)
+Learn more about how to pay for your technology, optimize cash flow, access new sources of credit, and manage asset lifecycles.
+### [Accelerate success with Customer Experience (Cisco CX)](https://www.cisco.com/c/m/en_us/customer-experience/architectures/service-provider.html)
+Harness the power of Cisco expertise to fast track your business outcomes.
+## Recommended resources
+###  [ Securing Open vRAN ](https://www.cisco.com/c/dam/en/us/solutions/service-provider/pdfs/5g-network-architecture/white-paper-sp-open-vran-security-benefits.pdf)
+Open vRAN environment can improve security within the radio access network. 451 Research explains how you can have both an open and a more secure RAN.
+###  [ Driving profits from connecting vehicles ](https://www.cisco.com/c/en/us/solutions/service-provider/mobile-internet/driving-profits-from-connected-vehicles.html)
+You are driving a data-generating machine (your car). Read how you can drive new revenues from connected vehicles over your network.
+###  [ 5G blogs ](https://blogs.cisco.com/tag/5g)
+Stay up to date on 5G technology, news, and analysis.
+## Additional resources
+### Analyst reports
+  * [Read IDC Analyst Connection report](https://www.cisco.com/c/en/us/solutions/service-provider/offers/assets/idc-5g-strategic-mobility-architecture-whitepaper.html)
+
+
+### Blogs
+  * [SRv6: From 5G networks to AI infrastructure—a journey of innovation ](https://blogs.cisco.com/sp/srv6-from-5g-networks-to-ai-infrastructure-a-journey-of-innovation)
+
+
+### Case studies
+  * [Cisco and Rakuten Build Innovative 5G Network](https://www.cisco.com/c/en/us/solutions/service-provider/mobile-internet/reimagining-mobile-network.html)
+  * [Gogo Building Nationwide 5G Network for Aviation](https://www.cisco.com/site/us/en/solutions/service-provider/5g-network-architecture/gogo-aviation/index.html)
+
+
+### Solution Overviews
+  * [Cisco Mobility Services Platform Solution Overview](https://www.cisco.com/c/en/us/solutions/collateral/internet-of-things/mobility-services-platform-so.html)
+
+
+### Technical webinars
+  * [Cisco 5G Cloud Core - Built for the Future](https://engage2demand.cisco.com/LP=20656)
+  * [Expanding to Fronthaul to Enable 5G Cloud-Native Architectures](https://engage2demand.cisco.com/LP=19841)
+  * [The Enterprise 5G Opportunity](https://engage2demand.cisco.com/LP=20658)
+  * [Wi-Fi 6 and 5G: Perfect Together](https://engage2demand.cisco.com/LP=19303)
+
+
+### Videos
+  * [5G Drives Transformation in Saudi Arabia (2:10)](javascript:void\(0\);)
+
+
+### White papers
+  * [5G ORAN Deployment: Field Insights and Best Practices for Automated and Orchestrated Provisioning](https://www.cisco.com/c/en/us/solutions/collateral/service-provider/5g-oran-bp-orchestrated-provisioning-wp.html)
+  * [5G Security Innovation](https://www.cisco.com/c/dam/en/us/solutions/collateral/service-provider/service-provider-security-solutions/5g-security-innovation-with-cisco-wp.pdf)
+  * [Backhaul Evolution for 5G](https://www.cisco.com/c/en/us/solutions/service-provider/industry/telco/backhaul-evolution-for-5g.html)
+  * [Cisco Converged Core](https://www.cisco.com/c/en/us/solutions/collateral/service-provider/converged-core-wp.html)
+  * [Congestion Relief for your RAN](https://www.cisco.com/c/en/us/solutions/service-provider/mobile-internet/congestion-relief-for-your-ran.html)
+  * [IDC Technology Spotlight: New Incremental Business Opportunities with Wi-Fi 6](https://www.cisco.com/c/dam/en/us/solutions/service-provider/5g-transformation/pdf/white-paper-sp-idc-5g-wifi6.pdf)
+
+
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
