@@ -8122,5 +8122,9 @@
   "https://developer.webex.com/docs/api/v1/recordings/delete-a-recording-by-an-admin": {
     "hash": "ac58917ff1c6e3b9e22d7fbb8cbe16cda430e1540a9d6fe7738de84bfdcc3c51",
     "timestamp": "2026-08-13T02:14:09.446675"
+  },
+  "https://developer.webex.com/docs/api/v1/recordings/move-recordings-into-the-recycle-bin": {
+    "hash": "5aca98e592230b1a7bb1b1af3feb01cbbfdc2325d90eb4618410297c0fcef7c2",
+    "timestamp": "2026-08-13T02:14:15.728454"
   }
 }
