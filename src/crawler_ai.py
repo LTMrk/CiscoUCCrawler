@@ -217,7 +217,7 @@ async def deep_crawl():
             
             target_css, js_injection = get_custom_behavior(url)
             
-            try:
+             try:
                 result = await crawler.arun(
                     url=url,
                     word_count_threshold=0,
@@ -226,18 +226,13 @@ async def deep_crawl():
                     process_iframes=True,
                     cache_mode=CacheMode.BYPASS,
                     magic=True,
-                    screenshot=True, # HECHO TÉCNICO: Nomenclatura estandarizada de la API
-                    js_code="""
-                        await new Promise(r => setTimeout(r, 10000)); 
-                        window.final_content = document.body.innerHTML;
-                    """
-                )          
-                # DIAGNÓSTICO VISUAL: Mismo nivel de indentación que "result =" (16 espacios)
-                if result.screenshot:
-                    import base64
-                    debug_file = os.path.join("logs", get_group_filename(url).replace('.md', '.png'))
-                    with open(debug_file, "wb") as f:
-                        f.write(base64.b64decode(result.screenshot))
+                    js_code="await new Promise(r => setTimeout(r, 12000));"
+                )
+                
+                # HECHO TÉCNICO: Volcado incondicional del DOM crudo para auditoría
+                debug_html = os.path.join("logs", get_group_filename(url).replace('.md', '.html'))
+                with open(debug_html, "w", encoding="utf-8") as f:
+                    f.write(result.html if hasattr(result, 'html') and result.html else "DOM_VACIO")
                 
                 if not result.success:
                     log_error(url, f"Fallo HTTP o Crawler: {result.error_message}")
@@ -260,6 +255,7 @@ async def deep_crawl():
                         seen_hashes.add(content_hash)
                         save_state(state)
                         git_commit_and_push()
+
 
                 
                 if depth < max_depth_allowed and hasattr(result, 'links'):
