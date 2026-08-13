@@ -8094,5 +8094,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-participants/cancel-calling-out-a-sip-participant": {
     "hash": "5f7bf22d100d7e0ce05a4298d8e8349a9e302b8f703b6126456e4d83d4d31c2b",
     "timestamp": "2026-08-13T02:13:26.701469"
+  },
+  "https://developer.webex.com/docs/api/v1/recordings/list-recordings": {
+    "hash": "728e6fc926de1d30d5158ca1fde300feca57625935ddba118669c1a822decc85",
+    "timestamp": "2026-08-13T02:13:32.533975"
   }
 }
