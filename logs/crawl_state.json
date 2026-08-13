@@ -8066,5 +8066,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-invitees/update-a-meeting-invitee": {
     "hash": "e38e6b9bedc3a4730f11ad8220695ebdf0386b7db16c523d66de8cb85e2e960a",
     "timestamp": "2026-08-13T02:12:41.635656"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-invitees/delete-a-meeting-invitee": {
+    "hash": "9d754fe3985baaa38e7ad7150db5241568e1d2eb0873a51737b2fd3acb83cf35",
+    "timestamp": "2026-08-13T02:12:48.117704"
   }
 }
