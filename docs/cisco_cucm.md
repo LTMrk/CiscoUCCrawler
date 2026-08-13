@@ -27609,3 +27609,184 @@ Subscribe to Cisco Security Notifications
 ## 
 Related to This Advisory 
 [![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cucm-imp-afr-YBFLNyzd.html "Back to Top")
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)Show All Breadcrumbs
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
+  * [Cisco Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+  * [Configuration Examples and TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/products-configuration-examples-list.html)
+
+
+# Update Unified IM and Presence (IM&P) Server Name From Hostname to Fully Qualified Domain Name (FQDN)
+![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)
+Download
+Print
+### Available Languages
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)
+
+
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.pdf) (25.1 KB)   
+View with Adobe Reader on a variety of devices
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.epub) (98.2 KB)   
+View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.mobi) (184.9 KB)   
+View on Kindle device or Kindle app on multiple devices
+
+
+Updated:January 16, 2018
+Document ID:212647
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+## Contents
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html#anc0)
+[Q. How to change Cisco IM&P node name from hostname to FQDN](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html#anc1)
+[A.](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html#anc2)
+## Introduction
+This document describes how to change Cisco IM&P hostname to FQDN. There are conditions that you require to change to FQDN in order to the IM&P Certificate Authority (CA) signed certificates to be accepted by Jabber client.
+Contributed by Nenos Nicko, Cisco TAC Engineer.
+## Q. How to change Cisco IM&P node name from hostname to FQDN
+## **A.**
+  1. If an IM&P publisher is changed, remove it as an intercluster peer on all other clusters.
+
+
+  1. Check on the IM&P admin GUI of the publisher node in each cluster to verify if alerts are displayed to restart Cisco XCP Router. If so, **restart** the XCP router on the nodes specified.
+
+
+  1. Navigate to **Cisco Unified Communication Manager Administration > System > Presence Redundancy Groups** page and disable High Availability on each Cisco Unified Presence sub-cluster.
+
+
+  1. Navigate to **Cisco Unified Serviceability > Tools > Service Activation** page and deactivate these services in this order on each Cisco Unified Presence node: 
+     * **Cisco SIP Proxy**
+     * **Cisco Presence Engine**
+     * **Cisco XCP Text Conference Manager**
+     * **Cisco XCP Web Connection Manager**
+     * **Cisco XCP Connection Manager**
+     * **Cisco XCP SIP Federation Connection Manager**
+     * **Cisco XCP XMPP Federation Connection Manager (If Activated)**
+     * **Cisco XCP Message Archiver (If Activated)**
+     * **Cisco XCP Directory Service (If Activated)**
+     * **Cisco XCP File Transfer Manager (If Activated)  
+**
+     * **Cisco XCP Authentication Service**
+
+
+  1. On the **Cisco Unified Serviceability > Tools > Control Center - Network Services **page and stop **Cisco XCP Router** service on each Cisco Unified Presence node.
+
+
+  1. Navigate to the **Cisco Unified Communication Manager Administration > System > Server** page to change the node name against each IM&P node in the cluster. 
+     * Modify the **Fully Qualified Domain Name/IP Address** field from the hostname of the IM&P node to the FQDN of the IM&P node
+     * Click **Save**
+     * Click **OK** to any warning pop-ups
+
+
+  1. Open administrative CLI for the IM&P publisher node in the cluster to restart database replication to ensure change has taken effect.  
+
+     * Run this command: **utils dbreplication reset all**
+     * This can take a period of time before replication is fully established within the cluster again
+     * To validate if replication is fully established, run this command: **utils dbreplication runtimestate**
+
+
+This image shows the output of this command:
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se-00.png "Related image, diagram or screenshot.")
+  * Replication is fully established when all nodes show a replication status of **Connected** and a Replication Setup value of **(2) Setup Complete**. 
+      * As mentioned in the notes, it may take a period of time before replication is fully re-established. 
+        * The length of time depends on the amount of data in your database.
+      * Run **utils dbreplication runtimestate** continuously, until you see the correct states as outlined in the image.
+**Note** : If replication setup value shows (4), then there are issues on replication which needs further debugging.
+  * Once replication is shown as complete on the publisher, verify if it is complete on all subscriber nodes. 
+      * Log in admin CLI on the subscriber node and run **utils dbreplication runtimestate** continuously until you see the correct states as outlined in the image.
+**Note** : On subscriber nodes, there will be no text such as “Setup Completed” in the final column.
+    * Value of (2) in all rows for this column indicates completion.
+
+
+**Caution** : Do not proceed to the next step until replication is fully established again and shown as completed on all nodes in the cluster.
+  1. Navigate to **Cisco Unified Serviceability > Tools > Control Center - Network Services **page and start **Cisco XCP Router** service on each Cisco Unified Presence node.
+
+
+  1. Navigate to **Cisco Unified Serviceability > Tools > Service Activation** page and re-activate these services in this order on each Cisco Unified Presence node: 
+     * **Cisco SIP Proxy**
+     * **Cisco Presence Engine**
+     * **Cisco XCP Text Conference Manager**
+     * **Cisco XCP Web Connection Manager**
+     * **Cisco XCP Connection Manager**
+     * **Cisco XCP SIP Federation Connection Manager**
+     * **Cisco XCP XMPP Federation Connection Manager (If Previously Activated)**
+     * **Cisco XCP Message Archiver (If Previously Activated)**
+     * **Cisco XCP Directory Service (If Previously Activated)**
+     * **Cisco XCP File Transfer Manager (If Activated)**
+     * **Cisco XCP Authentication Service**
+
+
+  1. Navigate to **Cisco Unified Communication Manager Administration > System > Presence Redundancy Groups** page and enable High Availability again on each Cisco Unified Presence sub-cluster.
+
+
+  1. Navigate to **Presence - > Inter-Clustering page **on the publisher node of the other inter-cluster peers and re-add the peer entry for the node you just updated, this time with the new hostname.
+
+
+  1. Navigate to **Cisco Unified Presence Administration > Presence > Inter-Clustering** page to ensure all inter-cluster peers are up. If there are any errors on the **Certificate Status** view then perform these steps: 
+     * Click **Force Manual Sync** button
+     * Ensure **Also resync peer's Tomcat certificates** is checked
+     * Click **OK**
+     * Wait for the Inter-cluster Peer Status to refresh to see if the **Certificate Status** is now secure.
+
+
+The Procedure is now complete. As mentioned in the notes, it can take up to 60 minutes before this change is fully pushed out to nodes on other clusters.
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html "Back to Top")
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+### Contributed by Cisco Engineers
+  * Nenos Nicko
+Cisco TAC Engineer
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+### Contact Cisco
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212647-update-unified-im-and-presence-im-p-se.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
+
+
+### This Document Applies to These Products
+  * [Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+
+
