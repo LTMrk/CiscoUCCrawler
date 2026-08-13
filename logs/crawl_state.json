@@ -7690,5 +7690,9 @@
   "https://developer.webex.com/docs/api/v1/report-templates/list-report-templates": {
     "hash": "d03bc3e2e1eb6b1f96693834400ac6977873c492b57de90a1c73242e0c9741e1",
     "timestamp": "2026-08-13T02:01:25.069405"
+  },
+  "https://developer.webex.com/docs/api/v1/reports": {
+    "hash": "aa81df7d39496af15f7026bd505418f9658d2f12929043a640512862475d25e0",
+    "timestamp": "2026-08-13T02:01:31.008022"
   }
 }
