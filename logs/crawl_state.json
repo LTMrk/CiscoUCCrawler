@@ -7706,5 +7706,9 @@
   "https://apphub.webex.com/applications/call-control-call-control-llc": {
     "hash": "8dc0061401950ba0b128682b2dd1badbcb86617a29be8a9a2a0b8a99ab7c766b",
     "timestamp": "2026-08-13T02:02:55.965737"
+  },
+  "https://developer.webex.com/docs/api/v1/user-call-settings/list-messages": {
+    "hash": "1af45b84d7db69c6dddab5da0974885f55c1d9087fac0a2fdc04e049298a16b3",
+    "timestamp": "2026-08-13T02:03:00.454439"
   }
 }
