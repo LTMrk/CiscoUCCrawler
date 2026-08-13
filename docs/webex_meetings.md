@@ -6011,3 +6011,176 @@ Pricing[Webex App](https://www.webex.com/all-new-webex.html)[Meetings](https://w
 🇺🇸
 United States
 English
+
+
+---
+# ORIGEN: https://explore.webex.com/meetings-resources
+
+[ ![Sample logo image](https://cdn.pathfactory.com/assets/10866/heroes/1458332/2d5f7091-2142-4f6c-aaa4-12f400002ee0.png) Get started with Webex Meetings ](https://adopt.webex.com%20)
+[ Help Center ](https://help.webex.com/?utm_source=pathfactory&utm_content=content_playlist_cta)
+[ Webex Academy ](https://academy.webex.com/learn/?utm_source=pathfactory&utm_content=content_playlist_cta)
+[ Help Center ](https://help.webex.com/?utm_source=pathfactory&utm_content=content_playlist_cta)
+[ Webex Academy ](https://academy.webex.com/learn/?utm_source=pathfactory&utm_content=content_playlist_cta)
+10 results found 
+  * [ Featured  ](https://explore.webex.com/meetings-resources)
+  * [ Featured  Get started with Webex Meetings  ](https://explore.webex.com/meetings-resources/getting-started_mtg)
+  * [ Featured  Download the Webex app  ](https://explore.webex.com/meetings-resources/downloads-html)
+  * [ Featured  Connect your calendar  ](https://explore.webex.com/meetings-resources/k2aot9)
+  * [ Featured  Choose your audio and video settings  ](https://explore.webex.com/meetings-resources/choose-your-audio-an)
+  * [ Featured  Mute or unmute  ](https://explore.webex.com/meetings-resources/mute-or-unmute-in-we)
+  * [ Featured  Start a Personal Room meeting  ](https://explore.webex.com/meetings-resources/webex-app---start-a)
+  * [ Featured  Schedule a meeting from the calendar  ](https://explore.webex.com/meetings-resources/webex-app---schedule)
+  * [ Featured  Schedule a meeting from a space  ](https://explore.webex.com/meetings-resources/webex-app---schedule-1)
+  * [ Featured  Record a meeting  ](https://explore.webex.com/meetings-resources/record-a-meeting-or)
+  * [ Featured  Share content  ](https://explore.webex.com/meetings-resources/webex-app---share-co)
+
+
+Read More 
+10 results found 
+[ ![Sample content thumbnail](https://explore.webex.com/meetings-resources) Featured  ](https://explore.webex.com/meetings-resources)
+[ Get started with Webex Meetings  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1166274/thumbnails/600x/b2b96413-0488-45a6-ae55-0705d4df8336-1.png) Featured  ](https://explore.webex.com/meetings-resources/getting-started_mtg)
+[ Download the Webex app  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1166250/thumbnails/600x/cisco-webex-logo291x291.png) Featured  ](https://explore.webex.com/meetings-resources/downloads-html)
+[ Connect your calendar  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/meetings-resources/k2aot9)
+[ Choose your audio and video settings  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1166268/thumbnails/600x/cisco-webex-logo-tn.png) Featured  ](https://explore.webex.com/meetings-resources/choose-your-audio-an)
+[ Mute or unmute  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1166267/thumbnails/600x/cisco-webex-logo-tn.png) Featured  ](https://explore.webex.com/meetings-resources/mute-or-unmute-in-we)
+[ Start a Personal Room meeting  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/meetings-resources/webex-app---start-a)
+[ Schedule a meeting from the calendar  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/meetings-resources/webex-app---schedule)
+[ Schedule a meeting from a space  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/meetings-resources/webex-app---schedule-1)
+[ Record a meeting  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1166269/thumbnails/600x/cisco-webex-logo-tn.png) Featured  ](https://explore.webex.com/meetings-resources/record-a-meeting-or)
+[ Share content  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/meetings-resources/webex-app---share-co)
+Thumbnails Document Outline Attachments Layers
+Current Outline Item
+[](https://explore.webex.com/meetings-resources#page=1 "Page 1")[](https://explore.webex.com/meetings-resources#page=2 "Page 2")
+[Webex Meetings](https://explore.webex.com/meetings-resources#%5B%7B%22num%22%3A3%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C0%2C540%2C0%5D)
+[Slide 11: A better way to meet](https://explore.webex.com/meetings-resources#%5B%7B%22num%22%3A3%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C0%2C540%2C0%5D)
+[Slide 12](https://explore.webex.com/meetings-resources#%5B%7B%22num%22%3A40%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C0%2C540%2C0%5D)
+Previous Next
+Highlight All Match Case
+Match Diacritics Whole Words
+Color
+Size
+Color
+Thickness
+Opacity
+Presentation Mode Open Print Download [ Current View ](https://explore.webex.com/meetings-resources#page=1&zoom=auto,-38,540 "Current view \(copy or open in new window\)") Go to First Page Go to Last Page Rotate Clockwise Rotate Counterclockwise
+Text Selection Tool Hand Tool
+Page Scrolling Vertical Scrolling Horizontal Scrolling Wrapped Scrolling
+No Spreads Odd Spreads Even Spreads
+Document Properties…
+Toggle Sidebar Find
+Previous Next
+of 2
+Presentation Mode Open Print Print Download Download [ Current View ](https://explore.webex.com/meetings-resources#page=1&zoom=auto,-38,540 "Current view \(copy or open in new window\)")
+FreeText Annotation Ink Annotation
+Tools
+Zoom Out Zoom In
+Automatic Zoom Actual Size Page Fit Page Width 50% 75% 100% 125% 150% 200% 300% 400%
+11© 2026 Cisco and/or its affiliates. All rights reserved.  
+A better way to meet  
+Use the Webex app for the best experience.  
+After you install the app and sign in, you can  
+host, join, and participate in meetings.  
+Keep all your work  
+in one place  
+No need to search your inbox—see your  
+scheduled meetings from theMeetingstab.  
+Click theJoinbutton when it’s time to meet.  
+Tip:Connect your calendarto sync meetings  
+and availability automatically.  
+View and  
+join meetings  
+Meetings don't have to slow you down. Connect quickly, stay engaged, and leave  
+knowing what’s next, whether you're joining, hosting, or jumping in last minute.  
+A button that says download the app  
+Download the app  
+Download the app  
+Before joining, preview your camera and  
+adjust theaudio and videosettings if needed.  
+Clutter can be distracting. Blur your  
+backgroundor choose a virtual one from the  
+video settings.  
+Check your setup  
+Once the meeting starts, controls appear at  
+the bottom of the meeting window.  
+UseMutetoreduce unnecessary  
+interruptions. When unmuted, background  
+noise is automatically filtered out.  
+Visuals help boost engagement and  
+understanding. SelectShareand choose your  
+entire screen or a specific application.  
+Keep conversations  
+focused
+[](https://help.webex.com/article/n94aj5j/Mute-or-unmute-in-Webex-Meetings-Suite?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mmah&team=dxe "https://help.webex.com/article/n94aj5j/Mute-or-unmute-in-Webex-Meetings-Suite?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mmah&team=dxe")[](https://help.webex.com/article/k2aot9/Webex-App-%7C-Connect-your-Google-or-Microsoft-365-calendar?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mcch&team=dxe "https://help.webex.com/article/k2aot9/Webex-App-%7C-Connect-your-Google-or-Microsoft-365-calendar?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mcch&team=dxe")[](https://help.webex.com/article/n94aj5j/Mute-or-unmute-in-Webex-Meetings-Suite?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mmah&team=dxe "https://help.webex.com/article/n94aj5j/Mute-or-unmute-in-Webex-Meetings-Suite?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mmah&team=dxe")[](https://www.webex.com/downloads.html "https://www.webex.com/downloads.html")[](https://help.webex.com/article/i62jfl/Webex-App-%7C-Share-content-in-a-meeting?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mssh&team=dxe "https://help.webex.com/article/i62jfl/Webex-App-%7C-Share-content-in-a-meeting?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mssh&team=dxe")[](https://help.webex.com/article/ela6i8/Choose-your-audio-and-video-settings-before-you-join-a-meeting-or-webinar?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mavsh&team=dxe "https://help.webex.com/article/ela6i8/Choose-your-audio-and-video-settings-before-you-join-a-meeting-or-webinar?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mavsh&team=dxe")[](https://help.webex.com/article/80jduab/Use-virtual-backgrounds-in-Webex-Meetings-and-Webex-Webinars?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mbh&team=dxe "https://help.webex.com/article/80jduab/Use-virtual-backgrounds-in-Webex-Meetings-and-Webex-Webinars?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mbh&team=dxe")
+12© 2026 Cisco and/or its affiliates. All rights reserved.  
+Capture notes  
+and action items  
+When you need to meet right away, use your  
+personal room. Share your dedicated  
+meeting link or launch it from the Meetings  
+tab for quick check-ins or impromptu  
+discussions.  
+For planned meetings,schedulefrom the  
+Meetings tab or use integrations with  
+calendars like Microsoft Outlook.  
+Start and schedule  
+meetings with ease  
+Meetings work better when everyone can  
+participate, no matter where they're joining  
+from or how they prefer to engage.  
+Raise your handto share without interrupting  
+or usegestures and reactionsto show  
+support.  
+Accessibility is important. Meeting hosts can  
+turn onclosed captionsfrom the meeting  
+controls so everyone can follow along.  
+Make it easy for  
+others to participate  
+And when meetings move fast,AI Assistant  
+helps you stay on track without taking your  
+attention away from the discussion.  
+During a meeting, you can catch up if you  
+step away or join late, identify action items,  
+or check whether your name was mentioned.  
+Tip:For recurring meetings or ongoing  
+projects,schedule the meeting series in a  
+Webex spaceto keep all your work together.  
+Meeting hosts canrecordmeetings so  
+discussions and decisions can be shared or  
+revisited later.
+[](https://help.webex.com/article/n62735y/Record-a-meeting-or-webinar?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mrmh&team=dxe "https://help.webex.com/article/n62735y/Record-a-meeting-or-webinar?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mrmh&team=dxe")[](https://help.webex.com/article/ngft4sdb/Webex-App-%7C-Start-a-Personal-Room-meeting?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mprmh&team=dxe "https://help.webex.com/article/ngft4sdb/Webex-App-%7C-Start-a-Personal-Room-meeting?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mprmh&team=dxe")[](https://help.webex.com/article/plc7g6/Webex-App-%7C-Raise-your-hand-in-a-meeting?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mrhh&team=dxe "https://help.webex.com/article/plc7g6/Webex-App-%7C-Raise-your-hand-in-a-meeting?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mrhh&team=dxe")[](https://help.webex.com/article/kb5tpo/Use-reactions-in-Webex-Meetings-and-Webex-Webinars?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mgrh&team=dxe "https://help.webex.com/article/kb5tpo/Use-reactions-in-Webex-Meetings-and-Webex-Webinars?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mgrh&team=dxe")[](https://help.webex.com/article/wy517z/Webex-App-%7C-Schedule-a-meeting-from-the-meetings-calendar?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=msmch&team=dxe "https://help.webex.com/article/wy517z/Webex-App-%7C-Schedule-a-meeting-from-the-meetings-calendar?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=msmch&team=dxe")[](https://help.webex.com/article/lzi8h2/Show-or-hide-closed-captions-during-a-Webex-meeting-or-webinar?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mcch&team=dxe "https://help.webex.com/article/lzi8h2/Show-or-hide-closed-captions-during-a-Webex-meeting-or-webinar?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mcch&team=dxe")[](https://explore.webex.com/meetings/ai-assistant-for-mee "https://explore.webex.com/meetings/ai-assistant-for-mee")[](https://help.webex.com/article/nyzkuik/Webex-App-%7C-Cisco-AI-Assistant-in-meetings?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=maimh&team=dxe "https://help.webex.com/article/nyzkuik/Webex-App-%7C-Cisco-AI-Assistant-in-meetings?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=maimh&team=dxe")[](https://help.webex.com/article/nu5w9x3/Webex-App-%7C-Schedule-a-meeting-from-a-space?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=msmsh&team=dxe "https://help.webex.com/article/nu5w9x3/Webex-App-%7C-Schedule-a-meeting-from-a-space?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=msmsh&team=dxe")[](https://help.webex.com/article/nu5w9x3/Webex-App-%7C-Schedule-a-meeting-from-a-space?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=msmsh&team=dxe "https://help.webex.com/article/nu5w9x3/Webex-App-%7C-Schedule-a-meeting-from-a-space?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=msmsh&team=dxe")
+More Information Less Information
+Close
+Enter the password to open this PDF file.
+Cancel OK
+File name:
+-
+File size:
+-
+Title:
+-
+Author:
+-
+Subject:
+-
+Keywords:
+-
+Creation Date:
+-
+Modification Date:
+-
+Creator:
+-
+PDF Producer:
+-
+PDF Version:
+-
+Page Count:
+-
+Page Size:
+-
+Fast Web View:
+-
+Close
+Preparing document for printing…
+0%
+Cancel
