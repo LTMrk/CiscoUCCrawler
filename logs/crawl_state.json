@@ -8282,5 +8282,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-closed-captions/list-meeting-closed-captions": {
     "hash": "4a96ed5b428d2acceee0ca54577f6c9ff13b92bd2278a34a0cf19fd61e80c578",
     "timestamp": "2026-08-13T02:18:21.921538"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-closed-captions/list-meeting-closed-caption-snippets": {
+    "hash": "cb5ffcb1ad8707019bd9568d9799b3e9de2161849ec0445c3002d0762531c809",
+    "timestamp": "2026-08-13T02:18:28.448983"
   }
 }
