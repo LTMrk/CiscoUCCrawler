@@ -8474,5 +8474,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-transcripts": {
     "hash": "015b3f408012c71f71a4e6021871c98750d16b4d7783df51066463c0c8322e67",
     "timestamp": "2026-08-13T02:24:31.547998"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-messages": {
+    "hash": "2b398b9aee47d812a3ab07a834d38b58f5e726042440f9278943065acc2adcc1",
+    "timestamp": "2026-08-13T02:24:38.086463"
   }
 }
