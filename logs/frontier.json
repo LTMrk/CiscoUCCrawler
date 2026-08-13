@@ -1,357 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/deploying-qumulo-data-platform-ucs-rack-servers-wp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/unlock-ai-high-perf-data-wp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-m7-m8-memory-ras-overview-wp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c240-m8-edsff-e3s-rs-nvme-io-char-wp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c880a-m8-hgx-platform-b300-gpus-wp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/scaling-ai-workloads-ddn-infinia-wp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/bios-tuning-guide-ucs-m8-intel-xeon-wp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/computing/servers-unified-computing-systems/ucs-c-series-rack-servers/mlperf-training-ucs-c885a-m8-hgx-gpus-wp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/c885a-m8-dense-gpu-rack-server-wp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/mlperf-ucs-c885a-h100-h200-wp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ai-performance-ucs-c240-wp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/mlperf-ucs-x210c-m8-compute-node-wp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/white-paper-listing.html",
-    "depth": 1
-  },
-  {
-    "url": "https://community.cisco.com/t5/technology-and-support/ct-p/technology-support",
-    "depth": 1
-  },
-  {
-    "url": "https://supportforums.cisco.com/node/add/discussion",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/products/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/solutions/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/learn/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/buy/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/support-help/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/all-products.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/unified-communications/call-control/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/buy.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tools-catalog.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000/null",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000-version-15/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000-version-14/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000-version-12-5/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/saved/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/data_sheet_c78-717454.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-6000-m6-appliance-eol.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-6000-7000-embedded-eol.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-743878.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-appliances-eol.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744786.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744408.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744083.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744419.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-740522.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-739191.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738414.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738097.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-737956.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/723/fn72368.html",
-    "depth": 1
-  },
-  {
-    "url": "https://community.cisco.com/t5/technology-and-support/ct-p/technology-support",
-    "depth": 1
-  },
-  {
-    "url": "https://supportforums.cisco.com/node/add/discussion",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/products/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/solutions/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/learn/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/buy/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/support-help/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/all-products.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/category.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/ip-phones/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/buy.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tools-catalog.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/saved/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/742/fn74296.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/740/fn74094.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/tsd-products-support-translated-end-user-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/ip-phone_8800-multiplatform-firmware-ds.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-c78-731668.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/ip-phone-8851nr-ds.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/ip-phone-8851-ds.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-c78-731637.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-c78-731638.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-c78-739624.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/video-phone-8875-ds.html",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-c78-734730.html",
     "depth": 1
   },
@@ -313281,6 +312929,1970 @@
   },
   {
     "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/infrastructure/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/deploying-qumulo-data-platform-ucs-rack-servers-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c240-m8-rack-server-ds.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/bios-tuning-guide-ucs-m8-intel-xeon-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/intersight/at-a-glance-c45-739419.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/datacenter/expanding-workloads-for-ucs-x-series-with-ucs-x-fabric-technology",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-x-series-modular-system/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/fabric-interconnects-extenders/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/unified-computing-system-adapters/datasheet-c78-741130.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/unlock-ai-high-perf-data-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/ucs-c-series-rack-servers/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-m7-m8-memory-ras-overview-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c240-m8-edsff-e3s-rs-nvme-io-char-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/bios-tuning-guide-ucs-m8-intel-xeon-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/c800-series/ucs-c880a-m8-hgx-rs-b300-gpus-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/c800-series/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/c800-series/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/c800-series/ucs-c880a-m8-hgx-rs-b300-gpus-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/nexus-9000-series-switches-ai-clusters-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/datacenter",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/infrastructure/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs_white_paper.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/scaling-ai-workloads-ddn-infinia-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-networking-in-data-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c225-m8-rack-server-ds.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/hybrid-cloud-operations/intersight-platform/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/bios-tuning-guide-ucs-m8-intel-xeon-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x210c-m8-compute-node-aag.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x410c-m8-compute-node-aag.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/computing/servers-unified-computing-systems/ucs-c-series-rack-servers/mlperf-training-ucs-c885a-m8-hgx-gpus-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/nexus-9000-series-switches-ai-clusters-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/datacenter/power-your-genai-ambitions-with-new-cisco-ai-ready-data-center-infrastructure",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ai-infrastructure-pods-inferencing-aag.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/c885a-m8-dense-gpu-rack-server-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "http://software.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/mlperf-ucs-c885a-h100-h200-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/nexus-9000-series-switches-ai-clusters-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/datacenter/power-your-genai-ambitions-with-new-cisco-ai-ready-data-center-infrastructure",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ai-infrastructure-pods-inferencing-aag.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ai-performance-ucs-c240-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/mlperf-ucs-x210c-m8-compute-node-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/m6-rack-server-nvme-disk-io-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m6-rack-server-disk-io-characterization.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/splunk-eference-architecture-m6-cseries-solution-brief.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c890m5-sap-hana-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucsm5-with-nvidia-and-vmware.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucsc240m5-with-intel-optane-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-m5-with-nvidia-and-citrix.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/amd-epyc-processor-for-vdi-on-cisco-c245-with-cirix-1912-ltsr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c240-m6-rack-server-disk-io-characterization-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/vdi-on-cisco-ucs-esx-cpu-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/flashstack-ucs-c890m5-sap-hana-tdi-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/performance-tuning-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/flexpod-ucs-c890m5-sap-for-hana-tdi-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/mctp-mgmt-ucs-m6-gen-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c890m5-sap-hana-rhel-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c890-m5-rack-server-for-sap-hana-sles-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-m7-memory-ras-features-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-infrastructure-for-splunk-enterprise-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-x210c-m7-selection-guide-for-vdi-using-citrix-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c240-m7-rack-ser-io-chara-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c220-c240-m7-rack-server-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/flexpod-e2e-100g-imm-vmware-netapp-ontap-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-manager/compute-security-overview-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c245-m8-rack-server-disk-io-charact-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/sales-resources-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/ip-phone-system.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/data_sheet_c78-717454.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-licensing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/enterprise/design-zone-collaboration/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://engage2demand.cisco.com/LP=3350",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/technical/software-support-service-swss.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/technical/smart-net-total-care.html",
+    "depth": 2
+  },
+  {
+    "url": "https://engage2demand.cisco.com/LP=13779",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/case-study-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/small-business/collaboration/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/partner-ecosystem.html",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/enterprise",
+    "depth": 2
+  },
+  {
+    "url": "https://communities.cisco.com/community/technology/enterprise_networks",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000/null/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/data_sheet_c78-717454.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-6000-m6-appliance-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-6000-7000-embedded-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-743878.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-appliances-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744786.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744408.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744083.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744419.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-740522.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-739191.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738414.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738097.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-737956.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/sales-resources-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/data_sheet_c78-717454.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-6000-m6-appliance-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-6000-7000-embedded-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-743878.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-appliances-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744786.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744408.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744083.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744419.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-740522.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-739191.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738414.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738097.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-737956.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/sales-resources-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/data_sheet_c78-717454.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-6000-m6-appliance-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-6000-7000-embedded-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-743878.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-appliances-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744786.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744408.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744083.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744419.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-740522.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-739191.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738414.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738097.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-737956.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/data_sheet_c78-717454.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/ps7282/products_data_sheets_list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-presence/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/products/voice/jabber.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/ps6509/products_data_sheets_list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/customer-collaboration/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/ps13435/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/hosted-collaboration-solution/spark-hybrid-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/conferencing/webex-meeting-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/collaboration-flex-plan/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/guide-c07-739442.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/ordering/or13/or8/order_customer_help_how_to_order_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-6000-m6-appliance-eol.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/warranty-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-6000-7000-embedded-eol.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/warranty-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-743878.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-7000/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/partners/tools/collaboration-ordering-guides.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/warranty-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-appliances-eol.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/warranty-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744786.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/partners/tools/collaboration-ordering-guides.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/warranty-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744408.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/partners/tools/collaboration-ordering-guides.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/warranty-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744083.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/partners/tools/collaboration-ordering-guides.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/warranty-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744419.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/limited-extension-of-software-maintance-support-for-cucm-10-5-release.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-740522.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-739191.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738414.pdf",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738097.pdf",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/index.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-737956.pdf",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/c/en/us/products/unified-communications/expressway-series/index.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/index.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/7800-series-media-convergence-servers/eos-eol-notice-c51-737958.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-736239.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-734760.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/end_of_life_notice_c51-723365.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/end_of_life_notice_c51-715765.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/end_of_life_notice_c51-713691.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/end_of_life_notice_c51-729485.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-734081.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-732922.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-730824.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/end_of_life_notice_c51-726424.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/end_of_life_notice_c51-697746.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-6000-m6-appliance-eol-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-appliances-eol-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744786-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744419-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744408-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-744083-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-743878-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-741768-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-740522-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-739191-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738716-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738414-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-738097-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-737956-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/7800-series-media-convergence-servers/eos-eol-notice-c51-737958-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-736239-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/eos-eol-notice-c51-734760-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-6000/business-edition-6000-7000-embedded-eol-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/case-study-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-ex-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-board/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-mx-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-administration-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ix5000-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-quick-set-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-navigator/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-phone/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-touch/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-share/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-sip-phone-3900-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/sip-ip-phone-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-dect-6800-series-multiplatform-firmware/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-6800-series-multiplatform-firmware/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-6900-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7800-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-7800-series-multiplatform-firmware/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7900-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-8800-series-multiplatform-firmware/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desk-phone-9800-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-wireless-phone/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-300-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-500-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-700-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-900-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-microphones/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-speaker-track-60/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/conferencing-cameras/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-precision-cameras/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-precisionhd-cameras/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/small-business-spa300-series-ip-phones/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/small-business-spa500-series-ip-phones/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/telepresence.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/retired.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/ip-phones/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/ip-phone-8800-series-multiplatform-firmware/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/models-comparison.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/collaboration/service-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://connectthedots.cisco.com/connectdots/serviceWarrantyFinderRequest",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/headsets/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/portal/pub/download/portal/select.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/small-business/collaboration/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/partner-ecosystem.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/webex-room-phone/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/small-business/collaboration/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/partner-ecosystem.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-8800-series-multiplatform-firmware/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-8800-series-multiplatform-firmware/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/security/pki",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desk-phone-9800-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/how-to-install-a-custom-security-certificate-on-mpp-devices/ta-p/3986014",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/voice-systems/secure-provisioning/td-p/3233479",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/ip-phone_8800-multiplatform-firmware-ds.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/webex-hardware-as-a-service/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/webex-hardware-as-a-service/datasheet-c78-743057.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/headsets/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/warranty-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/ip-phone-8800-series-multiplatform-firmware/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-c78-731668.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/ip-phone-8851nr-ds.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/service-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/ip-phone-8851-ds.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-c78-731637.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-c78-731638.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-c78-739624.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/video-phone-8875-ds.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
     "depth": 2
   }
 ]
