@@ -7850,5 +7850,9 @@
   "https://developer.webex.com/docs/api/v1/organizations/get-organization-details": {
     "hash": "41c4dd15f1acd74a9317d6dcc1100b545828cc6997db63bac9c95434f524a789",
     "timestamp": "2026-08-13T12:42:52.586102"
+  },
+  "https://developer.webex.com/docs/api/v1/messages": {
+    "hash": "b329c4ea435a6f822841e0a205b742ed5571b1e1e8d81b1245546d13928c674b",
+    "timestamp": "2026-08-13T12:42:58.699552"
   }
 }
