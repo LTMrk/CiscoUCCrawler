@@ -8398,5 +8398,9 @@
   "https://developer.webex.com/docs/api/v1/licenses/get-license-details": {
     "hash": "a500b0beb1d58889b56bf20d02bb001f1d6bb54b2cfd5e85d5bd9a9baebf4760",
     "timestamp": "2026-08-13T02:22:19.341552"
+  },
+  "https://developer.webex.com/docs/api/v1/roles/list-roles": {
+    "hash": "11c840f183d22e4f3e4e9c28d72c57d5a1778db103586a84e3c4774a160d923f",
+    "timestamp": "2026-08-13T02:22:25.429341"
   }
 }
