@@ -8034,5 +8034,9 @@
   "https://developer.webex.com/docs/api/v1/meetings/register-a-meeting-registrant": {
     "hash": "089d9a94d9a2b00f471d6777d4e199ad8244bdd80329b4fdbba669257cc508e5",
     "timestamp": "2026-08-13T02:11:49.154200"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings/list-meeting-session-types": {
+    "hash": "6b2a349d179990c5f8f5fc124e8b693fd581053de2e12420d26176a83ca7fefd",
+    "timestamp": "2026-08-13T02:11:55.760641"
   }
 }
