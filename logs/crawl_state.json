@@ -7890,5 +7890,9 @@
   "https://developer.webex.com/docs/api/v1/messages/get-message-details": {
     "hash": "0e085957e9d1b7c74b0fba12f6a8bf079a0a16208551fca42479fb52e7eee222",
     "timestamp": "2026-08-13T02:07:48.924976"
+  },
+  "https://developer.webex.com/docs/webhooks": {
+    "hash": "379671529040421a064eb09330147632dcb95e106c2a1ff212a22e697df4e4e7",
+    "timestamp": "2026-08-13T02:07:53.756960"
   }
 }
