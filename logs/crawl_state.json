@@ -7882,5 +7882,9 @@
   "https://developer.webex.com/docs/api/v1/webhooks/get-webhook-details": {
     "hash": "cccea5de03bf1d212833d82c2f7c5d4171a88dcd1a5d8c461d34682fad87f510",
     "timestamp": "2026-08-13T02:07:37.295743"
+  },
+  "https://developer.webex.com/docs/api/v1/rooms/list-rooms": {
+    "hash": "8b6edfd3ad75185ed42afbbf158aedd07d95e5672105efbf3c2e8abe7d4aae9c",
+    "timestamp": "2026-08-13T02:07:42.946227"
   }
 }
