@@ -41778,3 +41778,402 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/create/docs/integration-provided-features-in-control-hub
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/create/docs/integration-provided-features-in-control-hub)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/create/docs/integration-provided-features-in-control-hub)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/create/docs/integration-provided-features-in-control-hub)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Control Hub Features
+Getting Started
+  * [Getting Started](https://developer.webex.com/create/docs)
+  * [Authentication](https://developer.webex.com/create/docs/authentication)
+  * [Login with Webex](https://developer.webex.com/create/docs/login-with-webex)
+  * [AI Assistant for Developers](https://developer.webex.com/create/docs/webex-aI-assistant-for-developers)
+  * Agentic Apps
+  * Bots
+  * Embedded Apps
+  * Integrations
+  * Service Apps
+  * Instant Connect
+  * Workspace Integrations
+    * [Overview](https://developer.webex.com/create/docs/workspace-integrations)
+    * [Technical Details](https://developer.webex.com/create/docs/workspace-integration-technical-details)
+    * [Control Hub Features](https://developer.webex.com/create/docs/integration-provided-features-in-control-hub)
+    * Webex Assistant Skills
+  * Bring Your Own Datasource
+  * [Suite Sandbox](https://developer.webex.com/create/docs/developer-sandbox-guide)
+  * [Contact Center Sandbox](https://developer.webex.com/create/docs/sandbox_cc)
+  * [Guest to Guest Sandbox](https://developer.webex.com/create/docs/g2g-sandbox)
+  * [Submit Your App](https://developer.webex.com/create/docs/app-hub-submission-process)
+  * [Tutorials](https://developer.webex.com/create/docs/tutorials)
+
+
+## Getting Started
+### Control Hub Features
+Workspace integrations can also provide new functionality in Control Hub. To achieve this, integrations can mark themselves as providing **features** , which are contracts integrations can specify that they support. Integrations that provide features are highlighted on the integrations page, and when activated, they enhance functionality provided in other areas of Control Hub.
+Control Hub supports integration-provided digital signage and Room Navigator persistent web apps. When an integration that is marked as providing digital signage is enabled, it's available as a service in the bulk and single-device digital signage configuration modals. Read more about configuring digital signage on Webex Boards, Room, and Desk series devices [here](https://help.webex.com/en-us/article/nmd8log/Enable-Digital-Signage-on-Webex-Boards,-Room,-and-Desk-Series-Devices). Similarly, integrations providing Room Navigator persistent web apps appear in the persistent web app configuration modals. Learn how to configure a persistent web app on a Room Navigator device [here](https://help.webex.com/en-us/article/ohq3u6/Configure-a-persistent-web-app-on-Webex-Room-Navigator).
+####  anchorAdding feature support to an integration
+anchor
+To register an integration as providing a feature, a new `features` list must be added to the manifest. Adding a feature to this list places requirements on what information it must provide and the actions it needs to support.
+Providing features may also require specific permissions. Digital signage requires the `spark-admin:devices_digital_signage` scope and persistent web apps require the `spark-admin:devices_pwa` scope.
+**Example**
+
+```
+{
+  "apiAccess": [
+    {
+      "scope": "spark-admin:devices_digital_signage",
+      "access": "required"
+    },
+    {
+      "scope": "spark-admin:devices_pwa",
+      "access": "required"
+    }
+  ],
+  "features": ["digital_signage", "persistent_web_app"]
+  // ...
+}
+
+```
+
+**Manifest Details**  
+| Field  | Required / Optional  | Value space  | Description  |  
+| --- | --- | --- | --- |  
+| `features`  | Optional  | Array  | The list of features supported: `digital_signage`, `persistent_web_app`  |  
+Attention: Adding a feature to the manifest grants the integration access to new management APIs. An integration providing digital signage or persistent web apps is not fully provisioned until it uses the corresponding feature's management API to provide a configuration object. Integrations should upload configurations for the features they provide shortly after being provisioned. If a feature is added to an existing manifest, ensure that configurations are provided to existing installations by listening for the `updateApproved` action. Consider adding a periodic check to your integration verifying the feature configurations, in case of failures when storing the configurations or lost `updateApproved` actions.
+####  anchorDigital Signage
+anchor
+Adding the `digital_signage` feature and the `spark-admin:devices_digital_signage` scope to a manifest grants the integration access to a new API. The new API lets the integration provide details regarding the digital signage service it provides.
+For integrations providing signage, the link to this API is contained in the `signageUrl` property of the `provisioning` and `updateApproved` JWT tokens. This API allows the integration to create, read, update, and delete the digital signage configuration required by the integration.
+###### Add Signage Configuration
+A PUT on the `signageUrl` endpoint should contain the following payload:
+
+```
+PUT {signageUrl}
+{
+  "signageUrl": "... signage URL ...",
+  "crossLaunch": {
+    "manageContent": {
+      "url": "... cross-launch URL to manage content ..."
+    },
+    "assignContent": {
+      "url": "... cross-launch URL to assign content ..."
+    }
+  }
+}
+
+```
+
+This makes the integration available as a digital signage provider in Control Hub.
+**Configuration Details**  
+| Field  | Required / Optional  | Value space  | Description  |  
+| --- | --- | --- | --- |  
+| `signageUrl`  | Required  | URL  | The provider signage URL. Can contain replacement values to allow the vendor to provide device-specific content.  |  
+| `crossLaunch`  | Map  | Optional  | Cross-launch URLs for assigning content to devices. Shows up as actions in Control Hub.  |  
+| `crossLaunch.assignContent`  | Map  | Optional  | Cross-launch URL for administering devices selected in Control Hub.  |  
+| `crossLaunch.assignContent.url`  | Required  | URL  | The URL to post the assign content cross-launch action JWT to.  |  
+| `crossLaunch.manageContent`  | Map  | Optional  | Cross-launch URL for launching to the integration from the integration details page in Control Hub.  |  
+| `crossLaunch.manageContent.url`  | Required  | URL  | The URL to post the manage content cross-launch action JWT to.  |  
+**Signage URL Replacement Values**
+Webex can provide integrations information about the device displaying the digital signage screen by adding it to the URL.
+**Example**
+  * URL from integration / signage provider:
+
+
+`https://signage.example.com/webex?deviceId=$(deviceId)&deviceName=$(deviceName)`
+  * URL fetched by the device:
+
+
+`https://signage.example.com/webex?deviceId=Y2lzY29...&deviceName=Board Room&appId=ac6b6972-538e-11ec-bf63-0242ac130002`
+**Replacement Value Details**  
+| Replacement Value  | Description  |  
+| --- | --- |  
+| `$(deviceId)`  | The ID of the device: `Y2lzY29...`  |  
+| `$(deviceName)`  | The name of the device: `Board Room`  |  
+| `$(deviceModel)`  | The device model: `Y2lzY29...`  |  
+| `$(ownerId)`  | The ID of the device's workspace  |  
+| `$(ownerName)`  | The name of the device's workspace  |  
+| `$(organizationId)`  | The organization ID: `Y2lzY29...`  |  
+The replacement values are resolved by the Webex backend before provisioning the URL to the devices.
+Note that there is a `_cisco_app_id` URL parameter added at the end of the URL which is used internally by the Webex backend.
+**Cross-launch to the Integration**
+Control Hub also supports cross-launching to integrations. If the signage configuration specifies `manageContent`, an action button appears under the Actions drop-down on the integration details page that allows the administrator to launch the provider UI to do digital signage content management. If `assignContent` is specified, a button will show in the bulk and single-device digital signage modals that allows the administrator to manage signage for the selected devices. When a cross-launch is performed, a specific cross-launch JWT is sent to the URL, with the selected devices in a `devices` list:
+
+```
+POST {crossLaunch.assignContent.url}
+{
+  "jwt": "eyJhbGciOiJSUzI1NiJ9....",
+  "devices": [
+    {
+      "deviceId": "Y2lzY29..."
+    }
+  ]
+}
+
+JWT
+{
+  "sub": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi8zYTZmZjM3My02OGE3LTQ0ZTQtOTFkNi1hMjc0NjBlMGFjNWM",
+  "iat": 1516239022,
+  "jti": "WTJselkyOXpjR0Z5YXpvdkw=",
+  "appId": "6d93fe09-7130-4507-b261-3908b63428a4",
+  "action": "crossLaunch"
+}
+
+Response:
+{
+  "redirectUrl": "... required redirectUrl that will be opened in a new tab by Control Hub ... ",
+}
+
+```
+
+###### Retrieve Signage Configuration
+Integrations can read the stored configuration by performing a GET on the `signageUrl`.
+
+```
+GET {signageUrl}
+{
+  "signageUrl": "... signage URL ...",
+  "crossLaunch": {
+    "manageContent": {
+      "url": "... cross-launch URL to manage content ..."
+    },
+    "assignContent": {
+      "url": "... cross-launch URL to assign content ..."
+    }
+  }
+}
+
+```
+
+###### Update Signage Configuration
+Integrations can update the digital signage configuration by performing a PUT on the JWT `signageUrl`. This automatically provisions the updated digital signage URL configuration to devices using the workspace integration for digital signage.
+
+```
+PUT {signageUrl}
+{
+  "signageUrl": "... signage URL ...",
+  "crossLaunch": {
+    "manageContent": {
+      "url": "... cross-launch URL to manage content ..."
+    },
+    "assignContent": {
+      "url": "... cross-launch URL to assign content ..."
+    }
+  }
+}
+
+```
+
+###### Delete Signage Configuration
+Integrations can delete the digital signage configuration by performing a DELETE on the JWT `signageUrl`. This removes the digital signage that was configured with the workspace integration from the devices.
+
+```
+DELETE {signageUrl}
+
+```
+
+####  anchorPersistent Web App
+anchor
+Managing the Persistent Web App (PWA) configuration requires the `persistent_web_app` feature entry and the `spark-admin:devices_pwa` scope. The link to the PWA configuration API is contained in the `pwaUrl` property of the `provisioning` and `updateApproved` JWT tokens. This API allows the integration to create, read, update, and delete the PWA configuration.
+###### Add Persistent Web App Configuration
+To configure PWA, perform a PUT on the `pwaUrl` endpoint with the following payload:
+
+```
+PUT {pwaUrl}
+{
+  "pwaUrl": "... PWA URL ...",
+  "crossLaunch": {
+    "manageContent": {
+      "url": "... cross-launch URL to manage content ..."
+    },
+    "assignContent": {
+      "url": "... cross-launch URL to assign content ..."
+    }
+  }
+}
+
+```
+
+This makes the integration available as a PWA provider in Control Hub.
+Integrations can also require access to JSXAPI by adding the `spark-admin:devices_pwa_jsxapi` scope. This will allow the integration to directly access a subset of the device's xAPI when running as a persistent web app, irrespective of the permissions granted to the integration itself. This is useful for applications where low latency is required (e.g. controlling the device's LED light). [Learn more about JSXAPI](https://roomos.cisco.com/doc/TechDocs/WebAppsOnNavigator).
+**Configuration Details**  
+| Field  | Required / Optional  | Value space  | Description  |  
+| --- | --- | --- | --- |  
+| `pwaUrl`  | Required  | URL  | The provider PWA URL. Can contain replacement values to allow the vendor to provide device-specific content.  |  
+| `crossLaunch`  | Map  | Optional  | Cross-launch URLs for assigning content to devices. Shows up as actions in Control Hub.  |  
+| `crossLaunch.assignContent`  | Map  | Optional  | Cross-launch URL for administering devices selected in Control Hub.  |  
+| `crossLaunch.assignContent.url`  | Required  | URL  | The URL to post the assign content cross-launch action JWT to.  |  
+| `crossLaunch.manageContent`  | Map  | Optional  | Cross-launch URL for launching to the integration from the integration details page in Control Hub.  |  
+| `crossLaunch.manageContent.url`  | Required  | URL  | The URL to post the manage content cross-launch action JWT to.  |  
+**Persistent Web App URL Replacement Values**
+Webex can provide integrations information about the Room Navigator displaying the persistent web app by adding it to the URL.
+**Example**
+  * URL from integration / PWA provider:
+
+
+`https://pwa.example.com/webex?deviceId=$(deviceId)&deviceName=$(deviceName)`
+  * URL fetched by the device:
+
+
+`https://pwa.example.com/webex?deviceId=Y2lzY29...&deviceName=Board Room&appId=ac6b6972-538e-11ec-bf63-0242ac130002`
+**Replacement Value Details**  
+| Replacement Value  | Description  |  
+| --- | --- |  
+| `$(deviceId)`  | The ID of the device: `Y2lzY29...`  |  
+| `$(deviceName)`  | The name of the device: `Board Room`  |  
+| `$(deviceModel)`  | The device model: `Y2lzY29...`  |  
+| `$(ownerId)`  | The ID of the device's workspace  |  
+| `$(ownerName)`  | The name of the device's workspace  |  
+| `$(peripheralSerial)`  | The serial number of the Room Navigator displaying the persistent web app.  |  
+| `$(organizationId)`  | The organization ID: `Y2lzY29...`  |  
+The replacement values are resolved by the Webex backend before provisioning the URL to the devices.
+Note that there is a `_cisco_app_id` URL parameter added at the end of the URL which is used internally by the Webex backend.
+**Cross-launch to the integration**
+Control Hub also supports cross-launching to integrations. If the PWA configuration specifies `manageContent`, an action button appears under the Actions drop-down on the integration details page that allows the administrator to launch the provider UI to do content management. If `assignContent` is specified, a button will show in the bulk and single-device PWA modals that allows the administrator to manage PWA for the selected devices. When a cross-launch is performed, a specific cross-launch JWT is sent to the URL, with the selected devices in a `devices` list:
+
+```
+POST {crossLaunch.assignContent.url}
+{
+  "jwt": "eyJhbGciOiJSUzI1NiJ9....",
+  "devices": [
+    {
+      "deviceId": "Y2lzY29..."
+    }
+  ]
+}
+
+JWT
+{
+  "sub": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi8zYTZmZjM3My02OGE3LTQ0ZTQtOTFkNi1hMjc0NjBlMGFjNWM",
+  "iat": 1516239022,
+  "jti": "WTJselkyOXpjR0Z5YXpvdkw=",
+  "appId": "6d93fe09-7130-4507-b261-3908b63428a4",
+  "action": "crossLaunch"
+}
+
+Response:
+{
+  "redirectUrl": "... required redirectUrl that will be opened in a new tab by Control Hub ... ",
+}
+
+```
+
+###### Retrieve Persistent Web App Configuration
+Integrations can read the stored configuration by performing a GET on the `pwaUrl`.
+
+```
+GET {pwaUrl}
+{
+  "pwaUrl": "... signage URL ...",
+  "crossLaunch": {
+    "manageContent": {
+      "url": "... cross-launch URL to manage content ..."
+    },
+    "assignContent": {
+      "url": "... cross-launch URL to assign content ..."
+    }
+  }
+}
+
+```
+
+###### Update Persistent Web App Configuration
+Integrations can update the PWA configuration by performing a PUT on the JWT `pwaUrl`. This automatically provisions the updated PWA URL configuration to devices using the workspace integration for PWA.
+
+```
+PUT {pwaUrl}
+{
+  "signageUrl": "... PWA URL ...",
+  "crossLaunch": {
+    "manageContent": {
+      "url": "... cross-launch URL to manage content ..."
+    },
+    "assignContent": {
+      "url": "... cross-launch URL to assign content ..."
+    }
+  }
+}
+
+```
+
+###### Delete Persistent Web App Configuration
+Integrations can delete the PWA configuration by performing a DELETE on the JWT `pwaUrl`. This removes the PWA that was configured with the workspace integration from the devices.
+
+```
+DELETE {pwaUrl}
+
+```
+
+##### In This Article
+  * [Adding feature support to an integration](https://developer.webex.com/create/docs/integration-provided-features-in-control-hub#adding-feature-support-to-an-integration)
+  * [Digital Signage](https://developer.webex.com/create/docs/integration-provided-features-in-control-hub#digital-signage)
+  * [Persistent Web App](https://developer.webex.com/create/docs/integration-provided-features-in-control-hub#persistent-web-app)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
