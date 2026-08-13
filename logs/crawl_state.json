@@ -8078,5 +8078,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-participants/get-meeting-participant-details": {
     "hash": "355d8efe05925cdb3a1e5e6cd398c72f724f51101994667746eb1e456d903039",
     "timestamp": "2026-08-13T02:13:00.981183"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-participants/update-a-participant": {
+    "hash": "f1fa97e2ecdc39bb1ab3d949fdde237826ba0cb353df046f204316d0827ddfc4",
+    "timestamp": "2026-08-13T02:13:07.307213"
   }
 }
