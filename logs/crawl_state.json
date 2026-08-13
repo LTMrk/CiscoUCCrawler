@@ -8358,5 +8358,9 @@
   "https://developer.webex.com/docs/api/v1/device-configurations/list-device-configurations-for-device": {
     "hash": "8ec83a69abb54e7664ece94b3a3460c0c4579cecabc2a1f0a79207fba24a7487",
     "timestamp": "2026-08-13T02:20:49.176538"
+  },
+  "https://developer.webex.com/docs/api/v1/device-configurations/update-device-configurations": {
+    "hash": "5501c4004ed5cd0e60bc5768f749ca114fc7f6dd3a462ecd5ddab3180328b63f",
+    "timestamp": "2026-08-13T02:20:55.616817"
   }
 }
