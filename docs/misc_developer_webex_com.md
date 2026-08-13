@@ -45928,3 +45928,114 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/blog/webexone-2025-developer-recap-building-the-future-of-collaboration
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/blog/webexone-2025-developer-recap-building-the-future-of-collaboration)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/blog/webexone-2025-developer-recap-building-the-future-of-collaboration)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/blog/webexone-2025-developer-recap-building-the-future-of-collaboration)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+# WebexOne 2025 Developer Recap: Building the Future of Collaboration
+October 30, 2025
+![Phil Bellanti](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltcaa16bd81f3da66a/6153919e8440e97ef5829e0b/Phil_at_Cisco_Live.png?width=100&height=100&fit=crop)
+Phil BellantiSenior Webex Developer Evangelist
+![WebexOne 2025 Developer Recap: Building the Future of Collaboration](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt794a9e3cfc0d78bd/6903c94b8310e87ea5ad74c5/webexone-banner.jpg?width=900&height=317&fit=crop)
+The WebexOne 2025 event was filled with many exciting moments, and we’re eager to share some of the standout developer sessions and activities that took place. Held in San Diego, CA from September 28 to October 1, this year’s occasion provided a fantastic opportunity for developers and other technology enthusiasts to connect, learn, and exchange ideas. You can check out all the big announcements from the entire event [right here](https://www.webex.com/whats-new).
+### Hands-on Developer Labs
+![Hands-on Dev Labs](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt856e9820b69adc63/6903c9513774577e390e2324/lab.jpeg)  
+One of the most exciting things for us was the wealth of developer sessions that was part of the Technical Training Program. There were five instructor lead lab sessions that let Webex developers get hands-on training in a variety of collaboration technology for the Webex Suite, devices, and Contact Center. Here are some details about each of the developer lab sessions in the training program:
+**Developer Lab 1: Exploring the Possibilities of Webex APIs** In this interactive lab, participants discovered the potential of Webex APIs and their applications in automation. The session highlighted practical use cases, illustrating how these APIs can be incorporated into organizational workflows. Attendees learned the fundamental concepts and features of Webex APIs, building integrations with bots and Service Apps to facilitate user communication and automation. The lab also offered hands-on experience with real-world examples and shared best practices for troubleshooting and effective API utilization.
+**Developer Lab 2: Build with Cisco Al Assistant for Developers** This lab homed in on how developers can harness AI to streamline and speed up integrations and customizations. It featured a live demo to illustrate the ways to enhance application development for both Webex Suite and Webex Contact Center. Participants gained practical insights and strategies for aligning Webex deployments with user workflows to maximize value and performance. The session also provided an overview of the API roadmap, spotlighting upcoming features and AI tools designed to further support and elevate Webex projects.
+**Developer Lab 3: Getting into the Details of Video Kiosks** This lab was centered around offering visitors check-in assistance and providing a video solution that connects on-site customers to remote experts with Cisco devices. Participants made a series of detailed API calls to programmatically personalize a RoomOS device into a video-enabled kiosk and provisioned Webex Calling to power the agent experience.
+**Developer Lab 4: Integrating Customer Journey Data Service for Enhanced Customer Experiences** In this lab, participants discovered how to enhance customer engagement strategies by using Customer Journey Data Services (CJDS) to enrich interactions across voice and digital channels. They learned how to manually inject events and adjust flow routing to deliver more personalized customer experiences. The session provided administrators and developers with practical skills for effectively integrating CJDS into their contact center operations.
+**Developer Lab 5: Transform User Interactions with a Real-World Application of Guest-to-Guest Capabilities** This was another engaging developer lab designed to transform user interactions within the Webex ecosystem. In this session, participants explored ways to leverage guest-to-guest (G2G) capabilities using the Webex SDK to enhance collaboration. It was centered around an example use case called PlanMyTrip, a small travel startup looking to grow its business. By utilizing Webex G2G functionalities, the startup can now offer assistance with air travel and personalized virtual tours. This enabled travelers to connect with experts and peers to provide more interactive experiences, fostering trust and satisfaction.
+### Developer Classrooms
+![Dev Classrooms](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltefa535c4df79b068/6903c93ee0955028b98413be/classroom.jpeg)  
+Another great part of the Technical Training Program were three classroom sessions that took place. These sessions were presented by Webex experts to provide foundational knowledge on various Webex developer topics. Here are the summaries for each of the classroom sessions:
+**Developer Classroom 1: Implementing OAuth 2.0 Authorization for Webex Integrations** OAuth is a powerful way to allow users to grant permission over their accounts to third parties. This session was a walk-through of how to create an OAuth flow that allows Webex integrations users to authorize your app to run on their accounts or simply authenticate with a login for Webex.
+**Developer Classroom 2: Enhance Your Webex Contact Center – A Developer's Introduction to APIs and Automation** This introductory session explored the possibilities within the Webex Contact Center developer ecosystem and APIs. Attendees got to learn about common use cases, including administration, custom analytics, tailored agent interfaces, and the new "Bring Your Own Virtual Agent" capabilities.
+**Developer Classroom 3: Harnessing APIs for Al-Based Voice Orchestration in Webex Contact Center** Webex Contact Center is leveraging gRPC APIs to enable third-party AI integrations for both Webex Contact Center and Webex Contact Center Enterprise. In this session, attendees learned how to set up gRPC APIs for media streaming and use "Bring Your Own Data Source" as an authentication mechanism. This architecture empowers features such as AI Agent, agent and supervisor assist tools, analytics, and more.
+### WebexOne Expo Hall
+The Webex for Developers team also showed off some great demos and tools to customers and partners inside the packed WebexOne Expo Center. We staffed three booths to showcase the developer platform and integrations for both the Webex Suite and Contact Center. We had some great conversations and learned a lot of new use cases from our customers.   
+
+![Booths](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt039a7faeca2a22a9/6903c926062b4cdea511af2c/booths_white.png)
+  * The Webex for Developers booth showcased an Instant Connect digital channel workflow integrated with Webex Contact Center.
+  * The CX booth showcased the AWS Lex Connector powered by our Bring Your Own Virtual Agent and the [Connects for Salesforce Service Cloud Voice](https://apphub.webex.com/applications/connects-for-salesforce-service-cloud-voice-bucher-suter).
+  * The Webex App Hub Booth featured demos from a variety of integration partners listed on the [Webex App Hub](https://apphub.webex.com/).
+
+  
+As you can probably tell by now, we thoroughly enjoyed WebexOne 2025 in San Diego, which was a groundbreaking event that explored the art of the possible for Webex developers and more. It really shined a bright spotlight on how the developer platform is enabling seamless collaboration across sectors through diverse applications and integrations. 
+More event details, session replays, and other information can be found at webexone.com. Also, stay tuned for more updates and in-depth looks at the new features introduced at WebexOne 2025. Until next year’s event, happy developing!
+Blog Categories
+  * [Product Announcements](https://developer.webex.com/blog/categories/product-announcements)
+  * [How To](https://developer.webex.com/blog/categories/how-tos)
+  * [Events](https://developer.webex.com/blog/categories/events)
+  * [Developer Stories](https://developer.webex.com/blog/categories/developer-stories)
+
+
+Share This Article
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
