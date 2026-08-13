@@ -8022,5 +8022,9 @@
   "https://developer.webex.com/docs/api/v1/meetings/get-detailed-information-for-a-meeting-registrant": {
     "hash": "9a6b8bac58534f8c1c85202b83a4457b14cd36c20553e430ec22712d1cce076e",
     "timestamp": "2026-08-13T02:11:31.047584"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings/list-meeting-registrants": {
+    "hash": "2b0774a077a4f4a2be5638a67ee9ead1ee762b2daa40a04b1bf4634ae17549b1",
+    "timestamp": "2026-08-13T02:11:37.516034"
   }
 }
