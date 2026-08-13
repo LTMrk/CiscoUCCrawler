@@ -28178,3 +28178,223 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)Show All Breadcrumbs
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
+  * [Cisco Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+  * [Configuration Examples and TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/products-configuration-examples-list.html)
+
+
+# Configure DNS SRV in CUCM for IM & Presence Service
+![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)
+Download
+Print
+### Available Languages
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)
+
+
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.pdf) (323.4 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:November 20, 2014
+Document ID:118590
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+## Contents
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html#anc0)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html#anc1)
+[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html#anc2)
+[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html#anc3)
+[Configure](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html#anc4)
+[Configure the DNS Server](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html#anc5)
+[Configure the CUCM Server](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html#anc6)
+[Configure the IM & Presence Server](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html#anc7)
+[Signal Path](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html#anc8)
+[Verify](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html#anc9)
+[Troubleshoot](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html#anc10)
+## Introduction
+This document describes the configuration of the Cisco Unified Communications Manager (CUCM) SPA Interface Processor (SIP) Trunk with the Domain Name System Server (DNS SRV) record of the IM & Presence.
+For High Availability purposes, multiple IM & Presence server node destinations are configured in the IM & Presence Publish trunk of CUCM. A maximum of 16 destination IP addresses can be added in the SIP Trunk configuration. However, administrators prefer the use of SRV records instead of IP addresses, as SRV records are easier to manage. SRV records are populated in the DNS server, and thus centralized management is achieved when you point the SIP trunk destination to the DNS SRV record.
+## Prerequisites
+### Requirements
+Cisco recommends that you have knowledge of these topics:
+  * DNS SRV
+  * Cisco IM & Presence Server
+  * Cisco Unified Communications Manager
+
+
+### Components Used
+The information in this document is based on these software and hardware versions:
+  * Active Directory 2008 and later
+  * CUCM Version 10
+  * IM & Presence Server Version 10
+
+
+The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, make sure that you understand the potential impact of any command.
+## Configure
+**Note** : Use the [Command Lookup Tool](https://tools.cisco.com/Support/CLILookup/cltSearchAction.do) ([registered](https://tools.cisco.com/RPF/register/register.do) customers only) in order to obtain more information on the commands used in this section.
+### Configure the DNS Server
+Complete these steps in order to configure the DNS server:
+  1. Create two DNS sub-domains under the main DNS domain - one domain will be used by SRV queries from the CUCM server and the second domain will be queried by the IM & Presence server.
+In this example, the CUCM and IM & Presence sub-domains were created in the test lab for demonstration.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-01.jpg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-01.jpg "Related image, diagram or screenshot.")
+  2. Add these SRV entries in the DNS server in this exact format: 
+     * _sip._tcp.subdomain1.domain
+     * _sip._tcp.subdomain2.domain
+In the test lab, the domains are:
+     * _sip._tcp.cup.ccie.com
+     * _sip._tcp.cucm.ccie.com
+  3. Verify if the SRVs are resolvable from the network. The DNS server IP address and domain name should be configured in the Unified Communications servers.
+In order to verify SRV lookup from a Microsoft Windows command prompt, enter the **nslookup** command.
+
+```
+nslookup  
+set type=srv  
+sip._tcp.cup.domain.com
+```
+
+For example, refer to this code example:
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-02.jpg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-02.jpg "Related image, diagram or screenshot.")
+
+
+### Configure the CUCM Server
+Complete these steps in order to configure the CUCM server:
+  1. Create a SIP Trunk in CUCM. Add the SRV record in the SIP trunk's destination address field as shown here:
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-03.jpg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-03.jpg "Related image, diagram or screenshot.")
+**Note** : Only the **subdomain.domain** part of the SRV record should be added here. The CCM service prefixes _sip._tcp to the SRV request when it generates the request.
+  2. Save the SIP Trunk configuration.
+  3. Reset the SIP Trunk. Now the CUCM server forwards a DNS SRV query to the DNS server as shown here.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-04.jpg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-04.jpg "Related image, diagram or screenshot.")
+  4. Configure the SIP trunk as **IM and Presence Publish Trunk** in the CCM Service Parameter configuration page.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-05.jpg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-05.jpg "Related image, diagram or screenshot.")
+
+
+### Configure the IM & Presence Server
+Complete these steps in order to configure the IM & Presence server:
+  1. From the IM & Presence server administration page, select **P****resence > Presence Gateway**. Configure a CUCM PRESENCE gateway as shown here.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-06.jpg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-06.jpg "Related image, diagram or screenshot.")
+This configuration specifies the servers from where Phone presence is accepted.
+**Note** : The complete name of the CUCM SRV record should be added in the Presence Gateway configuration.
+  2. In the IM & Presence server, select **System > Service Parameter**. Specify the SRV cluster name in the Cisco SIP Proxy parameter configuration page as shown here.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-07.jpg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-07.jpg "Related image, diagram or screenshot.")
+
+
+### Signal Path
+This section provides information in regards to signalling between the different components involved in this configuration.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-08.jpg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-08.jpg "Related image, diagram or screenshot.")
+## Verify
+There is currently no verification procedure available for this configuration.
+## Troubleshoot
+There is currently no specific troubleshooting information available for this configuration.
+### Revision History  
+| Revision  | Publish Date  | Comments  |  
+| --- | --- | --- |  
+| 1.0  |  20-Nov-2014   | Initial Release  |  
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html "Back to Top")
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+### Contributed by Cisco Engineers
+  * Nirmal Issac
+Cisco TAC Engineer.
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+### Contact Cisco
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/118590-config-cucm-00.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
+
+
+### This Document Applies to These Products
+  * [Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+
+
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
