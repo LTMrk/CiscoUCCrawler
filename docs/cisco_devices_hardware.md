@@ -26121,3 +26121,153 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-736877.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-736877.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-736877.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-736877.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/c/en/us/training-events.html)
+  * [Explore Cisco](https://www.cisco.com/c/en/us/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/c/en/us/buy.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html?dtid=odicdc001129)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html?ccid=cc000864&dtid=odiprc001129)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/tools/index.html?dtid=odiprc001129)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html?ccid=cc000864&dtid=odiprc001129)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html?dtid=odicdc001129)
+
+
+  * [](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-736877.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-736877.html)Show All Breadcrumbs
+  * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/products/unified-communications/index.html)
+  * [Unified Communications Applications](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html)
+  * [Cisco Jabber Softphone for VDI](https://www.cisco.com/c/en/us/products/unified-communications/jabber-softphone-for-vdi/index.html)
+  * [Data Sheets](https://www.cisco.com/c/en/us/products/unified-communications/jabber-softphone-for-vdi/datasheet-listing.html)
+
+
+# Cisco Virtualization Experience Media Edition for eLux 11.5 Data Sheet
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-736877.html) to Save Content 
+Download
+Print
+### Available Languages
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-736877.pdf) (266.5 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:March 8, 2016
+Document ID:132a84e2-fe7d-471d-90b8-bef30c2baaff
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/c/en/us/about/social-justice/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+Extend the rich collaboration experience of Cisco Jabber for Windows to your virtualized environments by enabling intelligent processing of real-time voice and video on your local devices.
+Product Overview
+The Cisco Jabber® platform streamlines communications and enhances productivity on many platforms and devices, including PCs, Macs, tablets, and smartphones. It unifies presence, instant messaging, video, voice, voice messaging, and conferencing capabilities more securely into one client on your desktop.
+But what if your organization is implementing virtualization strategies? Now you can use the Cisco® Virtualization Experience Media Edition to deliver the same rich, uncompromised user experience of the Cisco Jabber application to virtualized desktops in addition to your PCs, Macs, tablets, and smartphones.
+How It Works
+In virtualized environments, the Cisco Jabber application is deployed in the hosted virtual desktop in the data center while Virtualization Experience Media Edition runs on the local thin client. With the Cisco Jabber application running on your hosted virtual desktop, you can see presence status, send an instant message, check voice messages, or collaborate over voice and video calls. Virtualization Experience Media Edition processes voice and video traffic locally and routes point to point between clients, bypassing the data center. This feature eliminates the inefficient “hairpin” effect that returns messages from origin endpoints back in the direction from which they came as a way to get them to their destination. With this optimized architecture, users in virtualized settings benefit from the same uncompromised experience that they enjoy with the traditional Cisco Jabber for Windows solution.
+Features and Benefits
+Table 1 lists the features and benefits of Virtualization Experience Media Edition.
+**Table 1.** Features and Benefits  
+|  Feature  |  Benefit  |  
+| --- | --- |  
+|  Cisco Jabber platform on the virtual desktop  |  ●Rich collaboration that supports the uncompromised user experience of the Cisco Jabber application   |  
+|  Local voice and video processing  |  ●Efficient use of local thin-client resources to reduce network bandwidth and data center resources, eliminating the hairpin effect for the ultimate user experience   |  
+|  Cisco Precision Video Engine  |  ●High-fidelity wideband audio and business-quality video communications up to high-definition (720p at 30 frames per second [fps])  ●Standards-based (H.264) video for interoperability with telepresence endpoints and video conferencing systems   |  
+|  Secure Real-Time Transport Protocol (SRTP)  |  ●Highly secure media encryption   |  
+|  Highly secure remote access  |  ●Highly secure remote access through native Cisco AnyConnect® Secure Mobility Client   |  
+|  Citrix XenDesktop, Citrix XenApp (Published Desktop), and VMware View  |  ●Support for superior Cisco Virtualization Experience Infrastructure experience   |  
+System Requirements
+Table 2 outlines the system requirements for Virtualization Experience Media Edition.
+**Table 2.** System Requirements for Cisco Jabber Application with Virtualization Experience Media Edition  
+|  eLux thin clients hardware  |  HP T620 Dual Core/Quad Core, Dell Wyse Z50D, Cisco VXC 6215 ●Virtualization Experience Media Edition will run on other thin clients based on specifications  ●See Release Notes for more information   |  
+| --- | --- |  
+|  eLux platform image  |  Refer to Release Notes for more information  |  
+|  Cisco Unified Communications Manager  |  Version 9.x or later  |  
+|  Accessories  |  For a complete list of supported accessories, refer to the [Cisco Unified Communications Accessories](https://www.cisco.com/c/en/us/products/unified-communications/uc_endpoints_accessories.html) site.  |  
+Note: Cisco Jabber Binary Floor Control Protocol (BFCP) desktop share, desk phone video (display of video on the desktop when the thin client is tethered to the user’s desk phone), hunt group, call pickup, call statistics, Federal Information Processing Standards/Information Assurance (FIPS/IA) compliance, collaboration edge, Kerberos/Call Admission Control (CAC) support with Single Sign-On (SSO), Far-End Camera Control (FECC), and Cisco Unified Survivable Remote Site Telephony (SRST) are not supported with Cisco Virtualization Experience Media Edition for Windows.
+Warranty Information
+Find warranty information on Cisco.com at the [Product Warranties](https://www.cisco.com/en/US/products/prod_warranties_listing.html) page.
+Ordering Information
+Cisco Jabber for Windows and Cisco Virtualization Experience Media Edition are a part of Cisco Unified Workspace Licensing. Visit [http://www.cisco.com/go/workspace_licensing](https://www.cisco.com/go/workspace_licensing) for more information and to determine whether Cisco Unified Workspace Licensing is appropriate for your organization.
+To download software, visit the[Cisco Software Center](https://www.cisco.com/cisco/software/navigator.html?a=a&i=rpm).
+Cisco Unified Communications Services
+Cisco and our certified partners can help you deploy a highly secure, resilient Cisco Unified Communications solution so you can meet aggressive deployment schedules and accelerate your business advantage. The Cisco portfolio of services is based on proven methodologies for unifying voice, video, data, and mobile applications on fixed and mobile networks.
+The unique Cisco lifecycle approach to services defines the requisite activities at each phase of the solution lifecycle. Customized planning and design services focus on creating a solution that meets your business needs. Award-winning technical support increases operational efficiency. Remote-management services simplify day-to-day operations, and optimization services enhance solution performance as your business needs change.
+Cisco Capital
+Financing to Help You Achieve Your Objectives
+Cisco Capital can help you acquire the technology you need to achieve your objectives and stay competitive. We can help you reduce CapEx. Accelerate your growth. Optimize your investment dollars and ROI. Cisco Capital® financing gives you flexibility in acquiring hardware, software, services, and complementary third-party equipment. And there’s just one predictable payment. Cisco Capital is available in more than 100 countries. [Learn more](https://www.cisco.com/web/ciscocapital/americas/us/index.html).
+For More Information
+For more information about the Cisco Virtualization Experience Media Edition, visit:
+●[http://www.cisco.com/go/vxme](https://www.cisco.com/go/vxme)
+●[http://www.cisco.com/go/vxi](https://www.cisco.com/go/vxi)
+●[http://www.cisco.com/go/jabber](https://www.cisco.com/go/jabber)
+### Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
