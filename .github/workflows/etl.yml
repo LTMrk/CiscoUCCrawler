@@ -27,6 +27,14 @@ jobs:
       - name: Ejecutar Crawler AI Incremental
         run: python3 src/crawler_ai.py
         
+      - name: Exportar Capturas de Diagnostico
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs-diagnostico
+          path: logs/*.png
+          retention-days: 1
+          
       - name: Evaluar y Disparar Siguiente Lote
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
