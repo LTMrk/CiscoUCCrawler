@@ -4196,3 +4196,69 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/tsd-products-support-translated-end-user-guides-list.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/tsd-products-support-translated-end-user-guides-list.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/tsd-products-support-translated-end-user-guides-list.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/tsd-products-support-translated-end-user-guides-list.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/tsd-products-support-translated-end-user-guides-list.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Contact Center](https://www.cisco.com/c/en/us/support/contact-center/category.html)
+  * [Cisco Unified Contact Center Enterprise](https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/series.html)
+
+
+# Translated End-User Guides
+Some links below may open a new browser window to display the document you selected.  
+|  View Documents by Topic  Choose a Topic Cisco Unified Contact Center Enterprise 15.0(1) Cisco Unified Contact Center Enterprise 12.6(2) Cisco Unified Contact Center Enterprise 12.6(1) Cisco Unified Contact Center Enterprise 12.5(1) [Choose a Topic](javascript:void\(0\))
+  * Choose a Topic
+  * Cisco Unified Contact Center Enterprise 15.0(1)
+  * Cisco Unified Contact Center Enterprise 12.6(2)
+  * Cisco Unified Contact Center Enterprise 12.6(1)
+  * Cisco Unified Contact Center Enterprise 12.5(1)
+
+ |  
+| --- |  
+  * Cisco Unified Contact Center Enterprise 15.0(1)
+    * [Cisco Contact Center Enterprise – Guide de l’utilisateur du gadget Gérer les canaux numériques](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/user/guide/Localization/rcct_b_12_6_2_manage-digital-channels_fr_CA.pdf) (PDF - 3 MB)
+    * [Guide de l'utilisateur des rapports Cisco Unified Contact Center Enterprise, Version 15.0(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/user/guide/Localization/ucce_b_cisco-unified-contact-center-enterprise-reporting-user-guide-release1501_fr_CA.pdf) (PDF - 4 MB)
+    * [Guide de l'utilisateur du poste de travail Cisco Finesse des agents et superviseurs, version 15.0 (1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/user/guide/localisation/cfin_b_1501_cisco-desktop-user-guide_fr_CA.pdf) (PDF - 21 MB)
+  * Cisco Unified Contact Center Enterprise 12.6(2)
+    * [Centre de contact Gadgets IA Guide de l'utilisateur pour Cisco Contact Center Enterprise](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/user/guide/Localization/rcct_b_contact-center-ai-gadgets_fr_CA.pdf) (PDF - 3 MB)
+    * [Cisco Contact Center Enterprise – Guide de l’utilisateur du gadget Gérer les canaux numériques](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/user/guide/Localization/rcct_b_12_6_2_manage-digital-channels_fr_CA.pdf) (PDF - 3 MB)
+    * [Guide d'utilisation des rapports Cisco Unified Contact Center Enterprise, Version 12.6(2)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/user/guide/Localization/ucce_b_cisco-unified-contact-center-enterprise-reporting-user-guide-release1262.pdf) (PDF - 3 MB)
+    * [Guide de l'utilisateur du poste de travail Cisco Finesse des agents et superviseurs, version 12.6 (2)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/user/guide/Localization/cfin_b_1262_cisco-desktop-user-guide_fr_CA.pdf) (PDF - 12 MB)
+  * Cisco Unified Contact Center Enterprise 12.6(1)
+    * [Guide Option d'appel sortant pour Unified Contact Center Enterprise, version 12.6(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/Localization/ucce_b_ucce_b_outbound-option-guide-for-unified_1261_fr_CA.pdf) (PDF - 4 MB)
+    * [Guide d'utilisation des rapports Cisco Unified Contact Center Enterprise, Version 12.6(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/Localization/ucce_b_cisco-unified-contact-center-enterprise-1261_fr_CA.pdf) (PDF - 4 MB)
+    * [Guide de l'utilisateur du poste de travail Cisco Finesse des agents et superviseurs, version 12.6 (1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/user/Localization/cfin_b_1261-cisco-desktop-user-guide_fr_CA.pdf) (PDF - 12 MB)
+  * Cisco Unified Contact Center Enterprise 12.5(1)
+    * [Guide Option d'appel sortant pour Unified Contact Center Enterprise, version 12.5](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/Localization/ucce_b_125-outbound-option-guide_fr_FR.pdf) (PDF - 4 MB)
+    * [Guide de l'utilisateur des rapports Cisco Unified Contact Center Enterprise (UCCE), Version 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/Localization/ucce_b_reporting_user_guide-1251_fr_FR.pdf) (PDF - 4 MB)
+
+
+## Support Documentation
+  * [All Support Documentation for this Series](https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/series.html#~tab-documents)
+
+
