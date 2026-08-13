@@ -17358,3 +17358,408 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Sidebar API Quick Start
+Getting Started
+  * [Getting Started](https://developer.webex.com/create/docs)
+  * [Authentication](https://developer.webex.com/create/docs/authentication)
+  * [Login with Webex](https://developer.webex.com/create/docs/login-with-webex)
+  * [AI Assistant for Developers](https://developer.webex.com/create/docs/webex-aI-assistant-for-developers)
+  * Agentic Apps
+  * Bots
+  * Embedded Apps
+    * [Overview](https://developer.webex.com/create/docs/embedded-apps)
+    * [What's New](https://developer.webex.com/create/docs/embedded-apps-whats-new)
+    * [Developer Guide](https://developer.webex.com/create/docs/embedded-apps-guide)
+    * [Sidebar API Quick Start](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start)
+    * [Submission Checklist for Embedded Apps](https://developer.webex.com/create/docs/app-hub-submission-checklist-for-embedded-apps)
+    * [Embedded Apps Reference](https://developer.webex.com/create/docs/api/guides/embedded-apps-reference)
+    * Design Guidelines
+  * Integrations
+  * Service Apps
+  * Instant Connect
+  * Workspace Integrations
+  * Bring Your Own Datasource
+  * [Suite Sandbox](https://developer.webex.com/create/docs/developer-sandbox-guide)
+  * [Contact Center Sandbox](https://developer.webex.com/create/docs/sandbox_cc)
+  * [Guest to Guest Sandbox](https://developer.webex.com/create/docs/g2g-sandbox)
+  * [Submit Your App](https://developer.webex.com/create/docs/app-hub-submission-process)
+  * [Tutorials](https://developer.webex.com/create/docs/tutorials)
+
+
+## Getting Started
+### Sidebar API Quick Start
+The Embedded Apps framework has added the ability to create Sidebar Apps that reside on the left rail of the Webex application.
+The Embedded Apps framework has added the ability to create Sidebar Apps that reside on the left rail of the Webex application. These Apps can be always ON, i.e. launched when the Webex App is launched. Also, as part of this effort, we have introduced a new set of APIs that lets you add call monitoring and notifications to your embedded apps. You can use the EAF **Sidebar API** to intercept and selectively process incoming call events as well as flexibly manage the status badges that display on your embedded app to indicate notification counts or other actions that need to be addressed by your users such as error states. Status badges are displayed as an overlay on your embedded app icon in the Webex app sidebar:
+![Embedded apps in the sidebar with notification counts](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt4ed3b73f6fa41dd2/64132852c96f5354275e4268/sidebar-notifications.png)
+For incoming calls, the API can return the following call information:
+  * Call type
+  * Call state
+  * Caller information for local and remote participants
+
+
+You can then use that information to trigger specific business logic for your embedded app. For instance, a medical app could query and display patient profile information, or a Customer Relationship Management (CRM) app could query customer information, displaying current opportunities and contact history. In the screen shot below, a custom (albeit abstracted) App1 screen has been opened for two separate incoming callers:
+![Pop up application page keyed from incoming caller details.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt15468ec42c41b20f/6413286fb1f84e5422462e9e/sidebar-popout.png)
+In this article we'll build basic application logic to explore some of the features of the new sidebar API.
+####  anchorPrerequisites and Additional Documentation
+anchor
+Before continuing, this article assumes you are completely familiar with Webex Embedded App development as described in the [Embedded App Developer Guide](https://developer.webex.com/docs/embedded-apps-guide). We'll only be going over specifics related to the new call monitoring/notification functionality and won't cover any implementation steps required for a fully functional embedded app.
+###### Changes from EAF Version 1.x to 2.x
+There have been a variety of significant changes to the 2.x EAF SDK which will require that you update your existing embedded app:
+###### The User API and Events have been deprecated
+  * The `user` object is static, and, therefore, the `context.getUser()` method is deprecated.
+  * There are no real-time updates for the `user` object, so the event `user:infoChanged` is also deprecated.
+
+
+###### The Webex Internal Object has been Removed
+The `webex` object has been made private and removed from the global namespace.
+###### The webex.application Object has been Changed
+The `webex.Application` that used to be an instance of the `Webex.Application` class has been replaced with `webex.Application` as the class itself, meaning that whatever was accessed as part of `webex.Application` is now part of its object instead.
+In the 1.x EAF API, calls such as...
+
+```
+const about = webex.Application.about;
+const capabilities = webex.Application.capabilities;
+const deviceType = webex.Application.deviceType;
+
+```
+
+... are now defined in the 2.x EAF API in the following manner:
+
+```
+const app = new webex.Application();
+const about = app.about;
+const capabilities = app.capabilities;
+const deviceType = app.deviceType;
+
+```
+
+For a complete list of properties, accessors and methods, see the details on the [Application class](https://eaf-sdk.webex.com/classes/Application.html).
+###### Log levels
+The Embedded App SDK 2.x allows the user to set and modify the log level at Application instance creation or at a later time. Default log level is set to INFO.
+**While creating application instance**
+
+```
+const config = {
+  logs: {
+    logLevel: 0   //INFO: 0, WARN: 1, ERROR: 2, SILENT: 3
+  }
+}
+const app = new window.Webex.Application(config);  //CDN
+OR
+const app = new Application(config);  //NPM
+
+```
+
+**Using log property on application instance**
+
+```
+app.log.updateLogLevel(0);  //INFO: 0, WARN: 1, ERROR: 2, SILENT: 3
+
+```
+
+###### API Documentation
+You can find the latest documentation for the new sidebar API here:
+  * <https://eaf-sdk.webex.com/interfaces/IWebexAppsSidebar.html>
+
+
+For the complete API reference, see:
+  * <https://eaf-sdk.webex.com/index.html>
+
+
+####  anchorExample Workflow General Logic
+anchor
+For this example, we're going to implement the following basic workflow:
+  1. With the embedded app pinned to the sidebar in an `ALWAYS_ON` state but also `OUT_OF_FOCUS`, a call comes in and the following event is triggered, `sidebar:callStateChanged`.
+  2. The app retrieves the `callerID` property for the call object.
+  3. If the `callerID` value matches to a person of interest in the backing database (simulated here by a hardcoded variable used as the ID for the "VIP").
+  4. The badge count is on the app is **incremented** to notify the user that an important call has come in, and a message is written to the console that a VIP user has been encountered.
+  5. The app user notices the the badge on the embedded app and clicks it, triggering the following event, `ON_FOCUS`, in `application:viewStateChanged`, and the badge count is **decremented** because the user has responded to the notification.
+  6. Back in the call handler, the call data is written to the console, representing persistent call logging.
+
+
+Even if the caller is not a person of interest, while no badge is displayed, the call itself is logged the same as for the VIP.
+####  anchorInclude the 2.0 EAF SDK in your Application
+anchor
+To include the EAF SDK in your application add the following `<script>` tag in your `<head>` element:
+
+```
+<head>
+    ...
+    <script src="https://unpkg.com/@webex/embedded-app-sdk@latest" defer />
+    ...
+</head>
+
+```
+
+####  anchorInitialize Some Basic State
+anchor
+We'll need a few global objects for our call processing app:
+
+```
+var embedded_app = new window.webex.Application();
+var sidebar;
+var callCount;
+var importantContactId = "(214) 555-1212";
+
+```
+
+We've got the main embedded app application object instance as well as a variable to hold the sidebar instance and a call counter variable to track incoming calls. The `importantContact` variable is just something set to imitate a VIP caller coming in that you'd want to be notified about.
+####  anchorAdd Event Listeners when the onReady Event Fires
+anchor
+Next, we'll set up two event listeners which are enabled once the application's `onReady` event has fired:
+  * A listener for sidebar events, `sidebar:callStateChanged`.
+  * A listener for application view state changes, `application:viewStateChanged`.
+
+
+###### Listen for Call State Changes in the Sidebar
+To listen for call state changes in the sidebar, add the following code:
+
+```
+embedded_app.onReady().then(() => {
+  log("onReady()", { message: "EA is ready." });
+  embedded_app.listen().then(() => {
+    embedded_app.on("sidebar:callStateChanged", (call) => {
+        console.log("Call state changed. New call object:", call);
+        handleCallStateChange(call);
+    });
+  });
+});
+
+```
+
+When a call is detected, the `call` object is handed off to a `handleCallStateChange()` function for further processing.
+###### Listen for View State Changes in the Application
+Add another event handler to capture the `application:viewStateChanged` event, `IN_FOCUS`, and decrement the application badge count since this indicates the user has responded to the badge displayed by the `callStateChanged` event by clicking on the embedded app icon:
+
+```
+embedded_app.onReady().then(() => {
+    log("onReady()", { message: "EA is ready." });
+    embedded_app.listen().then(() => {
+      embedded_app.on("sidebar:callStateChanged", (call) => {
+        console.log("Call state changed. Call object:", call);
+        handleCallStateChange(call);
+      });
+      embedded_app.on("application:viewStateChanged", (viewState) => {
+        console.log("View state changed. Current view:", viewState);
+        switch (viewState) {
+          case "IN_FOCUS":
+            // User has noticed the badge and has responded, so we can remove it...
+            initializeSideBar(callCount++);
+            break;
+        }
+      });
+    });
+  });
+
+```
+
+####  anchorHandle the Call State
+anchor
+With the event handlers in place, we'll now create a function to handle call state changes:
+
+```
+function handleCallStateChange(call) {
+  switch (call.state) {
+    case "Started":
+      console.log("A call has come in...");
+      
+      // Check to see if the call is from a VIP...
+      if (call.id === importantContactId) {
+        console.log("A VIP call is incoming! Notify the user...");
+        // Initialize the sidebar, passing in the incremented the badge count...
+        initializeSideBar(callCount++);
+      }
+      
+      // For all calls, log the information...
+      console.log("*** CALL INFORMATION ***")
+      console.log("- Caller ID: ", call.id);
+      console.log("- Call type: ", call.callType);
+      console.log("- Call state: ", call.state);
+      console.log("- Local Participant: ", call.localParticipant);
+      console.log("- Remote Participants list: ", call.remoteParticpants);
+      break;
+    case "Connected":
+      console.log("Call is connected.");
+      break;
+    case "Ended":
+      console.log("Call is ended.");
+      break;
+    default:
+      break;
+  }
+}
+
+```
+
+The function checks the `state` property of the `call` object passed to it. If the call is in the state `Started`, it checks to see if `call.id` matches the value set for `importantContactId`. If there's a match, then the user is notified via the `initializeSideBar` function which takes an incremented `callCount` as its argument. Note that the `importantContactId` check in an actual production app represents a call to your own app's backend data source. We're just using the hard-coded value here by way of example.
+For all incoming calls, whether VIP or not, `call` object metadata is logged to the console. It's up to you whether you'd want only contacts of interest logged or all contacts.
+A couple of other call states are intercepted here as well, `Connected` and `Ended`. Again, you may find processing these call events useful in your own app.
+####  anchorNotify the User about the VIP Call
+anchor
+When the VIP `call.id` is detected, we'll then initialize the sidebar and display a badge on our embedded app. In the following screenshot, badges are shown for two embedded apps in the sidebar, App1 and App2:
+![The app sidebar.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt150ed54574d46c83/6413283d957f0f55ef8e97b8/sidebar-focus.png)
+###### Initialize the Sidebar and Display the Badge
+The app context `getSidebar()` method returns an instance of the Webex sidebar which is then passed to the `handleBadge()` function along with the `callCount` variable which was incremented while being passed in`handleCallStateChange()`:
+
+```
+function initializeSideBar(callCount) {
+  embedded_app.context.getSidebar().then((s) => {
+      sidebar = s;
+      console.log("Show a badge on the sidebar...")
+      handleBadge(callCount, sidebar);
+    })
+    .catch((error) => {
+      console.log("getSidebar() failed. Error: ", Webex.Application.ErrorCodes[error]);
+    });
+}
+
+```
+
+The `handleBadge()` function checks that the sidebar is initialized and then creates a new badge object using the `callCount` variable. The sidebar's `showBadge()` method is used to display the actual badge on the embedded app icon:
+
+```
+function handleBadge(callCount, sidebar) {
+  // Make sure the sidebar is available..
+  if (!sidebar) {
+    console.log("Sidebar info is not available. Error: ", Webex.Application.ErrorCodes[4]);
+    return;
+  }
+
+  // Initialize a badge object...
+  const badge = {
+    badgeType: 'count',
+    count: callCount,
+  };
+
+  // Show the badge...
+  sidebar.showBadge(badge).then((success) => {
+      console.log("sidebar.showBadge() successful.", success);
+    }).catch((error) => {
+      console.log("sidebar.showBadge() failed. Error: ", Webex.Application.ErrorCodes[error]);
+    });
+}
+
+```
+
+####  anchorDisplaying Notifications
+anchor
+You can send notifications from your sidebar app that appear in Webex and in the system dock or notification center. Use the sidebar's `showNotification(message, redirectURL)` method, documented in [IWebexAppsSidebar#showNotification](https://eaf-sdk.webex.com/interfaces/IWebexAppsSidebar.html#showNotification).
+After obtaining the sidebar instance via `context.getSidebar()` (for example, in the same way you do for badges), call `showNotification` with a message string and a URL to open when the user clicks the notification:
+
+```
+embedded_app.context.getSidebar().then((sidebar) => {
+  sidebar.showNotification("You have a new message", "https://example.com/messages/123")
+    .then((success) => {
+      console.log("Notification shown:", success);
+    })
+    .catch((error) => {
+      console.log("showNotification failed. Error: ", Webex.Application.ErrorCodes[error]);
+    });
+});
+
+```
+
+###### How to test notifications
+  1. Follow this quick start to run an embedded sidebar app, or open the [Embedded Apps Kitchen Sink](https://eaf-sdk.webex.com/samples/) and use the Sidebar section.
+  2. Ensure your app is loaded in the Webex sidebar and has sidebar context (e.g. `getSidebar()` resolves).
+  3. Trigger `showNotification("Your message", "https://example.com")` from a button click or other event in your app.
+  4. Confirm the notification appears in Webex and, where supported, in the system dock or OS notifications.
+  5. Click the notification and verify it opens the redirect URL.
+
+
+####  anchorWhere to Go Next
+anchor
+We've covered the basic workflow for handling sidebar events and notifications, but you can try the [Embedded Apps Kitchen Sink](https://eaf-sdk.webex.com/samples/) to explore all of the features of EAF 2.x, including notifications. The kitchen sink includes a variety of utility functions you may find useful in your own embedded app, including:
+  * Multiple state storage options including cookies, localStorage, and sessionStorage.
+  * A logging function that lets you append log details to an HTML control for debugging convenience.
+  * Additional examples for call monitoring including querying calls and setting badge options.
+
+
+####  anchorGetting Support
+anchor
+For support on EAF 2.0, please visit our [Support Page](https://developer.webex.com/support).
+##### In This Article
+  * [Prerequisites and Additional Documentation](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start#prerequisites-and-additional-documentation)
+  * [Example Workflow General Logic](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start#example-workflow-general-logic)
+  * [Include the 2.0 EAF SDK in your Application](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start#include-the-20-eaf-sdk-in-your-application)
+  * [Initialize Some Basic State](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start#initialize-some-basic-state)
+  * [Add Event Listeners when the onReady Event Fires](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start#add-event-listeners-when-the-onready-event-fires)
+  * [Handle the Call State](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start#handle-the-call-state)
+  * [Notify the User about the VIP Call](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start#notify-the-user-about-the-vip-call)
+  * [Displaying Notifications](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start#displaying-notifications)
+  * [Where to Go Next](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start#where-to-go-next)
+  * [Getting Support](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start#getting-support)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
