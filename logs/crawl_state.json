@@ -8202,5 +8202,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-preferences/get-personal-meeting-room-options": {
     "hash": "bebf52124f41d85daf08a09ad78b63f493e3fb616cca8397e868393d9cdba171",
     "timestamp": "2026-08-13T02:16:13.400440"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-preferences/update-personal-meeting-room-options": {
+    "hash": "5fd667bc2096a3c06648262c09b02f0e44c53f4cc0518f4cfe51b5523c9f0a55",
+    "timestamp": "2026-08-13T02:16:19.892981"
   }
 }
