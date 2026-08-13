@@ -4582,5 +4582,9 @@
   "https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/eos-eol-notice-listing.html": {
     "hash": "50403871fb92c9a98591528ad05331ac0f59e4b39377bac953c08752dd4d6076",
     "timestamp": "2026-08-13T00:59:22.656658"
+  },
+  "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/null": {
+    "hash": "c4fc9256a8cbf0ed090f5ca400f43e64c4ae77c38bc16fff87de91eee20b3c90",
+    "timestamp": "2026-08-13T00:59:26.099479"
   }
 }
