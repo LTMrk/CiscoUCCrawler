@@ -227754,3 +227754,185 @@ Learn how Cisco harnesses AI-powered capabilities across our entire product and 
 
 
 © 2026 Cisco Systems, Inc.
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities.html)
+  * [Solutions](https://www.cisco.com/c/en/us/solutions/index.html)
+  * [Industries](https://www.cisco.com/c/en/us/solutions/industries.html)
+
+
+# Cities and Communities
+Powering an inclusive future for all.
+  * [Watch video (1:16)](javascript:void\(0\);)
+
+
+## Size matters
+Simple, flexible, secure network connections for small governments to make a big impact.
+  * [Watch video (1:07)](javascript:void\(0\);)
+
+
+[](javascript:void\(0\)) [](javascript:void\(0\))
+[](https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities.html)
+  * [Capabilities](https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities.html#capabilities)
+  * [Small Government Solutions](https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities.html#small-government-solutions)
+  * [Customer Stories](https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities.html#customer-stories)
+  * [Resources](https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities.html#resources)
+
+[](https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities.html)
+Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+## Why build smarter cities and communities?
+[ ](https://newsroom.cisco.com/feature-content?type=webcontent&articleId=2135056)
+###  [ Expand equitable access ](https://newsroom.cisco.com/feature-content?type=webcontent&articleId=2135056)
+[ ](https://www.cisco.com/site/us/en/products/security/cybersecurity-for-government.html)
+###  [ Build secure, resilient infrastructure ](https://www.cisco.com/site/us/en/products/security/cybersecurity-for-government.html)
+[ ](https://www.cisco.com/c/m/en_us/business-resiliency.html)
+###  [ Power remote work and trusted workplaces ](https://www.cisco.com/c/m/en_us/business-resiliency.html)
+## Capabilities and solutions
+### Mass-scale infrastructure for government 
+Build your future infrastructure for smarter cities, communities, and countries.
+  * [Use case for government](https://www.cisco.com/c/m/en_us/solutions/industries/portfolio-explorer/portfolio-explorer-for-government.html?s=explore-the-use-cases&u=mass-scale-infrastructure-for-government)
+  * [Converged software-define networking](https://www.cisco.com/c/en/us/solutions/service-provider/converged-sdn-transport.html)
+
+
+### Smart water 
+Discover a more human-centric and resilient approach for water utilities.
+  * [Smart water solutions](https://www.cisco.com/site/us/en/solutions/industries/cities-communities/smart-water.html)
+  * [Water SCADA system modernization](https://www.cisco.com/c/m/en_us/solutions/industries/portfolio-explorer/portfolio-explorer-for-government.html?s=explore-the-use-cases&u=water-scada-system-modernization)
+  * [Water metering and monitoring](https://www.cisco.com/c/m/en_us/solutions/industries/portfolio-explorer/portfolio-explorer-for-government.html?s=explore-the-use-cases&u=water-metering-and-monitoring)
+
+
+### Public Wi-Fi 
+Bridge the digital divide by providing public Wi-Fi across your community.
+  * [Public Wi-Fi use case](https://www.cisco.com/c/m/en_us/solutions/industries/portfolio-explorer/portfolio-explorer-for-government.html?s=explore-the-use-cases&u=public-wi-fi)
+  * [Next-generation Wi-Fi](https://meraki.cisco.com/solutions/next-gen-wifi/)
+
+
+### Smart lighting
+Illuminate your cities, communities, and campuses with secure, reliable lighting infrastructure.
+  * [Smart lighting use case](https://www.cisco.com/c/m/en_us/solutions/industries/portfolio-explorer/portfolio-explorer-for-government.html?s=explore-the-use-cases&u=smart-lighting&o=overview)
+  * [Connected Communities Infrastructure](https://www.cisco.com/c/en/us/solutions/design-zone/industries/smart-cities-connected-communities.html)
+
+
+### Protect your communities 
+Seamless safety and security. 
+  * [Cloud-managed smart cameras](https://www.cisco.com/site/us/en/products/security/physical-security/meraki-cameras/index.html)
+  * [Cloud-managed sensors](https://www.cisco.com/site/us/en/products/security/physical-security/meraki-sensors/index.html)
+
+
+### Transportation is vital to our cities and communities
+Connect roadways and transit systems to protect road users and ensure equitable access to efficient mobility.
+  * [Explore transportation use cases](https://www.cisco.com/c/m/en_us/solutions/industries/portfolio-explorer/portfolio-explorer-for-transportation.html)
+
+
+## Go big with small government
+###  [ No time like the present ](https://www.cisco.com/site/us/en/solutions/industries/government/index.html)
+The time is now. Modernize your IT systems and build for a brighter future.
+###  [ Living on the edge ](https://www.cisco.com/c/m/en_us/products/routers/cloud-edge/government-infographic.html?oid=ifgetr023107)
+The world is moving to the cloud, and we can get you there with secure access everywhere.
+###  [ Local decisions, big impact ](https://www.cisco.com/c/dam/m/digital/elq-cmcglobal/OCA/Assets/SLG/SLG_Smart_Campus_infographic.pdf?oid=ifgetr023028)
+Your government reimagined for a digital future.
+###  [ One app to rule them all ](https://www.cisco.com/c/dam/m/digital/elq-cmcglobal/OCA/Assets/SLG/SLG_Webex_Security_eBook.pdf?oid=ebkco023109)
+Collaborating wherever, whenever, however with security as your default setting. 
+  * [Product selector tool](https://www.cisco.com/c/en/us/solutions/small-business/selector-tool.html?ccid=cc001547)
+
+
+> “A water leak in a place like Albuquerque is huge, because we live in a desert. But instead of sending a person out to examine a leak a month after it started, we know right away. It’s a huge benefit.”
+> Kristen Sanders, Chief Information Security Officer for Albuquerque Bernalillo County Water Utility Authority
+  * [Read more](https://newsroom.cisco.com/feature-content?type=webcontent&articleId=2148502)
+  * [Explore case studies](https://www.cisco.com/c/en/us/about/case-studies-customer-success-stories/customer-stories-listing.html?flt5_general-table0=Public%20sector)
+
+
+## Resources
+[ Article Cisco renews cities and communities commitment Meet evolving needs with trusted technology. ](https://newsroom.cisco.com/feature-content?type=webcontent&articleId=2137225)
+[ Infographic Smart buildings, trusted experiences Building blocks for a secure and safe return to work. ](https://www.cisco.com/c/m/en_us/solutions/smart-building/nb-06-smart-building-infographic.html?oid=ifgswt022443)
+[ White paper Securing water networks Protecting our critical infrastructure. ](https://www.cisco.com/c/en/us/solutions/industries.html)
+## Country Digital Acceleration and smart cities 
+Cisco’s Country Digital Acceleration program is helping cities manage and deliver connected urban services. From inclusive access to smart water systems, Cisco is enabling cities to operate sustainably and meet the needs of their citizens
+  * [Learn more](https://www.cisco.com/c/en/us/about/country-digital-acceleration.html)
+
+
+## More solutions for connected communities 
+[ Government ](https://www.cisco.com/site/us/en/solutions/industries/government/index.html)
+[ Transportation ](https://www.cisco.com/site/us/en/solutions/industries/transportation/index.html)
+[ Education ](https://www.cisco.com/site/us/en/solutions/industries/education/index.html)
+[ Healthcare ](https://www.cisco.com/site/us/en/solutions/industries/healthcare/index.html)
+[ Utilities ](https://www.cisco.com/site/us/en/solutions/industries/energy/utilities/index.html)
+[](javascript:void\(0\)) [](javascript:void\(0\))
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
