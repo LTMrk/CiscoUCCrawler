@@ -171,3 +171,4 @@ Code context:
  781                       # Walk the redirect chain.  Playwright returns only the last
  782                       # hop, so we trace the `request.redirected_from` links until the
  783                       # first response that differs from the final one and surface its | URL: https://www.webex.com/content/dam/wbx/us/aag/cisco-video-phone-8875-for-webex_cm-4784.pdf
+[2026-08-13T01:53:51.316048] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/create/docs/login-with-webex
