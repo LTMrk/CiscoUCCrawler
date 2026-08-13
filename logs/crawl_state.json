@@ -8262,5 +8262,9 @@
   "https://developer.webex.com/api/v1/meeting-transcripts/list-meeting-transcripts-for-compliance-officer": {
     "hash": "442470bc2ba62c3531ecbd1d057d7aa429cbd3e8f720eb5f0da0e4d16cdcb760",
     "timestamp": "2026-08-13T02:17:49.428916"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-polls/list-meeting-polls": {
+    "hash": "0f0972deac1b57d5cbb19dc5077864945fdb0f198fa55860f2496b4041bd3a42",
+    "timestamp": "2026-08-13T02:17:56.045752"
   }
 }
