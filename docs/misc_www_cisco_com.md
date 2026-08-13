@@ -270469,3 +270469,528 @@ In the AI era, collaboration demands more than software alone. Only Cisco unifie
 
 
 © 2026 Cisco Systems, Inc.
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/solutions/small-business/selector-tool.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/solutions/small-business/selector-tool.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/solutions/small-business/selector-tool.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/solutions/small-business/selector-tool.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/solutions/small-business/selector-tool.html)
+  * [Solutions](https://www.cisco.com/c/en/us/solutions/index.html)
+  * [Small and Medium Sized Business Technology Solutions](https://www.cisco.com/site/us/en/solutions/small-business/index.html)
+
+
+![Small Business Product Selector](https://www.cisco.com/c/en/us/solutions/small-business/selector-tool/jcr:content/Grid/category_atl/layout-category-atl/spotlight_copy.img.png/1588886956028.png)
+# Small Business Product Selector
+Answer a few quick questions and we will help you select the networking, security, and collaboration solutions tailored to your business.
+  * [Get started](https://www.cisco.com/c/en/us/solutions/small-business/selector-tool.html#selector-tool)
+
+
+[](https://www.cisco.com/c/en/us/solutions/small-business/selector-tool.html)
+  * [Selector Tool](https://www.cisco.com/c/en/us/solutions/small-business/selector-tool.html)
+  * [How to Buy](https://www.cisco.com/c/en/us/solutions/small-business/selector-tool.html#how-to-buy)
+
+[](https://www.cisco.com/c/en/us/solutions/small-business/selector-tool.html)
+Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+[Cisco Umbrella - DNS Security Advantage](https://www.cisco.com/c/en/us/products/security/umbrella/index.html?ccid=cc001539) ![Cisco Umbrella - DNS Security Advantage](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/security-cisco-umbrella-dns-security-advantage-600x400.png)
+  * Protect users anywhere they go, anywhere they access the Internet.
+
+
+  * Secure
+> > 
+
+[Cisco Business 250 Series Smart Switches](https://www.cisco.com/c/en/us/products/switches/business-250-series-smart-switches/index.html?ccid=cc001531) ![Cisco Business 250 Series Smart Switches](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/cisco-business-250-smart-switches.png)
+  * Affordable smart switch with powerful performance and reliability. Easy to setup and manage. Limited lifetime warranty.
+
+
+  * Network
+>
+  * $235.00 USD
+> 
+
+[Cisco Business 200 Series Access Points](https://www.cisco.com/c/en/us/products/wireless/business-200-series-access-points/index.html?ccid=cc001530) ![Cisco Business 200 Series Access Points](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-business-200-series-access-points-600x400.png)
+  * Superior performance supporting up to 200 wireless devices and a maximum wireless coverage up to 3000 square feet.
+
+
+  * Network
+>
+  * $235.00 USD
+> 
+
+[Cisco Umbrella - DNS Security Essentials](https://www.cisco.com/c/en/us/products/security/umbrella/index.html?ccid=cc001539) ![Cisco Umbrella - DNS Security Essentials](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/security-cisco-umbrella-dns-security-essentials-600x400.png)
+  * Protect users anywhere they go, anywhere they access the Internet.
+
+
+  * Secure
+> > 
+
+[Cisco Meraki MS120-48 Series Switches](https://meraki.cisco.com/products/switches/ms120-48?ccid=cc001533) ![Cisco Meraki MS120-48 Series Switches](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-meraki-ms120-series-switches-600x400.png)
+  * Cloud-managed Layer 2 access switching and centralized management gives administrators visibility into the network.
+
+
+  * Network
+> > 
+
+[Cisco Webex Meetings](https://www.cisco.com/c/en/us/products/conferencing/webex-meetings/index.html?ccid=cc001542) ![Cisco Webex Meetings](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/webex-meetings-600x400.png)
+  * Meet face to face, wherever you are. Schedule meetings and join with a single click in the mobile or desktop app.
+
+
+  * Collaborate
+> > 
+
+[Cisco ISR 900 Series](https://www.cisco.com/c/en/us/products/routers/900-series-integrated-services-routers-isr/index.html?ccid=cc001532) ![Cisco ISR 900 Series](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-isr-921-4pltegb.png)
+  * Combines WAN, switching, security, and advanced connectivity options in a compact, easy-to-deploy and -manage device.
+
+
+  * Network
+> > 
+
+[Cisco IP Phone 6800 Series](https://www.cisco.com/c/en/us/products/collaboration-endpoints/ip-phone-6800-series/index.html?ccid=cc001541) ![Cisco IP Phone 6800 Series](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/collaboration-6800-series.png)
+  * Affordable desktop and wireless (DECT) phones for cloud calling platforms. Essential communications for your business.
+
+
+  * Collaborate
+> > 
+
+[Cisco Aironet 1800 Series Access Points](https://www.cisco.com/c/en/us/products/wireless/aironet-1800-access-points/index.html?ccid=cc001530) ![Cisco Aironet 1800 Series Access Points](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-aironet-1800-series-access-points-600x400.png)
+  * Enhances wireless performance for a new generation of mobile devices, increasing productivity and business agility.
+
+
+  * Network
+> > 
+
+[Cisco RV160 VPN Router](https://www.cisco.com/c/en/us/products/routers/rv160-vpn-router/index.html?ccid=cc001532) ![Cisco RV160 VPN Router](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-rv160-600x400.png)
+  * Enterprise performance at an entry-level price. Low-touch remote deployment is supported by our FindIT network manager.
+
+
+  * Network
+>
+  * $149.00 USD
+> 
+
+[Cisco Firepower 1120](https://www.cisco.com/c/en/us/products/security/firepower-1000-series/index.html?ccid=cc001536) ![Cisco Firepower 1120](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/security-cisco-firepower-1120-600x400.png)
+  * Rack-mount model with 4 SFP ports and 1.5 Gbps NGFW throughput. Runs both ASA and FTD. Simplifies security management.
+
+
+  * Secure
+> > 
+
+[Cisco AMP for Endpoints](https://www.cisco.com/c/en/us/products/security/amp-for-endpoints/index.html?ccid=cc001537) ![Cisco AMP for Endpoints](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/security-cisco-amp-for-endpoints-600x400.png)
+  * Prevent breaches. Quickly and automatically detect, block, and remediate advanced malware across endpoints.
+
+
+  * Secure
+> > 
+
+[Cisco Meraki MX67](https://meraki.cisco.com/products/appliances/mx67?ccid=cc001533) ![Cisco Meraki MX67](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-meraki-mx67-hw-600x400.png)
+  * Cloud-managed security and SD-WAN with traffic shaping, application management, and advanced security services.
+
+
+  * Network
+> > 
+
+[Cisco Meraki MX Small Branch](https://meraki.cisco.com/products/appliances/mx64?ccid=cc001540) ![Cisco Meraki MX Small Branch](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/security-mx-small-branch-600x400.png)
+  * A cloud-managed solution that gives administrators control over the users, content, and apps on the network.
+
+
+  * Secure
+> > 
+
+[Cisco Webex Desk Pro](https://www.cisco.com/c/en/us/products/collaboration-endpoints/webex-desk-pro/index.html?ccid=cc001542) ![Cisco Webex Desk Pro](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/collaboration-cisco-webex-desk-pro-600x400.png)
+  * Collaborate, cocreate, and annotate on an interactive, touch-redirect 4K screen with 71-degree HD camera.
+
+
+  * Collaborate
+> > 
+
+[Cisco Duo MFA](https://www.cisco.com/c/en/us/products/security/duo-software.html?ccid=cc001538) ![Cisco Duo MFA](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/security-cisco-duo-mfa-600x400.png)
+  * Two-factor authentication solution to protect every user, plus an overview of your overall device security hygiene.
+
+
+  * Secure
+> > 
+
+[Cisco Catalyst 1000 Series Switches](https://www.cisco.com/c/en/us/products/switches/catalyst-1000-series-switches/index.html?ccid=cc001531) ![Cisco Catalyst 1000 Series Switches](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-catalyst-1000-series-switches-600x400.png)
+  * Wide range of PoE and port combinations. Easy-to-manage switch for networks with up to 250 users and lean IT support.
+
+
+  * Network
+> > 
+
+[Cisco AnyConnect Secure Mobility Client](https://www.cisco.com/c/en/us/products/security/anyconnect-secure-mobility-client/index.html?ccid=cc001540) ![Cisco AnyConnect Secure Mobility Client](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/security-cisco-anyconnect-secure-mobility-client-600x400.png)
+  * Strong user authentication and device hygiene checks help employees to work securely from anywhere, on any device.
+
+
+  * Secure
+> > 
+
+[Cisco Webex Calling](https://www.cisco.com/c/en/us/products/unified-communications/webex-calling/index.html?ccid=cc001541) ![Cisco Webex Calling](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/webex-calling-collab-600x400.jpg)
+  * Your phone system in the cloud. The benefits of a traditional system without the complexity of managing and securing it.
+
+
+  * Collaborate
+> > 
+
+[Cisco Meraki MR30H Indoor Access Points](https://meraki.cisco.com/products/wireless/mr30h?ccid=cc001533) ![Cisco Meraki MR30H Indoor Access Points](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-wireless-access-points-mr30h-600x400.png)
+  * 802.11ac Wave 2 wireless with integrated gigabit switch. Great for in-room hotel or dormitory deployments.
+
+
+  * Network
+> > 
+
+[Cisco Meraki MR20 Indoor Access Points](https://meraki.cisco.com/products/wireless/mr20?ccid=cc001533) ![Cisco Meraki MR20 Indoor Access Points](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-meraki-mr20-hw-600x400.png)
+  * Enterprise-level 802.11ac Wave 2 performance with the simplicity of cloud management.
+
+
+  * Network
+> > 
+
+[Cisco 550X Series Stackable Managed Switches](https://www.cisco.com/c/en/us/products/switches/550x-series-stackable-managed-switches/index.html?ccid=cc001531) ![Cisco 550X Series Stackable Managed Switches](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-sg550x-24-600x400.png)
+  * 10G Ethernet switch with true stacking and built-in fan redundancy. Advanced capabilities at an affordable price.
+
+
+  * Network
+>
+  * $639.00 USD
+> 
+
+[Cisco IP Phone 8800 Series MPP](https://www.cisco.com/c/en/us/products/collaboration-endpoints/ip-phone-8800-series-multiplatform-firmware/index.html?ccid=cc001541) ![Cisco IP Phone 8800 Series MPP](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/collaboration-8800-MPP-series.png)
+  * Premium, open-SIP desk and conference room phones with advanced collaboration features for cloud calling platforms.
+
+
+  * Collaborate
+> > 
+
+[Cisco IP Phone 7800 Series](https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-7800-series/index.html?ccid=cc001541) ![Cisco IP Phone 7800 Series](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/collaboration-7800-series.png)
+  * Fully featured, secure phones for desktop and conference rooms. State-of-the-art microphone and speaker technologies.
+
+
+  * Collaborate
+> > 
+
+[Cisco Firepower 1010](https://www.cisco.com/c/en/us/products/security/firepower-1000-series/index.html?ccid=cc001536) ![Cisco Firepower 1010](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/security-cisco-firepower-1010-600x400.png)
+  * Desktop model with integrated switch, PoE, and 650 Mbps NGFW throughput. Runs ASA and FTD. Simplifies security management.
+
+
+  * Secure
+> > 
+
+[Cisco Webex Board 55](https://www.cisco.com/c/en/us/products/collaboration-endpoints/webex-board-55/index.html?ccid=cc001542) ![Cisco Webex Board 55](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/collaboration-cisco-webex-board-55-600x400.png)
+  * Wirelessly present, whiteboard, and have video and audio calls. Connect to virtual teams through Cisco Webex.
+
+
+  * Collaborate
+> > 
+
+[Cisco Aironet 2800 Series Access Points](https://www.cisco.com/c/en/us/products/wireless/aironet-2800-series-access-points/index.html?ccid=cc001530) ![Cisco Aironet 2800 Series Access Points](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-aironet-2800-series-600x400.png)
+  * Flexible deployment modes and support for the 802.11ac Wave 2 help you meet today's business needs and future goals.
+
+
+  * Network
+> > 
+
+[Cisco RV345 Dual WAN Gigabit VPN Router](https://www.cisco.com/c/en/us/products/routers/rv345-dual-gigabit-wan-vpn-router/index.html?ccid=cc001532) ![Cisco RV345 Dual WAN Gigabit VPN Router](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-rv345-600x400.png)
+  * Firewall protection and high-speed Internet access. Connecting small business networks safely and securely.
+
+
+  * Network
+>
+  * $379.00 USD
+> 
+
+[Cisco Business 110 Series Unmanaged Switches](https://www.cisco.com/c/en/us/products/switches/business-110-series-unmanaged-switches/index.html?ccid=cc001531) ![Cisco Business 110 Series Unmanaged Switches](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/business-110-unmanaged-switch.png)
+  * Affordable entry-level switches with plug-and-play capability and Gigabit Ethernet for a seamless digital transformation.
+
+
+  * Network
+>
+  * $60.00 USD
+> 
+
+[Cisco Meraki MS210-24 Series Switches](https://meraki.cisco.com/products/switches/ms210-24?ccid=cc001533) ![Cisco Meraki MS210-24 Series Switches](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/Meraki-MS210-600x400.png)
+  * Cloud-managed switching for branch campuses. Has stackable 24x1G, Layer 2 access switching, and a centralized management platform.
+
+
+  * Network
+> > 
+
+[Cisco Meraki MR33 Indoor Access Points](https://meraki.cisco.com/products/wireless/mr33?ccid=cc001533) ![Cisco Meraki MR33 Indoor Access Points](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-meraki-mr33-600x400.png)
+  * Extend coverage to hard-to-wire areas to provide reliable, secure access for employees and guests. Cloud-managed.
+
+
+  * Network
+> > 
+
+[Cisco Webex Room Kit Mini](https://www.cisco.com/c/en/us/products/collaboration-endpoints/webex-room-kit-mini/index.html?ccid=cc001542) ![Cisco Webex Room Kit Mini](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/collaboration-webex-room-kit-mini-600x400.png)
+  * AI-powered videoconferencing for huddle and small meeting spaces (2 to 5 people). Connect to any screen via HDMI.
+
+
+  * Collaborate
+> > 
+
+[Cisco Business 350 Series Managed Switches](https://www.cisco.com/c/en/us/products/switches/business-350-series-managed-switches/index.html?ccid=cc001531) ![Cisco Business 350 Series Managed Switches](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/cisco-business-350-managed-switches.png)
+  * Next-generation managed switches that combine affordability with excellent performance, rich features, and advanced security
+
+
+  * Network
+>
+  * $270.00 USD
+> 
+
+[Cisco 350X Series Stackable Managed Switches](https://www.cisco.com/c/en/us/products/switches/350x-series-stackable-managed-switches/index.html?ccid=cc001531) ![Cisco 350X Series Stackable Managed Switches](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-350x-series-stackable-managed-switches-600x400.png)
+  * 10 Gigabit Ethernet, stacking, and advanced capabilities for a fast, reliable, and energy-efficient network.
+
+
+  * Network
+>
+  * $939.00 USD
+> 
+
+[Cisco Meraki MS210-48 Series Switches](https://meraki.cisco.com/products/switches/ms210-48?ccid=cc001533) ![Cisco Meraki MS210-48 Series Switches](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-meraki-ms210-series-switches-600x400.png)
+  * Cloud-managed and stackable, provides Layer 2 access switching and centralized visibility into the network.
+
+
+  * Network
+> > 
+
+[Cisco Webex Share](https://www.cisco.com/c/en/us/products/collaboration-endpoints/webex-share/index.html?ccid=cc001542) ![Cisco Webex Share](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/collaboration-cisco-webex-share-600x400.png)
+  * With one click from your Webex app, wirelessly share content to any display without using cables or dongles.
+
+
+  * Collaborate
+> > 
+
+[Cisco Firepower 1140](https://www.cisco.com/c/en/us/products/security/firepower-1000-series/index.html?ccid=cc001536) ![Cisco Firepower 1140](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/security-cisco-firepower-1140-600x400.png)
+  * Rack-mount model with 4 SFP ports and 2.2 Gbps NGFW throughput. Runs both ASA and FTD. Simplifies security management.
+
+
+  * Secure
+> > 
+
+[Cisco IP Phone 8800 Series](https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/index.html?ccid=cc001541) ![Cisco IP Phone 8800 Series](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/collaboration-8800-series.png)
+  * Premium desk and conference room IP phones with advanced collaboration features for workspaces or home offices.
+
+
+  * Collaborate
+> > 
+
+[Cisco 250X Series Smart Switches](https://www.cisco.com/c/en/us/products/switches/250-series-smart-switches/index.html?ccid=cc001531) ![Cisco 250X Series Smart Switches](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-sg250x-24-600x400.png)
+  * Affordable smart switch equipped with security, performance, and ease of use. Limited lifetime warranty.
+
+
+  * Network
+>
+  * $629.00 USD
+> 
+
+[Cisco RV260 VPN Router](https://www.cisco.com/c/en/us/products/routers/rv260-vpn-router/index.html?ccid=cc001532) ![Cisco RV260 VPN Router](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-rv260-600x400.png)
+  * Dual-core CPU for enhanced performance. A highly secure solution suited for small businesses and remote and home offices.
+
+
+  * Network
+>
+  * $209.00 USD
+> 
+
+[Cisco Headset 700 Series](https://www.cisco.com/c/en/us/products/collaboration-endpoints/headset-700-series/index.html?ccid=cc001541) ![Cisco Headset 700 Series](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/collaboration-cisco-headset-730-600x400.png)
+  * For business, personal, and the journey between. Amazing audio for music, watching videos, or voice and video calls.
+
+
+  * Collaborate
+> > 
+
+[Cisco IP Phone 7800 Series MPP](https://www.cisco.com/c/en/us/products/collaboration-endpoints/ip-phone-7800-series-multiplatform-firmware/index.html?ccid=cc001541) ![Cisco IP Phone 7800 Series MPP](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/collaboration-7800-MPP-series.png)
+  * Fully featured, open-SIP phones for cloud calling platforms. Great for your desktop and your conference rooms.
+
+
+  * Collaborate
+> > 
+
+[Cisco Webex Teams](https://www.cisco.com/c/en/us/solutions/collaboration/webex-teams.html?ccid=cc001542) ![Cisco Webex Teams](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/webex-teams-600x400.png)
+  * Keeps people and teams connected. Boosts productivity and gives a consistent experience for all your interactions.
+
+
+  * Collaborate
+> > 
+
+[Cisco Business Edition 6000](https://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/index.html?ccid=cc001541) ![Cisco Business Edition 6000](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/collaboration-cisco-business-edition-6000s-600x400.png)
+  * All-in-one solution that helps you solve complex communications challenges for up to 1000 employees.
+
+
+  * Collaborate
+> > 
+
+[Cisco Business 100 Series Access Points](https://www.cisco.com/c/en/us/products/wireless/business-100-series-access-points/index.html?ccid=cc001530) ![Cisco Business 100 Series Access Points](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-business-100-series-access-points-600x400.png)
+  * Enterprise-grade performance delivering highly secure and reliable wireless connectivity for small businesses.
+
+
+  * Network
+>
+  * $165.00 USD
+> 
+
+[Cisco Meraki Go Network Switch](https://www.meraki-go.com/meet-meraki-go/switch/?ccid=cc001534) ![Cisco Meraki Go Network Switch](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-meraki-go-network-switch-gs110-600x400.png)
+  * App-managed switches that easily connect, secure, and optimize the operation of small business devices.
+
+
+  * Network
+>
+  * $229.00 USD
+> 
+
+[Cisco Meraki Go Outdoor Access Points](https://www.meraki-go.com/meet-meraki-go/wi-fi/?ccid=cc001534) ![Cisco Meraki Go Outdoor Access Points](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/meraki-outdoor-AP.png)
+  * Designed to withstand rain and dust, small businesses can simply and reliably provide secure Wi-Fi in every environment.
+
+
+  * Network
+>
+  * $199.00 USD
+> 
+
+[Cisco Meraki Go Security Gateway](https://www.meraki-go.com/meet-meraki-go/security-gateway/?ccid=cc001540) ![Cisco Meraki Go Security Gateway](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/security-meraki-go-security-gateway-gx20-600x400.png)
+  * App-managed security for small businesses, providing security, use limits, site blocking, and protection from attacks.
+
+
+  * Secure
+> > 
+
+[Cisco Meraki MS120-8 Compact Series Switches](https://meraki.cisco.com/products/switches/ms120-8?ccid=cc001533) ![Cisco Meraki MS120-8 Compact Series Switches](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/Meraki-MS120-600x400.png)
+  * Cloud-managed switching for small branches. Offers 8x1G, Layer 2 access switching, and a centralized management platform.
+
+
+  * Network
+> > 
+
+[Cisco Business 100 Series Mesh Extenders](https://www.cisco.com/c/en/us/products/wireless/business-100-series-mesh-extenders/index.html?ccid=cc001530) ![Cisco Business 100 Series Mesh Extenders](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-business-100-series-mesh-extenders-600x400.png)
+  * Seamlessly works with Cisco Business Wireless access points to provide expanded Wi-Fi coverage.
+
+
+  * Network
+>
+  * $135.00 USD
+> 
+
+[Cisco Duo Access](https://www.cisco.com/c/en/us/products/security/duo-software.html?ccid=cc001538) ![Cisco Duo Access](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/security-cisco-duo-access-600x400.png)
+  * Visibility into security hygiene of all devices, enforces authentication policies, and provides secure single sign-on.
+
+
+  * Secure
+> > 
+
+[Cisco Meraki Go Indoor Access Points](https://www.meraki-go.com/meet-meraki-go/wi-fi/?ccid=cc001534) ![Cisco Meraki Go Indoor Access Points](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-meraki-go-indoor-access-points-600x400.png)
+  * App-managed Wi-Fi for small businesses. Just plug in and start increasing customer engagement and business productivity.
+
+
+  * Network
+>
+  * $149.00 USD
+> 
+
+[Cisco RV340 Dual WAN Gigabit VPN Router](https://www.cisco.com/c/en/us/products/routers/rv340-dual-gigabit-wan-vpn-router/index.html?ccid=cc001532) ![Cisco RV340 Dual WAN Gigabit VPN Router](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/networking-cisco-rv340-600x400.png)
+  * Firewall protection and high-speed Internet access for small business networks requiring performance and reliability.
+
+
+  * Network
+>
+  * $269.00 USD
+> 
+
+[Cisco Firepower 1150](https://www.cisco.com/c/en/us/products/security/firepower-1000-series/index.html?ccid=cc001536) ![Cisco Firepower 1150](https://www.cisco.com/c/dam/assets/prod/product-selector/small-business/security-cisco-firepower-1150-600x400.png)
+  * Rack-mount with 2 SFP ports, 2 x 10G SFP+, and 3 Gbps NGFW throughput. Runs ASA and FTD. Simplifies security management.
+
+
+  * Secure
+> > 
+
+### Do you prefer your IT infrastructure on-premise or in the cloud?
+  * On-Premise 
+  * Cloud 
+
+
+### How many employees or customers need to connect to your network?
+  * Under 50 
+  * 50-99 
+  * 100-249 
+  * 250-499 
+  * 500+ 
+
+
+### Is simplicity or customization more important?
+  * Simplicity - We have limited IT resources and need a simple solution. 
+  * Customization - We need to be able to fine-tune our configurations. 
+
+
+### Which best describes how you use your network?
+  * Light - We need basic performance and can live without some rich, high-end features. 
+  * Medium - We need more than basic performance; voice and messaging apps also flow through our network. 
+  * Heavy - We use apps requiring more bandwidth or computing resources, such as video. 
+
+
+### What business need is top of mind?
+  * I want to improve or upgrade my network. 
+  * I want to enhance the way we work together. 
+  * I want to keep my business secure. 
+  * I need a full stack IT makeover. 
+
+
+## Selector Tool
+Please answer the following questions to see recommendations tailored to your business.
+1. What business need is top of mind?
+I need a faster, more reliable network connection
+I need employees and customers to collaborate no matter where they are located
+I need a network security solution to protect my entire business
+All of the above
+2. How many employees or customers need to connect to your network?
+Include customers or employees who will be using a computer, tablet, smartphone via your network.
+Under 50
+50-99
+100-249
+250-499
+500+
+3. Which best describes how you use your network?
+Light - We need basic performance and can live without some rich, high-end features.
+Medium - We need more than basic performance; voice and messaging apps also flow through our network.
+Heavy - We use apps requiring more bandwidth or computing resources, such as video.
+4. Is simplicity or customization more important?
+Consider how much time or expertise you can dedicate to your business's IT.
+Simplicity - We have limited IT resources and need a simple solution.
+Customization - We need to be able to fine-tune our configurations.
+5. What do you want from your network?
+Cloud solutions may be more flexible and cost-effective than traditional on-premise offerings, while in some cases, on-premise solutions can provide more control and security, which can be particularly important in industries that are highly regulated.
+Basic networking solution at a fixed price
+Scalable networking solution that can grow with my business
+Get your recommendations
+## [Back to selector tool](javascript:void\(0\))
+See more products you may like
+## Buying the tech you need is this easy
+### [Competitive payment solutions Easily fund the technology you need with flexible payment options. ](https://www.cisco.com/c/en/us/buy/payment-solutions/solutions/small-business.html)
+### [Find a partner Our trusted partners can help you find the products and solutions that work best for your business. ](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+### [Talk to our team Looking for a product partner? Have questions about features? Our team can help. ](https://www.cisco.com/c/en/us/solutions/small-business/smb-consultation-offer.html)
