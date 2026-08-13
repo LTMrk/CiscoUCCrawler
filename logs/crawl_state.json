@@ -8470,5 +8470,9 @@
   "https://developer.webex.com/docs/api/v1/room-tabs": {
     "hash": "067ec68bab5427984454b7525184d906ee4030a55a4dcc98b3dadf310a23b769",
     "timestamp": "2026-08-13T02:24:25.328813"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-transcripts": {
+    "hash": "015b3f408012c71f71a4e6021871c98750d16b4d7783df51066463c0c8322e67",
+    "timestamp": "2026-08-13T02:24:31.547998"
   }
 }
