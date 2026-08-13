@@ -12,11 +12,11 @@
     "developer.cisco.com": 3
   },
     "seeds": [
-    "https://developer.webex.com/calling/docs/api/v1/ai-receptionist/create-a-knowledge-base",
-    "https://developer.webex.com/docs",
-    "https://developer.webex.com/docs/contact-center"
+    "https://developer.webex.com/calling/docs/api/v1/ai-receptionist/create-a-knowledge-base"
   ],
   "inactive_seeds": [
+    "https://developer.webex.com/docs",
+    "https://developer.webex.com/docs/contact-center",
     "https://help.webex.com/en-us/all-products",
     "https://community.cisco.com/sitemap_nodes.xml",
     "https://www.cisco.com/c/en/us/support/unified-communications/category.html",
