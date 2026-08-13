@@ -38026,3 +38026,181 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/meeting/docs/api/guides/webinar-guide
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/meeting/docs/api/guides/webinar-guide)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/meeting/docs/api/guides/webinar-guide)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/meeting/docs/api/guides/webinar-guide)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Webinar Guide
+Webex Meetings
+  * [Overview](https://developer.webex.com/meeting/docs/meetings)
+  * Guides
+    * [Access the API](https://developer.webex.com/meeting/docs/getting-started)
+    * [Meeting Resource Guide](https://developer.webex.com/meeting/docs/api/guides/access-meeting-resources-guide)
+    * [Integrations & Authorization](https://developer.webex.com/meeting/docs/integrations)
+    * [Using Webex Service Apps](https://developer.webex.com/meeting/docs/service-apps)
+    * [Webinar Guide](https://developer.webex.com/meeting/docs/api/guides/webinar-guide)
+    * [Webhooks](https://developer.webex.com/meeting/docs/api/guides/webhooks)
+    * [Meetings MCP Server](https://developer.webex.com/meeting/docs/meetings-mcp-server)
+  * [Guest to Guest Meetings](https://developer.webex.com/meeting/docs/guest-to-guest-meetings)
+  * [API Behavior Changes](https://developer.webex.com/meeting/docs/app-programming-interface-behavior-changes)
+  * [REST API Basics](https://developer.webex.com/meeting/docs/basics)
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/meeting/docs/api/changelog/webex-meetings)
+  * SDK
+  * [AI Assistant for Developers](https://developer.webex.com/meeting/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/meeting/docs/api/guides/troubleshooting)
+  * [Widgets](https://developer.webex.com/meeting/docs/widgets)
+  * [Tutorials](https://developer.webex.com/meeting/docs/tutorials)
+  * [Suite Sandbox](https://developer.webex.com/meeting/docs/developer-sandbox-guide)
+  * [Beta Program Overview](https://developer.webex.com/meeting/docs/webex-developer-beta-program)
+  * [Webex Status API](https://developer.webex.com/meeting/docs/webex-status-api)
+  * [XML API Deprecation](https://developer.webex.com/meeting/docs/webex-xml-api-deprecation-announcement)
+
+
+## Webex Meetings
+### Webinar Guide
+As a Webex developer you now have the ability to manage webinars using the webinar REST APIs to create and manage a Webex webinar, and well as add and manage webinar panelists.
+###### Webinar
+Use Webex Webinar with Meetings REST API.
+####  anchorOverview
+anchor
+As a Webex host, you can schedule engaging, interactive [webinars](https://help.webex.com/en-US/article/n3rosq0/Get-started-with-Webex-Events-\(new\)), and Webex developers now have the ability to manage webinars using REST APIs.
+The webinar REST API includes the following features:
+  * [Create and manage a Webex webinar](https://developer.webex.com/docs/api/v1/meetings)
+  * [Add and manage webinar panelists](https://developer.webex.com/docs/api/v1/meeting-invitees)
+  * [Get and list meeting session types for scheduling the type of meeting](https://developer.webex.com/docs/api/v1/meetings)
+  * [Get a registration form definition for a webinar](https://developer.webex.com/docs/api/v1/meetings/get-registration-form-for-a-meeting)
+  * [Add a webinar registrant](https://developer.webex.com/docs/api/v1/meetings/register-a-meeting-registrant)
+  * [Get and list webinar registrants](https://developer.webex.com/docs/api/v1/meetings/list-meeting-registrants)
+  * [Batch update the status of webinar registrants](https://developer.webex.com/docs/api/v1/meetings/batch-update-meeting-registrants-status)
+
+
+####  anchorCreating and managing a Webex Webinar
+anchor
+Webinars can be created, retrieved, updated, and deleted using the [Meetings](https://developer.webex.com/docs/api/v1/meetings) API. The following new attributes have been introduced for scheduling a webinar:
+  * `scheduledType` – When set as an attribute in a `POST` request body, specifies either webinar or a regular meeting. Set the value of `scheduledType` attribute to `webinar` for scheduling a webinar, and to `meeting` for scheduling a regular meeting. This attribute is mandatory for scheduling a webinar.
+  * `enabledWebcastView` – Set the value of `enabledWebcastView` attribute in a `POST` request body to `true` for scheduling a streaming mode for a webinar and to `false` for scheduling an interactive mode for a webinar. The default value for this attribute is `false`.
+  * `panelistPassword` – When set as an attribute in a `POST` request body, specifies the password for panelists of Webinar. The password must conform to the site's password complexity settings as described in [password management](https://help.webex.com/en-us/zrupm6/Manage-Security-Options-for-Your-Site-in-Webex-Site-Administration). If not specified, a random password conforming to the site's password rules is generated automatically.
+  * `phoneAndVideoSystemPanelistPassword` – When returned as an attribute in a `GET` request, specifies the 8-digit numeric panelist password to join a webinar from audio and video devices.
+
+
+Developers should note that a webinar cannot be updated to a regular meeting and vice-versa. Also, developers can get and list [Meeting Session Types](https://developer.webex.com/docs/api/v1//meetings/sessionTypes) enabled for a given user for scheduling a meeting or webinar. In addition to that, the following attributes are not supported for a webinar:
+  * `recurrence`
+  * `allowFirstUserToBeCoHost`
+  * `allowAuthenticatedDevices`
+  * `excludePassword`
+  * `enableAutomaticLock`
+
+
+####  anchorAdding and managing panelists
+anchor
+Developers can use [Meeting Invitees](https://developer.webex.com/docs/api/v1/meeting-invitees) API to manage webinar panelists. For webinars, all the invitees will join as panelists. Panelists can also be added using the [Create a Meeting](https://developer.webex.com/docs/api/v1/meetings/create-a-meeting) API by specifying invitees in the request body. The following new boolean attribute needs to be enabled to mark an invitee as a panelist:
+  * `panelist` – When set as an attribute in a `POST` request body, specifies whether an invitee is allowed to be a panelist for the webinar.
+
+
+####  anchorRegistration
+anchor
+Developers can use the [Create Meeting](https://developer.webex.com/docs/api/v1/meetings) API to create and manage registration for a webinar, as well as enable/disable the auto-approval process for registrants by setting the `autoAcceptRequest` attribute value in the `POST` request body. In addition to that, the following APIs are available to manage registration:
+  * [Get the registration form definition for a webinar](https://developer.webex.com/docs/api/v1/meetings/get-registration-form-for-a-meeting) - Get a webinar's registration form to understand which fields are required for an attendee's registration.
+  * [Add a webinar registrant](https://developer.webex.com/docs/api/v1/meetings/register-a-meeting-registrant) - Used for registering a new registrant for a webinar.
+  * [Get and list webinar registrants](https://developer.webex.com/docs/api/v1/meetings/list-meeting-registrants) - Used for retrieving details of a webinar registrant with a specified registrant Id. Can also be used to retrieve a list of registrants for a webinar with a specified meeting Id.
+  * [Batch update the status of webinar registrants](https://developer.webex.com/docs/api/v1/meetings/batch-update-meeting-registrants-status) - A webinar's host or cohost can batch update the status of registrants.
+
+
+The following roles can `register` an attendee via the API up to the capacity limit for a webinar:
+  * The host of the webinar
+  * The cohosts of the webinar
+  * Any user of the same site
+  * The administrator of the site where this webinar is hosted
+  * [Guests](https://developer.webex.com/docs/guest-issuer)
+
+
+The following roles can approve or reject a pending registrant for a webinar:
+  * The host of the webinar
+  * The cohosts of the webinar
+
+
+The following roles can `invite` an attendee using the API up to the license capacity limit by the host license:
+  * The host of the webinar
+  * The cohosts of the webinar
+  * Any user of the same site
+  * The administrator of the site where this webinar is hosted
+
+
+Developers should note that registration capacity has a maximum limit of 10K. There's no minimum limit, which means that a webinar can support any number of invitees or registrations fewer than 10K.
+##### In This Article
+  * [Overview](https://developer.webex.com/meeting/docs/api/guides/webinar-guide#overview)
+  * [Creating and managing a Webex Webinar](https://developer.webex.com/meeting/docs/api/guides/webinar-guide#creating-and-managing-a-webex-webinar)
+  * [Adding and managing panelists](https://developer.webex.com/meeting/docs/api/guides/webinar-guide#adding-and-managing-panelists)
+  * [Registration](https://developer.webex.com/meeting/docs/api/guides/webinar-guide#registration)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
