@@ -33025,3 +33025,108 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)Show All Breadcrumbs
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Contact Center](https://www.cisco.com/c/en/us/support/contact-center/category.html)
+  * [Webex Contact Center](https://www.cisco.com/c/en/us/support/customer-collaboration/webex-contact-center/series.html)
+  * [Troubleshooting TechNotes](https://www.cisco.com/c/en/us/support/customer-collaboration/webex-contact-center/products-tech-notes-list.html)
+
+
+# Track CDETS for Webex Contact Center Defect
+![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)
+Download
+Print
+### Available Languages
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)
+
+
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.pdf) (185.9 KB)   
+View with Adobe Reader on a variety of devices
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.epub) (244.1 KB)   
+View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.mobi) (471.3 KB)   
+View on Kindle device or Kindle app on multiple devices
+
+
+Updated:May 8, 2020
+Document ID:215519
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+## Contents
+[Introduction](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html#anc0)
+[Track the CDETS Number](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html#anc1)
+## Introduction
+This document describes how to track the Cisco Defect and Enhancement Tracking System (CDETS) number given by Customer Support Engineers (CSEs).
+## Track the CDETS Number
+Step 1. Navigate to **Cisco.com > Support > Tools > Bug Search Tool** as shown in these images:
+[![](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def-00.png "Related image, diagram or screenshot.")
+  
+[![](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def-01.png "Related image, diagram or screenshot.")
+Step 2. Search for the CDETS number which is provided by the CSE. On this page, you can also see the status of the case, as shown in the image:
+[![](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def-02.png "Related image, diagram or screenshot.")
+Step 3. You can also create an email notification.
+For email notifications, click **Notifications**. You will see this:
+[![](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def-03.png "Related image, diagram or screenshot.")
+Enter your email address and choose an option from the drop-down list on how often would you like to receive notifications (Weekly/Daily/Monthly). Click **Save**.
+Now you are all set to track the ticket progress automatically through email notifications.
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html "Back to Top")
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+### Contributed by Cisco Engineers
+  * Joe Whittlesey
+TAC Engineer
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+### Contact Cisco
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/215519-track-cdets-for-webex-contact-center-def.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
+
+
+### This Document Applies to These Products
+  * [Webex Contact Center](https://www.cisco.com/c/en/us/support/customer-collaboration/webex-contact-center/series.html)
+
+
