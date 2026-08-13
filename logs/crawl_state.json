@@ -7986,5 +7986,9 @@
   "https://developer.webex.com/docs/api/v1/meetings/list-group-meetings": {
     "hash": "343c10103db4597c133fd3c6ad3ab7b742f993c010364c07054e50ee72254a0d",
     "timestamp": "2026-08-13T02:10:30.481258"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings/patch-a-group-meeting": {
+    "hash": "83dcb4aaddc0129fe379dc3c50c761a3235c8ce76fc641ece99d0385b19d448b",
+    "timestamp": "2026-08-13T02:10:37.146069"
   }
 }
