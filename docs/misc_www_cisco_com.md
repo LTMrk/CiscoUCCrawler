@@ -294497,3 +294497,2128 @@ Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
 ![dot image pixel](https://sp.analytics.yahoo.com/sp.pl?a=1000177780039&d=Thu%2C%2013%20Aug%202026%2002%3A52%3A01%20GMT&n=0&b=What%20Is%20SaaS%3F%20-%20Software%20as%20a%20Service%20Definition%20-%20Cisco&.yp=438561&f=https%3A%2F%2Fwww.cisco.com%2Fsite%2Fus%2Fen%2Flearn%2Ftopics%2Fsoftware%2Fwhat-is-software-as-a-service-saas.html%23tabs-35d568e0ff-item-4bd7dc8124-tab&enc=UTF-8&yv=1.17.1&et=custom&tagmgr=tealium)
+
+
+---
+# ORIGEN: https://www.cisco.com/site/us/en/learn/topics/index.html
+
+  * [Skip to main content](https://www.cisco.com/site/us/en/learn/topics/index.html?filters=&search=&sort=a-z&filterby=&showMore=#fw-c-content)
+  * [Skip to search](https://www.cisco.com/site/us/en/learn/topics/index.html?filters=&search=&sort=a-z&filterby=&showMore=#fw-c-header__button--search)
+  * [Skip to footer](https://www.cisco.com/site/us/en/learn/topics/index.html?filters=&search=&sort=a-z&filterby=&showMore=#fw-c-footer)
+
+
+[ Cisco.com Worldwide ](https://www.cisco.com "Cisco.com Worldwide")
+###  Products and Services
+Back
+Products and Services
+Close
+[ Products and Services Home](https://www.cisco.com/site/us/en/products/index.html)
+###  Explore a better Wi-Fi 
+Deliver fast, secure connectivity across every space. Simplify management and build an AI-ready network designed for growing demands. 
+[Get started today](https://www.cisco.com/site/us/en/products/networking/wireless/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/wireless-hub-nav-284x164.jpg)
+###  Cisco Security free trials 
+Get started with the right security solution for you. Try out our security solutions before you buy them.
+[Start a free trial](https://www.cisco.com/site/us/en/products/security/trials-offers.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/security-default-offer-card.jpg)
+###  Discover Cisco IQ 
+See more, move faster, go farther. Human expertise meets agentic intelligence in every Cisco Services engagement.
+[Read the blog](https://blogs.cisco.com/news/cisco-iq-is-generally-available-heres-what-that-actually-means)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/services-cx-cisco-iq.jpg)
+  1. Networking
+  2. Security
+  3. Collaboration
+  4. Computing
+  5. Observability
+  6. Software
+  7. Services (CX)
+
+
+Back
+Networking
+Close
+## Products
+  * [Switches](https://www.cisco.com/site/us/en/products/networking/switches/index.html)
+  * [Routers](https://www.cisco.com/site/us/en/products/networking/sdwan-routers/index.html)
+  * [Wireless](https://www.cisco.com/site/us/en/products/networking/wireless/index.html)
+  * [Optics and transceivers](https://www.cisco.com/site/us/en/products/networking/optics-transceiver-modules/index.html)
+  * [Silicon](https://www.cisco.com/site/us/en/products/networking/silicon-one/index.html)
+  * [Networking software](https://www.cisco.com/site/us/en/products/networking/software/index.html)
+
+
+[ Explore Networking](https://www.cisco.com/site/us/en/products/networking/index.html)
+* * *
+## Use cases
+  * [Access networking](https://www.cisco.com/site/us/en/products/networking/access-networking/index.html)
+  * [Campus and branch networking](https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/index.html)
+  * [Data center and cloud networking](https://www.cisco.com/site/us/en/products/networking/cloud-networking/index.html)
+  * [Industrial IoT](https://www.cisco.com/site/us/en/products/networking/industrial-iot/index.html)
+  * [Internet, cloud, and endpoint visibility](https://www.cisco.com/site/us/en/products/networking/software/internet-cloud-intelligence/index.html)
+  * [Network security](https://www.cisco.com/site/us/en/products/networking/network-security/index.html)
+  * [Service provider networking](https://www.cisco.com/site/us/en/solutions/service-provider/index.html)
+  * [Wide-area networking (WAN)](https://www.cisco.com/site/us/en/products/networking/sdwan-routers/index.html)
+
+
+* * *
+###  Unified network management 
+Manage your entire network from a single, intuitive cloud interface with the Meraki and Catalyst Center Global Overview. 
+[Explore Networking Platform](https://www.cisco.com/site/us/en/products/networking/networking-cloud/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/products-services-networking.jpg)
+Back
+Security
+Close
+## Featured products
+  * [AI Defense](https://www.cisco.com/site/us/en/products/security/ai-defense/index.html)
+  * [Cisco Duo](https://duo.com/?utm_source=cisco&utm_medium=referral)
+  * [Email Threat Defense](https://www.cisco.com/site/us/en/products/security/secure-email/index.html)
+  * [Firewall](https://www.cisco.com/site/us/en/products/security/firewalls/index.html)
+  * [Hypershield](https://www.cisco.com/site/us/en/products/security/hypershield/index.html)
+  * [Identity Services Engine (ISE)](https://www.cisco.com/site/us/en/products/security/identity-services-engine/index.html)
+  * [Secure Access (SSE)](https://www.cisco.com/site/us/en/products/security/secure-access/index.html)
+  * [Splunk Enterprise Security](https://www.splunk.com/en_us/products/enterprise-security.html)
+  * [XDR](https://www.cisco.com/site/us/en/products/security/xdr/index.html)
+
+
+[ Explore Security](https://www.cisco.com/site/us/en/products/security/index.html)
+* * *
+## Use cases
+  * [Agentic SOC](https://www.splunk.com/en_us/products/cyber-security.html)
+  * [AI Security](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/security/index.html)
+  * [Hybrid Mesh Firewall](https://www.cisco.com/site/us/en/solutions/security/hybrid-mesh-firewall/index.html)
+  * [Industrial security](https://www.cisco.com/site/us/en/products/security/industrial-security/index.html)
+  * [Physical security](https://www.cisco.com/site/us/en/products/security/physical-security/index.html)
+  * [Secure Access Service Edge (SASE)](https://www.cisco.com/site/us/en/solutions/secure-access-service-edge-sase/index.html)
+  * [Threat intelligence (Talos)](https://www.cisco.com/site/us/en/products/security/talos/index.html)
+  * [Zero Trust Access](https://www.cisco.com/site/us/en/solutions/security/zero-trust-access/index.html)
+  * [Zero trust for agentic AI](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/security/securing-agentic-ai/index.html)
+
+
+* * *
+###  Cisco Secure Access live demo 
+Join us live to experience Cisco Secure Access—the smarter way to secure access to the internet, SaaS, and private apps.
+[Choose an upcoming slot](https://www.cisco.com/c/en/us/products/security/secure-access/live-demo.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/security-secure-access-demo.jpg)
+Back
+Collaboration
+Close
+## Products
+  * [Phones, headsets, and collaboration devices](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html)
+  * [Webex Customer Experience](https://www.webex.com/customer-experience)
+  * [Webex Suite](https://www.webex.com/suite/collaboration-suite.html)
+
+
+[ Explore Collaboration](https://www.cisco.com/site/us/en/products/collaboration/index.html)
+* * *
+## Use cases
+  * [Workspaces](https://www.webex.com/us/en/workspaces.html)
+  * [Return to the office](https://www.webex.com/us/en/solutions/return-to-office.html)
+  * [Camera intelligence](https://www.webex.com/us/en/solutions/camera-intelligence-cisco-devices.html)
+  * [Workspace management](https://www.webex.com/us/en/solutions/control-hub-cisco-devices.html)
+  * [Devices for Microsoft Teams](https://www.webex.com/us/en/solutions/microsoft-teams-rooms-cisco-devices.html)
+  * [Webex AI](https://www.webex.ai/)
+  * [Control Hub](https://www.webex.com/us/en/solutions/cross-platform/control-hub.html)
+
+
+###  Webex Suite 
+Everything your business needs to collaborate—in the world’s first unified, purpose-built suite for hybrid work.
+[Explore Webex Suite](https://www.webex.com/suite/collaboration-suite.html) [View the Webex site](https://www.webex.com/)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/webex.jpg)
+Back
+Computing
+Close
+  * [Converged infrastructure](https://www.cisco.com/site/us/en/solutions/computing/converged-infrastructure/index.html)
+  * [Fabric and adapters](https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/fabric-interconnects-extenders/index.html)
+  * [Hybrid cloud operations](https://www.cisco.com/site/us/en/products/computing/hybrid-cloud-operations/intersight-platform/index.html)
+  * [Hyperconverged infrastructure](https://www.cisco.com/site/us/en/products/computing/hyperconverged/nutanix/index.html)
+  * [Servers](https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/index.html)
+  * [Stack Automation by Quali](https://www.cisco.com/site/us/en/solutions/data-center/stack-automation-quali/index.html)
+  * [Unified Edge](https://www.cisco.com/site/us/en/products/computing/unified-edge/index.html)
+
+
+[ View all computing products](https://www.cisco.com/site/us/en/products/computing/index.html)
+* * *
+###  Cisco Intersight free trial 
+Get simplified IT operations with infrastructure lifecycle management as a service to easily manage your Cisco UCS, converged, and hyperconverged infrastructure.
+[Get started](https://www.cisco.com/c/en/us/solutions/cloud-computing/promotions-free-trials/intersight-free-trial.html) [Learn more about Intersight](https://www.cisco.com/site/us/en/products/computing/hybrid-cloud-operations/intersight-platform/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/computing-intersight.jpg)
+Back
+Observability
+Close
+## Products
+  * [Cloud application security](https://www.cisco.com/site/us/en/products/security/cloud-application-security/index.html)
+  * [Splunk Observability Cloud](https://www.splunk.com/en_us/products/observability-cloud.html)
+  * [Splunk IT Service Intelligence](https://www.splunk.com/en_us/products/it-service-intelligence.html)
+  * [ThousandEyes](https://www.cisco.com/site/us/en/products/networking/software/internet-cloud-intelligence/index.html)
+
+
+[ Explore Observability](https://www.cisco.com/site/us/en/products/observability/index.html)
+* * *
+## Use cases
+  * [Alert noise reduction](https://www.splunk.com/en_us/solutions/alert-noise-reduction.html)
+  * [Cloud monitoring optimization](https://www.splunk.com/en_us/solutions/extend-visibility-to-the-cloud.html)
+  * [End-user experiences](https://www.splunk.com/en_us/solutions/optimize-your-web-and-mobile-experience.html)
+  * [Microservices troubleshooting](https://www.splunk.com/en_us/solutions/isolate-cloud-native-problems.html)
+
+
+###  Splunk Observability 
+Get complete business visibility and real-time troubleshooting across any environment. 
+[Explore Splunk Observability](https://www.splunk.com/en_us/products/observability.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/application-performance-appdynamics.jpg)
+Back
+Software
+Close
+## Networking
+  * [Catalyst Center](https://www.cisco.com/site/us/en/products/networking/catalyst-center/index.html)
+  * [Catalyst SD-WAN Manager](https://www.cisco.com/site/us/en/products/networking/wan/sd-wan-manager/index.html)
+  * [IoT Operations Dashboard](https://www.cisco.com/c/en/us/support/cloud-systems-management/iot-operations-dashboard/series.html)
+  * [Meraki Platform](https://www.cisco.com/site/us/en/products/networking/networking-cloud/index.html)
+  * [Mobility Services Platform](https://www.cisco.com/site/us/en/solutions/service-provider/networking/mobility-services-platform/index.html)
+  * [Nexus Dashboard](https://www.cisco.com/site/us/en/products/networking/cloud-networking/nexus-platform/index.html)
+  * [All networking software](https://www.cisco.com/site/us/en/products/networking/software/index.html)
+
+
+* * *
+## Security
+  * [Cyber Vision](https://www.cisco.com/site/us/en/products/security/industrial-security/cyber-vision/index.html)
+  * [Secure Equipment Access](https://www.cisco.com/site/us/en/products/security/industrial-security/secure-equipment-access/index.html)
+  * [Security Cloud](https://www.cisco.com/site/us/en/products/security/security-cloud/index.html)
+
+
+* * *
+## Observability
+  * [Splunk Observability](https://www.splunk.com/en_us/products/observability.html)
+  * [ThousandEyes](https://www.cisco.com/site/us/en/products/networking/software/internet-cloud-intelligence/index.html)
+
+
+* * *
+## Collaboration
+  * [Webex by Cisco](https://www.webex.com)
+
+
+## Computing
+  * [Intersight](https://www.cisco.com/site/us/en/products/computing/hybrid-cloud-operations/intersight-platform/index.html)
+
+
+* * *
+  * [Explore Cisco buying programs](https://www.cisco.com/site/us/en/buy/enterprise-software-buying-program.html)
+  * [Download software and manage licenses](https://software.cisco.com/)
+
+
+[ View all software](https://www.cisco.com/site/us/en/products/software/index.html?filters=&search=&sort=a-z&filterby=&showMore=)
+* * *
+###  Free trials and demos 
+View and sign up for over 100 products and portfolio solutions for free. 
+[Explore trials and demos](https://www.cisco.com/site/us/en/products/trials-demos.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/products-software-trials-demos.jpg)
+Back
+Services (CX)
+Close
+  * [Cisco Support](https://www.cisco.com/site/us/en/services/support/index.html)
+  * [Cisco Professional Services](https://www.cisco.com/site/us/en/services/professional/index.html)
+  * [Learn with Cisco](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+[ View all Cisco services](https://www.cisco.com/site/us/en/services/index.html)
+* * *
+###  Discover Cisco IQ 
+See more, move faster, go farther. Human expertise meets agentic intelligence in every Cisco Services engagement.
+[Read the blog](https://blogs.cisco.com/news/cisco-iq-is-generally-available-heres-what-that-actually-means)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/services-cx-cisco-iq.jpg)
+###  Get expert guidance 
+Cisco Services can help you build the right solution for your needs with the combined power of AI, automation, and human expertise.
+[Transform your data center](https://www.cisco.com/site/us/en/services/modern-data-center/index.html) [Build a better workplace](https://www.cisco.com/site/us/en/services/future-workplace/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/services-cx-promo-expert-guidance.jpg)
+Close
+###  Solutions
+Back
+Solutions
+Close
+[ Solutions Home](https://www.cisco.com/site/us/en/solutions/index.html)
+###  Artificial intelligence 
+Cisco has the infrastructure to power AI, unmatched breadth and scale of data to feed it, and a portfolio optimized to secure it. 
+[Explore Cisco AI](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/solutions-ai.jpg)
+###  Campus and branch 
+Cisco brings together Al, automation, and security into one unified architecture—built to simplify operations, scale intelligently, and protect every connection.  
+
+[Explore campus and branch](https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/solutions-campus-branch.jpg)
+###  Small and medium business 
+Protect, connect, and empower your business with Cisco’s portfolio tailored to small and medium businesses. Experience simplified IT management, efficiency, cloud-driven flexibility, and 24/7 support. 
+[Explore SMB solutions](https://www.cisco.com/site/us/en/solutions/small-business/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/solutions-smb.jpg)
+  1. Artificial Intelligence
+  2. Industries
+  3. Technologies
+  4. Campus and Branch
+  5. Service Providers
+  6. Small and Medium Business
+
+
+Back
+Artificial Intelligence
+Close
+  * [AI-enhanced security](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/security/index.html)
+  * [AI-native networking operations](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/netops.html)
+  * [AI-ready data centers](https://www.cisco.com/site/us/en/about/why-cisco/ai-ready-data-centers/index.html)
+  * [AI at the edge](https://www.cisco.com/site/us/en/solutions/data-center/ai-at-the-edge/index.html)
+  * [AI networking in data centers](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-networking-in-data-center/index.html)
+  * [Mass-scale AI infrastructure](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/mass-scale-infrastructure/index.html)
+  * [Secure AI Factory](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/secure-ai-factory/index.html)
+  * [Splunk AI](https://www.splunk.com/en_us/solutions/splunk-artificial-intelligence.html)
+  * [Webex AI](https://www.webex.ai/)
+
+
+[ Cisco AI hub](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/index.html)
+###  Cisco AI Assistant 
+Cisco AI Assistant combines the latest generative AI technology with our expertise to responsibly guide and inform the decisions you make every day.
+[Explore Cisco AI Assistant](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-assistant/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/ai-assistant.jpg)
+###  Cisco AI Readiness Assessment 
+AI readiness comprises six pillars: Strategy, Infrastructure, Data, Governance, Talent, and Culture. Is your organization AI ready?
+[Take assessment](https://www.cisco.com/c/m/en_us/solutions/ai/readiness-index/assessment-tool.html) [Browse AI Readiness Index](https://www.cisco.com/c/m/en_us/solutions/ai/readiness-index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/ai-readiness.jpg)
+Back
+Industries
+Close
+  * [Cities and Communities](https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities.html)
+  * [Education](https://www.cisco.com/site/us/en/solutions/industries/education/index.html)
+  * [Financial Services](https://www.cisco.com/site/us/en/solutions/industries/financial-services/index.html)
+  * [Government](https://www.cisco.com/site/us/en/solutions/industries/government/index.html)
+  * [Healthcare](https://www.cisco.com/site/us/en/solutions/industries/healthcare/index.html)
+  * [Manufacturing](https://www.cisco.com/site/us/en/solutions/industries/manufacturing/index.html)
+  * [Mining](https://www.cisco.com/site/us/en/solutions/industries/mining/index.html)
+
+
+* * *
+  * [Oil and Gas](https://www.cisco.com/site/us/en/solutions/industries/energy/oil-gas/index.html)
+  * [Retail](https://www.cisco.com/site/us/en/solutions/industries/retail/index.html)
+  * [Smart Buildings](https://www.cisco.com/site/us/en/solutions/smart-building/index.html)
+  * [Sports, Media, and Entertainment](https://www.cisco.com/site/us/en/solutions/industries/sports-media-entertainment/index.html)
+  * [Transportation](https://www.cisco.com/site/us/en/solutions/industries/transportation/index.html)
+  * [Utilities](https://www.cisco.com/site/us/en/solutions/industries/energy/utilities/index.html)
+
+
+[ View all industries](https://www.cisco.com/c/en/us/solutions/industries.html)
+[ Industry design guides](https://www.cisco.com/c/en/us/solutions/design-zone/industries.html)
+* * *
+###  Discover the portfolio explorer 
+Build the bridge between business outcomes and technology with our new interactive tool.
+[Start exploring](https://www.cisco.com/c/m/en_us/solutions/industries/portfolio-explorer.html)
+Back
+Technologies
+Close
+## Networking
+  * [Cloud and data center networking](https://www.cisco.com/site/us/en/products/networking/cloud-networking/index.html)
+  * [Cloud-managed networking (Meraki)](https://www.cisco.com/site/us/en/products/networking/networking-cloud/index.html)
+  * [Industrial IoT](https://www.cisco.com/site/us/en/solutions/networking/industrial-iot/index.html)
+  * [Networking App Marketplace](https://marketplace.cisco.com/en-US/home)
+  * [SD-WAN](https://www.cisco.com/site/us/en/solutions/networking/sdwan/index.html)
+  * [Smart buildings](https://www.cisco.com/site/us/en/solutions/smart-building/index.html)
+  * [All networking solutions](https://www.cisco.com/c/en/us/solutions/enterprise-networks/solution-listing.html)
+
+
+## Computing
+  * [Converged infrastructure](https://www.cisco.com/site/us/en/solutions/computing/converged-infrastructure/index.html)
+  * [Hybrid cloud](https://www.cisco.com/site/us/en/solutions/computing/hybrid-cloud/index.html)
+  * [Hyperconverged](https://www.cisco.com/site/us/en/products/computing/hyperconverged/nutanix/index.html)
+  * [Stack Automation by Quali](https://www.cisco.com/site/us/en/solutions/data-center/stack-automation-quali/index.html)
+
+
+* * *
+## Security
+  * [AI for security](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/security/index.html)
+  * [Data center security](https://www.cisco.com/site/us/en/solutions/security/data-center-security/index.html)
+  * [Hybrid Mesh Firewall](https://www.cisco.com/site/us/en/solutions/security/hybrid-mesh-firewall/index.html)
+  * [Industrial security](https://www.cisco.com/site/us/en/products/security/industrial-security/index.html)
+  * [Network security](https://www.cisco.com/site/us/en/products/networking/network-security/index.html)
+  * [Secure Access Service Edge (SASE)](https://www.cisco.com/site/us/en/solutions/secure-access-service-edge-sase/index.html)
+  * [Secure Hybrid Work](https://www.cisco.com/site/us/en/solutions/security/secure-hybrid-work/index.html)
+  * [Zero trust](https://www.cisco.com/site/us/en/solutions/security/zero-trust/index.html)
+  * [Zero trust for agentic AI](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/security/securing-agentic-ai/index.html)
+
+
+* * *
+## Collaboration (Webex)
+  * [Camera intelligence](https://www.webex.com/us/en/solutions/camera-intelligence-cisco-devices.html)
+  * [Customer experience](https://www.webex.com/us/en/products/customer-experience.html)
+  * [Event management](https://www.webex.com/us/en/products/suite/events.html)
+  * [Intelligent workspaces](https://www.webex.com/us/en/workspaces.html)
+  * [Interoperability](https://www.webex.com/us/en/solutions/interoperability.html)
+  * [IT administration](https://www.webex.com/us/en/solutions/cross-platform/control-hub.html)
+  * [Remote work](https://www.webex.com/suite/collaboration-suite.html)
+  * [Workspace designer](https://designer.webex.com/)
+  * [Workspace management](https://www.webex.com/us/en/solutions/control-hub-cisco-devices.html)
+
+
+Back
+Campus and Branch
+Close
+  * [Secure network architecture](https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/index.html)
+  * [Secure campus](https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/secure-campus/index.html)
+  * [Unified branch](https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/unified-branch/index.html)
+  * [Industrial IoT](https://www.cisco.com/site/us/en/solutions/networking/industrial-iot/index.html)
+  * [Campus and branch design guides](https://www.cisco.com/c/en/us/solutions/design-zone/campus-branch.html)
+
+
+* * *
+Back
+Service Providers
+Close
+## Empowering your infrastructure
+  * [5G network architecture](https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html)
+  * [Agile Services Networking](https://www.cisco.com/site/us/en/solutions/service-provider/networking/agile-services/index.html)
+  * [Broadband solutions](https://www.cisco.com/site/us/en/solutions/service-provider/networking/broadband/index.html)
+  * [Cable solutions](https://www.cisco.com/site/us/en/solutions/service-provider/industry/cable/index.html)
+  * [Routed optical networking](https://www.cisco.com/site/us/en/solutions/routed-optical-networking/index.html)
+  * [Routed PON](https://www.cisco.com/site/us/en/solutions/routed-pon/index.html)
+
+
+[ View all service provider solutions](https://www.cisco.com/site/us/en/solutions/service-provider/index.html)
+* * *
+## Managed services
+  * [Edge Cloud for Content Delivery](https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud/edge-cloud-for-content-delivery.html)
+  * [IoT Control Center](https://www.cisco.com/site/us/en/products/networking/software/iot-control-center/index.html)
+  * [Mobility Services Platform](https://www.cisco.com/site/us/en/solutions/service-provider/networking/mobility-services-platform/index.html)
+  * [Private 5G](https://www.cisco.com/site/us/en/products/networking/wireless/private-5g/index.html)
+  * [Secure access service edge (SASE)](https://www.cisco.com/site/us/en/solutions/secure-access-service-edge-sase/index.html)
+  * [Software-defined access](https://www.cisco.com/site/us/en/solutions/networking/sdaccess/index.html)
+  * [Secure Hybrid Work](https://www.cisco.com/site/us/en/solutions/security/secure-hybrid-work/index.html)
+  * [SD-WAN security](https://www.cisco.com/site/us/en/solutions/networking/sdwan/security/index.html)
+
+
+* * *
+###  Accelerate services offerings 
+Provide outsourced IT and consulting services with a broad technology portfolio and robust partner support programs.
+[See services options](https://www.cisco.com/site/us/en/partners/build-your-practice/managed-services/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/managed-services.jpg)
+Back
+Small and Medium Business
+Close
+## Products and solutions
+  * [Networking](https://www.cisco.com/site/us/en/solutions/small-business/networking/index.html)
+  * [Security](https://www.cisco.com/site/us/en/solutions/small-business/security/index.html)
+  * [Collaboration](https://www.cisco.com/site/us/en/solutions/small-business/collaboration/index.html)
+  * [Product selector](https://www.cisco.com/c/en/us/solutions/small-business/selector-tool.html)
+
+
+[ View all small and medium business solutions](https://www.cisco.com/site/us/en/solutions/small-business/index.html)
+[ Buy small and medium business products online](https://www.cisco.com/c/en/us/solutions/small-business/small-business-promotions-and-free-trials/buy-cisco-small-business-products-online.html)
+* * *
+###  Offers and free trials 
+Find the best solutions for your needs and try them before you buy. 
+[See all offers and free trials](https://www.cisco.com/site/us/en/solutions/small-business/trials-offers.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/smb-free-trials.jpg)
+Close
+###  Support
+Back
+Support
+Close
+[ Support Home](https://www.cisco.com/c/en/us/support/index.html)
+###  Support home 
+Access documentation, security notices, and support tools for Cisco products.
+[View Cisco Support](https://www.cisco.com/c/en/us/support/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/support-home-penn1_brandlibrary-DSC0318.jpg)
+###  Software downloads 
+Download and manage new software, get updates or patches, or upgrade your current software to the latest release.
+[View Software Central](https://software.cisco.com/download/home)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/support-software-downloads-hatchlibrary-general-gettyPA-Cisco-1309760275.jpg)
+###  Licensing support 
+Troubleshoot common licensing issues and leverage easy-to-follow documentation for both PAK-based or Smart Licenses.
+[Get licensing support](https://www.cisco.com/c/en/us/support/licensing/licensing-support.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/support-licensing-hatchlibrary-security-gettyPA-Cisco-1518851638.jpg)
+  1. Products and Downloads
+  2. Documentation
+  3. Contact Support
+  4. Licenses and Contracts
+  5. Tools and Resources
+  6. Cisco Community
+
+
+Back
+Products and Downloads
+Close
+## Find products and downloads
+Search field edit, type in text
+Clear
+[Downloads](https://www.cisco.com/site/us/en/learn/topics/index.html?filters=&search=&sort=a-z&filterby=&showMore=#tabs-9da71fbd27-item-1288c79d71-tab) [Product Support](https://www.cisco.com/site/us/en/learn/topics/index.html?filters=&search=&sort=a-z&filterby=&showMore=#tabs-9da71fbd27-item-1288c79d71-tab) [Technology Support](https://www.cisco.com/site/us/en/learn/topics/index.html?filters=&search=&sort=a-z&filterby=&showMore=#tabs-9da71fbd27-item-1288c79d71-tab) | End of Sale End of Support
+* [All Downloads](https://software.cisco.com/download/navigator.html)
+* [All Products](https://www.cisco.com/c/en/us/support/all-products.html)
+* Search all cisco.com
+When autocomplete results are available use up and down arrows to review and enter to select
+## Product Support
+  * [Switches](https://www.cisco.com/c/en/us/support/switches/category.html)
+  * [Security](https://www.cisco.com/c/en/us/support/security/category.html)
+  * [Routers](https://www.cisco.com/c/en/us/support/routers/category.html)
+  * [Wireless](https://www.cisco.com/c/en/us/support/wireless/category.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
+  * [Collaboration endpoints and phones](https://www.cisco.com/c/en/us/support/collaboration-endpoints/category.html)
+  * [Networking software (IOS and NX-OS)](https://www.cisco.com/c/en/us/support/ios-nx-os-software/index.html)
+  * [Servers - Unified Computing (UCS)](https://www.cisco.com/c/en/us/support/servers-unified-computing/category.html)
+
+
+[ All products](https://www.cisco.com/c/en/us/support/all-products.html)
+* * *
+## Downloads
+  * [Secure Client 5](https://software.cisco.com/download/home/286330811/type/282364313/release/)
+  * [Identity Services Engine Software](https://software.cisco.com/download/home/283801620/type/283802505/)
+  * [Secure Firewall Management Center Virtual](https://software.cisco.com/download/home/286259687/type)
+  * [Smart Software Manager](https://software.cisco.com/download/home/286285506/type)
+  * [Jabber for Windows](https://software.cisco.com/download/home/284324806/type/284006014/release/)
+  * [Modeling Labs](https://software.cisco.com/download/home/286193282/type/286326381/release/2.7.2)
+  * [Catalyst 9300 Series Switches](https://software.cisco.com/download/home/286313806)
+
+
+[ All downloads](https://software.cisco.com/download/home)
+* * *
+Back
+Documentation
+Close
+[ Technical documentation](https://www.cisco.com/c/en/us/docs/technical-documentation.html)
+Configure, operate, and troubleshoot your Cisco products with configuration guides, installation guides, release notes, and more.
+[ Trust Portal](https://trustportal.cisco.com/c/r/ctp/home.html)
+Get self-service access to security, data privacy, and compliance documents.
+* * *
+[ Product documentation](https://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all)
+Explore Cisco products and features to empower your purchase with data sheets, white papers, end-of-life notices, and more.
+* * *
+Back
+Contact Support
+Close
+## Product technical support (TAC)
+[ Open a new case](https://mycase.cloudapps.cisco.com/case)
+(Requires a product or software support contract)
+  * [Manage support cases](https://mycase.cloudapps.cisco.com/case)
+  * [Returns Portal (RMAs)](https://www.cisco.com/c/en/us/support/returns/returns-portal.html)
+
+
+* * *
+Enterprise and Service Provider products
+**1-800-553-2447** US and Canada
+[ Worldwide phone numbers](https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html)
+* * *
+Small and medium business products
+**1-866-606-1866** US and Canada
+[ Worldwide phone numbers](https://www.cisco.com/c/en/us/support/web/tsd-cisco-small-business-support-center-contacts.html)
+Back
+Licenses and Contracts
+Close
+## Software licenses
+  * [Explore key licensing resources](https://www.cisco.com/site/us/en/buy/licensing/index.html)
+  * [Download and manage licenses](https://software.cisco.com/)
+  * [Manage assets and entitlements](https://software.cisco.com/clc/access-directory)
+  * [Troubleshoot license issues](https://www.cisco.com/c/en/us/support/licensing/licensing-support.html)
+
+
+## Cisco Enterprise Agreement (EA)
+  * [Manage Cisco EA licenses](https://software.cisco.com/software/ea/agreements)
+  * [Learn about Cisco EA](https://www.cisco.com/site/us/en/buy/enterprise-agreement/index.html)
+
+
+* * *
+## Product support contracts
+  * [Manage and renew service contracts (CCW-R)](https://ccrc.cisco.com/ccwr/)
+
+
+###  Cisco Licensing Hub 
+Enhance your Cisco licensing experience. 
+[Access now](https://www.cisco.com/site/us/en/buy/licensing/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/support-licensing-hub.jpg)
+Back
+Tools and Resources
+Close
+## Tools
+  * [Bug Search Tool](https://bst.cisco.com/bugsearch/?referring_site=shp)
+  * [My Devices](https://cway.cisco.com/mydevices)
+  * [My Saved Content](https://www.cisco.com/c/en/us/support/saved/index.html)
+  * [Software Research](https://software.cisco.com/research/home)
+  * [Device Coverage Checker](https://cway.cisco.com/sncheck/)
+
+
+[ All Support tools](https://www.cisco.com/c/en/us/support/web/tools-catalog.html)
+* * *
+## Notifications and advisories
+  * [My Notifications](https://cway.cisco.com/mynotifications)
+  * [Security Advisories](https://sec.cloudapps.cisco.com/security/center/publicationListing.x)
+  * [Field Notices](https://www.cisco.com/c/en/us/support/web/tsd-products-field-notice-summary.html)
+  * [Cisco Cloud Status](https://www.cisco.com/c/en/us/support/web/cloud-status.html)
+
+
+### Services
+  * [All Cisco Services](https://www.cisco.com/site/us/en/services/index.html)
+
+
+## Technology adoption
+  * [Cisco Customer Success](https://www.cisco.com/c/m/en_us/customer-experience/customer-success/index.html)
+
+
+Back
+Cisco Community
+Close
+## Community forums
+  * [Technology and Support](https://community.cisco.com/t5/technology-and-support/ct-p/technology-support)
+  * [Small Business Support](https://community.cisco.com/t5/small-business-support-community/ct-p/5541-small-business-support)
+  * [Developers](https://community.cisco.com/t5/devnet/ct-p/4409j-developer-home)
+  * [Partners](https://community.cisco.com/t5/partner-hub/ct-p/2002j-partner-home)
+  * [Project Gallery](https://community.cisco.com/t5/project-gallery/con-p/customer-success-stories)
+  * [Cisco Insider User Group](https://community.cisco.com/t5/cisco-insider-user-group/ct-p/ccp-home)
+
+
+[ Explore Cisco Community](https://community.cisco.com/)
+* * *
+###  Community events and webinars 
+Learn from Cisco experts and engage with peers in webinars and live events.
+[View all events and webinars](https://community.cisco.com/t5/technology-and-support-events-and-webinars/eb-p/ts-events-webinars-bd)
+Close
+###  Learn
+Back
+Learn
+Close
+[ Learn Home](https://www.cisco.com/site/us/en/learn/index.html)
+###  Cisco U. 
+Access training tailored to your needs. Work toward a specific role or certification, deploy or support a technology solution, or enhance your career progress.
+[Learn more about Cisco U. ](https://www.cisco.com/site/us/en/learn/training-certifications/training/ciscou/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/learn-cisco-u.jpg)
+###  Cisco Networking Academy 
+If you're a student, start at Cisco Networking Academy. With free courses and career guidance, your next IT job is closer than you think.
+[Join now](https://www.netacad.com/)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/learn-netacad.jpg)
+###  Events 
+Join us to take advantage of the latest networking opportunities with Cisco customers, partners, employees, and subject-matter experts.
+[Explore now](https://www.cisco.com/site/us/en/learn/events/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/events-calendar-default.jpg)
+  1. Training and Certifications
+  2. Events
+  3. Webinars
+  4. Technology Learning Topics
+  5. Learning Resources and Assets
+
+
+Back
+Training and Certifications
+Close
+## Learning
+  * [Cisco Networking Academy](https://www.netacad.com)
+  * [Cisco U. ](https://u.cisco.com)
+  * [Instructor-led training](https://learninglocator.cloudapps.cisco.com/#/home)
+  * [Cisco Modeling Labs](https://www.cisco.com/site/us/en/learn/training-certifications/training/modeling-labs/index.html)
+  * [Cisco Packet Tracer](https://www.netacad.com/cisco-packet-tracer)
+  * [Join our community](https://learningnetwork.cisco.com/s/)
+  * [Learn with Cisco blog](https://blogs.cisco.com/learning)
+
+
+[ Learn with Cisco overview](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+* * *
+## Certifications
+  * [Career certifications](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html)
+  * [Learn about exams](https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html)
+  * [Continuing Education (CE credits)](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/continuing-education/index.html)
+  * [Recertification](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/recertification/index.html)
+  * [Schedule an exam](https://cp.certmetrics.com/cisco/en/schedule/schedule-exam)
+  * [Track my certifications](https://cp.certmetrics.com/cisco/en/credentials/status)
+
+
+* * *
+## Training for organizations
+  * [Enterprise](https://www.cisco.com/site/us/en/learn/training-certifications/enterprise-training/index.html)
+  * [Cisco Learning Credits](https://www.cisco.com/site/us/en/learn/training-certifications/training/learning-credits/index.html)
+  * [Training catalog](https://www.cisco.com/site/us/en/learn/training-certifications/training/training-catalog/index.html)
+  * [Partners](https://www.cisco.com/site/us/en/learn/training-certifications/partner-resources.html)
+
+
+## Support
+  * [Learn with Cisco support bot](https://certsupport.cisco.com/s/?language=en_US)
+
+
+Back
+Events
+Close
+  * [Cisco Live](https://www.ciscolive.com/home/en/index.html?cid=cdc-hp-nav-home#xd_co_f)
+  * [Partner events calendar](https://salesconnect.cisco.com/americaspartnercommunity/s/enablement-training-calendar)
+
+
+[ View all events](https://www.cisco.com/site/us/en/learn/events/index.html)
+* * *
+###  Cisco Live 2026 Melbourne 
+Experience the education, inspiration, and fun of Cisco Live 2026 Melbourne.
+[Register now](https://www.ciscolive.com/apjc?ccid=cc008775&cid=CL26eventspage&eid=162820&oid=eprsas033263)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/cl2026-cisco-live-las-vegas.jpg)
+###  Watch Cisco Live sessions on demand 
+View sessions from Las Vegas in our On-Demand Library. Keynotes, Deep Dives, and Center Stage sessions are available now, with the remaining sessions added by June 19.
+[Watch now](https://www.ciscolive.com/on-demand/on-demand-library.html?cid=cdc-hp-nav&utm_team=global_events&utm_medium=email&utm_source=sendgrid&utm_campaign=xb_cxp_fy26q4_amer_20260623past&ccid=cc007720&dtid=oemrft001460&utm_eid=95796&search.event=1769534158486002QYqy#/)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/cl2026-cisco-live-las-vegas.jpg)
+Back
+Webinars
+Close
+## Trending webinars
+  * [AI readiness for data centers](https://experiences.cisco.com/amer/ai-readiness-for-data-centers)
+  * [Simplify IT with SD-WAN](https://experiences.cisco.com/amer/simplify-it-with-sd-wan)
+  * [Security transformation with Cisco XDR](https://cloudsecurity.cisco.com/webinar-security-transformation-with-cisco-xdr)
+
+
+[ View all webinars](https://experiences.cisco.com/amer?pf_route=1&groups=all-webinars)
+* * *
+###  McLaren Racing + Cisco 
+Carrie Palin joins McLaren Racing F1 team CEO Zak Brown and driver Oscar Piastri as they unveil the high-tech secrets behind their team's successful 2024 season.
+[Watch on demand](https://experiences.cisco.com/amer/cisco-mclaren-innovation-speed)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/learn-webinars-mclaren-racing.jpg)
+###  Cisco webinars 
+Discover insights that shape the future of technology. Our webinars feature experts and leaders sharing how organizations transform to connect, grow, and succeed.
+[Explore webinars](https://experiences.cisco.com/amer?pf_route=1&group=all-webinars&groups=all-webinars)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/learn-webinars.jpg)
+Back
+Technology Learning Topics
+Close
+  * [How to set up a router](https://www.cisco.com/site/us/en/learn/topics/small-business/how-to-set-up-router.html)
+  * [What is cybersecurity?](https://www.cisco.com/site/us/en/learn/topics/security/what-is-cybersecurity.html)
+  * [What is a firewall?](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-firewall.html)
+  * [What is Industry 4.0?](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-industry-4-0.html)
+  * [What is IoT (Internet of Things)?](https://www.cisco.com/site/us/en/learn/topics/industrial-iot/what-is-iot.html)
+  * [What is Wi-Fi 7?](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-wi-fi-7.html)
+
+
+* * *
+  * [What is AIOps?](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-aiops.html)
+  * [What is cloud security?](https://www.cisco.com/site/us/en/learn/topics/security/what-is-cloud-security.html)
+  * [What is hybrid cloud?](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-hybrid-cloud.html)
+  * [What is SASE?](https://www.cisco.com/site/us/en/learn/topics/security/what-is-secure-access-service-edge-sase.html)
+  * [What is software as a service (SaaS)?](https://www.cisco.com/site/us/en/learn/topics/software/what-is-software-as-a-service-saas.html)
+
+
+[ View all technology learning topics](https://www.cisco.com/site/us/en/learn/topics/index.html)
+* * *
+###  2026 State of Industrial AI 
+We surveyed more than 1000 industrial professionals on securing operations, advancing IT/OT collaboration, and building an AI-ready network that can scale.
+[Get report](https://www.cisco.com/site/us/en/solutions/networking/industrial-iot/industrial-networking-report/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/state-of-industrial-ai-284x164.jpg)
+Back
+Learning Resources and Assets
+Close
+## Sandboxes and simulators
+  * [Cisco Packet Tracer](https://www.netacad.com/cisco-packet-tracer)
+  * [DevNet Sandbox](https://developer.cisco.com/site/sandbox/)
+  * [Cisco Modeling Labs](https://developer.cisco.com/modeling-labs/)
+  * [Cisco Learning Labs](https://u.cisco.com/store/lab?type=cisco-learning-labs)
+
+
+## News and insights
+  * [Blogs](https://blogs.cisco.com/)
+  * [Cisco Community](https://community.cisco.com/)
+  * [Executive perspectives](https://www.cisco.com/c/en/us/solutions/executive-perspectives/index.html)
+  * [Newsroom](https://newsroom.cisco.com/c/r/newsroom/en/us/index.html)
+
+
+* * *
+## Developer resources
+  * [Getting started with DevNet](https://developer.cisco.com/startnow/)
+  * [DevNet Tracks](https://developer.cisco.com/learning/search/?contentType=track&page=1)
+  * [Python training](https://www.cisco.com/site/us/en/learn/training-certifications/training/courses/prne.html)
+  * [Code exchange](https://developer.cisco.com/codeexchange/)
+  * [Developer community](https://community.cisco.com/t5/devnet/ct-p/4409j-developer-home)
+
+
+## Videos and live streams
+  * [Cisco Video Portal](https://video.cisco.com/)
+
+
+* * *
+## Architecture and design resources
+  * [Cisco Validated](https://www.cisco.com/site/us/en/solutions/cisco-validated/index.html)
+  * [Visio stencils](https://www.cisco.com/c/en/us/products/visio-stencil-listing.html)
+
+
+## Additional resources
+  * [Cisco Learning Credits](https://www.cisco.com/site/us/en/learn/training-certifications/training/learning-credits/index.html)
+  * [Cisco Multicloud training](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/multicloud/index.html)
+  * [Black Belt Academy (for partners)](https://www.cisco.com/site/us/en/partners/training/black-belt-academy/index.html)
+
+
+Close
+###  Why Cisco
+Back
+Why Cisco
+Close
+[ Why Cisco](https://www.cisco.com/site/us/en/about/why-cisco/index.html)
+###  Why Cisco 
+Cisco creates the infrastructure you need to transform how you connect, protect, and innovate in the AI era.
+[See the Cisco advantage](https://www.cisco.com/site/us/en/about/why-cisco/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/why-cisco-ai-blue.jpg)
+###  Our Purpose 
+We Power an Inclusive Future for All.
+[Explore our Purpose](https://www.cisco.com/site/us/en/about/purpose/index.html) [Read FY25 Purpose Report](https://www.cisco.com/c/dam/m/en_us/about/purpose/reporting-hub/_pdf/purpose-report-2025.pdf)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/why-cisco-purpose.jpg)
+###  Success stories 
+Discover how Cisco technologies drive real-world success for our customers and power Cisco's own operations and innovation. 
+[Explore customer stories](https://www.cisco.com/site/us/en/about/case-studies-customer-stories/index.html) [How we use our technology](https://www.cisco.com/site/us/en/solutions/cisco-on-cisco/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/why-cisco-success-stories.jpg)
+  1. Outcomes We Deliver
+  2. Working with Partners
+  3. About Us
+
+
+Back
+Outcomes We Deliver
+Close
+[ AI-ready data centers](https://www.cisco.com/site/us/en/about/why-cisco/ai-ready-data-centers/index.html)
+Unleash the power of AI with data centers designed for speed, scale, and agility.
+[ Future-proofed workplaces](https://www.cisco.com/site/us/en/about/why-cisco/future-proofed-workplaces/index.html)
+Elevate employee and customer experiences with agile, resilient workplaces.
+[ Digital resilience](https://www.cisco.com/site/us/en/about/why-cisco/digital-resilience/index.html)
+Achieve always-on resilience with trusted security, observability, and assurance.
+* * *
+###  Why Cisco 
+Cisco creates the infrastructure you need to transform how you connect, protect, and innovate in the AI era.
+[See the Cisco advantage](https://www.cisco.com/site/us/en/about/why-cisco/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/why-cisco-ai-blue.jpg)
+Back
+Working with Partners
+Close
+[ Why choose Cisco partners](https://www.cisco.com/site/us/en/partners/evolved-partner-ecosystem/index.html)
+Learn how our partner ecosystem makes it easier than ever to identify the partners to best meet your needs. ​ 
+[ Frequently asked questions (PDF)](https://www.cisco.com/c/dam/en_us/partners/cisco-partner-designations-faq.pdf)
+Access answers to your questions about the evolution of Cisco's partner ecosystem and new partner designations. 
+[ Find a partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+Explore our partner ecosystem today. 
+* * *
+###  A new way to find partners 
+The Cisco Partner Locator tool has been transformed into an AI-driven hub to match, recommend, and activate partners for every customer outcome.​ 
+[Explore what's new](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/partner-locator-curve.jpg)
+Back
+About Us
+Close
+  * [Overview](https://www.cisco.com/site/us/en/about/index.html)
+  * [Newsroom](https://newsroom.cisco.com/c/r/newsroom/en/us/index.html)
+  * [Leadership](https://newsroom.cisco.com/c/r/newsroom/en/us/executives.html)
+  * [Purpose and sustainability](https://www.cisco.com/site/us/en/about/purpose/index.html)
+  * [Career opportunities](https://careers.cisco.com/global/en/home)
+  * [The Trust Center](https://www.cisco.com/c/en/us/about/trust-center.html)
+  * [Investor relations](https://investor.cisco.com/overview/default.aspx)
+
+
+[ Contact us](https://www.cisco.com/site/us/en/about/contact-cisco/index.html)
+* * *
+###  How to buy 
+Browse options to purchase Cisco products, services, and software offerings.
+[Visit how-to-buy hub](https://www.cisco.com/site/us/en/buy/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/why-cisco-how-to-buy.jpg)
+Close
+###  Partners
+Close
+[ Trials and demos](https://www.cisco.com/site/us/en/products/trials-demos.html?linkclickid=hdr-mainnav-trialsdemos)
+[ How to buy](https://www.cisco.com/site/us/en/buy/index.html?linkclickid=hdr-utilnav-howtobuy)
+Partners
+EN US
+[ Log in](https://www.cisco.com/content/cdc/login.html?referer=/site/us/en/learn/topics/index.html?filters=&search=&sort=a-z&filterby=&showMore=)
+[ Trials and demos](https://www.cisco.com/site/us/en/products/trials-demos.html?linkclickid=hdr-mainnav-trialsdemos)
+MENU
+CLOSE
+[ How to buy](https://www.cisco.com/site/us/en/buy/index.html?linkclickid=hdr-utilnav-howtobuy)
+Partners
+[ Log in](https://www.cisco.com/content/cdc/login.html?referer=/site/us/en/learn/topics/index.html?filters=&search=&sort=a-z&filterby=&showMore=)
+EN US
+Search field edit, type in text
+Clear Speech-to-Text Search Search
+* * *
+Speech-to-Text Powered By Google Speech API
+We didn't hear that. Try again.
+Speech-to-Text Search is currently unavailable
+  * [Downloads](https://software.cisco.com/download/home)
+  * [Certifications](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html)
+  * [Cisco Validated](https://www.cisco.com/c/en/us/solutions/cisco-validated.html)
+  * [Training](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+  * [Community](https://community.cisco.com/)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+
+
+Close
+**For Partners**
+[Partners Home](https://www.cisco.com/site/us/en/partners/index.html?dtid=odicdc001129)
+[Partner Program](https://www.cisco.com/site/us/en/partners/index.html?ccid=cc000864&dtid=odiprc001129)
+[Support](https://www.cisco.com/site/us/en/partners/support-help/index.html?dtid=odiprc001129)
+[Tools](https://www.cisco.com/site/us/en/partners/tools-training/index.html?dtid=odiprc001129)
+**Already a Partner?**
+[ Log in](https://www.cisco.com/content/cdc/login.html?referer=/site/us/en/learn/topics/index.html?filters=&search=&sort=a-z&filterby=&showMore=)
+* * *
+[Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/ "Find a Cisco Partner")
+* * *
+[Learn about Partners](https://www.cisco.com/site/us/en/partners/evolved-partner-ecosystem/index.html)
+* * *
+[Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html?dtid=odicdc001129 "Become a Cisco Partner")
+Close
+[ Log in](https://www.cisco.com/content/cdc/login.html?referer=/site/us/en/learn/topics/index.html?filters=&search=&sort=a-z&filterby=&showMore=)
+Don't have an account? [Sign up](https://id.cisco.com/signin/register "Sign up")
+Close
+Back
+Country | Language
+Close
+Selected country/region:
+United States
+  * [English](https://www.cisco.com/site/us/en/index.html)
+
+
+  1. All Countries / Regions
+  2. North America
+  3. Africa
+  4. Asia Pacific
+  5. Europe
+  6. Greater China
+  7. Latin America
+  8. Middle East
+
+
+  * United States
+    * [English](https://www.cisco.com/site/us/en/index.html)
+  * Africa
+    * [English](https://www.cisco.com/site/dz/en/index.html)
+    * [Français](https://www.cisco.com/site/dz/fr/index.html)
+    * [Português](https://www.cisco.com/site/pt/pt/index.html)
+    * [عربي](https://www.cisco.com/site/eg/ar/index.html)
+  * Argentina
+    * [Español](https://www.cisco.com/site/ar/es/index.html)
+  * Australia & New Zealand
+    * [English](https://www.cisco.com/site/au/en/index.html)
+  * Austria
+    * [Deutsch](https://www.cisco.com/site/at/de/index.html)
+  * Belgium & Luxembourg
+    * [English](https://www.cisco.com/site/be/en/index.html)
+    * [Français](https://www.cisco.com/site/be/fr/index.html)
+    * [Nederlands](https://www.cisco.com/site/be/nl/index.html)
+  * Brazil
+    * [Português](https://www.cisco.com/site/br/pt/index.html)
+  * Canada
+    * [English](https://www.cisco.com/site/ca/en/index.html)
+    * [Français](https://www.cisco.com/site/ca/fr/index.html)
+  * Caribbean
+    * [Español](https://www.cisco.com/site/bz/es/index.html)
+  * Chile
+    * [Español](https://www.cisco.com/site/cl/es/index.html)
+  * Colombia
+    * [Español](https://www.cisco.com/site/co/es/index.html)
+  * Costa Rica
+    * [Español](https://www.cisco.com/site/cr/es/index.html)
+  * Czech Republic
+    * [Čeština](https://www.cisco.com/site/cz/cs/index.html)
+  * Denmark
+    * [Dansk](https://www.cisco.com/site/dk/da/index.html)
+  * Ecuador
+    * [Español](https://www.cisco.com/site/ec/es/index.html)
+  * Egypt
+    * [English](https://www.cisco.com/site/eg/en/index.html)
+    * [عربي](https://www.cisco.com/site/eg/ar/index.html)
+  * France
+    * [Français](https://www.cisco.com/site/fr/fr/index.html)
+  * Germany
+    * [Deutsch](https://www.cisco.com/site/de/de/index.html)
+  * Hong Kong
+    * [English](https://www.cisco.com/site/hk/en/index.html)
+    * [繁體中文](https://www.cisco.com/site/hk/zh/index.html)
+  * Hungary
+    * [Magyar](https://www.cisco.com/site/hu/hu/index.html)
+  * India
+    * [English](https://www.cisco.com/site/in/en/index.html)
+  * Indonesia
+    * [English](https://www.cisco.com/site/id/en/index.html)
+  * Israel
+    * [English](https://www.cisco.com/site/il/en/index.html)
+  * Italy
+    * [Italiano](https://www.cisco.com/site/it/it/index.html)
+  * Japan
+    * [日本語](https://www.cisco.com/site/jp/ja/index.html)
+  * Korea
+    * [한국어](https://www.cisco.com/site/kr/ko/index.html)
+  * Mainland China
+    * [简体中文](https://www.cisco.com/site/cn/zh/index.html)
+  * Malaysia
+    * [English](https://www.cisco.com/site/my/en/index.html)
+  * Mexico
+    * [Español](https://www.cisco.com/site/mx/es/index.html)
+  * Middle East
+    * [English](https://www.cisco.com/site/ae/en/index.html)
+    * [عربي](https://www.cisco.com/site/ae/ar/index.html)
+  * Netherlands
+    * [Nederlands](https://www.cisco.com/site/nl/nl/index.html)
+  * Norway
+    * [Norsk](https://www.cisco.com/site/no/no/index.html)
+  * Panama
+    * [Español](https://www.cisco.com/site/pa/es/index.html)
+  * Peru
+    * [Español](https://www.cisco.com/site/pe/es/index.html)
+  * Philippines
+    * [English](https://www.cisco.com/site/ph/en/index.html)
+  * Poland
+    * [Polski](https://www.cisco.com/site/pl/pl/index.html)
+  * Portugal
+    * [Português](https://www.cisco.com/site/pt/pt/index.html)
+  * Romania
+    * [Română](https://www.cisco.com/site/ro/ro/index.html)
+  * Singapore
+    * [English](https://www.cisco.com/site/sg/en/index.html)
+  * South Africa
+    * [English](https://www.cisco.com/site/za/en/index.html)
+  * Spain
+    * [Español](https://www.cisco.com/site/es/es/index.html)
+  * Sweden
+    * [Svenska](https://www.cisco.com/site/se/sv/index.html)
+  * Switzerland
+    * [Français](https://www.cisco.com/site/ch/fr/index.html)
+    * [Deutsch](https://www.cisco.com/site/ch/de/index.html)
+  * Taiwan
+    * [繁體中文](https://www.cisco.com/site/tw/zh/index.html)
+  * Thailand
+    * [ภาษาไทย](https://www.cisco.com/site/th/th/index.html)
+  * Turkey
+    * [Türkçe](https://www.cisco.com/site/tr/tr/index.html)
+  * Ukraine
+    * [Українська ](https://www.cisco.com/site/ua/uk/index.html)
+    * [Русский](https://www.cisco.com/site/ua/ru/index.html)
+  * United Kingdom & Ireland
+    * [English](https://www.cisco.com/site/uk/en/index.html)
+  * Vietnam
+    * [Việt](https://www.cisco.com/site/vn/vi/index.html)
+
+
+  * Canada
+    * [English](https://www.cisco.com/site/ca/en/index.html)
+    * [Français](https://www.cisco.com/site/ca/fr/index.html)
+  * United States
+    * [English](https://www.cisco.com/site/us/en/index.html)
+
+
+  * Africa
+    * [English](https://www.cisco.com/site/dz/en/index.html)
+    * [Français](https://www.cisco.com/site/dz/fr/index.html)
+    * [Português](https://www.cisco.com/site/pt/pt/index.html)
+    * [عربي](https://www.cisco.com/site/eg/ar/index.html)
+  * Egypt
+    * [English](https://www.cisco.com/site/eg/en/index.html)
+    * [عربي](https://www.cisco.com/site/eg/ar/index.html)
+  * South Africa
+    * [English](https://www.cisco.com/site/za/en/index.html)
+
+
+  * Australia & New Zealand
+    * [English](https://www.cisco.com/site/au/en/index.html)
+  * India
+    * [English](https://www.cisco.com/site/in/en/index.html)
+  * Indonesia
+    * [English](https://www.cisco.com/site/id/en/index.html)
+  * Japan
+    * [日本語](https://www.cisco.com/site/jp/ja/index.html)
+  * Korea
+    * [한국어](https://www.cisco.com/site/kr/ko/index.html)
+  * Malaysia
+    * [English](https://www.cisco.com/site/my/en/index.html)
+  * Philippines
+    * [English](https://www.cisco.com/site/ph/en/index.html)
+  * Singapore
+    * [English](https://www.cisco.com/site/sg/en/index.html)
+  * Thailand
+    * [ภาษาไทย](https://www.cisco.com/site/th/th/index.html)
+  * Vietnam
+    * [Việt](https://www.cisco.com/site/vn/vi/index.html)
+
+
+  * Austria
+    * [Deutsch](https://www.cisco.com/site/at/de/index.html)
+  * Belgium & Luxembourg
+    * [English](https://www.cisco.com/site/be/en/index.html)
+    * [Français](https://www.cisco.com/site/be/fr/index.html)
+    * [Nederlands](https://www.cisco.com/site/be/nl/index.html)
+  * Czech Republic
+    * [Čeština](https://www.cisco.com/site/cz/cs/index.html)
+  * Denmark
+    * [Dansk](https://www.cisco.com/site/dk/da/index.html)
+  * France
+    * [Français](https://www.cisco.com/site/fr/fr/index.html)
+  * Germany
+    * [Deutsch](https://www.cisco.com/site/de/de/index.html)
+  * Hungary
+    * [Magyar](https://www.cisco.com/site/hu/hu/index.html)
+  * Israel
+    * [English](https://www.cisco.com/site/il/en/index.html)
+  * Italy
+    * [Italiano](https://www.cisco.com/site/it/it/index.html)
+  * Netherlands
+    * [Nederlands](https://www.cisco.com/site/nl/nl/index.html)
+  * Norway
+    * [Norsk](https://www.cisco.com/site/no/no/index.html)
+  * Poland
+    * [Polski](https://www.cisco.com/site/pl/pl/index.html)
+  * Portugal
+    * [Português](https://www.cisco.com/site/pt/pt/index.html)
+  * Romania
+    * [Română](https://www.cisco.com/site/ro/ro/index.html)
+  * Spain
+    * [Español](https://www.cisco.com/site/es/es/index.html)
+  * Sweden
+    * [Svenska](https://www.cisco.com/site/se/sv/index.html)
+  * Switzerland
+    * [Français](https://www.cisco.com/site/ch/fr/index.html)
+    * [Deutsch](https://www.cisco.com/site/ch/de/index.html)
+  * Turkey
+    * [Türkçe](https://www.cisco.com/site/tr/tr/index.html)
+  * Ukraine
+    * [Українська ](https://www.cisco.com/site/ua/uk/index.html)
+    * [Русский](https://www.cisco.com/site/ua/ru/index.html)
+  * United Kingdom & Ireland
+    * [English](https://www.cisco.com/site/uk/en/index.html)
+
+
+  * Hong Kong
+    * [English](https://www.cisco.com/site/hk/en/index.html)
+    * [繁體中文](https://www.cisco.com/site/hk/zh/index.html)
+  * Mainland China
+    * [简体中文](https://www.cisco.com/site/cn/zh/index.html)
+  * Taiwan
+    * [繁體中文](https://www.cisco.com/site/tw/zh/index.html)
+
+
+  * Argentina
+    * [Español](https://www.cisco.com/site/ar/es/index.html)
+  * Brazil
+    * [Português](https://www.cisco.com/site/br/pt/index.html)
+  * Caribbean
+    * [Español](https://www.cisco.com/site/bz/es/index.html)
+  * Chile
+    * [Español](https://www.cisco.com/site/cl/es/index.html)
+  * Colombia
+    * [Español](https://www.cisco.com/site/co/es/index.html)
+  * Costa Rica
+    * [Español](https://www.cisco.com/site/cr/es/index.html)
+  * Ecuador
+    * [Español](https://www.cisco.com/site/ec/es/index.html)
+  * Mexico
+    * [Español](https://www.cisco.com/site/mx/es/index.html)
+  * Panama
+    * [Español](https://www.cisco.com/site/pa/es/index.html)
+  * Peru
+    * [Español](https://www.cisco.com/site/pe/es/index.html)
+
+
+  * Middle East
+    * [English](https://www.cisco.com/site/ae/en/index.html)
+    * [عربي](https://www.cisco.com/site/ae/ar/index.html)
+
+
+Close
+Close
+Hello, how can I help?
+  1. [ Learn ](https://www.cisco.com/site/us/en/learn/index.html)
+
+
+# Cisco Technology Learning Topics
+##  Increase your technology IQ 
+Build your knowledge and learn about the topics that interest you most with the Cisco glossary.
+## Featured topics
+###  What is an AI data center? 
+AI data centers are specialized facilities with vast computational power to handle complex workloads.
+[Learn about AI data centers](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-an-ai-data-center.html)
+###  What is a hybrid mesh firewall? 
+A hybrid mesh firewall unifies security across data centers, clouds, and edge locations.
+[Learn about hybrid mesh firewalls](https://www.cisco.com/site/us/en/learn/topics/security/what-is-hybrid-mesh-firewall.html)
+###  What is agentic operations? 
+AgenticOps is an agent-first IT operating model built for autonomous action with oversight.
+[Learn about AgenticOps](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-agentic-operations-agenticops.html)
+## Browse topics
+[](javascript:;)
+Apply Cancel
+Filter and sort
+Filter by:
+[x](javascript:;)
+##### Filter by:
+Sort by: Title A-Z Title Z-A Date Date - Oldest
+Artificial Intelligence Cloud Networking (Data Center) Collaboration Computing Industrial IoT Networking Observability Security Small and Medium Business [Clear all](javascript:;)
+Portfolio Artificial Intelligence Cloud Networking (Data Center) Collaboration Computing Industrial IoT Networking Observability Security Small and Medium Business Show more
+Apply Cancel
+300 Results
+Sort by: Title A-Z Title Z-A Date Date - Oldest
+Artificial Intelligence Cloud Networking (Data Center) Collaboration Computing Industrial IoT Networking Observability Security Small and Medium Business [Clear all](javascript:;)
+No results found
+###  What is threat management?
+Threat management is the process of detecting, preventing, and responding to cyberthreats.
+[Learn about threat management](https://www.cisco.com/site/us/en/learn/topics/security/what-is-threat-management.html)
+### Advantages of a wireless network
+Wireless networks increase accessibility for end-users and can help you to extend your network.
+[Learn about wireless networks](https://www.cisco.com/site/us/en/learn/topics/small-business/why-go-wireless.html)
+### Adware versus spyware
+Adware and spyware are both malicious software, but they operate in different ways.
+[Learn about adware and spyware](https://www.cisco.com/site/us/en/learn/topics/security/adware-vs-spyware.html)
+### AI chatbots and AI agents security
+Safeguarding interactions and data within AI systems to prevent breaches and malicious exploits.
+[Explore secure AI chatbots and agents](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/chatbots-agents.html)
+### AI security and safety framework
+Guidelines to identify, assess, and mitigate risks in AI development and deployment.
+[Learn about AI safety framework](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/ai-security-safety-framework.html)
+### AI security reference architectures
+Standardized blueprints for building secure and resilient AI infrastructure.
+[Learn about AI security architecture](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/ai-security-reference-architecture.html)
+### Basics of PBX for small businesses
+A private branch exchange (PBX) manages incoming and outgoing calls for a company's internal users.
+[Learn about PBX](https://www.cisco.com/site/us/en/learn/topics/small-business/pbx-the-basics.html)
+### Configure a network switch
+Set up a network switch, allowing you to send and receive information efficiently and securely.
+[Learn how to configure a network switch](https://www.cisco.com/site/us/en/learn/topics/small-business/how-to-setup-network-switch.html)
+### Cybersecurity software company
+Cybersecurity software companies develop and support applications safeguarding from cyberattacks.
+[Cybersecurity software companies](https://www.cisco.com/site/us/en/learn/topics/security/cybersecurity-software-company.html)
+### Cybersecurity terms and threats
+Learn about key cybersecurity terms and threats, from Cisco Umbrella.
+[Learn about cybersecurity terms, threats](https://umbrella.cisco.com/blog/cybersecurity-terms-and-threats-you-need-to-know-in-2020)
+### Difference between SD-WAN and MPLS
+MPLS is a legacy routing method to connect to the WAN, and SD-WAN is an approach to managing WAN.
+[Explore SD-WAN and MPLS differences](https://www.cisco.com/c/en/us/products/routers/what-is-the-difference-between-sd-wan-and-mpls.html)
+### Different types of network switches
+Understanding different network switches can help you choose which is right for your small business.
+[Learn about types of network switches](https://www.cisco.com/site/us/en/learn/topics/small-business/what-are-the-different-types-of-network-switches.html)
+### Different types of routers
+Routers serve various business needs through wired and wireless, edge, core, and virtual routers.
+[Learn more about router differences](https://www.cisco.com/site/us/en/learn/topics/small-business/types-of-routers.html)
+### Egress security for public cloud
+Egress security contributes to the security posture aimed at protecting public cloud workloads.
+[Explore egress security for public cloud](https://www.cisco.com/site/us/en/learn/topics/security/what-is-egress-security-for-public-cloud.html)
+### How do OT and IT differ?
+OT connects, monitors, manages, and secures industrial operations. IT serves as the tech backbone.
+[Learn about OT and IT](https://www.cisco.com/c/en/us/solutions/internet-of-things/what-is-ot-vs-it.html)
+### How does a router work?
+A router connects devices to the internet, choosing the best route for your information to travel. 
+[Learn how routers work](https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/how-does-a-router-work.html)
+### How does a switch work?
+Switches are network building blocks that connect multiple devices so they can share information.
+[Learn how switches work](https://www.cisco.com/site/us/en/learn/topics/small-business/network-switch-how.html)
+### How does a VPN work?
+A VPN extends your network through encrypted connections.
+[Learn how VPNs work](https://www.cisco.com/site/us/en/learn/topics/small-business/how-does-a-vpn-work.html)
+### How to prevent malware attacks
+Explore how these 10 best practices can protect your business against malware attacks.
+[Learn how to prevent malware attacks](https://www.cisco.com/site/us/en/learn/topics/security/how-to-prevent-malware-attacks.html)
+### How to set up a router
+Learn how to set up a router, including optimal placement, testing connections, and password setup.
+[Learn how to set up a router](https://www.cisco.com/site/us/en/learn/topics/small-business/how-to-set-up-router.html)
+### How to set up a VPN
+A Virtual Private Network (VPN) is a solution to help keep business and data secure.
+[Learn how to set up a VPN](https://www.cisco.com/site/us/en/learn/topics/small-business/how-to-setup-a-vpn.html)
+### How to set up guest Wi-Fi
+Learn how to setup guest Wi-Fi while maintaining network security for your small business.
+[Learn how to set up guest Wi-Fi](https://www.cisco.com/site/us/en/learn/topics/small-business/how-to-setup-guest-wifi.html)
+### How to set up your firewall
+Learn how to set up a firewall as the first line of defense for your network.
+[How to set up a firewall](https://www.cisco.com/site/us/en/learn/topics/small-business/how-to-setup-a-firewall.html)
+### Hyperconverged infrastructure (HCI)
+HCI is a software-defined infrastructure that combines compute, storage, and networking.
+[More on hyperconverged infrastructure](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-hyperconverged-infrastructure.html)
+### Improve speed with a LAN switch
+Improve network speed by avoiding congestion and reducing collisions with a LAN switch.
+[Improving speed with a LAN switch](https://www.cisco.com/site/us/en/learn/topics/small-business/tune-your-network-lan-switch.html)
+### IT incident response plan
+Steps in an incident response plan help IT detect, respond to, and recover from a security incident.
+[Learn about IT incident response plans](https://www.cisco.com/site/us/en/learn/topics/security/what-is-an-incident-response-plan.html)
+### Machine learning in security
+Machine learning in security uses data to find patterns, detect threats, and protect data.
+[Learn about machine learning in security](https://www.cisco.com/site/us/en/learn/topics/security/what-is-machine-learning-in-security.html)
+### Managed versus unmanaged switches
+The basic difference between managed and unmanaged network switches is the amount of control.
+[Managed and unmanaged switches](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-managed-switch.html)
+### Multicloud security
+Understand multicloud network security architecture for AWS, Azure, GCP, and OCI.
+[Learn about multicloud security](https://www.cisco.com/site/us/en/learn/topics/security/multicloud-security-architecture.html)
+### Network security policy management
+Network security policy management helps organizations control and protect their network.
+[Network security policy management](https://www.cisco.com/site/us/en/learn/topics/security/what-is-network-security-policy-management.html)
+### Networking basics you need to know
+Learn networking basics to help your business share applications and information access.
+[Learn about networking basics](https://www.cisco.com/site/us/en/learn/topics/small-business/networking-basics.html)
+### Password security and protection
+Password security and password protection check a user's identity and restrict access to devices.
+[Explore password security and protection](https://www.cisco.com/site/us/en/learn/topics/security/what-are-password-security-and-protection.html)
+### Secure your foundation models
+Protecting AI models from threats like data poisoning and unauthorized access to ensure integrity.
+[Learn about secure foundation models](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/foundation-models.html)
+### Set up a small business network
+This guide will help you set up a network, including switches, routers, and wireless solutions.
+[Learn about small business networks](https://www.cisco.com/site/us/en/learn/topics/small-business/how-to-set-up-a-network.html)
+### Small business collaboration
+Our five-step checklist will help you create a better, more collaborative working environment.
+[Explore the collaboration checklist](https://www.cisco.com/site/us/en/learn/topics/small-business/collaboration-checklist.html)
+### Small business firewalls
+An ideal firewall integrates hardware with software controls for a comprehensive security solution.
+[Learn about small business firewalls](https://www.cisco.com/site/us/en/learn/topics/small-business/firewall-solutions.html)
+### Small business network security
+This small business network security checklist has tactics to help reduce increased threats.
+[Explore the checklist](https://www.cisco.com/c/en/us/solutions/small-business/resource-center/security/network-security-checklist.html)
+### Small business networking resources
+Networking solutions help employees stay connected while lowering costs and improving efficiency.
+[Small business networking resources](https://www.cisco.com/site/us/en/learn/topics/small-business/networking-solutions.html)
+### Small business NGFW solutions
+Small businesses next-generation firewalls (NGFW) offer innovative, affordable security.
+[Learn about small business NGFWs](https://www.cisco.com/c/en/us/solutions/small-business/resource-center/security/firewall-software.html)
+### Spam versus phishing
+Both phishing and spam rely on a victim revealing personal information, but have key differences.
+[Learn about spam and phishing](https://www.cisco.com/site/us/en/learn/topics/security/what-is-spam-vs-phishing.html)
+### Ultra-Reliable Wireless Backhaul
+URWB is a wireless technology that delivers near-zero latency (<10ms) and uninterrupted handoffs.
+[Learn about URWB](https://www.cisco.com/site/us/en/learn/topics/industrial-iot/what-is-urwb.html)
+### Viruses vs. ransomware and malware
+Virus is malware that attaches to files, while ransomware is malware that encrypts a victim's data.
+[Compare viruses, ransomware, and malware](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-virus-vs-ransomware-malware.html)
+### What are 5G speeds?
+5G speeds are between 10 and 20 Gbps, more than 100 times faster than 4G technology.
+[Learn about 5G speeds](https://www.cisco.com/site/us/en/learn/topics/networking/what-are-5g-speeds.html)
+### What are ASRs?
+Aggregated services routers (ASRs) combine traffic to increase network speed, security, and access.
+[Learn about ASRs](https://www.cisco.com/site/us/en/learn/topics/networking/what-are-aggregated-services-routers-asr.html)
+### What are containers?
+A container is a unit of executable software that packages application code in a standardized way.
+[Learn about containers](https://www.cisco.com/site/us/en/learn/topics/computing/what-are-containers.html)
+### What are foundation models?
+Foundation models are large AI systems trained on vast data, adaptable for many specialized tasks.
+[Learn about foundation models](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-are-foundation-models.html)
+### What are indicators of compromise?
+Indicators of compromise (IOC) are clues that a network or endpoint has been breached.
+[Learn about IOC](https://www.cisco.com/site/us/en/learn/topics/security/what-are-indicators-of-compromise-ioc.html)
+### What are microservices?
+Microservices are loosely coupled application services, each independently built and maintained.
+[Learn about microservices](https://www.cisco.com/site/us/en/learn/topics/computing/what-are-microservices.html)
+### What are network services?
+Network services are applications that connect remote users to other apps and data in a network.
+[Learn more about network services](https://www.cisco.com/site/us/en/learn/topics/networking/what-are-network-services.html)
+### What is 2FA?
+Two-factor authentication (2FA) requires more than a username and password to strengthen security.
+[Learn about 2FA](https://www.cisco.com/site/us/en/learn/topics/security/what-is-two-factor-authentication.html)
+### What is 5G versus 4G?
+5G is the next generation of cellular connectivity after 4G, with multiple advantages and impacts.
+[Learn about 5G versus 4G](https://www.cisco.com/site/us/en/learn/topics/networking/5g-vs-4g.html)
+### What is 5G?
+The fifth generation of cellular technology, 5G improves transmission speed and flexibility.
+[Learn about 5G](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-5g.html)
+### What is 802.11ac?
+802.11ac is a Wi-Fi standard that delivers higher throughput to wireless LANs than 802.11n.
+[Learn about 802.11ac](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-802-11ac.html)
+### What is 802.11ax?
+802.11ax, the sixth generation of the Wi-Fi standard, adds more mobility for next-gen applications.
+[Learn about 802.11ax](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-802-11ax.html)
+### What is a CASB?
+A CASB is an intermediary between cloud providers and cloud consumers that enforces security policy.
+[Learn about CASB](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-casb.html)
+### What is a CISO?
+The chief information security officer (CISO) is an organization's senior cybersecurity executive.
+[Learn about the CISO role](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-ciso.html)
+### What is a cloud migration strategy?
+A cloud migration strategy is an organization's plan to move data and applications to the cloud.
+[Learn about cloud migration strategy](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-a-cloud-migration-strategy.html)
+### What is a contact center?
+A contact center used to be known as a call center but now includes social media and other channels.
+[Learn about contact centers](https://www.cisco.com/site/us/en/learn/topics/collaboration/what-is-a-contact-center.html)
+### What is a cyberattack?
+Learn about the types of cyberattacks and prevention methods.
+[Learn about cyberattacks](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-cyberattack.html)
+### What is a cybersecurity specialist?
+Cybersecurity specialists protect against risks by helping to secure information systems.
+[Learn about cybersecurity specialists](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-cybersecurity-specialist.html)
+### What is a data breach?
+A data breach is unauthorized access to sensitive data.
+[Learn about data breaches](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-data-breach.html)
+### What is a data center?
+A data center is a secure, redundant facility for storing and sharing applications and data.
+[Learn about data centers](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-a-data-center.html)
+### What is a DDoS attack?
+Distributed-denial-of-service (DDoS) attacks overwhelm servers with requests.
+[Learn about DDoS attacks](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-ddos-attack.html)
+### What is a DPU?
+A DPU is a specialized processor designed to enhance the efficiency of data-related tasks.
+[Learn about DPUs](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-dpu.html)
+### What is a firewall?
+A firewall decides whether to allow or block specific traffic based on security rules.
+[Learn about firewalls](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-firewall.html)
+### What is a frontier model?
+A frontier model is a foundation model that represents the peak of current AI capabilities.
+[Learn about frontier models](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-a-frontier-model.html)
+### What is a gigabit switch?
+Gigabit switches direct data from one device to another on a common network.
+[Learn about gigabit switches](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-gigabit-switch.html)
+### What is a GPU?
+A GPU is a specialized electronic circuit designed to accelerate image and visual data processing.
+[Learn about GPUs](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-gpu.html)
+### What is a hacker?
+A hacker is someone who exploits vulnerabilities for malicious purposes.
+[Learn about hackers](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-hacker.html)
+### What is a hybrid mesh firewall?
+An HMF is a security architecture unifying enforcement points to protect distributed environments.
+[Learn about hybrid mesh firewall](https://www.cisco.com/site/us/en/learn/topics/security/what-is-hybrid-mesh-firewall.html)
+### What is a hyperscale data center?
+Large-scale facilities providing high-capacity compute and storage for cloud services.
+[Learn about hyperscale data centers](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-a-hyperscale-data-center.html)
+### What is a LAN?
+A local area network (LAN) is a collection of devices connected together in one physical location.
+[Learn about LAN](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-lan-local-area-network.html)
+### What is a network controller?
+A network controller is software that orchestrates network functions.
+[Learn about network controllers](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-network-controller.html)
+### What is a network fabric?
+Network fabric is the mesh of connections between network devices.
+[Learn about network fabric](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-network-fabric.html)
+### What is a network gateway?
+A network gateway is a device or node that connects disparate networks by translating protocols.
+[Learn about network gateways](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-network-gateway.html)
+### What is a NGFW?
+A next-generation firewall (NGFW) blocks threats with more features than a traditional firewall.
+[Learn about NGFW](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-next-generation-firewall.html)
+### What is a private 5G network?
+Private 5G/LTE networks are nonpublic networks that can use licensed, unlicensed or shared spectrum.
+[Learn about private 5G networks](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-private-5g-network.html)
+### What is a proxy server?
+A proxy server is an evolved traffic conductor for networks.
+[Learn about proxy servers](https://umbrella.cisco.com/blog/what-is-a-proxy-server)
+### What is a router?
+Routers receive and send data within a network, both local and the Internet, and connect devices.
+[Learn about routers](https://www.cisco.com/site/us/en/learn/topics/small-business/what-is-a-router.html)
+### What is a SAN?
+A storage area network (SAN) centralizes storage devices for easy management and fast communication.
+[Learn about SAN](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-storage-area-networking.html)
+### What is a secure router?
+A secure router protects your business from cyber threats and ensures reliable connectivity.
+[Learn about secure routers](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-secure-router.html)
+### What is a security platform?
+A security platform can automate tasks to produce better outcomes.
+[Learn about security platforms](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-security-platform.html)
+### What is a service mesh?
+A service mesh is a configurable, low-latency infrastructure layer that manages microservices.
+[Learn about service mesh](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-service-mesh.html)
+### What is a smart building?
+A smart building brings together building-wide systems into one IT-managed network infrastructure.
+[Learn about smart buildings](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-smart-building.html)
+### What is a smart city?
+A smart city uses digital technology to connect, protect, and enhance the lives of citizens.
+[Learn about smart cities](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-smart-city.html)
+### What is a smart switch?
+A smart switch is a new class of networking device designed for the demands of the AI era.
+[Learn about smart switches](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-smart-switch.html)
+### What is a switch versus a router?
+A switch connects multiple devices to create a network. Routers connect switches across networks.
+[Learn about switches and routers](https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/network-switch-vs-router.html)
+### What is a virtual machine?
+A virtual machine is a software-defined computing environment residing on a separate host computer.
+[Learn about virtual machines](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-a-virtual-machine.html)
+### What is a VPN?
+A virtual private network (VPN) is an encrypted internet connection from a device to a network.
+[Learn about VPNs](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-virtual-private-network-vpn.html)
+### What is a WAN?
+A wide-area network (WAN) is a collection of LANs or other networks that communicate together.
+[Learn about WAN](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-wan-wide-area-network.html)
+### What is a whaling phishing attack?
+Whaling attacks are cyberthreats targeting an organization's high-profile individuals.
+[Learn about whaling phishing attacks](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-whaling-attack.html)
+### What is a Wi-Fi network?
+A Wi-Fi network is a WLAN that uses Wi-Fi network technology to provide network and internet access.
+[Learn about Wi-Fi networks](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-wi-fi-network.html)
+### What is a Wi-Fi router?
+Wi-Fi, or wireless, routers combine the functions of a router and a wireless access point.
+[Learn about Wi-Fi routers](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-wireless-router-wi-fi.html)
+### What is a wireless LAN?
+A WLAN is a group of co-located computers that form a network based on radio waves instead of wires.
+[Learn about wireless LANs](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-wireless-lan.html)
+### What is a wireless network?
+A wireless network allows devices to stay connected to the network without being tethered by wires.
+[Learn about wireless networks](https://www.cisco.com/site/us/en/learn/topics/small-business/wireless-network.html)
+### What is a wireless sensor network?
+WSNs use small sensors to collect real-time environmental data for IoT, smart cities, and more.
+[Learn about wireless sensor networks](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-wireless-sensor-network.html)
+### What is a WLAN controller?
+A wireless local-area network (WLAN) controller manages access points in a wireless network.
+[Learn about WLAN controllers](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-wireless-lan-controller.html)
+### What is a worm?
+A worm is malware or malicious software that can spread rapidly within a network.
+[Learn about worms](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-worm.html)
+### What is agentic AI?
+AI capable of setting goals and executing complex tasks with minimal human oversight.
+[Learn about agentic AI](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-agentic-ai.html)
+### What is agentic operations?
+AgenticOps is an agent-first IT operating model built for autonomous action with oversight.
+[Learn about AgenticOps](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-agentic-operations-agenticops.html)
+### What is AI agent security?
+AI agent security is the practice of protecting autonomous AI systems from manipulation and misuse.
+[Learn about AI agent security](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-ai-agent-security.html)
+### What is AI application security?
+Protecting AI-powered software from vulnerabilities, threats, and unauthorized access.
+[Learn about AI application security](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/ai-application-security.html)
+### What is AI computing?
+Specialized hardware and software to process the intensive workloads required for AI tasks.
+[Learn about AI computing](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-ai-computing.html)
+### What is AI in automation?
+AI automates tasks by learning patterns, boosting efficiency and reducing errors in workflows.
+[Learn about AI in automation](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-ai-in-automation.html)
+### What is AI in cloud computing?
+Explore how AI enhances cloud computing by improving efficiency, scalability, and data management.
+[Learn about AI in cloud computing](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-ai-in-cloud-computing.html)
+### What is AI in cybersecurity?
+AI detects threats by analyzing network patterns in real-time, enabling faster, proactive responses.
+[Learn about AI in cybersecurity](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-ai-in-cybersecurity.html)
+### What is AI in manufacturing?
+Discover how AI transforms manufacturing with automation, quality control and predictive maintenance.
+[Learn about AI in manufacturing](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-ai-in-manufacturing.html)
+### What is AI in networking?
+AI networking technologies are designed to assist in solving complex problems with automation.
+[Learn about AI in networking](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-ai-in-networking.html)
+### What is AI infrastructure?
+The hardware, software, and networking components required to build, train, and deploy AI models.
+[Learn about AI infrastructure](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-ai-infrastructure.html)
+### What is AI-Enhanced RRM?
+AI-Enhanced Radio Resource Management makes use of artificial intelligence to optimize wireless.
+[Learn about AI-Enhanced RRM](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-ai-enhanced-rrm.html)
+### What is AIOps?
+AI-powered IT operations (AIOps) leverage artificial intelligence for efficiency and performance.
+[Learn about AIOps](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-aiops.html)
+### What is AIoT?
+AIoT merges AI with IoT, allowing smart devices to learn, analyze data, and act autonomously.
+[Learn about AIoT](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-aiot.html)
+### What is AMP?
+Advanced malware protection (AMP) is software designed to prevent, detect, and help remove threats.
+[Learn about AMP](https://www.cisco.com/site/us/en/learn/topics/security/what-is-advanced-malware-protection-amp.html)
+### What is an access point?
+A wireless access point allows wireless-capable devices to connect to a wired network.
+[Learn about access points](https://www.cisco.com/site/us/en/learn/topics/small-business/what-is-an-access-point.html)
+### What is an AI agent?
+AI software that perceives its environment, reasons, and acts autonomously to reach specific goals.
+[Learn about AI agents](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-an-ai-agent.html)
+### What is an AI data center?
+AI data centers are specialized facilities with vast computational power to handle complex workloads
+[Learn about AI data centers](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-an-ai-data-center.html)
+### What is an AI factory?
+An AI factory is a centralized infrastructure for processing data into intelligence at scale.
+[Learn about AI factories](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-an-ai-factory.html)
+### What is an AI server?
+High-performance hardware optimized to handle the large compute demands of training and running AI.
+[Learn about AI servers](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-an-ai-server.html)
+### What is an application migration?
+Application migration is transferring an application to a new environment with minimal disruption.
+[Learn about application migration](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-application-migration.html)
+### What is an APT?
+An advanced persistent threat (APT) is a network cyberattack resulting in unauthorized access.
+[Learn about APT](https://www.cisco.com/site/us/en/learn/topics/security/what-is-an-advanced-persistent-threat-apt.html)
+### What is an edge router?
+An edge router is a single device for connecting and securing enterprise traffic to the cloud.
+[Learn about edge routers](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-an-edge-router.html)
+### What is an endpoint?
+Endpoints are devices that establish communication across a network, providing many points of entry.
+[Learn about endpoints](https://www.cisco.com/site/us/en/learn/topics/security/what-is-endpoint-protection.html)
+### What is an enterprise network?
+An 'enterprise network' denotes the IT infrastructure that midsize and large organizations use.
+[Learn about enterprise networks](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-an-enterprise-network.html)
+### What is an Ethernet micro switch?
+An Ethernet micro switch, also called a mini switch, only has 4 to 6 ports.
+[Learn about Ethernet micro switches](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-micro-switch.html)
+### What is an Ethernet switch?
+Ethernet switches direct data from one device to another on a common network.
+[Learn about Ethernet switches](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-an-ethernet-switch.html)
+### What is an exploit?
+An exploit is a program built to take advantage of system vulnerabilities.
+[Learn about exploits](https://www.cisco.com/site/us/en/learn/topics/security/what-is-an-exploit.html)
+### What is an LLM?
+An LLM is a type of AI trained on vast text data to understand, generate, and translate language.
+[Learn about LLMs](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-large-language-model-llm.html)
+### What is antivirus protection?
+Antivirus protection helps prevent, detect, and remove threats from computer systems.
+[Learn about antivirus protection](https://www.cisco.com/site/us/en/learn/topics/security/what-is-antivirus-protection.html)
+### What is APM?
+APM helps you monitor and analyze application performance through a set of tools and processes.
+[Learn about APM](https://www.cisco.com/site/us/en/learn/topics/observability/what-is-apm.html)
+### What is application security?
+Application security refers to security measures taken from application build through to management.
+[Learn about application security](https://www.cisco.com/site/us/en/learn/topics/security/what-is-application-security.html)
+### What is branch networking?
+Connecting remote office locations to the corporate network securely, reliably, and efficiently.
+[Learn about branch networking](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-branch-networking.html)
+### What is branch security?
+Protecting decentralized office locations from cyber threats through integrated network security.
+[Learn about branch security](https://www.cisco.com/site/us/en/learn/topics/security/what-is-branch-security.html)
+### What is building automation?
+Building automation use sensors and controls to monitor and adjust a building's utilities.
+[Learn about building automation](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-building-automation.html)
+### What is business continuity?
+Business continuity is an organization's ability to maintain service levels after disruptive events.
+[Learn about business continuity](https://www.cisco.com/site/us/en/learn/topics/collaboration/what-is-business-continuity.html)
+### What is business email compromise?
+A type of phishing attack that tricks people into transferring funds to fraudulent accounts.
+[Learn about business email compromise](https://www.cisco.com/site/us/en/learn/topics/security/what-is-business-email-compromise-bec.html)
+### What is business resilience?
+Business resilience is an organization's ability to respond to disruptions that could threaten it.
+[Learn about business resilience](https://www.cisco.com/site/us/en/learn/topics/general/what-is-business-resilience.html)
+### What Is CI/CD?
+Continuous integration and continuous delivery is a streamlined development lifecycle process.
+[Learn about CI/CD](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-ci-cd.html)
+### What is cloud computing?
+Cloud computing is the delivery of on-demand computing services, such as SaaS, over the internet.
+[Learn about cloud computing](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-cloud-computing.html)
+### What is cloud monitoring?
+Cloud monitoring evaluates cloud-based infrastructure availability, performance, and security.
+[Learn about cloud monitoring](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-cloud-monitoring.html)
+### What is cloud networking?
+Cloud networking is a strategy to help ensure performance and security of as-a-service (aaS) apps.
+[Learn about cloud networking](https://www.cisco.com/site/us/en/learn/topics/cloud-networking/what-is-cloud-networking.html)
+### What is cloud operations?
+Cloud operations manage cloud infrastructure and services for performance, security, and efficiency.
+[Learn about cloud operations](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-cloud-operations.html)
+### What is cloud orchestration?
+Cloud orchestration is the combined automation of applications and workloads across cloud platforms.
+[Learn about cloud orchestration](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-cloud-orchestration.html)
+### What is cloud security?
+Cloud security helps defend online IP, services, applications, and more against malicious activity.
+[Learn about cloud security](https://www.cisco.com/site/us/en/learn/topics/security/what-is-cloud-security.html)
+### What is cloud workload protection?
+Cloud workload protection keeps application workloads across cloud and hybrid environments secure.
+[Learn about cloud workload protection](https://www.cisco.com/site/us/en/learn/topics/security/what-is-cloud-workload-protection.html)
+### What is CMMC?
+The Cybersecurity Maturity Model Certification (CMMC) is a DoD security program for contractors.
+[Learn about CMMC](https://www.cisco.com/site/us/en/learn/topics/security/what-is-cmmc.html)
+### What is computer networking?
+Computer networking refers to connected devices that communicate with one another.
+[Learn about computer networking](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-computer-networking.html)
+### What is configuration management? 
+Configuration management identifies and tracks IT assets, their status, and their relationships.
+[Learn about configuration management](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-configuration-management.html)
+### What is contact tracing?
+Contact tracing provides the vital ability to anonymously track and analyze the spread of disease.
+[Learn about contact tracing](https://www.cisco.com/site/us/en/learn/topics/general/what-is-contact-tracing.html)
+### What is container orchestration?
+Container orchestration is a process for managing containerized software and applications.
+[Learn about container orchestration](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-container-orchestration.html)
+### What is converged infrastructure?
+A converged infrastructure merges an integrated, end-to-end IT ecosystem into one unified solution.
+[Learn about converged infrastructure](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-converged-infrastructure.html)
+### What is cyber insurance?
+Cyber insurance products are designed to help businesses hedge against the impact of cybercrimes.
+[Learn about cyber insurance](https://www.cisco.com/site/us/en/learn/topics/security/what-is-cyber-insurance.html)
+### What is cyber resilience?
+Cyber resilience is a strategy for stopping breaches, mitigating risk, and improving recovery time.
+[Learn about cyber resilience](https://www.cisco.com/site/us/en/learn/topics/security/what-is-cyber-resilience.html)
+### What is cyber threat intelligence?
+Cyberthreat intelligence is a collection of findings that help inform threat defense.
+[Learn about cyber threat intelligence](https://www.cisco.com/site/us/en/learn/topics/security/what-is-cyber-threat-intelligence.html)
+### What is cybercrime? 
+Cybercrime is illegal activity involving computers, the internet, or network devices.
+[Learn about cybercrime](https://www.cisco.com/site/us/en/learn/topics/security/what-is-cybercrime.html)
+### What is cybersecurity?
+Cybersecurity is the convergence of people, processes, and technology that combine to protect organizations, individuals, or networks from digital attacks.
+[Learn about cybersecurity](https://www.cisco.com/site/us/en/learn/topics/security/what-is-cybersecurity.html)
+### What is data center analytics?
+Data center analytics use big data, machine learning, and math modeling to boost operations.
+[Learn about data center analytics](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-dc-analytics.html)
+### What is data center modernization?
+Strategic initiative to transition aging IT environments into agile, high-performance ecosystems.
+[Learn about data center modernization](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-data-center-modernization.html)
+### What is data center networking?
+Architecture and technologies used to connect servers and storage within a data center environment.
+[Learn about data center networking](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-data-center-networking.html)
+### What is data center security?
+Data center security references the practice of applying security controls to a data center.
+[Learn about data center security](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-configuration-management.html)
+### What is DCIM?
+Data Center Infrastructure Management software for monitoring and optimizing data center resources.
+[Learn about DCIM](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-data-center-infrastructure-management.html)
+### What is device security?
+Securing mobile phones, laptops, PCs, and Internet of Things (IoT) devices from unauthorized access.
+[Learn about device security](https://www.cisco.com/site/us/en/learn/topics/security/what-is-device-security.html)
+### What is DevOps?
+DevOps unifies development and IT operations teams to improve quality and speed up deployments.
+[Learn about DevOps](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-devops.html)
+### What is digital transformation?
+Digital transformation simply means digitizing processes, such as moving to a digitized inventory.
+[Learn about digital transformation](https://www.cisco.com/site/us/en/learn/topics/small-business/digital-transformation.html)
+### What is disaster recovery?
+Disaster recovery is the process organizations implement to recover from unexpected security events.
+[Learn about disaster recovery](https://www.cisco.com/site/us/en/learn/topics/security/what-is-disaster-recovery.html)
+### What is DLP?
+Data loss prevention (DLP) technologies stop sensitive information from leaving an organization.
+[Learn about DLP](https://www.cisco.com/site/us/en/learn/topics/security/what-is-data-loss-prevention-dlp.html)
+### What is DMARC?
+DMARC is an open protocol that leverages DNS to verify email senders.
+[Learn about DMARC](https://www.cisco.com/site/us/en/learn/topics/security/what-is-dmarc.html)
+### What is DNSSEC?
+A Domain Name System Security Extension (DNS) can help to verify and protect against DNS attacks.
+[Learn about DNSSEC](https://umbrella.cisco.com/blog/what-is-dnssec-and-why-is-it-important)
+### What is Duo?
+Duo is a two-factor authentication (2FA) solution for device trust verification.
+[Learn about Duo](https://www.cisco.com/site/us/en/learn/topics/security/what-is-duo.html)
+### What is edge AI?
+Explore how edge AI processes data locally for faster insights and better real-time decision-making.
+[Learn about edge AI](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-edge-ai.html)
+### What is edge computing?
+Edge computing distributes computing/storage closer to devices for low latency, resource efficiency.
+[Learn about edge computing](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-edge-computing.html)
+### What is EDR?
+Endpoint detection and response (EDR) solutions detect and eliminate threats before they can spread.
+[Learn about EDR](https://www.cisco.com/site/us/en/learn/topics/security/what-is-endpoint-detection-response-edr-medr.html)
+### What is email encryption?
+Email encryption protects the contents of your emails.
+[Learn about email encryption](https://www.cisco.com/site/us/en/learn/topics/security/what-is-email-encryption.html)
+### What is email security?
+Email security is a strategy to help guard against cyberattacks.
+[Learn about email security](https://www.cisco.com/site/us/en/learn/topics/security/what-is-email-security.html)
+### What is employee monitoring?
+Employee monitoring uses technology to help track workforce performance, productivity, and safety.
+[Learn about employee monitoring](https://www.cisco.com/site/us/en/learn/topics/general/what-is-employee-monitoring.html)
+### What is encryption?
+Encryption is data protection through coding.
+[Learn about encryption](https://www.cisco.com/site/us/en/learn/topics/security/what-is-encryption.html)
+### What is endpoint analytics?
+Endpoint analytics is a way to identify, verify, and build profiles for all devices on a network.
+[Learn about endpoint analytics](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-endpoint-analytics.html)
+### What is endpoint management?
+Endpoint management is the process of controlling endpoint devices connected to a network.
+[Learn about endpoint management](https://www.cisco.com/site/us/en/learn/topics/security/what-is-endpoint-management.html)
+### What is endpoint security?
+Endpoint security solutions defend endpoints like mobile devices, computers, and IoT devices.
+[Learn about endpoint security](https://www.cisco.com/site/us/en/learn/topics/security/what-is-endpoint-security.html)
+### What is EPP?
+Endpoint protection platforms are integrated security solutions protecting endpoints from malware.
+[Learn about EPP](https://www.cisco.com/site/us/en/learn/topics/security/what-is-an-endpoint-protection-platform.html)
+### What is Ethernet?
+Ethernet technology helps network-connected devices follow a set of rules to communicate.
+[Learn about Ethernet](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-ethernet.html)
+### What is genAI?
+Learn about generative AI's role in creating innovative content and transforming digital experiences.
+[Learn about generative AI](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-generative-ai-genai.html)
+### What is high availability?
+High-availability cloud infrastructure delivers continuous operations for cloud applications.
+[Learn about high availability](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-high-availability.html)
+### What is hybrid cloud?
+A hybrid cloud is any combination of two or more cloud environments that can be centrally managed.
+[Learn about hybrid cloud](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-hybrid-cloud.html)
+### What is hybrid work?
+Hybrid work is a flexible work model that supports in-office, remote, and on-the-go workers.
+[Learn about hybrid work](https://www.cisco.com/site/us/en/learn/topics/general/what-is-hybrid-work.html)
+### What is IAM?
+Identity and access management (IAM) defines user roles and access rights for digital identities.
+[Learn about IAM](https://www.cisco.com/site/us/en/learn/topics/security/what-is-identity-access-management.html)
+### What is IIoT?
+An industrial IoT (IIoT) ecosystem collects, monitors, and analyzes data from industrial operations.
+[Learn about IIoT](https://www.cisco.com/site/us/en/learn/topics/industrial-iot/what-is-industrial-iot.html)
+### What is Industry 4.0?
+Industry 4.0 integrates operations with IT and business processes for smarter decisions.
+[Learn about Industry 4.0](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-industry-4-0.html)
+### What is information security?
+InfoSec refers to the network security process and tools to protect sensitive business information.
+[Learn about information security](https://www.cisco.com/site/us/en/learn/topics/security/what-is-information-security-infosec.html)
+### What is infrastructure as code?
+An infrastructure as code (IaC) process automates the provisioning and management of IT resources.
+[Learn about infrastructure as code](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-iac.html)
+### What is inventory management?
+Inventory management tracks goods from manufacturer to warehouses to store shelves to the customer.
+[Learn about inventory management](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-inventory-management.html)
+### What is IoT (Internet of Things)?
+IoT connects objects or applications in the cloud, making them intelligent and interactive.
+[Learn about IoT](https://www.cisco.com/site/us/en/learn/topics/industrial-iot/what-is-iot.html)
+### What is IPv6?
+IPv6 is an Internet Protocol (IP) designed to support the predicted growth of connected devices.
+[Learn about IPv6](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-ipv6.html)
+### What is IT security?
+IT security is a strategy that prevents unauthorized access to assets while blocking hackers.
+[Learn about IT security](https://www.cisco.com/site/us/en/learn/topics/security/what-is-it-security.html)
+### What is IT?
+Information technology (IT) is associated with management of networking hardware and applications.
+[Learn about IT](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-information-technology-it.html)
+### What is ITSM in networking?
+ITSM allows businesses to create and monitor IT services while improving the network experience.
+[Learn about ITSM in networking](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-itsm-in-networking.html)
+### What is Kubernetes?
+Kubernetes is an open-source software platform automating container-based application deployment.
+[Learn about Kubernetes](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-kubernetes.html)
+### What is location analytics?
+Location analytics uses data from devices for insights about end-user productivity and efficiency.
+[Learn about location analytics](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-location-analytics.html)
+### What is low latency?
+Low latency minimizes the delay between an IT user's request and its completion.
+[Learn about low latency](https://www.cisco.com/site/us/en/learn/topics/cloud-networking/what-is-low-latency.html)
+### What is malware?
+Malicious software is designed to steal data and damage or destroy computers or computer systems.
+[Learn about malware](https://www.cisco.com/site/us/en/learn/topics/security/what-is-malware.html)
+### What is MDR?
+Managed detection and response (MDR) monitors security data for faster threat detection.
+[Learn about MDR](https://www.cisco.com/site/us/en/learn/topics/security/what-is-managed-detection-and-response-mdr.html)
+### What is MFA?
+Multi-factor authentication (MFA) is a best practice for verifying user identity.
+[Learn about MFA](https://www.cisco.com/site/us/en/learn/topics/security/what-is-multi-factor-authentication-mfa.html)
+### What is micro-segmentation?
+Micro-segmentation isolates application workloads to deliver consistent security policies.
+[Learn about micro-segmentation](https://www.cisco.com/site/us/en/learn/topics/security/what-is-micro-segmentation.html)
+### What is MITRE ATT&CK?
+This repository of hacker tactics helps users understand how they think and work.
+[Learn about MITRE ATT&CK](https://www.cisco.com/site/us/en/learn/topics/security/what-is-mitre-attck.html)
+### What is mobile device security?
+Mobile device security protects portable devices and the network they're connected to.
+[Learn about mobile device security](https://www.cisco.com/site/us/en/learn/topics/small-business/mobile-device-security.html)
+### What is Model Context Protocol?
+An open standard that enables AI models to securely connect to data sources and development tools.
+[Learn about MCP](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-model-context-protocol-mcp.html)
+### What is modular computing?
+Modular computing provides a framework to optimize servers for specific apps by pooling resources.
+[Learn about modular computing](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-modular-computing.html)
+### What is MPLS?
+MPLS helps build next-gen networks for advanced, value-added services, over one infrastructure.
+[Learn about MPLS](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-multiprotocol-label-switching-mpls.html)
+### What is MQTT?
+MQTT is a lightweight messaging for efficient IoT communication, even with limited bandwidth.
+[Learn about MQTT](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-message-queuing-telemetry-transport-mqtt.html)
+### What is MU-MIMO?
+MU-MIMO lets access points transmit data to multiple Wi-Fi-capable clients simultaneously.
+[Learn about MU-MIMO](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-mu-mimo.html)
+### What is multi-region fabric?
+Multi-region fabric is a suite of capabilities designed to streamline complex WAN deployments.
+[Learn about multi-region fabric](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-multi-region-fabric.html)
+### What is multi-tenancy?
+Multi-tenancy enables MSPs to log in to a single GUI to manage and monitor multiple end customers.
+[Learn about multi-tenancy](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-multi-tenancy.html)
+### What is multicloud?
+Multicloud refers to the consumption of cloud services from two or more public cloud providers.
+[Learn about multicloud](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-multicloud.html)
+### What is NaaS?
+NaaS is a cloud subscription model to operate a network without owning physical assets.
+[Learn about NaaS](https://www.cisco.com/c/en/us/solutions/enterprise-networks/network-as-service-naas.html)
+### What is NAT?
+NAT translates internal IP addresses to external, enabling their use of the internet and cloud.
+[Learn about NAT](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-address-translation-nat.html)
+### What is NDR?
+Network detection and response (NDR) solutions are designed to detect and respond to threats.
+[Learn about NDR](https://www.cisco.com/site/us/en/learn/topics/security/what-is-network-detection-response.html)
+### What is neocloud?
+Neocloud providers offer specialized, high-performance infrastructure designed to power AI workloads
+[Learn about neocloud](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-neocloud.html)
+### What is NetOps?
+NetOps is an approach to network operations that focuses on agility and rapid deployments.
+[Learn about NetOps](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-netops.html)
+### What is network access control?
+Network access control (NAC) solutions increase network visibility and access management.
+[Learn about network access control](https://www.cisco.com/site/us/en/learn/topics/security/what-is-network-access-control-nac.html)
+### What is network analytics?
+Network analytics is any process where data is collected and analyzed for improving performance.
+[Learn about network analytics](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-analytics.html)
+### What is network architecture?
+Network architecture is the way network devices and services are organized to connect clients.
+[Learn about network architecture](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-architecture.html)
+### What is network automation?
+Network automation is the process of automating configuration and management network devices.
+[Learn about network automation](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-automation.html)
+### What is network design?
+Network design, or network topology, is the arrangement of infrastructure in an IT network.
+[Learn about network design](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-design.html)
+### What is network infrastructure?
+Network infrastructure is the hardware and software enabling network connectivity and communication.
+[Learn about network infrastructure](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-infrastructure.html)
+### What is network management?
+Network management is the process of administering, managing, and operating a data network.
+[Learn about network management](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-management.html)
+### What is network monitoring?
+Network monitoring helps administrators run networks optimally and find deficiencies quickly.
+[Learn about network monitoring](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-monitoring.html)
+### What is network orchestration?
+Network orchestration refers to the coordinated actions of a network controller.
+[Learn about network orchestration](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-orchestration.html)
+### What is network policy?
+Network policy is a set of rules that govern network device behaviors.
+[Learn about network policy](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-policy.html)
+### What is network programming?
+Network programming uses code to enable communication between programs and processes.
+[Learn about network programming](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-programming.html)
+### What is network provisioning?
+Network provisioning allows network access to authorized users and devices with a focus on security.
+[Learn about network provisioning](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-provisioning.html)
+### What is network security?
+Network security is a suite of security technologies that protect a network and data.
+[Learn about network security](https://www.cisco.com/site/us/en/learn/topics/security/what-is-network-security.html)
+### What is network segmentation?
+Network segmentation improves security and performance by dividing a network into smaller parts.
+[Learn about network segmentation](https://www.cisco.com/site/us/en/learn/topics/security/what-is-network-segmentation.html)
+### What is network switching?
+Switching in IT and computer networking is the transfer of data packets through a network switch.
+[Learn about network switching](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-switching.html)
+### What is network topology?
+Network topology is diagramming a network to map the way nodes are placed and interconnected.
+[Learn about network topology](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-topology.html)
+### What is network traffic analysis?
+Network traffic analysis helps identify suspicious activities or anomalies.
+[Learn about network traffic analysis](https://www.cisco.com/site/us/en/learn/topics/security/what-is-network-traffic-analysis.html)
+### What is network troubleshooting?
+Network troubleshooting practices discover and correct network problems.
+[Learn about network troubleshooting](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-network-troubleshooting.html)
+### What is networking software?
+Networking software enables the control, management, and monitoring of networks.
+[Learn about networking software](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-networking-software.html)
+### What is NG911?
+NG911 is a nationwide, US legal movement to replace outdated emergency communication infrastructure.
+[Learn about NG911](https://www.cisco.com/site/us/en/learn/topics/collaboration/what-is-next-generation-911-karis-law.html)
+### What is NVMe?
+Non-Volatile Memory Express is a protocol that takes advantage of the speed and support of SSD.
+[Learn about NVMe](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-nvme.html)
+### What is observability?
+Observability applications detect issues in a technology stack by monitoring inputs and outputs.
+[Learn about observability](https://www.splunk.com/en_us/blog/learn/observability.html)
+### What is OFDMA?
+Orthogonal frequency-division multiple access (OFDMA) is a Wi-Fi 6 network technology.
+[Learn about OFDMA](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-ofdma.html)
+### What is Open RAN?
+Open Radio Access Network (ORAN) allows interoperation of cellular networks from different vendors.
+[Learn about ORAN](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-open-ran-oran.html)
+### What is OT security?
+Best practices to protect industrial networks and critical infrastructures from cyber threats.
+[Learn about OT security](https://www.cisco.com/site/us/en/learn/topics/security/what-is-ot-security.html)
+### What is penetration testing?
+Penetration testing is a cyberattack simulation launched on a system to help discover weaknesses.
+[Learn about penetration testing](https://www.cisco.com/site/us/en/learn/topics/security/what-is-pen-testing.html)
+### What is phishing?
+Learn about the various types of phishing attacks and prevention methods.
+[Learn about phishing](https://www.cisco.com/site/us/en/learn/topics/security/what-is-phishing.html)
+### What is physical AI?
+Physical AI is the integration of artificial intelligence into hardware for real-world tasks.
+[Learn about physical AI](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-physical-ai.html)
+### What is PoE lighting?
+Power over ethernet (PoE) lighting uses ethernet technology to power and control LED fixtures.
+[Learn about PoE lighting](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-poe-lighting.html)
+### What is PON?
+Passive optical networking (PON) provides ethernet connectivity using passive optical splitting.
+[Learn about PON](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-passive-optical-networking.html)
+### What is post-quantum cryptography?
+Post-quantum cryptography (PQC) secures data against threats from quantum computers.
+[Learn about PQC](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-post-quantum-cryptography.html)
+### What is Power over Ethernet (PoE)?
+Power over Ethernet (PoE) delivers independent DC power to devices over copper Ethernet cabling.
+[Learn about PoE](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-power-over-ethernet.html)
+### What is predictive analytics?
+Predictive analytics use data mining, modeling, statistics, and AI/ML for advanced analysis.
+[Learn about predictive analytics](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-predictive-analytics.html)
+### What is predictive maintenance?
+PdM uses IoT and data to predict equipment failures, extending asset life and saving costs.
+[Learn about predictive maintenance](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-predictive-maintenance.html)
+### What is RAG?
+Retrieval-Augmented Generation: connecting LLMs to external data for accurate responses.
+[Learn about RAG](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/retrieval-augmented-generation-rag.html)
+### What is ransomware?
+Ransomware is malware that encrypts data, requiring a ransom to be paid before decryption.
+[Learn about ransomware](https://www.cisco.com/site/us/en/learn/topics/security/what-is-ransomware.html)
+### What is responsible AI?
+Understand responsible AI principles for ethical, transparent and accountable technology development.
+[Learn about responsible AI](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-responsible-ai.html)
+### What is risk management?
+Risk management in cybersecurity identifies and minimizes potential risks or threats.
+[Learn about risk management](https://www.cisco.com/site/us/en/learn/topics/security/what-is-risk-management.html)
+### What is routing?
+Routing in networking uses rules to enable network-connected devices to communicate together.
+[Learn about routing](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-routing.html)
+### What is SAML?
+Security assertion markup language (SAML) simplifies user login experiences.
+[Learn about SAML](https://www.cisco.com/site/us/en/learn/topics/security/what-is-saml.html)
+### What is SASE?
+With a secure access service edge (SASE) model, you can securely connect users to applications.
+[Learn about SASE](https://www.cisco.com/site/us/en/learn/topics/security/what-is-secure-access-service-edge-sase.html)
+### What is SCRM?
+A supply chain risk management approach helps you understand and mitigate supplier risk.
+[Learn about SCRM](https://www.cisco.com/site/us/en/learn/topics/security/what-is-supply-chain-risk-management-scrm.html)
+### What is SD-Access?
+Software-defined access (SD-Access) helps organizations enable policy-based network automation.
+[Learn about SD-Access](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-software-defined-access.html)
+### What is SD-WAN?
+SD-WAN is a software-defined approach to managing a wide-area network, or WAN.
+[Learn about SD-WAN](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-sd-wan.html)
+### What is SDCI?
+SDCI provides automated connectivity to any infrastructure-as-a-service (IaaS) environment.
+[Learn about SDCI](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-sdci.html)
+### What is secure email?
+Secure email provides layered protection against attacks.
+[Learn about secure email](https://www.cisco.com/site/us/en/learn/topics/security/what-is-secure-email.html)
+### What Is Secure Remote Access?
+Secure remote access allows authorized users a corporate network connection via authorized devices.
+[Learn about secure remote access](https://www.cisco.com/site/us/en/learn/topics/security/what-is-secure-remote-access.html)
+### What is security resilience?
+Security resilience is a strategy to help protect against threats.
+[Learn about security resilience](https://www.cisco.com/site/us/en/learn/topics/security/what-is-security-resilience.html)
+### What is security software?
+Security software helps protect networks and endpoints like servers, laptops, and mobile devices.
+[Learn about security software](https://www.cisco.com/site/us/en/learn/topics/security/what-is-security-software.html)
+### What is shadow IT?
+Shadow IT refers to the undisclosed deployment of cloud services, hardware, and software.
+[Learn about shadow IT](https://www.cisco.com/site/us/en/learn/topics/security/what-is-shadow-it.html)
+### What is SIEM?
+SIEM stands for security information and event management.
+[Learn about SIEM](https://www.cisco.com/site/us/en/learn/topics/security/what-is-siem.html)
+### What is social engineering?
+Social engineering is a malicious tactic used to gain trust and obtain information.
+[Learn about social engineering](https://www.cisco.com/site/us/en/learn/topics/security/what-is-social-engineering.html)
+### What is software-as-a-service?
+SaaS is subscription-based software, accessed on the web rather than installed on local computers.
+[Learn about SaaS](https://www.cisco.com/site/us/en/learn/topics/software/what-is-software-as-a-service-saas.html)
+### What is sovereign AI?
+AI systems aligned with a nation's laws, data privacy, and cultural values.
+[Learn about sovereign AI](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-sovereign-ai.html)
+### What is sovereign cloud?
+Cloud services subject to the laws and data residency requirements of the country where it operates.
+[Learn about sovereign cloud](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-sovereign-cloud.html)
+### What is spam email?
+Spam email is unsolicited and unwanted junk email sent out in bulk to indiscriminate recipients.
+[Learn about spam email](https://www.cisco.com/site/us/en/learn/topics/security/what-is-spam.html)
+### What is spear phishing?
+A targeted form of phishing scam in which cybercriminals send emails targeting specific individuals.
+[Learn about spear phishing](https://www.cisco.com/site/us/en/learn/topics/security/what-is-spear-phishing.html)
+### What is spoofing?
+Spoofing is a way to trick a user and system with false requests.
+[Learn about spoofing](https://www.cisco.com/site/us/en/learn/topics/security/what-is-spoofing.html)
+### What is SSO?
+Single sign-on (SSO) enables the use of one set of credentials to access multiple applications.
+[Learn about SSO](https://www.cisco.com/site/us/en/learn/topics/security/what-is-single-sign-on-sso.html)
+### What is telehealth?
+Telehealth technology enables a provider and patient to meet without an in-person office visit.
+[Learn about telehealth](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-telehealth.html)
+### What is the NIST CFA?
+The NIST cybersecurity framework (CFA) is a set of cybersecurity best practices and recommendations.
+[Learn about NIST CFA](https://www.cisco.com/site/us/en/learn/topics/security/what-is-nist-cybersecurity-framework-csf.html)
+### What is threat detection?
+Solutions that identify and respond to security threats before they can damage systems or data.
+[Learn about threat detection](https://www.cisco.com/site/us/en/learn/topics/security/what-is-threat-detection.html)
+### What is threat hunting?
+Seek and eliminate cyberthreats with threat hunting.
+[Learn about threat hunting](https://www.cisco.com/site/us/en/learn/topics/security/what-is-threat-hunting.html)
+### What is threat modeling?
+Threat modeling is a strategy to help assess cybersecurity risks.
+[Learn about threat modeling](https://www.cisco.com/site/us/en/learn/topics/security/what-is-threat-modeling.html)
+### What is threat prevention?
+Threat prevention refers to policies and tools that protect networks from security breaches.
+[Learn about threat prevention](https://www.cisco.com/site/us/en/learn/topics/security/what-is-threat-prevention.html)
+### What is trusted access?
+Trusted access takes a zero-trust approach to authentication to help prevent attacks.
+[Learn about trusted access](https://www.cisco.com/c/en/us/products/security/cisco-trusted-access-overview.html)
+### What is user authentication policy?
+A user authentication policy verifies that access to services and applications is legitimate.
+[Learn about user authentication policy](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-user-authentication-policy.html)
+### What is user security?
+User security protects an organization’s users and endpoints from digital threats.
+[Learn about user security](https://www.cisco.com/site/us/en/learn/topics/security/what-is-user-security.html)
+### What is VDI?
+Virtual Desktop Infrastructure lets IT departments host and manage desktops on virtual machines.
+[Learn about VDI](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-vdi.html)
+### What is virtualization?
+Virtualization creates versions of physical resources on virtual machines or in containers.
+[Learn about virtualization](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-virtualization.html)
+### What is vishing?
+Voice phishing (vishing) fraudulent phone calls trick victims into providing sensitive information.
+[Learn about vishing](https://www.cisco.com/site/us/en/learn/topics/security/what-is-vishing.html)
+### What is VoIP security?
+Voice over IP (VoIP) security protects voice communication.
+[Learn about VoIP security](https://www.cisco.com/site/us/en/learn/topics/small-business/tips-ip-phone-security.html)
+### What is vulnerability management?
+Identify and remediate weaknesses with vulnerability management.
+[Learn about vulnerability management](https://www.cisco.com/site/us/en/learn/topics/security/what-is-vulnerability-management.html)
+### What is WAF?
+A web application firewall (WAF) protects web applications against common web-based threats.
+[Learn about WAF](https://www.cisco.com/site/us/en/learn/topics/security/what-is-web-application-firewall-waf.html)
+### What is Wi-Fi 7?
+Wi-Fi 7 (802.11be) is the latest standard, offering enhanced performance, speed, and efficiency. 
+[Learn about Wi-Fi 7](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-wi-fi-7.html)
+### What is Wi-Fi security?
+Wi-Fi security protects wireless devices and networks to prevent unauthorized access.
+[Learn about Wi-Fi security](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-wi-fi-security.html)
+### What is Wi-Fi?
+Wi-Fi is a technology allowing computers, smart devices, and other equipment to access the Internet.
+[Learn about Wi-Fi](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-wi-fi.html)
+### What is XDR?
+Extended detection and response (XDR) delivers visibility to remediate security threats.
+[Learn about XDR](https://www.cisco.com/site/us/en/learn/topics/security/what-is-xdr.html)
+### What is XMPP?
+XMPP is a flexible open-standard protocol for real-time messaging, IoT, and multimedia.
+[Learn about XMPP](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-extensible-messaging-and-presence-protocol-xmpp.html)
+### What is Zero Trust?
+Learn about accelerate adoption of zero trust architecture across clouds, networks, and applications. Discover technologies used enable zero trust security.
+[Learn about zero trust](https://www.cisco.com/site/us/en/learn/topics/security/what-is-zero-trust.html)
+### What is zero-trust networking?
+Zero-trust networks use ongoing authentication to monitor every attempt to gain access.
+[Learn about zero-trust networking](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-zero-trust-networking.html)
+### What is ZTNA?
+Zero Trust Network Access (ZTNA) is a strategy to verify users' access.
+[Learn about ZTNA](https://www.cisco.com/site/us/en/learn/topics/security/what-is-zero-trust-network-access-ztna.html)
+### Wi-Fi 6 versus Wi-Fi 6E
+Wi-Fi 6E builds on the Wi-Fi 6 standard, operating in the 6-GHz band.
+[Learn about Wi-Fi 6 and Wi-Fi 6E](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-wifi-6-vs-wifi-6e.html)
+* * *
+Show more
+* * *
+[Back](javascript:;)
+[1](javascript:;)[2](javascript:;)[3](javascript:;)...[30](javascript:;)
+[1](javascript:;)[2](javascript:;)[3](javascript:;)[4](javascript:;)[5](javascript:;)...[30](javascript:;)
+[Next](javascript:;)
+300 Results
+###  Quick Links
+  * [About Cisco](https://www.cisco.com/site/us/en/about/index.html)
+  * [Contact Us](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=ftr-contactus)
+  * [Careers](https://careers.cisco.com/global/en/home)
+  * [Connect with a partner](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+
+
+* * *
+###  Resources and Legal
+  * [Feedback](https://ciscocx.qualtrics.com/jfe/form/SV_bwrmeoKrBHYxOyW?Ref=/c/en/us/index.html)
+  * [Help](https://www.cisco.com/c/en/us/about/help.html)
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy  
+](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies / Do not sell or share my personal data  
+](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Accessibility](https://www.cisco.com/c/en/us/about/accessibility.html)
+  * [Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+  * [Supply Chain Transparency](https://www.cisco.com/c/dam/en_us/about/supply-chain/cisco-modern-slavery-statement.pdf)
+  * [Newsroom](https://newsroom.cisco.com/c/r/newsroom/en/us/index.html)
+  * [Sitemap](https://www.cisco.com/site/us/en/about/sitemap.html)
+
+
+* * *
+  * [ ](https://www.facebook.com/cisco/ "Facebook")
+  * [ ](https://x.com/Cisco/ "X")
+  * [ ](https://www.linkedin.com/company/cisco "LinkedIn")
+  * [ ](https://www.youtube.com/user/cisco "YouTube")
+  * [ ](https://www.instagram.com/cisco/ "Instagram")
+
+
+© 2026 Cisco Systems, Inc.
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+![dot image pixel](https://sp.analytics.yahoo.com/sp.pl?a=1000177780039&d=Thu%2C%2013%20Aug%202026%2002%3A52%3A42%20GMT&n=0&b=Technology%20Learning%20Topics%20-%20Cisco&.yp=438561&f=https%3A%2F%2Fwww.cisco.com%2Fsite%2Fus%2Fen%2Flearn%2Ftopics%2Findex.html%3Ffilters%3D%26search%3D%26sort%3Da-z%26filterby%3D%26showMore%3D%23tabs-9da71fbd27-item-1288c79d71-tab&enc=UTF-8&yv=1.17.1&et=custom&tagmgr=tealium)
