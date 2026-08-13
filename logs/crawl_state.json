@@ -8278,5 +8278,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-chats/list-meeting-chats": {
     "hash": "f89e17f4e471becda3484bf349d267a5d7fa6192e60633bcd920957cc6e5ab17",
     "timestamp": "2026-08-13T02:18:15.596219"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-closed-captions/list-meeting-closed-captions": {
+    "hash": "4a96ed5b428d2acceee0ca54577f6c9ff13b92bd2278a34a0cf19fd61e80c578",
+    "timestamp": "2026-08-13T02:18:21.921538"
   }
 }
