@@ -8466,5 +8466,9 @@
   "https://developer.webex.com/admin/docs/api/v1/classifications": {
     "hash": "49f65964c4900cbb4ac7ff0c468d71adecc58fd8643a620eaae4479f54e3a147",
     "timestamp": "2026-08-13T02:24:19.991181"
+  },
+  "https://developer.webex.com/docs/api/v1/room-tabs": {
+    "hash": "067ec68bab5427984454b7525184d906ee4030a55a4dcc98b3dadf310a23b769",
+    "timestamp": "2026-08-13T02:24:25.328813"
   }
 }
