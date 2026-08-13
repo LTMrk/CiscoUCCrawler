@@ -39764,3 +39764,179 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/devices/docs/calling-device-id-guide
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/devices/docs/calling-device-id-guide)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/devices/docs/calling-device-id-guide)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/devices/docs/calling-device-id-guide)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Calling Device ID Guide
+Devices
+  * [Room OS](https://roomos.cisco.com/doc/Welcome/Welcome)
+  * [Overview](https://developer.webex.com/devices/docs/devices)
+  * Guides
+    * [Devices](https://developer.webex.com/devices/docs/api/guides/device-developers-guide)
+    * [Calling Device ID Guide](https://developer.webex.com/devices/docs/calling-device-id-guide)
+  * API REFERENCE
+  * All APIs
+  * [Troubleshoot the API](https://developer.webex.com/devices/docs/api/guides/troubleshooting)
+
+
+## Devices
+### Calling Device ID Guide
+The [Webex Calling Platform](https://developer.webex.com/docs/webex-calling-overview) supports a variety of calling capable device types/products, generically referred to as devices. Developers can better utilize device related APIs by understanding the types of device identifier (deviceId), their lifecycles, and recent improvements in the handling and presentation of device identifiers in Webex APIs.
+This guide provides details about extensions of deviceId handling in a couple of APIs, and also information about the deviceId types, lifecycles, and usage.
+####  anchorWhat's New
+anchor
+Improvements to the discovery and use of deviceIds have been made in the [List Devices API (GET /v1/devices)](https://developer.webex.com/docs/api/v1/devices/list-devices) and the [Get Device Details API (GET /v1/devices/{deviceId})](https://developer.webex.com/docs/api/v1/devices/get-device-details).
+###### New identifier fields reported by the [List Devices API (GET /v1/devices)](https://developer.webex.com/docs/api/v1/devices/list-devices) and the [Get Device Details API (GET /v1/devices/{deviceId})](https://developer.webex.com/docs/api/v1/devices/get-device-details)
+Two new attributes have been added to the [List Devices API (GET /v1/devices)](https://developer.webex.com/docs/api/v1/devices/list-devices) and the [Get Device Details API (GET /v1/devices/{deviceId})](https://developer.webex.com/docs/api/v1/devices/get-device-details):
+  * `webexDeviceId` - this field is returned when a device has a `DEVICE` type ID and is suitable for use with Webex APIs like `/v1/deviceConfiguration`.
+  * `callingDeviceId` - this field is returned when a device has a `CALLING_DEVICE` type ID; it can be used with Webex Calling APIs like the `/v1/telephony/config` API.
+
+
+NOTE: The type and visibility of the existing `id` field in the [List Devices API (GET /v1/devices)](https://developer.webex.com/docs/api/v1/devices/list-devices) and the [Get Device Details API (GET /v1/devices/{deviceId})](https://developer.webex.com/docs/api/v1/devices/get-device-details) remains unchanged.
+###### New identifier type accepted by the [Get Device Details API (GET /v1/devices/{deviceId})](https://developer.webex.com/docs/api/v1/devices/get-device-details) API
+When available, now, either the `DEVICE` or the `CALLING_DEVICE` type ID values can be used as {deviceId} in the [Get Device Details API (GET /v1/devices/{deviceId})](https://developer.webex.com/docs/api/v1/devices/get-device-details) API requests.
+####  anchorBackground: Device ID types in Public APIs
+anchor
+###### Types of Device ID
+Device IDs in public APIs can be categorized as
+  * `DEVICE`
+  * `CALLING_DEVICE`
+  * `PERIPHERAL`
+
+
+Devices can have more than one ID type. Each device can have, at most, one ID of a given device type. For example, a device may have both a `DEVICE` ID and a `CALLING_DEVICE` ID, but it can only have one of each.
+###### Public Device ID Examples
+The general format of Webex IDs including deviceIds can be found in the What the Base? [Decoding Webex API IDs Blog](https://developer.webex.com/blog/what-the-base-decoding-webex-api-ids). The deviceId includes _type prefix_ and the _UUID_ of the specific device.
+###### DEVICE type IDs
+`DEVICE` type IDs are available for devices known by and interacting with Webex suite services. They are used in Public APIs to identify RoomOS and PhoneOS devices for device configuration (`/v1/deviceConfiguration`). `DEVICE` type IDs are only available for RoomOS, PhoneOS and Webex Aware devices.
+  * The `id` field in the [List Devices API (GET /v1/devices)](https://developer.webex.com/docs/api/v1/devices/list-devices) can be a `DEVICE` type ID. 
+  * The `webexDeviceId` field, when present in the response from the [List Devices API (GET /v1/devices)](https://developer.webex.com/docs/api/v1/devices/list-devices) is a `DEVICE` type ID.
+
+
+###### CALLING_DEVICE type IDs
+`CALLING_DEVICE` type IDs are available for devices known by and interacting with Webex Calling. They are used in Public APIs to identify RoomOS, PhoneOS, MPP and even customer-managed and partner-managed devices. Webex Calling device configuration requires the deviceId to be a `CALLING_DEVICE` ID. Webex Calling device configuration is supported for RoomOS, PhoneOS and MPP; Webex Calling device configuration is not available for customer-managed nor partner-managed devices. A `CALLING_DEVICE` ID is required for configuring lines and line key layout on Cisco managed devices, and for configuring device settings on Cisco managed MPP devices (`/v1/telephony/config`).
+  * The `id` field in the [List Devices API (GET /v1/devices)](https://developer.webex.com/docs/api/v1/devices/list-devices) can be a `CALLING_DEVICE` type ID.
+  * The `callingDeviceId` field, when present in the response from the [List Devices API (GET /v1/devices)](https://developer.webex.com/docs/api/v1/devices/list-devices) is a `CALLING_DEVICE` type ID.
+
+
+###### PERIPHERAL type IDs
+`PERIPHERAL` type IDs are available for device peripherals known by and interacting with Webex suite services. They are used in public APIs to identify peripherals (typically peripherals to RoomOS systems) such as a TV, touch screen, headset etc.
+####  anchorDevice ID Lifecycles
+anchor
+Devices have different deviceId types available/assigned at different points in the device's lifecycle.
+###### Lifecycle of a `DEVICE` ID type deviceId
+The Webex `DEVICE` ID is created after the device is onboarded and when it first reaches out to the Webex system, registering as a Webex aware or Webex native device. The device saves this for use - it remains valid until the device is factory reset.
+When factory reset, the device deletes the saved `DEVICE` ID. A new `DEVICE` ID will be obtained if the device re-connects to Webex.
+###### Lifecycle of a `CALLING_DEVICE` ID type deviceId
+The `CALLING_DEVICE` ID is created when a new device is onboarded to / activated with Webex Calling.
+  * Devices added using MAC address onboarding get their permanent `CALLING_DEVICE` ID assigned immediately they are onboarded.
+  * PhoneOS and RoomOS added using activation Code onboarding get their `CALLING_DEVICE` ID assigned only when activated (when they connect to Webex Calling).
+  * Other devices added using activation Code onboarding get a **temporary** `CALLING_DEVICE` ID assigned immediately when they are onboarded, but the `CALLING_DEVICE` ID value is updated with a permanent value when the device activates (connects to Webex Calling).
+
+
+####  anchorDevice types and their associated DeviceId types
+anchor
+###### MPP phones
+MPP phones interact with Webex Calling services. If they are Webex Aware they also interact with the broader Webex suite services.
+###### MPP ID Type: `CALLING_DEVICE`
+Assignment of a `CALLING_DEVICE` ID varies depending on the onboarding mechanism selected during the device Add operation.
+  * **MAC address onboarded** : a permanent `CALLING_DEVICE` ID is immediately assigned and available for use.
+  * **Activation code onboarded** : a temporary `CALLING_DEVICE` ID is immediately assigned and available for use. The temporary ID is replaced with a permanent one when the device reaches out to Webex Calling and activates.
+
+
+In both cases, the Webex Calling device resources can be accessed/modified (e.g.: Lines, Line key Layout and device settings) using the `CALLING_DEVICE` ID, even before the device activates. When activation code onboarding is selected, the temporary ID can be used to access the Webex Calling device resources until it activates. After activation, the permanent ID must be used to access the device resources.
+###### MPP ID Type: `DEVICE`
+A Webex `DEVICE` ID is assigned to the device only after it reaches out to Webex and successfully activates.
+###### RoomOS devices
+RoomOS devices interact with both Webex Calling and the broader Webex suite services. RoomOS devices are added by activation code onboarding only. The device will not show in the [List Devices API (GET /v1/devices)](https://developer.webex.com/docs/api/v1/devices/list-devices) until the device activates.
+###### RoomOS ID Type: `CALLING_DEVICE`
+A `CALLING_DEVICE` ID is assigned to the device when it reaches out to Webex Calling and successfully activates. The device's Webex Calling resources cannot be accessed before the device activates. Once the device activates and the `CALLING_DEVICE` ID is assigned, the `CALLING_DEVICE` ID can be obtained using the [Get Person Devices API (GET /v1/device-call-settings/get-person-devices)](https://developer.webex.com/docs/api/v1/device-call-settings/get-person-devices) or the [Get Workspace Devices API (GET /v1/device-call-settings/get-workspace-devices)](https://developer.webex.com/docs/api/v1/device-call-settings/get-workspace-devices), for the device's owner ID, and then locating the device details in the list returned.
+###### RoomOS ID Type: `DEVICE`
+A Webex `DEVICE` ID is assigned to the device when it reaches out to Webex and successfully activates. The device's Webex resources cannot be accessed before the device activates.
+###### PhoneOS phones
+PhoneOS devices interact with both Webex Calling and the broader Webex suite services. For MAC address onboarded devices the device shows in the [List Devices API (GET /v1/devices)](https://developer.webex.com/docs/api/v1/devices/list-devices) as soon as it is onboarded. For Activation code onboarded devices the device will not show in the [List Devices API (GET /v1/devices)](https://developer.webex.com/docs/api/v1/devices/list-devices) until the device activates.
+###### PhoneOS ID type: `CALLING_DEVICE`
+Assignment of a `CALLING_DEVICE` ID varies depending on the onboarding mechanism selected during the device Add operation.
+  * **MAC address onboarded** : a permanent `CALLING_DEVICE` ID is immediately assigned and available for use. The device's Webex Calling resources can be accessed/modified (e.g.: Lines, Line key Layout and device settings) using the `CALLING_DEVICE` ID, even before the device activates. 
+  * **Activation code onboarded** : A `CALLING_DEVICE` ID is assigned to the device only when it reaches out to Webex Calling and successfully activates. The device's Webex Calling resources cannot be accessed before the device activates.
+
+
+When the device has its `CALLING_DEVICE` ID assigned, the `CALLING_DEVICE` ID can be obtained using the [Get Person Devices (GET /v1/device-call-settings/get-person-devices)](https://developer.webex.com/docs/api/v1/device-call-settings/get-person-devices) or the [Get Workspace Devices (GET /v1/device-call-settings/get-workspace-devices)](https://developer.webex.com/docs/api/v1/device-call-settings/get-workspace-devices), for the device's owner ID, and then locating the device details in the list returned.
+###### PhoneOS ID Type: `DEVICE`
+A Webex `DEVICE` ID is assigned to the device when it reaches out to Webex and successfully activates. The device's Webex resources cannot be accessed before the device activates.
+##### In This Article
+  * [What's New](https://developer.webex.com/devices/docs/calling-device-id-guide#whats-new)
+  * [Background: Device ID types in Public APIs](https://developer.webex.com/devices/docs/calling-device-id-guide#background-device-id-types-in-public-apis)
+  * [Device ID Lifecycles](https://developer.webex.com/devices/docs/calling-device-id-guide#device-id-lifecycles)
+  * [Device types and their associated DeviceId types](https://developer.webex.com/devices/docs/calling-device-id-guide#device-types-and-their-associated-deviceid-types)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
