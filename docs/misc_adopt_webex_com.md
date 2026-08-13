@@ -2904,3 +2904,334 @@ Industries
   * [ Healthcare ](https://adopt.webex.com/x141871.xml#healthcare "Healthcare")
 
 
+
+
+---
+# ORIGEN: https://adopt.webex.com/deploy-and-manage/devices/cisco-phones
+
+[Skip to Content](https://adopt.webex.com/#content)
+[ ![](https://adopt.webex.com/Essentials/images/Webex_adoption_logo_2x.png) ](https://adopt.webex.com/)
+  * [ Deploy and manage ](https://adopt.webex.com/#mega-19344832)
+  * [ Use the Webex Suite ](https://adopt.webex.com/#mega-28913600)
+  * [ Resources and programs ](https://adopt.webex.com/#mega-37462515)
+
+
+  * [ ![Search](https://adopt.webex.com/Content/assets/img/icons/search.svg) ](javascript:; "search")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+  * [ Download App ](https://www.webex.com/downloads.html "Download App")
+
+
+Search ![Search](https://adopt.webex.com/Content/assets/img/icons/search.svg) [ ](https://adopt.webex.com/ "Toggle menu")
+Products
+[ Get started ](https://adopt.webex.com/deploy-and-manage/webex-suite/get-started "Get started")
+  * [ Calling ](https://adopt.webex.com/x155228.xml#kits "Calling")
+  * [ Meetings ](https://adopt.webex.com/x155253.xml#kits "Meetings")
+  * [ Messaging ](https://adopt.webex.com/x155241.xml#kits "Messaging")
+  * [ Contact Center ](https://adopt.webex.com/deploy-and-manage/webex-suite/contact-center/setup "Contact Center")
+  * [ More ](https://adopt.webex.com/deploy-and-manage/webex-suite/more "More")
+
+
+Devices
+[ Get started ](https://adopt.webex.com/deploy-and-manage/devices/get-started "Get started")
+  * [ Cisco Rooms ](https://adopt.webex.com/deploy-and-manage/devices/cisco-rooms "Cisco Rooms")
+  * [ Microsoft Teams Rooms ](https://adopt.webex.com/deploy-and-manage/devices/microsoft-teams-rooms "Microsoft Teams Rooms")
+  * [ Cisco Phones ](https://adopt.webex.com/deploy-and-manage/devices/cisco-phones "Cisco Phones")
+  * [ Share resources with your team ](https://resources.webex.com/webex-essentials/cisco-devices "Share resources with your team")
+
+
+Achieve more
+[ Get to know Control Hub ](https://adopt.webex.com/deploy-and-manage/achieve-more/get-to-know-control-hub "Get to know Control Hub")
+  * [ Hybrid work ](https://adopt.webex.com/deploy-and-manage/achieve-more/hybrid-work "Hybrid work")
+  * [ Flexible workstyles ](https://adopt.webex.com/deploy-and-manage/achieve-more/flexible-workstyles "Flexible workstyles")
+
+
+Admin support
+[ Admin Support Center ](https://adopt.webex.com/deploy-and-manage/admin-support/admin-support-center "Admin Support Center")
+  * [ Deployment resources ](https://resources.webex.com/s/3kfmhmhtm2b4f7pbkkvsv "Deployment resources")
+  * [ Launch kits ](https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits "Launch kits")
+  * [ What's new in Webex ](https://help.webex.com/landing/ld-v6m1dl-What%27snewinWebex/Features "What's new in Webex")
+  * [ Webex Community ](https://community.cisco.com/t5/webex-community/ct-p/webex-user "Webex Community")
+
+
+Products
+[ Get started ](https://adopt.webex.com/use-the-webex-suite/webex-suite/get-started "Get started")
+  * [ Calling ](https://adopt.webex.com/use-the-webex-suite/webex-suite/calling "Calling")
+  * [ Meetings ](https://adopt.webex.com/use-the-webex-suite/webex-suite/meetings "Meetings")
+  * [ Messaging ](https://adopt.webex.com/use-the-webex-suite/webex-suite/messaging "Messaging")
+  * [ Contact Center ](https://adopt.webex.com/use-the-webex-suite/webex-suite/contact-center/agents "Contact Center")
+  * [ Events ](https://adopt.webex.com/use-the-webex-suite/webex-suite/events "Events")
+  * [ More ](https://adopt.webex.com/use-the-webex-suite/webex-suite/more "More")
+
+
+Do more
+[ Meet the Suite ](https://adopt.webex.com/use-the-webex-suite/do-more/meet-the-suite "Meet the Suite")
+  * [ Best practices ](https://adopt.webex.com/use-the-webex-suite/do-more/best-practices "Best practices")
+  * [ Hybrid work ](https://adopt.webex.com/use-the-webex-suite/do-more/hybrid-work "Hybrid work")
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user "Webex Community")
+
+
+Learn
+[ Adoption library ](https://resources.webex.com/portals/webex-admin "Adoption library")
+  * [ Webex Academy ](https://adopt.webex.com/resources-and-programs/resources/academy "Webex Academy")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+
+
+Resources
+  * [ Adoption methodology ](https://adopt.webex.com/resources-and-programs/resources/methodology "Adoption methodology")
+  * [ Adoption library ](https://resources.webex.com/portals/webex-admin "Adoption library")
+  * [ Admin launch kits ](https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits "Admin launch kits")
+  * [ Webex Academy ](https://adopt.webex.com/resources-and-programs/resources/academy "Webex Academy")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+
+
+Programs
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user "Webex Community")
+  * [ Webex Insider ](https://www.webex.com/insider "Webex Insider")
+  * [ Webex Beta ](https://adopt.webex.com/resources-and-programs/programs/beta "Webex Beta")
+
+
+Industries
+  * [ Education ](https://adopt.webex.com/resources-and-programs/industries/education/overview "Education")
+  * [ Government ](https://adopt.webex.com/x141871.xml#government "Government")
+  * [ Financial services ](https://adopt.webex.com/x141871.xml#financial "Financial services")
+  * [ Healthcare ](https://adopt.webex.com/x141871.xml#healthcare "Healthcare")
+
+
+#### Cisco Phones adoption guide
+# Explore
+Cisco Desk Phone 9800 Series makes communication simple with secure, flexible, and easy-to-manage features for any workspace.
+Explore this page to get an overview of the features and offerings of the 9800 series. Then use the Plan, Launch, and Grow sections to set goals, train your team, and optimize your setup.
+![](https://adopt.webex.com/Essentials/images/cisco-phones/explore-page-header.png)
+  * [ Explore ](https://adopt.webex.com/deploy-and-manage/devices/cisco-phones)
+  * [ Plan ](https://adopt.webex.com/deploy-and-manage/devices/cisco-phones/plan)
+  * [ Launch ](https://adopt.webex.com/deploy-and-manage/devices/cisco-phones/launch)
+  * [ Grow ](https://adopt.webex.com/deploy-and-manage/devices/cisco-phones/grow)
+
+
+  * [More than a phone](https://adopt.webex.com/#section-11933158)
+  * [Complete security](https://adopt.webex.com/#section-9101408)
+  * [Security for industries](https://adopt.webex.com/#section-49018251)
+  * [Action button](https://adopt.webex.com/#section-42576920)
+  * [Action button for your industry](https://adopt.webex.com/#section-10965360)
+  * [Hot desking](https://adopt.webex.com/#section-21045747)
+  * [Easy management](https://adopt.webex.com/#section-58756923)
+  * [Better user experience](https://adopt.webex.com/#section-60810330)
+  * [Adoption guides](https://adopt.webex.com/#section-43636759)
+
+
+### More than a phone
+The Cisco Desk Phone 9800 Series redefines the desk phone experience. Powered by PhoneOS, they’re easy to set up and manage all in one place. With built-in security and customizable features, these phones go beyond making calls, helping you maximize your investment.
+Discover what makes the 9800 Series unique and how to set them up for the best experience.
+![](https://adopt.webex.com/Essentials/images/cisco-phones/explore-complete-security-new.png)
+##  Complete security 
+The 9800 Series prioritizes triple-layer security, setting new standards to meet strict [security](https://www.cisco.com/c/dam/en/us/td/docs/solutions/PA/security/9800_security_technical_paper.pdf "security") protocols and protect businesses across industries with [trustworthy devices.](https://www.cisco.com/c/dam/en_us/about/doing_business/trust-center/docs/trustworthy-technologies-datasheet.pdf "trustworthy devices.")
+Enable and configure security options to ensure your calling platform operates under strict security and risk management controls, protecting your organization and users.
+[Enable security for cloud-managed Cisco phones](https://help.webex.com/en-us/article/eyjsp2/Cisco-IP-phone-security-on-9800/8875-\(Multiplatform\) "Enable security for cloud-managed Cisco phones")  
+[Enable security for on-prem Cisco phones](https://help.webex.com/en-us/article/ntlf2i6/Cisco-IP-Phone-security-on-9800/8875-\(Unified-CM\) "Enable security for on-prem Cisco phones")
+##  Security for your industry 
+Healthcare
+End-to-end encryption and a built-in firewall protect internal and patient communication against data breaches and ensure HIPAA compliance.
+Finance
+Features like TPM and SELinux secure financial transactions and encrypt sensitive customer and institutional data for PCI DSS regulations.
+Government
+Cisco Secure Boot verifies hardware, while runtime defenses block malicious code to protect data and maintain security standards.
+Retail
+PhoneOS security, including chip protection, secure transactions and customer data, preventing fraud and theft.
+## A button made for Action
+The Action button on the 9800 Series helps teams respond quickly to urgent situations. You can program up to three functions, such as emergency notifications or custom actions, to address specific needs. [Learn more.](https://blog.webex.com/workspaces/how-cisco-phones-enhance-safety-with-emergency-alert-systems/ "Learn more.")
+[Configure your action button for cloud-managed Cisco phones](https://help.webex.com/en-us/article/n22c0wy/Configure-the-Action-Button-for-9800-\(Control-Hub\) "Enable security for cloud-managed Cisco phones")  
+[Configure your action button for on-prem Cisco phones](https://help.webex.com/en-us/article/mxwa8f/Configure-the-Action-button-for-9800-\(Unified-CM\) "Enable security for on-prem Cisco phones")
+[ See how it works ](https://www.youtube.com/watch?v=UZFWkAuxvps)
+![](https://adopt.webex.com/Essentials/images/cisco-phones/new-button-made-for-action.jpg)
+##  Action button for your industry 
+Healthcare
+Page clinical staff or contact authorities quickly during emergencies using the Action button.
+Finance
+Activate a silent panic alarm and notify teams of security threats using the Action button.
+Government
+Instantly reach internal and external teams with quick dialing using custom shortcuts on the Action button.
+Education
+Ensure safety with Alyssa's Law compliance by configuring the Action button to instantly call emergency services.
+## Use office space efficiently
+Hot Desking made simple: Find an available desk by looking for the green light, sign in to personalize your phone, and easily share resources across hybrid teams.
+[ Configure Hot Desking ](https://help.webex.com/en-us/article/eb1du4/Configure-Hot-Desking-for-phones-on-Control-Hub)
+![](https://adopt.webex.com/Essentials/images/cisco-phones/explore-hot-desking-234232.png)
+##### See available spaces at a glance
+When you enter an office space, the phone’s occupancy lights quickly show where there’s an open desk. Book the desk to get started.
+[Take a look](https://help.webex.com/en-us/article/r1gu0/LED-indicators-overview "Check it out")
+![](https://adopt.webex.com/Essentials/images/cisco-phones/explore-hot-desking-234266.png)
+##### Personalize your experience
+Sign in, and your phone instantly syncs your contacts, meetings, and settings for a personalized workspace.
+[Check it out](https://help.webex.com/en-us/article/np9ml9b/Sign-in-to-a-shared-phone-\(Hot-Desking\) "Check it out")
+##  Make management easy 
+The 9800 Series offers flexible setup, centralized management, and zero-touch deployment.
+One phone, any platform
+PhoneOS lets you configure 9800 Series phones for cloud or on-premise, saving on future costs if you migrate to Webex Calling.
+Simplified deployment
+Zero-touch provisioning automates phone setup, whether they're still in the box or already connected.  
+  
+[Zero-touch provisioning](https://help.webex.com/en-us/article/5eomso/Prepare-NFC-onboarding-data-for-Desk-Phone-9800-Series#reference-template_fde23a03-6db7-4814-a6e9-98f69c48f56f "Zero-touch provisioning ")
+Centralized management
+Easily manage, monitor, and troubleshoot phones in Control Hub. Gain insights with analytics and integrate ThousandEyes to diagnose and fix network issues.
+[Get started with Control Hub](https://help.webex.com/en-us/article/nkhozs6/Get-started-with-Control-Hub "Get started with Control Hub")  
+[Integrate ThousandEyes](https://help.webex.com/en-us/article/wy8irv/ThousandEyes-integration-for-Cisco-Desk-Phone-9800-Series-\(Control-Hub\) "Integrate ThousandEyes")
+##  Elevate the user experience 
+Cisco Phones offer one-touch meetings, clear audio, and a sustainable design for a better, eco-friendly communication experience.
+AI noise removal
+Enjoy high-definition audio, powerful speakers, and AI noise removal for improved clarity in any workspace.  
+  
+[AI noise removal](https://help.webex.com/en-us/article/nm96shl/Remove-background-noise-for-meetings-and-calls-on-9800/8875 "AI noise removal")
+Instantly join meetings
+Join Webex Calling meetings instantly with one button to join (OBTJ). Selected models have a built-in calendar button for quick access.  
+  
+[Cloud: One Button to Join](https://help.webex.com/en-us/article/nufqmkg/Check-and-join-a-meeting-on-9800/8875-\(Webex-Calling\) "Cloud: One Button to Join")  
+[On-Prem: One Button to Join](https://help.webex.com/en-us/article/212ytk/Check-and-join-a-meeting-on-9800/8875-\(Unified-CM\) "On-Prem: One Button to Join")
+Accessibility
+Features include accessibility options, real-time translation, and voice feedback for audio cues.
+[Accessibility features](https://help.webex.com/en-us/article/y552uy/Accessibility-features "Accessibility features")[](https://help.webex.com/en-us/article/n0rlwxe/Analytics-for-Your-Cloud-Collaboration-Portfolio#CMGT_TK_R833840D_00 "Get started with Control Hub")  
+[Real-time translations](https://help.webex.com/en-us/article/6aoom1/Use-closed-captions-in-Webex-meetings-on-9800/8875-\(Webex-Calling\) "Real-time translations")
+##  Drive adoption 
+Whatever stage you’re at, we’ve got use cases, interactive templates, and proven strategies to help drive adoption. We’ll take you on a three-part adoption journey.
+Plan
+Onboard and implement 
+  
+Define your business drivers and outcomes, create your adoption team, and ensure technical readiness for successful results with Cisco Phones.  
+
+[Ready to plan your rollout?](https://adopt.webex.com/deploy-and-manage/devices/cisco-phones/plan "Ready to plan your rollout?")
+Launch
+Use, engage, adopt 
+  
+Empower users to get started with Cisco Phones’ basic features, improve engagement, and promote adoption.
+[Ready to launch?](https://adopt.webex.com/deploy-and-manage/devices/cisco-phones/launch "Ready to launch?")
+Grow
+Optimize, expand, champion
+  
+Explore all the ways you can maximize your ROI. Stay updated with the latest releases and help users become pros.
+[Get more from Cisco](https://adopt.webex.com/deploy-and-manage/devices/cisco-phones/grow "Get more from Cisco")
+![](https://adopt.webex.com/Essentials/images/Ellipse-explore-1088-654345.png)
+Ready to plan your rollout? 
+Now that you’ve seen how the 9800 Series is more than just a phone, it’s time to kick off your adoption journey. Start strong with our step-by-step adoption methodology.
+[ Start planning ](https://adopt.webex.com/deploy-and-manage/devices/cisco-phones/plan)
+[ Solutions ](javascript:;)
+  * [ Downloads ](https://www.webex.com/downloads.html "Downloads")
+  * [ Integrations ](https://apphub.webex.com/ "Integrations")
+  * [ Cisco ](https://www.cisco.com/c/en/us/solutions/collaboration/index.html "Cisco")
+  * [ Hybrid Work ](https://www.webex.com/hybrid-work.html "Hybrid Work")
+  * [ Contact Support ](https://help.webex.com/contact/ "Contact Support")
+
+
+[ Products ](javascript:;)
+  * [ Webex Suite ](https://adopt.webex.com/use-the-webex-suite/do-more/meet-the-suite "Webex Suite")
+  * [ Control Hub ](https://adopt.webex.com/deploy-and-manage/achieve-more/get-to-know-control-hub "Control Hub")
+  * [ Devices ](https://adopt.webex.com/deploy-and-manage/devices/cisco-rooms "Devices")
+
+
+[ Industries ](javascript:;)
+  * [ Education ](https://adopt.webex.com/resources-and-programs/industries/education/overview "Education")
+  * [ Healthcare ](https://adopt.webex.com/x141871.xml#healthcare "Healthcare")
+  * [ Financial Services ](https://adopt.webex.com/x141871.xml#financial "Financial Services")
+  * [ Government ](https://adopt.webex.com/x141871.xml#government "Government")
+
+
+[ Resources ](javascript:;)
+  * [ Admin Support Center ](https://adopt.webex.com/deploy-and-manage/admin-support/admin-support-center "Admin Support Center")
+  * [ Adoption ](https://adopt.webex.com/resources-and-programs/resources/methodology "Adoption")
+  * [ Adoption Resource Library ](https://resources.webex.com/portals/webex-admin "Adoption Resource Library")
+  * [ Launch Kits ](https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits "Launch Kits")
+  * [ Join a Test Meeting ](https://www.webex.com/test-meeting.html "Join a Test Meeting")
+  * [ Classes and Trainings ](https://adopt.webex.com/resources-and-programs/resources/academy "Classes and Trainings")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user "Webex Community")
+  * [ Webex Beta Program ](https://adopt.webex.com/resources-and-programs/programs/beta "Webex Beta Program")
+  * [ Webex Insider ](https://www.webex.com/insider "Webex Insider")
+
+
+  * [ Terms and Conditions ](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html "Terms and Conditions")
+  * [ Privacy Statement ](https://www.cisco.com/c/en/us/about/legal/privacy-full.html "Privacy Statement")
+  * [ Cookies ](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies "Cookies")
+  * [ Trademarks ](https://www.cisco.com/web/siteassets/legal/trademark.html "Trademarks")
+
+
+[ ![](https://adopt.webex.com/Essentials/images/twitter_12_w%403x.png) ](https://twitter.com/webex "Twitter") [ ![](https://adopt.webex.com/Essentials/images/linkedin-circle_32_w.png) ](https://www.linkedin.com/company/webex "Linkedin") [ ![](https://adopt.webex.com/Essentials/images/facebook-circle_32_w.png) ](https://www.facebook.com/webex "Facebook") [ ![](https://adopt.webex.com/Essentials/images/youtube-circle_32_w.png) ](https://www.youtube.com/c/webex "YouTube") [ ![](https://adopt.webex.com/Essentials/images/instagram-circle_32_w.png) ](https://www.instagram.com/webex/ "Instagram") [ ![](https://adopt.webex.com/Essentials/images/rss-circle_32_w.png) ](https://blog.webex.com/ "Webex Blog")
+© 2026 Cisco and/or its affiliates. All Rights Reserved.
+[ ](https://adopt.webex.com/ "Close menu")
+[ Help Center ](https://help.webex.com/ "Help Center")
+Search ![Search](https://adopt.webex.com/Content/assets/img/icons/search.svg)
+[ Deploy and manage ](javascript:;)
+Products
+[ Get started ](https://adopt.webex.com/deploy-and-manage/webex-suite/get-started "Get started")
+  * [ Calling ](https://adopt.webex.com/x155228.xml#kits "Calling")
+  * [ Meetings ](https://adopt.webex.com/x155253.xml#kits "Meetings")
+  * [ Messaging ](https://adopt.webex.com/x155241.xml#kits "Messaging")
+  * [ Contact Center ](https://adopt.webex.com/deploy-and-manage/webex-suite/contact-center/setup "Contact Center")
+  * [ More ](https://adopt.webex.com/deploy-and-manage/webex-suite/more "More")
+
+
+Devices
+[ Get started ](https://adopt.webex.com/deploy-and-manage/devices/get-started "Get started")
+  * [ Cisco Rooms ](https://adopt.webex.com/deploy-and-manage/devices/cisco-rooms "Cisco Rooms")
+  * [ Microsoft Teams Rooms ](https://adopt.webex.com/deploy-and-manage/devices/microsoft-teams-rooms "Microsoft Teams Rooms")
+  * [ Cisco Phones ](https://adopt.webex.com/deploy-and-manage/devices/cisco-phones "Cisco Phones")
+  * [ Share resources with your team ](https://resources.webex.com/webex-essentials/cisco-devices "Share resources with your team")
+
+
+Achieve more
+[ Get to know Control Hub ](https://adopt.webex.com/deploy-and-manage/achieve-more/get-to-know-control-hub "Get to know Control Hub")
+  * [ Hybrid work ](https://adopt.webex.com/deploy-and-manage/achieve-more/hybrid-work "Hybrid work")
+  * [ Flexible workstyles ](https://adopt.webex.com/deploy-and-manage/achieve-more/flexible-workstyles "Flexible workstyles")
+
+
+Admin support
+[ Admin Support Center ](https://adopt.webex.com/deploy-and-manage/admin-support/admin-support-center "Admin Support Center")
+  * [ Deployment resources ](https://resources.webex.com/s/3kfmhmhtm2b4f7pbkkvsv "Deployment resources")
+  * [ Launch kits ](https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits "Launch kits")
+  * [ What's new in Webex ](https://help.webex.com/landing/ld-v6m1dl-What%27snewinWebex/Features "What's new in Webex")
+  * [ Webex Community ](https://community.cisco.com/t5/webex-community/ct-p/webex-user "Webex Community")
+
+
+[ Use the Webex Suite ](javascript:;)
+Products
+[ Get started ](https://adopt.webex.com/use-the-webex-suite/webex-suite/get-started "Get started")
+  * [ Calling ](https://adopt.webex.com/use-the-webex-suite/webex-suite/calling "Calling")
+  * [ Meetings ](https://adopt.webex.com/use-the-webex-suite/webex-suite/meetings "Meetings")
+  * [ Messaging ](https://adopt.webex.com/use-the-webex-suite/webex-suite/messaging "Messaging")
+  * [ Contact Center ](https://adopt.webex.com/use-the-webex-suite/webex-suite/contact-center/agents "Contact Center")
+  * [ Events ](https://adopt.webex.com/use-the-webex-suite/webex-suite/events "Events")
+  * [ More ](https://adopt.webex.com/use-the-webex-suite/webex-suite/more "More")
+
+
+Do more
+[ Meet the Suite ](https://adopt.webex.com/use-the-webex-suite/do-more/meet-the-suite "Meet the Suite")
+  * [ Best practices ](https://adopt.webex.com/use-the-webex-suite/do-more/best-practices "Best practices")
+  * [ Hybrid work ](https://adopt.webex.com/use-the-webex-suite/do-more/hybrid-work "Hybrid work")
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user "Webex Community")
+
+
+Learn
+[ Adoption library ](https://resources.webex.com/portals/webex-admin "Adoption library")
+  * [ Webex Academy ](https://adopt.webex.com/resources-and-programs/resources/academy "Webex Academy")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+
+
+[ Resources and programs ](javascript:;)
+Resources
+  * [ Adoption methodology ](https://adopt.webex.com/resources-and-programs/resources/methodology "Adoption methodology")
+  * [ Adoption library ](https://resources.webex.com/portals/webex-admin "Adoption library")
+  * [ Admin launch kits ](https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits "Admin launch kits")
+  * [ Webex Academy ](https://adopt.webex.com/resources-and-programs/resources/academy "Webex Academy")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+
+
+Programs
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user "Webex Community")
+  * [ Webex Insider ](https://www.webex.com/insider "Webex Insider")
+  * [ Webex Beta ](https://adopt.webex.com/resources-and-programs/programs/beta "Webex Beta")
+
+
+Industries
+  * [ Education ](https://adopt.webex.com/resources-and-programs/industries/education/overview "Education")
+  * [ Government ](https://adopt.webex.com/x141871.xml#government "Government")
+  * [ Financial services ](https://adopt.webex.com/x141871.xml#financial "Financial services")
+  * [ Healthcare ](https://adopt.webex.com/x141871.xml#healthcare "Healthcare")
+
+
