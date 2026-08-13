@@ -8426,5 +8426,9 @@
   "https://developer.webex.com/docs/api/v1/reports/create-a-report": {
     "hash": "35c0b7fbccd8378a8df95229765223a8e2c8ec72a7637b507b40f2009058a393",
     "timestamp": "2026-08-13T02:23:20.789153"
+  },
+  "https://developer.webex.com/docs/api/v1/reports/get-report-details": {
+    "hash": "4a4bfb05d37bc59ca7b21a54096574eae52295fdcba48c436295d5606dca1358",
+    "timestamp": "2026-08-13T02:23:26.512444"
   }
 }
