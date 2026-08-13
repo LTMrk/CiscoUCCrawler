@@ -20795,3 +20795,299 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html)Show All Breadcrumbs
+  * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Routers](https://www.cisco.com/c/en/us/products/routers/index.html)
+  * [Branch Routers](https://www.cisco.com/c/en/us/products/routers/branch-routers/index.html)
+  * [End-of-Sale and End-of-Life Products](https://www.cisco.com/c/en/us/products/routers/eos-eol-listing.html)
+  * [Cisco 4000 Series Integrated Services Routers](https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/index.html)
+  * [Data Sheets](https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/datasheet-listing.html)
+
+
+# Cisco SM-X Based Layer 2 Switching Module Data Sheet
+Data Sheet
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html)
+Download
+Print
+### Available Languages
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html)
+
+
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.pdf) (368.9 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:July 18, 2024
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+Contact Cisco
+  * Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * Call Sales: [ 1-800-553-6387 ](tel:18005536387)   
+US/CAN | 5am-5pm PT 
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html)
+Download
+Print
+### Available Languages
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html)
+
+
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.pdf) (368.9 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:July 18, 2024
+#### Table of Contents
+![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
+![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
+#### Table of Contents
+  * [Product overview](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#Productoverview "Productoverview")
+  * [Product highlights](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#Producthighlights "Producthighlights")
+  * [Supported models and configurations](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#Supportedmodelsandconfigurations "Supportedmodelsandconfigurations")
+  * [Power over Ethernet (PoE) Support](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#PoweroverEthernetPoESupport "PoweroverEthernetPoESupport")
+  * [Security feature support on SM-X EtherSwitch module](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#SecurityfeaturesupportonSMXEtherSwitchmodule "SecurityfeaturesupportonSMXEtherSwitchmodule")
+  * [Product summary](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#Productsummary "Productsummary")
+  * [Product specifications](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#Productspecifications "Productspecifications")
+  * [Cisco SM-X Layer2 EtherSwitch Service Module Software](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#CiscoSMXLayer2EtherSwitchServiceModuleSoftware "CiscoSMXLayer2EtherSwitchServiceModuleSoftware")
+  * [Ordering information](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#Orderinginformation "Orderinginformation")
+  * [Warranty information](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#Warrantyinformation "Warrantyinformation")
+  * [Cisco environmental sustainability](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#Ciscoenvironmentalsustainability "Ciscoenvironmentalsustainability")
+  * [Cisco and Partner Services for Console Services](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#CiscoandPartnerServicesforConsoleServices "CiscoandPartnerServicesforConsoleServices")
+  * [Cisco Capital](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#CiscoCapital "CiscoCapital")
+  * [For more information](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#Formoreinformation "Formoreinformation")
+  * [Document history](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#Documenthistory "Documenthistory")
+
+
+The Cisco SM-X Layer2 EtherSwitch Service Module is crafted to reduce your company's Total Cost of Ownership (TCO) by integrating Gigabit Ethernet (GE) ports within the Cisco ISR4000 Series routers. Extending the power of intent-based networking, this integration allows network administrators to configure a single box for all LAN and WAN needs lowering network complexity and maintenance.
+Product overview
+The Cisco SM-X EtherSwitch Modules provides for an enterprise class line of features on the Cisco ISR 4000 series routers, greatly expanding the capabilities of the router by integrating industry-leading Layer 2 switching with feature sets that are built on the lines of those found in the Cisco Catalyst 9200 Series switches.
+Product highlights
+●Up to 48 ports of a combination of Power over Ethernet Plus (PoE+) and Universal Power over Ethernet (UPOE) capability.
+●Diverse downlink capabilities on a single module supporting data, PoE+ UPOE or 2.5G mGig.
+●Up to 2x 10G of SFP+ Fiber Uplinks with up to 10G connection to MGF switch fabric[[1]](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#_ftn1).
+●UADP 2.0 Mini compliant ASIC offers customers optimized scale with better cost structure.
+●Enhanced security with AES-128 MACsec encryption[[2]](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#_ftn2), and trustworthy systems.
+●Support for SDWAN configuration and setup through the Cisco vManage.
+●Device Authentication through support for 802.1x capabilities.
+●Support for local line rate local line-rate switching as also support for direct service module-to-service module communication through the ISR 4K Multigigabit Fabric (MGF), separating LAN traffic from WAN resources. 
+●Cisco IOS XE: 
+◦Support for the service module at IP Base with no additional module based licenses needed.
+◦Simplified programing through Netconf and YANG modelling.
+●ASIC with programmable pipeline and micro-engine capabilities, supporting Layer 2 and Layer 3 forwarding (in conjunction with the router) and Quality of Service (QoS).
+The Cisco SM-X Layer2 EtherSwitch Service Module takes advantage of the increased capabilities on the Cisco UADP module to provide scale, security and ease of operation. Because the Cisco SM-X Layer2 EtherSwitch Service Modules support the same UADP 1.0 ASIC as the Catalyst 9200 it allows the module to provide a ubiquitous configuration at headquarters and at the branch office to create a consistent experience throughout your network.
+Supported models and configurations
+Table 1 gives specifications of the Cisco SM-X EtherSwitch Service Modules. All Gigabit Ethernet ports support auto-negotiating 10/100/1000 Mbps. Based on the model up to 8-ports of 2.5G mGig support helps provide uplink connectivity to Access Points and Uplink Expansions, external Advanced 4G LTE and (future) 5G connections. Up to two 10G SFP+ based fiber ports provide for Server connectivity or for high speed aggregated connection to high-speed switches.
+**Table 1.** Cisco SM-X Etherswitch module configuration  
+|  Modules  |  Slot Form Factor  |  1G Ports (RJ45)  |  2.5G (mGig) Ports (RJ45)  |  10G Ports (SFP+)  |  
+| --- | --- | --- | --- | --- |  
+|  **SM-X-16G4M2X**  |  **Single Wide**  |  16  |  4  |  2  |  
+|  **SM-X-40G8M2X**  |  **Double Wide**  |  40  |  8  |  2  |  
+[![Cisco SM-X EtherSwitch Module \(48-port \(left\) and 22-port \(right\)\)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.docx/_jcr_content/renditions/nb-06-sm-x-bas-switc-ds-cte-en_0.png)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.docx/_jcr_content/renditions/nb-06-sm-x-bas-switc-ds-cte-en_0.png "Cisco SM-X EtherSwitch Module \(48-port \(left\) and 22-port \(right\)\)")
+Figure 1. 
+Cisco SM-X EtherSwitch Module (48-port (left) and 22-port (right))
+Table 2 defines the SFP modules supported on the 1G/ 10G fiber ports. The ports support both single and multi-mode fiber. Each SFP+ port maybe independently configured with a 1G SFP or a 10G SFP+ interface. The two fiber ports maybe aggregated to provide a fault-tolerant Layer 2 port channel. 
+Ports with similar speed support aggregation leading to port channel. Both PAgP and LACP configuration is supported on the module in addition to automatic port channel support. Up to 4-ports of 1G or 2.5G maybe aggregated to form a single Etherchannel. Ports with unlike speeds may not be aggregated to form port channel.
+**Table 2.** Supported SFP and SFP+ modules on Fiber ports  
+|  1G ports (Fiber)  |  1G ports (RJ45)  |  10G Ports (SFP+)  |  
+| --- | --- | --- |  
+|  **GLC-EX-SMD**  |  GLC-TE  |  SFP-10G-SR  |  
+|  **GLC-ZX-SM**  |  GLC-T  |  SFP-10G-LR  |  
+|  **GLC-LH-SM**  |  SFP-GE-T  |  SFP-10G-LRM  |  
+|  **GLC-LH-SMD**  |   |  SFP-10G-ER  |  
+|  **SFP-GE-S**  |   |  SFP-10G-ZR  |  
+|  **GLC-SX-MM**  |   |  SFP-10G-SR-S  |  
+|  **GLC-SX-MMD**  |   |  SFP-10G-LR-S  |  
+Power over Ethernet (PoE) Support
+PoE removes the need for wall power to each PoE-enabled device and eliminates the cost for additional electrical cabling and circuits that would otherwise be necessary in IP phone and Wireless LAN (WLAN) deployments thereby providing a lower TCO for deployments that incorporate these devices or any IEEE 802.3af-compliant end device in general. The power requirements of endpoints vary based on their application, complexity, and function. For instance, basic IP phones might draw approximately 6W of power, whereas contemporary LED lighting fixtures can draw up to 50W for routine operation.
+The SM-X EtherSwitch modules can support POE, POE+ and UPOE on any of the RJ45 copper ports (16xGiG + 4xmGiG or 40xGiG + 8xmGiG). All 22 or 48 copper ports support Power over Ethernet (PoE) - 15.4 W and PoE+ up to 30W. The same ports support standardized 802.3af (15.4W) and 802.3at (25.5W). Up to 8 Copper Ethernet Interfaces provide UPOE (60W) support per module. The table below lists the possible PoE and Power Supply combinations.
+Table 3 gives information about total PoE power output. Depending on the Cisco 4400, 4300, platform models, the available PoE power ranges from 250 to 1000 watts. Power over Ethernet requires the PoE versions of the router power supplies. The ISR4400, ISR4300 series routers support multiple PoE powering modes:
+●Normal: One PoE power supply.
+●Redundant: Two PoE internal power supplies (ISR4451-X and ISR4461 Series) where one is active and one is standby.
+●Boost: Two PoE internal power supplies (ISR4451-X and ISR4461 Series), where both are actively supplying PoE power; redundancy will not be supported in this mode because both power supplies are in active use simultaneously.
+**Table 3.** Number of Power over Ethernet Ports Supported  
+|  Platform (Watts)  |  Single PoE Power Supply  |  Platform (Watts)  |  Dual PoE Power Supply (Boost Mode)  |  
+| --- | --- | --- | --- |  
+|  (PoE)  |  (PoE+)  |  (UPoE)  |  (PoE)  |  (PoE+)  |  (UPoE)  |  
+|  **ISR 4461 (360W)**  |  23  |  12  |  6  |  **ISR 4461 (720W)**  |  46  |  24  |  12  |  
+|  **ISR 4451-X (500W)**  |  32  |  16  |  8  |  **ISR 4451-X (1000W)**  |  64  |  33  |  16  |  
+|  **ISR 4351 (500W)**  |  32  |  16  |  8  |   |   |   |   |  
+|  **ISR 4331 (250W)**  |  16  |  8  |  4  |   |   |   |   |  
+Additional PoE features include the following:
+●Per-port power consumption control allows you to specify a maximum power setting on an individual port.
+●The Cisco PoE MIBs provide proactive visibility into power usage and allow you to set different power-level thresholds.
+●Cisco Discovery Protocol Version 2 allows the Cisco SM-X EtherSwitch Service Modules to negotiate a more granular power setting than IEEE classification provides when connecting to a Cisco powered device such as IP phones or access points.
+●The Link Layer Discovery Protocol Media Endpoint Discovery (LLDP-MED) link layer discovery protocol and MIB enable interoperability in multivendor networks. Switches exchange speed, duplex, and power settings with end devices such as IP phones.
+Security feature support on SM-X EtherSwitch module
+The Cisco SM-X EtherSwitch module supports a variety of security features. The following features are supported by the product at launch.
+Support for 802.1X: 
+IEEE 802.1X port-based authentication is configured on a device to prevent unauthorized devices (supplicants) from gaining access to the network. By installing the switch module on the router, the unit can combine the function of a router and switch, depending on the configuration and chosen options. The Cisco SM-X EtherSwitch module supports 802.1X configuration on all copper ports. The same ports support Multi-Domain Authentication (MDA) Guest VLAN and MAC Authentication Bypass (MAB). 
+Support for MACSec: 
+MACsec is the IEEE 802.1AE standard for authenticating and encrypting packets between two MACsec-capable devices. The SM-X EtherSwitch module supports 128-bit (gcm-aes-128) LAN MACSec on the copper ports[[3]](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#_ftn3). In addition to MACSec, the ports support 802.1AE encryption MACSec Key Agreement (MKA) on downlink ports for encryption between the switch and host device. The MKA Protocol provides the required session keys and manages the required encryption keys.
+Port Security: 
+Port security is used to restrict input to an interface by limiting and identifying mac addresses of the stations allowed to access the port. When specific MAC addresses are assigned to a secure port, the port does not forward packets with source addresses outside the group of defined addresses. If the number of secure MAC addresses is limited to a single secure MAC address, the workstation attached to that port is assured the full bandwidth of the port.
+**Table 4.** Security features supported on SM-X EtherSwitch Module  
+|  Feature  |  Benefit  |  
+| --- | --- |  
+|  **IEEE 802.1x**  |  ●IEEE 802.1x allows dynamic, port-based security, providing user authentication.  ●IEEE 802.1x with voice VLAN permits an IP phone to access the voice VLAN irrespective of the authorized or unauthorized state of the port.  ●IEEE 802.1x and port security are provided to authenticate the port and manage network access for all MAC addresses, including that of the client.  ●IEEE 802.1x with an ACL assignment allows for specific identity-based security policies regardless of where the user is connected.  ●IEEE 802.1x with guest VLAN allows guests without 802.1x clients to have limited network access on the guest VLAN.   |  
+|  **MACsec**  |  ●Exceptional security with integrated hardware support for MACsec is defined in IEEE 802.1AE. MACsec provides MAC layer encryption over wired networks using out-of-band methods for encryption keying.  ●The MACsec Key Agreement (MKA) Protocol provides the required session keys and manages the keys required for encryption when configured. MKA and MACsec are implemented following successful authentication using the 802.1x Extensible Authentication Protocol (EAP) framework.  ●In Cisco Enhanced EtherSwitch Service Modules, both the user and down-link ports (links between the switch and endpoint devices such as a PC or IP phone) as well as the network and up-link ports can be secured using MACsec.  ●With MACsec you can encrypt switch-to-switch links such as access to distribution, or encrypt dark fiber links within a building or between buildings.   |  
+|  **Multidomain authentication**  |  ●Multidomain authentication allows an IP phone and a PC to authenticate on the same switch port while placing them on the appropriate voice and data VLAN.   |  
+|  **MAC Authentication Bypass (MAB)**  |  ●MAB for voice allows third-party IP phones without an 802.1x supplicant to get authenticated using the MAC address.   |  
+|  **Switched Port Analyzer  
+(SPAN and RSPAN)**  |  ●Bidirectional data support on the SPAN port allows the any Intrusion Detection System (IDS) to take action when an intruder is detected.   |  
+|  **Centralized authentication**  |  ●TACACS+ and RADIUS authentication facilitates centralized control of the switch and restricts unauthorized users from altering the configuration.   |  
+|  **MAC address authentication**  |  ●MAC address notification allows administrators to be notified of users added to or removed from the network.   |  
+|  **Port security**  |  ●Port security secures the access to an access or trunk port based on MAC address.   |  
+Product summary
+In summary, the Cisco SM-X Layer2 EtherSwitch Service Modules enable a higher level of control and security through the support of per port 802.1x and MACSec capabilities. Cisco SM-X EtherSwitch Service Modules also offer enhanced PoE power levels with the introduction of IEEE 802.3at PoE+, broadening the span of network equipment powered from the switch. By minimizing Operating Expenses (OpEx) without sacrificing any advanced switching features, Cisco SM-X EtherSwitch Service Modules can help you maximize your Return On Investment (ROI) for the network infrastructure and accelerate the deployment of productivity-enhancing services to your enterprise branch offices or small to midsize business offices.
+**Table 5.** How Cisco SM-X EtherSwitch Service Module addresses customer needs  
+|  Customer Needs  |  How Addressed by Cisco SM-X EtherSwitch Service Module  |  
+| --- | --- |  
+|  **Scalability with High-Performance LAN Traffic** ●Isolation of LAN traffic and route between ports on the Cisco SM-X EtherSwitch Service Module.  ●High Speed LAN connections.   |  ●Layer 2 traffic is switched on-board the module.  ●Traffic can be forwarded between service modules over the MGF without affecting the router CPU.  ●Maintain Switch to AP Reach at mGig (2.5G) speeds: Support for Access Extensions and Uplinks.  ●10G Fiber connections to provide for High Speed Server or LAN backbone connections.   |  
+|  **Layer 2 Security** ●Protecting the Integrity and Confidentiality of all traffic on the Local Area Network.   |  ●1G Ethernet copper ports support MACSec to LAN end points.  ●2.5G (mGig) LAN MACSec to protect traffic to Access Points or High-Speed servers.   |  
+|  **Applying L3 services to switched traffic** ●Providing critical features like Inter-VLAN Routing and Default Gateway services to LAN-port connected users.   |  ●Since the Switch module is L2 capable only, the host router’s Switch Virtual Interface (SVI) is utilized for applying L3 services to traffic traversing the switch.  ●An SVI service provides a limited set of L3 features and is fully operated in SW. As such, throughput when using SVI will depend on the types and combination of services applied to traffic.  ●SVI throughput example: IPsec stream of mixed packet sizes from one of the 10G uplink ports will be serviced by an ISR4461 platform’s SVI at an aggregated throughput of 3.8Gbps.   |  
+|  **Total TCO** ●Scaling network infrastructure across multiple sites.  ●Increasing costs of operating multiple devices at the branch office.  ●Maximizing IT resources.   |  ●An integrated switch solution lowers operating costs, simplifies troubleshooting, and enables businesses to scale.  ●Single Unified IOS software ensures the IT team only has to install and certify one software vs two independent software as in the previous generation.  ●The modules offer lower Mean Time To Repair (MTTR). One vendor means one support center to decrease troubleshooting time and eliminate finger pointing among vendors.  ●Cisco SMARTnet ® support covers both integrated services routers and Cisco EtherSwitch devices.   |  
+|  **Investment Protection** ●Ensuring compatibility of your network with future networks to deliver leading technology.   |  ●Cisco SM-X EtherSwitch Service Module and Cisco Catalyst switches both run the same IOS-XE software ensuring that switches are aligned to provide a consistent user experience.  ●Cisco Catalyst and SM-X Etherswitch module both support the latest UADP 2.0 ASIC ensuring cross platform support for latest innovations.   |  
+|  **High Availability** ●Minimizing downtime that affects business operations.   |  ●A single-box and single IOS solution simplifies remote management and improves services interoperability to help ensure the highest reliability.  ●End-to-end testing for standards-based and innovative Cisco proprietary features provides superior services interoperability and excellent value.  ●The modules use optional redundant power supplies in Cisco ISR4000 series routers.  ●Fewer components (for example, power supplies and fans) results in fewer failures and less downtime.   |  
+|  **Green IT** ●Single power supply for Cisco EtherSwitch device and router.   |  ●The modules offer up to two times lower power consumption than previous generation of switch modules.  ●Because no additional rack space or power supply is needed, there is less to rack, stack, and cool.   |  
+Product specifications
+Physical and environmental specifications
+**Table 6.** Physical and environmental specifications  
+|  Model  |  Dimensions: Wide x Deep x High  |  Weight (lb)  |  Operational Temperature  |  Nonoperational Temperature  |  Operational Humidity  |  Nonoperational Humidity  |  
+| --- | --- | --- | --- | --- | --- | --- |  
+|  **SM-X-16G4M2X**  |  17.25” x 18.5” x 3.5” (43.82 x 46.99 x 8.9 mm)   |  19.4 lb  |  0 to 40°C  |  -20 to 65°C  |  5 to 85%  |  5 to 95%  |  
+|  **SM-X-40G8M2X**  |  41.2 x 20.7 x 4.0 (104.64 x 52.57 x 42.54 mm)  |  40lb  |  0 to 40°C  |  -20 to 65°C  |  5 to 85%  |  5 to 95%  |  
+Regulatory Compliance, Safety, EMC, Telecommunications, and Network Homologation
+When installed in a Cisco 4400 or 4300 Series ISR, the Cisco EtherSwitch Service Module does not change the standards (regulatory compliance, safety, EMC, telecom, or network homologation) of the router itself. For more information about these routers, please visit: <https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/data_sheet-c78-732542.html>.
+Cisco SM-X Layer2 EtherSwitch Service Module Software
+The Cisco SM-X Layer2 EtherSwitch Service Module is supported by default on the IOS-XE software running on the ISR4000 series routers. All configurable CLI for the module is supported on the IOS that runs on the router providing a single console for both the module and the router platform. The module is supported on all licenses beginning with IP Base, extending to SEC, AppX and the UC license. Where MACSec is configured on the router, a SEC license is needed to enable the feature on the module.
+For more information
+This document describes information about Cisco EtherSwitch Service Modules only. For more information about these modules, contact your local Cisco account representative.
+Ordering information
+The Cisco SM-X EtherSwitch Module maybe ordered with ISR4000 routers. To place an order, refer to Table 7 below and visit the [Cisco Ordering Home Page](https://www.cisco.com/web/ordering/or13/or8/o25/ordering_solutions_category_home.html).
+**Table 7.** Cisco SM-X EtherSwitch Module  
+|  Product Name  |  Product Description  |  
+| --- | --- |  
+|  **SM-X-16G4M2X**  |  Cisco SM 16-port 1G, 4-port 2.5 mGig and 2-port 10G SFP/SFP+  |  
+|  **SM-X-40G8M2X**  |  Cisco SM 40-port 1G, 8-port 2.5 mGig and 2-port 10G SFP/SFP+  |  
+Warranty information
+The Cisco SM-X EtherSwitch Module has a 90-day limited liability warranty.
+Cisco environmental sustainability
+Information about Cisco’s environmental sustainability policies and initiatives for our products, solutions, operations, and extended operations or supply chain is provided in the “Environment Sustainability” section of Cisco’s [Corporate Social Responsibility](https://www-1.compliance2product.com/c2p/getAttachment.do?code=YM6Y0yThdO6Wj1FxxYPYfUG2dtFkTeFWGpzLRO8tcURFEifUCRV403Tq2ZMWP6Ai) (CSR) Report.
+Reference links to information about key environmental sustainability topics (mentioned in the “Environment Sustainability” section of the CSR Report) are provided in the following table:  
+|  Sustainability topic  |  Reference  |  
+| --- | --- |  
+|  Information on product material content laws and regulations  |  [Materials](https://www.cisco.com/c/en/us/about/product-innovation-stewardship/materials.html)  |  
+|  Information on electronic waste laws and regulations, including products, batteries, and packaging  |  [WEEE compliance](https://www.cisco.com/c/en/us/about/product-innovation-stewardship/product-recycling/weee-compliance.html)  |  
+Cisco makes the packaging data available for informational purposes only. It may not reflect the most current legal developments, and Cisco does not represent, warrant, or guarantee that it is complete, accurate, or up to date. This information is subject to change without notice.
+Cisco and Partner Services for Console Services
+Services from Cisco and our certified partners help you transform your network and data center helping you accelerate business innovation and growth. We have the expertise to create a clear, replicable, optimized footprint across technologies. Planning and design services align technology with your business goals and can increase deployment efficiency. Technical services help you improve operational efficiency, save money, and mitigate risk. Optimization services help you continuously improve performance and succeed with new technologies. For more information, please visit <https://www.cisco.com/go/services>.
+Cisco SMARTnet® technical support for the SM-X EtherSwitch Module is available on a one-time or annual contract basis. Support options range from help-desk assistance to proactive, onsite consultation. All support contracts include:
+●Major Cisco IOS Software updates for protocol, security, bandwidth, and feature improvements.
+●Full access rights to Cisco.com technical libraries for technical assistance, electronic commerce, and product information.
+●Access 24 hours a day to the industry’s largest dedicated technical support staff.
+Cisco Capital
+Flexible payment solutions to help you achieve your objectives
+Cisco Capital makes it easier to get the right technology to achieve your objectives, enable business transformation and help you stay competitive. We can help you reduce the total cost of ownership, conserve capital, and accelerate growth. In more than 100 countries, our flexible payment solutions can help you acquire hardware, software, services and complementary third-party equipment in easy, predictable payments. [Learn more](https://www.cisco.com/go/financing).
+For more information
+For more information about the Cisco SM-X EtherSwitch Module, visit <https://www.cisco.com/> or contact your local Cisco account representative.
+Document history
+**Table 8.** Document history  
+|  New or Revised Topic  |  Described In  |  Date  |  
+| --- | --- | --- |  
+|  **Added information on expected throughput when applying L3 services to switched traffic**  |  [Table 5, How Cisco SM-X EtherSwitch Service Module addresses customer needs](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#table5)  |  June 28, 2024  |  
+  
+
+* * *
+[[1]](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#_ftnref1) Each SM slot has one 10Gbps connection trace to the MGF switch on the ISR4000 Series router 
+[[2]](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#_ftnref2) Using IOS-XE version 17.3 
+[[3]](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/nb-06-sm-x-bas-switc-ds-cte-en.html#_ftnref3) Supported from IOS-XE 17.3.1 
+### Our experts recommend
+  * [Miercom Performance Analysis: Cisco 4000 Series ISRs](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/miercom-isr4k-report.pdf "Miercom Performance Analysis: Cisco 4000 Series ISRs")
+  * [Cisco 4000 Series Integrated Services Routers At-A-Glance](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/at-a-glance-c45-732425.html "Cisco 4000 Series Integrated Services Routers At-A-Glance")
+
+
+### Learn more
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
