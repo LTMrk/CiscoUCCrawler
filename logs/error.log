@@ -274,3 +274,8 @@ Code context:
 [2026-08-13T02:46:08.640037] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://software.cisco.com/download/home/284324806/type/284006014/release
 [2026-08-13T02:46:10.360535] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://software.cisco.com/download/home/286193282/type/286326381/release/2.7.2
 [2026-08-13T02:46:11.841593] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://software.cisco.com/download/home/286313806
+[2026-08-13T02:47:18.379487] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://bst.cisco.com/bugsearch
+[2026-08-13T02:47:20.089039] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://cway.cisco.com/mydevices
+[2026-08-13T02:47:21.571764] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://software.cisco.com/research/home
+[2026-08-13T02:47:23.042924] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://cway.cisco.com/sncheck
+[2026-08-13T02:47:24.570581] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://cway.cisco.com/mynotifications
