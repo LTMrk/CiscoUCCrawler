@@ -274259,3 +274259,237 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/wireless/category.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/wireless/category.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/wireless/category.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/wireless/category.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/wireless/category.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+
+
+# Wireless
+Other Languages
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/wireless/category.html "Arabic - عربي")
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/wireless/category.html "Brazil - Português")
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/wireless/category.html "Canada - Français")
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/wireless/category.html "China - 简体中文")
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/wireless/category.html "China - 繁體中文 \(臺灣\)")
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/wireless/category.html "Germany - Deutsch")
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/wireless/category.html "Italy - Italiano")
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/wireless/category.html "Japan - 日本語")
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/wireless/category.html "Korea - 한국어")
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/wireless/category.html "Latin America - Español")
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/wireless/category.html "Netherlands - Nederlands")
+
+
+Below are all supported **Cisco Wireless** products. You can also view all currently available [Wireless product lines](https://www.cisco.com/site/us/en/products/networking/wireless/index.html). For additional information, please refer to the [Cisco EOL Policy](https://www.cisco.com/c/en/us/products/eos-eol-policy.html) for Cisco product support milestones. 
+  
+  
+  
+  
+
+#### Aironet, Catalyst and Cisco Wireless Access Points
+  * **Aironet**
+  * [1700](https://www.cisco.com/c/en/us/support/wireless/aironet-1700-series-access-points/series.html) ![End of Support](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eos.png)
+  * [1800 Family](https://www.cisco.com/c/en/us/support/wireless/aironet-1800-access-points/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [- 1800](https://www.cisco.com/c/en/us/support/wireless/aironet-1800-series/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [- 1800s Active Sensor](https://www.cisco.com/c/en/us/support/wireless/aironet-active-sensor/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [- 1810 OfficeExtend](https://www.cisco.com/c/en/us/support/wireless/aironet-1810-series-officeextend-access-points/series.html) ![End of Support](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eos.png)
+  * [- 1810w](https://www.cisco.com/c/en/us/support/wireless/aironet-1810w-series-access-points/series.html) ![End of Support](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eos.png)
+  * [- 1815](https://www.cisco.com/c/en/us/support/wireless/aironet-1815-series-access-points/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [- 1830](https://www.cisco.com/c/en/us/support/wireless/aironet-1830-series-access-points/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [- 1840](https://www.cisco.com/c/en/us/support/wireless/aironet-1840-series-access-points/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [- 1850](https://www.cisco.com/c/en/us/support/wireless/aironet-1850-series-access-points/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+
+
+  * [2600](https://www.cisco.com/c/en/us/support/wireless/aironet-2600-series/series.html) ![End of Support](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eos.png)
+  * [2700](https://www.cisco.com/c/en/us/support/wireless/aironet-2700-series-access-point/series.html) ![End of Support](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eos.png)
+  * [2800](https://www.cisco.com/c/en/us/support/wireless/aironet-2800-series-access-points/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [3600](https://www.cisco.com/c/en/us/support/wireless/aironet-3600-series/series.html) ![End of Support](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eos.png)
+  * [3700](https://www.cisco.com/c/en/us/support/wireless/aironet-3700-series/series.html) ![End of Support](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eos.png)
+  * [3800](https://www.cisco.com/c/en/us/support/wireless/aironet-3800-series-access-points/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [4800](https://www.cisco.com/c/en/us/support/wireless/aironet-4800-series-access-points/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [Antennas/Accessories](https://www.cisco.com/c/en/us/support/wireless/aironet-antennas-accessories/series.html)
+
+
+  * **Catalyst**
+  * [9100 Family](https://www.cisco.com/c/en/us/support/wireless/catalyst-9100ax-access-points/series.html)
+  * [- 9105AX](https://www.cisco.com/c/en/us/support/wireless/catalyst-9105ax-series-access-points/series.html) ![End of Sale Announced](https://www.cisco.com/c/dam/en/us/support/web/images/cat-ann.png)
+  * [- 9115AX](https://www.cisco.com/c/en/us/support/wireless/catalyst-9115ax-series-access-points/series.html) ![End of Sale Announced](https://www.cisco.com/c/dam/en/us/support/web/images/cat-ann.png)
+  * [- 9117AX](https://www.cisco.com/c/en/us/support/wireless/catalyst-9117ax-series-access-points/series.html) ![End of Support](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eos.png)
+  * [- 9120AX](https://www.cisco.com/c/en/us/support/wireless/catalyst-9120ax-series-access-points/series.html) ![End of Sale Announced](https://www.cisco.com/c/dam/en/us/support/web/images/cat-ann.png)
+  * [- 9130AX](https://www.cisco.com/c/en/us/support/wireless/catalyst-9130ax-series-access-points/series.html) ![End of Sale Announced](https://www.cisco.com/c/dam/en/us/support/web/images/cat-ann.png)
+  * [- 9162](https://www.cisco.com/c/en/us/support/wireless/catalyst-9162-series-access-points/series.html)
+  * [- 9164](https://www.cisco.com/c/en/us/support/wireless/catalyst-9164-series-access-points/series.html)
+  * [- 9166](https://www.cisco.com/c/en/us/support/wireless/catalyst-9166-series-access-points/series.html)
+
+
+  * **Cisco Wireless**
+  * [9171](https://www.cisco.com/c/en/us/support/wireless/wireless-9171-series-access-points/series.html)
+  * [9172](https://www.cisco.com/c/en/us/support/wireless/wireless-9172-series-access-points/series.html)
+  * [9174](https://www.cisco.com/c/en/us/support/wireless/catalyst-9174-series-access-points/series.html)
+  * [9176](https://www.cisco.com/c/en/us/support/wireless/wireless-9176-series-access-points/series.html)
+  * [9178](https://www.cisco.com/c/en/us/support/wireless/wireless-9178-series-access-points/series.html)
+  * [9179](https://www.cisco.com/c/en/us/support/wireless/wireless-9179-series-access-points/series.html)
+
+
+  
+
+#### Outdoor, Industrial, Small Business, and Wireless Controllers
+  * **Outdoor**
+  * [Aironet 1530](https://www.cisco.com/c/en/us/support/wireless/aironet-1530-series/series.html) ![End of Support](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eos.png)
+  * [Aironet 1540](https://www.cisco.com/c/en/us/support/wireless/aironet-1540-series/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [Aironet 1550](https://www.cisco.com/c/en/us/support/wireless/aironet-1550-series/series.html) ![End of Support](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eos.png)
+  * [Aironet 1560](https://www.cisco.com/c/en/us/support/wireless/aironet-1560-series/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [Aironet 1570](https://www.cisco.com/c/en/us/support/wireless/aironet-1570-series/series.html) ![End of Support](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eos.png)
+  * [Catalyst 9124AX](https://www.cisco.com/c/en/us/support/wireless/catalyst-9124ax-series/series.html)
+  * [Catalyst 9136](https://www.cisco.com/c/en/us/support/wireless/catalyst-9136-series-access-points/series.html)
+  * [Catalyst 9163](https://www.cisco.com/c/en/us/support/wireless/catalyst-9163-series-access-points/series.html)
+  * [Wireless 9177](https://www.cisco.com/c/en/us/support/wireless/wireless-9177-series-access-points/series.html)
+
+
+  * **Industrial**
+  * [IW 3700 Industrial](https://www.cisco.com/c/en/us/support/wireless/industrial-wireless-3700-series/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [IW 6300 Embedded Services](https://www.cisco.com/c/en/us/support/wireless/6300-series-embedded-services-access-points/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [IW 6300 Catalyst Heavy Duty](https://www.cisco.com/c/en/us/support/wireless/industrial-wireless-6300-series/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [IW 9165 Catalyst Heavy Duty](https://www.cisco.com/c/en/us/support/wireless/catalyst-iw9165-heavy-duty-series/series.html)
+  * [IW 9165 Catalyst Rugged](https://www.cisco.com/c/en/us/support/wireless/catalyst-iw9165-rugged-series/series.html)
+  * [IW 9167 Catalyst Heavy Duty](https://www.cisco.com/c/en/us/support/wireless/catalyst-iw9167-series/series.html)
+  * [Ultra-Reliable Wireless Backhaul](https://www.cisco.com/c/en/us/support/wireless/ultra-reliable-wireless-backhaul/series.html)
+
+
+  * **Small Business**
+  * [Business 100](https://www.cisco.com/c/en/us/support/wireless/business-100-series-access-points/series.html)
+  * [Business 100 Mesh Extender](https://www.cisco.com/c/en/us/support/wireless/business-100-series-mesh-extenders/series.html)
+  * [Business 200](https://www.cisco.com/c/en/us/support/wireless/business-200-series-access-points/series.html)
+  * [Small Business 100](https://www.cisco.com/c/en/us/support/wireless/small-business-100-series-wireless-access-points/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [Small Business 300](https://www.cisco.com/c/en/us/support/wireless/small-business-300-series-wireless-access-points/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [Small Business 500](https://www.cisco.com/c/en/us/support/wireless/small-business-500-series-wireless-access-points/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+
+
+  * **Wireless Controllers**
+  * [2500](https://www.cisco.com/c/en/us/support/wireless/2500-series-wireless-controllers/series.html) ![End of Support](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eos.png)
+  * [3500](https://www.cisco.com/c/en/us/support/wireless/3500-series-wireless-controllers/series.html) ![End of Life](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [5500](https://www.cisco.com/c/en/us/support/wireless/5500-series-wireless-controllers/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [8500](https://www.cisco.com/c/en/us/support/wireless/8500-series-wireless-controllers/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [Catalyst 9800](https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-series-wireless-controllers/series.html)
+  * [Catalyst 9800 for Cloud](https://www.cisco.com/c/en/us/support/wireless/catalyst-9800-wireless-controllers-cloud/series.html)
+  * [Aironet Mobility Express](https://www.cisco.com/c/en/us/support/wireless/mobility-express/series.html)
+  * [Catalyst Embedded Controller](https://www.cisco.com/c/en/us/support/wireless/embedded-wireless-controller-catalyst-access-points/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [Virtual Wireless Controller](https://www.cisco.com/c/en/us/support/wireless/virtual-wireless-controller/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [Wireless Controller Software](https://www.cisco.com/c/en/us/support/wireless/wireless-lan-controller-software/series.html)
+
+
+  
+
+#### Cloud and Mobile Wireless
+  * **Mobile Wireless**
+  * [ASR 5000](https://www.cisco.com/c/en/us/support/wireless/asr-5000-series/series.html)
+  * [Policy Suite for Mobile](https://www.cisco.com/c/en/us/support/wireless/policy-suite-mobile/series.html)
+  * [Private 5G](https://www.cisco.com/c/en/us/support/wireless/private-5g/series.html)
+  * [Spectrum Expert](https://www.cisco.com/c/en/us/support/wireless/spectrum-expert/series.html) ![End of Support](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eos.png)
+  * **Mobility Serivces**
+  * [Connected Mobile Experiences (CMX)](https://www.cisco.com/c/en/us/support/wireless/connected-mobile-experiences/series.html)
+  * [Connected Mobile Experiences (CMX) Cloud](https://www.cisco.com/c/en/us/support/wireless/connected-mobile-experiences-cmx-cloud/series.html)
+  * [Mobility Services Engine](https://www.cisco.com/c/en/us/support/wireless/mobility-services-engine/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * **See Also in[Routers](https://www.cisco.com/c/en/us/support/routers/category.html):**
+  * [5900 Embedded Services](https://www.cisco.com/c/en/us/support/routers/5900-series-embedded-services-routers/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [Catalyst Cellular Gateways](https://www.cisco.com/c/en/us/support/routers/catalyst-cellular-gateways/series.html)
+  * [Catalyst Wireless Gateway CG113](https://www.cisco.com/c/en/us/support/routers/catalyst-wireless-gateway-cg110-series/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+  * [Wireless Gateway for LoRaWAN](https://www.cisco.com/c/en/us/support/routers/interface-module-lorawan/series.html) ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png)
+
+
+  * **Packet Core / Ultra Cloud Core**
+  * [Access and Mobility Management Function](https://www.cisco.com/c/en/us/support/wireless/ultra-cloud-core-access-mobility-management-function/series.html)
+  * [Converged Policy and Charging](https://www.cisco.com/c/en/us/support/wireless/ultra-cloud-core-converged-policy-charging/series.html)
+  * [Network Repository Function](https://www.cisco.com/c/en/us/support/wireless/ultra-cloud-core-network-repository-function/series.html)
+  * [Policy Control Function](https://www.cisco.com/c/en/us/support/wireless/ultra-cloud-core-policy-control-function/series.html)
+  * [Serving Gateway Function](https://www.cisco.com/c/en/us/support/wireless/ultra-cloud-core-serving-gateway-function/series.html)
+  * [Session Management Function](https://www.cisco.com/c/en/us/support/wireless/ultra-cloud-core-session-management-function/series.html)
+  * [Subscriber Microservices Infrastructure](https://www.cisco.com/c/en/us/support/wireless/ultra-cloud-core-subscriber-microservices-infrastructure/series.html)
+  * [User Plane Function](https://www.cisco.com/c/en/us/support/wireless/ultra-cloud-core-user-plane-function/series.html)
+  * [Ultra Packet Core](https://www.cisco.com/c/en/us/support/wireless/virtual-packet-core/series.html)
+
+
+  
+  
+  
+**See Also:**  
+- [Retired Cisco Wireless Products](https://www.cisco.com/c/en/us/support/wireless/retired.html)   
+  
+  
+**Support Status Key:** ![End of Sale Announced](https://www.cisco.com/c/dam/en/us/support/web/images/cat-ann.png) = End of Sale Announced ![End of Sale](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eol.png) = End of Sale ![End of Support](https://www.cisco.com/c/dam/en/us/support/web/images/cat-eos.png) = No Longer Supported by Cisco   
+  
+  
+[![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png) Feedback on this Page](javascript:void\(0\);)   
+  
+
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
