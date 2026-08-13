@@ -8402,5 +8402,9 @@
   "https://developer.webex.com/docs/api/v1/roles/list-roles": {
     "hash": "11c840f183d22e4f3e4e9c28d72c57d5a1778db103586a84e3c4774a160d923f",
     "timestamp": "2026-08-13T02:22:25.429341"
+  },
+  "https://developer.webex.com/docs/api/v1/hybrid-clusters": {
+    "hash": "994766a3ffc400f4a407887deba36edb23ff7691df17731c164900c66fe23e63",
+    "timestamp": "2026-08-13T02:22:35.947232"
   }
 }
