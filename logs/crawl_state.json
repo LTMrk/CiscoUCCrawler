@@ -7878,5 +7878,9 @@
   "https://developer.webex.com/docs/api/v1/messages": {
     "hash": "b329c4ea435a6f822841e0a205b742ed5571b1e1e8d81b1245546d13928c674b",
     "timestamp": "2026-08-13T02:07:30.812422"
+  },
+  "https://developer.webex.com/docs/api/v1/webhooks/get-webhook-details": {
+    "hash": "cccea5de03bf1d212833d82c2f7c5d4171a88dcd1a5d8c461d34682fad87f510",
+    "timestamp": "2026-08-13T02:07:37.295743"
   }
 }
