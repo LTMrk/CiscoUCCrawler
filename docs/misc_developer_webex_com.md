@@ -12303,3 +12303,200 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/mcp/docs/vidcast-mcp-server
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/mcp/docs/vidcast-mcp-server)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/mcp/docs/vidcast-mcp-server)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/mcp/docs/vidcast-mcp-server)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Vidcast MCP Server
+AI in Webex
+  * Webex MCP Servers
+    * [Overview](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)
+    * [Meetings MCP Server](https://developer.webex.com/mcp/docs/meetings-mcp-server)
+    * [Messaging MCP Server](https://developer.webex.com/mcp/docs/messaging-mcp-server)
+    * [Vidcast MCP Server](https://developer.webex.com/mcp/docs/vidcast-mcp-server)
+    * [Webex Suite MCP Server](https://developer.webex.com/mcp/docs/webex-suite-mcp-server)
+    * [Workspaces MCP Server](https://developer.webex.com/mcp/docs/workspaces-mcp-server)
+  * Security Guides
+  * Cisco Onboarded MCP Servers
+  * Federated through External Registery
+  * Agentic Apps
+  * Connect Webex MCP Servers to External Clients
+  * Connect External MCP Servers to Webex AI
+  * [Beta Program Overview](https://developer.webex.com/mcp/docs/webex-developer-beta-program)
+
+
+## AI in Webex
+### Vidcast MCP Server
+####  anchorWhat is Vidcast MCP Server?
+anchor
+Vidcast MCP Server is a Model Context Protocol (MCP) integration that enables AI assistants and agents to interact with the Vidcast video platform data. Vidcast is the Webex Suite's enterprise video solution. It exposes 29 tools that allow agents to search, browse, analyze, and retrieve information from Vidcast videos, playlists, pages, and user activity — all through a standardized MCP interface with OAuth-based authentication.
+> **Prerequisites:** This MCP server must be enabled by your organization's admin in Webex Control Hub before it can be used. See [Provisioning on Control Hub](https://developer.webex.com/docs/provisioning-on-control-hub) for details.
+  * **Server URL:** `https://mcp.webexapis.com/mcp/vidcast`
+
+
+####  anchorTools
+anchor
+29 tools covering video discovery, content, engagement, analytics, recommendations, sharing, and notifications:
+###### Video Discovery & Search (4)  
+| Tool  | Description  |  
+| --- | --- |  
+| `vidcast-search-videos`  | Search Vidcast videos by keywords (supports sorting and transcript inclusion)  |  
+| `vidcast-search-pages`  | Search Vidcast Pages by keywords  |  
+| `vidcast-search-playlists`  | Search Vidcast Playlists by keywords  |  
+| `vidcast-search-users`  | Search for Vidcast users by name or email  |  
+###### Video Library & Browsing (7)  
+| Tool  | Description  |  
+| --- | --- |  
+| `vidcast-list-my-videos`  | List the authenticated user's video library (supports filtering by date, source, share type)  |  
+| `vidcast-list-shared-with-me`  | List videos shared with the authenticated user  |  
+| `vidcast-list-recently-viewed-videos`  | List recently viewed videos  |  
+| `vidcast-list-pages`  | List pages by kind (own/shared/collaborative/recent)  |  
+| `vidcast-list-playlists`  | List playlists by kind (own/shared/collaborative/recent)  |  
+| `vidcast-get-shared-video`  | Get a shared video by shareId  |  
+| `vidcast-get-author-videos`  | Get latest videos for an author by userId  |  
+###### Video Content & AI (2)  
+| Tool  | Description  |  
+| --- | --- |  
+| `vidcast-get-video-transcript`  | Retrieve full transcript for a video  |  
+| `vidcast-get-video-highlights`  | Retrieve AI-generated highlights for a video  |  
+###### Engagement & Social (3)  
+| Tool  | Description  |  
+| --- | --- |  
+| `vidcast-get-video-comments`  | List comments for a shared video  |  
+| `vidcast-get-video-comment-replies`  | List replies for a comment thread  |  
+| `vidcast-get-video-reactions`  | List emoji reactions for a shared video  |  
+###### Analytics & Insights (4)  
+| Tool  | Description  |  
+| --- | --- |  
+| `vidcast-get-video-insights`  | Get analytics summary for a specific video  |  
+| `vidcast-get-video-insights-views`  | Get views timeseries for a video over a period  |  
+| `vidcast-get-video-insights-retention`  | Get retention analytics for a video  |  
+| `vidcast-get-user-insights`  | Get analytics summary for the authenticated user  |  
+| `vidcast-get-user-insights-views`  | Get views timeseries for the authenticated user  |  
+###### Recommendations (3)  
+| Tool  | Description  |  
+| --- | --- |  
+| `vidcast-recommend-watch-next`  | Get watch-next recommendations using a reference item  |  
+| `vidcast-recommend-top-videos`  | Get top recommended videos for the user  |  
+| `vidcast-recommend-trending-videos`  | Get trending recommended videos for the user  |  
+###### Sharing & Access (3)  
+| Tool  | Description  |  
+| --- | --- |  
+| `vidcast-get-sharing-info`  | Get sharing/access configuration for a resource  |  
+| `vidcast-get-author-info`  | Get author profile info by userId  |  
+| `vidcast-list-access-requests`  | List access requests for a shared resource  |  
+###### Notifications (2)  
+| Tool  | Description  |  
+| --- | --- |  
+| `vidcast-check-notifications`  | Quick check if there are unread notifications (boolean)  |  
+| `vidcast-list-notifications`  | List user notifications (comments, reactions, access requests, shares)  |  
+####  anchorConnect to your MCP Client
+anchor
+Select your AI client to get connection instructions:
+  * [Amazon Quick](https://developer.webex.com/docs/webex-agentic-mcp-servers-amazon-quick)
+  * [Claude Code](https://developer.webex.com/docs/webex-agentic-mcp-servers-claude-code)
+  * [Claude Desktop](https://developer.webex.com/docs/webex-agentic-mcp-servers-claude-desktop)
+  * [Codex](https://developer.webex.com/docs/webex-agentic-mcp-servers-codex)
+  * [Copilot Studio](https://developer.webex.com/docs/webex-agentic-mcp-servers-copilot-studio)
+  * [Cursor](https://developer.webex.com/docs/webex-agentic-mcp-servers-cursor)
+  * [Gemini CLI](https://developer.webex.com/docs/webex-agentic-mcp-servers-gemini-cli)
+  * [VS Code](https://developer.webex.com/docs/webex-agentic-mcp-servers-vscode)
+
+
+####  anchorAuthentication
+anchor
+**Auth Type:** OAuth 2.0 Bearer Token
+**Issuer:** `https://webexapis.com`
+**Flow:** The MCP client obtains a Webex OAuth token and passes it via the `Authorization: Bearer <token>` header. The server forwards it to each plugin, and plugins call the Webex REST API on behalf of the authenticated user.
+**Rate limits:** 120 invocations per 60 seconds, max 10 concurrent requests
+####  anchorScopes
+anchor
+3 OAuth scopes required:  
+| Scope  | Description  |  
+| --- | --- |  
+| `spark:mcp`  | Required for MCP server connection  |  
+| `Identity:Organization`  | Access to organization-level identity information  |  
+| `Identity:Config`  | Access to identity configuration  |  
+**Full scope string:**
+
+```
+spark:mcp Identity:Organization Identity:Config
+
+```
+
+##### In This Article
+  * [What is Vidcast MCP Server?](https://developer.webex.com/mcp/docs/vidcast-mcp-server#what-is-vidcast-mcp-server)
+  * [Tools](https://developer.webex.com/mcp/docs/vidcast-mcp-server#tools)
+  * [Connect to your MCP Client](https://developer.webex.com/mcp/docs/vidcast-mcp-server#connect-to-your-mcp-client)
+  * [Authentication](https://developer.webex.com/mcp/docs/vidcast-mcp-server#authentication)
+  * [Scopes](https://developer.webex.com/mcp/docs/vidcast-mcp-server#scopes)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
