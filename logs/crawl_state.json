@@ -7962,5 +7962,9 @@
   "https://developer.webex.com/docs/api/v1/meetings/create-a-meeting": {
     "hash": "93c3b07de8325722a392e3019c636bfa355c06c316c3b1ae2c4cb52fffa3edbf",
     "timestamp": "2026-08-13T02:09:49.989115"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings/list-meetings-of-a-meeting-series": {
+    "hash": "60cb37abfef27e04fcebaef9a9558827c57e5d788cccbce4a2e4e0a0a3c87398",
+    "timestamp": "2026-08-13T02:09:54.537928"
   }
 }
