@@ -566,5 +566,9 @@
   "https://apphub.webex.com/applications/microcall-cdr-reporting-micro-tel-inc": {
     "hash": "72e4ec7509a280b8f5da39347dd58bdb84fea237ee4638ad21d37d1437a387e0",
     "timestamp": "2026-08-13T15:09:04.068409"
+  },
+  "https://developer.webex.com/docs/api/v1/report-templates/list-report-templates": {
+    "hash": "d03bc3e2e1eb6b1f96693834400ac6977873c492b57de90a1c73242e0c9741e1",
+    "timestamp": "2026-08-13T15:09:10.238584"
   }
 }
