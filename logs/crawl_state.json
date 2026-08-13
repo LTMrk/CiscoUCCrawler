@@ -8014,5 +8014,9 @@
   "https://developer.webex.com/docs/api/v1/meetings/update-meeting-control-status": {
     "hash": "46d2028af41a6b8c3a208a91f47b74b3b4c40b26ceb429aa44d7eb349141a1fc",
     "timestamp": "2026-08-13T02:11:17.649853"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings/get-registration-form-for-a-meeting": {
+    "hash": "8c902feca41fb1e544bd417f1fbff5dfe416c988276bcd5b89b5fce2cd31153d",
+    "timestamp": "2026-08-13T02:11:24.300550"
   }
 }
