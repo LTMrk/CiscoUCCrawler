@@ -7862,5 +7862,9 @@
   "https://developer.webex.com/docs/api/v1/webhooks/update-a-webhook": {
     "hash": "aef63e7fe0410fd14bcb50719dce1fc47e75eb2615a23d5037ca8df50c68b0b7",
     "timestamp": "2026-08-13T02:07:08.713520"
+  },
+  "https://developer.webex.com/docs/api/v1/webhooks/delete-a-webhook": {
+    "hash": "99759b49728a57620669029394b267bb0bf51696c5292c4bccbbd3278dcc0a30",
+    "timestamp": "2026-08-13T02:07:15.265798"
   }
 }
