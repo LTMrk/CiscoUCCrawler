@@ -7650,5 +7650,9 @@
   "https://developer.webex.com/docs/api/v1/groups/create-a-group": {
     "hash": "107bb1e77822a45f427507b77832621a170cadb876956ddbbeae81c8bad063d5",
     "timestamp": "2026-08-13T02:00:10.484888"
+  },
+  "https://developer.webex.com/docs/api/v1/groups/update-a-group": {
+    "hash": "5532eea31eb921a609e61b8cd7a6cabd278a5d188cdad9eb23ff5a9b3666a975",
+    "timestamp": "2026-08-13T02:00:16.978493"
   }
 }
