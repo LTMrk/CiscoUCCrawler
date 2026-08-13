@@ -4414,5 +4414,9 @@
   "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160218-glibc.html": {
     "hash": "72614701cf9c5ec5bd5dd37ea87b0f60e8758976f2aeedb5e10fe11c1d00b1eb",
     "timestamp": "2026-08-13T00:56:34.827866"
+  },
+  "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20150612-openssl.html": {
+    "hash": "9b5411446cf7283cd48eb13e9b67b8ecd32bc08b45afa855825a2ca7d7625f8a",
+    "timestamp": "2026-08-13T00:56:39.056050"
   }
 }
