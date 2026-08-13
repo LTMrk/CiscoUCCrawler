@@ -279404,3 +279404,135 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/web/cloud-status.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/web/cloud-status.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/web/cloud-status.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/web/cloud-status.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/web/cloud-status.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+
+
+# Cisco Cloud Status
+Use the following tools to check the current status of services and components for Cisco's cloud-based Webex, Cloud Security, Data Center, and IoT offerings.
+##### Cisco Cloud Collaboration  
+|   | [Cisco Webex](https://status.webex.com/service/status)  |   | Provides status, incident history, and maintenance notifications for the core Webex services including Meetings, Messaging, Calling, Devices, and Contact Center  |  
+| --- | --- | --- | --- |  
+|   | [Cisco Webex CPaaS](https://webexcpaas.service-now.com/csm?id=wxc_status_home)  |   | Provides status, incident history, and maintenance notifications for Webex CPaaS services including Webex Connect, Webex Campaign, Webex Engage, Webex Notify, Webex Interact and our Messaging Gateways and digital channels  |  
+  
+
+##### Cisco Cloud IoT  
+|   | [Cisco IoT Operations Dashboard (IoT OD)](https://status.ciscoiot.com/)  |   | Status of services provided on IoT Operations Dashboard are tracked here, including regional status, updates and upcoming scheduled maintenance  |  
+| --- | --- | --- | --- |  
+  
+
+##### Cisco Cloud Security  
+|   | [AI Defense](https://status.aidefense.security.cisco.com/)  |   | Service status, incident history, maintenance notification and subscription capability for Cisco AI Defense  |  
+| --- | --- | --- | --- |  
+|   | [Extended Detection and Response (XDR)](https://status.tdr.cisco.com/)  |   | Displays status for Cisco Extended Detection and Response (XDR) in North America, Europe and Asia regions  |  
+|   | [Malware Analytics Cloud](https://threatgrid.statuspage.io/)  |   | Status for Cisco Secure Malware Analytics (formerly ThreatGrid) public clouds in North America and Europe, with 90-day history available  |  
+|   | [Secure Access](https://status.sse.cisco.com/)  |   | Service Status for Cisco Secure Access cloud security platforms with announcements for upcoming maintenance windows  |  
+|   | [Secure Cloud Analytics](https://status.obsrvbl.com/)  |   | Status, system metrics and history for Cisco Secure Cloud Analytics (formerly Stealthwatch Cloud)  |  
+|   | [Secure Email Cloud Gateway](https://status.ces.cisco.com)  |   | Status and maintenance for Cisco Secure Email Cloud Gateway components by region, with 90-Day history and subscription option (formerly Cisco Cloud Email Security (CES))  |  
+|   | [Secure Email Threat Defense](https://ciscosecureemailthreatdefense.statuspage.io/)  |   | Displays status for Secure Email Threat Defense public clouds in North America, Europe, India and Australia, with subscription capability  |  
+|   | [Secure Endpoint](https://ciscoamp.statuspage.io/)  |   | Formerly AMP (Advanced Malware Protection), displays status for Secure Endpoint public clouds in North America, Europe and APJC  |  
+|   | [Secure Web Appliance](https://urgentnotices.statuspage.io/)  |   | Formerly WSA, Cisco Secure Web Appliance provides multiple ways to automatically detect and block web-based threats  |  
+|   | [Security Cloud Control Firewall Management](https://status.defenseorchestrator.com/)  |   | Formerly Cisco Defense Orchestrator (CDO), the Security Cloud Control Firewall Management status page displays a 30-day history and subscription option  |  
+|   | [Security Cloud Sign On](https://status.sign-on.security.cisco.com)  |   | Status for easy access to all Cisco Security products with one set of credentials (formerly SecureX Sign-on (SxSO)).  |  
+|   | [Umbrella](https://status.umbrella.com/#/)  |   | Status, maintenance, and history for Cisco Umbrella, Cisco Secure Connect, and Cisco Cloudlock by region with subscription options  |  
+  
+
+##### Cisco Customer Experience (CX)  
+|   | [Cisco CX Cloud](https://cxtrust.cisco.com/#/home)  |   | The CX Trust homepage provides 30-day service health and maintenance announcements for CX Cloud services by area (Lifcycle, Cases, Insights, Admin, etc.) across three global theaters  |  
+| --- | --- | --- | --- |  
+  
+
+##### Cisco Data Center  
+|   | [Cisco Intersight](https://status.intersight.com)  |   | Status for Cisco Intersight SaaS service, including its Analytics, Core, Device Connector, and Identity Management services, with 90-day history and subscription option  |  
+| --- | --- | --- | --- |  
+  
+
+##### Cisco Enterprise Networking & Cloud   
+|   | [Cisco Spaces](https://dnaspaces.io/globalstatus/)  |   | Status of the Cisco Spaces (formerly Cisco DNA Spaces) cloud and applications across EU and RoW regions, with 90-day maintenance history visibility across all subscription and offer types  |  
+| --- | --- | --- | --- |  
+|   | [SD-WAN Cloud Health Dashboard](https://status.sdwan.cisco.com/)  |   | Display status, past incidents, wide-impacting maintenance, and high-impact outages by service and region for the Cisco SD-WAN Cloud based services with 90-day maintenance history visibility and a subscription option  |  
+  
+
+##### Acquisitions  
+|   | [Duo Service Health](https://status.duo.com/)  |   | Provides status information on the services and all deployments that are part of Duo Security, with past incidents and alerts for upcoming maintenance  |  
+| --- | --- | --- | --- |  
+|   | [Kenna Security](https://status.kennasecurity.com/)  |   | Now [Cisco Vulnerability Management](https://www.cisco.com/c/en/us/support/security/vulnerability-management/series.html), this subscribable dashboard indicates status over the past 90 days, upcoming maintenance and past incidents of Kenna Security  |  
+|   | [Meraki Dashboard](https://status.meraki.net/)  |   | Displays status, past incidents, wide-impacting maintenance and high-impact outages by service, device type, or region for the Meraki Dashboard platform  |  
+|   | [Oort](https://status.oort.io/)  |   | Oort is now Cisco Identity Intelligence. This dashboard provides status, incident history and upcoming maintenance notifications  |  
+|   | [Splunk](https://www.splunk.com/en_us/products/system-status.html)  |   |  [Splunk Cloud Platform](https://status.splunkcloud.com/) | [Splunk Observability Cloud](https://status.signalfx.com/) | [Splunk On-Call](https://victorops.statuspage.io/) | [Splunk Synthetic Monitoring (formerly Rigor)](https://status.rigor.com/)  |  
+|   | [ThousandEyes](https://status.thousandeyes.com/)  |   | Provides status, incident history, and maintenance notifications for the ThousandEyes services. Also see the [ThousandEyes Internet Outages Map](https://www.thousandeyes.com/outages/).  |  
+  
+  
+[![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png) Feedback](javascript:void\(0\);)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
