@@ -7266,3 +7266,184 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://help.webex.com/en-us/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space
+
+Skip To Content[![webex-logo](https://help.webex.com/logo/webexlogo.png)Help Center](https://help.webex.com/en-us)
+* ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
+* ![search icon](https://help.webex.com/images/search-icon.svg)
+* ![Cisco AI Assistant for Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+![](https://help.webex.com/images/wca-old.png)
+Webex Chat Assistant is now Cisco AI Assistant
+Same help, now built right into the navigation
+  * [Get started](https://help.webex.com/en-us/getting-started)
+  * [Help by product](https://help.webex.com/en-us/products)
+  * [Administration](https://help.webex.com/en-us/administration)
+  * [What's new](https://help.webex.com/en-us/ld-v6m1dl)
+  * Resources
+Support
+[Join a meeting](https://signin.webex.com/join)
+[Developer Tools![Developer Tools](https://help.webex.com/images/pop-out-bold.svg)](https://developer.webex.com/)
+[Adoption Hub![](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/us/en/adopt/index.html)
+[Contact Support](https://help.webex.com/en-us/contact)
+learn
+[Video resources](https://help.webex.com/en-us/video-resources)
+[Webex Academy![Webex Academy](https://help.webex.com/images/pop-out-bold.svg)](https://academy.webex.com/learn)
+[Live Events and Webinars![Live Events and Webinars](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/learn/webinars-demos.html)
+[Webex Blog![Webex Blog](https://help.webex.com/images/pop-out-bold.svg)](https://blog.webex.com/)
+programs
+[Webex Community![Webex Community](https://help.webex.com/images/pop-out-bold.svg)](https://community.cisco.com/t5/webex-community/ct-p/webex-user)
+[Webex Insider![Webex Insider](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/insider)
+[App Hub![App Hub](https://help.webex.com/images/pop-out-bold.svg)](https://apphub.webex.com/)
+![Cisco AI Assistant](https://help.webex.com/images/ai.png)
+## Cisco AI Assistant
+The most advanced generative AI-powered platform for hybrid work and customer experience.
+[Learn more →](https://help.webex.com/en-us/webex-ai)
+![webex](https://help.webex.com/logo/webexsmall.png)[Download Webex](https://www.webex.com/downloads.html)
+[+1-888-469-3239](tel:+1-888-469-3239)[Contact Sales →](https://www.webex.com/contact-sales.html)
+  * ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
+  * ![Cisco AI Assistant for Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+  * English
+    * [ Dansk ](https://help.webex.com/da-dk/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Deutsch ](https://help.webex.com/de-de/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ English ](https://help.webex.com/en-us/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)![language tick](https://help.webex.com/images/checkbox-check.svg)
+    * [ Español ](https://help.webex.com/es-co/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Français ](https://help.webex.com/fr-fr/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Italiano ](https://help.webex.com/it-it/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Nederlands ](https://help.webex.com/nl-nl/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Português ](https://help.webex.com/pt-br/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Pyccĸий ](https://help.webex.com/ru-ru/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Svenska ](https://help.webex.com/sv-se/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Tϋrkçe ](https://help.webex.com/tr-tr/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ 한국어 ](https://help.webex.com/ko-kr/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ 日本語 ](https://help.webex.com/ja-jp/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ 简体中文 ](https://help.webex.com/zh-cn/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ 繁體中文 ](https://help.webex.com/zh-tw/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Română ](https://help.webex.com/ro-ro/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Magyar ](https://help.webex.com/hu-hu/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Polski ](https://help.webex.com/pl-pl/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Čeština ](https://help.webex.com/cs-cz/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Български ](https://help.webex.com/bg-bg/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Norsk ](https://help.webex.com/no-no/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Hrvatski ](https://help.webex.com/hr-hr/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Srpski ](https://help.webex.com/sr-rs/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Українська ](https://help.webex.com/uk-ua/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ العربية ](https://help.webex.com/ar-ae/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ עברית ](https://help.webex.com/he-il/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Suomi ](https://help.webex.com/fi-fi/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Slovenščina ](https://help.webex.com/sl-si/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+    * [ Slovenský ](https://help.webex.com/sk-sk/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space)
+  * Sign In
+
+
+  * [Home](https://help.webex.com/)
+  * /
+  * Article
+
+
+This article applies to:
+  * ![](https://help.webex.com/images/products-icon.svg)
+Products
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/industries-icon.svg)
+Industries
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/roles-icon.svg)
+Roles
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/operating-systems-icon.svg)
+Operating systems
+![](https://help.webex.com/images/arrow-down_16.svg)
+
+
+Was this article helpful?
+![close](https://help.webex.com/images/icn-close.svg)
+# Thanks for your feedback.
+![](https://help.webex.com/images/thumbs-up.svg)Yes, thank you!![](https://help.webex.com/images/thumbs-down.svg)Not really
+March 07, 2026 | 16209 view(s) | 15 people thought this was helpful
+![](https://help.webex.com/images/print-icon-new.svg)
+Subscribe
+# Webex App | Add people to a team space
+![list-menu](https://help.webex.com/images/feedback.svg)Feedback?
+If you're a member of a team, you can add other people to any unmoderated space (except for the General space) on that team just like you can other spaces. However, those people only have access to that specific space, not the entire team. 
+![add people to a message space](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/454001-455000/454467.jpg)
+  * [Desktop](https://help.webex.com/en-us/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space#id_91548)
+  * [iPhone and iPad](https://help.webex.com/en-us/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space#Cisco_Task.dita_1a3ead1d-2907-4652-80a8-d8b1222707f5)
+  * [Android](https://help.webex.com/en-us/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space#id_91912)
+  * [Web](https://help.webex.com/en-us/article/ogreyb/Webex-App-%7C-Add-people-to-a-team-space#Cisco_Task.dita_aab0ea80-ce6b-4dc5-8c0f-160472ff7355)
+
+  
+| 1  |  Go to Teams ![Teams button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/431001-432000/432000.jpg), choose a team, then select a space from the spaces list.  |  
+| --- | --- |  
+| 2  |  In the space, click People, and then click ![](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/429001-430000/429525.jpg) Add people  |  
+| 3  |  Enter a name or email address and pick them from the results list. If you selected someone that you don't want to add to the space, click their profile picture to remove them.  |  
+| 4  |  Click Add to add your selected people to the space.  |  
+| 1  |  Go to Messaging, and tap Teams.  |  
+| --- | --- |  
+| 2  |  Choose a team, then select a space from the spaces list.  |  
+| 3  |  In the space tap ![More options button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/460001-470000/461001-462000/461853.jpg), select People, then tap ![Add People icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/432001-433000/432041.jpg) Add People. You can add several people at a time, type the first letters of their name or their email address, and select them from the list.  |  
+| 4  |  Then, tap Add.  |  
+| 1  |  Go to Messaging and tap Teams.  |  
+| --- | --- |  
+| 2  |  Choose a team, then select a space from the spaces list.  |  
+| 3  |  In the space tap ![More Options button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/453001-454000/453339.jpg), select People, then tap ![Add People icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/432001-433000/432041.jpg) Add People. You can add several people at a time, type the first letters of their name or their email address, and select them from the list.  |  
+| 4  |  Then, tap OK.  |  
+| 1  |  Go to Teams ![Teams button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/431001-432000/432000.jpg), choose a team, then select a space from the spaces list.  |  
+| --- | --- |  
+| 2  |  In the space, go to People, and then click ![Add People icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/432001-433000/432041.jpg) Add People.  |  
+| 3  |  Type in the name of the person you would like to add, and select them from the list. If you accidentally select someone you don't want to, click their profile picture to remove them. If their name doesn't appear, then they don't have a Webex App account. Enter their email address to invite them to join.  |  
+| 4  |  Click Add, to add your selected people to the space. You can add up to 50 people at a time by copying and pasting a list of email addresses separated by commas or semicolons.  |  
+Was this article helpful?
+Yes, thank you!
+Not really
+Was this article helpful?
+![](https://help.webex.com/images/arrow-down_20.svg)
+![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
+Related Articles
+![](https://help.webex.com/images/arrow-down_20.svg)
+  * [Webex App | Add people to a space](https://help.webex.com/en-us/article/n35gqwcb)
+  * [Webex App | See when you've been added to a new space](https://help.webex.com/en-us/article/nfjak3w)
+  * [Webex App | Spaces and Teams](https://help.webex.com/en-us/article/4eawbp)
+  * [Webex App | 6 Special things about general spaces](https://help.webex.com/en-us/article/m4hfiu)
+  * [Webex App | Join a team space](https://help.webex.com/en-us/article/l0jhr4)
+
+
+Recently Viewed
+![](https://help.webex.com/images/arrow-down_20.svg)
+  * [Webex App | Get someone's attention with @Mentions](https://help.webex.com/en-us/article/p5k20o)
+  * [Configure Webex Calling for your organization](https://help.webex.com/en-us/article/njvdjf2)
+  * [Reports for Your Cloud Collaboration Portfolio](https://help.webex.com/en-us/article/nmug598)
+  * [How to Clear the Webex Cache on a Mac](https://help.webex.com/en-us/article/WBX000026120)
+
+
+![](https://help.webex.com/icons/arrow-up_16.svg)
+## Small Business
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Pricing](https://pricing.webex.com/)[Webex App](https://www.webex.com/all-new-webex.html)[Meetings](https://www.webex.com/video-conferencing.html)[Calling](https://www.webex.com/cloud-calling.html)[Messaging](https://www.webex.com/team-collaboration.html)[Screen Sharing](https://www.webex.com/screen-sharing.html)
+## Enterprise
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Webex Suite](https://www.webex.com/collaboration-suite.html)[Calling](https://www.webex.com/cloud-calling.html)[Meetings](https://www.webex.com/video-conferencing.html)[Messaging](https://www.webex.com/team-collaboration.html)[Slido](https://www.webex.com/audience-engagement.html)[Webinars](https://www.webex.com/webinar.html)[Events](https://socio.events/)[Contact Center](https://www.webex.com/contact-center.html)[CPaaS](https://www.webex.com/customer-interaction-management.html)[Security](https://www.webex.com/security.html)[Control Hub](https://www.webex.com/control-hub.html)
+## Devices
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Headsets](https://hardware.webex.com/products/headsets)[Cameras](https://hardware.webex.com/products/cameras)[Desk Series](https://hardware.webex.com/products/desk-series)[Room Series](https://hardware.webex.com/products/room-series-and-kits)[Board Series](https://hardware.webex.com/products/board-series)[Phone Series](https://hardware.webex.com/products/phones)[Accessories](https://hardware.webex.com/products/accessories)
+## Solutions For
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Education](https://www.webex.com/industries/education.html)[Healthcare](https://www.webex.com/industries/healthcare.html)[Government](https://www.webex.com/industries/government.html)[Finance](https://www.webex.com/industries/financial-services.html)[Sports & Entertainment](https://www.webex.com/industries/sports-entertainment.html)[Frontline](https://www.webex.com/industries/frontline.html)[Nonprofits](https://www.webex.com/industries/nonprofits.html)[Startups](https://www.webex.com/industries/start-ups.html)[Hybrid Work](https://www.webex.com/hybrid-work.html)
+## Resources
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Downloads](https://www.webex.com/downloads.html)[Join a Test Meeting](https://www.webex.com/test-meeting.html)[Online Classes](https://help.webex.com/en-us/landing/onlineclasses)[Integrations](https://www.webex.com/products/integrations/index.html)[Accessibility](https://www.webex.com/accessibility.html)[Inclusivity](https://www.webex.com/inclusive-collaboration.html)[Live & On-Demand Webinars](https://www.webex.com/learn/webinars-demos.html)[Webex Community](https://cs.co/webexcommunity)[Webex Developers](https://developer.webex.com/)[News & Innovations](https://www.webex.com/resources/whats-new.html)
+## Company
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)[Contact Support](https://help.webex.com/en-us/contact)[Contact Sales](https://www.webex.com/us/en/dg/contact-sales.html)[Webex Blog](https://blog.webex.com/)[Webex Thought Leadership](https://webexahead.webex.com/)[Webex Merch Store](https://www.webexmerchstore.com/)[Careers](https://www.webex.com/company/careers.html)
+  * [![X](https://help.webex.com/images/social-x.svg)](https://twitter.com/webex)
+  * [![LinkedIn](https://help.webex.com/images/linkedinIcon.svg)](https://www.linkedin.com/company/webex)
+  * [![Facebook](https://help.webex.com/images/facebookIcon.svg)](https://www.facebook.com/webex)
+  * [![Youtube](https://help.webex.com/images/youtubeIcon.svg)](https://www.youtube.com/c/webex)
+  * [![Instagram](https://help.webex.com/images/insta.svg)](https://www.instagram.com/webex/)
+
+
+[Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+©2026 Cisco and/or its affiliates. All rights reserved. 
+[Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
