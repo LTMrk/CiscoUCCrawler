@@ -642,3 +642,192 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://blogs.cisco.com/customerexperience/defending-the-future-today-cisco-resilient-infrastructure-services
+
+[Skip to content](https://blogs.cisco.com/customerexperience/defending-the-future-today-cisco-resilient-infrastructure-services#content)
+[![Cisco Logo](https://blogs.cisco.com/wp-content/themes/ciscowordpress-child/svg/cisco_logo.svg)](https://blogs.cisco.com)
+[Cisco Blogs](https://blogs.cisco.com)
+[Executive Platform](https://blogs.cisco.com/news)
+[AI](https://blogs.cisco.com/ai)
+[Networking](https://blogs.cisco.com/networking)
+[Data Center](https://blogs.cisco.com/datacenter)
+[Security](https://blogs.cisco.com/security)
+More 
+  * [All Industries](https://blogs.cisco.com/industries)
+  * [All Countries + Regions](https://blogs.cisco.com/country-region)
+  * [Cisco Insider](https://blogs.cisco.com/insidervoices)
+  * [Cisco on Cisco](https://blogs.cisco.com/cisco-on-cisco)
+  * [CX](https://blogs.cisco.com/customerexperience)
+  * [Developer](https://blogs.cisco.com/developer)
+  * [High Tech Policy](https://blogs.cisco.com/gov)
+  * [Industrial IoT](https://blogs.cisco.com/industrial-iot)
+  * [Innovation](https://blogs.cisco.com/innovation)
+  * [Learn with Cisco](https://blogs.cisco.com/learning)
+  * [Our Corporate Purpose](https://blogs.cisco.com/our-corporate-purpose)
+  * [Partner](https://blogs.cisco.com/partner)
+  * [SP360: Service Provider](https://blogs.cisco.com/sp)
+  * [SMB: Small and Medium Business](https://blogs.cisco.com/smb)
+  * [We Are Cisco](https://blogs.cisco.com/wearecisco)
+  * [Subscribe to Cisco Blogs](https://app.feedpress.com/e/mailverify?feed_id=CiscoBlogs)
+
+
+Menu
+Search
+Search
+Voice Search is currently unavailable 
+Powered by Google Web Speech API 
+We didn't hear that. Try again. 
+When autocomplete results are available use up and down arrows to review and enter to select
+  * [Downloads](https://software.cisco.com/download/navigator.html)
+  * [Certifications](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+  * [Design Guides](https://www.cisco.com/c/en/us/solutions/design-zone.html)
+  * [Training](https://learninglocator.cloudapps.cisco.com/#/home)
+  * [Community](https://community.cisco.com/)
+  * [Careers](https://www.cisco.com/c/en/us/about/careers.html)
+
+
+![](https://blogs.cisco.com/wp-content/themes/ciscowordpress-child/svg/search_background.svg)
+# Cisco Blogs
+[Cisco Blogs](https://blogs.cisco.com/) / [Cisco Customer Experience](https://blogs.cisco.com/customerexperience) / Defending the Future, Today: Cisco Resilient Infrastructure Services
+July 27, 2026 [Leave a Comment](https://blogs.cisco.com/customerexperience/defending-the-future-today-cisco-resilient-infrastructure-services#respond)
+* * *
+![Avatar](https://blogs.cisco.com/gcs/ciscoblogs/1/2025/01/IL20250117212326-vbutaney-150x150.jpg)
+##### [Cisco Customer Experience](https://blogs.cisco.com/customerexperience)
+# Defending the Future, Today: Cisco Resilient Infrastructure Services
+3 min read
+[Vikas Butaney](https://blogs.cisco.com/author/vikasbutaney "Posts by Vikas Butaney")
+In the time it takes you to finish your morning coffee, a new vulnerability has likely been identified and weaponized. The digital battlefield isn’t just evolving; it is accelerating exponentially. The gap between a secure network and a compromised one is closing faster than ever.
+I hear from you every day – caught between these two forces: fast-moving threats and outdated systems. You need solutions that deliver agile, machine-speed risk and exposure management **now.**
+At Cisco Live US, [Liz reaffirmed our commitment](https://blogs.cisco.com/news/what-were-announcing-at-cisco-live-and-why-it-couldnt-wait) to help you meet these evolving risks. Today, I’m proud to share that **Cisco Resilient Infrastructure Services** is generally available. **Quantum Safe Infrastructure** , **On Prem modalities** , and **Peer Benchmarking** are also available, helping you take action against threat categories that are no longer theoretical.
+## **A Structured Approach: Resilient Infrastructure Services**
+When we designed **Cisco Resilient Infrastructure Services,** we anticipated that in the frontier AI model era our customers would face unknown challenges. Our goal was to offer a structured approach to infrastructure hardening that would help you overcome current and future challenges at the velocity AI demands. **Cisco Resilient Infrastructure Services** is part of a strategic response by Cisco to this new era of cybersecurity, resting on three pillars:
+  * **Rapid Exposure Assessment:** AI-driven insights to quickly discover and prioritize vulnerabilities, so your team can focus on what matters most.
+  * **Infrastructure Modernization:** We help you systematically update your environment and harden your operational agility, guided by Zero Trust principles, a security approach that assumes no implicit trust and verifies every access.
+  * **Continuous Defense:** Ongoing protection that evolves with emerging threats, reducing operational friction.
+
+
+Starting July 24th, **Cisco Resilient Infrastructure Services** is available through Cisco Support – Standard tier and above. For complex remediation and modernization projects, you can also leverage expert guidance though Professional Services engagements.
+Cisco Resilient Infrastructure Services delivers on our customers’ most urgent need: architecting adaptive, structural infrastructure resilience across the technology lifecycle. Foundationally, this is made possible thanks to our philosophy of combining AI-powered insights with human expertise. Thousands of customers have already experienced this synergy through [Cisco IQ.](https://www.cisco.com/site/us/en/services/support/index.html) Now, you can also access:
+  * **Digital Playbook in Cisco IQ:** You can access a Resilient Infrastructure Playbook that simplifies identifying and prioritizing vulnerable devices, as well as performs device level OS upgrades for certain devices with more to come.
+  * **Standard QuickStart:** We introduced Standard QuickStart, an onboarding offer for anyone not using Standard Support today to get you started with the digital capabilities in Cisco IQ while you transition to Cisco Support – Standard. This accelerates access to capabilities to address today’s complex threat landscape.
+
+
+## **Continuous Innovation for an Evolving Landscape**
+Cisco IQ delivers rapid innovation and [new capabilities](https://blogs.cisco.com/customerexperience/cisco-iq-scaling-secure-resilience) enabling our customers and partners to achieve continued agility and resilience.
+**Cisco IQ for air-gapped, on-premises deployments** , is now in controlled availability. To ensure these resilience capabilities are accessible across all sectors, we are prioritizing uncompromising data governance. For organizations in highly regulated industries, we provide the absolute data sovereignty and local control required to innovate with confidence.
+**Quantum Safe Infrastructure** identifies the assets most exposed to “harvest now, decrypt later” attacks – and where to start. These assessments evaluate secure communications and secure platforms to determine crypto-agility at both the device and infrastructure levels. From this deep technical analysis, Cisco IQ generates a practical roadmap of recommended actions, enabling your resources to focus where they matter most to build a crypto-agile future.
+**Peer Benchmarking:** Built on a foundation of strict data privacy, Peer Benchmarking allows you to benchmark your Last Day of Support (LDOS) risks, vulnerability exposure, and telemetry connectivity against industry peers. With granular filtering by vertical, market, and geography, we empower your organization to turn comparative insights into highly targeted, competitive investments
+These assessments and insights are examples of ways that Cisco Support’s Standard tier is continuing to deliver insights to provide you with greater visibility, control, and security. Using [Cisco IQ Link](https://www.cisco.com/c/en/us/support/docs/cx/iq-link/cx225764-cisco-iq-link-getting-started-guide.html) to collect your telemetry will unlock deeper, predictive insights that allow you to stay ahead of emerging threats and proactively optimize your infrastructure performance well into the future.
+We have set a strong foundation. Our commitment to you is that we will continue to rapidly evolve our portfolio so you can prepare to out-pace the adversaries.
+Our progress to put that innovation in your hands is being recognized too. I am proud to announce that Cisco CX has received four [Gold Stevie Awards](https://tech.stevieawards.com/Awards/SATE-Winners/2026/Information-Technology-Category-Winners) for our work on Cisco IQ, our Central Management Server, our Intelligent RMA experience, and our software development team. These accolades underscore our commitment to continued AI-driven innovation, and it is incredibly rewarding to see this recognition for the value we are delivering to our customers.
+I invite you to explore these updates and engage with Cisco IQ. If you already have a Cisco Support contract, start with the [Cisco IQ Getting Started Guide](https://www.cisco.com/c/en/us/support/docs/cx/cisco-iq/getting-started-guide/cx225778-cisco-iq-getting-started-guide.html). If not, visit the [Cisco Support page](https://www.cisco.com/site/us/en/services/support/index.html) to learn how Cisco IQ can transform your infrastructure resilience.
+## Authors
+[![Avatar](https://blogs.cisco.com/gcs/ciscoblogs/1/2025/01/IL20250117212326-vbutaney-150x150.jpg) ](https://blogs.cisco.com/author/vikasbutaney)
+###  [ Vikas Butaney](https://blogs.cisco.com/author/vikasbutaney)
+#### SVP, CX Product Management and Marketing 
+#### Customer Experience (CX)
+[![share on facebook](https://blogs.cisco.com/wp-content/themes/ciscowordpress-child/svg/share_li_navy.svg)](https://www.linkedin.com/in/vikasbutaney/)
+Tags: [AI-powered Support](https://blogs.cisco.com/tag/ai-powered-support) [Cisco CX](https://blogs.cisco.com/tag/cisco-cx) [Cisco IQ](https://blogs.cisco.com/tag/cisco-iq) [Customer Experience](https://blogs.cisco.com/tag/customer-experience)
+* * *
+### Leave a Comment [Cancel reply](https://blogs.cisco.com/customerexperience/defending-the-future-today-cisco-resilient-infrastructure-services#respond)
+You must be [logged in](https://blogs.cisco.com/wp-author/?redirect_to=https%3A%2F%2Fblogs.cisco.com%2Fcustomerexperience%2Fdefending-the-future-today-cisco-resilient-infrastructure-services) to post a comment.
+[ ![share on twitter](https://blogs.cisco.com/wp-content/plugins/cisco-text-to-speech//images/twitter-gray-tts.svg) X/Twitter ](https://twitter.com/intent/tweet?url=https://blogs.cisco.com/customerexperience/defending-the-future-today-cisco-resilient-infrastructure-services&text=Defending%20the%20Future,%20Today:%20Cisco%20Resilient%20Infrastructure%20Services&via=Cisco)
+[![share on facebook](https://blogs.cisco.com/wp-content/plugins/cisco-text-to-speech//images/facebook-gray-tts.svg)Facebook](http://www.facebook.com/sharer/sharer.php?u=https://blogs.cisco.com/customerexperience/defending-the-future-today-cisco-resilient-infrastructure-services&title=Defending%20the%20Future,%20Today:%20Cisco%20Resilient%20Infrastructure%20Services)
+[![share on linkedin](https://blogs.cisco.com/wp-content/plugins/cisco-text-to-speech//images/linkedin-gray-tts.svg) LinkedIn](https://www.linkedin.com/cws/share?url=https://blogs.cisco.com/customerexperience/defending-the-future-today-cisco-resilient-infrastructure-services)
+![](https://blogs.cisco.com/wp-content/plugins/cisco-text-to-speech//images/email-gray-tts.svg) E-mail
+![](https://blogs.cisco.com/wp-content/plugins/cisco-text-to-speech//images/voice.svg)Read aloud ![](https://blogs.cisco.com/wp-content/plugins/cisco-text-to-speech//images/share.svg) Share 
+x
+< PrevPlayNext >PauseStopSettings
+x
+Rate
+1
+Pitch
+1
+Select a voice:
+Voices are browser-dependent.  
+Tip: Chrome provides the most options.
+Reset Save
+Read aloud
+x
+< PrevPlayNext >PauseStopSettings
+x
+Rate
+1
+Pitch
+1
+Select a voice:
+Voices are browser-dependent.  
+Tip: Chrome provides the most options.
+ResetSave
+Quick Links 
+  * [About Cisco](https://www.cisco.com/site/us/en/about/index.html)
+  * [Contact Us](https://www.cisco.com/site/us/en/about/contact-cisco/index.html)
+  * [Careers](https://careers.cisco.com/global/en/home)
+  * [Connect with a partner](https://www.cisco.com/site/us/en/partners/evolved-partner-ecosystem/index.html)
+
+
+[](https://www.facebook.com/cisco/ "facebook") [](https://x.com/Cisco/ "twitter") [](https://www.linkedin.com/company/cisco "linkedin") [](https://www.youtube.com/user/cisco "youtube") [](https://www.instagram.com/cisco/ "instagram")
+Resources and Legal 
+  * [Feedback](https://ciscocx.qualtrics.com/jfe/form/SV_bwrmeoKrBHYxOyW?Ref=/c/en/us/index.html)
+  * [Help](https://www.cisco.com/c/en/us/about/help.html)
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies / Do not sell or share my personal data](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Accessibility](https://www.cisco.com/c/en/us/about/accessibility.html)
+  * [Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+  * [Supply Chain Transparency](https://www.cisco.com/c/dam/en_us/about/supply-chain/cisco-modern-slavery-statement.pdf)
+  * [Newsroom](https://newsroom.cisco.com/c/r/newsroom/en/us/index.html)
+  * [Sitemap](https://www.cisco.com/c/en/us/about/sitemap.html)
+
+
+[](https://www.facebook.com/cisco/ "facebook") [](https://x.com/Cisco/ "twitter") [](https://www.linkedin.com/company/cisco "linkedin") [](https://www.youtube.com/user/cisco "youtube") [](https://www.instagram.com/cisco/ "instagram")
+©2026 Cisco Systems, Inc.
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
