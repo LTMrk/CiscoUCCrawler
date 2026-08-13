@@ -21757,3 +21757,452 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://community.cisco.com/t5/devnet/ct-p/4409j-developer-home
+
+Heads Up :  The post you are writing will appear in a public forum. Please ensure all content is appropriate for public consumption. Review the employee guidelines for the community [here](https://community.cisco.com/t5/cisco-employee-guidelines/cisco-community-post-guidelines/ta-p/5332773 "guidelines"). 
+Cancel Post
+[ Community ](https://community.cisco.com/ "Cisco Community")
+###  Technology and Support
+Back
+Technology and Support
+Close
+  * [Technology and Support Home](javascript:void\(0\);)
+  * [Networking](javascript:void\(0\);)
+  * [Wireless and Mobility](javascript:void\(0\);)
+  * [Security](javascript:void\(0\);)
+  * [IOT](javascript:void\(0\);)
+  * [Webex](javascript:void\(0\);)
+  * [Collaboration](javascript:void\(0\);)
+  * [Data Center and Cloud](javascript:void\(0\);)
+  * [Small Business Support](javascript:void\(0\);)
+  * [Cisco Software](javascript:void\(0\);)
+  * [Service Providers](javascript:void\(0\);)
+  * [Services](javascript:void\(0\);)
+  * [Online Tools and Resources](javascript:void\(0\);)
+
+
+Close
+###  Guided Resources
+Back
+Guided Resources
+Close
+  * [Guided Resources Home](javascript:void\(0\);)
+  * [Data Center](javascript:void\(0\);)
+  * [Networking](javascript:void\(0\);)
+  * [Security](javascript:void\(0\);)
+  * [Services (CX)](javascript:void\(0\);)
+  * [Solutions](javascript:void\(0\);)
+
+
+Close
+###  DevNet Hub
+Back
+DevNet Hub
+Close
+  * [DevNet Community Home](javascript:void\(0\);)
+  * [DevNet Collaboration](javascript:void\(0\);)
+  * [DevNet Networking](javascript:void\(0\);)
+  * [DevNet Security](javascript:void\(0\);)
+  * [DevNet Cloud Native](javascript:void\(0\);)
+  * [DevNet Data Center](javascript:void\(0\);)
+  * [DevNet Internet of Things](javascript:void\(0\);)
+  * [DevNet Site](javascript:void\(0\);)
+  * [DevNet Services](javascript:void\(0\);)
+  * [DevNet Observability](javascript:void\(0\);)
+  * [DevOps](javascript:void\(0\);)
+
+
+Close
+###  Partner Hub
+Back
+Partner Hub
+Close
+Close
+###  Webinars and Events
+Back
+Webinars and Events
+Close
+  * [Webinars and Events Home](javascript:void\(0\);)
+
+
+Close
+###  How to use the Community
+Back
+How to use the Community
+Close
+  * [Getting Started in Cisco Community Home](javascript:void\(0\);)
+  * [Cisco and Community News](javascript:void\(0\);)
+  * [Members and Recognition](javascript:void\(0\);)
+  * [Community at Cisco Live](javascript:void\(0\);)
+  * [Community Enhancements Ideas](javascript:void\(0\);)
+  * [Project Gallery](javascript:void\(0\);)
+
+
+Close
+###  Cisco Insider
+Back
+Cisco Insider
+Close
+  * [Cisco Insider Welcome](javascript:void\(0\);)
+  * [Cisco Insider User Group Archives](javascript:void\(0\);)
+  * [Cisco Insider Champion Group](javascript:void\(0\);)
+  * [Intersight Insider Group Hub](javascript:void\(0\);)
+
+
+Close
+[ Buy or Renew ](https://community.cisco.com/t5/devnet/ct-p/4409j-developer-home)
+EN US
+  * [Chinese](https://community.cisco.com/t5/%E6%80%9D%E7%A7%91%E7%A4%BE%E5%8C%BA/ct-p/chinese-community?profile.language=zh-CN)
+  * [EN US](https://community.cisco.com/t5/technology-and-support/ct-p/technology-support?profile.language=en)
+  * [French](https://community.cisco.com/t5/communaut%C3%A9-cisco-en-fran%C3%A7ais/ct-p/communaute-francais?profile.language=fr)
+  * [Japanese](https://community.cisco.com/t5/japan/ct-p/japanese-community?profile.language=ja)
+  * [Korean](https://community.cisco.com/t5/%ED%95%9C%EA%B5%AD%EC%96%B4-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/ct-p/korean?profile.language=ko)
+  * [Portuguese](https://community.cisco.com/t5/comunidade-da-cisco/ct-p/comunidade-portugues?profile.language=pt)
+  * [Spanish](https://community.cisco.com/t5/comunidad-de-cisco/ct-p/comunidad-espanol?profile.language=es)
+
+
+Log In
+MENU
+CLOSE
+[ Buy or Renew ](https://community.cisco.com/t5/devnet/ct-p/4409j-developer-home)
+Log In
+EN US
+  * [Chinese](https://community.cisco.com/t5/%E6%80%9D%E7%A7%91%E7%A4%BE%E5%8C%BA/ct-p/chinese-community?profile.language=zh-CN)
+  * [EN US](https://community.cisco.com/t5/technology-and-support/ct-p/technology-support?profile.language=en)
+  * [French](https://community.cisco.com/t5/communaut%C3%A9-cisco-en-fran%C3%A7ais/ct-p/communaute-francais?profile.language=fr)
+  * [Japanese](https://community.cisco.com/t5/japan/ct-p/japanese-community?profile.language=ja)
+  * [Korean](https://community.cisco.com/t5/%ED%95%9C%EA%B5%AD%EC%96%B4-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/ct-p/korean?profile.language=ko)
+  * [Portuguese](https://community.cisco.com/t5/comunidade-da-cisco/ct-p/comunidade-portugues?profile.language=pt)
+  * [Spanish](https://community.cisco.com/t5/comunidad-de-cisco/ct-p/comunidad-espanol?profile.language=es)
+
+
+# DevNet
+Connect with other Cisco technology experts on topics of automation and programmability of Cisco platforms. 
+Enter a search word
+[Turn off suggestions](https://community.cisco.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/4409j-developer-home&t:cp=action/contributions/searchactions)
+Enter a search word
+[Turn off suggestions](https://community.cisco.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/4409j-developer-home&t:cp=action/contributions/searchactions)
+Enter a user name or rank
+[Turn off suggestions](https://community.cisco.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/4409j-developer-home&t:cp=action/contributions/searchactions)
+Enter a search word
+[Turn off suggestions](https://community.cisco.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/4409j-developer-home&t:cp=action/contributions/searchactions)
+Enter a search word
+[Turn off suggestions](https://community.cisco.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/4409j-developer-home&t:cp=action/contributions/searchactions)
+cancel
+[Turn on suggestions](https://community.cisco.com/t5/community/categorypage.enableautocomplete:enableautocomplete?t:ac=category-id/4409j-developer-home&t:cp=action/contributions/searchactions) [](https://community.cisco.com/t5/devnet/ct-p/4409j-developer-home)
+Showing results for 
+Search instead for [](https://community.cisco.com/t5/devnet/ct-p/4409j-developer-home)
+Did you mean: [](https://community.cisco.com/t5/devnet/ct-p/4409j-developer-home)
+All Community Technology and Support
+Results:
+cancel
+[Start a conversation](https://community.cisco.com/plugins/common/feature/saml/doauth/post?login=true&idp=http://www.okta.com/exk14y7an41P2yBKm5d7&referer=https%3A%2F%2Fcommunity.cisco.com%2Ft5%2Fdevnet%2Fct-p%2F4409j-developer-home)
+  * [Cisco Community](https://community.cisco.com/)
+  * [Technology and Support](https://community.cisco.com/t5/technology-and-support/ct-p/technology-support)
+  * DevNet
+
+
+[Options](https://community.cisco.com/t5/devnet/ct-p/4409j-developer-home "Show option menu")
+  * Subscribe
+
+
+[ ![Learning Labs](https://community.cisco.com/html/assets/Dev_net_LearninLabs.jpg) Get hands-on with guided tutorials​ ](https://developer.cisco.com/learning/) [ ![Sample Code](https://community.cisco.com/html/assets/Dev_net_SampleCode.jpg) Find ready-to-use code samples​ ](https://developer.cisco.com/codeexchange/) [ ![YouTube](https://community.cisco.com/html/assets/Dev_net_Youtube.jpg) Watch tutorials and demos​ ](https://youtube.com/@ciscodevnetchannel?si=gZ6J4x33MWUDpLyP)
+## Browse the Community
+[ ](https://community.cisco.com/t5/general-devnet-topics/ct-p/4409j-other-developer)
+### [General DevNet Topics](https://community.cisco.com/t5/general-devnet-topics/ct-p/4409j-other-developer)
+_1667 Posts_ [ ](https://community.cisco.com/t5/devnet-cloud-native/ct-p/j-developer-cloud)
+### [DevNet Cloud Native](https://community.cisco.com/t5/devnet-cloud-native/ct-p/j-developer-cloud)
+Learn from peers and Cisco experts how to connect, secure, and automate your cloud with Cisco APIs.
+_67 Posts_ [ ](https://community.cisco.com/t5/devnet-collaboration/ct-p/j-developer-collab)
+### [DevNet Collaboration](https://community.cisco.com/t5/devnet-collaboration/ct-p/j-developer-collab)
+Check out the latest APIs, SDKs and resources for Cisco Collaboration technologies and engage with p...
+_15746 Posts_ [ ](https://community.cisco.com/t5/devnet-data-center/ct-p/j-developer-data-center)
+### [DevNet Data Center](https://community.cisco.com/t5/devnet-data-center/ct-p/j-developer-data-center)
+Share ideas about how to use data center developer tools to help manage virtual servers, deployments...
+_954 Posts_ [ ](https://community.cisco.com/t5/devnet-site/ct-p/j-dev-devnet-site)
+### [DevNet Site](https://community.cisco.com/t5/devnet-site/ct-p/j-dev-devnet-site)
+Share information about coding, testing apps and DevNet sandbox environments.
+_3533 Posts_ [ ](https://community.cisco.com/t5/devnet-internet-of-things/ct-p/4698j-developer-iot)
+### [DevNet Internet of Things](https://community.cisco.com/t5/devnet-internet-of-things/ct-p/4698j-developer-iot)
+Discuss different developer tools, sandboxes and resources for IoT applications.
+_323 Posts_ [ ](https://community.cisco.com/t5/devnet-networking/ct-p/j-developer-networking)
+### [DevNet Networking](https://community.cisco.com/t5/devnet-networking/ct-p/j-developer-networking)
+Engage with peers and Cisco experts about networking developer tools and resources.
+_7043 Posts_ [ ](https://community.cisco.com/t5/devnet-security/ct-p/j-developer-security)
+### [DevNet Security](https://community.cisco.com/t5/devnet-security/ct-p/j-developer-security)
+_311 Posts_ [ ](https://community.cisco.com/t5/devnet-services/ct-p/j-dev-services)
+### [DevNet Services](https://community.cisco.com/t5/devnet-services/ct-p/j-dev-services)
+Connect with the Cisco services developer community for help, learning, and inspiration
+_440 Posts_ [ ](https://community.cisco.com/t5/devnet-knowledge-base/tkb-p/developer-knowledge-base)
+### [DevNet Knowledge Base](https://community.cisco.com/t5/devnet-knowledge-base/tkb-p/developer-knowledge-base)
+Welcome to the DevNet Knowledge Base! Discover solutions, guides, and tutorials for many of Cisco's ...
+_11 Posts_
+## Activity in DevNet
+Sorted by: Most recent Most viewed Most commented Most helpful
+[Start a conversation](https://community.cisco.com/plugins/common/feature/saml/doauth/post?login=true&idp=http://www.okta.com/exk14y7an41P2yBKm5d7&referer=https%3A%2F%2Fcommunity.cisco.com%2Ft5%2Fdevnet%2Fct-p%2F4409j-developer-home)
+###  [Python - API Error - 404 Not Found, b' '](https://community.cisco.com/t5/network-platform-api/python-api-error-404-not-found-b/td-p/5568841/jump-to/first-unread-message "Python - API Error - 404 Not Found, b' '")
+Starting to get this more and more in a script we've been using for over a year (it uses a few CSV files to build a new network in the dashboard with all the standard settings).The problem started in the function that updates the info for devices in ... 
+![NJNetworkGuy100_0-1786455996764.png](https://community.cisco.com/t5/image/serverpage/image-id/285584i496887816B340A6F/image-size/medium?v=v2&px=400) ![NJNetworkGuy100_1-1786456030282.png](https://community.cisco.com/t5/image/serverpage/image-id/285585i939180F159C990ED/image-size/medium?v=v2&px=400) ![NJNetworkGuy100_2-1786456132181.png](https://community.cisco.com/t5/image/serverpage/image-id/285586iCA6D53C6408601BD/image-size/medium?v=v2&px=400)
+08-11-2026 7:00:07 AM 
+| 
+** Posted in  [Network Platform API](https://community.cisco.com/t5/network-platform-api/bd-p/network-platform-api) **
+[ ![NJNetworkGuy100](https://community.cisco.com/legacyfs/online/avatars/meraki/18832i26758400649940F7) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2042494) ** by  [ NJNetworkGuy100 ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2042494) ** • _Level 3_
+  * **120** Views
+  * **5** replies
+  * **0** Helpful votes
+
+
+###  [Catalyst 9000 Always-On Sandbox — SSH Authentication Failing with Vali](https://community.cisco.com/t5/devnet-sandbox/catalyst-9000-always-on-sandbox-ssh-authentication-failing-with/td-p/5568933/jump-to/first-unread-message "Catalyst 9000 Always-On Sandbox — SSH Authentication Failing with Vali")
+Hello,I am experiencing SSH authentication failures on the Catalyst 9000Always-On Sandbox despite using the correct credentials from the I/O tab.Environment:- Sandbox: Catalyst 9000 Always-On- Host: devnetsandboxiosxec9k.cisco.com- Username: "my-user... 
+08-11-2026 12:46:01 PM 
+| 
+** Posted in  [DevNet Sandbox](https://community.cisco.com/t5/devnet-sandbox/bd-p/4426j-disc-dev-devnet-sandbox) **
+[ ![cyprien-temateu](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2100822) ** by  [ cyprien-temateu ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2100822) ** • _Community Member_
+  * **43** Views
+  * **0** replies
+  * **0** Helpful votes
+
+
+###  [Received empty VPN credentials](https://community.cisco.com/t5/devnet-sandbox/received-empty-vpn-credentials/td-p/5567205/jump-to/first-unread-message "Received empty VPN credentials")
+I'm getting empty VPN credentials by email: I tried with 'sandbox-iosxr-1.cisco.com', as I see in the I/O tab (image attached) but the authentication is failing.This is happening with the IOS XR Always-on Sandbox. 
+![Screenshot From 2026-07-30 16-40-38.png](https://community.cisco.com/t5/image/serverpage/image-id/285336iBCB6898CB5C7C146/image-size/medium?v=v2&px=400)
+07-30-2026 7:46:04 AM 
+| 
+** Posted in  [DevNet Sandbox](https://community.cisco.com/t5/devnet-sandbox/bd-p/4426j-disc-dev-devnet-sandbox) **
+[ ![fandre207](https://community.cisco.com/t5/image/serverpage/avatar-name/rabbit/avatar-theme/candy/avatar-collection/animals/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2097531) ** by  [ fandre207 ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2097531) ** • _Community Member_
+  * **470** Views
+  * **8** replies
+  * **0** Helpful votes
+
+
+###  _Resolved!_ ["HTTP File Error" for services button on 7900 series phone with FPBX](https://community.cisco.com/t5/other-collaboration-subjects/quot-http-file-error-quot-for-services-button-on-7900-series/td-p/5568417/jump-to/first-unread-message ""HTTP File Error" for services button on 7900 series phone with FPBX")
+Apologies if this is the wrong board to be posting in... I decided to dabble a bit more into my hobby of IP Phones, and I decided I wanted to try getting FreePBX to host Cisco services using the SDK, fast forward to the relevant issue, meaning today,... 
+08-07-2026 9:48:54 AM 
+| 
+** Posted in  [Other Collaboration Subjects](https://community.cisco.com/t5/other-collaboration-subjects/bd-p/j-disc-other-dev-collab-subjects) **
+[ ![BobTramontana](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1900829) ** by  [ BobTramontana ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1900829) ** • _Level 3_
+  * **125** Views
+  * **1** replies
+  * **0** Helpful votes
+
+
+###  [Let's simplify federal network operations - together](https://community.cisco.com/t5/network-platform-api/let-s-simplify-federal-network-operations-together/td-p/5568700/jump-to/first-unread-message "Let's simplify federal network operations - together")
+Federal IT friends: how much time could your team get back if routine network changes did not have to be so manual? On August 25 at 11:00 a.m. ET / 8:00 a.m. PT, Cisco, Red Hat and Carahsoft are hosting a free, one-hour virtual session on using autom... 
+![Cisco Red Hat Carahsoft Webinar Aug 26.png](https://community.cisco.com/t5/image/serverpage/image-id/285558iD7B66B00E6114B26/image-size/medium?v=v2&px=400)
+08-10-2026 11:02:31 AM 
+| 
+** Posted in  [Network Platform API](https://community.cisco.com/t5/network-platform-api/bd-p/network-platform-api) **
+[ ![AlexK22](https://community.cisco.com/t5/image/serverpage/avatar-name/avatar-9/avatar-theme/candy/avatar-collection/Hermes_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2038406) ** by  [ AlexK22 ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2038406) ** • _Cisco Employee_
+  * **92** Views
+  * **0** replies
+  * **0** Helpful votes
+
+
+###  [NSO WebUI Service Manager YANG anchor point](https://community.cisco.com/t5/nso-developer-hub-discussions/nso-webui-service-manager-yang-anchor-point/td-p/5568671/jump-to/first-unread-message "NSO WebUI Service Manager YANG anchor point")
+Hi,Service Manager (SM) in native WebUI anchors the service instance "home page" basically on the keys of the list where the yang servicepoint is.I have a browfield situation where servicepoint is too high up in the model. I want to move it lower. Is... 
+08-10-2026 8:03:08 AM 
+| 
+** Posted in  [NSO Developer Hub Discussions](https://community.cisco.com/t5/nso-developer-hub-discussions/bd-p/5672j-disc-dev-nso) **
+[ ![u.avsec](https://community.cisco.com/t5/image/serverpage/avatar-name/hominid/avatar-theme/candy/avatar-collection/monsters/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1279297) ** by  [ u.avsec ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1279297) ** • _Spotlight_
+  * **76** Views
+  * **0** replies
+  * **0** Helpful votes
+
+
+###  [XBusyLampField specifies minOccurs=1, which contradicts annotation, RBusyLampField behaviour and other AXL call choice options](https://community.cisco.com/t5/management/xbusylampfield-specifies-minoccurs-1-which-contradicts/td-p/3576658/jump-to/first-unread-message "XBusyLampField specifies minOccurs=1, which contradicts annotation, RBusyLampField behaviour and other AXL call choice options")
+Hi,Looks to be a bug in XBusyLampField in 11.5 AXL.The schema is: <xsd:complexType name="XBusyLampField"> <xsd:sequence minOccurs="0"> <xsd:element maxOccurs="1" minOccurs="1" name="blfDest" type="xsd:string"> <xsd... 
+05-09-2018 10:31:00 AM 
+| 
+** Posted in  [Management](https://community.cisco.com/t5/management/bd-p/j-disc-dev-collab-mgmt) **
+[ ![Jonathan Els](https://community.cisco.com/legacyfs/online/photo/j_els_-_cover_photo_black_and_white.jpg) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/325005) ** by  [ Jonathan Els ](https://community.cisco.com/t5/user/viewprofilepage/user-id/325005) ** • _Level 6_
+  * **2164** Views
+  * **4** replies
+  * **6** Helpful votes
+
+
+###  _Resolved!_ [Catalyst 8300 - Virtual Service will not activate after code upgrade](https://community.cisco.com/t5/edge-computing-infrastructure/catalyst-8300-virtual-service-will-not-activate-after-code/td-p/5006953/jump-to/first-unread-message "Catalyst 8300 - Virtual Service will not activate after code upgrade")
+Hey,I have a catalyst 8300 router and I upgraded the code from 17.09.04a to 17.13.1a. Now my ubuntu kvm virtual service will not activate. I've uninstalled and attempted to reinstall the ova file, i even tried an earlier version i created that i kn... 
+01-27-2024 1:21:41 AM 
+| 
+** Posted in  [Edge Computing Infrastructure](https://community.cisco.com/t5/edge-computing-infrastructure/bd-p/disc_iot_edge_comp_infra) **
+[ ![Stephanie Tingey](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/51437) ** by  [ Stephanie Tingey ](https://community.cisco.com/t5/user/viewprofilepage/user-id/51437) ** • _Level 1_
+  * **5501** Views
+  * **15** replies
+  * **0** Helpful votes
+
+
+###  [Mandatory layer blobs is missing! - Docker deployment fails on C9120](https://community.cisco.com/t5/edge-computing-infrastructure/mandatory-layer-blobs-is-missing-docker-deployment-fails-on/td-p/5568614/jump-to/first-unread-message "Mandatory layer blobs is missing! - Docker deployment fails on C9120")
+Hi everyone,I'm trying to deploy a simple Go application as a Docker container on a Cisco C9120AX Access Point running IOS XE 17.15.5.36 I've been stuck on a deployment error and would appreciate any guidance.The ErrorWhen deploying my IOx package, ... 
+08-10-2026 1:59:41 AM 
+| 
+** Posted in  [Edge Computing Infrastructure](https://community.cisco.com/t5/edge-computing-infrastructure/bd-p/disc_iot_edge_comp_infra) **
+[ ![maxzerker](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/174103) ** by  [ maxzerker ](https://community.cisco.com/t5/user/viewprofilepage/user-id/174103) ** • _Visitor_
+  * **101** Views
+  * **0** replies
+  * **0** Helpful votes
+
+
+###  [Introducing Cisco Interface Security Audit: Open-Source Security Asses](https://community.cisco.com/t5/network-security/introducing-cisco-interface-security-audit-open-source-security/td-p/5568434/jump-to/first-unread-message "Introducing Cisco Interface Security Audit: Open-Source Security Asses")
+Over the past few months, I've been working on a project that aims to simplify one of the most repetitive and important tasks in network administration: reviewing the security configuration of Cisco router and switch interfaces.Today, I'm excited to... 
+![JafarTavana_0-1786131496588.png](https://community.cisco.com/t5/image/serverpage/image-id/285541iA4A9BECB6DB285BF/image-size/medium?v=v2&px=400) ![JafarTavana_1-1786131520228.png](https://community.cisco.com/t5/image/serverpage/image-id/285542i446F66D056A09E37/image-size/medium?v=v2&px=400)
+08-07-2026 12:41:54 PM 
+| 
+** Posted in  [Network Security](https://community.cisco.com/t5/network-security/bd-p/disc-network-security) **
+[ ![JafarTavana](https://community.cisco.com/t5/image/serverpage/avatar-name/bridge/avatar-theme/candy/avatar-collection/architecture/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2099781) ** by  [ JafarTavana ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2099781) ** • _Community Member_
+  * **66** Views
+  * **0** replies
+  * **0** Helpful votes
+
+
+###  _Resolved!_ [ACI Simulator Always-On - unreachable](https://community.cisco.com/t5/devnet-sandbox/aci-simulator-always-on-unreachable/td-p/5567630/jump-to/first-unread-message "ACI Simulator Always-On - unreachable")
+Hi,ACI Simulator Always-On is not reachable, appreciate if you could look into it, thank you. https://sandboxapicdc.cisco.comIt worked fine for past week. Issues started on Sunday, August 2. 
+08-02-2026 5:00:12 AM 
+| 
+** Posted in  [DevNet Sandbox](https://community.cisco.com/t5/devnet-sandbox/bd-p/4426j-disc-dev-devnet-sandbox) **
+[ ![Daniel_Konecny](https://community.cisco.com/t5/image/serverpage/avatar-name/avatar-8/avatar-theme/candy/avatar-collection/Hermes_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/129334) ** by  [ Daniel_Konecny ](https://community.cisco.com/t5/user/viewprofilepage/user-id/129334) ** • _Visitor_
+  * **274** Views
+  * **4** replies
+  * **0** Helpful votes
+
+
+###  [A New Chapter for DevNet Sandbox](https://community.cisco.com/t5/devnet-sandbox/a-new-chapter-for-devnet-sandbox/td-p/5556359/jump-to/first-unread-message "A New Chapter for DevNet Sandbox")
+Hi @All We have some news to share. Please read the message below:Beginning August 1st, the current Sandbox platform will temporarily transition offline as we build something entirely new from the ground up, a platform designed to deliver a more focu... 
+06-02-2026 4:18:50 AM 
+| 
+** Posted in  [DevNet Sandbox](https://community.cisco.com/t5/devnet-sandbox/bd-p/4426j-disc-dev-devnet-sandbox) **
+[ ![jokearns1](https://community.cisco.com/legacyfs/online/avatars/a77516_profile_image_500.png) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/352182) ** by  [ jokearns1 ](https://community.cisco.com/t5/user/viewprofilepage/user-id/352182) ** • _Cisco Employee_
+  * **3308** Views
+  * **23** replies
+  * **6** Helpful votes
+
+
+###  [A Guide to Onboarding Devices into Cisco Crosswork Network Controller](https://community.cisco.com/t5/crosswork-automation-hub-blogs/a-guide-to-onboarding-devices-into-cisco-crosswork-network/ba-p/5566461/jump-to/first-unread-message "A Guide to Onboarding Devices into Cisco Crosswork Network Controller")
+Introduction and Key ConceptsOverviewIf you are looking to bring your existing network infrastructure under the management of the Cisco Crosswork Network Controller (CNC), you’ve come to the right place. Onboarding devices into a modern controller en... 
+![omunozcu_0-1785162025583.png](https://community.cisco.com/t5/image/serverpage/image-id/285144i171B37D87A9C730F/image-size/medium?v=v2&px=400) ![omunozcu_1-1785162025585.png](https://community.cisco.com/t5/image/serverpage/image-id/285142i2E91A6D84BD3E984/image-size/medium?v=v2&px=400) ![omunozcu_2-1785162025588.png](https://community.cisco.com/t5/image/serverpage/image-id/285143i46E130BA9AADE285/image-size/medium?v=v2&px=400) ![omunozcu_3-1785162025591.png](https://community.cisco.com/t5/image/serverpage/image-id/285147iE56ADEC78A44E7DB/image-size/medium?v=v2&px=400)
+08-04-2026 7:00:00 AM 
+| 
+** Posted in  [Crosswork Automation Hub Blogs](https://community.cisco.com/t5/crosswork-automation-hub-blogs/bg-p/5672j-blogs-dev-nso) **
+[ ![omunozcu](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1195449) ** by  [ omunozcu ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1195449) ** • _Cisco Employee_
+  * **756** Views
+  * **0** replies
+  * **2** Helpful votes
+
+
+###  [🔥🔥 Official MCP Servers for Meraki and Catalyst Center 🔥🔥](https://community.cisco.com/t5/network-platform-api/official-mcp-servers-for-meraki-and-catalyst-center/td-p/5567909/jump-to/first-unread-message "🔥🔥 Official MCP Servers for Meraki and Catalyst Center 🔥🔥")
+We’re excited to make it easier for users to bring Cisco networking into the AI experiences they’re building!The Meraki hosted MCP server, Meraki open-source MCP server, and Catalyst Center open-source MCP server are all now available in beta. Togeth... 
+08-04-2026 6:53:14 AM 
+| 
+** Posted in  [Network Platform API](https://community.cisco.com/t5/network-platform-api/bd-p/network-platform-api) **
+[ ![obrigg](https://community.cisco.com/t5/image/serverpage/avatar-name/camera/avatar-theme/candy/avatar-collection/tech/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/159855) ** by  [ obrigg ](https://community.cisco.com/t5/user/viewprofilepage/user-id/159855) ** • _Meraki Employee All-Star_
+  * **646** Views
+  * **0** replies
+  * **6** Helpful votes
+
+
+###  [Meraki Network and Org level APIs](https://community.cisco.com/t5/network-platform-api/meraki-network-and-org-level-apis/td-p/5567899/jump-to/first-unread-message "Meraki Network and Org level APIs")
+Hi, I wanted to understand what difference can we see between Network and Org level APIs? In what use cases should we go with Network and Org APIs? 
+08-04-2026 4:35:22 AM 
+| 
+** Posted in  [Network Platform API](https://community.cisco.com/t5/network-platform-api/bd-p/network-platform-api) **
+[ ![Ajay-Chandrasekaran](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1965579) ** by  [ Ajay-Chandrasekaran ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1965579) ** • _Level 2_
+  * **130** Views
+  * **1** replies
+  * **0** Helpful votes
+
+
+[Load more](javascript:;)
+Learn, share, save
+Discover and save your favorite ideas. Come back to expert answers, step-by-step guides, recent topics, and more.
+New here? Get started with these tips. [How to use Community](https://community.cisco.com/t5/community-help-knowledge-base/community-help/ta-p/4662356) [New member guide](https://community.cisco.com/html/assets/Cisco_Community_Journey_Infographic_v4.pdf)
+[Log in to Community ](javascript:void\(0\))
+##### Share your Expertise
+Level up by answering questions in your area of expertise.
+[Answer a Question](https://community.cisco.com/t5/custom/page/page-id/CiscoPage.unanswered)
+Top Experts - Last 30 Days  
+|  User  |  Helpful Count   |  
+| --- | --- |  
+|  [ ![Philip D'Ath](https://community.cisco.com/t5/image/serverpage/image-id/12805iB40CE2D4E6671BF3/image-dimensions/40x40/image-coordinates/0%2C309%2C1512%2C1821?v=v2) ![Meraki Community All-Star](https://community.cisco.com/html/@6227C7CC2B2B761E89CE3C12BBCAE51A/badge_icons/community-all-star-2019_15x15_2x.png) Philip D'Ath ](https://community.cisco.com/t5/user/viewprofilepage/user-id/7976)  |  4   |  
+|  [ ![Jonathan Els](https://community.cisco.com/legacyfs/online/photo/j_els_-_cover_photo_black_and_white.jpg) Jonathan Els ![Level 6](https://community.cisco.com/html/@32E42A4A09B85EFF28FC977A3449C27C/rank_icons/rank-7.png) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/325005)  |  2   |  
+|  [ ![voidpointer](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/message/version/2?xdesc=1.0) voidpointer ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1970332)  |  1   |  
+|  [ ![nathan](https://community.cisco.com/legacyfs/online/avatars/a109736_profile_image_500.png) nathan ![Level 2](https://community.cisco.com/html/@D9D93A96197059E454C908C73833EA48/rank_icons/rank-3.png) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/139722)  |  1   |  
+|  [ ![Hamed Fazel](https://community.cisco.com/t5/image/serverpage/avatar-name/bear/avatar-theme/candy/avatar-collection/animals/avatar-display-size/message/version/2?xdesc=1.0) ![Spotlight](https://community.cisco.com/html/@E8E769706C2B9D834B0EFB8C8411B033/badge_icons/CiscoCommunityBadges_2023_SpotlightAward_14x14.png) Hamed Fazel ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1761847)  |  1   |  
+[View Leaderboard](https://community.cisco.com/t5/forums/kudosleaderboardpage/category-id/4409j-developer-home/timerange/one_month/page/1/tab/authors)
+Top Solution Authors  
+|  User  |  Count   |  
+| --- | --- |  
+|  [ ![Stephanie Tingey](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/message/version/2?xdesc=1.0) Stephanie Tingey ![Level 1](https://community.cisco.com/html/@C426EBAFB833942872CD5B65E2B3CBF4/rank_icons/rank-2.png) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/51437)  |  1   |  
+|  [ ![aleabrahao](https://community.cisco.com/t5/image/serverpage/avatar-name/robojapan/avatar-theme/candy/avatar-collection/robots/avatar-display-size/message/version/2?xdesc=1.0) ![Meraki Community All-Star](https://community.cisco.com/html/@6227C7CC2B2B761E89CE3C12BBCAE51A/badge_icons/community-all-star-2019_15x15_2x.png) aleabrahao ](https://community.cisco.com/t5/user/viewprofilepage/user-id/521203)  |  1   |  
+|  [ ![wordenj](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/message/version/2?xdesc=1.0) wordenj ![Level 2](https://community.cisco.com/html/@D9D93A96197059E454C908C73833EA48/rank_icons/rank-3.png) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1455913)  |  1   |  
+|  [ ![BobTramontana](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/message/version/2?xdesc=1.0) BobTramontana ![Level 3](https://community.cisco.com/html/@0CA65F0EEB9D62E8DC53CC6A42354EDD/rank_icons/rank-4.png) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1900829)  |  1   |  
+|  [ ![hellencharless54](https://community.cisco.com/t5/image/serverpage/avatar-name/rabbit/avatar-theme/candy/avatar-collection/animals/avatar-display-size/message/version/2?xdesc=1.0) hellencharless54 ![Level 5](https://community.cisco.com/html/@99AF1188BA37CE09E98CDDACF2D4FEF4/rank_icons/rank-6.png) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1965133)  |  1   |  
+[View All](https://community.cisco.com/t5/solutions/acceptedsolutionsleaderboardpage/node-display-id/category%3A4409j-developer-home/timerange/one_month)
+[Top](https://community.cisco.com/t5/devnet/ct-p/4409j-developer-home)
+* * *
+Quick Links 
+  * [Contacts](https://www.cisco.com/c/en/us/about/contact-cisco.html)
+
+
+[](https://www.facebook.com/CiscoCommunity/ "facebook") [](https://twitter.com/CiscoCommunity "twitter") [](https://www.linkedin.com/showcase/cisco-community/ "linkedin") [](https://www.youtube.com/@CiscoCommunity "youtube") [](https://www.instagram.com/cisco_community/ "instagram") [](https://bsky.app/profile/community.cisco.com "bluesky")
+Resources and Legal 
+  * [Report Community Issue](javascript:void\(0\);)
+  * [Help](https://community.cisco.com/t5/community-help-knowledge-base/community-help/ta-p/4662356)
+  * [Terms & Conditions](https://community.cisco.com/t5/community-help-knowledge-base/cisco-community-acceptable-use-agreement/ta-p/4661660)
+  * [ Privacy Statement ](http://www.cisco.com/web/siteassets/legal/privacy_full.html)
+  * [ Cookie Policy ](http://www.cisco.com/web/siteassets/legal/privacy_full.html#cookies)
+  * [Trademarks](http://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [Site Map](https://community.cisco.com/t5/custom/page/page-id/community-site-map?f=sm)
+  * [Report Illegal Content](https://community.cisco.com/t5/community-help-knowledge-base/eu-digital-services-act-dsa/ta-p/5012720)
+
+
+[](https://www.facebook.com/CiscoCommunity/ "facebook") [](https://twitter.com/CiscoCommunity "twitter") [](https://www.linkedin.com/showcase/cisco-community/ "linkedin") [](https://www.youtube.com/@CiscoCommunity "youtube") [](https://www.instagram.com/cisco_community/ "instagram")
+©2026 Cisco Systems, Inc.
+Auto-suggest helps you quickly narrow down your search results by suggesting possible matches as you type.
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
