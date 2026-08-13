@@ -57,3 +57,39 @@ Learn how Cisco U. takes tech training to the next level.
 Request a demo
 Feedback 
 Real Time Personalization TAG 
+
+
+---
+# ORIGEN: https://u.cisco.com/store/lab
+
+Skip to main content
+**Free training and tutorials, plus more from Cisco U.** From entry to expert, gain real-world skills to succeed in AI.
+[Learn](https://u.cisco.com/learn)[Certifications](https://u.cisco.com/certifications)[Explore](https://u.cisco.com/explore)[Communities](https://u.cisco.com/communities)[Store](https://u.cisco.com/store)Log inLog in with your Cisco IDJoin Cisco U. FreeLearnCertificationsExploreCommunitiesStoreLog in with your Cisco IDJoin Cisco U. Free
+# Store - 
+All productsPlans
+Get exactly what you need in Cisco U. Store
+From single titles to a subscription plan, Cisco U. has learning to match every goal. 
+Shop to...
+Gain skills in a technology
+Prepare to earn a certification
+Renew a certification using Continuing Education (CE) credits
+Featured 
+Return here to find what’s featured and the latest deals.
+Stay up to date on what's new and popular 
+Explore learning in the latest technology and other learners' top choices 
+NewBest selling
+All products 
+Explore all items available to purchase. 
+  * [ ![labs icon](https://u.cisco.com/views/StorePage/AllProducts/assets/labs.svg)Labs ](https://u.cisco.com/store/all-products)
+  * [ ![paths icon](https://u.cisco.com/views/StorePage/AllProducts/assets/paths.svg)Learning Paths ](https://u.cisco.com/store/path)
+  * [ ![challenges icon](https://u.cisco.com/views/StorePage/AllProducts/assets/challenges.svg)Challenges ](https://u.cisco.com/store/challenge)
+  * [ ![bundles icon](https://u.cisco.com/views/StorePage/AllProducts/assets/bundles.svg)Bundles ](https://u.cisco.com/store/bundle)
+  * [ ![examVouchers icon](https://u.cisco.com/views/StorePage/AllProducts/assets/examVouchers.svg)Exam vouchers ](https://u.cisco.com/store/exam-voucher)
+  * [ ![exams icon](https://u.cisco.com/views/StorePage/AllProducts/assets/exams.svg)Practice exams ](https://u.cisco.com/store/practice-exam)
+
+
+Loading…
+Filter 
+USDCLC Cisco Learning Credits (CLCs) are prepaid vouchers redeemed directly with Cisco for training, exams, and more. GridList
+Sort by:CE Credits: Low to highCE Credits: High to lowPrice: Low to highPrice: High to lowDuration: Low to highDuration: High to lowAlphabetical: A-ZAlphabetical: Z-ALatest: Newest added
+Feedback 
