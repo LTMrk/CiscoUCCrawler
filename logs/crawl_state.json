@@ -8366,5 +8366,9 @@
   "https://developer.webex.com/docs/api/v1/xapi/query-status": {
     "hash": "beac2fad37b25eb3067fcfbbc81e33ab7e256989f8f0cedb024ee8370853d3a6",
     "timestamp": "2026-08-13T02:21:01.601032"
+  },
+  "https://developer.webex.com/docs/api/v1/xapi/execute-command": {
+    "hash": "a9182a24455506e322e509f6a9f1d67ef79cbc3249af3f64e1bc607f53ca0f74",
+    "timestamp": "2026-08-13T02:21:07.276780"
   }
 }
