@@ -1,525 +1,5 @@
 [
   {
-    "url": "https://blog.webex.com/customer-experience/connected-intelligence-customer-experience-strategy",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/customer-experience/getixhealth-enhanced-operations-improved-attrition-rates-with-webex",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/event-management/from-ai-experimentation-to-orchestration-register-for-webexone-2026",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/event-management/partners-take-center-stage-at-webexone-2025-your-gateway-to-collaboration-excellence",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/innovation-ai/get-in-ai-first-future-register-for-webexone-2025",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/category/engineering",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/engineering/building-voice-ai-that-can-keep-up-with-real-conversations",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/engineering/resilience-by-design-how-webex-contact-center-stays-up-when-the-cloud-wobbles",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/engineering/lrac-challenge-2025-pushing-the-limits-of-speech-coding",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/engineering/proprietary-rtcp-messages-and-key-extensions",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/category/customer-stories",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/customer-experience/uniting-nsw-act-transforms-client-support-with-webex-ai-agent",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/customer-experience/how-yum-brands-modernized-support-operations-with-webex",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/suite/collaboration-suite.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/meetings.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/enterprise-cloud-calling.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/team-collaboration.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/events.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/suite/polling.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/webinar.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/suite/whiteboard.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/products/customer-experience/contact-center.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/products/customer-experience/cpaas.html",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/zh-hans",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/zh-hant",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/fr",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/de",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/it",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/ja",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/ko",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/pt-br",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/es",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/room-devices.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/desk-series.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/digital-whiteboards.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/phone-series.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/cameras.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/headsets.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/accessories.html",
-    "depth": 2
-  },
-  {
-    "url": "https://pricing.webex.com/us/en",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/downloads.html",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://essentials.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/accessibility.html",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/contact",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/contact-sales.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/company/careers.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/suite/collaboration-suite.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/suite/meetings.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/suite/enterprise-cloud-calling.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/suite/messaging.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/suite/webinar.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/products/suite/events.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/suite/polling.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/suite/whiteboard.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/products/customer-experience.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/products/customer-experience/ai-agent.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/products/customer-experience/contact-center.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/products/customer-experience/ai-assistant-for-contact-center.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/products/customer-experience/cpaas.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/products/customer-experience/ai-workforce-engagement-management.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices.html",
-    "depth": 2
-  },
-  {
-    "url": "https://designer.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/workspaces.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/downloads.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/desk-series.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/room-devices.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/accessories.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/phone-series.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/headsets.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/cameras.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/digital-whiteboards.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/workspaces.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/workspaces.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/workspaces.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/cameras/cisco-room-vision-ptz-camera.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/room-series/cisco-room-kit-pro.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/phone-series/cisco-phone-9800-series.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/desk-series/cisco-desk-pro.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/accessories/cisco-ceiling-microphone-pro.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/headsets/bang-and-olufsen-cisco-950.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/industries/education.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/industries/healthcare.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/industries/government.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/industries/financial-services.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/industries/sports-entertainment.html",
-    "depth": 2
-  },
-  {
-    "url": "http://webex.com/us/en/solutions/industries/nonprofits.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/hybrid-work.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/sustainability.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/return-to-office.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/camera-intelligence-cisco-devices.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/control-hub-cisco-devices.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/microsoft-teams-rooms-cisco-devices.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/av-over-ip-video-conferencing.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/cross-platform/control-hub.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/interoperability.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/roomos.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/cross-platform/security.html",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://academy.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/contact",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/customers.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/event-webinar.html",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/products/integrations/index.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/whats-new",
-    "depth": 2
-  },
-  {
-    "url": "https://pricing.webex.com/us/en/hybrid-work/meetings",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/hybrid-work/elevate-your-experience-with-webex-insider-advocates",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/hybrid-work/webex-insider-user-group-where-your-expertise-meets-innovation",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/customer-stories/how-webex-skyrocketed-sutherland-globals-efficiency",
-    "depth": 2
-  },
-  {
-    "url": "https://pricing.webex.com/us/en",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/cross-platform/accessibility.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/company/careers.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/pricing/free-trial.html",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com/my-integrations",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com/agentic-apps",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com/embedded-apps",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com/integrations",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com/bots",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com/playbooks",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com/service-apps",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com/meetings",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com/messaging",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com/calling",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com/contact-center",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com/devices",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com/category/agent-and-supervisor-tools",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com/category/ai-agent",
-    "depth": 2
-  },
-  {
     "url": "https://apphub.webex.com/category/ai-agent-testing-and-observability",
     "depth": 2
   },
@@ -343185,6 +342665,5378 @@
   },
   {
     "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/vinodmuthukrishnan",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/getixhealth-enhanced-operations-improved-attrition-rates-with-webex",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/team-collaboration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/webinar.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/customer-stories",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/meltang",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/us/en/products/workforce-optimization.html",
+    "depth": 3
+  },
+  {
+    "url": "https://webex.com/suite/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/us/en/devices/room-devices/room-bars-and-kits.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/customer-stories",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/team-collaboration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/webinar.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/arunaravichandran-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/calling",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/collaboration-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/customer-experience-4",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/devices-posts",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/enterprise-event-management",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/messaging",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/polling",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/suite",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/vidcast",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webex-events",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webinars",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/event-management/partners-take-center-stage-at-webexone-2025-your-gateway-to-collaboration-excellence",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/get-in-ai-first-future-register-for-webexone-2025",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/event-management/webex-sets-standard-2025-achieving-top-webinar-honors-acclaimed-g2-trustradius-awards",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/team-collaboration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/webinar.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/kristynhogan",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/ciscopartners",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/collaboration-technology",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webexone-2025",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/get-in-ai-first-future-register-for-webexone-2025",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/event-management/webex-sets-standard-2025-achieving-top-webinar-honors-acclaimed-g2-trustradius-awards",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/team-collaboration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/webinar.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/arunaravichandran-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/ai-conference",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/ai-in-business",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/ai-first-future",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cisco-events",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/conference-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/customer-experience-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/employee-experience",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/keynote-speakers",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/san-diego-tech-events",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webex",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webex-training",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webexone-2025",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/team-collaboration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/webinar.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/team-collaboration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/webinar.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/engineering-zh-hans",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/engineering-zh-hant",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/glukacsy",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/vibhjain",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/j_patel",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/customer-experience-4",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/enterprise-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/resilience-by-design-how-webex-contact-center-stays-up-when-the-cloud-wobbles",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/lrac-challenge-2025-pushing-the-limits-of-speech-coding",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/proprietary-rtcp-messages-and-key-extensions",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/rtcp-receiver-reports-and-stream-synchronization",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/team-collaboration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/webinar.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/ivaidyan",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/divyeshkhandeshi",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/chaos-engineering-in-webex-contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/chaos-engineering",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cloud-resilience",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/control-plane-turbulence",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/site-reliability-engineering-sre",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webex-contact-center-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/lrac-challenge-2025-pushing-the-limits-of-speech-coding",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/proprietary-rtcp-messages-and-key-extensions",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/rtcp-receiver-reports-and-stream-synchronization",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/team-collaboration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/webinar.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/ibalic",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/audio-innovation",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/audio-tech",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/audio%e2%80%91compression",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/edge%e2%80%91ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/embedded-systems",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/embedded%e2%80%91ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/icassp",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/low%e2%80%91bitrate",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/low%e2%80%91compute",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/low%e2%80%91latency",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/lrac2025",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/machine-learning-3",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/neural-speech-codec",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/neural%e2%80%91codec",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/real-time-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/speech%e2%80%91codec",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/speech%e2%80%91engineering",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/proprietary-rtcp-messages-and-key-extensions",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/rtcp-receiver-reports-and-stream-synchronization",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/team-collaboration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/webinar.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/robhanton",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/introducing-rtcp-the-rtp-control-protocol",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/rtcp-receiver-reports-and-stream-synchronization",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/understanding-session-description-protocol-attributes",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/ascii",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/audio-video-synchronization",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/bye",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cname",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/csrc",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/nack",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/receiver-report",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/report-block",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/rfc-3550",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/rfc-3605",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/rfc-4585",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/rfc-5761",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/rtcp-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/rtcp-format",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/rtp",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/sdes",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/sender-report",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/ssrc",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/tmmbr",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/team-collaboration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/webinar.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/team-collaboration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/webinar.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/customer-stories-zh-hans",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/customer-stories-zh-hant",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/meltang",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/transforming-care-with-webex-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/uniting-nsw-act",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/team-collaboration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/webinar.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/meltang",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/calling",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/customer-experience-4",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/customer-story",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/team-collaboration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/webinar.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/%e5%8d%8f%e4%bd%9c",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/%e5%8d%8f%e4%bd%9c%e8%ae%be%e5%a4%87",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/%e5%ae%a2%e6%88%b7%e4%bd%93%e9%aa%8c",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/%e6%b4%bb%e5%8a%a8%e7%ae%a1%e7%90%86",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/webex-champion-awards-2024-winners",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/experiences-amplified-with-power-of-webex-and-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/revolutionizing-customer-experience-webex-ai-powered-innovations",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e5%8d%8f%e4%bd%9c/%e4%bb%80%e4%b9%88%e6%98%af%e5%8d%8f%e4%bd%9c%ef%bc%9f",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e5%8d%8f%e4%bd%9c/%e8%a7%86%e9%a2%91%e4%bc%9a%e8%ae%ae/%e6%a0%b9%e6%8d%ae%e4%b8%93%e5%ae%b6%e6%8c%87%e5%af%bc%ef%bc%8c%e9%80%89%e6%8b%a9%e6%9c%80%e9%80%82%e5%90%88%e4%ba%8e%e8%a7%86%e9%a2%91%e4%bc%9a%e8%ae%ae%e7%9a%84%e7%85%a7%e6%98%8e%e7%8e%af%e5%a2%83",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e5%8d%8f%e4%bd%9c%e8%ae%be%e5%a4%87/2022-%e5%b9%b4%e7%9a%84%e6%9c%80%e4%bd%b3%e8%a7%86%e9%a2%91%e4%bc%9a%e8%ae%ae%e8%ae%be%e5%a4%87",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e5%8d%8f%e4%bd%9c/%e6%b7%b7%e5%90%88%e5%8a%9e%e5%85%ac/2022-%e5%b9%b4%e5%9b%a2%e9%98%9f%e5%8d%8f%e4%bd%9c%ef%bc%9a%e4%b8%ba%e4%bd%95%e5%9b%a2%e9%98%9f%e5%8d%8f%e4%bd%9c%e8%87%b3%e5%85%b3%e9%87%8d%e8%a6%81%e5%8f%8a%e5%9b%9b%e7%a7%8d%e6%94%b9%e5%96%84",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e5%8d%8f%e4%bd%9c%e8%ae%be%e5%a4%87/%e9%92%88%e5%af%b9%e5%ae%b6%e5%ba%ad%e9%9f%b3%e9%a2%91%e8%b4%a8%e9%87%8f%e7%9a%84%e4%ba%94%e5%a4%a7%e5%a4%b4%e6%88%b4%e5%bc%8f%e8%80%b3%e6%9c%ba%e5%8a%9f%e8%83%bd",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e5%8d%8f%e4%bd%9c%e8%ae%be%e5%a4%87/roomos-%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f%e8%b5%8b%e8%83%bd%e6%b7%b7%e5%90%88%e5%8a%9e%e5%85%ac",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e5%8d%8f%e4%bd%9c%e8%ae%be%e5%a4%87/%e6%b7%b7%e5%90%88%e5%8a%9e%e5%85%ac%e4%bd%93%e9%aa%8c%e5%86%8d%e6%8f%90%e5%8d%87%e3%80%82%e6%80%9d%e7%a7%91%e4%b8%8e-microsoft-%e6%90%ba%e6%89%8b%e5%90%88%e4%bd%9c%ef%bc%8c%e4%b8%ba%e5%ae%a2%e6%88%b7",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/customer-experience",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e5%ae%a2%e6%88%b7%e4%bd%93%e9%aa%8c/webex-%e4%b8%ba%e9%87%8d%e8%a6%81%e6%97%b6%e5%88%bb%e6%89%93%e9%80%a0%e5%87%ba%e8%89%b2%e7%9a%84%e4%ba%92%e8%81%94%e5%ae%a2%e6%88%b7%e4%bd%93%e9%aa%8c",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e5%ae%a2%e6%88%b7%e4%bd%93%e9%aa%8c/%e6%8e%a8%e5%8a%a8%e5%85%a8%e6%95%b0%e5%ad%97%e5%8c%96%e4%ba%92%e5%8a%a8%e7%9a%84%e5%8f%91%e5%b1%95%e3%80%82",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e5%ae%a2%e6%88%b7%e4%bd%93%e9%aa%8c/webex-%e8%81%94%e7%bb%9c%e4%b8%ad%e5%bf%83%e4%b8%ba-first-horizon-%e7%9a%84%e5%8f%91%e5%b1%95%e6%b3%a8%e5%85%a5%e6%96%b0%e6%b4%bb%e5%8a%9b",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e5%ae%a2%e6%88%b7%e4%bd%93%e9%aa%8c/webex-%e5%9c%a8%e5%8d%b0%e5%ba%a6%e6%88%90%e7%ab%8b%e6%96%b0%e6%95%b0%e6%8d%ae%e4%b8%ad%e5%bf%83%ef%bc%8c%e5%85%a8%e9%9d%a2%e6%8f%90%e5%8d%87%e6%b7%b7%e5%90%88%e5%8a%9e%e5%85%ac%e4%bd%93%e9%aa%8c",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/event-management",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e6%b4%bb%e5%8a%a8%e7%ae%a1%e7%90%86/%e6%96%b0%e5%8a%9f%e8%83%bd%e4%b8%ba%e4%b8%8d%e5%ae%b9%e9%94%99%e8%bf%87%e7%9a%84%e6%b4%bb%e5%8a%a8%e4%bf%9d%e9%a9%be%e6%8a%a4%e8%88%aa",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e6%b4%bb%e5%8a%a8%e7%ae%a1%e7%90%86/%e7%bd%91%e7%bb%9c%e7%a0%94%e8%ae%a8%e4%bc%9a-2022-%e5%b9%b4%e5%bf%85%e7%9f%a5%e4%ba%8b%e9%a1%b9",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e6%b4%bb%e5%8a%a8%e7%ae%a1%e7%90%86/webex-%e5%a6%82%e4%bd%95%e5%8d%8f%e5%8a%a9%e9%a9%ac%e6%9d%a5%e8%a5%bf%e4%ba%9a%e7%a4%be%e4%bc%9a%e4%bf%9d%e9%9a%9c%e6%9c%ba%e6%9e%84%e6%89%a9%e5%a4%a7%e5%bd%b1%e5%93%8d%e5%8a%9b%e5%92%8c%e6%bf%80",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e6%b4%bb%e5%8a%a8%e7%ae%a1%e7%90%86/%e5%8c%85%e5%ae%b9%e3%80%81%e6%b2%89%e6%b5%b8%e5%bc%8f%e4%bd%93%e9%aa%8c%ef%bc%9awebex-%e6%b7%b7%e5%90%88%e5%8a%9e%e5%85%ac%e7%9a%84%e6%a0%b8%e5%bf%83",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/engineering",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/engineering-zh-hans/%e8%87%aa%e5%8a%a8%e8%af%ad%e9%9f%b3%e8%af%86%e5%88%ab%e7%b3%bb%e7%bb%9f%e7%9a%84%e5%90%8e%e5%a4%84%e7%90%86",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/engineering-zh-hans/mindmeld-%e4%b8%ad%e7%9a%84%e5%ae%9e%e4%bd%93%e8%a7%a3%e6%9e%90%e6%9c%89%e5%93%aa%e4%ba%9b%e6%96%b0%e5%8f%98%e5%8c%96%ef%bc%9f",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/customer-stories-zh-hans/%e4%bb%8e-solarwinds-%e5%90%b8%e5%8f%96%e7%9a%84%e7%bb%8f%e9%aa%8c%e6%95%99%e8%ae%ad-%e5%af%b9%e7%ac%ac%e4%b8%89%e6%96%b9%e5%ba%93%e8%bf%9b%e8%a1%8c%e8%af%84%e4%bc%b0",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/engineering-zh-hans/%e5%88%a9%e7%94%a8%e8%a8%80%e8%af%ad%e8%a1%8c%e4%b8%ba%e5%ae%9e%e7%8e%b0%e5%af%b9%e8%af%9d%e5%bc%8f%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/collaboration",
+    "depth": 3
+  },
+  {
+    "url": "https://cpaas.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/fr",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/de",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/it",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/ja",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/ko",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/pt-br",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/es",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/%e5%8d%94%e5%90%8c%e5%90%88%e4%bd%9c",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/%e5%8d%94%e4%bd%9c%e8%a3%9d%e7%bd%ae",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/%e5%ae%a2%e6%88%b6%e9%ab%94%e9%a9%97",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/%e6%b4%bb%e5%8b%95%e7%ae%a1%e7%90%86",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/webex-champion-awards-2024-winners",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/experiences-amplified-with-power-of-webex-and-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/revolutionizing-customer-experience-webex-ai-powered-innovations",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e5%8d%94%e5%90%8c%e5%90%88%e4%bd%9c/%e4%bb%80%e9%ba%bc%e6%98%af%e5%8d%94%e5%90%8c%e5%90%88%e4%bd%9c%ef%bc%9f",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e5%8d%94%e5%90%8c%e5%90%88%e4%bd%9c/%e8%a6%96%e8%a8%8a%e6%9c%83%e8%ad%b0/%e5%b0%88%e5%ae%b6%e5%bb%ba%e8%ad%b0%e7%9a%84%e6%9c%80%e4%bd%b3%e8%a6%96%e8%a8%8a%e6%9c%83%e8%ad%b0%e6%89%93%e5%85%89%e6%96%b9%e5%bc%8f",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e5%8d%94%e4%bd%9c%e8%a3%9d%e7%bd%ae/2022-%e5%b9%b4%e6%9c%80%e4%bd%b3%e8%a6%96%e8%a8%8a%e6%9c%83%e8%ad%b0%e8%a8%ad%e5%82%99",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e5%8d%94%e5%90%8c%e5%90%88%e4%bd%9c/%e6%b7%b7%e5%90%88%e8%be%a6%e5%85%ac/2022-%e5%b9%b4%e7%9a%84%e5%9c%98%e9%9a%8a%e5%8d%94%e4%bd%9c%ef%bc%9a%e7%82%ba%e4%bb%80%e9%ba%bc%e5%9c%98%e9%9a%8a%e5%8d%94%e4%bd%9c%e5%a6%82%e6%ad%a4%e9%87%8d%e8%a6%81%ef%bc%8c%e4%bb%a5%e5%8f%8a",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e5%8d%94%e4%bd%9c%e8%a3%9d%e7%bd%ae/%e5%ae%b6%e5%ba%ad%e4%bd%bf%e7%94%a8%e9%ab%98%e5%93%81%e8%b3%aa%e9%9f%b3%e8%a8%8a%e7%9a%84-5-%e5%a4%a7%e8%80%b3%e6%a9%9f%e5%8a%9f%e8%83%bd",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e5%8d%94%e4%bd%9c%e8%a3%9d%e7%bd%ae/roomos-%e6%94%af%e6%8f%b4%e6%b7%b7%e5%90%88%e5%b7%a5%e4%bd%9c%e6%a8%a1%e5%bc%8f%e7%9a%84%e4%bd%9c%e6%a5%ad%e7%b3%bb%e7%b5%b1",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e5%8d%94%e4%bd%9c%e8%a3%9d%e7%bd%ae/%e6%b7%b7%e5%90%88%e5%b7%a5%e4%bd%9c%e6%a8%a1%e5%bc%8f%e5%86%8d%e9%80%b2%e5%8c%96%ef%bc%9a%e6%80%9d%e7%a7%91%e8%88%87-microsoft-%e6%94%9c%e6%89%8b%e7%82%ba%e5%ae%a2%e6%88%b6%e6%8f%90%e4%be%9b%e6%9b%b4",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/customer-experience",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e5%ae%a2%e6%88%b6%e9%ab%94%e9%a9%97/%e9%87%8d%e8%a6%81%e6%99%82%e5%88%bb%ef%bc%8c%e8%ae%93-webex-connects-%e5%89%b5%e9%80%a0%e4%bb%a4%e4%ba%ba%e6%bb%bf%e6%84%8f%e7%9a%84%e9%ab%94%e9%a9%97",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e5%ae%a2%e6%88%b6%e9%ab%94%e9%a9%97/%e7%aa%81%e7%a0%b4%e6%95%b8%e4%bd%8d%e4%ba%92%e5%8b%95%e7%9a%84%e7%95%8c%e9%99%90",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e5%ae%a2%e6%88%b6%e9%ab%94%e9%a9%97/first-horizon-%e4%bd%bf%e7%94%a8-webex-contact-center-%e4%b8%8d%e6%96%b7%e9%80%b2%e5%8c%96",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e5%ae%a2%e6%88%b6%e9%ab%94%e9%a9%97/webex-%e9%80%8f%e9%81%8e%e5%85%a8%e6%96%b0%e8%b3%87%e6%96%99%e4%b8%ad%e5%bf%83%e6%8f%90%e5%8d%87%e5%8d%b0%e5%ba%a6%e7%9a%84%e6%b7%b7%e5%90%88%e8%be%a6%e5%85%ac%e9%ab%94%e9%a9%97",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/event-management",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e6%b4%bb%e5%8b%95%e7%ae%a1%e7%90%86/%e7%82%ba%e6%82%a8%e4%b8%8d%e5%ae%b9%e9%8c%af%e9%81%8e%e7%9a%84%e6%b4%bb%e5%8b%95%e8%a8%ad%e8%a8%88%e4%b9%8b%e6%96%b0%e5%8a%9f%e8%83%bd",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e6%b4%bb%e5%8b%95%e7%ae%a1%e7%90%86/%e6%9c%89%e9%97%9c-2022-%e5%b9%b4%e7%b6%b2%e8%b7%af%e7%a0%94%e8%a8%8e%e6%9c%83%e7%99%bc%e5%b1%95%e8%b6%a8%e5%8b%a2%e7%9a%84%e5%bf%85%e5%82%99%e8%b3%87%e8%a8%8a",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e6%b4%bb%e5%8b%95%e7%ae%a1%e7%90%86/webex-%e5%a6%82%e4%bd%95%e5%8d%94%e5%8a%a9%e9%a6%ac%e4%be%86%e8%a5%bf%e4%ba%9e%e7%9a%84%e7%a4%be%e6%9c%83%e5%ae%89%e5%85%a8%e7%b5%84%e7%b9%94%e6%8b%93%e5%b1%95%e6%9c%8d%e5%8b%99%e7%af%84%e5%9c%8d",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e6%b4%bb%e5%8b%95%e7%ae%a1%e7%90%86/%e8%ba%ab%e6%ad%b7%e5%85%b6%e5%a2%83%e7%9a%84%e5%a4%9a%e5%85%83%e9%ab%94%e9%a9%97%ef%bc%9a%e5%af%a6%e7%8f%be%e6%b7%b7%e5%90%88%e8%be%a6%e5%85%ac%e6%a8%a1%e5%bc%8f%e7%9a%84-webex-%e6%a0%b8%e5%bf%83",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/engineering",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/engineering-zh-hant/%e8%87%aa%e5%8b%95%e8%aa%9e%e9%9f%b3%e8%be%a8%e8%ad%98%e7%b3%bb%e7%b5%b1%e7%9a%84%e5%be%8c%e6%9c%9f%e8%99%95%e7%90%86",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/engineering-zh-hant/mindmeld-%e5%af%a6%e9%ab%94%e8%a7%a3%e6%9e%90%e7%9a%84%e6%9c%80%e6%96%b0%e6%b6%88%e6%81%af",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/customer-stories/%e6%88%91%e5%80%91%e5%be%9e-solarwinds-%e5%ad%b8%e5%88%b0%e7%9a%84%e4%ba%8b-%e8%a9%95%e4%bc%b0%e7%ac%ac%e4%b8%89%e6%96%b9%e8%b3%87%e6%96%99%e5%ba%ab",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/engineering-zh-hant/%e5%b0%87%e8%a8%80%e8%aa%9e%e8%a1%8c%e7%82%ba%e9%81%8b%e7%94%a8%e6%96%bc%e5%b0%8d%e8%a9%b1%e5%9e%8b-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/collaboration",
+    "depth": 3
+  },
+  {
+    "url": "https://cpaas.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/fr",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/de",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/it",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/ja",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/ko",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/pt-br",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/es",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/webex-champion-awards-2024-winners",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/experiences-amplified-with-power-of-webex-and-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/revolutionizing-customer-experience-webex-ai-powered-innovations",
+    "depth": 3
+  },
+  {
+    "url": "https://cpaas.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/de",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/it",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/ja",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/ko",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/pt-br",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/es",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/webex-champion-awards-2024-winners",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/hybrid-work/webex-rewind-spring-2024",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration-devices/more-than-a-desk-phone-the-new-desk-phone-9800-series",
+    "depth": 3
+  },
+  {
+    "url": "https://cpaas.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/it",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/ja",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/ko",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/pt-br",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/es",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/webex-champion-awards-2024-winners",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/experiences-amplified-with-power-of-webex-and-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/revolutionizing-customer-experience-webex-ai-powered-innovations",
+    "depth": 3
+  },
+  {
+    "url": "https://cpaas.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/ja",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/ko",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/pt-br",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/es",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://cpaas.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/ko",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/pt-br",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/es",
+    "depth": 3
+  },
+  {
+    "url": "https://webex.com/us/en/devices/cameras.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/webex-champion-awards-2024-winners",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/experiences-amplified-with-power-of-webex-and-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/revolutionizing-customer-experience-webex-ai-powered-innovations",
+    "depth": 3
+  },
+  {
+    "url": "https://cpaas.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/pt-br",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/es",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/webex-champion-awards-2024-winners",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/experiences-amplified-with-power-of-webex-and-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/revolutionizing-customer-experience-webex-ai-powered-innovations",
+    "depth": 3
+  },
+  {
+    "url": "https://cpaas.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/es",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/webex-champion-awards-2024-winners",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/experiences-amplified-with-power-of-webex-and-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/revolutionizing-customer-experience-webex-ai-powered-innovations",
+    "depth": 3
+  },
+  {
+    "url": "https://cpaas.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/accessibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/webex-suite/get-started",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/x155228.xml",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/x155253.xml",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/x155241.xml",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/webex-suite/contact-center/setup",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/webex-suite/more",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/devices/get-started",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/devices/cisco-rooms",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/devices/microsoft-teams-rooms",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/devices/cisco-phones",
+    "depth": 3
+  },
+  {
+    "url": "https://resources.webex.com/webex-essentials/cisco-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/achieve-more/get-to-know-control-hub",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/achieve-more/hybrid-work",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/achieve-more/flexible-workstyles",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/admin-support/admin-support-center",
+    "depth": 3
+  },
+  {
+    "url": "https://resources.webex.com/s/3kfmhmhtm2b4f7pbkkvsv",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/landing/ld-v6m1dl-What%27snewinWebex/Features",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/use-the-webex-suite/webex-suite/get-started",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/use-the-webex-suite/webex-suite/calling",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/use-the-webex-suite/webex-suite/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/use-the-webex-suite/webex-suite/messaging",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/use-the-webex-suite/webex-suite/contact-center/agents",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/use-the-webex-suite/webex-suite/events",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/use-the-webex-suite/webex-suite/more",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/use-the-webex-suite/do-more/meet-the-suite",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/use-the-webex-suite/do-more/best-practices",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/use-the-webex-suite/do-more/hybrid-work",
+    "depth": 3
+  },
+  {
+    "url": "https://resources.webex.com/portals/webex-admin",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/resources-and-programs/resources/academy",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/resources-and-programs/resources/methodology",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/resources-and-programs/programs/beta",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/resources-and-programs/industries/education/overview",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/x141871.xml",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/webex-suite/calling",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/webex-suite/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/webex-suite/messaging",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/deploy-and-manage/webex-suite/contact-center/role",
+    "depth": 3
+  },
+  {
+    "url": "https://resources.webex.com/s/cc2ssx2km5qggwvqxw4x7h",
+    "depth": 3
+  },
+  {
+    "url": "https://resources.webex.com/portals/webex-localization",
+    "depth": 3
+  },
+  {
+    "url": "https://www.essentials.webex.com/resources-and-programs/resources/methodology",
+    "depth": 3
+  },
+  {
+    "url": "https://resources.webex.com/s/kpgmpz5fbfwjt98648pwckp9",
+    "depth": 3
+  },
+  {
+    "url": "https://resources.webex.com/s/qzxhjqv9w7qzpbb96xng3ff8",
+    "depth": 3
+  },
+  {
+    "url": "https://adopt.webex.com/x141868.xml",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/hybrid-work.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/hybrid-work/elevate-your-experience-with-webex-insider-advocates",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/meltang",
+    "depth": 3
+  },
+  {
+    "url": "https://webex.com/insider",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/hybrid-work/webex-insider-user-group-where-your-expertise-meets-innovation",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/cloud-calling/new-webex-calling-adoption-guidebook",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/intrado-emergency-routing-service-for-webex-calling-is-now-available",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/hybrid-work/webex-insider-user-group-where-your-expertise-meets-innovation",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/krcowhey",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/cloud-calling/new-webex-calling-adoption-guidebook",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/intrado-emergency-routing-service-for-webex-calling-is-now-available",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/how-webex-skyrocketed-sutherland-globals-efficiency",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/dikwhitt",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/professionalservices",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/remotework",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webex",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webex-calling",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-us/n5q6x5j/Sign-In-Issues-with-Webex",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/embedded-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/integrations",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/playbooks",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/service-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/messaging",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/calling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/agent-and-supervisor-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent-testing-and-observability",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/analytics",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/calendar-and-scheduling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/collaboration-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/connect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-relations",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-support",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/developer-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/doc-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/education",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/accounting-and-finance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/flow-designer",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/government",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/healthcare",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/human-resources",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/devices-and-iot",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/marketing",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/orchestration",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/platform",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/productivity",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/project-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/recording-and-transcriptions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/robin",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/security-and-compliance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/self-service-and-bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/social",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/strategy-and-team-planning",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/workflow-and-automation",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/Workforce-Optimization",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/other",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/must-try",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/brand-new",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareicigt2mriwkr2xuihf2vjfxhf5cxzcst4aog3g4umu3rynrz2ysnq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareifs5oyc5bvtgpcmtmjxst6stqt3tfghsm4cdbskzl4l32kimoxpvu",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiem6hw3wrk5gw4jfynrzzrbdpx2qf2tsfaq7ui5nkigcqjggi3mye",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiaf4u5kiudr5bnlhxpkxpab4vxewno3u364lpn356grz24f3wixha",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiglmg7oexaurb3uig2rkge4xo4gq4h3wltdrkl7viq3xcjufsxsvu",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareib6leohlav3czrr37dbxss5rakhrmbwqqzi7uld44ums77to5laqq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareidhphztr6dvsc6wswht4dazgvxiuhsv3xf2qtyn2huykkk5hevjsq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareihlion7hfj7dz74p6sdxjs5hbld2xkpt4ytcprcf46qvxikbwgko4",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigf6pkks7jb43qzucxmbvmja4uimwbf4qyzqzrtt6elqzqd2lk52y",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiaxo6urfue3m5llvqwgmpipjyt3znss5dj2gc3ixi4fsl6boy4dka",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareifs5hut45slb3stnwpg2qlgzufw2xpjnahp6zqgwtwzq6pz4sheh4",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareia5merslmidxno4o73msdtlrcmi5bbygyg76egdlupafgfgynzeqe",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareib6zmkluqk3oovsiygjfexleawedykn7p62bvwx3klfkcctddnosm",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigv42q4k55ttcx5grlssi24qhuptnhtcth2u62eoykulg23p6t64e",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareibmlymruwdt5bwc6v4upetijjz3mb6z26eh4rea5dp2lr7nxxhyue",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiaemwssfgjai5dh3c4y5nchynhgxrkxofs3mpxau7vxb2fa6nlx6u",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareibiural22v5osduhe356n2ey7vaxw3m53f2pjxnriwj4nbsknb6yq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigfgaq2ffmrfofioj5koili4rc7w7bmy2ersgraqrugzj6zl7cjly",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiewkiyhz67y76cd77kbmju3u2vklt7o4kxkk4i3plmw24k5mr6mpu",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareifymwwxjrx3dpgg6du662oopzj4ff62ekymlwpuvjvjswjit57u4m",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareif4k7wtgssgzj4nqehkcnxtecshqqwxfi46zfo4xsjxlia4kwdxsy",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigpkd2q3ha7xidv22yq3hgn2w4jlydes47tx6zgjzlclnarsrsnle",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiazqemnjf3aa7x2s2cfpaxiyffi7xe6ls7rkkbb4coiavahh6goeq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiddfxsrihqqg5wtn3rre2xzmos47opsoe5b7viozxgtjexdadyu4i",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareihtne43zo3jccfioyjyinsmzrtxteitevwajeesgxhncekacxun6i",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareihwhah66eh5ifgbuzirlqxgpqrvzkqtc3kz3wlykyanxwmdaipmkm",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiducqk2abxhwfk32gsu4e6s63u2o32xd3eyy3apcu6fgwomosbt4m",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiaviq32ge77izmcussz6vqor7w5jhc5v7exveepwtrmxcx7ua3yiq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareie46lzbk2m53ezqp72ttkkq4ppdk22cx6bxhytxxgoaq46updn7im",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareieeb2ie4biwqismnqi3cqn4bitqfazz4x33mn762sgfrt3qcsum4i",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareifu2udg27wgytzyxkgczsahsnggyvg5u2wlozolqiyndx3cmook7u",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiac7k76qfcylctoyyr7omx2zxnsoprjeftvjfemgqobqu3zrqhi6i",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/integrations",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/playbooks",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/service-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/messaging",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/calling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/agent-and-supervisor-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent-testing-and-observability",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/analytics",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/calendar-and-scheduling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/collaboration-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/connect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-relations",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-support",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/developer-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/doc-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/education",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/accounting-and-finance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/flow-designer",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/government",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/healthcare",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/human-resources",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/devices-and-iot",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/marketing",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/orchestration",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/platform",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/productivity",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/project-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/recording-and-transcriptions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/robin",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/security-and-compliance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/self-service-and-bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/social",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/strategy-and-team-planning",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/workflow-and-automation",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/Workforce-Optimization",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/other",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/must-try",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/brand-new",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/moai-note-ai-transcription-furence-12414",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/herald-virtual-guardians",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/sunshine-sunshine",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/leap-work-leapxpert-38794",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/day-interpreting-day-translations-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/i-coach-ai-imparta-ltd",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/chat-translation-flitto-33472",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/alive5-alive5",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/textdock-vocatech-96014",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/ct-text-calltower",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/clerk-chat-clerk-chat-37937",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/signstudio-signapse",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/faxsipit-faxing-faxsipit-services-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/engage-kloud-7",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/danger-noodle-a-team-building-activity-collab-by-chinwag",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/pindrop-pulse-pindrop-security-inc-71490",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/xima-ccaas-xima-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/moyobi-evercom-srl",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/sendhub-sendhub-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/yakchat-yakchat",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/contextsms-seamless-texting-sabrhub-technologies-llc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/falkon-sms-falkon-systems-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/placetel-contacts-placetel",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/surveysparrow-surveysparrow",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/seismic-for-meetings-seismic",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/imagicle-agent-chat-console-imagicle-spa",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/bubble-365-red-cactus",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/eligoevoting-anonymous-voting-eligo-70362",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/thrive-reset-thrive-global-65812",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/keepwol-keepwol-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/securecall-for-webex-calling-sidebar-broadsource-group-pty-ltd",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/conceptboard-conceptboard-38784",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/playbooks",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/service-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/messaging",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/calling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/agent-and-supervisor-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent-testing-and-observability",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/analytics",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/calendar-and-scheduling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/collaboration-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/connect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-relations",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-support",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/developer-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/doc-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/education",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/accounting-and-finance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/flow-designer",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/government",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/healthcare",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/human-resources",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/devices-and-iot",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/marketing",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/orchestration",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/platform",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/productivity",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/project-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/recording-and-transcriptions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/robin",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/security-and-compliance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/self-service-and-bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/social",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/strategy-and-team-planning",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/workflow-and-automation",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/Workforce-Optimization",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/other",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/must-try",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/brand-new",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/knowmax-knowmax",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/provisioning-and-management-for-webex-calling-audiocodes-36097",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/novelvox-agent-accelerator-for-automotive-novelvox-na-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/variphy-for-webex-calling-variphy-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/tokiawase-classact-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/synopsist-py-functions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/devicefx-unifiedfx",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/novelvox-agent-accelerator-for-webex-cc-novelvox-na-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/ca3-sentel",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/nexgen-ccaas-integration-nexgen-virtual-workplace",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/webex-ai-agent-cisco",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/phone-control-for-webex-uplinx",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/stitchlink-stitchlink",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/falcon-shield-for-webex-crowdstrike",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/issuebadge-issuebadge",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/staircase-ai-gainsight",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-unified-agent-desktop-for-banking-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-unified-agent-desktop-healthcare-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/vrconnect-for-webex-cives",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/incident-io-incident-io",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/carehealth-carehealth-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/spok-care-connect-cti-webex-contact-center-spok",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/tonkean-app-tonkean",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-unified-agent-desktop-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/tigerconnect-operator-console-tigerconnect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/govconnect-for-webex-cives",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/courts-for-webex-cives",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/legislate-for-webex-cives",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/expo-xt-wxcc-analytics-in-power-bi-metropolis-corp",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/clari-copilot-clari-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-univcx-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-unisupervisor-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/playbooks",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/service-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/messaging",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/calling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/agent-and-supervisor-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent-testing-and-observability",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/analytics",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/calendar-and-scheduling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/collaboration-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/connect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-relations",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-support",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/developer-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/doc-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/education",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/accounting-and-finance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/flow-designer",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/government",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/healthcare",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/human-resources",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/devices-and-iot",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/marketing",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/orchestration",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/platform",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/productivity",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/project-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/recording-and-transcriptions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/robin",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/security-and-compliance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/self-service-and-bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/social",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/strategy-and-team-planning",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/workflow-and-automation",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/Workforce-Optimization",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/other",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/must-try",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/brand-new",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/birthdaybot-cisco-systems-87166",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/td-synnex-digital-bridge-ai-agent-td-synnex",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/seev-seev",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/syncrivo-kxn-technologies",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/appspace-appspace-inc-52177-79538",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/pixelmixer-pixelmixer",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/fanvoice-fanvoice",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/outlook-alerts-for-microsoft-office-365-cisco-systems",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/servicenow-cisco-systems-89074",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/jira-cloud-cisco-systems",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/asana-cisco-systems",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/pagerduty-cisco-systems",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/watercooler-cisco-systems",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/azure-devops-services-cisco-systems",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/jenkins-cisco-systems",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/google-calendar-cisco-systems",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/smartsheet-cisco-systems",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/github-cloud-cisco-systems",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/falkon-sms-bot-falkon-systems-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/bugfinder-network-and-uc-learn-uc-collab",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/core-fax-opentext",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/ipvx-ipvx",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/ip2whois-ip2location",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/standup-bot-by-sup-inkoop",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/ip2location-ip-geolocation-ip2location-io",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/contextgenie-sabrhub",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/instant-connect-cisco-systems-inc-26841",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/iot-builder-v-app",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/qstream-qstream-inc-10920",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/parallax-bot-percipia",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/moyobi-bot-evercom",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/appreviewbot-the-sealey-company-llc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/service-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/messaging",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/calling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/agent-and-supervisor-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent-testing-and-observability",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/analytics",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/calendar-and-scheduling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/collaboration-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/connect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-relations",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-support",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/developer-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/doc-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/education",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/accounting-and-finance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/flow-designer",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/government",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/healthcare",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/human-resources",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/devices-and-iot",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/marketing",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/orchestration",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/platform",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/productivity",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/project-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/recording-and-transcriptions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/robin",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/security-and-compliance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/self-service-and-bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/social",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/strategy-and-team-planning",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/workflow-and-automation",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/Workforce-Optimization",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/other",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/must-try",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/brand-new",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/payment-ai-agent-scripted-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/login-with-webex-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/service-app-token-getter-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/ucm-config-analyzer-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/auto-leave-spaces-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/wxcc-dialogflow-fulfillment-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/wxcc-banking-crm-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/wxcc-ai-agent-scripted-tracking-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/ucmaxl-for-wxc-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/wxcc-ai-agent-autonomous-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/wxcc-token-java-sample-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/wxcc-token-management-sample-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/webhook-to-card-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/wxcc-ai-agent-scripted-appointment-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/ucm-to-wxc-migration-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/wxcc-queue-scroll-widget-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/wxcc-second-ringer-widget-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/docusign-finesse-int-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/cucm-dialplan-migration-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/wxcc-graphql-wallboard-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/wxcc-voice-cherry-picker-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/byova-dialogflow-agent-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/ea-lobby-app-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/graphql-powerbi-sample-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/wxcc-call-recording-extractor-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/wxcc-call-recording-download-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/webex-calling-nanp-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/boilerplate-rss-bot-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/g2g-meeting-sample-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/call-monitor-app-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/audio-files-int-wxcc-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/byods-manager-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/messaging",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/calling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/agent-and-supervisor-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent-testing-and-observability",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/analytics",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/calendar-and-scheduling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/collaboration-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/connect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-relations",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-support",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/developer-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/doc-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/education",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/accounting-and-finance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/flow-designer",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/government",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/healthcare",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/human-resources",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/devices-and-iot",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/marketing",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/orchestration",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/platform",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/productivity",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/project-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/recording-and-transcriptions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/robin",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/security-and-compliance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/self-service-and-bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/social",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/strategy-and-team-planning",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/workflow-and-automation",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/Workforce-Optimization",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/other",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/must-try",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/brand-new",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/sunshine-sunshine-77400",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/moai-note-ai-transcription-furence",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/webless-human-handoff-webless",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/maxiq-maxiq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/2ring-dashboards-wallboards-wxcc-reporting-2ring-america-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/anya-by-anyagent-anysoftware-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/optisigns-digital-signage-optisigns-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/successkpi-workforce-engagement-platform-successkpi-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/2ring-dashboards-wallboards-wxcc-connector-2ring-america-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/easy-on-hold-easy-on-hold",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/voice-ai-agent-for-contact-center-aisera-an-automation-anywhere-company",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/teamslink-teammate-technology",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/simcommcrs-simcomm-limited",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/simcommusr-simcomm-limited",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/oliv-ai-oliv-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/phenom-scheduling-phenom-22067",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/cdk-vca-call-recording-cdk-global",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/miarec-autoqa-and-conversation-intelligence-miarec",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/identity-intelligence-cisco",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/voip-detective-call-reporting-voip-detective-llc-28446",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/tuki-tuki",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/netsip-by-aussie-broadband-aussie-broadband",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/cloverhound-cloud-cloverhound-80658",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/inya-gnani",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/zocks-zocks-communications",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/lace-for-call-center-lace-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/luware-recording-luware",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/serviceocean-serviceocean-ag",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/pindrop-pulse-for-meetings-service-app-pindrop-security-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/extendedcare-extended-care-llc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/coeo-pstn-connect-coeo-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/smartviz-digital-twin-smartviz-ltd",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/messaging",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/calling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/agent-and-supervisor-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent-testing-and-observability",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/analytics",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/calendar-and-scheduling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/collaboration-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/connect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-relations",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-support",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/developer-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/doc-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/education",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/accounting-and-finance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/flow-designer",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/government",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/healthcare",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/human-resources",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/devices-and-iot",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/marketing",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/orchestration",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/platform",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/productivity",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/project-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/recording-and-transcriptions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/robin",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/security-and-compliance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/self-service-and-bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/social",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/strategy-and-team-planning",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/workflow-and-automation",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/Workforce-Optimization",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/other",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/must-try",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/brand-new",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareicigt2mriwkr2xuihf2vjfxhf5cxzcst4aog3g4umu3rynrz2ysnq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareifs5oyc5bvtgpcmtmjxst6stqt3tfghsm4cdbskzl4l32kimoxpvu",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/moai-note-ai-transcription-furence-12414",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/sunshine-sunshine",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/tokiawase-classact-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiglmg7oexaurb3uig2rkge4xo4gq4h3wltdrkl7viq3xcjufsxsvu",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareib6leohlav3czrr37dbxss5rakhrmbwqqzi7uld44ums77to5laqq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/synopsist-py-functions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareidhphztr6dvsc6wswht4dazgvxiuhsv3xf2qtyn2huykkk5hevjsq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareihlion7hfj7dz74p6sdxjs5hbld2xkpt4ytcprcf46qvxikbwgko4",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigf6pkks7jb43qzucxmbvmja4uimwbf4qyzqzrtt6elqzqd2lk52y",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiaxo6urfue3m5llvqwgmpipjyt3znss5dj2gc3ixi4fsl6boy4dka",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareifs5hut45slb3stnwpg2qlgzufw2xpjnahp6zqgwtwzq6pz4sheh4",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareia5merslmidxno4o73msdtlrcmi5bbygyg76egdlupafgfgynzeqe",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareib6zmkluqk3oovsiygjfexleawedykn7p62bvwx3klfkcctddnosm",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigv42q4k55ttcx5grlssi24qhuptnhtcth2u62eoykulg23p6t64e",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareibmlymruwdt5bwc6v4upetijjz3mb6z26eh4rea5dp2lr7nxxhyue",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiaemwssfgjai5dh3c4y5nchynhgxrkxofs3mpxau7vxb2fa6nlx6u",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareibiural22v5osduhe356n2ey7vaxw3m53f2pjxnriwj4nbsknb6yq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigfgaq2ffmrfofioj5koili4rc7w7bmy2ersgraqrugzj6zl7cjly",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiewkiyhz67y76cd77kbmju3u2vklt7o4kxkk4i3plmw24k5mr6mpu",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareifymwwxjrx3dpgg6du662oopzj4ff62ekymlwpuvjvjswjit57u4m",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareif4k7wtgssgzj4nqehkcnxtecshqqwxfi46zfo4xsjxlia4kwdxsy",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigpkd2q3ha7xidv22yq3hgn2w4jlydes47tx6zgjzlclnarsrsnle",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiazqemnjf3aa7x2s2cfpaxiyffi7xe6ls7rkkbb4coiavahh6goeq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiddfxsrihqqg5wtn3rre2xzmos47opsoe5b7viozxgtjexdadyu4i",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareihtne43zo3jccfioyjyinsmzrtxteitevwajeesgxhncekacxun6i",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareihwhah66eh5ifgbuzirlqxgpqrvzkqtc3kz3wlykyanxwmdaipmkm",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/day-interpreting-day-translations-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiducqk2abxhwfk32gsu4e6s63u2o32xd3eyy3apcu6fgwomosbt4m",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiaviq32ge77izmcussz6vqor7w5jhc5v7exveepwtrmxcx7ua3yiq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareie46lzbk2m53ezqp72ttkkq4ppdk22cx6bxhytxxgoaq46updn7im",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/calling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/agent-and-supervisor-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent-testing-and-observability",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/analytics",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/calendar-and-scheduling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/collaboration-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/connect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-relations",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-support",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/developer-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/doc-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/education",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/accounting-and-finance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/flow-designer",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/government",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/healthcare",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/human-resources",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/devices-and-iot",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/marketing",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/orchestration",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/platform",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/productivity",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/project-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/recording-and-transcriptions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/robin",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/security-and-compliance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/self-service-and-bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/social",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/strategy-and-team-planning",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/workflow-and-automation",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/Workforce-Optimization",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/other",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/must-try",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/brand-new",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareicigt2mriwkr2xuihf2vjfxhf5cxzcst4aog3g4umu3rynrz2ysnq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareifs5oyc5bvtgpcmtmjxst6stqt3tfghsm4cdbskzl4l32kimoxpvu",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/birthdaybot-cisco-systems-87166",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiem6hw3wrk5gw4jfynrzzrbdpx2qf2tsfaq7ui5nkigcqjggi3mye",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiglmg7oexaurb3uig2rkge4xo4gq4h3wltdrkl7viq3xcjufsxsvu",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareib6leohlav3czrr37dbxss5rakhrmbwqqzi7uld44ums77to5laqq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareidhphztr6dvsc6wswht4dazgvxiuhsv3xf2qtyn2huykkk5hevjsq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareihlion7hfj7dz74p6sdxjs5hbld2xkpt4ytcprcf46qvxikbwgko4",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigf6pkks7jb43qzucxmbvmja4uimwbf4qyzqzrtt6elqzqd2lk52y",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiaxo6urfue3m5llvqwgmpipjyt3znss5dj2gc3ixi4fsl6boy4dka",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareifs5hut45slb3stnwpg2qlgzufw2xpjnahp6zqgwtwzq6pz4sheh4",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareia5merslmidxno4o73msdtlrcmi5bbygyg76egdlupafgfgynzeqe",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareib6zmkluqk3oovsiygjfexleawedykn7p62bvwx3klfkcctddnosm",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigv42q4k55ttcx5grlssi24qhuptnhtcth2u62eoykulg23p6t64e",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareibmlymruwdt5bwc6v4upetijjz3mb6z26eh4rea5dp2lr7nxxhyue",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiaemwssfgjai5dh3c4y5nchynhgxrkxofs3mpxau7vxb2fa6nlx6u",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareibiural22v5osduhe356n2ey7vaxw3m53f2pjxnriwj4nbsknb6yq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigfgaq2ffmrfofioj5koili4rc7w7bmy2ersgraqrugzj6zl7cjly",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiewkiyhz67y76cd77kbmju3u2vklt7o4kxkk4i3plmw24k5mr6mpu",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareifymwwxjrx3dpgg6du662oopzj4ff62ekymlwpuvjvjswjit57u4m",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareif4k7wtgssgzj4nqehkcnxtecshqqwxfi46zfo4xsjxlia4kwdxsy",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigpkd2q3ha7xidv22yq3hgn2w4jlydes47tx6zgjzlclnarsrsnle",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiazqemnjf3aa7x2s2cfpaxiyffi7xe6ls7rkkbb4coiavahh6goeq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiddfxsrihqqg5wtn3rre2xzmos47opsoe5b7viozxgtjexdadyu4i",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareihtne43zo3jccfioyjyinsmzrtxteitevwajeesgxhncekacxun6i",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareihwhah66eh5ifgbuzirlqxgpqrvzkqtc3kz3wlykyanxwmdaipmkm",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/td-synnex-digital-bridge-ai-agent-td-synnex",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiaviq32ge77izmcussz6vqor7w5jhc5v7exveepwtrmxcx7ua3yiq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareie46lzbk2m53ezqp72ttkkq4ppdk22cx6bxhytxxgoaq46updn7im",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/i-coach-ai-imparta-ltd",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareieeb2ie4biwqismnqi3cqn4bitqfazz4x33mn762sgfrt3qcsum4i",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareifu2udg27wgytzyxkgczsahsnggyvg5u2wlozolqiyndx3cmook7u",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/agent-and-supervisor-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent-testing-and-observability",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/analytics",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/calendar-and-scheduling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/collaboration-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/connect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-relations",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-support",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/developer-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/doc-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/education",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/accounting-and-finance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/flow-designer",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/government",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/healthcare",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/human-resources",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/devices-and-iot",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/marketing",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/orchestration",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/platform",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/productivity",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/project-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/recording-and-transcriptions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/robin",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/security-and-compliance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/self-service-and-bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/social",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/strategy-and-team-planning",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/workflow-and-automation",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/Workforce-Optimization",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/other",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/must-try",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/brand-new",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareicigt2mriwkr2xuihf2vjfxhf5cxzcst4aog3g4umu3rynrz2ysnq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/provisioning-and-management-for-webex-calling-audiocodes-36097",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/variphy-for-webex-calling-variphy-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareihwhah66eh5ifgbuzirlqxgpqrvzkqtc3kz3wlykyanxwmdaipmkm",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/devicefx-unifiedfx",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/ca3-sentel",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareida66ie7k5obn5h42bsywyitfpduya4mpzhuuavg3cc32w5pm36fm",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/webex-ai-agent-cisco",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/phone-control-for-webex-uplinx",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/falcon-shield-for-webex-crowdstrike",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/ucm-config-analyzer-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/ucmaxl-for-wxc-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/ucm-to-wxc-migration-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/cucm-dialplan-migration-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiebhl7d6z4fdxljouizk2bw5xj64qtszgqrynb4x47bhsibqvhmsy",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigdqydlleerr7gao46ihxmsb3vyjochpofbkokgiav3uh2aa3e4ui",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/webex-calling-nanp-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/call-monitor-app-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiblibcdeuerpktf4bjfyhrjl3ufun5kinqxi7xt4m3tm3vqzmmbze",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-univcx-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-unisupervisor-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-univrm-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-uniagent-for-zendesk-crm-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-uniagent-for-sap-c4c-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/aqctcallfraud-ermez-hard-soft",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-uniagent-for-servicenow-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-uniagent-for-ms-dynamics-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-unicampaign-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-uniqm-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-uniagent-for-webex-calling-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-unicrm-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-uniagent-with-msd-for-webex-calling-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/agent-and-supervisor-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent-testing-and-observability",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/analytics",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/calendar-and-scheduling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/collaboration-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/connect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-relations",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-support",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/developer-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/doc-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/education",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/accounting-and-finance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/flow-designer",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/government",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/healthcare",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/human-resources",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/devices-and-iot",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/marketing",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/orchestration",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/platform",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/productivity",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/project-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/recording-and-transcriptions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/robin",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/security-and-compliance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/self-service-and-bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/social",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/strategy-and-team-planning",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/workflow-and-automation",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/Workforce-Optimization",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/other",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/must-try",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/brand-new",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/knowmax-knowmax",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/provisioning-and-management-for-webex-calling-audiocodes-36097",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/novelvox-agent-accelerator-for-automotive-novelvox-na-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/payment-ai-agent-scripted-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiglmg7oexaurb3uig2rkge4xo4gq4h3wltdrkl7viq3xcjufsxsvu",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareib6leohlav3czrr37dbxss5rakhrmbwqqzi7uld44ums77to5laqq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareidhphztr6dvsc6wswht4dazgvxiuhsv3xf2qtyn2huykkk5hevjsq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareihlion7hfj7dz74p6sdxjs5hbld2xkpt4ytcprcf46qvxikbwgko4",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigf6pkks7jb43qzucxmbvmja4uimwbf4qyzqzrtt6elqzqd2lk52y",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiaxo6urfue3m5llvqwgmpipjyt3znss5dj2gc3ixi4fsl6boy4dka",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareifs5hut45slb3stnwpg2qlgzufw2xpjnahp6zqgwtwzq6pz4sheh4",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareia5merslmidxno4o73msdtlrcmi5bbygyg76egdlupafgfgynzeqe",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareib6zmkluqk3oovsiygjfexleawedykn7p62bvwx3klfkcctddnosm",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigv42q4k55ttcx5grlssi24qhuptnhtcth2u62eoykulg23p6t64e",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareibmlymruwdt5bwc6v4upetijjz3mb6z26eh4rea5dp2lr7nxxhyue",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiaemwssfgjai5dh3c4y5nchynhgxrkxofs3mpxau7vxb2fa6nlx6u",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareibiural22v5osduhe356n2ey7vaxw3m53f2pjxnriwj4nbsknb6yq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigfgaq2ffmrfofioj5koili4rc7w7bmy2ersgraqrugzj6zl7cjly",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiewkiyhz67y76cd77kbmju3u2vklt7o4kxkk4i3plmw24k5mr6mpu",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareifymwwxjrx3dpgg6du662oopzj4ff62ekymlwpuvjvjswjit57u4m",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareif4k7wtgssgzj4nqehkcnxtecshqqwxfi46zfo4xsjxlia4kwdxsy",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareigpkd2q3ha7xidv22yq3hgn2w4jlydes47tx6zgjzlclnarsrsnle",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiazqemnjf3aa7x2s2cfpaxiyffi7xe6ls7rkkbb4coiavahh6goeq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiddfxsrihqqg5wtn3rre2xzmos47opsoe5b7viozxgtjexdadyu4i",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareihtne43zo3jccfioyjyinsmzrtxteitevwajeesgxhncekacxun6i",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareihwhah66eh5ifgbuzirlqxgpqrvzkqtc3kz3wlykyanxwmdaipmkm",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/novelvox-agent-accelerator-for-webex-cc-novelvox-na-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiaviq32ge77izmcussz6vqor7w5jhc5v7exveepwtrmxcx7ua3yiq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareie46lzbk2m53ezqp72ttkkq4ppdk22cx6bxhytxxgoaq46updn7im",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/nexgen-ccaas-integration-nexgen-virtual-workplace",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareieeb2ie4biwqismnqi3cqn4bitqfazz4x33mn762sgfrt3qcsum4i",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareifu2udg27wgytzyxkgczsahsnggyvg5u2wlozolqiyndx3cmook7u",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/agent-and-supervisor-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent-testing-and-observability",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/analytics",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/calendar-and-scheduling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/collaboration-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/connect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-relations",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-support",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/developer-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/doc-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/education",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/accounting-and-finance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/flow-designer",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/government",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/healthcare",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/human-resources",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/devices-and-iot",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/marketing",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/orchestration",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/platform",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/productivity",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/project-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/recording-and-transcriptions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/robin",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/security-and-compliance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/self-service-and-bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/social",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/strategy-and-team-planning",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/workflow-and-automation",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/Workforce-Optimization",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/other",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/must-try",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/brand-new",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareifs5oyc5bvtgpcmtmjxst6stqt3tfghsm4cdbskzl4l32kimoxpvu",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareiaf4u5kiudr5bnlhxpkxpab4vxewno3u364lpn356grz24f3wixha",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareida66ie7k5obn5h42bsywyitfpduya4mpzhuuavg3cc32w5pm36fm",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/chat-translation-flitto-33472",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/docusign-finesse-int-playbook",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/pindrop-passport-protect-and-pulse-pindrop",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/jibb-jibb",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/lucidspark-interactive-whiteboard",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/korbyt-anywhere",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/mural-mural-20876",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/shared-timer-cisco-systems-22689",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/alleo-multishare",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/alleo-alleo-12539",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/beautiful-ai-beautiful-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/miro-miro-79512-22774",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/mapsindoors",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/cyviz-easy-advanced-room-control",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/advanced-network-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/webex-room-devices-config-wiz",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/slido-slido-55705-44671-11270-45191-17495-50996-66247-94466-51055",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/atlasied",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/webex-on-flip",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/appspace-for-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/mividas-endpoint",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/uma-ammi",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/ava-mobile-telepresence-as-a-service",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/synergy-sky-connect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/mazemap-workspace-finder",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/mezzanine-multi-share-collaboration",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent-testing-and-observability",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/analytics",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/calendar-and-scheduling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/collaboration-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/connect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-relations",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-support",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/developer-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/doc-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/education",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/accounting-and-finance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/flow-designer",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/government",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/healthcare",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/human-resources",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/devices-and-iot",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/marketing",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/orchestration",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/platform",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/productivity",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/project-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/recording-and-transcriptions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/robin",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/security-and-compliance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/self-service-and-bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/social",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/strategy-and-team-planning",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/workflow-and-automation",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/Workforce-Optimization",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/other",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/must-try",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/brand-new",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/knowmax-knowmax",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/baeareicigt2mriwkr2xuihf2vjfxhf5cxzcst4aog3g4umu3rynrz2ysnq",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/herald-virtual-guardians",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/webless-human-handoff-webless",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/td-synnex-digital-bridge-ai-agent-td-synnex",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/nexgen-ccaas-integration-nexgen-virtual-workplace",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/2ring-dashboards-wallboards-wxcc-reporting-2ring-america-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/successkpi-workforce-engagement-platform-successkpi-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/phone-control-for-webex-uplinx",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/2ring-dashboards-wallboards-wxcc-connector-2ring-america-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/spok-care-connect-cti-webex-contact-center-spok",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/tigerconnect-operator-console-tigerconnect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/consilium-uniagent-for-zoho-crm-consilium-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/recording-by-eventide-eventide-communications",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/lace-for-call-center-lace-software",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/applications/avoma-assistant-avoma-inc",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/ai-agent-testing-and-observability",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/analytics",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/calendar-and-scheduling",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/collaboration-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/connect",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-relations",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/customer-support",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/developer-tools",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/doc-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/education",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/accounting-and-finance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/flow-designer",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/government",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/healthcare",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/human-resources",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/devices-and-iot",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/marketing",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/orchestration",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/partner-solutions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/platform",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/productivity",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/project-management",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/recording-and-transcriptions",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/robin",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/security-and-compliance",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/self-service-and-bots",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/social",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/strategy-and-team-planning",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/workflow-and-automation",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/Workforce-Optimization",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/category/other",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/must-try",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/brand-new",
+    "depth": 3
+  },
+  {
+    "url": "https://apphub.webex.com/partner-solutions",
     "depth": 3
   }
 ]
