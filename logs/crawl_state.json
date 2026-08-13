@@ -8442,5 +8442,9 @@
   "https://developer.webex.com/docs/api/v1/messages/delete-a-message": {
     "hash": "e83abc3c9e0b84aec5368bbb08cd64cffefb24218bcb5d863b047d89526c9cbd",
     "timestamp": "2026-08-13T02:23:47.025659"
+  },
+  "https://developer.webex.com/docs/api/v1/memberships/delete-a-membership": {
+    "hash": "178f632e2668b0e26b004c863f1175a1d6c35ecbc891cfc8206ed6329878d01c",
+    "timestamp": "2026-08-13T02:23:52.602927"
   }
 }
