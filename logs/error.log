@@ -65,3 +65,24 @@
 [2026-08-13T01:41:01.978087] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/customers.html
 [2026-08-13T01:41:24.511485] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: no_content_elements, script_heavy_shell (1832 bytes, 99 chars visible) | URL: https://signin.webex.com/joinameeting
 [2026-08-13T01:41:26.036885] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: no_content_elements, script_heavy_shell (1833 bytes, 99 chars visible) | URL: https://signin.webex.com
+[2026-08-13T01:41:41.051923] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://www.webex.com/us/en/workspaces/workspace-designer.html
+[2026-08-13T01:41:42.510381] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (19307 bytes, 0 chars visible) | URL: https://academy.webex.com/learn/public/catalog/view/180
+[2026-08-13T01:41:44.089751] ERROR - Fallo HTTP o Crawler: Unexpected error in _crawl_web at line 778 in _crawl_web (../../../../../opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/crawl4ai/async_crawler_strategy.py):
+Error: Failed on navigating ACS-GOTO:
+Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.webex.com//content/dam/www/us/en/guides/adopt/Cobrandable-QSG-Templates_Getting-Started.pptx", waiting until "domcontentloaded"
+
+
+Code context:
+ 773                                   tag="GOTO",
+ 774                                   params={"url": url},
+ 775                               )
+ 776                               response = None
+ 777                           else:
+ 778 →                             raise RuntimeError(f"Failed on navigating ACS-GOTO:\n{str(e)}")
+ 779   
+ 780                       # ──────────────────────────────────────────────────────────────
+ 781                       # Walk the redirect chain.  Playwright returns only the last
+ 782                       # hop, so we trace the `request.redirected_from` links until the
+ 783                       # first response that differs from the final one and surface its | URL: https://www.webex.com//content/dam/www/us/en/guides/adopt/Cobrandable-QSG-Templates_Getting-Started.pptx
