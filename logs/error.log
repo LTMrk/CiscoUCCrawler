@@ -514,3 +514,9 @@ Code context:
 [2026-08-13T13:12:17.478727] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/suite/events.html
 [2026-08-13T13:13:52.894227] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/learn/webinars-demos.html
 [2026-08-13T13:19:11.703841] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://www.cisco.com/c/en/us/solutions/cloud-computing/promotions-free-trials/intersight-free-trial.html
+[2026-08-13T13:34:29.198477] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://ccrc.cisco.com/ccwr
+[2026-08-13T13:34:31.509085] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://bst.cisco.com/bugsearch
+[2026-08-13T13:34:34.044007] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://cway.cisco.com/mydevices
+[2026-08-13T13:34:36.044587] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://software.cisco.com/research/home
+[2026-08-13T13:34:37.690212] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://cway.cisco.com/sncheck
+[2026-08-13T13:34:39.783773] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://cway.cisco.com/mynotifications
