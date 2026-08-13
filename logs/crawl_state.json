@@ -8578,5 +8578,9 @@
   "https://adopt.webex.com/deploy-and-manage/devices/cisco-rooms": {
     "hash": "8c14036e5a709334bd9263a6c747ad98006b3c1a7b02bfbf548134d9f098fd8a",
     "timestamp": "2026-08-13T13:10:30.492385"
+  },
+  "https://adopt.webex.com/deploy-and-manage/devices/microsoft-teams-rooms": {
+    "hash": "dcff70f09561e30d2e03c673e84511dc127a273a32d77c8d88ad71efa650f205",
+    "timestamp": "2026-08-13T13:10:33.776351"
   }
 }
