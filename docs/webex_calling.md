@@ -7081,3 +7081,145 @@ Company
     * [Español (Spanish)](https://blog.webex.com/es/customer-stories-es/webex-calling-hace-que-las-pequenas-empresas-britanicas-funcionen-sin-problemas/ "Switch to Spanish \(Español\)")
 
 
+
+
+---
+# ORIGEN: https://blog.webex.com/cloud-calling/new-experiences
+
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-primary-logo.svg)](https://blog.webex.com)
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-secondary-logo.svg)](https://blog.webex.com)
+  * [Collaboration](https://blog.webex.com/category/collaboration/)
+  * [Workspaces](https://blog.webex.com/category/workspaces/)
+  * [Customer Experience](https://blog.webex.com/category/customer-experience/)
+  * [Event Management](https://blog.webex.com/category/event-management/)
+  * [Innovation & AI](https://blog.webex.com/category/innovation-ai/)
+
+
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2079%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/collaboration/new-experiences) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/collaboration/new-experiences&title=New%20Webex%20Calling%20experiences%20to%20empower%20work%20from%20anywhere) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/collaboration/new-experiences)
+[ ](https://blog.webex.com/collaboration/new-experiences/ "Copy Link") [ ](https://blog.webex.com/collaboration/new-experiences/ "Print")
+[Collaboration](https://blog.webex.com/category/collaboration/)
+# New Webex Calling experiences to empower work from anywhere
+On Jun 9, 2022Sep 17, 2024By [Amey Parandekar](https://blog.webex.com/contributors/amey_parandekar/)5 Min Read
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/collaboration/new-experiences) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/collaboration/new-experiences&title=New%20Webex%20Calling%20experiences%20to%20empower%20work%20from%20anywhere) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/collaboration/new-experiences)
+[ ](https://blog.webex.com/collaboration/new-experiences/ "Copy Link") [ ](https://blog.webex.com/collaboration/new-experiences/ "Print")
+![Woman On Webex Call Speaking To Man](https://blog.webex.com/wp-content/uploads/2022/06/calling-blog-final-feature.jpg)
+Millions of people around the globe trust Webex cloud calling for the high-quality, reliable calls that keep their businesses connected and thriving. And calling is only becoming more important as many organizations return to the office and need a calling solution that can easily scale to any location where an employee wants to work.  Webex Calling 
+Webex Calling provides a powerful combination of enterprise-grade cloud calling and a scalable business collaboration platform, all purpose-built to enable modern work experiences from anywhere. And we’re proud to play a critical role in serving 95% of the Fortune 500 as they navigate this new era of work.
+At Cisco Live, we are excited to announce these new calling innovations coming later this year. Compatible with any device and powered by the latest artificial intelligence capabilities, these new features deliver a next gen cloud calling experience for the modern workforce.
+  * Audio Intelligence enhancements
+  * Multi call window
+  * Webex Calling site survivability
+  * Geographical global market expansion
+    * Webex Calling is now available in over 110 countries, Cisco Calling Plans in 19 countries, and [Webex Go](https://www.webex.com/products/webex-go.html) will be available in the UK market this fall.
+
+
+## Crystal clear audio to work from any environment
+In the new era of [hybrid work](https://blog.webex.com/category/hybrid-work/), we understand the importance of being able to offer a high-quality work experience no matter the location. For example, a phone call between you and another party should be clear, reliable, and without any background noise or distractions.
+Our Audio Intelligence tools reflect years of research and development, and to date we have removed over 71 billion minutes of [audio background noise](https://blog.webex.com/uncategorized/webex-audio-mute/ "audio background noise") in Webex Calling and Meetings. We have brought these tools to Webex Calling with AI-powered technology that eliminates background noise from the Webex Calling side of calls. We are now extending this capability to external callers like customers, partners, and suppliers on a [PSTN phone](https://blog.webex.com/cloud-calling/webex-calling-pstn-options/ "PSTN phone"). If a Webex Calling user hears distracting noise from an external caller, the Webex Calling user can eliminate the external caller’s background noise with a single click in the Webex App on desktop or mobile devices.
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20745%20520%22%3E%3C/svg%3E)#image_title
+## Power users can now manage up to eight lines simultaneously
+In July, we are releasing the **multi call window** in the [Webex App](https://www.webex.com/downloads.html "Webex App") which brings to life a powerful new feature to help power users in a customer support or admin role, or anyone else who needs more phone line power. This will initially be available for Webex Calling Dedicated Instance followed by Webex Calling multi-tenant later this year.
+## Reliable  Webex  calling availability for when it really matters
+While we are excited about the improved productivity for users with Webex Calling – we are also proud of the role it plays with mission critical areas of business. Whether it’s a helicopter communicating with a hospital on the ground or a global banking system – this is where Webex Calling doesn’t miss a beat.
+**[Webex Calling site survivability](https://blog.webex.com/cloud-calling/site-survivability/ "Webex Calling site survivability")** keeps mission-critical business locations connected through events that otherwise impact network connectivity. It enables branch site users to make and receive calls within a site and to/from the PSTN, even when the branch site is disconnected from the enterprise network, for example, due to wide-area-network or ISP outage. Site survivability leverages proven technology on physical or virtual Cisco routers. This is already available for Webex Calling Dedicated instance today.
+For multi-tenant, Webex Calling site survivability can be easily deployed and managed through [Control Hub](https://www.webex.com/control-hub.html) and enables customers to continue to leverage their existing investments in Cisco networking such as routers that are already deployed at the branch locations. The preview functionality will be ready by late Q3.
+![Worker In Call Center With Webex Calling On Screen](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20913%20520%22%3E%3C/svg%3E)
+## Seamless work experiences with Webex Calling and Cisco devices
+Building on the industry’s most complete and innovative portfolio of devices for being able to work from anywhere, we continue to bring together Webex Calling and [Webex devices](https://hardware.webex.com/products "Webex devices") to provide enhanced collaboration experiences and enterprise-grade calling capabilities from the pocket to the boardroom.
+We are excited that the newly announced [Cisco Video Desk Phone 8875](https://www.webex.com/devices/cisco-video-phone-8875.html "Cisco Video Desk Phone 8875") is designed to maximize the productivity of our cloud calling customers as they conduct phone calls and video meetings. You can easily set up new locations and users, and customize experiences across your device, and save hours of productivity with a simple onboarding experience via Control Hub.
+Last year, we announced the first-ever wireless Webex Phones 860 and 840 designed for frontline workers and challenging work-styles and environments, including healthcare, retail, and manufacturing. The [Webex Wireless Phones ](https://blog.webex.com/collaboration-devices/rugged-wireless-smartphone/ "Webex Wireless Phones ")now provide superior audio quality with easy integration with Webex Calling via the native dialer app and the Webex App to communicate via chat or video.
+## Global expansion and mobility for people on-the-go
+If you’re excited about Webex Calling and what it can do for your business – we are here to help in over 110 countries around the world. In addition, Cisco Calling Plans have been expanded to the Asia/Pacific region, with service in Australia and New Zealand, increasing the number of country availability to 19 with more on the way. Learn more about Webex Calling’s best-in-class global coverage [here](https://www.webex.com/products/calling-global-availability.html).
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20853%20480%22%3E%3C/svg%3E)](https://blog.webex.com/wp-content/uploads/2022/06/calling-blog-anim.gif)
+We also continue to enhance Webex Go by delivering rich, mobile optimized collaboration experiences on the go. Webex Go users can manage a call that was initiated on the phone’s native dialer from their Webex app. And they can easily open an in-progress Webex Go call on the Webex mobile application and use the transfer option to transfer the call to their colleague. Further, users can add video or sharing to the phone call or elevate the call to a meeting to add additional members to stay productive and get things done, no matter where they are working from. We are excited to share that Webex Go will be coming to the UK market this fall.
+## Empower your modern workforce
+As you can see, our Calling team has been busy reimagining work from anywhere experiences to keep your modern workforce connected – whether it’s from the office, from home, or anywhere in between. We hope you are as excited as we are in bringing these announcements to you and can’t wait for you to try out these new features in the coming months.
+**Learn More:**
+  * [Cisco strengthens Webex Calling with South Korea data center enhancement](https://blog.webex.com/cloud-calling/south-korea-data-center/ "Cisco strengthens Webex Calling with South Korea data center enhancement")
+  * [Webex Calling keeps UK small business running smoothly](https://blog.webex.com/cloud-calling/webex-calling-keeps-uk-small-business-running-smoothly/ "Webex Calling keeps UK small business running smoothly")
+  * [Meet Webex Go: Mobile-first business calling](https://blog.webex.com/cloud-calling/meet-webex-go-mobile-first-business-calling/ "Meet Webex Go: Mobile-first business calling")
+
+
+#### About The Author
+![Amey Parandekar](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2096%22%3E%3C/svg%3E)
+Amey Parandekar VP, Webex Calling Product Management Cisco
+Amey leads Product Management for Webex Calling, an enterprise grade, globally available and innovative calling, and phone system.
+[Learn more](https://blog.webex.com/contributors/amey_parandekar/)
+#### Topics
+[Cisco Calling Plans](https://blog.webex.com/tag/cisco-calling-plans/)[Cloud Calling](https://blog.webex.com/tag/cloud-calling/)[Enhanced Survivability](https://blog.webex.com/tag/enhanced-survivability/)[Enterprise Cloud Calling](https://blog.webex.com/tag/enterprise-cloud-calling/)[High-Quality Audio](https://blog.webex.com/tag/high-quality-audio/)[Multi Call Window](https://blog.webex.com/tag/multi-call-window/)[PSTN](https://blog.webex.com/tag/pstn/)[PSTN Options](https://blog.webex.com/tag/pstn-options/)[Site Survivability](https://blog.webex.com/tag/site-survivability/)[VoIP](https://blog.webex.com/tag/voip/)[Webex Calling](https://blog.webex.com/tag/webex-calling/)[Webex Control Hub](https://blog.webex.com/tag/webex-control-hub/)[Webex Go](https://blog.webex.com/tag/webex-go/)[Work from Anywhere](https://blog.webex.com/tag/work-from-anywhere/)
+* * *
+## More like this
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Collaboration, Workspaces Cisco named 2026 Global Enterprise Desktop Phone Company of the ... By John Reeder5 Min Read ](https://blog.webex.com/collaboration/cisco-named-2026-global-enterprise-desktop-phone-company-of-the-year-by-frost-sullivan/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201104%22%3E%3C/svg%3E)simple Collaboration Eight years running! Cisco is named a Leader in the 2026 Gartner® ... By Amit Barave7 Min Read ](https://blog.webex.com/collaboration/eight-years-running-cisco-named-leader-2026-gartner-magic-quadrant-unified-communications-service-ucaas/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201099%22%3E%3C/svg%3E)simple Collaboration, Customer Experience, Event Management, Innovation & AI Tom Brady takes the stage at WebexOne 2026 By Aruna Ravichandran2 Min Read ](https://blog.webex.com/collaboration/tom-brady-takes-the-stage-at-webexone-2026/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Collaboration Intrado Emergency Routing Service for Webex Calling Is Now Available By Teney Takahashi3 Min Read ](https://blog.webex.com/collaboration/intrado-emergency-routing-service-for-webex-calling-is-now-available/)
+Products
+  * [Webex Suite](https://www.webex.com/suite/collaboration-suite.html)
+  * [Meetings](https://www.webex.com/meetings.html)
+  * [Calling](https://www.webex.com/enterprise-cloud-calling.html)
+  * [Messaging](https://www.webex.com/team-collaboration.html)
+  * [Events](https://www.webex.com/events.html)
+  * [Video Messaging](https://vidcast.io/)
+  * [Polling](https://www.webex.com/suite/polling.html)
+  * [Webinars](https://www.webex.com/webinar.html)
+  * [Whiteboarding](https://www.webex.com/suite/whiteboard.html)
+  * [Cloud Contact Center](https://www.webex.com/us/en/products/customer-experience/contact-center.html)
+  * [CPaaS](https://www.webex.com/us/en/products/customer-experience/cpaas.html)
+
+
+Footer Terms Menu
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/collaboration/new-experiences/)
+
+
+Devices
+  * [Room Devices](https://www.webex.com/us/en/devices/room-devices.html)
+  * [Desk Devices](https://www.webex.com/us/en/devices/desk-series.html)
+  * [Digital Whiteboards](https://www.webex.com/us/en/devices/digital-whiteboards.html)
+  * [Phones](https://www.webex.com/us/en/devices/phone-series.html)
+  * [Cameras](https://www.webex.com/us/en/devices/cameras.html)
+  * [Headsets](https://www.webex.com/us/en/devices/headsets.html)
+  * [Room Accessories](https://www.webex.com/us/en/devices/accessories.html)
+
+
+Resources
+  * [Pricing](https://pricing.webex.com/us/en/)
+  * [Downloads](https://www.webex.com/downloads.html)
+  * [Help Center](https://help.webex.com/)
+  * [Webex Community](https://cs.co/webexcommunity)
+  * [Product Essentials](https://essentials.webex.com/)
+  * [Watch Webinars](https://www.webex.com/learn/webinars-demos.html)
+  * [App Hub](https://apphub.webex.com/)
+  * [Accessibility](https://www.webex.com/accessibility.html)
+  * [Developers](https://developer.webex.com/)
+
+
+Company
+  * [Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)
+  * [Webex Customer Advocacy Program](https://www.webex.com/us/en/dg/customer-advocacy-program.html)
+  * [Contact Support](https://help.webex.com/contact/)
+  * [Contact Sales](https://www.webex.com/contact-sales.html?locale=US)
+  * [Webex Merch Store](https://merchandise.cisco.com/featured/webex-by-cisco.html)
+  * [Careers](https://www.webex.com/company/careers.html)
+
+
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://twitter.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.linkedin.com/company/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.facebook.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.youtube.com/c/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.instagram.com/webex/)
+
+
+©2026 Cisco and/or its affiliates. All Rights Reserved.
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/collaboration/new-experiences/)
+
+
