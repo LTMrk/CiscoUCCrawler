@@ -23707,3 +23707,190 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/admin/docs/scim-2-overview
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/admin/docs/scim-2-overview)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/admin/docs/scim-2-overview)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/admin/docs/scim-2-overview)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/SCIM-2 Overview
+Webex Admin
+  * [Overview](https://developer.webex.com/admin/docs/admin)
+  * [Authentication](https://developer.webex.com/admin/docs/authentication)
+  * Service Apps
+  * Guides
+    * [Partner's Guide](https://developer.webex.com/admin/docs/api/guides/partners-guide-to-using-the-webex-apis)
+    * [Audit Events Error Reference](https://developer.webex.com/admin/docs/api/guides/audit-events-api-response-error-codes-reference)
+    * [Hybrid Services](https://developer.webex.com/admin/docs/api/guides/managing-hybrid-services-licenses)
+    * [Webhooks](https://developer.webex.com/admin/docs/api/guides/webhooks)
+    * [Using Webex Service Apps](https://developer.webex.com/admin/docs/service-apps)
+    * [Real-time File DLP Basics](https://developer.webex.com/admin/docs/api/guides/webex-real-time-file-dlp-basics)
+    * [Provisioning APIs](https://developer.webex.com/admin/docs/api/guides/webex-calling-provisioning-apis)
+    * [SCIM-2 Overview](https://developer.webex.com/admin/docs/scim-2-overview)
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/admin/docs/api/changelog/webex-admin)
+  * [AI Assistant for Developers](https://developer.webex.com/admin/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/admin/docs/api/guides/troubleshooting)
+  * [Suite Sandbox](https://developer.webex.com/admin/docs/developer-sandbox-guide)
+
+
+## Webex Admin
+### SCIM-2 Overview
+System for Cross Domain Identity Management (SCIM) 
+The System for Cross Domain Identity Management (SCIM) is an Internet Task Engineering Force (IETF) standard for transmitting digital identity data between domains. The SCIM 2.0 standard is published with the IETF at [SCIM Protocol](https://www.rfc-editor.org/rfc/rfc7644) and [SCIM Schema](https://www.rfc-editor.org/rfc/rfc7644). Webex supports both the Core Schema and Enterprise Extension schema. This standard allows for interoperability with SCIM 2.0 compliant clients and simplifies automating user identity provisioning to Webex.
+####  anchorSCIM Endpoints and HTTP Methods
+anchor
+The SCIM protocol defines HTTP methods and endpoints for managing resources, such as "User" and "Group" resources that correspond to "/Users" and "/Groups".  
+| **HTTP method**  | **SCIM Usage**  |  
+| --- | --- |  
+| GET  | Retrieves one or more complete or partial resources.  |  
+| POST  | Depending on the endpoint, creates new resources, or may be used to bulk-modify resources.  |  
+| PUT  | Modifies a resource by replacing existing attributes with a specified set of replacement attributes (replace). PUT should not be used to create new resources.  |  
+| PATCH  | Modifies a resource with a set of client-specified changes. (partial update).  |  
+| DELETE  | Deletes a resource.  |  
+####  anchorSupported attributes and Schemas
+anchor  
+| **Schema**  | **Supported attributes**  |  
+| --- | --- |  
+| urn:ietf:params:scim:schemas:core:2.0:User  | id (readonly)  
+userName  
+active  
+roles  
+value  
+type  
+display  
+name  
+givenName  
+familyName  
+middleName  
+honorificPrefix  
+honorificSuffix  
+displayName  
+nickName  
+emails  
+value  
+type  
+display  
+primary  
+userType  
+profileUrl  
+title  
+preferredLanguage  
+locale  
+externalId  
+timezone  
+phoneNumbers  
+value  
+type  
+display  
+primary  
+photos  
+value  
+type  
+display  
+primary  
+addresses  
+type  
+streetAddress  
+locality  
+region  
+postalCode  
+country  |  
+| urn:ietf:params:scim:schemas:extension:enterprise:2.0:User  | costCenter  
+organization  
+division  
+department  
+employeeNumber  
+manager  
+value  
+displayName  
+$ref (readonly)  |  
+| urn:scim:schemas:extension:cisco:webexidentity:2.0:User  | accountStatus  
+sipAddresses  
+value  
+type  
+display  
+primary  
+managedOrgs  
+orgId  
+role  
+managedGroups (readonly)  
+orgId  
+groupId  
+role  
+extensionAttribute(1-15)  
+externalAttribute(1-15)  
+source  
+value  |  
+##### In This Article
+  * [SCIM Endpoints and HTTP Methods](https://developer.webex.com/admin/docs/scim-2-overview#scim-endpoints-and-http-methods)
+  * [Supported attributes and Schemas](https://developer.webex.com/admin/docs/scim-2-overview#supported-attributes-and-schemas)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
