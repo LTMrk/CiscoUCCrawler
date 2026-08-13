@@ -129,3 +129,9 @@ Code context:
  781                       # Walk the redirect chain.  Playwright returns only the last
  782                       # hop, so we trace the `request.redirected_from` links until the
  783                       # first response that differs from the final one and surface its | URL: https://www.webex.com/content/dam/wbx/us/images/downloads/rebrand/uc.apk
+[2026-08-13T01:50:45.406409] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/suite/events.html
+[2026-08-13T01:50:46.648547] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/workspaces/explore.html
+[2026-08-13T01:50:47.888301] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/customer-experience/contact-center.html
+[2026-08-13T01:50:49.439661] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://cpaas.webex.com
+[2026-08-13T01:50:50.684498] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/customer-experience.html
+[2026-08-13T01:50:51.926786] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/collaboration-devices.html
