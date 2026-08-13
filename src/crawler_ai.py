@@ -218,20 +218,28 @@ async def deep_crawl():
             target_css, js_injection = get_custom_behavior(url)
             
             try:              
-                result = await crawler.arun(
+                                result = await crawler.arun(
                     url=url,
-                    word_count_threshold=word_threshold,
-                    exclude_external_links=True,
-                    remove_overlay_elements=True,
+                    word_count_threshold=0, # Deshabilitamos el filtro para ver si algo llega
+                    exclude_external_links=False,
+                    remove_overlay_elements=False,
                     process_iframes=True,
                     cache_mode=CacheMode.BYPASS,
                     magic=True,
-                    excluded_tags=["nav", "footer", "header", "aside", "script", "style"],
-                    css_selector=target_css,
-                    js_code=js_injection,
-                    flatten_shadow_dom=True,  # CRÍTICO: Expone el contenido de los Web Components
-                    wait_for="css:.Api_reference_endpoint_modified__container"  # CRÍTICO: Sincroniza la SPA
+                    # FORZAMOS LA CAPTURA DE PANTALLA PARA DIAGNÓSTICO VISUAL
+                    capture_screenshot=True,
+                    # OMITIMOS SELECTORES PARA VER TODO EL DOM TRAS LA ESPERA
+                    js_code="""
+                        await new Promise(r => setTimeout(r, 15000));
+                        window.final_content = document.body.innerHTML;
+                    """
                 )
+                
+                # DIAGNÓSTICO: Guardar la captura para ver si la página carga o da error
+                if result.screenshot:
+                    with open(f"logs/debug_{get_group_filename(url).replace('.md', '.png')}", "wb") as f:
+                        f.write(result.screenshot)
+
 
                 
                 if not result.success:
