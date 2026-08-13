@@ -22955,3 +22955,246 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733646.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733646.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733646.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733646.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/c/en/us/training-events.html)
+  * [Explore Cisco](https://www.cisco.com/c/en/us/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/c/en/us/buy.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html?dtid=odicdc001129)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html?ccid=cc000864&dtid=odiprc001129)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/tools/index.html?dtid=odiprc001129)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html?ccid=cc000864&dtid=odiprc001129)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html?dtid=odicdc001129)
+
+
+  * [](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733646.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733646.html)Show All Breadcrumbs
+  * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Routers](https://www.cisco.com/c/en/us/products/routers/index.html)
+  * [Branch Routers](https://www.cisco.com/c/en/us/products/routers/branch-routers/index.html)
+  * [End-of-Sale and End-of-Life Products](https://www.cisco.com/c/en/us/products/routers/eos-eol-listing.html)
+  * [Cisco 4000 Series Integrated Services Routers](https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/index.html)
+  * [Data Sheets](https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/datasheet-listing.html)
+
+
+# Analog Voice Network Interface Modules for Cisco 4000 Series ISRs Data Sheet
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733646.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733646.html)
+Download
+Print
+### Available Languages
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733646.html)
+
+
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733646.pdf) (404.8 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:May 16, 2017
+Document ID:89010e2e-392e-4927-8ac0-539148dc552a
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/c/en/us/about/social-justice/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+NIMs Support Multiple Voice Applications on the Cisco 4000 Series ISRs
+Introduction
+The Cisco® 4000 Series Integrated Services Routers (ISRs) host the Cisco network interface modules (NIMs), which have evolved from the enhanced high-speed WAN interface card (EHWIC), increasing port density and module capability. Up to three integrated NIM slots on the 4000 Series allow for flexible configurations. The NIMs support online insertion and removal (OIR), reducing the downtime required for new or replacement modules.
+The available modules include 2-port and 4-port foreign exchange station (FXS), direct inward dial (DID), foreign exchange office (FXO), a combination of 2-port FXS and 4-port FXO, 4-port ear and mouth (E/M), and 2-port and 4-port basic rate interface (BRI) (Figure 1). The BRI cards support only voice features. The NIMs have a dedicated digital signal processor (DSP) that will be used for time-division multiplexing (TDM) analog voice services. Table 1 lists the available modules.
+Note: These NIMs are not supported with the Cisco 2900 and 3900 Series ISRs.
+**Figure 1.** Cisco FXO, FXS, and Combo 2FXS/4FXO NIMs Compatible with the Cisco 4000 Series ISRs 
+[![datasheet-c78-733646_0.jpg](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733646.doc/_jcr_content/renditions/datasheet-c78-733646_0.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733646.doc/_jcr_content/renditions/datasheet-c78-733646_0.jpg "datasheet-c78-733646_0.jpg")
+**Table 1.** Cisco FXO and FXS NIM Types and Feature Comparison  
+|  Part Number  |  Number of Ports  |  ISR G2 comparison  |  
+| --- | --- | --- |  
+|  NIM-2FXO  |  2  |  VIC2-2FXO  |  
+|  NIM-4FXO  |  4  |  VIC2-4FXO  |  
+|  NIM-2FXS  |  2  |  VIC3-2FXS/DID  |  
+|  NIM-4FXS  |  4  |  VIC3-4FXS/DID  |  
+|  NIM-2FXS/4FXO  |  6  |  VIC2-4FXO and VIC3-2FXS/DID  |  
+|  NIM-2FXSP*  |  2  |  VIC3-2FXS/DID  |  
+|  NIM-4FXSP*  |  4  |  VIC3-4FXS/DID  |  
+|  NIM-2FXS/4FXOP*  |  6  |  VIC2-4FXO and VIC3-2FXS/DID  |  
+|  NIM-4E/M  |  4  |  VIC3-2E/M  |  
+|  NIM-2BRI-NT/TE  |  2  |  VIC2-2BRI-NT/TE  |  
+|  NIM-4BRI-NT/TE  |  4  |  VIC2-2BRI-NT/TE  |  
+* “P” version is created due to introduction of new hardware component into the manufacturing process. There is no change in functionality from non-P version. 
+The FXS, FXO, E/M, and BRI NIMs can be inserted into the NIM slot on the supported Cisco 4000 Series ISRs without powering off the router.
+The new generation of Cisco FXO/FXS NIMs add improvements over the previous WAN interface cards (VICs and VIC2s). The FXO, FXS, E/M, and BRI NIMs contain an onboard DSP and don’t require the router to have dedicated packet voice DSP module (PVDM) on the motherboard. The DSP on the voice module is necessary for the voice features. It also provides for echo cancellation of up to 128-ms echo-tail length for demanding network conditions.
+Since the fourth-generation Cisco NIMs have their own DSP to support voice, there is no need to synchronize the clock to the backplane, and the clock-participate command is not supported in the BRI, FXO/FXS, and E/M NIMs. The NIMs support:
+●Caller line ID
+●G.711, G.729a, and G.726
+●G723 and Internet Speech Audio Codec (iSAC); Internet Low Bit Rate Codec (iLBC) is on the roadmap
+●Fax detection, pass-through, and relay (T.38)
+●Modem detection and pass-through
+●Dual-tone multifrequency (DTMF) detection
+●Echo cancellation
+●Voice activity detection
+●Comfort noise generation
+●Real-Time Control Protocol (RTCP)
+●Acoustic shock protection
+●Noise reduction is on the roadmap
+●Real-Time Transport Protocol (RTP)
+●RFC 4733 Digit Relay
+The FXS features include:
+●Capable of supporting either FXS or DID functionality
+●Configurable long loop ports
+●Message waiting indicator (MWI)
+●Cable detection
+The FXO features include:
+●Supports both ground start and loop start modes
+●Provides call detail record (CDR) information
+●Support for interworking with Cisco Unified Communications Manager (Skinny Client Control Protocol [SCCP]), H.323, Session Initiation Protocol (SIP) and Media Gateway Control Protocol (MGCP) 1.0
+●Cable detection
+●Overload protection
+The FXO port is used to connect to PBX or key systems, or to provide off-premises connections to the public switched telephone network (PSTN). It supports battery reversal detection and caller ID. This VIC can be software configured to work in all countries. lt is also used to connect to analog Centralized Automatic Message Accounting (CAMA) trunks to provide dedicated E-911 service (North America only).
+The FXS port is used to connect directly to phones, fax machines, and key systems. It generates battery polarity reversal and caller ID. The FXS NIMs are designated as an Off-Premises Extension Lite product offerings. This means that while the module addresses a subset of the off-premises extension applications, it should be noted that the module is not in full compliance for off-premises use.
+The DID port is used to provide off-premises DID connection from central office. It serves only incoming calls from the PSTN. It does not support caller ID in DID mode.
+The Cisco 4000 Series ISRs also support a NIM carrier card, which converts the SM-X slot into an equivalent NIM slot and can support either one single-wide NIM or a double-wide NIM. This allows the router to support higher port densities.
+Cisco IOS XE Software Release Requirements
+The modules are supported on the Cisco 4400 and 4300 Series ISRs and require Cisco IOS XE Software Release 3.13.3. Voice applications require a minimum of the Unified Communications technology package, which is optional. Table 2 lists the Cisco IOS Software releases for the FXO and FXS NIMs.
+**Table 2.** Cisco FXO and FXS NIM IOS Releases  
+|  Product Number  |  Cisco IOS Release  |  
+| --- | --- |  
+|  NIM-2FXO  |  XE3.13.4, XE3.14.3, XE3.15.1, XE3.16 and above   |  
+|  NIM-4FXO  |  XE3.13.4, XE3.14.3, XE3.15.1, XE3.16 and above  |  
+|  NIM-2FXS  |  XE3.13.4, XE3.14.3, XE3.15.1, XE3.16 and above  |  
+|  NIM-4FXS  |  XE3.13.4, XE3.14.3, XE3.15.1, XE3.16 and above  |  
+|  NIM-2FXS/4FXO  |  XE3.14.3, XE3.15.1, XE3.16 and above  |  
+|  NIM-2FXSP*  |  XE16.5 and above  |  
+|  NIM-4FXSP*  |  XE16.5 and above  |  
+|  NIM-2FXS/4FXOP*  |  XE16.5 and above  |  
+|  NIM-4E/M  |  XE3.14.3, XE3.15.1, XE3.16 and above  |  
+|  NIM-2BRI-NT/TE  |  XE3.14.3, XE3.15.1, XE3.16 and above  |  
+|  NIM-4BRI-NT/TE  |  XE3.14.3, XE3.15.1, XE3.16 and above  |  
+Network Interface Specifications
+Table 3 lists the weight of each NIM, and Table 4 describes the network management features.
+**Table 3.** Weight
+All values are +/-0.01 lb (+/- 5 g).  
+|  Product Number  |  Weight  |  
+| --- | --- |  
+|  NIM-2FXO  |  0.42 lb (191 g)  |  
+|  NIM-4FXO  |  0.44 lb (200 g)  |  
+|  NIM-2FXS  |  0.42 lb (191 g)  |  
+|  NIM-4FXS  |  0.44 lb (200 g)  |  
+|  NIM-2FXS/4FXO  |  0.52 lb (236 g)  |  
+|  NIM-2FXS  |  0.42 lb (191 g)  |  
+|  NIM-4FXS  |  0.44 lb (200 g)  |  
+|  NIM-2FXS/4FXO  |  0.52 lb (236 g)  |  
+|  NIM-4E/M  |  0.44 lb (200 g)  |  
+|  NIM-2BRI-NT/TE  |  0.42 lb (191 g)  |  
+|  NIM-4BRI-NT/TE  |  0.44 lb (200 g)  |  
+**Table 4.** Network Management Features  
+|  Management Feature  |  
+| --- |  
+|  Telnet or console  |  Remote and local configuration, monitoring, and troubleshooting from Cisco IOS XE Software command-line interface.  |  
+|  Simple Network Management Protocol (SNMP)  |  ●Router and data service unit (DSU)/channel service unit (CSU) managed by single SNMP agent; router, DSU, and CSU appear as a single network entity to user  ●Standard MIB (MIB II)  ●Cisco Integrated DSU/CSU MIB  ●RFC 1406 T1 MIB, including Alarm Detection and Reporting   |  
+|  SNMP traps  |  Generated in response to alarms  |  
+Cabling
+Unlike some old VIC analog FXO modules, there are no jumpers to set on the NIM analog modules.
+●For NIM FXO and FXS port connections, connect with a straight-through 2-wire cable.
+●For NIM E/M port cabling, refer to the following link: [http://www.cisco.com/c/en/us/td/docs/wireless/lmr/design/guide/lmrsrnd_1/lmrifrad.htm](https://www.cisco.com/c/en/us/td/docs/wireless/lmr/design/guide/lmrsrnd_1/lmrifrad.htm)l
+●For NIM BRI port cabling, refer to the following link: [http://www.cisco.com/public/scc/compass/pdfs/0000_i_isdn_bri_pinouts.pdf](https://www.cisco.com/public/scc/compass/pdfs/0000_i_isdn_bri_pinouts.pdf)
+Homologation
+Table 5 lists the standards the cards have been tested to.
+**Table 5.** Standards  
+|  NIM-FXO  |  NIM-FXS  |  NIM-BRI  |  NIM-E/M  |  
+| --- | --- | --- | --- |  
+|  TIA-968-B (USA) CS-03 (Canada) AS/CA S002 (Australia) AS/CA S003 (Australia) PTC220 (New Zealand) TBR 21 (CE countries)  |  TIA-968-B (USA) CS-03 (Canada) AS/CA S003 (Australia) PTC220 (New Zealand)  |  TIA-968-B (USA) CS-03 (Canada) AS/ACIF S031 (Australia) PTC220 (New Zealand) TBR 3 (CE countries) ITU-T I.430  |  TIA-968-B (USA) CS-03 (Canada) AS/CA S003 (Australia)  |  
+Compliance
+Table 6 lists the standards with which the NIMs comply.
+**Table 6.** Compliance Standards  
+|  Emission  |  Immunity  |  
+| --- | --- |  
+|  47 CFR Part 15 CISPR22: Edition 6.0: 2008 CNS13438: 2006 EN 300 386 V1.6.1 EN 55022:2010 EN61000-3-2: 2006 [Inc amd 1 '&' 2] EN61000-3-3: 2008 ICES-003 Issue 5: 2012 KN 22: 2009 TCVN 7189: 2009 VCCI: V-3/2013.04  |  CISPR24: 2010 EN 300 386 V1.6.1 EN55024: 2010 KN24: 2011 TCVN 7317: 2003  |  
+Ordering Information
+Table 7 will help you understand all the components or parts you need to purchase in order to install and use the product. It also provides a direct link to the Cisco Ordering Tool and lists part numbers for customer convenience.
+To place an order, visit the [Cisco Ordering Home Page](https://www.cisco.com/en/US/ordering/index.shtml). To download software, visit the [Cisco Software Center](http://software.cisco.com/download/navigator.html).
+**Table 7.** Ordering Information  
+|  Product ID  |  Product Description  |  
+| --- | --- |  
+|  NIM-2FXO  |  2-port Network Interface Module - FXO (Universal)  |  
+|  NIM-4FXO  |  4-port Network Interface Module - FXO (Universal)  |  
+|  NIM-2FXS  |  2-Port Network Interface Module - FXS, FXS-E and DID  |  
+|  NIM-4FXS  |  4-Port Network Interface Module - FXS, FXS-E and DID  |  
+|  NIM-2FXS/4FXO  |  2-Port FXS/FXS-E/DID and 4-Port FXO Network Interface Module  |  
+|  NIM-2FXSP  |  2-Port Network Interface Module - FXS, FXS-E and DID  |  
+|  NIM-4FXSP  |  4-Port Network Interface Module - FXS, FXS-E and DID  |  
+|  NIM-2FXS/4FXOP  |  2-Port FXS/FXS-E/DID and 4-Port FXO Network Interface Module  |  
+|  NIM-4E/M  |  4-Port E/M Network Interface Module  |  
+|  NIM-2BRI-NT/TE  |  2-Port BRI Network Interface Module  |  
+|  NIM-4BRI-NT/TE  |  4-Port BRI Network Interface Module  |  
+Cisco Capital
+Financing to Help You Achieve Your Objectives
+Cisco Capital® can help you acquire the technology you need to achieve your objectives and stay competitive. We can help you reduce CapEx. Accelerate your growth. Optimize your investment dollars and ROI. Cisco Capital financing gives you flexibility in acquiring hardware, software, services, and complementary third-party equipment. And there’s just one predictable payment. Cisco Capital is available in more than 100 countries. [Learn more](https://www.cisco.com/web/ciscocapital/americas/us/index.html).
+### Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
