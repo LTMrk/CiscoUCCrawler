@@ -419,3 +419,5 @@ Code context:
 [2026-08-13T12:34:27.236570] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/webex-api-and-sdk-support-policy
 [2026-08-13T12:34:28.452272] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text on small page (160 bytes, 9 chars visible) | URL: https://developer.webex.com/docs/Webex.Application.Meeting
 [2026-08-13T12:34:29.801808] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/cloud-calling.html
+[2026-08-13T12:34:45.552068] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/locations
+[2026-08-13T12:34:51.555601] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/ucm-profile
