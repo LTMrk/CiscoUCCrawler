@@ -107248,3 +107248,207 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cimc-xss-UMYtYEtr.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cimc-xss-UMYtYEtr.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cimc-xss-UMYtYEtr.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cimc-xss-UMYtYEtr.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cimc-xss-UMYtYEtr.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+
+
+# Cisco Integrated Management Controller Cross-Site Scripting Vulnerability
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/csa/cisco-sa-cimc-xss-UMYtYEtr.html) to Save Content 
+Print
+### Available Languages
+Updated:February 22, 2024
+Document ID:1692202185950322
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+#  [![](https://sec.cloudapps.cisco.com/security/center/images/cisco-alert.svg)](https://sec.cloudapps.cisco.com/security/center/images/cisco-alert.svg "Related image, diagram or screenshot.")Cisco Security Advisory 
+# Cisco Integrated Management Controller Cross-Site Scripting Vulnerability
+Medium
+Advisory ID: 
+cisco-sa-cimc-xss-UMYtYEtr
+First Published:
+2023 August 16 16:00 GMT
+Last Updated: 
+2024 February 22 20:57 GMT
+Version 1.4: 
+[Final](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html#final)
+Workarounds: 
+No workarounds available
+Cisco Bug IDs:
+[CSCwe96259](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwe96259)
+[CSCwf98681](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwf98681)
+[CSCwh65092](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwh65092)
+[](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cimc-xss-UMYtYEtr.html)
+CVE-2023-20228
+[](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cimc-xss-UMYtYEtr.html)
+CWE-80
+[](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cimc-xss-UMYtYEtr.html)
+CVSS Score:
+[ Base 6.1](https://sec.cloudapps.cisco.com/security/center/cvssCalculator.x?version=3.1&vector=CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N)[![](https://sec.cloudapps.cisco.com/security/center/images/blue-square.png)](https://sec.cloudapps.cisco.com/security/center/images/blue-square.png "Related image, diagram or screenshot.")**Click Icon to Copy Verbose Score**   
+CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N/E:X/RL:X/RC:X
+CVE-2023-20228
+[](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cimc-xss-UMYtYEtr.html)
+CWE-80
+[](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cimc-xss-UMYtYEtr.html)
+[ Download CSAF ](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-xss-UMYtYEtr/csaf/cisco-sa-cimc-xss-UMYtYEtr.json)
+Email 
+## 
+Summary 
+  * A vulnerability in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface.
+This vulnerability is due to insufficient validation of user input. An attacker could exploit this vulnerability by persuading a user of an affected interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the browser of the targeted user or access sensitive, browser-based information.
+Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.
+This advisory is available at the following link:  
+<https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-xss-UMYtYEtr>
+
+
+## 
+Affected Products 
+  * ##  Vulnerable Products 
+At the time of publication, this vulnerability affected the following Cisco products if they were running a vulnerable release of Cisco IMC:
+    * 5000 Series Enterprise Network Compute System (ENCS)
+    * UCS C-Series M4 and M5 Rack Servers
+    * UCS E-Series M3 Servers
+    * UCS S-Series Storage Servers
+For information about which Cisco software releases were vulnerable at the time of publication, see the [Fixed Software](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cimc-xss-UMYtYEtr.html#fs) section of this advisory. See the Details section in the bug ID(s) at the top of this advisory for the most complete and current information.
+##  Products Confirmed Not Vulnerable 
+Only products listed in the [Vulnerable Products](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cimc-xss-UMYtYEtr.html#vp) section of this advisory are known to be affected by this vulnerability.
+Cisco has confirmed that this vulnerability does not affect the following Cisco products:
+    * UCS B-Series Blade Servers
+    * UCS C-Series M6 Rack Servers
+    * UCS C-Series M7 Rack Servers
+    * UCS E-Series M6 Servers
+    * UCS X-Series Modular System
+
+
+## 
+Workarounds 
+  * There are no workarounds that address this vulnerability.
+
+
+## 
+Fixed Software 
+  * When [considering software upgrades](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html#fixes), customers are advised to regularly consult the advisories for Cisco products, which are available from the [Cisco Security Advisories page](https://www.cisco.com/go/psirt), to determine exposure and a complete upgrade solution.
+In all cases, customers should ensure that the devices to be upgraded contain sufficient memory and confirm that current hardware and software configurations will continue to be supported properly by the new release. If the information is not clear, customers are advised to contact the Cisco Technical Assistance Center (TAC) or their contracted maintenance providers.
+### Fixed Releases
+At the time of publication, the release information in the following table(s) was accurate. See the Details section in the bug ID(s) at the top of this advisory for the most complete and current information.  
+| Cisco 5000 Series ENCS  | First Fixed Release  |  
+| --- | --- |  
+| 2.9 and earlier  | Migrate to a fixed release.  |  
+| 3.1  | Migrate to a fixed release.  |  
+| 3.2  | 3.2.15.1 (Mar 2024)  |  
+| Cisco UCS C-Series M4 Rack Server  | First Fixed Release  |  
+| --- | --- |  
+| 4.1 and earlier  | 4.1(2m)  |  
+| Cisco UCS C-Series M5 Rack Server  | First Fixed Release  |  
+| --- | --- |  
+| 4.1 and earlier  | Migrate to a fixed release.  |  
+| 4.2  | 4.2(3h)  |  
+| 4.3  | 4.3.2.230207  |  
+| Cisco UCS E-Series M3 Server  | First Fixed Release  |  
+| --- | --- |  
+| 3.2 and earlier  | 3.2.15.1 (Mar 2024)  |  
+| Cisco UCS S-Series Storage Server  | First Fixed Release  |  
+| --- | --- |  
+| 4.2  | 4.2(3h)  |  
+| 4.3  | 4.3.2.230270  |  
+The Cisco Product Security Incident Response Team (PSIRT) validates only the affected and fixed release information that is documented in this advisory.
+
+
+## 
+Exploitation and Public Announcements 
+  * The Cisco PSIRT is not aware of any public announcements or malicious use of the vulnerability that is described in this advisory.
+
+
+## 
+Source 
+  * Cisco would like to thank Mohamed Benkadour of Capgemini for reporting this vulnerability.
+
+
+## 
+Cisco Security Vulnerability Policy 
+  * To learn about Cisco security vulnerability disclosure policies and publications, see the [Security Vulnerability Policy](http://www.cisco.com/web/about/security/psirt/security_vulnerability_policy.html). This document also contains instructions for obtaining fixed software and receiving security vulnerability information from Cisco.
+
+
+## 
+Subscribe to Cisco Security Notifications
+  * [Subscribe](https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html)
+
+
+## 
+Related to This Advisory 
+  * [Cross-Site Scripting](https://owasp.org/www-community/attacks/xss/)
+
+
+## 
+URL 
+  * <https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-xss-UMYtYEtr>
+
+
+## 
+Revision History 
+  * | Version  | Description  | Section  | Status  | Date  |  
+| --- | --- | --- | --- | --- |  
+| 1.4  | Added fixed releases.  | Fixed Releases  | Final  | 2024-FEB-22  |  
+| 1.3  | Added vulnerable products and updated fixed release tables.  | Vulnerable Products, Fixed Releases  | Final  | 2023-NOV-14  |  
+| 1.2  | Added Cisco ISE defect to the header.  | Header  | Final  | 2023-NOV-02  |  
+| 1.1  | Updated vulnerable products list.  | Vulnerable Products  | Final  | 2023-AUG-17  |  
+| 1.0  | Initial public release.  | —  | Final  | 2023-AUG-16  |  
+Show Complete History...
+
+
+* * *
+## 
+Legal Disclaimer 
+  * THIS DOCUMENT IS PROVIDED ON AN "AS IS" BASIS AND DOES NOT IMPLY ANY KIND OF GUARANTEE OR WARRANTY, INCLUDING THE WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR USE. YOUR USE OF THE INFORMATION ON THE DOCUMENT OR MATERIALS LINKED FROM THE DOCUMENT IS AT YOUR OWN RISK. CISCO RESERVES THE RIGHT TO CHANGE OR UPDATE THIS DOCUMENT AT ANY TIME.
+A standalone copy or paraphrase of the text of this document that omits the distribution URL is an uncontrolled copy and may lack important information or contain factual errors. The information in this document is intended for end users of Cisco products.
+
+
+## 
+Feedback 
+  * [Leave additional feedback](javascript:openNewWindow\(\);)
+
+
+## 
+Cisco Security Vulnerability Policy 
+  * To learn about Cisco security vulnerability disclosure policies and publications, see the [Security Vulnerability Policy](http://www.cisco.com/web/about/security/psirt/security_vulnerability_policy.html). This document also contains instructions for obtaining fixed software and receiving security vulnerability information from Cisco.
+
+
+## 
+Subscribe to Cisco Security Notifications
+  * [Subscribe](https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html)
+
+
+## 
+Related to This Advisory 
+  * [Cross-Site Scripting](https://owasp.org/www-community/attacks/xss/)
+
+
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cimc-xss-UMYtYEtr.html "Back to Top")
