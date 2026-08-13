@@ -26,3 +26,14 @@ jobs:
       - name: Ejecutar Crawler AI Incremental
         run: python3 src/crawler_ai.py
         
+      - name: Evaluar y Disparar Siguiente Lote
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f "logs/more_work.flag" ]; then
+            echo "Trabajo pendiente detectado. Iniciando nuevo lote en cola..."
+            gh workflow run etl.yml
+          else
+            echo "No hay trabajo pendiente. Finalizando ETL."
+          fi
+          
