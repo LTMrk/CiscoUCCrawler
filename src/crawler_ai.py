@@ -218,17 +218,18 @@ async def deep_crawl():
             target_css, js_injection = get_custom_behavior(url)
             
             try:
+                                # Forzar la extracción utilizando un método alternativo de captura de texto plano
                 result = await crawler.arun(
                     url=url,
-                    word_count_threshold=5, # Reducido para evitar que descarte bloques pequeños
-                    exclude_external_links=True,
-                    remove_overlay_elements=False, # Desactivado para no borrar elementos flotantes
-                    process_iframes=True,
+                    word_count_threshold=0,
                     cache_mode=CacheMode.BYPASS,
                     magic=True,
-                    excluded_tags=[], # Sin exclusión de etiquetas para esta prueba
-                    css_selector=None, # Eliminamos el filtro de selectores para capturar todo el DOM
-                    js_code="await new Promise(r => setTimeout(r, 12000));" # Aumentado a 12s
+                    # Forzar el modo de extracción por texto crudo del body
+                    js_code="""
+                        await new Promise(r => setTimeout(r, 8000));
+                        // Extraer todo el texto visible del documento incluyendo sombra si existe
+                        window.__full_text = document.body.innerText;
+                    """
                 )
                 
                 if not result.success:
