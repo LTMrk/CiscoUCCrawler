@@ -16931,3 +16931,311 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/create/docs/embedded-apps
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/create/docs/embedded-apps)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/create/docs/embedded-apps)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/create/docs/embedded-apps)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Overview
+Getting Started
+  * [Getting Started](https://developer.webex.com/create/docs)
+  * [Authentication](https://developer.webex.com/create/docs/authentication)
+  * [Login with Webex](https://developer.webex.com/create/docs/login-with-webex)
+  * [AI Assistant for Developers](https://developer.webex.com/create/docs/webex-aI-assistant-for-developers)
+  * Agentic Apps
+  * Bots
+  * Embedded Apps
+    * [Overview](https://developer.webex.com/create/docs/embedded-apps)
+    * [What's New](https://developer.webex.com/create/docs/embedded-apps-whats-new)
+    * [Developer Guide](https://developer.webex.com/create/docs/embedded-apps-guide)
+    * [Sidebar API Quick Start](https://developer.webex.com/create/docs/embedded-apps-framework-sidebar-api-quick-start)
+    * [Submission Checklist for Embedded Apps](https://developer.webex.com/create/docs/app-hub-submission-checklist-for-embedded-apps)
+    * [Embedded Apps Reference](https://developer.webex.com/create/docs/api/guides/embedded-apps-reference)
+    * Design Guidelines
+  * Integrations
+  * Service Apps
+  * Instant Connect
+  * Workspace Integrations
+  * Bring Your Own Datasource
+  * [Suite Sandbox](https://developer.webex.com/create/docs/developer-sandbox-guide)
+  * [Contact Center Sandbox](https://developer.webex.com/create/docs/sandbox_cc)
+  * [Guest to Guest Sandbox](https://developer.webex.com/create/docs/g2g-sandbox)
+  * [Submit Your App](https://developer.webex.com/create/docs/app-hub-submission-process)
+  * [Tutorials](https://developer.webex.com/create/docs/tutorials)
+
+
+## Getting Started
+### Overview
+The Webex Embedded Apps Framework allows Webex users to seamlessly interact with your third party application from within Webex.
+The Webex Embedded Apps Framework lets you easily integrate your existing web applications into Webex meetings and spaces. Webex Embedded Apps present a seamless user experience, and, as with Webex itself, can run across multiple platforms, including Windows, Mac, Linux, iOS and Android.
+This guide provides the following:
+  * Overview of the [embedded app experience](https://developer.webex.com/docs/embedded-apps#about-embedded-apps-in-spaces-and-meetings) in Meetings and Spaces
+  * [Developer quick start](https://developer.webex.com/docs/embedded-apps-guide#developer-quick-start)
+  * [Embedded Apps Framework API Reference](https://developer.webex.com/docs/embedded-apps-api-reference)
+  * [Design guidelines and considerations](https://developer.webex.com/docs/embedded-apps-design-guidelines-for-meetings) for apps running in [meeting](https://developer.webex.com/docs/embedded-apps-design-guidelines-for-meetings), [messaging](https://developer.webex.com/docs/embedded-apps-design-guidelines-for-spaces) and [device](https://developer.webex.com/docs/api/guides/embedded-apps-for-webex-devices-developer-guidelines) contexts.
+
+
+[Create an Embedded App](https://developer.webex.com/my-apps/new/embedded-app)
+As of Webex app version 44.3, we’ve integrated the Webex AppHub natively into the Webex app itself, allowing your users to explore Apphub to discover apps and bots without the need to leave the Webex application! For more information, see [What's New](https://developer.webex.com/docs/embedded-apps-whats-new).
+Webex for Government (FedRAMP) customers are limited to creating private Embedded Apps and cannot submit Embedded Apps to Webex App Hub.
+If you are not currently a Webex customer you can [request a developer sandbox](https://developer.webex.com/docs/developer-sandbox-guide) to start developing embedded apps. Free Webex user accounts cannot be used to create embedded apps.
+####  anchorWhy Embedded Apps?
+anchor
+Webex users collaborate with each other both in real-time during Webex meetings and on an ongoing basis in Webex spaces. However, the information that they need to reference often resides in other web-based applications, requiring them to switch contexts and their focus between the meeting or in-space discussion and the external application. Webex Embedded Apps facilitate surfacing those other applications **directly within the Webex in-meeting and in-space interfaces** , making it frictionless for users to reference specific 3rd party application content and enabling other participants to access and interact with it directly:
+![Webex embedded app collaboration](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltf9ed1312243f077d/61776434c84e4d1bb61ddb33/ea-meetings-static-hero.png)
+####  anchorAbout Embedded Apps in Spaces and Meetings
+anchor
+This section provides a high-level overview of the user experience for using embedded apps in Webex meetings and spaces. In each case the process starts with a meeting participant clicking the **Apps** button (in a meeting) or tab (in a space) to view the list of available apps, and then opening your app.
+![Buttons to open list of embedded apps in meeting and spaces](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltc3e0083aadb688f5/617764eab685fa1bb581b759/app-btns.png)
+The app the user opens is called the _initiator app_ and is the one specified by your app's "Start Page URL" when you [create a new embedded app in the Developer Portal](https://developer.webex.com/docs/embedded-apps-guide#creating-your-embedded-app). The purpose of the initiator app is to share the URL of an app — the _shared app_ — that is either [opened with meeting participants](https://developer.webex.com/docs/embedded-apps#inmeeting-app-experience) in real-time, or [added as a tab to a space](https://developer.webex.com/docs/embedded-apps#inspace-app-experience).
+This URL is passed the framework's [setShareUrl()](https://developer.webex.com/docs/embedded-apps-api-reference#Webex.Application+setShareUrl) method, which causes an **Open for all** or **Add to tab** button to appear in the initiator app's window, depending if the app is running in a meeting or space, respectively. Read more the user experience of [in-meeting](https://developer.webex.com/docs/embedded-apps#inmeeting-app-experience) and [in-space](https://developer.webex.com/docs/embedded-apps#inspace-app-experience) embedded apps.
+####  anchorIn-Meeting App Experience - Interactive experience
+anchor
+For purposes of discussion we'll look at an app for an online polling service. The initiator app in this example (shown below) lets the user create poll questions that are shared with meeting participants. Participants can select an option and send their answer. The initiator app also provides a view for observing live poll results.
+![Initiator app being configured to share poll](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt0a9dc1541b89aab6/61776548ac68a827432693ac/meeting-create-poll.png)
+When the user is ready to share the poll they click **Create poll** , which invokes the `setShareUrl()` method, passing it the unique URL for the poll and a string for the window title. The initiator app obtains the poll URL from a custom polling service and passes it to `setShareUrl()`:
+
+```
+function createPoll() {
+    // Custom app code to get poll instance for given configuration
+    var pollURL = pollService.getPollUrl(pollConfig);
+    app.setShareUrl(pollUrl, "", "Proposal Poll");
+}
+
+```
+
+Calling `setShareUrl()` also causes the **Open for all** button to appear in the initiator app's window.
+![Open for all button in meeting](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltc33b778c35897d84/62aa5f424a98d755621a45f8/meeting-open-together.png)
+Clicking this button opens the shared URL in a sidebar window for all meeting participants, as shown below. Participants can also click a button in the window's title bar to open it in a separate window. In this case the app lets participants select a poll option and submit their answer.
+![Meeting participant viewing poll](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt9efd0d9e5d6cd271/617765fc99dfaf274905ca5e/meeting-participant-view.png)
+In the initiator app the user can view poll results as they are tabulated. To end the sharing session — that is, close the app window for all meeting participants — the user of the initiator app clicks **Close for all** , which has replaced the **Open for all** button.
+![Initiator app viewing  poll results](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltf8deab72e932f346/62aa6acae75cbf5ab676a28d/meeting-open-together-results.png)
+The initiator app calls [clearShareUrl()](https://developer.webex.com/docs/embedded-apps-api-reference#Webex.Application+clearShareUrl) to hide the **Open for all** button.
+
+```
+app.clearShareUrl();
+
+```
+
+Notes:
+  * The meeting host or co-host(s) will see the **Close for all** button when a sharing session is in progress, even if they did not click **Open for all** to start the session. This provides hosts with the ability to end a sharing sessions even if they didn't start it themselves.
+  * For a given meeting, only one sharing session can be started at a time. If a meeting participant starts a sharing session via one initiator app, and then tries to start another session with a different initiator app, the participant is prompted if they would like to stop the current session and start a new one.
+![Dialog to swap sharing sessions](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt76ad2816f5cf0e2a/6170987cfa86b41ef7467688/new-app-new-session.png)
+If a meeting participant starts a sharing session and a second user tries to start another session, the second user will see the following error dialog.
+![Sharing session already in progress error](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt9a5711c8def3feb5/61709568a52d96289195bfda/app-in-session-error.png)
+Apps can avoid the latter scenario by checking if a [sharing session is in progress](https://developer.webex.com/docs/embedded-apps-guide#check-for-existing-session) before calling `setShareUrl()`.
+
+
+###### In-Meeting App Experience - Screen Share Your App!
+In some use cases as education, sales pitches, etc, the interactive experience is not desired and the app's initiator would like to just screen share his app to all meeting's participants. This will provide a screen share (read-only) of the app. For purposes of discussion we'll look at an app for content sharing service. The initiator app in this example (shown below) lets the user present certain content from the app to all meeting participants.
+![Content sharing embedded app](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt5332e3b09aa03012/642445cb524c8410f07bd888/8.png)
+When the user is ready to share, they click on the desired content, which invokes the `setPresentationUrl()` method, passing it the unique URL for the content to be shared, title for the shared content, optimization mode which optimize the share content for video/motion, text/images or auto detect and finally if audio should be shared as well or not. The initiator app obtains the content URL from a content service and passes it to `setPresentationUrl()`:
+
+```
+function shareContent() {
+    // Custom app code to get shared content's URL and share it in meeting
+    var contentURL = contentService.getcontentUrl(contentConfig);
+    meeting.setPresentationUrl(contentUrl, "My presentation", Webex.Application.ShareOptimizationMode.AUTO_DETECT, false);
+}
+
+```
+
+Calling `setPresentationUrl()` also causes the **Share this app content** button to appear in the initiator app's window.
+![Share this app content button in meeting](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltca5bdc3744c19124/642445cbde06a31192f4358c/7.png)
+Clicking this button shares the content URL in the stage view for all meeting participants, as shown below. To end the sharing session — that is, stop screen sharing the app's window to all the meeting participants — the user of the initiator app clicks the **Stop sharing** button, which has replaced the **Share this app content** button and also available on the top of the shared content as well.
+![Content being shared in the meeting from the embedded app](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt07080498b6d514d0/642445cbb57cb810acb799c1/6.png)
+The initiator app calls [clearPresentationUrl()](https://developer.webex.com/docs/embedded-apps-api-reference#Webex.Application+clearShareUrl) to hide the **Share in meeting** button.
+
+```
+meeting.clearPresentationUrl();
+
+```
+
+Notes:
+  * Although you can show both **share this app content** and **Open for all** buttons on your app, but you can only use one at a time.
+  * The meeting host or co-host(s) will see the **Stop sharing** button when a sharing session is in progress, even if they did not click **Share in meeting** to start the session. This provides hosts with the ability to end a sharing sessions even if they didn't start it themselves.
+  * If screen share is already running in a meeting and another participant tries to screen share a content, they will be presented with the below confirmation message before swaping the shared content. ![Sharing a app when already screen share is in progress confirmation](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blte310f9deed2c7dde/642445cbcfb44c109a1d5ed5/5.png)
+
+
+####  anchorIn-Space App Experience
+anchor
+The same initiator app can be used for both meetings and spaces, or you can specify a unique URL for each context (see [Creating your Embedded App](https://developer.webex.com/docs/embedded-apps-guide#creating-your-embedded-app)). There are some differences in the user experience of in-space compared to in-meeting apps to consider, as discussed below.
+The screenshot below is of the initiator app open in a Webex messaging space. As with the in-meeting experience the user enters the poll questions and clicks **Create poll** which invokes `setShareUrl()`, causing an **Add to tab** button to appear.
+![Add to Tab button in Space](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt6396c3e8bdfa84c5/617766b4c84e4d1bb61ddb3b/space-add-to-tab.png)
+Clicking **Add to tab** adds the specified URL as a tab to the space, as shown below. At the time the initiator app window closes. For this reason the in-space app design is slightly different than the in-meeting version: the poll results are provided in a separate tab of the shared app rather than in the initiator app.
+![App added as tab to space](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltdd46e8afb5235e40/617766edb7799c1a3543c704/app-added-to-tab.png)
+A feature unique to in-space apps is that you can optionally pass `setShareUrl()` the URL of a version of the shared app that's meant for use outside of the Webex client. For example, the following call to `setShareUrl()` includes the external URL `"https://www.example.com/poll_123_ext"` for the poll.
+
+```
+app.setShareUrl("https://www.example.com/poll_123", "https://www.example.com/poll_123_ext", "Proposal Poll"`
+
+```
+
+The external URL is exposed to users via the **Open in browser** and **Copy URL** space tab menu items, as discussed in [Space tab menu items](https://developer.webex.com/docs/embedded-apps#space-tab-menu-items).
+![Space tab menu](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt0c8a8c4f4e3fff3d/617767bf99dfaf274905ca64/in-space-tab-menu.png)
+To clear the shared URL the initiator app calls [clearShareUrl()](https://developer.webex.com/docs/embedded-apps-api-reference#Webex.Application+clearShareUrl).
+
+```
+app.clearShareUrl();
+
+```
+
+###### Space Tab Menu Items
+The following lists the menu items displayed for an embedded app's space tab. Note that some of the menu items are only available to space moderators, as noted.
+  * **Expand** — Opens embedded app in a new window.
+  * **Copy link** — Copies external URL of embedded app to the clipboard. Only appears if a URL was provided as the second parameter to the [setShareUrl()](https://developer.webex.com/docs/embedded-apps-api-reference#Webex.Application+setShareUrl) method call.
+  * **Open in browser** — Opens embedded app in the system's default web browser. Only appears if a URL was provided as the second parameter to the [setShareUrl()](https://developer.webex.com/docs/embedded-apps-api-reference#Webex.Application+setShareUrl) method call.
+  * **Edit** — Opens a dialog where a user can edit the name the embedded app's tab. In moderated spaces, only moderators can edit an app; in unmoderated spaces any user can edit an app.
+  * **View information** — Lists basic information about the embedded app, including its URL, the user who added the app to the Space, the last edited date and the user who made the most recent edits.
+  * **Remove** — Removes the app from the Space. In moderated spaces, only moderators can remove apps; in unmoderated spaces any user can remove an app.
+
+
+####  anchorSidebar App Experience
+anchor
+Not supported for Webex for Government (FedRAMP)
+Sometimes, you’ll want to have your embedded app available **outside** of explicit meetings and spaces. As an example, let's look at a CRM application. An end user sales agent wants to run an app that loads the CRM profile of a caller **before** answering a call so that they are prepared to edit the caller's profile or gather essential information to help with closing a deal. The embedded app developer can configure the embedded as **always ON** when building the app, meaning that the app launches and is always running in the background when the Webex app launches, and is always able to listen to incoming call events.
+When a call comes in, the app can detect the call, extract the caller's number, and use that number to load the corresponding CRM profile:
+
+```
+app.on("sidebar:callStateChanged", (call) => {
+    if (call.state = "Started") { 
+        const calling_number = call.id; 
+    } 
+}); 
+
+```
+
+In order grab the sales agent's attention, the app can show a notification badge, prompting the agent to click on the embedded app:
+
+```
+const badge = { 
+  badgeType: 'count', 
+  count: 1, 
+}; 
+const sidebar = await app.getSidebar();
+sidebar.showBadge(badge); 
+
+```
+
+![incremented badge](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt5d39e7f208147ec7/642ed8e2200d4610808220a3/sidebar-app-message.png)
+Once the agent clicks on the app, the loaded profile is shown, and the app is notified that it’s now in focus:
+
+```
+app.on("application:viewStateChanged", (viewState) => {
+  if (viewState == "IN_FOCUS") {
+    // Display the CRM record...
+}
+
+```
+
+The app then displays the CRM record for the caller:
+![loaded CRM profile for App1](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltd9bdc06adffc2c3f/642ed8e25f168f10bc19f737/sidebar-app-1-select.png)
+###### Sidebar Notes
+  * Sidebar apps are available in the Webex client but not in the Meeting Center client. Also, sidebar apps are not supported on Mobile and Cisco devices at the moment.
+  * Each organization has a limit of **3** always ON sidebar apps.
+
+
+####  anchorShare a Link to a Sidebar App
+anchor
+Users can share a deep link to an approved sidebar app from the Webex App for desktop:
+  1. Open the app from the Webex App sidebar.
+  2. Open the app menu and select **Copy link**.
+  3. Paste the link wherever you want to share or save it, including outside Webex.
+
+
+When a recipient clicks the link, Webex opens the app directly in the sidebar if the app is approved and available to that recipient. Otherwise, Webex displays an error. The **Copy link** option is not available for in-development apps. Copied links always open the sidebar context; this feature does not create links for the in-meeting or messaging contexts.
+Webex generates links in the following format:
+
+```
+webexteams://im?embeddedapp=<groupId>&context=sidebar
+
+```
+
+The `groupId` value is the app extension's internal group identifier, not the app ID shown in the Developer Portal. Use the link generated by **Copy link** instead of constructing the URL manually.
+####  anchorMore Information
+anchor
+For more information about developing embedded apps, see the following topics:
+  * [Developer quick start](https://developer.webex.com/docs/embedded-apps-guide#developer-quick-start) — Walks you through the steps to create your first embedded app and test it with the **Open for all** feature in a meeting, and the **Add to tab** feature in a space.
+  * [Responding to events](https://developer.webex.com/docs/embedded-apps-guide#responding-to-events) — Explains how to register event handlers for various events generated by the framework.
+  * [Embedded Apps Framework API Reference](https://developer.webex.com/docs/embedded-apps-api-reference) — Complete API reference for embedded app developers.
+  * [Design guidelines and considerations](https://developer.webex.com/docs/embedded-apps-design-guidelines-for-meetings) for [in-meeting](https://developer.webex.com/docs/embedded-apps-design-guidelines-for-meetings) and [in-space](https://developer.webex.com/docs/embedded-apps-design-guidelines-for-spaces) embedded apps.
+  * [Embedded Apps Framework Sidebar API Quick Start](https://developer.webex.com/docs/embedded-apps-framework-sidebar-api-quick-start) — Walks you through using the Sidebar API to create Always On Embedded Apps that can respond to various events.
+
+
+##### In This Article
+  * [Why Embedded Apps?](https://developer.webex.com/create/docs/embedded-apps#why-embedded-apps)
+  * [About Embedded Apps in Spaces and Meetings](https://developer.webex.com/create/docs/embedded-apps#about-embedded-apps-in-spaces-and-meetings)
+  * [In-Meeting App Experience - Interactive experience](https://developer.webex.com/create/docs/embedded-apps#inmeeting-app-experience--interactive-experience)
+  * [In-Space App Experience](https://developer.webex.com/create/docs/embedded-apps#inspace-app-experience)
+  * [Sidebar App Experience](https://developer.webex.com/create/docs/embedded-apps#sidebar-app-experience)
+  * [Share a Link to a Sidebar App](https://developer.webex.com/create/docs/embedded-apps#share-a-link-to-a-sidebar-app)
+  * [More Information](https://developer.webex.com/create/docs/embedded-apps#more-information)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
