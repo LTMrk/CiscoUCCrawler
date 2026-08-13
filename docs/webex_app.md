@@ -7447,3 +7447,242 @@ Recently Viewed
 [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
 ©2026 Cisco and/or its affiliates. All rights reserved. 
 [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+
+
+---
+# ORIGEN: https://developer.webex.com/messaging/docs/sdks/node
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/messaging/docs/sdks/node)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/messaging/docs/sdks/node)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/messaging/docs/sdks/node)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Node.js
+Webex Messaging
+  * [Overview](https://developer.webex.com/messaging/docs/messaging)
+  * Guides
+  * [REST API Basics](https://developer.webex.com/messaging/docs/basics)
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * SDK
+    * Android
+    * iOS
+    * [Browser](https://developer.webex.com/messaging/docs/sdks/browser)
+    * [Node.js](https://developer.webex.com/messaging/docs/sdks/node)
+    * [Java](https://developer.webex.com/messaging/docs/sdks/java)
+  * [AI Assistant for Developers](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/messaging/docs/api/guides/troubleshooting)
+  * [Widgets](https://developer.webex.com/messaging/docs/widgets)
+  * [Tutorials](https://developer.webex.com/messaging/docs/tutorials)
+  * [Suite Sandbox](https://developer.webex.com/messaging/docs/developer-sandbox-guide)
+  * [Beta Program Overview](https://developer.webex.com/messaging/docs/webex-developer-beta-program)
+  * [Webex Status API](https://developer.webex.com/messaging/docs/webex-status-api)
+
+
+## Webex Messaging
+### Node.js
+Add Webex products and features to your web apps with the Webex Node.js SDK.
+[GitHub](https://github.com/webex/webex-js-sdk/tree/next/packages/webex-node)[NPM](https://www.npmjs.com/package/webex-node)
+####  anchorFeatures
+anchor
+  * Manage Webex user accounts
+  * Send messages and file attachments
+  * Create spaces and manage space memberships
+  * FedRAMP environment support. See [usage README](https://github.com/webex/webex-js-sdk#fedramp-environment)
+
+
+####  anchorGetting Started Guide
+anchor
+In this example, we'll use Node.js to create a simple project that will post a message to a room.
+If you're interested in integrating Webex functionality in your front-end web applications, check out the [Browser SDK](https://developer.webex.com/docs/sdks/browser).
+###### Overview
+  * Create a Webex space
+  * Post a Message
+
+
+###### Requirements
+  * [Node.js](https://nodejs.org/) 20, [npm](https://www.npmjs.com/) 10.x
+  * Optionally: [nvm](https://github.com/creationix/nvm/) to manage Node.js versions
+
+
+###### Limitations
+  * The `webex-node` package cannot be used for Meetings, Calling and Contact Center flows.
+
+
+###### Step 1: Create the Project Directory
+
+```
+cd /my/project/directory
+npm init
+
+```
+
+You’ll be prompted to answer a few simple questions, but typically the defaults are just fine.
+###### Step 2: Install the JavaScript SDK
+Now, install `webex-node`:
+
+```
+npm install --save webex-node
+
+```
+
+```
+yarn add webex-node
+
+```
+
+###### Step 3: Start Using the SDK
+So, you want to send a message. For demonstration purposes, we’ll use environment variables to authorize the SDK with your personal access token. If you're logged into this site, you can find your token in [Getting Started](https://developer.webex.com/docs/getting-started). This token provides access to your account for testing purposes, and shouldn't be used for anything other than testing. If you don't already have a Webex account, click Sign Up at the top of this page to create a new account.
+Use the `@webex/test-webex-node` package in the webex-js-sdk repository as a guide to using the `webex-node` package. Refer to the [README](https://github.com/webex/webex-js-sdk/tree/next/packages/@webex/test-webex-node) for more information.
+Here is a snippet of code that can be used.
+
+```
+import WebexNode from 'webex-node';
+
+const webex = WebexNode.init({
+  credentials: {
+    access_token: 'INSERT TOKEN HERE',
+  },
+});
+
+webex.once('ready', () => {
+  if (webex.canAuthorize) {
+    // eslint-disable-next-line no-console
+    console.log('webex is authorized');
+    webex.rooms
+      .create({
+        title: 'Test Space from NodeJS',
+      })
+      .then(function (room) {
+        // eslint-disable-next-line no-console
+        console.log('room object', room);
+        webex.messages.create({
+          text: 'Hello World!',
+          roomId: room.id,
+        });
+      })
+      // Make sure to log errors in case something goes wrong.
+      .catch(function (reason) {
+        console.error(reason);
+        process.exit(1);
+      });
+  }
+});
+
+```
+
+Run the above script using the `node` command. The script will use your token to create a space called "Test Space from NodeJS" and send a message in that space.
+####  anchorSDK API Reference
+anchor
+In-depth API reference information for the Node.js SDK API can be found here:
+<https://webex.github.io/webex-js-sdk/api/>
+####  anchorTroubleshooting the Node.js SDK
+anchor
+If you're having trouble with the Node.js SDK, here's some more information to help troubleshoot the issue.
+###### SDK Requirements
+Review the following SDK requirements to make sure you're using the correct minimum versions of Node.js, npm, etc.:
+  * [Node.js](https://nodejs.org/) LTS 20.x
+  * [npm](https://www.npmjs.com/) 10.x
+  * Optionally: [nvm](https://github.com/creationix/nvm/) to manage Node.js versions
+  * A Webex account and an integration with the necessary [scopes](https://developer.webex.com/docs/integrations#scopes)
+
+
+###### Additional Logging
+You can add additional logging to your application to help narrow down any issues with the SDK.
+###### Change the Log Level via an Environment Variable
+You can change the log level via the `WEBEX_LOG_LEVEL` environment variable. For example, if you start your application server via `npm serve`, you'd set the variable before running your application to see increased logging:
+
+```
+WEBEX_LOG_LEVEL=info npm serve
+
+```
+
+While developing your application, you can set the `WEBEX_LOG_LEVEL` environment variable to `debug` see even more logging. For example, if you start your application server via `npm serve-dev`, you'd set the variable before running your application to see increased logging:
+
+```
+WEBEX_LOG_LEVEL=debug npm serve-dev
+
+```
+
+###### Firewall Ports
+The Node.js SDK makes use of several network protocols and ports. If you're encountering connection or connectivity issues, make sure there aren't any firewalls blocking or preventing communication with any Webex endpoints. For more information about the network and web security requirements for Webex services, please see [Network Requirements for Webex Services](https://help.webex.com/WBX000028782/).
+####  anchorSupport Policy
+anchor
+Please visit the [Webex API and SDK Support Policy](https://developer.webex.com/docs/webex-api-and-sdk-support-policy) page for details on our support and end of life policy for APIs and SDKs.
+###### Getting Support
+If you're stumped, contact the [Webex Developer Support team](https://developer.webex.com/support) for more help with the SDK.
+##### In This Article
+  * [Features](https://developer.webex.com/messaging/docs/sdks/node#features)
+  * [Getting Started Guide](https://developer.webex.com/messaging/docs/sdks/node#getting-started-guide)
+  * [SDK API Reference](https://developer.webex.com/messaging/docs/sdks/node#sdk-api-reference)
+  * [Troubleshooting the Node.js SDK](https://developer.webex.com/messaging/docs/sdks/node#troubleshooting-the-nodejs-sdk)
+  * [Support Policy](https://developer.webex.com/messaging/docs/sdks/node#support-policy)
+
+
+##### Related Resources
+  * [Using Websockets with the Webex JavaScript SDK](https://developer.webex.com/blog/using-websockets-with-the-webex-javascript-sdk "Using Websockets with the Webex JavaScript SDK")
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
