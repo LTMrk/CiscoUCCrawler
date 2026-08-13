@@ -8363,3 +8363,370 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://adopt.webex.com/resources-and-programs/industries/education/overview
+
+[Skip to Content](https://adopt.webex.com/#content)
+[ ![](https://adopt.webex.com/Essentials/images/Webex_adoption_logo_2x.png) ](https://adopt.webex.com/)
+  * [ Deploy and manage ](https://adopt.webex.com/#mega-49751911)
+  * [ Use the Webex Suite ](https://adopt.webex.com/#mega-38016658)
+  * [ Resources and programs ](https://adopt.webex.com/#mega-40899701)
+
+
+  * [ ![Search](https://adopt.webex.com/Content/assets/img/icons/search.svg) ](javascript:; "search")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+  * [ Download App ](https://www.webex.com/downloads.html "Download App")
+
+
+Search ![Search](https://adopt.webex.com/Content/assets/img/icons/search.svg) [ ](https://adopt.webex.com/ "Toggle menu")
+Products
+[ Get started ](https://adopt.webex.com/deploy-and-manage/webex-suite/get-started "Get started")
+  * [ Calling ](https://adopt.webex.com/x155228.xml#kits "Calling")
+  * [ Meetings ](https://adopt.webex.com/x155253.xml#kits "Meetings")
+  * [ Messaging ](https://adopt.webex.com/x155241.xml#kits "Messaging")
+  * [ Contact Center ](https://adopt.webex.com/deploy-and-manage/webex-suite/contact-center/setup "Contact Center")
+  * [ More ](https://adopt.webex.com/deploy-and-manage/webex-suite/more "More")
+
+
+Devices
+[ Get started ](https://adopt.webex.com/deploy-and-manage/devices/get-started "Get started")
+  * [ Cisco Rooms ](https://adopt.webex.com/deploy-and-manage/devices/cisco-rooms "Cisco Rooms")
+  * [ Microsoft Teams Rooms ](https://adopt.webex.com/deploy-and-manage/devices/microsoft-teams-rooms "Microsoft Teams Rooms")
+  * [ Cisco Phones ](https://adopt.webex.com/deploy-and-manage/devices/cisco-phones "Cisco Phones")
+  * [ Share resources with your team ](https://resources.webex.com/webex-essentials/cisco-devices "Share resources with your team")
+
+
+Achieve more
+[ Get to know Control Hub ](https://adopt.webex.com/deploy-and-manage/achieve-more/get-to-know-control-hub "Get to know Control Hub")
+  * [ Hybrid work ](https://adopt.webex.com/deploy-and-manage/achieve-more/hybrid-work "Hybrid work")
+  * [ Flexible workstyles ](https://adopt.webex.com/deploy-and-manage/achieve-more/flexible-workstyles "Flexible workstyles")
+
+
+Admin support
+[ Admin Support Center ](https://adopt.webex.com/deploy-and-manage/admin-support/admin-support-center "Admin Support Center")
+  * [ Deployment resources ](https://resources.webex.com/s/3kfmhmhtm2b4f7pbkkvsv "Deployment resources")
+  * [ Launch kits ](https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits "Launch kits")
+  * [ What's new in Webex ](https://help.webex.com/landing/ld-v6m1dl-What%27snewinWebex/Features "What's new in Webex")
+  * [ Webex Community ](https://community.cisco.com/t5/webex-community/ct-p/webex-user "Webex Community")
+
+
+Products
+[ Get started ](https://adopt.webex.com/use-the-webex-suite/webex-suite/get-started "Get started")
+  * [ Calling ](https://adopt.webex.com/use-the-webex-suite/webex-suite/calling "Calling")
+  * [ Meetings ](https://adopt.webex.com/use-the-webex-suite/webex-suite/meetings "Meetings")
+  * [ Messaging ](https://adopt.webex.com/use-the-webex-suite/webex-suite/messaging "Messaging")
+  * [ Contact Center ](https://adopt.webex.com/use-the-webex-suite/webex-suite/contact-center/agents "Contact Center")
+  * [ Events ](https://adopt.webex.com/use-the-webex-suite/webex-suite/events "Events")
+  * [ More ](https://adopt.webex.com/use-the-webex-suite/webex-suite/more "More")
+
+
+Do more
+[ Meet the Suite ](https://adopt.webex.com/use-the-webex-suite/do-more/meet-the-suite "Meet the Suite")
+  * [ Best practices ](https://adopt.webex.com/use-the-webex-suite/do-more/best-practices "Best practices")
+  * [ Hybrid work ](https://adopt.webex.com/use-the-webex-suite/do-more/hybrid-work "Hybrid work")
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user "Webex Community")
+
+
+Learn
+[ Adoption library ](https://resources.webex.com/portals/webex-admin "Adoption library")
+  * [ Webex Academy ](https://adopt.webex.com/resources-and-programs/resources/academy "Webex Academy")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+
+
+Resources
+  * [ Adoption methodology ](https://adopt.webex.com/resources-and-programs/resources/methodology "Adoption methodology")
+  * [ Adoption library ](https://resources.webex.com/portals/webex-admin "Adoption library")
+  * [ Admin launch kits ](https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits "Admin launch kits")
+  * [ Webex Academy ](https://adopt.webex.com/resources-and-programs/resources/academy "Webex Academy")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+
+
+Programs
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user "Webex Community")
+  * [ Webex Insider ](https://www.webex.com/insider "Webex Insider")
+  * [ Webex Beta ](https://adopt.webex.com/resources-and-programs/programs/beta "Webex Beta")
+
+
+Industries
+  * [ Education ](https://adopt.webex.com/resources-and-programs/industries/education/overview "Education")
+  * [ Government ](https://adopt.webex.com/x141871.xml#government "Government")
+  * [ Financial services ](https://adopt.webex.com/x141871.xml#financial "Financial services")
+  * [ Healthcare ](https://adopt.webex.com/x141871.xml#healthcare "Healthcare")
+
+
+## Roll call! Who's ready for class?
+No complicated technology or hand cramps from furiously writing notes, just Webex. We've got everything you need, whether you're a teacher, student, faculty member, or parent.
+![](https://adopt.webex.com/Essentials/images/Hero%20Image%20Collage.png)
+##  How do I Webex? 
+* * *
+Educators
+  * [ How do I use the Webex Education Connector? ](https://help.webex.com/article/ngd7brv/The-Webex-Education-Connector-for-Teachers#Cisco_Task_in_List_GUI.dita_acce7ec0-f016-4acd-8666-2f6e368c4564 "How do I use the Webex Education Connector?")
+  * [ How do I schedule class meetings? ](https://help.webex.com/article/ngd7brv/The-Webex-Education-Connector-for-Teachers#id_87499 "How do I schedule class meetings?")
+  * [ How do I set office hours? ](https://help.webex.com/article/ngd7brv/The-Webex-Education-Connector-for-Teachers#Cisco_Concept.dita_d0f44c88-63a3-4765-8f6b-cd748e335e05 "How do I set office hours?")
+
+
+* * *
+Students
+  * [ How do I download the Webex App? ](https://www.webex.com/downloads.html "How do I download the Webex App?")
+  * [ How do I join a class? ](https://help.webex.com/article/n7evh4t/The-Webex-Education-Connector-for-Students#Cisco_Task_in_List_GUI.dita_aab23ec7-d82a-4d97-a7ea-261e6382d687 "How do I join a class?")
+  * [ How do I submit an assignment? ](https://help.webex.com/article/yuwad5/Webex-App-%7C-Share-files-with-others "How do I submit an assignment?")
+
+
+* * *
+Faculty
+  * [ How do I communicate with colleagues? ](https://help.webex.com/article/jc7z88/Webex-App-%7C-Send-a-message "How do I communicate with colleagues?")
+  * [ How do I schedule a faculty meeting? ](https://help.webex.com/article/wy517z/Webex-App-%7C-Schedule-a-Meeting-from-the-Meetings-Calendar "How do I schedule a faculty meeting?")
+  * [ How do I set faculty roles? ](https://help.webex.com/article/zuwad5/Webex-App-%7C-Roles-on-Teams-and-Spac "How do I set faculty roles?")
+
+
+* * *
+IT admins
+  * [ How do I optimize my site for education? ](https://help.webex.com/article/nm7uryu/Configure-Meetings,-Events,-and-Training-Options-for-Your-Education-Provisioned-Cisco-Webex-Site#id_136281 "How do I optimize my site for education?")
+  * [ How do I install the Webex Education Connector? ](https://help.webex.com/n77zrcq/Control-Hub-Site-Administration-Install-the-Cisco-Webex-Education-Connector-in-Your-Learning-Management-System "How do I install the Webex Education Connector?")
+  * [ How do I deploy Webex across my campus? ](https://adopt.webex.com/resources-and-programs/resources/methodology "How do I deploy Webex across my campus?")
+  * [ How do I find education apps? ](https://apphub.webex.com/category/education "How do I find education apps?")
+
+
+##  I am... 
+![](https://adopt.webex.com/Essentials/images/EDU_Overview_Educator.png)
+an educator
+![](https://adopt.webex.com/Essentials/images/EDU_Overview_Student.png)
+a student
+![](https://adopt.webex.com/Essentials/images/EDU_Overview_Faculty.png)
+a faculty member
+![](https://adopt.webex.com/Essentials/images/EDU_Overview_Admin.png)
+an IT admin
+#### An educator
+I've got lessons to plan, assignments to review, and young adults  
+to teach, which leaves little time to figure out how to run my hybrid  
+classroom.
+[ Access your teaching toolkit ](https://adopt.webex.com/resources-and-programs/industries/education/educators "Educators")
+#### A student
+I'm just trying to balance classes, studying, and chilling with my friends.  
+When I have free time, I don't want to spend it learning a new tool.
+[ Learn from wherever you are ](https://adopt.webex.com/resources-and-programs/industries/education/students "Students")
+#### A faculty member
+Quality education is paramount, so I do everything necessary to  
+ensure operations run smoothly in the background. I need  
+resources to help streamline processes.
+[ Communicate across your campus ](https://adopt.webex.com/industries/education/overview#faculty)
+#### An IT admin
+I run the technologies that make teaching and participating in  
+hybrid classrooms possible. I also manage technical problems, so  
+I can't spend hours reading unhelpful articles.
+[ Find resources quickly and easily ](https://adopt.webex.com/industries/education/overview#admin)
+##  IT admins 
+Troubleshooting, setting up new technologies, connecting the campus—you've got a lot going on. Integrate Webex into your classroom and keep things simple.
+![](https://adopt.webex.com/Essentials/images/EDU_Overview_Icon1.png)
+All-in-one management tool
+Stop switching between apps, and instead configure settings, set up templates for teachers, and more, all in Control Hub.
+  * [ Go to Control Hub ](https://admin.webex.com/login "Go to Control Hub")
+
+
+* * *
+![](https://adopt.webex.com/Essentials/images/EDU_Overview_Icon2.png)
+Hybrid learning made easy
+Educators and students rely on you to power their hybrid classrooms. Integrate the Webex Education Connector with your LMS to start.
+  * [ What's new in Webex Education Connector ](https://help.webex.com/article/nag52teb/What's-New-for-the-Latest-Versions-of-Webex-Education-Connector "What's new in Webex Education Connector")
+
+
+* * *
+![](https://adopt.webex.com/Essentials/images/EDU_Overview_Icon3.png)
+Your selections, their security
+You set up technologies and manage users, but you're also responsible for security. Keep your classrooms secure—configure security settings.
+  * [ Prioritize security ](https://help.webex.com/article/nm7uryu/Configure-Meetings,-Events,-and-Training-Options-for-Your-Education-Provisioned-Cisco-Webex-Site "Prioritize security")
+
+
+* * *
+![](https://adopt.webex.com/Essentials/images/EDU_Overview_Icon4.png)
+Earn a gold star
+Empower educators to run their hybrid classrooms effectively by connecting their classrooms to the Webex Education Connector.
+  * [ Get connected ](https://help.webex.com/article/ngd7brv/The-Webex-Education-Connector-for-Teachers#Cisco_Task_in_List_GUI.dita_e148183a-2de4-46e4-b8c6-0aaaed1d6824 "Get connected")
+
+
+* * *
+![](https://adopt.webex.com/Essentials/images/EDU_Overview_Icon5.png)
+Your go-to guides
+Don't have time to read through countless help articles? Set your teachers and students up for success with our easy-to-follow guides.
+  * [ View the guides ](https://resources.webex.com/webex-essentials/hybrid-education-for-admins "View the guides")
+
+
+* * *
+![](https://adopt.webex.com/Essentials/images/EDU_Overview_Icon6.png)
+Find your community
+Check out our educator community to connect with fellow admins and discuss all things education.
+  * [ Visit the Webex Community ](https://community.cisco.com/t5/webex-for-education/bd-p/disc-education "Visit the Webex Community")
+
+
+* * *
+##  Faculty 
+You want to get started with Webex so you can prep for class, put together lesson plans, and teach your students. Our resources will help you do exactly that.
+Meet Webex
+You manage a lot—running a campus, counseling students, and completing admin tasks. Bring all your education needs into a single app to streamline your day.
+  * [ Learn the basics ](https://assets2.brandfolder.io/bf-boulder-prod/prtsstbmmx9qzk7hkcp338/v/61480968/original/Webex%20App%20Quick%20Start%20Guide.pdf "Learn the basics")
+
+
+* * *
+Overcommunicate
+Communication is vital to the success of your hybrid classroom, so we've made it easy to stay connected using Webex.
+  * [ Send a message in a space ](https://help.webex.com/article/nuayvai/Webex-App-%7C-Messaging "Send a message in a space")
+
+
+* * *
+Record a video or send a message?
+When you need to share an update with a teacher or staff member but you're too busy to set up a meeting, send a quick video instead of typing out a novel.
+  * [ Send a Vidcast ](https://vidcast.io/ "Send a Vidcast")
+
+
+* * *
+Say yes to professional growth
+Whether it's learning new skills or meeting with your mentor, you're always looking for ways to continue your growth. Our professional development resources will help you do just that.
+  * [ Learn more ](https://www.cisco.com/c/en/us/solutions/industries/education/educator-resource-center.html#~professional-development "Learn more")
+
+
+* * *
+Elevate your hybrid classroom
+Explore how you can elevate your hybrid classroom with enhanced features, personalization, and everything in between.
+  * [ See what Webex can do ](https://adopt.webex.com/use-the-webex-suite/webex-suite/get-started "See what Webex can do")
+
+
+* * *
+##  Resources 
+Our resources will help you find answers, connect with fellow teachers and admins, and stay up-to-date with what’s going on at Webex.
+![](https://adopt.webex.com/Essentials/images/EDU_Overview_Resources1.png)
+Webex Help Center
+Need an answer fast but don't want to overwhelm your admin? Check out the Help Center for answers to all your questions.
+[ ](https://help.webex.com/)
+![](https://adopt.webex.com/Essentials/images/EDU_Overview_Resources2.png)
+Webex Community
+Our communities are full of vibrant educators, IT admins, and end users. Network with like-minded people and see how others in education use Webex.
+[ ](https://community.cisco.com/t5/webex-community/ct-p/webex-user)
+![](https://adopt.webex.com/Essentials/images/EDU_Overview_Resources3.png)
+The Webex blog
+Explore our blog to read about all things Webex and how you can leverage it to create an unforgettable educational experience for your students.
+[ ](https://blog.webex.com/)
+[ Solutions ](javascript:;)
+  * [ Downloads ](https://www.webex.com/downloads.html "Downloads")
+  * [ Integrations ](https://apphub.webex.com/ "Integrations")
+  * [ Cisco ](https://www.cisco.com/c/en/us/solutions/collaboration/index.html "Cisco")
+  * [ Hybrid Work ](https://www.webex.com/hybrid-work.html "Hybrid Work")
+  * [ Contact Support ](https://help.webex.com/contact/ "Contact Support")
+
+
+[ Products ](javascript:;)
+  * [ Webex Suite ](https://adopt.webex.com/use-the-webex-suite/do-more/meet-the-suite "Webex Suite")
+  * [ Control Hub ](https://adopt.webex.com/deploy-and-manage/achieve-more/get-to-know-control-hub "Control Hub")
+  * [ Devices ](https://adopt.webex.com/deploy-and-manage/devices/cisco-rooms "Devices")
+
+
+[ Industries ](javascript:;)
+  * [ Education ](https://adopt.webex.com/resources-and-programs/industries/education/overview "Education")
+  * [ Healthcare ](https://adopt.webex.com/x141871.xml#healthcare "Healthcare")
+  * [ Financial Services ](https://adopt.webex.com/x141871.xml#financial "Financial Services")
+  * [ Government ](https://adopt.webex.com/x141871.xml#government "Government")
+
+
+[ Resources ](javascript:;)
+  * [ Admin Support Center ](https://adopt.webex.com/deploy-and-manage/admin-support/admin-support-center "Admin Support Center")
+  * [ Adoption ](https://adopt.webex.com/resources-and-programs/resources/methodology "Adoption")
+  * [ Adoption Resource Library ](https://resources.webex.com/portals/webex-admin "Adoption Resource Library")
+  * [ Launch Kits ](https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits "Launch Kits")
+  * [ Join a Test Meeting ](https://www.webex.com/test-meeting.html "Join a Test Meeting")
+  * [ Classes and Trainings ](https://adopt.webex.com/resources-and-programs/resources/academy "Classes and Trainings")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user "Webex Community")
+  * [ Webex Beta Program ](https://adopt.webex.com/resources-and-programs/programs/beta "Webex Beta Program")
+  * [ Webex Insider ](https://www.webex.com/insider "Webex Insider")
+
+
+  * [ Terms and Conditions ](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html "Terms and Conditions")
+  * [ Privacy Statement ](https://www.cisco.com/c/en/us/about/legal/privacy-full.html "Privacy Statement")
+  * [ Cookies ](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies "Cookies")
+  * [ Trademarks ](https://www.cisco.com/web/siteassets/legal/trademark.html "Trademarks")
+
+
+[ ![](https://adopt.webex.com/Essentials/images/twitter_12_w%403x.png) ](https://twitter.com/webex "Twitter") [ ![](https://adopt.webex.com/Essentials/images/linkedin-circle_32_w.png) ](https://www.linkedin.com/company/webex "Linkedin") [ ![](https://adopt.webex.com/Essentials/images/facebook-circle_32_w.png) ](https://www.facebook.com/webex "Facebook") [ ![](https://adopt.webex.com/Essentials/images/youtube-circle_32_w.png) ](https://www.youtube.com/c/webex "YouTube") [ ![](https://adopt.webex.com/Essentials/images/instagram-circle_32_w.png) ](https://www.instagram.com/webex/ "Instagram") [ ![](https://adopt.webex.com/Essentials/images/rss-circle_32_w.png) ](https://blog.webex.com/ "Webex Blog")
+© 2026 Cisco and/or its affiliates. All Rights Reserved.
+[ ](https://adopt.webex.com/ "Close menu")
+[ Help Center ](https://help.webex.com/ "Help Center")
+Search ![Search](https://adopt.webex.com/Content/assets/img/icons/search.svg)
+[ Deploy and manage ](javascript:;)
+Products
+[ Get started ](https://adopt.webex.com/deploy-and-manage/webex-suite/get-started "Get started")
+  * [ Calling ](https://adopt.webex.com/x155228.xml#kits "Calling")
+  * [ Meetings ](https://adopt.webex.com/x155253.xml#kits "Meetings")
+  * [ Messaging ](https://adopt.webex.com/x155241.xml#kits "Messaging")
+  * [ Contact Center ](https://adopt.webex.com/deploy-and-manage/webex-suite/contact-center/setup "Contact Center")
+  * [ More ](https://adopt.webex.com/deploy-and-manage/webex-suite/more "More")
+
+
+Devices
+[ Get started ](https://adopt.webex.com/deploy-and-manage/devices/get-started "Get started")
+  * [ Cisco Rooms ](https://adopt.webex.com/deploy-and-manage/devices/cisco-rooms "Cisco Rooms")
+  * [ Microsoft Teams Rooms ](https://adopt.webex.com/deploy-and-manage/devices/microsoft-teams-rooms "Microsoft Teams Rooms")
+  * [ Cisco Phones ](https://adopt.webex.com/deploy-and-manage/devices/cisco-phones "Cisco Phones")
+  * [ Share resources with your team ](https://resources.webex.com/webex-essentials/cisco-devices "Share resources with your team")
+
+
+Achieve more
+[ Get to know Control Hub ](https://adopt.webex.com/deploy-and-manage/achieve-more/get-to-know-control-hub "Get to know Control Hub")
+  * [ Hybrid work ](https://adopt.webex.com/deploy-and-manage/achieve-more/hybrid-work "Hybrid work")
+  * [ Flexible workstyles ](https://adopt.webex.com/deploy-and-manage/achieve-more/flexible-workstyles "Flexible workstyles")
+
+
+Admin support
+[ Admin Support Center ](https://adopt.webex.com/deploy-and-manage/admin-support/admin-support-center "Admin Support Center")
+  * [ Deployment resources ](https://resources.webex.com/s/3kfmhmhtm2b4f7pbkkvsv "Deployment resources")
+  * [ Launch kits ](https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits "Launch kits")
+  * [ What's new in Webex ](https://help.webex.com/landing/ld-v6m1dl-What%27snewinWebex/Features "What's new in Webex")
+  * [ Webex Community ](https://community.cisco.com/t5/webex-community/ct-p/webex-user "Webex Community")
+
+
+[ Use the Webex Suite ](javascript:;)
+Products
+[ Get started ](https://adopt.webex.com/use-the-webex-suite/webex-suite/get-started "Get started")
+  * [ Calling ](https://adopt.webex.com/use-the-webex-suite/webex-suite/calling "Calling")
+  * [ Meetings ](https://adopt.webex.com/use-the-webex-suite/webex-suite/meetings "Meetings")
+  * [ Messaging ](https://adopt.webex.com/use-the-webex-suite/webex-suite/messaging "Messaging")
+  * [ Contact Center ](https://adopt.webex.com/use-the-webex-suite/webex-suite/contact-center/agents "Contact Center")
+  * [ Events ](https://adopt.webex.com/use-the-webex-suite/webex-suite/events "Events")
+  * [ More ](https://adopt.webex.com/use-the-webex-suite/webex-suite/more "More")
+
+
+Do more
+[ Meet the Suite ](https://adopt.webex.com/use-the-webex-suite/do-more/meet-the-suite "Meet the Suite")
+  * [ Best practices ](https://adopt.webex.com/use-the-webex-suite/do-more/best-practices "Best practices")
+  * [ Hybrid work ](https://adopt.webex.com/use-the-webex-suite/do-more/hybrid-work "Hybrid work")
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user "Webex Community")
+
+
+Learn
+[ Adoption library ](https://resources.webex.com/portals/webex-admin "Adoption library")
+  * [ Webex Academy ](https://adopt.webex.com/resources-and-programs/resources/academy "Webex Academy")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+
+
+[ Resources and programs ](javascript:;)
+Resources
+  * [ Adoption methodology ](https://adopt.webex.com/resources-and-programs/resources/methodology "Adoption methodology")
+  * [ Adoption library ](https://resources.webex.com/portals/webex-admin "Adoption library")
+  * [ Admin launch kits ](https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits "Admin launch kits")
+  * [ Webex Academy ](https://adopt.webex.com/resources-and-programs/resources/academy "Webex Academy")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+
+
+Programs
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user "Webex Community")
+  * [ Webex Insider ](https://www.webex.com/insider "Webex Insider")
+  * [ Webex Beta ](https://adopt.webex.com/resources-and-programs/programs/beta "Webex Beta")
+
+
+Industries
+  * [ Education ](https://adopt.webex.com/resources-and-programs/industries/education/overview "Education")
+  * [ Government ](https://adopt.webex.com/x141871.xml#government "Government")
+  * [ Financial services ](https://adopt.webex.com/x141871.xml#financial "Financial services")
+  * [ Healthcare ](https://adopt.webex.com/x141871.xml#healthcare "Healthcare")
+
+
