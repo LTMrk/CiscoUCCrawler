@@ -7714,5 +7714,9 @@
   "https://developer.webex.com/docs/api/v1/user-call-settings/delete-message": {
     "hash": "1b28343da5aa3375d17473eb15888e51b678631a0b801592d27f09656ec0b5af",
     "timestamp": "2026-08-13T02:03:05.396158"
+  },
+  "https://developer.webex.com/docs/api/v1/user-call-settings/mark-as-read": {
+    "hash": "57e373d4e527da365de3aef50b801500a1067322b9b980b025fc6de33ed756a7",
+    "timestamp": "2026-08-13T02:03:10.553571"
   }
 }
