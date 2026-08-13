@@ -222,3 +222,13 @@ Code context:
  781                       # Walk the redirect chain.  Playwright returns only the last
  782                       # hop, so we trace the `request.redirected_from` links until the
  783                       # first response that differs from the final one and surface its | URL: https://callinghelp.webex.com/calling-admin-portal-reports
+[2026-08-13T02:01:50.103312] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/call-controls
+[2026-08-13T02:01:57.121040] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/call-controls/dial
+[2026-08-13T02:02:04.581179] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/call-controls/answer
+[2026-08-13T02:02:11.766899] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/call-controls/hangup
+[2026-08-13T02:02:19.080002] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/call-controls/transfer
+[2026-08-13T02:02:25.905472] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/call-controls/start-recording
+[2026-08-13T02:02:32.842801] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/call-controls/stop-recording
+[2026-08-13T02:02:40.034029] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/call-controls/list-calls
+[2026-08-13T02:02:47.413319] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/call-controls/get-call-details
+[2026-08-13T02:02:54.365577] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/call-controls/list-call-history
