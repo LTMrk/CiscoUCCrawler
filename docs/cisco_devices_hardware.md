@@ -24763,3 +24763,217 @@ Recently Viewed
 [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
 ©2026 Cisco and/or its affiliates. All rights reserved. 
 [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+![Cisco Collaboration Endpoints](https://www.cisco.com/content/dam/assets/swa/img/anchor-marquee-2/bar-pro-meet-1600x480.jpg)
+  * [](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html)
+  * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
+
+
+# Collaboration Devices
+Improve collaboration with intelligent endpoints designed for every use case.
+  * [View eBook](https://www.webex.com/content/dam/www/us/en/documents/pdf/cisco-device-brochure_cm-6028.pdf)
+
+
+[](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html)
+  * [Collaboration Devices](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html#collaboration-devices)
+  * [Featured](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html#featured)
+  * [Interop](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html#interop)
+  * [Designer](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html#designer)
+  * [AVoIP](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html#avoip)
+  * [Leadership](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html#leadership)
+  * [ Case Studies](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html#case-studies)
+  * [Support](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html#support)
+  * [For Small Business](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html#for-small-business)
+  * [For Partners](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html#for-partners)
+
+[](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html)
+Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+## Choose intelligent endpoints for your business
+###  Phones 
+[Desk Phone 9800 Series](https://www.webex.com/us/en/devices/phone-series/cisco-phone-9800-series.html)
+[Desk Phone 8800 Series](https://www.webex.com/us/en/devices/phone-series/cisco-phone-8800-series.html)
+[Desk Phone 7800 Series](https://www.webex.com/us/en/devices/phone-series/cisco-phone-7800-series.html)
+[Desk Phone 6800 Series](https://www.webex.com/us/en/devices/phone-series/cisco-phone-6800-series.html)
+[Wireless Phones](https://www.webex.com/us/en/devices/phone-series/cisco-wireless-phone.html)
+[DECT Phones](https://www.webex.com/us/en/devices/phone-series/DECT-6800-series.html)
+[All Phones](https://www.webex.com/us/en/devices/phone-series.html)
+###  Headsets 
+  * [Bang & Olufsen Cisco 950](https://www.webex.com/us/en/devices/headsets/bang-and-olufsen-cisco-950.html)
+  * [Headset 730](https://www.webex.com/us/en/devices/headsets/cisco-headset-730.html)
+  * [Headset 720 Series](https://www.webex.com/us/en/devices/headsets/cisco-headset-720-series.html)
+  * [Headset 560 Series](https://www.webex.com/us/en/devices/headsets/cisco-headset-560.html)
+  * [Headset 530 and 520 Series](https://www.webex.com/us/en/devices/headsets/cisco-headset-500-series.html)
+  * [Headset 320 Series](https://www.webex.com/us/en/devices/headsets/cisco-headset-320-series.html)
+  * [All Headsets](https://www.webex.com/us/en/devices/headsets.html)
+
+
+###  Room & Desk Devices 
+[All-in-One for Huddle & Desk](https://www.webex.com/us/en/devices/desk-series/cisco-desk-pro.html)
+[Video Bars & Room Kits](https://www.webex.com/us/en/devices/room-devices/room-bars-and-kits.html)
+[Collaboration Boards](https://www.webex.com/us/en/devices/digital-whiteboards.html)
+[Room Accessories](https://www.webex.com/us/en/devices/accessories.html)
+[Cameras](https://www.webex.com/us/en/devices/cameras.html)
+[All Desk Devices](https://www.webex.com/us/en/devices/desk-series.html)
+[All Room Devices](https://www.webex.com/us/en/devices/room-devices.html)
+###  Experiences & Use Cases 
+  * [Cisco RoomOS](https://www.webex.com/us/en/solutions/roomos.html)
+  * [Devices for Microsoft Teams Rooms](https://www.webex.com/us/en/solutions/microsoft-teams-rooms-cisco-devices.html)
+  * [Devices for Zoom Rooms (NEW)](https://www.webex.com/us/en/solutions/zoom-rooms-devices-cisco.html)
+  * [Camera Intelligence](https://www.webex.com/us/en/solutions/camera-intelligence-cisco-devices.html)
+  * [Workspace Management](https://www.webex.com/us/en/solutions/control-hub-cisco-devices.html)
+  * [Workplace Experience](https://www.webex.com/us/en/solutions/return-to-office.html)
+  * [AV over IP for Conferencing](https://www.webex.com/us/en/solutions/av-over-ip-video-conferencing.html)
+
+
+  * [View all collaboration devices](https://www.webex.com/us/en/devices.html)
+
+
+## Featured products
+Unlock the power of Cisco devices and RoomOS to deliver inclusive, flexible hybrid meeting experiences in every workspace.
+[ ](https://www.webex.com/us/en/devices/room-series/cisco-room-kit-eqx.html)
+###  [ Wireless Phone 9821 ](https://www.webex.com/us/en/devices/phone-series/cisco-wireless-phone.html)
+Designed for frontline and mobile workers, this phone runs on PhoneOS, offers Wi-Fi 6E, AI noise removal, swappable batteries, and safety.
+[ ](https://www.webex.com/us/en/devices/headsets/bang-and-olufsen-cisco-950.html)
+###  [ Desk Pro G2 ](https://www.webex.com/us/en/devices/desk-series/cisco-desk-pro.html)
+Intelligent solution with dual-lens camera, pro-grade display, and seamless collaboration—now expanding to huddle rooms with rapid, easy installation anywhere.
+[ ](https://www.webex.com/us/en/devices/accessories/cisco-table-microphone-pro.html)
+###  [ Room Vision PTZ ](https://www.webex.com/us/en/devices/cameras/cisco-room-vision-ptz-camera.html)
+Experience cinematic meetings with an intelligent pan-tilt-zoom camera that delivers breathtaking people tracking, embedded AI, and video-over-IP for scalable, hassle-free deployments. 
+[ ](https://www.webex.com/us/en/devices/room-series/cisco-room-bar-pro.html)
+###  [ Room Kit Pro G2 ](https://www.webex.com/us/en/devices/room-series/cisco-room-kit-pro.html)
+Simplify large workspaces with the NVIDIA-powered Room Kit Pro G2 bundle—AI-driven conferencing, smart accessories, easy setup, and scalable management on any platform.
+## Meet your way on any platform
+Join any meeting on Webex, Microsoft Teams, Zoom, and Google Meet while leveraging exceptional, AI-powered video conferencing that’s intuitive for your users while simplifying deployment and management for IT.
+  * [Explore Video Interoperability](https://www.webex.com/us/en/solutions/interoperability.html)
+  * [Explore Devices for Microsoft Teams](https://www.webex.com/us/en/solutions/microsoft-teams-rooms-cisco-devices.html)
+
+
+## Design amazing workspaces
+Our new Workspace Designer helps you design your own meeting spaces with Cisco collaboration devices through an interactive online tool that features a wide set of room configuration options, actionable tips, and at-a-glance blueprints to assist with the planning of your workspace deployment.
+  * [Start designing](https://designer.webex.com)
+
+
+## Simplify your meeting rooms over IP
+Eliminate setup headaches, simplify management, and enjoy an integrated room experience with the latest AV-over-IP-enabled video devices and networked conferencing accessories that transmit power, audiovisual signals, and controls over Ethernet.
+  * [Explore AVoIP](https://www.webex.com/us/en/solutions/av-over-ip-video-conferencing.html)
+
+
+## Recognized for innovation
+Cisco is a consistent leader in meeting room video conferencing devices recognized by the most prominent analyst firms globally.
+  * [IDC MarketScape Leader 2025](https://www.webex.com/us/en/gp/IDC-Marketscape-Video-Devices-2025.html)
+  * [Frost Radar Leader 2025](https://blog.webex.com/workspaces/two-years-running-why-cisco-continues-to-lead-in-meeting-room-innovation/)
+  * [Omdia Universe Leader 2025](https://blog.webex.com/workspaces/cisco-named-leader-in-the-omdia-universe-smart-collaboration-devices-2025/)
+
+
+## Better collaboration with Cisco Devices
+###  [ McLaren ](https://www.webex.com/us/en/customers/mclaren.html)
+From the McLaren HQ to the F1 Paddock, Cisco collaboration devices turn meetings into fully immersive experiences complete with AI-enabled features—such as crystal clear audio, stunning video quality, and advanced camera intelligence—and productivity tools that take hybrid teamwork to the next level.
+###  [ Fox Rothschild ](https://www.webex.com/us/en/customers/fox-rothschild.html)
+"It’s really simple to use. Our attorneys are able to walk into a conference room, hit the join button on the Room Navigator, and connect to that room immediately. The important thing is that we know it’s going to work the first time, every time."
+###  [ Iberdrola ](https://blog.webex.com/collaboration/iberdrola-achieves-reduction-in-video-conferencing-costs-with-webex-and-cisco-devices/)
+Iberdrola has replaced cable chaos and jarring meeting room experiences with intuitive user interface, AI-enhanced collaboration, hassle-free content sharing, and simplified device management by deploying Cisco Room Bar and Room Bar Pro.
+  * [View more customer stories](https://www.webex.com/us/en/customers.html)
+
+
+## Support
+  * [Technical Support](https://www.cisco.com/c/en/us/support/collaboration-endpoints/index.html)
+  * [Download Software](https://software.cisco.com/download/navigator.html)
+  * [IP telephony and Phones – Cisco Community](https://community.cisco.com/t5/ip-telephony-and-phones/bd-p/5961-discussions-ip-telephony)
+  * [Video Conferencing Systems – Cisco Community](https://community.cisco.com/t5/telepresence-and-video-infrastructure/bd-p/discussions-telepresence-video-infra)
+  * [Cisco Collaboration Device Product Matrix](https://www.webex.com/content/dam/wbx/us/documents/pdf/Collaboration_Device_Product_Matrix_Brochure.pdf)
+  * [Cisco Workspace Designer](https://designer.webex.com/)
+  * [Cisco Workspaces](https://www.webex.com/us/en/workspaces.html)
+  * [Cisco Devices Brochure](https://www.webex.com/content/dam/www/us/en/documents/pdf/cisco-device-brochure_cm-6028.pdf)
+  * [Collaboration Services](https://www.cisco.com/c/en/us/solutions/collaboration/service-listing.html)
+
+
+## Small business collaboration tools
+Keep your teams happier, more productive, and more connected than ever before with powerful collaboration tools designed for the small business.
+  * [Explore Cisco Designed](https://www.cisco.com/site/us/en/solutions/small-business/collaboration/index.html)
+
+
+## For partners
+Are you a Cisco partner? [Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collaboration-endpoints/index.html) to see additional resources.
+Looking for a solution from a Cisco partner? Connect with our [partner ecosystem](https://www.cisco.com/c/en/us/solutions/partner-ecosystem.html).
+  * [View case studies](https://www.webex.com/us/en/customers.html)
+
+
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
