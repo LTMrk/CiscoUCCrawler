@@ -102192,3 +102192,129 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/bulletin-c25-737963.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/bulletin-c25-737963.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/bulletin-c25-737963.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/bulletin-c25-737963.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/bulletin-c25-737963.html)
+  * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Routers](https://www.cisco.com/c/en/us/products/routers/index.html)
+  * [Cisco ASR 9000 Series Aggregation Services Routers](https://www.cisco.com/c/en/us/products/routers/asr-9000-series-aggregation-services-routers/index.html)
+  * [Bulletins](https://www.cisco.com/c/en/us/products/routers/asr-9000-series-aggregation-services-routers/bulletin-listing.html)
+
+
+# Lithium Batteries Discontinued as Service Replacement Parts Product Bulletin
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/bulletin-c25-737963.html) to Save Content 
+Download
+Print
+### Available Languages
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/bulletin-c25-737963.pdf) (230.4 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:March 20, 2017
+Document ID:1475179768337319
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+PB737963
+Due to new air transportation [regulations that restrict shipping](http://www.iata.org/whatwedo/cargo/dgr/Pages/lithium-batteries.aspx) of uninstalled lithium batteries, we will no longer provide these as Service replacement parts for previously sold Cisco devices. While the batteries have always been considered [expendable parts](https://www.cisco.com/c/dam/en_us/about/doing_business/legal/service_descriptions/docs/Services_Not_Covered.pdf), Cisco Services still offered them as a convenience to our customers. The new regulations that cover standalone batteries reflect safety concerns raised by air carriers and international government agencies.
+**Lithium Metal (button cell) Batteries** – Although replacement batteries are no longer available from Cisco Services, you may place an order with your account team, Cisco Customer Service or [Cisco Commerce](https://apps.cisco.com/Commerce/home). These are standard battery types that are also commercially available from local sources.  
+|  Part #/Cisco Product Identification Number  |  Generic Battery Type  |  
+| --- | --- |  
+|  C880-BAT-CR2032=  |  CR2032  |  
+|  C880-BAT-CR2450=  |  CR2450  |  
+|  N20-MBLIBAT16=  |  CR1632  |  
+|  N20-MBLIBATT=  |  CR2032  |  
+**Lithium Ion (rechargeable) Batteries** - Although replacement batteries are no longer available from Cisco Services, you may place an order with your account team, Cisco Customer Service or [Cisco Commerce](https://apps.cisco.com/Commerce/home).  
+|  Part #/Cisco Product Identification Number  |  Generic Battery Type  |  
+| --- | --- |  
+|  AIR-1520-BATT-6AH=  |  1520 Series Battery Backup Cisco Aironet Wireless Access Point  |  
+|  CIUS-BATTERY=  |  Cius Spare Battery - Cius Tablet  |  
+|  CP-8831-MIC-BATT=  |  Cisco Unified IP Conference Phone 8831 Battery  |  
+|  CP-BATT-7925G-EXT=  |  Cisco Unified Wireless IP Phone 7925G Battery, Extended  |  
+|  CP-BATT-8821=  |  Cisco Wireless IP Phone 8821 Battery  |  
+We apologize for any inconvenience this change may cause. We appreciate your understanding as we work to mitigate the overall impact to our customers in complying with the new regulations.
+Call to Action
+Need advice on sourcing batteries locally or installation instructions? Contact your Cisco account representative or [Cisco TAC](https://www.cisco.com/cisco/web/support/index.html).
+### Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
