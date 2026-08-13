@@ -21391,3 +21391,136 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/blog
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/blog)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/blog)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/blog)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+  * [All Posts](https://developer.webex.com/blog)
+  * [Product Announcements](https://developer.webex.com/blog/categories/product-announcements)
+  * [How To](https://developer.webex.com/blog/categories/how-tos)
+  * [Events](https://developer.webex.com/blog/categories/events)
+  * [Developer Stories](https://developer.webex.com/blog/categories/developer-stories)
+
+
+Blog Categories
+All Posts
+[![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt55273c6aaa9c88f5/6a51535730ac2679a93fa148/webex-node-sdk-blog-header.png?width=900&height=317&fit=crop)](https://developer.webex.com/blog/meet-webex-node-webex-javascript-sdk-built-for-node-js)Product Announcements | How-To
+[Meet webex-node: The Webex JavaScript SDK Built for Node.js](https://developer.webex.com/blog/meet-webex-node-webex-javascript-sdk-built-for-node-js)
+![Adam Weeks](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt3280371eceea2196/6a60ed759ee77e32d96ed610/Adam_Headshot_Cropped.png?width=100&height=100&fit=crop)
+Adam WeeksJuly 10, 2026
+The webex-node package gives server-side JavaScript a supported Webex SDK entry point for Messaging, automation, bots, command-line tools, and backend services without loading browser-only media components.
+[Read More](https://developer.webex.com/blog/meet-webex-node-webex-javascript-sdk-built-for-node-js)
+[![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blted34b8dfaac80e59/6a172d92a6c2b99fb6e79a26/topic-analytics-generated-blog-header.png?width=900&height=317&fit=crop)](https://developer.webex.com/blog/from-waveform-to-insight-topic-analytics)Developer Stories
+[From Waveform to Insight: A Compiler for Customer Intent](https://developer.webex.com/blog/from-waveform-to-insight-topic-analytics)
+![Jason Vaccaro & Francis Kurupacheril](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltf1a11d59afde7c75/617175c0da02001d99f29106/cisco-webex-devs-avatar.png?width=100&height=100&fit=crop)
+Jason Vaccaro & Francis KurupacherilMay 19, 2026
+Topic Analytics is a compiler for customer intent — a streaming pipeline that takes the messy, unstructured source code of human conversation and emits structured, typed, queryable signals that a BI system can actually reason about.
+[Read More](https://developer.webex.com/blog/from-waveform-to-insight-topic-analytics)
+[![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt4059334f3f3140fb/6a0b548bca31e31de70e3201/cisco-live-us-vegas-2026.png?width=900&height=317&fit=crop)](https://developer.webex.com/blog/cisco-live-2026-las-vegas-webex-developer-sessions-to-add-to-your-schedule)Events
+[Cisco Live 2026 Las Vegas: Webex Developer Sessions to Add to Your Schedule](https://developer.webex.com/blog/cisco-live-2026-las-vegas-webex-developer-sessions-to-add-to-your-schedule)
+![Adam Weeks](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt3280371eceea2196/6a60ed759ee77e32d96ed610/Adam_Headshot_Cropped.png?width=100&height=100&fit=crop)
+Adam WeeksMay 8, 2026
+Cisco Live 2026 lands in Las Vegas May 31-June 4 at Mandalay Bay Convention Center. Explore the Webex developer sessions, workshops, and contact center deep dives, then register or add these sessions to your schedule before seats fill up.
+[Read More](https://developer.webex.com/blog/cisco-live-2026-las-vegas-webex-developer-sessions-to-add-to-your-schedule)
+[![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blte46173ab939559eb/69f9fca69df29a7408c1db06/cam-control-banner.jpg?width=900&height=317&fit=crop)](https://developer.webex.com/blog/webex-integrated-far-end-camera-control)How-To
+[Webex Integrated Far-End Camera Control](https://developer.webex.com/blog/webex-integrated-far-end-camera-control)
+![Taylor Hanson](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltee198ce09c043600/617184b81579791f02b1c71a/ATT00002.jpeg?width=100&height=100&fit=crop)
+Taylor HansonMay 5, 2026
+In this post, we walk through a small proof-of-concept: a bot-backed service that opens a room tab in Webex’s embedded browser that (through xAPI), serves a simple web UI, and drives "Camera Ramp" on the far-end device to remotely move the camera in a specified direction.
+[Read More](https://developer.webex.com/blog/webex-integrated-far-end-camera-control)
+[![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt10b9b5e51ec9b15a/69f902c2d02dec8c8e89557f/webex-apis-openapi-blog-header-image.png?width=900&height=317&fit=crop)](https://developer.webex.com/blog/webex-postman-collection-reaches-ga-plus-new-openapi-specs-repository)How-To | Product Announcements
+[Webex Postman Collection Reaches GA Plus New OpenAPI Specs Repository](https://developer.webex.com/blog/webex-postman-collection-reaches-ga-plus-new-openapi-specs-repository)
+![Adam Weeks](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt3280371eceea2196/6a60ed759ee77e32d96ed610/Adam_Headshot_Cropped.png?width=100&height=100&fit=crop)
+Adam WeeksMay 4, 2026
+The official Webex Postman Collection is now generally available, and we've launched a new public repository containing complete OpenAPI specifications for all Webex APIs. Whether you're testing in Postman, generating client SDKs, or building custom tooling, these resources make working with Webex APIs faster and more reliable.
+[Read More](https://developer.webex.com/blog/webex-postman-collection-reaches-ga-plus-new-openapi-specs-repository)
+[![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt305f8e972656a03d/69f1146a5ff35984608f6f04/cherry_pick_banner.jpg?width=900&height=317&fit=crop)](https://developer.webex.com/blog/cherry-pick-voice-tasks-in-webex-contact-center)How-To
+[Cherry-Pick Voice Tasks in Webex Contact Center](https://developer.webex.com/blog/cherry-pick-voice-tasks-in-webex-contact-center)
+![Taylor Hanson](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltee198ce09c043600/617184b81579791f02b1c71a/ATT00002.jpeg?width=100&height=100&fit=crop)
+Taylor HansonApril 28, 2026
+In this post, we will walk through a small Agent Desktop widget for Webex Contact Center that displays queued voice calls and uses the Get Tasks and Assign Task APIs, so an agent can cherry-pick a call.
+[Read More](https://developer.webex.com/blog/cherry-pick-voice-tasks-in-webex-contact-center)
+Load More
+## Connect with us
+[](https://twitter.com/webexdevs)[](https://www.linkedin.com/company/1063)[](https://www.facebook.com/CiscoCollab/)[](https://www.youtube.com/user/Cisco/welcome)[](https://developer.webex.com/api/content/blog/feed)
+## Recent Posts
+Product Announcements | How-To
+[Meet webex-node: The Webex JavaScript SDK Built for Node.js](https://developer.webex.com/blog/meet-webex-node-webex-javascript-sdk-built-for-node-js)
+July 10, 2026 - Adam Weeks
+Product Announcements | How-To
+[Meet webex-node: The Webex JavaScript SDK Built for Node.js](https://developer.webex.com/blog/meet-webex-node-webex-javascript-sdk-built-for-node-js)
+July 10, 2026 - Adam Weeks
+Events
+[Cisco Live 2026 Las Vegas: Webex Developer Sessions to Add to Your Schedule](https://developer.webex.com/blog/cisco-live-2026-las-vegas-webex-developer-sessions-to-add-to-your-schedule)
+May 8, 2026 - Adam Weeks
+Developer Stories
+[From Waveform to Insight: A Compiler for Customer Intent](https://developer.webex.com/blog/from-waveform-to-insight-topic-analytics)
+May 19, 2026 - Jason Vaccaro & Francis Kurupacheril
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
