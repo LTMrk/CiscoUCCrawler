@@ -8494,5 +8494,9 @@
   "https://developer.webex.com/docs/api/v1/teams": {
     "hash": "6dc1ede439de5cdfcbf4568a574455f88fd30bea40371b566187ec00701c6329",
     "timestamp": "2026-08-13T02:25:12.813251"
+  },
+  "https://developer.webex.com/docs/api/v1/team-memberships": {
+    "hash": "d14d6c5a96f50f416fb1cd54c57c4f39ae99c2eb335800b46624cef4f32befd0",
+    "timestamp": "2026-08-13T02:25:18.425923"
   }
 }
