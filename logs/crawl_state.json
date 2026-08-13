@@ -2430,5 +2430,9 @@
   "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20190206-rest-api-ssrf.html": {
     "hash": "9eff3e96b0179c2cc0ae1795bd626b3d38bcb14ab26f57bb74c52bdebdd91529",
     "timestamp": "2026-08-13T00:26:38.776250"
+  },
+  "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160927-openssl.html": {
+    "hash": "818df57ea8e9048398603cde96598db175b58faf8647f85b0d03589446e208f6",
+    "timestamp": "2026-08-13T00:26:42.928726"
   }
 }
