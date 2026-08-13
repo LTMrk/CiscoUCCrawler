@@ -12,6 +12,7 @@
     "developer.cisco.com": 3
   },
     "seeds": [
+    "https://developer.webex.com/calling/docs/api/v1/ai-receptionist/create-a-knowledge-base",
     "https://developer.webex.com/docs",
     "https://developer.webex.com/docs/contact-center"
   ],
