@@ -30831,3 +30831,168 @@ Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Fe
   * [Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
 
 
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)Show All Breadcrumbs
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
+  * [Cisco Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+  * [Troubleshooting TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/products-tech-notes-list.html)
+
+
+# Troubleshoot Duplicated Users Alerts on IM&P Server
+![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)
+Download
+Print
+### Available Languages
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)
+
+
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.pdf) (28.4 KB)   
+View with Adobe Reader on a variety of devices
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.epub) (82.8 KB)   
+View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.mobi) (69.2 KB)   
+View on Kindle device or Kindle app on multiple devices
+
+
+Updated:November 3, 2021
+Document ID:217518
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+## Contents
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html#toc-hId-1249562801)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html#toc-hId-122166708)
+[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html#toc-hId--994726281)
+[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html#toc-hId--2122122374)
+[Background information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html#toc-hId-2028657094)
+[Troubleshoot](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html#toc-hId--906193462)
+## Introduction
+This document describes an example and the procedure to perform when duplicated-user alerts are seen on the Cisco IM and Presence (IM&P) nodes.
+## Prerequisites
+### Requirements
+Cisco recommends that you have knowledge of these topics:
+  * Cisco IM and Presence Service (IM&P) Server
+
+
+### Components Used
+This document is not restricted to specific software and hardware versions.
+The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
+## Background information
+A duplicated-user alert normally shows up like this.
+
+```
+Monitoring Automation
+Additional comments•05-21-2021 09:12:19
+Created by: ALE4855981
+Message key: ENTER024::APP_LXT_ENTER024_33f00f5388443c6e24801bce325255711c2bb4a475076ba004ac48df6664deb9
+Additional Comments: Timestamp: 2021-05-21 13:12:46
+Device:
+IP address: Not Supported
+Component: Not Supported
+Severity: 3
+Event Name: APP_LXT_MAJOR
+Event SourceNode: ENTER024-LXT1
+Message: LayerX.Alarms(10.10.10.10) LayerX ALERT_QUEUE table 0x0000033D 0 204
+Custom Message: Alarm ID: 51111 (DuplicateUserid) : Event Message: (%[AlertName=SyslogSeverityMatchFound][AlertDetail= At Fri May 21 08:11:00 CDT 2021 on node impPub.ciscolab.com, the following SyslogSeverityMatchFound events generated: #012SeverityMatch : Alert#012MatchedEvent : May 21 08:10:24 impPub local7 1 : 62: impPub.ciscolab.com: May 21 2021 13:10:24.476 UTC : %UC_ReplWatcher-1-DuplicateUserid: %[AppID=Cisco IM and Presence Data Monitor][ClusterID=][NodeID=impPub]: Cisco IM and Presence Data Monitor has detected that two or more users on the system share the same UserID value.#012AppID : Cisco Syslog Agent#012ClusterID : #012NodeID : impPub#012 TimeStamp : Fri May 21 08:10:24 CDT 2021][AppID=Cisco AMC Service][ClusterID=][NodeID=cucmPub]: RTMT Alert
+```
+
+**Note** : The [Cisco IM&P Configuration Guide](https://www-author.cisco.com/content/en/us/obsolete/unified-communications/cisco-unified-communications-manager-version-10-0.html) only mentions a single method to identify duplicated users. Nonetheless, there are cases where the **utils users validate all** command does not show any information or presents an empty output.
+## Troubleshoot
+For those scenarios, this procedure is advised:
+Step 1. Log into the IM&P’s Administration Webpage (GUI) and navigate to the **System Troubleshooter** tab.
+Step 2. If any duplicated user entries have been found there, you can notice the user ID of the aforementioned user.
+Step 3. Take note of that user ID and go back to the IM&P’s Command Line Interface (CLI)
+Step 4. Run the command: 
+**run sql select * from enduser where enduser.userid=’ __user_ID_ ’**
+The system prints all the entries it can find for that particular user (in this example, the user ID was “**user92** ”)
+
+```
+admin:run sql select * from enduser where enduser.userid='user92'  
+  
+pkid                                 userid  xcp_user_id tkuserlocale imaddress           xep106imaddress     directoryuri        mailid              status fkdirectorypluginconfig              deletedtimestamp passwordreverse                                                  tkuserprofile tkassignmentstate ocsprimaryuseraddress   fkucccmcipprofile tkphonepresence primarynodeid xep106userid xep106mailid        auth_pwd login_stamp logout_stamp auth_count pwd_stamp  last_status fkucserviceprofile enablecalendarpresence enablecups discoveryuseridentity  
+==================================== ======= =========== ============ =================== =================== =================== =================== ====== ==================================== ================ ================================================================ ============= ================= ======================= ================= =============== ============= ============ =================== ======== =========== ============ ========== ========== =========== ================== ====================== ========== =====================  
+**633780c3-182b-153a-654a-6d073c2248ac user92**  11412       1            user92@ciscolab.com user92@ciscolab.com user92@ciscolab.com user92@ciscolab.com 1      b5acd3a6-5ac2-055b-cf27-ba4f818533d6 NULL             aeef2675d3e72b6fbee00a9badf5d944aa016e0a7a302ac9704b79180f63f21e 1             0                 sip:user92@ciscolab.com NULL              NULL            NULL          user92       user92@ciscolab.com 0        2020-05-06                                                 NULL               t                      t  
+**3a15e537-db7c-4b1f-8ff2-1daf5c5d4a05 user92**  35283       1            user92@ciscolab.com user92@ciscolab.com user92@ciscolab.com 1                   NULL   NULL                                 NULL             d0d177e67ddc687c526364580c9d0c6ce9b0fb47dc51fed3ced90807105d9de9 100           1                 NULL                    NULL              2802                          user92       user92@ciscolab.com 0        2020-07-23                                                 NULL               f                      f
+```
+
+In this case, you see two entries for that particular user.
+In order to get rid of those, perform the next steps:
+Step 1. Run the command:
+**run sql delete from enduser where enduser.userid=’u _ser_ID_ ’**
+Step 2. Navigate to the CUCM Administration page > **User Management > End User > **Select the duplicated user and bounce (uncheck & then re-check) the user’s **Home Node Cluster** checkbox in order to create a single entry for the same user
+Step 3. Run this query one last time to verify that only a single entry for that user is displayed:
+**run sql select * from enduser where enduser.userid=’your user ID’**
+
+```
+admin:run sql select * from enduser where enduser.userid='user92'  
+  
+pkid                                 userid  xcp_user_id tkuserlocale imaddress           xep106imaddress     directoryuri        mailid              status fkdirectorypluginconfig              deletedtimestamp passwordreverse                                                  tkuserprofile tkassignmentstate ocsprimaryuseraddress   fkucccmcipprofile tkphonepresence primarynodeid xep106userid xep106mailid        auth_pwd login_stamp logout_stamp auth_count pwd_stamp  last_status fkucserviceprofile enablecalendarpresence enablecups discoveryuseridentity  
+==================================== ======= =========== ============ =================== =================== =================== =================== ====== ==================================== ================ ================================================================ ============= ================= ======================= ================= =============== ============= ============ =================== ======== =========== ============ ========== ========== =========== ================== ====================== ========== =====================  
+**633780c3-182b-153a-654a-6d073c2248ac user92**  11412       1            user92@ciscolab.com user92@ciscolab.com user92@ciscolab.com user92@ciscolab.com 1      b5acd3a6-5ac2-055b-cf27-ba4f818533d6 NULL             aeef2675d3e72b6fbee00a9badf5d944aa016e0a7a302ac9704b79180f63f21e 1             0                 sip:user92@ciscolab.com NULL              NULL            NULL          user92       user92@ciscolab.com 0        2020-05-06                                                 NULL               t                      t
+```
+
+### Revision History  
+| Revision  | Publish Date  | Comments  |  
+| --- | --- | --- |  
+| 2.0  |  03-Nov-2021   | Initial Release  |  
+| 1.0  |  03-Nov-2021   | Initial Release  |  
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html "Back to Top")
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+### Contributed by Cisco Engineers
+  * Ivan Rojas
+Cisco TAC
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+### Contact Cisco
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217518-troubleshoot-duplicated-users-alerts-on.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
+
+
+### This Document Applies to These Products
+  * [Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+
+
