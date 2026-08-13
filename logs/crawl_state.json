@@ -8098,5 +8098,9 @@
   "https://developer.webex.com/docs/api/v1/recordings/list-recordings": {
     "hash": "728e6fc926de1d30d5158ca1fde300feca57625935ddba118669c1a822decc85",
     "timestamp": "2026-08-13T02:13:32.533975"
+  },
+  "https://developer.webex.com/docs/api/v1/recordings/query-recordings": {
+    "hash": "c651c43e45b7f3a5ccf905223f90b15d1de1af7df86cdb0f28fbb4304a40eb46",
+    "timestamp": "2026-08-13T02:13:38.784209"
   }
 }
