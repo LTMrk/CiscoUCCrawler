@@ -22206,3 +22206,257 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://community.cisco.com/t5/cisco-insider-user-group/ct-p/ccp-home
+
+Heads Up :  The post you are writing will appear in a public forum. Please ensure all content is appropriate for public consumption. Review the employee guidelines for the community [here](https://community.cisco.com/t5/cisco-employee-guidelines/cisco-community-post-guidelines/ta-p/5332773 "guidelines"). 
+Cancel Post
+[ Community ](https://community.cisco.com/ "Cisco Community")
+###  Technology and Support
+Back
+Technology and Support
+Close
+  * [Technology and Support Home](javascript:void\(0\);)
+  * [Networking](javascript:void\(0\);)
+  * [Wireless and Mobility](javascript:void\(0\);)
+  * [Security](javascript:void\(0\);)
+  * [IOT](javascript:void\(0\);)
+  * [Webex](javascript:void\(0\);)
+  * [Collaboration](javascript:void\(0\);)
+  * [Data Center and Cloud](javascript:void\(0\);)
+  * [Small Business Support](javascript:void\(0\);)
+  * [Cisco Software](javascript:void\(0\);)
+  * [Service Providers](javascript:void\(0\);)
+  * [Services](javascript:void\(0\);)
+  * [Online Tools and Resources](javascript:void\(0\);)
+
+
+Close
+###  Guided Resources
+Back
+Guided Resources
+Close
+  * [Guided Resources Home](javascript:void\(0\);)
+  * [Data Center](javascript:void\(0\);)
+  * [Networking](javascript:void\(0\);)
+  * [Security](javascript:void\(0\);)
+  * [Services (CX)](javascript:void\(0\);)
+  * [Solutions](javascript:void\(0\);)
+
+
+Close
+###  DevNet Hub
+Back
+DevNet Hub
+Close
+  * [DevNet Community Home](javascript:void\(0\);)
+  * [DevNet Collaboration](javascript:void\(0\);)
+  * [DevNet Networking](javascript:void\(0\);)
+  * [DevNet Security](javascript:void\(0\);)
+  * [DevNet Cloud Native](javascript:void\(0\);)
+  * [DevNet Data Center](javascript:void\(0\);)
+  * [DevNet Internet of Things](javascript:void\(0\);)
+  * [DevNet Site](javascript:void\(0\);)
+  * [DevNet Services](javascript:void\(0\);)
+  * [DevNet Observability](javascript:void\(0\);)
+  * [DevOps](javascript:void\(0\);)
+
+
+Close
+###  Partner Hub
+Back
+Partner Hub
+Close
+Close
+###  Webinars and Events
+Back
+Webinars and Events
+Close
+  * [Webinars and Events Home](javascript:void\(0\);)
+
+
+Close
+###  How to use the Community
+Back
+How to use the Community
+Close
+  * [Getting Started in Cisco Community Home](javascript:void\(0\);)
+  * [Cisco and Community News](javascript:void\(0\);)
+  * [Members and Recognition](javascript:void\(0\);)
+  * [Community at Cisco Live](javascript:void\(0\);)
+  * [Community Enhancements Ideas](javascript:void\(0\);)
+  * [Project Gallery](javascript:void\(0\);)
+
+
+Close
+###  Cisco Insider
+Back
+Cisco Insider
+Close
+  * [Cisco Insider Welcome](javascript:void\(0\);)
+  * [Cisco Insider User Group Archives](javascript:void\(0\);)
+  * [Cisco Insider Champion Group](javascript:void\(0\);)
+  * [Intersight Insider Group Hub](javascript:void\(0\);)
+
+
+Close
+[ Buy or Renew ](https://community.cisco.com/t5/cisco-insider-user-group-archives/ct-p/ccp-home)
+EN US
+  * [Chinese](https://community.cisco.com/t5/%E6%80%9D%E7%A7%91%E7%A4%BE%E5%8C%BA/ct-p/chinese-community?profile.language=zh-CN)
+  * [EN US](https://community.cisco.com/t5/technology-and-support/ct-p/technology-support?profile.language=en)
+  * [French](https://community.cisco.com/t5/communaut%C3%A9-cisco-en-fran%C3%A7ais/ct-p/communaute-francais?profile.language=fr)
+  * [Japanese](https://community.cisco.com/t5/japan/ct-p/japanese-community?profile.language=ja)
+  * [Korean](https://community.cisco.com/t5/%ED%95%9C%EA%B5%AD%EC%96%B4-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/ct-p/korean?profile.language=ko)
+  * [Portuguese](https://community.cisco.com/t5/comunidade-da-cisco/ct-p/comunidade-portugues?profile.language=pt)
+  * [Spanish](https://community.cisco.com/t5/comunidad-de-cisco/ct-p/comunidad-espanol?profile.language=es)
+
+
+Log In
+MENU
+CLOSE
+[ Buy or Renew ](https://community.cisco.com/t5/cisco-insider-user-group-archives/ct-p/ccp-home)
+Log In
+EN US
+  * [Chinese](https://community.cisco.com/t5/%E6%80%9D%E7%A7%91%E7%A4%BE%E5%8C%BA/ct-p/chinese-community?profile.language=zh-CN)
+  * [EN US](https://community.cisco.com/t5/technology-and-support/ct-p/technology-support?profile.language=en)
+  * [French](https://community.cisco.com/t5/communaut%C3%A9-cisco-en-fran%C3%A7ais/ct-p/communaute-francais?profile.language=fr)
+  * [Japanese](https://community.cisco.com/t5/japan/ct-p/japanese-community?profile.language=ja)
+  * [Korean](https://community.cisco.com/t5/%ED%95%9C%EA%B5%AD%EC%96%B4-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/ct-p/korean?profile.language=ko)
+  * [Portuguese](https://community.cisco.com/t5/comunidade-da-cisco/ct-p/comunidade-portugues?profile.language=pt)
+  * [Spanish](https://community.cisco.com/t5/comunidad-de-cisco/ct-p/comunidad-espanol?profile.language=es)
+
+
+[Cisco Insider User Group is in read-only mode. Click here to learn more about the Cisco Insider program launch](https://community.cisco.com/t5/cisco-insider/ct-p/insider)
+# Cisco Insider User Group Archives
+Enter a search word
+[Turn off suggestions](https://community.cisco.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/ccp-home&t:cp=action/contributions/searchactions)
+Enter a search word
+[Turn off suggestions](https://community.cisco.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/ccp-home&t:cp=action/contributions/searchactions)
+Enter a user name or rank
+[Turn off suggestions](https://community.cisco.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/ccp-home&t:cp=action/contributions/searchactions)
+Enter a search word
+[Turn off suggestions](https://community.cisco.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/ccp-home&t:cp=action/contributions/searchactions)
+Enter a search word
+[Turn off suggestions](https://community.cisco.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/ccp-home&t:cp=action/contributions/searchactions)
+cancel
+[Turn on suggestions](https://community.cisco.com/t5/community/categorypage.enableautocomplete:enableautocomplete?t:ac=category-id/ccp-home&t:cp=action/contributions/searchactions) [](https://community.cisco.com/t5/cisco-insider-user-group-archives/ct-p/ccp-home)
+Showing results for 
+Search instead for [](https://community.cisco.com/t5/cisco-insider-user-group-archives/ct-p/ccp-home)
+Did you mean: [](https://community.cisco.com/t5/cisco-insider-user-group-archives/ct-p/ccp-home)
+All Community Cisco Insider
+Results:
+cancel
+[Start a conversation](https://community.cisco.com/plugins/common/feature/saml/doauth/post?login=true&idp=http://www.okta.com/exk14y7an41P2yBKm5d7&referer=https%3A%2F%2Fcommunity.cisco.com%2Ft5%2Fcisco-insider-user-group-archives%2Fct-p%2Fccp-home)
+  * [Cisco Community](https://community.cisco.com/)
+  * [Cisco Insider](https://community.cisco.com/t5/cisco-insider/ct-p/insider)
+  * Cisco Insider User Group Archives
+
+
+[Options](https://community.cisco.com/t5/cisco-insider-user-group-archives/ct-p/ccp-home "Show option menu")
+  * Subscribe
+
+
+[Log in for Cisco Insider User Group Archives](https://community.cisco.com/plugins/common/feature/saml/doauth/post?login=true&idp=http://www.okta.com/exk14y7an41P2yBKm5d7?referer=https%3A%2F%2Fcommunity.cisco.com%2Ft5%2Fcisco-insider-user-group-archives%2Fct-p%2Fccp-home)  
+
+  
+
+### The Cisco Insider User Group Archives are exclusively for _existing_ Cisco Insider User Group members. Please login to access historic program information and discussions.
+If you're interested in learning more about the Cisco Insider program and how to join [click here](https://community.cisco.com/t5/cisco-insider/ct-p/insider). 
+### What to Expect:
+Cisco Insider empowers you to deepen your expertise, gain early access to insights, and actively shape the future of Cisco solutions—helping you accelerate your professional growth and drive meaningful impact in your organization.
+### What you'll gain:
+Connect: Network and exchange knowledge with fellow technical experts.
+Access: Shape the future by providing input on product roadmaps.​
+Advise: Participate in surveys and research activities to offer valuable insights.
+​Create: Share your experience and expertise as a Cisco customer and tech enthusiast.​
+CIUG.mp4
+Video Player is loading.
+Play Video
+Play
+Mute
+Current Time 0:00
+/
+Duration 2:33
+Loaded: 0.00%
+0:00
+Stream Type LIVE
+Seek to live, currently behind liveLIVE
+Remaining Time -2:33
+1x
+Playback Rate
+Chapters
+  * Chapters
+
+
+Descriptions
+  * descriptions off, selected
+
+
+Captions
+  * captions settings, opens captions settings dialog
+  * captions off, selected
+
+
+Audio Track
+  * en (Main), selected
+
+
+Picture-in-PictureFullscreen
+This is a modal window.
+Beginning of dialog window. Escape will cancel and close the window.
+Text ColorWhite Black Red Green Blue Yellow Magenta CyanTransparencyOpaque Semi-Transparent Background ColorBlack White Red Green Blue Yellow Magenta CyanTransparencyOpaque Semi-Transparent Transparent Window ColorBlack White Red Green Blue Yellow Magenta CyanTransparencyTransparent Semi-Transparent Opaque
+Font Size 50% 75% 100% 125% 150% 175% 200% 300% 400% Text Edge Style None Raised Depressed Uniform Dropshadow Font Family Proportional Sans-Serif Monospace Sans-Serif Proportional Serif Monospace Serif Casual Script Small Caps
+Reset restore all settings to the default valuesDone
+Close Modal Dialog
+End of dialog window.
+Close Modal Dialog
+This is a modal window. This modal can be closed by pressing the Escape key or activating the close button.
+[(view in My Videos)](https://community.cisco.com/t5/video/gallerypage/video-id/6362556975112)
+### **Learn what's happening in the new Cisco Insider program**
+The Cisco Insider program brings Advocacy, User Group, and User Research communities together in one connected experience. Take part in meaningful activities, earn points, progress through levels, and unlock exclusive benefits and opportunities.
+**Connect  
+** Network and exchange knowledge with fellow technical experts
+**Access  
+** Shape the future by providing input on product roadmaps.​**  
+**
+**Advise  
+** Participate in surveys and research activities to offer valuable insights.
+**Create**  
+Share your experience and expertise as a Cisco customer and tech enthusiast.​
+[Join today!](https://community.cisco.com/t5/cisco-insider/ct-p/insider)
+What Members Have To Say
+![Casey 10X100.png](https://community.cisco.com/t5/image/serverpage/image-id/102287i1994910AF7230EFA/image-size/large?v=v2&px=999)  
+
+**Casey Teague** — “We love how Cisco is breaking the fourth wall and involving their partners and customers in product discussions.”
+![Igor 100x100.png](https://community.cisco.com/t5/image/serverpage/image-id/102292i2BC74EA863C37C5B/image-size/large?v=v2&px=999)  
+
+**Igor Lukic** — “Cisco Insider User Group is a great way to provide feedback on and influence product decisions."
+![Sandro 100x100.png](https://community.cisco.com/t5/image/serverpage/image-id/102289iAC6BCD477A1D3F7D/image-size/large?v=v2&px=999)  
+
+**Sandro Nardi** — “User Group briefings and trials make me feel a part of the developing process for a better product while giving a preview of what will be next. Priceless!”
+![Matt M 100x100.png](https://community.cisco.com/t5/image/serverpage/image-id/102291iBCDED2D87EA88034/image-size/large?v=v2&px=999)  
+
+**Matt Miktus** — “At times, working in technology can feel overwhelming with constant development & perpetual advancements. This program allows engineers to stay current and have a voice in this process.”
+[Top](https://community.cisco.com/t5/cisco-insider-user-group-archives/ct-p/ccp-home)
+* * *
+Quick Links 
+  * [Contacts](https://www.cisco.com/c/en/us/about/contact-cisco.html)
+
+
+[](https://www.facebook.com/CiscoCommunity/ "facebook") [](https://twitter.com/CiscoCommunity "twitter") [](https://www.linkedin.com/showcase/cisco-community/ "linkedin") [](https://www.youtube.com/@CiscoCommunity "youtube") [](https://www.instagram.com/cisco_community/ "instagram") [](https://bsky.app/profile/community.cisco.com "bluesky")
+Resources and Legal 
+  * [Report Community Issue](javascript:void\(0\);)
+  * [Help](https://community.cisco.com/t5/community-help-knowledge-base/community-help/ta-p/4662356)
+  * [Terms & Conditions](https://community.cisco.com/t5/community-help-knowledge-base/cisco-community-acceptable-use-agreement/ta-p/4661660)
+  * [ Privacy Statement ](http://www.cisco.com/web/siteassets/legal/privacy_full.html)
+  * [ Cookie Policy ](http://www.cisco.com/web/siteassets/legal/privacy_full.html#cookies)
+  * [Trademarks](http://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [Site Map](https://community.cisco.com/t5/custom/page/page-id/community-site-map?f=sm)
+  * [Report Illegal Content](https://community.cisco.com/t5/community-help-knowledge-base/eu-digital-services-act-dsa/ta-p/5012720)
+
+
+[](https://www.facebook.com/CiscoCommunity/ "facebook") [](https://twitter.com/CiscoCommunity "twitter") [](https://www.linkedin.com/showcase/cisco-community/ "linkedin") [](https://www.youtube.com/@CiscoCommunity "youtube") [](https://www.instagram.com/cisco_community/ "instagram")
+©2026 Cisco Systems, Inc.
+Auto-suggest helps you quickly narrow down your search results by suggesting possible matches as you type.
