@@ -20891,3 +20891,136 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/blog/categories/developer-stories
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/blog/categories/developer-stories)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/blog/categories/developer-stories)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/blog/categories/developer-stories)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+  * [All Posts](https://developer.webex.com/blog)
+  * [Product Announcements](https://developer.webex.com/blog/categories/product-announcements)
+  * [How To](https://developer.webex.com/blog/categories/how-tos)
+  * [Events](https://developer.webex.com/blog/categories/events)
+  * [Developer Stories](https://developer.webex.com/blog/categories/developer-stories)
+
+
+Blog Categories
+Developer Stories
+[![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blted34b8dfaac80e59/6a172d92a6c2b99fb6e79a26/topic-analytics-generated-blog-header.png?width=900&height=317&fit=crop)](https://developer.webex.com/blog/from-waveform-to-insight-topic-analytics)Developer Stories
+[From Waveform to Insight: A Compiler for Customer Intent](https://developer.webex.com/blog/from-waveform-to-insight-topic-analytics)
+![Jason Vaccaro & Francis Kurupacheril](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltf1a11d59afde7c75/617175c0da02001d99f29106/cisco-webex-devs-avatar.png?width=100&height=100&fit=crop)
+Jason Vaccaro & Francis KurupacherilMay 19, 2026
+Topic Analytics is a compiler for customer intent — a streaming pipeline that takes the messy, unstructured source code of human conversation and emits structured, typed, queryable signals that a BI system can actually reason about.
+[Read More](https://developer.webex.com/blog/from-waveform-to-insight-topic-analytics)
+[![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt316951667b16cc27/67d311fd61e60a4de656e8d9/generative-ai-scoring-webex-developer-blog-1.jpeg?width=900&height=317&fit=crop)](https://developer.webex.com/blog/the-evaluation-of-generative-ai-performance-in-webex-contact-center)Developer Stories
+[The Evaluation of Generative AI Performance in WebEx Contact Center](https://developer.webex.com/blog/the-evaluation-of-generative-ai-performance-in-webex-contact-center)
+![Anupam Mukherjee](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt88be3530749e67a1/660c19b1e838c8e83a60d9ca/1517763572769.jpg?width=100&height=100&fit=crop)
+Anupam MukherjeeMarch 24, 2025
+Discover how Webex Contact Center’s Gen-AI scoring system ensures top-tier quality, consistency, and reliability in AI-generated outputs. Learn about innovative algorithms, contextual assessments, and the importance of Responsible AI in creating more accurate and trustworthy content.
+[Read More](https://developer.webex.com/blog/the-evaluation-of-generative-ai-performance-in-webex-contact-center)
+[![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltb9e6a64887bcfd1e/67c9b51f54cf2fdd1b768c1a/markdown-as-llm-friendly-content-webex-developer-blog-1.jpeg?width=900&height=317&fit=crop)](https://developer.webex.com/blog/boosting-ai-performance-the-power-of-llm-friendly-content-in-markdown)Developer Stories
+[Boosting AI Performance: The Power of LLM-Friendly Content in Markdown](https://developer.webex.com/blog/boosting-ai-performance-the-power-of-llm-friendly-content-in-markdown)
+![Anupam Mukherjee](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt88be3530749e67a1/660c19b1e838c8e83a60d9ca/1517763572769.jpg?width=100&height=100&fit=crop)
+Anupam MukherjeeMarch 13, 2025
+Discover why converting your content into markdown—a simple, readable format—can dramatically improve LLM accuracy and performance. Learn how markdown outshines complex formats like JSON or XML in lot of tasks involving LLM by creating LLM-friendly content that enhances AI-driven insights and outcomes.
+[Read More](https://developer.webex.com/blog/boosting-ai-performance-the-power-of-llm-friendly-content-in-markdown)
+[![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt836053743422c4ad/67c0a8a087966d8e74993a82/auto-improvised-prompt-infrastructure-blog-1.jpeg?width=900&height=317&fit=crop)](https://developer.webex.com/blog/self-protective-auto-improvised-contextual-prompt-infrastructure-for-webex-contact-center)Developer Stories
+[Self-protective Auto-improvised Contextual Prompt Infrastructure for Webex Contact Center](https://developer.webex.com/blog/self-protective-auto-improvised-contextual-prompt-infrastructure-for-webex-contact-center)
+![Anupam Mukherjee](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt88be3530749e67a1/660c19b1e838c8e83a60d9ca/1517763572769.jpg?width=100&height=100&fit=crop)
+Anupam MukherjeeFebruary 28, 2025
+Discover how modern domains like Webex Contact Center in Cisco are leveraging Large Language Models (LLMs) as virtual agents to enhance customer interactions or carry out generative tasks. Learn the importance of well-crafted prompts, responsible AI practices, and the safeguards needed to prevent hallucinations and security breaches. Ensure your AI-driven service in general is both responsive and secure with a self-protective, context-aware prompt system.
+[Read More](https://developer.webex.com/blog/self-protective-auto-improvised-contextual-prompt-infrastructure-for-webex-contact-center)
+[![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt63d97827a2f53232/67be5a3454cf2f73fe7626ef/device-oauth-flow-blog-1.png?width=900&height=317&fit=crop)](https://developer.webex.com/blog/device-grant-flow-you-got-it)How-To | Developer Stories
+[Device Grant Flow, You Got It!](https://developer.webex.com/blog/device-grant-flow-you-got-it)
+![Ashton Jordan](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltce578a6fc8997208/67be59fb20c9ddd45d1c1881/1547136540802.jpg?width=100&height=100&fit=crop)
+Ashton JordanFebruary 26, 2025
+Tired of complex Webex logins on devices? Meet your new best friend: OAuth Device Grant Flow!
+[Read More](https://developer.webex.com/blog/device-grant-flow-you-got-it)
+[![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt4c22bdae6e5d5d59/6740befd12a5eabe959335c2/rss-blog-1.jpeg?width=900&height=317&fit=crop)](https://developer.webex.com/blog/how-to-create-your-own-rss-feed-parser-bot-for-webex)How-To | Developer Stories
+[How to create your own RSS Feed Parser Bot for Webex](https://developer.webex.com/blog/how-to-create-your-own-rss-feed-parser-bot-for-webex)
+![Raffaele Lagana](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltb5f56f4a00c7ae9e/6617ef7da552dc72c56b69cb/20240411_150417.jpg?width=100&height=100&fit=crop)
+Raffaele LaganaDecember 2, 2024
+Check out Raffaele Lagana's guide describing how you can get your own RSS parser Bot running. The blog will also cover some sample applications that read RSS feeds and update a Webex space through a Webex Bot.
+[Read More](https://developer.webex.com/blog/how-to-create-your-own-rss-feed-parser-bot-for-webex)
+Load More
+## Connect with us
+[](https://twitter.com/webexdevs)[](https://www.linkedin.com/company/1063)[](https://www.facebook.com/CiscoCollab/)[](https://www.youtube.com/user/Cisco/welcome)[](https://developer.webex.com/api/content/blog/feed)
+## Recent Posts
+Product Announcements | How-To
+[Meet webex-node: The Webex JavaScript SDK Built for Node.js](https://developer.webex.com/blog/meet-webex-node-webex-javascript-sdk-built-for-node-js)
+July 10, 2026 - Adam Weeks
+Product Announcements | How-To
+[Meet webex-node: The Webex JavaScript SDK Built for Node.js](https://developer.webex.com/blog/meet-webex-node-webex-javascript-sdk-built-for-node-js)
+July 10, 2026 - Adam Weeks
+Events
+[Cisco Live 2026 Las Vegas: Webex Developer Sessions to Add to Your Schedule](https://developer.webex.com/blog/cisco-live-2026-las-vegas-webex-developer-sessions-to-add-to-your-schedule)
+May 8, 2026 - Adam Weeks
+Developer Stories
+[From Waveform to Insight: A Compiler for Customer Intent](https://developer.webex.com/blog/from-waveform-to-insight-topic-analytics)
+May 19, 2026 - Jason Vaccaro & Francis Kurupacheril
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
