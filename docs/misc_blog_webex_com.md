@@ -7129,3 +7129,180 @@ Company
   * [English](https://blog.webex.com/collaboration/how-webex-skyrocketed-sutherland-globals-efficiency/)
 
 
+
+
+---
+# ORIGEN: https://blog.webex.com/video-conferencing/small-dairy-farmers-video-conferencing
+
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-primary-logo.svg)](https://blog.webex.com)
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-secondary-logo.svg)](https://blog.webex.com)
+  * [Collaboration](https://blog.webex.com/category/collaboration/)
+  * [Workspaces](https://blog.webex.com/category/workspaces/)
+  * [Customer Experience](https://blog.webex.com/category/customer-experience/)
+  * [Event Management](https://blog.webex.com/category/event-management/)
+  * [Innovation & AI](https://blog.webex.com/category/innovation-ai/)
+
+
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2079%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/collaboration/video-conferencing/small-dairy-farmers-video-conferencing) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/collaboration/video-conferencing/small-dairy-farmers-video-conferencing&title=How%20video%20conferencing%20helps%20Tetra%20Pak%20support%20small%20dairy%20farmers) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/collaboration/video-conferencing/small-dairy-farmers-video-conferencing)
+[ ](https://blog.webex.com/collaboration/video-conferencing/small-dairy-farmers-video-conferencing/ "Copy Link") [ ](https://blog.webex.com/collaboration/video-conferencing/small-dairy-farmers-video-conferencing/ "Print")
+[Collaboration](https://blog.webex.com/category/collaboration/)
+# How video conferencing helps Tetra Pak support small dairy farmers
+On Apr 1, 2022Sep 18, 2024By [Shawna Anthony](https://blog.webex.com/contributors/shawnaanthony/)3 Min Read
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/collaboration/video-conferencing/small-dairy-farmers-video-conferencing) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/collaboration/video-conferencing/small-dairy-farmers-video-conferencing&title=How%20video%20conferencing%20helps%20Tetra%20Pak%20support%20small%20dairy%20farmers) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/collaboration/video-conferencing/small-dairy-farmers-video-conferencing)
+[ ](https://blog.webex.com/collaboration/video-conferencing/small-dairy-farmers-video-conferencing/ "Copy Link") [ ](https://blog.webex.com/collaboration/video-conferencing/small-dairy-farmers-video-conferencing/ "Print")
+![Cows on a farm run by small dairy farmers](https://blog.webex.com/wp-content/uploads/2022/03/cowa.jpg)
+When a small dairy farmer in Bangladesh needs medical advice concerning his cows, or strategic planning tips to make his farm more profitable, help is at his fingertips. He can connect with some of the best and brightest experts from around the globe, anytime. However, getting assistance wasn’t always this easy.
+## **Uniting global teams and farmers with virtual meetings**
+The [Tetra Laval Group](https://www.tetralaval.com/) has been helping small dairy farmers globally for years. The group consists of three companies—[Tetra Pak](https://www.tetrapak.com/), [Sidel](https://www.sidel.com/en), and [DeLaval](https://www.delaval.com/en/CountrySelector/). All are focused on technologies for the efficient production, processing, and packaging of food. Within the Tetra Laval Group, Tetra Pak and Tetra Laval Food for Development team [collaborate](https://blog.webex.com/video-conferencing/what-is-collaboration/) to develop local dairy industries, assisting with collection infrastructure and supplier management. The Tetra Laval Food for Development team also works with smallholder farmers to improve their animal health, milk yields, and farm profitability. In the past, much of their work with farmers—meetings, collaboration, and education—took place in person. “Before the pandemic, half my time was spent traveling,” says Romulo Alvarado, Project Manager at Tetra Laval Food for Development. “It is important we look our partners in the eye. We have to develop a trusted relationship.” Today, that face-to-face, eye-to-eye interaction still takes place, but because of the pandemic and the massive shift to virtual communication many of those meetings now take place remotely. “We needed to continue our training sessions and we had to find a way that would work for us,” says Alvarado, Project Manager of Food for Development at Tetra Laval. “This has involved working directly with Cisco to utilize Webex for our specific global training needs.” Previously, meetings took place about once every three months. Tetra Laval needed a way to streamline the process; to meet more often; and have fast, easy, and effective ways to engage.
+> “The beauty of the approach with Webex is that we can bring more people together, from different parts of the world, on the same meeting,” Alvarado says.
+There is the obvious benefit in time savings, as well as significant enhancements in collaboration. “We now have an environment where more people can share ideas, experience and insight, and learn from each other,” Alvarado adds.
+## **Relationships cultivated with real-time translation**
+Bringing famers and experts together from a wide variety of cultures, who speak several different languages is now seamless with [Webex real-time translation](https://www.webex.com/meetings.html). Attendees can instantly translate the meeting conversation to one of more than 100 different languages. Several other Webex features also help ensure an equal experience for all participants, regardless of geography, language, or communication style. It includes gesture recognition, noise reduction, custom layouts, and automatic transcription. Meeting content can be recorded and shared internally with those who missed the session. This has provided incredible value in breaking down barriers. Dairy farm advisors from around the globe can ask a question during a meeting, and have the answer translated in real-time to local languages, which helps drive engagement. “Participants are more confident in taking part in the sessions, not simply sitting and listening,” Alvarado says. Relationship building remains at the core of training and community engagement for the Tetra Laval Food for Development team. The expectation is that travel will resume when appropriate, but the future will include a blend of in-person and remote engagement—a hybrid workflow. “We’ve built our reputation on years of face-to-face engagement, and of listening to the reality on the ground,” McDonald says. “More conversations mean more engagement, which means we collaborate and learn more. The necessity to work differently has been a hugely important time for the program. We’ve come out of it stronger.”
+> **[Read on](https://www.webex.com/content/dam/wbx/us/case-study/tetra-pak-case-study_cm-4464.pdf) to learn more about how Tetra Laval Food for Development shares dairy production expertise via Webex and explore how [Webex Meetings](https://www.webex.com/meetings.html) can help your team stay connected.**
+#### About The Author
+![Shawna Anthony](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2096%22%3E%3C/svg%3E)
+Shawna Anthony Webex Customer Advocacy Manager Cisco
+Shawna Anthony is a Webex Customer Advocacy Manager.
+[Learn more](https://blog.webex.com/contributors/shawnaanthony/)
+#### Topics
+[Accessibility and Inclusivity](https://blog.webex.com/tag/accessibility-and-inclusivity/)[Collaboration Solutions](https://blog.webex.com/tag/collaboration-solutions/)[Collaboration Tools](https://blog.webex.com/tag/collaboration-tools/)[Real-Time Closed Captioning](https://blog.webex.com/tag/real-time-closed-captioning/)[Webex Meetings](https://blog.webex.com/tag/webex-meetings/)
+* * *
+## More like this
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Collaboration, Workspaces Cisco named 2026 Global Enterprise Desktop Phone Company of the ... By John Reeder5 Min Read ](https://blog.webex.com/collaboration/cisco-named-2026-global-enterprise-desktop-phone-company-of-the-year-by-frost-sullivan/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201104%22%3E%3C/svg%3E)simple Collaboration Eight years running! Cisco is named a Leader in the 2026 Gartner® ... By Amit Barave7 Min Read ](https://blog.webex.com/collaboration/eight-years-running-cisco-named-leader-2026-gartner-magic-quadrant-unified-communications-service-ucaas/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201099%22%3E%3C/svg%3E)simple Collaboration, Customer Experience, Event Management, Innovation & AI Tom Brady takes the stage at WebexOne 2026 By Aruna Ravichandran2 Min Read ](https://blog.webex.com/collaboration/tom-brady-takes-the-stage-at-webexone-2026/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Collaboration Intrado Emergency Routing Service for Webex Calling Is Now Available By Teney Takahashi3 Min Read ](https://blog.webex.com/collaboration/intrado-emergency-routing-service-for-webex-calling-is-now-available/)
+Products
+  * [Webex Suite](https://www.webex.com/suite/collaboration-suite.html)
+  * [Meetings](https://www.webex.com/meetings.html)
+  * [Calling](https://www.webex.com/enterprise-cloud-calling.html)
+  * [Messaging](https://www.webex.com/team-collaboration.html)
+  * [Events](https://www.webex.com/events.html)
+  * [Video Messaging](https://vidcast.io/)
+  * [Polling](https://www.webex.com/suite/polling.html)
+  * [Webinars](https://www.webex.com/webinar.html)
+  * [Whiteboarding](https://www.webex.com/suite/whiteboard.html)
+  * [Cloud Contact Center](https://www.webex.com/us/en/products/customer-experience/contact-center.html)
+  * [CPaaS](https://www.webex.com/us/en/products/customer-experience/cpaas.html)
+
+
+Footer Terms Menu
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/collaboration/video-conferencing/small-dairy-farmers-video-conferencing/)
+    * [简体中文 (Chinese (Simplified))](https://blog.webex.com/zh-hans/%e5%8d%8f%e4%bd%9c/%e8%a7%86%e9%a2%91%e4%bc%9a%e8%ae%ae/%e8%a7%86%e9%a2%91%e4%bc%9a%e8%ae%ae%e5%a6%82%e4%bd%95%e5%b8%ae%e5%8a%a9%e5%88%a9%e4%b9%90%e5%85%ac%e5%8f%b8-tetra-pak-%e4%b8%ba%e5%b0%8f%e5%9e%8b%e5%a5%b6%e5%86%9c%e6%8f%90%e4%be%9b%e6%94%af/ "Switch to Chinese \(Simplified\) \(简体中文\)")
+    * [繁體中文 (Chinese (Traditional))](https://blog.webex.com/zh-hant/%e5%8d%94%e5%90%8c%e5%90%88%e4%bd%9c/%e8%a6%96%e8%a8%8a%e6%9c%83%e8%ad%b0/%e5%88%a9%e6%a8%82%e5%8c%85%e8%a3%9d%e5%a6%82%e4%bd%95%e9%80%8f%e9%81%8e%e8%a6%96%e8%a8%8a%e6%9c%83%e8%ad%b0%e5%8d%94%e5%8a%a9%e5%b0%8f%e9%85%aa%e8%be%b2/ "Switch to Chinese \(Traditional\) \(繁體中文\)")
+    * [Français (French)](https://blog.webex.com/fr/collaboration-fr/visioconferences/comment-la-visioconference-aide-tetra-pak-a-soutenir-les-petits-producteurs-laitiers/ "Switch to French \(Français\)")
+    * [Deutsch (German)](https://blog.webex.com/de/zusammenarbeit/videokonferenzen/tetra-pak-unterstuetzt-kleine-milchviehbetriebe-durch-videokonferenzen/ "Switch to German \(Deutsch\)")
+    * [Italiano (Italian)](https://blog.webex.com/it/collaborazione/videoconferenze/come-la-videoconferenza-aiuta-tetra-pak-a-supportare-i-piccoli-allevatori/ "Switch to Italian \(Italiano\)")
+    * [日本語 (Japanese)](https://blog.webex.com/ja/collaboration/video-conferencing/%e3%83%93%e3%83%87%e3%82%aa%e4%bc%9a%e8%ad%b0%e3%81%8c-tetra-pak-%e3%81%ab%e3%82%88%e3%82%8b%e5%b0%8f%e8%a6%8f%e6%a8%a1%e9%85%aa%e8%be%b2%e5%ae%b6%e3%81%ae%e6%94%af%e6%8f%b4%e3%81%ab%e8%b2%a2%e7%8c%ae/ "Switch to Japanese \(日本語\)")
+    * [한국어 (Korean)](https://blog.webex.com/ko/%ed%98%91%ec%97%85/%ed%99%94%ec%83%81-%ed%9a%8c%ec%9d%98/tetra-pak%ec%97%90%ec%84%9c-%ec%98%81%ec%83%81-%ed%9a%8c%ec%9d%98%eb%a5%bc-%ed%86%b5%ed%95%b4-%ec%86%8c%ea%b7%9c%eb%aa%a8-%eb%82%99%eb%86%8d%ec%97%85%ec%9e%90%eb%a5%bc-%ec%a7%80%ec%9b%90%ed%95%98/ "Switch to Korean \(한국어\)")
+    * [Português (Portuguese (Brazil))](https://blog.webex.com/pt-br/colaboracao/videoconferencia/como-a-videoconferencia-ajuda-a-tetra-pak-a-apoiar-pequenos-produtores-de-leite/ "Switch to Portuguese \(Brazil\) \(Português\)")
+    * [Español (Spanish)](https://blog.webex.com/es/colaboracion/videoconferencias/como-la-videoconferencia-ayuda-a-tetra-pak-a-apoyar-a-los-pequenos-productores-de-leche/ "Switch to Spanish \(Español\)")
+
+
+Devices
+  * [Room Devices](https://www.webex.com/us/en/devices/room-devices.html)
+  * [Desk Devices](https://www.webex.com/us/en/devices/desk-series.html)
+  * [Digital Whiteboards](https://www.webex.com/us/en/devices/digital-whiteboards.html)
+  * [Phones](https://www.webex.com/us/en/devices/phone-series.html)
+  * [Cameras](https://www.webex.com/us/en/devices/cameras.html)
+  * [Headsets](https://www.webex.com/us/en/devices/headsets.html)
+  * [Room Accessories](https://www.webex.com/us/en/devices/accessories.html)
+
+
+Resources
+  * [Pricing](https://pricing.webex.com/us/en/)
+  * [Downloads](https://www.webex.com/downloads.html)
+  * [Help Center](https://help.webex.com/)
+  * [Webex Community](https://cs.co/webexcommunity)
+  * [Product Essentials](https://essentials.webex.com/)
+  * [Watch Webinars](https://www.webex.com/learn/webinars-demos.html)
+  * [App Hub](https://apphub.webex.com/)
+  * [Accessibility](https://www.webex.com/accessibility.html)
+  * [Developers](https://developer.webex.com/)
+
+
+Company
+  * [Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)
+  * [Webex Customer Advocacy Program](https://www.webex.com/us/en/dg/customer-advocacy-program.html)
+  * [Contact Support](https://help.webex.com/contact/)
+  * [Contact Sales](https://www.webex.com/contact-sales.html?locale=US)
+  * [Webex Merch Store](https://merchandise.cisco.com/featured/webex-by-cisco.html)
+  * [Careers](https://www.webex.com/company/careers.html)
+
+
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://twitter.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.linkedin.com/company/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.facebook.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.youtube.com/c/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.instagram.com/webex/)
+
+
+©2026 Cisco and/or its affiliates. All Rights Reserved.
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/collaboration/video-conferencing/small-dairy-farmers-video-conferencing/)
+    * [简体中文 (Chinese (Simplified))](https://blog.webex.com/zh-hans/%e5%8d%8f%e4%bd%9c/%e8%a7%86%e9%a2%91%e4%bc%9a%e8%ae%ae/%e8%a7%86%e9%a2%91%e4%bc%9a%e8%ae%ae%e5%a6%82%e4%bd%95%e5%b8%ae%e5%8a%a9%e5%88%a9%e4%b9%90%e5%85%ac%e5%8f%b8-tetra-pak-%e4%b8%ba%e5%b0%8f%e5%9e%8b%e5%a5%b6%e5%86%9c%e6%8f%90%e4%be%9b%e6%94%af/ "Switch to Chinese \(Simplified\) \(简体中文\)")
+    * [繁體中文 (Chinese (Traditional))](https://blog.webex.com/zh-hant/%e5%8d%94%e5%90%8c%e5%90%88%e4%bd%9c/%e8%a6%96%e8%a8%8a%e6%9c%83%e8%ad%b0/%e5%88%a9%e6%a8%82%e5%8c%85%e8%a3%9d%e5%a6%82%e4%bd%95%e9%80%8f%e9%81%8e%e8%a6%96%e8%a8%8a%e6%9c%83%e8%ad%b0%e5%8d%94%e5%8a%a9%e5%b0%8f%e9%85%aa%e8%be%b2/ "Switch to Chinese \(Traditional\) \(繁體中文\)")
+    * [Français (French)](https://blog.webex.com/fr/collaboration-fr/visioconferences/comment-la-visioconference-aide-tetra-pak-a-soutenir-les-petits-producteurs-laitiers/ "Switch to French \(Français\)")
+    * [Deutsch (German)](https://blog.webex.com/de/zusammenarbeit/videokonferenzen/tetra-pak-unterstuetzt-kleine-milchviehbetriebe-durch-videokonferenzen/ "Switch to German \(Deutsch\)")
+    * [Italiano (Italian)](https://blog.webex.com/it/collaborazione/videoconferenze/come-la-videoconferenza-aiuta-tetra-pak-a-supportare-i-piccoli-allevatori/ "Switch to Italian \(Italiano\)")
+    * [日本語 (Japanese)](https://blog.webex.com/ja/collaboration/video-conferencing/%e3%83%93%e3%83%87%e3%82%aa%e4%bc%9a%e8%ad%b0%e3%81%8c-tetra-pak-%e3%81%ab%e3%82%88%e3%82%8b%e5%b0%8f%e8%a6%8f%e6%a8%a1%e9%85%aa%e8%be%b2%e5%ae%b6%e3%81%ae%e6%94%af%e6%8f%b4%e3%81%ab%e8%b2%a2%e7%8c%ae/ "Switch to Japanese \(日本語\)")
+    * [한국어 (Korean)](https://blog.webex.com/ko/%ed%98%91%ec%97%85/%ed%99%94%ec%83%81-%ed%9a%8c%ec%9d%98/tetra-pak%ec%97%90%ec%84%9c-%ec%98%81%ec%83%81-%ed%9a%8c%ec%9d%98%eb%a5%bc-%ed%86%b5%ed%95%b4-%ec%86%8c%ea%b7%9c%eb%aa%a8-%eb%82%99%eb%86%8d%ec%97%85%ec%9e%90%eb%a5%bc-%ec%a7%80%ec%9b%90%ed%95%98/ "Switch to Korean \(한국어\)")
+    * [Português (Portuguese (Brazil))](https://blog.webex.com/pt-br/colaboracao/videoconferencia/como-a-videoconferencia-ajuda-a-tetra-pak-a-apoiar-pequenos-produtores-de-leite/ "Switch to Portuguese \(Brazil\) \(Português\)")
+    * [Español (Spanish)](https://blog.webex.com/es/colaboracion/videoconferencias/como-la-videoconferencia-ayuda-a-tetra-pak-a-apoyar-a-los-pequenos-productores-de-leche/ "Switch to Spanish \(Español\)")
+
+
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
