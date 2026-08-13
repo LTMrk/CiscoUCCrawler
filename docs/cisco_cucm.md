@@ -29840,3 +29840,164 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)Show All Breadcrumbs
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
+  * [Cisco Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+  * [Troubleshooting TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/products-tech-notes-list.html)
+
+
+# Troubleshoot​ APNS "400 bad request" Errors
+![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)
+Download
+Print
+### Available Languages
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)
+
+
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.pdf) (110.7 KB)   
+View with Adobe Reader on a variety of devices
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.epub) (192.4 KB)   
+View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.mobi) (111.7 KB)   
+View on Kindle device or Kindle app on multiple devices
+
+
+Updated:November 1, 2024
+Document ID:222556
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+## Contents
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html#toc-hId--229640827)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html#toc-hId--426154332)
+[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html#toc-hId--364502399)
+[Components used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html#toc-hId--561015904)
+[Background information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html#toc-hId--1015694847)
+[Troubleshoot](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html#toc-hId--1212208352)
+[Solution](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html#toc-hId--1408721857)
+[Verify](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html#toc-hId--1605235362)
+## Introduction
+This document describes how to troubleshoot APNS "400 bad request" errors; a known issue documented in the Cisco bug ID[CSCvi01660](https://tools.cisco.com/bugsearch/bug/CSCvi01660).
+## Prerequisites
+#### **Requirements**
+Cisco recommends that you have knowledge of these topics:
+  * `** Apple Push Notifications**`configuration.
+  * `** Apple Push Notifications**`functionality.
+
+
+#### **Components used**
+This document is not restricted to specific hardware and software versions.
+The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
+## Background information
+When your cluster is enabled for Push Notifications, Cisco Unified Communications Manager and the IM and Presence Service use either the Apple, or Google cloud’s Push Notification service to send push notifications to compatible Cisco Jabber or Webex clients that run on iOS or Android devices. Push Notifications let your system communicate with the client, even after it has entered into background mode (also known as suspended mode). Without Push Notifications, the system is possibly unable to send calls or messages to clients that have entered into background mode.
+To authenticate with the Cisco Cloud your Cisco Communications Manager Server generates a token as a part of the onboarding process, If you receive a "400 bad request" message, then your machine access token to the Push Notifications service has expired and you need to update the access token manually according to the documentation:
+<https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_01.html?bookSearch=true>
+## Troubleshoot
+Set the next logs to debug and collect it with the Real Time Monitoring Tool:
+Cisco Unified Communications Manager:
+Cisco Push Notification Service
+Cisco Management Agent Service
+Cisco Unified Communications Manager IM and Presence:
+Cisco XCP Config Manager
+Cisco XCP Router
+On the Cisco Push Notification Service logs, you can see that the CUCM receives multiple 400 responses while fetching the token which makes APNS fail, hence the counters do not increase:
+`2024-07-16 15:09:50,514 DEBUG [Timer-144] ccmpns.CCMPNServer (CCMPNServer.java:306) - fetchAndStoreAccessToken() Response received : 400   2024-07-16 15:19:51,007 DEBUG [Timer-145] ccmpns.CCMPNServer (CCMPNServer.java:306) - fetchAndStoreAccessToken() Response received : 400   2024-07-16 15:29:51,605 DEBUG [Timer-146] ccmpns.CCMPNServer (CCMPNServer.java:306) - fetchAndStoreAccessToken() Response received : 400   2024-07-16 15:39:52,096 DEBUG [Timer-147] ccmpns.CCMPNServer (CCMPNServer.java:306) - fetchAndStoreAccessToken() Response received : 400   2024-07-16 15:49:52,565 DEBUG [Timer-148] ccmpns.CCMPNServer (CCMPNServer.java:306) - fetchAndStoreAccessToken() Response received : 400   2024-07-16 15:59:53,032 DEBUG [Timer-149] ccmpns.CCMPNServer (CCMPNServer.java:306) - fetchAndStoreAccessToken() Response received : 400 `
+You can see an invalid response on the Cisco XCP Router logs around the time in which the call is made:
+`2024-07-16 17:21:43,464 DEBUG [Timer-1382] xmlframework.XCPConfigMgr - FetchAndStoreAccessToken: Calling createAccessToken() with granttype:refresh_token, refreshToken:MTc2YzFhN2YtMDA1Ny00MTVlLWJGZmMjcwYTU3MjY1NGI1NzItZmE0, accessTokenURL proxyUsernamenull   2024-07-16 17:21:43,468 INFO  [Timer-1382] utilities.CloudOnboarding - TRACKING ID:::::::FOS_e8e8ee93-818f-4fe5-8a23-6b08a879b91b   2024-07-16 17:21:43,790 ERROR [Timer-1382] utilities.TomcatTrustManager - checkServerTrusted:entered    2024-07-16 17:21:43,791 ERROR [Timer-1382] utilities.TomcatTrustManager - checkServerTrusted:entered 2   2024-07-16 17:21:43,958 DEBUG [Timer-1382] xmlframework.XCPConfigMgr - XCPConfigMgr:Inside responseStatus()   2024-07-16 17:21:43,958 ERROR [Timer-1382] xmlframework.XCPConfigMgr - 400 Bad Request: invalid_request, unsupported_grant_type, invalid_client, invalid_refresh_token, tokenlimit_reached   2019-07-16 17:21:43,958 DEBUG [Timer-1382] xmlframework.XCPConfigMgr - XCPConfigMgr:FetchAndStoreAccessToken: Inside Finally Block `
+This is a known Cisco bug ID [CSCvi01660.](https://tools.cisco.com/bugsearch/bug/CSCvi01660)
+## Solution
+Build a laboratory system and update the Refresh Token from the laboratory to the production system.
+Once you have deployed the laboratory system, perform the next steps:
+Step 1:
+On your Call Manager publisher open a CLI session and run the command “run sql select * from machineaccountdetails” and save all the output in a .txt file:
+[![CLI output](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err-00.png "CLI output")
+Once all the output is saved, pay special attention to your Call Manager pkid, for example, our laboratory environment is “e40c24c0-cd4c-4256”.
+Also, run the command “run sql select * from machineaccountdetails” in your laboratory environment and save all the output in a .txt file.
+Pay special attention to the refreshtoken in your laboratory environment as this is the valid token that we use to replace the invalid token in your production environment. In our laboratory environment is something like "OGYyZGI2MWMtNjUwYy00Y2FiLThh".
+Step 2:
+We need to replace your current non-working refresh token with the valid laboratory token.
+After you have saved your production pkid, run this sql query in your production Call Manager Publisher: 
+run sql update machineaccountdetails set refreshtoken='here goes the valid refresh token of your laboratory environement' where pkid='here goes your production pkid'. 
+The previous sql query changes your non-working token with the working one from your laboratory environment.
+Step 3:
+After you have updated the machineaccountdetails with the lab refresh token, please restart these services:
+Cisco Unified Communications Manager::
+  * Cisco Management Agent Service (CMAS)
+  * Cisco Push Notification Service (CCMPNS)
+  * Tomcat
+
+
+Cisco Unified Communications Manager IM and Presence:
+  * XCP Config manager 
+  * XCP Router
+  * Tomcat 
+
+
+These services must be restarted after hours to avoid any service impact.
+## Verify
+Now run again “run sql select * from machineaccountdetails” on all nodes including the IMPs and verify now that you have my refresh token.
+### Revision History  
+| Revision  | Publish Date  | Comments  |  
+| --- | --- | --- |  
+| 1.0  |  01-Nov-2024   | Initial Release  |  
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html "Back to Top")
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+### Contributed by Cisco Engineers
+  * Fernando Garrido Tapia
+Technical Consulting Engineer
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+### Contact Cisco
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/222556-troubleshoot-apns-400-bad-request-err.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
+
+
+### This Document Applies to These Products
+  * [Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+
+
