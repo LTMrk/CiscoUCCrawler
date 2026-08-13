@@ -8038,5 +8038,9 @@
   "https://developer.webex.com/docs/api/v1/meetings/list-meeting-session-types": {
     "hash": "6b2a349d179990c5f8f5fc124e8b693fd581053de2e12420d26176a83ca7fefd",
     "timestamp": "2026-08-13T02:11:55.760641"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings/get-a-meeting-session-type": {
+    "hash": "72f283a5cd6275497e216df92668e7591de3d059f26982d88205b8c60e9314b1",
+    "timestamp": "2026-08-13T02:12:02.468141"
   }
 }
