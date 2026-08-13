@@ -29213,3 +29213,402 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)Show All Breadcrumbs
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
+  * [Cisco Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+  * [Troubleshooting TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/products-tech-notes-list.html)
+
+
+# Troubleshoot Services That Do Not Start on IM&P
+![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)
+Download
+Print
+### Available Languages
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)
+
+
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.pdf) (182.6 KB)   
+View with Adobe Reader on a variety of devices
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.epub) (232.8 KB)   
+View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.mobi) (195.8 KB)   
+View on Kindle device or Kindle app on multiple devices
+
+
+Updated:June 12, 2025
+Document ID:217304
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+## Contents
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#toc-hId--1241918802)
+[Background Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#toc-hId-1245594031)
+[The States of a Service](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#toc-hId-1936155505)
+[Troubleshoot](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#toc-hId-1925652401)
+[Identify the Problem](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#toc-hId--1678753421)
+[Services Remain on STARTING State](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#toc-hId-808759412)
+[Specific Services Does Not Start](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#toc-hId--998695051)
+[Cisco Sync Agent](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#toc-hId-346316580)
+[Cisco XCP Config Manager](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#toc-hId--1461137883)
+[Feature Services Do Not Start](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#toc-hId-897292231)
+[Cisco XCP Directory Service](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#toc-hId--781079513)
+[Cisco File Transfer Manager](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#toc-hId-1706433320)
+[Cisco XCP Message Archiver](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#toc-hId--101021143)
+[Cisco XCP XMPP Federation Connection Manager](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#toc-hId--1908475606)
+[Related Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html#toc-hId-449954508)
+## Introduction
+This document describes the steps to take when a service from the Cisco Instant Message and Presence (IM&P) does not start as expected.
+## Background Information
+### The States of a Service
+The IM&P Services have the next states:  
+|  Started  |  The service is active and running.  |  
+| --- | --- |  
+|  Starting  |  The service is in the transition from Stop to Started.  |  
+|  Stopped  |  The services are not started, could be because it is stopped manually or it is not activated.  |  
+|  Stopping  |  The service is in the transition from Started to Stop.  |  
+Keep in mind that after a reboot of the IM&P node, the next warning is generated, and can be found either on the Graphic User Interface (GUI) if you navigate to the Notifications page, or via the Command Line Interface (CLI):
+[![IM&P Alert](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on-00.png "IM&P Alert")
+The Cisco IM and Presence Data Monitor has detected that database replication is not complete, and/or that the Cisco Sync Agent sync from Cisco Unified Communications Manager is not complete. Some services can remain in the "Starting" state until replication and the Cisco Sync Agent sync are successfully completed.
+The message not necessarily means that the services remain in **Starting** state since the alert is generated. This is expected as the IM&P **Data Monitor** start to monitor the services as soon as the IM&P comes up from a reboot or boot. The first thing that the **Monitor Service** detects is that all the main services are in the process of **Starting** , which triggers the message.
+In order to confirm the actual state of the services run the **utils service list** command.
+**Note** : If the services are in the **Started** state, feel free to delete the alert to keep the **Notification Alerts** clean.
+## Troubleshoot
+### Identify the Problem
+The first step to troubleshoot the **Services not Starting** is to understand which services are the ones not started.
+It is important to validate the legend that appears on the right side of the services that are stopped, commonly you can identify:
+  * **Service not activated** : This means that the feature service was not activated, and that requires to be done first.
+
+
+[![Out of Service](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on-01.png "Out of Service")
+  * **Commanded out of service** : This message appears after a reboot of the server and if HA was not disabled or if certain services were restarted, and that action caused the _manual_ stoppage of other services. In other scenarios, when the network administrator stops manually the service this message is shown. The solution here is to start the services manually either from the GUI or CLI.
+
+
+[![Service not Activated](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on-02.png "Service not Activated")
+  * **NOTRUNNING** :This message is displayed when there is an error with the services and is unable to start. Sometimes this message is seen after the service has been attempted to be started manually. The first attempt is to start the service manually, however, if this action does not work, next troubleshooting steps are required to be performed. Use this guide to help you solve the services not starting.
+
+
+[![Not Running](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on-03.png "Not Running")
+### Services Remain on STARTING State
+One of the most common issues that are found on the IM&P Subscriber after a restart is to see almost all of the services in STARTING state, while the IM&P Publisher shows all the services as STARTED.
+The common cause of this behaviour is given by a restart of the IM&P Subscriber when the High Availability (HA) has not been disabled from the Presence Redundancy Groups.
+**Solution**
+Step 1. Disable the High Availability from the Presence Redundancy Groups, navigate to **CUCM Administration page > System**.
+Step 2. Run the next command on both IM&P nodes: **set replication-sync monitor disable**.
+Step 3. Wait around 5 minutes and run the next command: **utils service list** again to confirm that the services are now Started.
+Step 4. Verify all the services are STARTED on the subscriber and then run the next command on both IM&P nodes: **set replication-sync monitor enable**.
+Step 5. Re-enable the High Availability from the Presence Redundancy Groups.
+### Specific Services Does Not Start
+#### **Network Services**
+Although uncommon, there have been scenarios where some network services do not start on the IM&P publisher, these are:
+  * Cisco Client Profile Agent
+  * Cisco Extensible Communications Platform (XCP) Router
+  * Cisco XCP Config Manager
+  * Cisco Route and Presence Datastores
+
+
+**Warning** : The XCP, Presence Engine and SIP Proxy services cannot start, as those are dependant on the Network services listed. This causes that the Instant Message Database (IMDB) does not replicate and the Jabber users to be unable to log in.
+#### **Solution**
+The services can be started either via the web interface (Navigate to **IM and Presence Serviceability > Tools > Control Center - Network Services >** **Look** for the **IM and Presence Services**) or via the Command Line Interface (CLI), use the **utils service start _< name_of_the_service>_** command.
+Step 1. Disable the High Availability from the Presence Redundancy Groups.
+Step 2. Start each service manually strictly in the next order:
+  * Cisco Client Profile Agent
+  * Cisco Route Datastore
+  * Cisco Presence Datastore
+  * Cisco XCP Config Manager
+  * Cisco XCP Router
+
+
+**Note** : For the Cisco Client Profile Agent to start, the Cisco Tomcat Service requires to be started.
+If the previous steps have not worked, a Cisco Technical Assistant Center (TAC) case needs to be opened for further troubleshooting. Keep in mind that the next outputs and logs are required and.
+  1. CLI Outputs:
+     * **show network cluster**
+     * **utils dbreplication runtimestate**
+     * **utils ha status**
+     * **utils core active list**
+     * **utils service list**
+  2. Logs/ Traces:
+     * Cisco Syslog Agent
+     * Event Viewer-Application Log
+     * Event Viewer-System Log
+     * Any of the traces from the services that remain stopped
+
+
+#### Cisco Database (DB)
+This is one of the main services within the system.
+**Warning** : If this service does not start, the server cannot access certain features on the Server webpage, Jabber users and their features get compromised, DB replication gets broken.
+Causes:
+The most common causes identified for this issue are:
+  * Change of the hostname, IP address or domain without the Cisco Guidelines process.
+  * Corruption of the files after an ungraceful shutdown of the system.
+
+
+Solution:
+Unfortunately, there are no straight solution steps if this service does not start. The suggestions are:
+Step 1. Disable the High Availability from the Presence Redundancy Groups.
+Step 2. Restart **A Cisco DB R****eplicator**.
+Step 3. Restart **A Cisco DB** , if it remains in STARTING state, try to stop it and then start it.
+The best approach here is to engage Cisco TAC for further investigation, and the next information is required:
+  1. CLI Outputs:
+     * **show tech network hosts**
+     * **show tech database dump**
+     * **show tech dbintegrity**
+     * **utils create report database**
+     * **utils network connectivity _IM &P_node_ 1500**
+     * **Show network cluster**
+     * **utils core active list**
+  2. Logs or Traces:
+     * Cisco Database Layer Monitor
+     * Cisco Database Library Trace
+     * Cisco Database Notification Service
+     * Cisco Database Replicator Trace
+     * Cisco Informix Database Service
+     * Cisco Syslog Agent
+     * Event Viewer-Application Log
+     * Event Viewer-System Log
+
+
+#### Cisco Intercluster Sync Agent (ICSA)
+**Warning** : If this service does not start, the IM&P database cannot be synchronized across the IM&P nodes and IM&P clusters (Inter-cluster peering).
+Solution:
+  1. The High Availability is in a bad (or wrong) state and it does not allow the service to come up.
+
+
+Step 1. You need to disable the HA, start the service and then re-enable the HA.
+  * Server is affected by one of these two defects: 
+    * [Cisco bug ID ](https://tools.cisco.com/bugsearch/bug/CSCvj09515)[CSCvj09515](https://tools.cisco.com/bugsearch/bug/CSCvj09515)
+    * [Cisco bug ID CSCvq63308](https://tools.cisco.com/bugsearch/bug/CSCvq63308)
+
+
+If the service does not come up, a TAC case needs to be opened for further troubleshooting. Keep in mind that the next outputs and logs are required.
+  1. CLI Outputs
+     * **show network cluster**
+     * **utils dbreplication runtimestate**
+     * **utils ha status**
+     * **utils core active list**
+     * **utils service list**
+  2. Logs/ Traces
+     * Cisco Syslog Agent
+     * Event Viewer-Application Log
+     * Event Viewer-System Log
+     * Cisco Service Recovery Manager
+     * Cisco Intercluster Sync Agent Service
+
+
+#### Presence Engine
+For the Cisco Presence Engine service, there are several variants that must be considered in order to understand why the service does not start and how to make it start.
+  1. Open a CLI and run the command:**utils service list** validate that the next services are in **running** state, if they are not, they require to be started first:
+     * Cisco Presence Datastore
+     * Cisco SIP Proxy
+     * Cisco XCP Router
+     * Cisco Sync Agent
+
+
+2. The most common reason the Cisco Presence Engine (PE) service does not start in the IM&P Subscriber, is because the IM&P Subscriber has not been added to the presence redundancy group (PRG).
+     * Reason: The PE service is tied to the PRG and requires to be added to start.
+     * Solution: Add the server to the PRG and wait around 5 minutes to see if it starts.
+     * Variants: It is probable that after the previous solution is applied, the PE stops on both IM&P nodes, and the solution is to perform the next steps:
+
+
+Step 1. Keep the IM&P subscriber in the PRG.
+Step 2. Disable High Availability from the PRG.
+Step 3. the next steps need to be perofmed on the publisher first and then the subscriber
+Step 4. Restart first the Cisco SIP Proxy Service, wait until it starts.
+Step 5. Restart the Cisco PE service, wait until it starts.
+3. If the IM&P Subscriber is already added into the PRG, and the PE remains in STOPPED or STARTING state, that could be related to a mismatch in the Database Replication between the two IM&P nodes, run the next **run sql select * from enterprisde node** command. The output of this query displays the **id** of the node, the **subclusterid** of the node (which is the PRG id), **name** or IP address and other values. What you want to focus on, is that both IM&P nodes share the same **subclusterid** value.
+  * Reason: If the DB Replication did not perform correctly, the IM&P Subscriber displays the **subclusterid** as **NULL**.
+  * Solution: 
+
+
+Step 1. Run the next command: **run sql update enterprisenode set subclesterid=****_subclesterid_value_as_for_the_IM &P_Pub _****where id=****_IM &P_Sub_id_**
+Step 2. Re-run the next command **run sql select * from enterprisde node** and ensure the **subclusterid** has the correct value (the same) for both IM&P nodes. The service must start by its own in the next 5 minutes, or you can try to start it manually.
+  * Recommendation: Open a Cisco TAC case to perform this change.
+
+
+4. If after the previous troubleshooting has been performed and all services are started, except for the PE:
+     * Solution:
+
+
+Step 1. Run the command: **set replication-sync monitor disable** on both IM&P nodes.
+Step 2. Wait around 5 minutes and if not started, attempt to start the service manually, run the next command: **utils service start Cisco Presence Engine**.
+Step 3. Run the command **set replication-sync monitor enable**.
+5. If PE service cannot start yet, validate if the server is running version 12.5, if so it is highly probable to be affected by Cisco bug ID [CSCvg94247](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvg94247/?rfs=iqvred).
+### Cisco Sync Agent
+**Warning** : If this service does not start, Synchronization of DB Tables from CUCM to IM&P are not completed, this impact mainly the end-user synchronization across the cluster.
+Solution: Review the next checklist.
+  1. Verify that both CUCM and IM & Presence nodes are in the same version. If servers are in version 11.X or later, the servers require to run on the same SU version.
+     * If they are not, ensure that both run the same version.
+  2. Verify that the **Cisco AXL Web Service** on CUCM is in RUNNING state.
+     * If it is not, start the **Cisco AXL Web Service**.
+  3. Verify that the IM&P node is listed in the Server List on CUCM.
+     * If it is not, a rebuild of the IM&P Server is needed. If server is added back to the server list entry does not take any effect, as a specific ID is generated for every entry added, thus the IM&P remains with an old id.
+  4. Verify within the troubleshooter tests on the CUCM Publisher page on IM&P have passed.
+  5. Verify that the next Uniform Resource Locator (URL) is reachable with the URL: **[https://CUCM_OR_IM&P_FQDN_OR_IP](https://CUCM_OR_IM&P_FQDN_OR_IP)**
+  6. Attempt to reboot the CUCM publisher and then the IM&P Publisher.
+     * Keep in mind that HA requires to be disabled before reboot.
+  7. Run the next CLI query on the IM&P publisher:**run sql select * from epassyncagentcfg**.
+  8. Confirm that the**ccmpublisherip** address displayed is from the CUCM Publisher.
+  9. Run the next query on the CUCM:
+
+
+**`run sql select applicationuser.pkid, applicationuser.name , credential.credentials from applicationuser inner join credential on applicationuser.pkid=credential.fkapplicationuser where credential.tkcredential=3 and applicationuser.name='axluser_displayed_from_epassyncagentcfg'`**
+  1. Validate the next information:
+     * **username** (On CUCM) **= axluser** (On IM&P)
+     * **pkid** (On CUCM)**= cucm_axluser_pkid**(On IM&P)
+     * **credentials** (On CUCM) **= axlpassword**(On IM&P)
+
+
+  1. If the **axluser** in **epassyncagentcfg** cannot be found in the CUCM user list, then create a new application user on the CUCM side same as the old **axluser** with the previous password, if known.
+
+
+If the previous actions do not help to solve the problem, you need to engage Cisco TAC for further troubleshooting. Keep in mind that the next outputs and logs are required.
+CLI Outputs (from CUCM Publisher and IM&P):
+     * **Show network cluster**
+     * **Utils dbreplication runtimestate**
+     * **Utils ha status**
+     * **Utils core active list**
+     * **Utils service list**
+     * **run sql select * from epassyncagentcfg (Only on the IM &P)**
+     * **run sql select applicationuser.pkid, applicationuser.name , credential.credentials from applicationuser inner join credential on applicationuser.pkid=credential.fkapplicationuser where credential.tkcredential=3 and applicationuser.name='axluser_displayed_from_epassyncagentcfg' (Only on the CUCM)**
+
+
+Logs/ Traces:
+     * Cisco Syslog Agent.
+     * Event Viewer-Application Log.
+     * Event Viewer-System Log.
+     * Cisco Sync Agent.
+     * Cisco AXL Web Service.
+
+
+### Cisco XCP Config Manager
+The Cisco XCP Config Manager is a main service that handles all the XCP componentes within the IM&P Server. Even though most of the XCP services, including the XCP Router is in RUNNING state, this service can be in STOPPED state making the XCP Connection Manager, XCP Web Service Manager to reamained stopped or even failed to synchronize with other servers like the Expressways (for MRA).
+First, validate that the Informix Database Replication is in a correct state:
+**utils dbreplication status**
+**utils dbreplication runtimestate**
+If everything is fine, then disable the High Availability and attempt the restart of the service, if that fails, disable the synchronization monitoring feature:
+**set replication-sync monitor disable**
+And then, attempt the start of the service again. Get the Cisco XCP Config Manager logs either via Real-Time Monitor Tool (RTMT) or CLI:
+**file view activelog /epas/trace/xcpconfigmgr/log4j/xcpconfigmgr.log**
+
+```
+
+And this is the most common scenario:
+
+2024-12-11 14:20:52,650 FATAL [XCPConfigMgr] security.Log4jEncLogger - java.io.FileNotFoundException: /usr/local/platform/.security/CCMEncryption/keys/oldkeys.txt (No such file or directory)
+2024-12-11 14:20:52,650 INFO  [XCPConfigMgr] security.Log4jEncLogger - CCMENC::ERROR : decryptPassword - recovery mechanism failed
+2024-12-11 14:20:52,650 FATAL [XCPConfigMgr] security.Log4jEncLogger - javax.crypto.BadPaddingException: Error finalising cipher data: pad block corrupted
+2024-12-11 14:20:52,195 INFO  [XCPConfigMgr] security.Log4jEncLogger - Entering decryptPassword
+2024-12-11 14:20:52,196 INFO  [XCPConfigMgr] security.Log4jEncLogger - Use Dkey to decrypt data
+2024-12-11 14:20:52,213 INFO  [Thread-12] dbl.Log4j - Name of appId:dbcli
+2024-12-11 14:20:52,216 INFO  [Thread-12] dbl.Log4j - Name of appId:dbxcpconfig
+2024-12-11 14:20:52,219 INFO  [Thread-12] dbl.Log4j - Name of appId:dbcli
+2024-12-11 14:20:52,221 INFO  [Thread-12] dbl.Log4j - Name of appId:dbxcpconfig
+2024-12-11 14:20:52,649 INFO  [XCPConfigMgr] security.Log4jEncLogger - CCMENC::ERROR : Dkey decryption failed. Use recovery mechanism to decrypt data.
+2024-12-11 14:20:52,649 INFO  [XCPConfigMgr] security.Log4jEncLogger - Using static key to decrypt data
+2024-12-11 14:20:52,650 INFO  [XCPConfigMgr] security.Log4jEncLogger - Exiting decryptPassword.fail
+2024-12-11 14:20:52,650 FATAL [XCPConfigMgr] security.Log4jEncLogger - Decryption with static key failed as well. Fatal error javax.crypto.BadPaddingException: Error finalising cipher data: pad block corrupted
+2024-12-11 14:20:52,650 INFO  [XCPConfigMgr] security.Log4jEncLogger - CCMENC::ERROR : static key decryption failed. Use old keys to decrypt data
+2024-12-11 14:20:52,650 INFO  [XCPConfigMgr] security.Log4jEncLogger - Exiting DecryptPassword.fail. failed to read oldkey file
+```
+
+If that is the case, you hit the defect [Cisco bug ID CSCur25679](https://tools.cisco.com/bugsearch/bug/CSCur25679) [![](https://techzone.cisco.com/html/assets/mag.gif)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html) [XCP Config Manager and XCP Services not Starting on IM&P](https://tools.cisco.com/bugsearch/bug/CSCur25679) and you need to contact Cisco TAC to apply the workaround.
+## Feature Services Do Not Start
+The next services are disabled by default unless you use the feature of each service:
+  * Cisco XCP Directory Service
+  * Cisco XCP File Transfer Manager
+  * Cisco XCP Message Archives and Cisco XCP XMPP Federation
+
+
+Even though your IM&P has those services as activated, the services do not start unless you configure each feature for each service.
+### Cisco XCP Directory Service
+The Cisco XCP Directory Service supports the integration of Extensible Messaging and Presence Protocol (XMPP) clients with the Lightweight Directory Access Protocol (LDAP) directory to allow users to search and add contacts from the LDAP directory.
+To start this service:
+1. Navigate to **Cisco Unified CM IM and Presence Administration > Application > Third-Party Clients**.
+2. Configure settings for **third-party XMPP clients**.
+You use Cisco XCP Directory Service to allow users of a third-party XMPP client to search and add contacts from the LDAP directory.
+For additional information to configure the third-party XMPP directory refer to _Turn On Cisco XCP Directory Service._
+### Cisco File Transfer Manager
+This service allows you to use a server-side file transfer solution called managed file transfer.
+Managed File Transfer (MFT) allows an IM and Presence Service client, such as Cisco Jabber to transfer files to other users, ad-hoc group, chats and persistent chat.
+The service does not start if the configuration for MFT is not in place.
+For additional information to configure the third-party XMPP directory refer to [How to configure Managed File Transfer in CUCM CM IM/Presence 10.5?](https://community.cisco.com/t5/collaboration-knowledge-base/how-to-configure-managed-file-transfer-in-cucm-cm-im-presence-10/ta-p/3161766)
+### Cisco XCP Message Archiver
+The Cisco XCP Message Archiver service supports the IM Compliance feature. The IM Compliance feature logs all messages sent to and from the IM and Presence server, that includes point-to-point messages, and messages from ad-hoc (temporary) and permanent chat rooms for the Chat feature. Messages are logged to an external Cisco-supported database.
+The service does not start if the configuration for compliance is not in place.
+For additional information on how to configure Message Archive refer to _Instant Messaging Compliance for the IM and Presence Service, Release 12.5(1)._
+### Cisco XCP XMPP Federation Connection Manager
+The Cisco XCP XMPP Federation Connection Manager supports interdomain federation with third party enterprises such as International Business Machines (IBM) Lotus Sametime, Cisco Webex Meeting Center, GoogleTalk, and another IM and Presence enterprise, over the XMPP protocol.
+This service does not start until XMPP federation is configured.
+For additional information on how to configure Message Archive refer to [Interdomain Federation Guide for the IM and Presence Service, Release 12.5(1)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/interdomain_federation/12_5_1/cup0_b_interdomain-federation-1251.html).
+## Related Information
+  * **[Cisco Technical Support& Downloads](https://www.cisco.com/c/en/us/support/index.html?referring_site=bodynav)**
+
+
+### Revision History  
+| Revision  | Publish Date  | Comments  |  
+| --- | --- | --- |  
+| 3.0  |  12-Jun-2025   | Recertification, corrected spelling errors, links to open to new page, and Cisco bug ID descriptions.  |  
+| 2.0  |  11-Jul-2023   | Recertification  |  
+| 1.0  |  16-Aug-2021   | Initial Release  |  
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html "Back to Top")
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+### Contributed by Cisco Engineers
+  * Miguel Castillo
+Cisco Consulting Engineer
+  * Yani Saavedra Chimal
+Cisco Technical Consulting Engineer
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+### Contact Cisco
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
+
+
+### This Document Applies to These Products
+  * [Unified Communications Manager IM and Presence Service Version 12.5](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-im-presence-service-version-12-5/model.html)
+
+
