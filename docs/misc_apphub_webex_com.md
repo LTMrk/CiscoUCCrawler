@@ -12294,3 +12294,167 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://apphub.webex.com/applications/22miles-enterprise-22miles-inc
+
+22Miles Enterprise - Webex App Hub
+[Skip to content](https://apphub.webex.com/applications/22miles-enterprise-22miles-inc#main-content) [Skip to footer](https://apphub.webex.com/applications/22miles-enterprise-22miles-inc#main-footer)
+[ ![Webex App Hub](https://apphub.webex.com/new-brand-webex-app-hub.svg) ](https://apphub.webex.com/)
+[ Build Apps ](https://developer.webex.com) Log in[Sign up](https://www.webex.com/pricing/free-trial.html)
+[ ![Webex App Hub](https://apphub.webex.com/new-brand-webex-app-hub-black.svg) ](https://apphub.webex.com/)
+Log in  [ Sign up ](https://www.webex.com/pricing/free-trial.html)
+[ My Webex Integrations ](https://apphub.webex.com/my-integrations)
+App Type
+  * [ Agentic Apps ](https://apphub.webex.com/agentic-apps)
+  * [ Embedded Apps ](https://apphub.webex.com/embedded-apps)
+  * [ Integrations ](https://apphub.webex.com/integrations)
+  * [ Bots ](https://apphub.webex.com/bots)
+  * [ Playbooks ](https://apphub.webex.com/playbooks)
+  * [ Service Apps ](https://apphub.webex.com/service-apps)
+
+
+Products
+  * [ Meetings ](https://apphub.webex.com/meetings)
+  * [ Messaging ](https://apphub.webex.com/messaging)
+  * [ Calling ](https://apphub.webex.com/calling)
+  * [ Contact Center ](https://apphub.webex.com/contact-center)
+  * [ Devices ](https://apphub.webex.com/devices)
+
+
+All Categories
+  * [ Agent & Supervisor Tools ](https://apphub.webex.com/category/agent-and-supervisor-tools)
+  * [ AI Agent ](https://apphub.webex.com/category/ai-agent)
+  * [ AI Agent Testing & Observability ](https://apphub.webex.com/category/ai-agent-testing-and-observability)
+  * [ Analytics ](https://apphub.webex.com/category/analytics)
+  * [ Calendar & Scheduling ](https://apphub.webex.com/category/calendar-and-scheduling)
+  * [ Collaboration Management ](https://apphub.webex.com/category/collaboration-management)
+  * [ Connect ](https://apphub.webex.com/category/connect)
+  * [ Contact Center ](https://apphub.webex.com/category/contact-center)
+  * [ Customer Relations ](https://apphub.webex.com/category/customer-relations)
+  * [ Customer Support ](https://apphub.webex.com/category/customer-support)
+  * [ Developer Tools ](https://apphub.webex.com/category/developer-tools)
+  * [ Doc Management ](https://apphub.webex.com/category/doc-management)
+  * [ Education ](https://apphub.webex.com/category/education)
+  * [ Finance ](https://apphub.webex.com/category/accounting-and-finance)
+  * [ Flow Designer ](https://apphub.webex.com/category/flow-designer)
+  * [ Government ](https://apphub.webex.com/category/government)
+  * [ Healthcare ](https://apphub.webex.com/category/healthcare)
+  * [ Human Resources ](https://apphub.webex.com/category/human-resources)
+  * [ Internet of Things ](https://apphub.webex.com/category/devices-and-iot)
+  * [ Marketing & Sales ](https://apphub.webex.com/category/marketing)
+  * [ Orchestration ](https://apphub.webex.com/category/orchestration)
+  * [ Partner Solutions ](https://apphub.webex.com/category/partner-solutions)
+  * [ Platform ](https://apphub.webex.com/category/platform)
+  * [ Productivity ](https://apphub.webex.com/category/productivity)
+  * [ Project Management ](https://apphub.webex.com/category/project-management)
+  * [ Recording & Transcriptions ](https://apphub.webex.com/category/recording-and-transcriptions)
+  * [ Robin Test Category ](https://apphub.webex.com/category/robin)
+  * [ Security & Compliance ](https://apphub.webex.com/category/security-and-compliance)
+  * [ Self Service & Bots ](https://apphub.webex.com/category/self-service-and-bots)
+  * [ Social and Fun ](https://apphub.webex.com/category/social)
+  * [ Strategy & Team Planning ](https://apphub.webex.com/category/strategy-and-team-planning)
+  * [ Workflow & Automation ](https://apphub.webex.com/category/workflow-and-automation)
+  * [ Workforce Optimization ](https://apphub.webex.com/category/Workforce-Optimization)
+  * [ Other ](https://apphub.webex.com/category/other)
+
+
+Featured apps
+  * [ Most popular ](https://apphub.webex.com/must-try)
+  * [ Brand new ](https://apphub.webex.com/brand-new)
+  * [ Partner solutions ](https://apphub.webex.com/partner-solutions)
+
+
+[ Build Apps ](https://developer.webex.com)
+Log out 
+Back
+* * *
+![22Miles Enterprise logo](https://avatar-prod-us-east-2.webexcontent.com/Avtr~V1~7004f32e-4d14-4837-b68c-ae6c839b8331/V1~8af5c7a225dcaf8d75e7e9f08418b13e0c7f0cf6744beb78b2428b8d7433b195~08d255cb598a46518e789da578ebb2c2)
+#### 22Miles Enterprise
+Combining 22Miles modern workplace digital connections and Webex streamlines how enterprises communicate, share information, and use resources to help productivity skyrocket from wherever team members operate.
+[ Learn more ](https://www.22miles.com/cisco/)
+![22Miles Enterprise logo](https://avatar-prod-us-east-2.webexcontent.com/Avtr~V1~7004f32e-4d14-4837-b68c-ae6c839b8331/V1~8af5c7a225dcaf8d75e7e9f08418b13e0c7f0cf6744beb78b2428b8d7433b195~08d255cb598a46518e789da578ebb2c2)
+#### 22Miles Enterprise
+Integration by [22miles, Inc](https://www.22miles.com)
+* * *
+Combining 22Miles modern workplace digital connections and Webex streamlines how enterprises communicate, share information, and use resources to help productivity skyrocket from wherever team members operate.
+[ Learn more ](https://www.22miles.com/cisco/)
+Integration by [22miles, Inc](https://www.22miles.com)
+22Miles offers a unified digital suite of applications for remote and workplace collaboration, space utilization, and communication to create effective, productive employee environments.
+Elevate Webex experiences with 22Miles’ key features:
+● Create, manage, and publish real-time or scheduled corporate messaging to teams and collaborators in Webex Teams spaces.
+● Schedule and book conference rooms with Office 365 and Google Calendar integration.
+● View meeting room details, including occupancy status and density, number of seats, available Cisco devices, and more.
+● Broadcast emergency alerts or notifications across all workplace displays and mobile devices.
+● Any Webex device (active or idle) can display essential data such as KPIs, branded messaging, videos, web content, etc.
+See <https://www.22miles.com/Cisco/> for details. Contact us to try it for free <https://www.22miles.com/contact-us/>. To see a demo, and for more information on subscription options and pricing, contact a 22Miles representative.
+##### Support
+* * *
+  * ![Developer Support](https://apphub.webex.com/images/developer-support.png)[Developer Support](https://www.22miles.com/support-form/)
+  * ![Privacy Policy](https://apphub.webex.com/images/privacy.png)[Privacy Policy](https://app.termly.io/document/privacy-policy/4a753c7b-ef71-4856-bf0b-8a44eec9f4a7)
+  * ![Disclaimer](https://apphub.webex.com/images/disclaimer_icon_16x16.png)Disclaimer
+
+
+##### Categories
+* * *
+[Most Popular](https://apphub.webex.com/must-try)
+[Meeting](https://apphub.webex.com/meetings)
+[Collaboration Management](https://apphub.webex.com/category/collaboration-management)
+[Platform](https://apphub.webex.com/category/platform)
+[Other](https://apphub.webex.com/category/other)
+22Miles offers a unified digital suite of applications for remote and workplace collaboration, space utilization, and communication to create effective, productive employee environments.
+Elevate Webex experiences with 22Miles’ key features:
+● Create, manage, and publish real-time or scheduled corporate messaging to teams and collaborators in Webex Teams spaces.
+● Schedule and book conference rooms with Office 365 and Google Calendar integration.
+● View meeting room details, including occupancy status and density, number of seats, available Cisco devices, and more.
+● Broadcast emergency alerts or notifications across all workplace displays and mobile devices.
+● Any Webex device (active or idle) can display essential data such as KPIs, branded messaging, videos, web content, etc.
+See <https://www.22miles.com/Cisco/> for details. Contact us to try it for free <https://www.22miles.com/contact-us/>. To see a demo, and for more information on subscription options and pricing, contact a 22Miles representative.
+  * [ ![screenshot](https://developer-applications.webexcontent.com/screenshot1-b2359e26-7a15-41a2-a978-6df10cbe1b95-Webex-TechGroup-Images.jpg) ](https://apphub.webex.com/applications/22miles-enterprise-22miles-inc)
+  * [ ![screenshot](https://developer-applications.webexcontent.com/screenshot2-a27ce244-9937-4c70-8b63-2bd796b1ec80-Webex-Room-Booking-Screenshot2.jpg) ](https://apphub.webex.com/applications/22miles-enterprise-22miles-inc)
+  * [ ![screenshot](https://developer-applications.webexcontent.com/screenshot3-8ef0d1b7-2eb6-40e6-9d18-704e171efe6a-screenshot4.jpg) ](https://apphub.webex.com/applications/22miles-enterprise-22miles-inc)
+
+
+* * *
+### most popular
+[See All ](https://apphub.webex.com/must-try)
+[ ![BirthdayBot logo](https://avatar-prod-us-east-2.webexcontent.com/Avtr~V1~6078fba4-49d9-4291-9f7b-80116aab6974/V1~1c87394f-68fd-4ed2-a2d3-272e68759414~11509a6f9dd64999859607b209f4e7a8~640) BirthdayBot  Social and Fun, Other ](https://apphub.webex.com/applications/birthdaybot-cisco-systems-87166)
+[ ![Shared Timer logo](https://avatar-prod-us-east-2.webexcontent.com/Avtr~V1~1eb65fdf-9643-417f-9974-ad72cae0e10f/V1~ed4025b9dd3b84850ff363faf6086adc18f84054224f4e4861ab2847a12ec95b~b0412ffcce534627b84c0aece077d354?quarantineState=evaluating) Shared Timer  Collaboration Management, Productivity ](https://apphub.webex.com/applications/shared-timer-cisco-systems-22689)
+[ ![TeleMate Predictive UC logo](https://avatar-prod-us-east-2.webexcontent.com/Avtr~V1~2898506d-89bf-4c35-b412-3062783f58f0/V1~c1bd4f6c8f4c9135a16d123b8cd734f909cd019d529af9016e0ad3265b73194e~023cb03f584c4008b0f1fbc5af00ba9f?quarantineState=evaluating) TeleMate Predictive UC  Analytics, Collaboration Management, Productivity ](https://apphub.webex.com/applications/telemate-predictive-uc-telemate)
+[ ![Billsby logo](https://avatar-prod-us-east-2.webexcontent.com/Avtr~V1~bdd2aed2-da17-481d-bd6f-b43037ee90b7/V1~2a4fedb83cedc076db9f97456723ccd318964abf30ea4100124dd2db05f7c1ef~c7a5c1c3bfc1476d833c71ddd88ee7a0) Billsby  Accounting & Finance, Collaboration Management ](https://apphub.webex.com/applications/billsby-billsby)
+[See All](https://apphub.webex.com/must-try)
+## Resources
+  * Why Webex 
+  * Download Webex 
+  * Webex Blog 
+
+
+## Build and Promote
+  * Submit App 
+  * Webex for Developers 
+  * Webex Ambassadors 
+
+
+## Support
+  * App Hub Feedback 
+  * Webex Help Center 
+  * Webex Community 
+
+
+## Legal
+  * Terms of Service 
+  * Privacy Policy 
+  * Cookie Policy 
+  * Trademarks 
+  * Disclaimer
+
+
+© 2026 Cisco and/or its affiliates.
+[ ](https://twitter.com/webexdevs)[ ](https://www.linkedin.com/company/cisco/)
+#### Disclaimer for Apps
+## This Site is Copyright © 1992-2026 Cisco and/or its affiliates. All rights reserved.
+  
+This app is offered by a third-party developer that is not affiliated with Cisco. Your installation and use of the app is subject to the developer's terms and conditions and privacy policy. Cisco is not responsible or liable to you or others for a third-party app, does not control, endorse, or make any representations or warranties about third-party apps, and you are responsible for evaluating and using a third-party app, its features and functionality. Please contact the developer directly with any questions or complaints. Apps may be offered by third-party developers not affiliated with Cisco. Your installation and use of a third-party app will be subject to the developer's own terms and conditions and privacy policy. Cisco is not responsible or liable to you or others for a third-party app, does not control, endorse, or make any representations or warranties about third-party apps, and you are responsible for evaluating and using a third-party app, its features and functionality. Please view the app's information page for information about the developer of any app, and contact the developer directly with any questions or complaints.
+Got it 
+![](https://t.co/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=5383ea2b-476d-40b9-b3c8-7f76885be97c&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=82e6cfb6-1b38-4ae1-8d3f-35c846bf1374&pt=22Miles%20Enterprise%20-%20Webex%20App%20Hub&tw_document_href=https%3A%2F%2Fapphub.webex.com%2Fapplications%2F22miles-enterprise-22miles-inc&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1786577888778.72394052159556157&txn_id=o1rwk&type=javascript&version=2.4.1)![](https://analytics.twitter.com/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=5383ea2b-476d-40b9-b3c8-7f76885be97c&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=82e6cfb6-1b38-4ae1-8d3f-35c846bf1374&pt=22Miles%20Enterprise%20-%20Webex%20App%20Hub&tw_document_href=https%3A%2F%2Fapphub.webex.com%2Fapplications%2F22miles-enterprise-22miles-inc&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1786577888778.72394052159556157&txn_id=o1rwk&type=javascript&version=2.4.1)![](https://t.co/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=ecea2ce4-c5be-4f28-97c8-7f9ed7960e7d&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=82e6cfb6-1b38-4ae1-8d3f-35c846bf1374&pt=22Miles%20Enterprise%20-%20Webex%20App%20Hub&tw_document_href=https%3A%2F%2Fapphub.webex.com%2Fapplications%2F22miles-enterprise-22miles-inc&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1786577888778.72394052159556157&txn_id=o4k82&type=javascript&version=2.4.1)![](https://analytics.twitter.com/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=ecea2ce4-c5be-4f28-97c8-7f9ed7960e7d&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=82e6cfb6-1b38-4ae1-8d3f-35c846bf1374&pt=22Miles%20Enterprise%20-%20Webex%20App%20Hub&tw_document_href=https%3A%2F%2Fapphub.webex.com%2Fapplications%2F22miles-enterprise-22miles-inc&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1786577888778.72394052159556157&txn_id=o4k82&type=javascript&version=2.4.1)
