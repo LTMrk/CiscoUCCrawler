@@ -226,13 +226,12 @@ async def deep_crawl():
                     process_iframes=True,
                     cache_mode=CacheMode.BYPASS,
                     magic=True,
-                    capture_screenshot=True,
+                    screenshot=True, # HECHO TÉCNICO: Nomenclatura estandarizada de la API
                     js_code="""
-                        await new Promise(r => setTimeout(r, 15000));
+                        await new Promise(r => setTimeout(r, 10000)); 
                         window.final_content = document.body.innerHTML;
                     """
-                )
-                
+                )          
                 # DIAGNÓSTICO VISUAL: Mismo nivel de indentación que "result =" (16 espacios)
                 if result.screenshot:
                     import base64
