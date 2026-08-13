@@ -8410,5 +8410,9 @@
   "https://developer.webex.com/docs/api/v1/hybrid-connectors": {
     "hash": "1d3ac01ca669c4050d8f21ead0154dea15f4c412c39ac2df2fd4e5b51ea138b9",
     "timestamp": "2026-08-13T02:22:41.506502"
+  },
+  "https://developer.webex.com/docs/api/v1/admin-audit-events": {
+    "hash": "7212bb73f4f28cdc6772e6a83990c42b6926742bd7d3605207ca6180c467bc4b",
+    "timestamp": "2026-08-13T02:22:47.671269"
   }
 }
