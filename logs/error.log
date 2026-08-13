@@ -39,3 +39,5 @@
 [2026-08-12T23:46:19.274951] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.cisco.com/c/en/us/products/unified-communications/index.html
 [2026-08-12T23:48:18.522540] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://help.webexconnect.io
 [2026-08-12T23:48:20.912559] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://help.webexconnect.io/docs
+[2026-08-13T00:17:41.883875] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text on small page (3996 bytes, 45 chars visible) | URL: https://help.webexconnect.io/edit/welcome
+[2026-08-13T00:17:44.597030] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://help.webexconnect.io/docs/send-sms
