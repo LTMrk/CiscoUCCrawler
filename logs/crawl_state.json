@@ -8486,5 +8486,9 @@
   "https://www.webex.com/manage/myaccount/index.html": {
     "hash": "f5d69e4b3df918db6ac291144ca5363e457fad53e7a1df89f95aed13a3acf570",
     "timestamp": "2026-08-13T02:24:52.375411"
+  },
+  "https://developer.webex.com/docs/api/v1/rooms": {
+    "hash": "a34b258ec042137e71c351b6fcd737d1c39160f739c835985665e5a131bd4281",
+    "timestamp": "2026-08-13T02:25:07.595958"
   }
 }
