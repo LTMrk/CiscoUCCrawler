@@ -334,3 +334,7 @@ Code context:
 [2026-08-13T12:21:33.101241] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/customers.html
 [2026-08-13T12:21:34.714208] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (14597 bytes, 0 chars visible) | URL: https://academy.webex.com
 [2026-08-13T12:21:36.026440] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/content/webex/c/en_US/index/video-conferencing.html
+[2026-08-13T12:21:47.630580] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/content/webex/c/en_US/index/web-conferencing.html
+[2026-08-13T12:21:49.020152] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/content/webex/c/en_US/index/online-meetings.html
+[2026-08-13T12:21:50.291915] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/content/webex/c/en_US/index/conference-call.html
+[2026-08-13T12:21:51.528622] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/learn/webinars-demos.html
