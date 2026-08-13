@@ -45591,3 +45591,182 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/blog/cisco-live-2026-las-vegas-webex-developer-sessions-to-add-to-your-schedule
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/blog/cisco-live-2026-las-vegas-webex-developer-sessions-to-add-to-your-schedule)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/blog/cisco-live-2026-las-vegas-webex-developer-sessions-to-add-to-your-schedule)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/blog/cisco-live-2026-las-vegas-webex-developer-sessions-to-add-to-your-schedule)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+# Cisco Live 2026 Las Vegas: Webex Developer Sessions to Add to Your Schedule
+May 8, 2026
+![Adam Weeks](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt3280371eceea2196/6a60ed759ee77e32d96ed610/Adam_Headshot_Cropped.png?width=100&height=100&fit=crop)
+Adam WeeksTechnical Leader, Webex Developer Relations
+![Cisco Live 2026 Las Vegas: Webex Developer Sessions to Add to Your Schedule](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt4059334f3f3140fb/6a0b548bca31e31de70e3201/cisco-live-us-vegas-2026.png?width=900&height=317&fit=crop)
+Cisco Live 2026 lands in Las Vegas May 31–June 4, at the Mandalay Bay Convention Center — and if you build with Webex, this year's developer lineup is the strongest yet. Whether you're deep in contact center automation, experimenting with agentic AI, or tracking the latest Webex programmability updates, there's a session built for what you're working on next.
+Already registered? Now is the time to add sessions to your schedule. Still deciding? [Register for Cisco Live](https://www.ciscolive.com/global/attend/registration-packages.html), then use the [Cisco Live Session Catalog](https://www.ciscolive.com/global/learn/session-catalog.html#/) to reserve the sessions that match what you are building next.
+### Why Developers Should Attend
+  * Get first-look access to the latest Webex APIs and SDKs — and hear directly from the engineers building them.
+  * Understand exactly where Cisco is heading with agentic AI — Model Context Protocol (MCP), AI Agent Studio, and external AI integrations — before it ships.
+  * Walk away with practical, working patterns for Service Apps, desk phone automation, Webex Contact Center widgets, Flow Designer, and the Generic Task API.
+  * Skip the docs and talk directly to the product leaders, engineers, and developer advocates who wrote them.
+
+
+### Sessions by Day
+Some sessions overlap, so plan your schedule early and reserve seats for the topics that matter most to you. Where conflicts exist, we've called them out to help you choose.
+#### Monday, June 1
+**[DEVNET-2454: Unlocking AI Agent Potential with Webex and Model Context Protocol](https://www.ciscolive.com/global/learn/session-catalog.html?search=DEVNET-2454#/)**  
+**Time:** 2:30 PM – 3:15 PM PDT  
+**Session type:** DevNet Theater  
+**Level:** Intermediate  
+**Speakers:** Adam Weeks
+Learn how developers and architects can connect AI agents with Webex using MCP. This session covers bringing external context into Cisco AI Assistant, using Webex as a real-time context source for custom agents, and applying secure integration and observability patterns to enterprise automation.
+**[BRKCCT-2033: Orchestrating AI-Powered Omni-Channel Workflows with Webex Contact Center Flow Designer](https://www.ciscolive.com/global/learn/session-catalog.html?search=BRKCCT-2033#/)**  
+**Time:** 3:30 PM – 5:00 PM PDT  
+**Session type:** Contact Center Breakout  
+**Level:** Intermediate  
+**Speakers:** Arunabh Bhattacharjee
+Take a technical look at the evolving Flow Designer experience for voice, digital, and AI agent workflows. Expect practical patterns for event triggers, AI agent fulfillments, work item routing, prebuilt integrations, custom nodes, and the new Flow AI Assistant.
+#### Tuesday, June 2
+**[DEVNET-1699: What's New in Webex Programmability: Innovate Across Suite and Contact Center](https://www.ciscolive.com/global/learn/session-catalog.html?search=DEVNET-1699#/)**  
+**Time:** 12:30 PM – 1:15 PM PDT  
+**Session type:** DevNet Theater  
+**Level:** Introductory  
+**Speakers:** Phil Bellanti; Adam Weeks
+Get a broad tour of the latest Webex APIs, SDKs, and extensibility features across the Webex Suite and Webex Contact Center. This is the best starting point of the week — if you want to know what's new and where to focus your build time, start here.
+**[DEVNET-2221: API-Driven Cisco Desk Phone 9800 Series: Automation with Webex APIs and xAPI](https://www.ciscolive.com/global/learn/session-catalog.html?search=DEVNET-2221#/)**  
+**Time:** 3:30 PM – 4:15 PM PDT  
+**Session type:** DevNet Theater  
+**Level:** Intermediate  
+**Speakers:** David Scott; Phil Bellanti
+Explore how Webex APIs, PhoneOS, and xAPI can automate provisioning, configuration, monitoring, and event-driven control for Cisco Desk Phone 9800 Series devices.
+**[DEVNET-1795: Modernize Your Contact Center: Route Any Task, Any Channel with Webex's New Generic Task API](https://www.ciscolive.com/global/learn/session-catalog.html?search=DEVNET-1795#/)**  
+**Time:** 4:30 PM – 5:15 PM PDT  
+**Session type:** DevNet Theater  
+**Level:** Intermediate  
+**Speakers:** Victor Vazquez; Joe Zanini
+Think routing a WhatsApp message, a form submission, or an IoT event through the same contact center logic as a phone call — this session shows you exactly how. The Generic Task API opens new kinds of customer interactions through a unified contact center experience, and this session focuses on real working examples and the business value of adding new channels without traditional routing limits.
+#### Wednesday, June 3
+**[IBOCCT-1011: Shape the Future: Flow Orchestration and Integrations in the Age of Agentic AI](https://www.ciscolive.com/global/learn/session-catalog.html?search=IBOCCT-1011#/)**  
+**Time:** 1:00 PM – 2:00 PM PDT  
+**Session type:** Contact Center Breakout  
+**Level:** Introductory  
+**Speakers:** Arunabh Bhattacharjee
+If you've hit the limits of deterministic flows and are wondering where AI agents fit in, this is the session to be in. Join an interactive discussion on the future of hybrid workflow orchestration, where autonomous AI agents work alongside deterministic flows. Bring your questions and ideas about Flow Designer, task routing, bring-your-own-channel patterns, custom nodes, and platform integrations.
+**⚠️ Scheduling conflict at 2:00 PM — choose based on your focus:**
+**[DEVWKS-2315: Building CTI Connector Using Webex Contact Center Widgets](https://www.ciscolive.com/global/learn/session-catalog.html?search=DEVWKS-2315#/)**  
+**Time:** 2:00 PM – 2:45 PM PDT  
+**Session type:** DevNet Workshop (Hands-On — Limited Seating)  
+**Level:** Intermediate  
+**Speakers:** Rajitha Kantheti
+In this hands-on workshop, learn how to embed contact center capabilities directly into business applications and CRM tools using Webex Contact Center widgets. This is the only hands-on workshop in this list — seats are limited. Add it to your schedule early if hands-on CRM integration work is your priority.
+**[DEVNET-2134: Discover and Build with Webex Service Apps: A Guide for Webex Developers](https://www.ciscolive.com/global/learn/session-catalog.html?search=DEVNET-2134#/)**  
+**Time:** 2:00 PM – 2:45 PM PDT  
+**Session type:** DevNet Theater  
+**Level:** Intermediate  
+**Speakers:** Joe Zanini
+Learn how Webex Service Apps support resilient, user-independent automation for business-critical workflows. This session is ideal if you're evaluating Service Apps for production automation and want to understand how they differ from standard integrations.
+Can't decide? Pick DEVWKS-2315 if you're building CRM integrations and want hands-on time. Pick DEVNET-2134 if you're evaluating Service Apps for a production workflow.
+**[DEVNET-2203: Integrating External AI into Voice Workflows in Webex Contact Center](https://www.ciscolive.com/global/learn/session-catalog.html?search=DEVNET-2203#/)**  
+**Time:** 4:00 PM – 4:45 PM PDT  
+**Session type:** DevNet Theater  
+**Level:** Intermediate  
+**Speakers:** Adam Weeks; Victor Vazquez
+Learn how to bring external AI capabilities into live Webex Contact Center voice workflows. The session covers patterns such as media forking, WebSockets, real-time transcription, latency considerations, and custom AI services.
+#### Thursday, June 4
+**⚠️ Scheduling conflict at 10:30 AM — choose based on your focus:**
+**[DEVNET-2763: Building and Extending AI Agents with Webex AI Agent Studio](https://www.ciscolive.com/global/learn/session-catalog.html?search=DEVNET-2763#/)**  
+**Time:** 10:30 AM – 11:15 AM PDT  
+**Session type:** DevNet Theater  
+**Level:** Intermediate  
+**Speakers:** Rajitha Kantheti; Adam Weeks
+Move from isolated AI features to orchestrated agent experiences. This session shows how to build and extend agents with external LLMs, real-time data, APIs, MCP, and agent-to-agent patterns in Webex AI Agent Studio.
+**[BRKCCT-2664: Webex Contact Center — Transforming Customer Experience Through a Modernized CRM Integration Framework](https://www.ciscolive.com/global/learn/session-catalog.html?search=BRKCCT-2664#/)**  
+**Time:** 10:30 AM – 11:30 AM PDT  
+**Session type:** Contact Center Breakout  
+**Level:** Intermediate  
+**Speakers:** Jay Ikram; Arunabh Bhattacharjee
+Explore how native Webex integrations for Salesforce, ServiceNow, EPIC, AI Agent, and BYO-CCaaS can streamline agent workflows and connect customer, employee, and patient journeys.
+Can't decide? Pick DEVNET-2763 if your focus is building and orchestrating AI agents. Pick BRKCCT-2664 if your priority is CRM integration architecture and modernizing contact center workflows.
+### Beyond the Sessions — Visit the DevNet Zone
+Scheduled sessions are only part of the picture. Stop by the DevNet Zone throughout the week for drop-in labs, live demos, and direct conversations with developer advocates. It's one of the best places at Cisco Live to go deeper on what you heard in a session or get hands-on with something new — no reservation required.
+### Build Your Schedule
+  * [Register for Cisco Live 2026 Las Vegas](https://www.ciscolive.com/global/attend/registration-packages.html) if you have not already.
+  * [Open the Cisco Live Session Catalog](https://www.ciscolive.com/global/learn/session-catalog.html#/) and search by session ID to add these sessions to your agenda.
+  * Visit [developer.webex.com](https://developer.webex.com/) before the event to explore the APIs, SDKs, and guides behind the sessions.
+
+
+See you in Las Vegas — and if you're already registered, head over to the [Webex Developer Community](https://cs.co/WebexDeveloperCommunity) and let us know which sessions you're most excited about.
+Blog Categories
+  * [Product Announcements](https://developer.webex.com/blog/categories/product-announcements)
+  * [How To](https://developer.webex.com/blog/categories/how-tos)
+  * [Events](https://developer.webex.com/blog/categories/events)
+  * [Developer Stories](https://developer.webex.com/blog/categories/developer-stories)
+
+
+Share This Article
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
