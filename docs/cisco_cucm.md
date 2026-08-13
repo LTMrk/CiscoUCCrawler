@@ -2261,3 +2261,304 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/tsd-products-support-translated-end-user-guides-list.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/tsd-products-support-translated-end-user-guides-list.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/tsd-products-support-translated-end-user-guides-list.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/tsd-products-support-translated-end-user-guides-list.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/tsd-products-support-translated-end-user-guides-list.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
+  * [Cisco Unified Communications Manager (CallManager)](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html)
+
+
+# Translated End-User Guides
+Some links below may open a new browser window to display the document you selected.  
+|  View Documents by Topic  Choose a Topic Cisco Unified Communications Manager Version 15 Cisco Unified Communications Manager Version 14 Cisco Unified Communications Manager Version 12.5 [Choose a Topic](javascript:void\(0\))
+  * Choose a Topic
+  * Cisco Unified Communications Manager Version 15
+  * Cisco Unified Communications Manager Version 14
+  * Cisco Unified Communications Manager Version 12.5
+
+ |  
+| --- |  
+  * Cisco Unified Communications Manager Version 15
+    * [A Cisco Unified Communications Manager és a IM and Presence szolgáltatás kompatibilitási mátrixa, 15x kiadás](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_hu_HU.pdf) (PDF - 1 MB)
+    * [Brugervejledning til Cisco Unified Communications Self Care Portal, version 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_da_DK.pdf) (PDF - 2 MB)
+    * [Brukerveiledning for Selvbetjeningsportal for Cisco Unified Communications, versjon 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_no_NO.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Manager ve IM and Presence Hizmeti, Sürüm 15x için Uyumluluk Matrisi](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_tr_TR.pdf) (PDF - 1 MB)
+    * [Cisco Unified Communications Manager システム設定ガイド, リリース 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/15/systemConfig/Localization/cucm_b_system-configuration-guide-15_ja_JP.pdf) (PDF - 9 MB)
+    * [Cisco Unified Communications Manager リリース 15 アドミニストレーション ガイド](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/Localization/cucm_b_administration-guide-15_ja_JP.pdf) (PDF - 8 MB)
+    * [Cisco Unified Communications Manager リリース 15 機能設定ガイド](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/Localization/cucm_b_feature-configuration-guide-for-15_ja_JP.pdf) (PDF - 11 MB)
+    * [Cisco Unified Communications Manager 和 IM and Presence 服務的相容性矩陣，版本 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_zh_TW.pdf) (PDF - 1 MB)
+    * [Cisco Unified Communications Manager 版本 15 功能配置指南](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/Localization/cucm_b_feature-configuration-guide-for-15_zh_CN.pdf) (PDF - 10 MB)
+    * [Cisco Unified Communications Manager 版本 15 和 SU 系統組態指南](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/15/systemConfig/Localization/cucm_b_system-configuration-guide-15_zh_TW.pdf) (PDF - 9 MB)
+    * [Cisco Unified Communications Manager 版本 15 系统配置指南](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/15/systemConfig/Localization/cucm_b_system-configuration-guide-15_zh_CN.pdf) (PDF - 9 MB)
+    * [Cisco Unified Communications Manager 第 15 版和 SU 的功能組態設定指南](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/Localization/cucm_b_feature-configuration-guide-for-15_zh_TW.pdf) (PDF - 10 MB)
+    * [Cisco Unified Communications Manager 管理指南，发行版 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/Localization/cucm_b_administration-guide-15_zh_CN.pdf) (PDF - 7 MB)
+    * [Cisco Unified Communications Manager 管理指南，版本 15 和 SU](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/Localization/cucm_b_administration-guide-15_zh_TW.pdf) (PDF - 7 MB)
+    * [Cisco Unified Communications Manager 관리 설명서, 릴리스 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/Localization/cucm_b_administration-guide-15_ko_KR.pdf) (PDF - 7 MB)
+    * [Cisco Unified Communications Manager 시스템 구성 설명서, 릴리스 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/15/systemConfig/Localization/cucm_b_system-configuration-guide-15_ko_KR.pdf) (PDF - 9 MB)
+    * [Cisco Unified Communications Manager, 릴리스 15 기능 구성 설명서](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/Localization/cucm_b_feature-configuration-guide-for-15_ko_KR.pdf) (PDF - 11 MB)
+    * [Cisco Unified Communications Otomatik Bakım Portalı Kullanıcı Kılavuzu, Sürüm 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_tr_TR.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care Portal -itsepalveluportaalin käyttöopas, versio 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_fi_FI.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications önkiszolgáló portál – felhasználói útmutató, 15-es kiadás](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_hu_HU.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications פורטל שירות עצמי מדריך למשתמש, מהדורה 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_he_IL.pdf) (PDF - 2 MB)
+    * [Cisco vienoto sakaru pašapkalpošanās portāla lietotāja rokasgrāmata, 15. laidiens](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_lv_LV.pdf) (PDF - 2 MB)
+    * [Cisco ühtse kommunikatsioonide isehoolduse portaali kasutusjuhend, versioon 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_et_EE.pdf) (PDF - 2 MB)
+    * [Ghid utilizator Portal de comunicații Cisco Unified, versiunea 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_ro_RO.pdf) (PDF - 2 MB)
+    * [Guia d'usuari del Portal d'administració automàtica de Cisco Unified Communications, versió 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_ca_ES.pdf) (PDF - 2 MB)
+    * [Guia do utilizador do Portal de ajuda do Cisco Unified Communications, versão 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_pt_PT.pdf) (PDF - 2 MB)
+    * [Guida per l'utente del Portale Self Care di Cisco Unified Communications, versione 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_it_IT.pdf) (PDF - 2 MB)
+    * [Guide de l'utilisateur du Portail d'aide en libre-service pour Cisco Unified Communications, version 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_fr_FR.pdf) (PDF - 2 MB)
+    * [Guía del usuario del portal de atención automática de Cisco Unified Communications, versión 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_es_CO.pdf) (PDF - 2 MB)
+    * [Guía del usuario del portal de autogestión de Cisco Unified Communications, versión 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_es_ES.pdf) (PDF - 2 MB)
+    * [IM and Presence Service 15 版的配置和管理](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/15_0/Localization/cup0_b_config-and-admin-guide-15_zh_CN.pdf) (PDF - 6 MB)
+    * [IM and Presence Service リリース 15 コンフィギュレーションおよびアドミニストレーション](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/15_0/Localization/cup0_b_config-and-admin-guide-15_ja_JP.pdf) (PDF - 7 MB)
+    * [IM and Presence 服務版本 15 的組態與管理](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/15_0/Localization/cup0_b_config-and-admin-guide-15_zh_TW.pdf) (PDF - 6 MB)
+    * [IM and Presence 서비스, 릴리스 15의 구성 및 관리](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/15_0/Localization/cup0_b_config-and-admin-guide-15_ko_KR.pdf) (PDF - 7 MB)
+    * [Kompatibilitetsmatris för Cisco Unified Communications Manager och IM and Presence tjänsten, version 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_sv_SE.pdf) (PDF - 1 MB)
+    * [Kompatibilitetsmatrise for Cisco Unified Communications Manager og IM and Presence Service, versjon 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_no_NO.pdf) (PDF - 1 MB)
+    * [Kompatibilitetsmatrix for Cisco Unified Communications Manager og IM and Presence-tjenesten, version 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_da_DK.pdf) (PDF - 1 MB)
+    * [Korisnički vodič za Cisco Unified Communications Self Care Portal, izdanje 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_sr_RS.pdf) (PDF - 2 MB)
+    * [Korisnički vodič za portal samoodržavanja za Cisco Unified Communications, 15. izdanje](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_hr_HR.pdf) (PDF - 2 MB)
+    * [Matrica kompatibilnosti za Cisco Unified Communications Manager i IM and Presence servis, izdanje 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_hr_HR.pdf) (PDF - 1 MB)
+    * [Matrice de compatibilitate pentru Cisco Unified Communications Manager și serviciul IM and Presence, versiunea 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_ro_RO.pdf) (PDF - 1 MB)
+    * [Matrice de compatibilité pour Cisco Unified Communications Manager et le service IM and Presence, version 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_fr_FR.pdf) (PDF - 1 MB)
+    * [Matrice di compatibilità per Cisco Unified Communications Manager e il servizio IM and Presence, versione 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_it_IT.pdf) (PDF - 1 MB)
+    * [Matrice kompatibility pro Cisco Unified Communications Manager a službu IM and Presence, verze 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_cs_CZ.pdf) (PDF - 1 MB)
+    * [Matrika združljivosti za Cisco Unified Communications Manager in storitev IM and Presence, izdaja 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_sl_SI.pdf) (PDF - 1 MB)
+    * [Matriu de compatibilitat per a Cisco Unified Communications Manager i el servei IM and Presence, versió 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_ca_ES.pdf) (PDF - 1 MB)
+    * [Matriz de compatibilidad para Cisco Unified Communications Manager y el servicio IM and Presence, versión 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_es_CO.pdf) (PDF - 1 MB)
+    * [Matriz de compatibilidad para Cisco Unified Communications Manager y el servicio IM and Presence, versión 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_es_ES.pdf) (PDF - 1 MB)
+    * [Podręcznik użytkownika Portalu samoobsługowego Cisco Unified Communications, wersja 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_pl_PL.pdf) (PDF - 2 MB)
+    * [Používateľská príručka pre Samoobslužný portál systému Cisco Unified Communications, vydanie 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_sk_SK.pdf) (PDF - 2 MB)
+    * [Självbetjäningsportal för Cisco Unified Communications Användarmanual, version 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_sv_SE.pdf) (PDF - 2 MB)
+    * [Tabela zgodności dla Cisco Unified Communications Manager i usługi IM and Presence, wydanie 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_pl_PL.pdf) (PDF - 1 MB)
+    * [Uporabniški priročnik za portal za samopostrežbo za združene komunikacije Cisco, izdaja 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_sl_SI.pdf) (PDF - 2 MB)
+    * [Uživatelská příručka k samoobslužnému portálu systému Cisco Unified Communications, verze 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_cs_CZ.pdf) (PDF - 2 MB)
+    * [Οδηγός χρήσης της Πύλης αυτοεξυπηρέτησης της Cisco Unified Communications, Έκδοση 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_el_GR.pdf) (PDF - 2 MB)
+    * [Матрица за съвместимост за Cisco Unified Communications Manager и услугата IM and Presence, издание 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_bg_BG.pdf) (PDF - 1 MB)
+    * [Матриця сумісності для Cisco Unified Communications Manager та служби IM and Presence, випуск 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_uk_UA.pdf) (PDF - 1 MB)
+    * [Посібник користувача порталу самообслуговування Cisco Unified Communications, випуск 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_uk_UA.pdf) (PDF - 2 MB)
+    * [Ръководство за потребителя за портала за самостоятелно обслужване в Cisco Unified Communications User Guide, версия 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_bg_BG.pdf) (PDF - 2 MB)
+    * [מטריצת תאימות עבור Cisco Unified Communications Manager ושירות IM and Presence, מהדורה 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_he_IL.pdf) (PDF - 1 MB)
+    * [دليل مستخدم Cisco Unified Communications Self Care Portal، الإصدار 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_ar_SA.pdf) (PDF - 2 MB)
+    * [مصفوفة التوافق ل Cisco Unified Communications Manager وخدمة IM and Presence ، الإصدار 15x](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x_ar_SA.pdf) (PDF - 1 MB)
+    * [คู่มือผู้ใช้ Cisco Unified Communications Self Care Portal รุ่น 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_th_TH.pdf) (PDF - 2 MB)
+    * [„Cisco Unified Communications“ savitarnos portalo naudotojo vadovas, 15 versija](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_lt_LT.pdf) (PDF - 2 MB)
+    * [有關 Cisco Unified Communications 自助入口網站使用者指南，版本 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_zh_TW.pdf) (PDF - 2 MB)
+    * [有關 Cisco Unified Communications 自助入口網站用戶指南，版本 15](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/Localization/cucm_b_self-care-guide-for-15_zh_HK.pdf) (PDF - 2 MB)
+  * Cisco Unified Communications Manager Version 14
+    * [Brugervejledning til Cisco Unified Communications Self Care Portal, version 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_da_DK.pdf) (PDF - 2 MB)
+    * [Brukerveiledning for Cisco Unified Communications-selvbetjeningsportal, versjon 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_no_NO.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Benutzerportal Benutzerhandbuch, Version 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_de_DE.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Manager システム設定ガイド, リリース 14 および SUs](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14/systemConfig/Localization/cucm_b_system-configuration-guide-14su2_ja_JP.pdf) (PDF - 8 MB)
+    * [Cisco Unified Communications Manager 功能配置指南，版本 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14/Localization/cucm_b_feature-configuration-guide-for-cisco14_zh_TW.pdf) (PDF - 10 MB)
+    * [Cisco Unified Communications Manager 版本14 和SU 功能配置指 南](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14SU2/Localization/cucm_b_feature-configuration-guide-for-cisco14su2_zh_CN.pdf) (PDF - 10 MB)
+    * [Cisco Unified Communications Manager 版本 14 和 SU 系統組態指南](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14/systemConfig/Localization/cucm_b_system-configuration-guide-14su2_zh_TW.pdf) (PDF - 9 MB)
+    * [Cisco Unified Communications Manager 版本 14 和 SU 系统配置指南](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14/systemConfig/Localization/cucm_b_system-configuration-guide-14su2_zh_CN.pdf) (PDF - 9 MB)
+    * [Cisco Unified Communications Manager 版本 14 系统配置指南](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14/systemConfig/Localization/cucm_b_system-configuration-guide-14_zh_CN.pdf) (PDF - 8 MB)
+    * [Cisco Unified Communications Manager 第 14 版和 SU 的功能組態設定指南](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14SU2/Localization/cucm_b_feature-configuration-guide-for-cisco14su2_zh_TW.pdf) (PDF - 10 MB)
+    * [Cisco Unified Communications Manager 管理指南，发行版 14 和 SU](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14SU2/adminGd/Localization/cucm_b_administration-guide-14su2_zh_CN.pdf) (PDF - 5 MB)
+    * [Cisco Unified Communications Manager 管理指南，版本 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14/adminGd/Localization/cucm_b_administration-guide-14-0-1_zh_CN.pdf) (PDF - 7 MB)
+    * [Cisco Unified Communications Manager 管理指南，版本 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14/adminGd/Localization/cucm_b_administration-guide-14-0-1_zh_TW.pdf) (PDF - 6 MB)
+    * [Cisco Unified Communications Manager 管理指南，版本 14 和 SU](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14SU2/adminGd/Localization/cucm_b_administration-guide-14su2_zh_TW.pdf) (PDF - 7 MB)
+    * [Cisco Unified Communications Manager 管理指南，版本 14SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14/adminGd/Localization/cucm_b_administration-guide-14su1_zh_TW.pdf) (PDF - 6 MB)
+    * [Cisco Unified Communications Manager 適用的系統組態設定指南，第 14 版本](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14/systemConfig/Localization/cucm_b_system-configuration-guide-14_zh_TW.pdf) (PDF - 9 MB)
+    * [Cisco Unified Communications Manager 適用的系統組態設定指南，第 14SU (1) 版本](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14/systemConfig/Localization/cucm_b_system-configuration-guide-14su1_zh_TW.pdf) (PDF - 9 MB)
+    * [Cisco Unified Communications Manager 관리 설명서, 릴리스 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14/adminGd/Localization/cucm_b_administration-guide-14-0-1_ko_KR.pdf) (PDF - 7 MB)
+    * [Cisco Unified Communications Manager 관리 설명서, 릴리스 14 및 SU](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14SU2/adminGd/Localization/cucm_b_administration-guide-14su2_ko_KR.pdf) (PDF - 6 MB)
+    * [Cisco Unified Communications Manager 기능 구성 설명서, 릴리스 14 및 SU](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14SU2/Localization/cucm_b_feature-configuration-guide-for-cisco14su2_ko_KR.pdf) (PDF - 11 MB)
+    * [Cisco Unified Communications Manager 시스템 구성 설명서, 릴리스 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14/systemConfig/Localization/cucm_b_system-configuration-guide-14_ko_KR.pdf) (PDF - 9 MB)
+    * [Cisco Unified Communications Manager 시스템 구성 설명서, 릴리스 14 및 SU](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/14/systemConfig/Localization/cucm_b_system-configuration-guide-14su2_ko_KR.pdf) (PDF - 9 MB)
+    * [Cisco Unified Communications Otomatik Bakım Portalı Kullanıcı Kılavuzu, Sürüm 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_tr_TR.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care Portal -itsepalveluportaalin käyttöopas, versio 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_fi_FI.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care 入口網站使用者指南 14 版](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_zh_TW.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care 入口網站用戶指南，版本 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_zh_HK.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care 门户用户手册，版本 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_zh_CN.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care-portal gebruikershandleiding, versie 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_nl_NL.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications önkiszolgáló portál – felhasználói útmutató, 14-es kiadás](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_hu_HU.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications 셀프 케어 포털 사용 설명서, 릴리스 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_ko_KR.pdf) (PDF - 2 MB)
+    * [Cisco vienoto sakaru pašapkalpošanās portāla lietotāja rokasgrāmata, 14. laidiens](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_lv_LV.pdf) (PDF - 2 MB)
+    * [Cisco ühtse kommunikatsioonide isehooldamise portaali kasutusjuhend, versioon 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_et_EE.pdf) (PDF - 2 MB)
+    * [Guia d'usuari del Portal d'atenció personal de Cisco Unified Communications, versió 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_ca_ES.pdf) (PDF - 2 MB)
+    * [Guia do Usuário do Cisco Unified Communications Self Care Portal, Versão 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_pt_BR.pdf) (PDF - 2 MB)
+    * [Guia do utilizador do Cisco Unified Communications Self Care Portal, versão 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_pt_PT.pdf) (PDF - 2 MB)
+    * [Guida per l'utente del Portale Self Care di Cisco Unified Communications, versione 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_it_IT.pdf) (PDF - 2 MB)
+    * [Guide d'utilisation du portail d'aide en libre-service Cisco Unified Communications, version 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_fr_CA.pdf) (PDF - 2 MB)
+    * [Guide de l'utilisateur du Portail d'aide en libre-service pour Cisco Unified Communications, version 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_fr_FR.pdf) (PDF - 2 MB)
+    * [Guía del usuario del portal de atención automática de Cisco Unified Communications, versión 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_es_CO.pdf) (PDF - 2 MB)
+    * [Guía del usuario del portal de autoayuda de Cisco Unified Communications, versión 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_es_ES.pdf) (PDF - 2 MB)
+    * [IM and Presence サービスリリース 14 および SU 構成および管理](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/14_su2/Localization/cup0_b_config-and-admin-guide-14su2_ja_JP.pdf) (PDF - 7 MB)
+    * [IM and Presence 服務版本 14 的組態與管理](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/14_su2/Localization/cup0_b_config-and-admin-guide-14su2_zh_TW.pdf) (PDF - 6 MB)
+    * [IM and Presence 서비스, 릴리스 14 및 SU의 구성 및 관리](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/14_su2/Localization/cup0_b_config-and-admin-guide-14su2_ko_KR.pdf) (PDF - 7 MB)
+    * [IM and Presence 서비스, 릴리스 14의 구성 및 관리](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/14_0_1/Localization/cup0_b_config-and-admin-guide-1401_ko_KR.pdf) (PDF - 7 MB)
+    * [Korisnički vodič za portal sa samostalnim održavanjem Cisco Unified Communications, verzija 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_hr_HR.pdf) (PDF - 2 MB)
+    * [Podręcznik użytkownika Portalu samoobsługowego Cisco Unified Communications, wersja 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_pl_PL.pdf) (PDF - 2 MB)
+    * [Používateľská príručka pre Samoobslužný portál systému Cisco Unified Communications, vydanie 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_sk_SK.pdf) (PDF - 2 MB)
+    * [Självbetjäningsportal för Cisco Unified Communications Användarmanual, version 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_sv_SE.pdf) (PDF - 2 MB)
+    * [Uporabniški priročnik za samopomoč za združene komunikacije Cisco, izdaja 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_sl_SI.pdf) (PDF - 2 MB)
+    * [Uživatelská příručka k samoobslužnému portálu systému Cisco Unified Communications, verze 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_cs_CZ.pdf) (PDF - 2 MB)
+    * [Οδηγός χρήσης της Πύλης αυτοεξυπηρέτησης της Cisco Unified Communications, Έκδοση 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_el_GR.pdf) (PDF - 2 MB)
+    * [Посібник користувача порталу самообслуговування Cisco Unified Communications, випуск 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_uk_UA.pdf) (PDF - 2 MB)
+    * [Ръководство за потребителя за портала за самостоятелно обслужване в Cisco Unified Communications,версия 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_bg_BG.pdf) (PDF - 2 MB)
+    * [מדריך למשתמש Cisco Unified Communications Self Care Portal, מהדורה 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_he_IL.pdf) (PDF - 2 MB)
+    * [دليل مستخدم Cisco Unified Communications Self Care Portal، الإصدار 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_ar_SA.pdf) (PDF - 2 MB)
+    * [คู่มือผู้ใช้ Cisco Unified Communications Self Care Portal รุ่น 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_th_TH.pdf) (PDF - 2 MB)
+    * [„Cisco Unified Communications“ savitarnos portalo naudotojo vadovas, 14 versija](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/Localization/cucm_b_self-care-guide-for-14_lt_LT.pdf) (PDF - 2 MB)
+    * [即时消息和在线状态服务（版本 14 和 SU）的配置和管理](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/14_su2/Localization/cup0_b_config-and-admin-guide-14su2_zh_CN.pdf) (PDF - 6 MB)
+    * [配置及管理 IM and Presence 服务版本 14](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/14_0_1/Localization/cup0_b_config-and-admin-guide-1401_zh_CN.pdf) (PDF - 6 MB)
+    * [配置及管理 IM and Presence 服務版本 14.0](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/14_0_1/Localization/cup0_b_config-and-admin-guide-1401_zh_TW.pdf) (PDF - 6 MB)
+    * [配置及管理 IM and Presence 服務版本 14SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/14_su1/Localization/cup0_b_config-and-admin-guide-14su1_zh_TW.pdf) (PDF - 6 MB)
+  * Cisco Unified Communications Manager Version 12.5
+    * [Brugervejledning til Cisco Unified Communications Self Care Portal, version 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_da_DK.pdf) (PDF - 2 MB)
+    * [Brugervejledning til selvbetjeningsportal til Cisco Unified Communications, version 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_da_DK.pdf) (PDF - 2 MB)
+    * [Brukerveiledning for Cisco Unified Communications Self Care Portal, versjon 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_no_NO.pdf) (PDF - 2 MB)
+    * [Brukerveiledning for Cisco Unified Communications-selvbetjeningsportal, versjon 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_no_NO.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Benutzer-Portal, Benutzerhandbuch, Version 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_de_DE.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Benutzerportal, Benutzerhandbuch, Version 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_de_DE.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Manager 功能配置指南，版本 12.5(1)SU6](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU6/Localization/cucm_b_feature-configuration-guide-for-cisco12su6_zh_TW.pdf) (PDF - 10 MB)
+    * [Cisco Unified Communications Manager 和 IM and Presence Service 版本 12.5 (1) 說明文件指南](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/docguide/12_5_1/Localization/cucm_b_documentation-guide-cucm_imp_1251_zh_TW.pdf) (PDF - 1 MB)
+    * [Cisco Unified Communications Manager 管理指南，版本 12.5(1)SU6-SU7 及 12.5(1)SU7](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU6/adminGd/Localization/cucm_b_administration-guide-1251su6_zh_TW.pdf) (PDF - 7 MB)
+    * [Cisco Unified Communications Manager 管理指南，版本 12.5(1)SU4](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU4/Localization/cucm_b_administration-guide-1251su4_zh_TW.pdf) (PDF - 7 MB)
+    * [Cisco Unified Communications Manager 管理指南，版本 12.5(1)SU3](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU3/adminGd/Localization/cucm_b_administration-guide-1251su3_zh_TW.pdf) (PDF - 7 MB)
+    * [Cisco Unified Communications Self Care Portal -käyttöopas, versio 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_fi_FI.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care Portal -käyttöopas, versio 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_fi_FI.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care Portal Kullanıcı Kılavuzu, Sürüm 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_tr_TR.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care Portal User Guide, Release 12.5(1)‎ - מדריך למשתמש](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_he_IL.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care Portal User Guide, издание 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_bg_BG.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care Portali kasutusjuhend, väljaanne 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_et_EE.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care Portalı Kullanıcı Kılavuzu, Sürüm 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_tr_TR.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care 入口用戶指南，版本 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_zh_HK.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care 入口網站使用者指南 12.5(1) 版](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_zh_TW.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care 入口網站用戶指南，版本 12.5(1)SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_zh_HK.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care 门户用户指南 12.5(1) SU1 版](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_zh_CN.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications Self Care 门户网站用户指南 12.5(1) 版](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_zh_CN.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications önkiszolgáló portál – felhasználói útmutató, 12.5(1) SU1 kiadás](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_hu_HU.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications önkiszolgáló portál – felhasználói útmutató, 12.5(1)-es kiadás](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_hu_HU.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications 셀프 케어 포털 사용 설명서, 릴리스 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_ko_KR.pdf) (PDF - 2 MB)
+    * [Cisco Unified Communications 셀프 케어 포털 사용 설명서, 릴리스 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_ko_KR.pdf) (PDF - 2 MB)
+    * [Cisco vienoto sakaru pašapkalpošanās portāla lietotāja rokasgrāmata, laidiens 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_lv_LV.pdf) (PDF - 2 MB)
+    * [Cisco vienoto sakaru pašapkalpošanās portāla lietotāja rokasgrāmata, laidiens 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_lv_LV.pdf) (PDF - 2 MB)
+    * [Cisco ühtse kommunikatsioonide isehooldamise portaali kasutusjuhend, väljaanne 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_et_EE.pdf) (PDF - 2 MB)
+    * [Gebruikershandleiding voor Cisco Unified Communications Self Care Portal, versie 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_nl_NL.pdf) (PDF - 2 MB)
+    * [Gebruikershandleiding voor Cisco Unified Communications Self Care Portal, versie 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_nl_NL.pdf) (PDF - 2 MB)
+    * [Ghid de utilizare Portal de comunicaţii Cisco Unified, versiunea 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_ro_RO.pdf) (PDF - 2 MB)
+    * [Ghid de utilizare Portal de comunicații Cisco Unified, versiunea 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_ro_RO.pdf) (PDF - 2 MB)
+    * [Guia d'usuari de Cisco Unified Communications Self Care Portal, versió 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_ca_ES.pdf) (PDF - 2 MB)
+    * [Guia d'usuari del Portal d'atenció personal de Cisco Unified Communications, versió 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_ca_ES.pdf) (PDF - 2 MB)
+    * [Guia do Usuário do Cisco Unified Communications Self Care Portal, Versão 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_pt_BR.pdf) (PDF - 2 MB)
+    * [GuiadoUsuáriodoCiscoUnifiedCommunicationsSelfCarePortal, Versão12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_pt_BR.pdf) (PDF - 2 MB)
+    * [Guida per l'utente del Portale Self Care di Cisco Unified Communications, versione 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_it_IT.pdf) (PDF - 2 MB)
+    * [Guida per l'utente del Portale Self Care di Cisco Unified Communications, versione 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_it_IT.pdf) (PDF - 2 MB)
+    * [Guide de l'utilisateur du Portail d'aide en libre-service pour Cisco Unified Communications, version 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_fr_FR.pdf) (PDF - 2 MB)
+    * [Guide de l'utilisateur du Portail d'aide en libre-service pour Cisco Unified Communications, version 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_fr_FR.pdf) (PDF - 2 MB)
+    * [Guide de l'utilisateur du portail d'aide en libre-service pour Unified Communications de Cisco, version 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_fr_CA.pdf) (PDF - 2 MB)
+    * [Guidedel'utilisateurduportaild'aideenlibre-servicepourUnified CommunicationsdeCisco,version12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_fr_CA.pdf) (PDF - 2 MB)
+    * [Guía del usuario de Cisco Unified Communications Self Care Portal, versión 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_es_CO.pdf) (PDF - 2 MB)
+    * [Guía del usuario del portal de autoayuda de Cisco Unified Communications, versión 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_es_ES.pdf) (PDF - 2 MB)
+    * [Guía del usuario del portal de autoayuda de Cisco Unified Communications, versión 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_es_ES.pdf) (PDF - 2 MB)
+    * [IM and Presence Service 12.5(1) 版的配置和管理](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1/Localization/cup0_b_config-and-admin-guide-1251_zh_CN.pdf) (PDF - 6 MB)
+    * [IM and Presence 服務的組態和管理，版本 12.5(1)SU4 至 12.5(1)SU7](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su4/Localization/cup0_b_config-and-admin-guide-1251su4_zh_TW.pdf) (PDF - 6 MB)
+    * [IM and Presence 서비스, 릴리스 12.5(1)의 구성 및 관리](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1/Localization/cup0_b_config-and-admin-guide-1251_ko_KR.pdf) (PDF - 6 MB)
+    * [Korisnički priručnik za Cisco Unified Communications Self Care Portal, izdanje 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_sr_SR.pdf) (PDF - 2 MB)
+    * [Korisnički priručnik za Cisco Unified Communications Self Care portal, izdanje 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_sr_SR.pdf) (PDF - 2 MB)
+    * [Korisnički vodič za Portal samoodržavanja za Cisco Unified Communications, izdanje 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_hr_HR.pdf) (PDF - 2 MB)
+    * [Korisnički vodič za Portal samoodržavanja za Cisco Unified Communications, izdanje 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_hr_HR.pdf) (PDF - 2 MB)
+    * [Manual do utilizador do Cisco Unified Communications Self Care Portal, Versão 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_pt_PT.pdf) (PDF - 2 MB)
+    * [Navodila za uporabo portala za samopomoč Cisco Unified Communications, izdaja 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_sl_SI.pdf) (PDF - 2 MB)
+    * [Navodila za uporabo za portal za samopomoč Cisco Unified Communications, izdaja 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_sl_SI.pdf) (PDF - 2 MB)
+    * [Podręcznik użytkownika Portalu samoobsługowego Cisco Unified Communications, wersja 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_pl_PL.pdf) (PDF - 2 MB)
+    * [Podręcznik użytkownika Portalu samoobsługowego Cisco Unified Communications, wersja 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_pl_PL.pdf) (PDF - 2 MB)
+    * [Používateľská príručka pre Samoobslužný portál systému Cisco Unified Communications, vydanie 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_sk_SK.pdf) (PDF - 2 MB)
+    * [Používateľská príručka pre Samoobslužný portál systému Cisco Unified Communications, vydanie 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_sk_SK.pdf) (PDF - 2 MB)
+    * [Självbetjäningsportal för Cisco Unified Communications Användarmanual, version 12,5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_sv_SE.pdf) (PDF - 2 MB)
+    * [Självhjälpsportal för Cisco Unified Communications användarmanual, version 12.5 (1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_sv_SE.pdf) (PDF - 2 MB)
+    * [Uživatelská příručka k samoobslužnému portálu systému Cisco Unified Communications, verze 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_cs_CZ.pdf) (PDF - 2 MB)
+    * [Uživatelská příručka k samoobslužnému portálu systému Cisco Unified Communications, verze 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_cs_CZ.pdf) (PDF - 2 MB)
+    * [Οδηγός χρήστη Cisco Unified Communications Self Care Portal, Έκδοση 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_el_GR.pdf) (PDF - 2 MB)
+    * [Портал за самообслужване на Cisco Unified Communications, издание 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_bg_BG.pdf) (PDF - 2 MB)
+    * [מדריך למשתמש עבור פורטל שירות עצמי Cisco Unified Communications, הפצה 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_he_IL.pdf) (PDF - 2 MB)
+    * [دليل مستخدم Cisco Unified Communications Self Care Portal، الإصدار 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_ar_SA.pdf) (PDF - 2 MB)
+    * [دليل مستخدم مدخل العناية الداخلية لـ Cisco Unified Communications الإصدار 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_ar_SA.pdf) (PDF - 2 MB)
+    * [คู่มือผู้ใช้ Cisco Unified Communications Self Care Portal รุ่น 12.5(1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_th_TH.pdf) (PDF - 2 MB)
+    * [คู่มือผู้ใช้ Cisco Unified Communications Self Care Portal รุ่น 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_th_TH.pdf) (PDF - 2 MB)
+    * [„Cisco Unified Communications“ savitarnos portalo naudotojo vadovas, 12.5(1) SU1 versija](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_lt_LT.pdf) (PDF - 2 MB)
+    * [„Cisco Unified Communications“ savitarnos portalo naudotojo vadovas, 12.5(1) leidimas](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/cucm_b_selfcare-user-guide-1251_lt_LT.pdf) (PDF - 2 MB)
+    * [思科 Unified Communications Self Care 入口網站使用者指南 , 版本 12.5(1) SU1](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/Localization/12_5_1_SU1/cucm_b_cisco-unified-communications-self-care_125SU1_zh_TW.pdf) (PDF - 2 MB)
+    * [設定及管理 IM and Presence 服務版本 12.5 (1)](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1/Localization/cup0_b_config-and-admin-guide-1251_zh_TW.pdf) (PDF - 6 MB)
+
+
+## Support Documentation
+  * [All Support Documentation for this Series](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html#~tab-documents)
+
+
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
