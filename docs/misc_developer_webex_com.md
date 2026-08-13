@@ -21807,3 +21807,208 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/blog/a-deeper-dive-into-the-webex-bot-framework-for-node-js
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/blog/a-deeper-dive-into-the-webex-bot-framework-for-node-js)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/blog/a-deeper-dive-into-the-webex-bot-framework-for-node-js)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/blog/a-deeper-dive-into-the-webex-bot-framework-for-node-js)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+# A Deeper Dive Into the Webex Bot Framework for Node.js
+March 5, 2025
+![Phil Bellanti](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltcaa16bd81f3da66a/6153919e8440e97ef5829e0b/Phil_at_Cisco_Live.png?width=100&height=100&fit=crop)
+Phil BellantiSenior Webex Developer Evangelist
+![A Deeper Dive Into the Webex Bot Framework for Node.js](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blte34049b5389fe870/5e431e29c43f006b462745b1/webex-node-framework-tips-header.jpg?width=900&height=317&fit=crop)
+This blog post was originally published in February 2020 and has now been updated for 2025.
+In a [previous blog post](https://developer.webex.com/blog/from-zero-to-webex-teams-chatbot-in-15-minutes), we walked through the [Webex Bot Starter template](https://github.com/WebexSamples/webex-bot-starter) to get your very own bot running. Now, we will walk through the open-source [Webex Bot Framework for Node.js](https://github.com/WebexCommunity/webex-node-bot-framework) that was used to build the demo app and really made things a lot easier.
+The main idea for the framework is to make it simpler to develop [Webex bots](https://developer.webex.com/docs/bots) in Node.js. This allows you, the bot developer, to focus more on the end-user experience in Webex. It streamlines bot app development by abstracting away a lot of the complex parts, such as interacting with the API and registering webhooks. Since all that stuff is automated by the framework, you can concentrate more on the interactions between the bot and your end users. The project was originally inspired by the legacy [node-flint framework for Cisco Spark](https://github.com/flint-bot/flint) by Nick Marus.
+### Framework Handlers
+With this framework, the bot's interactions can be customized by implementing "handlers" in the code, which act on specific message or membership events in spaces where the bot has been added. The framework calls the handlers that you create to provide the essential logic of the bot.
+You can create handlers for almost any event in Webex -- you can find a full list of events in the [GitHub README](https://github.com/WebexCommunity/webex-node-bot-framework/blob/main/README.md#events) for the project. For instance, an important handler to use when new messages are sent to your bot is `framework.hears()` which lets you register the unique user commands that bots will listen for. Once the app _hears_ a command match from the user, your app can take action by implementing a `bot.say` for example, to respond by sending a message to the space. Full details of the `bot` object and its functions can be found [here](https://github.com/WebexCommunity/webex-node-bot-framework/blob/main/README.md#bot). 
+### Framework Highlights
+One of the best reasons to use this bot framework is to take advantage of some great built-in time saving mechanisms, allowing you to write less code. The framework gets this done by abstracting away some of the more complex Webex developer interfaces and streamlining a lot of the tedious parts of chat bot app development. 
+Here are just some of the things it does automatically for you:
+  * Registers all the necessary webhooks (when you provide a webhook URL) or websockets (when no URL is provided)
+  * Finds all the spaces the bot is in without having to script multiple API calls
+  * Knows when a person enters or leaves a space with the bot, or when someone sends a message to the bot
+
+
+The framework also makes other aspects of bot development easier, such as:
+  * Quickly reference details of a message and the person who sent it
+  * Responding with [Buttons & Cards](https://developer.webex.com/docs/api/guides/cards) without having to build the [Messages API](https://developer.webex.com/docs/api/v1/messages) call that includes attachments
+  * Ability to call the full range of Webex APIs from the [Webex JavaScript SDK](https://github.com/webex/webex-js-sdk)
+
+  
+
+### Common Framework Operations
+Generally, the lion's share of a bot's logic is based around responding to external events from either Webex or other systems and passing info back and forth between these systems. The framework makes it easy for developers to respond to Webex events like a new message or membership changes in spaces where the bot has been added. As a developer you need only to create a _handler_ for the Webex events you are interested in. When the app runs, the framework calls the _handlers_ that you created to run the essential logic of the bot.
+Probably the most common handler you'll write for new messages, is `framework.hears()` which allows your bot to "listen" for your predefined commands. The command can be specified as a **string** or **regular expression**. As such, when the app _hears_ a match of specific command from the user, the `framework.hears` function will be called. Then the framework passes some important parameters to that function:
+  * The [bot object](https://github.com/webex/webex-bot-node-framework/blob/master/README.md#bot) represents the instance of your bot in the specific space where the message was sent.
+  * The [trigger object](https://github.com/webex/webex-bot-node-framework/blob/master/README.md#Trigger) includes details about the message itself and the person that sent it.
+
+
+The `bot` object also has functions you can call to have your bot take certain actions, for example, the `bot.say()` function can be used to send a message in the space. Full details of the bot object and its functions can be found in the [framework's documentation](https://github.com/webex/webex-bot-node-framework/blob/master/README.md#bot).
+In the example below, when the bot hears the word "hello", it will respond to the user with a personalized greeting using the **trigger object** data:
+
+```
+framework.hears('hello', function (bot, trigger) {
+  console.log("I heard a hello.");
+  bot.say('Hello, ' + trigger.person.displayName);
+});
+
+```
+
+Another important handler is `framework.on('spawn')`, which gets called whenever your bot is added to a space. When your bot server first starts, the **spawn** handler is called for the recent spaces that your bot is already in. Afterwards, it will get called anytime someone adds your bot to a new space or if there is new activity in an older space that your bot is already in. If the `addedBy` parameter is set, it means your bot has just been added to a new space. To help you differentiate those cases, refer to the example handler below:
+
+```
+framework.on('spawn', function (bot, id, addedBy) {
+  if (addedBy) {
+    // addedBy is the ID of the user who just added our bot to a new space,
+    // Say hello, and tell users what you do!
+    bot.say('Hi there, you can say hello to me.  Don\'t forget you need to mention me in a group space!');
+  } else {
+    // don't say anything here or your bot's spaces will get
+    // spammed every time your server is restarted
+    console.log('Framework created an object for an existing bot in a space called: ' + bot.room.title);
+  }
+});
+
+```
+
+Again, you can find a full list of framework events, such as the spawn event, in the [framework documentation](https://github.com/webex/webex-bot-node-framework/blob/master/README.md#spawn).
+#### Using Buttons and Cards
+There can also be scenarios where your bot may need to have more complex interactions with the user that would be inefficient over regular text. In cases like these, a better way for your bot to respond to a `framework.hears()` command is by sending a [card](https://developer.webex.com/docs/api/guides/cards#working-with-cards) instead of just a text message. This can be done by calling `bot.sendCard()` in place of `bot.say()` function. This example handler sends a card in response to any input and includes markdown `fallbackText` for clients that are unable to render the card: 
+
+```
+framework.hears(/.*/, (bot) => {
+  const fallbackText = "We just need a [few more details](https://www.example.com/form/book-vacation) to book your trip.";
+  bot.sendCard(cardBody, fallbackText);
+});
+
+// define the contents of an adaptive card to collect some user input
+let cardBody = {
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    { ...
+    }];
+
+```
+
+When a card includes an `Action.Submit` button, the framework will automatically generate an `attachmentAction` event whenever a user clicks on it. Applications can process these events by implementing a `framework.on('attachmentAction')` handler, like this:
+
+```
+framework.on('attachmentAction', (bot, trigger) => {
+  bot.say(`Got an attachmentAction:\n${JSON.stringify(trigger.attachmentAction, null, 2)}`);
+});
+
+```
+
+The parameters passed to this hander include the `bot` object for the space where the button was clicked along with a trigger that includes an `attachmentAction` object. 
+This is all demonstrated in the [buttons and cards example app](https://github.com/webex/webex-bot-node-framework/blob/master/docs/buttons-and-cards-example.md) provided as part of the framework.
+### What About All the Other Webex APIs?
+Although the framework and the bot objects are there to make it easy to do the most common tasks, they don't prevent you from calling the full range of Webex APIs. The framework and bot objects include an instance of the [Webex JavaScript SDK](https://github.com/webex/webex-js-sdk) which provides the functions needed for calling any of the Webex API endpoints.
+For example, you might want your bot to say hello to everyone in a space. You can use the Webex JavaScript SDK to list all the members of the space to implement something like that:
+
+```
+framework.hears("say hi to everyone", function (bot, trigger) {
+  // Use the webex SDK to get the list of users in this space
+  bot.webex.memberships.list({roomId: bot.room.id})
+    .then((memberships) => {
+      for (const member of memberships.items) {
+        let displayName = (member.personDisplayName) ? member.personDisplayName : member.personEmail;
+        bot.say('Hello ' + displayName);
+      }
+    });
+});
+
+```
+
+The complete documentation for the Webex JavaScript SDK can be found here: <https://webex.github.io/webex-js-sdk/api>
+### Framework Support and Community Feedback
+Now that you've learned a lot about the framework, we'd love to hear about the bots you're building now or are planning to down the road. Click [here](https://eurl.io/#BJ7gmlSeU) to join the **Public Webex-Bot-Node-Framework Support** space in Webex and tell us about your cool bot ideas. You can also find help with any questions or get community support pertaining to the framework in that space.
+Blog Categories
+  * [Product Announcements](https://developer.webex.com/blog/categories/product-announcements)
+  * [How To](https://developer.webex.com/blog/categories/how-tos)
+  * [Events](https://developer.webex.com/blog/categories/events)
+  * [Developer Stories](https://developer.webex.com/blog/categories/developer-stories)
+
+
+Share This Article
+Related Articles
+![Introducing the Webex Bot Framework for Node.js](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltac7eb863b2dad1a0/5e431e288bb7876780f64f99/webex-node-framework-header.jpg?width=600&height=300&fit=crop)
+Product Announcements
+[Introducing the Webex Bot Framework for Node.js](https://developer.webex.com/blog/introducing-the-webex-teams-bot-framework-for-node-js)
+Phil Bellanti
+February 12, 2020
+![From Zero to Webex Chatbot in 15 Minutes](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt7ecfa2d750b2af80/64b80a590c8acebcdf02e826/15_min_bot_blog_banner.png?width=600&height=300&fit=crop)
+How-To
+[From Zero to Webex Chatbot in 15 Minutes](https://developer.webex.com/blog/from-zero-to-webex-teams-chatbot-in-15-minutes)
+Phil Bellanti
+July 19, 2023
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
