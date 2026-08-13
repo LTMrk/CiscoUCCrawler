@@ -58,3 +58,35 @@ Hang tight! We're preparing your download...
 
 [Powered by![Brandfolder logo](https://cdn.bfldr.com/27C9EC93/at/hf36pp9f9p46c9wpgr45shx/brandfolder-logo.svg)](https://brandfolder.com/home)
 [](https://resources.webex.com/webex-essentials/cisco-devices)[](https://resources.webex.com/webex-essentials/cisco-devices)
+
+
+---
+# ORIGEN: https://resources.webex.com/s/3kfmhmhtm2b4f7pbkkvsv
+
+[Skip to main content](https://resources.webex.com/s/3kfmhmhtm2b4f7pbkkvsv#main)
+[![Webex App administrators & users Logo](https://storage-us-gcs.bfldr.com/logo_image_v3/collection/6v7jsk7rbwc8t7hzhgqng5qk/20231206054406510980/Webex_logo_emIL_2X.png?Expires=1786674476&KeyName=gcs-bfldr-prod&Signature=qa8HrAvPgXNyZVOL5Oh9IUdrkS0=)](https://adopt.webex.com/)
+  * [Learn More](https://help.smartsheet.com/brandfolder)
+    * [ Knowledge Base](https://help.smartsheet.com/brandfolder "Brandfolder Knowledge Base")
+    * [What's New](https://brandfolder.com/product/timeline "Product Timeline")
+  * English (EN)
+  * [Sign In](https://resources.webex.com/organizations/webex/signin "Sign in")
+
+
+### You must have cookies enabled to view this site.
+# Control Hub Deployment Resources from [Webex Essentials’ Webex App administrators & users](https://resources.webex.com/webex-essentials/webex-administrators)
+18 Assets
+More Options
+Download All (134 MB - ZIP)
+Hang tight! We're preparing your download...
+[Webex App administrators & users](https://resources.webex.com/webex-essentials/webex-administrators "Webex App administrators & users")
+©2026 Brandfolder, Inc. Digital Asset Management
+· 
+  * [Cookie Preferences](javascript:;) · 
+  * [Privacy Policy](https://brandfolder.com/legal/privacy-policy "Privacy policy") · 
+  * [Terms of Service](https://brandfolder.com/legal/services-agreement "Terms of Service") · 
+  * [ Live Chat](javascript:; "Live Chat") · 
+  * [ Email Support](https://help.smartsheet.com/contact/brandfolder "Email Support")
+
+
+[Powered by![Brandfolder logo](https://cdn.bfldr.com/27C9EC93/at/hf36pp9f9p46c9wpgr45shx/brandfolder-logo.svg)](https://brandfolder.com/home)
+[](https://resources.webex.com/s/3kfmhmhtm2b4f7pbkkvsv)[](https://resources.webex.com/s/3kfmhmhtm2b4f7pbkkvsv)
