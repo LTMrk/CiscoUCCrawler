@@ -4618,5 +4618,9 @@
   "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-snort3-mime-vulns-tTL8PgVH.html": {
     "hash": "868559e80a3c19a186ba7fc25b3dbee170cb1ee3688093f00c091aaa3110e3f9",
     "timestamp": "2026-08-13T11:04:38.653932"
+  },
+  "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-snort3-dcerpc-vulns-J9HNF4tH.html": {
+    "hash": "1ebc51deef91568b423887ca292e3e62fc469548301092120a5f2bc1aebf5f5e",
+    "timestamp": "2026-08-13T11:04:42.830187"
   }
 }
