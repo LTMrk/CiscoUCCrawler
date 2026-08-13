@@ -53,3 +53,5 @@
 [2026-08-13T10:41:26.727131] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html
 [2026-08-13T10:41:28.056058] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.cisco.com/c/en/us/products/contact-center/cloud-contact-center-solutions/index.html
 [2026-08-13T10:41:37.233252] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.cisco.com/c/en/us/products/collateral/contact-center/webex-contact-center/datasheet-c78-744541.html
+[2026-08-13T11:44:27.136030] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (14597 bytes, 0 chars visible) | URL: https://academy.webex.com/learn
+[2026-08-13T11:44:28.498526] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/learn/webinars-demos.html
