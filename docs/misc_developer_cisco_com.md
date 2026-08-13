@@ -355,3 +355,98 @@ Try pre-built Cisco platforms to test APIs, SDKs, and solutions
 [Build](https://developer.cisco.com/sandbox/)
 
 
+
+
+---
+# ORIGEN: https://developer.cisco.com/site/devnet/home/index.gsp
+
+# Innovate, code, and build with 
+Cisco DevNet
+Search for
+“AI”
+Documentation
+Access API, SDK, data model documentation and more
+[Read](https://developer.cisco.com/docs/)
+Labs
+Automation and programmability labs featuring Cisco platforms
+[Innovate](https://developer.cisco.com/learning/)
+Sample Code
+Explore sample solutions and implementations in Code Exchange
+[Code](https://developer.cisco.com/codeexchange/)
+Sandbox
+Try pre-built Cisco platforms to test APIs, SDKs, and solutions
+[Build](https://developer.cisco.com/sandbox/)
+## See what’s new
+Featured
+New! Month of Partner Innovation
+Video series
+[ Sample Code New! AI Repos in Code Exchange Explore the central hub for cutting-edge MCP Servers, GenAI, and AI Agent repos [See repo](https://developer.cisco.com/codeexchange/ai/) ](https://developer.cisco.com/codeexchange/ai/)
+[ Topic Hub AI Topic Hub Check here often to see what Cisco and DevNet are doing with AI. [Visit](https://developer.cisco.com/ai/) ](https://developer.cisco.com/ai/)
+[ Event Cisco Live US 2026 See what sessions DevNet is offering in Las Vegas this year! [Details](https://www.ciscolive.com/global/learn/session-catalog.html?search.track=track_ciscoDeveloperServicesProgram#/) ](https://www.ciscolive.com/global/learn/session-catalog.html?search.track=track_ciscoDeveloperServicesProgram#/)
+[ Topic Hub New! Quantum Topic Hub Build and scale quantum-ready applications with Cisco’s unified networking stack. [Visit](https://developer.cisco.com/quantum/) ](https://developer.cisco.com/quantum/)
+[ Tool Splunk > Dev Deliver apps and integrations that bring new kinds of data into the Splunk platform [Visit](https://dev.splunk.com/) ](https://dev.splunk.com/)
+[ Tool CX Services As Code Integrating software development principles into network operations. [Visit](https://netascode.cisco.com/) ](https://netascode.cisco.com/)
+## Build with Cisco DevNet technology and services
+Networking
+Security
+Data Center
+IoT
+Collaboration
+Networking
+For discussions and more
+[Explore Developer community](https://cs.co/developer-community)
+Networking
+### Popular Networking products
+[ Meraki Leverage APIs to automate Cisco's Cloud Managed Infrastructure [Learn more](https://developer.cisco.com/meraki) ](https://developer.cisco.com/meraki)
+[ Network Services Orchestrator (NSO) Orchestrate, automate, and extend across your technology stack [Learn more](https://developer.cisco.com/site/nso) ](https://developer.cisco.com/site/nso)
+[ Cisco Catalyst Center Automate your network infrastructure [Learn more](https://developer.cisco.com/dnacenter) ](https://developer.cisco.com/dnacenter)
+[ Cisco Catalyst SD-WAN Programmatically deploy and manage devices with Cisco's overlay WAN architecture [Learn more](https://developer.cisco.com/sdwan) ](https://developer.cisco.com/sdwan)
+[ Crosswork Plan, design, implement, operate, and optimize your service provider network [Learn more](https://developer.cisco.com/crosswork) ](https://developer.cisco.com/crosswork)
+### Latest Networking resources
+[ Document Cisco Catalyst Center Platform Automate and Operate your network to configure and observe at scale API [View doc](https://developer.cisco.com/docs/dna-center/) ](https://developer.cisco.com/docs/dna-center/)
+[ Learning lab Introducing YANG Data Modeling for the Network What's YANG got to do with it? In this Lab you will find out all about it!. Networking [Learn](https://developer.cisco.com/learning/labs/intro-yang/) ](https://developer.cisco.com/learning/labs/intro-yang/)
+[ Sample code Nornir Script: Find Interfaces with CRC Errors Collects CRC errors from Cisco network devices and writes the data to a CSV file IOS XE [See repo](https://developer.cisco.com/codeexchange/github/repo/bsingh23/nornir_crc_errors/) ](https://developer.cisco.com/codeexchange/github/repo/bsingh23/nornir_crc_errors/)
+[ Sandbox IOS XE on Catalyst 8000v Explore API calls on the latest virtualized version of the Catalyst Reservable [Launch](https://devnetsandbox.cisco.com/DevNet/catalog/IOS%20XE%20on%20Cat8kv) ](https://devnetsandbox.cisco.com/DevNet/catalog/IOS%20XE%20on%20Cat8kv)
+[ Document Cisco Spaces Location Cloud API v2 This API guide provides an overview for getting information on devices and maps API [View doc](https://developer.cisco.com/docs/cisco-spaces-location/v2/) ](https://developer.cisco.com/docs/cisco-spaces-location/v2/)
+[ Learning lab Using Python to interact with the Cisco SD-WAN REST API Use Python to interact with the Cisco SD-WAN REST API Networking [Learn](https://developer.cisco.com/learning/labs/sd-wan-rest-api-python/) ](https://developer.cisco.com/learning/labs/sd-wan-rest-api-python/)
+[ Sample code semaphore Network telemetry using Apache Kafka in Confluent Cloud Meraki [See repo](https://developer.cisco.com/codeexchange/github/repo/netcraftsmen/semaphore/) ](https://developer.cisco.com/codeexchange/github/repo/netcraftsmen/semaphore/)
+[ Sandbox Cisco SD-WAN 20.10 Secure, cloud scale architecture that is open and programmable Reservable [Launch](https://developer.cisco.com/catalogs/sandbox/sd-wan) ](https://developer.cisco.com/catalogs/sandbox/sd-wan)
+For discussions and more
+[Explore Developer community](https://cs.co/developer-community)
+## Start your automation journey
+[Start Now! ](https://developer.cisco.com/startnow/)
+### Tracks
+[Network Programmability for Network Engineers](https://developer.cisco.com/learning/tracks/netprog-eng/)
+Explore YANG data models and NETCONF to query and configure IOS XE network devices
+[NSO Basics for Network Automation](https://developer.cisco.com/learning/tracks/get_started_with_nso/)
+Experience what Cisco Network Service Orchestrator (NSO) can do for you based on your role
+[Cisco XDR](https://developer.cisco.com/learning/tracks/cisco-xdr/)
+Explore XDR Automation, build some workflows, and see how workflows power multiple parts of Cisco XDR
+[All Tracks](https://developer.cisco.com/learning/search/tracks/)
+### Modules
+[Security](https://developer.cisco.com/learning/modules/security-threat-hunting/)
+Threat Hunting, a DevNet Security Test Drive Training. Includes Secure Endpoint, Secure Malware and Umbrella
+[Network](https://developer.cisco.com/learning/modules/nso/)
+NSO Intermediate and Advanced Topics
+[Collaboration](https://developer.cisco.com/learning/modules/collaboration-labs/)
+Integrate and build solutions with a variety of Webex features
+[All Modules](https://developer.cisco.com/learning/search/modules/)
+### Labs
+[Using Terraform with Meraki](https://developer.cisco.com/learning/labs/meraki-dashboard-terraform/)
+See how organizations can leverage Terraform to automate Meraki deployments
+[Getting Hands On with Ansible](https://developer.cisco.com/learning/labs/ansible-03_ansible-hands-on/ansible-hands-on/)
+Get hands-on experience using Ansible to automate tasks.
+[Using Ansbile with Meraki](https://developer.cisco.com/learning/labs/meraki-dashboard-ansible/introduction/)
+See how organizations can leverage Ansible to automate Meraki deployments
+[All Labs](https://developer.cisco.com/learning/search/labs/)
+[Start Now! ](https://developer.cisco.com/startnow/)
+Events for Developers
+  * [ In-Person Mandalay Bay, Las Vegas June 1, 2026 - June 4, 2026 Cisco Live US 2026 Explore Cisco's DevNet Zone live: Dive into automation, AI in IT, and Cisco tech. Connect, innovate, and discover cutting-edge solutions. Details ](https://www.ciscolive.com/global/learn/session-catalog.html?search.track=track_ciscoDeveloperServicesProgram#/)
+  * [ Virtual Virtual Wednesday 9am PT - 10am PT NetGru Livestream: Network Automation Simplified Details ](https://www.youtube.com/playlist?list=PL2k86RlAekM-Vv4pLLFYsQ6Re9BBIj4dt)
+[ Virtual Virtual Tuesday - Presented by DevNet and Cisco U. Snack Minute: Demos, API Insights, & Chats with IT Experts Details ](https://www.youtube.com/playlist?list=PL2AuQ_ZjCjsq_dipCVvUS7enTwk4_P7n5)
+
+
+[ Cisco Live US 2026 Explore Cisco's DevNet Zone live: Dive into automation, AI in IT, and Cisco tech. Connect, innovate, and discover cutting-edge solutions. June 1, 2026 - June 4, 2026 Mandalay Bay, Las Vegas In-Person Details ](https://www.ciscolive.com/global/learn/session-catalog.html?search.track=track_ciscoDeveloperServicesProgram#/)
+[ NetGru Livestream: Network Automation Simplified Join Adrian Iliesiu and special guests every Wednesday at 9am PT for hands-on demos of network automation from beginner level to the most advanced use cases. Wednesday 9am PT - 10am PT Virtual Virtual Details ](https://www.youtube.com/playlist?list=PL2k86RlAekM-Vv4pLLFYsQ6Re9BBIj4dt)
+[ Snack Minute: Demos, API Insights, & Chats with IT Experts Check out the latest demos, API insights, and chats with IT experts! Tuesday - Presented by DevNet and Cisco U. Virtual Virtual Details ](https://www.youtube.com/playlist?list=PL2AuQ_ZjCjsq_dipCVvUS7enTwk4_P7n5)
+[See all events](https://developer.cisco.com/events)
