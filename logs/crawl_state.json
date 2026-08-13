@@ -8162,5 +8162,9 @@
   "https://developer.webex.com/docs/api/v1/recording-report/list-meeting-archive-summaries": {
     "hash": "de3d0186fb0739651813bdfefb71ffe69ae0cf46a4390bbbb8dab686b7132d4c",
     "timestamp": "2026-08-13T02:15:09.474970"
+  },
+  "https://developer.webex.com/docs/api/v1/recording-report/get-meeting-archive-details": {
+    "hash": "1a7aef5daca23f660a388a2619c62c8fa2eef210d4aeb975015bd3835ac2da89",
+    "timestamp": "2026-08-13T02:15:15.350806"
   }
 }
