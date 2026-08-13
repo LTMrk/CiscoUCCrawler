@@ -7061,3 +7061,322 @@ Industries
   * [ Healthcare ](https://adopt.webex.com/x141871.xml#healthcare "Healthcare")
 
 
+
+
+---
+# ORIGEN: https://adopt.webex.com/use-the-webex-suite/do-more/hybrid-work
+
+[Skip to Content](https://adopt.webex.com/#content)
+[ ![](https://adopt.webex.com/Essentials/images/Webex_adoption_logo_2x.png) ](https://adopt.webex.com/)
+  * [ Deploy and manage ](https://adopt.webex.com/#mega-55359916)
+  * [ Use the Webex Suite ](https://adopt.webex.com/#mega-223604)
+  * [ Resources and programs ](https://adopt.webex.com/#mega-66410401)
+
+
+  * [ ![Search](https://adopt.webex.com/Content/assets/img/icons/search.svg) ](javascript:; "search")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+  * [ Download App ](https://www.webex.com/downloads.html "Download App")
+
+
+Search ![Search](https://adopt.webex.com/Content/assets/img/icons/search.svg) [ ](https://adopt.webex.com/ "Toggle menu")
+Products
+[ Get started ](https://adopt.webex.com/deploy-and-manage/webex-suite/get-started "Get started")
+  * [ Calling ](https://adopt.webex.com/x155228.xml#kits "Calling")
+  * [ Meetings ](https://adopt.webex.com/x155253.xml#kits "Meetings")
+  * [ Messaging ](https://adopt.webex.com/x155241.xml#kits "Messaging")
+  * [ Contact Center ](https://adopt.webex.com/deploy-and-manage/webex-suite/contact-center/setup "Contact Center")
+  * [ More ](https://adopt.webex.com/deploy-and-manage/webex-suite/more "More")
+
+
+Devices
+[ Get started ](https://adopt.webex.com/deploy-and-manage/devices/get-started "Get started")
+  * [ Cisco Rooms ](https://adopt.webex.com/deploy-and-manage/devices/cisco-rooms "Cisco Rooms")
+  * [ Microsoft Teams Rooms ](https://adopt.webex.com/deploy-and-manage/devices/microsoft-teams-rooms "Microsoft Teams Rooms")
+  * [ Cisco Phones ](https://adopt.webex.com/deploy-and-manage/devices/cisco-phones "Cisco Phones")
+  * [ Share resources with your team ](https://resources.webex.com/webex-essentials/cisco-devices "Share resources with your team")
+
+
+Achieve more
+[ Get to know Control Hub ](https://adopt.webex.com/deploy-and-manage/achieve-more/get-to-know-control-hub "Get to know Control Hub")
+  * [ Hybrid work ](https://adopt.webex.com/deploy-and-manage/achieve-more/hybrid-work "Hybrid work")
+  * [ Flexible workstyles ](https://adopt.webex.com/deploy-and-manage/achieve-more/flexible-workstyles "Flexible workstyles")
+
+
+Admin support
+[ Admin Support Center ](https://adopt.webex.com/deploy-and-manage/admin-support/admin-support-center "Admin Support Center")
+  * [ Deployment resources ](https://resources.webex.com/s/3kfmhmhtm2b4f7pbkkvsv "Deployment resources")
+  * [ Launch kits ](https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits "Launch kits")
+  * [ What's new in Webex ](https://help.webex.com/landing/ld-v6m1dl-What%27snewinWebex/Features "What's new in Webex")
+  * [ Webex Community ](https://community.cisco.com/t5/webex-community/ct-p/webex-user "Webex Community")
+
+
+Products
+[ Get started ](https://adopt.webex.com/use-the-webex-suite/webex-suite/get-started "Get started")
+  * [ Calling ](https://adopt.webex.com/use-the-webex-suite/webex-suite/calling "Calling")
+  * [ Meetings ](https://adopt.webex.com/use-the-webex-suite/webex-suite/meetings "Meetings")
+  * [ Messaging ](https://adopt.webex.com/use-the-webex-suite/webex-suite/messaging "Messaging")
+  * [ Contact Center ](https://adopt.webex.com/use-the-webex-suite/webex-suite/contact-center/agents "Contact Center")
+  * [ Events ](https://adopt.webex.com/use-the-webex-suite/webex-suite/events "Events")
+  * [ More ](https://adopt.webex.com/use-the-webex-suite/webex-suite/more "More")
+
+
+Do more
+[ Meet the Suite ](https://adopt.webex.com/use-the-webex-suite/do-more/meet-the-suite "Meet the Suite")
+  * [ Best practices ](https://adopt.webex.com/use-the-webex-suite/do-more/best-practices "Best practices")
+  * [ Hybrid work ](https://adopt.webex.com/use-the-webex-suite/do-more/hybrid-work "Hybrid work")
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user "Webex Community")
+
+
+Learn
+[ Adoption library ](https://resources.webex.com/portals/webex-admin "Adoption library")
+  * [ Webex Academy ](https://adopt.webex.com/resources-and-programs/resources/academy "Webex Academy")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+
+
+Resources
+  * [ Adoption methodology ](https://adopt.webex.com/resources-and-programs/resources/methodology "Adoption methodology")
+  * [ Adoption library ](https://resources.webex.com/portals/webex-admin "Adoption library")
+  * [ Admin launch kits ](https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits "Admin launch kits")
+  * [ Webex Academy ](https://adopt.webex.com/resources-and-programs/resources/academy "Webex Academy")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+
+
+Programs
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user "Webex Community")
+  * [ Webex Insider ](https://www.webex.com/insider "Webex Insider")
+  * [ Webex Beta ](https://adopt.webex.com/resources-and-programs/programs/beta "Webex Beta")
+
+
+Industries
+  * [ Education ](https://adopt.webex.com/resources-and-programs/industries/education/overview "Education")
+  * [ Government ](https://adopt.webex.com/x141871.xml#government "Government")
+  * [ Financial services ](https://adopt.webex.com/x141871.xml#financial "Financial services")
+  * [ Healthcare ](https://adopt.webex.com/x141871.xml#healthcare "Healthcare")
+
+
+# Bring everyone together
+A few of your colleagues work in the office, you're at home, and your work bestie is at a coffee shop. Don’t worry—distributed teams use Webex to bring everyone together to work when, where, and how they want. And you can too.
+![](https://adopt.webex.com/Essentials/images/Product_Detail_pg4_Hero_Img.png)
+  * [ Meet the Suite ](https://adopt.webex.com/use-the-webex-suite/do-more/meet-the-suite)
+  * [ Best practices ](https://adopt.webex.com/use-the-webex-suite/do-more/best-practices)
+  * [ Hybrid work ](https://adopt.webex.com/use-the-webex-suite/do-more/hybrid-work)
+
+
+  * [Work your way](https://adopt.webex.com/#section-49068241)
+  * [Stay connected on mobile](https://adopt.webex.com/#section-10644163)
+  * [Video device basics](https://adopt.webex.com/#section-7199881)
+  * [Top tips for devices](https://adopt.webex.com/#section-57990142)
+  * [Rethink how you work](https://adopt.webex.com/#section-43203041)
+  * [Life, then work](https://adopt.webex.com/#section-13510171)
+  * [Resource library](https://adopt.webex.com/#section-53097982)
+
+
+## Work your way
+Your boss keeps talking about hybrid work, but all you know is that you work from home, and some of your colleagues work in the office.
+You're probably wondering why it matters. If you've got the right tools in place, where you work doesn't matter—howyou work is what matters most.
+[ Keep it professional ](https://cdn.bfldr.com/YM20Y3NQ/at/kshqpkc8n7xfmw4rxnv8qsnk/Tips_for_employees.pdf "Keep it professional")
+##  Stay connected on mobile 
+![](https://adopt.webex.com/Essentials/images/Mobile_image1.png)
+Keep in touch wherever you are
+The Webex mobile app brings everyone together to do exceptional work. One easy-to-use and secure app to meet, message, and make calls—in the office, on the train, or from your couch.
+  * [ Download the Webex mobile app ](https://www.webex.com/downloads.html "Download the Webex mobile app")
+
+
+![](https://adopt.webex.com/Essentials/images/Mobile_image2.png)
+So you’ve downloaded the app, now what?
+Step 1: Get familiar with how to send a message, start a call, or join a meeting in the Webex mobile app.
+Step 2: Walk away from your desk!
+  * [ Take a quick tour of the Webex mobile app ](https://help.webex.com/article/nx3i8h5/Webex-App-%7C-Your-user-interface#Cisco_Reference.dita_0404350d-94ed-44d4-bdc3-8db492ec07c3 "Take a quick tour of the Webex mobile app")
+
+
+##  Video device basics 
+Get comfortable with Cisco devices and they'll change the way you meet. Watch these videos to learn how.
+![](https://adopt.webex.com/Essentials/images/video_still1.png)
+What can you do with a device?
+Cisco devices take meetings to the next level with a simple touch or a voice command. Learn how to schedule, join a meeting, and share your screen with a Cisco device.
+[ ](https://cdn.bfldr.com/YM20Y3NQ/as/tcbx683hf58n6xmnkvwfhk8t/See_how_to_join_a_Webex_meeting_and_share_content_on_the_Webex_Room_Series)
+![](https://adopt.webex.com/Essentials/images/video_still2.png)
+Everyone on the same page and participating
+Once you've got the basics down, use whiteboards to get everyone involved. Watch this video to see how whiteboards work.
+[ ](https://cdn.bfldr.com/YM20Y3NQ/as/mrx94stj6t7m9rqw3rnwc9t/Sharing_and_whiteboarding_-_Webex_Desk_and_Boards_series_-_Room_OS11)
+##  Top tips for devices 
+Here are our most popular quick start guides to help you use Cisco devices in your meetings.
+![](https://adopt.webex.com/Essentials/images/hybrid_tip1.png)
+Call someone
+With just a few taps on the touch screen, you can be face to face with your team, your boss, or a client.
+[ Learn how ](https://cdn.bfldr.com/YM20Y3NQ/at/p5rv93s57jgnnh86cfvzbq/4-Calling_from_a_Webex_Room_device_using_Webex.pdf)
+![](https://adopt.webex.com/Essentials/images/hybrid_tip2.png)
+Share your screen
+Share content onscreen for your meeting participants, either wirelessly or by connecting your laptop.
+[ Get sharing ](https://cdn.bfldr.com/YM20Y3NQ/at/fnkrrxkg5r7qmgkxqq3m26z/3-Share_your_screen_using_a_Webex_Room_Device.pdf)
+![](https://adopt.webex.com/Essentials/images/hybrid_tip3.png)
+Touchless meetings
+Sit back and say "Ok Webex, join the meeting" plus many more commands that let Webex do the work for you.
+[ Use voice commands ](https://cdn.bfldr.com/YM20Y3NQ/at/vs3ptjbf3pkb4kfcrrss6f/How_to_use_Webex_Assistant_on_Desk_Pro.pdf)
+![](https://adopt.webex.com/Essentials/images/Product_Detail_pg4_Sect7_Img.png)
+##  Rethink how you work 
+You already know that where you work doesn't matter, but if you're working from home or returning to the office, there are a few things you should know. Don't worry—we've got you. 
+We'll show you how to balance life with work when you're at home and everything you need to know before returning to the office.
+[ Make hybrid work for you ](https://cdn.bfldr.com/YM20Y3NQ/as/5bpgtgjjrc7f9zrq8jmxbtmh/Hybrid_Work_Best_Practices "Make hybrid work for you")
+##  Life, then work 
+You've got a life to live, and work shouldn't cut into that. Hybrid work is about balancing work with life, and collaboration from anywhere. Even when you're working, you can prioritize life. We'll show you how.
+![](https://adopt.webex.com/Essentials/images/Product_Detail_pg4_Grid1_Img2.png)
+Work pays the bills, but it’s not your life
+It can be hard to separate work from life (we’ve all taken those super late calls), but you’ll thank yourself for separating the two. Close your laptop or go on “Do Not Disturb.”
+![](https://adopt.webex.com/Essentials/images/Product_Detail_pg4_Grid1_Img1.png)
+Get away from the screens
+Fresh air does wonders for the mind, so take a quick walk or do a meditation session on your patio. You'll come back feeling rejuvenated, focused, and ready to crush it!
+![](https://adopt.webex.com/Essentials/images/Product_Detail_pg4_Grid1_Img3.png)
+You work from anywhere. Now you can work at any time too
+Work when you want to. Worried you’ll miss something? Just use Webex to send messages or share content so everyone can access what they need at any time.
+![](https://adopt.webex.com/Essentials/images/Product_Detail_pg4_Grid1_Img5.png)
+Fill your calendar with “me time”
+Mark your calendar so your team knows when you’re unavailable. Schedule lunch breaks, workout sessions, and more to protect your valuable “me time.”
+![](https://adopt.webex.com/Essentials/images/Product_Detail_pg4_Grid1_Img4.png)
+Make time for fun
+Use Pollbot to get to know your team, schedule virtual scavenger hunts, or host meetings focused solely on fun. It’s okay to be human at work!
+![](https://adopt.webex.com/Essentials/images/Product_Detail_pg4_Grid1_Img6.png)
+Need help? Ask!
+Work can be overwhelming, frustrating, or flat-out stressful. You’re human—it’s more than okay to ask for help.
+##  A dedicated resource library 
+![](https://adopt.webex.com/Essentials/images/Product_Detail_pg2_Sect3_Library3.png)
+Inclusive in any language
+Distributed teams are global teams, and your meetings should reflect that. Real-time translations translate English into over 100 languages so _everyone_ can participate.
+  * [ See it in action ](https://cdn.bfldr.com/YM20Y3NQ/as/952qmcgpfp9psxqnsj6n5jz/Translation_with_Webex_GIF?auto=webp&format=gif "See it in action")
+
+
+![](https://adopt.webex.com/Essentials/images/Product_Detail_pg4_Grid2_Img2.png)
+Back to the office?
+Whether you're working full-time in the office or have a hybrid work schedule, we'll help make your return to the office easier by showing you how to leverage meetings, messaging, and calling.
+  * [ Let's go to the office ](https://cdn.bfldr.com/YM20Y3NQ/at/6j3q45gb66b3npn9k43qhjhx/Features_for_employees.pdf "Let's go to the office")
+
+
+![](https://adopt.webex.com/Essentials/images/Product_Detail_pg4_Grid2_Img3.png)
+Go hybrid
+Need help getting started with hybrid work? We’ll show you how to conquer the world of hybrid work using Webex. You’ve got this!
+  * [ Learn how to go hybrid ](https://cdn.bfldr.com/YM20Y3NQ/at/ggcxqg9jx75gtrg53sjgsr63/Best_practices_for_a_hybrid_team.pdf "Learn how to go hybrid")
+
+
+[ Solutions ](javascript:;)
+  * [ Downloads ](https://www.webex.com/downloads.html "Downloads")
+  * [ Integrations ](https://apphub.webex.com/ "Integrations")
+  * [ Cisco ](https://www.cisco.com/c/en/us/solutions/collaboration/index.html "Cisco")
+  * [ Hybrid Work ](https://www.webex.com/hybrid-work.html "Hybrid Work")
+  * [ Contact Support ](https://help.webex.com/contact/ "Contact Support")
+
+
+[ Products ](javascript:;)
+  * [ Webex Suite ](https://adopt.webex.com/use-the-webex-suite/do-more/meet-the-suite "Webex Suite")
+  * [ Control Hub ](https://adopt.webex.com/deploy-and-manage/achieve-more/get-to-know-control-hub "Control Hub")
+  * [ Devices ](https://adopt.webex.com/deploy-and-manage/devices/cisco-rooms "Devices")
+
+
+[ Industries ](javascript:;)
+  * [ Education ](https://adopt.webex.com/resources-and-programs/industries/education/overview "Education")
+  * [ Healthcare ](https://adopt.webex.com/x141871.xml#healthcare "Healthcare")
+  * [ Financial Services ](https://adopt.webex.com/x141871.xml#financial "Financial Services")
+  * [ Government ](https://adopt.webex.com/x141871.xml#government "Government")
+
+
+[ Resources ](javascript:;)
+  * [ Admin Support Center ](https://adopt.webex.com/deploy-and-manage/admin-support/admin-support-center "Admin Support Center")
+  * [ Adoption ](https://adopt.webex.com/resources-and-programs/resources/methodology "Adoption")
+  * [ Adoption Resource Library ](https://resources.webex.com/portals/webex-admin "Adoption Resource Library")
+  * [ Launch Kits ](https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits "Launch Kits")
+  * [ Join a Test Meeting ](https://www.webex.com/test-meeting.html "Join a Test Meeting")
+  * [ Classes and Trainings ](https://adopt.webex.com/resources-and-programs/resources/academy "Classes and Trainings")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user "Webex Community")
+  * [ Webex Beta Program ](https://adopt.webex.com/resources-and-programs/programs/beta "Webex Beta Program")
+  * [ Webex Insider ](https://www.webex.com/insider "Webex Insider")
+
+
+  * [ Terms and Conditions ](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html "Terms and Conditions")
+  * [ Privacy Statement ](https://www.cisco.com/c/en/us/about/legal/privacy-full.html "Privacy Statement")
+  * [ Cookies ](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies "Cookies")
+  * [ Trademarks ](https://www.cisco.com/web/siteassets/legal/trademark.html "Trademarks")
+
+
+[ ![](https://adopt.webex.com/Essentials/images/twitter_12_w%403x.png) ](https://twitter.com/webex "Twitter") [ ![](https://adopt.webex.com/Essentials/images/linkedin-circle_32_w.png) ](https://www.linkedin.com/company/webex "Linkedin") [ ![](https://adopt.webex.com/Essentials/images/facebook-circle_32_w.png) ](https://www.facebook.com/webex "Facebook") [ ![](https://adopt.webex.com/Essentials/images/youtube-circle_32_w.png) ](https://www.youtube.com/c/webex "YouTube") [ ![](https://adopt.webex.com/Essentials/images/instagram-circle_32_w.png) ](https://www.instagram.com/webex/ "Instagram") [ ![](https://adopt.webex.com/Essentials/images/rss-circle_32_w.png) ](https://blog.webex.com/ "Webex Blog")
+© 2026 Cisco and/or its affiliates. All Rights Reserved.
+[ ](https://adopt.webex.com/ "Close menu")
+[ Help Center ](https://help.webex.com/ "Help Center")
+Search ![Search](https://adopt.webex.com/Content/assets/img/icons/search.svg)
+[ Deploy and manage ](javascript:;)
+Products
+[ Get started ](https://adopt.webex.com/deploy-and-manage/webex-suite/get-started "Get started")
+  * [ Calling ](https://adopt.webex.com/x155228.xml#kits "Calling")
+  * [ Meetings ](https://adopt.webex.com/x155253.xml#kits "Meetings")
+  * [ Messaging ](https://adopt.webex.com/x155241.xml#kits "Messaging")
+  * [ Contact Center ](https://adopt.webex.com/deploy-and-manage/webex-suite/contact-center/setup "Contact Center")
+  * [ More ](https://adopt.webex.com/deploy-and-manage/webex-suite/more "More")
+
+
+Devices
+[ Get started ](https://adopt.webex.com/deploy-and-manage/devices/get-started "Get started")
+  * [ Cisco Rooms ](https://adopt.webex.com/deploy-and-manage/devices/cisco-rooms "Cisco Rooms")
+  * [ Microsoft Teams Rooms ](https://adopt.webex.com/deploy-and-manage/devices/microsoft-teams-rooms "Microsoft Teams Rooms")
+  * [ Cisco Phones ](https://adopt.webex.com/deploy-and-manage/devices/cisco-phones "Cisco Phones")
+  * [ Share resources with your team ](https://resources.webex.com/webex-essentials/cisco-devices "Share resources with your team")
+
+
+Achieve more
+[ Get to know Control Hub ](https://adopt.webex.com/deploy-and-manage/achieve-more/get-to-know-control-hub "Get to know Control Hub")
+  * [ Hybrid work ](https://adopt.webex.com/deploy-and-manage/achieve-more/hybrid-work "Hybrid work")
+  * [ Flexible workstyles ](https://adopt.webex.com/deploy-and-manage/achieve-more/flexible-workstyles "Flexible workstyles")
+
+
+Admin support
+[ Admin Support Center ](https://adopt.webex.com/deploy-and-manage/admin-support/admin-support-center "Admin Support Center")
+  * [ Deployment resources ](https://resources.webex.com/s/3kfmhmhtm2b4f7pbkkvsv "Deployment resources")
+  * [ Launch kits ](https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits "Launch kits")
+  * [ What's new in Webex ](https://help.webex.com/landing/ld-v6m1dl-What%27snewinWebex/Features "What's new in Webex")
+  * [ Webex Community ](https://community.cisco.com/t5/webex-community/ct-p/webex-user "Webex Community")
+
+
+[ Use the Webex Suite ](javascript:;)
+Products
+[ Get started ](https://adopt.webex.com/use-the-webex-suite/webex-suite/get-started "Get started")
+  * [ Calling ](https://adopt.webex.com/use-the-webex-suite/webex-suite/calling "Calling")
+  * [ Meetings ](https://adopt.webex.com/use-the-webex-suite/webex-suite/meetings "Meetings")
+  * [ Messaging ](https://adopt.webex.com/use-the-webex-suite/webex-suite/messaging "Messaging")
+  * [ Contact Center ](https://adopt.webex.com/use-the-webex-suite/webex-suite/contact-center/agents "Contact Center")
+  * [ Events ](https://adopt.webex.com/use-the-webex-suite/webex-suite/events "Events")
+  * [ More ](https://adopt.webex.com/use-the-webex-suite/webex-suite/more "More")
+
+
+Do more
+[ Meet the Suite ](https://adopt.webex.com/use-the-webex-suite/do-more/meet-the-suite "Meet the Suite")
+  * [ Best practices ](https://adopt.webex.com/use-the-webex-suite/do-more/best-practices "Best practices")
+  * [ Hybrid work ](https://adopt.webex.com/use-the-webex-suite/do-more/hybrid-work "Hybrid work")
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user "Webex Community")
+
+
+Learn
+[ Adoption library ](https://resources.webex.com/portals/webex-admin "Adoption library")
+  * [ Webex Academy ](https://adopt.webex.com/resources-and-programs/resources/academy "Webex Academy")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+
+
+[ Resources and programs ](javascript:;)
+Resources
+  * [ Adoption methodology ](https://adopt.webex.com/resources-and-programs/resources/methodology "Adoption methodology")
+  * [ Adoption library ](https://resources.webex.com/portals/webex-admin "Adoption library")
+  * [ Admin launch kits ](https://adopt.webex.com/deploy-and-manage/admin-support/launch-kits "Admin launch kits")
+  * [ Webex Academy ](https://adopt.webex.com/resources-and-programs/resources/academy "Webex Academy")
+  * [ Help Center ](https://help.webex.com/ "Help Center")
+
+
+Programs
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user "Webex Community")
+  * [ Webex Insider ](https://www.webex.com/insider "Webex Insider")
+  * [ Webex Beta ](https://adopt.webex.com/resources-and-programs/programs/beta "Webex Beta")
+
+
+Industries
+  * [ Education ](https://adopt.webex.com/resources-and-programs/industries/education/overview "Education")
+  * [ Government ](https://adopt.webex.com/x141871.xml#government "Government")
+  * [ Financial services ](https://adopt.webex.com/x141871.xml#financial "Financial services")
+  * [ Healthcare ](https://adopt.webex.com/x141871.xml#healthcare "Healthcare")
+
+
