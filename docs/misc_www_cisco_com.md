@@ -93549,3 +93549,117 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.html)
+  * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Servers - Unified Computing](https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html)
+  * [Cisco UCS C-Series Rack Servers](https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/index.html)
+  * [At-a-Glance](https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/at-a-glance-listing.html)
+
+
+# Cisco UCS C225 M6 Rack Server At-a-Glance
+At a Glance
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.html) to Save Content 
+Download
+Print
+### Available Languages
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.pdf) (147.7 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:March 21, 2022
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+Contact Cisco
+  * Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * Call Sales: [ 1-800-553-6387 ](tel:18005536387)   
+US/CAN | 5am-5pm PT 
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.html) to Save Content 
+Download
+Print
+### Available Languages
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.pdf) (147.7 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:March 21, 2022
+#### Table of Contents
+![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
+![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
+#### Table of Contents
+  * [Superior performance in a slim form factor](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.html#Superiorperformanceinaslimformfactor "Superiorperformanceinaslimformfactor")
+  * [Benefits](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.html#Benefits "Benefits")
+  * [What it does](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.html#Whatitdoes "Whatitdoes")
+  * [Learn more](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.html#Learnmore "Learnmore")
+
+
+[![Cisco UCS® C225 M6 Rack Server](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.docx/_jcr_content/renditions/nb-06-ucs-c225-m6-rack-serv-aag-cte-en_0.png)](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.docx/_jcr_content/renditions/nb-06-ucs-c225-m6-rack-serv-aag-cte-en_0.png "Cisco UCS® C225 M6 Rack Server")
+Superior performance in a slim form factor
+The Cisco UCS C225 M6 Rack Server is the most versatile general-purpose infrastructure and application server in the industry. This high-density, 1RU, 2-socket rack server delivers industry-leading performance and efficiency for a wide range of workloads, including virtualization, EDA, SDS, big data, and edge-centric workloads. You can deploy the Cisco UCS C-Series rack servers as standalone servers or as part of the Cisco Unified Computing System with the Cisco Intersight Infrastructure Service cloud-based management platform. 
+The Cisco UCS C225 M6 Rack Server uses 3rd Gen AMD EPYC CPUs for the most cores per socket. Combined with PCIe 4.0 for I/O and 3200 MHz DDR4 memory, you have significant performance and efficiency gains that will improve your application performance. 
+The C225 M6 rack server is single-socket optimized. All I/O is tied to one CPU and its 128 PCIe lanes. Since each server supports up to 2 TB and 64 cores per socket, many customers find that one CPU server now meets their needs. This can reduce software licensing and support costs, leading to a better TCO.
+Benefits
+●Single-socket optimized, dual-socket capable
+●Highest core density in a 1RU server, with up to 128 cores for the most demanding applications
+●Fast I/O speeds, with PCIe 4.0
+●Reduced management complexity with [Cisco Intersight Infrastructure Service](https://www.cisco.com/c/en/us/products/cloud-systems-management/intersight/index.html)
+What it does
+The Cisco UCS C225 M6 Rack Server is designed to deliver exceptional performance, expandability, and efficiency. It offers the following: 
+●One or two 3rd Gen AMD EPYC CPUs, with up to 64 cores per socket. Based on AMD Infinity Architecture, these processors deliver a full feature set across the entire CPU stack. You choose the core count and frequency; the memory capabilities, advanced security features, and I/O capacity are all included at no additional cost.
+●For per-core, license-constrained applications, high-frequency AMD EPYC processors (EPYC 7xF3) give you the exceptional per-core performance so you can get the most value from software licensing costs.
+●For high-performance computing, AMD EPYC 7003 Series Processors with AMD 3D V-Cache technology deliver up to 768 MB L3 cache per processor. AMD 3D V-Cache is built on AMD’s groundbreaking 3D Chiplet architecture and using 7-nm process technology.
+●Up to 128 PCIe 4.0 lanes of I/O connectivity for fast data access regardless of whether one or two processors are used.
+●Memory:
+◦32 DIMM slots (16 DIMMs per CPU socket), 3200 MHZ DDR4 
+◦Up to 4 TB of capacity 
+●Up to 10 Small-Form-Factor (SFF) front-loading hot-pluggable drives – NVMe/SAS/SATA 
+●Up to three PCIe 4.0 slots 
+●Support for Cisco UCS VIC 1400 Series and OCP 3.0 network cards 
+●RAID controller and GPU options are available. 
+●Internal dual M.2 drive options 
+Learn more
+For more information about the Cisco UCS C225 M6 Rack Server, refer to the [data sheet](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c225-m6-sff-rack-server-ds.html) or [spec sheet](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/c225-m6-sff-specsheet.pdf). For more information about all Cisco UCS Servers, please visit <https://www.cisco.com/go/ucs>.
+[![AMD](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.docx/_jcr_content/renditions/nb-06-ucs-c225-m6-rack-serv-aag-cte-en_1.png)](https://www.cisco.com/c/dam/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/nb-06-ucs-c225-m6-rack-serv-aag-cte-en.docx/_jcr_content/renditions/nb-06-ucs-c225-m6-rack-serv-aag-cte-en_1.png "AMD")
+For details on the footnotes used in this document, visit  [amd.com/en/claims/epyc](https://amd.com/en/claims/epyc). 
+AMD, the AMD Arrow logo, EPYC, 3D V-Cache, and combinations thereof are trademarks of Advanced Micro Devices, Inc. 
+### Our experts recommend
+  * [From X440p to X580p. How Cisco is Expanding Modular Server Use Cases (Again) White Paper](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.html "From X440p to X580p. How Cisco is Expanding Modular Server Use Cases \(Again\) White Paper")
+  * [Cisco UCS Servers with Intel Xeon 6 CPUs FAQ](https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/intel-xeon-6-cpu-faq.html "Cisco UCS Servers with Intel Xeon 6 CPUs FAQ")
+
+
+### Learn more
