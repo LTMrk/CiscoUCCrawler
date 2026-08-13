@@ -23879,3 +23879,203 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733645.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733645.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733645.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733645.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733645.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733645.html)Show All Breadcrumbs
+  * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Routers](https://www.cisco.com/c/en/us/products/routers/index.html)
+  * [Branch Routers](https://www.cisco.com/c/en/us/products/routers/branch-routers/index.html)
+  * [End-of-Sale and End-of-Life Products](https://www.cisco.com/c/en/us/products/routers/eos-eol-listing.html)
+  * [Cisco 4000 Series Integrated Services Routers](https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/index.html)
+  * [Data Sheets](https://www.cisco.com/c/en/us/products/routers/4000-series-integrated-services-routers-isr/datasheet-listing.html)
+
+
+# Cisco Multimode VDSL2 and ADSL2/2+ Network Interface Module Data Sheet
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733645.html) to Save Content 
+Download
+Print
+### Available Languages
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733645.pdf) (307.8 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:August 4, 2015
+Document ID:1458318293217580
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+The Cisco® 4000 Integrated Services Router Family Network Interface Module (NIM) supports VDSL2 and ADSL2/2+ on a single WAN interface. The solution provides a secure, cost-effective solution for customers ranging from teleworkers and small businesses to large enterprise branch offices.
+Product Overview
+The Cisco Multimode VDSL2 and ADSL2/2+ NIM (part number NIM-VAB-A) provides single-port multimode VDSL2 and ADSL2/2+ WAN connectivity (Figure 1).
+**Figure 1.** Single-Port NIM Supports VDSL2 and ADSL2/2+ for WAN Connectivity 
+[![](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733645.doc/_jcr_content/renditions/datasheet-c78-733645_0.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/datasheet-c78-733645.doc/_jcr_content/renditions/datasheet-c78-733645_0.jpg "Related image, diagram or screenshot.")
+In combination with Cisco 4000 Integrated Services Routers (ISRs), this NIM provides high-speed digital data transmission between customer premises equipment (CPE) and the central-office DSL access multiplexer (DSLAM), usually located on the telephone company premises. Service providers and resellers can offer additional services such as business-class security; voice, video, and data; differentiated classes of service (CoS); and managed network access with Cisco IOS® Software over existing telephony infrastructure.
+With Cisco IOS XE Software Release 3.14 and later releases, the single-port multimode VDSL2 and ADSL2/2+ NIM is supported on the following Cisco 4000 routers: Cisco 4321, 4331, 4351, 4431, and 4451.
+DSL Specifications
+Tables 1 through 4 list the DSL feature specifications and DSLAM interoperability support for the Cisco Multimode VDSL2 and ADSL2/2+ NIM WAN card. For more information and details about DSLAM and NIM interoperability, please refer to the following document: [Cisco ISR4000 xDSL Interoperability](https://www.cisco.com/en/US/prod/collateral/routers/ps380/qa_c67-532551_ps380_Products_Q_and_A_Item.html). Table 5 lists the product dimensions.
+**Table 1.** DSL Features Specifications  
+|  DSL Specifications  |  
+| --- |  
+|  Multimode DSL (VDSL2 and ADSL2/2+)  |  ●Broadcom chipset  ●One RJ-11 VDSL2 interface  ●Dying gasp  ●IEEE 802.1q VLAN tagging  ●Independent DSL firmware loading  **VDSL2:** ●ITU G.993.2 (VDSL2)  ●997- and 998-band plans  ●VDSL2 profiles: 8a, 8b, 8c, 8d, 12a, 12b, and 17a  ●U0 band support (25 to 276 kHz)  ●Ethernet packet transfer mode (PTM) based only on IEEE 802.3ah 64/65 octet encapsulation  ●Support for double-ended line testing (DELT) diagnostics mode  ●DSL Forum TR-067 and TR-114 compliance  ●Support for downstream speeds up to 100 Mbps in Ethernet PTM and up to 50 Mbps upstream  ●*Support for 2-pair bonded 17a VDSL profile on the Annex A (NIM-VAB-A) and Annex M (NIM-VAB-M) ●*Support for single-pair 30a VDSL profile on the Annex A (NIM-VAB-A) and Annex M (NIM-VAB-M) ●Support for G.993.5 Vectoring capabilities on the NIMs **ADSL2/2+:** ●ADSL over POTS with Annex A and Annex B ITU G. 992.1 (ADSL), G.992.3 (ADSL2), and G.992.5 (ADSL2+)  ●ADSL over POTS with Annex M (extended upstream bandwidth) G.992.3 (ADSL2) and G.992.5 (ADSL2+)  ◦Cisco Multimode VDSL2 and ADSL2/2+ NIM (NIM-VAB-M) is optimized for power-spectrum-density (PSD) mask EU-64 M9.  ◦Cisco Multimode VDSL2 and ADSL2/2+ NIM (NIM-VAB-M) supports UK Annex M.  ●G.994.1 ITU G.hs  ●Reach-extended ADSL2 (G.922.3) Annex L for increased performance on loop lengths greater than 16,000 feet (4.88 km) from central office  ●T1.413 ANSI ADSL DMT issue 2 compliance  ●DSL Forum TR-067 and TR-100 conformity  ●Impulse noise protection (INP) and extended INP  ●Downstream power backoff (DPBO)  ●ATM only   |  
+* Two-pair bonded 17a VDSL profile and single-pair 30a VDSL profile is not supported on the Annex B (NIM-VA-B) variant of the NIM. 
+**Table 2.** VDSL2 over ISDN DSLAM Interoperability for Cisco Multimode VDSL2 and ADSL2/2+ NIMs (NIM-VA-B)  
+|  DSLAM  |  VDSL2 over ISDN and Basic Telephone Service Line-Card Chipset  |  
+| --- | --- |  
+|  ZTE 9806  |  Broadcom  |  
+|  Alcatel ISAM 7302  |  Ikanos  |  
+|  Alcatel ISAM 7302  |  Conexant  |  
+|  Huawei 5603  |  Broadcom  |  
+|  Huawei 5616  |  Broadcom  |  
+**Table 3.** ADSL over ISDN DSLAM Interoperability for Cisco Multimode VDSL2 and ADSL2/2+ NIMs (NIM-VA-B)  
+|  DSLAM  |  ADSL2/2+ over ISDN Line-Card Chipset  |  
+| --- | --- |  
+|  Alcatel ASAM7300  |  Broadcom  |  
+|  ECI Hi-Focus 480  |  Infineon  |  
+|  Ericsson ECN320  |  Broadcom  |  
+|  Siemens HiX 5300  |  Infineon  |  
+**Table 4.** ADSL over POTS DSLAM Interoperability for Cisco Multimode VDSL2 and ADSL2/2+ NIMs (NIM-VAB -A and NIM-VAB -M)  
+|  DSLAM  |  ADSL2/2+ over Basic Telephone Service Line-Card Chipset  |  
+| --- | --- |  
+|  Alcatel ASAM7300  |  Broadcom  |  
+|  Alcatel ISAM 7302  |  Broadcom  |  
+|  Ericsson EDA2.1  |  Broadcom  |  
+|  ECI Hi-Focus 480  |  Infineon  |  
+|  Fujitsu FDX Hub 1000  |  Infineon  |  
+|  Fujitsu FDX Hub 1000  |  Texas Instruments  |  
+|  Huawei MA5600  |  Conexant  |  
+|  Lucent Stinger  |  Conexant  |  
+|  Nokia D500  |  Globespan  |  
+**Table 5.** Cisco Multimode DSL (VDSL2 and ADSL2/2+) NIM Dimensions and Weight  
+|   |  NIM-VA  |  
+| --- | --- |  
+|  Width  |  3.50 in. (8.89 cm)  |  
+|  Height  |  1.25 in. (3.18 cm)  |  
+|  Depth  |  7.24 in. (18.39 cm)  |  
+|  Weight  |  0.40 lb (181g)  |  
+Applications
+Business-Class DSL with WAN Backup
+The Cisco 4300 and 4400 Series ISRs offer multiple WAN slots. These routers can be configured with a Network Interface Module card for primary WAN access, providing redundancy for mission-critical applications. The WAN flexibility in these platforms enables the DSL cards with part numbers VDSL2 or ADSL2/2+ Network Interface Module for Annex A (NIM-VAB-A), VDSL2 or ADSL2/2+ Network Interface Module for Annex B/J (NIM-VA-B), and VDSL2 or ADSL2/2+ Network Interface Module for Annex M (NIM-VAB-M) to be used based on the VDSL2 or ADSL2/ADSL2+ supported technology.
+Banking
+In this scenario, a bank branch office uses the Cisco 4331 with an VDSL2 or ADSL2/2+ Network Interface Module for Annex A (NIM-VAB-A) card and Ethernet connectivity through the front-panel Gigabit Ethernet ports to provide primary and backup WAN access. In addition, the Cisco SM-X 24-Port Layer 2/3 EtherSwitch Service Module is used for connectivity for local bank branch-office servers and teller and ATM machines. This scenario uses the versatility of the Cisco 4331 to enable banking databases to synchronize banking and ATM transactions without any interruption of WAN access, and it provides redundancy for other mission-critical applications.
+Business-Class Security
+The Cisco 4300 and 4400 Series ISRs with the Network Interface modules can be optimized for Internet security with the Cisco IOS Firewall, supporting stateful-inspection-firewall and Cisco Cloud Web Security (CWS) Connector features. With an always-on DSL connection, Internet security and VPN capabilities are crucial to protecting corporate resources from malicious network attacks. You can enable these features on the Cisco 4000 Series ISRs by purchasing the optional Security Technology License or the AX feature set.
+These platforms can also be optimized for VPN to secure the Internet for communications with the same policies and levels of security and performance as a private network. VPNs provide security through encryption tunneling, and the Cisco routers support hardware-based Triple Data Encryption Standard (3DES), IP Security (IPsec), and Advanced Encryption Standard (AES).These advanced encryption features can be enabled on Cisco ISRs by purchasing the optional Security Technology License or the AX feature set.
+Application-Aware Networking with IP Quality of Service
+Using Cisco quality-of-service (QoS) features, including Class-Based Weighted Fair Queuing (CBWFQ), Low‑Latency Queuing (LLQ), Weighted Random Early Detection (WRED), and others, Cisco 4000 Series routers with the Cisco Multimode VDSL2 and ADSL2/2+ NIM can help service providers and resellers offer services that can differentiate bandwidth based on the specific application or specific user. For example, network administrators can give traffic from a customer order entry priority over regular internal network traffic.
+Performance
+VDSL2 and ADSL2/2+ performance is a function of many variables, including the DSLAM line card, DSLAM software version, VDSL profile and band plan, line-noise conditions, loop length, and other environmental factors.
+Software Support
+The single-port Cisco Multimode VDSL2 and ADSL2/2+ NIM is supported on Cisco IOS XE Software Release 3.14 and later releases on Cisco 4321, 4331, 4351, 4431, and 4451 ISRs.
+The VDSL2 and ADSL2/2+ features are supported with the IP Base technology package license for the Cisco 4300 and 4400 Series ISRs.
+Platform Support
+Multimode DSL (VDSL2 and ADSL2/2+) NIMs are supported only in the onboard NIM slots of the modular Cisco 4000 router platforms. Table 6 provides platform support details.
+**Table 6.** Platform Support and Maximum Number of NIMs per Platform  
+|  Platform Part Numbers  |  Maximum Number of NIMs  |  
+| --- | --- |  
+|  Cisco 4321 and 4331 ISRs  |  2  |  
+|  Cisco 4351, 4431, and 4451 ISRs  |  3  |  
+Part Number and Ordering Information
+Table 7 gives ordering information for the Cisco Multimode VDSL2 and ADSL2/2+ NIM over ISDN and basic telephone service.
+**Table 7.** Multimode DSL (VDSL2 and ADSL2/2+) Ordering Information  
+|  Product Number  |  Description  |  
+| --- | --- |  
+|  NIM-VAB-A  |  1-port VDSL2/ADSL2+ NIM over POTS with Annex A  |  
+|  NIM-VA-B  |  1-port VDSL2/ADSL2+ NIM over ISDN with Annex B/J  |  
+|  NIM-VAB-M  |  1-port VDSL2/ADSL2+ NIM over POTS with Annex M  |  
+|  NIM-VAB-A=  |  1-port VDSL2/ADSL2+ NIM over POTS with Annex A spare  |  
+|  NIM-VA-B=  |  1-port VDSL2/ADSL2+ NIM over ISDN with Annex B/J spare  |  
+|  NIM-VAB-M=  |  1-port VDSL2/ADSL2+ NIM over POTS with Annex M spare  |  
+Cable Information
+To accommodate external splitters, a crossover cable might be required; it can be ordered separately (part number CAB-ADSL-RJ11X=).
+Cisco 4000 Series Routers Regulatory Approvals
+When installed in the Cisco 4000 ISRs (Cisco 4321, 4331, 4351, 4431, and 4451), the VDSL2 and ADSL2/2+ NIM does not change the router standards (regulatory compliance, safety, EMC, and telecom).
+Refer to the Cisco 4000 Series platform-specific links for regulatory compliance, safety, EMC, and telecom standards at: [http://www.cisco.com/go/isr4000](https://www.cisco.com/go/isr4000)
+Cisco Capital
+Financing to Help You Achieve Your Objectives
+Cisco Capital can help you acquire the technology you need to achieve your objectives and stay competitive. We can help you reduce CapEx. Accelerate your growth. Optimize your investment dollars and ROI. Cisco Capital financing gives you flexibility in acquiring hardware, software, services, and complementary third-party equipment. And there’s just one predictable payment. Cisco Capital is available in more than 100 countries. [Learn more](https://www.cisco.com/web/ciscocapital/americas/us/index.html).
+For More Information
+For more information, please reference the Cisco Multimode VDSL2 and ADSL2/2+ NIM Q&A at: [http://www.cisco.com/en/US/prod/collateral/routers/ps10536/qa_c67-644632.html](https://www.cisco.com/en/US/prod/collateral/routers/ps10536/qa_c67-644632.html).
+### Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
