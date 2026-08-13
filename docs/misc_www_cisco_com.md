@@ -40000,3 +40000,97 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/c/en/us/training-events.html)
+  * [Explore Cisco](https://www.cisco.com/c/en/us/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/c/en/us/buy.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html?dtid=odicdc001129)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html?ccid=cc000864&dtid=odiprc001129)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/tools/index.html?dtid=odiprc001129)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html?ccid=cc000864&dtid=odiprc001129)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html?dtid=odicdc001129)
+
+
+![Unified Communications Applications](https://www.cisco.com/content/dam/assets/swa/img/anchor-marquee/AR66132-1600x480.jpg)
+  * [](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html)
+  * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/products/unified-communications/index.html)
+
+
+# Unified Communications Applications
+Stay connected and productive with messaging, presence, enterprise social, and application development.
+  * [Meet Cisco Jabber](https://www.cisco.com/c/en/us/products/unified-communications/jabber/index.html)
+
+
+[](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html)
+  * [Benefits](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html#benefits)
+  * [Products](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html#products)
+  * [Services](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html#services)
+  * [For Partners](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html#for-partners)
+
+[](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html)
+Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+## With Cisco Unified Communications Applications you can...
+###  Communicate effectively 
+Help users communicate more securely and effectively inside and outside your organization.
+###  Stay connected 
+Connect email, instant messaging, conferencing, presence, voice services, and voicemail.
+###  Access your team from any device 
+Provide the same tools and integrated collaborative experience across devices.
+## Featured Products
+Collaborate from any workspace with unified communications applications.
+[ ](https://www.cisco.com/c/en/us/products/unified-communications/jabber/index.html)
+###  [ Cisco Jabber ](https://www.cisco.com/c/en/us/products/unified-communications/jabber/index.html)
+Get extensive telephony features, including conferencing and video bridge capabilities. With Jabber, you can collaborate from anywhere, across any device or browser, including Windows, MacOS, iOS, Android, and Web SDK.
+###  [ Cisco Webex Cloud-Connected UC ](https://www.cisco.com/c/en/us/products/unified-communications/webex-cloud-connected-uc/index.html)
+Proactively manage upgrades, get performance insights via analytics, and accelerate issue remediation.
+[ ](https://www.cisco.com/c/en/us/products/unified-communications/unity-connection/index.html)
+###  [ Cisco Unity Connection ](https://www.cisco.com/c/en/us/products/unified-communications/unity-connection/index.html)
+Use a highly secure, scalable, and reliable solution to access voice messages anytime, anywhere, on any device. With Unity Connection, you can reduce TCO and get flexible deployment options.
+[ ](https://www.cisco.com/c/en/us/products/conferencing/webex-meetings/index.html)
+###  [ Cisco Webex Meetings ](https://www.cisco.com/c/en/us/products/conferencing/webex-meetings/index.html)
+Meet with anyone online to present, share, and collaborate. With Webex Meetings, you can get business results quickly, increase team productivity, and lower costs.
+  * [See all Unified Communications Applications](https://www.cisco.com/c/en/us/products/unified-communications/product-listing.html#UnifiedCommunicationsApplications)
+
+
+## Improve your results with services
+Connect culture, process, and technology to bring the collaboration experience to life.
+  * [View services](https://www.cisco.com/c/en/us/products/unified-communications/service-listing.html)
+
+
+Buy now and pay later. See how [Cisco Capital Financing](https://www.cisco.com/c/en/us/buy/payment-solutions.html) can help.
+## For partners
+Are you a Cisco partner? [Log in](https://www.cisco.com/c/login/index.html?referer=/content/en/us/products/unified-communications/unified-communications-applications/index.html) to see additional resources.
+Looking for a solution from a Cisco partner? Connect with our [partner ecosystem](https://www.cisco.com/c/en/us/solutions/partner-ecosystem.html).
+### Follow Us
+  * [ ](http://www.twitter.com/ciscocollab)
+  * [ ](https://www.linkedin.com/company/cisco-collaboration)
+  * [ ](https://www.facebook.com/CiscoCollab/)
+  * [ ](http://blogs.cisco.com/collaboration)
+  * [ ](http://communities.cisco.com/community/technology/collaboration)
+  * [ ](https://www.youtube.com/user/Cisco/playlists?view=50&sort=dd&shelf_id=6)
+
+
