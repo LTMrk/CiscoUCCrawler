@@ -42,11 +42,23 @@
   ],
   "blocked_patterns": [
     "careers.cisco.com",
-    "jobs.cisco.com",
-    "/pt-br/",
-    "/es-es/",
-    "cloudapps.cisco.com",
-    "webexengage.io"
+"jobs.cisco.com",
+"meraki.cisco.com/pt-br",
+"/pt-br/",
+"/es-es/",
+"cloudapps.cisco.com",
+"webexengage.io",
+"cart.webex.com",
+"id.cisco.com",
+"signin.webex.com",
+"store.cisco.com",
+"investor.cisco.com",
+"newsroom.cisco.com",
+"software.cisco.com/download/",
+"/about/",
+"/legal/",
+"/privacy",
+"trust.cisco.com"
   ],
   "custom_behaviors": [
     {
