@@ -1,205 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-installation-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c885a-m8-rack-server/223161-perform-c885a-m8-oob-component-upgrade.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/unified-computing-system/225449-engage-support-for-cisco-ai-ucs-servers.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-manager/116349-technote-product-00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214824-installing-suse-using-the-embedded-sata.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214860-installing-red-hat-using-the-embedded-sa.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c240-m5-rack-server/213180-configure-intel-network-cards-with-bootu.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c220-m7-rack-server/223131-configure-boot-from-iscsi-in-ucs-c.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/200666-UCS-Install-server-certificate-to-CIMC.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/223121-configure-ucs-c-series-optimized-m-2.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/222896-configure-integrated-ucs-c-series-to-sta.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/221865-cimc-automation-configuration-through-an.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-manager/220538-configure-jbod-drives-to-unconfigured-go.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214407-installing-rhel-on-a-standalone-ucs-c240.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/212715-configuring-and-troubleshooting-smtp-on.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b420-m4-blade-server/200386-Configure-SUSE-Linux-EMC-VNX-Storage-f.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-user-guide-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c885a-m8-rack-server/223235-configure-lacp-c885a-m8-nic-with.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/213800-managing-and-monitoring-hdd-medium-error.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214561-compatible-small-form-factor-pluggables.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/222546-troubleshoot-memory-errors-on-ucs-server.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/225429-advanced-memory-features-and.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/224851-clear-transient-dimm-uecc-errors-on.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-manager/215857-troubleshoot-ucs-raid-controller-issues.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/220417-ports-on-the-fabric-interconnect-run-mor.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/cloud-systems-management/intersight/218161-configure-and-claim-a-standalone-c-serie.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214478-ucs-c-series-m5-server-components-relati.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/215834-identifying-power-on-hours-for-ssd-drive.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214564-vic-14xx-in-standalone-and-ucsm-integra.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/216118-unable-to-change-hdd-status-from-unconfi.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/200519-UCS-B-series-Teaming-Bonding-Options-wi.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/215930-troubleshoot-unpartitioned-sd-cards-in-c.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/200709-UCS-Implementation-with-MAB-802-1x-Authe.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/211054-Puncturing-bad-block-on-PD-Punctured-a.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-tech-notes-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/security/guide-c07-742970.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c845a-m8-rack-server-og.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ai-pod-ucs-c885a-servers-nexus-9364e--sg2-switches.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/data-center-virtualization/desktop-virtualization/power-software-ucs-server-amd-epyc-so.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/enable-hybrid-workforce-virtual-desktops-so.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/supercharge-microsoft-sql-server-so.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-amd-epyc-4-gen-20-world-rec-so.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/sets14-new-performance-records-so.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/data-intelligence-plat-amd-so.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/splunk-smartstore-ucs-m5-with-scality-ring-so.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/solution-overview-c22-2572860.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/solution-overview-c22-742110.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/solution-overview-c22-739225.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/mlperf-b300-training-ucs-c880a-m8-rs-wp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/mlperf-ucs-c845a-m8-rack-server-wp.html",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/deploying-qumulo-data-platform-ucs-rack-servers-wp.html",
     "depth": 1
   },
@@ -312077,6 +311877,1410 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-mount-ucs-managed-server-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-installation-and-configuration-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/tsd-products-support-install-and-upgrade-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/tsd-products-support-install-and-upgrade-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c885a-m8-rack-server/223161-perform-c885a-m8-oob-component-upgrade.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/unified-computing-system/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/unified-computing-system/tsd-products-support-install-and-upgrade-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/unified-computing-system/225449-engage-support-for-cisco-ai-ucs-servers.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/unified-computing-system/225449-engage-support-for-cisco-ai-ucs-servers.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/unified-computing-system/225449-engage-support-for-cisco-ai-ucs-servers.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-mount-standalone-server-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-management-partner-ecosystem-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-x-series-modular-system/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/unified-edge/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-manager/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-manager/tsd-products-support-install-and-upgrade-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-manager/116349-technote-product-00.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-manager/116349-technote-product-00.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-manager/116349-technote-product-00.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/unified-computing-system/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/tsd-products-support-install-and-upgrade-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214824-installing-suse-using-the-embedded-sata.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214824-installing-suse-using-the-embedded-sata.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214824-installing-suse-using-the-embedded-sata.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/tsd-products-support-install-and-upgrade-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214860-installing-red-hat-using-the-embedded-sa.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214860-installing-red-hat-using-the-embedded-sa.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214860-installing-red-hat-using-the-embedded-sa.mobi",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/software/navigator.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c240-m5-rack-server/213180-configure-intel-network-cards-with-bootu.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c240-m5-rack-server/213180-configure-intel-network-cards-with-bootu.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c240-m5-rack-server/213180-configure-intel-network-cards-with-bootu.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c220-m7-rack-server/223131-configure-boot-from-iscsi-in-ucs-c.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/200666-UCS-Install-server-certificate-to-CIMC.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/200666-UCS-Install-server-certificate-to-CIMC.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/200666-UCS-Install-server-certificate-to-CIMC.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/223121-configure-ucs-c-series-optimized-m-2.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/223121-configure-ucs-c-series-optimized-m-2.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/223121-configure-ucs-c-series-optimized-m-2.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/222896-configure-integrated-ucs-c-series-to-sta.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/222896-configure-integrated-ucs-c-series-to-sta.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/222896-configure-integrated-ucs-c-series-to-sta.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/221865-cimc-automation-configuration-through-an.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/221865-cimc-automation-configuration-through-an.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/221865-cimc-automation-configuration-through-an.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/docs/ucs-mim/latest",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-manager/220538-configure-jbod-drives-to-unconfigured-go.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-manager/220538-configure-jbod-drives-to-unconfigured-go.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-manager/220538-configure-jbod-drives-to-unconfigured-go.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-mount-standalone-server-software/212389-tech-note-on-how-to-run-lsi-storcli-from.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-x-series-modular-system/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214407-installing-rhel-on-a-standalone-ucs-c240.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214407-installing-rhel-on-a-standalone-ucs-c240.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214407-installing-rhel-on-a-standalone-ucs-c240.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/212715-configuring-and-troubleshooting-smtp-on.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b420-m4-blade-server/200386-Configure-SUSE-Linux-EMC-VNX-Storage-f.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b420-m4-blade-server/200386-Configure-SUSE-Linux-EMC-VNX-Storage-f.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/web/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/tsd-products-support-maintain-and-operate-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/tsd-products-support-maintain-and-operate-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c885a-m8-rack-server/223235-configure-lacp-c885a-m8-nic-with.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-support-faq-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/213800-managing-and-monitoring-hdd-medium-error.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/213800-managing-and-monitoring-hdd-medium-error.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/213800-managing-and-monitoring-hdd-medium-error.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-support-faq-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214561-compatible-small-form-factor-pluggables.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214561-compatible-small-form-factor-pluggables.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214561-compatible-small-form-factor-pluggables.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/222546-troubleshoot-memory-errors-on-ucs-server.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/222546-troubleshoot-memory-errors-on-ucs-server.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/222546-troubleshoot-memory-errors-on-ucs-server.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/technical-overview-c17-743902.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/225429-advanced-memory-features-and.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/225429-advanced-memory-features-and.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/225429-advanced-memory-features-and.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCwo62396",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCwq33148",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCwh73760",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-mount-ucs-managed-server-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/224851-clear-transient-dimm-uecc-errors-on.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/224851-clear-transient-dimm-uecc-errors-on.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/224851-clear-transient-dimm-uecc-errors-on.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCwa75339",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCwk28210",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCwo62396",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/hyperconverged-systems/hyperflex-hx-data-platform-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-mount-standalone-server-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-infrastructure-ucs-manager-software/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-x-series-modular-system/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/unified-computing-system/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-manager/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-manager/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-manager/215857-troubleshoot-ucs-raid-controller-issues.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-manager/215857-troubleshoot-ucs-raid-controller-issues.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-manager/215857-troubleshoot-ucs-raid-controller-issues.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-server-software/215099-ucs-b-series-servers-replacing-a-raid-c.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/220417-ports-on-the-fabric-interconnect-run-mor.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/220417-ports-on-the-fabric-interconnect-run-mor.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/220417-ports-on-the-fabric-interconnect-run-mor.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/cloud-systems-management/category.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/intersight/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/intersight/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/cloud-systems-management/intersight/218161-configure-and-claim-a-standalone-c-serie.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/cloud-systems-management/intersight/218161-configure-and-claim-a-standalone-c-serie.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/cloud-systems-management/intersight/218161-configure-and-claim-a-standalone-c-serie.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvw76806",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214478-ucs-c-series-m5-server-components-relati.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214478-ucs-c-series-m5-server-components-relati.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214478-ucs-c-series-m5-server-components-relati.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/215834-identifying-power-on-hours-for-ssd-drive.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/215834-identifying-power-on-hours-for-ssd-drive.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/215834-identifying-power-on-hours-for-ssd-drive.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214564-vic-14xx-in-standalone-and-ucsm-integra.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214564-vic-14xx-in-standalone-and-ucsm-integra.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/214564-vic-14xx-in-standalone-and-ucsm-integra.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp97248",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-virtual-interface-card/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/216118-unable-to-change-hdd-status-from-unconfi.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/216118-unable-to-change-hdd-status-from-unconfi.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/216118-unable-to-change-hdd-status-from-unconfi.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-b-series-blade-servers/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/200519-UCS-B-series-Teaming-Bonding-Options-wi.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/200519-UCS-B-series-Teaming-Bonding-Options-wi.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/200519-UCS-B-series-Teaming-Bonding-Options-wi.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCva09592",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-x-series-modular-system/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/215930-troubleshoot-unpartitioned-sd-cards-in-c.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/215930-troubleshoot-unpartitioned-sd-cards-in-c.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/215930-troubleshoot-unpartitioned-sd-cards-in-c.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/whitepaper-c11-734876.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/200709-UCS-Implementation-with-MAB-802-1x-Authe.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/200709-UCS-Implementation-with-MAB-802-1x-Authe.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/200709-UCS-Implementation-with-MAB-802-1x-Authe.mobi",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/c/en/us/products/collateral/ios-nx-os-software/identity-based-networking-services/config_guide_c17-663759.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/211054-Puncturing-bad-block-on-PD-Punctured-a.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/211054-Puncturing-bad-block-on-PD-Punctured-a.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/211054-Puncturing-bad-block-on-PD-Punctured-a.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-manager/200869-Add-Virtual-Drive-in-the-Modular-RAID-Co.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/210529-Assigning-Cisco-Integrated-Management-Co.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/200444-C460-M4-TPM-Messages-In-The-SEL-Logs.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/200445-C220M4-and-C240M4-Option-ROM-issues.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/200509-C-Series-Enable-JBOD-on-Cisco-12G-SAS.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/212323-check-and-configure-cpu-governor-on-sap.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/200443-Disabling-Consistency-Checks-for-Raid-Vo.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/115020-intro-lsi-megacli-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/200233-Recovering-a-VMware-datastore-after-upg.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-b-series-blade-servers/212339-cisco-ucs-virtual-interface-driver-updat.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/119038-technote-cseries-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/115025-ucs-cseries-cli-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/117637-technote-UCS-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/115024-exp-reboot-ucs-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/servers-unified-computing/ucs-c-series-rack-servers/200704-Procedure-to-Add-new-Hard-Drives-to-an-E.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-support-faq-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/products-troubleshooting-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/security/duo/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/security/guide-c07-742970.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://apps.cisco.com/Commerce/home",
+    "depth": 2
+  },
+  {
+    "url": "https://salesresources.cisco.com/Link/Content/DCh2jgBRTJ6qQ8CCGDqGqqJqgjqV",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/security/sas-incident-response.html",
+    "depth": 2
+  },
+  {
+    "url": "https://salesresources.cisco.com/app",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/benefits/incentives/standard-not-for-resale/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-documents/selling-duo/ta-p/3771678",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/mlperf-ucs-c845a-m8-rack-server-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/sales-resources-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c845a-m8-rack-server-og.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/mlperf-ucs-c845a-m8-rack-server-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/sales-resources-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ai-pod-ucs-c885a-servers-nexus-9364e--sg2-switches.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/secure-ai-factory/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-direct-ds.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ucs-x-series-direct-aag.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/hybrid-cloud-operations/intersight-platform/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/networking/cloud-networking/nexus-platform/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/switches/nexus-93108tc-fx3-switch/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tmgmatrix.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://copi.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://optsel.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/qsfp-dd800-transceiver-modules-ds.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/collateral/networking/switches/nexus-9000-series-switches/nexus-9300-gx2-series-fixed-switches-data-sheet.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/nexus-9364e-sg2-switch-ds.html",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/datacenter/announcing-the-new-nexus-dashboard-for-simplifying-data-center-operations-in-the-ai-era",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/data-center-analytics/nexus-dashboard/datasheet-c78-744371.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/data-center-analytics/nexus-dashboard/guide-c07-744361.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/intersight/intersight-ds.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/intersight/at-a-glance-c45-739419.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/sales-resources-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/data-center-virtualization/desktop-virtualization/power-software-ucs-server-amd-epyc-so.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/enable-hybrid-workforce-virtual-desktops-so.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/datacenter/cisco-c245-m6-servers-powered-by-3rd-gen-amd-epyc-processors-deliver-enterprise-grade-vdi-capacity-and-performance",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-amd-epyc-4-gen-20-world-rec-so.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/design-zone.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/supercharge-microsoft-sql-server-so.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/collateral/data-center/microsoft-sql-server-on-cisco-ucs/ms-sql-server-databases-so.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-amd-epyc-4-gen-20-world-rec-so.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/design-zone.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/data-center/microsoft-sql-server-on-cisco-ucs/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/sales-resources-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-amd-epyc-4-gen-20-world-rec-so.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/buy/payment-solutions/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/sales-resources-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/sets14-new-performance-records-so.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/data-intelligence-plat-amd-so.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/datacenter/announcing-cisco-data-intelligence-platform",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/cloud-systems-management/intersight/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/data-center-virtualization/big-data/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/splunk-smartstore-ucs-m5-with-scality-ring-so.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/solution-overview-c22-2572860.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/global-partners/sap.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/datasheet-c78-744647.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/solution-overview-c22-742110.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/datacenter/cpav5",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/solution-overview-c22-739225.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x580-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/mlperf-b300-training-ucs-c880a-m8-rs-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/nexus-9000-series-switches-ai-clusters-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/datacenter",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/infrastructure/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/mlperf-ucs-c845a-m8-rack-server-wp.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/nexus-9000-series-switches-ai-clusters-wp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-c845a-m8-rack-server-ds.html",
+    "depth": 2
+  },
+  {
+    "url": "https://blogs.cisco.com/datacenter/power-your-genai-ambitions-with-new-cisco-ai-ready-data-center-infrastructure",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-x-series-modular-system/ai-infrastructure-pods-inferencing-aag.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/solutions/artificial-intelligence/infrastructure/index.html",
     "depth": 2
   }
 ]
