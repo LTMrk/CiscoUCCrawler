@@ -22773,3 +22773,140 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/admin/docs/api/guides/audit-events-api-response-error-codes-reference
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/admin/docs/api/guides/audit-events-api-response-error-codes-reference)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/admin/docs/api/guides/audit-events-api-response-error-codes-reference)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/admin/docs/api/guides/audit-events-api-response-error-codes-reference)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Audit Events Error Reference
+Webex Admin
+  * [Overview](https://developer.webex.com/admin/docs/admin)
+  * [Authentication](https://developer.webex.com/admin/docs/authentication)
+  * Service Apps
+  * Guides
+    * [Partner's Guide](https://developer.webex.com/admin/docs/api/guides/partners-guide-to-using-the-webex-apis)
+    * [Audit Events Error Reference](https://developer.webex.com/admin/docs/api/guides/audit-events-api-response-error-codes-reference)
+    * [Hybrid Services](https://developer.webex.com/admin/docs/api/guides/managing-hybrid-services-licenses)
+    * [Webhooks](https://developer.webex.com/admin/docs/api/guides/webhooks)
+    * [Using Webex Service Apps](https://developer.webex.com/admin/docs/service-apps)
+    * [Real-time File DLP Basics](https://developer.webex.com/admin/docs/api/guides/webex-real-time-file-dlp-basics)
+    * [Provisioning APIs](https://developer.webex.com/admin/docs/api/guides/webex-calling-provisioning-apis)
+    * [SCIM-2 Overview](https://developer.webex.com/admin/docs/scim-2-overview)
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/admin/docs/api/changelog/webex-admin)
+  * [AI Assistant for Developers](https://developer.webex.com/admin/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/admin/docs/api/guides/troubleshooting)
+  * [Suite Sandbox](https://developer.webex.com/admin/docs/developer-sandbox-guide)
+
+
+## Webex Admin
+### Audit Events Error Reference
+Reference listing of possible error codes for the Audit Events API.
+The following error codes may appear in `GET /v1/adminAudit/events` API response when change notification-based user provisioning fails with Webex Calling license. The table provides the reason for the error:  
+| Error Code  | Description  |  
+| --- | --- |  
+| WXC-4201  | WXC-4201: The phone number is already in use.  |  
+| WXC-4202  | WXC-4202: The Extension is already in use.  |  
+| WXC-4410  | WXC-4410: Invalid phone number. A phone number used for incoming calls must contain only the characters +, - and 0-9. Only the leading character may be a +.  |  
+| WXC-4801  | WXC-4801: Invalid email address. The email address can contain only one @ and A-Z, a-z, 0-9, ! # $ % & * + - / = _ '{' '}'  |  
+| WXC-4802  | WXC-4802: Invalid email address. The email address must contain an @ symbol.  |  
+| WXC-4803  | WXC-4803: Invalid email address. The email address cannot contain two @ symbols.  |  
+| WXC-4805  | WXC-4805: Mobile Network integration is not configured for this user.  |  
+| WXC-4900  | WXC-4900: Invalid email address. The username length cannot be greater than 161 characters long and must be in username@domain format.  |  
+| WXC-4901  | WXC-4901: Invalid email address. The supported characters in the email can be a letter, a digit, a single quote, or one of the following characters: # @ $ % & + - / = ? ; .  |  
+| WXC-4909  | WXC-4909: Invalid extension/ extension length.  |  
+| WXC-4910  | WXC-4910: Invalid extension. The extension can only contain characters from 0-9.  |  
+| WXC-4911  | WXC-4911: Invalid extension. The extension cannot be an emergency number.  |  
+| WXC-4912  | WXC-4912: Invalid extension. The extension cannot be a repair call number.  |  
+| WXC-4942  | WXC-4942: Invalid extension.  |  
+| WXC-4982  | WXC-4982: Invalid phone number length.  |  
+| WXC-4989  | WXC-4989: Invalid email address. Ensure the email address is in username@domain format.  |  
+| WXC-4992  | WXC-4992: Invalid domain name in email. Numeric IP address is not allowed in the domain name.  |  
+| WXC-4993  | WXC-4993: Invalid domain name in email. Domain name cannot end with the . character.  |  
+| WXC-4997  | WXC-4997: Invalid domain name in email. Domain name may only contain letter, digit, ., -, : and square brackets.  |  
+| WXC-25058  | WXC-25058: Extension cannot be less than 2 or greater than 6 characters.  |  
+| WXC-25279  | WXC-25279: Invalid field for firstName or lastName. It cannot have %, #, <, >, backslash, forward slash, and quote characters.  |  
+| WXC-25400  | WXC-25400: firstName cannot be less than 1 or greater than 30.  |  
+| WXC-25401  | WXC-25401: lastName cannot be less than 1 or greater than 30.  |  
+| WXC-25402  | WXC-25402: Email cannot be longer than 161 characters.  |  
+| WXC-25404  | WXC-25404: Webex calling features are undergoing maintenance and are temporarily unavailable. Try again later.  |  
+| WXC-27392  | WXC-27392: The Mobile Network Integration is not enabled.  |  
+| WXC-27516  | WXC-27516: Do not set the User to use custom caller ID name for external calls when custom caller ID name is empty.  |  
+| WXC-27517  | WXC-27517: Do not set the User to use location caller ID name for external calls when location caller ID name is empty.  |  
+| WXC-27590  | WXC-27590: Activate the number to convert to ESim.  |  
+| WXC-27593  | WXC-27593: Cannot remove the main number of the user while an ESim device is associated to the user.  |  
+| WXC-27771  | WXC-27771: Assigning Restricted Non-Geographical number as primary, alternate, or fax number is not allowed.  |  
+| WXC-500  | WXC-500: An unexpected condition prevented the request from completing. Please try again.  |  
+| WXC-BIFROST-U400401  | WXC-400401: Unable to determine the Webex Calling location to add the user.  |  
+| WXC-BIFROST-U400405  | WXC-500: An unexpected condition prevented the request from completing. Please try again.  |  
+| WXC-BIFROST-U400406  | WXC-500: An unexpected condition prevented the request from completing. Please try again.  |  
+| WXC-BIFROST-U400407  | WXC-500: An unexpected condition prevented the request from completing. Please try again.  |  
+| WXC-BIFROST-U400408  | WXC-500: An unexpected condition prevented the request from completing. Please try again.  |  
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
