@@ -25487,3 +25487,224 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)Show All Breadcrumbs
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
+  * [Cisco Unified Communications Manager (CallManager)](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html)
+  * [Configuration Examples and TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-configuration-examples-list.html)
+
+
+# CAPF Certificate Signed by CA for CUCM
+![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)
+Download
+Print
+### Available Languages
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)
+
+
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.pdf) (649.5 KB)   
+View with Adobe Reader on a variety of devices
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.epub) (725.3 KB)   
+View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.mobi) (628.5 KB)   
+View on Kindle device or Kindle app on multiple devices
+
+
+Updated:July 16, 2021
+Document ID:212214
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+## Contents
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#anc0)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#anc1)
+[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#anc2)
+[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#anc3)
+[Limitation](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#anc4)
+[Background Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#anc5)
+[Purpose of CA Signed CAPF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#anc6)
+[Mechanism for this PKI](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#anc7)
+[How CAPF CSR is Different from other CSRs?](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#anc8)
+[Configure](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#anc9)
+[Verify](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#anc10)
+[LSC when Self-signed CAPF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#anc11)
+[LSC when CA-signed CAPF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#anc12)
+[Troubleshoot](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#anc13)
+[Related Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html#anc14)
+## Introduction
+This document describes how to obtain a Certificate Authority Proxy Function (CAPF) certificate signed by Certificate Authority (CA) for Cisco Unified Communications Manager (CUCM). There are always requests to sign the CAPF with external CA. This document shows why to understand how it works is as important as the configuration procedure.
+## Prerequisites
+### Requirements
+Cisco recommends that you have knowledge of these topics:  
+  
+
+  * Public Key Infrastructure (PKI)
+  * CUCM Security Configuration
+
+
+### Components Used
+The information in this document is based on Cisco Unified Communications Manager version 8.6 and above. 
+The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
+### Limitation
+Different CA might have different requirements to the CSR. There are reports that different version of OpenSSL CA have some specific ask for the CSR however Microsoft Windows CA works well with the CSR from Cisco CAPF so far, which discussion will not be covered in this article. 
+## Related Products
+This document can also be used with these hardware and software versions:
+  * Microsoft Windows Server 2008 CA.
+  * Cisco Jabber for Windows (different vervions might have different name for folder to store the LSC).
+
+
+## Background Information
+### Purpose of CA Signed CAPF
+Some customers would like to align with the globle certificate policy whith the company so there is a need to signed the CAPF with the same CA as other servers.
+### Mechanism for this PKI
+By default, Locally Significant Certificate (LSC) is signed by the CAPF, so the CAPF is the CA for phones in this scenario. However, when you try to get the CAPF signed by the external CA, then the CAPF in this scenario acts as subordinate CA or intermediate CA.
+The difference between self-signed CAPF and CA-signed CAPF is: the CAPF is the root CA to LSC when doing self-signed CAPF, the CAPF is the subordinate (intermediate) CA to LSC when doing CA-signed CAPF.
+### How CAPF CSR is Different from other CSRs?
+Regarding to [RFC5280](https://www.ietf.org/rfc/rfc5280.txt), The key usage extension defines the purpose (e.g., encipherment, signature, certificate signing) of the key contained in the certificate. CAPF is a certificate proxy and CA and it can sign certificate to the phones but the other certificate like CallManager, Tomcat, IPSec they act as leaf (user identity). When you look into the CSR for them, you can see the CAPF CSR has **Certificate Sign** role but not the others.
+CAPF CSR:
+
+```
+        Attributes:
+        Requested Extensions:
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, IPSec End System
+            X509v3 Key Usage: 
+                Digital Signature, **Certificate Sign  
+**
+```
+
+Tomcat CSR:
+
+```
+Attributes:
+        Requested Extensions:
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication, IPSec End System
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment, Data Encipherment, Key Agreement
+```
+
+CallManager CSR:
+
+```
+Attributes:
+        Requested Extensions:
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication, IPSec End System
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment, Data Encipherment, Key Agreement  
+  
+
+```
+
+IPSec CSR:
+Attributes: Requested Extensions: X509v3 Extended Key Usage: TLS Web Server Authentication, TLS Web Client Authentication, IPSec End System X509v3 Key Usage: Digital Signature, Key Encipherment, Data Encipherment, Key Agreement
+## Configure
+Here is one scenario, external root CA is used to sign CAPF certificate: to encrypted the signal/media for Jabber client and IP phone.
+Step 1. Make your CUCM cluster as a security cluster.
+
+```
+** admin:utils ctl set-cluster mixed-mode**
+```
+
+  
+Step 2. As shown in the image, generate the CAPF CSR.  
+  
+
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-00.png "Related image, diagram or screenshot.")
+Step 3. Signed this with the CA (using subordinate template in Windows 2008 CA).
+**Note** : You need to user **Subordinate Certification Authority** template to sign this certificate.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-01.png "Related image, diagram or screenshot.")
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-02.png "Related image, diagram or screenshot.")
+Step 4. Upload the root CA as CAPF-trust and the server certificate as CAPF. For this test, please also upload this Root CA as CallManager-trust to have TLS connection between Jabber and CallManager service as the signed LSC needs to be trusted by CallManager service as well. As mentioned at the beginning of this article, there is a need to align the CA for all servers so this CA should have been uploaded to CallManager already for signal/media encryption. For the screnario of deploying IP phone 802.1x, you don't have to make the CUCM as mixed mode or upload the CA which signs the CAPF as CallManager-trust in to the CUCM server. 
+Step 5. Restart the CAPF service.
+Step 6. Restart the CallManager/TFTP services in all notes.
+Step 7. Signed the Jabber softphone LSC.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-03.png "Related image, diagram or screenshot.")
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-04.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-04.png "Related image, diagram or screenshot.")
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-05.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-05.png "Related image, diagram or screenshot.")
+Step 8. Enable the security profile for Jabber softphone.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-06.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-06.png "Related image, diagram or screenshot.")
+Step 9. Now secured RTP happens as:
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-07.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-07.png "Related image, diagram or screenshot.")
+## Verify
+Compare the LSC when self-singed CAPF and CA-signed CAPF:
+As you can see from these images for LSC, from LSC point of view, CAPF is the root CA when using self-signed CAPF but CAPF is the subordinate (intermediate) CA while using CA-signed CAPF.
+### LSC when Self-signed CAPF
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-08.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-08.png "Related image, diagram or screenshot.") [![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-09.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-09.png "Related image, diagram or screenshot.")
+### LSC when CA-signed CAPF  
+  
+
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-10.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-10.png "Related image, diagram or screenshot.") [![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-11.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by-11.png "Related image, diagram or screenshot.")
+**Alert:**
+the Jabber client LSC showing whole certificate chain in this example is different from the IP phone. AS IP phones are designed based on the RFC 5280 (3.2. Certification Paths and Trust) then the AKI (Authority Key Identifier) is missing, then CAPF and the root CA certificate do not present in the certificate chain. Missing the CAPF/Root CA cerfificate in the certificate chain will cause some issue to ISE to authenticate IP phones during 801.x authentication without uploading the CAPF and Root Certificates to the ISE. There is another option in CUCM 12.5 with LSC signed by external offline CA directly so CAPF certificate is not needed to be uploaded to the ISE for IP phone 802.1x authentication.
+## Troubleshoot
+There is currently no specific troubleshooting information available for this configuration.
+## Related Information
+Known defect: CA signed CAPF Certificate, root cert must be uploaded as CM-trust: 
+https://bst.cloudapps.cisco.com/bugsearch/bug/CSCut87382/?referring_site=bugquickviewredir 
+### Revision History  
+| Revision  | Publish Date  | Comments  |  
+| --- | --- | --- |  
+| 1.0  |  12-Oct-2017   | Initial Release  |  
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html "Back to Top")
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+### Contributed by Cisco Engineers
+  * Simon Xiu Li
+Cisco TAC Engineer
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+### Contact Cisco
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
+
+
+### This Document Applies to These Products
+  * [Jabber](https://www.cisco.com/c/en/us/support/unified-communications/jabber/series.html)
+  * [Unified Communications Manager (CallManager)](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html)
+
+
