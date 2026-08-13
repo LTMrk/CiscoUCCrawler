@@ -22652,3 +22652,124 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/admin/docs/api/guides/partners-guide-to-using-the-webex-apis
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/admin/docs/api/guides/partners-guide-to-using-the-webex-apis)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/admin/docs/api/guides/partners-guide-to-using-the-webex-apis)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/admin/docs/api/guides/partners-guide-to-using-the-webex-apis)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Partner's Guide
+Webex Admin
+  * [Overview](https://developer.webex.com/admin/docs/admin)
+  * [Authentication](https://developer.webex.com/admin/docs/authentication)
+  * Service Apps
+  * Guides
+    * [Partner's Guide](https://developer.webex.com/admin/docs/api/guides/partners-guide-to-using-the-webex-apis)
+    * [Audit Events Error Reference](https://developer.webex.com/admin/docs/api/guides/audit-events-api-response-error-codes-reference)
+    * [Hybrid Services](https://developer.webex.com/admin/docs/api/guides/managing-hybrid-services-licenses)
+    * [Webhooks](https://developer.webex.com/admin/docs/api/guides/webhooks)
+    * [Using Webex Service Apps](https://developer.webex.com/admin/docs/service-apps)
+    * [Real-time File DLP Basics](https://developer.webex.com/admin/docs/api/guides/webex-real-time-file-dlp-basics)
+    * [Provisioning APIs](https://developer.webex.com/admin/docs/api/guides/webex-calling-provisioning-apis)
+    * [SCIM-2 Overview](https://developer.webex.com/admin/docs/scim-2-overview)
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/admin/docs/api/changelog/webex-admin)
+  * [AI Assistant for Developers](https://developer.webex.com/admin/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/admin/docs/api/guides/troubleshooting)
+  * [Suite Sandbox](https://developer.webex.com/admin/docs/developer-sandbox-guide)
+
+
+## Webex Admin
+### Partner's Guide
+Our partner community who utilizes Webex APIs will find this guide extremely helpful. If you're a reseller partner who manages customers and users, or an ISV partner that incorporates our app frameworks into your services, there's something for you here.
+####  anchorWhat is a Managed Customer?
+anchor
+As a reseller partner, you're typically reselling Webex services to your customers, managing their set-up and users. You might be catering to large corporations or the SMB market; regardless, you share a common need for a streamlined, automated provisioning process. Through this process, your system interacts with Webex APIs to carry out tasks relating to user configuration, licensing, and provisioning within customer organizations. These customers maintained by you are referred to as managed customers.
+####  anchorHow to Utilize API Functions and Admin Roles
+anchor
+Webex APIs offer a robust set of functions for Webex Meeting, Webex Calling, Webex Devices, Webex Chat, and more. You can explore these in detail at developer.webex.com.
+Two crucial roles to understand are the organization admin and the partner admin. An organization admin carries out API functions within their own organization, while a partner admin (or delegate) can perform functions in a customer's organization despite being from a different home organization. A partner delegate can be successful in invoking the Webex APIs with a sound understanding of the underlying principles. For more on admin roles, check out this [help article.](https://help.webex.com/en-us/article/16gmxfb/Assign-administrator-roles-in-Partner-Hub)
+####  anchorNavigating the Managed Partner List
+anchor
+Each partner admin has a list of managed organizations linked to their account. When you invoke an API on a managed customer organization, the system checks if you have the necessary rights to act on that organization. If your managed customer list is not up to date you likely will receive a 403 http status code and you will need to update your managed partner list.
+####  anchorHow to Update Your Managed Partner List
+anchor
+As a partner admin, you have multiple ways to update your managed organizations list. You can directly log in to the customer's Control Hub (admin.webex.com), or you can rely on certain API endpoints that dynamically update your list. For more control, you can use the GET /organizations/{id} command. If the {id} belongs to a managed organization, your partner admin account will be updated but only for the next 24 hours.
+####  anchorLimitations and Best Practices
+anchor
+Remember, you can't manage more than 2000 organizations in your list. If you add another one, a previous entry will be removed. Also, any organization added through Dynamic Patch will be removed from your list after 24 hours. To effectively manage your list, use the GET /organizations/{id} command before making API calls. If you're dealing with more than 2000 customers per day, you may need to repeat this process.
+##### In This Article
+  * [What is a Managed Customer?](https://developer.webex.com/admin/docs/api/guides/partners-guide-to-using-the-webex-apis#what-is-a-managed-customer)
+  * [How to Utilize API Functions and Admin Roles](https://developer.webex.com/admin/docs/api/guides/partners-guide-to-using-the-webex-apis#how-to-utilize-api-functions-and-admin-roles)
+  * [Navigating the Managed Partner List](https://developer.webex.com/admin/docs/api/guides/partners-guide-to-using-the-webex-apis#navigating-the-managed-partner-list)
+  * [How to Update Your Managed Partner List](https://developer.webex.com/admin/docs/api/guides/partners-guide-to-using-the-webex-apis#how-to-update-your-managed-partner-list)
+  * [Limitations and Best Practices](https://developer.webex.com/admin/docs/api/guides/partners-guide-to-using-the-webex-apis#limitations-and-best-practices)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
