@@ -275388,3 +275388,212 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/returns/returns-portal.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/returns/returns-portal.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/returns/returns-portal.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/returns/returns-portal.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+
+
+# Cisco Returns Portal
+[](https://www.cisco.com/c/en/us/support/returns/returns-portal.html)
+  * [Request Return](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#request-return)
+  * [Arrange Pick-Up](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#arrange-pick-up)
+  * [Pack Shipment](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#pack-shipment)
+  * [Track Status](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#track-status)
+  * [FAQ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#faq)
+
+[](https://www.cisco.com/c/en/us/support/returns/returns-portal.html)
+[ ![Request_RAM](https://www.cisco.com/c/en/us/support/returns/returns-portal/jcr:content/Grid/category_atl/layout-category-atl/blade_512543501/bladeContents/tile.img.png/1606780203205.png) ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#request-return)
+###  [ Step 1 ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#request-return)
+Request Return
+[ ![Shipment_Label](https://www.cisco.com/c/en/us/support/returns/returns-portal/jcr:content/Grid/category_atl/layout-category-atl/blade_512543501/bladeContents1/tile.img.png/1606780213432.png) ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#arrange-pick-up)
+###  [ Step 2 ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#arrange-pick-up)
+Arrange Pick-Up
+[ ![Pack_it](https://www.cisco.com/c/en/us/support/returns/returns-portal/jcr:content/Grid/category_atl/layout-category-atl/blade_512543501/bladeContents2/tile.img.png/1606780223556.png) ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#pack-shipment)
+###  [ Step 3 ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#pack-shipment)
+Pack Shipment  
+
+[ ![Track_it](https://www.cisco.com/c/en/us/support/returns/returns-portal/jcr:content/Grid/category_atl/layout-category-atl/blade_512543501/bladeContents3/tile.img.png/1606780235804.png) ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#track-status)
+###  [ Step 4 ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#track-status)
+Track Status
+## Step 1: Request Return
+Select the option that best fits your current situation to obtain an RMA
+To return an item, you must obtain a Return Material Authorization (RMA) from options below. Otherwise, select the appropriate step for where you are in the process.
+## Step 2: Arrange Pick-Up
+To print your shipping label and to schedule a date for a carrier to come pick-up the equipment, please select from the options below. You may also work with your own carrier to a schedule a pick-up.
+Please note that RMA with Credit and Try and Buy return types must be returned at the customer's expense. 
+  * [Arrange Pick-Up](https://www.cisco.com/c/en/us/support/returns/rma.html?wf=ArrangeShipping)
+  * [Print Returns Shipping Label](https://www.cisco.com/c/en/us/support/returns/rma.html?wf=PrintLabel)
+
+
+## Step 3: Pack Shipment
+Please include the following with each box you return:
+◦ A shipping label with both the origin and shipping addresses   
+
+◦ RMA number 
+◦ Country of origin 
+  * [Packaging Requirements](https://www.cisco.com/c/en/us/support/returns/pack-shipment.html)
+
+
+## Step 4: Track Status
+###  Track RMA Status 
+To track the status of an RMA that is open, closed, or cancelled.
+  * [Track RMA Status](https://www.cisco.com/c/en/us/support/returns/rma.html?wf=TrackRMA)
+
+
+###  Track Shipment 
+To track the shipment status of your Cisco parts, select from the options below.
+  * [Track Replacement Part ](https://www.cisco.com/c/en/us/support/returns/rma.html?wf=TrackReplacement)
+  * [Track Returns to Cisco](https://www.cisco.com/c/en/us/support/returns/rma.html?wf=TrackReturns)
+
+
+More questions? [ Visit our FAQ page](https://www.cisco.com/c/en/us/support/returns/faq.html)
+×
+Where are your used products located? 
+[US   
+  
+](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal2) [UK & EU   
+  
+](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal17) [Other   
+  
+](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal12)
+×
+Do your products power on? 
+[Yes](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal4) [No](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal3)
+[Back](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal1)
+×
+####  Customer Recycling Solutions 
+To utilize our Customer Recycling Solutions program, log in to your Cisco account and fill out the form [here](https://wwrlep.cloudapps.cisco.com/epTakebackForm.do?loc=en) to request a return. After you have obtained your Case ID, a certified Cisco Recycler will reach out to you to arrange a pick-up. For assistance, call our Returns hotline at 1-844-9RETURN. 
+[ Finish ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#~arrange-pick-up)
+[Back](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal2)
+×
+Is your return more than 100 lbs? 
+[Yes](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal5) [No](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal11)
+[Back](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal2)
+×
+Do you know the Serial Numbers or Product IDs of your products and the quantity you’d like to return? 
+[Yes](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal8) [No](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal19)
+[Back](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal4)
+×
+####  Cisco Returns Program 
+To return your end-of-use products, use our newly launched simple self-service returns platform to request a return. Click [here](https://id.cisco.com/home/ciscoid_hylaapp_1/0oaqjyudf1E4Dotk25d6/alnqk5cb9aGJ1s6lF5d6) to get started. For assistance, call our Returns hotline at 1-844-9RETURN 
+[ Finish ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#~arrange-pick-up)
+[Back](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal5)
+×
+#### Send IT Back
+To return your end-of-use products, use our easy, convenient, and free mobile app to request a return. The mobile app is available for the [Apple iPhone](https://apps.apple.com/us/app/send-it-back/id1140287915) and [Android](https://play.google.com/store/apps/details?id=com.cisco.sitb) devices. Click [here](https://www-1.compliance2product.com/c2p/getAttachment.do?code=Me4XGSOyFihBC4CHSHHjOGHDWWScpJDSWp5EkAhD2IYZ9qcOu6TI7EEJ973dlsDO) for more information on how to start your return. For assistance, call our Returns hotline at 1-844-9RETURN 
+[ Finish ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#~arrange-pick-up)
+[Back](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal5)
+×
+####  Cisco Returns Program 
+To return your end-of-use products, use our newly launched simple self-service returns platform to request a return. Click [here](https://id.cisco.com/home/ciscoid_hylaapp_1/0oaqjyudf1E4Dotk25d6/alnqk5cb9aGJ1s6lF5d6) to get started. For assistance, call our Returns hotline at 1-844-9RETURN 
+[ Finish ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#~arrange-pick-up)
+[Back](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal4)
+×
+Do your products power on? 
+[Yes](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal14) [No](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal16)
+[Back](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal1)
+×
+####  Reach out to our Asset Recovery Team! 
+To return your product, reach out to our Asset Recovery team to coordinate your return:product-asset-recovery@cisco.com
+[ Finish ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#~arrange-pick-up)
+[Back](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal12)
+×
+####  Customer Recycling Solutions 
+To utilize our Customer Recycling Solutions program, log in to your Cisco account and fill out the form [here](https://wwrlep.cloudapps.cisco.com/epTakebackForm.do?loc=en) to request a return. After you have obtained your Case ID, a certified Cisco Recycler will reach out to you to arrange a pick-up. 
+[ Finish ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#~arrange-pick-up)
+[Back](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal12)
+×
+Do your products power on? 
+[Yes](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal21) [No](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal18)
+[Back](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal1)
+×
+####  Customer Recycling Solutions 
+To utilize our Customer Recycling Solutions program, log in to your Cisco account and fill out the form [here](https://wwrlep.cloudapps.cisco.com/epTakebackForm.do?loc=en) to request a return. After you have obtained your Case ID, a certified Cisco Recycler will reach out to you to arrange a pick-up. 
+[ Finish ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#~arrange-pick-up)
+[Back](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal17)
+×
+Is your return more than 100 lbs? 
+[Yes](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal21) [No](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal20)
+[Back](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal17)
+×
+####  Reach out to our Asset Recovery Team! 
+To return your product, reach out to our Asset Recovery team to coordinate your return:product-asset-recovery@cisco.com
+[ Finish ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#~arrange-pick-up)
+[Back](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal19)
+×
+#### Send IT Back
+To return your end-of-use products, use our easy, convenient, and free mobile app to request a return. The mobile app is available for the [Apple iPhone](https://apps.apple.com/us/app/send-it-back/id1140287915) and [Android](https://play.google.com/store/apps/details?id=com.cisco.sitb) devices. Click [here](https://www-1.compliance2product.com/c2p/getAttachment.do?code=Me4XGSOyFihBC4CHSHHjOGHDWWScpJDSWp5EkAhD2IYZ9qcOu6TI7EEJ973dlsDO) for more information on how to start your return. 
+[ Finish ](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#~arrange-pick-up)
+[Back](https://www.cisco.com/c/en/us/support/returns/returns-portal.html#myModal17)
+×
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
