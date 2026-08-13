@@ -42311,3 +42311,206 @@ Submit a Question
 [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
 ©2026 Cisco and/or its affiliates. All rights reserved. 
 [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+
+
+---
+# ORIGEN: https://help.webex.com/yr6g4bb
+
+Skip To Content[![webex-logo](https://help.webex.com/logo/webexlogo.png)Help Center](https://help.webex.com/en-us)
+* ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
+* ![search icon](https://help.webex.com/images/search-icon.svg)
+* ![Cisco AI Assistant for Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+  * [Get started](https://help.webex.com/en-us/getting-started)
+  * [Help by product](https://help.webex.com/en-us/products)
+  * [Administration](https://help.webex.com/en-us/administration)
+  * [What's new](https://help.webex.com/en-us/ld-v6m1dl)
+  * Resources
+Support
+[Join a meeting](https://signin.webex.com/join)
+[Developer Tools![Developer Tools](https://help.webex.com/images/pop-out-bold.svg)](https://developer.webex.com/)
+[Adoption Hub![](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/us/en/adopt/index.html)
+[Contact Support](https://help.webex.com/en-us/contact)
+learn
+[Video resources](https://help.webex.com/en-us/video-resources)
+[Webex Academy![Webex Academy](https://help.webex.com/images/pop-out-bold.svg)](https://academy.webex.com/learn)
+[Live Events and Webinars![Live Events and Webinars](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/learn/webinars-demos.html)
+[Webex Blog![Webex Blog](https://help.webex.com/images/pop-out-bold.svg)](https://blog.webex.com/)
+programs
+[Webex Community![Webex Community](https://help.webex.com/images/pop-out-bold.svg)](https://community.cisco.com/t5/webex-community/ct-p/webex-user)
+[Webex Insider![Webex Insider](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/insider)
+[App Hub![App Hub](https://help.webex.com/images/pop-out-bold.svg)](https://apphub.webex.com/)
+![Cisco AI Assistant](https://help.webex.com/images/ai.png)
+## Cisco AI Assistant
+The most advanced generative AI-powered platform for hybrid work and customer experience.
+[Learn more →](https://help.webex.com/en-us/webex-ai)
+![webex](https://help.webex.com/logo/webexsmall.png)[Download Webex](https://www.webex.com/downloads.html)
+[+1-888-469-3239](tel:+1-888-469-3239)[Contact Sales →](https://www.webex.com/contact-sales.html)
+  * ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
+  * ![Cisco AI Assistant for Webex](https://help.webex.com/images/cisco-ai-assistance.svg)
+  * English
+    * [ Dansk ](https://help.webex.com/da-dk/article/yr6g4bb)
+    * [ Deutsch ](https://help.webex.com/de-de/article/yr6g4bb)
+    * [ English ](https://help.webex.com/en-us/article/yr6g4bb)![language tick](https://help.webex.com/images/checkbox-check.svg)
+    * [ Español ](https://help.webex.com/es-co/article/yr6g4bb)
+    * [ Français ](https://help.webex.com/fr-fr/article/yr6g4bb)
+    * [ Italiano ](https://help.webex.com/it-it/article/yr6g4bb)
+    * [ Nederlands ](https://help.webex.com/nl-nl/article/yr6g4bb)
+    * [ Português ](https://help.webex.com/pt-br/article/yr6g4bb)
+    * [ Pyccĸий ](https://help.webex.com/ru-ru/article/yr6g4bb)
+    * [ Svenska ](https://help.webex.com/sv-se/article/yr6g4bb)
+    * [ Tϋrkçe ](https://help.webex.com/tr-tr/article/yr6g4bb)
+    * [ 한국어 ](https://help.webex.com/ko-kr/article/yr6g4bb)
+    * [ 日本語 ](https://help.webex.com/ja-jp/article/yr6g4bb)
+    * [ 简体中文 ](https://help.webex.com/zh-cn/article/yr6g4bb)
+    * [ 繁體中文 ](https://help.webex.com/zh-tw/article/yr6g4bb)
+    * [ Română ](https://help.webex.com/ro-ro/article/yr6g4bb)
+    * [ Magyar ](https://help.webex.com/hu-hu/article/yr6g4bb)
+    * [ Polski ](https://help.webex.com/pl-pl/article/yr6g4bb)
+    * [ Čeština ](https://help.webex.com/cs-cz/article/yr6g4bb)
+    * [ Български ](https://help.webex.com/bg-bg/article/yr6g4bb)
+    * [ Norsk ](https://help.webex.com/no-no/article/yr6g4bb)
+    * [ Hrvatski ](https://help.webex.com/hr-hr/article/yr6g4bb)
+    * [ Srpski ](https://help.webex.com/sr-rs/article/yr6g4bb)
+    * [ Українська ](https://help.webex.com/uk-ua/article/yr6g4bb)
+    * [ العربية ](https://help.webex.com/ar-ae/article/yr6g4bb)
+    * [ עברית ](https://help.webex.com/he-il/article/yr6g4bb)
+    * [ Suomi ](https://help.webex.com/fi-fi/article/yr6g4bb)
+    * [ Slovenščina ](https://help.webex.com/sl-si/article/yr6g4bb)
+    * [ Slovenský ](https://help.webex.com/sk-sk/article/yr6g4bb)
+  * Sign In
+
+
+In this article
+Anti-malware protection
+Enable anti-malware protection
+View anti-malware scan history
+Report issues
+  * [Home](https://help.webex.com/)
+  * /
+  * Article
+
+
+This article applies to:
+  * ![](https://help.webex.com/images/products-icon.svg)
+Products
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/industries-icon.svg)
+Industries
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/roles-icon.svg)
+Roles
+![](https://help.webex.com/images/arrow-down_16.svg)
+
+
+April 14, 2026 | 12450 view(s) | 18 people thought this was helpful
+![](https://help.webex.com/images/vector.svg)
+Subscribe
+Was this article helpful?
+![close](https://help.webex.com/images/icn-close.svg)
+# Thanks for your feedback.
+![](https://help.webex.com/images/thumbs-up.svg)Yes, thank you!![](https://help.webex.com/images/thumbs-down.svg)Not really
+In this article
+![cross icon](https://help.webex.com/images/cancel_18.svg)
+Anti-malware protection
+Enable anti-malware protection
+View anti-malware scan history
+Report issues
+# Anti-malware scanning of files in Webex App
+![list-menu](https://help.webex.com/images/list-menu.svg)In this article
+![list-menu](https://help.webex.com/images/feedback.svg)Feedback?
+Protect users by scanning all file uploads for Trojan attacks, viruses, malware, and other malicious threats. 
+  * [Anti-malware protection](https://help.webex.com/en-us/article/yr6g4bb/Anti-malware-scanning-of-files-in-Webex-App#id_128143)
+  * [Enable anti-malware protection](https://help.webex.com/en-us/article/yr6g4bb/Anti-malware-scanning-of-files-in-Webex-App#id_128140)
+  * [View anti-malware scan history](https://help.webex.com/en-us/article/yr6g4bb/Anti-malware-scanning-of-files-in-Webex-App#id_128144)
+  * [Report issues](https://help.webex.com/en-us/article/yr6g4bb/Anti-malware-scanning-of-files-in-Webex-App#Cisco_Task_in_List_GUI.dita_69716274-b68e-4054-b6b6-8e3bf3520963)
+
+
+## Anti-malware protection
+With [Extended Security Pack](https://www.cisco.com/c/en/us/products/collateral/conferencing/webex-control-hub/datasheet-c78-742773.html), you can choose to enable anti-malware scanning for files uploaded in Webex App. Webex anti-malware capabilities are powered by Cisco Talos ClamAV.
+When people upload files in Webex App, the files are scanned for malware and if the files are infected, people won't be able to download or preview the file. When files are first uploaded, they are automatically quarantined for evaluation and users can't download or preview the file during the evaluation period.
+### Supported versions
+Anti-malware is supported on the following versions of Webex App:
+  * Webex App for Windows 3.0.14375.0 or later
+  * Webex App for Mac 3.0.14375.0 or later
+  * Webex App for iPhone and iPad 4.9 or later.
+
+
+When a user uploads an infected file with an older Webex App, or from Webex App for Android, the file is quarantined but the uploader won't see a file infected error message.
+### Things to keep in mind
+  * The scanner does not work on previously uploaded files; we check all files that users upload from the time when you enable anti-malware scanning.
+  * The scanner does not check or recheck previously uploaded files, even when new malware signatures are available to the scanning engine.
+  * The scanner checks all files uploaded to spaces owned by your organization. This includes group spaces and one-on-one spaces with external users.
+  * Users in organizations with anti-malware protection are always protected from malware.
+  * The previous point has implications for your users in spaces owned by external organizations that do not have anti-malware protection:
+    * We scan all files uploaded by your organization's users, because your organization has malware protection. This includes files that your users upload to group spaces and one-on-one spaces in the external organization.
+    * If a user from an organization without malware protection uploads a file to a group space, we do not scan that file at the time of upload - because neither the user nor the space-owning organization has malware protection.
+We scan that file at the time that your user attempts to download that file.
+
+
+## Enable anti-malware protection  
+| 1  |  Sign in to Control Hub at <https://admin.webex.com/>, and open the Messaging page.  |  
+| --- | --- |  
+| 2  |  Scroll to Anti-Malware File Scanning and enable Virus and Malware Protection.  |  
+## View anti-malware scan history  
+| 1  |  Sign in to Control Hub at <https://admin.webex.com/>, and open the Messaging page.  |  
+| --- | --- |  
+| 2  |  Scroll to Anti-Malware File Scanning and choose a date range.
+  * Last Day
+  * Last Week
+  * Last Month
+  * Last Three Months
+  * Customize
+
+The page automatically updates to show the count of files scanned in that period, and how many of those files were infected. ![](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/441001-442000/441721.jpg)  |  
+| 3  |  Click Download CSV to get a report with details of the files and scan results.  |  
+## Report issues  
+| 1  |  To report an issue with the anti-malware scan, choose one of these options:
+  * **False positive** : If a clean file is incorrectly identified as infected, go to <https://www.clamav.net/reports/fp> to report it.
+  * **False negative** : If an infected file is incorrectly identified as clean, go to <https://www.clamav.net/reports/malware> to report it.
+
+The malware engine support team processes your request.  |  
+| --- | --- |  
+| 2  |  If your reported issue persists beyond 48 hours after you reported it, contact the Cisco Technical Assistance Center (TAC). [How do I contact TAC?](https://help.webex.com/en-us/WBX42698)  |  
+Was this article helpful?
+Yes, thank you!
+Not really
+Was this article helpful?
+![](https://help.webex.com/images/arrow-down_20.svg)
+![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
+Recently Viewed
+![](https://help.webex.com/images/arrow-down_20.svg)
+  * [Webex App | Add people to a team space](https://help.webex.com/en-us/article/ogreyb)
+  * [Webex App | Get someone's attention with @Mentions](https://help.webex.com/en-us/article/p5k20o)
+  * [Configure Webex Calling for your organization](https://help.webex.com/en-us/article/njvdjf2)
+  * [Reports for Your Cloud Collaboration Portfolio](https://help.webex.com/en-us/article/nmug598)
+
+
+![](https://help.webex.com/icons/arrow-up_16.svg)
+## Small Business
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Pricing](https://pricing.webex.com/)[Webex App](https://www.webex.com/all-new-webex.html)[Meetings](https://www.webex.com/video-conferencing.html)[Calling](https://www.webex.com/cloud-calling.html)[Messaging](https://www.webex.com/team-collaboration.html)[Screen Sharing](https://www.webex.com/screen-sharing.html)
+## Enterprise
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Webex Suite](https://www.webex.com/collaboration-suite.html)[Calling](https://www.webex.com/cloud-calling.html)[Meetings](https://www.webex.com/video-conferencing.html)[Messaging](https://www.webex.com/team-collaboration.html)[Slido](https://www.webex.com/audience-engagement.html)[Webinars](https://www.webex.com/webinar.html)[Events](https://socio.events/)[Contact Center](https://www.webex.com/contact-center.html)[CPaaS](https://www.webex.com/customer-interaction-management.html)[Security](https://www.webex.com/security.html)[Control Hub](https://www.webex.com/control-hub.html)
+## Devices
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Headsets](https://hardware.webex.com/products/headsets)[Cameras](https://hardware.webex.com/products/cameras)[Desk Series](https://hardware.webex.com/products/desk-series)[Room Series](https://hardware.webex.com/products/room-series-and-kits)[Board Series](https://hardware.webex.com/products/board-series)[Phone Series](https://hardware.webex.com/products/phones)[Accessories](https://hardware.webex.com/products/accessories)
+## Solutions For
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Education](https://www.webex.com/industries/education.html)[Healthcare](https://www.webex.com/industries/healthcare.html)[Government](https://www.webex.com/industries/government.html)[Finance](https://www.webex.com/industries/financial-services.html)[Sports & Entertainment](https://www.webex.com/industries/sports-entertainment.html)[Frontline](https://www.webex.com/industries/frontline.html)[Nonprofits](https://www.webex.com/industries/nonprofits.html)[Startups](https://www.webex.com/industries/start-ups.html)[Hybrid Work](https://www.webex.com/hybrid-work.html)
+## Resources
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Downloads](https://www.webex.com/downloads.html)[Join a Test Meeting](https://www.webex.com/test-meeting.html)[Online Classes](https://help.webex.com/en-us/landing/onlineclasses)[Integrations](https://www.webex.com/products/integrations/index.html)[Accessibility](https://www.webex.com/accessibility.html)[Inclusivity](https://www.webex.com/inclusive-collaboration.html)[Live & On-Demand Webinars](https://www.webex.com/learn/webinars-demos.html)[Webex Community](https://cs.co/webexcommunity)[Webex Developers](https://developer.webex.com/)[News & Innovations](https://www.webex.com/resources/whats-new.html)
+## Company
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)[Contact Support](https://help.webex.com/en-us/contact)[Contact Sales](https://www.webex.com/us/en/dg/contact-sales.html)[Webex Blog](https://blog.webex.com/)[Webex Thought Leadership](https://webexahead.webex.com/)[Webex Merch Store](https://www.webexmerchstore.com/)[Careers](https://www.webex.com/company/careers.html)
+  * [![X](https://help.webex.com/images/social-x.svg)](https://twitter.com/webex)
+  * [![LinkedIn](https://help.webex.com/images/linkedinIcon.svg)](https://www.linkedin.com/company/webex)
+  * [![Facebook](https://help.webex.com/images/facebookIcon.svg)](https://www.facebook.com/webex)
+  * [![Youtube](https://help.webex.com/images/youtubeIcon.svg)](https://www.youtube.com/c/webex)
+  * [![Instagram](https://help.webex.com/images/insta.svg)](https://www.instagram.com/webex/)
+
+
+[Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+©2026 Cisco and/or its affiliates. All rights reserved. 
+[Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
