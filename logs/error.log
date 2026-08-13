@@ -397,3 +397,7 @@ Code context:
 [2026-08-13T12:29:20.359050] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/create/docs/instant-connect
 [2026-08-13T12:29:23.934005] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/create/docs/instant-connect-meeting-links
 [2026-08-13T12:29:27.737396] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://instant.webex.com/integrate
+[2026-08-13T12:29:41.183940] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/getting-started
+[2026-08-13T12:29:43.192111] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/my-apps/new/bot
+[2026-08-13T12:29:45.587471] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (16083 bytes, 0 chars visible) | URL: https://academy.webex.com/learn
+[2026-08-13T12:29:46.992507] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/learn/webinars-demos.html
