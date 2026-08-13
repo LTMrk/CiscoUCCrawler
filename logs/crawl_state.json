@@ -8446,5 +8446,9 @@
   "https://developer.webex.com/docs/api/v1/memberships/delete-a-membership": {
     "hash": "178f632e2668b0e26b004c863f1175a1d6c35ecbc891cfc8206ed6329878d01c",
     "timestamp": "2026-08-13T02:23:52.602927"
+  },
+  "https://developer.webex.com/docs/api/v1/memberships": {
+    "hash": "214d9807a7f020613100f36fe90d511afb195c14125d100e07759e1f36f876ec",
+    "timestamp": "2026-08-13T02:23:57.826513"
   }
 }
