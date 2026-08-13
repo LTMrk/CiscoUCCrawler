@@ -1073,3 +1073,227 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://help.webex.com/en-us/article/nl3z97c/Webex-App-|-Webex-Instant-Connect
+
+Skip To Content[![webex-logo](https://help.webex.com/logo/webexlogo.png)Help Center](https://help.webex.com/en-us)
+* ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
+* ![search icon](https://help.webex.com/images/search-icon.svg)
+  * [Get started](https://help.webex.com/en-us/getting-started)
+  * [Help by product](https://help.webex.com/en-us/products)
+  * [Administration](https://help.webex.com/en-us/administration)
+  * [What's new](https://help.webex.com/en-us/ld-v6m1dl)
+  * Resources
+Support
+[Join a meeting](https://signin.webex.com/join)
+[Developer Tools![Developer Tools](https://help.webex.com/images/pop-out-bold.svg)](https://developer.webex.com/)
+[Adoption Hub![](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/us/en/adopt/index.html)
+[Contact Support](https://help.webex.com/en-us/contact)
+learn
+[Video resources](https://help.webex.com/en-us/video-resources)
+[Webex Academy![Webex Academy](https://help.webex.com/images/pop-out-bold.svg)](https://academy.webex.com/learn)
+[Live Events and Webinars![Live Events and Webinars](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/learn/webinars-demos.html)
+[Webex Blog![Webex Blog](https://help.webex.com/images/pop-out-bold.svg)](https://blog.webex.com/)
+programs
+[Webex Community![Webex Community](https://help.webex.com/images/pop-out-bold.svg)](https://community.cisco.com/t5/webex-community/ct-p/webex-user)
+[Webex Insider![Webex Insider](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/insider)
+[App Hub![App Hub](https://help.webex.com/images/pop-out-bold.svg)](https://apphub.webex.com/)
+![Cisco AI Assistant](https://help.webex.com/images/ai.png)
+## Cisco AI Assistant
+The most advanced generative AI-powered platform for hybrid work and customer experience.
+[Learn more →](https://help.webex.com/en-us/webex-ai)
+![webex](https://help.webex.com/logo/webexsmall.png)[Download Webex](https://www.webex.com/downloads.html)
+[+1-888-469-3239](tel:+1-888-469-3239)[Contact Sales →](https://www.webex.com/contact-sales.html)
+  * ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
+  * English
+    * [ Dansk ](https://help.webex.com/da-dk/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Deutsch ](https://help.webex.com/de-de/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ English ](https://help.webex.com/en-us/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)![language tick](https://help.webex.com/images/checkbox-check.svg)
+    * [ Español ](https://help.webex.com/es-co/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Français ](https://help.webex.com/fr-fr/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Italiano ](https://help.webex.com/it-it/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Nederlands ](https://help.webex.com/nl-nl/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Português ](https://help.webex.com/pt-br/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Pyccĸий ](https://help.webex.com/ru-ru/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Svenska ](https://help.webex.com/sv-se/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Tϋrkçe ](https://help.webex.com/tr-tr/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ 한국어 ](https://help.webex.com/ko-kr/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ 日本語 ](https://help.webex.com/ja-jp/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ 简体中文 ](https://help.webex.com/zh-cn/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ 繁體中文 ](https://help.webex.com/zh-tw/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Română ](https://help.webex.com/ro-ro/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Magyar ](https://help.webex.com/hu-hu/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Polski ](https://help.webex.com/pl-pl/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Čeština ](https://help.webex.com/cs-cz/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Български ](https://help.webex.com/bg-bg/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Norsk ](https://help.webex.com/no-no/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Hrvatski ](https://help.webex.com/hr-hr/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Srpski ](https://help.webex.com/sr-rs/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Українська ](https://help.webex.com/uk-ua/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ العربية ](https://help.webex.com/ar-ae/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ עברית ](https://help.webex.com/he-il/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Suomi ](https://help.webex.com/fi-fi/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Slovenščina ](https://help.webex.com/sl-si/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+    * [ Slovenský ](https://help.webex.com/sk-sk/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect)
+  * Sign In
+
+
+In this article
+Approve the Instant Connect service app
+  * [Home](https://help.webex.com/)
+  * /
+  * Article
+
+
+This article applies to:
+  * ![](https://help.webex.com/images/products-icon.svg)
+Products
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/industries-icon.svg)
+Industries
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/roles-icon.svg)
+Roles
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/operating-systems-icon.svg)
+Operating systems
+![](https://help.webex.com/images/arrow-down_16.svg)
+
+
+April 11, 2026 | 4219 view(s) | 6 people thought this was helpful
+![](https://help.webex.com/images/vector.svg)
+Subscribe
+Was this article helpful?
+![close](https://help.webex.com/images/icn-close.svg)
+# Thanks for your feedback.
+![](https://help.webex.com/images/thumbs-up.svg)Yes, thank you!![](https://help.webex.com/images/thumbs-down.svg)Not really
+In this article
+![cross icon](https://help.webex.com/images/cancel_18.svg)
+Approve the Instant Connect service app
+# Webex App | Webex Instant Connect
+![list-menu](https://help.webex.com/images/list-menu.svg)In this article
+![list-menu](https://help.webex.com/images/feedback.svg)Feedback?
+Add Webex Instant Connect to your spaces so you can create and start Webex Instant Connect meetings, all from within Webex App. When you start a meeting, the consultation lobby opens in your browser. You no longer need your own front-end interface to organize your consultations. 
+![Using the instant connect bot to setup a meeting.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/460001-470000/463001-464000/463210.jpg)
+## Approve the Instant Connect service app
+Going forward, every meeting created via Instant Connect will be a full-featured Webex meeting. To manage that, we’re introducing a new guest to guest (G2G) service app, which itself is assigned a Webex Meetings license. This new IC service app determines if the backend is on Webex Suite Meeting Platform (WSMP). If it is, it orchestrates G2G meetings; otherwise, it orchestrates space-backed meetings.
+Here are the details of this change:
+  * Cisco will develop a Service App designed for instant G2G meetings. This Instant Connect service app schedules meetings and acts as the license sponsor for those meetings.
+  * The meetings must be conducted on dedicated G2G sites, which the administrator must configure by providing a name. All reporting and most site configurations are available. The G2G site is accessible upon subscription/license activation.
+  * When an administrator approves the Instant Connect service app in Control Hub, it is linked to the G2G site.
+
+
+**IMPORTANT** : All Instant Connect customers must approve this new service app to prevent service disruptions when their organization transitions to WSMP. Once a customer approves the app, Cisco uses the service app’s machine access token to create a meeting in the G2G site. Upon authorization, the service app possesses the necessary licenses and entitlements to schedule G2G meetings within the organization.
+[Add Webex Instant Connect](https://help.webex.com/en-us/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect#_fb1d2c11-f781-4e9c-a729-0f34985219ff)
+First add Webex Instant Connect to a new or existing space in Webex App, before inviting others to use Webex Instant Connect too. Add Webex Instant Connect to a group space, or create a direct space for it.  
+| 1  |  To add Webex Instant Connect to a group space, go to Messaging and choose the space to which you want to add Webex Instant Connect. To create a direct space for Webex Instant Connect, click ![Add button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/444001-445000/444067.jpg), select Send a direct message and then enter `instant@webex.bot`  |  
+| --- | --- |  
+| 2  |  Choose People, click Add People![Add people/ plus icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/460001-470000/461001-462000/461933.jpg), and then enter: `instant@webex.bot`  |  
+[Invite others to use Webex Instant Connect](https://help.webex.com/en-us/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect#_bdaf04e6-c122-4541-90e7-0337aa7ae71e)
+After you add Webex Instant Connect to a space, invite others to use it too. Webex Instant Connect can send invitations to other users in your organization.
+The email addresses you use to invite others must be in the same domain as yours.  
+|  Invite others to use Webex Instant Connect by typing their email address in the space and sending the message.
+  * Invite multiple users in a direct space by entering email addresses separated with a comma. For example: `address1@email.com, address2@email.com,               address3@email.com`
+  * Invite multiple users in a group space by entering `@instant` followed by email addresses separated with a comma. For example: `@instant               address1@email.com, address2@email.com, address3@email.com`
+
+Webex Instant Connect sends an invite message in Webex App with a link to create a virtual visit.  |  
+| --- |  
+[Create a Webex Instant Connect meeting](https://help.webex.com/en-us/article/nl3z97c/Webex-App-%7C-Webex-Instant-Connect#_2c593da1-7523-42df-816b-af1ebb2f39e7)
+Create a Webex Instant Connect meeting, without leaving Webex App. You can start the meeting from Webex App too. The meeting participants simply click on the invite link to open the consultation lobby in their browser; they don't need Webex App.  
+| 1  |  Create a meeting from a group space or from a direct space with Webex Instant Connect:
+  * If Webex Instant Connect is in a group space, type `@Instant hi` and send the message. 
+  * If Webex Instant Connect is in a direct space, type `hi` and send the message.
+
+Webex Instant Connect sends a message with a Create virtual visit link.  |  
+| --- | --- |  
+| 2  |  Select the length of time before the link expires from the drop-down list, and then click Create virtual visit.  |  
+| 3  |  To invite people to the meeting, enter their email addresses or phone numbers separated with a comma, and then click Send Invite. Everyone on the invite list receives an email or an SMS with a link to join the meeting as a participant.  |  
+| 4  |  As the host, to start the meeting right from the space, click Start meeting. The consultation lobby opens in your browser. The user that creates and starts the meeting is the host. Everyone else is a participant, consultations created in Webex App cannot have multiple hosts.  |  
+Was this article helpful?
+Yes, thank you!
+Not really
+Was this article helpful?
+![](https://help.webex.com/images/arrow-down_20.svg)
+![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
+Related Articles
+![](https://help.webex.com/images/arrow-down_20.svg)
+  * [Manage your organization's bots](https://help.webex.com/en-us/article/bbtwoj)
+
+
+![](https://help.webex.com/icons/arrow-up_16.svg)
+## Small Business
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Pricing](https://pricing.webex.com/)[Webex App](https://www.webex.com/all-new-webex.html)[Meetings](https://www.webex.com/video-conferencing.html)[Calling](https://www.webex.com/cloud-calling.html)[Messaging](https://www.webex.com/team-collaboration.html)[Screen Sharing](https://www.webex.com/screen-sharing.html)
+## Enterprise
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Webex Suite](https://www.webex.com/collaboration-suite.html)[Calling](https://www.webex.com/cloud-calling.html)[Meetings](https://www.webex.com/video-conferencing.html)[Messaging](https://www.webex.com/team-collaboration.html)[Slido](https://www.webex.com/audience-engagement.html)[Webinars](https://www.webex.com/webinar.html)[Events](https://socio.events/)[Contact Center](https://www.webex.com/contact-center.html)[CPaaS](https://www.webex.com/customer-interaction-management.html)[Security](https://www.webex.com/security.html)[Control Hub](https://www.webex.com/control-hub.html)
+## Devices
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Headsets](https://hardware.webex.com/products/headsets)[Cameras](https://hardware.webex.com/products/cameras)[Desk Series](https://hardware.webex.com/products/desk-series)[Room Series](https://hardware.webex.com/products/room-series-and-kits)[Board Series](https://hardware.webex.com/products/board-series)[Phone Series](https://hardware.webex.com/products/phones)[Accessories](https://hardware.webex.com/products/accessories)
+## Solutions For
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Education](https://www.webex.com/industries/education.html)[Healthcare](https://www.webex.com/industries/healthcare.html)[Government](https://www.webex.com/industries/government.html)[Finance](https://www.webex.com/industries/financial-services.html)[Sports & Entertainment](https://www.webex.com/industries/sports-entertainment.html)[Frontline](https://www.webex.com/industries/frontline.html)[Nonprofits](https://www.webex.com/industries/nonprofits.html)[Startups](https://www.webex.com/industries/start-ups.html)[Hybrid Work](https://www.webex.com/hybrid-work.html)
+## Resources
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Downloads](https://www.webex.com/downloads.html)[Join a Test Meeting](https://www.webex.com/test-meeting.html)[Online Classes](https://help.webex.com/en-us/landing/onlineclasses)[Integrations](https://www.webex.com/products/integrations/index.html)[Accessibility](https://www.webex.com/accessibility.html)[Inclusivity](https://www.webex.com/inclusive-collaboration.html)[Live & On-Demand Webinars](https://www.webex.com/learn/webinars-demos.html)[Webex Community](https://cs.co/webexcommunity)[Webex Developers](https://developer.webex.com/)[News & Innovations](https://www.webex.com/resources/whats-new.html)
+## Company
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)[Contact Support](https://help.webex.com/en-us/contact)[Contact Sales](https://www.webex.com/us/en/dg/contact-sales.html)[Webex Blog](https://blog.webex.com/)[Webex Thought Leadership](https://webexahead.webex.com/)[Webex Merch Store](https://www.webexmerchstore.com/)[Careers](https://www.webex.com/company/careers.html)
+  * [![X](https://help.webex.com/images/social-x.svg)](https://twitter.com/webex)
+  * [![LinkedIn](https://help.webex.com/images/linkedinIcon.svg)](https://www.linkedin.com/company/webex)
+  * [![Facebook](https://help.webex.com/images/facebookIcon.svg)](https://www.facebook.com/webex)
+  * [![Youtube](https://help.webex.com/images/youtubeIcon.svg)](https://www.youtube.com/c/webex)
+  * [![Instagram](https://help.webex.com/images/insta.svg)](https://www.instagram.com/webex/)
+
+
+[Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+©2026 Cisco and/or its affiliates. All rights reserved. 
+[Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
