@@ -152803,3 +152803,622 @@ Resources
 [Tenant Best Practices](https://help.imiconnect.io/docs/tenant-config-best-practices)
 [Changelog](https://help.imiconnect.io/changelog)
 [Acceptable Usage Policy](https://imimobile.com/gb/legal/acceptable-use-policy) | © 2000 - 2026 Webex Connect, All Rights Reserved 
+
+
+---
+# ORIGEN: https://help.webexconnect.io/docs/tenant-settings
+
+[Jump to Content](https://help.webexconnect.io/docs/tenant-settings#content)
+[![Platform Documentation](https://files.readme.io/7bdecfe-small-Webex_Connect.png)](https://help.webexconnect.io/)[Platform Documentation](https://help.webexconnect.io/docs)[Platform Changelog](https://help.webexconnect.io/changelog)[API Reference](https://developers.imiconnect.io/reference/apioverview)[Push & In-App SDKs](https://developers.imiconnect.io/docs/overview-of-sdks)[SDK Release Notes](https://developers.imiconnect.io/docs/sdk-release-notes)
+[Home](https://help.webexconnect.io/)[Platform Documentation](https://help.webexconnect.io/docs)[Platform Changelog](https://help.webexconnect.io/changelog)v6.19.0 v6.20.0
+* * *
+[Platform Documentation](https://help.webexconnect.io/docs)[Platform Changelog](https://help.webexconnect.io/changelog)[API Reference](https://developers.imiconnect.io/reference/apioverview)[Push & In-App SDKs](https://developers.imiconnect.io/docs/overview-of-sdks)[SDK Release Notes](https://developers.imiconnect.io/docs/sdk-release-notes)[FAQs](https://developers.imiconnect.io/reference/apple-business-chat-faqs)[Website](https://imimobile.com/products/imiconnect)[![Platform Documentation](https://files.readme.io/7bdecfe-small-Webex_Connect.png)](https://help.webexconnect.io/)
+Platform Documentation
+[FAQs](https://developers.imiconnect.io/reference/apple-business-chat-faqs)[Website](https://imimobile.com/products/imiconnect)
+v6.20.0
+[Home](https://help.webexconnect.io/)[Platform Documentation](https://help.webexconnect.io/docs)[Platform Changelog](https://help.webexconnect.io/changelog)Tenant Settings
+Search
+`CTRL-K`
+All
+Platform Documentation
+Platform Changelog
+###### Start typing to search…
+## GETTING STARTED
+  * [Webex Connect Platform Overview](https://help.webexconnect.io/docs/welcome)
+  * [Accessing Webex Connect](https://help.webexconnect.io/docs/accessing-the-product)
+  * [The beginner's guide to Webex Connect](https://help.webexconnect.io/docs/getting-started-with-the-product)
+    * [Groups and Teams](https://help.webexconnect.io/docs/getting-started-groups-and-teams)
+    * [Buying a Phone Number](https://help.webexconnect.io/docs/buying-phone-numbers)
+    * [Creating a Flow on Webex Connect](https://help.webexconnect.io/docs/create-a-new-flow)
+    * [Sending automated SMS using Webex Connect Visual Flow Builder](https://help.webexconnect.io/docs/sending-automated-sms)
+    * [Flow Debug](https://help.webexconnect.io/docs/transaction-logs-and-debugging)
+  * [Tenant Configuration Best Practices](https://help.webexconnect.io/docs/getting-started-best-practices)
+
+
+## WEBEX CONNECT SANDBOX
+  * [Getting Started with Sandbox](https://help.webexconnect.io/docs/getting-started-with-sandbox)
+  * [Accessing Webex Connect Sandbox](https://help.webexconnect.io/docs/accessing-sandbox)
+  * [Sending and Receiving SMS using Sandbox](https://help.webexconnect.io/docs/sending-and-receiving-sms-using-sandbox)
+  * [Making and Receiving Voice Calls using Sandbox](https://help.webexconnect.io/docs/making-and-receiving-voice-calls-using-sandbox)
+  * [Sending and Receiving WhatsApp Messages using Sandbox](https://help.webexconnect.io/docs/sending-and-receiving-whatsapp-messages-using-sandbox)
+  * [Sandbox FAQs](https://help.webexconnect.io/docs/sandbox-faqs)
+  * [Support for Sandbox Users](https://help.webexconnect.io/docs/support-for-sandbox-users)
+  * [Accessing Webex AI Agent Studio in Sandbox](https://help.webexconnect.io/docs/webex-ai-agent-in-sandbox)
+
+
+## TUTORIALS
+  * [Creating a Service in Webex Connect](https://help.webexconnect.io/docs/create-a-new-service-on-webexconnect)
+  * [Exception handling at the node level](https://help.webexconnect.io/docs/exception-handling-at-the-node-level)
+  * [Using Branch Node to build a flow with conditional branching](https://help.webexconnect.io/docs/branch-node-to-build-flow-with-conditional-branch)
+  * [Creating a Custom Variable on Webex Connect](https://help.webexconnect.io/docs/create-custom-variable-webexconnect)
+  * [Using Custom Node to configure your own integrations](https://help.webexconnect.io/docs/using-custom-node-to-configure-your-own-integrations)
+  * [Setting up a Two-way Appointment Reminder in Webex Connect](https://help.webexconnect.io/docs/setup-appointment-reminder-webexconnect)
+  * [Analyze customer sentiment using Webex Connect with IBM Watson](https://help.webexconnect.io/docs/analyze-customer-sentiment-with-imiconnect-ibm-watson)
+  * [Starting with Apple Pay](https://help.webexconnect.io/docs/start-with-apple-pay)
+    * [Authenticating Customers with Apple Auth](https://help.webexconnect.io/docs/authenticate-customers-with-apple-auth)
+
+
+## SERVICES & FLOWS
+  * [What's a Service](https://help.webexconnect.io/docs/service-introduction)
+  * [Creating a Service](https://help.webexconnect.io/docs/create-a-service)
+  * [Inside a Service](https://help.webexconnect.io/docs/service-dashboard)
+    * [Service Key & JWT Authentication Tokens](https://help.webexconnect.io/docs/service-key-and-jwt-authentication-tokens)
+    * [Locking, Deleting, and Other Settings](https://help.webexconnect.io/docs/service-settings)
+  * [Flows](https://help.webexconnect.io/docs/flows-introduction)
+    * [Navigating Flow Builder Canvas](https://help.webexconnect.io/docs/navigate-flow-builder-canvas)
+    * [Flow Settings](https://help.webexconnect.io/docs/flow-settings)
+    * [Triggering a Flow](https://help.webexconnect.io/docs/trigger-flow)
+    * [Nodes](https://help.webexconnect.io/docs/nodes)
+    * [Variable Management in Flows](https://help.webexconnect.io/docs/variable-management-in-flows)
+    * [Transition Actions](https://help.webexconnect.io/docs/transition-actions)
+    * [Node Transitions](https://help.webexconnect.io/docs/node-transitions)
+    * [Calling a Flow from another Flow](https://help.webexconnect.io/docs/calling-a-flow-from-another-flow)
+    * [Flow Version History](https://help.webexconnect.io/docs/flow-version-history)
+    * [Flow Analytics](https://help.webexconnect.io/docs/flow-analytics)
+    * [FAQs](https://help.webexconnect.io/docs/faqs-visual-flow-builder)
+  * [Node Palette](https://help.webexconnect.io/docs/flow-nodes)
+    * [Start Node](https://help.webexconnect.io/docs/start-node)
+    * [SMS Node](https://help.webexconnect.io/docs/sms-node)
+    * [Email Node](https://help.webexconnect.io/docs/email-node)
+    * [Push Node](https://help.webexconnect.io/docs/push)
+    * [Voice Node Group](https://help.webexconnect.io/docs/voice-node-group)
+    * [Live Chat/In-App Messaging Node](https://help.webexconnect.io/docs/in-app-messaging)
+    * [Apple Messages for Business Node](https://help.webexconnect.io/docs/apple-messages-for-business-node)
+    * [Messenger Node](https://help.webexconnect.io/docs/messenger)
+    * [MMS Node](https://help.webexconnect.io/docs/mms-node)
+    * [WhatsApp Node](https://help.webexconnect.io/docs/whatsapp-node)
+    * [Receive Node](https://help.webexconnect.io/docs/receive-node)
+    * [Social Hour Check Node](https://help.webexconnect.io/docs/social-hour-check-node)
+    * [HTTP Request Node](https://help.webexconnect.io/docs/http-request-node)
+    * [Branch Node](https://help.webexconnect.io/docs/branch-node)
+    * [Evaluate Node](https://help.webexconnect.io/docs/evaluate-node)
+    * [Cryptographic Hash](https://help.webexconnect.io/docs/cryptographic-hash-node-configuration)
+    * [Delay Node](https://help.webexconnect.io/docs/delay-node)
+    * [Data Parser Node](https://help.webexconnect.io/docs/data-parser-node)
+    * [Page Connector Node](https://help.webexconnect.io/docs/page-connector-node)
+    * [Call Workflow Node](https://help.webexconnect.io/docs/call-workflow-node)
+    * [Generate OTP Node](https://help.webexconnect.io/docs/generate-otp-node)
+    * [Validate OTP Node](https://help.webexconnect.io/docs/validate-otp-node)
+    * [Encryption Node](https://help.webexconnect.io/docs/encryption-node)
+    * [Decryption Node](https://help.webexconnect.io/docs/decryption-node)
+    * [Call User Node](https://help.webexconnect.io/docs/call-user-node)
+    * [Collect Input Node](https://help.webexconnect.io/docs/collect-input-node)
+    * [Play Node](https://help.webexconnect.io/docs/play-node)
+    * [Record Node](https://help.webexconnect.io/docs/record-node)
+    * [Call Patch Node](https://help.webexconnect.io/docs/call-patch-node)
+    * [IVR Menu Node](https://help.webexconnect.io/docs/ivr-menu-node)
+    * [Profile Node](https://help.webexconnect.io/docs/profile-node)
+    * [RCS Capability Node](https://help.webexconnect.io/docs/rcs-capability-node)
+    * [RCS Message Node](https://help.webexconnect.io/docs/rcs-message-node)
+    * [NLP Pipeline Node](https://help.webexconnect.io/docs/nlp-pipeline-node)
+    * [NLP Premium Node](https://help.webexconnect.io/docs/nlp-premium-node)
+    * [Entity Node](https://help.webexconnect.io/docs/entity-node)
+    * [Intent Node](https://help.webexconnect.io/docs/intent-node)
+    * [Send Voice Node [Deprecated]](https://help.webexconnect.io/docs/send-voice-node)
+    * [Registry Node [Deprecated]](https://help.webexconnect.io/docs/registry-node)
+    * [Database Node [Deprecated]](https://help.webexconnect.io/docs/database-node)
+    * [Create Chat Node](https://help.webexconnect.io/docs/create-chat-node)
+    * [Validate Chat Node](https://help.webexconnect.io/docs/validate-chat-node)
+    * [Webex Campaign Profile Node](https://help.webexconnect.io/docs/campaign-profile-node)
+    * [QnA Bot Node](https://help.webexconnect.io/docs/qa-bot-node)
+    * [Task Bot Node](https://help.webexconnect.io/docs/task-bot-node)
+    * [NLP Node](https://help.webexconnect.io/docs/nlp-node)
+    * [Data Transform Node](https://help.webexconnect.io/docs/data-transform-node)
+    * [Call Transfer Node](https://help.webexconnect.io/docs/call-transfer-node)
+    * [Summarize Text Beta Node](https://help.webexconnect.io/docs/summarize-text-beta-node)
+  * [Rules](https://help.webexconnect.io/docs/rules)
+
+
+## REPORTS
+  * [Reports](https://help.webexconnect.io/docs/service-reports)
+
+
+## Watchtower
+  * [Watchtower](https://help.webexconnect.io/docs/watchtower)
+    * [Integrations](https://help.webexconnect.io/docs/integrations)
+    * [Throughput Utilization](https://help.webexconnect.io/docs/throughput-utilization)
+
+
+## Assets
+  * [Phone Number](https://help.webexconnect.io/docs/phone-numbers)
+  * [Short Code](https://help.webexconnect.io/docs/shortcodes)
+  * [Sender ID](https://help.webexconnect.io/docs/sender-id)
+  * [Keyword](https://help.webexconnect.io/docs/keyword)
+  * [Branded Text](https://help.webexconnect.io/docs/branded-text)
+  * [Brands & Campaigns (10DLC)](https://help.webexconnect.io/docs/brands-campaigns10dlc)
+    * [Limitations and FAQs](https://help.webexconnect.io/docs/limitations-and-faqs)
+    * [Creating a Brand](https://help.webexconnect.io/docs/create-brand)
+    * [Details for Creating Brands](https://help.webexconnect.io/docs/details-for-creating-brands)
+      * [Authentication using 2FA](https://help.webexconnect.io/docs/authentication-using-2fa)
+    * [Unverified Scenarios and Resubmission of Brands](https://help.webexconnect.io/docs/unverified-scenarios-and-resubmission-of-brands)
+    * [Managing a Brand](https://help.webexconnect.io/docs/manage-a-brand)
+    * [Registering a Campaign](https://help.webexconnect.io/docs/register-a-campaign)
+    * [Types of Campaigns and Terms](https://help.webexconnect.io/docs/types-of-campaigns-and-terms)
+    * [Managing a Campaign](https://help.webexconnect.io/docs/manage-a-campaign)
+    * [Campaign and Content Attributes](https://help.webexconnect.io/docs/campaign-and-content-attributes)
+    * [Assigning a number to a Campaign ID](https://help.webexconnect.io/docs/assigning-a-number-to-a-campaign-id)
+  * [Apple Messages for Business](https://help.webexconnect.io/docs/apple-messages-for-business-setup)
+  * [Email](https://help.webexconnect.io/docs/email)
+    * [Best Practices to Improve Email Deliverability](https://help.webexconnect.io/docs/best-practices-to-improve-email-deliverability)
+      * [Configuring Branded Mail in Apple Business Connect](https://help.webexconnect.io/docs/configuring-branded-mail-in-apple-business-connect)
+      * [Setting up Brand Indicators for Message Identification (BIMI)](https://help.webexconnect.io/docs/setting-up-brand-indicators-for-message-identification-bimi)
+  * [Instagram (Deprecated)](https://help.webexconnect.io/docs/instagram)
+  * [Messenger](https://help.webexconnect.io/docs/facebook-messenger)
+  * [Mobile & Web](https://help.webexconnect.io/docs/mobile-web)
+  * [RCS](https://help.webexconnect.io/docs/rcs-asset)
+    * [RCS Onboarding Guidelines](https://help.webexconnect.io/docs/rcs-onboarding-guidelines)
+    * [Configure RCS Agent](https://help.webexconnect.io/docs/configure-rcs-agent)
+  * [WhatsApp](https://help.webexconnect.io/docs/whatsapp)
+    * [WhatsApp Usernames and Business-Scoped User IDs (BSUID)](https://help.webexconnect.io/docs/whatsapp-usernames-and-business-scoped-user-ids-bsuid)
+    * [Migration from On-premise API to Cloud API (Deprecated)](https://help.webexconnect.io/docs/migration-from-on-prem-to-cloud-api)
+    * [Local Storage](https://help.webexconnect.io/docs/whatsapp-local-storage)
+    * [Additional Information on WhatsApp Onboarding](https://help.webexconnect.io/docs/additional-information-regarding-embedded-signup)
+      * [How to Change Your WhatsApp Business Display Name](https://help.webexconnect.io/docs/how-to-change-your-whatsapp-business-display-name)
+      * [Display Name Guidelines](https://help.webexconnect.io/docs/display-name-guidelines)
+      * [Messaging Customers on WhatsApp Business Platform](https://help.webexconnect.io/docs/messaging-customers-on-whatsapp-business-platform)
+      * [WhatsApp Business Phone Number Quality Rating](https://help.webexconnect.io/docs/whatsapp-business-phone-numbers-quality-rating)
+      * [Messaging Limits](https://help.webexconnect.io/docs/whatsapp-messaging-limits)
+    * [Migrate an Existing WhatsApp Number to a Business Account](https://help.webexconnect.io/docs/migrate-an-existing-whatsapp-number-to-a-whatsapp-business-account)
+  * [Inbound Webhooks](https://help.webexconnect.io/docs/inbound-webhooks)
+  * [Outbound Webhooks](https://help.webexconnect.io/docs/outbound-webhooks)
+    * [mTLS Configuration for Outbound Webhooks](https://help.webexconnect.io/docs/mtls-configuration-for-outbound-webhooks)
+  * [Authorization for Outbound Webhook and Contact Policy](https://help.webexconnect.io/docs/authorization-for-outbound-webhook-and-contact-policy)
+  * [Custom Events](https://help.webexconnect.io/docs/custom-events)
+  * [Custom Node Integration](https://help.webexconnect.io/docs/custom-nodes-integration)
+  * [Third-Party Bot](https://help.webexconnect.io/docs/third-party-bot)
+
+
+## PreBUILT Integrations
+  * [Introduction](https://help.webexconnect.io/docs/pre-built-integrations-introduction)
+  * [Agile CRM](https://help.webexconnect.io/docs/agile-crm-create-get-delete-update)
+  * [Salesforce CRM](https://help.webexconnect.io/docs/salesforce-crm-get-insert-update-delete-contacts)
+  * [AI Agent](https://help.webexconnect.io/docs/ai-agent-node)
+  * [Google Dialogflow CX](https://help.webexconnect.io/docs/google-dialogflow-cx)
+  * [Google Dialogflow ES](https://help.webexconnect.io/docs/google-dialogflow-es)
+  * [ServiceNow](https://help.webexconnect.io/docs/servicenow-node)
+  * [Customer Journey Data](https://help.webexconnect.io/docs/customer-journey-data)
+  * [Zendesk CRM](https://help.webexconnect.io/docs/zendesk-crm)
+  * [Freshdesk](https://help.webexconnect.io/docs/prebuilt-integration-freshdesk)
+  * [Zoho CRM](https://help.webexconnect.io/docs/prebuilt-integrations-zoho-crm)
+  * [Link Shortener](https://help.webexconnect.io/docs/link-shortener)
+  * [EPIC](https://help.webexconnect.io/docs/epic)
+    * [Patient Match (EPIC EHR) Flow Template](https://help.webexconnect.io/docs/patient-match-epic-ehr-flow-template)
+    * [Get Available slots](https://help.webexconnect.io/docs/get-available-slots)
+    * [EPIC Reschedule Appointment Flow Template](https://help.webexconnect.io/docs/epic-reschedule-appointment-flow-template)
+    * [Confirm Appointment Flow Template](https://help.webexconnect.io/docs/confirm-appointment-flow-template)
+    * [Get Future Appointments Flow Template](https://help.webexconnect.io/docs/get-future-appointments-flow-template)
+    * [Cancel Appointment Flow Template](https://help.webexconnect.io/docs/cancel-appointment-flow-template)
+  * [Webex Chat/ Webex Engage](https://help.webexconnect.io/docs/webex-chat-webex-engage)
+  * [Enghouse Integration-Deprecated](https://help.webexconnect.io/docs/enghouse-integration-deprecated)
+  * [Webex Connect AppExchange App - Deprecated](https://help.webexconnect.io/docs/webex-connect-appexchange-app-deprecated)
+  * [Nice inContact - Deprecated](https://help.webexconnect.io/docs/nice-incontact-deprecated)
+  * [Cisco ECE Integration - Deprecated](https://help.webexconnect.io/docs/cisco-ece-integration-deprecated)
+  * [Skype for Business Integration - Deprecated](https://help.webexconnect.io/docs/skype-for-business-integration-deprecated)
+
+
+## CISCO WEBEX CONTACT CENTER & WEBEX CONNECT INTEGRATION
+  * [Overview - WXCC](https://help.webexconnect.io/docs/wxcc-overview)
+  * [Channel Asset Configuration - WXCC](https://help.webexconnect.io/docs/wxcc-channel-asset-configuration)
+    * [SMS - WXCC](https://help.webexconnect.io/docs/wxcc-sms-assset-creation)
+    * [Facebook Messenger - WXCC](https://help.webexconnect.io/docs/wxcc-fbm-asset-creation)
+    * [Email - WXCC](https://help.webexconnect.io/docs/wxcc-email-asset-creation)
+    * [Live Chat - WXCC](https://help.webexconnect.io/docs/livechat-asset-creation-wxcc)
+    * [WhatsApp - WXCC](https://help.webexconnect.io/docs/wxcc-whatsapp-asset-creation)
+      * [WhatsApp Usernames and Business-Scoped User IDs (BSUID) - WXCC](https://help.webexconnect.io/docs/whatsapp-usernames-and-business-scoped-user-ids-bsuid-wxcc)
+      * [Local Storage - WXCC](https://help.webexconnect.io/docs/local-storage-wxcc)
+      * [Additional Information on WhatsApp Onboarding - WXCC](https://help.webexconnect.io/docs/wxcc-additional-information-on-whatsapp-onboarding)
+      * [How to Change Your WhatsApp Business Display Name - WXCC](https://help.webexconnect.io/docs/wxcc-how-to-change-your-whatsapp-business-display-name)
+      * [Display Name Guidelines - WXCC](https://help.webexconnect.io/docs/wxcc-display-name-guidelines)
+      * [Messaging Customers on WhatsApp Business Platform - WXCC](https://help.webexconnect.io/docs/wxcc-messaging-customers-on-whatsapp-business-platform)
+      * [WhatsApp Business Phone Number Quality Rating - WXCC](https://help.webexconnect.io/docs/wxcc-whatsapp-business-phone-number-quality-rating)
+      * [Messaging Limits - WXCC](https://help.webexconnect.io/docs/wxcc-messaging-limits)
+      * [Migrate an Existing WhatsApp Number to a Business Account - WXCC](https://help.webexconnect.io/docs/wxcc-migrate-an-existing-whatsapp-number-to-a-business-account-wxcc)
+    * [Apple Messages for Business - WXCC](https://help.webexconnect.io/docs/wxcc-apple-messages-for-business)
+  * [Webex CC Task Integration Nodes and Node Authorizations](https://help.webexconnect.io/docs/wxcc-task-integration-nodes-and-node-authorizations)
+    * [Create Task - WXCC](https://help.webexconnect.io/docs/wxcc-create-task)
+    * [Set Variable - WXCC](https://help.webexconnect.io/docs/wxcc-set-variable)
+    * [Queue Task - WXCC](https://help.webexconnect.io/docs/wxcc-queue-task)
+    * [PIQ and EWT - WXCC](https://help.webexconnect.io/docs/wxcc-piq-and-ewt)
+    * [Routed Notification - WXCC](https://help.webexconnect.io/docs/wxcc-routed-notification)
+    * [Modify Notification - WXCC](https://help.webexconnect.io/docs/wxcc-modify-notification)
+    * [Screen Pop - WXCC](https://help.webexconnect.io/docs/wxcc-screen-pop)
+    * [Close Task - WXCC](https://help.webexconnect.io/docs/wxcc-close-task)
+    * [Resolve Conversation](https://help.webexconnect.io/docs/wxcc-resolve-conversation)
+  * [Webex CC Engage Integration Nodes, Data Streams, and Node Authorizations](https://help.webexconnect.io/docs/wxcc-engage-node-palette)
+    * [Search Conversation - WXCC](https://help.webexconnect.io/docs/wxcc-engage-search-conversation)
+    * [Append Conversation - WXCC](https://help.webexconnect.io/docs/wxcc-engage-append-conversation)
+    * [Create Conversation - WXCC](https://help.webexconnect.io/docs/wxcc-engage-create-conversation)
+    * [Update Conversation - WXCC](https://help.webexconnect.io/docs/wxcc-engage-update-conversation)
+    * [Add Participant - WXCC](https://help.webexconnect.io/docs/wxcc-engage-add-participant)
+    * [Remove Participant - WXCC](https://help.webexconnect.io/docs/wxcc-engage-remove-participant)
+    * [Close Conversation - WXCC](https://help.webexconnect.io/docs/wxcc-engage-close-conversation)
+    * [Re-Open Conversation - WXCC](https://help.webexconnect.io/docs/wxcc-engage-re-open-conversation)
+    * [Business Hours - WXCC](https://help.webexconnect.io/docs/wxcc-engage-business-hours)
+  * [Webex Surveys](https://help.webexconnect.io/docs/wxcc-surveys-node)
+    * [Surveys](https://help.webexconnect.io/docs/wxcc-surveys-node-)
+  * [Flow Configuration using Sample Templates - WXCC](https://help.webexconnect.io/docs/wxcc-flow-configuration-using-sample-templates)
+    * [Proactive chat - Flows - WXCC](https://help.webexconnect.io/docs/wxcc-proactive-chat-flows)
+    * [Configuring flows with Q&A and Task Bot Nodes - WXCC](https://help.webexconnect.io/docs/wxcc-flows-with-qnabot-nodes)
+    * [Configuring flows with AI Agent Node - WXCC](https://help.webexconnect.io/docs/configuring-flows-with-ai-agent-node)
+    * [Handling various customer intents using flows and Bot Builder](https://help.webexconnect.io/docs/wxcc-handling-various-customer-intents-bot-builder-wxcc)
+    * [Using bot rich responses with Livechat](https://help.webexconnect.io/docs/wxcc-using-bot-rich-responses-with-livechat)
+  * [Best Practices and Guidelines - WXCC](https://help.webexconnect.io/docs/wxcc-best-practices-guidelines)
+  * [FAQs - WXCC](https://help.webexconnect.io/docs/wxcc-faqs)
+
+
+## Webex Connect and Cisco Contact Center Enterprise System (CCE)
+  * [Overview - CCE](https://help.webexconnect.io/docs/cce_overview)
+  * [Channel Asset Configuration - CCE](https://help.webexconnect.io/docs/cce-channel-asset-configuration)
+    * [SMS - CCE](https://help.webexconnect.io/docs/cce-sms)
+    * [Email - CCE](https://help.webexconnect.io/docs/cce-email)
+    * [Live Chat - CCE](https://help.webexconnect.io/docs/cce-live-chat)
+    * [Apple Messages for Business - CCE](https://help.webexconnect.io/docs/cce-apple-messages-for-business)
+    * [Facebook Messenger - CCE](https://help.webexconnect.io/docs/cce-facebook-messenger)
+    * [WhatsApp - CCE](https://help.webexconnect.io/docs/cce-whatsapp)
+      * [WhatsApp Usernames and Business-Scoped User IDs (BSUID) - CCE](https://help.webexconnect.io/docs/whatsapp-usernames-and-business-scoped-user-ids-bsuid-cce)
+      * [Local Storage - CCE](https://help.webexconnect.io/docs/cce-local-storage)
+      * [Additional Information on WhatsApp Onboarding - CCE](https://help.webexconnect.io/docs/cce-additional-information-on-whatsapp-onboarding)
+      * [How to Change Your WhatsApp Business Display Name - CCE](https://help.webexconnect.io/docs/cce-how-to-change-your-whatsapp-business-display-name)
+      * [Display Name Guidelines - CCE](https://help.webexconnect.io/docs/cce-display-name-guidelines)
+      * [Messaging Customers on WhatsApp Business Platform - CCE](https://help.webexconnect.io/docs/cce-messaging-customers-on-whatsapp-business-platform)
+      * [WhatsApp Business Phone Number Quality Rating - CCE](https://help.webexconnect.io/docs/cce-whatsapp-business-phone-number-quality-rating)
+      * [Messaging Limits - CCE](https://help.webexconnect.io/docs/cce-messaging-limits)
+      * [Migrate an Existing WhatsApp Number to a Business Account - CCE](https://help.webexconnect.io/docs/cce-migrate-an-existing-whatsapp-number-to-a-business-account)
+  * [Event Authorization - CCE](https://help.webexconnect.io/docs/cce-event-authorization)
+  * [CCE Integration Nodes and Node Authorizations](https://help.webexconnect.io/docs/cce-integration-nodes-and-node-authorizations)
+    * [Create Task - CCE](https://help.webexconnect.io/docs/cce-create-task)
+    * [Get Task Details - CCE](https://help.webexconnect.io/docs/cce-get-task-details)
+    * [End Task - CCE](https://help.webexconnect.io/docs/cce-end-task)
+  * [Webex Engage Nodes and Node Authorizations - CCE](https://help.webexconnect.io/docs/cce-webex-engage-nodes-and-node-authorizations)
+    * [Search Conversation - CCE](https://help.webexconnect.io/docs/cce-search-conversation-engage-node)
+    * [Append Conversation - CCE](https://help.webexconnect.io/docs/cce-append-conversation-engage-node)
+    * [Create Conversation - CCE](https://help.webexconnect.io/docs/cce-create-conversation-engage-node)
+    * [Update Conversation - CCE](https://help.webexconnect.io/docs/cce-update-conversation-engage-node)
+    * [Add Participant - CCE](https://help.webexconnect.io/docs/cce-add-participant-engage-node)
+    * [Remove Participant - CCE](https://help.webexconnect.io/docs/cce-remove-participant-engage-node)
+    * [Close Conversation - CCE](https://help.webexconnect.io/docs/cce-close-conversation-engage-node)
+    * [Re-open Conversation - CCE](https://help.webexconnect.io/docs/cce-re-open-conversation-engage-node)
+  * [Flow Configurations - CCE](https://help.webexconnect.io/docs/cce-flow-configurations)
+  * [Best Practices and Guidelines - CCE](https://help.webexconnect.io/docs/cce-best-practices)
+  * [FAQs - CCE](https://help.webexconnect.io/docs/cce-faqs)
+
+
+## Webex Engage Standalone Nodes
+  * [Introduction - WxEngage standalone](https://help.webexconnect.io/docs/webex-engage-standalone-introduction)
+  * [Pre-requisites - WxEngage standalone](https://help.webexconnect.io/docs/pre-requisites)
+    * [Setup Org Hierarchy - WxEngage standalone](https://help.webexconnect.io/docs/setup-org-hierarchy)
+    * [Setup channel assets - WxEngage standalone](https://help.webexconnect.io/docs/setup-channel-assets)
+      * [SMS - WxEngage standalone](https://help.webexconnect.io/docs/sms)
+      * [Facebook Messenger - WxEngage standalone](https://help.webexconnect.io/docs/facebook-messenger-2)
+      * [Livechat - WxEngage standalone](https://help.webexconnect.io/docs/livechat)
+      * [Email - WxEngage standalone](https://help.webexconnect.io/docs/email-1)
+      * [Apple Messages for Business - WxEngage standalone](https://help.webexconnect.io/docs/apple-messages-for-business-2)
+      * [WhatsApp - WxEngage standalone](https://help.webexconnect.io/docs/whatsapp-1)
+  * [Channel specific message types - WxEngage standalone](https://help.webexconnect.io/docs/channel-specific-message-types)
+  * [Message Schemas - WxEngage standalone](https://help.webexconnect.io/docs/message-schemas)
+    * [Message Schema- SMS - WxEngage standalone](https://help.webexconnect.io/docs/sms-1)
+    * [Message Schema - Facebook Messenger - WxEngage standalone](https://help.webexconnect.io/docs/facebook-messenger-3)
+    * [Message Schema - Livechat - WxEngage standalone](https://help.webexconnect.io/docs/livechat-1)
+    * [Message Schema - Email - WxEngage standalone](https://help.webexconnect.io/docs/email-2)
+    * [Message Schema - WhatsApp - WxEngage standalone](https://help.webexconnect.io/docs/whatsapp-2)
+    * [Message Schema - Apple Messages for Business - WxEngage standalone](https://help.webexconnect.io/docs/apple-messages-for-business-3)
+    * [API - WxEngage standalone](https://help.webexconnect.io/docs/api)
+  * [Authorize Integration - WxEngage standalone](https://help.webexconnect.io/docs/authorize-integration)
+  * [Node Palette - WxEngage standalone](https://help.webexconnect.io/docs/node-palette)
+    * [Search conversation - WxEngage standalone](https://help.webexconnect.io/docs/search-conversation-1)
+    * [Create conversation - WxEngage standalone](https://help.webexconnect.io/docs/create-conversation-1)
+    * [Append message - WxEngage standalone](https://help.webexconnect.io/docs/append-message)
+    * [Fetch Team's working hours - WxEngage standalone](https://help.webexconnect.io/docs/fetch-teams-working-hours)
+    * [Update conversation - WxEngage standalone](https://help.webexconnect.io/docs/update-conversation-1)
+    * [Transfer conversation - WxEngage standalone](https://help.webexconnect.io/docs/transfer-conversation)
+    * [Fetch conversation transcript - WxEngage standalone](https://help.webexconnect.io/docs/fetch-conversation-transcript)
+    * [Hold conversation - WxEngage standalone](https://help.webexconnect.io/docs/hold-conversation)
+    * [Close conversation - WxEngage standalone](https://help.webexconnect.io/docs/close-conversation-1)
+    * [Reopen conversation - WxEngage standalone](https://help.webexconnect.io/docs/reopen-conversation)
+  * [Data streams for Webex Engage](https://help.webexconnect.io/docs/data-streams-webex-engage)
+  * [Limitations - WxEngage standalone](https://help.webexconnect.io/docs/limitations)
+
+
+## Webex Connect and Webex Campaign Integration
+  * [Webex Campaign Integration with Webex Connect](https://help.webexconnect.io/docs/webex-campaign-integration-with-webex-connect)
+
+
+## TOOLS
+  * [Smart Links](https://help.webexconnect.io/docs/smart-links)
+  * [Voice Media](https://help.webexconnect.io/docs/voice-media)
+  * [Voice Recordings](https://help.webexconnect.io/docs/voice-recordings)
+  * [Templates](https://help.webexconnect.io/docs/templates)
+    * [SMS](https://help.webexconnect.io/docs/templates-sms)
+    * [RCS](https://help.webexconnect.io/docs/templates-rcs)
+    * [Email](https://help.webexconnect.io/docs/templates-email)
+    * [Push](https://help.webexconnect.io/docs/push-template)
+    * [Live Chat/In-App Messaging](https://help.webexconnect.io/docs/livechat-template)
+    * [Messenger](https://help.webexconnect.io/docs/templates-messenger)
+    * [WhatsApp](https://help.webexconnect.io/docs/templates-whatsapp)
+      * [WhatsApp Category Guidelines](https://help.webexconnect.io/docs/whatsapp-category-guidelines)
+      * [WhatsApp Template Rejection Reasons](https://help.webexconnect.io/docs/whatsapp-templates)
+  * [Export Logs](https://help.webexconnect.io/docs/export-logs-overview)
+    * [New Export Logs](https://help.webexconnect.io/docs/new-export-logs)
+    * [Legacy Export Logs](https://help.webexconnect.io/docs/legacy-export-logs)
+  * [Logbooks](https://help.webexconnect.io/docs/logbook)
+    * [Enable Logbooks for BI Reporting](https://help.webexconnect.io/docs/enable-logbooks-for-bi-reporting)
+  * [Media Manager](https://help.webexconnect.io/docs/media-manager)
+
+
+## DEBUG
+  * [Debug Console](https://help.webexconnect.io/docs/console)
+  * [Archive Search](https://help.webexconnect.io/docs/archive-search)
+
+
+## ADMINISTRATION
+  * [Profile Settings](https://help.webexconnect.io/docs/profile-settings)
+  * [Tenant Settings](https://help.webexconnect.io/docs/tenant-settings)
+  * [Single Sign-On (SSO) Using SAML](https://help.webexconnect.io/docs/single-sign-on-settings)
+    * [Azure SSO](https://help.webexconnect.io/docs/azure-sso)
+  * [Usage](https://help.webexconnect.io/docs/usage)
+    * [Usage Report Fields](https://help.webexconnect.io/docs/usage-report-fields)
+  * [User Roles](https://help.webexconnect.io/docs/user-roles-and-hierarchy)
+  * [Teammates](https://help.webexconnect.io/docs/teammates)
+  * [User Audit](https://help.webexconnect.io/docs/user-audit)
+
+
+## MONITORING
+  * [Flow Monitoring](https://help.webexconnect.io/docs/flow-monitoring)
+
+
+## APP TRAY
+  * [Event Scheduler](https://help.webexconnect.io/docs/event-scheduler)
+  * [Contact Policy](https://help.webexconnect.io/docs/contact-policy)
+    * [Getting Started with Contact Policy](https://help.webexconnect.io/docs/getting-started-with-contact-policy-app)
+    * [Consent Groups](https://help.webexconnect.io/docs/consent-groups)
+    * [Manage Consent Groups](https://help.webexconnect.io/docs/manage-consent-groups)
+    * [Handling Carrier Deactivations](https://help.webexconnect.io/docs/handling-carrier-deactivations)
+    * [Contact Policy Reports](https://help.webexconnect.io/docs/contact-policy-reports)
+  * [Mobile Wallet](https://help.webexconnect.io/docs/mobile-wallet)
+    * [Mobile Wallet API](https://help.webexconnect.io/docs/mobile-wallet-api)
+
+
+## App Tray - Webex AI Agent Studio
+  * [Getting Started with Webex AI Agent Studio](https://help.webexconnect.io/docs/getting-started-with-webex-ai-agent-studio)
+  * [Configure Fulfillment Flows for AI Agent Actions](https://help.webexconnect.io/docs/configure-fulfilment-flows-for-ai-agent-actions)
+
+
+## DATA MANAGEMENT
+  * [Data Retention Policy](https://help.webexconnect.io/docs/data-retention-policy)
+  * [Data Storage](https://help.webexconnect.io/docs/data-hosting)
+
+
+## REFERENCES
+  * [Glossary](https://help.webexconnect.io/docs/references-glossary)
+  * [Character Sets Supported for Messaging](https://help.webexconnect.io/docs/references-character-sets-supported-for-messaging)
+  * [Public IPs Across Regions](https://help.webexconnect.io/docs/references-public-ips-across-regions)
+  * [API Status Codes](https://help.webexconnect.io/docs/references-api-codes)
+  * [Carrier IDs for RCS Capability and RCS Message Nodes](https://help.webexconnect.io/docs/references-carrier-ids-for-rcs-capability-and-rcs-message-nodes)
+  * [Flow Builder Response Codes](https://help.webexconnect.io/docs/references-flowbuilder-response-codes)
+  * [Supported Languages for Voice TTS (Text-to-Speech)](https://help.webexconnect.io/docs/references-supported-languages-for-voice)
+  * [Supported Languages for Voice STT (Speech-to-Text)](https://help.webexconnect.io/docs/references-supported-languages-for-voice-stt-speech-to-text)
+  * [Supported File Types for Channels](https://help.webexconnect.io/docs/references-supported-file-types-for-channels)
+  * [Security Best Practices](https://help.webexconnect.io/docs/references-security-best-practices)
+
+
+## Data Streams
+  * [Data Streams](https://help.webexconnect.io/docs/data-streams)
+
+
+# Tenant Settings
+Manage your Webex Connect account settings for your organization. Only account owners can make changes to tenant settings
+[Suggest Edits](https://help.webexconnect.io/edit/tenant-settings)
+## 
+Time Zone
+[](https://help.webexconnect.io/docs/tenant-settings#time-zone)
+This setting determines the time zone setting for your Webex Connect tenant. Once configured and/or updated it applies to all the users of the concerned Webex Connect tenant. When the time zone is updated here, it affects the following:
+  * Timestamp in the debug console logs and flow debug logs.
+  * Timestamp for delivery receipts.
+
+
+> ## 📘
+> Note
+> Webex Connect platform doesn’t support changing/applying the time zone setting only for reports, both at tenant level and user level.
+Based on your selection, your account time is displayed on the UI of the platform wherever time has to be selected and the selection a user makes is in the time zone selected for the respective Webex Connect tenant account. 
+![Image showing the interface for configuring Tenant Level Time Zone Settings](https://files.readme.io/01511f5-Tenant_Settings.jpg)
+Tenant Level Time Zone Settings
+> ## 📘
+> Date Format
+> The date and time format defaults to the system default format of `YYYY-MM-DD HH:mm:SS` in 24-hour format, irrespective of the timezone.
+## 
+Daylight Saving
+[](https://help.webexconnect.io/docs/tenant-settings#daylight-saving)
+Webex Connect supports daylight saving by enabling you to send notifications on the time they were scheduled for, irrespective of the time difference. The events can be scheduled for daylight savings. If applicable to your time zone, the daylight savings are automatically taken into account.   
+
+For example, if you have a job scheduled to run at 9:30 am every day in the UK time zone, even on 27th October when daylight savings are set to roll back in the UK, the job continues to run at 9:30 am. The same will hold true when the daylight savings start in March next year.
+The time zone offset will also reflect the current daylight savings. For example, a timestamp showing the `UTC +1:00` offset for the UK time zone with daylight savings `2019-09-25T13:33:00.538+01:00`.
+## 
+Profile Key
+[](https://help.webexconnect.io/docs/tenant-settings#profile-key)
+Profile Key is used to identify and authenticate with Profile APIs. 
+> ## 📘
+> Note
+> Only the tenant Owner, Full Access Users, and Limited Access Users can view and copy the Profile Key.
+![Image showing the interface section where the Profile Key is displayed.](https://files.readme.io/94559c7-Administration_Tenant_Settings_Profile_Key.png)
+Profile Key
+## 
+Help Desk
+[](https://help.webexconnect.io/docs/tenant-settings#help-desk)
+The Help Desk feature helps the Partners, Customer Success teams, and Cisco support teams to troubleshoot any customer issues using the cross-launch from Webex Control Hub or CPaaS Central and to prevent non-customer users from accessing the platform through test or dummy accounts.
+The Help Desk feature enables you to provide different levels of access to the users depending on their role. You can choose to provide read-only access to all the help desk users, irrespective of their role, or provide partial/full access.
+The **Allow Webex Connect Help Desk Team to access my/this Webex Connect (Read Only)** option enables you to assign read-only access to the help desk users to cross-launch into the tenant application for providing support. This option is enabled by default.
+The following add-on options let you provide additional access to the help desk users:
+  * Select the **Allow full access** option to grant support users the same level of access as their original cross launch role. This option is enabled by default.
+  * Select the **Allow decryption access** option if you want to permit support users to decrypt the data, regardless of their assigned role. This option is disabled by default.
+
+
+> ## 📘
+> Note
+> If you want to restrict the help desk users to have read-only access, do not enable the add-on options.
+![Image showing the interface of the Help Desk section](https://files.readme.io/571ba41c06b1682d7c1e9ff7041adfe5b06111b009e5c5f43c16191263918897-Helpdesk.png)
+Screenshot displaying the Help Desk section
+Here is an example how the above options work for a user with Partner Full Admin role, cross-launching from Webex Control Hub.
+  * When all the options are selected, the user will have full access along with the decrypt permission.
+  * When the add-on options are not selected, the user will have read-only access. 
+  * When only the Allow full access option is not selected, the user will have read-only access along with the decrypt permission. 
+  * When only the Allow decrypt access is not selected, the user will have full access. 
+  * When no options are are selected, the user will see an “Access Denied” page.
+
+
+If it is disabled for your tenant, select **Allow Webex Connect Help Desk Team to access my/this Webex Connect Tenant (Read Only)** to enable this function.
+> ## 📘
+> Note
+> Once this is enabled, the help desk users can cross launch into the tenant application based on the access level they are provided in the Admin console – read-only (can only view), full access (access the application completely), or full access with decrypt (access the application completely along with the ability to decrypt the logs).
+All the activities performed by the help desk users during cross launch will be captured in the audit logs. The help desk user’s id will be in the format:  + "_"+ + "_"+“help_desk@” +.
+![Image showing the interface of the Account Details.](https://files.readme.io/7b68936-2.jpeg)
+Screenshot displaying the Account Details
+> ## 📘
+> Note
+> This section is visible only to tenant owners. Partners and help desk users cannot see this section.
+You can enable the **Allow decryption access to help desk users** option to permit decryption of the Descriptive Logs for all the support access users irrespective of their role. 
+### 
+Partner and Tenant User Cross Launch
+[](https://help.webexconnect.io/docs/tenant-settings#partner-and-tenant-user-cross-launch)
+Partners can use the Webex Connect quick links to directly cross-launch the Webex Connect platform for a Contact Center Business Unit (CCBU) customer from the Control Hub. The Webex Connect link is visible under Contact Center Suite, only if digital channels are enabled and the tenant provisioning is completed in the Control Hub. The following image illustrates where the quick links are visible.
+![Image showing the interface with the option for Partner and Tenant User Cross Launch](https://files.readme.io/ed77ed6-Screenshot_2024-02-22_at_7.16.00_PM.jpg)
+Screenshot displaying the option for Partner and Tenant User Cross Launch
+A tenant owner created as part of tenant provisioning will also be able to cross-launch directly into the Webex Connect platform from Control Hub.
+## 
+Email Domains
+[](https://help.webexconnect.io/docs/tenant-settings#email-domains)
+Enter the list of allowed domains for your tenant. This functionality helps in limiting the user creation to only the specified domains. Admins will not be able to add users from any other domains. If no domain is entered in this field, all domains will be allowed.
+> ## 📘
+> Note
+> The domain names will be considered as an exact match; partial matches will not be considered. For example: even if @connect.com is an allowed domain, @abc.connect.com will have to be added as an allowed domain to be considered.
+> ## 📘
+> Note
+> When an admin tries to add a user who does not belong to the allowed domains, an error message “User domain not in allowed list” will be displayed.
+![Screenshot of Tenant Settings Page](https://files.readme.io/19766a2-Helpdesk.png)
+Screenshot of Tenant Settings Page
+## 
+IP Address Allowlist
+[](https://help.webexconnect.io/docs/tenant-settings#ip-address-allowlist)
+> ## 🚧
+> Warning
+> If IP addresses or CIDR ranges are specified here, all API traffic for this tenant will be restricted to those entries only.
+The IP Address Allowlist section enables Tenant Owners to manage the IP addresses and CIDR ranges that can access this tenant. You can add valid IPv4 addresses or CIDR ranges.
+Only Tenant Owners can update the IP Address Allowlist. Users who do not have Tenant Owner access cannot add, remove, or save IP address allowlist entries.
+To add an IP address or CIDR range:
+  1. Sign in to Webex Connect.
+  2. Click the profile icon in the left navigation bar, then click **Tenant Settings**.
+  3. Under **IP Address Allowlist** , enter a valid IPv4 address or CIDR range in the **IP address or CIDR range** field.
+![Screenshot of IP Address Allowlist section in Tenant Settings](https://files.readme.io/a029325432479ae5fc79f1afeecabc80b3fcbaf18a41977abcf82579f549a921-Screenshot_2026-07-27_at_15.08.39.png)
+Screenshot of IP Address Allowlist section in Tenant Settings
+  4. Click **Add IP address**.
+
+
+The system validates entries before saving. Duplicate entries are not allowed. If an invalid IP address or CIDR range is entered, an error message is displayed.
+All changes made to the IP Address Allowlist are captured in audit logs.
+## 
+Secure handling of Inbound media files
+[](https://help.webexconnect.io/docs/tenant-settings#secure-handling-of-inbound-media-files)
+Manage your Webex Connect account settings for your organization. Only account owners can make changes to tenant settings.
+## 
+Inbound Media Handling on Messaging Channels
+[](https://help.webexconnect.io/docs/tenant-settings#inbound-media-handling-on-messaging-channels)
+> ## 📘
+> Note
+> This section is available only when the Secure Media Handling feature is enabled for your tenant. Please reach out to your account manager if you would like to enable this feature for your tenant.
+When you use Webex Connect for managing customer interactions over messaging channels such as Apple Messages for Business, WhatsApp, Facebook Messenger, etc., by default the incoming attachments and media files from customers a persistent publicly accessible URL is generated by the channel provider (such as in case of Facebook Messenger) or by Webex Connect (for WhatsApp RCS and In-App Messages/Live Chat). 
+If you want to limit the public accessibility timeframe for these files, you can enable the option to use short-lived URLs under the 'Tenant Settings' section as shown below.
+![Image showing the interface for configuring Inbound Media Handling on Messaging Channels](https://files.readme.io/36b1b03-Inbound1.jpg)
+Screenshot displaying the Inbound Media Handling on Messaging Channels
+When you enable it, short-lived URLs are generated for all the inbound media/attachments across all messaging channels for a the specified time.
+To enable secure media handling on your tenant:
+  1. Go to Tenant Settings.
+  2. Under the Inbound Media Handling on Messaging Channels section, select **Enabled**.
+  3. Enter the Expiry Time and select Hours or Days for Single Select Menu. You can select between 4 hours to 7 days. The default is 12 hours.
+  4. Click **Update**.
+
+![Image showing the interface for configuring the Expiry Time](https://files.readme.io/7b2f5f3-Inbound.jpg)
+Image showing the interface for configuring the Expiry Time
+After the short-lived URL is expired, authentication will be required (in the header of the request, with header key as "x-imi-connect-media-api-key") to fetch data from the URL.
+One of the following two authorizations will be accepted depending on where you are trying to access the media files from:
+  1. ‘Profile API / Media Access Key' can be used to fetch data from URL (Applicable for all channels including in-app messaging).
+  2. Additional credentials for accessing media/attachments for In-App messaging channels - App’s Client key or JWT Auth key can be used to fetch data from URL.
+
+
+## 
+Bounce List Retention Period for Email via AWS SES
+[](https://help.webexconnect.io/docs/tenant-settings#bounce-list-retention-period-for-email-via-aws-ses)
+You can update the retention period (in days) for email bounce list. For example, if the retention period is set to 10 days, an email address added to the bounce list after the first email bounce, will stay in the list for 10 days, and after that, it will be deleted. When an email is in the bounce list, any attempt to send email to that email address will be failed at the Webex Connect itself. This helps ensure that your email sender reputation isn’t impacted due to emails being triggered to unreachable i.e., often invalid destinations. 
+The default value is 7 days. You can enter any number from 1 to 365 days.
+> ## 📘
+> Note
+> For existing tenants, the current value will be retained. This is a tenant-level setting and applies uniformly to all email app assets (that use AWS SES as the route) across groups and teams. If you change the retention period, the new retention period applies to the email addresses added after making the change.
+![Image showing settings for the Bounce List Retention Period for emails sent through AWS SES.](https://files.readme.io/1ab2c6b100c109928490ba043e1f1f6cbdb369a9e6f389c5514e07de9234da04-Bounce.png)
+Screenshot displaying the Bounce List Retention Period for Email via AWS SES
+## 
+DLT Primary Entity IDs
+[](https://help.webexconnect.io/docs/tenant-settings#dlt-primary-entity-ids)
+Provide entity values from the DLT platform registration that will allow you to send bulk SMS to your clients. This feature is exclusively available only for the India region and can be used further for creating templates. You will also be required to link the entity to numbers that you will use to send traffic to India.  
+Values are to be provided in the following fields as a mandate:
+  * **Entity Name**
+  * **Entity ID**
+
+
+Updated 13 days ago
+* * *
+[Profile Settings](https://help.webexconnect.io/docs/profile-settings)[Single Sign-On (SSO) Using SAML](https://help.webexconnect.io/docs/single-sign-on-settings)
+Did this page help you?
+Yes
+No
+  * [Table of Contents](https://help.webexconnect.io/docs/tenant-settings)
+  *     * [Time Zone](https://help.webexconnect.io/docs/tenant-settings#time-zone)
+    * [Daylight Saving](https://help.webexconnect.io/docs/tenant-settings#daylight-saving)
+    * [Profile Key](https://help.webexconnect.io/docs/tenant-settings#profile-key)
+    * [Help Desk](https://help.webexconnect.io/docs/tenant-settings#help-desk)
+      * [Partner and Tenant User Cross Launch](https://help.webexconnect.io/docs/tenant-settings#partner-and-tenant-user-cross-launch)
+    * [Email Domains](https://help.webexconnect.io/docs/tenant-settings#email-domains)
+    * [IP Address Allowlist](https://help.webexconnect.io/docs/tenant-settings#ip-address-allowlist)
+    * [Secure handling of Inbound media files](https://help.webexconnect.io/docs/tenant-settings#secure-handling-of-inbound-media-files)
+    * [Inbound Media Handling on Messaging Channels](https://help.webexconnect.io/docs/tenant-settings#inbound-media-handling-on-messaging-channels)
+    * [Bounce List Retention Period for Email via AWS SES](https://help.webexconnect.io/docs/tenant-settings#bounce-list-retention-period-for-email-via-aws-ses)
+    * [DLT Primary Entity IDs](https://help.webexconnect.io/docs/tenant-settings#dlt-primary-entity-ids)
+
+
+Platform
+[Channel Assets](https://help.imiconnect.io/docs/phone-numbers)
+[Integrations](https://help.imiconnect.io/docs/pre-built-integrations)
+[Flow Builder](https://help.imiconnect.io/docs/flows)
+API Reference
+[Introduction](https://developers.imiconnect.io/reference#getting-started-with-your-messaging-api)
+[API Endpoints](https://developers.imiconnect.io/reference#endpoints)
+[Push and In-App SDKs](https://developers.imiconnect.io/docs/overview-of-sdks)
+[Outbound Webhooks](https://developers.imiconnect.io/reference#outbound-webhooks)
+Sandbox
+[Getting Started](https://help.imiconnect.io/docs/getting-started-with-sandbox)
+[Sandbox APIs](https://developers.imiconnect.io/reference#sandbox-apis-overview)
+[FAQs](https://help.imiconnect.io/docs/sandbox-faqs)
+[Community Support](https://help.imiconnect.io/docs/support-for-sandbox-users)
+Resources
+[Channel FAQs](https://developers.imiconnect.io/reference#channels-faqs)
+[Tutorials](https://help.imiconnect.io/docs/create-a-service-on-imiconnect)
+[Tenant Best Practices](https://help.imiconnect.io/docs/tenant-config-best-practices)
+[Changelog](https://help.imiconnect.io/changelog)
+[Acceptable Usage Policy](https://imimobile.com/gb/legal/acceptable-use-policy) | © 2000 - 2026 Webex Connect, All Rights Reserved 
