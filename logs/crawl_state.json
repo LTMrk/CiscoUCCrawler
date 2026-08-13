@@ -7674,5 +7674,9 @@
   "https://developer.webex.com/docs/api/v1/user-call-settings": {
     "hash": "a3d1c132a0f5af659820651cb4d34b2ea83a802fcf5cf58ab39de6b893ee3f7b",
     "timestamp": "2026-08-13T02:01:00.055632"
+  },
+  "https://developer.webex.com/docs/api/v1/workspace-call-settings-with-numbers": {
+    "hash": "a88b03d94306924b530da85bffa1f23f8d4e5c5c7e190f9339bd2aaca20f247b",
+    "timestamp": "2026-08-13T02:01:04.612067"
   }
 }
