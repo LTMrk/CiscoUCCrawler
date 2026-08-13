@@ -1,321 +1,5 @@
 [
   {
-    "url": "https://www.webex.com/industries/healthcare.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/industries/government.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/industries/financial-services.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/industries/sports-entertainment.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/industries/frontline.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/industries/nonprofits.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/industries/start-ups.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/hybrid-work.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/test-meeting.html",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/landing/onlineclasses",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/products/integrations/index.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/accessibility.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/inclusive-collaboration.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/resources/whats-new.html",
-    "depth": 2
-  },
-  {
-    "url": "https://webexahead.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/company/careers.html",
-    "depth": 2
-  },
-  {
-    "url": "https://academy.webex.com/learn",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/learn/webinars-demos.html",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/insider",
-    "depth": 2
-  },
-  {
-    "url": "https://apphub.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/webex-ai",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/downloads.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/contact-sales.html",
-    "depth": 2
-  },
-  {
-    "url": "https://pricing.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/all-new-webex.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/video-conferencing.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/cloud-calling.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/team-collaboration.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/screen-sharing.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/collaboration-suite.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/audience-engagement.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/webinar.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/contact-center.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/customer-interaction-management.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/security.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/control-hub.html",
-    "depth": 2
-  },
-  {
-    "url": "https://hardware.webex.com/products/headsets",
-    "depth": 2
-  },
-  {
-    "url": "https://hardware.webex.com/products/cameras",
-    "depth": 2
-  },
-  {
-    "url": "https://hardware.webex.com/products/desk-series",
-    "depth": 2
-  },
-  {
-    "url": "https://hardware.webex.com/products/room-series-and-kits",
-    "depth": 2
-  },
-  {
-    "url": "https://hardware.webex.com/products/board-series",
-    "depth": 2
-  },
-  {
-    "url": "https://hardware.webex.com/products/phones",
-    "depth": 2
-  },
-  {
-    "url": "https://hardware.webex.com/products/accessories",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/industries/education.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/industries/healthcare.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/industries/government.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/industries/financial-services.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/industries/sports-entertainment.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/industries/frontline.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/industries/nonprofits.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/industries/start-ups.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/hybrid-work.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/test-meeting.html",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/landing/onlineclasses",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/products/integrations/index.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/accessibility.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/inclusive-collaboration.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/resources/whats-new.html",
-    "depth": 2
-  },
-  {
-    "url": "https://webexahead.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/company/careers.html",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/category/collaboration",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/category/workspaces",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/category/customer-experience",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/category/event-management",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/category/innovation-ai",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/innovation-ai/2026-webex-customer-awards-nominations-now-open",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/collaboration/building-tomorrows-workplace-today-era-connected-intelligence",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/workspaces/one-platform-every-space-zero-distance",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/category",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/collaboration/cisco-named-2026-global-enterprise-desktop-phone-company-of-the-year-by-frost-sullivan",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/workspaces/zero-touch-provisioning-instant-collaboration",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/innovation-ai/how-estes-is-building-smarter-customer-care-with-webex-ai",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/collaboration/eight-years-running-cisco-named-leader-2026-gartner-magic-quadrant-unified-communications-service-ucaas",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/collaboration/tom-brady-takes-the-stage-at-webexone-2026",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/innovation-ai/voice-of-the-customer-2026-trustradius-awards",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/customer-experience/six-global-organizations-webex-cx-success",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/collaboration/how-industry-leaders-turned-collaboration-into-a-competitive-advantage",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/workspaces/last-mile-of-ai-infrastructure-has-been-missing-not-anymore",
-    "depth": 2
-  },
-  {
     "url": "https://blog.webex.com/customer-experience/connected-intelligence-customer-experience-strategy",
     "depth": 2
   },
@@ -342065,6 +341749,1442 @@
   },
   {
     "url": "https://www.webex.com/company/webex-leap.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/collaboration",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/customer-experience",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/event-management",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/innovation-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/2026-webex-customer-awards-nominations-now-open",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/building-tomorrows-workplace-today-era-connected-intelligence",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/workspaces/one-platform-every-space-zero-distance",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/cisco-named-2026-global-enterprise-desktop-phone-company-of-the-year-by-frost-sullivan",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/workspaces/zero-touch-provisioning-instant-collaboration",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/how-estes-is-building-smarter-customer-care-with-webex-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/eight-years-running-cisco-named-leader-2026-gartner-magic-quadrant-unified-communications-service-ucaas",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/tom-brady-takes-the-stage-at-webexone-2026",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/voice-of-the-customer-2026-trustradius-awards",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/six-global-organizations-webex-cx-success",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/how-industry-leaders-turned-collaboration-into-a-competitive-advantage",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/workspaces/last-mile-of-ai-infrastructure-has-been-missing-not-anymore",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/connected-intelligence-customer-experience-strategy",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/getixhealth-enhanced-operations-improved-attrition-rates-with-webex",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/event-management/from-ai-experimentation-to-orchestration-register-for-webexone-2026",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/event-management/partners-take-center-stage-at-webexone-2025-your-gateway-to-collaboration-excellence",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/get-in-ai-first-future-register-for-webexone-2025",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/engineering",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/building-voice-ai-that-can-keep-up-with-real-conversations",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/resilience-by-design-how-webex-contact-center-stays-up-when-the-cloud-wobbles",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/lrac-challenge-2025-pushing-the-limits-of-speech-coding",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/engineering/proprietary-rtcp-messages-and-key-extensions",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/customer-stories",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/uniting-nsw-act-transforms-client-support-with-webex-ai-agent",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/how-yum-brands-modernized-support-operations-with-webex",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/team-collaboration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/webinar.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/fr",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/de",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/it",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/ja",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/ko",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/pt-br",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/es",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/learn/webinars-demos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/customer-experience",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/event-management",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/innovation-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/%e5%8d%8f%e4%bd%9c",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/%e5%8d%94%e5%90%8c%e5%90%88%e4%bd%9c",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/customer-experience",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/event-management",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/innovation-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/%e5%8d%8f%e4%bd%9c%e8%ae%be%e5%a4%87",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/%e5%8d%94%e4%bd%9c%e8%a3%9d%e7%bd%ae",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/event-management",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/innovation-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/%e5%ae%a2%e6%88%b7%e4%bd%93%e9%aa%8c",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/%e5%ae%a2%e6%88%b6%e9%ab%94%e9%a9%97",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/innovation-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/%e6%b4%bb%e5%8a%a8%e7%ae%a1%e7%90%86",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/%e6%b4%bb%e5%8b%95%e7%ae%a1%e7%90%86",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/category/%e5%89%b5%e6%96%b0%e8%88%87%e4%ba%ba%e5%b7%a5%e6%99%ba%e6%85%a7",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/category/%e5%88%9b%e6%96%b0%e4%b8%8e%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/arunaravichandran-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/calling",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/collaboration-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cpaas",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/customer-experience-4",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/devices-posts",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/enterprise-event-management",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/messaging",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/polling",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/suite",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/vidcast",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webex-events",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webinars",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/how-estes-is-building-smarter-customer-care-with-webex-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/tom-brady-takes-the-stage-at-webexone-2026",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/voice-of-the-customer-2026-trustradius-awards",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/six-global-organizations-webex-cx-success",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/snorrekjesbu",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/ai-impact-delivering-customer-success-ai-powered-cx-innovations-operational-excellence-cisco-live-2026-amsterdam",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/content/dam/www/us/en/documents/pdf/webex-calling-hybrid-aag-cm-173302.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/us/en/products/suite/enterprise-cloud-calling/CUCM.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/workspaces/one-platform-every-space-zero-distance",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/how-to-improve-customer-experience",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/connected-intelligence-the-future-of-collaboration",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cloud-calling",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cloud-contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/news",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/product-announcements",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webex-suite",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/cisco-named-2026-global-enterprise-desktop-phone-company-of-the-year-by-frost-sullivan",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/how-estes-is-building-smarter-customer-care-with-webex-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/eight-years-running-cisco-named-leader-2026-gartner-magic-quadrant-unified-communications-service-ucaas",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/tom-brady-takes-the-stage-at-webexone-2026",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/espenloberg",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/workspaces/be-in-the-room-from-anywhere",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/7sw4gab/Cisco-collaboration-devices-certification-program",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/us/en/live-events/ise-2026.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/us/en/devices/phone-series/cisco-wireless-phone",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/av-technology",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/avoip",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/collaboration-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/collaboration-hardware",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/enterprise-communication",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/innovation-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/meeting-rooms",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/product-launch",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/smart-workspace",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/unified-communications",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/workspace-management",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/cisco-named-2026-global-enterprise-desktop-phone-company-of-the-year-by-frost-sullivan",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/workspaces/zero-touch-provisioning-instant-collaboration",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/how-industry-leaders-turned-collaboration-into-a-competitive-advantage",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/workspaces/last-mile-of-ai-infrastructure-has-been-missing-not-anymore",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hans/%e6%9c%80%e6%96%b0%e6%b6%88%e6%81%af",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/zh-hant/%e6%9c%80%e6%96%b0",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/workspaces/cisco-named-2026-global-enterprise-desktop-phone-company-of-the-year-by-frost-sullivan",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/workspaces/zero-touch-provisioning-instant-collaboration",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-stories/how-estes-is-building-smarter-customer-care-with-webex-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/eight-years-running-cisco-named-leader-2026-gartner-magic-quadrant-unified-communications-service-ucaas",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/johnreeder",
+    "depth": 3
+  },
+  {
+    "url": "https://explore.webex.com/frost-sullivan-gated/frost-and-sullivan-d",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/us/en/devices/phone-series/cisco-wireless-phone.html",
+    "depth": 3
+  },
+  {
+    "url": "https://explore.webex.com/frost-sullivan-gated/frost-and-sullivan-d",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/us/en/event-webinar/good-enough-connectivity-is-failing-frontline-teams-enable-reliable-communications.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/ai-automation-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cisco-cloud-control",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cisco-collaboration-control-hub",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cisco-desk-phone-9800-series",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cisco-phoneos",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cisco-thousandeyes",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cisco-wireless-phone-9821",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/enterprise-security",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/enterprise-telephony",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/frost-sullivan",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/hybrid-work",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/industry-awards",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/sustainability",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webex-calling",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/workspace-management",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/zero-touch-provisioning",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/tom-brady-takes-the-stage-at-webexone-2026",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/intrado-emergency-routing-service-for-webex-calling-is-now-available",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/rpat",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nujzhkab/Zero-Touch-Provisioning-(ZTP)-for-Board,-Desk,-and-Room-Series-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/catalyst-switches",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cisco-collaboration-3",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cisco-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/collaboration-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/collaboration-technology",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/control-hub",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/device-provisioning",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/dhcp",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/enterprise-collaboration",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/hybrid-work",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/it-operations",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/network-automation",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/roomos-26",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/scep",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/secure-device-onboarding",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/workspace-deployment",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/zero-touch-provisioning-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/zero-trust",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/ztp",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/how-industry-leaders-turned-collaboration-into-a-competitive-advantage",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/workspaces/last-mile-of-ai-infrastructure-has-been-missing-not-anymore",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/workspaces/from-crazy-idea-to-an-everyday-tool-story-behind-cisco-desk-series",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/category/customer-stories",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/ktyagi",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/jill-townsend",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/content/dam/www/us/en/aag/webex-ai-am-at-a-glance-january2026.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/customer-stories",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/connected-intelligence-customer-experience-strategy",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/tom-brady-takes-the-stage-at-webexone-2026",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/getixhealth-enhanced-operations-improved-attrition-rates-with-webex",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/innovation-ai/voice-of-the-customer-2026-trustradius-awards",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/amitbarave",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/cisco-ai-pods-collaboration-generally-available-delivering-secure-premises-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/products/calling-global-availability.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/us/en/products/suite/enterprise-cloud-calling/CUCM.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/gartner",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/magic-quadrant",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/mq",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/ucaas",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webex-calling",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webex-meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webex-suite",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/tom-brady-takes-the-stage-at-webexone-2026",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/intrado-emergency-routing-service-for-webex-calling-is-now-available",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/how-industry-leaders-turned-collaboration-into-a-competitive-advantage",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/arunaravichandran-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/ai-leadership",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/artificial-intelligence",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cisco-webex",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/collaboration-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/customer-experience-4",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/tom-brady",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/tom-brady-keynote",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/tom-brady-webexone",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webexone-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webexone-2026",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/connected-intelligence-customer-experience-strategy",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/meltang",
+    "depth": 3
+  },
+  {
+    "url": "https://cpaas.webex.com/products/webex-connect",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/awards",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cisco-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cloud-calling",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cpaas",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/customer-story",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/desk-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/employee-experience",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/events",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/headsets",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/messaging",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/phones",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/polling",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/trustradius",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/video-messaging",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webex-suite",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webinars",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/six-global-organizations-webex-cx-success",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/smarter-operations-stronger-engagement-announcing-ai-native-innovations-webex-contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/meltang",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/how-yum-brands-modernized-support-operations-with-webex",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/uniting-nsw-act-transforms-client-support-with-webex-ai-agent",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/webex-helped-medstar-health-reduce-average-handle-time-boost-agent-customer-satisfaction",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/us/en/products/workforce-optimization.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/powering-global-enterprise-cisco-redefined-scalability-innovation-webex-contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/customer-experience/contact-center.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/products/contact-center-AI.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/how-ai-enhanced-customer-experience-at-umpqua-bank",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/aids-healthcare-foundations-digital-transformation-with-webex",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cloud-contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/customer-story",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/connected-intelligence-customer-experience-strategy",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-experience/getixhealth-enhanced-operations-improved-attrition-rates-with-webex",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/workspaces/cisco-named-2026-global-enterprise-desktop-phone-company-of-the-year-by-frost-sullivan",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/customer-stories/how-estes-is-building-smarter-customer-care-with-webex-ai",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/dikwhitt",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/conagra-brands-updated-person-spaces-with-cisco-devices-webex-platform-improved-team-experience",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/nasas-kennedy-space-center-visitor-complex-reaches-new-heights-webex-cisco-collaboration-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/us/en/devices/desk-series/desk-mini.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/us/en/devices/room-series/cisco-room-kit-eq.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/us/en/devices/accessories/cisco-room-navigator-for-wall.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/us/en/customers/overheaddoor.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/us/en/devices/room-devices/room-bars-and-kits.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/us/en/devices/cameras/cisco-quad-camera.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/how-bbva-embraced-hybrid-work-with-cisco-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/collaboration/how-webex-skyrocketed-sutherland-globals-efficiency",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/products/collaboration-ai.html",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cameras",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cisco-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cloud-calling",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/control-hub-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/customer-story",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/desk-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/headsets",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/phones",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/room-accessories",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/webex-suite",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/contributors/espenloberg",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cameras",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/cisco-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/control-hub-2",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/desk-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/digital-whiteboards",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/headsets",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/phones",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/product-announcements",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/room-accessories",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/tag/security",
+    "depth": 3
+  },
+  {
+    "url": "https://blog.webex.com/workspaces/from-crazy-idea-to-an-everyday-tool-story-behind-cisco-desk-series",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/enterprise-cloud-calling.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.webex.com/events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://essentials.webex.com",
     "depth": 3
   }
 ]
