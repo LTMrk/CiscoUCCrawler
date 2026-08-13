@@ -8030,5 +8030,9 @@
   "https://developer.webex.com/docs/api/v1/meetings/batch-update-meeting-registrants-status": {
     "hash": "f58924a3d817903e76c4ab3e2a99bc81d921c403dbe8d5c636e1d78c72a5ec68",
     "timestamp": "2026-08-13T02:11:42.425420"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings/register-a-meeting-registrant": {
+    "hash": "089d9a94d9a2b00f471d6777d4e199ad8244bdd80329b4fdbba669257cc508e5",
+    "timestamp": "2026-08-13T02:11:49.154200"
   }
 }
