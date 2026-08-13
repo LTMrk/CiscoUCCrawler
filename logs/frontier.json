@@ -1,353 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217244-mobile-and-remote-access-phone-services.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217230-what-is-expressway-cluster-and-how-it-wo.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217220-how-to-troubleshoot-partial-registration.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/products-tech-notes-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://community.cisco.com/t5/technology-and-support/ct-p/technology-support",
-    "depth": 1
-  },
-  {
-    "url": "https://supportforums.cisco.com/node/add/discussion",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/products/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/solutions/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/learn/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/buy/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/support-help/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/all-products.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/unified-communications/communications-gateways/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/buy.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tools-catalog.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/saved/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/deprecation-notice-websocket-based-media-forking.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/data-sheet-c78-729692.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/unified-border-element-v14-eol.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/bulletin-c25-2479306.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/eos-eol-notice-c51-744411.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/eos-eol-notice-c51-743922.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/eos-eol-notice-c51-742123.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/eos-eol-notice-c51-730324.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/end_of_life_notice_c51-729132.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/221645-configure-high-availability-ha-on-cube.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/222548-configure-srtp-rtp-interworking-on-cube.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214622-troubleshoot-no-audio-issues-with-hairpi.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/200412-DTMF-Relay-and-Interworking-on-CUBE.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/220378-configure-zone-based-firewall-zbfw-co.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215412-configure-sip-tls-between-cucm-cube-cube.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214218-configure-options-ping-between-cucm-and.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/200614-Configure-and-Troubleshoot-Enterprise-CA.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212090-Configure-SIP-TLS-between-CUCM-CUBE-CUBE.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/117300-configure-cube-00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/116086-configure-cube-cucm-sip-00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/220380-cisco-guide-to-harden-cisco-unified-bord.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-border-element/116440-configure-vsg-00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/217860-troubleshooting-busyout-dial-peers-on-cu.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/118825-technote-sip-00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214634-voice-router-internal-call-disconnect-ca.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214338-rtp-source-validation-in-ios-and-ios-xe.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/interfaces-modules/unified-sip-proxy/214017-design-scalable-sip-trunk-solution-with.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/213843-troubleshoot-session-refresh-on-cube.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212649-troubleshoot-cube-sp-rejects-internal-ca.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/212133-In-Depth-Analysis-of-Ringback-for-all-Vo.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/118939-technote-cube-00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/116392-technote-product-00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-border-element/116010-dup-c-lines-problem-solution-00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/white_paper_c11-613550.html",
-    "depth": 1
-  },
-  {
-    "url": "https://community.cisco.com/t5/technology-and-support/ct-p/technology-support",
-    "depth": 1
-  },
-  {
-    "url": "https://supportforums.cisco.com/node/add/discussion",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/products/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/solutions/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/learn/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/buy/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/support-help/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/all-products.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/category.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-express/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/buy.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tools-catalog.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/null",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-express-12-5-1/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-express-15-0/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/saved/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/743/fn74382.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cc-xss-MrNAH5Jh.html",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cc-mult-vuln-gK4TFXSn.html",
     "depth": 1
   },
@@ -271397,6 +271049,2246 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118893-technote-cucm-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211304-Collaboration-Edge-TC-based-Endpoints-Co.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217244-mobile-and-remote-access-phone-services.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217244-mobile-and-remote-access-phone-services.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217244-mobile-and-remote-access-phone-services.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217230-what-is-expressway-cluster-and-how-it-wo.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217230-what-is-expressway-cluster-and-how-it-wo.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217230-what-is-expressway-cluster-and-how-it-wo.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://video.cisco.com/video/6154771820001",
+    "depth": 2
+  },
+  {
+    "url": "https://video.cisco.com/video/5809964179001",
+    "depth": 2
+  },
+  {
+    "url": "https://video.cisco.com/video/6154775607001",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217220-how-to-troubleshoot-partial-registration.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217220-how-to-troubleshoot-partial-registration.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217220-how-to-troubleshoot-partial-registration.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://video.cisco.com/video/5810050375001",
+    "depth": 2
+  },
+  {
+    "url": "https://video.cisco.com/video/6039539294001",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series/200770-How-to-Collect-a-Collaboration-Endpoint.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/117890-technote-cucm-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217016-certificate-change-on-mar-31-2021-affec.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/210527-Cisco-Expressway-B2BUA-Drops-RTCP-Multis.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216950-cisco-webex-root-ca-certificate-update.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/215677-collect-logs-in-order-to-troubleshoot-is.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213802-how-to-extract-the-bundle-certificate-an.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213804-mra-calls-fail-with-service-unavailable.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/118877-config-vcs-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211262-Troubleshoot-IP-Phones-78XX-88XX-When-T.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213863-troubleshoot-most-common-issues-for-busi.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/215561-troubleshooting-expressway-mra-login-and.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/spark/212475-troubleshooting-guide-for-cisco-spark-hy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/214621-understand-expressway-and-vcs-license-in.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-7800-series/215573-cisco-ip-phones-7800-8800-series-fails-t.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/producs-white-paper.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/data-sheet-c78-729692.html",
+    "depth": 2
+  },
+  {
+    "url": "https://engage2demand.cisco.com/LP=567",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/collaboration/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/bulletin-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/presentation-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/bulletin-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/deprecation-notice-websocket-based-media-forking.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/ServiceRequestTool/create",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/white_paper_c11-613550.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/data-sheet-c78-729692.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/bulletin-c25-2479306.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/spark-flex-plan/guide-c07-744224.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/white_paper_c11-613550.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/unified-border-element-v14-eol.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/partners/tools/collaboration-ordering-guides.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/warranty-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/bulletin-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/bulletin-c25-2479306.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/white_paper_c11-613550.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/eos-eol-notice-c51-744411.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/eos-eol-notice-c51-743922.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/eos-eol-notice-c51-742123.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/eos-eol-notice-c51-730324.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/prod/collateral/voicesw/ps6790/gatecont/ps5640/product_data_sheet09186a00801da698.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/end_of_life_notice_c51-729132.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/ps10536/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/221645-configure-high-availability-ha-on-cube.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/221645-configure-high-availability-ha-on-cube.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/221645-configure-high-availability-ha-on-cube.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/222548-configure-srtp-rtp-interworking-on-cube.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/222548-configure-srtp-rtp-interworking-on-cube.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/222548-configure-srtp-rtp-interworking-on-cube.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214622-troubleshoot-no-audio-issues-with-hairpi.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214622-troubleshoot-no-audio-issues-with-hairpi.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214622-troubleshoot-no-audio-issues-with-hairpi.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/200412-DTMF-Relay-and-Interworking-on-CUBE.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/200412-DTMF-Relay-and-Interworking-on-CUBE.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/200412-DTMF-Relay-and-Interworking-on-CUBE.mobi",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/docs/routers/access/vgd1t3/rel1_0/software/configuration/guide/VGD_transcoding.html",
+    "depth": 2
+  },
+  {
+    "url": "https://search.cisco.com/search",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/partner/docs/ios-xml/ios/voice/cube_proto/configuration/15-mt/voi-dtmf-ton-gen.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/220378-configure-zone-based-firewall-zbfw-co.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/220378-configure-zone-based-firewall-zbfw-co.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/220378-configure-zone-based-firewall-zbfw-co.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCwe66293",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/security/ios-firewall/213550-troubleshoot-one-way-audio-problems-in-f.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/211306-In-Depth-Explanation-of-Cisco-IOS-and-IO.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/security/ios-firewall/117721-technote-iosfirewall-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/security/ios-firewall/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/ios-gateways-session-initiation-protocol-sip/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215412-configure-sip-tls-between-cucm-cube-cube.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215412-configure-sip-tls-between-cucm-cube-cube.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215412-configure-sip-tls-between-cucm-cube-cube.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214218-configure-options-ping-between-cucm-and.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214218-configure-options-ping-between-cucm-and.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214218-configure-options-ping-between-cucm-and.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://supportforums.cisco.com/t5/collaboration-voice-and-video/packet-capture-on-cucm-appliance-model/ta-p/3118507",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212090-Configure-SIP-TLS-between-CUCM-CUBE-CUBE.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212090-Configure-SIP-TLS-between-CUCM-CUBE-CUBE.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212090-Configure-SIP-TLS-between-CUCM-CUBE-CUBE.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/117300-configure-cube-00.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/14074-in-dial-peer-match.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/64020-number-voice-translation-profiles.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/obsolete/ios-nx-os-software/cisco-ios-software-releases-12-4-t.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/obsolete/contact-center/cisco-agent-desktop.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/tech/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/tech/voice/ip-telephony-voice-over-ip-voip/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/tech/voice/ip-telephony-voice-over-ip-voip/tech-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/116086-configure-cube-cucm-sip-00.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/116086-configure-cube-cucm-sip-00.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/116086-configure-cube-cucm-sip-00.mobi",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/web/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/tsd-products-support-maintain-and-operate-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/220380-cisco-guide-to-harden-cisco-unified-bord.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/220380-cisco-guide-to-harden-cisco-unified-bord.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/220380-cisco-guide-to-harden-cisco-unified-bord.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/211306-In-Depth-Explanation-of-Cisco-IOS-and-IO.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/tsd-products-support-maintain-and-operate-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-border-element/116440-configure-vsg-00.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/112083-tollfraud-ios.html",
+    "depth": 2
+  },
+  {
+    "url": "https://supportforums.cisco.com/docs/DOC-12228",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/web/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/217860-troubleshooting-busyout-dial-peers-on-cu.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/217860-troubleshooting-busyout-dial-peers-on-cu.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/217860-troubleshooting-busyout-dial-peers-on-cu.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvx92872",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvz80171",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/118825-technote-sip-00.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/118825-technote-sip-00.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/118825-technote-sip-00.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/tools/SipProfileTest",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/211306-In-Depth-Explanation-of-Cisco-IOS-and-IO.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/14074-in-dial-peer-match.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214634-voice-router-internal-call-disconnect-ca.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214634-voice-router-internal-call-disconnect-ca.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214634-voice-router-internal-call-disconnect-ca.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214338-rtp-source-validation-in-ios-and-ios-xe.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214338-rtp-source-validation-in-ios-and-ios-xe.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214338-rtp-source-validation-in-ios-and-ios-xe.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvo15141",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/interfaces-modules/unified-sip-proxy/214017-design-scalable-sip-trunk-solution-with.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/interfaces-modules/unified-sip-proxy/214017-design-scalable-sip-trunk-solution-with.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/interfaces-modules/unified-sip-proxy/214017-design-scalable-sip-trunk-solution-with.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-sip-proxy-software/products-installation-and-configuration-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/web/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/213843-troubleshoot-session-refresh-on-cube.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/213843-troubleshoot-session-refresh-on-cube.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/213843-troubleshoot-session-refresh-on-cube.mobi",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/web/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212649-troubleshoot-cube-sp-rejects-internal-ca.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212649-troubleshoot-cube-sp-rejects-internal-ca.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212649-troubleshoot-cube-sp-rejects-internal-ca.mobi",
+    "depth": 2
+  },
+  {
+    "url": "http://tools.cisco.com/support/serviceordertool/orderDetails.svo",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCup67940",
+    "depth": 2
+  },
+  {
+    "url": "https://techzone.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/tech/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/tech/voice/ip-telephony-voice-over-ip-voip/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/tech/voice/ip-telephony-voice-over-ip-voip/tsd-technology-support-troubleshooting-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/212133-In-Depth-Analysis-of-Ringback-for-all-Vo.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/212133-In-Depth-Analysis-of-Ringback-for-all-Vo.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/212133-In-Depth-Analysis-of-Ringback-for-all-Vo.mobi",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/c/en/us/support/docs/voice/h323/22983-ringback.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/c/en/us/support/docs/voice/h323/116078-technologies-technote-commandrefe.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/118939-technote-cube-00.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCtw96549",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCue70469",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/116392-technote-product-00.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/routers/asr1000/configuration/guide/sbcu/2_xe/sbcu_2_xe_book.html",
+    "depth": 2
+  },
+  {
+    "url": "https://techzone.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/partner/docs/voice_ip_comm/cucm/srnd/9x/media.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/partner/docs/ios-xml/ios/voice/cube_proto/configuration/xe-3s/voi-multicast-moh.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-communications-manager-callmanager/5215-moh-faq-5215.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/web/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/customer/docs/voice_ip_comm/cucm/admin/8_6_1/ccmfeat/fsmoh.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-border-element/116010-dup-c-lines-problem-solution-00.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-border-element/116010-dup-c-lines-problem-solution-00.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-border-element/116010-dup-c-lines-problem-solution-00.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/dial-access/asynchronous-connections/17016-techtip-conventions.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-border-element/105624-cube-sip-normalization.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-border-element/105624-cube-sip-normalization.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/web/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-border-element/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-border-element/white_paper_c11-613550.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/ios/voice/fax/configuration/guide/15_0/vf_15_0_book.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/ios/12_4t/12_4t4/htrtpvip.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-embedded-event-manager-eem/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-ip-service-level-agreements-slas/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-netflow/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/cisco-insider-user-group/ct-p/ccp-home",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/ios/12_4t/12_4t11/ht_rawip.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/ios/voice/cube/configuration/guide/vb_book/vb_book.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/ios/voice/command/reference/vr_book.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/voice_ip_comm/cucm/srnd/8x/trunks.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/voice_ip_comm/cucm/srnd/7x/trunks.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/voice_ip_comm/cucm/srnd/6x/trunks.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/srnd/7x/cvp_gtwy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/ITDIT/MIBS/servlet/index",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/webex-contact-center-enterprise/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/webex-contact-center-enterprise-government/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/webex-workforce-optimization/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-domain-manager/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-ip-interactive-voice-response-ivr/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-management-portal/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/contact-center-sip-proxy/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/virtualized-voice-browser/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/retired.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/webex-contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/datasheet-c78-744806.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/webex-workforce-optimization/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/customer-collaboration/service-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://ebooks.cisco.com/story/5c993c9e0508ae66cc70b37b",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-express/bulletin-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-express/case-study-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-express/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-express/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-express/sales-resources-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-express/white-paper-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/portal/pub/download/portal/select.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/partner-ecosystem.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/null/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/enterprise/design-zone/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events/training-certifications/overview.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events/events-webinars.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-express/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/743/fn74382.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cc-xss-MrNAH5Jh.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cc-mult-vuln-gK4TFXSn.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cc-unauth-rce-QeN8h7mQ.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cuis-file-upload-UhNEtStm.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/tsd-products-support-translated-end-user-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/unified-cc-express-ds.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/datasheet-c78-744806.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/datasheet-c78-743226.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/datasheet-c78-741746.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/cisco-collaboration-flex-plan/datasheet-c78-741220.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/datasheet-c78-741034.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/datasheet-c78-739489.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/datasheet-c78-735911.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/cisco-collaboration-flex-plan/12-5-12-6-ucce-pcce-uccx-cvp-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/perpetual-lic-intel-ip-flex-center-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/contact-center/unified-contact-center-express/unified-contact-center-express-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/contact-center/unified-contact-center-express/eos-eol-notice-c51-744776.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/contact-center/unified-contact-center-express/eos-eol-notice-c51-744781.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/contact-center/unified-contact-center-express/eos-eol-notice-c51-744780.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/contact-center/unified-contact-center-express/eos-eol-notice-c51-743990.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/contact-center/unified-contact-center-express/eos-eol-notice-c51-744782.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/contact-center/unified-contact-center-express/eos-eol-notice-c51-743991.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-742344.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-667706.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-731087.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-web-interaction-manager/end_of_life_notice_c51-517363.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-627762.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/prod_end-of-life_notice0900aecd80607fe9.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/724/fn72432.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/721/fn72185.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/705/fn70557.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/740/fn74057.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/620/fn62880.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/200/fn28275.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/200/fn27035.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cuis-ssrf-JSuDjeV.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-uccx-multi-UhOTvPGL.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-uccx-editor-rce-ezyYZte8.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-ccp-info-disc-ZyGerQpd.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cuis-priv-esc-3Pk96SU4.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-finesse-ssrf-rfi-Um7wT8Ew.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-uccx-wcp-JJeqDT3S.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cuis-xss-Omm8jyBX.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-security-advisories-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/225859-step-by-step-guide-to-upgrade-ccp-to.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express-1501/225412-step-by-step-guide-to-upgrade-uccx.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/217416-understanding-smart-licensing-in-unified.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/225814-configure-sso-on-ccx-and-prem-contact.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/221108-configure-outbound-dialer-for-uccx-agent.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express-1251/221086-configure-outbound-dialer-for-uccx-agent.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/220917-configure-cuic-historical-report-gadgets.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/218017-configure-unified-contact-center-express.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/217883-configure-cuic-report-default-view-and-t.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/217757-configure-uccx-smart-licensing-direct-mo.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/217513-configure-agent-s-shared-extension-on-uc.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/215667-webex-experience-management-integration.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/215536-configure-extend-and-connect-feature-for.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/214522-configure-custom-script-for-callback-fea.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/213514-enhanced-packet-capture-on-all-vos-appli.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/119428-technote-uccx-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/212428-contact-center-sso-with-okta-identity-pr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1261/221957-understand-support-for-contact-center-co.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-contact-center-express/49703-agentunavail.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/212049-Troubleshoot-Context-Service-Gadget-not.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/222304-get-complete-contact-center-product-vers.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/222275-verify-configuration-of-tts-prompts-not.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/217512-troubleshoot-common-uccx-finesse-and-cui.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-intelligent-contact-management-enterprise/221945-collect-packet-captures-on-windows-clien.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/221626-troubleshoot-uccx-backup-failing-with-er.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/finesse/221594-understand-a-deep-dive-into-websocket-co.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/221595-understand-jtapi-architecture-and-call-f.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/210888-Tech-Note-on-UCCX-Tracing-Levels.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/210485-uccx-agent-login-issues.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/218016-troubleshoot-issue-with-ccxtocuicengines.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/218015-troubleshoot-cm-telephony-subsystem-and.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/212078-Collect-Cisco-Unified-Contact-Center-Exp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/217882-troubleshoot-finesse-custom-or-new-gadge.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/217603-tech-note-on-apache-log4j-vulnerability.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/116798-technote-uccx-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/743/fn74382.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cc-xss-MrNAH5Jh.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cc-mult-vuln-gK4TFXSn.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cc-unauth-rce-QeN8h7mQ.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cuis-file-upload-UhNEtStm.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/tsd-products-support-translated-end-user-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/datasheet-c78-741746.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/cisco-collaboration-flex-plan/datasheet-c78-741220.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/datasheet-c78-741034.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/datasheet-c78-739489.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/datasheet-c78-735911.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/cisco-collaboration-flex-plan/12-5-12-6-ucce-pcce-uccx-cvp-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/perpetual-lic-intel-ip-flex-center-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/contact-center/unified-contact-center-express/unified-contact-center-express-eol.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/contact-center/unified-contact-center-express/eos-eol-notice-c51-744776.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/contact-center/unified-contact-center-express/eos-eol-notice-c51-744781.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/contact-center/unified-contact-center-express/eos-eol-notice-c51-744780.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/contact-center/unified-contact-center-express/eos-eol-notice-c51-743990.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/contact-center/unified-contact-center-express/eos-eol-notice-c51-744782.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/contact-center/unified-contact-center-express/eos-eol-notice-c51-743991.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-742344.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-667706.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/eos-eol-notice-c51-731087.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-web-interaction-manager/end_of_life_notice_c51-517363.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/end_of_life_notice_c51-627762.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-express/prod_end-of-life_notice0900aecd80607fe9.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-express/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/740/fn74057.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/620/fn62880.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/200/fn28275.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/200/fn27035.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cuis-ssrf-JSuDjeV.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-uccx-multi-UhOTvPGL.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-uccx-editor-rce-ezyYZte8.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-ccp-info-disc-ZyGerQpd.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cuis-priv-esc-3Pk96SU4.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-finesse-ssrf-rfi-Um7wT8Ew.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-uccx-wcp-JJeqDT3S.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cuis-xss-Omm8jyBX.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-security-advisories-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/225859-step-by-step-guide-to-upgrade-ccp-to.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express-1501/225412-step-by-step-guide-to-upgrade-uccx.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/225814-configure-sso-on-ccx-and-prem-contact.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/221108-configure-outbound-dialer-for-uccx-agent.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/220917-configure-cuic-historical-report-gadgets.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/218017-configure-unified-contact-center-express.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/217883-configure-cuic-report-default-view-and-t.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/217757-configure-uccx-smart-licensing-direct-mo.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/217513-configure-agent-s-shared-extension-on-uc.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/215667-webex-experience-management-integration.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/215536-configure-extend-and-connect-feature-for.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/214522-configure-custom-script-for-callback-fea.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/213514-enhanced-packet-capture-on-all-vos-appli.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/119428-technote-uccx-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/212428-contact-center-sso-with-okta-identity-pr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/212148-install-and-configure-the-f5-identity-pr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211578-Install-and-Configure-the-Shibboleth-Ide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-contact-center-express/49703-agentunavail.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/212049-Troubleshoot-Context-Service-Gadget-not.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/222275-verify-configuration-of-tts-prompts-not.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-intelligent-contact-management-enterprise/221945-collect-packet-captures-on-windows-clien.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/221626-troubleshoot-uccx-backup-failing-with-er.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/finesse/221594-understand-a-deep-dive-into-websocket-co.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/221595-understand-jtapi-architecture-and-call-f.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/218016-troubleshoot-issue-with-ccxtocuicengines.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/218015-troubleshoot-cm-telephony-subsystem-and.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/212078-Collect-Cisco-Unified-Contact-Center-Exp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/217882-troubleshoot-finesse-custom-or-new-gadge.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/217603-tech-note-on-apache-log4j-vulnerability.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/116798-technote-uccx-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/finesse/215626-finesse-thirdparty-client-integration-wi.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/214639-understand-the-algorithm-to-determine-ma.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/214637-how-to-use-the-get-session-info-step-on.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/finesse/214617-troubleshoot-finesse-error-sslpeerunver.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-tech-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-ip-interactive-voice-response-ivr/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-ip-interactive-voice-response-ivr/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/packaged-contact-center-enterprise-12-5-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/packaged-contact-center-enterprise-12-5-2/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/packaged-contact-center-enterprise-12-6-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/packaged-contact-center-enterprise-12-6-2/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/packaged-contact-center-enterprise-15-0-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-enterprise-12-5-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-enterprise-12-5-2/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-enterprise-12-6-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-enterprise-12-6-2/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-enterprise-15-0-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-12-5-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-12-6-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-12-6-2/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-15-0-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-intelligence-center-12-5-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-intelligence-center-12-6-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-intelligence-center-12-6-2/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-intelligence-center-15-0-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
     "depth": 2
   }
 ]
