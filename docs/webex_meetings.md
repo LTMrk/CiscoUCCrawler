@@ -8923,3 +8923,167 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/docs/api/v1/meetings/list-meetings-by-an-admin
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/meeting/docs/api/v1/meetings/list-meetings-by-an-admin)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/meeting/docs/api/v1/meetings/list-meetings-by-an-admin)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/meeting/docs/api/v1/meetings/list-meetings-by-an-admin)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/[Meetings](https://developer.webex.com/meeting/docs/api/v1/meetings)/List Meetings By an Admin
+Webex Meetings
+  * [Overview](https://developer.webex.com/meeting/docs/meetings)
+  * Guides
+  * [Guest to Guest Meetings](https://developer.webex.com/meeting/docs/guest-to-guest-meetings)
+  * [API Behavior Changes](https://developer.webex.com/meeting/docs/app-programming-interface-behavior-changes)
+  * [REST API Basics](https://developer.webex.com/meeting/docs/basics)
+  * API REFERENCE
+  * All APIs
+    * [Meeting Chats](https://developer.webex.com/meeting/docs/api/v1/meeting-chats)
+    * [Meeting Closed Captions](https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions)
+    * [Meeting Invitees](https://developer.webex.com/meeting/docs/api/v1/meeting-invitees)
+    * [Meeting Messages](https://developer.webex.com/meeting/docs/api/v1/meeting-messages)
+    * [Meeting Participants](https://developer.webex.com/meeting/docs/api/v1/meeting-participants)
+    * [Meeting Polls](https://developer.webex.com/meeting/docs/api/v1/meeting-polls)
+    * [Meeting Preferences](https://developer.webex.com/meeting/docs/api/v1/meeting-preferences)
+    * [Meeting Q and A](https://developer.webex.com/meeting/docs/api/v1/meeting-q-and-a)
+    * [Meeting Qualities](https://developer.webex.com/meeting/docs/api/v1/meeting-qualities)
+    * [Meeting Summaries](https://developer.webex.com/meeting/docs/api/v1/meeting-summaries)
+    * [Meeting Transcripts](https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts)
+    * [Meetings](https://developer.webex.com/meeting/docs/api/v1/meetings)
+      * [Batch Approve Meeting Registrants](https://developer.webex.com/meeting/docs/api/v1/meetings/batch-approve-meeting-registrants)Post
+      * [Batch Cancel Meeting Registrants](https://developer.webex.com/meeting/docs/api/v1/meetings/batch-cancel-meeting-registrants)Post
+      * [Batch Delete Meeting Registrants](https://developer.webex.com/meeting/docs/api/v1/meetings/batch-delete-meeting-registrants)Post
+      * [Batch register Meeting Registrants](https://developer.webex.com/meeting/docs/api/v1/meetings/batch-register-meeting-registrants)Post
+      * [Batch Reject Meeting Registrants](https://developer.webex.com/meeting/docs/api/v1/meetings/batch-reject-meeting-registrants)Post
+      * [Create a Meeting](https://developer.webex.com/meeting/docs/api/v1/meetings/create-a-meeting)Post
+      * [Create a Meeting Interpreter](https://developer.webex.com/meeting/docs/api/v1/meetings/create-a-meeting-interpreter)Post
+      * [Create Invitation Sources](https://developer.webex.com/meeting/docs/api/v1/meetings/create-invitation-sources)Post
+      * [Delete a Meeting](https://developer.webex.com/meeting/docs/api/v1/meetings/delete-a-meeting)Delete
+      * [Delete a Meeting Interpreter](https://developer.webex.com/meeting/docs/api/v1/meetings/delete-a-meeting-interpreter)Delete
+      * [Delete a Meeting Registrant](https://developer.webex.com/meeting/docs/api/v1/meetings/delete-a-meeting-registrant)Delete
+      * [Delete Meeting Breakout Sessions](https://developer.webex.com/meeting/docs/api/v1/meetings/delete-meeting-breakout-sessions)Delete
+      * [Delete Meeting Registration Form](https://developer.webex.com/meeting/docs/api/v1/meetings/delete-meeting-registration-form)Delete
+      * [End a Meeting](https://developer.webex.com/meeting/docs/api/v1/meetings/end-a-meeting)Post
+      * [Get a Meeting](https://developer.webex.com/meeting/docs/api/v1/meetings/get-a-meeting)Get
+      * [Get a Meeting By an Admin](https://developer.webex.com/meeting/docs/api/v1/meetings/get-a-meeting-by-an-admin)Get
+      * [Get a Meeting Interpreter](https://developer.webex.com/meeting/docs/api/v1/meetings/get-a-meeting-interpreter)Get
+      * [Get a Meeting Session Type](https://developer.webex.com/meeting/docs/api/v1/meetings/get-a-meeting-session-type)Get
+      * [Get a Meeting Survey](https://developer.webex.com/meeting/docs/api/v1/meetings/get-a-meeting-survey)Get
+      * [Get a Meeting Template](https://developer.webex.com/meeting/docs/api/v1/meetings/get-a-meeting-template)Get
+      * [Get Detailed Information for a Meeting Registrant](https://developer.webex.com/meeting/docs/api/v1/meetings/get-detailed-information-for-a-meeting-registrant)Get
+      * [Get Meeting Control Status](https://developer.webex.com/meeting/docs/api/v1/meetings/get-meeting-control-status)Get
+      * [Get Meeting Survey Links](https://developer.webex.com/meeting/docs/api/v1/meetings/get-meeting-survey-links)Post
+      * [Get registration form for a meeting](https://developer.webex.com/meeting/docs/api/v1/meetings/get-registration-form-for-a-meeting)Get
+      * [Join a Meeting](https://developer.webex.com/meeting/docs/api/v1/meetings/join-a-meeting)Post
+      * [List Group Meetings](https://developer.webex.com/meeting/docs/api/v1/meetings/list-group-meetings)Get
+      * [List Invitation Sources](https://developer.webex.com/meeting/docs/api/v1/meetings/list-invitation-sources)Get
+      * [List Meeting Breakout Sessions](https://developer.webex.com/meeting/docs/api/v1/meetings/list-meeting-breakout-sessions)Get
+      * [List Meeting Interpreters](https://developer.webex.com/meeting/docs/api/v1/meetings/list-meeting-interpreters)Get
+      * [List Meeting Registrants](https://developer.webex.com/meeting/docs/api/v1/meetings/list-meeting-registrants)Get
+      * [List Meeting Session Types](https://developer.webex.com/meeting/docs/api/v1/meetings/list-meeting-session-types)Get
+      * [List Meeting Survey Results](https://developer.webex.com/meeting/docs/api/v1/meetings/list-meeting-survey-results)Get
+      * [List Meeting Templates](https://developer.webex.com/meeting/docs/api/v1/meetings/list-meeting-templates)Get
+      * [List Meeting Tracking Codes](https://developer.webex.com/meeting/docs/api/v1/meetings/list-meeting-tracking-codes)Get
+      * [List Meetings](https://developer.webex.com/meeting/docs/api/v1/meetings/list-meetings)Get
+      * [List Meetings By an Admin](https://developer.webex.com/meeting/docs/api/v1/meetings/list-meetings-by-an-admin)Get
+      * [Patch a Group Meeting](https://developer.webex.com/meeting/docs/api/v1/meetings/patch-a-group-meeting)Patch
+      * [Patch a Meeting](https://developer.webex.com/meeting/docs/api/v1/meetings/patch-a-meeting)Patch
+      * [Query Meeting Registrants](https://developer.webex.com/meeting/docs/api/v1/meetings/query-meeting-registrants)Post
+      * [Reassign Meetings to a New Host](https://developer.webex.com/meeting/docs/api/v1/meetings/reassign-meetings-to-a-new-host)Post
+      * [Register a Meeting Registrant](https://developer.webex.com/meeting/docs/api/v1/meetings/register-a-meeting-registrant)Post
+      * [Update a Meeting](https://developer.webex.com/meeting/docs/api/v1/meetings/update-a-meeting)Put
+      * [Update a Meeting Interpreter](https://developer.webex.com/meeting/docs/api/v1/meetings/update-a-meeting-interpreter)Put
+      * [Update Group Meeting Control Status](https://developer.webex.com/meeting/docs/api/v1/meetings/update-group-meeting-control-status)Post
+      * [Update Meeting Breakout Sessions](https://developer.webex.com/meeting/docs/api/v1/meetings/update-meeting-breakout-sessions)Put
+      * [Update Meeting Control Status](https://developer.webex.com/meeting/docs/api/v1/meetings/update-meeting-control-status)Put
+      * [Update Meeting Registration Form](https://developer.webex.com/meeting/docs/api/v1/meetings/update-meeting-registration-form)Put
+      * [Update Meeting Simultaneous interpretation](https://developer.webex.com/meeting/docs/api/v1/meetings/update-meeting-simultaneous-interpretation)Put
+    * [Meetings Summary Report](https://developer.webex.com/meeting/docs/api/v1/meetings-summary-report)
+    * [People](https://developer.webex.com/meeting/docs/api/v1/people)
+    * [Recording Report](https://developer.webex.com/meeting/docs/api/v1/recording-report)
+    * [Recordings](https://developer.webex.com/meeting/docs/api/v1/recordings)
+    * [Session Types](https://developer.webex.com/meeting/docs/api/v1/session-types)
+    * [Site](https://developer.webex.com/meeting/docs/api/v1/site)
+    * [Slido Secure Premium](https://developer.webex.com/meeting/docs/api/v1/slido-secure-premium)
+    * [Tracking Codes](https://developer.webex.com/meeting/docs/api/v1/tracking-codes)
+    * [Video Mesh](https://developer.webex.com/meeting/docs/api/v1/video-mesh)
+    * [Webhooks](https://developer.webex.com/meeting/docs/api/v1/webhooks)
+  * [Changelog](https://developer.webex.com/meeting/docs/api/changelog/webex-meetings)
+  * SDK
+  * [AI Assistant for Developers](https://developer.webex.com/meeting/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/meeting/docs/api/guides/troubleshooting)
+  * [Widgets](https://developer.webex.com/meeting/docs/widgets)
+  * [Tutorials](https://developer.webex.com/meeting/docs/tutorials)
+  * [Suite Sandbox](https://developer.webex.com/meeting/docs/developer-sandbox-guide)
+  * [Beta Program Overview](https://developer.webex.com/meeting/docs/webex-developer-beta-program)
+  * [Webex Status API](https://developer.webex.com/meeting/docs/webex-status-api)
+  * [XML API Deprecation](https://developer.webex.com/meeting/docs/webex-xml-api-deprecation-announcement)
+
+
+Version 1
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
