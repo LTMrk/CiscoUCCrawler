@@ -8291,3 +8291,126 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://blog.webex.com/hybrid-work/video-meeting-fatigue
+
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-primary-logo.svg)](https://blog.webex.com)
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-secondary-logo.svg)](https://blog.webex.com)
+  * [Collaboration](https://blog.webex.com/category/collaboration/)
+  * [Workspaces](https://blog.webex.com/category/workspaces/)
+  * [Customer Experience](https://blog.webex.com/category/customer-experience/)
+  * [Event Management](https://blog.webex.com/category/event-management/)
+  * [Innovation & AI](https://blog.webex.com/category/innovation-ai/)
+
+
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2079%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/collaboration/hybrid-work/video-meeting-fatigue) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/collaboration/hybrid-work/video-meeting-fatigue&title=Video%20meeting%20fatigue%20and%20The%20Great%20Resignation%20have%20something%20in%20...) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/collaboration/hybrid-work/video-meeting-fatigue)
+[ ](https://blog.webex.com/collaboration/hybrid-work/video-meeting-fatigue/ "Copy Link") [ ](https://blog.webex.com/collaboration/hybrid-work/video-meeting-fatigue/ "Print")
+[Collaboration](https://blog.webex.com/category/collaboration/)
+# Video meeting fatigue and The Great Resignation have something in common
+On Jun 9, 2022Sep 18, 2024By [Aruna Ravichandran](https://blog.webex.com/contributors/arunaravichandran-2/)4 Min Read
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/collaboration/hybrid-work/video-meeting-fatigue) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/collaboration/hybrid-work/video-meeting-fatigue&title=Video%20meeting%20fatigue%20and%20The%20Great%20Resignation%20have%20something%20in%20...) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/collaboration/hybrid-work/video-meeting-fatigue)
+[ ](https://blog.webex.com/collaboration/hybrid-work/video-meeting-fatigue/ "Copy Link") [ ](https://blog.webex.com/collaboration/hybrid-work/video-meeting-fatigue/ "Print")
+![Stressed Woman On Video Conference](https://blog.webex.com/wp-content/uploads/2022/06/meeting-fatigue-feature-final.jpg)
+We all know that hybrid work is the future of work. But it’s also both harder and different than ever before. The modern work environment is not confined to a single space or device anymore. It’s flexible, it’s mobile, it’s hybrid.  Video Meeting Fatigue The Great Resignation 
+And then there’s video. We are all spending a lot of time in video meetings – even more than before the pandemic. This is our new normal. While there are many benefits to video meetings – easier collaboration, increased empathy from colleagues, and ultimately greater job satisfaction – there is a darker side as well.
+[A new study](https://webexahead.webex.com/understanding-and-overcoming-video-meeting-fatigue/) commissioned by Webex revealed the causes and consequences of video meeting fatigue. Yes, among all the aspects of employee well-being we are navigating, this has now been added to the list. In fact, 95% of workers experience video meeting fatigue! Since transitioning to remote work, not only are employees meeting through video conferencing tools, 56% said their time in meetings had increased since working from home.
+But what’s behind this? Is video really the culprit? [This study](https://webexahead.webex.com/understanding-and-overcoming-video-meeting-fatigue/) suggests otherwise.
+First, let’s do the math. 93% of the workers surveyed spend more than 2 hours a day in video meetings – that’s 10 hours a week, more than 20% of their time. 66% of all video meetings are joined via laptop – and the data suggests that might not be a good thing.
+![Graph Showing Employees That Have Proper Technology Versus Planned Tenure](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20975%20554%22%3E%3C/svg%3E)
+![Statistics Showing Correlations Between The Great Resignation And Video Meeting Fatigue](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20975%20554%22%3E%3C/svg%3E)
+What really caught my attention is that 42% of workers plan on leaving their current employer in the next two years – and there is a surprising link between video meeting habits and an employee’s decision to leave.The top issues negatively impacting video meetings are [background noise](https://blog.webex.com/video-conferencing/life-happens-background-noise-doesnt-have-to/ "background noise"), poor sound, and [video quality](https://blog.webex.com/video-conferencing/a-look-at-enterprise-video-quality/ "video quality"), a trend that has continued for the last three years. These and other issues create video meeting fatigue and correlate with the 81% of knowledge workers and executives who experience physical ailments at the end of each day with video meetings. Over 30% experienced aches and pains, blurry vision, headaches, and eye strain, and nearly 40% experienced neck and shoulder strain.Herein lies our opportunity: to make the virtual workplace more inclusive, less stressful, more productive for organizations, and more satisfying for workers.
+Over the last two years, employees have developed their own priorities regarding work. One of these priorities is work location. Of remote workers, 91% were emphatic that they wanted to stay at least partially remote – 54% hybrid and 37% exclusively remote, according to [Gallup](https://news.gallup.com/poll/355907/remote-work-persisting-trending-permanent.aspx). Among GenZ workers, the numbers are even higher.
+Hybrid work means finding ways to both accommodate employee priorities and reimagine the workplace to improve remote work. Business leaders like to say that people are their #1 asset. It’s true for us as well, so we are not only establishing policies to provide a flexible workplace, we want to improve the whole experience.
+When asked what would reduce video meeting fatigue, two key areas were dominant: culture changes around meetings and better meeting technology. Survey participants were then divided into two groups: those that use Webex collaboration devices and those that use other devices (laptops, mobile devices, etc.), revealing two strong trends when compared. Those with [Webex devices](https://hardware.webex.com/products "Webex devices") report higher levels of productivity, collaboration, improved culture, and having the right technology to do their work.
+![Tools To Minimize Video Meeting Fatigue And Stop The Great Resignation](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20925%20520%22%3E%3C/svg%3E)
+They reported 30% fewer frustrations than workers using a laptop, and Webex device users were nearly 40% more productive when working remotely. They had the right technology to reduce or even eliminate the debilitating effects of video meetings – background noise, poor sound quality, and poor video quality.
+Our laptops are the most readily available technology for video meetings, but not the best choice. Devices better suited to video meetings not only reduce video meeting fatigue but provide a better experience for employees. Since 65% of video meetings are primarily done on laptops, and 45% of meetings are done on laptops without peripherals, it makes sense to give people better experiences with devices.
+But what about culture changes? I noted above the positives of meeting on video. The corollary to the positives is this: people who rarely use video are 2.7x less likely to feel connected to company strategy and 3.2x more like to say they’re unhappy with their current employer.
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20975%20554%22%3E%3C/svg%3E)](https://blog.webex.com/wp-content/uploads/2022/06/meeting-fatigue-video-tech.png)
+So, we need video and yet video can lead to fatigue and burnout. Fundamentally, how companies use video technology matters.This is where something I call “simple kindness” comes into play. Leaders can implement policies to establish a kinder, gentler hybrid workplace. Workers have given us the answer. They asked for fewer back-to-back meetings, breaks between meetings, and company sanctioned no-meeting days.
+Though such requests seem simple to implement, they require a strong commitment from management up and down the line. But the good news is that we do hold the power to alleviate video meeting fatigue.
+There is another low-tech approach I think we might consider – the simple phone call. There are times when your part in a meeting is only to absorb information, or you need to quickly connect with a colleague to answer a question. The desktop phone, like the [Cisco Video Phone 8875](https://blog.webex.com/collaboration-devices/cisco-video-phone-8875/ "Cisco Video Phone 8875"), can maximize productivity and reduce meeting fatigue.
+I think you’ll find this study, [The Data Behind Video Meeting Fatigue and How to Combat It](https://www.webex.com/gp/video-meeting-fatigue-research.html), enlightening and helpful. Providing the right tech and the right culture is a winning combination that can help keep our most valuable assets healthy, safe, and happy.
+#### About The Author
+![Aruna Ravichandran](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2096%22%3E%3C/svg%3E)
+Aruna Ravichandran SVP & CMO, Collaboration | SVP Product Marketing, Networking Cisco
+Aruna drives significant revenue growth and brand value through a powerful blend of technological expertise, data science acumen, strategic storytelling, and marketing innovation.
+[Learn more](https://blog.webex.com/contributors/arunaravichandran-2/)
+* * *
+## More like this
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Collaboration, Workspaces Cisco named 2026 Global Enterprise Desktop Phone Company of the ... By John Reeder5 Min Read ](https://blog.webex.com/collaboration/cisco-named-2026-global-enterprise-desktop-phone-company-of-the-year-by-frost-sullivan/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201104%22%3E%3C/svg%3E)simple Collaboration Eight years running! Cisco is named a Leader in the 2026 Gartner® ... By Amit Barave7 Min Read ](https://blog.webex.com/collaboration/eight-years-running-cisco-named-leader-2026-gartner-magic-quadrant-unified-communications-service-ucaas/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201099%22%3E%3C/svg%3E)simple Collaboration, Customer Experience, Event Management, Innovation & AI Tom Brady takes the stage at WebexOne 2026 By Aruna Ravichandran2 Min Read ](https://blog.webex.com/collaboration/tom-brady-takes-the-stage-at-webexone-2026/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Collaboration Intrado Emergency Routing Service for Webex Calling Is Now Available By Teney Takahashi3 Min Read ](https://blog.webex.com/collaboration/intrado-emergency-routing-service-for-webex-calling-is-now-available/)
+Products
+  * [Webex Suite](https://www.webex.com/suite/collaboration-suite.html)
+  * [Meetings](https://www.webex.com/meetings.html)
+  * [Calling](https://www.webex.com/enterprise-cloud-calling.html)
+  * [Messaging](https://www.webex.com/team-collaboration.html)
+  * [Events](https://www.webex.com/events.html)
+  * [Video Messaging](https://vidcast.io/)
+  * [Polling](https://www.webex.com/suite/polling.html)
+  * [Webinars](https://www.webex.com/webinar.html)
+  * [Whiteboarding](https://www.webex.com/suite/whiteboard.html)
+  * [Cloud Contact Center](https://www.webex.com/us/en/products/customer-experience/contact-center.html)
+  * [CPaaS](https://www.webex.com/us/en/products/customer-experience/cpaas.html)
+
+
+Footer Terms Menu
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/collaboration/hybrid-work/video-meeting-fatigue/)
+
+
+Devices
+  * [Room Devices](https://www.webex.com/us/en/devices/room-devices.html)
+  * [Desk Devices](https://www.webex.com/us/en/devices/desk-series.html)
+  * [Digital Whiteboards](https://www.webex.com/us/en/devices/digital-whiteboards.html)
+  * [Phones](https://www.webex.com/us/en/devices/phone-series.html)
+  * [Cameras](https://www.webex.com/us/en/devices/cameras.html)
+  * [Headsets](https://www.webex.com/us/en/devices/headsets.html)
+  * [Room Accessories](https://www.webex.com/us/en/devices/accessories.html)
+
+
+Resources
+  * [Pricing](https://pricing.webex.com/us/en/)
+  * [Downloads](https://www.webex.com/downloads.html)
+  * [Help Center](https://help.webex.com/)
+  * [Webex Community](https://cs.co/webexcommunity)
+  * [Product Essentials](https://essentials.webex.com/)
+  * [Watch Webinars](https://www.webex.com/learn/webinars-demos.html)
+  * [App Hub](https://apphub.webex.com/)
+  * [Accessibility](https://www.webex.com/accessibility.html)
+  * [Developers](https://developer.webex.com/)
+
+
+Company
+  * [Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)
+  * [Webex Customer Advocacy Program](https://www.webex.com/us/en/dg/customer-advocacy-program.html)
+  * [Contact Support](https://help.webex.com/contact/)
+  * [Contact Sales](https://www.webex.com/contact-sales.html?locale=US)
+  * [Webex Merch Store](https://merchandise.cisco.com/featured/webex-by-cisco.html)
+  * [Careers](https://www.webex.com/company/careers.html)
+
+
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://twitter.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.linkedin.com/company/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.facebook.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.youtube.com/c/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.instagram.com/webex/)
+
+
+©2026 Cisco and/or its affiliates. All Rights Reserved.
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/collaboration/hybrid-work/video-meeting-fatigue/)
+
+
