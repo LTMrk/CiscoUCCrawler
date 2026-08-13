@@ -3986,5 +3986,9 @@
   "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/200851-Configuration-Example-for-CUCM-non-secur.html": {
     "hash": "998a6d596a7ff2262402de53dad54db6e7391c9e9636dff9af1206625f679f66",
     "timestamp": "2026-08-13T00:50:24.650568"
+  },
+  "https://www.cisco.com/c/en/us/support/docs/security-vpn/certificate-authority-ca/200753-Configure-CA-Signed-Certificate-via-CLI.html": {
+    "hash": "002bf8c9bd66c367e6f69bdc119b734e2b8b01d780c71036f8278069935ee12f",
+    "timestamp": "2026-08-13T00:50:28.378184"
   }
 }
