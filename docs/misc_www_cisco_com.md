@@ -21574,3 +21574,62 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/saved/index.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/saved/index.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/saved/index.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/saved/index.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/c/en/us/training-events.html)
+  * [Explore Cisco](https://www.cisco.com/c/en/us/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/c/en/us/buy.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html?dtid=odicdc001129)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html?ccid=cc000864&dtid=odiprc001129)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/tools/index.html?dtid=odiprc001129)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html?ccid=cc000864&dtid=odiprc001129)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html?dtid=odicdc001129)
+
+
+  * [](https://www.cisco.com/c/en/us/support/saved/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+
+
+# My Saved Content
+Welcome to your My Saved Content home page. You can now save documents and other content for quick access and future reference. Content can be saved directly from the page, and management of your Saved Content list can be performed by clicking the Edit link. Your most recently saved content will appear below, either by date or by product category. 
+  * Most Recent
+  * Product Categories
+
+
+
+Most Recent
+    
+You can now save documents and other content for future use. All of your saved content will be listed here on this page for easy access.   
+  
+
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/saved/index.html) to see your Saved Content.
+We are experiencing an error loading your saved content. Please try again later. 
+You currently don’t have any saved content. Logged-in users can now save documents and other content for future use, and all of your saved content will be listed here and on each support product page. 
+Edit Delete Selected Done 
+
+Product Categories
+    
+You can now save documents and other content for future use. All of your saved content will be listed here on this page for easy access.   
+  
+
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/saved/index.html) to see your Saved Content.
+We are experiencing an error loading your saved content. Please try again later. 
+You currently don’t have any saved content. Logged-in users can now save documents and other content for future use, and all of your saved content will be listed here and on each support product page. 
+Edit Delete Selected Done
+  * [![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](https://ciscocx.qualtrics.com/jfe/form/SV_2gAQDPastWsR6ke?Ref=&resize=false&referer=https://www.cisco.com/c/en/us/support/saved/index.html)
+
+
