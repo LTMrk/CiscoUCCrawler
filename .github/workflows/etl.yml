@@ -32,9 +32,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: logs-diagnostico
-          path: logs/*.png
+          path: logs/ # HECHO TÉCNICO: Captura recursiva del directorio
           retention-days: 1
-          
+   
       - name: Evaluar y Disparar Siguiente Lote
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
