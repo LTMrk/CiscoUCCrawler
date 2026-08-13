@@ -32442,3 +32442,147 @@ Unleash the Power of TAC's Virtual Assistance
 Unleash the Power of TAC's Virtual Assistance
 Unleash the Power of TAC's Virtual Assistance
 [Login to enable assistance](https://www.cisco.com/c/en/us/support/docs/field-notices/721/fn72185.html)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/field-notices/740/fn74057.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/field-notices/740/fn74057.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/field-notices/740/fn74057.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/field-notices/740/fn74057.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/field-notices/740/fn74057.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/field-notices/740/fn74057.html)Show All Breadcrumbs
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Contact Center](https://www.cisco.com/c/en/us/support/contact-center/category.html)
+  * [Cisco Unified Contact Center Express](https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/series.html)
+  * [Field Notices](https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-field-notices-list.html)
+
+
+# Field Notice: FN74057 - Cisco Unified Contact Center Express Database Service May Fail Due to Increasing Database Connections - Software Upgrade Recommended
+  * Products Affected
+  * Problem Description
+  * Problem Symptom
+  * Workaround/Solution
+
+
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/field-notices/740/fn74057.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/field-notices/740/fn74057.html)
+Print
+### Available Languages
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/field-notices/740/fn74057.html)
+
+
+Updated:October 27, 2023
+Document ID:FN74057
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+### Notice
+**THIS FIELD NOTICE IS PROVIDED ON AN "AS IS" BASIS AND DOES NOT IMPLY ANY KIND OF GUARANTEE OR WARRANTY, INCLUDING THE WARRANTY OF MERCHANTABILITY. YOUR USE OF THE INFORMATION ON THE FIELD NOTICE OR MATERIALS LINKED FROM THE FIELD NOTICE IS AT YOUR OWN RISK. CISCO RESERVES THE RIGHT TO CHANGE OR UPDATE THIS FIELD NOTICE AT ANY TIME.**
+### Products Affected
+  
+  
+| Affected Software Product  | Affected Release  | Affected Release Number  | Comments  |  
+| --- | --- | --- | --- |  
+| Unified Contact Center Express Latest Updates  | 11  | 11.0(1)SU1, 11.0(1)SU1ES02, 11.0(1)SU1ES03, 11.5(1)ES01, 11.5(1)SU1, 11.5(1)SU1ES01, 11.5(1)SU1ES02, 11.5(1)SU1ES03, 11.6(1)ES01, 11.6(1)ES02, 11.6(2)ES01, 11.6(2)ES02, 11.6(2)ES03, 11.6(2)ES04, 11.6(2)ES05, 11.6(2)ES06, 11.6(2)ES07, 11.6(2)ES08  |   |  
+| Unified Contact Center Express Latest Updates  | 12  | 12.5(1)ES01, 12.5(1)ES02, 12.5(1)ES03, 12.5(1)_SU01_ES01, 12.5(1)_SU01_ES02, 12.5(1)_SU01_ES03, 12.5(1)_SU02_ES01, 12.5(1)_SU02_ES02, 12.5(1)_SU02_ES03, 12.5(1)_SU02_ES04, 12.5(1)_SU03_ES01  |   |  
+| Unified Contact Center Express Software  | 11  | 11.0(1)SU1, 11.5(1)SU1, 11.6(1), 11.6(2)  |   |  
+| Unified Contact Center Express Software  | 12  | 12.5(1), 12.5(1)SU1, 12.5(1)SU2  |   |  
+  
+
+### Defect Information
+  
+  
+| **Defect ID**  | **Headline**  |  
+| --- | --- |  
+| [CSCwa14374](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa14374)  | CCX increasing DB connections cause the server to crash  |  
+  
+
+### Problem Description
+  
+
+Cisco Unified Contact Center Express (CCX) database services crash periodically due to a memory leak associated with defect ID [CSCwa14374](https://cdetsng.cisco.com/summary/#/defect/CSCwa14374).
+  
+
+### Background
+  
+
+When customers access historical reports, it may cause the Cisco Unified CCX database shared memory value to increase. Once the Cisco Unified CCX database shared memory threshold parameter of 512 MB is reached, the database service may fail. 
+  
+
+### Problem Symptom
+  
+
+Customers who are running a Cisco Unified CCX release earlier than Release 12.5(1) SU3 ES02 may experience repeated failure of the Cisco Unified CCX database service or inconsistent results in call flows, reporting, database replication, or administrative tasks.
+**Note:** For customers who are using high-availability deployments, the standby subscriber node and database handling historical reporting queries would be affected by this issue first.
+  
+
+### Workaround/Solution
+  
+
+Cisco recommends that all customers upgrade to Cisco Unified CCX Release 12.5(1) SU3 ES02 or later to resolve this issue.
+  
+
+### How to Identify Affected Products
+  
+
+In addition to the items specified in the Problem Symptom section of this Field Notice, the Cisco Unified CCX database logs display the following error messages:
+> _[TimeStamp] Cannot allocate pool for grprCR_1 thread  
+> [TimeStamp] CDR RQM memory allocation failed (rqmMakeRoomNotSpooler() failed.).  
+> [TimeStamp] CDR RQM: rqmPutBuffer (1/2069/0x322314c/0) failed on trg_send_
+  
+
+### Revision History
+  
+  
+| **Version**  | **Description**  | **Section**  | **Date**  |  
+| --- | --- | --- | --- |  
+| 1.0  | Initial Release  | —  | 2023-OCT-27  |  
+  
+
+### For More Information
+For further assistance or for more information about this field notice, contact the Cisco Technical Assistance Center (TAC) using one of the following methods:
+  * [Open a service request on Cisco.com](https://mycase.cloudapps.cisco.com/case)
+  * [By email or telephone](https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html)
+
+
+### Receive Email Notification About New Field Notices
+To receive email updates about Field Notices (reliability and safety issues), Security Advisories (network security issues), and end-of-life announcements for specific Cisco products, set up a profile in [My Notifications](https://cway.cisco.com/mynotifications)
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/field-notices/740/fn74057.html "Back to Top")
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+### Contact Cisco
+  * [Open a Support Case ![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/field-notices/740/fn74057.html)
+  * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
+
+
+### This Document Applies to These Products
+  * [Unified Contact Center Express](https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/series.html)
+
+
+Unleash the Power of TAC's Virtual Assistance
+Unleash the Power of TAC's Virtual Assistance
+[Login to enable assistance](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/field-notices/740/fn74057.html)
+Unleash the Power of TAC's Virtual Assistance
+Unleash the Power of TAC's Virtual Assistance
+[Login to enable assistance](https://www.cisco.com/c/en/us/support/docs/field-notices/740/fn74057.html)
