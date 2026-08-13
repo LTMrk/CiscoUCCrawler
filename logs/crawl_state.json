@@ -8306,5 +8306,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-transcripts/delete-a-transcript": {
     "hash": "1fdce31970b20823850bcb54d6e6ef6f8bd65d5f35ea0bd305e5a3e35344e551",
     "timestamp": "2026-08-13T02:19:00.934646"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-chats/delete-meeting-chats": {
+    "hash": "f7aaf95176f98f6f6299f2f91673e36b0854f079f52c67044ef6cd35e5890160",
+    "timestamp": "2026-08-13T02:19:07.352972"
   }
 }
