@@ -10642,3 +10642,502 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/create/docs/authentication
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/create/docs/authentication)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/create/docs/authentication)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/create/docs/authentication)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Authentication
+Getting Started
+  * [Getting Started](https://developer.webex.com/create/docs)
+  * [Authentication](https://developer.webex.com/create/docs/authentication)
+  * [Login with Webex](https://developer.webex.com/create/docs/login-with-webex)
+  * [AI Assistant for Developers](https://developer.webex.com/create/docs/webex-aI-assistant-for-developers)
+  * Agentic Apps
+  * Bots
+  * Embedded Apps
+  * Integrations
+  * Service Apps
+  * Instant Connect
+  * Workspace Integrations
+  * Bring Your Own Datasource
+  * [Suite Sandbox](https://developer.webex.com/create/docs/developer-sandbox-guide)
+  * [Contact Center Sandbox](https://developer.webex.com/create/docs/sandbox_cc)
+  * [Guest to Guest Sandbox](https://developer.webex.com/create/docs/g2g-sandbox)
+  * [Submit Your App](https://developer.webex.com/create/docs/app-hub-submission-process)
+  * [Tutorials](https://developer.webex.com/create/docs/tutorials)
+
+
+## Getting Started
+### Authentication
+In [Getting Started](https://developer.webex.com/explore/docs) we showed you just how easy it is to send messages using your own access token. But what if your app needs to send messages on behalf of someone else? That's where Integrations and OAuth come in.
+Keep in mind that you don't need to register an integration to explore the APIs. The best way to learn the APIs is to use your own [personal access token](https://developer.webex.com/getting-started.html#authentication) to create rooms, play with messages, etc. If you're sure that your integrations require authenticating on behalf of another Webex user, read on.
+####  anchorWhat are Integrations?
+anchor
+Integrations are how you request permission to invoke Webex APIs on behalf of another user. To do this in a secure way Webex supports the [OAuth 2](http://oauth.net/2/) standard which allows 3rd party integrations to get a temporary access token for authenticating API calls instead of asking users for their password.
+We'll get you there in a few easy steps:
+  1. Register your integration with Webex
+  2. Request permission using an OAuth Grant Flow
+  3. Exchange the resulting Authorization Code for an Access Token
+  4. Use the Access Token to make your API calls
+
+
+####  anchorRegistering your Integration
+anchor
+Registering an integration with Webex is super easy. If you're logged in, select [My Webex Apps](https://developer.webex.com/my-apps) from the menu under your avatar at the top of this page, click "Create a New App" then "Create an Integration" to start the wizard. You'll need to provide some basic information like your integration's name, description, and logo. This information should be user-facing since that's what they'll see in the permission dialog.
+After successful registration you'll be taken to a different screen containing your integration's newly created _Client ID_ and _Client Secret_. The Client Secret will only be shown once so please copy and keep it safe!
+####  anchorRequesting Permission
+anchor
+This step requires that your integration have a user interface capable of temporarily sending users to a Webex login page. For web apps this is typically done as a popup or redirect. For mobile apps consider using a "WebView" or equivalent on your mobile platform of choice.
+To kick off the flow send your user to the following URL along with a standard set of OAuth query parameters:
+`https://webexapis.com/v1/authorize`
+The required query parameters are:  
+|   |   |  
+| --- | --- |  
+| `response_type`  | Must be set to "code"  |  
+| `client_id`  | Issued when creating your app  |  
+| `redirect_uri`  | Must match one of the URIs provided during integration registration  |  
+| `scope`  | A space-separated list of scopes being requested by your integration (see below)  |  
+| `state`  | A unique string that will be passed back to your integration upon completion (see below)  |  
+After logging in users will see a grant dialog like this one:
+![OAuth App Grant](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt97d451f588b09709/5b1014bc344ad0d40f7812eb/authentication-app_grant.png)
+###### Scopes
+Scopes define the level of access that your integration requires. The following is a complete list of scopes and their user-facing descriptions as shown in the permission dialog.
+Scope
+Usage
+`spark-compliance:events_read`
+Access to read events in your user's organization
+`spark-admin:messages_write`
+Access to delete messages in all rooms/spaces in your user\'s organization. New integrations, please use spark-compliance:messages_write instead
+`spark-compliance:messages_write`
+Delete messages in all spaces in your user's organization
+`spark-admin:messages_read`
+Access to read messages in all spaces in your user's organization. New integrations, please use spark-compliance:messages_read instead
+`spark-compliance:messages_read`
+Access to read messages in your user's organization
+`spark-compliance:recordings_write`
+Access to update/delete converged recording resources in your user’s organization
+`spark-compliance:recordings_read`
+Access to read converged recording resources in your user’s organization.
+`spark-compliance:memberships_write`
+Access to create/update/delete memberships in your user's organization
+`spark-compliance:memberships_read`
+Access to read memberships in your user's organization
+`spark-compliance:meetings_write`
+Access to update/delete recordings and transcripts in your user’s organization.
+`spark-compliance:meetings_read`
+Access to read recording and transcript resources in your user’s organization.
+`spark-compliance:rooms_write`
+Access to modify rooms in your user's organization
+`spark-compliance:rooms_read`
+Access to read rooms in your user's organization
+`spark-compliance:teams_read`
+Access to read teams in your user's organization
+`spark-compliance:team_memberships_write`
+Access to update team memberships in your user's organization
+`spark-compliance:team_memberships_read`
+Access to read team memberships in your user's organization
+`spark-compliance:webhooks_write`
+Delete org wide webhooks
+`spark-compliance:webhooks_read`
+Inspect org wide webhooks
+`audit:events_read`
+Access to the audit log for an organization
+`spark-admin:calling_cdr_read`
+Access comprehensive Call Detail Records for Webex Calling, including PII-protected phone numbers.
+`spark-admin:recordings_write`
+Update and delete access to converged recording resources for admins in your user's organization.
+`spark-admin:recordings_read`
+Read access to converged recording resources for admins in your user's organization.
+`spark-admin:reports_write`
+Manage partner reports.
+`spark-admin:reports_read`
+Fetch partner reports and templates.
+`spark-admin:broadworks_subscribers_write`
+Provision, Update or Remove a BroadWorks Subscriber as part of Webex for BroadWorks Solution.
+`spark-admin:broadworks_subscribers_read`
+Read or List BroadWorks Subscribers, provisioned as part of Webex for BroadWorks Solution.
+`spark-admin:broadworks_enterprises_write`
+Change BroadWorks Enterprise configuration, provisioned as part of Webex for BroadWorks Solution.
+`spark-admin:broadworks_enterprises_read`
+Read or List BroadWorks Enterprise, provisioned as part of Webex for BroadWorks Solution.
+`spark-admin:wholesale_billing_reports_write`
+Create or Delete Wholesale Billing Reports associated with a Partner, subscribed to Webex for Wholesale solution.
+`spark-admin:wholesale_billing_reports_read`
+Read or List Wholesale Billing Reports associated with a Partner, subscribed to Webex for Wholesale solution.
+`spark-admin:wholesale_sub_partners_write`
+Create or delete sub-partners associated with a partner, subscribed to the Webex for Wholesale solution.
+`spark-admin:wholesale_sub_partners_read`
+Read or list sub-partners associated with a partner, subscribed to the Webex for Wholesale solution.
+`spark-admin:wholesale_customers_write`
+Provision, Update or Remove a Customer as part of Webex Wholesale Solution.
+`spark-admin:wholesale_customers_read`
+Read or List Customers, provisioned as part of Webex Wholesale Solution.
+`spark-admin:wholesale_subscribers_write`
+Provision, Update or Remove a Subscriber as part of Webex Wholesale Solution.
+`spark-admin:wholesale_subscribers_read`
+Read or List Subscribers, provisioned as part of Webex Wholesale Solution.
+`spark-admin:wholesale_workspace_write`
+Allows the user to convert a wholesale workspace from NORMAL to CONVERSION
+`spark-admin:people_write`
+Access to write to your user's company directory
+`spark-admin:people_read`
+Access to read your user's company directory
+`spark-admin:licenses_read`
+Access to read licenses available in your user's organizations
+`spark-admin:roles_read`
+Access to read roles available in your user's organization
+`spark-admin:telephony_config_write`
+Create, edit and delete telephony configuration
+`spark-admin:telephony_config_read`
+Read and list telephony configuration
+`spark-admin:telephony_pstn_write`
+Scope to limit the write access for partner telephony PSTN
+`spark-admin:telephony_pstn_read`
+Scope to limit the read access for partner telephony PSTN
+`spark-admin:workspaces_read`
+See details for your workspaces
+`spark-admin:workspace_locations_write`
+Create, modify and delete your workspace locations
+`spark-admin:workspace_locations_read`
+See details for your workspace locations
+`spark-admin:workspace_metrics_read`
+See metrics for your workspaces
+`spark-admin:places_write`
+Create, update and delete any place and place service in your organization
+`spark-admin:places_read`
+See details for any places and place service in your organization
+`spark-admin:locations_write`
+Create and edit location configuration.
+`spark-admin:locations_read`
+Read and list location configuration.
+`spark-admin:devices_write`
+Create, update and delete devices and device configurations in your organization
+`spark-admin:devices_read`
+See details for any device in your organization
+`spark-admin:organizations_read`
+Access to read your user's organizations
+`spark-admin:resource_groups_read`
+Access to read your organization's resource groups
+`identity:contacts_read`
+Read contacts.
+`spark-admin:resource_group_memberships_write`
+Access to update your organization's resource group memberships
+`spark-admin:resource_group_memberships_read`
+Access to read your organization's resource group memberships
+`spark-admin:call_qualities_read`
+Access to read organization's call qualities
+`spark-admin:calls_write`
+Allow administrator to invoke call commands on any user in their organization
+`spark-admin:hybrid_clusters_read`
+Access to read hybrid clusters for your organization
+`spark-admin:hybrid_connectors_read`
+Access to read hybrid connectors for your organization
+`identity:tokens_write`
+Admin can delete token for a user
+`identity:tokens_read`
+Admin can list token Ids for a user
+`identity:groups_rw`
+Read Write groups
+`identity:groups_read`
+Read group
+`identity:organizations_rw`
+Modify organizations data like name
+`identity:organizations_read`
+Read an organizations data, like name
+`identity:contacts_rw`
+Manage contacts.
+`Identity:one_time_password`
+Request a one time password for people, devices, and things.
+`identity:placeonetimepassword_create`
+Access to a one time password to a place to create an activation code
+`Identity:Config`
+Identity:Config
+`Identity:Organization`
+Identity:Organization
+`cjp:config`
+Manage contact center configurations in your user's organization
+`cjp:config_write`
+Manage or delete contact center configurations in your user's organization
+`cjp:config_read`
+Access contact center configurations in your user's organization
+`cjp:user`
+Access agent and supervisor actions that can be performed from the Agent/Supervisor Desktop
+`meeting:admin_recordings_write`
+Manage or delete recordings of all Webex users of your organization
+`meeting:admin_recordings_read`
+Retrieve recordings of all Webex users of your organization
+`meeting:admin_transcripts_read`
+Retrieve Webex meetings transcripts of all Webex users of your organization
+`meeting:admin_participants_read`
+Read participant information from meetings for all Webex users of your organization
+`meeting:admin_schedule_write`
+Create, manage, or cancel meetings of all Webex users of your organization
+`meeting:admin_schedule_read`
+Retrieve meetings of all Webex users of your organization
+`meeting:admin_preferences_write`
+Manage meeting preferences of all Webex users of your organization
+`meeting:admin_preferences_read`
+Retrieve Webex meeting preferences of all Webex users of your organization
+`meeting:admin_config_write`
+Manage Webex meeting configurations as an administrator
+`meeting:admin_config_read`
+Retrieve Webex meeting configurations as an administrator
+`meeting:recordings_write`
+Manage or delete your meeting recordings for playback
+`meeting:recordings_read`
+Retrieve your Webex meeting recordings for playback
+`meeting:transcripts_read`
+Retrieve your Webex meetings transcripts
+`meeting:summaries_read`
+Retrieve your Webex meetings summaries
+`meeting:summaries_write`
+Make changes to your Webex meeting summaries
+`meeting:controls_write`
+Update meeting controls for in-progress meetings
+`meeting:controls_read`
+Read meeting control information for in-progress meetings
+`meeting:participants_write`
+Manage participants within meetings
+`meeting:participants_read`
+Read participant information from meetings
+`meeting:schedules_write`
+Create, manage, or cancel your scheduled Webex meetings
+`meeting:schedules_read`
+Retrieve your Webex meeting lists and details
+`meeting:preferences_write`
+Edit your Webex meeting preferences
+`meeting:preferences_read`
+Retrieve your Webex meeting preferences
+`spark:recordings_write`
+Updated and delete access to converged recordings for recording owners.
+`spark:recordings_read`
+Read access to converged recordings for recording owners.
+`spark:all`
+Full access to your Webex account
+`spark:applications_token`
+Retrieve Service App token. Not for FedRAMP customers.
+`spark:messages_write`
+Post and delete messages on your behalf
+`spark:messages_read`
+Read the content of rooms that you are in
+`spark:memberships_write`
+Invite people to rooms on your behalf
+`spark:memberships_read`
+List people in the rooms you are in
+`spark:xsi`
+Access to your Webex Calling resources (e.g. calls & call settings)
+`spark:xapi_statuses`
+Retrieve all information from RoomOS-enabled devices.
+`spark:xapi_commands`
+Execute all commands on RoomOS-enabled devices.
+`spark:calls_write`
+Allow users to invoke call commands on themselves
+`spark:calls_read`
+List all active calls you are part of / List call history from Webex Calling
+`spark:webrtc_calling`
+Access webrtc services for Webex calling
+`spark:people_read`
+Read your users' company directory
+`spark:rooms_write`
+Manage rooms on your behalf
+`spark:rooms_read`
+List the titles of rooms that you are in
+`spark:teams_write`
+Create teams on your users' behalf
+`spark:teams_read`
+List the teams your user's a member of
+`spark:team_memberships_write`
+Add people to teams on your users' behalf
+`spark:team_memberships_read`
+List the people in the teams your user belongs to
+`spark:devices_write`
+Modify and delete your devices
+`spark:devices_read`
+See details for your devices
+`spark:telephony_config_write`
+Create, edit and delete your telephony configuration
+`spark:telephony_config_read`
+Read and list your telephony configuration
+`spark:places_write`
+Create, modify and delete places and place services you manage
+`spark:places_read`
+See details for places and place services you manage
+`spark:organizations_read`
+Access to read your user's organizations
+`spark:mcp`
+Access MCP servers hosted on Webex Agentic Platform
+`spark:webhooks_read`
+spark:webhooks_read
+`spark:webhooks_write`
+spark:webhooks_write
+`application:webhooks_write`
+Register Service App authorization webhook. Not for FedRAMP customers.
+`application:webhooks_read`
+List webhooks for Service App authorization. Not for FedRAMP customers.
+`wxc-dedicateduc:admin_perfmon_read`
+Register a webhook for dedicated instance performance counters
+`spark-admin:calls_read`
+Access to list all calls in your user's organization
+`webexsquare:admin`
+webexsquare:admin
+`guest-issuer:read`
+Retrieve guest and guest metadata via Service App
+`guest-issuer:write`
+Create and manage guest users via Service App
+`cjds:admin_org_read`
+cjds:admin_org_read
+`cjds:admin_org_write`
+cjds:admin_org_write
+`cloud-contact-center:pod_conv`
+cloud-contact-center:pod_conv
+`meeting:group_meeting_write`
+Permission to update or delete meeting content—including recordings, transcriptions, and related metadata—as well as the ability to start or stop recordings for meetings hosted by users within a managed group
+`meeting:group_meeting_read`
+Read access to meeting content—including recordings, transcriptions, and related metadata—as well as the ability to view recording controls (such as start/stop recording status) for meetings hosted by users within a managed group
+`cjp:task_write`
+Create tasks
+`cjp:task_read`
+Ability to inspect tasks
+`spark-admin:datasource_read`
+Allows a Service App to read datasources usually for Bring Your own Virtual Agent (BYOVA) use cases.
+`spark-admin:datasource_write`
+Allows a Service App to create new datasources and update existing datasources usually for Bring Your own Virtual Agent (BYOVA) use cases.
+`spark-admin:metrics_read`
+Retrieve Webex metrics
+`guest-meeting:rw`
+Ability to orchestrate guest-to-guest meetings via Service App
+####  anchorGetting an Access Token
+anchor
+If the user granted permission to your integration, Webex will redirect the user's web browser to the `redirect_uri` you specified when entering the grant flow. The request to the Redirect URL will contain a `code` parameter in the query string like so:
+`http://your-server.com/auth?code=YjAzYzgyNDYtZTE3YS00OWZkLTg2YTgtNDc3Zjg4YzFiZDlkNTRlN2FhMjMtYzUz`
+Your integration will then need to exchange this Authorization Code for an Access Token that can be used to invoke the APIs. To do this your app will need to perform an HTTP POST to the following URL with a standard set of OAuth parameters. This endpoint will only accept an `x-www-form-urlencoded` body.
+`https://webexapis.com/v1/access_token`
+The required parameters are:  
+|   |   |  
+| --- | --- |  
+| `grant_type`  | This should be set to "authorization_code"  |  
+| `client_id`  | Issued when creating your integration  |  
+| `client_secret`  | Remember this guy? You kept it safe somewhere when creating your integration  |  
+| `code`  | The Authorization Code from the previous step  |  
+| `redirect_uri`  | Must match the one used in the previous step  |  
+Webex will then respond with JSON containing an Access Token that's good for 14 days and a Refresh Token that expires in 90 days, as shown in the example below:
+
+```
+{
+ "access_token":"ZDI3MGEyYzQtNmFlNS00NDNhLWFlNzAtZGVjNjE0MGU1OGZmZWNmZDEwN2ItYTU3",
+ "expires_in":1209600, //seconds
+ "refresh_token":"MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTEyMzQ1Njc4",
+ "refresh_token_expires_in":7776000 //seconds
+}
+
+```
+
+After the access token expires, using it to make a request from the API will result in an “Invalid Token Error.” At this point, you should use the refresh token to generate a new access token from the authorization server.
+###### Using the Refresh Token
+Using access tokens that are short-lived and requiring that they periodically be refreshed helps to keep data secure. If the access token is ever compromised, the attacker will have a limited time in which to use it. If a refresh token is compromised, it is useless to the attacker because the client ID and secret are also required to obtain a new access token.
+To refresh the access token, issue a POST to`https://webexapis.com/v1/access_token`with the following fields:  
+|   |   |  
+| --- | --- |  
+| `grant_type`  | This should be set to "refresh_token"  |  
+| `client_id`  | Issued when creating your integration  |  
+| `client_secret`  | Remember this guy? You kept it safe somewhere when creating your integration  |  
+| `refresh_token`  | The Refresh Token you received from the previous step  |  
+Webex will then respond with JSON containing a new Access Token. Generating a new Access Token automatically renews the lifetime of your Refresh Token.
+Note: Refreshing an access token before its expiration date will not cause the original access token to expire.
+####  anchorInvoking the Webex APIs
+anchor
+Authenticating with another user's Access Token works just like your developer token; supply the token in an `Authorization` header like so:
+
+```
+GET /rooms
+Authorization: Bearer THE_ACCESS_TOKEN
+Accept: application/json
+
+```
+
+or in cURL it would be
+
+```
+curl https://webexapis.com/v1/rooms \
+-H "Authorization: Bearer THE_ACCESS_TOKEN" \
+-H "Accept: application/json"
+
+```
+
+The `Bearer` part is important as it instructs Webex that this is an OAuth token instead of HTTP Basic Auth.
+##### In This Article
+  * [What are Integrations?](https://developer.webex.com/create/docs/authentication#what-are-integrations)
+  * [Registering your Integration](https://developer.webex.com/create/docs/authentication#registering-your-integration)
+  * [Requesting Permission](https://developer.webex.com/create/docs/authentication#requesting-permission)
+  * [Getting an Access Token](https://developer.webex.com/create/docs/authentication#getting-an-access-token)
+  * [Invoking the Webex APIs](https://developer.webex.com/create/docs/authentication#invoking-the-webex-apis)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
