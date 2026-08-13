@@ -16082,3 +16082,143 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/docs/integrations
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/messaging/docs/integrations)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/messaging/docs/integrations)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/messaging/docs/integrations)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Integrations
+Webex Messaging
+  * [Overview](https://developer.webex.com/messaging/docs/messaging)
+  * Guides
+    * [Access the API](https://developer.webex.com/messaging/docs/getting-started)
+    * [Integrations](https://developer.webex.com/messaging/docs/integrations)
+    * [Using Webex Service Apps](https://developer.webex.com/messaging/docs/service-apps)
+    * [Bots](https://developer.webex.com/messaging/docs/bots)
+    * [Webhooks](https://developer.webex.com/messaging/docs/api/guides/webhooks)
+    * [Buttons and Cards](https://developer.webex.com/messaging/docs/buttons-and-cards)
+    * [Messaging MCP Server](https://developer.webex.com/messaging/docs/messaging-mcp-server)
+  * [REST API Basics](https://developer.webex.com/messaging/docs/basics)
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * SDK
+  * [AI Assistant for Developers](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/messaging/docs/api/guides/troubleshooting)
+  * [Widgets](https://developer.webex.com/messaging/docs/widgets)
+  * [Tutorials](https://developer.webex.com/messaging/docs/tutorials)
+  * [Suite Sandbox](https://developer.webex.com/messaging/docs/developer-sandbox-guide)
+  * [Beta Program Overview](https://developer.webex.com/messaging/docs/webex-developer-beta-program)
+  * [Webex Status API](https://developer.webex.com/messaging/docs/webex-status-api)
+
+
+## Webex Messaging
+### Integrations
+Create a Webex integration when your application needs a user to authorize access to Webex APIs on their behalf.
+[Create an Integration](https://developer.webex.com/my-apps/new/integration)
+####  anchorWhen to use an integration
+anchor
+An integration is an OAuth 2.0 client registered with Webex. It receives a temporary access token after a Webex user signs in and approves the requested scopes. Use an integration for applications that act on behalf of a user and can send that user through an interactive authorization flow.
+You don't need to register an integration to explore the APIs with your own [personal access token](https://developer.webex.com/docs/getting-your-personal-access-token).
+For unattended, organization-wide automation that should not depend on a user's lifecycle, use a Service App. Webex Contact Center developers should see [Contact Center Service Apps](https://developer.webex.com/webex-contact-center/docs/contact-center-service-apps).
+####  anchorCreate an integration
+anchor
+  1. Sign in and open [My Webex Apps](https://developer.webex.com/my-apps).
+  2. Select **Create a New App** , then select **Create an Integration**.
+  3. Enter a user-facing name and description, and add an icon.
+  4. Add each redirect URI that your application can use for the OAuth callback.
+  5. Select only the [integration scopes](https://developer.webex.com/docs/integration-scopes) required by your application.
+  6. Save the integration and copy its client ID and client secret.
+
+
+The client secret is shown only when the integration is created. Store it securely and never expose it in browser or mobile application code.
+Each Webex user account is limited to 20 integrations.
+####  anchorWebex Contact Center requirements
+anchor
+Webex Contact Center integrations use the same registration and OAuth flow as other Webex integrations. The user who authorizes the integration must have the permissions required by the APIs that it calls.
+For administrator APIs, use a Webex account backed by Cisco Webex Common Identity and assign the appropriate Webex Contact Center administrator role in Control Hub. See [Webex Contact Center administrator roles and privileges](https://help.webex.com/en-us/article/n5jdj19/Webex-Contact-Center-administrator-roles-and-privileges).
+####  anchorScopes
+anchor
+Scopes control which resources and operations the integration can access. Review [Integration Scopes](https://developer.webex.com/docs/integration-scopes), select the minimum required access during registration, and request the same registered scopes during authorization.
+####  anchorAuthorize your integration
+anchor
+After registration, implement the [Authentication](https://developer.webex.com/docs/authentication) flow to request user authorization, handle the callback, exchange the authorization code, refresh access, and call Webex APIs.
+##### In This Article
+  * [When to use an integration](https://developer.webex.com/messaging/docs/integrations#when-to-use-an-integration)
+  * [Create an integration](https://developer.webex.com/messaging/docs/integrations#create-an-integration)
+  * [Webex Contact Center requirements](https://developer.webex.com/messaging/docs/integrations#webex-contact-center-requirements)
+  * [Scopes](https://developer.webex.com/messaging/docs/integrations#scopes)
+  * [Authorize your integration](https://developer.webex.com/messaging/docs/integrations#authorize-your-integration)
+
+
+##### Related Resources
+  * [Real world walkthrough of building an OAuth Webex integration](https://developer.webex.com/blog/real-world-walkthrough-of-building-an-oauth-webex-integration "Real world walkthrough of building an OAuth Webex integration")
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
