@@ -8222,5 +8222,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-preferences/update-video-options": {
     "hash": "a8e4af1dd0d481211440dd8b2da3a3978ae5f20ac28a6c752587a568a401432e",
     "timestamp": "2026-08-13T02:16:45.722135"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-preferences/get-scheduling-options": {
+    "hash": "1f9d06f4b56a2cedfb55e6be49cf3fd7f312f388ec7b10391db04873085d0790",
+    "timestamp": "2026-08-13T02:16:51.971961"
   }
 }
