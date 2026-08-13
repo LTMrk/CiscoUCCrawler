@@ -8126,5 +8126,9 @@
   "https://developer.webex.com/docs/api/v1/recordings/move-recordings-into-the-recycle-bin": {
     "hash": "5aca98e592230b1a7bb1b1af3feb01cbbfdc2325d90eb4618410297c0fcef7c2",
     "timestamp": "2026-08-13T02:14:15.728454"
+  },
+  "https://developer.webex.com/docs/api/v1/recordings/restore-recordings-from-recycle-bin": {
+    "hash": "1b5d3c4edc45e31b5339134bae64386fc37bf06188257025b4968814fdf7cff4",
+    "timestamp": "2026-08-13T02:14:21.640946"
   }
 }
