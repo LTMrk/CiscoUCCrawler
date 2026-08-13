@@ -107452,3 +107452,293 @@ Related to This Advisory
 
 
 [![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cimc-xss-UMYtYEtr.html "Back to Top")
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cfsoip-dos-tpykyDr.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cfsoip-dos-tpykyDr.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cfsoip-dos-tpykyDr.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cfsoip-dos-tpykyDr.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cfsoip-dos-tpykyDr.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+
+
+# Cisco NX-OS Software Cisco Fabric Services Over IP Denial of Service Vulnerability
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/csa/cisco-sa-cfsoip-dos-tpykyDr.html) to Save Content 
+Print
+### Available Languages
+Updated:February 23, 2022
+Document ID:1645642682056773
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+#  [![](https://sec.cloudapps.cisco.com/security/center/images/cisco-alert.svg)](https://sec.cloudapps.cisco.com/security/center/images/cisco-alert.svg "Related image, diagram or screenshot.")Cisco Security Advisory 
+# Cisco NX-OS Software Cisco Fabric Services Over IP Denial of Service Vulnerability
+High
+Advisory ID: 
+cisco-sa-cfsoip-dos-tpykyDr
+First Published:
+2022 February 23 16:00 GMT
+Version 1.0: 
+[Final](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html#final)
+Workarounds: 
+No workarounds available
+Cisco Bug IDs:
+[CSCvy95696](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy95696)
+[CSCvy95840](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy95840)
+[](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cfsoip-dos-tpykyDr.html)
+CVE-2022-20624
+[](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cfsoip-dos-tpykyDr.html)
+CWE-400
+[](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cfsoip-dos-tpykyDr.html)
+CVSS Score:
+[ Base 8.6](https://sec.cloudapps.cisco.com/security/center/cvssCalculator.x?version=3.1&vector=CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H)[![](https://sec.cloudapps.cisco.com/security/center/images/blue-square.png)](https://sec.cloudapps.cisco.com/security/center/images/blue-square.png "Related image, diagram or screenshot.")**Click Icon to Copy Verbose Score**   
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H/E:X/RL:X/RC:X
+CVE-2022-20624
+[](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cfsoip-dos-tpykyDr.html)
+CWE-400
+[](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cfsoip-dos-tpykyDr.html)
+[ Download CSAF ](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cfsoip-dos-tpykyDr/csaf/cisco-sa-cfsoip-dos-tpykyDr.json)
+Email 
+## 
+Summary 
+  * A vulnerability in the Cisco Fabric Services over IP (CFSoIP) feature of Cisco NX-OS Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.
+This vulnerability is due to insufficient validation of incoming CFSoIP packets. An attacker could exploit this vulnerability by sending crafted CFSoIP packets to an affected device. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a DoS condition.
+Cisco has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.
+This advisory is available at the following link:  
+<https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cfsoip-dos-tpykyDr>
+This advisory is part of the February 2022 Cisco FXOS and NX-OS Software Security Advisory Bundled Publication. For a complete list of the advisories and links to them, see [Cisco Event Response: February 2022 Cisco FXOS and NX-OS Software Security Advisory Bundled Publication](https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74834).
+
+
+## 
+Affected Products 
+  * ##  Vulnerable Products 
+This vulnerability affects the following Cisco products if they are running a vulnerable release of Cisco NX-OS Software and have the CFSoIP feature enabled:
+    * Nexus 3000 Series Switches ([CSCvy95696](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy95696))
+    * Nexus 9000 Series Switches in standalone NX-OS mode ([CSCvy95696](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy95696))
+    * UCS 6400 Series Fabric Interconnects ([CSCvy95840](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy95840))
+**Note** : For Nexus 3000 and Nexus 9000 Series Switches, CFSoIP is not enabled by default. For UCS 6400 Series Fabric Interconnects, CFSoIP is enabled by default.
+### Determine Whether CFSoIP is Enabled
+To determine whether CFSoIP is enabled, use the **show cfs status** command on the Cisco NX-OS CLI and check the status of **Distribution over IP**. If **Distribution over IP** is **Enabled** , CFSoIP is enabled, as shown in the following example:
+> 
+```
+switch# **show cfs status**  
+> Distribution : Enabled  
+> **Distribution over IP : Enabled**  
+> IPv4 multicast address : 239.255.70.83  
+> IPv6 multicast address : ff15::efff:4653  
+> Distribution over Ethernet : Disabled
+```
+
+**Note** : On Cisco UCS Fabric Interconnects, first use the **connect nxos** command to enter the Cisco NX-OS CLI, then use the **show cfs status** command.
+##  Products Confirmed Not Vulnerable 
+Only products listed in the [Vulnerable Products](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cfsoip-dos-tpykyDr.html#vp) section of this advisory are known to be affected by this vulnerability.
+Cisco has confirmed that this vulnerability does not affect the following Cisco products:
+    * Firepower 1000 Series
+    * Firepower 2100 Series
+    * Firepower 4100 Series
+    * Firepower 9300 Security Appliances
+    * MDS 9000 Series Multilayer Switches
+    * Nexus 1000 Virtual Edge for VMware vSphere
+    * Nexus 1000V Switch for Microsoft Hyper-V
+    * Nexus 1000V Switch for VMware vSphere
+    * Nexus 5500 Platform Switches
+    * Nexus 5600 Platform Switches
+    * Nexus 6000 Series Switches
+    * Nexus 7000 Series Switches
+    * Nexus 9000 Series Fabric Switches in Application Centric Infrastructure (ACI) mode
+    * UCS 6200 Series Fabric Interconnects
+    * UCS 6300 Series Fabric Interconnects
+
+
+## 
+Workarounds 
+  * There are no workarounds that address this vulnerability.
+
+
+## 
+Fixed Software 
+  * Cisco has released [free software updates](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html#ssu) that address the vulnerability described in this advisory. Customers with service contracts that entitle them to regular software updates should obtain security fixes through their usual update channels.
+Customers may only install and expect support for software versions and feature sets for which they have purchased a license. By installing, downloading, accessing, or otherwise using such software upgrades, customers agree to follow the terms of the Cisco software license:  
+<https://www.cisco.com/c/en/us/products/end-user-license-agreement.html>
+Additionally, customers may only download software for which they have a valid license, procured from Cisco directly, or through a Cisco authorized reseller or partner. In most cases this will be a maintenance upgrade to software that was previously purchased. Free security software updates do not entitle customers to a new software license, additional software feature sets, or major revision upgrades.
+The [Cisco Support and Downloads page](https://www.cisco.com/c/en/us/support/index.html) on Cisco.com provides information about licensing and downloads. This page can also display customer device support coverage for customers who use the My Devices tool.
+When [considering software upgrades](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html#fixes), customers are advised to regularly consult the advisories for Cisco products, which are available from the [Cisco Security Advisories page](https://www.cisco.com/go/psirt), to determine exposure and a complete upgrade solution.
+In all cases, customers should ensure that the devices to be upgraded contain sufficient memory and confirm that current hardware and software configurations will continue to be supported properly by the new release. If the information is not clear, customers are advised to contact the Cisco Technical Assistance Center (TAC) or their contracted maintenance providers.
+### Customers Without Service Contracts
+Customers who purchase directly from Cisco but do not hold a Cisco service contract and customers who make purchases through third-party vendors but are unsuccessful in obtaining fixed software through their point of sale should obtain upgrades by contacting the Cisco TAC: <https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html>
+Customers should have the product serial number available and be prepared to provide the URL of this advisory as evidence of entitlement to a free upgrade.
+### Cisco NX-OS Software
+To help customers determine their exposure to vulnerabilities in Cisco NX-OS Software, Cisco provides the [Cisco Software Checker](https://sec.cloudapps.cisco.com/security/center/softwarechecker.x) to identify any Cisco Security Advisories that impact a specific Cisco NX-OS Software release and the earliest release that fixes the vulnerabilities that are described in each advisory (“First Fixed”). If applicable, the tool also returns the earliest release that fixes all the vulnerabilities described in all the advisories identified (“Combined First Fixed”).
+Customers can use the [Cisco Software Checker](https://sec.cloudapps.cisco.com/security/center/softwarechecker.x) to search advisories in the following ways:
+    * Choose the software, platform, and one or more releases
+    * Upload a .txt file that includes a list of specific releases
+    * Enter the output of the **show version** command
+After initiating a search, customers can customize the search to include all Cisco Security Advisories or one or more specific advisories.
+Customers can also use the following form to determine whether a release is affected by any Cisco Security Advisory by choosing the Cisco NX-OS Software and platform and then entering a release—for example, **7.0(3)I7(5)** for Cisco Nexus 3000 Series Switches or **14.0(1h)** for Cisco NX-OS Software in ACI mode:
+Cisco NX-OS Software  Cisco NX-OS Software in ACI Mode  MDS 9000 Series Multilayer Switches  Nexus 1000V Series Switches  Nexus 3000 Series Switches  Nexus 5000 Series Switches  Nexus 6000 Series Switches  Nexus 7000 Series Switches  Nexus 9000 Series Switches 
+By default, the [Cisco Software Checker](https://sec.cloudapps.cisco.com/security/center/softwarechecker.x) includes results only for vulnerabilities that have a Critical or High Security Impact Rating (SIR). To include results for Medium SIR vulnerabilities, customers can use the Cisco Software Checker and check the **Medium** check box in the drop-down list under **Impact Rating** when customizing a search.
+### Cisco Nexus 3000 and 9000 Series Switches SMUs
+Cisco has released the following SMUs to address this vulnerability. Customers can download the SMUs from the [Software Center](https://software.cisco.com/download/home.html) on Cisco.com.  
+| Cisco NX-OS Software Release  | Platform  | SMU Name  |  
+| --- | --- | --- |  
+| 7.0(3)I7(10)  | Nexus 3000 and 9000 Series Switches  | nxos.CSCvy95696-n9k_ALL-1.0.0-7.0.3.I7.10.lib32_n9000.rpm  |  
+| 9.3(8)  | Nexus 3000 and 9000 Series Switches  | CSCvy95696-n9k_ALL-1.0.0-9.3.8.lib32_n9000.rpm  |  
+For details about downloading and installing these SMUs, see the Performing Software Maintenance Upgrades section of the Cisco NX-OS system management configuration guide for [Cisco Nexus 3000 Series Switches](https://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus3000/sw/system_mgmt/7_x/b_Cisco_Nexus_3000_Series_NX-OS_System_Management_Configuration_Guide_7x/b_Cisco_Nexus_3000_Series_NX-OS_System_Management_Configuration_Guide_7x_chapter_010011.html) or [Cisco Nexus 9000 Series Switches](https://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/system_management/configuration/guide/b_Cisco_Nexus_9000_Series_NX-OS_System_Management_Configuration_Guide_7x/b_Cisco_Nexus_9000_Series_NX-OS_System_Management_Configuration_Guide_7x_chapter_010100.html).
+### Cisco UCS Software
+Customers are advised to upgrade to an appropriate [fixed software release](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html#fixes) as indicated in the following table(s):
+**UCS 6400 Series Fabric Interconnects**  
+| Cisco UCS Software Release  | First Fixed Release for This Vulnerability  |  
+| --- | --- |  
+| 4.0  | Migrate to a fixed release.  |  
+| 4.1  | 4.1(3h)  |  
+| 4.2  | 4.2(1l)1  |  
+1. UCS Software release 4.2(1k) also contained the fix for this vulnerability. However, release 4.2(1k) is a deferred release.
+The Cisco Product Security Incident Response Team (PSIRT) validates only the affected and fixed release information that is documented in this advisory.
+### Additional Resources
+For help determining the best Cisco NX-OS Software release for a Cisco Nexus Switch, see the following Recommended Releases documents. If a security advisory recommends a later release, Cisco recommends following the advisory guidance.
+> [Cisco MDS Series Switches](https://www.cisco.com/c/en/us/td/docs/switches/datacenter/mds9000/sw/b_MDS_NX-OS_Recommended_Releases.html)  
+> [Cisco Nexus 1000V for VMware Switch](http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus1000/sw/recommended_releases/b_Cisco_N1KV_VMware_MinRecommendedReleases.html)  
+> [Cisco Nexus 3000 Series Switches](http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus3000/sw/recommended_release/b_Minimum_and_Recommended_Cisco_NX-OS_Releases_for_Cisco_Nexus_3000_Series_Switches.html)  
+> [Cisco Nexus 5500 Platform Switches](http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus5500/sw/release/recommended_releases/n5500_recommended_nx-os_releases.html)  
+> [Cisco Nexus 5600 Platform Switches](https://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus5600/sw/release/recommended_releases/n5600_recommended_nx-os_releases.html)  
+> [Cisco Nexus 6000 Series Switches](http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus6000/sw/release/recommended_releases/recommended_nx-os_releases.html)  
+> [Cisco Nexus 7000 Series Switches](http://www.cisco.com/c/en/us/td/docs/switches/datacenter/sw/nx-os/recommended_releases/recommended_nx-os_releases.html)  
+> [Cisco Nexus 9000 Series Switches](http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/recommended_release/b_Minimum_and_Recommended_Cisco_NX-OS_Releases_for_Cisco_Nexus_9000_Series_Switches.html)  
+> [Cisco Nexus 9000 Series ACI-Mode Switches](https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/recommended-release/b_Recommended_Cisco_ACI_Releases.html)
+To determine the best release for Cisco UCS Software, see the Recommended Releases documents in the release notes for the device.
+
+
+## 
+Exploitation and Public Announcements 
+  * The Cisco PSIRT is not aware of any public announcements or malicious use of the vulnerability that is described in this advisory.
+
+
+## 
+Source 
+  * Cisco would like to thank the National Security Agency (NSA) for reporting this vulnerability.
+
+
+## 
+Cisco Security Vulnerability Policy 
+  * To learn about Cisco security vulnerability disclosure policies and publications, see the [Security Vulnerability Policy](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html). This document also contains instructions for obtaining fixed software and receiving security vulnerability information from Cisco.
+
+
+## 
+Subscribe to Cisco Security Notifications
+  * [Subscribe](https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html)
+
+
+## 
+Related to This Advisory 
+  * [Cisco Event Response: February 2022 Semiannual Cisco FXOS and NX-OS Software Security Advisory Bundled Publication](https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74834)
+
+
+## 
+URL 
+  * <https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cfsoip-dos-tpykyDr>
+
+
+## 
+Revision History 
+  * | Version  | Description  | Section  | Status  | Date  |  
+| --- | --- | --- | --- | --- |  
+| 1.0  | Initial public release.  | —  | Final  | 2022-FEB-23  |  
+Show Less
+
+
+* * *
+## 
+Legal Disclaimer 
+  * THIS DOCUMENT IS PROVIDED ON AN "AS IS" BASIS AND DOES NOT IMPLY ANY KIND OF GUARANTEE OR WARRANTY, INCLUDING THE WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR USE. YOUR USE OF THE INFORMATION ON THE DOCUMENT OR MATERIALS LINKED FROM THE DOCUMENT IS AT YOUR OWN RISK. CISCO RESERVES THE RIGHT TO CHANGE OR UPDATE THIS DOCUMENT AT ANY TIME.
+A standalone copy or paraphrase of the text of this document that omits the distribution URL is an uncontrolled copy and may lack important information or contain factual errors. The information in this document is intended for end users of Cisco products.
+
+
+## 
+Feedback 
+  * [Leave additional feedback](javascript:openNewWindow\(\);)
+
+
+## 
+Cisco Security Vulnerability Policy 
+  * To learn about Cisco security vulnerability disclosure policies and publications, see the [Security Vulnerability Policy](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html). This document also contains instructions for obtaining fixed software and receiving security vulnerability information from Cisco.
+
+
+## 
+Subscribe to Cisco Security Notifications
+  * [Subscribe](https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html)
+
+
+## 
+Related to This Advisory 
+  * [Cisco Event Response: February 2022 Semiannual Cisco FXOS and NX-OS Software Security Advisory Bundled Publication](https://sec.cloudapps.cisco.com/security/center/viewErp.x?alertId=ERP-74834)
+
+
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cfsoip-dos-tpykyDr.html "Back to Top")
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
