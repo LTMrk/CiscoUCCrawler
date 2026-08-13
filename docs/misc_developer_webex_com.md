@@ -21524,3 +21524,286 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/blog/give-your-webex-bot-some-superpowers
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/blog/give-your-webex-bot-some-superpowers)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/blog/give-your-webex-bot-some-superpowers)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/blog/give-your-webex-bot-some-superpowers)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+# Give Your Webex Bot some $uperpowers
+December 13, 2021
+![Victor Algaze](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt2ea9cacc9a93fba1/61aa2b09ec24ce5a176b1302/victor_algaze_photo.jpeg?width=100&height=100&fit=crop)
+Victor AlgazeUser Experience Engineer
+![Give Your Webex Bot some $uperpowers](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt6f9b8c20f3a87bb7/61aa2a910ff4f914f4196cbc/speedometer.jpg?width=900&height=317&fit=crop)
+What we're going to do is extend the marvelous **[Node WebEx Bot Framework](https://github.com/WebexCommunity/webex-node-bot-framework)** with some advanced features (some "_$uperpowers!_ ") to make handling file-uploads, integrating with 3rd-party services, and other advanced user interaction simple and [speedy](https://www.npmjs.com/package/speedybot) to build.
+Long story short, when we're done here, you'll have your very own "starter" bot that will:
+  * accept a spreadsheet (*.xlsx) file-upload from users
+  * convert that spreadsheet data into html (with the help of the **[sheetjs library (CE)](https://github.com/SheetJS/sheetjs#sheetjs)**)
+  * display a prettified and easy to copy+paste snippet
+  * generate an html file and send it to the user for them to download
+  * have access to various conversation design patterns like setting/clearing "contexts", saving/retrieving user data, adding variation to responses, etc
+
+
+The steps below require virtually zero prior knowledge of WebEx bots.
+### Pre-requisites
+First things first-- there are two important items you'll need:
+  * Node v12+ installed on your system (see **[here for details](https://nodejs.org/en/download/)**)
+  * WebEx account (see **[here for details](https://cart.webex.com/sign-up)**)
+
+
+### Step 1: Get a Bot Access Token
+_Create a bot & write down the "Bot Access Token"-- you’ll need it in a minute_
+  * Create a new bot here: [https://developer.webex.com/my-apps/new/bot](https://developer.webex.com/my-apps/new/bot)
+  * Provide a name, description & save the token someplace safe for use in the next step
+
+
+![Image described in surrounding text](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltd0b0611246851f53/61aa2d2b808392778c8fa099/1-create-new-bot.png)
+### Step 2: Config + Boot the Bot
+_Scaffold a starter bot, pass in token & boot it_
+  * Open a terminal and use the speedyhelper CLI tool to scaffold a project (you’ll be asked for your token from step 1):
+
+
+```
+npx speedyhelper setup
+
+```
+
+From the next menu, select the second option and return-- "🌟 speedybot-superpowers"
+
+```
+? Choose a starter template
+  🚀 speedybot-starter (default)
+❯ 🌟 speedybot-superpowers (give your bot $uperpowers like processing *.xlsx)
+  📡 speedybot-serverless (easy-to-deploy serverless lambda function [EXPERIMENTAL])
+
+```
+
+Enter your token and pick a directory and hit ENTER to boot your bot.
+If all went well, you should see something that looks like this:
+![Image described in surrounding text](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltb675f3a37fe2d200/61aa2d2b0f6d0a5b9a3acdf1/2-framework_success.png)
+If you encounter any trouble, see **[here for detailed instructions](https://github.com/valgaze/speedybot-superpowers/blob/master/quickstart.md#quickstart)**
+### Step 3: Take it for a spin
+_Verify everything is wired up and working properly_
+  * Your bot's username will be something like `bot_name@webex.bot`, select the + icon on your WebEx client and send a direct message to your bot's username to start a 1-1 chat session
+
+
+![Image described in surrounding text](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt0e02dd44adf73c5e/61aa2d2bc3bb263b33d10b2e/3-take-for-spin.png)
+  * Verify all is working well by asking the bot “healthcheck”, "help", "ping", "pong", "sendfile", "hi", etc
+
+
+### Step 4: Test out spreadsheets
+  * The `handlers.ts` file in the **[settings directory](https://github.com/valgaze/speedybot-superpowers/tree/master/settings)** is like a central "list" of functions which are invoked depending on user activity or inputs
+  * Ex. if the user enters text that matches a registered keyword (ie the user says "hi" or "healthcheck") the registered handler will fire
+  * Ex. if the user performs one of a few "special" actions like <@submit> (where the user submits data from an **[adaptive card](https://developer.webex.com/docs/api/guides/cards)**) or <@fileupload>
+  * Using _$uperpowers_ , we can quickly add powerful functionality to these handler functions
+
+
+To illustrate, If the user asks the agent `can convert a spreadsheet for me?`, the agent will respond with a randomized acknowledgement message and will set a "context" expecting an XLSX file the next time the user sends a file.
+![Image described in surrounding text](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt46fd783acb9d9c1a/61aa2d2beead947792a5a49b/5-speedybot_xlsx.gif)
+
+```
+import { $, BotHandler } from 'speedybot'
+import pretty from 'pretty'
+import { XlsHelper } from './../src/util/xlsx'
+
+const handlers: BotHandler[] = [
+	{
+		keyword: /convert/gi,
+		handler(bot,trigger) {
+				const utterances = [`Ok, I'm waiting for your xlsx file`, `Sure-- just upload your *.xlsx file`, `Upload an *.xlsx`]
+				$(bot).sendRandom(utterances)
+
+				// Set the context
+				$(bot).saveContext('expectXlxsfile')
+		},
+		helpText: `A 'primer' intent which will set context. The user can use any variation of "convert" and this intent will fire`
+	},
+	{
+		keyword: '<@fileupload>',
+		async handler(bot, trigger) {
+        const $bot = $(bot)
+				// take 1st file uploaded, note this is just a URL which requires auth to retrieve
+				const [file] = trigger.message.files
+        
+				// check if the 'expectXlxsfile' context is active
+				const expectXlxsfile = await $bot.contextActive('expectXlxsfile')
+				if (expectXlxsfile) {
+					// Retrieve file data, note responseType is arraybufffer
+					// arraybuffer: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer
+					const fileData = await $(bot).getFile(file, {responseType: 'arraybuffer'})
+					const {extension} = fileData
+					if (extension === 'xlsx') {
+						// If it's a *.xlsx file, convert the 1st sheet to html
+						const inst = new XlsHelper(fileData.data)
+						const sheet = inst.getFirstSheet()
+						const html = inst.getHTML(sheet)
+
+						// Return copy/paste'able HTML snippet
+						const prettyed = pretty(html)
+						bot.say({markdown: $(bot).htmlSnippet(prettyed)})
+
+						// Send an actual html file (uses createReadStream)
+						$(bot).sendDataAsFile(html, 'table_preview.html')
+					} else {
+						bot.say('Expected a file in *.xlsx format')
+					}
+
+					// Clear the 'expectXlxsfile' context
+					$(bot).deleteContext('expectXlxsfile')
+				} else {
+					const fileData = await $(bot).getFile(file)
+					const {extension, type} = fileData
+					const supportedFiles = ['json', 'txt', 'csv']	
+					if (supportedFiles.includes(extension)) {
+						const { data } = fileData	
+						// bot.snippet will format json or text data into markdown format
+						bot.say({markdown: $(bot).snippet(data)})
+					} else {
+						if (extension === 'xlsx') {
+							$(bot).sendRandom([`If you want to convert that spreadsheet to an HTML preview say 'convert to html' & attach the file`, 
+											   `If you want that spreadsheet converted to html, say 'convert this file' & attach it to your message`,
+											   `To start the conversion process (xlsx to html), say 'convert this spreadsheet' and attach the file`,
+												`Say something like "convert this to html" and attach the spreadsheet file to have it converted`])
+						} else {
+							bot.say(`Sorrdy, somebody needs to add support for *.${extension} (${type}) files`)
+						}
+					}
+				}
+		}, 
+		helpText: `Special handler that's fired when the user uploads a file to your bot (by default supports json/csv/txt.) If you use the word "convert", it will convert a spreadsheet (.xlsx) file to an html preview`
+	}
+]
+
+```
+
+### Wrap Up
+This is a bit of a contrived example but a good starting point-- you now have a very basic agent which can be extended to do whatever you want. There’s a lot of implementation details that can distract builders from the important parts of a conversational agent — namely the conversation. 
+Hopefully these $uperpowers can hide uninteresting implementation details, and let conversation designer experts quickly prototype and build conversations flows and experiences that **actually** solve user problems.
+### $uperpower samples (non file-upload)
+
+```
+{
+	keyword: ['hi', 'yo', 'hey'],
+	async handler(bot, trigger) { 
+		const $bot = $(bot)  
+
+		// 1) Set/clear conversational "contexts"
+		await $bot.saveContext('mycontext1')
+        // Contexts: list active contexts
+        const allContexts = await $bot.getAllContexts() 
+        $bot.log(`Contexts: ${JSON.stringify(allContexts)}`) // ['mycontext1']
+        // Contexts: check if context is active
+        const isActive = await $bot.contextActive('mycontext1')
+        $bot.log(`mycontext1 is active, ${isActive}`) // 'mycontext1 is active, true'
+        // Contexts: remove context
+        await $bot.deleteContext('mycontext1')
+
+		// 2) Quickly add variation
+		$bot.sendRandom(['Hey!','Hello!!','Hiya!'])
+
+		const utterances = ['Hey how are you $[name]?', `$[name]! How's it going?`, 'Hiya $[name]']
+		const template = { name: trigger.person.displayName }
+		$bot.sendTemplate(utterances, template)
+		
+		// 3) sendURL: Sends a URL in a clickable card
+		$bot.sendURL('https://www.youtube.com/watch?v=3GwjfUFyY6M', 'Go Celebrate')
+
+		// 4) snippet: Generate a snippet that will render data in markdown-friendly format
+		const JSONData = {a: 1, b:2, c:3, d:4}
+		$bot.sendSnippet(JSONData, `**Here's some JSON**`) // send to room
+		
+		// 5) 3rd-parties
+		const res = await $bot.get('https://randomuser.me/api/')
+		$bot.sendSnippet(res, 'Here is some random data')
+
+		// 6) Conversation "chips" or suggestions
+		// on tap, the system will react as if the user wrote the phrase)
+		// Send chip with custom handler
+		const customChip = { 
+			label: 'custom chip', 
+			handler(bot:BotInst, trigger: Trigger) {
+				$bot.sendSnippet(trigger, `**The 'custom chip' was tapped**	`)
+				$bot.$trigger('chips', trigger) // re-render chips
+			}
+		}
+		// Add optional title to chips
+		$bot.sendChips(['hey', 'ping', '$', 'pong', customChip], 'These chips will disappear on tap')
+	}
+}
+
+```
+
+Blog Categories
+  * [Product Announcements](https://developer.webex.com/blog/categories/product-announcements)
+  * [How To](https://developer.webex.com/blog/categories/how-tos)
+  * [Events](https://developer.webex.com/blog/categories/events)
+  * [Developer Stories](https://developer.webex.com/blog/categories/developer-stories)
+
+
+Share This Article
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
