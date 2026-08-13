@@ -7970,5 +7970,9 @@
   "https://developer.webex.com/docs/api/v1/meetings/get-a-meeting": {
     "hash": "8fe0add310ce80b498524bb86e226c4fb3ea2fd515b130360e7f3f86026135e4",
     "timestamp": "2026-08-13T02:10:01.485023"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings/get-a-meeting-by-an-admin": {
+    "hash": "eadbcc7b7bf9aab9a38b771f9a634426ad07789a6dfd8f0c2e510fe8a1c1f29d",
+    "timestamp": "2026-08-13T02:10:08.112322"
   }
 }
