@@ -44483,3 +44483,421 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-java-spring-rce-Zx9GUc67.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-java-spring-rce-Zx9GUc67.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-java-spring-rce-Zx9GUc67.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-java-spring-rce-Zx9GUc67.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-java-spring-rce-Zx9GUc67.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+
+
+# Vulnerability in Spring Framework Affecting Cisco Products: March 2022
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/csa/cisco-sa-java-spring-rce-Zx9GUc67.html) to Save Content 
+Print
+### Available Languages
+Updated:February 9, 2023
+Document ID:1648862352048278
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+#  [![](https://sec.cloudapps.cisco.com/security/center/images/cisco-alert.svg)](https://sec.cloudapps.cisco.com/security/center/images/cisco-alert.svg "Related image, diagram or screenshot.")Cisco Security Advisory 
+# Vulnerability in Spring Framework Affecting Cisco Products: March 2022
+Critical
+Advisory ID: 
+cisco-sa-java-spring-rce-Zx9GUc67
+First Published:
+2022 April 1 23:45 GMT
+Last Updated: 
+2023 February 9 15:14 GMT
+Version 1.13: 
+[Final](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html#final)
+Workarounds: 
+No workarounds available
+Cisco Bug IDs:
+[CSCvv65984](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv65984)
+[CSCwa79849](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa79849)
+[CSCwb43327](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43327)
+[ More... ](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-java-spring-rce-Zx9GUc67.html)
+[](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-java-spring-rce-Zx9GUc67.html) ,[CSCvv65984](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv65984),[CSCwa79849](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa79849),[CSCwb43327](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43327),[CSCwb43328](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43328),[CSCwb43331](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43331),[CSCwb43332](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43332),[CSCwb43335](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43335),[CSCwb43340](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43340),[CSCwb43342](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43342),[CSCwb43345](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43345),[CSCwb43346](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43346),[CSCwb43734](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43734),[CSCwb43736](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43736),[CSCwb43738](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43738),[CSCwb43739](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43739),[CSCwb44794](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb44794),[CSCwb69766](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb69766),[CSCwb70105](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb70105),[CSCwb84370](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb84370),[CSCwc96587](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwc96587),[CSCwd75689](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd75689)
+CVE-2022-22965
+[](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-java-spring-rce-Zx9GUc67.html)
+CWE-120
+[](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-java-spring-rce-Zx9GUc67.html)
+CVSS Score:
+[ Base 9.8](https://sec.cloudapps.cisco.com/security/center/cvssCalculator.x?version=3.0&vector=CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H)[![](https://sec.cloudapps.cisco.com/security/center/images/blue-square.png)](https://sec.cloudapps.cisco.com/security/center/images/blue-square.png "Related image, diagram or screenshot.")**Click Icon to Copy Verbose Score**   
+CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:X/RL:X/RC:X
+CVE-2022-22965
+[](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-java-spring-rce-Zx9GUc67.html)
+CWE-120
+[](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-java-spring-rce-Zx9GUc67.html)
+[ Download CSAF ](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-java-spring-rce-Zx9GUc67/csaf/cisco-sa-java-spring-rce-Zx9GUc67.json)
+Email 
+## 
+Summary 
+  * On March 31, 2022, the following critical vulnerability in the Spring Framework affecting Spring MVC and Spring WebFlux applications running on JDK 9+ was released: 
+CVE-2022-22965: Spring Framework RCE via Data Binding on JDK 9+
+For a description of this vulnerability, see [VMware Spring Framework Security Vulnerability Report](https://tanzu.vmware.com/security/cve-2022-22965).
+This advisory is available at the following link:  
+<https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-java-spring-rce-Zx9GUc67>
+
+
+## 
+Affected Products 
+  * Cisco investigated its product line to determine which products may be affected by this vulnerability.
+The [Vulnerable Products](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-java-spring-rce-Zx9GUc67.html#vp) section includes Cisco bug IDs for each affected product. The bugs are accessible through the [Cisco Bug Search Tool](https://bst.cloudapps.cisco.com/bugsearch/bug/BUGID) and contain additional platform-specific information, including workarounds (if available) and fixed software releases.
+Any product not listed in the Affected Products section of this advisory is to be considered not vulnerable.
+##  Vulnerable Products 
+Cisco investigated its product line to determine which products may be affected by this vulnerability.
+The following table lists Cisco products that are affected by the vulnerability that is described in this advisory. If a future release date is indicated for software, the date provided represents an estimate based on all information known to Cisco as of the Last Updated date at the top of the advisory. Availability dates are subject to change based on a number of factors, including satisfactory testing results and delivery of other priority features and fixes. Customers should refer to the associated Cisco bug(s) for further details.  
+| Product  | Cisco Bug ID  | [Fixed Release Availability](https://sec.cloudapps.cisco.com/security/center/resources/security_vulnerability_policy.html#fixes)  |  
+| --- | --- | --- |  
+| Endpoint Clients and Client Software  |  
+| Cisco CX Cloud Agent Software  | [CSCwb41735](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb41735)  | 2.0 (Available)  |  
+| Network Management and Provisioning  |  
+| Cisco Automated Subsea Tuning  | [CSCwb43658](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43658)  | 2.1.0 (31 May 2022)  |  
+| Cisco Crosswork Network Controller  | [CSCwb43703](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43703)  | 3.0.2 (Available)  
+2.0.2 (Available)  |  
+| Cisco Crosswork Optimization Engine  | [CSCwb43709](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43709)  | 3.1.1 (Available)  
+2.1.1 (Available)  |  
+| Cisco Crosswork Zero Touch Provisioning (ZTP)  | [CSCwb43706](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43706)  | 3.0.2 (Available)  
+2.0.2 (Available)  |  
+| Cisco DNA Center  | [CSCwb43650](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43650)  | 2.3.3.3 (17 Jun 2022)   
+2.2.3.6 (6 Jun 2022)  
+2.2.2.9 (6 Jun 2022)  |  
+| Cisco Evolved Programmable Network Manager  | [CSCwb43643](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43643)  | 6.0.1.1 (Available)  
+5.1.4.1 (Available)  
+5.0.2.3 (Available)  |  
+| Cisco Managed Services Accelerator (MSX)  | [CSCwb43667](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43667)  | 4.2.3 (Available)  |  
+| Cisco Optical Network Planner  | [CSCwb43691](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43691)  | 4.2 (31 May 2022)  
+5.0 (30 Aug 2022)  |  
+| Cisco WAN Automation Engine (WAE) Live  | [CSCwb43708](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43708)  | 7.5.2.1 (Available)  
+7.4.0.2 (Available)  
+7.3.0.3 (Available)  |  
+| Cisco WAN Automation Engine (WAE)  | [CSCwb43708](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43708)  | 7.5.2.1 (Available)  
+7.4.0.2 (Available)  
+7.3.0.3 (Available)  |  
+| Data Center Network Manager (DCNM)  | [CSCwb43637](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43637)  | 11.5.4 (Available)  |  
+| Nexus Dashboard Fabric Controller (NDFC)  | [CSCwb43637](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43637)  | 12.1.1 (30 Jun 2022)  |  
+| Routing and Switching - Enterprise and Service Provider  |  
+| Cisco Optical Network Controller  | [CSCwb43692](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43692)  | 2.0 (31 May 2022)  |  
+| Cisco Software-Defined AVC (SD-AVC)  | [CSCwb43727](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43727)  | 4.3.1 (30 July 2022)  
+4.4.0 (30 Nov 2022)  |  
+| Voice and Unified Communications Devices  |  
+| Cisco Enterprise Chat and Email  | [CSCwb45202](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb45202)  | 11.6 - Not vulnerable.  
+12.0 (6 Jun 2022)  
+12.5 (6 Jun 2022)  
+12.6 ES2 (6 Jun 2022)  |  
+| Video, Streaming, TelePresence, and Transcoding Devices  |  
+| Cisco Meeting Server  | [CSCwb43662](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb43662)  | 3.5.0 (Available)  
+3.4.2 (31 May 2022)  
+3.3.3 (17 Jun 2022)  |  
+##  Products Confirmed Not Vulnerable 
+Cisco investigated its product line to determine which products may be affected by this vulnerability.
+Any product not listed in the Affected Products section of this advisory is to be considered not vulnerable.
+Cisco has confirmed that this vulnerability does not affect the following Cisco products:
+**Cable Devices**
+    * Cisco Continuous Deployment and Automation Framework
+    * Cisco Prime Cable Provisioning
+**Collaboration and Social Media**
+    * Cisco SocialMiner
+    * Cisco Webex App, formerly Cisco Webex Teams
+    * Cisco Webex Meetings Server
+**Network Application, Service, and Acceleration**
+    * Cisco Wide Area Application Services (WAAS)
+**Network and Content Security Devices**
+    * Cisco Adaptive Security Appliance (ASA) Software
+    * Cisco Firepower Device Manager (FDM)
+    * Cisco Firepower Management Center (FMC) Software
+    * Cisco Firepower System Software
+    * Cisco Identity Services Engine (ISE)
+    * Cisco Secure Email Gateway, formerly Email Security Appliance (ESA)
+    * Cisco Secure Email and Web Manager, formerly Cisco Content Security Management Appliance (SMA)
+    * Cisco Secure Network Analytics, formerly Cisco Stealthwatch
+    * Cisco Security Manager
+    * Cisco Umbrella Active Directory (AD) Connector
+    * Cisco Umbrella Roaming Clients
+    * Cisco Umbrella Virtual Appliance
+**Network Management and Provisioning**
+    * Cisco Application Policy Infrastructure Controller (APIC)
+    * Cisco Business Process Automation
+    * Cisco CloudCenter Action Orchestrator
+    * Cisco CloudCenter Cost Optimizer
+    * Cisco CloudCenter Suite Admin
+    * Cisco CloudCenter Workload Manager
+    * Cisco CloudCenter
+    * Cisco Collaboration Audit and Assessments
+    * Cisco Common Services Platform Collector (CSPC)
+    * Cisco Connected Mobile Experiences
+    * Cisco Connected Pharma
+    * Cisco Crosswork Change Automation
+    * Cisco Crosswork Data Gateway
+    * Cisco Crosswork Network Automation
+    * Cisco Crosswork Situation Manager
+    * Cisco Elastic Services Controller (ESC)
+    * Cisco Extensible Network Controller (XNC)
+    * Cisco Intelligent Node (iNode) Manager
+    * Cisco IoT Field Network Director, formerly Cisco Connected Grid Network Management System
+    * Cisco NCS 2000 Shelf Virtualization Orchestrator (SVO)
+    * Cisco Network Change and Configuration Management
+    * Cisco Network Insights for Data Center
+    * Cisco Nexus Dashboard Data Broker, formerly Cisco Nexus Data Broker
+    * Cisco Nexus Dashboard, formerly Cisco Application Services Engine
+    * Cisco Nexus Insights
+    * Cisco Policy Suite for Mobile
+    * Cisco Policy Suite
+    * Cisco Prime Performance Manager
+    * Cisco Smart PHY
+    * Cisco ThousandEyes Endpoint Agent
+    * Cisco ThousandEyes Enterprise Agent
+    * Cisco Virtual Topology System - Virtual Topology Controller (VTC) VM
+**Routing and Switching - Enterprise and Service Provider**
+    * Cisco ACI HTML5 vCenter Plug-in
+    * Cisco ASR 5000 Series Routers
+    * Cisco Enterprise NFV Infrastructure Software (NFVIS)
+    * Cisco GGSN Gateway GPRS Support Node
+    * Cisco IOx Fog Director
+    * Cisco IP Services Gateway (IPSG)
+    * Cisco MME Mobility Management Entity
+    * Cisco Mobility Unified Reporting and Analytics System
+    * Cisco Network Convergence System 2000 Series
+    * Cisco ONS 15454 Series Multiservice Provisioning Platforms
+    * Cisco PDSN/HA Packet Data Serving Node and Home Agent
+    * Cisco PGW Packet Data Network Gateway
+    * Cisco SD-WAN vManage
+    * Cisco System Architecture Evolution Gateway (SAEGW)
+    * Cisco Ultra Packet Core
+    * Cisco Ultra Services Platform
+**Routing and Switching - Small Business**
+    * Cisco Business Dashboard
+**Unified Computing**
+    * Cisco HyperFlex
+**Voice and Unified Communications Devices**
+    * Cisco BroadWorks
+    * Cisco Cloud Connect
+    * Cisco Emergency Responder
+    * Cisco Packaged Contact Center Enterprise
+    * Cisco Unified Attendant Console Advanced
+    * Cisco Unified Attendant Console Business Edition
+    * Cisco Unified Attendant Console Department Edition
+    * Cisco Unified Attendant Console Enterprise Edition
+    * Cisco Unified Attendant Console Premium Edition
+    * Cisco Unified Communications Manager IM & Presence Service
+    * Cisco Unified Communications Manager Session Management Edition
+    * Cisco Unified Communications Manager
+    * Cisco Unified Contact Center Enterprise
+    * Cisco Unified Contact Center Express
+    * Cisco Unified Customer Voice Portal
+    * Cisco Unified Intelligence Center
+    * Cisco Unity Connection
+    * Cisco Virtualized Voice Browser
+**Video, Streaming, TelePresence, and Transcoding Devices**
+    * Cisco Expressway Series
+    * Cisco TelePresence Integrator C Series
+    * Cisco TelePresence MX Series
+    * Cisco TelePresence Management Suite Provisioning Extensions
+    * Cisco TelePresence Management Suite
+    * Cisco TelePresence Precision Cameras
+    * Cisco TelePresence Profile Series
+    * Cisco TelePresence SX Series
+    * Cisco TelePresence System EX Series
+    * Cisco TelePresence Video Communication Server (VCS)
+    * Cisco Touch
+    * Cisco Video Surveillance Operations Manager
+    * Cisco Vision Dynamic Signage Director
+    * Cisco Webex Board Series
+    * Cisco Webex Desk Series
+    * Cisco Webex Room Navigator
+    * Cisco Webex Room Series
+**Wireless**
+    * Cisco Ultra Cloud Core - Access and Mobility Management Function
+    * Cisco Ultra Cloud Core - Network Repository Function
+    * Cisco Ultra Cloud Core - Policy Control Function
+    * Cisco Ultra Cloud Core - Redundancy Configuration Manager
+    * Cisco Ultra Cloud Core - Session Management Function
+    * Cisco Ultra Cloud Core - Subscriber Microservices Infrastructure
+**Cisco Cloud Hosted Services**
+    * Cisco BroadCloud
+    * Cisco Industrial Asset Vision
+    * Cisco IoT Control Center
+    * Cisco IoT Operations Dashboard (IOTOC)
+    * Cisco Kinetic for Cities
+    * Cisco Registered Envelope Service
+    * Cisco Smart Collector - Lifecycle Management
+    * Cisco Umbrella
+    * Cisco Unified Communications Manager Cloud
+    * Cisco Webex Cloud-Connected UC (CCUC)
+
+
+## 
+Workarounds 
+  * Any workarounds will be documented in the product-specific Cisco bugs, which are identified in the Vulnerable Products section of this advisory.
+
+
+## 
+Fixed Software 
+  * For information about fixed software releases, consult the Cisco bugs identified in the [Vulnerable Products](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-java-spring-rce-Zx9GUc67.html#vp) section of this advisory.
+When considering software upgrades, customers are advised to regularly consult the advisories for Cisco products, which are available from the Cisco Security Advisories page, to determine exposure and a complete upgrade solution.
+In all cases, customers should ensure that the devices to be upgraded contain sufficient memory and confirm that current hardware and software configurations will continue to be supported properly by the new release. If the information is not clear, customers are advised to contact the Cisco Technical Assistance Center (TAC) or their contracted maintenance providers.
+
+
+## 
+Exploitation and Public Announcements 
+  * The Cisco Product Security Incident Response Team (PSIRT) is aware that proof-of-concept exploit code is available for the vulnerability described in this advisory.
+
+
+## 
+Source 
+  * This vulnerability was publicly disclosed by VMware on March 31, 2022.
+
+
+## 
+Cisco Security Vulnerability Policy 
+  * To learn about Cisco security vulnerability disclosure policies and publications, see the [Security Vulnerability Policy](http://www.cisco.com/web/about/security/psirt/security_vulnerability_policy.html). This document also contains instructions for obtaining fixed software and receiving security vulnerability information from Cisco.
+
+
+## 
+Subscribe to Cisco Security Notifications
+  * [Subscribe](https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html)
+
+
+## 
+Action Links for This Advisory 
+  * [Snort Rule 30790](https://www.snort.org/rule_docs/1-30790)
+[Snort Rule 30791](https://www.snort.org/rule_docs/1-30791)
+[Snort Rule 30792](https://www.snort.org/rule_docs/1-30792)
+[Snort Rule 30793](https://www.snort.org/rule_docs/1-30793)
+[Snort Rule 59416](https://www.snort.org/rule_docs/1-59416)
+
+
+## 
+Related to This Advisory 
+## 
+URL 
+  * <https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-java-spring-rce-Zx9GUc67>
+
+
+## 
+Revision History 
+  * | Version  | Description  | Section  | Status  | Date  |  
+| --- | --- | --- | --- | --- |  
+| 1.13  | Updated products confirmed not vulnerable.  | Affected Products  | Final  | 2023-FEB-09  |  
+| 1.12  | Updated Fixed Releases information.  | Vulnerable Products  | Final  | 2022-JUN-01  |  
+| 1.11  | Updated vulnerable products and products confirmed not vulnerable.  | Affected Products  | Final  | 2022-APR-29  |  
+| 1.10  | Updated the products under investigation, vulnerable products, and products confirmed not vulnerable.  | Affected Products  | Interim  | 2022-APR-26  |  
+| 1.9  | Updated the products under investigation, vulnerable products, and products confirmed not vulnerable.  | Affected Products  | Interim  | 2022-APR-21  |  
+| 1.8  | Updated the products under investigation, vulnerable products, and products confirmed not vulnerable.  | Affected Products  | Interim  | 2022-APR-14  |  
+| 1.7  | Updated the products under investigation, vulnerable products, and products confirmed not vulnerable.  | Affected Products  | Interim  | 2022-APR-13  |  
+| 1.6  | Updated the products under investigation, vulnerable products, and products confirmed not vulnerable.  | Affected Products  | Interim  | 2022-APR-12  |  
+| 1.5  | Updated the products under investigation, vulnerable products, and products confirmed not vulnerable.  | Affected Products  | Interim  | 2022-APR-11  |  
+| 1.4  | Updated the products under investigation, vulnerable products, and products confirmed not vulnerable.  | Affected Products  | Interim  | 2022-APR-07  |  
+| 1.3  | Updated the products under investigation, vulnerable products, and products confirmed not vulnerable.  | Affected Products  | Interim  | 2022-APR-06  |  
+| 1.2  | Updated the products under investigation, vulnerable products, and products confirmed not vulnerable.  | Affected Products  | Interim  | 2022-APR-05  |  
+| 1.1  | Updated the products under investigation, vulnerable products, and products confirmed not vulnerable.  | Affected Products  | Interim  | 2022-APR-04  |  
+| 1.0  | Initial public release.  | —  | Interim  | 2022-APR-01  |  
+Show Complete History...
+
+
+* * *
+## 
+Legal Disclaimer 
+  * THIS DOCUMENT IS PROVIDED ON AN "AS IS" BASIS AND DOES NOT IMPLY ANY KIND OF GUARANTEE OR WARRANTY, INCLUDING THE WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR USE. YOUR USE OF THE INFORMATION ON THE DOCUMENT OR MATERIALS LINKED FROM THE DOCUMENT IS AT YOUR OWN RISK. CISCO RESERVES THE RIGHT TO CHANGE OR UPDATE THIS DOCUMENT AT ANY TIME.
+A standalone copy or paraphrase of the text of this document that omits the distribution URL is an uncontrolled copy and may lack important information or contain factual errors. The information in this document is intended for end users of Cisco products.
+
+
+## 
+Feedback 
+  * [Leave additional feedback](javascript:openNewWindow\(\);)
+
+
+## 
+Cisco Security Vulnerability Policy 
+  * To learn about Cisco security vulnerability disclosure policies and publications, see the [Security Vulnerability Policy](http://www.cisco.com/web/about/security/psirt/security_vulnerability_policy.html). This document also contains instructions for obtaining fixed software and receiving security vulnerability information from Cisco.
+
+
+## 
+Subscribe to Cisco Security Notifications
+  * [Subscribe](https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html)
+
+
+## 
+Action Links for This Advisory 
+  * [Snort Rule 30790](https://www.snort.org/rule_docs/1-30790)
+[Snort Rule 30791](https://www.snort.org/rule_docs/1-30791)
+[Snort Rule 30792](https://www.snort.org/rule_docs/1-30792)
+[Snort Rule 30793](https://www.snort.org/rule_docs/1-30793)
+[Snort Rule 59416](https://www.snort.org/rule_docs/1-59416)
+
+
+## 
+Related to This Advisory 
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-java-spring-rce-Zx9GUc67.html "Back to Top")
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
