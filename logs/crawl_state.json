@@ -7858,5 +7858,9 @@
   "https://developer.webex.com/docs/api/v1/webhooks/create-a-webhook": {
     "hash": "3417888d7e9350d8043eae6741c022750c48699d1a3a882f626675d380c7afa6",
     "timestamp": "2026-08-13T02:07:01.749905"
+  },
+  "https://developer.webex.com/docs/api/v1/webhooks/update-a-webhook": {
+    "hash": "aef63e7fe0410fd14bcb50719dce1fc47e75eb2615a23d5037ca8df50c68b0b7",
+    "timestamp": "2026-08-13T02:07:08.713520"
   }
 }
