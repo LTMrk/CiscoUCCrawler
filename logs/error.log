@@ -541,3 +541,11 @@ Code context:
 [2026-08-13T13:45:36.207944] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://www.cisco.com/c/en/us/solutions/collaboration/index.html
 [2026-08-13T13:45:37.895193] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.cisco.com/c/en/us/products/unified-communications/index.html
 [2026-08-13T13:45:51.402769] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.cisco.com/c/en/us/products/conferencing/index.html
+[2026-08-13T13:49:29.258532] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://bst.cisco.com/bugsearch
+[2026-08-13T13:49:31.321644] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://cway.cisco.com/mydevices
+[2026-08-13T13:49:33.024877] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://software.cisco.com/research/home
+[2026-08-13T13:49:35.218698] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://cway.cisco.com/sncheck
+[2026-08-13T13:49:37.231997] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://cway.cisco.com/mynotifications
+[2026-08-13T13:49:40.098112] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://community.cisco.com/t5/partner-hub/ct-p/2002j-partner-home
+[2026-08-13T13:49:42.861203] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://community.cisco.com/t5/project-gallery/con-p/customer-success-stories
+[2026-08-13T13:49:47.006778] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://experiences.cisco.com/amer/simplify-it-with-sd-wan
