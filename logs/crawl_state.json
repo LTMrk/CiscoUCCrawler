@@ -9630,5 +9630,9 @@
   "https://cfnng.cisco.com": {
     "hash": "dc21b3a45dc5b3b07b33370fcc18ca41b37fd233b33196293981c18198d83402",
     "timestamp": "2026-08-13T03:00:28.277334"
+  },
+  "https://tools.cisco.com/security/center/publicationListing.x": {
+    "hash": "d2183bcac0c1b651f35188293d59fde205a23b8cbdc65c831bdc12182a09e8c3",
+    "timestamp": "2026-08-13T03:00:32.256753"
   }
 }
