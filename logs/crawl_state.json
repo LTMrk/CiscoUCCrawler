@@ -8042,5 +8042,9 @@
   "https://developer.webex.com/docs/api/v1/meetings/get-a-meeting-session-type": {
     "hash": "72f283a5cd6275497e216df92668e7591de3d059f26982d88205b8c60e9314b1",
     "timestamp": "2026-08-13T02:12:02.468141"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings/reassign-meetings-to-a-new-host": {
+    "hash": "2eff9fbbca3360be6c11f94c95d74a1be64a0ba2d0453e2d2dbd035567856398",
+    "timestamp": "2026-08-13T02:12:09.388783"
   }
 }
