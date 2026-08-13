@@ -27790,3 +27790,155 @@ Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Fe
   * [Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
 
 
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)Show All Breadcrumbs
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
+  * [Cisco Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+  * [Configuration Examples and TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/products-configuration-examples-list.html)
+
+
+# Utilize BAT to Update Jabber Contact List
+![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)
+Download
+Print
+### Available Languages
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)
+
+
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.pdf) (314.2 KB)   
+View with Adobe Reader on a variety of devices
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.epub) (254.8 KB)   
+View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.mobi) (347.2 KB)   
+View on Kindle device or Kindle app on multiple devices
+
+
+Updated:September 14, 2017
+Document ID:212085
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+## Contents
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html#toc-hId-1050017852)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html#toc-hId--757436611)
+[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html#toc-hId--1874329600)
+[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html#toc-hId-613183233)
+[Configuration](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html#toc-hId-602680129)
+[Things to Remember](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html#toc-hId--1204774334)
+[Related Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html#toc-hId-1282738499)
+## Introduction
+This document describes how to use BAT (Bulk Administration Tool) to add or update a new contact list for a Jabber enduser.  
+
+## Prerequisites 
+### Requirements
+Cisco recommends that you have knowledge of these topics:
+  * LDAP (Lightweight Directory Access Protocol)
+  * Cisco Instant Messaging and Presence Server (IM&P)
+
+
+### Components Used
+The information in this document is based on these software versions:
+  * Cisco Instant Messaging and Presence Server  
+
+
+
+The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
+## Configuration
+Add or update the contact list with new contacts for a jabber user assigned to a IM&P Subscriber. Example from lab environment is shown where LDAPUSER2 's contact list is updated with 3 new contacts i.e LDAPUSER8 , LDAPUSER9 and LDAPUSER10.
+Step 1. Navigate to **Bulk Administration** > **Contact List** > **Export Contact List**
+[![screen_1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-00.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-00.jpeg "screen_1")
+Step 2. Select option **Assigned users by node** and then select **IM &P Subscriber** and then select **Find**. This lists all the users assigned to IM&P Subscriber.
+Step 3. Select **Next** and it save the CSV file on your desktop. This exports all the contact lists for all the users from IM&P SUB. See this image:
+[![screen_2.2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-01.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-01.jpeg "screen_2.2")
+**Note** : You can navigate to Job Scheduler page on IM&P server to check if files was exported without errors or not.
+Step 4. Naviagte to **Bulk Adminstrator** > **Upload/Download** section and download the exported files which was created in Step 3.
+Step 5. As per this article, you add the new contacts list for 1 user, that is LDAPUSER2, however, this is not restricted to single enduser. You can update/add for multiple or all endusers at same time. From the lab, the exported CSV file looks like this:
+**[![screen_2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-02.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-02.jpeg "screen_2")**
+**Note** : This shows that LDAPUSER2 has only 1 contact in its list with contact ID as "LDAPUSER1" under group name "contacts". You modified this same file and added 3 more contacts for LDAPUSER2. These 3 contacts are LDAPUSER8 , LDAPUSER9 and LDAPUSER10. Refer this image from newly made CSV file:
+**[![screen_3](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-03.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-03.jpeg "screen_3")**
+**Note** : You can use the sample CSV file to update/add the contact list for any contact. This file does not require to export any file from IM&P server.
+Step 6. After you have updated the CSV file for LDAPUSER2 with new contacts then upload it on IM&P server. Navigate to **Bulk Administration** > **Upload/Download Files.**
+**[![screen_4](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-04.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-04.jpeg "screen_4")**
+**Note** : Use the same option as in the image for **Select The Target** **User Contact List** and **Select Transaction Type** as **Import User's Contacts -Custom File** and then **save/upload** it.
+Step 7. Navigate to **Bulk Administration** > **Contact List** > **Update Contact List** based on this image.
+**[![screen_5](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-05.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-05.jpeg "screen_5")**
+Step 9. Select **Run Immediately** or **Run Later** based on your convenience and then select on **Submit.** Refer to Job scheduler to check the status of Import.
+So LDAPUSER1 was with only one contact but after the import of new CSV file, LDAPUSER2's contact list was updated without even sign out of jabber.**  
+**
+**[![screen_6](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-06.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-06.jpeg "screen_6")**
+## **Things to Remember**
+  1. Before the import of new CSV file, the three added users, that is LDAPUSER 8 , LDAPUSER9 and LDAPUSER10, must be enabled for presence capabilities else they do not show up in the contact list of any jabber enduser.
+  2. If you noticed that CSV file doest not have any Colum with a name **Telephone Number** , still LDAPUSER2's jabber account can fetch the details like Telephone number once it is been imported with new CSV file. This is because when you add the new contacts via BAT, Jabber tries to resolve them through Directory source. So if the newly added contacts are present in Directory Source then Jabber fetches their telephone numbers. For example, LDAPUSER2 Jabber was able to fetch the Telephone Number of LDAPUSER8 via Directory Source as shown in this image:
+
+
+**[![screen_7](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-07.jpeg)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe-07.jpeg "screen_7")**
+## Related Information
+  * **[Technical Support& Documentation - Cisco Systems](https://www.cisco.com/c/en/us/support/index.html)**
+
+
+### Revision History  
+| Revision  | Publish Date  | Comments  |  
+| --- | --- | --- |  
+| 1.0  |  14-Sep-2017   | Initial Release  |  
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html "Back to Top")
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+### Contributed by Cisco Engineers
+  * Varundeep Chhatwa
+Cisco TAC Engineer
+  * Edited by Jimit Dalal and Jasmeet Sandhu
+Cisco TAC Engineer
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+### Contact Cisco
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212085-How-to-Utilize-BAT-to-Update-Cisco-Jabbe.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
+
+
+### This Document Applies to These Products
+  * [Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+
+
