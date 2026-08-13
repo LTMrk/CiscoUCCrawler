@@ -23614,3 +23614,302 @@ Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
 ![](https://t.co/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=cb6fcc64-c85a-41d2-806c-b56acff18d1b&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=2e253b3a-fd6e-477f-87b8-1a1b1e5a071f&pt=Webex%20Collaboration%20AI%20Portfolio&tw_document_href=https%3A%2F%2Fwww.webex.com%2Fproducts%2Fcollaboration-ai.html&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1786577888778.72394052159556157&txn_id=o6rhq&type=javascript&version=2.4.1)![](https://analytics.twitter.com/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=cb6fcc64-c85a-41d2-806c-b56acff18d1b&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=2e253b3a-fd6e-477f-87b8-1a1b1e5a071f&pt=Webex%20Collaboration%20AI%20Portfolio&tw_document_href=https%3A%2F%2Fwww.webex.com%2Fproducts%2Fcollaboration-ai.html&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1786577888778.72394052159556157&txn_id=o6rhq&type=javascript&version=2.4.1)![](https://t.co/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=3a982bf1-9c8d-4087-8950-c4851112e200&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=2e253b3a-fd6e-477f-87b8-1a1b1e5a071f&pt=Webex%20Collaboration%20AI%20Portfolio&tw_document_href=https%3A%2F%2Fwww.webex.com%2Fproducts%2Fcollaboration-ai.html&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1786577888778.72394052159556157&txn_id=o1rwk&type=javascript&version=2.4.1)![](https://analytics.twitter.com/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=3a982bf1-9c8d-4087-8950-c4851112e200&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=2e253b3a-fd6e-477f-87b8-1a1b1e5a071f&pt=Webex%20Collaboration%20AI%20Portfolio&tw_document_href=https%3A%2F%2Fwww.webex.com%2Fproducts%2Fcollaboration-ai.html&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1786577888778.72394052159556157&txn_id=o1rwk&type=javascript&version=2.4.1)![](https://t.co/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=87948600-4d91-45eb-a616-e34f3c167fd6&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=2e253b3a-fd6e-477f-87b8-1a1b1e5a071f&pt=Webex%20Collaboration%20AI%20Portfolio&tw_document_href=https%3A%2F%2Fwww.webex.com%2Fproducts%2Fcollaboration-ai.html&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1786577888778.72394052159556157&txn_id=o4k82&type=javascript&version=2.4.1)![](https://analytics.twitter.com/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=87948600-4d91-45eb-a616-e34f3c167fd6&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=2e253b3a-fd6e-477f-87b8-1a1b1e5a071f&pt=Webex%20Collaboration%20AI%20Portfolio&tw_document_href=https%3A%2F%2Fwww.webex.com%2Fproducts%2Fcollaboration-ai.html&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1786577888778.72394052159556157&txn_id=o4k82&type=javascript&version=2.4.1)
+
+
+---
+# ORIGEN: https://www.webex.com/us/en/solutions/cross-platform/inclusive-collaboration.html
+
+[ ![Webex by Cisco logo.](https://www.webex.com/content/dam/www/us/en/images/header/2026/webex-nav-logo/webex-by-cisco-whitetext.png) ![Webex by Cisco logo.](https://www.webex.com/content/dam/www/us/en/images/header/2026/webex-nav-logo/webex-by-cisco.png) ](https://www.webex.com/)
+[Sign up, it's Free ](https://cart.webex.com/sign-up?experienceType=Unified&ft=selfsignup&theme=dark&ft=skipProvCheck)
+[ Products ](javascript:void\(0\);)
+[ Webex Suite ](https://www.webex.com/suite/collaboration-suite.html)
+All-in-one, AI-powered collaboration
+  * [ Meetings ](https://www.webex.com/suite/meetings.html)
+  * [ Calling ](https://www.webex.com/suite/enterprise-cloud-calling.html)
+  * [ Messaging ](https://www.webex.com/suite/messaging.html)
+  * [ Webinars ](https://www.webex.com/suite/webinar.html)
+  * [ Events ](https://www.webex.com/us/en/products/suite/events.html)
+  * [ Video Messaging ](https://vidcast.io/?utm_source=webex&utm_medium=referral&utm_campaign=webex-integration)
+  * [ Polling ](https://www.webex.com/suite/polling.html)
+  * [ Whiteboarding ](https://www.webex.com/suite/whiteboard.html)
+
+
+[ Customer Experience ](https://www.webex.com/us/en/products/customer-experience.html)
+Automated, personalized, and intelligent interactions
+  * [ AI Agent ](https://www.webex.com/us/en/products/customer-experience/ai-agent.html)
+  * [ Cloud Contact Center ](https://www.webex.com/us/en/products/customer-experience/contact-center.html)
+  * [ AI Assistant for Contact Center ](https://www.webex.com/us/en/products/customer-experience/ai-assistant-for-contact-center.html)
+  * [ CPaaS ](https://www.webex.com/us/en/products/customer-experience/cpaas.html)
+  * [ AI Workforce Engagement Management ](https://www.webex.com/us/en/products/customer-experience/ai-workforce-engagement-management.html)
+
+
+[ Collaboration Devices ](https://www.webex.com/us/en/devices.html)
+Designed for all work styles and every workspace
+  * [ Workspace Designer ](https://designer.webex.com/)
+  * [ Workspaces ](https://www.webex.com/us/en/workspaces.html)
+
+
+[ Webex AI Discover how Webex delivers secure, AI-powered capabilities across the platform to elevate employee and customer experiences. Explore Webex AI  ](https://www.webex.ai/)
+![Webex](https://www.webex.com/content/dam/www/us/en/images/header/2026/webex-app-icon-latest.svg) [Download Webex](https://www.webex.com/downloads.html)
+[ +1-888-469-3239 ](tel:+1-888-469-3239) [ Contact Sales ](https://www.webex.com/us/en/dg/contact-sales.html?lang=en)
+[ Devices ](javascript:void\(0\);)
+[ Collaboration Devices ](https://www.webex.com/us/en/devices.html)
+Designed for all work styles and every workspace
+  * [ Desk Devices ](https://www.webex.com/us/en/devices/desk-series.html)
+  * [ Room Devices ](https://www.webex.com/us/en/devices/room-devices.html)
+  * [ Room Accessories ](https://www.webex.com/us/en/devices/accessories.html)
+  * [ Phones ](https://www.webex.com/us/en/devices/phone-series.html)
+  * [ Headsets ](https://www.webex.com/us/en/devices/headsets.html)
+  * [ Cameras ](https://www.webex.com/us/en/devices/cameras.html)
+  * [ Digital Whiteboards ](https://www.webex.com/us/en/devices/digital-whiteboards.html)
+
+
+[ Workspaces ](https://www.webex.com/us/en/workspaces.html)
+Powered by Cisco collaboration devices
+  * [ Meeting Rooms ](https://www.webex.com/us/en/workspaces.html?tab=meeting-rooms)
+  * [ Individual Spaces ](https://www.webex.com/us/en/workspaces.html?tab=individual-spaces)
+  * [ Training Spaces ](https://www.webex.com/us/en/workspaces.html?tab=training-spaces)
+  * [ Workspace Designer ](https://designer.webex.com/)
+
+
+FEATURED DEVICES
+  * [ ![Cisco Room Vision PTZ camera for intelligent meeting rooms.](https://www.webex.com/content/dam/www/us/en/images/header/2026/devices/cisco-room-vision-ptz.webp) Room Vision PTZ  ](https://www.webex.com/us/en/devices/cameras/cisco-room-vision-ptz-camera.html)
+  * [ ![Cisco Room Kit Pro G2 video conferencing system.](https://www.webex.com/content/dam/www/us/en/images/header/2026/devices/room-kit-pro-g2.webp) Room Kit Pro G2  ](https://www.webex.com/us/en/devices/room-series/cisco-room-kit-pro.html)
+  * [ ![Cisco Desk Phone 9800 Series for enterprise communication.](https://www.webex.com/content/dam/www/us/en/images/header/2026/devices/desk-phone-9800.webp) Desk Phone 9800 Series  ](https://www.webex.com/us/en/devices/phone-series/cisco-phone-9800-series.html)
+  * [ ![Cisco Desk Pro G2 intelligent collaboration desk device.](https://www.webex.com/content/dam/www/us/en/images/header/2026/devices/desk-pro-g2.webp) Desk Pro G2  ](https://www.webex.com/us/en/devices/desk-series/cisco-desk-pro.html)
+  * [ ![Cisco Ceiling Microphone Pro for clear meeting audio.](https://www.webex.com/content/dam/www/us/en/images/header/2026/devices/ceiling-microphone-pro.webp) Ceiling Microphone Pro  ](https://www.webex.com/us/en/devices/accessories/cisco-ceiling-microphone-pro.html)
+  * [ ![Bang & Olufsen Cisco 950 wireless headset.](https://www.webex.com/content/dam/www/us/en/images/header/2026/devices/bo-950.webp) B&O Cisco 950  ](https://www.webex.com/us/en/devices/headsets/bang-and-olufsen-cisco-950.html)
+
+
+![Webex](https://www.webex.com/content/dam/www/us/en/images/header/2026/webex-app-icon-latest.svg) [Download Webex](https://www.webex.com/downloads.html)
+[ +1-888-469-3239 ](tel:+1-888-469-3239) [ Contact Sales ](https://www.webex.com/us/en/dg/contact-sales.html?lang=en)
+[ Solutions ](javascript:void\(0\);)
+INDUSTRIES
+  * [ Education ](https://www.webex.com/us/en/solutions/industries/education.html)
+  * [ Healthcare ](https://www.webex.com/us/en/solutions/industries/healthcare.html)
+  * [ Government ](https://www.webex.com/us/en/solutions/industries/government.html)
+  * [ Finance ](https://www.webex.com/us/en/solutions/industries/financial-services.html)
+  * [ Sports & Entertainment ](https://www.webex.com/us/en/solutions/industries/sports-entertainment.html)
+  * [ Nonprofits ](http://webex.com/us/en/solutions/industries/nonprofits.html)
+
+
+USE CASES
+  * [ Hybrid Work ](https://www.webex.com/us/en/solutions/hybrid-work.html)
+  * [ Sustainability ](https://www.webex.com/us/en/solutions/sustainability.html)
+  * [ Return to the Office ](https://www.webex.com/us/en/solutions/return-to-office.html)
+  * [ Camera Intelligence ](https://www.webex.com/us/en/solutions/camera-intelligence-cisco-devices.html)
+  * [ Workspace Management ](https://www.webex.com/us/en/solutions/control-hub-cisco-devices.html)
+  * [ Devices for Microsoft Teams ](https://www.webex.com/us/en/solutions/microsoft-teams-rooms-cisco-devices.html)
+  * [ AV over IP for Conferencing ](https://www.webex.com/us/en/solutions/av-over-ip-video-conferencing.html)
+
+
+CROSS-PLATFORM
+  * [ Webex AI ](https://www.webex.ai/)
+  * [ Control Hub ](https://www.webex.com/us/en/solutions/cross-platform/control-hub.html)
+  * [ Interoperability ](https://www.webex.com/us/en/solutions/interoperability.html)
+  * [ RoomOS ](https://www.webex.com/us/en/solutions/roomos.html)
+  * [ Security, Privacy & Compliance ](https://www.webex.com/us/en/solutions/cross-platform/security.html)
+
+
+[ ![](https://cf-images.us-east-1.prod.boltdns.net/v1/jit/1384193102001/a13fb498-e0b7-48f7-b482-a90ccb57521a/main/1280x720/6s733ms/match/image.jpg) Video Player is loading. Play Video PauseSkip BackwardSkip ForwardUnmute Current Time 0:00 / Duration 0:13 Loaded: 100.00% 0:00 Stream Type LIVE Seek to live, currently behind liveLIVE Remaining Time -0:13 1x Playback Rate
+  * 2x
+  * 1.75x
+  * 1.5x
+  * 1.25x
+  * 1x, selected
+  * 0.75x
+  * 0.5x
+
+Chapters
+  * Chapters
+
+Descriptions
+  * descriptions off, selected
+
+Captions
+  * captions settings, opens captions settings dialog
+  * captions off, selected
+
+Audio Track
+  * default, selected
+
+Share Quality Levels
+  * 720p720pHD
+  * 432p432p
+  * 270p270p
+  * AutoA, selected
+
+Picture-in-PictureFullscreen This is a modal window. Beginning of dialog window. Escape will cancel and close the window. Text ColorWhite Black Red Green Blue Yellow Magenta CyanOpacityOpaque Semi-Transparent Text Background ColorBlack White Red Green Blue Yellow Magenta CyanOpacityOpaque Semi-Transparent Transparent Caption Area Background ColorBlack White Red Green Blue Yellow Magenta CyanOpacityTransparent Semi-Transparent Opaque Font Size 50% 75% 100% 125% 150% 175% 200% 300% 400% Text Edge Style None Raised Depressed Uniform Drop shadow Font Family Proportional Sans-Serif Monospace Sans-Serif Proportional Serif Monospace Serif Casual Script Small Caps ResetDone Close Modal DialogEnd of dialog window. Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button. Close Modal DialogThis is a modal window. This modal can be closed by pressing the Escape key or activating the close button. Workspace Designer Your one-stop, interactive meeting room and desk space configurator is here. Start Designing  ](https://designer.webex.com/)
+![Webex](https://www.webex.com/content/dam/www/us/en/images/header/2026/webex-app-icon-latest.svg) [Download Webex](https://www.webex.com/downloads.html)
+[ +1-888-469-3239 ](tel:+1-888-469-3239) [ Contact Sales ](https://www.webex.com/us/en/dg/contact-sales.html?lang=en)
+[ Resources ](javascript:void\(0\);)
+SUPPORT
+  * [ Product Help ](https://help.webex.com/)
+  * [ Adoption Resources ](https://www.webex.com/us/en/adopt/index.html)
+  * [ Webex Academy ](https://academy.webex.com/)
+  * [ Webex Community ](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user)
+  * [ Contact Support ](https://help.webex.com/contact)
+  * [ Webex Insider ](https://www.webex.com/insider)
+
+
+LEARN
+  * [ Webex Blog ](https://blog.webex.com/)
+  * [ Customer Stories ](https://www.webex.com/customers.html)
+  * [ Live Events and Webinars ](https://www.webex.com/us/en/event-webinar.html)
+  * [ AI Content Hub ](https://www.webex.ai/ai-content-hub.html)
+
+
+APP INTEGRATIONS
+  * [ App Hub ](https://apphub.webex.com/)
+  * [ Integration Partners ](https://www.webex.com/products/integrations/index.html)
+  * [ Developer Tools ](https://developer.webex.com/)
+
+
+[ What’s New at Webex Learn about the latest innovations released across the collaboration and customer experience portfolio. See What’s New  ](https://www.webex.com/whats-new)
+![Webex](https://www.webex.com/content/dam/www/us/en/images/header/2026/webex-app-icon-latest.svg) [Download Webex](https://www.webex.com/downloads.html)
+[ +1-888-469-3239 ](tel:+1-888-469-3239) [ Contact Sales ](https://www.webex.com/us/en/dg/contact-sales.html?lang=en)
+[Plans & Pricing](https://pricing.webex.com/us/en/hybrid-work/meetings/?utm_medium=website&utm_source=wdc&utm_campaign=n/a&utm_content=navigation&team=wdc)
+[Download](https://www.webex.com/downloads.html)
+[Join a Meeting](https://signin.webex.com/joinameeting)
+[Sign In](https://signin.webex.com/)
+[ ](javascript:;)
+Select Country/Region [ ](javascript:;)
+  * [Australia (English)](https://www.webex.com/)
+  * [Brazil (Português)](https://www.webex.com/pt/index.html)
+  * [Canada (English)](https://www.webex.com/)
+  * [Canada (Français)](https://www.webex.com/fr/index.html)
+  * [China (简体字)](https://www.webex.com/zh-cn/index.html)
+  * [France (Français)](https://www.webex.com/fr/index.html)
+  * [Germany (Deutsch)](https://www.webex.com/de/index.html)
+  * [Hong Kong (繁體中文)](https://www.webex.com/zh-tw/index.html)
+  * [India (English)](https://www.webex.com/)
+  * [Italy (Italiano)](https://www.webex.com/it/index.html)
+  * [Japan (日本語)](https://www.webex.com/ja/index.html)
+  * [South Korea (한국어)](https://www.webex.com/ko/index.html)
+  * [Latin America (Español)](https://www.webex.com/es/index.html)
+  * [Spain (Español)](https://www.webex.com/es/index.html)
+  * [United Kingdom (English)](https://www.webex.com/)
+
+
+[Sign up, it's Free](https://cart.webex.com/sign-up?experienceType=Unified&ft=selfsignup&theme=dark&ft=skipProvCheck)
+![Webex](https://www.webex.com/content/dam/www/us/en/images/header/2026/webex-app-icon-latest.svg) [Download Webex](https://www.webex.com/downloads.html)
+[ +1-888-469-3239 ](tel:+1-888-469-3239) [ Contact Sales ](https://www.webex.com/us/en/dg/contact-sales.html?lang=en)
+Webex Inclusivity
+# Power a more inclusive way of working.
+Webex breaks down the barriers that keep us apart so that everyone can participate equally, from anywhere.
+![Person takes a Webex Meeting in the kitchen](https://www.webex.com/content/dam/www/us/en/images/solutions/cross-platform/inclusive-collaboration/inclusive-hero.jpg)
+## We believe
+In the era of hybrid work, we believe more can be achieved when diverse ideas and workstyles come together, and everyone can contribute equally, fully, and as their best selves. Inclusivity is at the core of everything we do. That’s why Webex was designed to give everyone a voice and to make sure you’re included no matter where you work or how you communicate.
+Where you work.
+Webex lets you collaborate in real time with anyone, anywhere—regardless of geography, time zone, language, location, or culture. ​Whether separated by time or space, role or hierarchy, Webex brings everyone together to do amazing work.
+![](https://www.webex.com/content/dam/www/us/en/icons/solutions/translation.svg)
+Real-time translation
+Webex provides a real-time translation of your meetings in 100+ different languages so you can communicate with anyone, from anywhere.
+Explore more features below
+![](https://www.webex.com/content/dam/www/us/en/icons/solutions/virtual-background.svg)
+Virtual backgrounds
+Remove distracting backdrops by using virtual, customized, or blurred backgrounds in your meetings.​
+![](https://www.webex.com/content/dam/www/us/en/icons/solutions/closedcaption-03.svg)
+Closed captions
+If you’re stuck in a noisy setting, easily follow along in a meeting with closed captioning on screen.​
+![](https://www.webex.com/content/dam/www/us/en/icons/solutions/background-noise-reduction.svg)
+Background noise removal
+Silence distracting background noise like kids, dogs, keyboard typing, and more, so your meeting participants hear only you.​
+![](https://www.webex.com/content/dam/www/us/en/icons/solutions/whiteboard-ideation-co-creation.svg)
+Meeting highlights & actions
+Easily download, edit, or share a post-meeting recap complete with highlights and action items, so everyone is on the same page.​
+![](https://www.webex.com/content/dam/www/us/en/icons/solutions/transcripts.svg)
+Meeting transcripts
+Get written transcriptions of your full meeting, so everyone can catch up, whether they were in attendance or not.​
+![](https://www.webex.com/content/dam/www/us/en/icons/solutions/video-color-quality.svg)
+Automatic video adaption
+Makes sure everyone can fully participate, even from poor networks, by automatically optimizing video and audio quality.
+How you communicate.
+With Webex, all workstyles and communication styles are welcome. Whether you’re an introvert or extrovert, an occassional user or a power user, in an office or on the go, Webex makes sure you can always be heard.
+![](https://www.webex.com/content/dam/www/us/en/images/solutions/cross-platform/inclusive-collaboration/how-you-communicate-image.jpg)
+![](https://www.webex.com/content/dam/www/us/en/icons/solutions/gesture.svg)
+Gesture recognition & reactions
+Now there are even more ways to express yourself in meetings with on-screen emojis for clapping, thumbs up/down, smiling, laughing, and more. Choose an animated reaction or simply gesture with your hands.
+![](https://www.webex.com/content/dam/www/us/en/icons/solutions/file-sharing.svg)
+Roundtable templates
+Give everyone a voice with a predefined meeting template that gives all participants a designated amount of time to speak.
+![](https://www.webex.com/content/dam/www/us/en/icons/solutions/breakout-rooms.svg)
+Breakout sessions
+Real work is done in smaller groups. Webex lets you break out large meetings into as many as 100 smaller sessions, so everyone gets a chance to participate.​
+![](https://www.webex.com/content/dam/www/us/en/icons/solutions/collaboration-management.svg)
+Personalization
+Express yourself by choosing from various background colors, setting a photo/image for spaces, and choosing virtual backgrounds that show off your personality.​
+![](https://www.webex.com/content/dam/www/us/en/icons/solutions/insights-analytics.svg)
+Smart status
+Webex automatically sets your status when you’re in a meeting, sharing your screen, or out of office so everyone knows your availability.​
+![Webex Logo](https://www.webex.com/content/dam/www/us/en/icons/webex-wordmark.svg)
+Get started today. 
+[ Contact Sales ](https://www.webex.com/us/en/dg/contact-sales.html?lang=en)
+Products 
+  * [Webex Suite](https://www.webex.com/suite/collaboration-suite.html)
+  * [Meetings](https://www.webex.com/suite/meetings.html)
+  * [Calling](https://www.webex.com/suite/enterprise-cloud-calling.html)
+  * [Messaging](https://www.webex.com/suite/messaging.html)
+  * [Events](https://www.webex.com/us/en/products/suite/events.html)
+  * [Video Messaging](https://vidcast.io/?utm_source=webex&utm_medium=referral&utm_campaign=webex-integration)
+  * [Polling](https://www.webex.com/suite/polling.html)
+  * [Webinars](https://www.webex.com/suite/webinar.html)
+  * [Whiteboarding](https://www.webex.com/suite/whiteboard.html)
+  * [Cloud Contact Center](https://www.webex.com/us/en/products/customer-experience/contact-center.html)
+  * [CPaaS](https://www.webex.com/us/en/products/customer-experience/cpaas.html)
+
+
+Devices 
+  * [Room Devices](https://www.webex.com/us/en/devices/room-devices.html)
+  * [Desk Devices](https://www.webex.com/us/en/devices/desk-series.html)
+  * [Digital Whiteboards](https://www.webex.com/us/en/devices/digital-whiteboards.html)
+  * [Phones](https://www.webex.com/us/en/devices/phone-series.html)
+  * [Cameras](https://www.webex.com/us/en/devices/cameras.html)
+  * [Headsets](https://www.webex.com/us/en/devices/headsets.html)
+  * [Room Accessories](https://www.webex.com/us/en/devices/accessories.html)
+
+
+Use Cases 
+  * [Hybrid Work](https://www.webex.com/us/en/solutions/hybrid-work.html)
+  * [Interoperability](https://www.webex.com/us/en/solutions/interoperability.html)
+  * [Return to the office](https://www.webex.com/us/en/solutions/return-to-office.html)
+  * [Sustainability](https://www.webex.com/us/en/solutions/sustainability.html)
+
+
+Resources 
+  * [Pricing](https://pricing.webex.com/us/en/)
+  * [Downloads](https://www.webex.com/downloads.html)
+  * [Help Center](https://help.webex.com/)
+  * [Webex Community](https://community.cisco.com/t5/webex-user-community/ct-p/webex-user)
+  * [Webex Adoption](https://www.webex.com/us/en/adopt/index.html)
+  * [Watch Webinars](https://www.webex.com/learn/webinars-demos.html)
+  * [App Hub](https://apphub.webex.com/)
+  * [Accessibility](https://www.webex.com/us/en/solutions/cross-platform/accessibility.html)
+  * [Webex Blog](https://blog.webex.com/)
+  * [Developers](https://developer.webex.com/)
+
+
+Company 
+  * [Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)
+  * [Webex Customer Advocacy Program](https://www.webex.com/us/en/dg/customer-advocacy-program.html)
+  * [Contact Support](https://help.webex.com/contact)
+  * [Contact Sales](https://www.webex.com/us/en/dg/contact-sales.html?lang=en)
+  * [Webex Merch Store](https://merchandise.cisco.com/featured/webex-by-cisco.html)
+  * [Careers](https://www.webex.com/company/careers.html)
+
+
+  * [ ![Webex X \(formerly Twitter\) social media icon.](https://www.webex.com/content/dam/www/us/en/icons/social-media-icons/X.svg) ](https://twitter.com/webex)
+  * [ ![Webex LinkedIn social media icon.](https://www.webex.com/content/dam/www/us/en/icons/social-media-icons/linkedin.svg) ](https://www.linkedin.com/company/webex)
+  * [ ![Webex Facebook social media icon.](https://www.webex.com/content/dam/www/us/en/icons/social-media-icons/facebook.svg) ](https://www.facebook.com/webex)
+  * [ ![Webex YouTube social media icon.](https://www.webex.com/content/dam/www/us/en/icons/social-media-icons/youtube.svg) ](https://www.youtube.com/c/webex)
+  * [ ![Webex Instagram social media icon.](https://www.webex.com/content/dam/www/us/en/icons/social-media-icons/instagram.svg) ](https://www.instagram.com/webex/)
+
+
+© 2026 Cisco and/or its affiliates. All Rights Reserved.
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.webex.com/us/en/solutions/cross-platform/inclusive-collaboration.html#privacy-manager)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+
+
+[](javascript:;)
