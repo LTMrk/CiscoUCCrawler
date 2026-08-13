@@ -8138,5 +8138,9 @@
   "https://developer.webex.com/docs/api/v1/recordings/share-a-recording": {
     "hash": "86d9531d5849c08459234b0110ce197a75a6c020811b4ce5c842a27f762456db",
     "timestamp": "2026-08-13T02:14:33.797830"
+  },
+  "https://developer.webex.com/docs/api/v1/recordings/share-a-recording-link": {
+    "hash": "5bd74ad91d35ae7cd268e60e46bb38fd0e62e40c7393b27b7809216cf889d41e",
+    "timestamp": "2026-08-13T02:14:39.721091"
   }
 }
