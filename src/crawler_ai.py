@@ -14,19 +14,24 @@ def load_config():
         "global_settings": {
             "default_max_depth": 1,
             "request_delay_seconds": 1,
-            "word_count_threshold": 20
+            "word_count_threshold": 20,
+            "default_css_selector": "#fw-content, main, article, .content, .cisco-content"
         },
-        "domain_depths": {}
+        "domain_depths": {},
+        "seeds": [],
+        "blocked_patterns": [],
+        "custom_behaviors": []
     }
     if os.path.exists(config_path):
         try:
             with open(config_path, "r", encoding="utf-8") as f:
                 return json.load(f)
         except Exception as e:
-            log_error("CONFIG_LOAD", str(e))
+            print(f"Error cargando config: {e}")
     return default_config
 
 CONFIG = load_config()
+BLOCKED_PATTERNS = CONFIG.get("blocked_patterns", [])
 
 def get_max_depth_for_url(url):
     netloc = urlparse(url.lower()).netloc
@@ -35,6 +40,17 @@ def get_max_depth_for_url(url):
         if domain in netloc:
             return depth
     return CONFIG.get("global_settings", {}).get("default_max_depth", 1)
+
+def get_custom_behavior(url):
+    url_lower = url.lower()
+    behaviors = CONFIG.get("custom_behaviors", [])
+    
+    for behavior in behaviors:
+        if behavior.get("pattern", "").lower() in url_lower:
+            return behavior.get("css_selector"), behavior.get("js_code")
+            
+    default_css = CONFIG.get("global_settings", {}).get("default_css_selector")
+    return default_css, None
 
 def get_group_filename(url):
     url_lower = url.lower()
@@ -79,15 +95,6 @@ def get_group_filename(url):
 def normalize_url(url):
     return url.split('#')[0].split('?')[0].rstrip('/')
 
-def load_blocked_patterns():
-    blocked_file = "blocked_urls.txt"
-    if not os.path.exists(blocked_file):
-        return []
-    with open(blocked_file, "r", encoding="utf-8") as f:
-        return [line.strip().lower() for line in f if line.strip() and not line.startswith("#")]
-
-BLOCKED_PATTERNS = load_blocked_patterns()
-
 def is_blocked_by_user(url):
     url_lower = url.lower()
     for pattern in BLOCKED_PATTERNS:
@@ -100,9 +107,6 @@ def is_strict_en_us(url):
     parsed = urlparse(url_lower)
     netloc = parsed.netloc
     path = parsed.path
-
-    if 'careers.cisco.com' in netloc or 'jobs.cisco.com' in netloc:
-        return False
 
     locale_pattern = re.compile(r'/([a-z]{2})([-_][a-z]{2})?/')
     matches = locale_pattern.findall(url_lower)
@@ -159,8 +163,8 @@ def git_commit_and_push():
         if not status.stdout.strip():
             return
             
-        subprocess.run(["git", "add", "docs/", "logs/"], check=True)
-        subprocess.run(["git", "commit", "-m", "docs: actualizacion incremental de estado, logs y agrupaciones"], check=True)
+        subprocess.run(["git", "add", "docs/", "logs/", "config.json"], check=True)
+        subprocess.run(["git", "commit", "-m", "docs: actualizacion incremental por lotes"], check=True)
         subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=False)
         subprocess.run(["git", "push"], check=True)
     except Exception as e:
@@ -178,7 +182,6 @@ async def deep_crawl():
     seen_hashes = {data.get("hash") for data in state.values() if isinstance(data, dict)}
     visited = set(state.keys())
     
-    # 1. CARGA DE LA COLA DE RASTREO (FRONTIER)
     frontier_file = "logs/frontier.json"
     queue = asyncio.Queue()
     
@@ -188,11 +191,7 @@ async def deep_crawl():
             for item in saved_frontier:
                 await queue.put((item["url"], item["depth"]))
     else:
-        if not os.path.exists("urls.txt"):
-            print("El archivo urls.txt no existe.")
-            return
-        with open("urls.txt", "r", encoding="utf-8") as f:
-            seeds = [normalize_url(line.strip()) for line in f if line.strip() and not line.startswith("#")]
+        seeds = [normalize_url(url.strip()) for url in CONFIG.get("seeds", []) if url.strip()]
         for seed in seeds:
             if seed not in visited and is_strict_en_us(seed) and is_allowed_domain(seed) and not is_blocked_by_user(seed):
                 await queue.put((seed, 0))
@@ -202,7 +201,6 @@ async def deep_crawl():
 
     async with AsyncWebCrawler(verbose=True) as crawler:
         while not queue.empty():
-            # 2. CONTROL DE LÍMITE DE LOTE
             if processed_count >= MAX_URLS_PER_RUN:
                 print("LIMITE DE LOTE ALCANZADO. Preparando volcado de estado.")
                 break
@@ -217,7 +215,7 @@ async def deep_crawl():
             max_depth_allowed = get_max_depth_for_url(url)
             print(f"[Profundidad {depth}/{max_depth_allowed}] Procesando: {url}")
             
-            js_injection = "await new Promise(r => setTimeout(r, 5000));" if "developer.webex.com" in url.lower() else None
+            target_css, js_injection = get_custom_behavior(url)
             
             try:
                 result = await crawler.arun(
@@ -229,7 +227,7 @@ async def deep_crawl():
                     cache_mode=CacheMode.BYPASS,
                     magic=True,
                     excluded_tags=["nav", "footer", "header", "aside", "script", "style"],
-                    css_selector="#fw-content, main, article, .content, .cisco-content",
+                    css_selector=target_css,
                     js_code=js_injection
                 )
                 
@@ -269,7 +267,6 @@ async def deep_crawl():
             except Exception as e:
                 log_error(url, f"Excepcion critica: {str(e)}")
 
-    # 3. SERIALIZACIÓN DE LA COLA RESTANTE
     remaining_frontier = []
     while not queue.empty():
         u, d = queue.get_nowait()
@@ -292,3 +289,4 @@ async def deep_crawl():
 
 if __name__ == "__main__":
     asyncio.run(deep_crawl())
+    
