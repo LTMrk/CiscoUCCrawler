@@ -7630,5 +7630,9 @@
   "https://idbroker-b-us.webex.com/idb/oauth2/v2/keys/verification": {
     "hash": "caefe1f9d36197e44059b741deab56e4934cd858629ca9b14e1279fb91bf2225",
     "timestamp": "2026-08-13T01:59:36.960068"
+  },
+  "https://developer.webex.com/docs/api/v1/people/get-my-own-details": {
+    "hash": "02f0f150e15c0a7e870a31058208ea4abaa44c881355e8d638cab6cf076ff631",
+    "timestamp": "2026-08-13T01:59:45.631364"
   }
 }

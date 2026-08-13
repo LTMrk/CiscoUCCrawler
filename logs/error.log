@@ -197,3 +197,5 @@ Code context:
 [2026-08-13T01:59:16.554629] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/embedded-apps
 [2026-08-13T01:59:20.542508] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/embedded-apps-framework-sidebar-api-quick-start
 [2026-08-13T01:59:23.161989] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/my-apps/new/embedded-app
+[2026-08-13T01:59:39.540642] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text on small page (173 bytes, 22 chars visible) | URL: https://idbroker.webex.com/idb
+[2026-08-13T01:59:41.190736] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/my-apps
