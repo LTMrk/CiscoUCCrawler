@@ -7946,5 +7946,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-invitees": {
     "hash": "031ccdfa6a01793e17eecaf0bfb2066248c175540b0b51c44e6e98d307aead4b",
     "timestamp": "2026-08-13T02:09:22.884381"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-preferences": {
+    "hash": "55be2bd65779a5b603d6266720a3a495adccb73003555050a0091028b4bf3343",
+    "timestamp": "2026-08-13T02:09:29.185718"
   }
 }
