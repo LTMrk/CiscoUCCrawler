@@ -8274,5 +8274,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-polls/list-respondents-of-a-question": {
     "hash": "1c27756dc8567a80b09aa5f839fb269b475ecba7338f21b2c474020d855e7eca",
     "timestamp": "2026-08-13T02:18:08.781510"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-chats/list-meeting-chats": {
+    "hash": "f89e17f4e471becda3484bf349d267a5d7fa6192e60633bcd920957cc6e5ab17",
+    "timestamp": "2026-08-13T02:18:15.596219"
   }
 }
