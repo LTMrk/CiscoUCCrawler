@@ -8302,5 +8302,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-summaries/get-summary-for-compliance-officer": {
     "hash": "849577f106a8f9549a5d39ec8b6513d1138bf6feaae2c0368d189b065e71434b",
     "timestamp": "2026-08-13T02:18:54.151883"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-transcripts/delete-a-transcript": {
+    "hash": "1fdce31970b20823850bcb54d6e6ef6f8bd65d5f35ea0bd305e5a3e35344e551",
+    "timestamp": "2026-08-13T02:19:00.934646"
   }
 }
