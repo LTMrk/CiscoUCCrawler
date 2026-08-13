@@ -12692,3 +12692,174 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/mcp/docs/workspaces-mcp-server
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/mcp/docs/workspaces-mcp-server)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/mcp/docs/workspaces-mcp-server)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/mcp/docs/workspaces-mcp-server)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Workspaces MCP Server
+AI in Webex
+  * Webex MCP Servers
+    * [Overview](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)
+    * [Meetings MCP Server](https://developer.webex.com/mcp/docs/meetings-mcp-server)
+    * [Messaging MCP Server](https://developer.webex.com/mcp/docs/messaging-mcp-server)
+    * [Vidcast MCP Server](https://developer.webex.com/mcp/docs/vidcast-mcp-server)
+    * [Webex Suite MCP Server](https://developer.webex.com/mcp/docs/webex-suite-mcp-server)
+    * [Workspaces MCP Server](https://developer.webex.com/mcp/docs/workspaces-mcp-server)
+  * Security Guides
+  * Cisco Onboarded MCP Servers
+  * Federated through External Registery
+  * Agentic Apps
+  * Connect Webex MCP Servers to External Clients
+  * Connect External MCP Servers to Webex AI
+  * [Beta Program Overview](https://developer.webex.com/mcp/docs/webex-developer-beta-program)
+
+
+## AI in Webex
+### Workspaces MCP Server
+####  anchorWhat is Workspaces MCP Server?
+anchor
+Transform IT operations with real-time workspace and device intelligence, bringing Webex Control Hub's workspace and device data into your agentic platforms. Monitor health, resolve hardware issues fast, and unlock utilization insights to spot issues early and optimize meeting spaces.
+> **Prerequisites:** This MCP server must be enabled by your organization's admin in Webex Control Hub before it can be used. See [Provisioning on Control Hub](https://developer.webex.com/docs/provisioning-on-control-hub) for details.
+  * **Server URL:** `https://mcp.webexapis.com/mcp/workspaces`
+
+
+Before you can set up this MCP server, the Workspaces Agentic App and its tools have to be enabled in Control Hub. See [Provisioning on Control Hub](https://developer.webex.com/docs/provisioning-on-control-hub) for details.
+####  anchorTools
+anchor
+16 tools covering device intelligence, configuration management, workspace utilization, and location data:
+###### Devices (10)  
+| Tool  | Description  |  
+| --- | --- |  
+| `device_aggregated_event_history`  | Gets organization-wide device history events with filters, pagination, and event aggregations.  |  
+| `device_configuration_diff`  | Compares configuration values between two devices.  |  
+| `device_configuration_list`  | Lists the actual current configuration keys and values for a specific device.  |  
+| `device_configuration_schema`  | Searches possible configuration keys and allowed values across device models in the organization.  |  
+| `device_configuration_template_diff`  | Compares a device's actual configuration against a named configuration template.  |  
+| `device_configuration_template_list`  | Lists configuration templates available in the organization.  |  
+| `device_error_code_detail_search`  | Searches device and workspace issue definitions, error codes, descriptions, and recommended actions.  |  
+| `device_event_history`  | Gets recent history events for a specific device by device ID.  |  
+| `device_search`  | Searches devices using filters, sorting, pagination, aggregations, and output formats.  |  
+| `product_lifecycle`  | Gets lifecycle milestones for Cisco device product types, such as end-of-sale or last support dates.  |  
+###### Workspaces (5)  
+| Tool  | Description  |  
+| --- | --- |  
+| `workspace_aggregated_capacity_utilization`  | Finds overcrowded or under-utilized workspaces across the organization.  |  
+| `workspace_aggregated_popularity_metrics`  | Ranks the most popular workspaces by actual use time or booking time.  |  
+| `workspace_aggregated_usage_metrics`  | Gets aggregate workspace usage or booking metrics over time.  |  
+| `workspace_metrics`  | Retrieves historical utilization or environmental metrics for specific workspaces.  |  
+| `workspace_search`  | Searches workspaces with filters, sorting, aggregations, paging, and output format options.  |  
+###### Locations (1)  
+| Tool  | Description  |  
+| --- | --- |  
+| `location_search`  | Searches organization locations by name, city, address, location ID, or floor count.  |  
+####  anchorConnect to your MCP Client
+anchor
+Select your AI client to get connection instructions:
+  * [Amazon Quick](https://developer.webex.com/docs/webex-agentic-mcp-servers-amazon-quick)
+  * [Claude Code](https://developer.webex.com/docs/webex-agentic-mcp-servers-claude-code)
+  * [Claude Desktop](https://developer.webex.com/docs/webex-agentic-mcp-servers-claude-desktop)
+  * [Codex](https://developer.webex.com/docs/webex-agentic-mcp-servers-codex)
+  * [Copilot Studio](https://developer.webex.com/docs/webex-agentic-mcp-servers-copilot-studio)
+  * [Cursor](https://developer.webex.com/docs/webex-agentic-mcp-servers-cursor)
+  * [Gemini CLI](https://developer.webex.com/docs/webex-agentic-mcp-servers-gemini-cli)
+  * [VS Code](https://developer.webex.com/docs/webex-agentic-mcp-servers-vscode)
+
+
+####  anchorAuthentication
+anchor
+**Auth Type:** OAuth 2.0 using client ID & secret, or Webex Agentic App token
+**Issuer:** `https://webexapis.com`
+**Flow:** The MCP client obtains a Webex OAuth token and passes it via the `Authorization: Bearer <token>` header. The server forwards it to each plugin, and plugins call the Webex REST API on behalf of the authenticated user.
+####  anchorScopes
+anchor
+5 unique OAuth scopes required:  
+| Scope  | Used By  |  
+| --- | --- |  
+| `spark:mcp`  | Required for MCP server connection  |  
+| `spark-admin:devices_read`  |  `device_aggregated_event_history`, `device_configuration_diff`, `device_configuration_list`, `device_configuration_schema`, `device_configuration_template_diff`, `device_configuration_template_list`, `device_error_code_detail_search`, `device_event_history`, `device_search`, `product_lifecycle`  |  
+| `spark-admin:workspace_metrics_read`  |  `workspace_aggregated_capacity_utilization`, `workspace_aggregated_popularity_metrics`, `workspace_aggregated_usage_metrics`, `workspace_metrics`  |  
+| `spark-admin:workspaces_read`  | `workspace_search`  |  
+| `spark-admin:workspace_locations_read`  | `location_search`  |  
+**Full scope string:**
+
+```
+spark:mcp spark-admin:devices_read spark-admin:workspace_metrics_read spark-admin:workspaces_read spark-admin:workspace_locations_read
+
+```
+
+##### In This Article
+  * [What is Workspaces MCP Server?](https://developer.webex.com/mcp/docs/workspaces-mcp-server#what-is-workspaces-mcp-server)
+  * [Tools](https://developer.webex.com/mcp/docs/workspaces-mcp-server#tools)
+  * [Connect to your MCP Client](https://developer.webex.com/mcp/docs/workspaces-mcp-server#connect-to-your-mcp-client)
+  * [Authentication](https://developer.webex.com/mcp/docs/workspaces-mcp-server#authentication)
+  * [Scopes](https://developer.webex.com/mcp/docs/workspaces-mcp-server#scopes)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
