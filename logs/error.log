@@ -286,3 +286,5 @@ Code context:
 [2026-08-13T02:56:42.577573] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://www.cisco.com/content/cdc/login.html
 [2026-08-13T02:56:45.465949] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://www.cisco.com/c/en/us/solutions/cisco-validated.html
 [2026-08-13T02:56:52.013995] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://id.cisco.com/signin/register
+[2026-08-13T02:59:27.563907] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.cisco.com/c/en/us/products/conferencing/index.html
+[2026-08-13T02:59:30.456625] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://www.cisco.com/c/en/us/solutions/collaboration/service-listing.html
