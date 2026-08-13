@@ -30082,3 +30082,155 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Contact Center](https://www.cisco.com/c/en/us/support/contact-center/category.html)
+  * [Webex Contact Center](https://www.cisco.com/c/en/us/support/customer-collaboration/webex-contact-center/series.html)
+
+
+# Converting Audio Files Compatible to Webex Contact Center U-law Wav Files Using Audacity Recording Application Software.
+![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)
+Download
+Print
+### Available Languages
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)
+
+
+### Download Options
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.epub) (625.7 KB)   
+View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.mobi) (556.5 KB)   
+View on Kindle device or Kindle app on multiple devices
+
+
+Updated:September 11, 2023
+Document ID:220878
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+## Contents
+[Introduction](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html#toc-hId-1483008476)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html#toc-hId--324445987)
+[Requirements:](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html#toc-hId-366115487)
+[Components Used](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html#toc-hId--1441338976)
+[Problem Statement](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html#toc-hId-1035670753)
+[Solution](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html#toc-hId--771783710)
+[Instructions to convert compatible audio files using Audacityrecording application software.](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html#toc-hId--81222236)
+## Introduction
+This document describesthe steps to configure a compatible U-law wav files in Audacity before importing the file to Webex Contact Center.
+## Prerequisites
+### **Requirements:**
+  * Webex Contact Center Administrator access to the tenant.
+  * Audacity a recording application software (A free and open-source digital audio editor)
+
+
+### Components Used
+The information in this document is based on these software versions:
+  * WxCC 2.0
+  * Audacity 3.3.2
+
+
+The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
+[![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif "note-icon")
+**Note** : This document is targeted towards customers and partners who have custom audio files to be played when end callers reach IVR prompts.
+## **Problem Statement**
+**The imported audio file in Routing Strategy - > Resources -> Audios Files is added in the flow but when the flow is pulled to play that audio wav file, the file does not play. Although the file is triggered.**
+**Refer:** Imported an audio file: OUH_SD_Old_phone_number_removal.wav
+[![image1](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-00.png "image1")
+Used this Audio File on a PlayMusic node and published the flow and called in to check if the file plays. Could see the file is triggered in Debug but the wav file did not play as the caller did not hear any audio.
+[![image2](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-01.png "image2")
+## **Solution**
+Webex Contact Center supports uploading .wav audio files with the specifications:
+  1. Channels: 2
+  2. Sample Rate: 8000
+  3. Precision: 14-bit
+  4. Bit Rate: 128k
+  5. Sample Encoding: 8-bit u-law
+
+
+### **Instructions to convert compatible audio files using Audacity recording application software.**
+**Step 1:**
+Open Audacity and -  _before importing the file_ - open preferences to change the project resolution settings.
+[![image3](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-02.png "image3")
+**Step 2:**
+Change the project sample rate from the default 44,100Hz to 8000Hz, and the format from 32-bit float to 16-bit PCM.
+[![image4](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-03.png "image4")
+[![tip-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/tip.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/tip.gif "tip-icon")
+**Tip** : Now that the project sample rate is set correctly, import the provided audio file. Source format does not matter, Audacity is capable of handling a wide range of input and output formats, which is why it is useful here.
+[![image5](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-04.png)](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-04.png "image5")
+**Step 3:**
+Down mix the audio from stereo (two tracks, for two speakers) to mono (one track, for a handset single speaker).  
+Click on the imported track and press **Ctrl+A** to select it. If the source audio is already mono, skip this step.
+[![image6](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-05.png)](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-05.png "image6")
+**Step 4:**
+Resample the new mono track down to the appropriate 8kHz. You need to press **Ctrl+A** again beforehand.
+[![image7](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-06.png)](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-06.png "image7")
+**Step 5:**
+You now have the appropriate number of tracks, and correct sampling rate. Time to export the track.
+[![image8](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-07.png)](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-07.png "image8")
+**Step 6:**
+Make sure the export format is **WAV (Microsoft)** and encoding profile is changed to **U-Law**.  
+This is the most critical step as the formatting and encoding must be correct for the device to process it.
+[![image9](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-08.png)](https://www.cisco.com/c/dam/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web-08.png "image9")
+### Revision History  
+| Revision  | Publish Date  | Comments  |  
+| --- | --- | --- |  
+| 1.0  |  12-Sep-2023   | Initial Release  |  
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html "Back to Top")
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+### Contributed by Cisco Engineers
+  * Jeevan Poovaiah
+Cisco TAC Engineer
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+### Contact Cisco
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/contact-center/webex-contact-center/220878-converting-audio-files-compatible-to-web.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
+
+
+### This Document Applies to These Products
+  * [Webex Contact Center](https://www.cisco.com/c/en/us/support/customer-collaboration/webex-contact-center/series.html)
+
+
