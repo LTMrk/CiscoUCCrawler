@@ -11921,3 +11921,204 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/create/docs/app-hub-submission-process
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/create/docs/app-hub-submission-process)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/create/docs/app-hub-submission-process)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/create/docs/app-hub-submission-process)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Submit Your App
+Getting Started
+  * [Getting Started](https://developer.webex.com/create/docs)
+  * [Authentication](https://developer.webex.com/create/docs/authentication)
+  * [Login with Webex](https://developer.webex.com/create/docs/login-with-webex)
+  * [AI Assistant for Developers](https://developer.webex.com/create/docs/webex-aI-assistant-for-developers)
+  * Agentic Apps
+  * Bots
+  * Embedded Apps
+  * Integrations
+  * Service Apps
+  * Instant Connect
+  * Workspace Integrations
+  * Bring Your Own Datasource
+  * [Suite Sandbox](https://developer.webex.com/create/docs/developer-sandbox-guide)
+  * [Contact Center Sandbox](https://developer.webex.com/create/docs/sandbox_cc)
+  * [Guest to Guest Sandbox](https://developer.webex.com/create/docs/g2g-sandbox)
+  * [Submit Your App](https://developer.webex.com/create/docs/app-hub-submission-process)
+  * [Tutorials](https://developer.webex.com/create/docs/tutorials)
+
+
+## Getting Started
+### Submit Your App
+The [Webex App Hub](https://apphub.webex.com/) enables anyone to share their embedded apps, integrations, and bots with the rest of the Webex community.
+![AppHub screenshot](https://images.contentstack.io/v3/assets/bltd14fd2a03236233f/bltc452841b7514fff6/65d63cda849f315a7ae98e0b/download)
+####  anchorWhat Is Webex App Hub
+anchor
+The [Webex App Hub](https://apphub.webex.com/) is an ecosystem of third-party and Cisco-built integrations, bots, service apps, and embedded apps. These apps are purpose-built and allow Webex users to bring their external workflows into Webex to expand their current productivity. By publishing your app on the App Hub, your product or service is introduced to thousands of daily users looking to discover new tools that will amplify their workflow.
+Follow the submission steps outlined in this article as a guide on how to get your app published on the App Hub. If you prefer to keep your app private, that's not an issue! Even if you create an app and choose not to submit it, users in your Webex Org can still add your app without it being publicly available.
+Still in? **Great!**
+####  anchorReview Process
+anchor
+To be published on the App Hub, all submissions will go through a thorough review process. In the first phase of the review process, the team will review all required public facing marketing materials. In the second phase, we will conduct functionality and usability testing. Throughout this process, the team will communicate and work directly with you to meet all requirements via email. Once you submit, a ticket is opened with the review team, and they will respond with the next steps.
+**Here is a list of some general things that we will be looking for:**
+  * NO grammatical errors, foul language, or obscene images
+  * All stated features are fully operational (Production Ready, No Demo/Test Integrations)
+  * No third-party advertisements or references/mentions to Webex competitors
+  * NO "Cisco", "Spark", "Webex", "Teams", or other Cisco trademarks in the app title or logo without express permission from Cisco
+  * Use of minimal scopes necessary for your submission to operate
+  * **Bots Only** (Must responds to commands like: "hi," "help," or "hello" when someone messages it for the first time)
+
+
+Once all requirements have been met, your app will be published to the [Webex App Hub](https://apphub.webex.com/).
+####  anchorHow To Submit
+anchor
+Once you are ready to submit, you can click the button labeled “Submit to Webex App Hub” on the application’s registration form.
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blta7842bd6e82bd0d6/65aec6eac992b73353b8b938/Screenshot_2024-01-22_at_13.46.33.png)
+The **Submit to Webex App Hub** button will only appear after the **Congratulations** page is refreshed.
+When you submit, you will receive an automated email stating that your submission has been received. During the review process, the App Hub team will validate all the below outlined items. If any changes need to be made, you will receive an email from the App Hub team with the requested proposed changes. The review process is transparent, and depending on how quickly the proposed changes are addressed. The review process can move very quickly. Once all form fields are reviewed and are deemed satisfactory. The technical review of the submission will begin.
+The technical review stage is where the App Hub team test your submission using demo Webex accounts. Depending on the type of submission, and the provided testing instructions. Testing will vary, as some submission types have multiple contexts in which they can operate. We do test your submission on all applicable major OS and Device platforms to include, Apple (iPad, MacOS, iPhone), Microsoft Windows (Desktop), Android OS (Tablet, Phone). We will test all stated functionality thoroughly, along with evaluating the overall user experience. All proposed required changes will be communicated within the subsequent email thread that was sent as confirmation your submission was received.
+####  anchorSubmission Guidelines
+anchor
+Please carefully review the following sections below, as these are the required fields that you will need to fill out within the submission portal. 
+###### The Submission Name
+The name of your submission should not begin with the words "Cisco" or "Webex". They can be appended at the end of your app name. Example: "My App for Webex".
+![AppHub App Name](https://images.contentstack.io/v3/assets/bltd14fd2a03236233f/blta57237519e0024b0/65d8ede8b6c3361b3e55b1c1/download)
+###### Logo
+Your logo cannot contain any Webex or Cisco branding in it.
+![AppHub Logo Section](https://images.contentstack.io/v3/assets/bltd14fd2a03236233f/bltba8cfb6beaddf8dd/65d8ede8700fb226bde873d7/download)
+Note: All logos must be 512x512 dimensions. If the dimension are not exact, the upload will fail.
+###### Description
+The description should incorporate at a minimum all of the following:
+  1. A short sentence describing what your organization does. For example, “My Org specializes in productivity and collaboration services that helps the world be more effective.”
+  2. A short sentence describing what your app does. For example, “My App is a Webex integration that enables sales teams to sell more in Webex Meetings.”
+  3. A list of benefits that your app brings to the Webex ecosystem.
+  4. A sentence that starts with “To use My App, …” followed by a set of prerequisites a Webex user will need to get started with using your app. Do users need to have an account with your organization? Do users need to have a paid or free Webex Account?
+  5. If the app is not entirely a free service, we always ask that you add an additional sentence that includes where to find more information on pricing. If you do not want to share this information publicly, then you can say something like “Please contact our sales team at example.com for questions on pricing.” If the app is a free service, then say that explicitly here.
+
+
+![AppHub description no markdown](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt7ad4d4db6c8514c3/65aed63b130790ecf5cc0fa0/apphub_desc.png)
+If you notice the “M” markdown button is blue, editing will not be allowed. To edit, click the blue box to enable the "editing" mode.
+###### The Integration Scopes
+When selecting scopes for your submission, you should select the **minimum necessary scopes** for your app to function. This is to ensure that a user is not being asked to authorize more access than is necessary which can raise a security concern.
+![Scopes section](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltfc1fc452fd204456/65aed72ec3bf060776fe0575/scopes_header.png)
+###### The Summary
+The summary is the set of text that will appear below the app name on the App Hub. This needs to be a unique string of text, and it cannot be the same as the first line of your app description. The summary should also not be derived from any other text areas within the submission form.
+![Summary section](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltdcc486d01cbc4459/65aed4dfc7bb161270a2a2c0/summary_section.png)
+###### Categories
+You can choose up to three categories that describe your submission. Users will filter through apps on the App Hub by selecting these categories. 
+Note: If your Organization is not a member of the [Cisco Solutions Plus](https://developer.cisco.com/ecosystem/dnsp/) program, please do not select the “Partner Solutions” category.
+  
+
+![Categories section](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltf814bcc47685cd8f/65aed4dfc7bb16acc1a2a2c4/categories_section.png)
+###### Landing Page
+The landing page is a publicly accessible page that serves as a informational page on "how to get started" with your app. This page cannot require any authentication to access it. The landing page also must be hosted on your organization's web domain, and be a page solely dedicated to showcasing/sharing information about your app. 
+Also be sure to adhere to the [Cisco Webex Branding Guidelines](https://resources.webex.com/webex/integration-partners?guest_pw=ee9ec6b533f59d511dbf94f7599c8c043294ae11111c71c5e3945aec2032c43b) when designing your landing page. If Webex or Cisco logos are used, they must be the most up-to-date versions. Additionally, when spelling Webex, make sure the "e" in ex is not capitalized.
+![Landing page section](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt51310be2d9f21f36/65aed4df14eace46c8a5bf7a/landingpage_section.png)
+###### Contact
+This contact name and email should be for an actual person who will be responsible for responding to the Webex App Hub Review team when changes to the submission need to be made. Please ensure that the contact entered has access to the Webex account that is associated with your app that was created in the Webex Developer Portal. We often see a generic email address, such as `support@example.com` or `engineering@example.com`. Such generic emails will not be accepted. 
+![contact section](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt8393b1dbe0d6cbd0/65aed4dfdbd0c3366dad43fb/contact_section.png)
+####  anchorMultiple Submission Guidelines
+anchor
+The following section covers guidelines for submitting multiple app submissions.
+###### Bots
+  * Developers can submit multiple bots, granted they are distinct and can be easily differentiated from other bots already submitted by the same company. Points of differentiation should encompass, but are not limited to, the bot's description, logo, and use case.
+  * Bots that require an integration to function, can either have their integration submission listed or the bot submission listed on App Hub, but not both. As general guidance, if you have an integration already listed on App Hub. You should update the current integration listing with the bot's email address instead of making a bot submission.
+
+
+###### Integrations (Meetings, Messaging, Contact Center, Calling, Service App)
+  * Developers can submit multiple integrations, granted they are distinct and can be easily differentiated from other integrations already submitted by the same company. Points of differentiation should encompass, but are not limited to, the integration's description, logo, and use case. Additionally, for multiple integrations from the same company, evidence of each integration being sold under its own separate SKU is required.
+
+
+###### Embedded Apps (In-Meeting, In-Space, Sidebar)
+  * Developers can submit multiple Embedded Apps, granted they are distinct and can be easily differentiated from other embedded apps submitted by the same company. Points of differentiation should encompass, but are not limited to, the Embedded App's description, logo, and use case. Additionally, for multiple Embedded Apps from the same company, evidence of each Embedded App being sold under its own separate SKU is required.
+  * Embedded Apps featuring multiple App Contexts (Sidebar, In-Space, In-Meeting) will be considered a single listing on App Hub. And will not be allowed to be submitted as separate listings.
+
+
+####  anchorNeed Some Help? We Got You Covered
+anchor
+We are excited to provide you with support for your App Hub submission. If you need help, the [Webex Developer Support Team](https://developer.webex.com/support) is standing by and happy to point you in the right direction. You can also start or join a conversation on Webex for [Developers Community Forum](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers).
+####  anchorApp Hub Resources
+anchor
+[My Apps](https://developer.webex.com/my-apps)[Create a New App](https://developer.webex.com/my-apps/new)[Explore App Hub](https://apphub.webex.com)
+##### In This Article
+  * [What Is Webex App Hub](https://developer.webex.com/create/docs/app-hub-submission-process#what-is-webex-app-hub)
+  * [Review Process](https://developer.webex.com/create/docs/app-hub-submission-process#review-process)
+  * [How To Submit](https://developer.webex.com/create/docs/app-hub-submission-process#how-to-submit)
+  * [Submission Guidelines](https://developer.webex.com/create/docs/app-hub-submission-process#submission-guidelines)
+  * [Multiple Submission Guidelines](https://developer.webex.com/create/docs/app-hub-submission-process#multiple-submission-guidelines)
+  * [Need Some Help? We Got You Covered](https://developer.webex.com/create/docs/app-hub-submission-process#need-some-help-we-got-you-covered)
+  * [App Hub Resources](https://developer.webex.com/create/docs/app-hub-submission-process#app-hub-resources)
+
+
+##### Related Resources
+  * [Bots](https://developer.webex.com/docs/bots "Bots")
+  * [Integrations & Authorization](https://developer.webex.com/docs/integrations "Integrations & Authorization")
+  * [Embedded Apps Overview](https://developer.webex.com/docs/embedded-apps "Embedded Apps Overview")
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
