@@ -7982,5 +7982,9 @@
   "https://developer.webex.com/docs/api/v1/meetings/list-meetings-by-an-admin": {
     "hash": "d00ba5f40de71042dcbd7f443fa00c7b33fa2842319fc486ce73f283875b0497",
     "timestamp": "2026-08-13T02:10:23.961949"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings/list-group-meetings": {
+    "hash": "343c10103db4597c133fd3c6ad3ab7b742f993c010364c07054e50ee72254a0d",
+    "timestamp": "2026-08-13T02:10:30.481258"
   }
 }
