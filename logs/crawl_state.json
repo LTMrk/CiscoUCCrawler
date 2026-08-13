@@ -8366,5 +8366,9 @@
   "https://developer.webex.com/docs/api/v1/people/create-a-person": {
     "hash": "fe4d7a6fb6a794c9b211ae7444f166e7b9c7e82e30cbd9c8548f3f67539f85ce",
     "timestamp": "2026-08-13T13:02:37.099953"
+  },
+  "https://developer.webex.com/docs/api/v1/people/update-a-person": {
+    "hash": "c183ed6795f2ecd570f4272d60e138537fa20293db622350833141260d016fcb",
+    "timestamp": "2026-08-13T13:02:43.684437"
   }
 }
