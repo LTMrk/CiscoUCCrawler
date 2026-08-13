@@ -8010,5 +8010,9 @@
   "https://developer.webex.com/docs/api/v1/meetings/get-meeting-control-status": {
     "hash": "31f8e9878aee9e99286b1e7b4e2841cfec5415916a82422aa2331e1c7db20d75",
     "timestamp": "2026-08-13T02:11:10.818190"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings/update-meeting-control-status": {
+    "hash": "46d2028af41a6b8c3a208a91f47b74b3b4c40b26ceb429aa44d7eb349141a1fc",
+    "timestamp": "2026-08-13T02:11:17.649853"
   }
 }
