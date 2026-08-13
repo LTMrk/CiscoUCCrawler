@@ -35266,3 +35266,13 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/api/v1/meeting-transcripts/list-meeting-transcripts-for-compliance-officer
+
+
+```
+{"error":"Unauthorized","reason":"EBADCSRFTOKEN"}
+```
+
