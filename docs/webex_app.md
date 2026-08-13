@@ -7067,3 +7067,202 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/messaging/docs/messaging-mcp-server
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/messaging/docs/messaging-mcp-server)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/messaging/docs/messaging-mcp-server)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/messaging/docs/messaging-mcp-server)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Messaging MCP Server
+Webex Messaging
+  * [Overview](https://developer.webex.com/messaging/docs/messaging)
+  * Guides
+    * [Access the API](https://developer.webex.com/messaging/docs/getting-started)
+    * [Integrations & Authorization](https://developer.webex.com/messaging/docs/integrations)
+    * [Using Webex Service Apps](https://developer.webex.com/messaging/docs/service-apps)
+    * [Bots](https://developer.webex.com/messaging/docs/bots)
+    * [Webhooks](https://developer.webex.com/messaging/docs/api/guides/webhooks)
+    * [Buttons and Cards](https://developer.webex.com/messaging/docs/buttons-and-cards)
+    * [Messaging MCP Server](https://developer.webex.com/messaging/docs/messaging-mcp-server)
+  * [REST API Basics](https://developer.webex.com/messaging/docs/basics)
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * SDK
+  * [AI Assistant for Developers](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/messaging/docs/api/guides/troubleshooting)
+  * [Widgets](https://developer.webex.com/messaging/docs/widgets)
+  * [Tutorials](https://developer.webex.com/messaging/docs/tutorials)
+  * [Suite Sandbox](https://developer.webex.com/messaging/docs/developer-sandbox-guide)
+  * [Beta Program Overview](https://developer.webex.com/messaging/docs/webex-developer-beta-program)
+  * [Webex Status API](https://developer.webex.com/messaging/docs/webex-status-api)
+
+
+## Webex Messaging
+### Messaging MCP Server
+####  anchorWhat is Messaging MCP Server?
+anchor
+Webex Messaging MCP Server connects AI tools and workflows to Webex Messaging capabilities. It enables agents and apps to create, edit, delete, and retrieve messages in 1:1 and group spaces; manage spaces and memberships; and search messages, files, and spaces.
+This makes it easy to automate team communications, route alerts and updates into the right spaces, streamline collaboration setup, support compliance and discovery workflows, and build assistants that help teams work more effectively inside Webex.
+> **Prerequisites:** This MCP server must be enabled by your organization's admin in Webex Control Hub before it can be used. See [Provisioning on Control Hub](https://developer.webex.com/docs/provisioning-on-control-hub) for details.
+  * **Server URL:** `https://mcp.webexapis.com/mcp/webex-messaging`
+
+
+####  anchorTools
+anchor
+24 tools covering messaging, spaces, memberships, webhooks, files, and threading:
+###### Messages (5)  
+| Tool  | Description  |  
+| --- | --- |  
+| `webex-create-message`  | Create a new message in a Webex space or 1:1 direct message. Supports plain text, markdown, HTML, file URL attachments, and adaptive card attachments.  |  
+| `webex-edit-message`  | Edit an existing message by messageId and roomId. Supports text or markdown only (not HTML).  |  
+| `webex-delete-message`  | Delete a message from a Webex space. Destructive and irreversible. Works for both 1:1 and group spaces.  |  
+| `webex-get-message`  | Retrieve a single message by ID or list messages in a room with optional filters (mentionedPeople, before/after, parentId).  |  
+| `webex-search-messages`  | Search messages in a Webex space by roomId with optional keyword query, date range, mentionedPeople, parentId, or hasFiles filters.  |  
+###### Spaces (5)  
+| Tool  | Description  |  
+| --- | --- |  
+| `webex-create-space`  | Create a new Webex space (room) with title and optional teamId, isLocked, isAnnouncementOnly settings.  |  
+| `webex-get-space`  | Get a space by roomId or list spaces filtered by type (direct/group), teamId, and sortBy.  |  
+| `webex-update-space`  | Update space properties including title, isLocked, and isAnnouncementOnly.  |  
+| `webex-delete-space`  | Delete a space or remove the caller from it, depending on role. Deleted spaces cannot be recovered.  |  
+| `webex-search-spaces`  | Search spaces with type filter, teamId, and sortBy.  |  
+###### Memberships (4)  
+| Tool  | Description  |  
+| --- | --- |  
+| `webex-add-membership`  | Add a member to a space by roomId and personId or personEmail. Optionally grant moderator privileges.  |  
+| `webex-get-membership`  | Get a membership by ID or list memberships filtered by roomId, personId, or personEmail.  |  
+| `webex-update-membership`  | Update membership properties such as moderator role or isRoomHidden.  |  
+| `webex-remove-membership`  | Remove a member from a space by membershipId.  |  
+###### Webhooks (4)  
+| Tool  | Description  |  
+| --- | --- |  
+| `webex-create-webhook`  | Create a webhook for real-time event notifications (messages, memberships, rooms, meetings, recordings, etc.) with optional filter and HMAC secret.  |  
+| `webex-get-webhook`  | Get a webhook by ID or list all webhooks.  |  
+| `webex-update-webhook`  | Update webhook name, targetUrl, secret, and status.  |  
+| `webex-delete-webhook`  | Delete a webhook by webhookId.  |  
+###### Files (4)  
+| Tool  | Description  |  
+| --- | --- |  
+| `webex-share-file`  | Share files in a Webex space by attaching public file URLs to messages.  |  
+| `webex-upload-file`  | Upload a file to a Webex space via base64-encoded content with fileName and contentType.  |  
+| `webex-get-file-details`  | Get file metadata (Content-Type, Content-Length, Content-Disposition) from a Webex message file URL.  |  
+| `webex-download-file`  | Download file content from a Webex message file URL. Returns base64-encoded content.  |  
+###### Threading (2)  
+| Tool  | Description  |  
+| --- | --- |  
+| `webex-create-thread-reply`  | Create a threaded reply to a message in a Webex space. Requires roomId, parentId, and text or markdown.  |  
+| `webex-get-thread`  | Get all threaded replies for a parent message by roomId and parentId.  |  
+####  anchorConnect to your MCP Client
+anchor
+Select your AI client to get connection instructions:
+  * [Amazon Quick](https://developer.webex.com/docs/webex-agentic-mcp-servers-amazon-quick)
+  * [Claude Code](https://developer.webex.com/docs/webex-agentic-mcp-servers-claude-code)
+  * [Claude Desktop](https://developer.webex.com/docs/webex-agentic-mcp-servers-claude-desktop)
+  * [Codex](https://developer.webex.com/docs/webex-agentic-mcp-servers-codex)
+  * [Copilot Studio](https://developer.webex.com/docs/webex-agentic-mcp-servers-copilot-studio)
+  * [Cursor](https://developer.webex.com/docs/webex-agentic-mcp-servers-cursor)
+  * [Gemini CLI](https://developer.webex.com/docs/webex-agentic-mcp-servers-gemini-cli)
+  * [VS Code](https://developer.webex.com/docs/webex-agentic-mcp-servers-vscode)
+
+
+####  anchorAuthentication
+anchor
+**Auth Type:** OAuth 2.0 Bearer Token
+**Issuer:** `https://webexapis.com`
+**Flow:** The MCP client obtains a Webex OAuth token and passes it via the `Authorization: Bearer <token>` header. The server forwards it to each plugin, and plugins call the Webex REST API (webexapis.com) on behalf of the authenticated user.
+####  anchorScopes
+anchor
+9 unique OAuth scopes required:  
+| Scope  | Used By  |  
+| --- | --- |  
+| `spark:mcp`  | Required for MCP server connection  |  
+| `spark:messages_read`  |  `webex-get-message`, `webex-search-messages`, `webex-get-file-details`, `webex-download-file`, `webex-get-thread`  |  
+| `spark:messages_write`  |  `webex-create-message`, `webex-edit-message`, `webex-delete-message`, `webex-share-file`, `webex-upload-file`, `webex-create-thread-reply`  |  
+| `spark:rooms_read`  |  `webex-get-space`, `webex-search-spaces`  |  
+| `spark:rooms_write`  |  `webex-create-space`, `webex-update-space`, `webex-delete-space`  |  
+| `spark:memberships_read`  | `webex-get-membership`  |  
+| `spark:memberships_write`  |  `webex-add-membership`, `webex-update-membership`, `webex-remove-membership`  |  
+| `spark:webhooks_read`  | `webex-get-webhook`  |  
+| `spark:webhooks_write`  |  `webex-create-webhook`, `webex-update-webhook`, `webex-delete-webhook`  |  
+**Full scope string:**
+
+```
+spark:mcp spark:messages_read spark:messages_write spark:rooms_read spark:rooms_write spark:memberships_read spark:memberships_write spark:webhooks_read spark:webhooks_write
+
+```
+
+##### In This Article
+  * [What is Messaging MCP Server?](https://developer.webex.com/messaging/docs/messaging-mcp-server#what-is-messaging-mcp-server)
+  * [Tools](https://developer.webex.com/messaging/docs/messaging-mcp-server#tools)
+  * [Connect to your MCP Client](https://developer.webex.com/messaging/docs/messaging-mcp-server#connect-to-your-mcp-client)
+  * [Authentication](https://developer.webex.com/messaging/docs/messaging-mcp-server#authentication)
+  * [Scopes](https://developer.webex.com/messaging/docs/messaging-mcp-server#scopes)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
