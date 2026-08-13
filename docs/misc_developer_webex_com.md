@@ -15451,3 +15451,111 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/docs/webex-agentic-mcp-servers-copilot-studio
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-copilot-studio)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-copilot-studio)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-copilot-studio)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Copilot Studio
+AI in Webex
+  * Webex MCP Servers
+  * Security Guides
+  * Cisco Onboarded MCP Servers
+  * Federated through External Registery
+  * Agentic Apps
+  * Connect Webex MCP Servers to External Clients
+    * [Overview](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers)
+    * [Amazon Quick](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-amazon-quick)
+    * [Claude Code](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-claude-code)
+    * [Claude Desktop](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-claude-desktop)
+    * [Codex](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-codex)
+    * [Copilot Studio](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-copilot-studio)
+    * [Cursor](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-cursor)
+    * [Gemini CLI](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-gemini-cli)
+    * [VS Code](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-vscode)
+  * Connect External MCP Servers to Webex AI
+  * [Beta Program Overview](https://developer.webex.com/mcp/docs/webex-developer-beta-program)
+
+
+## AI in Webex
+### Copilot Studio
+This guide walks you through how you can connect your agent in Copilot Studio to Webex MCP server.
+> Before configuring, you'll need OAuth 2.0 credentials. See [OAuth 2.0 setup instructions](https://developer.webex.com/docs/webex-agentic-mcp-servers#2-oauth-20) in the main guide.
+####  anchorUse the MCP Onboarding Wizard
+anchor
+The simplest way to connect to an existing MCP server is directly within Copilot Studio using the MCP onboarding wizard.
+There are two parts to this method:
+  * Configure the basic MCP server details
+  * Configure authentication with your MCP server
+
+
+####  anchorConfigure Basic Server Details
+anchor
+  1. Go to the **Tools** page for your agent
+  2. Select **Add a tool**
+  3. Select **New tool**
+  4. Select **Model Context Protocol**. The MCP onboarding wizard appears.
+  5. Fill in the required fields: **Server name** , **Server description** , and **Server URL**
+  6. Select the authentication type for the MCP server as **OAuth 2.0**
+  7. Select **Manual** as the OAuth 2.0 type. More fields will appear for you to configure the OAuth 2.0 settings.
+
+
+> Make sure to write a brief, but clear description of what your MCP server does. The agent orchestrator uses this information to identify whether to call your server at runtime.
+####  anchorOAuth Configuration
+anchor
+Fill in the required fields — **Client ID** and **Client secret** are from your [Webex OAuth 2.0 Integration](https://developer.webex.com/docs/webex-agentic-mcp-servers#2-oauth-20):
+  * **Client ID**
+  * **Client secret**
+  * **Authorization URL:** `https://webexapis.com/v1/authorize`
+  * **Token URL template:** `https://webexapis.com/v1/access_token`
+  * **Refresh URL:** `https://webexapis.com/v1/access_token`
+  * **Scopes:** The permissions your app is asking for, as a space-separated list
+
+
+Select **Create** to add the server. A callback URL appears.
+Copy the callback URL to add to your application's registration when creating your Webex OAuth 2.0 Integration.
+Select **Next** to continue.
+####  anchorCreate a New Connection and Add the MCP Server to Your Agent
+anchor
+  1. On the **Add tool** dialog, select **Create a new connection** for your MCP server or use an existing one
+  2. Select **Add to agent** to finish adding the MCP server to your agent
+
+
+####  anchorResources
+anchor
+  * [Copilot Studio Official Documentation](https://learn.microsoft.com/en-us/microsoft-copilot-studio/agent-extend-action-mcp)
+
+
+##### In This Article
+  * [Use the MCP Onboarding Wizard](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-copilot-studio#use-the-mcp-onboarding-wizard)
+  * [Configure Basic Server Details](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-copilot-studio#configure-basic-server-details)
+  * [OAuth Configuration](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-copilot-studio#oauth-configuration)
+  * [Create a New Connection and Add the MCP Server to Your Agent](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-copilot-studio#create-a-new-connection-and-add-the-mcp-server-to-your-agent)
+  * [Resources](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-copilot-studio#resources)
+
+
+##### Related Resources
+  * [Copilot Studio Official Documentation](https://learn.microsoft.com/en-us/microsoft-copilot-studio/agent-extend-action-mcp "Copilot Studio Official Documentation")
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
