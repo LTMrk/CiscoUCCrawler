@@ -8254,5 +8254,9 @@
   "https://developer.webex.com/docs/guest-issuer": {
     "hash": "a2279642b262ede135bf4478df5efd0ffdeb4e47d612c825fb3954cba96fda4b",
     "timestamp": "2026-08-13T02:17:36.387822"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-participants/query-meeting-participants-with-email": {
+    "hash": "4660b06c4ff2c8191350432ba3bfeeb5143124c521303e61444a22dcb9464b9c",
+    "timestamp": "2026-08-13T02:17:46.615081"
   }
 }
