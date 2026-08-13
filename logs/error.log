@@ -291,3 +291,12 @@ Code context:
  781                       # Walk the redirect chain.  Playwright returns only the last
  782                       # hop, so we trace the `request.redirected_from` links until the
  783                       # first response that differs from the final one and surface its | URL: https://www.webex.com/content/dam/wbx/us/images/downloads/rebrand/uc.apk
+[2026-08-13T12:18:27.301701] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://signup.webex.com
+[2026-08-13T12:18:28.566479] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/suite/events.html
+[2026-08-13T12:18:29.818691] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/workspaces/explore.html
+[2026-08-13T12:18:31.085063] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/customer-experience/contact-center.html
+[2026-08-13T12:18:32.753284] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://cpaas.webex.com
+[2026-08-13T12:18:34.039174] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/customer-experience.html
+[2026-08-13T12:18:35.479689] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://hardware.webex.com/products/headsets
+[2026-08-13T12:18:36.741059] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://hardware.webex.com/products/cameras
+[2026-08-13T12:18:38.002449] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.webex.com/collaboration-devices.html
