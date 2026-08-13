@@ -206,5 +206,9 @@
   "https://developer.webex.com/login": {
     "hash": "74f55f07b45d6c13af534a403a2bed25a954edcff785a0d7a56e7ee54dc357ee",
     "timestamp": "2026-08-13T09:22:16.658816"
+  },
+  "https://developer.webex.com/signup": {
+    "hash": "93156a2771e7d99d9df0024e7ab01471e2ea782734b6c2288522f1d305016917",
+    "timestamp": "2026-08-13T09:22:20.946006"
   }
 }
