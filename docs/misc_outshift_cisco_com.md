@@ -151,3 +151,151 @@ Get the latest news and updates on agentic AI, quantum, next-gen infra, and othe
 Cookies / Do not sell or share my personal data
 [Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
 ©2025 Cisco Systems, Inc.
+
+
+---
+# ORIGEN: https://outshift.cisco.com/blog
+
+[![Outshift Logo](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/outshift-logo-text-white.svg)](https://outshift.cisco.com/)
+  * Initiatives
+  * About us
+  * [Blog](https://outshift.cisco.com/blog)
+  * Tools
+  * Case studies
+
+
+[](https://outshift.cisco.com/blog/search)
+# Outshift Blog
+![Diamond](https://outshift.cisco.com/images/graphics/middle-diamond.png)![Diamond](https://outshift.cisco.com/images/graphics/middle-diamond.png)
+[ ![Icon](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/Black.svg)![Icon](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/Black.svg)AI/ML 6 min read ![Featured home blog](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/CREA_1634_CASA_deep_dive_2a90340fb3.png) CNJulu Panat Continuous Agent Semantic Authorization (CASA) for Multi-Agent Systems  Learn how CASA brings the Internet of Cognition to life through semantic authorization, enabling trusted and intent-aligned multi-agent AI systems.  ](https://outshift.cisco.com/blog/ai-ml/continuous-agentic-semantic-authorization-for-mas)
+![Subscribe card background](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/subscribe-card-background.png)
+![Subscribe](https://outshift.cisco.com/images/pages/home/subscribe-logo.svg)
+Subscribe to 
+The Shift!
+##### Get emerging insights on innovative technology straight to your inbox.
+[Subscribe to newsletter](https://outshift.cisco.com/blog#theshift)
+![Subscribe card background](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/subscribe-card-background.png)
+![Subscribe](https://outshift.cisco.com/images/pages/home/subscribe-logo.svg)
+Subscribe to 
+The Shift!
+##### Get emerging insights on innovative technology straight to your inbox.
+[Subscribe to newsletter](https://outshift.cisco.com/blog#theshift)
+##### [The Outshift case study hub: Where real-world partner stories come together](https://outshift.cisco.com/blog/in-depth-tech/use-case-hub)
+##### [Post-Quantum Cryptography: It's Time to Rethink Digital Security](https://outshift.cisco.com/blog/quantum/quantum-safe-cryptography)
+##### [How Cisco’s culture of giving back shapes the leaders of tomorrow ](https://outshift.cisco.com/blog/inside-outshift/cisco-culture-of-giving-back-shapes-leaders-of-tomorrow)
+##### [The Outshift case study hub: Where real-world partner stories come together](https://outshift.cisco.com/blog/in-depth-tech/use-case-hub)
+##### [Post-Quantum Cryptography: It's Time to Rethink Digital Security](https://outshift.cisco.com/blog/quantum/quantum-safe-cryptography)
+##### [How Cisco’s culture of giving back shapes the leaders of tomorrow ](https://outshift.cisco.com/blog/inside-outshift/cisco-culture-of-giving-back-shapes-leaders-of-tomorrow)
+##### [The Outshift case study hub: Where real-world partner stories come together](https://outshift.cisco.com/blog/in-depth-tech/use-case-hub)
+##### [Post-Quantum Cryptography: It's Time to Rethink Digital Security](https://outshift.cisco.com/blog/quantum/quantum-safe-cryptography)
+##### [How Cisco’s culture of giving back shapes the leaders of tomorrow ](https://outshift.cisco.com/blog/inside-outshift/cisco-culture-of-giving-back-shapes-leaders-of-tomorrow)
+![Diamond](https://outshift.cisco.com/images/graphics/middle-diamond.png)![Diamond](https://outshift.cisco.com/images/graphics/middle-diamond.png)
+## Recent articles
+[![Featured home blog](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/Use_Cases_Website_launch_e4511646cd.png) ![Icon](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/product-icon.svg)In-depth Tech The Outshift case study hub: Where real-world partner stories come together](https://outshift.cisco.com/blog/in-depth-tech/use-case-hub)
+[AI/ML](https://outshift.cisco.com/blog/topic/artificial-intelligence)[Use Case](https://outshift.cisco.com/blog/topic/use-case)[Quantum](https://outshift.cisco.com/blog/topic/quantum)[Strategy & Insights](https://outshift.cisco.com/blog/topic/strategy-insights)[In-depth Tech](https://outshift.cisco.com/blog/topic/in-depth-tech)[Agentic AI](https://outshift.cisco.com/blog/topic/agentic-ai)[Open Source](https://outshift.cisco.com/blog/topic/open-source)[Platform Engineering](https://outshift.cisco.com/blog/topic/platform-engineering)
+[![Featured home blog](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/PQC_Blog_Quantum_bfef161005.png) ![Icon](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/quantum.svg)Quantum Post-Quantum Cryptography: It's Time to Rethink Digital Security](https://outshift.cisco.com/blog/quantum/quantum-safe-cryptography)
+[Quantum](https://outshift.cisco.com/blog/topic/quantum)
+[![Featured home blog](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/Girls_on_the_Run_0dbf9a07d3.png) ![Icon](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/inside-outshift-icon.svg)Inside Outshift How Cisco’s culture of giving back shapes the leaders of tomorrow ](https://outshift.cisco.com/blog/inside-outshift/cisco-culture-of-giving-back-shapes-leaders-of-tomorrow)
+[Inside Outshift](https://outshift.cisco.com/blog/topic/inside-outshift)
+[![Featured home blog](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/Frame_19_67a7d39b79.png) ![Icon](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/Black.svg)AI/ML Agentic AI Foundation Chairs discuss AGNTCY, AAIF, and building in the open](https://outshift.cisco.com/blog/ai-ml/aaif-chairs-interview)
+[Agentic AI](https://outshift.cisco.com/blog/topic/agentic-ai)[AI/ML](https://outshift.cisco.com/blog/topic/artificial-intelligence)[Inside Outshift](https://outshift.cisco.com/blog/topic/inside-outshift)
+[![Featured home blog](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/CREA_1634_CASA_deep_dive_2a90340fb3.png) ![Icon](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/Black.svg)AI/ML Continuous Agent Semantic Authorization (CASA) for Multi-Agent Systems ](https://outshift.cisco.com/blog/ai-ml/continuous-agentic-semantic-authorization-for-mas)
+[AI/ML](https://outshift.cisco.com/blog/topic/artificial-intelligence)[Agentic AI](https://outshift.cisco.com/blog/topic/agentic-ai)[In-depth Tech](https://outshift.cisco.com/blog/topic/in-depth-tech)[Use Case](https://outshift.cisco.com/blog/topic/use-case)[Internet of Cognition ](https://outshift.cisco.com/blog/topic/internet-of-cognition)
+[![Featured home blog](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/CREA_1634_Mycelium_Blog_c38b8ed0cd.png) ![Icon](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/Black.svg)AI/ML Mycelium: Coordination Layer for Multi-Agent Systems](https://outshift.cisco.com/blog/ai-ml/mycelium-coordination-layer-for-multi-agent-systems)
+[Agentic AI](https://outshift.cisco.com/blog/topic/agentic-ai)[AI/ML](https://outshift.cisco.com/blog/topic/artificial-intelligence)[In-depth Tech](https://outshift.cisco.com/blog/topic/in-depth-tech)[Use Case](https://outshift.cisco.com/blog/topic/use-case)[Internet of Cognition ](https://outshift.cisco.com/blog/topic/internet-of-cognition)
+Load more
+![Careers](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/BlogTopicsBG.png)
+![Blur Background](https://outshift.cisco.com/images/pages/blog/blur-bg.webp)
+![Blur Background](https://outshift.cisco.com/images/pages/blog/blur-bg.webp)
+## Explore more topics
+###### [Research](https://outshift.cisco.com/blog/topic/research)###### [Events](https://outshift.cisco.com/blog/topic/events)###### [Quantum](https://outshift.cisco.com/blog/topic/quantum)###### [Team](https://outshift.cisco.com/blog/topic/team)###### [Use Case](https://outshift.cisco.com/blog/topic/use-case)###### [Open Source](https://outshift.cisco.com/blog/topic/open-source)###### [Gen AI](https://outshift.cisco.com/blog/topic/gen-ai)###### [AI/ML](https://outshift.cisco.com/blog/topic/artificial-intelligence)###### [Agentic AI](https://outshift.cisco.com/blog/topic/agentic-ai)###### [Apps](https://outshift.cisco.com/blog/topic/apps)###### [Platform Engineering](https://outshift.cisco.com/blog/topic/platform-engineering)
+### Welcome to the future of agentic AI: The Internet of Agents
+Outshift is leading the way in building an open, interoperable, agent-first, quantum-safe infrastructure for the future of artificial intelligence.
+[Read the whitepaper](https://outshift.cisco.com/the-internet-of-agents/whitepaper)
+![thumbnail](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/CREA_838_2x_32a1a6457a.png)
+[Read the whitepaper](https://outshift.cisco.com/the-internet-of-agents/whitepaper)
+#### Featured collection
+## Agentic AI
+##### Dive into the latest predictions, industry changes, and thought leadership on agentic AI.
+[![Featured home blog](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/CREA_1603_AOP_New_Use_Cases_AIML_706153c4a9.png) AI/ML Exploring the Internet of Cognition ](https://outshift.cisco.com/blog/ai-ml/exploring-the-internet-of-cognition)
+## [AGNTCY in action: How three teams are driving agentic AI forward](https://outshift.cisco.com/blog/how-agntcy-is-empowering-the-next-wave-of-agentic-innovation)## [Agentic SDLC: A new evolution in software engineering ](https://outshift.cisco.com/blog/agentic-sdlc-new-evolution-in-software-engineering)## [Bridge the semantic gap: The mechanics of shared knowledge in cognitive AI systems ](https://outshift.cisco.com/blog/bridging-the-semantic-gap-cognitive-ai-systems)## [Why shared intent is the missing layer in multi-agent AI](https://outshift.cisco.com/blog/shared-intent-missing-layer-multi-agent-ai)[View more articles](https://outshift.cisco.com/blog/topic/agentic-ai)
+## Editor’s picks
+[![Featured home blog](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/The_State_of_Cisco_Quantum_Labs_82c123750c.png) ![Icon](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/quantum.svg)Quantum The state of Cisco Quantum Labs: The quantum networking advancements achieved in one year ](https://outshift.cisco.com/blog/quantum/state-quantum-labs-innovations)
+[![Featured home blog](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/CREA_1603_AOP_New_Use_Cases_AIML_706153c4a9.png) ![Icon](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/Black.svg)AI/ML Exploring the Internet of Cognition ](https://outshift.cisco.com/blog/ai-ml/exploring-the-internet-of-cognition)
+[![Featured home blog](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/CREA_1607_what_is_quantum_972e03d79d.webp) ![Icon](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/quantum.svg)Quantum Quantum internet 101: What it is, and why it matters](https://outshift.cisco.com/blog/quantum/quantum-internet-101-what-and-why)
+[![Featured home blog](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/Io_C_What_AI_vs_ASI_0516002c57.png) ![Icon](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/Black.svg)AI/ML AI vs. ASI: Understanding the future of artificial superintelligence](https://outshift.cisco.com/blog/ai-ml/ai-asi-future-of-artificial-superintelligence)
+![Subscribe](https://outshift.cisco.com/images/pages/home/subscribe-logo.svg)
+Subscribe to 
+The Shift
+!
+Get 
+emerging insights
+on innovative technology straight to your inbox. 
+The Shift is Outshift’s exclusive newsletter.
+Get the latest news and updates on agentic AI, quantum, next-gen infra, and other groundbreaking innovations shaping the future of technology straight to your inbox. 
+![Outshift Background](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/subscribe-background.png)
+![Footer BG](https://outshift.cisco.com/images/layout/footer/new-footer-bg-lg.webp)
+![Footer BG](https://outshift.cisco.com/images/layout/footer/new-footer-bg-sm.webp)
+![Image](https://outshift-headless-cms-s3.s3.us-east-2.amazonaws.com/logo-white.png)
+[](https://twitter.com/outshiftbycisco)
+[](https://www.linkedin.com/showcase/outshiftbycisco)
+[](https://www.youtube.com/channel/UCyf0N9nryCKAecEuCkcECxg)
+#### Initiatives
+##### Our Work
+[Internet of Agents](https://outshift.cisco.com/the-internet-of-agents)
+[Internet of Cognition](https://outshift.cisco.com/internet-of-cognition)
+[AI/ML](https://outshift.cisco.com/ai)
+[Quantum](https://outshift.cisco.com/quantum)
+[Open Source](https://outshift.cisco.com/blog/topic/open-source)
+##### Our Collaborators
+[DevNet](https://developer.cisco.com/)
+[Research](https://research.cisco.com/)
+[Quantum Labs](https://research.cisco.com/research-projects/quantum)
+[AGNTCY](https://agntcy.org/)
+#### About us
+##### Company
+[About Us](https://outshift.cisco.com/about-us)
+[Our Team](https://outshift.cisco.com/our-team)
+[The Shift](https://outshift.cisco.com/outshift-newsletter)
+##### Apply
+[Job Openings](https://outshift.cisco.com/careers)
+##### Connect
+[Events](https://outshift.cisco.com/events)
+[Contact Us](https://outshift.cisco.com/contact-us)
+[YouTube](https://www.youtube.com/channel/UCyf0N9nryCKAecEuCkcECxg)
+[LinkedIn](https://www.linkedin.com/showcase/outshiftbycisco/)
+[GitHub](https://github.com/agntcy)
+[X](https://twitter.com/outshiftbycisco)
+[BlueSky](https://bsky.app/profile/outshift.cisco.com)
+#### Blog
+##### Categories
+[AI/ML](https://outshift.cisco.com/blog/ai-ml)
+[Quantum](https://outshift.cisco.com/blog/quantum)
+[In-depth Tech](https://outshift.cisco.com/blog/in-depth-tech)
+[Strategy & Insights](https://outshift.cisco.com/blog/insights)
+[Research](https://outshift.cisco.com/blog/research)
+[Inside Outshift](https://outshift.cisco.com/blog/inside-outshift)
+#### Tools
+##### Resource Hub
+[View all](https://outshift.cisco.com/resources)
+[Ebooks](https://outshift.cisco.com/resources?type=eBooks)
+[Videos](https://outshift.cisco.com/resources?type=Videos)
+[Webinars on demand](https://outshift.cisco.com/resources?type=Webinars%20on-demand%20)
+[White papers](https://outshift.cisco.com/resources?type=White%20Papers)
+[Case studies](https://outshift.cisco.com/case-studies)
+##### Apps & Services
+[View all](https://outshift.cisco.com/services)
+[Agent Identity Service](http://agent-identity.outshift.com/)
+[Agent Directory](https://github.com/agntcy/dir)
+[AI Catalog](https://ai-catalog.outshift.io/)
+[Open Agent Schema Framework](https://schema.oasf.outshift.com/)
+[Network-aware Quantum Compiler](https://outshift.cisco.com/quantum-compiler-app)
+[Quantum Random Number Generator](https://outshift.cisco.com/quantum-random-number-generator)
+[Community AI Platform Engineering](https://github.com/cnoe-io/ai-platform-engineering)
+[Explore Cisco](https://www.cisco.com)
+![cta](https://outshift.cisco.com/images/layout/footer/cta.svg)
+[Website Terms of Use](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+Cookies / Do not sell or share my personal data
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+©2025 Cisco Systems, Inc.
