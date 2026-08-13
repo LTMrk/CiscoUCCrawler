@@ -7974,5 +7974,9 @@
   "https://developer.webex.com/docs/api/v1/meetings/patch-a-meeting": {
     "hash": "f9e87fcf5e13019a39f66197b9f20a49cfed99107ffc7c8c1903b7488d07375b",
     "timestamp": "2026-08-13T12:48:05.083519"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings/delete-a-meeting": {
+    "hash": "9fb91aab331d48054d382bca14e30bb78c31a70a459223a8efaea8cebcc0c431",
+    "timestamp": "2026-08-13T12:48:12.441773"
   }
 }
