@@ -7722,5 +7722,9 @@
   "https://developer.webex.com/docs/api/v1/user-call-settings/mark-as-unread": {
     "hash": "28ebdd78b60e7b8d27bfff894050ecba5a91dd86118037b320ce41deca6e8454",
     "timestamp": "2026-08-13T02:03:15.080029"
+  },
+  "https://developer.webex.com/docs/api/v1/user-call-settings/get-message-summary": {
+    "hash": "fd524e6b6aaa664940eb71b544fa291f53350c0da7abe9150f7cdb0bfd647f36",
+    "timestamp": "2026-08-13T02:03:19.690589"
   }
 }
