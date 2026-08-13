@@ -8294,5 +8294,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-q-and-a/list-meeting-q-and-a": {
     "hash": "6d354df254ed514581e965713c2c4e1acd2dbbc0c169d0c88401f2170921d4f8",
     "timestamp": "2026-08-13T02:18:41.371877"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-q-and-a/list-answers-of-a-question": {
+    "hash": "d41f2f8ea584a190c4ee8ecb9b8e7b6abd5a82df2ce6e2bdf181dbcbef1866af",
+    "timestamp": "2026-08-13T02:18:47.703899"
   }
 }
