@@ -25761,3 +25761,108 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-739436.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-739436.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-739436.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-739436.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-739436.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-739436.html)Show All Breadcrumbs
+  * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/products/unified-communications/index.html)
+  * [Unified Communications Applications](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html)
+  * [Cisco Jabber Softphone for VDI](https://www.cisco.com/c/en/us/products/unified-communications/jabber-softphone-for-vdi/index.html)
+  * [Data Sheets](https://www.cisco.com/c/en/us/products/unified-communications/jabber-softphone-for-vdi/datasheet-listing.html)
+
+
+# Cisco Virtualization Experience Media Edition for eLux 11.9 Data Sheet
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-739436.html) to Save Content 
+Download
+Print
+### Available Languages
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/datasheet-c78-739436.pdf) (244.6 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:August 8, 2017
+Document ID:1502229893763146
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+Extend the rich collaboration experience of Cisco Jabber for Windows to your virtualized environments by enabling intelligent processing of real-time voice and video on your local devices.
+Product Overview
+The Cisco Jabber® platform streamlines communications and enhances productivity on many platforms and devices, including PCs, Macs, tablets, and smartphones. It unifies presence, instant messaging, video, voice, voice messaging, and conferencing capabilities more securely into one client on your desktop.
+But what if your organization is implementing virtualization strategies? Now you can use the Cisco® Virtualization Experience Media Edition to deliver the same rich, uncompromised user experience of the Cisco Jabber application to virtualized desktops in addition to your PCs, Macs, tablets, and smartphones.
+How It Works
+In virtualized environments, the Cisco Jabber application is deployed in the hosted virtual desktop in the data center while Virtualization Experience Media Edition runs on the local thin client. With the Cisco Jabber application running on your hosted virtual desktop, you can see presence status, send an instant message, check voice messages, or collaborate over voice and video calls. Virtualization Experience Media Edition processes voice and video traffic locally and routes point to point between clients, bypassing the data center. This solution eliminates the effect of media hairpinning (hairpin effect) through the data center for every call. With this optimized architecture, users in virtualized settings benefit from the same uncompromised experience that they enjoy with a standard Cisco Jabber for Windows desktop deployment.
+Features and Benefits
+Table 1 lists the features and benefits of Virtualization Experience Media Edition.
+**Table 1.** Features and Benefits  
+|  Feature  |  Benefit  |  
+| --- | --- |  
+|  Cisco Jabber platform on the virtual desktop  |  ●Rich collaboration that supports the uncompromised user experience of the Cisco Jabber application   |  
+|  Local voice and video processing  |  ●Efficient use of local thin-client resources to reduce network bandwidth and data center resources, eliminating the hairpin effect for the ultimate user experience   |  
+|  Cisco Precision Video Engine  |  ●High-fidelity wideband audio and business-quality video communications up to high-definition (720p at 30 frames per second [fps])  ●Standards-based (H.264) video for interoperability with telepresence endpoints and video conferencing systems   |  
+|  Secure Real-Time Transport Protocol (SRTP)  |  ●Highly secure media encryption   |  
+|  Highly secure remote access  |  ●Highly secure remote access through native Cisco AnyConnect® Secure Mobility Client   |  
+|  Citrix XenDesktop, Citrix XenApp (Published Desktop), and VMware View  |  ●Support for superior Cisco Virtualization Experience Infrastructure experience   |  
+System Requirements
+Table 2 outlines the system requirements for Virtualization Experience Media Edition.
+**Table 2.** System Requirements for Cisco Jabber Application with Virtualization Experience Media Edition  
+|  eLux thin clients hardware  |  HP T620 Dual Core/Quad Core, Dell Wyse Z50D, Cisco VXC 6215 ●Virtualization Experience Media Edition will run on other thin clients based on specifications  ●See Release Notes for more information   |  
+| --- | --- |  
+|  eLux platform image  |  Refer to Release Notes for more information  |  
+|  Unified communications client on virtual environment  |  Cisco Jabber for Windows 11.9 running on a Windows 7, Windows 8, Windows 8.1 or Windows 10 hosted virtual desktop 5 or later ●Citrix XenApp: 7.5 or later (Published Desktops)  ●VMware Horizon: 6.0, 6.1.0, 6.2.0, 7.0, 7.1   |  
+|  Cisco Unified Communications Manager  |  Version 9.1.2 or later  |  
+|  Accessories  |  For a complete list of supported accessories, refer to the [Cisco Unified Communications Accessories](https://www.cisco.com/c/en/us/products/unified-communications/uc_endpoints_accessories.html) site  |  
+Note: Cisco Jabber Binary Floor Control Protocol (BFCP) desktop share, desk phone video (display of video on the desktop when the thin client is tethered to the user’s desk phone), hunt group (log in/log out function), group pickup, direct pickup, call statistics, Federal Information Processing Standards/Information Assurance (FIPS/IA) compliance, collaboration edge, SmartCard support with Single Sign-On (SSO), Far-End Camera Control (FECC), and Cisco Unified Survivable Remote Site Telephony (SRST) are not supported with Cisco Virtualization Experience Media Edition for Windows.
+Warranty Information
+Find warranty information on Cisco.com at the [Product Warranties](https://www.cisco.com/en/US/products/prod_warranties_listing.html) page.
+Ordering Information
+Cisco Jabber for Windows and Cisco Virtualization Experience Media Edition are a part of Cisco Unified Workspace Licensing. Visit <https://www.cisco.com/go/workspace_licensing> for more information and to determine whether Cisco Unified Workspace Licensing is appropriate for your organization.
+To download software, visit the[Cisco Software Center](https://www.cisco.com/cisco/software/navigator.html?a=a&i=rpm).
+Cisco Unified Communications Services
+Cisco and our certified partners can help you deploy a highly secure, resilient Cisco Unified Communications solution so you can meet aggressive deployment schedules and accelerate your business advantage. The Cisco portfolio of services is based on proven methodologies for unifying voice, video, data, and mobile applications on fixed and mobile networks.
+The unique Cisco lifecycle approach to services defines the requisite activities at each phase of the solution lifecycle. Customized planning and design services focus on creating a solution that meets your business needs. Award-winning technical support increases operational efficiency. Remote-management services simplify day-to-day operations, and optimization services enhance solution performance as your business needs change.
+Cisco Capital
+Financing to Help You Achieve Your Objectives
+Cisco Capital can help you acquire the technology you need to achieve your objectives and stay competitive. We can help you reduce CapEx. Accelerate your growth. Optimize your investment dollars and ROI. Cisco Capital® financing gives you flexibility in acquiring hardware, software, services, and complementary third-party equipment. And there’s just one predictable payment. Cisco Capital is available in more than 100 countries. [Learn more](https://www.cisco.com/web/ciscocapital/americas/us/index.html).
+For More Information
+For more information about the Cisco Virtualization Experience Media Edition, visit:
+●<https://www.cisco.com/go/vxme>
+●<https://www.cisco.com/go/vxi>
+●<https://www.cisco.com/go/jabber>
+### Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
