@@ -253718,3 +253718,1428 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/site/us/en/solutions/service-provider/networking/agile-services/index.html
+
+  * [Skip to main content](https://www.cisco.com/site/us/en/solutions/service-provider/networking/agile-services/index.html#fw-c-content)
+  * [Skip to search](https://www.cisco.com/site/us/en/solutions/service-provider/networking/agile-services/index.html#fw-c-header__button--search)
+  * [Skip to footer](https://www.cisco.com/site/us/en/solutions/service-provider/networking/agile-services/index.html#fw-c-footer)
+
+
+[ Cisco.com Worldwide ](https://www.cisco.com "Cisco.com Worldwide")
+###  Products and Services
+Back
+Products and Services
+Close
+[ Products and Services Home](https://www.cisco.com/site/us/en/products/index.html)
+###  Explore a better Wi-Fi 
+Deliver fast, secure connectivity across every space. Simplify management and build an AI-ready network designed for growing demands. 
+[Get started today](https://www.cisco.com/site/us/en/products/networking/wireless/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/wireless-hub-nav-284x164.jpg)
+###  Cisco Security free trials 
+Get started with the right security solution for you. Try out our security solutions before you buy them.
+[Start a free trial](https://www.cisco.com/site/us/en/products/security/trials-offers.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/security-default-offer-card.jpg)
+###  Discover Cisco IQ 
+See more, move faster, go farther. Human expertise meets agentic intelligence in every Cisco Services engagement.
+[Read the blog](https://blogs.cisco.com/news/cisco-iq-is-generally-available-heres-what-that-actually-means)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/services-cx-cisco-iq.jpg)
+  1. Networking
+  2. Security
+  3. Collaboration
+  4. Computing
+  5. Observability
+  6. Software
+  7. Services (CX)
+
+
+Back
+Networking
+Close
+## Products
+  * [Switches](https://www.cisco.com/site/us/en/products/networking/switches/index.html)
+  * [Routers](https://www.cisco.com/site/us/en/products/networking/sdwan-routers/index.html)
+  * [Wireless](https://www.cisco.com/site/us/en/products/networking/wireless/index.html)
+  * [Optics and transceivers](https://www.cisco.com/site/us/en/products/networking/optics-transceiver-modules/index.html)
+  * [Silicon](https://www.cisco.com/site/us/en/products/networking/silicon-one/index.html)
+  * [Networking software](https://www.cisco.com/site/us/en/products/networking/software/index.html)
+
+
+[ Explore Networking](https://www.cisco.com/site/us/en/products/networking/index.html)
+* * *
+## Use cases
+  * [Access networking](https://www.cisco.com/site/us/en/products/networking/access-networking/index.html)
+  * [Campus and branch networking](https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/index.html)
+  * [Data center and cloud networking](https://www.cisco.com/site/us/en/products/networking/cloud-networking/index.html)
+  * [Industrial IoT](https://www.cisco.com/site/us/en/products/networking/industrial-iot/index.html)
+  * [Internet, cloud, and endpoint visibility](https://www.cisco.com/site/us/en/products/networking/software/internet-cloud-intelligence/index.html)
+  * [Network security](https://www.cisco.com/site/us/en/products/networking/network-security/index.html)
+  * [Service provider networking](https://www.cisco.com/site/us/en/solutions/service-provider/index.html)
+  * [Wide-area networking (WAN)](https://www.cisco.com/site/us/en/products/networking/sdwan-routers/index.html)
+
+
+* * *
+###  Unified network management 
+Manage your entire network from a single, intuitive cloud interface with the Meraki and Catalyst Center Global Overview. 
+[Explore Networking Platform](https://www.cisco.com/site/us/en/products/networking/networking-cloud/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/products-services-networking.jpg)
+Back
+Security
+Close
+## Featured products
+  * [AI Defense](https://www.cisco.com/site/us/en/products/security/ai-defense/index.html)
+  * [Cisco Duo](https://duo.com/?utm_source=cisco&utm_medium=referral)
+  * [Email Threat Defense](https://www.cisco.com/site/us/en/products/security/secure-email/index.html)
+  * [Firewall](https://www.cisco.com/site/us/en/products/security/firewalls/index.html)
+  * [Hypershield](https://www.cisco.com/site/us/en/products/security/hypershield/index.html)
+  * [Identity Services Engine (ISE)](https://www.cisco.com/site/us/en/products/security/identity-services-engine/index.html)
+  * [Secure Access (SSE)](https://www.cisco.com/site/us/en/products/security/secure-access/index.html)
+  * [Splunk Enterprise Security](https://www.splunk.com/en_us/products/enterprise-security.html)
+  * [XDR](https://www.cisco.com/site/us/en/products/security/xdr/index.html)
+
+
+[ Explore Security](https://www.cisco.com/site/us/en/products/security/index.html)
+* * *
+## Use cases
+  * [Agentic SOC](https://www.splunk.com/en_us/products/cyber-security.html)
+  * [AI Security](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/security/index.html)
+  * [Hybrid Mesh Firewall](https://www.cisco.com/site/us/en/solutions/security/hybrid-mesh-firewall/index.html)
+  * [Industrial security](https://www.cisco.com/site/us/en/products/security/industrial-security/index.html)
+  * [Physical security](https://www.cisco.com/site/us/en/products/security/physical-security/index.html)
+  * [Secure Access Service Edge (SASE)](https://www.cisco.com/site/us/en/solutions/secure-access-service-edge-sase/index.html)
+  * [Threat intelligence (Talos)](https://www.cisco.com/site/us/en/products/security/talos/index.html)
+  * [Zero Trust Access](https://www.cisco.com/site/us/en/solutions/security/zero-trust-access/index.html)
+  * [Zero trust for agentic AI](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/security/securing-agentic-ai/index.html)
+
+
+* * *
+###  Cisco Secure Access live demo 
+Join us live to experience Cisco Secure Access—the smarter way to secure access to the internet, SaaS, and private apps.
+[Choose an upcoming slot](https://www.cisco.com/c/en/us/products/security/secure-access/live-demo.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/security-secure-access-demo.jpg)
+Back
+Collaboration
+Close
+## Products
+  * [Phones, headsets, and collaboration devices](https://www.cisco.com/c/en/us/products/collaboration-endpoints/index.html)
+  * [Webex Customer Experience](https://www.webex.com/customer-experience)
+  * [Webex Suite](https://www.webex.com/suite/collaboration-suite.html)
+
+
+[ Explore Collaboration](https://www.cisco.com/site/us/en/products/collaboration/index.html)
+* * *
+## Use cases
+  * [Workspaces](https://www.webex.com/us/en/workspaces.html)
+  * [Return to the office](https://www.webex.com/us/en/solutions/return-to-office.html)
+  * [Camera intelligence](https://www.webex.com/us/en/solutions/camera-intelligence-cisco-devices.html)
+  * [Workspace management](https://www.webex.com/us/en/solutions/control-hub-cisco-devices.html)
+  * [Devices for Microsoft Teams](https://www.webex.com/us/en/solutions/microsoft-teams-rooms-cisco-devices.html)
+  * [Webex AI](https://www.webex.ai/)
+  * [Control Hub](https://www.webex.com/us/en/solutions/cross-platform/control-hub.html)
+
+
+###  Webex Suite 
+Everything your business needs to collaborate—in the world’s first unified, purpose-built suite for hybrid work.
+[Explore Webex Suite](https://www.webex.com/suite/collaboration-suite.html) [View the Webex site](https://www.webex.com/)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/webex.jpg)
+Back
+Computing
+Close
+  * [Converged infrastructure](https://www.cisco.com/site/us/en/solutions/computing/converged-infrastructure/index.html)
+  * [Fabric and adapters](https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/fabric-interconnects-extenders/index.html)
+  * [Hybrid cloud operations](https://www.cisco.com/site/us/en/products/computing/hybrid-cloud-operations/intersight-platform/index.html)
+  * [Hyperconverged infrastructure](https://www.cisco.com/site/us/en/products/computing/hyperconverged/nutanix/index.html)
+  * [Servers](https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/index.html)
+  * [Stack Automation by Quali](https://www.cisco.com/site/us/en/solutions/data-center/stack-automation-quali/index.html)
+  * [Unified Edge](https://www.cisco.com/site/us/en/products/computing/unified-edge/index.html)
+
+
+[ View all computing products](https://www.cisco.com/site/us/en/products/computing/index.html)
+* * *
+###  Cisco Intersight free trial 
+Get simplified IT operations with infrastructure lifecycle management as a service to easily manage your Cisco UCS, converged, and hyperconverged infrastructure.
+[Get started](https://www.cisco.com/c/en/us/solutions/cloud-computing/promotions-free-trials/intersight-free-trial.html) [Learn more about Intersight](https://www.cisco.com/site/us/en/products/computing/hybrid-cloud-operations/intersight-platform/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/computing-intersight.jpg)
+Back
+Observability
+Close
+## Products
+  * [Cloud application security](https://www.cisco.com/site/us/en/products/security/cloud-application-security/index.html)
+  * [Splunk Observability Cloud](https://www.splunk.com/en_us/products/observability-cloud.html)
+  * [Splunk IT Service Intelligence](https://www.splunk.com/en_us/products/it-service-intelligence.html)
+  * [ThousandEyes](https://www.cisco.com/site/us/en/products/networking/software/internet-cloud-intelligence/index.html)
+
+
+[ Explore Observability](https://www.cisco.com/site/us/en/products/observability/index.html)
+* * *
+## Use cases
+  * [Alert noise reduction](https://www.splunk.com/en_us/solutions/alert-noise-reduction.html)
+  * [Cloud monitoring optimization](https://www.splunk.com/en_us/solutions/extend-visibility-to-the-cloud.html)
+  * [End-user experiences](https://www.splunk.com/en_us/solutions/optimize-your-web-and-mobile-experience.html)
+  * [Microservices troubleshooting](https://www.splunk.com/en_us/solutions/isolate-cloud-native-problems.html)
+
+
+###  Splunk Observability 
+Get complete business visibility and real-time troubleshooting across any environment. 
+[Explore Splunk Observability](https://www.splunk.com/en_us/products/observability.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/application-performance-appdynamics.jpg)
+Back
+Software
+Close
+## Networking
+  * [Catalyst Center](https://www.cisco.com/site/us/en/products/networking/catalyst-center/index.html)
+  * [Catalyst SD-WAN Manager](https://www.cisco.com/site/us/en/products/networking/wan/sd-wan-manager/index.html)
+  * [IoT Operations Dashboard](https://www.cisco.com/c/en/us/support/cloud-systems-management/iot-operations-dashboard/series.html)
+  * [Meraki Platform](https://www.cisco.com/site/us/en/products/networking/networking-cloud/index.html)
+  * [Mobility Services Platform](https://www.cisco.com/site/us/en/solutions/service-provider/networking/mobility-services-platform/index.html)
+  * [Nexus Dashboard](https://www.cisco.com/site/us/en/products/networking/cloud-networking/nexus-platform/index.html)
+  * [All networking software](https://www.cisco.com/site/us/en/products/networking/software/index.html)
+
+
+* * *
+## Security
+  * [Cyber Vision](https://www.cisco.com/site/us/en/products/security/industrial-security/cyber-vision/index.html)
+  * [Secure Equipment Access](https://www.cisco.com/site/us/en/products/security/industrial-security/secure-equipment-access/index.html)
+  * [Security Cloud](https://www.cisco.com/site/us/en/products/security/security-cloud/index.html)
+
+
+* * *
+## Observability
+  * [Splunk Observability](https://www.splunk.com/en_us/products/observability.html)
+  * [ThousandEyes](https://www.cisco.com/site/us/en/products/networking/software/internet-cloud-intelligence/index.html)
+
+
+* * *
+## Collaboration
+  * [Webex by Cisco](https://www.webex.com)
+
+
+## Computing
+  * [Intersight](https://www.cisco.com/site/us/en/products/computing/hybrid-cloud-operations/intersight-platform/index.html)
+
+
+* * *
+  * [Explore Cisco buying programs](https://www.cisco.com/site/us/en/buy/enterprise-software-buying-program.html)
+  * [Download software and manage licenses](https://software.cisco.com/)
+
+
+[ View all software](https://www.cisco.com/site/us/en/products/software/index.html?filters=&search=&sort=a-z&filterby=&showMore=)
+* * *
+###  Free trials and demos 
+View and sign up for over 100 products and portfolio solutions for free. 
+[Explore trials and demos](https://www.cisco.com/site/us/en/products/trials-demos.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/products-software-trials-demos.jpg)
+Back
+Services (CX)
+Close
+  * [Cisco Support](https://www.cisco.com/site/us/en/services/support/index.html)
+  * [Cisco Professional Services](https://www.cisco.com/site/us/en/services/professional/index.html)
+  * [Learn with Cisco](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+[ View all Cisco services](https://www.cisco.com/site/us/en/services/index.html)
+* * *
+###  Discover Cisco IQ 
+See more, move faster, go farther. Human expertise meets agentic intelligence in every Cisco Services engagement.
+[Read the blog](https://blogs.cisco.com/news/cisco-iq-is-generally-available-heres-what-that-actually-means)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/services-cx-cisco-iq.jpg)
+###  Get expert guidance 
+Cisco Services can help you build the right solution for your needs with the combined power of AI, automation, and human expertise.
+[Transform your data center](https://www.cisco.com/site/us/en/services/modern-data-center/index.html) [Build a better workplace](https://www.cisco.com/site/us/en/services/future-workplace/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/services-cx-promo-expert-guidance.jpg)
+Close
+###  Solutions
+Back
+Solutions
+Close
+[ Solutions Home](https://www.cisco.com/site/us/en/solutions/index.html)
+###  Artificial intelligence 
+Cisco has the infrastructure to power AI, unmatched breadth and scale of data to feed it, and a portfolio optimized to secure it. 
+[Explore Cisco AI](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/solutions-ai.jpg)
+###  Campus and branch 
+Cisco brings together Al, automation, and security into one unified architecture—built to simplify operations, scale intelligently, and protect every connection.  
+
+[Explore campus and branch](https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/solutions-campus-branch.jpg)
+###  Small and medium business 
+Protect, connect, and empower your business with Cisco’s portfolio tailored to small and medium businesses. Experience simplified IT management, efficiency, cloud-driven flexibility, and 24/7 support. 
+[Explore SMB solutions](https://www.cisco.com/site/us/en/solutions/small-business/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/solutions-smb.jpg)
+  1. Artificial Intelligence
+  2. Industries
+  3. Technologies
+  4. Campus and Branch
+  5. Service Providers
+  6. Small and Medium Business
+
+
+Back
+Artificial Intelligence
+Close
+  * [AI-enhanced security](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/security/index.html)
+  * [AI-native networking operations](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/netops.html)
+  * [AI-ready data centers](https://www.cisco.com/site/us/en/about/why-cisco/ai-ready-data-centers/index.html)
+  * [AI at the edge](https://www.cisco.com/site/us/en/solutions/data-center/ai-at-the-edge/index.html)
+  * [AI networking in data centers](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-networking-in-data-center/index.html)
+  * [Mass-scale AI infrastructure](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/mass-scale-infrastructure/index.html)
+  * [Secure AI Factory](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/secure-ai-factory/index.html)
+  * [Splunk AI](https://www.splunk.com/en_us/solutions/splunk-artificial-intelligence.html)
+  * [Webex AI](https://www.webex.ai/)
+
+
+[ Cisco AI hub](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/index.html)
+###  Cisco AI Assistant 
+Cisco AI Assistant combines the latest generative AI technology with our expertise to responsibly guide and inform the decisions you make every day.
+[Explore Cisco AI Assistant](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-assistant/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/ai-assistant.jpg)
+###  Cisco AI Readiness Assessment 
+AI readiness comprises six pillars: Strategy, Infrastructure, Data, Governance, Talent, and Culture. Is your organization AI ready?
+[Take assessment](https://www.cisco.com/c/m/en_us/solutions/ai/readiness-index/assessment-tool.html) [Browse AI Readiness Index](https://www.cisco.com/c/m/en_us/solutions/ai/readiness-index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/ai-readiness.jpg)
+Back
+Industries
+Close
+  * [Cities and Communities](https://www.cisco.com/c/en/us/solutions/industries/smart-connected-communities.html)
+  * [Education](https://www.cisco.com/site/us/en/solutions/industries/education/index.html)
+  * [Financial Services](https://www.cisco.com/site/us/en/solutions/industries/financial-services/index.html)
+  * [Government](https://www.cisco.com/site/us/en/solutions/industries/government/index.html)
+  * [Healthcare](https://www.cisco.com/site/us/en/solutions/industries/healthcare/index.html)
+  * [Manufacturing](https://www.cisco.com/site/us/en/solutions/industries/manufacturing/index.html)
+  * [Mining](https://www.cisco.com/site/us/en/solutions/industries/mining/index.html)
+
+
+* * *
+  * [Oil and Gas](https://www.cisco.com/site/us/en/solutions/industries/energy/oil-gas/index.html)
+  * [Retail](https://www.cisco.com/site/us/en/solutions/industries/retail/index.html)
+  * [Smart Buildings](https://www.cisco.com/site/us/en/solutions/smart-building/index.html)
+  * [Sports, Media, and Entertainment](https://www.cisco.com/site/us/en/solutions/industries/sports-media-entertainment/index.html)
+  * [Transportation](https://www.cisco.com/site/us/en/solutions/industries/transportation/index.html)
+  * [Utilities](https://www.cisco.com/site/us/en/solutions/industries/energy/utilities/index.html)
+
+
+[ View all industries](https://www.cisco.com/c/en/us/solutions/industries.html)
+[ Industry design guides](https://www.cisco.com/c/en/us/solutions/design-zone/industries.html)
+* * *
+###  Discover the portfolio explorer 
+Build the bridge between business outcomes and technology with our new interactive tool.
+[Start exploring](https://www.cisco.com/c/m/en_us/solutions/industries/portfolio-explorer.html)
+Back
+Technologies
+Close
+## Networking
+  * [Cloud and data center networking](https://www.cisco.com/site/us/en/products/networking/cloud-networking/index.html)
+  * [Cloud-managed networking (Meraki)](https://www.cisco.com/site/us/en/products/networking/networking-cloud/index.html)
+  * [Industrial IoT](https://www.cisco.com/site/us/en/solutions/networking/industrial-iot/index.html)
+  * [Networking App Marketplace](https://marketplace.cisco.com/en-US/home)
+  * [SD-WAN](https://www.cisco.com/site/us/en/solutions/networking/sdwan/index.html)
+  * [Smart buildings](https://www.cisco.com/site/us/en/solutions/smart-building/index.html)
+  * [All networking solutions](https://www.cisco.com/c/en/us/solutions/enterprise-networks/solution-listing.html)
+
+
+## Computing
+  * [Converged infrastructure](https://www.cisco.com/site/us/en/solutions/computing/converged-infrastructure/index.html)
+  * [Hybrid cloud](https://www.cisco.com/site/us/en/solutions/computing/hybrid-cloud/index.html)
+  * [Hyperconverged](https://www.cisco.com/site/us/en/products/computing/hyperconverged/nutanix/index.html)
+  * [Stack Automation by Quali](https://www.cisco.com/site/us/en/solutions/data-center/stack-automation-quali/index.html)
+
+
+* * *
+## Security
+  * [AI for security](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/security/index.html)
+  * [Data center security](https://www.cisco.com/site/us/en/solutions/security/data-center-security/index.html)
+  * [Hybrid Mesh Firewall](https://www.cisco.com/site/us/en/solutions/security/hybrid-mesh-firewall/index.html)
+  * [Industrial security](https://www.cisco.com/site/us/en/products/security/industrial-security/index.html)
+  * [Network security](https://www.cisco.com/site/us/en/products/networking/network-security/index.html)
+  * [Secure Access Service Edge (SASE)](https://www.cisco.com/site/us/en/solutions/secure-access-service-edge-sase/index.html)
+  * [Secure Hybrid Work](https://www.cisco.com/site/us/en/solutions/security/secure-hybrid-work/index.html)
+  * [Zero trust](https://www.cisco.com/site/us/en/solutions/security/zero-trust/index.html)
+  * [Zero trust for agentic AI](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/security/securing-agentic-ai/index.html)
+
+
+* * *
+## Collaboration (Webex)
+  * [Camera intelligence](https://www.webex.com/us/en/solutions/camera-intelligence-cisco-devices.html)
+  * [Customer experience](https://www.webex.com/us/en/products/customer-experience.html)
+  * [Event management](https://www.webex.com/us/en/products/suite/events.html)
+  * [Intelligent workspaces](https://www.webex.com/us/en/workspaces.html)
+  * [Interoperability](https://www.webex.com/us/en/solutions/interoperability.html)
+  * [IT administration](https://www.webex.com/us/en/solutions/cross-platform/control-hub.html)
+  * [Remote work](https://www.webex.com/suite/collaboration-suite.html)
+  * [Workspace designer](https://designer.webex.com/)
+  * [Workspace management](https://www.webex.com/us/en/solutions/control-hub-cisco-devices.html)
+
+
+Back
+Campus and Branch
+Close
+  * [Secure network architecture](https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/index.html)
+  * [Secure campus](https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/secure-campus/index.html)
+  * [Unified branch](https://www.cisco.com/site/us/en/solutions/networking/campus-branch-networking/unified-branch/index.html)
+  * [Industrial IoT](https://www.cisco.com/site/us/en/solutions/networking/industrial-iot/index.html)
+  * [Campus and branch design guides](https://www.cisco.com/c/en/us/solutions/design-zone/campus-branch.html)
+
+
+* * *
+Back
+Service Providers
+Close
+## Empowering your infrastructure
+  * [5G network architecture](https://www.cisco.com/c/en/us/solutions/service-provider/5g-network-architecture.html)
+  * [Agile Services Networking](https://www.cisco.com/site/us/en/solutions/service-provider/networking/agile-services/index.html)
+  * [Broadband solutions](https://www.cisco.com/site/us/en/solutions/service-provider/networking/broadband/index.html)
+  * [Cable solutions](https://www.cisco.com/site/us/en/solutions/service-provider/industry/cable/index.html)
+  * [Routed optical networking](https://www.cisco.com/site/us/en/solutions/routed-optical-networking/index.html)
+  * [Routed PON](https://www.cisco.com/site/us/en/solutions/routed-pon/index.html)
+
+
+[ View all service provider solutions](https://www.cisco.com/site/us/en/solutions/service-provider/index.html)
+* * *
+## Managed services
+  * [Edge Cloud for Content Delivery](https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud/edge-cloud-for-content-delivery.html)
+  * [IoT Control Center](https://www.cisco.com/site/us/en/products/networking/software/iot-control-center/index.html)
+  * [Mobility Services Platform](https://www.cisco.com/site/us/en/solutions/service-provider/networking/mobility-services-platform/index.html)
+  * [Private 5G](https://www.cisco.com/site/us/en/products/networking/wireless/private-5g/index.html)
+  * [Secure access service edge (SASE)](https://www.cisco.com/site/us/en/solutions/secure-access-service-edge-sase/index.html)
+  * [Software-defined access](https://www.cisco.com/site/us/en/solutions/networking/sdaccess/index.html)
+  * [Secure Hybrid Work](https://www.cisco.com/site/us/en/solutions/security/secure-hybrid-work/index.html)
+  * [SD-WAN security](https://www.cisco.com/site/us/en/solutions/networking/sdwan/security/index.html)
+
+
+* * *
+###  Accelerate services offerings 
+Provide outsourced IT and consulting services with a broad technology portfolio and robust partner support programs.
+[See services options](https://www.cisco.com/site/us/en/partners/build-your-practice/managed-services/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/managed-services.jpg)
+Back
+Small and Medium Business
+Close
+## Products and solutions
+  * [Networking](https://www.cisco.com/site/us/en/solutions/small-business/networking/index.html)
+  * [Security](https://www.cisco.com/site/us/en/solutions/small-business/security/index.html)
+  * [Collaboration](https://www.cisco.com/site/us/en/solutions/small-business/collaboration/index.html)
+  * [Product selector](https://www.cisco.com/c/en/us/solutions/small-business/selector-tool.html)
+
+
+[ View all small and medium business solutions](https://www.cisco.com/site/us/en/solutions/small-business/index.html)
+[ Buy small and medium business products online](https://www.cisco.com/c/en/us/solutions/small-business/small-business-promotions-and-free-trials/buy-cisco-small-business-products-online.html)
+* * *
+###  Offers and free trials 
+Find the best solutions for your needs and try them before you buy. 
+[See all offers and free trials](https://www.cisco.com/site/us/en/solutions/small-business/trials-offers.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/smb-free-trials.jpg)
+Close
+###  Support
+Back
+Support
+Close
+[ Support Home](https://www.cisco.com/c/en/us/support/index.html)
+###  Support home 
+Access documentation, security notices, and support tools for Cisco products.
+[View Cisco Support](https://www.cisco.com/c/en/us/support/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/support-home-penn1_brandlibrary-DSC0318.jpg)
+###  Software downloads 
+Download and manage new software, get updates or patches, or upgrade your current software to the latest release.
+[View Software Central](https://software.cisco.com/download/home)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/support-software-downloads-hatchlibrary-general-gettyPA-Cisco-1309760275.jpg)
+###  Licensing support 
+Troubleshoot common licensing issues and leverage easy-to-follow documentation for both PAK-based or Smart Licenses.
+[Get licensing support](https://www.cisco.com/c/en/us/support/licensing/licensing-support.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/support-licensing-hatchlibrary-security-gettyPA-Cisco-1518851638.jpg)
+  1. Products and Downloads
+  2. Documentation
+  3. Contact Support
+  4. Licenses and Contracts
+  5. Tools and Resources
+  6. Cisco Community
+
+
+Back
+Products and Downloads
+Close
+## Find products and downloads
+Search field edit, type in text
+Clear
+[Downloads](https://www.cisco.com/site/us/en/solutions/service-provider/networking/agile-services/index.html#tabs-69d6a56dd3-item-fdd67b2fb8-tab) [Product Support](https://www.cisco.com/site/us/en/solutions/service-provider/networking/agile-services/index.html#tabs-69d6a56dd3-item-fdd67b2fb8-tab) [Technology Support](https://www.cisco.com/site/us/en/solutions/service-provider/networking/agile-services/index.html#tabs-69d6a56dd3-item-fdd67b2fb8-tab) | End of Sale End of Support
+* [All Downloads](https://software.cisco.com/download/navigator.html)
+* [All Products](https://www.cisco.com/c/en/us/support/all-products.html)
+* Search all cisco.com
+When autocomplete results are available use up and down arrows to review and enter to select
+## Product Support
+  * [Switches](https://www.cisco.com/c/en/us/support/switches/category.html)
+  * [Security](https://www.cisco.com/c/en/us/support/security/category.html)
+  * [Routers](https://www.cisco.com/c/en/us/support/routers/category.html)
+  * [Wireless](https://www.cisco.com/c/en/us/support/wireless/category.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
+  * [Collaboration endpoints and phones](https://www.cisco.com/c/en/us/support/collaboration-endpoints/category.html)
+  * [Networking software (IOS and NX-OS)](https://www.cisco.com/c/en/us/support/ios-nx-os-software/index.html)
+  * [Servers - Unified Computing (UCS)](https://www.cisco.com/c/en/us/support/servers-unified-computing/category.html)
+
+
+[ All products](https://www.cisco.com/c/en/us/support/all-products.html)
+* * *
+## Downloads
+  * [Secure Client 5](https://software.cisco.com/download/home/286330811/type/282364313/release/)
+  * [Identity Services Engine Software](https://software.cisco.com/download/home/283801620/type/283802505/)
+  * [Secure Firewall Management Center Virtual](https://software.cisco.com/download/home/286259687/type)
+  * [Smart Software Manager](https://software.cisco.com/download/home/286285506/type)
+  * [Jabber for Windows](https://software.cisco.com/download/home/284324806/type/284006014/release/)
+  * [Modeling Labs](https://software.cisco.com/download/home/286193282/type/286326381/release/2.7.2)
+  * [Catalyst 9300 Series Switches](https://software.cisco.com/download/home/286313806)
+
+
+[ All downloads](https://software.cisco.com/download/home)
+* * *
+Back
+Documentation
+Close
+[ Technical documentation](https://www.cisco.com/c/en/us/docs/technical-documentation.html)
+Configure, operate, and troubleshoot your Cisco products with configuration guides, installation guides, release notes, and more.
+[ Trust Portal](https://trustportal.cisco.com/c/r/ctp/home.html)
+Get self-service access to security, data privacy, and compliance documents.
+* * *
+[ Product documentation](https://www.cisco.com/c/en/us/products/a-to-z-series-index.html#all)
+Explore Cisco products and features to empower your purchase with data sheets, white papers, end-of-life notices, and more.
+* * *
+Back
+Contact Support
+Close
+## Product technical support (TAC)
+[ Open a new case](https://mycase.cloudapps.cisco.com/case)
+(Requires a product or software support contract)
+  * [Manage support cases](https://mycase.cloudapps.cisco.com/case)
+  * [Returns Portal (RMAs)](https://www.cisco.com/c/en/us/support/returns/returns-portal.html)
+
+
+* * *
+Enterprise and Service Provider products
+**1-800-553-2447** US and Canada
+[ Worldwide phone numbers](https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html)
+* * *
+Small and medium business products
+**1-866-606-1866** US and Canada
+[ Worldwide phone numbers](https://www.cisco.com/c/en/us/support/web/tsd-cisco-small-business-support-center-contacts.html)
+Back
+Licenses and Contracts
+Close
+## Software licenses
+  * [Explore key licensing resources](https://www.cisco.com/site/us/en/buy/licensing/index.html)
+  * [Download and manage licenses](https://software.cisco.com/)
+  * [Manage assets and entitlements](https://software.cisco.com/clc/access-directory)
+  * [Troubleshoot license issues](https://www.cisco.com/c/en/us/support/licensing/licensing-support.html)
+
+
+## Cisco Enterprise Agreement (EA)
+  * [Manage Cisco EA licenses](https://software.cisco.com/software/ea/agreements)
+  * [Learn about Cisco EA](https://www.cisco.com/site/us/en/buy/enterprise-agreement/index.html)
+
+
+* * *
+## Product support contracts
+  * [Manage and renew service contracts (CCW-R)](https://ccrc.cisco.com/ccwr/)
+
+
+###  Cisco Licensing Hub 
+Enhance your Cisco licensing experience. 
+[Access now](https://www.cisco.com/site/us/en/buy/licensing/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/support-licensing-hub.jpg)
+Back
+Tools and Resources
+Close
+## Tools
+  * [Bug Search Tool](https://bst.cisco.com/bugsearch/?referring_site=shp)
+  * [My Devices](https://cway.cisco.com/mydevices)
+  * [My Saved Content](https://www.cisco.com/c/en/us/support/saved/index.html)
+  * [Software Research](https://software.cisco.com/research/home)
+  * [Device Coverage Checker](https://cway.cisco.com/sncheck/)
+
+
+[ All Support tools](https://www.cisco.com/c/en/us/support/web/tools-catalog.html)
+* * *
+## Notifications and advisories
+  * [My Notifications](https://cway.cisco.com/mynotifications)
+  * [Security Advisories](https://sec.cloudapps.cisco.com/security/center/publicationListing.x)
+  * [Field Notices](https://www.cisco.com/c/en/us/support/web/tsd-products-field-notice-summary.html)
+  * [Cisco Cloud Status](https://www.cisco.com/c/en/us/support/web/cloud-status.html)
+
+
+### Services
+  * [All Cisco Services](https://www.cisco.com/site/us/en/services/index.html)
+
+
+## Technology adoption
+  * [Cisco Customer Success](https://www.cisco.com/c/m/en_us/customer-experience/customer-success/index.html)
+
+
+Back
+Cisco Community
+Close
+## Community forums
+  * [Technology and Support](https://community.cisco.com/t5/technology-and-support/ct-p/technology-support)
+  * [Small Business Support](https://community.cisco.com/t5/small-business-support-community/ct-p/5541-small-business-support)
+  * [Developers](https://community.cisco.com/t5/devnet/ct-p/4409j-developer-home)
+  * [Partners](https://community.cisco.com/t5/partner-hub/ct-p/2002j-partner-home)
+  * [Project Gallery](https://community.cisco.com/t5/project-gallery/con-p/customer-success-stories)
+  * [Cisco Insider User Group](https://community.cisco.com/t5/cisco-insider-user-group/ct-p/ccp-home)
+
+
+[ Explore Cisco Community](https://community.cisco.com/)
+* * *
+###  Community events and webinars 
+Learn from Cisco experts and engage with peers in webinars and live events.
+[View all events and webinars](https://community.cisco.com/t5/technology-and-support-events-and-webinars/eb-p/ts-events-webinars-bd)
+Close
+###  Learn
+Back
+Learn
+Close
+[ Learn Home](https://www.cisco.com/site/us/en/learn/index.html)
+###  Cisco U. 
+Access training tailored to your needs. Work toward a specific role or certification, deploy or support a technology solution, or enhance your career progress.
+[Learn more about Cisco U. ](https://www.cisco.com/site/us/en/learn/training-certifications/training/ciscou/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/learn-cisco-u.jpg)
+###  Cisco Networking Academy 
+If you're a student, start at Cisco Networking Academy. With free courses and career guidance, your next IT job is closer than you think.
+[Join now](https://www.netacad.com/)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/learn-netacad.jpg)
+###  Events 
+Join us to take advantage of the latest networking opportunities with Cisco customers, partners, employees, and subject-matter experts.
+[Explore now](https://www.cisco.com/site/us/en/learn/events/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/events-calendar-default.jpg)
+  1. Training and Certifications
+  2. Events
+  3. Webinars
+  4. Technology Learning Topics
+  5. Learning Resources and Assets
+
+
+Back
+Training and Certifications
+Close
+## Learning
+  * [Cisco Networking Academy](https://www.netacad.com)
+  * [Cisco U. ](https://u.cisco.com)
+  * [Instructor-led training](https://learninglocator.cloudapps.cisco.com/#/home)
+  * [Cisco Modeling Labs](https://www.cisco.com/site/us/en/learn/training-certifications/training/modeling-labs/index.html)
+  * [Cisco Packet Tracer](https://www.netacad.com/cisco-packet-tracer)
+  * [Join our community](https://learningnetwork.cisco.com/s/)
+  * [Learn with Cisco blog](https://blogs.cisco.com/learning)
+
+
+[ Learn with Cisco overview](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+* * *
+## Certifications
+  * [Career certifications](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html)
+  * [Learn about exams](https://www.cisco.com/site/us/en/learn/training-certifications/exams/index.html)
+  * [Continuing Education (CE credits)](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/continuing-education/index.html)
+  * [Recertification](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/recertification/index.html)
+  * [Schedule an exam](https://cp.certmetrics.com/cisco/en/schedule/schedule-exam)
+  * [Track my certifications](https://cp.certmetrics.com/cisco/en/credentials/status)
+
+
+* * *
+## Training for organizations
+  * [Enterprise](https://www.cisco.com/site/us/en/learn/training-certifications/enterprise-training/index.html)
+  * [Cisco Learning Credits](https://www.cisco.com/site/us/en/learn/training-certifications/training/learning-credits/index.html)
+  * [Training catalog](https://www.cisco.com/site/us/en/learn/training-certifications/training/training-catalog/index.html)
+  * [Partners](https://www.cisco.com/site/us/en/learn/training-certifications/partner-resources.html)
+
+
+## Support
+  * [Learn with Cisco support bot](https://certsupport.cisco.com/s/?language=en_US)
+
+
+Back
+Events
+Close
+  * [Cisco Live](https://www.ciscolive.com/home/en/index.html?cid=cdc-hp-nav-home#xd_co_f)
+  * [Partner events calendar](https://salesconnect.cisco.com/americaspartnercommunity/s/enablement-training-calendar)
+
+
+[ View all events](https://www.cisco.com/site/us/en/learn/events/index.html)
+* * *
+###  Cisco Live 2026 Melbourne 
+Experience the education, inspiration, and fun of Cisco Live 2026 Melbourne.
+[Register now](https://www.ciscolive.com/apjc?ccid=cc008775&cid=CL26eventspage&eid=162820&oid=eprsas033263)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/cl2026-cisco-live-las-vegas.jpg)
+###  Watch Cisco Live sessions on demand 
+View sessions from Las Vegas in our On-Demand Library. Keynotes, Deep Dives, and Center Stage sessions are available now, with the remaining sessions added by June 19.
+[Watch now](https://www.ciscolive.com/on-demand/on-demand-library.html?cid=cdc-hp-nav&utm_team=global_events&utm_medium=email&utm_source=sendgrid&utm_campaign=xb_cxp_fy26q4_amer_20260623past&ccid=cc007720&dtid=oemrft001460&utm_eid=95796&search.event=1769534158486002QYqy#/)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/cl2026-cisco-live-las-vegas.jpg)
+Back
+Webinars
+Close
+## Trending webinars
+  * [AI readiness for data centers](https://experiences.cisco.com/amer/ai-readiness-for-data-centers)
+  * [Simplify IT with SD-WAN](https://experiences.cisco.com/amer/simplify-it-with-sd-wan)
+  * [Security transformation with Cisco XDR](https://cloudsecurity.cisco.com/webinar-security-transformation-with-cisco-xdr)
+
+
+[ View all webinars](https://experiences.cisco.com/amer?pf_route=1&groups=all-webinars)
+* * *
+###  McLaren Racing + Cisco 
+Carrie Palin joins McLaren Racing F1 team CEO Zak Brown and driver Oscar Piastri as they unveil the high-tech secrets behind their team's successful 2024 season.
+[Watch on demand](https://experiences.cisco.com/amer/cisco-mclaren-innovation-speed)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/learn-webinars-mclaren-racing.jpg)
+###  Cisco webinars 
+Discover insights that shape the future of technology. Our webinars feature experts and leaders sharing how organizations transform to connect, grow, and succeed.
+[Explore webinars](https://experiences.cisco.com/amer?pf_route=1&group=all-webinars&groups=all-webinars)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/learn-webinars.jpg)
+Back
+Technology Learning Topics
+Close
+  * [How to set up a router](https://www.cisco.com/site/us/en/learn/topics/small-business/how-to-set-up-router.html)
+  * [What is cybersecurity?](https://www.cisco.com/site/us/en/learn/topics/security/what-is-cybersecurity.html)
+  * [What is a firewall?](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-firewall.html)
+  * [What is Industry 4.0?](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-industry-4-0.html)
+  * [What is IoT (Internet of Things)?](https://www.cisco.com/site/us/en/learn/topics/industrial-iot/what-is-iot.html)
+  * [What is Wi-Fi 7?](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-wi-fi-7.html)
+
+
+* * *
+  * [What is AIOps?](https://www.cisco.com/site/us/en/learn/topics/artificial-intelligence/what-is-aiops.html)
+  * [What is cloud security?](https://www.cisco.com/site/us/en/learn/topics/security/what-is-cloud-security.html)
+  * [What is hybrid cloud?](https://www.cisco.com/site/us/en/learn/topics/computing/what-is-hybrid-cloud.html)
+  * [What is SASE?](https://www.cisco.com/site/us/en/learn/topics/security/what-is-secure-access-service-edge-sase.html)
+  * [What is software as a service (SaaS)?](https://www.cisco.com/site/us/en/learn/topics/software/what-is-software-as-a-service-saas.html)
+
+
+[ View all technology learning topics](https://www.cisco.com/site/us/en/learn/topics/index.html)
+* * *
+###  2026 State of Industrial AI 
+We surveyed more than 1000 industrial professionals on securing operations, advancing IT/OT collaboration, and building an AI-ready network that can scale.
+[Get report](https://www.cisco.com/site/us/en/solutions/networking/industrial-iot/industrial-networking-report/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/state-of-industrial-ai-284x164.jpg)
+Back
+Learning Resources and Assets
+Close
+## Sandboxes and simulators
+  * [Cisco Packet Tracer](https://www.netacad.com/cisco-packet-tracer)
+  * [DevNet Sandbox](https://developer.cisco.com/site/sandbox/)
+  * [Cisco Modeling Labs](https://developer.cisco.com/modeling-labs/)
+  * [Cisco Learning Labs](https://u.cisco.com/store/lab?type=cisco-learning-labs)
+
+
+## News and insights
+  * [Blogs](https://blogs.cisco.com/)
+  * [Cisco Community](https://community.cisco.com/)
+  * [Executive perspectives](https://www.cisco.com/c/en/us/solutions/executive-perspectives/index.html)
+  * [Newsroom](https://newsroom.cisco.com/c/r/newsroom/en/us/index.html)
+
+
+* * *
+## Developer resources
+  * [Getting started with DevNet](https://developer.cisco.com/startnow/)
+  * [DevNet Tracks](https://developer.cisco.com/learning/search/?contentType=track&page=1)
+  * [Python training](https://www.cisco.com/site/us/en/learn/training-certifications/training/courses/prne.html)
+  * [Code exchange](https://developer.cisco.com/codeexchange/)
+  * [Developer community](https://community.cisco.com/t5/devnet/ct-p/4409j-developer-home)
+
+
+## Videos and live streams
+  * [Cisco Video Portal](https://video.cisco.com/)
+
+
+* * *
+## Architecture and design resources
+  * [Cisco Validated](https://www.cisco.com/site/us/en/solutions/cisco-validated/index.html)
+  * [Visio stencils](https://www.cisco.com/c/en/us/products/visio-stencil-listing.html)
+
+
+## Additional resources
+  * [Cisco Learning Credits](https://www.cisco.com/site/us/en/learn/training-certifications/training/learning-credits/index.html)
+  * [Cisco Multicloud training](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/multicloud/index.html)
+  * [Black Belt Academy (for partners)](https://www.cisco.com/site/us/en/partners/training/black-belt-academy/index.html)
+
+
+Close
+###  Why Cisco
+Back
+Why Cisco
+Close
+[ Why Cisco](https://www.cisco.com/site/us/en/about/why-cisco/index.html)
+###  Why Cisco 
+Cisco creates the infrastructure you need to transform how you connect, protect, and innovate in the AI era.
+[See the Cisco advantage](https://www.cisco.com/site/us/en/about/why-cisco/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/why-cisco-ai-blue.jpg)
+###  Our Purpose 
+We Power an Inclusive Future for All.
+[Explore our Purpose](https://www.cisco.com/site/us/en/about/purpose/index.html) [Read FY25 Purpose Report](https://www.cisco.com/c/dam/m/en_us/about/purpose/reporting-hub/_pdf/purpose-report-2025.pdf)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/why-cisco-purpose.jpg)
+###  Success stories 
+Discover how Cisco technologies drive real-world success for our customers and power Cisco's own operations and innovation. 
+[Explore customer stories](https://www.cisco.com/site/us/en/about/case-studies-customer-stories/index.html) [How we use our technology](https://www.cisco.com/site/us/en/solutions/cisco-on-cisco/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/why-cisco-success-stories.jpg)
+  1. Outcomes We Deliver
+  2. Working with Partners
+  3. About Us
+
+
+Back
+Outcomes We Deliver
+Close
+[ AI-ready data centers](https://www.cisco.com/site/us/en/about/why-cisco/ai-ready-data-centers/index.html)
+Unleash the power of AI with data centers designed for speed, scale, and agility.
+[ Future-proofed workplaces](https://www.cisco.com/site/us/en/about/why-cisco/future-proofed-workplaces/index.html)
+Elevate employee and customer experiences with agile, resilient workplaces.
+[ Digital resilience](https://www.cisco.com/site/us/en/about/why-cisco/digital-resilience/index.html)
+Achieve always-on resilience with trusted security, observability, and assurance.
+* * *
+###  Why Cisco 
+Cisco creates the infrastructure you need to transform how you connect, protect, and innovate in the AI era.
+[See the Cisco advantage](https://www.cisco.com/site/us/en/about/why-cisco/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/why-cisco-ai-blue.jpg)
+Back
+Working with Partners
+Close
+[ Why choose Cisco partners](https://www.cisco.com/site/us/en/partners/evolved-partner-ecosystem/index.html)
+Learn how our partner ecosystem makes it easier than ever to identify the partners to best meet your needs. ​ 
+[ Frequently asked questions (PDF)](https://www.cisco.com/c/dam/en_us/partners/cisco-partner-designations-faq.pdf)
+Access answers to your questions about the evolution of Cisco's partner ecosystem and new partner designations. 
+[ Find a partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+Explore our partner ecosystem today. 
+* * *
+###  A new way to find partners 
+The Cisco Partner Locator tool has been transformed into an AI-driven hub to match, recommend, and activate partners for every customer outcome.​ 
+[Explore what's new](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/partner-locator-curve.jpg)
+Back
+About Us
+Close
+  * [Overview](https://www.cisco.com/site/us/en/about/index.html)
+  * [Newsroom](https://newsroom.cisco.com/c/r/newsroom/en/us/index.html)
+  * [Leadership](https://newsroom.cisco.com/c/r/newsroom/en/us/executives.html)
+  * [Purpose and sustainability](https://www.cisco.com/site/us/en/about/purpose/index.html)
+  * [Career opportunities](https://careers.cisco.com/global/en/home)
+  * [The Trust Center](https://www.cisco.com/c/en/us/about/trust-center.html)
+  * [Investor relations](https://investor.cisco.com/overview/default.aspx)
+
+
+[ Contact us](https://www.cisco.com/site/us/en/about/contact-cisco/index.html)
+* * *
+###  How to buy 
+Browse options to purchase Cisco products, services, and software offerings.
+[Visit how-to-buy hub](https://www.cisco.com/site/us/en/buy/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/header/why-cisco-how-to-buy.jpg)
+Close
+###  Partners
+Close
+[ Trials and demos](https://www.cisco.com/site/us/en/products/trials-demos.html?linkclickid=hdr-mainnav-trialsdemos)
+[ How to buy](https://www.cisco.com/site/us/en/buy/index.html?linkclickid=hdr-utilnav-howtobuy)
+Partners
+EN US
+[ Log in](https://www.cisco.com/content/cdc/login.html?referer=/site/us/en/solutions/service-provider/networking/agile-services/index.html)
+[ Trials and demos](https://www.cisco.com/site/us/en/products/trials-demos.html?linkclickid=hdr-mainnav-trialsdemos)
+MENU
+CLOSE
+[ How to buy](https://www.cisco.com/site/us/en/buy/index.html?linkclickid=hdr-utilnav-howtobuy)
+Partners
+[ Log in](https://www.cisco.com/content/cdc/login.html?referer=/site/us/en/solutions/service-provider/networking/agile-services/index.html)
+EN US
+Search field edit, type in text
+Clear Speech-to-Text Search Search
+* * *
+Speech-to-Text Powered By Google Speech API
+We didn't hear that. Try again.
+Speech-to-Text Search is currently unavailable
+  * [Downloads](https://software.cisco.com/download/home)
+  * [Certifications](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/index.html)
+  * [Cisco Validated](https://www.cisco.com/c/en/us/solutions/cisco-validated.html)
+  * [Training](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+  * [Community](https://community.cisco.com/)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+
+
+Close
+**For Partners**
+[Partners Home](https://www.cisco.com/site/us/en/partners/index.html?dtid=odicdc001129)
+[Partner Program](https://www.cisco.com/site/us/en/partners/index.html?ccid=cc000864&dtid=odiprc001129)
+[Support](https://www.cisco.com/site/us/en/partners/support-help/index.html?dtid=odiprc001129)
+[Tools](https://www.cisco.com/site/us/en/partners/tools-training/index.html?dtid=odiprc001129)
+**Already a Partner?**
+[ Log in](https://www.cisco.com/content/cdc/login.html?referer=/site/us/en/solutions/service-provider/networking/agile-services/index.html)
+* * *
+[Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/ "Find a Cisco Partner")
+* * *
+[Learn about Partners](https://www.cisco.com/site/us/en/partners/evolved-partner-ecosystem/index.html)
+* * *
+[Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html?dtid=odicdc001129 "Become a Cisco Partner")
+Close
+[ Log in](https://www.cisco.com/content/cdc/login.html?referer=/site/us/en/solutions/service-provider/networking/agile-services/index.html)
+Don't have an account? [Sign up](https://id.cisco.com/signin/register "Sign up")
+Close
+Back
+Country | Language
+Close
+Selected country/region:
+United States
+  * [English](https://www.cisco.com/site/us/en/index.html)
+
+
+  1. All Countries / Regions
+  2. North America
+  3. Africa
+  4. Asia Pacific
+  5. Europe
+  6. Greater China
+  7. Latin America
+  8. Middle East
+
+
+  * United States
+    * [English](https://www.cisco.com/site/us/en/index.html)
+  * Africa
+    * [English](https://www.cisco.com/site/dz/en/index.html)
+    * [Français](https://www.cisco.com/site/dz/fr/index.html)
+    * [Português](https://www.cisco.com/site/pt/pt/index.html)
+    * [عربي](https://www.cisco.com/site/eg/ar/index.html)
+  * Argentina
+    * [Español](https://www.cisco.com/site/ar/es/index.html)
+  * Australia & New Zealand
+    * [English](https://www.cisco.com/site/au/en/index.html)
+  * Austria
+    * [Deutsch](https://www.cisco.com/site/at/de/index.html)
+  * Belgium & Luxembourg
+    * [English](https://www.cisco.com/site/be/en/index.html)
+    * [Français](https://www.cisco.com/site/be/fr/index.html)
+    * [Nederlands](https://www.cisco.com/site/be/nl/index.html)
+  * Brazil
+    * [Português](https://www.cisco.com/site/br/pt/index.html)
+  * Canada
+    * [English](https://www.cisco.com/site/ca/en/index.html)
+    * [Français](https://www.cisco.com/site/ca/fr/index.html)
+  * Caribbean
+    * [Español](https://www.cisco.com/site/bz/es/index.html)
+  * Chile
+    * [Español](https://www.cisco.com/site/cl/es/index.html)
+  * Colombia
+    * [Español](https://www.cisco.com/site/co/es/index.html)
+  * Costa Rica
+    * [Español](https://www.cisco.com/site/cr/es/index.html)
+  * Czech Republic
+    * [Čeština](https://www.cisco.com/site/cz/cs/index.html)
+  * Denmark
+    * [Dansk](https://www.cisco.com/site/dk/da/index.html)
+  * Ecuador
+    * [Español](https://www.cisco.com/site/ec/es/index.html)
+  * Egypt
+    * [English](https://www.cisco.com/site/eg/en/index.html)
+    * [عربي](https://www.cisco.com/site/eg/ar/index.html)
+  * France
+    * [Français](https://www.cisco.com/site/fr/fr/index.html)
+  * Germany
+    * [Deutsch](https://www.cisco.com/site/de/de/index.html)
+  * Hong Kong
+    * [English](https://www.cisco.com/site/hk/en/index.html)
+    * [繁體中文](https://www.cisco.com/site/hk/zh/index.html)
+  * Hungary
+    * [Magyar](https://www.cisco.com/site/hu/hu/index.html)
+  * India
+    * [English](https://www.cisco.com/site/in/en/index.html)
+  * Indonesia
+    * [English](https://www.cisco.com/site/id/en/index.html)
+  * Israel
+    * [English](https://www.cisco.com/site/il/en/index.html)
+  * Italy
+    * [Italiano](https://www.cisco.com/site/it/it/index.html)
+  * Japan
+    * [日本語](https://www.cisco.com/site/jp/ja/index.html)
+  * Korea
+    * [한국어](https://www.cisco.com/site/kr/ko/index.html)
+  * Mainland China
+    * [简体中文](https://www.cisco.com/site/cn/zh/index.html)
+  * Malaysia
+    * [English](https://www.cisco.com/site/my/en/index.html)
+  * Mexico
+    * [Español](https://www.cisco.com/site/mx/es/index.html)
+  * Middle East
+    * [English](https://www.cisco.com/site/ae/en/index.html)
+    * [عربي](https://www.cisco.com/site/ae/ar/index.html)
+  * Netherlands
+    * [Nederlands](https://www.cisco.com/site/nl/nl/index.html)
+  * Norway
+    * [Norsk](https://www.cisco.com/site/no/no/index.html)
+  * Panama
+    * [Español](https://www.cisco.com/site/pa/es/index.html)
+  * Peru
+    * [Español](https://www.cisco.com/site/pe/es/index.html)
+  * Philippines
+    * [English](https://www.cisco.com/site/ph/en/index.html)
+  * Poland
+    * [Polski](https://www.cisco.com/site/pl/pl/index.html)
+  * Portugal
+    * [Português](https://www.cisco.com/site/pt/pt/index.html)
+  * Romania
+    * [Română](https://www.cisco.com/site/ro/ro/index.html)
+  * Singapore
+    * [English](https://www.cisco.com/site/sg/en/index.html)
+  * South Africa
+    * [English](https://www.cisco.com/site/za/en/index.html)
+  * Spain
+    * [Español](https://www.cisco.com/site/es/es/index.html)
+  * Sweden
+    * [Svenska](https://www.cisco.com/site/se/sv/index.html)
+  * Switzerland
+    * [Français](https://www.cisco.com/site/ch/fr/index.html)
+    * [Deutsch](https://www.cisco.com/site/ch/de/index.html)
+  * Taiwan
+    * [繁體中文](https://www.cisco.com/site/tw/zh/index.html)
+  * Thailand
+    * [ภาษาไทย](https://www.cisco.com/site/th/th/index.html)
+  * Turkey
+    * [Türkçe](https://www.cisco.com/site/tr/tr/index.html)
+  * Ukraine
+    * [Українська ](https://www.cisco.com/site/ua/uk/index.html)
+    * [Русский](https://www.cisco.com/site/ua/ru/index.html)
+  * United Kingdom & Ireland
+    * [English](https://www.cisco.com/site/uk/en/index.html)
+  * Vietnam
+    * [Việt](https://www.cisco.com/site/vn/vi/index.html)
+
+
+  * Canada
+    * [English](https://www.cisco.com/site/ca/en/index.html)
+    * [Français](https://www.cisco.com/site/ca/fr/index.html)
+  * United States
+    * [English](https://www.cisco.com/site/us/en/index.html)
+
+
+  * Africa
+    * [English](https://www.cisco.com/site/dz/en/index.html)
+    * [Français](https://www.cisco.com/site/dz/fr/index.html)
+    * [Português](https://www.cisco.com/site/pt/pt/index.html)
+    * [عربي](https://www.cisco.com/site/eg/ar/index.html)
+  * Egypt
+    * [English](https://www.cisco.com/site/eg/en/index.html)
+    * [عربي](https://www.cisco.com/site/eg/ar/index.html)
+  * South Africa
+    * [English](https://www.cisco.com/site/za/en/index.html)
+
+
+  * Australia & New Zealand
+    * [English](https://www.cisco.com/site/au/en/index.html)
+  * India
+    * [English](https://www.cisco.com/site/in/en/index.html)
+  * Indonesia
+    * [English](https://www.cisco.com/site/id/en/index.html)
+  * Japan
+    * [日本語](https://www.cisco.com/site/jp/ja/index.html)
+  * Korea
+    * [한국어](https://www.cisco.com/site/kr/ko/index.html)
+  * Malaysia
+    * [English](https://www.cisco.com/site/my/en/index.html)
+  * Philippines
+    * [English](https://www.cisco.com/site/ph/en/index.html)
+  * Singapore
+    * [English](https://www.cisco.com/site/sg/en/index.html)
+  * Thailand
+    * [ภาษาไทย](https://www.cisco.com/site/th/th/index.html)
+  * Vietnam
+    * [Việt](https://www.cisco.com/site/vn/vi/index.html)
+
+
+  * Austria
+    * [Deutsch](https://www.cisco.com/site/at/de/index.html)
+  * Belgium & Luxembourg
+    * [English](https://www.cisco.com/site/be/en/index.html)
+    * [Français](https://www.cisco.com/site/be/fr/index.html)
+    * [Nederlands](https://www.cisco.com/site/be/nl/index.html)
+  * Czech Republic
+    * [Čeština](https://www.cisco.com/site/cz/cs/index.html)
+  * Denmark
+    * [Dansk](https://www.cisco.com/site/dk/da/index.html)
+  * France
+    * [Français](https://www.cisco.com/site/fr/fr/index.html)
+  * Germany
+    * [Deutsch](https://www.cisco.com/site/de/de/index.html)
+  * Hungary
+    * [Magyar](https://www.cisco.com/site/hu/hu/index.html)
+  * Israel
+    * [English](https://www.cisco.com/site/il/en/index.html)
+  * Italy
+    * [Italiano](https://www.cisco.com/site/it/it/index.html)
+  * Netherlands
+    * [Nederlands](https://www.cisco.com/site/nl/nl/index.html)
+  * Norway
+    * [Norsk](https://www.cisco.com/site/no/no/index.html)
+  * Poland
+    * [Polski](https://www.cisco.com/site/pl/pl/index.html)
+  * Portugal
+    * [Português](https://www.cisco.com/site/pt/pt/index.html)
+  * Romania
+    * [Română](https://www.cisco.com/site/ro/ro/index.html)
+  * Spain
+    * [Español](https://www.cisco.com/site/es/es/index.html)
+  * Sweden
+    * [Svenska](https://www.cisco.com/site/se/sv/index.html)
+  * Switzerland
+    * [Français](https://www.cisco.com/site/ch/fr/index.html)
+    * [Deutsch](https://www.cisco.com/site/ch/de/index.html)
+  * Turkey
+    * [Türkçe](https://www.cisco.com/site/tr/tr/index.html)
+  * Ukraine
+    * [Українська ](https://www.cisco.com/site/ua/uk/index.html)
+    * [Русский](https://www.cisco.com/site/ua/ru/index.html)
+  * United Kingdom & Ireland
+    * [English](https://www.cisco.com/site/uk/en/index.html)
+
+
+  * Hong Kong
+    * [English](https://www.cisco.com/site/hk/en/index.html)
+    * [繁體中文](https://www.cisco.com/site/hk/zh/index.html)
+  * Mainland China
+    * [简体中文](https://www.cisco.com/site/cn/zh/index.html)
+  * Taiwan
+    * [繁體中文](https://www.cisco.com/site/tw/zh/index.html)
+
+
+  * Argentina
+    * [Español](https://www.cisco.com/site/ar/es/index.html)
+  * Brazil
+    * [Português](https://www.cisco.com/site/br/pt/index.html)
+  * Caribbean
+    * [Español](https://www.cisco.com/site/bz/es/index.html)
+  * Chile
+    * [Español](https://www.cisco.com/site/cl/es/index.html)
+  * Colombia
+    * [Español](https://www.cisco.com/site/co/es/index.html)
+  * Costa Rica
+    * [Español](https://www.cisco.com/site/cr/es/index.html)
+  * Ecuador
+    * [Español](https://www.cisco.com/site/ec/es/index.html)
+  * Mexico
+    * [Español](https://www.cisco.com/site/mx/es/index.html)
+  * Panama
+    * [Español](https://www.cisco.com/site/pa/es/index.html)
+  * Peru
+    * [Español](https://www.cisco.com/site/pe/es/index.html)
+
+
+  * Middle East
+    * [English](https://www.cisco.com/site/ae/en/index.html)
+    * [عربي](https://www.cisco.com/site/ae/ar/index.html)
+
+
+Close
+Close
+Hello, how can I help?
+Hello, how can I help?
+  1. [ Solutions ](https://www.cisco.com/site/us/en/solutions/index.html)
+  2. [ Service Provider ](https://www.cisco.com/c/en/us/solutions/service-provider/index.html)
+
+
+![Cisco Agile Services Networking](https://www.cisco.com/content/dam/cisco-cdc/site/images/heroes/solutions/service-provider/networking/agile-services-networking-marquee-3200x1312.jpg)
+# Cisco Agile Services Networking
+##  Get AI-ready connectivity: intelligent, simple, resilient 
+Imagine a simpler network architecture optimized for flexible service deployment, built for resilient experiences, and ready to monetize. Meet Agile Services Networking.
+[Watch webinar on-demand](https://webinars.cisco.com/amer/the-opportunity-for-telcos-to-enable-and-monetize-enterprise-ai) [Contact us](https://www.cisco.com/c/en/us/solutions/service-provider/contact.html)
+Overview [Resources](https://www.cisco.com/site/us/en/solutions/service-provider/networking/agile-services/resources.html)
+[Watch webinar on-demand](https://webinars.cisco.com/amer/the-opportunity-for-telcos-to-enable-and-monetize-enterprise-ai)
+## Gain ultimate network flexibility in the AI era
+* * *
+[ 1:47 ![](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/solutions/service-provider/agile-services-600x338.jpg) ](javascript:; "Play Video")
+# Cisco Agile Services Networking
+Discover the transformative benefits of Cisco Agile Services Networking, delivering a simplified network architecture optimized for adaptable service deployment and resilient experiences.
+###  Intelligent delivery 
+Monetize service deployment anywhere. Deploy closer to end users with unified network building blocks powered by Cisco Silicon One. This can help to optimize scalability, bandwidth, power efficiency, and cost.
+###  Simplified networks 
+Remove complexity by converging IP and optical network layers to increase efficiency, reduce TCO, and simplify network operations across access, transport, and DCI applications.
+###  AI-powered operations 
+Reduce operating expenses with AI-powered analytics that support predictive and prescriptive automation for network optimization and troubleshooting.
+###  Resilient experiences 
+Gain end-to-end network security and observability, which delivers the assurance that protects and elevates user experiences.
+## Agile Services Networking in action
+### Evolve your network architecture to power AI connectivity.
+[Read solution overview](https://www.cisco.com/c/en/us/products/collateral/service-provider/agile-services/agile-services-networking-so.html "Read solution overview")
+![](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/agile-services-networking.png)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/agile-services-networking.png)
+![Plus icon](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/12x12-plus.svg)
+Agile Metro
+![Plus icon](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/12x12-plus.svg)
+Agile Data Center Connectivity
+![Plus icon](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/12x12-plus.svg)
+Agile Mobile Transport
+![Plus icon](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/12x12-plus.svg)
+Agile Core
+### Remove complexity from the core to the edge
+Click the green (+) for Agile Services Networking use cases and see how it works.
+See what's inside ![](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/12x12-plus.svg)
+![Plus icon](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/20x20-close.svg) Agile Metro ![arrow](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/12x12-chevron-right.svg) Agile Mobile Transport ![arrow](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/12x12-chevron-right.svg) Agile Core ![arrow](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/12x12-chevron-right.svg) Agile Data Center Connectivity ![arrow](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/12x12-chevron-right.svg)
+![Plus icon](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/20x20-chevron-left-black.svg) ![Plus icon](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/20x20-close.svg)
+Agile Services Networking
+## Flexible metro service delivery
+### Overview
+Offer better experiences for residential, business, and mobile services with Cisco Agile Metro. It’s simpler and more cost-effective to build, operate, and scale AI-ready connectivity and provide flexible service delivery from locations closer to end users.
+### Benefits
+  * Deploy services closer to end users from anywhere in the network to improve user experiences.
+  * Reduce costs with scalable, high-performance, and energy-efficient routers.
+  * Accelerate time to market and increase operational efficiency with AI-enabled automation.
+  * Improve experiences with proactive, intent-based assurance and granular visibility of performance metrics.
+  * Simplify networks by converging IP and optical architectures with Cisco Routed PON and Routed Optical Networking solutions.
+
+
+### Get started
+[Get At-a-Glance](https://www.cisco.com/c/en/us/solutions/collateral/service-provider/agile-services/agile-metro-aag.html "Get At-a-Glance")
+![Plus icon](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/20x20-chevron-left-black.svg) ![Plus icon](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/20x20-close.svg)
+Agile Services Networking
+## Data center connectivity
+### Overview
+Reduce the cost to connect AI-ready data centers with Data Center Interconnect (DCI) using coherent pluggable optics. Agile Data Center Connectivity offers a converged IP and optical infrastructure for connecting distributed data centers, while extending reliable connectivity and performance to users and endpoints.
+### Features
+  * Simplify Data Center Interconnect (DCI) by converging IP and optical network layers with coherent pluggable optics.
+  * Optimize CapEx and OpEx with higher-performance 400G and 800G systems that consume less energy.
+  * Assure connectivity with granular visibility of performance metrics across network devices.
+  * Expand Routed Optical Networking use cases from 100G to 800G links and cover distances up to 3,000 km with new coherent pluggable optics.
+
+
+### Get started
+[Get At-a-Glance](https://www.cisco.com/c/en/us/solutions/collateral/service-provider/agile-services/agile-dc-connectivity-aag.html "Get At-a-Glance")
+![Plus icon](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/20x20-chevron-left-black.svg) ![Plus icon](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/20x20-close.svg)
+Agile Services Networking
+## Mobile transport
+### Overview
+Deliver better experiences by simplifying and converging your mobile transport and private mobile access network. Streamline network design to accommodate applications such as cell site routing, xHaul, and 5G metro aggregation with Cisco Agile Mobile Transport.
+### Features
+  * Simplify your mobile transport with a unified architecture from access to edge to core.
+  * Optimize efficiency with high-performance and power-efficient Silicon One-based routers.
+  * Deliver low-latency mobile services and AI applications with assured SLAs.
+  * Automate operations and control real-time network services and SLA performance.
+  * Secure mobile traffic, AI workloads, and applications with end-to-end encryption.
+
+
+### Get started
+[Get At-a-Glance](https://www.cisco.com/c/en/us/solutions/collateral/service-provider/agile-services/agile-mobile-transport-aag.html "Get At-a-Glance")
+![Plus icon](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/20x20-chevron-left-black.svg) ![Plus icon](https://www.cisco.com/content/dam/cisco-cdc/site/microsites/us/en/solutions/service-provider/networking/agile-services/asn-assets/images/20x20-close.svg)
+Agile Services Networking
+## Core connectivity
+### Overview
+Redefine core and peering with Agile Core solutions that offer dynamic, intelligent, and scalable architectures that adapt to evolving network demands. Enhance connectivity by supporting edge features and functions from a converged core.
+### Features
+  * Simplify the core backbone with high-performance, high-density routers.
+  * Optimize CapEx and OpEx with space, power, and energy-efficient systems combined with advanced automation.
+  * Leverage Routed Optical Networking and benefit from reduced TCO with expanding use cases for 800G links and reaches of up to 3,000 km.
+  * Achieve consistent operations with a unified Cisco IOS® XR network operating system.
+
+
+### Get started
+[Get At-a-Glance](https://www.cisco.com/c/en/us/solutions/collateral/service-provider/agile-services/agile-core-aag.html "Get At-a-Glance")
+![Evolution of Network Architectures in the AI Era](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/solutions/service-provider/spotlight-ai-network-architecture-658x370.jpg)
+##  Evolution of Network Architectures in the AI Era 
+In this white paper, developed by global analyst and advisory leader Omdia, you’ll learn about the latest developments, possible effects, and opportunities for service provider architectures to connect AI networks.
+[Get white paper](https://www.cisco.com/c/en/us/solutions/service-provider/offers/assets/omdia-evolving-ip-network-architecture-ai-whitepaper.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/solutions/service-provider/stl-whitepaper-solp-spotlight-800x450.png)
+White paper
+###  The AI Revolution and the Telco's Strategic Imperative 
+Discover how telecommunications companies can become trusted AI infrastructure providers. Get insights on monetization, productized services, and more.
+[Read white paper](https://www.cisco.com/site/us/en/solutions/service-provider/offers/assets/stl-partners-ai-for-telco-whitepaper.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/solutions/service-provider/ai-prompt-crosslink-image-800x450.jpg)
+White paper
+###  A Day in the Life of a Prompt 
+Learn why handling network latency is the next frontier for AI infrastructure in this white paper. 
+[Read white paper](https://www-author.cisco.com/c/en/us/solutions/collateral/artificial-intelligence/mass-scale-infrastructure/day-in-the-life-of-a-prompt.pdf)
+* * *
+Show more (1)
+* * *
+##  Explore the components of Cisco Agile Services Networking 
+Adapt to network demands with a flexible architecture that is simpler, monetizable, and resilient.
+[Get solution overview](https://www.cisco.com/c/en/us/products/collateral/service-provider/agile-services/agile-services-networking-so.html)
+Routing and switching platformsAutomation and assuranceSilicon OneOptics and optical networking
+###  Routing and switching platforms
+![Cisco 8000 Series Routers](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/product-photography/8000-series-router-360x200.png)
+###  Cisco 8000 Series Routers 
+Build the internet of the future with cloud-enhanced systems. Get performance, functionality, and scalability you can count on with routers powered by Cisco Silicon One.
+[Explore Cisco 8000 Series](https://www.cisco.com/site/us/en/products/networking/sdwan-routers/8000-series/index.html)
+![Cisco ASR 9000 Series service router](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/product-photography/asr-9000-series-360x200.png)
+###  Cisco ASR 9000 Series Routers 
+Support the application performance required to power your services with rich edge routing features at scale. Meet the needs of mass-scale networks with a platform that grows with you.
+[Explore ASR 9000 Series](https://www.cisco.com/site/us/en/products/networking/sdwan-routers/asr-9000-series-aggregation-services-routers/index.html)
+![Cisco NCS 5700 Series router](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/product-photography/ncs-5700-series-360x200.png)
+###  Cisco NCS 5700 Series 
+Scale with high-density 400G routers for long-term growth and segment routing for SLA-based services.
+[Explore NCS 5700 Series](https://www.cisco.com/site/us/en/products/networking/sdwan-routers/network-convergence-system-5700-series/index.html)
+![Cisco NCS 5500 Series router](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/product-photography/ncs-5500-series-360x200.png)
+###  Cisco NCS 5500 Series 
+Get industry-leading innovations in port density and become more agile and more sustainable as you scale. These routers can handle massive traffic growth easily with 100 Gigabit Ethernet and 400G port density.
+[Explore NCS 5500 Series](https://www.cisco.com/site/us/en/products/networking/sdwan-routers/network-convergence-system-5500-series/index.html)
+![Cisco NCS 500 series router](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/product-photography/ncs-500-series-369x200.png)
+###  Cisco NCS 500 Series 
+Simplify your access network and converge services with these secure, compact, and programmable routers for access use cases.
+[Explore NCS 500 Series](https://www.cisco.com/site/us/en/products/networking/sdwan-routers/network-convergence-system-500-series/index.html)
+* * *
+Show more (1)
+* * *
+###  Automation and assurance
+![Monitor screen of Cisco Crosswork Network Automation](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/product-photography/crosswork-network-automation-354x200.jpg)
+###  Cisco Crosswork Network Automation 
+Automate away complexity and differentiate service delivery with a scalable, AI-powered unified platform.
+[Explore Crosswork Network Automation](https://www.cisco.com/site/us/en/products/networking/software/crosswork-network-automation/index.html)
+![Monitor screen of Cisco Provider Connectivity Assurance](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/product-photography/provider-connectivity-assurance.png)
+###  Cisco Crosswork Assurance 
+Get granular, real-time visibility on service and SLA performance across multivendor, multilayer, and multidomain provider networks.
+[Explore Cisco Crosswork Assurance](https://www.cisco.com/site/us/en/products/networking/software/provider-connectivity-assurance/index.html)
+![Cisco ThousandEyes dashboard](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/product-photography/solutions/thousandeyes-dashboard.png)
+###  Cisco ThousandEyes 
+Assure every digital experience across home, enterprise, cloud, internet, and SaaS environments.
+[Explore ThousandEyes](https://www.thousandeyes.com/solutions/carriers-and-hosting)
+![Splunk dashboard](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/product-photography/splunk-dashboard.png)
+###  Splunk 
+Drive digital resilience and embrace AIOps with market-leading unified observability, assurance, and security.
+[Explore Splunk](https://www.splunk.com/en_us/solutions/industries/communications.html)
+* * *
+Show more (1)
+* * *
+###  Silicon One
+![Cisco Silicon One](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/product-photography/silicon-one-latest.png)
+###  Cisco Silicon One 
+Enable convergence without compromise and redefine AI/ML networking—all with one silicon architecture. With Silicon One, you get the highest bandwidth routing and switching for building networks.
+[Explore Silicon One](https://www.cisco.com/site/us/en/products/networking/silicon-one/index.html?dtid=osscdc000283)
+* * *
+Show more (1)
+* * *
+###  Optics and optical networking
+![Cisco Optics](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/product-photography/optical-transciever.png)
+###  Cisco Optics 
+Get the highest quality, performance-leading optical and coherent transceivers for any network architecture.
+[Explore Optics](https://www.cisco.com/site/us/en/products/networking/optics-transceiver-modules/index.html?dtid=osscdc000283)
+![Optical systems](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/product-photography/optical-systems.png)
+###  Optical systems 
+Provide scalable, flexible connectivity for any network with open optical networks.
+[Explore optical systems](https://www.cisco.com/site/us/en/products/networking/optical-networking/index.html)
+* * *
+Show more (1)
+* * *
+## Evolve your network with advanced solutions
+Cisco Non-Terrestrial Networking 
+###  Connect beyond boundaries 
+Seamlessly integrating terrestrial and satellite networks, creating a comprehensive, intelligent connectivity ecosystem.
+[Explore Non-Terrestrial Networking](https://www.cisco.com/site/us/en/solutions/service-provider/networking/non-terrestrial-networks/index.html)
+Cisco Routed Optical Networking
+###  Optimize your network 
+Simplify your architecture through convergence of the IP and optical layers. Lower environmental costs, streamline operations, and prepare for growth.
+[Explore Routed Optical Networking](https://www.cisco.com/site/us/en/solutions/routed-optical-networking/index.html)
+Cisco Routed PON
+###  Reimagine the access network 
+Routed PON eliminates the need for a separate OLT chassis, enabling agile and differentiated broadband services with operational efficiency at scale.
+[Explore Routed PON](https://www.cisco.com/site/us/en/solutions/routed-pon/index.html)
+## How our customers use Agile Services Networking
+![Reliance Jio logo](https://www.cisco.com/content/dam/cisco-cdc/site/images/logos/3rd-party/Reliance_Jio_Logo_220x222.png)
+##  Building tomorrow's network, today 
+> "We have leveraged Jio's internal expertise and Cisco's capabilities for automation from an end-to-end perspective in observability, provisioning, and management, including security."
+**Puneet Garg, CTO  
+**Reliance Jio
+[Read story](https://www.cisco.com/site/us/en/about/case-studies-customer-stories/reliance-jio.html) Watch now (00:35)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/logos/3rd-party/Lumen_Logo_Black_RBG_1600x220.png)
+##  Reshaping networks for the AI economy 
+> "We’re changing the network architecture and we’re changing the business service to use our own network for direct paths between multiple data centers, multiple clouds, and creating that true multicloud architecture.”
+Dave Ward, Chief Technology and Product Officer
+Lumen Technologies
+Watch now (02:05) [Read Lumen story ](https://www.cisco.com/site/us/en/about/case-studies-customer-stories/lumen-technologies.html)
+![Swisscom logo](https://www.cisco.com/content/dam/cisco-cdc/site/images/logos/3rd-party/carousel-quote-swisscom-logo.png)
+##  Converged networking for incredible cost savings 
+> "We partnered with Cisco end to end, implementing Silicon One-based 8000 Series Routers, which perfectly aligned with our sustainability and business goals. In our journey so far, we have been able to converge 20 MPLS networks into one SRv6 network with an astounding 90% reduction in power."
+**Markus Reber, Executive Vice President**
+Swisscom
+Watch video (1:34) [Read story](https://www.cisco.com/site/us/en/about/case-studies-customer-stories/swisscom.html?ccid=cc006688)
+![Arelion logo](https://www.cisco.com/content/dam/cisco-cdc/site/images/areloin_updated_logo_220x929.png)
+##  Learn about the latest Cisco AI innovations and news 
+> "We talk with Cisco on a daily basis about how we can make the network better and make deliveries as smooth as possible. The network is not up 100% of the time, so transparency and a deep understanding of how the network is performing—that’s the key to customer experience.”
+**_Mattias B. Fridström, Vice President and Chief Evangelist_**
+Arelion
+Watch now [Read Arelion story](https://www.cisco.com/site/us/en/about/case-studies-customer-stories/arelion.html)
+![Colt Technology Services logo](https://www.cisco.com/content/dam/cisco-cdc/site/images/logos/3rd-party/carousel-quote-colt-logo.png)
+##  Reduced energy consumption for affordable, scalable bandwidth 
+> "80% of our European core is now running over RON, which means we have power savings of 97%. But at the same time, we have less rack space because we have 35 times more capacity than we had before."
+**Bart Janssens, Senior Specialist, Packet Architecture**
+Colt
+Watch video (3:07) [Read story](https://www.cisco.com/site/us/en/about/case-studies-customer-stories/colt-technology.html)
+Previous
+Next
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/poster-image/lightbox-default-play-image.png)
+1:34
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/poster-image/lightbox-default-play-image.png)
+1:48
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/poster-image/lightbox-default-play-image.png)
+![](https://cf-images.us-east-1.prod.boltdns.net/v1/jit/1384193102001/889c05fa-1027-4349-8d49-56c3e7f5732a/main/1280x720/1m2s666ms/match/image.jpg)
+![](https://cf-images.us-east-1.prod.boltdns.net/v1/static/1384193102001/96602f59-b01c-4994-a95a-ffe1eec16fdc/e24f4e7d-82cb-45d7-8c02-84cd09d3a20f/1280x720/match/image.jpg)
+![](https://cf-images.us-east-1.prod.boltdns.net/v1/jit/1384193102001/04731ef5-2307-4d8b-a147-bae607f97570/main/1280x720/1m7s978ms/match/image.jpg)
+2:15
+###  Quick Links
+  * [About Cisco](https://www.cisco.com/site/us/en/about/index.html)
+  * [Contact Us](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=ftr-contactus)
+  * [Careers](https://careers.cisco.com/global/en/home)
+  * [Connect with a partner](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+
+
+* * *
+###  Resources and Legal
+  * [Feedback](https://ciscocx.qualtrics.com/jfe/form/SV_bwrmeoKrBHYxOyW?Ref=/c/en/us/index.html)
+  * [Help](https://www.cisco.com/c/en/us/about/help.html)
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy  
+](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies / Do not sell or share my personal data  
+](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Accessibility](https://www.cisco.com/c/en/us/about/accessibility.html)
+  * [Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+  * [Supply Chain Transparency](https://www.cisco.com/c/dam/en_us/about/supply-chain/cisco-modern-slavery-statement.pdf)
+  * [Newsroom](https://newsroom.cisco.com/c/r/newsroom/en/us/index.html)
+  * [Sitemap](https://www.cisco.com/site/us/en/about/sitemap.html)
+
+
+* * *
+  * [ ](https://www.facebook.com/cisco/ "Facebook")
+  * [ ](https://x.com/Cisco/ "X")
+  * [ ](https://www.linkedin.com/company/cisco "LinkedIn")
+  * [ ](https://www.youtube.com/user/cisco "YouTube")
+  * [ ](https://www.instagram.com/cisco/ "Instagram")
+
+
+© 2026 Cisco Systems, Inc.
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
