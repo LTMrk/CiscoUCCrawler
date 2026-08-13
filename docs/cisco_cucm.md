@@ -28600,3 +28600,170 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)Show All Breadcrumbs
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
+  * [Cisco Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+  * [Troubleshooting TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/products-tech-notes-list.html)
+
+
+# Decommission IM and Presence nodes
+![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)
+Download
+Print
+### Available Languages
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)
+
+
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.pdf) (513.9 KB)   
+View with Adobe Reader on a variety of devices
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.epub) (469.6 KB)   
+View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.mobi) (635.0 KB)   
+View on Kindle device or Kindle app on multiple devices
+
+
+Updated:January 17, 2024
+Document ID:221563
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+## Contents
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html#toc-hId--1619248571)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html#toc-hId--1815762076)
+[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html#toc-hId--1883192862)
+[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html#toc-hId--2079706367)
+[Decommissioning IM and Presence Nodes](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html#toc-hId-1889664705)
+[Unassign Users from IM&P](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html#toc-hId-1822233919)
+[Remove IM&Ps from Service Profile](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html#toc-hId-1625720414)
+[Disable UserIM Capabilities](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html#toc-hId-1429206909)
+[Disable Feature Group IM Capabilities](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html#toc-hId-1232693404)
+[Delete IM&P SIP Trunk](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html#toc-hId-1036179899)
+[Delete the Presence Redundancy Group](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html#toc-hId-764435025)
+[Delete the IM&Ps](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html#toc-hId-567921520)
+## Introduction
+This document describes the process to perform when decommissioning Cisco IM and Presence nodes.
+## Prerequisites
+### Requirements
+Cisco recommends that you have knowledge of Cisco Unified Communications Manager (CUCM) and Cisco IM and Presence (IM&P). 
+### Components Used
+The information in this document is based on the listed software versions:
+  * Cisco Unified Communications Manager 12.5.1 SU5
+  * Cisco IM and Presence 12.5.1 SU5
+
+
+The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
+## Decommissioning IM and Presence Nodes
+### Unassign Users from IM&P
+Start by logging into CUCM and navigating to **Cisco Unified CM Administration > User Management > Assign Presence Users**.
+[![CUCM Assign Presence Users](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-00.png "CUCM Assign Presence Users")CUCM Assign Presence Users
+From the presence user assignment configuration select the option to **Assign All Users**.
+[![CUCM Assign All Users](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-01.png "CUCM Assign All Users")CUCM Assign All Users
+When presented with the assign users prompt select the unassigned radio button and save. 
+[![Assign Users](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-02.png "Assign Users")Assign Users
+Once all users have been unassigned from the IM&P servers, verify the change has occurred by logging into the IM&P administration and verifying all users show as unassigned. 
+[![IM&P Unassigned User Validation](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-03.png "IM&P Unassigned User Validation")IM&P Unassigned User Validation
+### Remove IM&Ps from Service Profile
+Navigate to **Cisco Unified CM Administration > User Management > User Settings > Service Profile.**
+[![CUCM Service Profile](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-04.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-04.png "CUCM Service Profile")CUCM Service Profile
+After selecting the service profile change the IM and Presence Profiles to **< None>** and Save. 
+[![Service Profile IM&P Profile](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-05.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-05.png "Service Profile IM&P Profile")Service Profile IM&P Profile
+**Note** : Remove the IM&P nodes from all configured service profiles.
+### Disable User IM Capabilities 
+Navigate to **Cisco Unified CM Administration > Bulk Administration > Users > Update Users > Query.**
+[![CUCM Bulk Admin Update Users](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-06.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-06.png "CUCM Bulk Admin Update Users")CUCM Bulk Admin Update Users
+Select all the user that are enabled for IM&P. When presented with the update users configuration page disable the "Enable Users for Unified CM IM and Presence" configuration and submit the changes to run immediately or at a later time. 
+[![Bulk Admin Disable IM&P](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-07.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-07.png "Bulk Admin Disable IM&P")Bulk Admin Disable IM&P
+Navigate to **IM &P Administration > System > Presence Topology** page and verify that there are no users shown as assigned or unassigned.
+[![IM&P All Users Unassigned](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-08.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-08.png "IM&P All Users Unassigned")IM&P All Users Unassigned
+### Disable Feature Group IM Capabilities 
+Navigate to **User Management > User/Phone Add > Feature Group Template.**
+[![CUCM Feature Group Template](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-09.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-09.png "CUCM Feature Group Template")CUCM Feature Group Template
+Once the feature group template is selected remove the check near the "Enable User for Unified CM IM and Presence" selection and save. 
+[![Feature Group Template Disable IM&P](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-10.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-10.png "Feature Group Template Disable IM&P")Feature Group Template Disable IM&P
+### Delete IM&P SIP Trunk
+Navigate to **Cisco Unified CM Administration > Device > Trunk.**
+**[![CUCM SIP Trunk](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-11.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-11.png "CUCM SIP Trunk")CUCM SIP Trunk**
+Check the box by the IM&P SIP trunk and select the option to delete selected.
+[![CUCM Delete SIP Trunk](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-12.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-12.png "CUCM Delete SIP Trunk")CUCM Delete SIP Trunk
+### Delete the Presence Redundancy Group 
+Navigate to **Cisco Unified CM Administration > System > Presence Redundancy Groups.**
+[![CUCM Presence Redundancy Group](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-13.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-13.png "CUCM Presence Redundancy Group")CUCM Presence Redundancy Group
+Disable high availability and save. 
+[![CUCM Disable High Availability](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-14.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-14.png "CUCM Disable High Availability")CUCM Disable High Availability
+Next, select the option to delete the Presence Redundancy Group
+[![CUCM Delete Presence Redundancy Group](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-15.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-15.png "CUCM Delete Presence Redundancy Group")CUCM Delete Presence Redundancy Group
+### Delete the IM&Ps
+Navigate to **Cisco Unified CM Administration > System > Server.**
+[![CUCM System Server](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-16.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-16.png "CUCM System Server")CUCM System Server
+Select the option to delete the IM&P node. 
+[![CUCM Delete IM&P](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-17.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes-17.png "CUCM Delete IM&P")CUCM Delete IM&P
+**Note** : Once the IM&Ps have been decommissioned, make sure to power down and remove the virtual machines as they are no longer needed. 
+### Revision History  
+| Revision  | Publish Date  | Comments  |  
+| --- | --- | --- |  
+| 1.0  |  17-Jan-2024   | Initial Release  |  
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html "Back to Top")
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+### Contributed by Cisco Engineers
+  * Dominic Furman
+Technical Consulting Engineer
+  * Joel Burleigh
+TAC Escalation Engineer
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+### Contact Cisco
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-15/221563-decommission-im-and-presence-nodes.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
+
+
+### This Document Applies to These Products
+  * [Unified Communications Manager IM and Presence Service 15](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-im-presence-service-15/model.html)
+  * [Unified Communications Manager IM and Presence Service Version 12.5](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-im-presence-service-version-12-5/model.html)
+  * [Unified Communications Manager IM and Presence Service Version 14](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-im-presence-service-version-14/model.html)
+
+
