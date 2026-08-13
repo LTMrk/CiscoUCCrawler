@@ -13649,3 +13649,250 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)Show All Breadcrumbs
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
+  * [Cisco Expressway Series](https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/series.html)
+  * [Configuration Examples and TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/products-configuration-examples-list.html)
+
+
+# Configure and Troubleshoot UDS Contact Photos Resolution through MRA/Expressway
+![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)
+Print
+### Available Languages
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)
+
+
+Updated:June 28, 2018
+Document ID:212104
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+## Contents
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html#anc0)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html#anc1)
+[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html#anc2)
+[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html#anc3)
+[Background Information](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html#anc4)
+[Configure](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html#anc5)
+[The jabber-config.xml File](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html#anc6)
+[UID Parameter Mapping in LDAP](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html#anc7)
+[Configure the Expressway-Core / Video Communications Manager (VCS) Control](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html#anc8)
+[Verify](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html#anc9)
+[Troubleshoot](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html#anc10)
+## Introduction
+This document describes the procedure to configure and troubleshoot contact photo resolution via User Discovery Service (UDS) when Jabber is registered over Mobile Remote Access (MRA).
+## Prerequisites
+### Requirements
+Cisco recommends that you have knowledge of the contact photo resolution over UDS requirements:
+  * The images must be hosted somewhere. You need to have a separate webserver to host the images.
+
+
+  * The images must be in "jpg" format and be sized 128 x128 pixels.
+
+
+  * Jabber must have access to that location. The webserver's Fully Qualified Domain Name (FQDN) or IP address must be completely resolvable and reachable from the inside even if the webserver is located outside of the network.
+
+
+  * Each image file must have the naming scheme as "uid.jpg" where "uid" is the user id of each Jabber user. This will work in tandom with the configuration code in the configuration file.
+
+
+### Components Used
+This document is not restricted to specific software and hardware versions.
+The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, make sure that you understand the potential impact of any command.
+## Background Information
+Jabber administrators configure photo contact resolution via Lightweight Directory Access Protocol (LDAP) internally before they deploy Mobile Remote Access (MRA) via Cisco Expressway. When LDAP is used for contact photo resolution when you log in externally via MRA, your contact photos will not resolve because MRA uses User Discovery Service (UDS) by default. Administrators need to configure contact photo resolution via UDS for this to work over MRA. This way when Jabber connects externally, it automatically switches to UDS as the directory source and is able to pull contact photos for each user.
+If an administrator already uses UDS prominently rather than LDAP and has contact photo resolution already configured, the administrator only needs to configure the Expressway and can skip the other steps. 
+## Configure
+### The jabber-config.xml File
+If you use custom jabber-config files, you will need to make sure that these files do not write over the global configuration file. In other words, the configuration you will add to the global configuration file to make this work must take precedence.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-00.png "Related image, diagram or screenshot.")
+The configuration needs to be added in the <Directory></Directory> tags. It can be added in addition to any directory configuration already present.
+
+```
+<Directory>
+<DirectoryServerType>UDS</DirectoryServerType>
+<PhotoUriWithToken>http://webserverFQDNorIP/images/%%uid%%.jpg</PhotoUriWithToken>
+<UdsPhotoUriWithToken>http://webserverFQDNorIP/images/%%uid%%.jpg</UdsPhotoUriWithToken>
+<UdsServer>CallManager IP or FQDN</UdsServer>
+<MinimumCharacterQuery>3</MinimumCharacterQuery>
+</Directory>
+```
+
+**Note** : The "%%uid%%.jpg" portion of the URL tells Jabber to substitute the word "uid" with the user ID of each user. It is very important for Jabber to know where to find the image and whom it maps it to.
+### UID Parameter Mapping in LDAP
+Jabber needs to be able to map the image to the user. If you have an LDAP server, then you will need to configure the UID parameter for each user. The UID parameter will be the user ID for that user.
+Step 1. Locate the users.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-01.png "Related image, diagram or screenshot.")
+Step 2. Choose **View > Advanced Features**.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-02.png "Related image, diagram or screenshot.")
+Step 3. Click the **Attribute Editor** tab.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-03.png "Related image, diagram or screenshot.")
+Step 4. Configure the **UID** parameter for each user as its user ID.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-04.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-04.png "Related image, diagram or screenshot.")
+**Note** : This needs to be done for **every** user. Once you complete this you need to perform a full sync in the LDAP Directory configuration in CallManager.
+### Configure the Expressway-Core / Video Communications Manager (VCS) Control
+Since Jabber will connect externally and communicate with all of the servers on the inside through the Expressway-Core (Expressway-C) / VCS Control, you need to configure the Expressway-C in order to allow Jabber to access the webserver that hosts the images.
+Step 1. Log in to the VCS Control.
+Step 2. Choose **Configuration > Unified Communications > Configuration**.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-05.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-05.png "Related image, diagram or screenshot.")
+Step 3. Click **Configure HTTP server allow list**.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-06.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-06.png "Related image, diagram or screenshot.")
+Step 3. Click **New**.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-07.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-07.png "Related image, diagram or screenshot.")
+Step 4. Configure the IP address or FQDN of the webserver. Click **Create entry**.
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-08.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-08.png "Related image, diagram or screenshot.")
+[![](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-09.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P-09.png "Related image, diagram or screenshot.")
+## Verify
+Use this section in order to confirm that your configuration works properly.
+You should now be able to exit Jabber, delete the cache, and log back in externally. Contact photo resolution should work.
+## Troubleshoot
+This section provides information you can use to troubleshoot your configuration.
+If contact photos do not work, complete these steps in order to troubleshoot the issue:
+Step 1. Check the Jabber configuration file. There should be no missed tag brackets and the photo URl should be correct.
+Step 2. The Jabber client should download the new configuration file. There must not be a custom configuration file that takes precedence.
+Step 3. Check the LDAP server, the UID parameter needs to be correct for the users.
+Step 4. If you use FQDNs , they will need to resolve from the Personal Computer (PC) that you use with Jabber. An **nslookup** will help confirm if this is a problem. Enter the URL for a user's image in the browser and see if it loads. If all of this works, the next step is to pull the Jabber problem report.
+Step 5. The Expressway-C should be configured correctly to allow the server.
+If all of the previous items have been checked, pull a Jabber problem report and get a packet capture from the PC. The problem report will show the modified photo URL for each user as it tries to resolve the image. If it says that it is unable to find the image, it might be a webserver or network issue.
+**Problem Report Keywords for Contact Issues**
+
+```
+*Photos, Contacts, and Directory Search*
+ 
+[csf.person.adsource] – Component level resource for directory and contact information.  Shows results of searches performed in Jabber.
+ 
+[csf.person] – Component level information specifically about contacts in Jabber (and those searched) along with photo information
+ 
+“BuddyListEventListener” – Keyword that shows up when Adding and Removing contacts
+ 
+"onPhotoDownloadComplete" - When Jabber attempts to download contact photos, it will be noted by this keyword along with success  
+ or failure information.
+ 
+“sendGetRequest” – URI Substitution for Photos will inclue this keyword in the URL request to the Web Server
+ 
+“HttpClientImpl” – Keyword shows HTTP data and requests for photos, CURL, and WebEx Meetings
+ 
+PersonResolutionHandler – This keyword is good for discovering where Jabber attempts to resolve contacts through AD and Outlook.  
+ May not be available in sub 9.6 versions.
+ 
+“searchString” – This displays the letters a user types in the Jabber search or call field.
+ 
+“string2search” – This keyword is the result of the searchString user entered information. It’s what Jabber will actually use to  
+ search in local cache, Outlook Address Book, and Active Directory
+ 
+“getRecordWithPhoto” – When using AD as the source for photo downloads, this keyword provides the point at which Jabber downloads  
+ the photo from AD.
+ 
+"ContactCard" – (11.x) The Contact Card feature used when hovering over a contact uses this keyword
+ 
+ 
+
+```
+
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html "Back to Top")
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+### Contributed by Cisco Engineers
+  * Fareed Warrad 
+Cisco TAC Engineer
+  * Edited by Ishan Sambhi
+Cisco TAC Engineer
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+### Contact Cisco
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
+
+
+### This Document Applies to These Products
+  * [Jabber](https://www.cisco.com/c/en/us/support/unified-communications/jabber/series.html)
+
+
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
