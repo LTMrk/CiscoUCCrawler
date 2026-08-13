@@ -2426,5 +2426,9 @@
   "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20190417-es-tvcs-dos.html": {
     "hash": "bda4feecca45e6f19b0b30b17c2e7fb1ac124f34375c9c4a458ec8193ffb341f",
     "timestamp": "2026-08-13T00:26:35.610188"
+  },
+  "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20190206-rest-api-ssrf.html": {
+    "hash": "9eff3e96b0179c2cc0ae1795bd626b3d38bcb14ab26f57bb74c52bdebdd91529",
+    "timestamp": "2026-08-13T00:26:38.776250"
   }
 }
