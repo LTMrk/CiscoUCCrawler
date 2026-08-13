@@ -41,3 +41,12 @@
 [2026-08-12T23:48:20.912559] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://help.webexconnect.io/docs
 [2026-08-13T00:17:41.883875] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text on small page (3996 bytes, 45 chars visible) | URL: https://help.webexconnect.io/edit/welcome
 [2026-08-13T00:17:44.597030] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://help.webexconnect.io/docs/send-sms
+[2026-08-13T00:17:50.825626] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Cloudflare JS challenge | URL: https://developers.webexconnect.io/reference/apple-messages-for-business-apis
+[2026-08-13T00:17:52.175593] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Cloudflare JS challenge | URL: https://help.webexconnect.io/docs/introduction-1
+[2026-08-13T00:17:53.515276] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: HTTP 429 Too Many Requests | URL: https://help.webexconnect.io/docs/agile-crm
+[2026-08-13T00:17:54.816540] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: HTTP 429 Too Many Requests | URL: https://help.webexconnect.io/docs/salesforce-node
+[2026-08-13T00:17:56.114656] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: HTTP 429 Too Many Requests | URL: https://help.webexconnect.io/docs/zendesk-node
+[2026-08-13T00:17:57.419360] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: HTTP 429 Too Many Requests | URL: https://help.webexconnect.io/docs/freshdesk-node
+[2026-08-13T00:17:58.765765] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: HTTP 429 Too Many Requests | URL: https://help.webexconnect.io/docs/zoho-crm
+[2026-08-13T00:18:00.069039] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: HTTP 429 Too Many Requests | URL: https://help.webexconnect.io/docs/shortened-urls
+[2026-08-13T00:18:01.661211] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Akamai block (Reference #) | URL: https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/index.html
