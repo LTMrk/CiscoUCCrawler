@@ -12500,3 +12500,195 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/mcp/docs/webex-suite-mcp-server
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/mcp/docs/webex-suite-mcp-server)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/mcp/docs/webex-suite-mcp-server)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/mcp/docs/webex-suite-mcp-server)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Webex Suite MCP Server
+AI in Webex
+  * Webex MCP Servers
+    * [Overview](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)
+    * [Meetings MCP Server](https://developer.webex.com/mcp/docs/meetings-mcp-server)
+    * [Messaging MCP Server](https://developer.webex.com/mcp/docs/messaging-mcp-server)
+    * [Vidcast MCP Server](https://developer.webex.com/mcp/docs/vidcast-mcp-server)
+    * [Webex Suite MCP Server](https://developer.webex.com/mcp/docs/webex-suite-mcp-server)
+    * [Workspaces MCP Server](https://developer.webex.com/mcp/docs/workspaces-mcp-server)
+  * Security Guides
+  * Cisco Onboarded MCP Servers
+  * Federated through External Registery
+  * Agentic Apps
+  * Connect Webex MCP Servers to External Clients
+  * Connect External MCP Servers to Webex AI
+  * [Beta Program Overview](https://developer.webex.com/mcp/docs/webex-developer-beta-program)
+
+
+## AI in Webex
+### Webex Suite MCP Server
+####  anchorWhat is Webex Suite MCP Server?
+anchor
+Webex Suite MCP Server is a single MCP server that brings together core Webex capabilities across Meetings, Messaging, Calling, and Vidcast. Instead of connecting to a separate MCP server for each product area, users can connect once and use their AI client to perform common Webex workflows such as finding meetings, getting summaries and transcripts, searching messages, sending updates, sharing files, reviewing call insights, and accessing Vidcast transcripts or highlights.
+It is designed to give knowledge workers a simple, secure, and unified way to use basic Webex Suite functionality from their preferred AI client.
+> **Prerequisites:** This MCP server must be enabled by your organization's admin in Webex Control Hub before it can be used. See [Provisioning on Control Hub](https://developer.webex.com/docs/provisioning-on-control-hub) for details.
+  * **Server URL:** `https://mcp.webexapis.com/mcp/webex-suite`
+
+
+####  anchorTools
+anchor
+25 tools covering Meetings, Messaging, Vidcast, and Calling:
+###### Meetings (6)  
+| Tool  | Description  |  
+| --- | --- |  
+| `webex-list-meetings`  | Lists the user's Webex meetings.  |  
+| `webex-manage-meeting`  | Creates, updates, or deletes a meeting (`webex-create-meeting`, `webex-update-meeting`, `webex-delete-meeting`).  |  
+| `webex-get-meeting-status`  | Retrieves the status of a meeting, including participant information.  |  
+| `webex-get-meeting-summary`  | Retrieves the AI-generated summary for a meeting.  |  
+| `webex-list-recordings`  | Lists recordings for the user's meetings.  |  
+| `webex-list-transcripts`  | Lists transcripts for the user's meetings.  |  
+###### Messaging (11)  
+| Tool  | Description  |  
+| --- | --- |  
+| `webex-manage-message`  | Creates, edits, or deletes a message, or replies in a thread (`webex-create-message`, `webex-edit-message`, `webex-delete-message`, `webex-create-thread-reply`).  |  
+| `webex-get-message`  | Retrieves the details of a specific message.  |  
+| `webex-search-messages`  | Searches messages across the user's spaces.  |  
+| `webex-manage-space`  | Creates, updates, or deletes a space (`webex-create-space`, `webex-update-space`, `webex-delete-space`).  |  
+| `webex-get-space`  | Retrieves the details of a specific space.  |  
+| `webex-search-spaces`  | Searches the user's spaces.  |  
+| `webex-manage-membership`  | Adds, updates, or removes a space membership (`webex-add-membership`, `webex-update-membership`, `webex-remove-membership`).  |  
+| `webex-upload-file`  | Uploads a file to Webex.  |  
+| `webex-share-file`  | Shares a file to a space or message.  |  
+| `webex-download-file`  | Downloads file content from a message or space.  |  
+| `webex-manage-webhook`  | Creates, updates, or deletes a webhook (`webex-create-webhook`, `webex-update-webhook`, `webex-delete-webhook`).  |  
+###### Vidcast (5)  
+| Tool  | Description  |  
+| --- | --- |  
+| `vidcast-search-videos`  | Searches Vidcast videos the user can access.  |  
+| `vidcast-list-my-videos`  | Lists the user's own Vidcast videos.  |  
+| `vidcast-list-shared-with-me`  | Lists Vidcast videos shared with the user.  |  
+| `vidcast-get-video-transcript`  | Retrieves the transcript for a Vidcast video.  |  
+| `vidcast-get-video-highlights`  | Retrieves the highlights for a Vidcast video.  |  
+###### Calling (3)  
+| Tool  | Description  |  
+| --- | --- |  
+| `webex-call-control`  | Performs call control actions.  |  
+| `webex-get-call-insights`  | Retrieves insights for a call by call ID.  |  
+| `webex-search-calls`  | Searches calls by keyword(s) and date range.  |  
+####  anchorConnect to your MCP Client
+anchor
+Select your AI client to get connection instructions:
+  * [Amazon Quick](https://developer.webex.com/docs/webex-agentic-mcp-servers-amazon-quick)
+  * [Claude Code](https://developer.webex.com/docs/webex-agentic-mcp-servers-claude-code)
+  * [Claude Desktop](https://developer.webex.com/docs/webex-agentic-mcp-servers-claude-desktop)
+  * [Codex](https://developer.webex.com/docs/webex-agentic-mcp-servers-codex)
+  * [Copilot Studio](https://developer.webex.com/docs/webex-agentic-mcp-servers-copilot-studio)
+  * [Cursor](https://developer.webex.com/docs/webex-agentic-mcp-servers-cursor)
+  * [Gemini CLI](https://developer.webex.com/docs/webex-agentic-mcp-servers-gemini-cli)
+  * [VS Code](https://developer.webex.com/docs/webex-agentic-mcp-servers-vscode)
+
+
+####  anchorAuthentication
+anchor
+**Auth Type:** OAuth 2.0 Bearer Token
+**Issuer:** `https://webexapis.com`
+**Flow:** The MCP client obtains a Webex OAuth token and passes it via the `Authorization: Bearer <token>` header. The server forwards it to the Webex APIs, which respond on behalf of the authenticated user.
+####  anchorScopes
+anchor  
+| Scope  | Used By  |  
+| --- | --- |  
+| `spark:mcp`  | Required for MCP server connection  |  
+| `meeting:schedules_read`  |  `webex-list-meetings`, `webex-manage-meeting`, `webex-get-meeting-status`, `webex-list-transcripts`  |  
+| `meeting:schedules_write`  | `webex-manage-meeting`  |  
+| `meeting:participants_read`  | `webex-get-meeting-status`  |  
+| `meeting:summaries_read`  | `webex-get-meeting-summary`  |  
+| `meeting:recordings_read`  | `webex-list-recordings`  |  
+| `meeting:transcripts_read`  | `webex-list-transcripts`  |  
+| `spark:messages_write`  |  `webex-manage-message`, `webex-upload-file`, `webex-share-file`  |  
+| `spark:messages_read`  |  `webex-manage-message`, `webex-get-message`, `webex-download-file`, `webex-search-messages`  |  
+| `spark:rooms_write`  | `webex-manage-space`  |  
+| `spark:rooms_read`  |  `webex-get-space`, `webex-search-spaces`  |  
+| `spark:memberships_write`  | `webex-manage-membership`  |  
+| `spark:webhooks_write`  | `webex-manage-webhook`  |  
+| `Identity:Organization`  |  `vidcast-search-videos`, `vidcast-list-my-videos`, `vidcast-list-shared-with-me`, `vidcast-get-video-transcript`, `vidcast-get-video-highlights`  |  
+| `Identity:Config`  |  `vidcast-search-videos`, `vidcast-list-my-videos`, `vidcast-list-shared-with-me`, `vidcast-get-video-transcript`, `vidcast-get-video-highlights`  |  
+**Full scope string:**
+
+```
+spark:mcp meeting:schedules_read meeting:schedules_write meeting:participants_read meeting:summaries_read meeting:recordings_read meeting:transcripts_read spark:messages_write spark:messages_read spark:rooms_write spark:rooms_read spark:memberships_write spark:webhooks_write Identity:Organization Identity:Config
+
+```
+
+##### In This Article
+  * [What is Webex Suite MCP Server?](https://developer.webex.com/mcp/docs/webex-suite-mcp-server#what-is-webex-suite-mcp-server)
+  * [Tools](https://developer.webex.com/mcp/docs/webex-suite-mcp-server#tools)
+  * [Connect to your MCP Client](https://developer.webex.com/mcp/docs/webex-suite-mcp-server#connect-to-your-mcp-client)
+  * [Authentication](https://developer.webex.com/mcp/docs/webex-suite-mcp-server#authentication)
+  * [Scopes](https://developer.webex.com/mcp/docs/webex-suite-mcp-server#scopes)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
