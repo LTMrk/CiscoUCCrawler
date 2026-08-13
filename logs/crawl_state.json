@@ -7870,5 +7870,9 @@
   "https://developer.webex.com/blog/using-webhooks---rooms-messages-memberships-and-more-": {
     "hash": "2876de2076d4719c4e4e22238b3014d8fc754e8ffd03206f02e1ce5c6b5e6f98",
     "timestamp": "2026-08-13T02:07:19.405257"
+  },
+  "https://developer.webex.com/docs/api/v1/organizations/get-organization-details": {
+    "hash": "41c4dd15f1acd74a9317d6dcc1100b545828cc6997db63bac9c95434f524a789",
+    "timestamp": "2026-08-13T02:07:25.172759"
   }
 }
