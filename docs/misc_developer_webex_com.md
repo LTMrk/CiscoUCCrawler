@@ -34881,3 +34881,265 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/docs/guest-issuer
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/create/docs/guest-issuer)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/create/docs/guest-issuer)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/create/docs/guest-issuer)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Guest Issuer (Deprecated)
+Getting Started
+  * [Getting Started](https://developer.webex.com/create/docs)
+  * [Authentication](https://developer.webex.com/create/docs/authentication)
+  * [Login with Webex](https://developer.webex.com/create/docs/login-with-webex)
+  * [AI Assistant for Developers](https://developer.webex.com/create/docs/webex-aI-assistant-for-developers)
+  * Agentic Apps
+  * Bots
+  * Embedded Apps
+  * Integrations
+  * Service Apps
+    * [Using Webex Service Apps](https://developer.webex.com/create/docs/service-apps)
+    * [Contact Center Service Apps](https://developer.webex.com/create/docs/contact-center-service-apps)
+    * [Service App Guests](https://developer.webex.com/create/docs/sa-guest-management)
+    * [Guest to Guest Guide](https://developer.webex.com/create/docs/service-apps-as-g2g-meeting-facilitator-guide)
+    * [Guest Issuer Migration Guide](https://developer.webex.com/create/docs/guest-issuer-migration)
+    * [Guest Issuer (Deprecated)](https://developer.webex.com/create/docs/guest-issuer)
+  * Instant Connect
+  * Workspace Integrations
+  * Bring Your Own Datasource
+  * [Suite Sandbox](https://developer.webex.com/create/docs/developer-sandbox-guide)
+  * [Contact Center Sandbox](https://developer.webex.com/create/docs/sandbox_cc)
+  * [Guest to Guest Sandbox](https://developer.webex.com/create/docs/g2g-sandbox)
+  * [Submit Your App](https://developer.webex.com/create/docs/app-hub-submission-process)
+  * [Tutorials](https://developer.webex.com/create/docs/tutorials)
+
+
+## Getting Started
+### Guest Issuer Migration Guide
+Migrate an existing legacy Guest Issuer application to [Service App Guest Management](https://developer.webex.com/docs/sa-guest-management) by binding your guest issuer to a Service App before you issue guest tokens.
+####  anchorOverview
+anchor
+This page is for **migrating** from a legacy Guest Issuer application. If you are building a **new** guest integration with no legacy Guest Issuer, use [Service App Guest Management](https://developer.webex.com/docs/sa-guest-management)—you do not need to call `bindGuestIssuer`.
+Guest Issuer applications used a shared JWT secret to create guest tokens. Service Apps use the [Guest Management API](https://developer.webex.com/admin/docs/api/v1/guest-management) instead. For organizations with an existing Guest Issuer, a one-time **bind** links that issuer to your Service App so guest tokens continue to use the same guest issuer organization.
+Binding is a **one-time setup** performed by a Webex organization administrator. Your application does not call the bind API at runtime. After a successful bind, issue guest tokens with `POST /v1/guests/token` using your Service App access token—the same runtime flow described on [Service App Guest Management](https://developer.webex.com/docs/sa-guest-management).
+####  anchorBefore You Begin
+anchor
+Complete all of the following before binding. Skipping a step is a common cause of `403` or `409` errors.
+###### Prerequisites
+  * A legacy Guest Issuer application that already exists for your organization.
+  * A Service App created with at least `guest-issuer:write` and `guest-issuer:read` scopes. See [Using Webex Service Apps](https://developer.webex.com/docs/service-apps).
+  * A Webex organization **Full Admin** to authorize the Service App and perform the bind.
+  * The personal access token of the **developer who created the legacy Guest Issuer** (with `spark:applications_read`) to list issuers—see [List Your Guest Issuers](https://developer.webex.com/create/docs/guest-issuer#list-your-guest-issuers) below.
+
+
+On the migration path, do **not** call `POST /v1/guests/token` with the Service App until **after** `bindGuestIssuer` returns `204 No Content`. If you call `POST /v1/guests/token` before binding, the request can still return `200 OK`, but developer-applications may auto-create a **new** guest issuer for the Service App machine account instead of using your legacy issuer. That Service App can no longer be used for a clean migration to the legacy issuer.
+**How to recognize this state before you bind:**
+  * `POST /v1/guests/token` returned `200 OK` before `bindGuestIssuer` returned `204 No Content`.
+  * `GET /v1/guests/count` returns a value greater than `0` before binding completes.
+
+
+`bindGuestIssuer` may still return `204 No Content` even after a premature guest token call, so a successful bind does **not** mean the migration is clean. If you see either signal above, create a new Service App, authorize it, bind the legacy issuer, and only then call `POST /v1/guests/token`.
+####  anchorList Your Guest Issuers
+anchor
+If you already created guest issuers, list them and read each item's `id`. Use that value as `guestIssuerId` when you bind.
+Use the developer who originally created the legacy Guest Issuer application—the same developer account that had access when Guest Issuer apps were managed in the developer portal. That developer's personal access token must include the `spark:applications_read` scope.
+###### Request
+
+```
+curl --request GET \
+  --header "Authorization: Bearer PERSONAL_ACCESS_TOKEN" \
+  https://webexapis.com/v1/jwt
+
+```
+
+###### Response
+The response includes an `items` array. Each item includes `id`, `name`, and `created`. Secrets are **not** returned on the list. Pick the `id` of the issuer you want to bind and pass it as `guestIssuerId` in the bind request.
+
+```
+{
+  "items": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLWVhc3QtMV9pbnQxMy9PUkcvZGVmNTY3ODk=",
+      "name": "My Guest Issuer",
+      "created": "2024-01-15T10:00:00.000Z"
+    }
+  ]
+}
+
+```
+
+If `items` is empty, confirm you are using the original Guest Issuer creator's token with `spark:applications_read`. If you are starting a **new** integration without a legacy issuer, you do not need this step—see [Service App Guest Management](https://developer.webex.com/docs/sa-guest-management) instead.
+####  anchorAuthorize Your Service App
+anchor
+Before you bind, a Webex organization **Full Admin** must authorize the Service App for your organization in Control Hub.
+  1. In the [developer portal](https://developer.webex.com), the Service App developer clicks **Request Admin Authorization** on the Service App details page so the app appears in the organization's Control Hub. If you are a Full Admin in your own org, you can skip this step and authorize the app directly.
+  2. The Full Admin logs in to [Control Hub](https://admin.webex.com), opens **Management** > **Apps** > **Service Apps** , selects the Service App, and reviews its description and requested scopes.
+  3. The admin clicks **Authorize** , then **Save**.
+
+
+If the Service App does not appear in Control Hub, ask the developer to submit it for admin authorization first. For Service App creation, scopes, and the full developer and admin flows, see [Using Webex Service Apps](https://developer.webex.com/docs/service-apps).
+####  anchorBind a Guest Issuer
+anchor
+An org admin binds the legacy guest issuer to the authorized Service App. This is a **migration-only** , one-time call.
+
+```
+curl --request POST \
+  --header "Authorization: Bearer ORG_ADMIN_ACCESS_TOKEN" \
+  --header "Content-Type: application/json" \
+  --data '{"guestIssuerId": "GUEST_ISSUER_ID_FROM_LIST"}' \
+  https://webexapis.com/v1/applications/SERVICE_APP_ID/bindGuestIssuer
+
+```
+  
+| Item  | Detail  |  
+| --- | --- |  
+| **Method**  | `POST`  |  
+| **Endpoint**  | `/v1/applications/{applicationId}/bindGuestIssuer`  |  
+| **Caller**  | Webex organization administrator (human user)  |  
+| **Token**  | Org admin OAuth access token with `spark-admin:applications_write`  |  
+| **Path parameter**  |  `applicationId` — your Service App ID (`SERVICE_APP_ID`)  |  
+| **Request body**  |  `guestIssuerId` — the `id` from `GET /v1/jwt`  |  
+| **Success**  |  `204 No Content` (empty body)  |  
+The Service App machine account token, bot tokens, and personal developer tokens (without org admin role) are **not** valid for this call.
+####  anchorMigration Workflow
+anchor  
+| Step  | Actor  | Action  | Token  | Success signal  |  
+| --- | --- | --- | --- | --- |  
+| 1  | Developer  | List guest issuers: `GET /v1/jwt`  | Personal access token (`spark:applications_read`)  |  `items[]` with target `id`  |  
+| 2  | Developer  | Create Service App with `guest-issuer:read` and `guest-issuer:write`  | —  | Service App in My Webex Apps  |  
+| 3  | Org admin  | Authorize Service App in Control Hub (**Management** > **Apps** > **Service Apps**)  | —  | Service App authorized  |  
+| 4  | Org admin  | `POST /v1/applications/{id}/bindGuestIssuer`  | Org admin OAuth token  | `204 No Content`  |  
+| 5  | Developer  | Obtain Service App access token  | Service App credentials  | Access token issued  |  
+| 6  | Service App  | `POST /v1/guests/token`  | Service App access token  | Guest access token returned  |  
+Do not perform step 6 until step 4 succeeds.
+####  anchorAfter Migration
+anchor
+After `bindGuestIssuer` succeeds, update your legacy integration to stop generating shared-secret JWTs and instead issue guest tokens through `POST /v1/guests/token` using the Service App access token, as documented in [Service App Guest Management](https://developer.webex.com/docs/sa-guest-management).
+###### Do not use the legacy JWT flow after bind
+After `bindGuestIssuer` succeeds, the legacy shared secret for that guest issuer is disabled. Do not continue using the legacy JWT login flow for that issuer. From that point forward, issue guest tokens only with `POST /v1/guests/token` using the Service App access token.
+Guest users and history associated with the bound issuer organization are preserved through the migration when you complete the bind **before** issuing any Service App guest tokens.
+####  anchorTroubleshooting
+anchor
+Errors use the standard Webex API error format with `message` and `trackingId` fields.  
+| HTTP status  | Typical cause  | What to do  |  
+| --- | --- | --- |  
+| `400 Bad Request`  | Missing or invalid `guestIssuerId`  | Send the `id` from `GET /v1/jwt` in the request body  |  
+| `400 Bad Request`  | Target is not a Service App  | Verify `applicationId` refers to a Service App  |  
+| `403 Forbidden`  | Guest Issuer migration is not enabled  | Contact [Webex support](https://developer.webex.com/support) or your account team  |  
+| `403 Forbidden`  | Service App missing `guest-issuer:write`  | Recreate or update the Service App scopes  |  
+| `403 Forbidden`  | Guest issuer not eligible for this org  | Use an issuer created by your organization  |  
+| `403 Forbidden`  | Caller is not an org admin or app not authorized  | Authorize the app with a Full Admin token first  |  
+| `404 Not Found`  | Issuer does not exist  | Re-check `guestIssuerId` from the list response  |  
+| `409 Conflict`  | Binding already exists  | Do not call bind again; contact support if the wrong app is bound  |  
+|  `200 OK` (premature)  |  `POST /v1/guests/token` succeeded before `bindGuestIssuer` returned `204`  | The Service App may have auto-created its own guest issuer. Check `GET /v1/guests/count`; if it is greater than `0` before binding, create a **new** Service App, authorize, bind, then migrate  |  
+| —  | Guest token `id` does not match legacy guest users after bind  | You likely issued Service App guest tokens before binding. Create a **new** Service App, authorize, bind first, then re-issue tokens for migrated subjects  |  
+####  anchorDe-authorization and Re-authorization
+anchor
+`bindGuestIssuer` is a **one-time** setup step. If an org admin removes and later restores Service App authorization, the guest issuer binding **remains**.
+  * **Do not** call `bindGuestIssuer` again after re-authorization—a second bind returns `409 Conflict`.
+  * After re-authorization, exchange Service App credentials for a **new** access token, then continue using `POST /v1/guests/token`.
+  * Guest users and the guest issuer organization are unchanged across de-authorization and re-authorization.
+
+
+A guest issuer binding **cannot be transferred** to a different Service App through the public API. If you must use a different Service App with the same guest issuer, contact [Webex support](https://developer.webex.com/support).
+####  anchorFAQ
+anchor
+###### Is bind the same API I use to get guest tokens?
+No. `bindGuestIssuer` is a one-time admin setup call. Guest tokens are issued at runtime via `POST /v1/guests/token` using the Service App access token.
+###### Can I bind multiple guest issuers to one Service App?
+For a given authorized organization, no. A Service App can have only one bound guest issuer per authorized org. Each guest issuer can only be bound once. If the same Service App is authorized by multiple orgs, each org can have its own eligible guest issuer binding.
+###### Can I unbind or change the guest issuer?
+No public API removes or changes an existing binding. Contact [Webex support](https://developer.webex.com/support) for guidance.
+###### Do I need to call bind again after re-authorizing the Service App?
+No. Obtain a new Service App access token and continue using `POST /v1/guests/token`.
+###### What if I already called `/guests/token` before binding?
+There is no API to reset a Service App that already issued guest tokens before binding. A premature `POST /v1/guests/token` can return `200 OK` and auto-create a Service App-owned guest issuer, which is separate from your legacy issuer.
+Check whether `GET /v1/guests/count` is greater than `0` before `bindGuestIssuer` completes. If so, or if guest token `id` values do not match your legacy guest users after binding, create a new Service App, have an org admin authorize and bind **before** any guest token calls, and migrate your integration to the new app.
+####  anchorRelated Documentation
+anchor
+  * [Service App Guest Management](https://developer.webex.com/docs/sa-guest-management) — greenfield setup and runtime guest tokens
+  * [Guest Issuer](https://developer.webex.com/docs/guest-issuer) — legacy Guest Issuer reference (deprecated)
+  * [Using Webex Service Apps](https://developer.webex.com/docs/service-apps) — create, approve, and authorize Service Apps
+  * [Guest Management API reference](https://developer.webex.com/admin/docs/api/v1/guest-management) — `POST /v1/guests/token` and related endpoints
+
+
+##### In This Article
+  * [Overview](https://developer.webex.com/create/docs/guest-issuer#overview)
+  * [Before You Begin](https://developer.webex.com/create/docs/guest-issuer#before-you-begin)
+  * [List Your Guest Issuers](https://developer.webex.com/create/docs/guest-issuer#list-your-guest-issuers)
+  * [Authorize Your Service App](https://developer.webex.com/create/docs/guest-issuer#authorize-your-service-app)
+  * [Bind a Guest Issuer](https://developer.webex.com/create/docs/guest-issuer#bind-a-guest-issuer)
+  * [Migration Workflow](https://developer.webex.com/create/docs/guest-issuer#migration-workflow)
+  * [After Migration](https://developer.webex.com/create/docs/guest-issuer#after-migration)
+  * [Troubleshooting](https://developer.webex.com/create/docs/guest-issuer#troubleshooting)
+  * [De-authorization and Re-authorization](https://developer.webex.com/create/docs/guest-issuer#deauthorization-and-reauthorization)
+  * [FAQ](https://developer.webex.com/create/docs/guest-issuer#faq)
+  * [Related Documentation](https://developer.webex.com/create/docs/guest-issuer#related-documentation)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
