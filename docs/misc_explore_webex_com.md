@@ -478,3 +478,138 @@ Close
 Preparing document for printing…
 0%
 Cancel
+
+
+---
+# ORIGEN: https://explore.webex.com/calling-resources
+
+[ ![Sample logo image](https://cdn.pathfactory.com/assets/10866/heroes/1458332/2d5f7091-2142-4f6c-aaa4-12f400002ee0.png) Get started with Webex Calling ](https://adopt.webex.com%20)
+[ Help Center ](https://help.webex.com/?utm_source=pathfactory&utm_content=content_playlist_cta)
+[ Webex Academy ](https://academy.webex.com/learn/?utm_source=pathfactory&utm_content=content_playlist_cta)
+[ Help Center ](https://help.webex.com/?utm_source=pathfactory&utm_content=content_playlist_cta)
+[ Webex Academy ](https://academy.webex.com/learn/?utm_source=pathfactory&utm_content=content_playlist_cta)
+9 results found 
+  * [ Featured  ](https://explore.webex.com/calling-resources)
+  * [ Featured  Get started with Webex Calling  ](https://explore.webex.com/calling-resources/getting-started_c)
+  * [ Featured  Download the Webex app  ](https://explore.webex.com/calling-resources/downloads-html)
+  * [ Featured  Answer a call  ](https://explore.webex.com/calling-resources/webex-app---answer-a)
+  * [ Featured  Put a phone call on hold  ](https://explore.webex.com/calling-resources/webex-app---put-a-ph)
+  * [ Featured  How to make a call  ](https://explore.webex.com/calling-resources/academy_call)
+  * [ Featured  Webex Calling for Chrome  ](https://explore.webex.com/calling-resources/academy_call-chrome)
+  * [ Featured  Set up your voicemail greetings  ](https://explore.webex.com/calling-resources/academy_greetings)
+  * [ Featured  Add contacts to your personal directory  ](https://explore.webex.com/calling-resources/academy_directory)
+  * [ Featured  Set up and configure call forwarding  ](https://explore.webex.com/calling-resources/academy_call-fwd)
+
+
+Read More 
+9 results found 
+[ ![Sample content thumbnail](https://explore.webex.com/calling-resources) Featured  ](https://explore.webex.com/calling-resources)
+[ Get started with Webex Calling  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1166282/thumbnails/600x/4dbdedec-738d-4280-91e5-48ce32b05c43-1.png) Featured  ](https://explore.webex.com/calling-resources/getting-started_c)
+[ Download the Webex app  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1166250/thumbnails/600x/cisco-webex-logo291x291.png) Featured  ](https://explore.webex.com/calling-resources/downloads-html)
+[ Answer a call  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/calling-resources/webex-app---answer-a)
+[ Put a phone call on hold  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/calling-resources/webex-app---put-a-ph)
+[ How to make a call  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1161356/thumbnails/600x/0.jpg) Featured  ](https://explore.webex.com/calling-resources/academy_call)
+[ Webex Calling for Chrome  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1161366/thumbnails/600x/0.jpg) Featured  ](https://explore.webex.com/calling-resources/academy_call-chrome)
+[ Set up your voicemail greetings  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1161367/thumbnails/600x/0.jpg) Featured  ](https://explore.webex.com/calling-resources/academy_greetings)
+[ Add contacts to your personal directory  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1161369/thumbnails/600x/0.jpg) Featured  ](https://explore.webex.com/calling-resources/academy_directory)
+[ Set up and configure call forwarding  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1161368/thumbnails/600x/0.jpg) Featured  ](https://explore.webex.com/calling-resources/academy_call-fwd)
+Thumbnails Document Outline Attachments Layers
+Current Outline Item
+[](https://explore.webex.com/calling-resources#page=1 "Page 1")[](https://explore.webex.com/calling-resources#page=2 "Page 2")
+[Webex Calling](https://explore.webex.com/calling-resources#%5B%7B%22num%22%3A3%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C0%2C540%2C0%5D)
+[Slide 9: A better way to communicate](https://explore.webex.com/calling-resources#%5B%7B%22num%22%3A3%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C0%2C540%2C0%5D)
+[Slide 10](https://explore.webex.com/calling-resources#%5B%7B%22num%22%3A38%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C0%2C540%2C0%5D)
+Previous Next
+Highlight All Match Case
+Match Diacritics Whole Words
+Color
+Size
+Color
+Thickness
+Opacity
+Presentation Mode Open Print Download [ Current View ](https://explore.webex.com/calling-resources#page=1&zoom=auto,-38,540 "Current view \(copy or open in new window\)") Go to First Page Go to Last Page Rotate Clockwise Rotate Counterclockwise
+Text Selection Tool Hand Tool
+Page Scrolling Vertical Scrolling Horizontal Scrolling Wrapped Scrolling
+No Spreads Odd Spreads Even Spreads
+Document Properties…
+Toggle Sidebar Find
+Previous Next
+of 2
+Presentation Mode Open Print Print Download Download [ Current View ](https://explore.webex.com/calling-resources#page=1&zoom=auto,-38,540 "Current view \(copy or open in new window\)")
+FreeText Annotation Ink Annotation
+Tools
+Zoom Out Zoom In
+Automatic Zoom Actual Size Page Fit Page Width 50% 75% 100% 125% 150% 200% 300% 400%
+9© 2026 Cisco and/or its affiliates. All rights reserved.  
+A better way to communicate  
+Use the Webex app for the best experience.  
+Whether you take calls from your computer or  
+desk phone, everything is tied to the same  
+number, so people reach you the same way  
+every time.  
+Keep all your work  
+in one place  
+Review and manage yourcalling settingsfrom  
+your profile to reduce interruptions and ensure  
+calls go where they need to.  
+Depending on your setup, you can manage  
+voicemail, call forwarding, caller ID, and more.  
+Edit your  
+calling settings  
+Incoming callsmay ring on your desk phone,  
+in the app, or across multiple devices.  
+This flexibility makes it easier to stay  
+connected wherever you are.  
+If you frequently contact the same people,  
+add them to yourcontacts listso they’re just a  
+click away on theContactstab.  
+Webex Calling connects your business number across devices so you can  
+make and receive calls wherever your workday takes you.  
+A button that says download the app  
+Download the app  
+Download the app  
+From theCallingtab, access your dial pad  
+and recent call history, to easily place a call  
+from your computer or return a missed call.  
+You canmake callsusing the on-screen dialer  
+by typing a name or number. Calls made from  
+the app use your work number, just like calls  
+from adesk phone.  
+Manage calls
+[](https://help.webex.com/article/n19ix1l/Webex-App-%7C-Answer-a-call?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=cach&team=dxe "https://help.webex.com/article/n19ix1l/Webex-App-%7C-Answer-a-call?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=cach&team=dxe")[](https://help.webex.com/article/n3x8l4cb/Webex-App-%7C-Access-more-call-settings?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=cacsh&team=dxe "https://help.webex.com/article/n3x8l4cb/Webex-App-%7C-Access-more-call-settings?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=cacsh&team=dxe")[](https://help.webex.com/article/z3397j/Webex-App-%7C-Add-and-edit-your-Contacts?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=cclh&team=dxe "https://help.webex.com/article/z3397j/Webex-App-%7C-Add-and-edit-your-Contacts?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=cclh&team=dxe")[](https://www.webex.com/downloads.html "https://www.webex.com/downloads.html")[](https://help.webex.com/article/xga73p/Supported-calling-options-in-Webex-App?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=ccoh&team=dxe "https://help.webex.com/article/xga73p/Supported-calling-options-in-Webex-App?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=ccoh&team=dxe")[](https://help.webex.com/article/5mgmmb/Webex-App-%7C-Make-calls-with-your-desk-phone?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=cdph&team=dxe "https://help.webex.com/article/5mgmmb/Webex-App-%7C-Make-calls-with-your-desk-phone?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=cdph&team=dxe")
+More Information Less Information
+Close
+Enter the password to open this PDF file.
+Cancel OK
+File name:
+-
+File size:
+-
+Title:
+-
+Author:
+-
+Subject:
+-
+Keywords:
+-
+Creation Date:
+-
+Modification Date:
+-
+Creator:
+-
+PDF Producer:
+-
+PDF Version:
+-
+Page Count:
+-
+Page Size:
+-
+Fast Web View:
+-
+Close
+Preparing document for printing…
+0%
+Cancel
