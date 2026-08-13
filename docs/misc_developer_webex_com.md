@@ -27556,3 +27556,184 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/meeting/docs/tutorials
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/meeting/docs/tutorials)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/meeting/docs/tutorials)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/meeting/docs/tutorials)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Tutorials
+Webex Meetings
+  * [Overview](https://developer.webex.com/meeting/docs/meetings)
+  * Guides
+  * [Guest to Guest Meetings](https://developer.webex.com/meeting/docs/guest-to-guest-meetings)
+  * [API Behavior Changes](https://developer.webex.com/meeting/docs/app-programming-interface-behavior-changes)
+  * [REST API Basics](https://developer.webex.com/meeting/docs/basics)
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/meeting/docs/api/changelog/webex-meetings)
+  * SDK
+  * [AI Assistant for Developers](https://developer.webex.com/meeting/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/meeting/docs/api/guides/troubleshooting)
+  * [Widgets](https://developer.webex.com/meeting/docs/widgets)
+  * [Tutorials](https://developer.webex.com/meeting/docs/tutorials)
+  * [Suite Sandbox](https://developer.webex.com/meeting/docs/developer-sandbox-guide)
+  * [Beta Program Overview](https://developer.webex.com/meeting/docs/webex-developer-beta-program)
+  * [Webex Status API](https://developer.webex.com/meeting/docs/webex-status-api)
+  * [XML API Deprecation](https://developer.webex.com/meeting/docs/webex-xml-api-deprecation-announcement)
+
+
+## Webex Meetings
+### Tutorials
+A collection of tutorials for developing apps and various workflows on the Webex platform.
+####  anchorGetting Started
+anchor
+  * [Introduction to Webex Apps](https://developer.webex.com/docs/introduction-to-webex-apps) — Get an overview of the Webex REST APIs and the types of apps you can build on Webex platform.
+  * [REST API Basics](https://developer.webex.com/docs/basics) — While working with the Webex REST API is easy, there are a few things we standardize on throughout the API, such as pagination of long result sets or HTTP response codes.
+  * [Create Spaces, add participants, post messages from Postman](https://developer.webex.com/docs/create-spaces-add-participants-post-messages-from-postman) — Invoke the Webex REST API from the Postman REST client to create spaces, add participants and post messages. 
+New
+
+
+####  anchorBots
+anchor
+  * [From Zero to Webex Chatbot in 15 Minutes](https://developer.webex.com/blog/from-zero-to-webex-chatbot-in-15-minutes-updated-for-2021) — Get a chat bot up an running using the [Node Bot Starter Framework](https://github.com/WebexSamples/webex-bot-starter).
+  * [Exploring the Node Bot Framework](https://developer.webex.com/docs/creating-a-chatbot-with-the-node-bot-framework) — Explore the Node Bot Framework's features and functionality. 
+New
+  * [Webex Bots with Buttons and Cards](https://developer.cisco.com/learning/labs/webex-bot-card-button/introduction/) — Check out this interactive Webex bot learning lab. 
+New
+
+
+####  anchorMessaging
+anchor
+  * [Using the Browser SDK's Messaging and Rooms APIs](https://developer.webex.com/docs/browser-sdk-messaging-tutorial) — This tutorial shows you how to use the Webex Browser SDK's rooms and messaging APIs to create and delete rooms (spaces), send messages and add members to space and other features.
+  * [Using Websockets in a Browser with Webex](https://developer.webex.com/blog/using-websockets-in-a-browser-with-webex) — This tutorial shows you how to use the Webex Browser SDK to to listen for events from Webex over websockets.
+
+
+####  anchorWidgets
+anchor
+  * [Using the Webex Space Widget for Video and Messaging](https://developer.webex.com/docs/using-the-webex-space-widget-for-video-and-messaging) — Learn more about the Webex SDKs and Widgets capabilities, and experience these through live demos of the Space Widget. 
+New
+
+
+####  anchorAuthentication
+anchor
+  * [Using your Personal Access Token](https://developer.webex.com/docs/getting-your-personal-access-token) — Shows you how to obtain and use your personal access token to make API calls without having to enable the required OAuth flows. 
+New
+  * [Experimenting with OAuth Integrations](https://developer.webex.com/docs/understanding-oauth-flow-of-webex-integration) — Demonstrates how to perform a Webex OAuth2 authentication for a Webex Integration. 
+New
+  * [Webex React OAuth Sample](https://github.com/WebexSamples/webex-react-oauth-sample) — A React demo application that shows how to authorize a Webex user and obtain a API access token for making calls on their behalf.
+  * [Using Webex OAuth 2 in Your Flask Application](https://developer.webex.com/blog/using-oauth-2-with-webex-in-your-flask-application) — Learn how to add Webex OAuth 2 flows to your Flask application in this blog post.
+  * [Run a Webex OAuth Integration Locally](https://developer.webex.com/docs/run-an-oauth-integration) — This tutorial shows you how to get a Node.js server running locally that acts as an OAuth client for a Webex integration, obtain an API access token for the authenticating user, and uses it to call a Webex API to get information about the user. 
+New
+
+
+####  anchorIntegrations
+anchor
+  * [Deploy a Webex Integration](https://developer.webex.com/docs/deploy-webex-integration) — This tutorial describes deploying an example application on Heroku, and registering it as a Webex Integration.
+
+
+####  anchorRoomOS and xAPI
+anchor
+  * [RoomOS Introduction](https://roomos.cisco.com/doc/TechDocs/Introduction) — What is RoomOS, what are the main concepts and components. 
+New
+  * [RoomOS Integrations Explained](https://roomos.cisco.com/doc/TechDocs/Integrations) — What's the difference macros, JSXAPI, cloud xAPI, workspace integrations and which to choose? 
+New
+  * [Introduction to the xAPI](https://roomos.cisco.com/doc/TechDocs/Integrations) — Understand the basic building blocks of the API of RoomOS. 
+New
+  * [All RoomOS Articles](https://roomos.cisco.com/doc/TechDocs) — Access all of the RoomOS articles here. 
+New
+
+
+####  anchorWebhooks
+anchor
+  * [Experimenting with Webhooks](https://developer.webex.com/docs/experimenting-with-webhooks) — Learn how you can work with Webex events via Webhooks. 
+New
+
+
+####  anchorWebex SDKs
+anchor
+  * [Getting Started with the Webex iOS SDK](https://developer.webex.com/docs/sdks/ios#getting-started-guide) — Walks you through getting setup with the Webex iOS SDK and using it to send messages, create rooms and perform other actions.
+  * [Getting Started with the Webex Android SDK](https://developer.webex.com/docs/sdks/android#getting-started-guide) — Start working with Webex Android SDK to send messages, create rooms and perform other actions.
+  * [Getting Started with the Webex Node.js SDK](https://developer.webex.com/docs/sdks/node#getting-started-guide) — Get up and running with the Webex Node.js SDK to send messages and create rooms.
+  * [Getting Started with the Webex Browser SDK](https://developer.webex.com/docs/sdks/browser#getting-started-guide) — This guide gets you started adding Webex features to your web apps.
+  * [Getting Started with the Webex Java SDK](https://developer.webex.com/docs/sdks/java#getting-started-guide) — Get started installing and using the Webex Java SDK.
+
+
+##### In This Article
+  * [Getting Started](https://developer.webex.com/meeting/docs/tutorials#getting-started)
+  * [Bots](https://developer.webex.com/meeting/docs/tutorials#bots)
+  * [Messaging](https://developer.webex.com/meeting/docs/tutorials#messaging)
+  * [Widgets](https://developer.webex.com/meeting/docs/tutorials#widgets)
+  * [Authentication](https://developer.webex.com/meeting/docs/tutorials#authentication)
+  * [Integrations](https://developer.webex.com/meeting/docs/tutorials#integrations)
+  * [RoomOS and xAPI](https://developer.webex.com/meeting/docs/tutorials#roomos-and-xapi)
+  * [Webhooks](https://developer.webex.com/meeting/docs/tutorials#webhooks)
+  * [Webex SDKs](https://developer.webex.com/meeting/docs/tutorials#webex-sdks)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
