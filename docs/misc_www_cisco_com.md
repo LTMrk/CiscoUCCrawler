@@ -213757,3 +213757,321 @@ Stop battling configuration drift and skill gaps. See how Cisco Unified Edge sim
 
 
 © 2026 Cisco Systems, Inc.
+
+
+---
+# ORIGEN: https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-networking-in-data-center/index.html
+
+  * [Skip to main content](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-networking-in-data-center/index.html#fw-c-content)
+  * [Skip to search](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-networking-in-data-center/index.html#fw-c-header__button--search)
+  * [Skip to footer](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-networking-in-data-center/index.html#fw-c-footer)
+
+
+[ Cisco.com Worldwide ](https://www.cisco.com "Cisco.com Worldwide")
+###  Products and Services
+Close
+###  Solutions
+Close
+###  Support
+Close
+###  Learn
+Close
+###  Why Cisco
+Close
+###  Partners
+Close
+[ Trials and demos](https://www.cisco.com/site/us/en/products/trials-demos.html?linkclickid=hdr-mainnav-trialsdemos)
+[ How to buy](https://www.cisco.com/site/us/en/buy/index.html?linkclickid=hdr-utilnav-howtobuy)
+Partners
+EN US
+Profile
+[ Log in](https://www.cisco.com/content/cdc/login.html?referer=/site/us/en/solutions/artificial-intelligence/ai-networking-in-data-center/index.html)
+[ Trials and demos](https://www.cisco.com/site/us/en/products/trials-demos.html?linkclickid=hdr-mainnav-trialsdemos)
+MENU
+CLOSE
+[ How to buy](https://www.cisco.com/site/us/en/buy/index.html?linkclickid=hdr-utilnav-howtobuy)
+Partners
+Profile
+[ Log in](https://www.cisco.com/content/cdc/login.html?referer=/site/us/en/solutions/artificial-intelligence/ai-networking-in-data-center/index.html)
+EN US
+Close
+Close
+Close
+Close
+Close
+  1. [ Solutions ](https://www.cisco.com/site/us/en/solutions/index.html)
+  2. [ Artificial intelligence (AI) ](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/index.html)
+
+
+Hello, how can I help?
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/heroes/solutions/networking/artificial-intelligence/hero_2400x1028.jpg)
+# Cisco AI Networking in Data Centers
+##  Seamless by design. End to end. Every workload. 
+Accelerate AI at scale with secure, intelligent Ethernet networking that boosts GPU utilization, improves power efficiency, simplifies operations, and speeds job completion.
+Watch video (02:21) [Read blog](https://blogs.cisco.com/datacenter/end-to-end-ai-networking-ciscos-answer-to-the-inferencing-era)
+Overview [Resources](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-networking-in-data-center/resources.html)
+Watch video (02:21)
+## Announcing Cisco AI Networking: Your AI advantage
+Step into the next frontier of data centers with Cisco AI Networking. With a unified platform built for intelligent automation and scalability, you can run AI workloads with confidence.
+[Watch announcement](https://www.ciscolive.com/emea.html)
+## Intelligent networks. Faster AI. 
+Power your network for AI at scale with Cisco AI Networking. The unified end-to-end solution delivers intelligent automation, deep observability, and seamless performance for AI.
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/icons-and-shapes/solutions/artificial-intelligence/icon_nexus_switches.svg)
+###  Intelligent AI networking 
+Deploy AI with confidence. Cisco Nexus One unifies intelligence from silicon to software across on-premises and cloud—enabling faster, secure, and predictably scalable AI fabrics.
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/icons-and-shapes/solutions/artificial-intelligence/icon_visibility.svg)
+###  Operations reimagined 
+Eliminate blind spots and bottlenecks with AgenticOps. Prevent issues and deliver seamless, automated operations.
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/icons-and-shapes/solutions/artificial-intelligence/Icon-Security-AI.svg)
+###  Built-in trust for AI 
+Protect AI operations with security woven into every layer. From quantum-safe line-rate encryption to runtime protection, you get trusted performance without compromise.
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/solutions/artificial-intelligence/murali-g-ain-video.jpg)
+##  When AI scales, the network becomes the differentiator 
+As AI scales and complexity grows, networks must deliver more than bandwidth. Cisco combines Ethernet fabrics with automation, observability, and built‑in security to ensure deterministic performance for networks of any size.
+Watch video [Explore more videos](https://video.cisco.com/category/videos/ai-networking)
+* * *
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/solutions/artificial-intelligence/AIPostLaunch-webinar.jpg)
+###  Proven AI Networking: Real-World Outcomes 
+Discover how leading organizations are deploying AI infrastructure to achieve measurable outcomes. Join our experts for a fireside chat on scaling your AI business with Cisco.
+[Watch on demand](https://experiences.cisco.com/amer/proven-ai-networking)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/product-photography/solutions/artificial-intelligence/Silicon-one-ai-stack-800x450.jpg)
+##  Cisco AI Networking, brought to life 
+Build and operate AI networks with a cohesive set of solutions that deliver the performance, scale, and operational consistency needed to run AI at any size.
+Unified operationsSilicon advantageHigh-performance systemsIndustry-leading opticsSoftware innovationCloud-native networking
+###  Unified operations
+###  Cisco Nexus One 
+Deploy AI faster and securely with Cisco Nexus One: A unified solution with network intelligence from silicon to software—operationalized through Nexus Dashboard on-premises and Hyperfabric in the cloud.
+[Explore Cisco Nexus Dashboard](https://www.cisco.com/site/us/en/products/networking/cloud-networking/nexus-platform/index.html) [Explore Cisco Nexus Hyperfabric](https://www.cisco.com/site/us/en/products/networking/data-center-networking/nexus-hyperfabric/index.html)
+###  Silicon advantage
+###  Cisco Silicon One 
+Power AI at scale with a unified, programmable network built for flexibility—delivering exceptional performance, massive capacity up to 102.4 Tbps, and freedom to deploy AI your way.
+[Explore Cisco Silicon One](https://www.cisco.com/site/us/en/products/networking/silicon-one/index.html)
+###  High-performance systems
+###  Cisco N9000 Series Switches 
+Run AI fabrics on high-density switches powered by Cisco silicon. Secure 400G–1.6T connectivity, AI-optimized traffic handling, and power-efficient designs built for demanding workloads.
+[Explore Cisco N9000 Series ](https://www.cisco.com/site/us/en/products/networking/cloud-networking-switches/nexus-9000-switches/index.html)
+###  Cisco N9100 Series Switches 
+Scale your neocloud or sovereign cloud with NCP-compliant architecture, NX-OS or SONiC flexibility, and unified operations through Cisco Nexus One.
+[Explore Cisco N9100 Series](https://www.cisco.com/site/us/en/products/networking/cloud-networking-switches/n9100-series-switches/index.html)
+###  Cisco 8000 Series 
+Power backbone and AI networks with scalable switches that deliver secure performance, open networking flexibility, and operational simplicity at high speed and scale.
+[Explore Cisco 8000 Series](https://www.cisco.com/site/us/en/products/networking/sdwan-routers/8000-series/index.html)
+###  Industry-leading optics
+###  Cisco Optics 
+Enable high-speed, reliable AI networking with 400G to 1.6T optics powered by silicon photonics, delivering validated, field-programmable performance at scale.
+[Explore Cisco Optics](https://www.cisco.com/site/us/en/products/networking/optics-transceiver-modules/index.html)
+* * *
+Show more (1)
+* * *
+###  Software innovation
+###  Cisco NX-OS 
+Deliver high-performance AI networking with low latency, lossless Ethernet, and intelligent congestion management—plus enterprise-grade automation and security.
+[Explore Cisco NX-OS](https://www.cisco.com/site/us/en/products/networking/cloud-networking/nx-os/index.html)
+###  SONiC NOS 
+Adopt an open, modular network OS on future-ready hardware to support disaggregated designs, with containerized services, flexible management tools, and rich API integration.
+[Explore SONiC NOS](https://www.cisco.com/site/us/en/products/networking/sdwan-routers/8000-series/sonic/index.html)
+###  Cisco Application Centric Infrastructure (ACI) 
+Operate AI-ready data centers with agility—automate networking, enforce microsegmentation, and apply zero-trust security consistently.
+[Explore Cisco ACI](https://www.cisco.com/site/us/en/products/networking/cloud-networking/application-centric-infrastructure/index.html)
+###  Cloud-native networking
+###  Isovalent Enterprise Platform 
+Run reliable, secure, cloud-native networking for Kubernetes at scale across any environment, with broad distribution compatibility, regulatory support, and always-on enterprise backing.
+[Explore Isovalent](https://isovalent.com/product/)
+* * *
+Show more (1)
+* * *
+## Trusted by industry leaders and analysts
+Analysts agree: Cisco is leading the way in AI networking. Explore why Ethernet, Nexus architectures, and purpose-built fabrics position Cisco at the core of AI innovation.
+![650 group Logo – Market Intelligence Research](https://www.cisco.com/content/dam/cisco-cdc/site/images/logos/3rd-party/650_group-800x450.png)
+###  AI for Networking 
+Hear insights from 650 Group and Sunil Gudurvalmiki from Cisco on how AI is reshaping networking—and what it takes to build or modernize infrastructure ready to scale for the AI era.
+[Watch webinar](https://experiences.cisco.com/amer/ai-for-networking-unifying-operations-and-building-resiliency-for-the-ai-era)
+![theCUBE Logo](https://www.cisco.com/content/dam/cisco-cdc/site/images/logos/3rd-party/cube_800x450.png)
+###  Why Nexus for neoclouds and sovereign clouds 
+Analysts at theCUBE Research point to a shift toward Ethernet-based AI fabrics backed by validated architectures that help reduce risk, simplify operations, and deliver secure performance at scale.
+[Read study](https://www.cisco.com/site/us/en/products/networking/offers/assets/thecube-research-white-paper.html)
+![IDC logo](https://www.cisco.com/content/dam/cisco-cdc/site/images/logos/3rd-party/idc_800x450.png)
+###  Navigating AI Networking Challenges 
+IDC affirms Cisco's leadership in AI networking, detailing how Cisco solutions accelerate training and inference pipelines for enterprise AI adoption.
+[Read paper](https://www.cisco.com/site/us/en/products/networking/offers/assets/idc-ai-networking-spotlight.html)
+![Moor Insights & Strategy Logo](https://www.cisco.com/content/dam/cisco-cdc/site/images/logos/3rd-party/moor_800x450.png)
+###  Why AI Needs a New Network 
+Moor Insights talks with Cisco SVP Will Eatherton on why AI needs new networks—and how Cisco fabrics deliver scale, resiliency, and security for AI workloads.
+[Watch video](https://www.youtube.com/watch?v=b5fviOEva0k)
+[View all resources](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-networking-in-data-center/resources.html)
+[ ![du Telecom logo](https://www.cisco.com/content/dam/cisco-cdc/site/images/logos/customers/solutions/du-telecom-logo.png) ](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/ai-networking-in-data-center/index.html)
+## "Our partnership with Cisco is built on a long history of innovation, starting with the world’s first ACI deployment. The Nexus 9000 series, with its Silicon One G300 NPU, gives us the 100Tbps capacity and efficiency we need as we move into the 1.6T Ethernet era to support our AI and cloud growth. And by using Nexus One and AgenticOps, we can maintain high-performance, energy-efficient data centers."
+  
+- Jasim Al Awadi, Chief ICT Officer, du Telecom
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/photography/about/why-cisco/cisco-colors-bottom-gradient-600x150%201.jpg)
+## Accelerate value with a trusted, vendor-agnostic ecosystem
+![NVIDIA logo](https://www.cisco.com/content/dam/cisco-cdc/site/images/logos/3rd-party/NVIDIA_320x138.png)
+![AMD logo](https://www.cisco.com/content/dam/cisco-cdc/site/images/logos/3rd-party/AMD_320x138.png)
+![Intel logo](https://www.cisco.com/content/dam/cisco-cdc/site/images/logos/3rd-party/Intel_320x138.png)
+![VAST Data logo](https://www.cisco.com/content/dam/cisco-cdc/site/images/logos/3rd-party/Vast_320x138.png)
+![DDN logo](https://www.cisco.com/content/dam/cisco-cdc/site/images/logos/3rd-party/ddn%20logo.png)
+![NetApp logo](https://www.cisco.com/content/dam/cisco-cdc/site/images/logos/3rd-party/NetApp_320x138.png)
+* * *
+###  NVIDIA 
+Discover how secure, scalable infrastructure can unlock innovation, drive efficiency, and support sustainability in this new era with Cisco Secure AI Factory with NVIDIA.
+[Get the inside scoop](https://www.cisco.com/site/us/en/solutions/artificial-intelligence/secure-ai-factory/index.html)
+###  AMD 
+See how AMD and Cisco unite compute and networking to maximize AI cluster performance, reduce job completion time, and scale with confidence.
+[Download solution brief](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/high-performance-ai-infra-amd-so.pdf)
+###  Intel 
+Accelerate enterprise AI with a solution that grows with you. The combined innovation of Cisco and Intel delivers speed, openness, and scalable infrastructure for tomorrow's workloads.
+[See what's next](https://blogs.cisco.com/datacenter/accelerating-ethernet-native-ai-clusters-with-intel-gaudi-3-ai-accelerators-and-cisco-nexus-9000)
+###  VAST Data 
+Speed up, scale, and secure your AI journey with VAST Data on Cisco UCS and AI PODs—purpose-built solutions for today's fast-growing, AI-driven enterprises.
+[Get details](https://www.cisco.com/site/us/en/solutions/global-partners/vast/index.html)
+###  DDN 
+Discover how Cisco Nexus One and DDN's Data Intelligence Platform combine to deliver high-performance, scalable AI clusters — purpose-built to accelerate your most demanding workloads.
+[Download solution brief](https://www.ddn.com/?wpdmdl=15501)
+###  NetApp 
+Get a unified, AI-ready data center solution that pairs Cisco Nexus switching with NetApp AFX disaggregated storage to deliver higher performance, seamless scale, and simpler AI operations.
+[Explore details](https://blogs.cisco.com/partner/cisco-netapp-powering-enterprise-data-centers-with-ai-networking-and-storage)
+* * *
+Show more (1)
+* * *
+## Partner quotes
+##  AMD 
+> "AI at scale demands open, standards-based networking that customers can deploy with confidence across diverse environments. Our longstanding collaboration with Cisco helps advance high-performance, standards-based Ethernet fabrics while reinforcing end-to-end interoperability, from GPU and CPU platforms to AI NICs, DPUs, and the software stack. We’re excited to continue to partner with Cisco across our enterprise and AI product stack, as we focus on giving customers the flexibility and choice to build resilient, scalable AI infrastructure."
+**Yousuf Khan, corporate vice president, Networking Technology and Solutions Group**
+AMD
+##  Intel 
+> "AI at scale demands both compute efficiency and high-performance AI networking fabric. Intel® Gaudi® 3 AI accelerator combined with Cisco Nexus 9000 switching delivers an optimized, open solution that lets customers build at scale LLM inference clusters with uncompromising cost-efficient performance."
+**Anil Nanduri, VP, AI Get-to-Market & Product Management**
+Intel
+##  VAST 
+> "Cisco’s Silicon One G300 sets a new bar for AI networking, and VAST ensures that bandwidth translates into real application throughput. The VAST AI Operating System unifies ingest, retrieval, vector search, and real-time analytics, removing the data-path bottlenecks that starve GPUs and stall jobs. Together with Cisco’s new systems and operations model, we’re delivering a validated, turnkey foundation that helps enterprises scale agentic AI from pilot to production."
+**John Mao, VP, Global Technology Alliances**
+VAST
+##  DDN 
+> "At AI-factory scale, performance is no longer determined by the network or the data layer alone—it’s defined by how tightly they work together. Cisco’s Silicon One G300–powered Nexus platforms provide the deterministic, high-bandwidth fabric required for agentic and GPU-dense environments, while DDN’s AI-native data intelligence ensures data is always in the right place, at the right time, at full speed. Together, we remove the hidden bottlenecks that starve GPUs, extend job completion times, and stall production AI. This validation underscores a shared commitment to delivering AI infrastructure that is not just powerful on paper, but proven in real-world, large-scale deployments."
+**Sven Oehme, CTO**
+DDN
+##  CDW 
+> "Cisco’s Silicon One–powered Nexus switches N9364E-SP2R-X (P200) and N9364F-SG3 (G300) switches redefine what’s possible in the modern AI data center, delivering an unprecedented scale with 64 ports of 800Gb/1.6Tbs and 51.2T/102.4Tb total throughput. With operational flexibility across NX-OS and Cisco ACI with next-generation silicon, these switches position enterprises and neoclouds to embrace high performance platform-driven innovation, scale and digital transformation with confidence."
+**Brian Campbell, VP, Hybrid Infrastructure & Digital Experience**
+CDW
+##  NetApp 
+> "NetApp and Cisco have collaborated closely to help enterprises store, access, and optimize their data to accelerate AI innovation. With NetApp AFX disaggregated storage and Cisco's G300 based N9000 systems with 102.4T switching, data can reach GPUs at the speed organizations need to power innovation. Combining world class networking from Cisco and NetApp’s enterprise-grade data platform enables customers to scale AI without compromise."
+**Syam Nair, CPO**
+NetApp
+##  Computacenter 
+> "Our hyperscale and neocloud customers need networking that matches GPU density. Cisco's N9000 with NX-OS delivers programmability and telemetry to optimize every flow. The G300 silicon enhances this with industry-leading buffers, power efficiency, and 1.6T port density. Through our strategic partnership with Cisco, we deliver lossless, high-performance networking for AI training and inference. The Nexus One Platform ensures predictable performance—deep buffers manage bursty traffic, and Intelligent Packet Flow maximizes GPU utilization."
+**Thomas Berger, Director, Data Center Networking**
+Computacenter
+Previous
+Next
+##  Evolve your data center for tomorrow 
+Find out how to transform your data center with a unified approach. Simplify operations, enhance security, and build a future-proof AI infrastructure tailored to your pace and needs. 
+[Take the next step ](https://www.cisco.com/site/us/en/solutions/data-center/index.html)
+![](https://www.cisco.com/content/dam/cisco-cdc/site/images/heroes/solutions/data-center/data-center-with-ai-overlay-2400x1028.jpg)
+## Explore additional resources
+###  Scale-across: The next era of AI infrastructure 
+AI clusters are outgrowing single sites. See how scale-across fabric connects distributed data centers.
+[Read blog](https://blogs.cisco.com/datacenter/scale-across-why-the-future-of-distributed-ai-isnt-in-one-data-center)
+###  100% liquid cooling for AI data centers 
+Discover how the Cisco Silicon One G300-based switch uses liquid cooling to deliver 70% greater efficiency for high-performance AI workloads. 
+Get the advantage (01:26)
+###  Explore Nexus 9000 for AI Networking 
+Download the Cisco AI Networking solution At-a-Glance for insights into architecture, benefits, and deployment strategies.
+[Get At-a-Glance](https://www.cisco.com/c/en/us/products/collateral/networking/cloud-networking-switches/nexus-9000-switches/nexus-9000-ai-networking-aag.html)
+###  Why neoclouds need unified AI networks 
+Stop being a GPU broker. Learn how unified fabrics help neoclouds capture high-margin inference revenue and scale AI.
+[Explore strategy ](https://blogs.cisco.com/datacenter/the-multimillion-dollar-fabric-decision-why-neoclouds-need-unified-networks)
+###  Scale AI performance with job-level security 
+Move beyond basic multitenancy to protect shared clusters. Unlock granular visibility and automated enforcement for every workload with Cisco Nexus One. 
+[Read blog](https://blogs.cisco.com/datacenter/from-tenant-aware-to-job-aware-scaling-shared-ai-clusters-with-cisco-nexus-one)
+* * *
+Show more (1)
+* * *
+Get in touch
+##  Ready to build your AI data center? 
+Cisco AI Networking provides the intelligence, efficiency, security, and scale you need to maximize AI infrastructure investments. Let's discuss how we can accelerate your AI journey.
+[Contact sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html)
+Some products and features described are in development and offered on a when-and-if-available basis. Cisco reserves the right to change delivery timelines and will have no liability for any delays or failures to deliver.
+![](https://cf-images.us-east-1.prod.boltdns.net/v1/static/1384193102001/9c64657d-e864-4b7c-9b35-48eb01d51942/8415b598-009a-4465-b8da-e99fbdfe0053/1280x720/match/image.jpg)
+![](https://cf-images.us-east-1.prod.boltdns.net/v1/static/1384193102001/d690c250-00a8-44b9-8c83-cb1098cdb5c0/e811e5d1-370f-4691-99ea-d928bb7ab0bd/1280x720/match/image.jpg)
+![](https://cf-images.us-east-1.prod.boltdns.net/v1/jit/1384193102001/d8285dc5-9855-4375-93ba-d9013508d4b0/main/1280x720/55s797ms/match/image.jpg)
+![](https://cf-images.us-east-1.prod.boltdns.net/v1/static/1384193102001/d753993f-e983-4e41-afbd-45ada4878fc5/50e60f45-7b8e-464d-b39e-73a361fd7f37/1280x720/match/image.jpg)
+![](https://cf-images.us-east-1.prod.boltdns.net/v1/static/1384193102001/ca684588-5270-45bc-9c8e-c57feb8e4a54/d919b73d-4f31-4e19-af62-ff452ddc486d/1280x720/match/image.jpg)
+###  Quick Links
+  * [About Cisco](https://www.cisco.com/site/us/en/about/index.html)
+  * [Contact Us](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=ftr-contactus)
+  * [Careers](https://careers.cisco.com/global/en/home)
+  * [Connect with a partner](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+
+
+* * *
+###  Resources and Legal
+  * [Feedback](https://ciscocx.qualtrics.com/jfe/form/SV_bwrmeoKrBHYxOyW?Ref=/c/en/us/index.html)
+  * [Help](https://www.cisco.com/c/en/us/about/help.html)
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy  
+](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies / Do not sell or share my personal data  
+](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Accessibility](https://www.cisco.com/c/en/us/about/accessibility.html)
+  * [Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+  * [Supply Chain Transparency](https://www.cisco.com/c/dam/en_us/about/supply-chain/cisco-modern-slavery-statement.pdf)
+  * [Newsroom](https://newsroom.cisco.com/c/r/newsroom/en/us/index.html)
+  * [Sitemap](https://www.cisco.com/site/us/en/about/sitemap.html)
+
+
+* * *
+  * [ ](https://www.facebook.com/cisco/ "Facebook")
+  * [ ](https://x.com/Cisco/ "X")
+  * [ ](https://www.linkedin.com/company/cisco "LinkedIn")
+  * [ ](https://www.youtube.com/user/cisco "YouTube")
+  * [ ](https://www.instagram.com/cisco/ "Instagram")
+
+
+© 2026 Cisco Systems, Inc.
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
