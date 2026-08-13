@@ -8234,5 +8234,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-preferences/get-site-list": {
     "hash": "5efc66e5bd530efe8c3be84fba740d821a2d38d68716e7d82e576cf6197597d9",
     "timestamp": "2026-08-13T02:17:04.544951"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-preferences/update-default-site": {
+    "hash": "53f203297cfc0c89bc52fafa1461d8dc81f2e23223a5a4b317bd34d0cb04ac41",
+    "timestamp": "2026-08-13T02:17:11.073037"
   }
 }
