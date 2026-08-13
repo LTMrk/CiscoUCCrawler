@@ -217,30 +217,28 @@ async def deep_crawl():
             
             target_css, js_injection = get_custom_behavior(url)
             
-            try:              
-                                result = await crawler.arun(
+            try:
+                result = await crawler.arun(
                     url=url,
-                    word_count_threshold=0, # Deshabilitamos el filtro para ver si algo llega
+                    word_count_threshold=0,
                     exclude_external_links=False,
                     remove_overlay_elements=False,
                     process_iframes=True,
                     cache_mode=CacheMode.BYPASS,
                     magic=True,
-                    # FORZAMOS LA CAPTURA DE PANTALLA PARA DIAGNÓSTICO VISUAL
                     capture_screenshot=True,
-                    # OMITIMOS SELECTORES PARA VER TODO EL DOM TRAS LA ESPERA
                     js_code="""
                         await new Promise(r => setTimeout(r, 15000));
                         window.final_content = document.body.innerHTML;
                     """
                 )
                 
-                # DIAGNÓSTICO: Guardar la captura para ver si la página carga o da error
+                # DIAGNÓSTICO VISUAL: Mismo nivel de indentación que "result =" (16 espacios)
                 if result.screenshot:
-                    with open(f"logs/debug_{get_group_filename(url).replace('.md', '.png')}", "wb") as f:
-                        f.write(result.screenshot)
-
-
+                    import base64
+                    debug_file = os.path.join("logs", get_group_filename(url).replace('.md', '.png'))
+                    with open(debug_file, "wb") as f:
+                        f.write(base64.b64decode(result.screenshot))
                 
                 if not result.success:
                     log_error(url, f"Fallo HTTP o Crawler: {result.error_message}")
@@ -263,6 +261,7 @@ async def deep_crawl():
                         seen_hashes.add(content_hash)
                         save_state(state)
                         git_commit_and_push()
+
                 
                 if depth < max_depth_allowed and hasattr(result, 'links'):
                     internal_links = result.links.get("internal", [])
