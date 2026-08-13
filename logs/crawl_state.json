@@ -8226,5 +8226,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-preferences/get-scheduling-options": {
     "hash": "1f9d06f4b56a2cedfb55e6be49cf3fd7f312f388ec7b10391db04873085d0790",
     "timestamp": "2026-08-13T02:16:51.971961"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-preferences/update-scheduling-options": {
+    "hash": "4721d0c882ad7b0d738a5fe568b477d301fe29b019e3d34885498238a903cbf6",
+    "timestamp": "2026-08-13T02:16:58.264962"
   }
 }
