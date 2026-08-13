@@ -1732,3 +1732,449 @@ View Less
 ## Share this video
 ### Embed
 Size:  x  pixels 
+
+
+---
+# ORIGEN: https://video.cisco.com/detail/videos/latest-videos/video/6352453027112
+
+[Cisco.com](https://www.cisco.com) [Video Home](https://video.cisco.com)
+### Cisco Video Portal
+[English](https://video.cisco.com) [Português](https://video-br.cisco.com) [Deutsch](https://video-de.cisco.com) [日本語](https://video-jp.cisco.com) [Español](https://video-es.cisco.com) [Español (Latinoamérica)](https://video-mx.cisco.com)
+[ ](https://video.cisco.com/)
+![Menu](https://video.cisco.com/bc-template/catalogue/5/templates/sites/catalogue/themes/catalogue_theme_dark/images/burger.png) Menu ![close menu](https://video.cisco.com/bc-template/catalogue/5/templates/sites/catalogue/images/Close.png)
+[ ](https://video.cisco.com/)
+Enter terms to search videos
+![](https://video.cisco.com/bc-template/catalogue/5/templates/sites/catalogue/images/Close.png)
+![close](https://video.cisco.com/bc-template/catalogue/5/templates/sites/catalogue/images/Close.png)
+  * [Home](https://video.cisco.com/)
+  * Channels 
+    * [ #CiscoChat ](https://video.cisco.com/category/videos/ciscochat)
+    * [ Cisco Advocacy ](https://video.cisco.com/category/videos/cisco-advocacy)
+      * [ Customer Stories ](https://video.cisco.com/category/videos/customer-stories_____)
+        * [ Construction ](https://video.cisco.com/category/videos/construction)
+        * [ Education ](https://video.cisco.com/category/videos/education__)
+        * [ Energy and Utilities ](https://video.cisco.com/category/videos/energy-and-utilities)
+        * [ Financial Services ](https://video.cisco.com/category/videos/financial-services__)
+        * [ Government ](https://video.cisco.com/category/videos/government_)
+        * [ Healthcare ](https://video.cisco.com/category/videos/healthcare__)
+        * [ Hospitality ](https://video.cisco.com/category/videos/hospitality)
+        * [ Legal ](https://video.cisco.com/category/videos/legal)
+        * [ Manufacturing ](https://video.cisco.com/category/videos/manufacturing__)
+        * [ Professional Services ](https://video.cisco.com/category/videos/professional-services)
+        * [ Real Estate ](https://video.cisco.com/category/videos/real-estate)
+        * [ Retail ](https://video.cisco.com/category/videos/retail___)
+        * [ Service Provider ](https://video.cisco.com/category/videos/service-provider_)
+        * [ Sport, Media and Entertainment ](https://video.cisco.com/category/videos/sport-media-and-entertainment)
+        * [ Technical Services ](https://video.cisco.com/category/videos/technical-services)
+        * [ Technology ](https://video.cisco.com/category/videos/technology)
+        * [ Transportation ](https://video.cisco.com/category/videos/transportation)
+        * [ Wholesale and Distribution ](https://video.cisco.com/category/videos/wholesale-and-distribution)
+      * [ Insider Advocacy ](https://video.cisco.com/category/videos/insider-advocacy)
+      * [ Partner Stories ](https://video.cisco.com/category/videos/partner-stories)
+        * [ Education ](https://video.cisco.com/category/videos/education___)
+        * [ Government ](https://video.cisco.com/category/videos/government__)
+        * [ Healthcare ](https://video.cisco.com/category/videos/healthcare___)
+        * [ Hospitality ](https://video.cisco.com/category/videos/hospitality_)
+        * [ Legal ](https://video.cisco.com/category/videos/legal_)
+        * [ Manufacturing ](https://video.cisco.com/category/videos/manufacturing___)
+        * [ Professional Services ](https://video.cisco.com/category/videos/professional-services_)
+        * [ Retail ](https://video.cisco.com/category/videos/retail__)
+    * [ Cisco Connect Canada 2021 ](https://video.cisco.com/category/videos/cisco-connect-canada-2021)
+    * [ Contact Center ](https://video.cisco.com/category/videos/contact-center)
+      * [ Case Studies ](https://video.cisco.com/category/videos/case-studies)
+      * [ Demos ](https://video.cisco.com/category/videos/demos)
+      * [ Portfolio & Products ](https://video.cisco.com/category/videos/portfolio-products)
+      * [ Webex Contact Center - Administration ](https://video.cisco.com/category/videos/webex-contact-center---administration)
+      * [ Webex Contact Center - Agent Desktop ](https://video.cisco.com/category/videos/webex-contact-center---agent-desktop)
+      * [ Webex Contact Center - Analyzer ](https://video.cisco.com/category/videos/webex-contact-center---analyzer)
+      * [ Webex Contact Center - Multimedia ](https://video.cisco.com/category/videos/webex-contact-center---multimedia)
+      * [ Webex Contact Center - Routing Strategies ](https://video.cisco.com/category/videos/webex-contact-center---routing-strategies)
+    * [ Cisco CX TV ](https://video.cisco.com/category/videos/cisco-cx-tv)
+      * Overview 
+        * [ Advisory Services ](https://video.cisco.com/category/videos/advisory-services)
+        * [ Services for Cloud ](https://video.cisco.com/category/videos/services-for-cloud)
+        * [ Services for Security ](https://video.cisco.com/category/videos/services-for-security)
+        * [ Managed Services ](https://video.cisco.com/category/videos/managed-services)
+        * [ Packaged Services ](https://video.cisco.com/category/videos/packaged-services)
+        * [ Services for Enterprise Networking ](https://video.cisco.com/category/videos/services-for-enterprise-networking)
+        * [ Support Services ](https://video.cisco.com/category/videos/support-services)
+        * [ Industry ](https://video.cisco.com/category/videos/industry)
+      * [ Inside Track ](https://video.cisco.com/category/videos/inside-track)
+      * CX Expert 
+        * [ Services for Security ](https://video.cisco.com/category/videos/services-for-security_)
+        * [ Services for Cloud ](https://video.cisco.com/category/videos/services-for-cloud_)
+        * [ Services for Enterprise Networking ](https://video.cisco.com/category/videos/services-for-enterprise-networking_)
+        * [ Packaged Services ](https://video.cisco.com/category/videos/packaged-services_)
+        * [ Support Services ](https://video.cisco.com/category/videos/support-services_)
+      * CX Heroes 
+        * [ Americas ](https://video.cisco.com/category/videos/americas)
+        * [ Europe, Middle East, Africa, & Russia ](https://video.cisco.com/category/videos/europe-middle-east-africa-russia)
+        * [ Asia Pacific ](https://video.cisco.com/category/videos/asia-pacific)
+    * [ Cisco DevNet ](https://video.cisco.com/category/videos/cisco-devnet)
+      * [ Featured DevNet Videos ](https://video.cisco.com/category/videos/featured-devnet-videos)
+      * [ DevNet Create 2021 ](https://video.cisco.com/category/videos/devnet-create-2021)
+      * [ DevNet Snack Minute ](https://video.cisco.com/category/videos/devnet-snack-minute)
+      * [ Developer Community ](https://video.cisco.com/category/videos/developer-community)
+    * [ Cisco Research ](https://video.cisco.com/category/videos/cisco-research)
+      * [ Quantum Labs ](https://video.cisco.com/category/videos/quantum-labs)
+    * [ Cisco Secure ](https://video.cisco.com/category/videos/cisco-secure)
+      * [ Cisco Secure Threat Reports ](https://video.cisco.com/category/videos/cisco-secure-threat-reports)
+      * [ Email Security ](https://video.cisco.com/category/videos/email-security)
+      * [ Managed Detection and Response ](https://video.cisco.com/category/videos/managed-detection-and-response)
+      * [ Network Protection ](https://video.cisco.com/category/videos/network-protection)
+      * [ NetSec/Cisco Firewall Customer Testimonials ](https://video.cisco.com/category/videos/netsec-cisco-firewall-customer-testimonials)
+      * [ Secure Remote Worker ](https://video.cisco.com/category/videos/secure-remote-worker)
+      * [ User & Endpoint Protection ](https://video.cisco.com/category/videos/user-endpoint-protection)
+    * [ Cisco Tech Talks ](https://video.cisco.com/category/videos/cisco-tech-talks)
+      * [ Cisco Business Dashboard ](https://video.cisco.com/category/videos/cisco-business-dashboard)
+      * [ Cisco Business Switches ](https://video.cisco.com/category/videos/cisco-business-switches)
+      * [ Cisco Business Wireless ](https://video.cisco.com/category/videos/cisco-business-wireless)
+      * [ Routers: RV160 Series ](https://video.cisco.com/category/videos/routers:-rv160-series)
+      * [ Routers: RV260 Series ](https://video.cisco.com/category/videos/routers:-rv260-series)
+      * [ Routers: RV340 Series ](https://video.cisco.com/category/videos/routers:-rv340-series)
+      * [ Switches: 550x Series ](https://video.cisco.com/category/videos/switches:-550x-series)
+      * [ Wireless: 500 Series ](https://video.cisco.com/category/videos/wireless:-500-series)
+      * [ Wireless: 100 Series ](https://video.cisco.com/category/videos/wireless:-100-series)
+      * Explore by Topic 
+        * [ Getting to Know ](https://video.cisco.com/category/videos/getting-to-know)
+        * [ What's in the Box ](https://video.cisco.com/category/videos/what-s-in-the-box)
+        * [ VPN Topics ](https://video.cisco.com/category/videos/vpn-topics)
+        * [ VLAN Topics ](https://video.cisco.com/category/videos/vlan-topics)
+    * [ CX Cloud ](https://video.cisco.com/category/videos/cx-cloud)
+    * [ Data Center and Cloud ](https://video.cisco.com/category/videos/data-center-and-cloud)
+      * [ AI Networking ](https://video.cisco.com/category/videos/ai-networking_)
+      * [ Cloud Solutions ](https://video.cisco.com/category/videos/cloud-solutions)
+      * [ Compute ](https://video.cisco.com/category/videos/compute)
+        * [ Servers ](https://video.cisco.com/category/videos/servers)
+        * [ Hyperconverged Infrastructure ](https://video.cisco.com/category/videos/hyperconverged-infrastructure)
+      * [ Customer Stories ](https://video.cisco.com/category/videos/customer-stories__)
+      * [ Data Center Networking ](https://video.cisco.com/category/videos/data-center-networking)
+        * [ Data Center Switching ](https://video.cisco.com/category/videos/data-center-switching)
+        * [ Data Center Fabrics ](https://video.cisco.com/category/videos/data-center-fabrics)
+        * [ Hybrid Cloud Networking ](https://video.cisco.com/category/videos/hybrid-cloud-networking)
+        * [ Storage Networking ](https://video.cisco.com/category/videos/storage-networking)
+        * [ Data Center for Service Providers ](https://video.cisco.com/category/videos/data-center-for-service-providers)
+      * [ Data Center Download ](https://video.cisco.com/category/videos/data-center-download)
+      * [ Hybrid Cloud Operations ](https://video.cisco.com/category/videos/hybrid-cloud-operations)
+        * [ Cloud Operations ](https://video.cisco.com/category/videos/cloud-operations)
+        * [ Cloud Networking Operations ](https://video.cisco.com/category/videos/cloud-networking-operations)
+      * [ Secure AI Factory with NVIDIA ](https://video.cisco.com/category/videos/secure-ai-factory-with-nvidia)
+      * [ Technical Demos ](https://video.cisco.com/category/videos/technical-demos)
+        * [ Cisco Intersight ](https://video.cisco.com/category/videos/cisco-intersight)
+        * [ Cisco Hyperflex ](https://video.cisco.com/category/videos/cisco-hyperflex)
+        * [ Cisco Nexus Dashboard ](https://video.cisco.com/category/videos/cisco-nexus-dashboard)
+        * [ Cloud APIC ](https://video.cisco.com/category/videos/cloud-apic)
+        * [ NXOS Fabrics ](https://video.cisco.com/category/videos/nxos-fabrics)
+        * [ MDS ](https://video.cisco.com/category/videos/mds)
+    * [ Education ](https://video.cisco.com/category/videos/education)
+      * [ Build a Flexible Campus ](https://video.cisco.com/category/videos/build-a-flexible-campus)
+      * [ Create a Hybrid Learning Environment ](https://video.cisco.com/category/videos/create-a-hybrid-learning-environment)
+      * [ Facilitate Safety & Security ](https://video.cisco.com/category/videos/facilitate-safety-security)
+      * [ Fuel Innovative Research ](https://video.cisco.com/category/videos/fuel-innovative-research)
+    * [ Energy ](https://video.cisco.com/category/videos/energy_)
+    * [ Financial Services ](https://video.cisco.com/category/videos/financial-services)
+      * [ Customer Experience ](https://video.cisco.com/category/videos/customer-experience)
+      * [ Banker Productivity ](https://video.cisco.com/category/videos/banker-productivity)
+      * [ IT & Branch Operations ](https://video.cisco.com/category/videos/it-branch-operations)
+      * [ Podcasts ](https://video.cisco.com/category/videos/podcasts)
+    * [ Healthcare ](https://video.cisco.com/category/videos/healthcare)
+      * [ Expand Care & Access ](https://video.cisco.com/category/videos/expand-care-access)
+      * [ Security, Privacy, & Compliance ](https://video.cisco.com/category/videos/security-privacy-compliance)
+      * [ Transform Facilities ](https://video.cisco.com/category/videos/transform-facilities)
+      * [ Events & Podcasts ](https://video.cisco.com/category/videos/events-podcasts)
+    * [ Manufacturing ](https://video.cisco.com/category/videos/manufacturing)
+      * [ Advanced Manufacturing Operations ](https://video.cisco.com/category/videos/advanced-manufacturing-operations)
+      * [ Workforce Enablement ](https://video.cisco.com/category/videos/workforce-enablement)
+      * [ Industrial Security ](https://video.cisco.com/category/videos/industrial-security)
+      * [ Manufacturing Events ](https://video.cisco.com/category/videos/manufacturing-events)
+    * [ Mining ](https://video.cisco.com/category/videos/mining)
+    * [ Networking ](https://video.cisco.com/category/videos/networking)
+      * [ AI Networking ](https://video.cisco.com/category/videos/ai-networking)
+      * [ Cisco Networking ](https://video.cisco.com/category/videos/cisco-networking)
+      * [ Customer Stories ](https://video.cisco.com/category/videos/customer-stories___)
+      * [ Data Center Networking ](https://video.cisco.com/category/videos/data-center-networking_)
+        * [ Application Centric Infrastructure (ACI) ](https://video.cisco.com/category/videos/application-centric-infrastructure-aci)
+        * [ Nexus Switching ](https://video.cisco.com/category/videos/nexus-switching)
+        * [ Data Center for Service Providers ](https://video.cisco.com/category/videos/data-center-for-service-providers_)
+      * Industrial IOT Networking 
+        * [ Cisco Catalyst Center for Industrial Ethernet ](https://video.cisco.com/category/videos/cisco-catalyst-center-for-industrial-ethernet)
+        * [ IOT Control Center (MSP) ](https://video.cisco.com/category/videos/iot-control-center-msp)
+      * [ Network Management ](https://video.cisco.com/category/videos/network-management)
+        * [ Cisco Catalyst Center ](https://video.cisco.com/category/videos/cisco-catalyst-center_)
+        * [ AI/ML ](https://video.cisco.com/category/videos/ai-ml)
+        * [ Cisco Nexus Dashboard ](https://video.cisco.com/category/videos/cisco-nexus-dashboard_)
+      * [ SD-WAN & Routing ](https://video.cisco.com/category/videos/sd-wan-routing)
+        * [ SD-WAN ](https://video.cisco.com/category/videos/sd-wan)
+        * [ Routing & Catalyst Edge Platforms ](https://video.cisco.com/category/videos/routing-catalyst-edge-platforms)
+      * [ Technical Demos ](https://video.cisco.com/category/videos/technical-demos_)
+        * [ Cisco Catalyst Center ](https://video.cisco.com/category/videos/cisco-catalyst-center)
+        * [ Cisco Spaces ](https://video.cisco.com/category/videos/cisco-spaces)
+        * [ SD-Access ](https://video.cisco.com/category/videos/sd-access)
+        * [ SD-WAN & Routing ](https://video.cisco.com/category/videos/sd-wan-routing_)
+        * [ Catalyst Wireless & Switching ](https://video.cisco.com/category/videos/catalyst-wireless-switching)
+        * [ Data Center Networking ](https://video.cisco.com/category/videos/data-center-networking__)
+      * [ Wireless & Switching ](https://video.cisco.com/category/videos/wireless-switching)
+        * [ Cisco Access Networking ](https://video.cisco.com/category/videos/cisco-access-networking)
+        * [ Catalyst Wireless ](https://video.cisco.com/category/videos/catalyst-wireless)
+        * [ Catalyst Switching ](https://video.cisco.com/category/videos/catalyst-switching)
+    * [ NSO Developer Days Event Hub ](https://video.cisco.com/category/videos/nso-developer-days-event-hub)
+      * [ Customer Stories ](https://video.cisco.com/category/videos/customer-stories____)
+      * [ Keynotes ](https://video.cisco.com/category/videos/keynotes)
+      * [ Virtual Events - Main Stage ](https://video.cisco.com/category/videos/virtual-events---main-stage)
+      * Videos By Subject 
+        * [ Deep Dives ](https://video.cisco.com/category/videos/deep-dives)
+        * [ CI/CD, Test & Optimization, Scaling Out ](https://video.cisco.com/category/videos/ci-cd-test-optimization-scaling-out)
+        * [ Service Design Masterclasses ](https://video.cisco.com/category/videos/service-design-masterclasses)
+        * [ NetDevOps ](https://video.cisco.com/category/videos/netdevops)
+        * [ From Brownfield Onward ](https://video.cisco.com/category/videos/from-brownfield-onward)
+      * Videos By Event 
+        * [ Developer Days APJC - Mar '21 ](https://video.cisco.com/category/videos/developer-days-apjc---mar-21)
+        * [ Developer Days US - Dec '20 ](https://video.cisco.com/category/videos/developer-days-us---dec-20)
+        * [ Developer Days Worldwide - Jun '20 ](https://video.cisco.com/category/videos/developer-days-worldwide---jun-20)
+        * [ Developer Days Sweden - Jun '19 ](https://video.cisco.com/category/videos/developer-days-sweden---jun-19)
+    * [ Outshift by Cisco ](https://video.cisco.com/category/videos/outshift-by-cisco)
+      * [ OpenSource ](https://video.cisco.com/category/videos/opensource)
+      * [ Panoptica ](https://video.cisco.com/category/videos/panoptica)
+      * [ The Future of Tech ](https://video.cisco.com/category/videos/the-future-of-tech)
+    * [ Retail ](https://video.cisco.com/category/videos/retail)
+      * [ Customer Journey ](https://video.cisco.com/category/videos/customer-journey)
+      * [ Store Associate Experience ](https://video.cisco.com/category/videos/store-associate-experience)
+      * [ Physical & Cyber Security ](https://video.cisco.com/category/videos/physical-cyber-security)
+      * [ Intelligent Operations ](https://video.cisco.com/category/videos/intelligent-operations)
+      * [ Distribution & Fulfillment ](https://video.cisco.com/category/videos/distribution-fulfillment)
+      * [ Retail Events ](https://video.cisco.com/category/videos/retail-events)
+      * [ Podcasts ](https://video.cisco.com/category/videos/podcasts_)
+    * [ Technical Assistance Center (TAC) ](https://video.cisco.com/category/videos/technical-assistance-center-tac)
+      * Collaboration 
+        * [ Applications ](https://video.cisco.com/category/videos/applications)
+        * [ Enterprise Video ](https://video.cisco.com/category/videos/enterprise-video)
+        * [ Multiservice ](https://video.cisco.com/category/videos/multiservice)
+        * [ Prime Collaboration ](https://video.cisco.com/category/videos/prime-collaboration)
+        * [ Unified Communications Manager ](https://video.cisco.com/category/videos/unified-communications-manager)
+        * [ Unified Contact Center ](https://video.cisco.com/category/videos/unified-contact-center)
+      * Data Center 
+        * [ Data Center ACI ](https://video.cisco.com/category/videos/data-center-aci)
+        * [ Data Center HyperFlex ](https://video.cisco.com/category/videos/data-center-hyperflex)
+        * [ Data Center MDS 9000 ](https://video.cisco.com/category/videos/data-center-mds-9000)
+        * [ Data Center Network Management ](https://video.cisco.com/category/videos/data-center-network-management)
+        * [ Data Center Nexus Routing and Switching ](https://video.cisco.com/category/videos/data-center-nexus-routing-and-switching)
+        * [ Data Center UCS ](https://video.cisco.com/category/videos/data-center-ucs)
+      * [ Enterprise Routing ](https://video.cisco.com/category/videos/enterprise-routing)
+      * [ Enterprise Switching ](https://video.cisco.com/category/videos/enterprise-switching)
+      * [ IoT ](https://video.cisco.com/category/videos/iot)
+      * [ Platform Independent Routing ](https://video.cisco.com/category/videos/platform-independent-routing)
+      * Security 
+        * [ ASA ](https://video.cisco.com/category/videos/asa)
+        * [ AMP ](https://video.cisco.com/category/videos/amp)
+        * [ ESA ](https://video.cisco.com/category/videos/esa)
+        * [ Firepower ](https://video.cisco.com/category/videos/firepower)
+        * [ SMA ](https://video.cisco.com/category/videos/sma)
+        * [ SNA ](https://video.cisco.com/category/videos/sna)
+        * [ WSA ](https://video.cisco.com/category/videos/wsa)
+      * [ Service Provider ](https://video.cisco.com/category/videos/service-provider__)
+      * [ Webex ](https://video.cisco.com/category/videos/webex)
+        * [ Administration ](https://video.cisco.com/category/videos/administration)
+        * [ Calling ](https://video.cisco.com/category/videos/calling)
+        * [ Devices ](https://video.cisco.com/category/videos/devices)
+        * [ Hybrid Services and Integrations ](https://video.cisco.com/category/videos/hybrid-services-and-integrations)
+        * [ Meetings ](https://video.cisco.com/category/videos/meetings)
+        * [ Messaging ](https://video.cisco.com/category/videos/messaging)
+      * [ Wireless ](https://video.cisco.com/category/videos/wireless_)
+  * Browse 
+    * [ Certifications ](https://video.cisco.com/category/videos/certifications)
+      * [ CCA (Cisco Certified Architect) ](https://video.cisco.com/category/videos/cca-cisco-certified-architect)
+      * [ CCDA (Cisco Certified Design Associate) ](https://video.cisco.com/category/videos/ccda-cisco-certified-design-associate)
+      * [ CCDP (Cisco Certified Design Professional) ](https://video.cisco.com/category/videos/ccdp-cisco-certified-design-professional)
+      * [ CCIE (Cisco Certified Internetwork Expert) ](https://video.cisco.com/category/videos/ccie-cisco-certified-internetwork-expert)
+      * [ CCNA (Cisco Certified Network Associate) ](https://video.cisco.com/category/videos/ccna-cisco-certified-network-associate)
+      * [ CCNP (Cisco Certified Network Professional) ](https://video.cisco.com/category/videos/ccnp-cisco-certified-network-professional)
+    * [ Cisco Capital Financing ](https://video.cisco.com/category/videos/cisco-capital-financing)
+    * [ Events ](https://video.cisco.com/category/videos/events)
+      * [ Cisco Live ](https://video.cisco.com/category/videos/cisco-live)
+      * [ Executive Demos ](https://video.cisco.com/category/videos/executive-demos)
+      * [ Global Events ](https://video.cisco.com/category/videos/global-events)
+      * [ Media & Press Events ](https://video.cisco.com/category/videos/media-press-events)
+    * [ Expert Insight Series ](https://video.cisco.com/category/videos/expert-insight-series)
+    * [ Industries ](https://video.cisco.com/category/videos/industries)
+      * [ Cities ](https://video.cisco.com/category/videos/cities)
+      * [ Education ](https://video.cisco.com/category/videos/education_)
+      * [ Energy ](https://video.cisco.com/category/videos/energy)
+      * [ Financial Services ](https://video.cisco.com/category/videos/financial-services_)
+      * [ Government ](https://video.cisco.com/category/videos/government)
+      * [ Healthcare ](https://video.cisco.com/category/videos/healthcare_)
+      * [ Manufacturing ](https://video.cisco.com/category/videos/manufacturing_)
+      * [ Retail ](https://video.cisco.com/category/videos/retail_)
+      * [ Sports & Entertainment ](https://video.cisco.com/category/videos/sports-entertainment)
+    * [ Inside Cisco ](https://video.cisco.com/category/videos/inside-cisco)
+      * [ Commercials ](https://video.cisco.com/category/videos/commercials)
+      * [ Cisco Purpose ](https://video.cisco.com/category/videos/cisco-purpose)
+      * [ Customer Stories ](https://video.cisco.com/category/videos/customer-stories)
+      * [ Discover Cisco ](https://video.cisco.com/category/videos/discover-cisco)
+      * [ Ethics & Integrity ](https://video.cisco.com/category/videos/ethics-integrity)
+      * [ Executive Insights ](https://video.cisco.com/category/videos/executive-insights)
+      * [ Supplier Information ](https://video.cisco.com/category/videos/supplier-information)
+      * [ Thought Leadership ](https://video.cisco.com/category/videos/thought-leadership)
+    * [ Licensing ](https://video.cisco.com/category/videos/licensing)
+      * [ Enterprise Agreement ](https://video.cisco.com/category/videos/enterprise-agreement)
+      * [ License Registration Portal ](https://video.cisco.com/category/videos/license-registration-portal)
+      * [ Licensing Support ](https://video.cisco.com/category/videos/licensing-support)
+        * [ Device Management ](https://video.cisco.com/category/videos/device-management)
+        * [ Enterprise Agreement ](https://video.cisco.com/category/videos/enterprise-agreement_)
+        * [ License Delivery ](https://video.cisco.com/category/videos/license-delivery)
+        * [ License Management ](https://video.cisco.com/category/videos/license-management)
+        * [ Licensing Reports ](https://video.cisco.com/category/videos/licensing-reports)
+        * [ On-Prem Deployment ](https://video.cisco.com/category/videos/on-prem-deployment)
+        * [ Smart Account Administration ](https://video.cisco.com/category/videos/smart-account-administration)
+      * [ Meraki Subscription ](https://video.cisco.com/category/videos/meraki-subscription)
+      * [ Smart Account ](https://video.cisco.com/category/videos/smart-account)
+      * [ Smart Licensing ](https://video.cisco.com/category/videos/smart-licensing)
+      * [ SSM On-Prem and CSLU ](https://video.cisco.com/category/videos/ssm-on-prem-and-cslu)
+    * [ Partner ](https://video.cisco.com/category/videos/partner)
+    * [ Products ](https://video.cisco.com/category/videos/products)
+      * [ Application Networking Services ](https://video.cisco.com/category/videos/application-networking-services)
+      * [ Cloud & Systems Management ](https://video.cisco.com/category/videos/cloud-systems-management)
+      * [ Collaboration ](https://video.cisco.com/category/videos/collaboration)
+      * [ Collaboration Endpoints ](https://video.cisco.com/category/videos/collaboration-endpoints)
+      * [ Conferencing ](https://video.cisco.com/category/videos/conferencing)
+      * [ Contact Center ](https://video.cisco.com/category/videos/contact-center_)
+      * [ Data Center & Virtualization ](https://video.cisco.com/category/videos/data-center-virtualization)
+      * [ Enterprise Networks ](https://video.cisco.com/category/videos/enterprise-networks)
+      * [ Interfaces & Modules ](https://video.cisco.com/category/videos/interfaces-modules)
+      * [ IoT - Internet of Things ](https://video.cisco.com/category/videos/iot---internet-of-things)
+      * [ Networking Software (IOS & NX-OS) ](https://video.cisco.com/category/videos/networking-software-ios-nx-os)
+      * [ Optical Networking ](https://video.cisco.com/category/videos/optical-networking)
+      * [ Routers ](https://video.cisco.com/category/videos/routers)
+      * [ Security ](https://video.cisco.com/category/videos/security)
+      * [ Small & Medium Business ](https://video.cisco.com/category/videos/small-medium-business)
+      * [ Switches ](https://video.cisco.com/category/videos/switches)
+      * [ Unified Communications ](https://video.cisco.com/category/videos/unified-communications)
+      * [ Video Solutions ](https://video.cisco.com/category/videos/video-solutions)
+      * [ Wireless ](https://video.cisco.com/category/videos/wireless)
+    * [ Podcasts ](https://video.cisco.com/category/videos/podcasts__)
+      * [ Cisco Optics Podcast ](https://video.cisco.com/category/videos/cisco-optics-podcast)
+      * [ Coffee and Conversations Industry Podcast ](https://video.cisco.com/category/videos/coffee-and-conversations-industry-podcast)
+    * [ Service Provider ](https://video.cisco.com/category/videos/service-provider)
+      * [ 5G Mobility ](https://video.cisco.com/category/videos/5g-mobility)
+      * [ Customer Stories ](https://video.cisco.com/category/videos/customer-stories_)
+      * [ Media Solutions ](https://video.cisco.com/category/videos/media-solutions)
+      * [ Network Automation ](https://video.cisco.com/category/videos/network-automation)
+      * [ Network Infrastructure ](https://video.cisco.com/category/videos/network-infrastructure)
+      * [ Optical Networking ](https://video.cisco.com/category/videos/optical-networking_)
+      * [ Optics ](https://video.cisco.com/category/videos/optics)
+      * [ Silicon One ](https://video.cisco.com/category/videos/silicon-one)
+      * [ Telco Cloud & Services Edge ](https://video.cisco.com/category/videos/telco-cloud-services-edge)
+    * [ Services ](https://video.cisco.com/category/videos/services)
+      * [ Data & Analytics ](https://video.cisco.com/category/videos/data-analytics)
+      * [ My Cisco Entitlements ](https://video.cisco.com/category/videos/my-cisco-entitlements)
+    * [ Success Stories ](https://video.cisco.com/category/videos/success-stories)
+      * [ Land, Adopt, Expand, Renew ](https://video.cisco.com/category/videos/land-adopt-expand-renew)
+      * [ Hardware ](https://video.cisco.com/category/videos/hardware)
+      * [ Security ](https://video.cisco.com/category/videos/security_)
+      * [ Services ](https://video.cisco.com/category/videos/services_)
+      * [ Software ](https://video.cisco.com/category/videos/software)
+    * [ Technical Support ](https://video.cisco.com/category/videos/technical-support)
+      * [ Cisco Tech Talk ](https://video.cisco.com/category/videos/cisco-tech-talk)
+      * [ TAC ](https://video.cisco.com/category/videos/tac)
+    * [ Technology Trends ](https://video.cisco.com/category/videos/technology-trends)
+      * [ ACI - Application Centric Infrastructure ](https://video.cisco.com/category/videos/aci---application-centric-infrastructure)
+      * [ Cloud ](https://video.cisco.com/category/videos/cloud)
+      * [ Data in Motion ](https://video.cisco.com/category/videos/data-in-motion)
+      * [ Fast IT ](https://video.cisco.com/category/videos/fast-it)
+      * [ IoT - Internet of Things ](https://video.cisco.com/category/videos/iot---internet-of-things_)
+      * [ Mobility ](https://video.cisco.com/category/videos/mobility)
+    * [ ThreatWiseTV ](https://video.cisco.com/category/videos/threatwisetv)
+
+
+![](https://cf-images.us-east-1.prod.boltdns.net/v1/jit/1384193102001/c2539663-9450-430d-8836-52b1a486211a/main/1280x720/1m56s618ms/match/image.jpg)
+Video Player is loading.
+Play Video
+PauseSkip BackwardSkip Forward
+Unmute
+Current Time 0:00
+/
+Duration 0:00
+Loaded: 0%
+0:00
+Stream Type LIVE
+Seek to live, currently behind liveLIVE
+Remaining Time -0:00
+1x
+Playback Rate
+  * 2x
+  * 1.75x
+  * 1.5x
+  * 1.25x
+  * 1x, selected
+  * 0.75x
+  * 0.5x
+
+
+Chapters
+  * Chapters
+
+
+Descriptions
+  * descriptions off, selected
+
+
+Captions
+  * captions settings, opens captions settings dialog
+  * captions off, selected
+
+
+Share
+Quality Levels
+Audio Track
+  * en (Main), selected
+
+
+Fullscreen
+This is a modal window.
+Beginning of dialog window. Escape will cancel and close the window.
+Text ColorWhite Black Red Green Blue Yellow Magenta CyanOpacityOpaque Semi-Transparent Text Background ColorBlack White Red Green Blue Yellow Magenta CyanOpacityOpaque Semi-Transparent Transparent Caption Area Background ColorBlack White Red Green Blue Yellow Magenta CyanOpacityTransparent Semi-Transparent Opaque
+Font Size 50% 75% 100% 125% 150% 175% 200% 300% 400% Text Edge Style None Raised Depressed Uniform Drop shadow Font Family Proportional Sans-Serif Monospace Sans-Serif Proportional Serif Monospace Serif Casual Script Small Caps
+ResetDone
+Close Modal Dialog
+End of dialog window.
+Close Modal Dialog
+This is a modal window. This modal can be closed by pressing the Escape key or activating the close button.
+Close Modal Dialog
+This is a modal window. This modal can be closed by pressing the Escape key or activating the close button.
+Close Modal Dialog
+This is a modal window. This modal can be closed by pressing the Escape key or activating the close button.
+# Fujifilm leveraged Managed Services to ReImagine the Possible
+3:53
+  * [ Share on Facebook  ](https://www.facebook.com/dialog/share?app_id=870555336312529&display=popup&href=https%3A%2F%2Fvideo.cisco.com%2Fdetail%2Fvideos%2Flatest-videos%2Fvideo%2F6352453027112&caption=From%20Cisco%20Video%20Portal&name=Fujifilm%20leveraged%20Managed%20Services%20to%20ReImagine%20the%20Possible&picture=https%3A%2F%2Fcf-images.us-east-1.prod.boltdns.net%2Fv1%2Fjit%2F1384193102001%2Fc2539663-9450-430d-8836-52b1a486211a%2Fmain%2F1280x720%2F1m56s618ms%2Fmatch%2Fimage.jpg&redirect_uri=https%3A%2F%2Fredirect.bcvp0rtal.com%2Ffb%2F27586215%3Fredirect%3Dhttps%253A%252F%252Fvideo.cisco.com&description=Discover%20how%20Fujifilm%20leveraged%20Managed%20Services%20to%20ReImagine%20the%20Possible)
+  * [ Share on X  ](https://twitter.com/intent/tweet?text=Check%20out%20this%20site!%20https%3A%2F%2Fvideo.cisco.com%2Fdetail%2Fvideos%2Flatest-videos%2Fvideo%2F6352453027112&via=Cisco&related=Cisco)
+  * [ Share on LinkedIn  ](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fvideo.cisco.com%2Fdetail%2Fvideos%2Flatest-videos%2Fvideo%2F6352453027112&title=Fujifilm%20leveraged%20Managed%20Services%20to%20ReImagine%20the%20Possible&source=Cisco%20Video%20Portal&summary=Discover%20how%20Fujifilm%20leveraged%20Managed%20Services%20to%20ReImagine%20the%20Possible)
+  * Share via Email 
+
+
+Description
+Related Videos
+Discover how Fujifilm leveraged Managed Services to ReImagine the Possible
+View More
+View Less
+## Share
+  * [ Share on Facebook  ](https://www.facebook.com/dialog/share?app_id=870555336312529&display=popup&href=https%3A%2F%2Fvideo.cisco.com%2Fdetail%2Fvideos%2Flatest-videos%2Fvideo%2F6352453027112&caption=From%20Cisco%20Video%20Portal&name=Fujifilm%20leveraged%20Managed%20Services%20to%20ReImagine%20the%20Possible&picture=https%3A%2F%2Fcf-images.us-east-1.prod.boltdns.net%2Fv1%2Fjit%2F1384193102001%2Fc2539663-9450-430d-8836-52b1a486211a%2Fmain%2F1280x720%2F1m56s618ms%2Fmatch%2Fimage.jpg&redirect_uri=https%3A%2F%2Fredirect.bcvp0rtal.com%2Ffb%2F27586215%3Fredirect%3Dhttps%253A%252F%252Fvideo.cisco.com&description=Discover%20how%20Fujifilm%20leveraged%20Managed%20Services%20to%20ReImagine%20the%20Possible)
+  * [ Share on X  ](https://twitter.com/intent/tweet?text=Check%20out%20this%20site!%20https%3A%2F%2Fvideo.cisco.com%2Fdetail%2Fvideos%2Flatest-videos%2Fvideo%2F6352453027112&via=Cisco&related=Cisco)
+  * [ Share on LinkedIn  ](https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fvideo.cisco.com%2Fdetail%2Fvideos%2Flatest-videos%2Fvideo%2F6352453027112&title=Fujifilm%20leveraged%20Managed%20Services%20to%20ReImagine%20the%20Possible&source=Cisco%20Video%20Portal&summary=Discover%20how%20Fujifilm%20leveraged%20Managed%20Services%20to%20ReImagine%20the%20Possible)
+  * Share via Email 
+
+
+## Related Videos
+### In Latest Videos
+  * [ ![CLP AMER July 2026 Session 1](https://images.gallerysites.net/?image=https://cf-images.us-east-1.prod.boltdns.net/v1/jit/1384193102001/24051f40-4852-4123-92cb-ef511ce8869e/main/1280x720/23m47s980ms/match/image.jpg&width=290&height=163.125) Play video CLP AMER July 2026 Session 1 CLP AMER July 2026 Session 1 Discover the newest features and improvements in the On-Prem solution, and get an exclusive preview of the Cisco License On-Prem experience. 47:35 ](https://video.cisco.com/detail/videos/latest-videos/video/6402711266112?autoStart=true)
+  * [ ![CLP AMER SESSION 2 JULY 2026](https://images.gallerysites.net/?image=https://cf-images.us-east-1.prod.boltdns.net/v1/jit/1384193102001/091816ac-fb96-4db2-867b-14f48480384a/main/1280x720/23m56s240ms/match/image.jpg&width=290&height=163.125) Play video CLP AMER SESSION 2 JULY 2026 CLP AMER SESSION 2 JULY 2026 Discover the newest features and improvements in the On-Prem solution, and get an exclusive preview of the Cisco License On-Prem experience. 47:52 ](https://video.cisco.com/detail/videos/latest-videos/video/6402713306112?autoStart=true)
+  * [ ![SONiC: Collection of Mac Dump for an Interface](https://images.gallerysites.net/?image=https://cf-images.us-east-1.prod.boltdns.net/v1/static/1384193102001/cc4c31f4-6dc8-4a21-b7a8-97b0cf53f971/38aa1a57-6811-447a-9987-86dbfe3ea24f/1280x720/match/image.jpg&width=290&height=163.125) Play video SONiC: Collection of Mac Dump for an Interface SONiC: Collection of Mac Dump for an Interface This Video shows how to collect Mac dump for an interface in case of interface failure or flaps. 2:41 ](https://video.cisco.com/detail/videos/latest-videos/video/6402836783112?autoStart=true)
+  * [ ![The Evolution of Good Technology | Tech Unscripted](https://images.gallerysites.net/?image=https://cf-images.us-east-1.prod.boltdns.net/v1/jit/1384193102001/0e2bda81-3cfc-4ade-ae76-6a5ecd689b26/main/1280x720/16m36s352ms/match/image.jpg&width=290&height=163.125) Play video The Evolution of Good Technology | Tech Unscripted The Evolution of Good Technology | Tech Unscripted What does "good" technology actually look like in the age of AI? In this episode of Tech Unscripted, Todd Shimizu sits down with a panel of industry experts to explore how technology is being used for social and commercial impact.  33:12 ](https://video.cisco.com/detail/videos/latest-videos/video/6402813591112?autoStart=true)
+  * [ ![ Integrate LDAP with Nexus Dashboard 4.x](https://images.gallerysites.net/?image=https://cf-images.us-east-1.prod.boltdns.net/v1/jit/1384193102001/731cc4f5-a87b-4b3a-854d-9c2b5cea0da8/main/1280x720/2m3s19ms/match/image.jpg&width=290&height=163.125) Play video Integrate LDAP with Nexus Dashboard 4.x Integrate LDAP with Nexus Dashboard 4.x This video demonstrates how to add LDAP as a login domain to Nexus Dashboard. Tags:dcnexus,nexusdashboard 4:06 ](https://video.cisco.com/detail/videos/latest-videos/video/6402929880112?autoStart=true)
+  * [ ![Ai4 2026 Keynote: Intelligence, cost, and control: Infrastructure for agentic AI with Jeetu Patel, President and Chief Product Officer , Cisco and Matt Egan, Senior Business and Economy Reporter, CNN](https://images.gallerysites.net/?image=https://cf-images.us-east-1.prod.boltdns.net/v1/jit/1384193102001/23fdfc3b-ac3b-4cff-b4cc-591d4cf2812a/main/1280x720/10m16s153ms/match/image.jpg&width=290&height=163.125) Play video Ai4 2026 Keynote: Intelligence, cost, and control: Infrastructure for agentic AI with Jeetu Patel, President and Chief Product Officer , Cisco and Matt Egan, Senior Business and Economy Reporter, CNN Ai4 2026 Keynote: Intelligence, cost, and control: Infrastructure for agentic AI with Jeetu Patel, President and Chief Product Officer , Cisco and Matt Egan, Senior Business and Economy Reporter, CNN As AI shifts from chatbots to autonomous agents, inferencing grows distributed across data centers, clouds, and devices. This discussion covers the infrastructure impact, with new approaches to networking, security, and operations for scaling AI.  20:32 ](https://video.cisco.com/detail/videos/latest-videos/video/6403159377112?autoStart=true)
+
+
+[ ](https://video.cisco.com/)
+[Contacts Opens in new window ](https://www.cisco.com/c/en/us/about/contact-cisco.html) [Feedback Opens in new window ](https://ciscocx.qualtrics.com/jfe/form/SV_bwrmeoKrBHYxOyW?Ref=/c/en/us/index.html) [Help Opens in new window ](https://www.cisco.com/c/en/us/about/help.html) [Terms & Conditions Opens in new window ](https://www.cisco.com/web/siteassets/legal/terms_condition.html) [Privacy Statement Opens in new window ](https://www.cisco.com/web/siteassets/legal/privacy.html) [Cookie Policy Opens in new window ](https://www.cisco.com/web/siteassets/legal/privacy.html#cookies) [Trademarks Opens in new window ](https://www.cisco.com/web/siteassets/legal/trademark.html)
+[ Like on Facebook  ](https://www.facebook.com/cisco) [ Follow on X  ](https://twitter.com/Cisco) [ Connect on LinkedIn  ](http://www.linkedin.com/company/cisco)
+## Share this video
+### Embed
+Size:  x  pixels 
