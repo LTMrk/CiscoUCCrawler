@@ -5844,3 +5844,162 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/messaging/docs/getting-started
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/messaging/docs/getting-started)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/messaging/docs/getting-started)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/messaging/docs/getting-started)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Access the API
+Webex Messaging
+  * [Overview](https://developer.webex.com/messaging/docs/messaging)
+  * Guides
+    * [Access the API](https://developer.webex.com/messaging/docs/getting-started)
+    * [Integrations & Authorization](https://developer.webex.com/messaging/docs/integrations)
+    * [Using Webex Service Apps](https://developer.webex.com/messaging/docs/service-apps)
+    * [Bots](https://developer.webex.com/messaging/docs/bots)
+    * [Webhooks](https://developer.webex.com/messaging/docs/api/guides/webhooks)
+    * [Buttons and Cards](https://developer.webex.com/messaging/docs/buttons-and-cards)
+    * [Messaging MCP Server](https://developer.webex.com/messaging/docs/messaging-mcp-server)
+  * [REST API Basics](https://developer.webex.com/messaging/docs/basics)
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * SDK
+  * [AI Assistant for Developers](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/messaging/docs/api/guides/troubleshooting)
+  * [Widgets](https://developer.webex.com/messaging/docs/widgets)
+  * [Tutorials](https://developer.webex.com/messaging/docs/tutorials)
+  * [Suite Sandbox](https://developer.webex.com/messaging/docs/developer-sandbox-guide)
+  * [Beta Program Overview](https://developer.webex.com/messaging/docs/webex-developer-beta-program)
+  * [Webex Status API](https://developer.webex.com/messaging/docs/webex-status-api)
+
+
+## Webex Messaging
+### Access the API
+The Webex APIs give you easy access to the Webex Platform to build [Bots](https://developer.webex.com/docs/bots), [Integrations](https://developer.webex.com/docs/integrations), or [Guest Issuer](https://developer.webex.com/docs/guest-issuer) apps. If you're ready to start using the Webex APIs, keep reading.
+###### Your Personal Access Token
+Log in required for access token.
+Bearer
+This limited-duration personal access token is hidden for your security.
+####  anchorWhat's possible with the Webex APIs?
+anchor
+The Webex APIs provide your applications with direct access to the Cisco Webex Platform, giving you the ability to:
+  * [Create a Webex space and invite people](https://developer.webex.com/docs/api/v1/rooms)
+  * [Search for people in your company](https://developer.webex.com/docs/api/v1/people)
+  * [Post messages in a Webex space](https://developer.webex.com/docs/api/v1/messages)
+  * [Get Webex space history](https://developer.webex.com/docs/api/v1/messages/list-messages) or be [notified in real-time](https://developer.webex.com/docs/api/v1/webhooks/create-a-webhook) when new messages are posted by others
+  * [Execute a command on a Webex RoomOS device](https://developer.webex.com/docs/api/v1/xapi/execute-command)
+  * and much more!
+
+
+####  anchorAccounts and Authentication
+anchor
+To use the Webex REST API you'll need a Webex account backed by Cisco Webex Common Identity (CI). If you already have a Webex account, you're all set. If you're using Webex Meetings, your site will [need to be on Common Identity](https://help.webex.com/WBX000023841/).
+If you don't already have a Webex account, go ahead and [sign up](https://www.webex.com/pricing/free-trial.html)! You'll need an account to use the APIs and SDKs.
+When making requests to the Webex REST API, an `Authorization` HTTP header is used to identify the requesting user. This header must include an access token. This access token may be a [personal access token](https://developer.webex.com/messaging/docs/getting-started#/docs/getting-started#personal-access-token), a [Bot](https://developer.webex.com/docs/bots) token, or an OAuth token from an [Integration](https://developer.webex.com/docs/integrations) or [Guest Issuer](https://developer.webex.com/docs/guest-issuer) application.
+####  anchorPersonal Access Tokens
+anchor
+A personal access token is a short-lived access token you can use to make Webex API calls on your own behalf. Any actions taken through the API will be done as you. Personal access tokens expire 12 hours after you sign in to the Developer Portal and should not be used in production environments. A production app should instead create an [integration](https://developer.webex.com/docs/integrations) to obtain an access token from an authenticating user using OAuth.
+To get your personal access token:
+  1. Make sure you're [signed in](https://developer.webex.com/login) to the Developer Portal.
+  2. Click the copy icon below.
+###### Your Personal Access Token
+Log in required for access token.
+Bearer
+This limited-duration personal access token is hidden for your security.
+  3. Click OK in the dialog to copy the token to your clipboard.
+![Copy token dialog](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltf5b1cebd6cfc67d4/632b8795dbb41c0cdadc8431/copy-token.png)
+
+
+####  anchorMethods & Content Types
+anchor
+The Webex APIs are RESTful. In REST, each resource is represented by a base URL like `/messages` and the HTTP methods `GET`, `POST`, `PUT` and `DELETE` are used to request data and perform actions on those resources.
+For methods that accept request parameters the platform accepts either `application/json` or `application/x-www-form-urlencoded` content types and currently only supports returning data in `application/json` format.
+####  anchorNext Steps
+anchor
+We've tried to make it as simple as possible to explore and learn the Webex APIs. Browse through the list of API endpoints under the Reference section in the menu on the left. Once you find an endpoint that looks interesting, go to that endpoint and give it a try! You can perform a request and see the results right in your browser.
+If you prefer tutorials and structured lessons definitely check out the [Learning Labs](https://learninglabs.cisco.com/tracks/collab-cloud) by Cisco DevNet.
+Once you've learned the APIs and are ready to build an app you may be interested in using an SDK to eliminate some boilerplate. Check our list of SDKs over in the menu on the left side of this page. If your favorite language isn't listed don't worry, SDKs in new languages will be added regularly.
+####  anchorSupport Policy
+anchor
+Please visit the [Webex API and SDK Support Policy](https://developer.webex.com/docs/api-and-sdk-support-policy) page for details on our support and end of life policy for APIs and SDKs.
+####  anchorGetting Help
+anchor
+If you ever get stuck, the [Webex Developer Support team](https://developer.webex.com/support) has you covered, standing by 24/7 to help.
+##### In This Article
+  * [What's possible with the Webex APIs?](https://developer.webex.com/messaging/docs/getting-started#whats-possible-with-the-webex-apis)
+  * [Accounts and Authentication](https://developer.webex.com/messaging/docs/getting-started#accounts-and-authentication)
+  * [Personal Access Tokens](https://developer.webex.com/messaging/docs/getting-started#personal-access-tokens)
+  * [Methods & Content Types](https://developer.webex.com/messaging/docs/getting-started#methods--content-types)
+  * [Next Steps](https://developer.webex.com/messaging/docs/getting-started#next-steps)
+  * [Support Policy](https://developer.webex.com/messaging/docs/getting-started#support-policy)
+  * [Getting Help](https://developer.webex.com/messaging/docs/getting-started#getting-help)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
