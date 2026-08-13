@@ -1888,3 +1888,143 @@ Close
 Preparing document for printing…
 0%
 Cancel
+
+
+---
+# ORIGEN: https://explore.webex.com/messaging-resources
+
+[ ![Sample logo image](https://cdn.pathfactory.com/assets/10866/heroes/1458332/2d5f7091-2142-4f6c-aaa4-12f400002ee0.png) Get started with Webex Messaging ](https://adopt.webex.com%20)
+[ Help Center ](https://help.webex.com/?utm_source=pathfactory&utm_content=content_playlist_cta)
+[ Webex Academy ](https://academy.webex.com/learn/?utm_source=pathfactory&utm_content=content_playlist_cta)
+[ Help Center ](https://help.webex.com/?utm_source=pathfactory&utm_content=content_playlist_cta)
+[ Webex Academy ](https://academy.webex.com/learn/?utm_source=pathfactory&utm_content=content_playlist_cta)
+10 results found 
+  * [ Featured  ](https://explore.webex.com/messaging-resources)
+  * [ Featured  Get started with Webex Messaging  ](https://explore.webex.com/messaging-resources/getting-started_msg)
+  * [ Featured  Download the Webex app  ](https://explore.webex.com/messaging-resources/downloads-html)
+  * [ Featured  Start a conversation  ](https://explore.webex.com/messaging-resources/webex-app---start-a-1)
+  * [ Featured  Spaces and Teams  ](https://explore.webex.com/messaging-resources/webex-app---spaces-a)
+  * [ Featured  Create a space  ](https://explore.webex.com/messaging-resources/webex-app---create-a)
+  * [ Featured  Format messages  ](https://explore.webex.com/messaging-resources/webex-app---format-m)
+  * [ Featured  Find people, spaces, messages, files, and devices  ](https://explore.webex.com/messaging-resources/webex-app---find-peo)
+  * [ Featured  Find messages and files in a space  ](https://explore.webex.com/messaging-resources/webex-app---find-mes)
+  * [ Featured  Chat before and after meetings  ](https://explore.webex.com/messaging-resources/h4h1ib7uxs8)
+  * [ Featured  Tips for managing notifications  ](https://explore.webex.com/messaging-resources/webex-app---tips-for)
+
+
+Read More 
+10 results found 
+[ ![Sample content thumbnail](https://explore.webex.com/messaging-resources) Featured  ](https://explore.webex.com/messaging-resources)
+[ Get started with Webex Messaging  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1166291/thumbnails/600x/402d1109-26f7-4425-9e86-d74b2a36ea17-1.png) Featured  ](https://explore.webex.com/messaging-resources/getting-started_msg)
+[ Download the Webex app  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1166250/thumbnails/600x/cisco-webex-logo291x291.png) Featured  ](https://explore.webex.com/messaging-resources/downloads-html)
+[ Start a conversation  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/messaging-resources/webex-app---start-a-1)
+[ Spaces and Teams  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/messaging-resources/webex-app---spaces-a)
+[ Create a space  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/messaging-resources/webex-app---create-a)
+[ Format messages  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/messaging-resources/webex-app---format-m)
+[ Find people, spaces, messages, files, and devices  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/messaging-resources/webex-app---find-peo)
+[ Find messages and files in a space  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/messaging-resources/webex-app---find-mes)
+[ Chat before and after meetings  ![Sample content thumbnail](https://cdn.pathfactory.com/assets/10866/contents/1166299/thumbnails/600x/0.jpg) Featured  ](https://explore.webex.com/messaging-resources/h4h1ib7uxs8)
+[ Tips for managing notifications  ![Sample content thumbnail](https://cdn.pathfactory.com/images/default.png) Featured  ](https://explore.webex.com/messaging-resources/webex-app---tips-for)
+Thumbnails Document Outline Attachments Layers
+Current Outline Item
+[](https://explore.webex.com/messaging-resources#page=1 "Page 1")[](https://explore.webex.com/messaging-resources#page=2 "Page 2")
+[Webex Messaging](https://explore.webex.com/messaging-resources#%5B%7B%22num%22%3A3%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C0%2C540%2C0%5D)
+[Slide 13: A better way to work together](https://explore.webex.com/messaging-resources#%5B%7B%22num%22%3A3%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C0%2C540%2C0%5D)
+[Slide 14](https://explore.webex.com/messaging-resources#%5B%7B%22num%22%3A44%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C0%2C540%2C0%5D)
+Previous Next
+Highlight All Match Case
+Match Diacritics Whole Words
+Color
+Size
+Color
+Thickness
+Opacity
+Presentation Mode Open Print Download [ Current View ](https://explore.webex.com/messaging-resources#page=1&zoom=auto,-38,540 "Current view \(copy or open in new window\)") Go to First Page Go to Last Page Rotate Clockwise Rotate Counterclockwise
+Text Selection Tool Hand Tool
+Page Scrolling Vertical Scrolling Horizontal Scrolling Wrapped Scrolling
+No Spreads Odd Spreads Even Spreads
+Document Properties…
+Toggle Sidebar Find
+Previous Next
+of 2
+Presentation Mode Open Print Print Download Download [ Current View ](https://explore.webex.com/messaging-resources#page=1&zoom=auto,-38,540 "Current view \(copy or open in new window\)")
+FreeText Annotation Ink Annotation
+Tools
+Zoom Out Zoom In
+Automatic Zoom Actual Size Page Fit Page Width 50% 75% 100% 125% 150% 200% 300% 400%
+13© 2026 Cisco and/or its affiliates. All rights reserved.  
+A better way to work together  
+Use the Webex app for the best experience.  
+After you install the app and sign in, you can  
+start messaging and using spaces right away  
+to connect with teammates, ask questions,  
+and track progress.  
+Keep all your work  
+in one place  
+See what’s  
+happening  
+Webex Messaging gives teams one place to communicate, share,  
+and keep work moving forward.  
+A button that says download the app  
+Download the app  
+Download the app  
+See your conversations from theMessaging  
+tab.  
+Notifications and recent conversations appear  
+at the top, making it easier to see updates,  
+active discussions, and items that may need  
+your attention.  
+Sometimes you need a quick way to connect.  
+You can senddirect messagesfrom the  
+Messagingtab or by searching and selecting  
+a person’s name.  
+Send messages  
+Keep work organized  
+in spaces  
+Spacesbring people, messages, and shared  
+content together around a project, topic, or  
+team.  
+This keeps everyone aligned and creates a  
+reliable record of decisions and progress.  
+You may be added to spaces directly, or a  
+teamthat gives you access to related spaces.  
+You can alsosearch for a public spaceby  
+name or topic orcreate a new spaceif what  
+you’re looking for doesn’t exist.
+[](https://help.webex.com/article/4eawbp/Webex-App-%7C-Spaces-and-Teams?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=tsh&team=dxe "https://help.webex.com/article/4eawbp/Webex-App-%7C-Spaces-and-Teams?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=tsh&team=dxe")[](https://www.webex.com/downloads.html "https://www.webex.com/downloads.html")[](https://help.webex.com/article/n3kbxbf/Webex-App-%7C-Create-a-team?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=tth&team=dxe "https://help.webex.com/article/n3kbxbf/Webex-App-%7C-Create-a-team?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=tth&team=dxe")[](https://help.webex.com/article/r78evy/Webex-App-%7C-Public-spaces?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=tpsh&team=dxe "https://help.webex.com/article/r78evy/Webex-App-%7C-Public-spaces?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=tpsh&team=dxe")[](https://help.webex.com/article/hk71r4/Webex-App-%7C-Create-a-space?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=wcnsh&team=dxe "https://help.webex.com/article/hk71r4/Webex-App-%7C-Create-a-space?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=wcnsh&team=dxe")[](https://help.webex.com/article/zi4dpc/Webex-App-%7C-Start-a-conversation?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mdmh&team=dxe "https://help.webex.com/article/zi4dpc/Webex-App-%7C-Start-a-conversation?utm_medium=qsg&utm_source=qsg&utm_campaign=gs26&utm_content=mdmh&team=dxe")
+More Information Less Information
+Close
+Enter the password to open this PDF file.
+Cancel OK
+File name:
+-
+File size:
+-
+Title:
+-
+Author:
+-
+Subject:
+-
+Keywords:
+-
+Creation Date:
+-
+Modification Date:
+-
+Creator:
+-
+PDF Producer:
+-
+PDF Version:
+-
+Page Count:
+-
+Page Size:
+-
+Fast Web View:
+-
+Close
+Preparing document for printing…
+0%
+Cancel
