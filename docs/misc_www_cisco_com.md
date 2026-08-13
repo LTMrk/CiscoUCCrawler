@@ -260272,3 +260272,201 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud/edge-cloud-for-content-delivery.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud/edge-cloud-for-content-delivery.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud/edge-cloud-for-content-delivery.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud/edge-cloud-for-content-delivery.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+![Cisco Edge Cloud for Content Delivery](https://www.cisco.com/content/dam/en/us/solutions/service-provider/images/is-158534431-1600x480.jpg)
+  * [](https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud/edge-cloud-for-content-delivery.html)
+  * [Solutions](https://www.cisco.com/c/en/us/solutions/index.html)
+  * [Service Provider](https://www.cisco.com/c/en/us/solutions/service-provider/index.html)
+  * [Telco Cloud](https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud.html)
+
+
+# Cisco Edge Cloud for Content Delivery
+Deliver high-quality streaming content to any user, anywhere.
+  * [Watch video (2:44)](javascript:void\(0\);)
+
+
+[](https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud/edge-cloud-for-content-delivery.html)
+  * [Benefits](https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud/edge-cloud-for-content-delivery.html#benefits)
+  * [Customer Testimonials](https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud/edge-cloud-for-content-delivery.html#customer-testimonials)
+  * [Success Pillars](https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud/edge-cloud-for-content-delivery.html#success-pillars)
+  * [Resources](https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud/edge-cloud-for-content-delivery.html#resources)
+
+[](https://www.cisco.com/c/en/us/solutions/service-provider/telco-cloud/edge-cloud-for-content-delivery.html)
+Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+## The future starts here
+Edge Cloud for Content Delivery is a global platform that transforms the way content is delivered – to meet both growing user demand and your business needs.
+### Greater ROI
+Maximize returns through a scalable and adaptable managed solution that meets unique deployment needs.
+### Outstanding user QoE
+Offer highest-quality streaming through advanced visibility, predictability and control of traffic.
+### Lower costs
+Save money through a simplified operational model supporting multi-publisher content.
+### Increased revenue
+Create value and monetize your participation in the content delivery value chain.
+  * [Read at-a-glance](https://www.cisco.com/c/en/us/solutions/collateral/service-provider/at-a-glance-c45-743988.html)
+
+
+## Customer testimonials
+#### _"As demand for data and video services increases, Qwilt's open caching solution helps our network meet today's demand as well as creates the scalable network necessary for the future. We've already seen a 20 percent reduction in core traffic in markets where the solution is deployed."_
+_- Lee Hicks, VP of Network Planning, Verizon_
+[ ![](https://www.cisco.com/etc/designs/cdc/dmr/icons/play.svg) ](javascript:void\(0\);)
+## TIM Brazil lays foundation for high-quality digital connections
+Providing expansive mobile connectivity in a country with continental dimensions has its own set of challenges. But with the help of Cisco, TIM Brazil goes beyond providing connectivity to offer the best digital experiences to all.
+  * [Watch video (2:05)](javascript:void\(0\);)
+
+
+#### _"Our mission at BT is to ensure our customers have the best experience every time and with record levels of streaming we needed to disrupt the status quo. Qwilt’s pioneering open caching platform together with Cisco’s cloud infrastructure gives BT the first 5G MEC capability in the UK to deliver premium quality video and on demand services."_
+_- Managing Director for Architecture and Technology Strategy, British Telecom_
+#### _"…We embrace this new model giving us the opportunity to work directly with the world’s major content providers to reduce operational costs, improve network capacity, and elevate the streaming video quality for our customers to the level they expect."_
+_- Roberto Daniel Nobile, CEO, Telecom Argentina_
+#### _"As demand for data and video services increases, Qwilt's open caching solution helps our network meet today's demand as well as creates the scalable network necessary for the future. We've already seen a 20 percent reduction in core traffic in markets where the solution is deployed."_
+_- Lee Hicks, VP of Network Planning, Verizon_
+[ ![](https://www.cisco.com/etc/designs/cdc/dmr/icons/play.svg) ](javascript:void\(0\);)
+## TIM Brazil lays foundation for high-quality digital connections
+Providing expansive mobile connectivity in a country with continental dimensions has its own set of challenges. But with the help of Cisco, TIM Brazil goes beyond providing connectivity to offer the best digital experiences to all.
+  * [Watch video (2:05)](javascript:void\(0\);)
+
+
+Previous
+  * 1
+  * 2
+  * 3
+  * 4
+
+Next
+## Three pillars for success
+Edge Cloud for Content Deliveryis built on a firm foundation of partnership, domain expertise, and revenue-generating business models to help drive your business growth well into the future.
+###  Trusted partners 
+Engage with Cisco, Qwilt, Digital Alpha, and a growing network of content publishers.
+###  Proven technology and expertise 
+Use Cisco edge compute with Open Caching architecture by Streaming Video Alliance.
+###  Revenue-share model 
+Succeed with a unique monetization platform designed for growing rewards.
+## Resources
+### Press Releases
+  * [JPIX Partners with Cisco and Qwilt to Advance Streaming Media Delivery Across Japan](https://www.qwilt.com/jpix-partners-with-cisco-and-qwilt-to-advance-streaming-media-delivery-across-japan/)
+  * [Qwilt to Advance the Future of Content Delivery for Service Providers with New Round of Funding from Cisco Investments](https://qwilt.com/qwilt-to-advance-the-future-of-content-delivery-for-service-providers-with-new-round-of-funding-from-cisco-investments/)
+  * [Cisco, Qwilt and Digital Alpha Define the Future of Content Delivery with New Open Caching Solution for Service Providers](https://newsroom.cisco.com/press-release-content?type=webcontent&articleId=2101821)
+  * [Telecom Argentina Launching New Cisco, Qwilt and Digital Alpha CDN Solution to Improve Streaming Experience for Its Customers in Argentina](https://newsroom.cisco.com/press-release-content?type=webcontent&articleId=2140396)
+  * [TIM Launching Open Caching Solution to Further Improve Video Streaming Experience Across Its Network in Brazil](https://newsroom.cisco.com/press-release-content?type=webcontent&articleId=2134924)
+
+
+### Blogs
+  * [Enabling Metaverse and Next-Gen Content the Right Way](https://blogs.cisco.com/sp/enabling-metaverse-and-next-generation-content-the-right-way)
+  * [Gain Better Control Over Quality Streaming Experiences](https://blogs.cisco.com/sp/gain-better-control-over-quality-streaming-experiences)
+  * [Wholesale Carriers Benefit from the Cisco/Qwilt Solution](https://blogs.cisco.com/sp/wholesale-carriers-benefit-from-the-cisco-qwilt-solution)
+  * [MWC 2022 Takeaways: Creating a Competitive Edge for Next-Gen Streaming Content](https://blogs.cisco.com/sp/mwc-2022-takeaways-and-on-site-executive-interview-creating-a-competitive-edge-for-next-gen-streaming-media)
+  * [Give Your Rural Customers Better Streaming Content Experiences](https://blogs.cisco.com/sp/give-your-rural-customers-better-streaming-content-experiences)
+  * [Edge Cloud for Content Delivery and Interactive Volumetric Video Streaming– Experience Them Live at MWC 2022](https://blogs.cisco.com/sp/edge-cloud-for-content-delivery-and-interactive-volumetric-video-streaming-experience-them-live-at-mwc-2022)
+  * [Cisco Strengthens Partnership with Qwilt to Modernize Content Delivery](https://blogs.cisco.com/sp/cisco-strengthens-partnership-with-qwilt-to-modernize-content-delivery)
+  * [Brazil Will Experience Outstanding Digital Streaming](https://blogs.cisco.com/cloud/brazil-will-experience-outstanding-digital-streaming)
+  * [Content Delivery Revisited in This New Virtual World](https://blogs.cisco.com/sp/content-delivery-revisited-in-this-new-virtual-world)
+  * [Welcome to the Future of Content Delivery](https://qwilt.com/welcome-to-the-future-of-content-delivery/)
+  * [CDN Caching and Video Streaming Performance](https://blogs.cisco.com/sp/cdn-caching-and-video-streaming-performance)
+
+
+### White Papers and Literature
+  * [A Unified and Distributed Global Content Delivery Network Is More Than a Vision](https://www.lightreading.com/author.asp?section_id=655&doc_id=774937)
+  * [Edge Cloud for Content Delivery for Rural Broadband Providers At-a-Glance](https://www.cisco.com/c/en/us/solutions/collateral/service-provider/edge-cloud-delivery-rural-broad-aag.html)
+  * [Discover Edge Computing Considerations for an Efficacious Services Architecture](https://www.cisco.com/c/en/us/solutions/service-provider/edge-computing/establishing-the-edge.html)
+  * [Reimagining the Service Edge Starting with Services and Applications](https://www.cisco.com/c/en/us/solutions/service-provider/edge-computing/white-paper-sp-application-service-evolution.html)
+  * [The Four Pillars of Service Edge Transformation](https://www.cisco.com/c/en/us/solutions/service-provider/edge-computing/the-four-pillars-of-service-edge-transformation.html)
+
+
+### Cisco Partners
+  * [For Content Publishers: The Capacity Gap is Here](https://qwilt.com/content-delivery-and-the-capacity-gap/)
+  * [Open Caching Architecture from the Streaming Video Alliance](https://opencaching.streamingvideoalliance.org)
+  * [Qwilt Edge Cloud for Content Delivery](https://qwilt.com/open-edge-cloud-solutions-for-service-providers/)
+
+
+### Events and Webinars
+  * [Executive Interview: Edge Cloud for Content Delivery - From Vision to Success and the Opportunities Ahead](https://www.lightreading.com/cisco-edge-cloud-for-content-delivery-from-vision-to-success-and-opportunities-ahead/v/d-id/774949)
+  * [MWC 2022 Exhibit and Executive Interview (10:16)](javascript:void\(0\);)
+  * [CKN: Modernizing Content Delivery with Open Caching](https://engage2demand.cisco.com/LP=27723)
+  * [CKN: Improve Streaming Content Delivery Quality and Reduce Infrastructure Scaling Costs](https://engage2demand.cisco.com/LP=23055)
+
+
+### Related Products
+  * [Cisco Servers - Unified Computing System (UCS)](https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html)
+  * [Cisco N9000 Series Switches](https://www.cisco.com/c/en_my/products/switches/nexus-9000-series-switches/index.html)
+
+
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
