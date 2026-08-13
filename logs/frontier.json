@@ -1,397 +1,5 @@
 [
   {
-    "url": "https://developer.webex.com/docs/api/v1/meeting-closed-captions/list-meeting-closed-captions",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/meeting-closed-captions/list-meeting-closed-caption-snippets",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/meeting-closed-captions/download-meeting-closed-caption-snippets",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/meeting-q-and-a/list-meeting-q-and-a",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/meeting-q-and-a/list-answers-of-a-question",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/meeting-summaries/get-summary-for-compliance-officer",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/meeting-transcripts/delete-a-transcript",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/meeting-chats/delete-meeting-chats",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/meetings/list-meeting-templates",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/support",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/blog/categories/events",
-    "depth": 2
-  },
-  {
-    "url": "https://www.essentials.webex.com/programs/ambassadors",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/terms-of-service",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/meetings",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/getting-started",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/api/guides/access-meeting-resources-guide",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/integrations",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/service-apps",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/api/guides/webinar-guide",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/api/guides/webhooks",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/meetings-mcp-server",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/guest-to-guest-meetings",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/app-programming-interface-behavior-changes",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/basics",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/api/changelog/webex-meetings",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/webex-aI-assistant-for-developers",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/api/guides/troubleshooting",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/widgets",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/tutorials",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/developer-sandbox-guide",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/webex-developer-beta-program",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/webex-status-api",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/meeting/docs/webex-xml-api-deprecation-announcement",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/webhooks/create-a-webhook",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/support",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/meetings/list-meetings-of-a-meeting-series",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/blog/categories/events",
-    "depth": 2
-  },
-  {
-    "url": "https://www.essentials.webex.com/programs/ambassadors",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/terms-of-service",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/devices/docs/devices",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/devices/docs/api/guides/device-developers-guide",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/devices/docs/calling-device-id-guide",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/devices/docs/api/guides/troubleshooting",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/devices",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/integrations",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/device-configurations",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/workspaces",
-    "depth": 2
-  },
-  {
-    "url": "https://admin.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/devices",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/devices/list-devices",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/device-configurations/list-device-configurations-for-device",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/device-configurations/update-device-configurations",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/xapi/query-status",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/xapi/execute-command",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/xapi/query-schema",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/xapi",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/workspaces/create-a-workspace",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/devices/create-a-device-activation-code",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/workspaces/update-a-workspace",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/workspaces/get-workspace-details",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/support",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/blog/categories/events",
-    "depth": 2
-  },
-  {
-    "url": "https://www.essentials.webex.com/programs/ambassadors",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/terms-of-service",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/create/docs/authentication",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/create/docs/login-with-webex",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/create/docs/webex-aI-assistant-for-developers",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/create/docs/workspace-integrations",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/create/docs/workspace-integration-technical-details",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/create/docs/integration-provided-features-in-control-hub",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/create/docs/developer-sandbox-guide",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/create/docs/sandbox_cc",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/create/docs/g2g-sandbox",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/create/docs/app-hub-submission-process",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/create/docs/tutorials",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/getting-started",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/integrations",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/support",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/blog/categories/events",
-    "depth": 2
-  },
-  {
-    "url": "https://www.essentials.webex.com/programs/ambassadors",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/terms-of-service",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/admin/docs/admin",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/admin/docs/authentication",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/admin/docs/api/changelog/webex-admin",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/admin/docs/webex-aI-assistant-for-developers",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/admin/docs/api/guides/troubleshooting",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/admin/docs/developer-sandbox-guide",
-    "depth": 2
-  },
-  {
-    "url": "https://admin.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/people/create-a-person",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/people/update-a-person",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/licenses/get-license-details",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/roles/list-roles",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/guides/managing-hybrid-services-licenses",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/hybrid-clusters",
-    "depth": 2
-  },
-  {
     "url": "https://developer.webex.com/docs/api/v1/hybrid-connectors",
     "depth": 2
   },
@@ -378801,6 +378409,2846 @@
   },
   {
     "url": "https://developer.webex.com/meeting/docs/api/v1/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-chats",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions/download-meeting-closed-caption-snippets",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions/list-meeting-closed-caption-snippets",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions/list-meeting-closed-captions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-invitees",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-messages",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-participants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-polls",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-preferences",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-q-and-a",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-qualities",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-summaries",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings-summary-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recording-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recordings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/session-types",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/site",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/slido-secure-premium",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/tracking-codes",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/video-mesh",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-chats",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions/download-meeting-closed-caption-snippets",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions/list-meeting-closed-caption-snippets",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions/list-meeting-closed-captions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-invitees",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-messages",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-participants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-polls",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-preferences",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-q-and-a",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-qualities",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-summaries",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings-summary-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recording-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recordings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/session-types",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/site",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/slido-secure-premium",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/tracking-codes",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/video-mesh",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-chats",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions/download-meeting-closed-caption-snippets",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions/list-meeting-closed-caption-snippets",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions/list-meeting-closed-captions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-invitees",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-messages",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-participants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-polls",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-preferences",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-q-and-a",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-qualities",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-summaries",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings-summary-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recording-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recordings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/session-types",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/site",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/slido-secure-premium",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/tracking-codes",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/video-mesh",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-q-and-a",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-chats",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-invitees",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-messages",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-participants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-polls",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-preferences",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-q-and-a/list-answers-of-a-question",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-q-and-a/list-meeting-q-and-a",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-qualities",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-summaries",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings-summary-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recording-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recordings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/session-types",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/site",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/slido-secure-premium",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/tracking-codes",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/video-mesh",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-q-and-a",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-chats",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-invitees",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-messages",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-participants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-polls",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-preferences",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-q-and-a/list-answers-of-a-question",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-q-and-a/list-meeting-q-and-a",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-qualities",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-summaries",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings-summary-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recording-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recordings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/session-types",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/site",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/slido-secure-premium",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/tracking-codes",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/video-mesh",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-summaries",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-chats",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-invitees",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-messages",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-participants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-polls",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-preferences",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-q-and-a",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-qualities",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-summaries/delete-a-summary",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-summaries/get-summary-by-meeting-id",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-summaries/get-summary-for-compliance-officer",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings-summary-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recording-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recordings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/session-types",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/site",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/slido-secure-premium",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/tracking-codes",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/video-mesh",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-chats",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-invitees",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-messages",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-participants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-polls",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-preferences",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-q-and-a",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-qualities",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-summaries",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts/delete-a-transcript",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts/download-a-meeting-transcript",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts/get-a-transcript-snippet",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts/list-meeting-transcripts",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts/list-meeting-transcripts-for-compliance-officer",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts/list-snippets-of-a-meeting-transcript",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts/update-a-transcript-snippet",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings-summary-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recording-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recordings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/session-types",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/site",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/slido-secure-premium",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/tracking-codes",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/video-mesh",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-chats",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-chats/delete-meeting-chats",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-chats/list-meeting-chats",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-invitees",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-messages",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-participants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-polls",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-preferences",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-q-and-a",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-qualities",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-summaries",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings-summary-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recording-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recordings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/session-types",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/site",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/slido-secure-premium",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/tracking-codes",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/video-mesh",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-chats",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-closed-captions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-invitees",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-messages",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-participants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-polls",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-preferences",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-q-and-a",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-qualities",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-summaries",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meeting-transcripts",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/batch-approve-meeting-registrants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/batch-cancel-meeting-registrants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/batch-delete-meeting-registrants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/batch-register-meeting-registrants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/batch-reject-meeting-registrants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/create-a-meeting",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/create-a-meeting-interpreter",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/create-invitation-sources",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/delete-a-meeting",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/delete-a-meeting-interpreter",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/delete-a-meeting-registrant",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/delete-meeting-breakout-sessions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/delete-meeting-registration-form",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/end-a-meeting",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/get-a-meeting",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/get-a-meeting-by-an-admin",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/get-a-meeting-interpreter",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/get-a-meeting-session-type",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/get-a-meeting-survey",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/get-a-meeting-template",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/get-detailed-information-for-a-meeting-registrant",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/get-meeting-control-status",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/get-meeting-survey-links",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/get-registration-form-for-a-meeting",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/join-a-meeting",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/list-group-meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/list-invitation-sources",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/list-meeting-breakout-sessions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/list-meeting-interpreters",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/list-meeting-registrants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/list-meeting-session-types",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/list-meeting-survey-results",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/list-meeting-templates",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/list-meeting-tracking-codes",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/list-meetings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/list-meetings-by-an-admin",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/patch-a-group-meeting",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/patch-a-meeting",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/query-meeting-registrants",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/reassign-meetings-to-a-new-host",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/register-a-meeting-registrant",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/update-a-meeting",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/update-a-meeting-interpreter",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/update-group-meeting-control-status",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/update-meeting-breakout-sessions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/update-meeting-control-status",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/update-meeting-registration-form",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings/update-meeting-simultaneous-interpretation",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/meetings-summary-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recording-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/recordings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/session-types",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/site",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/slido-secure-premium",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/tracking-codes",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/video-mesh",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/v1/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/my-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/service-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/guides/access-meeting-resources-guide",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/integrations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/service-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/guides/webinar-guide",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/guides/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/meetings-mcp-server",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/rooms",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/xapi/execute-command",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api-and-sdk-support-policy",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/integrations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/service-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/guides/webinar-guide",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/guides/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/meetings-mcp-server",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/service-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/guides/webinar-guide",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/guides/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/meetings-mcp-server",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/my-apps/new/integration",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/my-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/guides/compliance",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/guides/webinar-guide",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/guides/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/meetings-mcp-server",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/bring-your-own-datasource",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/blog/hints-and-tips-for-submitting-an-app-to-the-webex-app-hub",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/getting-started",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/api/guides/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/meetings-mcp-server",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-US/article/n3rosq0/Get-started-with-Webex-Events-(new)",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-us/zrupm6/Manage-Security-Options-for-Your-Site-in-Webex-Site-Administration",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1//meetings/sessionTypes",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/meetings-mcp-server",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/call-controls",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/basics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/provisioning-on-control-hub",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/webex-agentic-mcp-servers-amazon-quick",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/webex-agentic-mcp-servers-claude-code",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/webex-agentic-mcp-servers-claude-desktop",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/webex-agentic-mcp-servers-codex",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/webex-agentic-mcp-servers-copilot-studio",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/webex-agentic-mcp-servers-cursor",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/webex-agentic-mcp-servers-gemini-cli",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/webex-agentic-mcp-servers-vscode",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/yr6g4bb",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/guides/troubleshooting",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/device-configurations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/devices/list-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/device-configurations/list-device-configurations-for-device",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/device-configurations/update-device-configurations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/xapi/query-status",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/xapi/execute-command",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/xapi",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/guides/xapi",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/workspaces/create-a-workspace",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/devices/create-a-device-activation-code",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/workspaces/update-a-workspace",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/workspaces/get-workspace-details",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/calling-device-id-guide",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/guides/troubleshooting",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/device-configurations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/devices/list-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/device-configurations/list-device-configurations-for-device",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/device-configurations/update-device-configurations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/xapi/query-status",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/xapi/execute-command",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/xapi/query-schema",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/xapi",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/workspaces/create-a-workspace",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/devices/create-a-device-activation-code",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/workspaces/update-a-workspace",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/workspaces/get-workspace-details",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/guides/troubleshooting",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/webex-calling-overview",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/devices/list-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/devices/get-device-details",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/blog/what-the-base-decoding-webex-api-ids",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/device-call-settings/get-person-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/device-call-settings/get-workspace-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/WBX000028782/Network-Requirements-for-Webex-Services",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/webex-contact-center/docs/api/changelog/webex-contact-center",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/webex-api-and-sdk-support-policy",
+    "depth": 3
+  },
+  {
+    "url": "https://eaf-sdk.webex.com/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://web-sdk.webex.com",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/WBX9000028670/Generate-a-HAR-File-in-Your-Browser",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/calling/docs/sdks/webex-calling-sdk-web-quickstart",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/create/docs/embedded-apps-guide",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/meeting/docs/sdks/ios-sdk-overview",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/device-configurations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/devices/list-devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/device-configurations/list-device-configurations-for-device",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/device-configurations/update-device-configurations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/xapi/query-status",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/xapi/execute-command",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/xapi",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/guides/xapi",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/workspaces/create-a-workspace",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/devices/create-a-device-activation-code",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/workspaces/update-a-workspace",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/workspaces/get-workspace-details",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-call-settings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-configurations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/hot-desk",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-metrics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-personalization",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-configurations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-call-settings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-configurations/list-device-configurations-for-device",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-configurations/update-device-configurations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/hot-desk",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-metrics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-personalization",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-configurations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-call-settings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-configurations/list-device-configurations-for-device",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-configurations/update-device-configurations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/hot-desk",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-metrics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-personalization",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-call-settings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-configurations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/hot-desk",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-metrics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-personalization",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi/execute-command",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi/query-schema",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi/query-status",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-call-settings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-configurations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/hot-desk",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-metrics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-personalization",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi/execute-command",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi/query-schema",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi/query-status",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-call-settings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-configurations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/hot-desk",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-metrics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-personalization",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi/execute-command",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi/query-schema",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi/query-status",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-call-settings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/device-configurations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/devices",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/hot-desk",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-metrics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspace-personalization",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/workspaces",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/devices/docs/api/v1/xapi",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/my-apps/new/integration",
+    "depth": 3
+  },
+  {
+    "url": "https://idbroker-b-us.webex.com/idb",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/create/docs/workspace-integration-technical-details",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/create/docs/integration-provided-features-in-control-hub",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/getting-started",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/create/docs/integration-provided-features-in-control-hub",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/workspace-integration-technical-details",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/getting-started",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nmd8log/Enable-Digital-Signage-on-Webex-Boards,-Room,-and-Desk-Series-Devices",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/ohq3u6/Configure-a-persistent-web-app-on-Webex-Room-Navigator",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/developer-sandbox-guide",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/people/create-a-person",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/people/update-a-person",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/licenses/get-license-details",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/roles/list-roles",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/guides/managing-hybrid-services-licenses",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/hybrid-clusters",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/hybrid-connectors",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/admin-audit-events",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/n3b0w6x",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/report-templates",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/reports/create-a-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/reports/get-report-details",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/reports/delete-a-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/g2g-sandbox",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/vyuo1j/Webex-free-plans-|-Supported-countries-and-regions",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/space-meetings-migration",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/app-programming-interface-behavior-changes",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-US/article/nkhozs6/Get-Started-with-Control-Hub",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/v71ztb/Add-Users-Manually-in-Control-Hub",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/fs78p5/Assign-organization-account-roles-in-Control-Hub",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/my-apps/new/embedded-app",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-US/article/n3xx7vcb/Get-Started-with-Webex-App",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/embedded-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/admin-audit-events",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/authorizations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/classifications",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/data-sources",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/events",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/groups",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/guest-management",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/historical-analytics-apis",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/hybrid-clusters",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/hybrid-connectors",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/licenses",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/live-monitoring",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/meeting-qualities",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/organization-contacts",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/organizations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/partner-administrators",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/partner-reports-templates",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/partner-tags",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people/create-a-person",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people/delete-a-person",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people/get-my-own-details",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people/get-person-details",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people/list-people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people/update-a-person",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/recording-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/recordings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/report-templates",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/reports",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/resource-group-memberships",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/resource-groups",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/roles",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/security-audit-events",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/send-activation-email",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/service-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/settings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/workspace-locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/workspace-metrics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/admin-audit-events",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/authorizations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/classifications",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/data-sources",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/events",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/groups",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/guest-management",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/historical-analytics-apis",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/hybrid-clusters",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/hybrid-connectors",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/licenses",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/live-monitoring",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/meeting-qualities",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/organization-contacts",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/organizations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/partner-administrators",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/partner-reports-templates",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/partner-tags",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people/create-a-person",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people/delete-a-person",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people/get-my-own-details",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people/get-person-details",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people/list-people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people/update-a-person",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/recording-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/recordings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/report-templates",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/reports",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/resource-group-memberships",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/resource-groups",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/roles",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/security-audit-events",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/send-activation-email",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/service-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/settings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/workspace-locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/workspace-metrics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/licenses",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/admin-audit-events",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/authorizations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/classifications",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/data-sources",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/events",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/groups",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/guest-management",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/historical-analytics-apis",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/hybrid-clusters",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/hybrid-connectors",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/licenses/assign-licenses-to-users",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/licenses/get-license-details",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/licenses/list-licenses",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/live-monitoring",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/meeting-qualities",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/organization-contacts",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/organizations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/partner-administrators",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/partner-reports-templates",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/partner-tags",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/recording-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/recordings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/report-templates",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/reports",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/resource-group-memberships",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/resource-groups",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/roles",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/security-audit-events",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/send-activation-email",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/service-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/settings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/workspace-locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/workspace-metrics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/roles",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/admin-audit-events",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/authorizations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/classifications",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/data-sources",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/events",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/groups",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/guest-management",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/historical-analytics-apis",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/hybrid-clusters",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/hybrid-connectors",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/licenses",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/live-monitoring",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/meeting-qualities",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/organization-contacts",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/organizations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/partner-administrators",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/partner-reports-templates",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/partner-tags",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/recording-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/recordings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/report-templates",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/reports",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/resource-group-memberships",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/resource-groups",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/roles/get-role-details",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/roles/list-roles",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/security-audit-events",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/send-activation-email",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/service-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/settings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/workspace-locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/workspace-metrics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/guides/webhooks",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/licenses/list-licenses",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/people/get-person-details",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/kkibf0",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/resource-groups",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/resource-group-memberships",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/resource-group-memberships/update-a-resource-group-membership",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/licenses",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/resource-group-memberships/list-resource-group-memberships",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/admin-audit-events",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/authorizations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/classifications",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/data-sources",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/events",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/groups",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/guest-management",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/historical-analytics-apis",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/hybrid-clusters",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/hybrid-connectors",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/licenses",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/live-monitoring",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/meeting-qualities",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/organization-contacts",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/organizations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/partner-administrators",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/partner-reports-templates",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/partner-tags",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/people",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/recording-report",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/recordings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/report-templates",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/reports",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/resource-group-memberships",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/resource-groups",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/roles",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/security-audit-events",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/send-activation-email",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/service-apps",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/settings",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/workspace-locations",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/admin/docs/api/v1/workspace-metrics",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.webex.com/docs/api/v1/resource-groups",
     "depth": 3
   }
 ]
