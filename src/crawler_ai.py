@@ -217,20 +217,22 @@ async def deep_crawl():
             
             target_css, js_injection = get_custom_behavior(url)
             
-            try:
-                                # Forzar la extracción utilizando un método alternativo de captura de texto plano
+            try:              
                 result = await crawler.arun(
                     url=url,
-                    word_count_threshold=0,
+                    word_count_threshold=word_threshold,
+                    exclude_external_links=True,
+                    remove_overlay_elements=True,
+                    process_iframes=True,
                     cache_mode=CacheMode.BYPASS,
                     magic=True,
-                    # Forzar el modo de extracción por texto crudo del body
-                    js_code="""
-                        await new Promise(r => setTimeout(r, 8000));
-                        // Extraer todo el texto visible del documento incluyendo sombra si existe
-                        window.__full_text = document.body.innerText;
-                    """
+                    excluded_tags=["nav", "footer", "header", "aside", "script", "style"],
+                    css_selector=target_css,
+                    js_code=js_injection,
+                    flatten_shadow_dom=True,  # CRÍTICO: Expone el contenido de los Web Components
+                    wait_for="css:.Api_reference_endpoint_modified__container"  # CRÍTICO: Sincroniza la SPA
                 )
+
                 
                 if not result.success:
                     log_error(url, f"Fallo HTTP o Crawler: {result.error_message}")
