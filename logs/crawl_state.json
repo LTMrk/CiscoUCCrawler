@@ -8394,5 +8394,9 @@
   "https://developer.webex.com/docs/api/v1/people/update-a-person": {
     "hash": "c183ed6795f2ecd570f4272d60e138537fa20293db622350833141260d016fcb",
     "timestamp": "2026-08-13T02:22:13.492666"
+  },
+  "https://developer.webex.com/docs/api/v1/licenses/get-license-details": {
+    "hash": "a500b0beb1d58889b56bf20d02bb001f1d6bb54b2cfd5e85d5bd9a9baebf4760",
+    "timestamp": "2026-08-13T02:22:19.341552"
   }
 }
