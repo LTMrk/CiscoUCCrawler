@@ -12975,3 +12975,152 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/explore/docs/webex-api-and-sdk-support-policy
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/explore/docs/webex-api-and-sdk-support-policy)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/explore/docs/webex-api-and-sdk-support-policy)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/explore/docs/webex-api-and-sdk-support-policy)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Support Policy
+Explore
+  * [Getting Started](https://developer.webex.com/explore/docs)
+  * [Support](https://developer.webex.com/explore/support)
+  * [Support Policy](https://developer.webex.com/explore/docs/webex-api-and-sdk-support-policy)
+  * [FAQs](https://developer.webex.com/explore/docs/frequently-asked-questions)
+  * [Troubleshoot the API](https://developer.webex.com/explore/docs/api/guides/troubleshooting)
+
+
+## Explore
+### Support Policy
+This article outlines the current Webex API and SDK support policies.
+####  anchorVersioning
+anchor
+Webex APIs and SDKs are versioned using standard SEMVER (<https://semver.org/>).
+Version format: MAJOR.MINOR.PATCH
+  * Bug fixes not affecting the API increment the patch version
+  * Backwards compatible API additions/changes increment the minor version
+  * Backwards incompatible API changes increment the major version
+
+
+####  anchorCurrent End of Life (EOL) Notices
+anchor
+###### XML API Deprecation
+  * [XML API Deprecation Announcement](https://developer.webex.com/docs/webex-xml-api-deprecation-announcement)
+
+
+###### SOAP API Deprecation
+Due to reasons of security and maintainability we are going to deprecate the recordings SOAP API. In effect Jan 1, 2023 the recordings SOAP API is being deprecated and should not be used for any new projects. On June 30, 2023 the recordings SOAP API will be permanently shut down. This means customers have a full 6 months to migrate from the current recordings SOAP API to the alternative REST APIs. Depending on your use cases we recommend using the [/recordings REST resource](https://developer.webex.com/docs/api/v1/recordings). Other functionality in the current SOAP API is replaced by the following APIs: [Meeting Participants](https://developer.webex.com/docs/api/v1/meeting-participants), [Meetings Chat](https://developer.webex.com/docs/api/v1/meeting-chats), [Meetings Polls](https://developer.webex.com/docs/api/v1/meeting-polls), [Meetings Q&A](https://developer.webex.com/docs/api/v1/meeting-q-and-a)
+**Publish date** : 12/27/2022
+####  anchorAPIs and SDKs EOL Policy
+anchor
+###### Normal Upgrade Cycle
+**API** versions will be deprecated 18 months after the release of a new version.
+  * At the time of the new release, a notification will be sent to all customers that a new version is available including the change log of what was added or fixed.
+  * After 12 months customers still using deprecated APIs will be contacted with an ever increasing frequency being asked to upgrade.
+  * At the 18 months mark the deprecated APIs shall be switched off using 410 HTTP code.
+
+
+Additions of fields to API filters (query parameters) and response fields may happen at any time and are not considered either an upgrade or a breaking change.
+**SDK & Widget** versions will be deprecated 12 months after the release of a new minor version or 18 months in case of a major version.
+  * At the time of the new release, Cisco will communicate to the community about the changes that are included in the new version and reminders to upgrade.
+  * At the 18-month mark, the deprecated SDK or Widget may stop functioning. Cisco will attempt to help customer apps "fail gracefully" in such cases.
+  * Only releases under the latest tag will fall under the above support model.
+  * The Webex JavaScript SDK version 2.60.x is supported until September 30, 2025. Patches for minor or security issues will be released until this date. However, these releases will also reach End of Life (EoL) by September 30, 2025, irrespective of the date they were published.
+
+
+###### Priority Upgrade Policy
+A **priority** upgrade will be required if there is an issue discovered that impacts Webex' ability to maintain quality of service. If a priority upgrade is required for the API or an SDK, the old versions will be supported up to 6 months from the time of release of the new version.
+Occasionally we are forced to change API behavior or signature. We will announce these changes with a 4 week minimum notice on the API Change Log. Reasons for this changes may include:
+  * changed security requirements
+  * a bug fix
+  * API functionality that was never supported and needs to be remove
+
+
+###### Critical Upgrade Policy
+A **critical** upgrade will be limited to changes that are required to remediate security and/or data protection or loss issues. If a critical upgrade is required for the API or an SDK, the old versions will be immediately deprecated at the time of release of the new version.
+  * Connections from previous version may be refused immediately.
+  * At the time of the new release, a notification will be sent to all customers using the existing version that a new version is available to address a critical issue and include appropriate details of the impact of the critical issue. Instructions will be provided on how to upgrade to the new version as soon as possible with an offer of assistance from support.
+  * Technical support and Customer Success will work with all affected teams until upgrades are completed.
+
+
+####  anchorDeprecating SDK APIs
+anchor
+According to SEMVER recommendations to deprecate functionality in a previously released SDK we shall:
+  * Update the documentation and create a guide for how to migrate to the new set of APIs.
+  * Issue a minor release with the APIs that are being deprecated clearly marked.
+  * Issue a new major release shortly after with the deprecated APIs removed.
+
+
+##### In This Article
+  * [Versioning](https://developer.webex.com/explore/docs/webex-api-and-sdk-support-policy#versioning)
+  * [Current End of Life (EOL) Notices](https://developer.webex.com/explore/docs/webex-api-and-sdk-support-policy#current-end-of-life-eol-notices)
+  * [APIs and SDKs EOL Policy](https://developer.webex.com/explore/docs/webex-api-and-sdk-support-policy#apis-and-sdks-eol-policy)
+  * [Deprecating SDK APIs](https://developer.webex.com/explore/docs/webex-api-and-sdk-support-policy#deprecating-sdk-apis)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
