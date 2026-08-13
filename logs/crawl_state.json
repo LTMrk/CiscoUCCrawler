@@ -8150,5 +8150,9 @@
   "https://developer.webex.com/docs/api/v1/recordings/get-group-recording-details": {
     "hash": "8a0f804d8bb6b8789612d09c73edd850e33acde13a27b2b15790997d0f61a6d5",
     "timestamp": "2026-08-13T02:14:51.520166"
+  },
+  "https://developer.webex.com/docs/api/v1/recording-report/list-of-recording-audit-report-summaries": {
+    "hash": "a600d444b3e7a3b42b6e97d4bf4731e4512165ef627a50767d2d2d933a9a43a4",
+    "timestamp": "2026-08-13T02:14:57.249853"
   }
 }
