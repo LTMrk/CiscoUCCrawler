@@ -34685,3 +34685,583 @@ Show more (1)
 
 
 © 2026 Cisco Systems, Inc.
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/training-events/events-webinars/influencer-hub.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/training-events/events-webinars/influencer-hub.html#fw-content)
+  * [Skip to search](https://www.cisco.com/c/en/us/training-events/events-webinars/influencer-hub.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/training-events/events-webinars/influencer-hub.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+![Cisco Technical Influencer Hub](https://www.cisco.com/content/dam/assets/swa/img/anchor-marquee/influencer-hub-1600x480.png)
+  * [](https://www.cisco.com/c/en/us/training-events/events-webinars/influencer-hub.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+
+
+# Cisco Technical Influencer Hub
+[](https://www.cisco.com/c/en/us/training-events/events-webinars/influencer-hub.html)
+  * [Featured Content](https://www.cisco.com/c/en/us/training-events/events-webinars/influencer-hub.html#featured-content)
+  * [Key Programs](https://www.cisco.com/c/en/us/training-events/events-webinars/influencer-hub.html#key-programs)
+  * [Recorded Sessions](https://www.cisco.com/c/en/us/training-events/events-webinars/influencer-hub.html#recorded-sessions)
+
+[](https://www.cisco.com/c/en/us/training-events/events-webinars/influencer-hub.html)
+Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+## Featured content
+[ ](javascript:void\(0\);)
+###  [ Secure and optimize business app connectivity with Cisco Meraki vMX (43:35) ](https://soundcloud.com/user-327105904/s10e21-secure-and-optimize-business-app-connectivity-with-cisco-meraki-vmx/s-bL72UPd0Dg5?si=641d02b72d2c4dff9176df820a33cd87&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)
+Join the #CiscoChampions and experts on this new episode of Cisco Champion Radio to learn how businesses can create a hybrid cloud to seamlessly manage and deploy services around the globe, both on premises and in the cloud.
+[ ![](https://www.cisco.com/etc/designs/cdc/dmr/icons/play.svg) ](javascript:void\(0\);)
+### 
+[ Artificial intelligence and machine learning data center networking blueprint (40:57) ](javascript:void\(0\);)
+Join the Tech Field Day Influencers and our experts as they discuss how Cisco improves AI workload transports.
+## Who are Cisco Insider Champions?
+Cisco Insider Champion members are recognized for their influence in the technical community through social engagements, content creation, and private advocacy. Cisco Insider Champions have access to ongoing and exclusive engagement with Cisco experts, Cisco technology, and an exclusive peer community.
+The Cisco Insider Champion application is now live. Apply today to be a part of an elite, exclusive technical community.
+  * [Apply here](https://ciscochannels.qualtrics.com/jfe/form/SV_9Reu7L6cYtBF57U)
+
+
+## Connect with us
+[ X ](https://twitter.com/ciscochampion)
+[ LinkedIn ](https://www.linkedin.com/groups/13532279/)
+[ Communities (Public) ](https://community.cisco.com/t5/cisco-champion-public-community/ct-p/CiscoChampionsPublic)
+[ Communities (Private) ](https://community.cisco.com/t5/cisco-champion-private-group/cmp-p/grouphub%3Achampion-group-private)
+[ Podcast ](https://soundcloud.com/user-327105904)
+[ Video Hub ](https://video.cisco.com/search?q=TFD&sort=score)
+[](javascript:void\(0\)) [](javascript:void\(0\))
+## Key programs
+### Cisco Champion Radio
+A podcast series, hosted by Cisco Champions with Cisco experts, exploring topics like Cisco technologies, industry trends, events, and career development.
+  * [Explore now](https://www.cisco.com/c/en/us/training-events/events-webinars/influencer-hub/cisco-champions-radio-podcasts.html)
+
+
+### IT Blog Awards, hosted by Cisco
+The annual IT Blog Awards, hosted by Cisco, recognizes the great community of independent tech bloggers, vloggers, and podcasters for the passion, creativity, and expertise they share throughout the year.
+  * [Learn more](https://www.cisco.com/c/en/us/training-events/events-webinars/influencer-hub/blog-awards.html)
+
+
+### Tech Field Day
+Hosted by [Gestalt IT](http://techfieldday.com/), bloggers and tech gurus attend interactive deep-dive presentations with Cisco engineers to discuss our latest launches and technologies.
+  
+Search the recorded sessions below for Tech Field Day replays.
+  * [Watch video (0:42)](javascript:void\(0\);)
+
+
+## Recorded sessions
+[Reset](javascript:void\(0\);)
+[Info](javascript:void\(0\);)  
+| Titles  | Products/Solutions  | Technology  | Event  |  
+| --- | --- | --- | --- |  
+|   |   | View All AI CC Unfiltered Cisco Champion Program Cloud Cloud & Compute Cloud & Computing Cloud and Computing Collaboration Compute Cross Architecture Cross-Architecture Customer Experience Data Center Data Center & Cloud DevNet Emerging Technologies & Incubation Enterprise Networks ETI Events Innovations Internet of Things IoT Meraki Mobility & Wireless N/A N/A (Thought Leadership*) Networking Personal Development Security Service Provider Small & Midsize Business Small Business The Cisco Learning Network Wireless Wireless/Mobility  | View All Cisco Champion Radio Mobility Field Day Tech Field Day  |  
+| [Mobile First Collaboration with Webex Go (34:32)](https://soundcloud.com/user-327105904/s11e1-mobile-first-collaboration-with-webex-go?si=d91935f2b10e450bb199e60becc1f709&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)  | Webex Go  | Collaboration  | Cisco Champion Radio  |  
+| [ Cisco Compute Hyperconverged with Nutanix (42:06) ](https://soundcloud.com/user-327105904/s11e2-cisco-compute-hyperconverged-with-nutanix?si=a408491189974eb0b09bab4fa1a550fb&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)  | Nutanix  | Cloud & Compute  | Cisco Champion Radio  |  
+| [ Simplify IT Operations with Cisco Nexus Dashboard (46:09)](https://soundcloud.com/user-327105904/s10e31-simplify-it-operations-with-cisco-nexus-dashboard?si=05d9a894c2be413cbda4ded106d0ab54&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)  | Nexus Dashboard  | Data Center  | Cisco Champion Radio  |  
+| [ Power Meets Simplicity with the Catalyst 9300-M (43:45)](https://soundcloud.com/user-327105904/s11e4-power-meets-simplicity-with-the-catalyst-9300-m?si=d4f8a036a18f4c8dab1055cb8adacf81&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)  | Catalyst 9300-M  | Meraki  | Cisco Champion Radio  |  
+| [ Introduction of ThousandEyes on Meraki (39:37)](https://soundcloud.com/user-327105904/s11e5-introduction-of-thousandeyes-on-meraki?si=fb6c7610071340a9ba3923993e8a37b2&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)  | ThousandEyes  | Enterprise Networks  | Cisco Champion Radio  |  
+| [Bridging the Gap: Cisco Catalyst CW9163E - The Ultimate Outdoor Wi-Fi 6E Solution (38:22)](https://soundcloud.com/user-327105904/s11e6-bridging-the-gap-cisco-catalyst-cw9163e-the-ultimate-outdoor-wi-fi-6e-solution?si=32f73192e0664f8cb9c7389029edad9a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)  | Catalyst CW9136E  | Wireless/Mobility  | Cisco Champion Radio  |  
+| [Transforming Meetings: Cisco's AI Cinematic Experience (39:40)](https://soundcloud.com/user-327105904/s11e8-transforming-meetings-ciscos-ai-cinematic-experience?si=86f2e63c44124b7e8168f8734d743721&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)  | N/A  | Collaboration  | Cisco Champion Radio  |  
+| [The Why and How of Virtualizing Industrial Automation and Control Systems (40:55)](https://soundcloud.com/user-327105904/s11e8-the-why-and-how-of-virtualizing-industrial-automation-and-control-systems?si=cf84756a1c46429993ffb0f333f0dc36&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)  | Industrial Automation Control Systems (IACS)  | IoT  | Cisco Champion Radio  |  
+| [Simplified Management and Security with SD-Routing (33:48)](https://soundcloud.com/user-327105904/ccrs11e9-final?si=04ac1bdedac3431ba73e39c9bcb11fad&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)  | SD-Routing  | Cross-Architecture  | Cisco Champion Radio  |  
+| [Unwrapping AFC: A Discussion on 6GHZ WiFi and Standard Power (28:10)](https://soundcloud.com/user-327105904/s10e11-unwrapping-afc?si=dc6d0c2c5944482e872fda4619f817e9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)  | 6GHZ Wifi  | Wireless/Mobility  | Cisco Champion Radio  |  
+| [ Cisco Validated Delivers Value Part II (36:33)](https://soundcloud.com/user-327105904/s11e11-cisco-validated-cisco-validated-delivers-value-part-ii)  | Cisco Validated  | Cross-Architecture  | Cisco Champion Radio  |  
+| [CC Unfiltered: Transforming OT Networks with Modern Design Principles (40:20)](https://soundcloud.com/user-327105904/s11e12-cc-unfiltered-transforming-ot-networks-with-modern-design-principles)  | N/A (Thought Leadership*)  | N/A (Thought Leadership*)  | Cisco Champion Radio  |  
+| [Master Network Analytics, Assurance and Security with Intelligent Capture (42:31) ](https://soundcloud.com/user-327105904/master-network-analytics-assurance-and-security-with-intelligent-capture)  | Meraki Dashboard  | Meraki  | Cisco Champion Radio  |  
+| [Wi-Fi Evolution: Ushering in a New Wave of Wireless Advancements with Wi-Fi 7 (51:02)](https://soundcloud.com/user-327105904/s11e14-wifi7)  | Wi-Fi 7  | Wireless  | Cisco Champion Radio  |  
+| [Get Ready, Set, Automate with Meraki Terraform (47:08)](https://soundcloud.com/user-327105904/s11e15-get-ready-set-automate-with-meraki-terraform)  | Meraki Terraform  | Meraki, Networking  | Cisco Champion Radio  |  
+| [The Quantum Leap: Networking in the Quantum Era (47:29)](https://soundcloud.com/user-327105904/s11e16)  | N/A (Thought Leadership*)  | Networking  | Cisco Champion Radio  |  
+| [Crystal Clear Audio for Every Call and Meeting with Webex AI Codec (39:11)](https://soundcloud.com/user-327105904/s11e17-crystal-clear-audio-for-every-call-and-meeting-with-webex-ai-codec)  | Webex  | Collaboration, AI  | Cisco Champion Radio  |  
+| [Modernize Data Center Networks with Cisco Innovations (54:39)](https://soundcloud.com/user-327105904/s11e18-modernize-data-center-networks-with-cisco-innovations)  | Nexus Dashboard  | Data Center  | Cisco Champion Radio  |  
+| [WebexOne 2024 Unveiled: Exploring Cisco’s Premier Collaboration Event (32:33)](https://soundcloud.com/user-327105904/s11e19-webexone-2024-unveiled-exploring-ciscos-premier-collaboration-event)  | Webex  | Collaboration  | Cisco Champion Radio  |  
+| [Cisco RF Innovation and Access Point Hardware Update](https://www.youtube.com/watch?v=FHqVxuyTf9s)  | Access Point  | Networking  | Tech Field Day  |  
+| [ Cisco Private 5G Integrated with Enterprise Networks](https://www.youtube.com/watch?v=0KmHCZy3PnY)  | 5G  | Networking  | Tech Field Day  |  
+| [Smart Buildings with Cisco DNA Spaces](https://www.youtube.com/watch?v=tbXmeGC9TCw)  | DNA Spaces  | Networking  | Tech Field Day  |  
+| [Cisco Private 5G Integrated with Enterprise Networks](https://www.youtube.com/watch?v=3VA4ULKIhNQ)  | 5G  | Networking  | Tech Field Day  |  
+| [Cisco Multi-Cloud Networking](https://www.youtube.com/watch?v=2eAfpPMb38A)  | Nexus Dashboard  | Data Center  | Tech Field Day  |  
+| [Cisco Meraki: Next Gen Dashboard](https://www.youtube.com/watch?v=_fmsLNQSZrQ)  | Meraki Dashboard  | Networking  | Tech Field Day  |  
+| [Cisco Catalyst 9000 Edge – IPSEC with DNAC Automation](https://www.youtube.com/watch?v=HK-kWEOl9wo)  | Cat9K, IPSEC, DNAC  | Networking  | Tech Field Day  |  
+| [Cisco Shared Services Options with SD-Access Extranet](https://www.youtube.com/watch?v=uC96F7sG8n8)  | SD-Access  | Networking  | Tech Field Day  |  
+| [Cisco Predictive Networks with JP Vasseur](https://www.youtube.com/watch?v=Mml8CG5QcZE)  | Cisco Predictive Networks  | AI, Networking  | Tech Field Day  |  
+| [Creating 5G Connected Experiences Anywhere](https://www.youtube.com/watch?v=_FY6aKrosrE)  | 5G  | Networking  | Tech Field Day  |  
+| [Meraki Access Security: Segmentation and Identity Context Throughout the Organization](https://www.youtube.com/watch?v=0rfEUI-4SO8)  | Meraki Switching, Firewall  | Networking, Meraki  | Tech Field Day  |  
+| [Cisco Catalyst 9500X-60L4D High Speed Ethernet Deep Dive](https://www.youtube.com/watch?v=qVCEDNQUquI)  | Cat9K  | Networking  | Tech Field Day  |  
+| [Cisco 9000 Series Enabled Smart Buildings](https://www.youtube.com/watch?v=Atmr1dusVUU)  | Cat9K  | Networking  | Tech Field Day  |  
+| [State of the Union: Data Center Network Automation](https://www.youtube.com/watch?v=tUzksdj02Vw)  | Nexus Cloud, Nexus Dashboard  | Data Center  | Tech Field Day  |  
+| [Cisco Secure Firewall 3100](https://www.youtube.com/watch?v=Hq90haW38Rs)  | Secure Firewall  | Security  | Tech Field Day  |  
+| [Industrial Networking: IE3100 Rugged Series Switches](https://www.youtube.com/watch?v=Ley9HwNfPGo)  | Industrial Switching  | Networking  | Tech Field Day  |  
+| [Robots Riding the Waves: IW9165 Series Wireless Client and Access Point](https://www.youtube.com/watch?v=wAGADpgEK9o)  | Access Point  | Networking  | Tech Field Day  |  
+| [Get 'SASE' with Cisco+ Secure Connect](https://www.youtube.com/watch?v=_8t1xnkZYZ0)  | Cisco+ Secure Connect  | Networking  | Tech Field Day  |  
+| [Roots to Cloud: Cisco Wireless Legacy and Vision](https://youtu.be/-NfcQH3xbrU)  | Wireless  | Networking  | Tech Field Day  |  
+| [Cisco Wireless Management](https://youtu.be/Xnde-eUwt20)  | Wireless  | Networking  | Tech Field Day  |  
+| [Applied AI: Evolution of Cisco Wireless](https://youtu.be/C1818Fw3Go)  | AI, Wireless  | Networking, AI  | Tech Field Day  |  
+| [The State of 6 GHz with Fred Niehaus](https://youtu.be/Tv0VaU1rRYo)  | 6 GHz  | Networking  | Tech Field Day  |  
+| [Artificial Intelligence and Machine Learning Data Center Networking Blueprint](https://www.youtube.com/watch?v=usSgHIF0zo0)  | AI, ML  | Data Center, Networking  | Tech Field Day  |  
+| [Cloud-delivered Cisco Catalyst SD-WAN](https://www.youtube.com/watch?v=kn2oL4JylxE)  | Catalyst  | Networking, Cloud  | Tech Field Day  |  
+| [Assuring Every Digital Experience with ThousandEyes](https://www.youtube.com/watch?v=r9VIc_ct2-s)  | ThousandEyes  | Networking  | Tech Field Day  |  
+| [Cisco+ Secure Connect - Approach to Unified SASE](https://www.youtube.com/watch?v=gM8gHSnqSVo)  | SASE, Cisco+ Secure Connect  | Networking  | Tech Field Day  |  
+| [New Zero Trust Innovations Power Cisco Secure Access](https://www.youtube.com/watch?v=zhp2d1Y1uC0)  | Cisco Secure Access  | Networking  | Tech Field Day  |  
+| [Security Analytics and Cisco XDR](https://www.youtube.com/watch?v=hmmp7aOoP6Y)  | XDR  | Security  | Tech Field Day  |  
+| [Why You Need a CNAPP ASAP!](https://www.youtube.com/watch?v=7Ls8XX6BCaE)  | CNAPP  | Cloud, Networking  | Tech Field Day  |  
+| [Integrating Streaming Telemetry on NX-OS with Opensource Tooling](https://www.youtube.com/watch?v=aWYRRL9-8NA)  | NX-OS  | Networking  | Tech Field Day  |  
+| [Cisco Routed Optical Networking with Crosswork Hierarchical Controller](https://www.youtube.com/watch?v=SW-j8Y1bu-k)  | RON  | Networking  | Tech Field Day  |  
+| [Crosswork Workflow Manager](https://www.youtube.com/watch?v=Kf4vY-pHgN4)  | Crosswork  | Networking  | Tech Field Day  |  
+| [Switching and Wireless for Harsh Locations - Industrial Networking](https://www.youtube.com/watch?v=9jcHlnV8OI8)  | Wireless  | Networking  | Tech Field Day  |  
+| [Cisco Wireless First for Campus Transformation](https://www.youtube.com/watch?v=t6nZisujpnA)  | Wireless  | Networking  | Tech Field Day  |  
+| [Cisco The Missing Piece of Wireless Assurance Puzzle: The Client Interop](https://www.youtube.com/watch?v=k3488i_89yE)  | Assurance, WiFi  | Networking  | Tech Field Day  |  
+| [Cisco Applied AI – Evolution of Cisco Wireless](https://www.youtube.com/watch?v=Pq-MbqQgIHU)  | AI, Wireless  | Networking  | Tech Field Day  |  
+| [Cisco Wireless Management](https://www.youtube.com/watch?v=vb6hgXMeD3s)  | Wireless  | Networking  | Tech Field Day  |  
+| [6GHz and Beyond with Cisco](https://www.youtube.com/watch?v=tts45lK-l08)  | 6GHz  | Networking  | Tech Field Day  |  
+| [Centralized management distributed enforcement with Secure Connect](https://youtu.be/-2xxwvL4JMY)  | Secure Connect  | Networking, Security  | Tech Field Day  |  
+| [Meraki and Catalyst Wireless - Better Together](https://youtu.be/_9Xl3ljYojg)  | Catalyst  | Meraki, Networking  | Tech Field Day  |  
+| [What's Next for MS in 2024 ](https://youtu.be/Om5R9pZsP5g)  | Meraki  | Networking, Meraki  | Tech Field Day  |  
+| [Catalyst 9k Cloud Evolution: Born Meraki](https://youtu.be/NGyiEap9FtQ)  | Catalyst, Meraki  | Networking, Meraki  | Tech Field Day  |  
+| [Automated Assurance with Crosswork and Accedian](https://youtu.be/D4duwl3ZhYU)  | Crosswork, Assurance  | Service Provider, Networking  | Tech Field Day  |  
+| [Routed Optical Networking Automation ](https://youtu.be/mwbRwyFex_M)  | RON  | Service Provider, Networking  | Tech Field Day  |  
+| [NIS2 Compliance with Cisco Industrial Security](https://youtu.be/RxzgZC_vyak)  | NIS2  | Security, Networking  | Tech Field Day  |  
+| [Secure interconnection of heterogeneous fabrics](https://youtu.be/TSRMS9yC3bw)  | ACI, VXLAN, EVPN  | Networking, Data Center, Cloud  | Tech Field Day  |  
+| [Event-Driven Automation](https://youtu.be/SDwot-eML-s)  | N/A  | Data Center, Cloud, Networking  | Tech Field Day  |  
+| [Policy Assistant and Experience Insights with Cisco Secure Access](https://youtu.be/iwDlD_tC3LU)  | Cisco Secure Access  | Security  | Tech Field Day  |  
+| [Cisco 6 GHz and Wi-Fi 7 Update](https://www.youtube.com/watch?v=CEO3mb0yntk)  | 6 GHz, WiFi  | Networking  | Tech Field Day  |  
+| [Delivering Better Results with Cisco Wireless](https://www.youtube.com/watch?v=Ygp57u5tGak)  | Wireless  | Networking  | Tech Field Day  |  
+| [Cisco AnyLocate and Next-Gen Wireless Controllers](https://www.youtube.com/watch?v=OkLDHDDZQPY)  | AnyLocate, Wireless  | Networking  | Tech Field Day  |  
+| [Cisco Digital Experience Assurance](https://www.youtube.com/watch?v=NeSTMdw_eY8)  | Digital Experience Assurance  | Networking  | Tech Field Day  |  
+| [Cisco CTO Update with Jerome Henry](https://www.youtube.com/watch?v=2oRc257fVtY)  | N/A  | Networking  | Tech Field Day  |  
+| [Cisco Networking Cloud Platform Vision](https://www.youtube.com/watch?v=O86MQk6DR1o)  | N/A  | Networking, Cloud  | Tech Field Day  |  
+| [Next Generation Cloud Management for Catalyst](https://youtu.be/NleOvPdWwwg)  | Catalyst  | Networking, Cloud  | Tech Field Day  |  
+| [Cisco Catalyst SD-WAN for Industrial IoT Use Cases](https://youtu.be/NCALoiu82ZM)  | Catalyst, IoT  | Networking, Cloud  | Tech Field Day  |  
+| [Transforming the Next-Gen Firewall with Meraki Secure SD-WAN](https://youtu.be/GzaZxDJy-xE)  | Secure Firewall, Meraki, SD-WAN  | Security, Meraki, Networking  | Tech Field Day  |  
+| [Cisco Secure Connect and Client ZTNA with New SSE Engine powered by Cisco Secure Access](https://youtu.be/p0dExtTwUHs)  | Secure Connect, ZTNA  | Security, Networking  | Tech Field Day  |  
+| [Digital Experience Assurance with Cisco](https://youtu.be/G1_07_O_DiQ)  | Digital Experience Assurance  | Networking  | Tech Field Day  |  
+| [Cisco Predictive AI-powered Crosswork Solutions](https://youtu.be/vz7IpfQ09G4)  | Crosswork  | AI, Networking  | Tech Field Day  |  
+| [Unified Fabric Experience with Cisco Nexus Dashboard](https://youtu.be/p0YwDRUxegQ)  | Nexus Dashboard  | Data Center, Networking  | Tech Field Day  |  
+| [Compute Innovation with UCS X-Series](https://youtu.be/UdJ1TttPCtY)  | UCS X-Series  | Data Center, Networking  | Tech Field Day  |  
+| [Cisco Secure Firewall](https://youtu.be/KJ1StTroV0U)  | Firewall  | Security  | Tech Field Day  |  
+| [Cisco XDR: Detection Analytics and Gen AI](https://youtu.be/Eb-vqi8iCOE)  | XDR  | Security, AI, Networking  | Tech Field Day  |  
+| [What Cisco is Researching, Developing, and Incubating in Quantum Networking](https://youtu.be/iZDJPomuo70)  | Quantum Networking  | Innovations  | Tech Field Day  |  
+| [Navigating the AI Landscape: Insights, Innovations, and Infrastructure Advancements with Cisco](https://youtu.be/1Uq7yOuc3Ns)  | AI  | AI, Networking  | Tech Field Day  |  
+| [Demystifying AI/ML Infrastructure for a Network Engineer](https://youtu.be/p3KCLZpOFZE)  | AI  | AI, Networking, Cloud, Data Center  | Tech Field Day  |  
+| [Kickstart AI in your data center with Cisco Validated Designs](https://youtu.be/CyPOhXdFlXY)  | Cisco Validated Designs  | Compute, AI, Networking  | Tech Field Day  |  
+| [CC Unfiltered: Becoming an Expert (47:26)](https://soundcloud.com/user-327105904/s9e18-cc-unfiltered-started-from-the-bottom-now-were)  | N/A  | N/A  | Cisco Champion Radio  |  
+| [Spark Your Business with Saas-Based Network Automation (47:15)](https://soundcloud.com/user-327105904/s9e19-spark-your-business-with-saas-based-network-automation)  | Cisco Crosswork Cloud  | Service Provider  | Cisco Champion Radio  |  
+| [Protection for Your Enterprise-Class Email (40:46)](https://soundcloud.com/user-327105904/s9e20-protection-for-your-enterprise-class-email-security)  | Cisco Secure Email  | Security  | Cisco Champion Radio  |  
+| [Cisco Al-Enhanced Radio Resource Management for Wireless Networks (37:26)](https://soundcloud.com/user-327105904/s9e21-cisco-ai-enhanced-radio-resource-management-for-wireless-networks)  | Cisco Al-Enhanced Radio Resource Management (RRM)  | Networking  | Cisco Champion Radio  |  
+| [The New Cisco DevNet Expert Certification (48:04)](https://soundcloud.com/user-327105904/s9e22-the-new-cisco-devnet-expert-certification)  | Cisco DevNet Expert Certification  | DevNet  | Cisco Champion Radio  |  
+| [Cloud Management for Catalyst (32:13)](https://video.cisco.com/detail/video/6308336359112)  | Cisco Wireless  | Meraki, Networking  | Tech Field Day  |  
+| [Sustainability, Radio Frequency Excellence, and AIOps with Cisco Wireless (28:34)](https://video.cisco.com/detail/video/6308340850112)  | Cisco Wireless  | Meraki, Networking  | Tech Field Day  |  
+| [Meraki's Adaptive Policy: Micro-Segmentation and Identity Throughout the Organization (28:29)](https://video.cisco.com/detail/video/6308339488112)  | Cisco Wireless  | Meraki, Networking  | Tech Field Day  |  
+| [Simplify Mobility in Industrial Wireless Deployments (30:52)](https://video.cisco.com/detail/video/6308387079112)  | Cisco Wireless  | IoT  | Tech Field Day  |  
+| [Simplicity, Visibility, and Sustainability with Cisco Nexus Cloud (39:13)](https://video.cisco.com/detail/video/6308341578112)  | Cisco Nexus Cloud  | Data Center, Cloud & Computing  | Tech Field Day  |  
+| [Nexus Portfolio Evolution: Accelerating with 400G and Getting Ready for 800G (27:13)](https://video.cisco.com/detail/video/6308340503112)  | Cisco Nexus Cloud  | Data Center, Cloud & Computing  | Tech Field Day  |  
+| [Risk-Based Authentication and Continuous Trusted Access with Duo (32:43)](https://video.cisco.com/detail/video/6308344072112)  | Duo  | Security  | Tech Field Day  |  
+| [SecureX Update: What's New with Cisco's XDR (40:43)](https://video.cisco.com/detail/video/6308344993112)  | Cisco SecureX  | Security  | Tech Field Day  |  
+| [Cisco Secure Connect Now for Simplified ZTNA and SASE (27:56)](https://video.cisco.com/detail/video/6308344686112)  | Cisco Secure Connect Now, SASE  | Security  | Tech Field Day  |  
+| [Edge Native: Bringing the Cloud-Native Development and Operations Experience to the Edge (28:47)](https://video.cisco.com/detail/video/6308345790112)  | N/A  | N/A  | Tech Field Day  |  
+| [Cloud Native Observability for Modern Applications (33:32)](https://video.cisco.com/detail/video/6308345320112)  | Cisco AppDynamics  | Security, Data Center & Cloud  | Tech Field Day  |  
+| [Cisco Secure Application for AppDynamics: Combined Security and Observability Approach for Log4Shell (28:40)](https://video.cisco.com/detail/video/6308345724112)  | Cisco AppDynamics  | Security, Data Center & Cloud  | Tech Field Day  |  
+| [Cisco Champion Unfiltered: Tales of the Breach Life (47:42)](https://soundcloud.com/user-327105904/s8e31-cisco-champions-unfiltered-tales-of-the-breach-life)  | N/A  | Security  | Cisco Champion Radio  |  
+| [Cisco 5G SD-WAN (38:12)](https://soundcloud.com/user-327105904/s8e32-cisco-5g-sd-wan)  | SD-WAN  | Networking  | Cisco Champion Radio  |  
+| [Reimagine Stadium Wi-Fi with the Cisco Catalyst 9104 (41:28)](https://soundcloud.com/user-327105904/s8e33-reimagine-stadium-wi-fi-with-the-cisco-catalyst-9104)  | Catalyst 9104  | Mobility & Wireless  | Cisco Champion Radio  |  
+| [Ransomware and Cisco Zero-Trust Networking (40:11)](https://soundcloud.com/user-327105904/s8e34-ransomware-and-cisco-zero-trust-networking)  | N/A  | Security, Networking  | Cisco Champion Radio  |  
+| [Seamless Onboarding with Cisco Spaces (42:32)](https://soundcloud.com/user-327105904/s8e35-seamless-onboarding-with-cisco-dna-spaces)  | N/A  | Networking  | Cisco Champion Radio  |  
+| [DevNet Specialization, Programmability and You (Part 2) (31:40)](https://soundcloud.com/user-327105904/s8e36-devnet-specialization-programmability-and-you-part-2)  | N/A  | DevNet  | Cisco Champion Radio  |  
+| [Cisco Champion Unfiltered: I'll Fix That Later (42:20)](https://soundcloud.com/user-327105904/s8e37-cisco-champion-unfiltered-weird-places-the-network-lurked)  | N/A  | Cisco Champion Program  | Cisco Champion Radio  |  
+| [The Predictive Internet (40:45)](https://soundcloud.com/user-327105904/s8e38-the-predictive-internet)  | N/A  | Networking  | Cisco Champion Radio  |  
+| [The Future of Wireless (44:42)](https://soundcloud.com/user-327105904/s8e39-the-future-of-wireless)  | 5G, Wi-Fi 6  | Mobility & Wireless  | Cisco Champion Radio  |  
+| [CC Unfiltered: IT Horror Stories (39:09)](https://soundcloud.com/user-327105904/s8e40-cc-unfiltered-it-horror-stories)  | N/A  | CC Unfiltered  | Cisco Champion Radio  |  
+| [Enabling a Hybrid Workspace and Workforce (28:35)](https://soundcloud.com/user-327105904/s8e41-enabling-a-hybrid-workspace-and-workforce)  | N/A  | Small Business, Meraki  | Cisco Champion Radio  |  
+| [API Visibility with API Clarity (31:20)](https://soundcloud.com/user-327105904/s8e42-api-visibility-with-apiclarity)  | API Clarity  | ETI, Security  | Cisco Champion Radio  |  
+| [Automate Site and Cloud Network Interconnection with SDCI (39:48)](https://soundcloud.com/user-327105904/s8e42-automate-site-and-cloud-network-interconnection-with-sdci)  | SD-WAN, SDCI  | Networking, Cloud & Computing  | Cisco Champion Radio  |  
+| [Accelerate Your SASE Journey with Cisco SD-WAN (43:26)](https://soundcloud.com/user-327105904/s8e44-accelerate-your-sase-journey-with-cisco-sd-wan)  | SD-WAN  | Networking, Security  | Cisco Champion Radio  |  
+| [CC Unfiltered: Champions for Giving Back (49:38)](https://soundcloud.com/user-327105904/s8e45-cc-unfiltered-champions-for-giving-back)  | N/A  | CC Unfiltered  | Cisco Champion Radio  |  
+| [Upgrading Your Cisco Prime Infrastructure to Catalyst Center (33:59)](https://soundcloud.com/user-327105904/s8e46-upgrading-your-cisco-prime-infrastructure-to-dna-center)  | Cisco Catalyst Center  | Networking  | Cisco Champion Radio  |  
+| [Turbocharge Your Security Operations with Cisco Secure Endpoint (44:32)](https://soundcloud.com/user-327105904/s8e47-secure-your-endpoints-and-turbocharge-your-security-operations-with-cisco-secure-endpoint)  | Cisco Secure Endpoint  | Security  | Cisco Champion Radio  |  
+| [Simplify Your Network Operations with Cisco Hierarchical Controller (36:17)](https://soundcloud.com/user-327105904/s8e48-simplify-your-network-operations-with-cisco-hierarchical-controller)  | Cisco Hierarchical Controller  | Service Provider  | Cisco Champion Radio  |  
+| [CC Unfiltered: Managing a Ransomware Outbreak (42:20)](https://soundcloud.com/user-327105904/s8e49-cc-unfiltered-managing-a-ransomware-outbreak)  | N/A  | CC Unfiltered  | Cisco Champion Radio  |  
+| [Demystify Hybrid Cloud Networking with Cisco Nexus Dashboard (39:03)](https://soundcloud.com/user-327105904/s8e50-demystify-hybrid-cloud-networking-with-cisco-nexus-dashboard)  | Cisco Nexus Dashboard  | Cloud & Computing  | Cisco Champion Radio  |  
+| [Threat Hunting: It’s a Technique (41:00)](https://soundcloud.com/user-327105904/s8e51-threat-hunting-its-a-technique)  | N/A  | Security  | Cisco Champion Radio  |  
+| [Cisco Service Mesh Manager (31:56)](https://soundcloud.com/user-327105904/s9e1-cisco-service-mesh-manager)  | Cisco Service Mesh Manager  | Cloud & Computing  | Cisco Champion Radio  |  
+| [Managing Infinity: The Rise of 5G with Iot (36:00)](https://soundcloud.com/user-327105904/s9e2-managing-infinity-the-rise-of-5g-with-iot)  | 5G, Iot  | Service Provider  | Cisco Champion Radio  |  
+| [Powering the World of Esports (43:42)](https://soundcloud.com/user-327105904/s9e3-powering-the-world-of-esports)  | N/A  | Cross Architecture  | Cisco Champion Radio  |  
+| [Inclusivity Right Down to the Code (43:54)](https://soundcloud.com/user-327105904/s9e4-inclusivity-right-down-to-the-code)  | N/A  | Customer Experience  | Cisco Champion Radio  |  
+| [How to Make Hybrid Work, Work Better (49:03)](https://soundcloud.com/user-327105904/s9e5-how-to-make-hybrid-work-work-better)  | N/A  | N/A  | Cisco Champion Radio  |  
+| [CC Unfiltered: Early in IT (39:57)](https://soundcloud.com/user-327105904/s9e6-cc-unfiltered-early-in-career)  | N/A  | N/A  | Cisco Champion Radio  |  
+| [Cisco Routed Optical Networking: A New Network Paradigm (40:44)](https://www.youtube.com/watch?v=cuEg4zRXUmU&t=4s)  | Cisco Routed Optical Networking  | Service Provider  | Cisco Champion Radio  |  
+| [What’s Next for Wi-Fi 6E? (29:26)](https://www.youtube.com/watch?v=cuEg4zRXUmU&t=4s)  | Cisco Catalyst 9136, Meraki MR57  | Networking  | Cisco Champion Radio  |  
+| [Al-Enhanced Infrastructure for AlOps (33:05)](https://soundcloud.com/user-327105904/s9e9-ai-enhanced-infrastructure-for-aiops)  | N/A  | Networking  | Cisco Champion Radio  |  
+| [Switch Things Up for Hybrid Work with the Cisco Catalyst (36:57)](https://soundcloud.com/user-327105904/s9e10-switch-things-up-with-the-cisco-catalyst-9000-family)  | Cisco Catalyst 9000  | Networking  | Cisco Champion Radio  |  
+| [The Future of the Meeting Room (45:42)](https://soundcloud.com/user-327105904/s9e11-the-future-of-the-meeting-room)  | RoomOS  | Collaboration  | Cisco Champion Radio  |  
+| [Cisco Validated Delivers Value (46:49)](https://soundcloud.com/user-327105904/s9e12-cisco-validated-delivers-value)  | N/A  | Cross Architecture  | Cisco Champion Radio  |  
+| [CC Unfiltered: Level Up Your Career (49:06)](https://soundcloud.com/user-327105904/s9e13-cc-unfiltered-leveling-up-your-career)  | N/A  | N/A  | Cisco Champion Radio  |  
+| [Cisco HyperFlex: Simplified Infrastructure for Hybrid Cloud (40:27)](https://soundcloud.com/user-327105904/s9e14-cisco-hyperflex-simplified-infrastructure-for-hybrid-cloud)  | Cisco Hyperflex  | Data Center  | Cisco Champion Radio  |  
+| [Private 5G, Simply Intuitive (36:59)](https://soundcloud.com/user-327105904/s9e15-private-5g-simply-intuitive)  | Private 5G  | Service Provider  | Cisco Champion Radio  |  
+| [Protect Your Network from Counterfeit Products (40:11)](https://soundcloud.com/user-327105904/s9e16-protect-your-network-from-counterfeit-products)  | N/A  | Cross Architecture  | Cisco Champion Radio  |  
+| [Cisco Nexus Dashboard: One Platform for Hybrid Cloud Automation (24:10)](https://video.cisco.com/detail/video/6273416806001)  | Nexus Dashboard  | Cloud & Computing  | Tech Field Day  |  
+| [Cisco Nexus Dashboard Insights: Operations in High Performance IT Made Simple (32:38)](https://video.cisco.com/detail/video/6273419715001)  | Nexus Dashboard  | Cloud & Computing  | Tech Field Day  |  
+| [Cisco Catalyst Center Compliance and Infrastructure-as-Code for Network Operations (21:25)](https://video.cisco.com/detail/video/6273420486001)  | Catalyst Center  | Networking  | Tech Field Day  |  
+| [Cisco Software-Defined Access (SD-Access) for Zero-Trust Workplace (40:35)](https://video.cisco.com/detail/video/6273418530001)  | Cisco Software Defined Access  | Networking  | Tech Field Day  |  
+| [SecureX vs. the Acronyms: XDR, SIEM, SOAR, TIP (21:44)](https://video.cisco.com/detail/video/6278749477001)  | Cisco SecureX  | Security  | Tech Field Day  |  
+| [Treasure Hunt: An Exploration of Threat Hunting (43:33)](https://video.cisco.com/detail/video/6279056860001)  | N/A  | Security  | Tech Field Day  |  
+| [Cisco Security: Zero Trust and Secure Access Service Edge (SASE) (29:57)](https://video.cisco.com/detail/video/6279199125001)  | SASE, Zero Trust  | Security, Cloud & Computing  | Tech Field Day  |  
+| [Innovations in Industrial Switching and Security (26:09)](https://video.cisco.com/detail/video/6279196859001)  | N/A  | Security  | Tech Field Day  |  
+| [5G Packet and Radio Access Network (RAN) Transport Architecture (42:41)](https://video.cisco.com/detail/video/6287001982001)  | Cisco Crosswork, 5G  | Networking, Cloud & Computing  | Tech Field Day  |  
+| [Cisco Crosswork Network Controller (CNC) 3.0 Update (25:49)](https://video.cisco.com/detail/video/6287004472001)  | Cisco Crosswork Network Controller  | Networking  | Tech Field Day  |  
+| [Cisco's Routed Optical Networking: Why It's (Finally) Time for IP and Optical (38:25)](https://video.cisco.com/detail/video/6287003889001)  | Cisco’s Routed Optical Networking  | Networking  | Tech Field Day  |  
+| [Cisco Secure Zero-Touch with IOS XR: Seamless Trust Enabled on Day Zero (22:46)](https://video.cisco.com/detail/video/6287004552001)  | Cisco Service Provider, RFC 8572, IOS XR  | Networking  | Tech Field Day  |  
+| [Cisco Segment Routing IPv6 (SRv6): Record Speed Standardization and Deployment (32:43)](https://video.cisco.com/detail/video/6287004642001)  | SRv6, IPv6  | Service Provider  | Tech Field Day  |  
+| [Cisco Ethernet VPN (EVPN) Case Studies for Service Provider and Data Center Network (29:35)](https://video.cisco.com/detail/video/6287005528001)  | EVPN  | Data Center, Service Provider  | Tech Field Day  |  
+| [Cisco 8000 Series Portfolio Update (37:14)](https://video.cisco.com/detail/video/6287008318001)  | Routers  | Service Provider  | Tech Field Day  |  
+| [Cisco's IoT Portfolio Rodeo (32:56)](https://video.cisco.com/detail/video/6271311914001)  | Switches  | IoT  | Tech Field Day  |  
+| [Unite the Edge with Industrial Routing (28:56)](https://video.cisco.com/detail/video/6271312391001)  | Routers  | IoT, Security  | Tech Field Day  |  
+| [Cisco Meraki: Automated Root Cause Analysis You Can Trust (27:22)](https://video.cisco.com/detail/video/6271315961001)  | N/A  | Networking  | Tech Field Day  |  
+| [Under the Hood of the Cisco Catalyst 9000X (44:18)](https://video.cisco.com/detail/video/6301392405001)  | Catalyst  | Networking  | Tech Field Day  |  
+| [Cisco Catalyst IE9300: A New Generation of Rugged Industrial Switching (30:33)](https://video.cisco.com/detail/video/6301389879001)  | Catalyst  | IoT  | Tech Field Day  |  
+| [Cisco Wi-Fi 6E Readiness Update (26:54)](https://video.cisco.com/detail/video/6301391175001)  | Catalyst, MR57, Wi-Fi 6E  | Networking  | Tech Field Day  |  
+| [Cisco Al Enhanced RRM: The Next Chapter in RF Performance (28:26)](https://video.cisco.com/detail/video/6301385172001)  | AI Analytics, Catalyst Center, Catalyst  | Networking  | Tech Field Day  |  
+| [The Evolution of the Cisco Meraki Cloud Architecture (37:38)](https://video.cisco.com/detail/video/6301386457001)  | N/A  | Networking, Cloud & Computing  | Tech Field Day  |  
+| [Redefining Edge Intelligence with Cisco Meraki MV Sense (29:27)](https://video.cisco.com/detail/video/6301382835001)  | MV Smart Cameras  | Networking  | Tech Field Day  |  
+| [Cisco SD-WAN and WAN Transformation (28:05)](https://video.cisco.com/detail/video/6301378870001)  | SD-WAN, WAN  | Networking  | Tech Field Day  |  
+| [Introduction to End User Monitoring with ThousandEyes (28:05)](https://video.cisco.com/detail/video/6301377616001)  | End User Monitoring  | Networking  | Tech Field Day  |  
+| [Cisco Private 5G Designed for Enterprise (30:56)](https://video.cisco.com/detail/video/6301376510001)  | Private 5G  | Service Provider  | Tech Field Day  |  
+| [Cisco Endpoint Security Posture Analysis and Trusted Access (37:29)](https://video.cisco.com/detail/video/6301374561001)  | Endpoint Analytics  | Networking, Security  | Tech Field Day  |  
+| [Cisco Nexus Dashboard Bolsters Network Visibility with Innovations (25:10)](https://video.cisco.com/detail/video/6301374229001)  | Cisco Nexus Dashboard  | Networking, Cloud and Computing  | Tech Field Day  |  
+| [Cisco Secure Cloud Insights, Beyond CSPM (24:06)](https://video.cisco.com/detail/video/6301373504001)  | Cisco Secure Cloud Insights  | Security  | Tech Field Day  |  
+| [Cisco Cloud Native Application Connectivity and Security Solutions (30:37)](https://video.cisco.com/detail/video/6301368980001)  | Cisco Service Mesh Manager, Cisco Secure Application Cloud  | Networking, Security  | Tech Field Day  |  
+| [Cisco Secure Application for AppDynamics (35:59)](https://video.cisco.com/detail/video/6301365782001)  | Secure Application  | Security  | Tech Field Day  |  
+| [Cisco Modeling Lab-P (CML-P) (29:40)](https://soundcloud.com/user-327105904/s7e17-cisco-modeling-lab)  | Cisco Modeling Lab  | Cross-Architecture   | Cisco Champion Radio  |  
+| [Examining the CCIE Enterprise Infrastructure Exams (36:25)](https://soundcloud.com/user-327105904/s7e11-examining-the-ccie-enterprise-infrastructure-exams)  | Certifications  | Cross-Architecture   | Cisco Champion Radio  |  
+| [How Cisco Live EMEAR Comes Together (49:36)](https://soundcloud.com/user-327105904/s7e6-how-cisco-live-emear-comes-together)  | Cisco Live  | Cross-Architecture   | Cisco Champion Radio  |  
+| [Being a Nerd in a Cisco Innovation Centre (21:40)](https://soundcloud.com/user-327105904/s6e24-being-a-nerd-in-a-cisco-innovation-centre?ccid=&dtid=osootr000663&oid=pdtxa018036)  | Innovation center  | Cross-Architecture   | Cisco Champion Radio  |  
+| [How does Cisco Investments differ from Venture Capitalists? (29:57)](https://soundcloud.com/user-327105904/how-does-cisco-investments-differ-from-venture-capitalists)  | Cisco Investments  | Cross-Architecture   | Cisco Champion Radio  |  
+| [Secrets of Cisco Investments feat. Rob Salvagno (35:08)](https://soundcloud.com/user-327105904/s6e17-secrets-of-cisco-investments-feat-rob-salvagno?oid=pdtxa018030)  | Cisco Investments  | Cross-Architecture   | Cisco Champion Radio  |  
+| [Understand Changes to the Cisco Certifications (38:37)](https://soundcloud.com/user-327105904/understand-changes-to-the-cisco-certifications?oid=pdtxa018026)  | Certifications  | Cross-Architecture   | Cisco Champion Radio  |  
+| [Cisco Champion Unfiltered: Life of a Champion (55:37)](https://soundcloud.com/user-327105904/s8e17-cisco-champions-unfiltered-life-as-a-cisco-champion)  | N/A  | Cisco Champion Program  | Cisco Champion Radio  |  
+| [Cisco Champion Program Roundtable (26:28)](https://soundcloud.com/user-327105904/s5ep26cisco-champion-program-roundtable)  | Cisco Champion Program  | Cisco Champion Program  | Cisco Champion Radio  |  
+| [Taming Your AI/ ML Workloads with Kubeflow (39:35)](https://soundcloud.com/user-327105904/s7e30-taming-your-ai-ml-workloads-with-kubeflow)  | AI, ML  | Cloud & Computing  | Cisco Champion Radio  |  
+| [Meraki Mobility Update (28:00)](https://video.cisco.com/detail/video/5837196636001)  | Wi-Fi, Camera sensor  | Cloud & Computing  | Tech Field Day  |  
+| [Cisco and Google: Open Hybrid Cloud Partnership (32:59)](https://video.cisco.com/detail/video/5754252073001)  | Hybrid Cloud  | Cloud & Computing  | Tech Field Day  |  
+| [Digitized Device Diagnostics: Automating Issue Identification and Remediation (34:40)](https://video.cisco.com/detail/video/5763958077001)  | TAC  | Cloud & Computing  | Tech Field Day  |  
+| [Introduction to Cisco Container Platform (33:03)](https://video.cisco.com/detail/video/5763017503001)  | Kubernetes  | Cloud & Computing  | Tech Field Day  |  
+| [Cisco Multicloud Portfolio: Cloud Consume (26:46)](https://video.cisco.com/detail/video/5763964989001)  | Multicloud  | Cloud & Computing  | Tech Field Day  |  
+| [Cisco Cloud Protect: A Quick Dive into Cisco Cloud Security (34:50)](https://video.cisco.com/detail/video/5763012900001)  | Umbrella  | Cloud & Computing  | Tech Field Day  |  
+| [Cisco Multicloud Portfolio: Cloud Connect (32:18)](https://video.cisco.com/detail/video/5813794496001)  | Multicloud  | Cloud & Computing  | Tech Field Day  |  
+| [Cisco Contiv Architecture and Demonstration (24:23)](https://video.cisco.com/detail/video/5813771441001)  | Contiv  | Cloud & Computing  | Tech Field Day  |  
+| [Cisco Contiv Container Networking and Policy (23:01)](https://video.cisco.com/detail/video/5813771452001)  | Container, Contiv  | Cloud & Computing  | Tech Field Day  |  
+| [Cisco and Accelerating Container and Microservices Adoption (22:03)](https://video.cisco.com/detail/video/5813771391001)  | Container, Microservices, Contiv  | Cloud & Computing  | Tech Field Day  |  
+| [Cisco Multicloud (51:57)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep11-cisco-multicloud)  | Multicloud, Cloud Center  | Cloud & Computing  | Cisco Champion Radio  |  
+| [A Typical Customer Journey for Multicloud (33:50)](https://video.cisco.com/detail/video/5799435893001)  | Multicloud  | Cloud & Computing  | Tech Field Day  |  
+| [Enabling Production-Grade Kubernetes in a Multicloud World with Cisco (41:19)](https://video.cisco.com/detail/video/5799869168001)  | Kubernetes, Multicloud  | Cloud & Computing  | Tech Field Day  |  
+| [Cisco Hybrid Cloud Platform for Google Cloud (34:53)](https://video.cisco.com/detail/video/5799439150001)  | Hybrid Cloud  | Cloud & Computing  | Tech Field Day  |  
+| [Cisco Google Hybrid Cloud Solution (9:42)](https://video.cisco.com/detail/video/5799448569001)  | Hybrid Cloud  | Cloud & Computing  | Tech Field Day  |  
+| [Cisco SAP Data Hub Use Cases (16:21)](https://video.cisco.com/detail/video/5799445292001)  | Container, SAP Data Hub  | Cloud & Computing  | Tech Field Day  |  
+| [Cisco Container Platform SAP (25:27)](https://video.cisco.com/detail/video/5804461658001)  | Container   | Cloud & Computing  | Tech Field Day  |  
+| [Cisco Future Cloud Overview with Prashanth Shenoy (14:37)](https://video.cisco.com/detail/video/6263964852001)  | Intersight, UCS, ThousandEyes, HyperFlex, ISE  | Cloud & Computing  | Tech Field Day  |  
+| [Intersight Cloud Operations Platform Innovations (IWE, SMM, ICO) (39:05)](https://video.cisco.com/detail/video/6263974166001)  | Intersight  | Cloud & Computing  | Tech Field Day  |  
+| [Centralize Multicloud Operations with Nexus Dashboard (47:20)](https://soundcloud.com/user-327105904/s8e22-centralize-multicloud-operations-with-nexus-dashboard)  | Nexus Dashboard  | Cloud & Computing  | Cisco Champion Radio  |  
+| [Big Data Meets AI: Cisco Data Intelligence Platform (46:54)](https://soundcloud.com/user-327105904/s8e1-big-data-meets-ai-cisco-data-intelligence-platform)  | Data Intelligence Platform, Spark 3.0, Cloudera Data Platform Private Cloud  | Cloud & Computing  | Cisco Champion Radio  |  
+| [Cisco Intersight Cloud Operations Platform (42:25)](https://soundcloud.com/user-327105904/s8e15-cisco-intersight-cloud-operations-platform)  | Intersight  | Cloud & Computing  | Cisco Champion Radio  |  
+| [Extend Infrastructure as Code to Your On-Prem Environment (45:43)](https://soundcloud.com/user-327105904/s8e20-extend-infrastructure-as-code-to-your-on-prem-environment)  | Cisco Intersight, Terraform Cloud Business  | Cloud & Computing  | Cisco Champion Radio  |  
+| [Accelerating NVMeOF Adoption with Cisco Solutions and Intersight (10:34)](https://video.cisco.com/detail/video/6179860569001)  | NVMeOF, Intersight  | Cloud & Computing  | Tech Field Day  |  
+| [NVMe-FC Analytics with Cisco SAN Insights (20:56)](https://video.cisco.com/detail/video/6179859079001)  | NVMe-FC, Cisco SAN  | Cloud & Computing  | Tech Field Day  |  
+| [Cisco NVMe Storage Transport Solutions (16:08)](https://video.cisco.com/detail/video/6179857135001)  | NVMe  | Cloud & Computing  | Tech Field Day  |  
+| [Deep Dive into the Webex Wireless Phone (35:03)](https://soundcloud.com/user-327105904/s8e27-deep-dive-into-the-webex-wireless-phone)  | Webex Wireless Phone  | Collaboration  | Cisco Champion Radio  |  
+| [Create Memorable Experiences with the All New Webex Events (34:06)](https://soundcloud.com/user-327105904/s8e29-create-memorable-experiences-with-the-all-new-webex-events)  | Webex Events  | Collaboration  | Cisco Champion Radio  |  
+| [Accelerating the Next-Generation Contact Center (37:00)](https://soundcloud.com/user-327105904/s8e5-accelerating-the-next-generation-contact-center)  | Contact Center  | Collaboration  | Cisco Champion Radio  |  
+| [The Future of Work with Cognitive Collaboration (41:58)](https://soundcloud.com/user-327105904/s8e8-the-future-of-work-with-cognitive-collaboration)  | Cognitive Collaboration  | Collaboration  | Cisco Champion Radio  |  
+| [Keeping Workers Safe and Productive with an Intelligent Workplace (40:02)](https://soundcloud.com/user-327105904/s7-e39-keeping-workers-safe-and-productive-with-an-intelligent-workplace)  | Control Hub, Navigator  | Collaboration  | Cisco Champion Radio  |  
+| [Reimagining What’s Possible with Remote Work and Strategies for Long-Term Success (38:35)](https://soundcloud.com/user-327105904/remote-work)  | WebEx  | Collaboration  | Cisco Champion Radio  |  
+| [Revolutionizing the Contact Center (27:16)](https://soundcloud.com/user-327105904/s7e18-revolutionizing-the-contact-center)  | Cisco Contact Center  | Collaboration  | Cisco Champion Radio  |  
+| [What is the Spark Ambassador Program (19:43)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep2-what-is-the-spark-ambassador-program)  | Webex Teams  | Collaboration  | Cisco Champion Radio  |  
+| [Video Everywhere (12:58)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep4-video-everywhere)  | Video, Programmability  | Collaboration  | Cisco Champion Radio  |  
+| [Trends in Collaboration (16:52)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep5-trends-in-collaboration)  | Webex Teams, DevNet  | Collaboration  | Cisco Champion Radio  |  
+| [Business Resiliency for your Workforce and Workplace (37:59)](https://soundcloud.com/user-327105904/s7e37-business-resiliency-for-your-workforce-and-workplace)  | None  | Collaboration, Networking, Security  | Cisco Champion Radio  |  
+| [Zero Trust for Webex (34:02)](https://soundcloud.com/user-327105904/s8e14-zero-trust-for-webex)  | Zero-Trust Security, Webex  | Collaboration, Security  | Cisco Champion Radio  |  
+| [Insights into Blogging, Vlogging and Podcasting (40:25)](https://soundcloud.com/user-327105904/s7e36-insights-into-blogging-vlogging-and-podcasting)  | None  | Cross-Architecture  | Cisco Champion Radio  |  
+| [From Efficiency to Resiliency with Cisco IT (45:14)](https://soundcloud.com/user-327105904/s7e46-from-efficiency-to-resiliency-with-cisco-it)  | Duo, Cisco AMP for Endpoints, Cisco AnyConnect, WebEx Control Hub, Cisco Umbrella, Webex  | Networking, Security, Collaboration  | Cisco Champion Radio  |  
+| [Creating Business Resiliency in the Face of Uncertainty (42:59)](https://soundcloud.com/user-327105904/s8e18-creating-business-resiliency-in-the-face-of-uncertainty)  | Business Critical Services  | Customer Experience  | Cisco Champion Radio  |  
+| [Turning Your Technology into Value Faster (31:38)](https://soundcloud.com/user-327105904/s8e30-turn-your-technology-into-value-faster)  | CX Cloud Platform, CX Success Tracks, Collaborative Intelligence  | Customer Experience  | Cisco Champion Radio  |  
+| [Cisco Managed Detection and Response Service (31:20)](https://soundcloud.com/user-327105904/s7-e38-cisco-managed-detection-and-response-service)  | MDR, Managed Detection and Response  | Customer Experience  | Cisco Champion Radio  |  
+| [Cisco Business Critical Services for a Holistic Cisco SecureX Environment (35:36)](https://soundcloud.com/user-327105904/s7e48-cisco-business-critical-services-for-a-holistic-securex-environment)  | Cisco Business Critical Services, Cisco SecureX   | Customer Experience, Security  | Cisco Champion Radio  |  
+| [UCS X-Series: UN/Box the Future (43:22)](https://video.cisco.com/detail/video/6263975089001)  | UCS  | Data Center  | Tech Field Day  |  
+| [Cisco UCS X-Series: UN/BOX the Future (35:04)](https://soundcloud.com/user-327105904/s8e23-cisco-ucs-x-series-unbox-the-future)  | Cisco UCS  | Data Center  | Cisco Champion Radio  |  
+| [Cisco Nexus Dashboard: Comprehensive Visibility and Scale in the Multicloud (28:22)](https://video.cisco.com/detail/video/6249213719001)  | Nexus Dashboard  | Data Center  | Tech Field Day  |  
+| [Deliver High IT Performance with Cisco Nexus Insights and Assurance (31:20)](https://video.cisco.com/detail/video/6249406482001)  | Nexus Insights, Nexus Dashboard  | Data Center  | Tech Field Day  |  
+| [Continuously Protect with Cisco Secure Protection Application (38:57)](https://soundcloud.com/user-327105904/s8e10-continuously-protect-with-cisco-secure-application)  | Secure Application  | Data Center  | Cisco Champion Radio  |  
+| [Comprehensive NetOps and Visibility with Cisco Nexus Dashboard (30:04)](https://video.cisco.com/detail/video/6216154179001)  | Nexus Dashboard  | Data Center  | Tech Field Day  |  
+| [From the Office to Anywhere: Empowering Secure Remote Work with Cisco VDI Solutions (31:31)](https://soundcloud.com/user-327105904/s7e25-from-the-office-to-anywhere-empowering-secure-remote-work-with-cisco-vdi-solutions)  | Cisco VDI  | Data Center  | Cisco Champion Radio  |  
+| [Cisco VDI Virtual Workstations (28:42)](https://video.cisco.com/detail/video/6168638085001)  | VDI Virtual Workstations  | Data Center  | Tech Field Day  |  
+| [Unifying and Computing the UCS Architecture (17:27)](https://soundcloud.com/user-327105904/s7e12-unifying-and-computing-the-ucs-architecture)  | Cisco UCS  | Data Center  | Cisco Champion Radio  |  
+| [Flexin' HyperFlex AP (20:44)](https://soundcloud.com/user-327105904/s7e2-flexin-hyperflex-ap)  | Cisco UCS, HyperFlex AP  | Data Center  | Cisco Champion Radio  |  
+| [Google Cloud's Anthos on Cisco HyperFlex: Solution Overview (1:03:18)](https://video.cisco.com/detail/video/6050045496001)  | HyperFlex, Intersight, ACI, Cisco Cloud Connect, Cisco Stealthwatch Cloud, Google Cloud, Google Anthos, Kubernetes, GKE, GKE On-prem  | Data Center  | Tech Field Day  |  
+| [Maintaining Your Cisco ACI Experience on AWS (23:08)](https://soundcloud.com/user-327105904/s6ep5maintaining-your-cisco-aci-experience-on-aws)  | ACI  | Data Center  | Cisco Champion Radio  |  
+| [Nerding Out on UCS (29:36)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep17-nerding-out-on-ucs)  | UCS, UCS Manager, Hyperflex, Intersight  | Data Center  | Cisco Champion Radio  |  
+| [Leveraging UCS Insight to Drive Automated Device Diagnostics (27:58)](https://video.cisco.com/detail/video/5796801294001)  | UCS  | Data Center  | Tech Field Day  |  
+| [HyperFlex 3.0/3.5 Innovations (45:01)](https://video.cisco.com/detail/video/5796799453001)  | Hyperflex  | Data Center  | Tech Field Day  |  
+| [Intersight: A Cloud-Powered Management Solution for Cisco UCS and Cisco HyperFlex (17:06)](https://video.cisco.com/detail/video/5796791832001)  | UCS, Hyperflex  | Data Center  | Tech Field Day  |  
+| [New UCS C4200 Multinode Server (53:09)](https://video.cisco.com/detail/video/5803245191001)  | UCS  | Data Center  | Tech Field Day  |  
+| [Tetration and Big Data Analytics (29:24)](https://video.cisco.com/detail/video/5754280250001)  | Tetration  | Data Center  | Tech Field Day  |  
+| [Intersight Overview (26:20)](https://video.cisco.com/detail/video/5813796991001)  | UCS, Hyperflex  | Data Center  | Tech Field Day  |  
+| [Network Assurance Engine (57:39)](https://video.cisco.com/detail/video/5762999746001)  | Network Assurance Engine  | Data Center  | Tech Field Day  |  
+| [Advanced Cisco IOS XR Programmability: Service-Layer APIs (30:54)](https://video.cisco.com/detail/video/5813766011001)  | IOS-XR  | Data Center  | Tech Field Day  |  
+| [Advanced Cisco IOS XR Programmability: Model-Driven Manageability (24:44)](https://video.cisco.com/detail/video/5813765989001)  | IOS-XR  | Data Center  | Tech Field Day  |  
+| [ACI Multi-Site (26:13)](https://video.cisco.com/detail/video/5813762189001)  | ACI  | Data Center  | Tech Field Day  |  
+| [Kubernetes and Cisco ACI (46:28)](https://video.cisco.com/detail/video/5813763143001)  | ACI  | Data Center  | Tech Field Day  |  
+| [Cisco Intersight Security (22:20)](https://video.cisco.com/detail/video/5814809937001)  | UCS, Hyperflex  | Data Center  | Tech Field Day  |  
+| [Cisco Intersight Architecture: Cisco UCS and HyperFlex on a Hosted Management Platform (21:22)](https://video.cisco.com/detail/video/5814811593001)  | UCS, Hyperflex  | Data Center  | Tech Field Day  |  
+| [Cisco Intersight Overview on Managing UCS and HyperFlex (4:27)](https://video.cisco.com/detail/video/5814809691001)  | UCS, Hyperflex  | Data Center  | Tech Field Day  |  
+| [Tetration Analytics Security Model (36:05)](https://video.cisco.com/detail/video/5814807819001)  | Tetration  | Data Center  | Tech Field Day  |  
+| [Tetration Analytics Refresher (30:46)](https://video.cisco.com/detail/video/5814799359001)  | Tetration  | Data Center  | Tech Field Day  |  
+| [Cisco ACI (53:08)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep13-cisco-aci)  | ACI  | Data Center  | Cisco Champion Radio  |  
+| [HyperFlex 5.0 and Intersight: Simplifying Hybrid Cloud Operations (38:39)](https://video.cisco.com/detail/video/6263982936001)  | UCS  | Data Center, Cloud & Computing  | Tech Field Day  |  
+| [Cisco HyperFlex with iSCSI helps consolidate workloads (33:54)](https://soundcloud.com/user-327105904/s7e34-cisco-hyperflex-with-iscsi-helps-consolidate-workloads)  | HyperFlex  | Data Center, Cloud & Computing  | Cisco Champion Radio  |  
+| [Walk, Run and Fly with DevNet Automation Exchange (42:26)](https://soundcloud.com/user-327105904/s8e11-walk-run-and-fly-with-devnet-automation-exchange)  | DevNet Automation Exchange  | DevNet  | Cisco Champion Radio  |  
+| [DevNet Specialization for Partners (21:01)](https://soundcloud.com/user-327105904/s7e20-devnet-specialization-for-partners)  | DevNet  | DevNet  | Cisco Champion Radio  |  
+| [Playing in the DevNet Sandbox (30:20)](https://soundcloud.com/user-327105904/s7e10-playing-in-the-cisco-devnet-sandbox)  | DevNet  | DevNet  | Cisco Champion Radio  |  
+| [DevNet and the New Cisco Certifications (32:57)](https://soundcloud.com/user-327105904/s7e1-devnet-and-the-new-cisco-certifications)  | Certifications, DevNet  | DevNet  | Cisco Champion Radio  |  
+| [DevNet/Network Programmability and Automation (32:16)](https://soundcloud.com/user-327105904/cisco-devnet-network-programmability-and-automation?ccid=&dtid=osootr000663&pdtdv018033)  | DevNet  | DevNet  | Cisco Champion Radio  |  
+| [How Cisco DevNet Helps Automate Your Data Center (39:49)](https://soundcloud.com/user-327105904/how-cisco-devnet-helps-automate-your-data-center?oid=pdtxa018029)  | DevNet  | DevNet  | Cisco Champion Radio  |  
+| [DevNet Co-Creation: ML Workbench (39:58)](https://video.cisco.com/detail/video/6050062136001)  | DevNet, DevNet Machine Learning, DevNet Co-Creations  | DevNet  | Tech Field Day  |  
+| [DevNet Code Exchange: Making Developer Lives Easier (40:59)](https://soundcloud.com/user-327105904/s5ep25devnet-code-exchange-making-developer-lives-easier)  | DevNet  | DevNet  | Cisco Champion Radio  |  
+| [DevNet Co-Creations: From Magic to Logic (51:35)](https://video.cisco.com/detail/video/5995857667001)  | Cisco DevNet (all products)  | DevNet  | Tech Field Day  |  
+| [DevNet Co-Creation: The Art of Possible (44:23)](https://video.cisco.com/detail/video/5796761946001)  | API  | DevNet  | Tech Field Day  |  
+| [Interview with Susie Wee for International Women’s Day (50:58)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep7-interview-with-susie-wee-for-international-womens-day)  | DevNet  | DevNet  | Cisco Champion Radio  |  
+| [Design Thinking for Innovative Solutions (48:23)](https://soundcloud.com/user-327105904/s7e41-design-thinking-for-innovative-solutions)  | Design Thinking  | DevNet   | Cisco Champion Radio  |  
+| [Revolutionizing Cisco Innovation (35:20)](https://soundcloud.com/user-327105904/s8e19-revolutionizing-cisco-innovation)  | N/A  | Emerging Technologies & Incubation  | Cisco Champion Radio  |  
+| [TURN IT UP with Cisco Live 2021 (25:35)](https://soundcloud.com/user-327105904/s8e7-turn-it-up-with-cisco-live-2021)  | Cisco Live  | Events  | Cisco Champion Radio  |  
+| [Internetting of Things Together - IoT Security (36:08)](https://soundcloud.com/user-327105904/s7e8-internetting-of-things-together-iot-security)  | IoT  | Internet of Things   | Cisco Champion Radio  |  
+| [Wireless Technologies and Use Cases in Industrial IoT (1:03:52)](https://video.cisco.com/detail/video/6168375448001)  | IoT  | Internet of Things   | Tech Field Day  |  
+| [Cisco IoT with Next-Gen Wireless Stack (32:33)](https://video.cisco.com/detail/video/6073312874001)  | IoT  | Internet of Things   | Mobility Field Day  |  
+| [Cisco IoT: Driving Transformation for Miners, Refiners, and Caped Crusaders (33:09)](https://video.cisco.com/detail/video/6050115520001)  | Cisco IR1101, Cisco Catalyst IE3400H, Cisco IW6300, Cisco Catalyst-Center, Cisco SD-WAN  | Internet of Things   | Tech Field Day  |  
+| [Wi-Fi and SaaS Troubleshooting with Cisco Meraki (21:48)](https://soundcloud.com/user-327105904/s7e27-wi-fi-and-saas-troubleshooting-with-cisco-meraki)  | Meraki Health  | Meraki  | Cisco Champion Radio  |  
+| [Meraki Camera and DevNet (32:09)](https://soundcloud.com/user-327105904/the-meraki-smart-camera-cisco-devnet?ccid=&dtid=osootr000663&oid=pdtdv018045)  | Meraki Camera, DevNet  | Meraki, DevNet  | Cisco Champion Radio  |  
+| [New ThousandEyes Integrations with Cisco Networking Platforms (29:02)](https://video.cisco.com/detail/video/6263966385001)  | ThousandEyes  | Networking  | Tech Field Day  |  
+| [Simple Steps to SD-Access Adoption (32:46)](https://soundcloud.com/user-327105904/s8e21-simple-steps-to-sd-access-adoption)  | SD-Access  | Networking  | Cisco Champion Radio  |  
+| [Build a Global Network On-Demand via SDCI (37:37)](https://soundcloud.com/user-327105904/s8e26-build-a-global-network-on-demand-via-sdci)  | Cisco SD-WAN  | Networking  | Cisco Champion Radio  |  
+| [Correlate and Secure your Applications Across Networks and Cloud (43:15)](https://video.cisco.com/detail/video/6249213876001)  | Cisco AppDynamics  | Networking   | Tech Field Day  |  
+| [Smart Buildings and the Return to the Trusted Workplace (20:47)](https://video.cisco.com/detail/video/6249386184001)  | Smart Buildings  | Networking   | Tech Field Day  |  
+| [Meraki IoT: Insight for Better Decision Making (46:02)](https://soundcloud.com/user-327105904/s8e2-meraki-iot-insight-for-better-decision-making)  | Meraki MV smart cameras  | Networking   | Cisco Champion Radio  |  
+| [The Cisco Catalyst Center Machine Reasoning Engine (42:32)](https://soundcloud.com/user-327105904/s8e3-the-dna-center-machine-reasoning-engine)  | Catalyst Center  | Networking   | Cisco Champion Radio  |  
+| [Fastlane Optimizes Network and Device Communication (25:55)](https://soundcloud.com/user-327105904/s8e6-fastlane-optimizes-network-and-device-communication)  | Fastlane  | Networking   | Cisco Champion Radio  |  
+| [Catalyst 8000 Enhances SD-WAN (36:39)](https://soundcloud.com/user-327105904/s8e12-catalyst-8000-enhances-sd-wan)  | Catalyst 8000, SD-WAN  | Networking   | Cisco Champion Radio  |  
+| [Cisco Smart Building Solutions (42:09)](https://soundcloud.com/user-327105904/s8e16-cisco-smart-building-solutions)  | 90W Cisco UPOE, Multigigabit Technology, Catalyst Center, Cisco Spaces  | Networking   | Cisco Champion Radio  |  
+| [Bringing Infrastructure as Code to On-prem Infrastructure (23:36)](https://video.cisco.com/detail/video/6249385995001)  | Intersight  | Networking   | Tech Field Day  |  
+| [Advanced Endpoint Visibility and AI Endpoint Analytics (23:43)](https://video.cisco.com/detail/video/6213954400001)  | Artificial Intelligence  | Networking   | Tech Field Day   |  
+| [Cisco's AI/ML Networking Journey (10:51)](https://video.cisco.com/detail/video/6213954363001)  | Artificial Intelligence  | Networking   | Tech Field Day  |  
+| [Cisco Catalyst 8000 Family: Powering the Next Generation of SD-WAN (27:37)](https://video.cisco.com/detail/video/6216174265001)  | SD-WAN  | Networking   | Tech Field Day  |  
+| [Increase Visibility and Enhance Security with AI Endpoint Analytics (36:43)](https://soundcloud.com/user-327105904/s7e29-increase-visibility-and-enhance-security-with-cisco-ai-endpoint-analytics)  | AI, ML, Cisco DNA  | Networking   | Cisco Champion Radio  |  
+| [Cisco Spaces: Back to the Office Applications (30:54)](https://video.cisco.com/detail/video/6179849573001)  | Cisco Spaces  | Networking   | Tech Field Day  |  
+| [Cisco Catalyst Access Point Update (47:40)](https://video.cisco.com/detail/video/6179842174001)  | Cisco Catalyst  | Networking   | Tech Field Day  |  
+| [Innovations in Network Security Policy (37:11)](https://video.cisco.com/detail/video/6168837167001)  | Network Security Policy  | Networking   | Tech Field Day  |  
+| [Securing Branches the Easy Way (35:34)](https://video.cisco.com/detail/video/6168647598001)  | SD-WAN with Umbrella Security  | Networking   | Tech Field Day  |  
+| [Indoor IoT Services with Cisco Spaces (35:08)](https://video.cisco.com/detail/video/6168654916001)  | Cisco Spaces  | Networking   | Tech Field Day  |  
+| [User Defined Networks: Enabling Personal Network Experience (35:03)](https://video.cisco.com/detail/video/6168651743001)  | User Defined Networks  | Networking   | Tech Field Day  |  
+| [Why AI/ML Will Be a Game Changer for Networking (45:49)](https://video.cisco.com/detail/video/6168638039001)  | AI/ML  | Networking   | Tech Field Day  |  
+| [SD-WAN and Connectivity as a Platform: An ngena Partnership Discussion (16:45)](https://soundcloud.com/user-327105904/s7e21-sd-wan-and-connectivity-as-a-platform-an-ngena-partnership-discussion)  | SD-WAN  | Networking   | Cisco Champion Radio  |  
+| [Cisco’s Peter Jones and his Ethernet Dream (22:02)](https://soundcloud.com/user-327105904/s7-e19-ciscos-peter-jones-and-his-ethernet-dream)  | Enterprise Networks  | Networking   | Cisco Champion Radio  |  
+| [Controlling Stuff with Cisco Embedded Wireless Controller (EWC) (15:38)](https://soundcloud.com/user-327105904/s7e9-controlling-stuff-with-cisco-embedded-wireless-controller)  | Wireless  | Networking   | Cisco Champion Radio  |  
+| [Roaming Around with OpenRoaming (34:29)](https://soundcloud.com/user-327105904/s7e3-roaming-around-with-openroaming)  | OpenRoaming  | Networking   | Cisco Champion Radio  |  
+| [What is WiFi 6? (47:48)](https://soundcloud.com/user-327105904/what-is-wi-fi6?ccid=&dtid=osootr000663&oid=pdten018038)  | Wireless  | Networking   | Cisco Champion Radio  |  
+| [Cisco Catalyst Access Expansion to Wireless (49:52)](https://video.cisco.com/detail/video/6073299440001)  | Cisco SD-Access, Cisco Catalyst, Switches, IOS XE  | Networking   | Mobility Field Day  |  
+| [Cisco OpenRoaming to Better Bridge Between Mobile and Wi-Fi Networks (39:11)](https://video.cisco.com/detail/video/6073315501001)  | Wi-Fi, Cisco SD-Access, Cisco Catalyst  | Networking   | Mobility Field Day  |  
+| [Software-Defined Access and Multi Domain (45:45)](https://soundcloud.com/user-327105904/s6e14-cisco-software-defined-access-and-multi-domain-podcast?oid=viden018005)  | Cisco SD-Access  | Networking   | Cisco Champion Radio  |  
+| [Cisco Catalyst Center and Artificial Intelligence/Machine Learning Network Analytics (28:34)](https://soundcloud.com/user-327105904/s6ep12cisco-dna-center-aiml-network-analytics?oid=viden017949)  | Cisco Catalyst Center, AI/ML  | Networking   | Cisco Champion Radio  |  
+| [The Integrated Multi-Domain Network: Status and Evolution (25:58)](https://video.cisco.com/detail/video/6050065151001)  | Cisco SD-Access, Cisco SD-WAN, Multi-Domain, Cisco ACI  | Networking   | Tech Field Day  |  
+| [Exploring Cisco's Latest Innovations with Machine Learning and AI (54:06)](https://video.cisco.com/detail/video/6050079520001)  | Cisco Catalyst Center, AI/ML  | Networking   | Tech Field Day  |  
+| [Access Control Evolution in Cisco Catalyst Center (29:15)](https://video.cisco.com/detail/video/6050067032001)  | Cisco SD-Access, Cisco Catalyst Center  | Networking   | Tech Field Day  |  
+| [Wi-Fi 6 and the New Cisco Catalyst Access Points (29:57)](https://video.cisco.com/detail/video/6050069737001)  | Cisco Catalyst, 802.11ax, Wi-Fi 6, AP, Access Points, 11ax  | Networking   | Tech Field Day  |  
+| [Digitizing the Physical Space with Cisco Spaces (21:46)](https://soundcloud.com/user-327105904/s6ep9digitizing-the-physical-space-with-cisco-dna-spaces)  | Cisco Spaces  | Networking   | Cisco Champion Radio  |  
+| [OMP the Secret Sauce of Cisco’s SD-WAN (36:21)](https://soundcloud.com/user-327105904/s6ep8omp-the-secret-sauce-of-ciscos-sd-wan)  | Cisco SD-WAN  | Networking   | Cisco Champion Radio  |  
+| [Cisco Smart Licensing in 30 minutes (29:42)](https://soundcloud.com/user-327105904/s6ep6cisco-smart-licensing-in-30-minutes)  | Cisco Smart Licensing  | Networking   | Cisco Champion Radio  |  
+| [Extending Intent-Based Networking to the IoT Edge (26:04)](https://soundcloud.com/user-327105904/s6ep3extending-intent-based-networking-to-the-iot-edge)  | IoT  | Networking   | Cisco Champion Radio  |  
+| [Dissecting Cisco Catalyst Center (25:40)](https://soundcloud.com/user-327105904/digitizing-the-physical-space-with-cisco-dna-center)  | Cisco Catalyst Center  | Networking   | Cisco Champion Radio  |  
+| [Introducing Cisco Spaces (49:16)](https://video.cisco.com/detail/video/5995871611001)  | Cisco Spaces  | Networking   | Tech Field Day  |  
+| [Applications and End-to-End Infrastructure Policy (1:07:58)](https://video.cisco.com/detail/video/5996391365001)  | Cisco ACI, Cisco SD-Access, Cisco SD-WAN, Cisco AppDynamics., Cisco Tetration  | Networking   | Tech Field Day  |  
+| [Cisco Innovations in Silicon: Why Hardware Matters in a Software-Defined World (42:55)](https://video.cisco.com/detail/video/5998251850001)  | Cisco Catalyst 9000, AP 4800, AP, Access Points, Cisco SD-Access, Wireless  | Networking   | Tech Field Day  |  
+| [Cisco Network Innovation: Cisco SD-Access, ETA, Wireless (42:55)](https://video.cisco.com/detail/video/5998251890001)  | Cisco Catalyst 9000, AP4800, AP, Access Points, Cisco SD-Access, Wireless  | Networking   | Tech Field Day  |  
+| [Analytics and Assurance (57:05)](https://video.cisco.com/detail/video/5837156720001)  | Cisco Catalyst Center, Intelligent Capture, AP 4800, AP, Access Points, SD-Access, Wireless, 1800S Sensors  | Networking   | Tech Field Day  |  
+| [Cisco Access Points Designs with Fred Niehaus (35:44)](https://video.cisco.com/detail/video/5754263966001)  | Access Points, AP, Wireless, Cisco SD-Access  | Networking   | Tech Field Day  |  
+| [Cisco DNA Service for Bonjour (34:03)](https://video.cisco.com/detail/video/5763955754001)  | Cisco DNA  | Networking   | Tech Field Day  |  
+| [IPv6, Are We There Yet? (49:47)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep18-ipv6-are-we-there-yet)  | IPv6  | Networking   | Cisco Champion Radio  |  
+| [802.11ax More than Speeds and Feeds (31:53)](https://soundcloud.com/user-327105904/cisco-champion-radio-s5ep20-80211ax)  | 802.11ax, 802.11ac, Wi-Fi 6  | Networking   | Cisco Champion Radio  |  
+| [DevNet Express: Learn to Code and Use the Power of Cisco APIs (30:01)](https://soundcloud.com/user-327105904/s5ep22devnet-express-learn-to-code-and-use-the-power-of-cisco-apis)  | DevNet, Cisco Meraki, API  | Networking   | Cisco Champion Radio  |  
+| [Securing and Unlocking the Value of IoT Data (17:46)](https://video.cisco.com/detail/video/5799819277001)  | IoT  | Networking   | Tech Field Day  |  
+| [Cisco Aironet 4800 Access Point with Intelligent Capture (24:44)](https://video.cisco.com/detail/video/5799445280001)  | Access Points, AP, Wireless, Cisco SD-Access  | Networking   | Tech Field Day  |  
+| [Software Defined Access Evolution (50:01)](https://video.cisco.com/detail/video/5799804152001)  | Cisco SD-Access  | Networking   | Tech Field Day  |  
+| [Cisco Catalyst Center Platform: Integrate Your Network into the IT Process (47:04)](https://video.cisco.com/detail/video/5798084006001)  | Cisco DNA, API  | Networking   | Tech Field Day  |  
+| [Continuous Integration and Continuous Delivery for Networking: Managing the Network as Code (24:23)](https://video.cisco.com/detail/video/5763992856001)  | Cisco Catalyst 9K, Cisco SD-Access  | Networking   | Tech Field Day  |  
+| [Software Defined Access Control Policy (27:54)](https://video.cisco.com/detail/video/5813800144001)  | Cisco SD-Access  | Networking   | Tech Field Day  |  
+| [An Open Programmable Switch: Cisco Catalyst 9K (29:42)](https://video.cisco.com/detail/video/5813801806001)  | Cisco Catalyst 9K, Cisco SD-Access, Wireless  | Networking   | Tech Field Day  |  
+| [Cisco DNA Assurance with Tim Szigeti (40:55)](https://video.cisco.com/detail/video/5763004699001)  | Cisco DNA  | Networking   | Tech Field Day  |  
+| [Cisco IOS XR Model-Driven Telemetry (42:34)](https://video.cisco.com/detail/video/5813784589001)  | IOS  | Networking   | Tech Field Day  |  
+| [Support for Config-Management Tools (14:18)](https://video.cisco.com/detail/video/5813784990001)  | IOS  | Networking   | Tech Field Day  |  
+| [Cisco Zero Touch Provisioning and IPXE (23:06)](https://video.cisco.com/detail/video/5813784577001)  | IPXE  | Networking   | Tech Field Day  |  
+| [Intent-Based Experience Design (44:59)](https://video.cisco.com/detail/video/5813791304001)  | Intent-Based Networking  | Networking   | Tech Field Day  |  
+| [Innovations for the Field Area Network (25:38)](https://video.cisco.com/detail/video/5813778920001)  | Field Area Network, FAN, Energy Solutions, Utilities/Smart Grid  | Networking   | Tech Field Day  |  
+| [What Cisco Machine Learning and Artificial Intelligence Can Do for the Network with JP Vasseur (35:33)](https://video.cisco.com/detail/video/5813345681001)  | AI/ML  | Networking   | Tech Field Day  |  
+| [Cisco Digital Network Assurance and Closed-Loop Automation via Analytics with Tim Szigeti (31:37)](https://video.cisco.com/detail/video/5814800630001)  | Cisco DNA  | Networking   | Tech Field Day  |  
+| [Application Hosting on Cisco Catalyst 9000 Switches (26:24)](https://video.cisco.com/detail/video/5814796152001)  | Cisco Catalyst 9K, Cisco SD-Access  | Networking   | Tech Field Day  |  
+| [Network Programmability Using APIC-EM APIs (29:32)](https://video.cisco.com/detail/video/5814773644001)  | APIC-EM, Programmability  | Networking   | Tech Field Day  |  
+| [Open APIs for Network Device Programmability (28:01)](https://video.cisco.com/detail/video/5813327111001)  | APIC-EM, Programmability  | Networking   | Tech Field Day  |  
+| [SD-Access: Campus Fabric with Cisco Catalyst Center Automation and Assurance (31:11)](https://video.cisco.com/detail/video/5813332555001)  | Cisco SD-Access  | Networking   | Tech Field Day  |  
+| [Secure Agile Exchange: Architecture Building Blocks (15:19) ](https://video.cisco.com/detail/video/5813327193001)  | Secure Agile Exchange  | Networking   | Tech Field Day  |  
+| [eNFV: An Open Solution for Virtualizing Network Functions (13:08)](https://video.cisco.com/detail/video/5813330519001)  | NFV, Network Functions Virtualization  | Networking   | Tech Field Day  |  
+| [The Building Blocks of Cisco eNFV (18:37)](https://video.cisco.com/detail/video/5813338120001)  | NFV, Network Functions Virtualization  | Networking   | Tech Field Day  |  
+| [Review of Cisco Virtualizing Network Functions in the Cloud (8:09)](https://video.cisco.com/detail/video/5813339743001)  | NFV, Network Functions Virtualization  | Networking   | Tech Field Day  |  
+| [Cisco's End-to-End Virtualization Strategy for the Enterprise (16:16)](https://video.cisco.com/detail/video/5813336076001)  | NFV, Network Functions Virtualization  | Networking   | Tech Field Day  |  
+| [Cisco Catalyst 9000 Switches: A New Era of Networking (34:06)](https://video.cisco.com/detail/video/5813345108001)  | Cisco Catalyst 9K, Cisco SD-Access  | Networking   | Tech Field Day  |  
+| [IOS-XE Evolution with Dave Zacks (8:44)](https://video.cisco.com/detail/video/5813347232001)  | IOS XE  | Networking   | Tech Field Day  |  
+| [Flexible Switching Silicon: Unified Access Data Plane with Peter Jones (11:16)](https://video.cisco.com/detail/video/5813287575001)  | Unified Access  | Networking   | Tech Field Day  |  
+| [Programmable ASICs and the Importance of Flexible Silicon with Dave Zacks (19:35)](https://video.cisco.com/detail/video/5813345249001)  | Cisco DNA, ASIC  | Networking   | Tech Field Day  |  
+| [Cisco DNA Enterprise Network Architectures (30:37)](https://video.cisco.com/detail/video/5813347261001)  | Cisco DNA, ASIC  | Networking   | Tech Field Day  |  
+| [Introduction to Cisco Operational Insights (13:29)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep1-operational-insights)  | Cisco Spaces, CMX Engage, Asset Management  | Networking   | Cisco Champion Radio  |  
+| [Enhancing The CMX Customer Experience (11:31)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep3-enhancing-the-cmx-customer-experience)  | AP, Access Points, Cisco SD-Access, Wireless  | Networking   | Cisco Champion Radio  |  
+| [The Why and How of Radio Resource Management (RRM)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep10-cisco-rrm)  | WLC, Wireless LAN Controller, AP, Access Points, Cisco SD-Access, Wireless Radio Resource Management, RRM (58:25)  | Networking   | Cisco Champion Radio  |  
+| [Wifi Troubleshooting and Optimization (57:53)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep12-wifi-troubleshooting-and-optimization)  | Access Points, AP, Wireless, Cisco SD-Access, WLC, Wireless LAN Controllers  | Networking   | Cisco Champion Radio  |  
+| [Cisco TacOps](http://recordings.talkshoe.com/TC-132150/TS-1213903.mp3)  | Cisco Meraki  | Networking   | Cisco Champion Radio  |  
+| [From SD-WAN to SASE: Speed Up and Secure SaaS Internet Apps (44:28)](https://soundcloud.com/user-327105904/s7e40-from-sd-wan-to-sase-speed-up-and-secure-saas-internet-apps)  | SD-WAN   | Networking   | Cisco Champion Radio   |  
+| [Network Insights with AI Endpoint Analytics (42:12)](https://soundcloud.com/user-327105904/s7e45-network-insights-with-ai-endpoint-analytics)  | Cisco Catalyst Center, Catalyst 9000  | Networking   | Cisco Champion Radio  |  
+| [Cisco SD-WAN Managed Services with ngena (34:22)](https://soundcloud.com/user-327105904/s7e43-cisco-sd-wan-managed-services-with-ngena)  | SD-WAN  | Networking   | Cisco Champion Radio   |  
+| [Cisco's Innovative Approach to Secure Access Service Edge (46:05)](https://video.cisco.com/detail/video/6249207676001)  | SD-Access  | Networking   | Tech Field Day  |  
+| [Innovations in Software Defined-WAN and Cloud Transformation (34:41)](https://video.cisco.com/detail/video/6249209571001)  | SD-WAN  | Networking   | Tech Field Day  |  
+| [End-to-End Visibility with Cisco ThousandEyes Integrations (37:59)](https://video.cisco.com/detail/video/6249208727001)  | ThousandEyes, Catalyst 9000  | Networking   | Tech Field Day  |  
+| [Cisco Software-Defined Access for Trusted Workplace (30:52)](https://video.cisco.com/detail/video/6249407381001)  | SD-Access  | Networking   | Tech Field Day  |  
+| [Cisco Network Services Orchestrator Demo (33:08)](https://video.cisco.com/detail/video/6198339064001)  | Network Services Orchestrator  | Networking   | Tech Field Day  |  
+| [Cisco Network Services Orchestrator Architecture (16:01)](https://video.cisco.com/detail/video/6198332831001)  | Network Services Orchestrator  | Networking   | Tech Field Day  |  
+| [Cisco Crosswork Qualification Environment (35:49)](https://video.cisco.com/detail/video/6198323227001)  | Cisco Crosswork Qualification  | Networking   | Tech Field Day  |  
+| [Cisco Crosswork Network Controller (45:43)](https://video.cisco.com/detail/video/6198331582001)  | Crosswork Network Controller  | Networking   | Tech Field Day  |  
+| [Cisco SD-WAN Cloud OnRamp with WWT (39:19)](https://soundcloud.com/user-327105904/s6e23-cisco-sd-wan-cloud-onramp-with-wwt?ccid=&dtid=osootr000663&oid=pdten018040)  | Cisco SD-WAN, Cloud  | Networking, Cloud & Computing  | Cisco Champion Radio  |  
+| [Adopting the Cloud with Colocations (31:47)](https://video.cisco.com/detail/video/6050071404001)  | CoLocation, Cisco SD-WAN, Cloud onRamp, Security, Cisco SD-WAN, Cloud, WAN  | Networking, Cloud & Computing  | Tech Field Day  |  
+| [CloudCenter Suite 5.0 and Cisco's Multicloud Strategy (56:09)](https://video.cisco.com/detail/video/5998248245001)  | Cloud, Cloud and Systems Management  | Networking, Cloud & Computing  | Tech Field Day  |  
+| [Location and Presence Strategy (7:03)](https://video.cisco.com/detail/video/5837165900001)  | Cisco Location Services  | Networking, Cloud & Computing  | Tech Field Day  |  
+| [Digitizing People and Experiences (7:34)](https://video.cisco.com/detail/video/5837180383001)  | CMX Engage, Cisco Spaces  | Networking, Cloud & Computing  | Tech Field Day  |  
+| [Operational Insights: Digitizing Things (4:38)](https://video.cisco.com/detail/video/5837174006001)  | Operational Insights  | Networking, Cloud & Computing  | Tech Field Day  |  
+| [Delivering Visibility and Actionable Insights with ThousandEyes (46:41)](https://soundcloud.com/user-327105904/s8e25-delivering-visibility-and-actionable-insights-with-thousandeyes)  | ThousandEyes, Cisco Catalyst 9000  | Networking, Cloud & Computing  | Cisco Champion Radio  |  
+| [Edge Compute Physical Infrastructure Considerations (32:32)](https://soundcloud.com/user-327105904/s6e18-edge-compute-physical-infrastructure-considerations?oid=pdtdc018031)  | Edge Compute  | Networking, Data Center  | Cisco Champion Radio  |  
+| [Cisco HyperFlex Anywhere, Hyperconvergence from Core to Edge (52:20)](https://video.cisco.com/detail/video/5996386350001)  | Cisco HyperFlex, Cisco Intersight  | Networking, Data Center  | Tech Field Day  |  
+| [Cisco ACI Anywhere Is the Cisco Vision for DC SDN (41:15)](https://video.cisco.com/detail/video/5996394122001)  | Cisco ACI, Cisco ACI Anywhere  | Networking, Data Center  | Tech Field Day  |  
+| [NOC Behind the Scenes (46:37)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep14-noc-behind-the-scenes)  | Routing, Switches, AP, Access Points, Cisco Catalyst 6800, ASR1K, Nexus 5500  | Networking, Data Center  | Cisco Champion Radio  |  
+| [ACI Anywhere Extensions to Public Cloud (30:22)](https://video.cisco.com/detail/video/6050091231001)  | Cisco ACI, Cloud, Cisco ACI Anywhere, Multi-Cloud  | Networking, Data Center, Cloud & Computing  | Tech Field Day  |  
+| [Cisco Policy Federation: Normalizing Policy Across Any Domain (16:04)](https://video.cisco.com/detail/video/5813325933001)  | Cisco ACI  | Networking, Data Center, Security  | Tech Field Day  |  
+| [DevNet and Cisco Catalyst Center, the Power of APIs (44:59)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep15-devnet)  | Cisco Catalyst Center, DevNet, API  | Networking, DevNet  | Cisco Champion Radio  |  
+| [DevNet Specialization, Programmability and You! (46:51)](https://soundcloud.com/user-327105904/s7e44-devnet-specialization-programmability-and-you)  | DevNet  | Networking, DevNet   | Cisco Champion Radio  |  
+| [Extending Intent Based Networking to the IoT Edge, the Sequel (28:57)](https://soundcloud.com/user-327105904/s6e21-extending-ibn-to-the-iot-edge-part-ii?ccid=&dtid=osootr000663&oid=pdten018027)  | Intent-Based Networking, IoT  | Networking, Internet of Things  | Cisco Champion Radio  |  
+| [Meraki Adaptive Policy (36:07)](https://soundcloud.com/user-327105904/s7e31-meraki-adaptive-policy)  | Meraki Adaptive Policy  | Networking, Meraki  | Cisco Champion Radio  |  
+| [Cisco Meraki Cameras as a Sensor for the Business (58:16)](https://video.cisco.com/detail/video/6050053135001)  | Cisco Meraki, Meraki Smart Cameras, Meraki Dashboard  | Networking, Meraki  | Tech Field Day  |  
+| [How APIs Are Changing Network Management (44:59)](https://video.cisco.com/detail/video/5995867564001)  | API, Cisco Meraki  | Networking, Meraki  | Tech Field Day  |  
+| [DevNet & Meraki (35:19)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep16-devnet-meraki)  | DevNet, Cisco Meraki  | Networking, Meraki  | Cisco Champion Radio  |  
+| [The Meraki Innovation Train (55:28)](https://video.cisco.com/detail/video/5799434477001)  | Cisco Meraki  | Networking, Meraki  | Tech Field Day  |  
+| [Meraki MX, Cisco SD-WAN and Security at the Branch (39:28)](https://soundcloud.com/user-327105904/s5ep24-cisco-meraki-mx-sdwan-and-security-at-the-branch)  | Cisco SD-WAN, Meraki, MX Models  | Networking, Meraki, Security  | Cisco Champion Radio  |  
+| [Cisco Advances in Wireless Security (43:24)](https://video.cisco.com/detail/video/6179852019001)  | Wi-Fi 6, WPA3  | Networking, Security  | Tech Field Day  |  
+| [Cisco SD-WAN Security (21:12)](https://soundcloud.com/user-327105904/s6ep2cisco-sdwan-security)  | Cisco SD-WAN  | Networking, Security  | Cisco Champion Radio  |  
+| [Lessons in Deploying Security and Cloud with Cisco SD-WAN (42:36)](https://video.cisco.com/detail/video/5799818406001)  | Cisco SD-Access, Cisco SD-WAN  | Networking, Security  | Tech Field Day  |  
+| [Encrypted Traffic Analytics: Why Network Security Matters (27:28)](https://video.cisco.com/detail/video/5813329622001)  | Encryptic Traffic Analytics  | Networking, Security  | Tech Field Day  |  
+| [Accelerating a Multi-domain Strategy with Intelligent Networking (37:43)](https://soundcloud.com/user-327105904/s7-e33-accelerating-a-multi-domain-strategy-with-intelligent-networking)  | Customer Experience, Services  | Networking, Service Provider, Cross-Architecture  | Cisco Champion Radio  |  
+| [The Evolving Wi-Fi 6 Landscape: Wi-Fi 6E / 6GHz Explained (46:36)](https://soundcloud.com/user-327105904/s7e24-the-evolving-wi-fi-6-landscape-wi-fi-6e-6ghz-explained)  | Wireless  | Networking, Wireless  | Cisco Champion Radio  |  
+| [Resiliency on Wireless Networks (42:18)](https://soundcloud.com/user-327105904/s7e20-resiliency-on-wireless-networks)  | Wireless  | Networking, Wireless  | Cisco Champion Radio  |  
+| [Indoor IoT Services with Cisco Spaces (29:12)](https://soundcloud.com/user-327105904/s7e19-indoor-iot-services)  | Cisco Spaces, Wireless  | Networking, Wireless  | Cisco Champion Radio  |  
+| [Chat with Fred Niehaus on Cisco’s newest WiFi6 Aps (41:50)](https://soundcloud.com/user-327105904/s7e13-chat-with-fred-niehaus-on-ciscos-newest-wifi6-aps)  | Wireless  | Networking, Wireless  | Cisco Champion Radio  |  
+| [Industrial Wireless Technology (25:35)](https://soundcloud.com/user-327105904/s7e35-industrial-wireless-technology)  | Wi-Fi 6, 5G, Catalyst  | Networking, Wireless, Internet of Things  | Cisco Champion Radio  |  
+| [Cisco Champions on Certifications (27:14)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep6-certifications)  | CCIE  | Personal Development  | Cisco Champion Radio  |  
+| [Getting Published (56:39)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep9-getting-published-1)  | Writing  | Personal Development  | Cisco Champion Radio  |  
+| [What is Heck is the Cisco Champion Program?](http://recordings.talkshoe.com.s3-website-us-east-1.amazonaws.com/TC-132150/TS-1218341.mp3)  | --  | Personal Development  | Cisco Champion Radio  |  
+| [All About Tech Field Day](http://recordings.talkshoe.com.s3-website-us-east-1.amazonaws.com/TC-132150/TS-1215541.mp3)  | --  | Personal Development  | Cisco Champion Radio  |  
+| [Build Your Personal Brand with Social Media](http://recordings.talkshoe.com.s3-website-us-east-1.amazonaws.com/TC-132150/TS-1098361.mp3)  | --  | Personal Development  | Cisco Champion Radio  |  
+| [Cisco Identity Services Engine (ISE) in AWS with Ansible Automation (29:18)](https://video.cisco.com/detail/video/6263969607001)  | ISE  | Security  | Tech Field Day  |  
+| [SecureX: Simplify Your Security with Integration and Automation (32:26)](https://video.cisco.com/detail/video/6249384336001)  | Cisco SecureX  | Security  | Tech Field Day  |  
+| [ISE 3.0 Simplifies the Zero-Trust Workplace (36:46)](https://soundcloud.com/user-327105904/s7e42-ise-30-simplifies-the-zero-trust-workplace)  | ISE  | Security  | Cisco Champion Radio  |  
+| [Simplify Your Security with SecureX (40:17)](https://soundcloud.com/user-327105904/s7e47-simplify-your-security-with-the-securex-platform)  | Cisco SecureX  | Security  | Cisco Champion Radio   |  
+| [Simplify Your Security with the New SecureX Platform (49:39)](https://soundcloud.com/user-327105904/s7e26-simplify-your-security-with-the-new-securex-platform)  | Cisco SecureX  | Security  | Cisco Champion Radio  |  
+| [SecureX: Cisco's Security Platform (58:57)](https://video.cisco.com/detail/video/6168101044001)  | Cisco SecureX  | Security  | Tech Field Day  |  
+| [Climbing the High Performance Firewall (20:24)](https://soundcloud.com/user-327105904/s7e16-climbing-the-high-performance-firewall)  | Cisco High Performance Firewall  | Security  | Cisco Champion Radio  |  
+| [East/West – North/South: Under the Cisco Umbrella and BlueCat’s DNS Edge Technology (26:36)](https://soundcloud.com/user-327105904/s7e15-eastwest-northsouth-under-the-cisco-umbrella-and-bluecats-dns-edge-technology)  | Cisco Umbrella  | Security  | Cisco Champion Radio  |  
+| [Getting AMPed with Security – Cisco Advanced Malware Protection (AMP) (25:48)](https://soundcloud.com/user-327105904/s7e14-getting-amped-with-security-cisco-advanced-malware-protection-amp)  | Cisco Advanced Malware Protection  | Security  | Cisco Champion Radio  |  
+| [Cisco Threat Response – "We learn the APIs so that you don’t have to" (30:34)](https://soundcloud.com/user-327105904/s7e4-cisco-threat-response-we-learn-the-apis-so-that-you-dont-have-to)  | Cisco Threat Response  | Security  | Cisco Champion Radio  |  
+| [Why Hardware Matters (24:59)](https://soundcloud.com/user-327105904/s6e22-why-hardware-matters?ccid=&dtid=osootr000663&oid=pdtxa018043)  | Security  | Security  | Cisco Champion Radio  |  
+| [Get to Know Cisco Defense Orchestrator (33:33)](https://soundcloud.com/user-327105904/s6ep13-get-to-know-cisco-defense-orchestrator?oid=vidsc017526)  | Cisco Defense Orchestrator  | Security  | Cisco Champion Radio  |  
+| [Cisco Defense Orchestrator (1:00:31)](https://video.cisco.com/detail/video/6050085956001)  | Cisco Defense Orchestrator  | Security  | Tech Field Day  |  
+| [Multi-Factor Authentication Comes Together with Duo and Cisco (36:40)](https://soundcloud.com/user-327105904/s5ep27multifactor-authentication-comes-together-with-duo-and-cisco)  | Duo  | Security  | Cisco Champion Radio  |  
+| [Stealthwatch Overview (37:22)](https://soundcloud.com/user-327105904/s5ep21cisco-champion-radio-stealthwatch)  | Stealthwatch  | Security  | Cisco Champion Radio  |  
+| [Infosec Fun, Fear, and Fables with Denise Fishburne (54:19)](https://soundcloud.com/user-327105904/ciscochampion-radio-s5ep19-security-topics-with-fish-fishburne)  | Stealthwatch  | Security  | Cisco Champion Radio  |  
+| [Threat Containment with Cisco ISE and TrustSec (34:58)](https://video.cisco.com/detail/video/5813773913001)  | ISE, TrustSec  | Security  | Tech Field Day  |  
+| [Software-Defined Access Simplification with Firewalls (33:29)](https://video.cisco.com/detail/video/5813790493001)  | SD-Access  | Security  | Tech Field Day  |  
+| [Cisco Routed Optical Networking Solution for the Next Decade (40:17)](https://soundcloud.com/user-327105904/s8e24-cisco-routed-optical-networking-solution-for-the-next-decade)  | Cisco Routed Optical Networking  | Service Provider  | Cisco Champion Radio  |  
+| [Innovations to Achieve a Trustworthy Infrastructure (32:33)](https://soundcloud.com/user-327105904/s8e9-innovations-to-achieve-a-trustworthy-infrastructure)  | Trustworthy Routing Platform, Trustworthy Network Operating System, Cloud-Enhanced Operations  | Service Provider  | Cisco Champion Radio  |  
+| [Cisco 5G Ultra Cloud Core Built for the Future (31:09)](https://soundcloud.com/user-327105904/s7-e32-cisco-5g-ultra-cloud-core-built-for-the-future)  | Cisco 5G  | Service Provider  | Cisco Champion Radio  |  
+| [Cisco NCS-5700 Router Technical Overview (57:26)](https://video.cisco.com/detail/video/6168327115001)  | NCS5700  | Service Provider  | Tech Field Day  |  
+| [Build Your Network with Cisco Routed Optical Networking Solution (31:42)](https://video.cisco.com/detail/video/6249188115001)  | Routed Optical Networking  | Service Provider, Networking  | Tech Field Day  |  
+| [Routed Optical Networking Solution Demo (34:37)](https://video.cisco.com/detail/video/6249189188001)  | Routed Optical Networking  | Service Provider, Networking  | Tech Field Day  |  
+| [Cloud Native Broadband Network Gateway Demo (15:40)](https://video.cisco.com/detail/video/6249204405001)  | Cloud Native Broadband  | Service Provider, Networking  | Tech Field Day  |  
+| [Cisco Business-Critical Insights: Consulting with Data, Tools, and Knowledge (33:10)](https://video.cisco.com/detail/video/5763975800001)  | Business Critical Insights  | Service Provider, Data Center  | Tech Field Day  |  
+| [Small Business, Big Value (25:27)](https://soundcloud.com/user-327105904/s8e28-small-business-big-value)  | Meraki  | Small & Midsize Business  | Cisco Champion Radio  |  
+| [Build Your IT Future with Cisco Certifications (44:52)](https://soundcloud.com/user-327105904/s8e13-build-your-it-future-with-cisco-certifications)  | Certifications  | The Cisco Learning Network  | Cisco Champion Radio  |  
+| [Future of Wireless (33:34)](https://soundcloud.com/user-327105904/s7e5-future-of-wireless)  | Wireless  | Wireless  | Cisco Champion Radio  |  
+Sorry, no results matched your search criteria(s). Please try again.
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
