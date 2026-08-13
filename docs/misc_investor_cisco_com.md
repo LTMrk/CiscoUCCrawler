@@ -7679,3 +7679,161 @@ The captcha test has failed. Please try again. Submit
 [​](https://www.linkedin.com/company/cisco "Linkedin") [![X Link](https://s21.q4cdn.com/812015656/files/design/svg/logo.svg)](https://x.com/Cisco/ "X") [​ ](https://www.facebook.com/cisco/ "Facebook") [​ ](https://www.youtube.com/user/cisco "​ Youtube") [​](https://www.instagram.com/cisco/ "Instagram")
 © 2026 Cisco Systems Inc. - All rights reserved
 [ Powered By Q4 Inc. 5.184.0.5 (opens in new window) ](https://www.q4inc.com/platform/q4-platform/default.aspx)
+
+
+---
+# ORIGEN: https://investor.cisco.com/stock-information/quote-and-chart/default.aspx
+
+[Skip to main content](https://investor.cisco.com/stock-info/stock-quote/default.aspx#main-content)
+[](javascript:__doPostBack\('lnkPostback',''\))
+[![Cisco Systems Inc.](https://s21.q4cdn.com/812015656/files/design/site_logo/Cisco_Logo_no_TM_Black-RGB.png)](https://www.cisco.com/)
+[![Cisco Systems Inc.](https://s21.q4cdn.com/812015656/files/design/site_logo/Cisco_Logo_no_TM_Black-RGB.png)](https://www.cisco.com/)
+  * [Overview](https://investor.cisco.com/overview/default.aspx)
+    * [Why Invest](https://investor.cisco.com/why-invest/default.aspx)
+    * [News](https://investor.cisco.com/news/default.aspx)
+    * [Events & Presentations](https://investor.cisco.com/events-and-presentations/default.aspx)
+    * [Stock Info](https://investor.cisco.com/stock-info/stock-quote/default.aspx)
+      * [Stock Quote](https://investor.cisco.com/stock-info/stock-quote/default.aspx)
+      * [Dividend History](https://investor.cisco.com/stock-info/dividend-history/default.aspx)
+      * [Analyst Coverage](https://investor.cisco.com/stock-info/analyst-coverage/default.aspx)
+    * [Financials](https://investor.cisco.com/financials/quarterly-results/default.aspx)
+      * [Quarterly Results](https://investor.cisco.com/financials/quarterly-results/default.aspx)
+      * [Annual Reports](https://investor.cisco.com/financials/annual-reports/default.aspx)
+      * [SEC Filings](https://investor.cisco.com/financials/sec-filings/default.aspx)
+      * [Interactive Financials](https://iac.virtuaresearch.com/?ticker=CSCO&exchange=NASDAQGS)
+      * [Annual Meeting](https://investor.cisco.com/financials/Annual-Meeting/default.aspx)
+    * [Governance](https://investor.cisco.com/default.aspx)
+      * [Governance Highlights](https://investor.cisco.com/governance/Governance-Highlights/default.aspx)
+      * [Executive Officers](https://investor.cisco.com/governance/executive-management/default.aspx)
+      * [Board of Directors](https://investor.cisco.com/governance/board-of-directors/default.aspx)
+      * [Governance Documents](https://investor.cisco.com/governance/Governance-Documents/default.aspx)
+      * [Committee Composition](https://investor.cisco.com/governance/committee-composition/default.aspx)
+      * [Code of Business Conduct](https://investor.cisco.com/governance/Code-of-Business-Conduct/default.aspx)
+      * [Financial Officer Code of Ethics](https://investor.cisco.com/governance/Financial-Officer-Code-of-Ethics/default.aspx)
+    * [Resources](https://investor.cisco.com/resources/investor-faqs/default.aspx)
+      * [FAQs](https://investor.cisco.com/resources/investor-faqs/default.aspx)
+      * [Personal Investing](https://investor.cisco.com/resources/Personal-Investing/default.aspx)
+      * [Email Alerts](https://investor.cisco.com/resources/investor-email-alerts/default.aspx)
+      * [Contact Information](https://investor.cisco.com/resources/investor-contacts/default.aspx)
+
+
+  * [Overview](https://investor.cisco.com/overview/default.aspx)
+  * [Why Invest](https://investor.cisco.com/why-invest/default.aspx)
+  * [News](https://investor.cisco.com/news/default.aspx)
+  * [Events & Presentations](https://investor.cisco.com/events-and-presentations/default.aspx)
+  * Stock Info
+    * [Stock Quote](https://investor.cisco.com/stock-info/stock-quote/default.aspx)
+    * [Dividend History](https://investor.cisco.com/stock-info/dividend-history/default.aspx)
+    * [Analyst Coverage](https://investor.cisco.com/stock-info/analyst-coverage/default.aspx)
+  * Financials
+    * [Quarterly Results](https://investor.cisco.com/financials/quarterly-results/default.aspx)
+    * [Annual Reports](https://investor.cisco.com/financials/annual-reports/default.aspx)
+    * [SEC Filings](https://investor.cisco.com/financials/sec-filings/default.aspx)
+    * [Interactive Financials](https://iac.virtuaresearch.com/?ticker=CSCO&exchange=NASDAQGS)
+    * [Annual Meeting](https://investor.cisco.com/financials/Annual-Meeting/default.aspx)
+  * Governance
+    * [Governance Highlights](https://investor.cisco.com/governance/Governance-Highlights/default.aspx)
+    * [Executive Officers](https://investor.cisco.com/governance/executive-management/default.aspx)
+    * [Board of Directors](https://investor.cisco.com/governance/board-of-directors/default.aspx)
+    * [Governance Documents](https://investor.cisco.com/governance/Governance-Documents/default.aspx)
+    * [Committee Composition](https://investor.cisco.com/governance/committee-composition/default.aspx)
+    * [Code of Business Conduct](https://investor.cisco.com/governance/Code-of-Business-Conduct/default.aspx)
+    * [Financial Officer Code of Ethics](https://investor.cisco.com/governance/Financial-Officer-Code-of-Ethics/default.aspx)
+  * Resources
+    * [FAQs](https://investor.cisco.com/resources/investor-faqs/default.aspx)
+    * [Personal Investing](https://investor.cisco.com/resources/Personal-Investing/default.aspx)
+    * [Email Alerts](https://investor.cisco.com/resources/investor-email-alerts/default.aspx)
+    * [Contact Information](https://investor.cisco.com/resources/investor-contacts/default.aspx)
+
+
+Search Search querySearch
+Search query
+  * [Overview](https://investor.cisco.com/overview/default.aspx)
+  * [Why Invest](https://investor.cisco.com/why-invest/default.aspx)
+  * [News](https://investor.cisco.com/news/default.aspx)
+  * [Events & Presentations](https://investor.cisco.com/events-and-presentations/default.aspx)
+  * Stock Info
+    * Back
+    * [Stock Quote](https://investor.cisco.com/stock-info/stock-quote/default.aspx)
+    * [Dividend History](https://investor.cisco.com/stock-info/dividend-history/default.aspx)
+    * [Analyst Coverage](https://investor.cisco.com/stock-info/analyst-coverage/default.aspx)
+  * Financials
+    * Back
+    * [Quarterly Results](https://investor.cisco.com/financials/quarterly-results/default.aspx)
+    * [Annual Reports](https://investor.cisco.com/financials/annual-reports/default.aspx)
+    * [SEC Filings](https://investor.cisco.com/financials/sec-filings/default.aspx)
+    * [Interactive Financials](https://iac.virtuaresearch.com/?ticker=CSCO&exchange=NASDAQGS)
+    * [Annual Meeting](https://investor.cisco.com/financials/Annual-Meeting/default.aspx)
+  * Governance
+    * Back
+    * [Governance Highlights](https://investor.cisco.com/governance/Governance-Highlights/default.aspx)
+    * [Executive Officers](https://investor.cisco.com/governance/executive-management/default.aspx)
+    * [Board of Directors](https://investor.cisco.com/governance/board-of-directors/default.aspx)
+    * [Governance Documents](https://investor.cisco.com/governance/Governance-Documents/default.aspx)
+    * [Committee Composition](https://investor.cisco.com/governance/committee-composition/default.aspx)
+    * [Code of Business Conduct](https://investor.cisco.com/governance/Code-of-Business-Conduct/default.aspx)
+    * [Financial Officer Code of Ethics](https://investor.cisco.com/governance/Financial-Officer-Code-of-Ethics/default.aspx)
+  * Resources
+    * Back
+    * [FAQs](https://investor.cisco.com/resources/investor-faqs/default.aspx)
+    * [Personal Investing](https://investor.cisco.com/resources/Personal-Investing/default.aspx)
+    * [Email Alerts](https://investor.cisco.com/resources/investor-email-alerts/default.aspx)
+    * [Contact Information](https://investor.cisco.com/resources/investor-contacts/default.aspx)
+
+
+#  Stock Quote
+  * [Stock Quote](https://investor.cisco.com/stock-info/stock-quote/default.aspx)
+  * [Dividend History](https://investor.cisco.com/stock-info/dividend-history/default.aspx)
+  * [Analyst Coverage](https://investor.cisco.com/stock-info/analyst-coverage/default.aspx)
+
+
+  * [Stock Quote](https://investor.cisco.com/stock-info/stock-quote/default.aspx)
+  * [Dividend History](https://investor.cisco.com/stock-info/dividend-history/default.aspx)
+  * [Analyst Coverage](https://investor.cisco.com/stock-info/analyst-coverage/default.aspx)
+
+
+## Stock Quote  
+Stock quote information. Pricing delayed by 20 minutes. Last trade 08/12/2026 4:00 PM  
+| Price   | $123.88  | Volume   | 36,223,013  |  
+| --- | --- | --- | --- |  
+| Change   | +3.45  | % Change   | +2.87%  |  
+| Today's Open   | $122.75  | Previous Close   | $120.43  |  
+| Intraday High   | $124.45  | Intraday Low   | $122.26  |  
+| 52 Week High   | $130.37  | 52 Week Low   | $65.75  |  
+## Stock Chart
+## Historical Stock Quote 
+Lookup Date:  Lookup Day1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31Lookup MonthJanuary February March April May June July August September October November DecemberLookup Year2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016Look Up  
+Historical Stock Quote information. 2026 August 12  
+| Day's Open  | $122.75  | Closing Price  | $123.88  |  
+| --- | --- | --- | --- |  
+| Intraday Low  | $122.26  | Intraday High  | $124.45  |  
+| Volume  | 36,223,013  |  
+## Investor Email Alerts
+Personal Information.
+Email Address *Required Email Address is required. Email Address is invalid.
+Investor Alert Options *
+  * Press Releases
+  * Events
+  * All SEC Filings
+  * End of Day Stock Quote
+  * 10-K
+  * 10-Q
+  * 8-K
+  * Proxy Materials
+  * Insider Transactions (3,4,5)
+  * All Other SEC Filings
+
+Investor Alert Options is required.
+The captcha test has failed. Please try again. Submit
+[Unsubscribe](https://investor.cisco.com/resources/investor-email-alerts/default.aspx#unsubscribe)
+## Gap List Fixes
+  * [Home opens in new window](https://www.cisco.com/)
+  * |
+  * [Legal opens in new window](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * |
+  * [Site Map opens in new window](https://investor.cisco.com/site-map/default.aspx)
+
+
+[​](https://www.linkedin.com/company/cisco "Linkedin") [![X Link](https://s21.q4cdn.com/812015656/files/design/svg/logo.svg)](https://x.com/Cisco/ "X") [​ ](https://www.facebook.com/cisco/ "Facebook") [​ ](https://www.youtube.com/user/cisco "​ Youtube") [​](https://www.instagram.com/cisco/ "Instagram")
+© 2026 Cisco Systems Inc. - All rights reserved
+[ Powered By Q4 Inc. 5.184.0.5 (opens in new window) ](https://www.q4inc.com/platform/q4-platform/default.aspx)
