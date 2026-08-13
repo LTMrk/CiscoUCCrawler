@@ -8018,5 +8018,9 @@
   "https://developer.webex.com/docs/api/v1/meetings/get-registration-form-for-a-meeting": {
     "hash": "8c902feca41fb1e544bd417f1fbff5dfe416c988276bcd5b89b5fce2cd31153d",
     "timestamp": "2026-08-13T02:11:24.300550"
+  },
+  "https://developer.webex.com/docs/api/v1/meetings/get-detailed-information-for-a-meeting-registrant": {
+    "hash": "9a6b8bac58534f8c1c85202b83a4457b14cd36c20553e430ec22712d1cce076e",
+    "timestamp": "2026-08-13T02:11:31.047584"
   }
 }
