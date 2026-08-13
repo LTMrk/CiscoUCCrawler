@@ -8587,3 +8587,282 @@ Company
   * [English](https://blog.webex.com/collaboration/one-platform-one-customer-journey-organizations-unify-calling-contact-center-webex/)
 
 
+
+
+---
+# ORIGEN: https://blog.webex.com/collaboration/sovereign-collaboration-in-a-global-world-how-webex-delivers-data-residency-security-and-administrative-control
+
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-primary-logo.svg)](https://blog.webex.com)
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-secondary-logo.svg)](https://blog.webex.com)
+  * [Collaboration](https://blog.webex.com/category/collaboration/)
+  * [Workspaces](https://blog.webex.com/category/workspaces/)
+  * [Customer Experience](https://blog.webex.com/category/customer-experience/)
+  * [Event Management](https://blog.webex.com/category/event-management/)
+  * [Innovation & AI](https://blog.webex.com/category/innovation-ai/)
+
+
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2079%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/collaboration/sovereign-collaboration-in-a-global-world-how-webex-delivers-data-residency-security-and-administrative-control) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/collaboration/sovereign-collaboration-in-a-global-world-how-webex-delivers-data-residency-security-and-administrative-control&title=Sovereign%20collaboration%20in%20a%20global%20world:%20how%20Webex%20delivers%20...) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/collaboration/sovereign-collaboration-in-a-global-world-how-webex-delivers-data-residency-security-and-administrative-control)
+[ ](https://blog.webex.com/collaboration/sovereign-collaboration-in-a-global-world-how-webex-delivers-data-residency-security-and-administrative-control/ "Copy Link") [ ](https://blog.webex.com/collaboration/sovereign-collaboration-in-a-global-world-how-webex-delivers-data-residency-security-and-administrative-control/ "Print")
+[Collaboration](https://blog.webex.com/category/collaboration/)
+# Sovereign collaboration in a global world: how Webex delivers data residency, security, and administrative control 
+On Apr 15, 2026Apr 15, 2026By [Molita Sorisho](https://blog.webex.com/contributors/molitasorishochamaki/)4 Min Read
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/collaboration/sovereign-collaboration-in-a-global-world-how-webex-delivers-data-residency-security-and-administrative-control) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/collaboration/sovereign-collaboration-in-a-global-world-how-webex-delivers-data-residency-security-and-administrative-control&title=Sovereign%20collaboration%20in%20a%20global%20world:%20how%20Webex%20delivers%20...) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/collaboration/sovereign-collaboration-in-a-global-world-how-webex-delivers-data-residency-security-and-administrative-control)
+[ ](https://blog.webex.com/collaboration/sovereign-collaboration-in-a-global-world-how-webex-delivers-data-residency-security-and-administrative-control/ "Copy Link") [ ](https://blog.webex.com/collaboration/sovereign-collaboration-in-a-global-world-how-webex-delivers-data-residency-security-and-administrative-control/ "Print")
+![Webex Control Hub analytics dashboard displayed on desktop monitor in a modern workspace](https://blog.webex.com/wp-content/uploads/2026/04/Call-History-UI.jpg)
+In today’s hyper-connected digital economy, collaboration platforms are no longer just productivity tools — they are critical infrastructure. Organizations depend on them to enable decision-making, maintain operational continuity, and securely connect employees, partners, and customers across borders. 
+But as global business expands and regulatory environments evolve, collaboration introduces new strategic risks. Leaders must now answer critical questions: 
+  * Where is collaboration data stored? 
+
+
+  * Who can access it — and under what conditions? 
+
+
+  * How can organizations ensure compliance across multiple jurisdictions? 
+
+
+  * What controls exist to govern collaboration environments at scale? 
+
+
+These questions are driving a fundamental shift toward **sovereign collaboration** — an approach that prioritizes security, data residency, regulatory alignment, operational visibility, and administrative control. 
+This shift is accelerating rapidly. According to IDC, global spending on sovereign cloud solutions is projected to reach [**$258.5 billion by 2027**](https://hostingjournalist.com/news/idc-global-sovereign-cloud-spending-to-exceed-250b-by-2027), growing at a CAGR of 26.6%. Sovereignty is no longer a niche requirement for government or highly regulated sectors. It is becoming a baseline expectation for trust, resilience, and digital transformation. 
+##  **The rising complexity of global compliance and risk**
+Organizations operating across regions such as EMEA and APJC face increasing pressure to meet evolving regulatory mandates. Data protection laws, national security concerns, and cross-border governance frameworks are reshaping how collaboration technologies must be designed and deployed. 
+This creates several operational challenges: 
+  * Fragmented compliance requirements across regions 
+
+
+  * Increased scrutiny over data access and encryption standards 
+
+
+  * The need to maintain consistent user experiences globally 
+
+
+  * Managing hybrid and distributed work environments securely 
+
+
+  * Ensuring business continuity while maintaining regulatory alignment 
+
+
+As a result, IT and security leaders must balance **global collaboration needs with localized compliance obligations** — often with limited visibility into how collaboration platforms handle data governance. 
+##  **How Webex supports sovereign collaboration**
+Webex is designed to help organizations navigate this complexity by providing secure collaboration capabilities that align with regional and international requirements. 
+With an extensive network of **more than 110 global and local data centers** , Webex enables organizations to: 
+  * Support regional data residency requirements 
+
+
+  * Deliver low-latency collaboration experiences worldwide 
+
+
+  * Maintain operational resilience and redundancy 
+
+
+  * Align with country-specific data governance frameworks 
+
+![World map highlighting global regions supporting Webex data residency and infrastructure](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201600%20719%22%3E%3C/svg%3E)
+However, sovereign collaboration is about more than infrastructure. It also requires **centralized visibility, policy enforcement, and administrative oversight**. 
+##  **Centralized control with Webex Control Hub**
+Sovereignty isn’t just about where data is stored — it’s about how it’s managed. This is where Webex Control Hub plays a critical role. This is where [Webex Control Hub](https://www.webex.com/us/en/solutions/cross-platform/control-hub.html) plays a critical role. 
+Control Hub provides IT and security teams with a unified administrative experience across their collaboration environment. Instead of managing multiple tools or fragmented policies, organizations can centralize governance and operational oversight. 
+![Webex Control Hub interface showing analytics, device management, and user activity insights](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201600%201557%22%3E%3C/svg%3E)
+With Control Hub, organizations can: 
+  * Apply and enforce security and compliance policies at scale 
+
+
+  * Monitor usage, performance, and risk signals in real time 
+
+
+  * Gain visibility across cloud, hybrid, and distributed deployments 
+
+
+  * Simplify lifecycle management for users, devices, and workloads 
+
+
+  * Support consistent governance across global environments 
+
+
+This centralized approach helps reduce administrative complexity while strengthening security posture. 
+##  **Built-in security for modern collaboration**
+Webex takes a holistic approach to [collaboration security](https://www.webex.com/us/en/solutions/cross-platform/security.html) by embedding protection across the entire platform lifecycle. 
+This includes: 
+  * Secure development practices and rigorous testing frameworks 
+
+
+  * Zero Trust, End-to-end encryption options and advanced privacy controls 
+
+
+  * Compliance capabilities aligned with global, regional and industry requirements 
+
+
+  * Identity, access, and policy enforcement integrations 
+
+
+  * Tools that support secure collaboration inside and outside organizational boundaries 
+
+
+  * Local, on-premise access to encryption keys 
+
+![Diagram showing Webex security capabilities including identity protection, data privacy, compliance, and threat prevention](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201600%20950%22%3E%3C/svg%3E)
+By integrating these capabilities natively, Webex enables organizations to adopt modern collaboration without compromising on governance or risk management. 
+##  **Enabling secure collaboration across borders**
+The Webex vision for sovereignty is clear: organizations should be able to collaborate globally while maintaining local control over data, access, and compliance. 
+This means supporting: 
+  * Cross-company collaboration that meets regulatory expectations 
+
+
+  * Cross-border communication aligned with data residency policies 
+
+
+  * Hybrid workforce models that maintain consistent security standards 
+
+
+  * Operational visibility for IT and security leaders 
+
+
+With Webex, organizations gain both the **technical foundation for sovereign collaboration** and the **administrative capabilities to manage it with confidence**. 
+##  **Strengthen sovereignty and simplify management with Webex**
+As regulatory complexity and global risk exposure continue to increase, organizations need collaboration platforms that provide more than connectivity. They need solutions that enable secure growth, operational resilience, and trusted digital engagement. 
+Webex delivers: 
+  * Global data residency support 
+
+
+  * Centralized administrative control 
+
+
+  * Built-in security and compliance capabilities 
+
+
+  * Scalable governance for hybrid and distributed environments 
+
+
+[Discover how Webex and Control Hub can help your organization strengthen sovereignty, simplify management, and support compliance across modern collaboration environments](https://www.webex.com/us/en/dg/contact-sales.html)
+#### About The Author
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2096%22%3E%3C/svg%3E)
+Molita Sorisho Product Marketing Manager Cisco
+Molita is a Product Marketing Manager at Cisco focusing on the all-in-one Webex Collaboration Suite that is built for today’s hybrid work.
+[Learn more](https://blog.webex.com/contributors/molitasorishochamaki/)
+#### Topics
+[Control Hub](https://blog.webex.com/tag/control-hub/)[security](https://blog.webex.com/tag/security/)
+* * *
+## More like this
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Collaboration, Workspaces Cisco named 2026 Global Enterprise Desktop Phone Company of the ... By John Reeder5 Min Read ](https://blog.webex.com/collaboration/cisco-named-2026-global-enterprise-desktop-phone-company-of-the-year-by-frost-sullivan/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201104%22%3E%3C/svg%3E)simple Collaboration Eight years running! Cisco is named a Leader in the 2026 Gartner® ... By Amit Barave7 Min Read ](https://blog.webex.com/collaboration/eight-years-running-cisco-named-leader-2026-gartner-magic-quadrant-unified-communications-service-ucaas/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201099%22%3E%3C/svg%3E)simple Collaboration, Customer Experience, Event Management, Innovation & AI Tom Brady takes the stage at WebexOne 2026 By Aruna Ravichandran2 Min Read ](https://blog.webex.com/collaboration/tom-brady-takes-the-stage-at-webexone-2026/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Collaboration Intrado Emergency Routing Service for Webex Calling Is Now Available By Teney Takahashi3 Min Read ](https://blog.webex.com/collaboration/intrado-emergency-routing-service-for-webex-calling-is-now-available/)
+Products
+  * [Webex Suite](https://www.webex.com/suite/collaboration-suite.html)
+  * [Meetings](https://www.webex.com/meetings.html)
+  * [Calling](https://www.webex.com/enterprise-cloud-calling.html)
+  * [Messaging](https://www.webex.com/team-collaboration.html)
+  * [Events](https://www.webex.com/events.html)
+  * [Video Messaging](https://vidcast.io/)
+  * [Polling](https://www.webex.com/suite/polling.html)
+  * [Webinars](https://www.webex.com/webinar.html)
+  * [Whiteboarding](https://www.webex.com/suite/whiteboard.html)
+  * [Cloud Contact Center](https://www.webex.com/us/en/products/customer-experience/contact-center.html)
+  * [CPaaS](https://www.webex.com/us/en/products/customer-experience/cpaas.html)
+
+
+Footer Terms Menu
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/collaboration/sovereign-collaboration-in-a-global-world-how-webex-delivers-data-residency-security-and-administrative-control/)
+    * [日本語 (Japanese)](https://blog.webex.com/ja/collaboration/sovereign-collaboration-in-a-global-world-how-webex-delivers-data-residency-security-and-administrative-control/ "Switch to Japanese \(日本語\)")
+
+
+Devices
+  * [Room Devices](https://www.webex.com/us/en/devices/room-devices.html)
+  * [Desk Devices](https://www.webex.com/us/en/devices/desk-series.html)
+  * [Digital Whiteboards](https://www.webex.com/us/en/devices/digital-whiteboards.html)
+  * [Phones](https://www.webex.com/us/en/devices/phone-series.html)
+  * [Cameras](https://www.webex.com/us/en/devices/cameras.html)
+  * [Headsets](https://www.webex.com/us/en/devices/headsets.html)
+  * [Room Accessories](https://www.webex.com/us/en/devices/accessories.html)
+
+
+Resources
+  * [Pricing](https://pricing.webex.com/us/en/)
+  * [Downloads](https://www.webex.com/downloads.html)
+  * [Help Center](https://help.webex.com/)
+  * [Webex Community](https://cs.co/webexcommunity)
+  * [Product Essentials](https://essentials.webex.com/)
+  * [Watch Webinars](https://www.webex.com/learn/webinars-demos.html)
+  * [App Hub](https://apphub.webex.com/)
+  * [Accessibility](https://www.webex.com/accessibility.html)
+  * [Developers](https://developer.webex.com/)
+
+
+Company
+  * [Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)
+  * [Webex Customer Advocacy Program](https://www.webex.com/us/en/dg/customer-advocacy-program.html)
+  * [Contact Support](https://help.webex.com/contact/)
+  * [Contact Sales](https://www.webex.com/contact-sales.html?locale=US)
+  * [Webex Merch Store](https://merchandise.cisco.com/featured/webex-by-cisco.html)
+  * [Careers](https://www.webex.com/company/careers.html)
+
+
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://twitter.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.linkedin.com/company/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.facebook.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.youtube.com/c/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.instagram.com/webex/)
+
+
+©2026 Cisco and/or its affiliates. All Rights Reserved.
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/collaboration/sovereign-collaboration-in-a-global-world-how-webex-delivers-data-residency-security-and-administrative-control/)
+    * [日本語 (Japanese)](https://blog.webex.com/ja/collaboration/sovereign-collaboration-in-a-global-world-how-webex-delivers-data-residency-security-and-administrative-control/ "Switch to Japanese \(日本語\)")
+
+
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
