@@ -1,237 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-2431103.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744787.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-743555.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-customer-voice-portal/eos-eol-notice-c51-743400.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-742652.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-741577.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-739896.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740135.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-738343.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/eos-eol-notice-listing.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/bulletin-c25-744954.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/bulletin-c25-740815.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/705/fn70542.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/725/fn72590.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/724/fn72432.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/723/fn72306.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/634/fn63454.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/705/fn70548.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/705/fn70510.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/705/fn70511.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/703/fn70396.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/703/fn70374.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/702/fn70297.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/702/fn70219.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/700/fn70037.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-field-notices-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cc-mult-vuln-gK4TFXSn.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-contcent-insuffacces-ArDOVhN8.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-finesse-ssrf-rfi-Um7wT8Ew.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cucm-rce-bWNzQcUm.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-http2-reset-d8Kf32vZ.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cuis-xss-Omm8jyBX.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-finesse-proxy-dos-vY5dQhrV.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-ucce-tip-dos-7cdLUASb.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160927-openssl.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20170503-finesse-ucce.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20161114-openssl.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160622-ucce.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-security-advisories-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-technical-reference-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/222769-provision-webex-connect-digital-channels.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/222803-manual-upgradation-of-apache-tomcat.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1251/217214-install-and-migrate-to-openjdk-in-cce-12.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/223063-install-tomcat-on-ucce-with-install.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/225132-configure-cisco-webex-ai-agent-for-cce.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/224885-configure-purge-jobs-missed-on-cce.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/222218-configure-cce-agent-answers-and-call-tra.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/222149-configure-ece-to-disable-alternate-engag.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/220580-configure-cce-virtual-agent-voice-cloud.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1261/217417-configure-and-troubleshoot-cce-virtual-a.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1261/217420-configure-cce-agent-answers-and-call-tra.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/221117-configure-smart-license-specific-license.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/220754-exchange-self-signed-certificates-in-a-u.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/217947-configure-contact-center-enterprise-virt.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1261/220481-configure-ucce-single-sign-on-with-azure.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1251/216185-configuration-of-ca-signed-multi-server.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/220123-configure-secure-rtp-in-contact-center-e.html",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/218434-configure-secure-sip-signaling-in-contac.html",
     "depth": 1
   },
@@ -277189,6 +276957,1490 @@
   },
   {
     "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-2431103.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744787.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-743555.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-customer-voice-portal/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-customer-voice-portal/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-customer-voice-portal/eos-eol-notice-c51-743400.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-742652.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-741577.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-739896.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-733718.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740135.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/eos-eol-notice-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-738343.pdf",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-742652-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740651-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-739896-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-740135-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-737326.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-737322.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-732916.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/end_of_life_notice_c51-719033.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/prod_end-of-life_notice0900aecd806afc37.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-732917.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-intelligent-contact-management-enterprise/prod_end-of-life_notice0900aecd800fc12d.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/end_of_life_notice_c51-728415.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/end_of_life_notice_c51-653040.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-intelligent-contact-management-enterprise/end_of_life_notice_c51-542058.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-743555-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/end_of_life_notice_c51-523736.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-intelligent-contact-management-enterprise/prod_end-of-life_notice0900aecd800fc12c.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/prod_end-of-life_notice0900aecd800f395c.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/perpetual-lic-intel-ip-flex-center-eol-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/perpetual-lic-ea-contact-center-suite-eol-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/hosted-collaboration-solution-contact-center/unified-contact-center-enterprise-eol-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-2431103-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744783-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-744784-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-customer-voice-portal/eos-eol-notice-c51-743400-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-741577-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-738343-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-737326-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/eos-eol-notice-c51-737322-fr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/bulletin-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/datasheet-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/bulletin-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/bulletin-c25-744954.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-device-support-tables-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/technical/software-support.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/product_bulletin_c25-455396.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/bulletin-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/bulletin-c25-740815.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/customer-collaboration/unified-contact-center-enterprise/product_bulletin_c25-455396.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180104-cpusidechannel",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-installation-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://devhub-download.cisco.com/console",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligent-contact-management-enterprise/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/buy/licensing/licensing-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/resources/Q-CA-Root-Change",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/software/release.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/support/tsd_cisco_worldwide_contacts.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/ServiceRequestTool/scm/mgmt/case",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/support/tsd_cisco_worldwide_contacts.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/ServiceRequestTool/scm/mgmt/case",
+    "depth": 2
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/support/tsd_cisco_worldwide_contacts.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/ServiceRequestTool/scm/mgmt/case",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/support/tsd_cisco_worldwide_contacts.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/ServiceRequestTool/scm/mgmt/case",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/support/tsd_cisco_worldwide_contacts.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/ServiceRequestTool/scm/mgmt/case",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligent-contact-management-enterprise/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/support/tsd_cisco_worldwide_contacts.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/ServiceRequestTool/scm/mgmt/case",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/en/US/support/tsd_cisco_worldwide_contacts.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/ServiceRequestTool/scm/mgmt/case",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/support/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/634/fn63421.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/620/fn62486.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/620/fn62327.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/620/fn62536.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/620/fn62483.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/620/fn62451.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/620/fn62396.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/620/fn62339.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/620/fn62296.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/620/fn62280.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/620/fn62258.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/620/fn62222.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/620/fn62502.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/610/fn61872.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/620/fn62508.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/610/fn61851.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/610/fn61188.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/640/fn64033.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/642/fn64280.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/640/fn64075.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/639/fn63981.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/638/fn63895.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/bulletin-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-security-advisories-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/resources/security_vulnerability_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/images/cisco-alert.svg",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/resources/security_vulnerability_policy.html",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/cvssCalculator.x",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/images/blue-square.png",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20160622-ucce/cvrf/cisco-sa-20160622-ucce_cvrf.xml",
+    "depth": 2
+  },
+  {
+    "url": "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20160622-ucce",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/content/CiscoAppliedMitigationBulletin/cisco-amb-20060922-understanding-xss",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/web/tools/cns/notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20070829-ccm.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20071017-IPCC.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20100609-uccx.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160504-openssl.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160302-openssl.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160129-openssl.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20151204-openssl.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/Cisco-SA-20150113-CVE-2015-0204.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/Cisco-SA-20091105-CVE-2009-3555.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20150710-openssl.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20150612-openssl.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20150310-ssl.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20141222-ntpd.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20140926-bash.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20131023-struts2.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/bulletin-listing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/tsd-products-support-install-and-upgrade-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/222769-provision-webex-connect-digital-channels.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/222769-provision-webex-connect-digital-channels.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/222769-provision-webex-connect-digital-channels.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://apps.cisco.com/Commerce/home",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/tsd-products-support-install-and-upgrade-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/222803-manual-upgradation-of-apache-tomcat.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/222803-manual-upgradation-of-apache-tomcat.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/222803-manual-upgradation-of-apache-tomcat.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/packaged-contact-center-enterprise-12-6-2/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/tsd-products-support-install-and-upgrade-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1251/217214-install-and-migrate-to-openjdk-in-cce-12.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1251/217214-install-and-migrate-to-openjdk-in-cce-12.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1251/217214-install-and-migrate-to-openjdk-in-cce-12.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/web/software/280840583/156517/Release_Document_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-customer-voice-portal-1251/217213-install-and-migrate-to-openjdk-in-cvp-12.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/tsd-products-support-install-and-upgrade-technotes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/223063-install-tomcat-on-ucce-with-install.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/223063-install-tomcat-on-ucce-with-install.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/223063-install-tomcat-on-ucce-with-install.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/225132-configure-cisco-webex-ai-agent-for-cce.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/225132-configure-cisco-webex-ai-agent-for-cce.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/225132-configure-cisco-webex-ai-agent-for-cce.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/224885-configure-purge-jobs-missed-on-cce.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/222218-configure-cce-agent-answers-and-call-tra.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/222218-configure-cce-agent-answers-and-call-tra.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/222218-configure-cce-agent-answers-and-call-tra.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/packaged-contact-center-enterprise/215354-exchange-self-signed-certificates-in-a-p.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/packaged-contact-center-enterprise-1201/214845-manage-pcce-components-certificate-for-s.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/215445-exchange-self-signed-certificates-in-a-u.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/222149-configure-ece-to-disable-alternate-engag.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/222149-configure-ece-to-disable-alternate-engag.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/222149-configure-ece-to-disable-alternate-engag.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/220580-configure-cce-virtual-agent-voice-cloud.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/220580-configure-cce-virtual-agent-voice-cloud.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/220580-configure-cce-virtual-agent-voice-cloud.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://insight-orchestrator.wxcc-us1.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://wsconnector.wxcc-us1.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "http://cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/220754-exchange-self-signed-certificates-in-a-u.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/packaged-contact-center-enterprise/220730-implement-ca-signed-certificates-in-a-cc.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/packaged-contact-center-enterprise-1261/220693-exchange-self-signed-certificates-in-a-p.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/packaged-contact-center-enterprise-1261/217681-provision-google-ccai-hybrid-services-wi.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/web/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1261/217417-configure-and-troubleshoot-cce-virtual-a.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1261/217417-configure-and-troubleshoot-cce-virtual-a.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1261/217417-configure-and-troubleshoot-cce-virtual-a.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-customer-voice-portal/215527-configure-cvp-customer-virtual-assistant.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/packaged-contact-center-enterprise/215354-exchange-self-signed-certificates-in-a-p.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/packaged-contact-center-enterprise-1201/214845-manage-pcce-components-certificate-for-s.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/215445-exchange-self-signed-certificates-in-a-u.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1261/217420-configure-cce-agent-answers-and-call-tra.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/web/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1261/217420-configure-cce-agent-answers-and-call-tra.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1261/217420-configure-cce-agent-answers-and-call-tra.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1261/217420-configure-cce-agent-answers-and-call-tra.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-customer-voice-portal/215527-configure-cvp-customer-virtual-assistant.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/packaged-contact-center-enterprise/215354-exchange-self-signed-certificates-in-a-p.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/packaged-contact-center-enterprise-1201/214845-manage-pcce-components-certificate-for-s.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/215445-exchange-self-signed-certificates-in-a-u.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/cisco/web/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/221117-configure-smart-license-specific-license.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/221117-configure-smart-license-specific-license.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1262/221117-configure-smart-license-specific-license.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://video.cisco.com/detail/videos/unified-contact-center/video/6139955501001",
+    "depth": 2
+  },
+  {
+    "url": "https://video.cisco.com/detail/videos/unified-contact-center/video/6150086329001",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/cloud-systems-management/smart-software-manager-satellite/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-12-6-2/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/220754-exchange-self-signed-certificates-in-a-u.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/220754-exchange-self-signed-certificates-in-a-u.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/220754-exchange-self-signed-certificates-in-a-u.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/packaged-contact-center-enterprise/215354-exchange-self-signed-certificates-in-a-p.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/215445-exchange-self-signed-certificates-in-a-u.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/packaged-contact-center-enterprise-1261/220693-exchange-self-signed-certificates-in-a-p.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/packaged-contact-center-enterprise/220730-implement-ca-signed-certificates-in-a-cc.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1261/218324-exchange-certificates-with-contact-cente.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/217947-configure-contact-center-enterprise-virt.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/217947-configure-contact-center-enterprise-virt.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/217947-configure-contact-center-enterprise-virt.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/packaged-contact-center-enterprise-1261/217681-provision-google-ccai-hybrid-services-wi.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/packaged-contact-center-enterprise/215354-exchange-self-signed-certificates-in-a-p.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/packaged-contact-center-enterprise-1201/214845-manage-pcce-components-certificate-for-s.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/215445-exchange-self-signed-certificates-in-a-u.html",
+    "depth": 2
+  },
+  {
+    "url": "http://www.cisco.com/cisco/web/support/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1261/220481-configure-ucce-single-sign-on-with-azure.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1261/220481-configure-ucce-single-sign-on-with-azure.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1261/220481-configure-ucce-single-sign-on-with-azure.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1251/216185-configuration-of-ca-signed-multi-server.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1251/216185-configuration-of-ca-signed-multi-server.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise-1251/216185-configuration-of-ca-signed-multi-server.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/220123-configure-secure-rtp-in-contact-center-e.pdf",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/220123-configure-secure-rtp-in-contact-center-e.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/220123-configure-secure-rtp-in-contact-center-e.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-enterprise/218434-configure-secure-sip-signaling-in-contac.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/services/order-services.html",
     "depth": 2
   }
 ]
