@@ -21329,3 +21329,431 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://community.cisco.com/t5/small-business-support-community/ct-p/5541-small-business-support
+
+Heads Up :  The post you are writing will appear in a public forum. Please ensure all content is appropriate for public consumption. Review the employee guidelines for the community [here](https://community.cisco.com/t5/cisco-employee-guidelines/cisco-community-post-guidelines/ta-p/5332773 "guidelines"). 
+Cancel Post
+[ Community ](https://community.cisco.com/ "Cisco Community")
+###  Technology and Support
+Back
+Technology and Support
+Close
+  * [Technology and Support Home](javascript:void\(0\);)
+  * [Networking](javascript:void\(0\);)
+  * [Wireless and Mobility](javascript:void\(0\);)
+  * [Security](javascript:void\(0\);)
+  * [IOT](javascript:void\(0\);)
+  * [Webex](javascript:void\(0\);)
+  * [Collaboration](javascript:void\(0\);)
+  * [Data Center and Cloud](javascript:void\(0\);)
+  * [Small Business Support](javascript:void\(0\);)
+  * [Cisco Software](javascript:void\(0\);)
+  * [Service Providers](javascript:void\(0\);)
+  * [Services](javascript:void\(0\);)
+  * [Online Tools and Resources](javascript:void\(0\);)
+
+
+Close
+###  Guided Resources
+Back
+Guided Resources
+Close
+  * [Guided Resources Home](javascript:void\(0\);)
+  * [Data Center](javascript:void\(0\);)
+  * [Networking](javascript:void\(0\);)
+  * [Security](javascript:void\(0\);)
+  * [Services (CX)](javascript:void\(0\);)
+  * [Solutions](javascript:void\(0\);)
+
+
+Close
+###  DevNet Hub
+Back
+DevNet Hub
+Close
+  * [DevNet Community Home](javascript:void\(0\);)
+  * [DevNet Collaboration](javascript:void\(0\);)
+  * [DevNet Networking](javascript:void\(0\);)
+  * [DevNet Security](javascript:void\(0\);)
+  * [DevNet Cloud Native](javascript:void\(0\);)
+  * [DevNet Data Center](javascript:void\(0\);)
+  * [DevNet Internet of Things](javascript:void\(0\);)
+  * [DevNet Site](javascript:void\(0\);)
+  * [DevNet Services](javascript:void\(0\);)
+  * [DevNet Observability](javascript:void\(0\);)
+  * [DevOps](javascript:void\(0\);)
+
+
+Close
+###  Partner Hub
+Back
+Partner Hub
+Close
+Close
+###  Webinars and Events
+Back
+Webinars and Events
+Close
+  * [Webinars and Events Home](javascript:void\(0\);)
+
+
+Close
+###  How to use the Community
+Back
+How to use the Community
+Close
+  * [Getting Started in Cisco Community Home](javascript:void\(0\);)
+  * [Cisco and Community News](javascript:void\(0\);)
+  * [Members and Recognition](javascript:void\(0\);)
+  * [Community at Cisco Live](javascript:void\(0\);)
+  * [Community Enhancements Ideas](javascript:void\(0\);)
+  * [Project Gallery](javascript:void\(0\);)
+
+
+Close
+###  Cisco Insider
+Back
+Cisco Insider
+Close
+  * [Cisco Insider Welcome](javascript:void\(0\);)
+  * [Cisco Insider User Group Archives](javascript:void\(0\);)
+  * [Cisco Insider Champion Group](javascript:void\(0\);)
+  * [Intersight Insider Group Hub](javascript:void\(0\);)
+
+
+Close
+[ Buy or Renew ](https://community.cisco.com/t5/small-business-support-community/ct-p/5541-small-business-support)
+EN US
+  * [Chinese](https://community.cisco.com/t5/%E6%80%9D%E7%A7%91%E7%A4%BE%E5%8C%BA/ct-p/chinese-community?profile.language=zh-CN)
+  * [EN US](https://community.cisco.com/t5/technology-and-support/ct-p/technology-support?profile.language=en)
+  * [French](https://community.cisco.com/t5/communaut%C3%A9-cisco-en-fran%C3%A7ais/ct-p/communaute-francais?profile.language=fr)
+  * [Japanese](https://community.cisco.com/t5/japan/ct-p/japanese-community?profile.language=ja)
+  * [Korean](https://community.cisco.com/t5/%ED%95%9C%EA%B5%AD%EC%96%B4-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/ct-p/korean?profile.language=ko)
+  * [Portuguese](https://community.cisco.com/t5/comunidade-da-cisco/ct-p/comunidade-portugues?profile.language=pt)
+  * [Spanish](https://community.cisco.com/t5/comunidad-de-cisco/ct-p/comunidad-espanol?profile.language=es)
+
+
+Log In
+MENU
+CLOSE
+[ Buy or Renew ](https://community.cisco.com/t5/small-business-support-community/ct-p/5541-small-business-support)
+Log In
+EN US
+  * [Chinese](https://community.cisco.com/t5/%E6%80%9D%E7%A7%91%E7%A4%BE%E5%8C%BA/ct-p/chinese-community?profile.language=zh-CN)
+  * [EN US](https://community.cisco.com/t5/technology-and-support/ct-p/technology-support?profile.language=en)
+  * [French](https://community.cisco.com/t5/communaut%C3%A9-cisco-en-fran%C3%A7ais/ct-p/communaute-francais?profile.language=fr)
+  * [Japanese](https://community.cisco.com/t5/japan/ct-p/japanese-community?profile.language=ja)
+  * [Korean](https://community.cisco.com/t5/%ED%95%9C%EA%B5%AD%EC%96%B4-%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/ct-p/korean?profile.language=ko)
+  * [Portuguese](https://community.cisco.com/t5/comunidade-da-cisco/ct-p/comunidade-portugues?profile.language=pt)
+  * [Spanish](https://community.cisco.com/t5/comunidad-de-cisco/ct-p/comunidad-espanol?profile.language=es)
+
+
+[Introducing Your New Product-Focused Community Homepage! See the announcement post](https://community.cisco.com/t5/other-topics-small-business/introducing-your-new-product-focused-community-homepage/m-p/5321681#M575)
+# Small Business Support Community
+Explore what Cisco has to offer for your small business IT needs. Learn from your peers and Cisco experts. 
+Enter a search word
+[Turn off suggestions](https://community.cisco.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/5541-small-business-support&t:cp=action/contributions/searchactions)
+Enter a search word
+[Turn off suggestions](https://community.cisco.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/5541-small-business-support&t:cp=action/contributions/searchactions)
+Enter a user name or rank
+[Turn off suggestions](https://community.cisco.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/5541-small-business-support&t:cp=action/contributions/searchactions)
+Enter a search word
+[Turn off suggestions](https://community.cisco.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/5541-small-business-support&t:cp=action/contributions/searchactions)
+Enter a search word
+[Turn off suggestions](https://community.cisco.com/t5/community/categorypage.disableautocomplete:disableautocomplete?t:ac=category-id/5541-small-business-support&t:cp=action/contributions/searchactions)
+cancel
+[Turn on suggestions](https://community.cisco.com/t5/community/categorypage.enableautocomplete:enableautocomplete?t:ac=category-id/5541-small-business-support&t:cp=action/contributions/searchactions) [](https://community.cisco.com/t5/small-business-support-community/ct-p/5541-small-business-support)
+Showing results for 
+Search instead for [](https://community.cisco.com/t5/small-business-support-community/ct-p/5541-small-business-support)
+Did you mean: [](https://community.cisco.com/t5/small-business-support-community/ct-p/5541-small-business-support)
+All Community Technology and Support
+Results:
+cancel
+[Start a conversation](https://community.cisco.com/plugins/common/feature/saml/doauth/post?login=true&idp=http://www.okta.com/exk14y7an41P2yBKm5d7&referer=https%3A%2F%2Fcommunity.cisco.com%2Ft5%2Fsmall-business-support-community%2Fct-p%2F5541-small-business-support)
+  * [Cisco Community](https://community.cisco.com/)
+  * [Technology and Support](https://community.cisco.com/t5/technology-and-support/ct-p/technology-support)
+  * Small Business Support Community
+
+
+[Options](https://community.cisco.com/t5/small-business-support-community/ct-p/5541-small-business-support "Show option menu")
+  * Subscribe
+
+
+Browse posts by product
+Switches
+Routers
+Wireless
+Voice and Conferencing
+Network Management
+Cisco Catalyst
+  * [Catalyst 1200](https://community.cisco.com/t5/custom/page/page-id/customFilteredByMultiLabel?board=5976-discussions-small-business-switches&labels=Catalyst%201200%20Series)
+  * [Catalyst 1300](https://community.cisco.com/t5/custom/page/page-id/customFilteredByMultiLabel?board=5976-discussions-small-business-switches&labels=Catalyst%201300%20Series)
+
+
+Cisco Business
+  * [CBS110](https://community.cisco.com/t5/custom/page/page-id/customFilteredByMultiLabel?board=5976-discussions-small-business-switches&labels=Cisco%20Business%20110%20Series%20Unmanaged%20Switches)
+  * [CBS250](https://community.cisco.com/t5/custom/page/page-id/customFilteredByMultiLabel?board=5976-discussions-small-business-switches&labels=Cisco%20Business%20250%20Series%20Smart%20Switches)
+  * [CBS350](https://community.cisco.com/t5/custom/page/page-id/customFilteredByMultiLabel?board=5976-discussions-small-business-switches&labels=Cisco%20Business%20350%20Series%20Managed%20Switches)
+
+
+Cisco Switching
+  * [350](https://community.cisco.com/t5/custom/page/page-id/customFilteredByMultiLabel?board=5976-discussions-small-business-switches&labels=Cisco%20350%20Series%20Managed%20Switches)
+  * [550X](https://community.cisco.com/t5/custom/page/page-id/customFilteredByMultiLabel?board=5976-discussions-small-business-switches&labels=Cisco%20550X%20Series%20Stackable%20Managed%20Switches)
+
+
+[View all topics for Switches](https://community.cisco.com/t5/-/bd-p/5976-discussions-small-business-switches)
+## Activity in Small Business Support Community
+Sorted by: Most recent Most viewed Most commented Most helpful
+[Start a conversation](https://community.cisco.com/plugins/common/feature/saml/doauth/post?login=true&idp=http://www.okta.com/exk14y7an41P2yBKm5d7&referer=https%3A%2F%2Fcommunity.cisco.com%2Ft5%2Fsmall-business-support-community%2Fct-p%2F5541-small-business-support)
+###  [Request for1.5.1. RV320 Firmware 13 Download](https://community.cisco.com/t5/online-chat-support/request-for1-5-1-rv320-firmware-13-download/td-p/5569178/jump-to/first-unread-message "Request for1.5.1. RV320 Firmware 13 Download")
+Request for1.5.1. RV320/RV325 Firmware 13 Download (EOL Product) 
+08-12-2026 6:56:06 PM 
+| 
+** Posted in  [Online Chat Support](https://community.cisco.com/t5/online-chat-support/bd-p/4841-discussions-online-chat-support) **
+[ ![rwojtowicz02](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1722827) ** by  [ rwojtowicz02 ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1722827) ** • _Community Member_
+  * **18** Views
+  * **0** replies
+  * **0** Helpful votes
+
+
+###  [CBS 350 Private VLAN Promiscuous Trunk](https://community.cisco.com/t5/switches-small-business/cbs-350-private-vlan-promiscuous-trunk/td-p/5569134/jump-to/first-unread-message "CBS 350 Private VLAN Promiscuous Trunk")
+Hello,I am trying to configure a CBS350 with isolated Private VLANs and a router on a stick.I got so far as to configure the ports I want to isolate as a "Private VLAN - Host".I cannot find a way to configure a Private VLAN Promiscous Trunk Port (A T... 
+08-12-2026 8:30:51 AM 
+| 
+** Posted in  [Switches - Small Business](https://community.cisco.com/t5/switches-small-business/bd-p/5976-discussions-small-business-switches) **
+[ ![bergerb](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2101112) ** by  [ bergerb ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2101112) ** • _Community Member_
+  * **80** Views
+  * **1** replies
+  * **0** Helpful votes
+
+
+###  [Problems with My learning](https://community.cisco.com/t5/online-chat-support/problems-with-my-learning/td-p/4994038/jump-to/first-unread-message "Problems with My learning")
+Hi, I completed a course of Cisco Netacad "IoT Big Data y Analytics", but did not give me the certification. I had compleate all the course... help me... please 
+01-10-2024 6:01:12 PM 
+| 
+** Posted in  [Online Chat Support](https://community.cisco.com/t5/online-chat-support/bd-p/4841-discussions-online-chat-support) **
+[ ![19060007](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1662736) ** by  [ 19060007 ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1662736) ** • _Community Member_
+  * **489** Views
+  * **2** replies
+  * **0** Helpful votes
+
+
+###  [Configuring Cisco 881W, but not using the wireless functions](https://community.cisco.com/t5/routers-small-business/configuring-cisco-881w-but-not-using-the-wireless-functions/td-p/5567994/jump-to/first-unread-message "Configuring Cisco 881W, but not using the wireless functions")
+I have a Cisco 881 W router which I'm configuring for home-office use. At least for my initial setup, I do not want to use or enable the wireless functionality. The default configuration has this line "service-module wlan-ap 0 bootimage autonomous"... 
+08-04-2026 9:50:45 PM 
+| 
+** Posted in  [Routers - Small Business](https://community.cisco.com/t5/routers-small-business/bd-p/5951-discussions-small-business-routers) **
+[ ![rdk_cisco1](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/42033) ** by  [ rdk_cisco1 ](https://community.cisco.com/t5/user/viewprofilepage/user-id/42033) ** • _Level 4_
+  * **159** Views
+  * **3** replies
+  * **0** Helpful votes
+
+
+###  [150AX on different subnets ?!](https://community.cisco.com/t5/wireless-small-business/150ax-on-different-subnets/td-p/5563211/jump-to/first-unread-message "150AX on different subnets ?!")
+While migrating away from a legacy setup, we're adding a bunch of 150AX into our production network which will live on different VLANs. These VLANs are routed transparently, meaning traffic can flow freely between them. After adding two 150AX on VLA... 
+07-09-2026 4:35:43 AM 
+| 
+** Posted in  [Wireless - Small Business](https://community.cisco.com/t5/wireless-small-business/bd-p/5946-discussions-small-business-wireless) **
+[ ![ThoseBusPeople](https://community.cisco.com/t5/image/serverpage/avatar-name/bus/avatar-theme/candy/avatar-collection/transit/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2072648) ** by  [ ThoseBusPeople ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2072648) ** • _Level 2_
+  * **665** Views
+  * **16** replies
+  * **0** Helpful votes
+
+
+###  [RV series routers and NordVPN](https://community.cisco.com/t5/routers-small-business/rv-series-routers-and-nordvpn/td-p/3775380/jump-to/first-unread-message "RV series routers and NordVPN")
+Hello all,I'd like to buy a subscription to either NordVPN or ExpressVPN (preferably NordVPN) and, while they have their suggestions for wifi routers, I have a layer 3 switch and want to get my home behind the router. I have wifi, but that functions... 
+01-08-2019 11:05:01 AM 
+| 
+** Posted in  [Routers - Small Business](https://community.cisco.com/t5/routers-small-business/bd-p/5951-discussions-small-business-routers) **
+[ ![jeclutterbuck](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2414) ** by  [ jeclutterbuck ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2414) ** • _Community Member_
+  * **2531** Views
+  * **2** replies
+  * **10** Helpful votes
+
+
+###  [CBW150AX-E How to change captive portal IP 192.0.2.1 to an FQDN](https://community.cisco.com/t5/wireless-small-business/cbw150ax-e-how-to-change-captive-portal-ip-192-0-2-1-to-an-fqdn/td-p/5568786/jump-to/first-unread-message "CBW150AX-E How to change captive portal IP 192.0.2.1 to an FQDN")
+Hello,I am configuring a Guest Wi-Fi and noticed that when clients connect from iPhones they see a certificate warning for 192.0.2.1 which I need to resolve.I thought to register an ssl certificate for a domain like wifi.mydomain.com but I am not sur... 
+08-11-2026 1:11:13 AM 
+| 
+** Posted in  [Wireless - Small Business](https://community.cisco.com/t5/wireless-small-business/bd-p/5946-discussions-small-business-wireless) **
+[ ![gmineo69](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2100620) ** by  [ gmineo69 ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2100620) ** • _Community Member_
+  * **89** Views
+  * **0** replies
+  * **0** Helpful votes
+
+
+###  [Port-Channel don't come up after firmware upgrade on C1300-24FP-4G](https://community.cisco.com/t5/findit-network-management-discussions/port-channel-don-t-come-up-after-firmware-upgrade-on-c1300-24fp/td-p/5568779/jump-to/first-unread-message "Port-Channel don't come up after firmware upgrade on C1300-24FP-4G")
+Hello,I upgraded the firmware of my Cisco Catalyst 1300-24FP-4G switch from 4.0.0.91 to 4.1.9.85. Previously, on the old version, the port-channel was working fine with Cisco Catalyst 1300-24XS (version 4.1.3.36).Interfaces detail which were bundled ... 
+08-11-2026 12:15:49 AM 
+| 
+** Posted in  [FindIT Network Management Discussions](https://community.cisco.com/t5/findit-network-management-discussions/bd-p/2116-discussions-findit) **
+[ ![junaidsheykh](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2100607) ** by  [ junaidsheykh ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2100607) ** • _Community Member_
+  * **75** Views
+  * **0** replies
+  * **0** Helpful votes
+
+
+###  _Resolved!_ [Update failure CBW150AX-E](https://community.cisco.com/t5/wireless-small-business/update-failure-cbw150ax-e/td-p/5568652/jump-to/first-unread-message "Update failure CBW150AX-E")
+Hello,I bought 2 Wi-Fi6 CBW150AX-E access points to benefit from roaming at home and I face a firmware update issue on both devices. I cannot solve it with the Cisco Business mobile app and would like to have it fixed. Any idea?Regards 
+08-10-2026 5:58:40 AM 
+| 
+** Posted in  [Wireless - Small Business](https://community.cisco.com/t5/wireless-small-business/bd-p/5946-discussions-small-business-wireless) **
+[ ![BMD13](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2100396) ** by  [ BMD13 ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2100396) ** • _Community Member_
+  * **131** Views
+  * **5** replies
+  * **0** Helpful votes
+
+
+###  [Looking for Cisco WAP4410N Access Point Firmware 2.0.7.8](https://community.cisco.com/t5/wireless-small-business/looking-for-cisco-wap4410n-access-point-firmware-2-0-7-8/td-p/5568746/jump-to/first-unread-message "Looking for Cisco WAP4410N Access Point Firmware 2.0.7.8")
+Hello, I am currently running an old WAP4410N Hardware V2 device on firmware 2.0.6.1. I need to upgrade to the final release 2.0.7.8 due to critical safety and connection stability issues, but it was removed from the official software center. Can any... 
+08-10-2026 8:04:56 PM 
+| 
+** Posted in  [Wireless - Small Business](https://community.cisco.com/t5/wireless-small-business/bd-p/5946-discussions-small-business-wireless) **
+[ ![vjaleitao](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2100562) ** by  [ vjaleitao ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2100562) ** • _Community Member_
+  * **44** Views
+  * **0** replies
+  * **0** Helpful votes
+
+
+###  _Resolved!_ [Connecting CBW AP to DHCP Server In Different Subnet](https://community.cisco.com/t5/wireless-small-business/connecting-cbw-ap-to-dhcp-server-in-different-subnet/td-p/5568692/jump-to/first-unread-message "Connecting CBW AP to DHCP Server In Different Subnet")
+Hi guys,I have a CBW140AC-B that I am trying to set up as a Primary AP for a new network. The AP is plugged into a trunk port on a Catalyst 1300 switch. The switch, which is on VLAN 1, also acts as a DHCP server with a scope for both VLAN 1 and VLAN ... 
+08-10-2026 10:02:12 AM 
+| 
+** Posted in  [Wireless - Small Business](https://community.cisco.com/t5/wireless-small-business/bd-p/5946-discussions-small-business-wireless) **
+[ ![celliott](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2100457) ** by  [ celliott ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2100457) ** • _Community Member_
+  * **128** Views
+  * **2** replies
+  * **0** Helpful votes
+
+
+###  _Resolved!_ [How to set SG200-08P to factory default settings](https://community.cisco.com/t5/switches-small-business/how-to-set-sg200-08p-to-factory-default-settings/td-p/1761791/jump-to/first-unread-message "How to set SG200-08P to factory default settings")
+We need to "reset" a SG200-08P switch back to the factory default settings and noted the "Quick Start Guide" implies the "Reset" button next to the power button doesn't exist and refers the user to the "Cisco Small Business Smart Switch Administratio... 
+10-19-2011 1:11:45 PM 
+| 
+** Posted in  [Switches - Small Business](https://community.cisco.com/t5/switches-small-business/bd-p/5976-discussions-small-business-switches) **
+[ ![kenbucknam](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/207818) ** by  [ kenbucknam ](https://community.cisco.com/t5/user/viewprofilepage/user-id/207818) ** • _Community Member_
+  * **116219** Views
+  * **13** replies
+  * **0** Helpful votes
+
+
+###  [I need to change the name in Pearson Vue in order to book an exam](https://community.cisco.com/t5/online-chat-support/i-need-to-change-the-name-in-pearson-vue-in-order-to-book-an/td-p/5566014/jump-to/first-unread-message "I need to change the name in Pearson Vue in order to book an exam")
+I need to change the name in Pearson Vue in order to book an exam. I is different from my Netacad name. 
+07-24-2026 2:55:03 AM 
+| 
+** Posted in  [Online Chat Support](https://community.cisco.com/t5/online-chat-support/bd-p/4841-discussions-online-chat-support) **
+[ ![Chanaka Hettiarachchi](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2095824) ** by  [ Chanaka Hettiarachchi ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2095824) ** • _Community Member_
+  * **176** Views
+  * **3** replies
+  * **0** Helpful votes
+
+
+###  [Vlan problem with HPE InstantOn 1930 and SG350-10](https://community.cisco.com/t5/switches-small-business/vlan-problem-with-hpe-instanton-1930-and-sg350-10/td-p/5568408/jump-to/first-unread-message "Vlan problem with HPE InstantOn 1930 and SG350-10")
+Hi All,I'm not experienced enough with VLAN's, and need an advice.I have a problems with configuring Vlans on Cisco SG-350-10I have a router Zyxel Zywall 110 with 4 vlans 40,70,80,100.After i have connected HPE Switch with port 1 in trunk mode accept... 
+![bkotelyak_0-1786114847109.png](https://community.cisco.com/t5/image/serverpage/image-id/285530iC1A89F8E3CC806DC/image-size/medium?v=v2&px=400) ![bkotelyak_1-1786114879998.png](https://community.cisco.com/t5/image/serverpage/image-id/285531i1B04C3DEA1717B95/image-size/medium?v=v2&px=400) ![bkotelyak_2-1786114897912.png](https://community.cisco.com/t5/image/serverpage/image-id/285532i2D2BD23C1FE7F9E1/image-size/medium?v=v2&px=400) ![bkotelyak_3-1786114910084.png](https://community.cisco.com/t5/image/serverpage/image-id/285533iCC1B5C12F9C2C75C/image-size/medium?v=v2&px=400)
+08-07-2026 8:04:27 AM 
+| 
+** Posted in  [Switches - Small Business](https://community.cisco.com/t5/switches-small-business/bd-p/5976-discussions-small-business-switches) **
+[ ![bkotelyak](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2099715) ** by  [ bkotelyak ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2099715) ** • _Community Member_
+  * **120** Views
+  * **0** replies
+  * **0** Helpful votes
+
+
+###  _Resolved!_ [Upgrading SG300-10 Firmware from version 1.0.0.27 to version 1.4.8.06](https://community.cisco.com/t5/switches-small-business/upgrading-sg300-10-firmware-from-version-1-0-0-27-to-version-1-4/td-p/3388824/jump-to/first-unread-message "Upgrading SG300-10 Firmware from version 1.0.0.27 to version 1.4.8.06")
+I need to upgrade Firmware on two Cisco switches SG300-10 to the latest version 1.4.8.06. Those switches have currently installed version 1.0.0.27. So, there are 15 Firmware releases in between those two. Can someone please suggest what would be the ... 
+05-24-2018 2:51:19 PM 
+| 
+** Posted in  [Switches - Small Business](https://community.cisco.com/t5/switches-small-business/bd-p/5976-discussions-small-business-switches) **
+[ ![GolosiyS1](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/profile/version/2?xdesc=1.0) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/139614) ** by  [ GolosiyS1 ](https://community.cisco.com/t5/user/viewprofilepage/user-id/139614) ** • _Frequent Visitor_
+  * **10740** Views
+  * **4** replies
+  * **0** Helpful votes
+
+
+[Load more](javascript:;)
+Learn, share, save
+Discover and save your favorite ideas. Come back to expert answers, step-by-step guides, recent topics, and more.
+New here? Get started with these tips. [How to use Community](https://community.cisco.com/t5/community-help-knowledge-base/community-help/ta-p/4662356) [New member guide](https://community.cisco.com/html/assets/Cisco_Community_Journey_Infographic_v4.pdf)
+[Log in to Community ](javascript:void\(0\))
+Quick Links
+[Discover Support Content - Virtual Assistant](https://spyder.cisco.com/app/v1/chat?id=7c62830f-b6d4-42f2-b5eb-60445741a80d) [Contact Information ](https://www.cisco.com/en/US/support/tsd_cisco_small_business_support_center_contacts.html) [Support Page Index ](https://www.cisco.com/c/en/us/support/smb/product-support/small-business.html) [Tech Talks Support Videos ](https://video.cisco.com/category/videos/cisco-tech-talks) [Warranty Finder ](https://connectthedots.cisco.com/connectdots/serviceWarrantyFinderRequest?fl=sf) [Cisco Small Business Device Emulators ](https://www.cisco.com/c/en/us/support/smb/product-support/small-business/Device-Emulators-Small-Business.html) [Online Chat ](https://community.cisco.com/t5/online-chat-support/bd-p/4841-discussions-online-chat-support)
+Top Experts - Last 30 Days  
+|  User  |  Helpful Count   |  
+| --- | --- |  
+|  [ ![enyc](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/message/version/2?xdesc=1.0) enyc ![Frequent Visitor](https://community.cisco.com/html/@C30C6746B0733E82D2E482CEEE4B196A/rank_icons/rank-1.png) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1753319)  |  2   |  
+|  [ ![syedmu](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/message/version/2?xdesc=1.0) syedmu ](https://community.cisco.com/t5/user/viewprofilepage/user-id/1735007)  |  1   |  
+|  [ ![tom.fransen](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/message/version/2?xdesc=1.0) tom.fransen ![Level 2](https://community.cisco.com/html/@D9D93A96197059E454C908C73833EA48/rank_icons/rank-3.png) ](https://community.cisco.com/t5/user/viewprofilepage/user-id/784175)  |  1   |  
+|  [ ![Tom Watts](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/message/version/2?xdesc=1.0) ![VIP Alumni](https://community.cisco.com/html/@12081795D2F699262D393B2D1368AF1C/badge_icons/CiscoCommunityBadges_2023_VipAlumni_14x14.png) Tom Watts ](https://community.cisco.com/t5/user/viewprofilepage/user-id/325318)  |  1   |  
+|  [ ![slash75000](https://community.cisco.com/t5/image/serverpage/avatar-name/default_icon/avatar-theme/candy/avatar-collection/Cisco_Default/avatar-display-size/message/version/2?xdesc=1.0) slash75000 ](https://community.cisco.com/t5/user/viewprofilepage/user-id/2094241)  |  1   |  
+[View Leaderboard](https://community.cisco.com/t5/forums/kudosleaderboardpage/category-id/5541-small-business-support/timerange/one_month/page/1/tab/authors)
+[Top](https://community.cisco.com/t5/small-business-support-community/ct-p/5541-small-business-support)
+* * *
+Quick Links 
+  * [Contacts](https://www.cisco.com/c/en/us/about/contact-cisco.html)
+
+
+[](https://www.facebook.com/CiscoCommunity/ "facebook") [](https://twitter.com/CiscoCommunity "twitter") [](https://www.linkedin.com/showcase/cisco-community/ "linkedin") [](https://www.youtube.com/@CiscoCommunity "youtube") [](https://www.instagram.com/cisco_community/ "instagram") [](https://bsky.app/profile/community.cisco.com "bluesky")
+Resources and Legal 
+  * [Report Community Issue](javascript:void\(0\);)
+  * [Help](https://community.cisco.com/t5/community-help-knowledge-base/community-help/ta-p/4662356)
+  * [Terms & Conditions](https://community.cisco.com/t5/community-help-knowledge-base/cisco-community-acceptable-use-agreement/ta-p/4661660)
+  * [ Privacy Statement ](http://www.cisco.com/web/siteassets/legal/privacy_full.html)
+  * [ Cookie Policy ](http://www.cisco.com/web/siteassets/legal/privacy_full.html#cookies)
+  * [Trademarks](http://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [Site Map](https://community.cisco.com/t5/custom/page/page-id/community-site-map?f=sm)
+  * [Report Illegal Content](https://community.cisco.com/t5/community-help-knowledge-base/eu-digital-services-act-dsa/ta-p/5012720)
+
+
+[](https://www.facebook.com/CiscoCommunity/ "facebook") [](https://twitter.com/CiscoCommunity "twitter") [](https://www.linkedin.com/showcase/cisco-community/ "linkedin") [](https://www.youtube.com/@CiscoCommunity "youtube") [](https://www.instagram.com/cisco_community/ "instagram")
+©2026 Cisco Systems, Inc.
+Auto-suggest helps you quickly narrow down your search results by suggesting possible matches as you type.
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
