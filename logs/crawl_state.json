@@ -7950,5 +7950,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-preferences": {
     "hash": "55be2bd65779a5b603d6266720a3a495adccb73003555050a0091028b4bf3343",
     "timestamp": "2026-08-13T02:09:29.185718"
+  },
+  "https://developer.webex.com/docs/api/v1/recordings": {
+    "hash": "6b72e70ac4365dc4a8321ddd657ff30bc939287aab04cbe6101d3b6dd58ee227",
+    "timestamp": "2026-08-13T02:09:35.483591"
   }
 }
