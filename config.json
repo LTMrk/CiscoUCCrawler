@@ -2,12 +2,37 @@
   "global_settings": {
     "default_max_depth": 3,
     "request_delay_seconds": 1,
-    "word_count_threshold": 20
+    "word_count_threshold": 20,
+    "default_css_selector": "#fw-content, main, article, .content, .cisco-content"
   },
   "domain_depths": {
     "developer.webex.com": 3,
     "help.webex.com": 3,
     "cisco.com": 3,
     "developer.cisco.com": 3
-  }
+  },
+  "seeds": [
+    "https://developer.webex.com/",
+    "https://help.webex.com/en-us/"
+  ],
+  "blocked_patterns": [
+    "careers.cisco.com",
+    "jobs.cisco.com",
+    "/pt-br/",
+    "/es-es/",
+    "cloudapps.cisco.com",
+    "webexengage.io"
+  ],
+  "custom_behaviors": [
+    {
+      "pattern": "developer.webex.com",
+      "css_selector": "#fw-content, main, article, .content, .cisco-content, .api-reference, .mdx-content, [class*='api'], [class*='markdown'], #swagger-ui, .redoc-wrap",
+      "js_code": "await new Promise(r => setTimeout(r, 10000));"
+    },
+    {
+      "pattern": "developer.cisco.com",
+      "css_selector": "#fw-content, main, article, .content, .cisco-content, .api-reference, .mdx-content, [class*='api'], [class*='markdown'], #swagger-ui, .redoc-wrap",
+      "js_code": "await new Promise(r => setTimeout(r, 10000));"
+    }
+  ]
 }
