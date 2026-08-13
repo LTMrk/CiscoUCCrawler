@@ -8082,5 +8082,9 @@
   "https://developer.webex.com/docs/api/v1/recordings/list-recordings-for-an-admin-or-compliance-officer": {
     "hash": "387cb31682e17b27e7997baae340402819b858c2f0d6e62b341fb72c7a6c659a",
     "timestamp": "2026-08-13T12:52:16.982975"
+  },
+  "https://developer.webex.com/docs/api/v1/recordings/query-recordings-for-an-admin-or-compliance-officer": {
+    "hash": "f129fe14603afa0d02e0a2c91c002b9ce67e1cb0899cc201364d9ce374c87ad6",
+    "timestamp": "2026-08-13T12:52:23.155118"
   }
 }
