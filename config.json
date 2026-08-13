@@ -60,15 +60,15 @@
 "/privacy",
 "trust.cisco.com"
   ],
-  "custom_behaviors": [
+    "custom_behaviors": [
     {
       "pattern": "developer.webex.com",
-      "css_selector": "#fw-content, main, article, .content, .cisco-content, .api-reference, .mdx-content, [class*='api'], [class*='markdown'], #swagger-ui, .redoc-wrap",
+      "css_selector": "#fw-content, main, article, .content, .cisco-content, .api-reference, .mdx-content, [class*='api'], [class*='markdown'], #swagger-ui, .redoc-wrap, .Api_reference_endpoint_modified__container",
       "js_code": "await new Promise(r => setTimeout(r, 10000));"
     },
     {
       "pattern": "developer.cisco.com",
-      "css_selector": "#fw-content, main, article, .content, .cisco-content, .api-reference, .mdx-content, [class*='api'], [class*='markdown'], #swagger-ui, .redoc-wrap",
+      "css_selector": "#fw-content, main, article, .content, .cisco-content, .api-reference, .mdx-content, [class*='api'], [class*='markdown'], #swagger-ui, .redoc-wrap, .Api_reference_endpoint_modified__container",
       "js_code": "await new Promise(r => setTimeout(r, 10000));"
     }
   ]
