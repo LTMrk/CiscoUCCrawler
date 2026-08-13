@@ -14125,3 +14125,158 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/create/docs/provisioning-on-control-hub
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/create/docs/provisioning-on-control-hub)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/create/docs/provisioning-on-control-hub)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/create/docs/provisioning-on-control-hub)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Provisioning on Control Hub
+Getting Started
+  * [Getting Started](https://developer.webex.com/create/docs)
+  * [Authentication](https://developer.webex.com/create/docs/authentication)
+  * [Login with Webex](https://developer.webex.com/create/docs/login-with-webex)
+  * [AI Assistant for Developers](https://developer.webex.com/create/docs/webex-aI-assistant-for-developers)
+  * Agentic Apps
+    * [Agentic Apps Overview](https://developer.webex.com/create/docs/agentic-apps-overview)
+    * [Onboard Your MCP Server](https://developer.webex.com/create/docs/onboard-your-mcp-server)
+    * [Onboard Your Agent](https://developer.webex.com/create/docs/onboard-your-agent)
+    * [Submit to App Hub & Badging](https://developer.webex.com/create/docs/agentic-apps-app-hub)
+    * [Provisioning on Control Hub](https://developer.webex.com/create/docs/provisioning-on-control-hub)
+  * Bots
+  * Embedded Apps
+  * Integrations
+  * Service Apps
+  * Instant Connect
+  * Workspace Integrations
+  * Bring Your Own Datasource
+  * [Suite Sandbox](https://developer.webex.com/create/docs/developer-sandbox-guide)
+  * [Contact Center Sandbox](https://developer.webex.com/create/docs/sandbox_cc)
+  * [Guest to Guest Sandbox](https://developer.webex.com/create/docs/g2g-sandbox)
+  * [Submit Your App](https://developer.webex.com/create/docs/app-hub-submission-process)
+  * [Tutorials](https://developer.webex.com/create/docs/tutorials)
+
+
+## Getting Started
+### Provisioning on Control Hub
+Use the [Webex Control Hub](https://admin.webex.com/) to provision Agentic Apps for your organization. This includes configuring user access and authentication, and defining governance controls to manage which agentic capabilities are available to organizational users.
+Users acknowledge and agree that they bear full responsibility for understanding, complying with, and managing all aspects of the liability framework related to their use of MCP applications.
+This guide is for administrators only. This includes configuring user access and authentication, and defining governance controls to manage which agentic capabilities are available to organizational users.
+####  anchorAccessing your Agentic Apps
+anchor
+In Control Hub, go to **Apps → Agentic Apps**.
+![Control Hub Apps Page](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt82454d503a61f12e/698aec65a788a71c4ba07c95/agentic-app-governance-guide-1.png)  
+
+This page lists all public Agentic Apps along with the private apps which have been onboarded by users belonging to your organization.
+![Control Hub Agentic Apps Page](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt75c6260fc41473ab/698aec65a86c496e39a69eb4/agentic-app-governance-guide-2.png)  
+
+####  anchorGeneral
+anchor
+After selecting an app from the list, from the **General** tab, you can configure the app to be allowed or blocked for all users of your organization.
+![Agentic App General Page](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltab97ecbf2a5dd8d1/6a1dba1a0836f900fba39cad/agentic-app-governance-guide-7.png)  
+
+Authorize automatic server data updates - When enabled, updates to the server's name, description, URL (within the same domain), transport type, or other metadata do not require re-authorization before they take effect. However, the admin will see an indication that changes have occurred and can re-authorize at their discretion.
+####  anchorAuthentication
+anchor
+Cisco official servers are automatically configured. You should update the authentication settings mentioned below only if you need to change the default authentication.
+The **Authentication** section asks users for details according to the configuration set in the Developer Portal. Supported methods:  
+| Method  | What to provide  |  
+| --- | --- |  
+| **OAuth 2.0 – Client Credentials**  | Client ID, Client Secret, Authorization Server URL, Token Endpoint Auth Method, Scope  |  
+| **OAuth 2.0 – Authorization Code**  | Client ID, Client Secret, Registration Endpoint, Authorization Endpoint, Authorization Server URL, Token Endpoint Auth Method, Scope  |  
+| **User Token**  | No input required  |  
+| **API Key**  | The API key  |  
+| **Custom Headers**  | Up to five (5) key–value pairs  |  
+For OAuth 2.0 – Client Credentials, the Token Endpoint Auth Method can be `client_secret_basic` or `client_secret_post`. For OAuth 2.0 – Authorization Code, it can be `none`, `client_secret_basic`, or `client_secret_post`.
+![Agentic App Auth Page](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltf6f108d8d67142a6/698aec650228b55116cd4021/agentic-app-governance-guide-4.png)
+Custom Headers are configurable for all authentication types.
+####  anchorCapabilities Configuration
+anchor
+For MCP Servers, you will see three tabs - one for **Tools** , one for **Resources** and one for **Prompts**.
+![Agentic App Tools Page](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt84a91147f57b191d/698aec65a788a7015ba07c99/agentic-app-governance-guide-5.png)  
+
+###### Tools
+In the Tools section you can do the following:
+  1. **Enable tool:** When a tool is enabled by the org admin, it becomes available to users on the client side. Users can discover and use the tool based on the access configured by the admin.
+  2. **Disable tool:** When a tool is disabled by the org admin, it is no longer visible or available to users on the client side. This allows admins to restrict access to tools that should not be used within the organization.
+  3. **Signature change:** When enabled, tools remain accessible to users even if the tool's schema changes after authorization. Org admins do not need to re-authorize each tool when its schema is updated by the developer. However, an indication is shown that the tool signature has drifted from what was originally approved.
+  4. **Review individual tool details:** Admins can review the details of each tool, including its input schema, output schema, and annotations. This helps admins understand what data the tool accepts, what response it returns, and any additional metadata associated with the tool.
+  5. **Review and reauthorize schema changes:** After an admin authorizes a server, any subsequent changes to tool schemas will require admin review and re-authorization. The admin must review the updated schema and re-authorize to update the approved baseline. This applies regardless of whether the tool signature change setting allows continued access - re-authorization is always needed to formally approve the new schema.
+
+
+![Agentic App Review Page](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltca121c6dcfa6eb84/698aec65885c51f35379d6f2/agentic-app-governance-guide-6.png)  
+
+Similar functionalities are available in the Resources and Prompts pages.
+##### In This Article
+  * [Accessing your Agentic Apps](https://developer.webex.com/create/docs/provisioning-on-control-hub#accessing-your-agentic-apps)
+  * [General](https://developer.webex.com/create/docs/provisioning-on-control-hub#general)
+  * [Authentication](https://developer.webex.com/create/docs/provisioning-on-control-hub#authentication)
+  * [Capabilities Configuration](https://developer.webex.com/create/docs/provisioning-on-control-hub#capabilities-configuration)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
