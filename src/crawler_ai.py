@@ -220,15 +220,15 @@ async def deep_crawl():
             try:
                 result = await crawler.arun(
                     url=url,
-                    word_count_threshold=word_threshold,
+                    word_count_threshold=5, # Reducido para evitar que descarte bloques pequeños
                     exclude_external_links=True,
-                    remove_overlay_elements=True,
+                    remove_overlay_elements=False, # Desactivado para no borrar elementos flotantes
                     process_iframes=True,
                     cache_mode=CacheMode.BYPASS,
                     magic=True,
-                    excluded_tags=["nav", "footer", "header", "aside", "script", "style"],
-                    css_selector=target_css,
-                    js_code=js_injection
+                    excluded_tags=[], # Sin exclusión de etiquetas para esta prueba
+                    css_selector=None, # Eliminamos el filtro de selectores para capturar todo el DOM
+                    js_code="await new Promise(r => setTimeout(r, 12000));" # Aumentado a 12s
                 )
                 
                 if not result.success:
