@@ -28767,3 +28767,168 @@ Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Fe
   * [Unified Communications Manager IM and Presence Service Version 14](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-im-presence-service-version-14/model.html)
 
 
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)Show All Breadcrumbs
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
+  * [Cisco Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+  * [Troubleshooting TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/products-tech-notes-list.html)
+
+
+# Validate IM and Presence after Ungraceful Shutdown
+![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)
+Download
+Print
+### Available Languages
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)
+
+
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.pdf) (126.6 KB)   
+View with Adobe Reader on a variety of devices
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.epub) (185.4 KB)   
+View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.mobi) (149.4 KB)   
+View on Kindle device or Kindle app on multiple devices
+
+
+Updated:July 21, 2023
+Document ID:220608
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+## Contents
+[Introduction](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html#toc-hId-1419073175)
+[Prerequisites](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html#toc-hId--388381288)
+[Requirements](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html#toc-hId-302180186)
+[Components Used](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html#toc-hId--1505274277)
+[What is an Ungraceful Shutdown?](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html#toc-hId--1515777381)
+[Confirm Ungraceful Shutdown Occurrence](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html#toc-hId-971735452)
+[Validate IM&P System Health](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html#toc-hId--835719011)
+[Disable the Ungraceful Shutdown Warning](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html#toc-hId-1651793822)
+## Introduction
+This document describes the validation process to perform when ungraceful shutdown warnings are experienced on Cisco IM and Presence (IM&P)
+## Prerequisites
+### Requirements
+Cisco recommends that you have knowledge of Cisco IM and Presence (IM&P). 
+### Components Used
+The information in this document is based on Cisco IM and Presence 14.0.1 SU2a
+The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
+## What is an Ungraceful Shutdown? 
+Ungraceful Shutdowns occur when the IM&P server is shutdown or restarted in a unsupported manner. This includes: 
+  * Power outages
+  * VMware Power Off
+  * VMware Reset
+  * VMware Hard Stop
+
+
+The proper method of to shutdown or restart IM&P is to execute the **utils system shutdown** or **utils system restart** command from the CLI of IM&P. 
+For information about the listed utils commands please refer to Cisco [Command Line Interface Reference Guide.](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/14SU2/cucm_b_cli_reference_guide_release_14su2.html "Command Line Interface Reference Guide ")
+**Note** : For information on rebooting a IM&P Cluster please refer to this [Video](https://www.youtube.com/watch?v=ss_XIGprp1Y "Presence - Properly Reboot a Presence Cluster"). 
+## Confirm Ungraceful Shutdown Occurrence
+When a ungraceful shutdown has occurred a warning message is display on the Cisco IM and Presence Administration admin website. 
+[![IM&P Administration Warning](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu-00.png "IM&P Administration Warning")IM&P Administration Warning
+This warning also displays if you log in via SSH or VMWare Console.
+[![CLI Ungraceful Shutdown](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu-01.png "CLI Ungraceful Shutdown")CLI Ungraceful Shutdown
+To confirm that a ungraceful shut down occurred, log into the IM&P CLI and execute**file view install system-history.log**.
+Review the output of the system-history.log. If you see two **Boot** events consecutively without a proceeding shutdown or restart event then a ungraceful shutdown has occurred. 
+admin:file view install system-history.log
+04/06/2023 13:04:36 | root: Install 14.0.1.12901-1 Success 
+04/06/2023 13:42:21 | root: Shutdown 14.0.1.12901-1 Start 
+04/07/2023 04:51:49 | root: Boot 14.0.1.12901-1 Start
+--- Example of a Good System Restart ---
+**07/20/2023 10:22:48 | root: Restart 14.0.1.12901-1 Start**
+**07/20/2023 10:24:35 | root: Boot 14.0.1.12901-1 Start**
+07/20/2023 10:50:50 | root: Restart 14.0.1.12901-1 Start
+--- Example of a Ungraceful Shutdown ---
+**07/20/2023 10:52:43 | root: Boot 14.0.1.12901-1 Start**
+**07/20/2023 11:06:50 | root: Boot 14.0.1.12901-1 Start**
+## Validate IM&P System Health
+To determine the integrity of the effected server perform the listed steps. 
+**Note** : Cisco recommends these steps are performed during a outage window 
+  * Start by downloading the recovery ISO for your IM&P version and [performing a file system check](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html "Obtain and Run Recovery Software on the CUCM VM").
+
+
+**Note** : The recovery ISO can be found at [software.cisco.com](https://software.cisco.com/download/home/280448682 "Recovery ISO Download") The recovery ISO Is listed under the CUCM version that is compatible with your IM&P. 
+  * Once the file system has been verified log into the effected IM&P CLI and execute the listed commands. Verify that all command output is clear of errors or failures. 
+    * utils service list
+    * utils imdb_replication status
+    * utils diagnose test
+    * show network cluster
+    * show tech dbintegrity
+    * utils ntp status
+    * utils ha status
+  * Next, log into the IM&P Publisher CLI and execute the listed commands. Verify the database replication is clear of errors and mismatches. 
+    * utils dbreplication status
+    * utils dbreplication runtimestate
+
+
+**Warning** : During ungraceful shutdown events it is possible that the server can be corrupted, resulting in the server needing to be rebuilt. This is why the ungraceful shutdown warning is displayed anytime a node is unexpectedly rebooted or shutdown.
+## Disable the Ungraceful Shutdown Warning
+Once all the system health checks have been performed proceed with disabling the ungraceful shutdown warning by executing the listed command on the effected node. 
+  * utils ungraceful warn disable
+
+
+**Note** : If your IM&P is running a version less then 12.5.1 SU6 and 14.0.1 SU2 please refer to Cisco bug ID [CSCvy68211](https://tools.cisco.com/bugsearch/bug/CSCvy68211 "Ungraceful shutdown detected message modify to be... rebuild of the node may be required..") as a COP file is needed to enable the **utils ungraceful warn disable** command. 
+### Revision History  
+| Revision  | Publish Date  | Comments  |  
+| --- | --- | --- |  
+| 1.0  |  21-Jul-2023   | Initial Release  |  
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html "Back to Top")
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+### Contributed by Cisco Engineers
+  * Joel Burleigh
+Escalation Engineer
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+### Contact Cisco
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
+
+
+### This Document Applies to These Products
+  * [Unified Communications Manager IM and Presence Service Version 14](https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-im-presence-service-version-14/model.html)
+
+
