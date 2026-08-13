@@ -200,3 +200,4 @@ Code context:
 [2026-08-13T01:59:39.540642] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text on small page (173 bytes, 22 chars visible) | URL: https://idbroker.webex.com/idb
 [2026-08-13T01:59:41.190736] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/my-apps
 [2026-08-13T01:59:59.921979] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://admin.webex.com/apps/embeddedApps
+[2026-08-13T02:00:32.603028] ERROR - Fallo HTTP o Crawler: Blocked by anti-bot protection: Structural: minimal_text on small page (160 bytes, 9 chars visible) | URL: https://developer.webex.com/docs/Webex.Application.Meeting
