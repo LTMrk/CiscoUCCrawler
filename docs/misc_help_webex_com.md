@@ -42525,3 +42525,190 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://help.webex.com/p5k20o
+
+Skip To Content[![webex-logo](https://help.webex.com/logo/webexlogo.png)Help Center](https://help.webex.com/en-us)
+* ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
+* ![search icon](https://help.webex.com/images/search-icon.svg)
+  * [Get started](https://help.webex.com/en-us/getting-started)
+  * [Help by product](https://help.webex.com/en-us/products)
+  * [Administration](https://help.webex.com/en-us/administration)
+  * [What's new](https://help.webex.com/en-us/ld-v6m1dl)
+  * Resources
+Support
+[Join a meeting](https://signin.webex.com/join)
+[Developer Tools![Developer Tools](https://help.webex.com/images/pop-out-bold.svg)](https://developer.webex.com/)
+[Adoption Hub![](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/us/en/adopt/index.html)
+[Contact Support](https://help.webex.com/en-us/contact)
+learn
+[Video resources](https://help.webex.com/en-us/video-resources)
+[Webex Academy![Webex Academy](https://help.webex.com/images/pop-out-bold.svg)](https://academy.webex.com/learn)
+[Live Events and Webinars![Live Events and Webinars](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/learn/webinars-demos.html)
+[Webex Blog![Webex Blog](https://help.webex.com/images/pop-out-bold.svg)](https://blog.webex.com/)
+programs
+[Webex Community![Webex Community](https://help.webex.com/images/pop-out-bold.svg)](https://community.cisco.com/t5/webex-community/ct-p/webex-user)
+[Webex Insider![Webex Insider](https://help.webex.com/images/pop-out-bold.svg)](https://www.webex.com/insider)
+[App Hub![App Hub](https://help.webex.com/images/pop-out-bold.svg)](https://apphub.webex.com/)
+![Cisco AI Assistant](https://help.webex.com/images/ai.png)
+## Cisco AI Assistant
+The most advanced generative AI-powered platform for hybrid work and customer experience.
+[Learn more →](https://help.webex.com/en-us/webex-ai)
+![webex](https://help.webex.com/logo/webexsmall.png)[Download Webex](https://www.webex.com/downloads.html)
+[+1-888-469-3239](tel:+1-888-469-3239)[Contact Sales →](https://www.webex.com/contact-sales.html)
+  * ![search icon](https://help.webex.com/images/search-icon.svg)Search...Ctrl K
+  * English
+    * [ Dansk ](https://help.webex.com/da-dk/article/p5k20o)
+    * [ Deutsch ](https://help.webex.com/de-de/article/p5k20o)
+    * [ English ](https://help.webex.com/en-us/article/p5k20o)![language tick](https://help.webex.com/images/checkbox-check.svg)
+    * [ Español ](https://help.webex.com/es-co/article/p5k20o)
+    * [ Français ](https://help.webex.com/fr-fr/article/p5k20o)
+    * [ Italiano ](https://help.webex.com/it-it/article/p5k20o)
+    * [ Nederlands ](https://help.webex.com/nl-nl/article/p5k20o)
+    * [ Português ](https://help.webex.com/pt-br/article/p5k20o)
+    * [ Pyccĸий ](https://help.webex.com/ru-ru/article/p5k20o)
+    * [ Svenska ](https://help.webex.com/sv-se/article/p5k20o)
+    * [ Tϋrkçe ](https://help.webex.com/tr-tr/article/p5k20o)
+    * [ 한국어 ](https://help.webex.com/ko-kr/article/p5k20o)
+    * [ 日本語 ](https://help.webex.com/ja-jp/article/p5k20o)
+    * [ 简体中文 ](https://help.webex.com/zh-cn/article/p5k20o)
+    * [ 繁體中文 ](https://help.webex.com/zh-tw/article/p5k20o)
+    * [ Română ](https://help.webex.com/ro-ro/article/p5k20o)
+    * [ Magyar ](https://help.webex.com/hu-hu/article/p5k20o)
+    * [ Polski ](https://help.webex.com/pl-pl/article/p5k20o)
+    * [ Čeština ](https://help.webex.com/cs-cz/article/p5k20o)
+    * [ Български ](https://help.webex.com/bg-bg/article/p5k20o)
+    * [ Norsk ](https://help.webex.com/no-no/article/p5k20o)
+    * [ Hrvatski ](https://help.webex.com/hr-hr/article/p5k20o)
+    * [ Srpski ](https://help.webex.com/sr-rs/article/p5k20o)
+    * [ Українська ](https://help.webex.com/uk-ua/article/p5k20o)
+    * [ العربية ](https://help.webex.com/ar-ae/article/p5k20o)
+    * [ עברית ](https://help.webex.com/he-il/article/p5k20o)
+    * [ Suomi ](https://help.webex.com/fi-fi/article/p5k20o)
+    * [ Slovenščina ](https://help.webex.com/sl-si/article/p5k20o)
+    * [ Slovenský ](https://help.webex.com/sk-sk/article/p5k20o)
+  * Sign In
+
+
+  * [Home](https://help.webex.com/)
+  * /
+  * Article
+
+
+This article applies to:
+  * ![](https://help.webex.com/images/products-icon.svg)
+Products
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/industries-icon.svg)
+Industries
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/roles-icon.svg)
+Roles
+![](https://help.webex.com/images/arrow-down_16.svg)
+  * ![](https://help.webex.com/images/operating-systems-icon.svg)
+Operating systems
+![](https://help.webex.com/images/arrow-down_16.svg)
+
+
+Was this article helpful?
+![close](https://help.webex.com/images/icn-close.svg)
+# Thanks for your feedback.
+![](https://help.webex.com/images/thumbs-up.svg)Yes, thank you!![](https://help.webex.com/images/thumbs-down.svg)Not really
+March 11, 2026 | 19431 view(s) | 85 people thought this was helpful
+![](https://help.webex.com/images/print-icon-new.svg)
+Subscribe
+# Webex App | Get someone's attention with @Mentions
+![list-menu](https://help.webex.com/images/feedback.svg)Feedback?
+When you're in a space with lots of people, you can use an @mention to get someone's attention. If the person you mentioned is a team member, but wasn't already in the team space, they then get added to the space automatically.   
+|  Type @ and the first few letters of the person's name, pick them from the list, and then type and send your message.  ![](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/429001-430000/429008.jpg) If the list has a few people with the same first part of their display name, after you pick them you'll see their full name displayed in the message to avoid any confusion. By the way, if you want to get everyone’s attention, save yourself from typing everyone’s names. Just type **@All** to tag everyone in the space.   |  
+| --- |  
+Was this article helpful?
+Yes, thank you!
+Not really
+Was this article helpful?
+![](https://help.webex.com/images/arrow-down_20.svg)
+![](https://help.webex.com/images/up-btn.svg)![](https://help.webex.com/images/down-btn.svg)
+Related Articles
+![](https://help.webex.com/images/arrow-down_20.svg)
+  * [Webex App | Filter your spaces and content](https://help.webex.com/en-us/article/iqq278)
+
+
+![](https://help.webex.com/icons/arrow-up_16.svg)
+## Small Business
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Pricing](https://pricing.webex.com/)[Webex App](https://www.webex.com/all-new-webex.html)[Meetings](https://www.webex.com/video-conferencing.html)[Calling](https://www.webex.com/cloud-calling.html)[Messaging](https://www.webex.com/team-collaboration.html)[Screen Sharing](https://www.webex.com/screen-sharing.html)
+## Enterprise
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Webex Suite](https://www.webex.com/collaboration-suite.html)[Calling](https://www.webex.com/cloud-calling.html)[Meetings](https://www.webex.com/video-conferencing.html)[Messaging](https://www.webex.com/team-collaboration.html)[Slido](https://www.webex.com/audience-engagement.html)[Webinars](https://www.webex.com/webinar.html)[Events](https://socio.events/)[Contact Center](https://www.webex.com/contact-center.html)[CPaaS](https://www.webex.com/customer-interaction-management.html)[Security](https://www.webex.com/security.html)[Control Hub](https://www.webex.com/control-hub.html)
+## Devices
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Headsets](https://hardware.webex.com/products/headsets)[Cameras](https://hardware.webex.com/products/cameras)[Desk Series](https://hardware.webex.com/products/desk-series)[Room Series](https://hardware.webex.com/products/room-series-and-kits)[Board Series](https://hardware.webex.com/products/board-series)[Phone Series](https://hardware.webex.com/products/phones)[Accessories](https://hardware.webex.com/products/accessories)
+## Solutions For
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Education](https://www.webex.com/industries/education.html)[Healthcare](https://www.webex.com/industries/healthcare.html)[Government](https://www.webex.com/industries/government.html)[Finance](https://www.webex.com/industries/financial-services.html)[Sports & Entertainment](https://www.webex.com/industries/sports-entertainment.html)[Frontline](https://www.webex.com/industries/frontline.html)[Nonprofits](https://www.webex.com/industries/nonprofits.html)[Startups](https://www.webex.com/industries/start-ups.html)[Hybrid Work](https://www.webex.com/hybrid-work.html)
+## Resources
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Downloads](https://www.webex.com/downloads.html)[Join a Test Meeting](https://www.webex.com/test-meeting.html)[Online Classes](https://help.webex.com/en-us/landing/onlineclasses)[Integrations](https://www.webex.com/products/integrations/index.html)[Accessibility](https://www.webex.com/accessibility.html)[Inclusivity](https://www.webex.com/inclusive-collaboration.html)[Live & On-Demand Webinars](https://www.webex.com/learn/webinars-demos.html)[Webex Community](https://cs.co/webexcommunity)[Webex Developers](https://developer.webex.com/)[News & Innovations](https://www.webex.com/resources/whats-new.html)
+## Company
+![arrow icon](https://help.webex.com/images/Mask.svg)
+[Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)[Contact Support](https://help.webex.com/en-us/contact)[Contact Sales](https://www.webex.com/us/en/dg/contact-sales.html)[Webex Blog](https://blog.webex.com/)[Webex Thought Leadership](https://webexahead.webex.com/)[Webex Merch Store](https://www.webexmerchstore.com/)[Careers](https://www.webex.com/company/careers.html)
+  * [![X](https://help.webex.com/images/social-x.svg)](https://twitter.com/webex)
+  * [![LinkedIn](https://help.webex.com/images/linkedinIcon.svg)](https://www.linkedin.com/company/webex)
+  * [![Facebook](https://help.webex.com/images/facebookIcon.svg)](https://www.facebook.com/webex)
+  * [![Youtube](https://help.webex.com/images/youtubeIcon.svg)](https://www.youtube.com/c/webex)
+  * [![Instagram](https://help.webex.com/images/insta.svg)](https://www.instagram.com/webex/)
+
+
+[Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+©2026 Cisco and/or its affiliates. All rights reserved. 
+[Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)[Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)[Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+![](https://t.co/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=bd390812-2588-4be0-9cea-72d314f1e54e&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=62ea48dd-8f77-4433-9666-69137be81b76&pt=Webex%20App%20%7C%20Get%20someone's%20attention%20with%20%40Mentions&tw_document_href=https%3A%2F%2Fhelp.webex.com%2Fen-us%2Farticle%2Fp5k20o%2FWebex-App-%257C-Get-someone's-attention-with-%40Mentions&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1786624787982.7462120213194872&txn_id=o1rwk&type=javascript&version=2.4.1)![](https://analytics.twitter.com/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=bd390812-2588-4be0-9cea-72d314f1e54e&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=62ea48dd-8f77-4433-9666-69137be81b76&pt=Webex%20App%20%7C%20Get%20someone's%20attention%20with%20%40Mentions&tw_document_href=https%3A%2F%2Fhelp.webex.com%2Fen-us%2Farticle%2Fp5k20o%2FWebex-App-%257C-Get-someone's-attention-with-%40Mentions&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1786624787982.7462120213194872&txn_id=o1rwk&type=javascript&version=2.4.1)![](https://t.co/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=94266fc2-752e-4c21-89c4-73f1d4424c06&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=62ea48dd-8f77-4433-9666-69137be81b76&pt=Webex%20App%20%7C%20Get%20someone's%20attention%20with%20%40Mentions&tw_document_href=https%3A%2F%2Fhelp.webex.com%2Fen-us%2Farticle%2Fp5k20o%2FWebex-App-%257C-Get-someone's-attention-with-%40Mentions&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1786624787982.7462120213194872&txn_id=o4k82&type=javascript&version=2.4.1)![](https://analytics.twitter.com/i/adsct?bci=3&dv=UTC%26en-US%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=2&event_id=94266fc2-752e-4c21-89c4-73f1d4424c06&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=62ea48dd-8f77-4433-9666-69137be81b76&pt=Webex%20App%20%7C%20Get%20someone's%20attention%20with%20%40Mentions&tw_document_href=https%3A%2F%2Fhelp.webex.com%2Fen-us%2Farticle%2Fp5k20o%2FWebex-App-%257C-Get-someone's-attention-with-%40Mentions&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1786624787982.7462120213194872&txn_id=o4k82&type=javascript&version=2.4.1)
+![](https://bat.bing.com/action/0?ti=5221058&Ver=2&mid=bd366c91-f2f0-42b8-8bb5-d717bef436f4&bo=1&sid=12404f20971411f19a52ad6fbf38cad2&vid=12407c20971411f18e0ced507d8c1772&vids=1&msclkid=N&pi=0&lg=en-US&sw=1080&sh=600&sc=24&tl=Webex%20App%20%7C%20Get%20someone's%20attention%20with%20%40Mentions&p=https%3A%2F%2Fhelp.webex.com%2Fen-us%2Farticle%2Fp5k20o%2FWebex-App-%257C-Get-someone's-attention-with-%40Mentions&r=&lt=7841&evt=pageLoad&sv=2&cdb=AQER&rn=156917)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
