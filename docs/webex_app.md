@@ -4942,3 +4942,329 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/messaging/docs/widgets
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/messaging/docs/widgets)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/messaging/docs/widgets)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/messaging/docs/widgets)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Widgets
+Webex Messaging
+  * [Overview](https://developer.webex.com/messaging/docs/messaging)
+  * Guides
+  * [REST API Basics](https://developer.webex.com/messaging/docs/basics)
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/messaging/docs/api/changelog/webex-messaging)
+  * SDK
+  * [AI Assistant for Developers](https://developer.webex.com/messaging/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/messaging/docs/api/guides/troubleshooting)
+  * [Widgets](https://developer.webex.com/messaging/docs/widgets)
+  * [Tutorials](https://developer.webex.com/messaging/docs/tutorials)
+  * [Suite Sandbox](https://developer.webex.com/messaging/docs/developer-sandbox-guide)
+  * [Beta Program Overview](https://developer.webex.com/messaging/docs/webex-developer-beta-program)
+  * [Webex Status API](https://developer.webex.com/messaging/docs/webex-status-api)
+
+
+## Webex Messaging
+### Widgets
+Embed the power of Webex in your web applications ✨
+####  anchorWidgets Overview
+anchor
+Webex Widgets provide Webex native application functionality that can be embedded into any web-based application. They are built with [React](https://reactjs.org/), [Redux](https://redux.js.org/), [RxJS](https://rxjs.dev/) and the [Browser SDK](https://developer.webex.com/docs/sdks/browser) to communicate with the Webex Platform.
+![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltdacf41cab87b09ea/61b38354aeb5451282be2869/Widgets-Example.png)
+Widgets can be embedded directly in web applications with few lines of code, giving incredible flexibility to many different collaboration workflows without missing out on the Webex features we all love. Widgets come pre-built with the Webex User Interface (UI).
+They can be used by either current Webex users or guests by authenticating with an auth token provided from an [integration](https://developer.webex.com/docs/integrations) or a [guest issuer](https://developer.webex.com/docs/guest-issuer) app.
+Today there are three different embeddable experiences available: [Space Widget](https://developer.webex.com/docs/widgets#space-widget), [Recents Widget](https://developer.webex.com/docs/widgets#recents-widget), and [Meetings Widget](https://developer.webex.com/docs/widgets#meetings-widget-).
+####  anchorSpace Widget
+anchor
+Include Webex space functionality in your app. This widget provides messaging, meeting and content sharing features related to spaces. Join 1:1 or group spaces to collaborate via messaging or start and join meetings, all with the familiar Webex UI.
+[GitHub](https://github.com/webex/react-widgets/tree/master/packages/node_modules/@webex/widget-space#webex-space-widget-webexwidget-space)[Demo App](https://code.s4d.io/widget-demo/production/index.html)
+###### Space Widget Features
+  * Messaging: 
+    * 1:1 and group messaging
+    * Markdown message support
+    * File sharing. (150MB file size limit)
+    * Delete/flag messages
+    * Read receipts
+    * Persistent chat
+    * Roster list and @mention
+  * Meetings: 
+    * Join 1:1/Group Space meetings using password or hostkey based authentication
+    * Dial by email address or SIP address. _**Note:** SIP addresses are only supported for Webex meetings SIP URIs and not for Webex Calling or 3rd party SIP URIs_
+    * Share screen or a specific application/browser tab. Note: Safari browsers ONLY support sharing the whole screen
+  * FedRAMP environment support. See the [usage README](https://github.com/webex/widgets#fedramp-environment).
+
+
+![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt8d57b2446b4648ca/61b383539a45fb1280c1938d/Space-Widget-Messaging.png)
+###### Space Widget Usage
+To use this widget, you'll first need to create an [integration](https://developer.webex.com/docs/integrations) with the following scopes: `spark:all`.
+Using our CDN requires the least amount of work to get started. Add the following to your HTML file:
+
+```
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://code.s4d.io/widget-space/production/main.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://code.s4d.io/widget-space/production/bundle.js"></script>
+
+```
+
+You can then instantiate the widget by providing an `ACCESS_TOKEN` and `SPACE_ID`:
+
+```
+<div id="my-space-widget" />
+
+<script>
+  // Grab DOM element where widget will be attached
+  var widgetEl = document.getElementById('my-space-widget');
+
+  // Initialize a new Space widget
+  webex.widget(widgetEl).spaceWidget({
+    accessToken: 'ACCESS_TOKEN',
+    destinationType: 'spaceId',
+    destinationId: 'SPACE_ID'
+  });
+</script>
+
+```
+
+If you'd like to use a guest token instead of an access token, use the `guestToken` parameter with a guest token instead of `accessToken`.
+For more usage and configuration information, see the [Space Widget Usage](https://github.com/webex/react-widgets/blob/master/packages/node_modules/@webex/widget-space/README.md#usage) documentation in GitHub.
+###### Space Widget Requirements
+Supported Desktop Browsers: Chrome (latest), Firefox (latest), and Safari (latest).
+Please note that Space Widget _is not supported on Mobile browsers_.
+####  anchorRecents Widget
+anchor
+Include a user's most recent Webex spaces in your app and respond to real-time events. This widget displays a list of recent Webex spaces and can act as a central event processing hub for events happening within the Webex Platform.
+[GitHub](https://github.com/webex/react-widgets/tree/master/packages/node_modules/@webex/widget-recents#webex-recents-widget-webexwidget-recents)[Demo App](https://code.s4d.io/widget-demo/production/index.html)
+###### Recents Widget Features
+  * Recent Webex conversation list (spaces & people)
+  * Hooks to open a conversation with the Space Widget
+  * Unread space highlighting
+  * Event hooks for messages, meetings, and memberships
+  * Incoming call notifications
+  * FedRAMP environment support. See the [usage README](https://github.com/webex/widgets#fedramp-environment).
+
+
+![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltf7f2462ef3ae82f5/61b38353a342a6586354334d/Recents.png)
+###### Recents Widget Usage
+To use this widget, you'll first need to create an [integration](https://developer.webex.com/docs/integrations) with the following scopes: `spark:all`.
+Using our CDN requires the least amount of work to get started. Add the following to your HTML file:
+
+```
+<!-- Production compiled and minified CSS -->
+<link rel="stylesheet" href="https://code.s4d.io/widget-recents/production/main.css">
+
+<!-- Production compiled and minified JavaScript -->
+<script src="https://code.s4d.io/widget-recents/production/bundle.js"></script>
+
+```
+
+You can then instantiate the widget by providing an `ACCESS_TOKEN`:
+
+```
+<div id="my-recents-widget" />
+
+<script>
+  // Grab DOM element where widget will be attached
+  var widgetEl = document.getElementById('my-recents-widget');
+
+  // Initialize a new Recents widget
+  webex.widget(widgetEl).recentsWidget({
+    accessToken: 'ACCESS_TOKEN'
+  });
+</script>
+
+```
+
+If you'd like to use a guest token instead of an access token, use the `guestToken` parameter with a guest token instead of `accessToken`.
+For more usage and configuration information, see the [Recents Widget Usage](https://github.com/webex/react-widgets/tree/master/packages/node_modules/@webex/widget-recents#usage) documentation in GitHub.
+###### Recents Widget Events
+The Recents Widget exposes a few events for hooking into widget functionality. When instantiating a Recents widget, you can provide a callback parameter that will fire whenever an event occurs. You can then filter the actions and perform actions:
+
+```
+<div id="my-recents-widget" />
+
+<script>
+  // Grab DOM element where widget will be attached
+  var widgetEl = document.getElementById('my-recents-widget');
+
+  // Initialize a new Recents widget
+  webex.widget(widgetEl).recentsWidget({
+    accessToken: 'ACCESS_TOKEN',
+    onEvent: callback
+  });
+
+  function callback(name, detail) {
+    if (name === 'messages:created') {
+      // Perform an action if a new message has been created
+    }
+  }
+</script>
+
+```
+
+See the [Recents Widget Events](https://github.com/webex/react-widgets/tree/master/packages/node_modules/@webex/widget-recents#events) documentation in GitHub for more information about event handling.
+###### Recents Widget Requirements
+Supported Desktop Browsers: Chrome (latest), Firefox (latest), and Safari (latest)
+Please note the Recents Widget _is not supported on Mobile browsers_.
+####  anchorMeetings Widget 🆕
+anchor
+Include [Webex Meetings](https://www.webex.com/video-conferencing) functionality into your application to join any Webex meeting type, share your screen, manage your media devices and more. The Meetings Widget comes in two themes: Dark and Light and is designed to be responsive, which gives you maximum flexibility on where it can be used!
+[GitHub](https://github.com/webex/widgets#webex-widgets)[Demo App](https://webex.github.io/widgets/)
+![](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt5aadc1c793ca9332/6192730a3b08dd14d79a8984/meetings-widget.png)
+###### Meetings Widget Features
+###### Meetings
+  * Join 1:1 or group Space meetings, Personal Meeting Rooms and Scheduled meetings with password or hostkey based authentication.
+  * Dial by email address, people ID, room ID or SIP address _**Note:** SIP addresses are supported for Webex meetings SIP URIs and Webex cloud-registered devices. Webex Calling or third-party SIP URIs are not supported_
+  * In-meeting participant roster. See participants from your organization and those from outside
+  * Share your screen or a specific application/browser tab _**Note:** Screen sharing is a desktop-browser-only feature (See [compatibility table](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getDisplayMedia#browser_compatibility)). MacOS Safari only supports sharing the whole screen_
+  * FedRAMP environment support. See the [usage README](https://github.com/webex/widgets#fedramp-environment).
+
+
+###### Media Management
+  * List available audio/video devices
+  * Mute/Unmute your audio/video before joining and during the meeting
+  * Switch your audio/video device before joining and during the meeting
+
+
+###### Customization
+  * Choose between the amazing Dark or Light Webex experiences
+  * Show/hide meeting controls (mute, settings, participants list, screen share, etc.) based on your use case
+  * Decide which remote video layout (e.g. grid, stack, focus) is best for your application
+
+
+###### Accessibility
+  * Screen-reader ready
+  * Keyboard navigation
+
+
+###### Widget Usage
+Meetings Widget is [available on NPM](https://www.npmjs.com/package/@webex/widgets) with no support of distribution via CDN at the moment.
+To get started with the Meetings widget, install [the widget package](https://www.npmjs.com/package/@webex/widgets) and its dependencies.
+Note: Widgets is only supported on **Node.js v20** and below. 
+  
+
+```
+npx install-peerdeps @webex/widgets
+
+```
+
+Import widget package and styles, instantiate a new widget by providing an `ACCESS_TOKEN` and a `MEETING_DESTINATION`:
+
+```
+import {WebexMeetingsWidget} from '@webex/widgets';
+
+import '@webex/widgets/dist/css/webex-widgets.css';
+
+export default function App() {
+  return (
+    <WebexMeetingsWidget
+      style={{width: "1000px", height: "500px"}} // Substitute with any arbitrary size or use `className`
+      accessToken="<ACCESS_TOKEN>"
+      meetingDestination="<MEETING_DESTINATION>"
+    />
+  );
+}
+
+```
+
+See [Accounts and Authentication](https://developer.webex.com/docs/getting-started#accounts-and-authentication) on how to obtain an access token. For production use, you will need to create an [integration](https://developer.webex.com/docs/integrations) with the following scopes: `spark:all`.
+At the moment, guest tokens are not supported directly, but you may use the access token provided after [guest token exchange flow](https://developer.webex.com/docs/guest-issuer#using-guest-tokens).
+You can also get started with our [Meetings widget sample repository](https://github.com/WebexSamples/webex-meeting-widget-starter).
+###### Meetings Widget Requirements
+  * Supported Desktop Browsers: Chrome (latest), Firefox (latest), Edge (latest) and Safari (latest)
+  * Supported Mobile Browsers: Chrome on Android (latest) and Safari on iOS (latest)
+
+
+Meetings widget general availability support starts on version 1.23.0 onwards. However, we encourage you to use use the latest version at the time and update regularly, as there will be tons of improvements and bug fixes!
+####  anchorContent Security Policy
+anchor
+Webex Widgets can be used on websites which implement a Content Security Policy (CSP) via the Content-Security-Policy HTTP header. Consult your webserver's documentation for more information about configuring CSP. If you're using CSP, use these individual policy directives and their associated values to enable access to the widgets and to allow connectivity to the Webex Platform:  
+| Policy Directive  | Value  |  
+| --- | --- |  
+| `script-src`  | `'self' 'unsafe-inline' https://code.s4d.io;`  |  
+| `style-src`  | `'self' 'unsafe-inline' https://code.s4d.io;`  |  
+| `media-src`  | `'self' https://code.s4d.io https://*.clouddrive.com https://*.giphy.com https://*.webexcontent.com data: blob:;`  |  
+| `font-src`  | `'self' https://code.s4d.io;`  |  
+| `img-src`  | `'self' https://*.clouddrive.com https://code.s4d.io https://*.webexcontent.com data: blob: https://*.rackcdn.com;`  |  
+| `connect-src`  | `'self' localhost ws://localhost:8000 wss://*.ciscospark.com wss://*.wbx.com wss://*.wbx2.com https://*.ciscospark.com https://*.clouddrive.com/ https://code.s4d.io https://*.giphy.com https://*.wbx2.com https://*.webex.com  https://*.webexcontent.com;`  |  
+####  anchorSupport Policy
+anchor
+For information on the Webex support policy, see the [SDK and API Support Policy](https://developer.webex.com/docs/api-and-sdk-support-policy).
+##### In This Article
+  * [Widgets Overview](https://developer.webex.com/messaging/docs/widgets#widgets-overview)
+  * [Space Widget](https://developer.webex.com/messaging/docs/widgets#space-widget)
+  * [Recents Widget](https://developer.webex.com/messaging/docs/widgets#recents-widget)
+  * [Meetings Widget 🆕](https://developer.webex.com/messaging/docs/widgets#meetings-widget-)
+  * [Content Security Policy](https://developer.webex.com/messaging/docs/widgets#content-security-policy)
+  * [Support Policy](https://developer.webex.com/messaging/docs/widgets#support-policy)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
