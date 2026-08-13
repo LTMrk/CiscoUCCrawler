@@ -21451,3 +21451,212 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/admin/docs/authentication
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/admin/docs/authentication)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/admin/docs/authentication)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/admin/docs/authentication)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Authentication
+Webex Admin
+  * [Overview](https://developer.webex.com/admin/docs/admin)
+  * [Authentication](https://developer.webex.com/admin/docs/authentication)
+  * Service Apps
+  * Guides
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/admin/docs/api/changelog/webex-admin)
+  * [AI Assistant for Developers](https://developer.webex.com/admin/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/admin/docs/api/guides/troubleshooting)
+  * [Suite Sandbox](https://developer.webex.com/admin/docs/developer-sandbox-guide)
+
+
+## Webex Admin
+### Authentication
+Webex authentication lets your integration securely access Webex APIs on behalf of a user without collecting or storing their Webex password.
+####  anchorWhy authentication is required
+anchor
+Webex APIs protect user and organization data. Before an integration can read that data or perform an action, Webex must confirm who is granting access and what the integration is allowed to do.
+The OAuth 2.0 authorization code flow provides that consent and establishes a secure way for your integration to make API requests:
+  1. Your integration sends the user to Webex to sign in.
+  2. Webex shows the user the permissions, or scopes, that your integration is requesting.
+  3. The user approves or denies access.
+  4. If access is approved, Webex sends your application a short-lived authorization code.
+  5. Your server exchanges the code for an access token and refresh token.
+  6. Your integration uses the access token when calling Webex APIs and the refresh token when continued access is needed.
+
+
+The access token represents the user and the permissions they approved. It does not give the integration unrestricted access: the token is limited by its scopes and by the permissions of the user who authorized it.
+For quick API exploration, you can use your own [personal access token](https://developer.webex.com/docs/getting-your-personal-access-token). Register an OAuth integration when an application needs to access Webex for other users or maintain access beyond a personal token's lifetime.
+####  anchorBefore you implement OAuth
+anchor
+To implement the OAuth flow described below, you need:
+  * A registered [Webex integration](https://developer.webex.com/docs/integrations) and its client ID and client secret.
+  * A redirect URI that exactly matches one of the URIs registered for the integration.
+  * The minimum [integration scopes](https://developer.webex.com/docs/integration-scopes) required by your application.
+  * A server that can receive the OAuth callback and protect the client secret and tokens.
+
+
+For Webex Contact Center administrator APIs, the user authorizing the integration must use a Webex account backed by Cisco Webex Common Identity and have the appropriate administrator role in Control Hub. See [Webex Contact Center administrator roles and privileges](https://help.webex.com/en-us/article/n5jdj19/Webex-Contact-Center-administrator-roles-and-privileges).
+####  anchorRequesting Permission
+anchor
+Send the user to the Webex authorization endpoint:
+`https://webexapis.com/v1/authorize`
+Include these URL-encoded query parameters:  
+| Query parameter  | Value  |  
+| --- | --- |  
+| `response_type`  | Set to `code`.  |  
+| `client_id`  | The client ID issued when you created the integration.  |  
+| `redirect_uri`  | One of the redirect URIs registered for the integration.  |  
+| `scope`  | A space-separated list of scopes registered for the integration.  |  
+| `state`  | A unique value your application can validate when Webex calls the redirect URI.  |  
+After the user signs in, Webex displays a grant dialog showing the access requested by the integration.
+![OAuth app grant dialog](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt97d451f588b09709/5b1014bc344ad0d40f7812eb/authentication-app_grant.png)
+###### Scopes
+Scopes limit the resources and operations available to an access token. Request only the scopes your application needs and ensure that the authorizing user has the corresponding permissions. See [Integration Scopes](https://developer.webex.com/docs/integration-scopes) for the complete list and important scope behavior.
+###### State
+Use the `state` parameter to correlate the callback with the authorization request and protect against request tampering. Generate an unpredictable value for each authorization attempt, associate it with the user's session, and validate the returned value before exchanging the authorization code.
+####  anchorHandling the callback
+anchor
+After the user approves access, Webex redirects the browser to the registered `redirect_uri`. The callback includes the one-time authorization code and the state value, for example:
+`https://your-server.example.com/auth?code=AUTHORIZATION_CODE&state=STATE_VALUE`
+Verify `state` before using `code`. The authorization code is short-lived and can be exchanged only once.
+####  anchorGetting an Access Token
+anchor
+Exchange the authorization code by sending an `application/x-www-form-urlencoded` POST request to:
+`https://webexapis.com/v1/access_token`
+Include these parameters:  
+| Parameter  | Value  |  
+| --- | --- |  
+| `grant_type`  | Set to `authorization_code`.  |  
+| `client_id`  | The integration's client ID.  |  
+| `client_secret`  | The integration's client secret.  |  
+| `code`  | The authorization code returned to the redirect URI.  |  
+| `redirect_uri`  | The same redirect URI used in the authorization request.  |  
+
+```
+curl --request POST 'https://webexapis.com/v1/access_token' \
+  --header 'Content-Type: application/x-www-form-urlencoded' \
+  --data-urlencode 'grant_type=authorization_code' \
+  --data-urlencode 'client_id=YOUR_CLIENT_ID' \
+  --data-urlencode 'client_secret=YOUR_CLIENT_SECRET' \
+  --data-urlencode 'redirect_uri=https://your-server.example.com/auth' \
+  --data-urlencode 'code=AUTHORIZATION_CODE'
+
+```
+
+The response contains an access token, a refresh token, and their expiration values. Store the tokens securely and use the expiration values returned by the service rather than assuming a fixed lifetime.
+###### Using the Refresh Token
+Before continued access is needed, exchange the refresh token for a new access token by sending another form-encoded POST request to `https://webexapis.com/v1/access_token`.  
+| Parameter  | Value  |  
+| --- | --- |  
+| `grant_type`  | Set to `refresh_token`.  |  
+| `client_id`  | The integration's client ID.  |  
+| `client_secret`  | The integration's client secret.  |  
+| `refresh_token`  | The refresh token returned by the previous token response.  |  
+
+```
+curl --request POST 'https://webexapis.com/v1/access_token' \
+  --header 'Content-Type: application/x-www-form-urlencoded' \
+  --data-urlencode 'grant_type=refresh_token' \
+  --data-urlencode 'client_id=YOUR_CLIENT_ID' \
+  --data-urlencode 'client_secret=YOUR_CLIENT_SECRET' \
+  --data-urlencode 'refresh_token=YOUR_REFRESH_TOKEN'
+
+```
+
+Store the new access token and any replacement refresh token returned by the service.
+####  anchorInvoking the Webex APIs
+anchor
+Send the access token in the `Authorization` header using the Bearer scheme:
+
+```
+curl 'https://webexapis.com/v1/people/me' \
+  --header 'Authorization: Bearer YOUR_ACCESS_TOKEN' \
+  --header 'Accept: application/json'
+
+```
+
+For Authorization Code Flow with Proof Key for Code Exchange (PKCE), Device Authorization Grant, and OpenID Connect behavior, see [Login with Webex](https://developer.webex.com/docs/login-with-webex).
+####  anchorNext steps
+anchor
+  * To test Webex APIs with your own account, get a [Personal Access Token](https://developer.webex.com/docs/getting-your-personal-access-token).
+  * To access Webex on behalf of other users, [create an Integration](https://developer.webex.com/docs/integrations) and review the available [Integration Scopes](https://developer.webex.com/docs/integration-scopes).
+
+
+##### In This Article
+  * [Why authentication is required](https://developer.webex.com/admin/docs/authentication#why-authentication-is-required)
+  * [Before you implement OAuth](https://developer.webex.com/admin/docs/authentication#before-you-implement-oauth)
+  * [Requesting Permission](https://developer.webex.com/admin/docs/authentication#requesting-permission)
+  * [Handling the callback](https://developer.webex.com/admin/docs/authentication#handling-the-callback)
+  * [Getting an Access Token](https://developer.webex.com/admin/docs/authentication#getting-an-access-token)
+  * [Invoking the Webex APIs](https://developer.webex.com/admin/docs/authentication#invoking-the-webex-apis)
+  * [Next steps](https://developer.webex.com/admin/docs/authentication#next-steps)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
