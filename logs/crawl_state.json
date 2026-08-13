@@ -8198,5 +8198,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-preferences/get-meeting-preference-details": {
     "hash": "98e4c0e13f5633db601f23acbc03185253405ecc3ef2421a3c6c023914b4a7d3",
     "timestamp": "2026-08-13T02:16:07.079910"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-preferences/get-personal-meeting-room-options": {
+    "hash": "bebf52124f41d85daf08a09ad78b63f493e3fb616cca8397e868393d9cdba171",
+    "timestamp": "2026-08-13T02:16:13.400440"
   }
 }
