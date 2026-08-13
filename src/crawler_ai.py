@@ -217,7 +217,7 @@ async def deep_crawl():
             
             target_css, js_injection = get_custom_behavior(url)
             
-             try:
+            try:
                 result = await crawler.arun(
                     url=url,
                     word_count_threshold=0,
