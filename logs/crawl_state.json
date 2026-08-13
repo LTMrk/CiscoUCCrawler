@@ -8450,5 +8450,9 @@
   "https://developer.webex.com/docs/api/v1/memberships": {
     "hash": "214d9807a7f020613100f36fe90d511afb195c14125d100e07759e1f36f876ec",
     "timestamp": "2026-08-13T02:23:57.826513"
+  },
+  "https://developer.webex.com/docs/api/v1/events": {
+    "hash": "710dce244158411d7ad1f1420d9f6980188c7adb2b15a691d248d07af487cdee",
+    "timestamp": "2026-08-13T02:24:03.569893"
   }
 }
