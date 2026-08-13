@@ -14430,3 +14430,144 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-claude-code
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-claude-code)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-claude-code)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-claude-code)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/Claude Code
+AI in Webex
+  * Webex MCP Servers
+  * Security Guides
+  * Cisco Onboarded MCP Servers
+  * Federated through External Registery
+  * Agentic Apps
+  * Connect Webex MCP Servers to External Clients
+    * [Overview](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers)
+    * [Amazon Quick](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-amazon-quick)
+    * [Claude Code](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-claude-code)
+    * [Claude Desktop](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-claude-desktop)
+    * [Codex](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-codex)
+    * [Copilot Studio](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-copilot-studio)
+    * [Cursor](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-cursor)
+    * [Gemini CLI](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-gemini-cli)
+    * [VS Code](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-vscode)
+  * Connect External MCP Servers to Webex AI
+  * [Beta Program Overview](https://developer.webex.com/mcp/docs/webex-developer-beta-program)
+
+
+## AI in Webex
+### Claude Code
+Connect Claude Code CLI to a Webex MCP server.
+> Before configuring, you'll need OAuth 2.0 credentials. See [OAuth 2.0 setup instructions](https://developer.webex.com/docs/webex-agentic-mcp-servers#2-oauth-20) in the main guide.
+####  anchorOAuth 2.0
+anchor
+```
+MCP_CLIENT_SECRET=your-secret claude mcp add --transport http \
+  --client-id your-client-id --client-secret --callback-port port \
+  your-server-name your-server-url
+
+```
+
+Claude Code uses OAuth 2.0 well-known discovery endpoints for configuration, and scopes are fetched from those discovered endpoints.
+Set `callbackPort` to match the callback URI you registered when creating your Webex OAuth 2.0 Integration. Make sure to register the callback URI in this format `http://localhost:PORT/callback`. The port can be any available port — it just needs to match your registered callback URI. If omitted, Claude Code picks a random available port.
+You'll get the client-id and client-secret from your [Webex OAuth 2.0 Integration](https://developer.webex.com/docs/webex-agentic-mcp-servers#2-oauth-20)
+> **Replace** the values 
+>   * `your-secret` with the client secret from Webex OAuth Integration
+>   * `your-server-name` with a descriptive name (e.g., `my-meeting-server`)
+>   * `your-server-url` with your MCP server endpoint URL
+>   * `your-client-id` with the Client ID from Webex OAuth Integration
+>   * `port` with the port matching your registered redirect URI
+> 
+
+####  anchorAuthenticate
+anchor
+After adding the server, run `/mcp` inside Claude Code. The server will show as **failed** with **not authenticated** status.
+  1. Select the server from the list
+  2. Choose **Authenticate**
+  3. A browser window will open for you to sign in and grant access
+  4. Once authenticated, the server status will update to connected
+
+
+####  anchorResources
+anchor
+  * [Claude Code Official Documentation](https://code.claude.com/docs/en/mcp)
+
+
+##### In This Article
+  * [OAuth 2.0](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-claude-code#oauth-20)
+  * [Authenticate](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-claude-code#authenticate)
+  * [Resources](https://developer.webex.com/mcp/docs/webex-agentic-mcp-servers-claude-code#resources)
+
+
+##### Related Resources
+  * [Claude Code Official Documentation](https://code.claude.com/docs/en/mcp "Claude Code Official Documentation")
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
