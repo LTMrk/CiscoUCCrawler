@@ -25064,3 +25064,193 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)
+  * [...](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)Show All Breadcrumbs
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Product Support](https://www.cisco.com/c/en/us/support/all-products.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/support/unified-communications/category.html)
+  * [Cisco Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+  * [Configuration Examples and TechNotes](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/products-configuration-examples-list.html)
+
+
+# Configure Integration of Office 365 (Microsoft Graph API) with IM&P for Calendar/Meeting and Out-of-Office Status in Jabber.
+![](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)
+Download
+Print
+### Available Languages
+  * [Arabic - عربي](https://www.cisco.com/c/ar_ae/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)
+  * [Brazil - Português](https://www.cisco.com/c/pt_br/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)
+  * [Canada - Français](https://www.cisco.com/c/fr_ca/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)
+  * [China - 简体中文](https://www.cisco.com/c/zh_cn/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)
+  * [China - 繁體中文 (臺灣)](https://www.cisco.com/c/zh_tw/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)
+  * [Germany - Deutsch](https://www.cisco.com/c/de_de/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)
+  * [Italy - Italiano](https://www.cisco.com/c/it_it/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)
+  * [Korea - 한국어](https://www.cisco.com/c/ko_kr/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)
+  * [Latin America - Español](https://www.cisco.com/c/es_mx/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)
+  * [Netherlands - Nederlands](https://www.cisco.com/c/nl_nl/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)
+
+
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.pdf) (2.7 MB)   
+View with Adobe Reader on a variety of devices
+  * [ePub](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.epub) (89.6 KB)   
+View in various apps on iPhone, iPad, Android, Sony Reader, or Windows Phone
+  * [Mobi (Kindle)](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.mobi) (74.2 KB)   
+View on Kindle device or Kindle app on multiple devices
+
+
+Updated:April 1, 2026
+Document ID:225613
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+## Introduction
+This document describes the steps to configure "**Calendar/Meeting and Out of Office status** " for Cisco Jabber.
+## **Prerequisites**
+Cisco recommends that you have knowledge of these topics:
+  * Windows/Mac
+  * Jabber
+  * Cisco Unified Communication Manager server(CUCM)
+  * Instant Messaging & Presence server(IMP)
+  * Office 365 account
+  * Microsoft outlook
+
+
+### **Components Used**
+The information in this document is based on these software versions:
+  * CUCM 15SU4
+  * IMP 15SU4
+  * Jabber 15.1
+
+
+The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
+[![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif "note-icon")
+**Note** : Background Information Microsoft is deprecating EWS for third-party applications to integrate with Microsoft 365 and replacing it with Graph API. Starting October 1, 2026, Microsoft blocks EWS requests from non-Microsoft apps to Microsoft 365. For more details please refer [Field Notice](https://www.cisco.com/c/en/us/support/docs/field-notices/743/fn74367.html).
+## **Configure**
+Steps include configuring the “**Calendar/Meeting and Out of Office Status** " feature and integrating the IM&P server with Office 365.
+**Step 1.** Configure Office 365 and Microsoft Graph API Permissions
+  1. Log in to the [Microsoft Azure portal](https://portal.azure.com)
+  2. Register a new application and obtain the Application (client) ID and Directory (tenant) ID using the[Instructions](https://learn.microsoft.com/en-gb/entra/identity-platform/quickstart-register-app#register-a-new-application-using-the-azure-portal)
+  3. Create a Client Secret by Going to **Manage** > **Certificates & Secrets** > **New Client Secret** , then copy and save the client secret value.
+[![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif "note-icon")
+**Note** : Use the same Application (client) ID, Directory (tenant) ID, and Client Secret when configuring the IM and Presence Service during Presence Gateway setup.
+  4. Go to Manage > **API Permissions > Add a permission,** then select Office 365 Exchange Online under “**APIs my organization use.”**
+  5. Click **Add an application permission** and Select Application permissions, choose **_Calendars.ReadBasic.All_ ,** and click Add permissions.
+[![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif "note-icon")
+**Note** : To retrieve Out of Office information, also grant the _**MailBoxSettings.Read**_ permission.
+  6. Navigate to **Manage** > **API permissions** and Under **Grant consent** , click _**Grant admin consent for "Registered Azure Active Directory",**_ then select **Yes**.
+  7. Verify that a green check mark appears in the Status column for the assigned permissions.
+
+
+### **[![shabbsye_0-1772075450335](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-00.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-00.png "shabbsye_0-1772075450335")**
+**Step 2.** Configuring the Office 365 Presence Gateway
+Use these steps to configure the Presence Gateway on the IM and Presence (IM&P) server:
+  1. From **Cisco Unified CM IM and Presence Administration** , navigate to **Presence > Gateways**.
+  2. Click **Add New**.
+  3. From the **Presence Gateway Type** field, choose **Office 365 Server** from the drop down list
+     * If **Office 365 Server** is selected, the **Authentication Type** defaults to **OAuth**.
+     * The fields **Application (client) ID** , **Directory (tenant) ID** , and **Client Secret** apply only to Office 365 Server.
+     * These values must match those configured in Step 1 on the Office 365 server.
+  4. In the **Description** field, enter a description to distinguish the presence gateway instance.
+  5. In the **Presence Gateway** field, enter the fully qualified domain name (FQDN) or IP address of the Presence Gateway server. 
+[![warning-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif "warning-icon")
+**Warning** : In the Account Name field, enter the account name created in Office 365. Enter the password for the account in both the Account Password and Confirm Password fields.
+  6. In the **Presence Gateway Port** field, enter the port used to connect to the calendaring service (default is 443)
+  7. In the **HTTP/HTTPS Proxy URL** field, enter the proxy server details if IM and Presence Service does not have direct access to the Office 365 server.
+
+
+[![image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-01.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-01.png "image")
+**Step 3.** Upload Microsoft Certificates to IM and Presence Service
+  1. Download the Office 365 root certificate and intermediate certificate. Refer to the link for the list of supported root and intermediate [certificates](https://support.office.com/en-us/article/office-365-certificate-chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb):
+  2. Upload all downloaded certificates to the **cup-trust** and **tomcat-trust** stores on all the IM and Presence Servers
+
+
+**Step 4.** Enable Calendar Out of Office in IM and Presence Cluster 
+  1. From **Cisco Unified CM IM and Presence Administration** , choose **System > Service Parameters**.
+  2. From the **Server** drop-down list, select the **IM and Presence publisher node**.
+  3. From the **Service** drop-down list, select **Cisco Presence Engine**.
+  4. In the **Calendar Out of Office information** service parameter, select **Display Out of Office availability** to update the user’s availability status in Cisco Jabber to **“Out of Office”** whenever it is set in Microsoft Office 365 or Exchange.
+  5. Click **Save**.
+
+
+[![shabbsye_0-1772107462273](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-02.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-02.png "shabbsye_0-1772107462273")
+**Step 5.** Restart the Cisco Presence Engine
+  1. From **Cisco Unified IM and Presence Serviceability** , choose **Tools > Control Center – Feature Services**.
+  2. From the **Server** drop-down list, select the **IM and Presence server** , then click **Go**.
+  3. Under **IM and Presence Services** , select **Cisco Presence Engine** and click **Restart**.
+
+
+[![image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-03.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-03.png "image")
+**Step 6.** Configure End User for Calendaring integration
+**1.** Go to cucm administrator > **Navigate to User Management** > **End User** and click Find to display the full list of end users. Select user from the list and check the box **Include meeting information in presence**
+[![image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-04.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-04.png "image")
+## Verify
+**Step 1.** Verify 'Out of office' Status 
+**1.** Apply and Test the Out of Office Configuration,We configure the **Out of Office** and test with user account on jabber  
+Open Outlook (a shortcut is in the Windows taskbar). Go to File > **Automatic Replies (Out of Office)** and check the box Send automatic replies.
+[![image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-05.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-05.png "image")
+**2.** Add any Out of Office message into the **Automatically replay field for Inside / Outside MyOrganization.** Click OK to activate Out of Office on Exchange.
+[![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif "note-icon")
+**Note** : By default, IM&P retrieves this information from Office 365 and updates the client every 60 minutes. This interval can be reduced to a minimum of 10 minutes. In Step 4, there is an option called the Office 365 Calendar Pull Information Timer, which is set to 60 minutes by default; you can change it to 10 minutes if required. If an immediate update is needed, restart the Presence Engine service, ensuring this is performed during a maintenance window.
+Navigate back to the Jabber client; you can notice the out-of-office icon showing on your profile.
+[![image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-06.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-06.png "image")
+**Step 2.** Verify 'Calendar Meeting' status 
+Schedule a calendar meeting in your Outlook.
+[![shabbsye_0-1772156141243](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-07.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-07.png "shabbsye_0-1772156141243")
+Verify the status in the Jabber client; it displays as “In a meeting.”
+[![shabbsye_1-1772156274143](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-08.png)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365-08.png "shabbsye_1-1772156274143")
+### Revision History  
+| Revision  | Publish Date  | Comments  |  
+| --- | --- | --- |  
+| 1.0  |  31-Mar-2026   | Initial Release  |  
+[![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)Back to Top](https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html "Back to Top")
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+### Contributed by Cisco Engineers
+  * Shabbir Ahammed Syed
+Cisco TAC Engineer
+  * A M Mahesh Babu
+Cisco TAC Engineer
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+### Contact Cisco
+  * [Open a Support Case](https://mycase.cloudapps.cisco.com/start?prodDocUrl=https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/225613-configure-integration-of-office-365.html)![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
+  * (Requires a [Cisco Service Contract](https://www.cisco.com/c/en/us/services/order-services.html))
+
+
+### This Document Applies to These Products
+  * [Jabber for Windows](https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/series.html)
+  * [Unified Communications Manager IM & Presence Service](https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html)
+
+
