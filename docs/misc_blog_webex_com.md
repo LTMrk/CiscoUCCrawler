@@ -8866,3 +8866,187 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://blog.webex.com/collaboration/conagra-brands-updated-person-spaces-with-cisco-devices-webex-platform-improved-team-experience
+
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-primary-logo.svg)](https://blog.webex.com)
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-secondary-logo.svg)](https://blog.webex.com)
+  * [Collaboration](https://blog.webex.com/category/collaboration/)
+  * [Workspaces](https://blog.webex.com/category/workspaces/)
+  * [Customer Experience](https://blog.webex.com/category/customer-experience/)
+  * [Event Management](https://blog.webex.com/category/event-management/)
+  * [Innovation & AI](https://blog.webex.com/category/innovation-ai/)
+
+
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2079%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/collaboration/conagra-brands-updated-person-spaces-with-cisco-devices-webex-platform-improved-team-experience) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/collaboration/conagra-brands-updated-person-spaces-with-cisco-devices-webex-platform-improved-team-experience&title=How%20Conagra%20Brands%20updated%20in-person%20spaces%20with%20Cisco%20devices%20...) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/collaboration/conagra-brands-updated-person-spaces-with-cisco-devices-webex-platform-improved-team-experience)
+[ ](https://blog.webex.com/collaboration/conagra-brands-updated-person-spaces-with-cisco-devices-webex-platform-improved-team-experience/ "Copy Link") [ ](https://blog.webex.com/collaboration/conagra-brands-updated-person-spaces-with-cisco-devices-webex-platform-improved-team-experience/ "Print")
+[Collaboration](https://blog.webex.com/category/collaboration/), [Customer Stories](https://blog.webex.com/category/customer-stories/)
+# How Conagra Brands updated in-person spaces with Cisco devices and the Webex platform for an improved team experience
+On Oct 9, 2025Oct 9, 2025By [Dik Whitten](https://blog.webex.com/contributors/dikwhitt/)5 Min Read
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/collaboration/conagra-brands-updated-person-spaces-with-cisco-devices-webex-platform-improved-team-experience) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/collaboration/conagra-brands-updated-person-spaces-with-cisco-devices-webex-platform-improved-team-experience&title=How%20Conagra%20Brands%20updated%20in-person%20spaces%20with%20Cisco%20devices%20...) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/collaboration/conagra-brands-updated-person-spaces-with-cisco-devices-webex-platform-improved-team-experience)
+[ ](https://blog.webex.com/collaboration/conagra-brands-updated-person-spaces-with-cisco-devices-webex-platform-improved-team-experience/ "Copy Link") [ ](https://blog.webex.com/collaboration/conagra-brands-updated-person-spaces-with-cisco-devices-webex-platform-improved-team-experience/ "Print")
+![](https://blog.webex.com/wp-content/uploads/2025/10/conagra.jpg)
+Conagra Brands is one of North America’s leading branded food companies and combines a 100-year history of making quality food with agility and a relentless focus on collaboration and innovation. The company’s portfolio is continuously evolving to satisfy consumers’ ever-changing food preferences with brands like Birds Eye®, Duncan Hines®, Healthy Choice®, Marie Callender’s®, Reddi-wip®, Slim Jim®, Angie’s® BOOMCHICKAPOP®, and many more.
+Headquartered in Chicago with multiple corporate offices, including approximately 1,200 employees in Omaha, and more than 40 manufacturing facilities across North America, effective communication is essential to keeping teams aligned and operations running smoothly. Conagra recognized that updating its technology and collaborative environments would unlock new opportunities for creativity, problem-solving, and efficiency. By fully equipping a redesigned space for IT staff in its Omaha, Nebraska, location with Cisco devices, Conagra modernized its in-person workspaces, enabling seamless collaboration and an improved team experience.
+Video Player is loading.
+Play Video
+PlaySkip BackwardSkip Forward
+Unmute
+Current Time 0:00
+/
+Duration 0:00
+Loaded: 0%
+Stream Type LIVE
+Seek to live, currently behind liveLIVE
+Remaining Time -0:00
+1x
+Playback Rate
+  * 2x
+  * 1.75x
+  * 1.5x
+  * 1.25x
+  * 1x, selected
+  * 0.75x
+  * 0.5x
+
+
+Chapters
+  * Chapters
+
+
+Descriptions
+  * descriptions off, selected
+
+
+Captions
+  * captions settings, opens captions settings dialog
+  * captions off, selected
+
+
+Audio Track
+Quality Levels
+Picture-in-PictureFullscreen
+This is a modal window.
+Beginning of dialog window. Escape will cancel and close the window.
+Text ColorWhite Black Red Green Blue Yellow Magenta CyanOpacityOpaque Semi-Transparent Text Background ColorBlack White Red Green Blue Yellow Magenta CyanOpacityOpaque Semi-Transparent Transparent Caption Area Background ColorBlack White Red Green Blue Yellow Magenta CyanOpacityTransparent Semi-Transparent Opaque
+Font Size 50% 75% 100% 125% 150% 175% 200% 300% 400% Text Edge Style None Raised Depressed Uniform Drop shadow Font Family Proportional Sans-Serif Monospace Sans-Serif Proportional Serif Monospace Serif Casual Script Small Caps
+ResetDone
+Close Modal Dialog
+End of dialog window.
+Close Modal Dialog
+This is a modal window. This modal can be closed by pressing the Escape key or activating the close button.
+## Looking for flexible in-person work solutions
+In the past, Conagra’s conference rooms and offices varied in technology, relying on projectors, speakerphones, ISDN, and various other video units. While the systems supported the team’s work, their complexity could lead to delays, highlighting the value of solutions that are simple and reliable. Conagra has been using Cisco for over a decade to enable collaboration by connecting people who couldn’t be in the same location.
+As they continued refining their process, Conagra switched from laptops and BYOD webcams that required setups to standardizing on [Cisco Room Systems](https://www.webex.com/us/en/devices/room-devices/integrated-room-systems.html) across every room.
+When the global pandemic struck, the company already had hybrid systems in place, but multiple meeting platforms presenting new challenges. When employees returned to the office in 2021, meetings often took place on platforms from different providers, while Cisco powered Conagra’s conference rooms. Once Cisco established partnerships with those platforms, the experience became much more seamless.
+While Conagra’s internal and client communications were increasingly improving using Cisco devices, there were still areas that could be improved. In 2024, Conagra leadership hosted a summit for the entire IT organization with the theme Dream Big, Deliver Big. Strategizing on how best to achieve those goals, IT Leadership recognized that a dedicated environment for people to do their best work was required. 
+“To empower our Conagra IT team to dream big and deliver big, we set out to create the space that would make it possible,” said Jeff Heldt, Solutions Architect — Collaboration at Conagra Brands.
+A renovation project came out of this conversation. Conagra decided to redesign an office in Omaha that would house all IT operations, giving teams exactly what they need to succeed now and long into the future.
+“We need ways to interact and communicate and do the best work with technology that’s cutting edge, modern, and enables that to happen seamlessly,” said Tracy Schaefer, Senior Vice President and Chief Information Officer at Conagra Brands. “One of the ways that materialized for us is in our working environment.”
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201672%20957%22%3E%3C/svg%3E)
+## **Omaha Office Reimagined**
+The renovated Omaha office is the first space designed specifically to bring all of Conagra’s IT staff together.
+The updates include a welcoming main entryway with a Cisco Spaces-powered [Wayfinding](https://spaces.cisco.com/) screen to help visitors easily navigate the building. The office now features more than 20 reservable conference rooms and 10 additional video-enabled collaboration spaces, each equipped with the latest solutions to support smooth meetings and presentations. [Cisco Board Pros](https://www.webex.com/us/en/devices/board-series/cisco-board-pro.html) on motorized stands expand capabilities for workshops, while larger spaces use multiple Room Vision PTZ cameras, with cross-view enabled, and Ceiling Microphone Pros to create an immersive, cinematic meeting experience. Over the past four years, Conagra has also standardized dual-screen setups wherever possible.
+“With the ubiquitous nature of hybrid work, it’s so much more important now to see your remote colleague’s face alongside content,” said Heldt. 
+The Omaha office accommodates employees and clients visiting from Conagra’s headquarters in Chicago and other locations. Spaces are set up in the office to provide these people with places to settle in and collaborate.
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201672%20946%22%3E%3C/svg%3E)
+## How Cisco devices plus the Webex platform improves experience
+With the recent renovation, the improved experience in Omaha is already evident. IT team members with access to [Webex Control Hub](https://www.webex.com/us/en/solutions/cross-platform/control-hub.html) can see the utilization rates of Conagra’s rooms and ensure the spaces with the highest usage get the most resource allocation, boosting budget and reducing guesswork.
+“Having the room ecosystem aggregate up to Control Hub is a major benefit to me as a service owner,” said Heldt. “I now have real data and not just anecdotal user perception of usage that helps me to be a good steward of Conagra’s investments in these technologies.”
+Conagra has fully equipped conference room workspaces with Cisco devices across its geographically-dispersed corporate offices. The team can now use real-time data to make informed decisions about which systems are being used most and which aren’t moving the organization toward its goals.
+“Now with our hybrid work setup, we’ve tried to give the most flexible experience for team members, regardless of their work location,” said Heldt. “That’s been one of the design principles for our spaces. We now have an open concept neighborhood of cubes that are clustered around or adjacent to rooms and collaboration spaces to give people the best flexibility.” 
+Team members have been happy with the building adjustments and new technologies. However, the success rate is highlighted by what they’re not saying.
+“New spaces often come with a learning curve, but here the feedback has been overwhelmingly positive,” said Heldt.
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201672%20853%22%3E%3C/svg%3E)
+## **Dream big, deliver big**
+With a newly optimized work environment, Conagra’s IT teams are now better equipped to collaborate across the organization – and with vendors, partners, and customers – to drive greater creativity and productivity.
+“The idea is to promote the best hybrid collaborative culture that meets the demands of the new world, not just needing to be able to work anywhere, but working in a way that works for all parties,” said Heldt.
+With Cisco as its technology partner, Conagra gets exactly that. Meetings can start on time, people know how to use the devices, and collaboration can happen when and how it best serves team members.
+Want to see similar success with your business communication? [Contact our team](https://pricing.webex.com/us/en/hybrid-work/meetings/?utm_medium=website&utm_source=wdc&utm_campaign=n/a&utm_content=navigation&team=wdc&_gl=1*h9e03n*_gcl_au*ODE1NTk2MzQwLjE3NTk4Nzg3MTQ.) to learn more about Cisco devices.
+  
+
+#### About The Author
+![Dik Whitten](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2079%2096%22%3E%3C/svg%3E)
+Dik Whitten Marketing Professional Cisco
+Dik Whitten is a marketing professional with over 15 years experience in the tech industry.
+[Learn more](https://blog.webex.com/contributors/dikwhitt/)
+#### Topics
+[amer](https://blog.webex.com/tag/amer/)[Cisco Devices](https://blog.webex.com/tag/cisco-devices/)[Cisco Spaces](https://blog.webex.com/tag/cisco-spaces/)[manufacturing](https://blog.webex.com/tag/manufacturing/)[remotework](https://blog.webex.com/tag/remotework/)[retail](https://blog.webex.com/tag/retail/)
+* * *
+## More like this
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Collaboration, Workspaces Cisco named 2026 Global Enterprise Desktop Phone Company of the ... By John Reeder5 Min Read ](https://blog.webex.com/collaboration/cisco-named-2026-global-enterprise-desktop-phone-company-of-the-year-by-frost-sullivan/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Customer Experience, Customer Stories, Innovation & AI How Estes Is Building Smarter Customer Care with Webex AI By Krishna Tyagi, Jill Townsend5 Min Read ](https://blog.webex.com/innovation-ai/how-estes-is-building-smarter-customer-care-with-webex-ai/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201104%22%3E%3C/svg%3E)simple Collaboration Eight years running! Cisco is named a Leader in the 2026 Gartner® ... By Amit Barave7 Min Read ](https://blog.webex.com/collaboration/eight-years-running-cisco-named-leader-2026-gartner-magic-quadrant-unified-communications-service-ucaas/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201099%22%3E%3C/svg%3E)simple Collaboration, Customer Experience, Event Management, Innovation & AI Tom Brady takes the stage at WebexOne 2026 By Aruna Ravichandran2 Min Read ](https://blog.webex.com/collaboration/tom-brady-takes-the-stage-at-webexone-2026/)
+Products
+  * [Webex Suite](https://www.webex.com/suite/collaboration-suite.html)
+  * [Meetings](https://www.webex.com/meetings.html)
+  * [Calling](https://www.webex.com/enterprise-cloud-calling.html)
+  * [Messaging](https://www.webex.com/team-collaboration.html)
+  * [Events](https://www.webex.com/events.html)
+  * [Video Messaging](https://vidcast.io/)
+  * [Polling](https://www.webex.com/suite/polling.html)
+  * [Webinars](https://www.webex.com/webinar.html)
+  * [Whiteboarding](https://www.webex.com/suite/whiteboard.html)
+  * [Cloud Contact Center](https://www.webex.com/us/en/products/customer-experience/contact-center.html)
+  * [CPaaS](https://www.webex.com/us/en/products/customer-experience/cpaas.html)
+
+
+Footer Terms Menu
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/collaboration/conagra-brands-updated-person-spaces-with-cisco-devices-webex-platform-improved-team-experience/)
+
+
+Devices
+  * [Room Devices](https://www.webex.com/us/en/devices/room-devices.html)
+  * [Desk Devices](https://www.webex.com/us/en/devices/desk-series.html)
+  * [Digital Whiteboards](https://www.webex.com/us/en/devices/digital-whiteboards.html)
+  * [Phones](https://www.webex.com/us/en/devices/phone-series.html)
+  * [Cameras](https://www.webex.com/us/en/devices/cameras.html)
+  * [Headsets](https://www.webex.com/us/en/devices/headsets.html)
+  * [Room Accessories](https://www.webex.com/us/en/devices/accessories.html)
+
+
+Resources
+  * [Pricing](https://pricing.webex.com/us/en/)
+  * [Downloads](https://www.webex.com/downloads.html)
+  * [Help Center](https://help.webex.com/)
+  * [Webex Community](https://cs.co/webexcommunity)
+  * [Product Essentials](https://essentials.webex.com/)
+  * [Watch Webinars](https://www.webex.com/learn/webinars-demos.html)
+  * [App Hub](https://apphub.webex.com/)
+  * [Accessibility](https://www.webex.com/accessibility.html)
+  * [Developers](https://developer.webex.com/)
+
+
+Company
+  * [Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)
+  * [Webex Customer Advocacy Program](https://www.webex.com/us/en/dg/customer-advocacy-program.html)
+  * [Contact Support](https://help.webex.com/contact/)
+  * [Contact Sales](https://www.webex.com/contact-sales.html?locale=US)
+  * [Webex Merch Store](https://merchandise.cisco.com/featured/webex-by-cisco.html)
+  * [Careers](https://www.webex.com/company/careers.html)
+
+
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://twitter.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.linkedin.com/company/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.facebook.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.youtube.com/c/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.instagram.com/webex/)
+
+
+©2026 Cisco and/or its affiliates. All Rights Reserved.
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/collaboration/conagra-brands-updated-person-spaces-with-cisco-devices-webex-platform-improved-team-experience/)
+
+
