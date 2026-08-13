@@ -1,377 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/jabber-windows/116337-problem-jabber-00.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/jabber-windows/116334-trouble-jabber-problem-00.html",
-    "depth": 2
-  },
-  {
-    "url": "http://www.cisco.com/en/US/prod/collateral/ps10352/university_lusofona.pdf",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/technology-and-support/ct-p/technology-support",
-    "depth": 2
-  },
-  {
-    "url": "https://supportforums.cisco.com/node/add/discussion",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/unified-communications/jabber/index.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tools-catalog.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/saved/index.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/741/fn74183.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/741/fn74113.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/740/fn74092.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-jabber-xmpp-Ne9SCM.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-jabber-GuC5mLwG.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-webex-teams-7ZMcXG99.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20190703-jabber-dll.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-cisco-jabber-PWrTATTC.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-jabber-ZktzjpgO.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-jabber-G3NSjPn7.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-jabber-UyTKCPGg.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-jabber-vY8M4KGB.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-jabber-ttcgB9R3.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/224887-configure-visual-voicemail-for-jabber.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217615-configure-and-log-analysis-of-jabber-e91.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213403-configure-jabber-version-12-0-in-phone-m.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-contact-center-express/215536-configure-extend-and-connect-feature-for.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213406-test-directory-attribute-mapping-for-jab.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212044-Configure-Charles-Proxy-to-Capture-HTTPS.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211427-Configure-Jabber-Extend-and-Connect-and.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/200957-How-to-Collect-Logs-for-UC-Applications.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/contact-center/unified-intelligent-contact-management-enterprise/221945-collect-packet-captures-on-windows-clien.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/221845-troubleshoot-jabber-log-in-common-issu.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/214737-troubleshoot-jabber-login-failure-after.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213803-configure-ldap-as-a-directory-contact-so.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212109-How-to-Use-LDP-EXE-to-Search-LDAP-Server.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212081-Jabber-Log-in-Failure-Due-To-Proxy-Setti.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212082-How-to-collect-Jabber-Crash-Dump-on-Appl.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212088-How-to-Pull-Crash-Dumps-for-Jabber-for-i.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212084-Troubleshoot-Cisco-Jabber-Directory-Sear.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212059-How-to-Gather-Microsoft-Outlook-Logs-for.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/201016-TechNote-on-Customization-of-Jabber-MSI.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/technology-and-support/ct-p/technology-support",
-    "depth": 2
-  },
-  {
-    "url": "https://supportforums.cisco.com/node/add/discussion",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/unified-communications/jabber-android/index.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/web/tools-catalog.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/saved/index.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/741/fn74113.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-android/tsd-products-support-translated-end-user-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/jabber-android/datasheet-c78-740446.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/jabber-windows/eos-eol-notice-c51-2412157.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/jabber-android/eos-eol-notice-c51-732164.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/jabber-iphone/end_of_life_notice_c51-728906.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/740/fn74092.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/721/fn72167.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/704/fn70470.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/field-notices/639/fn63959.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-proximity-ssl-cert-gBBu3RB.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20190109-jcf-im-xss.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160927-openssl.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20171129-jabber1.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20161114-openssl.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160504-openssl.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20160302-openssl.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20151204-openssl.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/Cisco-SA-20150113-CVE-2015-0204.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/Cisco-SA-20130319-CVE-2013-1161.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20150710-openssl.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20150612-openssl.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-20150310-ssl.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-android/products-installation-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/213902-jabber-for-android-quick-start-guide.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200637-Avoid-Jabber-Authentication-with-the-Web.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/technology-and-support/ct-p/technology-support",
-    "depth": 2
-  },
-  {
-    "url": "https://supportforums.cisco.com/node/add/discussion",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/products/unified-communications/jabber-iphone-ipad/index.html",
-    "depth": 2
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html",
     "depth": 2
   },
@@ -475921,6 +475549,722 @@
   },
   {
     "url": "https://www.cisco.com/en/US/docs/voice_ip_comm/jabber/Windows/9_2_1/JABW_BK_CAAD3F25_00_cisco-jabber-for-windows-release-notes_chapter_00.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/jabber-windows/116337-problem-jabber-00.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/en/US/docs/voice_ip_comm/jabber/Windows/9_2/JABW_BK_C9731738_00_jabber-windows-install-config.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/cisco/web/support/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/ps12511/products_user_guide_list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/cisco/web/support/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cisco.com/bugsearch",
+    "depth": 3
+  },
+  {
+    "url": "https://cway.cisco.com/mydevices",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/research/home",
+    "depth": 3
+  },
+  {
+    "url": "https://cway.cisco.com/sncheck",
+    "depth": 3
+  },
+  {
+    "url": "https://cway.cisco.com/mynotifications",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/partner-hub/ct-p/2002j-partner-home",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/project-gallery/con-p/customer-success-stories",
+    "depth": 3
+  },
+  {
+    "url": "https://experiences.cisco.com/amer/simplify-it-with-sd-wan",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/content/cdc/login.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/content/cdc/sso/logout.html",
+    "depth": 3
+  },
+  {
+    "url": "https://apps.cisco.com/Commerce/home",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/benefits-profitability/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/partners/promotions.html",
+    "depth": 3
+  },
+  {
+    "url": "https://workday.cisco.com",
+    "depth": 3
+  },
+  {
+    "url": "https://directory.cisco.com/find-people/search",
+    "depth": 3
+  },
+  {
+    "url": "https://devices.cisco.com",
+    "depth": 3
+  },
+  {
+    "url": "https://apps.cisco.com/Commerce/order",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/jabber-mac/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/jabber-android/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/jabber-iphone-ipad/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://engage2demand.cisco.com/LP=13779",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/service-listing.html",
+    "depth": 3
+  },
+  {
+    "url": "https://ebooks.cisco.com/story/5c993c1d6731e967e55ed5b6",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/collaboration/case-studies.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/solutions/partner-ecosystem.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/end-user-license-agreement.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/end-user-license-agreement.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/end-user-license-agreement.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/end-user-license-agreement.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/end-user-license-agreement.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/tsd-products-support-install-and-upgrade-technotes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-configuration-examples-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217615-configure-and-log-analysis-of-jabber-e91.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217615-configure-and-log-analysis-of-jabber-e91.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217615-configure-and-log-analysis-of-jabber-e91.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/products-maintenance-guides-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-configuration-examples-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-105/118770-configure-cucm-00.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-configuration-examples-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-configuration-examples-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-configuration-examples-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213406-test-directory-attribute-mapping-for-jab.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213406-test-directory-attribute-mapping-for-jab.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213406-test-directory-attribute-mapping-for-jab.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-configuration-examples-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-configuration-examples-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211427-Configure-Jabber-Extend-and-Connect-and.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211427-Configure-Jabber-Extend-and-Connect-and.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211427-Configure-Jabber-Extend-and-Connect-and.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-proximity-ssl-cert-gBBu3RB",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/214737-troubleshoot-jabber-login-failure-after.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/214737-troubleshoot-jabber-login-failure-after.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/214737-troubleshoot-jabber-login-failure-after.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213803-configure-ldap-as-a-directory-contact-so.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213803-configure-ldap-as-a-directory-contact-so.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213803-configure-ldap-as-a-directory-contact-so.mobi",
+    "depth": 3
+  },
+  {
+    "url": "http://www.cisco.com/cisco/web/support/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212081-Jabber-Log-in-Failure-Due-To-Proxy-Setti.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212081-Jabber-Log-in-Failure-Due-To-Proxy-Setti.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212081-Jabber-Log-in-Failure-Due-To-Proxy-Setti.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.mobi",
+    "depth": 3
+  },
+  {
+    "url": "http://www.cisco.com/c/en/us/support/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212082-How-to-collect-Jabber-Crash-Dump-on-Appl.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212082-How-to-collect-Jabber-Crash-Dump-on-Appl.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212082-How-to-collect-Jabber-Crash-Dump-on-Appl.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212088-How-to-Pull-Crash-Dumps-for-Jabber-for-i.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212088-How-to-Pull-Crash-Dumps-for-Jabber-for-i.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212088-How-to-Pull-Crash-Dumps-for-Jabber-for-i.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212084-Troubleshoot-Cisco-Jabber-Directory-Sear.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212084-Troubleshoot-Cisco-Jabber-Directory-Sear.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212084-Troubleshoot-Cisco-Jabber-Directory-Sear.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/products-tech-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212059-How-to-Gather-Microsoft-Outlook-Logs-for.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212059-How-to-Gather-Microsoft-Outlook-Logs-for.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212059-How-to-Gather-Microsoft-Outlook-Logs-for.mobi",
+    "depth": 3
+  },
+  {
+    "url": "http://www.cisco.com/cisco/web/support/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/jabber-android/datasheet-listing.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/jabber-android/eos-eol-notice-listing.html",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/portal/pub/download/portal/select.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/jabber-android/datasheet-listing.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/jabber-android/datasheet-c78-740446.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/en/US/ordering/index.shtml",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/training-events.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/cisco-partner-program/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/partners/tools/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/jabber-android/eos-eol-notice-listing.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/collateral/unified-communications/jabber-android/eos-eol-notice-c51-732164.pdf",
+    "depth": 3
+  },
+  {
+    "url": "http://www.cisco.com/c/en/us/products/unified-communications/jabber-android/index.html",
+    "depth": 3
+  },
+  {
+    "url": "http://www.cisco.com/web/partners/incentives_and_promotions/tmp.html",
+    "depth": 3
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/products_end-of-life_policy.html",
+    "depth": 3
+  },
+  {
+    "url": "http://www.cisco.com/en/US/products/prod_warranties_listing.html",
+    "depth": 3
+  },
+  {
+    "url": "http://www.cisco.com/cisco/support/notifications.html",
+    "depth": 3
+  },
+  {
+    "url": "http://www.cisco.com/web/feeds/products/end_of_life_rss.xml",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/images/cisco-alert.svg",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/cvssCalculator.x",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/images/blue-square.png",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/Cisco-SA-20130319-CVE-2013-1161/cvrf/Cisco-SA-20130319-CVE-2013-1161_cvrf.xml",
+    "depth": 3
+  },
+  {
+    "url": "http://tools.cisco.com/security/center/content/CiscoSecurityNotice/CVE-2013-1161",
+    "depth": 3
+  },
+  {
+    "url": "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/Cisco-SA-20130319-CVE-2013-1161",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/images/cisco-alert.svg",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20150710-openssl/cvrf/cisco-sa-20150710-openssl_cvrf.xml",
+    "depth": 3
+  },
+  {
+    "url": "http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20150710-openssl",
+    "depth": 3
+  },
+  {
+    "url": "http://tools.cisco.com/security/center/viewAlert.x",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/webex-messenger/products-installation-guides-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-communications-manager-version-85/113471-jabber-android-00.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/213902-jabber-for-android-quick-start-guide.pdf",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/213902-jabber-for-android-quick-start-guide.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/213902-jabber-for-android-quick-start-guide.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://engage2demand.cisco.com/LP=567",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/jabber-iphone-ipad/datasheet-listing.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/products/unified-communications/jabber-iphone-ipad/eos-eol-notice-listing.html",
     "depth": 3
   }
 ]
