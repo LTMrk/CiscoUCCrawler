@@ -278,3 +278,80 @@ Contains Interactive Lab
   * 24
 
 
+
+
+---
+# ORIGEN: https://developer.cisco.com/codeexchange
+
+Code Exchange
+[Search all](https://developer.cisco.com/codeexchange/search/)
+[Search AI repos](https://developer.cisco.com/codeexchange/ai/)NEW
+[Submit project](https://developer.cisco.com/codeexchange/submit/)
+# Cisco Code Exchange
+Curated APIs, SDKs, MCP Servers, and AI Agents GitHub projects across Cisco platforms and products
+I want to find 
+“MCP Servers”
+Search
+[Meraki](https://developer.cisco.com/codeexchange/search/?products=Meraki&order=products)[Catalyst Center](https://developer.cisco.com/codeexchange/search/?products=Catalyst%20Center&order=products)[Webex](https://developer.cisco.com/codeexchange/search/?products=Webex&order=products)[Catalyst SD-WAN](https://developer.cisco.com/codeexchange/search/?products=Catalyst%20SD-WAN&order=products)[IOS XE](https://developer.cisco.com/codeexchange/search/?products=IOS%20XE&order=products)[NX-OS](https://developer.cisco.com/codeexchange/search/?products=NX-OS&order=products)
+[Search all repos](https://developer.cisco.com/codeexchange/search/)[AI reposNEW](https://developer.cisco.com/codeexchange/ai/)[Submit project](https://developer.cisco.com/codeexchange/submit/)[Dashboard](https://developer.cisco.com/codeexchange/dashboard/)[Community](https://community.cisco.com/t5/code-exchange/bd-p/dev-code-exchange)[About](https://developer.cisco.com/codeexchange/about/)
+## Explore Cisco-curated MCP Servers, AI Agents, and more
+[Explore all AI repos](https://developer.cisco.com/codeexchange/ai/)
+[MCP Servercatc-mcp-oss cisco-en-programmability +3 Github contributor An MCP Server for Catalyst Center stdioTools 514 ![Developed by Cisco](https://static.production.devnetcloud.com/codeexchange/assets/cisco-developed-CphP6OyX.svg) ](https://developer.cisco.com/codeexchange/github/repo/cisco-en-programmability/catc-mcp-oss/)
+[MCP Servercisco-meraki-mcp-official CiscoDevNet +1 Github contributor The Cisco Meraki MCP Server connects AI agents and coding stdioTools 010 ![Developed by Cisco](https://static.production.devnetcloud.com/codeexchange/assets/cisco-developed-CphP6OyX.svg) ](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/cisco-meraki-mcp-official/)
+[MCP Servercisco_aci_mcp_community CiscoDevNet +2 Github contributor MCP Server for Cisco ACI stdioTools 000](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/cisco_aci_mcp_community/)
+[MCP ServerCiscoFMC-MCP-server-community CiscoDevNet +4 Github contributor MCP server that exposes high-level tooling for Cisco Secure Firewall Management Center (FMC). Core tools: HTTP/StreamTools 505](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/CiscoFMC-MCP-server-community/)
+[MCP Serversecure-access-mcp-community CiscoDevNet +1 Github contributor Community MCP Server for Cisco Secure Access HTTP/StreamTools 000](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/secure-access-mcp-community/)
+[GenAIfabrik onemli +1 Github contributor Open-source Cisco ACI automation platform with a visual query builder. Build APIC queries without code, detect drift, and automate via AWX. PythonData CenterApplication Centric Infrastructure (ACI) 601](https://developer.cisco.com/codeexchange/github/repo/onemli/fabrik/)
+[MCP Serverwebex-mcp-official CiscoDevNet +1 Github contributor Source: https://developer.webex.com/mcp/docs/webex-mcp-server-overview HTTP/StreamTools 000 ![Developed by Cisco](https://static.production.devnetcloud.com/codeexchange/assets/cisco-developed-CphP6OyX.svg) ](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/webex-mcp-official/)
+[MCP ServergNMIBuddy jillesca +1 Github contributor Over-engineered & opinionated gNMI collector with MCP stdioTools 1305](https://developer.cisco.com/codeexchange/github/repo/jillesca/gNMIBuddy/)
+[MCP Serverxdr-mcp-community CiscoDevNet +1 Github contributor MCP (Model Context Protocol) server that exposes Cisco XDR APIs as tools for AI assistants. Connects to the XDR portal (e.g. https://xdr.us.security.cisco.com/) with... stdioTools 000](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/xdr-mcp-community/)
+## Access and share featured code repos
+Explore code projects from the networking community curated and maintained by Cisco
+[Code Repoansible-dc-vxlan netascode +20 Github contributor Ansible Collection for configuring a VXLAN Fabric using Direct to Controller (DTC) workflows. PythonData CenterNexus Dashboard 13719](https://developer.cisco.com/codeexchange/github/repo/netascode/ansible-dc-vxlan/)
+[Code Repocisco-secure-access-python-sdk CiscoDevNet +4 Github contributor A Python SDK for interacting with Cisco Secure Access APIs. SecurityCisco Secure Access 612](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/cisco-secure-access-python-sdk/)
+[MCP ServerThousandEyes-MCP-Server-official CiscoDevNet +1 Github contributor The Model Context Protocol (MCP) standardizes how applications can provide context to large language models (LLMs), allowing AI assistants to access and query extern... HTTP/SSETools 000 ![Developed by Cisco](https://static.production.devnetcloud.com/codeexchange/assets/cisco-developed-CphP6OyX.svg) ](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/ThousandEyes-MCP-Server-official/)
+## Run repos in Cisco Cloud IDE
+[Code Reponextbox-ui-plugin iDebugAll +7 Github contributor A topology visualization plugin for Netbox powered by NextUI Toolkit JavaScriptNetworking 4473057](https://developer.cisco.com/codeexchange/github/repo/iDebugAll/nextbox-ui-plugin/)
+[Repo with Automation Use Caseautomation-scripts meraki +14 Github contributor Meraki Dashboard API automation/migration scripts in Python ... PythonNetworkingMeraki 36867185](https://developer.cisco.com/codeexchange/github/repo/meraki/automation-scripts/)
+[Code Repomeraki-cli PackeTsar +3 Github contributor A simple CLI tool to automate and control your Cisco Meraki Dashboard PythonNetworkingMeraki 821016](https://developer.cisco.com/codeexchange/github/repo/PackeTsar/meraki-cli/)
+[Repo with Automation Use Casecloud-security CiscoDevNet +8 Github contributor The Cisco Cloud Security client samples, Postman collections, guides, and example applications can help you build integrations with Cisco Umbrella, Cisco Investigate... PythonSecurityUmbrella 562682](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/cloud-security/)
+[Code Reponso-automation-levels-example NSO-developer +3 Github contributor Reaching Network Automation Level 5: Principles and Practice MakefileNetworkingNSO 850](https://developer.cisco.com/codeexchange/github/repo/NSO-developer/nso-automation-levels-example/)
+[Code Repowebexteamsbot hpreston +3 Github contributor Python package for creating Webex Teams chat bots.  PythonCollaborationWebex 501135](https://developer.cisco.com/codeexchange/github/repo/hpreston/webexteamsbot/)
+[Code RepoNSO-Playground-Local-Install CiscoDevNet +3 Github contributor Quick start for NSO Playground Local Install Data CenterNetwork Services Orchestrator (NSO) 1140](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/NSO-Playground-Local-Install/)
+[Code Reponso-restconf-dns-example jillesca +2 Github contributor Simple DNS example showing how to interact with NSO using Restconf APIs. PythonNetworkingNetwork Services Orchestrator (NSO) 112](https://developer.cisco.com/codeexchange/github/repo/jillesca/nso-restconf-dns-example/)
+[Code Reponso-service-dev-practices NSO-developer +4 Github contributor NSO service development good practices PythonNetworkingNetwork Services Orchestrator (NSO) 054](https://developer.cisco.com/codeexchange/github/repo/NSO-developer/nso-service-dev-practices/)
+## Check repos with Automation Use Case
+[View all](https://developer.cisco.com/codeexchange/search/?complexity=usecase&order=complexity)
+[Repo with Automation Use CaseDNAC-TEMPLATES kebaldwi +7 Github contributor This repository provides examples and guidance for using Catalyst Center, an intelligent automation and assurance platform for campus networks. It covers various aspects of network automation, including Plug and Play (PnP) workflows, onboarding and day-N templates, and the use of Velocity and Jinja2 scripting languages.  PythonNetworkingCatalyst Center 1381948](https://developer.cisco.com/codeexchange/github/repo/kebaldwi/DNAC-TEMPLATES/)
+[Repo with Automation Use Casenautobot nautobot +30 Github contributor Network Source of Truth & Network Automation Platform PythonData CenterCatalyst SD-WAN 1.4k37373](https://developer.cisco.com/codeexchange/github/repo/nautobot/nautobot/)
+[Repo with Automation Use Casedevops juliogomez +3 Github contributor Hands-on with DevOps ShellCollaborationWebex 1531554](https://developer.cisco.com/codeexchange/github/repo/juliogomez/devops/)
+## Latest code repos
+[View all](https://developer.cisco.com/codeexchange/search/?sort=contentLastUpdateTime)
+[MCP Servercatc-mcp-oss cisco-en-programmability +3 Github contributor An MCP Server for Catalyst Center stdioTools 514 ![Developed by Cisco](https://static.production.devnetcloud.com/codeexchange/assets/cisco-developed-CphP6OyX.svg) ](https://developer.cisco.com/codeexchange/github/repo/cisco-en-programmability/catc-mcp-oss/)
+[Code Repoesxi-auto-installer CiscoDevNet +3 Github contributor Automate mass ESXi installation without ever seeing the console screen. PythonData CenterUCS Manager 32129](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/esxi-auto-installer/)
+[MCP Servercisco-meraki-mcp-official CiscoDevNet +1 Github contributor The Cisco Meraki MCP Server connects AI agents and coding stdioTools 010 ![Developed by Cisco](https://static.production.devnetcloud.com/codeexchange/assets/cisco-developed-CphP6OyX.svg) ](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/cisco-meraki-mcp-official/)
+## Get started and become a contributor
+Become a contributor to the largest Cisco repositories for code and automation
+Basic Requirements
+  * Be relevant to Cisco technologies
+  * Be publicly available on GitHub
+  * Licensed under an [OSI-approved open source license](https://opensource.org/licenses/alphabetical/) or the [Cisco Sample Code License.](https://developer.cisco.com/site/license/cisco-sample-code-license/)
+  * Have clear technical documentation (e.g., README) on how to use your code, appliced use cases, other linked resources.  
+View [Template >](https://github.com/CiscoDevNet/code-exchange-repo-template/blob/master/manual-sample-repo/README.md)
+
+
+When all set, you can share your Project URL on GitHub directly!
+[Submit project](https://developer.cisco.com/codeexchange/submit/?repo=)
+![people working in front of monitors](https://static.production.devnetcloud.com/codeexchange/assets/icon-DpK1orjW.png)
+  * ## Check out other Cisco DevNet offerings
+  * Documentation
+Access API, SDK, data model documentation and more
+[Read](https://developer.cisco.com/docs/)
+  * Learning Labs
+Learn by doing efficient interactive tutorials with Cisco products
+[Learn](https://developer.cisco.com/learning/)
+  * Sandbox
+Try pre-built Cisco platforms to test APIs, SDKs, and solutions
+[Build](https://developer.cisco.com/sandbox/)
+
+
