@@ -24982,3 +24982,180 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.html)Show All Breadcrumbs
+  * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/products/unified-communications/index.html)
+  * [Unified Communications Applications](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-applications/index.html)
+  * [Cisco Jabber Softphone for VDI](https://www.cisco.com/c/en/us/products/unified-communications/jabber-softphone-for-vdi/index.html)
+  * [Data Sheets](https://www.cisco.com/c/en/us/products/unified-communications/jabber-softphone-for-vdi/datasheet-listing.html)
+
+
+# Cisco Virtualization Experience Media Engine Accessories Data Sheet
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.html) to Save Content 
+[ Translations ](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.html)
+Download
+Print
+### Available Languages
+  * [Japan - 日本語](https://www.cisco.com/c/ja_jp/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.html)
+
+
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.pdf) (468.1 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:January 22, 2016
+Document ID:1473298529724246
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+Cisco® Virtualization Experience Media Engine ([VXME](http://www.cisco.com/en/US/products/ps12862/index.html)) supports a range of leading audio and video accessories from Cisco and third-party manufacturers, providing you with an enhanced audio and video collaboration experience.
+Unified Communications Accessories
+Innovative unified communications accessories designed for Cisco by Jabra and Logitech are tightly integrated with Jabber® and VXME call control to further enhance your collaborative experience.
+Figure 1 shows the Logitech Unified Communications Keyboard K725-C and Logitech Mouse M525-C, and Table 1 gives their specifications.
+**Figure 1.** Logitech Unified Communications Keyboard K725-C and Logitech Mouse M525-C 
+[![](https://www.cisco.com/c/dam/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.doc/_jcr_content/renditions/data_sheet_c78-702849_0.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.doc/_jcr_content/renditions/data_sheet_c78-702849_0.jpg "Related image, diagram or screenshot.")
+**Table 1.** Specifications of Logitech Unified Communications Keyboard K725-C and Logitech Mouse M525-C  
+|  Accessory  |  Specifications  |  
+| --- | --- |  
+|  Logitech Unified Communications Keyboard K725-C  |  ●Ready to use, Wired USB ●Integrated Phone and Video Controls - Answer, End, Audio Path, Voicemail, Audio/Video Mute ●LCD Screen - Caller ID, Dialing, and Session State Information ●Backlit Call-Control Indicators for active states ●1 USB 2.0 Port  |  
+|  Logitech Mouse M525-C  |  ●Advanced 2.4-GHz Wireless ●Ergonomic Design  |  
+Figure 2 shows the Logitech Webcam C920-C, and Table 2 gives its specifications.
+**Figure 2.** Logitech Webcam C920-C 
+[![](https://www.cisco.com/c/dam/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.doc/_jcr_content/renditions/data_sheet_c78-702849_1.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.doc/_jcr_content/renditions/data_sheet_c78-702849_1.jpg "Related image, diagram or screenshot.")
+**Table 2.** Logitech Webcam C920-C  
+|  Accessory  |  Specifications  |  
+| --- | --- |  
+|  Logitech Webcam C920-C  |  ●Ready to use, Wired USB ●Autofocus ●Supports up to 1080p/30 fps HD ●UVC H.264 Hardware Encoding ●Integrated Privacy Shade  |  
+**Figure 3.** Jabra Handset 450 for Cisco 
+[![](https://www.cisco.com/c/dam/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.doc/_jcr_content/renditions/data_sheet_c78-702849_2.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.doc/_jcr_content/renditions/data_sheet_c78-702849_2.jpg "Related image, diagram or screenshot.")
+**Table 3.** Specifications for Jabra Handset 450  
+|  Accessory  |  Specifications  |  
+| --- | --- |  
+|  Jabra Handset 450 for Cisco  |  ●Wideband audio quality  ●Ready to use, USB-based  ●DECT cordless handset with up to 20-meter range  ●Mute and Volume Controls  ●Light Indicators for active state and Message Waiting Indicator  ●Rechargeable battery up to 8 hours talk time and 40 hours standby time   |  
+Other Supported Accessories
+The following sections list specific device models or supported series that Cisco has validated with the latest Cisco Jabber® platform to support audio devices with basic call control functions and video accessories that adhere to the Cisco video experience. You should consult accessory vendors for support of these accessories and validation of other devices that are not listed.
+Note: Because headset types vary, call control may differ from the expected Cisco user experience. Please consult the vendor for any noted deviations for each applicable model or series listed.
+For Supported Audio Accessories: <http://www.cisco.com/en/US/prod/voicesw/uc_endpoints_accessories.html>.
+Note: If an audio accessory is not listed in the provided link, it may work with VXME but will support audio path only.
+For Supported Video Accessories: <http://www.cisco.com/en/US/prod/voicesw/uc_endpoints_accessories.html>.
+Note: For low-processing powered endpoints to achieve HD video of 1080p at 30 fps or higher, you must have a camera with local encoding hardware for video processing such as with the Logitech Webcam C920-C. When using a nonencoding camera, output is limited to the processor output of the local endpoint.
+Audio Path and Call Control
+Cisco VXME supports audio devices with integrated call-control functions for a complete unified communications experience of the Cisco Jabber platform.
+You can manage calls, such as answer and end call, with the Cisco Jabber application in the hosted virtual desktop.
+Device Selection
+Device selection is managed by the Device Selector, which is provided in the system tray of your Windows desktop (Figure 4).
+When a supported audio or video device is connected to the endpoint running Cisco VXME, it is automatically selected as the new active device. If the default device is disconnected or unavailable, then the previously active device is automatically selected to receive the audio-video media stream.
+Placing a mouse over the Device Selector icon displays the currently active audio and video devices (Figure 4).
+**Figure 4.** Device Selector Icon and Active Device Display 
+[![](https://www.cisco.com/c/dam/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.doc/_jcr_content/renditions/data_sheet_c78-702849_3.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.doc/_jcr_content/renditions/data_sheet_c78-702849_3.jpg "Related image, diagram or screenshot.")
+You may also manually select an alternative active audio or video device by clicking the Device Selector icon in the Windows system tray and selecting from the list of connected devices (Figure 5).
+**Figure 5.** Active Device Selection Menu 
+[![](https://www.cisco.com/c/dam/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.doc/_jcr_content/renditions/data_sheet_c78-702849_4.jpg)](https://www.cisco.com/c/dam/en/us/products/collateral/collaboration-endpoints/virtualization-experience-media-engine/data_sheet_c78-702849.doc/_jcr_content/renditions/data_sheet_c78-702849_4.jpg "Related image, diagram or screenshot.")
+Ordering and Support
+Cisco SolutionsPlus is a reselling program that places a select set of "Cisco Compatible" products on the Cisco Systems® price list, enabling customers to order these third-party products from Cisco sales teams and channel partners. Jabra and Logitech offer products in Cisco SolutionsPlus that complement the Cisco VXME solution.
+Table 4 provides ordering information for these integrated unified communications accessories. To place an order, visit the Cisco Ordering homepage and refer to Table 4.
+**Table 4.** Ordering Information  
+|  Cisco UC Accessories  |  Part Number  |  
+| --- | --- |  
+|  SPVAC-UC725-S-BDL=  |  Logitech UC Solution for Cisco 725-C Bundle - Smoke Includes: Logitech UC Keyboard K725-C - Available in US, UK English, French, German and Spanish Logitech Mouse M525-C Logitech Webcam C920-C  |  
+|  SPVAC-UC725JP-S-BDL=  |  LogiCool UC Solution for Cisco 725-C Bundle - Smoke - Japan Only  |  
+|  SPVAC-C7416-S=  |  Logitech Webcam C920-C - Smoke - Global (Except Japan)  |  
+|  SPVAC-C7416-S-JP=  |  LogiCool Webcam C920-C - Smoke - Japan  |  
+|  SPVAC-H5610-S-US=  |  Jabra Handset 450 for Cisco - Smoke - US  |  
+|  SPVAC-H5610-S-EU=  |  Jabra Handset 450 for Cisco - Smoke - EU, Australia and New Zealand  |  
+|  SPVAC-H5610-S-CL=  |  Jabra Handset 450 for Cisco - Smoke - Caribbean and Latin America  |  
+|  SPVAC-H5610-S-JP=  |  Jabra Handset 450 for Cisco - Smoke - Japan  |  
+|  SPVAC-H5610-S-TW=  |  Jabra Handset 450 for Cisco - Smoke - Taiwan  |  
+Note: You may order the accessories in the color white by directly contacting Jabra and Logitech.
+For Other Supported Accessories, please order devices directly from the accessory manufacturers, which provide and support accessories.
+You should use the vendor model numbers provided in this data sheet as a guide only because they may be subject to change by the manufacturer without notice.
+For More Information
+For more information, please visit:
+●<http://www.cisco.com/go/vxc>
+●<http://www.jabra.com/cisco>
+### Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * ##### Call Sales:
+  * [ 1-800-553-6387 ](tel:18005536387)
+  * US/CAN | 5am-5pm PT
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+### Was this Document Helpful?
+Yes No [ ![Feedback](https://www.cisco.com/c/dam/cdc/i/Feedback_OceanBlue.png)Feedback](javascript:%20void\(0\);)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
