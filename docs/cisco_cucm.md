@@ -6291,3 +6291,115 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html
+
+  * [Skip to content](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#eot-doc-wrapper)
+  * [Skip to search](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html)
+  * [Skip to footer](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html)
+
+
+  * [Cisco.com Worldwide](https://www.cisco.com/site/us/en/index.html)
+  * [Products and Services](https://www.cisco.com/site/us/en/products/index.html)
+  * [Solutions](https://www.cisco.com/site/us/en/solutions/index.html)
+  * [Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Learn](https://www.cisco.com/site/us/en/learn/index.html)
+  * [Explore Cisco](https://www.cisco.com/site/us/en/about/sitemap.html)
+  * [How to Buy](https://www.cisco.com/site/us/en/buy/index.html)
+  * [Partners Home](https://www.cisco.com/site/us/en/partners/index.html)
+  * [Partner Program](https://www.cisco.com/site/us/en/partners/360-partner-program/partner-program/index.html)
+  * [Support](https://www.cisco.com/site/us/en/partners/support-help/index.html)
+  * [Tools](https://www.cisco.com/site/us/en/partners/360-partner-program/tools-training/index.html)
+  * [Find a Cisco Partner](https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp#/)
+  * [Meet our Partners](https://www.cisco.com/site/us/en/partners/connect-with-a-partner/index.html)
+  * [Become a Cisco Partner](https://www.cisco.com/site/us/en/partners/index.html)
+
+
+  * [](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html)
+  * [...](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html)Show All Breadcrumbs
+  * [Products & Services](https://www.cisco.com/c/en/us/products/index.html)
+  * [Unified Communications](https://www.cisco.com/c/en/us/products/unified-communications/index.html)
+  * [Call Control](https://www.cisco.com/c/en/us/products/unified-communications/call-control/index.html)
+  * [Cisco Unified Communications Manager (CallManager)](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/index.html)
+  * [Bulletins](https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/bulletin-listing.html)
+
+
+# Cisco Unified Communications Manager, IM and Presence Service Bulletin for Cisco Push REST Service
+Bulletin
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html) to Save Content 
+Download
+Print
+### Available Languages
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.pdf) (232.3 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:December 14, 2023
+Bias-Free Language
+### Bias-Free Language
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. [Learn more](https://www.cisco.com/site/us/en/about/purpose/social-impact/inclusive-language-policy.html) about how Cisco is using Inclusive Language.
+Contact Cisco
+  * Contact Cisco
+  * [Get a call from Sales](https://www.cisco.com/site/us/en/about/contact-cisco/index.html?linkclickid=luh-contactus)
+  * Call Sales: [ 1-800-553-6387 ](tel:18005536387)   
+US/CAN | 5am-5pm PT 
+  * [Product / Technical Support](https://www.cisco.com/c/en/us/support/index.html)
+  * [Training & Certification](https://www.cisco.com/site/us/en/learn/training-certifications/index.html)
+
+
+Save
+[Log in](https://www.cisco.com/c/login/index.html?referer=/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html) to Save Content 
+Download
+Print
+### Available Languages
+### Download Options
+  * [PDF](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.pdf) (232.3 KB)   
+View with Adobe Reader on a variety of devices
+
+
+Updated:December 14, 2023
+#### Table of Contents
+![Open Search](https://www.cisco.com/content/dam/eotToc/search-white_28x28.png)
+![Close Search](https://www.cisco.com/content/dam/eotToc/close_11x11.png)
+#### Table of Contents
+  * [Background](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#Background "Background")
+  * [Impact](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#Impact "Impact")
+  * [Action](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#Action "Action")
+  * [Problem symptom](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#Problemsymptom "Problemsymptom")
+  * [For More Information](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/uni-cm-im-presence-service-bulletin.html#ForMoreInformation "ForMoreInformation")
+
+
+Background
+When a cluster is enabled for push notifications, Cisco Unified CM and Cisco Unified Communication IM&P use the Cisco Push REST service in the Cisco cloud to send push notifications to either the Apple Push Notification Service (APNS) or the Google Firebase Cloud Messaging (FCM) Push Notification service, which send push notifications to compatible Cisco Jabber (for messaging and calling) or Cisco Webex App clients (for calling) that run on Apple iOS or Android devices. Push notifications allow the system to communicate with the client, even after it has entered into background mode (also known as suspended mode). On March 29, 2024, Cisco will migrate the Cisco Push REST service from one data center to another.
+Impact
+Cisco customers who use Cisco Unified Communications Manager (Unified CM) or Cisco Unified Communication IM & Presence Service (IM&P) to manage push notifications may experience a failure of push notifications on or after March 29, 2024, for the following clients:
+●Cisco Jabber
+●Cisco Webex applications
+●Apple Push Notifications Service (APNS)
+●Google Firebase Cloud Messaging (FCM)  
+  
+
+This issue is due to the migration of the data center hosting the Cisco Push REST service.
+Action
+The recommended method of configuration is as stated in [Push Notifications Prerequisites](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_01.html#reference_CE836F3E3283BCF699F2AFC21426B783) to add fos-a.wbx2.com, push.webexconnect.com, and idbroker.webex.com to the SSL Decryption Exclusion list in the firewall.
+There is no action necessary for customers who use the above recommended method of configuration. 
+For customers who have configured IP address in their Firewall ACL it is recommended to use the Fully Qualified Domain Name (FQDN) as stated above.
+For customers who have stringent firewall policies that are based on the IP address requirements, please contact Cisco Technical Assistance Center (TAC) before March 29, 2024, which is the production cutover date.
+For more information, see the [Push Notifications (On-Premises Deployments)](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_01.html) chapter of the Push Notifications Deployment Guide
+Problem symptom
+Push notifications that are sent from Cisco Unified CM and Cisco Unified Communication IM&P may fail to reach Cisco Jabber as well as Cisco Webex Application for Apple iOS and Android mobile clients on or after March 29, 2024.
+For More Information
+For further assistance or for more information about this Service Bulletin, contact the Cisco Technical Assistance Center (TAC) using one of the following methods:
+●[Open a service request on Cisco.com](https://mycase.cloudapps.cisco.com/case)
+●[By email or telephone](https://www.cisco.com/c/en/us/support/web/tsd-cisco-worldwide-contacts.html)
+### Our experts recommend
+  * [Case Study IP Telephony Deployment - ACU](https://www.cisco.com/c/en/us/support/docs/voice-unified-communications/unified-communications-manager-callmanager/13913-ACU-casestudy.html "Case Study IP Telephony Deployment - ACU")
+  * [Cisco Unified Communications on Cisco HyperFlex At-a-Glance](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/at-a-glance-c45-741603.html "Cisco Unified Communications on Cisco HyperFlex At-a-Glance")
+  * [Questions and Answers on Compliance with Kari’s Law and RAY BAUM’S Act](https://www.cisco.com/c/en/us/products/collateral/unified-communications/unified-communications-manager-callmanager/q-and-a-c67-743415.html "Questions and Answers on Compliance  with Kari’s Law and RAY BAUM’S Act")
+
+
+### Learn more
