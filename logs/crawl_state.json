@@ -8194,5 +8194,9 @@
   "https://developer.webex.com/docs/api/v1/meeting-summaries/delete-a-summary": {
     "hash": "52183b78602c4dfd0c1cb60ee21d7ee71aa3ac8a7b1acbe45fcf40ea64ed8fd5",
     "timestamp": "2026-08-13T02:16:00.677549"
+  },
+  "https://developer.webex.com/docs/api/v1/meeting-preferences/get-meeting-preference-details": {
+    "hash": "98e4c0e13f5633db601f23acbc03185253405ecc3ef2421a3c6c023914b4a7d3",
+    "timestamp": "2026-08-13T02:16:07.079910"
   }
 }
