@@ -20122,3 +20122,121 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/blog/developer-sandbox-now-available
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/blog/developer-sandbox-now-available)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/blog/developer-sandbox-now-available)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/blog/developer-sandbox-now-available)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+# Developer Sandbox Now Available
+May 18, 2022
+![Joe Zanini](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltc0ffd4350e6f184b/641b44f4db18f61d68e9c4be/JoeZ.jpeg?width=100&height=100&fit=crop)
+Joe ZaniniDeveloper Evangelist
+![Developer Sandbox Now Available](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blteb97fc0b7e8af46e/628418bd2da7715d05900220/markus-spiske-KU3lOAiP-tQ-unsplash.jpg?width=900&height=317&fit=crop)
+A Webex Developer Sandbox unlocks the ability to make Webex API calls that require [Admin](https://developer.webex.com/docs/admin) user permissions, or to manage a licensed Webex organization using Webex Control Hub. Once access to a licensed org is granted, you can create and test [Webex Embedded Apps](https://developer.webex.com/docs/embedded-apps). What are the necessary steps to request access to a developer sandbox? Below we will go over the process for obtaining a Webex Developer Sandbox and its implementation.
+### Requesting a Developer Sandbox
+Once logged into the [Webex Developer Portal](https://developer.webex.com/) you can navigate to the [Developer Sandbox](https://developer.webex.com/docs/developer-sandbox-guide) documentation and click the **Request a Sandbox** button. You will be prompted to accept the Terms and Conditions prior to submitting the request. After a few minutes you will receive an email with the credentials needed to log into Control Hub for your new test organization.
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt611494d10c3e7d09/6284184de2c49854288809dc/developer-sandbox-blog-1.png)
+### Signing in to Control Hub
+It is recommended that when accessing [Control Hub](https://admin.webex.com/login) that you use a private or incognito browser window to perform the sign in to avoid any potential conflicts with your primary Webex account. Simply enter the credentials that were provided in the email that was sent when the request for a Developer Sandbox has been approved. Once successfully logged in to Control Hub, if you want to make calls against the Webex [Admin APIs](https://developer.webex.com/docs/admin), you can open another tab within the private incognito browser session that you used to login to Control Hub, go to the Webex Developer Portal and select the login button and provide the provided credentials to sign in as the Admin user of the new test Webex organization. This will allow you to access a bearer token with permissions to make calls against the Webex Admin APIs or register an Embedded App for testing in the test organization account and submission to [App Hub](https://apphub.webex.com/).
+### Creating a New Webex Embedded App
+While logged into the Webex Developer Portal, you can click on the **A** icon in the top right corner of the screen. Then select the **My Webex Apps** option.
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltb389dd6c974401b5/6284184dfa2a685899864643/developer-sandbox-blog-2.png)
+Next, click the **Create new App** button and select the **Create Embedded App** button from the app type options.
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt1a4a44f5c7a15e51/6284184d466b1b559357c07e/developer-sandbox-blog-3.png)
+Here you will be required to provide the following information about the potential Embedded App:
+  * Identify if the Embedded App is intended to work in Meeting, Spaces, or both
+  * A name for the Embedded App
+  * A description of the Embedded App
+  * Upload or select an icon
+  * Include valid domains to be included as links in your Embedded App
+  * A start page URL that the initiator will load in the client before sharing the app
+  * Both in meeting start page URL and/or a messaging start page URL
+  * Select a layout preference for user experience
+
+
+Once you have successfully provided all the required data, you can click the blue **Add Embedded App** button to finalize registering the embedded app and be prompted with a congratulatory message.
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt0ca49a3ec450a466/6284184dd5f9386926e63a3a/developer-sandbox-blog-4.png)
+### Enabling Your Embedded App for Testing
+In Control Hub, on the left side of the screen in the Management section select the [Apps](https://admin.webex.com/apps/general) option.
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltec932edd57a8de99/6284184dbdec0b542e4ef89c/developer-sandbox-blog-5.png)
+Then select Embedded Apps and go to the Private Section of listed Embedded Apps and enable the **Show In-development apps** option.
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/blt63cb820d5608b19e/6284184daf7b396927edc365/developer-sandbox-blog-6.png)
+Finally, log into the Webex client using the administrator credentials. If you have selected the options for an in-Space Embedded App, you will be able to see the app listed as an option for use by the test org’s administrator by selecting the apps option from a Space in the Webex client.
+![Image described in surrounding text.](https://images.contentstack.io/v3/assets/bltd74e2c7e18c68b20/bltbe2a1c8ccab925c1/6284184de2af4f67e9980e63/developer-sandbox-blog-7.png)
+### Engage With Us
+The [Webex Developer Community](https://community.cisco.com/t5/webex-for-developers/welcome-to-the-webex-for-developers-forum/m-p/4558386#M321) has dedicated topics, discussion groups, and announcements. We encourage you to tell us about your experience setting up a Webex Developer Sandbox.
+Blog Categories
+  * [Product Announcements](https://developer.webex.com/blog/categories/product-announcements)
+  * [How To](https://developer.webex.com/blog/categories/how-tos)
+  * [Events](https://developer.webex.com/blog/categories/events)
+  * [Developer Stories](https://developer.webex.com/blog/categories/developer-stories)
+
+
+Share This Article
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
