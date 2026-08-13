@@ -26564,3 +26564,154 @@ Apply Cancel
 Save Settings
 Allow All
 [![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
+
+
+---
+# ORIGEN: https://developer.webex.com/meeting/docs/app-programming-interface-behavior-changes
+
+[](https://developer.webex.com/)
+[Getting Started](https://developer.webex.com/create/docs)Documentation![](https://developer.webex.com/meeting/docs/app-programming-interface-behavior-changes)[AI in Webex](https://developer.webex.com/mcp/docs/webex-mcp-server-overview)Blog![](https://developer.webex.com/meeting/docs/app-programming-interface-behavior-changes)[Support](https://developer.webex.com/explore/support)Resources![](https://developer.webex.com/meeting/docs/app-programming-interface-behavior-changes)
+[Log in](https://developer.webex.com/login)[Sign up](https://developer.webex.com/signup)
+[Home](https://developer.webex.com/)/API Behavior Changes
+Webex Meetings
+  * [Overview](https://developer.webex.com/meeting/docs/meetings)
+  * Guides
+  * [Guest to Guest Meetings](https://developer.webex.com/meeting/docs/guest-to-guest-meetings)
+  * [API Behavior Changes](https://developer.webex.com/meeting/docs/app-programming-interface-behavior-changes)
+  * [REST API Basics](https://developer.webex.com/meeting/docs/basics)
+  * API REFERENCE
+  * All APIs
+  * [Changelog](https://developer.webex.com/meeting/docs/api/changelog/webex-meetings)
+  * SDK
+  * [AI Assistant for Developers](https://developer.webex.com/meeting/docs/webex-aI-assistant-for-developers)
+  * [Troubleshoot the API](https://developer.webex.com/meeting/docs/api/guides/troubleshooting)
+  * [Widgets](https://developer.webex.com/meeting/docs/widgets)
+  * [Tutorials](https://developer.webex.com/meeting/docs/tutorials)
+  * [Suite Sandbox](https://developer.webex.com/meeting/docs/developer-sandbox-guide)
+  * [Beta Program Overview](https://developer.webex.com/meeting/docs/webex-developer-beta-program)
+  * [Webex Status API](https://developer.webex.com/meeting/docs/webex-status-api)
+  * [XML API Deprecation](https://developer.webex.com/meeting/docs/webex-xml-api-deprecation-announcement)
+
+
+## Webex Meetings
+### API Behavior Changes
+This page highlights recent API behavior changes associated with the upgrade to the Webex Suite Meeting Platform.
+Developers have reported unexpected changes in functionality, such as [join links](https://developer.webex.com/docs/api/v1/meetings/join-a-meeting) requiring authentication and the [meeting chats API](https://developer.webex.com/docs/api/v1/meeting-chats) not returning new results.
+If you encounter any of these issues, open a ticket with our support team so we can validate your environment and recommend the best path forward.
+These changes are a byproduct of the ongoing migration of customer sites to the Webex Suite Meeting Platform (WSMP).
+####  anchorWhat you should do
+anchor
+  * If you’re using meetings join links for automation, validate the authentication requirements for your meeting type and site.
+  * If you rely on meeting chat content for compliance or DLP/CASB use cases, validate your `/events` consumption for `meetingMessages`.
+  * If you rely on meeting polls or Q&A reporting, plan to use Sli.do APIs.
+  * If you rely on meeting transcripts, validate whether Cisco AI Assistant is enabled for the meeting.
+
+
+####  anchorSummary of API Behavior Changes
+anchor
+###### Availability of direct messages in the meetingMessages event
+  * _NEW_ `meetingMessages` in the /events API will soon also show direct messages (private conversations between meeting attendees) as well as messages exchanged in breakout sessions.
+
+
+###### Availability of Sli.do API for Poll and QA
+  * _NEW_ The Sli.do "Poll" and "QA" reports should be accessed via the Sli.do APIs. Documentation can be found for the [US](https://datapi-us1.slido.com/redoc) and [EU](https://datapi-eu1.slido.com/redoc) with different access points. A helpful [FAQ](https://developer.slido.com/help) is provided as well.
+
+
+###### Meeting join links will need authentication and do not allow host role assignment
+  * Joining a Webex Suite Meeting Platform meeting via the join link now requires explicit login credentials and does not allow for assigning a host role through the link.
+
+
+###### The Meetings Chat legacy API is replaced by the events API most commonly used by DLP/CASB vendors
+  * The meeting chat for compliance use cases can now be accessed through the [events API](https://developer.webex.com/docs/api/v1/events). The Webex Suite Meeting Platform leverages the robust Webex chat functionality, which provides enhanced features such as meeting sharing to spaces and pre- and post-meeting huddles. Compliance officers can access chat data via the [/events API](https://developer.webex.com/docs/api/v1/events), specifically the resource type `meetingMessages`. If necessary, unwanted meetingMessages can be removed using the [/meetingMessages API](https://developer.webex.com/docs/api/v1/meeting-messages). It's important to note that meetingMessages are ephemeral unless configured otherwise in Control Hub. We plan to introduce the ability to configure the persistence of direct messages (person-to-person) and breakout session messages. meetingMessage events are only created for meetings on the new WSMP platform. Historical messages in meetings are not carried over.
+
+
+###### Meetings in spaces must be explicitly licensed through a new scheduling API call
+  * Meetings in spaces work differently. When a space meeting is desired, a Webex Meeting must be [scheduled](https://developer.webex.com/docs/api/v1/meetings/create-a-meeting) with a `roomid`. Meetings are only loosely associated with spaces. This also means the [room meetings info](https://developer.webex.com/docs/api/v1/rooms/get-room-meeting-details) API will no longer work, and all meeting info should be collected from the [meetings](https://developer.webex.com/docs/api/v1/meetings) endpoint.
+
+
+###### Native QA and Poll is replaced by Sli.do functionality
+  * Native `polling` and `QA` are no longer available within meetings powered by the Webex Suite Meeting Platform. Instead, the Sli.do embedded app must be used for this purpose. As a result, the [meeting polls](https://developer.webex.com/docs/api/v1/meeting-polls) and [QA API](https://developer.webex.com/docs/api/v1/meeting-q-and-a) do not contain any data. To collect data about polls and QA, please open a TAC request for access.
+
+
+###### Certain meeting preconfigurations are not available any longer
+  * The `enabledAnnotate` field in the update or [create a meeting](https://developer.webex.com/docs/api/v1/meetings/create-a-meeting) API is not available for the Webex Meetings Suite. Other unavailable fields include: `enabledAnnotate`, `enabledSaveDocument`, `enabledPrintDocument`, `enabledViewThumbnails`, `enabledRemoteControl`, `enabledViewAnyDocument`, `enabledViewAnyPage`, `enabledContactOperatorPrivately`, `enabledChatHost`, `enabledChatPresenter`, `enabledChatOtherParticipants`.
+
+
+###### A note about meeting transcripts when AI Assistant is enabled in the meeting
+  * The [meeting transcripts endpoints](https://developer.webex.com/docs/api/v1/meeting-transcripts) return transcripts for meetings where either Webex Assistant or Cisco AI Assistant is enabled.
+
+
+####  anchorAbility to temporarily opt out of the Webex upgrade
+anchor
+If necessary, we can temporarily revert your site to the previous backend until all the gaps have been addressed. If you require this option, please contact devsupport@webex.com, and your dedicated support representative will guide you through the process. To verify whether your system has been upgraded to the Webex Suite Meeting Platform, see the Webex Help Center article "About the Webex Suite meeting platform".
+Thank you for your understanding and patience as we work towards providing you with an improved API experience on the Webex Suite Meeting Platform. If you have any further questions or concerns, please do not hesitate to reach out to us.
+##### In This Article
+  * [What you should do](https://developer.webex.com/meeting/docs/app-programming-interface-behavior-changes#what-you-should-do)
+  * [Summary of API Behavior Changes](https://developer.webex.com/meeting/docs/app-programming-interface-behavior-changes#summary-of-api-behavior-changes)
+  * [Ability to temporarily opt out of the Webex upgrade](https://developer.webex.com/meeting/docs/app-programming-interface-behavior-changes#ability-to-temporarily-opt-out-of-the-webex-upgrade)
+
+
+## Connect
+[Support](https://developer.webex.com/support)
+[Developer Community](https://community.cisco.com/t5/webex-for-developers/bd-p/disc-webex-developers)
+[Developer Events](https://developer.webex.com/blog/categories/events)
+[Contact Sales](https://www.webex.com/contact-sales.html?TrackID=1017639&hbxref=&goid=us_contact_sales)
+## Handy Links
+[Webex Ambassadors](https://www.essentials.webex.com/programs/ambassadors)
+[Webex App Hub](https://www.essentials.webex.com/programs/ambassadors)
+## Resources
+[Open Source Bot Starter Kits](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[Download Webex](https://ciscowebexteamsambassadors.github.io/StarterKits/)
+[DevNet Learning Labs](https://www.webex.com)
+[Terms of Service](https://developer.webex.com/terms-of-service)
+[Privacy Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html)
+[Cookie Policy](https://www.cisco.com/c/en/us/about/legal/privacy.html#cookies)
+[Trademarks](https://www.cisco.com/c/en/us/about/legal/trademarks.html)
+© 2026 Cisco and/or its affiliates. All rights reserved.
+[](https://github.com/webex)[](https://www.facebook.com/CiscoCollab/)[](https://twitter.com/webexdevs)[](https://www.youtube.com/playlist?list=PL2k86RlAekM_bIUrvVw4Haq_0xxTez9zU)[](https://www.linkedin.com/company/webex/)
+By continuing to use our website, you acknowledge the use of cookies. 
+[Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html) Change Settings
+![Company Logo](https://cdn.cookielaw.org/logos/03fc55fe-0057-4b2f-817d-763e7ecdb316/a7f4c642-c43c-4666-acea-858c0449029c/cisco-logo-transparent.png)
+## Consent Manager
+Your opt out preference signal is honored.
+## Consent Manager
+  * ### Your Privacy
+  * ### Strictly Necessary Cookies
+  * ### Performance Cookies
+  * ### Targeting Cookies
+  * ### Functional Cookies
+
+
+#### Your Privacy
+When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. From the list on left, please choose whether this site may use Performance and/or Targeting Cookies. By selecting Strictly Necessary Cookies only, you are requesting Cisco not to sell or share your personal data. Note, blocking some types of cookies may impact your experience on the site and the services we are able to offer.
+#### Strictly Necessary Cookies
+Always Active
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+Cookies Details
+#### Performance Cookies
+Performance Cookies
+These cookies provide metrics related to the performance and usability of our site. They are primarily focused on gathering information about how you interact with our site, including: page load times, response times, error messages, and allowing a replay of a visitor’s interactions with our site, which enables us to review and analyze visitor behavior, helping to improve site usability and functionality. These cookies also allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+Cookies Details
+#### Targeting Cookies
+Targeting Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+Cookies Details
+#### Functional Cookies
+Functional Cookies
+These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.
+Cookies Details
+Back Button
+### Cookie List
+Filter Button
+Consent Leg.Interest
+checkbox label label
+checkbox label label
+checkbox label label
+Clear
+  * checkbox label label
+
+
+Apply Cancel
+Save Settings
+Allow All
+[![Powered by Onetrust](https://cdn.cookielaw.org/logos/static/powered_by_logo.svg)](https://www.onetrust.com/solutions/consent-and-preferences/)
