@@ -482,3 +482,9 @@ Code context:
 [2026-08-13T13:00:36.820251] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/workspaces
 [2026-08-13T13:00:44.287597] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/devices
 [2026-08-13T13:00:51.143510] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/devices/list-devices
+[2026-08-13T13:01:37.551760] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/workspaces/create-a-workspace
+[2026-08-13T13:01:44.824902] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/devices/create-a-device-activation-code
+[2026-08-13T13:01:52.313716] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/workspaces/update-a-workspace
+[2026-08-13T13:01:59.774615] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/docs/api/v1/workspaces/get-workspace-details
+[2026-08-13T13:02:03.365064] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/create/docs/login-with-webex
+[2026-08-13T13:02:06.875231] ERROR - CONTENIDO DUPLICADO EXACTO | URL: https://developer.webex.com/create/docs/workspace-integrations
