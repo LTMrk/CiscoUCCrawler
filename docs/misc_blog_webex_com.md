@@ -7979,3 +7979,134 @@ Company
   * [English](https://blog.webex.com/collaboration/hybrid-work/return-to-office/)
 
 
+
+
+---
+# ORIGEN: https://blog.webex.com/video-conferencing/webex-new-innovations-back-to-office
+
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-primary-logo.svg)](https://blog.webex.com)
+[![](https://blog.webex.com/wp-content/uploads/2024/08/webex-secondary-logo.svg)](https://blog.webex.com)
+  * [Collaboration](https://blog.webex.com/category/collaboration/)
+  * [Workspaces](https://blog.webex.com/category/workspaces/)
+  * [Customer Experience](https://blog.webex.com/category/customer-experience/)
+  * [Event Management](https://blog.webex.com/category/event-management/)
+  * [Innovation & AI](https://blog.webex.com/category/innovation-ai/)
+
+
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2079%2024%22%3E%3C/svg%3E)](https://blog.webex.com)
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/collaboration/video-conferencing/webex-new-innovations-back-to-office) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/collaboration/video-conferencing/webex-new-innovations-back-to-office&title=What%E2%80%99s%20New%20%E2%80%93%20June%202022) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/collaboration/video-conferencing/webex-new-innovations-back-to-office)
+[ ](https://blog.webex.com/collaboration/video-conferencing/webex-new-innovations-back-to-office/ "Copy Link") [ ](https://blog.webex.com/collaboration/video-conferencing/webex-new-innovations-back-to-office/ "Print")
+[Collaboration](https://blog.webex.com/category/collaboration/)
+# What's New - June 2022
+On Jun 9, 2022Sep 18, 2024By [Webex Team](https://blog.webex.com/contributors/webexadmin/)4 Min Read
+[ ](https://twitter.com/intent/tweet?url=https://blog.webex.com/collaboration/video-conferencing/webex-new-innovations-back-to-office) [ ](https://www.linkedin.com/shareArticle?mini=true&url=https://blog.webex.com/collaboration/video-conferencing/webex-new-innovations-back-to-office&title=What%E2%80%99s%20New%20%E2%80%93%20June%202022) [ ](https://www.facebook.com/sharer/sharer.php?u=https://blog.webex.com/collaboration/video-conferencing/webex-new-innovations-back-to-office)
+[ ](https://blog.webex.com/collaboration/video-conferencing/webex-new-innovations-back-to-office/ "Copy Link") [ ](https://blog.webex.com/collaboration/video-conferencing/webex-new-innovations-back-to-office/ "Print")
+![Hot Desking, Huddle Spaces, Ideation Spaces, Meeting Rooms](https://blog.webex.com/wp-content/uploads/2022/05/Webex-Whats-New-June-2022.png)
+### Turn the office into a collaboration hub for everyone
+We now live and work in a very distributed world. Whether your employees are back in the office, or some are remote, you need to give them a more powerful collaboration experience with technology that brings everyone together to do their best work. This month we are deploying devices and technology that reimagines the office and creates personalized and inclusive and secure collaboration experiences for all. Read on to get a sneak peek of what is in store for June.
+## Reimagined Workspaces
+### Personalized hot desking for everyone made possible by the new Cisco Video Phone 8875
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201200%20800%22%3E%3C/svg%3E) Finally, a desk phone capable of adapting to everyone, with QR code registration to personalize shared workspaces. The all-new [Cisco Video Phone 8875](https://blog.webex.com/collaboration-devices/cisco-video-phone-8875/) is powered by Webex’s audio intelligence to remove background noise and amplify the user’s voice, and it offers calendar integration for a modern hot desking experience.
+### Hardware + software = inclusive and immersive collaboration experiences
+How do you ensure that everyone is seen in a hybrid meeting with people joining from room devices in the office, laptops on the go, and personal devices at home? With the intelligence built into Webex video devices and the Webex app, we can provide an optimized view for everyone. Great on their own, but even better together, intelligent hardware and software provide a true hybrid work experience.
+#### Immersive Hybrid meeting experiences with People Focus – camera intelligence
+In July, we are extending our People Focus camera intelligence with the release of our new camera mode, Frames, allowing for inclusive views in ANY meeting – whether that be Zoom, Microsoft Teams, Google Meet, or any other third-party meeting vendor. ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201200%20834%22%3E%3C/svg%3E)
+#### Immersive hybrid meeting experiences with People Focus – Webex App intelligence
+In addition to Webex devices, People Focus now expands to Webex Meetings, and soon to Webex Webinars. Users will now have similar control and flexibility across different Webex workflows to ensure equal representation of participants in a hybrid meeting. ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201200%20675%22%3E%3C/svg%3E)
+#### More collaboration devices to power hybrid work
+We have even more devices for every workstyle and every space. Learn more in Snorre Kjesbu’s blog: [Return to in-person: Enabling equitable experiences for all](https://blog.webex.com/collaboration-devices/return-to-in-person/).
+## Flexible Workstyles
+### New Webex Calling experiences
+#### **Hear every Webex call clearly on any device**
+Webex Calling users already have access to AI-powered audio intelligence technology that eliminates background noise from the Webex Calling side of calls. We’re now extending this capability to PSTN calls with external, non-Webex Calling users like customers, partners, and suppliers. If a Webex Calling user hears distracting noise from an external caller, the Webex Calling user can eliminate the external caller’s background noise with a single click in the Webex App on desktop and mobile (coming soon), or on supported devices. ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201100%20668%22%3E%3C/svg%3E)
+#### Manage multiple calls without the headaches
+The multi call window is a powerful complement to the Webex App that gives users the ability to manage up to eight lines, shared lines, call queues, or call groups. The user interface is slick and unobtrusive, so users can manage multiple lines while also using other applications. The multi call window has Busy Lamp Field indicators for each line (shows if line is in use) and provides users with quick access to enterprise calling features. ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201200%20803%22%3E%3C/svg%3E)
+#### Rise to the challenge of local survivability
+The multi call window is a powerful complement to the Webex App that gives users the ability to manage up to eight lines, shared lines, call queues, or call groups. The user interface is slick and unobtrusive, so users can manage multiple lines while also using other applications. The multi call window has Busy Lamp Field indicators for each line (shows if line is in use) and provides users with quick access to enterprise calling features. ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20975%20555%22%3E%3C/svg%3E) Webex Calling local site survivability, which will be available later this year, ensures that businesses can make and receive on-site PSTN calls during a network outage by leveraging proven Survivable Remote Site Telephony (SRST) technology on physical or virtual Cisco routers.
+#### Webex Calling global expansion continues
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20853%20480%22%3E%3C/svg%3E) **Check out other innovations that we are announcing at Cisco Live to empower modern workforce to work from anywhere, any device.** To see other Webex calling innovations that we are announcing at Cisco Live to empower modern workforces to work from anywhere, on any device, check out Amey Parandekar’s [blog here](https://blog.webex.com/cloud-calling/new-experiences/).
+## Security and Manageability
+**Accelerate problem solving with network visibility across all workspaces** **Control Hub and ThousandEyes** With so many different work scenarios such as home, office, and remote identifying and diagnosing quality issues in a hybrid work scenario can be extremely challenging. With Control Hub and ThousandEyes integration you can quickly isolate issues to understand if they are caused by the application, device or network. Learn how you can leverage this powerful integration: With so many different work scenarios such as home, office, and remote, identifying and diagnosing quality issues in a hybrid work scenario can be extremely challenging. With Control Hub and ThousandEyes integration you can quickly isolate issues to understand if they are caused by the application, device or network. Learn how you can leverage this powerful integration: <https://blog.webex.com/hybrid-work/control-hub-enhancements/> [![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201440%201025%22%3E%3C/svg%3E)](https://blog.webex.com/wp-content/uploads/2022/06/Network-Path-6.png) Want to know what else is new with Webex this month? See our [full list of What’s New Articles](https://help.webex.com/en-us/article/klpg5s/What's-New-Articles-for-Webex-Services). ***
+> Join us at Cisco Live virtually or in person. [Secure your spot today](https://www.ciscolive.com/global.html). Learn more about Webex by [joining an upcoming training session](https://www.cisco.com/c/en/us/solutions/collaboration/webinars.html#~online-classes). Stay up to date by [joining a daily product demonstration](https://www.cisco.com/c/en/us/solutions/collaboration/webinars.html#~daily-demos)
+#### About The Author
+![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2096%2096%22%3E%3C/svg%3E)
+Webex Team
+Webex is a leading provider of cloud-based collaboration solutions which includes video meetings, calling, messaging, events, customer experience solutions like contact center, and purpose-built collaboration devices..
+[Learn more](https://blog.webex.com/contributors/webexadmin/)
+#### Topics
+[Artificial Intelligence](https://blog.webex.com/tag/artificial-intelligence/)[Audio Intelligence](https://blog.webex.com/tag/audio-intelligence/)[Business Phone](https://blog.webex.com/tag/business-phone/)[Cisco ThousandEyes](https://blog.webex.com/tag/cisco-thousandeyes/)[Conference Room Equipment](https://blog.webex.com/tag/conference-room-equipment/)[Conference Room Solutions](https://blog.webex.com/tag/conference-room-solutions/)[Enhanced Survivability](https://blog.webex.com/tag/enhanced-survivability/)[Microsoft Teams](https://blog.webex.com/tag/microsoft-teams/)[People Focus](https://blog.webex.com/tag/people-focus/)[PSTN](https://blog.webex.com/tag/pstn/)[Security and Compliance](https://blog.webex.com/tag/security-and-compliance/)[Site Survivability](https://blog.webex.com/tag/site-survivability/)[Webex and Google](https://blog.webex.com/tag/webex-and-google/)[Webex and Microsoft](https://blog.webex.com/tag/webex-and-microsoft/)[Webex and Zoom](https://blog.webex.com/tag/webex-and-zoom/)[Webex Calling](https://blog.webex.com/tag/webex-calling/)[Webex Control Hub](https://blog.webex.com/tag/webex-control-hub/)[Webex Meetings](https://blog.webex.com/tag/webex-meetings/)[Webex Rewind](https://blog.webex.com/tag/webex-rewind/)[Webex Webinars](https://blog.webex.com/tag/webex-webinars/)[Workforce Management](https://blog.webex.com/tag/workforce-management/)
+* * *
+## More like this
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Collaboration, Workspaces Cisco named 2026 Global Enterprise Desktop Phone Company of the ... By John Reeder5 Min Read ](https://blog.webex.com/collaboration/cisco-named-2026-global-enterprise-desktop-phone-company-of-the-year-by-frost-sullivan/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201104%22%3E%3C/svg%3E)simple Collaboration Eight years running! Cisco is named a Leader in the 2026 Gartner® ... By Amit Barave7 Min Read ](https://blog.webex.com/collaboration/eight-years-running-cisco-named-leader-2026-gartner-magic-quadrant-unified-communications-service-ucaas/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201099%22%3E%3C/svg%3E)simple Collaboration, Customer Experience, Event Management, Innovation & AI Tom Brady takes the stage at WebexOne 2026 By Aruna Ravichandran2 Min Read ](https://blog.webex.com/collaboration/tom-brady-takes-the-stage-at-webexone-2026/)
+[ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%202100%201200%22%3E%3C/svg%3E)simple Collaboration Intrado Emergency Routing Service for Webex Calling Is Now Available By Teney Takahashi3 Min Read ](https://blog.webex.com/collaboration/intrado-emergency-routing-service-for-webex-calling-is-now-available/)
+Products
+  * [Webex Suite](https://www.webex.com/suite/collaboration-suite.html)
+  * [Meetings](https://www.webex.com/meetings.html)
+  * [Calling](https://www.webex.com/enterprise-cloud-calling.html)
+  * [Messaging](https://www.webex.com/team-collaboration.html)
+  * [Events](https://www.webex.com/events.html)
+  * [Video Messaging](https://vidcast.io/)
+  * [Polling](https://www.webex.com/suite/polling.html)
+  * [Webinars](https://www.webex.com/webinar.html)
+  * [Whiteboarding](https://www.webex.com/suite/whiteboard.html)
+  * [Cloud Contact Center](https://www.webex.com/us/en/products/customer-experience/contact-center.html)
+  * [CPaaS](https://www.webex.com/us/en/products/customer-experience/cpaas.html)
+
+
+Footer Terms Menu
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/collaboration/video-conferencing/webex-new-innovations-back-to-office/)
+
+
+Devices
+  * [Room Devices](https://www.webex.com/us/en/devices/room-devices.html)
+  * [Desk Devices](https://www.webex.com/us/en/devices/desk-series.html)
+  * [Digital Whiteboards](https://www.webex.com/us/en/devices/digital-whiteboards.html)
+  * [Phones](https://www.webex.com/us/en/devices/phone-series.html)
+  * [Cameras](https://www.webex.com/us/en/devices/cameras.html)
+  * [Headsets](https://www.webex.com/us/en/devices/headsets.html)
+  * [Room Accessories](https://www.webex.com/us/en/devices/accessories.html)
+
+
+Resources
+  * [Pricing](https://pricing.webex.com/us/en/)
+  * [Downloads](https://www.webex.com/downloads.html)
+  * [Help Center](https://help.webex.com/)
+  * [Webex Community](https://cs.co/webexcommunity)
+  * [Product Essentials](https://essentials.webex.com/)
+  * [Watch Webinars](https://www.webex.com/learn/webinars-demos.html)
+  * [App Hub](https://apphub.webex.com/)
+  * [Accessibility](https://www.webex.com/accessibility.html)
+  * [Developers](https://developer.webex.com/)
+
+
+Company
+  * [Cisco](https://www.cisco.com/c/en/us/solutions/collaboration/index.html#~stickynav=1)
+  * [Webex Customer Advocacy Program](https://www.webex.com/us/en/dg/customer-advocacy-program.html)
+  * [Contact Support](https://help.webex.com/contact/)
+  * [Contact Sales](https://www.webex.com/contact-sales.html?locale=US)
+  * [Webex Merch Store](https://merchandise.cisco.com/featured/webex-by-cisco.html)
+  * [Careers](https://www.webex.com/company/careers.html)
+
+
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://twitter.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.linkedin.com/company/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.facebook.com/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.youtube.com/c/webex)
+  * [ ![](data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E) ](https://www.instagram.com/webex/)
+
+
+©2026 Cisco and/or its affiliates. All Rights Reserved.
+  * [Terms & Conditions](https://www.cisco.com/c/en/us/about/legal/terms-conditions.html)
+  * [Privacy Statement](https://www.cisco.com/c/en/us/about/legal/privacy-full.html)
+  * [Cookies](https://www.cisco.com/c/en/us/about/legal/privacy-full.html#cookies)
+  * [Trademarks](https://www.cisco.com/web/siteassets/legal/trademark.html)
+  * [English](https://blog.webex.com/collaboration/video-conferencing/webex-new-innovations-back-to-office/)
+
+
