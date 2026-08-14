@@ -3,7 +3,7 @@
     "default_max_depth": 3,
     "request_delay_seconds": 1,
     "word_count_threshold": 20,
-    "default_css_selector": "#fw-content, main, article, .content, .cisco-content"
+    "default_css_selector": "main, article, .content, pre, code, table, [class*='api-reference'], [class*='code-block']"
   },
   "domain_depths": {
     "developer.webex.com": 3,
@@ -11,7 +11,7 @@
     "cisco.com": 3,
     "developer.cisco.com": 3
   },
-    "seeds": [
+  "seeds": [
     "https://developer.webex.com/calling/docs/api/v1/ai-receptionist/create-a-knowledge-base"
   ],
   "inactive_seeds": [
@@ -45,34 +45,34 @@
   ],
   "blocked_patterns": [
     "careers.cisco.com",
-"jobs.cisco.com",
-"meraki.cisco.com/pt-br",
-"/pt-br/",
-"/es-es/",
-"cloudapps.cisco.com",
-"webexengage.io",
-"cart.webex.com",
-"id.cisco.com",
-"signin.webex.com",
-"store.cisco.com",
-"investor.cisco.com",
-"newsroom.cisco.com",
-"software.cisco.com/download/",
-"/about/",
-"/legal/",
-"/privacy",
-"trust.cisco.com"
+    "jobs.cisco.com",
+    "meraki.cisco.com/pt-br",
+    "/pt-br/",
+    "/es-es/",
+    "cloudapps.cisco.com",
+    "webexengage.io",
+    "cart.webex.com",
+    "id.cisco.com",
+    "signin.webex.com",
+    "store.cisco.com",
+    "investor.cisco.com",
+    "newsroom.cisco.com",
+    "software.cisco.com/download/",
+    "/about/",
+    "/legal/",
+    "/privacy",
+    "trust.cisco.com"
   ],
-    "custom_behaviors": [
+  "custom_behaviors": [
     {
       "pattern": "developer.webex.com",
-      "css_selector": "#fw-content, main, article, .content, .cisco-content, .api-reference, .mdx-content, [class*='api'], [class*='markdown'], #swagger-ui, .redoc-wrap, .Api_reference_endpoint_modified__container",
-      "js_code": "await new Promise(r => setTimeout(r, 10000));"
+      "css_selector": "main, article, .content, pre, code, table, [class*='api-reference'], [class*='code-block'], [class*='api'], [class*='markdown'], #swagger-ui, .redoc-wrap, .Api_reference_endpoint_modified__container",
+      "js_code": "await new Promise(r => setTimeout(r, 5000)); const tabs = document.querySelectorAll('button[role=\"tab\"], .tab, .md-tab'); for (let tab of tabs) { try { tab.click(); } catch(e) {} } await new Promise(r => setTimeout(r, 5000));"
     },
     {
       "pattern": "developer.cisco.com",
-      "css_selector": "#fw-content, main, article, .content, .cisco-content, .api-reference, .mdx-content, [class*='api'], [class*='markdown'], #swagger-ui, .redoc-wrap, .Api_reference_endpoint_modified__container",
-      "js_code": "await new Promise(r => setTimeout(r, 10000));"
+      "css_selector": "main, article, .content, pre, code, table, [class*='api-reference'], [class*='code-block'], [class*='api'], [class*='markdown'], #swagger-ui, .redoc-wrap, .Api_reference_endpoint_modified__container",
+      "js_code": "await new Promise(r => setTimeout(r, 5000)); const tabs = document.querySelectorAll('button[role=\"tab\"], .tab, .md-tab'); for (let tab of tabs) { try { tab.click(); } catch(e) {} } await new Promise(r => setTimeout(r, 5000));"
     }
   ]
 }
