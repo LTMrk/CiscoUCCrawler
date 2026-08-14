@@ -218,6 +218,10 @@ async def deep_crawl():
             target_css, js_injection = get_custom_behavior(url)
             
             try:
+                # HECHO TÉCNICO: Vinculación del script dinámico o establecimiento de espera base
+                final_js = js_injection if js_injection else "await new Promise(r => setTimeout(r, 5000));"
+                
+                # HECHO TÉCNICO: Configuración de arun modificada (magic=False, y mapeo de selectores CSS)
                 result = await crawler.arun(
                     url=url,
                     word_count_threshold=0,
@@ -225,8 +229,9 @@ async def deep_crawl():
                     remove_overlay_elements=False,
                     process_iframes=True,
                     cache_mode=CacheMode.BYPASS,
-                    magic=True,
-                    js_code="await new Promise(r => setTimeout(r, 12000));"
+                    magic=False, 
+                    css_selector=target_css,
+                    js_code=final_js
                 )
                 
                 # HECHO TÉCNICO: Volcado incondicional del DOM crudo para auditoría
@@ -256,8 +261,6 @@ async def deep_crawl():
                         save_state(state)
                         git_commit_and_push()
 
-
-                
                 if depth < max_depth_allowed and hasattr(result, 'links'):
                     internal_links = result.links.get("internal", [])
                     for link_obj in internal_links:
