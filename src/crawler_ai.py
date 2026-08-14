@@ -179,7 +179,7 @@ async def deep_crawl():
                                 md_lines.append(f"## {title}\n")
                                 for version in entry.get("versions", []):
                                     spec_str = version.get("spec", "{}")
-                                    md_lines.append(```json\n{spec_str}\n```\n)
+                                    md_lines.append(f"```json\n{spec_str}\n```\n")
                             extracted_markdown = "\n".join(md_lines)
                         except Exception:
                             pass
