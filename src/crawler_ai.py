@@ -15,7 +15,7 @@ def load_config():
             "default_max_depth": 1,
             "request_delay_seconds": 1,
             "word_count_threshold": 20,
-            "default_css_selector": "#fw-content, main, article, .content, .cisco-content"
+            "default_css_selector": "main, article"
         },
         "domain_depths": {},
         "seeds": [],
@@ -26,8 +26,8 @@ def load_config():
         try:
             with open(config_path, "r", encoding="utf-8") as f:
                 return json.load(f)
-        except Exception as e:
-            print(f"Error cargando config: {e}")
+        except Exception:
+            pass
     return default_config
 
 CONFIG = load_config()
@@ -35,107 +35,48 @@ BLOCKED_PATTERNS = CONFIG.get("blocked_patterns", [])
 
 def get_max_depth_for_url(url):
     netloc = urlparse(url.lower()).netloc
-    domain_map = CONFIG.get("domain_depths", {})
-    for domain, depth in domain_map.items():
+    for domain, depth in CONFIG.get("domain_depths", {}).items():
         if domain in netloc:
             return depth
     return CONFIG.get("global_settings", {}).get("default_max_depth", 1)
 
 def get_custom_behavior(url):
     url_lower = url.lower()
-    behaviors = CONFIG.get("custom_behaviors", [])
-    
-    for behavior in behaviors:
+    for behavior in CONFIG.get("custom_behaviors", []):
         if behavior.get("pattern", "").lower() in url_lower:
             return behavior.get("css_selector"), behavior.get("js_code")
-            
-    default_css = CONFIG.get("global_settings", {}).get("default_css_selector")
-    return default_css, None
+    return CONFIG.get("global_settings", {}).get("default_css_selector"), None
 
 def get_group_filename(url):
     url_lower = url.lower()
-    
-    if any(x in url_lower for x in ["cucm", "unified-communications-manager", "callmanager"]):
-        return "cisco_cucm.md"
-    if any(x in url_lower for x in ["unity", "unity-connection", "cuc"]):
-        return "cisco_unity.md"
-    if any(x in url_lower for x in ["expressway", "vcs", "video-communication-server"]):
-        return "cisco_expressway.md"
-    if any(x in url_lower for x in ["cube", "border-element", "vg-series", "catalyst-8000", "isr"]):
-        return "cisco_gateways_routers.md"
-    if any(x in url_lower for x in ["meeting-server", "cms"]):
-        return "cisco_cms.md"
-
-    if any(x in url_lower for x in ["uccx", "contact-center-express"]):
-        return "cisco_uccx.md"
-    if any(x in url_lower for x in ["ucce", "contact-center-enterprise", "cvp", "finesse"]):
-        return "cisco_ucce.md"
-
-    if any(x in url_lower for x in ["webex-contact-center", "wxcc"]):
-        return "webex_contact_center.md"
-    if any(x in url_lower for x in ["webexconnect", "webex-connect", "imimobile"]):
-        return "webex_connect.md"
-    if any(x in url_lower for x in ["webexengage", "webex-engage"]):
-        return "webex_engage.md"
-
-    if any(x in url_lower for x in ["webex-calling", "cloud-calling"]):
-        return "webex_calling.md"
-    if any(x in url_lower for x in ["meetings", "webinars", "training"]):
-        return "webex_meetings.md"
-    if any(x in url_lower for x in ["webex-app", "webex-teams", "messaging"]):
-        return "webex_app.md"
-
-    if any(x in url_lower for x in ["hardware.webex.com", "collaboration-endpoints", "ip-phone", "8800-series", "room-series", "desk-series", "board-series", "headsets", "cameras"]):
-        return "cisco_devices_hardware.md"
-
+    if "developer.webex.com" in url_lower:
+        return "webex_api_reference_consolidated.md"
     netloc = urlparse(url).netloc
-    safe_netloc = netloc.replace(".", "_").replace("-", "_")
-    return f"misc_{safe_netloc}.md"
+    return f"misc_{netloc.replace('.', '_').replace('-', '_')}.md"
 
 def normalize_url(url):
     return url.split('#')[0].split('?')[0].rstrip('/')
 
 def is_blocked_by_user(url):
-    url_lower = url.lower()
-    for pattern in BLOCKED_PATTERNS:
-        if pattern in url_lower:
-            return True
-    return False
+    return any(pattern in url.lower() for pattern in BLOCKED_PATTERNS)
 
 def is_strict_en_us(url):
     url_lower = url.lower()
     parsed = urlparse(url_lower)
-    netloc = parsed.netloc
-    path = parsed.path
-
-    locale_pattern = re.compile(r'/([a-z]{2})([-_][a-z]{2})?/')
-    matches = locale_pattern.findall(url_lower)
-    
-    for match in matches:
-        lang_code = match[0]
-        if lang_code not in ['en', 'us', 'c']: 
-            return False
-
-    if 'cisco.com' in netloc and '/c/' in path:
-        if '/c/en/us/' not in path:
-            return False
-            
-    if 'webex.com' in netloc:
-        if bool(re.search(r'/[a-z]{2}-[a-z]{2}/', path)) and '/en-us/' not in path:
-            return False
-
+    if 'cisco.com' in parsed.netloc and '/c/' in parsed.path and '/c/en/us/' not in parsed.path:
+        return False
+    if 'webex.com' in parsed.netloc and bool(re.search(r'/[a-z]{2}-[a-z]{2}/', parsed.path)) and '/en-us/' not in parsed.path:
+        return False
     return True
 
 def is_allowed_domain(url):
-    allowed = ['cisco.com', 'webex.com', 'webexconnect.io', 'webexengage.io']
-    return any(domain in url for domain in allowed)
+    return any(domain in url for domain in ['cisco.com', 'webex.com', 'webexconnect.io', 'webexengage.io'])
 
 def log_error(url, reason):
     os.makedirs("logs", exist_ok=True)
     timestamp = datetime.now().isoformat()
     with open("logs/error.log", "a", encoding="utf-8") as f:
         f.write(f"[{timestamp}] ERROR - {reason} | URL: {url}\n")
-    print(f"REGISTRADO ERROR: {reason} en {url}")
 
 def load_state():
     state_file = "logs/crawl_state.json"
@@ -158,13 +99,11 @@ def git_commit_and_push():
         os.makedirs("logs", exist_ok=True)
         subprocess.run(["git", "config", "--global", "user.name", "github-actions[bot]"], check=True)
         subprocess.run(["git", "config", "--global", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
-        
         status = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
         if not status.stdout.strip():
             return
-            
         subprocess.run(["git", "add", "docs/", "logs/", "config.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "docs: actualizacion incremental por lotes"], check=True)
+        subprocess.run(["git", "commit", "-m", "docs: optimizacion de extraccion y purga de redundancias"], check=True)
         subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=False)
         subprocess.run(["git", "push"], check=True)
     except Exception as e:
@@ -175,7 +114,7 @@ async def deep_crawl():
     os.makedirs(output_dir, exist_ok=True)
     os.makedirs("logs", exist_ok=True)
     
-    MAX_URLS_PER_RUN = 50
+    MAX_URLS_PER_RUN = 20
     processed_count = 0
     
     state = load_state()
@@ -187,111 +126,103 @@ async def deep_crawl():
     
     if os.path.exists(frontier_file):
         with open(frontier_file, "r", encoding="utf-8") as f:
-            saved_frontier = json.load(f)
-            for item in saved_frontier:
+            for item in json.load(f):
                 await queue.put((item["url"], item["depth"]))
     else:
-        seeds = [normalize_url(url.strip()) for url in CONFIG.get("seeds", []) if url.strip()]
-        for seed in seeds:
+        for seed in [normalize_url(u.strip()) for u in CONFIG.get("seeds", []) if u.strip()]:
             if seed not in visited and is_strict_en_us(seed) and is_allowed_domain(seed) and not is_blocked_by_user(seed):
                 await queue.put((seed, 0))
 
     delay = CONFIG.get("global_settings", {}).get("request_delay_seconds", 1)
-    word_threshold = CONFIG.get("global_settings", {}).get("word_count_threshold", 20)
 
     async with AsyncWebCrawler(verbose=True) as crawler:
         while not queue.empty():
             if processed_count >= MAX_URLS_PER_RUN:
-                print("LIMITE DE LOTE ALCANZADO. Preparando volcado de estado.")
                 break
                 
             url, depth = await queue.get()
-            
             if url in visited:
                 continue
             visited.add(url)
             processed_count += 1
             
-            max_depth_allowed = get_max_depth_for_url(url)
-            print(f"[Profundidad {depth}/{max_depth_allowed}] Procesando: {url}")
-            
             target_css, js_injection = get_custom_behavior(url)
             
             try:
-                # HECHO TÉCNICO: Vinculación del script dinámico o establecimiento de espera base
-                final_js = js_injection if js_injection else "await new Promise(r => setTimeout(r, 5000));"
-                
-                # HECHO TÉCNICO: Configuración de arun modificada (magic=False, y mapeo de selectores CSS)
                 result = await crawler.arun(
                     url=url,
-                    word_count_threshold=0,
-                    exclude_external_links=False,
-                    remove_overlay_elements=False,
-                    process_iframes=True,
+                    word_count_threshold=5,
+                    exclude_external_links=True,
+                    remove_overlay_elements=True,
+                    process_iframes=False,
                     cache_mode=CacheMode.BYPASS,
-                    magic=False, 
+                    magic=False,
                     css_selector=target_css,
-                    js_code=final_js
+                    js_code=js_injection if js_injection else "await new Promise(r => setTimeout(r, 3000));"
                 )
                 
-                # HECHO TÉCNICO: Volcado incondicional del DOM crudo para auditoría
-                debug_html = os.path.join("logs", get_group_filename(url).replace('.md', '.html'))
-                with open(debug_html, "w", encoding="utf-8") as f:
-                    f.write(result.html if hasattr(result, 'html') and result.html else "DOM_VACIO")
+                if not result.success or not result.html:
+                    log_error(url, f"Fallo HTTP o DOM vacio: {getattr(result, 'error_message', 'Desconocido')}")
+                    continue
+
+                # EXTRACCIÓN OPTIMIZADA PARA WEBEX: Captura nativa del JSON empaquetado sin expandir basura DOM
+                extracted_markdown = ""
+                if "developer.webex.com" in url.lower():
+                    match = re.search(r'window\.__INITIAL_STATE__\s*=\s*(\{.*?\});\s*<\/script>', result.html, re.DOTALL)
+                    if match:
+                        try:
+                            state_json = json.loads(match.group(1))
+                            api_entries = state_json.get("apiReference", {}).get("entry", {}).get("entries", [])
+                            md_lines = [f"# Webex API Reference - Consolidado desde {url}\n"]
+                            for entry in api_entries:
+                                title = entry.get("title", "Endpoint")
+                                md_lines.append(f"## {title}\n")
+                                for version in entry.get("versions", []):
+                                    spec_str = version.get("spec", "{}")
+                                    md_lines.append(```json\n{spec_str}\n```\n)
+                            extracted_markdown = "\n".join(md_lines)
+                        except Exception:
+                            pass
                 
-                if not result.success:
-                    log_error(url, f"Fallo HTTP o Crawler: {result.error_message}")
-                elif not result.markdown:
-                    log_error(url, "Contenido vacio tras filtrado DOM")
-                else:
-                    content_hash = get_content_hash(result.markdown)
-                    if content_hash in seen_hashes:
-                        log_error(url, "CONTENIDO DUPLICADO EXACTO")
-                    else:
+                # Fallback estándar si no es un portal con estado hidratado de Webex
+                if not extracted_markdown:
+                    extracted_markdown = result.markdown
+
+                if extracted_markdown:
+                    content_hash = get_content_hash(extracted_markdown)
+                    if content_hash not in seen_hashes:
                         filename = os.path.join(output_dir, get_group_filename(url))
-                        with open(filename, "a", encoding="utf-8") as md_file:
-                            md_file.write(f"\n\n---\n# ORIGEN: {url}\n\n")
-                            md_file.write(result.markdown)
+                        with open(filename, "w", encoding="utf-8") as md_file:
+                            md_file.write(extracted_markdown)
                         
-                        state[url] = {
-                            "hash": content_hash,
-                            "timestamp": datetime.now().isoformat()
-                        }
+                        state[url] = {"hash": content_hash, "timestamp": datetime.now().isoformat()}
                         seen_hashes.add(content_hash)
                         save_state(state)
                         git_commit_and_push()
 
-                if depth < max_depth_allowed and hasattr(result, 'links'):
-                    internal_links = result.links.get("internal", [])
-                    for link_obj in internal_links:
-                        raw_next_url = link_obj.get("href")
-                        if raw_next_url:
-                            next_url = normalize_url(urljoin(url, raw_next_url))
+                if depth < get_max_depth_for_url(url) and hasattr(result, 'links'):
+                    for link_obj in result.links.get("internal", []):
+                        raw_next = link_obj.get("href")
+                        if raw_next:
+                            next_url = normalize_url(urljoin(url, raw_next))
                             if next_url.startswith("http") and next_url not in visited:
                                 if is_strict_en_us(next_url) and is_allowed_domain(next_url) and not is_blocked_by_user(next_url):
                                     await queue.put((next_url, depth + 1))
-                                
+                                    
                 await asyncio.sleep(delay)
             except Exception as e:
-                log_error(url, f"Excepcion critica: {str(e)}")
+                log_error(url, str(e))
 
-    remaining_frontier = []
+    remaining = []
     while not queue.empty():
         u, d = queue.get_nowait()
-        remaining_frontier.append({"url": u, "depth": d})
+        remaining.append({"url": u, "depth": d})
         
-    if remaining_frontier:
+    if remaining:
         with open(frontier_file, "w", encoding="utf-8") as f:
-            json.dump(remaining_frontier, f, indent=2)
-        with open("logs/more_work.flag", "w") as f:
-            f.write("PENDING")
-        print(f"Quedan {len(remaining_frontier)} URLs en la cola. Archivo flag generado.")
-    else:
-        if os.path.exists(frontier_file):
-            os.remove(frontier_file)
-        if os.path.exists("logs/more_work.flag"):
-            os.remove("logs/more_work.flag")
-        print("Rastreo completado. Cola vacía.")
+            json.dump(remaining, f, indent=2)
+    elif os.path.exists(frontier_file):
+        os.remove(frontier_file)
         
     git_commit_and_push()
 
