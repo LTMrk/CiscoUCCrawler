@@ -103,7 +103,7 @@ def git_commit_and_push():
         if not status.stdout.strip():
             return
         subprocess.run(["git", "add", "docs/", "logs/", "config.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "docs: optimizacion de extraccion y purga de redundancias"], check=True)
+        subprocess.run(["git", "commit", "-m", "docs: correccion de renderizado SPA y extraccion de contenido"], check=True)
         subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=False)
         subprocess.run(["git", "push"], check=True)
     except Exception as e:
@@ -149,6 +149,7 @@ async def deep_crawl():
             target_css, js_injection = get_custom_behavior(url)
             
             try:
+                # ACTIVACION DE MAGIC Y TIEMPO DE ESPERA OBLIGATORIO
                 result = await crawler.arun(
                     url=url,
                     word_count_threshold=5,
@@ -156,49 +157,44 @@ async def deep_crawl():
                     remove_overlay_elements=True,
                     process_iframes=False,
                     cache_mode=CacheMode.BYPASS,
-                    magic=False,
+                    magic=True,
                     css_selector=target_css,
-                    js_code=js_injection if js_injection else "await new Promise(r => setTimeout(r, 3000));"
+                    js_code="await new Promise(r => setTimeout(r, 5000));"
                 )
                 
                 if not result.success or not result.html:
                     log_error(url, f"Fallo HTTP o DOM vacio: {getattr(result, 'error_message', 'Desconocido')}")
                     continue
 
-                # EXTRACCIÓN OPTIMIZADA PARA WEBEX: Captura nativa del JSON empaquetado sin expandir basura DOM
+                # EXTRACCION DE MARKDOWN Y LIMPIEZA DE REDUNDANCIAS
                 extracted_markdown = ""
-                if "developer.webex.com" in url.lower():
-                    match = re.search(r'window\.__INITIAL_STATE__\s*=\s*(\{.*?\});\s*<\/script>', result.html, re.DOTALL)
-                    if match:
-                        try:
-                            state_json = json.loads(match.group(1))
-                            api_entries = state_json.get("apiReference", {}).get("entry", {}).get("entries", [])
-                            md_lines = [f"# Webex API Reference - Consolidado desde {url}\n"]
-                            for entry in api_entries:
-                                title = entry.get("title", "Endpoint")
-                                md_lines.append(f"## {title}\n")
-                                for version in entry.get("versions", []):
-                                    spec_str = version.get("spec", "{}")
-                                    md_lines.append(f"```json\n{spec_str}\n```\n")
-                            extracted_markdown = "\n".join(md_lines)
-                        except Exception:
-                            pass
+                raw_markdown = getattr(result, 'fit_markdown', result.markdown)
                 
-                # Fallback estándar si no es un portal con estado hidratado de Webex
-                if not extracted_markdown:
-                    extracted_markdown = result.markdown
+                if raw_markdown:
+                    clean_lines = []
+                    seen_lines = set()
+                    for line in raw_markdown.splitlines():
+                        line_stripped = line.strip()
+                        if len(line_stripped) > 5 and line_stripped not in seen_lines:
+                            seen_lines.add(line_stripped)
+                            clean_lines.append(line)
+                    extracted_markdown = "\n".join(clean_lines)
 
                 if extracted_markdown:
                     content_hash = get_content_hash(extracted_markdown)
                     if content_hash not in seen_hashes:
                         filename = os.path.join(output_dir, get_group_filename(url))
-                        with open(filename, "w", encoding="utf-8") as md_file:
+                        mode = "a" if os.path.exists(filename) else "w"
+                        with open(filename, mode, encoding="utf-8") as md_file:
+                            md_file.write(f"\n\n# ORIGEN: {url}\n\n")
                             md_file.write(extracted_markdown)
                         
                         state[url] = {"hash": content_hash, "timestamp": datetime.now().isoformat()}
                         seen_hashes.add(content_hash)
                         save_state(state)
                         git_commit_and_push()
+                else:
+                    log_error(url, "Markdown vacio tras limpieza.")
 
                 if depth < get_max_depth_for_url(url) and hasattr(result, 'links'):
                     for link_obj in result.links.get("internal", []):
@@ -228,4 +224,3 @@ async def deep_crawl():
 
 if __name__ == "__main__":
     asyncio.run(deep_crawl())
-    
