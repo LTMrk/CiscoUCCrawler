@@ -5,6 +5,17 @@
     "word_count_threshold": 10,
     "default_css_selector": "main, article, .content, pre, code, table, [class*='api-reference'], [class*='code-block']"
   },
+  "URLS_ESPECIALES_REGEX": [
+    "^https://developer\\.webex\\.com/.*docs/api/v\\d+/.*"
+  ],
+  "SELECTORES_RUIDO_CSS": [
+    "nav",
+    "footer",
+    "header",
+    "aside",
+    "#onetrust-banner-sdk",
+    ".cookie-banner"
+  ],
   "domain_depths": {
     "developer.webex.com": 1,
     "help.webex.com": 2
@@ -12,7 +23,7 @@
   "seeds": [
     "https://developer.webex.com/calling/docs/api/v1/ai-receptionist/create-a-knowledge-base"
   ],
-  "inactive_seeds": [
+    "inactive_seeds": [
     "https://developer.webex.com/docs",
     "https://developer.webex.com/docs/contact-center",
     "https://help.webex.com/en-us/all-products",
@@ -57,5 +68,3 @@
     }
   ]
 }
-
-    
