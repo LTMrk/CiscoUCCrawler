@@ -166,18 +166,39 @@ async def deep_crawl():
                     log_error(url, f"Fallo HTTP o DOM vacio: {getattr(result, 'error_message', 'Desconocido')}")
                     continue
 
-                # EXTRACCION DE MARKDOWN Y LIMPIEZA DE REDUNDANCIAS
+                                # EXTRACCION DE MARKDOWN Y LIMPIEZA DE REDUNDANCIAS
                 extracted_markdown = ""
-                raw_markdown = getattr(result, 'fit_markdown', result.markdown)
+                # Prioridad estricta al markdown crudo, anulando el algoritmo heurístico
+                raw_markdown = result.markdown
+                
+                # Volcado de diagnóstico para auditar el DOM renderizado por el cliente
+                with open("logs/debug_html.txt", "w", encoding="utf-8") as debug_file:
+                    debug_file.write(result.html or "HTML VACIO")
                 
                 if raw_markdown:
                     clean_lines = []
                     seen_lines = set()
+                    in_code_block = False
+                    
                     for line in raw_markdown.splitlines():
                         line_stripped = line.strip()
+                        
+                        # Alternador de estado: Proteger delimitadores de código Markdown
+                        if line_stripped.startswith("```"):
+                            in_code_block = not in_code_block
+                            clean_lines.append(line)
+                            continue
+                            
+                        # Exclusión de purga: Mantener intactos JSON y scripts
+                        if in_code_block:
+                            clean_lines.append(line)
+                            continue
+                            
+                        # Purga de redundancia aplicada únicamente al texto de navegación
                         if len(line_stripped) > 5 and line_stripped not in seen_lines:
                             seen_lines.add(line_stripped)
                             clean_lines.append(line)
+                            
                     extracted_markdown = "\n".join(clean_lines)
 
                 if extracted_markdown:
