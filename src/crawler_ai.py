@@ -20,7 +20,9 @@ def load_config():
         "domain_depths": {},
         "seeds": [],
         "blocked_patterns": [],
-        "custom_behaviors": []
+        "custom_behaviors": [],
+        "URLS_ESPECIALES_REGEX": [],
+        "SELECTORES_RUIDO_CSS": []
     }
     if os.path.exists(config_path):
         try:
@@ -32,6 +34,8 @@ def load_config():
 
 CONFIG = load_config()
 BLOCKED_PATTERNS = CONFIG.get("blocked_patterns", [])
+URLS_ESPECIALES_REGEX = CONFIG.get("URLS_ESPECIALES_REGEX", [])
+SELECTORES_RUIDO_CSS = CONFIG.get("SELECTORES_RUIDO_CSS", [])
 
 def get_max_depth_for_url(url):
     netloc = urlparse(url.lower()).netloc
@@ -42,10 +46,21 @@ def get_max_depth_for_url(url):
 
 def get_custom_behavior(url):
     url_lower = url.lower()
+    
+    # INYECCIÓN DINÁMICA DE JAVASCRIPT PARA DESTRUCCIÓN DE NODOS SUPERFLUOS
+    js_purge = ""
+    if SELECTORES_RUIDO_CSS:
+        selectores_str = ",".join(SELECTORES_RUIDO_CSS)
+        js_purge = f"document.querySelectorAll('{selectores_str}').forEach(n => n?.remove());\n"
+
     for behavior in CONFIG.get("custom_behaviors", []):
         if behavior.get("pattern", "").lower() in url_lower:
-            return behavior.get("css_selector"), behavior.get("js_code")
-    return CONFIG.get("global_settings", {}).get("default_css_selector"), None
+            original_js = behavior.get("js_code", "await new Promise(r => setTimeout(r, 1000));")
+            return behavior.get("css_selector"), js_purge + original_js
+            
+    default_css = CONFIG.get("global_settings", {}).get("default_css_selector")
+    default_js = js_purge + "await new Promise(r => setTimeout(r, 1000));"
+    return default_css, default_js
 
 def get_group_filename(url):
     url_lower = url.lower()
@@ -103,11 +118,40 @@ def git_commit_and_push():
         if not status.stdout.strip():
             return
         subprocess.run(["git", "add", "docs/", "logs/", "config.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "docs: correccion de renderizado SPA y extraccion de contenido"], check=True)
+        subprocess.run(["git", "commit", "-m", "docs: correccion de renderizado SPA, extraccion estado hidratado y purga DOM"], check=True)
         subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=False)
         subprocess.run(["git", "push"], check=True)
     except Exception as e:
         log_error("GIT_PUSH", str(e))
+
+def extraer_endpoints_estado_hidratado(html):
+    endpoints_validos = []
+    metodos_http = {"get", "post", "put", "delete", "patch", "options", "head"}
+    
+    match = re.search(r'window\.__INITIAL_STATE__\s*=\s*({.*?});</script>', html, re.DOTALL)
+    if not match:
+        return endpoints_validos
+
+    try:
+        estado = json.loads(match.group(1))
+        entradas = estado.get("apiReference", {}).get("entry", {}).get("entries", [])
+
+        for entrada in entradas:
+            for version in entrada.get("versions", []):
+                spec_str = version.get("spec", "{}")
+                spec_json = json.loads(spec_str)
+                metodo = spec_json.get("spec", {}).get("method", "").lower()
+                ruta = spec_json.get("spec", {}).get("path", "")
+
+                if metodo in metodos_http:
+                    endpoints_validos.append({
+                        "metodo": metodo.upper(),
+                        "ruta_api": ruta
+                    })
+    except Exception as e:
+        log_error("JSON_PARSE", f"Error parseando estado hidratado: {str(e)}")
+        
+    return endpoints_validos
 
 async def deep_crawl():
     output_dir = "docs"
@@ -149,7 +193,6 @@ async def deep_crawl():
             target_css, js_injection = get_custom_behavior(url)
             
             try:
-                # ACTIVACION DE MAGIC Y TIEMPO DE ESPERA OBLIGATORIO
                 result = await crawler.arun(
                     url=url,
                     word_count_threshold=5,
@@ -159,19 +202,16 @@ async def deep_crawl():
                     cache_mode=CacheMode.BYPASS,
                     magic=True,
                     css_selector=target_css,
-                    js_code="await new Promise(r => setTimeout(r, 5000));"
+                    js_code=js_injection
                 )
                 
                 if not result.success or not result.html:
                     log_error(url, f"Fallo HTTP o DOM vacio: {getattr(result, 'error_message', 'Desconocido')}")
                     continue
 
-                                # EXTRACCION DE MARKDOWN Y LIMPIEZA DE REDUNDANCIAS
                 extracted_markdown = ""
-                # Prioridad estricta al markdown crudo, anulando el algoritmo heurístico
                 raw_markdown = result.markdown
                 
-                # Volcado de diagnóstico para auditar el DOM renderizado por el cliente
                 with open("logs/debug_html.txt", "w", encoding="utf-8") as debug_file:
                     debug_file.write(result.html or "HTML VACIO")
                 
@@ -183,23 +223,30 @@ async def deep_crawl():
                     for line in raw_markdown.splitlines():
                         line_stripped = line.strip()
                         
-                        # Alternador de estado: Proteger delimitadores de código Markdown
                         if line_stripped.startswith("```"):
                             in_code_block = not in_code_block
                             clean_lines.append(line)
                             continue
                             
-                        # Exclusión de purga: Mantener intactos JSON y scripts
                         if in_code_block:
                             clean_lines.append(line)
                             continue
                             
-                        # Purga de redundancia aplicada únicamente al texto de navegación
                         if len(line_stripped) > 5 and line_stripped not in seen_lines:
                             seen_lines.add(line_stripped)
                             clean_lines.append(line)
                             
                     extracted_markdown = "\n".join(clean_lines)
+
+                # EXTRACCIÓN CONDICIONAL OPENAPI
+                es_url_especial = any(re.match(patron, url) for patron in URLS_ESPECIALES_REGEX)
+                if es_url_especial and result.html:
+                    endpoints = extraer_endpoints_estado_hidratado(result.html)
+                    if endpoints:
+                        bloque_api = "\n\n### ENDPOINTS API EXTRAÍDOS DESDE EL ESTADO HIDRATADO\n"
+                        for ep in endpoints:
+                            bloque_api += f"- **{ep['metodo']}** `{ep['ruta_api']}`\n"
+                        extracted_markdown += bloque_api
 
                 if extracted_markdown:
                     content_hash = get_content_hash(extracted_markdown)
@@ -245,3 +292,4 @@ async def deep_crawl():
 
 if __name__ == "__main__":
     asyncio.run(deep_crawl())
+                  
