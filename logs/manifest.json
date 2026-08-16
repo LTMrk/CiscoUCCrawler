@@ -50076,6 +50076,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X15-5/exwy_b_cisco-expressway-administrator-guide-x155/exwy_m_managing-security.html": {
+      "content_sha": "4193e05d06b4705a0d2d36344baab294b5ab3326e72a716e77d73902d29ab1c0",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-admin-guide-x15-5-exwy-b-cisco-expressway-administrator-guide-x15-b981b89afc",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T21:55:28.836617+00:00",
+      "last_changed": "2026-08-16T21:55:28.836617+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T21:55:28.836617+00:00",
+      "next_check": "2026-08-17T21:55:28.836617+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/exwy_b_cisco-expressway-rest-api-summary.html": {
       "content_sha": "4c70f9326a38540506cd2822e2f00f4c75db08e84a2a61c63f10a298d6f488f3",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-admin-guide-exwy-b-cisco-expressway-rest-api-summary-html-cd543867bd",
@@ -55278,5 +55291,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-16T21:52:55.820827+00:00"
+  "updated_at": "2026-08-16T21:55:29.831926+00:00"
 }
