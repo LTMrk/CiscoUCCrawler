@@ -1,0 +1,272 @@
+---
+doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su1-configuration-guide-rcct--23e18c7001
+source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/configuration/guide/rcct_b_1251su1_port-utilization-guide-ccx/rcct_b_1251port-utilization-guide-ccx_preface_010.html
+retrieved_at: 2026-08-16T15:02:15.840855+00:00
+---
+
+Port Utilization Guide for Cisco Unified Contact Center Express Solution, Release 12.5(1) SU1
+
+# Port Utilization Guide for Cisco Unified Contact Center Express Solution, Release 12.5(1) SU1
+
+Updated: January 31, 2021
+
+Chapter: Preface
+
+## Chapter: Preface
+
+# Preface
+
+## Change History
+
+This table lists changes made to this guide. Most recent changes appear at the top.
+
+Change
+
+See
+
+Date
+
+January 2020
+
+Initial Release of Document for Release 12.5(1)
+
+Cisco SocialMiner (SM) has been renamed as Customer Collaboration Platform (CCP).
+
+Port Utilization in Customer Collaboration Platform >> Customer Collaboration Platform Port Utilization
+
+Introduced Cloud Connect.
+
+Port Utilization in Unified CCX >> Cloud Connect Port Utilization
+
+Unified CCX and IP IVR Port related information has been updated.
+
+Port Utilization in Unified CCX >> Unified CCX and IP IVR Port Utilization
+
+Updated notes for TCP 7071 and 5222.
+
+Port Utilization in Unified CCX >> Finesse Port Utilization
+
+Added the  port 8447.
+
+Port Utilization in Unified CCX >> Unified CCX and IP IVR Port Utilization
+
+Port Utilization in Unified CCX >> Unified Intelligence Center Port Utilization
+
+## About this
+                        	 Guide
+
+This document provides a list of the TCP and UDP ports that Cisco
+                           		Unified Contact Center products use. You use this information to configure
+                           		Quality of Service (QoS) and Firewall/VPN solutions. Proper configuration is
+                           		important on a network with an Architecture for Voice, Video, and Integrated
+                           		Data (AVVID) solution.
+
+## Audience
+
+This document is intended primarily for network administrators.
+
+## Conventions
+
+This manual uses the following conventions.
+
+Convention
+
+Description
+
+boldface font
+
+Boldface font is used to indicate commands, such as user
+                                       					 entries, keys, buttons, and folder and submenu names. For example:
+
+Choose Edit > Find
+
+Click Finish .
+
+italic font
+
+Italic font is used to indicate the following:
+
+To introduce a new term. Example: A skill group is a collection of agents who share
+                                             						  similar skills.
+
+For emphasis. Example: Do not use the numerical naming convention.
+
+An argument for which you must supply values.
+
+Example:
+
+IF ( condition, true-value, false-value )
+
+A book title. Example:
+
+See the Cisco Unified Contact Center Express Installation
+                                                							 Guide .
+
+window font
+
+Window font, such as Courier, is used for the following:
+
+Text as it appears in code or information that the system
+                                             						  displays. Example:
+
+<html><title> Cisco Systems,Inc.
+                                                							 </title></html>
+
+File names. Example: tserver.properties .
+
+Directory paths. Example:
+
+C:\Program Files\Adobe
+
+string
+
+Nonquoted sets of characters (strings) appear in regular font.
+                                       					 Do not use quotation marks around a string or the string will include the
+                                       					 quotation marks.
+
+[ ]
+
+Optional elements appear in square brackets.
+
+{ x | y | z }
+
+Alternative keywords are grouped in braces and separated by
+                                       					 vertical bars.
+
+[ x | y | z ]
+
+Optional alternative keywords are grouped in brackets and
+                                       					 separated by vertical bars.
+
+< >
+
+Angle brackets are used to indicate the following:
+
+For arguments where the context does not allow italic,
+                                             						  such as ASCII output.
+
+A character string that the user enters but that does not
+                                             						  appear on the window such as a password.
+
+^
+
+The key labeled Control is represented in screen displays by
+                                       					 the symbol ^. For example, the screen instruction to hold down the Control key
+                                       					 while you press the D key appears as ^D.
+
+## Related
+                        	 Documents
+
+Document or Resource
+
+Link
+
+Cisco Unified Contact Center Express Documentation Guide
+
+https://www.cisco.com/en/US/products/sw/custcosw/ps1846/products_documentation_roadmaps_list.html
+
+Cisco Unified CCX documentation
+
+https://www.cisco.com/en/US/products/sw/custcosw/ps1846/tsd_products_support_series_home.html
+
+Cisco Unified Intelligence Center documentation
+
+https://www.cisco.com/en/US/products/ps9755/tsd_products_support_series_home.html
+
+Cisco Finesse documentation
+
+https://www.cisco.com/en/US/products/ps11324/tsd_products_support_series_home.html
+
+Cisco Customer Collaboration Platform documentation
+
+From Unified CCX Release 12.5(1), CCP documents are available in the Cisco Unified CCX documentation folder.
+
+https://www.cisco.com/en/US/products/sw/custcosw/ps1846/tsd_products_support_series_home.html
+
+Cisco Unified CCX Virtualization Information
+
+https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/uc_system/virtualization/virtualization-cisco-unified-contact-center-express.html
+
+Cisco Unified CCX Compatibility Information
+
+https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-device-support-tables-list.html
+
+## Documentation and
+                        	 Support
+
+To download documentation, submit a service request, and find additional information, see What's New in Cisco Product Documentation at https://www.cisco.com/en/US/docs/general/whatsnew/whatsnew.html .
+
+## Documentation Feedback
+
+To provide your
+                           		feedback for this document, send an email to:
+
+contactcenterproducts_docfeedback@cisco.com
+
+## Field Notice
+
+Cisco publishes Field Notices to notify customers and partners about significant issues in Cisco products that typically require
+                              an upgrade, workaround, or other user action. For more information, see Product Field Notice Summary at https://www.cisco.com/c/en/us/support/web/tsd-products-field-notice-summary.html .
+
+You can create custom subscriptions for Cisco products, series, or software to receive email alerts or consume RSS feeds when
+                              new announcements are released for the following notices:
+
+Cisco Security Advisories
+
+Field Notices
+
+End-of-Sale or Support Announcements
+
+Software Updates
+
+Updates to Known Bugs
+
+For more information on creating custom subscriptions, see My Notifications at https://cway.cisco.com/mynotifications .
+
+| Change | See | Date January 2020 |
+|---|---|---|
+| Initial Release of Document for Release 12.5(1) |
+| Cisco SocialMiner (SM) has been renamed as Customer Collaboration Platform (CCP). | Port Utilization in Customer Collaboration Platform >> Customer Collaboration Platform Port Utilization |
+| Introduced Cloud Connect. | Port Utilization in Unified CCX >> Cloud Connect Port Utilization |
+| Unified CCX and IP IVR Port related information has been updated. | Port Utilization in Unified CCX >> Unified CCX and IP IVR Port Utilization |
+| Updated notes for TCP 7071 and 5222. | Port Utilization in Unified CCX >> Finesse Port Utilization |
+| Added the  port 8447. | Port Utilization in Unified CCX >> Unified CCX and IP IVR Port Utilization Port Utilization in Unified CCX >> Unified Intelligence Center Port Utilization |
+
+| Convention | Description |
+|---|---|
+| boldface font | Boldface font is used to indicate commands, such as user
+                                       					 entries, keys, buttons, and folder and submenu names. For example: Choose Edit > Find Click Finish . |
+| italic font | Italic font is used to indicate the following: To introduce a new term. Example: A skill group is a collection of agents who share
+                                             						  similar skills. For emphasis. Example: Do not use the numerical naming convention. An argument for which you must supply values. Example: IF ( condition, true-value, false-value ) A book title. Example: See the Cisco Unified Contact Center Express Installation
+                                                							 Guide . |
+| window font | Window font, such as Courier, is used for the following: Text as it appears in code or information that the system
+                                             						  displays. Example: <html><title> Cisco Systems,Inc.
+                                                							 </title></html> File names. Example: tserver.properties . Directory paths. Example: C:\Program Files\Adobe |
+| string | Nonquoted sets of characters (strings) appear in regular font.
+                                       					 Do not use quotation marks around a string or the string will include the
+                                       					 quotation marks. |
+| [ ] | Optional elements appear in square brackets. |
+| { x \| y \| z } | Alternative keywords are grouped in braces and separated by
+                                       					 vertical bars. |
+| [ x \| y \| z ] | Optional alternative keywords are grouped in brackets and
+                                       					 separated by vertical bars. |
+| < > | Angle brackets are used to indicate the following: For arguments where the context does not allow italic,
+                                             						  such as ASCII output. A character string that the user enters but that does not
+                                             						  appear on the window such as a password. |
+| ^ | The key labeled Control is represented in screen displays by
+                                       					 the symbol ^. For example, the screen instruction to hold down the Control key
+                                       					 while you press the D key appears as ^D. |
+
+| Document or Resource | Link |
+|---|---|
+| Cisco Unified Contact Center Express Documentation Guide | https://www.cisco.com/en/US/products/sw/custcosw/ps1846/products_documentation_roadmaps_list.html |
+| Cisco Unified CCX documentation | https://www.cisco.com/en/US/products/sw/custcosw/ps1846/tsd_products_support_series_home.html |
+| Cisco Unified Intelligence Center documentation | https://www.cisco.com/en/US/products/ps9755/tsd_products_support_series_home.html |
+| Cisco Finesse documentation | https://www.cisco.com/en/US/products/ps11324/tsd_products_support_series_home.html |
+| Cisco Customer Collaboration Platform documentation Note From Unified CCX Release 12.5(1), CCP documents are available in the Cisco Unified CCX documentation folder. | Note | From Unified CCX Release 12.5(1), CCP documents are available in the Cisco Unified CCX documentation folder. | https://www.cisco.com/en/US/products/sw/custcosw/ps1846/tsd_products_support_series_home.html |
+| Note | From Unified CCX Release 12.5(1), CCP documents are available in the Cisco Unified CCX documentation folder. |
+| Cisco Unified CCX Virtualization Information | https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/uc_system/virtualization/virtualization-cisco-unified-contact-center-express.html |
+| Cisco Unified CCX Compatibility Information | https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-device-support-tables-list.html |
+
+| Note | From Unified CCX Release 12.5(1), CCP documents are available in the Cisco Unified CCX documentation folder. |
+|---|---|
