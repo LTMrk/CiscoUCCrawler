@@ -28470,6 +28470,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_sip_trunking.html": {
+      "content_sha": "bb55ff7aec8391253465e2ce449b3c42941fe04829e9966437eacdf64918fa60",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-admin-sccp-sip-srst-configuration-guide-sccp-and-sip-srst-admin-guide-a3e4a790c7",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:04:57.180783+00:00",
+      "last_changed": "2026-08-16T23:04:57.180783+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:04:57.180783+00:00",
+      "next_check": "2026-08-17T23:04:57.180783+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/ES_Releases/guide/html/index.html": {
       "content_sha": "7faa32d99b6b521b003b7a41f891eaafc30d2a5810b9e52d756c3ffee3541231",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-es-releases-guide-html-index-html-406491f551",
@@ -60361,5 +60374,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-16T23:02:22.677875+00:00"
+  "updated_at": "2026-08-16T23:05:09.420529+00:00"
 }
