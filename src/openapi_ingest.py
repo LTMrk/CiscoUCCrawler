@@ -226,8 +226,13 @@ def operacion_a_markdown(spec, nombre_api, ruta, metodo, operacion):
 # Orquestación
 # ---------------------------------------------------------------------------
 
-def ingerir_openapi(token=None, forzar=False):
+def ingerir_openapi(token=None, forzar=False, specs_permitidos=None):
     """Descarga los specs cambiados y regenera sus documentos.
+
+    specs_permitidos: lista de prefijos de nombre de fichero. None o vacía
+    ingiere todos. Filtrar importa para la calidad del retrieval: cada spec
+    fuera del ámbito del agente aporta cientos de operaciones que compiten en
+    el espacio vectorial sin poder responder nunca a una consulta real.
 
     Devuelve un resumen {api: {estado, operaciones}} apto para logging.
     El delta se calcula con el SHA de blob que devuelve la API de GitHub:
@@ -244,6 +249,9 @@ def ingerir_openapi(token=None, forzar=False):
     for fichero in ficheros:
         nombre = fichero.get("name", "")
         if not nombre.endswith((".json", ".yaml", ".yml")):
+            continue
+        if specs_permitidos and not any(nombre.startswith(p) for p in specs_permitidos):
+            resumen[nombre] = {"estado": "omitido por allowlist", "operaciones": 0}
             continue
 
         sha_remoto = fichero.get("sha")
@@ -324,3 +332,4 @@ if __name__ == "__main__":
     res = ingerir_openapi(token=tok, forzar="--forzar" in sys.argv)
     for k, v in sorted(res.items()):
         print(f"{k}: {v}")
+      
