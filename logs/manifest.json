@@ -3042,6 +3042,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/14074-in-dial-peer-match.html": {
+      "content_sha": "322b88d35b03a3775dc1f3041a3ea3fb79410912336103339a537e4b64c5aa07",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-14074-in-dial-peer-match-html-f9c5d3695c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:24:35.612570+00:00",
+      "last_changed": "2026-08-16T23:24:35.612570+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:24:35.612570+00:00",
+      "next_check": "2026-08-17T23:24:35.612570+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/64020-number-voice-translation-profiles.html": {
+      "content_sha": "5a6583eed8dd21e5495f2e827374e179a55968cb0f59ab90df26ee09eec94549",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-64020-number-voice-translation-profiles-html-763ff119d3",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:24:39.828445+00:00",
+      "last_changed": "2026-08-16T23:24:39.828445+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:24:39.828445+00:00",
+      "next_check": "2026-08-17T23:24:39.828445+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/98582-index.html": {
       "content_sha": "9724abf4c8329f2a5306331fd02b8c30446512cc60b574e17feeb571449a2ec3",
       "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-98582-index-html-21169dfa0e",
@@ -3052,6 +3078,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T19:23:25.495858+00:00",
       "next_check": "2026-08-17T19:23:25.495858+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/h323/14081-voip-debugcalls.html": {
+      "content_sha": "350a4d34471684d84c1f846b45ff2ade52cdb65d472d52b8fe4457f064336e21",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-h323-14081-voip-debugcalls-html-8c719ad081",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:24:52.221578+00:00",
+      "last_changed": "2026-08-16T23:24:52.221578+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:24:52.221578+00:00",
+      "next_check": "2026-08-17T23:24:52.221578+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -3091,6 +3130,32 @@
       "last_modified": null,
       "last_seen": "2026-08-16T15:56:28.384354+00:00",
       "next_check": "2026-08-17T15:56:28.384354+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/118647-technote-sip-00.html": {
+      "content_sha": "24779ede6f3217a3d407bb5bb579c6d2c94e46673ed4093841ea25421db365ca",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-session-initiation-protocol-sip-118647-technote-sip-00-html-8b069e1e49",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:25:00.665203+00:00",
+      "last_changed": "2026-08-16T23:25:00.665203+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:25:00.665203+00:00",
+      "next_check": "2026-08-17T23:25:00.665203+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu.html": {
+      "content_sha": "71f88e8921f52c5c86a99b4e711fdc5ebe202618b49166b9b6aac71f702221dc",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-session-initiation-protocol-sip-222316-troubleshoot-cube-via-collaboration-solu-3fc659d30a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:24:56.618214+00:00",
+      "last_changed": "2026-08-16T23:24:56.618214+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:24:56.618214+00:00",
+      "next_check": "2026-08-17T23:24:56.618214+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -61115,5 +61180,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-16T23:22:21.706476+00:00"
+  "updated_at": "2026-08-16T23:25:00.729913+00:00"
 }
