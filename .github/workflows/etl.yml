@@ -1,48 +1,100 @@
-name: Cisco AI Crawler Commit
+name: CiscoUCCrawler ETL
+
 on:
   workflow_dispatch:
+    inputs:
+      forzar_openapi:
+        description: "Regenerar todos los docs OpenAPI aunque no haya cambios"
+        type: boolean
+        default: false
+  schedule:
+    # Semanal. La documentación de producto no cambia a diario; un cron
+    # agresivo solo aumenta la probabilidad de que el WAF nos clasifique
+    # como carga abusiva sin aportar frescura real.
+    - cron: "0 4 * * 1"
 
 permissions:
   contents: write
   actions: write
 
+# Impide que dos lotes se pisen: el segundo esperaría a que el primero
+# termine de escribir manifest.json, evitando commits en conflicto.
+concurrency:
+  group: crawler-etl
+  cancel-in-progress: false
+
 jobs:
   process-documents:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 50
     steps:
-      - name: Checkout Repositorio
+      - name: Checkout repositorio
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
+          cache: pip
 
-      - name: Instalar Dependencias
+      - name: Cachear navegadores de Playwright
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-chromium
+
+      - name: Instalar dependencias
         run: |
-          pip install crawl4ai requests
-          playwright install chromium
+          pip install crawl4ai beautifulsoup4 lxml pyyaml
+          playwright install --with-deps chromium
 
-      - name: Ejecutar Crawler AI Incremental
+      - name: Ejecutar pipeline
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FORZAR_OPENAPI: ${{ inputs.forzar_openapi }}
         run: python3 src/crawler_ai.py
-        
-      - name: Exportar Capturas de Diagnostico
+
+      - name: Publicar resumen del lote
+        if: always()
+        run: |
+          {
+            echo "## Resumen del lote"
+            if [ -f logs/deltas.json ]; then
+              echo '```json'
+              cat logs/deltas.json
+              echo '```'
+            fi
+            if [ -s logs/quarantine.json ]; then
+              echo "### URLs en cuarentena (rechazadas por el WAF de origen)"
+              echo "Requieren decisión manual — no se reintentan automáticamente."
+              echo '```json'
+              head -c 4000 logs/quarantine.json
+              echo '```'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Exportar diagnóstico
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: logs-diagnostico
-          path: logs/ # HECHO TÉCNICO: Captura recursiva del directorio
-          retention-days: 1
-   
-      - name: Evaluar y Disparar Siguiente Lote
+          path: logs/
+          retention-days: 7
+
+      - name: Encadenar siguiente lote
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # crawler_ai.py escribe este flag vía state_store.guardar_frontera
+          # cuando quedan URLs pendientes. La versión anterior del pipeline
+          # comprobaba el flag pero nunca lo escribía, así que el encadenado
+          # de lotes jamás se disparaba.
           if [ -f "logs/more_work.flag" ]; then
-            echo "Trabajo pendiente detectado. Iniciando nuevo lote en cola..."
+            echo "Pendientes: $(cat logs/more_work.flag) URLs. Encolando lote."
             gh workflow run etl.yml
           else
-            echo "No hay trabajo pendiente. Finalizando ETL."
+            echo "Frontera vacía. ETL completo."
           fi
           
