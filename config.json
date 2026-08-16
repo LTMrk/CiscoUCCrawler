@@ -1,70 +1,223 @@
 {
+  "_analisis": "CiscoUCCrawler v3. Cambio de modelo de control: en www.cisco.com la blocklist NO es viable como control primario (millones de URLs, ratio ruido/senal enorme). Se pasa a DENY-BY-DEFAULT con allowlist de rutas por dominio. La blocklist queda como segundo filtro para el ruido que se cuela dentro de las rutas permitidas.",
+
+  "_hallazgo_critico_profundidad": "Las semillas anteriores apuntaban a paginas series.html. La cadena real hasta el contenido es: series.html -> products-*-list.html -> /td/docs/<libro>.html -> capitulos. Son 3+ saltos. Con default_max_depth 1-2 el crawler recogia SOLO navegacion y no alcanzaba ni una sola guia de configuracion. Las semillas ahora entran directamente en products-*-list.html y la profundidad de www.cisco.com sube a 3.",
+
   "global_settings": {
-    "default_max_depth": 1,
-    "request_delay_seconds": 1,
-    "word_count_threshold": 10,
-    "default_css_selector": "main, article, .content, pre, code, table, [class*='api-reference'], [class*='code-block']"
+    "default_max_depth": 2,
+    "requests_per_minute": 15,
+    "respect_robots": true,
+    "bootstrap_budget": 400,
+    "incremental_budget": 120,
+    "boilerplate_threshold": 0.25
   },
-  "URLS_ESPECIALES_REGEX": [
-    "^https://developer\\.webex\\.com/.*docs/api/v\\d+/.*"
+
+  "domain_depths": {
+    "www.cisco.com": 3,
+    "community.cisco.com": 1,
+    "help.webex.com": 2,
+    "help.webexconnect.io": 2
+  },
+
+  "_doc_path_allowlist_regex": "Deny-by-default. Si un dominio aparece aqui, la URL DEBE casar con alguna de sus regex para ser rastreada. Un dominio ausente de este mapa se rige solo por la blocklist.",
+  "path_allowlist_regex": {
+    "www.cisco.com": [
+      "^https://www\\.cisco\\.com/c/en/us/td/docs/voice_ip_comm/",
+      "^https://www\\.cisco\\.com/c/en/us/td/docs/conferencing/",
+      "^https://www\\.cisco\\.com/c/en/us/td/docs/telepresence/",
+      "^https://www\\.cisco\\.com/c/en/us/td/docs/collaboration/",
+      "^https://www\\.cisco\\.com/c/en/us/td/docs/solutions/CVD/Collaboration/",
+      "^https://www\\.cisco\\.com/c/en/us/td/docs/ios-xml/ios/voice/",
+      "^https://www\\.cisco\\.com/c/en/us/support/docs/(voice|unified-communications|customer-collaboration|collaboration-endpoints|conferencing)/",
+      "^https://www\\.cisco\\.com/c/en/us/support/[^/]+/[^/]+/products-(installation-and-configuration|installation|maintenance|troubleshooting|programming-reference|command-reference|system-management|technical-reference|implementation-design|release-notes|field-notices|security-advisories)[a-z-]*-(list|listing)\\.html$",
+      "^https://www\\.cisco\\.com/c/en/us/support/[^/]+/[^/]+/(series|model|tsd-products-support-series-home)\\.html$"
+    ],
+    "community.cisco.com": [
+      "^https://community\\.cisco\\.com/t5/[^/]+/[^/]+/ta-p/\\d+"
+    ],
+    "help.webex.com": [
+      "^https://help\\.webex\\.com/(en-us/)?article/",
+      "^https://help\\.webex\\.com/en-us/all-products"
+    ],
+    "help.webexconnect.io": [
+      "^https://help\\.webexconnect\\.io/docs/"
+    ]
+  },
+
+  "_doc_discovery_only_regex": "Paginas que SI se rastrean para extraer enlaces pero NO se indexan como documentos. Son indices de navegacion: su texto es una lista de titulos, que como chunk vectorial es puro ruido y ademas compite en similitud con los documentos reales.",
+  "discovery_only_regex": [
+    "^https://www\\.cisco\\.com/c/en/us/support/[^/]+/[^/]+/(series|model|tsd-products-support-series-home)\\.html$",
+    "^https://www\\.cisco\\.com/c/en/us/support/[^/]+/[^/]+/products-[a-z-]+-(list|listing)\\.html$",
+    "^https://help\\.webex\\.com/en-us/all-products",
+    "^https://help\\.webexconnect\\.io/docs/welcome$"
   ],
+
+  "_doc_blocked_regex": "Segundo filtro: ruido que vive DENTRO de rutas permitidas o en dominios sin allowlist.",
+  "blocked_regex": [
+    "/c/en/us/solutions/(?!collateral/.*(srnd|preferred-architecture|design-guide))",
+    "/c/en/us/products/collateral/.*-(eol|eos|aag|ds|og|qa|q-and-a|brochure|case-study|infographic|customer-story)\\.html$",
+    "/c/en/us/products/(eos-eol-policy|warranty-listing|prod_end-of-life|prod_eol)",
+    "/eos-eol-notice-listing\\.html$",
+    "/products-warranty-listing\\.html$",
+    "/products-(user|end-user|quick-start)-guide[s]?-list\\.html$",
+    "/c/en/us/(about|buy|partners|training-events|obsolete|go|dam)/",
+    "/c/en/us/web/about/",
+    "/c/en/us/support/web/tsd-cisco-worldwide-contacts\\.html",
+    "/c/en/us/support/(warranty|rma|service-contract|smart-net)",
+    "/t5/[^/]+/[^/]+/(td|m|mp)-p/\\d+",
+    "/t5/user/",
+    "/t5/custom/page/",
+    "\\.(pdf|zip|exe|tar|gz|iso|bin|sgn|k9|msi|dmg)$",
+    "[?&](print|pdf|download)=",
+    "/print/?$"
+  ],
+
+  "blocked_patterns": [
+    "careers.cisco.com",
+    "jobs.cisco.com",
+    "store.cisco.com",
+    "newsroom.cisco.com",
+    "blogs.cisco.com",
+    "investor.cisco.com",
+    "signin.webex.com",
+    "id.cisco.com",
+    "dcloud.cisco.com",
+    "learningnetwork.cisco.com",
+    "/pt-br/",
+    "/es-es/",
+    "/es-mx/",
+    "/fr-fr/",
+    "/de-de/",
+    "/it-it/",
+    "/ja-jp/",
+    "/zh-cn/",
+    "/zh-tw/",
+    "/ko-kr/",
+    "/ru-ru/"
+  ],
+
   "SELECTORES_RUIDO_CSS": [
     "nav",
     "footer",
     "header",
     "aside",
     "#onetrust-banner-sdk",
-    ".cookie-banner"
+    "#onetrust-consent-sdk",
+    ".cookie-banner",
+    "[class*='breadcrumb']",
+    "[class*='sidebar']",
+    "[class*='side-nav']",
+    "[class*='feedback']",
+    "[class*='was-this-helpful']",
+    "[class*='rating']",
+    "[class*='social']",
+    "[class*='share']",
+    "[class*='related-content']",
+    "[class*='recommend']",
+    "[class*='legal']",
+    "[class*='disclaimer']",
+    "[class*='trademark']",
+    "[class*='copyright']",
+    "#eot",
+    ".availableLanguagesList",
+    ".docs-feedback",
+    ".book-toc",
+    ".chapter-toc",
+    ".sr-only",
+    ".visually-hidden"
   ],
-  "domain_depths": {
-    "developer.webex.com": 1,
-    "help.webex.com": 2
-  },
+
+  "_doc_seeds": "Semillas reorientadas: se entra por products-*-list.html (indice de guias) en lugar de series.html, ahorrando un salto y saltando las paginas de producto cargadas de marketing.",
   "seeds": [
-    "https://developer.webex.com/calling/docs/api/v1/ai-receptionist/create-a-knowledge-base"
-  ],
-    "inactive_seeds": [
-    "https://developer.webex.com/docs",
-    "https://developer.webex.com/docs/contact-center",
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-installation-and-configuration-guides-list.html",
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-troubleshooting-guides-list.html",
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-programming-reference-guides-list.html",
+    "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/products-installation-and-configuration-guides-list.html",
+    "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/products-installation-and-configuration-guides-list.html",
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-installation-and-configuration-guides-list.html",
+    "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/products-installation-and-configuration-guides-list.html",
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-installation-and-configuration-guides-list.html",
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html",
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/webex-contact-center/products-installation-and-configuration-guides-list.html",
+    "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-installation-and-configuration-guides-list.html",
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-series/products-maintenance-guides-list.html",
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/products-implementation-design-guides-list.html",
     "https://help.webex.com/en-us/all-products",
-    "https://community.cisco.com/sitemap_nodes.xml",
-    "https://www.cisco.com/c/en/us/support/unified-communications/category.html",
-    "https://help.webexconnect.io/docs/welcome",
-    "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
-    "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/series.html",
-    "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/series.html",
-    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/series.html",
-    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/series.html",
-    "https://www.cisco.com/c/en/us/support/customer-collaboration/webex-contact-center/series.html",
-    "https://www.cisco.com/c/en/us/support/customer-collaboration/workforce-optimization/series.html",
-    "https://developers.webexengage.io/docs",
-    "https://www.cisco.com/c/en/us/support/customer-collaboration/webex-experience-management/series.html",
-    "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/series.html",
-    "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
-    "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/series.html",
-    "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/series.html",
-    "https://www.cisco.com/c/en/us/support/unified-communications/vg-series-gateways/series.html",
-    "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/series.html",
-    "https://www.cisco.com/c/en/us/support/routers/catalyst-8000-edge-platforms-family/series.html",
-    "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
-    "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/series.html",
-    "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000/series.html",
-    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/series.html",
-    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-series/series.html"
+    "https://help.webexconnect.io/docs/welcome"
   ],
-  "blocked_patterns": [
-    "careers.cisco.com",
-    "jobs.cisco.com",
-    "/pt-br/",
-    "/es-es/",
-    "signin.webex.com",
-    "store.cisco.com"
+
+  "_doc_degradadas": "Retiradas de las semillas. Motivo tecnico en cada entrada.",
+  "degraded_seeds": [
+    {
+      "url": "https://developer.webex.com/docs",
+      "motivo": "Sustituida por ingesta de github.com/webex/webex-openapi-specs (CC BY 4.0). Datos estructurados, sin SPA ni WAF. Ademas es el origen de los 403 de Akamai."
+    },
+    {
+      "url": "https://developer.webex.com/docs/contact-center",
+      "motivo": "Idem: cubierta por webex-contact-center.json en el repo de specs."
+    },
+    {
+      "url": "https://developer.webex.com/calling/docs/api/v1/ai-receptionist/create-a-knowledge-base",
+      "motivo": "Idem. Era la URL cuyo window.__INITIAL_STATE__ rompia el parser."
+    },
+    {
+      "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/webex-experience-management/series.html",
+      "motivo": "Producto en EoL (oferta A-WXM; sin reemplazo directo para CloudCherry y WXM standalone). Un RAG que responda con documentacion de un producto retirado da respuestas activamente incorrectas."
+    },
+    {
+      "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-rack-servers/series.html",
+      "motivo": "Hardware de servidor generico. Solo tangencialmente relevante como plataforma de BE6000/BE7000, y el arbol de docs de UCS es enorme (firmware, CIMC, RAID) y casi todo ajeno a colaboracion. Coste de rastreo desproporcionado. Si se necesita la plataforma, seedear business-edition-6000 directamente."
+    },
+    {
+      "url": "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/series.html",
+      "motivo": "Justificable por CUBE (Unified Border Element corre sobre IOS-XE en ISR 4000), pero el arbol de docs del router es mayoritariamente routing/switching/WAN. La parte de voz queda cubierta por el seed de unified-border-element y la allowlist /td/docs/ios-xml/ios/voice/."
+    },
+    {
+      "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8000-edge-platforms-family/series.html",
+      "motivo": "Mismo razonamiento que ISR 4000."
+    },
+    {
+      "url": "https://community.cisco.com/sitemap_nodes.xml",
+      "motivo": "Dos problemas. (1) Es un indice de sitemap, no una pagina: el crawler lo trataba como HTML. Debe ir en 'sitemaps', no en 'seeds'. (2) El foro mezcla hilos sin validar con articulos curados. Se admite solo /ta-p/ (knowledge base) y se bloquea /td-p/ y /m-p/ (hilos de discusion), acorde al criterio de excluir respuestas no certificadas."
+    },
+    {
+      "url": "https://www.cisco.com/c/en/us/support/unified-communications/category.html",
+      "motivo": "Pagina de categoria: solo enlaces. Sustituida por semillas directas a products-*-list.html de cada producto."
+    },
+    {
+      "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/series.html",
+      "motivo": "El arbol de la 8800 esta dominado por guias de usuario final ('como transferir una llamada'), que es exactamente el ruido vectorial a evitar. La parte de administracion se alcanza mejor desde el seed de CUCM; products-user-guide-list.html queda bloqueado por regex."
+    },
+    {
+      "url": "https://developers.webexengage.io/docs",
+      "motivo": "Webex Engage: producto de nicho con alto solapamiento con Webex Contact Center. Baja densidad tecnica frente al coste. Recuperable si se confirma que es un caso de uso real."
+    },
+    {
+      "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/workforce-optimization/series.html",
+      "motivo": "Verificar estado del producto antes de reactivar: la funcionalidad WFO se ha ido integrando en Webex Contact Center. Si el standalone esta en EoL aplica el mismo criterio que Experience Management."
+    },
+    {
+      "url": "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/series.html",
+      "motivo": "InformaCast (Singlewire) revendido por Cisco. La documentacion profunda vive en singlewire.com, fuera de is_allowed_domain. Lo que hay en cisco.com es superficial."
+    },
+    {
+      "url": "https://www.cisco.com/c/en/us/support/unified-communications/vg-series-gateways/series.html",
+      "motivo": "Gateways analogicos VG: volumen de consulta bajo y docs mayoritariamente de instalacion hardware. Prioridad baja, no ruido. Reactivable si el agente recibe consultas de FXS/FXO."
+    }
   ],
+
+  "sitemaps": [],
+
   "custom_behaviors": [
     {
-      "pattern": "developer.webex.com",
-      "css_selector": "#fw-content, main, article, .api-reference, [class*='api']",
-      "js_code": "await new Promise(r => setTimeout(r, 3000));"
+      "pattern": "www.cisco.com/c/en/us/td/docs",
+      "css_selector": null,
+      "js_code": "await new Promise(r => setTimeout(r, 1200));"
+    },
+    {
+      "pattern": "help.webex.com",
+      "css_selector": null,
+      "js_code": "await new Promise(r => setTimeout(r, 2000));"
     }
   ]
 }
