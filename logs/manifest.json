@@ -793,6 +793,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/118855-configure-uccx-00.html": {
+      "content_sha": "8f61ec03eb1c2c95809128b4e57d6faa4a71471944904aea78f23a1d3ad54a60",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-118855-configure-uccx-00-html-10fbab52ef",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:32:39.560993+00:00",
+      "last_changed": "2026-08-16T23:32:39.560993+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:32:39.560993+00:00",
+      "next_check": "2026-08-17T23:32:39.560993+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/119428-technote-uccx-00.html": {
       "content_sha": "37b9ae15a4bbd2194d92b001dd30afeb59bca527903ec62a78b70e90e3b7f785",
       "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-119428-technote-uccx-00-html-8046961ccd",
@@ -28873,6 +28886,45 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_b_upgrade-migration-guide-1251su2_chapter_01000.html": {
+      "content_sha": "9fa81659f0e508113e963475dabe204aa600f1ef8220371221d6f116e9d20d74",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-cucm-b-upgrade-migrati-a10a93aa13",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:32:47.861427+00:00",
+      "last_changed": "2026-08-16T23:32:47.861427+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:32:47.861427+00:00",
+      "next_check": "2026-08-17T23:32:47.861427+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_m_frequently-asked-questions.html": {
+      "content_sha": "9fc6cb2d9b42499edfcfb6a6afc2be6b1d364def2152976616818982a0458228",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-cucm-m-frequently-aske-366c9a77c9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:33:14.527351+00:00",
+      "last_changed": "2026-08-16T23:33:14.527351+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:33:14.527351+00:00",
+      "next_check": "2026-08-17T23:33:14.527351+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_m_new-and-changed-information.html": {
+      "content_sha": "c538fb4aaf86ea39726f57bb9b233ae8eb3655591d916c8b6f3a4758ca6d1b79",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-cucm-m-new-and-changed-a09e407989",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:32:43.923998+00:00",
+      "last_changed": "2026-08-16T23:32:43.923998+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:32:43.923998+00:00",
+      "next_check": "2026-08-17T23:32:43.923998+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_m_planning-the-upgrade-15.html": {
       "content_sha": "658bf6e96b26521cc8a721b65500086aa9ddaedebe594583df6be46e5a3766a0",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-cucm-m-planning-the-up-01d8efd106",
@@ -28886,6 +28938,58 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_m_post-upgrade-tasks-1251.html": {
+      "content_sha": "e8f13c9ce59cd1da2be59bc14d029da9ef618cd64b56939aef8858d3fc5539cb",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-cucm-m-post-upgrade-ta-5f6b97321c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:33:02.215099+00:00",
+      "last_changed": "2026-08-16T23:33:02.215099+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:33:02.215099+00:00",
+      "next_check": "2026-08-17T23:33:02.215099+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_m_pre-upgrade-tasks-15.html": {
+      "content_sha": "15429b7669f3289a49d359489d0fbff0a4e3aa62b352f05954885f672a39b771",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-cucm-m-pre-upgrade-tas-5170e31a96",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:32:57.913763+00:00",
+      "last_changed": "2026-08-16T23:32:57.913763+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:32:57.913763+00:00",
+      "next_check": "2026-08-17T23:32:57.913763+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_m_sequencing-rules-time-requirements-15.html": {
+      "content_sha": "1e3d452dac55afc25a40c700cf9c9f3a000297627c83d4c1b267558b02ed76d0",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-cucm-m-sequencing-rule-0ff1e85bec",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:32:52.156177+00:00",
+      "last_changed": "2026-08-16T23:32:52.156177+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:32:52.156177+00:00",
+      "next_check": "2026-08-17T23:32:52.156177+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_m_troubleshooting.html": {
+      "content_sha": "143367dcc35296d33df223401758a6df917125f174b13186d267e102c0ede316",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-cucm-m-troubleshooting-0dfd2034e4",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:33:10.327294+00:00",
+      "last_changed": "2026-08-16T23:33:10.327294+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:33:10.327294+00:00",
+      "next_check": "2026-08-17T23:33:10.327294+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_m_upgrade-tasks.html": {
       "content_sha": "92e02882491b627b83625d3df0ee19faddf373e3005740f78dc074ad990689cd",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-cucm-m-upgrade-tasks-h-36200f2714",
@@ -28896,6 +29000,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T17:50:29.289331+00:00",
       "next_check": "2026-08-17T17:50:29.289331+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_m_upgrading-from-legacy-releases.html": {
+      "content_sha": "4fb42f0819ba640d0a9bf8519e0173802658b07a1f2f8e9ae66945a5eee945b5",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-cucm-m-upgrading-from--b491051e2f",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:33:05.614411+00:00",
+      "last_changed": "2026-08-16T23:33:05.614411+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:33:05.614411+00:00",
+      "next_check": "2026-08-17T23:33:05.614411+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -61219,5 +61336,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-16T23:30:12.030972+00:00"
+  "updated_at": "2026-08-16T23:33:40.252921+00:00"
 }
