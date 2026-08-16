@@ -2730,6 +2730,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-app/221174-configure-an-additional-tenant-to-hybrid.html": {
+      "content_sha": "1ee223d584e7344a7674f94feb2eed200b01f13f79585e393a96c6874cb6b2d1",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-app-221174-configure-an-additional-tenant-to-hybrid-html-9f4a48cb42",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T22:03:21.881111+00:00",
+      "last_changed": "2026-08-16T22:03:21.881111+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T22:03:21.881111+00:00",
+      "next_check": "2026-08-17T22:03:21.881111+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-app/223165-configure-appdynamics-alerts-to-webex.html": {
+      "content_sha": "f5232bb500dc057153efd48ee3b82ce221766b5620cb12f8d6efba3a10fc942f",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-app-223165-configure-appdynamics-alerts-to-webex-html-78a74fc448",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T22:03:17.928524+00:00",
+      "last_changed": "2026-08-16T22:03:17.928524+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T22:03:17.928524+00:00",
+      "next_check": "2026-08-17T22:03:17.928524+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling-app/221591-htz-01-2024-configure-fax-message-featu.html": {
       "content_sha": "973af3f8f66ab8b173c9eb7240df4aaf584750570bc0a4c8ea0e14b3be343a73",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-app-221591-htz-01-2024-configure-fax-message-fea-6f2da290d6",
@@ -5145,6 +5171,32 @@
       "last_modified": null,
       "last_seen": "2026-08-16T21:59:59.838505+00:00",
       "next_check": "2026-08-17T21:59:59.838505+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/hybridcalldevices/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call_chapter_010.html": {
+      "content_sha": "5c7916fce2d7bfc2eff0f58a0a6051e8ddc6bf868782895ae768349ed3be9d30",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-hybridservices-hybridcalldevices-wbxhs-m-deployment--ec7a1bf783",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T22:02:50.768926+00:00",
+      "last_changed": "2026-08-16T22:02:50.768926+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T22:02:50.768926+00:00",
+      "next_check": "2026-08-17T22:02:50.768926+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide.html": {
+      "content_sha": "b59e648b4cb4b2353bf9bfb14fb1ecf557399f3f0fd8b426b2bf596b98e579c9",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-ucmcalling-unified-cm-wbx-teams-deployment-guide-htm-67d6478655",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T22:02:54.428502+00:00",
+      "last_changed": "2026-08-16T22:02:54.428502+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T22:02:54.428502+00:00",
+      "next_check": "2026-08-17T22:02:54.428502+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -55356,5 +55408,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-16T22:00:35.431356+00:00"
+  "updated_at": "2026-08-16T22:03:30.526691+00:00"
 }
