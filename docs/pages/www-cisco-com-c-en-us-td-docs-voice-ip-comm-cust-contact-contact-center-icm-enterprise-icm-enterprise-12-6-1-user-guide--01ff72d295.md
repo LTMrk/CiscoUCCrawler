@@ -1,0 +1,256 @@
+---
+doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-user-guide--01ff72d295
+source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/reporting-concepts-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/skill-groups.html
+retrieved_at: 2026-08-16T20:41:36.516400+00:00
+---
+
+Reporting Concepts for Cisco Unified ICM-Contact Center Enterprise, Release 12.6(1)
+
+# Reporting Concepts for Cisco Unified ICM-Contact Center Enterprise, Release 12.6(1)
+
+Updated: June 27, 2023
+
+Chapter: Skill Groups
+
+## Chapter: Skill Groups
+
+# Skill Groups
+
+## Enterprise Skill Groups
+
+An
+                              Enterprise skill group is a configured entity that serves to group a collection
+                              of skill groups on different peripherals.
+
+For example, you may
+                              have a skill group called Boston_Sales on one peripheral and a skill group
+                              called NewYork_Sales on another peripheral. You could create an Enterprise
+                              skill group called Enterprise_Sales.
+
+In a Unified CCE environment, configuring Enterprise Skill Groups allows you to report on skill groups across all ACDs, thus providing an
+                              enterprise view.
+
+If you are using a Cisco Contact Center Gateway deployment, in which Unified CCE acts as an IP ACD to a parent Unified CCE system, decide which skill groups on the Unified CCE system are to be grouped into Enterprise skill groups at the parent level.
+
+## Base Skill Groups
+                        	 and Sub-skill Groups
+
+For Unified CCE deployments, you can configure only one type of skill group: base skill groups.
+
+For Unified CCE , existing sub-skill configurations that are in place for Unified CCE . Unified CCE and time-division multiplex(TDM) based ACDs are supported to enable you to phase them out gracefully.
+
+Refer to the Administration Guide for Cisco Unified Contact Center Enterprise for instructions on manually removing sub-skill groups.
+
+## Default Skill Group
+
+The
+                              default skill group acts as a bucket to capture information about voice calls
+                              and non-voice tasks.
+
+You can configure the default skill group per agent. If a default skill group is not set, the system automatically creates
+                              one. The default skill group has a peripheral number of 0.
+
+### Role of Default Skill Group in Reporting
+
+The default skill group captures
+                                 information in these situations:
+
+For calls that are not routed by a Unified CCE Packaged CCE routing script
+
+If a skill
+                                       group is not specified in a routing script
+
+If the
+                                       Agent to Agent node is used in a routing script for agent-to-agent
+                                       dialing
+
+When the Queue to Agent node queues a task to an
+                                       agent and the agent is not logged into the skill group specified in the Queue
+                                       to Agent node
+
+Using a default skill group
+                                 helps to:
+
+Ensure the agent/skill group reports balance with the service and call type reports, since service and call type reports include
+                                       only Unified CCE Packaged CCE -routed calls, and
+
+Isolate/identify non- Unified CCE Packaged CCE -routed calls within the agent and skill group report.
+
+Statistics for the default skill group are
+                                 affected by different types of calls, including new calls,
+                                 agent-to-agent-dialing, and transferred and conferenced calls.
+
+If you deploy Multichannel options in a Unified CCE Packaged CCE system, default skill groups are created for each Media Routing Domain that is configured.
+
+### How New Calls Increment Default Skill Group Statistics
+
+Call statistics for all new outbound and incoming
+                                 direct calls are incremented for the default skill group as
+                                 follows:
+
+AgentOutCalls for external outbound
+                                       calls
+
+InternalCalls for the internal outbound calls
+
+InternalCallRcvd for the direct incoming calls
+
+### How Agent-to-Agent Dialing Increments Default Skill Group Statistics
+
+Agent-to-agent dialing using the agent to agent
+                                 node in the script also affects the default skill group. OutgoingExternal or
+                                 OutgoingInternal are incremented for the default skill group of the agent
+                                 initiating the agent to agent call. The default skill group
+                                 InternalCallsReceived is incremented for the default skill group of the agent
+                                 receiving the agent to agent call.
+
+### How Transferred and Conferenced Calls Increment Default Skill Group Statistics
+
+The default skill group is also affected by transferred and conferenced calls. If agent A transfers or conferences a Unified CCE Packaged CCE -routed call to another agent directly without using a script, OutgoingExternal or OutgoingInternal for agent A are incremented
+                                 against the skill group of the Unified CCE Packaged CCE -routed call. However, IncomingDirect calls for agent B are incremented against the default skill group.
+
+However, if the agent (agent A) transfers or conferences a Unified CCE Packaged CCE–routed call to a dialed number that accesses a transfer or conference script that has an agent to agent node,
+                                 OutgoingExternal or OutgoingInternal for the agent A is incremented for the skill group of the Unified CCE Packaged CCE routed
+                                 call. IncomingDirect calls for agent B are incremented for the default skill group.
+
+## Reports on Skill
+                        	 Group Operations
+
+Use the skill group templates to gain insight into operations, to see
+                              		  how one skill group is performing compared to other skill groups, and to track
+                              		  whether calls are being distributed evenly by your routing scripts and
+                              		  configuration.
+
+In a Unified ICM environment, you can select and report on data
+                                    				for base skill groups only, when sub-skill group are configured.
+
+If you have configured sub-skill groups, data from sub-skill
+                                                				  groups automatically rolls up into base skill groups.
+
+You can report on skill groups associated with a specific single peripheral in Unified CCE .
+
+You can report on call statistics by agent skill group
+                                    				assignments.
+
+You can report on enterprise skill groups. An enterprise skill
+                                    				group is a collection of skill groups, mapped across multiple peripherals.
+
+If you group skill groups from the same peripheral into an
+                                    				enterprise skill group, you might see double-counting of some metrics in your
+                                    				reports.
+
+### Calls Offered Calculation for Skill Group
+
+The completed state for RouterCallsOffered at the skill group is
+                                 calculated using these fields from the Skill_Group_Interval
+                                 table:
+
+RouterCallsAbandToAgent
+
+CallsHandled
+
+RouterCallsDequeued
+
+RedirectNoAnsCalls
+
+RouterError
+
+ReserveCalls
+
+RouterCallsAbandQ
+
+RouterCallsAbandDequeued
+
+### Reports That Show Skill Group Operations
+
+These are some of the
+                                 reports that contain operational information on skill groups:
+
+Unified IC Enterprise Skill Group Historical All Fields
+
+Unified IC Enterprise Skill Group Real Time All Fields
+
+Unified IC Peripheral Skill Group Historical All Fields
+
+Unified IC Peripheral Skill Group Real Time All Fields
+
+## Reports on Agent
+                        	 Activity in Skill Groups
+
+A skill group is a
+                              		  collection of agents at a single contact center who share a common set of
+                              		  competencies that equip them to handle the same types of requests. Some
+                              		  examples of skill groups are a collection of agents who speak a specific
+                              		  language or who can assist callers with billing questions.
+
+An agent can be a member of zero, one, or more skill groups (depending on the peripheral) up to a maximum specified in the Solution Design Guide for Cisco Unified Contact Center Enterprise .
+
+You can generate
+                              		  reports for skill groups that show agent activity (for example, the number of
+                              		  agents talking, available, or in wrap-up for a particular skill group).
+
+In addition to
+                              		  generating Agent Skill Group reports, you can also use Skill Group reports to
+                              		  monitor operational performance. For example, you might want to see how a skill
+                              		  group is performing compared to other skill groups or to see if calls are being
+                              		  distributed evenly by your routing scripts and configuration.
+
+### Reports That Show Agent Skill Group Activity
+
+These are some reports
+                                 that show information on Agents by Skill Group:
+
+Agent Skill Group Real Time All Fields
+
+Agent Skill Group Historical All Fields
+
+agtskg21: Agent Skill Group Summary Half Hour
+
+agtskg03: Agent Skill Group Media Status Logout Report
+
+## Skill Group Reporting for Outbound Option Campaigns
+
+For skill group reporting per
+                              campaign, Outbound Option provides report templates that accurately represent
+                              the skill group activity for a contact center.
+
+Skill group reports
+                              provide information on agent activity for outbound and inbound agents.
+
+If the same skill group is used for both inbound and outbound, then the
+                              campaign consolidated reports will provide a consolidated overview of business
+                              activity for both inbound and outbound calls.
+
+### Reports That Show Skill Group Activity on Outbound Option Campaigns
+
+These are some of the reports that show skill group activity per
+                                 campaign:
+
+Perskg11: Outbound Option (Blended Agent)
+                                       Statistics By Skill Group Report
+
+Perskg12: Outbound
+                                       Option (Blended Agent) Task Detail Performance In Skill Groups Half Hour
+                                       Report
+
+| Note | If you group skill
+                                       groups from the same peripheral into an Enterprise skill group, you will see
+                                       double counting of some metrics in your reports. |
+|---|---|
+
+| Note | When an agent makes an outbound call as part of a consultative
+                                                call, the call is not attributed to the default skill group. It is attributed
+                                                to the skill group for the consulting agent on the original call. |
+|---|---|
+
+| Note | CallsHandled is not incremented for the default skill group, since the
+                                          default skill group can not be referenced in any script. |
+|---|---|
+
+| Note | If you have configured sub-skill groups, data from sub-skill
+                                                				  groups automatically rolls up into base skill groups. |
+|---|---|
+
+| Note | For agents in more than one skill group, you can also use the agent
+                                       		  by skill group templates as a tool for monitoring agent performance. |
+|---|---|
