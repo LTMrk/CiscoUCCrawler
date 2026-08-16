@@ -1,5 +1,18 @@
 {
   "entradas": {
+    "https://cway.cisco.com/tools/SipProfileTest": {
+      "content_sha": "e933be2b485800231141f8a64cf8a7547f95c39d543f81bed89a498ad7f463b2",
+      "doc_id": "cway-cisco-com-tools-sipprofiletest-4e0fd20d75",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:27:35.814747+00:00",
+      "last_changed": "2026-08-16T23:27:35.814747+00:00",
+      "last_modified": "Thu, 07 Dec 2023 14:00:02 GMT",
+      "last_seen": "2026-08-16T23:27:35.814747+00:00",
+      "next_check": "2026-08-17T23:27:35.814747+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/DotNetAgentExtensionManager": {
       "content_sha": "c5c51266d754d9c215e21658253cdac22ca6a2f53b9aceb6382a3375a69b156f",
       "doc_id": "developer-cisco-com-codeexchange-github-repo-appdynamics-dotnetagentextensionmanager-7b35357ba5",
@@ -49,6 +62,19 @@
       "last_modified": "Tue, 28 Apr 2026 03:14:04 GMT",
       "last_seen": "2026-08-16T14:07:40.076503+00:00",
       "next_check": "2026-08-17T14:07:40.076503+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://sec.cloudapps.cisco.com/security/center/resources/next_generation_cryptography": {
+      "content_sha": "6e1957e285a820a84049437ebe8cc8e95f6562940a63c1f59f5ebb8717f67b71",
+      "doc_id": "sec-cloudapps-cisco-com-security-center-resources-next-generation-cryptography-a9a93b16a8",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:27:19.234228+00:00",
+      "last_changed": "2026-08-16T23:27:19.234228+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:27:19.234228+00:00",
+      "next_check": "2026-08-17T23:27:19.234228+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -3117,6 +3143,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T15:57:01.514993+00:00",
       "next_check": "2026-08-17T15:57:01.514993+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/111980-cpa-00.html": {
+      "content_sha": "57bf8fe1b67ea78cec627ca076e979c5be8075e6d8f19945bd75a7d1df5d995a",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-session-initiation-protocol-sip-111980-cpa-00-html-69a5ee56c8",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:27:10.328117+00:00",
+      "last_changed": "2026-08-16T23:27:10.328117+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:27:10.328117+00:00",
+      "next_check": "2026-08-17T23:27:10.328117+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -61180,5 +61219,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-16T23:25:00.729913+00:00"
+  "updated_at": "2026-08-16T23:27:36.414512+00:00"
 }
