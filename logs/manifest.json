@@ -1287,6 +1287,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/200198-Configuring-Dial-via-Office-Reverse-to-W.html": {
+      "content_sha": "7b240355d387b621731da7edfe0c61141ab6d0f484217d7585929cd5420c9ac4",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-200198-configuring-dial-via-office-reverse-to-w-htm-c11200e0e0",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T21:58:12.418958+00:00",
+      "last_changed": "2026-08-16T21:58:12.418958+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T21:58:12.418958+00:00",
+      "next_check": "2026-08-17T21:58:12.418958+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213360-collect-expressway-vcs-diagnostic-log-fo.html": {
       "content_sha": "597a0f5c4e8733c84e37106ed9dbcc3effa4d90603e83b82a2344f5c2ec6e363",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-213360-collect-expressway-vcs-diagnostic-log-fo-htm-81e1cf65c8",
@@ -2714,6 +2727,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T18:51:35.458748+00:00",
       "next_check": "2026-08-17T18:51:35.458748+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling-app/221591-htz-01-2024-configure-fax-message-featu.html": {
+      "content_sha": "973af3f8f66ab8b173c9eb7240df4aaf584750570bc0a4c8ea0e14b3be343a73",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-app-221591-htz-01-2024-configure-fax-message-fea-6f2da290d6",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T21:59:55.642181+00:00",
+      "last_changed": "2026-08-16T21:59:55.642181+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T21:59:55.642181+00:00",
+      "next_check": "2026-08-17T21:59:55.642181+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -5106,6 +5132,45 @@
       "last_modified": null,
       "last_seen": "2026-08-16T15:38:00.578631+00:00",
       "next_check": "2026-08-17T15:38:00.578631+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/hybridcalldevices/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call_chapter_01.html": {
+      "content_sha": "47d45c25be0773ead244032929b1a648b7b3ecfad81d46fb238fe1c643261965",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-hybridservices-hybridcalldevices-wbxhs-m-deployment--d20e40483d",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T21:59:59.838505+00:00",
+      "last_changed": "2026-08-16T21:59:59.838505+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T21:59:59.838505+00:00",
+      "next_check": "2026-08-17T21:59:59.838505+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_chapter_01.html": {
+      "content_sha": "c81a0cc670b80d654c0c73652bc5b7e3284f93b5f3b4ef5e563ff0be998539f4",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-ucmcalling-unified-cm-wbx-teams-deployment-guide-uni-8cf1169245",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T22:00:05.212391+00:00",
+      "last_changed": "2026-08-16T22:00:05.212391+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T22:00:05.212391+00:00",
+      "next_check": "2026-08-17T22:00:05.212391+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_chapter_010.html": {
+      "content_sha": "25491ef3324ffa078ef35c091523be6e0bbfd24841ab4eea207069e1b08f0e12",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-ucmcalling-unified-cm-wbx-teams-deployment-guide-uni-8fb31b1805",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T21:59:51.913049+00:00",
+      "last_changed": "2026-08-16T21:59:51.913049+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T21:59:51.913049+00:00",
+      "next_check": "2026-08-17T21:59:51.913049+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -55291,5 +55356,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-16T21:55:29.831926+00:00"
+  "updated_at": "2026-08-16T22:00:35.431356+00:00"
 }
