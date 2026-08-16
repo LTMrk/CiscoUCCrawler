@@ -1,0 +1,60 @@
+---
+doc_id: webex-cloud-calling-get-telephony-config-workspaces-workspaceid-selectivereject
+source: webex-openapi-specs/public-spec/webex-cloud-calling.json
+api: Webex Cloud Calling
+method: GET
+path: /telephony/config/workspaces/{workspaceId}/selectiveReject
+license: CC-BY-4.0
+retrieved_at: 2026-08-16T11:30:32.672858+00:00
+---
+
+# GET /telephony/config/workspaces/{workspaceId}/selectiveReject
+
+**API:** Webex Cloud Calling
+**Área:** Workspace Call Settings (2/2)
+**operationId:** `Retrieve Selective Reject Settings for a Workspace`
+
+## Resumen
+Retrieve Selective Reject Settings for a Workspace
+
+## Descripción
+Retrieve Selective Reject Settings for a Workspace.
+
+With the Selective Reject feature, you can reject calls at specific times from specific callers. This setting takes precedence over Selectively Accept Calls.
+Schedules can also be set up for this feature during certain times of the day or days of the week.
+
+This API requires a full, read-only or location administrator auth token with a scope of `spark-admin:workspaces_read` or a user auth token with a scope of `spark:workspaces_read` to read workspace settings.
+
+**NOTE**: This API is only available for professional licensed workspaces.
+
+## Parámetros
+- `workspaceId` [path] (string) **(requerido)**: Unique identifier for the workspace.
+- `orgId` [query] (string): ID of the organization within which the workspace resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access the API.
+
+## Respuestas
+- **200**: OK
+  - `enabled` (boolean) **(requerido)**: `true` if the Selective Reject feature is enabled.
+  - `criteria` (array): A list of criteria specifying conditions when selective reject is in effect.
+    - `id` (string) **(requerido)**: Unique identifier for criteria.
+    - `scheduleName` (string) **(requerido)**: Name of the location's schedule which determines when the selective reject is in effect.
+    - `source` (string) **(requerido)**: * `ALL_NUMBERS` - Selective reject criteria applies for all incoming numbers.  * `SPECIFIC_NUMBERS` - Selective reject criteria applies for calls from specific numbers.  * `FORWARDED` - Selective reject criteria applies for all forwarded calls. Valores: ALL_NUMBERS, SPECIFIC_NUMBERS, FORWARDED.
+    - `rejectEnabled` (boolean) **(requerido)**: This setting specifies to choose to reject or not to reject the calls that fit within these parameters.
+- **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
+- **401**: Unauthorized: Authentication credentials were missing or incorrect.
+- **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
+- **404**: Not Found: The URI requested is invalid or the resource requested, such as a user, does not exist. Also returned when the requested format is not supported by the requested method.
+- **405**: Method Not Allowed: The request was made to a resource using an HTTP request method that is not supported.
+- **409**: Conflict: The request could not be processed because it conflicts with some established rule of the system. For example, a person may not be added to a room more than once.
+- **410**: Gone: The requested resource is no longer available.
+- **415**: Unsupported Media Type: The request was made to a resource without specifying a media type or used a media type that is not supported.
+- **423**: Locked: The requested resource is temporarily unavailable. A Retry-After header may be present that specifies how many seconds you need to wait before attempting the request again.
+- **428**: Precondition Required: File(s) cannot be scanned for malware and need to be force downloaded.
+- **429**: Too Many Requests: Too many requests have been sent in a given amount of time and the request has been rate limited. A Retry-After header should be present that specifies how many seconds you need to wait before a successful request can be made.
+- **500**: Internal Server Error: Something went wrong on the server. If the issue persists, feel free to contact the [Webex Developer Support team](/explore/support).
+- **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
+- **503**: Service Unavailable: Server is overloaded with requests. Try again later.
+- **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs

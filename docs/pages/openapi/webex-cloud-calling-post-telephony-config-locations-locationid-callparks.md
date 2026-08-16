@@ -1,0 +1,82 @@
+---
+doc_id: webex-cloud-calling-post-telephony-config-locations-locationid-callparks
+source: webex-openapi-specs/public-spec/webex-cloud-calling.json
+api: Webex Cloud Calling
+method: POST
+path: /telephony/config/locations/{locationId}/callParks
+license: CC-BY-4.0
+retrieved_at: 2026-08-16T11:30:32.599771+00:00
+---
+
+# POST /telephony/config/locations/{locationId}/callParks
+
+**API:** Webex Cloud Calling
+**Área:** Features:  Call Park
+**operationId:** `Create a Call Park`
+
+## Resumen
+Create a Call Park
+
+## Descripción
+Create new Call Parks for the given location.
+
+Call Park allows call recipients to place a call on hold so that it can be retrieved from another device.
+
+Creating a call park requires a full administrator or location administrator auth token with a scope of `spark-admin:telephony_config_write`.
+
+**NOTE**: The Call Park ID will change upon modification of the Call Park name.
+
+## Parámetros
+- `locationId` [path] (string) **(requerido)**: Create the call park for this location.
+- `orgId` [query] (string): Create the call park for this organization.
+
+## Cuerpo de la petición (application/json)
+- `name` (string) **(requerido)**: Unique name for the call park. The maximum length is 80.
+- `recall` (object) **(requerido)**:
+  - `huntGroupId` (string): Alternate user which is a hunt group ID for call park recall alternate destination.
+  - `option` (string) **(requerido)**: Call park recall options.  * `ALERT_PARKING_USER_ONLY` - Alert parking user only.  * `ALERT_PARKING_USER_FIRST_THEN_HUNT_GROUP` - Alert parking user first, then hunt group.  * `ALERT_HUNT_GROUP_ONLY` - Alert hunt group only. Valores: ALERT_PARKING_USER_ONLY, ALERT_PARKING_USER_FIRST_THEN_HUNT_GROUP, ALERT_HUNT_GROUP_ONLY.
+- `agents` (array): Array of ID strings of people, workspaces and virtual lines that are added to the call park.
+- `parkOnAgentsEnabled` (boolean): Whether or not the calls will be parked on agents as a destination.
+- `callParkExtensions` (array): Array of ID strings of call park extensions assigned to a call park.
+
+### Ejemplo de petición
+```json
+{
+  "name": "technical support - insurance - customer 1",
+  "recall": {
+    "huntGroupId": "Y2lzY29zcGFyazovL3VzL0hVTlRfR1JPVVAvZEdWamFHNXBZMkZzTFhOMWNIQnZjblF0TlRVMU9EWTNOVE13T1VCbmJXRnBiQzVqYjIwPQ",
+    "option": "ALERT_PARKING_USER_FIRST_THEN_HUNT_GROUP"
+  },
+  "agents": [
+    "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NDVkMzMzMC1mNjE3LTExZWItOWQyZS01NzViODE3ZGE2NmE",
+    "Y2lzY29zcGFyazovL3VzL1BFT1BMRS83MGY2MzYzMC1mZjlmLTExZWItODU5YS0xZjhiYjRjNzc1MWQ"
+  ],
+  "parkOnAgentsEnabled": false,
+  "callParkExtensions": [
+    "Y3lzY29zcGFyazovL3VzL1BFT1BMRS83MGY2MzYzMC1mZjlmLTExZWItODU5YS0xZjhiYjRjNzc2MWQ"
+  ]
+}
+```
+
+## Respuestas
+- **201**: Created
+  - `id` (string) **(requerido)**: ID of the newly created call park.
+- **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
+- **401**: Unauthorized: Authentication credentials were missing or incorrect.
+- **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
+- **404**: Not Found: The URI requested is invalid or the resource requested, such as a user, does not exist. Also returned when the requested format is not supported by the requested method.
+- **405**: Method Not Allowed: The request was made to a resource using an HTTP request method that is not supported.
+- **409**: Conflict: The request could not be processed because it conflicts with some established rule of the system. For example, a person may not be added to a room more than once.
+- **410**: Gone: The requested resource is no longer available.
+- **415**: Unsupported Media Type: The request was made to a resource without specifying a media type or used a media type that is not supported.
+- **423**: Locked: The requested resource is temporarily unavailable. A Retry-After header may be present that specifies how many seconds you need to wait before attempting the request again.
+- **428**: Precondition Required: File(s) cannot be scanned for malware and need to be force downloaded.
+- **429**: Too Many Requests: Too many requests have been sent in a given amount of time and the request has been rate limited. A Retry-After header should be present that specifies how many seconds you need to wait before a successful request can be made.
+- **500**: Internal Server Error: Something went wrong on the server. If the issue persists, feel free to contact the [Webex Developer Support team](/explore/support).
+- **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
+- **503**: Service Unavailable: Server is overloaded with requests. Try again later.
+- **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs

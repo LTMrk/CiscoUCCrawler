@@ -1,0 +1,64 @@
+---
+doc_id: webex-contact-center-get-orgid-project-projectid-v2-activities-activityname
+source: webex-openapi-specs/public-spec/webex-contact-center.json
+api: Webex Contact Center
+method: GET
+path: /{orgId}/project/{projectId}/v2/activities/{activityName}
+license: CC-BY-4.0
+retrieved_at: 2026-08-16T11:30:32.965696+00:00
+---
+
+# GET /{orgId}/project/{projectId}/v2/activities/{activityName}
+
+**API:** Webex Contact Center
+**Área:** Activities
+**operationId:** `describeActivity`
+
+## Resumen
+Describe an Activity
+
+## Descripción
+Retrieve a single activity's full definition, including inputs, outputs, named ports, and the JSON Schema for its inputs — all returned inline.
+
+Scope: `cjp:config_read`
+
+## Parámetros
+- `orgId` [path] (string) **(requerido)**: Organization ID.
+- `projectId` [path] (string) **(requerido)**: Project ID. System generated value which is the same across orgs and environments. Always use: 5e5c9ad6d61f870d6d778c1b.
+- `activityName` [path] (string) **(requerido)**: Activity type name (e.g., `play-message`, `queue-contact`).
+
+## Respuestas
+- **200**: Activity definition.
+  - `activityName` (string): Stable activity type identifier referenced by a flow node's `properties.activityName`. Read the value verbatim from this endpoint; it is not always kebab-case (for example, `SetCallerID`, `Feedback-V2`, `queue-lookup`).
+  - `displayName` (string): Human-readable name shown in authoring UIs.
+  - `category` (string): High-level grouping the activity belongs to (for example, `core`).
+  - `group` (string): Group the activity belongs to. An open set; observed values include `action`, `enum-gateway`, `http-request`, `parse-activity`, `set-variable`, and `terminating-action`. Read the value verbatim rather than assuming a fixed set.
+  - `activityType` (string): Underlying activity classification used by the runtime (for example, `action`, `start`).
+  - `inputs` (array): Declared inputs for the activity.
+    - `name` (string): Input field name.
+    - `type` (string): Input data type (for example, `string`, `boolean`, `int`, `object[]`).
+    - `required` (boolean): True if the input must be supplied.
+    - `defaultValue` (object): Default value applied when the input is not supplied. May be null. Type matches `type`.
+    - `showOnCondition` (string): Expression controlling when this input is shown in authoring UIs, evaluated against sibling input values. Null when the input is always shown.
+    - `isSecure` (boolean): True if the input holds sensitive data that should be masked.
+    - `allowedValues` (array): Enumerated allowed values for a static-choice input. Null when the input is unconstrained or resolves its choices dynamically via `choicesEndpoint`.
+    - `choicesEndpoint` (string): Relative endpoint used to resolve choices dynamically for this input. Null when the input has no dynamic choices.
+    - `children` (array): Nested inputs for composite/object inputs. Empty when the input has no children.
+      - (referencia circular a ActivityInput)
+    - `description` (string): Human-readable description of the input.
+  - `outputs` (array): Declared outputs for the activity.
+    - `name` (string): Output field name.
+    - `type` (string): Output data type.
+    - `description` (string): Human-readable description of the output.
+  - `outputPorts` (array): Output ports the activity may exit through. An edge's `condition` must match one of these ports' `condition` values.
+    - `condition` (string): Port condition. An edge's `condition` must match one of these verbatim (for example, `default`, `error`).
+    - `label` (string): Human-readable port label shown in authoring UIs. May be empty.
+    - `isErrorPath` (boolean): True if this port is the activity's error path.
+- **401**: Unauthorized.
+- **403**: Forbidden.
+- **404**: Not Found.
+- **429**: Too Many Requests.
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs

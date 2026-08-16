@@ -1,0 +1,68 @@
+---
+doc_id: webex-admin-get-licenses-licenseid
+source: webex-openapi-specs/public-spec/webex-admin.json
+api: Webex Admin
+method: GET
+path: /licenses/{licenseId}
+license: CC-BY-4.0
+retrieved_at: 2026-08-16T11:30:32.151506+00:00
+---
+
+# GET /licenses/{licenseId}
+
+**API:** Webex Admin
+**Área:** Licenses
+**operationId:** `Get_License_Details`
+
+## Resumen
+Get License Details
+
+## Descripción
+Shows details for a license, by ID.
+
+Specify the license ID in the `licenseId` parameter in the URI.
+Use the optional query parameter `includeAssignedTo` to get a list of all objects that are assigned with the license. The objects include but not limited to, users including external users. Long result sets will be split into [pages](/docs/basics#pagination).
+
+Response properties that are not applicable to the license will not be present in the response.
+
+## Parámetros
+- `licenseId` [path] (string) **(requerido)**: The unique identifier for the license.
+- `includeAssignedTo` [query] (string): The type of object to whom the license is assigned to.
+- `next` [query] (string): List the next set of users. Applicable only if `includeAssignedTo` is populated.
+- `limit` [query] (number): A limit on the number of users to be returned in the response. Applicable only if `includeAssignedTo` is populated. limit cannot be more than 300.
+
+## Respuestas
+- **200**: OK
+  - `id` (string): A unique identifier for the license.
+  - `name` (string): Name of the licensed feature.
+  - `totalUnits` (number): Total number of license units allocated.
+  - `consumedUnits` (number): Total number of license units consumed.
+  - `consumedByUsers` (number): Total number of license units consumed by users.
+  - `consumedByWorkspaces` (number): Total number of license units consumed by workspaces.
+  - `subscriptionId` (string): The subscription ID associated with this license. This ID is used in other systems, such as Webex Control Hub.
+  - `siteUrl` (string): The Webex Meetings site associated with this license.
+  - `siteType` (string): The type of site associated with this license.  * `Control Hub managed site` - The site is managed by Webex Control Hub.  * `Linked site` - The site is a linked site.  * `Site Admin managed site` - The site is managed by Site Administration. Valores: Control Hub managed site, Linked site, Site Admin managed site.
+  - `users` (array): A list of users to whom the license is assigned to.
+    - `id` (string): A unique identifier for the user.
+    - `type` (string): Indicates if the user is internal or external to the organization.  * `INTERNAL` - User resides in the license-owned organization.  * `EXTERNAL` - User resides outside the license-owned organization. Valores: INTERNAL, EXTERNAL.
+    - `displayName` (string): The full name of the user.
+    - `email` (string): Email address of the user.
+- **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
+- **401**: Unauthorized: Authentication credentials were missing or incorrect.
+- **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
+- **404**: Not Found: The URI requested is invalid or the resource requested, such as a user, does not exist. Also returned when the requested format is not supported by the requested method.
+- **405**: Method Not Allowed: The request was made to a resource using an HTTP request method that is not supported.
+- **409**: Conflict: The request could not be processed because it conflicts with some established rule of the system. For example, a person may not be added to a room more than once.
+- **410**: Gone: The requested resource is no longer available.
+- **415**: Unsupported Media Type: The request was made to a resource without specifying a media type or used a media type that is not supported.
+- **423**: Locked: The requested resource is temporarily unavailable. A Retry-After header may be present that specifies how many seconds you need to wait before attempting the request again.
+- **428**: Precondition Required: File(s) cannot be scanned for malware and need to be force downloaded.
+- **429**: Too Many Requests: Too many requests have been sent in a given amount of time and the request has been rate limited. A Retry-After header should be present that specifies how many seconds you need to wait before a successful request can be made.
+- **500**: Internal Server Error: Something went wrong on the server. If the issue persists, feel free to contact the [Webex Developer Support team](/explore/support).
+- **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
+- **503**: Service Unavailable: Server is overloaded with requests. Try again later.
+- **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs

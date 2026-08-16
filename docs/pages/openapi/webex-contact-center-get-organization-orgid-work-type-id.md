@@ -1,0 +1,57 @@
+---
+doc_id: webex-contact-center-get-organization-orgid-work-type-id
+source: webex-openapi-specs/public-spec/webex-contact-center.json
+api: Webex Contact Center
+method: GET
+path: /organization/{orgid}/work-type/{id}
+license: CC-BY-4.0
+retrieved_at: 2026-08-16T11:30:32.958535+00:00
+---
+
+# GET /organization/{orgid}/work-type/{id}
+
+**API:** Webex Contact Center
+**Área:** Work Types
+**operationId:** `getConfig`
+
+## Resumen
+Get specific Work Type by ID
+
+## Descripción
+Retrieve an existing Work Type by ID in a given organization.
+
+## Parámetros
+- `orgid` [path] (string) **(requerido)**: Organization ID to be used for this operation. The specified security token must have permission to interact with the organization.
+- `id` [path] (string) **(requerido)**: ID of the work_type.
+
+## Respuestas
+- **200**: OK
+  - `organizationId` (string): ID of the contact center organization. It is required to define for the following operations - All bulk save operations
+  - `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
+  - `version` (integer): The version of this resource. For a newly created resource, it will be 0 unless specified otherwise.
+  - `name` (string) **(requerido)**: A name for the Work Type.
+  - `description` (string): A description for the Work type code created.
+  - `workTypeCode` (string) **(requerido)**: Identifier for the Work Type being created. Can be 'WRAP_UP_CODE' or 'IDLE_CODE'.
+  - `active` (boolean) **(requerido)**: Indicates whether the work type is active or not.
+  - `systemDefault` (boolean): Indicates whether the created resource is system created or not
+  - `createdTime` (integer): Creation time(in epoch millis) of this resource.
+  - `lastUpdatedTime` (integer): Time(in epoch millis) when this resource was last updated.
+  - `organizationId` (string): ID of the contact center organization. It is required to define for the following operations - All bulk save operations
+  - `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
+  - `version` (integer): The version of this resource. For a newly created resource, it will be 0 unless specified otherwise.
+  - `name` (string) **(requerido)**: A name for the Work Type.
+  - `description` (string): A description for the Work type code created.
+  - `workTypeCode` (string) **(requerido)**: Identifier for the Work Type being created. Can be 'WRAP_UP_CODE' or 'IDLE_CODE'.
+  - `active` (boolean) **(requerido)**: Indicates whether the work type is active or not.
+  - `systemDefault` (boolean): Indicates whether the created resource is system created or not
+  - `createdTime` (integer): Creation time(in epoch millis) of this resource.
+  - `lastUpdatedTime` (integer): Time(in epoch millis) when this resource was last updated.
+- **401**: Unauthorized Operation
+- **403**: Operation is forbidden
+- **404**: Resource not found or URI is invalid
+- **429**: Too many requests have been sent in a given amount of time and the request has been rate limited
+- **500**: An Unexpected Error Occurred
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs

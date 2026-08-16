@@ -1,0 +1,72 @@
+---
+doc_id: webex-cloud-calling-get-telephony-config-people-me-endpoints-endpointid
+source: webex-openapi-specs/public-spec/webex-cloud-calling.json
+api: Webex Cloud Calling
+method: GET
+path: /telephony/config/people/me/endpoints/{endpointId}
+license: CC-BY-4.0
+retrieved_at: 2026-08-16T11:30:32.561816+00:00
+---
+
+# GET /telephony/config/people/me/endpoints/{endpointId}
+
+**API:** Webex Cloud Calling
+**Área:** Call Settings For Me
+**operationId:** `getMyEndpointDetails`
+
+## Resumen
+Get My Endpoints Details
+
+## Descripción
+Get details of an endpoint associated with the authenticated user.
+
+Endpoints are devices, applications, or hotdesking guest profiles. Endpoints can be owned by an authenticated user or have the user as a secondary line.
+
+This API requires a user auth token with a scope of `spark:telephony_config_read`.
+
+## Parámetros
+- `endpointId` [path] (string) **(requerido)**: Unique identifier of the endpoint.
+
+## Respuestas
+- **200**: OK
+  - `id` (string) **(requerido)**: Unique identifier of the endpoint.
+  - `type` (string) **(requerido)**: * `CALLING_DEVICE` - Endpoint is a calling device.  * `APPLICATION` - Endpoint is an application.  * `HOTDESKING_GUEST` - Endpoint is a hotdesking guest. Valores: CALLING_DEVICE, APPLICATION, HOTDESKING_GUEST.
+  - `name` (string) **(requerido)**: Display name of the endpoint.
+  - `autoAndForcedAnswerEnabled` (boolean) **(requerido)**: If `true`, the endpoint can be remotely controlled, allowing actions such as mute, hold, resume and answer.
+  - `ownerId` (string) **(requerido)**: Unique identifier of the endpoint owner.
+  - `ownerType` (string) **(requerido)**: * `PEOPLE` - Indicates the associated member is a person.  * `PLACE` - Indicates the associated member is a workspace. Valores: PEOPLE, PLACE.
+  - `secondaryLines` (array): List of secondary lines. The secondary line information is not returned for the endpoint owned by an entity other than the authenticated user.
+    - `id` (string) **(requerido)**: Unique identifier for the member.
+    - `memberType` (string) **(requerido)**: * `PEOPLE` - Indicates the associated member is a person.  * `PLACE` - Indicates the associated member is a workspace. Valores: PEOPLE, PLACE.
+  - `mobilitySettings` (object): Mobility settings of the endpoint.
+    - `phoneNumber` (string) **(requerido)**: Phone number of the mobile device endpoint.
+    - `alertingEnabled` (boolean) **(requerido)**: If `true`, alerting is enabled for the endpoint.
+  - `host` (object): `HOTDESKING_GUEST` endpoints include the `host` element when the user has an active hotdesking session on a host.
+    - `id` (string) **(requerido)**: Unique identifier of the endpoint.
+    - `type` (string) **(requerido)**: * `CALLING_DEVICE` - Endpoint is a calling device.  * `APPLICATION` - Endpoint is an application.  * `HOTDESKING_GUEST` - Endpoint is a hotdesking guest. Valores: CALLING_DEVICE, APPLICATION, HOTDESKING_GUEST.
+    - `name` (string) **(requerido)**: Name of the endpoint.
+    - `autoAndForcedAnswerEnabled` (boolean) **(requerido)**: If `true`, the endpoint can be remotely controlled, allowing actions such as mute, hold, resume and answer.
+    - `ownerId` (string): Unique identifier of the endpoint owner.
+    - `ownerType` (string): * `PEOPLE` - Indicates the associated member is a person.  * `PLACE` - Indicates the associated member is a workspace. Valores: PEOPLE, PLACE.
+    - `secondaryLines` (array): List of secondary lines. The secondary line information is not returned for the endpoint owned by an entity other than the authenticated user.
+      - `id` (string) **(requerido)**: Unique identifier for the member.
+      - `memberType` (string) **(requerido)**: * `PEOPLE` - Indicates the associated member is a person.  * `PLACE` - Indicates the associated member is a workspace. Valores: PEOPLE, PLACE.
+- **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
+- **401**: Unauthorized: Authentication credentials were missing or incorrect.
+- **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
+- **404**: Not Found: The URI requested is invalid or the resource requested, such as a user, does not exist. Also returned when the requested format is not supported by the requested method.
+- **405**: Method Not Allowed: The request was made to a resource using an HTTP request method that is not supported.
+- **409**: Conflict: The request could not be processed because it conflicts with some established rule of the system. For example, a person may not be added to a room more than once.
+- **410**: Gone: The requested resource is no longer available.
+- **415**: Unsupported Media Type: The request was made to a resource without specifying a media type or used a media type that is not supported.
+- **423**: Locked: The requested resource is temporarily unavailable. A Retry-After header may be present that specifies how many seconds you need to wait before attempting the request again.
+- **428**: Precondition Required: File(s) cannot be scanned for malware and need to be force downloaded.
+- **429**: Too Many Requests: Too many requests have been sent in a given amount of time and the request has been rate limited. A Retry-After header should be present that specifies how many seconds you need to wait before a successful request can be made.
+- **500**: Internal Server Error: Something went wrong on the server. If the issue persists, feel free to contact the [Webex Developer Support team](/explore/support).
+- **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
+- **503**: Service Unavailable: Server is overloaded with requests. Try again later.
+- **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs

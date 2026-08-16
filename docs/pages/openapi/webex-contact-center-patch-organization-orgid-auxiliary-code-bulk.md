@@ -1,0 +1,84 @@
+---
+doc_id: webex-contact-center-patch-organization-orgid-auxiliary-code-bulk
+source: webex-openapi-specs/public-spec/webex-contact-center.json
+api: Webex Contact Center
+method: PATCH
+path: /organization/{orgid}/auxiliary-code/bulk
+license: CC-BY-4.0
+retrieved_at: 2026-08-16T11:30:32.932184+00:00
+---
+
+# PATCH /organization/{orgid}/auxiliary-code/bulk
+
+**API:** Webex Contact Center
+**Área:** Auxiliary Code
+**operationId:** `patchAllConfig_2`
+
+## Resumen
+Bulk partial update Auxiliary Code(s)
+
+## Descripción
+Update some or all properties for multiple Auxiliary codes in bulk in a given organization.
+
+## Parámetros
+- `orgid` [path] (string) **(requerido)**: Organization ID to be used for this operation. The specified security token must have permission to interact with the organization.
+
+## Cuerpo de la petición (application/json)
+- `items` (array):
+  - `itemIdentifier` (integer): Unique item identifier for a bulk operation.
+  - `item` (object):
+    - `organizationId` (string): ID of the contact center organization. It is required to define for the following operations - All bulk save operations
+    - `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
+    - `version` (integer): The version of this resource. For a newly created resource, it will be 0 unless specified otherwise.
+    - `name` (string) **(requerido)**: A name for the code.
+    - `description` (string): A short description indicating the context of the code.
+    - `defaultCode` (boolean) **(requerido)**: Indicates whether this is the default code(true) or not(false).  If this is the first idle or wrap-up code for your organization,it must be the default. It can be made non-default later once more codes are created.
+    - `active` (boolean) **(requerido)**: Indicates whether the code is active(when true) or not active(when false).   It is required only during a create or an update operation.
+    - `isSystemCode` (boolean): Indicates whether this is the system default code(true) or not(false).
+    - `workTypeId` (string) **(requerido)**: Indicates the work type id associated with this code.
+    - `workTypeCode` (string) **(requerido)**: Indicates the work type associated with this code. Valores: IDLE_CODE, WRAP_UP_CODE.
+    - `burnoutInclusion` (string): Indicates the idle code Inclusion status for agent burnout calculation. Default value is 'INCLUDED' for idle codes and 'NOT_APPLICABLE' for wrap up codes. Valores: NOT_APPLICABLE, EXCLUDED, INCLUDED.
+    - `systemDefault` (boolean): Indicates whether the created resource is system created or not
+    - `createdTime` (integer): Creation time(in epoch millis) of this resource.
+    - `lastUpdatedTime` (integer): Time(in epoch millis) when this resource was last updated.
+  - `requestAction` (string): Identifier for action type. Possible values can be SAVE and DELETE.
+
+### Ejemplo de petición
+```json
+{
+  "items": [
+    {
+      "item": {
+        "id": "26e2df70-0f77-41b8-8e8f-1d76e92c9638",
+        "burnoutInclusion": "EXCLUDED"
+      },
+      "itemIdentifier": 0,
+      "requestAction": "SAVE"
+    }
+  ]
+}
+```
+
+## Respuestas
+- **207**: Multi-Status
+  - `items` (array):
+    - `itemIdentifier` (integer): Unique item identifier for a bulk operation.
+    - `status` (integer): Indicates the error status code.
+    - `operationType` (string): The kind of operation desired of an entity. Valores: CREATE, UPDATE, DELETE, GET.
+    - `href` (string): The resource URI of an entity.
+    - `apiError` (object): Response body for an API error.
+      - `trackingId` (string): An opaque identifier for mapping protocol failures to service internal codes.   When specified in a request, it can be used for co-relating events across services
+      - `error` (object): Details of an error.
+        - `key` (string): An application defined error code.
+        - `message` (array): A message providing details about the error.
+          - `description` (string): A human readable explanation for the occurrence of an error.
+- **400**: The request was invalid and cannot be served. An accompanying error message will explain further
+- **401**: Unauthorized Operation
+- **403**: Operation is forbidden
+- **404**: Resource not found or URI is invalid
+- **429**: Too many requests have been sent in a given amount of time and the request has been rate limited
+- **500**: An Unexpected Error Occurred
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs

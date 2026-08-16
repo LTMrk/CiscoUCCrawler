@@ -1,0 +1,111 @@
+---
+doc_id: webex-contact-center-put-organization-orgid-overrides-id
+source: webex-openapi-specs/public-spec/webex-contact-center.json
+api: Webex Contact Center
+method: PUT
+path: /organization/{orgid}/overrides/{id}
+license: CC-BY-4.0
+retrieved_at: 2026-08-16T11:30:32.926955+00:00
+---
+
+# PUT /organization/{orgid}/overrides/{id}
+
+**API:** Webex Contact Center
+**Área:** Overrides
+**operationId:** `updateConfig_6`
+
+## Resumen
+Update specific Overrides resource by ID
+
+## Descripción
+Update an existing Overrides resource by ID in a given organization.
+
+## Parámetros
+- `orgid` [path] (string) **(requerido)**: Organization ID to be used for this operation. The specified security token must have permission to interact with the organization.
+- `id` [path] (string) **(requerido)**: Resource ID of the Overrides resource.
+
+## Cuerpo de la petición (application/json)
+- `organizationId` (string): ID of the contact center organization. This field is required for all bulk save operations.
+- `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
+- `version` (integer): The version of this resource. For a newly created resource, it will be 0 unless specified otherwise.
+- `name` (string) **(requerido)**: Enter a name for the agent profile.
+- `description` (string): (Optional) Enter a description of the profile.
+- `timezone` (string) **(requerido)**: The time zone that you provision for your overrides.
+- `overrides` (array) **(requerido)**: Work hours to be overridden
+  - `name` (string) **(requerido)**:
+  - `startDateTime` (string):
+  - `endDateTime` (string):
+  - `workingHours` (boolean) **(requerido)**:
+  - `frequency` (string):  Valores: DontRepeat, Daily, Weekly, Monthly, Yearly.
+  - `recurrence` (object):
+    - `interval` (integer) **(requerido)**:
+    - `occurrenceInTheMonth` (string):  Valores: FIRST, SECOND, THIRD, FOURTH, LAST.
+    - `daysOfWeek` (array):
+    - `specificDayOfMonth` (integer):
+    - `specificMonth` (string):  Valores: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC.
+    - `endDate` (string):
+- `latestOverride` (object):
+  - `name` (string) **(requerido)**:
+  - `startDateTime` (string):
+  - `endDateTime` (string):
+  - `workingHours` (boolean) **(requerido)**:
+  - `frequency` (string):  Valores: DontRepeat, Daily, Weekly, Monthly, Yearly.
+  - `recurrence` (object):
+    - `interval` (integer) **(requerido)**:
+    - `occurrenceInTheMonth` (string):  Valores: FIRST, SECOND, THIRD, FOURTH, LAST.
+    - `daysOfWeek` (array):
+    - `specificDayOfMonth` (integer):
+    - `specificMonth` (string):  Valores: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC.
+    - `endDate` (string):
+- `overridesCount` (integer):
+- `createdTime` (integer): This is the created time of the entity.
+- `lastUpdatedTime` (integer): This is the updated time of the entity.
+
+## Respuestas
+- **200**: OK
+  - `organizationId` (string): ID of the contact center organization. This field is required for all bulk save operations.
+  - `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
+  - `version` (integer): The version of this resource. For a newly created resource, it will be 0 unless specified otherwise.
+  - `name` (string) **(requerido)**: Enter a name for the agent profile.
+  - `description` (string): (Optional) Enter a description of the profile.
+  - `timezone` (string) **(requerido)**: The time zone that you provision for your overrides.
+  - `overrides` (array) **(requerido)**: Work hours to be overridden
+    - `name` (string) **(requerido)**:
+    - `startDateTime` (string):
+    - `endDateTime` (string):
+    - `workingHours` (boolean) **(requerido)**:
+    - `frequency` (string):  Valores: DontRepeat, Daily, Weekly, Monthly, Yearly.
+    - `recurrence` (object):
+      - `interval` (integer) **(requerido)**:
+      - `occurrenceInTheMonth` (string):  Valores: FIRST, SECOND, THIRD, FOURTH, LAST.
+      - `daysOfWeek` (array):
+      - `specificDayOfMonth` (integer):
+      - `specificMonth` (string):  Valores: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC.
+      - `endDate` (string):
+  - `latestOverride` (object):
+    - `name` (string) **(requerido)**:
+    - `startDateTime` (string):
+    - `endDateTime` (string):
+    - `workingHours` (boolean) **(requerido)**:
+    - `frequency` (string):  Valores: DontRepeat, Daily, Weekly, Monthly, Yearly.
+    - `recurrence` (object):
+      - `interval` (integer) **(requerido)**:
+      - `occurrenceInTheMonth` (string):  Valores: FIRST, SECOND, THIRD, FOURTH, LAST.
+      - `daysOfWeek` (array):
+      - `specificDayOfMonth` (integer):
+      - `specificMonth` (string):  Valores: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC.
+      - `endDate` (string):
+  - `overridesCount` (integer):
+  - `createdTime` (integer): This is the created time of the entity.
+  - `lastUpdatedTime` (integer): This is the updated time of the entity.
+- **400**: The request was invalid and cannot be served. An accompanying error message will explain further
+- **401**: Unauthorized Operation
+- **403**: Operation is forbidden
+- **404**: Resource not found or URI is invalid
+- **412**: Resource referred in other entity(s). Please get all the reference entities info by invoking Get incoming-references api.
+- **429**: Too many requests have been sent in a given amount of time and the request has been rate limited
+- **500**: An Unexpected Error Occurred
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs

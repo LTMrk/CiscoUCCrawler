@@ -1,0 +1,88 @@
+---
+doc_id: webex-cloud-calling-put-telephony-config-people-personid-executive-callfiltering-criteria-id
+source: webex-openapi-specs/public-spec/webex-cloud-calling.json
+api: Webex Cloud Calling
+method: PUT
+path: /telephony/config/people/{personId}/executive/callFiltering/criteria/{id}
+license: CC-BY-4.0
+retrieved_at: 2026-08-16T11:30:32.652189+00:00
+---
+
+# PUT /telephony/config/people/{personId}/executive/callFiltering/criteria/{id}
+
+**API:** Webex Cloud Calling
+**Área:** User Call Settings (2/2)
+**operationId:** `updatePersonExecutiveCallFilteringCriteria`
+
+## Resumen
+Modify Person Executive Call Filtering Criteria Settings
+
+## Descripción
+Update the executive call filtering settings for the specified person.
+
+Executive Call Filtering in Webex allows you to control which calls are allowed to reach the executive assistant based on custom criteria, such as specific phone numbers or call types. You can enable or disable call filtering and configure filter rules to manage incoming calls.
+
+This API requires a full, user or location administrator auth token with a scope of `spark-admin:telephony_config_write`.
+
+## Parámetros
+- `personId` [path] (string) **(requerido)**: A unique identifier for the person.
+- `id` [path] (string) **(requerido)**: The `id` parameter specifies the unique identifier for the executive call filtering criteria. Example: `Y2lzY29zcGFyazovL3VzL0NSSVRFUklBL2RHVnpkRjltYVd4MFpYST0`.
+- `orgId` [query] (string): Organization ID for the user.
+
+## Cuerpo de la petición (application/json)
+- `scheduleName` (string): Name of the schedule associated with this criteria.
+- `scheduleType` (string): * `businessHours` - The schedule type that specifies the business or working hours during the day.  * `holidays` - The schedule type that specifies the day when your organization is not open. Valores: holidays, businessHours.
+- `scheduleLevel` (string): * `PEOPLE` - The schedule level that specifies that criteria is of People level.  * `GROUP` - The schedule level that specifies that criteria is of Group (Location) level. Valores: PEOPLE, GROUP.
+- `callsFrom` (string): * `ANY_PHONE_NUMBER` - The criteria applies to any phone number.  * `SELECT_PHONE_NUMBERS` - The criteria applies to selected phone numbers.  * `ANY_INTERNAL` - The criteria applies to any internal number.  * `ANY_EXTERNAL` - The criteria applies to any external number. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, ANY_INTERNAL, ANY_EXTERNAL.
+- `anonymousCallersEnabled` (boolean): Set to enable or disable the criteria for anonymous callers.
+- `unavailableCallersEnabled` (boolean): Set to enable or disable the criteria for unavailable callers.
+- `phoneNumbers` (array): The list of phone numbers that this filtering criteria applies to, when `callsFrom` is set to `SELECT_PHONE_NUMBERS`.
+- `filterEnabled` (boolean): Controls the action when this criteria matches a call. When `true`, matching calls are filtered and will alert the executive's assistants. When `false`, matching calls are not filtered and will not alert the executive's assistants. Criteria with `filterEnabled` as `false` take precedence over other filtering criteria with `filterEnabled` as `true`, allowing exceptions where certain calls are not filtered to the executive's assistants.
+- `callsToNumbers` (array): List of numbers for the executive that will match the criteria when called. This may include the executive’s primary number and/or extension, as well as secondary (alternate) numbers (and associated extensions). If the list is empty, any number or extension for the executive matches the criteria when called. If the list is not empty, only the specified numbers and their extensions match the criteria.
+  - `type` (string): * `PRIMARY` - Number is assigned as primary to executive.  * `ALTERNATE` - Number is assigned as alternate (secondary) to the executive. Valores: PRIMARY, ALTERNATE.
+  - `phoneNumber` (string): The phone number assigned to the executive that will be used to match criteria.
+
+### Ejemplo de petición
+```json
+{
+  "scheduleName": "Business Hours",
+  "scheduleType": "businessHours",
+  "scheduleLevel": "PEOPLE",
+  "callsFrom": "SELECT_PHONE_NUMBERS",
+  "anonymousCallersEnabled": false,
+  "unavailableCallersEnabled": false,
+  "phoneNumbers": [
+    "+14085551234",
+    "+14085551235"
+  ],
+  "filterEnabled": true,
+  "callsToNumbers": [
+    {
+      "type": "PRIMARY",
+      "phoneNumber": "+14085556789"
+    }
+  ]
+}
+```
+
+## Respuestas
+- **204**: The executive call filtering criteria was updated successfully.
+- **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
+- **401**: Unauthorized: Authentication credentials were missing or incorrect.
+- **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
+- **404**: Not Found: The URI requested is invalid or the resource requested, such as a user, does not exist. Also returned when the requested format is not supported by the requested method.
+- **405**: Method Not Allowed: The request was made to a resource using an HTTP request method that is not supported.
+- **409**: Conflict: The request could not be processed because it conflicts with some established rule of the system. For example, a person may not be added to a room more than once.
+- **410**: Gone: The requested resource is no longer available.
+- **415**: Unsupported Media Type: The request was made to a resource without specifying a media type or used a media type that is not supported.
+- **423**: Locked: The requested resource is temporarily unavailable. A Retry-After header may be present that specifies how many seconds you need to wait before attempting the request again.
+- **428**: Precondition Required: File(s) cannot be scanned for malware and need to be force downloaded.
+- **429**: Too Many Requests: Too many requests have been sent in a given amount of time and the request has been rate limited. A Retry-After header should be present that specifies how many seconds you need to wait before a successful request can be made.
+- **500**: Internal Server Error: Something went wrong on the server. If the issue persists, feel free to contact the [Webex Developer Support team](/explore/support).
+- **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
+- **503**: Service Unavailable: Server is overloaded with requests. Try again later.
+- **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs

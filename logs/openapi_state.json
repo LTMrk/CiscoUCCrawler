@@ -1,0 +1,56 @@
+{
+  "webex-admin.json": {
+    "actualizado": "2026-08-16T11:30:32.168167+00:00",
+    "content_sha": "be48552ca152d0c02452e35aae8baf52ac4f623cf3ad5d28bc1c13e818de36bb",
+    "operaciones": 148,
+    "sha": "95b68a605234af112690b9b4d6af94f6b20a61f2"
+  },
+  "webex-broadworks.json": {
+    "actualizado": "2026-08-16T11:30:32.287094+00:00",
+    "content_sha": "bc660727a76d6897fbe674218584b5c9f2258868081f8369cd90fd0d722b33a4",
+    "operaciones": 19,
+    "sha": "760edc4f4265e70aa2991c7ed622ea4bd8a5f249"
+  },
+  "webex-cloud-calling.json": {
+    "actualizado": "2026-08-16T11:30:32.689003+00:00",
+    "content_sha": "18c1f5edc38268eb57f6196c5c4ad96c4465520cb907dab1c41a14855a6f392d",
+    "operaciones": 1087,
+    "sha": "21466c8607b1e8ebfdd8a525dc32c22e469efa52"
+  },
+  "webex-contact-center.json": {
+    "actualizado": "2026-08-16T11:30:32.981146+00:00",
+    "content_sha": "d8080ec974a8a7494c0feea3571b1190ec51c373d7fd04f04467259e90c5ee26",
+    "operaciones": 448,
+    "sha": "ea9854b5f5f3902677d175c8b69119a0f17bda07"
+  },
+  "webex-device.json": {
+    "actualizado": "2026-08-16T11:30:33.140268+00:00",
+    "content_sha": "627057307957a5aa1d49ab05a75a829b6e3fe165ef084dfd82f3a4337c477f7a",
+    "operaciones": 101,
+    "sha": "e2173dbe6dd53310f34b8018a51be42d0398bdd3"
+  },
+  "webex-meeting.json": {
+    "actualizado": "2026-08-16T11:30:33.411805+00:00",
+    "content_sha": "4ee27c9867811600dfc1b359915dda74fe6f82bee33bdcce0cb8b888e9c45bcf",
+    "operaciones": 171,
+    "sha": "0e795ab206d7b7583e3461ef7f5b0522ee45b75a"
+  },
+  "webex-messaging.json": {
+    "actualizado": "2026-08-16T11:30:33.518078+00:00",
+    "content_sha": "37aad3a13168e6b95f7cb49257baab14d20e35398eec2a07999ea1b3627f9737",
+    "operaciones": 63,
+    "sha": "cfeda7fa2bf76b6c22b250582e0e3294fa3b9020"
+  },
+  "webex-ucm.json": {
+    "actualizado": "2026-08-16T11:30:33.621441+00:00",
+    "content_sha": "092ed8cec7375a4b816ae52ef4fb47bd209f9a68cabf0117954dd2886f9ef74e",
+    "operaciones": 1,
+    "sha": "c76f238ceb653f8c939199ea2fb029c17ad64923"
+  },
+  "webex-wholesale.json": {
+    "actualizado": "2026-08-16T11:30:33.734004+00:00",
+    "content_sha": "f7cbcae1dc3f3ab46cb74f12d5e4d6737ac3492fe2f95850d144e138ed232fce",
+    "operaciones": 18,
+    "sha": "1e71dfafa1dcae10ea932d2a85f329f8320827ea"
+  }
+}

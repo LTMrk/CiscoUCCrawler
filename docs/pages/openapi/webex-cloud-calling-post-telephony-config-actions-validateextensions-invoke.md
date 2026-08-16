@@ -1,0 +1,67 @@
+---
+doc_id: webex-cloud-calling-post-telephony-config-actions-validateextensions-invoke
+source: webex-openapi-specs/public-spec/webex-cloud-calling.json
+api: Webex Cloud Calling
+method: POST
+path: /telephony/config/actions/validateExtensions/invoke
+license: CC-BY-4.0
+retrieved_at: 2026-08-16T11:30:32.622389+00:00
+---
+
+# POST /telephony/config/actions/validateExtensions/invoke
+
+**API:** Webex Cloud Calling
+**Área:** Location Call Settings
+**operationId:** `Validate the List of Extensions`
+
+## Resumen
+Validate the List of Extensions
+
+## Descripción
+Validates the list of Extensions provided by the customer at the organization level. It checks the extension meets the current extension length limits and does not conflict with the extensions of organization-level entities and settings. To check for extension use across all locations, use the [Get Phone Numbers](/v1/telephony/config/numbers) API. To validate an extension and check for conflicts for a specific location, use the [Validate Extensions](/docs/api/v1/location-call-settings/validate-extensions) API.
+
+Retrieving this list requires a full or read-only administrator or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
+
+## Parámetros
+- `orgId` [query] (string): Validate Extension for this organization.
+
+## Cuerpo de la petición (application/json)
+- `extensions` (array): Array of Strings of IDs of the Extensions.
+
+### Ejemplo de petición
+```json
+{
+  "extensions": [
+    "1234",
+    "3144"
+  ]
+}
+```
+
+## Respuestas
+- **200**: OK
+  - `status` (string) **(requerido)**: OK , ERRORS  * `OK` - Validated succesfully.  * `ERRORS` - Validated with errors. Valores: OK, ERRORS.
+  - `extensionStatus` (array) **(requerido)**:
+    - `extension` (string) **(requerido)**: Indicates the extention ID for the status.
+    - `state` (string) **(requerido)**: Indicates the status for the given extention ID. Valores: VALID, DUPLICATE, DUPLICATE_IN_LIST, INVALID.
+    - `errorCode` (number): Error code.
+    - `message` (string):
+- **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
+- **401**: Unauthorized: Authentication credentials were missing or incorrect.
+- **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
+- **404**: Not Found: The URI requested is invalid or the resource requested, such as a user, does not exist. Also returned when the requested format is not supported by the requested method.
+- **405**: Method Not Allowed: The request was made to a resource using an HTTP request method that is not supported.
+- **409**: Conflict: The request could not be processed because it conflicts with some established rule of the system. For example, a person may not be added to a room more than once.
+- **410**: Gone: The requested resource is no longer available.
+- **415**: Unsupported Media Type: The request was made to a resource without specifying a media type or used a media type that is not supported.
+- **423**: Locked: The requested resource is temporarily unavailable. A Retry-After header may be present that specifies how many seconds you need to wait before attempting the request again.
+- **428**: Precondition Required: File(s) cannot be scanned for malware and need to be force downloaded.
+- **429**: Too Many Requests: Too many requests have been sent in a given amount of time and the request has been rate limited. A Retry-After header should be present that specifies how many seconds you need to wait before a successful request can be made.
+- **500**: Internal Server Error: Something went wrong on the server. If the issue persists, feel free to contact the [Webex Developer Support team](/explore/support).
+- **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
+- **503**: Service Unavailable: Server is overloaded with requests. Try again later.
+- **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs

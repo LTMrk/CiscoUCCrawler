@@ -1,0 +1,69 @@
+---
+doc_id: webex-cloud-calling-post-telephony-externalvoicemail-mwi
+source: webex-openapi-specs/public-spec/webex-cloud-calling.json
+api: Webex Cloud Calling
+method: POST
+path: /telephony/externalVoicemail/mwi
+license: CC-BY-4.0
+retrieved_at: 2026-08-16T11:30:32.552988+00:00
+---
+
+# POST /telephony/externalVoicemail/mwi
+
+**API:** Webex Cloud Calling
+**Área:** External Voicemail
+**operationId:** `postExternalVoicemailMwi`
+
+## Resumen
+Set or Clear Message Waiting Indicator (MWI) Status
+
+## Descripción
+Enables an external voicemail service to SET or CLEAR the Message Waiting Indicator (MWI) for a person or workspace.
+
+Invoke the API using a bearer token from a Service App in the target organization, created by a full admin with the scope `spark-admin:calls_write`.
+
+Specify the target user or workspace with the required `id` query parameter.
+
+Optionally, use the orgId parameter to indicate the organization; if omitted, the Service App’s organization is used.
+
+If `orgId` is provided, it must match the Service App’s organization or be a managed organization.
+
+Set the desired action (SET or CLEAR) in the message body’s action field.
+
+Learn more about [using Webex Service Apps](https://developer.webex.com/messaging/docs/service-apps).
+
+## Parámetros
+- `id` [query] (string) **(requerido)**: Unique identifier for the user or workspace.
+- `orgId` [query] (string): Id of the organization to which the user or workspace belongs. If not provided, the orgId of the Service App is used. If provided, the organization must be the same as or managed by the Service App's organization.
+
+## Cuerpo de la petición (application/json)
+- `action` (string) **(requerido)**: Indicates whether to SET or CLEAR the MWI status. Valores: SET, CLEAR.
+
+### Ejemplo de petición
+```json
+{
+  "action": "SET"
+}
+```
+
+## Respuestas
+- **204**: No Content
+- **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
+- **401**: Unauthorized: Authentication credentials were missing or incorrect.
+- **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
+- **404**: Not Found: The URI requested is invalid or the resource requested, such as a user, does not exist. Also returned when the requested format is not supported by the requested method.
+- **405**: Method Not Allowed: The request was made to a resource using an HTTP request method that is not supported.
+- **409**: Conflict: The request could not be processed because it conflicts with some established rule of the system. For example, a person may not be added to a room more than once.
+- **410**: Gone: The requested resource is no longer available.
+- **415**: Unsupported Media Type: The request was made to a resource without specifying a media type or used a media type that is not supported.
+- **423**: Locked: The requested resource is temporarily unavailable. A Retry-After header may be present that specifies how many seconds you need to wait before attempting the request again.
+- **428**: Precondition Required: File(s) cannot be scanned for malware and need to be force downloaded.
+- **429**: Too Many Requests: Too many requests have been sent in a given amount of time and the request has been rate limited. A Retry-After header should be present that specifies how many seconds you need to wait before a successful request can be made.
+- **500**: Internal Server Error: Something went wrong on the server. If the issue persists, feel free to contact the [Webex Developer Support team](/explore/support).
+- **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
+- **503**: Service Unavailable: Server is overloaded with requests. Try again later.
+- **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs

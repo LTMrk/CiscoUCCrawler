@@ -1,0 +1,44 @@
+---
+doc_id: webex-contact-center-post-organization-orgid-v2-contact-service-queue-id-reassign-agents
+source: webex-openapi-specs/public-spec/webex-contact-center.json
+api: Webex Contact Center
+method: POST
+path: /organization/{orgid}/v2/contact-service-queue/{id}/reassign-agents
+license: CC-BY-4.0
+retrieved_at: 2026-08-16T11:30:32.937233+00:00
+---
+
+# POST /organization/{orgid}/v2/contact-service-queue/{id}/reassign-agents
+
+**API:** Webex Contact Center
+**Área:** Contact Service Queue
+**operationId:** `reassignAgentsContactServiceQueue`
+
+## Resumen
+Add or remove agents/users to/from an agent based queue
+
+## Descripción
+This API can be used by a contact center supervisor to add or remove agents to or from an agent-based queue that they can access through their user profile access rights. Additionally, the request payload should contain the user ID(s) managed by the supervisor.
+
+## Parámetros
+- `orgid` [path] (string) **(requerido)**: Organization ID to be used for this operation. The specified security token must have permission to interact with the organization.
+- `id` [path] (string) **(requerido)**: Resource ID of the Contact Service Queue.
+
+## Cuerpo de la petición (application/json)
+- `add` (array): List of Add.
+- `remove` (array): List of Remove.
+
+## Respuestas
+- **200**: OK
+  - `status` (string): Status of the reassign-agents operation.
+  - `message` (string): Human-readable result message.
+- **400**: The request was invalid and cannot be served. An accompanying error message will explain further
+- **401**: Unauthorized Operation
+- **403**: Operation is forbidden
+- **409**: Similar entity is already present
+- **429**: Too many requests have been sent in a given amount of time and the request has been rate limited
+- **500**: An Unexpected Error Occurred
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs
