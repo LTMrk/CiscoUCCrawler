@@ -1,0 +1,2937 @@
+---
+doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-integration-pimg-b-14cucintpimg-b-14cucintpimg-chapter-01111-h-e19885e369
+source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/integration/pimg/b_14cucintpimg/b_14cucintpimg_chapter_01111.html
+retrieved_at: 2026-08-16T18:37:46.639629+00:00
+---
+
+PIMG Integration Guide for Cisco Unity Connection Release 14
+
+# PIMG Integration Guide for Cisco Unity Connection Release 14
+
+Updated: March 25, 2021
+
+Chapter: Creating New Integration with Siemens Hipath 3750 Phone System
+
+## Chapter: Creating New Integration with Siemens Hipath 3750 Phone System
+
+# Creating New Integration with Siemens Hipath 3750 Phone System
+
+After ensuring that the Siemens Hipath 3750 phone system, the PIMG units, and Unity Connection are ready for the integration,
+                        do the following procedure to set up the integration and to enter the port settings.
+
+### Setting Up a Siemens Hipath 3750 Analog PIMG Integration
+
+## Task List for
+                        	 Siemens Hipath 3750 PIMG Integration
+
+Before doing the following tasks to integrate Unity Connection with the Hipath 3750 phone system using PIMG units (media gateways),
+                           confirm that the Unity Connection server is ready for the integration after completing the server installation, following
+                           the tasks in the “ Installing Cisco Unity Connection ” chapter of the Install, Upgrade, and Maintenance Guide for Cisco Unity Connection Release 15 , available at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/install_upgrade/guide/b_15cuciumg.html .
+
+Review the system and equipment requirements to confirm that all
+                                 			 phone system and Unity Connection server requirements have been met. See the Requirements section.
+
+Plan how the voice messaging ports are used by Unity Connection.
+                                 			 See the Planning the Usage of Voice Messaging Ports chapter.
+
+Program the Siemens Hipath 3750 phone system and extensions. See
+                                 			 the “Programming
+                                    				Siemens Hipath 3750 Phone System for Integration Using the Command Line
+                                    				Interface” section.
+
+Set up the PIMG units.
+
+Create the integration. See the Creating New Integration with Siemens Hipath 3750 Phone System section.
+
+Test the integration. See the Testing the Integration chapter.
+
+If this integration is a second or subsequent integration, add
+                                 			 the applicable new user templates for the new phone system. See the Adding New User Templates for Multiple Integrations chapter.
+
+## Requirements
+
+This integration supports configurations of the following
+                           		components:
+
+### Phone System
+
+The Siemens Hipath 3750 phone system.
+
+Software version HE580S.13.108 or later.
+
+One or more of the applicable PIMG units. For details, see the “Introduction” chapter.
+
+The voice messaging ports in the phone system connected by analog lines to the ports on the PIMG units.
+
+We recommend that you connect the voice messaging ports on the phone system to the ports on the PIMG units in a planned manner
+                              to simplify troubleshooting. For example, the first phone system voice messaging port connects to the first port on the first
+                              PIMG unit, the second phone system voice messaging port connects to the second port on the first PIMG unit, and so on.
+
+The PIMG units connected to the same LAN or WAN that Unity Connection is connected to.
+
+If the PIMG units connect to a WAN, the requirements for the WAN network connections are:
+
+For G.729a codec formatting, a minimum of 32.76 Kbps guaranteed bandwidth for each voice messaging port.
+
+For G.711 codec formatting, a minimum of 91.56 Kbps guaranteed bandwidth for each voice messaging port.
+
+No network devices that implement network address translation (NAT).
+
+A maximum 200 ms one-way network latency.
+
+The phone system ready for the integration, as described in the documentation for the phone system.
+
+### Unity Connection
+                           	 Server
+
+Unity Connection installed following the tasks in the “ Installing Cisco Unity Connection ” chapter of the Install, Upgrade, and Maintenance Guide for Cisco Unity Connection Release 15 , available at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/install_upgrade/guide/b_15cuciumg.html .
+
+A license that enables the applicable number of voice messaging
+                                    			 ports.
+
+## Programming Siemens Hipath 3750 Phone System for Integration Using the
+                        	 Command Line Interface
+
+The following programming instructions are
+                              		  provided as an example only. The specific programming for your phone system may
+                              		  vary depending on its configuration.
+
+Caution
+
+In programming the phone system, do not send
+                                          			 calls to voice messaging ports in Unity Connection that cannot answer calls
+                                          			 (voice messaging ports that are not set to Answer Calls). For example, if a
+                                          			 voice messaging port is set only to Send MWI Requests, do not send calls to it.
+
+Step 1
+
+In the Siemens Hipath 3750 interface,
+                                       			 configure the stations for the ports on all of the PIMG units using the
+                                       			 following settings.
+
+Field
+
+Setting
+
+Call No.
+
+Enter the internal call number that
+                                                      						  is associated with each port on the PIMG units.
+
+DID
+
+Enter the DID for ports on the PIMG
+                                                      						  units are dialing out (for example, to set MWIs).
+
+Name
+
+Enter a name that you want for the
+                                                      						  station. For example, enter “PIMG port 1” for the first port. Note that you can
+                                                      						  enter a maximum of 16 characters.
+
+Type
+
+(Display
+                                                         							 only) The phone device that the phone system has configured for the port.
+
+Type
+
+Click PhoneMail for the applicable
+                                                      						  dial plan.
+
+Step 2
+
+Click Apply .
+
+Step 3
+
+Configure the access number to forward calls
+                                       			 to subscriber mailboxes.
+
+Step 4
+
+Configure the hunt group for the ports on
+                                       			 the PIMG units that answer calls using the following settings.
+
+Field
+
+Setting
+
+Index
+
+Click an available index that you
+                                                      						  want to use for the ports on the PIMG units.
+
+Call No.
+
+Enter the pilot number for Unity
+                                                      						  Connection.
+
+DID
+
+Enter the four-digit DID that is
+                                                      						  associated with call number that is associated with the hunt group.
+
+Name
+
+Enter a name for the hunt group.
+
+Type
+
+From the drop-down box, click Linear .
+
+You must use a linear hunt group.
+                                                      						  Otherwise, the integration cannot function correctly.
+
+Step 5
+
+Click Apply .
+
+Step 6
+
+Under Group, in the Call No. column, click
+                                       			 the call number for the hunt group that you created in Step 4 .
+
+Step 7
+
+In the Selection box, highlight all the
+                                       			 ports on the PIMG units that answer calls.
+
+Step 8
+
+Add the highlighted ports to the Members box
+                                       			 by clicking - .
+
+Step 9
+
+In the Members box, highlight the ports that
+                                       			 dial out (for example, to set MWIs), and click Down until all dialout
+                                       			 ports are at the bottom of the box.
+
+Step 10
+
+Configure call forwarding for the ports on
+                                       			 the PIMG units that answer calls. For the fields under Call Dest. List -
+                                       			 Definition, use the following settings.
+
+Field
+
+Setting
+
+No.
+
+The call destination number that you
+                                                      						  use for the ports on the PIMG units.
+
+Target 1
+
+Leave this field blank.
+
+Cycles
+
+Enter 1 (which equals about 5
+                                                      						  seconds).
+
+SR Type
+
+Click Immediate .
+
+RNA
+
+Check this check box.
+
+Step 11
+
+Under Call Dest. List - Station Assignment,
+                                       			 click Show All Stations .
+
+Step 12
+
+In the table, assign the call destination
+                                       			 for the definition using the following settings.
+
+Field
+
+Setting
+
+Call No.
+
+Click the extension for a port on
+                                                      						  the PIMG units, which you assigned in Step 1 .
+
+Day
+
+From the drop-down box, click the
+                                                      						  call destination number, which you defined in Step 10 .
+
+Night
+
+From the drop-down box, click the
+                                                      						  call destination number, which you defined in Step 10 .
+
+Internal
+
+From the drop-down box, click the
+                                                      						  call destination number, which you defined in Step 10 .
+
+Step 13
+
+Click Apply .
+
+Step 14
+
+Repeat Step 12 and Step 13 for all remaining
+                                       			 ports on the PIMG units.
+
+Step 15
+
+Program each phone to forward calls to the
+                                       			 pilot number assigned to the voice messaging ports, based on one of the Unity
+                                       			 Connection call transfer types shown in Table 16-5 .
+
+Transfer Types
+
+Usage
+
+Release transfer (blind transfer)
+
+Program the phone to forward calls
+                                                      						  to the pilot number when:
+
+The extension is busy
+
+The call is not answered
+
+Supervised transfer
+
+Program the user station to forward
+                                                      						  calls to the pilot number only when the call is not answered (on the phone
+                                                      						  system, the number of rings before forwarding must be more than the number of
+                                                      						  rings to supervise the call). Confirm that call forwarding is disabled when the
+                                                      						  extension is busy.
+
+## Setting Up the Analog PIMG Units for a DTMF Integration
+
+Do the following procedures to set up the analog PIMG units that are connected to the Siemens Hipath 3750 phone system for
+                           a DTMF integration.
+
+These procedures require that the following tasks have already been completed:
+
+The phone system is connected to the PIMG units using analog lines.
+
+The PIMG units are ready to be connected to the LAN or WAN.
+
+The PIMG units are connected to a power source.
+
+Fields that are not mentioned in the following procedures must keep their default values. For the default values of all fields,
+                           see the manufacturer documentation for the PIMG units.
+
+### Downloading the PIMG Firmware Update Files for Analog PIMG
+                           	 Units
+
+Step 1
+
+On a Windows workstation with a high-speed
+                                          			 Internet connection that have access to the PIMG units, go to the Voice and
+                                          			 Unified Communications Downloads page at http://software.cisco.com/download/navigator.html?mdfid=280082558&i=rm .
+
+To access the software download page, you
+                                                         				  must be signed in to Cisco.com as a registered user.
+
+This procedure describes the steps when using
+                                                         				  Internet Explorer as your web browser. If you are using a different web
+                                                         				  browser, the steps may differ.
+
+Step 2
+
+In the tree control on the Downloads Home
+                                          			 page, expand Unified Communications> Unified Communications
+                                                				  Applications > Messaging > Cisco Unity and select Cisco Unity Telephony
+                                             				Integration .
+
+Step 3
+
+On the Log In page, enter your username and
+                                          			 password, then select Log In .
+
+Step 4
+
+On the Select a Release page, under Latest
+                                          			 Releases, select the most recent release.
+
+Step 5
+
+In the right column, select the version of
+                                          			 the firmware for analog PIMG units.
+
+Step 6
+
+On the Download Image page, select Download .
+
+Step 7
+
+On the Supporting Document(s) page, select Agree .
+
+Step 8
+
+In the File Download dialog box, select Save .
+
+Step 9
+
+In the Save As dialog box, browse to the
+                                          			 Windows workstation that have access the PIMG units, browse to a directory
+                                          			 where you want to save the file, and select Save .
+
+Step 10
+
+In the Download Complete dialog box, select Open . The window for
+                                          			 extracting the PIMG firmware update files appears.
+
+Step 11
+
+Select Extract .
+
+Step 12
+
+In the Extract dialog box, browse to the
+                                          			 directory where you want the extracted files, and select Extract .
+
+Step 13
+
+Close the window for the extracting
+                                          			 application.
+
+Step 14
+
+On the Windows workstation, add a temporary
+                                          			 route to enable access to the PIMG units.
+
+On the Windows Start menu, select Run .
+
+Enter cmd , and press Enter . The Command Prompt window
+                                                				  appears.
+
+At the command prompt, enter route add 10.12.13.74 <IP Address of
+                                                   					 Workstation> , and press Enter .
+
+For example, if the IP address of the
+                                                   					 workstation is 198.1.3.25, enter “route add 10.12.13.74<space>198.1.3.25”
+                                                   					 in the Command Prompt window.
+
+Close the Command Prompt window.
+
+Step 15
+
+Connect a PIMG unit to the network.
+
+Step 16
+
+In the web browser, go to http://10.12.13.74 .
+
+Step 17
+
+To sign in, enter the following
+                                          			 case-sensitive settings.
+
+Field
+
+Settings
+
+Username
+
+Enter admin .
+
+Password
+
+Enter IpodAdmin .
+
+Step 18
+
+Select OK .
+
+Step 19
+
+On the System menu, select Upgrade .
+
+Step 20
+
+On the Upgrade page, select Browse .
+
+Step 21
+
+In the Choose File dialog box, browse to the
+                                          			 directory on the Windows workstation that has the extracted PIMG firmware
+                                          			 update files.
+
+Step 22
+
+Select Ls_<xx > .app (where <xx> is multiple digits), and select Open .
+
+Step 23
+
+On the Upgrade page, select Install File .
+
+Step 24
+
+After the file is installed, a message
+                                          			 prompting you to restart the PIMG unit appears. Select Cancel .
+
+Do not restart the PIMG unit until you are
+                                             				instructed to do so later in this procedure, even if the file installation
+                                             				fails. Restarting the PIMG unit at this step may prevent the PIMG unit from
+                                             				functioning correctly.
+
+Step 25
+
+Repeat Step 6 through Step 11 for the following
+                                          			 files:
+
+Run_<xx>FskEcho.dsp
+
+Ls_<xx>.fsh
+
+On the Configuration menu, select Import/Export .
+
+On the Import/Export page, select Browse .
+
+In the Choose File dialog box, browse to the
+                                       				file Ls_Cfg_Hicom300E.ini.
+
+Select Ls_Cfg_Hicom300E.ini ,
+                                       				and select Open .
+
+On the Import/Export page, select Import File .
+
+After the file is imported, a message
+                                       				prompting you to restart the PIMG unit appears. Select OK .
+
+In the web browser, go to http://10.12.13.74 .
+
+To sign in, enter the following
+                                       				case-sensitive settings.
+
+Field
+
+Settings
+
+Username
+
+Enter admin .
+
+Password
+
+Enter IpodAdmin .
+
+Select OK .
+
+Do the following substeps to configure an
+                                       				RTP port range of 16384 to 32767.
+
+You must set the RTP port range for the PIMG
+                                       				units if your system uses an RTP port range of 16384 to 32767. Otherwise, Unity
+                                       				Connection cannot answer calls and callers hear ringing or silence.
+
+The default RTP port range for PIMG units
+                                                   				  is 49000 to 50000. Some Cisco Unity Connection configurations require a
+                                                   				  different RTP port range.
+
+On the Configuration menu, select Import/Export .
+
+On the Import/Export page, under Export
+                                             					 Files, select Export All Settings .
+
+In the File Download dialog box, select Save .
+
+In the Save As dialog box, browse to the
+                                             					 Windows workstation that has access to the PIMG units, browse to a directory
+                                             					 where you want to save the file, and select Save .
+
+In the Download Complete dialog box,
+                                             					 select Open . Notepad opens the file
+                                             					 Config.ini that you saved.
+
+Locate the line with the following
+                                             					 parameter:
+
+```
+gwRTPStartPort
+```
+
+Change the value of the parameter to 16384 so that the line reads as
+                                             					 follows:
+
+```
+gwRTPStartPort = 16384
+```
+
+Locate the line with the following
+                                             					 parameter:
+
+```
+gwRTPEndPort
+```
+
+Change the value of the parameter to 32767 so that the line reads as
+                                             					 follows:
+
+```
+gwRTPEndPort = 32767
+```
+
+Save the file, and exit Notepad.
+
+On the Configuration menu of the PIMG
+                                             					 unit, select Import/Export .
+
+On the Import/Export page, under Browse
+                                             					 for Import File, select Browse .
+
+In the Choose File dialog box, browse to
+                                             					 the file Config.ini that you saved.
+
+Select Config.ini , and select Open .
+
+On the Import/Export page, select Import File .
+
+When prompted to restart the PIMG unit,
+                                             					 select OK .
+
+When the PIMG unit has restarted, in the
+                                             					 web browser, go to http://10.12.13.74 .
+
+To sign in, enter the following
+                                             					 case-sensitive settings.
+
+Field
+
+Setting
+
+Username
+
+Enter admin .
+
+Password
+
+Enter IpodAdmin .
+
+Select OK .
+
+On the System menu, select Password .
+
+On the Change Password page, enter the
+                                       				following settings.
+
+Field
+
+Settings
+
+Old Password
+
+Enter IpodAdmin . (This setting is case
+                                             					 sensitive.)
+
+New Password
+
+Enter your new password. (This setting
+                                             					 is case sensitive.)
+
+Confirm Password
+
+Enter your new password. (This setting
+                                             					 is case sensitive.)
+
+Select Change .
+
+On the Configuration menu, select Mgmt Protocols .
+
+On the Management Protocols page, enter the
+                                       				following settings.
+
+Field
+
+Settings
+
+E-mail Alarms Enabled
+
+Select No .
+
+SNMP Traps Enabled
+
+Select No .
+
+Select Submit .
+
+On the Configuration menu, select Routing Table .
+
+On the Routing Table page, under Router
+                                       				Configuration, select VoIP Host Groups .
+
+Under VoIP Host Groups, enter the following
+                                       				settings for the first VoIP Host Group.
+
+Field
+
+Settings
+
+Name
+
+Accept the default or enter another
+                                             					 descriptive name of the VoIP host group.
+
+Load-Balanced
+
+(Unity
+                                                						Connection without a cluster) Select False .
+
+(Unity
+                                                						Connection with a cluster configured) Select False .
+
+Fault-Tolerant
+
+(Unity
+                                                						Connection without a cluster) Select False .
+
+(Unity
+                                                						Connection with a cluster configured) Select True .
+
+For Unity Connection without a cluster,
+                                       				under Host List, enter the host name or IP address of the Unity Connection
+                                       				server and the server port in the format <host name or IP address>:5060.
+
+For Unity Connection with a cluster configured,
+                                 		  under Host List, confirm that field contains the host name or IP address of the
+                                 		  publisher server (the first Unity Connection server that you installed) and the
+                                 		  server port in the format <host name or IP address>:5060.
+
+For Unity Connection without a cluster,
+                                       				continue to Step 36 . For Unity Connection
+                                       				with a cluster configured, under Host List, enter the host name or IP address
+                                       				of the subscriber server (the second Unity Connection server that you
+                                       				installed) and the server port in the format <host name or IP
+                                       				address>:5060.
+
+Select Add Host .
+
+In the second field, enter the host name or
+                                       				IP address of the publisher server (the first Unity Connection server that you
+                                       				installed) and the server port in the format <host name or IP
+                                       				address>:5060.
+
+Do not add a third host under Host List or a
+                                       				second host group under VoIP Host Groups. Otherwise, the Unity Connection
+                                       				cluster may not function correctly.
+
+Select Submit .
+
+Under Router Configuration, select TDM Trunk Groups .
+
+Under TDM Trunk Groups, select Add Trunk Group .
+
+Under TDM Trunk Groups, enter the following
+                                       				settings for the first TDM trunk group.
+
+Field
+
+Settings
+
+Name
+
+Enter Inbound_PBX_Calls or another
+                                             					 unique name.
+
+This TDM trunk group handles all
+                                             					 incoming calls from the phone system.
+
+Selection Direction
+
+Select Ascending .
+
+Selection Mode
+
+Select Linear .
+
+Port/Channel Content
+
+Enter the numbers of the PIMG ports that
+                                             					 handle inbound calls. For example, enter “*” for all PIMG ports, or enter “1-6”
+                                             					 for the first six PIMG ports.
+
+Under TDM Trunk Groups, select Add Trunk Group .
+
+Enter the following settings for the second
+                                       				TDM trunk group.
+
+Field
+
+Settings
+
+Name
+
+Enter MWIs or another unique name.
+
+This TDM trunk group handles outbound
+                                             					 MWI calls (where applicable).
+
+Selection Direction
+
+Select Ascending .
+
+Selection Mode
+
+Select Cyclic .
+
+Port/Channel Content
+
+Enter the numbers of the PIMG ports that
+                                             					 dial out MWIs. For example, enter “*” for all PIMG ports, or enter “7,8” for
+                                             					 the last two PIMG ports.
+
+Under TDM Trunk Groups, select Add Trunk Group .
+
+Enter the following settings for the third
+                                       				TDM trunk group.
+
+Field
+
+Settings
+
+Name
+
+Enter Outbound_PBX_Calls or another
+                                             					 unique name.
+
+This TDM trunk group handles all
+                                             					 outbound calls from Unity Connection.
+
+Selection Direction
+
+Select Descending .
+
+Selection Mode
+
+Select Linear .
+
+Port/Channel Content
+
+Enter * for all channels in all ports.
+
+Enter the numbers of the PIMG ports that
+                                             					 handle outbound (dialout) calls. For example, enter “*” for all PIMG ports, or
+                                             					 enter “7,8” for the last two PIMG ports.
+
+Select Submit .
+
+Under Router Configuration, select Inbound VoIP Rules .
+
+Under Inbound VoIP Rules, uncheck the Enabled check box for
+                                       				the default rule.
+
+Select Add Rule .
+
+Under Inbound VoIP Rules, enter the
+                                       				following settings for the first new inbound VoIP rule.
+
+Field
+
+Settings
+
+Enable
+
+Check this check box.
+
+Rule Label
+
+Enter MWI_Calls or another name.
+
+This inbound VoIP rule handles all MWI
+                                             					 calls from Unity Connection.
+
+Request Type
+
+Select Message .
+
+Originating VoIP Host Address
+
+Enter * .
+
+Under Inbound VoIP Request Matching, enter
+                                       				the following settings.
+
+The rule that you created in Step 48 must be selected.
+                                       				Otherwise, any changes you make apply to another rule.
+
+Field
+
+Settings
+
+Calling Number
+
+Enter * .
+
+Calling Name
+
+Enter * .
+
+Called Number
+
+Enter * .
+
+Called Name
+
+Enter * .
+
+Redirect Number
+
+Enter * .
+
+Redirect Name
+
+Enter * .
+
+Under Outbound Routes, enter the following
+                                       				settings.
+
+The rule that you created in Step 48 must be selected.
+                                       				Otherwise, any changes you make apply to another rule.
+
+Field
+
+Settings
+
+Device
+                                                						Selection
+
+Outbound Destination
+
+Select TDM .
+
+Trunk Group
+
+Select the name of the TDM trunk group
+                                             					 that you created for MWIs in Step 41 . For example, select
+                                             					 “MWIs.”
+
+CPID
+                                                						Manipulation
+
+Calling Number
+
+Enter S .
+
+Calling Name
+
+Enter S .
+
+Called Number
+
+Enter D .
+
+Called Name
+
+Enter D .
+
+Redirect Number
+
+Enter R .
+
+Redirect Name
+
+Enter R .
+
+Select
+                                                						Primary/Alternate Route
+
+Primary
+
+Select Primary .
+
+Under Inbound VoIP Rules, select Add Rule .
+
+Under Inbound VoIP Rules, enter the
+                                       				following settings for the second new inbound VoIP rule.
+
+Field
+
+Settings
+
+Enable
+
+Check this check box.
+
+Rule Label
+
+Enter Outbound_UC_Calls or another name.
+
+This inbound VoIP rule handles all
+                                             					 outbound calls from Unity Connection.
+
+Request Type
+
+Select Call .
+
+Originating VoIP Host Address
+
+Enter * .
+
+Under Inbound VoIP Request Matching, enter
+                                       				the following settings.
+
+The rule that you created in Step 52 must be selected.
+                                       				Otherwise, any changes you make apply to another rule.
+
+Field
+
+Settings
+
+Calling Number
+
+Enter * .
+
+Calling Name
+
+Enter * .
+
+Called Number
+
+Enter * .
+
+Called Name
+
+Enter * .
+
+Redirect Number
+
+Enter * .
+
+Redirect Name
+
+Enter * .
+
+Under Outbound Routes, enter the following
+                                       				settings.
+
+The rule that you created in Step 52 must be selected.
+                                       				Otherwise, any changes you make apply to another rule.
+
+Field
+
+Settings
+
+Device
+                                                						Selection
+
+Outbound Destination
+
+Select TDM .
+
+Trunk Group
+
+Select the name of the TDM trunk group
+                                             					 that you created for outbound calls in Step 43 . For example, select
+                                             					 “Outbound_PBX_Calls.”
+
+CPID
+                                                						Manipulation
+
+Calling Number
+
+Enter S .
+
+Calling Name
+
+Enter S .
+
+Called Number
+
+Enter D .
+
+Called Name
+
+Enter D .
+
+Redirect Number
+
+Enter R .
+
+Redirect Name
+
+Enter R .
+
+Select
+                                                						Primary/Alternate Route
+
+Primary
+
+Select Primary .
+
+Select Submit .
+
+Under Router Configuration, select Inbound TDM Rules .
+
+Under Inbound TDM Rules, enter the following
+                                       				settings for the first inbound TDM rule.
+
+Field
+
+Settings
+
+Enable
+
+Check this check box.
+
+Rule Label
+
+Enter Inbound_Rule_1 or another name.
+
+This inbound TDM rule handles all
+                                             					 incoming calls from the phone system.
+
+Request Type
+
+Select Call .
+
+Trunk Group
+
+Select the name of the TDM trunk group
+                                             					 that you created for incoming calls from the phone system in Step 39 . For example, select
+                                             					 “Inbound_PBX_Calls.”
+
+Under Inbound TDM Request Matching, enter
+                                       				the following settings.
+
+The rule that you created in Step 57 must be selected.
+                                       				Otherwise, any changes you make apply to another rule.
+
+Field
+
+Settings
+
+Calling Number
+
+Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all.
+
+Calling Name
+
+Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all.
+
+Called Number
+
+Enter the applicable matching ruleused.
+                                             					 For example, enter “*” for all.
+
+Called Name
+
+Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all.
+
+Redirect Number
+
+Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all.
+
+Redirect Name
+
+Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all.
+
+Under Outbound Routes, enter the following
+                                       				settings.
+
+The rule that you created in Step 57 must be selected.
+                                       				Otherwise, any changes you make apply to another rule.
+
+Field
+
+Settings
+
+Device
+                                                						Selection
+
+Outbound Destination
+
+Select VoIP .
+
+Host Group
+
+Select the name of the VoIP host group
+                                             					 that you created for Unity Connection in Step 31 .
+
+CPID
+                                                						Manipulation
+
+Calling Number
+
+Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all.
+
+Calling Name
+
+Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all.
+
+Called Number
+
+Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all.
+
+Called Name
+
+Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all.
+
+Redirect Number
+
+Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all.
+
+Redirect Name
+
+Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all.
+
+Select
+                                                						Primary/Alternate Route
+
+Primary
+
+Select Primary .
+
+If you want to create more Inbound TDM
+                                       				rules, under Inbound TDM Rules, select Add Rule . Otherwise,
+                                       				continue to Step 62 .
+
+Repeat Step 57 through Step 60 for all remaining
+                                       				inbound TDM rules that you want to create.
+
+Select Submit .
+
+On the Configuration menu, select TDM > General .
+
+On the TDM General Settings page, enter the
+                                       				following settings.
+
+Field
+
+Settings
+
+PCM Coding
+
+Select uLaw .
+
+Minimum Call Party Delay (ms)
+
+Enter 500 .
+
+Maximum Call Party Delay (ms)
+
+Enter 2000 .
+
+Dial Digit on Time (ms)
+
+Enter 100 .
+
+Dial Inter-Digit Time (ms)
+
+Enter 100 .
+
+Dial Pause Time (ms)
+
+Enter 2000 .
+
+Turn MWI On FAC
+
+Enter the code that turns MWIs on.
+
+Turn MWI Off FAC
+
+Enter the code that turns MWIs off.
+
+Outbound Call Connect Timeout (ms)
+
+Enter 10000 .
+
+Wait for Ringback/Connect on Blind
+                                             					 Transfer
+
+Select Yes .
+
+Hunt Group Extension
+
+Enter the pilot number of the Unity
+                                             					 Connection voice messaging ports.
+
+Disconnect on Fax Cleardown Tone
+
+Select No .
+
+Select Submit .
+
+On the Configuration menu, select TDM > Port Enable .
+
+On the TDM Port Enabling page, select No for the ports that
+                                       				you want to disable on the PIMG unit.
+
+Confirm that Yes is selected for
+                                       				all other ports on the PIMG unit.
+
+Select Submit .
+
+On the Configuration menu, select VoIP > General .
+
+On the VoIP General Settings page, enter the
+                                       				following settings.
+
+Field
+
+Setting
+
+User-Agent
+
+Host and Domain Name
+
+Enter the host and domain name of the
+                                             					 PIMG unit.
+
+Transport Type
+
+Select UDP .
+
+Call as Domain Name
+
+Select No .
+
+SIPS URI Scheme Enabled
+
+Invite Expiration (sec)
+
+Enter 120 .
+
+Server
+
+DNS Server Address
+
+Enter the IP Address of the Domain Name
+                                             					 Server that the PIMG unit uses.
+
+DNS Translation of Phone Numbers
+
+Registration Server Address
+
+Leave this field blank.
+
+Registration Server Port
+
+Enter 5060 .
+
+Registration Expiration (sec)
+
+Enter 3600 .
+
+TCP/UDP
+
+UDP/TCP Transports Enabled
+
+Select Yes .
+
+TCP/UDP Server Port
+
+Enter 5060 .
+
+TCP Inactivity Timer (sec)
+
+Enter 30 .
+
+TLS
+
+TLS Transport Enabled
+
+TLS Server Port
+
+SSL TLS Protocol
+
+Mutual TLS Authentication Required
+
+TLS Inactivity Timer (sec)
+
+Verify TLS Peer Certificate Date
+
+Verify TLS Peer Certificate Trust
+
+Proxy
+
+Primary Proxy Server Address
+
+Leave this field blank.
+
+Primary Proxy Server Port
+
+Not applicable. Leave the default
+                                             					 setting.
+
+Backup Proxy Server Address
+
+Not applicable. Leave the default
+                                             					 setting.
+
+Backup Proxy Server Port
+
+Not applicable. Leave the default
+                                             					 setting.
+
+Proxy Query Interval
+
+Enter 10 .
+
+Timing
+
+T1 Time (ms)
+
+Enter 400 .
+
+T2 Time (ms)
+
+Enter 3000 .
+
+T4 Time (ms)
+
+Enter 5000 .
+
+Monitoring
+
+Monitor Call Connections
+
+Select No .
+
+Call Monitor Interval (sec)
+
+Monitor VoIP Hosts
+
+VoIP Host Monitor Interval (sec)
+
+Select Submit .
+
+On the Configuration menu, select VoIP > Media .
+
+On the VoIP Media Settings page, enter the
+                                       				following settings.
+
+Field
+
+Settings
+
+Audio
+
+Audio Compression
+
+Select the preferred codec for audio
+                                             					 compression.
+
+RTP Digit Relay Mode
+
+Select RFC2833 .
+
+RTP Fax/Modem Tone Relay Mode
+
+Select RFC2833 .
+
+RTP Source IP Address Validation
+
+Select Off .
+
+RTP Source UDP Port Validation
+
+Select Off .
+
+Signaling Digit Relay Mode
+
+Select Off .
+
+Voice Activity Detection
+
+Select Off .
+
+RFC 3960 Early Media Support
+
+Select On Demand .
+
+Frame Size
+
+Select the applicable setting:
+
+G.711— 20
+
+G.729AB— 10
+
+Failure to use the correct setting
+                                                   						  results in recorded messages containing nothing but silence.
+
+Frames Per Packet
+
+Select the applicable setting:
+
+G.711— 1
+
+G.729AB— 2
+
+Failure to use the correct setting
+                                                   						  results in recorded messages containing nothing but silence.
+
+Fax
+
+Fax IP-Transport Mode
+
+Select Submit .
+
+On the Configuration menu, select VoIP > QOS .
+
+On the VoIP QOS Configuration page, enter
+                                       				the following settings.
+
+Field
+
+Settings
+
+Call Control QOS Byte
+
+Enter 104 .
+
+RTP QOS Byte
+
+Enter 184 .
+
+Select Submit .
+
+On the Configuration menu, select IP .
+
+On the IP Settings page, enter the following
+                                       				settings.
+
+Field
+
+Settings
+
+Client IP Address
+
+Enter the new IP address you want to use
+                                             					 for the PIMG unit.
+
+(This is the IP address that you enter
+                                             					 in Cisco Unity Connection Administration when you create the integration.)
+
+Client Subnet Mask
+
+Enter the new subnet mask, if the subnet
+                                             					 mask is different from the default IP address.
+
+Default Network Gateway Address
+
+Enter the IP address of the default
+                                             					 network gateway router that the PIMG units use.
+
+BOOTP Enabled
+
+Select No .
+
+Select Submit .
+
+On the Configuration menu, select Tone Detection .
+
+On the Tone Detection page, under Call
+                                       				Progress Tone - Learn, in the Learn Tone Event field, select Busy and do the
+                                       				following substeps to verify that the tone is correct.
+
+From an available phone, call a second
+                                             					 phone.
+
+Answer the second phone when it rings,
+                                             					 and leave both handsets off so that both phones are busy.
+
+From a third phone, dial one of the busy
+                                             					 phones.
+
+Confirm that you hear a busy tone.
+
+Hang up the third phone but leave the
+                                             					 handsets for the other two phones off.
+
+Under Call Progress Tone - Learn, in the
+                                       				Dial String field, enter the extension that you dialed in Step 83 c. from
+                                       				the third phone.
+
+Select Learn .
+
+On the Tone Detection page, under Call
+                                       				Progress Tone - Learn, in the Learn field, select Error and do the
+                                       				following substeps to verify that the tone is correct.
+
+From an available phone, dial an
+                                             					 extension that does not exist.
+
+Confirm that you hear the reorder or
+                                             					 error tone.
+
+Hang up the phone.
+
+Under Call Progress Tone - Learn, in the
+                                       				Dial String field, enter the extension that you dialed in Step 86 a.
+
+Select Learn .
+
+On the Tone Detection page, under Call
+                                       				Progress Tone - Learn, in the Learn field, select Ringback and and do
+                                       				the following substeps to verify that the tone is correct.
+
+From an available phone, dial an
+                                             					 extension that does exist
+
+Confirm that you hear the ringback tone.
+
+Hang up the phone.
+
+Under Call Progress Tone - Learn, in the
+                                       				Dial String field, enter the extension that you dialed in Step 89 a.
+
+Select Learn .
+
+Select Submit .
+
+Hang up the phones that you used in Step 89 .
+
+On the System menu, select Restart .
+
+On the Restart page, select Restart Unit Now .
+
+Repeat Step 2 through Step 95 on all remaining PIMG
+                                       				units.
+
+## Creating New Integration with Siemens Hipath 3750 Phone System
+
+After ensuring that the Siemens Hipath 3750 phone
+                           		system, the PIMG units, and Unity Connection are ready for the integration, do
+                           		the following procedure to set up the integration and to enter the port
+                           		settings.
+
+### Creating an
+                           	 Integration
+
+Step 1
+
+In Cisco Unity Connection Administration, expand Telephony Integrations , then select Phone System .
+
+Step 2
+
+On the Search Phone Systems page, under Display Name, select the
+                                          			 name of the default phone system.
+
+Step 3
+
+On the Phone System Basics page, in the Phone System Name field,
+                                          			 enter the descriptive name that you want for the phone system.
+
+Step 4
+
+If you want to use this phone system as the default for TRaP
+                                          			 connections so that administrators and users without voicemail boxes can record
+                                          			 and playback through the phone in Unity Connection web applications, check the Default TRAP Switch check box. If you want to use
+                                          			 another phone system as the default for TRaP connections, uncheck this check
+                                          			 box.
+
+Step 5
+
+Under Message Waiting Indicator Settings, select Use Same Port
+                                             				for Enabling and Disabling MWIs .
+
+Step 6
+
+Select Save .
+
+Step 7
+
+On the Phone System Basics page, in the Related Links drop-down
+                                          			 box, select Add Port Group and select Go .
+
+Step 8
+
+On the New Port Group page, enter the applicable settings and
+                                          			 select Save .
+
+Field
+
+Setting
+
+Phone System
+
+Select the name of the phone system that you entered in Step 3 .
+
+Create From
+
+Select Port Group Template and
+                                                         						  select SIP to DMG/PIMG/TIMG in the drop-down box.
+
+Display Name
+
+Enter a descriptive name for the port group. You can accept the
+                                                         						  default name or enter the name that you want.
+
+SIP Security Profile
+
+Select 5060 .
+
+SIP Transport Protocol
+
+Select the SIP transport protocol that Unity Connection uses.
+
+IP Address or Host Name
+
+Enter the IP address of the PIMG unit that you are integrating
+                                                         						  with Unity Connection.
+
+Port
+
+Enter the SIP port of the PIMG unit that Unity Connection
+                                                         						  connects to. We recommend that you use the default setting.
+
+This name must match the setting in the TCP/UDP Server Port
+                                                         						  field on the Configuration > VoIP > General page of the PIMG unit.
+                                                         						  Otherwise, the integration cannot function correctly.
+
+Step 9
+
+On the Port Group Basics page, under Message Waiting Indicator
+                                          			 Settings, uncheck the Enable Message Waiting Indicators check box and select Save .
+
+Step 10
+
+In the Related Links drop-down box, select Add Ports and select Go .
+
+Step 11
+
+On the New Port page, enter the following settings and select Save .
+
+Field
+
+Considerations
+
+Enabled
+
+Check this check box.
+
+Number of Ports
+
+Enter 8 .
+
+(If you want to use fewer than eight voice messaging ports,
+                                                         						  enter the number of voice messaging ports that you want to use on this PIMG
+                                                         						  unit.)
+
+For a Unity Connection
+                                                                     							 cluster, the server must have the number of voice messaging ports that are set
+                                                                     							 up on the phone system for the PIMG integration so that this server can handle
+                                                                     							 all voice messaging traffic for the cluster if one of the servers stops
+                                                                     							 functioning. For example, if the phone system is set up with 16 voice messaging
+                                                                     							 ports, this server must have 16 voice messaging ports.
+
+Phone System
+
+Select the name of the
+                                                         						  phone system that you entered in Step 3 .
+
+Port Group
+
+Select the name of the
+                                                         						  port group that you added in Step 8 .
+
+Step 12
+
+On the Search Ports page, select the display name of the first
+                                          			 voice messaging port that you created for this phone system integration.
+
+By default, the display names for the voice messaging ports are
+                                                         				  composed of the port group display name followed by incrementing numbers.
+
+Step 13
+
+On the Port Basics page, set the voice messaging port settings
+                                          			 as applicable. The fields in the following table are the ones that you can
+                                          			 change.
+
+Field
+
+Considerations
+
+Enabled
+
+Check this check box to
+                                                         						  enable the port. The port is enabled during normal operation.
+
+Uncheck this check box to
+                                                         						  disable the port. When the port is disabled, calls to the port get a ringing
+                                                         						  tone but are not answered. Typically, the port is disabled only by the
+                                                         						  installer during testing.
+
+Extension
+
+Enter the extension for
+                                                         						  the port as assigned on the phone system.
+
+Answer Calls
+
+Check this check box to
+                                                         						  designate the port for answering calls. These calls can be incoming calls from
+                                                         						  unidentified callers or from users.
+
+Perform Message
+                                                         						  Notification
+
+Check this check box to
+                                                         						  designate the port for notifying users of messages. Assign Perform Message
+                                                         						  Notification to the least busy ports.
+
+Send MWI Requests
+
+(Serial integrations only) Uncheck this check box.
+                                                         						  Otherwise, the integration may not function correctly.
+
+(Digital and analog integrations only) Check this check
+                                                         						  box to designate the port for turning MWIs on and off. Assign Send MWI Requests
+                                                         						  to the least busy ports
+
+Allow TRAP Connections
+
+Check this check box so
+                                                         						  that users can use the port for recording and playback through the phone in
+                                                         						  Unity Connection web applications. Assign Allow TRAP Connections to the least
+                                                         						  busy ports.
+
+Outgoing Hunt Order
+
+Enter the priority order
+                                                         						  in which Unity Connection uses the ports when dialing out (for example, if the
+                                                         						  Perform Message Notification, Send MWI Requests, or Allow TRAP Connections
+                                                         						  check box is checked). The highest numbers are used first. However, when
+                                                         						  multiple ports have the same Outgoing Hunt Order number, Unity Connection uses
+                                                         						  the port that has been idle the longest.
+
+Step 14
+
+Select Save .
+
+Step 15
+
+Select Next .
+
+Step 16
+
+Repeat Step 13 through Step 15 for all
+                                          			 remaining voice messaging ports for the phone system.
+
+Step 17
+
+In Cisco Unity Connection Administration, expand Telephony
+                                             				Integrations , then select Phone System .
+
+Step 18
+
+On the Search Phone Systems page, under Display Name, select the
+                                          			 name of the phone system that you entered in Step 3 .
+
+Step 19
+
+Repeat Step 7 through Step 18 for each
+                                          			 remaining PIMG unit integrated with Unity Connection.
+
+Each PIMG unit is connected to one port group with the
+                                                         				  applicable voice messaging ports. For example, a system that uses five PIMG
+                                                         				  units requires five port groups, one port group for each PIMG unit.
+
+Step 20
+
+To create a port group for MWIs, do the following substeps.
+
+In Cisco Unity Connection Administration expand Telephony Integration then select Port Group .
+
+On the Search Port Groups page, select Add New .
+
+On the New Port Group page, enter the applicable settings and
+                                                				  select Save .
+
+Field
+
+Setting
+
+Phone System
+
+Create From
+
+Display Name
+
+SIP Security Profile
+
+SIP Transport Protocol
+
+IPv4 Address or Host Name
+
+IPv6 Address or Host Name
+
+IP Address or Host Name
+
+Port
+
+Caution
+
+On the Port Group Basics page, on the Edit menu, select Advanced Settings .
+
+On the Edit Advanced Settings page, under SIP MWI Requests,
+                                                				  select Not Port Specific then select Save .
+
+On the Edit menu, select Port Group Basics .
+
+Under Port Group, select Reset .
+
+Under Message Waiting Indicator Settings, confirm that the Enable Message Waiting Indicator check box is checked and
+                                                				  select Save .
+
+Step 21
+
+If another phone system integration exists, in Cisco Unity
+                                          			 Connection Administration, expand Telephony
+                                             				Integrations , then select Trunk .
+                                          			 Otherwise, skip to Step 25 .
+
+Step 22
+
+On the Search Phone System Trunks page, on the Phone System
+                                          			 Trunk menu, select New Phone System
+                                             				Trunk .
+
+Step 23
+
+On the New Phone System Trunk page, enter the following settings
+                                          			 for the phone system trunk and select Save .
+
+Field
+
+Setting
+
+From Phone System
+
+Enter the display name of
+                                                         						  the phone system that you are creating a trunk for.
+
+To Phone System
+
+Enter the display name of
+                                                         						  the previously existing phone system that the trunk connects to.
+
+Trunk Access Code
+
+Enter the extra digits
+                                                         						  that Unity Connection must dial to transfer calls through the gateway to
+                                                         						  extensions on the previously existing phone system.
+
+Step 24
+
+Repeat Step 22 and Step 23 for all
+                                          			 remaining phone system trunks that you want to create.
+
+Step 25
+
+In the Related Links drop-down list, select Check Telephony
+                                             				Configuration and select Go to confirm
+                                          			 the phone system integration settings.
+
+If the test is not successful, the Task Execution Results
+                                             				displays one or more messages with troubleshooting steps. After correcting the
+                                             				problems, test the connection again.
+
+Step 26
+
+In the Task Execution Results window, select Close .
+
+| Caution | In programming the phone system, do not send
+                                          			 calls to voice messaging ports in Unity Connection that cannot answer calls
+                                          			 (voice messaging ports that are not set to Answer Calls). For example, if a
+                                          			 voice messaging port is set only to Send MWI Requests, do not send calls to it. |
+|---|---|
+
+| Step 1 | In the Siemens Hipath 3750 interface,
+                                       			 configure the stations for the ports on all of the PIMG units using the
+                                       			 following settings. Table 1. Station Settings Field Setting Call No. Enter the internal call number that
+                                                      						  is associated with each port on the PIMG units. DID Enter the DID for ports on the PIMG
+                                                      						  units are dialing out (for example, to set MWIs). Name Enter a name that you want for the
+                                                      						  station. For example, enter “PIMG port 1” for the first port. Note that you can
+                                                      						  enter a maximum of 16 characters. Type (Display
+                                                         							 only) The phone device that the phone system has configured for the port. Type Click PhoneMail for the applicable
+                                                      						  dial plan. | Field | Setting | Call No. | Enter the internal call number that
+                                                      						  is associated with each port on the PIMG units. | DID | Enter the DID for ports on the PIMG
+                                                      						  units are dialing out (for example, to set MWIs). | Name | Enter a name that you want for the
+                                                      						  station. For example, enter “PIMG port 1” for the first port. Note that you can
+                                                      						  enter a maximum of 16 characters. | Type | (Display
+                                                         							 only) The phone device that the phone system has configured for the port. | Type | Click PhoneMail for the applicable
+                                                      						  dial plan. |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Field | Setting |
+| Call No. | Enter the internal call number that
+                                                      						  is associated with each port on the PIMG units. |
+| DID | Enter the DID for ports on the PIMG
+                                                      						  units are dialing out (for example, to set MWIs). |
+| Name | Enter a name that you want for the
+                                                      						  station. For example, enter “PIMG port 1” for the first port. Note that you can
+                                                      						  enter a maximum of 16 characters. |
+| Type | (Display
+                                                         							 only) The phone device that the phone system has configured for the port. |
+| Type | Click PhoneMail for the applicable
+                                                      						  dial plan. |
+| Step 2 | Click Apply . |
+| Step 3 | Configure the access number to forward calls
+                                       			 to subscriber mailboxes. |
+| Step 4 | Configure the hunt group for the ports on
+                                       			 the PIMG units that answer calls using the following settings. Table 2. Hunt Group Settings Field Setting Index Click an available index that you
+                                                      						  want to use for the ports on the PIMG units. Call No. Enter the pilot number for Unity
+                                                      						  Connection. DID Enter the four-digit DID that is
+                                                      						  associated with call number that is associated with the hunt group. Name Enter a name for the hunt group. Type From the drop-down box, click Linear . You must use a linear hunt group.
+                                                      						  Otherwise, the integration cannot function correctly. | Field | Setting | Index | Click an available index that you
+                                                      						  want to use for the ports on the PIMG units. | Call No. | Enter the pilot number for Unity
+                                                      						  Connection. | DID | Enter the four-digit DID that is
+                                                      						  associated with call number that is associated with the hunt group. | Name | Enter a name for the hunt group. | Type | From the drop-down box, click Linear . You must use a linear hunt group.
+                                                      						  Otherwise, the integration cannot function correctly. |
+| Field | Setting |
+| Index | Click an available index that you
+                                                      						  want to use for the ports on the PIMG units. |
+| Call No. | Enter the pilot number for Unity
+                                                      						  Connection. |
+| DID | Enter the four-digit DID that is
+                                                      						  associated with call number that is associated with the hunt group. |
+| Name | Enter a name for the hunt group. |
+| Type | From the drop-down box, click Linear . You must use a linear hunt group.
+                                                      						  Otherwise, the integration cannot function correctly. |
+| Step 5 | Click Apply . |
+| Step 6 | Under Group, in the Call No. column, click
+                                       			 the call number for the hunt group that you created in Step 4 . |
+| Step 7 | In the Selection box, highlight all the
+                                       			 ports on the PIMG units that answer calls. |
+| Step 8 | Add the highlighted ports to the Members box
+                                       			 by clicking - . |
+| Step 9 | In the Members box, highlight the ports that
+                                       			 dial out (for example, to set MWIs), and click Down until all dialout
+                                       			 ports are at the bottom of the box. |
+| Step 10 | Configure call forwarding for the ports on
+                                       			 the PIMG units that answer calls. For the fields under Call Dest. List -
+                                       			 Definition, use the following settings. Table 3. Call Dest. List - Definition
+                                                				Settings Field Setting No. The call destination number that you
+                                                      						  use for the ports on the PIMG units. Target 1 Leave this field blank. Cycles Enter 1 (which equals about 5
+                                                      						  seconds). SR Type Click Immediate . RNA Check this check box. | Field | Setting | No. | The call destination number that you
+                                                      						  use for the ports on the PIMG units. | Target 1 | Leave this field blank. | Cycles | Enter 1 (which equals about 5
+                                                      						  seconds). | SR Type | Click Immediate . | RNA | Check this check box. |
+| Field | Setting |
+| No. | The call destination number that you
+                                                      						  use for the ports on the PIMG units. |
+| Target 1 | Leave this field blank. |
+| Cycles | Enter 1 (which equals about 5
+                                                      						  seconds). |
+| SR Type | Click Immediate . |
+| RNA | Check this check box. |
+| Step 11 | Under Call Dest. List - Station Assignment,
+                                       			 click Show All Stations . |
+| Step 12 | In the table, assign the call destination
+                                       			 for the definition using the following settings. Table 4. Call Dest. List - Station Assignment
+                                                				Settings Field Setting Call No. Click the extension for a port on
+                                                      						  the PIMG units, which you assigned in Step 1 . Day From the drop-down box, click the
+                                                      						  call destination number, which you defined in Step 10 . Night From the drop-down box, click the
+                                                      						  call destination number, which you defined in Step 10 . Internal From the drop-down box, click the
+                                                      						  call destination number, which you defined in Step 10 . | Field | Setting | Call No. | Click the extension for a port on
+                                                      						  the PIMG units, which you assigned in Step 1 . | Day | From the drop-down box, click the
+                                                      						  call destination number, which you defined in Step 10 . | Night | From the drop-down box, click the
+                                                      						  call destination number, which you defined in Step 10 . | Internal | From the drop-down box, click the
+                                                      						  call destination number, which you defined in Step 10 . |
+| Field | Setting |
+| Call No. | Click the extension for a port on
+                                                      						  the PIMG units, which you assigned in Step 1 . |
+| Day | From the drop-down box, click the
+                                                      						  call destination number, which you defined in Step 10 . |
+| Night | From the drop-down box, click the
+                                                      						  call destination number, which you defined in Step 10 . |
+| Internal | From the drop-down box, click the
+                                                      						  call destination number, which you defined in Step 10 . |
+| Step 13 | Click Apply . |
+| Step 14 | Repeat Step 12 and Step 13 for all remaining
+                                       			 ports on the PIMG units. |
+| Step 15 | Program each phone to forward calls to the
+                                       			 pilot number assigned to the voice messaging ports, based on one of the Unity
+                                       			 Connection call transfer types shown in Table 16-5 . Table 5. Call Transfer Types Transfer Types Usage Release transfer (blind transfer) Program the phone to forward calls
+                                                      						  to the pilot number when: The extension is busy The call is not answered Supervised transfer Program the user station to forward
+                                                      						  calls to the pilot number only when the call is not answered (on the phone
+                                                      						  system, the number of rings before forwarding must be more than the number of
+                                                      						  rings to supervise the call). Confirm that call forwarding is disabled when the
+                                                      						  extension is busy. | Transfer Types | Usage | Release transfer (blind transfer) | Program the phone to forward calls
+                                                      						  to the pilot number when: The extension is busy The call is not answered | Supervised transfer | Program the user station to forward
+                                                      						  calls to the pilot number only when the call is not answered (on the phone
+                                                      						  system, the number of rings before forwarding must be more than the number of
+                                                      						  rings to supervise the call). Confirm that call forwarding is disabled when the
+                                                      						  extension is busy. |
+| Transfer Types | Usage |
+| Release transfer (blind transfer) | Program the phone to forward calls
+                                                      						  to the pilot number when: The extension is busy The call is not answered |
+| Supervised transfer | Program the user station to forward
+                                                      						  calls to the pilot number only when the call is not answered (on the phone
+                                                      						  system, the number of rings before forwarding must be more than the number of
+                                                      						  rings to supervise the call). Confirm that call forwarding is disabled when the
+                                                      						  extension is busy. |
+
+| Field | Setting |
+|---|---|
+| Call No. | Enter the internal call number that
+                                                      						  is associated with each port on the PIMG units. |
+| DID | Enter the DID for ports on the PIMG
+                                                      						  units are dialing out (for example, to set MWIs). |
+| Name | Enter a name that you want for the
+                                                      						  station. For example, enter “PIMG port 1” for the first port. Note that you can
+                                                      						  enter a maximum of 16 characters. |
+| Type | (Display
+                                                         							 only) The phone device that the phone system has configured for the port. |
+| Type | Click PhoneMail for the applicable
+                                                      						  dial plan. |
+
+| Field | Setting |
+|---|---|
+| Index | Click an available index that you
+                                                      						  want to use for the ports on the PIMG units. |
+| Call No. | Enter the pilot number for Unity
+                                                      						  Connection. |
+| DID | Enter the four-digit DID that is
+                                                      						  associated with call number that is associated with the hunt group. |
+| Name | Enter a name for the hunt group. |
+| Type | From the drop-down box, click Linear . You must use a linear hunt group.
+                                                      						  Otherwise, the integration cannot function correctly. |
+
+| Field | Setting |
+|---|---|
+| No. | The call destination number that you
+                                                      						  use for the ports on the PIMG units. |
+| Target 1 | Leave this field blank. |
+| Cycles | Enter 1 (which equals about 5
+                                                      						  seconds). |
+| SR Type | Click Immediate . |
+| RNA | Check this check box. |
+
+| Field | Setting |
+|---|---|
+| Call No. | Click the extension for a port on
+                                                      						  the PIMG units, which you assigned in Step 1 . |
+| Day | From the drop-down box, click the
+                                                      						  call destination number, which you defined in Step 10 . |
+| Night | From the drop-down box, click the
+                                                      						  call destination number, which you defined in Step 10 . |
+| Internal | From the drop-down box, click the
+                                                      						  call destination number, which you defined in Step 10 . |
+
+| Transfer Types | Usage |
+|---|---|
+| Release transfer (blind transfer) | Program the phone to forward calls
+                                                      						  to the pilot number when: The extension is busy The call is not answered |
+| Supervised transfer | Program the user station to forward
+                                                      						  calls to the pilot number only when the call is not answered (on the phone
+                                                      						  system, the number of rings before forwarding must be more than the number of
+                                                      						  rings to supervise the call). Confirm that call forwarding is disabled when the
+                                                      						  extension is busy. |
+
+| Step 1 | On a Windows workstation with a high-speed
+                                          			 Internet connection that have access to the PIMG units, go to the Voice and
+                                          			 Unified Communications Downloads page at http://software.cisco.com/download/navigator.html?mdfid=280082558&i=rm . Note To access the software download page, you
+                                                         				  must be signed in to Cisco.com as a registered user. This procedure describes the steps when using
+                                                         				  Internet Explorer as your web browser. If you are using a different web
+                                                         				  browser, the steps may differ. | Note | To access the software download page, you
+                                                         				  must be signed in to Cisco.com as a registered user. This procedure describes the steps when using
+                                                         				  Internet Explorer as your web browser. If you are using a different web
+                                                         				  browser, the steps may differ. |
+|---|---|---|---|
+| Note | To access the software download page, you
+                                                         				  must be signed in to Cisco.com as a registered user. This procedure describes the steps when using
+                                                         				  Internet Explorer as your web browser. If you are using a different web
+                                                         				  browser, the steps may differ. |
+| Step 2 | In the tree control on the Downloads Home
+                                          			 page, expand Unified Communications> Unified Communications
+                                                				  Applications > Messaging > Cisco Unity and select Cisco Unity Telephony
+                                             				Integration . |
+| Step 3 | On the Log In page, enter your username and
+                                          			 password, then select Log In . |
+| Step 4 | On the Select a Release page, under Latest
+                                          			 Releases, select the most recent release. |
+| Step 5 | In the right column, select the version of
+                                          			 the firmware for analog PIMG units. |
+| Step 6 | On the Download Image page, select Download . |
+| Step 7 | On the Supporting Document(s) page, select Agree . |
+| Step 8 | In the File Download dialog box, select Save . |
+| Step 9 | In the Save As dialog box, browse to the
+                                          			 Windows workstation that have access the PIMG units, browse to a directory
+                                          			 where you want to save the file, and select Save . |
+| Step 10 | In the Download Complete dialog box, select Open . The window for
+                                          			 extracting the PIMG firmware update files appears. |
+| Step 11 | Select Extract . |
+| Step 12 | In the Extract dialog box, browse to the
+                                          			 directory where you want the extracted files, and select Extract . |
+| Step 13 | Close the window for the extracting
+                                          			 application. To Set Up the Analog PIMG Units (Firmware Version 6.x) |
+| Step 14 | On the Windows workstation, add a temporary
+                                          			 route to enable access to the PIMG units. On the Windows Start menu, select Run . Enter cmd , and press Enter . The Command Prompt window
+                                                				  appears. At the command prompt, enter route add 10.12.13.74 <IP Address of
+                                                   					 Workstation> , and press Enter . For example, if the IP address of the
+                                                   					 workstation is 198.1.3.25, enter “route add 10.12.13.74<space>198.1.3.25”
+                                                   					 in the Command Prompt window. Close the Command Prompt window. |
+| Step 15 | Connect a PIMG unit to the network. |
+| Step 16 | In the web browser, go to http://10.12.13.74 . |
+| Step 17 | To sign in, enter the following
+                                          			 case-sensitive settings. Table 6. Sign-in Settings Field Settings Username Enter admin . Password Enter IpodAdmin . | Field | Settings | Username | Enter admin . | Password | Enter IpodAdmin . |
+| Field | Settings |
+| Username | Enter admin . |
+| Password | Enter IpodAdmin . |
+| Step 18 | Select OK . |
+| Step 19 | On the System menu, select Upgrade . |
+| Step 20 | On the Upgrade page, select Browse . |
+| Step 21 | In the Choose File dialog box, browse to the
+                                          			 directory on the Windows workstation that has the extracted PIMG firmware
+                                          			 update files. |
+| Step 22 | Select Ls_<xx > .app (where <xx> is multiple digits), and select Open . |
+| Step 23 | On the Upgrade page, select Install File . |
+| Step 24 | After the file is installed, a message
+                                          			 prompting you to restart the PIMG unit appears. Select Cancel . Do not restart the PIMG unit until you are
+                                             				instructed to do so later in this procedure, even if the file installation
+                                             				fails. Restarting the PIMG unit at this step may prevent the PIMG unit from
+                                             				functioning correctly. |
+| Step 25 | Repeat Step 6 through Step 11 for the following
+                                          			 files: |
+
+| Note | To access the software download page, you
+                                                         				  must be signed in to Cisco.com as a registered user. This procedure describes the steps when using
+                                                         				  Internet Explorer as your web browser. If you are using a different web
+                                                         				  browser, the steps may differ. |
+|---|---|
+
+| Field | Settings |
+|---|---|
+| Username | Enter admin . |
+| Password | Enter IpodAdmin . |
+
+| Field | Settings |
+|---|---|
+| Username | Enter admin . |
+| Password | Enter IpodAdmin . |
+
+| Note | The default RTP port range for PIMG units
+                                                   				  is 49000 to 50000. Some Cisco Unity Connection configurations require a
+                                                   				  different RTP port range. |
+|---|---|
+
+| Field | Setting |
+|---|---|
+| Username | Enter admin . |
+| Password | Enter IpodAdmin . |
+
+| Field | Settings |
+|---|---|
+| Old Password | Enter IpodAdmin . (This setting is case
+                                             					 sensitive.) |
+| New Password | Enter your new password. (This setting
+                                             					 is case sensitive.) |
+| Confirm Password | Enter your new password. (This setting
+                                             					 is case sensitive.) |
+
+| Field | Settings |
+|---|---|
+| E-mail Alarms Enabled | Select No . |
+| SNMP Traps Enabled | Select No . |
+
+| Field | Settings |
+|---|---|
+| Name | Accept the default or enter another
+                                             					 descriptive name of the VoIP host group. |
+| Load-Balanced | (Unity
+                                                						Connection without a cluster) Select False . (Unity
+                                                						Connection with a cluster configured) Select False . |
+| Fault-Tolerant | (Unity
+                                                						Connection without a cluster) Select False . (Unity
+                                                						Connection with a cluster configured) Select True . |
+
+| Field | Settings |
+|---|---|
+| Name | Enter Inbound_PBX_Calls or another
+                                             					 unique name. This TDM trunk group handles all
+                                             					 incoming calls from the phone system. |
+| Selection Direction | Select Ascending . |
+| Selection Mode | Select Linear . |
+| Port/Channel Content | Enter the numbers of the PIMG ports that
+                                             					 handle inbound calls. For example, enter “*” for all PIMG ports, or enter “1-6”
+                                             					 for the first six PIMG ports. |
+
+| Field | Settings |
+|---|---|
+| Name | Enter MWIs or another unique name. This TDM trunk group handles outbound
+                                             					 MWI calls (where applicable). |
+| Selection Direction | Select Ascending . |
+| Selection Mode | Select Cyclic . |
+| Port/Channel Content | Enter the numbers of the PIMG ports that
+                                             					 dial out MWIs. For example, enter “*” for all PIMG ports, or enter “7,8” for
+                                             					 the last two PIMG ports. |
+
+| Field | Settings |
+|---|---|
+| Name | Enter Outbound_PBX_Calls or another
+                                             					 unique name. This TDM trunk group handles all
+                                             					 outbound calls from Unity Connection. |
+| Selection Direction | Select Descending . |
+| Selection Mode | Select Linear . |
+| Port/Channel Content | Enter * for all channels in all ports. Enter the numbers of the PIMG ports that
+                                             					 handle outbound (dialout) calls. For example, enter “*” for all PIMG ports, or
+                                             					 enter “7,8” for the last two PIMG ports. |
+
+| Field | Settings |
+|---|---|
+| Enable | Check this check box. |
+| Rule Label | Enter MWI_Calls or another name. This inbound VoIP rule handles all MWI
+                                             					 calls from Unity Connection. |
+| Request Type | Select Message . |
+| Originating VoIP Host Address | Enter * . |
+
+| Field | Settings |
+|---|---|
+| Calling Number | Enter * . |
+| Calling Name | Enter * . |
+| Called Number | Enter * . |
+| Called Name | Enter * . |
+| Redirect Number | Enter * . |
+| Redirect Name | Enter * . |
+
+| Field | Settings |
+|---|---|
+| Device
+                                                						Selection |
+| Outbound Destination | Select TDM . |
+| Trunk Group | Select the name of the TDM trunk group
+                                             					 that you created for MWIs in Step 41 . For example, select
+                                             					 “MWIs.” |
+| CPID
+                                                						Manipulation |
+| Calling Number | Enter S . |
+| Calling Name | Enter S . |
+| Called Number | Enter D . |
+| Called Name | Enter D . |
+| Redirect Number | Enter R . |
+| Redirect Name | Enter R . |
+| Select
+                                                						Primary/Alternate Route |
+| Primary | Select Primary . |
+
+| Field | Settings |
+|---|---|
+| Enable | Check this check box. |
+| Rule Label | Enter Outbound_UC_Calls or another name. This inbound VoIP rule handles all
+                                             					 outbound calls from Unity Connection. |
+| Request Type | Select Call . |
+| Originating VoIP Host Address | Enter * . |
+
+| Field | Settings |
+|---|---|
+| Calling Number | Enter * . |
+| Calling Name | Enter * . |
+| Called Number | Enter * . |
+| Called Name | Enter * . |
+| Redirect Number | Enter * . |
+| Redirect Name | Enter * . |
+
+| Field | Settings |
+|---|---|
+| Device
+                                                						Selection |
+| Outbound Destination | Select TDM . |
+| Trunk Group | Select the name of the TDM trunk group
+                                             					 that you created for outbound calls in Step 43 . For example, select
+                                             					 “Outbound_PBX_Calls.” |
+| CPID
+                                                						Manipulation |
+| Calling Number | Enter S . |
+| Calling Name | Enter S . |
+| Called Number | Enter D . |
+| Called Name | Enter D . |
+| Redirect Number | Enter R . |
+| Redirect Name | Enter R . |
+| Select
+                                                						Primary/Alternate Route |
+| Primary | Select Primary . |
+
+| Field | Settings |
+|---|---|
+| Enable | Check this check box. |
+| Rule Label | Enter Inbound_Rule_1 or another name. This inbound TDM rule handles all
+                                             					 incoming calls from the phone system. |
+| Request Type | Select Call . |
+| Trunk Group | Select the name of the TDM trunk group
+                                             					 that you created for incoming calls from the phone system in Step 39 . For example, select
+                                             					 “Inbound_PBX_Calls.” |
+
+| Field | Settings |
+|---|---|
+| Calling Number | Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all. |
+| Calling Name | Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all. |
+| Called Number | Enter the applicable matching ruleused.
+                                             					 For example, enter “*” for all. |
+| Called Name | Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all. |
+| Redirect Number | Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all. |
+| Redirect Name | Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all. |
+
+| Field | Settings |
+|---|---|
+| Device
+                                                						Selection |
+| Outbound Destination | Select VoIP . |
+| Host Group | Select the name of the VoIP host group
+                                             					 that you created for Unity Connection in Step 31 . |
+| CPID
+                                                						Manipulation |
+| Calling Number | Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all. |
+| Calling Name | Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all. |
+| Called Number | Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all. |
+| Called Name | Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all. |
+| Redirect Number | Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all. |
+| Redirect Name | Enter the applicable matching rule used.
+                                             					 For example, enter “*” for all. |
+| Select
+                                                						Primary/Alternate Route |
+| Primary | Select Primary . |
+
+| Field | Settings |
+|---|---|
+| PCM Coding | Select uLaw . |
+| Minimum Call Party Delay (ms) | Enter 500 . |
+| Maximum Call Party Delay (ms) | Enter 2000 . |
+| Dial Digit on Time (ms) | Enter 100 . |
+| Dial Inter-Digit Time (ms) | Enter 100 . |
+| Dial Pause Time (ms) | Enter 2000 . |
+| Turn MWI On FAC | Enter the code that turns MWIs on. |
+| Turn MWI Off FAC | Enter the code that turns MWIs off. |
+| Outbound Call Connect Timeout (ms) | Enter 10000 . |
+| Wait for Ringback/Connect on Blind
+                                             					 Transfer | Select Yes . |
+| Hunt Group Extension | Enter the pilot number of the Unity
+                                             					 Connection voice messaging ports. |
+| Disconnect on Fax Cleardown Tone | Select No . |
+
+| Field | Setting |
+|---|---|
+| User-Agent |
+| Host and Domain Name | Enter the host and domain name of the
+                                             					 PIMG unit. |
+| Transport Type | Select UDP . |
+| Call as Domain Name | Select No . |
+| SIPS URI Scheme Enabled |  |
+| Invite Expiration (sec) | Enter 120 . |
+| Server |
+| DNS Server Address | Enter the IP Address of the Domain Name
+                                             					 Server that the PIMG unit uses. |
+| DNS Translation of Phone Numbers |  |
+| Registration Server Address | Leave this field blank. |
+| Registration Server Port | Enter 5060 . |
+| Registration Expiration (sec) | Enter 3600 . |
+| TCP/UDP |
+| UDP/TCP Transports Enabled | Select Yes . |
+| TCP/UDP Server Port | Enter 5060 . |
+| TCP Inactivity Timer (sec) | Enter 30 . |
+| TLS |
+| TLS Transport Enabled |  |
+| TLS Server Port |  |
+| SSL TLS Protocol |  |
+| Mutual TLS Authentication Required |  |
+| TLS Inactivity Timer (sec) |  |
+| Verify TLS Peer Certificate Date |  |
+| Verify TLS Peer Certificate Trust |  |
+| Proxy |
+| Primary Proxy Server Address | Leave this field blank. |
+| Primary Proxy Server Port | Not applicable. Leave the default
+                                             					 setting. |
+| Backup Proxy Server Address | Not applicable. Leave the default
+                                             					 setting. |
+| Backup Proxy Server Port | Not applicable. Leave the default
+                                             					 setting. |
+| Proxy Query Interval | Enter 10 . |
+| Timing |
+| T1 Time (ms) | Enter 400 . |
+| T2 Time (ms) | Enter 3000 . |
+| T4 Time (ms) | Enter 5000 . |
+| Monitoring |
+| Monitor Call Connections | Select No . |
+| Call Monitor Interval (sec) |  |
+| Monitor VoIP Hosts |  |
+| VoIP Host Monitor Interval (sec) |  |
+
+| Field | Settings |
+|---|---|
+| Audio |
+| Audio Compression | Select the preferred codec for audio
+                                             					 compression. |
+| RTP Digit Relay Mode | Select RFC2833 . |
+| RTP Fax/Modem Tone Relay Mode | Select RFC2833 . |
+| RTP Source IP Address Validation | Select Off . |
+| RTP Source UDP Port Validation | Select Off . |
+| Signaling Digit Relay Mode | Select Off . |
+| Voice Activity Detection | Select Off . |
+| RFC 3960 Early Media Support | Select On Demand . |
+| Frame Size | Select the applicable setting: G.711— 20 G.729AB— 10 Failure to use the correct setting
+                                                   						  results in recorded messages containing nothing but silence. |
+| Frames Per Packet | Select the applicable setting: G.711— 1 G.729AB— 2 Failure to use the correct setting
+                                                   						  results in recorded messages containing nothing but silence. |
+| Fax |
+| Fax IP-Transport Mode |  |
+
+| Field | Settings |
+|---|---|
+| Call Control QOS Byte | Enter 104 . |
+| RTP QOS Byte | Enter 184 . |
+
+| Field | Settings |
+|---|---|
+| Client IP Address | Enter the new IP address you want to use
+                                             					 for the PIMG unit. (This is the IP address that you enter
+                                             					 in Cisco Unity Connection Administration when you create the integration.) |
+| Client Subnet Mask | Enter the new subnet mask, if the subnet
+                                             					 mask is different from the default IP address. |
+| Default Network Gateway Address | Enter the IP address of the default
+                                             					 network gateway router that the PIMG units use. |
+| BOOTP Enabled | Select No . |
+
+| Step 1 | In Cisco Unity Connection Administration, expand Telephony Integrations , then select Phone System . |
+|---|---|
+| Step 2 | On the Search Phone Systems page, under Display Name, select the
+                                          			 name of the default phone system. |
+| Step 3 | On the Phone System Basics page, in the Phone System Name field,
+                                          			 enter the descriptive name that you want for the phone system. |
+| Step 4 | If you want to use this phone system as the default for TRaP
+                                          			 connections so that administrators and users without voicemail boxes can record
+                                          			 and playback through the phone in Unity Connection web applications, check the Default TRAP Switch check box. If you want to use
+                                          			 another phone system as the default for TRaP connections, uncheck this check
+                                          			 box. |
+| Step 5 | Under Message Waiting Indicator Settings, select Use Same Port
+                                             				for Enabling and Disabling MWIs . |
+| Step 6 | Select Save . |
+| Step 7 | On the Phone System Basics page, in the Related Links drop-down
+                                          			 box, select Add Port Group and select Go . |
+| Step 8 | On the New Port Group page, enter the applicable settings and
+                                          			 select Save . Table 29. Settings for the New Port Group Page Field Setting Phone System Select the name of the phone system that you entered in Step 3 . Create From Select Port Group Template and
+                                                         						  select SIP to DMG/PIMG/TIMG in the drop-down box. Display Name Enter a descriptive name for the port group. You can accept the
+                                                         						  default name or enter the name that you want. SIP Security Profile Select 5060 . SIP Transport Protocol Select the SIP transport protocol that Unity Connection uses. IP Address or Host Name Enter the IP address of the PIMG unit that you are integrating
+                                                         						  with Unity Connection. Port Enter the SIP port of the PIMG unit that Unity Connection
+                                                         						  connects to. We recommend that you use the default setting. This name must match the setting in the TCP/UDP Server Port
+                                                         						  field on the Configuration > VoIP > General page of the PIMG unit.
+                                                         						  Otherwise, the integration cannot function correctly. | Field | Setting | Phone System | Select the name of the phone system that you entered in Step 3 . | Create From | Select Port Group Template and
+                                                         						  select SIP to DMG/PIMG/TIMG in the drop-down box. | Display Name | Enter a descriptive name for the port group. You can accept the
+                                                         						  default name or enter the name that you want. | SIP Security Profile | Select 5060 . | SIP Transport Protocol | Select the SIP transport protocol that Unity Connection uses. | IP Address or Host Name | Enter the IP address of the PIMG unit that you are integrating
+                                                         						  with Unity Connection. | Port | Enter the SIP port of the PIMG unit that Unity Connection
+                                                         						  connects to. We recommend that you use the default setting. This name must match the setting in the TCP/UDP Server Port
+                                                         						  field on the Configuration > VoIP > General page of the PIMG unit.
+                                                         						  Otherwise, the integration cannot function correctly. |
+| Field | Setting |
+| Phone System | Select the name of the phone system that you entered in Step 3 . |
+| Create From | Select Port Group Template and
+                                                         						  select SIP to DMG/PIMG/TIMG in the drop-down box. |
+| Display Name | Enter a descriptive name for the port group. You can accept the
+                                                         						  default name or enter the name that you want. |
+| SIP Security Profile | Select 5060 . |
+| SIP Transport Protocol | Select the SIP transport protocol that Unity Connection uses. |
+| IP Address or Host Name | Enter the IP address of the PIMG unit that you are integrating
+                                                         						  with Unity Connection. |
+| Port | Enter the SIP port of the PIMG unit that Unity Connection
+                                                         						  connects to. We recommend that you use the default setting. This name must match the setting in the TCP/UDP Server Port
+                                                         						  field on the Configuration > VoIP > General page of the PIMG unit.
+                                                         						  Otherwise, the integration cannot function correctly. |
+| Step 9 | On the Port Group Basics page, under Message Waiting Indicator
+                                          			 Settings, uncheck the Enable Message Waiting Indicators check box and select Save . |
+| Step 10 | In the Related Links drop-down box, select Add Ports and select Go . |
+| Step 11 | On the New Port page, enter the following settings and select Save . Table 30. Settings for the New Port Page Field Considerations Enabled Check this check box. Number of Ports Enter 8 . (If you want to use fewer than eight voice messaging ports,
+                                                         						  enter the number of voice messaging ports that you want to use on this PIMG
+                                                         						  unit.) Note For a Unity Connection
+                                                                     							 cluster, the server must have the number of voice messaging ports that are set
+                                                                     							 up on the phone system for the PIMG integration so that this server can handle
+                                                                     							 all voice messaging traffic for the cluster if one of the servers stops
+                                                                     							 functioning. For example, if the phone system is set up with 16 voice messaging
+                                                                     							 ports, this server must have 16 voice messaging ports. Phone System Select the name of the
+                                                         						  phone system that you entered in Step 3 . Port Group Select the name of the
+                                                         						  port group that you added in Step 8 . | Field | Considerations | Enabled | Check this check box. | Number of Ports | Enter 8 . (If you want to use fewer than eight voice messaging ports,
+                                                         						  enter the number of voice messaging ports that you want to use on this PIMG
+                                                         						  unit.) Note For a Unity Connection
+                                                                     							 cluster, the server must have the number of voice messaging ports that are set
+                                                                     							 up on the phone system for the PIMG integration so that this server can handle
+                                                                     							 all voice messaging traffic for the cluster if one of the servers stops
+                                                                     							 functioning. For example, if the phone system is set up with 16 voice messaging
+                                                                     							 ports, this server must have 16 voice messaging ports. | Note | For a Unity Connection
+                                                                     							 cluster, the server must have the number of voice messaging ports that are set
+                                                                     							 up on the phone system for the PIMG integration so that this server can handle
+                                                                     							 all voice messaging traffic for the cluster if one of the servers stops
+                                                                     							 functioning. For example, if the phone system is set up with 16 voice messaging
+                                                                     							 ports, this server must have 16 voice messaging ports. | Phone System | Select the name of the
+                                                         						  phone system that you entered in Step 3 . | Port Group | Select the name of the
+                                                         						  port group that you added in Step 8 . |
+| Field | Considerations |
+| Enabled | Check this check box. |
+| Number of Ports | Enter 8 . (If you want to use fewer than eight voice messaging ports,
+                                                         						  enter the number of voice messaging ports that you want to use on this PIMG
+                                                         						  unit.) Note For a Unity Connection
+                                                                     							 cluster, the server must have the number of voice messaging ports that are set
+                                                                     							 up on the phone system for the PIMG integration so that this server can handle
+                                                                     							 all voice messaging traffic for the cluster if one of the servers stops
+                                                                     							 functioning. For example, if the phone system is set up with 16 voice messaging
+                                                                     							 ports, this server must have 16 voice messaging ports. | Note | For a Unity Connection
+                                                                     							 cluster, the server must have the number of voice messaging ports that are set
+                                                                     							 up on the phone system for the PIMG integration so that this server can handle
+                                                                     							 all voice messaging traffic for the cluster if one of the servers stops
+                                                                     							 functioning. For example, if the phone system is set up with 16 voice messaging
+                                                                     							 ports, this server must have 16 voice messaging ports. |
+| Note | For a Unity Connection
+                                                                     							 cluster, the server must have the number of voice messaging ports that are set
+                                                                     							 up on the phone system for the PIMG integration so that this server can handle
+                                                                     							 all voice messaging traffic for the cluster if one of the servers stops
+                                                                     							 functioning. For example, if the phone system is set up with 16 voice messaging
+                                                                     							 ports, this server must have 16 voice messaging ports. |
+| Phone System | Select the name of the
+                                                         						  phone system that you entered in Step 3 . |
+| Port Group | Select the name of the
+                                                         						  port group that you added in Step 8 . |
+| Step 12 | On the Search Ports page, select the display name of the first
+                                          			 voice messaging port that you created for this phone system integration. Note By default, the display names for the voice messaging ports are
+                                                         				  composed of the port group display name followed by incrementing numbers. | Note | By default, the display names for the voice messaging ports are
+                                                         				  composed of the port group display name followed by incrementing numbers. |
+| Note | By default, the display names for the voice messaging ports are
+                                                         				  composed of the port group display name followed by incrementing numbers. |
+| Step 13 | On the Port Basics page, set the voice messaging port settings
+                                          			 as applicable. The fields in the following table are the ones that you can
+                                          			 change. Table 31. Settings for the Voice Messaging Ports Field Considerations Enabled Check this check box to
+                                                         						  enable the port. The port is enabled during normal operation. Uncheck this check box to
+                                                         						  disable the port. When the port is disabled, calls to the port get a ringing
+                                                         						  tone but are not answered. Typically, the port is disabled only by the
+                                                         						  installer during testing. Extension Enter the extension for
+                                                         						  the port as assigned on the phone system. Answer Calls Check this check box to
+                                                         						  designate the port for answering calls. These calls can be incoming calls from
+                                                         						  unidentified callers or from users. Perform Message
+                                                         						  Notification Check this check box to
+                                                         						  designate the port for notifying users of messages. Assign Perform Message
+                                                         						  Notification to the least busy ports. Send MWI Requests (Serial integrations only) Uncheck this check box.
+                                                         						  Otherwise, the integration may not function correctly. (Digital and analog integrations only) Check this check
+                                                         						  box to designate the port for turning MWIs on and off. Assign Send MWI Requests
+                                                         						  to the least busy ports Allow TRAP Connections Check this check box so
+                                                         						  that users can use the port for recording and playback through the phone in
+                                                         						  Unity Connection web applications. Assign Allow TRAP Connections to the least
+                                                         						  busy ports. Outgoing Hunt Order Enter the priority order
+                                                         						  in which Unity Connection uses the ports when dialing out (for example, if the
+                                                         						  Perform Message Notification, Send MWI Requests, or Allow TRAP Connections
+                                                         						  check box is checked). The highest numbers are used first. However, when
+                                                         						  multiple ports have the same Outgoing Hunt Order number, Unity Connection uses
+                                                         						  the port that has been idle the longest. | Field | Considerations | Enabled | Check this check box to
+                                                         						  enable the port. The port is enabled during normal operation. Uncheck this check box to
+                                                         						  disable the port. When the port is disabled, calls to the port get a ringing
+                                                         						  tone but are not answered. Typically, the port is disabled only by the
+                                                         						  installer during testing. | Extension | Enter the extension for
+                                                         						  the port as assigned on the phone system. | Answer Calls | Check this check box to
+                                                         						  designate the port for answering calls. These calls can be incoming calls from
+                                                         						  unidentified callers or from users. | Perform Message
+                                                         						  Notification | Check this check box to
+                                                         						  designate the port for notifying users of messages. Assign Perform Message
+                                                         						  Notification to the least busy ports. | Send MWI Requests | (Serial integrations only) Uncheck this check box.
+                                                         						  Otherwise, the integration may not function correctly. (Digital and analog integrations only) Check this check
+                                                         						  box to designate the port for turning MWIs on and off. Assign Send MWI Requests
+                                                         						  to the least busy ports | Allow TRAP Connections | Check this check box so
+                                                         						  that users can use the port for recording and playback through the phone in
+                                                         						  Unity Connection web applications. Assign Allow TRAP Connections to the least
+                                                         						  busy ports. | Outgoing Hunt Order | Enter the priority order
+                                                         						  in which Unity Connection uses the ports when dialing out (for example, if the
+                                                         						  Perform Message Notification, Send MWI Requests, or Allow TRAP Connections
+                                                         						  check box is checked). The highest numbers are used first. However, when
+                                                         						  multiple ports have the same Outgoing Hunt Order number, Unity Connection uses
+                                                         						  the port that has been idle the longest. |
+| Field | Considerations |
+| Enabled | Check this check box to
+                                                         						  enable the port. The port is enabled during normal operation. Uncheck this check box to
+                                                         						  disable the port. When the port is disabled, calls to the port get a ringing
+                                                         						  tone but are not answered. Typically, the port is disabled only by the
+                                                         						  installer during testing. |
+| Extension | Enter the extension for
+                                                         						  the port as assigned on the phone system. |
+| Answer Calls | Check this check box to
+                                                         						  designate the port for answering calls. These calls can be incoming calls from
+                                                         						  unidentified callers or from users. |
+| Perform Message
+                                                         						  Notification | Check this check box to
+                                                         						  designate the port for notifying users of messages. Assign Perform Message
+                                                         						  Notification to the least busy ports. |
+| Send MWI Requests | (Serial integrations only) Uncheck this check box.
+                                                         						  Otherwise, the integration may not function correctly. (Digital and analog integrations only) Check this check
+                                                         						  box to designate the port for turning MWIs on and off. Assign Send MWI Requests
+                                                         						  to the least busy ports |
+| Allow TRAP Connections | Check this check box so
+                                                         						  that users can use the port for recording and playback through the phone in
+                                                         						  Unity Connection web applications. Assign Allow TRAP Connections to the least
+                                                         						  busy ports. |
+| Outgoing Hunt Order | Enter the priority order
+                                                         						  in which Unity Connection uses the ports when dialing out (for example, if the
+                                                         						  Perform Message Notification, Send MWI Requests, or Allow TRAP Connections
+                                                         						  check box is checked). The highest numbers are used first. However, when
+                                                         						  multiple ports have the same Outgoing Hunt Order number, Unity Connection uses
+                                                         						  the port that has been idle the longest. |
+| Step 14 | Select Save . |
+| Step 15 | Select Next . |
+| Step 16 | Repeat Step 13 through Step 15 for all
+                                          			 remaining voice messaging ports for the phone system. |
+| Step 17 | In Cisco Unity Connection Administration, expand Telephony
+                                             				Integrations , then select Phone System . |
+| Step 18 | On the Search Phone Systems page, under Display Name, select the
+                                          			 name of the phone system that you entered in Step 3 . |
+| Step 19 | Repeat Step 7 through Step 18 for each
+                                          			 remaining PIMG unit integrated with Unity Connection. Note Each PIMG unit is connected to one port group with the
+                                                         				  applicable voice messaging ports. For example, a system that uses five PIMG
+                                                         				  units requires five port groups, one port group for each PIMG unit. | Note | Each PIMG unit is connected to one port group with the
+                                                         				  applicable voice messaging ports. For example, a system that uses five PIMG
+                                                         				  units requires five port groups, one port group for each PIMG unit. |
+| Note | Each PIMG unit is connected to one port group with the
+                                                         				  applicable voice messaging ports. For example, a system that uses five PIMG
+                                                         				  units requires five port groups, one port group for each PIMG unit. |
+| Step 20 | To create a port group for MWIs, do the following substeps. Note All MWI requests are handled by the master PIMG unit and sent
+                                                      				to the phone system over the RS-232 serial cable (without using voice messaging
+                                                      				ports). So the following substeps create a separate port group without voice
+                                                      				messaging ports and enable the port group for MWIs that are "not port specific"
+                                                      				(they do not use ports). In Cisco Unity Connection Administration expand Telephony Integration then select Port Group . On the Search Port Groups page, select Add New . On the New Port Group page, enter the applicable settings and
+                                                				  select Save . Table 32. Settings for the New Port Group Page (MWIs) Field Setting Phone System Select the name of the phone system
+                                                            							 that you entered in Step 3. Create From Select Port Group Template and select SIP to DMG/PIMG/TIMG SIP to in the drop-down box. Display Name Enter a MWI Port Group or another descriptive name for the
+                                                            							 port group. SIP Security Profile Select 5060 . SIP Transport Protocol Select the SIP transport protocol that
+                                                            							 Unity Connection uses. IPv4 Address or Host Name Enter the IP address of the master PIMG
+                                                            							 unit. IPv6 Address or Host Name Do not enter a value in this field.
+                                                            							 IPv6 is not supported for PIMG integrations. IP Address or Host Name Enter the IP address of the master PIMG
+                                                            							 unit. Port Enter the SIP port of the master PIMG
+                                                            							 unit. Caution This name must match the setting in
+                                                                        								the TCP/UDP Server Port field on the Configuration > VoIP > General page
+                                                                        								of the PIMG unit. Otherwise, the integration cannot function correctly. On the Port Group Basics page, on the Edit menu, select Advanced Settings . On the Edit Advanced Settings page, under SIP MWI Requests,
+                                                				  select Not Port Specific then select Save . On the Edit menu, select Port Group Basics . Under Port Group, select Reset . Under Message Waiting Indicator Settings, confirm that the Enable Message Waiting Indicator check box is checked and
+                                                				  select Save . | Note | All MWI requests are handled by the master PIMG unit and sent
+                                                      				to the phone system over the RS-232 serial cable (without using voice messaging
+                                                      				ports). So the following substeps create a separate port group without voice
+                                                      				messaging ports and enable the port group for MWIs that are "not port specific"
+                                                      				(they do not use ports). | Field | Setting | Phone System | Select the name of the phone system
+                                                            							 that you entered in Step 3. | Create From | Select Port Group Template and select SIP to DMG/PIMG/TIMG SIP to in the drop-down box. | Display Name | Enter a MWI Port Group or another descriptive name for the
+                                                            							 port group. | SIP Security Profile | Select 5060 . | SIP Transport Protocol | Select the SIP transport protocol that
+                                                            							 Unity Connection uses. | IPv4 Address or Host Name | Enter the IP address of the master PIMG
+                                                            							 unit. | IPv6 Address or Host Name | Do not enter a value in this field.
+                                                            							 IPv6 is not supported for PIMG integrations. | IP Address or Host Name | Enter the IP address of the master PIMG
+                                                            							 unit. | Port | Enter the SIP port of the master PIMG
+                                                            							 unit. Caution This name must match the setting in
+                                                                        								the TCP/UDP Server Port field on the Configuration > VoIP > General page
+                                                                        								of the PIMG unit. Otherwise, the integration cannot function correctly. | Caution | This name must match the setting in
+                                                                        								the TCP/UDP Server Port field on the Configuration > VoIP > General page
+                                                                        								of the PIMG unit. Otherwise, the integration cannot function correctly. |
+| Note | All MWI requests are handled by the master PIMG unit and sent
+                                                      				to the phone system over the RS-232 serial cable (without using voice messaging
+                                                      				ports). So the following substeps create a separate port group without voice
+                                                      				messaging ports and enable the port group for MWIs that are "not port specific"
+                                                      				(they do not use ports). |
+| Field | Setting |
+| Phone System | Select the name of the phone system
+                                                            							 that you entered in Step 3. |
+| Create From | Select Port Group Template and select SIP to DMG/PIMG/TIMG SIP to in the drop-down box. |
+| Display Name | Enter a MWI Port Group or another descriptive name for the
+                                                            							 port group. |
+| SIP Security Profile | Select 5060 . |
+| SIP Transport Protocol | Select the SIP transport protocol that
+                                                            							 Unity Connection uses. |
+| IPv4 Address or Host Name | Enter the IP address of the master PIMG
+                                                            							 unit. |
+| IPv6 Address or Host Name | Do not enter a value in this field.
+                                                            							 IPv6 is not supported for PIMG integrations. |
+| IP Address or Host Name | Enter the IP address of the master PIMG
+                                                            							 unit. |
+| Port | Enter the SIP port of the master PIMG
+                                                            							 unit. Caution This name must match the setting in
+                                                                        								the TCP/UDP Server Port field on the Configuration > VoIP > General page
+                                                                        								of the PIMG unit. Otherwise, the integration cannot function correctly. | Caution | This name must match the setting in
+                                                                        								the TCP/UDP Server Port field on the Configuration > VoIP > General page
+                                                                        								of the PIMG unit. Otherwise, the integration cannot function correctly. |
+| Caution | This name must match the setting in
+                                                                        								the TCP/UDP Server Port field on the Configuration > VoIP > General page
+                                                                        								of the PIMG unit. Otherwise, the integration cannot function correctly. |
+| Step 21 | If another phone system integration exists, in Cisco Unity
+                                          			 Connection Administration, expand Telephony
+                                             				Integrations , then select Trunk .
+                                          			 Otherwise, skip to Step 25 . |
+| Step 22 | On the Search Phone System Trunks page, on the Phone System
+                                          			 Trunk menu, select New Phone System
+                                             				Trunk . |
+| Step 23 | On the New Phone System Trunk page, enter the following settings
+                                          			 for the phone system trunk and select Save . Table 33. Settings for the Phone System Trunk Field Setting From Phone System Enter the display name of
+                                                         						  the phone system that you are creating a trunk for. To Phone System Enter the display name of
+                                                         						  the previously existing phone system that the trunk connects to. Trunk Access Code Enter the extra digits
+                                                         						  that Unity Connection must dial to transfer calls through the gateway to
+                                                         						  extensions on the previously existing phone system. | Field | Setting | From Phone System | Enter the display name of
+                                                         						  the phone system that you are creating a trunk for. | To Phone System | Enter the display name of
+                                                         						  the previously existing phone system that the trunk connects to. | Trunk Access Code | Enter the extra digits
+                                                         						  that Unity Connection must dial to transfer calls through the gateway to
+                                                         						  extensions on the previously existing phone system. |
+| Field | Setting |
+| From Phone System | Enter the display name of
+                                                         						  the phone system that you are creating a trunk for. |
+| To Phone System | Enter the display name of
+                                                         						  the previously existing phone system that the trunk connects to. |
+| Trunk Access Code | Enter the extra digits
+                                                         						  that Unity Connection must dial to transfer calls through the gateway to
+                                                         						  extensions on the previously existing phone system. |
+| Step 24 | Repeat Step 22 and Step 23 for all
+                                          			 remaining phone system trunks that you want to create. |
+| Step 25 | In the Related Links drop-down list, select Check Telephony
+                                             				Configuration and select Go to confirm
+                                          			 the phone system integration settings. If the test is not successful, the Task Execution Results
+                                             				displays one or more messages with troubleshooting steps. After correcting the
+                                             				problems, test the connection again. |
+| Step 26 | In the Task Execution Results window, select Close . |
+
+| Field | Setting |
+|---|---|
+| Phone System | Select the name of the phone system that you entered in Step 3 . |
+| Create From | Select Port Group Template and
+                                                         						  select SIP to DMG/PIMG/TIMG in the drop-down box. |
+| Display Name | Enter a descriptive name for the port group. You can accept the
+                                                         						  default name or enter the name that you want. |
+| SIP Security Profile | Select 5060 . |
+| SIP Transport Protocol | Select the SIP transport protocol that Unity Connection uses. |
+| IP Address or Host Name | Enter the IP address of the PIMG unit that you are integrating
+                                                         						  with Unity Connection. |
+| Port | Enter the SIP port of the PIMG unit that Unity Connection
+                                                         						  connects to. We recommend that you use the default setting. This name must match the setting in the TCP/UDP Server Port
+                                                         						  field on the Configuration > VoIP > General page of the PIMG unit.
+                                                         						  Otherwise, the integration cannot function correctly. |
+
+| Field | Considerations |
+|---|---|
+| Enabled | Check this check box. |
+| Number of Ports | Enter 8 . (If you want to use fewer than eight voice messaging ports,
+                                                         						  enter the number of voice messaging ports that you want to use on this PIMG
+                                                         						  unit.) Note For a Unity Connection
+                                                                     							 cluster, the server must have the number of voice messaging ports that are set
+                                                                     							 up on the phone system for the PIMG integration so that this server can handle
+                                                                     							 all voice messaging traffic for the cluster if one of the servers stops
+                                                                     							 functioning. For example, if the phone system is set up with 16 voice messaging
+                                                                     							 ports, this server must have 16 voice messaging ports. | Note | For a Unity Connection
+                                                                     							 cluster, the server must have the number of voice messaging ports that are set
+                                                                     							 up on the phone system for the PIMG integration so that this server can handle
+                                                                     							 all voice messaging traffic for the cluster if one of the servers stops
+                                                                     							 functioning. For example, if the phone system is set up with 16 voice messaging
+                                                                     							 ports, this server must have 16 voice messaging ports. |
+| Note | For a Unity Connection
+                                                                     							 cluster, the server must have the number of voice messaging ports that are set
+                                                                     							 up on the phone system for the PIMG integration so that this server can handle
+                                                                     							 all voice messaging traffic for the cluster if one of the servers stops
+                                                                     							 functioning. For example, if the phone system is set up with 16 voice messaging
+                                                                     							 ports, this server must have 16 voice messaging ports. |
+| Phone System | Select the name of the
+                                                         						  phone system that you entered in Step 3 . |
+| Port Group | Select the name of the
+                                                         						  port group that you added in Step 8 . |
+
+| Note | For a Unity Connection
+                                                                     							 cluster, the server must have the number of voice messaging ports that are set
+                                                                     							 up on the phone system for the PIMG integration so that this server can handle
+                                                                     							 all voice messaging traffic for the cluster if one of the servers stops
+                                                                     							 functioning. For example, if the phone system is set up with 16 voice messaging
+                                                                     							 ports, this server must have 16 voice messaging ports. |
+|---|---|
+
+| Note | By default, the display names for the voice messaging ports are
+                                                         				  composed of the port group display name followed by incrementing numbers. |
+|---|---|
+
+| Field | Considerations |
+|---|---|
+| Enabled | Check this check box to
+                                                         						  enable the port. The port is enabled during normal operation. Uncheck this check box to
+                                                         						  disable the port. When the port is disabled, calls to the port get a ringing
+                                                         						  tone but are not answered. Typically, the port is disabled only by the
+                                                         						  installer during testing. |
+| Extension | Enter the extension for
+                                                         						  the port as assigned on the phone system. |
+| Answer Calls | Check this check box to
+                                                         						  designate the port for answering calls. These calls can be incoming calls from
+                                                         						  unidentified callers or from users. |
+| Perform Message
+                                                         						  Notification | Check this check box to
+                                                         						  designate the port for notifying users of messages. Assign Perform Message
+                                                         						  Notification to the least busy ports. |
+| Send MWI Requests | (Serial integrations only) Uncheck this check box.
+                                                         						  Otherwise, the integration may not function correctly. (Digital and analog integrations only) Check this check
+                                                         						  box to designate the port for turning MWIs on and off. Assign Send MWI Requests
+                                                         						  to the least busy ports |
+| Allow TRAP Connections | Check this check box so
+                                                         						  that users can use the port for recording and playback through the phone in
+                                                         						  Unity Connection web applications. Assign Allow TRAP Connections to the least
+                                                         						  busy ports. |
+| Outgoing Hunt Order | Enter the priority order
+                                                         						  in which Unity Connection uses the ports when dialing out (for example, if the
+                                                         						  Perform Message Notification, Send MWI Requests, or Allow TRAP Connections
+                                                         						  check box is checked). The highest numbers are used first. However, when
+                                                         						  multiple ports have the same Outgoing Hunt Order number, Unity Connection uses
+                                                         						  the port that has been idle the longest. |
+
+| Note | Each PIMG unit is connected to one port group with the
+                                                         				  applicable voice messaging ports. For example, a system that uses five PIMG
+                                                         				  units requires five port groups, one port group for each PIMG unit. |
+|---|---|
+
+| Note | All MWI requests are handled by the master PIMG unit and sent
+                                                      				to the phone system over the RS-232 serial cable (without using voice messaging
+                                                      				ports). So the following substeps create a separate port group without voice
+                                                      				messaging ports and enable the port group for MWIs that are "not port specific"
+                                                      				(they do not use ports). |
+|---|---|
+
+| Field | Setting |
+|---|---|
+| Phone System | Select the name of the phone system
+                                                            							 that you entered in Step 3. |
+| Create From | Select Port Group Template and select SIP to DMG/PIMG/TIMG SIP to in the drop-down box. |
+| Display Name | Enter a MWI Port Group or another descriptive name for the
+                                                            							 port group. |
+| SIP Security Profile | Select 5060 . |
+| SIP Transport Protocol | Select the SIP transport protocol that
+                                                            							 Unity Connection uses. |
+| IPv4 Address or Host Name | Enter the IP address of the master PIMG
+                                                            							 unit. |
+| IPv6 Address or Host Name | Do not enter a value in this field.
+                                                            							 IPv6 is not supported for PIMG integrations. |
+| IP Address or Host Name | Enter the IP address of the master PIMG
+                                                            							 unit. |
+| Port | Enter the SIP port of the master PIMG
+                                                            							 unit. Caution This name must match the setting in
+                                                                        								the TCP/UDP Server Port field on the Configuration > VoIP > General page
+                                                                        								of the PIMG unit. Otherwise, the integration cannot function correctly. | Caution | This name must match the setting in
+                                                                        								the TCP/UDP Server Port field on the Configuration > VoIP > General page
+                                                                        								of the PIMG unit. Otherwise, the integration cannot function correctly. |
+| Caution | This name must match the setting in
+                                                                        								the TCP/UDP Server Port field on the Configuration > VoIP > General page
+                                                                        								of the PIMG unit. Otherwise, the integration cannot function correctly. |
+
+| Caution | This name must match the setting in
+                                                                        								the TCP/UDP Server Port field on the Configuration > VoIP > General page
+                                                                        								of the PIMG unit. Otherwise, the integration cannot function correctly. |
+|---|---|
+
+| Field | Setting |
+|---|---|
+| From Phone System | Enter the display name of
+                                                         						  the phone system that you are creating a trunk for. |
+| To Phone System | Enter the display name of
+                                                         						  the previously existing phone system that the trunk connects to. |
+| Trunk Access Code | Enter the extra digits
+                                                         						  that Unity Connection must dial to transfer calls through the gateway to
+                                                         						  extensions on the previously existing phone system. |
