@@ -1755,6 +1755,45 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/118675-configure-vcs-00.html": {
+      "content_sha": "cdea0df45f3e3899693dcd4b3885fd1c1d00639c5412404dfc8619c22089af08",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-118675-configure-v-1ca3f13d88",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T22:47:48.346189+00:00",
+      "last_changed": "2026-08-16T22:47:48.346189+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T22:47:48.346189+00:00",
+      "next_check": "2026-08-17T22:47:48.346189+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.html": {
+      "content_sha": "2607956e50ac9c6b07c9af0fc1f0aff5145dc666444f5240022dbaf2e2c5960a",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-214282-troubleshoo-b6d286d690",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T22:47:52.023706+00:00",
+      "last_changed": "2026-08-16T22:47:52.023706+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T22:47:52.023706+00:00",
+      "next_check": "2026-08-17T22:47:52.023706+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates.html": {
+      "content_sha": "771f907610534b005dd3965b96ceb215096fa9b160c020fc52d32cf2d83064c8",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-221624-troubleshoo-e12a18d67a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T22:47:44.333583+00:00",
+      "last_changed": "2026-08-16T22:47:44.333583+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T22:47:44.333583+00:00",
+      "next_check": "2026-08-17T22:47:44.333583+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/116392-technote-product-00.html": {
       "content_sha": "4d5e7b9932dfb2949538cb969e47fd5b3ede5ba5c4098fc84f6219646e7b1acb",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-116392-technote-product-00-html-708e802868",
@@ -59735,6 +59774,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_deploy-jabber-on-premises-128/cjab_b_deploy-jabber-on-premises-128_chapter_01101.html": {
+      "content_sha": "44758b87319a2d8c4320fe81eeb860cd999c50b5c3765176813dbd29e311bd16",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-deploy-jabber-on-premises-128-cjab-b-deploy-jabber-on-pre-9747475e87",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T22:47:26.472206+00:00",
+      "last_changed": "2026-08-16T22:47:26.472206+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T22:47:26.472206+00:00",
+      "next_check": "2026-08-17T22:47:26.472206+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/Windows/12_5/jabw_b_releasenotes_125.html": {
       "content_sha": "36189a15d3ee3f70e0a4c9817d875cfc557fc282d1fb2685ddae5c4c779f53dc",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-windows-12-5-jabw-b-releasenotes-125-html-9acacc3b66",
@@ -60257,5 +60309,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-16T22:45:05.612079+00:00"
+  "updated_at": "2026-08-16T22:47:57.134853+00:00"
 }
