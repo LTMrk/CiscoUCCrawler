@@ -261,6 +261,45 @@ class PoliticaAcceso:
             cabeceras.update(extra)
         return cabeceras
 
+    async def precheck_condicional(self, url, validadores):
+        """HEAD condicional barato ANTES de levantar el navegador.
+
+        Por qué existe: las cabeceras If-None-Match / If-Modified-Since son
+        POR URL, y crawl4ai solo admite cabeceras a nivel de BrowserConfig,
+        que es por sesión. No hay forma de pasar validadores distintos en
+        cada arun().
+
+        La solución resulta mejor que la original: un HEAD cuesta ~100 ms y
+        no transfiere cuerpo, mientras que un render de Playwright cuesta
+        3-5 s. Si el origen responde 304, nos ahorramos el render entero.
+
+        Solo se ejecuta si ya hay validadores guardados, así que en BOOTSTRAP
+        no añade ni una petición. Devuelve (codigo, cabeceras) o None si no
+        procede o si falla, en cuyo caso se sigue con el flujo normal.
+        """
+        if not validadores:
+            return None
+
+        import asyncio
+        import urllib.error
+        import urllib.request
+
+        def _head():
+            req = urllib.request.Request(
+                url, method="HEAD", headers=self.cabeceras(validadores))
+            try:
+                with urllib.request.urlopen(req, timeout=20) as resp:
+                    return resp.status, dict(resp.headers)
+            except urllib.error.HTTPError as e:
+                return e.code, dict(e.headers or {})
+            except Exception:
+                return None
+
+        try:
+            return await asyncio.to_thread(_head)
+        except Exception:
+            return None
+
     def tras_respuesta(self, url, codigo, retry_after=None, intento=0):
         """Clasifica el resultado. Devuelve una de:
         'ok' | 'no_modificado' | 'reintentar' | 'cuarentena' | 'desaparecido' | 'fallo'
@@ -289,3 +328,4 @@ class PoliticaAcceso:
             self.cuarentena.añadir(url, 429, "Rate limit persistente tras backoff")
             return "cuarentena", 0
         return "fallo", 0
+      
