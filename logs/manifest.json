@@ -5356,6 +5356,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_chapter_010.html": {
+      "content_sha": "fd2caef6902b0b43428e999f94d56b116a59f7dfa76fc2dd75a47cc4a416e6c7",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-calendarservice-cmgt-b-deploy-spark--53f6f92dc7",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T22:59:20.521324+00:00",
+      "last_changed": "2026-08-16T22:59:20.521324+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T22:59:20.521324+00:00",
+      "next_check": "2026-08-17T22:59:20.521324+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/messageservice/cmgt_b_spark-hybrid-message-deployment-guide.html": {
       "content_sha": "a7097ec8c63616a553fdef36550b9f2e4dcc179d7f3ca3c6c6134e48076fbd31",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-messageservice-cmgt-b-spark-hybrid-m-7aa7dba3e1",
@@ -50440,6 +50453,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1024/DX00_BK_C12F3FF5_00_cisco-dx-series-ag1024/DX00_BK_C12F3FF5_00_cisco-dx-series-ag1024_appendix_01111.html": {
+      "content_sha": "5397ce9634ec68fa4601d4659b7870cc13459ceab156663cbb74e747860dd697",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1024-dx00-bk-c12f3ff5-00-cisco-dx-series-ag1024-dx00-bk-c12f-092f3e24af",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T22:59:40.929686+00:00",
+      "last_changed": "2026-08-16T22:59:40.929686+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T22:59:40.929686+00:00",
+      "next_check": "2026-08-17T22:59:40.929686+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0-1/exwy_b_cisco-expressway-administrator-guide-x14-0-1/exwy_m_applications.html": {
       "content_sha": "c3bae088921e5eaa5fb5d688d283c7ca220748e8b2a4c472cb7c2975255a0692",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-admin-guide-x14-0-1-exwy-b-cisco-expressway-administrator-guide-x-e1b6e43dc4",
@@ -60335,5 +60361,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-16T22:56:57.112593+00:00"
+  "updated_at": "2026-08-16T22:59:40.994225+00:00"
 }
