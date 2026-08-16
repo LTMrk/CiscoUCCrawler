@@ -1443,6 +1443,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118893-technote-cucm-00.html": {
+      "content_sha": "55d5a1559caee159f882fb871940db67734ab3e634a23c19fbcabdf7eb047438",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-118893-technote-cuc-56bf972be2",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T19:13:00.324460+00:00",
+      "last_changed": "2026-08-16T19:13:00.324460+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T19:13:00.324460+00:00",
+      "next_check": "2026-08-17T19:13:00.324460+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html": {
       "content_sha": "d56532d3b5a0417458dc90a6a5c7747adb4daf1b3ebe46c3422a97c0561f73ba",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-118948-technote-cuc-2be7570bdd",
@@ -1518,6 +1531,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T17:59:57.343950+00:00",
       "next_check": "2026-08-17T17:59:57.343950+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211304-Collaboration-Edge-TC-based-Endpoints-Co.html": {
+      "content_sha": "8401a5fc9131ffbdb02c05c2602836ac915f73947511fe991673f0f0f71f8931",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-211304-collaboratio-fba938b68f",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T19:13:04.106067+00:00",
+      "last_changed": "2026-08-16T19:13:04.106067+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T19:13:04.106067+00:00",
+      "next_check": "2026-08-17T19:13:04.106067+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -25740,6 +25766,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/SU1/cucm_b_release-notes-for-cucm-imp-1251su1/cucm_b_release-notes-for-cucm-imp-1251su1_chapter_01.html": {
+      "content_sha": "b17d853fae6af0673b6a31202c952066f3712ab27d9b803e4cdd72f50c3b9956",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-5-1-su1-cucm-b-release-notes-for-cucm-imp-1251su1-cucm-b-r-4648757c96",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T19:13:12.540259+00:00",
+      "last_changed": "2026-08-16T19:13:12.540259+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T19:13:12.540259+00:00",
+      "next_check": "2026-08-17T19:13:12.540259+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/SU9/cucm_b_release-notes-for-cucm-imp-1251su9.html": {
       "content_sha": "7ddbb23e7f20ff2e8f45d7a421c2788ca5899b1bafca1c9929d47c4d873ca740",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-5-1-su9-cucm-b-release-notes-for-cucm-imp-1251su9-html-e184204c3f",
@@ -25750,6 +25789,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T17:52:30.530249+00:00",
       "next_check": "2026-08-17T17:52:30.530249+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/cucm_b_release-notes-cucm-imp-1251/cucm_b_release-notes-cucm-imp-1251_chapter_010.html": {
+      "content_sha": "935ee27212d3abe5c53828827cfdf3a342d6e4a36d0c755ac6b85769fbaa4945",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-5-1-cucm-b-release-notes-cucm-imp-1251-cucm-b-release-note-8addf87645",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T19:13:08.751942+00:00",
+      "last_changed": "2026-08-16T19:13:08.751942+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T19:13:08.751942+00:00",
+      "next_check": "2026-08-17T19:13:08.751942+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -25893,6 +25945,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T18:58:31.463029+00:00",
       "next_check": "2026-08-17T18:58:31.463029+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1_SU1/cucm_b_security-guide-125SU1/cucm_b_security-guide-for-cisco-unified125SU1_chapter_01.html": {
+      "content_sha": "847522c9fd1e51970f2c10f48bae5089471e0a6abede7e3147fc62764901c36c",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1-su1-cucm-b-security-guide-125su1-cucm-b-security-guide--fed6e8fa03",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T19:13:18.078889+00:00",
+      "last_changed": "2026-08-16T19:13:18.078889+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T19:13:18.078889+00:00",
+      "next_check": "2026-08-17T19:13:18.078889+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -36088,6 +36153,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/Windows/12_5/jabw_b_releasenotes_125.html": {
+      "content_sha": "36189a15d3ee3f70e0a4c9817d875cfc557fc282d1fb2685ddae5c4c779f53dc",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-windows-12-5-jabw-b-releasenotes-125-html-9acacc3b66",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T19:12:56.250159+00:00",
+      "last_changed": "2026-08-16T19:12:56.250159+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T19:12:56.250159+00:00",
+      "next_check": "2026-08-17T19:12:56.250159+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/IPv6/vtgs_b_ipv6-deployment-guide-for-cisco/vtgs_b_ipv6-deployment-guide-for-cisco_chapter_00.html": {
       "content_sha": "331d474ec5f13ae9932fa097ee2bf971ebd11cf118060d62fe2665fb570a8ee1",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-uc-system-ipv6-vtgs-b-ipv6-deployment-guide-for-cisco-vtgs-b-ipv6-deployment-7af4b6fb61",
@@ -36597,5 +36675,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-16T19:10:34.979706+00:00"
+  "updated_at": "2026-08-16T19:13:30.268818+00:00"
 }
