@@ -929,3 +929,20 @@
 [2026-08-16T23:44:04.445641] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU3/systemConfig/cucm_b_system-configuration-guide-1251su3.html
 [2026-08-16T23:44:08.596939] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU2/systemConfig/cucm_b_system-configuration-guide-1251su2.html
 [2026-08-16T23:44:12.651353] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/systemConfig/cucm_b_system-configuration-guide-1251su1.html
+[2026-08-16T23:46:28.887198] HTTP 302 o DOM vacío. | https://cisco.com
+[2026-08-16T23:46:33.208375] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-1100/model.html
+[2026-08-16T23:47:10.392968] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab12/collab12/callpros.html
+[2026-08-16T23:47:10.586279] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286331940/type/283088407/release/15
+[2026-08-16T23:47:10.586382] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286331963/type/283757588/release/15
+[2026-08-16T23:47:14.356036] Omitida: excluida por robots.txt | https://software.cisco.com/download/home
+[2026-08-16T23:47:14.356120] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/280448682
+[2026-08-16T23:47:18.135613] HTTP 301 o DOM vacío. | https://developer.cisco.com/site/tapi/supported-windows-os
+[2026-08-16T23:47:18.438238] Omitida: excluida por robots.txt | https://tools.cisco.com/ServiceRequestTool/create
+[2026-08-16T23:47:30.539670] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/11_5_1/fieldNotice/cucm_b_fn-deprecated-phone-models-1151.html
+[2026-08-16T23:47:34.016185] HTTP 301 o DOM vacío. | https://developer.cisco.com/site/jtapi/documents/cisco-unified-jtapi-supported-jvm-versions
+[2026-08-16T23:47:38.387108] HTTP 301 o DOM vacío. | https://developer.cisco.com/site/tapi/documents/supported-windows-os
+[2026-08-16T23:47:48.294595] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/matrix/CMDP_BK_CCBDA741_00_cucm-device-package-compatibility-matrix.epub
+[2026-08-16T23:47:52.386086] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/matrix/CMDP_BK_CCBDA741_00_cucm-device-package-compatibility-matrix.mobi
+[2026-08-16T23:48:02.843058] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/Devpacks_admin/CMDP_BK_CD82F19C_00_cisco-unified-communications-manager-device.epub
+[2026-08-16T23:48:06.889085] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/Devpacks_admin/CMDP_BK_CD82F19C_00_cisco-unified-communications-manager-device.mobi
+[2026-08-16T23:48:25.336712] HTTP 308 o DOM vacío. | http://bst.cloudapps.cisco.com/bugsearch
