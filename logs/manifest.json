@@ -13,6 +13,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://video.cisco.com/detail/video/6232772471001": {
+      "content_sha": "ea81cb3e374516b391d6097b28eb24c0f8d63a1396a51c2838fd574349d2fb47",
+      "doc_id": "video-cisco-com-detail-video-6232772471001-c75b346fdd",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T19:01:55.586681+00:00",
+      "last_changed": "2026-08-16T19:01:55.586681+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T19:01:55.586681+00:00",
+      "next_check": "2026-08-17T19:01:55.586681+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217062-guidance-for-smooth-upgrade-from-cisco-m.html": {
       "content_sha": "2af6603ed5dea781b0e06fa2149cd0a900fd78995813c9c149133d0ad1b03e98",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-1000-217062-guidance-for-smooth-upgrade-from-cisco-m-html-72c01a1997",
@@ -2155,6 +2168,32 @@
       "last_modified": null,
       "last_seen": "2026-08-16T15:56:28.384354+00:00",
       "next_check": "2026-08-17T15:56:28.384354+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/conferencing/Advisories/SW_Advisory_CSCvn81865.html": {
+      "content_sha": "a0334f588f38f6dd11a50cfe2eda11955164320b5452948738b0f73453b589cc",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-conferencing-advisories-sw-advisory-cscvn81865-html-2ffe829d5b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T19:01:40.668917+00:00",
+      "last_changed": "2026-08-16T19:01:40.668917+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T19:01:40.668917+00:00",
+      "next_check": "2026-08-17T19:01:40.668917+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/conferencing/Advisories/SW_Advisory_CSCvo51143.html": {
+      "content_sha": "bb753f5d8486ae3ea692976214d8059275fcc22f7f58cbe91e5652117e5f4340",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-conferencing-advisories-sw-advisory-cscvo51143-html-8473efec4c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T19:01:36.738018+00:00",
+      "last_changed": "2026-08-16T19:01:36.738018+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T19:01:36.738018+00:00",
+      "next_check": "2026-08-17T19:01:36.738018+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -36532,5 +36571,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-16T18:59:35.391590+00:00"
+  "updated_at": "2026-08-16T19:02:15.874623+00:00"
 }
