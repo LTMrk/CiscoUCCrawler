@@ -1,295 +1,487 @@
-import os
+"""
+crawler_ai.py — Orquestador del pipeline CiscoUCCrawler.
+
+FLUJO
+-----
+  1. Ingesta de la referencia de la API desde los OpenAPI oficiales
+     (openapi_ingest). No pasa por el WAF y da datos estructurados.
+  2. Determinación del modo: BOOTSTRAP si el manifiesto está vacío,
+     INCREMENTAL en adelante.
+  3. Construcción de la frontera: sitemaps declarados en robots.txt en la
+     primera pasada; frontera persistida en las siguientes.
+  4. Por cada URL dentro del presupuesto del lote: política de acceso ->
+     fetch -> sanitización -> comparación de hash -> escritura si hay delta.
+  5. Emisión de deltas.json, persistencia de frontera y more_work.flag,
+     un único commit al final.
+
+CORRECCIONES SOBRE LA VERSIÓN ANTERIOR
+--------------------------------------
+  - git_commit_and_push() se llamaba DENTRO del bucle: un push por página,
+    con rebase contra remoto en cada iteración. Ahora es un commit al final.
+  - Las URLs fallidas se añadían a `visited` pero nunca al estado, así que se
+    reintentaban indefinidamente entre ejecuciones. Ahora hay fail_count con
+    aparcado tras 5 fallos.
+  - La deduplicación por hash global descartaba páginas legítimamente
+    parecidas. Ahora la comparación es por URL.
+  - El markdown se escribía en modo append sobre un fichero consolidado, lo
+    que duplica chunks en cada recrawl. Ahora es un fichero por documento.
+"""
+
 import asyncio
+import json
+import os
 import re
 import subprocess
-import json
-import hashlib
+import sys
 from datetime import datetime
-from urllib.parse import urlparse, urljoin
+from urllib.parse import urljoin, urlparse
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 from crawl4ai import AsyncWebCrawler, CacheMode
+
+from fetch_policy import PoliticaAcceso
+from sanitizer import DetectorBoilerplate, sanitizar
+from state_store import (
+    ManifestStore, cargar_frontera, guardar_frontera,
+)
+import openapi_ingest
+
+
+# ---------------------------------------------------------------------------
+# Configuración
+# ---------------------------------------------------------------------------
 
 def load_config():
     config_path = "config.json"
     default_config = {
         "global_settings": {
             "default_max_depth": 1,
-            "request_delay_seconds": 1,
-            "word_count_threshold": 20,
-            "default_css_selector": "main, article"
+            "requests_per_minute": 20,
+            "respect_robots": True,
+            "bootstrap_budget": 400,
+            "incremental_budget": 120,
+            "boilerplate_threshold": 0.25,
         },
         "domain_depths": {},
         "seeds": [],
+        "sitemaps": [],
         "blocked_patterns": [],
         "custom_behaviors": [],
-        "URLS_ESPECIALES_REGEX": [],
-        "SELECTORES_RUIDO_CSS": []
+        "SELECTORES_RUIDO_CSS": [],
     }
     if os.path.exists(config_path):
         try:
             with open(config_path, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            pass
+                usuario = json.load(f)
+            for clave, valor in usuario.items():
+                if isinstance(valor, dict) and isinstance(default_config.get(clave), dict):
+                    default_config[clave].update(valor)
+                else:
+                    default_config[clave] = valor
+        except Exception as e:
+            log_error("CONFIG", f"config.json ilegible, usando defaults: {e}")
     return default_config
 
+
 CONFIG = load_config()
+GS = CONFIG.get("global_settings", {})
 BLOCKED_PATTERNS = CONFIG.get("blocked_patterns", [])
-URLS_ESPECIALES_REGEX = CONFIG.get("URLS_ESPECIALES_REGEX", [])
 SELECTORES_RUIDO_CSS = CONFIG.get("SELECTORES_RUIDO_CSS", [])
 
-def get_max_depth_for_url(url):
-    netloc = urlparse(url.lower()).netloc
-    for domain, depth in CONFIG.get("domain_depths", {}).items():
-        if domain in netloc:
-            return depth
-    return CONFIG.get("global_settings", {}).get("default_max_depth", 1)
 
-def get_custom_behavior(url):
-    url_lower = url.lower()
-    
-    # INYECCIÓN DINÁMICA DE JAVASCRIPT PARA DESTRUCCIÓN DE NODOS SUPERFLUOS
-    js_purge = ""
-    if SELECTORES_RUIDO_CSS:
-        selectores_str = ",".join(SELECTORES_RUIDO_CSS)
-        js_purge = f"document.querySelectorAll('{selectores_str}').forEach(n => n?.remove());\n"
+def _compilar(patrones, etiqueta):
+    """Compila regex tolerando errores: un patrón malformado se registra y se
+    descarta, en lugar de tumbar toda la ejecución."""
+    compiladas = []
+    for p in patrones:
+        try:
+            compiladas.append(re.compile(p))
+        except re.error as e:
+            log_error("CONFIG", f"Regex inválida en {etiqueta}: {p!r} -> {e}")
+    return compiladas
 
-    for behavior in CONFIG.get("custom_behaviors", []):
-        if behavior.get("pattern", "").lower() in url_lower:
-            original_js = behavior.get("js_code", "await new Promise(r => setTimeout(r, 1000));")
-            return behavior.get("css_selector"), js_purge + original_js
-            
-    default_css = CONFIG.get("global_settings", {}).get("default_css_selector")
-    default_js = js_purge + "await new Promise(r => setTimeout(r, 1000));"
-    return default_css, default_js
 
-def get_group_filename(url):
-    url_lower = url.lower()
-    if "developer.webex.com" in url_lower:
-        return "webex_api_reference_consolidated.md"
-    netloc = urlparse(url).netloc
-    return f"misc_{netloc.replace('.', '_').replace('-', '_')}.md"
+BLOCKED_REGEX = _compilar(CONFIG.get("blocked_regex", []), "blocked_regex")
+DISCOVERY_ONLY_REGEX = _compilar(CONFIG.get("discovery_only_regex", []), "discovery_only_regex")
+PATH_ALLOWLIST = {
+    dominio: _compilar(patrones, f"path_allowlist_regex[{dominio}]")
+    for dominio, patrones in (CONFIG.get("path_allowlist_regex") or {}).items()
+}
+
+
+# ---------------------------------------------------------------------------
+# Filtros de URL (lógica preexistente, conservada)
+# ---------------------------------------------------------------------------
 
 def normalize_url(url):
-    return url.split('#')[0].split('?')[0].rstrip('/')
+    return url.split("#")[0].split("?")[0].rstrip("/")
+
 
 def is_blocked_by_user(url):
-    return any(pattern in url.lower() for pattern in BLOCKED_PATTERNS)
+    url_lower = url.lower()
+    if any(p in url_lower for p in BLOCKED_PATTERNS):
+        return True
+    return any(r.search(url) for r in BLOCKED_REGEX)
+
+
+def esta_en_allowlist(url):
+    """Deny-by-default por dominio. Si el dominio tiene allowlist declarada,
+    la URL debe casar con alguna de sus regex. Un dominio sin allowlist se
+    rige solo por la blocklist.
+
+    Este es el control primario para www.cisco.com: el sitio tiene millones
+    de URLs y una blocklist nunca alcanzaría a cubrir el ruido. Con allowlist
+    se invierte la carga: solo entra lo que se ha declarado valioso."""
+    netloc = urlparse(url).netloc.lower()
+    for dominio, patrones in PATH_ALLOWLIST.items():
+        if dominio in netloc:
+            return any(r.match(url) for r in patrones)
+    return True
+
+
+def es_solo_descubrimiento(url):
+    """Páginas que se rastrean para extraer enlaces pero no se indexan.
+    Un índice de guías es una lista de títulos: como chunk vectorial no
+    responde a nada y además compite en similitud con los documentos reales,
+    desplazándolos en el top-k."""
+    return any(r.match(url) for r in DISCOVERY_ONLY_REGEX)
+
 
 def is_strict_en_us(url):
-    url_lower = url.lower()
-    parsed = urlparse(url_lower)
-    if 'cisco.com' in parsed.netloc and '/c/' in parsed.path and '/c/en/us/' not in parsed.path:
+    parsed = urlparse(url.lower())
+    if "cisco.com" in parsed.netloc and "/c/" in parsed.path and "/c/en/us/" not in parsed.path:
         return False
-    if 'webex.com' in parsed.netloc and bool(re.search(r'/[a-z]{2}-[a-z]{2}/', parsed.path)) and '/en-us/' not in parsed.path:
+    if ("webex.com" in parsed.netloc
+            and bool(re.search(r"/[a-z]{2}-[a-z]{2}/", parsed.path))
+            and "/en-us/" not in parsed.path):
         return False
     return True
 
+
 def is_allowed_domain(url):
-    return any(domain in url for domain in ['cisco.com', 'webex.com', 'webexconnect.io', 'webexengage.io'])
+    return any(d in url for d in
+               ["cisco.com", "webex.com", "webexconnect.io", "webexengage.io"])
 
-def log_error(url, reason):
+
+def url_aceptable(url):
+    return (url.startswith("http")
+            and is_allowed_domain(url)
+            and is_strict_en_us(url)
+            and not is_blocked_by_user(url)
+            and esta_en_allowlist(url))
+
+
+def get_max_depth_for_url(url):
+    netloc = urlparse(url.lower()).netloc
+    for dominio, prof in CONFIG.get("domain_depths", {}).items():
+        if dominio in netloc:
+            return prof
+    return GS.get("default_max_depth", 1)
+
+
+def get_custom_behavior(url):
+    """Devuelve (css_selector, js_code). La purga por JS sigue siendo útil
+    para nodos que solo existen tras la hidratación; la poda dura la hace
+    después sanitizer.py sobre el HTML resultante."""
+    url_lower = url.lower()
+    js_purge = ""
+    if SELECTORES_RUIDO_CSS:
+        selectores = ",".join(SELECTORES_RUIDO_CSS).replace("'", "\\'")
+        js_purge = f"document.querySelectorAll('{selectores}').forEach(n => n?.remove());\n"
+
+    for comportamiento in CONFIG.get("custom_behaviors", []):
+        if comportamiento.get("pattern", "").lower() in url_lower:
+            js = comportamiento.get("js_code", "await new Promise(r => setTimeout(r, 1500));")
+            return comportamiento.get("css_selector"), js_purge + js
+
+    return None, js_purge + "await new Promise(r => setTimeout(r, 1500));"
+
+
+# ---------------------------------------------------------------------------
+# Utilidades
+# ---------------------------------------------------------------------------
+
+def log_error(url, motivo):
     os.makedirs("logs", exist_ok=True)
-    timestamp = datetime.now().isoformat()
     with open("logs/error.log", "a", encoding="utf-8") as f:
-        f.write(f"[{timestamp}] ERROR - {reason} | URL: {url}\n")
+        f.write(f"[{datetime.now().isoformat()}] {motivo} | {url}\n")
 
-def load_state():
-    state_file = "logs/crawl_state.json"
-    if os.path.exists(state_file):
-        with open(state_file, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {}
 
-def save_state(state):
-    os.makedirs("logs", exist_ok=True)
-    with open("logs/crawl_state.json", "w", encoding="utf-8") as f:
-        json.dump(state, f, indent=2)
+def log_info(mensaje):
+    print(f"[crawler] {mensaje}", flush=True)
 
-def get_content_hash(content):
-    return hashlib.sha256(content.encode('utf-8')).hexdigest()
 
-def git_commit_and_push():
+def git_commit_and_push(mensaje):
+    """Un único commit al final de la ejecución."""
     try:
-        os.makedirs("docs", exist_ok=True)
-        os.makedirs("logs", exist_ok=True)
-        subprocess.run(["git", "config", "--global", "user.name", "github-actions[bot]"], check=True)
-        subprocess.run(["git", "config", "--global", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
-        status = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
-        if not status.stdout.strip():
+        subprocess.run(["git", "config", "--global", "user.name",
+                        "github-actions[bot]"], check=True)
+        subprocess.run(["git", "config", "--global", "user.email",
+                        "github-actions[bot]@users.noreply.github.com"], check=True)
+        estado = subprocess.run(["git", "status", "--porcelain"],
+                                capture_output=True, text=True)
+        if not estado.stdout.strip():
+            log_info("Sin cambios que commitear.")
             return
         subprocess.run(["git", "add", "docs/", "logs/", "config.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "docs: correccion de renderizado SPA, extraccion estado hidratado y purga DOM"], check=True)
+        subprocess.run(["git", "commit", "-m", mensaje], check=True)
         subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=False)
         subprocess.run(["git", "push"], check=True)
     except Exception as e:
         log_error("GIT_PUSH", str(e))
 
-def extraer_endpoints_estado_hidratado(html):
-    endpoints_validos = []
-    metodos_http = {"get", "post", "put", "delete", "patch", "options", "head"}
-    
-    match = re.search(r'window\.__INITIAL_STATE__\s*=\s*({.*?});</script>', html, re.DOTALL)
-    if not match:
-        return endpoints_validos
 
-    try:
-        estado = json.loads(match.group(1))
-        entradas = estado.get("apiReference", {}).get("entry", {}).get("entries", [])
+async def descubrir_por_sitemap(politica, semillas):
+    """Descubrimiento vía sitemap declarado en robots.txt. Es la vía que el
+    operador expone deliberadamente: una petición devuelve cientos de URLs en
+    lugar de rastrear el sitio enlace a enlace."""
+    import urllib.request
+    import xml.etree.ElementTree as ET
 
-        for entrada in entradas:
-            for version in entrada.get("versions", []):
-                spec_str = version.get("spec", "{}")
-                spec_json = json.loads(spec_str)
-                metodo = spec_json.get("spec", {}).get("method", "").lower()
-                ruta = spec_json.get("spec", {}).get("path", "")
+    encontradas = set()
+    sitemaps = list(CONFIG.get("sitemaps", []))
+    for semilla in semillas:
+        sitemaps.extend(politica.robots.sitemaps(semilla))
 
-                if metodo in metodos_http:
-                    endpoints_validos.append({
-                        "metodo": metodo.upper(),
-                        "ruta_api": ruta
-                    })
-    except Exception as e:
-        log_error("JSON_PARSE", f"Error parseando estado hidratado: {str(e)}")
-        
-    return endpoints_validos
+    for sm in dict.fromkeys(sitemaps):
+        try:
+            req = urllib.request.Request(sm, headers=politica.cabeceras())
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                raiz = ET.fromstring(resp.read())
+            ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+            for loc in raiz.findall(".//s:loc", ns):
+                u = normalize_url((loc.text or "").strip())
+                if url_aceptable(u):
+                    encontradas.add(u)
+            log_info(f"Sitemap {sm}: {len(encontradas)} URLs acumuladas.")
+        except Exception as e:
+            log_error(sm, f"Sitemap ilegible: {e}")
+
+    return encontradas
+
+
+# ---------------------------------------------------------------------------
+# Bucle principal
+# ---------------------------------------------------------------------------
 
 async def deep_crawl():
-    output_dir = "docs"
-    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs("docs", exist_ok=True)
     os.makedirs("logs", exist_ok=True)
-    
-    MAX_URLS_PER_RUN = 20
-    processed_count = 0
-    
-    state = load_state()
-    seen_hashes = {data.get("hash") for data in state.values() if isinstance(data, dict)}
-    visited = set(state.keys())
-    
-    frontier_file = "logs/frontier.json"
-    queue = asyncio.Queue()
-    
-    if os.path.exists(frontier_file):
-        with open(frontier_file, "r", encoding="utf-8") as f:
-            for item in json.load(f):
-                await queue.put((item["url"], item["depth"]))
+
+    manifiesto = ManifestStore()
+    modo = manifiesto.modo
+    presupuesto = (GS.get("bootstrap_budget", 400) if modo == ManifestStore.MODO_BOOTSTRAP
+                   else GS.get("incremental_budget", 120))
+    log_info(f"Modo: {modo.upper()} | presupuesto de este lote: {presupuesto} URLs")
+
+    # -- Paso 1: referencia de la API desde la fuente oficial ---------------
+    resumen_api = openapi_ingest.ingerir_openapi(token=os.environ.get("GITHUB_TOKEN"))
+    total_ops = sum(v.get("operaciones", 0) for v in resumen_api.values()
+                    if isinstance(v, dict))
+    log_info(f"OpenAPI: {total_ops} operaciones en {len(resumen_api)} specs.")
+
+    politica = PoliticaAcceso(
+        peticiones_por_minuto=GS.get("requests_per_minute", 20),
+        respetar_robots=GS.get("respect_robots", True),
+    )
+
+    detector = DetectorBoilerplate(
+        umbral_frecuencia=GS.get("boilerplate_threshold", 0.25)
+    ).cargar()
+
+    # -- Paso 2: frontera ----------------------------------------------------
+    cola = asyncio.Queue()
+    encolados = set()
+
+    pendientes = cargar_frontera()
+    if pendientes:
+        for u, d in pendientes:
+            await cola.put((u, d))
+            encolados.add(u)
+        log_info(f"Frontera restaurada: {len(pendientes)} URLs pendientes.")
     else:
-        for seed in [normalize_url(u.strip()) for u in CONFIG.get("seeds", []) if u.strip()]:
-            if seed not in visited and is_strict_en_us(seed) and is_allowed_domain(seed) and not is_blocked_by_user(seed):
-                await queue.put((seed, 0))
+        semillas = [normalize_url(s.strip()) for s in CONFIG.get("seeds", []) if s.strip()]
+        candidatas = set(s for s in semillas if url_aceptable(s))
 
-    delay = CONFIG.get("global_settings", {}).get("request_delay_seconds", 1)
+        if modo == ManifestStore.MODO_BOOTSTRAP:
+            candidatas |= await descubrir_por_sitemap(politica, semillas)
+        else:
+            # En incremental se reevalúa lo conocido cuyo TTL haya vencido.
+            candidatas |= {u for u in manifiesto.entradas if manifiesto.debe_visitar(u)}
 
-    async with AsyncWebCrawler(verbose=True) as crawler:
-        while not queue.empty():
-            if processed_count >= MAX_URLS_PER_RUN:
+        for u in sorted(candidatas):
+            await cola.put((u, 0))
+            encolados.add(u)
+        log_info(f"Frontera inicial: {cola.qsize()} URLs.")
+
+    procesadas = 0
+    visitadas_este_lote = set()
+
+    async with AsyncWebCrawler(verbose=False) as crawler:
+        while not cola.empty() and procesadas < presupuesto:
+            if politica.breaker.abierto:
+                log_info("Circuit breaker abierto: demasiados errores. "
+                         "Se detiene el lote y se conserva la frontera.")
                 break
-                
-            url, depth = await queue.get()
-            if url in visited:
+
+            url, profundidad = await cola.get()
+            if url in visitadas_este_lote:
                 continue
-            visited.add(url)
-            processed_count += 1
-            
-            target_css, js_injection = get_custom_behavior(url)
-            
+            visitadas_este_lote.add(url)
+
+            permitido, motivo = politica.puede_solicitar(url)
+            if not permitido:
+                log_error(url, f"Omitida: {motivo}")
+                continue
+
+            if not manifiesto.debe_visitar(url):
+                continue
+
+            await politica.antes_de_solicitar(url)
+            procesadas += 1
+
+            css, js = get_custom_behavior(url)
+            cabeceras = politica.cabeceras(manifiesto.cabeceras_condicionales(url))
+
             try:
-                result = await crawler.arun(
+                kwargs = dict(
                     url=url,
-                    word_count_threshold=5,
+                    cache_mode=CacheMode.BYPASS,
                     exclude_external_links=True,
                     remove_overlay_elements=True,
                     process_iframes=False,
-                    cache_mode=CacheMode.BYPASS,
-                    magic=True,
-                    css_selector=target_css,
-                    js_code=js_injection
+                    js_code=js,
+                    page_timeout=45000,
                 )
-                
-                if not result.success or not result.html:
-                    log_error(url, f"Fallo HTTP o DOM vacio: {getattr(result, 'error_message', 'Desconocido')}")
+                if css:
+                    kwargs["css_selector"] = css
+                try:
+                    resultado = await crawler.arun(headers=cabeceras, **kwargs)
+                except TypeError:
+                    # Versiones antiguas de crawl4ai no aceptan headers en arun.
+                    resultado = await crawler.arun(**kwargs)
+
+                codigo = getattr(resultado, "status_code", None)
+                if codigo is None:
+                    codigo = 200 if getattr(resultado, "success", False) else 599
+
+                accion, espera = politica.tras_respuesta(url, codigo)
+
+                if accion == "no_modificado":
+                    manifiesto.registrar_no_modificado(url)
                     continue
 
-                extracted_markdown = ""
-                raw_markdown = result.markdown
-                
-                with open("logs/debug_html.txt", "w", encoding="utf-8") as debug_file:
-                    debug_file.write(result.html or "HTML VACIO")
-                
-                if raw_markdown:
-                    clean_lines = []
-                    seen_lines = set()
-                    in_code_block = False
-                    
-                    for line in raw_markdown.splitlines():
-                        line_stripped = line.strip()
-                        
-                        if line_stripped.startswith("```"):
-                            in_code_block = not in_code_block
-                            clean_lines.append(line)
-                            continue
-                            
-                        if in_code_block:
-                            clean_lines.append(line)
-                            continue
-                            
-                        if len(line_stripped) > 5 and line_stripped not in seen_lines:
-                            seen_lines.add(line_stripped)
-                            clean_lines.append(line)
-                            
-                    extracted_markdown = "\n".join(clean_lines)
+                if accion == "desaparecido":
+                    manifiesto.registrar_desaparecido(url)
+                    log_info(f"Tombstone emitido para {url}")
+                    continue
 
-                # EXTRACCIÓN CONDICIONAL OPENAPI
-                es_url_especial = any(re.match(patron, url) for patron in URLS_ESPECIALES_REGEX)
-                if es_url_especial and result.html:
-                    endpoints = extraer_endpoints_estado_hidratado(result.html)
-                    if endpoints:
-                        bloque_api = "\n\n### ENDPOINTS API EXTRAÍDOS DESDE EL ESTADO HIDRATADO\n"
-                        for ep in endpoints:
-                            bloque_api += f"- **{ep['metodo']}** `{ep['ruta_api']}`\n"
-                        extracted_markdown += bloque_api
+                if accion == "cuarentena":
+                    manifiesto.registrar_bloqueo(url, codigo)
+                    log_error(url, f"HTTP {codigo}: en cuarentena, sin reintento automático.")
+                    continue
 
-                if extracted_markdown:
-                    content_hash = get_content_hash(extracted_markdown)
-                    if content_hash not in seen_hashes:
-                        filename = os.path.join(output_dir, get_group_filename(url))
-                        mode = "a" if os.path.exists(filename) else "w"
-                        with open(filename, mode, encoding="utf-8") as md_file:
-                            md_file.write(f"\n\n# ORIGEN: {url}\n\n")
-                            md_file.write(extracted_markdown)
-                        
-                        state[url] = {"hash": content_hash, "timestamp": datetime.now().isoformat()}
-                        seen_hashes.add(content_hash)
-                        save_state(state)
-                        git_commit_and_push()
+                if accion == "reintentar":
+                    log_info(f"HTTP {codigo}: reintento tras {espera:.1f}s")
+                    await asyncio.sleep(espera)
+                    await cola.put((url, profundidad))
+                    visitadas_este_lote.discard(url)
+                    continue
+
+                if accion == "fallo" or not getattr(resultado, "html", None):
+                    manifiesto.registrar_fallo(url)
+                    log_error(url, f"HTTP {codigo} o DOM vacío.")
+                    continue
+
+                # -- Sanitización -------------------------------------------
+                solo_descubrimiento = es_solo_descubrimiento(url)
+
+                if solo_descubrimiento:
+                    # Página de navegación: no se sanitiza ni se indexa, pero
+                    # sí se recorren sus enlaces más abajo.
+                    markdown, bloques = "", []
                 else:
-                    log_error(url, "Markdown vacio tras limpieza.")
+                    markdown, bloques = sanitizar(
+                        resultado.html,
+                        selectores_extra=SELECTORES_RUIDO_CSS,
+                        detector=detector if modo == ManifestStore.MODO_INCREMENTAL else None,
+                    )
 
-                if depth < get_max_depth_for_url(url) and hasattr(result, 'links'):
-                    for link_obj in result.links.get("internal", []):
-                        raw_next = link_obj.get("href")
-                        if raw_next:
-                            next_url = normalize_url(urljoin(url, raw_next))
-                            if next_url.startswith("http") and next_url not in visited:
-                                if is_strict_en_us(next_url) and is_allowed_domain(next_url) and not is_blocked_by_user(next_url):
-                                    await queue.put((next_url, depth + 1))
-                                    
-                await asyncio.sleep(delay)
+                    if modo == ManifestStore.MODO_BOOTSTRAP:
+                        # En la captura completa se acumula estadística de
+                        # plantilla; el filtrado real se aplica al consolidar.
+                        detector.observar(bloques)
+
+                    if len(markdown) < 200:
+                        manifiesto.registrar_fallo(url)
+                        log_error(url, f"Markdown insuficiente tras sanitizar ({len(markdown)} chars).")
+                        markdown = ""
+
+                # -- Delta ---------------------------------------------------
+                if markdown:
+                    cambio, doc_id = manifiesto.registrar_contenido(url, markdown)
+                    cabeceras_resp = getattr(resultado, "response_headers", None) or {}
+                    if isinstance(cabeceras_resp, dict):
+                        manifiesto.registrar_cabeceras(
+                            url,
+                            cabeceras_resp.get("etag") or cabeceras_resp.get("ETag"),
+                            cabeceras_resp.get("last-modified") or cabeceras_resp.get("Last-Modified"),
+                        )
+                    if cambio:
+                        manifiesto.escribir_documento(doc_id, url, markdown)
+                        log_info(f"Delta -> {doc_id}")
+
+                # -- Expansión de la frontera --------------------------------
+                if profundidad < get_max_depth_for_url(url):
+                    enlaces = getattr(resultado, "links", {}) or {}
+                    for enlace in enlaces.get("internal", []):
+                        href = enlace.get("href") if isinstance(enlace, dict) else None
+                        if not href:
+                            continue
+                        siguiente = normalize_url(urljoin(url, href))
+                        if (siguiente not in encolados
+                                and siguiente not in visitadas_este_lote
+                                and url_aceptable(siguiente)
+                                and manifiesto.debe_visitar(siguiente)):
+                            await cola.put((siguiente, profundidad + 1))
+                            encolados.add(siguiente)
+
             except Exception as e:
-                log_error(url, str(e))
+                manifiesto.registrar_fallo(url)
+                politica.breaker.registrar(False)
+                log_error(url, f"Excepción: {e}")
 
-    remaining = []
-    while not queue.empty():
-        u, d = queue.get_nowait()
-        remaining.append({"url": u, "depth": d})
-        
-    if remaining:
-        with open(frontier_file, "w", encoding="utf-8") as f:
-            json.dump(remaining, f, indent=2)
-    elif os.path.exists(frontier_file):
-        os.remove(frontier_file)
-        
-    git_commit_and_push()
+    # -- Cierre ---------------------------------------------------------------
+    if modo == ManifestStore.MODO_BOOTSTRAP:
+        fingerprints = detector.consolidar()
+        log_info(f"Boilerplate detectado: {len(fingerprints)} bloques de plantilla "
+                 f"sobre {detector.total_documentos} documentos.")
+    detector.guardar()
+
+    restantes = []
+    while not cola.empty():
+        restantes.append(cola.get_nowait())
+    guardar_frontera(restantes)
+
+    manifiesto.guardar()
+    resumen = manifiesto.guardar_deltas()
+    politica.cuarentena.guardar()
+
+    log_info(f"Resumen: +{len(resumen['added'])} nuevos, "
+             f"~{len(resumen['modified'])} modificados, "
+             f"-{len(resumen['removed'])} retirados, "
+             f"{resumen['unchanged_count']} sin cambios, "
+             f"{len(resumen['blocked'])} bloqueados.")
+    log_info(f"Frontera pendiente: {len(restantes)} URLs.")
+    print(politica.cuarentena.informe(), flush=True)
+
+    git_commit_and_push(
+        f"docs({modo}): +{len(resumen['added'])} ~{len(resumen['modified'])} "
+        f"-{len(resumen['removed'])} | {total_ops} operaciones OpenAPI"
+    )
+
 
 if __name__ == "__main__":
     asyncio.run(deep_crawl())
-                  
+    
