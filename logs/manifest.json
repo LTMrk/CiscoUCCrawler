@@ -78,6 +78,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series/200770-How-to-Collect-a-Collaboration-Endpoint.html": {
+      "content_sha": "75a6027dd433bf53f1d948056c29c1df01f8b8f03900b56c990753098ed44463",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-ip-phone-8800-series-200770-how-to-collect-a-collaboration-en-a6db615845",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T22:56:34.681080+00:00",
+      "last_changed": "2026-08-16T22:56:34.681080+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T22:56:34.681080+00:00",
+      "next_check": "2026-08-17T22:56:34.681080+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi.html": {
       "content_sha": "2981437ed48904d026ae7799bca24d138901a986366bf6b0ca63067113e1d9f6",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-system-ex-series-221630-configure-telepresence-e-b89001e895",
@@ -1713,6 +1726,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T18:54:31.732803+00:00",
       "next_check": "2026-08-17T18:54:31.732803+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/200957-How-to-Collect-Logs-for-UC-Applications.html": {
+      "content_sha": "a58e30d026926e845414b84e37d497d10d3e92215223ad277820dee2d52a4244",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-200957-how-to-collect-logs-for-uc-applications-html-1ea7545cdd",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T22:56:22.717476+00:00",
+      "last_changed": "2026-08-16T22:56:22.717476+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T22:56:22.717476+00:00",
+      "next_check": "2026-08-17T22:56:22.717476+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -60309,5 +60335,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-16T22:54:08.817924+00:00"
+  "updated_at": "2026-08-16T22:56:57.112593+00:00"
 }

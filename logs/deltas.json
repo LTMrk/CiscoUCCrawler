@@ -1,7 +1,10 @@
 {
-  "run_at": "2026-08-16T22:54:08.857594+00:00",
+  "run_at": "2026-08-16T22:56:57.165866+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-ip-phone-8800-series-200770-how-to-collect-a-collaboration-en-a6db615845",
+    "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-200957-how-to-collect-logs-for-uc-applications-html-1ea7545cdd"
+  ],
   "modified": [],
   "removed": [],
   "blocked": [],
