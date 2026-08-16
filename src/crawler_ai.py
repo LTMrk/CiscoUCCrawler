@@ -236,6 +236,7 @@ async def descubrir_por_sitemap(politica, semillas):
     """Descubrimiento vía sitemap declarado en robots.txt. Es la vía que el
     operador expone deliberadamente: una petición devuelve cientos de URLs en
     lugar de rastrear el sitio enlace a enlace."""
+    import urllib.error
     import urllib.request
     import xml.etree.ElementTree as ET
 
@@ -250,11 +251,21 @@ async def descubrir_por_sitemap(politica, semillas):
             with urllib.request.urlopen(req, timeout=60) as resp:
                 raiz = ET.fromstring(resp.read())
             ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+            nuevas = 0
             for loc in raiz.findall(".//s:loc", ns):
                 u = normalize_url((loc.text or "").strip())
                 if url_aceptable(u):
                     encontradas.add(u)
-            log_info(f"Sitemap {sm}: {len(encontradas)} URLs acumuladas.")
+                    nuevas += 1
+            log_info(f"Sitemap OK ({nuevas} URLs utiles): {sm}")
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                # El robots.txt de cisco.com declara sitemaps que ya no
+                # existen. Es ruido del origen, no un fallo nuestro: se
+                # informa pero no ensucia error.log.
+                log_info(f"Sitemap declarado en robots.txt pero inexistente (404): {sm}")
+            else:
+                log_error(sm, f"Sitemap HTTP {e.code}")
         except Exception as e:
             log_error(sm, f"Sitemap ilegible: {e}")
 
@@ -276,7 +287,10 @@ async def deep_crawl():
     log_info(f"Modo: {modo.upper()} | presupuesto de este lote: {presupuesto} URLs")
 
     # -- Paso 1: referencia de la API desde la fuente oficial ---------------
-    resumen_api = openapi_ingest.ingerir_openapi(token=os.environ.get("GITHUB_TOKEN"))
+    resumen_api = openapi_ingest.ingerir_openapi(
+        token=os.environ.get("GITHUB_TOKEN"),
+        specs_permitidos=CONFIG.get("openapi_specs_allowlist"),
+    )
     total_ops = sum(v.get("operaciones", 0) for v in resumen_api.values()
                     if isinstance(v, dict))
     log_info(f"OpenAPI: {total_ops} operaciones en {len(resumen_api)} specs.")
@@ -318,11 +332,20 @@ async def deep_crawl():
     procesadas = 0
     visitadas_este_lote = set()
 
-    # BrowserConfig: ajustes de navegador para toda la sesión. El User-Agent
-    # identificable se declara aquí una sola vez, no por petición.
+    # BrowserConfig: ajustes de navegador para TODA la sesión. Aquí es donde
+    # crawl4ai acepta `headers` — no en CrawlerRunConfig, que es por petición.
+    # Solo caben cabeceras estáticas; los validadores condicionales, que
+    # varían por URL, se resuelven con el HEAD previo (precheck_condicional).
     browser_cfg = BrowserConfig(
         headless=True,
         user_agent=USER_AGENT,
+        headers={
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+        },
+        # No descarga imágenes: es un crawler de documentación, y reduce
+        # el ancho de banda que consumimos del origen.
+        text_mode=True,
         verbose=False,
     )
 
@@ -350,13 +373,21 @@ async def deep_crawl():
             procesadas += 1
 
             css, js = get_custom_behavior(url)
-            cabeceras = politica.cabeceras(manifiesto.cabeceras_condicionales(url))
+            validadores = manifiesto.cabeceras_condicionales(url)
+
+            # HEAD condicional previo: si el origen dice 304, nos ahorramos
+            # levantar el navegador para esta URL.
+            previo = await politica.precheck_condicional(url, validadores)
+            if previo and previo[0] == 304:
+                manifiesto.registrar_no_modificado(url)
+                politica.breaker.registrar(True)
+                continue
 
             try:
                 # CrawlerRunConfig: ajustes por petición. La firma antigua de
                 # arun() con kwargs sueltos (css_selector, page_timeout...)
-                # está deprecada desde la 0.8.x y la documentación de la 0.9.x
-                # indica explícitamente no usarla.
+                # está deprecada desde la 0.8.x. Y `headers` NO va aquí:
+                # pertenece a BrowserConfig.
                 opciones_run = dict(
                     cache_mode=CacheMode.BYPASS,
                     exclude_external_links=True,
@@ -364,7 +395,6 @@ async def deep_crawl():
                     process_iframes=False,
                     js_code=js,
                     page_timeout=45000,
-                    headers=cabeceras,
                     check_robots_txt=GS.get("respect_robots", True),
                     verbose=False,
                 )
@@ -460,40 +490,4 @@ async def deep_crawl():
                             encolados.add(siguiente)
 
             except Exception as e:
-                manifiesto.registrar_fallo(url)
-                politica.breaker.registrar(False)
-                log_error(url, f"Excepción: {e}")
-
-    # -- Cierre ---------------------------------------------------------------
-    if modo == ManifestStore.MODO_BOOTSTRAP:
-        fingerprints = detector.consolidar()
-        log_info(f"Boilerplate detectado: {len(fingerprints)} bloques de plantilla "
-                 f"sobre {detector.total_documentos} documentos.")
-    detector.guardar()
-
-    restantes = []
-    while not cola.empty():
-        restantes.append(cola.get_nowait())
-    guardar_frontera(restantes)
-
-    manifiesto.guardar()
-    resumen = manifiesto.guardar_deltas()
-    politica.cuarentena.guardar()
-
-    log_info(f"Resumen: +{len(resumen['added'])} nuevos, "
-             f"~{len(resumen['modified'])} modificados, "
-             f"-{len(resumen['removed'])} retirados, "
-             f"{resumen['unchanged_count']} sin cambios, "
-             f"{len(resumen['blocked'])} bloqueados.")
-    log_info(f"Frontera pendiente: {len(restantes)} URLs.")
-    print(politica.cuarentena.informe(), flush=True)
-
-    git_commit_and_push(
-        f"docs({modo}): +{len(resumen['added'])} ~{len(resumen['modified'])} "
-        f"-{len(resumen['removed'])} | {total_ops} operaciones OpenAPI"
-    )
-
-
-if __name__ == "__main__":
-    asyncio.run(deep_crawl())
-                  
+ 
