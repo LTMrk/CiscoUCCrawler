@@ -15,3 +15,154 @@
 [2026-08-16T11:33:16.943313] Excepción: CrawlerRunConfig.__init__() got an unexpected keyword argument 'headers' | https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/products-implementation-design-guides-list.html
 [2026-08-16T11:33:21.233091] Excepción: CrawlerRunConfig.__init__() got an unexpected keyword argument 'headers' | https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/products-installation-and-configuration-guides-list.html
 [2026-08-16T11:33:25.577936] Excepción: CrawlerRunConfig.__init__() got an unexpected keyword argument 'headers' | https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/products-installation-and-configuration-guides-list.html
+[2026-08-16T14:07:35.900687] HTTP 302 o DOM vacío. | https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/products-installation-and-configuration-guides-list.html
+[2026-08-16T14:07:40.199150] Omitida: excluida por robots.txt | https://www.webex.com/all-new-webex.html
+[2026-08-16T14:07:40.199292] Omitida: excluida por robots.txt | https://www.webex.com/video-conferencing.html
+[2026-08-16T14:07:40.199340] Omitida: excluida por robots.txt | https://www.webex.com/cloud-calling.html
+[2026-08-16T14:07:40.199381] Omitida: excluida por robots.txt | https://www.webex.com/team-collaboration.html
+[2026-08-16T14:07:40.199419] Omitida: excluida por robots.txt | https://www.webex.com/screen-sharing.html
+[2026-08-16T14:07:40.199454] Omitida: excluida por robots.txt | https://www.webex.com/collaboration-suite.html
+[2026-08-16T14:07:40.199491] Omitida: excluida por robots.txt | https://www.webex.com/audience-engagement.html
+[2026-08-16T14:07:40.199526] Omitida: excluida por robots.txt | https://www.webex.com/webinar.html
+[2026-08-16T14:07:40.199561] Omitida: excluida por robots.txt | https://www.webex.com/contact-center.html
+[2026-08-16T14:07:40.199594] Omitida: excluida por robots.txt | https://www.webex.com/customer-interaction-management.html
+[2026-08-16T14:07:40.199627] Omitida: excluida por robots.txt | https://www.webex.com/security.html
+[2026-08-16T14:07:40.199660] Omitida: excluida por robots.txt | https://www.webex.com/control-hub.html
+[2026-08-16T14:07:42.796760] HTTP 301 o DOM vacío. | https://hardware.webex.com/products/headsets
+[2026-08-16T14:07:46.925875] HTTP 301 o DOM vacío. | https://hardware.webex.com/products/cameras
+[2026-08-16T14:07:51.106709] HTTP 301 o DOM vacío. | https://hardware.webex.com/products/desk-series
+[2026-08-16T14:07:55.227258] HTTP 301 o DOM vacío. | https://hardware.webex.com/products/room-series-and-kits
+[2026-08-16T14:07:59.365226] HTTP 301 o DOM vacío. | https://hardware.webex.com/products/board-series
+[2026-08-16T14:08:03.406601] HTTP 301 o DOM vacío. | https://hardware.webex.com/products/phones
+[2026-08-16T14:08:07.765951] HTTP 301 o DOM vacío. | https://hardware.webex.com/products/accessories
+[2026-08-16T14:08:07.766031] Omitida: excluida por robots.txt | https://www.webex.com/industries/education.html
+[2026-08-16T14:08:07.766085] Omitida: excluida por robots.txt | https://www.webex.com/industries/healthcare.html
+[2026-08-16T14:08:07.766134] Omitida: excluida por robots.txt | https://www.webex.com/industries/government.html
+[2026-08-16T14:08:07.766181] Omitida: excluida por robots.txt | https://www.webex.com/industries/financial-services.html
+[2026-08-16T14:08:07.766259] Omitida: excluida por robots.txt | https://www.webex.com/industries/sports-entertainment.html
+[2026-08-16T14:08:07.766313] Omitida: excluida por robots.txt | https://www.webex.com/industries/frontline.html
+[2026-08-16T14:08:07.766359] Omitida: excluida por robots.txt | https://www.webex.com/industries/nonprofits.html
+[2026-08-16T14:08:07.766407] Omitida: excluida por robots.txt | https://www.webex.com/industries/start-ups.html
+[2026-08-16T14:08:07.766452] Omitida: excluida por robots.txt | https://www.webex.com/hybrid-work.html
+[2026-08-16T14:08:07.766492] Omitida: excluida por robots.txt | https://www.webex.com/downloads.html
+[2026-08-16T14:08:07.766536] Omitida: excluida por robots.txt | https://www.webex.com/test-meeting.html
+[2026-08-16T14:08:07.766580] Omitida: excluida por robots.txt | https://www.webex.com/products/integrations/index.html
+[2026-08-16T14:08:07.766623] Omitida: excluida por robots.txt | https://www.webex.com/accessibility.html
+[2026-08-16T14:08:07.766664] Omitida: excluida por robots.txt | https://www.webex.com/inclusive-collaboration.html
+[2026-08-16T14:08:07.766707] Omitida: excluida por robots.txt | https://www.webex.com/learn/webinars-demos.html
+[2026-08-16T14:08:07.961673] Omitida: excluida por robots.txt | https://developer.webex.com
+[2026-08-16T14:08:07.961779] Omitida: excluida por robots.txt | https://www.webex.com/resources/whats-new.html
+[2026-08-16T14:08:07.961825] Omitida: excluida por robots.txt | https://www.webex.com/us/en/dg/contact-sales.html
+[2026-08-16T14:08:08.074113] Omitida: excluida por robots.txt | https://blog.webex.com
+[2026-08-16T14:08:08.199220] Omitida: excluida por robots.txt | https://webexahead.webex.com
+[2026-08-16T14:08:08.199335] Omitida: excluida por robots.txt | https://www.webex.com/company/careers.html
+[2026-08-16T14:08:08.419635] Omitida: excluida por robots.txt | https://meeting-infohub.cisco.com/faq/category/55/lync_skype-for-business_office-365-integration.html
+[2026-08-16T14:08:08.419749] Omitida: excluida por robots.txt | https://meeting-infohub.cisco.com/faq/category/25/cisco-meeting-server.html
+[2026-08-16T14:08:32.822137] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release.html
+[2026-08-16T14:08:41.322438] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization.html
+[2026-08-16T14:08:49.823912] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0.html
+[2026-08-16T14:08:54.100752] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0.html
+[2026-08-16T14:08:58.899274] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262.html
+[2026-08-16T14:09:02.720301] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2.html
+[2026-08-16T14:09:07.588821] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262.html
+[2026-08-16T14:09:11.015082] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62.html
+[2026-08-16T14:09:14.962941] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1.html
+[2026-08-16T14:09:19.425322] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_port_utilization_12_6_1.html
+[2026-08-16T14:09:23.657538] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1.html
+[2026-08-16T14:09:28.054019] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6.html
+[2026-08-16T14:09:32.102711] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide.html
+[2026-08-16T14:09:36.464292] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5.html
+[2026-08-16T14:09:40.715169] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce.html
+[2026-08-16T14:09:45.031809] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_port-utilization_12_5.html
+[2026-08-16T14:10:23.515435] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2.html
+[2026-08-16T14:10:27.655810] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/bre_20/wcc_b_cisco-webex-contact-center-business.html
+[2026-08-16T14:10:30.990435] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/campaign_reports_20/m_CM20_ReportsBookMIF.html
+[2026-08-16T14:10:35.181771] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/campaign_user_20/webexcc_b_20-campaign-manager-user-guide.html
+[2026-08-16T14:10:38.686537] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/developer_20/webexcc_b_20-desktop-developer-guide-.html
+[2026-08-16T14:10:48.712765] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X15-5/cert-creation-use/exwy_b_cisco-expressway-certificate-creation-and-use-deployment-guide-x155.html
+[2026-08-16T14:10:52.387882] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X15-4/cert-creation-use/exwy_b_cisco-expressway-certificate-creation-and-use-deployment-guide-x154.html
+[2026-08-16T14:11:05.256952] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X15-0/cert-creation-use/exwy_b_cisco-expressway-certificate-creation-and-use-deployment-guide-x150.html
+[2026-08-16T14:11:13.558819] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X15-0/ip-port/exwy_b_cisco-expressway-ip-port-usage-configuration-guide-x15.html
+[2026-08-16T14:11:22.056308] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X14-3/cert_creation_use/exwy_b_cisco-expressway-certificate-creation-and-use-deployment-guide-x14-3.html
+[2026-08-16T14:11:47.141971] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X14-0-2/cert_creation_use/exwy_b_certificate-creation-and-use-deployment-guide-x1402.html
+[2026-08-16T14:11:56.196598] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X14-0-1/cert_creation_use/exwy_b_certificate-creation-and-use-deployment-guide-x1401.html
+[2026-08-16T14:12:03.554673] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X14-0/cert_creation_use/exwy_b_cisco-expressway-certificate-creation-and-use-deployment-guide-x14-0.html
+[2026-08-16T14:12:11.995151] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X14-0/basic_config/exwy_b_cisco-expressway-e-and-expressway-c-basic-configuration-deployment-guide-x14-0.html
+[2026-08-16T14:12:16.201929] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X14-0/ip_port_usage/exwy_b_ip-port-usage-configuration-guide-14.html
+[2026-08-16T14:12:28.376523] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X12-6/exwy_b_cluster-creation-maintenance-deployment-guide.html
+[2026-08-16T14:12:33.408630] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X12-6/exwy_b_certificate-creation-use-deployment-guide.html
+[2026-08-16T14:12:41.179895] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X12-6/exwy_b_mra-expressway-deployment-guide.html
+[2026-08-16T14:12:45.377634] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X12-5/exwy_b_mra-expressway-deployment-guide.html
+[2026-08-16T14:12:49.348729] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X12-5/exwy_b_certificate-creation-use-deployment-guide.html
+[2026-08-16T14:13:01.913839] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html
+[2026-08-16T14:13:11.101313] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/CUCIS_API/CUCIS_API_Guide.html
+[2026-08-16T14:13:19.350079] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/15_0/cup0_b_config-and-admin-guide-15.html
+[2026-08-16T14:13:23.462535] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/cucm_b_feature-configuration-guide-for-15.html
+[2026-08-16T14:13:27.977489] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide.html
+[2026-08-16T14:13:32.382148] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/systemConfig/cucm_b_system-configuration-guide-15.html
+[2026-08-16T14:13:36.993284] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/database_setup/15/cup0_b_database-setup-guide-15.html
+[2026-08-16T14:13:40.507817] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/interdomain_federation/15/cup0_b_interdomain-federation-guide-15.html
+[2026-08-16T14:13:45.019589] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/exchange_integration/15/cup0_b_ms-outlook-calendar-integration-15.html
+[2026-08-16T14:13:49.259021] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/im_compliance/12_5_1/cup0_b_im-compliance-guide.html
+[2026-08-16T14:13:53.644448] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/intradomain_federation/12_5_1/cup0_b_partitioned-intradomain-federation-1251.html
+[2026-08-16T14:13:57.815621] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/14_su2/cup0_b_config-and-admin-guide-14su2.html
+[2026-08-16T14:14:01.488039] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/database_setup/14/cup0_b_database-setup-guide-1401.html
+[2026-08-16T14:14:05.864870] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/14SU2/cucm_b_feature-configuration-guide-for-cisco14su2.html
+[2026-08-16T14:14:10.366329] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/interdomain_federation/14/cup0_b_interdomain-federation-guide-14.html
+[2026-08-16T14:14:14.564063] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/exchange_integration/14_0_1/cup0_b_ms-outlook-calendar-integration-1401.html
+[2026-08-16T14:14:18.362322] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/14/systemConfig/cucm_b_system-configuration-guide-14su2.html
+[2026-08-16T14:14:23.946069] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/lync_integration/14/cup0_b_rcc-lync-server-integration-14.html
+[2026-08-16T14:14:28.185019] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU6/cucm_b_feature-configuration-guide-for-cisco12su6.html
+[2026-08-16T14:14:33.161616] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1/cup0_b_config-and-admin-guide-1251.html
+[2026-08-16T14:14:38.118204] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su4/cup0_b_config-and-admin-guide-1251su4.html
+[2026-08-16T14:14:42.124104] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su3/cup0_b_config-and-admin-guide-1251su3.html
+[2026-08-16T14:15:02.773376] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/featureConfig/cucm_b_feature-configuration-guide-1251.html
+[2026-08-16T14:15:08.062170] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU4/cucm_b_feature-configuration-guide-cisco1251su4.html
+[2026-08-16T14:15:13.547470] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU3/cucm_b_feature-configuration-guide-for-cisco1251su3.html
+[2026-08-16T14:15:18.215403] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU2/cucm_b_feature-configuration-guide-for-cisco1251SU2.html
+[2026-08-16T14:15:23.338546] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/cucm_b_feature-configuration-guide-for-cisco1251SU1.html
+[2026-08-16T14:15:26.992705] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/interdomain_federation/12_5_1/cup0_b_interdomain-federation-1251.html
+[2026-08-16T14:15:31.475385] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/interdomain_federation/12_5_1/cup0_b_interdomain-federation-1251su3.html
+[2026-08-16T14:15:44.443206] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/exchange_integration/12_5_1/cup0_b_ms-outlook-calendar-integration-1251su2.html
+[2026-08-16T14:15:48.465254] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/lync_integration/12_5_1/cup0_b_rcc-lync-server-integration-1251.html
+[2026-08-16T14:15:52.453147] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/systemConfig/cucm_b_system-configuration-guide-1251.html
+[2026-08-16T14:15:56.764576] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU4/systemConfig/cucm_b_system-configuration-guide-1251su4.html
+[2026-08-16T14:16:00.898420] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU3/systemConfig/cucm_b_system-configuration-guide-1251su3.html
+[2026-08-16T14:16:05.292421] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU2/systemConfig/cucm_b_system-configuration-guide-1251su2.html
+[2026-08-16T14:16:09.482991] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/systemConfig/cucm_b_system-configuration-guide-1251su1.html
+[2026-08-16T14:16:44.028955] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/all_models/xsi/9-1-1/CUIP_BK_P82B3B16_00_phones-services-application-development-notes.html
+[2026-08-16T14:16:48.305527] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/jtapi_dev/15/cucm_b_cisco-unified-jtapi-developers-guide-15.html
+[2026-08-16T14:16:52.550639] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/tapi_dev/15/cucm_b_tapi-dev-guide-15.html
+[2026-08-16T14:17:00.541453] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/jtapi_dev/14_0_1/cucm_b_cisco-unified-jtapi-developers-guide-14.html
+[2026-08-16T14:17:04.860033] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/tapi_dev/14/cucm_b_tapi-dev-guide-14.html
+[2026-08-16T14:17:09.336217] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/jtapi_dev/12_5_1/cucm_b_cisco-unified-jtapi-developers-guide-1251.html
+[2026-08-16T14:17:13.752643] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/tapi_dev/12_5_1/cucm_b_tapi-dev-guide-1251.html
+[2026-08-16T14:17:17.907976] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/cucm_b_troubleshooting-guide-1251.html
+[2026-08-16T14:17:30.876279] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/IPv6/vtgs_b_ipv6-deployment-guide-for-cisco.html
+[2026-08-16T14:18:08.885091] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/integration/cucm_sccp/b_15cucintcucmskinny.html
+[2026-08-16T14:18:13.983543] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/integration/pimg/b_15cucintpimg.html
+[2026-08-16T14:18:17.218273] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/guide/b_15cucsecx.html
+[2026-08-16T14:18:34.475207] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/srsv/guide/b_14cucsrsvx.html
+[2026-08-16T14:18:42.866776] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/integration/cucm_sccp/b_14cucintcucmskinny.html
+[2026-08-16T14:18:47.213239] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/integration/pimg/b_14cucintpimg.html
+[2026-08-16T14:18:51.742140] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/security/guide/b_14cucsecx.html
+[2026-08-16T14:19:13.725056] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/integration/guide/cucm_sccp/b_12xcucintcucmskinny.html
+[2026-08-16T14:19:26.163849] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/integration/guide/pimg/b_12xcucintpimg.html
+[2026-08-16T14:19:38.555251] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/integration/guide/timg/b_12xcucinttimg.html
+[2026-08-16T14:19:47.389347] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/srsv/guide/b_15cucsrsvx.html
+[2026-08-16T14:19:51.592582] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/integration/timg/b_15cucinttimg.html
+[2026-08-16T14:20:09.646699] HTTP 302 o DOM vacío. | https://pricing.webex.com/us/en/cart
+[2026-08-16T14:20:13.101949] Markdown insuficiente tras sanitizar (0 chars). | https://signup.webex.com
+[2026-08-16T14:20:13.102053] Omitida: excluida por robots.txt | https://www.webex.com/what-is-voip.html
+[2026-08-16T14:20:13.102109] Omitida: excluida por robots.txt | https://www.webex.com/customers/mclaren.html
+[2026-08-16T14:20:17.270963] HTTP 302 o DOM vacío. | https://mycase.cloudapps.cisco.com/case
+[2026-08-16T14:22:27.495228] Omitida: excluida por robots.txt | https://community.cisco.com/t5/collaboration-knowledge-base/looking-for-info-on-cisco-collab-solutions/ta-p/3649062
+[2026-08-16T14:22:31.820798] HTTP 301 o DOM vacío. | https://developer.cisco.com/cisco-meeting-server
+[2026-08-16T14:32:17.486427] HTTP 599 o DOM vacío. | https://learninglabs.cisco.com:8867/modules/cisco-meeting-server
+[2026-08-16T14:32:17.802056] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214618-generate-csr-and-apply-certificates-to-c.epub
+[2026-08-16T14:32:21.926273] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214618-generate-csr-and-apply-certificates-to-c.mobi
+[2026-08-16T14:32:37.545349] HTTP 302 o DOM vacío. | https://mycase.cloudapps.cisco.com/start
+[2026-08-16T14:32:37.915492] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/225405-configure-recorder-on-cms-server.epub
+[2026-08-16T14:32:42.011851] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/225405-configure-recorder-on-cms-server.mobi
+[2026-08-16T14:32:50.667840] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214691-configure-nfs-share-to-use-as-storage-fo.epub
+[2026-08-16T14:32:54.892404] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214691-configure-nfs-share-to-use-as-storage-fo.mobi
