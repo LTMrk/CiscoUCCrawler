@@ -38,16 +38,26 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
+          # Sin esto, la accion busca **/requirements.txt o **/pyproject.toml
+          # y aborta si no encuentra ninguno — que es exactamente el fallo
+          # "No file ... matched to [**/requirements.txt or **/pyproject.toml]".
+          cache-dependency-path: requirements.txt
 
       - name: Cachear navegadores de Playwright
         uses: actions/cache@v4
         with:
           path: ~/.cache/ms-playwright
-          key: playwright-${{ runner.os }}-chromium
+          # La clave incluye el hash de requirements.txt: al subir la version
+          # de crawl4ai (y con ella la de playwright), la cache se invalida
+          # sola en lugar de servir un chromium incompatible.
+          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            playwright-${{ runner.os }}-
 
       - name: Instalar dependencias
         run: |
-          pip install crawl4ai beautifulsoup4 lxml pyyaml
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
           playwright install --with-deps chromium
 
       - name: Ejecutar pipeline
@@ -97,4 +107,3 @@ jobs:
           else
             echo "Frontera vacía. ETL completo."
           fi
-          
