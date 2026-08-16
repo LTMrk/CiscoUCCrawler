@@ -38,9 +38,9 @@ from urllib.parse import urljoin, urlparse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from crawl4ai import AsyncWebCrawler, CacheMode
+from crawl4ai import AsyncWebCrawler, BrowserConfig, CacheMode, CrawlerRunConfig
 
-from fetch_policy import PoliticaAcceso
+from fetch_policy import USER_AGENT, PoliticaAcceso
 from sanitizer import DetectorBoilerplate, sanitizar
 from state_store import (
     ManifestStore, cargar_frontera, guardar_frontera,
@@ -318,7 +318,15 @@ async def deep_crawl():
     procesadas = 0
     visitadas_este_lote = set()
 
-    async with AsyncWebCrawler(verbose=False) as crawler:
+    # BrowserConfig: ajustes de navegador para toda la sesión. El User-Agent
+    # identificable se declara aquí una sola vez, no por petición.
+    browser_cfg = BrowserConfig(
+        headless=True,
+        user_agent=USER_AGENT,
+        verbose=False,
+    )
+
+    async with AsyncWebCrawler(config=browser_cfg) as crawler:
         while not cola.empty() and procesadas < presupuesto:
             if politica.breaker.abierto:
                 log_info("Circuit breaker abierto: demasiados errores. "
@@ -345,22 +353,26 @@ async def deep_crawl():
             cabeceras = politica.cabeceras(manifiesto.cabeceras_condicionales(url))
 
             try:
-                kwargs = dict(
-                    url=url,
+                # CrawlerRunConfig: ajustes por petición. La firma antigua de
+                # arun() con kwargs sueltos (css_selector, page_timeout...)
+                # está deprecada desde la 0.8.x y la documentación de la 0.9.x
+                # indica explícitamente no usarla.
+                opciones_run = dict(
                     cache_mode=CacheMode.BYPASS,
                     exclude_external_links=True,
                     remove_overlay_elements=True,
                     process_iframes=False,
                     js_code=js,
                     page_timeout=45000,
+                    headers=cabeceras,
+                    check_robots_txt=GS.get("respect_robots", True),
+                    verbose=False,
                 )
                 if css:
-                    kwargs["css_selector"] = css
-                try:
-                    resultado = await crawler.arun(headers=cabeceras, **kwargs)
-                except TypeError:
-                    # Versiones antiguas de crawl4ai no aceptan headers en arun.
-                    resultado = await crawler.arun(**kwargs)
+                    opciones_run["css_selector"] = css
+
+                run_cfg = CrawlerRunConfig(**opciones_run)
+                resultado = await crawler.arun(url=url, config=run_cfg)
 
                 codigo = getattr(resultado, "status_code", None)
                 if codigo is None:
@@ -484,4 +496,4 @@ async def deep_crawl():
 
 if __name__ == "__main__":
     asyncio.run(deep_crawl())
-    
+                  
