@@ -1,8 +1,6 @@
 {
   "_analisis": "CiscoUCCrawler v3. Cambio de modelo de control: en www.cisco.com la blocklist NO es viable como control primario (millones de URLs, ratio ruido/senal enorme). Se pasa a DENY-BY-DEFAULT con allowlist de rutas por dominio. La blocklist queda como segundo filtro para el ruido que se cuela dentro de las rutas permitidas.",
-
   "_hallazgo_critico_profundidad": "Las semillas anteriores apuntaban a paginas series.html. La cadena real hasta el contenido es: series.html -> products-*-list.html -> /td/docs/<libro>.html -> capitulos. Son 3+ saltos. Con default_max_depth 1-2 el crawler recogia SOLO navegacion y no alcanzaba ni una sola guia de configuracion. Las semillas ahora entran directamente en products-*-list.html y la profundidad de www.cisco.com sube a 3.",
-
   "global_settings": {
     "default_max_depth": 2,
     "requests_per_minute": 15,
@@ -11,14 +9,11 @@
     "incremental_budget": 120,
     "boilerplate_threshold": 0.25
   },
-
   "domain_depths": {
     "www.cisco.com": 3,
     "community.cisco.com": 1,
-    "help.webex.com": 2,
-    "help.webexconnect.io": 2
+    "help.webex.com": 2
   },
-
   "_doc_path_allowlist_regex": "Deny-by-default. Si un dominio aparece aqui, la URL DEBE casar con alguna de sus regex para ser rastreada. Un dominio ausente de este mapa se rige solo por la blocklist.",
   "path_allowlist_regex": {
     "www.cisco.com": [
@@ -38,20 +33,14 @@
     "help.webex.com": [
       "^https://help\\.webex\\.com/(en-us/)?article/",
       "^https://help\\.webex\\.com/en-us/all-products"
-    ],
-    "help.webexconnect.io": [
-      "^https://help\\.webexconnect\\.io/docs/"
     ]
   },
-
   "_doc_discovery_only_regex": "Paginas que SI se rastrean para extraer enlaces pero NO se indexan como documentos. Son indices de navegacion: su texto es una lista de titulos, que como chunk vectorial es puro ruido y ademas compite en similitud con los documentos reales.",
   "discovery_only_regex": [
     "^https://www\\.cisco\\.com/c/en/us/support/[^/]+/[^/]+/(series|model|tsd-products-support-series-home)\\.html$",
     "^https://www\\.cisco\\.com/c/en/us/support/[^/]+/[^/]+/products-[a-z-]+-(list|listing)\\.html$",
-    "^https://help\\.webex\\.com/en-us/all-products",
-    "^https://help\\.webexconnect\\.io/docs/welcome$"
+    "^https://help\\.webex\\.com/en-us/all-products"
   ],
-
   "_doc_blocked_regex": "Segundo filtro: ruido que vive DENTRO de rutas permitidas o en dominios sin allowlist.",
   "blocked_regex": [
     "/c/en/us/solutions/(?!collateral/.*(srnd|preferred-architecture|design-guide))",
@@ -71,7 +60,6 @@
     "[?&](print|pdf|download)=",
     "/print/?$"
   ],
-
   "blocked_patterns": [
     "careers.cisco.com",
     "jobs.cisco.com",
@@ -95,7 +83,6 @@
     "/ko-kr/",
     "/ru-ru/"
   ],
-
   "SELECTORES_RUIDO_CSS": [
     "nav",
     "footer",
@@ -126,7 +113,6 @@
     ".sr-only",
     ".visually-hidden"
   ],
-
   "_doc_seeds": "Semillas reorientadas: se entra por products-*-list.html (indice de guias) en lugar de series.html, ahorrando un salto y saltando las paginas de producto cargadas de marketing.",
   "seeds": [
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-installation-and-configuration-guides-list.html",
@@ -142,10 +128,8 @@
     "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-installation-and-configuration-guides-list.html",
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-series/products-maintenance-guides-list.html",
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/products-implementation-design-guides-list.html",
-    "https://help.webex.com/en-us/all-products",
-    "https://help.webexconnect.io/docs/welcome"
+    "https://help.webex.com/en-us/all-products"
   ],
-
   "_doc_degradadas": "Retiradas de las semillas. Motivo tecnico en cada entrada.",
   "degraded_seeds": [
     {
@@ -203,11 +187,13 @@
     {
       "url": "https://www.cisco.com/c/en/us/support/unified-communications/vg-series-gateways/series.html",
       "motivo": "Gateways analogicos VG: volumen de consulta bajo y docs mayoritariamente de instalacion hardware. Prioridad baja, no ruido. Reactivable si el agente recibe consultas de FXS/FXO."
+    },
+    {
+      "url": "https://help.webexconnect.io/docs/welcome",
+      "motivo": "Excluida por el robots.txt del propio dominio. Se respeta: mantenerla en seeds solo genera una linea de log por ejecucion sin recuperar nada. Si esa documentacion es necesaria, la via es pedir acceso a Cisco, no ignorar el robots."
     }
   ],
-
   "sitemaps": [],
-
   "custom_behaviors": [
     {
       "pattern": "www.cisco.com/c/en/us/td/docs",
@@ -219,5 +205,15 @@
       "css_selector": null,
       "js_code": "await new Promise(r => setTimeout(r, 2000));"
     }
-  ]
+  ],
+  "openapi_specs_allowlist": [
+    "webex-cloud-calling",
+    "webex-contact-center",
+    "webex-messaging",
+    "webex-meeting",
+    "webex-admin",
+    "webex-device",
+    "webex-ucm"
+  ],
+  "_doc_openapi_specs_allowlist": "Prefijos de fichero de public-spec/ a ingerir. Vacio o ausente = todos. Excluidos por defecto: webex-broadworks y webex-wholesale (escenarios de service provider). Cada spec fuera del ambito del agente son cientos de operaciones que compiten en el espacio vectorial sin poder responder nunca."
 }
