@@ -1,0 +1,36 @@
+# CiscoUCCrawler — dependencias del pipeline ETL.
+#
+# La existencia de este fichero es lo que permite `cache: pip` en
+# actions/setup-python: la accion calcula la clave de cache a partir de el.
+# Sin requirements.txt ni pyproject.toml, el paso falla antes de instalar nada.
+#
+# PIN DE SEGURIDAD — crawl4ai
+# ---------------------------
+# NO bajar de 0.8.6. La version 0.8.5 y anteriores dependian del paquete
+# `litellm` original, afectado por un compromiso de cadena de suministro en
+# PyPI; 0.8.6 lo sustituyo por `unclecode-litellm`. Ademas 0.8.7 corrigio
+# vulnerabilidades criticas del servidor Docker (RCE, SSRF, bypass de auth).
+# Se fija exacto porque crawl4ai introduce cambios de API entre menores y
+# este pipeline corre desatendido por cron: un `>=` haria que una release
+# rompiera el ETL semanal sin que nadie lo tocara.
+crawl4ai==0.9.2
+
+# Sanitizacion del DOM. lxml es el parser usado por sanitizer.py; sin el,
+# BeautifulSoup cae a html.parser, notablemente mas lento y menos tolerante
+# con el HTML malformado de las SPA.
+beautifulsoup4>=4.12,<5
+lxml>=5.0,<7
+
+# Solo se importa si el repo de specs publica algun OpenAPI en YAML.
+PyYAML>=6.0,<7
+
+# NOTA: playwright NO se fija aqui a proposito. Llega como dependencia
+# transitiva de crawl4ai, que es quien conoce la version compatible con su
+# propio codigo de navegador. Fijarla por separado provoca conflictos de
+# resolucion en cada bump de crawl4ai.
+#
+# REPRODUCIBILIDAD TOTAL: tras la primera ejecucion verde, congelar el
+# arbol completo con
+#     pip freeze > requirements.lock.txt
+# y usar ese fichero en el workflow. Este requirements.txt queda entonces
+# como declaracion de intencion y el .lock como fuente de verdad.
