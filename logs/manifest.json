@@ -3042,6 +3042,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/211306-In-Depth-Explanation-of-Cisco-IOS-and-IO.html": {
+      "content_sha": "12d6efee4cfd91c86b86eb5c10456fb13b6d2e522ba12bd14b73ab5758029b70",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-ip-telephony-voice-over-ip-voip-211306-in-depth-explanation-of-cisco-ios-and-io-18aa797d1e",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:07:49.215483+00:00",
+      "last_changed": "2026-08-16T23:07:49.215483+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:07:49.215483+00:00",
+      "next_check": "2026-08-17T23:07:49.215483+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/212133-In-Depth-Analysis-of-Ringback-for-all-Vo.html": {
       "content_sha": "2c7d34c3d8b3bed9130f7555da5fb68402d0aa9ac8680c6408d343371ae0361b",
       "doc_id": "www-cisco-com-c-en-us-support-docs-voice-ip-telephony-voice-over-ip-voip-212133-in-depth-analysis-of-ringback-for-all-vo-19c3436328",
@@ -4667,6 +4680,58 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-multi-trunks.html": {
+      "content_sha": "b37b7dbb70c8b291ff3cbc7bac186d8f08f2c7a05da36950fdec1df69a95c946",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-multi-trunks-html-6b05de4472",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:08:15.320600+00:00",
+      "last_changed": "2026-08-16T23:08:15.320600+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:08:15.320600+00:00",
+      "next_check": "2026-08-17T23:08:15.320600+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-qos.html": {
+      "content_sha": "e6fef139dee3e7196ac6a5017eb154a60fc4015105f628a9a27fd381e8da9aea",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-qos-html-659d3228aa",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:07:30.193536+00:00",
+      "last_changed": "2026-08-16T23:07:30.193536+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:07:30.193536+00:00",
+      "next_check": "2026-08-17T23:07:30.193536+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-rfc.html": {
+      "content_sha": "bc95baa1cc51357b86bbc66f146b7ee78e3ee39faa3bbee5941d3aff9af3c640",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-rfc-html-368f3c9bb5",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:08:21.029312+00:00",
+      "last_changed": "2026-08-16T23:08:21.029312+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:08:21.029312+00:00",
+      "next_check": "2026-08-17T23:08:21.029312+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-timer.html": {
+      "content_sha": "aacdbc98455769c695e6d93d65b69dfc0a253ed893bb8c6f9faa9181cccab260",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-timer-html-85c7fcc6f0",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:08:11.329988+00:00",
+      "last_changed": "2026-08-16T23:08:11.329988+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:08:11.329988+00:00",
+      "next_check": "2026-08-17T23:08:11.329988+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr2/vcr2-cr-book.html": {
       "content_sha": "e2a796610c3ab450d34a08fa9b14c2e5ab3671f4a9853b063dc3f9fa79b5177f",
       "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr2-vcr2-cr-book-html-7e8c24d70c",
@@ -4680,6 +4745,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr2/vcr2-cr-book/vcr-i1.html": {
+      "content_sha": "fc8cc15c22a6a5a3025bd4164f0f85934075ae1a21779c4b1bc1151663de06c8",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr2-vcr2-cr-book-vcr-i1-html-ab49edefae",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:08:42.223199+00:00",
+      "last_changed": "2026-08-16T23:08:42.223199+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:08:42.223199+00:00",
+      "next_check": "2026-08-17T23:08:42.223199+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr3/vcr3-cr-book.html": {
       "content_sha": "3be84894e02d536b3d273456064737bbf4f78a3aec22ced08a3471883e7a206b",
       "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr3-vcr3-cr-book-html-0597a6c3ed",
@@ -4690,6 +4768,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T15:55:38.192899+00:00",
       "next_check": "2026-08-17T15:55:38.192899+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr4/vcr4-cr-book/vcr-s12.html": {
+      "content_sha": "edb32ce9db6f6d033374413d81b91539674b63c0e56de512283222d1b7141224",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr4-vcr4-cr-book-vcr-s12-html-0127b7f56a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:09:04.663294+00:00",
+      "last_changed": "2026-08-16T23:09:04.663294+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:09:04.663294+00:00",
+      "next_check": "2026-08-17T23:09:04.663294+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -28223,6 +28314,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/feature/guide/EnhancedTrustedFirewallControll.html": {
+      "content_sha": "a228fc02dcea2dbfbaa55601a83bed648b44423b294bad3924adb8853dc9b793",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-feature-guide-enhancedtrustedfirewallcontroll-html-f3e0e8f473",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:08:54.701981+00:00",
+      "last_changed": "2026-08-16T23:08:54.701981+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:08:54.701981+00:00",
+      "next_check": "2026-08-17T23:08:54.701981+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/all_models/xsi/9-1-1/CUIP_BK_P82B3B16_00_phones-services-application-development-notes/CUIP_BK_P82B3B16_00_phones-services-application-development-notes1_appendix_01101.html": {
       "content_sha": "2aec5db777cffbcc29472a3aa92c0bfab0b0534db0f34db7ae1dd765828ba880",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-all-models-xsi-9-1-1-cuip-bk-p82b3b16-00-phones-services-application--f27db1eeec",
@@ -36085,6 +36189,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T19:23:29.533285+00:00",
       "next_check": "2026-08-17T19:23:29.533285+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/configuration/guide/ccvp_b_150-configuration-guide-for-cisco-unified-customer-voice-portal/system_configuration.html": {
+      "content_sha": "e45d50807f9e321330e9e94238dac42b9f7dbafbed63d036e1cd133bf0aa3a07",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-configuration-guide-12437c1414",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-16T23:07:39.895413+00:00",
+      "last_changed": "2026-08-16T23:07:39.895413+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-16T23:07:39.895413+00:00",
+      "next_check": "2026-08-17T23:07:39.895413+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -60374,5 +60491,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-16T23:05:09.420529+00:00"
+  "updated_at": "2026-08-16T23:09:12.350632+00:00"
 }
