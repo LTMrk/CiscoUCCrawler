@@ -1,4 +1,10 @@
 {
+  "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvf58052": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-17T02:01:42.893240+00:00",
+    "veces": 1
+  },
   "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv13694": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
@@ -27,6 +33,12 @@
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-17T01:53:19.807718+00:00",
+    "veces": 1
+  },
+  "https://bst.cloudapps.cisco.com/bugsearch/bug/https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn77809": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-17T02:01:38.831999+00:00",
     "veces": 1
   },
   "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/14/collbcvd/control.htm": {
