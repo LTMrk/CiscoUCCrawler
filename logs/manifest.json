@@ -2535,6 +2535,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214137-upgrade-readiness-checks-cop-file-for-cu.html": {
+      "content_sha": "42579742db1ebf453a75f75968b9f9df08f60b9b2b174d00e36e64ce87000358",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214137-upgrade-read-332b044bd3",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:50:39.266974+00:00",
+      "last_changed": "2026-08-17T00:50:39.266974+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:50:39.266974+00:00",
+      "next_check": "2026-08-18T00:50:39.266974+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214218-configure-options-ping-between-cucm-and.html": {
       "content_sha": "d372dbceaa26e6b85202436100738bbe8f7677517f3fe5491737a4737736b020",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214218-configure-op-33b0d2d607",
@@ -6747,6 +6760,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su2/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-14su2/cer0_b_cisco-emergency-responder-administration-guide-1401_appendix_010010.html": {
+      "content_sha": "b8b83326b7fb1acecf05acdaa64a52857f32b6320f14b78a2b847b6e99aaf114",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su2-english-administration-guide-cer0-b-cisco-emergency-responder-admi-1f1dd5a28e",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:51:03.830721+00:00",
+      "last_changed": "2026-08-17T00:51:03.830721+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:51:03.830721+00:00",
+      "next_check": "2026-08-18T00:51:03.830721+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_chapter_010.html": {
       "content_sha": "fd2caef6902b0b43428e999f94d56b116a59f7dfa76fc2dd75a47cc4a416e6c7",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-calendarservice-cmgt-b-deploy-spark--53f6f92dc7",
@@ -8005,6 +8031,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T18:34:59.452365+00:00",
       "next_check": "2026-08-17T18:34:59.452365+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/install_upgrade/guide/b_14cuciumg/b_14cuciumg_chapter_01.html": {
+      "content_sha": "4d7e81f84128d0759e04384f9bc059ee9fd9eca51ac2e8abd65aaef5dc1cdce1",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-install-upgrade-guide-b-14cuciumg-b-14cuciumg-chapter-01-html-3612101096",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:51:08.382141+00:00",
+      "last_changed": "2026-08-17T00:51:08.382141+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:51:08.382141+00:00",
+      "next_check": "2026-08-18T00:51:08.382141+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -33553,6 +33592,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_011111.html": {
+      "content_sha": "7f946b2ed501ec606c4927b12fa1bd5d9e26aa9af28c64305413ea99262ff829",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--35229a59d3",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:50:46.833557+00:00",
+      "last_changed": "2026-08-17T00:50:46.833557+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:50:46.833557+00:00",
+      "next_check": "2026-08-18T00:50:46.833557+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/cdrdef/cucm_b_cdr-admin-guide-1251/cucm_b_cdr-admin-guide-1251_chapter_01.html": {
+      "content_sha": "725b9cdea52b30b1c48e27e244c7f308645bfaa3868eb2ba95563a8e993650f7",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-cdrdef-cucm-b-cdr-admin-guide-1251-cucm-b-cdr-admin-guid-66fba14154",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:50:50.915752+00:00",
+      "last_changed": "2026-08-17T00:50:50.915752+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:50:50.915752+00:00",
+      "next_check": "2026-08-18T00:50:50.915752+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/rtmt/cucm_b_cisco-unified-rtmt-administration-1251.html": {
       "content_sha": "3eae9ad5834ec265aa88f46d7615c096361dc7958db38e07364e396b707d38ec",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-rtmt-cucm-b-cisco-unified-rtmt-administration-1251-html-0effaf5b5c",
@@ -33563,6 +33628,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T20:51:19.492771+00:00",
       "next_check": "2026-08-17T20:51:19.492771+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/rtmt/cucm_b_cisco-unified-rtmt-administration-1251/cucm_mp_g954ab28_00_getting-started.html": {
+      "content_sha": "26084d1ea80825e91d67f8d5258444d72344419fd9e288d382292ee1f7ba97ac",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-rtmt-cucm-b-cisco-unified-rtmt-administration-1251-cucm--8554cb13c6",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:50:43.460811+00:00",
+      "last_changed": "2026-08-17T00:50:43.460811+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:50:43.460811+00:00",
+      "next_check": "2026-08-18T00:50:43.460811+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -68304,5 +68382,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-17T00:48:09.779744+00:00"
+  "updated_at": "2026-08-17T00:51:13.190606+00:00"
 }
