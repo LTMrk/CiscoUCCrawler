@@ -130,6 +130,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series/211425-Perform-a-Hard-Factory-Reset-on-an-8831.html": {
+      "content_sha": "f301bcec98d6318186f85963ad9b3c62f79a8ed5d31106b94a8f7ce3c15fa04a",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-ip-phone-8800-series-211425-perform-a-hard-factory-reset-on-a-54e68fa166",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T01:02:17.793967+00:00",
+      "last_changed": "2026-08-17T01:02:17.793967+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T01:02:17.793967+00:00",
+      "next_check": "2026-08-18T01:02:17.793967+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series/214638-how-to-download-certificates-from-cisco.html": {
+      "content_sha": "448918161ca3dc7c509d86770c55e19583fd57ee8fdb636cb50918ce264e6994",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-ip-phone-8800-series-214638-how-to-download-certificates-from-9807b26cb9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T01:02:21.226501+00:00",
+      "last_changed": "2026-08-17T01:02:21.226501+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T01:02:21.226501+00:00",
+      "next_check": "2026-08-18T01:02:21.226501+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi.html": {
       "content_sha": "2981437ed48904d026ae7799bca24d138901a986366bf6b0ca63067113e1d9f6",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-system-ex-series-221630-configure-telepresence-e-b89001e895",
@@ -25246,6 +25272,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/device_packs/1501-devpack-for-may-2026.html": {
+      "content_sha": "db775e40811ef64c56b5013c308ab7d45bbe63c05c64d01f8f84a0c58b569567",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-device-packs-1501-devpack-for-may-2026-html-0509b67c09",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T01:02:29.004971+00:00",
+      "last_changed": "2026-08-17T01:02:29.004971+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T01:02:29.004971+00:00",
+      "next_check": "2026-08-18T01:02:29.004971+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/docguide/12_5_1/cucm_b_documentation-guide-cucm_imp_1251.html": {
       "content_sha": "1e56fb871eca324a1404a6ccfde9bb31df4c5d4cd59ab2c5f35c78375670fcbc",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-docguide-12-5-1-cucm-b-documentation-guide-cucm-imp-1251-html-132db22563",
@@ -36228,6 +36267,19 @@
       "last_modified": null,
       "last_seen": "2026-08-17T01:00:04.433162+00:00",
       "next_check": "2026-08-18T01:00:04.433162+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_00.html": {
+      "content_sha": "4c0d17bb7ec11788f6dc7a2af838a13212aa133a72bd4b3852c6d319e57983e6",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-userguide-p680-b-6800-user-guide-mpp-p680-b-6800-use-aeab858b62",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T01:02:59.369255+00:00",
+      "last_changed": "2026-08-17T01:02:59.369255+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T01:02:59.369255+00:00",
+      "next_check": "2026-08-18T01:02:59.369255+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -68655,5 +68707,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-17T01:00:08.682933+00:00"
+  "updated_at": "2026-08-17T01:02:59.444341+00:00"
 }
