@@ -14684,6 +14684,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUNI_API/b_CUC_CUNI_API/b_CUC_CUNI_API_chapter_010.html": {
+      "content_sha": "cf7d0b626ce6868f3676130ff324770407a7e5810a45ba35cd6d23cec7ec280b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuni-api-b-cuc-cuni-api-b-cuc-cuni-api-chapter-010-html-8865bfd045",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T03:06:56.499340+00:00",
+      "last_changed": "2026-08-17T03:06:56.499340+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T03:06:56.499340+00:00",
+      "next_check": "2026-08-18T03:06:56.499340+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/compatibility/matrix/b_cucclientmtx.html": {
       "content_sha": "7027a1a5abb971fb46bb520dd5f9b747ba350086e5e42fe6948549a84c9ffc1c",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-compatibility-matrix-b-cucclientmtx-html-b22c11d744",
@@ -14772,6 +14785,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T18:49:57.138966+00:00",
       "next_check": "2026-08-17T18:49:57.138966+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/vmo/quick_start/guide/b_cucqsgvmo.html": {
+      "content_sha": "d8ccdb12880979d0b2c987d15ee76933b9f084f6b15e0d44b4c15620b4837c7d",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-vmo-quick-start-guide-b-cucqsgvmo-html-ce7dfceb1d",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T03:06:49.680047+00:00",
+      "last_changed": "2026-08-17T03:06:49.680047+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T03:06:49.680047+00:00",
+      "next_check": "2026-08-18T03:06:49.680047+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -74473,5 +74499,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-17T03:04:38.757137+00:00"
+  "updated_at": "2026-08-17T03:07:16.961457+00:00"
 }
