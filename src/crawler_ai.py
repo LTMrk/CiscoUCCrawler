@@ -287,13 +287,22 @@ async def deep_crawl():
     log_info(f"Modo: {modo.upper()} | presupuesto de este lote: {presupuesto} URLs")
 
     # -- Paso 1: referencia de la API desde la fuente oficial ---------------
-    resumen_api = openapi_ingest.ingerir_openapi(
+    resumen_api, deltas_api = openapi_ingest.ingerir_openapi(
         token=os.environ.get("GITHUB_TOKEN"),
         specs_permitidos=CONFIG.get("openapi_specs_allowlist"),
     )
     total_ops = sum(v.get("operaciones", 0) for v in resumen_api.values()
                     if isinstance(v, dict))
-    log_info(f"OpenAPI: {total_ops} operaciones en {len(resumen_api)} specs.")
+    log_info(f"OpenAPI: {total_ops} operaciones | "
+             f"+{len(deltas_api['added'])} nuevas, "
+             f"-{len(deltas_api['removed'])} retiradas, "
+             f"!{len(deltas_api['deprecated'])} recién deprecadas")
+    for clave in deltas_api["added"][:15]:
+        log_info(f"  ENDPOINT NUEVO: {clave}")
+    for clave in deltas_api["deprecated"][:15]:
+        log_info(f"  DEPRECADO: {clave}")
+    for clave in deltas_api["removed"][:15]:
+        log_info(f"  RETIRADO: {clave}")
 
     politica = PoliticaAcceso(
         peticiones_por_minuto=GS.get("requests_per_minute", 20),
@@ -526,4 +535,3 @@ async def deep_crawl():
 
 if __name__ == "__main__":
     asyncio.run(deep_crawl())
- 
