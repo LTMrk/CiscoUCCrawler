@@ -946,3 +946,7 @@
 [2026-08-16T23:48:02.843058] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/Devpacks_admin/CMDP_BK_CD82F19C_00_cisco-unified-communications-manager-device.epub
 [2026-08-16T23:48:06.889085] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/Devpacks_admin/CMDP_BK_CD82F19C_00_cisco-unified-communications-manager-device.mobi
 [2026-08-16T23:48:25.336712] HTTP 308 o DOM vacío. | http://bst.cloudapps.cisco.com/bugsearch
+[2026-08-16T23:50:53.150896] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286331940/type/286319173/release/COP-Files
+[2026-08-16T23:51:27.129630] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCva12833
+[2026-08-16T23:51:27.129704] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286285506/type/286285517/os
+[2026-08-16T23:51:33.036179] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq05867
