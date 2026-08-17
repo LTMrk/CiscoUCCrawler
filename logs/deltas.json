@@ -1,12 +1,13 @@
 {
-  "run_at": "2026-08-17T01:56:15.460776+00:00",
+  "run_at": "2026-08-17T01:59:02.915673+00:00",
   "modo": "incremental",
-  "added": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su2-cucm-b-feature-configuration-guide-for-cisco1251su2-cuc-47cd1d82f3",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su2-cucm-b-feature-configuration-guide-for-cisco1251su2-cuc-b8b8915480"
-  ],
+  "added": [],
   "modified": [],
   "removed": [],
-  "blocked": [],
+  "blocked": [
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvv13694-2853f70908",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvv18139-0a78b5bd98",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvv18464-d32dfabea9"
+  ],
   "unchanged_count": 0
 }
