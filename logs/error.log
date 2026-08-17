@@ -1512,3 +1512,13 @@
 [2026-08-17T03:12:56.225736] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvi26419
 [2026-08-17T03:13:00.043885] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/email/b_12xcucugemail.html
 [2026-08-17T03:13:04.183819] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/design/guide/b_11xcucdg.html
+[2026-08-17T03:15:21.068192] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/srsv/guide/b_11xcucsrsvx.html
+[2026-08-17T03:15:24.842869] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/https_networking/guide/b_11xcuchttpsnet.html
+[2026-08-17T03:15:29.103550] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/quick_start/guide/b_11xcucqssamlsso.html
+[2026-08-17T03:15:33.397672] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/quick_start/guide/b_11xcucqsginbox.html
+[2026-08-17T03:15:37.655665] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/quick_start/guide/b_11xcucqsgminiinbox.html
+[2026-08-17T03:15:41.722512] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/user/guide/email/b_11xcucugemail.html
+[2026-08-17T03:15:46.013241] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/user/guide/assistant/b_11xcucugasst.html
+[2026-08-17T03:15:49.915307] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/user/guide/phone/b_11xcucugphone.html
+[2026-08-17T03:15:55.900191] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/serv_administration/b_11xcucservag.html
+[2026-08-17T03:15:59.639696] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/os_administration/b_11xcucosagx.html
