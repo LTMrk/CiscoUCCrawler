@@ -2275,6 +2275,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118731-configure-san-00.html": {
+      "content_sha": "e6750e3c55775e28aca4e4ba0241dc1766cfb7abe971afccafbf72857405384e",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-118731-configure-sa-6d2cb83d8d",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:18:58.432608+00:00",
+      "last_changed": "2026-08-17T00:18:58.432608+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:18:58.432608+00:00",
+      "next_check": "2026-08-18T00:18:58.432608+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118744-technote-cucm-00.html": {
       "content_sha": "1476f3872b40f557465add87eba4c590dd19495e7d3f5e552c428dd76a72c74b",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-118744-technote-cuc-4b5f3158ac",
@@ -2610,6 +2623,19 @@
       "last_modified": null,
       "last_seen": "2026-08-17T00:13:58.537057+00:00",
       "next_check": "2026-08-18T00:13:58.537057+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215534-create-windows-ca-certificate-templates.html": {
+      "content_sha": "e8078c69783f685e21929d79ccbd1db55ae03577a5a3b90b17e9e6c467a23131",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-215534-create-windo-52b4748d9b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:19:11.142179+00:00",
+      "last_changed": "2026-08-17T00:19:11.142179+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:19:11.142179+00:00",
+      "next_check": "2026-08-18T00:19:11.142179+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -30638,6 +30664,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T18:58:31.463029+00:00",
       "next_check": "2026-08-17T18:58:31.463029+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1/cucm_b_security-guide-1251/cucm_b_security-guide-1251_chapter_011101.html": {
+      "content_sha": "00e7c4e74c7c4ad5a9370de2848e66bf19be71aa7d2fdf572aee271371728ed1",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1-cucm-b-security-guide-1251-cucm-b-security-guide-1251-c-53083cbda8",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:19:03.221952+00:00",
+      "last_changed": "2026-08-17T00:19:03.221952+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:19:03.221952+00:00",
+      "next_check": "2026-08-18T00:19:03.221952+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -64989,5 +65028,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-17T00:16:48.718015+00:00"
+  "updated_at": "2026-08-17T00:19:28.298892+00:00"
 }
