@@ -1,13 +1,14 @@
 {
-  "run_at": "2026-08-17T02:56:08.525668+00:00",
+  "run_at": "2026-08-17T02:58:49.966819+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-guide-b-15cucsecx-b-14cucsecx-chapter-0100-html-582a791216"
+  ],
   "modified": [],
   "removed": [],
   "blocked": [
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwh78412-f02b47c249",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwm38487-dfb25935f8",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwm62687-743b038976"
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwj34819-16e73362df",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwj35996-a13b28791d"
   ],
   "unchanged_count": 0
 }

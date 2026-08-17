@@ -90,6 +90,26 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwj34819": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwj34819-16e73362df",
+      "fail_count": 1,
+      "first_seen": "2026-08-17T02:58:49.836272+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-17T02:58:49.836279+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwj35996": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwj35996-a13b28791d",
+      "fail_count": 1,
+      "first_seen": "2026-08-17T02:58:45.581827+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-17T02:58:45.581835+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwj85245": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwj85245-b3e361ed50",
@@ -13523,6 +13543,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T18:50:24.293327+00:00",
       "next_check": "2026-08-17T18:50:24.293327+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/guide/b_15cucsecx/b_14cucsecx_chapter_0100.html": {
+      "content_sha": "13c266b7b7b333326be3b4f6c95887fb8187a366987f17ed73ffae9d2c946b33",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-guide-b-15cucsecx-b-14cucsecx-chapter-0100-html-582a791216",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T02:58:22.084145+00:00",
+      "last_changed": "2026-08-17T02:58:22.084145+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T02:58:22.084145+00:00",
+      "next_check": "2026-08-18T02:58:22.084145+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -74420,5 +74453,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-17T02:56:08.454880+00:00"
+  "updated_at": "2026-08-17T02:58:49.898734+00:00"
 }
