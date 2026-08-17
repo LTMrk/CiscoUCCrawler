@@ -10543,6 +10543,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_administration-guide-1251/cucm_b_administration-guide-1251_chapter_010100.html": {
+      "content_sha": "6aca8b3eb862590fbb438cce9fec9cf0b6908b1294fa040d56f7cf864b088c80",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1-admin-cucm-b-administration-guide-1251-cucm-b-administrati-7583c40ffb",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:16:48.391160+00:00",
+      "last_changed": "2026-08-17T00:16:48.391160+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:16:48.391160+00:00",
+      "next_check": "2026-08-18T00:16:48.391160+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_serviceability-admin-guide-1251.html": {
       "content_sha": "3ddf06f04ca98f80a959357acbf18ae896452292c2facbef26753ac84b8bebf5",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1-admin-cucm-b-serviceability-admin-guide-1251-html-88ed2a757a",
@@ -19500,6 +19513,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/14SU2/adminGd/cucm_b_administration-guide-14su2/cucm_m_restore-the-system.html": {
+      "content_sha": "fa922c9c0d25cbf2b38fe72530cbe91512a38ce2390c32180a8e94150a0e6db3",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-14su2-admingd-cucm-b-administration-guide-14su2-cucm-m-restore-th-574d8c4227",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:16:39.637862+00:00",
+      "last_changed": "2026-08-17T00:16:39.637862+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:16:39.637862+00:00",
+      "next_check": "2026-08-18T00:16:39.637862+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/14SU2/cucm_b_feature-configuration-guide-for-cisco14su2/cucm_b_feature-configuration-guide-for-cisco1251su3_chapter_01000011.html": {
       "content_sha": "fe56092d0e80e834b37a2e1ae4d43fe7a13c98a85f2f214bbbb8965eb99a5f76",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-14su2-cucm-b-feature-configuration-guide-for-cisco14su2-cucm-b-fe-37afef6078",
@@ -20459,6 +20485,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T16:22:23.580159+00:00",
       "next_check": "2026-08-17T16:22:23.580159+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_m_restore-the-system.html": {
+      "content_sha": "f180e5ef46626e1292f6657925d1e5239a91b14d42fa14567aa4e87b399b1324",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-m-restore-the-syst-e08288a04e",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:16:44.051818+00:00",
+      "last_changed": "2026-08-17T00:16:44.051818+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:16:44.051818+00:00",
+      "next_check": "2026-08-18T00:16:44.051818+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -64950,5 +64989,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-17T00:14:03.537554+00:00"
+  "updated_at": "2026-08-17T00:16:48.718015+00:00"
 }
