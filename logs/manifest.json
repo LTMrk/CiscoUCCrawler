@@ -1,5 +1,25 @@
 {
   "entradas": {
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx56062": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvx56062-1cc221b23a",
+      "fail_count": 1,
+      "first_seen": "2026-08-17T01:53:15.728704+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-17T01:53:15.728711+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx63367": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvx63367-14f1ec344f",
+      "fail_count": 1,
+      "first_seen": "2026-08-17T01:53:19.807756+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-17T01:53:19.807760+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://cway.cisco.com/docs/tools/CollaborationSolutionsAnalyzer/csa.callengine.supportedproducts.html": {
       "content_sha": "520e16d9b5206293f7202a64628152183889dcfdf29bf45f7492adf25dbe4854",
       "doc_id": "cway-cisco-com-docs-tools-collaborationsolutionsanalyzer-csa-callengine-supportedproducts-html-134e06d7f5",
@@ -70485,5 +70505,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-17T01:48:42.323355+00:00"
+  "updated_at": "2026-08-17T01:53:19.866658+00:00"
 }
