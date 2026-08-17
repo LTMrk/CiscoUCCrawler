@@ -1,149 +1,5 @@
 [
   {
-    "url": "https://www.webex.com/customer-interaction-management.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/security.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/control-hub.html",
-    "depth": 1
-  },
-  {
-    "url": "https://hardware.webex.com/products/headsets",
-    "depth": 1
-  },
-  {
-    "url": "https://hardware.webex.com/products/cameras",
-    "depth": 1
-  },
-  {
-    "url": "https://hardware.webex.com/products/desk-series",
-    "depth": 1
-  },
-  {
-    "url": "https://hardware.webex.com/products/room-series-and-kits",
-    "depth": 1
-  },
-  {
-    "url": "https://hardware.webex.com/products/board-series",
-    "depth": 1
-  },
-  {
-    "url": "https://hardware.webex.com/products/phones",
-    "depth": 1
-  },
-  {
-    "url": "https://hardware.webex.com/products/accessories",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/education.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/healthcare.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/government.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/financial-services.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/sports-entertainment.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/frontline.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/nonprofits.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/start-ups.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/hybrid-work.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/downloads.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/test-meeting.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/products/integrations/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/accessibility.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/inclusive-collaboration.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/learn/webinars-demos.html",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.webex.com",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/resources/whats-new.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/us/en/dg/contact-sales.html",
-    "depth": 1
-  },
-  {
-    "url": "https://blog.webex.com",
-    "depth": 1
-  },
-  {
-    "url": "https://webexahead.webex.com",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/company/careers.html",
-    "depth": 1
-  },
-  {
-    "url": "https://meeting-infohub.cisco.com/faq/category/55/lync_skype-for-business_office-365-integration.html",
-    "depth": 1
-  },
-  {
-    "url": "https://meeting-infohub.cisco.com/faq/category/25/cisco-meeting-server.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-programming-reference-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release.html",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization.html",
     "depth": 1
   },
@@ -546,5 +402,41 @@
   {
     "url": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
     "depth": 1
+  },
+  {
+    "url": "https://mycase.cloudapps.cisco.com/case",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-security-advisories-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-installation-and-configuration-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/looking-for-info-on-cisco-collab-solutions/ta-p/3649062",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/cisco-meeting-server",
+    "depth": 2
+  },
+  {
+    "url": "https://learninglabs.cisco.com:8867/modules/cisco-meeting-server",
+    "depth": 2
+  },
+  {
+    "url": "https://mycase.cloudapps.cisco.com/start",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-enterprise-15-0-1/model.html",
+    "depth": 2
   }
 ]
