@@ -9988,6 +9988,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/phone/b_12xcucugphone/b_12xcucugphone_chapter_010.html": {
+      "content_sha": "a8549f87cb9c08e86ab5d3107411beb90d87a30609d5810d27101a2ac8f13242",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-phone-b-12xcucugphone-b-12xcucugphone-chapter-010--73866916c1",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T03:53:51.919496+00:00",
+      "last_changed": "2026-08-17T03:53:51.919496+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T03:53:51.919496+00:00",
+      "next_check": "2026-08-18T03:53:51.919496+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user_setup/guide/b_12xcucuwsx.html": {
       "content_sha": "f26b2b6b40c384229cf93b74b0f34fa21aa5dd1250bed6fd076e0e68a1d86771",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-setup-guide-b-12xcucuwsx-html-26fcc9dd78",
@@ -11792,6 +11805,110 @@
       "last_modified": null,
       "last_seen": "2026-08-17T03:50:53.391125+00:00",
       "next_check": "2026-08-18T03:50:53.391125+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/serv_administration/guide/b_14cucservag/b_14cucservag_chapter_01.html": {
+      "content_sha": "fa0f63ab2485665eaf6247a1170466fa3595a422ac4525862f1c1cc0107df299",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-serv-administration-guide-b-14cucservag-b-14cucservag-chapter--8561b003f9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T03:53:13.973362+00:00",
+      "last_changed": "2026-08-17T03:53:13.973362+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T03:53:13.973362+00:00",
+      "next_check": "2026-08-18T03:53:13.973362+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/serv_administration/guide/b_14cucservag/b_14cucservag_chapter_010.html": {
+      "content_sha": "422938cd3b2ce45c95722fa186d744dc1ccc8cc2837a9b5755d364bc7f797b46",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-serv-administration-guide-b-14cucservag-b-14cucservag-chapter--35ee1cf247",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T03:53:17.958400+00:00",
+      "last_changed": "2026-08-17T03:53:17.958400+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T03:53:17.958400+00:00",
+      "next_check": "2026-08-18T03:53:17.958400+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/serv_administration/guide/b_14cucservag/b_14cucservag_chapter_0100.html": {
+      "content_sha": "81b0b769aa89ba7cb49200fb59ef4ecad675ff9f4b6ba0945cb3325af10fafa4",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-serv-administration-guide-b-14cucservag-b-14cucservag-chapter--cebb5e9531",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T03:53:26.236878+00:00",
+      "last_changed": "2026-08-17T03:53:26.236878+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T03:53:26.236878+00:00",
+      "next_check": "2026-08-18T03:53:26.236878+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/serv_administration/guide/b_14cucservag/b_14cucservag_chapter_0101.html": {
+      "content_sha": "9c09cd1e34dd4524d3b5ffd1201af8f2f4fec9f8a4bc42684ced45828079553d",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-serv-administration-guide-b-14cucservag-b-14cucservag-chapter--8507bf2bb5",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T03:53:30.657198+00:00",
+      "last_changed": "2026-08-17T03:53:30.657198+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T03:53:30.657198+00:00",
+      "next_check": "2026-08-18T03:53:30.657198+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/serv_administration/guide/b_14cucservag/b_14cucservag_chapter_011.html": {
+      "content_sha": "fd75c5fa19be1886022ffcba52b2bbec4e570f8887e489a9c4bd6791ff8f8d4b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-serv-administration-guide-b-14cucservag-b-14cucservag-chapter--f5fe489f51",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T03:53:21.729137+00:00",
+      "last_changed": "2026-08-17T03:53:21.729137+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T03:53:21.729137+00:00",
+      "next_check": "2026-08-18T03:53:21.729137+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/serv_administration/guide/b_14cucservag/b_14cucservag_chapter_0110.html": {
+      "content_sha": "1b426cd3afc7e1280ee9af53badb5ed719cce808970ea4b4d547d400b95d56f9",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-serv-administration-guide-b-14cucservag-b-14cucservag-chapter--775deefc31",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T03:53:34.962542+00:00",
+      "last_changed": "2026-08-17T03:53:34.962542+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T03:53:34.962542+00:00",
+      "next_check": "2026-08-18T03:53:34.962542+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/serv_administration/guide/b_14cucservag/b_14cucservag_chapter_0111.html": {
+      "content_sha": "a8eddd16ed5b62ddebb887a7ec3f8649c3880cbcd451527e265f89297263a742",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-serv-administration-guide-b-14cucservag-b-14cucservag-chapter--ebb6087a12",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T03:53:39.120572+00:00",
+      "last_changed": "2026-08-17T03:53:39.120572+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T03:53:39.120572+00:00",
+      "next_check": "2026-08-18T03:53:39.120572+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/serv_administration/guide/b_14cucservag/b_14cucservag_index.html": {
+      "content_sha": "369125c7028c361c6e2712b6e5c579feb23ee958c6dc832ffbdb9e2943403b00",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-serv-administration-guide-b-14cucservag-b-14cucservag-index-ht-515cdf0b24",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T03:53:43.345199+00:00",
+      "last_changed": "2026-08-17T03:53:43.345199+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T03:53:43.345199+00:00",
+      "next_check": "2026-08-18T03:53:43.345199+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -77980,5 +78097,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-17T03:50:53.478227+00:00"
+  "updated_at": "2026-08-17T03:54:30.648489+00:00"
 }
