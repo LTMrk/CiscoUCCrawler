@@ -32957,6 +32957,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_0_1/deprecated_phones/cucm_b_deprecated-phone-models-for-1201.html": {
+      "content_sha": "d3876b3bf38f57fef0a796be2ff8bdced9282cf0ec4f80bfde0827de2f0b261f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-0-1-deprecated-phones-cucm-b-deprecated-phone-models-for-1-96249d85bc",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T02:04:07.099776+00:00",
+      "last_changed": "2026-08-17T02:04:07.099776+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T02:04:07.099776+00:00",
+      "next_check": "2026-08-18T02:04:07.099776+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/SU1/cucm_b_release-notes-for-cucm-imp-1251su1.html": {
       "content_sha": "ab5c35ad86b062aa02a35045d04f82c216e36b551053cfb424a1bdd4ea2eaff9",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-5-1-su1-cucm-b-release-notes-for-cucm-imp-1251su1-html-1ed3f72ecb",
@@ -70581,5 +70594,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-17T02:01:47.524423+00:00"
+  "updated_at": "2026-08-17T02:04:39.775521+00:00"
 }
