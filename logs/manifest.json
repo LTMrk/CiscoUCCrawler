@@ -12367,6 +12367,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/design/b_15cucdesg/b_14cucdg_chapter_00.html": {
+      "content_sha": "7e0ef7a5f205b32536d8501cb87cc371c29443021ea3b77d3a09ae54475c19ec",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-design-b-15cucdesg-b-14cucdg-chapter-00-html-1d2e9b6bb0",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T03:18:40.350283+00:00",
+      "last_changed": "2026-08-17T03:18:40.350283+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T03:18:40.350283+00:00",
+      "next_check": "2026-08-18T03:18:40.350283+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/design/guide/b_15cucdg/b_15cucdg_chapter_00.html": {
       "content_sha": "274079845f0da981666d0b18a6d3e575b5f8334b4b456a4749bf2f9df815df65",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-design-guide-b-15cucdg-b-15cucdg-chapter-00-html-6415f5204d",
@@ -74548,5 +74561,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-17T03:15:59.703077+00:00"
+  "updated_at": "2026-08-17T03:18:40.391562+00:00"
 }
