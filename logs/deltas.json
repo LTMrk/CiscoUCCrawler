@@ -1,13 +1,11 @@
 {
-  "run_at": "2026-08-17T03:10:09.065557+00:00",
+  "run_at": "2026-08-17T03:13:04.315020+00:00",
   "modo": "incremental",
-  "added": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-os-administration-b-12xcucosagx-b-12xcucosagx-chapter-0110-ht-cce6fa54e9",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-quick-start-guide-b-12xcucqsginbox-html-589582d8ac",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-security-b-12xcucsecx-b-12xcucsecx-chapter-0110-html-00c3b795d5"
-  ],
+  "added": [],
   "modified": [],
   "removed": [],
-  "blocked": [],
+  "blocked": [
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvi26419-f86f47bf2f"
+  ],
   "unchanged_count": 0
 }
