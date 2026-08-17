@@ -68,22 +68,7 @@ jobs:
 
       - name: Publicar resumen del lote
         if: always()
-        run: |
-          {
-            echo "## Resumen del lote"
-            if [ -f logs/deltas.json ]; then
-              echo '```json'
-              cat logs/deltas.json
-              echo '```'
-            fi
-            if [ -s logs/quarantine.json ]; then
-              echo "### URLs en cuarentena (rechazadas por el WAF de origen)"
-              echo "Requieren decisión manual — no se reintentan automáticamente."
-              echo '```json'
-              head -c 4000 logs/quarantine.json
-              echo '```'
-            fi
-          } >> "$GITHUB_STEP_SUMMARY"
+        run: python3 src/report.py
 
       - name: Exportar diagnóstico
         if: always()
