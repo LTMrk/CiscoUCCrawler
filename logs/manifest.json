@@ -598,6 +598,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo.html": {
+      "content_sha": "dbc6e80939f266a1ddc2e0fc28a2588c2862d41bb9752120c3145e1c422072b8",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-217232-how-to-configure-and-troubleshoot-cvi-fo-html-46d7361cce",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:53:37.924722+00:00",
+      "last_changed": "2026-08-17T00:53:37.924722+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:53:37.924722+00:00",
+      "next_check": "2026-08-18T00:53:37.924722+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search.html": {
+      "content_sha": "dda64f4c81f8cbe62686dce79cef6c3548d680ec8e0efd5bfa31eb391376078c",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218127-understand-ediscovery-reports-to-search-html-e179c25824",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:53:41.942174+00:00",
+      "last_changed": "2026-08-17T00:53:41.942174+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:53:41.942174+00:00",
+      "next_check": "2026-08-18T00:53:41.942174+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r.html": {
       "content_sha": "0780c589aa9b50d7d2ebeba1f5edf4e8d087eaf6cea810775a3719f9db6b1d3d",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220390-troubleshoot-single-sign-on-admin-self-r-html-fa526c467b",
@@ -624,6 +650,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the.html": {
+      "content_sha": "e7958f06b2fa793526d51a8796609351ad02d2886151419459e1e76e7118f07e",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222202-enable-directory-synchronization-on-the-html-65348b0b41",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:53:46.093141+00:00",
+      "last_changed": "2026-08-17T00:53:46.093141+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:53:46.093141+00:00",
+      "next_check": "2026-08-18T00:53:46.093141+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling.html": {
+      "content_sha": "19b6b98204e822dea90fd053ab3b7d902bc2f498228eec6c17ad12de17fb0ac0",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222835-troubleshoot-webex-workspace-scheduling-html-abf6fa5a56",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:53:54.336986+00:00",
+      "last_changed": "2026-08-17T00:53:54.336986+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:53:54.336986+00:00",
+      "next_check": "2026-08-18T00:53:54.336986+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225038-troubleshoot-hybrid-calendar-with.html": {
       "content_sha": "8c7ff7f606519ca9e274936174de2704fc6fb2e786ba486e31c71d8357d466ce",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-225038-troubleshoot-hybrid-calendar-with-html-bf87d21898",
@@ -634,6 +686,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T22:05:47.492540+00:00",
       "next_check": "2026-08-17T22:05:47.492540+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco.html": {
+      "content_sha": "6ec14661f431c6102f58bd69519098c2c0e288aab36e35c5c3e0840650f27fb8",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-225668-manage-profile-pictures-using-cisco-html-c86bc80770",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:53:50.423489+00:00",
+      "last_changed": "2026-08-17T00:53:50.423489+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:53:50.423489+00:00",
+      "next_check": "2026-08-18T00:53:50.423489+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -68382,5 +68447,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-17T00:51:13.190606+00:00"
+  "updated_at": "2026-08-17T00:54:04.031500+00:00"
 }

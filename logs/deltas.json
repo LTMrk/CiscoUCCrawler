@@ -1,13 +1,12 @@
 {
-  "run_at": "2026-08-17T00:51:13.254407+00:00",
+  "run_at": "2026-08-17T00:54:04.094716+00:00",
   "modo": "incremental",
   "added": [
-    "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214137-upgrade-read-332b044bd3",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su2-english-administration-guide-cer0-b-cisco-emergency-responder-admi-1f1dd5a28e",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-install-upgrade-guide-b-14cuciumg-b-14cuciumg-chapter-01-html-3612101096",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--35229a59d3",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-cdrdef-cucm-b-cdr-admin-guide-1251-cucm-b-cdr-admin-guid-66fba14154",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-rtmt-cucm-b-cisco-unified-rtmt-administration-1251-cucm--8554cb13c6"
+    "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-217232-how-to-configure-and-troubleshoot-cvi-fo-html-46d7361cce",
+    "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218127-understand-ediscovery-reports-to-search-html-e179c25824",
+    "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222202-enable-directory-synchronization-on-the-html-65348b0b41",
+    "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222835-troubleshoot-webex-workspace-scheduling-html-abf6fa5a56",
+    "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-225668-manage-profile-pictures-using-cisco-html-c86bc80770"
   ],
   "modified": [],
   "removed": [],
