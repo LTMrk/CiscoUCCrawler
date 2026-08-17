@@ -2600,6 +2600,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215438-how-to-export-tls-certifcate-from-cucm-p.html": {
+      "content_sha": "3296e87a451a6d7d43592ce13857faa7824e9f52b01c0344f719eb95aec97868",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-215438-how-to-expor-07deb5a5b7",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:13:58.537057+00:00",
+      "last_changed": "2026-08-17T00:13:58.537057+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:13:58.537057+00:00",
+      "next_check": "2026-08-18T00:13:58.537057+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215537-network-time-protocol-ntp-on-cucm.html": {
       "content_sha": "dc6c41c37d035070ec95022a07437e9f93d551f6ae4ef8eb57f651d6864567db",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-215537-network-time-5b13c6d611",
@@ -10514,6 +10527,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T21:16:16.199586+00:00",
       "next_check": "2026-08-17T21:16:16.199586+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_administration-guide-1251/cucm_b_administration-guide-1251_chapter_01.html": {
+      "content_sha": "31f5a8339510208da1d5e7f8658f9c25f61ad56f6bcbbeb060f3bf5bf4754d46",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1-admin-cucm-b-administration-guide-1251-cucm-b-administrati-bb86bc8b50",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:13:37.057135+00:00",
+      "last_changed": "2026-08-17T00:13:37.057135+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:13:37.057135+00:00",
+      "next_check": "2026-08-18T00:13:37.057135+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -19458,6 +19484,19 @@
       "last_modified": null,
       "last_seen": "2026-08-16T16:34:06.895106+00:00",
       "next_check": "2026-08-17T16:34:06.895106+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/14SU2/adminGd/cucm_b_administration-guide-14su2/cucm_m_back-up-the-system-14.html": {
+      "content_sha": "dcce54bca9ebd11e07c0af753a2c13e73916091e9623dc16a9034a46e5b08473",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-14su2-admingd-cucm-b-administration-guide-14su2-cucm-m-back-up-th-6a8d5958f9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-17T00:13:42.069753+00:00",
+      "last_changed": "2026-08-17T00:13:42.069753+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-17T00:13:42.069753+00:00",
+      "next_check": "2026-08-18T00:13:42.069753+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -64911,5 +64950,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-17T00:11:20.656370+00:00"
+  "updated_at": "2026-08-17T00:14:03.537554+00:00"
 }
