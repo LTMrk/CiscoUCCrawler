@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-workspaces-workspaceid-features-callforwarding
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /workspaces/{workspaceId}/features/callForwarding
+operation_id: Retrieve Call Forwarding Settings for a Workspace
+tags: Workspace Call Settings (1/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.664179+00:00
+retrieved_at: 2026-08-18T23:45:43.401793+00:00
 ---
 
 # GET /workspaces/{workspaceId}/features/callForwarding
@@ -33,31 +38,70 @@ In addition, the Business Continuity feature will send calls to a destination of
 This API requires a full or read-only administrator or location administrator auth token with a scope of `spark-admin:workspaces_read` or a user auth token with `spark:workspaces_read` scope can be used to read workspace settings.
 
 ## Parámetros
-- `workspaceId` [path] (string) **(requerido)**: Unique identifier for the workspace.
+- `workspaceId` [path] (string) (**requerido**): Unique identifier for the workspace.
 - `orgId` [query] (string): ID of the organization within which the workspace resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access the API.
 
-## Respuestas
-- **200**: OK
-  - `callForwarding` (object) **(requerido)**:
-    - `always` (object) **(requerido)**:
-      - `enabled` (boolean) **(requerido)**: "Always" call forwarding is enabled or disabled.
-      - `destination` (string): Destination for "Always" call forwarding.
-      - `ringReminderEnabled` (boolean) **(requerido)**: If `true`, a brief tone will be played on the person's phone when a call has been forwarded.
-      - `destinationVoicemailEnabled` (boolean) **(requerido)**: Enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
-    - `busy` (object) **(requerido)**:
-      - `enabled` (boolean) **(requerido)**: "Busy" call forwarding is enabled or disabled.
-      - `destination` (string): Destination for "Busy" call forwarding.
-      - `destinationVoicemailEnabled` (boolean) **(requerido)**: Enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
-    - `noAnswer` (object) **(requerido)**:
-      - `enabled` (boolean) **(requerido)**: "No Answer" call forwarding is enabled or disabled.
-      - `destination` (string): Destination for "No Answer" call forwarding.
-      - `numberOfRings` (number) **(requerido)**: Number of rings before the call will be forwarded if unanswered.
-      - `systemMaxNumberOfRings` (number) **(requerido)**: System-wide maximum number of rings allowed for `numberOfRings` setting.
-      - `destinationVoicemailEnabled` (boolean) **(requerido)**: Enables and disables sending incoming to destination number's voicemail if the destination is an internal phone number and that number has the voicemail service enabled.
-  - `businessContinuity` (object) **(requerido)**:
-    - `enabled` (boolean) **(requerido)**: Business Continuity is enabled or disabled.
-    - `destination` (string): Destination for Business Continuity.
-    - `destinationVoicemailEnabled` (boolean) **(requerido)**: Enabled or disabled state of sending incoming calls to the destination number's voicemail if the destination is an internal phone number and that number has the voicemail service enabled.
+## Ejemplo de invocación
+```bash
+curl -X GET '/workspaces/<workspaceId>/features/callForwarding' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `callForwarding` (object) (**requerido**):
+  - `always` (object) (**requerido**):
+    - `enabled` (boolean) (**requerido**): "Always" call forwarding is enabled or disabled.
+    - `destination` (string): Destination for "Always" call forwarding.
+    - `ringReminderEnabled` (boolean) (**requerido**): If `true`, a brief tone will be played on the person's phone when a call has been forwarded.
+    - `destinationVoicemailEnabled` (boolean) (**requerido**): Enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
+  - `busy` (object) (**requerido**):
+    - `enabled` (boolean) (**requerido**): "Busy" call forwarding is enabled or disabled.
+    - `destination` (string): Destination for "Busy" call forwarding.
+    - `destinationVoicemailEnabled` (boolean) (**requerido**): Enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
+  - `noAnswer` (object) (**requerido**):
+    - `enabled` (boolean) (**requerido**): "No Answer" call forwarding is enabled or disabled.
+    - `destination` (string): Destination for "No Answer" call forwarding.
+    - `numberOfRings` (number) (**requerido**): Number of rings before the call will be forwarded if unanswered.
+    - `systemMaxNumberOfRings` (number) (**requerido**): System-wide maximum number of rings allowed for `numberOfRings` setting.
+    - `destinationVoicemailEnabled` (boolean) (**requerido**): Enables and disables sending incoming to destination number's voicemail if the destination is an internal phone number and that number has the voicemail service enabled.
+- `businessContinuity` (object) (**requerido**):
+  - `enabled` (boolean) (**requerido**): Business Continuity is enabled or disabled.
+  - `destination` (string): Destination for Business Continuity.
+  - `destinationVoicemailEnabled` (boolean) (**requerido**): Enabled or disabled state of sending incoming calls to the destination number's voicemail if the destination is an internal phone number and that number has the voicemail service enabled.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "callForwarding": {
+    "always": {
+      "enabled": false,
+      "destination": "",
+      "ringReminderEnabled": false,
+      "destinationVoicemailEnabled": false
+    },
+    "busy": {
+      "enabled": true,
+      "destination": "+17084004987",
+      "destinationVoicemailEnabled": true
+    },
+    "noAnswer": {
+      "enabled": true,
+      "destination": "+12815550001",
+      "numberOfRings": 2,
+      "systemMaxNumberOfRings": 20,
+      "destinationVoicemailEnabled": false
+    }
+  },
+  "businessContinuity": {
+    "enabled": false,
+    "destination": "",
+    "destinationVoicemailEnabled": false
+  }
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -73,6 +117,9 @@ This API requires a full or read-only administrator or location administrator au
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

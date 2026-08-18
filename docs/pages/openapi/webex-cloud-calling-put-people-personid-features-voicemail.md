@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-people-personid-features-voicemail
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /people/{personId}/features/voicemail
+operation_id: Configure Voicemail Settings for a Person
+tags: User Call Settings (1/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.642526+00:00
+retrieved_at: 2026-08-18T23:45:43.368797+00:00
 ---
 
 # PUT /people/{personId}/features/voicemail
@@ -27,7 +32,7 @@ Optionally, notifications can be sent to a mobile phone via text or email. These
 This API requires a full or user administrator or location administrator auth token with the `spark-admin:people_write` scope or a user auth token with `spark:people_write` scope can be used by a person to update their settings.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: Unique identifier for the person.
+- `personId` [path] (string) (**requerido**): Unique identifier for the person.
 - `orgId` [query] (string): ID of the organization in which the person resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access API.
 
 ## Cuerpo de la petición (application/json)
@@ -41,11 +46,11 @@ This API requires a full or user administrator or location administrator auth to
   - `enabled` (boolean): Unanswered call sending to voicemail is enabled or disabled.
   - `greeting` (string): `DEFAULT` indicates the default greeting will be played. `CUSTOM` indicates a custom `.wav` file will be played.  * `DEFAULT` - The default greeting will be played.  * `CUSTOM` - Designates that a custom `.wav` file will be played. Valores: DEFAULT, CUSTOM.
   - `numberOfRings` (number): Number of rings before an unanswered call will be sent to voicemail. `numberOfRings` must be between 2 and 20, inclusive.
-- `notifications` (object) **(requerido)**: Settings for notifications when there are any new voicemails.
+- `notifications` (object) (**requerido**): Settings for notifications when there are any new voicemails.
   - `enabled` (boolean): Notifications for voicemails will be sent if enabled. At least one of the destination or smsDestination fields must be configured when enabled.
   - `destination` (string): Email address for notification delivery. For US/Canada text messages, use the `smsDestination` field rather than providing a SMS gateway address like `12025551212@txt.example.net` here.
   - `smsDestination` (string): SMS destination for notification delivery. Must be a US or Canada phone number in E.164 format (e.g., +12025551212).
-- `transferToNumber` (object) **(requerido)**: Settings for voicemail caller to transfer to a different number by pressing zero (0).
+- `transferToNumber` (object) (**requerido**): Settings for voicemail caller to transfer to a different number by pressing zero (0).
   - `enabled` (boolean): Enable or disable  voicemail caller transfer to a destination by pressing zero (0).
   - `destination` (string): Number voicemail caller will be transferred to when they press zero (0).
 - `emailCopyOfMessage` (object): Settings for sending a copy of new voicemail message audio via email.
@@ -60,7 +65,7 @@ This API requires a full or user administrator or location administrator auth to
   - `phoneNumber` (string): Designates FAX number.
   - `extension` (string): Designates Optional FAX extension.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "enabled": true,
@@ -91,8 +96,18 @@ This API requires a full or user administrator or location administrator auth to
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/people/<personId>/features/voicemail' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"notifications": {}, "transferToNumber": {}}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -108,6 +123,9 @@ This API requires a full or user administrator or location administrator auth to
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

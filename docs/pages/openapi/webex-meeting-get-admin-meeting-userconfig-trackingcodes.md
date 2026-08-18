@@ -2,10 +2,15 @@
 doc_id: webex-meeting-get-admin-meeting-userconfig-trackingcodes
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: GET
 path: /admin/meeting/userconfig/trackingCodes
+operation_id: Get User Tracking Codes
+tags: Tracking Codes
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.400609+00:00
+retrieved_at: 2026-08-18T23:45:44.492787+00:00
 ---
 
 # GET /admin/meeting/userconfig/trackingCodes
@@ -35,15 +40,44 @@ Lists user's tracking codes by an admin user.
 - `personId` [query] (string): Unique identifier for the user whose tracking codes are being retrieved. The admin user can specify the `personId` of a user on a site they manage and the API returns details for the user's tracking codes. At least one parameter of `personId` or `email` is required.
 - `email` [header] (string): e.g. john.andersen@example.com
 
-## Respuestas
-- **200**: OK
-  - `siteUrl` (string) **(requerido)**: Site URL for the tracking code.
-  - `personId` (string): Unique identifier for the user.
-  - `email` (string): Email address for the user.
-  - `trackingCodes` (array): Tracking code information.
-    - `id` (string) **(requerido)**: Unique identifier for tracking code.
-    - `name` (string) **(requerido)**: Name for tracking code.
-    - `value` (string) **(requerido)**: Value for tracking code.
+## Ejemplo de invocación
+```bash
+curl -X GET '/admin/meeting/userconfig/trackingCodes' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `siteUrl` (string) (**requerido**): Site URL for the tracking code.
+- `personId` (string): Unique identifier for the user.
+- `email` (string): Email address for the user.
+- `trackingCodes` (array): Tracking code information.
+  - `id` (string) (**requerido**): Unique identifier for tracking code.
+  - `name` (string) (**requerido**): Name for tracking code.
+  - `value` (string) (**requerido**): Value for tracking code.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS8xOGJiOWNjMC0zMWM2LTQ3MzYtYmE4OC0wMDk5ZmQzNDNmODE",
+  "email": "john.andersen@example.com",
+  "siteUrl": "example.webex.com",
+  "trackingCodes": [
+    {
+      "id": "1",
+      "name": "Department",
+      "value": "Engineering"
+    },
+    {
+      "id": "2",
+      "name": "Division",
+      "value": "Full-time"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -59,6 +93,9 @@ Lists user's tracking codes by an admin user.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

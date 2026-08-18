@@ -2,10 +2,15 @@
 doc_id: webex-meeting-post-meetingparticipants-admit
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: POST
 path: /meetingParticipants/admit
+operation_id: Admit Participants
+tags: Participants
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.386977+00:00
+retrieved_at: 2026-08-18T23:45:44.466684+00:00
 ---
 
 # POST /meetingParticipants/admit
@@ -29,7 +34,7 @@ Each `participantId` of `items` in the request body should have the same prefix 
   - `participantId` (string): The ID that identifies the meeting participant.
   - `breakoutSessionId` (string): The breakout session ID that identifies which breakout session to admit the participant into. Admit into the main session if the value is empty.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "items": [
@@ -43,8 +48,18 @@ Each `participantId` of `items` in the request body should have the same prefix 
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X POST '/meetingParticipants/admit' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -60,6 +75,9 @@ Each `participantId` of `items` in the request body should have the same prefix 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

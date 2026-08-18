@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-people-me-settings-hoteling-guest
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/people/me/settings/hoteling/guest
+operation_id: getHotelingGuestSettings
+tags: Call Settings For Me Phase 5
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.576828+00:00
+retrieved_at: 2026-08-18T23:45:43.250833+00:00
 ---
 
 # GET /telephony/config/people/me/settings/hoteling/guest
@@ -24,21 +29,49 @@ Hoteling is a feature of Webex Calling that enables flexible workspace solutions
 
 This API requires a user auth token with a scope of `spark:telephony_config_read`.
 
-## Respuestas
-- **200**: OK
-  - `enabled` (boolean) **(requerido)**: Enable/Disable hoteling guest functionality for the person. When enabled, the person can associate themselves with a hoteling host device.
-  - `associationLimitEnabled` (boolean): When enabled, the person's hoteling guest association will be automatically removed after the specified time period.
-  - `associationLimitHours` (integer): Time limit in hours for the hoteling guest association (1-999). Applicable when associationLimitEnabled is true.
-  - `hostAssociationLimitHours` (integer): Time limit in hours configured by the host for guest associations.
-  - `hostEnforcedAssociationLimitEnabled` (boolean): Indicates whether the host has enforced an association time limit.
-  - `hostFirstName` (string): First name of the hoteling host.
-  - `hostLastName` (string): Last name of the hoteling host.
-  - `hostId` (string): Unique identifier of the hoteling host person or workspace.
-  - `hostPhoneNumber` (string): Phone number of the hoteling host.
-  - `hostExtension` (string): Extension of the hoteling host.
-  - `hostLocation` (object): Location information for the hoteling host.
-    - `id` (string) **(requerido)**: Unique identifier of the hoteling host location.
-    - `name` (string) **(requerido)**: Name of the hoteling host location.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/people/me/settings/hoteling/guest' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `enabled` (boolean) (**requerido**): Enable/Disable hoteling guest functionality for the person. When enabled, the person can associate themselves with a hoteling host device.
+- `associationLimitEnabled` (boolean): When enabled, the person's hoteling guest association will be automatically removed after the specified time period.
+- `associationLimitHours` (integer): Time limit in hours for the hoteling guest association (1-999). Applicable when associationLimitEnabled is true.
+- `hostAssociationLimitHours` (integer): Time limit in hours configured by the host for guest associations.
+- `hostEnforcedAssociationLimitEnabled` (boolean): Indicates whether the host has enforced an association time limit.
+- `hostFirstName` (string): First name of the hoteling host.
+- `hostLastName` (string): Last name of the hoteling host.
+- `hostId` (string): Unique identifier of the hoteling host person or workspace.
+- `hostPhoneNumber` (string): Phone number of the hoteling host.
+- `hostExtension` (string): Extension of the hoteling host.
+- `hostLocation` (object): Location information for the hoteling host.
+  - `id` (string) (**requerido**): Unique identifier of the hoteling host location.
+  - `name` (string) (**requerido**): Name of the hoteling host location.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "enabled": true,
+  "associationLimitEnabled": true,
+  "associationLimitHours": 12,
+  "hostAssociationLimitHours": 24,
+  "hostEnforcedAssociationLimitEnabled": false,
+  "hostFirstName": "John",
+  "hostLastName": "Smith",
+  "hostId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9hYmNkZWYxMi0zNDU2LTc4OTAtYWJjZC1lZjEyMzQ1Njc4OTA",
+  "hostPhoneNumber": "+1234567890",
+  "hostExtension": "1234",
+  "hostLocation": {
+    "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzU0MDQ5NzQzLTIwM2MtNDM5OS1iN2NjLTU4ZmNkYzIwNjA3Zg",
+    "name": "San Jose"
+  }
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -54,6 +87,9 @@ This API requires a user auth token with a scope of `spark:telephony_config_read
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

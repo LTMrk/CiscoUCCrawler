@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-supervisors
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/supervisors
+operation_id: listCallQueueSupervisors
+tags: Features:  Call Queue
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.605957+00:00
+retrieved_at: 2026-08-18T23:45:43.303589+00:00
 ---
 
 # GET /telephony/config/supervisors
@@ -15,7 +20,7 @@ retrieved_at: 2026-08-16T11:30:32.605957+00:00
 **operationId:** `listCallQueueSupervisors`
 
 ## Resumen
-Get List of Supervisors with Customer Assist
+Get List of Supervisors for Call Queue or Customer Assist
 
 ## Descripción
 Get list of supervisors for an organization.
@@ -33,17 +38,55 @@ Requires a full, location, user or read-only administrator auth token with a sco
 - `order` [query] (string): Sort results alphabetically by supervisor name, in ascending or descending order.
 - `hasCxEssentials` [query] (boolean): Returns only the list of supervisors with Customer Assist license, when `true`. Otherwise returns the list of supervisors with Customer Experience Basic license.
 
-## Respuestas
-- **200**: OK
-  - `supervisors` (array) **(requerido)**: Array of supervisors.
-    - `id` (string) **(requerido)**: A unique identifier for the supervisor.
-    - `firstName` (string): First name of the supervisor.
-    - `lastName` (string): Last name of the supervisor.
-    - `phoneNumber` (string): Primary phone number of the supervisor.
-    - `extension` (string): Primary phone extension of the supervisor.
-    - `routingPrefix` (string): Routing prefix of location.
-    - `esn` (string): Routing prefix + extension of a person.
-    - `agentCount` (integer) **(requerido)**: Number of agents managed by supervisor. A supervisor must manage at least one agent.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/supervisors' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `supervisors` (array) (**requerido**): Array of supervisors.
+  - `id` (string) (**requerido**): A unique identifier for the supervisor.
+  - `firstName` (string): First name of the supervisor.
+  - `lastName` (string): Last name of the supervisor.
+  - `phoneNumber` (string): Primary phone number of the supervisor.
+  - `extension` (string): Primary phone extension of the supervisor.
+  - `routingPrefix` (string): Routing prefix of location.
+  - `esn` (string): Routing prefix + extension of a person.
+  - `agentCount` (integer) (**requerido**): Number of agents managed by supervisor. A supervisor must manage at least one agent.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "supervisors": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS81OGVkZTIwNi0yNTM5LTQ1ZjQtODg4Ny05M2E3ZWIwZWI3ZDI",
+      "firstName": "John",
+      "lastName": "Smith",
+      "phoneNumber": "+19845550186",
+      "extension": "12554",
+      "routingPrefix": "34",
+      "esn": "3412554",
+      "agentCount": 2,
+      "hasCxEssentials": true
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9mOWUyZjE5Zi1mMDYwLTQ1MjktYTA4OC05YmUzM2RiOTU3MDE",
+      "firstName": "Tom",
+      "lastName": "Addison",
+      "phoneNumber": "+19845550185",
+      "extension": "5160",
+      "routingPrefix": "34543",
+      "esn": "345435160",
+      "agentCount": 1,
+      "hasCxEssentials": true
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -59,6 +102,9 @@ Requires a full, location, user or read-only administrator auth token with a sco
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

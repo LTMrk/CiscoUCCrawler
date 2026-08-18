@@ -2,10 +2,15 @@
 doc_id: webex-meeting-get-videomesh-testresults-networktest
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: GET
 path: /videoMesh/testResults/networkTest
+operation_id: List Network Test results
+tags: Video Mesh
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.407015+00:00
+retrieved_at: 2026-08-18T23:45:44.507024+00:00
 ---
 
 # GET /videoMesh/testResults/networkTest
@@ -26,18 +31,73 @@ Returns the test results of the Network tests triggered for an organization. The
 <b>Websocket Connectivity Test</b> - Tests whether the Video Mesh node is able to connect to Webex cloud services via Websocket.<br/>
 
 ## Parámetros
-- `orgId` [query] (string) **(requerido)**: Unique ID of the organization.
-- `triggerType` [query] (string) **(requerido)**: Trigger type.
-- `from` [query] (string) **(requerido)**: The start date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. The `from` parameter cannot have date and time values that exceed `to`.
-- `to` [query] (string) **(requerido)**: The end date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
+- `orgId` [query] (string) (**requerido**): Unique ID of the organization.
+- `triggerType` [query] (string) (**requerido**): Trigger type. Valores: OnDemand, Periodic, All.
+- `from` [query] (string) (**requerido**): The start date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. The `from` parameter cannot have date and time values that exceed `to`.
+- `to` [query] (string) (**requerido**): The end date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
 
-## Respuestas
-- **200**: OK
-  - `orgId` (string): Unique ID of the organization.
-  - `from` (string): Start date and time (inclusive) of the Network Test data.
-  - `to` (string): End date and time (inclusive) of the Network Test data.
-  - `items` (array): Network test results.
-    - `clusters` (array): List of Video Mesh clusters.
+## Ejemplo de invocación
+```bash
+curl -X GET '/videoMesh/testResults/networkTest?orgId=<orgId>&triggerType=<triggerType>&from=<from>&to=<to>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `orgId` (string): Unique ID of the organization.
+- `from` (string): Start date and time (inclusive) of the Network Test data.
+- `to` (string): End date and time (inclusive) of the Network Test data.
+- `items` (array): Network test results.
+  - `clusters` (array): List of Video Mesh clusters.
+    - (cualquiera de:)
+      - `clusterId` (string): Unique ID of the Video Mesh cluster.
+      - `clusterName` (string): Name of the Video Mesh cluster.
+      - `nodes` (array):
+        - (cualquiera de:)
+      - `clusterId` (string): Unique ID of the Video Mesh cluster.
+      - `clusterName` (string): Name of the Video Mesh cluster.
+      - `nodes` (array):
+        - `nodeId` (string): Unique ID of the Video Mesh node.
+        - `hostNameOrIP` (string): Host name or IP Address of the Video Mesh node.
+        - `testResults` (array):
+
+### Ejemplo — respuesta 200
+```json
+{
+  "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi8yYzNjOWY5NS03M2Q5LTQ0NjAtYTY2OC0wNDcxNjJmZjFiYWQ=",
+  "from": "2023-01-15T15:53:00Z",
+  "to": "2023-01-20T15:53:00Z",
+  "items": [
+    {
+      "clusters": [
+        {
+          "clusterId": "Y2lzY29zcGFyazovL3VzL0hZQlJJRF9DTFVTVEVSLzJjM2M5Zjk1LTczZDktNDQ2MC1hNjY4LTA0NzE2MmZmMWJhZDpmMWJmMGI1MC0yMDUyLTQ3ZmUtYjg3ZC01MTFjMmZlNzQ3MWI=",
+          "clusterName": "sanjose",
+          "nodes": [
+            {
+              "nodeId": "Y2lzY29zcGFyazovL3VzL0hZQlJJRF9DT05ORUNUT1IvMmMzYzlmOTUtNzNkOS00NDYwLWE2NjgtMDQ3MTYyZmYxYmFkOm1mX21nbXRAMTU2ZGY3ODljODU1NGQ1NWEyNzVkZjk5NzhmOTkwMmQ=",
+              "hostNameOrIP": "abc.company.com",
+              "testResults": [
+                {
+                  "timestamp": "2022-03-15T15:53:00Z",
+                  "triggerType": "OnDemand",
+                  "id": "Y2lzY29zcGFyazovL3VzL0NPTU1BTkRJRC8xZWI2NWZkZi05NjQzLTQxN2YtOTk3NC1hZDcyY2FlMGUxMGY6YWRlODhhNjAtMzk5Mi0xMWVkLTlhYmQtYzUyMjRiZjNjMzQ4",
+                  "result": [
+                    {
+                      "type": "DNSResolutionTest",
+                      "results": [
+                        {
+                          "serviceType": "WebexCloud",
+                          "testResult": "Failed",
+                          "failureDetails": {
+                            "possibleFailureReason": [
+                              "DNS Resolution issue detected in the Video Mesh Node [Error Code: 1302]."
+                            ],
+  
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -53,6 +113,9 @@ Returns the test results of the Network tests triggered for an organization. The
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-people-personid-modemanagement-features
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/people/{personId}/modeManagement/features
+operation_id: getListOfFeaturesAssignedToAUserModeManagement
+tags: User Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.648738+00:00
+retrieved_at: 2026-08-18T23:45:43.378515+00:00
 ---
 
 # GET /telephony/config/people/{personId}/modeManagement/features
@@ -26,25 +31,74 @@ Features with mode-based call forwarding enabled can be assigned to a user for `
 Retrieving this list requires a full, read-only, or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: A unique identifier for the user.
+- `personId` [path] (string) (**requerido**): A unique identifier for the user.
 - `orgId` [query] (string): Retrieve features list from this organization.
 
-## Respuestas
-- **200**: OK
-  - `features` (array) **(requerido)**: Array of assigned features.
-    - `id` (string) **(requerido)**: A unique identifier for the feature.
-    - `name` (string) **(requerido)**: Unique name for the feature.
-    - `type` (string) **(requerido)**: * `AUTO_ATTENDANT` - Specifies the feature is an Auto Attendant.  * `CALL_QUEUE` - Specifies the feature is a Call Queue.  * `HUNT_GROUP` - Specifies the feature is a Hunt Group. Valores: AUTO_ATTENDANT, CALL_QUEUE, HUNT_GROUP.
-    - `phoneNumber` (string): The primary phone number configured for the feature.
-    - `extension` (string): The extension configured for the feature.
-    - `modeBasedForwardingEnabled` (boolean) **(requerido)**: A flag to indicate whether mode-based call forwarding is enabled for the feature.
-    - `forwardDestination` (string): The destination for call forwarding if mode-based call forwarding is enabled.
-    - `currentOperatingModeName` (string): Name of the current operating mode.
-    - `currentOperatingModeId` (string): Unique identifier for the current operating mode.
-    - `exceptionType` (string) **(requerido)**: * `MANUAL_SWITCH_BACK` - The mode was switched to or extended by the user for manual switch back and runs as an exception until the user manually switches the feature back to normal operation or a different mode.  * `AUTOMATIC_SWITCH_BACK_EARLY_START` - The mode was switched to by the user before its start time and runs as an exception until its end time is reached, at which point it automatically switches the feature back to normal operation.  * `AUTOMATIC_SWITCH_BACK_EXTENSION` - The current mode was extended by the user before its end time and runs as an exception until the extension end time (mode's end time + extension of up to 12 hours) is reached, at which point it automatically switches the feature back to normal operation.  * `AUTOMATIC_SWITCH_BACK_STANDARD` - The mode will remain the current operating mode for the feature until its normal end time is reached. Valores: MANUAL_SWITCH_BACK, AUTOMATIC_SWITCH_BACK_EARLY_START, AUTOMATIC_SWITCH_BACK_EXTENSION, AUTOMATIC_SWITCH_BACK_STANDARD.
-    - `location` (object):
-      - `id` (string) **(requerido)**: Location identifier associated with the members.
-      - `name` (string) **(requerido)**: Location name associated with the member.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/people/<personId>/modeManagement/features' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `features` (array) (**requerido**): Array of assigned features.
+  - `id` (string) (**requerido**): A unique identifier for the feature.
+  - `name` (string) (**requerido**): Unique name for the feature.
+  - `type` (string) (**requerido**): * `AUTO_ATTENDANT` - Specifies the feature is an Auto Attendant.  * `CALL_QUEUE` - Specifies the feature is a Call Queue.  * `HUNT_GROUP` - Specifies the feature is a Hunt Group. Valores: AUTO_ATTENDANT, CALL_QUEUE, HUNT_GROUP.
+  - `phoneNumber` (string): The primary phone number configured for the feature.
+  - `extension` (string): The extension configured for the feature.
+  - `modeBasedForwardingEnabled` (boolean) (**requerido**): A flag to indicate whether mode-based call forwarding is enabled for the feature.
+  - `forwardDestination` (string): The destination for call forwarding if mode-based call forwarding is enabled.
+  - `currentOperatingModeName` (string): Name of the current operating mode.
+  - `currentOperatingModeId` (string): Unique identifier for the current operating mode.
+  - `exceptionType` (string) (**requerido**): * `MANUAL_SWITCH_BACK` - The mode was switched to or extended by the user for manual switch back and runs as an exception until the user manually switches the feature back to normal operation or a different mode.  * `AUTOMATIC_SWITCH_BACK_EARLY_START` - The mode was switched to by the user before its start time and runs as an exception until its end time is reached, at which point it automatically switches the feature back to normal operation.  * `AUTOMATIC_SWITCH_BACK_EXTENSION` - The current mode was extended by the user before its end time and runs as an exception until the extension end time (mode's end time + extension of up to 12 hours) is reached, at which point it automatically switches the feature back to normal operation.  * `AUTOMATIC_SWITCH_BACK_STANDARD` - The mode will remain the current operating mode for the feature until its normal end time is reached. Valores: MANUAL_SWITCH_BACK, AUTOMATIC_SWITCH_BACK_EARLY_START, AUTOMATIC_SWITCH_BACK_EXTENSION, AUTOMATIC_SWITCH_BACK_STANDARD.
+  - `location` (object):
+    - `id` (string) (**requerido**): Location identifier associated with the members.
+    - `name` (string) (**requerido**): Location name associated with the member.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "features": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0FVVE9fQVRURU5EQU5ULzA1NTJmNjdiLTU5YTktNDFiYi04NzM2LTFiMDQxZDFkZGQ1ZQ",
+      "name": "Test Auto Attendant",
+      "type": "AUTO_ATTENDANT",
+      "phoneNumber": "+19705550028",
+      "extension": "0028",
+      "modeBasedForwardingEnabled": true,
+      "forwardDestination": "+14259964241",
+      "currentOperatingModeName": "Day Operating Mode",
+      "currentOperatingModeId": "Y2lzY29zcGFyazovL3VzL09QRVJBVElOR19NT0RFLzIxM2I1ZTIwLTljMjAtNDUwNi1iYWE3LTE0OGE0NWQyZWY4OQ",
+      "exceptionType": "AUTOMATIC_SWITCH_BACK_EARLY_START",
+      "location": {
+        "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2E4Mjg5NzIyLTFiODAtNDFiNy05Njc4LTBlNzdhZThjMTA5OA",
+        "name": "Banglore"
+      }
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0NBTExfUVVFVUUvNWMwZmYzZjctZjY2YS00NGQwLTlhODktZGY5N2U5MThkNjcw",
+      "name": "Test Call Queue",
+      "type": "CALL_QUEUE",
+      "phoneNumber": "+2055552221",
+      "extension": "0007",
+      "modeBasedForwardingEnabled": true,
+      "forwardDestination": "+19705550028",
+      "currentOperatingModeName": "Outage Operating Mode",
+      "currentOperatingModeId": "Y2lzY29zcGFyazovL3VzL09QRVJBVElOR19NT0RFL2VkMjg0NjE1LWY3ZDgtNDNhOC1iOGJmLTVkYmU2ZjMzMTNjZQ",
+      "exceptionType": "MANUAL_SWITCH_BACK",
+      "location": {
+        "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2E4Mjg5NzIyLTFiODAtNDFiNy05Njc4LTBlNzdhZThjMTA5OA",
+        "name": "Banglore"
+      }
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3Vz
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -60,6 +114,9 @@ Retrieving this list requires a full, read-only, or location administrator auth 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

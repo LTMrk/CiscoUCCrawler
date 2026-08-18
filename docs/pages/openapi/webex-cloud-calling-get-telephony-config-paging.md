@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-paging
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/paging
+operation_id: Read the List of Paging Groups
+tags: Features:  Paging Group
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.617818+00:00
+retrieved_at: 2026-08-18T23:45:43.324383+00:00
 ---
 
 # GET /telephony/config/paging
@@ -33,18 +38,57 @@ Retrieving this list requires a full or read-only administrator or location admi
 - `name` [query] (string): Return only paging groups with the matching name.
 - `phoneNumber` [query] (string): Return only paging groups with matching primary phone number or extension.
 
-## Respuestas
-- **200**: OK
-  - `locationPaging` (array) **(requerido)**: Array of paging groups.
-    - `id` (string) **(requerido)**: A unique identifier for the paging group.
-    - `name` (string) **(requerido)**: Unique name for the paging group. Minimum length is 1. Maximum length is 30.
-    - `phoneNumber` (string): Paging group phone number. Minimum length is 1. Maximum length is 23. Either `phoneNumber` or `extension` is mandatory.
-    - `extension` (string): Paging group extension. Minimum length is 2. Maximum length is 10. Either `phoneNumber` or `extension` is mandatory.
-    - `routingPrefix` (string): Routing prefix of location.
-    - `esn` (string): Routing prefix + extension of a person or workspace.
-    - `locationName` (string) **(requerido)**: Name of location for paging group.
-    - `locationId` (string) **(requerido)**: Id of location for paging group.
-    - `tollFreeNumber` (boolean) **(requerido)**: Flag to indicate toll free number.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/paging' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `locationPaging` (array) (**requerido**): Array of paging groups.
+  - `id` (string) (**requerido**): A unique identifier for the paging group.
+  - `name` (string) (**requerido**): Unique name for the paging group. Minimum length is 1. Maximum length is 30.
+  - `phoneNumber` (string): Paging group phone number. Minimum length is 1. Maximum length is 23. Either `phoneNumber` or `extension` is mandatory.
+  - `extension` (string): Paging group extension. Minimum length is 2. Maximum length is 10. Either `phoneNumber` or `extension` is mandatory.
+  - `routingPrefix` (string): Routing prefix of location.
+  - `esn` (string): Routing prefix + extension of a person or workspace.
+  - `locationName` (string) (**requerido**): Name of location for paging group.
+  - `locationId` (string) (**requerido**): Id of location for paging group.
+  - `tollFreeNumber` (boolean) (**requerido**): Flag to indicate toll free number.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "locationPaging": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1BBR0lOR19HUk9VUC9hSFpoWlROMk1HOHliMEEyTkRrME1USTVOeTVwYm5ReE1DNWlZMnhrTG5kbFltVjRMbU52YlE",
+      "name": "PagingGroup-1",
+      "locationName": "Alaska",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzEyMzQ1",
+      "phoneNumber": "+15558675309",
+      "extension": "7781",
+      "routingPrefix": "567",
+      "esn": "5677781",
+      "tollFreeNumber": false
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1BBR0lOR19HUk9VUC9hSFp6WkdaelpHWXliMEEyTkRJME1qTTBNamszTG1sdWRERXdMbUpqYkdRdWQyVmlaWGd1WTI5dA",
+      "name": "PagingGroup-2",
+      "locationName": "Alaska",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzEyMzQ1",
+      "phoneNumber": "+15558675310",
+      "extension": "7781",
+      "routingPrefix": "567",
+      "esn": "5677781",
+      "tollFreeNumber": false
+    }
+  ]
+}
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -60,6 +104,9 @@ Retrieving this list requires a full or read-only administrator or location admi
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

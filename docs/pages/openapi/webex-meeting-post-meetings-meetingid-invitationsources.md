@@ -2,10 +2,15 @@
 doc_id: webex-meeting-post-meetings-meetingid-invitationsources
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: POST
 path: /meetings/{meetingId}/invitationSources
+operation_id: createInvitationSources
+tags: Meetings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.399288+00:00
+retrieved_at: 2026-08-18T23:45:44.490286+00:00
 ---
 
 # POST /meetings/{meetingId}/invitationSources
@@ -21,16 +26,16 @@ Create Invitation Sources
 Creates one or more invitation sources for a meeting.
 
 ## Parámetros
-- `meetingId` [path] (string) **(requerido)**: Unique identifier for the meeting. Only the meeting ID of a scheduled webinar is supported for this API.
+- `meetingId` [path] (string) (**requerido**): Unique identifier for the meeting. Only the meeting ID of a scheduled webinar is supported for this API.
 
 ## Cuerpo de la petición (application/json)
 - `hostEmail` (string): Email address for the meeting host. This parameter is only used if a user or application calling the API has the admin-level scopes. The admin may specify the email of a user on a site they manage and the API will return meeting participants of the meetings that are hosted by that user.
 - `personId` (string): Unique identifier for the meeting host. Should only be set if the user or application calling the API has the admin-level scopes. When used, the admin may specify the email of a user in a site they manage to be the meeting host.
 - `items` (array):
-  - `sourceId` (string) **(requerido)**: Source ID for the invitation.
-  - `sourceEmail` (string) **(requerido)**: Email for invitation source.
+  - `sourceId` (string) (**requerido**): Source ID for the invitation.
+  - `sourceEmail` (string) (**requerido**): Email for invitation source.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "hostEmail": "john.andersen@example.com",
@@ -48,14 +53,46 @@ Creates one or more invitation sources for a meeting.
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `items` (array): Invitation source array.
-    - `id` (string) **(requerido)**: Unique identifier for invitation source.
-    - `sourceId` (string) **(requerido)**: Source ID for invitation.
-    - `sourceEmail` (string) **(requerido)**: Email for invitation source.
-    - `joinLink` (string): The link bound to `sourceId` can directly join the meeting. If the meeting requires registration,`joinLink` is not returned.
-    - `registerLink` (string): The link bound to `sourceId` can directly register the meeting. If the meeting requires registration, `registerLink` is returned.
+## Ejemplo de invocación
+```bash
+curl -X POST '/meetings/<meetingId>/invitationSources' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): Invitation source array.
+  - `id` (string) (**requerido**): Unique identifier for invitation source.
+  - `sourceId` (string) (**requerido**): Source ID for invitation.
+  - `sourceEmail` (string) (**requerido**): Email for invitation source.
+  - `joinLink` (string): The link bound to `sourceId` can directly join the meeting. If the meeting requires registration,`joinLink` is not returned.
+  - `registerLink` (string): The link bound to `sourceId` can directly register the meeting. If the meeting requires registration, `registerLink` is returned.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "1",
+      "sourceId": "cisco",
+      "joinLink": "https://example.webex.com/example/j.php?MTID=m6d75f1c875b3e3c5d18c7598036bdd8b",
+      "registerLink": "https://example.webex.com/example/j.php?RGID=rb05b31307b5b820e16594da9d1cfc5c7",
+      "sourceEmail": "john001@example.com"
+    },
+    {
+      "id": "2",
+      "sourceId": "webex",
+      "joinLink": "https://example.webex.com/example/j.php?MTID=m6d75f1c875b3e3c5d18c7598036bdd8b",
+      "registerLink": "https://example.webex.com/example/j.php?RGID=rb05b31307b5b820e16594da9d1cfc588",
+      "sourceEmail": "john002@example.com"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -71,6 +108,9 @@ Creates one or more invitation sources for a meeting.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

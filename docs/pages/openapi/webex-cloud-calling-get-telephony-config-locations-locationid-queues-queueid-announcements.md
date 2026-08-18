@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-locations-locationid-queues-queueid-announcements
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/queues/{queueId}/announcements
+operation_id: listCallQueueAnnouncementFiles
+tags: Features:  Call Queue
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.603226+00:00
+retrieved_at: 2026-08-18T23:45:43.298654+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/queues/{queueId}/announcements
@@ -27,19 +32,59 @@ Retrieving this list of files requires a full or read-only administrator or loca
 Note that uploading of announcement files via API is not currently supported, but is available via Webex Control Hub.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Location in which this call queue exists.
-- `queueId` [path] (string) **(requerido)**: Retrieve anouncement files for the call queue with this identifier.
+- `locationId` [path] (string) (**requerido**): Location in which this call queue exists.
+- `queueId` [path] (string) (**requerido**): Retrieve anouncement files for the call queue with this identifier.
 - `orgId` [query] (string): Retrieve announcement files for a call queue from this organization.
 
-## Respuestas
-- **200**: OK
-  - `announcements` (array) **(requerido)**: Array of announcements for this call queue.
-    - `id` (string) **(requerido)**: ID of the announcement.
-    - `fileName` (string) **(requerido)**: Name of greeting file.
-    - `fileSize` (string) **(requerido)**: Size of greeting file in kilo-bytes.
-    - `mediaFileType` (string) **(requerido)**: * `WMA` - WMA File Extension.  * `WAV` - WAV File Extension.  * `GP` - 3GP File Extension.  * `MOV` - MOV File Extension. Valores: WMA, WAV, GP, MOV.
-    - `level` (string) **(requerido)**: * `ORGANIZATION` - Organization level.  * `LOCATION` - Location level.  * `ENTITY` - Entity level. Valores: ORGANIZATION, LOCATION, ENTITY.
-    - `isTextToSpeech` (boolean) **(requerido)**: Indicates whether the announcement is a text-to-speech file.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/locations/<locationId>/queues/<queueId>/announcements' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `announcements` (array) (**requerido**): Array of announcements for this call queue.
+  - `id` (string) (**requerido**): ID of the announcement.
+  - `fileName` (string) (**requerido**): Name of greeting file.
+  - `fileSize` (string) (**requerido**): Size of greeting file in kilo-bytes.
+  - `mediaFileType` (string) (**requerido**): * `WMA` - WMA File Extension.  * `WAV` - WAV File Extension.  * `GP` - 3GP File Extension.  * `MOV` - MOV File Extension. Valores: WMA, WAV, GP, MOV.
+  - `level` (string) (**requerido**): * `ORGANIZATION` - Organization level.  * `LOCATION` - Location level.  * `ENTITY` - Entity level. Valores: ORGANIZATION, LOCATION, ENTITY.
+  - `isTextToSpeech` (boolean) (**requerido**): Indicates whether the announcement is a text-to-speech file.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "announcements": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC9kODc5YWZlZC1jNTRhLTQyOTctOGY0Mi02ZmEyMDJjN2E1M2E",
+      "fileName": "Greeting-1.wav",
+      "fileSize": "33456",
+      "mediaFileType": "WAV",
+      "level": "ORGANIZATION",
+      "isTextToSpeech": false
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC8zMjAxNjRmNC1lNWEzLTQxZmYtYTMyNi02N2MwOThlNDFrMWY",
+      "fileName": "Greeting-2.wav",
+      "fileSize": "32356",
+      "mediaFileType": "WAV",
+      "level": "LOCATION",
+      "isTextToSpeech": false
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC8zMjAxNjRmNC1lNWEzLTQxZmYtYTMyNi02N2MwOThlNDFoNmc",
+      "fileName": "Greeting-3.wav",
+      "fileSize": "31237",
+      "mediaFileType": "WAV",
+      "level": "ORGANIZATION",
+      "isTextToSpeech": false
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -55,6 +100,9 @@ Note that uploading of announcement files via API is not currently supported, bu
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

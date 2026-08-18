@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-people-me-settings-speeddials
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/people/me/settings/speedDials
+operation_id: getSpeedDials
+tags: Call Settings For Me
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.577131+00:00
+retrieved_at: 2026-08-18T23:45:43.251448+00:00
 ---
 
 # GET /telephony/config/people/me/settings/speedDials
@@ -24,21 +29,51 @@ Speed Dials allow Webex Calling users to quickly dial frequently contacted peopl
 
 This API requires a user auth token with a scope of `spark:telephony_config_read`.
 
-## Respuestas
-- **200**: OK
-  - `speedDials` (array) **(requerido)**: List of speed dial entries configured for the person.
-    - `id` (string): The identifier of the person, place or virtual line. See type for the resource type (PEOPLE, PLACE, or VIRTUAL_LINE). Only present for org speed dials.
-    - `lastName` (string): The last name of the person or virtual line.
-    - `firstName` (string): The first name of the person or virtual line.
-    - `displayName` (string): The display name of the person, place or virtual line.
-    - `type` (string): Indicates whether the type is `PEOPLE`, `PLACE` or `VIRTUAL_LINE`. Only present for org speed dials.  * `PEOPLE` - The speed dial is a person.  * `PLACE` - The speed dial is a workspace.  * `VIRTUAL_LINE` - The speed dial is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
-    - `phoneNumber` (string) **(requerido)**: The phone number of the person, place or virtual line.
-    - `extension` (string): The extension number for the person, place or virtual line.
-    - `routingPrefix` (string): Routing prefix of location.
-    - `locationName` (string): The location name where the speed dial is. Only present for org speed dials.
-    - `locationId` (string): The ID for the location. Only present for org speed dials.
-    - `lineKeyLabel` (string): This is a custom label configured for the speed dial on the device.
-  - `availableEntriesCount` (integer) **(requerido)**: This is the number of additional entries that can be stored (more than the number of entries listed).
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/people/me/settings/speedDials' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `speedDials` (array) (**requerido**): List of speed dial entries configured for the person.
+  - `id` (string): The identifier of the person, place or virtual line. See type for the resource type (PEOPLE, PLACE, or VIRTUAL_LINE). Only present for org speed dials.
+  - `lastName` (string): The last name of the person or virtual line.
+  - `firstName` (string): The first name of the person or virtual line.
+  - `displayName` (string): The display name of the person, place or virtual line.
+  - `type` (string): Indicates whether the type is `PEOPLE`, `PLACE` or `VIRTUAL_LINE`. Only present for org speed dials.  * `PEOPLE` - The speed dial is a person.  * `PLACE` - The speed dial is a workspace.  * `VIRTUAL_LINE` - The speed dial is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
+  - `phoneNumber` (string) (**requerido**): The phone number of the person, place or virtual line.
+  - `extension` (string): The extension number for the person, place or virtual line.
+  - `routingPrefix` (string): Routing prefix of location.
+  - `locationName` (string): The location name where the speed dial is. Only present for org speed dials.
+  - `locationId` (string): The ID for the location. Only present for org speed dials.
+  - `lineKeyLabel` (string): This is a custom label configured for the speed dial on the device.
+- `availableEntriesCount` (integer) (**requerido**): This is the number of additional entries that can be stored (more than the number of entries listed).
+
+### Ejemplo — respuesta 200
+```json
+{
+  "speedDials": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS85M2JjZWQ2Mi1lYWRmLTQ0MGItYThiYi03ZWQ5ZWEwNzExMTg",
+      "lastName": "Nelson",
+      "firstName": "John",
+      "displayName": "John Nelson",
+      "type": "PEOPLE",
+      "phoneNumber": "+15594015482",
+      "extension": "50003",
+      "routingPrefix": "8327",
+      "locationName": "San Francisco",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzFiNDIzN2U4LWE2MDYtNGM5Ni1iMDZmLTYzMmU5N2FjZmQxNg",
+      "lineKeyLabel": "Manager"
+    }
+  ],
+  "availableEntriesCount": 3
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -54,6 +89,9 @@ This API requires a user auth token with a scope of `spark:telephony_config_read
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

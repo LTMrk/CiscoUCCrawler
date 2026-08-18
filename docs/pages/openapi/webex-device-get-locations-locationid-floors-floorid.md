@@ -2,10 +2,15 @@
 doc_id: webex-device-get-locations-locationid-floors-floorid
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: GET
 path: /locations/{locationId}/floors/{floorId}
+operation_id: getLocationFloorDetails
+tags: Locations
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.135493+00:00
+retrieved_at: 2026-08-18T23:45:44.208845+00:00
 ---
 
 # GET /locations/{locationId}/floors/{floorId}
@@ -22,15 +27,33 @@ Shows details for a floor, by ID. Specify the floor ID in the `floorId` paramete
 Requires an administrator auth token with the `spark-admin:locations_read` scope.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: A unique identifier for the location.
-- `floorId` [path] (string) **(requerido)**: A unique identifier for the floor.
+- `locationId` [path] (string) (**requerido**): A unique identifier for the location.
+- `floorId` [path] (string) (**requerido**): A unique identifier for the floor.
 
-## Respuestas
-- **200**: OK
-  - `id` (string): Unique identifier for the floor.
-  - `locationId` (string): Unique identifier for the location.
-  - `floorNumber` (number) **(requerido)**: The floor number.
-  - `displayName` (string): The floor display name.
+## Ejemplo de invocación
+```bash
+curl -X GET '/locations/<locationId>/floors/<floorId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string): Unique identifier for the floor.
+- `locationId` (string): Unique identifier for the location.
+- `floorNumber` (number) (**requerido**): The floor number.
+- `displayName` (string): The floor display name.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLWVhc3QtMl9hL1dPUktTUEFDRV9MT0NBVElPTl9GTE9PUi83NDhkZDNmMS1iYmE5LTQxMDItODk5NC00M2IyOTM2MzNlNjY",
+  "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2E4NjczZDIwLWM0M2EtNDQ5Ni1iYWIxLTNiMjhhZGJjMjViYQ",
+  "floorNumber": -1,
+  "displayName": "The basement"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -46,6 +69,9 @@ Requires an administrator auth token with the `spark-admin:locations_read` scope
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-meeting-get-videomesh-testresults-mediahealthmonitortest-clusters
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: GET
 path: /videoMesh/testResults/mediaHealthMonitorTest/clusters
+operation_id: Get Media Health Monitoring Tool Test results for clusters V2
+tags: Video Mesh
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.405165+00:00
+retrieved_at: 2026-08-18T23:45:44.501905+00:00
 ---
 
 # GET /videoMesh/testResults/mediaHealthMonitorTest/clusters
@@ -29,21 +34,69 @@ Changes in V2:
 On-demand test results can be obtained along with the periodic tests that are executed on Video Mesh nodes.
 
 ## Parámetros
-- `clusterId` [query] (string) **(requerido)**: Unique ID of the Video Mesh cluster.
-- `triggerType` [query] (string) **(requerido)**: Trigger type.
-- `from` [query] (string) **(requerido)**: The start date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. The `from` parameter cannot have date and time values that exceed `to`.
-- `to` [query] (string) **(requerido)**: The end date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
+- `clusterId` [query] (string) (**requerido**): Unique ID of the Video Mesh cluster.
+- `triggerType` [query] (string) (**requerido**): Trigger type. Valores: OnDemand, Periodic, All.
+- `from` [query] (string) (**requerido**): The start date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. The `from` parameter cannot have date and time values that exceed `to`.
+- `to` [query] (string) (**requerido**): The end date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
 
-## Respuestas
-- **200**: OK
-  - `orgId` (string): Unique ID of the organization.
-  - `from` (string): Start date and time (inclusive) of the Media Health Monitoring Tool data.
-  - `to` (string): End date and time (inclusive) of the Media Health Monitoring Tool data.
-  - `items` (array): Media Health Monitoring Tool test results.
-    - `clusters` (array): List of Video Mesh clusters.
-      - `clusterId` (string): Unique ID of the Video Mesh cluster.
-      - `clusterName` (string): Name of the Video Mesh cluster.
-      - `nodes` (array): The Video Mesh nodes in the cluster.
+## Ejemplo de invocación
+```bash
+curl -X GET '/videoMesh/testResults/mediaHealthMonitorTest/clusters?clusterId=<clusterId>&triggerType=<triggerType>&from=<from>&to=<to>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `orgId` (string): Unique ID of the organization.
+- `from` (string): Start date and time (inclusive) of the Media Health Monitoring Tool data.
+- `to` (string): End date and time (inclusive) of the Media Health Monitoring Tool data.
+- `items` (array): Media Health Monitoring Tool test results.
+  - `clusters` (array): List of Video Mesh clusters.
+    - `clusterId` (string): Unique ID of the Video Mesh cluster.
+    - `clusterName` (string): Name of the Video Mesh cluster.
+    - `nodes` (array): The Video Mesh nodes in the cluster.
+      - (cualquiera de:)
+        - `nodeId` (string): Unique ID of the Video Mesh node.
+        - `hostNameOrIP` (string): Host name or the IP of the Video Mesh node.
+        - `mhmTestResults` (array): The Media Health Monitoring Tool test results for a single Video Mesh node.
+        - `nodeId` (string): Unique ID of the Video Mesh node.
+        - `hostNameOrIP` (string): Host name or IP Address of the Video Mesh node.
+        - `mhmTestResults` (array): The Media Health Monitoring Tool test results for a single Video Mesh node.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi8yYzNjOWY5NS03M2Q5LTQ0NjAtYTY2OC0wNDcxNjJmZjFiYWQ=",
+  "from": "2023-01-15T15:53:00Z",
+  "to": "2023-01-20T15:53:00Z",
+  "items": [
+    {
+      "clusters": [
+        {
+          "clusterId": "Y2lzY29zcGFyazovL3VzL0hZQlJJRF9DTFVTVEVSLzJjM2M5Zjk1LTczZDktNDQ2MC1hNjY4LTA0NzE2MmZmMWJhZDpmMWJmMGI1MC0yMDUyLTQ3ZmUtYjg3ZC01MTFjMmZlNzQ3MWI=",
+          "clusterName": "sanjose",
+          "nodes": [
+            {
+              "nodeId": "Y2lzY29zcGFyazovL3VzL0hZQlJJRF9DT05ORUNUT1IvMmMzYzlmOTUtNzNkOS00NDYwLWE2NjgtMDQ3MTYyZmYxYmFkOm1mX21nbXRAMTU2ZGY3ODljODU1NGQ1NWEyNzVkZjk5NzhmOTkwMmQ=",
+              "hostNameOrIP": "abc.company.com",
+              "mhmTestResults": [
+                {
+                  "timestamp": "2022-03-15T15:53:00Z",
+                  "id": "Y2lzY29zcGFyazovL3VzL0hZQlJJRF9DT01NQU5EX0lELzJjM2M5ZjllLTczZDktNDQ2MC1hNjY4LTA0NzE2MmZmMWJhYzo2NTJmNmMxMC01NjgxLTExZWQtOTkyZS1kNTY5YzlkMDlhNzU",
+                  "testResults": [
+                    {
+                      "testName": "Media Signalling",
+                      "testResult": "Failed",
+                      "failureReason": "An internal error occurred in monitoring tool [Error Code:1003]. If the issue persists, please contact Cisco Support."
+                    },
+                    {
+                      "testName": "Media Cascade",
+                      "testResult": "Failed",
+                      "failureReason": "An internal error occurred in monitoring 
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -59,6 +112,9 @@ On-demand test results can be obtained along with the periodic tests that are ex
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-device-post-devices-activationcode
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: POST
 path: /devices/activationCode
+operation_id: Create a Device Activation Code
+tags: Devices
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.134478+00:00
+retrieved_at: 2026-08-18T23:45:44.207160+00:00
 ---
 
 # POST /devices/activationCode
@@ -38,7 +43,7 @@ Generate an activation code for a device in a specific workspace by `workspaceId
 - `personId` (string): The ID of the person who will own the device once activated.
 - `model` (string): The model of the device being created. The corresponding device model display name sometimes called the product name, can also be used to specify the model.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "workspaceId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS83MTZlOWQxYy1jYTQ0LTRmZWQtOGZjYS05ZGY0YjRmNDE3ZjU",
@@ -46,10 +51,28 @@ Generate an activation code for a device in a specific workspace by `workspaceId
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `code` (string): The activation code.
-  - `expiryTime` (string): The date and time the activation code expires.
+## Ejemplo de invocación
+```bash
+curl -X POST '/devices/activationCode' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `code` (string): The activation code.
+- `expiryTime` (string): The date and time the activation code expires.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "code": "5414011256173816",
+  "expiryTime": "2017-11-16T23:38:03.215Z"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -65,6 +88,9 @@ Generate an activation code for a device in a specific workspace by `workspaceId
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

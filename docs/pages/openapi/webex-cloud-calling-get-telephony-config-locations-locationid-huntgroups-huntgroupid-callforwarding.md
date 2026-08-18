@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-locations-locationid-huntgroups-huntgroupid-callforwarding
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/callForwarding
+operation_id: getHuntGroupCallForwardingSettings
+tags: Features:  Hunt Group
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.614879+00:00
+retrieved_at: 2026-08-18T23:45:43.319180+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/callForwarding
@@ -29,47 +34,55 @@ Below are the available options for configuring your call forwarding:
 Retrieving call forwarding settings for a hunt group requires a full or read-only administrator or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Location in which this hunt group exists.
-- `huntGroupId` [path] (string) **(requerido)**: Read the call forwarding settings for this hunt group.
+- `locationId` [path] (string) (**requerido**): Location in which this hunt group exists.
+- `huntGroupId` [path] (string) (**requerido**): Read the call forwarding settings for this hunt group.
 - `orgId` [query] (string): Retrieve hunt group forwarding settings from this organization.
 
-## Respuestas
-- **200**: OK
-  - `callForwarding` (object) **(requerido)**: Settings related to `Always`, `Busy`, and `No Answer` call forwarding.
-    - `always` (object) **(requerido)**: Settings for forwarding all incoming calls to the destination you choose.
-      - `enabled` (boolean) **(requerido)**: `Always` call forwarding is enabled or disabled.
-      - `destination` (string): Destination for "Always" call forwarding.
-      - `ringReminderEnabled` (boolean) **(requerido)**: If `true`, a brief tone will be played on the person's phone when a call has been forwarded.
-      - `destinationVoicemailEnabled` (boolean) **(requerido)**: Indicates enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
-    - `selective` (object) **(requerido)**: Selectively forward calls to a designated number, depending on criteria rules. You'll need to have at least one rule for forwarding applied for call forwarding to be active.
-      - `enabled` (boolean) **(requerido)**: `Busy` call forwarding is enabled or disabled.
-      - `destination` (string): Destination for `Busy` call forwarding.
-      - `ringReminderEnabled` (boolean) **(requerido)**: If `true`, a brief tone will be played on the person's phone when a call has been forwarded.
-      - `destinationVoicemailEnabled` (boolean) **(requerido)**: Indicates enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
-    - `rules` (array): Rules for selectively forwarding calls.
-      - `id` (string) **(requerido)**: Unique ID for the rule.
-      - `name` (string): Unique name of rule.
-      - `callFrom` (string): Comma-separated list of incoming call numbers that, when matched, will not be forwarded. A Limit of 12 numbers is allowed. Use `Any private Number` in the comma-separated value to indicate rules that match incoming calls from a private number. Use `Any unavailable number` in the comma-separated value to match incoming calls from an unavailable number.
-      - `callsTo` (string): Comma-separated list of the types of numbers being matched for incoming call destination.
-      - `forwardTo` (string): Number to which calls will be forwarded if the rule is of type "Forward To" and the incoming call is matched.
-      - `enabled` (boolean): Reflects if rule is enabled.
-    - `operatingModes` (object): Settings related to operating modes.
-      - `enabled` (boolean) **(requerido)**: Operating modes are enabled or disabled.
-      - `currentOperatingModeId` (string) **(requerido)**: The ID of the current operating mode.
-      - `exceptionType` (string) **(requerido)**: The exception type.  * `MANUAL_SWITCH_BACK` - The mode was switched to or extended by the user for manual switch back and runs as an exception until the user manual switches the feature back to normal operation or a different mode.  * `AUTOMATIC_SWITCH_BACK_EARLY_START` - The mode was switched to by the user before its start time and runs as an exception until its end time is reached at which point it automatically switches the feature back to normal operation.  * `AUTOMATIC_SWITCH_BACK_EXTENSION` - The current mode was extended by the user before its end time and runs as an exception until the extension end time (mode's end time + extension of up to 12 hours) is reached at which point it automatically switches the feature back to normal operation.  * `AUTOMATIC_SWITCH_BACK_STANDARD` - The mode will remain the current operating mode for the feature until its normal end time is reached. Valores: MANUAL_SWITCH_BACK, AUTOMATIC_SWITCH_BACK_EARLY_START, AUTOMATIC_SWITCH_BACK_EXTENSION, AUTOMATIC_SWITCH_BACK_STANDARD.
-      - `modes` (array): Operating modes.
-        - `normalOperationEnabled` (boolean) **(requerido)**: Normal operation is enabled or disabled.
-        - `id` (string) **(requerido)**: The ID of the operating mode.
-        - `name` (string) **(requerido)**: The name of the operating mode.
-        - `type` (string) **(requerido)**: The type of the operating mode.  * `NONE` - The operating mode is not scheduled.  * `SAME_HOURS_DAILY` - Single time duration for Monday-Friday and single time duration for Saturday-Sunday.  * `DIFFERENT_HOURS_DAILY` - Individual time durations for every day of the week.  * `HOLIDAY` - Holidays which have date durations spanning multiple days, as well as an optional yearly recurrence by day or date. Valores: NONE, SAME_HOURS_DAILY, DIFFERENT_HOURS_DAILY, HOLIDAY.
-        - `level` (string) **(requerido)**: The level of the operating mode.  * `LOCATION` - The operating mode is at the location level.  * `ORGANIZATION` - The operating mode is at the organization level. Valores: LOCATION, ORGANIZATION.
-        - `forwardTo` (object) **(requerido)**: Forward to settings.
-          - `selection` (string) **(requerido)**: The selection for forwarding.  * `FORWARD_TO_DEFAULT_NUMBER` - When the rule matches, the mode's own default forwarding selection is to be applied.  * `FORWARD_TO_SPECIFIED_NUMBER` - When the rule matches, forward to the destination.  * `DO_NOT_FORWARD` - When the rule matches, do not forward to another number. Valores: FORWARD_TO_DEFAULT_NUMBER, FORWARD_TO_SPECIFIED_NUMBER, DO_NOT_FORWARD.
-          - `destination` (string) **(requerido)**: The destination for forwarding. Required when the selection is set to `FORWARD_TO_SPECIFIED_NUMBER`.
-          - `destinationVoicemailEnabled` (boolean) **(requerido)**: Sending incoming calls to voicemail is enabled/disabled when the destination is an internal phone number and that number has the voicemail service enabled.
-          - `defaultDestination` (string) **(requerido)**: The operating mode's destination.
-          - `defaultDestinationVoicemailEnabled` (boolean) **(requerido)**: The operating mode's destination voicemail enabled.
-          - `defaultForwardToSelection` (string) **(requerido)**: The operating mode's forward to selection.  * `FORWARD_TO_SPECIFIED_NUMBER` - When the rule matches, forward to the destination.  * `DO_NOT_FORWARD` - When the rule matches, do not forward to another number. Valores: FORWARD_TO_SPECIFIED_NUMBER, DO_NOT_FORWARD.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/locations/<locationId>/huntGroups/<huntGroupId>/callForwarding' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `callForwarding` (object) (**requerido**): Settings related to `Always`, `Busy`, and `No Answer` call forwarding.
+  - `always` (object) (**requerido**): Settings for forwarding all incoming calls to the destination you choose.
+    - `enabled` (boolean) (**requerido**): `Always` call forwarding is enabled or disabled.
+    - `destination` (string): Destination for "Always" call forwarding.
+    - `ringReminderEnabled` (boolean) (**requerido**): If `true`, a brief tone will be played on the person's phone when a call has been forwarded.
+    - `destinationVoicemailEnabled` (boolean) (**requerido**): Indicates enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
+  - `selective` (object) (**requerido**): Selectively forward calls to a designated number, depending on criteria rules. You'll need to have at least one rule for forwarding applied for call forwarding to be active.
+    - `enabled` (boolean) (**requerido**): `Busy` call forwarding is enabled or disabled.
+    - `destination` (string): Destination for `Busy` call forwarding.
+    - `ringReminderEnabled` (boolean) (**requerido**): If `true`, a brief tone will be played on the person's phone when a call has been forwarded.
+    - `destinationVoicemailEnabled` (boolean) (**requerido**): Indicates enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
+  - `rules` (array): Rules for selectively forwarding calls.
+    - `id` (string) (**requerido**): Unique ID for the rule.
+    - `name` (string): Unique name of rule.
+    - `callFrom` (string): Comma-separated list of incoming call numbers that, when matched, will not be forwarded. A Limit of 12 numbers is allowed. Use `Any private Number` in the comma-separated value to indicate rules that match incoming calls from a private number. Use `Any unavailable number` in the comma-separated value to match incoming calls from an unavailable number.
+    - `callsTo` (string): Comma-separated list of the types of numbers being matched for incoming call destination.
+    - `forwardTo` (string): Number to which calls will be forwarded if the rule is of type "Forward To" and the incoming call is matched.
+    - `enabled` (boolean): Reflects if rule is enabled.
+  - `operatingModes` (object): Settings related to operating modes.
+    - `enabled` (boolean) (**requerido**): Operating modes are enabled or disabled.
+    - `currentOperatingModeId` (string) (**requerido**): The ID of the current operating mode.
+    - `exceptionType` (string) (**requerido**): The exception type.  * `MANUAL_SWITCH_BACK` - The mode was switched to or extended by the user for manual switch back and runs as an exception until the user manual switches the feature back to normal operation or a different mode.  * `AUTOMATIC_SWITCH_BACK_EARLY_START` - The mode was switched to by the user before its start time and runs as an exception until its end time is reached at which point it automatically switches the feature back to normal operation.  * `AUTOMATIC_SWITCH_BACK_EXTENSION` - The current mode was extended by the user before its end time and runs as an exception until the extension end time (mode's end time + extension of up to 12 hours) is reached at which point it automatically switches the feature back to normal operation.  * `AUTOMATIC_SWITCH_BACK_STANDARD` - The mode will remain the current operating mode for the feature until its normal end time is reached. Valores: MANUAL_SWITCH_BACK, AUTOMATIC_SWITCH_BACK_EARLY_START, AUTOMATIC_SWITCH_BACK_EXTENSION, AUTOMATIC_SWITCH_BACK_STANDARD.
+    - `modes` (array): Operating modes.
+      - `normalOperationEnabled` (boolean) (**requerido**): Normal operation is enabled or disabled.
+      - `id` (string) (**requerido**): The ID of the operating mode.
+      - `name` (string) (**requerido**): The name of the operating mode.
+      - `type` (string) (**requerido**): The type of the operating mode.  * `NONE` - The operating mode is not scheduled.  * `SAME_HOURS_DAILY` - Single time duration for Monday-Friday and single time duration for Saturday-Sunday.  * `DIFFERENT_HOURS_DAILY` - Individual time durations for every day of the week.  * `HOLIDAY` - Holidays which have date durations spanning multiple days, as well as an optional yearly recurrence by day or date. Valores: NONE, SAME_HOURS_DAILY, DIFFERENT_HOURS_DAILY, HOLIDAY.
+      - `level` (string) (**requerido**): The level of the operating mode.  * `LOCATION` - The operating mode is at the location level.  * `ORGANIZATION` - The operating mode is at the organization level. Valores: LOCATION, ORGANIZATION.
+      - `forwardTo` (object) (**requerido**): Forward to settings.
+        - `selection` (string) (**requerido**): The selection for forwarding.  * `FORWARD_TO_DEFAULT_NUMBER` - When the rule matches, the mode's own default forwarding selection is to be applied.  * `FORWARD_TO_SPECIFIED_NUMBER` - When the rule matches, forward to the destination.  * `DO_NOT_FORWARD` - When the rule matches, do not forward to another number. Valores: FORWARD_TO_DEFAULT_NUMBER, FORWARD_TO_SPECIFIED_NUMBER, DO_NOT_FORWARD.
+        - `destination` (string) (**requerido**): The destination for forwarding. Required when the selection is set to `FORWARD_TO_SPECIFIED_NUMBER`.
+        - `destinationVoicemailEnabled` (boolean) (**requerido**): Sending incoming calls to voicemail is enabled/disabled when the destination is an internal phone number and that number has the voicemail service enabled.
+        - `defaultDestination` (string) (**requerido**): The operating mode's destination.
+        - `defaultDestinationVoicemailEnabled` (boolean) (**requerido**): The operating mode's destination voicemail enabled.
+        - `defaultForwardToSelection` (string) (**requerido**): The operating mode's forward to selection.  * `FORWARD_TO_SPECIFIED_NUMBER` - When the rule matches, forward to the destination.  * `DO_NOT_FORWARD` - When the rule matches, do not forward to another number. Valores: FORWARD_TO_SPECIFIED_NUMBER, DO_NOT_FORWARD.
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -85,6 +98,9 @@ Retrieving call forwarding settings for a hunt group requires a full or read-onl
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

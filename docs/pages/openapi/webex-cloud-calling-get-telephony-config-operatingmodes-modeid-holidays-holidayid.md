@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-operatingmodes-modeid-holidays-holidayid
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/operatingModes/{modeId}/holidays/{holidayId}
+operation_id: Get details for an Operating Mode Holiday
+tags: Features: Operating Modes
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.617094+00:00
+retrieved_at: 2026-08-18T23:45:43.322963+00:00
 ---
 
 # GET /telephony/config/operatingModes/{modeId}/holidays/{holidayId}
@@ -25,27 +30,55 @@ Holidays define a recurring schedule for the `Operating Modes`.
 Retrieving an `Operating Mode Holiday` requires a full, read-only, or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `modeId` [path] (string) **(requerido)**: Get the holiday from this `operating mode` matching ID.
-- `holidayId` [path] (string) **(requerido)**: Get the `operating mode Holiday` with the matching ID.
+- `modeId` [path] (string) (**requerido**): Get the holiday from this `operating mode` matching ID.
+- `holidayId` [path] (string) (**requerido**): Get the `operating mode Holiday` with the matching ID.
 - `orgId` [query] (string): Get the `operating mode` from this organization.
 
-## Respuestas
-- **200**: OK
-  - `id` (string) **(requerido)**: A unique identifier for the holiday.
-  - `name` (string) **(requerido)**: Name of the holiday.
-  - `allDayEnabled` (boolean) **(requerido)**: Specifies if the `operating mode holiday` schedule event is enabled for the entire day. `False` if the flag is not set.
-  - `startDate` (string) **(requerido)**: Start date of the `operating mode holiday`.
-  - `endDate` (string) **(requerido)**: End date of the `operating mode holiday`.
-  - `startTime` (string): Start time for the `operating mode holiday`. Mandatory if `allDayEnabled` is false.
-  - `endTime` (string): End time for the `operating mode holiday`. Mandatory if `allDayEnabled` is false.
-  - `recurrence` (object):
-    - `recurYearlyByDate` (object):
-      - `dayOfMonth` (number) **(requerido)**: Schedule the event on a specific day of the month.
-      - `month` (string) **(requerido)**: Schedule the event on a specific month of the year. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
-    - `recurYearlyByDay` (object):
-      - `day` (string) **(requerido)**: Schedule the event on a specific day. Valores: SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY.
-      - `week` (string) **(requerido)**: Schedule the event on a specific week. Valores: FIRST, SECOND, THIRD, FOURTH, LAST.
-      - `month` (string) **(requerido)**: Schedule the event on a specific month. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/operatingModes/<modeId>/holidays/<holidayId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string) (**requerido**): A unique identifier for the holiday.
+- `name` (string) (**requerido**): Name of the holiday.
+- `allDayEnabled` (boolean) (**requerido**): Specifies if the `operating mode holiday` schedule event is enabled for the entire day. `False` if the flag is not set.
+- `startDate` (string) (**requerido**): Start date of the `operating mode holiday`.
+- `endDate` (string) (**requerido**): End date of the `operating mode holiday`.
+- `startTime` (string): Start time for the `operating mode holiday`. Mandatory if `allDayEnabled` is false.
+- `endTime` (string): End time for the `operating mode holiday`. Mandatory if `allDayEnabled` is false.
+- `recurrence` (object):
+  - `recurYearlyByDate` (object):
+    - `dayOfMonth` (number) (**requerido**): Schedule the event on a specific day of the month.
+    - `month` (string) (**requerido**): Schedule the event on a specific month of the year. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
+  - `recurYearlyByDay` (object):
+    - `day` (string) (**requerido**): Schedule the event on a specific day. Valores: SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY.
+    - `week` (string) (**requerido**): Schedule the event on a specific week. Valores: FIRST, SECOND, THIRD, FOURTH, LAST.
+    - `month` (string) (**requerido**): Schedule the event on a specific month. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1NDSEVEVUxFX0VWRU5UL2E4Mjg5NzIyLTFiODAtNDFiNy05Njc4LTBlNzdhZThjMTIwOQ",
+  "name": "Christmas",
+  "allDayEnabled": true,
+  "startDate": "2024-12-25",
+  "endDate": "2024-12-26",
+  "startTime": "09:00",
+  "endTime": "17:00",
+  "recurrence": {
+    "recurYearlyByDay": {
+      "day": "TUESDAY",
+      "week": "FIRST",
+      "month": "JANUARY"
+    }
+  }
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -61,6 +94,9 @@ Retrieving an `Operating Mode Holiday` requires a full, read-only, or location a
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

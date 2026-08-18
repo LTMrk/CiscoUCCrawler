@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-people-personid-selectivereject
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/people/{personId}/selectiveReject
+operation_id: getUserSelectiveCallRejectionCriteriaListing
+tags: User Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.649654+00:00
+retrieved_at: 2026-08-18T23:45:43.379993+00:00
 ---
 
 # GET /telephony/config/people/{personId}/selectiveReject
@@ -25,17 +30,40 @@ With the Selective Call Rejection feature, you can create different rules to rej
 Requires a full, user, read-only, or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: A unique identifier for the person.
+- `personId` [path] (string) (**requerido**): A unique identifier for the person.
 - `orgId` [query] (string): Organization in which the user resides.
 
-## Respuestas
-- **200**: OK
-  - `enabled` (boolean) **(requerido)**: `true` if the Selective Reject feature is enabled.
-  - `criteria` (array): A list of criteria specifying conditions when selective reject is in effect.
-    - `id` (string) **(requerido)**: Unique identifier for criteria.
-    - `scheduleName` (string) **(requerido)**: Name of the location's schedule which determines when the selective reject is in effect.
-    - `source` (string) **(requerido)**: * `ALL_NUMBERS` - Selective reject criteria applies for all incoming numbers.  * `SPECIFIC_NUMBERS` - Selective reject criteria applies for calls from specific numbers.  * `FORWARDED` - Selective reject criteria applies for all forwarded calls. Valores: ALL_NUMBERS, SPECIFIC_NUMBERS, FORWARDED.
-    - `rejectEnabled` (boolean) **(requerido)**: This setting specifies to choose to reject or not to reject the calls that fit within these parameters.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/people/<personId>/selectiveReject' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `enabled` (boolean) (**requerido**): `true` if the Selective Reject feature is enabled.
+- `criteria` (array): A list of criteria specifying conditions when selective reject is in effect.
+  - `id` (string) (**requerido**): Unique identifier for criteria.
+  - `scheduleName` (string) (**requerido**): Name of the location's schedule which determines when the selective reject is in effect.
+  - `source` (string) (**requerido**): * `ALL_NUMBERS` - Selective reject criteria applies for all incoming numbers.  * `SPECIFIC_NUMBERS` - Selective reject criteria applies for calls from specific numbers.  * `FORWARDED` - Selective reject criteria applies for all forwarded calls. Valores: ALL_NUMBERS, SPECIFIC_NUMBERS, FORWARDED.
+  - `rejectEnabled` (boolean) (**requerido**): This setting specifies to choose to reject or not to reject the calls that fit within these parameters.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "enabled": true,
+  "criteria": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0NSSVRFUklBL1oxNzI5NzA4NzUwMTY4MDI",
+      "scheduleName": "demo_schedule",
+      "source": "ALL_NUMBERS",
+      "rejectEnabled": true
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -51,6 +79,9 @@ Requires a full, user, read-only, or location administrator auth token with a sc
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

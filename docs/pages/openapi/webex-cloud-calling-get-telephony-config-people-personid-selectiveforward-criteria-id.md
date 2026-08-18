@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-people-personid-selectiveforward-criteria-id
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/people/{personId}/selectiveForward/criteria/{id}
+operation_id: getCriteriaForUserSelectiveCallForwardingService
+tags: User Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.650710+00:00
+retrieved_at: 2026-08-18T23:45:43.381546+00:00
 ---
 
 # GET /telephony/config/people/{personId}/selectiveForward/criteria/{id}
@@ -25,23 +30,31 @@ With the Selective Call Forwarding feature, you can create different rules to fo
 Requires a full, user, read-only, or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: A unique identifier for the person.
-- `id` [path] (string) **(requerido)**: Criteria ID.
+- `personId` [path] (string) (**requerido**): A unique identifier for the person.
+- `id` [path] (string) (**requerido**): Criteria ID.
 - `orgId` [query] (string): Organization in which the user resides.
 
-## Respuestas
-- **200**: OK
-  - `id` (string): Criteria ID.
-  - `forwardToPhoneNumber` (string) **(requerido)**: Number to which calls needs to be forwarded.
-  - `sendToVoicemailEnabled` (boolean) **(requerido)**: Boolean flag to enable/disable sending calls to voicemail.
-  - `scheduleName` (string): Name of the schedule to which the criteria is created.
-  - `scheduleType` (string): * `businessHours` - The schedule type that specifies the business or working hours during the day.  * `holidays` - The schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
-  - `scheduleLevel` (string): * `PEOPLE` - The schedule level that specifies that criteria is of People level.  * `GROUP` - The schedule level that specifies that criteria is of Group level. Valores: PEOPLE, GROUP.
-  - `callsFrom` (string) **(requerido)**: * `ANY_PHONE_NUMBER` - Criteria apply for any incoming number.  * `SELECT_PHONE_NUMBERS` - Criteria only apply for selected incoming numbers.  * `ANY_INTERNAL` - Criteria only apply for any internal incoming numbers.  * `ANY_EXTERNAL` - Criteria only apply for any external incoming numbers. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, ANY_INTERNAL, ANY_EXTERNAL.
-  - `anonymousCallersEnabled` (boolean): Calls From custom numbers, private number enabled.
-  - `unavailableCallersEnabled` (boolean): Calls From custom numbers, unavailable number enabled.
-  - `phoneNumbers` (array): List of phone numbers. It does not include extensions. In some regions phone numbers are not returned in E.164 format. This will be supported in a future update.
-  - `forwardEnabled` (boolean): Boolean flag to enable/disable selective call forward.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/people/<personId>/selectiveForward/criteria/<id>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string): Criteria ID.
+- `forwardToPhoneNumber` (string) (**requerido**): Number to which calls needs to be forwarded.
+- `sendToVoicemailEnabled` (boolean) (**requerido**): Boolean flag to enable/disable sending calls to voicemail.
+- `scheduleName` (string): Name of the schedule to which the criteria is created.
+- `scheduleType` (string): * `businessHours` - The schedule type that specifies the business or working hours during the day.  * `holidays` - The schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
+- `scheduleLevel` (string): * `PEOPLE` - The schedule level that specifies that criteria is of People level.  * `GROUP` - The schedule level that specifies that criteria is of Group level. Valores: PEOPLE, GROUP.
+- `callsFrom` (string) (**requerido**): * `ANY_PHONE_NUMBER` - Criteria apply for any incoming number.  * `SELECT_PHONE_NUMBERS` - Criteria only apply for selected incoming numbers.  * `ANY_INTERNAL` - Criteria only apply for any internal incoming numbers.  * `ANY_EXTERNAL` - Criteria only apply for any external incoming numbers. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, ANY_INTERNAL, ANY_EXTERNAL.
+- `anonymousCallersEnabled` (boolean): Calls From custom numbers, private number enabled.
+- `unavailableCallersEnabled` (boolean): Calls From custom numbers, unavailable number enabled.
+- `phoneNumbers` (array): List of phone numbers. It does not include extensions. In some regions phone numbers are not returned in E.164 format. This will be supported in a future update.
+- `forwardEnabled` (boolean): Boolean flag to enable/disable selective call forward.
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -57,6 +70,9 @@ Requires a full, user, read-only, or location administrator auth token with a sc
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

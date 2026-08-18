@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-locations-locationid-emergencycallbacknumber-availablenumbers
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/emergencyCallbackNumber/availableNumbers
+operation_id: Get Location ECBN Available Phone Numbers
+tags: Location Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.623593+00:00
+retrieved_at: 2026-08-18T23:45:43.335086+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/emergencyCallbackNumber/availableNumbers
@@ -26,28 +31,92 @@ The available numbers APIs help identify candidate numbers and their owning enti
 Retrieving this list requires a full, read-only or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Return the list of phone numbers for this location within the given organization. The maximum length is 36.
+- `locationId` [path] (string) (**requerido**): Return the list of phone numbers for this location within the given organization. The maximum length is 36.
 - `orgId` [query] (string): List numbers for this organization.
 - `max` [query] (number): Limit the number of phone numbers returned to this maximum count. The default is 2000.
 - `start` [query] (number): Start at the zero-based offset in the list of matching phone numbers. The default is 0.
 - `phoneNumber` [query] (array): Filter phone numbers based on the comma-separated list provided in the `phoneNumber` array.
 - `ownerName` [query] (string): Return the list of phone numbers that are owned by the given `ownerName`. Maximum length is 255.
 
-## Respuestas
-- **200**: OK
-  - `phoneNumbers` (array) **(requerido)**: Array of phone numbers.
-    - `phoneNumber` (string) **(requerido)**: A unique identifier for the phone number.
-    - `state` (string) **(requerido)**: * `ACTIVE` - Phone number is in the active state.  * `INACTIVE` - Phone number is in the inactive state. Valores: ACTIVE, INACTIVE.
-    - `isMainNumber` (boolean) **(requerido)**: If `true`, the phone number is used as a location CLID.
-    - `tollFreeNumber` (boolean) **(requerido)**: If `true`, the phone number is a toll-free number.
-    - `telephonyType` (string) **(requerido)**: * `PSTN_NUMBER` - The object is a PSTN number. Valores: PSTN_NUMBER.
-    - `isServiceNumber` (boolean) **(requerido)**: If `true`, the phone number is a service number; otherwise, it is a standard number. Service numbers are high-utilization or high-concurrency PSTN phone numbers that are neither mobile nor toll-free.
-    - `owner` (object):
-      - `id` (string) **(requerido)**: Unique identifier of the owner to which the number is assigned.
-      - `type` (string) **(requerido)**: Type of the number's owner.  * `PLACE` - Number's owner is a workspace.  * `PEOPLE` - Number's owner is a person.  * `VIRTUAL_LINE` - Number's owner is a Virtual Line.  * `HUNT_GROUP` - Number's owner is a Hunt Group. Valores: PLACE, PEOPLE, VIRTUAL_LINE, HUNT_GROUP.
-      - `firstName` (string): First name of the number's owner. This field will be present only when the owner `type` is `PEOPLE` or `VIRTUAL_LINE`.
-      - `lastName` (string): Last name of the number's owner. This field will be present only when the owner `type` is `PEOPLE` or `VIRTUAL_LINE`.
-      - `displayName` (string): Display name of the number's owner.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/locations/<locationId>/emergencyCallbackNumber/availableNumbers' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `phoneNumbers` (array) (**requerido**): Array of phone numbers.
+  - `phoneNumber` (string) (**requerido**): A unique identifier for the phone number.
+  - `state` (string) (**requerido**): * `ACTIVE` - Phone number is in the active state.  * `INACTIVE` - Phone number is in the inactive state. Valores: ACTIVE, INACTIVE.
+  - `isMainNumber` (boolean) (**requerido**): If `true`, the phone number is used as a location CLID.
+  - `tollFreeNumber` (boolean) (**requerido**): If `true`, the phone number is a toll-free number.
+  - `telephonyType` (string) (**requerido**): * `PSTN_NUMBER` - The object is a PSTN number. Valores: PSTN_NUMBER.
+  - `isServiceNumber` (boolean) (**requerido**): If `true`, the phone number is a service number; otherwise, it is a standard number. Service numbers are high-utilization or high-concurrency PSTN phone numbers that are neither mobile nor toll-free.
+  - `owner` (object):
+    - `id` (string) (**requerido**): Unique identifier of the owner to which the number is assigned.
+    - `type` (string) (**requerido**): Type of the number's owner.  * `PLACE` - Number's owner is a workspace.  * `PEOPLE` - Number's owner is a person.  * `VIRTUAL_LINE` - Number's owner is a Virtual Line.  * `HUNT_GROUP` - Number's owner is a Hunt Group. Valores: PLACE, PEOPLE, VIRTUAL_LINE, HUNT_GROUP.
+    - `firstName` (string): First name of the number's owner. This field will be present only when the owner `type` is `PEOPLE` or `VIRTUAL_LINE`.
+    - `lastName` (string): Last name of the number's owner. This field will be present only when the owner `type` is `PEOPLE` or `VIRTUAL_LINE`.
+    - `displayName` (string): Display name of the number's owner.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "phoneNumbers": [
+    {
+      "phoneNumber": "+12056350001",
+      "state": "ACTIVE",
+      "isMainNumber": false,
+      "telephonyType": "PSTN_NUMBER",
+      "tollFreeNumber": false,
+      "isServiceNumber": false,
+      "owner": {
+        "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9jODhiZGIwNC1jZjU5LTRjMjMtODQ4OC00NTNhOTE3ZDFlMjk",
+        "type": "PEOPLE",
+        "firstName": "Test",
+        "lastName": "Person",
+        "displayName": "Test Person"
+      }
+    },
+    {
+      "phoneNumber": "+12056350002",
+      "extension": "1235",
+      "state": "ACTIVE",
+      "isMainNumber": true,
+      "telephonyType": "PSTN_NUMBER",
+      "tollFreeNumber": false,
+      "isServiceNumber": false,
+      "owner": {
+        "id": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLWVhc3QtMV9pbnQxMy9QTEFDRS9iMzRmZjk3ZC1jMDkzLTRiYTMtOTEyMC0yMDc1M2U3Yjg3YjA=",
+        "type": "PLACE",
+        "displayName": "TestWorkSpace"
+      }
+    },
+    {
+      "phoneNumber": "+12056350003",
+      "extension": "1236",
+      "state": "INACTIVE",
+      "isMainNumber": false,
+      "telephonyType": "PSTN_NUMBER",
+      "tollFreeNumber": true,
+      "isServiceNumber": false,
+      "owner": {
+        "id": "Y2lzY29zcGFyazovL3VzL1ZJUlRVQUxfTElORS82NWQ3MmYwNS00NDYzLTQxYzktYjI0Ni01MDhkMDM2YzJhOTE",
+        "type": "VIRTUAL_LINE",
+        "displayName": "Test VL"
+      }
+    },
+    {
+      "phoneNumber": "+12056350004",
+      "state": "ACTIVE",
+      "isMainNumber": false,
+      "telephonyType": "PSTN_NUMBER",
+      "tollFreeNumbe
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -63,6 +132,9 @@ Retrieving this list requires a full, read-only or location administrator auth t
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

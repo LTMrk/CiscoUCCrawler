@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-locations-locationid-floors
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /locations/{locationId}/floors
+operation_id: createLocationFloor
+tags: Locations
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.631230+00:00
+retrieved_at: 2026-08-18T23:45:43.349158+00:00
 ---
 
 # POST /locations/{locationId}/floors
@@ -22,13 +27,13 @@ Create a new floor in the given location. The `displayName` parameter is optiona
 Requires an administrator auth token with the `spark-admin:locations_write` scope.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: A unique identifier for the location.
+- `locationId` [path] (string) (**requerido**): A unique identifier for the location.
 
 ## Cuerpo de la petición (application/json)
-- `floorNumber` (number) **(requerido)**: The floor number.
+- `floorNumber` (number) (**requerido**): The floor number.
 - `displayName` (string): The floor display name.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "floorNumber": -1,
@@ -36,12 +41,32 @@ Requires an administrator auth token with the `spark-admin:locations_write` scop
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `id` (string): Unique identifier for the floor.
-  - `locationId` (string): Unique identifier for the location.
-  - `floorNumber` (number) **(requerido)**: The floor number.
-  - `displayName` (string): The floor display name.
+## Ejemplo de invocación
+```bash
+curl -X POST '/locations/<locationId>/floors' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"floorNumber": 0}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `id` (string): Unique identifier for the floor.
+- `locationId` (string): Unique identifier for the location.
+- `floorNumber` (number) (**requerido**): The floor number.
+- `displayName` (string): The floor display name.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLWVhc3QtMl9hL1dPUktTUEFDRV9MT0NBVElPTl9GTE9PUi83NDhkZDNmMS1iYmE5LTQxMDItODk5NC00M2IyOTM2MzNlNjY",
+  "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2E4NjczZDIwLWM0M2EtNDQ5Ni1iYWIxLTNiMjhhZGJjMjViYQ",
+  "floorNumber": -1,
+  "displayName": "The basement"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -57,6 +82,9 @@ Requires an administrator auth token with the `spark-admin:locations_write` scop
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

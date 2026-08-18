@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-virtualextensions
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/virtualExtensions
+operation_id: Create a Virtual Extension
+tags: Features: Virtual Extensions
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.619266+00:00
+retrieved_at: 2026-08-18T23:45:43.326934+00:00
 ---
 
 # POST /telephony/config/virtualExtensions
@@ -32,12 +37,12 @@ Creating a virtual extension requires a full administrator or location administr
 ## Cuerpo de la petición (application/json)
 - `firstName` (string): First name of the person at the virtual extension.
 - `lastName` (string): Last name of the person at the virtual extension.
-- `displayName` (string) **(requerido)**: Display name of the person at the virtual extension.
-- `phoneNumber` (string) **(requerido)**: Directory number of the virtual extension.
-- `extension` (string) **(requerido)**: Extension of the virtual extension.
+- `displayName` (string) (**requerido**): Display name of the person at the virtual extension.
+- `phoneNumber` (string) (**requerido**): Directory number of the virtual extension.
+- `extension` (string) (**requerido**): Extension of the virtual extension.
 - `locationId` (string): ID of the location to which the virtual extension is assigned. The location ID is a unique identifier for the location in Webex Calling.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "firstName": "John",
@@ -49,9 +54,26 @@ Creating a virtual extension requires a full administrator or location administr
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `id` (string) **(requerido)**: ID of the newly created virtual extension.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/virtualExtensions' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"displayName": "<displayName>", "phoneNumber": "<phoneNumber>", "extension": "<extension>"}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `id` (string) (**requerido**): ID of the newly created virtual extension.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1ZJUlRVQUxfRVhURU5TSU9OLzk0OThkMTE0LWMwMGMtNGZkNC1iMTk5LWU4ODQ2N2UwNzVkNw"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -67,6 +89,9 @@ Creating a virtual extension requires a full administrator or location administr
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

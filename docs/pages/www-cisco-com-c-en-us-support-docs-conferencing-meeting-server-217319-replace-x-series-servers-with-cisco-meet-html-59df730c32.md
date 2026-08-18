@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-217319-replace-x-series-servers-with-cisco-meet-html-59df730c32
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217319-replace-x-series-servers-with-cisco-meet.html
-retrieved_at: 2026-08-16T14:20:54.930233+00:00
+retrieved_at: 2026-08-18T23:49:32.298031+00:00
 ---
 
 Replace X-series servers with Cisco Meeting Server appliance or Virtual Machine
 
 # Replace X-series servers with Cisco Meeting Server appliance or Virtual Machine
-
-Log in to Save Content
 
 ### Download Options
 
@@ -403,12 +401,6 @@ Cisco TAC
 Steven Janssens
 
 Cisco TAC
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 

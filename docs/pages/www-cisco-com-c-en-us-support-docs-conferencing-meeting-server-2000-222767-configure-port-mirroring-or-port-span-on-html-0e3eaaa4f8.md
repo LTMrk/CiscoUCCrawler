@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-2000-222767-configure-port-mirroring-or-port-span-on-html-0e3eaaa4f8
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-2000/222767-configure-port-mirroring-or-port-span-on.html
-retrieved_at: 2026-08-16T14:20:59.407585+00:00
+retrieved_at: 2026-08-18T23:48:16.935593+00:00
 ---
 
 Configure Port Mirroring or Port SPAN on CMS 2000
 
 # Configure Port Mirroring or Port SPAN on CMS 2000
-
-Log in to Save Content
 
 ### Download Options
 
@@ -125,12 +123,6 @@ Initial Release
 Hassan Mohseni Pour Samii
 
 TAC
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Revision | Publish Date | Comments |
 |---|---|---|

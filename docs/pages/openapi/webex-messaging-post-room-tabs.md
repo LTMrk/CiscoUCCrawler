@@ -2,10 +2,15 @@
 doc_id: webex-messaging-post-room-tabs
 source: webex-openapi-specs/public-spec/webex-messaging.json
 api: Webex Messaging
+api_version: 1.0.0
 method: POST
 path: /room/tabs
+operation_id: Create a Room Tab
+tags: Room Tabs
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.514400+00:00
+retrieved_at: 2026-08-18T23:45:44.811333+00:00
 ---
 
 # POST /room/tabs
@@ -21,11 +26,11 @@ Create a Room Tab
 Add a tab with a specified URL to a room.
 
 ## Cuerpo de la petición (application/json)
-- `roomId` (string) **(requerido)**: A unique identifier for the room.
-- `contentUrl` (string) **(requerido)**: URL of the Room Tab. Must use `https` protocol.
-- `displayName` (string) **(requerido)**: User-friendly name for the room tab.
+- `roomId` (string) (**requerido**): A unique identifier for the room.
+- `contentUrl` (string) (**requerido**): URL of the Room Tab. Must use `https` protocol.
+- `displayName` (string) (**requerido**): User-friendly name for the room tab.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vYmJjZWIxYWQtNDNmMS0zYjU4LTkxNDctZjE0YmIwYzRkMTU0",
@@ -34,15 +39,38 @@ Add a tab with a specified URL to a room.
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `id` (string): A unique identifier for the Room Tab.
-  - `roomId` (string): A unique identifier for the room containing the room tab.
-  - `roomType` (string): The room type.  * `direct` - 1:1 room  * `group` - group room Valores: direct, group.
-  - `displayName` (string) **(requerido)**: User-friendly name for the room tab.
-  - `contentUrl` (string): Room Tab's content URL.
-  - `creatorId` (string): The person ID of the person who created this Room Tab.
-  - `created` (string): The date and time when the Room Tab was created.
+## Ejemplo de invocación
+```bash
+curl -X POST '/room/tabs' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"roomId": "<roomId>", "contentUrl": "<contentUrl>", "displayName": "<displayName>"}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string): A unique identifier for the Room Tab.
+- `roomId` (string): A unique identifier for the room containing the room tab.
+- `roomType` (string): The room type.  * `direct` - 1:1 room  * `group` - group room Valores: direct, group.
+- `displayName` (string) (**requerido**): User-friendly name for the room tab.
+- `contentUrl` (string): Room Tab's content URL.
+- `creatorId` (string): The person ID of the person who created this Room Tab.
+- `created` (string): The date and time when the Room Tab was created.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL01FTUJFUlNISVAvMGQwYzkxYjYtY2U2MC00NzI1LWI2ZDAtMzQ1NWQ1ZDExZWYzOmNkZTFkZDQwLTJmMGQtMTFlNS1iYTljLTdiNjU1NmQyMjA3Yg",
+  "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vYmJjZWIxYWQtNDNmMS0zYjU4LTkxNDctZjE0YmIwYzRkMTU0",
+  "roomType": "group",
+  "displayName": "Cisco HomePage",
+  "contentUrl": "https://www.cisco.com",
+  "creatorId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9mNWIzNjE4Ny1jOGRkLTQ3MjctOGIyZi1mOWM0NDdmMjkwNDY",
+  "created": "2015-10-18T14:26:16.203Z"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -58,6 +86,9 @@ Add a tab with a specified URL to a room.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Messaging APIs offer robust programmatic access to messaging features within Webex, including sending and receiving messages, managing spaces, memberships, attachments, and moderating content. These APIs enable integration with bots, workflow automation, notification systems, and custom messaging solutions to enhance team collaboration and productivity. Use cases include building chatbots, integrating with ticketing or alerting platforms, automating onboarding flows, and creating custom collaboration experiences tailored to business needs.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-device-get-telephony-config-devices-dynamicsettings-validationschema
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: GET
 path: /telephony/config/devices/dynamicSettings/validationSchema
+operation_id: getValidationSchema
+tags: Beta Device Call Settings With Dynamic Device Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.132023+00:00
+retrieved_at: 2026-08-18T23:45:44.203150+00:00
 ---
 
 # GET /telephony/config/devices/dynamicSettings/validationSchema
@@ -26,24 +31,107 @@ The schema is used to validate the `tag` for devices in the `Webex Calling` plat
 - `orgId` [query] (string): Validation schema for devices in this organization.
 - `familyOrModelDisplayName` [query] (string): Device family or model display name to filter the schema.
 
-## Respuestas
-- **200**: OK.
-  - `tags` (array): Array of device settings tags with their validation rules.
-    - `familyOrModelDisplayName` (string): The family or model name of the device to which these settings apply.
-    - `tag` (string): The unique identifier for the setting.
-    - `friendlyName` (string): A user-friendly name for the setting. It helps to correlate the tag with the UI in settings groups.
-    - `tooltip` (string): Explanatory text for the setting.
-    - `alert` (string): Alert message related to this setting, if applicable.
-    - `level` (array): The levels at which this setting can be configured. When fetching tags or updating tags, the tag should be allowed at the level the request is made for.
-    - `validationRule` (object): Validation rules and constraints for device setting values.
-      - `type` (string): The data type of the setting. Possible values are `string`, `integer`, `boolean`, `enum` , `password` or `network`.
-      - `values` (array): Possible values for `enum` or `boolean` types.
-      - `min` (integer): Minimum value for numeric types.
-      - `max` (integer): Maximum value for numeric types.
-      - `increment` (integer): Increment value for numeric types.
-      - `regex` (string): Regular expression pattern for string validation.
-      - `maxLength` (integer): Maximum length for string values.
-      - `validationHint` (string): Hint to display to users about validation requirements.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/devices/dynamicSettings/validationSchema' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK.
+- `tags` (array): Array of device settings tags with their validation rules.
+  - `familyOrModelDisplayName` (string): The family or model name of the device to which these settings apply.
+  - `tag` (string): The unique identifier for the setting.
+  - `friendlyName` (string): A user-friendly name for the setting. It helps to correlate the tag with the UI in settings groups.
+  - `tooltip` (string): Explanatory text for the setting.
+  - `alert` (string): Alert message related to this setting, if applicable.
+  - `level` (array): The levels at which this setting can be configured. When fetching tags or updating tags, the tag should be allowed at the level the request is made for.
+  - `validationRule` (object): Validation rules and constraints for device setting values.
+    - `type` (string): The data type of the setting. Possible values are `string`, `integer`, `boolean`, `enum` , `password` or `network`.
+    - `values` (array): Possible values for `enum` or `boolean` types.
+    - `min` (integer): Minimum value for numeric types.
+    - `max` (integer): Maximum value for numeric types.
+    - `increment` (integer): Increment value for numeric types.
+    - `regex` (string): Regular expression pattern for string validation.
+    - `maxLength` (integer): Maximum length for string values.
+    - `validationHint` (string): Hint to display to users about validation requirements.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "tags": [
+    {
+      "familyOrModelDisplayName": "Poly",
+      "tag": "%G711U_ORDER%",
+      "friendlyName": "voice.codecPref.G711Mu",
+      "tooltip": "Tag tooltip.",
+      "level": [
+        "location",
+        "device"
+      ],
+      "validationRule": {
+        "type": "int",
+        "min": 0,
+        "max": 10,
+        "increment": 1
+      }
+    },
+    {
+      "familyOrModelDisplayName": "Poly",
+      "tag": "%G722_ORDER%",
+      "friendlyName": "voice.codecPref.G722",
+      "tooltip": "Tag tooltip.",
+      "level": [
+        "location",
+        "device"
+      ],
+      "validationRule": {
+        "type": "int",
+        "min": 0,
+        "max": 10,
+        "increment": 1
+      }
+    },
+    {
+      "familyOrModelDisplayName": "Poly",
+      "tag": "%ENABLE_BLUETOOTH%",
+      "friendlyName": "feature.bluetooth.enabled",
+      "tooltip": "Tag tooltip.",
+      "level": [
+        "organization",
+        "location",
+        "device"
+      ],
+      "validationRule": {
+        "type": "boolean",
+        "values": [
+          "1",
+          "0"
+        ]
+      }
+    },
+    {
+      "familyOrModelDisplayName": "Poly",
+      "tag": "%DO_BLUETOOTH_DEVICE_NAME%",
+      "friendlyName": "bluetooth.device.name",
+      "tooltip": "Tag tooltip.",
+      "alert": "Alert text.",
+      "level": [
+        "organization",
+        "location",
+        "device"
+      ],
+      "validationRule": {
+        "type": "string",
+        "regex": "[A-Za-z0-9]+",
+        "maxLength": 255
+      }
+    },
+   
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -59,6 +147,9 @@ The schema is used to validate the `tag` for devices in the `Webex Calling` plat
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

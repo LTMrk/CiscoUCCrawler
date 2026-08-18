@@ -2,10 +2,15 @@
 doc_id: webex-meeting-post-group-meetings-controls
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: POST
 path: /group/meetings/controls
+operation_id: updateGroupMeetingControl
+tags: Meetings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.392882+00:00
+retrieved_at: 2026-08-18T23:45:44.478385+00:00
 ---
 
 # POST /group/meetings/controls
@@ -25,10 +30,10 @@ Update meeting recording control status by a service app which has group meeting
 - `hostEmail` [header] (string): Email of the user whose meeting control will be updated. The `hostEmail` parameter is optional, but one of the `personId` parameter and `hostEmail` header must be specified.
 
 ## Cuerpo de la petición (application/json)
-- `meetingId` (string) **(requerido)**: Unique identifier for the meeting.
-- `action` (string) **(requerido)**: Action to apply to the meeting recording. Valores: startRecording, stopRecording, pauseRecording, resumeRecording.
+- `meetingId` (string) (**requerido**): Unique identifier for the meeting.
+- `action` (string) (**requerido**): Action to apply to the meeting recording. Valores: startRecording, stopRecording, pauseRecording, resumeRecording.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "meetingId": "560d7b784f5143e3be2fc3064a5c4999",
@@ -36,8 +41,18 @@ Update meeting recording control status by a service app which has group meeting
 }
 ```
 
-## Respuestas
-- **202**: Accepted: The update request has been accepted for processing.
+## Ejemplo de invocación
+```bash
+curl -X POST '/group/meetings/controls' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"meetingId": "<meetingId>", "action": "<action>"}'
+```
+
+## Respuestas correctas
+**202**: Accepted: The update request has been accepted for processing.
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -53,6 +68,9 @@ Update meeting recording control status by a service app which has group meeting
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-device-get-workspaces-workspaceid-personalizationtask
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: GET
 path: /workspaces/{workspaceId}/personalizationTask
+operation_id: Get Personalization Task
+tags: Workspace Personalization
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.137169+00:00
+retrieved_at: 2026-08-18T23:45:44.211599+00:00
 ---
 
 # GET /workspaces/{workspaceId}/personalizationTask
@@ -25,12 +30,28 @@ Whilst in progress the endpoint will return `Accepted` and provide a `Retry-Afte
 Upon completion of the task, the endpoint will return `OK` with a body detailing if the personalization was successful and an error description if appropriate.
 
 ## Parámetros
-- `workspaceId` [path] (string) **(requerido)**: A unique identifier for the workspace.
+- `workspaceId` [path] (string) (**requerido**): A unique identifier for the workspace.
 
-## Respuestas
-- **200**: OK
-  - `success` (boolean) **(requerido)**: Describes if the personalization was successful.
-  - `errorDescription` (string): A description of the error will be provided if the personalization was not successful.
+## Ejemplo de invocación
+```bash
+curl -X GET '/workspaces/<workspaceId>/personalizationTask' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `success` (boolean) (**requerido**): Describes if the personalization was successful.
+- `errorDescription` (string): A description of the error will be provided if the personalization was not successful.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "success": false,
+  "errorDescription": "Device is offline"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -46,6 +67,9 @@ Upon completion of the task, the endpoint will return `OK` with a body detailing
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

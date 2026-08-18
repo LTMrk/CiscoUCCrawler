@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-people-me-settings-selectivereject-criteria-id
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/people/me/settings/selectiveReject/criteria/{id}
+operation_id: updateMySelectiveCallRejectCriteriaSettings
+tags: Call Settings For Me With UserHub Phase3
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.573500+00:00
+retrieved_at: 2026-08-18T23:45:43.198768+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/selectiveReject/criteria/{id}
@@ -27,19 +32,19 @@ Selective Call Reject allows you to create customized rules to reject specific c
 This API requires a user auth token with a scope of `spark:telephony_config_write`.
 
 ## Parámetros
-- `id` [path] (string) **(requerido)**: The `id` parameter specifies the unique identifier for the selective call reject. Example: `Y2lzY29zcGFyazovL3VzL0NSSVRFUklBL1oxNzU0MzgzODQzNTA5NzY`.
+- `id` [path] (string) (**requerido**): The `id` parameter specifies the unique identifier for the selective call reject. Example: `Y2lzY29zcGFyazovL3VzL0NSSVRFUklBL1oxNzU0MzgzODQzNTA5NzY`.
 
 ## Cuerpo de la petición (application/json)
 - `scheduleName` (string): Name of the schedule to which the criteria is created.
 - `scheduleType` (string): * `businessHours` - The schedule type that specifies the business or working hours during the day.  * `holidays` - The schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
 - `scheduleLevel` (string): * `PEOPLE` - The schedule level that specifies that criteria is of People level.  * `GROUP` - The schedule level that specifies that criteria is of Group level. Valores: PEOPLE, GROUP.
-- `callsFrom` (string) **(requerido)**: * `ANY_PHONE_NUMBER` - Criteria apply for any incoming number.  * `SELECT_PHONE_NUMBERS` - Criteria only apply for selected incoming numbers.  * `FORWARDED` - Criteria only apply for forwarded incoming numbers. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, FORWARDED.
+- `callsFrom` (string) (**requerido**): * `ANY_PHONE_NUMBER` - Criteria apply for any incoming number.  * `SELECT_PHONE_NUMBERS` - Criteria only apply for selected incoming numbers.  * `FORWARDED` - Criteria only apply for forwarded incoming numbers. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, FORWARDED.
 - `anonymousCallersEnabled` (boolean): Boolean flag indicating if calls from custom numbers, private numbers are enabled.
 - `unavailableCallersEnabled` (boolean): Boolean flag indicating if calls from custom numbers, unavailable numbers are enabled.
 - `phoneNumbers` (array): List of phone numbers. It does not include extensions. In some regions phone numbers are not returned in E.164 format. This will be supported in a future update.
-- `rejectEnabled` (boolean) **(requerido)**: Boolean flag to enable/disable rejection.
+- `rejectEnabled` (boolean) (**requerido**): Boolean flag to enable/disable rejection.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "scheduleName": "Holiday V2",
@@ -55,8 +60,18 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 }
 ```
 
-## Respuestas
-- **204**: Selective Call Reject Criteria Settings updated successfully for the authenticated user.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/people/me/settings/selectiveReject/criteria/<id>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"callsFrom": "<callsFrom>", "rejectEnabled": true}'
+```
+
+## Respuestas correctas
+**204**: Selective Call Reject Criteria Settings updated successfully for the authenticated user.
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -72,6 +87,9 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

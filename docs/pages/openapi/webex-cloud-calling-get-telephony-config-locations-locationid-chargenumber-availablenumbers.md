@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-locations-locationid-chargenumber-availablenumbers
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/chargeNumber/availableNumbers
+operation_id: GetAvailableChargeNumbersList
+tags: Location Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.624382+00:00
+retrieved_at: 2026-08-18T23:45:43.336626+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/chargeNumber/availableNumbers
@@ -25,27 +30,57 @@ These numbers are non-toll-free and non-mobile numbers assigned to the location 
 Retrieving this list requires a full or read-only administrator or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Return the list of available charge numbers for this location within the given organization. The maximum length is 36.
+- `locationId` [path] (string) (**requerido**): Return the list of available charge numbers for this location within the given organization. The maximum length is 36.
 - `orgId` [query] (string): List numbers for this organization.
 - `max` [query] (number): Limit the number of phone numbers returned to this maximum count. The default is 2000.
 - `start` [query] (number): Start at the zero-based offset in the list of matching phone numbers. The default is 0.
 - `phoneNumber` [query] (array): Filter phone numbers based on the comma-separated list provided in the `phoneNumber` array.
 - `ownerName` [query] (string): Return the list of phone numbers that are owned by the given `ownerName`. Maximum length is 255.
 
-## Respuestas
-- **200**: OK
-  - `phoneNumbers` (array) **(requerido)**: Array of phone numbers.
-    - `phoneNumber` (string) **(requerido)**: A unique identifier for the PSTN phone number.
-    - `state` (string) **(requerido)**: * `ACTIVE` - Phone number is in the active state.  * `INACTIVE` - Phone number is in the inactive state. Valores: ACTIVE, INACTIVE.
-    - `isMainNumber` (boolean) **(requerido)**: If `true`, the phone number is used as a location CLID.
-    - `tollFreeNumber` (boolean) **(requerido)**: If `true`, the phone number is a toll-free number.
-    - `isServiceNumber` (boolean) **(requerido)**: If `true`, the phone number is a service number; otherwise, it is a standard number. Service numbers are high-utilization or high-concurrency PSTN phone numbers that are neither mobile nor toll-free.
-    - `owner` (object):
-      - `id` (string) **(requerido)**: ID of the owner to which PSTN Phone number is assigned.
-      - `type` (string) **(requerido)**: * `PLACE` - PSTN phone number's owner is a workspace.  * `PEOPLE` - PSTN phone number's owner is a person.  * `VIRTUAL_LINE` - PSTN phone number's owner is a Virtual Profile.  * `AUTO_ATTENDANT` - PSTN phone number's owner is an auto-attendant.  * `CALL_QUEUE` - PSTN phone number's owner is a call queue.  * `GROUP_PAGING` - PSTN phone number's owner is a group paging.  * `HUNT_GROUP` - PSTN phone number's owner is a hunt group.  * `VOICE_MESSAGING` - PSTN phone number's owner is a voice messaging.  * `OFFICE_ANYWHERE` - PSTN phone number's owner is a Single Number Reach.  * `CONTACT_CENTER_LINK` - PSTN phone number's owner is a Contact Center link.  * `CONTACT_CENTER_ADAPTER` - PSTN phone number's owner is a Contact Center adapter.  * `ROUTE_LIST` - PSTN phone number's owner is a route list.  * `VOICEMAIL_GROUP` - PSTN phone number's owner is a voicemail group.  * `COLLABORATE_BRIDGE` - PSTN phone number's owner is a collaborate bridge. Valores: PLACE, PEOPLE, VIRTUAL_LINE, AUTO_ATTENDANT, CALL_QUEUE, GROUP_PAGING, HUNT_GROUP, VOICE_MESSAGING, OFFICE_ANYWHERE, CONTACT_CENTER_LINK, CONTACT_CENTER_ADAPTER, ROUTE_LIST, VOICEMAIL_GROUP, COLLABORATE_BRIDGE.
-      - `firstName` (string): First name of the PSTN phone number's owner and will only be returned when the owner `type` is `PEOPLE` or `VIRTUAL_LINE`.
-      - `lastName` (string): Last name of the PSTN phone number's owner and will only be returned when the owner `type` is `PEOPLE` or `VIRTUAL_LINE`.
-      - `displayName` (string): Display name of the phone number's owner.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/locations/<locationId>/chargeNumber/availableNumbers' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `phoneNumbers` (array) (**requerido**): Array of phone numbers.
+  - `phoneNumber` (string) (**requerido**): A unique identifier for the PSTN phone number.
+  - `state` (string) (**requerido**): * `ACTIVE` - Phone number is in the active state.  * `INACTIVE` - Phone number is in the inactive state. Valores: ACTIVE, INACTIVE.
+  - `isMainNumber` (boolean) (**requerido**): If `true`, the phone number is used as a location CLID.
+  - `tollFreeNumber` (boolean) (**requerido**): If `true`, the phone number is a toll-free number.
+  - `isServiceNumber` (boolean) (**requerido**): If `true`, the phone number is a service number; otherwise, it is a standard number. Service numbers are high-utilization or high-concurrency PSTN phone numbers that are neither mobile nor toll-free.
+  - `owner` (object):
+    - `id` (string) (**requerido**): ID of the owner to which PSTN Phone number is assigned.
+    - `type` (string) (**requerido**): * `PLACE` - PSTN phone number's owner is a workspace.  * `PEOPLE` - PSTN phone number's owner is a person.  * `VIRTUAL_LINE` - PSTN phone number's owner is a Virtual Profile.  * `AUTO_ATTENDANT` - PSTN phone number's owner is an auto-attendant.  * `CALL_QUEUE` - PSTN phone number's owner is a call queue.  * `GROUP_PAGING` - PSTN phone number's owner is a group paging.  * `HUNT_GROUP` - PSTN phone number's owner is a hunt group.  * `VOICE_MESSAGING` - PSTN phone number's owner is a voice messaging.  * `OFFICE_ANYWHERE` - PSTN phone number's owner is a Single Number Reach.  * `CONTACT_CENTER_LINK` - PSTN phone number's owner is a Contact Center link.  * `CONTACT_CENTER_ADAPTER` - PSTN phone number's owner is a Contact Center adapter.  * `ROUTE_LIST` - PSTN phone number's owner is a route list.  * `VOICEMAIL_GROUP` - PSTN phone number's owner is a voicemail group.  * `COLLABORATE_BRIDGE` - PSTN phone number's owner is a collaborate bridge. Valores: PLACE, PEOPLE, VIRTUAL_LINE, AUTO_ATTENDANT, CALL_QUEUE, GROUP_PAGING, HUNT_GROUP, VOICE_MESSAGING, OFFICE_ANYWHERE, CONTACT_CENTER_LINK, CONTACT_CENTER_ADAPTER, ROUTE_LIST, VOICEMAIL_GROUP, COLLABORATE_BRIDGE.
+    - `firstName` (string): First name of the PSTN phone number's owner and will only be returned when the owner `type` is `PEOPLE` or `VIRTUAL_LINE`.
+    - `lastName` (string): Last name of the PSTN phone number's owner and will only be returned when the owner `type` is `PEOPLE` or `VIRTUAL_LINE`.
+    - `displayName` (string): Display name of the phone number's owner.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "phoneNumbers": [
+    {
+      "phoneNumber": "+12056852221",
+      "state": "ACTIVE",
+      "isMainNumber": false,
+      "tollFreeNumber": false,
+      "isServiceNumber": false,
+      "owner": {
+        "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9jODhiZGIwNC1jZjU5LTRjMjMtODQ4OC00NTNhOTE3ZDFlMjk",
+        "type": "PEOPLE",
+        "firstName": "Alex",
+        "lastName": "test_16",
+        "displayName": "Alex test_16"
+      }
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -61,6 +96,9 @@ Retrieving this list requires a full or read-only administrator or location admi
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

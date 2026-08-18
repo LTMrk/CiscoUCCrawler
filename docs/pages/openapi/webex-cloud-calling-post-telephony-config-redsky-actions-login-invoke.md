@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-redsky-actions-login-invoke
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/redSky/actions/login/invoke
+operation_id: Login to a RedSky Admin Account
+tags: Emergency Services Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.591397+00:00
+retrieved_at: 2026-08-18T23:45:43.277792+00:00
 ---
 
 # POST /telephony/config/redSky/actions/login/invoke
@@ -28,11 +33,11 @@ Logging in requires a full administrator auth token with a scope of `spark-admin
 - `orgId` [query] (string): Login to a RedSky account for the organization.
 
 ## Cuerpo de la petición (application/json)
-- `email` (string) **(requerido)**: Email for the RedSky account.
-- `password` (string) **(requerido)**: Password for the RedSky account.
+- `email` (string) (**requerido**): Email for the RedSky account.
+- `password` (string) (**requerido**): Password for the RedSky account.
 - `redSkyOrgId` (string): The RedSky organization ID for the organization which can be found in the RedSky portal.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "email": "test@cisco.com",
@@ -41,11 +46,30 @@ Logging in requires a full administrator auth token with a scope of `spark-admin
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `accountMatch` (boolean) **(requerido)**: `true` if the old `companyId` secret is matched with the new `companyId` secret.
-  - `externalTenantEnabled` (boolean) **(requerido)**: `true` if the RedSky reseller customer is not under a Cisco account.
-  - `companyId` (string) **(requerido)**: The RedSky held token from the secret response.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/redSky/actions/login/invoke' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"email": "<email>", "password": "<password>"}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `accountMatch` (boolean) (**requerido**): `true` if the old `companyId` secret is matched with the new `companyId` secret.
+- `externalTenantEnabled` (boolean) (**requerido**): `true` if the RedSky reseller customer is not under a Cisco account.
+- `companyId` (string) (**requerido**): The RedSky held token from the secret response.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "accountMatch": true,
+  "externalTenantEnabled": true,
+  "companyId": "ddd1424c-5b48-433d-9bab-061cdfb84c90"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -61,6 +85,9 @@ Logging in requires a full administrator auth token with a scope of `spark-admin
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

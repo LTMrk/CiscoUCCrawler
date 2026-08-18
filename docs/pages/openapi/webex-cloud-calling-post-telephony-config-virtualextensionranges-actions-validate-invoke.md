@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-virtualextensionranges-actions-validate-invoke
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/virtualExtensionRanges/actions/validate/invoke
+operation_id: Validate the prefix and extension pattern for a Virtual Extension Range
+tags: Features: Virtual Extensions
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.620766+00:00
+retrieved_at: 2026-08-18T23:45:43.329587+00:00
 ---
 
 # POST /telephony/config/virtualExtensionRanges/actions/validate/invoke
@@ -35,7 +40,7 @@ Validating a prefix and extension pattern for a Virtual Extension Range requires
 - `patterns` (array): List of virtual extension patterns. The maximum number of patterns supported at a time is 100.
 - `rangeId` (string): ID of the virtual extension range. This is mandatory when validating for an existing virtual extension range, not present when validating a new virtual extension range before adding it.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2E4Mjg5NzIyLTFiODAtNDFiNy05Njc4LTBlNzdhZThjMTA5OA",
@@ -48,16 +53,33 @@ Validating a prefix and extension pattern for a Virtual Extension Range requires
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `status` (string) **(requerido)**: Virtual extension range validation status.  * `OK` - Validation is successful.  * `ERRORS` - Validation failed. Valores: OK, ERRORS.
-  - `virtualExtensionRangeValidationStatus` (array): Array of virtual extension range validation status. This is set only when the `status` is `ERRORS`.
-    - `name` (string): Name used for virtual extension range validation.
-    - `prefix` (string): Prefix used for a virtual extension range validation.
-    - `pattern` (string): Pattern used for a virtual extension range validation.
-    - `errorCode` (string) **(requerido)**: Error code for the virtual extension range validation.
-    - `message` (string) **(requerido)**: Error message for the virtual extension range validation.
-    - `status` (string) **(requerido)**: * `VALID` - Validation is successful.  * `DUPLICATE` - Duplicate patterns for virtual extension range.  * `DUPLICATE_IN_LIST` - Duplicate routing number in the pattern list.  * `INVALID` - Invalid prefix length.  * `LIMIT_EXCEEDED` - Exceeding pattern limit of 100 in the request. Valores: VALID, DUPLICATE, DUPLICATE_IN_LIST, INVALID, LIMIT_EXCEEDED.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/virtualExtensionRanges/actions/validate/invoke' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `status` (string) (**requerido**): Virtual extension range validation status.  * `OK` - Validation is successful.  * `ERRORS` - Validation failed. Valores: OK, ERRORS.
+- `virtualExtensionRangeValidationStatus` (array): Array of virtual extension range validation status. This is set only when the `status` is `ERRORS`.
+  - `name` (string): Name used for virtual extension range validation.
+  - `prefix` (string): Prefix used for a virtual extension range validation.
+  - `pattern` (string): Pattern used for a virtual extension range validation.
+  - `errorCode` (string) (**requerido**): Error code for the virtual extension range validation.
+  - `message` (string) (**requerido**): Error message for the virtual extension range validation.
+  - `status` (string) (**requerido**): * `VALID` - Validation is successful.  * `DUPLICATE` - Duplicate patterns for virtual extension range.  * `DUPLICATE_IN_LIST` - Duplicate routing number in the pattern list.  * `INVALID` - Invalid prefix length.  * `LIMIT_EXCEEDED` - Exceeding pattern limit of 100 in the request. Valores: VALID, DUPLICATE, DUPLICATE_IN_LIST, INVALID, LIMIT_EXCEEDED.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "status": "OK"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -73,6 +95,9 @@ Validating a prefix and extension pattern for a Virtual Extension Range requires
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

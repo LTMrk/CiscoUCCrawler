@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-callrecording-vendors-vendorid-termsofservice
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/callRecording/vendors/{vendorId}/termsOfService
+operation_id: getCallRecordingTermsOfServiceSettings
+tags: Features: Call Recording
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.609040+00:00
+retrieved_at: 2026-08-18T23:45:43.308992+00:00
 ---
 
 # GET /telephony/config/callRecording/vendors/{vendorId}/termsOfService
@@ -25,15 +30,33 @@ The Call Recording feature enables authorized agents to record any active call t
 Retrieving call recording terms of service settings requires a full or read-only administrator or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `vendorId` [path] (string) **(requerido)**: Retrieve call recording terms of service details for the given vendor.
+- `vendorId` [path] (string) (**requerido**): Retrieve call recording terms of service details for the given vendor.
 - `orgId` [query] (string): Retrieve call recording terms of service details from this organization.
 
-## Respuestas
-- **200**: OK
-  - `vendorId` (string) **(requerido)**: A unique identifier for the vendor.
-  - `vendorName` (string) **(requerido)**: A unique name for the vendor.
-  - `termsOfServiceEnabled` (boolean) **(requerido)**: Whether or not the call recording terms of service are enabled.
-  - `termsOfServiceUrl` (string) **(requerido)**: Url where can be found terms of service for the vendor.  **NOTE**: This is expected to be empty for webex recording platform.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/callRecording/vendors/<vendorId>/termsOfService' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `vendorId` (string) (**requerido**): A unique identifier for the vendor.
+- `vendorName` (string) (**requerido**): A unique name for the vendor.
+- `termsOfServiceEnabled` (boolean) (**requerido**): Whether or not the call recording terms of service are enabled.
+- `termsOfServiceUrl` (string) (**requerido**): Url where can be found terms of service for the vendor.  **NOTE**: This is expected to be empty for webex recording platform.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "vendorId": "Y2lzY29zcGFyazovL3VzL1JFQ09SRElOR19WRU5ET1IvNTNkYzRjODctODQwOC00ODgyLTk1NzAtZGNhMmJjZGI5Mjgw",
+  "vendorName": "Dubber",
+  "termsOfServiceEnabled": true,
+  "termsOfServiceUrl": "https://www.dubber.net/terms"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -49,6 +72,9 @@ Retrieving call recording terms of service settings requires a full or read-only
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

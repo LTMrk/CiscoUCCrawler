@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-locations-locationid-callpickups
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/callPickups
+operation_id: Create a Call Pickup
+tags: Features:  Call Pickup
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.601344+00:00
+retrieved_at: 2026-08-18T23:45:43.295299+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/callPickups
@@ -27,16 +32,16 @@ Creating a call pickup requires a full administrator or location administrator a
 **NOTE**: The Call Pickup ID will change upon modification of the Call Pickup name.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Create the call pickup for this location.
+- `locationId` [path] (string) (**requerido**): Create the call pickup for this location.
 - `orgId` [query] (string): Create the call pickup for this organization.
 
 ## Cuerpo de la petición (application/json)
-- `name` (string) **(requerido)**: Unique name for the call pickup. The maximum length is 80.
+- `name` (string) (**requerido**): Unique name for the call pickup. The maximum length is 80.
 - `notificationType` (string): Type of the notification when an incoming call is unanswered. The call pickup group notifies all of its members. Default: NONE.  * `NONE` - Notification is not sent to any member of the call pickup group.  * `AUDIO_ONLY` - When the notificationDelayTimerSeconds number of seconds has elapsed, play an audio notification for each call pickup group member.  * `VISUAL_ONLY` - When the notificationDelayTimerSeconds number of seconds has elapsed, provide a visual notification to every call pickup group member.  * `AUDIO_AND_VISUAL` - When the `notificationDelayTimerSeconds` number of seconds has elapsed, provide an audio and visual notification to every call pickup group member. Valores: NONE, AUDIO_ONLY, VISUAL_ONLY, AUDIO_AND_VISUAL.
 - `notificationDelayTimerSeconds` (number): After the number of seconds given by the `notificationDelayTimerSeconds` has elapsed, notify every member of the call pickup group when an incoming call goes unanswered. The `notificationType` field specifies the notification method. Default: 6.
 - `agents` (array): An Array of ID strings of people, workspaces and virtual lines that are added to call pickup.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "name": "South Alaska-Group",
@@ -50,9 +55,26 @@ Creating a call pickup requires a full administrator or location administrator a
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `id` (string) **(requerido)**: ID of the newly created call pickup.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/locations/<locationId>/callPickups' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"name": "<name>"}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `id` (string) (**requerido**): ID of the newly created call pickup.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL0NBTExfUElDS1VQL1kyRnNiRkJwWTJ0MWNEST0"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -68,6 +90,9 @@ Creating a call pickup requires a full administrator or location administrator a
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

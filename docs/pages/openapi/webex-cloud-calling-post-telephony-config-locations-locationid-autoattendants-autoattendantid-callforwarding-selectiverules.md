@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-locations-locationid-autoattendants-autoattendantid-callforwarding-selectiverules
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/callForwarding/selectiveRules
+operation_id: createAutoAttendantSelectiveCallForwardingRule
+tags: Features:  Auto Attendant
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.598371+00:00
+retrieved_at: 2026-08-18T23:45:43.289850+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/callForwarding/selectiveRules
@@ -29,31 +34,31 @@ Creating a selective call forwarding rule for an auto attendant requires a full 
 **NOTE**: The Call Forwarding Rule ID will change upon modification of the Call Forwarding Rule name.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Location in which the auto attendant exists.
-- `autoAttendantId` [path] (string) **(requerido)**: Create the rule for this auto attendant.
+- `locationId` [path] (string) (**requerido**): Location in which the auto attendant exists.
+- `autoAttendantId` [path] (string) (**requerido**): Create the rule for this auto attendant.
 - `orgId` [query] (string): Create the auto attendant rule for this organization.
 
 ## Cuerpo de la petición (application/json)
-- `name` (string) **(requerido)**: Unique name for the selective rule in the auto attendant.
+- `name` (string) (**requerido**): Unique name for the selective rule in the auto attendant.
 - `enabled` (boolean): Reflects if rule is enabled.
 - `businessSchedule` (string): Name of the location's business schedule which determines when this selective call forwarding rule is in effect.
 - `holidaySchedule` (string): Name of the location's holiday schedule which determines when this selective call forwarding rule is in effect.
-- `forwardTo` (object) **(requerido)**:
+- `forwardTo` (object) (**requerido**):
   - `phoneNumber` (string): Phone number used if selection is `FORWARD_TO_SPECIFIED_NUMBER`.
-  - `selection` (string) **(requerido)**: Controls what happens when the rule matches.  * `FORWARD_TO_DEFAULT_NUMBER` - When the rule matches, forward to the destination for the auto attendant.  * `FORWARD_TO_SPECIFIED_NUMBER` - When the rule matches, forward to the destination for this rule.  * `DO_NOT_FORWARD` - When the rule matches, do not forward to another number. Valores: FORWARD_TO_DEFAULT_NUMBER, FORWARD_TO_SPECIFIED_NUMBER, DO_NOT_FORWARD.
-- `callsFrom` (object) **(requerido)**:
-  - `selection` (string) **(requerido)**: If `CUSTOM`, use `customNumbers` to specify which incoming caller ID values cause this rule to match. `ANY` means any incoming call matches assuming the rule is in effect based on the associated schedules.  * `ANY` - Rule matches for calls from any number.  * `CUSTOM` - Rule matches based on the numbers and options in customNumbers. Valores: ANY, CUSTOM.
+  - `selection` (string) (**requerido**): Controls what happens when the rule matches.  * `FORWARD_TO_DEFAULT_NUMBER` - When the rule matches, forward to the destination for the auto attendant.  * `FORWARD_TO_SPECIFIED_NUMBER` - When the rule matches, forward to the destination for this rule.  * `DO_NOT_FORWARD` - When the rule matches, do not forward to another number. Valores: FORWARD_TO_DEFAULT_NUMBER, FORWARD_TO_SPECIFIED_NUMBER, DO_NOT_FORWARD.
+- `callsFrom` (object) (**requerido**):
+  - `selection` (string) (**requerido**): If `CUSTOM`, use `customNumbers` to specify which incoming caller ID values cause this rule to match. `ANY` means any incoming call matches assuming the rule is in effect based on the associated schedules.  * `ANY` - Rule matches for calls from any number.  * `CUSTOM` - Rule matches based on the numbers and options in customNumbers. Valores: ANY, CUSTOM.
   - `customNumbers` (object):
-    - `privateNumberEnabled` (boolean) **(requerido)**: Match if caller ID indicates the call is from a private number.
-    - `unavailableNumberEnabled` (boolean) **(requerido)**: Match if callerID is unavailable.
-    - `numbers` (array) **(requerido)**: Array of number strings to be matched against incoming caller ID.
+    - `privateNumberEnabled` (boolean) (**requerido**): Match if caller ID indicates the call is from a private number.
+    - `unavailableNumberEnabled` (boolean) (**requerido**): Match if callerID is unavailable.
+    - `numbers` (array) (**requerido**): Array of number strings to be matched against incoming caller ID.
 - `callsTo` (object):
   - `numbers` (array): Array of numbers to be matched against the calling destination number.
     - `phoneNumber` (string): AutoCalls To phone number. Either phone number or extension should be present as mandatory.
     - `extension` (string): Calls To extension.  Either `phoneNumber` or `extension` is mandatory.
-    - `type` (string) **(requerido)**: Calls to type options.  * `PRIMARY` - Indicates that the given `phoneNumber` or `extension` associated with this rule's containing object is a primary number or extension.  * `ALTERNATE` - Indicates that the given `phoneNumber` or `extension` associated with this rule's containing object is an alternate number or extension. Valores: PRIMARY, ALTERNATE.
+    - `type` (string) (**requerido**): Calls to type options.  * `PRIMARY` - Indicates that the given `phoneNumber` or `extension` associated with this rule's containing object is a primary number or extension.  * `ALTERNATE` - Indicates that the given `phoneNumber` or `extension` associated with this rule's containing object is an alternate number or extension. Valores: PRIMARY, ALTERNATE.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "name": "Test Rule",
@@ -84,9 +89,26 @@ Creating a selective call forwarding rule for an auto attendant requires a full 
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `id` (string) **(requerido)**: ID of the newly created auto attendant call forward selective rule.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/locations/<locationId>/autoAttendants/<autoAttendantId>/callForwarding/selectiveRules' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"name": "<name>", "forwardTo": {}, "callsFrom": {}}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `id` (string) (**requerido**): ID of the newly created auto attendant call forward selective rule.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL0NBTExfRk9SV0FSRElOR19TRUxFQ1RJVkVfUlVMRS9WR1Z6ZENCU2RXeGw"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -102,6 +124,9 @@ Creating a selective call forwarding rule for an auto attendant requires a full 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

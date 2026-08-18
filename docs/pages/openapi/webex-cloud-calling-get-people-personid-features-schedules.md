@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-people-personid-features-schedules
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /people/{personId}/features/schedules
+operation_id: List of Schedules for a Person
+tags: User Call Settings (1/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.641069+00:00
+retrieved_at: 2026-08-18T23:45:43.366711+00:00
 ---
 
 # GET /people/{personId}/features/schedules
@@ -25,20 +30,43 @@ Schedules are used to support calling features and can be defined at the locatio
 This API requires a full, user, or read-only administrator auth token with a scope of `spark-admin:people_read`.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: Unique identifier for the person.
+- `personId` [path] (string) (**requerido**): Unique identifier for the person.
 - `orgId` [query] (string): ID of the organization in which the person resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access API.
 - `start` [query] (number): Specifies the offset from the first result that you want to fetch.
-- `max` [query] (number): Specifies the maximum number of records that you want to fetch.
-- `name` [query] (string): Specifies the case insensitive substring to be matched against the schedule names. The maximum length is 40.
-- `type` [query] (string): Specifies the schedule event type to be matched on the given type.
+- `max` [query] (number): Specifies the maximum number of records that you want to fetch. Por defecto: 2000.
+- `name` [query] (string): Specifies the case insensitive substring to be matched against the schedule names. The maximum length is 40. Por defecto: null.
+- `type` [query] (string): Specifies the schedule event type to be matched on the given type. Por defecto: null.
 
-## Respuestas
-- **200**: OK
-  - `schedules` (array) **(requerido)**: List of schedules.
-    - `id` (string) **(requerido)**: Identifier for a schedule.
-    - `name` (string) **(requerido)**: Name for the schedule.
-    - `type` (string) **(requerido)**: * `businessHours` - The schedule type that specifies the business or working hours during the day.  * `holidays` - The schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
-    - `level` (string): * `PEOPLE` - The schedule level that specifies that criteria is of People level.  * `GROUP` - The schedule level that specifies that criteria is of Group level. Valores: PEOPLE, GROUP.
+## Ejemplo de invocación
+```bash
+curl -X GET '/people/<personId>/features/schedules' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `schedules` (array) (**requerido**): List of schedules.
+  - `id` (string) (**requerido**): Identifier for a schedule.
+  - `name` (string) (**requerido**): Name for the schedule.
+  - `type` (string) (**requerido**): * `businessHours` - The schedule type that specifies the business or working hours during the day.  * `holidays` - The schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
+  - `level` (string): * `PEOPLE` - The schedule level that specifies that criteria is of People level.  * `GROUP` - The schedule level that specifies that criteria is of Group level. Valores: PEOPLE, GROUP.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "schedules": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1VTRVJfU0NIRURVTEUvUkdGc2JHRnpYMDltWm1salpWOUliM1Z5Y3c9PQ",
+      "name": "Dallas_Office_Hours",
+      "type": "businessHours",
+      "level": "LOCATION"
+    }
+  ]
+}
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -54,6 +82,9 @@ This API requires a full, user, or read-only administrator auth token with a sco
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

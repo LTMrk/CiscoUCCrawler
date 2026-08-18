@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-221729-configure-example-of-cms-edge-html-2588c61673
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221729-configure-example-of-cms-edge.html
-retrieved_at: 2026-08-16T14:21:12.071982+00:00
+retrieved_at: 2026-08-18T23:50:10.018467+00:00
 ---
 
 Configure Example of CMS Edge
 
 # Configure Example of CMS Edge
-
-Log in to Save Content
 
 ### Download Options
 

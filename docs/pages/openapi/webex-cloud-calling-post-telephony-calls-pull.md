@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-calls-pull
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/calls/pull
+operation_id: pull
+tags: Call Controls, External Voicemail
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.553091+00:00
+retrieved_at: 2026-08-18T23:45:43.162227+00:00
 ---
 
 # POST /telephony/calls/pull
@@ -24,7 +29,7 @@ Pull a call from one device to another. A temporary new call is initiated to per
 - `endpointId` (string): The ID of the device or application to use for the retrieval. The `endpointId` must be one of the endpointIds returned by the [Get Preferred Answer Endpoint API](/docs/api/v1/user-call-settings-2-2/get-preferred-answer-endpoint).
 - `lineOwnerId` (string): The ID of a user, workspace, or virtual line for which there is a secondary line on a device owned by the user invoking the API.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "endpointId": "Y2lzY29z...",
@@ -32,10 +37,28 @@ Pull a call from one device to another. A temporary new call is initiated to per
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `callId` (string) **(requerido)**: A unique identifier for the call which is used in all subsequent commands for this call.
-  - `callSessionId` (string) **(requerido)**: A unique identifier for the call session the call belongs to. This can be used to correlate multiple calls that are part of the same call session.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/calls/pull' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `callId` (string) (**requerido**): A unique identifier for the call which is used in all subsequent commands for this call.
+- `callSessionId` (string) (**requerido**): A unique identifier for the call session the call belongs to. This can be used to correlate multiple calls that are part of the same call session.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "callId": "Y2lzY29zcGFyazovL3VzL0NBTEwvQkNMRC9jYWxsaGFsZi00ODg6MA",
+  "callSessionId": "MmFmNThiZjktYWE3Ny00NWE5LThiMDEtYzI4NDMxZWYwNzRm"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -51,6 +74,9 @@ Pull a call from one device to another. A temporary new call is initiated to per
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

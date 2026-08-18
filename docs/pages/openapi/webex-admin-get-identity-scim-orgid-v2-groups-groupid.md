@@ -2,10 +2,15 @@
 doc_id: webex-admin-get-identity-scim-orgid-v2-groups-groupid
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: GET
 path: /identity/scim/{orgId}/v2/Groups/{groupId}
+operation_id: Get a group
+tags: SCIM 2 Groups
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.159744+00:00
+retrieved_at: 2026-08-18T23:45:42.581009+00:00
 ---
 
 # GET /identity/scim/{orgId}/v2/Groups/{groupId}
@@ -49,46 +54,112 @@ The following administrators can use this API:
 - `id_device_admin`
 
 ## Parámetros
-- `orgId` [path] (string) **(requerido)**: The ID of the organization to which this group belongs. If not specified, the organization ID from the OAuth token is used.
-- `groupId` [path] (string) **(requerido)**: A unique identifier for the group.
+- `orgId` [path] (string) (**requerido**): The ID of the organization to which this group belongs. If not specified, the organization ID from the OAuth token is used.
+- `groupId` [path] (string) (**requerido**): A unique identifier for the group.
 - `excludedAttributes` [query] (string): Attributes to be excluded from the return.
 
-## Respuestas
-- **200**: OK
-  - `schemas` (array) **(requerido)**: Input JSON schemas.
-  - `displayName` (string) **(requerido)**: A human-readable name for the group.
-  - `id` (string) **(requerido)**: A unique identifier for the group.
-  - `externalId` (string): An identifier for the resource as defined by the provisioning client.
-  - `members` (array): A list of members of this group.
-    - `type` (string): A label indicating the type of resource, for example user, machine, or group.
-    - `value` (string): The identifier of the member of this Group.
-    - `display` (string): A human-readable name for the group member.
-    - `$ref` (string): The URI corresponding to a SCIM resource that is a member of this Group.
-  - `meta` (object) **(requerido)**: Response metadata.
-    - `resourceType` (string):
-    - `organizationID` (string):
-    - `created` (string) **(requerido)**: The date and time the group was created.
-    - `lastModified` (string) **(requerido)**: The date and time the group was last changed.
-    - `version` (string) **(requerido)**: The version of the user.
-    - `location` (string) **(requerido)**: The resource itself.
-  - `urn:scim:schemas:extension:cisco:webexidentity:2.0:Group` (object): The Cisco extention of SCIM 2
-    - `usage` (string) **(requerido)**: The identifier of this group.
-    - `owners` (array): The owners of this group.
-      - `value` (string): The identifier of the owner of this Group.
-    - `managedBy` (array): A list of delegates of this group.
-      - `orgId` (string): The Organization identifier of the resource.
-      - `type` (string): The resource type.
-      - `id` (string): The identifier of the resource.
-      - `role` (string): The delegated role.
-    - `provisionSource` (string) **(requerido)**: The identifier of the source.
-    - `inheritances` (array): An array of inheritances
-      - `type` (string): Type of inheritance. Currently, `role` and `location_role` type is supported. Only `policy` usage supports inheritance. Valores: role, location_role.
-      - `value` (string): The value of the inheritance. For the role type, this can be role names such as `id_full_admin`, `id_user_admin`, etc. For the location_role type, the value should be `location_full_admin`.
-      - `nested` (boolean): Indicates whether this inheritance is nested.
-      - `locationId` (string): The ID of the location group.
-      - `scope` (array): Indicates which types of entities can inherit this property.
-    - `meta` (object) **(requerido)**: Response metadata.
-      - `organizationID` (string) **(requerido)**: The ID of the organization to which this group belongs.
+## Ejemplo de invocación
+```bash
+curl -X GET '/identity/scim/<orgId>/v2/Groups/<groupId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `schemas` (array) (**requerido**): Input JSON schemas.
+- `displayName` (string) (**requerido**): A human-readable name for the group.
+- `id` (string) (**requerido**): A unique identifier for the group.
+- `externalId` (string): An identifier for the resource as defined by the provisioning client.
+- `members` (array): A list of members of this group.
+  - `type` (string): A label indicating the type of resource, for example user, machine, or group.
+  - `value` (string): The identifier of the member of this Group.
+  - `display` (string): A human-readable name for the group member.
+  - `$ref` (string): The URI corresponding to a SCIM resource that is a member of this Group.
+- `meta` (object) (**requerido**): Response metadata.
+  - `resourceType` (string):
+  - `organizationID` (string):
+  - `created` (string) (**requerido**): The date and time the group was created.
+  - `lastModified` (string) (**requerido**): The date and time the group was last changed.
+  - `version` (string) (**requerido**): The version of the user.
+  - `location` (string) (**requerido**): The resource itself.
+- `urn:scim:schemas:extension:cisco:webexidentity:2.0:Group` (object): The Cisco extention of SCIM 2
+  - `usage` (string) (**requerido**): The identifier of this group.
+  - `owners` (array): The owners of this group.
+    - `value` (string): The identifier of the owner of this Group.
+  - `managedBy` (array): A list of delegates of this group.
+    - `orgId` (string): The Organization identifier of the resource.
+    - `type` (string): The resource type.
+    - `id` (string): The identifier of the resource.
+    - `role` (string): The delegated role.
+  - `provisionSource` (string) (**requerido**): The identifier of the source.
+  - `inheritances` (array): An array of inheritances
+    - `type` (string): Type of inheritance. Currently, `role` and `location_role` type is supported. Only `policy` usage supports inheritance. Valores: role, location_role.
+    - `value` (string): The value of the inheritance. For the role type, this can be role names such as `id_full_admin`, `id_user_admin`, etc. For the location_role type, the value should be `location_full_admin`.
+    - `nested` (boolean): Indicates whether this inheritance is nested.
+    - `locationId` (string): The ID of the location group.
+    - `scope` (array): Indicates which types of entities can inherit this property.
+  - `meta` (object) (**requerido**): Response metadata.
+    - `organizationID` (string) (**requerido**): The ID of the organization to which this group belongs.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "schemas": [
+    "urn:ietf:params:scim:schemas:core:2.0:Group",
+    "urn:scim:schemas:extension:cisco:webexidentity:2.0:Group"
+  ],
+  "id": "cb8f48e4-5db2-496b-b43d-83d8d5a2a4b3",
+  "displayName": "wade_test_ccbeca2c-5f25-4c3a-b03c-e3bbc5368405@webex.identity.com",
+  "externalId": "test",
+  "members": [
+    {
+      "value": "c5349664-9f3d-410b-8bd3-6c31f181f13d",
+      "type": "user",
+      "example": "https://example.com/v2/Users/c5349664-9f3d-410b-8bd3-6c31f181f13d",
+      "display": "A user"
+    },
+    {
+      "value": "ffd2164c-b938-46dd-8b2f-def6c33b45d0",
+      "type": "group",
+      "example": "https://example.com/v2/Groups/ffd2164c-b938-46dd-8b2f-def6c33b45d0",
+      "display": "A nested group"
+    }
+  ],
+  "meta": {
+    "resourceType": "group",
+    "created": "2011-08-01T21:32:44.882Z",
+    "lastModified": "2011-08-01T21:32:44.882Z",
+    "version": "W/\"e180ee84f0671b1\"",
+    "location": "https://example.com/v2/Groups/e9e30dba-f08f-4109-8486-d5c6a331660a"
+  },
+  "urn:scim:schemas:extension:cisco:webexidentity:2.0:Group": {
+    "usage": "policy",
+    "inheritances": [
+      {
+        "type": "role",
+        "value": "id_full_admin",
+        "nested": false,
+        "scope": [
+          "user"
+        ]
+      },
+      {
+        "type": "location_role",
+        "value": "location_full_admin",
+        "nested": false,
+        "scope": [
+          "user"
+        ],
+        "locationId": "72e22cec-cc28-45b7-b3dc-eafe0f44a2bd"
+      }
+    ],
+    "owners": [
+      {
+   
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -104,6 +175,9 @@ The following administrators can use this API:
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

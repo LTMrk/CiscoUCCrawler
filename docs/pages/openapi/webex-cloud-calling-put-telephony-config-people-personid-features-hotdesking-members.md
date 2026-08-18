@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-people-personid-features-hotdesking-members
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/people/{personId}/features/hotDesking/members
+operation_id: updateHotDeskingMembers
+tags: Features: Hot Desking Members, User Call Settings (3/3)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.655360+00:00
+retrieved_at: 2026-08-18T23:45:43.388541+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/features/hotDesking/members
@@ -25,23 +30,23 @@ The request replaces the hot desking profile member list with the members suppli
 This API requires a full, user, device, or location administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: Unique identifier for the person.
+- `personId` [path] (string) (**requerido**): Unique identifier for the person.
 - `orgId` [query] (string): ID of the organization in which the person resides. Only admin users of another organization, such as partners, may use this parameter. If not specified, the organization from the OAuth token is used.
 
 ## Cuerpo de la petición (application/json)
-- `members` (array) **(requerido)**: Members to assign to the person's hot desking guest profile.
-  - `id` (string) **(requerido)**: Unique identifier for the member.
-  - `port` (integer) **(requerido)**: Port to assign to the member.
-  - `primaryOwner` (boolean) **(requerido)**: Indicates whether this member is the hot desking guest profile owner.
-  - `lineType` (string) **(requerido)**: Line type for the hot desking guest profile member.  * `HOTDESKING_GUEST` - Primary hot desking guest profile line.  * `SHARED_CALL_APPEARANCE` - Shared line assigned to the hot desking guest profile.  * `PRIMARY` - Primary line.  * `MOBILITY` - Mobility line. Valores: HOTDESKING_GUEST, SHARED_CALL_APPEARANCE, PRIMARY, MOBILITY.
-  - `lineWeight` (integer) **(requerido)**: Number of lines to configure for the member on the hot desking guest profile endpoint.
+- `members` (array) (**requerido**): Members to assign to the person's hot desking guest profile.
+  - `id` (string) (**requerido**): Unique identifier for the member.
+  - `port` (integer) (**requerido**): Port to assign to the member.
+  - `primaryOwner` (boolean) (**requerido**): Indicates whether this member is the hot desking guest profile owner.
+  - `lineType` (string) (**requerido**): Line type for the hot desking guest profile member.  * `HOTDESKING_GUEST` - Primary hot desking guest profile line.  * `SHARED_CALL_APPEARANCE` - Shared line assigned to the hot desking guest profile.  * `PRIMARY` - Primary line.  * `MOBILITY` - Mobility line. Valores: HOTDESKING_GUEST, SHARED_CALL_APPEARANCE, PRIMARY, MOBILITY.
+  - `lineWeight` (integer) (**requerido**): Number of lines to configure for the member on the hot desking guest profile endpoint.
   - `t38FaxCompressionEnabled` (boolean): T.38 fax compression setting for the member line.
   - `hotlineEnabled` (boolean): Whether this line automatically calls a predefined number when taken off-hook.
   - `hotlineDestination` (string): Preconfigured number for the hotline. Required when `hotlineEnabled` is `true`.
   - `allowCallDeclineEnabled` (boolean): When enabled, a call decline request is extended to all endpoints on the line. When disabled, the call is declined only at the current endpoint.
   - `memberType` (string): Type of member in the update request. Include this field when the member ID needs an explicit resource type for decoding.  * `USER` - The member is a person.  * `PLACE` - The member is a workspace.  * `VIRTUAL_PROFILE` - The member is a virtual line. Valores: USER, PLACE, VIRTUAL_PROFILE.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "members": [
@@ -69,8 +74,18 @@ This API requires a full, user, device, or location administrator auth token wit
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/people/<personId>/features/hotDesking/members' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"members": []}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -86,6 +101,11 @@ This API requires a full, user, device, or location administrator auth token wit
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+**Documentación adicional:** https://developer.webex.com/docs/api/v1/webex-calling
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

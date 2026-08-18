@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-people-me-settings-queues
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/people/me/settings/queues
+operation_id: getMyCallCenterSettings
+tags: Call Settings For Me
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.565920+00:00
+retrieved_at: 2026-08-18T23:45:43.185799+00:00
 ---
 
 # GET /telephony/config/people/me/settings/queues
@@ -25,17 +30,50 @@ The user must have the call center service assigned.
 
 This API requires a user auth token with a scope of `spark:telephony_config_read`.
 
-## Respuestas
-- **200**: OK
-  - `agentACDState` (string): * `SIGN_IN` - Agent has signed in.  * `SIGN_OUT` - Agent has signed out.  * `AVAILABLE` - Agent is available.  * `UNAVAILABLE` - Agent is unavailable.  * `WRAP_UP` - Agent has wrapped up. Valores: SIGN_IN, SIGN_OUT, AVAILABLE, UNAVAILABLE, WRAP_UP.
-  - `queues` (array): Indicates a list of call centers the agent has joined or may join.
-    - `id` (string) **(requerido)**: Unique call queue identifier.
-    - `hasCxEssentials` (boolean): Indicates if the call queue is `normal` or `CxEssentials`.
-    - `available` (boolean): When `true` it indicates agent has joined the call center.
-    - `skillLevel` (number): Call center skill level.
-    - `phoneNumber` (string): Call center phone number.
-    - `extension` (string): Call center extension.
-    - `allowLogOffEnabled` (boolean) **(requerido)**: Determines whether a queue can be joined or not.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/people/me/settings/queues' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `agentACDState` (string): * `SIGN_IN` - Agent has signed in.  * `SIGN_OUT` - Agent has signed out.  * `AVAILABLE` - Agent is available.  * `UNAVAILABLE` - Agent is unavailable.  * `WRAP_UP` - Agent has wrapped up. Valores: SIGN_IN, SIGN_OUT, AVAILABLE, UNAVAILABLE, WRAP_UP.
+- `queues` (array): Indicates a list of call centers the agent has joined or may join.
+  - `id` (string) (**requerido**): Unique call queue identifier.
+  - `hasCxEssentials` (boolean): Indicates if the call queue is `normal` or `CxEssentials`.
+  - `available` (boolean): When `true` it indicates agent has joined the call center.
+  - `skillLevel` (number): Call center skill level.
+  - `phoneNumber` (string): Call center phone number.
+  - `extension` (string): Call center extension.
+  - `allowLogOffEnabled` (boolean) (**requerido**): Determines whether a queue can be joined or not.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "agentACDState": "AVAILABLE",
+  "queues": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS85M2JjZWQ2Mi1lYWRmLTQ0MGItYThiYi03ZWQ5ZWEwNzExMTg",
+      "hasCxEssentials": true,
+      "available": true,
+      "skillLevel": 1,
+      "phoneNumber": "+18555550101",
+      "extension": "50001",
+      "allowLogOffEnabled": false
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0NBTExfUEFSS19FWFRFTlNJT04vNDk1ZTgxMTEtY2U4My00ZTc5LWJjOTAtODM2OWQxZjY0NTQ2",
+      "hasCxEssentials": false,
+      "available": false,
+      "extension": "50002",
+      "allowLogOffEnabled": true
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -51,6 +89,9 @@ This API requires a user auth token with a scope of `spark:telephony_config_read
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

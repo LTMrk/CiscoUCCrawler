@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-locations-locationid-redsky-status
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/redSky/status
+operation_id: Update a Location's RedSky Compliance Status
+tags: Emergency Services Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.591760+00:00
+retrieved_at: 2026-08-18T23:45:43.278446+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/redSky/status
@@ -25,27 +30,53 @@ The Enhanced Emergency (E911) Service for Webex Calling provides dynamic locatio
 Updating the RedSky account's compliance status requires a full administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Update the E911 compliance status for this location.
+- `locationId` [path] (string) (**requerido**): Update the E911 compliance status for this location.
 - `orgId` [query] (string): Update the E911 compliance status for the location in this organization.
 
 ## Cuerpo de la petición (application/json)
-- `complianceStatus` (string) **(requerido)**: * `OPTED_OUT` - Customer has opted out of the E911 service.  * `LOCATION_SETUP` - Building and locations stage of the RedSky account creation has been completed.  * `ALERTS` - Email notification configuration stage of the RedSky account creation has been completed.  * `NETWORK_ELEMENTS` - Network wire map configuration stage of the RedSky account creation process has been completed and Webex Calling will begin routing emergency test number calls (933) to RedSky.  * `ROUTING_ENABLED` - Emergency calls for devices in the specified locations will begin to route to RedSky. Valores: OPTED_OUT, LOCATION_SETUP, ALERTS, NETWORK_ELEMENTS, ROUTING_ENABLED.
+- `complianceStatus` (string) (**requerido**): * `OPTED_OUT` - Customer has opted out of the E911 service.  * `LOCATION_SETUP` - Building and locations stage of the RedSky account creation has been completed.  * `ALERTS` - Email notification configuration stage of the RedSky account creation has been completed.  * `NETWORK_ELEMENTS` - Network wire map configuration stage of the RedSky account creation process has been completed and Webex Calling will begin routing emergency test number calls (933) to RedSky.  * `ROUTING_ENABLED` - Emergency calls for devices in the specified locations will begin to route to RedSky. Valores: OPTED_OUT, LOCATION_SETUP, ALERTS, NETWORK_ELEMENTS, ROUTING_ENABLED.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "complianceStatus": "LOCATION_SETUP"
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `locationsStatus` (object):
-    - `state` (string): * `OPTED_OUT` - Customer has opted out of the E911 service.  * `EXEMPTED` - RedSky account compliance status has been exempted.  * `LOCATION_SETUP` - RedSky account is pending location setup.  * `ALERTS` - RedSky account is pending email notification configuration.  * `NETWORK_ELEMENTS` - RedSky account is pending network element setup.  * `ROUTING_ENABLE` - RedSky account is pending the routing enable setup stage.  * `COMPLIANT` - RedSky account is compliant. Valores: OPTED_OUT, EXEMPTED, LOCATION_SETUP, ALERTS, NETWORK_ELEMENTS, ROUTING_ENABLE, COMPLIANT.
-    - `count` (number): Total count of the `locations` list.
-    - `locations` (array): Object that contains the `id` and the `name` for the location in the request.
-      - `id` (string) **(requerido)**: Unique identifier for the location.
-      - `name` (string) **(requerido)**: Name of the location.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/locations/<locationId>/redSky/status' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"complianceStatus": "<complianceStatus>"}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `locationsStatus` (object):
+  - `state` (string): * `OPTED_OUT` - Customer has opted out of the E911 service.  * `EXEMPTED` - RedSky account compliance status has been exempted.  * `LOCATION_SETUP` - RedSky account is pending location setup.  * `ALERTS` - RedSky account is pending email notification configuration.  * `NETWORK_ELEMENTS` - RedSky account is pending network element setup.  * `ROUTING_ENABLE` - RedSky account is pending the routing enable setup stage.  * `COMPLIANT` - RedSky account is compliant. Valores: OPTED_OUT, EXEMPTED, LOCATION_SETUP, ALERTS, NETWORK_ELEMENTS, ROUTING_ENABLE, COMPLIANT.
+  - `count` (number): Total count of the `locations` list.
+  - `locations` (array): Object that contains the `id` and the `name` for the location in the request.
+    - `id` (string) (**requerido**): Unique identifier for the location.
+    - `name` (string) (**requerido**): Name of the location.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "locationsStatus": {
+    "state": "LOCATION_SETUP",
+    "count": 2,
+    "locations": [
+      {
+        "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2E4Mjg5NzIyLTFiODAtNDFiNy05Njc4LTBlNzdhZThjMTA5OA",
+        "name": "MainOffice"
+      }
+    ]
+  }
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -61,6 +92,9 @@ Updating the RedSky account's compliance status requires a full administrator au
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

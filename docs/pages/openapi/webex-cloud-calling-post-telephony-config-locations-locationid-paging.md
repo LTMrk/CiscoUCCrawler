@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-locations-locationid-paging
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/paging
+operation_id: Create a new Paging Group
+tags: Features:  Paging Group
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.617961+00:00
+retrieved_at: 2026-08-18T23:45:43.324630+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/paging
@@ -26,11 +31,11 @@ dialing a number or extension assigned to a specific paging group. The Group Pag
 Creating a paging group requires a full administrator or location administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Create the paging group for this location.
+- `locationId` [path] (string) (**requerido**): Create the paging group for this location.
 - `orgId` [query] (string): Create the paging group for this organization.
 
 ## Cuerpo de la petición (application/json)
-- `name` (string) **(requerido)**: Unique name for the paging group. Minimum length is 1. Maximum length is 30.
+- `name` (string) (**requerido**): Unique name for the paging group. Minimum length is 1. Maximum length is 30.
 - `phoneNumber` (string): Paging group phone number. Minimum length is 1. Maximum length is 23.  Either `phoneNumber` or `extension` is mandatory.
 - `extension` (string): Paging group extension. Minimum length is 2. Maximum length is 10.  Either `phoneNumber` or `extension` is mandatory.
 - `languageCode` (string): Language code.
@@ -44,7 +49,7 @@ Creating a paging group requires a full administrator or location administrator 
   - `customName` (string): The custom direct line caller ID name. Required if `selection` is set to `CUSTOM_NAME`.
 - `dialByName` (string): The name to be used for dial by name functions.  Characters of `%`,  `+`, `\`, `"` and Unicode characters are not allowed.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "name": "PagingGroup-1",
@@ -71,9 +76,26 @@ Creating a paging group requires a full administrator or location administrator 
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `id` (string) **(requerido)**: ID of the newly created paging group.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/locations/<locationId>/paging' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"name": "<name>"}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `id` (string) (**requerido**): ID of the newly created paging group.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1BBR0lOR19HUk9VUC9hSFpoWlROMk1HOHliMEEyTkRrME1USTVOeTVwYm5ReE1DNWlZMnhrTG5kbFltVjRMbU52YlE"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -89,6 +111,9 @@ Creating a paging group requires a full administrator or location administrator 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

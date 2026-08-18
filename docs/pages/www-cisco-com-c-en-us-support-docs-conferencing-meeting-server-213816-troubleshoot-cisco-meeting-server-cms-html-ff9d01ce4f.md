@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-213816-troubleshoot-cisco-meeting-server-cms-html-ff9d01ce4f
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213816-troubleshoot-cisco-meeting-server-cms.html
-retrieved_at: 2026-08-16T14:22:27.369362+00:00
+retrieved_at: 2026-08-18T23:48:41.796055+00:00
 ---
 
 Troubleshoot Cisco Meeting Server (CMS) 2.0.3 Message Board Chat Disabled by Default For New Installation
 
 # Troubleshoot Cisco Meeting Server (CMS) 2.0.3 Message Board Chat Disabled by Default For New Installation
-
-Log in to Save Content
 
 ### Download Options
 
@@ -61,12 +59,6 @@ Section 2.7 of CMS 2.0.3 release notes explains the feature. In order to use the
 Sateesh Katukam
 
 Cisco TAC Engineer
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 

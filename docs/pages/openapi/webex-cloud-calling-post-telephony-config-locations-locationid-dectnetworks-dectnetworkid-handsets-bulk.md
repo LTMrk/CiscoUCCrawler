@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-locations-locationid-dectnetworks-dectnetworkid-handsets-bulk
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/handsets/bulk
+operation_id: Add a List of Handsets to a DECT Network
+tags: DECT Devices Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.546535+00:00
+retrieved_at: 2026-08-18T23:45:43.150596+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/handsets/bulk
@@ -31,17 +36,17 @@ Adding a list of handsets to a DECT network requires a full or location administ
 <div><Callout type="warning">Adding or removing handsets to the DECT network in less than 90 seconds may result in base station not having the latest configuration until the base station is rebooted.</Callout></div>
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Add handsets in this location.
-- `dectNetworkId` [path] (string) **(requerido)**: A unique identifier for the DECT network.
+- `locationId` [path] (string) (**requerido**): Add handsets in this location.
+- `dectNetworkId` [path] (string) (**requerido**): A unique identifier for the DECT network.
 - `orgId` [query] (string): Add handsets in this organization.
 
 ## Cuerpo de la petición (application/json)
-- `items` (array) **(requerido)**: List of handsets that are to be added to the DECT network.
-  - `line1MemberId` (string) **(requerido)**: ID of the member on line1 of the handset. Members can be PEOPLE or PLACE.
+- `items` (array) (**requerido**): List of handsets that are to be added to the DECT network.
+  - `line1MemberId` (string) (**requerido**): ID of the member on line1 of the handset. Members can be PEOPLE or PLACE.
   - `line2MemberId` (string): ID of the member on line2 of the handset. Members can be PEOPLE, PLACE, or VIRTUAL_LINE.
-  - `customDisplayName` (string) **(requerido)**: Custom display name on the handset. Min and max length supported for the custom display name is 1 and 16 respectively.
+  - `customDisplayName` (string) (**requerido**): Custom display name on the handset. Min and max length supported for the custom display name is 1 and 16 respectively.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "items": [
@@ -58,20 +63,74 @@ Adding a list of handsets to a DECT network requires a full or location administ
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `items` (array) **(requerido)**: List of added handsets.
-    - `customDisplayName` (string) **(requerido)**: The custom display name on the handset.
-    - `result` (object) **(requerido)**: The result of the add handset request.
-      - `status` (number) **(requerido)**: The status of the add handset request.
-- **206**: Partial Content
-  - `items` (array) **(requerido)**: List of added handsets.
-    - `customDisplayName` (string) **(requerido)**: The custom display name on the handset.
-    - `result` (object) **(requerido)**: The result of the add handset request.
-      - `status` (number) **(requerido)**: The status of the add handset request. 200 indicates the handset was added successfully.
-      - `error` (object): The error message if the add handset request failed.
-        - `message` (string) **(requerido)**: The error message.
-        - `errorCode` (number) **(requerido)**: The error code.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/locations/<locationId>/dectNetworks/<dectNetworkId>/handsets/bulk' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"items": []}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `items` (array) (**requerido**): List of added handsets.
+  - `customDisplayName` (string) (**requerido**): The custom display name on the handset.
+  - `result` (object) (**requerido**): The result of the add handset request.
+    - `status` (number) (**requerido**): The status of the add handset request.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "items": [
+    {
+      "customDisplayName": "handsetName1",
+      "result": {
+        "status": 200
+      }
+    },
+    {
+      "customDisplayName": "handsetName2",
+      "result": {
+        "status": 200
+      }
+    }
+  ]
+}
+```
+**206**: Partial Content
+- `items` (array) (**requerido**): List of added handsets.
+  - `customDisplayName` (string) (**requerido**): The custom display name on the handset.
+  - `result` (object) (**requerido**): The result of the add handset request.
+    - `status` (number) (**requerido**): The status of the add handset request. 200 indicates the handset was added successfully.
+    - `error` (object): The error message if the add handset request failed.
+      - `message` (string) (**requerido**): The error message.
+      - `errorCode` (number) (**requerido**): The error code.
+
+### Ejemplo — respuesta 206
+```json
+{
+  "items": [
+    {
+      "customDisplayName": "handsetName1",
+      "result": {
+        "status": 200
+      }
+    },
+    {
+      "customDisplayName": "handsetName2",
+      "result": {
+        "status": 400,
+        "error": {
+          "message": "[Error 4516] Cannot assign user to device: {0} with line/Port: {1}",
+          "errorCode": 4516
+        }
+      }
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -87,6 +146,9 @@ Adding a list of handsets to a DECT network requires a full or location administ
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

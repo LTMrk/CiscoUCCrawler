@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-people-personid-preferredanswerendpoint
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/people/{personId}/preferredAnswerEndpoint
+operation_id: getPreferredAnswerEndpoint
+tags: User Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.645640+00:00
+retrieved_at: 2026-08-18T23:45:43.373560+00:00
 ---
 
 # GET /telephony/config/people/{personId}/preferredAnswerEndpoint
@@ -33,16 +38,43 @@ Get the person's preferred answer endpoint and the list of endpoints available f
 This API requires `spark:telephony_config_read` or `spark-admin:telephony_config_read` scope.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: A unique identifier for the person.
+- `personId` [path] (string) (**requerido**): A unique identifier for the person.
 - `orgId` [query] (string): ID of the organization in which the person resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access API.
 
-## Respuestas
-- **200**: OK
-  - `preferredAnswerEndpointId` (string) **(requerido)**: Person’s preferred answer endpoint.
-  - `endpoints` (array) **(requerido)**: Array of endpoints available to the person.
-    - `id` (string) **(requerido)**: Unique identifier for the endpoint.
-    - `type` (string) **(requerido)**: * `DEVICE` - The endpoint is a device.  * `APPLICATION` - The endpoint is a application. Valores: DEVICE, APPLICATION.
-    - `name` (string) **(requerido)**: The `name` field in the response is calculated using device tag. Admins have the ability to set tags for devices. If a `name=<value>` tag is set, for example “name=home phone“, then the `<value>` is included in the `name` field of the API response. In this example “home phone”.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/people/<personId>/preferredAnswerEndpoint' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `preferredAnswerEndpointId` (string) (**requerido**): Person’s preferred answer endpoint.
+- `endpoints` (array) (**requerido**): Array of endpoints available to the person.
+  - `id` (string) (**requerido**): Unique identifier for the endpoint.
+  - `type` (string) (**requerido**): * `DEVICE` - The endpoint is a device.  * `APPLICATION` - The endpoint is a application. Valores: DEVICE, APPLICATION.
+  - `name` (string) (**requerido**): The `name` field in the response is calculated using device tag. Admins have the ability to set tags for devices. If a `name=<value>` tag is set, for example “name=home phone“, then the `<value>` is included in the `name` field of the API response. In this example “home phone”.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "preferredAnswerEndpointId": "Y2lzY29z...",
+  "endpoints": [
+    {
+      "id": "Y2lzY29z...",
+      "type": "DEVICE",
+      "name": "Cisco 8865 (Phone in reception area)"
+    },
+    {
+      "id": "Y2lzY29b...",
+      "type": "APPLICATION",
+      "name": "Webex Desktop Application"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -58,6 +90,9 @@ This API requires `spark:telephony_config_read` or `spark-admin:telephony_config
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

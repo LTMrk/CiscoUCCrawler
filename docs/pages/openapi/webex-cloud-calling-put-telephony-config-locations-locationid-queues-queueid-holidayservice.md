@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-locations-locationid-queues-queueid-holidayservice
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/queues/{queueId}/holidayService
+operation_id: updateCallQueueHolidayService
+tags: Features:  Call Queue
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.604472+00:00
+retrieved_at: 2026-08-18T23:45:43.300806+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/queues/{queueId}/holidayService
@@ -25,25 +30,25 @@ Configure the call queue to route calls differently during the holidays.
 Updating a call queue holiday service requires a full administrator or location administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Location in which this call queue exists.
-- `queueId` [path] (string) **(requerido)**: Update setting for the call queue with the matching ID.
+- `locationId` [path] (string) (**requerido**): Location in which this call queue exists.
+- `queueId` [path] (string) (**requerido**): Update setting for the call queue with the matching ID.
 - `orgId` [query] (string): Update call queue settings from this organization.
 
 ## Cuerpo de la petición (application/json)
-- `holidayServiceEnabled` (boolean) **(requerido)**: Enable or Disable the call queue holiday service routing policy.
-- `action` (string) **(requerido)**: The call processing action type.  * `BUSY` - The caller hears a fast-busy tone.  * `TRANSFER` - Transfers the call to number specified in `transferPhoneNumber`. Valores: BUSY, TRANSFER.
-- `holidayScheduleLevel` (string) **(requerido)**: The schedule mentioned in `holidayScheduleName` is org or location specific. (Must be from `holidaySchedules` list)  * `LOCATION` - Schedule is configured across a location.  * `ORGANIZATION` - Schedule is configured across an organization. Valores: LOCATION, ORGANIZATION.
+- `holidayServiceEnabled` (boolean) (**requerido**): Enable or Disable the call queue holiday service routing policy.
+- `action` (string) (**requerido**): The call processing action type.  * `BUSY` - The caller hears a fast-busy tone.  * `TRANSFER` - Transfers the call to number specified in `transferPhoneNumber`. Valores: BUSY, TRANSFER.
+- `holidayScheduleLevel` (string) (**requerido**): The schedule mentioned in `holidayScheduleName` is org or location specific. (Must be from `holidaySchedules` list)  * `LOCATION` - Schedule is configured across a location.  * `ORGANIZATION` - Schedule is configured across an organization. Valores: LOCATION, ORGANIZATION.
 - `holidayScheduleName` (string): Name of the schedule configured for a holiday service as one of from `holidaySchedules` list.
 - `transferPhoneNumber` (string): Call gets transferred to this number when action is set to `TRANSFER`. This can also be an extension.
-- `playAnnouncementBeforeEnabled` (boolean) **(requerido)**: Indicates whether an announcement plays to callers before the action is applied.
-- `audioMessageSelection` (string) **(requerido)**: The type of announcement to be played.  * `DEFAULT` - Default Audio Message Selection.  * `CUSTOM` - Custom Audio Message Selection. Valores: DEFAULT, CUSTOM.
+- `playAnnouncementBeforeEnabled` (boolean) (**requerido**): Indicates whether an announcement plays to callers before the action is applied.
+- `audioMessageSelection` (string) (**requerido**): The type of announcement to be played.  * `DEFAULT` - Default Audio Message Selection.  * `CUSTOM` - Custom Audio Message Selection. Valores: DEFAULT, CUSTOM.
 - `audioFiles` (array): List of pre-configured Announcement Audio Files when `audioMessageSelection` is `CUSTOM`.
   - `id` (string): A unique identifier for the announcement. `name`, `mediaFileType`, `level` are mandatory if `id` is not provided for uploading an announcement.
   - `fileName` (string): Audio announcement file name.
   - `mediaFileType` (string): Audio announcement file type.  * `WAV` - WAV File Extension.  * `WMA` - WMA File Extension.  * `3GP` - 3GP File Extension. Valores: WAV, WMA, 3GP.
   - `level` (string): Audio announcement file type location.  * `ORGANIZATION` - Audio file is configured across organisation.  * `LOCATION` - Audio file is configured across location.  * `ENTITY` - Audio file is configured on instance level. Valores: ORGANIZATION, LOCATION, ENTITY.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "holidayServiceEnabled": true,
@@ -76,8 +81,18 @@ Updating a call queue holiday service requires a full administrator or location 
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/locations/<locationId>/queues/<queueId>/holidayService' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"holidayServiceEnabled": true, "action": "<action>", "holidayScheduleLevel": "<holidayScheduleLevel>", "playAnnouncementBeforeEnabled": true, "audioMessageSelection": "<audioMessageSelection>"}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -93,6 +108,9 @@ Updating a call queue holiday service requires a full administrator or location 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

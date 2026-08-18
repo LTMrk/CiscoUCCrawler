@@ -2,10 +2,15 @@
 doc_id: webex-meeting-get-meetingtranscripts-transcriptid-snippets
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: GET
 path: /meetingTranscripts/{transcriptId}/snippets
+operation_id: List Snippets of a Meeting Transcript
+tags: Transcripts
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.391067+00:00
+retrieved_at: 2026-08-18T23:45:44.474731+00:00
 ---
 
 # GET /meetingTranscripts/{transcriptId}/snippets
@@ -23,18 +28,42 @@ Lists snippets of a meeting transcript specified by `transcriptId`.
 Use this operation to list snippets of a meeting transcript when they are ready.
 
 ## Parámetros
-- `transcriptId` [path] (string) **(requerido)**: Unique identifier for the meeting transcript to which the snippets belong.
+- `transcriptId` [path] (string) (**requerido**): Unique identifier for the meeting transcript to which the snippets belong.
 - `max` [query] (string): Maximum snippet items to be returned for this query, to support pagination.
 
-## Respuestas
-- **200**: OK
-  - `items` (array): Transcript snippet array
-    - `id` (string) **(requerido)**: A unique identifier for the snippet.
-    - `text` (string) **(requerido)**: Text for the snippet.
-    - `personName` (string) **(requerido)**: Name of the person generating the speech for the snippet.
-    - `personEmail` (string) **(requerido)**: Email address of the person generating the speech for the snippet.
-    - `offsetMillisecond` (number) **(requerido)**: Offset from the beginning of the parent transcript in milliseconds indicating the start time of the snippet.
-    - `durationMillisecond` (number) **(requerido)**: Duration of the snippet in milliseconds.
+## Ejemplo de invocación
+```bash
+curl -X GET '/meetingTranscripts/<transcriptId>/snippets' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): Transcript snippet array
+  - `id` (string) (**requerido**): A unique identifier for the snippet.
+  - `text` (string) (**requerido**): Text for the snippet.
+  - `personName` (string) (**requerido**): Name of the person generating the speech for the snippet.
+  - `personEmail` (string) (**requerido**): Email address of the person generating the speech for the snippet.
+  - `offsetMillisecond` (number) (**requerido**): Offset from the beginning of the parent transcript in milliseconds indicating the start time of the snippet.
+  - `durationMillisecond` (number) (**requerido**): Duration of the snippet in milliseconds.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "195d64646ad14be2924ea50f541fd91d_00001",
+      "text": "Hello everyone",
+      "personName": "John Andersen",
+      "personEmail": "john.andersen@example.com",
+      "offset": 1000,
+      "duration": 1500
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -50,6 +79,9 @@ Use this operation to list snippets of a meeting transcript when they are ready.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

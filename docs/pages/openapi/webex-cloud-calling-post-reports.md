@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-reports
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /reports
+operation_id: createaReport
+tags: Reports
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.635889+00:00
+retrieved_at: 2026-08-18T23:45:43.358333+00:00
 ---
 
 # POST /reports
@@ -25,15 +30,34 @@ The 'templateId' parameter is a number. However, it is a limitation of developer
 CSV reports for Webex suite services are only supported for organizations based in the North American region. Organizations based in a different region will return blank CSV files for any Teams reports.
 
 ## Cuerpo de la petición (application/json)
-- `templateId` (number) **(requerido)**: Unique ID representing valid report templates.
+- `templateId` (number) (**requerido**): Unique ID representing valid report templates.
 - `startDate` (string): Data in the report will be from this date onwards.
 - `endDate` (string): Data in the report will be until this date.
 - `siteList` (string): Sites belonging to user's organization. This attribute is needed for site-based templates.
 - `timeZone` (string): Time zone used for report date and time values. Use an IANA time zone name. This field is optional.
 
-## Respuestas
-- **200**: OK
-  - `id` (string): The unique identifier for the report.
+## Ejemplo de invocación
+```bash
+curl -X POST '/reports' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"templateId": 0}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string): The unique identifier for the report.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": {
+    "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9mYzhjMWFhMS00OTM5LTQ2NjEtODAwMy1hYWE0MzFmZWM0ZmE"
+  }
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -49,6 +73,9 @@ CSV reports for Webex suite services are only supported for organizations based 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

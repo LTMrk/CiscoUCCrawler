@@ -2,10 +2,15 @@
 doc_id: webex-admin-get-partner-reports
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: GET
 path: /partner/reports
+operation_id: listReports
+tags: Partner Reports/Templates
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.154054+00:00
+retrieved_at: 2026-08-18T23:45:42.570971+00:00
 ---
 
 # GET /partner/reports
@@ -36,21 +41,29 @@ To access this endpoint, you must use an administrator token with `spark-admin:r
 - `regionId` [query] (string): Data in the report will be from organizations in this region, for example, US, CA, or EU.
 - `onBehalfOfSubPartnerOrgId` [query] (string): The encoded organization ID for the sub partner.
 
-## Respuestas
-- **200**: OK
-  - `Report Attributes` (array): An array of report objects.
-    - `id` (string): Unique identifier for the report.
-    - `title` (string): Name of the template to which this report belongs.
-    - `service` (string): The service to which the report belongs.
-    - `startDate` (string): The data in this report belongs to dates greater than or equal to this.
-    - `endDate` (string): The data in this report belongs to dates smaller than or equal to this.
-    - `siteList` (string): The site to which this report belongs to. This only exists if the report belongs to service `Webex`.
-    - `timeZone` (string): Time zone used for report date and time values. Use an IANA time zone name. The default value is `UTC` when not specified.
-    - `created` (string): Time of creation for this report.
-    - `createdBy` (string): The person who created the report.
-    - `scheduledFrom` (string): Whether this report was scheduled from API or Control Hub.
-    - `status` (string): Completion status of this report.
-    - `downloadURL` (string): The link from which the report can be downloaded.
+## Ejemplo de invocación
+```bash
+curl -X GET '/partner/reports' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `Report Attributes` (array): An array of report objects.
+  - `id` (string): Unique identifier for the report.
+  - `title` (string): Name of the template to which this report belongs.
+  - `service` (string): The service to which the report belongs.
+  - `startDate` (string): The data in this report belongs to dates greater than or equal to this.
+  - `endDate` (string): The data in this report belongs to dates smaller than or equal to this.
+  - `siteList` (string): The site to which this report belongs to. This only exists if the report belongs to service `Webex`.
+  - `timeZone` (string): Time zone used for report date and time values. Use an IANA time zone name. The default value is `UTC` when not specified.
+  - `created` (string): Time of creation for this report.
+  - `createdBy` (string): The person who created the report.
+  - `scheduledFrom` (string): Whether this report was scheduled from API or Control Hub.
+  - `status` (string): Completion status of this report.
+  - `downloadURL` (string): The link from which the report can be downloaded.
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -66,6 +79,9 @@ To access this endpoint, you must use an administrator token with `spark-admin:r
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

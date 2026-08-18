@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-queues
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/queues
+operation_id: listCallQueues
+tags: Features:  Call Queue
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.601918+00:00
+retrieved_at: 2026-08-18T23:45:43.296522+00:00
 ---
 
 # GET /telephony/config/queues
@@ -15,7 +20,7 @@ retrieved_at: 2026-08-16T11:30:32.601918+00:00
 **operationId:** `listCallQueues`
 
 ## Resumen
-Read the List of Call Queues with Customer Assist
+Read the List of Call Queue or Customer Assist Queues
 
 ## Descripción
 List all Call Queues for the organization.
@@ -41,21 +46,62 @@ Retrieving this list requires a full or read-only administrator auth token with 
 - `hasCxEssentials` [query] (boolean): Returns only the list of call queues with Customer Assist license when `true`, otherwise returns the list of Customer Experience Basic call queues.
 - `digitalInboxEnabled` [query] (boolean): Returns only the list of call queues with digital inbox enabled when `true`, or disabled when `false`. This query parameter is only valid when `hasCxEssentials` is `true`.
 
-## Respuestas
-- **200**: OK
-  - `queues` (array) **(requerido)**: Array of call queues.
-    - `id` (string) **(requerido)**: A unique identifier for the call queue.
-    - `name` (string) **(requerido)**: Unique name for the call queue.
-    - `hasCxEssentials` (boolean) **(requerido)**: Denotes if the call queue has Customer Assist license.
-    - `locationName` (string) **(requerido)**: Name of location for call queue.
-    - `locationId` (string) **(requerido)**: ID of location for call queue.
-    - `phoneNumber` (string): Primary phone number of the call queue.
-    - `extension` (string): Primary phone extension of the call queue.
-    - `enabled` (boolean) **(requerido)**: Whether or not the call queue is enabled.
-    - `department` (object): The department information.
-      - `id` (string): Unique identifier of the department.
-      - `name` (string): Name of the department.
-    - `digitalInboxEnabled` (boolean): Digital Inbox enabled for Queue. This field is applicable for queue which has `hasCxEssentials=true`.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/queues' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `queues` (array) (**requerido**): Array of call queues.
+  - `id` (string) (**requerido**): A unique identifier for the call queue.
+  - `name` (string) (**requerido**): Unique name for the call queue.
+  - `hasCxEssentials` (boolean) (**requerido**): Denotes if the call queue has Customer Assist license.
+  - `locationName` (string) (**requerido**): Name of location for call queue.
+  - `locationId` (string) (**requerido**): ID of location for call queue.
+  - `phoneNumber` (string): Primary phone number of the call queue.
+  - `extension` (string): Primary phone extension of the call queue.
+  - `enabled` (boolean) (**requerido**): Whether or not the call queue is enabled.
+  - `department` (object): The department information.
+    - `id` (string): Unique identifier of the department.
+    - `name` (string): Name of the department.
+  - `digitalInboxEnabled` (boolean): Digital Inbox enabled for Queue. This field is applicable for queue which has `hasCxEssentials=true`.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "queues": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0NBTExfUVVFVUUvNTg0Y2Y0Y2QtZWVhNy00YzhjLTgzZWUtNjdkODhmYzZlYWE1",
+      "name": "5714328359",
+      "hasCxEssentials": true,
+      "locationName": "WXCSIVDKCPAPIC4S1",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzMxMTYx",
+      "enabled": true,
+      "extension": "8000",
+      "department": {
+        "id": "Y2lzY29zcGFyazovL3VzL1NDSU1fR1JPVVAvZjA2ZWRiOGMtMjMxNC00ZTcxLWIzNzgtZTdiMmQwNjk3OTliOjk2YWJjMmFhLTNkY2MtMTFlNS1hMTUyLWZlMzQ4MTljZGM5YQ",
+        "name": "HR"
+      },
+      "digitalInboxEnabled": true
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0NBTExfUVVFVUUvNmU1NTVjZDAtNjM0MS00MmI4LWEyMWMtZTc1ZjIxNDQ4Mjc0",
+      "name": "bram",
+      "hasCxEssentials": true,
+      "locationName": "Brampton",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzQwMjgw",
+      "phoneNumber": "+15558675309",
+      "enabled": true,
+      "digitalInboxEnabled": false
+    }
+  ]
+}
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -71,6 +117,9 @@ Retrieving this list requires a full or read-only administrator auth token with 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

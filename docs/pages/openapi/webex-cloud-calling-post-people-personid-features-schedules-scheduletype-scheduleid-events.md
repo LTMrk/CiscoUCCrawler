@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-people-personid-features-schedules-scheduletype-scheduleid-events
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /people/{personId}/features/schedules/{scheduleType}/{scheduleId}/events
+operation_id: Add a New Event for Person Schedule
+tags: User Call Settings (1/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.642234+00:00
+retrieved_at: 2026-08-18T23:45:43.368342+00:00
 ---
 
 # POST /people/{personId}/features/schedules/{scheduleType}/{scheduleId}/events
@@ -25,26 +30,26 @@ People can use shared location schedules or define personal schedules containing
 This API requires a full or user administrator auth token with the `spark-admin:people_write` scope.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: Unique identifier for the person.
-- `scheduleType` [path] (string) **(requerido)**: Type of schedule, either `businessHours` or `holidays`.
-- `scheduleId` [path] (string) **(requerido)**: Unique identifier for the schedule.
+- `personId` [path] (string) (**requerido**): Unique identifier for the person.
+- `scheduleType` [path] (string) (**requerido**): Type of schedule, either `businessHours` or `holidays`.
+- `scheduleId` [path] (string) (**requerido**): Unique identifier for the schedule.
 - `orgId` [query] (string): ID of the organization in which the person resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access API.
 
 ## Cuerpo de la petición (application/json)
-- `name` (string) **(requerido)**: Name for the event.
-- `startDate` (string) **(requerido)**: Start date of the event, or first occurrence if repeating, in the format of `YYYY-MM-DD`.  This field is required if the `allDayEnabled` field is present.
-- `endDate` (string) **(requerido)**: End date of the event, or first occurrence if repeating, in the format of `YYYY-MM-DD`.  This field is required if the `allDayEnabled` field is present.
-- `startTime` (string) **(requerido)**: Start time of the event in the format of `HH:MM` (24 hours format).  This field is required if the `allDayEnabled` field is false or omitted.
-- `endTime` (string) **(requerido)**: End time of the event in the format of `HH:MM` (24 hours format).  This field is required if the `allDayEnabled` field is false or omitted.
+- `name` (string) (**requerido**): Name for the event.
+- `startDate` (string) (**requerido**): Start date of the event, or first occurrence if repeating, in the format of `YYYY-MM-DD`.  This field is required if the `allDayEnabled` field is present.
+- `endDate` (string) (**requerido**): End date of the event, or first occurrence if repeating, in the format of `YYYY-MM-DD`.  This field is required if the `allDayEnabled` field is present.
+- `startTime` (string) (**requerido**): Start time of the event in the format of `HH:MM` (24 hours format).  This field is required if the `allDayEnabled` field is false or omitted.
+- `endTime` (string) (**requerido**): End time of the event in the format of `HH:MM` (24 hours format).  This field is required if the `allDayEnabled` field is false or omitted.
 - `allDayEnabled` (boolean): True if it is all-day event.
 - `recurrence` (object): Recurrence scheme for an event.
   - `recurForEver` (boolean): True if the event repeats forever. Requires either `recurDaily` or `recurWeekly` to be specified.
   - `recurEndDate` (string): End date for the recurring event in the format of `YYYY-MM-DD`. Requires either `recurDaily` or `recurWeekly` to be specified.
   - `recurEndOccurrence` (number): End recurrence after the event has repeated the specified number of times. Requires either `recurDaily` or `recurWeekly` to be specified.
   - `recurDaily` (object): Specifies the number of days between the start of each recurrence. Not allowed with `recurWeekly`.
-    - `recurInterval` (number) **(requerido)**: Recurring interval in days. The number of days after the start when an event will repeat.  Repetitions cannot overlap.
+    - `recurInterval` (number) (**requerido**): Recurring interval in days. The number of days after the start when an event will repeat.  Repetitions cannot overlap.
   - `recurWeekly` (object): Specifies the event recur weekly on the designated days of the week. Not allowed with `recurDaily`.
-    - `recurInterval` (number) **(requerido)**: Specifies the number of weeks between the start of each recurrence.
+    - `recurInterval` (number) (**requerido**): Specifies the number of weeks between the start of each recurrence.
     - `sunday` (boolean): The Event occurs weekly on Sunday.
     - `monday` (boolean): The Event occurs weekly on Monday.
     - `tuesday` (boolean): The Event occurs weekly on Tuesday.
@@ -53,7 +58,7 @@ This API requires a full or user administrator auth token with the `spark-admin:
     - `friday` (boolean): The Event occurs weekly on Friday.
     - `saturday` (boolean): The Event occurs weekly on Saturday.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "name": "Day_Shift",
@@ -83,9 +88,26 @@ This API requires a full or user administrator auth token with the `spark-admin:
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `id` (string) **(requerido)**: Identifier for a event.
+## Ejemplo de invocación
+```bash
+curl -X POST '/people/<personId>/features/schedules/<scheduleType>/<scheduleId>/events' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"name": "<name>", "startDate": "<startDate>", "endDate": "<endDate>", "startTime": "<startTime>", "endTime": "<endTime>"}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `id` (string) (**requerido**): Identifier for a event.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1VTRVJfU0NIRURVTEVfRVZFTlQvUkdGNVgxTm9hV1ow"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -101,6 +123,9 @@ This API requires a full or user administrator auth token with the `spark-admin:
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-meeting-delete-admin-recordings-recordingid
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: DELETE
 path: /admin/recordings/{recordingId}
+operation_id: adminDeleteRecordingById
+tags: Recordings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.403025+00:00
+retrieved_at: 2026-08-18T23:45:44.497335+00:00
 ---
 
 # DELETE /admin/recordings/{recordingId}
@@ -25,10 +30,18 @@ Any recording on a site which is managed by the admin can be deleted by him.
 The `temporaryDirectDownloadLinks` of a recording which are retrieved by the [Get Recording Details](/docs/api/v1/recordings/get-recording-details) API are still available to Compliance Officers even if the recording has been deleted.
 
 ## Parámetros
-- `recordingId` [path] (string) **(requerido)**: A unique identifier for the recording.
+- `recordingId` [path] (string) (**requerido**): A unique identifier for the recording.
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X DELETE '/admin/recordings/<recordingId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -44,6 +57,9 @@ The `temporaryDirectDownloadLinks` of a recording which are retrieved by the [Ge
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

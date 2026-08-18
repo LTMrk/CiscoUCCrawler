@@ -2,10 +2,15 @@
 doc_id: webex-messaging-post-attachment-actions
 source: webex-openapi-specs/public-spec/webex-messaging.json
 api: Webex Messaging
+api_version: 1.0.0
 method: POST
 path: /attachment/actions
+operation_id: Create an Attachment Action
+tags: Attachment Actions
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.509544+00:00
+retrieved_at: 2026-08-18T23:45:44.801998+00:00
 ---
 
 # POST /attachment/actions
@@ -21,15 +26,15 @@ Create an Attachment Action
 Create a new attachment action.
 
 ## Cuerpo de la petición (application/json)
-- `type` (string) **(requerido)**: The type of action to perform. Valores: submit.
-- `messageId` (string) **(requerido)**: The ID of the message which contains the attachment.
-- `inputs` (object) **(requerido)**: The attachment action's inputs.
+- `type` (string) (**requerido**): The type of action to perform. Valores: submit.
+- `messageId` (string) (**requerido**): The ID of the message which contains the attachment.
+- `inputs` (object) (**requerido**): The attachment action's inputs.
   - `Name` (string):
   - `Url` (string):
   - `Email` (string):
   - `Tel` (string):
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "type": "submit",
@@ -43,19 +48,47 @@ Create a new attachment action.
 }
 ```
 
-## Respuestas
-- **202**: Accepted
-  - `id` (string): A unique identifier for the action.
-  - `personId` (string): The ID of the person who performed the action.
-  - `roomId` (string): The ID of the room in which the action was performed.
-  - `type` (string) **(requerido)**: The type of action performed. Valores: submit.
-  - `messageId` (string) **(requerido)**: The parent message on which the attachment action was performed.
-  - `inputs` (object): The action's inputs.
-    - `Name` (string):
-    - `Url` (string):
-    - `Email` (string):
-    - `Tel` (string):
-  - `created` (string): The date and time the action was created.
+## Ejemplo de invocación
+```bash
+curl -X POST '/attachment/actions' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"type": "<type>", "messageId": "<messageId>", "inputs": {}}'
+```
+
+## Respuestas correctas
+**202**: Accepted
+- `id` (string): A unique identifier for the action.
+- `personId` (string): The ID of the person who performed the action.
+- `roomId` (string): The ID of the room in which the action was performed.
+- `type` (string) (**requerido**): The type of action performed. Valores: submit.
+- `messageId` (string) (**requerido**): The parent message on which the attachment action was performed.
+- `inputs` (object): The action's inputs.
+  - `Name` (string):
+  - `Url` (string):
+  - `Email` (string):
+  - `Tel` (string):
+- `created` (string): The date and time the action was created.
+
+### Ejemplo — respuesta 202
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL0NBTExTLzU0MUFFMzBFLUUyQzUtNERENi04NTM4LTgzOTRDODYzM0I3MQo",
+  "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS83MTZlOWQxYy1jYTQ0LTRmZ",
+  "roomId": "L3VzL1BFT1BMRS80MDNlZmUwNy02Yzc3LTQyY2UtOWI",
+  "type": "submit",
+  "messageId": "GFyazovL3VzL1BFT1BMRS80MDNlZmUwNy02Yzc3LTQyY2UtOWI4NC",
+  "inputs": {
+    "Name": "John Andersen",
+    "Url": "https://example.com",
+    "Email": "john.andersen@example.com",
+    "Tel": "+1 408 555 7209"
+  },
+  "created": "2016-05-10T19:41:00.100Z"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -71,6 +104,9 @@ Create a new attachment action.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Messaging APIs offer robust programmatic access to messaging features within Webex, including sending and receiving messages, managing spaces, memberships, attachments, and moderating content. These APIs enable integration with bots, workflow automation, notification systems, and custom messaging solutions to enhance team collaboration and productivity. Use cases include building chatbots, integrating with ticketing or alerting platforms, automating onboarding flows, and creating custom collaboration experiences tailored to business needs.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

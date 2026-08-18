@@ -2,10 +2,15 @@
 doc_id: webex-meeting-post-meetingparticipants-callout
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: POST
 path: /meetingParticipants/callout
+operation_id: Call Out a SIP Participant
+tags: Participants
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.387097+00:00
+retrieved_at: 2026-08-18T23:45:44.466879+00:00
 ---
 
 # POST /meetingParticipants/callout
@@ -29,12 +34,12 @@ The ringing on the invited SIP device stops in 30 seconds if there is no respons
 ## Cuerpo de la petición (application/json)
 - `meetingId` (string): Unique identifier of the meeting to which the SIP participant is to be called out. Either `meetingId` or `meetingNumber` must be specified.
 - `meetingNumber` (string): Number of the meeting to which the SIP participant is to be called out. Either `meetingId` or `meetingNumber` must be specified.
-- `address` (string) **(requerido)**: SIP address of the invited SIP participant.
+- `address` (string) (**requerido**): SIP address of the invited SIP participant.
 - `addressType` (string): Type of the `address`. The default value is `sipAddress`.  * `sipAddress` - SIP address. Valores: sipAddress.
 - `invitationCorrelationId` (string): An internal ID that is associated with the call-out invitation. Only UUIDs with hyphens are supported. The letters in the UUID must be in lowercase. A random UUID will be generated automatically if not specified.
-- `displayName` (string) **(requerido)**: The display name of the invited SIP participant. The maximum length is 32 characters.
+- `displayName` (string) (**requerido**): The display name of the invited SIP participant. The maximum length is 32 characters.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "meetingId": "d8c3347d7ec04242ba9b856184b334ac",
@@ -45,16 +50,40 @@ The ringing on the invited SIP device stops in 30 seconds if there is no respons
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `participantId` (string): Participant ID. It can be used in the "Cancel Call Out a SIP Participant" API.
-  - `invitationCorrelationId` (string): An internal ID that is associated with the call-out invitation.
-  - `meetingNumber` (string): Number of the meeting to which the SIP participant is to be called out.
-  - `meetingId` (string): Unique identifier of the meeting to which the SIP participant is to be called out.
-  - `address` (string): SIP address of the invited SIP participant.
-  - `addressType` (string): Type of the `address`.  * `sipAddress` - SIP address. Valores: sipAddress.
-  - `displayName` (string): The display name of the invited SIP participant.
-  - `state` (string): The state of the invited SIP participant.  * `pending` - The invited SIP participant is waiting for approval. Participants in the `pending` state will not be listed by the "List Meeting Participants" API. Valores: pending.
+## Ejemplo de invocación
+```bash
+curl -X POST '/meetingParticipants/callout' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"address": "<address>", "displayName": "<displayName>"}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `participantId` (string): Participant ID. It can be used in the "Cancel Call Out a SIP Participant" API.
+- `invitationCorrelationId` (string): An internal ID that is associated with the call-out invitation.
+- `meetingNumber` (string): Number of the meeting to which the SIP participant is to be called out.
+- `meetingId` (string): Unique identifier of the meeting to which the SIP participant is to be called out.
+- `address` (string): SIP address of the invited SIP participant.
+- `addressType` (string): Type of the `address`.  * `sipAddress` - SIP address. Valores: sipAddress.
+- `displayName` (string): The display name of the invited SIP participant.
+- `state` (string): The state of the invited SIP participant.  * `pending` - The invited SIP participant is waiting for approval. Participants in the `pending` state will not be listed by the "List Meeting Participants" API. Valores: pending.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "participantId": "d8c3347d7ec04242ba9b856184b334ac_I_630641605678082408_57514861-50f7-3f5b-864f-ce0e308bf653",
+  "invitationCorrelationId": "871ab255-64e6-4cd2-a5af-d33953898356",
+  "meetingNumber": "79100342367",
+  "meetingId": "d8c3347d7ec04242ba9b856184b334ac",
+  "address": "SIP:9053523155@examplezone.cisco.com",
+  "addressType": "sipAddress",
+  "displayName": "Brenda DX80",
+  "state": "pending"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -70,6 +99,9 @@ The ringing on the invited SIP device stops in 30 seconds if there is no respons
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

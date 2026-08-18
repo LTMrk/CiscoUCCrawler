@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-people-personid-applications-members
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/people/{personId}/applications/members
+operation_id: getSharedLineAppearanceMembersNew
+tags: User Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.651310+00:00
+retrieved_at: 2026-08-18T23:45:43.382448+00:00
 ---
 
 # GET /telephony/config/people/{personId}/applications/members
@@ -25,35 +30,77 @@ Like most hardware devices, applications support assigning additional shared lin
 This API requires a full, user, or location administrator auth token with the `spark-admin:telephony_config_read` scope.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: A unique identifier for the person.
+- `personId` [path] (string) (**requerido**): A unique identifier for the person.
 
-## Respuestas
-- **200**: OK
-  - `model` (string) **(requerido)**: Model name of device.
-  - `members` (array): List of members.
-    - `id` (string) **(requerido)**: Unique identifier for the member.
-    - `firstName` (string): First name of the person or workspace.
-    - `lastName` (string): Last name of the person or workspace.
-    - `phoneNumber` (string): Phone number of the person or workspace. Currently, E.164 format is not supported. This will be supported in a future update.
-    - `extension` (string): Phone extension of the person or workspace.
-    - `routingPrefix` (string): Routing prefix of the location.
-    - `esn` (string): Routing prefix plus extension of a person or workspace.
-    - `port` (number) **(requerido)**: Device port number assigned to the person or workspace.
-    - `t38FaxCompressionEnabled `true`` (boolean): T.38 Fax Compression setting. Valid only for ATA Devices. Overrides user-level compression options.
-    - `primaryOwner` (string) **(requerido)**: If `true`, the person or workspace is the owner of the device. Points to the primary line/port of the device.
-    - `lineType` (string) **(requerido)**: * `PRIMARY` - Primary line for the member.  * `SHARED_CALL_APPEARANCE` - Shared line for the member. A shared line allows users to receive and place calls to and from another user's extension, using their own device. Valores: PRIMARY, SHARED_CALL_APPEARANCE.
-    - `lineWeight` (number) **(requerido)**: Number of lines that have been configured for the person on the device.
-    - `hostIP` (string): Registration home IP for the line port.
-    - `remoteIP` (string): Registration remote IP for the line port.
-    - `hotlineEnabled` (boolean) **(requerido)**: Configure this line to automatically call a predefined number whenever taken off-hook. Once enabled, the line can only make calls to the predefined number set in `hotlineDestination`.
-    - `hotlineDestination` (string) **(requerido)**: Preconfigured number for the hotline. Required only if `hotlineEnabled` is set to `true`.
-    - `allowCallDeclineEnabled` (boolean) **(requerido)**: Set how a device behaves when a call is declined. When set to `true`, a call decline request is extended to all endpoints on the device. When set to `false`, a call decline request is only declined at the current endpoint.
-    - `lineLabel` (string): Device line label.
-    - `memberType` (string) **(requerido)**: * `PEOPLE` - The associated member is a person.  * `PLACE` - The associated member is a workspace.  * `VIRTUAL_LINE` - The associated member is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
-    - `location` (object):
-      - `id` (string) **(requerido)**: Location identifier associated with the members.
-      - `name` (string) **(requerido)**: Location name associated with the member.
-  - `maxLineCount` (number) **(requerido)**: Maximum number of device ports.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/people/<personId>/applications/members' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `model` (string) (**requerido**): Model name of device.
+- `members` (array): List of members.
+  - `id` (string) (**requerido**): Unique identifier for the member.
+  - `firstName` (string): First name of the person or workspace.
+  - `lastName` (string): Last name of the person or workspace.
+  - `phoneNumber` (string): Phone number of the person or workspace. Currently, E.164 format is not supported. This will be supported in a future update.
+  - `extension` (string): Phone extension of the person or workspace.
+  - `routingPrefix` (string): Routing prefix of the location.
+  - `esn` (string): Routing prefix plus extension of a person or workspace.
+  - `port` (number) (**requerido**): Device port number assigned to the person or workspace.
+  - `t38FaxCompressionEnabled `true`` (boolean): T.38 Fax Compression setting. Valid only for ATA Devices. Overrides user-level compression options.
+  - `primaryOwner` (string) (**requerido**): If `true`, the person or workspace is the owner of the device. Points to the primary line/port of the device.
+  - `lineType` (string) (**requerido**): * `PRIMARY` - Primary line for the member.  * `SHARED_CALL_APPEARANCE` - Shared line for the member. A shared line allows users to receive and place calls to and from another user's extension, using their own device. Valores: PRIMARY, SHARED_CALL_APPEARANCE.
+  - `lineWeight` (number) (**requerido**): Number of lines that have been configured for the person on the device.
+  - `hostIP` (string): Registration home IP for the line port.
+  - `remoteIP` (string): Registration remote IP for the line port.
+  - `hotlineEnabled` (boolean) (**requerido**): Configure this line to automatically call a predefined number whenever taken off-hook. Once enabled, the line can only make calls to the predefined number set in `hotlineDestination`.
+  - `hotlineDestination` (string) (**requerido**): Preconfigured number for the hotline. Required only if `hotlineEnabled` is set to `true`.
+  - `allowCallDeclineEnabled` (boolean) (**requerido**): Set how a device behaves when a call is declined. When set to `true`, a call decline request is extended to all endpoints on the device. When set to `false`, a call decline request is only declined at the current endpoint.
+  - `lineLabel` (string): Device line label.
+  - `memberType` (string) (**requerido**): * `PEOPLE` - The associated member is a person.  * `PLACE` - The associated member is a workspace.  * `VIRTUAL_LINE` - The associated member is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
+  - `location` (object):
+    - `id` (string) (**requerido**): Location identifier associated with the members.
+    - `name` (string) (**requerido**): Location name associated with the member.
+- `maxLineCount` (number) (**requerido**): Maximum number of device ports.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "model": "Business Communicator - PC",
+  "members": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS85ODhiYTQyOC0zMjMyLTRmNjItYjUyNS1iZDUzZmI4Nzc0MWE",
+      "firstName": "John",
+      "lastName": "Doe",
+      "phoneNumber": "+2056852221",
+      "extension": "1111",
+      "routingPrefix": "1234",
+      "esn": "12341111",
+      "port": 1,
+      "primaryOwner": "true",
+      "lineType": "SHARED_CALL_APPEARANCE",
+      "lineWeight": 1,
+      "hostIP": "198.168.0.1",
+      "remoteIP": "198.168.0.2",
+      "hotlineEnabled": true,
+      "hotlineDestination": "1234",
+      "allowCallDeclineEnabled": true,
+      "lineLabel": "share line label",
+      "memberType": "PEOPLE",
+      "location": {
+        "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzJiNDkyZmZkLTRjNGItNGVmNS04YzAzLWE1MDYyYzM4NDA5Mw",
+        "name": "MainOffice"
+      }
+    }
+  ],
+  "maxLineCount": 10
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -69,6 +116,9 @@ This API requires a full, user, or location administrator auth token with the `s
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

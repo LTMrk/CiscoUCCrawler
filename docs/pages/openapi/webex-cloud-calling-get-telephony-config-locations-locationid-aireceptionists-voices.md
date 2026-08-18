@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-locations-locationid-aireceptionists-voices
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/aiReceptionists/voices
+operation_id: getAiReceptionistVoices
+tags: AI Receptionist for Webex Calling, AI Receptionist
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.548428+00:00
+retrieved_at: 2026-08-18T23:45:43.154102+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/aiReceptionists/voices
@@ -25,19 +30,59 @@ AI Receptionist is a Webex Calling feature that uses AI to greet callers and int
 This API requires a full or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Location ID.
+- `locationId` [path] (string) (**requerido**): Location ID.
 - `orgId` [query] (string): Optional target organization identifier. Defaults to token's organization if not provided.
 
-## Respuestas
-- **200**: OK
-  - `aiEngines` (array) **(requerido)**: List of AI engines with their available voices.
-    - `name` (string) **(requerido)**: AI engine name. - PRO — Available in all supported countries. - PRO_US — Available in the United States only. Valores: PRO, PRO_US.
-    - `voices` (array) **(requerido)**: List of available voices for this AI engine.
-      - `language` (string) **(requerido)**: Voice language.
-      - `languageCode` (string) **(requerido)**: Voice locale code.
-      - `displayName` (string) **(requerido)**: Voice display name.
-      - `isDefault` (boolean) **(requerido)**: Field to indicate default voice.
-      - `gender` (string) **(requerido)**: Voice gender. - MALE — Male voice. - FEMALE — Female voice. Valores: MALE, FEMALE.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/locations/<locationId>/aiReceptionists/voices' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `aiEngines` (array) (**requerido**): List of AI engines with their available voices.
+  - `name` (string) (**requerido**): AI engine name. - PRO — Available in all supported countries. - PRO_US — Available in the United States only. Valores: PRO, PRO_US.
+  - `voices` (array) (**requerido**): List of available voices for this AI engine.
+    - `language` (string) (**requerido**): Voice language.
+    - `languageCode` (string) (**requerido**): Voice locale code.
+    - `displayName` (string) (**requerido**): Voice display name.
+    - `isDefault` (boolean) (**requerido**): Field to indicate default voice.
+    - `gender` (string) (**requerido**): Voice gender. - MALE — Male voice. - FEMALE — Female voice. Valores: MALE, FEMALE.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "aiEngines": [
+    {
+      "name": "PRO",
+      "voices": [
+        {
+          "language": "English",
+          "languageCode": "en-US",
+          "displayName": "en-US-Maria",
+          "isDefault": false,
+          "gender": "FEMALE"
+        }
+      ]
+    },
+    {
+      "name": "PRO_US",
+      "voices": [
+        {
+          "language": "English",
+          "languageCode": "en-US",
+          "displayName": "en-US-Jess",
+          "isDefault": true,
+          "gender": "FEMALE"
+        }
+      ]
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -53,6 +98,9 @@ This API requires a full or read-only administrator auth token with a scope of `
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

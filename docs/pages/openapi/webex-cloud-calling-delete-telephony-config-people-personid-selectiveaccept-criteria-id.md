@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-delete-telephony-config-people-personid-selectiveaccept-criteria-id
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: DELETE
 path: /telephony/config/people/{personId}/selectiveAccept/criteria/{id}
+operation_id: deleteCriteriaFromUserSelectiveCallAcceptService
+tags: User Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.649526+00:00
+retrieved_at: 2026-08-18T23:45:43.379828+00:00
 ---
 
 # DELETE /telephony/config/people/{personId}/selectiveAccept/criteria/{id}
@@ -25,12 +30,20 @@ With the Selective Call Accept feature, you can create different rules to accept
 Requires a full, user, or location administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: A unique identifier for the person.
-- `id` [path] (string) **(requerido)**: Criteria ID.
+- `personId` [path] (string) (**requerido**): A unique identifier for the person.
+- `id` [path] (string) (**requerido**): Criteria ID.
 - `orgId` [query] (string): Organization in which the user resides.
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X DELETE '/telephony/config/people/<personId>/selectiveAccept/criteria/<id>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -46,6 +59,9 @@ Requires a full, user, or location administrator auth token with a scope of `spa
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-meeting-get-meetingclosedcaptions-closedcaptionid-download
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: GET
 path: /meetingClosedCaptions/{closedCaptionId}/download
+operation_id: downloadTranscript
+tags: Closed Captions
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.385427+00:00
+retrieved_at: 2026-08-18T23:45:44.463863+00:00
 ---
 
 # GET /meetingClosedCaptions/{closedCaptionId}/download
@@ -25,13 +30,36 @@ Download meeting closed caption snippets from the meeting closed caption specifi
 * `timezone`: *[Time zone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List) for time stamps in response body, defined in conformance with the [IANA time zone database](https://www.iana.org/time-zones). The default value is `UTC` if not specified.*
 
 ## Parámetros
-- `closedCaptionId` [path] (string) **(requerido)**: Unique identifier for the meeting closed caption.
-- `format` [query] (string): Format for the downloaded meeting closed caption snippets.
-- `meetingId` [query] (string) **(requerido)**: Unique identifier for the [meeting instance](/docs/meetings#meeting-series-scheduled-meetings-and-meeting-instances) which the closed caption snippets belong to. This parameter only applies to meeting instances in the `ended` state. It does not apply to meeting series, scheduled meetings or scheduled [personal room](https://help.webex.com/en-us/article/nul0wut/Webex-Personal-Rooms-in-Webex-Meetings) meetings.
+- `closedCaptionId` [path] (string) (**requerido**): Unique identifier for the meeting closed caption.
+- `format` [query] (string): Format for the downloaded meeting closed caption snippets. Valores: vtt, txt. Por defecto: vtt.
+- `meetingId` [query] (string) (**requerido**): Unique identifier for the [meeting instance](/docs/meetings#meeting-series-scheduled-meetings-and-meeting-instances) which the closed caption snippets belong to. This parameter only applies to meeting instances in the `ended` state. It does not apply to meeting series, scheduled meetings or scheduled [personal room](https://help.webex.com/en-us/article/nul0wut/Webex-Personal-Rooms-in-Webex-Meetings) meetings.
 - `timezone` [header] (string): e.g. UTC
 
-## Respuestas
-- **200**: OK
+## Ejemplo de invocación
+```bash
+curl -X GET '/meetingClosedCaptions/<closedCaptionId>/download?meetingId=<meetingId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+
+### Ejemplo — respuesta 200
+```json
+"WEBVTT\n\n1\n00:00:20.904 --> 00:00:24.564\nThis is an s sample closed caption snippet.\n\n2\n00:00:31.014 --> 00:00:33.744\nTesting out download closed captions.\n"
+```
+
+### Ejemplo — respuesta 200
+```json
+"WEBVTT\n\n1\n00:00:20.904 --> 00:00:24.564\nThis is an s sample closed caption snippet.\n\n2\n00:00:31.014 --> 00:00:33.744\nTesting out download closed captions.\n"
+```
+
+### Ejemplo — respuesta 200
+```json
+"WEBVTT\n\n1\n00:00:20.904 --> 00:00:24.564\nThis is an s sample closed caption snippet.\n\n2\n00:00:31.014 --> 00:00:33.744\nTesting out download closed captions.\n"
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -47,6 +75,9 @@ Download meeting closed caption snippets from the meeting closed caption specifi
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

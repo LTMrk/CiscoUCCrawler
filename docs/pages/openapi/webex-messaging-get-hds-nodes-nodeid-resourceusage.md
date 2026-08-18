@@ -2,10 +2,15 @@
 doc_id: webex-messaging-get-hds-nodes-nodeid-resourceusage
 source: webex-openapi-specs/public-spec/webex-messaging.json
 api: Webex Messaging
+api_version: 1.0.0
 method: GET
 path: /hds/nodes/{nodeId}/resourceUsage
+operation_id: getHDSNodeResourceUsage
+tags: Hybrid Data Security
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.511777+00:00
+retrieved_at: 2026-08-18T23:45:44.806355+00:00
 ---
 
 # GET /hds/nodes/{nodeId}/resourceUsage
@@ -22,39 +27,94 @@ Retrieve CPU, memory, and disk resource usage details for a specific Hybrid Data
 To obtain the Node ID needed for this API, use the [List nodes for an Hybrid Data Security cluster API](</docs/api/v1/hds/list-hds-cluster-nodes>)
 
 ## Parámetros
-- `nodeId` [path] (string) **(requerido)**: Unique ID of the Hybrid Data Security node.
-- `from` [query] (string) **(requerido)**: The start date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
-- `to` [query] (string) **(requerido)**: The end date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
+- `nodeId` [path] (string) (**requerido**): Unique ID of the Hybrid Data Security node.
+- `from` [query] (string) (**requerido**): The start date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
+- `to` [query] (string) (**requerido**): The end date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
 
-## Respuestas
-- **200**: OK
-  - `context` (object): Metadata information about the node for which resource usage is being retrieved.
-    - `orgId` (string): Unique ID of the organization.
-    - `clusterId` (string): Unique ID of the cluster.
-    - `clusterName` (string): Name of the cluster.
-    - `nodeId` (string): Unique ID of the node.
-    - `host` (string): Host name or IP address of the Hybrid Data Security node.
-  - `resourceUsage` (array): List of resource usage segments over the requested time range.
-    - `startTime` (string): Start time of the resource usage segment.
-    - `endTime` (string): End time of the resource usage segment.
-    - `cpuUsage` (object): CPU usage details for the segment.
-      - `peakCpuUsagePercent` (number): Peak CPU usage percentage in the segment.
-      - `averageCpuUsagePercent` (number): Average CPU usage percentage in the segment.
-    - `memoryUsage` (object): Memory usage details for the segment.
-      - `totalMemoryUsageInMB` (number): Total memory available on the node in MB.
-      - `peakMemoryUsageInMB` (number): Peak memory usage in MB in the segment.
-      - `peakMemoryUsagePercent` (number): Peak memory usage percentage in the segment.
-      - `averageMemoryUsageInMB` (number): Average memory usage in MB in the segment.
-      - `averageMemoryUsagePercent` (number): Average memory usage percentage in the segment.
-    - `diskUsage` (object): Disk usage details for the segment.
-      - `totalDiskSpaceUsageInMB` (number): Total disk space available on the node in MB.
-      - `peakDiskSpaceUsageInMB` (number): Peak disk space usage in MB in the segment.
-      - `peakDiskUsagePercent` (number): Peak disk usage percentage in the segment.
-      - `averageDiskUsage` (number): Average disk usage in MB in the segment.
-      - `averageDiskUsagePercent` (number): Average disk usage percentage in the segment.
-  - `timeRange` (object): The time range for the resource usage data.
-    - `from` (string): Start time of the requested data range.
-    - `to` (string): End time of the requested data range.
+## Ejemplo de invocación
+```bash
+curl -X GET '/hds/nodes/<nodeId>/resourceUsage?from=<from>&to=<to>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `context` (object): Metadata information about the node for which resource usage is being retrieved.
+  - `orgId` (string): Unique ID of the organization.
+  - `clusterId` (string): Unique ID of the cluster.
+  - `clusterName` (string): Name of the cluster.
+  - `nodeId` (string): Unique ID of the node.
+  - `host` (string): Host name or IP address of the Hybrid Data Security node.
+- `resourceUsage` (array): List of resource usage segments over the requested time range.
+  - `startTime` (string/date-time): Start time of the resource usage segment.
+  - `endTime` (string/date-time): End time of the resource usage segment.
+  - `cpuUsage` (object): CPU usage details for the segment.
+    - `peakCpuUsagePercent` (number): Peak CPU usage percentage in the segment.
+    - `averageCpuUsagePercent` (number): Average CPU usage percentage in the segment.
+  - `memoryUsage` (object): Memory usage details for the segment.
+    - `totalMemoryUsageInMB` (number): Total memory available on the node in MB.
+    - `peakMemoryUsageInMB` (number): Peak memory usage in MB in the segment.
+    - `peakMemoryUsagePercent` (number): Peak memory usage percentage in the segment.
+    - `averageMemoryUsageInMB` (number): Average memory usage in MB in the segment.
+    - `averageMemoryUsagePercent` (number): Average memory usage percentage in the segment.
+  - `diskUsage` (object): Disk usage details for the segment.
+    - `totalDiskSpaceUsageInMB` (number): Total disk space available on the node in MB.
+    - `peakDiskSpaceUsageInMB` (number): Peak disk space usage in MB in the segment.
+    - `peakDiskUsagePercent` (number): Peak disk usage percentage in the segment.
+    - `averageDiskUsage` (number): Average disk usage in MB in the segment.
+    - `averageDiskUsagePercent` (number): Average disk usage percentage in the segment.
+- `timeRange` (object): The time range for the resource usage data.
+  - `from` (string/date-time): Start time of the requested data range.
+  - `to` (string/date-time): End time of the requested data range.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "context": {
+    "orgId": "Y2lzY29zcGFyazovL3VzL0hZQlJJRF9DTFVTVEVSLzFlYjY1ZmRmLTk2NDMtNDE3Zi05OTc0LWFkNzJVGNG",
+    "clusterId": "Y2lzY29zcGFyazovL3VzL0hZQlJJRF9DTFVTVEVSLzFlYjY1ZmRmLTk2NDMtNDE3Zi05OTc0LWFkNzJjYWUwZTEwZjpiMzdmNTgzYy1kZGRjLTQyOGItODJlNS1jYmU2ODFkYjQ5NjI",
+    "clusterName": "cluster-1",
+    "nodeId": "Y2lzY29zcGFyazovL3VzL0hZQlJJRF9DTFVTVEVSLzFlYjY1ZmRmLTk2NDMtNDE3Zi05OTc0LWFkNzJjYWUwZTEwZjpiMzdmNTgzYy1kZGRjLTQyOGItODJlNS1jYmU2ODFkYjQ5NjI",
+    "host": "xyz.abc.com"
+  },
+  "resourceUsage": [
+    {
+      "startTime": "2025-06-15T15:00:00Z",
+      "endTime": "2025-06-15T15:10:00Z",
+      "cpuUsage": {
+        "peakCpuUsagePercent": 30.78,
+        "averageCpuUsagePercent": 8.9
+      },
+      "memoryUsage": {
+        "totalMemoryUsageInMB": 7454,
+        "peakMemoryUsageInMB": 6075,
+        "peakMemoryUsagePercent": 81.5,
+        "averageMemoryUsageInMB": 6042,
+        "averageMemoryUsagePercent": 81.06
+      },
+      "diskUsage": {
+        "totalDiskSpaceUsageInMB": 37308,
+        "peakDiskSpaceUsageInMB": 18874,
+        "peakDiskUsagePercent": 50.59,
+        "averageDiskUsage": 18874,
+        "averageDiskUsagePercent": 50.59
+      }
+    },
+    {
+      "startTime": "2025-06-15T15:10:00Z",
+      "endTime": "2025-06-15T15:20:00Z",
+      "cpuUsage": {
+        "peakCpuUsagePercent": 30.78,
+        "averageCpuUsagePercent": 8.9
+      },
+      "memoryUsage": {
+        "totalMemoryUsageInMB": 7454,
+        "peakMemoryUsageInMB": 6075,
+        "peakMemoryUsagePercen
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or could not be processed. An accompanying error message will provide more details.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request was understood, but it has been refused or access is not allowed.
@@ -70,6 +130,9 @@ To obtain the Node ID needed for this API, use the [List nodes for an Hybrid Dat
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond in time. If your query uses the max parameter, please try reducing its value.
+
+## Contexto de la API
+The Webex Messaging APIs offer robust programmatic access to messaging features within Webex, including sending and receiving messages, managing spaces, memberships, attachments, and moderating content. These APIs enable integration with bots, workflow automation, notification systems, and custom messaging solutions to enhance team collaboration and productivity. Use cases include building chatbots, integrating with ticketing or alerting platforms, automating onboarding flows, and creating custom collaboration experiences tailored to business needs.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

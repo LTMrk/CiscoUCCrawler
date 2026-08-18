@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-people-me-settings-sequentialring
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/people/me/settings/sequentialRing
+operation_id: updateMySequentialRingSettings
+tags: Call Settings For Me With UserHub Phase3
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.574030+00:00
+retrieved_at: 2026-08-18T23:45:43.199673+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/sequentialRing
@@ -25,17 +30,17 @@ Sequential Ring allows calls to ring additional phone numbers in sequence if the
 This API requires a user auth token with a scope of `spark:telephony_config_write`.
 
 ## Cuerpo de la petición (application/json)
-- `enabled` (boolean) **(requerido)**: Enable or disable sequential ring for the user.
+- `enabled` (boolean) (**requerido**): Enable or disable sequential ring for the user.
 - `ringBaseLocationFirstEnabled` (boolean): When `true`, the user's own devices ring before sequential ring numbers.
 - `baseLocationNumberOfRings` (integer): Number of rings for the user's own devices. Minimum: 2, Maximum: 20.
 - `continueIfBaseLocationIsBusyEnabled` (boolean): When `true`, sequential ring continues even when the user is unavailable. It controls if we allow trying the sequential ring numbers when either a service for the user such as Do Not Disturb or Call Waiting sends the call to busy processing, or ringBaseLocationFirstEnabled is true but all the user's devices are unreachable.
 - `callsToVoicemailEnabled` (boolean): When `true`, the caller is provided the option to press the # key to end the sequential ring service and send the call to no answer handling such as voicemail.
 - `phoneNumbers` (array): List of phone numbers to ring sequentially. Maximum 5 phone numbers.
   - `phoneNumber` (string): Phone number set as the sequential number.
-  - `answerConfirmationRequiredEnabled` (boolean) **(requerido)**: When set to `true` the called party is required to press 1 on the keypad to receive the call.
-  - `numberOfRings` (number) **(requerido)**: The number of rings to the specified phone number before the call advances to the subsequent number in the sequence or goes to voicemail.
+  - `answerConfirmationRequiredEnabled` (boolean) (**requerido**): When set to `true` the called party is required to press 1 on the keypad to receive the call.
+  - `numberOfRings` (number) (**requerido**): The number of rings to the specified phone number before the call advances to the subsequent number in the sequence or goes to voicemail.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "enabled": false,
@@ -53,8 +58,18 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 }
 ```
 
-## Respuestas
-- **204**: Sequential Ring Settings updated successfully for the authenticated user.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/people/me/settings/sequentialRing' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"enabled": true}'
+```
+
+## Respuestas correctas
+**204**: Sequential Ring Settings updated successfully for the authenticated user.
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -70,6 +85,9 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-delete-telephony-config-locations-locationid-queues-queueid-dnis
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: DELETE
 path: /telephony/config/locations/{locationId}/queues/{queueId}/dnis
+operation_id: bulkDeleteDnisForACallQueue
+tags: Features:  Call Queue
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.607686+00:00
+retrieved_at: 2026-08-18T23:45:43.306544+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/queues/{queueId}/dnis
@@ -25,14 +30,14 @@ A maximum of 99 DNIS entries can be deleted in a single request.
 Deleting DNIS entries requires a full administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: The location ID where the call queue exists.
-- `queueId` [path] (string) **(requerido)**: The call queue ID.
+- `locationId` [path] (string) (**requerido**): The location ID where the call queue exists.
+- `queueId` [path] (string) (**requerido**): The call queue ID.
 - `orgId` [query] (string): The organization ID of the customer.
 
 ## Cuerpo de la petición (application/json)
-- `items` (array) **(requerido)**: Array of DNIS IDs to be deleted.
+- `items` (array) (**requerido**): Array of DNIS IDs to be deleted.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "items": [
@@ -42,8 +47,18 @@ Deleting DNIS entries requires a full administrator auth token with a scope of `
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X DELETE '/telephony/config/locations/<locationId>/queues/<queueId>/dnis' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"items": []}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -59,6 +74,9 @@ Deleting DNIS entries requires a full administrator auth token with a scope of `
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

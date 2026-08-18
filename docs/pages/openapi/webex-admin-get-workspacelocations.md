@@ -2,13 +2,20 @@
 doc_id: webex-admin-get-workspacelocations
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: GET
 path: /workspaceLocations
+operation_id: List Workspace Locations
+tags: Workspace Locations
+deprecated: true
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.164226+00:00
+retrieved_at: 2026-08-18T23:45:42.591630+00:00
 ---
 
 # GET /workspaceLocations
+
+> **ENDPOINT DEPRECADO.** No usar en integraciones nuevas.
 
 **API:** Webex Admin
 **Área:** Workspace Locations
@@ -31,18 +38,45 @@ Requires an administrator auth token with the `spark-admin:workspace_locations_r
 - `countryCode` [query] (string): Location country code (ISO 3166-1).
 - `cityName` [query] (string): Location city name.
 
-## Respuestas
-- **200**: OK
-  - `items` (array): An array of location objects.
-    - `id` (string): Unique identifier for the location.
-    - `locationId` (string): The ID to use for this location in the [/locations API](/docs/api/v1/locations)
-    - `displayName` (string): A friendly name for the location.
-    - `address` (string) **(requerido)**: The location address.
-    - `countryCode` (string) **(requerido)**: The location country code (ISO 3166-1).
-    - `cityName` (string): The location city name.
-    - `latitude` (number) **(requerido)**: The location latitude.
-    - `longitude` (number) **(requerido)**: The location longitude.
-    - `notes` (string): Notes associated with the location.
+## Ejemplo de invocación
+```bash
+curl -X GET '/workspaceLocations' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): An array of location objects.
+  - `id` (string): Unique identifier for the location.
+  - `locationId` (string): The ID to use for this location in the [/locations API](/docs/api/v1/locations)
+  - `displayName` (string): A friendly name for the location.
+  - `address` (string) (**requerido**): The location address.
+  - `countryCode` (string) (**requerido**): The location country code (ISO 3166-1).
+  - `cityName` (string): The location city name.
+  - `latitude` (number) (**requerido**): The location latitude.
+  - `longitude` (number) (**requerido**): The location longitude.
+  - `notes` (string): Notes associated with the location.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLWVhc3QtMV9pbnQxMy9XT1JLU1BBQ0VfTE9DQVRJT04vM2E2ZmYzNzMtNjhhNy00NGU0LTkxZDYtYTI3NDYwZTBhYzVjIzUxOWY2N2E1LTlkOTktNGM2My04YTA5LWI5MTcxY2M2NmJkMQ==",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzA2OWEzMDY2LTgwNjMtNDI0Zi05YmE0LTBhZDdhMmYxMzNjNQ",
+      "displayName": "Cisco Barcelona",
+      "address": "Carrer de Pere IV, Barcelona, Spain",
+      "countryCode": "ES",
+      "cityName": "Barcelona",
+      "latitude": 41.406615,
+      "longitude": 2.200717,
+      "notes": "A note about the location"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -58,6 +92,9 @@ Requires an administrator auth token with the `spark-admin:workspace_locations_r
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

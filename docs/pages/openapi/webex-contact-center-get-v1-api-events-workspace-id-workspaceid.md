@@ -2,10 +2,15 @@
 doc_id: webex-contact-center-get-v1-api-events-workspace-id-workspaceid
 source: webex-openapi-specs/public-spec/webex-contact-center.json
 api: Webex Contact Center
+api_version: 1.0.0
 method: GET
 path: /v1/api/events/workspace-id/{workspaceId}
+operation_id: historicEvents
+tags: Journey - Profile Creation & Insights API
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.972259+00:00
+retrieved_at: 2026-08-18T23:45:43.867029+00:00
 ---
 
 # GET /v1/api/events/workspace-id/{workspaceId}
@@ -13,6 +18,7 @@ retrieved_at: 2026-08-16T11:30:32.972259+00:00
 **API:** Webex Contact Center
 **Área:** Journey - Profile Creation & Insights API
 **operationId:** `historicEvents`
+**Autenticación:** bearerAuth
 
 ## Resumen
 Historic Journey Events
@@ -23,7 +29,7 @@ Getting Historic Customer Journey Events from Pinot. These events are append-onl
 Role and Scope: Requires id full admin role with cjds:admin_org_write or cjds:admin_org_read scope. Or requires any role with cjp:user, cjp:config_write or cjp:config_read scope.
 
 ## Parámetros
-- `workspaceId` [path] (string) **(requerido)**: Workspace ID
+- `workspaceId` [path] (string) (**requerido**): Workspace ID
 - `identity` [query] (string): Identity to search events for.    In case the identity contains non-uri-encodable characters, eg: '+', '>' etc, you can URL-encode the same and then pass it as parameter.
 - `sortBy` [query] (string): sort By Field
 - `sort` [query] (string): sort direction
@@ -32,36 +38,45 @@ Role and Scope: Requires id full admin role with cjds:admin_org_write or cjds:ad
 - `page` [query] (integer): Index of the page of results to be fetched.  Results are returned in blocks of pageSize elements. This parameter specifies which page number to retrieve.The page numbering starts with 0.
 - `pageSize` [query] (integer): Number of items to be displayed on a page.
 
-## Respuestas
-- **200**: Ok
-  - `meta` (object):
-    - `organizationId` (string): Organization ID
-    - `workspaceId` (string): Workspace ID
-    - `resultCount` (integer): Result Count
-    - `identity` (string): identity
-  - `data` (array):
-    - `id` (string) **(requerido)**: Event ID
-    - `specversion` (string) **(requerido)**: Event Spec Version
-    - `type` (string) **(requerido)**: Event Type
-    - `source` (string) **(requerido)**: Event Source
-    - `time` (string): Event Time
-    - `identity` (string) **(requerido)**: Identity
-    - `identitytype` (string) **(requerido)**: Identity Type
-    - `previousidentity` (string): Previous Identity
-    - `datacontenttype` (string) **(requerido)**: Event Data Content Type
-    - `data` (object) **(requerido)**: Event Data
-      - `agentId` (string): Agent Id
-      - `destination` (string): destination
-      - `profileType` (string): profileType
-      - `currentState` (string): currentState
-      - `idleCodeId` (string): idleCodeId
-      - `createdTime` (string): createdTime
+## Ejemplo de invocación
+```bash
+curl -X GET '/v1/api/events/workspace-id/<workspaceId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: Ok
+- `meta` (object):
+  - `organizationId` (string): Organization ID
+  - `workspaceId` (string): Workspace ID
+  - `resultCount` (integer/int32): Result Count
+  - `identity` (string): identity
+- `data` (array):
+  - `id` (string) (**requerido**): Event ID
+  - `specversion` (string) (**requerido**): Event Spec Version
+  - `type` (string) (**requerido**): Event Type
+  - `source` (string) (**requerido**): Event Source
+  - `time` (string): Event Time
+  - `identity` (string) (**requerido**): Identity
+  - `identitytype` (string) (**requerido**): Identity Type
+  - `previousidentity` (string): Previous Identity
+  - `datacontenttype` (string) (**requerido**): Event Data Content Type
+  - `data` (object) (**requerido**): Event Data
+    - `agentId` (string): Agent Id
+    - `destination` (string): destination
+    - `profileType` (string): profileType
+    - `currentState` (string): currentState
+    - `idleCodeId` (string): idleCodeId
+    - `createdTime` (string): createdTime
+
+## Respuestas de error
 - **404**: Resource not found
 - **409**: Resource already exists
 - **429**: Too many requests
 - **500**: Internal server error
 
-**Autenticación:** bearerAuth
+## Contexto de la API
+The Webex Contact Center APIs allow developers to deeply integrate, configure, and manage cloud-based contact center solutions. These APIs cover agent lifecycle management, queue and routing configuration, customer journey tracking, and access to real-time and historical analytics. Use cases include embedding agent controls in custom UIs, automating workforce management, integrating with CRM and ticketing systems, and building custom reporting dashboards. The APIs empower organizations to deliver personalized, efficient customer experiences and optimize contact center operations.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

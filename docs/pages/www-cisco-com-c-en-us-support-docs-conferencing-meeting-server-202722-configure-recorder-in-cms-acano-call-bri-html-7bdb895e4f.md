@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-202722-configure-recorder-in-cms-acano-call-bri-html-7bdb895e4f
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/202722-Configure-Recorder-in-CMS-Acano-Call-Bri.html
-retrieved_at: 2026-08-16T14:32:50.193984+00:00
+retrieved_at: 2026-08-18T23:48:21.563058+00:00
 ---
 
 Configure Recorder in CMS/Acano Call Bridge
 
 # Configure Recorder in CMS/Acano Call Bridge
-
-Log in to Save Content
 
 ### Download Options
 

@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-locations-locationid
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /locations/{locationId}
+operation_id: getLocationDetails
+tags: Locations
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.630831+00:00
+retrieved_at: 2026-08-18T23:45:43.348286+00:00
 ---
 
 # GET /locations/{locationId}
@@ -31,13 +36,41 @@ Shows details for a location, by ID.
     * `spark-admin:device_read`
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: A unique identifier for the location.
+- `locationId` [path] (string) (**requerido**): A unique identifier for the location.
 - `orgId` [query] (string): Get location common attributes for this organization.
 
-## Respuestas
-- **200**: OK
-  - `id` (string) **(requerido)**: Unique identifier for the location.
-  - `name` (string) **(requerido)**: Name of the location.
+## Ejemplo de invocación
+```bash
+curl -X GET '/locations/<locationId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string) (**requerido**): Unique identifier for the location.
+- `name` (string) (**requerido**): Name of the location.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2M5N2VlMDQ5LTM1OWItNGM3OC04NDU0LTA1OGMyZWRlMjU2Mw",
+  "name": "Denver",
+  "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi9hNDVkNmNkYS1hZTVhLTQwYzMtYTdhZC01NjUwZmRkZGQ1M2M",
+  "address": {
+    "address1": "123 Some St.",
+    "city": "San Jose",
+    "state": "CA",
+    "postalCode": "95134",
+    "country": "US"
+  },
+  "timeZone": "America/Chicago",
+  "latitude": "12.935784",
+  "longitude": "77.697332",
+  "notes": "123 Some St. Denver location"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -53,6 +86,9 @@ Shows details for a location, by ID.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

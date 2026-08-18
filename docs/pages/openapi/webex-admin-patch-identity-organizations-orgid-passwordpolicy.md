@@ -2,10 +2,15 @@
 doc_id: webex-admin-patch-identity-organizations-orgid-passwordpolicy
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: PATCH
 path: /identity/organizations/{orgId}/passwordPolicy
+operation_id: Update Organization Password Policy
+tags: Identity Organization
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.149100+00:00
+retrieved_at: 2026-08-18T23:45:42.562914+00:00
 ---
 
 # PATCH /identity/organizations/{orgId}/passwordPolicy
@@ -46,20 +51,20 @@ The following administrators can use this API:
 1. Input JSON must contain schema: "urn:cisco:codev:identity:idbroker:pwdpolicy:schemas:1.0".
 
 ## Parámetros
-- `orgId` [path] (string) **(requerido)**: A unique identifier for the org.
+- `orgId` [path] (string) (**requerido**): A unique identifier for the org.
 
 ## Cuerpo de la petición (application/json)
-- `schemas` (array) **(requerido)**: Input JSON schemas. It should contain the following schema:   urn:cisco:codev:identity:idbroker:pwdpolicy:schemas:1.0
-- `minimumNumeric` (string) **(requerido)**: Minimum number of numeric characters in password
-- `minimumCapAlpha` (string) **(requerido)**: Minimum number of uppercase alphabetic character letters in password
-- `minimumLowAlpha` (string) **(requerido)**: Minimum number of lowercase alphabetic character letters in password
-- `minimumSpecial` (string) **(requerido)**: Minimum number of special characters included "~!@#$%^&*()-_=+[]{}|;:,.<>/?" in password
-- `minimumLength` (string) **(requerido)**: Minimum length of password. Must be between 8 and 256, inclusive.
-- `historyCount` (string) **(requerido)**: The number of former passwords in history, the new password can't be any one of them. Must be between 1 and 5, inclusive.
-- `maxPasswordAge` (string) **(requerido)**: The password expired time, unit: day, that means user need to change password every "X" days. Must be between 90 and 1825, inclusive.
+- `schemas` (array) (**requerido**): Input JSON schemas. It should contain the following schema:   urn:cisco:codev:identity:idbroker:pwdpolicy:schemas:1.0
+- `minimumNumeric` (string) (**requerido**): Minimum number of numeric characters in password
+- `minimumCapAlpha` (string) (**requerido**): Minimum number of uppercase alphabetic character letters in password
+- `minimumLowAlpha` (string) (**requerido**): Minimum number of lowercase alphabetic character letters in password
+- `minimumSpecial` (string) (**requerido**): Minimum number of special characters included "~!@#$%^&*()-_=+[]{}|;:,.<>/?" in password
+- `minimumLength` (string) (**requerido**): Minimum length of password. Must be between 8 and 256, inclusive.
+- `historyCount` (string) (**requerido**): The number of former passwords in history, the new password can't be any one of them. Must be between 1 and 5, inclusive.
+- `maxPasswordAge` (string) (**requerido**): The password expired time, unit: day, that means user need to change password every "X" days. Must be between 90 and 1825, inclusive.
 - `notAcceptableStrings` (string): The password can not be any one in this string list.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "schemas": [
@@ -76,16 +81,40 @@ The following administrators can use this API:
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `minimumNumeric` (string): Minimum number of numeric characters in password.
-  - `minimumCapAlpha` (string): Minimum number of uppercase alphabetic character letters in a password.
-  - `minimumLowAlpha` (string): Minimum number of lowercase alphabetic character letters in a password.
-  - `minimumSpecial` (string): Minimum number of special character included "~!@#$%^&*()-_=+[]{}|;:,.<>/?" in a password.
-  - `minimumLength` (string): Minimum length of password. Must be between 8 and 256, inclusive.
-  - `historyCount` (string): The number of former password in history, the new password can't be any one of them. Must be between 1 and 5, inclusive.
-  - `maxPasswordAge` (string): The password expired time, unit: day, that means user need to change password every "X" days. Must be between 90 and 1825, inclusive.
-  - `notAcceptableStrings` (string): The password can not be any one in this string list.
+## Ejemplo de invocación
+```bash
+curl -X PATCH '/identity/organizations/<orgId>/passwordPolicy' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"schemas": [], "minimumNumeric": "<minimumNumeric>", "minimumCapAlpha": "<minimumCapAlpha>", "minimumLowAlpha": "<minimumLowAlpha>", "minimumSpecial": "<minimumSpecial>", "minimumLength": "<minimumLength>"}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `minimumNumeric` (string): Minimum number of numeric characters in password.
+- `minimumCapAlpha` (string): Minimum number of uppercase alphabetic character letters in a password.
+- `minimumLowAlpha` (string): Minimum number of lowercase alphabetic character letters in a password.
+- `minimumSpecial` (string): Minimum number of special character included "~!@#$%^&*()-_=+[]{}|;:,.<>/?" in a password.
+- `minimumLength` (string): Minimum length of password. Must be between 8 and 256, inclusive.
+- `historyCount` (string): The number of former password in history, the new password can't be any one of them. Must be between 1 and 5, inclusive.
+- `maxPasswordAge` (string): The password expired time, unit: day, that means user need to change password every "X" days. Must be between 90 and 1825, inclusive.
+- `notAcceptableStrings` (string): The password can not be any one in this string list.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "minimumNumeric": "1",
+  "minimumCapAlpha": "1",
+  "minimumLowAlpha": "1",
+  "minimumSpecial": "1",
+  "minimumLength": "8",
+  "historyCount": "3",
+  "maxPasswordAge": "1825",
+  "notAcceptableStrings": "password,passwd,pass,webex,cisco,xebew,ocsic"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -101,6 +130,9 @@ The following administrators can use this API:
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

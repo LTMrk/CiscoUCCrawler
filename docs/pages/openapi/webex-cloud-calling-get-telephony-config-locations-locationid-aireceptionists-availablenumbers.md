@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-locations-locationid-aireceptionists-availablenumbers
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/aiReceptionists/availableNumbers
+operation_id: listAiReceptionistAvailableNumbers
+tags: AI Receptionist for Webex Calling, AI Receptionist
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.547885+00:00
+retrieved_at: 2026-08-18T23:45:43.153049+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/aiReceptionists/availableNumbers
@@ -25,21 +30,46 @@ AI Receptionist is a Webex Calling feature that uses AI to greet callers and int
 This API requires a full or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Location ID.
+- `locationId` [path] (string) (**requerido**): Location ID.
 - `orgId` [query] (string): Optional target organization identifier. Defaults to the token's org Id if not provided.
 - `max` [query] (integer): Maximum number of items returned in the response. Default: 2000.
 - `start` [query] (integer): Record offset.
 - `phoneNumber` [query] (string): Search (Contains) based on number or extension. Search cannot be performed based on esn.
 
-## Respuestas
-- **200**: OK
-  - `phoneNumbers` (array): List of available phone numbers.
-    - `phoneNumber` (string) **(requerido)**: Phone number available for assignment in E.164 format.
-    - `state` (string) **(requerido)**: State of the phone number. - ACTIVE - Number is available to be assigned. - INACTIVE - Number is not available for assignment. Valores: ACTIVE, INACTIVE.
-    - `isMainNumber` (boolean) **(requerido)**: Flag to indicate if the number is the main number for the location.
-    - `telephonyType` (string) **(requerido)**: Defines the number type. - PSTN_NUMBER - Public switched telephone network number. Valores: PSTN_NUMBER.
-    - `tollFreeNumber` (boolean) **(requerido)**: Flag to indicate if the number is toll free.
-    - `isServiceNumber` (boolean) **(requerido)**: Flag to indicate if the number is Service Number.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/locations/<locationId>/aiReceptionists/availableNumbers' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `phoneNumbers` (array): List of available phone numbers.
+  - `phoneNumber` (string) (**requerido**): Phone number available for assignment in E.164 format.
+  - `state` (string) (**requerido**): State of the phone number. - ACTIVE - Number is available to be assigned. - INACTIVE - Number is not available for assignment. Valores: ACTIVE, INACTIVE.
+  - `isMainNumber` (boolean) (**requerido**): Flag to indicate if the number is the main number for the location.
+  - `telephonyType` (string) (**requerido**): Defines the number type. - PSTN_NUMBER - Public switched telephone network number. Valores: PSTN_NUMBER.
+  - `tollFreeNumber` (boolean) (**requerido**): Flag to indicate if the number is toll free.
+  - `isServiceNumber` (boolean) (**requerido**): Flag to indicate if the number is Service Number.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "phoneNumbers": [
+    {
+      "phoneNumber": "+12134567895",
+      "state": "ACTIVE",
+      "isMainNumber": false,
+      "telephonyType": "PSTN_NUMBER",
+      "tollFreeNumber": false,
+      "isServiceNumber": false
+    }
+  ]
+}
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -55,6 +85,9 @@ This API requires a full or read-only administrator auth token with a scope of `
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

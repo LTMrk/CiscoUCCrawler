@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-people-personid-features-outgoingpermission
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /people/{personId}/features/outgoingPermission
+operation_id: Modify Outgoing Calling Permissions Settings for a Person
+tags: User Call Settings (1/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.640104+00:00
+retrieved_at: 2026-08-18T23:45:43.365211+00:00
 ---
 
 # PUT /people/{personId}/features/outgoingPermission
@@ -25,18 +30,18 @@ Outgoing calling permissions regulate behavior for calls placed to various desti
 This API requires a full or user administrator or location administrator auth token with the `spark-admin:people_write` scope.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: Unique identifier for the person.
+- `personId` [path] (string) (**requerido**): Unique identifier for the person.
 - `orgId` [query] (string): ID of the organization in which the person resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access the API.
 
 ## Cuerpo de la petición (application/json)
 - `useCustomEnabled` (boolean): When true, indicates that this user uses the shared control that applies to all outgoing call settings categories when placing outbound calls.
 - `useCustomPermissions` (boolean): When true, indicates that this user uses the specified outgoing calling permissions when placing outbound calls.
-- `callingPermissions` (array) **(requerido)**: Specifies the outbound calling permissions settings.
+- `callingPermissions` (array) (**requerido**): Specifies the outbound calling permissions settings.
   - `callType` (string): Designates the action to be taken for each call type and if transferring the call type is allowed.  * `INTERNAL_CALL` - Controls calls within your own company.  * `TOLL_FREE` - Controls calls to a telephone number that is billed for all arriving calls instead of incurring charges to the originating caller, usually free of charge from a landline.  * `INTERNATIONAL` - Controls calls to locations outside of the Long Distance areas that require an international calling code before the number is dialed.  * `OPERATOR_ASSISTED` - Controls calls requiring Operator Assistance.  * `CHARGEABLE_DIRECTORY_ASSISTED` - Controls calls to Directory Assistant companies that require a charge to connect the call.  * `SPECIAL_SERVICES_I` - Controls calls to carrier-specific number assignments to special services or destinations.  * `SPECIAL_SERVICES_II` - Controls calls to carrier-specific number assignments to special services or destinations.  * `PREMIUM_SERVICES_I` - Controls calls used to provide information or entertainment for a fee charged directly to the caller.  * `PREMIUM_SERVICES_II` - Controls calls used to provide information or entertainment for a fee charged directly to the caller.  * `NATIONAL` - Controls calls that are within your country of origin, both within and outside of your local area code. Valores: INTERNAL_CALL, TOLL_FREE, INTERNATIONAL, OPERATOR_ASSISTED, CHARGEABLE_DIRECTORY_ASSISTED, SPECIAL_SERVICES_I, SPECIAL_SERVICES_II, PREMIUM_SERVICES_I, PREMIUM_SERVICES_II, NATIONAL.
   - `action` (string): Action on the given `callType`.  * `ALLOW` - Allow the designated call type.  * `BLOCK` - Block the designated call type.  * `AUTH_CODE` - Allow only via Authorization Code.  * `TRANSFER_NUMBER_1` - Transfer to Auto Transfer Number 1. The answering virtual line can then approve the call and send it through or reject the call.  * `TRANSFER_NUMBER_2` - Transfer to Auto Transfer Number 2. The answering virtual line can then approve the call and send it through or reject the call.  * `TRANSFER_NUMBER_3` - Transfer to Auto Transfer Number 3. The answering virtual line can then approve the call and send it through or reject the call. Valores: ALLOW, BLOCK, AUTH_CODE, TRANSFER_NUMBER_1, TRANSFER_NUMBER_2, TRANSFER_NUMBER_3.
-  - `transferEnabled` (boolean) **(requerido)**: Allow the virtual line to transfer or forward a call of the specified call type.
+  - `transferEnabled` (boolean) (**requerido**): Allow the virtual line to transfer or forward a call of the specified call type.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "useCustomEnabled": true,
@@ -51,8 +56,18 @@ This API requires a full or user administrator or location administrator auth to
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/people/<personId>/features/outgoingPermission' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"callingPermissions": []}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -68,6 +83,9 @@ This API requires a full or user administrator or location administrator auth to
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

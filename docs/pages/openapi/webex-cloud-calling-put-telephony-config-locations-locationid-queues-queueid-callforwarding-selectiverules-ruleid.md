@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-locations-locationid-queues-queueid-callforwarding-selectiverules-ruleid
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/queues/{queueId}/callForwarding/selectiveRules/{ruleId}
+operation_id: updateCallQueueSelectiveCallForwardingRule
+tags: Features:  Call Queue
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.604105+00:00
+retrieved_at: 2026-08-18T23:45:43.300125+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/queues/{queueId}/callForwarding/selectiveRules/{ruleId}
@@ -29,9 +34,9 @@ Updating a selective call forwarding rule's settings for a call queue requires a
 **NOTE**: The Call Forwarding Rule ID will change upon modification of the Call Forwarding Rule name.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Location in which this call queue exists.
-- `queueId` [path] (string) **(requerido)**: Update settings for a rule for this call queue.
-- `ruleId` [path] (string) **(requerido)**: Call queue rule you are updating settings for.
+- `locationId` [path] (string) (**requerido**): Location in which this call queue exists.
+- `queueId` [path] (string) (**requerido**): Update settings for a rule for this call queue.
+- `ruleId` [path] (string) (**requerido**): Call queue rule you are updating settings for.
 - `orgId` [query] (string): Update call queue rule settings for this organization.
 
 ## Cuerpo de la petición (application/json)
@@ -52,9 +57,9 @@ Updating a selective call forwarding rule's settings for a call queue requires a
   - `numbers` (array): Array of numbers to be matched against the calling destination number.
     - `phoneNumber` (string): Only return call queues with matching primary phone number or extension.
     - `extension` (string): Primary phone extension of the call queue.
-    - `type` (string) **(requerido)**: Type of  * `PRIMARY` - Indicates that the given `phoneNumber` or `extension` associated with this rule's containing object is a primary number or extension.  * `ALTERNATE` - Indicates that the given `phoneNumber` or `extension` associated with this rule's containing object is an alternate number or extension. Valores: PRIMARY, ALTERNATE.
+    - `type` (string) (**requerido**): Type of  * `PRIMARY` - Indicates that the given `phoneNumber` or `extension` associated with this rule's containing object is a primary number or extension.  * `ALTERNATE` - Indicates that the given `phoneNumber` or `extension` associated with this rule's containing object is an alternate number or extension. Valores: PRIMARY, ALTERNATE.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "name": "My Rule",
@@ -80,9 +85,26 @@ Updating a selective call forwarding rule's settings for a call queue requires a
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `id` (string) **(requerido)**: New ID for the modified rule.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/locations/<locationId>/queues/<queueId>/callForwarding/selectiveRules/<ruleId>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `id` (string) (**requerido**): New ID for the modified rule.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL0hVTlRfR1JPVVAvYUhaaFpUTjJNRzh5YjBBMk5EazBNVEk1Tnk1cGJuUXhNQzVpWTJ4a0xuZGxZbVY0TG1OdmJRPT0"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -98,6 +120,9 @@ Updating a selective call forwarding rule's settings for a call queue requires a
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

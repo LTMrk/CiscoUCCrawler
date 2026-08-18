@@ -2,10 +2,15 @@
 doc_id: webex-meeting-put-admin-meeting-userconfig-trackingcodes
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: PUT
 path: /admin/meeting/userconfig/trackingCodes
+operation_id: Update User Tracking Codes
+tags: Tracking Codes
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.400748+00:00
+retrieved_at: 2026-08-18T23:45:44.493023+00:00
 ---
 
 # PUT /admin/meeting/userconfig/trackingCodes
@@ -29,14 +34,14 @@ Updates tracking codes for a specified user by an admin user.
 * Admins can switch any Control Hub managed site from using classic tracking codes to mapped tracking codes in Control Hub, this is a one-time irreversible operation. Once the tracking codes are mapped to custom or user profile attributes, they cannot update user's tracking codes when the mapping process is in progress or the mapping process is completed.
 
 ## Cuerpo de la petición (application/json)
-- `siteUrl` (string) **(requerido)**: Site URL for the tracking code.
+- `siteUrl` (string) (**requerido**): Site URL for the tracking code.
 - `personId` (string): Unique identifier for the user. At least one parameter of `personId` or `email` is required. `personId` must precede `email` if both are specified.
 - `email` (string): Email address for the user. At least one parameter of `personId` or `email` is required. `personId` must precede `email` if both are specified.
 - `trackingCodes` (array): Tracking code information for updates.
-  - `name` (string) **(requerido)**: Name for tracking code. The name cannot be empty and the maximum size is 120 characters.
-  - `value` (string) **(requerido)**: Value for tracking code. `value` cannot be empty and the maximum size is 120 characters.
+  - `name` (string) (**requerido**): Name for tracking code. The name cannot be empty and the maximum size is 120 characters.
+  - `value` (string) (**requerido**): Value for tracking code. `value` cannot be empty and the maximum size is 120 characters.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS8xOGJiOWNjMC0zMWM2LTQ3MzYtYmE4OC0wMDk5ZmQzNDNmODE",
@@ -55,16 +60,59 @@ Updates tracking codes for a specified user by an admin user.
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `siteUrl` (string) **(requerido)**: Site URL for the tracking code.
-  - `personId` (string): Unique identifier for the user.
-  - `email` (string): Email address for the user.
-  - `trackingCodes` (array): Tracking code information.
-    - `id` (string) **(requerido)**: Unique identifier for tracking code.
-    - `name` (string) **(requerido)**: Name for tracking code.
-    - `value` (string) **(requerido)**: Value for tracking code.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/admin/meeting/userconfig/trackingCodes' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"siteUrl": "<siteUrl>"}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `siteUrl` (string) (**requerido**): Site URL for the tracking code.
+- `personId` (string): Unique identifier for the user.
+- `email` (string): Email address for the user.
+- `trackingCodes` (array): Tracking code information.
+  - `id` (string) (**requerido**): Unique identifier for tracking code.
+  - `name` (string) (**requerido**): Name for tracking code.
+  - `value` (string) (**requerido**): Value for tracking code.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS8xOGJiOWNjMC0zMWM2LTQ3MzYtYmE4OC0wMDk5ZmQzNDNmODE",
+  "email": "john.andersen@example.com",
+  "siteUrl": "example.webex.com",
+  "trackingCodes": [
+    {
+      "id": 1,
+      "name": "Department",
+      "value": "Sales"
+    },
+    {
+      "id": 2,
+      "name": "Division",
+      "value": "Part-time"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request
+  Ejemplo:
+```json
+{
+  "message": "The request could not be understood by the server due to malformed syntax. See 'errors' for more details.",
+  "errors": [
+    {
+      "description": "Tracking code of '1' is not found."
+    }
+  ],
+  "trackingId": "6B41C672FF384F50B0F368E09001496B_1661404838840"
+}
+```
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
 - **404**: Not Found: The URI requested is invalid or the resource requested, such as a user, does not exist. Also returned when the requested format is not supported by the requested method.
@@ -79,6 +127,9 @@ Updates tracking codes for a specified user by an admin user.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

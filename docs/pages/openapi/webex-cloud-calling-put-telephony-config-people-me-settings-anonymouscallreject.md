@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-people-me-settings-anonymouscallreject
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/people/me/settings/anonymousCallReject
+operation_id: updateMyAnonymousCallRejectSettings
+tags: Call Settings For Me With UserHub Phase3
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.573266+00:00
+retrieved_at: 2026-08-18T23:45:43.198360+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/anonymousCallReject
@@ -25,17 +30,27 @@ Anonymous Call Rejection allows you to reject calls from anonymous callers.
 This API requires a user auth token with a scope of `spark:telephony_config_write`.
 
 ## Cuerpo de la petición (application/json)
-- `enabled` (boolean) **(requerido)**: Indicates whether Anonymous Call Rejection is enabled or not.
+- `enabled` (boolean) (**requerido**): Indicates whether Anonymous Call Rejection is enabled or not.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "enabled": false
 }
 ```
 
-## Respuestas
-- **204**: Anonymous Call Rejection Settings updated successfully for the authenticated user.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/people/me/settings/anonymousCallReject' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"enabled": true}'
+```
+
+## Respuestas correctas
+**204**: Anonymous Call Rejection Settings updated successfully for the authenticated user.
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -51,6 +66,9 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

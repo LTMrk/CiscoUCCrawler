@@ -2,10 +2,15 @@
 doc_id: webex-meeting-get-meetingreports-attendees
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: GET
 path: /meetingReports/attendees
+operation_id: List Meeting Attendee Reports
+tags: Meetings Summary Report
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.391636+00:00
+retrieved_at: 2026-08-18T23:45:44.475922+00:00
 ---
 
 # GET /meetingReports/attendees
@@ -37,39 +42,79 @@ Long result sets are split into [pages](/docs/basics#pagination).
 * `timezone`: [Time zone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List) in conformance with the [IANA time zone database](https://www.iana.org/time-zones). The default timezone is `UTC` if not defined.
 
 ## Parámetros
-- `siteUrl` [query] (string) **(requerido)**: URL of the Webex site which the API lists meeting attendee reports from. All available Webex sites can be retrieved by the [Get Site List](/docs/api/v1/meeting-preferences/get-site-list) API.
-- `from` [query] (string): Starting date and time for the meeting attendee reports to return, in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `from` cannot be after `to`. The interval between `to` and `from` cannot exceed 30 days and `from` cannot be earlier than 90 days ago.
-- `to` [query] (string): Ending date and time for the meeting attendee reports to return, in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `to` cannot be before `from`. The interval between `to` and `from` cannot exceed 30 days.
-- `max` [query] (number): Maximum number of meeting attendees to include in the meeting attendee report in a single page. `max` must be greater than 0 and equal to or less than `1000`.
+- `siteUrl` [query] (string) (**requerido**): URL of the Webex site which the API lists meeting attendee reports from. All available Webex sites can be retrieved by the [Get Site List](/docs/api/v1/meeting-preferences/get-site-list) API.
+- `from` [query] (string): Starting date and time for the meeting attendee reports to return, in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `from` cannot be after `to`. The interval between `to` and `from` cannot exceed 30 days and `from` cannot be earlier than 90 days ago. Por defecto: If `to` is specified, the default value is 7 days before `to`; if `to` is not specified, the default value is 7 days before the current date and time..
+- `to` [query] (string): Ending date and time for the meeting attendee reports to return, in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `to` cannot be before `from`. The interval between `to` and `from` cannot exceed 30 days. Por defecto: If `from` is specified, the default value is 7 days after `from`; if `from` is not specified, the default value is the current date and time..
+- `max` [query] (number): Maximum number of meeting attendees to include in the meeting attendee report in a single page. `max` must be greater than 0 and equal to or less than `1000`. Por defecto: 10.
 - `meetingId` [query] (string): Meeting ID for the meeting attendee reports to return. If specified, return meeting attendee reports of the specified meeting; otherwise, return meeting attendee reports of all meetings. Currently, only ended meeting instance IDs are supported. IDs of meeting series, scheduled meetings or personal room meetings are not supported.
 - `meetingNumber` [query] (string): Meeting number for the meeting attendee reports to return. If specified, return meeting attendee reports of the specified meeting; otherwise, return meeting attendee reports of all meetings.
 - `meetingTitle` [query] (string): Meeting title for the meeting attendee reports to return. If specified, return meeting attendee reports of the specified meeting; otherwise, return meeting attendee reports of all meetings.
 - `timezone` [header] (string): e.g. Asia/Shanghai
 
-## Respuestas
-- **200**: OK
-  - `items` (array): An array of meeting attendee report objects.
-    - `meetingId` (string): Unique identifier for the meeting.
-    - `meetingNumber` (number): Meeting number.
-    - `meetingTitle` (string): Meeting title.
-    - `displayName` (string): Attendee's display name.
-    - `email` (string): Attendee's email.
-    - `joinedTime` (string): The date and time when the attendee joined the meeting. It's in the timezone specified in the request header or in the `UTC` timezone if timezone is not specified.
-    - `leftTime` (string): The date and time when the attendee left the meeting. It's in the timezone specified in the request header or in the `UTC` timezone if timezone is not specified.
-    - `duration` (number): Duration of the attendee in the meeting in minutes.
-    - `participantType` (string): The attendee's role in the meeting.  * `host` - Meeting host.  * `attendee` - Meeting attendee. Valores: host, attendee.
-    - `ipAddress` (string): IP address of the attendee when he attended the meeting.
-    - `clientAgent` (string): Information of the attendee's operating system and application when he attended the meeting.
-    - `company` (string): Attendee's company.
-    - `phoneNumber` (string): Attendee's phone number.
-    - `address1` (string): Attendee's address, part one.
-    - `address2` (string): Attendee's address, part two.
-    - `city` (string): Attendee's city.
-    - `state` (string): Attendee's state.
-    - `country` (string): Attendee's country.
-    - `zipCode` (string): Attendee's zip code.
-    - `registered` (boolean): Whether or not the attendee has registered the meeting.
-    - `invited` (boolean): Whether or not the attendee has been invited to the meeting.
+## Ejemplo de invocación
+```bash
+curl -X GET '/meetingReports/attendees?siteUrl=<siteUrl>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): An array of meeting attendee report objects.
+  - `meetingId` (string): Unique identifier for the meeting.
+  - `meetingNumber` (number): Meeting number.
+  - `meetingTitle` (string): Meeting title.
+  - `displayName` (string): Attendee's display name.
+  - `email` (string): Attendee's email.
+  - `joinedTime` (string): The date and time when the attendee joined the meeting. It's in the timezone specified in the request header or in the `UTC` timezone if timezone is not specified.
+  - `leftTime` (string): The date and time when the attendee left the meeting. It's in the timezone specified in the request header or in the `UTC` timezone if timezone is not specified.
+  - `duration` (number): Duration of the attendee in the meeting in minutes.
+  - `participantType` (string): The attendee's role in the meeting.  * `host` - Meeting host.  * `attendee` - Meeting attendee. Valores: host, attendee.
+  - `ipAddress` (string): IP address of the attendee when he attended the meeting.
+  - `clientAgent` (string): Information of the attendee's operating system and application when he attended the meeting.
+  - `company` (string): Attendee's company.
+  - `phoneNumber` (string): Attendee's phone number.
+  - `address1` (string): Attendee's address, part one.
+  - `address2` (string): Attendee's address, part two.
+  - `city` (string): Attendee's city.
+  - `state` (string): Attendee's state.
+  - `country` (string): Attendee's country.
+  - `zipCode` (string): Attendee's zip code.
+  - `registered` (boolean): Whether or not the attendee has registered the meeting.
+  - `invited` (boolean): Whether or not the attendee has been invited to the meeting.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "meetingId": "089b137c3cf34b578896941e2d49dfe8_I_146987372776523573",
+      "meetingNumber": "123456789",
+      "meetingTitle": "John's Meeting",
+      "displayName": "John Andersen",
+      "email": "john.andersen@example.com",
+      "joinedTime": "2023-01-18T10:26:30+08:00",
+      "leftTime": "2023-01-18T10:46:30+08:00",
+      "duration": 20,
+      "participantType": "ATTENDEE",
+      "ipAddress": "172.16.244.151",
+      "clientAgent": "WINDOWS,IE",
+      "company": "ExampleCompany",
+      "phoneNumber": "85763644",
+      "address1": "Building 1",
+      "address2": "Street 1",
+      "city": "San Jose",
+      "state": "CA",
+      "country": "US",
+      "zipCode": "38755",
+      "registered": false,
+      "invited": true
+    }
+  ]
+}
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -85,6 +130,9 @@ Long result sets are split into [pages](/docs/basics#pagination).
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

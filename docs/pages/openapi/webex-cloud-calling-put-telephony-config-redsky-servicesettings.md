@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-redsky-servicesettings
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/redSky/serviceSettings
+operation_id: Update RedSky Service Settings
+tags: Emergency Services Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.590655+00:00
+retrieved_at: 2026-08-18T23:45:43.276543+00:00
 ---
 
 # PUT /telephony/config/redSky/serviceSettings
@@ -28,14 +33,14 @@ Updating the RedSky service settings requires a full administrator auth token wi
 - `orgId` [query] (string): Update E911 settings for the organization.
 
 ## Cuerpo de la petición (application/json)
-- `enabled` (boolean) **(requerido)**: `true` if the service is enabled.
+- `enabled` (boolean) (**requerido**): `true` if the service is enabled.
 - `companyId` (string): The RedSky company ID, which can be retrieved from the RedSky portal.
 - `secret` (string): The company secret key, which can be found in the RedSky portal.
 - `externalTenantEnabled` (boolean): `true` if the RedSky reseller customer is not under a Cisco account.
 - `email` (string): The email for the RedSky account. `email` is required if `externalTenantEnabled` is true.
 - `password` (string): The password for the RedSky account. `password` is required if `externalTenantEnabled` is true.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "enabled": true,
@@ -47,8 +52,18 @@ Updating the RedSky service settings requires a full administrator auth token wi
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/redSky/serviceSettings' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"enabled": true}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -64,6 +79,9 @@ Updating the RedSky service settings requires a full administrator auth token wi
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-people-personid-features-hotdesking-availablemembers
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/people/{personId}/features/hotDesking/availableMembers
+operation_id: searchAvailableHotDeskingMembers
+tags: Features: Hot Desking Members, User Call Settings (3/3)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.655067+00:00
+retrieved_at: 2026-08-18T23:45:43.388044+00:00
 ---
 
 # GET /telephony/config/people/{personId}/features/hotDesking/availableMembers
@@ -25,31 +30,78 @@ Available members can include people, workspaces, and virtual lines that can be 
 This API requires a full, user, device, read-only, or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: Unique identifier for the person.
+- `personId` [path] (string) (**requerido**): Unique identifier for the person.
 - `orgId` [query] (string): ID of the organization in which the person resides. Only admin users of another organization, such as partners, may use this parameter. If not specified, the organization from the OAuth token is used.
 - `locationId` [query] (string): Return only available members in this location.
-- `max` [query] (integer): Maximum number of records to return.
-- `start` [query] (integer): Offset from the first result to fetch.
+- `max` [query] (integer): Maximum number of records to return. Por defecto: 2000.
+- `start` [query] (integer): Offset from the first result to fetch. Por defecto: 0.
 - `memberName` [query] (string): Search for available members by name.
 - `phoneNumber` [query] (string): Search for available members by phone number.
 - `extension` [query] (string): Search for available members by extension.
 - `order` [query] (array): Sort order for the available member list. Multiple order values may be provided.
 
-## Respuestas
-- **200**: OK
-  - `members` (array) **(requerido)**: List of members that can be assigned to the person's hot desking guest profile.
-    - `id` (string) **(requerido)**: Unique identifier for the available member.
-    - `firstName` (string): First name of the available member.
-    - `lastName` (string): Last name of the available member.
-    - `phoneNumber` (string): Phone number of the available member.
-    - `extension` (string): Extension of the available member.
-    - `routingPrefix` (string): Routing prefix of the member's location.
-    - `esn` (string): Enterprise significant number for the available member.
-    - `lineType` (string) **(requerido)**: Line type for the hot desking guest profile member.  * `HOTDESKING_GUEST` - Primary hot desking guest profile line.  * `SHARED_CALL_APPEARANCE` - Shared line assigned to the hot desking guest profile.  * `PRIMARY` - Primary line.  * `MOBILITY` - Mobility line. Valores: HOTDESKING_GUEST, SHARED_CALL_APPEARANCE, PRIMARY, MOBILITY.
-    - `memberType` (string) **(requerido)**: Type of assigned or available member.  * `PEOPLE` - The member is a person.  * `PLACE` - The member is a workspace.  * `VIRTUAL_LINE` - The member is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
-    - `location` (object): Location associated with the hot desking member.
-      - `id` (string) **(requerido)**: Unique identifier for the location.
-      - `name` (string) **(requerido)**: Name of the location.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/people/<personId>/features/hotDesking/availableMembers' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `members` (array) (**requerido**): List of members that can be assigned to the person's hot desking guest profile.
+  - `id` (string) (**requerido**): Unique identifier for the available member.
+  - `firstName` (string): First name of the available member.
+  - `lastName` (string): Last name of the available member.
+  - `phoneNumber` (string): Phone number of the available member.
+  - `extension` (string): Extension of the available member.
+  - `routingPrefix` (string): Routing prefix of the member's location.
+  - `esn` (string): Enterprise significant number for the available member.
+  - `lineType` (string) (**requerido**): Line type for the hot desking guest profile member.  * `HOTDESKING_GUEST` - Primary hot desking guest profile line.  * `SHARED_CALL_APPEARANCE` - Shared line assigned to the hot desking guest profile.  * `PRIMARY` - Primary line.  * `MOBILITY` - Mobility line. Valores: HOTDESKING_GUEST, SHARED_CALL_APPEARANCE, PRIMARY, MOBILITY.
+  - `memberType` (string) (**requerido**): Type of assigned or available member.  * `PEOPLE` - The member is a person.  * `PLACE` - The member is a workspace.  * `VIRTUAL_LINE` - The member is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
+  - `location` (object): Location associated with the hot desking member.
+    - `id` (string) (**requerido**): Unique identifier for the location.
+    - `name` (string) (**requerido**): Name of the location.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "members": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9jODhiZGIwNC1jZjU5LTRjMjMtODQ4OC00NTNhOTE3ZDFlMjk",
+      "firstName": "John",
+      "lastName": "Smith",
+      "phoneNumber": "+12055552221",
+      "extension": "2221",
+      "routingPrefix": "1234",
+      "esn": "12342221",
+      "lineType": "SHARED_CALL_APPEARANCE",
+      "memberType": "PEOPLE",
+      "location": {
+        "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzJiNDkyZmZkLTRjNGItNGVmNS04YzAzLWE1MDYyYzM4NDA5Mw",
+        "name": "Main Office"
+      }
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1ZJUlRVQUxfTElORS83MGY2MzYzMC1mZjlmLTExZWItODU5YS0xZjhiYjRjNzc3OGg",
+      "firstName": "Support",
+      "lastName": "Line",
+      "phoneNumber": "+12055552222",
+      "extension": "2222",
+      "routingPrefix": "1234",
+      "esn": "12342222",
+      "lineType": "SHARED_CALL_APPEARANCE",
+      "memberType": "VIRTUAL_LINE",
+      "location": {
+        "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzJiNDkyZmZkLTRjNGItNGVmNS04YzAzLWE1MDYyYzM4NDA5Mw",
+        "name": "Main Office"
+      }
+    }
+  ]
+}
+```
+- Cabecera `Link`: Pagination link for the next page of available members, when additional results are available.
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -65,6 +117,11 @@ This API requires a full, user, device, read-only, or location administrator aut
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+**Documentación adicional:** https://developer.webex.com/docs/api/v1/webex-calling
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

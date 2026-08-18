@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-217365-configure-cisco-meeting-server-ldap-inte-html-07375a40c9
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217365-configure-cisco-meeting-server-ldap-inte.html
-retrieved_at: 2026-08-16T14:20:25.362484+00:00
+retrieved_at: 2026-08-18T23:49:41.065590+00:00
 ---
 
 Configure CMS LDAP Integration
 
 # Configure CMS LDAP Integration
-
-Log in to Save Content
 
 ### Download Options
 

@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-people-me-settings-executive-callfiltering
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/people/me/settings/executive/callFiltering
+operation_id: updateMyExecutiveCallFilteringSettings
+tags: Beta Call Settings For Me With Userhub Phase1
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.567095+00:00
+retrieved_at: 2026-08-18T23:45:43.187642+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/executive/callFiltering
@@ -28,10 +33,10 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 - `enabled` (boolean): Set to `true` to enable executive call filtering or `false` to disable it.
 - `filterType` (string): * `CUSTOM_CALL_FILTERS` - Choose this option to ensure that only specific calls are sent to the executive assistant.  * `ALL_CALLS` - Choose this option to send both internal and external calls to the executive assistant.  * `ALL_INTERNAL_CALLS` - Choose this option to send all internal calls to the executive assistant.  * `ALL_EXTERNAL_CALLS` - Choose this option to send all external calls to the executive assistant. Valores: CUSTOM_CALL_FILTERS, ALL_CALLS, ALL_INTERNAL_CALLS, ALL_EXTERNAL_CALLS.
 - `criteriaActivation` (array): The list of criteria activation settings to update for executive call filtering.
-  - `id` (string) **(requerido)**: Unique identifier for the filter criteria.
-  - `activationEnabled` (boolean) **(requerido)**: Controls whether this filter criteria is active. When `true`, the criteria is evaluated for incoming calls. When `false`, the criteria is completely ignored and has no effect on call filtering.
+  - `id` (string) (**requerido**): Unique identifier for the filter criteria.
+  - `activationEnabled` (boolean) (**requerido**): Controls whether this filter criteria is active. When `true`, the criteria is evaluated for incoming calls. When `false`, the criteria is completely ignored and has no effect on call filtering.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "enabled": true,
@@ -45,8 +50,18 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 }
 ```
 
-## Respuestas
-- **204**: Executive call filtering settings modified successfully.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/people/me/settings/executive/callFiltering' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: Executive call filtering settings modified successfully.
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -62,6 +77,9 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

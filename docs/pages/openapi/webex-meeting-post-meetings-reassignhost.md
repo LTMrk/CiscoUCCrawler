@@ -2,10 +2,15 @@
 doc_id: webex-meeting-post-meetings-reassignhost
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: POST
 path: /meetings/reassignHost
+operation_id: reassignHost
+tags: Meetings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.399647+00:00
+retrieved_at: 2026-08-18T23:45:44.490929+00:00
 ---
 
 # POST /meetings/reassignHost
@@ -54,10 +59,10 @@ There are several limitations when reassigning meetings:
 - `siteUrl` [header] (string): e.g. example.webex.com
 
 ## Cuerpo de la petición (application/json)
-- `hostEmail` (string) **(requerido)**: Email address of the new meeting host.
-- `meetingIds` (array) **(requerido)**: List of meeting series IDs to be reassigned the new host. The size is between 1 and 100. All the meetings of `meetingIds` should belong to the same site, which is the `siteUrl` in the request header, if specified, or the admin user's preferred site, if not specified. All available Webex sites and the preferred sites of a user can be retrieved by [Get Site List](/docs/api/v1/meeting-preferences/get-site-list) API.
+- `hostEmail` (string) (**requerido**): Email address of the new meeting host.
+- `meetingIds` (array) (**requerido**): List of meeting series IDs to be reassigned the new host. The size is between 1 and 100. All the meetings of `meetingIds` should belong to the same site, which is the `siteUrl` in the request header, if specified, or the admin user's preferred site, if not specified. All available Webex sites and the preferred sites of a user can be retrieved by [Get Site List](/docs/api/v1/meeting-preferences/get-site-list) API.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "hostEmail": "john.andersen@example.com",
@@ -69,15 +74,51 @@ There are several limitations when reassigning meetings:
 }
 ```
 
-## Respuestas
-- **204**: No Content
-- **207**: Multi-Status
-  - `items` (array): Array of meeting reassignment results.
-    - `meetingId` (string) **(requerido)**: Unique identifier for the meeting to be reassigned host.
-    - `httpStatus` (string) **(requerido)**: HTTP status code for the meeting reassignment result.
-    - `message` (string): General message for the host reassignment of `meetingId` if it fails.
-    - `errors` (array): Detailed descriptions for the host reassignment of `meetingId` if it fails.
-      - `description` (string) **(requerido)**: Detailed description for the host reassignment of `meetingId` if it fails.
+## Ejemplo de invocación
+```bash
+curl -X POST '/meetings/reassignHost' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"hostEmail": "<hostEmail>", "meetingIds": []}'
+```
+
+## Respuestas correctas
+**204**: No Content
+**207**: Multi-Status
+- `items` (array): Array of meeting reassignment results.
+  - `meetingId` (string) (**requerido**): Unique identifier for the meeting to be reassigned host.
+  - `httpStatus` (string) (**requerido**): HTTP status code for the meeting reassignment result.
+  - `message` (string): General message for the host reassignment of `meetingId` if it fails.
+  - `errors` (array): Detailed descriptions for the host reassignment of `meetingId` if it fails.
+    - `description` (string) (**requerido**): Detailed description for the host reassignment of `meetingId` if it fails.
+
+### Ejemplo — respuesta 207
+```json
+{
+  "items": [
+    {
+      "meetingId": "870f51ff287b41be84648412901e0402",
+      "httpStatus": 200
+    },
+    {
+      "meetingId": "1d824a4a205042eba9574e00b711b226",
+      "httpStatus": 404,
+      "message": "The requested resource could not be found.",
+      "errors": [
+        {
+          "description": "The meeting is not found."
+        }
+      ]
+    },
+    {
+      "meetingId": "41be84640b711b8414a4a205042ebba9",
+      "httpStatus": 200
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -93,6 +134,9 @@ There are several limitations when reassigning meetings:
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

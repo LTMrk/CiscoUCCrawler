@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-workspaces-workspaceid-features-monitoring
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /workspaces/{workspaceId}/features/monitoring
+operation_id: getMonitoringSettingsWorkspace
+tags: Workspace Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.665045+00:00
+retrieved_at: 2026-08-18T23:45:43.403131+00:00
 ---
 
 # GET /workspaces/{workspaceId}/features/monitoring
@@ -24,48 +29,105 @@ Monitors the line status, indicating if a person, place, or virtual line is on a
 This API requires a full or read-only administrator or location administrator auth token with a scope of `spark-admin:workspaces_read` or a user auth token with `spark:workspaces_read` scope can be used to read workspace settings.
 
 ## Parámetros
-- `workspaceId` [path] (string) **(requerido)**: Unique identifier for the workspace.
+- `workspaceId` [path] (string) (**requerido**): Unique identifier for the workspace.
 - `orgId` [query] (string): ID of the organization within which the workspace resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access the API.
 
-## Respuestas
-- **200**: OK
-  - `callParkNotificationEnabled` (boolean) **(requerido)**: Call park notification enabled or disabled.
-  - `availableEntriesCount` (integer): Number of available entries for monitoring.
-  - `monitoredElements` (array): Monitored element items.
-    - `callparkextension` (object):
-      - `id` (string) **(requerido)**: ID of call park extension.
-      - `name` (string) **(requerido)**: Name of call park extension.
-      - `extension` (string) **(requerido)**: Extension of call park extension.
+## Ejemplo de invocación
+```bash
+curl -X GET '/workspaces/<workspaceId>/features/monitoring' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `callParkNotificationEnabled` (boolean) (**requerido**): Call park notification enabled or disabled.
+- `availableEntriesCount` (integer): Number of available entries for monitoring.
+- `monitoredElements` (array): Monitored element items.
+  - `callparkextension` (object):
+    - `id` (string) (**requerido**): ID of call park extension.
+    - `name` (string) (**requerido**): Name of call park extension.
+    - `extension` (string) (**requerido**): Extension of call park extension.
+    - `routingPrefix` (string): Routing prefix of location.
+    - `esn` (string): Routing prefix + extension of a person or workspace.
+    - `location` (string) (**requerido**): Name of location for call park extension.
+    - `locationId` (string) (**requerido**): ID of location for call park extension.
+    - `lineKeyLabel` (string): Customizable line key label for monitored call park extension.
+  - `member` (object):
+    - `id` (string): The identifier of the monitored person or workspace.
+    - `firstName` (string): The first name of the monitored person, place, or virtual line.
+    - `lastName` (string): The last name of the monitored person, place, or virtual line.
+    - `displayName` (string): The display name of the monitored person, place, or virtual line.
+    - `type` (string): The type of the monitored person, place, or virtual line.  * `PEOPLE` - Object is a user.  * `PLACE` - Object is a workspace. Valores: PEOPLE, PLACE.
+    - `email` (string): The email address of the monitored person, place, or virtual line.
+    - `numbers` (array): The list of phone numbers of the monitored person, place, or virtual line.
+      - `external` (string): Phone number of person or workspace. Either `phoneNumber` or `extension` is mandatory.
+      - `extension` (string): Extension of person or workspace. Either `phoneNumber` or `extension` is mandatory.
       - `routingPrefix` (string): Routing prefix of location.
       - `esn` (string): Routing prefix + extension of a person or workspace.
-      - `location` (string) **(requerido)**: Name of location for call park extension.
-      - `locationId` (string) **(requerido)**: ID of location for call park extension.
-      - `lineKeyLabel` (string): Customizable line key label for monitored call park extension.
-    - `member` (object):
-      - `id` (string): The identifier of the monitored person or workspace.
-      - `firstName` (string): The first name of the monitored person, place, or virtual line.
-      - `lastName` (string): The last name of the monitored person, place, or virtual line.
-      - `displayName` (string): The display name of the monitored person, place, or virtual line.
-      - `type` (string): The type of the monitored person, place, or virtual line.  * `PEOPLE` - Object is a user.  * `PLACE` - Object is a workspace. Valores: PEOPLE, PLACE.
-      - `email` (string): The email address of the monitored person, place, or virtual line.
-      - `numbers` (array): The list of phone numbers of the monitored person, place, or virtual line.
-        - `external` (string): Phone number of person or workspace. Either `phoneNumber` or `extension` is mandatory.
-        - `extension` (string): Extension of person or workspace. Either `phoneNumber` or `extension` is mandatory.
-        - `routingPrefix` (string): Routing prefix of location.
-        - `esn` (string): Routing prefix + extension of a person or workspace.
-        - `primary` (boolean) **(requerido)**: Flag to indicate primary phone.
-        - `tollFreeNumber` (boolean): Flag to indicate toll free number.
-      - `location` (string): The location name where the line is.
-      - `locationId` (string): The ID for the location.
-      - `lineKeyLabel` (string): Customizable line key label for monitored member.
-    - `speedDial` (object):
-      - `id` (string): The identifier of the speed dial.
-      - `displayName` (string): The display name of the speed dial.
-      - `type` (string): The type of the speed dial.  * `PEOPLE` - Object is a user.  * `PLACE` - Object is a workspace.  * `VIRTUAL_LINE` - Object is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
-      - `lineKeyLabel` (string): Customizable line key label for speed dial.
-      - `phoneNumber` (string): The phone number of the speed dial.
-      - `location` (string): The location name where the speed dial is.
-      - `locationId` (string): The ID for the location.
+      - `primary` (boolean) (**requerido**): Flag to indicate primary phone.
+      - `tollFreeNumber` (boolean): Flag to indicate toll free number.
+    - `location` (string): The location name where the line is.
+    - `locationId` (string): The ID for the location.
+    - `lineKeyLabel` (string): Customizable line key label for monitored member.
+  - `speedDial` (object):
+    - `id` (string): The identifier of the speed dial.
+    - `displayName` (string): The display name of the speed dial.
+    - `type` (string): The type of the speed dial.  * `PEOPLE` - Object is a user.  * `PLACE` - Object is a workspace.  * `VIRTUAL_LINE` - Object is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
+    - `lineKeyLabel` (string): Customizable line key label for speed dial.
+    - `phoneNumber` (string): The phone number of the speed dial.
+    - `location` (string): The location name where the speed dial is.
+    - `locationId` (string): The ID for the location.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "callParkNotificationEnabled": false,
+  "availableEntriesCount": 10,
+  "monitoredElements": [
+    {
+      "member": {
+        "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NzQzNTI1Yi02ZjgxLTQ0NTktYTYxNC0yN2E0ZDIyZTZhYzI",
+        "lastName": "Hughes",
+        "firstName": "Jack",
+        "displayName": "Jack Hughes",
+        "type": "PEOPLE",
+        "email": "jhughes@example.com",
+        "numbers": [
+          {
+            "extension": "34496",
+            "routingPrefix": "1234",
+            "esn": "123434496",
+            "primary": true
+          }
+        ],
+        "location": "Richardson",
+        "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2M2MDliOGE1LTAxNmQtNDAwNy1hN2E0LTJhMThiZmZjY2FmNg"
+      }
+    },
+    {
+      "callparkextension": {
+        "id": "Y2lzY29zcGFyazovL3VzL0NBTExfUEFSS19FWFRFTlNJT04vOGI2NzlmMzktMTdmMC00ODY3LTk4MmYtYmEwMWJmYmE3YjQw",
+        "name": "patch postman test",
+        "extension": "4594",
+        "routingPrefix": "1234",
+        "esn": "12344594",
+        "location": "Banglore",
+        "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2E4Mjg5NzIyLTFiODAtNDFiNy05Njc4LTBlNzdhZThjMTA5OA"
+      }
+    },
+    {
+      "speedDial": {
+        "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NzQzNTI1Yi02ZjgxLTQ0NTktYTYxNC0yN2E0ZDIyZTZhYzI",
+        "displayName": "Jack Hughes",
+        "type": "PEOPLE",
+        "lineKeyLabel": "Manager",
+        "phoneNumber": "+19075552859",
+        "location": "Richardson",
+        "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -81,6 +143,9 @@ This API requires a full or read-only administrator or location administrator au
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

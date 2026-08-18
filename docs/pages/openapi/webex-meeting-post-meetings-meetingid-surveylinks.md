@@ -2,10 +2,15 @@
 doc_id: webex-meeting-post-meetings-meetingid-surveylinks
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: POST
 path: /meetings/{meetingId}/surveyLinks
+operation_id: generateSurveyLink
+tags: Meetings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.399155+00:00
+retrieved_at: 2026-08-18T23:45:44.490047+00:00
 ---
 
 # POST /meetings/{meetingId}/surveyLinks
@@ -25,7 +30,7 @@ Get survey links of a meeting for different users.
 * `timezone`: Time zone for the `meetingStartTimeFrom` and `meetingStartTimeTo` parameters and defined in conformance with the [IANA time zone database](https://www.iana.org/time-zones). The default value is `UTC` if not specified.
 
 ## Parámetros
-- `meetingId` [path] (string) **(requerido)**: Unique identifier for the meeting. Only applies to webinars. Meetings and personal room meetings are not supported.
+- `meetingId` [path] (string) (**requerido**): Unique identifier for the meeting. Only applies to webinars. Meetings and personal room meetings are not supported.
 - `timezone` [header] (string): e.g. UTC
 
 ## Cuerpo de la petición (application/json)
@@ -34,7 +39,7 @@ Get survey links of a meeting for different users.
 - `meetingStartTimeTo` (string): End date and time (exclusive) in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format for the meeting objects being requested and conforms with the `timezone` in the request header if specified. `meetingStartTimeTo` cannot be prior to `meetingStartTimeFrom`. Only applies when `meetingId` is not an instance ID. The API generates survey links for the last instance of `meetingId` in the time range specified by `meetingStartTimeFrom` and `meetingStartTimeTo`. If not specified, `meetingStartTimeTo` equals `meetingStartTimeFrom` plus `1` month; if `meetingStartTimeFrom` is also not specified, the default value for `meetingStartTimeTo` is the current date and time.
 - `emails` (array): Participants' email list. The maximum size of `emails` is 100.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "hostEmail": "john.andersen@example.com",
@@ -48,11 +53,39 @@ Get survey links of a meeting for different users.
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `items` (array): Survey link array
-    - `email` (string): Participant email.
-    - `surveyLink` (string): Meeting survey Link for the participant.
+## Ejemplo de invocación
+```bash
+curl -X POST '/meetings/<meetingId>/surveyLinks' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): Survey link array
+  - `email` (string): Participant email.
+  - `surveyLink` (string): Meeting survey Link for the participant.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "email": "kingu1@example.com",
+      "surveyLink": "https://example.webex.com/webappng/sites/example/meeting/surveyPage/fa1fc86f70d74c08bc7dc5a3b499ab98?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXRlSWQiOjIwNjI4NDIsImJpcnRoVGltZSI6MTY4ODQzODYwODY4NCwiZW1haWwiOiJRVWhUU3dBQUFJVllnWEhTSVJLa2hzN2pIR0lCNzJxVDM3SDc5a1NLWjcwUFNBVG9aekJYeHV3KzhJenZnd3l6ZEJ5ZGFDeGc1TnZLcW9mRHV4RjlqdWpGeWhld3EyRmFsWVpNTU9Sa3drNVRNQWZZR2lTUVFRPT0iLCJtZWV0aW5nSW5zdGFuY2VJZCI6Ijc0Y2YyZTJhMjI0ZDQ3OTViM2QwMjliMDZjMGI4NWFjX0lfMjY0Mzg5MTg4NzU2OTY1MjUxIn0.SDJTSwAAAIVIzXgb0wNfEdKwDeRiGzxLWfhoSG5blNcDoCslAiserg"
+    },
+    {
+      "email": "kingu2@example.com",
+      "surveyLink": "https://example.webex.com/webappng/sites/example/meeting/surveyPage/fa1fc86f70d74c08bc7dc5a3b499ab98?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXRlSWQiOjIwNjI4NDIsImJpcnRoVGltZSI6MTY4ODQzODYwODY4NSwiZW1haWwiOiJRVWhUU3dBQUFJVXJDOGlEUjdDNFRlbkRNdlI3MVNMZEk5R0p0YXI1c29SeG9Uenh5enNvRjRvSFlJSW02YXN1aVBydGJ5eTUxdDVaVE9pcGxLVzJhbGg2ZlVmZjZJMUd5dWtqaFVVRnRaNnFqZENIMmdBaEJBPT0iLCJtZWV0aW5nSW5zdGFuY2VJZCI6Ijc0Y2YyZTJhMjI0ZDQ3OTViM2QwMjliMDZjMGI4NWFjX0lfMjY0Mzg5MTg4NzU2OTY1MjUxIn0.SDJTSwAAAIUANDHzUhKprSjQD1zzgLS-TX7BodJK5ANv60x1HmhgDw"
+    },
+    {
+      "email": "kingu3@example.com",
+      "surveyLink": "https://example.webex.com/webappng/sites/example/meeting/surveyPage/fa1fc86f70d74c08bc7dc5a3b499ab98?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXRlSWQiOjIwNjI4NDIsImJpcnRoVGltZSI6MTY4ODQzODYwODY4NSwiZW1
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -68,6 +101,9 @@ Get survey links of a meeting for different users.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

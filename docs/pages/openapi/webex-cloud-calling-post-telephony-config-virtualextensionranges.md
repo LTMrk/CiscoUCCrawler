@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-virtualextensionranges
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/virtualExtensionRanges
+operation_id: Create a Virtual Extension Range
+tags: Features: Virtual Extensions
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.620161+00:00
+retrieved_at: 2026-08-18T23:45:43.328510+00:00
 ---
 
 # POST /telephony/config/virtualExtensionRanges
@@ -31,12 +36,12 @@ Creating a virtual extension range requires a full administrator or location adm
 - `orgId` [query] (string): Unique identifier for the organization.
 
 ## Cuerpo de la petición (application/json)
-- `name` (string) **(requerido)**: Name of the virtual extension range. This is a unique name for the virtual extension range.
-- `prefix` (string) **(requerido)**: Prefix used for a virtual extension range. Prefix works in Standard and Enhanced modes. In Standard mode, it must be E.164 and unique. In Enhanced mode, it can be E.164 or non-E.164.
+- `name` (string) (**requerido**): Name of the virtual extension range. This is a unique name for the virtual extension range.
+- `prefix` (string) (**requerido**): Prefix used for a virtual extension range. Prefix works in Standard and Enhanced modes. In Standard mode, it must be E.164 and unique. In Enhanced mode, it can be E.164 or non-E.164.
 - `patterns` (array): List of virtual extension patterns. You can add up to 100 patterns at a time. Extension patterns can include one or more right-justified wildcards “X” matching any digit.
 - `locationId` (string): ID of the location to which the virtual extension range is assigned. The location ID is a unique identifier for the location in Webex Calling. This is set only when location level virtual extension range is added.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "name": "SalesVirtualExtensionRange",
@@ -48,9 +53,26 @@ Creating a virtual extension range requires a full administrator or location adm
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `id` (string) **(requerido)**: ID of the newly created virtual extension range.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/virtualExtensionRanges' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"name": "<name>", "prefix": "<prefix>"}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `id` (string) (**requerido**): ID of the newly created virtual extension range.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1ZJUlRVQUxfRVhURU5TSU9OX1JBTkdFLzk0OThkMTE0LWMwMGMtNGZkNC1iMTk5LWU4ODQ2N2UwNzVkNw"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -66,6 +88,9 @@ Creating a virtual extension range requires a full administrator or location adm
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

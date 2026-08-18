@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-announcements-playlists-playlistid-locations
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/announcements/playlists/{playlistId}/locations
+operation_id: listPlaylistLocations
+tags: Features: Announcement Playlist
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.594353+00:00
+retrieved_at: 2026-08-18T23:45:43.283062+00:00
 ---
 
 # GET /telephony/config/announcements/playlists/{playlistId}/locations
@@ -23,15 +28,40 @@ Fetch list of locations which are assigned to the given announcement playlist
 This API requires a full or read-only administrator or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `playlistId` [path] (string) **(requerido)**: Unique identifier of playlist.
+- `playlistId` [path] (string) (**requerido**): Unique identifier of playlist.
 - `orgId` [query] (string): Get location associated to a playlist in this organization.
 
-## Respuestas
-- **200**: OK
-  - `id` (string) **(requerido)**: Unique identifier of the playlist.
-  - `locations` (array) **(requerido)**: Array of locations with which the playlist is associated.
-    - `id` (string): The ID of the location.
-    - `name` (string): The name of the location.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/announcements/playlists/<playlistId>/locations' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string) (**requerido**): Unique identifier of the playlist.
+- `locations` (array) (**requerido**): Array of locations with which the playlist is associated.
+  - `id` (string): The ID of the location.
+  - `name` (string): The name of the location.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC9iYzZjOTYwYi01ZDJjLTRiM2QtYjRlZC0wNWY1ZmFhMTJjZjA",
+  "locations": [
+    {
+      "name": "Atlas_Test_Location_Trunk_Limit",
+      "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2M3YWEzNjQzLTYyNmYtNGQ0Yy1hNzNmLTk0MTA3NDgzMjMxMg"
+    },
+    {
+      "name": "Cy_location_full_page_Test02_DND",
+      "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzg4NzhlNzE4LTczMGItNGY2OC1iZTc3LTViMjNiNWUwOGUwZg"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -47,6 +77,9 @@ This API requires a full or read-only administrator or location administrator au
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

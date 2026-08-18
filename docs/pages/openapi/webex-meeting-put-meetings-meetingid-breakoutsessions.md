@@ -2,10 +2,15 @@
 doc_id: webex-meeting-put-meetings-meetingid-breakoutsessions
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: PUT
 path: /meetings/{meetingId}/breakoutSessions
+operation_id: updateBreakoutSessions
+tags: Meetings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.398705+00:00
+retrieved_at: 2026-08-18T23:45:44.489070+00:00
 ---
 
 # PUT /meetings/{meetingId}/breakoutSessions
@@ -21,16 +26,16 @@ Update Meeting Breakout Sessions
 Updates breakout sessions of a meeting with a specified meeting ID in the pre-meeting state. This operation applies to meeting series and scheduled meetings.
 
 ## Parámetros
-- `meetingId` [path] (string) **(requerido)**: Unique identifier for the meeting. Does not support meeting IDs for a scheduled [personal room](https://help.webex.com/en-us/article/nul0wut/Webex-Personal-Rooms-in-Webex-Meetings) meeting.
+- `meetingId` [path] (string) (**requerido**): Unique identifier for the meeting. Does not support meeting IDs for a scheduled [personal room](https://help.webex.com/en-us/article/nul0wut/Webex-Personal-Rooms-in-Webex-Meetings) meeting.
 
 ## Cuerpo de la petición (application/json)
 - `hostEmail` (string): Email address for the meeting host. This parameter is only used if the user or application calling the API has the admin-level scopes. If set, the admin may specify the email of a user in a site they manage and the API will return details for a meeting that is hosted by that user.
 - `sendEmail` (boolean): Whether or not to send emails to host and invitees. It is an optional field and default value is true.
 - `items` (array): Breakout sessions are smaller groups that are split off from the main meeting or webinar. They allow a subset of participants to collaborate and share ideas over audio and video. Use breakout sessions for workshops, classrooms, or for when you need a moment to talk privately with a few participants outside of the main session. Please note that maximum number of breakout sessions in a meeting or webinar is 100. In webinars, if hosts preassign attendees to breakout sessions, the role of `attendee` will be changed to `panelist`. Breakout session is not supported for a meeting with simultaneous interpretation.
-  - `name` (string) **(requerido)**: Name for breakout session.
+  - `name` (string) (**requerido**): Name for breakout session.
   - `invitees` (array): Invitees for breakout session. Please note that one invitee cannot be assigned to more than one breakout session.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "hostEmail": "john.andersen@example.com",
@@ -54,12 +59,46 @@ Updates breakout sessions of a meeting with a specified meeting ID in the pre-me
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `items` (array): Breakout sessions information for meeting.
-    - `id` (string) **(requerido)**: Unique identifier for breakout session.
-    - `name` (string) **(requerido)**: Name for breakout session.
-    - `invitees` (array): Invitees for breakout session. Only applies to breakout sessions which are created when meeting is scheduled.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/meetings/<meetingId>/breakoutSessions' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): Breakout sessions information for meeting.
+  - `id` (string) (**requerido**): Unique identifier for breakout session.
+  - `name` (string) (**requerido**): Name for breakout session.
+  - `invitees` (array): Invitees for breakout session. Only applies to breakout sessions which are created when meeting is scheduled.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "18d2e565770c4eee918784ee333510ec",
+      "name": "Breakout Session 1",
+      "invitees": [
+        "rachel.green@example.com",
+        "monica.geller@example.com"
+      ]
+    },
+    {
+      "id": "7ec0782fccf84a5b8cb56d97c69cc771",
+      "name": "Breakout Session N",
+      "invitees": [
+        "ross.geller@example.com",
+        "chandler.bing@example.com"
+      ]
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -75,6 +114,9 @@ Updates breakout sessions of a meeting with a specified meeting ID in the pre-me
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

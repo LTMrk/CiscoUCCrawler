@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-jobs-devices-rebuildphones-jobid
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/jobs/devices/rebuildPhones/{jobId}
+operation_id: getTheJobStatusOfARebuildPhonesJob
+tags: Device Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.587353+00:00
+retrieved_at: 2026-08-18T23:45:43.270327+00:00
 ---
 
 # GET /telephony/config/jobs/devices/rebuildPhones/{jobId}
@@ -27,42 +32,92 @@ Rebuild phones jobs are used when there is a change in the network configuration
 This API requires requires a full administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `jobId` [path] (string) **(requerido)**: Retrieve job status for this `jobId`.
+- `jobId` [path] (string) (**requerido**): Retrieve job status for this `jobId`.
 - `orgId` [query] (string): Check a rebuild phones job status in this organization.
 
-## Respuestas
-- **200**: OK
-  - `name` (string) **(requerido)**: Name of the job which in this case, is `rebuildphones`.
-  - `id` (string) **(requerido)**: Unique identifier of the job.
-  - `trackingId` (string) **(requerido)**: Unique identifier to track the flow of HTTP requests.
-  - `sourceUserId` (string) **(requerido)**: Unique identifier of the user who has run the job.
-  - `sourceCustomerId` (string) **(requerido)**: Unique identifier of the customer who has run the job.
-  - `targetCustomerId` (string) **(requerido)**: Unique identifier of the customer for which the job was run.
-  - `instanceId` (number) **(requerido)**: Unique identifier to identify the instance of the job.
-  - `jobExecutionStatus` (array): Displays the most recent step's execution status. Contains execution statuses of all the steps involved in the execution of the job.
-    - `id` (number) **(requerido)**: Unique identifier that identifies each instance of the job.
-    - `startTime` (string): The date and time with seconds, the job has started in UTC format.
-    - `endTime` (string): The date and time with seconds, the job has ended in UTC format.
-    - `lastUpdated` (string) **(requerido)**: The date and time with seconds, the job has last updated in UTC format post one of the step execution completion.
-    - `statusMessage` (string) **(requerido)**: Displays status for overall steps that are part of the job.  * `STARTING` - Job has started.  * `STARTED` - Job is in progress.  * `COMPLETED` - Job has completed.  * `FAILED` - Job has failed.  * `UNKNOWN` - Job status is unknown.  * `ABANDONED` - Job has been abandoned (manually stopped). Valores: STARTING, STARTED, COMPLETED, FAILED, UNKNOWN, ABANDONED.
-    - `exitCode` (string): Exit Code for a job.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors.  * `COMPLETED_WITH_PENDING_ORDERS` - Job has completed with pending number orders. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS, COMPLETED_WITH_PENDING_ORDERS.
-    - `createdTime` (string) **(requerido)**: The date and time with seconds, the job has created in UTC format.
-    - `timeElapsed` (string) **(requerido)**: Time lapsed in seconds since the job execution started.
-    - `stepExecutionStatuses` (array): Status of each step within a job.
-      - `id` (number) **(requerido)**: Unique identifier that identifies each step in a job.
-      - `startTime` (string): The date and time with seconds, the step execution has started in UTC format.
-      - `endTime` (string): The date and time with seconds, the step execution has ended in UTC format.
-      - `lastUpdated` (string) **(requerido)**: The date and time with seconds, the step has last updated in UTC format.
-      - `statusMessage` (string) **(requerido)**: Displays status for a step.  * `STARTING` - Job has started.  * `STARTED` - Job is in progress.  * `COMPLETED` - Job has completed.  * `FAILED` - Job has failed.  * `UNKNOWN` - Job status is unknown.  * `ABANDONED` - Job has been abandoned (manually stopped). Valores: STARTING, STARTED, COMPLETED, FAILED, UNKNOWN, ABANDONED.
-      - `exitCode` (string): Exit Code for a step.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors.  * `COMPLETED_WITH_PENDING_ORDERS` - Job has completed with pending number orders. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS, COMPLETED_WITH_PENDING_ORDERS.
-      - `name` (string) **(requerido)**: Step name.
-      - `timeElapsed` (string) **(requerido)**: Time lapsed in seconds since the job execution started.
-  - `latestExecutionStatus` (string) **(requerido)**: * `STARTING` - Job has started.  * `STARTED` - Job is in progress.  * `COMPLETED` - Job has been completed.  * `FAILED` - Job has failed. Valores: STARTING, STARTED, COMPLETED, FAILED.
-  - `latestExecutionExitCode` (string): Most recent exit code of the job at the time of invocation.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS.
-  - `target` (string) **(requerido)**: Indicates the target entity, i.e. LOCATION.
-  - `locationId` (string): Unique identifier of a location.
-  - `percentageComplete` (integer) **(requerido)**: Indicates the progress of the job.
-  - `deviceCount` (number): Count of number of devices rebuilt.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/jobs/devices/rebuildPhones/<jobId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `name` (string) (**requerido**): Name of the job which in this case, is `rebuildphones`.
+- `id` (string) (**requerido**): Unique identifier of the job.
+- `trackingId` (string) (**requerido**): Unique identifier to track the flow of HTTP requests.
+- `sourceUserId` (string) (**requerido**): Unique identifier of the user who has run the job.
+- `sourceCustomerId` (string) (**requerido**): Unique identifier of the customer who has run the job.
+- `targetCustomerId` (string) (**requerido**): Unique identifier of the customer for which the job was run.
+- `instanceId` (number) (**requerido**): Unique identifier to identify the instance of the job.
+- `jobExecutionStatus` (array): Displays the most recent step's execution status. Contains execution statuses of all the steps involved in the execution of the job.
+  - `id` (number) (**requerido**): Unique identifier that identifies each instance of the job.
+  - `startTime` (string): The date and time with seconds, the job has started in UTC format.
+  - `endTime` (string): The date and time with seconds, the job has ended in UTC format.
+  - `lastUpdated` (string) (**requerido**): The date and time with seconds, the job has last updated in UTC format post one of the step execution completion.
+  - `statusMessage` (string) (**requerido**): Displays status for overall steps that are part of the job.  * `STARTING` - Job has started.  * `STARTED` - Job is in progress.  * `COMPLETED` - Job has completed.  * `FAILED` - Job has failed.  * `UNKNOWN` - Job status is unknown.  * `ABANDONED` - Job has been abandoned (manually stopped). Valores: STARTING, STARTED, COMPLETED, FAILED, UNKNOWN, ABANDONED.
+  - `exitCode` (string): Exit Code for a job.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors.  * `COMPLETED_WITH_PENDING_ORDERS` - Job has completed with pending number orders. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS, COMPLETED_WITH_PENDING_ORDERS.
+  - `createdTime` (string) (**requerido**): The date and time with seconds, the job has created in UTC format.
+  - `timeElapsed` (string) (**requerido**): Time lapsed in seconds since the job execution started.
+  - `stepExecutionStatuses` (array): Status of each step within a job.
+    - `id` (number) (**requerido**): Unique identifier that identifies each step in a job.
+    - `startTime` (string): The date and time with seconds, the step execution has started in UTC format.
+    - `endTime` (string): The date and time with seconds, the step execution has ended in UTC format.
+    - `lastUpdated` (string) (**requerido**): The date and time with seconds, the step has last updated in UTC format.
+    - `statusMessage` (string) (**requerido**): Displays status for a step.  * `STARTING` - Job has started.  * `STARTED` - Job is in progress.  * `COMPLETED` - Job has completed.  * `FAILED` - Job has failed.  * `UNKNOWN` - Job status is unknown.  * `ABANDONED` - Job has been abandoned (manually stopped). Valores: STARTING, STARTED, COMPLETED, FAILED, UNKNOWN, ABANDONED.
+    - `exitCode` (string): Exit Code for a step.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors.  * `COMPLETED_WITH_PENDING_ORDERS` - Job has completed with pending number orders. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS, COMPLETED_WITH_PENDING_ORDERS.
+    - `name` (string) (**requerido**): Step name.
+    - `timeElapsed` (string) (**requerido**): Time lapsed in seconds since the job execution started.
+- `latestExecutionStatus` (string) (**requerido**): * `STARTING` - Job has started.  * `STARTED` - Job is in progress.  * `COMPLETED` - Job has been completed.  * `FAILED` - Job has failed. Valores: STARTING, STARTED, COMPLETED, FAILED.
+- `latestExecutionExitCode` (string): Most recent exit code of the job at the time of invocation.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS.
+- `target` (string) (**requerido**): Indicates the target entity, i.e. LOCATION.
+- `locationId` (string): Unique identifier of a location.
+- `percentageComplete` (integer) (**requerido**): Indicates the progress of the job.
+- `deviceCount` (number): Count of number of devices rebuilt.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL0pPQl9JRC8wZTJjNmI5NC1hNDdlLTQxZGUtODE5ZS04YTcwNTZjMTc5MDk",
+  "trackingId": "NA_a9ef6908-60cf-40e6-b56f-461abffd6fa3",
+  "sourceUserId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS85OThhMThhYi1kZjY5LTQ5MWYtYmViZi03MzUxMGE3ODI5N2I",
+  "sourceCustomerId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi9hNDVkNmNkYS1hZTVhLTQwYzMtYTdhZC01NjUwZmRkZGQ1M2M",
+  "targetCustomerId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi9hNDVkNmNkYS1hZTVhLTQwYzMtYTdhZC01NjUwZmRkZGQ1M2M",
+  "instanceId": 0,
+  "jobExecutionStatus": [
+    {
+      "id": 0,
+      "startTime": "2023-07-05T21:36:53.749Z",
+      "endTime": "2023-07-05T21:37:06.105Z",
+      "lastUpdated": "2023-07-05T21:37:06.714Z",
+      "statusMessage": "COMPLETED",
+      "exitCode": "COMPLETED",
+      "createdTime": "2023-07-05T21:36:53.551Z",
+      "stepExecutionStatuses": [
+        {
+          "id": 0,
+          "startTime": "2023-07-05T21:36:54.601Z",
+          "endTime": "2023-07-05T21:37:06.077Z",
+          "lastUpdated": "2023-07-05T21:37:06.078Z",
+          "statusMessage": "COMPLETED",
+          "exitCode": "COMPLETED",
+          "name": "rebuildphonesProcess",
+          "timeElapsed": "PT11.476S"
+        }
+      ],
+      "timeElapsed": "PT11.476S"
+    }
+  ],
+  "latestExecutionStatus": "COMPLETED",
+  "latestExecutionExitCode": "COMPLETED",
+  "target": "LOCATION",
+  "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzgwZmUxMzdkLTg5NDgtNDlhYS1iODdiLTk4MGMxN2I2YzdiYg",
+  "percentageComplete": 100,
+  "deviceCount": 10
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -78,6 +133,9 @@ This API requires requires a full administrator auth token with a scope of `spar
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

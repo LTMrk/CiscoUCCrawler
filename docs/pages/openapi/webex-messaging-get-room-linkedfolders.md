@@ -2,10 +2,15 @@
 doc_id: webex-messaging-get-room-linkedfolders
 source: webex-openapi-specs/public-spec/webex-messaging.json
 api: Webex Messaging
+api_version: 1.0.0
 method: GET
 path: /room/linkedFolders
+operation_id: List ECM folder
+tags: ECM folder linking
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.509862+00:00
+retrieved_at: 2026-08-18T23:45:44.802580+00:00
 ---
 
 # GET /room/linkedFolders
@@ -21,21 +26,50 @@ List ECM folder
 Lists the ECM folder of a room specified by the `roomId` query parameter.
 
 ## Parámetros
-- `roomId` [query] (string) **(requerido)**: ID of the room for which to list the ECM folder.
+- `roomId` [query] (string) (**requerido**): ID of the room for which to list the ECM folder.
 
-## Respuestas
-- **200**: OK
-  - `items` (array):
-    - `id` (string): A unique identifier for the folder.
-    - `roomId` (string): A unique identifier for the room to which the folder should be linked to.
-    - `roomType` (string): The room type.  * `direct` - 1:1 room  * `group` - group room Valores: direct, group.
-    - `driveId` (string) **(requerido)**: Sharepoint or OneDrive drive id. It can be queried via MS Graph APIs.
-    - `itemId` (string) **(requerido)**: Sharepoint or OneDrive item id. It can be queried via MS Graph APIs.
-    - `defaultFolder` (string): Indicates if this is the default content storage for the room.
-    - `displayName` (string) **(requerido)**: This should match the folder name in the ECM backend.
-    - `contentUrl` (string): Folder's content URL.
-    - `creatorId` (string): The person ID of the person who created this folder link.
-    - `created` (string): The date and time when the folder link was created.
+## Ejemplo de invocación
+```bash
+curl -X GET '/room/linkedFolders?roomId=<roomId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array):
+  - `id` (string): A unique identifier for the folder.
+  - `roomId` (string): A unique identifier for the room to which the folder should be linked to.
+  - `roomType` (string): The room type.  * `direct` - 1:1 room  * `group` - group room Valores: direct, group.
+  - `driveId` (string) (**requerido**): Sharepoint or OneDrive drive id. It can be queried via MS Graph APIs.
+  - `itemId` (string) (**requerido**): Sharepoint or OneDrive item id. It can be queried via MS Graph APIs.
+  - `defaultFolder` (string): Indicates if this is the default content storage for the room.
+  - `displayName` (string) (**requerido**): This should match the folder name in the ECM backend.
+  - `contentUrl` (string): Folder's content URL.
+  - `creatorId` (string): The person ID of the person who created this folder link.
+  - `created` (string): The date and time when the folder link was created.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLWVhc3QtMl9hL1RBQlMvZDg1ZTYwNj",
+      "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vYmJjZWIxYWQtNDNmMS0zYjU4LTkxNDctZjE0YmIwYzRkMTU0",
+      "roomType": "group",
+      "driveId": "123",
+      "itemId": "456",
+      "defaultFolder": "false",
+      "displayName": "OneDrive folder for shared documents",
+      "contentUrl": "https://cisco-my.sharepoint.com/personal/naalluri/123",
+      "creatorId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9mNWIzNjE4Ny1jOGRkLTQ3MjctOGIyZi1mOWM0NDdmMjkwNDY",
+      "created": "2015-10-18T14:26:16.203Z"
+    }
+  ]
+}
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -51,6 +85,9 @@ Lists the ECM folder of a room specified by the `roomId` query parameter.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Messaging APIs offer robust programmatic access to messaging features within Webex, including sending and receiving messages, managing spaces, memberships, attachments, and moderating content. These APIs enable integration with bots, workflow automation, notification systems, and custom messaging solutions to enhance team collaboration and productivity. Use cases include building chatbots, integrating with ticketing or alerting platforms, automating onboarding flows, and creating custom collaboration experiences tailored to business needs.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-locations-locationid-operatingmodes-availableoperatingmodes
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/operatingModes/availableOperatingModes
+operation_id: Retrieve the List of Available Operating Modes in a Location
+tags: Features: Operating Modes
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.617558+00:00
+retrieved_at: 2026-08-18T23:45:43.323798+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/operatingModes/availableOperatingModes
@@ -25,14 +30,38 @@ Retrieve list of `Operating Modes` which are available to be assigned to a locat
 Retrieving this list requires a full, read-only, or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Retrieve `operating modes` list from this location.
+- `locationId` [path] (string) (**requerido**): Retrieve `operating modes` list from this location.
 - `orgId` [query] (string): Retrieve `operating modes` list from this organization.
 
-## Respuestas
-- **200**: OK
-  - `operatingModes` (array): Array of `operating modes`.
-    - `id` (string) **(requerido)**: A unique identifier for the `operating mode`.
-    - `name` (string) **(requerido)**: Unique name for the `operating mode`.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/locations/<locationId>/operatingModes/availableOperatingModes' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `operatingModes` (array): Array of `operating modes`.
+  - `id` (string) (**requerido**): A unique identifier for the `operating mode`.
+  - `name` (string) (**requerido**): Unique name for the `operating mode`.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "operatingModes": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL09QRVJBVElOR19NT0RFL2JiOTc1OTcxLTBjZWYtNDdhNi05Yzc5LTliZWFjY2IwYjg4Mg",
+      "name": "Day Operating Mode"
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL09QRVJBVElOR19NT0RFLzcxYzNjYjA2LWE5YjMtNDc1MS1hZGI1LTdiZDc2MWY5MTAwYg",
+      "name": "Outage Operating Mode"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -48,6 +77,9 @@ Retrieving this list requires a full, read-only, or location administrator auth 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-operatingmodes-modeid-holidays
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/operatingModes/{modeId}/holidays
+operation_id: Create an Operating Mode Holiday
+tags: Features: Operating Modes
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.617456+00:00
+retrieved_at: 2026-08-18T23:45:43.323599+00:00
 ---
 
 # POST /telephony/config/operatingModes/{modeId}/holidays
@@ -25,26 +30,26 @@ Holidays define a recurring schedule for the `Operating Modes`. An `Operating Mo
 Creating an `Operating Mode Holiday` requires a full, or location administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `modeId` [path] (string) **(requerido)**: Create the holiday for this `operating mode`.
+- `modeId` [path] (string) (**requerido**): Create the holiday for this `operating mode`.
 - `orgId` [query] (string): Create the `operating mode holiday` for this organization.
 
 ## Cuerpo de la petición (application/json)
-- `name` (string) **(requerido)**: Name of the holiday.
-- `allDayEnabled` (boolean) **(requerido)**: Specifies if the `operating mode holiday` schedule event is enabled for the entire day. `False` if the flag is not set.
-- `startDate` (string) **(requerido)**: Start date of the `operating mode holiday`.
-- `endDate` (string) **(requerido)**: End date of the `operating mode holiday`.
+- `name` (string) (**requerido**): Name of the holiday.
+- `allDayEnabled` (boolean) (**requerido**): Specifies if the `operating mode holiday` schedule event is enabled for the entire day. `False` if the flag is not set.
+- `startDate` (string) (**requerido**): Start date of the `operating mode holiday`.
+- `endDate` (string) (**requerido**): End date of the `operating mode holiday`.
 - `startTime` (string): Start time for the `operating mode holiday`. Mandatory if `allDayEnabled` is false.
 - `endTime` (string): End time for the `operating mode holiday`. Mandatory if `allDayEnabled` is false.
 - `recurrence` (object):
   - `recurYearlyByDate` (object):
-    - `dayOfMonth` (number) **(requerido)**: Schedule the event on a specific day of the month.
-    - `month` (string) **(requerido)**: Schedule the event on a specific month of the year. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
+    - `dayOfMonth` (number) (**requerido**): Schedule the event on a specific day of the month.
+    - `month` (string) (**requerido**): Schedule the event on a specific month of the year. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
   - `recurYearlyByDay` (object):
-    - `day` (string) **(requerido)**: Schedule the event on a specific day. Valores: SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY.
-    - `week` (string) **(requerido)**: Schedule the event on a specific week. Valores: FIRST, SECOND, THIRD, FOURTH, LAST.
-    - `month` (string) **(requerido)**: Schedule the event on a specific month. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
+    - `day` (string) (**requerido**): Schedule the event on a specific day. Valores: SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY.
+    - `week` (string) (**requerido**): Schedule the event on a specific week. Valores: FIRST, SECOND, THIRD, FOURTH, LAST.
+    - `month` (string) (**requerido**): Schedule the event on a specific month. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "name": "Christmas",
@@ -63,9 +68,26 @@ Creating an `Operating Mode Holiday` requires a full, or location administrator 
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `id` (string) **(requerido)**: ID of the newly created holiday.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/operatingModes/<modeId>/holidays' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"name": "<name>", "allDayEnabled": true, "startDate": "<startDate>", "endDate": "<endDate>"}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `id` (string) (**requerido**): ID of the newly created holiday.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1NDSEVEVUxFX0VWRU5UL2E4Mjg5NzIyLTFiODAtNDFiNy05Njc4LTBlNzdhZThjMTIwOQ"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -81,6 +103,9 @@ Creating an `Operating Mode Holiday` requires a full, or location administrator 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

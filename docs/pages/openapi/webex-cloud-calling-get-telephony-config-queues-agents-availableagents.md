@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-queues-agents-availableagents
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/queues/agents/availableAgents
+operation_id: getCallQueueAvailableAgents
+tags: Features:  Call Queue
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.605854+00:00
+retrieved_at: 2026-08-18T23:45:43.303368+00:00
 ---
 
 # GET /telephony/config/queues/agents/availableAgents
@@ -27,7 +32,7 @@ An agent can be assigned to one or more call queues and can be managed by superv
 Retrieving this list requires a full, read-only or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `locationId` [query] (string) **(requerido)**: The location ID of the call queue. Temporary mandatory query parameter, used for performance reasons only and not a filter.
+- `locationId` [query] (string) (**requerido**): The location ID of the call queue. Temporary mandatory query parameter, used for performance reasons only and not a filter.
 - `orgId` [query] (string): List available agents for this organization.
 - `max` [query] (number): Limit the number of objects returned to this maximum count.
 - `start` [query] (number): Start at the zero-based offset in the list of matching objects.
@@ -35,19 +40,50 @@ Retrieving this list requires a full, read-only or location administrator auth t
 - `phoneNumber` [query] (string): Search based on number or extension.
 - `order` [query] (string): Order the available agents according to the designated fields. Up to three comma-separated sort order fields may be specified. Available sort fields are: `userId`, `fname`, `firstname`, `lname`, `lastname`, `dn`, and `extension`. Sort order can be added together with each field using a hyphen, `-`. Available sort orders are: `asc`, and `desc`.
 
-## Respuestas
-- **200**: OK
-  - `agents` (array) **(requerido)**: Array of available agents.
-    - `id` (string) **(requerido)**: ID of a person, workspace or virtual line.
-    - `lastName` (string): Last name of a person, workspace or virtual line.
-    - `firstName` (string): First name of a person, workspace or virtual line.
-    - `displayName` (string): Display name of a person, workspace or virtual line.
-    - `type` (string) **(requerido)**: Type of the person, workspace or virtual line.  * `PEOPLE` - Object is a user.  * `PLACE` - Object is a place.  * `VIRTUAL_LINE` - Object is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
-    - `email` (string) **(requerido)**: Email of a person, workspace or virtual line.
-    - `hasCxEssentials` (boolean) **(requerido)**: Person has the CX Essentials license.
-    - `phoneNumbers` (array): List of phone numbers of a person, workspace or virtual line.
-      - `external` (string): Phone number of a person, workspace or virtual line.
-      - `extension` (string): Extension of a person, workspace or virtual line.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/queues/agents/availableAgents?locationId=<locationId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `agents` (array) (**requerido**): Array of available agents.
+  - `id` (string) (**requerido**): ID of a person, workspace or virtual line.
+  - `lastName` (string): Last name of a person, workspace or virtual line.
+  - `firstName` (string): First name of a person, workspace or virtual line.
+  - `displayName` (string): Display name of a person, workspace or virtual line.
+  - `type` (string) (**requerido**): Type of the person, workspace or virtual line.  * `PEOPLE` - Object is a user.  * `PLACE` - Object is a place.  * `VIRTUAL_LINE` - Object is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
+  - `email` (string) (**requerido**): Email of a person, workspace or virtual line.
+  - `hasCxEssentials` (boolean) (**requerido**): Person has the CX Essentials license.
+  - `phoneNumbers` (array): List of phone numbers of a person, workspace or virtual line.
+    - `external` (string): Phone number of a person, workspace or virtual line.
+    - `extension` (string): Extension of a person, workspace or virtual line.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "agents": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80NDVkMzMzMC1mNjE3LTExZWItOWQyZS01NzViODE3ZGE1NmE",
+      "lastName": "Brown",
+      "firstName": "John",
+      "displayName": "John Brown",
+      "type": "PEOPLE",
+      "email": "john.brown@example.com",
+      "hasCxEssentials": false,
+      "phoneNumbers": [
+        {
+          "external": "+19075552859",
+          "extension": "8080"
+        }
+      ]
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -63,6 +99,9 @@ Retrieving this list requires a full, read-only or location administrator auth t
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

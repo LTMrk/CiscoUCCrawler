@@ -2,10 +2,15 @@
 doc_id: webex-admin-get-partner-reports-templates
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: GET
 path: /partner/reports/templates
+operation_id: listReportTemplates
+tags: Partner Reports/Templates
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.154449+00:00
+retrieved_at: 2026-08-18T23:45:42.571636+00:00
 ---
 
 # GET /partner/reports/templates
@@ -25,18 +30,41 @@ To access this endpoint, you must use an administrator token with `spark-admin:r
 ## Parámetros
 - `onBehalfOfSubPartnerOrgId` [query] (string): The encoded organization ID for the sub partner.
 
-## Respuestas
-- **200**: OK
-  - `Template Collection` (array): An array of template objects.
-    - `id` (string): Unique identifier representing a report.
-    - `title` (string): Name of the template.
-    - `service` (string): The service to which the report belongs.
-    - `maxDays` (number): Maximum date range for reports belonging to this template.
-    - `identifier` (string): Generated reports belong to which field.
-    - `validations` (object):
-      - `validations` (array): An array of validation rules
-        - `field` (string): Field on which validation rule is applied
-        - `required` (string): Whether the above field is required
+## Ejemplo de invocación
+```bash
+curl -X GET '/partner/reports/templates' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `Template Collection` (array): An array of template objects.
+  - `id` (string): Unique identifier representing a report.
+  - `title` (string): Name of the template.
+  - `service` (string): The service to which the report belongs.
+  - `maxDays` (number): Maximum date range for reports belonging to this template.
+  - `identifier` (string): Generated reports belong to which field.
+  - `validations` (object):
+    - `validations` (array): An array of validation rules
+      - `field` (string): Field on which validation rule is applied
+      - `required` (string): Whether the above field is required
+
+### Ejemplo — respuesta 200
+```json
+[
+  {
+    "templateId": 130,
+    "title": "Calling Usage",
+    "service": "Teams",
+    "category": "Partner",
+    "maxDays": 31,
+    "dataStartDate": "2024-01-01",
+    "dataEndDate": "2024-01-31"
+  }
+]
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -52,6 +80,9 @@ To access this endpoint, you must use an administrator token with `spark-admin:r
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

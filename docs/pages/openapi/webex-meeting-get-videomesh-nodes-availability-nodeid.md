@@ -2,10 +2,15 @@
 doc_id: webex-meeting-get-videomesh-nodes-availability-nodeid
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: GET
 path: /videoMesh/nodes/availability/{nodeId}
+operation_id: Get Node Availability
+tags: Video Mesh
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.404960+00:00
+retrieved_at: 2026-08-18T23:45:44.500983+00:00
 ---
 
 # GET /videoMesh/nodes/availability/{nodeId}
@@ -21,22 +26,74 @@ Get Node Availability
 Returns the availability details of a single node in a Video Mesh cluster.
 
 ## Parámetros
-- `nodeId` [path] (string) **(requerido)**: The unique Video Mesh node ID.
-- `from` [query] (string) **(requerido)**: The starting date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `from` cannot be after `to`.
-- `to` [query] (string) **(requerido)**: The ending date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
+- `nodeId` [path] (string) (**requerido**): The unique Video Mesh node ID.
+- `from` [query] (string) (**requerido**): The starting date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `from` cannot be after `to`.
+- `to` [query] (string) (**requerido**): The ending date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
 
-## Respuestas
-- **200**: OK
-  - `items` (array):
-    - `orgId` (string): Unique ID for a Video Mesh organization.
-    - `items` (array): Availability details of the Video Mesh cluster.
-      - `clusterId` (string): ID of the Video Mesh cluster.
-      - `clusterName` (string): Name of the Video Mesh cluster.
-      - `hostNameOrIp` (string): Host Name or the IP of the Video Mesh node.
-      - `nodeId` (string): ID of the Video Mesh node.
-      - `availabilitySegments` (array):
-    - `from` (string): Start date and time (inclusive) of the availability data.
-    - `to` (string): End date and time (inclusive) of the availability data.
+## Ejemplo de invocación
+```bash
+curl -X GET '/videoMesh/nodes/availability/<nodeId>?from=<from>&to=<to>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array):
+  - `orgId` (string): Unique ID for a Video Mesh organization.
+  - `items` (array): Availability details of the Video Mesh cluster.
+    - `clusterId` (string): ID of the Video Mesh cluster.
+    - `clusterName` (string): Name of the Video Mesh cluster.
+    - `hostNameOrIp` (string): Host Name or the IP of the Video Mesh node.
+    - `nodeId` (string): ID of the Video Mesh node.
+    - `availabilitySegments` (array):
+      - (cualquiera de:)
+        - `segmentStartTime` (string): Start date and time of the segment of availability data.
+        - `segmentEndTime` (string): End date and time of the segment of availability data.
+        - `availability` (string): Availability information of the Video Mesh node.
+        - `unAvailabilityReason` (string): Reason for the Video Mesh node being unavailable (if any).
+        - `segmentStartTime` (string): Start date and time of the segment of availability data.
+        - `segmentEndTime` (string): End date and time of the segment of availability data.
+        - `availability` (string): Availability information of the Video Mesh node.
+        - `unAvailabilityReason` (string): Reason for the Video Mesh node being unavailable (if any).
+  - `from` (string): Start date and time (inclusive) of the availability data.
+  - `to` (string): End date and time (inclusive) of the availability data.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi8zNmQ4OTRmNy0yYjU3LTQzYzEtYWNlZS1kNDdlNjc3NjE0MTQ=",
+      "items": [
+        {
+          "clusterId": "Y2lzY29zcGFyazovL3VzL0hZQlJJRF9DTFVTVEVSLzFlYjY1ZmRmLTk2NDMtNDE3Zi05OTc0LWFkNzJjYWUwZTEwZjpiMzdmNTgzYy1kZGRjLTQyOGItODJlNS1jYmU2ODFkYjQ5NjI=",
+          "clusterName": "San Jose",
+          "hostNameOrIp": "xyz.abc.com",
+          "nodeId": "Y2lzY29zcGFyazovL3VzL0hZQlJJRF9DT05ORUNUT1IvMWViNjVmZGYtOTY0My00MTdmLTk5NzQtYWQ3MmNhZTBlMTBmOm1mX21nbXRAYzI1OTRiZjY0MWZlNGQ1MWJkODdhOGIyNjFjODc1ZjU=",
+          "availabilitySegments": [
+            {
+              "segmentStartTime": "2021-09-15T15:53:00Z",
+              "segmentEndTime": "2021-09-15T16:53:00Z",
+              "availability": "Available",
+              "unAvailabilityReason": "NA"
+            },
+            {
+              "segmentStartTime": "2021-09-15T16:53:00Z",
+              "segmentEndTime": "2021-09-15T17:53:00Z",
+              "availability": "Unavailable",
+              "unAvailabilityReason": "Connectivity Issues to the Node"
+            }
+          ]
+        }
+      ],
+      "from": "2021-09-15T15:53:00Z",
+      "to": "2021-09-15T17:53:00Z"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -52,6 +109,9 @@ Returns the availability details of a single node in a Video Mesh cluster.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

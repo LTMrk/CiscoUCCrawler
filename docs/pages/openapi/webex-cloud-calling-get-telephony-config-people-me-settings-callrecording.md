@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-people-me-settings-callrecording
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/people/me/settings/callRecording
+operation_id: getMyCallRecordingSettings
+tags: Call Settings For Me
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.562037+00:00
+retrieved_at: 2026-08-18T23:45:43.178558+00:00
 ---
 
 # GET /telephony/config/people/me/settings/callRecording
@@ -24,23 +29,54 @@ Call recording settings allow you to access and customize options that determine
 
 This API requires a user auth token with a scope of `spark:telephony_config_read`.
 
-## Respuestas
-- **200**: OK
-  - `enabled` (boolean) **(requerido)**: Indicates whether Call Recording is enabled for the user or not.
-  - `vendor` (object) **(requerido)**: List of available vendors and their details.
-    - `id` (string) **(requerido)**: Unique identifier of a vendor.
-    - `name` (string) **(requerido)**: Name of a call recording vendor.
-    - `loginUrl` (string) **(requerido)**: Login URL of the vendor.
-  - `recordingMode` (string) **(requerido)**: * `Always` - Call recording is always enabled.  * `Never` - Call recording is never enabled.  * `On Demand` - Call recording is started and stopped manually by the user.  * `Always with Pause/Resume` - Call recording is always enabled with the ability to pause and resume.  * `On Demand with User Initiated Start` - Call recording is started manually by the user. Valores: Always, Never, On Demand, Always with Pause/Resume, On Demand with User Initiated Start.
-  - `pauseResumeNotifyMethod` (string): * `Beep` - A beep is played when call recording is paused or resumed.  * `Play Announcement` - An announcement is played when call recording is paused or resumed. Valores: Beep, Play Announcement.
-  - `announcementEnabled` (boolean): If `true`, an announcement is played when call recording starts.
-  - `warningToneEnabled` (boolean): If `true`, a warning tone is played when call recording starts.
-  - `warningToneDuration` (number): Duration of the warning tone in seconds. Duration can be configured between 10 and 1800 seconds.
-  - `selectiveCallRecordingSettings` (object): Selective call recording settings. Applicable when `recordingMode` is set to either `Always` or `Always with Pause/Resume`.
-    - `recordInboundInternalCallsEnabled` (boolean) **(requerido)**: If `true`, inbound internal calls are recorded.
-    - `recordInboundExternalCallsEnabled` (boolean) **(requerido)**: If `true`, inbound external calls are recorded.
-    - `recordOutboundInternalCallsEnabled` (boolean) **(requerido)**: If `true`, outbound internal calls are recorded.
-    - `recordOutboundExternalCallsEnabled` (boolean) **(requerido)**: If `true`, outbound external calls are recorded.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/people/me/settings/callRecording' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `enabled` (boolean) (**requerido**): Indicates whether Call Recording is enabled for the user or not.
+- `vendor` (object) (**requerido**): List of available vendors and their details.
+  - `id` (string) (**requerido**): Unique identifier of a vendor.
+  - `name` (string) (**requerido**): Name of a call recording vendor.
+  - `loginUrl` (string) (**requerido**): Login URL of the vendor.
+- `recordingMode` (string) (**requerido**): * `Always` - Call recording is always enabled.  * `Never` - Call recording is never enabled.  * `On Demand` - Call recording is started and stopped manually by the user.  * `Always with Pause/Resume` - Call recording is always enabled with the ability to pause and resume.  * `On Demand with User Initiated Start` - Call recording is started manually by the user. Valores: Always, Never, On Demand, Always with Pause/Resume, On Demand with User Initiated Start.
+- `pauseResumeNotifyMethod` (string): * `Beep` - A beep is played when call recording is paused or resumed.  * `Play Announcement` - An announcement is played when call recording is paused or resumed. Valores: Beep, Play Announcement.
+- `announcementEnabled` (boolean): If `true`, an announcement is played when call recording starts.
+- `warningToneEnabled` (boolean): If `true`, a warning tone is played when call recording starts.
+- `warningToneDuration` (number): Duration of the warning tone in seconds. Duration can be configured between 10 and 1800 seconds.
+- `selectiveCallRecordingSettings` (object): Selective call recording settings. Applicable when `recordingMode` is set to either `Always` or `Always with Pause/Resume`.
+  - `recordInboundInternalCallsEnabled` (boolean) (**requerido**): If `true`, inbound internal calls are recorded.
+  - `recordInboundExternalCallsEnabled` (boolean) (**requerido**): If `true`, inbound external calls are recorded.
+  - `recordOutboundInternalCallsEnabled` (boolean) (**requerido**): If `true`, outbound internal calls are recorded.
+  - `recordOutboundExternalCallsEnabled` (boolean) (**requerido**): If `true`, outbound external calls are recorded.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "enabled": true,
+  "vendor": {
+    "id": "Y2lzY29zcGFyazovL3VzL1JFQ09SRElOR19WRU5ET1IvZmVjYjYzNGUtYzMyZS00ZWJmLThlYzMtMmVhYjk3Y2IyNjNk",
+    "name": "ITFDual",
+    "loginUrl": "https://www.itfdualportal.com"
+  },
+  "recordingMode": "Always",
+  "pauseResumeNotifyMethod": "Beep",
+  "announcementEnabled": true,
+  "warningToneEnabled": false,
+  "warningToneDuration": 70,
+  "selectiveCallRecordingSettings": {
+    "recordInboundInternalCallsEnabled": true,
+    "recordInboundExternalCallsEnabled": true,
+    "recordOutboundInternalCallsEnabled": false,
+    "recordOutboundExternalCallsEnabled": true
+  }
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -56,6 +92,9 @@ This API requires a user auth token with a scope of `spark:telephony_config_read
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

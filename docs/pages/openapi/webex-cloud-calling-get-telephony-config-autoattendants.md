@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-autoattendants
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/autoAttendants
+operation_id: listAutoAttendants
+tags: Features:  Auto Attendant
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.596692+00:00
+retrieved_at: 2026-08-18T23:45:43.287460+00:00
 ---
 
 # GET /telephony/config/autoAttendants
@@ -32,18 +37,68 @@ Retrieving this list requires a full or read-only administrator or location admi
 - `name` [query] (string): Only return auto attendants with the matching name.
 - `phoneNumber` [query] (string): Only return auto attendants with the matching phone number.
 
-## Respuestas
-- **200**: OK
-  - `autoAttendants` (array) **(requerido)**: Array of auto attendants.
-    - `id` (string) **(requerido)**: A unique identifier for the auto attendant.
-    - `name` (string) **(requerido)**: Unique name for the auto attendant.
-    - `locationName` (string) **(requerido)**: Name of location for auto attendant.
-    - `locationId` (string) **(requerido)**: ID of location for auto attendant.
-    - `phoneNumber` (string): Auto attendant phone number.  Either `phoneNumber` or `extension` is mandatory.
-    - `extension` (string): Auto attendant extension.  Either `phoneNumber` or `extension` is mandatory.
-    - `routingPrefix` (string): Routing prefix of location.
-    - `esn` (string): Routing prefix + extension of a person or workspace.
-    - `tollFreeNumber` (boolean) **(requerido)**: Flag to indicate if auto attendant number is toll-free number.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/autoAttendants' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `autoAttendants` (array) (**requerido**): Array of auto attendants.
+  - `id` (string) (**requerido**): A unique identifier for the auto attendant.
+  - `name` (string) (**requerido**): Unique name for the auto attendant.
+  - `locationName` (string) (**requerido**): Name of location for auto attendant.
+  - `locationId` (string) (**requerido**): ID of location for auto attendant.
+  - `phoneNumber` (string): Auto attendant phone number.  Either `phoneNumber` or `extension` is mandatory.
+  - `extension` (string): Auto attendant extension.  Either `phoneNumber` or `extension` is mandatory.
+  - `routingPrefix` (string): Routing prefix of location.
+  - `esn` (string): Routing prefix + extension of a person or workspace.
+  - `tollFreeNumber` (boolean) (**requerido**): Flag to indicate if auto attendant number is toll-free number.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "autoAttendants": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0FVVE9fQVRURU5EQU5UL2J6QjJlRGd6Ym1GeU5rQm1iR1Y0TWk1amFYTmpieTVqYjIw",
+      "name": "Main Line AA - Test",
+      "locationName": "Alaska",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzI0NDY5OA",
+      "phoneNumber": "+19705550028",
+      "extension": "0028",
+      "routingPrefix": "1234",
+      "esn": "12340028",
+      "tollFreeNumber": false
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0FVVE9fQVRURU5EQU5UL2NXZHVjWGg1WkhCbmFVQm1iR1Y0TWk1amFYTmpieTVqYjIw",
+      "name": "AUTOATTENDANT-TEST 1",
+      "locationName": "Alaska",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzI0NDY5OA",
+      "phoneNumber": "+19705550030",
+      "extension": "1234",
+      "routingPrefix": "1234",
+      "esn": "12340028",
+      "tollFreeNumber": false
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0FVVE9fQVRURU5EQU5UL2QzVjBPWFIxWjJkM2FFQm1iR1Y0TWk1amFYTmpieTVqYjIw",
+      "name": "AUTOATTENDANT-TEST 2",
+      "locationName": "Houston",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzI2NDE1MA",
+      "phoneNumber": "+17135551001",
+      "extension": "1001",
+      "routingPrefix": "1234",
+      "esn": "12340028",
+      "tollFreeNumber": false
+    }
+  ]
+}
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -59,6 +114,9 @@ Retrieving this list requires a full or read-only administrator or location admi
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

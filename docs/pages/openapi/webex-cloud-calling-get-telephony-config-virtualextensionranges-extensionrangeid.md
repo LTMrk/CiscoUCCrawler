@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-virtualextensionranges-extensionrangeid
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualExtensionRanges/{extensionRangeId}
+operation_id: Get details of a Virtual Extension Range
+tags: Features: Virtual Extensions
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.620369+00:00
+retrieved_at: 2026-08-18T23:45:43.328995+00:00
 ---
 
 # GET /telephony/config/virtualExtensionRanges/{extensionRangeId}
@@ -26,16 +31,37 @@ This works in both Standard and Enhanced modes
 Retrieving a virtual extension range requires a full or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `extensionRangeId` [path] (string) **(requerido)**: ID of the virtual extension range.
+- `extensionRangeId` [path] (string) (**requerido**): ID of the virtual extension range.
 - `orgId` [query] (string): Unique identifier for the organization.
 
-## Respuestas
-- **200**: OK
-  - `id` (string) **(requerido)**: ID of the virtual extension range.
-  - `name` (string) **(requerido)**: Name of the virtual extension range. This is a unique name for the virtual extension range.
-  - `prefix` (string) **(requerido)**: Prefix used for a virtual extension range. Prefix works in Standard and Enhanced modes. In Standard mode, it must be E.164 and it must be unique. In Enhanced mode, it can be E.164 or non-E.164.
-  - `patterns` (array) **(requerido)**: List of virtual extension patterns. The maximum number of patterns supported at a time is 100. Extension patterns can include one or more right-justified wildcards “X” matching any digit.
-  - `locationName` (string): Name of the location to which the virtual extension range is assigned. This is set only for virtual extension ranges at the location level.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/virtualExtensionRanges/<extensionRangeId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string) (**requerido**): ID of the virtual extension range.
+- `name` (string) (**requerido**): Name of the virtual extension range. This is a unique name for the virtual extension range.
+- `prefix` (string) (**requerido**): Prefix used for a virtual extension range. Prefix works in Standard and Enhanced modes. In Standard mode, it must be E.164 and it must be unique. In Enhanced mode, it can be E.164 or non-E.164.
+- `patterns` (array) (**requerido**): List of virtual extension patterns. The maximum number of patterns supported at a time is 100. Extension patterns can include one or more right-justified wildcards “X” matching any digit.
+- `locationName` (string): Name of the location to which the virtual extension range is assigned. This is set only for virtual extension ranges at the location level.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1ZJUlRVQUxfRVhURU5TSU9OX1JBTkdFLzk0OThkMTE0LWMwMGMtNGZkNC1iMTk5LWU4ODQ2N2UwNzVkNw",
+  "name": "SalesVirtualExtensionRange",
+  "prefix": "+14089",
+  "patterns": [
+    "12XXXX"
+  ],
+  "locationName": "Sales"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -51,6 +77,9 @@ Retrieving a virtual extension range requires a full or read-only administrator 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

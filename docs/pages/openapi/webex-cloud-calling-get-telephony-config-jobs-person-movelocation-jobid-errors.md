@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-jobs-person-movelocation-jobid-errors
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/jobs/person/moveLocation/{jobId}/errors
+operation_id: listMoveUsersJobErrors
+tags: User Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.643640+00:00
+retrieved_at: 2026-08-18T23:45:43.370739+00:00
 ---
 
 # GET /telephony/config/jobs/person/moveLocation/{jobId}/errors
@@ -23,23 +28,62 @@ Lists all error details of Move Users job. This will not list any errors if `exi
 This API requires a full or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `jobId` [path] (string) **(requerido)**: Retrieve the error details for this `jobId`.
+- `jobId` [path] (string) (**requerido**): Retrieve the error details for this `jobId`.
 - `orgId` [query] (string): Retrieve list of jobs for this organization.
 - `start` [query] (number): Specifies the error offset from the first result that you want to fetch.
-- `max` [query] (number): Specifies the maximum number of records that you want to fetch.
+- `max` [query] (number): Specifies the maximum number of records that you want to fetch. Por defecto: 2000.
 
-## Respuestas
-- **200**: OK
-  - `items` (array):
-    - `item` (string): Phone number
-    - `itemNumber` (number): Index of error number.
-    - `trackingId` (string): Unique identifier to track the HTTP requests.
-    - `error` (object):
-      - `key` (string): HTTP error code.
-      - `message` (array): Message string with further error information.
-        - `description` (string): Error message.
-        - `code` (string): Internal error code.
-        - `locationId` (string): Error messages describing the location ID in which the error occurs. For a move operation, this is the target location ID.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/jobs/person/moveLocation/<jobId>/errors' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array):
+  - `item` (string): Phone number
+  - `itemNumber` (number): Index of error number.
+  - `trackingId` (string): Unique identifier to track the HTTP requests.
+  - `error` (object):
+    - `key` (string): HTTP error code.
+    - `message` (array): Message string with further error information.
+      - `description` (string): Error message.
+      - `code` (string): Internal error code.
+      - `locationId` (string): Error messages describing the location ID in which the error occurs. For a move operation, this is the target location ID.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "itemNumber": 1,
+      "item": "52efdff9-9db6-438d-9b96-638365789353",
+      "error": {
+        "key": "400",
+        "message": [
+          {
+            "description": "[Error 19605] User is assigned services not authorized to the new group: [Basic Call Logs].",
+            "code": "19605",
+            "location": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2U3ZjlmZTQ0LTI3ZjEtNGE2NC04NmJhLTM1NmE0YjUyMTk4ZA"
+          }
+        ]
+      },
+      "trackingId": "NA_097fb6e7-e972-41b3-a9e1-bd5a4a31eb33"
+    }
+  ],
+  "paging": {
+    "next": [],
+    "prev": null,
+    "limit": 50,
+    "offset": 0,
+    "pages": null,
+    "count": 1
+  }
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -55,6 +99,9 @@ This API requires a full or read-only administrator auth token with a scope of `
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

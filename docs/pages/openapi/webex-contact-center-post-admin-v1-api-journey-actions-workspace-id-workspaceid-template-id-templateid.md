@@ -2,10 +2,15 @@
 doc_id: webex-contact-center-post-admin-v1-api-journey-actions-workspace-id-workspaceid-template-id-templateid
 source: webex-openapi-specs/public-spec/webex-contact-center.json
 api: Webex Contact Center
+api_version: 1.0.0
 method: POST
 path: /admin/v1/api/journey-actions/workspace-id/{workspaceId}/template-id/{templateId}
+operation_id: createJourneyActionConfiguration
+tags: Journey - Trigger Actions API
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.973023+00:00
+retrieved_at: 2026-08-18T23:45:43.868234+00:00
 ---
 
 # POST /admin/v1/api/journey-actions/workspace-id/{workspaceId}/template-id/{templateId}
@@ -13,6 +18,7 @@ retrieved_at: 2026-08-16T11:30:32.973023+00:00
 **API:** Webex Contact Center
 **Área:** Journey - Trigger Actions API
 **operationId:** `createJourneyActionConfiguration`
+**Autenticación:** bearerAuth
 
 ## Resumen
 Create a new  Journey Action
@@ -57,45 +63,56 @@ Finally, the operator of the template's aggregation mode must match those define
 In this scenario, it is 'GTE' (greater than or equal), which is an accepted value for 'value'.
 
 ## Parámetros
-- `workspaceId` [path] (string) **(requerido)**: Workspace ID
-- `templateId` [path] (string) **(requerido)**: Template ID
+- `workspaceId` [path] (string) (**requerido**): Workspace ID
+- `templateId` [path] (string) (**requerido**): Template ID
 
 ## Cuerpo de la petición (application/json)
-- `name` (string) **(requerido)**: Name
-- `cooldownPeriodInMinutes` (integer): Cooldown Period In Minutes
-- `rules` (object) **(requerido)**: Configuration details of the Rules
+- `name` (string) (**requerido**): Name
+- `cooldownPeriodInMinutes` (integer/int32): Cooldown Period In Minutes
+- `rules` (object) (**requerido**): Configuration details of the Rules
   - `logic` (string): logic
   - `args` (array): Arguments
 - `actionTriggers` (array):
-  - `type` (string) **(requerido)**: Type
+  - `type` (string) (**requerido**): Type
 - `isActive` (boolean): Is Journey Action Configuration Active
 
-## Respuestas
-- **201**: Accepted
-  - `meta` (object): Meta information of the response
-    - `organizationId` (string): Organization ID
-  - `data` (object): Journey Action Configuration Response Model
-    - `createdAt` (string): Created Timestamp
-    - `createdBy` (string): Created By
-    - `updatedAt` (string): Updated Timestamp
-    - `updatedBy` (string): Updated By
-    - `id` (string): Journey Action Id
-    - `name` (string): Journey Action Name
-    - `organizationId` (string): Organization Id
-    - `workspaceId` (string): Workspace Id
-    - `isActive` (boolean): Is Journey Action Configuration Active
-    - `templateId` (string): Profile View Template ID
-    - `cooldownPeriodInMinutes` (integer): Cooldown Period In Minutes
-    - `rules` (object): Configuration details of the Rules based on which the Action will be triggered
+## Ejemplo de invocación
+```bash
+curl -X POST '/admin/v1/api/journey-actions/workspace-id/<workspaceId>/template-id/<templateId>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"name": "<name>", "rules": {}}'
+```
+
+## Respuestas correctas
+**201**: Accepted
+- `meta` (object): Meta information of the response
+  - `organizationId` (string): Organization ID
+- `data` (object): Journey Action Configuration Response Model
+  - `createdAt` (string): Created Timestamp
+  - `createdBy` (string): Created By
+  - `updatedAt` (string): Updated Timestamp
+  - `updatedBy` (string): Updated By
+  - `id` (string): Journey Action Id
+  - `name` (string): Journey Action Name
+  - `organizationId` (string): Organization Id
+  - `workspaceId` (string): Workspace Id
+  - `isActive` (boolean): Is Journey Action Configuration Active
+  - `templateId` (string): Profile View Template ID
+  - `cooldownPeriodInMinutes` (integer/int32): Cooldown Period In Minutes
+  - `rules` (object): Configuration details of the Rules based on which the Action will be triggered
+    - `type` (string): type
+    - `childrenRules` (object): childrenRules
       - `type` (string): type
-      - `childrenRules` (object): childrenRules
-        - `type` (string): type
-    - `actionTriggers` (array):
-      - `type` (string) **(requerido)**: Type
+  - `actionTriggers` (array):
+    - `type` (string) (**requerido**): Type
+
+## Respuestas de error
 - **400**: Bad Request
 - **500**: Internal server error
 
-**Autenticación:** bearerAuth
+## Contexto de la API
+The Webex Contact Center APIs allow developers to deeply integrate, configure, and manage cloud-based contact center solutions. These APIs cover agent lifecycle management, queue and routing configuration, customer journey tracking, and access to real-time and historical analytics. Use cases include embedding agent controls in custom UIs, automating workforce management, integrating with CRM and ticketing systems, and building custom reporting dashboards. The APIs empower organizations to deliver personalized, efficient customer experiences and optimize contact center operations.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

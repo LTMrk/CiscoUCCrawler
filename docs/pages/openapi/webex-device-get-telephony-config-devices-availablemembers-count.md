@@ -2,10 +2,15 @@
 doc_id: webex-device-get-telephony-config-devices-availablemembers-count
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: GET
 path: /telephony/config/devices/availableMembers/count
+operation_id: getCountOfAvailableMembers
+tags: Device Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.125148+00:00
+retrieved_at: 2026-08-18T23:45:44.190086+00:00
 ---
 
 # GET /telephony/config/devices/availableMembers/count
@@ -30,13 +35,28 @@ This requires a full or read-only administrator auth token with a scope of `spar
 - `phoneNumber` [query] (string): Search (Contains) based on number.
 - `locationId` [query] (string): Unique identifier for the location.
 - `extension` [query] (string): Search (Contains) based on extension.
-- `usageType` [query] (string): Search for members eligible to become the owner of the device, or share line on the device.  * `DEVICE_OWNER` - Search for members eligible to become the owner of the device.  * `SHARED_LINE` - Search for members eligible to share line on the device.
+- `usageType` [query] (string): Search for members eligible to become the owner of the device, or share line on the device.  * `DEVICE_OWNER` - Search for members eligible to become the owner of the device.  * `SHARED_LINE` - Search for members eligible to share line on the device. Valores: DEVICE_OWNER, SHARED_LINE.
 - `excludeVirtualLine` [query] (boolean): If true, filters out virtual lines from the available members list.
 - `deviceLocationId` [query] (string): Unique identifier for the device's location. When specified, filters available members to those in the same location as the device.
 
-## Respuestas
-- **200**: OK
-  - `totalCount` (integer) **(requerido)**: The total count of members that can be assigned to devices.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/devices/availableMembers/count' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `totalCount` (integer) (**requerido**): The total count of members that can be assigned to devices.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "totalCount": 100
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -52,6 +72,9 @@ This requires a full or read-only administrator auth token with a scope of `spar
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-messaging-get-rooms-roomid
 source: webex-openapi-specs/public-spec/webex-messaging.json
 api: Webex Messaging
+api_version: 1.0.0
 method: GET
 path: /rooms/{roomId}
+operation_id: Get Room Details
+tags: Rooms
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.515040+00:00
+retrieved_at: 2026-08-18T23:45:44.812601+00:00
 ---
 
 # GET /rooms/{roomId}
@@ -25,25 +30,54 @@ The `title` of the room for 1:1 rooms will be the display name of the other pers
 Specify the room ID in the `roomId` parameter in the URI.
 
 ## Parámetros
-- `roomId` [path] (string) **(requerido)**: The unique identifier for the room.
+- `roomId` [path] (string) (**requerido**): The unique identifier for the room.
 
-## Respuestas
-- **200**: OK
-  - `id` (string): A unique identifier for the room.
-  - `title` (string): A user-friendly name for the room.
-  - `type` (string): The room type.  * `direct` - 1:1 room.  * `group` - Group room. Valores: direct, group.
-  - `isLocked` (boolean): Whether the room is moderated (locked) or not.
-  - `teamId` (string): The ID for the team with which this room is associated.
-  - `lastActivity` (string): The date and time of the room's last activity.
-  - `creatorId` (string): The ID of the person who created this room.
-  - `created` (string): The date and time the room was created.
-  - `ownerId` (string): The ID of the organization which owns this room. See [Webex Data](/docs/api/guides/compliance#webex-teams-data) in the [Compliance Guide](/docs/api/guides/compliance) for more information.
-  - `classificationId` (string): Space classification ID represents the space's current classification.  It can be attached during space creation time, and can be modified at the request of an authorized user.
-  - `isAnnouncementOnly` (boolean): Indicates when a space is in Announcement Mode where only moderators can post messages
-  - `isReadOnly` (boolean): A compliance officer can set a direct room as read-only, which will disallow any new information exchanges in this space, while maintaing historical data.
-  - `isPublic` (boolean): The room is public and therefore discoverable within the org. Anyone can find and join that room.
-  - `madePublic` (string): Date and time when the room was made public.
-  - `description` (string): The description of the space.
+## Ejemplo de invocación
+```bash
+curl -X GET '/rooms/<roomId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string): A unique identifier for the room.
+- `title` (string): A user-friendly name for the room.
+- `type` (string): The room type.  * `direct` - 1:1 room.  * `group` - Group room. Valores: direct, group.
+- `isLocked` (boolean): Whether the room is moderated (locked) or not.
+- `teamId` (string): The ID for the team with which this room is associated.
+- `lastActivity` (string): The date and time of the room's last activity.
+- `creatorId` (string): The ID of the person who created this room.
+- `created` (string): The date and time the room was created.
+- `ownerId` (string): The ID of the organization which owns this room. See [Webex Data](/docs/api/guides/compliance#webex-teams-data) in the [Compliance Guide](/docs/api/guides/compliance) for more information.
+- `classificationId` (string): Space classification ID represents the space's current classification.  It can be attached during space creation time, and can be modified at the request of an authorized user.
+- `isAnnouncementOnly` (boolean): Indicates when a space is in Announcement Mode where only moderators can post messages
+- `isReadOnly` (boolean): A compliance officer can set a direct room as read-only, which will disallow any new information exchanges in this space, while maintaing historical data.
+- `isPublic` (boolean): The room is public and therefore discoverable within the org. Anyone can find and join that room.
+- `madePublic` (string): Date and time when the room was made public.
+- `description` (string): The description of the space.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1JPT00vYmJjZWIxYWQtNDNmMS0zYjU4LTkxNDctZjE0YmIwYzRkMTU0",
+  "title": "Project Unicorn - Sprint 0",
+  "type": "group",
+  "isLocked": true,
+  "teamId": "Y2lzY29zcGFyazovL3VzL1JPT00vNjRlNDVhZTAtYzQ2Yi0xMWU1LTlkZjktMGQ0MWUzNDIxOTcz",
+  "lastActivity": "2016-04-21T19:12:48.920Z",
+  "creatorId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9mNWIzNjE4Ny1jOGRkLTQ3MjctOGIyZi1mOWM0NDdmMjkwNDY",
+  "created": "2016-04-21T19:01:55.966Z",
+  "ownerId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi85NmFiYzJhYS0zZGNjLTExZTUtYTE1Mi1mZTM0ODE5Y2RjOWE",
+  "classificationId": "Y2lzY29zcGFyazovL3VzL0NMQVNTSUZJQ0FUSU9OL2YyMDUyZTgyLTU0ZjgtMTFlYS1hMmUzLTJlNzI4Y2U4ODEyNQ",
+  "isAnnouncementOnly": false,
+  "isReadOnly": false,
+  "isPublic": true,
+  "madePublic": "2022-10-10T17:24:19.388Z",
+  "description": "Company Announcements"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -59,6 +93,9 @@ Specify the room ID in the `roomId` parameter in the URI.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Messaging APIs offer robust programmatic access to messaging features within Webex, including sending and receiving messages, managing spaces, memberships, attachments, and moderating content. These APIs enable integration with bots, workflow automation, notification systems, and custom messaging solutions to enhance team collaboration and productivity. Use cases include building chatbots, integrating with ticketing or alerting platforms, automating onboarding flows, and creating custom collaboration experiences tailored to business needs.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

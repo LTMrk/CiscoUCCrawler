@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-announcements-announcementid
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/announcements/{announcementId}
+operation_id: Fetch details of a binary announcement greeting at the organization level
+tags: Features: Announcement Repository
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.595120+00:00
+retrieved_at: 2026-08-18T23:45:43.284445+00:00
 ---
 
 # GET /telephony/config/announcements/{announcementId}
@@ -25,31 +30,75 @@ An admin can upload a file at an organization level. This file will be uploaded 
 This API requires a full or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `announcementId` [path] (string) **(requerido)**: Unique identifier of an announcement.
+- `announcementId` [path] (string) (**requerido**): Unique identifier of an announcement.
 - `orgId` [query] (string): Get an announcement in this organization.
 
-## Respuestas
-- **200**: OK
-  - `id` (string) **(requerido)**: Unique identifier of the announcement.
-  - `name` (string) **(requerido)**: Name of the announcement.
-  - `fileName` (string): File name of the uploaded binary announcement greeting.
-  - `fileSize` (string) **(requerido)**: Size of the file in kilobytes.
-  - `mediaFileType` (string) **(requerido)**: Media file type of the announcement file.
-  - `lastUpdated` (string) **(requerido)**: Last updated timestamp (in UTC format) of the announcement.
-  - `featureReferenceCount` (number) **(requerido)**: Reference count of the call features this announcement is assigned to.
-  - `featureReferences` (array): Call features referenced by this announcement.
-    - `id` (string) **(requerido)**: Unique identifier of the call feature referenced. The call Feature can be Auto Attendant, Call Queue or Music On hold.
-    - `name` (string) **(requerido)**: Name of the call feature referenced.
-    - `type` (string) **(requerido)**: Resource Type of the call feature.
-    - `locationId` (string) **(requerido)**: Unique identifier of the location.
-    - `locationName` (string) **(requerido)**: Location name of the announcement file.
-  - `playlists` (array): List of playlist available for selection.
-    - `id` (string) **(requerido)**: A unique identifier for the playlist.
-    - `name` (string) **(requerido)**: Unique name for the playlist.
-  - `isTextToSpeech` (boolean): Indicates whether the announcement is text-to-speech.
-  - `voice` (string): Voice used for text-to-speech announcement.
-  - `language` (string): Language code for the text-to-speech announcement.
-  - `text` (string): Text content for text-to-speech announcement.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/announcements/<announcementId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string) (**requerido**): Unique identifier of the announcement.
+- `name` (string) (**requerido**): Name of the announcement.
+- `fileName` (string): File name of the uploaded binary announcement greeting.
+- `fileSize` (string) (**requerido**): Size of the file in kilobytes.
+- `mediaFileType` (string) (**requerido**): Media file type of the announcement file.
+- `lastUpdated` (string) (**requerido**): Last updated timestamp (in UTC format) of the announcement.
+- `featureReferenceCount` (number) (**requerido**): Reference count of the call features this announcement is assigned to.
+- `featureReferences` (array): Call features referenced by this announcement.
+  - `id` (string) (**requerido**): Unique identifier of the call feature referenced. The call Feature can be Auto Attendant, Call Queue or Music On hold.
+  - `name` (string) (**requerido**): Name of the call feature referenced.
+  - `type` (string) (**requerido**): Resource Type of the call feature.
+  - `locationId` (string) (**requerido**): Unique identifier of the location.
+  - `locationName` (string) (**requerido**): Location name of the announcement file.
+- `playlists` (array): List of playlist available for selection.
+  - `id` (string) (**requerido**): A unique identifier for the playlist.
+  - `name` (string) (**requerido**): Unique name for the playlist.
+- `isTextToSpeech` (boolean): Indicates whether the announcement is text-to-speech.
+- `voice` (string): Voice used for text-to-speech announcement.
+- `language` (string): Language code for the text-to-speech announcement.
+- `text` (string): Text content for text-to-speech announcement.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC8zMjAxNjRmNC1lNWEzLTQxZmYtYTMyNi02N2MwOThlNDFkMWQ",
+  "name": "Public_Announcement",
+  "fileName": "Sample_Greetings_file.wav",
+  "fileSize": "356",
+  "mediaFileType": "WAV",
+  "lastUpdated": "2022-02-22 22:27:54Z",
+  "featureReferenceCount": 1,
+  "featureReferences": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0FVVE9fQVRURU5EQU5UL2J6QjJlRGd6Ym1GeU5rQm1iR1Y0TWk1amFYTmpieTVqYjIw",
+      "name": "AUTO_ATTENDANT",
+      "type": "WAV",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzEyMzQ1",
+      "locationName": "RCDN"
+    }
+  ],
+  "playlists": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC9iYzZjOTYwYi01ZDJjLTRiM2QtYjRlZC0wNWY1ZmFhMTJjZjA",
+      "name": "testingAnnouncementPlaylist"
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC80MzA1ZTYyZS1hMmIxLTRlNzktODQxMy1lYWQwZDVlYjcwNjM",
+      "name": "testingAnnouncementPlaylistDuplicateFiles"
+    }
+  ],
+  "isTextToSpeech": false,
+  "voice": "en-US-Neural2-A",
+  "language": "en-US",
+  "text": "Welcome to our service. Please hold while we connect you."
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -65,6 +114,9 @@ This API requires a full or read-only administrator auth token with a scope of `
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

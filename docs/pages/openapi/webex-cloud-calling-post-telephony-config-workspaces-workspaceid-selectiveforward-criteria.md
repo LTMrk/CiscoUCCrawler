@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-workspaces-workspaceid-selectiveforward-criteria
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/workspaces/{workspaceId}/selectiveForward/criteria
+operation_id: Create Selective Forward Criteria for a Workspace
+tags: Workspace Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.675914+00:00
+retrieved_at: 2026-08-18T23:45:43.419298+00:00
 ---
 
 # POST /telephony/config/workspaces/{workspaceId}/selectiveForward/criteria
@@ -28,7 +33,7 @@ This API requires a full, user or location administrator auth token with the `sp
 **NOTE**: This API is only available for professional licensed workspaces.
 
 ## Parámetros
-- `workspaceId` [path] (string) **(requerido)**: Unique identifier for the workspace.
+- `workspaceId` [path] (string) (**requerido**): Unique identifier for the workspace.
 - `orgId` [query] (string): ID of the organization within which the workspace resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access the API.
 
 ## Cuerpo de la petición (application/json)
@@ -37,13 +42,13 @@ This API requires a full, user or location administrator auth token with the `sp
 - `scheduleName` (string): Name of the location's schedule which determines when the selective forward is in effect.
 - `scheduleType` (string): * `businessHours` - The Schedule type that specifies the business or working hours during the day.  * `holidays` - The Schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
 - `scheduleLevel` (string): * `GROUP` - Indicates the schedule level that specifies that criteria is of Group level. Valores: GROUP.
-- `callsFrom` (string) **(requerido)**: * `ANY_PHONE_NUMBER` - The schedule applies to any phone number.  * `SELECT_PHONE_NUMBERS` - The schedule applies to select phone number defined in the `phoneNumbers` property.  * `ANY_INTERNAL` - The schedule applies to any internal phone number.  * `ANY_EXTERNAL` - The schedule applies to any external phone number. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, ANY_INTERNAL, ANY_EXTERNAL.
+- `callsFrom` (string) (**requerido**): * `ANY_PHONE_NUMBER` - The schedule applies to any phone number.  * `SELECT_PHONE_NUMBERS` - The schedule applies to select phone number defined in the `phoneNumbers` property.  * `ANY_INTERNAL` - The schedule applies to any internal phone number.  * `ANY_EXTERNAL` - The schedule applies to any external phone number. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, ANY_INTERNAL, ANY_EXTERNAL.
 - `anonymousCallersEnabled` (boolean): When `true`, enables selective forward to calls from anonymous callers.
 - `unavailableCallersEnabled` (boolean): When `true`, enables selective forward to calls if the callers are unavailable.
 - `numbers` (array): List of phone numbers checked against incoming calls for a match.
 - `forwardEnabled` (boolean): Indicates whether the calls, that fit within these parameters, will be forwarded (if forwardEnabled = `true`) or not (if forwardEnabled = `false`).
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "forwardToPhoneNumber": "+1934898988",
@@ -62,9 +67,26 @@ This API requires a full, user or location administrator auth token with the `sp
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `id` (string) **(requerido)**: Unique identifier for the newly created criteria.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/workspaces/<workspaceId>/selectiveForward/criteria' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"callsFrom": "<callsFrom>"}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `id` (string) (**requerido**): Unique identifier for the newly created criteria.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL0NSSVRFUklBLzg2NTAxZDFlLTg1MWMtNDgwYi1hZmE2LTA5MTU4NzQ3NzdmZQ"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -80,6 +102,9 @@ This API requires a full, user or location administrator auth token with the `sp
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

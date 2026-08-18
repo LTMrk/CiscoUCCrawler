@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-aireceptionists-templates
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/aiReceptionists/templates
+operation_id: listAiReceptionistTemplates
+tags: AI Receptionist for Webex Calling, AI Receptionist
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.547522+00:00
+retrieved_at: 2026-08-18T23:45:43.152465+00:00
 ---
 
 # GET /telephony/config/aiReceptionists/templates
@@ -29,12 +34,33 @@ This API requires a full or read-only administrator auth token with a scope of `
 ## Parámetros
 - `orgId` [query] (string): Optional target organization identifier. Defaults to token's organization if not provided.
 
-## Respuestas
-- **200**: OK
-  - `defaultTransparencyMessage` (string) **(requerido)**: Default transparency disclosure message for AI Receptionist. This message explicitly informs callers they are interacting with an AI system, ensuring compliance with EU AI Act transparency obligations for Limited Risk AI systems.
-  - `templates` (array): List of AI Receptionist templates.
-    - `id` (string) **(requerido)**: Unique identifier for the AI receptionist template.
-    - `name` (string) **(requerido)**: Name of the AI Receptionist template.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/aiReceptionists/templates' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `defaultTransparencyMessage` (string) (**requerido**): Default transparency disclosure message for AI Receptionist. This message explicitly informs callers they are interacting with an AI system, ensuring compliance with EU AI Act transparency obligations for Limited Risk AI systems.
+- `templates` (array): List of AI Receptionist templates.
+  - `id` (string) (**requerido**): Unique identifier for the AI receptionist template.
+  - `name` (string) (**requerido**): Name of the AI Receptionist template.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "defaultTransparencyMessage": "Hi, I’m an AI receptionist. This interaction may be recorded and transcribed for troubleshooting purposes.",
+  "templates": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1RFTVBMQVRFL2EyYjNjNDU2LTc4OTAtMTIzNC01Njc4LTkwYWJjZGVmMTIzNA",
+      "name": "Clinic"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -50,6 +76,9 @@ This API requires a full or read-only administrator auth token with a scope of `
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

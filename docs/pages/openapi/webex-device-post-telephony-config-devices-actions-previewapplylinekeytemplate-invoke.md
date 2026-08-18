@@ -2,10 +2,15 @@
 doc_id: webex-device-post-telephony-config-devices-actions-previewapplylinekeytemplate-invoke
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: POST
 path: /telephony/config/devices/actions/previewApplyLineKeyTemplate/invoke
+operation_id: previewApplyLineKeyTemplate
+tags: Device Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.128418+00:00
+retrieved_at: 2026-08-18T23:45:44.196054+00:00
 ---
 
 # POST /telephony/config/devices/actions/previewApplyLineKeyTemplate/invoke
@@ -30,8 +35,8 @@ Retrieving the number of devices affected requires a full administrator auth tok
 - `orgId` [query] (string): Preview Line Key Template for this organization.
 
 ## Cuerpo de la petición (application/json)
-- `action` (string) **(requerido)**: Line key Template action to perform.  * `APPLY_TEMPLATE` - Used to apply LinekeyTemplate to devices.  * `APPLY_DEFAULT_TEMPLATES` - Used to reset devices to its default Linekey Template configurations. Valores: APPLY_TEMPLATE, APPLY_DEFAULT_TEMPLATES.
-- `templateId` (string) **(requerido)**: `templateId` is required for `APPLY_TEMPLATE` action.
+- `action` (string) (**requerido**): Line key Template action to perform.  * `APPLY_TEMPLATE` - Used to apply LinekeyTemplate to devices.  * `APPLY_DEFAULT_TEMPLATES` - Used to reset devices to its default Linekey Template configurations. Valores: APPLY_TEMPLATE, APPLY_DEFAULT_TEMPLATES.
+- `templateId` (string) (**requerido**): `templateId` is required for `APPLY_TEMPLATE` action.
 - `locationIds` (array): Used to search for devices only in the given locations.
 - `excludeDevicesWithCustomLayout` (boolean): Indicates whether to exclude devices with custom layout.
 - `includeDeviceTags` (array): Include devices only with these tags.
@@ -43,7 +48,7 @@ Retrieving the number of devices affected requires a full administrator auth tok
   - `moreCPEAppearancesEnabled` (boolean): Refine search to apply changes to devices that contain the warning "More call park extension line appearances than call park extensions in user's monitoring list".
   - `moreModeManagementAppearancesEnabled` (boolean): Refine search to apply changes to devices that contain the warning "More mode management lines configured for the device". The default value is false.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "action": "APPLY_TEMPLATE",
@@ -69,9 +74,26 @@ Retrieving the number of devices affected requires a full administrator auth tok
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `deviceCount` (number) **(requerido)**: Number of devices affected.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/devices/actions/previewApplyLineKeyTemplate/invoke' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"action": "<action>", "templateId": "<templateId>"}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `deviceCount` (number) (**requerido**): Number of devices affected.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "deviceCount": 3
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -87,6 +109,9 @@ Retrieving the number of devices affected requires a full administrator auth tok
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

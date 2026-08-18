@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-ip-phone-8851-218093-configure-debug-level-in-mpp-phones-regi-ffbe67b7c9
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8851/218093-configure-debug-level-in-mpp-phones-regi.html
-retrieved_at: 2026-08-17T01:12:58.999848+00:00
+retrieved_at: 2026-08-18T23:47:22.473108+00:00
 ---
 
 Configure Debug Level in MPP Phones Registered in Webex Calling
@@ -36,7 +36,7 @@ Cisco recommends that you have knowledge of these topics:
 
 The information in this document is based on these software versions:
 
-- Cisco 8851 IP Phone - MPP Firmware 11.3.7
+- Cisco 8851 IP Phone - MPP Firmware 12.0.7
 
 The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
 
@@ -48,9 +48,9 @@ When an MPP Phone has a problem or error, the log level must be set in Debug bef
 
 In order to correctly configure the log level, navigate to Control Hub > Devices and select the device that has the issue. Confirm that the device shows Online :
 
-On the Device Page, navigate to the Device Management section and select Device Settings.
+On the Device Page, navigate to the Configurations section and select All Configurations.
 
-On Device Settings , confirm that Default Logging Level is set to Debugging and select Save.
+On All configurations , confirm that Default Logging Level is set to DEBUG and select Save.
 
 Note : In order for the changes to take place, reset the device so that it downloads the updated configuration file.
 

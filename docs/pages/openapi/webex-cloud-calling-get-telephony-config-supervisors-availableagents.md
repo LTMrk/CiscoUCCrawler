@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-supervisors-availableagents
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/supervisors/availableAgents
+operation_id: listAvailableCallQueueAgents
+tags: Features:  Call Queue
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.606765+00:00
+retrieved_at: 2026-08-18T23:45:43.305036+00:00
 ---
 
 # GET /telephony/config/supervisors/availableAgents
@@ -15,7 +20,7 @@ retrieved_at: 2026-08-16T11:30:32.606765+00:00
 **operationId:** `listAvailableCallQueueAgents`
 
 ## Resumen
-List Available Agents with Customer Assist
+List Available Agents for Call Queue or Customer Assist
 
 ## Descripción
 Get list of available agents for an organization.
@@ -33,18 +38,54 @@ This operation requires a full, user or read-only administrator auth token with 
 - `order` [query] (string): Sort results alphabetically by supervisor name, in ascending or descending order.
 - `hasCxEssentials` [query] (boolean): Returns only the list of available agents with Customer Assist license, when `true`. When ommited or set to `false`, will return the list of available agents with Customer Experience Basic license.
 
-## Respuestas
-- **200**: OK
-  - `agents` (array) **(requerido)**: Array of agents assigned to a specific supervisor.
-    - `id` (string) **(requerido)**: A unique identifier for the agent.
-    - `firstName` (string): First name of the agent.
-    - `lastName` (string): Last name of the agent.
-    - `displayName` (string): (string, optional) - Display name of the agent.
-    - `phoneNumber` (string): Primary phone number of the agent.
-    - `extension` (string): Primary phone extension of the agent.
-    - `routingPrefix` (string): Routing prefix of location.
-    - `esn` (string): Routing prefix + extension of a person.
-    - `type` (string) **(requerido)**: * `PEOPLE` - The associated member is a person.  * `PLACE` - The associated member is a workspace.  * `VIRTUAL_LINE` - The associated member is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/supervisors/availableAgents' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `agents` (array) (**requerido**): Array of agents assigned to a specific supervisor.
+  - `id` (string) (**requerido**): A unique identifier for the agent.
+  - `firstName` (string): First name of the agent.
+  - `lastName` (string): Last name of the agent.
+  - `displayName` (string): (string, optional) - Display name of the agent.
+  - `phoneNumber` (string): Primary phone number of the agent.
+  - `extension` (string): Primary phone extension of the agent.
+  - `routingPrefix` (string): Routing prefix of location.
+  - `esn` (string): Routing prefix + extension of a person.
+  - `type` (string) (**requerido**): * `PEOPLE` - The associated member is a person.  * `PLACE` - The associated member is a workspace.  * `VIRTUAL_LINE` - The associated member is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "agents": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9jZGUzZWU0YS02ZDI5LTQ3OGItOGU5MC00MmE3YWFlNWIzNTE",
+      "lastName": "CP-WS",
+      "firstName": "CP-WS-1",
+      "displayName": "CP-WS-1 .",
+      "extension": "1248",
+      "esn": "1248",
+      "type": "PLACE"
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9hZWRlNmE0OS00NmNkLTQ4NWQtODQyZC1kY2ZmNTg4ZmQyMTU",
+      "lastName": "CP-WS",
+      "firstName": "CP-WS-6",
+      "displayName": "CP-WS-6 .",
+      "extension": "7539",
+      "esn": "7539",
+      "routingPrefix": "34543",
+      "phoneNumber": "+19729989982",
+      "type": "PEOPLE"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -60,6 +101,9 @@ This operation requires a full, user or read-only administrator auth token with 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

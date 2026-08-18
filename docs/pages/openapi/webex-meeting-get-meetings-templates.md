@@ -2,10 +2,15 @@
 doc_id: webex-meeting-get-meetings-templates
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: GET
 path: /meetings/templates
+operation_id: listTemplates
+tags: Meetings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.395208+00:00
+retrieved_at: 2026-08-18T23:45:44.482833+00:00
 ---
 
 # GET /meetings/templates
@@ -29,23 +34,85 @@ There are separate lists of meeting templates for different `templateType`, `loc
 * If the parameter `siteUrl` has a value, the operation lists meeting templates on the specified site; otherwise, lists meeting templates on the user's preferred site. All available Webex sites and preferred site of the user can be retrieved by `Get Site List` API.
 
 ## Parámetros
-- `templateType` [query] (string): Meeting template type for the meeting template objects being requested. If not specified, return meeting templates of all types.
+- `templateType` [query] (string): Meeting template type for the meeting template objects being requested. If not specified, return meeting templates of all types. Valores: meeting, webinar.
 - `locale` [query] (string): Locale for the meeting template objects being requested. If not specified, return meeting templates of the default `en_US` locale. Refer to [Meeting Template Locales](/docs/meetings#meeting-template-locales) for all the locales supported by Webex.
 - `isDefault` [query] (boolean): The value is `true` or `false`. If it's `true`, return the default meeting templates; if it's `false`, return the non-default meeting templates. If it's not specified, return both default and non-default meeting templates.
 - `isStandard` [query] (boolean): The value is `true` or `false`. If it's `true`, return the standard meeting templates; if it's `false`, return the non-standard meeting templates. If it's not specified, return both standard and non-standard meeting templates.
 - `hostEmail` [query] (string): Email address for the meeting host. This parameter is only used if the user or application calling the API has the admin-level scopes. If set, the admin may specify the email of a user in a site they manage and the API will return meeting templates that are available for that user.
 - `siteUrl` [query] (string): URL of the Webex site which the API lists meeting templates from. If not specified, the API lists meeting templates from user's preferred site. All available Webex sites and preferred site of the user can be retrieved by `Get Site List` API.
 
-## Respuestas
-- **200**: OK
-  - `items` (array): Meeting templates array.
-    - `id` (string) **(requerido)**: Unique identifier for meeting template.
-    - `name` (string) **(requerido)**: Meeting template name.
-    - `locale` (string) **(requerido)**: Meeting template locale.
-    - `siteUrl` (string) **(requerido)**: Site URL for the meeting template.
-    - `templateType` (string) **(requerido)**: Meeting template type.  * `meeting` - Webex meeting.  * `webinar` - Webex webinar. Valores: meeting, webinar.
-    - `isDefault` (boolean) **(requerido)**: Whether or not the meeting template is a default template.
-    - `isStandard` (boolean) **(requerido)**: Whether or not the meeting template is a standard template.
+## Ejemplo de invocación
+```bash
+curl -X GET '/meetings/templates' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): Meeting templates array.
+  - `id` (string) (**requerido**): Unique identifier for meeting template.
+  - `name` (string) (**requerido**): Meeting template name.
+  - `locale` (string) (**requerido**): Meeting template locale.
+  - `siteUrl` (string) (**requerido**): Site URL for the meeting template.
+  - `templateType` (string) (**requerido**): Meeting template type.  * `meeting` - Webex meeting.  * `webinar` - Webex webinar. Valores: meeting, webinar.
+  - `isDefault` (boolean) (**requerido**): Whether or not the meeting template is a default template.
+  - `isStandard` (boolean) (**requerido**): Whether or not the meeting template is a standard template.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "N2Q3ZWE1ZjQyYjkyMWVhY2UwNTM4NmNhMjRhZDczMGU6VS0yMDA5NzItTUMtZW5fVVM",
+      "name": "Meeting template 1",
+      "locale": "en_US",
+      "siteUrl": "site4-example.webex.com",
+      "templateType": "meeting",
+      "isDefault": false,
+      "isStandard": false
+    },
+    {
+      "id": "N2Q3ZWE1ZjQyYjkyMWVhY2UwNTM4NmNhMjRhZDczMGU6VS0yMDA5NjctTUMtZW5fVVMtTA",
+      "name": "Meeting template 2",
+      "locale": "en_US",
+      "siteUrl": "site4-example.webex.com",
+      "templateType": "meeting",
+      "isDefault": false,
+      "isStandard": true
+    },
+    {
+      "id": "N2Q3ZWE1ZjQyYjkyMWVhY2UwNTM4NmNhMjRhZDczMGU6Ry0wLU1DLWVuX1VT",
+      "name": "Webex Meetings Default",
+      "locale": "en_US",
+      "siteUrl": "site4-example.webex.com",
+      "templateType": "meeting",
+      "isDefault": true,
+      "isStandard": true
+    },
+    {
+      "id": "N2Q3ZWE1ZjQyYjkyMWVhY2UwNTM4NmNhMjRhZDczMGU6VS0yMDA1NjctTUMtZW5fVVMtTA",
+      "name": "Webinar template 1",
+      "locale": "en_US",
+      "siteUrl": "site4-example.webex.com",
+      "templateType": "webinar",
+      "isDefault": false,
+      "isStandard": false
+    },
+    {
+      "id": "N2Q3ZWE1ZjQyYjkyMWVhY2UwNTM4NmNhMjRhZDczMGU6VS0yMDA4NzctTUMtZW5fVVMtTA",
+      "name": "Webinar template 2",
+      "locale": "en_US",
+      "siteUrl": "site4-example.webex.com",
+      "templateType": "webinar",
+      "isDefault": false,
+      "isStandard": false
+    },
+    {
+      "id": "N2Q3ZWE1ZjQyYjkyMWVhY2UwNTM4NmNhM
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -61,6 +128,9 @@ There are separate lists of meeting templates for different `templateType`, `loc
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-people-me-settings-executive-assistant
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/people/me/settings/executive/assistant
+operation_id: getMyExecutiveAssistantSettings
+tags: Call Settings For Me
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.562920+00:00
+retrieved_at: 2026-08-18T23:45:43.180253+00:00
 ---
 
 # GET /telephony/config/people/me/settings/executive/assistant
@@ -25,17 +30,43 @@ Assistants can also set the call forwarding destination, and join or leave an ex
 
 This API requires a user auth token with a scope of `spark:telephony_config_read`.
 
-## Respuestas
-- **200**: OK
-  - `forwardFilteredCallsEnabled` (boolean) **(requerido)**: If `true`, filtered calls to assistant are forwarded to the `forwardToPhoneNumber`.
-  - `forwardToPhoneNumber` (string): Phone number to forward calls to when `forwardFilteredCallsEnabled` is set to `true`.
-  - `executives` (array): List of executives for whom person is assigned as assistant.
-    - `id` (string) **(requerido)**: Unique identifier of the executive.
-    - `firstName` (string): Unicode first name of the executive. Is null if not available or if the name is a single ‘.’ or ‘-’.
-    - `lastName` (string): Unicode last name of the executive. Is null if not available or if the name is a single ‘.’ or ‘-’.
-    - `directNumber` (string) **(requerido)**: Direct number of the executive.
-    - `extension` (string) **(requerido)**: Extension number of the executive.
-    - `optInEnabled` (boolean) **(requerido)**: If `true`, the assistant has opted in to handle calls for the executive.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/people/me/settings/executive/assistant' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `forwardFilteredCallsEnabled` (boolean) (**requerido**): If `true`, filtered calls to assistant are forwarded to the `forwardToPhoneNumber`.
+- `forwardToPhoneNumber` (string): Phone number to forward calls to when `forwardFilteredCallsEnabled` is set to `true`.
+- `executives` (array): List of executives for whom person is assigned as assistant.
+  - `id` (string) (**requerido**): Unique identifier of the executive.
+  - `firstName` (string): Unicode first name of the executive. Is null if not available or if the name is a single ‘.’ or ‘-’.
+  - `lastName` (string): Unicode last name of the executive. Is null if not available or if the name is a single ‘.’ or ‘-’.
+  - `directNumber` (string) (**requerido**): Direct number of the executive.
+  - `extension` (string) (**requerido**): Extension number of the executive.
+  - `optInEnabled` (boolean) (**requerido**): If `true`, the assistant has opted in to handle calls for the executive.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "forwardFilteredCallsEnabled": true,
+  "forwardToPhoneNumber": "+14155551234",
+  "executives": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS8zZWQzNDg0MS0yZTkwLTQ4OGEtYmVmZi1iNTk0OTA1ODFkNWM",
+      "firstName": "John",
+      "lastName": "Doe",
+      "directNumber": "+91-6557765419",
+      "extension": "10079",
+      "optInEnabled": true
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -51,6 +82,9 @@ This API requires a user auth token with a scope of `spark:telephony_config_read
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

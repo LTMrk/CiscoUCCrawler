@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-locations-locationid-dectnetworks-dectnetworkid-handsets
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/handsets
+operation_id: Add a Handset to a DECT Network
+tags: DECT Devices Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.545803+00:00
+retrieved_at: 2026-08-18T23:45:43.149202+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/handsets
@@ -27,16 +32,16 @@ Adding a handset to a DECT network requires a full or location administrator aut
 <div><Callout type="warning">Adding or removing handsets to the DECT network in less than 90 seconds may result in base station not having the latest configuration until the base station is rebooted.</Callout></div>
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Add handset in this location.
-- `dectNetworkId` [path] (string) **(requerido)**: A unique identifier for the DECT network.
+- `locationId` [path] (string) (**requerido**): Add handset in this location.
+- `dectNetworkId` [path] (string) (**requerido**): A unique identifier for the DECT network.
 - `orgId` [query] (string): Add handset in this organization.
 
 ## Cuerpo de la petición (application/json)
-- `line1MemberId` (string) **(requerido)**: ID of the member on line1 of the handset. Members can be PEOPLE or PLACE.
+- `line1MemberId` (string) (**requerido**): ID of the member on line1 of the handset. Members can be PEOPLE or PLACE.
 - `line2MemberId` (string): ID of the member on line2 of the handset. Members can be PEOPLE, PLACE, or VIRTUAL_LINE.
-- `customDisplayName` (string) **(requerido)**: Custom display name on the handset. Min and max length supported for the custom display name is 1 and 16 respectively.
+- `customDisplayName` (string) (**requerido**): Custom display name on the handset. Min and max length supported for the custom display name is 1 and 16 respectively.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "line1MemberId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9jODhiZGIwNC1jZjU5LTRjMjMtODQ4OC00NTNhOTE3ZDFlMjk",
@@ -45,8 +50,18 @@ Adding a handset to a DECT network requires a full or location administrator aut
 }
 ```
 
-## Respuestas
-- **201**: Created
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/locations/<locationId>/dectNetworks/<dectNetworkId>/handsets' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"line1MemberId": "<line1MemberId>", "customDisplayName": "<customDisplayName>"}'
+```
+
+## Respuestas correctas
+**201**: Created
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -62,6 +77,9 @@ Adding a handset to a DECT network requires a full or location administrator aut
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

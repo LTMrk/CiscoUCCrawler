@@ -2,10 +2,15 @@
 doc_id: webex-meeting-get-admin-meeting-config-sessiontypes
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: GET
 path: /admin/meeting/config/sessionTypes
+operation_id: List Site Session Types
+tags: Session Types
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.390059+00:00
+retrieved_at: 2026-08-18T23:45:44.472810+00:00
 ---
 
 # GET /admin/meeting/config/sessionTypes
@@ -23,14 +28,44 @@ List session types for a specific site.
 ## Parámetros
 - `siteUrl` [query] (string): URL of the Webex site to query. If siteUrl is not specified, the query will use the default site for the admin's authorization token used to make the call.
 
-## Respuestas
-- **200**: OK
-  - `items` (array): An array of the site's session types.
-    - `id` (string): The ID of the session type.
-    - `shortName` (string): The short name of the session type.
-    - `siteUrl` (string): Site URL for the session type.
-    - `name` (string): The name of the session type.
-    - `type` (string): The meeting type of meeting that you can create with the session type.  * `meeting` - Meeting Center.  * `webinar` - Webinar meeting.  * `privateMeeting` - Private meeting.  * `EventCenter` - Event Center.  * `SupportCenter` - Support Center.  * `TrainCenter` - Training Center. Valores: meeting, webinar, privateMeeting, EventCenter, SupportCenter, TrainCenter.
+## Ejemplo de invocación
+```bash
+curl -X GET '/admin/meeting/config/sessionTypes' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): An array of the site's session types.
+  - `id` (string): The ID of the session type.
+  - `shortName` (string): The short name of the session type.
+  - `siteUrl` (string): Site URL for the session type.
+  - `name` (string): The name of the session type.
+  - `type` (string): The meeting type of meeting that you can create with the session type.  * `meeting` - Meeting Center.  * `webinar` - Webinar meeting.  * `privateMeeting` - Private meeting.  * `EventCenter` - Event Center.  * `SupportCenter` - Support Center.  * `TrainCenter` - Training Center. Valores: meeting, webinar, privateMeeting, EventCenter, SupportCenter, TrainCenter.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "3",
+      "shortName": "PRO",
+      "siteUrl": "example.webex.com",
+      "name": "Pro meeting",
+      "type": "meeting"
+    },
+    {
+      "id": "9",
+      "shortName": "ONS",
+      "siteUrl": "example.webex.com",
+      "name": "Online Event",
+      "type": "EventCenter"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -46,6 +81,9 @@ List session types for a specific site.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

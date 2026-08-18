@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-workspaces-workspaceid-pushtotalk
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/workspaces/{workspaceId}/pushToTalk
+operation_id: Configure Push-to-Talk Settings for a Workspace
+tags: Workspace Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.670161+00:00
+retrieved_at: 2026-08-18T23:45:43.410928+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/pushToTalk
@@ -27,7 +32,7 @@ This API requires a full or user administrator or location administrator auth to
 **NOTE**: This API is only available for professional licensed workspaces.
 
 ## Parámetros
-- `workspaceId` [path] (string) **(requerido)**: Unique identifier for the workspace.
+- `workspaceId` [path] (string) (**requerido**): Unique identifier for the workspace.
 - `orgId` [query] (string): ID of the organization in which the workspace resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access the API.
 
 ## Cuerpo de la petición (application/json)
@@ -36,7 +41,7 @@ This API requires a full or user administrator or location administrator auth to
 - `accessType` (string): * `ALLOW_MEMBERS` - List of people/workspaces that are allowed to use the Push-to-Talk feature to interact with the workspace being configured.  * `BLOCK_MEMBERS` - List of people/workspaces that are disallowed to interact using the Push-to-Talk feature with the workspace being configured. Valores: ALLOW_MEMBERS, BLOCK_MEMBERS.
 - `members` (array): List of people that are allowed or disallowed to interact using the Push-to-Talk feature.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "allowAutoAnswer": true,
@@ -49,8 +54,18 @@ This API requires a full or user administrator or location administrator auth to
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/workspaces/<workspaceId>/pushToTalk' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -66,6 +81,9 @@ This API requires a full or user administrator or location administrator auth to
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

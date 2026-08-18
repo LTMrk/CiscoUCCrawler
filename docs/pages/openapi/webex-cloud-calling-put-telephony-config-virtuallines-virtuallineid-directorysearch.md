@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-virtuallines-virtuallineid-directorysearch
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}/directorySearch
+operation_id: Update Directory Search for a Virtual Line
+tags: Virtual Line Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.656698+00:00
+retrieved_at: 2026-08-18T23:45:43.390679+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/directorySearch
@@ -25,21 +30,31 @@ Virtual line is a capability in Webex Calling that allows administrators to conf
 Updating Directory search for a virtual line requires a full, user, or location administrator auth token with a scope of `spark-admin:telephony_config_write` and `identity:contacts_rw`.
 
 ## Parámetros
-- `virtualLineId` [path] (string) **(requerido)**: Update settings for a virtual line with the matching ID.
+- `virtualLineId` [path] (string) (**requerido**): Update settings for a virtual line with the matching ID.
 - `orgId` [query] (string): Update virtual line settings from this organization.
 
 ## Cuerpo de la petición (application/json)
-- `enabled` (boolean) **(requerido)**: Whether or not the directory search for a virtual line is enabled.
+- `enabled` (boolean) (**requerido**): Whether or not the directory search for a virtual line is enabled.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "enabled": "true"
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/virtualLines/<virtualLineId>/directorySearch' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"enabled": true}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -55,6 +70,9 @@ Updating Directory search for a virtual line requires a full, user, or location 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

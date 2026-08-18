@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-people-me-settings-selectiveforward
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/people/me/settings/selectiveForward
+operation_id: getMySelectiveForwardSettings
+tags: Call Settings For Me With UserHub Phase2
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.572511+00:00
+retrieved_at: 2026-08-18T23:45:43.197217+00:00
 ---
 
 # GET /telephony/config/people/me/settings/selectiveForward
@@ -24,17 +29,43 @@ Selective Call Forward allows you to create customized rules to forward specific
 
 This API requires a user auth token with a scope of `spark:telephony_config_read`.
 
-## Respuestas
-- **200**: Selective Call Forwarding Settings retrieved for the authenticated user.
-  - `enabled` (boolean) **(requerido)**: `true` if the Selective Forward feature is enabled.
-  - `defaultPhoneNumberToForward` (string): The phone number to which calls are forwarded by default when the criteria conditions are met.
-  - `ringReminderEnabled` (boolean): If `true`, a brief tone will be played on the person's phone when a call has been forwarded.
-  - `destinationVoicemailEnabled` (boolean): Indicates whether calls that meet the criteria are forwarded to the destination phone number's voicemail.
-  - `criteria` (array): A list of criteria specifying conditions when selective accept is in effect.
-    - `id` (string) **(requerido)**: Unique identifier for criteria.
-    - `scheduleName` (string) **(requerido)**: Name of the location's schedule which determines when the sequential ring is in effect.
-    - `source` (string) **(requerido)**: * `ALL_NUMBERS` - Criteria applies to all incoming numbers.  * `SPECIFIC_NUMBERS` - Criteria applies only for specific incoming numbers.  * `ANY_INTERNAL` - Criteria applies to all internal incoming numbers.  * `ANY_EXTERNAL` - Criteria applies to all external incoming numbers. Valores: ALL_NUMBERS, SPECIFIC_NUMBERS, ANY_INTERNAL, ANY_EXTERNAL.
-    - `ringEnabled` (boolean) **(requerido)**: When set to `true` sequential ringing is enabled for calls that meet the current criteria. Criteria with `ringEnabled` set to `false` take priority.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/people/me/settings/selectiveForward' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: Selective Call Forwarding Settings retrieved for the authenticated user.
+- `enabled` (boolean) (**requerido**): `true` if the Selective Forward feature is enabled.
+- `defaultPhoneNumberToForward` (string): The phone number to which calls are forwarded by default when the criteria conditions are met.
+- `ringReminderEnabled` (boolean): If `true`, a brief tone will be played on the person's phone when a call has been forwarded.
+- `destinationVoicemailEnabled` (boolean): Indicates whether calls that meet the criteria are forwarded to the destination phone number's voicemail.
+- `criteria` (array): A list of criteria specifying conditions when selective accept is in effect.
+  - `id` (string) (**requerido**): Unique identifier for criteria.
+  - `scheduleName` (string) (**requerido**): Name of the location's schedule which determines when the sequential ring is in effect.
+  - `source` (string) (**requerido**): * `ALL_NUMBERS` - Criteria applies to all incoming numbers.  * `SPECIFIC_NUMBERS` - Criteria applies only for specific incoming numbers.  * `ANY_INTERNAL` - Criteria applies to all internal incoming numbers.  * `ANY_EXTERNAL` - Criteria applies to all external incoming numbers. Valores: ALL_NUMBERS, SPECIFIC_NUMBERS, ANY_INTERNAL, ANY_EXTERNAL.
+  - `ringEnabled` (boolean) (**requerido**): When set to `true` sequential ringing is enabled for calls that meet the current criteria. Criteria with `ringEnabled` set to `false` take priority.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "enabled": true,
+  "defaultPhoneNumberToForward": "+16177817765",
+  "destinationVoicemailEnabled": false,
+  "ringReminderEnabled": false,
+  "criteria": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0NSSVRFUklBL1oxNzU0MzgzODQzNTA5NzY",
+      "scheduleName": "CustomHoliday(Group)",
+      "source": "ALL_NUMBERS",
+      "forwardEnabled": false
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -50,6 +81,9 @@ This API requires a user auth token with a scope of `spark:telephony_config_read
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

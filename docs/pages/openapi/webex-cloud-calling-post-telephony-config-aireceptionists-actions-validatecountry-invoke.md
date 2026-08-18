@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-aireceptionists-actions-validatecountry-invoke
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/aiReceptionists/actions/validateCountry/invoke
+operation_id: validateAiReceptionistCountry
+tags: AI Receptionist for Webex Calling, AI Receptionist
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.547426+00:00
+retrieved_at: 2026-08-18T23:45:43.152258+00:00
 ---
 
 # POST /telephony/config/aiReceptionists/actions/validateCountry/invoke
@@ -28,10 +33,10 @@ This API requires a full administrator auth token with a scope of `spark-admin:t
 - `orgId` [query] (string): Optional; target organization ID, otherwise defaults to token's org.
 
 ## Cuerpo de la petición (application/json)
-- `countryCode` (string) **(requerido)**: Two letter country code of the location for which AI Receptionist needs to be validated.
+- `countryCode` (string) (**requerido**): Two letter country code of the location for which AI Receptionist needs to be validated.
 - `locationId` (string): Location associated with the AI Receptionist.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "countryCode": "US",
@@ -39,8 +44,18 @@ This API requires a full administrator auth token with a scope of `spark-admin:t
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/aiReceptionists/actions/validateCountry/invoke' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"countryCode": "<countryCode>"}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -56,6 +71,9 @@ This API requires a full administrator auth token with a scope of `spark-admin:t
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

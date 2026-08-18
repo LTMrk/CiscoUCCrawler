@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-premisepstn-dialplans-dialplanid-dialpatterns
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/dialPlans/{dialPlanId}/dialPatterns
+operation_id: Read the List of Dial Patterns
+tags: Location Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.555038+00:00
+retrieved_at: 2026-08-18T23:45:43.166130+00:00
 ---
 
 # GET /telephony/config/premisePstn/dialPlans/{dialPlanId}/dialPatterns
@@ -28,16 +33,31 @@ Specific dial patterns can be defined as part of your dial plan.
 Retrieving this list requires a full or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `dialPlanId` [path] (string) **(requerido)**: ID of the dial plan.
+- `dialPlanId` [path] (string) (**requerido**): ID of the dial plan.
 - `orgId` [query] (string): ID of the organization to which the dial patterns belong.
 - `dialPattern` [query] (string): An enterprise dial pattern is represented by a sequence of digits (1-9), followed by optional wildcard characters. Valid wildcard characters are `!` (matches any sequence of digits) and `X` (matches a single digit, 0-9). The `!` wildcard can only occur once at the end and only in an E.164 pattern
 - `max` [query] (number): Limit the number of objects returned to this maximum count.
 - `start` [query] (number): Start at the zero-based offset in the list of matching objects.
 - `order` [query] (string): Order the dial patterns according to the designated fields.  Available sort fields: `dialPattern`.
 
-## Respuestas
-- **200**: OK
-  - `dialPatterns` (array) **(requerido)**: Array of dial patterns. An enterprise dial pattern is represented by a sequence of digits (1-9), followed by optional wildcard characters.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/premisePstn/dialPlans/<dialPlanId>/dialPatterns' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `dialPatterns` (array) (**requerido**): Array of dial patterns. An enterprise dial pattern is represented by a sequence of digits (1-9), followed by optional wildcard characters.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "dialPatterns": []
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -53,6 +73,9 @@ Retrieving this list requires a full or read-only administrator auth token with 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

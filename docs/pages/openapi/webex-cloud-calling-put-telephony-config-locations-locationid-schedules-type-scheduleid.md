@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-locations-locationid-schedules-type-scheduleid
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/schedules/{type}/{scheduleId}
+operation_id: Update a Schedule
+tags: Location Call Settings:  Schedules
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.628176+00:00
+retrieved_at: 2026-08-18T23:45:43.343554+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/schedules/{type}/{scheduleId}
@@ -27,18 +32,18 @@ Updating a schedule requires a full administrator or location administrator auth
 **NOTE**: The Schedule ID will change upon modification of the Schedule name.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Location in which this schedule exists.
-- `type` [path] (string) **(requerido)**: Type of schedule.
-- `scheduleId` [path] (string) **(requerido)**: Update schedule with the matching ID.
+- `locationId` [path] (string) (**requerido**): Location in which this schedule exists.
+- `type` [path] (string) (**requerido**): Type of schedule. Valores: businessHours, holidays.
+- `scheduleId` [path] (string) (**requerido**): Update schedule with the matching ID.
 - `orgId` [query] (string): Update schedule from this organization.
 
 ## Cuerpo de la petición (application/json)
-- `name` (string) **(requerido)**: Unique name for the schedule.
+- `name` (string) (**requerido**): Unique name for the schedule.
 - `events` (array): List of schedule events.
-  - `name` (string) **(requerido)**: Current name for the event.
-  - `newName` (string) **(requerido)**: New name for the event.
-  - `startDate` (string) **(requerido)**: Start date of event.
-  - `endDate` (string) **(requerido)**: End date of event.
+  - `name` (string) (**requerido**): Current name for the event.
+  - `newName` (string) (**requerido**): New name for the event.
+  - `startDate` (string) (**requerido**): Start date of event.
+  - `endDate` (string) (**requerido**): End date of event.
   - `startTime` (string): Start time of event. Mandatory if the event is not all day.
   - `endTime` (string): End time of event. Mandatory if the event is not all day.
   - `allDayEnabled` (boolean): An indication of whether given event is an all-day event or not. Mandatory if the `startTime` and `endTime` are not defined.
@@ -46,7 +51,7 @@ Updating a schedule requires a full administrator or location administrator auth
     - `recurForEver` (boolean): Flag to indicate if event will recur forever.
     - `recurEndDate` (string): End date of recurrence.
     - `recurWeekly` (object):
-      - `sunday` (boolean) **(requerido)**: Frequency of occurrence in weeks and select the day - Sunday.
+      - `sunday` (boolean) (**requerido**): Frequency of occurrence in weeks and select the day - Sunday.
       - `monday` (boolean): Frequency of occurrence in weeks and select the day - Monday.
       - `tuesday` (boolean): Frequency of occurrence in weeks and select the day - Tuesday.
       - `wednesday` (boolean): Frequency of occurrence in weeks and select the day - Wednesday.
@@ -54,14 +59,14 @@ Updating a schedule requires a full administrator or location administrator auth
       - `friday` (boolean): Frequency of occurrence in weeks and select the day - Friday.
       - `saturday` (boolean): Frequency of occurrence in weeks and select the day - Saturday.
     - `recurYearlyByDate` (object):
-      - `dayOfMonth` (number) **(requerido)**: Schedule the event on a specific day of the month.
-      - `month` (string) **(requerido)**: Schedule the event on a specific month of the year. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
+      - `dayOfMonth` (number) (**requerido**): Schedule the event on a specific day of the month.
+      - `month` (string) (**requerido**): Schedule the event on a specific month of the year. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
     - `recurYearlyByDay` (object):
-      - `day` (string) **(requerido)**: Schedule the event on a specific day. Valores: SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY.
-      - `week` (string) **(requerido)**: Schedule the event on a specific week. Valores: FIRST, SECOND, THIRD, FOURTH, LAST.
-      - `month` (string) **(requerido)**: Schedule the event on a specific month. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
+      - `day` (string) (**requerido**): Schedule the event on a specific day. Valores: SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY.
+      - `week` (string) (**requerido**): Schedule the event on a specific week. Valores: FIRST, SECOND, THIRD, FOURTH, LAST.
+      - `month` (string) (**requerido**): Schedule the event on a specific month. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "name": "NEW-YEAR-HOLIDAY",
@@ -84,9 +89,26 @@ Updating a schedule requires a full administrator or location administrator auth
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `id` (string) **(requerido)**: ID of the target schedule.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/locations/<locationId>/schedules/<type>/<scheduleId>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"name": "<name>"}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string) (**requerido**): ID of the target schedule.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1NDSEVEVUxFL1RrVlhMVmxGUVZJdFNFOU1TVVJCV1E"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -102,6 +124,9 @@ Updating a schedule requires a full administrator or location administrator auth
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

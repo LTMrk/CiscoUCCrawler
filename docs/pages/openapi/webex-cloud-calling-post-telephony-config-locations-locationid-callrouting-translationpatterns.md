@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-locations-locationid-callrouting-translationpatterns
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/callRouting/translationPatterns
+operation_id: Create a Translation Pattern for a Location
+tags: Call Routing
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.558993+00:00
+retrieved_at: 2026-08-18T23:45:43.173416+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/callRouting/translationPatterns
@@ -25,15 +30,15 @@ A translation pattern lets you manipulate dialed digits before routing a call an
 Requires a full administrator auth token with the `spark-admin:telephony_config_write` scope.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Unique identifier for the location.
+- `locationId` [path] (string) (**requerido**): Unique identifier for the location.
 - `orgId` [query] (string): Only admin users of another organization (such as partners) may use this parameter since the default is the same organization as the token used to access API.
 
 ## Cuerpo de la petición (application/json)
-- `name` (string) **(requerido)**: A name given to a translation pattern for a location.
-- `matchingPattern` (string) **(requerido)**: A matching pattern given to a translation pattern for a location.
-- `replacementPattern` (string) **(requerido)**: A replacement pattern given to a translation pattern for a location.
+- `name` (string) (**requerido**): A name given to a translation pattern for a location.
+- `matchingPattern` (string) (**requerido**): A matching pattern given to a translation pattern for a location.
+- `replacementPattern` (string) (**requerido**): A replacement pattern given to a translation pattern for a location.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "name": "CHNHelpDesk",
@@ -42,9 +47,26 @@ Requires a full administrator auth token with the `spark-admin:telephony_config_
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `id` (string): The unique identifier for the criteria.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/locations/<locationId>/callRouting/translationPatterns' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"name": "<name>", "matchingPattern": "<matchingPattern>", "replacementPattern": "<replacementPattern>"}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `id` (string): The unique identifier for the criteria.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL0RJR0lUX1BBVFRFUk5TLzg3NGRjMjM1LTgwNTktNGM4OC05ZjU5LTRiNjdkZDJhZTZjMg"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -60,6 +82,9 @@ Requires a full administrator auth token with the `spark-admin:telephony_config_
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

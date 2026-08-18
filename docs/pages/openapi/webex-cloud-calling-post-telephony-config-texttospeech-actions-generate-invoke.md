@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-texttospeech-actions-generate-invoke
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/textToSpeech/actions/generate/invoke
+operation_id: generateTextToSpeech
+tags: Features: Announcement Repository
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.596287+00:00
+retrieved_at: 2026-08-18T23:45:43.286676+00:00
 ---
 
 # POST /telephony/config/textToSpeech/actions/generate/invoke
@@ -28,11 +33,11 @@ This API requires a full administrator or location administrator auth token with
 - `orgId` [query] (string): Generate text-to-speech for this organization.
 
 ## Cuerpo de la petición (application/json)
-- `voice` (string) **(requerido)**: The voice ID used to generate the audio prompt. Use the List Text-to-Speech Voices API to retrieve available voices.
-- `text` (string) **(requerido)**: The text to convert to speech.
-- `languageCode` (string) **(requerido)**: The language code used to generate the audio prompt. Use the List Text-to-Speech Voices API to retrieve the language code supported by the selected voice.
+- `voice` (string) (**requerido**): The voice ID used to generate the audio prompt. Use the List Text-to-Speech Voices API to retrieve available voices.
+- `text` (string) (**requerido**): The text to convert to speech.
+- `languageCode` (string) (**requerido**): The language code used to generate the audio prompt. Use the List Text-to-Speech Voices API to retrieve the language code supported by the selected voice.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "voice": "ashley",
@@ -41,9 +46,26 @@ This API requires a full administrator or location administrator auth token with
 }
 ```
 
-## Respuestas
-- **202**: Accepted
-  - `id` (string) **(requerido)**: Unique identifier of the text-to-speech generation request. Use this ID to track status using the Get Text-to-Speech Generation Status API.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/textToSpeech/actions/generate/invoke' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"voice": "<voice>", "text": "<text>", "languageCode": "<languageCode>"}'
+```
+
+## Respuestas correctas
+**202**: Accepted
+- `id` (string) (**requerido**): Unique identifier of the text-to-speech generation request. Use this ID to track status using the Get Text-to-Speech Generation Status API.
+
+### Ejemplo — respuesta 202
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1RFWFRfVE9fU1BFRUNILzMyMDE2NGY0LWU1YTMtNDFmZi1hMzI2LTY3YzA5OGU0MWQxZA"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The specified voice and language code do not match.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -55,6 +77,9 @@ This API requires a full administrator or location administrator auth token with
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

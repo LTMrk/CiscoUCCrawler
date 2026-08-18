@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-locations-locationid-redsky
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/redSky
+operation_id: Get a Location's RedSky Emergency Calling Parameters
+tags: Emergency Services Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.591493+00:00
+retrieved_at: 2026-08-18T23:45:43.277972+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/redSky
@@ -25,13 +30,29 @@ The enhanced emergency (E911) service for Webex Calling provides an emergency se
 To retrieve location calling parameters requires a full, user, or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Retrieve Calling Parameters for this location.
+- `locationId` [path] (string) (**requerido**): Retrieve Calling Parameters for this location.
 - `orgId` [query] (string): Retrieve Calling Parameters for the location in this organization.
 
-## Respuestas
-- **200**: OK
-  - `integrationEnabled` (boolean): Enable to allow RedSky to receive network connectivity information and test calls.
-  - `routingEnabled` (boolean): Enable to route emergency calls to RedSky.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/locations/<locationId>/redSky' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `integrationEnabled` (boolean): Enable to allow RedSky to receive network connectivity information and test calls.
+- `routingEnabled` (boolean): Enable to route emergency calls to RedSky.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "integrationEnabled": true,
+  "routingEnabled": true
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -47,6 +68,9 @@ To retrieve location calling parameters requires a full, user, or read-only admi
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

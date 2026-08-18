@@ -2,10 +2,15 @@
 doc_id: webex-device-put-telephony-config-devices-deviceid
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/devices/{deviceId}
+operation_id: updateThirdPartyDevice
+tags: Device Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.126696+00:00
+retrieved_at: 2026-08-18T23:45:44.192789+00:00
 ---
 
 # PUT /telephony/config/devices/{deviceId}
@@ -25,21 +30,31 @@ Modify a device's `sipPassword`.
 Updating `sipPassword` on the device requires a full or user administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `deviceId` [path] (string) **(requerido)**: Unique identifier for the device.
+- `deviceId` [path] (string) (**requerido**): Unique identifier for the device.
 - `orgId` [query] (string): ID of the organization in which the device resides.
 
 ## Cuerpo de la petición (application/json)
-- `sipPassword` (string) **(requerido)**: Password to be updated.
+- `sipPassword` (string) (**requerido**): Password to be updated.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "sipPassword": "Test4Password123&"
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/devices/<deviceId>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"sipPassword": "<sipPassword>"}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -55,6 +70,9 @@ Updating `sipPassword` on the device requires a full or user administrator auth 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

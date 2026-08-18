@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-218141-troubleshoot-cisco-smart-licensing-cloud-html-a3f73d3f90
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/218141-troubleshoot-cisco-smart-licensing-cloud.html
-retrieved_at: 2026-08-16T14:21:57.953557+00:00
+retrieved_at: 2026-08-18T23:49:49.235671+00:00
 ---
 
 Troubleshoot Smart License Cloud Certificate Changes on CMS and CMM on Jan 15Th 2023
 
 # Troubleshoot Smart License Cloud Certificate Changes on CMS and CMM on Jan 15Th 2023
-
-Log in to Save Content
 
 ### Download Options
 
@@ -131,12 +129,6 @@ Cisco TAC Engineer
 Darren McKinnon
 
 Cisco TAC Engineer
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 

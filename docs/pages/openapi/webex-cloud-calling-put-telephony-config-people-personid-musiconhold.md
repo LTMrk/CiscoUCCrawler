@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-people-personid-musiconhold
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/people/{personId}/musicOnHold
+operation_id: configureMusicOnHoldSettingsForPerson
+tags: User Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.643872+00:00
+retrieved_at: 2026-08-18T23:45:43.371087+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/musicOnHold
@@ -27,7 +32,7 @@ To configure music on hold settings for a person, music on hold setting must be 
 Updating a person's music on hold settings requires a full or user administrator or location administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: Unique identifier for the person.
+- `personId` [path] (string) (**requerido**): Unique identifier for the person.
 - `orgId` [query] (string): ID of the organization in which the person resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access API.
 
 ## Cuerpo de la petición (application/json)
@@ -39,7 +44,7 @@ Updating a person's music on hold settings requires a full or user administrator
   - `mediaFileType` (string): Audio announcement file type.  * `WAV` - WAV File Extension. Valores: WAV.
   - `level` (string): Audio announcement file type location.  * `ORGANIZATION` - Specifies this audio file is configured across the organization.  * `LOCATION` - Specifies this audio file is configured across the location. Valores: ORGANIZATION, LOCATION.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "mohEnabled": true,
@@ -53,8 +58,18 @@ Updating a person's music on hold settings requires a full or user administrator
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/people/<personId>/musicOnHold' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -70,6 +85,9 @@ Updating a person's music on hold settings requires a full or user administrator
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

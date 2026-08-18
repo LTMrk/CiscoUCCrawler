@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-pstn-locations-locationid-connection
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/pstn/locations/{locationId}/connection
+operation_id: Setup PSTN Connection for a Location
+tags: PSTN
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.634610+00:00
+retrieved_at: 2026-08-18T23:45:43.355725+00:00
 ---
 
 # PUT /telephony/pstn/locations/{locationId}/connection
@@ -25,7 +30,7 @@ PSTN location connection settings enables the admin to configure or change the P
 Setting up PSTN connection on a location requires a full administrator auth token with scopes of `spark-admin:telephony_pstn_write` and `spark-admin:telephony_pstn_read`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Setup PSTN location connection options for this location.
+- `locationId` [path] (string) (**requerido**): Setup PSTN location connection options for this location.
 - `orgId` [query] (string): Setup PSTN location connection for this organization.
 
 ## Cuerpo de la petición (application/json)
@@ -33,7 +38,7 @@ Setting up PSTN connection on a location requires a full administrator auth toke
 - `premiseRouteType` (string): Premise route type. The possible types are TRUNK and ROUTE_GROUP. This is required for the local gateway.
 - `premiseRouteId` (string): Premise route ID. This refers to either a Trunk ID or a Route Group ID and is required for the local gateway.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "id": "Y2lzY29zcGFyazovL3VzL1BTVE5fQ09OTkVDVElPTi81MWRlNDg5Yy1hYTYwLTRjMjUtOWFmNi1jYzRjYjE3MTczMGU",
@@ -42,8 +47,18 @@ Setting up PSTN connection on a location requires a full administrator auth toke
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/pstn/locations/<locationId>/connection' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -59,6 +74,9 @@ Setting up PSTN connection on a location requires a full administrator auth toke
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-221573-configure-and-troubleshoot-the-webapp-ss-html-8da7da69a9
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221573-configure-and-troubleshoot-the-webapp-ss.html
-retrieved_at: 2026-08-16T14:21:03.730967+00:00
+retrieved_at: 2026-08-18T23:49:58.017206+00:00
 ---
 
 Configure and Troubleshoot the WebApp SSO on CMS
 
 # Configure and Troubleshoot the WebApp SSO on CMS
-
-Log in to Save Content
 
 ### Download Options
 

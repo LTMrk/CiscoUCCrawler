@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-partner-reports-templates
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /partner/reports/templates
+operation_id: listReportTemplates
+tags: Partner Reports/Templates
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.633392+00:00
+retrieved_at: 2026-08-18T23:45:43.353399+00:00
 ---
 
 # GET /partner/reports/templates
@@ -25,16 +30,39 @@ To access this endpoint, you must use an administrator token with `spark-admin:r
 ## Parámetros
 - `onBehalfOfSubPartnerOrgId` [query] (string): The encoded organization ID for the sub partner.
 
-## Respuestas
-- **200**: OK
-  - `Template Collection` (array): An array of template objects.
-    - `templateId` (string): Unique identifier representing a report.
-    - `title` (string): Name of the template.
-    - `service` (string): The service to which the report belongs.
-    - `category` (string): Generated reports belong to which category.
-    - `maxDays` (number): Maximum date range for reports belonging to this template.
-    - `dataStartDate` (string): Start date of the data in the reports belonging to this template.
-    - `dataEndDate` (string): End date of the data in the reports belonging to this template.
+## Ejemplo de invocación
+```bash
+curl -X GET '/partner/reports/templates' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `Template Collection` (array): An array of template objects.
+  - `templateId` (string): Unique identifier representing a report.
+  - `title` (string): Name of the template.
+  - `service` (string): The service to which the report belongs.
+  - `category` (string): Generated reports belong to which category.
+  - `maxDays` (number): Maximum date range for reports belonging to this template.
+  - `dataStartDate` (string): Start date of the data in the reports belonging to this template.
+  - `dataEndDate` (string): End date of the data in the reports belonging to this template.
+
+### Ejemplo — respuesta 200
+```json
+[
+  {
+    "templateId": 130,
+    "title": "Calling Usage",
+    "service": "Teams",
+    "category": "Partner",
+    "maxDays": 31,
+    "dataStartDate": "2024-01-01",
+    "dataEndDate": "2024-01-31"
+  }
+]
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -50,6 +78,9 @@ To access this endpoint, you must use an administrator token with `spark-admin:r
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

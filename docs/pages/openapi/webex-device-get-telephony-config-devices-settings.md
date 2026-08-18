@@ -2,10 +2,15 @@
 doc_id: webex-device-get-telephony-config-devices-settings
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: GET
 path: /telephony/config/devices/settings
+operation_id: readDeviceOverrideSettingsForOrganization
+tags: Device Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.127677+00:00
+retrieved_at: 2026-08-18T23:45:44.194741+00:00
 ---
 
 # GET /telephony/config/devices/settings
@@ -25,48 +30,143 @@ Retrieving this list requires a full or read-only administrator auth token with 
 ## Parámetros
 - `orgId` [query] (string): List supported devices for an organization.
 
-## Respuestas
-- **200**: OK
-  - `customizations` (object) **(requerido)**:
-    - `ata` (object):
-      - `audioCodecPriority` (object) **(requerido)**:
-        - `selection` (string) **(requerido)**: * `REGIONAL` - Indicates the regional selection type for audio codec priority.  * `CUSTOM` - Indicates the custom selection type for audio codec priority. Valores: REGIONAL, CUSTOM.
-        - `primary` (string) **(requerido)**: Indicates the primary Audio Codec.
-        - `secondary` (string) **(requerido)**: Indicates the secondary Audio Codec.
-        - `tertiary` (string) **(requerido)**: Indicates the tertiary Audio Codec.
-      - `ataDtmfMode` (string) **(requerido)**: * `STRICT` - A DTMF digit requires an extra hold time after detection and the DTMF level threshold is raised to -20 dBm.  * `NORMAL` - Normal threshold mode. Valores: STRICT, NORMAL.
-      - `ataDtmfMethod` (string) **(requerido)**: * `INBAND` - Sends DTMF by using the audio path.  * `AVT` - Audio video transport. Sends DTMF as AVT events.  * `AUTO` - Uses InBand or AVT based on the outcome of codec negotiation. Valores: INBAND, AVT, AUTO.
-      - `cdpEnabled` (boolean) **(requerido)**: Enable/disable Cisco Discovery Protocol for local devices.
-      - `lldpEnabled` (boolean) **(requerido)**: Enable/disable Link Layer Discovery Protocol for local devices.
-      - `qosEnabled` (boolean) **(requerido)**: Enable/disable quality of service tagging of packets from the local device to the Webex Calling platform.
-      - `vlan` (object) **(requerido)**:
-        - `enabled` (boolean) **(requerido)**: Denotes whether the VLAN object of an ATA is enabled.
-        - `value` (number) **(requerido)**: The value of the VLAN Object of an ATA object.
-      - `webAccessEnabled` (boolean) **(requerido)**: Enable/disable user level web access to the local device.
-      - `nightlyResyncEnabled` (boolean) **(requerido)**: Enable/disable the automatic nightly configuration resync of the MPP device.
-      - `snmp` (object) **(requerido)**:
-        - `enabled` (boolean) **(requerido)**: Denotes whether the Simple Network Management Protocol of an ATA is enabled.
-        - `trustedIP` (string) **(requerido)**: Trusted IPv4 address and subnet mask in this order: 0.0.0.0/0.0.0.0.
-        - `getCommunity` (string) **(requerido)**: Read-only community string that allows/denies access to other device's statistics. Default value is `public`.
-        - `setCommunity` (string) **(requerido)**: Read-write community string that protects the device against unauthorized changes. Must never be set to `public`.
-        - `snmpV3Enabled` (boolean) **(requerido)**: Denotes whether the SNMPv3 security is enabled.
-    - `dect` (object):
-      - `audioCodecPriority` (object) **(requerido)**:
-        - `selection` (string) **(requerido)**: * `REGIONAL` - Indicates the regional selection type for audio codec priority.  * `CUSTOM` - Indicates the custom selection type for audio codec priority. Valores: REGIONAL, CUSTOM.
-        - `primary` (string) **(requerido)**: Indicates the primary Audio Codec.
-        - `secondary` (string) **(requerido)**: Indicates the secondary Audio Codec.
-        - `tertiary` (string) **(requerido)**: Indicates the tertiary Audio Codec.
-      - `cdpEnabled` (boolean) **(requerido)**: Enable/disable Cisco Discovery Protocol for local devices.
-      - `dect6825HandsetEmergencyNumber` (string) **(requerido)**: Specify the destination number to be dialled from the DECT Handset top button when pressed.
-      - `lldpEnabled` (boolean) **(requerido)**: Enable/disable Link Layer Discovery Protocol for local devices.
-      - `multicast` (string) **(requerido)**: Specify up to 3 multicast group URLs each with a unique listening port.
-      - `qosEnabled` (boolean) **(requerido)**: Enable/disable quality of service tagging of packets from the local device to the Webex Calling platform.
-      - `vlan` (object) **(requerido)**:
-        - `enabled` (boolean) **(requerido)**: Denotes whether the VLAN object of DECT is enabled.
-        - `value` (number) **(requerido)**: Value of the VLAN Object of DECT.
-      - `webAccessEnabled` (boolean) **(requerido)**: Enable/disable user level web access to the local device.
-      - `nightlyResyncEnabled` (boolean) **(requerido)**: Enable/disable phone's default behavior regarding the nightly maintenance synchronization with the Webex Calling platform.
-    - `mpp` (object):
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/devices/settings' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `customizations` (object) (**requerido**):
+  - `ata` (object):
+    - `audioCodecPriority` (object) (**requerido**):
+      - `selection` (string) (**requerido**): * `REGIONAL` - Indicates the regional selection type for audio codec priority.  * `CUSTOM` - Indicates the custom selection type for audio codec priority. Valores: REGIONAL, CUSTOM.
+      - `primary` (string) (**requerido**): Indicates the primary Audio Codec.
+      - `secondary` (string) (**requerido**): Indicates the secondary Audio Codec.
+      - `tertiary` (string) (**requerido**): Indicates the tertiary Audio Codec.
+    - `ataDtmfMode` (string) (**requerido**): * `STRICT` - A DTMF digit requires an extra hold time after detection and the DTMF level threshold is raised to -20 dBm.  * `NORMAL` - Normal threshold mode. Valores: STRICT, NORMAL.
+    - `ataDtmfMethod` (string) (**requerido**): * `INBAND` - Sends DTMF by using the audio path.  * `AVT` - Audio video transport. Sends DTMF as AVT events.  * `AUTO` - Uses InBand or AVT based on the outcome of codec negotiation. Valores: INBAND, AVT, AUTO.
+    - `cdpEnabled` (boolean) (**requerido**): Enable/disable Cisco Discovery Protocol for local devices.
+    - `lldpEnabled` (boolean) (**requerido**): Enable/disable Link Layer Discovery Protocol for local devices.
+    - `qosEnabled` (boolean) (**requerido**): Enable/disable quality of service tagging of packets from the local device to the Webex Calling platform.
+    - `vlan` (object) (**requerido**):
+      - `enabled` (boolean) (**requerido**): Denotes whether the VLAN object of an ATA is enabled.
+      - `value` (number) (**requerido**): The value of the VLAN Object of an ATA object.
+    - `webAccessEnabled` (boolean) (**requerido**): Enable/disable user level web access to the local device.
+    - `nightlyResyncEnabled` (boolean) (**requerido**): Enable/disable the automatic nightly configuration resync of the MPP device.
+    - `snmp` (object) (**requerido**):
+      - `enabled` (boolean) (**requerido**): Denotes whether the Simple Network Management Protocol of an ATA is enabled.
+      - `trustedIP` (string) (**requerido**): Trusted IPv4 address and subnet mask in this order: 0.0.0.0/0.0.0.0.
+      - `getCommunity` (string) (**requerido**): Read-only community string that allows/denies access to other device's statistics. Default value is `public`.
+      - `setCommunity` (string) (**requerido**): Read-write community string that protects the device against unauthorized changes. Must never be set to `public`.
+      - `snmpV3Enabled` (boolean) (**requerido**): Denotes whether the SNMPv3 security is enabled.
+  - `dect` (object):
+    - `audioCodecPriority` (object) (**requerido**):
+      - `selection` (string) (**requerido**): * `REGIONAL` - Indicates the regional selection type for audio codec priority.  * `CUSTOM` - Indicates the custom selection type for audio codec priority. Valores: REGIONAL, CUSTOM.
+      - `primary` (string) (**requerido**): Indicates the primary Audio Codec.
+      - `secondary` (string) (**requerido**): Indicates the secondary Audio Codec.
+      - `tertiary` (string) (**requerido**): Indicates the tertiary Audio Codec.
+    - `cdpEnabled` (boolean) (**requerido**): Enable/disable Cisco Discovery Protocol for local devices.
+    - `dect6825HandsetEmergencyNumber` (string) (**requerido**): Specify the destination number to be dialled from the DECT Handset top button when pressed.
+    - `lldpEnabled` (boolean) (**requerido**): Enable/disable Link Layer Discovery Protocol for local devices.
+    - `multicast` (string) (**requerido**): Specify up to 3 multicast group URLs each with a unique listening port.
+    - `qosEnabled` (boolean) (**requerido**): Enable/disable quality of service tagging of packets from the local device to the Webex Calling platform.
+    - `vlan` (object) (**requerido**):
+      - `enabled` (boolean) (**requerido**): Denotes whether the VLAN object of DECT is enabled.
+      - `value` (number) (**requerido**): Value of the VLAN Object of DECT.
+    - `webAccessEnabled` (boolean) (**requerido**): Enable/disable user level web access to the local device.
+    - `nightlyResyncEnabled` (boolean) (**requerido**): Enable/disable phone's default behavior regarding the nightly maintenance synchronization with the Webex Calling platform.
+  - `mpp` (object):
+    - `pnacEnabled` (boolean) (**requerido**): Indicates whether the PNAC of MPP object is enabled or not.
+    - `audioCodecPriority` (object) (**requerido**):
+      - `selection` (string) (**requerido**): Indicates the selection of the Audio Codec Priority Object for an MPP object.
+      - `primary` (string) (**requerido**): Indicates the primary Audio Codec for an MPP object.
+      - `secondary` (string) (**requerido**): Indicates the secondary Audio Codec for an MPP object.
+      - `tertiary` (string) (**requerido**): Indicates the tertiary Audio Codec for an MPP object.
+    - `backlightTimer` (string) (**requerido**): * `ONE_MIN` - Set the phone's backlight to be on for one minute.  * `FIVE_MIN` - Set the phone's backlight to be on for five minutes.  * `THIRTY_MIN` - Set the phone's backlight to be on for thirty minutes.  * `ALWAYS_ON` - Keep the phone's backlight always on. Valores: ONE_MIN, FIVE_MIN, THIRTY_MIN, ALWAYS_ON.
+    - `background` (object) (**requerido**):
+      - `image` (string): * `NONE` - Indicates that there will be no background image set for the devices.  * `DARK_BLUE` - Indicates that dark blue background image will be set for the devices.  * `CISCO_DARK_BLUE` - Indicates that Cisco themed dark blue background image will be set for the devices.  * `WEBEX_DARK_BLUE` - Indicates that Cisco Webex dark blue background image will be set for the devices.  * `CUSTOM_BACKGROUND` - Indicates that a custom background image will be set for the devices.  * `customUrl` - When this option is selected, a field 'Custom Background URL' needs to be added with the image url. URLs provided must link directly to an image file and be in HTTP, HTTPS, or filepath format. Valores: NONE, DARK_BLUE, CISCO_DARK_BLUE, WEBEX_DARK_BLUE, CUSTOM_BACKGROUND.
+      - `customUrl` (string):
+    - `displayNameFormat` (string): * `PERSON_NUMBER` - Indicates that devices will display the person's phone number, or if a person doesn't have a phone number, the location number will be displayed.  * `PERSON_FIRST_THEN_LAST_NAME` - Indicates that devices will display the name in first name then last name format.  * `PERSON_LAST_THEN_FIRST_NAME` - Indicates that devices will display the name in last name then first name format. Valores: PERSON_NUMBER, PERSON_FIRST_THEN_LAST_NAME, PERSON_LAST_THEN_FIRST_NAME.
+    - `cdpEnabled` (boolean) (**requerido**): Allows you to enable/disable CDP for local devices.
+    - `defaultLoggingLevel` (string) (**requerido**): * `STANDARD` - Enables standard logging.  * `DEBUGGING` - Enables detailed debugging logging. Valores: STANDARD, DEBUGGING.
+    - `dndServicesEnabled` (boolean) (**requerido**): Enable/disable Do-Not-Disturb capabilities for Multi-Platform Phones.
+    - `acd` (object) (**requerido**):
+      - `enabled` (boolean) (**requerido**): Indicates whether the ACD object is enabled.
+      - `displayCallqueueAgentSoftkeys` (string) (**requerido**):  Valores: FRONT_PAGE, LAST_PAGE.
+    - `shortInterdigitTimer` (number) (**requerido**): Indicates the short inter digit timer value.
+    - `longInterdigitTimer` (number) (**requerido**): Indicates the long inter digit timer value..
+    - `lineKeyLabelFormat` (string) (**requerido**): * `PERSON_EXTENSION` - This will display the person extension, or if a person doesn't have an extension, the person's first name will be displayed.  * `PERSON_FIRST_THEN_LAST_NAME` - Indicates that devices will display the name in first name then last name format.  * `PERSON_LAST_THEN_FIRST_NAME` - Indicates that devices will display the name in last name then first name format. Valores: PERSON_EXTENSION, PERSON_FIRST_THEN_LAST_NAME, PERSON_LAST_THEN_FIRST_NAME.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "customizations": {
+    "ata": {
+      "audioCodecPriority": {
+        "selection": "REGIONAL",
+        "primary": "G711a",
+        "secondary": "G711u",
+        "tertiary": "G729a"
+      },
+      "ataDtmfMode": "STRICT",
+      "ataDtmfMethod": "AVT",
+      "cdpEnabled": true,
+      "lldpEnabled": true,
+      "qosEnabled": true,
+      "vlan": {
+        "enabled": true,
+        "value": 1
+      },
+      "webAccessEnabled": true,
+      "nightlyResyncEnabled": true,
+      "snmp": {
+        "enabled": false,
+        "trustedIP": "0.0.0.0/0.0.0.0",
+        "getCommunity": "public",
+        "setCommunity": "private",
+        "snmpV3Enabled": false
+      }
+    },
+    "dect": {
+      "audioCodecPriority": {
+        "selection": "REGIONAL",
+        "primary": "G729",
+        "secondary": "G711u",
+        "tertiary": "G711a"
+      },
+      "cdpEnabled": true,
+      "lldpEnabled": true,
+      "qosEnabled": true,
+      "vlan": {
+        "enabled": false,
+        "value": 0
+      },
+      "webAccessEnabled": true,
+      "nightlyResyncEnabled": true
+    },
+    "mpp": {
+      "pnacEnabled": true,
+      "audioCodecPriority": {
+        "selection": "CUSTOM",
+        "primary": "OPUS",
+        "secondary": "G722",
+        "tertiary": "G711u"
+      },
+      "backlightTimer": "ONE_MIN",
+      "background": {
+        "customUrl": "",
+        "image": "WEBEX_DARK_BLUE"
+      },
+      "displayNameFormat": "PERSON_FIRST_THEN_LAST_NAME",
+      "cdpEnabled": false,
+      "defaultLoggingLevel": "ST
+  ... (truncado)
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -82,6 +182,9 @@ Retrieving this list requires a full or read-only administrator auth token with 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

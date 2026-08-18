@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-people-me-settings-preferredanswerendpoint
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/people/me/settings/preferredAnswerEndpoint
+operation_id: getMyPreferredAnswerEndpoint
+tags: Call Settings For Me
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.559831+00:00
+retrieved_at: 2026-08-18T23:45:43.174898+00:00
 ---
 
 # GET /telephony/config/people/me/settings/preferredAnswerEndpoint
@@ -13,6 +18,7 @@ retrieved_at: 2026-08-16T11:30:32.559831+00:00
 **API:** Webex Cloud Calling
 **Área:** Call Settings For Me
 **operationId:** `getMyPreferredAnswerEndpoint`
+**Autenticación:** bearer-key
 
 ## Resumen
 Get Preferred Answer Endpoint
@@ -24,11 +30,28 @@ Retrieve the selected preferred answering endpoint for the user. If a preferred 
 
  This API requires a user auth token with a scope of `spark:telephony_config_read`.
 
-## Respuestas
-- **200**: OK
-  - `id` (string) **(requerido)**: Unique identifier for the endpoint.
-  - `type` (string) **(requerido)**: * `DEVICE` - The endpoint is a device.  * `APPLICATION` - The endpoint is a application. Valores: DEVICE, APPLICATION.
-  - `name` (string) **(requerido)**: The name field is either set to `Webex Desktop Application` or consists of the device model followed by the device tag in parentheses. For example, when the name is `Cisco 8865 (Phone in reception area)`, `Cisco 8865` is the device model and `Phone in reception area` is the device tag.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/people/me/settings/preferredAnswerEndpoint' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string) (**requerido**): Unique identifier for the endpoint.
+- `type` (string) (**requerido**): * `DEVICE` - The endpoint is a device.  * `APPLICATION` - The endpoint is a application. Valores: DEVICE, APPLICATION.
+- `name` (string) (**requerido**): The name field is either set to `Webex Desktop Application` or consists of the device model followed by the device tag in parentheses. For example, when the name is `Cisco 8865 (Phone in reception area)`, `Cisco 8865` is the device model and `Phone in reception area` is the device tag.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29z...",
+  "type": "DEVICE",
+  "name": "Cisco 8865 (Phone in reception area)"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -45,7 +68,8 @@ Retrieve the selected preferred answering endpoint for the user. If a preferred 
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
 
-**Autenticación:** bearer-key
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

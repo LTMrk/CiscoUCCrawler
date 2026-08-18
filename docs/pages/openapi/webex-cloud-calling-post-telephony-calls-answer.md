@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-calls-answer
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/calls/answer
+operation_id: answer
+tags: Call Controls, External Voicemail
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.550503+00:00
+retrieved_at: 2026-08-18T23:45:43.157898+00:00
 ---
 
 # POST /telephony/calls/answer
@@ -21,11 +26,11 @@ Answer
 Answer an incoming call. When no endpointId is specified, the call is answered on the user's primary device. When an endpointId is specified, the call is answered on the device or application identified by the endpointId. The answer API is rejected if the device is not alerting for the call or the device does not support answer via API.
 
 ## Cuerpo de la petición (application/json)
-- `callId` (string) **(requerido)**: The call identifier of the call to be answered.
+- `callId` (string) (**requerido**): The call identifier of the call to be answered.
 - `endpointId` (string): The ID of the device or application to answer the call on. The `endpointId` must be one of the endpointIds returned by the [Get Preferred Answer Endpoint API](/docs/api/v1/user-call-settings-2-2/get-preferred-answer-endpoint).
 - `lineOwnerId` (string): The ID of a user, workspace, or virtual line for which there is a secondary line on a device owned by the user invoking the API.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "callId": "Y2lzY29zcGFyazovL3VzL0NBTEwvQkNMRC9jYWxsaGFsZi00ODg6MA",
@@ -34,8 +39,18 @@ Answer an incoming call. When no endpointId is specified, the call is answered o
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/calls/answer' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"callId": "<callId>"}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -51,6 +66,9 @@ Answer an incoming call. When no endpointId is specified, the call is answered o
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-admin-get-workspacemetrics
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: GET
 path: /workspaceMetrics
+operation_id: Workspace Metrics
+tags: Workspace Metrics
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.165343+00:00
+retrieved_at: 2026-08-18T23:45:42.593885+00:00
 ---
 
 # GET /workspaceMetrics
@@ -35,24 +40,46 @@ time span is 30 days.
 * If the aggregation mode is `hourly` or `daily`, the returned data in the response will be an array of items with the `start` and `end` of the aggregation time bucket, and the `mean`, `max` and `min` values of the requested value. Note that zeroes and negative values are ignored. For example, this means that the `peopleCount` mean value should be interpreted as the average number of people in the room _when it is in use_.
 
 ## Parámetros
-- `workspaceId` [query] (string) **(requerido)**: ID of the workspace to get metrics for.
-- `metricName` [query] (string) **(requerido)**: The type of data to extract.
-- `aggregation` [query] (string): Time unit over which to aggregate measurements.
+- `workspaceId` [query] (string) (**requerido**): ID of the workspace to get metrics for.
+- `metricName` [query] (string) (**requerido**): The type of data to extract. Valores: soundLevel, ambientNoise, temperature, humidity, tvoc, peopleCount.
+- `aggregation` [query] (string): Time unit over which to aggregate measurements. Valores: none, hourly, daily. Por defecto: hourly.
 - `from` [query] (string): List only data points after a specific date and time (ISO 8601 timestamp)
 - `to` [query] (string): List data points before a specific date and time (ISO 8601 timestamp)
-- `unit` [query] (string): Output data unit (only a valid parameter if `metricName` is `temperature`).
-- `sortBy` [query] (string): Sort results.
+- `unit` [query] (string): Output data unit (only a valid parameter if `metricName` is `temperature`). Valores: celsius, fahrenheit. Por defecto: Celsius if the metricName parameter is set to "temperature". No default value is provided for other metric names..
+- `sortBy` [query] (string): Sort results. Valores: newestFirst, oldestFirst. Por defecto: newestFirst.
 
-## Respuestas
-- **200**: OK
-  - `workspaceId` (string) **(requerido)**:
-  - `metricName` (string) **(requerido)**:  Valores: soundLevel, ambientNoise, temperature, humidity, tvoc, peopleCount.
-  - `aggregation` (string):  Valores: none, hourly, daily.
-  - `from` (string):
-  - `to` (string):
-  - `unit` (string): Output data unit (only present if `metricName` is `temperature`). Valores: celsius, fahrenheit.
-  - `sortBy` (string):  Valores: newestFirst, oldestFirst.
-  - `items` (array): The structure of the elements will depend on whether or not aggregated data was requested
+## Ejemplo de invocación
+```bash
+curl -X GET '/workspaceMetrics?workspaceId=<workspaceId>&metricName=<metricName>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `workspaceId` (string) (**requerido**):
+- `metricName` (string) (**requerido**):  Valores: soundLevel, ambientNoise, temperature, humidity, tvoc, peopleCount.
+- `aggregation` (string):  Valores: none, hourly, daily.
+- `from` (string):
+- `to` (string):
+- `unit` (string): Output data unit (only present if `metricName` is `temperature`). Valores: celsius, fahrenheit.
+- `sortBy` (string):  Valores: newestFirst, oldestFirst.
+- `items` (array): The structure of the elements will depend on whether or not aggregated data was requested
+
+### Ejemplo — respuesta 200
+```json
+{
+  "workspaceId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi85NmFiYzJhYS0zZGNjLTExZTUtYTE1Mi1mZTM0ODE5Y2RjOWE",
+  "metricName": "temperature",
+  "aggregation": "hourly",
+  "from": "2020-10-21T13:33:37.789Z",
+  "to": "2020-10-31T16:00:00.532Z",
+  "unit": "celsius",
+  "sortBy": "newestFirst",
+  "items": []
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -68,6 +95,9 @@ time span is 30 days.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-admin-get-recordingreport-meetingarchivesummaries
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: GET
 path: /recordingReport/meetingArchiveSummaries
+operation_id: List Meeting Archive Summaries
+tags: Recording Report
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.155846+00:00
+retrieved_at: 2026-08-18T23:45:42.573809+00:00
 ---
 
 # GET /recordingReport/meetingArchiveSummaries
@@ -33,19 +38,60 @@ Long result sets are split into [pages](/docs/basics#pagination).
 * `timezone`: [Time zone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List) in conformance with the [IANA time zone database](https://www.iana.org/time-zones). The default is UTC if `timezone` is not defined.
 
 ## Parámetros
-- `max` [query] (number): Maximum number of meeting archive summaries to return in a single page. `max` must be equal to or greater than `1` and equal to or less than `100`.
-- `from` [query] (string): Starting date and time (inclusive) for meeting archive summaries to return, in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `from` cannot be after `to`. Please note that the interval between `to` and `from` cannot exceed 30 days.
-- `to` [query] (string): Ending date and time (exclusive) for meeting archive summaries to return, in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `to` cannot be before `from`. Please note that the interval between `to` and `from` cannot exceed 30 days.
+- `max` [query] (number): Maximum number of meeting archive summaries to return in a single page. `max` must be equal to or greater than `1` and equal to or less than `100`. Por defecto: 10.
+- `from` [query] (string): Starting date and time (inclusive) for meeting archive summaries to return, in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `from` cannot be after `to`. Please note that the interval between `to` and `from` cannot exceed 30 days. Por defecto: If `to` is specified, the default value is 7 days before `to`; if `to` is not specified, the default value is 7 days before the current date and time..
+- `to` [query] (string): Ending date and time (exclusive) for meeting archive summaries to return, in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `to` cannot be before `from`. Please note that the interval between `to` and `from` cannot exceed 30 days. Por defecto: If `from` is specified, the default value is 7 days after `from`; if `from` is not specified, the default value is the current date and time..
 - `siteUrl` [query] (string): URL of the Webex site which the API lists meeting archive summaries from. If not specified, the API lists meeting archive summaries for recordings from the user's preferred site. All available Webex sites and the preferred site of the user can be retrieved by `Get Site List` API.
 - `timezone` [header] (string): e.g. UTC
 
-## Respuestas
-- **200**: OK
-  - `items` (array): An array of meeting archive summaries objects.
-    - `archiveId` (string): A unique identifier for the meeting archive summary.
-    - `serviceType` (string): Recording achrive summary's service-type. Valores: MeetingCenter, EventCenter, TrainingCenter, SupportCenter.
-    - `title` (string): Meeting title.
-    - `createTime` (string): The date and time in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format that when the archive was created by the system.
+## Ejemplo de invocación
+```bash
+curl -X GET '/recordingReport/meetingArchiveSummaries' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): An array of meeting archive summaries objects.
+  - `archiveId` (string): A unique identifier for the meeting archive summary.
+  - `serviceType` (string): Recording achrive summary's service-type. Valores: MeetingCenter, EventCenter, TrainingCenter, SupportCenter.
+  - `title` (string): Meeting title.
+  - `createTime` (string): The date and time in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format that when the archive was created by the system.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "archiveId": "7d7ea5f42b921eace05386ca24ad730e_R_1000634462",
+      "serviceType": "MeetingCenter",
+      "title": "Test003_xml",
+      "createTime": "2022-10-31T15:50:11Z"
+    },
+    {
+      "archiveId": "7d7ea5f42b921eace05386ca24ad730e_R_1000634107",
+      "serviceType": "MeetingCenter",
+      "title": "Gang test pwd 01_xml",
+      "createTime": "2022-10-31T09:08:00Z"
+    },
+    {
+      "archiveId": "7d7ea5f42b921eace05386ca24ad730e_R_1000633967",
+      "serviceType": "MeetingCenter",
+      "title": "Numeric password Test2_xml",
+      "createTime": "2022-10-31T07:53:05Z"
+    },
+    {
+      "archiveId": "7d7ea5f42b921eace05386ca24ad730e_R_1000633912",
+      "serviceType": "MeetingCenter",
+      "title": "Numeric password Test2_xml",
+      "createTime": "2022-10-31T07:44:31Z"
+    }
+  ]
+}
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -61,6 +107,9 @@ Long result sets are split into [pages](/docs/basics#pagination).
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

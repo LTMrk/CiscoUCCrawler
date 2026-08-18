@@ -2,10 +2,15 @@
 doc_id: webex-contact-center-post-v3-campaign-management-dnclist-dnclistname-phonenumber
 source: webex-openapi-specs/public-spec/webex-contact-center.json
 api: Webex Contact Center
+api_version: 1.0.0
 method: POST
 path: /v3/campaign-management/dncList/{dncListName}/phoneNumber
+operation_id: addPhoneNumberToDncList
+tags: DNC Management
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.974783+00:00
+retrieved_at: 2026-08-18T23:45:43.871200+00:00
 ---
 
 # POST /v3/campaign-management/dncList/{dncListName}/phoneNumber
@@ -23,31 +28,151 @@ Adds a phone number to the specified Do Not Contact (DNC) list. This operation h
 **Note:** Phone numbers must be in E.164 format (e.g., +1234567890). Duplicate entries will be rejected with a 409 error.
 
 ## Parámetros
-- `dncListName` [path] (string) **(requerido)**: This is the Name of the DNC list to which you want to add a phone number. List names are case-sensitive and must be URL-encoded if they contain special characters.
+- `dncListName` [path] (string) (**requerido**): This is the Name of the DNC list to which you want to add a phone number. List names are case-sensitive and must be URL-encoded if they contain special characters.
 
 ## Cuerpo de la petición (application/json)
-- `phoneNumber` (string) **(requerido)**: The phone number to add to the DNC list. Must be in E.164 format (e.g., +1234567890).
-- `source` (string) **(requerido)**: The source or origin of the DNC entry. This helps track where the request originated from.
-- `reason` (string): Optional reason for adding the phone number to the DNC list. This can help with compliance documentation.
+- `phoneNumber` (string) (**requerido**): The phone number to add to the DNC list. Must be in E.164 format (e.g., +1234567890).
+- `source` (string) (**requerido**): The source or origin of the DNC entry. This helps track where the request originated from. Long. max: 100.
+- `reason` (string): Optional reason for adding the phone number to the DNC list. This can help with compliance documentation. Long. max: 500.
 
-## Respuestas
-- **201**: Phone number successfully added to the DNC list
-  - `phoneNumber` (string): The phone number in the DNC list, in E.164 format.
-  - `source` (string): The source or origin of the DNC entry.
-  - `addedDate` (string): The date and time when the phone number was added to the DNC list.
-  - `addedBy` (string): The user or system that added the phone number to the DNC list.
-  - `reason` (string): The reason for adding the phone number to the DNC list, if provided.
-  - `lastModified` (string): The date and time when the DNC entry was last modified.
+### Basic phone number entry — petición
+```json
+{
+  "phoneNumber": "+1234567890",
+  "source": "customer-request"
+}
+```
+
+### Entry with additional metadata — petición
+```json
+{
+  "phoneNumber": "+1987654321",
+  "source": "regulatory-compliance",
+  "reason": "Customer opted out via email"
+}
+```
+
+## Ejemplo de invocación
+```bash
+curl -X POST '/v3/campaign-management/dncList/<dncListName>/phoneNumber' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"phoneNumber": "<phoneNumber>", "source": "<source>"}'
+```
+
+## Respuestas correctas
+**201**: Phone number successfully added to the DNC list
+- `phoneNumber` (string): The phone number in the DNC list, in E.164 format.
+- `source` (string): The source or origin of the DNC entry.
+- `addedDate` (string/date-time): The date and time when the phone number was added to the DNC list.
+- `addedBy` (string): The user or system that added the phone number to the DNC list.
+- `reason` (string): The reason for adding the phone number to the DNC list, if provided.
+- `lastModified` (string/date-time): The date and time when the DNC entry was last modified.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "phoneNumber": "+1234567890",
+  "source": "customer-request",
+  "addedDate": "2024-01-15T10:30:00Z",
+  "addedBy": "admin@example.com"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
+  Ejemplo:
+```json
+{
+  "code": 1001,
+  "message": "Invalid pageSize. Allowed range is 1 to 100.",
+  "trackingId": "GTWY_e6763c9a-71b2-4515-ad5b-89260f7f594b"
+}
+```
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
+  Ejemplo:
+```json
+{
+  "code": 401,
+  "message": "Invalid or expired access token.",
+  "trackingId": "GTWY_e6763c9a-71b2-4515-ad5b-89260f7f591"
+}
+```
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed. User lacks required permissions to manage DNC lists.
+  Ejemplo:
+```json
+{
+  "code": 403,
+  "message": "Feature is not enabled for this organization.",
+  "trackingId": "GTWY_e6763c9a-71b2-4515-ad5b-89260f7f592"
+}
+```
 - **404**: Not Found: The specified DNC list does not exist or the user does not have access to it.
+  Ejemplo:
+```json
+{
+  "code": 1004,
+  "message": "Campaign group 'Carshield_25May2026' not found.",
+  "trackingId": "GTWY_e6763c9a-71b2-4515-ad5b-89260f7f593"
+}
+```
 - **409**: Conflict: The phone number already exists in the specified DNC list.
+  Ejemplo:
+```json
+{
+  "code": 409,
+  "message": "Phone number +1234567890 already exists in DNC list 'corporate-dnc-list'",
+  "trackingId": "GTWY_e6763c9a-71b2-4515-ad5b-89260f7f594"
+}
+```
 - **429**: Too Many Requests: Too many requests have been sent in a given amount of time and the request has been rate limited. A Retry-After header should be present that specifies how many seconds you need to wait before a successful request can be made.
+  Ejemplo:
+```json
+{
+  "code": 429,
+  "message": "Too many requests. Rate limit exceeded.",
+  "trackingId": "GTWY_e6763c9a-71b2-4515-ad5b-89260f7f595"
+}
+```
 - **500**: Internal Server Error: Something went wrong on the server. If the issue persists, feel free to contact the [Webex Developer Support team](/explore/support).
+  Ejemplo:
+```json
+{
+  "code": 1006,
+  "message": "An unexpected error occurred while processing your request.",
+  "trackingId": "GTWY_e6763c9a-71b2-4515-ad5b-89260f7f596"
+}
+```
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
+  Ejemplo:
+```json
+{
+  "code": 502,
+  "message": "The server received an invalid response from an upstream server.",
+  "trackingId": "GTWY_e6763c9a-71b2-4515-ad5b-89260f7f597"
+}
+```
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
+  Ejemplo:
+```json
+{
+  "code": 503,
+  "message": "Service is temporarily unavailable. Please try again later.",
+  "trackingId": "GTWY_e6763c9a-71b2-4515-ad5b-89260f7f598"
+}
+```
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+  Ejemplo:
+```json
+{
+  "code": 504,
+  "message": "The server did not receive a timely response from an upstream server.",
+  "trackingId": "GTWY_e6763c9a-71b2-4515-ad5b-89260f7f599"
+}
+```
+
+## Contexto de la API
+The Webex Contact Center APIs allow developers to deeply integrate, configure, and manage cloud-based contact center solutions. These APIs cover agent lifecycle management, queue and routing configuration, customer journey tracking, and access to real-time and historical analytics. Use cases include embedding agent controls in custom UIs, automating workforce management, integrating with CRM and ticketing systems, and building custom reporting dashboards. The APIs empower organizations to deliver personalized, efficient customer experiences and optimize contact center operations.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-meeting-post-admin-meetingpreferences-personalmeetingroom-refreshid
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: POST
 path: /admin/meetingPreferences/personalMeetingRoom/refreshId
+operation_id: Batch Refresh Personal Meeting Room ID
+tags: Preferences
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.389528+00:00
+retrieved_at: 2026-08-18T23:45:44.471690+00:00
 ---
 
 # POST /admin/meetingPreferences/personalMeetingRoom/refreshId
@@ -29,14 +34,14 @@ Either all items in `personalMeetingRoomIds` have `personalMeetingRoomId`, or th
 The items in `personalMeetingRoomIds` either all have `personId` or all have `email` in a single request. Partial `personId` and partial `email` is not allowed in the same request.
 
 ## Cuerpo de la petición (application/json)
-- `siteUrl` (string) **(requerido)**: Site URL to refresh the personal room IDs.
+- `siteUrl` (string) (**requerido**): Site URL to refresh the personal room IDs.
 - `personalMeetingRoomIds` (array): Information of whose personal room IDs are to be refreshed and how to refresh. The maximum size of `items` is 100.
   - `email` (string): Email address of the meeting host whose personal room ID will be refreshed.
   - `personId` (string): Unique identifier for the meeting host whose personal room ID will be refreshed.
   - `systemGenerated` (boolean): Whether or not to automatically refresh the personal room ID by the site's settings. Refresh the personal room ID by the site's settings automatically if `systemGenerated` is true; otherwise, replace the existing personal room ID with the specified value if `systemGenerated` is false or not specified.
   - `personalMeetingRoomId` (string): New personal room ID specified by the admin user.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "siteUrl": "example.webex.com",
@@ -57,14 +62,59 @@ The items in `personalMeetingRoomIds` either all have `personId` or all have `em
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `siteUrl` (string): URL of the Webex site.
-  - `personalMeetingRoomIds` (array): Information for the refreshed personal room IDs.
-    - `email` (string): Email address for the meeting host whose personal room ID has been refreshed.
-    - `personId` (string): Unique identifier for the meeting host whose personal room ID has been refreshed.
-    - `personalMeetingRoomId` (string): Refreshed personal room ID.
+## Ejemplo de invocación
+```bash
+curl -X POST '/admin/meetingPreferences/personalMeetingRoom/refreshId' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"siteUrl": "<siteUrl>"}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `siteUrl` (string): URL of the Webex site.
+- `personalMeetingRoomIds` (array): Information for the refreshed personal room IDs.
+  - `email` (string): Email address for the meeting host whose personal room ID has been refreshed.
+  - `personId` (string): Unique identifier for the meeting host whose personal room ID has been refreshed.
+  - `personalMeetingRoomId` (string): Refreshed personal room ID.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "siteUrl": "example.webex.com",
+  "personalMeetingRoomIds": [
+    {
+      "email": "john.andersen@example.com",
+      "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS83MTZlOWQxYy1jYTQ0LTRmZ",
+      "personalMeetingRoomId": "prABCD23670651"
+    },
+    {
+      "email": "marcus.hoffmann@example.com",
+      "personId": "sdfeY28890KLFHzovL3VzL1BFT1BMRS83MTZlOWQxYy1jYTQ0LTRmZ",
+      "personalMeetingRoomId": "prABCD99751428"
+    },
+    {
+      "email": "brenda.song@example.com",
+      "personId": "FYG98gxYy1AYOP086VMLOUYTTCCN0IYTAio2uydbzlkyjYTQ0LTRmZ",
+      "personalMeetingRoomId": "prABCD56290641"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request
+  Ejemplo:
+```json
+{
+  "message": "The request could not be understood by the server due to malformed syntax. See 'errors' for more details.",
+  "errors": [
+    {
+      "description": "Personal meeting room ID is being used by someone else."
+    }
+  ]
+}
+```
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
 - **404**: Not Found: The URI requested is invalid or the resource requested, such as a user, does not exist. Also returned when the requested format is not supported by the requested method.
@@ -79,6 +129,9 @@ The items in `personalMeetingRoomIds` either all have `personId` or all have `em
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

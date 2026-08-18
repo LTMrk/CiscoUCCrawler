@@ -2,10 +2,15 @@
 doc_id: webex-device-post-telephony-config-lists-devices-deviceid-dynamicsettings-actions-getsettings-invoke
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: POST
 path: /telephony/config/lists/devices/{deviceId}/dynamicSettings/actions/getSettings/invoke
+operation_id: getDeviceDynamicSettings
+tags: Device Call Settings With Device Dynamic Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.132538+00:00
+retrieved_at: 2026-08-18T23:45:44.204034+00:00
 ---
 
 # POST /telephony/config/lists/devices/{deviceId}/dynamicSettings/actions/getSettings/invoke
@@ -25,13 +30,13 @@ This API retrieves device settings based on the specified `tags`; if the `tags` 
 This requires a full, device, or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `deviceId` [path] (string) **(requerido)**: Device for which to retrieve settings.
+- `deviceId` [path] (string) (**requerido**): Device for which to retrieve settings.
 - `orgId` [query] (string): Organization to which the `device` belongs.
 
 ## Cuerpo de la petición (application/json)
 - `tags` (array): Optional array of tag identifiers representing specific settings to fetch. If omitted or provided as an empty array, all settings for the device will be returned.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "tags": [
@@ -42,15 +47,54 @@ This requires a full, device, or read-only administrator auth token with a scope
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `tags` (array) **(requerido)**: Array of device setting values matching the requested tags.
-    - `familyOrModelDisplayName` (string) **(requerido)**: The display name of the device family or model associated with the returned tag.
-    - `tag` (string) **(requerido)**: The unique identifier for the device setting.
-    - `value` (string): The current value of the setting at device level. If the tag value is not set at the device level, this field will not be included in the response.
-    - `parentValue` (string): The setting value at the next available `parentLevel`. It is used if `value` is not set and is omitted when no parent level exists for the tag.
-    - `parentLevel` (string): The level from which the tag's parent value is inherited. If there is no parent level for this tag, this field will not be included in the response. Valores: SYSTEM_DEFAULT, REGIONAL_DEFAULT, ORGANIZATION, LOCATION.
-  - `lastUpdateTime` (integer): Timestamp of the last update to these settings.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/lists/devices/<deviceId>/dynamicSettings/actions/getSettings/invoke' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `tags` (array) (**requerido**): Array of device setting values matching the requested tags.
+  - `familyOrModelDisplayName` (string) (**requerido**): The display name of the device family or model associated with the returned tag.
+  - `tag` (string) (**requerido**): The unique identifier for the device setting.
+  - `value` (string): The current value of the setting at device level. If the tag value is not set at the device level, this field will not be included in the response.
+  - `parentValue` (string): The setting value at the next available `parentLevel`. It is used if `value` is not set and is omitted when no parent level exists for the tag.
+  - `parentLevel` (string): The level from which the tag's parent value is inherited. If there is no parent level for this tag, this field will not be included in the response. Valores: SYSTEM_DEFAULT, REGIONAL_DEFAULT, ORGANIZATION, LOCATION.
+- `lastUpdateTime` (integer/int64): Timestamp of the last update to these settings.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "tags": [
+    {
+      "familyOrModelDisplayName": "Poly",
+      "tag": "%G711U_ORDER%",
+      "value": "4",
+      "parentValue": "3",
+      "parentLevel": "ORGANIZATION"
+    },
+    {
+      "familyOrModelDisplayName": "Poly",
+      "tag": "%ENABLE_BLUETOOTH%",
+      "parentValue": "0",
+      "parentLevel": "SYSTEM_DEFAULT"
+    },
+    {
+      "familyOrModelDisplayName": "Poly",
+      "tag": "%DO_UI_MENU_BACKGROUND%",
+      "value": "#1A1A1A",
+      "parentValue": "#FFFFFF",
+      "parentLevel": "LOCATION"
+    }
+  ],
+  "lastUpdateTime": 1651396800000
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -66,6 +110,9 @@ This requires a full, device, or read-only administrator auth token with a scope
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

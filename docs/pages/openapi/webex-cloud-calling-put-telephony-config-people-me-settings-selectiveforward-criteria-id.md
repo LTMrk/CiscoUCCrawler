@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-people-me-settings-selectiveforward-criteria-id
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/people/me/settings/selectiveForward/criteria/{id}
+operation_id: updateMySelectiveCallForwardingCriteriaSettings
+tags: Call Settings For Me With UserHub Phase2
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.572325+00:00
+retrieved_at: 2026-08-18T23:45:43.196882+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/selectiveForward/criteria/{id}
@@ -25,7 +30,7 @@ Selective Call Forward allows you to define rules that automatically forward inc
 This API requires a user auth token with a scope of `spark:telephony_config_write`.
 
 ## Parámetros
-- `id` [path] (string) **(requerido)**: The `id` parameter specifies the unique identifier for the selective call forwarding criteria. Example: `Y2lzY29zcGFyazovL3VzL0NSSVRFUklBL1oxNzU0MzgzODQzNTA5NzY`.
+- `id` [path] (string) (**requerido**): The `id` parameter specifies the unique identifier for the selective call forwarding criteria. Example: `Y2lzY29zcGFyazovL3VzL0NSSVRFUklBL1oxNzU0MzgzODQzNTA5NzY`.
 
 ## Cuerpo de la petición (application/json)
 - `forwardToPhoneNumber` (string): The phone number to which calls are forwarded when the criteria conditions are met.
@@ -39,7 +44,7 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 - `phoneNumbers` (array): List of phone numbers to update for this criteria. Required if `callsFrom` is `SELECT_PHONE_NUMBERS`.
 - `forwardEnabled` (boolean): Determines whether selective call forwarding is applied for calls matching this criteria. If `true`, the selective forwarding is applied. If `false`, this criteria acts as a 'Don't Forward' rule, preventing selectively forwarding of the calls. Criteria with `forwardEnabled` set to `false` (Don't Forward) take precedence over criteria with `forwardEnabled` set to `true` (Forward).
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "forwardToPhoneNumber": "+16175550100",
@@ -54,8 +59,18 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 }
 ```
 
-## Respuestas
-- **204**: Selective Call Forward Criteria Settings updated successfully.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/people/me/settings/selectiveForward/criteria/<id>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: Selective Call Forward Criteria Settings updated successfully.
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -71,6 +86,9 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-countries-countrycode
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/countries/{countryCode}
+operation_id: getCountryConfiguration
+tags: User Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.653815+00:00
+retrieved_at: 2026-08-18T23:45:43.386138+00:00
 ---
 
 # GET /telephony/config/countries/{countryCode}
@@ -25,17 +30,57 @@ This information helps administrators configure user settings with valid timezon
 This API requires a full or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `countryCode` [path] (string) **(requerido)**: The ISO country code to retrieve configuration for.
+- `countryCode` [path] (string) (**requerido**): The ISO country code to retrieve configuration for.
 - `orgId` [query] (string): Organization ID. If not specified, uses the organization from the OAuth token.
 
-## Respuestas
-- **200**: OK
-  - `stateRequired` (boolean) **(requerido)**: Indicates whether state is required for this country.
-  - `zipCodeRequired` (boolean) **(requerido)**: Indicates whether zip code is required for this country.
-  - `states` (array) **(requerido)**: List of states available for this country. Returns all items in a single response.
-    - `code` (string) **(requerido)**: Two-letter state or province abbreviation (e.g., CA for California).
-    - `name` (string) **(requerido)**: Full name of the state or province.
-  - `timeZones` (array) **(requerido)**: List of time zones supported for this country. Returns all items in a single response.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/countries/<countryCode>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `stateRequired` (boolean) (**requerido**): Indicates whether state is required for this country.
+- `zipCodeRequired` (boolean) (**requerido**): Indicates whether zip code is required for this country.
+- `states` (array) (**requerido**): List of states available for this country. Returns all items in a single response.
+  - `code` (string) (**requerido**): Two-letter state or province abbreviation (e.g., CA for California).
+  - `name` (string) (**requerido**): Full name of the state or province.
+- `timeZones` (array) (**requerido**): List of time zones supported for this country. Returns all items in a single response.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "stateRequired": true,
+  "zipCodeRequired": true,
+  "states": [
+    {
+      "code": "AA",
+      "name": "Armed Forces Americas"
+    },
+    {
+      "code": "AE",
+      "name": "Armed Forces Europe"
+    },
+    {
+      "code": "WY",
+      "name": "Wyoming"
+    }
+  ],
+  "timeZones": [
+    "America/Adak",
+    "America/Anchorage",
+    "America/Chicago",
+    "America/Denver",
+    "America/Los_Angeles",
+    "America/New_York",
+    "America/Phoenix",
+    "Pacific/Honolulu"
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -51,6 +96,9 @@ This API requires a full or read-only administrator auth token with a scope of `
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

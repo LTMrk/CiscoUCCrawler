@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-locations-locationid-queues-queueid-forcedforward
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/queues/{queueId}/forcedForward
+operation_id: getCallQueueForcedForward
+tags: Features:  Call Queue
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.604940+00:00
+retrieved_at: 2026-08-18T23:45:43.301626+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/queues/{queueId}/forcedForward
@@ -25,22 +30,63 @@ This policy allows calls to be temporarily diverted to a configured destination.
 Retrieving call queue Forced Forward details requires a full or read-only administrator or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Retrieve settings for a call queue in this location.
-- `queueId` [path] (string) **(requerido)**: Retrieve settings for the call queue with this identifier.
+- `locationId` [path] (string) (**requerido**): Retrieve settings for a call queue in this location.
+- `queueId` [path] (string) (**requerido**): Retrieve settings for the call queue with this identifier.
 - `orgId` [query] (string): Retrieve call queue settings from this organization.
 
-## Respuestas
-- **200**: OK
-  - `forcedForwardEnabled` (boolean) **(requerido)**: Whether or not the call queue forced forward routing policy setting is enabled.
-  - `transferPhoneNumber` (string): Call gets transferred to this number when action is set to `TRANSFER`. This can also be an extension.
-  - `playAnnouncementBeforeEnabled` (boolean) **(requerido)**: Indicates whether an announcement plays to callers before the action is applied.
-  - `audioMessageSelection` (string) **(requerido)**: The type of announcement to be played.  * `DEFAULT` - Default Audio Message Selection.  * `CUSTOM` - Custom Audio Message Selection. Valores: DEFAULT, CUSTOM.
-  - `audioFiles` (array): List of Announcement Audio Files when `audioMessageSelection` is `CUSTOM`.
-    - `id` (string) **(requerido)**: A unique identifier for the announcement.
-    - `fileName` (string) **(requerido)**: Audio announcement file name.
-    - `mediaFileType` (string) **(requerido)**: Audio announcement file type.  * `WAV` - WAV File Extension.  * `WMA` - WMA File Extension.  * `3GP` - 3GP File Extension. Valores: WAV, WMA, 3GP.
-    - `level` (string) **(requerido)**: Audio announcement file type location.  * `ORGANIZATION` - Audio file is configured across organization.  * `LOCATION` - Audio file is configured across location.  * `ENTITY` - Audio file is configured on instance level. Valores: ORGANIZATION, LOCATION, ENTITY.
-    - `isTextToSpeech` (boolean) **(requerido)**: Indicates whether the announcement is a text-to-speech file.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/locations/<locationId>/queues/<queueId>/forcedForward' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `forcedForwardEnabled` (boolean) (**requerido**): Whether or not the call queue forced forward routing policy setting is enabled.
+- `transferPhoneNumber` (string): Call gets transferred to this number when action is set to `TRANSFER`. This can also be an extension.
+- `playAnnouncementBeforeEnabled` (boolean) (**requerido**): Indicates whether an announcement plays to callers before the action is applied.
+- `audioMessageSelection` (string) (**requerido**): The type of announcement to be played.  * `DEFAULT` - Default Audio Message Selection.  * `CUSTOM` - Custom Audio Message Selection. Valores: DEFAULT, CUSTOM.
+- `audioFiles` (array): List of Announcement Audio Files when `audioMessageSelection` is `CUSTOM`.
+  - `id` (string) (**requerido**): A unique identifier for the announcement.
+  - `fileName` (string) (**requerido**): Audio announcement file name.
+  - `mediaFileType` (string) (**requerido**): Audio announcement file type.  * `WAV` - WAV File Extension.  * `WMA` - WMA File Extension.  * `3GP` - 3GP File Extension. Valores: WAV, WMA, 3GP.
+  - `level` (string) (**requerido**): Audio announcement file type location.  * `ORGANIZATION` - Audio file is configured across organization.  * `LOCATION` - Audio file is configured across location.  * `ENTITY` - Audio file is configured on instance level. Valores: ORGANIZATION, LOCATION, ENTITY.
+  - `isTextToSpeech` (boolean) (**requerido**): Indicates whether the announcement is a text-to-speech file.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "forcedForwardEnabled": true,
+  "transferPhoneNumber": "+911235557890",
+  "playAnnouncementBeforeEnabled": true,
+  "audioMessageSelection": "DEFAULT",
+  "audioFiles": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC9jZWRkODcwYS1lMTkzLTQxNmQtYmM3OS1mNzkyYmUyMzlhOGI",
+      "fileName": "AUDIO_FILE.wav",
+      "mediaFileType": "WAV",
+      "level": "ORGANIZATION",
+      "isTextToSpeech": false
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC8zMjAxNjRmNC1lNWEzLTQxZmYtYTMyNi02N2MwOThlNDFoNmc",
+      "fileName": "AUDIO_FILE_1.wav",
+      "mediaFileType": "WAV",
+      "level": "LOCATION",
+      "isTextToSpeech": false
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC8zMjAxNjRmNC1lNWEzLTQxZmYtYTMyNi02N2MwOThlNDFrMWY",
+      "fileName": "AUDIO_FILE_3.wav",
+      "mediaFileType": "WAV",
+      "level": "ORGANIZATION",
+      "isTextToSpeech": false
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -56,6 +102,9 @@ Retrieving call queue Forced Forward details requires a full or read-only admini
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

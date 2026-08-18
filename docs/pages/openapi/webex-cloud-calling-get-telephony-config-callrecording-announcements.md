@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-callrecording-announcements
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/callRecording/announcements
+operation_id: getOrganizationCallRecordingAnnouncementSettings
+tags: Features: Call Recording
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.610903+00:00
+retrieved_at: 2026-08-18T23:45:43.312612+00:00
 ---
 
 # GET /telephony/config/callRecording/announcements
@@ -27,48 +32,117 @@ Retrieving organization compliance announcement setting requires a full or read-
 ## Parámetros
 - `orgId` [query] (string): Retrieve call recording announcements setting from this organization.
 
-## Respuestas
-- **200**: OK
-  - `start` (object) **(requerido)**: The start announcement settings for this organization.
-    - `type` (string): Type of announcement file to be played.  * `CUSTOM` - Custom announcement file.  * `DEFAULT` - Default announcement file. Valores: CUSTOM, DEFAULT.
-    - `audioAnnouncementFile` (object): The custom audio announcement file to be played.
-      - `id` (string): Unique identifier for the custom audio announcement file.
-      - `fileName` (string): The original file name of the uploaded custom audio announcement.
-      - `mediaFileType` (string): Type of the announcement file. Type is an enum with supported values WAV Valores: WAV.
-      - `level` (string): Announcement audio file level. Valores: ORGANIZATION, LOCATION.
-      - `isTextToSpeech` (boolean): Indicates if the announcement is created by TTS.
-  - `stop` (object) **(requerido)**: The stop announcement settings for this organization.
-    - `type` (string): Type of announcement file to be played.  * `CUSTOM` - Custom announcement file.  * `DEFAULT` - Default announcement file. Valores: CUSTOM, DEFAULT.
-    - `audioAnnouncementFile` (object): The custom audio announcement file to be played.
-      - `id` (string): Unique identifier for the custom audio announcement file.
-      - `fileName` (string): The original file name of the uploaded custom audio announcement.
-      - `mediaFileType` (string): Type of the announcement file. Type is an enum with supported values WAV Valores: WAV.
-      - `level` (string): Announcement audio file level. Valores: ORGANIZATION, LOCATION.
-      - `isTextToSpeech` (boolean): Indicates if the announcement is created by TTS.
-  - `pause` (object) **(requerido)**: The pause announcement settings for this organization.
-    - `type` (string): Type of announcement file to be played.  * `CUSTOM` - Custom announcement file.  * `DEFAULT` - Default announcement file. Valores: CUSTOM, DEFAULT.
-    - `audioAnnouncementFile` (object): The custom audio announcement file to be played.
-      - `id` (string): Unique identifier for the custom audio announcement file.
-      - `fileName` (string): The original file name of the uploaded custom audio announcement.
-      - `mediaFileType` (string): Type of the announcement file. Type is an enum with supported values WAV Valores: WAV.
-      - `level` (string): Announcement audio file level. Valores: ORGANIZATION, LOCATION.
-      - `isTextToSpeech` (boolean): Indicates if the announcement is created by TTS.
-  - `resume` (object) **(requerido)**: The resume announcement settings for this organization.
-    - `type` (string): Type of announcement file to be played.  * `CUSTOM` - Custom announcement file.  * `DEFAULT` - Default announcement file. Valores: CUSTOM, DEFAULT.
-    - `audioAnnouncementFile` (object): The custom audio announcement file to be played.
-      - `id` (string): Unique identifier for the custom audio announcement file.
-      - `fileName` (string): The original file name of the uploaded custom audio announcement.
-      - `mediaFileType` (string): Type of the announcement file. Type is an enum with supported values WAV Valores: WAV.
-      - `level` (string): Announcement audio file level. Valores: ORGANIZATION, LOCATION.
-      - `isTextToSpeech` (boolean): Indicates if the announcement is created by TTS.
-  - `failureProceedWithCall` (object) **(requerido)**: The failure proceed with call announcement settings for this organization.
-    - `type` (string): Type of announcement file to be played.  * `CUSTOM` - Custom announcement file.  * `DEFAULT` - Default announcement file. Valores: CUSTOM, DEFAULT.
-    - `audioAnnouncementFile` (object): The custom audio announcement file to be played.
-      - `id` (string): Unique identifier for the custom audio announcement file.
-      - `fileName` (string): The original file name of the uploaded custom audio announcement.
-      - `mediaFileType` (string): Type of the announcement file. Type is an enum with supported values WAV Valores: WAV.
-      - `level` (string): Announcement audio file level. Valores: ORGANIZATION, LOCATION.
-      - `isTextToSpeech` (boolean): Indicates if the announcement is created by TTS.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/callRecording/announcements' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `start` (object) (**requerido**): The start announcement settings for this organization.
+  - `type` (string): Type of announcement file to be played.  * `CUSTOM` - Custom announcement file.  * `DEFAULT` - Default announcement file. Valores: CUSTOM, DEFAULT.
+  - `audioAnnouncementFile` (object): The custom audio announcement file to be played.
+    - `id` (string): Unique identifier for the custom audio announcement file.
+    - `fileName` (string): The original file name of the uploaded custom audio announcement.
+    - `mediaFileType` (string): Type of the announcement file. Type is an enum with supported values WAV Valores: WAV.
+    - `level` (string): Announcement audio file level. Valores: ORGANIZATION, LOCATION.
+    - `isTextToSpeech` (boolean): Indicates if the announcement is created by TTS.
+- `stop` (object) (**requerido**): The stop announcement settings for this organization.
+  - `type` (string): Type of announcement file to be played.  * `CUSTOM` - Custom announcement file.  * `DEFAULT` - Default announcement file. Valores: CUSTOM, DEFAULT.
+  - `audioAnnouncementFile` (object): The custom audio announcement file to be played.
+    - `id` (string): Unique identifier for the custom audio announcement file.
+    - `fileName` (string): The original file name of the uploaded custom audio announcement.
+    - `mediaFileType` (string): Type of the announcement file. Type is an enum with supported values WAV Valores: WAV.
+    - `level` (string): Announcement audio file level. Valores: ORGANIZATION, LOCATION.
+    - `isTextToSpeech` (boolean): Indicates if the announcement is created by TTS.
+- `pause` (object) (**requerido**): The pause announcement settings for this organization.
+  - `type` (string): Type of announcement file to be played.  * `CUSTOM` - Custom announcement file.  * `DEFAULT` - Default announcement file. Valores: CUSTOM, DEFAULT.
+  - `audioAnnouncementFile` (object): The custom audio announcement file to be played.
+    - `id` (string): Unique identifier for the custom audio announcement file.
+    - `fileName` (string): The original file name of the uploaded custom audio announcement.
+    - `mediaFileType` (string): Type of the announcement file. Type is an enum with supported values WAV Valores: WAV.
+    - `level` (string): Announcement audio file level. Valores: ORGANIZATION, LOCATION.
+    - `isTextToSpeech` (boolean): Indicates if the announcement is created by TTS.
+- `resume` (object) (**requerido**): The resume announcement settings for this organization.
+  - `type` (string): Type of announcement file to be played.  * `CUSTOM` - Custom announcement file.  * `DEFAULT` - Default announcement file. Valores: CUSTOM, DEFAULT.
+  - `audioAnnouncementFile` (object): The custom audio announcement file to be played.
+    - `id` (string): Unique identifier for the custom audio announcement file.
+    - `fileName` (string): The original file name of the uploaded custom audio announcement.
+    - `mediaFileType` (string): Type of the announcement file. Type is an enum with supported values WAV Valores: WAV.
+    - `level` (string): Announcement audio file level. Valores: ORGANIZATION, LOCATION.
+    - `isTextToSpeech` (boolean): Indicates if the announcement is created by TTS.
+- `failureProceedWithCall` (object) (**requerido**): The failure proceed with call announcement settings for this organization.
+  - `type` (string): Type of announcement file to be played.  * `CUSTOM` - Custom announcement file.  * `DEFAULT` - Default announcement file. Valores: CUSTOM, DEFAULT.
+  - `audioAnnouncementFile` (object): The custom audio announcement file to be played.
+    - `id` (string): Unique identifier for the custom audio announcement file.
+    - `fileName` (string): The original file name of the uploaded custom audio announcement.
+    - `mediaFileType` (string): Type of the announcement file. Type is an enum with supported values WAV Valores: WAV.
+    - `level` (string): Announcement audio file level. Valores: ORGANIZATION, LOCATION.
+    - `isTextToSpeech` (boolean): Indicates if the announcement is created by TTS.
+- `failureEndWithCall` (object) (**requerido**): The failure end with call announcement settings for this organization.
+  - `type` (string): Type of announcement file to be played.  * `CUSTOM` - Custom announcement file.  * `DEFAULT` - Default announcement file. Valores: CUSTOM, DEFAULT.
+  - `audioAnnouncementFile` (object): The custom audio announcement file to be played.
+    - `id` (string): Unique identifier for the custom audio announcement file.
+    - `fileName` (string): The original file name of the uploaded custom audio announcement.
+    - `mediaFileType` (string): Type of the announcement file. Type is an enum with supported values WAV Valores: WAV.
+    - `level` (string): Announcement audio file level. Valores: ORGANIZATION, LOCATION.
+    - `isTextToSpeech` (boolean): Indicates if the announcement is created by TTS.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "start": {
+    "type": "CUSTOM",
+    "audioAnnouncementFile": {
+      "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC9iOTg2MWI3MS1hN2MxLTQxZmUtYjNmZC1lZDNkOTdjYTFjMzQ=",
+      "fileName": "SampleAnnouncement",
+      "mediaFileType": "WAV",
+      "level": "ORGANIZATION",
+      "isTextToSpeech": true
+    }
+  },
+  "stop": {
+    "type": "CUSTOM",
+    "audioAnnouncementFile": {
+      "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC82ZjU0Y2NhNS05ZWY5LTQ3N2EtYThkNi0wY2EyNzU4MTAxM2Y=",
+      "fileName": "SampleAnnouncement",
+      "mediaFileType": "WAV",
+      "level": "ORGANIZATION",
+      "isTextToSpeech": true
+    }
+  },
+  "pause": {
+    "type": "CUSTOM",
+    "audioAnnouncementFile": {
+      "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC82M2NiYTMwOS05NjQ2LTQzMjUtOTZlNC02N2ZmYWVlZjNiOWI=",
+      "fileName": "SampleAnnouncement",
+      "mediaFileType": "WAV",
+      "level": "ORGANIZATION",
+      "isTextToSpeech": true
+    }
+  },
+  "resume": {
+    "type": "CUSTOM",
+    "audioAnnouncementFile": {
+      "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC8xM2NlNzBkYS00NDkwLTQ2OWItOTg4YS1mYjA0MzExNmQ3ZTU=",
+      "fileName": "SampleAnnouncement",
+      "mediaFileType": "WAV",
+      "level": "ORGANIZATION",
+      "isTextToSpeech": true
+    }
+  },
+  "failureEndWithCall": {
+    "type": "CUSTOM",
+    "audioAnnouncementFile": {
+      "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC9mZTU4YTE1ZS1kNzMwLTQ4ZGYtYWU4Ny1jNjc5YjM3YmQ4Mzk=",
+      "fileName": "SampleAnnouncement",
+      "mediaFileType": "WAV",
+ 
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -84,6 +158,9 @@ Retrieving organization compliance announcement setting requires a full or read-
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

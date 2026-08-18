@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-1000-217062-guidance-for-smooth-upgrade-from-cisco-m-html-72c01a1997
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217062-guidance-for-smooth-upgrade-from-cisco-m.html
-retrieved_at: 2026-08-16T14:20:50.706852+00:00
+retrieved_at: 2026-08-18T23:47:56.169748+00:00
 ---
 
 Guidance for Smooth Upgrade from Cisco Meeting Server 2.9 to 3.0 (and Onwards)
 
 # Guidance for Smooth Upgrade from Cisco Meeting Server 2.9 to 3.0 (and Onwards)
-
-Log in to Save Content
 
 ### Download Options
 

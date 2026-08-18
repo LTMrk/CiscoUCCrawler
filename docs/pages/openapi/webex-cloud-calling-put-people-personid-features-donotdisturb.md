@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-people-personid-features-donotdisturb
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /people/{personId}/features/doNotDisturb
+operation_id: Configure Do Not Disturb Settings for a Person
+tags: User Call Settings (1/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.638721+00:00
+retrieved_at: 2026-08-18T23:45:43.362943+00:00
 ---
 
 # PUT /people/{personId}/features/doNotDisturb
@@ -25,15 +30,15 @@ When enabled, this feature will give all incoming calls the busy treatment. Opti
 This API requires a full or user administrator auth token with the `spark-admin:people_write` scope or a user auth token with `spark:people_write` scope can be used by a person to update their settings.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: Unique identifier for the person.
+- `personId` [path] (string) (**requerido**): Unique identifier for the person.
 - `orgId` [query] (string): ID of the organization in which the person resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access API.
 
 ## Cuerpo de la petición (application/json)
 - `enabled` (boolean): `true` if the Do Not Disturb feature is enabled.
 - `ringSplashEnabled` (boolean): Enables a Ring Reminder to play a brief tone on your desktop phone when you receive incoming calls.
-- `webexGoOverrideEnabled` (boolean) **(requerido)**: `true` if a mobile device will still ring even if Do Not Disturb is enabled.
+- `webexGoOverrideEnabled` (boolean) (**requerido**): `true` if a mobile device will still ring even if Do Not Disturb is enabled.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "enabled": true,
@@ -42,8 +47,18 @@ This API requires a full or user administrator auth token with the `spark-admin:
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/people/<personId>/features/doNotDisturb' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"webexGoOverrideEnabled": true}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -59,6 +74,9 @@ This API requires a full or user administrator auth token with the `spark-admin:
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

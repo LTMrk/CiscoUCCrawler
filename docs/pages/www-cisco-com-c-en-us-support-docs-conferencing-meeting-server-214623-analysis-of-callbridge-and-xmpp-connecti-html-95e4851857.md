@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-214623-analysis-of-callbridge-and-xmpp-connecti-html-95e4851857
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214623-analysis-of-callbridge-and-xmpp-connecti.html
-retrieved_at: 2026-08-16T14:22:19.047984+00:00
+retrieved_at: 2026-08-18T23:49:07.191493+00:00
 ---
 
 Analysis of Callbridge and XMPP Connection Signaling on CMS
 
 # Analysis of Callbridge and XMPP Connection Signaling on CMS
-
-Log in to Save Content
 
 ### Download Options
 
@@ -89,12 +87,6 @@ Note : The Callbridge ID and password must be previously configured, the configu
 Sharan Sampath
 
 Cisco TAC Engineer
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 

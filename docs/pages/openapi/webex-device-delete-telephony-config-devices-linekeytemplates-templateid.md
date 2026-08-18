@@ -2,10 +2,15 @@
 doc_id: webex-device-delete-telephony-config-devices-linekeytemplates-templateid
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: DELETE
 path: /telephony/config/devices/lineKeyTemplates/{templateId}
+operation_id: deleteLineKeyTemplate
+tags: Device Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.128279+00:00
+retrieved_at: 2026-08-18T23:45:44.195803+00:00
 ---
 
 # DELETE /telephony/config/devices/lineKeyTemplates/{templateId}
@@ -27,11 +32,19 @@ This API allows users to delete an existing Line Key Templates by its ID in an o
 Deleting an existing line key template requires a full administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `templateId` [path] (string) **(requerido)**: Delete line key template with this template ID.
+- `templateId` [path] (string) (**requerido**): Delete line key template with this template ID.
 - `orgId` [query] (string): Delete a line key template for this organization.
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X DELETE '/telephony/config/devices/lineKeyTemplates/<templateId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -47,6 +60,9 @@ Deleting an existing line key template requires a full administrator auth token 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

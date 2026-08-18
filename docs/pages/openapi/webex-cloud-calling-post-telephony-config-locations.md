@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-locations
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/locations
+operation_id: Enable a Location for Webex Calling
+tags: Location Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.621184+00:00
+retrieved_at: 2026-08-18T23:45:43.330398+00:00
 ---
 
 # POST /telephony/config/locations
@@ -29,20 +34,20 @@ This API requires a full administrator auth token with a scope of `spark-admin:t
 - `orgId` [query] (string): ID of the organization in which the person resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access API.
 
 ## Cuerpo de la petición (application/json)
-- `id` (string) **(requerido)**: A unique identifier for the location.
-- `name` (string) **(requerido)**: The name of the location.
-- `timeZone` (string) **(requerido)**: Time zone associated with this location. Refer to this link (https://developer.webex.com/docs/api/guides/webex-for-broadworks-developers-guide#webex-meetings-site-timezone) for the format.
-- `preferredLanguage` (string) **(requerido)**: Default email language.
-- `announcementLanguage` (string) **(requerido)**: Location's phone announcement language.
-- `address` (object) **(requerido)**: The address of the location.
-  - `address1` (string) **(requerido)**: Address 1 of the location.
+- `id` (string) (**requerido**): A unique identifier for the location.
+- `name` (string) (**requerido**): The name of the location.
+- `timeZone` (string) (**requerido**): Time zone associated with this location. Refer to this link (https://developer.webex.com/docs/api/guides/webex-for-broadworks-developers-guide#webex-meetings-site-timezone) for the format.
+- `preferredLanguage` (string) (**requerido**): Default email language.
+- `announcementLanguage` (string) (**requerido**): Location's phone announcement language.
+- `address` (object) (**requerido**): The address of the location.
+  - `address1` (string) (**requerido**): Address 1 of the location.
   - `address2` (string): Address 2 of the location.
-  - `city` (string) **(requerido)**: City of the location.
-  - `state` (string) **(requerido)**: State code of the location.
-  - `postalCode` (string) **(requerido)**: Postal code of the location.
-  - `country` (string) **(requerido)**: ISO-3166 2-Letter country code of the location.
+  - `city` (string) (**requerido**): City of the location.
+  - `state` (string) (**requerido**): State code of the location.
+  - `postalCode` (string) (**requerido**): Postal code of the location.
+  - `country` (string) (**requerido**): ISO-3166 2-Letter country code of the location.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzhmZjMwMjg5LWVhMzMtNDc1Ny1iMTBmLWQ2MWIyNzFhMDVlZg",
@@ -61,9 +66,26 @@ This API requires a full administrator auth token with a scope of `spark-admin:t
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `id` (string) **(requerido)**: A unique identifier for the location.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/locations' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"id": "<id>", "name": "<name>", "timeZone": "<timeZone>", "preferredLanguage": "<preferredLanguage>", "announcementLanguage": "<announcementLanguage>", "address": {}}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `id` (string) (**requerido**): A unique identifier for the location.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzljYTNhZmQ3LTE5MjYtNGQ0ZS05ZDA3LTk5ZDJjMGU4OGFhMA"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -79,6 +101,9 @@ This API requires a full administrator auth token with a scope of `spark-admin:t
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

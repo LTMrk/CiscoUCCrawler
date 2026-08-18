@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-virtuallines-virtuallineid-callforwarding
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/callForwarding
+operation_id: Read Call Forwarding Settings for a Virtual Line
+tags: Virtual Line Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.657514+00:00
+retrieved_at: 2026-08-18T23:45:43.391999+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/callForwarding
@@ -33,31 +38,66 @@ In addition, the Business Continuity feature will send calls to a destination of
 Retrieving the call forwarding settings for a virtual line requires a full, user, read-only administrator, or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `virtualLineId` [path] (string) **(requerido)**: Retrieve settings for a virtual line with the matching ID.
+- `virtualLineId` [path] (string) (**requerido**): Retrieve settings for a virtual line with the matching ID.
 - `orgId` [query] (string): ID of the organization in which the virtual line resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access API.
 
-## Respuestas
-- **200**: OK
-  - `callForwarding` (object) **(requerido)**: Settings related to "Always", "Busy", and "No Answer" call forwarding.
-    - `always` (object) **(requerido)**: Settings for forwarding all incoming calls to the destination you choose.
-      - `enabled` (boolean) **(requerido)**: "Always" call forwarding is enabled or disabled.
-      - `destination` (string): Destination for "Always" call forwarding.
-      - `ringReminderEnabled` (boolean) **(requerido)**: If `true`, a brief tone will be played on the virtual line's phone when a call has been forwarded.
-      - `destinationVoicemailEnabled` (boolean) **(requerido)**: Indicates enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
-    - `busy` (object) **(requerido)**: Settings for forwarding all incoming calls to the destination you chose while the phone is in use or the virtual line is busy.
-      - `enabled` (boolean) **(requerido)**: "Busy" call forwarding is enabled or disabled.
-      - `destination` (string): Destination for "Busy" call forwarding.
-      - `destinationVoicemailEnabled` (boolean) **(requerido)**: Indicates the enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
-    - `noAnswer` (object) **(requerido)**: Settings for forwarding which only occurs when you are away or not answering your phone.
-      - `enabled` (boolean) **(requerido)**: "No Answer" call forwarding is enabled or disabled.
-      - `destination` (string): Destination for "No Answer" call forwarding.
-      - `numberOfRings` (number) **(requerido)**: Number of rings before the call will be forwarded if unanswered.
-      - `systemMaxNumberOfRings` (number) **(requerido)**: System-wide maximum number of rings allowed for `numberOfRings` setting.
-      - `destinationVoicemailEnabled` (boolean) **(requerido)**: Indicates the enabled or disabled state of sending incoming calls to destination number's voicemail if the destination is an internal phone number and that number has the voicemail service enabled.
-  - `businessContinuity` (object) **(requerido)**: Settings for sending calls to a destination of your choice if your phone is not connected to the network for any reason, such as power outage, failed Internet connection, or wiring problem.
-    - `enabled` (boolean) **(requerido)**: Business Continuity is enabled or disabled.
-    - `destination` (string): Destination for Business Continuity.
-    - `destinationVoicemailEnabled` (boolean) **(requerido)**: Indicates enabled or disabled state of sending incoming calls to the destination number's voicemail if the destination is an internal phone number and that number has the voicemail service enabled.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/virtualLines/<virtualLineId>/callForwarding' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `callForwarding` (object) (**requerido**): Settings related to "Always", "Busy", and "No Answer" call forwarding.
+  - `always` (object) (**requerido**): Settings for forwarding all incoming calls to the destination you choose.
+    - `enabled` (boolean) (**requerido**): "Always" call forwarding is enabled or disabled.
+    - `destination` (string): Destination for "Always" call forwarding.
+    - `ringReminderEnabled` (boolean) (**requerido**): If `true`, a brief tone will be played on the virtual line's phone when a call has been forwarded.
+    - `destinationVoicemailEnabled` (boolean) (**requerido**): Indicates enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
+  - `busy` (object) (**requerido**): Settings for forwarding all incoming calls to the destination you chose while the phone is in use or the virtual line is busy.
+    - `enabled` (boolean) (**requerido**): "Busy" call forwarding is enabled or disabled.
+    - `destination` (string): Destination for "Busy" call forwarding.
+    - `destinationVoicemailEnabled` (boolean) (**requerido**): Indicates the enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
+  - `noAnswer` (object) (**requerido**): Settings for forwarding which only occurs when you are away or not answering your phone.
+    - `enabled` (boolean) (**requerido**): "No Answer" call forwarding is enabled or disabled.
+    - `destination` (string): Destination for "No Answer" call forwarding.
+    - `numberOfRings` (number) (**requerido**): Number of rings before the call will be forwarded if unanswered.
+    - `systemMaxNumberOfRings` (number) (**requerido**): System-wide maximum number of rings allowed for `numberOfRings` setting.
+    - `destinationVoicemailEnabled` (boolean) (**requerido**): Indicates the enabled or disabled state of sending incoming calls to destination number's voicemail if the destination is an internal phone number and that number has the voicemail service enabled.
+- `businessContinuity` (object) (**requerido**): Settings for sending calls to a destination of your choice if your phone is not connected to the network for any reason, such as power outage, failed Internet connection, or wiring problem.
+  - `enabled` (boolean) (**requerido**): Business Continuity is enabled or disabled.
+  - `destination` (string): Destination for Business Continuity.
+  - `destinationVoicemailEnabled` (boolean) (**requerido**): Indicates enabled or disabled state of sending incoming calls to the destination number's voicemail if the destination is an internal phone number and that number has the voicemail service enabled.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "callForwarding": {
+    "always": {
+      "enabled": false,
+      "ringReminderEnabled": false,
+      "destinationVoicemailEnabled": false
+    },
+    "busy": {
+      "enabled": false,
+      "destinationVoicemailEnabled": false
+    },
+    "noAnswer": {
+      "enabled": false,
+      "numberOfRings": 2,
+      "systemMaxNumberOfRings": 20,
+      "destinationVoicemailEnabled": false
+    }
+  },
+  "businessContinuity": {
+    "enabled": false,
+    "destinationVoicemailEnabled": false
+  }
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -73,6 +113,9 @@ Retrieving the call forwarding settings for a virtual line requires a full, user
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

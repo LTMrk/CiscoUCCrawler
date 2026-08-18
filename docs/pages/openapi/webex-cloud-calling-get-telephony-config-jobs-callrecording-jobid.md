@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-jobs-callrecording-jobid
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/jobs/callRecording/{jobId}
+operation_id: getTheJobStatusOfACallRecordingJob
+tags: Features: Call Recording
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.610409+00:00
+retrieved_at: 2026-08-18T23:45:43.311657+00:00
 ---
 
 # GET /telephony/config/jobs/callRecording/{jobId}
@@ -25,40 +30,87 @@ The Call Recording feature supports multiple third-party call recording provider
 Requires a full or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `jobId` [path] (string) **(requerido)**: Retrieve job status for this `jobId`.
+- `jobId` [path] (string) (**requerido**): Retrieve job status for this `jobId`.
 - `orgId` [query] (string): Retrieve job status in this organization.
 
-## Respuestas
-- **200**: OK
-  - `name` (string): Name of the job.
-  - `id` (string) **(requerido)**: Unique identifier of the job.
-  - `trackingId` (string) **(requerido)**: Unique identifier to track the flow of HTTP requests.
-  - `sourceUserId` (string) **(requerido)**: Unique identifier of the user who has run the job.
-  - `sourceCustomerId` (string) **(requerido)**: Unique identifier of the customer who has run the job.
-  - `targetCustomerId` (string) **(requerido)**: Unique identifier of the customer for which the job was run.
-  - `instanceId` (number) **(requerido)**: Unique identifier to identify the instance of the job.
-  - `jobExecutionStatus` (array): Displays the most recent step's execution status. Contains execution statuses of all the steps involved in the execution of the job.
-    - `id` (number) **(requerido)**: Unique identifier that identifies each instance of the job.
-    - `startTime` (string): The date and time with seconds, the job has started in UTC format.
-    - `endTime` (string): The date and time with seconds, the job has ended in UTC format.
-    - `lastUpdated` (string) **(requerido)**: The date and time with seconds, the job has last updated in UTC format post one of the step execution completion.
-    - `statusMessage` (string) **(requerido)**: Displays status for overall steps that are part of the job.  * `STARTING` - Job has started.  * `STARTED` - Job is in progress.  * `COMPLETED` - Job has completed.  * `FAILED` - Job has failed.  * `UNKNOWN` - Job status is unknown.  * `ABANDONED` - Job has been abandoned (manually stopped). Valores: STARTING, STARTED, COMPLETED, FAILED, UNKNOWN, ABANDONED.
-    - `exitCode` (string): Exit Code for a job.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors.  * `COMPLETED_WITH_PENDING_ORDERS` - Job has completed with pending number orders. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS, COMPLETED_WITH_PENDING_ORDERS.
-    - `createdTime` (string) **(requerido)**: The date and time with seconds, the job has created in UTC format.
-    - `timeElapsed` (string) **(requerido)**: Time lapsed in seconds since the job execution started.
-    - `stepExecutionStatuses` (array): Status of each step within a job.
-      - `id` (number) **(requerido)**: Unique identifier that identifies each step in a job.
-      - `startTime` (string): The date and time with seconds, the step execution has started in UTC format.
-      - `endTime` (string): The date and time with seconds, the step execution has ended in UTC format.
-      - `lastUpdated` (string) **(requerido)**: The date and time with seconds, the step has last updated in UTC format.
-      - `statusMessage` (string) **(requerido)**: Displays status for a step.  * `STARTING` - Job has started.  * `STARTED` - Job is in progress.  * `COMPLETED` - Job has completed.  * `FAILED` - Job has failed.  * `UNKNOWN` - Job status is unknown.  * `ABANDONED` - Job has been abandoned (manually stopped). Valores: STARTING, STARTED, COMPLETED, FAILED, UNKNOWN, ABANDONED.
-      - `exitCode` (string): Exit Code for a step.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors.  * `COMPLETED_WITH_PENDING_ORDERS` - Job has completed with pending number orders. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS, COMPLETED_WITH_PENDING_ORDERS.
-      - `name` (string) **(requerido)**: Step name.
-      - `timeElapsed` (string) **(requerido)**: Time lapsed in seconds since the job execution started.
-  - `latestExecutionStatus` (object) **(requerido)**: Most recent status of the job at the time of invocation.
-  - `locationId` (string): Unique identifier of a location.
-  - `vendorId` (string) **(requerido)**: Unique identifier of a vendor.
-  - `counts` (object) **(requerido)**: Job statistics.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/jobs/callRecording/<jobId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `name` (string): Name of the job.
+- `id` (string) (**requerido**): Unique identifier of the job.
+- `trackingId` (string) (**requerido**): Unique identifier to track the flow of HTTP requests.
+- `sourceUserId` (string) (**requerido**): Unique identifier of the user who has run the job.
+- `sourceCustomerId` (string) (**requerido**): Unique identifier of the customer who has run the job.
+- `targetCustomerId` (string) (**requerido**): Unique identifier of the customer for which the job was run.
+- `instanceId` (number) (**requerido**): Unique identifier to identify the instance of the job.
+- `jobExecutionStatus` (array): Displays the most recent step's execution status. Contains execution statuses of all the steps involved in the execution of the job.
+  - `id` (number) (**requerido**): Unique identifier that identifies each instance of the job.
+  - `startTime` (string): The date and time with seconds, the job has started in UTC format.
+  - `endTime` (string): The date and time with seconds, the job has ended in UTC format.
+  - `lastUpdated` (string) (**requerido**): The date and time with seconds, the job has last updated in UTC format post one of the step execution completion.
+  - `statusMessage` (string) (**requerido**): Displays status for overall steps that are part of the job.  * `STARTING` - Job has started.  * `STARTED` - Job is in progress.  * `COMPLETED` - Job has completed.  * `FAILED` - Job has failed.  * `UNKNOWN` - Job status is unknown.  * `ABANDONED` - Job has been abandoned (manually stopped). Valores: STARTING, STARTED, COMPLETED, FAILED, UNKNOWN, ABANDONED.
+  - `exitCode` (string): Exit Code for a job.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors.  * `COMPLETED_WITH_PENDING_ORDERS` - Job has completed with pending number orders. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS, COMPLETED_WITH_PENDING_ORDERS.
+  - `createdTime` (string) (**requerido**): The date and time with seconds, the job has created in UTC format.
+  - `timeElapsed` (string) (**requerido**): Time lapsed in seconds since the job execution started.
+  - `stepExecutionStatuses` (array): Status of each step within a job.
+    - `id` (number) (**requerido**): Unique identifier that identifies each step in a job.
+    - `startTime` (string): The date and time with seconds, the step execution has started in UTC format.
+    - `endTime` (string): The date and time with seconds, the step execution has ended in UTC format.
+    - `lastUpdated` (string) (**requerido**): The date and time with seconds, the step has last updated in UTC format.
+    - `statusMessage` (string) (**requerido**): Displays status for a step.  * `STARTING` - Job has started.  * `STARTED` - Job is in progress.  * `COMPLETED` - Job has completed.  * `FAILED` - Job has failed.  * `UNKNOWN` - Job status is unknown.  * `ABANDONED` - Job has been abandoned (manually stopped). Valores: STARTING, STARTED, COMPLETED, FAILED, UNKNOWN, ABANDONED.
+    - `exitCode` (string): Exit Code for a step.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors.  * `COMPLETED_WITH_PENDING_ORDERS` - Job has completed with pending number orders. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS, COMPLETED_WITH_PENDING_ORDERS.
+    - `name` (string) (**requerido**): Step name.
+    - `timeElapsed` (string) (**requerido**): Time lapsed in seconds since the job execution started.
+- `latestExecutionStatus` (object) (**requerido**): Most recent status of the job at the time of invocation.
+- `locationId` (string): Unique identifier of a location.
+- `vendorId` (string) (**requerido**): Unique identifier of a vendor.
+- `counts` (object) (**requerido**): Job statistics.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "name": "managecallrecordingprovider",
+  "id": "Y2lzY29zcGFyazovL3VzL0pPQl9JRC80ZDA4MDZhYy1hN2M3LTRjM2MtYmVlNy01NDM3MDk4MmYzMWI",
+  "trackingId": "ADMINBATCHCLIENT_a02c7b0c-4d28-4e98-b47b-0a135a4b287f_0",
+  "sourceUserId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9jODA2NzZhZC0yNjRlLTRmMWMtYmIwYS1jMWZiNmQ0ODlmZTI",
+  "sourceCustomerId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi8zNDEyODExZi0xMWI4LTQ2YTAtYWExNS1lZmEwMjRjODI5ODM",
+  "targetCustomerId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi8zNDEyODExZi0xMWI4LTQ2YTAtYWExNS1lZmEwMjRjODI5ODM",
+  "instanceId": 637210,
+  "jobExecutionStatus": [
+    {
+      "id": 660884,
+      "startTime": "2024-05-08T13:51:47.275Z",
+      "endTime": "2024-05-08T13:51:57.873Z",
+      "lastUpdated": "2024-05-08T13:51:57.978Z",
+      "statusMessage": "COMPLETED",
+      "exitCode": "COMPLETED",
+      "createdTime": "2024-05-08T13:51:47.018Z",
+      "stepExecutionStatuses": [
+        {
+          "id": 1909908,
+          "startTime": "2024-05-08T13:51:47.550Z",
+          "endTime": "2024-05-08T13:51:47.978Z",
+          "lastUpdated": "2024-05-08T13:51:47.978Z",
+          "statusMessage": "COMPLETED",
+          "exitCode": "COMPLETED",
+          "name": "managecallrecordingproviderGetUserThatNeedCallRecProviderUpdate",
+          "timeElapsed": "PT0.428S"
+        },
+        {
+          "id": 1909909,
+          "startTime": "2024-05-08T13:51:47.994Z",
+          "endTime": "2024-05-08T13:51:57.866Z",
+          "lastUpdated": "2024-05-08T13:51:57.866Z",
+          "stat
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -74,6 +126,9 @@ Requires a full or read-only administrator auth token with a scope of `spark-adm
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

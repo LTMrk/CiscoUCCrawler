@@ -2,10 +2,15 @@
 doc_id: webex-device-put-telephony-config-devices-deviceid-dynamicsettings
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/devices/{deviceId}/dynamicSettings
+operation_id: updateSpecifiedSettingsForTheDevice
+tags: Device Call Settings With Device Dynamic Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.132713+00:00
+retrieved_at: 2026-08-18T23:45:44.204216+00:00
 ---
 
 # PUT /telephony/config/devices/{deviceId}/dynamicSettings
@@ -25,16 +30,16 @@ This API updates device settings based on the specified `tags`. If the `tags` fi
 This requires a full, device, or read-only administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `deviceId` [path] (string) **(requerido)**: Device for which to update settings.
+- `deviceId` [path] (string) (**requerido**): Device for which to update settings.
 - `orgId` [query] (string): Organization to which the device belongs.
 
 ## Cuerpo de la petición (application/json)
 - `tags` (array): Optional array of `tag` identifiers representing specific settings to update. If omitted or provided as an empty array, the request will have no effect.
-  - `tag` (string) **(requerido)**: The unique identifier for the setting to be updated.
-  - `action` (string) **(requerido)**: The action to perform on the setting. When action is `SET`, `tag` is updated to specified value. When action is `CLEAR`, the `tag` value at device level is removed, and the device will inherit the value from the parent level, if it exists. Valores: SET, CLEAR.
-  - `value` (string): The new value to set for the setting. This field is required when `action` is `SET` and ignored otherwise.
+  - `tag` (string) (**requerido**): The unique identifier for the setting to be updated. Long. max: 64.
+  - `action` (string) (**requerido**): The action to perform on the setting. When action is `SET`, `tag` is updated to specified value. When action is `CLEAR`, the `tag` value at device level is removed, and the device will inherit the value from the parent level, if it exists. Valores: SET, CLEAR.
+  - `value` (string): The new value to set for the setting. This field is required when `action` is `SET` and ignored otherwise. Long. max: 256.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "tags": [
@@ -51,8 +56,18 @@ This requires a full, device, or read-only administrator auth token with a scope
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/devices/<deviceId>/dynamicSettings' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -68,6 +83,9 @@ This requires a full, device, or read-only administrator auth token with a scope
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

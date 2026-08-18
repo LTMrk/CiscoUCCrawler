@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-delete-telephony-config-supervisors
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: DELETE
 path: /telephony/config/supervisors
+operation_id: deleteBulkCallQueueSupervisors
+tags: Features:  Call Queue
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.606198+00:00
+retrieved_at: 2026-08-18T23:45:43.304005+00:00
 ---
 
 # DELETE /telephony/config/supervisors
@@ -15,7 +20,7 @@ retrieved_at: 2026-08-16T11:30:32.606198+00:00
 **operationId:** `deleteBulkCallQueueSupervisors`
 
 ## Resumen
-Delete the Call Queue or Customer Assist Supervisors
+Delete Call Queue or Customer Assist Supervisors
 
 ## Descripción
 Delete the Call Queue or Customer Assist supervisors for an organization. Once you remove the supervisor, assigned agents will lose their supervisor assignments.
@@ -28,11 +33,11 @@ Requires a full administrator auth token with a scope of `spark-admin:telephony_
 - `orgId` [query] (string): Delete supervisors in bulk for this organization.
 
 ## Cuerpo de la petición (application/json)
-- `supervisorIds` (array) **(requerido)**: Array of supervisors IDs to be deleted.
+- `supervisorIds` (array) (**requerido**): Array of supervisors IDs to be deleted.
 - `hasCxEssentials` (boolean): Delete the Customer Assist supervisors, when `true`. Otherwise delete the Call Queue supervisors. The default value is `false`.
 - `deleteAll` (boolean): If present the `supervisorIds` array is ignored, and all supervisors in the context are deleted. **WARNING**: This will remove all supervisors from the organization.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "supervisorIds": [
@@ -44,8 +49,18 @@ Requires a full administrator auth token with a scope of `spark-admin:telephony_
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X DELETE '/telephony/config/supervisors' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"supervisorIds": []}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -61,6 +76,9 @@ Requires a full administrator auth token with a scope of `spark-admin:telephony_
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

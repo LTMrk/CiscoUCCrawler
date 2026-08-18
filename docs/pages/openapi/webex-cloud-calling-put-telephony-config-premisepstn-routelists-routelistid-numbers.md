@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-premisepstn-routelists-routelistid-numbers
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/premisePstn/routeLists/{routeListId}/numbers
+operation_id: Modify Numbers for Route List
+tags: Call Routing
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.558068+00:00
+retrieved_at: 2026-08-18T23:45:43.171870+00:00
 ---
 
 # PUT /telephony/config/premisePstn/routeLists/{routeListId}/numbers
@@ -25,21 +30,44 @@ A Route List is a list of numbers that can be reached via a Route Group. It can 
 Retrieving a Route List requires a full or read-only administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `routeListId` [path] (string) **(requerido)**: ID of the Route List.
+- `routeListId` [path] (string) (**requerido**): ID of the Route List.
 - `orgId` [query] (string): Organization to which the Route List belongs.
 
 ## Cuerpo de la petición (application/json)
 - `numbers` (array): Array of the numbers to be deleted/added.
-  - `number` (string) **(requerido)**: Number to be deleted/added.
-  - `action` (string) **(requerido)**: * `ADD` - Add a phone number to the Route List.  * `DELETE` - Delete a phone number from the Route List. Valores: ADD, DELETE.
+  - `number` (string) (**requerido**): Number to be deleted/added.
+  - `action` (string) (**requerido**): * `ADD` - Add a phone number to the Route List.  * `DELETE` - Delete a phone number from the Route List. Valores: ADD, DELETE.
 - `deleteAllNumbers` (boolean): If present, the numbers array is ignored and all numbers in the route list are deleted.
 
-## Respuestas
-- **200**: OK
-  - `numberStatus` (array): Array of number statuses.
-    - `phoneNumber` (string) **(requerido)**: Phone Number whose status is being reported.
-    - `numberStatus` (string) **(requerido)**:  Valores: INVALID, DUPLICATE, DUPLICATE_IN_LIST, UNAVAILABLE.
-    - `message` (string) **(requerido)**: Message of the number add status.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/premisePstn/routeLists/<routeListId>/numbers' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `numberStatus` (array): Array of number statuses.
+  - `phoneNumber` (string) (**requerido**): Phone Number whose status is being reported.
+  - `numberStatus` (string) (**requerido**):  Valores: INVALID, DUPLICATE, DUPLICATE_IN_LIST, UNAVAILABLE.
+  - `message` (string) (**requerido**): Message of the number add status.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "numberStatus": [
+    {
+      "phoneNumber": "+2147891122",
+      "numberStatus": "DUPLICATE",
+      "message": "Invalid Number"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -55,6 +83,9 @@ Retrieving a Route List requires a full or read-only administrator auth token wi
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

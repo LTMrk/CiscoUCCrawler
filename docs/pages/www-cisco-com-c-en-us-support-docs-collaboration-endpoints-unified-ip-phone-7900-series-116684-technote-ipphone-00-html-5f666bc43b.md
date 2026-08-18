@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-unified-ip-phone-7900-series-116684-technote-ipphone-00-html-5f666bc43b
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/116684-technote-ipphone-00.html
-retrieved_at: 2026-08-17T01:09:17.389091+00:00
+retrieved_at: 2026-08-18T23:47:30.706223+00:00
 ---
 
 Cisco IP Phone Firmware Support Policy
@@ -55,13 +55,3 @@ Engineering Special firmware releases (ES releases) are created on an as needed 
 When a customer encounters a problem on an older release of firmware (i.e. a release that preceded the latest release) it may be necessary to try the problem use case against the latest release on one or a few phones as part of the troubleshooting effort. This is usually necessary when the problem does not clearly match a known software defect, or if the problem is associated with a function or feature of the phone that may have changed significantly from one release to the next.
 
 Note :  The support Cisco provides is contingent on customer maintenance of a current and fully-paid support contract with Cisco.
-
-### Contributed by Cisco Engineers
-
-Ryan Ratliff
-
-Cisco TAC Engineer
-
-Kenneth Russell
-
-Cisco TAC Engineer

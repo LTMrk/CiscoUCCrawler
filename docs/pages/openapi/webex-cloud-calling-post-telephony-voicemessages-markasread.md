@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-voicemessages-markasread
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/voiceMessages/markAsRead
+operation_id: markAsRead
+tags: User Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.646617+00:00
+retrieved_at: 2026-08-18T23:45:43.375167+00:00
 ---
 
 # POST /telephony/voiceMessages/markAsRead
@@ -26,7 +31,7 @@ If the `messageId` is provided, then only mark that message as read.  Otherwise,
 - `messageId` (string): The voicemail message identifier of the message to mark as read.  If the `messageId` is not provided, then all voicemail messages for the user are marked as read.
 - `lineOwnerId` (string): The ID of a user, workspace, or virtual line for which there is a secondary line on a device owned by the user invoking the API.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "messageId": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNmQ0MTgyMTItZjUwNi00Yzk4LTk5MTItNmI1MmE1ZmU2ODgx",
@@ -34,8 +39,18 @@ If the `messageId` is provided, then only mark that message as read.  Otherwise,
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/voiceMessages/markAsRead' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -51,6 +66,9 @@ If the `messageId` is provided, then only mark that message as read.  Otherwise,
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

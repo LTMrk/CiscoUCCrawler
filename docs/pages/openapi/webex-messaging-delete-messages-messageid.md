@@ -2,10 +2,15 @@
 doc_id: webex-messaging-delete-messages-messageid
 source: webex-openapi-specs/public-spec/webex-messaging.json
 api: Webex Messaging
+api_version: 1.0.0
 method: DELETE
 path: /messages/{messageId}
+operation_id: Delete a Message
+tags: Messages
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.513195+00:00
+retrieved_at: 2026-08-18T23:45:44.809162+00:00
 ---
 
 # DELETE /messages/{messageId}
@@ -23,10 +28,18 @@ Delete a message, by message ID.
 Specify the message ID in the `messageId` parameter in the URI.
 
 ## Parámetros
-- `messageId` [path] (string) **(requerido)**: The unique identifier for the message.
+- `messageId` [path] (string) (**requerido**): The unique identifier for the message.
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X DELETE '/messages/<messageId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -42,6 +55,9 @@ Specify the message ID in the `messageId` parameter in the URI.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Messaging APIs offer robust programmatic access to messaging features within Webex, including sending and receiving messages, managing spaces, memberships, attachments, and moderating content. These APIs enable integration with bots, workflow automation, notification systems, and custom messaging solutions to enhance team collaboration and productivity. Use cases include building chatbots, integrating with ticketing or alerting platforms, automating onboarding flows, and creating custom collaboration experiences tailored to business needs.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

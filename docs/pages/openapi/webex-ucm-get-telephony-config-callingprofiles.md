@@ -2,10 +2,15 @@
 doc_id: webex-ucm-get-telephony-config-callingprofiles
 source: webex-openapi-specs/public-spec/webex-ucm.json
 api: Webex for UCM
+api_version: 1.0.0
 method: GET
 path: /telephony/config/callingProfiles
+operation_id: Read the List of UC Manager Profiles
+tags: UCM Profile
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.620809+00:00
+retrieved_at: 2026-08-18T23:45:45.116337+00:00
 ---
 
 # GET /telephony/config/callingProfiles
@@ -29,11 +34,35 @@ Retrieving this list requires a full or read-only administrator auth token with 
 ## Parámetros
 - `orgId` [query] (string): List manager profiles in this organization.
 
-## Respuestas
-- **200**: OK
-  - `callingProfiles` (array) **(requerido)**: Array of manager profiles.
-    - `id` (string) **(requerido)**: A unique identifier for the calling UC Manager Profile.
-    - `name` (string) **(requerido)**: Unique name for the calling UC Manager Profile.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/callingProfiles' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `callingProfiles` (array) (**requerido**): Array of manager profiles.
+  - `id` (string) (**requerido**): A unique identifier for the calling UC Manager Profile.
+  - `name` (string) (**requerido**): Unique name for the calling UC Manager Profile.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "callingProfiles": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0NBTExJTkdfUFJPRklMRS8zMDg3ZmVhMC02MGM3LTQyZmEtODNjYi0zNTZjNDA3ZDYwZGU",
+      "name": "UC Profile1"
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0NBTExJTkdfUFJPRklMRS9mNDU2YzMxYy0yZTdkLTExZWItYjIwZS02MzBmNTA1NzliNzE",
+      "name": "UC Profile2"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -49,6 +78,9 @@ Retrieving this list requires a full or read-only administrator auth token with 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex for UCM APIs provide integration points for Cisco Unified Communications Manager (UCM) environments, enabling hybrid calling, user management, device provisioning, and migration to the Webex cloud. These APIs support seamless connectivity between on-premises UCM and Webex cloud services, allowing organizations to extend calling capabilities, automate provisioning, synchronize user data, and enable advanced collaboration features. The APIs are ideal for hybrid deployments and gradual cloud migration strategies.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

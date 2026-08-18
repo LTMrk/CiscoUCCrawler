@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-knowledgebases
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/knowledgeBases
+operation_id: listKnowledgeBases
+tags: AI Receptionist for Webex Calling, AI Receptionist
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.549122+00:00
+retrieved_at: 2026-08-18T23:45:43.155393+00:00
 ---
 
 # GET /telephony/config/knowledgeBases
@@ -30,22 +35,56 @@ This API requires a full or read-only administrator auth token with a scope of `
 - `start` [query] (integer): Zero-based offset for pagination.
 - `name` [query] (string): Search knowledge bases by name (contains match).
 
-## Respuestas
-- **200**: OK
-  - `knowledgeBases` (array): List of Knowledge Bases.
-    - `id` (string) **(requerido)**: Unique identifier of the Knowledge Base.
-    - `name` (string) **(requerido)**: The display name assigned to the Knowledge Base. Used to identify the KB across the platform.
-    - `description` (string): A human-readable description providing additional context about the purpose or contents of the Knowledge Base.
-    - `documentsCount` (integer) **(requerido)**: The total count of documents that have been uploaded or indexed into the Knowledge Base.
-    - `filesCount` (integer) **(requerido)**: The total count of files that have been uploaded to the Knowledge Base.
-    - `filesSize` (integer) **(requerido)**: The cumulative size (in bytes) of all files stored in the Knowledge Base.
-    - `createdAt` (string) **(requerido)**: Timestamp indicating when the Knowledge Base was originally created, in ISO 8601 format.
-    - `updatedAt` (string) **(requerido)**: Timestamp indicating when the Knowledge Base was last modified, in ISO 8601 format.
-    - `mappedBots` (array): List of AI Receptionists that are currently associated with this Knowledge Base.
-      - `id` (string) **(requerido)**: Unique identifier for the AI Receptionist.
-      - `connectedAt` (string) **(requerido)**: Timestamp indicating when the Knowledge Base was associated with the AI Receptionist, in ISO 8601 format.
-      - `agentId` (string) **(requerido)**: Unique identifier for the AI agent associated with this receptionist.
-      - `name` (string) **(requerido)**: Name of the AI Receptionist (Bot).
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/knowledgeBases' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `knowledgeBases` (array): List of Knowledge Bases.
+  - `id` (string) (**requerido**): Unique identifier of the Knowledge Base.
+  - `name` (string) (**requerido**): The display name assigned to the Knowledge Base. Used to identify the KB across the platform.
+  - `description` (string): A human-readable description providing additional context about the purpose or contents of the Knowledge Base.
+  - `documentsCount` (integer) (**requerido**): The total count of documents that have been uploaded or indexed into the Knowledge Base.
+  - `filesCount` (integer) (**requerido**): The total count of files that have been uploaded to the Knowledge Base.
+  - `filesSize` (integer/int64) (**requerido**): The cumulative size (in bytes) of all files stored in the Knowledge Base.
+  - `createdAt` (string/date-time) (**requerido**): Timestamp indicating when the Knowledge Base was originally created, in ISO 8601 format.
+  - `updatedAt` (string/date-time) (**requerido**): Timestamp indicating when the Knowledge Base was last modified, in ISO 8601 format.
+  - `mappedBots` (array): List of AI Receptionists that are currently associated with this Knowledge Base.
+    - `id` (string) (**requerido**): Unique identifier for the AI Receptionist.
+    - `connectedAt` (string/date-time) (**requerido**): Timestamp indicating when the Knowledge Base was associated with the AI Receptionist, in ISO 8601 format.
+    - `agentId` (string) (**requerido**): Unique identifier for the AI agent associated with this receptionist.
+    - `name` (string) (**requerido**): Name of the AI Receptionist (Bot).
+
+### Ejemplo — respuesta 200
+```json
+{
+  "knowledgeBases": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0tOT1dMRURHRV9CQVNFLzY5YzNlY2NjZDc5MzYzZGM2ODliM2UyYw",
+      "name": "Shree HealthCare Clinic KB",
+      "description": "A centralized repository of medical and administrative information for Shree Health Care Clinic.",
+      "documentsCount": 5,
+      "filesCount": 3,
+      "filesSize": 210,
+      "createdAt": "2024-08-16T18:30:20.882Z",
+      "updatedAt": "2024-08-16T18:30:20.882Z",
+      "mappedBots": [
+        {
+          "id": "Y2lzY29zcGFyazovL3VzL0FJX1JFQ0VQVElPTklTVC8wNWViZTUzZS02YTg5LTRkMTktYmIzYi0xNmJhZDU4OWRhNmE",
+          "connectedAt": "2024-08-16T18:30:20.882Z",
+          "agentId": "Y2lzY29zcGFyazovL3VzL0FJX0FHRU5ULzY5YmFhZDIwOGUzOWUyMGE0ZTNkNjEwNA",
+          "name": "AIR P Test"
+        }
+      ]
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -61,6 +100,9 @@ This API requires a full or read-only administrator auth token with a scope of `
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

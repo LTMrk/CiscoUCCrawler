@@ -2,10 +2,15 @@
 doc_id: webex-admin-get-identity-scim-orgid-v2-groups-groupid-members
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: GET
 path: /identity/scim/{orgId}/v2/Groups/{groupId}/Members
+operation_id: Get Group Members
+tags: SCIM 2 Groups
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.160377+00:00
+retrieved_at: 2026-08-18T23:45:42.582125+00:00
 ---
 
 # GET /identity/scim/{orgId}/v2/Groups/{groupId}/Members
@@ -56,23 +61,56 @@ The following administrators can use this API:
 - `id_device_admin`
 
 ## Parámetros
-- `orgId` [path] (string) **(requerido)**: The ID of the organization to which this group belongs. If not specified, the organization ID from the OAuth token is used.
-- `groupId` [path] (string) **(requerido)**: A unique identifier for the group.
+- `orgId` [path] (string) (**requerido**): The ID of the organization to which this group belongs. If not specified, the organization ID from the OAuth token is used.
+- `groupId` [path] (string) (**requerido**): A unique identifier for the group.
 - `startIndex` [query] (number): The index to start for group pagination.
 - `count` [query] (number): Non-negative integer that specifies the desired number of search results per page. The maximum value for the count is 500.
 - `memberType` [query] (string): Filter the members by member type. Sample data: `user`, `machine`, `group`.
 
-## Respuestas
-- **200**: OK
-  - `schemas` (array) **(requerido)**: Input JSON schemas.
-  - `displayName` (string) **(requerido)**: A human-readable name for the group.
-  - `totalResults` (number): Total number of groups in search results.
-  - `itemsPerPage` (number): The total number of items in a paged result.
-  - `startIndex` (number): Start at the one-based offset in the list of matching groups.
-  - `members` (array): A list of members of this group.
-    - `type` (string): A label indicating the type of resource, for example user, machine, or group.
-    - `value` (string): The identifier of the member of this Group.
-    - `display` (string): A human-readable name for the group member.
+## Ejemplo de invocación
+```bash
+curl -X GET '/identity/scim/<orgId>/v2/Groups/<groupId>/Members' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `schemas` (array) (**requerido**): Input JSON schemas.
+- `displayName` (string) (**requerido**): A human-readable name for the group.
+- `totalResults` (number): Total number of groups in search results.
+- `itemsPerPage` (number): The total number of items in a paged result.
+- `startIndex` (number): Start at the one-based offset in the list of matching groups.
+- `members` (array): A list of members of this group.
+  - `type` (string): A label indicating the type of resource, for example user, machine, or group.
+  - `value` (string): The identifier of the member of this Group.
+  - `display` (string): A human-readable name for the group member.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "schemas": [
+    "urn:scim:schemas:extension:cisco:webexidentity:2.0:GroupMembers"
+  ],
+  "memberSize": 2,
+  "displayName": "group_name",
+  "itemsPerPage": 2,
+  "startIndex": 1,
+  "members": [
+    {
+      "value": "c5349664-9f3d-410b-8bd3-6c31f181f13d",
+      "type": "user",
+      "display": "A user"
+    },
+    {
+      "value": "ffd2164c-b938-46dd-8b2f-def6c33b45d0",
+      "type": "group",
+      "display": "A nested group"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -88,6 +126,9 @@ The following administrators can use this API:
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

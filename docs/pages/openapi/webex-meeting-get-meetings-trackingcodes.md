@@ -2,10 +2,15 @@
 doc_id: webex-meeting-get-meetings-trackingcodes
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: GET
 path: /meetings/trackingCodes
+operation_id: getMeetingHostTrackingCodes
+tags: Meetings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.399501+00:00
+retrieved_at: 2026-08-18T23:45:44.490697+00:00
 ---
 
 # GET /meetings/trackingCodes
@@ -28,21 +33,59 @@ Lists tracking codes on a site by a meeting host. The result indicates which tra
 
 ## Parámetros
 - `siteUrl` [query] (string): URL of the Webex site which the API retrieves the tracking code from. If not specified, the API retrieves the tracking code from the user's preferred site. All available Webex sites and preferred sites of a user can be retrieved by [Get Site List](/docs/api/v1/meeting-preferences/get-site-list) API.
-- `service` [query] (string) **(requerido)**: Service for schedule or sign-up pages.
+- `service` [query] (string) (**requerido**): Service for schedule or sign-up pages.
 - `hostEmail` [query] (string): Email address for the meeting host. This parameter is only used if a user or application calling the API has the admin-level scopes. The admin may specify the email of a user on a site they manage and the API will return meeting participants of the meetings that are hosted by that user.
 
-## Respuestas
-- **200**: OK
-  - `items` (array): Tracking code array.
-    - `id` (string) **(requerido)**: Unique identifier for the tracking code.
-    - `name` (string) **(requerido)**: Name for the tracking code.
-    - `siteUrl` (string) **(requerido)**: Site URL for the tracking code.
-    - `options` (array) **(requerido)**: Tracking code option list. The options here differ from those in the [site-level tracking codes](/docs/api/v1/tracking-codes/get-a-tracking-code) and the [user-level tracking codes](/docs/api/v1/tracking-codes/get-user-tracking-codes). It is the result of a selective combination of the two. If there's user-level value for a tracking code, the user-level value becomes the default option for the tracking code, and the site-level default value becomes non-default.
-      - `value` (string) **(requerido)**: The value of a tracking code option. `value` cannot be empty and the maximum size is 120 characters.
-      - `defaultValue` (boolean) **(requerido)**: Whether or not the option is the default option of a tracking code.
-    - `inputMode` (string) **(requerido)**: The input mode in which the tracking code value can be assigned.  * `text` - Text input.  * `select` - Drop down list which requires `options`.  * `editableSelect` - Both text input and select from list.  * `hostProfileSelect` - An input method which is only available for the host profile and sign-up pages. Valores: text, select, editableSelect, hostProfileSelect.
-    - `service` (string) **(requerido)**: Service for schedule or sign up pages  * `All` - Tracking codes apply to all services.  * `MeetingCenter` - Users can set tracking codes when scheduling a meeting.  * `EventCenter` - Users can set tracking codes when scheduling an event.  * `TrainingCenter` - Users can set tracking codes when scheduling a training session.  * `SupportCenter` - Users can set tracking codes when scheduling a support meeting. Valores: All, MeetingCenter, EventCenter, TrainingCenter, SupportCenter.
-    - `type` (string) **(requerido)**: Type for meeting scheduler or meeting start pages.  * `optional` - Available to be chosen but not compulsory.  * `required` - Officially compulsory.  * `adminSet` - The value is set by admin.  * `notUsed` - The value cannot be used.  * `notApplicable` - This value only applies to the service of `All`. When the type of `All` for a tracking code is `notApplicable`, there are different types for different services. For example, `required` for `MeetingCenter`, `optional` for `EventCenter` and `notUsed` for others. Valores: optional, required, adminSet, notUsed, notApplicable.
+## Ejemplo de invocación
+```bash
+curl -X GET '/meetings/trackingCodes?service=<service>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): Tracking code array.
+  - `id` (string) (**requerido**): Unique identifier for the tracking code.
+  - `name` (string) (**requerido**): Name for the tracking code.
+  - `siteUrl` (string) (**requerido**): Site URL for the tracking code.
+  - `options` (array) (**requerido**): Tracking code option list. The options here differ from those in the [site-level tracking codes](/docs/api/v1/tracking-codes/get-a-tracking-code) and the [user-level tracking codes](/docs/api/v1/tracking-codes/get-user-tracking-codes). It is the result of a selective combination of the two. If there's user-level value for a tracking code, the user-level value becomes the default option for the tracking code, and the site-level default value becomes non-default.
+    - `value` (string) (**requerido**): The value of a tracking code option. `value` cannot be empty and the maximum size is 120 characters.
+    - `defaultValue` (boolean) (**requerido**): Whether or not the option is the default option of a tracking code.
+  - `inputMode` (string) (**requerido**): The input mode in which the tracking code value can be assigned.  * `text` - Text input.  * `select` - Drop down list which requires `options`.  * `editableSelect` - Both text input and select from list.  * `hostProfileSelect` - An input method which is only available for the host profile and sign-up pages. Valores: text, select, editableSelect, hostProfileSelect.
+  - `service` (string) (**requerido**): Service for schedule or sign up pages  * `All` - Tracking codes apply to all services.  * `MeetingCenter` - Users can set tracking codes when scheduling a meeting.  * `EventCenter` - Users can set tracking codes when scheduling an event.  * `TrainingCenter` - Users can set tracking codes when scheduling a training session.  * `SupportCenter` - Users can set tracking codes when scheduling a support meeting. Valores: All, MeetingCenter, EventCenter, TrainingCenter, SupportCenter.
+  - `type` (string) (**requerido**): Type for meeting scheduler or meeting start pages.  * `optional` - Available to be chosen but not compulsory.  * `required` - Officially compulsory.  * `adminSet` - The value is set by admin.  * `notUsed` - The value cannot be used.  * `notApplicable` - This value only applies to the service of `All`. When the type of `All` for a tracking code is `notApplicable`, there are different types for different services. For example, `required` for `MeetingCenter`, `optional` for `EventCenter` and `notUsed` for others. Valores: optional, required, adminSet, notUsed, notApplicable.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Department",
+      "siteUrl": "example.webex.com",
+      "inputMode": "text",
+      "options": [
+        {
+          "value": "Engineering",
+          "defaultValue": false
+        },
+        {
+          "value": "Design",
+          "defaultValue": true
+        },
+        {
+          "value": "Sales",
+          "defaultValue": false
+        }
+      ],
+      "service": "MeetingCenter",
+      "type": "optional"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -58,6 +101,9 @@ Lists tracking codes on a site by a meeting host. The result indicates which tra
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-contact-center-delete-datasources-datasourceid
 source: webex-openapi-specs/public-spec/webex-contact-center.json
 api: Webex Contact Center
+api_version: 1.0.0
 method: DELETE
 path: /dataSources/{dataSourceId}
+operation_id: Delete a Data Source
+tags: Data Sources
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.959394+00:00
+retrieved_at: 2026-08-18T23:45:43.843361+00:00
 ---
 
 # DELETE /dataSources/{dataSourceId}
@@ -23,10 +28,18 @@ Deletes a data source by ID.
 Specify the data source ID in the `dataSourceId` URI parameter.
 
 ## Parámetros
-- `dataSourceId` [path] (string) **(requerido)**: The unique identifier for the data source.
+- `dataSourceId` [path] (string) (**requerido**): The unique identifier for the data source.
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X DELETE '/dataSources/<dataSourceId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -42,6 +55,9 @@ Specify the data source ID in the `dataSourceId` URI parameter.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Contact Center APIs allow developers to deeply integrate, configure, and manage cloud-based contact center solutions. These APIs cover agent lifecycle management, queue and routing configuration, customer journey tracking, and access to real-time and historical analytics. Use cases include embedding agent controls in custom UIs, automating workforce management, integrating with CRM and ticketing systems, and building custom reporting dashboards. The APIs empower organizations to deliver personalized, efficient customer experiences and optimize contact center operations.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-221687-configure-dtmf-sequences-in-cisco-meetin-html-818016dc30
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221687-configure-dtmf-sequences-in-cisco-meetin.html
-retrieved_at: 2026-08-16T14:21:16.245683+00:00
+retrieved_at: 2026-08-18T23:50:01.629438+00:00
 ---
 
 Configure DTMF Sequences in Cisco Meeting Server Spaces
 
 # Configure DTMF Sequences in Cisco Meeting Server Spaces
-
-Log in to Save Content
 
 ### Download Options
 
@@ -155,12 +153,6 @@ Initial Release
 Fabio Achi
 
 Technical Consulting Engineer
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 

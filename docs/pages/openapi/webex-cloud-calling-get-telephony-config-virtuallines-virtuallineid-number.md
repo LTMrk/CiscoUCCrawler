@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-virtuallines-virtuallineid-number
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/number
+operation_id: Get Phone Number Assigned for a Virtual Line
+tags: Virtual Line Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.656589+00:00
+retrieved_at: 2026-08-18T23:45:43.390522+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/number
@@ -25,15 +30,34 @@ Virtual lines can be assigned phone numbers and extensions to enable calling fun
 Retrieving virtual line phone number details requires a full, user, or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `virtualLineId` [path] (string) **(requerido)**: Retrieve settings for a virtual line with the matching ID.
+- `virtualLineId` [path] (string) (**requerido**): Retrieve settings for a virtual line with the matching ID.
 - `orgId` [query] (string): Retrieve virtual line settings from this organization.
 
-## Respuestas
-- **200**: OK
-  - `phoneNumber` (object): Phone number that is assigned to a virtual line.
-    - `directNumber` (string): Phone number that is assigned to a virtual line.
-    - `extension` (string): Extension that is assigned to a virtual line.
-    - `primary` (boolean) **(requerido)**: If `true` marks the phone number as primary.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/virtualLines/<virtualLineId>/number' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `phoneNumber` (object): Phone number that is assigned to a virtual line.
+  - `directNumber` (string): Phone number that is assigned to a virtual line.
+  - `extension` (string): Extension that is assigned to a virtual line.
+  - `primary` (boolean) (**requerido**): If `true` marks the phone number as primary.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "phoneNumber": {
+    "directNumber": "+15558675309",
+    "extension": "5309",
+    "primary": true
+  }
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -49,6 +73,9 @@ Retrieving virtual line phone number details requires a full, user, or read-only
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

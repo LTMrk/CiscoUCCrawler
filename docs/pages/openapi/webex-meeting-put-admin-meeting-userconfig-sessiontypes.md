@@ -2,10 +2,15 @@
 doc_id: webex-meeting-put-admin-meeting-userconfig-sessiontypes
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: PUT
 path: /admin/meeting/userconfig/sessionTypes
+operation_id: Update User Session Types
+tags: Session Types
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.390266+00:00
+retrieved_at: 2026-08-18T23:45:44.473231+00:00
 ---
 
 # PUT /admin/meeting/userconfig/sessionTypes
@@ -23,21 +28,54 @@ Assign session types to specific users.
 * At least one of the following body parameters is required to update a specific user session type: `personId`, `email`.
 
 ## Cuerpo de la petición (application/json)
-- `siteUrl` (string) **(requerido)**: Site URL for the session type.
+- `siteUrl` (string) (**requerido**): Site URL for the session type.
 - `personId` (string): A unique identifier for the user.
 - `email` (string): The email of the user.
-- `sessionTypeIds` (array) **(requerido)**: An array of the session type ID.
+- `sessionTypeIds` (array) (**requerido**): An array of the session type ID.
 
-## Respuestas
-- **200**: OK
-  - `personId` (string): A unique identifier for the user.
-  - `email` (string): The email of the user.
-  - `siteUrl` (string): Site URL for the user.
-  - `sessionTypes` (array): All session types are supported by the user on the site.
-    - `id` (string): The ID of the session type.
-    - `shortName` (string): The short name of the session type.
-    - `name` (string): The name of the session type.
-    - `type` (string): The meeting type of meeting that you can create with the session type.  * `meeting` - Meeting Center.  * `webinar` - Webinar meeting.  * `privateMeeting` - Private meeting.  * `EventCenter` - Event Center.  * `SupportCenter` - Support Center.  * `TrainCenter` - Training Center. Valores: meeting, webinar, privateMeeting, EventCenter, SupportCenter, TrainCenter.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/admin/meeting/userconfig/sessionTypes' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"siteUrl": "<siteUrl>", "sessionTypeIds": []}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `personId` (string): A unique identifier for the user.
+- `email` (string): The email of the user.
+- `siteUrl` (string): Site URL for the user.
+- `sessionTypes` (array): All session types are supported by the user on the site.
+  - `id` (string): The ID of the session type.
+  - `shortName` (string): The short name of the session type.
+  - `name` (string): The name of the session type.
+  - `type` (string): The meeting type of meeting that you can create with the session type.  * `meeting` - Meeting Center.  * `webinar` - Webinar meeting.  * `privateMeeting` - Private meeting.  * `EventCenter` - Event Center.  * `SupportCenter` - Support Center.  * `TrainCenter` - Training Center. Valores: meeting, webinar, privateMeeting, EventCenter, SupportCenter, TrainCenter.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS8yNWJiZjgzMS01YmU5LTRjMjUtYjRiMC05YjU5MmM4YTA4NmI",
+  "email": "john.andersen@example.com",
+  "siteUrl": "example.webex.com",
+  "sessionTypes": [
+    {
+      "id": "3",
+      "shortName": "PRO",
+      "name": "Pro meeting",
+      "type": "meeting"
+    },
+    {
+      "id": "9",
+      "shortName": "ONS",
+      "name": "Online Event",
+      "type": "EventCenter"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -53,6 +91,9 @@ Assign session types to specific users.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

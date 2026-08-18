@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-214744-call-routing-logic-on-cisco-meeting-serv-html-a4bab014e5
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214744-call-routing-logic-on-cisco-meeting-serv.html
-retrieved_at: 2026-08-16T14:21:49.617700+00:00
+retrieved_at: 2026-08-18T23:49:15.631162+00:00
 ---
 
 Understand Call Routing Logic on Meeting Server
 
 # Understand Call Routing Logic on Meeting Server
-
-Log in to Save Content
 
 ### Download Options
 
@@ -278,12 +276,6 @@ Cisco TAC Engineer
 Edited by Lidiya Bogdanova
 
 Cisco TAC Engineer
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 

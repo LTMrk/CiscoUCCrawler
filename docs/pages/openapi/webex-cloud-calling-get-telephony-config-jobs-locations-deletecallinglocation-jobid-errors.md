@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-jobs-locations-deletecallinglocation-jobid-errors
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/jobs/locations/deleteCallingLocation/{jobId}/errors
+operation_id: Retrieve Errors For Disable Calling Location Job
+tags: Location Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.625000+00:00
+retrieved_at: 2026-08-18T23:45:43.337821+00:00
 ---
 
 # GET /telephony/config/jobs/locations/deleteCallingLocation/{jobId}/errors
@@ -37,22 +42,68 @@ Possible error codes include:
 * `BATCH-1012014` - Location not found.
 
 ## Parámetros
-- `jobId` [path] (string) **(requerido)**: Unique identifier for the job to get errors for.
+- `jobId` [path] (string) (**requerido**): Unique identifier for the job to get errors for.
 - `orgId` [query] (string): Organization ID for disable calling location job.
 
-## Respuestas
-- **200**: OK
-  - `items` (array): List of error items.
-    - `itemNumber` (integer): Sequential number of the error item.
-    - `item` (string): The item that caused the error.
-    - `errorType` (object):
-    - `error` (object): Error details.
-      - `key` (string): Error key or status code.
-      - `message` (array): Array of error message details.
-        - `description` (string): Error description.
-        - `code` (string): Error code for disable calling location operations.
-        - `locationId` (string): Related location ID, can be null.
-    - `trackingId` (string): Tracking ID for the error.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/jobs/locations/deleteCallingLocation/<jobId>/errors' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): List of error items.
+  - `itemNumber` (integer): Sequential number of the error item.
+  - `item` (string): The item that caused the error.
+  - `errorType` (object):
+  - `error` (object): Error details.
+    - `key` (string): Error key or status code.
+    - `message` (array): Array of error message details.
+      - `description` (string): Error description.
+      - `code` (string): Error code for disable calling location operations.
+      - `locationId` (string): Related location ID, can be null.
+  - `trackingId` (string): Tracking ID for the error.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "itemNumber": 1,
+      "errorType": "ERROR",
+      "error": {
+        "key": "500",
+        "message": [
+          {
+            "description": "Safe delete checks failed.",
+            "code": "BATCH-1012004",
+            "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzk2ZjA0YjUwLTYxMWItNGViYy05ZGE0LTQwMzU4ODYxZTI4NQ"
+          }
+        ]
+      },
+      "trackingId": "ROUTERGW_c4fc3b45-793e-4744-bb08-ee13032112c7"
+    },
+    {
+      "itemNumber": 2,
+      "errorType": "ERROR",
+      "error": {
+        "key": "400",
+        "message": [
+          {
+            "description": "Users associated with the location. Count: 5",
+            "code": "BATCH-1012007",
+            "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzk2ZjA0YjUwLTYxMWItNGViYy05ZGE0LTQwMzU4ODYxZTI4NQ"
+          }
+        ]
+      },
+      "trackingId": "ROUTERGW_c4fc3b45-793e-4744-bb08-ee13032112c7"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -60,6 +111,9 @@ Possible error codes include:
 - **429**: Too Many Requests: Too many requests have been sent in a given amount of time and the request has been rate limited.
 - **500**: Internal Server Error: Something went wrong on the server.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

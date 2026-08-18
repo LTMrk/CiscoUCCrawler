@@ -2,10 +2,15 @@
 doc_id: webex-admin-get-partner-reports-reportid
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: GET
 path: /partner/reports/{reportId}
+operation_id: getReportDetails
+tags: Partner Reports/Templates
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.154262+00:00
+retrieved_at: 2026-08-18T23:45:42.571336+00:00
 ---
 
 # GET /partner/reports/{reportId}
@@ -29,23 +34,51 @@ To access this endpoint, you must use an administrator token with `spark-admin:r
 <div><Callout type="info">Reports are usually provided in zip format. A content-header application/zip or application/octet-stream does indicate the zip format. There is usually no .zip file extension.</Callout></div>
 
 ## Parámetros
-- `reportId` [path] (string) **(requerido)**: The unique identifier for the report.
+- `reportId` [path] (string) (**requerido**): The unique identifier for the report.
 - `onBehalfOfSubPartnerOrgId` [query] (string): The encoded organization ID for the sub partner.
 
-## Respuestas
-- **200**: OK
-  - `id` (string): Unique identifier for the report.
-  - `title` (string): Name of the template to which this report belongs.
-  - `service` (string): The service to which the report belongs.
-  - `startDate` (string): The data in this report belongs to dates greater than or equal to this.
-  - `endDate` (string): The data in this report belongs to dates smaller than or equal to this.
-  - `siteList` (string): The site to which this report belongs to. This only exists if the report belongs to service `Webex`.
-  - `timeZone` (string): Time zone used for report date and time values. Use an IANA time zone name. The default value is `UTC` when not specified.
-  - `created` (string): Time of creation for this report.
-  - `createdBy` (string): The person who created the report.
-  - `scheduledFrom` (string): Whether this report was scheduled from API or Control Hub.
-  - `status` (string): Completion status of this report.
-  - `downloadURL` (string): The link from which the report can be downloaded.
+## Ejemplo de invocación
+```bash
+curl -X GET '/partner/reports/<reportId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string): Unique identifier for the report.
+- `title` (string): Name of the template to which this report belongs.
+- `service` (string): The service to which the report belongs.
+- `startDate` (string): The data in this report belongs to dates greater than or equal to this.
+- `endDate` (string): The data in this report belongs to dates smaller than or equal to this.
+- `siteList` (string): The site to which this report belongs to. This only exists if the report belongs to service `Webex`.
+- `timeZone` (string): Time zone used for report date and time values. Use an IANA time zone name. The default value is `UTC` when not specified.
+- `created` (string): Time of creation for this report.
+- `createdBy` (string): The person who created the report.
+- `scheduledFrom` (string): Whether this report was scheduled from API or Control Hub.
+- `status` (string): Completion status of this report.
+- `downloadURL` (string): The link from which the report can be downloaded.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "reportId": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLWVhc3QtMV9pbnQxMy9SRVBPUlQvYWQwZDIwNTc1ZGEwNDVhNDhmYWQ0N2Q5NzRhYjQxZjI",
+  "templateId": 5,
+  "title": "Calling Usage Reports",
+  "service": "Teams",
+  "startDate": "2024-02-23",
+  "endDate": "2024-03-24",
+  "regionId": "US",
+  "createdTime": "2024-03-24 17:13:39",
+  "status": "done",
+  "fileName": "Calling Usage_12345_Org_2024-05-01_2024-05-05.csv",
+  "fileSize": 0,
+  "checksum": "12345",
+  "downloadURL": "https://downloadservicebts.webex.com/api?reportId=Y2lzY29zcGFyazovL3VzL1JFUE9SVC9hZDBkMjA1NzVkYTA0NWE0OGZhZDQ3ZDk3NGFiNDFmMg",
+  "downloadUrlExpiryTime": "3600"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -61,6 +94,9 @@ To access this endpoint, you must use an administrator token with `spark-admin:r
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

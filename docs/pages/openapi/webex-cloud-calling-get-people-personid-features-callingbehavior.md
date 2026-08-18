@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-people-personid-features-callingbehavior
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /people/{personId}/features/callingBehavior
+operation_id: Read Calling Behavior for a Person
+tags: User Call Settings (1/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.638386+00:00
+retrieved_at: 2026-08-18T23:45:43.362472+00:00
 ---
 
 # GET /people/{personId}/features/callingBehavior
@@ -31,14 +36,31 @@ The UC Manager Profile also has an organization-wide default and may be overridd
 This API requires a full, user, or read-only administrator auth token with a scope of `spark-admin:people_read`.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: Unique identifier for the person.
+- `personId` [path] (string) (**requerido**): Unique identifier for the person.
 - `orgId` [query] (string): ID of the organization in which the person resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access API.
 
-## Respuestas
-- **200**: OK
-  - `behaviorType` (string): The current Calling Behavior setting for the person. If `null`, the effective Calling Behavior will be the Organization's current default.  * `NATIVE_WEBEX_TEAMS_CALLING` - Calling in Webex or Hybrid Calling.  * `CALL_WITH_APP_REGISTERED_FOR_CISCOTEL` - Cisco Jabber app  * `CALL_WITH_APP_REGISTERED_FOR_TEL` - Third-Party app  * `CALL_WITH_APP_REGISTERED_FOR_WEBEXCALLTEL` - Webex Calling app  * `NATIVE_SIP_CALL_TO_UCM` - Calling in Webex (Unified CM) Valores: NATIVE_WEBEX_TEAMS_CALLING, CALL_WITH_APP_REGISTERED_FOR_CISCOTEL, CALL_WITH_APP_REGISTERED_FOR_TEL, CALL_WITH_APP_REGISTERED_FOR_WEBEXCALLTEL, NATIVE_SIP_CALL_TO_UCM.
-  - `effectiveBehaviorType` (string) **(requerido)**: The effective Calling Behavior setting for the person, will be the organization's default Calling Behavior if the user's `behaviorType` is set to `null`.  * `NATIVE_WEBEX_TEAMS_CALLING` - Calling in Webex or Hybrid Calling.  * `CALL_WITH_APP_REGISTERED_FOR_CISCOTEL` - Cisco Jabber app  * `CALL_WITH_APP_REGISTERED_FOR_TEL` - Third-Party app  * `CALL_WITH_APP_REGISTERED_FOR_WEBEXCALLTEL` - Webex Calling app  * `NATIVE_SIP_CALL_TO_UCM` - Calling in Webex (Unified CM) Valores: NATIVE_WEBEX_TEAMS_CALLING, CALL_WITH_APP_REGISTERED_FOR_CISCOTEL, CALL_WITH_APP_REGISTERED_FOR_TEL, CALL_WITH_APP_REGISTERED_FOR_WEBEXCALLTEL, NATIVE_SIP_CALL_TO_UCM.
-  - `profileId` (string): The UC Manager Profile ID.
+## Ejemplo de invocación
+```bash
+curl -X GET '/people/<personId>/features/callingBehavior' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `behaviorType` (string): The current Calling Behavior setting for the person. If `null`, the effective Calling Behavior will be the Organization's current default.  * `NATIVE_WEBEX_TEAMS_CALLING` - Calling in Webex or Hybrid Calling.  * `CALL_WITH_APP_REGISTERED_FOR_CISCOTEL` - Cisco Jabber app  * `CALL_WITH_APP_REGISTERED_FOR_TEL` - Third-Party app  * `CALL_WITH_APP_REGISTERED_FOR_WEBEXCALLTEL` - Webex Calling app  * `NATIVE_SIP_CALL_TO_UCM` - Calling in Webex (Unified CM) Valores: NATIVE_WEBEX_TEAMS_CALLING, CALL_WITH_APP_REGISTERED_FOR_CISCOTEL, CALL_WITH_APP_REGISTERED_FOR_TEL, CALL_WITH_APP_REGISTERED_FOR_WEBEXCALLTEL, NATIVE_SIP_CALL_TO_UCM.
+- `effectiveBehaviorType` (string) (**requerido**): The effective Calling Behavior setting for the person, will be the organization's default Calling Behavior if the user's `behaviorType` is set to `null`.  * `NATIVE_WEBEX_TEAMS_CALLING` - Calling in Webex or Hybrid Calling.  * `CALL_WITH_APP_REGISTERED_FOR_CISCOTEL` - Cisco Jabber app  * `CALL_WITH_APP_REGISTERED_FOR_TEL` - Third-Party app  * `CALL_WITH_APP_REGISTERED_FOR_WEBEXCALLTEL` - Webex Calling app  * `NATIVE_SIP_CALL_TO_UCM` - Calling in Webex (Unified CM) Valores: NATIVE_WEBEX_TEAMS_CALLING, CALL_WITH_APP_REGISTERED_FOR_CISCOTEL, CALL_WITH_APP_REGISTERED_FOR_TEL, CALL_WITH_APP_REGISTERED_FOR_WEBEXCALLTEL, NATIVE_SIP_CALL_TO_UCM.
+- `profileId` (string): The UC Manager Profile ID.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "behaviorType": "NATIVE_WEBEX_TEAMS_CALLING",
+  "effectiveBehaviorType": "NATIVE_WEBEX_TEAMS_CALLING",
+  "profileId": "Y2lzY29zcGFyazovL3VzL0NBTExJTkdfUFJPRklMRS9iMzdmMmZiYS0yZTdjLTExZWItYTM2OC1kYmU0Yjc2NzFmZTk"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -54,6 +76,9 @@ This API requires a full, user, or read-only administrator auth token with a sco
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

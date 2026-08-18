@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-221698-enable-secure-communication-between-cms-html-f589f3a961
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221698-enable-secure-communication-between-cms.html
-retrieved_at: 2026-08-16T14:21:53.844636+00:00
+retrieved_at: 2026-08-18T23:50:05.980901+00:00
 ---
 
 Enable Secure Communication Between CMS and CUCM
 
 # Enable Secure Communication Between CMS and CUCM
-
-Log in to Save Content
 
 ### Download Options
 

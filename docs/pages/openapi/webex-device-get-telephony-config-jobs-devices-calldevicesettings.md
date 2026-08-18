@@ -2,10 +2,15 @@
 doc_id: webex-device-get-telephony-config-jobs-devices-calldevicesettings
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: GET
 path: /telephony/config/jobs/devices/callDeviceSettings
+operation_id: listChangeDeviceSettingsJobs
+tags: Device Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.129931+00:00
+retrieved_at: 2026-08-18T23:45:44.199251+00:00
 ---
 
 # GET /telephony/config/jobs/devices/callDeviceSettings
@@ -29,34 +34,84 @@ This API requires a full or read-only administrator auth token with a scope of `
 - `start` [query] (number): Start at the zero-based offset in the list of jobs. Default is 0.
 - `max` [query] (number): Limit the number of jobs returned to this maximum count. Default is 2000.
 
-## Respuestas
-- **200**: OK
-  - `items` (array) **(requerido)**: Lists all jobs for the customer in order of most recent one to oldest one irrespective of its status.
-    - `name` (string) **(requerido)**: Job name.
-    - `id` (string) **(requerido)**: Unique identifier of the job.
-    - `jobType` (string) **(requerido)**: Job type.
-    - `trackingId` (string) **(requerido)**: Unique identifier to track the flow of HTTP requests.
-    - `sourceUserId` (string) **(requerido)**: Unique identifier to identify which user has run the job.
-    - `sourceCustomerId` (string) **(requerido)**: Unique identifier to identify the customer who has run the job.
-    - `targetCustomerId` (string) **(requerido)**: Unique identifier to identify the customer for which the job was run.
-    - `instanceId` (number) **(requerido)**: Unique identifier to identify the instance of the job.
-    - `jobExecutionStatus` (array): Displays the most recent step's execution status. Contains execution statuses of all the steps involved in the execution of the job.
-      - `id` (number) **(requerido)**: Unique identifier that identifies each instance of the job.
-      - `lastUpdated` (string): Last updated time (in UTC format) post one of the step execution completion.
-      - `statusMessage` (string): Displays status for overall steps that are part of the job.
-      - `exitCode` (string): Exit Code for a job.
-      - `createdTime` (string): Job creation time in UTC format.
-      - `timeElapsed` (string): Time lapsed since the job execution started.
-    - `latestExecutionStatus` (string) **(requerido)**: Indicates the most recent status (STARTING, STARTED, COMPLETED, FAILED) of the job at the time of invocation.
-    - `latestExecutionExitCode` (string): Most recent exit code of the job at the time of invocation.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS.
-    - `operationType` (string) **(requerido)**: Indicates operation type that was carried out.
-    - `sourceLocationId` (string) **(requerido)**: Unique location identifier for which the job was run.
-    - `targetLocationId` (string) **(requerido)**: Unique location identifier for which the numbers have been moved.
-    - `counts` (object) **(requerido)**:
-      - `totalNumbers` (number) **(requerido)**: Indicates the total number of phone numbers requested to be moved.
-      - `numbersDeleted` (number) **(requerido)**: Indicates the total number of phone numbers successfully deleted.
-      - `numbersMoved` (number) **(requerido)**: Indicates the total number of phone numbers successfully moved.
-      - `numbersFailed` (number) **(requerido)**: Indicates the total number of phone numbers failed.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/jobs/devices/callDeviceSettings' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array) (**requerido**): Lists all jobs for the customer in order of most recent one to oldest one irrespective of its status.
+  - `name` (string) (**requerido**): Job name.
+  - `id` (string) (**requerido**): Unique identifier of the job.
+  - `jobType` (string) (**requerido**): Job type.
+  - `trackingId` (string) (**requerido**): Unique identifier to track the flow of HTTP requests.
+  - `sourceUserId` (string) (**requerido**): Unique identifier to identify which user has run the job.
+  - `sourceCustomerId` (string) (**requerido**): Unique identifier to identify the customer who has run the job.
+  - `targetCustomerId` (string) (**requerido**): Unique identifier to identify the customer for which the job was run.
+  - `instanceId` (number) (**requerido**): Unique identifier to identify the instance of the job.
+  - `jobExecutionStatus` (array): Displays the most recent step's execution status. Contains execution statuses of all the steps involved in the execution of the job.
+    - `id` (number) (**requerido**): Unique identifier that identifies each instance of the job.
+    - `lastUpdated` (string): Last updated time (in UTC format) post one of the step execution completion.
+    - `statusMessage` (string): Displays status for overall steps that are part of the job.
+    - `exitCode` (string): Exit Code for a job.
+    - `createdTime` (string): Job creation time in UTC format.
+    - `timeElapsed` (string): Time lapsed since the job execution started.
+  - `latestExecutionStatus` (string) (**requerido**): Indicates the most recent status (STARTING, STARTED, COMPLETED, FAILED) of the job at the time of invocation.
+  - `latestExecutionExitCode` (string): Most recent exit code of the job at the time of invocation.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS.
+  - `operationType` (string) (**requerido**): Indicates operation type that was carried out.
+  - `sourceLocationId` (string) (**requerido**): Unique location identifier for which the job was run.
+  - `targetLocationId` (string) (**requerido**): Unique location identifier for which the numbers have been moved.
+  - `counts` (object) (**requerido**):
+    - `totalNumbers` (number) (**requerido**): Indicates the total number of phone numbers requested to be moved.
+    - `numbersDeleted` (number) (**requerido**): Indicates the total number of phone numbers successfully deleted.
+    - `numbersMoved` (number) (**requerido**): Indicates the total number of phone numbers successfully moved.
+    - `numbersFailed` (number) (**requerido**): Indicates the total number of phone numbers failed.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0pPQl9JRC8wMTA4NDJjMy1mNWQ5LTRjOWQtOGZiYi0yYzIxZmU4OWI0YzQ",
+      "jobType": "calldevicesettings",
+      "trackingId": "ATLAS_89144033-afb5-44e8-bae8-946e84c71fa3_0",
+      "sourceUserId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS85OThhMThhYi1kZjY5LTQ5MWYtYmViZi03MzUxMGE3ODI5N2I",
+      "sourceCustomerId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi9hNDVkNmNkYS1hZTVhLTQwYzMtYTdhZC01NjUwZmRkZGQ1M2M",
+      "targetCustomerId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi9hNDVkNmNkYS1hZTVhLTQwYzMtYTdhZC01NjUwZmRkZGQ1M2M",
+      "instanceId": 235690,
+      "jobExecutionStatus": [
+        {
+          "id": 236410,
+          "startTime": "2022-08-15T12:54:50.380Z",
+          "endTime": "2022-08-15T12:55:01.833Z",
+          "lastUpdated": "2022-08-15T12:55:02.160Z",
+          "statusMessage": "COMPLETED",
+          "exitCode": "COMPLETED",
+          "createdTime": "2022-08-15T12:54:50.350Z",
+          "stepExecutionStatuses": [
+            {
+              "id": 1159389,
+              "startTime": "2022-08-15T12:54:50.433Z",
+              "endTime": "2022-08-15T12:55:01.826Z",
+              "lastUpdated": "2022-08-15T12:55:01.826Z",
+              "statusMessage": "COMPLETED",
+              "exitCode": "COMPLETED",
+              "name": "calldevicesettingsOverrideProcess",
+              "timeElapsed": "PT11.393S"
+            }
+          ],
+          "timeElapsed": "PT11.393S"
+        }
+      ],
+      "latestExecutionStatus": "COMPLETED",
+      "lat
+  ... (truncado)
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -72,6 +127,9 @@ This API requires a full or read-only administrator auth token with a scope of `
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

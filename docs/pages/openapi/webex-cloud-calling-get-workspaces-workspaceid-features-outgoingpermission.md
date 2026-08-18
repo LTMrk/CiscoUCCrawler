@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-workspaces-workspaceid-features-outgoingpermission
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /workspaces/{workspaceId}/features/outgoingPermission
+operation_id: Retrieve Outgoing Permission Settings for a Workspace
+tags: Workspace Call Settings (1/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.665888+00:00
+retrieved_at: 2026-08-18T23:45:43.404459+00:00
 ---
 
 # GET /workspaces/{workspaceId}/features/outgoingPermission
@@ -25,18 +30,92 @@ Turn on outgoing call settings for this workspace to override the calling settin
 This API requires a full or read-only administrator or location administrator auth token with a scope of `spark-admin:workspaces_read` or a user auth token with `spark:workspaces_read` scope can be used to read workspace settings.
 
 ## Parámetros
-- `workspaceId` [path] (string) **(requerido)**: Unique identifier for the workspace.
+- `workspaceId` [path] (string) (**requerido**): Unique identifier for the workspace.
 - `orgId` [query] (string): ID of the organization within which the workspace resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access the API.
 
-## Respuestas
-- **200**: OK
-  - `useCustomEnabled` (boolean): When `true`, indicates that this workspace uses the shared control that applies to all outgoing call settings categories when placing outbound calls.
-  - `useCustomPermissions` (boolean) **(requerido)**: When `true`, indicates that this workspace uses the specified outgoing calling permissions when placing outbound calls.
-  - `callingPermissions` (array) **(requerido)**: Workspace's list of outgoing permissions.
-    - `callType` (string) **(requerido)**: Type of the outgoing call.  * `INTERNAL_CALL` - Internal call type.  * `TOLL_FREE` - Toll free call type.  * `INTERNATIONAL` - International call type.  * `OPERATOR_ASSISTED` - Operator Assisted call type.  * `CHARGEABLE_DIRECTORY_ASSISTED` - Chargeable Directory Assisted call type.  * `SPECIAL_SERVICES_I` - Special Services I call type.  * `SPECIAL_SERVICES_II` - Special Services II call type.  * `PREMIUM_SERVICES_I` - Premium Services I call type.  * `PREMIUM_SERVICES_II` - Premium Services II call type.  * `NATIONAL` - National call type. Valores: INTERNAL_CALL, TOLL_FREE, INTERNATIONAL, OPERATOR_ASSISTED, CHARGEABLE_DIRECTORY_ASSISTED, SPECIAL_SERVICES_I, SPECIAL_SERVICES_II, PREMIUM_SERVICES_I, PREMIUM_SERVICES_II, NATIONAL.
-    - `action` (string) **(requerido)**: Permission for call types.  * `ALLOW` - The call type is allowed.  * `BLOCK` - The call type is blocked.  * `AUTH_CODE` - Access Code action for the specified call type.  * `TRANSFER_NUMBER_1` - Transfer to Auto Transfer Number 1. The answering person can then approve the call and send it through or reject the call.  * `TRANSFER_NUMBER_2` - Transfer to Auto Transfer Number 2. The answering person can then approve the call and send it through or reject the call.  * `TRANSFER_NUMBER_3` - Transfer to Auto Transfer Number 3. The answering person can then approve the call and send it through or reject the call. Valores: ALLOW, BLOCK, AUTH_CODE, TRANSFER_NUMBER_1, TRANSFER_NUMBER_2, TRANSFER_NUMBER_3.
-    - `transferEnabled` (boolean) **(requerido)**: If `true`, allows transfer and forwarding for the call type.
-    - `isCallTypeRestrictionEnabled` (boolean) **(requerido)**: Indicates if the restriction is enforced by the system for the corresponding call type and cannot be changed. For example, certain call types (such as `INTERNATIONAL`) may be permanently blocked and this field will be `true` to reflect that the restriction is system-controlled and not editable.
+## Ejemplo de invocación
+```bash
+curl -X GET '/workspaces/<workspaceId>/features/outgoingPermission' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `useCustomEnabled` (boolean): When `true`, indicates that this workspace uses the shared control that applies to all outgoing call settings categories when placing outbound calls.
+- `useCustomPermissions` (boolean) (**requerido**): When `true`, indicates that this workspace uses the specified outgoing calling permissions when placing outbound calls.
+- `callingPermissions` (array) (**requerido**): Workspace's list of outgoing permissions.
+  - `callType` (string) (**requerido**): Type of the outgoing call.  * `INTERNAL_CALL` - Internal call type.  * `TOLL_FREE` - Toll free call type.  * `INTERNATIONAL` - International call type.  * `OPERATOR_ASSISTED` - Operator Assisted call type.  * `CHARGEABLE_DIRECTORY_ASSISTED` - Chargeable Directory Assisted call type.  * `SPECIAL_SERVICES_I` - Special Services I call type.  * `SPECIAL_SERVICES_II` - Special Services II call type.  * `PREMIUM_SERVICES_I` - Premium Services I call type.  * `PREMIUM_SERVICES_II` - Premium Services II call type.  * `NATIONAL` - National call type. Valores: INTERNAL_CALL, TOLL_FREE, INTERNATIONAL, OPERATOR_ASSISTED, CHARGEABLE_DIRECTORY_ASSISTED, SPECIAL_SERVICES_I, SPECIAL_SERVICES_II, PREMIUM_SERVICES_I, PREMIUM_SERVICES_II, NATIONAL.
+  - `action` (string) (**requerido**): Permission for call types.  * `ALLOW` - The call type is allowed.  * `BLOCK` - The call type is blocked.  * `AUTH_CODE` - Access Code action for the specified call type.  * `TRANSFER_NUMBER_1` - Transfer to Auto Transfer Number 1. The answering person can then approve the call and send it through or reject the call.  * `TRANSFER_NUMBER_2` - Transfer to Auto Transfer Number 2. The answering person can then approve the call and send it through or reject the call.  * `TRANSFER_NUMBER_3` - Transfer to Auto Transfer Number 3. The answering person can then approve the call and send it through or reject the call. Valores: ALLOW, BLOCK, AUTH_CODE, TRANSFER_NUMBER_1, TRANSFER_NUMBER_2, TRANSFER_NUMBER_3.
+  - `transferEnabled` (boolean) (**requerido**): If `true`, allows transfer and forwarding for the call type.
+  - `isCallTypeRestrictionEnabled` (boolean) (**requerido**): Indicates if the restriction is enforced by the system for the corresponding call type and cannot be changed. For example, certain call types (such as `INTERNATIONAL`) may be permanently blocked and this field will be `true` to reflect that the restriction is system-controlled and not editable.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "useCustomEnabled": true,
+  "useCustomPermissions": true,
+  "callingPermissions": [
+    {
+      "callType": "INTERNAL_CALL",
+      "action": "ALLOW",
+      "transferEnabled": true,
+      "isCallTypeRestrictionEnabled": true
+    },
+    {
+      "callType": "TOLL_FREE",
+      "action": "ALLOW",
+      "transferEnabled": true,
+      "isCallTypeRestrictionEnabled": true
+    },
+    {
+      "callType": "INTERNATIONAL",
+      "action": "BLOCK",
+      "transferEnabled": false,
+      "isCallTypeRestrictionEnabled": false
+    },
+    {
+      "callType": "OPERATOR_ASSISTED",
+      "action": "ALLOW",
+      "transferEnabled": true,
+      "isCallTypeRestrictionEnabled": true
+    },
+    {
+      "callType": "CHARGEABLE_DIRECTORY_ASSISTED",
+      "action": "BLOCK",
+      "transferEnabled": true,
+      "isCallTypeRestrictionEnabled": true
+    },
+    {
+      "callType": "SPECIAL_SERVICES_I",
+      "action": "ALLOW",
+      "transferEnabled": true,
+      "isCallTypeRestrictionEnabled": true
+    },
+    {
+      "callType": "SPECIAL_SERVICES_II",
+      "action": "ALLOW",
+      "transferEnabled": true,
+      "isCallTypeRestrictionEnabled": true
+    },
+    {
+      "callType": "PREMIUM_SERVICES_I",
+      "action": "BLOCK",
+      "transferEnabled": false,
+      "isCallTypeRestrictionEnabled": false
+    },
+    {
+      "callType": "PREMIUM_SERVICES_II",
+      "action": "BLOCK",
+      "transferEnabled": false,
+      "isCallTypeRestrictionEnabled": false
+    },
+    {
+      "callType": "NATIONAL",
+      "ac
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -52,6 +131,9 @@ This API requires a full or read-only administrator or location administrator au
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

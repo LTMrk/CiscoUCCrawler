@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-dectnetworks
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/dectNetworks
+operation_id: Get the List of DECT Networks for an Organization
+tags: DECT Devices Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.544750+00:00
+retrieved_at: 2026-08-18T23:45:43.147338+00:00
 ---
 
 # GET /telephony/config/dectNetworks
@@ -29,22 +34,54 @@ This API requires a full or read-only administrator auth token with a scope of `
 - `name` [query] (string): List of DECT networks with this name.
 - `locationId` [query] (string): List of DECT networks at this location.
 
-## Respuestas
-- **200**: OK
-  - `dectNetworks` (array) **(requerido)**: List of DECT networks in an organization.
-    - `id` (string) **(requerido)**: Unique identifier for the DECT network.
-    - `name` (string) **(requerido)**: Name of the DECT network. This should be unique across the location.
-    - `displayName` (string): DECT network name displayed on the handset.
-    - `chainId` (number) **(requerido)**: Chain ID of the DECT network.
-    - `model` (string) **(requerido)**: * `DMS Cisco DBS210` - Cisco DBS210 base station model.  * `DMS Cisco DBS110` - Cisco DBS110 base station model. Valores: DMS Cisco DBS210, DMS Cisco DBS110.
-    - `defaultAccessCodeEnabled` (boolean) **(requerido)**: Default access code is enabled. If true, the default access code is mandatory. If false, auto-generated access code is used.
-    - `defaultAccessCode` (string) **(requerido)**: Default access code for the DECT network. The default access code should be unique within the same location to avoid the handset accidentally registering with base stations from different DECT networks in range. This is mandatory when `defaultAccessCodeEnabled` is true.
-    - `numberOfBaseStations` (number) **(requerido)**: Number of base stations in the DECT network.
-    - `numberOfHandsetsAssigned` (number) **(requerido)**: Number of handsets assigned to the DECT network.
-    - `numberOfLines` (number) **(requerido)**: Number of lines in the DECT network.
-    - `location` (object) **(requerido)**:
-      - `id` (string) **(requerido)**: Location identifier associated with the members.
-      - `name` (string) **(requerido)**: Location name associated with the member.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/dectNetworks' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `dectNetworks` (array) (**requerido**): List of DECT networks in an organization.
+  - `id` (string) (**requerido**): Unique identifier for the DECT network.
+  - `name` (string) (**requerido**): Name of the DECT network. This should be unique across the location.
+  - `displayName` (string): DECT network name displayed on the handset.
+  - `chainId` (number) (**requerido**): Chain ID of the DECT network.
+  - `model` (string) (**requerido**): * `DMS Cisco DBS210` - Cisco DBS210 base station model.  * `DMS Cisco DBS110` - Cisco DBS110 base station model. Valores: DMS Cisco DBS210, DMS Cisco DBS110.
+  - `defaultAccessCodeEnabled` (boolean) (**requerido**): Default access code is enabled. If true, the default access code is mandatory. If false, auto-generated access code is used.
+  - `defaultAccessCode` (string) (**requerido**): Default access code for the DECT network. The default access code should be unique within the same location to avoid the handset accidentally registering with base stations from different DECT networks in range. This is mandatory when `defaultAccessCodeEnabled` is true.
+  - `numberOfBaseStations` (number) (**requerido**): Number of base stations in the DECT network.
+  - `numberOfHandsetsAssigned` (number) (**requerido**): Number of handsets assigned to the DECT network.
+  - `numberOfLines` (number) (**requerido**): Number of lines in the DECT network.
+  - `location` (object) (**requerido**):
+    - `id` (string) (**requerido**): Location identifier associated with the members.
+    - `name` (string) (**requerido**): Location name associated with the member.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "dectNetworks": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi85NmFiYzJhYS0zZGNjLTExZTUtYTE1Mi1mZTM0ODE5Y2RjOWE",
+      "name": "Demo-DectNetwork",
+      "displayName": "Demo-DectNetwork",
+      "chainId": 1224,
+      "model": "DMS Cisco DBS210",
+      "defaultAccessCodeEnabled": true,
+      "defaultAccessCode": "1234",
+      "numberOfBaseStations": 2,
+      "numberOfHandsetsAssigned": 5,
+      "numberOfLines": 2,
+      "location": {
+        "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2E4Mjg5NzIyLTFiODAtNDFiNy05Njc4LTBlNzdhZThjMTA5OA",
+        "name": "Cisco-HQ"
+      }
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -60,6 +97,9 @@ This API requires a full or read-only administrator auth token with a scope of `
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

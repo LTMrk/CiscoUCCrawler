@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-virtuallines-virtuallineid-outgoingpermission-digitpatterns-digitpatternid
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}/outgoingPermission/digitPatterns/{digitPatternId}
+operation_id: Modify a Digit Pattern for a Virtual Profile
+tags: Virtual Line Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.659587+00:00
+retrieved_at: 2026-08-18T23:45:43.394981+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/outgoingPermission/digitPatterns/{digitPatternId}
@@ -25,8 +30,8 @@ Digit patterns are used to bypass permissions.
 Updating the digit pattern requires a full, user, or location administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `virtualLineId` [path] (string) **(requerido)**: Unique identifier for the virtual line.
-- `digitPatternId` [path] (string) **(requerido)**: Unique identifier for the digit pattern.
+- `virtualLineId` [path] (string) (**requerido**): Unique identifier for the virtual line.
+- `digitPatternId` [path] (string) (**requerido**): Unique identifier for the digit pattern.
 - `orgId` [query] (string): ID of the organization in which the virtual line resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access API.
 
 ## Cuerpo de la petición (application/json)
@@ -35,7 +40,7 @@ Updating the digit pattern requires a full, user, or location administrator auth
 - `action` (string): Action to be performed on the input number that matches the digit pattern.  * `ALLOW` - Allow the designated call type.  * `BLOCK` - Block the designated call type.  * `AUTH_CODE` - Allow only via Authorization Code.  * `TRANSFER_NUMBER_1` - Transfer to Auto Transfer Number 1. The answering person can then approve the call and send it through or reject the call.  * `TRANSFER_NUMBER_2` - Transfer to Auto Transfer Number 2. The answering person can then approve the call and send it through or reject the call.  * `TRANSFER_NUMBER_3` - Transfer to Auto Transfer Number 3. The answering person can then approve the call and send it through or reject the call. Valores: ALLOW, BLOCK, AUTH_CODE, TRANSFER_NUMBER_1, TRANSFER_NUMBER_2, TRANSFER_NUMBER_3.
 - `transferEnabled` (boolean): If `true`, allows transfer and forwarding for the call type.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "name": "DigitPattern4",
@@ -43,8 +48,18 @@ Updating the digit pattern requires a full, user, or location administrator auth
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/virtualLines/<virtualLineId>/outgoingPermission/digitPatterns/<digitPatternId>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -60,6 +75,9 @@ Updating the digit pattern requires a full, user, or location administrator auth
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

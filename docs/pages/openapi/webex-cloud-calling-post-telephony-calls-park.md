@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-calls-park
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/calls/park
+operation_id: park
+tags: Call Controls, External Voicemail
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.551508+00:00
+retrieved_at: 2026-08-18T23:45:43.159497+00:00
 ---
 
 # POST /telephony/calls/park
@@ -21,12 +26,12 @@ Park
 Park a connected call. The number field in the response can be used as the destination for the retrieve command to retrieve the parked call.
 
 ## Cuerpo de la petición (application/json)
-- `callId` (string) **(requerido)**: The call identifier of the call to park.
+- `callId` (string) (**requerido**): The call identifier of the call to park.
 - `destination` (string): Identifes where the call is to be parked. If not provided, the call is parked against the parking user. The destination can be digits or a URI. Some examples for destination include: `1234`, `2223334444`, `+12223334444`, `*73`, `tel:+12223334444`, `user@company.domain`, `sip:user@company.domain`
 - `isGroupPark` (boolean): If set to`true`, the call is parked against an automatically selected member of the user's call park group and the destination parameter is ignored.
 - `lineOwnerId` (string): The ID of a user, workspace, or virtual line for which there is a secondary line on a device owned by the user invoking the API.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "callId": "Y2lzY29zcGFyazovL3VzL0NBTEwvQkNMRC9jYWxsaGFsZi00ODg6MA",
@@ -36,9 +41,33 @@ Park a connected call. The number field in the response can be used as the desti
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `parkedAgainst` (object) **(requerido)**: The details of where the call has been parked.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/calls/park' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"callId": "<callId>"}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `parkedAgainst` (object) (**requerido**): The details of where the call has been parked.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "parkedAgainst": {
+    "name": "John Smith",
+    "number": "+12223334444",
+    "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9hMTlkODJhMi00ZTY5LTU5YWEtOWYyZi1iY2E2MzEwMTNhNjg=",
+    "placeId": "Y2lzY29zcGFyazovL3VzL1BMQUNFL2ExOWQ4MmEyLTRlNjktNTlhYS05ZjJmLWJjYTYzMTAxM2E2OA==",
+    "privacyEnabled": false,
+    "callType": "location"
+  }
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -54,6 +83,9 @@ Park a connected call. The number field in the response can be used as the desti
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

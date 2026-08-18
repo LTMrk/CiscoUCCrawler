@@ -2,10 +2,15 @@
 doc_id: webex-admin-post-recordings-accesslist
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: POST
 path: /recordings/accessList
+operation_id: updateRecordingShareByLink
+tags: Recordings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.157484+00:00
+retrieved_at: 2026-08-18T23:45:42.576714+00:00
 ---
 
 # POST /recordings/accessList
@@ -27,7 +32,7 @@ Share or unshare a recording with other users by recording link and email addres
 - `removeEmails` (array): Email addresses of users to unshare the recording link with. The maximum size of the array is `100`.
 - `sendEmail` (boolean): Whether to send email notifications to the users being shared. The default is `true`.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "webShareLink": "https://example.webex.com/webappng/sites/example/recording/9edff068a1cb4965ac640627161beed1/playback",
@@ -44,8 +49,18 @@ Share or unshare a recording with other users by recording link and email addres
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X POST '/recordings/accessList' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -61,6 +76,9 @@ Share or unshare a recording with other users by recording link and email addres
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

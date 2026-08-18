@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-devices-deviceid-dynamicsettings
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/devices/{deviceId}/dynamicSettings
+operation_id: updateSpecifiedSettingsForTheDevice
+tags: Device Call Settings With Device Dynamic Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.589065+00:00
+retrieved_at: 2026-08-18T23:45:43.273665+00:00
 ---
 
 # PUT /telephony/config/devices/{deviceId}/dynamicSettings
@@ -25,16 +30,16 @@ This API updates device settings based on the specified `tags`. If the `tags` fi
 This requires a full, device, or read-only administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `deviceId` [path] (string) **(requerido)**: Device for which to update settings.
+- `deviceId` [path] (string) (**requerido**): Device for which to update settings.
 - `orgId` [query] (string): Organization to which the device belongs.
 
 ## Cuerpo de la petición (application/json)
 - `tags` (array): Optional array of `tag` identifiers representing specific settings to update. If omitted or provided as an empty array, the request will have no effect.
-  - `tag` (string) **(requerido)**: The unique identifier for the setting to be updated.
-  - `action` (string) **(requerido)**: * `ADD` - Add action.  * `DELETE` - Delete action. Valores: ADD, DELETE.
-  - `value` (string): The new value to set for the setting. This field is required when `action` is `SET` and ignored otherwise.
+  - `tag` (string) (**requerido**): The unique identifier for the setting to be updated. Long. max: 64.
+  - `action` (string) (**requerido**): * `ADD` - Add action.  * `DELETE` - Delete action. Valores: ADD, DELETE.
+  - `value` (string): The new value to set for the setting. This field is required when `action` is `SET` and ignored otherwise. Long. max: 256.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "tags": [
@@ -51,8 +56,18 @@ This requires a full, device, or read-only administrator auth token with a scope
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/devices/<deviceId>/dynamicSettings' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -68,6 +83,9 @@ This requires a full, device, or read-only administrator auth token with a scope
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

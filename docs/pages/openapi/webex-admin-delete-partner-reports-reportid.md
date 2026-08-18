@@ -2,10 +2,15 @@
 doc_id: webex-admin-delete-partner-reports-reportid
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: DELETE
 path: /partner/reports/{reportId}
+operation_id: deleteAReport
+tags: Partner Reports/Templates
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.154349+00:00
+retrieved_at: 2026-08-18T23:45:42.571479+00:00
 ---
 
 # DELETE /partner/reports/{reportId}
@@ -25,11 +30,19 @@ Specify the report ID in the `reportId` parameter in the URI
 To access this endpoint, you must use an administrator token with `spark-admin:reports_write` scope.
 
 ## Parámetros
-- `reportId` [path] (string) **(requerido)**: The unique identifier for the report.
+- `reportId` [path] (string) (**requerido**): The unique identifier for the report.
 - `onBehalfOfSubPartnerOrgId` [query] (string): The encoded organization ID for the sub partner.
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X DELETE '/partner/reports/<reportId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -45,6 +58,9 @@ To access this endpoint, you must use an administrator token with `spark-admin:r
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

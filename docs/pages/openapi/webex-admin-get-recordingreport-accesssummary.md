@@ -2,10 +2,15 @@
 doc_id: webex-admin-get-recordingreport-accesssummary
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: GET
 path: /recordingReport/accessSummary
+operation_id: List of Recording Audit Report Summaries
+tags: Recording Report
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.155641+00:00
+retrieved_at: 2026-08-18T23:45:42.573448+00:00
 ---
 
 # GET /recordingReport/accessSummary
@@ -33,23 +38,67 @@ Long result sets are split into [pages](/docs/basics#pagination).
 * `timezone`: [Time zone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List) in conformance with the [IANA time zone database](https://www.iana.org/time-zones). The default is UTC if `timezone` is not defined.
 
 ## Parámetros
-- `max` [query] (number): Maximum number of recording audit report summaries to return in a single page. `max` must be equal to or greater than `1` and equal to or less than `100`.
-- `from` [query] (string): Starting date and time (inclusive) for recording audit report summaries to return, in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `from` cannot be after `to`. Please note that the interval between `to` and `from` cannot exceed 90 days and the interval between the current time and `from` cannot exceed 365 days.
-- `to` [query] (string): Ending date and time (exclusive) for recording audit report summaries to return, in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `to` cannot be before `from`. Please note that the interval between `to` and `from` cannot exceed 90 days and the interval between the current time and `from` cannot exceed 365 days.
+- `max` [query] (number): Maximum number of recording audit report summaries to return in a single page. `max` must be equal to or greater than `1` and equal to or less than `100`. Por defecto: 10.
+- `from` [query] (string): Starting date and time (inclusive) for recording audit report summaries to return, in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `from` cannot be after `to`. Please note that the interval between `to` and `from` cannot exceed 90 days and the interval between the current time and `from` cannot exceed 365 days. Por defecto: If `to` is specified, the default value is 7 days before `to`; if `to` is not specified, the default value is 7 days before the current date and time..
+- `to` [query] (string): Ending date and time (exclusive) for recording audit report summaries to return, in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `to` cannot be before `from`. Please note that the interval between `to` and `from` cannot exceed 90 days and the interval between the current time and `from` cannot exceed 365 days. Por defecto: If `from` is specified, the default value is 7 days after `from`; if `from` is not specified, the default value is the current date and time..
 - `hostEmail` [query] (string): Email address for the meeting host. This parameter is only used if the user or application calling the API has the admin on-behalf-of scopes. If set, the admin may specify the email of a user in a site they manage and the API will return recording audit report summaries of that user. If a special value of `all` is set for `hostEmail`, the admin can list recording audit report summaries of all users on the target site, not of a single user.
 - `siteUrl` [query] (string): URL of the Webex site which the API lists recording audit report summaries from. If not specified, the API lists summary audit report for recordings from the user's preferred site. All available Webex sites and the preferred site of the user can be retrieved by `Get Site List` API.
 - `timezone` [header] (string): e.g. UTC
 
-## Respuestas
-- **200**: OK
-  - `items` (array): An array of recording audit report summaries objects.
-    - `recordingId` (string): A unique identifier for the recording.
-    - `topic` (string): The recording's topic.
-    - `timeRecorded` (string): The date and time the recording started in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. the time is the record button was clicked in the meeting.
-    - `siteUrl` (string): Site URL for the recording.
-    - `hostEmail` (string): Email address for the meeting host.
-    - `viewCount` (number): The number of times the recording was viewed.
-    - `downloadCount` (number): The number of times the recording was downloaded.
+## Ejemplo de invocación
+```bash
+curl -X GET '/recordingReport/accessSummary' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): An array of recording audit report summaries objects.
+  - `recordingId` (string): A unique identifier for the recording.
+  - `topic` (string): The recording's topic.
+  - `timeRecorded` (string): The date and time the recording started in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. the time is the record button was clicked in the meeting.
+  - `siteUrl` (string): Site URL for the recording.
+  - `hostEmail` (string): Email address for the meeting host.
+  - `viewCount` (number): The number of times the recording was viewed.
+  - `downloadCount` (number): The number of times the recording was downloaded.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "recordingId": "4f914b1dfe3c4d11a61730f18c0f5387",
+      "topic": "Example Topic",
+      "timeRecorded": "2020-07-13T17:05:35Z",
+      "siteUrl": "site4-example.webex.com",
+      "hostEmail": "john.andersen@example.com",
+      "viewCount": 18,
+      "downloadCount": 10
+    },
+    {
+      "recordingId": "3324fb76946249cfa07fc30b3ccbf580",
+      "topic": "Example Topic",
+      "timeRecorded": "2020-07-13T17:05:35Z",
+      "siteUrl": "site4-example.webex.com",
+      "hostEmail": "john.andersen@example.com",
+      "viewCount": 0,
+      "downloadCount": 2
+    },
+    {
+      "recordingId": "42b80117a2a74dcf9863bf06264f8075",
+      "topic": "Example Topic",
+      "timeRecorded": "2020-07-13T17:05:35Z",
+      "siteUrl": "site4-example.webex.com",
+      "hostEmail": "john.andersen@example.com",
+      "viewCount": 7,
+      "downloadCount": 20
+    }
+  ]
+}
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -65,6 +114,9 @@ Long result sets are split into [pages](/docs/basics#pagination).
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

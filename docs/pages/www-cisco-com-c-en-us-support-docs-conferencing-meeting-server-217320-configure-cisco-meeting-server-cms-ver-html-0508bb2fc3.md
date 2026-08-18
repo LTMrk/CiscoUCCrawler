@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-217320-configure-cisco-meeting-server-cms-ver-html-0508bb2fc3
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217320-configure-cisco-meeting-server-cms-ver.html
-retrieved_at: 2026-08-16T14:21:33.202840+00:00
+retrieved_at: 2026-08-18T23:49:36.838573+00:00
 ---
 
 Configure Cisco Meeting Server (CMS) Version 3 Next Generation Streamer And Uploader
 
 # Configure Cisco Meeting Server (CMS) Version 3 Next Generation Streamer And Uploader
-
-Log in to Save Content
 
 ### Download Options
 
@@ -417,12 +415,6 @@ Cisco TAC Engineer
 Dipin Divakaran
 
 Cisco TAC Engineer
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 

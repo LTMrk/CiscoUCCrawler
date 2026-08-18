@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-callrouting-translationpatterns
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/callRouting/translationPatterns
+operation_id: Retrieve the list of Translation Patterns
+tags: Call Routing
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.558550+00:00
+retrieved_at: 2026-08-18T23:45:43.172680+00:00
 ---
 
 # GET /telephony/config/callRouting/translationPatterns
@@ -34,17 +39,51 @@ Requires a full or read-only administrator auth token with a scope of `spark-adm
 - `name` [query] (string): Only return translation patterns with the matching `name`.
 - `matchingPattern` [query] (string): Only return translation patterns with the matching `matchingPattern`.
 
-## Respuestas
-- **200**: OK
-  - `translationPatterns` (array) **(requerido)**: List of translation pattern information.
-    - `id` (string) **(requerido)**: Unique identifier for a translation pattern.
-    - `name` (string) **(requerido)**: Name given to a translation pattern for an organization.
-    - `matchingPattern` (string) **(requerido)**: Matching pattern given to a translation pattern for an organization.
-    - `replacementPattern` (string) **(requerido)**: Replacement pattern given to a translation pattern for an organization.
-    - `level` (string) **(requerido)**: Level at which the translation pattern is created. The level can either be `Organization` or `Location`.
-    - `location` (object): Location associated with the hot desking member.
-      - `id` (string) **(requerido)**: Unique identifier for the location.
-      - `name` (string) **(requerido)**: Name of the location.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/callRouting/translationPatterns' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `translationPatterns` (array) (**requerido**): List of translation pattern information.
+  - `id` (string) (**requerido**): Unique identifier for a translation pattern.
+  - `name` (string) (**requerido**): Name given to a translation pattern for an organization.
+  - `matchingPattern` (string) (**requerido**): Matching pattern given to a translation pattern for an organization.
+  - `replacementPattern` (string) (**requerido**): Replacement pattern given to a translation pattern for an organization.
+  - `level` (string) (**requerido**): Level at which the translation pattern is created. The level can either be `Organization` or `Location`.
+  - `location` (object): Location associated with the hot desking member.
+    - `id` (string) (**requerido**): Unique identifier for the location.
+    - `name` (string) (**requerido**): Name of the location.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "translationPatterns": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1NDSEVEVUxFL1FWVlVUMEZVVkVWT1JFRk9WQzFDVlZOSlRrVlRVeTFJVDFWU1V3",
+      "name": "TranslationPattern1",
+      "matchingPattern": "781",
+      "replacementPattern": "+91348781",
+      "level": "Organization"
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1NDSEVEVUxFL1FWVlVUMEZVVkVWT1JFRk9WQzFDVlZOSlRrVlRVeTFJVDFWU1V5",
+      "name": "TranslationPattern2",
+      "matchingPattern": "2XXX",
+      "replacementPattern": "2013",
+      "level": "Location",
+      "location": {
+        "name": "CHN11",
+        "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzc4YzU5NDE2LTQ5YWQtNDVlMy04NmIyLTFkZjU5M2IyZDdhYQ"
+      }
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -60,6 +99,9 @@ Requires a full or read-only administrator auth token with a scope of `spark-adm
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

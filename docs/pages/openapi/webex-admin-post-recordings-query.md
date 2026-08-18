@@ -2,10 +2,15 @@
 doc_id: webex-admin-post-recordings-query
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: POST
 path: /recordings/query
+operation_id: queryRecordings
+tags: Recordings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.156290+00:00
+retrieved_at: 2026-08-18T23:45:42.574839+00:00
 ---
 
 # POST /recordings/query
@@ -38,7 +43,7 @@ Long result sets are split into [pages](/docs/basics#pagination).
 - `timezone` [header] (string): e.g. UTC
 
 ## Cuerpo de la petición (application/json)
-- `max` (number): Maximum number of recordings to return in a single page. `max` must be equal to or greater than `1` and equal to or less than `100`.
+- `max` (number): Maximum number of recordings to return in a single page. `max` must be equal to or greater than `1` and equal to or less than `100`. Por defecto: 10.
 - `from` (string): Starting date and time (inclusive) for recordings to return, in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `from` cannot be after `to`.
 - `to` (string): Ending date and time (exclusive) for query recordings to return, in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `to` cannot be before `from`.
 - `meetingId` (string): Unique identifier for the parent meeting series, scheduled meeting, or meeting instance for which recordings are being requested. If a meeting series ID is specified, the operation returns an array of recordings for the specified meeting series. If a scheduled meeting ID is specified, the operation returns an array of recordings for the specified scheduled meeting. If a meeting instance ID is specified, the operation returns an array of recordings for the specified meeting instance. If no ID is specified, the operation returns an array of recordings for all meetings of the current user. When `meetingId` is specified, the `siteUrl` parameter is ignored.
@@ -48,9 +53,9 @@ Long result sets are split into [pages](/docs/basics#pagination).
 - `topic` (string): Recording's topic. If specified, the API filters recordings by topic in a case-insensitive manner.
 - `format` (string): Recording's file format. If specified, the API filters recordings by format. Valores: MP4, ARF.
 - `serviceType` (string): The service type for recordings. If this item is specified, the API filters recordings by service-type. Valores: MeetingCenter, EventCenter, SupportCenter, TrainingCenter.
-- `status` (string): Recording's status. If not specified or `available`, retrieves recordings that are available. Otherwise, if specified as `deleted`, retrieves recordings that have been moved into the recycle bin. The `purged` status only applies if the user calling the API is a Compliance Officer and `meetingId` is specified. Valores: available, deleted, purged.
+- `status` (string): Recording's status. If not specified or `available`, retrieves recordings that are available. Otherwise, if specified as `deleted`, retrieves recordings that have been moved into the recycle bin. The `purged` status only applies if the user calling the API is a Compliance Officer and `meetingId` is specified. Valores: available, deleted, purged. Por defecto: available.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "max": 10,
@@ -67,27 +72,65 @@ Long result sets are split into [pages](/docs/basics#pagination).
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `items` (array): An array of recording objects.
-    - `id` (string) **(requerido)**: A unique identifier for the recording.
-    - `meetingId` (string) **(requerido)**: Unique identifier for the recording's ended meeting instance.
-    - `scheduledMeetingId` (string): Unique identifier for the recording's scheduled meeting instance.
-    - `meetingSeriesId` (string): Unique identifier for the recording's meeting series.
-    - `topic` (string) **(requerido)**: The recording's topic.
-    - `createTime` (string) **(requerido)**: The date and time recording was created in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. Please note that it's not the time the record button was clicked in meeting but the time the recording file was generated offline.
-    - `timeRecorded` (string) **(requerido)**: The date and time recording started in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. It indicates when the record button was clicked in the meeting.
-    - `siteUrl` (string) **(requerido)**: Site URL for the recording.
-    - `downloadUrl` (string) **(requerido)**: The download link for recording. This attribute is not available if **Prevent downloading** has been turned on for the recording being requested. The **Prevent downloading** option can be viewed and set by a site admin on [Control Hub](https://help.webex.com/en-us/article/sxdj4ab/Manage-Security-for-a-Cisco-Webex-Site-in-Cisco-Webex-Control-Hub).
-    - `playbackUrl` (string) **(requerido)**: The playback link for recording.
-    - `password` (string) **(requerido)**: The recording's password.
-    - `format` (string) **(requerido)**: * `MP4` - Recording file format is MP4.  * `ARF` - Recording file format is ARF, a proprietary Webex recording format.  * `UPLOADED` - The recording file is uploaded manually. Valores: MP4, ARF, UPLOADED.
-    - `serviceType` (string) **(requerido)**: The service type for the recording.  * `MeetingCenter` - The service type for the recording is meeting.  * `EventCenter` - The service type for the recording is the event.  * `TrainingCenter` - The service type for the recording is the training session.  * `SupportCenter` - The service type for the recording is the support meeting. Valores: MeetingCenter, EventCenter, TrainingCenter, SupportCenter.
-    - `durationSeconds` (number) **(requerido)**: The duration of the recording, in seconds.
-    - `sizeBytes` (number) **(requerido)**: The size of the recording file, in bytes.
-    - `shareToMe` (boolean) **(requerido)**: Whether or not the recording has been shared to the current user. This attribute is hidden if the user calling the API is a Compliance Officer and `hostEmail` is not specified.
-    - `integrationTags` (array): External keys of the parent meeting created by an integration application. They could be Zendesk ticket IDs, Jira IDs, Salesforce Opportunity IDs, etc. The integration application queries recordings by a key in its own domain.
-    - `status` (string) **(requerido)**: * `available` - Recording is available.  * `deleted` - Recording has been moved into recycle bin.  * `purged` - Recording has been purged from the recycle bin. Only applies if the user calling the API is a Compliance Officer and `meetingId` is specified. Valores: available, deleted, purged.
+## Ejemplo de invocación
+```bash
+curl -X POST '/recordings/query' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): An array of recording objects.
+  - `id` (string) (**requerido**): A unique identifier for the recording.
+  - `meetingId` (string) (**requerido**): Unique identifier for the recording's ended meeting instance.
+  - `scheduledMeetingId` (string): Unique identifier for the recording's scheduled meeting instance.
+  - `meetingSeriesId` (string): Unique identifier for the recording's meeting series.
+  - `topic` (string) (**requerido**): The recording's topic.
+  - `createTime` (string) (**requerido**): The date and time recording was created in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. Please note that it's not the time the record button was clicked in meeting but the time the recording file was generated offline.
+  - `timeRecorded` (string) (**requerido**): The date and time recording started in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. It indicates when the record button was clicked in the meeting.
+  - `siteUrl` (string) (**requerido**): Site URL for the recording.
+  - `downloadUrl` (string) (**requerido**): The download link for recording. This attribute is not available if **Prevent downloading** has been turned on for the recording being requested. The **Prevent downloading** option can be viewed and set by a site admin on [Control Hub](https://help.webex.com/en-us/article/sxdj4ab/Manage-Security-for-a-Cisco-Webex-Site-in-Cisco-Webex-Control-Hub).
+  - `playbackUrl` (string) (**requerido**): The playback link for recording.
+  - `password` (string) (**requerido**): The recording's password.
+  - `format` (string) (**requerido**): * `MP4` - Recording file format is MP4.  * `ARF` - Recording file format is ARF, a proprietary Webex recording format.  * `UPLOADED` - The recording file is uploaded manually. Valores: MP4, ARF, UPLOADED.
+  - `serviceType` (string) (**requerido**): The service type for the recording.  * `MeetingCenter` - The service type for the recording is meeting.  * `EventCenter` - The service type for the recording is the event.  * `TrainingCenter` - The service type for the recording is the training session.  * `SupportCenter` - The service type for the recording is the support meeting. Valores: MeetingCenter, EventCenter, TrainingCenter, SupportCenter.
+  - `durationSeconds` (number) (**requerido**): The duration of the recording, in seconds.
+  - `sizeBytes` (number) (**requerido**): The size of the recording file, in bytes.
+  - `shareToMe` (boolean) (**requerido**): Whether or not the recording has been shared to the current user. This attribute is hidden if the user calling the API is a Compliance Officer and `hostEmail` is not specified.
+  - `integrationTags` (array): External keys of the parent meeting created by an integration application. They could be Zendesk ticket IDs, Jira IDs, Salesforce Opportunity IDs, etc. The integration application queries recordings by a key in its own domain.
+  - `status` (string) (**requerido**): * `available` - Recording is available.  * `deleted` - Recording has been moved into recycle bin.  * `purged` - Recording has been purged from the recycle bin. Only applies if the user calling the API is a Compliance Officer and `meetingId` is specified. Valores: available, deleted, purged.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "4f914b1dfe3c4d11a61730f18c0f5387",
+      "meetingId": "f91b6edce9864428af084977b7c68291_I_166641849979635652",
+      "scheduledMeetingId": "f91b6edce9864428af084977b7c68291_20200713T121500Z",
+      "meetingSeriesId": "f91b6edce9864428af084977b7c68291",
+      "topic": "John's Meeting",
+      "createTime": "2020-07-13T17:11:35Z",
+      "timeRecorded": "2020-07-13T17:05:35Z",
+      "hostDisplayName": "John Andersen",
+      "hostEmail": "john.andersen@example.com",
+      "siteUrl": "site4-example.webex.com",
+      "downloadUrl": "https://site4-example.webex.com/site4/lsr.php?RCID=b91990e37417bda24986e46cf43345ab",
+      "playbackUrl": "https://site4-example.webex.com/site4/ldr.php?RCID=69201a61d1d94a84aca18817261d1a73",
+      "format": "ARF",
+      "serviceType": "MeetingCenter",
+      "durationSeconds": 18416,
+      "sizeBytes": 168103,
+      "status": "available"
+    }
+  ]
+}
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -103,6 +146,9 @@ Long result sets are split into [pages](/docs/basics#pagination).
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

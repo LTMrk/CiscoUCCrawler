@@ -2,10 +2,15 @@
 doc_id: webex-device-put-locations-locationid
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: PUT
 path: /locations/{locationId}
+operation_id: updateLocation
+tags: Locations
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.135113+00:00
+retrieved_at: 2026-08-18T23:45:44.208208+00:00
 ---
 
 # PUT /locations/{locationId}
@@ -29,7 +34,7 @@ Update details for a location, by ID.
 * **Important:** While the `name` field supports up to 256 characters, locations that are enabled for Webex Calling must have names with a maximum of 80 characters. If the location is enabled for calling, ensure the name does not exceed 80 characters to maintain compatibility with Control Hub and calling features.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Update location common attributes for this location.
+- `locationId` [path] (string) (**requerido**): Update location common attributes for this location.
 - `orgId` [query] (string): Update location common attributes for this organization.
 
 ## Cuerpo de la petición (application/json)
@@ -44,7 +49,7 @@ Update details for a location, by ID.
   - `postalCode` (string): Postal Code
   - `country` (string): ISO-3166 2-Letter Country Code.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "name": "Denver",
@@ -61,8 +66,18 @@ Update details for a location, by ID.
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/locations/<locationId>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -78,6 +93,9 @@ Update details for a location, by ID.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

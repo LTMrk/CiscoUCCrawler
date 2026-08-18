@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-huntgroups
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/huntGroups
+operation_id: listHuntGroups
+tags: Features:  Hunt Group
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.613772+00:00
+retrieved_at: 2026-08-18T23:45:43.317728+00:00
 ---
 
 # GET /telephony/config/huntGroups
@@ -32,18 +37,54 @@ Retrieving this list requires a full or read-only administrator or location admi
 - `name` [query] (string): Only return hunt groups with the matching name.
 - `phoneNumber` [query] (string): Only return hunt groups with the matching primary phone number or extension.
 
-## Respuestas
-- **200**: OK
-  - `huntGroups` (array) **(requerido)**: Array of hunt groups.
-    - `id` (string) **(requerido)**: A unique identifier for the hunt group.
-    - `name` (string) **(requerido)**: Unique name for the hunt group.
-    - `locationName` (string) **(requerido)**: Name of the location for the hunt group.
-    - `locationId` (string) **(requerido)**: ID of location for hunt group.
-    - `phoneNumber` (string): Primary phone number of the hunt group.
-    - `extension` (string): Primary phone extension of the hunt group.
-    - `routingPrefix` (string): Routing prefix of location.
-    - `esn` (string): Routing prefix + extension of a person or workspace.
-    - `enabled` (boolean) **(requerido)**: Whether or not the hunt group is enabled.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/huntGroups' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `huntGroups` (array) (**requerido**): Array of hunt groups.
+  - `id` (string) (**requerido**): A unique identifier for the hunt group.
+  - `name` (string) (**requerido**): Unique name for the hunt group.
+  - `locationName` (string) (**requerido**): Name of the location for the hunt group.
+  - `locationId` (string) (**requerido**): ID of location for hunt group.
+  - `phoneNumber` (string): Primary phone number of the hunt group.
+  - `extension` (string): Primary phone extension of the hunt group.
+  - `routingPrefix` (string): Routing prefix of location.
+  - `esn` (string): Routing prefix + extension of a person or workspace.
+  - `enabled` (boolean) (**requerido**): Whether or not the hunt group is enabled.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "huntGroups": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0hVTlRfR1JPVVAvYUhaaFpUTjJNRzh5YjBBMk5EazBNVEk1Tnk1cGJuUXhNQzVpWTJ4a0xuZGxZbVY0TG1OdmJRPT0",
+      "name": "5714328359",
+      "locationName": "WXCSIVDKCPAPIC4S1",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzMxMTYx",
+      "routingPrefix": "123",
+      "esn": "1239097",
+      "enabled": true
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0hVTlRfR1JPVVAvYVhZd2QySTJNbmM1YWtBMk5EazBNVEk1Tnk1cGJuUXhNQzVpWTJ4a0xuZGxZbVY0TG1OdmJRPT0",
+      "name": "bram",
+      "locationName": "Brampton",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzQwMjgw",
+      "phoneNumber": "+15558675309",
+      "routingPrefix": "123",
+      "esn": "1239097",
+      "enabled": true
+    }
+  ]
+}
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -59,6 +100,9 @@ Retrieving this list requires a full or read-only administrator or location admi
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

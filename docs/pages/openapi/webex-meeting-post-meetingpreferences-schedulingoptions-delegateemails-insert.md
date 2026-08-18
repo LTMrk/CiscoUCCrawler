@@ -2,10 +2,15 @@
 doc_id: webex-meeting-post-meetingpreferences-schedulingoptions-delegateemails-insert
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: POST
 path: /meetingPreferences/schedulingOptions/delegateEmails/insert
+operation_id: Insert Delegate Emails
+tags: Preferences
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.389059+00:00
+retrieved_at: 2026-08-18T23:45:44.470819+00:00
 ---
 
 # POST /meetingPreferences/schedulingOptions/delegateEmails/insert
@@ -27,7 +32,7 @@ Insert delegate emails for the authenticated user.
 ## Cuerpo de la petición (application/json)
 - `emails` (array): You can allow other hosts to schedule meetings on your behalf by entering their email addresses here. This attribute can be modified with the [Update Scheduling Options](/docs/api/v1/meeting-preferences/update-scheduling-options), [Insert Delegate Emails](/docs/api/v1/meeting-preferences/insert-delegate-emails), and [Update Scheduling Options](/docs/api/v1/meeting-preferences/delete-delegate-emails) APIs.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "emails": [
@@ -36,12 +41,44 @@ Insert delegate emails for the authenticated user.
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `emails` (array):
+## Ejemplo de invocación
+```bash
+curl -X POST '/meetingPreferences/schedulingOptions/delegateEmails/insert' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `emails` (array):
+
+### Ejemplo — respuesta 200
+```json
+{
+  "emails": [
+    "marcus.hoffmann@example.com",
+    "brenda.song@example.com"
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden
+  Ejemplo:
+```json
+{
+  "message": "The server understood the request, but refused to fulfill it because the access token is missing required scopes or the user is missing required roles or licenses.",
+  "errors": [
+    {
+      "description": "Not permitted to view or change other user's preferences."
+    }
+  ],
+  "trackingId": "4A78EB66D02E4C78B9955AA504ECFC3D_1572666592909"
+}
+```
 - **404**: Not Found: The URI requested is invalid or the resource requested, such as a user, does not exist. Also returned when the requested format is not supported by the requested method.
 - **405**: Method Not Allowed: The request was made to a resource using an HTTP request method that is not supported.
 - **409**: Conflict: The request could not be processed because it conflicts with some established rule of the system. For example, a person may not be added to a room more than once.
@@ -54,6 +91,9 @@ Insert delegate emails for the authenticated user.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-1000-218117-configure-and-troubleshoot-meetingapps-f-html-82f951feaa
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/218117-configure-and-troubleshoot-meetingapps-f.html
-retrieved_at: 2026-08-16T14:21:24.908804+00:00
+retrieved_at: 2026-08-18T23:48:08.754237+00:00
 ---
 
 Configure and Troubleshoot MeetingApps for File Sharing
 
 # Configure and Troubleshoot MeetingApps for File Sharing
-
-Log in to Save Content
 
 ### Download Options
 

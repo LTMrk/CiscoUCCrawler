@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-people-personid-executive-assignedassistants
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/people/{personId}/executive/assignedAssistants
+operation_id: modifyPersonExecutiveAssignedAssistants
+tags: User Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.652909+00:00
+retrieved_at: 2026-08-18T23:45:43.384815+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/executive/assignedAssistants
@@ -25,13 +30,13 @@ As an executive, you can add assistants to your executive pool to manage calls f
 This API requires a full, user, or location administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: A unique identifier for the person.
+- `personId` [path] (string) (**requerido**): A unique identifier for the person.
 - `orgId` [query] (string): Organization ID for the person.
 
 ## Cuerpo de la petición (application/json)
 - `assistantIds` (array): List of people to be assigned as assistant. To remove all assigned assistants, set `assistantIds` to `null`.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "assistantIds": [
@@ -41,8 +46,18 @@ This API requires a full, user, or location administrator auth token with a scop
 }
 ```
 
-## Respuestas
-- **204**: Person assigned assistants updated successfully.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/people/<personId>/executive/assignedAssistants' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: Person assigned assistants updated successfully.
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -58,6 +73,9 @@ This API requires a full, user, or location administrator auth token with a scop
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-admin-get-partner-organizations
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: GET
 path: /partner/organizations
+operation_id: Get all customers managed by a partner admin
+tags: Partner Administrators
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.153606+00:00
+retrieved_at: 2026-08-18T23:45:42.570304+00:00
 ---
 
 # GET /partner/organizations
@@ -24,13 +29,33 @@ This API can be invoked by Partner Full Admin and Partner Readonly Admin.
 Specify the `personId` in the `managedBy` parameter in the URI.
 
 ## Parámetros
-- `managedBy` [query] (string) **(requerido)**: List customer orgs associated with this person ID.
+- `managedBy` [query] (string) (**requerido**): List customer orgs associated with this person ID.
 
-## Respuestas
-- **200**: OK
-  - `items` (array): An array of managed orgs objects.
-    - `orgId` (string): The org ID of the managed org.
-    - `role` (string): role ID of the user to this org.
+## Ejemplo de invocación
+```bash
+curl -X GET '/partner/organizations?managedBy=<managedBy>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): An array of managed orgs objects.
+  - `orgId` (string): The org ID of the managed org.
+  - `role` (string): role ID of the user to this org.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "orgId": "Y2LZY29ZCGFYAZOVL3VZL1BFT1BMRS9MNWIZNJE4NY1JOGRKLTQ3MJCTOGIYZI1MOWM0NDDMMJKWNDY",
+      "role": "YXRSYXMTCG9YDGFSLNBHCNRUZXIUC2FSZXNMDWXSYWRTAW4="
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -46,6 +71,9 @@ Specify the `personId` in the `managedBy` parameter in the URI.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

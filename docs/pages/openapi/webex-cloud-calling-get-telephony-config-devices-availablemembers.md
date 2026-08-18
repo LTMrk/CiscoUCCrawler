@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-devices-availablemembers
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/devices/availableMembers
+operation_id: Search Available Members
+tags: DECT Devices Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.546881+00:00
+retrieved_at: 2026-08-18T23:45:43.151205+00:00
 ---
 
 # GET /telephony/config/devices/availableMembers
@@ -27,28 +32,57 @@ This requires a full or read-only administrator auth token with a scope of `spar
 ## Parámetros
 - `orgId` [query] (string): Search members in this organization.
 - `start` [query] (number): Specifies the offset from the first result that you want to fetch.
-- `max` [query] (number): Specifies the maximum number of records that you want to fetch.
+- `max` [query] (number): Specifies the maximum number of records that you want to fetch. Por defecto: 2000.
 - `memberName` [query] (string): Search (Contains) numbers based on member name.
 - `phoneNumber` [query] (string): Search (Contains) based on number.
 - `extension` [query] (string): Search (Contains) based on extension.
 - `order` [query] (string): Sort the list of available members on the device in ascending order by name, using either last name `lname` or first name `fname`. Default sort is the last name in ascending order.
 - `locationId` [query] (string): List members for the location ID.
 - `excludeVirtualLine` [query] (boolean): If true, search results will exclude virtual lines in the member list. NOTE: Virtual lines cannot be assigned as the primary line.
-- `usageType` [query] (string): Search for members eligible to become the owner of the device, or share line on the device.
+- `usageType` [query] (string): Search for members eligible to become the owner of the device, or share line on the device. Valores: DEVICE_OWNER, SHARED_LINE.
 
-## Respuestas
-- **200**: OK
-  - `members` (array):
-    - `id` (string) **(requerido)**: Unique identifier for the member.
-    - `firstName` (string): First name of the member.
-    - `lastName` (string): Last name of the member.
-    - `phoneNumber` (string): Phone Number of the member.
-    - `extension` (string): Extension of the member.
-    - `lineType` (string) **(requerido)**: * `PRIMARY` - Primary line for the member.  * `SHARED_CALL_APPEARANCE` - Shared line for the member. A shared line allows users to receive and place calls to and from another user's extension, using their own device. Valores: PRIMARY, SHARED_CALL_APPEARANCE.
-    - `memberType` (string) **(requerido)**: * `PEOPLE` - Indicates the associated member is a person.  * `PLACE` - Indicates the associated member is a workspace. Valores: PEOPLE, PLACE.
-    - `location` (object) **(requerido)**:
-      - `id` (string) **(requerido)**: Location identifier associated with the members.
-      - `name` (string) **(requerido)**: Location name associated with the member.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/devices/availableMembers' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `members` (array):
+  - `id` (string) (**requerido**): Unique identifier for the member.
+  - `firstName` (string): First name of the member.
+  - `lastName` (string): Last name of the member.
+  - `phoneNumber` (string): Phone Number of the member.
+  - `extension` (string): Extension of the member.
+  - `lineType` (string) (**requerido**): * `PRIMARY` - Primary line for the member.  * `SHARED_CALL_APPEARANCE` - Shared line for the member. A shared line allows users to receive and place calls to and from another user's extension, using their own device. Valores: PRIMARY, SHARED_CALL_APPEARANCE.
+  - `memberType` (string) (**requerido**): * `PEOPLE` - Indicates the associated member is a person.  * `PLACE` - Indicates the associated member is a workspace. Valores: PEOPLE, PLACE.
+  - `location` (object) (**requerido**):
+    - `id` (string) (**requerido**): Location identifier associated with the members.
+    - `name` (string) (**requerido**): Location name associated with the member.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "members": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9jODhiZGIwNC1jZjU5LTRjMjMtODQ4OC00NTNhOTE3ZDFlMjk",
+      "firstName": "John",
+      "lastName": "Smith",
+      "phoneNumber": "+12055552221",
+      "extension": "1234",
+      "lineType": "PRIMARY",
+      "memberType": "PEOPLE",
+      "location": {
+        "id": "Y2lzY29zcGFyazovL3VzL0RFQ1RfREVWX05FVC81NmRiMjRkMy03YTdhLTQwYTItOWFjOS1iMjMzMjc3OTIxTrd",
+        "name": "MainOffice"
+      }
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -64,6 +98,9 @@ This requires a full or read-only administrator auth token with a scope of `spar
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-messaging-get-team-memberships-membershipid
 source: webex-openapi-specs/public-spec/webex-messaging.json
 api: Webex Messaging
+api_version: 1.0.0
 method: GET
 path: /team/memberships/{membershipId}
+operation_id: Get Team Membership Details
+tags: Team Memberships
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.515690+00:00
+retrieved_at: 2026-08-18T23:45:44.813709+00:00
 ---
 
 # GET /team/memberships/{membershipId}
@@ -23,18 +28,40 @@ Shows details for a team membership, by ID.
 Specify the team membership ID in the `membershipId` URI parameter.
 
 ## Parámetros
-- `membershipId` [path] (string) **(requerido)**: The unique identifier for the team membership.
+- `membershipId` [path] (string) (**requerido**): The unique identifier for the team membership.
 
-## Respuestas
-- **200**: OK
-  - `id` (string): A unique identifier for the team membership.
-  - `teamId` (string): The team ID.
-  - `personId` (string): The person ID.
-  - `personEmail` (string): The email address of the person.
-  - `personDisplayName` (string): The display name of the person.
-  - `personOrgId` (string): The organization ID of the person.
-  - `isModerator` (boolean): Whether or not the participant is a team moderator.
-  - `created` (string): The date and time when the team membership was created.
+## Ejemplo de invocación
+```bash
+curl -X GET '/team/memberships/<membershipId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string): A unique identifier for the team membership.
+- `teamId` (string): The team ID.
+- `personId` (string): The person ID.
+- `personEmail` (string): The email address of the person.
+- `personDisplayName` (string): The display name of the person.
+- `personOrgId` (string): The organization ID of the person.
+- `isModerator` (boolean): Whether or not the participant is a team moderator.
+- `created` (string): The date and time when the team membership was created.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1RFQU1fTUVNQkVSU0hJUC8wZmNmYTJiOC1hZGNjLTQ1ZWEtYTc4Mi1lNDYwNTkyZjgxZWY6MTNlMThmNDAtNDJmYy0xMWU2LWE5ZDgtMjExYTBkYzc5NzY5",
+  "teamId": "Y2lzY29zcGFyazovL3VzL1RFQU0vMTNlMThmNDAtNDJmYy0xMWU2LWE5ZDgtMjExYTBkYzc5NzY5",
+  "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9mNWIzNjE4Ny1jOGRkLTQ3MjctOGIyZi1mOWM0NDdmMjkwNDY",
+  "personEmail": "john.andersen@example.com",
+  "personDisplayName": "John Andersen",
+  "personOrgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi85NmFiYzJhYS0zZGNjLTExZTUtYTE1Mi1mZTM0ODE5Y2RjOWE",
+  "isModerator": true,
+  "created": "2015-10-18T14:26:16.203Z"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -50,6 +77,9 @@ Specify the team membership ID in the `membershipId` URI parameter.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Messaging APIs offer robust programmatic access to messaging features within Webex, including sending and receiving messages, managing spaces, memberships, attachments, and moderating content. These APIs enable integration with bots, workflow automation, notification systems, and custom messaging solutions to enhance team collaboration and productivity. Use cases include building chatbots, integrating with ticketing or alerting platforms, automating onboarding flows, and creating custom collaboration experiences tailored to business needs.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

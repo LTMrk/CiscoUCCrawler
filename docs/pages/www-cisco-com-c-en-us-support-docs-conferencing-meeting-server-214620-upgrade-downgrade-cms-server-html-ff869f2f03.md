@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-214620-upgrade-downgrade-cms-server-html-ff869f2f03
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214620-upgrade-downgrade-cms-server.html
-retrieved_at: 2026-08-16T14:20:33.574427+00:00
+retrieved_at: 2026-08-18T23:49:03.206243+00:00
 ---
 
 Upgrade/Downgrade CMS Server
 
 # Upgrade/Downgrade CMS Server
-
-Log in to Save Content
 
 ### Download Options
 

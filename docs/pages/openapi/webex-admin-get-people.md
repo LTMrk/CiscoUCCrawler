@@ -2,10 +2,15 @@
 doc_id: webex-admin-get-people
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: GET
 path: /people
+operation_id: List People
+tags: People
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.154628+00:00
+retrieved_at: 2026-08-18T23:45:42.571907+00:00
 ---
 
 # GET /people
@@ -36,53 +41,108 @@ Long result sets will be split into [pages](/docs/basics#pagination).
 - `id` [query] (string): List people by ID. Accepts up to 85 person IDs separated by commas. If this parameter is provided then presence information (such as the `lastActivity` or `status` properties) will not be included in the response.
 - `orgId` [query] (string): List people in this organization. Only admin users of another organization (such as partners) may use this parameter.
 - `roles` [query] (string): List of roleIds separated by commas.
-- `callingData` [query] (boolean): Include Webex Calling user details in the response.
+- `callingData` [query] (boolean): Include Webex Calling user details in the response. Por defecto: False.
 - `locationId` [query] (string): List people present in this location.
-- `max` [query] (number): Limit the maximum number of people in the response. If `callingData`=true, then `max` will not be more than 100. If `locationId` is specified then `max` will not be more than 50.
-- `excludeStatus` [query] (boolean): Omit people status/availability to enhance query performance.
+- `max` [query] (number): Limit the maximum number of people in the response. If `callingData`=true, then `max` will not be more than 100. If `locationId` is specified then `max` will not be more than 50. Por defecto: 100.
+- `excludeStatus` [query] (boolean): Omit people status/availability to enhance query performance. Por defecto: False.
 
-## Respuestas
-- **200**: OK
-  - `items` (array): An array of person objects.
-    - `id` (string): A unique identifier for the person.
-    - `emails` (array): The email addresses of the person.
-    - `phoneNumbers` (array): Phone numbers for the person.
-      - `type` (string): The type of phone number.  * `work` - Work phone number of the person.  * `work_extension` - Work extension of the person. For the Webex Calling person, the value will have a routing prefix along with the extension.  * `mobile` - Mobile number of the person.  * `fax` - FAX number of the person. Valores: work, work_extension, mobile, fax.
-      - `value` (string): The phone number.
-      - `primary` (boolean): Primary number for the person.
-    - `extension` (string): The Webex Calling extension for the person. Only applies to a person with a Webex Calling license.
-    - `locationId` (string): The ID of the location for this person retrieved from BroadCloud.
-    - `displayName` (string): The full name of the person.
-    - `nickName` (string): The nickname of the person if configured. If no nickname is configured for the person, this field will not be present.
-    - `firstName` (string): The first name of the person.
-    - `lastName` (string): The last name of the person.
-    - `avatar` (string): The URL to the person's avatar in PNG format.
-    - `orgId` (string): The ID of the organization to which this person belongs.
-    - `roles` (array): An array of role strings representing the roles to which this admin user belongs.
-    - `licenses` (array): An array of license strings allocated to this person.
-    - `department` (string): The business department the user belongs to.
-    - `manager` (string): A manager identifier.
-    - `managerId` (string): Person ID of the manager.
-    - `title` (string): The person's title.
-    - `addresses` (array): A person's addresses.
-      - `type` (string): The type of address.
-      - `country` (string): The user's country.
-      - `locality` (string): The user's locality, often city.
-      - `region` (string): The user's region, often state.
-      - `streetAddress` (string): The user's street.
-      - `postalCode` (string): The user's postal or zip code.
-    - `created` (string): The date and time the person was created.
-    - `lastModified` (string): The date and time the person was last changed.
-    - `timezone` (string): The time zone of the person if configured. If no timezone is configured on the account, this field will not be present.
-    - `lastActivity` (string): The date and time of the person's last activity within Webex. This will only be returned for people within your organization or an organization you manage. Presence information will not be shown if the authenticated user has [disabled status sharing](https://help.webex.com/nkzs6wl/).
-    - `siteUrls` (array): One or several site names where this user has a role (host or attendee).
-    - `sipAddresses` (array): The user's SIP addresses. Read-only.
-      - `type` (string): The type of SIP address.  * `personal-room` - Personal room address.  * `enterprise` - Enterprise address.  * `cloud-calling` - Cloud calling address. Valores: personal-room, enterprise, cloud-calling.
-      - `value` (string): The SIP address.
-      - `primary` (boolean): Primary SIP address of the person.
-    - `xmppFederationJid` (string): Identifier for intra-domain federation with other XMPP based messenger systems.
-    - `status` (string): The current presence status of the person. This will only be returned for people within your organization or an organization you manage. Presence information will not be shown if the authenticated user has [disabled status sharing](https://help.webex.com/nkzs6wl/). Presence status is different from Control Hub's "Last Service Access Time" which indicates the last time an oAuth token was issued for this user.  * `active` - Active within the last 10 minutes.  * `call` - The user is in a call.  * `DoNotDisturb` - The user has manually set their status to "Do Not Disturb".  * `inactive` - Last activity occurred more than 10 minutes ago.  * `meeting` - The user is in a meeting.  * `OutOfOffice` - The user or a Hybrid Calendar service has indicated that they are "Out of Office".  * `pending` - The user has never logged in; a status cannot be determined.  * `presenting` - The user is sharing content.  * `unknown` - The user’s status could not be determined. Valores: active, call, DoNotDisturb, inactive, meeting, OutOfOffice, pending, presenting, unknown.
-    - `invitePending` (string): Whether or not an invite is pending for the user to complete account activation. This property is only returned if the authenticated user is an admin user for the person's organization.  * `true` - The person has been invited to Webex but has not created an account.  * `false` - An invite is not pending for this person. Valores: true, false.
+## Ejemplo de invocación
+```bash
+curl -X GET '/people' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): An array of person objects.
+  - `id` (string): A unique identifier for the person.
+  - `emails` (array): The email addresses of the person.
+  - `phoneNumbers` (array): Phone numbers for the person.
+    - `type` (string): The type of phone number.  * `work` - Work phone number of the person.  * `work_extension` - Work extension of the person. For the Webex Calling person, the value will have a routing prefix along with the extension.  * `mobile` - Mobile number of the person.  * `fax` - FAX number of the person. Valores: work, work_extension, mobile, fax.
+    - `value` (string): The phone number.
+    - `primary` (boolean): Primary number for the person.
+  - `extension` (string): The Webex Calling extension for the person. Only applies to a person with a Webex Calling license.
+  - `locationId` (string): The ID of the location for this person retrieved from BroadCloud.
+  - `displayName` (string): The full name of the person.
+  - `nickName` (string): The nickname of the person if configured. If no nickname is configured for the person, this field will not be present.
+  - `firstName` (string): The first name of the person.
+  - `lastName` (string): The last name of the person.
+  - `avatar` (string): The URL to the person's avatar in PNG format.
+  - `orgId` (string): The ID of the organization to which this person belongs.
+  - `roles` (array): An array of role strings representing the roles to which this admin user belongs.
+  - `licenses` (array): An array of license strings allocated to this person.
+  - `department` (string): The business department the user belongs to.
+  - `manager` (string): A manager identifier.
+  - `managerId` (string): Person ID of the manager.
+  - `title` (string): The person's title.
+  - `addresses` (array): A person's addresses.
+    - `type` (string): The type of address.
+    - `country` (string): The user's country.
+    - `locality` (string): The user's locality, often city.
+    - `region` (string): The user's region, often state.
+    - `streetAddress` (string): The user's street.
+    - `postalCode` (string): The user's postal or zip code.
+  - `created` (string): The date and time the person was created.
+  - `lastModified` (string): The date and time the person was last changed.
+  - `timezone` (string): The time zone of the person if configured. If no timezone is configured on the account, this field will not be present.
+  - `lastActivity` (string): The date and time of the person's last activity within Webex. This will only be returned for people within your organization or an organization you manage. Presence information will not be shown if the authenticated user has [disabled status sharing](https://help.webex.com/nkzs6wl/).
+  - `siteUrls` (array): One or several site names where this user has a role (host or attendee).
+  - `sipAddresses` (array): The user's SIP addresses. Read-only.
+    - `type` (string): The type of SIP address.  * `personal-room` - Personal room address.  * `enterprise` - Enterprise address.  * `cloud-calling` - Cloud calling address. Valores: personal-room, enterprise, cloud-calling.
+    - `value` (string): The SIP address.
+    - `primary` (boolean): Primary SIP address of the person.
+  - `xmppFederationJid` (string): Identifier for intra-domain federation with other XMPP based messenger systems.
+  - `status` (string): The current presence status of the person. This will only be returned for people within your organization or an organization you manage. Presence information will not be shown if the authenticated user has [disabled status sharing](https://help.webex.com/nkzs6wl/). Presence status is different from Control Hub's "Last Service Access Time" which indicates the last time an oAuth token was issued for this user.  * `active` - Active within the last 10 minutes.  * `call` - The user is in a call.  * `DoNotDisturb` - The user has manually set their status to "Do Not Disturb".  * `inactive` - Last activity occurred more than 10 minutes ago.  * `meeting` - The user is in a meeting.  * `OutOfOffice` - The user or a Hybrid Calendar service has indicated that they are "Out of Office".  * `pending` - The user has never logged in; a status cannot be determined.  * `presenting` - The user is sharing content.  * `unknown` - The user’s status could not be determined. Valores: active, call, DoNotDisturb, inactive, meeting, OutOfOffice, pending, presenting, unknown.
+  - `invitePending` (string): Whether or not an invite is pending for the user to complete account activation. This property is only returned if the authenticated user is an admin user for the person's organization.  * `true` - The person has been invited to Webex but has not created an account.  * `false` - An invite is not pending for this person. Valores: true, false.
+  - `loginEnabled` (string): Whether or not the user is allowed to use Webex. This property is only returned if the authenticated user is an admin user for the person's organization.  * `true` - The person _can_ log into Webex.  * `false` - The person _cannot_ log into Webex. Valores: true, false.
+  - `type` (string): The type of person account, such as person or bot.  * `person` - Account belongs to a person.  * `bot` - Account is a bot user.  * `appuser` - Account is a [guest user](/docs/guest-issuer). Valores: person, bot, appuser.
+- `notFoundIds` (array): An array of person IDs that could not be found.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9mNWIzNjE4Ny1jOGRkLTQ3MjctOGIyZi1mOWM0NDdmMjkwNDY",
+      "emails": [
+        "john.andersen@example.com"
+      ],
+      "phoneNumbers": [
+        {
+          "type": "work",
+          "value": "+1 408 526 7209",
+          "primary": true
+        }
+      ],
+      "extension": "133",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzYzNzE1",
+      "displayName": "John Andersen",
+      "nickName": "John",
+      "firstName": "John",
+      "lastName": "Andersen",
+      "avatar": "https://1efa7a94ed21783e352-c62266528714497a17239ececf39e9e2.ssl.cf1.rackcdn.com/V1~54c844c89e678e5a7b16a306bc2897b9~wx29yGtlTpilEFlYzqPKag==~1600",
+      "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi85NmFiYzJhYS0zZGNjLTExZTUtYTE1Mi1mZTM0ODE5Y2RjOWE",
+      "roles": [
+        "Y2lzY29zcGFyazovL3VzL1JPTEUvOTZhYmMyYWEtM2RjYy0xMWU1LWExNTItZmUzNDgxOWNkYzlh,Y2lzY29zcGFyazovL3VzL1JPTEUvOTZhYmMyYWEtM2RjYy0xMWU1LWIyNjMtMGY0NTkyYWRlZmFi"
+      ],
+      "licenses": [
+        "Y2lzY29zcGFyazovL3VzL0xJQ0VOU0UvOTZhYmMyYWEtM2RjYy0xMWU1LWExNTItZmUzNDgxOWNkYzlh,Y2lzY29zcGFyazovL3VzL0xJQ0VOU0UvOTZhYmMyYWEtM2RjYy0xMWU1LWIyNjMtMGY0NTkyYWRlZmFi"
+      ],
+      "department": "Sales",
+      "manager": "John Duarte",
+      "managerId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS80ZGEzYTI0OC05YjBhLTQxMDgtODU0NC1iNTQwMzEyZTU2M2E",
+      "title": "GM",
+      "addresses": [
+        {
+          "type": "work",
+          "country": "US",
+          "locality": "Milpitas",
+  
+  ... (truncado)
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -98,6 +158,9 @@ Long result sets will be split into [pages](/docs/basics#pagination).
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

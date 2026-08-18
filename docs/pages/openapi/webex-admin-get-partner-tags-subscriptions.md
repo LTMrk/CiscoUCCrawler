@@ -2,10 +2,15 @@
 doc_id: webex-admin-get-partner-tags-subscriptions
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: GET
 path: /partner/tags/subscriptions
+operation_id: Subscription List on a given tag name or a set of tags
+tags: Partner Tags
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.164031+00:00
+retrieved_at: 2026-08-18T23:45:42.591222+00:00
 ---
 
 # GET /partner/tags/subscriptions
@@ -22,17 +27,40 @@ For a partner organization fetch all it's subscriptions with their tag list for 
 This API can be used by partner full admins, partner admins and admin read-only partners.
 
 ## Parámetros
-- `tags` [query] (string) **(requerido)**: A comma separated list of tags to filter by.
+- `tags` [query] (string) (**requerido**): A comma separated list of tags to filter by.
 - `max` [query] (number): Value must be between 1 and 100, inclusive.
 
-## Respuestas
-- **200**: OK
-  - (array de:)
-    - `orgName` (string): Name of the customer organization.
-    - `orgId` (string): The unique identifier for the customer organization.
-    - `tags` (array): An array of tags.
-    - `subscriptionId` (string): The unique identifier for the subscription.
-    - `trial` (string): boolean flag for trial or not.
+## Ejemplo de invocación
+```bash
+curl -X GET '/partner/tags/subscriptions?tags=<tags>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- (array de:)
+  - `orgName` (string): Name of the customer organization.
+  - `orgId` (string): The unique identifier for the customer organization.
+  - `tags` (array): An array of tags.
+  - `subscriptionId` (string): The unique identifier for the subscription.
+  - `trial` (string): boolean flag for trial or not.
+
+### Ejemplo — respuesta 200
+```json
+[
+  {
+    "orgName": "Customer Name",
+    "orgId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9mNWIzNjE4Ny1jOGRkLTQ3MjctOGIyZi1mOWM0NDdmMjkwNDY",
+    "tags": [
+      "Tags1,Tags2"
+    ],
+    "subscriptionId": "Sub119911",
+    "trial": "false"
+  }
+]
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -48,6 +76,9 @@ This API can be used by partner full admins, partner admins and admin read-only 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

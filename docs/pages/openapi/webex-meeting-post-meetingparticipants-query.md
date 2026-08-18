@@ -2,10 +2,15 @@
 doc_id: webex-meeting-post-meetingparticipants-query
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: POST
 path: /meetingParticipants/query
+operation_id: Query Meeting Participants with Email
+tags: Participants
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.386546+00:00
+retrieved_at: 2026-08-18T23:45:44.466011+00:00
 ---
 
 # POST /meetingParticipants/query
@@ -35,7 +40,7 @@ The authenticated user calling this API must either have an Administrator role w
 * `timezone`: Time zone for time stamps in the response body, defined in conformance with the [IANA time zone database](https://www.iana.org/time-zones).
 
 ## Parámetros
-- `meetingId` [query] (string) **(requerido)**: The unique identifier for the meeting.
+- `meetingId` [query] (string) (**requerido**): The unique identifier for the meeting.
 - `meetingStartTimeFrom` [query] (string): Meetings start from the specified date and time(exclusive) in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. If `meetingStartTimeFrom` is not specified, it equals `meetingStartTimeTo` minus 1 month; if `meetingStartTimeTo` is also not specified, the default value for `meetingStartTimeFrom` is 1 month before current date and time.
 - `meetingStartTimeTo` [query] (string): Meetings start before the specified date and time(exclusive) in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. If `meetingStartTimeTo` is not specified, it equals the result of a comparison, `meetingStartTimeFrom` plus one month and the current time, and the result is the earlier of the two; if `meetingStartTimeFrom` is also not specified, the default value for `meetingStartTimeTo` is current date and time minus 1 month.
 - `hostEmail` [query] (string): Email address for the meeting host. This parameter is only used if the user or application calling the API has the admin-level scopes, the admin may specify the email of a user in a site they manage and the API will return meeting participants of the meetings that are hosted by that user.
@@ -46,7 +51,7 @@ The authenticated user calling this API must either have an Administrator role w
 - `joinTimeFrom` (string): The time participants join a meeting starts from the specified date and time (inclusive) in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. If `joinTimeFrom` is not specified, it equals `joinTimeTo` minus 7 days.
 - `joinTimeTo` (string): The time participants join a meeting before the specified date and time (exclusive) in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. If `joinTimeTo` is not specified, it equals `joinTimeFrom` plus 7 days. The interval between `joinTimeFrom` and `joinTimeTo` must be within 90 days.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "emails": [
@@ -59,42 +64,101 @@ The authenticated user calling this API must either have an Administrator role w
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `items` (array):
-    - `id` (string): The ID that identifies the meeting and the participant.
-    - `orgId` (string): The ID that identifies the organization. It only applies to participants of ongoing meetings.
-    - `host` (boolean): Whether or not the participant is the host of the meeting.
-    - `coHost` (boolean): Whether or not the participant has host privilege in the meeting.
-    - `spaceModerator` (boolean): Whether or not the participant is the team space moderator. This field returns only if the meeting is associated with a Webex space.
-    - `email` (string): The email address of the participant.
-    - `displayName` (string): The name of the participant.
-    - `invitee` (boolean): Whether or not the participant is invited to the meeting.
-    - `muted` (boolean): Whether or not the participant's audio is muted.
-    - `meetingStartTime` (string): The time the meeting started.
-    - `video` (string): The status of the participant's video.  * `on` - The video is turned on.  * `off` - The video is turned off. Valores: on, off.
-    - `state` (string): The status of the participant in the meeting. The value of `state` is `breakoutSession` which is only returned when the meeting is in progress and the breakout session is enabled.  * `lobby` - The participant is waiting in the meeting lobby.  * `end` - The participant has left the meeting.  * `joined` - The participant has joined the meeting and is in the main session.  * `breakoutSession` - The participant has joined a breakout session. Valores: lobby, end, joined, breakoutSession.
-    - `breakoutSessionId` (string): The ID of the breakout session including the participant.
-    - `joinedTime` (string): The time the participant joined the meeting. If the field is non-existent or shows `1970-01-01T00:00:00.000Z` the meeting may be still ongoing and the `joinedTime` will be filled in after the meeting ended. If you need real-time join events, please refer to the webhooks guide.
-    - `leftTime` (string): The time the participant left the meeting. If the field is non-existent or shows `1970-01-01T00:00:00.000Z` the meeting may be still ongoing and the `leftTime` will be filled in after the meeting ended. If you need real-time left events, please refer to the webhooks guide.
-    - `siteUrl` (string): The site URL.
-    - `meetingId` (string): A unique identifier for the meeting which the participant belongs to.
-    - `hostEmail` (string): The email address of the host.
-    - `devices` (array):
-      - `correlationId` (string): An internal ID that is associated with each join.
-      - `deviceType` (string): The type of the device.
-      - `audioType` (string): The audio type that the participant is using.  * `pstn` - `PSTN`  * `voip` - `VoIP`  * `inactive` - The participant is not connected to audio. Valores: pstn, voip, inactive.
-      - `joinedTime` (string): The time the device joined the meeting. If the field is non-existent or shows `1970-01-    01T00:00:00.000Z` the meeting may be still ongoing and the `joinedTime` will be filled in after the meeting ended. If you need real-time joined     events, please refer to the webhooks guide.
-      - `leftTime` (string): The time the device left the meeting, `leftTime` is the exact moment when a specific devi    ce left the meeting. If the field is non-existent or shows `1970-01-01T00:00:00.000Z` the meeting may be still ongoing and the `leftTime` will     be filled in after the meeting ended. If you need real-time left events, please refer to the webhooks guide.
-      - `durationSecond` (number): The duration in seconds the device stayed in the meeting.
-      - `callType` (string): The PSTN call type in which the device joined the meeting.  * `callIn` - Connect audio by dialing a toll or toll-free phone number provided by the meeting.  * `callBack` - Connect audio by dialing out a phone number from the meeting. Valores: callIn, callBack.
-      - `phoneNumber` (string): The PSTN phone number from which the device joined the meeting. Only [compliance officer](/docs/compliance#compliance) can retrieve the `phoneNumber`. The meeting host and admin users cannot retrieve it. NOTE: The `phoneNumber` will be returned after the meeting ends; it is not returned while the meeting is in progress.
-    - `breakoutSessionsAttended` (array): The breakout sessions attended by the participant. Only applies to ended meeting instances.
-      - `id` (string): Unique identifier for the breakout session the participant attended.
-      - `name` (string): Name of the breakout session the participant attended.
-      - `joinedTime` (string): The time the participant joined the breakout session.
-      - `leftTime` (string): The time the participant left the breakout session.
-    - `sourceId` (string): The source ID of the participant. The `sourceId` is from the [Create Invitation Sources](/docs/api/v1/meetings/create-invitation-sources) API.
+## Ejemplo de invocación
+```bash
+curl -X POST '/meetingParticipants/query?meetingId=<meetingId>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array):
+  - `id` (string): The ID that identifies the meeting and the participant.
+  - `orgId` (string): The ID that identifies the organization. It only applies to participants of ongoing meetings.
+  - `host` (boolean): Whether or not the participant is the host of the meeting.
+  - `coHost` (boolean): Whether or not the participant has host privilege in the meeting.
+  - `spaceModerator` (boolean): Whether or not the participant is the team space moderator. This field returns only if the meeting is associated with a Webex space.
+  - `email` (string): The email address of the participant.
+  - `displayName` (string): The name of the participant.
+  - `invitee` (boolean): Whether or not the participant is invited to the meeting.
+  - `muted` (boolean): Whether or not the participant's audio is muted.
+  - `meetingStartTime` (string): The time the meeting started.
+  - `video` (string): The status of the participant's video.  * `on` - The video is turned on.  * `off` - The video is turned off. Valores: on, off.
+  - `state` (string): The status of the participant in the meeting. The value of `state` is `breakoutSession` which is only returned when the meeting is in progress and the breakout session is enabled.  * `lobby` - The participant is waiting in the meeting lobby.  * `end` - The participant has left the meeting.  * `joined` - The participant has joined the meeting and is in the main session.  * `breakoutSession` - The participant has joined a breakout session. Valores: lobby, end, joined, breakoutSession.
+  - `breakoutSessionId` (string): The ID of the breakout session including the participant.
+  - `joinedTime` (string): The time the participant joined the meeting. If the field is non-existent or shows `1970-01-01T00:00:00.000Z` the meeting may be still ongoing and the `joinedTime` will be filled in after the meeting ended. If you need real-time join events, please refer to the webhooks guide.
+  - `leftTime` (string): The time the participant left the meeting. If the field is non-existent or shows `1970-01-01T00:00:00.000Z` the meeting may be still ongoing and the `leftTime` will be filled in after the meeting ended. If you need real-time left events, please refer to the webhooks guide.
+  - `siteUrl` (string): The site URL.
+  - `meetingId` (string): A unique identifier for the meeting which the participant belongs to.
+  - `hostEmail` (string): The email address of the host.
+  - `devices` (array):
+    - `correlationId` (string): An internal ID that is associated with each join.
+    - `deviceType` (string): The type of the device.
+    - `audioType` (string): The audio type that the participant is using.  * `pstn` - `PSTN`  * `voip` - `VoIP`  * `inactive` - The participant is not connected to audio. Valores: pstn, voip, inactive.
+    - `joinedTime` (string): The time the device joined the meeting. If the field is non-existent or shows `1970-01-    01T00:00:00.000Z` the meeting may be still ongoing and the `joinedTime` will be filled in after the meeting ended. If you need real-time joined     events, please refer to the webhooks guide.
+    - `leftTime` (string): The time the device left the meeting, `leftTime` is the exact moment when a specific devi    ce left the meeting. If the field is non-existent or shows `1970-01-01T00:00:00.000Z` the meeting may be still ongoing and the `leftTime` will     be filled in after the meeting ended. If you need real-time left events, please refer to the webhooks guide.
+    - `durationSecond` (number): The duration in seconds the device stayed in the meeting.
+    - `callType` (string): The PSTN call type in which the device joined the meeting.  * `callIn` - Connect audio by dialing a toll or toll-free phone number provided by the meeting.  * `callBack` - Connect audio by dialing out a phone number from the meeting. Valores: callIn, callBack.
+    - `phoneNumber` (string): The PSTN phone number from which the device joined the meeting. Only [compliance officer](/docs/compliance#compliance) can retrieve the `phoneNumber`. The meeting host and admin users cannot retrieve it. NOTE: The `phoneNumber` will be returned after the meeting ends; it is not returned while the meeting is in progress.
+  - `breakoutSessionsAttended` (array): The breakout sessions attended by the participant. Only applies to ended meeting instances.
+    - `id` (string): Unique identifier for the breakout session the participant attended.
+    - `name` (string): Name of the breakout session the participant attended.
+    - `joinedTime` (string): The time the participant joined the breakout session.
+    - `leftTime` (string): The time the participant left the breakout session.
+  - `sourceId` (string): The source ID of the participant. The `sourceId` is from the [Create Invitation Sources](/docs/api/v1/meetings/create-invitation-sources) API.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "560d7b784f5143e3be2fc3064a5c4999_3c2e2338-e950-43bf-b588-573773ee43d1",
+      "orgId": "1eb65fdf-9643-417f-9974-ad72cae0e10f",
+      "host": true,
+      "coHost": false,
+      "spaceModerator": false,
+      "email": "joeDoe@cisco.com",
+      "displayName": "Joe Doe",
+      "invitee": false,
+      "muted": false,
+      "meetingStartTime": "2020-10-02T17:31:00Z",
+      "video": "on",
+      "state": "lobby",
+      "breakoutSessionId": "2e373567-465b-8530-a18a-7025e1871d40",
+      "joinedTime": "2022-10-25T09:00:00Z",
+      "leftTime": "2022-10-25T09:30:00Z",
+      "siteUrl": "example.webex.com",
+      "meetingId": "3a688f62840346e8b87dde2b50703511_I_197977258267247872",
+      "hostEmail": "janeDoe@cisco.com",
+      "devices": [
+        {
+          "correlationId": "8ccced6c-b812-4dff-a5dd-4c5c28f8d47d",
+          "deviceType": "webex_meeting_center_mac",
+          "audioType": "pstn",
+          "joinedTime": "2019-04-23T17:31:00.000Z",
+          "leftTime": "2019-04-23T17:32:00.000Z",
+          "durationSecond": 60,
+          "callType": "callIn",
+          "phoneNumber": "745273328"
+        }
+      ],
+      "breakoutSessionsAttended": [
+        {
+          "id": "c84ba778-2f46-4dc6-9459-398694732d70",
+          "name": "Breakout session 1",
+          "joinedTime": "2022-10-25T09:05:00Z",
+          "leftTime": "2022-10-25T09:10:00Z"
+        }
+      ],
+      "sourceId": "cisco"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -110,6 +174,9 @@ The authenticated user calling this API must either have an Administrator role w
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

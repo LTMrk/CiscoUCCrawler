@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-premisepstn-trunks
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/trunks
+operation_id: Read the List of Trunks
+tags: Call Routing
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.555873+00:00
+retrieved_at: 2026-08-18T23:45:43.167691+00:00
 ---
 
 # GET /telephony/config/premisePstn/trunks
@@ -34,17 +39,44 @@ Retrieving this list requires a full or read-only administrator auth token with 
 - `start` [query] (number): Start at the zero-based offset in the list of matching objects.
 - `order` [query] (string): Order the trunks according to the designated fields.  Available sort fields: name, locationName. Sort order is ascending by default
 
-## Respuestas
-- **200**: OK
-  - `trunks` (array) **(requerido)**: Array of trunks.
-    - `id` (string) **(requerido)**: Unique identifier for the trunk.
-    - `name` (string) **(requerido)**: A unique name for the trunk.
-    - `location` (object): Location associated with the hot desking member.
-      - `id` (string) **(requerido)**: Unique identifier for the location.
-      - `name` (string) **(requerido)**: Name of the location.
-    - `inUse` (boolean): Trunk in use flag.
-    - `trunkType` (string): * `REGISTERING` - For Cisco CUBE Local Gateway.  * `CERTIFICATE_BASED` - For Cisco Unified Border Element, Oracle ACME Session Border Controller, AudioCodes Session Border Controller, Ribbon Session Border Controller. Valores: REGISTERING, CERTIFICATE_BASED.
-    - `isRestrictedToDedicatedInstance` (boolean): Flag to indicate if the trunk is restricted to a dedicated instance.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/premisePstn/trunks' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `trunks` (array) (**requerido**): Array of trunks.
+  - `id` (string) (**requerido**): Unique identifier for the trunk.
+  - `name` (string) (**requerido**): A unique name for the trunk.
+  - `location` (object): Location associated with the hot desking member.
+    - `id` (string) (**requerido**): Unique identifier for the location.
+    - `name` (string) (**requerido**): Name of the location.
+  - `inUse` (boolean): Trunk in use flag.
+  - `trunkType` (string): * `REGISTERING` - For Cisco CUBE Local Gateway.  * `CERTIFICATE_BASED` - For Cisco Unified Border Element, Oracle ACME Session Border Controller, AudioCodes Session Border Controller, Ribbon Session Border Controller. Valores: REGISTERING, CERTIFICATE_BASED.
+  - `isRestrictedToDedicatedInstance` (boolean): Flag to indicate if the trunk is restricted to a dedicated instance.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "trunks": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0RJQUxfUExBTi8wNTlhMjczZS1iYmIwLTExZWMtODQyMi0wMjQyYWMxMjAwMDI",
+      "name": "trunkName",
+      "location": {
+        "id": "Y2lzY29zcGFyazovL3VzL0RJQUxfUExBTi8wNTlhMjczZS1iYmIwLTExZWMtODQyMi0wMjQyYWMxMjAwMDI",
+        "name": "locationName"
+      },
+      "inUse": true,
+      "trunkType": "REGISTERING",
+      "isRestrictedToDedicatedInstance": true
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -60,6 +92,9 @@ Retrieving this list requires a full or read-only administrator auth token with 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

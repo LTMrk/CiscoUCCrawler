@@ -2,10 +2,15 @@
 doc_id: webex-meeting-get-meetings-sessiontypes
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: GET
 path: /meetings/sessionTypes
+operation_id: listMeetingSessionTypes
+tags: Meetings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.395779+00:00
+retrieved_at: 2026-08-18T23:45:44.483900+00:00
 ---
 
 # GET /meetings/sessionTypes
@@ -24,13 +29,35 @@ List all the meeting session types enabled for a given user.
 - `hostEmail` [query] (string): Email address for the user. This parameter is only used if the user or application calling the API has the admin-level scopes. If set, the admin may specify the email of a user in a site they manage and the API will list all the meeting session types enabled for the user.
 - `siteUrl` [query] (string): Webex site URL to query. If `siteUrl` is not specified, the users' preferred site will be used. If the authorization token has the admin-level scopes, the admin can set the Webex site URL on behalf of the user specified in the `hostEmail` parameter.
 
-## Respuestas
-- **200**: OK
-  - `items` (array): Meeting session type array
-    - `id` (string) **(requerido)**: Unique identifier for the meeting session type.
-    - `name` (string) **(requerido)**: Name of the meeting session type.
-    - `type` (string) **(requerido)**: Meeting session type.  * `meeting` - Meeting session type for a meeting.  * `webinar` - Meeting session type for a webinar.  * `privateMeeting` - Meeting session type for a private meeting. Valores: meeting, webinar, privateMeeting.
-    - `attendeesCapacity` (number): The maximum number of attendees for the meeting session type.
+## Ejemplo de invocación
+```bash
+curl -X GET '/meetings/sessionTypes' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): Meeting session type array
+  - `id` (string) (**requerido**): Unique identifier for the meeting session type.
+  - `name` (string) (**requerido**): Name of the meeting session type.
+  - `type` (string) (**requerido**): Meeting session type.  * `meeting` - Meeting session type for a meeting.  * `webinar` - Meeting session type for a webinar.  * `privateMeeting` - Meeting session type for a private meeting. Valores: meeting, webinar, privateMeeting.
+  - `attendeesCapacity` (number): The maximum number of attendees for the meeting session type.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "628",
+      "name": "Webex Meetings EC 2.0 meeting",
+      "type": "meeting",
+      "attendeesCapacity": 1000
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -46,6 +73,9 @@ List all the meeting session types enabled for a given user.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

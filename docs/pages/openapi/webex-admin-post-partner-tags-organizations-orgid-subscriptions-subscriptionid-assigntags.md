@@ -2,10 +2,15 @@
 doc_id: webex-admin-post-partner-tags-organizations-orgid-subscriptions-subscriptionid-assigntags
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: POST
 path: /partner/tags/organizations/{orgId}/subscriptions/{subscriptionId}/assignTags
+operation_id: Create or Replace existing subscription tags with the provided ones
+tags: Partner Tags
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.163927+00:00
+retrieved_at: 2026-08-18T23:45:42.591042+00:00
 ---
 
 # POST /partner/tags/organizations/{orgId}/subscriptions/{subscriptionId}/assignTags
@@ -24,19 +29,39 @@ Currently there is a limit of 5 tags per subscription when creating tags. To rem
 Specify the customer organization ID in the `orgId` parameter in the URI and subscription ID in `subscriptionId` parameter
 
 ## Parámetros
-- `orgId` [path] (string) **(requerido)**: The unique identifier for the customer organization.
-- `subscriptionId` [path] (string) **(requerido)**: The unique identifier for the subscription.
+- `orgId` [path] (string) (**requerido**): The unique identifier for the customer organization.
+- `subscriptionId` [path] (string) (**requerido**): The unique identifier for the subscription.
 
 ## Cuerpo de la petición (application/json)
 - `tags` (array): An array of tags.
-  - `name` (string) **(requerido)**: Name of the tag.
+  - `name` (string) (**requerido**): Name of the tag.
   - `description` (string): Description of the tag
 
-## Respuestas
-- **200**: OK
-  - (array de:)
-    - `name` (string) **(requerido)**: Name of the tag.
-    - `description` (string): Description of the tag
+## Ejemplo de invocación
+```bash
+curl -X POST '/partner/tags/organizations/<orgId>/subscriptions/<subscriptionId>/assignTags' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- (array de:)
+  - `name` (string) (**requerido**): Name of the tag.
+  - `description` (string): Description of the tag
+
+### Ejemplo — respuesta 200
+```json
+[
+  {
+    "name": "Tag name",
+    "description": "Tag description"
+  }
+]
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -52,6 +77,9 @@ Specify the customer organization ID in the `orgId` parameter in the URI and sub
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

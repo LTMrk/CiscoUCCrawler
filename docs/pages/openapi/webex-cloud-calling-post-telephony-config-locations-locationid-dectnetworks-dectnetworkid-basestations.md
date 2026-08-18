@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-locations-locationid-dectnetworks-dectnetworkid-basestations
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/baseStations
+operation_id: Create Multiple Base Stations
+tags: DECT Devices Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.545247+00:00
+retrieved_at: 2026-08-18T23:45:43.148214+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/baseStations
@@ -25,14 +30,14 @@ Base stations provide wireless connectivity for DECT handsets and extend the cov
 Creating base stations in a DECT network requires a full or location administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Create a base station in this location.
-- `dectNetworkId` [path] (string) **(requerido)**: Create a base station for the DECT network.
+- `locationId` [path] (string) (**requerido**): Create a base station in this location.
+- `dectNetworkId` [path] (string) (**requerido**): Create a base station for the DECT network.
 - `orgId` [query] (string): Create a base station for a DECT network in this organization.
 
 ## Cuerpo de la petición (application/json)
-- `baseStationMacs` (array) **(requerido)**: Array of base station MAC addresses.
+- `baseStationMacs` (array) (**requerido**): Array of base station MAC addresses.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "baseStationMacs": [
@@ -42,13 +47,38 @@ Creating base stations in a DECT network requires a full or location administrat
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `baseStations` (array) **(requerido)**: List of base station MAC addresses that have to be added to the DECT network.
-    - `mac` (string) **(requerido)**: MAC Address added to the base station.
-    - `result` (object) **(requerido)**:
-      - `status` (number) **(requerido)**: HTTP status code indicating the creation of base station. 201 status code indicates the successful creation of base stations.
-      - `id` (string): Unique identifier of the base station.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/locations/<locationId>/dectNetworks/<dectNetworkId>/baseStations' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"baseStationMacs": []}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `baseStations` (array) (**requerido**): List of base station MAC addresses that have to be added to the DECT network.
+  - `mac` (string) (**requerido**): MAC Address added to the base station.
+  - `result` (object) (**requerido**):
+    - `status` (number) (**requerido**): HTTP status code indicating the creation of base station. 201 status code indicates the successful creation of base stations.
+    - `id` (string): Unique identifier of the base station.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "baseStations": [
+    {
+      "mac": "bbafec9a9027",
+      "result": {
+        "status": 201,
+        "id": "Y2lzY29zcGFyazovL3VzL0RFQ1RfREVWX1NUQVRJT04vYzRhMTQxN2ItZGNiYi00MGMzLWE3YWQtNTY1MGZkZGRkNTNj"
+      }
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -64,6 +94,9 @@ Creating base stations in a DECT network requires a full or location administrat
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

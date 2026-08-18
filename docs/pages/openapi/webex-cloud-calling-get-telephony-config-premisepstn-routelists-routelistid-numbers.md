@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-premisepstn-routelists-routelistid-numbers
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/routeLists/{routeListId}/numbers
+operation_id: Get Numbers assigned to a Route List
+tags: Call Routing
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.558163+00:00
+retrieved_at: 2026-08-18T23:45:43.172055+00:00
 ---
 
 # GET /telephony/config/premisePstn/routeLists/{routeListId}/numbers
@@ -25,16 +30,31 @@ A Route List is a list of numbers that can be reached via a Route Group. It can 
 Retrieving a Route List requires a full or read-only administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `routeListId` [path] (string) **(requerido)**: ID of the Route List.
+- `routeListId` [path] (string) (**requerido**): ID of the Route List.
 - `orgId` [query] (string): Organization to which the Route List belongs.
 - `start` [query] (number): Start at the zero-based offset in the list of matching objects.
 - `max` [query] (number): Limit the number of objects returned to this maximum count.
 - `number` [query] (string): Number assigned to the route list.
 - `order` [query] (string): Order the Route Lists according to number, ascending or descending.
 
-## Respuestas
-- **200**: OK
-  - `numbers` (array) **(requerido)**: Numbers assigned to the Route list.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/premisePstn/routeLists/<routeListId>/numbers' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `numbers` (array) (**requerido**): Numbers assigned to the Route list.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "numbers": []
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -50,6 +70,9 @@ Retrieving a Route List requires a full or read-only administrator auth token wi
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -1,7 +1,7 @@
 ---
 doc_id: developer-cisco-com-codeexchange-github-repo-appdynamics-dotnetagentextensionmanager-7b35357ba5
 source_url: https://developer.cisco.com/codeexchange/github/repo/Appdynamics/DotNetAgentExtensionManager
-retrieved_at: 2026-08-16T19:26:09.410549+00:00
+retrieved_at: 2026-08-18T23:45:56.017239+00:00
 ---
 
 AppDynamics Manager for .Net Agent Extension works with the .Net Agent to capture and report metrics not gathered out of the box. It can be used to capture metrics such as: Windows Event Log data, current Windows Service states, Windows reboot times, or kick off custom scripts to gather metrics from any source.
@@ -157,5 +157,3 @@ If you're not seeing metrics reported to the controller, check to make sure the 
 ## Notice and Disclaimer
 
 All Extensions published by AppDynamics are governed by the Apache License v2 and are excluded from the definition of covered software under any agreement between AppDynamics and the User governing AppDynamics Pro Edition, Test & Dev Edition, or any other Editions.
-
-How do you like this sample code?

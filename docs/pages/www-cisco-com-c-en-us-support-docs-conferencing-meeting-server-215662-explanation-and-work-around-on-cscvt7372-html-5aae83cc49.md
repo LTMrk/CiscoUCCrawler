@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-215662-explanation-and-work-around-on-cscvt7372-html-5aae83cc49
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215662-explanation-and-work-around-on-cscvt7372.html
-retrieved_at: 2026-08-16T14:22:10.929958+00:00
+retrieved_at: 2026-08-18T23:49:24.071427+00:00
 ---
 
 Explanation and Work-around on CSCvt73723 - WebRTC server leaking sessions after large amount of sessions placed on the server
 
 # Explanation and Work-around on CSCvt73723 - WebRTC server leaking sessions after large amount of sessions placed on the server
-
-Log in to Save Content
 
 ### Download Options
 
@@ -135,12 +133,6 @@ Cisco Escalation Engineer
 Steven Janssens
 
 Cisco TAC Engineer
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 

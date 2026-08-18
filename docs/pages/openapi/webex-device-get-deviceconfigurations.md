@@ -2,10 +2,15 @@
 doc_id: webex-device-get-deviceconfigurations
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: GET
 path: /deviceConfigurations
+operation_id: List Device Configurations for device
+tags: Device Configurations
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.133424+00:00
+retrieved_at: 2026-08-18T23:45:44.205461+00:00
 ---
 
 # GET /deviceConfigurations
@@ -21,21 +26,98 @@ List Device Configurations for device
 Lists all device configurations associated with the given device ID. Administrators can list configurations for all devices within an organization.
 
 ## Parámetros
-- `deviceId` [query] (string) **(requerido)**: List device configurations by device ID.
+- `deviceId` [query] (string) (**requerido**): List device configurations by device ID.
 - `key` [query] (string): This can optionally be used to filter configurations. Keys are composed of segments. It's possible to use absolute paths, wildcards or ranges.  - **Absolute** gives only one configuration as a result. `Conference.MaxReceiveCallRate` for example gives the Conference `MaxReceiveCallRate` configuration.  + **Wildcards** (\*) can specify multiple configurations with shared segments. `Audio.Ultrasound.*` for example will filter on all Audio Ultrasound configurations.  - **Range** ([_number_]) can be used to filter numbered segments. `FacilityService.Service[1].Name` for instance only shows the first `FacilityService` Service Name configuration, `FacilityService.Service[*].Name` shows all, `FacilityService.Service[1..3].Name` shows the first three and `FacilityService.Service[2..n].Name` shows all starting at 2. Note that [RFC 3986 3.2.2](https://www.ietf.org/rfc/rfc3986.html#section-3.2.2) does not allow square brackets in urls outside the host, so to specify range in a configuration key you will need to encode them to %5B for [ and %5D for ].
 
-## Respuestas
-- **200**: OK
-  - `deviceId` (string) **(requerido)**: ID of the device that the configurations are for.
-  - `items` (object):
-    - `configuration_key` (object): Key of the configuration.
-      - `source` (string): The source of the current value that is applied to the device.  * `default` - Current value comes from the schema default.  * `configured` - Current value comes from configuredValue. Valores: default, configured.
-      - `sources` (object):
-        - `default` (object):
-          - `editability` (object):
-        - `configured` (object):
-          - `editability` (object):
-      - `valueSpace` (object): [JSON Schema](http://json-schema.org/) describing the data format of the configuration as specified by the device.
+## Ejemplo de invocación
+```bash
+curl -X GET '/deviceConfigurations?deviceId=<deviceId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `deviceId` (string) (**requerido**): ID of the device that the configurations are for.
+- `items` (object):
+  - `configuration_key` (object): Key of the configuration.
+    - `source` (string): The source of the current value that is applied to the device.  * `default` - Current value comes from the schema default.  * `configured` - Current value comes from configuredValue. Valores: default, configured.
+    - `sources` (object):
+      - `default` (object):
+        - `editability` (object):
+      - `configured` (object):
+        - `editability` (object):
+    - `valueSpace` (object): [JSON Schema](http://json-schema.org/) describing the data format of the configuration as specified by the device.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "deviceId": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLWVhc3QtMl9hL0RFVklDRS9hNmYwYjhkMi01ZjdkLTQzZDItODAyNi0zM2JkNDg3NjYzMTg=",
+  "items": {
+    "Audio.Ultrasound.MaxVolume": {
+      "value": 70,
+      "source": "default",
+      "sources": {
+        "default": {
+          "value": 70,
+          "editability": {
+            "editable": false,
+            "reason": "FACTORY_DEFAULT"
+          }
+        },
+        "configured": {
+          "value": null,
+          "editability": {
+            "editable": true
+          }
+        }
+      },
+      "valueSpace": {
+        "type": "integer",
+        "maximum": 100,
+        "minimum": 0
+      }
+    },
+    "FacilityService.Service[1].Name": {
+      "value": "Live Support",
+      "source": "default",
+      "sources": {
+        "default": {
+          "value": "Live Support",
+          "editability": {
+            "editable": false,
+            "reason": "FACTORY_DEFAULT"
+          }
+        },
+        "configured": {
+          "value": null,
+          "editability": {
+            "editable": true
+          }
+        }
+      },
+      "valueSpace": {
+        "type": "string",
+        "maxLength": 1024,
+        "minLength": 0
+      }
+    },
+    "Conference.MaxReceiveCallRate": {
+      "value": 786,
+      "source": "configured",
+      "sources": {
+        "default": {
+          "value": 6000,
+          "editability": {
+            "editable": false,
+            "reason": "FACTORY_DEFAULT"
+          }
+        },
+        "configured": {
+         
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -51,6 +133,9 @@ Lists all device configurations associated with the given device ID. Administrat
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

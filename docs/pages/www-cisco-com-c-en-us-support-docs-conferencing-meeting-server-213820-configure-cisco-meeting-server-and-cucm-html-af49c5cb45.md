@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-213820-configure-cisco-meeting-server-and-cucm-html-af49c5cb45
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213820-configure-cisco-meeting-server-and-cucm.html
-retrieved_at: 2026-08-16T14:32:33.774931+00:00
+retrieved_at: 2026-08-18T23:48:46.354897+00:00
 ---
 
 Configure Cisco Meeting Server and CUCM Ad hoc Conferences
 
 # Configure Cisco Meeting Server and CUCM Ad hoc Conferences
-
-Log in to Save Content
 
 ### Download Options
 

@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-externalvoicemail-mwi
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/externalVoicemail/mwi
+operation_id: postExternalVoicemailMwi
+tags: External Voicemail
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.552988+00:00
+retrieved_at: 2026-08-18T23:45:43.162028+00:00
 ---
 
 # POST /telephony/externalVoicemail/mwi
@@ -33,21 +38,31 @@ Set the desired action (SET or CLEAR) in the message body’s action field.
 Learn more about [using Webex Service Apps](https://developer.webex.com/messaging/docs/service-apps).
 
 ## Parámetros
-- `id` [query] (string) **(requerido)**: Unique identifier for the user or workspace.
+- `id` [query] (string) (**requerido**): Unique identifier for the user or workspace.
 - `orgId` [query] (string): Id of the organization to which the user or workspace belongs. If not provided, the orgId of the Service App is used. If provided, the organization must be the same as or managed by the Service App's organization.
 
 ## Cuerpo de la petición (application/json)
-- `action` (string) **(requerido)**: Indicates whether to SET or CLEAR the MWI status. Valores: SET, CLEAR.
+- `action` (string) (**requerido**): Indicates whether to SET or CLEAR the MWI status. Valores: SET, CLEAR.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "action": "SET"
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/externalVoicemail/mwi?id=<id>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"action": "<action>"}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -63,6 +78,9 @@ Learn more about [using Webex Service Apps](https://developer.webex.com/messagin
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-device-post-telephony-config-lists-devices-dynamicsettings-actions-getsettings-invoke
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: POST
 path: /telephony/config/lists/devices/dynamicSettings/actions/getSettings/invoke
+operation_id: getCustomerDeviceDynamicSettings
+tags: Device Call Settings With Device Dynamic Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.132257+00:00
+retrieved_at: 2026-08-18T23:45:44.203616+00:00
 ---
 
 # POST /telephony/config/lists/devices/dynamicSettings/actions/getSettings/invoke
@@ -26,12 +31,12 @@ This requires a full, device, or read-only administrator auth token with a scope
 
 ## Parámetros
 - `orgId` [query] (string): List of device dynamic settings in this organization.
-- `familyOrModelDisplayName` [query] (string) **(requerido)**: The family or model name for the device. If no tag is specified, all tags related to `familyOrModelDisplayName` are returned.
+- `familyOrModelDisplayName` [query] (string) (**requerido**): The family or model name for the device. If no tag is specified, all tags related to `familyOrModelDisplayName` are returned.
 
 ## Cuerpo de la petición (application/json)
 - `tags` (array): Optional array of device tag identifiers to request settings for. Each identifier must have a length between 1 and 64 characters.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "tags": [
@@ -42,16 +47,57 @@ This requires a full, device, or read-only administrator auth token with a scope
 }
 ```
 
-## Respuestas
-- **200**: OK.
-  - `tags` (array): Array of device setting values matching the requested tags.
-    - `familyOrModelDisplayName` (string): The `familyOrModelDisplayName` of the device.
-    - `tag` (string): The unique identifier for the setting.
-    - `value` (string): The current value of the setting at `ORGANIZATION` level. If the tag value is not set at the `ORGANIZATION` level, this field will not be included in the response.
-    - `parentValue` (string): The value inherited from the immediate parent level above `ORGANIZATION`. It can be `SYSTEM_DEFAULT`, `REGIONAL_DEFAULT`, or `ORGANIZATION`, depending on which level the setting is actually configured at. If there is no parent level for this tag, this field will not be included in the response.
-    - `parentLevel` (string): The level from which the tag's parent value is inherited. If there is no parent level for this tag, this field will not be included in the response. Valores: SYSTEM_DEFAULT, REGIONAL_DEFAULT, ORGANIZATION.
-  - `lastUpdateTime` (integer): Timestamp of the last update to these settings.
-  - `updateInProgress` (boolean): Flag indicating if an update to these settings is currently in progress.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/lists/devices/dynamicSettings/actions/getSettings/invoke?familyOrModelDisplayName=<familyOrModelDisplayName>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK.
+- `tags` (array): Array of device setting values matching the requested tags.
+  - `familyOrModelDisplayName` (string): The `familyOrModelDisplayName` of the device.
+  - `tag` (string): The unique identifier for the setting.
+  - `value` (string): The current value of the setting at `ORGANIZATION` level. If the tag value is not set at the `ORGANIZATION` level, this field will not be included in the response.
+  - `parentValue` (string): The value inherited from the immediate parent level above `ORGANIZATION`. It can be `SYSTEM_DEFAULT`, `REGIONAL_DEFAULT`, or `ORGANIZATION`, depending on which level the setting is actually configured at. If there is no parent level for this tag, this field will not be included in the response.
+  - `parentLevel` (string): The level from which the tag's parent value is inherited. If there is no parent level for this tag, this field will not be included in the response. Valores: SYSTEM_DEFAULT, REGIONAL_DEFAULT, ORGANIZATION.
+- `lastUpdateTime` (integer/int64): Timestamp of the last update to these settings.
+- `updateInProgress` (boolean): Flag indicating if an update to these settings is currently in progress.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "tags": [
+    {
+      "familyOrModelDisplayName": "Poly",
+      "tag": "%DO_MENU_ITEM_BACKGROUND%",
+      "value": "#RRGGBB",
+      "parentValue": "#FFFFFF",
+      "parentLevel": "ORGANIZATION"
+    },
+    {
+      "familyOrModelDisplayName": "Poly",
+      "tag": "%ENABLE_BLUETOOTH%",
+      "value": "1",
+      "parentValue": "0",
+      "parentLevel": "SYSTEM_DEFAULT"
+    },
+    {
+      "familyOrModelDisplayName": "Poly",
+      "tag": "%DO_MENU_TITLE_BACKGROUND%",
+      "value": "#1A1A1A",
+      "parentValue": "#FFFFFF",
+      "parentLevel": "REGIONAL_DEFAULT"
+    }
+  ],
+  "lastUpdateTime": 1651396800000,
+  "updateInProgress": false
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -67,6 +113,9 @@ This requires a full, device, or read-only administrator auth token with a scope
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

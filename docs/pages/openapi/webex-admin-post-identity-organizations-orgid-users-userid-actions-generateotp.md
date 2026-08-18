@@ -2,10 +2,15 @@
 doc_id: webex-admin-post-identity-organizations-orgid-users-userid-actions-generateotp
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: POST
 path: /identity/organizations/{orgId}/users/{userId}/actions/generateOtp
+operation_id: Generate OTP
+tags: Identity Organization
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.149201+00:00
+retrieved_at: 2026-08-18T23:45:42.563073+00:00
 ---
 
 # POST /identity/organizations/{orgId}/users/{userId}/actions/generateOtp
@@ -49,13 +54,29 @@ The following administrators have permission to use this API:
 - `Org User Admin`: Can generate OTPs for User/Machine Accounts within their organization.
 
 ## Parámetros
-- `orgId` [path] (string) **(requerido)**: The Webex Identity-assigned organization identifier for a user's organization.
-- `userId` [path] (string) **(requerido)**: The Common Identity-assigned user identifier for an existing user (`entryUUID`).
+- `orgId` [path] (string) (**requerido**): The Webex Identity-assigned organization identifier for a user's organization.
+- `userId` [path] (string) (**requerido**): The Common Identity-assigned user identifier for an existing user (`entryUUID`).
 
-## Respuestas
-- **200**: OK
-  - `oneTimePassword` (string) **(requerido)**: The One-Time Password generated for the user.
-  - `expiresIn` (number) **(requerido)**: The expiration time for the OTP in seconds (default: 7 days).
+## Ejemplo de invocación
+```bash
+curl -X POST '/identity/organizations/<orgId>/users/<userId>/actions/generateOtp' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `oneTimePassword` (string) (**requerido**): The One-Time Password generated for the user.
+- `expiresIn` (number) (**requerido**): The expiration time for the OTP in seconds (default: 7 days).
+
+### Ejemplo — respuesta 200
+```json
+{
+  "oneTimePassword": "283489",
+  "expiresIn": 604800
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -71,6 +92,9 @@ The following administrators have permission to use this API:
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

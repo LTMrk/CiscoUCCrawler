@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-214691-configure-nfs-share-to-use-as-storage-fo-html-1ce84fecc4
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214691-configure-nfs-share-to-use-as-storage-fo.html
-retrieved_at: 2026-08-16T14:08:29.229958+00:00
+retrieved_at: 2026-08-18T23:49:11.456295+00:00
 ---
 
 Configure NFS Share to Use as Storage for CMS Recorder
 
 # Configure NFS Share to Use as Storage for CMS Recorder
-
-Log in to Save Content
 
 ### Download Options
 

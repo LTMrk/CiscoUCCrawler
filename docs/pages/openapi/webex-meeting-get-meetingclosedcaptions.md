@@ -2,10 +2,15 @@
 doc_id: webex-meeting-get-meetingclosedcaptions
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: GET
 path: /meetingClosedCaptions
+operation_id: getMeetingClosedCaptions
+tags: Closed Captions
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.385214+00:00
+retrieved_at: 2026-08-18T23:45:44.463440+00:00
 ---
 
 # GET /meetingClosedCaptions
@@ -27,16 +32,39 @@ Lists closed captions of a finished [meeting instance](/docs/meetings#meeting-se
 * Currently, a meeting may have only one closed caption associated with its `meetingId`. The response is a closed captions array, which may contain multiple values to allow for future expansion, but currently only one closed caption is included in the response.
 
 ## Parámetros
-- `meetingId` [query] (string) **(requerido)**: Unique identifier for the [meeting instance](/docs/meetings#meeting-series-scheduled-meetings-and-meeting-instances) which the closed captions belong to. This parameter only applies to ended meeting instances. It does not apply to meeting series, scheduled meetings or scheduled [personal room](https://help.webex.com/en-us/article/nul0wut/Webex-Personal-Rooms-in-Webex-Meetings) meetings.
+- `meetingId` [query] (string) (**requerido**): Unique identifier for the [meeting instance](/docs/meetings#meeting-series-scheduled-meetings-and-meeting-instances) which the closed captions belong to. This parameter only applies to ended meeting instances. It does not apply to meeting series, scheduled meetings or scheduled [personal room](https://help.webex.com/en-us/article/nul0wut/Webex-Personal-Rooms-in-Webex-Meetings) meetings.
 
-## Respuestas
-- **200**: OK
-  - `items` (array): Closed caption array
-    - `id` (string): A unique identifier for the closed caption.
-    - `meetingId` (string): Unique identifier for the [meeting instance](/docs/meetings#meeting-series-scheduled-meetings-and-meeting-instances) which the closed captions belong to.
-    - `vttDownloadLink` (string): The download link for the closed caption vtt file.
-    - `txtDownloadLink` (string): The download link for the closed caption txt file.
-    - `start` (string): Start time for the meeting closed caption in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
+## Ejemplo de invocación
+```bash
+curl -X GET '/meetingClosedCaptions?meetingId=<meetingId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): Closed caption array
+  - `id` (string): A unique identifier for the closed caption.
+  - `meetingId` (string): Unique identifier for the [meeting instance](/docs/meetings#meeting-series-scheduled-meetings-and-meeting-instances) which the closed captions belong to.
+  - `vttDownloadLink` (string): The download link for the closed caption vtt file.
+  - `txtDownloadLink` (string): The download link for the closed caption txt file.
+  - `start` (string): Start time for the meeting closed caption in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "195d64646ad14be2924ea50f541fd91d",
+      "meetingId": "0ed74a1c0551494fb7a04e2881bf50ae_I_166022169160077044",
+      "vttDownloadLink": "http://site-example.webex.com/v1/meetingClosedCaptions/195d64646ad14be2924ea50f541fd91d/download?format=vtt",
+      "txtDownloadLink": "http://site-example.webex.com/v1/meetingClosedCaptions/195d64646ad14be2924ea50f541fd91d/download?format=txt",
+      "start": "2022-04-18T01:46:29Z"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -52,6 +80,9 @@ Lists closed captions of a finished [meeting instance](/docs/meetings#meeting-se
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

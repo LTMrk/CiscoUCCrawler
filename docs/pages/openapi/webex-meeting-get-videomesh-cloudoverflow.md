@@ -2,10 +2,15 @@
 doc_id: webex-meeting-get-videomesh-cloudoverflow
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: GET
 path: /videoMesh/cloudOverflow
+operation_id: List Overflow to Cloud details
+tags: Video Mesh
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.405386+00:00
+retrieved_at: 2026-08-18T23:45:44.502446+00:00
 ---
 
 # GET /videoMesh/cloudOverflow
@@ -21,18 +26,76 @@ List Overflow to Cloud details
 Returns details of overflows to the cloud in an organization.
 
 ## Parámetros
-- `from` [query] (string) **(requerido)**: The starting date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `from` cannot be after `to`.
-- `to` [query] (string) **(requerido)**: The ending date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
-- `orgId` [query] (string) **(requerido)**: The unique Video Mesh organization ID.
+- `from` [query] (string) (**requerido**): The starting date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `from` cannot be after `to`.
+- `to` [query] (string) (**requerido**): The ending date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
+- `orgId` [query] (string) (**requerido**): The unique Video Mesh organization ID.
 
-## Respuestas
-- **200**: OK
-  - `items` (array):
-    - `orgId` (string): The unique ID for the organization.
-    - `from` (string): Start date and time (inclusive) for the Overflow to Cloud data.
-    - `to` (string): End date and time (inclusive) for the Overflow to Cloud data.
-    - `aggregationInterval` (string): The aggregation period of the trend data.
-    - `items` (array): Overflow data for the organization.
+## Ejemplo de invocación
+```bash
+curl -X GET '/videoMesh/cloudOverflow?from=<from>&to=<to>&orgId=<orgId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array):
+  - `orgId` (string): The unique ID for the organization.
+  - `from` (string): Start date and time (inclusive) for the Overflow to Cloud data.
+  - `to` (string): End date and time (inclusive) for the Overflow to Cloud data.
+  - `aggregationInterval` (string): The aggregation period of the trend data.
+  - `items` (array): Overflow data for the organization.
+    - (cualquiera de:)
+      - `timestamp` (string): Timestamp.
+      - `overflowDetails` (array): Overflow Details.
+        - (cualquiera de:)
+      - `timestamp` (string): Timestamp.
+      - `overflowDetails` (array): Overflow Details.
+        - `overflowReason` (string): The reason for this overflow.
+        - `overflowCount` (number): Number of overflows.
+        - `possibleRemediation` (string): Any possible remediations for this overflow.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi8zNmQ4OTRmNy0yYjU3LTQzYzEtYWNlZS1kNDdlNjc3NjE0MTQ",
+      "from": "2022-03-23T10:22:03Z",
+      "to": "2022-03-24T04:22:03Z",
+      "aggregationInterval": "10m",
+      "items": [
+        {
+          "timestamp": "2022-03-23T10:30:00Z",
+          "overflowDetails": [
+            {
+              "overflowReason": "Capacity exceeded",
+              "overflowCount": 25,
+              "possibleRemediation": "Video Mesh exceeded its capacity. If this happens frequently, consider adding more nodes to your clusters."
+            },
+            {
+              "overflowReason": "Connectivity issues",
+              "overflowCount": 1,
+              "possibleRemediation": "Connectivity Issues between Video Mesh Node and Cloud. Check your network configuration."
+            }
+          ]
+        },
+        {
+          "timestamp": "2022-03-23T10:40:00Z",
+          "overflowDetails": [
+            {
+              "overflowReason": "Capacity exceeded",
+              "overflowCount": 38,
+              "possibleRemediation": "Video Mesh exceeded its capacity. If this happens frequently, consider adding more nodes to your clusters."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -48,6 +111,9 @@ Returns details of overflows to the cloud in an organization.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

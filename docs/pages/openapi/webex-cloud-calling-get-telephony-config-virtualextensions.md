@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-virtualextensions
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualExtensions
+operation_id: Read the List of Virtual Extensions
+tags: Features: Virtual Extensions
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.619385+00:00
+retrieved_at: 2026-08-18T23:45:43.327160+00:00
 ---
 
 # GET /telephony/config/virtualExtensions
@@ -38,20 +43,58 @@ Retrieving a Virtual Extension requires a full or read-only administrator auth t
 - `locationId` [query] (string): Filter the list of virtual extensions by location ID.
 - `orgLevelOnly` [query] (boolean): Filter the list of virtual extensions by organization level. If orgLevelOnly is true, return only the organization level virtual extensions.
 
-## Respuestas
-- **200**: OK
-  - `virtualExtensions` (array) **(requerido)**: List of virtual extensions.
-    - `id` (string) **(requerido)**: ID of the virtual extension.
-    - `extension` (string) **(requerido)**: Extension of the virtual extension.
-    - `routingPrefix` (string): Routing prefix of the virtual extension's location.
-    - `esn` (string) **(requerido)**: ESN of the virtual extension.
-    - `phoneNumber` (string) **(requerido)**: Directory number of the virtual extension.
-    - `firstName` (string): First name of the person at the virtual extension.
-    - `lastName` (string): Last name of the person at the virtual extension.
-    - `level` (string) **(requerido)**: Level of the virtual extension. It can be either `ORGANIZATION` or `LOCATION`.  * `ORGANIZATION` - Organization level.  * `LOCATION` - Location level. Valores: ORGANIZATION, LOCATION.
-    - `locationId` (string): ID of the location to which the virtual extension is assigned. The location ID is a unique identifier for the location in Webex Calling.
-    - `locationName` (string): Name of the location to which the virtual extension is assigned.
-    - `displayName` (string): Display name of the person at the virtual extension.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/virtualExtensions' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `virtualExtensions` (array) (**requerido**): List of virtual extensions.
+  - `id` (string) (**requerido**): ID of the virtual extension.
+  - `extension` (string) (**requerido**): Extension of the virtual extension.
+  - `routingPrefix` (string): Routing prefix of the virtual extension's location.
+  - `esn` (string) (**requerido**): ESN of the virtual extension.
+  - `phoneNumber` (string) (**requerido**): Directory number of the virtual extension.
+  - `firstName` (string): First name of the person at the virtual extension.
+  - `lastName` (string): Last name of the person at the virtual extension.
+  - `level` (string) (**requerido**): Level of the virtual extension. It can be either `ORGANIZATION` or `LOCATION`.  * `ORGANIZATION` - Organization level.  * `LOCATION` - Location level. Valores: ORGANIZATION, LOCATION.
+  - `locationId` (string): ID of the location to which the virtual extension is assigned. The location ID is a unique identifier for the location in Webex Calling.
+  - `locationName` (string): Name of the location to which the virtual extension is assigned.
+  - `displayName` (string): Display name of the person at the virtual extension.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "virtualExtensions": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1ZJUlRVQUxfRVhURU5TSU9OLzZkNmYwNmVlLTdkNDEtNDQ4Yy05MjgwLWZkM2ZiMDhmOGUyMA",
+      "extension": "5001",
+      "routingPrefix": "4321",
+      "esn": "43215001",
+      "phoneNumber": "+16692515287",
+      "firstName": "Bob",
+      "level": "LOCATION",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2QzYjA4MGMwLWU1MjctNDQ1Zi04NTk5LTU5OWJmNzQ2MjViNg",
+      "locationName": "TestLocation",
+      "displayName": "Bob Smith"
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1ZJUlRVQUxfRVhURU5TSU9OL2JhNTE0MGExLWM0MjItNDRhMC05MmUyLTRkNDQ0ZTg1NDc5NQ",
+      "extension": "5001",
+      "esn": "5001",
+      "phoneNumber": "+12135536387",
+      "firstName": "John",
+      "lastName": "Smith",
+      "level": "ORGANIZATION",
+      "displayName": "John Smith"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -67,6 +110,9 @@ Retrieving a Virtual Extension requires a full or read-only administrator auth t
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

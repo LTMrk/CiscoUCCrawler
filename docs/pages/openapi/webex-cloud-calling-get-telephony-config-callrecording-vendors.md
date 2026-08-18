@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-callrecording-vendors
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/callRecording/vendors
+operation_id: getOrganizationCallRecordingVendors
+tags: Features: Call Recording
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.610643+00:00
+retrieved_at: 2026-08-18T23:45:43.312077+00:00
 ---
 
 # GET /telephony/config/callRecording/vendors
@@ -27,13 +32,51 @@ Requires a full or read-only administrator or location administrator auth token 
 ## Parámetros
 - `orgId` [query] (string): Retrieve call recording settings from this organization.
 
-## Respuestas
-- **200**: OK
-  - `vendorId` (string) **(requerido)**: Unique identifier of the vendor.
-  - `vendorName` (string) **(requerido)**: Name of the vendor.
-  - `vendors` (object) **(requerido)**: List of call recording vendors
-  - `storageRegion` (string): Call recording storage region. Only applicable for Webex as a vendor and isn't used for other vendors.
-  - `failureBehavior` (object) **(requerido)**: Call recording failure behavior.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/callRecording/vendors' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `vendorId` (string) (**requerido**): Unique identifier of the vendor.
+- `vendorName` (string) (**requerido**): Name of the vendor.
+- `vendors` (object) (**requerido**): List of call recording vendors
+- `storageRegion` (string): Call recording storage region. Only applicable for Webex as a vendor and isn't used for other vendors.
+- `failureBehavior` (object) (**requerido**): Call recording failure behavior.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "vendorId": "Y2lzY29zcGFyazovL3VzL1JFQ09SRElOR19WRU5ET1IvMGE0MjY3NTQtYTQ3MC00YzJkLThiYTAtZmJjNjc3M2E4YTdj",
+  "vendorName": "Webex",
+  "vendors": {
+    "items": [
+      {
+        "id": "Y2lzY29zcGFyazovL3VzL1JFQ09SRElOR19WRU5ET1IvNTNkYzRjODctODQwOC00ODgyLTk1NzAtZGNhMmJjZGI5Mjgw",
+        "name": "Dubber",
+        "description": "Dubber Call Recording Provider",
+        "migrateUserCreationEnabled": true,
+        "loginUrl": "https://wxc-sandbox.dubber.net/login?sso=webex",
+        "termsOfServiceUrl": "https://www.dubber.net/terms"
+      },
+      {
+        "id": "Y2lzY29zcGFyazovL3VzL1JFQ09SRElOR19WRU5ET1IvMGE0MjY3NTQtYTQ3MC00YzJkLThiYTAtZmJjNjc3M2E4YTdj",
+        "name": "Webex",
+        "description": "Webex CRP",
+        "migrateUserCreationEnabled": false,
+        "loginUrl": "",
+        "termsOfServiceUrl": ""
+      }
+    ]
+  },
+  "storageRegion": "US",
+  "failureBehavior": "PROCEED_WITH_CALL_NO_ANNOUNCEMENT"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -49,6 +92,9 @@ Requires a full or read-only administrator or location administrator auth token 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

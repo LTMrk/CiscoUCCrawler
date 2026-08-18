@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-jobs-updateroutingprefix-jobid-errors
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/jobs/updateRoutingPrefix/{jobId}/errors
+operation_id: Get job errors for update routing prefix job
+tags: Location Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.621837+00:00
+retrieved_at: 2026-08-18T23:45:43.331841+00:00
 ---
 
 # GET /telephony/config/jobs/updateRoutingPrefix/{jobId}/errors
@@ -26,19 +31,77 @@ This API allows users to retrieve all the errors of the update routing prefix jo
 Retrieving all the errors of the update routing prefix job in an organization requires a full, user, or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `jobId` [path] (string) **(requerido)**: Retrieve job errors for this `jobId`.
+- `jobId` [path] (string) (**requerido**): Retrieve job errors for this `jobId`.
 - `orgId` [query] (string): Retrieve list of errors for update routing prefix job in this organization.
 
-## Respuestas
-- **200**: OK
-  - `trackingId` (string): Unique identifier to track the HTTP requests.
-  - `itemNumber` (number): row number of failed record.
-  - `error` (object):
-    - `key` (string): HTTP error code.
-    - `message` (array): Message string with further error information.
-      - `description` (string) **(requerido)**: Error message.
-      - `code` (string): Internal error code.
-      - `locationId` (string): Error messages describing the location ID in which the error occurs. For a move operation this is the target location ID.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/jobs/updateRoutingPrefix/<jobId>/errors' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `trackingId` (string): Unique identifier to track the HTTP requests.
+- `itemNumber` (number): row number of failed record.
+- `error` (object):
+  - `key` (string): HTTP error code.
+  - `message` (array): Message string with further error information.
+    - `description` (string) (**requerido**): Error message.
+    - `code` (string): Internal error code.
+    - `locationId` (string): Error messages describing the location ID in which the error occurs. For a move operation this is the target location ID.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "itemNumber": 6,
+      "error": {
+        "key": "500",
+        "message": [
+          {
+            "description": "invalid number (id=c5b6ef12-070f-4752-be52-7ae62795ae7f, displayName=Test AutoAttendant, type=Machine, oldExtension=8000081234, newExtension=7000071234)",
+            "code": null,
+            "locationId": null
+          }
+        ]
+      },
+      "trackingId": "NA_e82bec92-7a6c-48e5-9511-bfe4da78396e_6"
+    },
+    {
+      "itemNumber": 7,
+      "error": {
+        "key": "500",
+        "message": [
+          {
+            "description": "invalid number (id=296f10e8-ac6e-41d8-ae20-7371c4b6079b, displayName=PagingGroup01, type=Machine, oldExtension=80000855643, newExtension=70000755643)",
+            "code": null,
+            "locationId": null
+          }
+        ]
+      },
+      "trackingId": "NA_e82bec92-7a6c-48e5-9511-bfe4da78396e_7"
+    },
+    {
+      "itemNumber": 8,
+      "error": {
+        "key": "500",
+        "message": [
+          {
+            "description": "invalid number (id=41a03fb9-86cd-42c1-a24b-396d9b8d5ac1, displayName=WSwithRP, type=Machine, oldExtension=80000823678, newExtension=70000723678)",
+            "code": null,
+            "locationId": null
+          }
+        ]
+      },
+      "trackingId": "NA_e82bec92-7a6c-48e5-9511-bfe4da78396e_8"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -54,6 +117,9 @@ Retrieving all the errors of the update routing prefix job in an organization re
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

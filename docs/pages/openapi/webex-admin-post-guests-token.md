@@ -2,10 +2,15 @@
 doc_id: webex-admin-post-guests-token
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: POST
 path: /guests/token
+operation_id: Create a Guest
+tags: Guest Management
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.150332+00:00
+retrieved_at: 2026-08-18T23:45:42.565027+00:00
 ---
 
 # POST /guests/token
@@ -29,17 +34,39 @@ Guests can be renamed by supplying the same `subject` and changing the `displayN
 To retrieve a new token for an existing guest, please provide the existing guest's `subject`. Tokens are valid until `expiresIn`.
 
 ## Cuerpo de la petición (application/json)
-- `subject` (string) **(requerido)**: The unique and external identifier of the guest.
-- `displayName` (string) **(requerido)**: The display name shown in the Webex application.
+- `subject` (string) (**requerido**): The unique and external identifier of the guest.
+- `displayName` (string) (**requerido**): The display name shown in the Webex application.
 
-## Respuestas
-- **200**: OK
-  - `id` (string): The unique id of the guest. This is a `personId`
-  - `subject` (string): The external unique identifier of the guest.
-  - `displayName` (string): The guest’s display name shown in Webex applications
-  - `email` (string): The person’s synthetic email in Webex.
-  - `accessToken` (string): The guests access token. Guest tokens usually are over 2000 characters in length.
-  - `expiresIn` (number): The token expiration in seconds from the time of issuance.
+## Ejemplo de invocación
+```bash
+curl -X POST '/guests/token' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"subject": "<subject>", "displayName": "<displayName>"}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string): The unique id of the guest. This is a `personId`
+- `subject` (string): The external unique identifier of the guest.
+- `displayName` (string): The guest’s display name shown in Webex applications
+- `email` (string): The person’s synthetic email in Webex.
+- `accessToken` (string): The guests access token. Guest tokens usually are over 2000 characters in length.
+- `expiresIn` (number): The token expiration in seconds from the time of issuance.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS8zNzlhNWQ4ZC1hNTE4LTQ3NmQtYmY1NC1mZmE5MWQ3OWM4MTI",
+  "subject": "PersonNo#1",
+  "displayName": "Person of Interest",
+  "email": "1ad14c30-59a6-31a7-b345-963e3d167e10@appid.ciscospark.com",
+  "accessToken": "eyJhbGciOiJSUzI1NiJ9.eyJkw1zx5iIDv7FL3cWQ_JEjehqtPVRmFf572q7RZwSIZgQRziAw",
+  "expiresIn": 64799
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -55,6 +82,9 @@ To retrieve a new token for an existing guest, please provide the existing guest
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

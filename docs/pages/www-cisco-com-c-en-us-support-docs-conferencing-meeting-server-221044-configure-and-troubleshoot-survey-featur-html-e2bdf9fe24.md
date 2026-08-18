@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-221044-configure-and-troubleshoot-survey-featur-html-e2bdf9fe24
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221044-configure-and-troubleshoot-survey-featur.html
-retrieved_at: 2026-08-16T14:21:20.415816+00:00
+retrieved_at: 2026-08-18T23:49:53.557481+00:00
 ---
 
 Configure and Troubleshoot Survey Feature in Cisco Meeting Server
 
 # Configure and Troubleshoot Survey Feature in Cisco Meeting Server
-
-Log in to Save Content
 
 ### Download Options
 
@@ -162,12 +160,6 @@ Initial Release
 Vikas Kumar
 
 Cisco TAC Engineer
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 

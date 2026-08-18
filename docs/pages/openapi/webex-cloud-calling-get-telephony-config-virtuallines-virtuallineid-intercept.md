@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-virtuallines-virtuallineid-intercept
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/intercept
+operation_id: Read Call Intercept Settings for a Virtual Line
+tags: Virtual Line Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.659796+00:00
+retrieved_at: 2026-08-18T23:45:43.395319+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/intercept
@@ -25,28 +30,60 @@ The intercept feature gracefully takes a virtual line's phone out of service, wh
 Retrieving the intercept settings for a virtual line requires a full, user, read-only administrator, or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `virtualLineId` [path] (string) **(requerido)**: Retrieve settings for a virtual line with the matching ID.
+- `virtualLineId` [path] (string) (**requerido**): Retrieve settings for a virtual line with the matching ID.
 - `orgId` [query] (string): ID of the organization in which the person resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access API.
 
-## Respuestas
-- **200**: OK
-  - `enabled` (boolean) **(requerido)**: `true` if call intercept is enabled.
-  - `incoming` (object) **(requerido)**: Settings related to how incoming calls are handled when the intercept feature is enabled.
-    - `type` (string) **(requerido)**: `INTERCEPT_ALL` indicated incoming calls are intercepted.  * `INTERCEPT_ALL` - Incoming calls are routed as the destination and voicemail specify.  * `ALLOW_ALL` - Incoming calls are not intercepted. Valores: INTERCEPT_ALL, ALLOW_ALL.
-    - `voicemailEnabled` (boolean) **(requerido)**: If `true`, the destination will be the virtual line's voicemail.
-    - `announcements` (object) **(requerido)**: Settings related to how incoming calls are handled when the intercept feature is enabled.
-      - `greeting` (string) **(requerido)**: `DEFAULT` indicates that a system default message will be placed when incoming calls are intercepted.  * `CUSTOM` - A custom greeting is played when incoming calls are intercepted.  * `DEFAULT` - A System default greeting will be played when incoming calls are intercepted. Valores: CUSTOM, DEFAULT.
-      - `filename` (string) **(requerido)**: Filename of custom greeting; will be an empty string if no custom greeting has been uploaded.
-      - `newNumber` (object) **(requerido)**: Information about the new number announcement.
-        - `enabled` (boolean): If `true`, the caller will hear this new number when the call is intercepted.
-        - `destination` (string): New number caller will hear announced.
-      - `zeroTransfer` (object) **(requerido)**: Information about how the call will be handled if zero (0) is pressed.
-        - `enabled` (boolean): If `true`, the caller will be transferred to destination of when zero (0) is pressed.
-        - `destination` (string): Destination to which caller will be transferred when zero is pressed.
-  - `outgoing` (object) **(requerido)**: Settings related to how outgoing calls are handled when the intercept feature is enabled.
-    - `type` (string) **(requerido)**: `INTERCEPT_ALL` indicated all outgoing calls are intercepted.  * `INTERCEPT_ALL` - Outgoing calls are routed as the destination and voicemail specify.  * `ALLOW_LOCAL_ONLY` - Only non-local calls are intercepted. Valores: INTERCEPT_ALL, ALLOW_LOCAL_ONLY.
-    - `transferEnabled` (boolean) **(requerido)**: If `true`, allows transfer and forwarding for the call type.
-    - `destination` (string): Number to which the outbound call be transferred.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/virtualLines/<virtualLineId>/intercept' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `enabled` (boolean) (**requerido**): `true` if call intercept is enabled.
+- `incoming` (object) (**requerido**): Settings related to how incoming calls are handled when the intercept feature is enabled.
+  - `type` (string) (**requerido**): `INTERCEPT_ALL` indicated incoming calls are intercepted.  * `INTERCEPT_ALL` - Incoming calls are routed as the destination and voicemail specify.  * `ALLOW_ALL` - Incoming calls are not intercepted. Valores: INTERCEPT_ALL, ALLOW_ALL.
+  - `voicemailEnabled` (boolean) (**requerido**): If `true`, the destination will be the virtual line's voicemail.
+  - `announcements` (object) (**requerido**): Settings related to how incoming calls are handled when the intercept feature is enabled.
+    - `greeting` (string) (**requerido**): `DEFAULT` indicates that a system default message will be placed when incoming calls are intercepted.  * `CUSTOM` - A custom greeting is played when incoming calls are intercepted.  * `DEFAULT` - A System default greeting will be played when incoming calls are intercepted. Valores: CUSTOM, DEFAULT.
+    - `filename` (string) (**requerido**): Filename of custom greeting; will be an empty string if no custom greeting has been uploaded.
+    - `newNumber` (object) (**requerido**): Information about the new number announcement.
+      - `enabled` (boolean): If `true`, the caller will hear this new number when the call is intercepted.
+      - `destination` (string): New number caller will hear announced.
+    - `zeroTransfer` (object) (**requerido**): Information about how the call will be handled if zero (0) is pressed.
+      - `enabled` (boolean): If `true`, the caller will be transferred to destination of when zero (0) is pressed.
+      - `destination` (string): Destination to which caller will be transferred when zero is pressed.
+- `outgoing` (object) (**requerido**): Settings related to how outgoing calls are handled when the intercept feature is enabled.
+  - `type` (string) (**requerido**): `INTERCEPT_ALL` indicated all outgoing calls are intercepted.  * `INTERCEPT_ALL` - Outgoing calls are routed as the destination and voicemail specify.  * `ALLOW_LOCAL_ONLY` - Only non-local calls are intercepted. Valores: INTERCEPT_ALL, ALLOW_LOCAL_ONLY.
+  - `transferEnabled` (boolean) (**requerido**): If `true`, allows transfer and forwarding for the call type.
+  - `destination` (string): Number to which the outbound call be transferred.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "enabled": false,
+  "incoming": {
+    "type": "INTERCEPT_ALL",
+    "voicemailEnabled": false,
+    "announcements": {
+      "greeting": "DEFAULT",
+      "newNumber": {
+        "enabled": false
+      },
+      "zeroTransfer": {
+        "enabled": false
+      }
+    }
+  },
+  "outgoing": {
+    "type": "INTERCEPT_ALL",
+    "transferEnabled": false
+  }
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -62,6 +99,9 @@ Retrieving the intercept settings for a virtual line requires a full, user, read
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

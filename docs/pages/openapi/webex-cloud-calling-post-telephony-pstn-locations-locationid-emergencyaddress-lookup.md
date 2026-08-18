@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-pstn-locations-locationid-emergencyaddress-lookup
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/pstn/locations/{locationId}/emergencyAddress/lookup
+operation_id: emergencyAddressLookup
+tags: PSTN
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.634954+00:00
+retrieved_at: 2026-08-18T23:45:43.356426+00:00
 ---
 
 # POST /telephony/pstn/locations/{locationId}/emergencyAddress/lookup
@@ -25,7 +30,7 @@ Emergency address settings allow the admin to configure or update the physical a
 Emergency address lookup to verify if address is valid requires a full administrator auth token with scope of `spark-admin:telephony_pstn_read`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Emergency address lookup for this location.
+- `locationId` [path] (string) (**requerido**): Emergency address lookup for this location.
 - `orgId` [query] (string): Emergency address lookup for this organization.
 
 ## Cuerpo de la petición (application/json)
@@ -36,7 +41,7 @@ Emergency address lookup to verify if address is valid requires a full administr
 - `postalCode` (string): Postal code for the emergency address.
 - `country` (string): Country for the emergency address.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "address1": "3487 Chase Ave",
@@ -48,20 +53,89 @@ Emergency address lookup to verify if address is valid requires a full administr
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `addresses` (array): List of suggested addresses based on the input address. If the input address is valid and unchanged, no errors are returned. If the input address requires corrections, the response includes a suggested address along with error details.
-    - `address1` (string): Primary street information for the emergency address.
-    - `address2` (string): Apartment number or any other secondary information for the emergency address.
-    - `city` (string): City for the emergency address.
-    - `state` (string): State or Province or Region for the emergency address.
-    - `postalCode` (string): Postal code for the emergency address.
-    - `country` (string): Country for the emergency address.
-    - `meta` (object): Additional metadata for the emergency address.
-    - `errors` (array): List of errors encountered during address validation. Returned only when the input address was corrected and a suggested address was provided. Each error describes a specific issue with the original input.
-      - `code` (string): Error code.
-      - `title` (string): Error title.
-      - `detail` (string): Detailed error message.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/pstn/locations/<locationId>/emergencyAddress/lookup' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `addresses` (array): List of suggested addresses based on the input address. If the input address is valid and unchanged, no errors are returned. If the input address requires corrections, the response includes a suggested address along with error details.
+  - `address1` (string): Primary street information for the emergency address.
+  - `address2` (string): Apartment number or any other secondary information for the emergency address.
+  - `city` (string): City for the emergency address.
+  - `state` (string): State or Province or Region for the emergency address.
+  - `postalCode` (string): Postal code for the emergency address.
+  - `country` (string): Country for the emergency address.
+  - `meta` (object): Additional metadata for the emergency address.
+  - `errors` (array): List of errors encountered during address validation. Returned only when the input address was corrected and a suggested address was provided. Each error describes a specific issue with the original input.
+    - `code` (string): Error code.
+    - `title` (string): Error title.
+    - `detail` (string): Detailed error message.
+
+### Valid address, no errors — respuesta 200
+```json
+{
+  "addresses": [
+    {
+      "address1": "3487 Chase Ave",
+      "address2": "Apt 112",
+      "city": "Miami Beach",
+      "state": "FL",
+      "postalCode": "33140",
+      "country": "US",
+      "meta": {
+        "houseNumber": "3487",
+        "streetName": "Chase Ave",
+        "country": "US",
+        "state": "FL",
+        "city": "Miami Beach",
+        "zipCode": "33140",
+        "latitude": "25.8131",
+        "longitude": "-80.1300"
+      }
+    }
+  ]
+}
+```
+
+### Address with corrections and errors — respuesta 200
+```json
+{
+  "addresses": [
+    {
+      "address1": "3487 Chase Ave",
+      "address2": "Apt 112",
+      "city": "Miami Beach",
+      "state": "FL",
+      "postalCode": "33140",
+      "country": "US",
+      "meta": {
+        "houseNumber": "3487",
+        "streetName": "Chase Ave",
+        "country": "US",
+        "state": "FL",
+        "city": "Miami Beach",
+        "zipCode": "33140",
+        "latitude": "25.8131",
+        "longitude": "-80.1300"
+      },
+      "errors": [
+        {
+          "code": "PMP4004",
+          "title": "INVALID_STREET_ADDRESS",
+          "detail": "The street address provided is invalid."
+        }
+      ]
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -77,6 +151,9 @@ Emergency address lookup to verify if address is valid requires a full administr
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

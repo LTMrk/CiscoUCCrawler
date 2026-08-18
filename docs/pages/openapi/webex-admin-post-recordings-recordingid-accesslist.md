@@ -2,10 +2,15 @@
 doc_id: webex-admin-post-recordings-recordingid-accesslist
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: POST
 path: /recordings/{recordingId}/accessList
+operation_id: updateRecordingShareById
+tags: Recordings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.157371+00:00
+retrieved_at: 2026-08-18T23:45:42.576559+00:00
 ---
 
 # POST /recordings/{recordingId}/accessList
@@ -21,7 +26,7 @@ Share a Recording
 Share or unshare a recording with other users by recording ID and email addresses.
 
 ## Parámetros
-- `recordingId` [path] (string) **(requerido)**: A unique identifier for the recording.
+- `recordingId` [path] (string) (**requerido**): A unique identifier for the recording.
 
 ## Cuerpo de la petición (application/json)
 - `hostEmail` (string): Email address for the meeting host. This attribute should only be set if the user or application calling the API has the admin-level scopes. When used, the admin may specify the email of a user in a site they manage to be the meeting host. The field is not editable and is only used to share or unshare a recording on behalf of the real meeting host.
@@ -29,7 +34,7 @@ Share or unshare a recording with other users by recording ID and email addresse
 - `removeEmails` (array): Email addresses of users to unshare the recording with. The maximum size of the array is `100`.
 - `sendEmail` (boolean): Whether to send email notifications to the users being shared. The default is `true`.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "hostEmail": "john.andersen@example.com",
@@ -45,8 +50,18 @@ Share or unshare a recording with other users by recording ID and email addresse
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X POST '/recordings/<recordingId>/accessList' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -62,6 +77,9 @@ Share or unshare a recording with other users by recording ID and email addresse
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

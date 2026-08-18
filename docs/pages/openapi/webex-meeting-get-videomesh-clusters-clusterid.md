@@ -2,10 +2,15 @@
 doc_id: webex-meeting-get-videomesh-clusters-clusterid
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: GET
 path: /videoMesh/clusters/{clusterId}
+operation_id: Get Cluster Details
+tags: Video Mesh
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.406434+00:00
+retrieved_at: 2026-08-18T23:45:44.505492+00:00
 ---
 
 # GET /videoMesh/clusters/{clusterId}
@@ -21,23 +26,82 @@ Get Cluster Details
 Returns the cluster details for a single Video Mesh cluster.
 
 ## Parámetros
-- `clusterId` [path] (string) **(requerido)**: The unique Video Mesh Cluster ID.
+- `clusterId` [path] (string) (**requerido**): The unique Video Mesh Cluster ID.
 
-## Respuestas
-- **200**: OK
-  - `items` (array):
-    - `orgId` (string): The unique ID for the organization.
-    - `items` (array): Details of the cluster.
-      - `clusterId` (string): ID of the Video Mesh cluster.
-      - `clusterName` (string): Name of the Video Mesh cluster.
-      - `nodes` (array): The Video Mesh nodes in the cluster.
-      - `releaseChannel` (string): Release Channel of the Video Mesh cluster.
-      - `upgradeSchedule` (object):
-        - `scheduleDays` (array): Days of the week when scheduled upgrades will occur for the Video Mesh cluster.
-        - `scheduleTime` (string): Time when scheduled upgrade will occur for the Video Mesh cluster.
-        - `scheduleTimeZone` (string): Timezone of the scheduled upgrade of Video Mesh cluster.
-        - `upgradePending` (boolean): Upgrade Pending information.
-        - `nextUpgradeTime` (string): Time when the next upgrade is scheduled for the Video Mesh cluster.
+## Ejemplo de invocación
+```bash
+curl -X GET '/videoMesh/clusters/<clusterId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array):
+  - `orgId` (string): The unique ID for the organization.
+  - `items` (array): Details of the cluster.
+    - `clusterId` (string): ID of the Video Mesh cluster.
+    - `clusterName` (string): Name of the Video Mesh cluster.
+    - `nodes` (array): The Video Mesh nodes in the cluster.
+      - (cualquiera de:)
+        - `nodeId` (string): ID of the Video Mesh node.
+        - `hostNameOrIp` (string): Host Name or the IP of the Video Mesh node.
+        - `deploymentType` (string): Deployment Type of the Video Mesh node.
+        - `location` (object):
+        - `nodeId` (string): ID of the Video Mesh node.
+        - `hostNameOrIp` (string): Host Name or the IP of the Video Mesh node.
+        - `deploymentType` (string): Deployment Type of the Video Mesh node.
+        - `location` (object):
+    - `releaseChannel` (string): Release Channel of the Video Mesh cluster.
+    - `upgradeSchedule` (object):
+      - `scheduleDays` (array): Days of the week when scheduled upgrades will occur for the Video Mesh cluster.
+      - `scheduleTime` (string): Time when scheduled upgrade will occur for the Video Mesh cluster.
+      - `scheduleTimeZone` (string): Timezone of the scheduled upgrade of Video Mesh cluster.
+      - `upgradePending` (boolean): Upgrade Pending information.
+      - `nextUpgradeTime` (string): Time when the next upgrade is scheduled for the Video Mesh cluster.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi8zNmQ4OTRmNy0yYjU3LTQzYzEtYWNlZS1kNDdlNjc3NjE0MTQ",
+      "items": [
+        {
+          "clusterId": "Y2lzY29zcGFyazovL3VzL0hZQlJJRF9DTFVTVEVSLzFlYjY1ZmRmLTk2NDMtNDE3Zi05OTc0LWFkNzJjYWUwZTEwZjpiMzdmNTgzYy1kZGRjLTQyOGItODJlNS1jYmU2ODFkYjQ5NjI",
+          "clusterName": "Bangalore",
+          "nodes": [
+            {
+              "nodeId": "Y2lzY29zcGFyazovL3VzL0hZQlJJRF9DTFVTVEVSLzM2ZDg5NGY3LTJiNTctNDNjMS1hY2VlLWQ0N2U2Nzc2MTQxNDo0NjdiNGIxZC1jZWI2LTQwN2EtYWZmOC1mMjIxZmFiNzhjNzI",
+              "hostNameOrIp": "xyz.abc.com",
+              "deploymentType": "Video Mesh Node Lite",
+              "location": {
+                "countryCode": "IN",
+                "city": "Bangalore",
+                "timeZone": "Asia/Kolkata"
+              }
+            },
+            {
+              "nodeId": "Y2lzY29zcGFyazovL3VzL0hZQlJJRF9DTFVTVEVSLzM2ZDg5NGY3LTJiNTctNDNjMS1hY2VlLWQ0N2U2Nzc2MTQxNDo1ODJhMWFlYy03YTMwLTQ2MDItYTI2NS02YTE5NDcwOWZkOTg",
+              "hostNameOrIp": "201.21.201.21",
+              "deploymentType": "Video Mesh Node Lite",
+              "location": {
+                "countryCode": "IN",
+                "city": "Bangalore",
+                "timeZone": "Asia/Kolkata"
+              }
+            }
+          ],
+          "releaseChannel": "alpha",
+          "upgradeSchedule": {
+            "scheduleDays": [
+              "sunday"
+            ],
+            "scheduleTime": "02:00",
+            "sched
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -53,6 +117,9 @@ Returns the cluster details for a single Video Mesh cluster.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

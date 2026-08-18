@@ -2,10 +2,15 @@
 doc_id: webex-admin-get-datasources-schemas-schemaid
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: GET
 path: /dataSources/schemas/{schemaId}
+operation_id: Retrieve Details of a Specific Data Source Schema
+tags: Data Sources
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.147496+00:00
+retrieved_at: 2026-08-18T23:45:42.560447+00:00
 ---
 
 # GET /dataSources/schemas/{schemaId}
@@ -21,16 +26,36 @@ Retrieve Details of a Specific Data Source Schema
 Retrieves details for a specific data source schema by schema ID. A valid API access token is required, but no specific scope is needed.
 
 ## Parámetros
-- `schemaId` [path] (string) **(requerido)**: The unique identifier for the schema.
+- `schemaId` [path] (string) (**requerido**): The unique identifier for the schema.
 
-## Respuestas
-- **200**: OK
-  - `appType` (string): The application type used for the schema.
-  - `createdAt` (string): The date and time when the schema was created.
-  - `id` (string): The schema ID.
-  - `protocol` (string): The connection protocol used by the schema.
-  - `serviceType` (string): The service type, such as web or contact center.
-  - `url` (string): The URL where the schema can be inspected.
+## Ejemplo de invocación
+```bash
+curl -X GET '/dataSources/schemas/<schemaId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `appType` (string): The application type used for the schema.
+- `createdAt` (string): The date and time when the schema was created.
+- `id` (string): The schema ID.
+- `protocol` (string): The connection protocol used by the schema.
+- `serviceType` (string): The service type, such as web or contact center.
+- `url` (string): The URL where the schema can be inspected.
+
+### response — respuesta 200
+```json
+{
+  "appType": "serviceApp",
+  "createdAt": "2024-09-05T01:35:04.772Z",
+  "id": "78efc775-dccb-45ca-9acf-989a4a59f788",
+  "protocol": "gRPC",
+  "serviceType": "webService",
+  "url": "/path/to/definition/file3"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -46,6 +71,9 @@ Retrieves details for a specific data source schema by schema ID. A valid API ac
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

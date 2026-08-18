@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-locations-locationid-queues-queueid-dnis
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/queues/{queueId}/dnis
+operation_id: createADnisForACallQueue
+tags: Features:  Call Queue
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.607516+00:00
+retrieved_at: 2026-08-18T23:45:43.306350+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/queues/{queueId}/dnis
@@ -27,17 +32,17 @@ The maximum number of DNIS entries per call queue is 100. Either `phoneNumber` o
 Creating a DNIS requires a full administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: The location ID where the call queue exists.
-- `queueId` [path] (string) **(requerido)**: The call queue ID.
+- `locationId` [path] (string) (**requerido**): The location ID where the call queue exists.
+- `queueId` [path] (string) (**requerido**): The call queue ID.
 - `orgId` [query] (string): The organization ID of the customer.
 
 ## Cuerpo de la petición (application/json)
-- `name` (string) **(requerido)**: Name of the DNIS. Must be unique across the call queue.
-- `phoneNumber` (string): Phone number of the DNIS. Must be a valid phone number from the same location. Either phoneNumber or extension is required.
-- `extension` (string): Extension of the DNIS. Either phoneNumber or extension is required.
-- `ringPattern` (string) **(requerido)**: Ring pattern of the DNIS. Valores: NORMAL, LONG_LONG, SHORT_SHORT_LONG, SHORT_LONG_SHORT.
+- `name` (string) (**requerido**): Name of the DNIS. Must be unique across the call queue. Long. max: 40.
+- `phoneNumber` (string): Phone number of the DNIS. Must be a valid phone number from the same location. Either phoneNumber or extension is required. Long. max: 23.
+- `extension` (string): Extension of the DNIS. Either phoneNumber or extension is required. Long. max: 20.
+- `ringPattern` (string) (**requerido**): Ring pattern of the DNIS. Valores: NORMAL, LONG_LONG, SHORT_SHORT_LONG, SHORT_LONG_SHORT.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "name": "Support Line",
@@ -47,9 +52,26 @@ Creating a DNIS requires a full administrator auth token with a scope of `spark-
 }
 ```
 
-## Respuestas
-- **201**: Created
-  - `id` (string) **(requerido)**: Unique identifier for the DNIS.
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/locations/<locationId>/queues/<queueId>/dnis' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"name": "<name>", "ringPattern": "<ringPattern>"}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `id` (string) (**requerido**): Unique identifier for the DNIS.
+
+### Ejemplo — respuesta 201
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL0ROSVMvZTQ0NTE5OWEtNzlkYS00NWE1LTkyY2EtNDI1YzRmMzA0ZDk5"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -65,6 +87,9 @@ Creating a DNIS requires a full administrator auth token with a scope of `spark-
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

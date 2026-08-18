@@ -2,10 +2,15 @@
 doc_id: webex-admin-patch-licenses-users
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: PATCH
 path: /licenses/users
+operation_id: Assign_Licenses_to_Users
+tags: Licenses
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.151730+00:00
+retrieved_at: 2026-08-18T23:45:42.567026+00:00
 ---
 
 # PATCH /licenses/users
@@ -29,18 +34,18 @@ When assigning licenses and attendee siteUrls to a user who does not belong to t
 - `personId` (string): A unique identifier for the user.
 - `orgId` (string): The ID of the organization to which the licenses and siteUrls belong. If not specified, the organization ID from the OAuth token is used.
 - `licenses` (array): An array of licenses to be assigned to the user.
-  - `id` (string) **(requerido)**: A unique identifier for the license.
+  - `id` (string) (**requerido**): A unique identifier for the license.
   - `operation` (string): Operation type. The default operation is `add` if no operation is specified.  * `remove` - Remove the license from the user  * `add` - Assign the license to the user Valores: remove, add.
   - `properties` (object):
     - `locationId` (string): The ID of the location for this user. Applicable to Webex Calling license.
     - `phoneNumber` (string): Work phone number for the user. Applicable to Webex Calling license.
     - `extension` (string): Webex Calling extension of the user. Applicable to Webex Calling license.
 - `siteUrls` (array): An array of siteUrls to be assigned to the user.
-  - `siteUrl` (string) **(requerido)**: Attendee access on the site.
-  - `accountType` (string) **(requerido)**: Account type. Only `attendee` type is supported. For host account, remove attendee and assign the license on that site.  * `attendee` - Attendee role on the siteUrl Valores: attendee.
+  - `siteUrl` (string) (**requerido**): Attendee access on the site.
+  - `accountType` (string) (**requerido**): Account type. Only `attendee` type is supported. For host account, remove attendee and assign the license on that site.  * `attendee` - Attendee role on the siteUrl Valores: attendee.
   - `operation` (string): Operation type. The default operation is `add` if no operation is specified.  * `remove` - Remove the attendee role from the user.  * `add` - Add the attendee role to the user. Valores: remove, add.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "email": "john.andersen@example.com",
@@ -75,32 +80,97 @@ When assigning licenses and attendee siteUrls to a user who does not belong to t
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `orgId` (string): The ID of the organization to which this user belongs.
-  - `personId` (string): A unique identifier for the user.
-  - `email` (string): The email address of this user.
-  - `licenses` (array): An array of license strings that are assigned to this user.
-  - `siteUrls` (array): An array of `siteUrls` and their `accountType` that are assigned to this user.
-    - `siteUrl` (string): `siteUrl` assigned to the user.
-    - `accountType` (string): Account Type of the site.  * `attendee` - Attendee account on the site.  * `host` - Host account on the site. Valores: attendee, host.
-  - `pendingLicenses` (array): An array of license strings that are in pending state. This is only applicable to users outside the organization.
-  - `pendingSiteUrls` (array): An array of `siteUrls` and their `accountType` that are in pending state. This is only applicable to users outside the organization.
-    - `siteUrl` (string): `siteUrl` assigned to the user.
-    - `accountType` (string): Account Type of the site.  * `attendee` - Attendee account on the site.  * `host` - Host account on the site. Valores: attendee, host.
-- **206**: Partial Content: Some licenses were successfully assigned, but others could not be assigned due to various constraints or errors. Compare the returned licenses with the requested licenses to determine which ones failed.
-  - `orgId` (string): The ID of the organization to which this user belongs.
-  - `personId` (string): A unique identifier for the user.
-  - `email` (string): The email address of this user.
-  - `licenses` (array): An array of license strings that are assigned to this user.
-  - `siteUrls` (array): An array of `siteUrls` and their `accountType` that are assigned to this user.
-    - `siteUrl` (string): `siteUrl` assigned to the user.
-    - `accountType` (string): Account Type of the site.  * `attendee` - Attendee account on the site.  * `host` - Host account on the site. Valores: attendee, host.
-  - `pendingLicenses` (array): An array of license strings that are in pending state. This is only applicable to users outside the organization.
-  - `pendingSiteUrls` (array): An array of `siteUrls` and their `accountType` that are in pending state. This is only applicable to users outside the organization.
-    - `siteUrl` (string): `siteUrl` assigned to the user.
-    - `accountType` (string): Account Type of the site.  * `attendee` - Attendee account on the site.  * `host` - Host account on the site. Valores: attendee, host.
+## Ejemplo de invocación
+```bash
+curl -X PATCH '/licenses/users' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `orgId` (string): The ID of the organization to which this user belongs.
+- `personId` (string): A unique identifier for the user.
+- `email` (string): The email address of this user.
+- `licenses` (array): An array of license strings that are assigned to this user.
+- `siteUrls` (array): An array of `siteUrls` and their `accountType` that are assigned to this user.
+  - `siteUrl` (string): `siteUrl` assigned to the user.
+  - `accountType` (string): Account Type of the site.  * `attendee` - Attendee account on the site.  * `host` - Host account on the site. Valores: attendee, host.
+- `pendingLicenses` (array): An array of license strings that are in pending state. This is only applicable to users outside the organization.
+- `pendingSiteUrls` (array): An array of `siteUrls` and their `accountType` that are in pending state. This is only applicable to users outside the organization.
+  - `siteUrl` (string): `siteUrl` assigned to the user.
+  - `accountType` (string): Account Type of the site.  * `attendee` - Attendee account on the site.  * `host` - Host account on the site. Valores: attendee, host.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi85NmFiYzJhYS0zZGNjLTExZTUtYTE1Mi1mZTM0ODE5Y2RjOWE",
+  "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9mNWIzNjE4Ny1jOGRkLTQ3MjctOGIyZi1mOWM0NDdmMjkwNDY",
+  "email": "john.andersen@example.com",
+  "licenses": [
+    "Y2lzY29zcGFyazovL3VzL0xJQ0VOU0UvOTZhYmMyYWEtM2RjYy0xMWU1LWExNTItZmUzNDgxOWNkYzlh",
+    "Y2lzY29zcGFyazovL3VzL0xJQ0VOU0UvOTZhYmMyYWEtM2RjYy0xMWU1LWIyNjMtMGY0NTkyYWRlZmFi",
+    "Y2lzY29zcGFyazovL3VzL0xJQ0VOU0UvOTZhYmMyYWEtM2RjYy0xMWU1LTIzNDItMGY0NTU2YWRlZXJm"
+  ],
+  "siteUrls": [
+    {
+      "siteUrl": "mysite.webex.com",
+      "accountType": "attendee"
+    },
+    {
+      "siteUrl": "myhostsite.webex.com",
+      "accountType": "host"
+    }
+  ]
+}
+```
+**206**: Partial Content: Some licenses were successfully assigned, but others could not be assigned due to various constraints or errors. Compare the returned licenses with the requested licenses to determine which ones failed.
+- `orgId` (string): The ID of the organization to which this user belongs.
+- `personId` (string): A unique identifier for the user.
+- `email` (string): The email address of this user.
+- `licenses` (array): An array of license strings that are assigned to this user.
+- `siteUrls` (array): An array of `siteUrls` and their `accountType` that are assigned to this user.
+  - `siteUrl` (string): `siteUrl` assigned to the user.
+  - `accountType` (string): Account Type of the site.  * `attendee` - Attendee account on the site.  * `host` - Host account on the site. Valores: attendee, host.
+- `pendingLicenses` (array): An array of license strings that are in pending state. This is only applicable to users outside the organization.
+- `pendingSiteUrls` (array): An array of `siteUrls` and their `accountType` that are in pending state. This is only applicable to users outside the organization.
+  - `siteUrl` (string): `siteUrl` assigned to the user.
+  - `accountType` (string): Account Type of the site.  * `attendee` - Attendee account on the site.  * `host` - Host account on the site. Valores: attendee, host.
+
+### Ejemplo — respuesta 206
+```json
+{
+  "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi85NmFiYzJhYS0zZGNjLTExZTUtYTE1Mi1mZTM0ODE5Y2RjOWE",
+  "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9mNWIzNjE4Ny1jOGRkLTQ3MjctOGIyZi1mOWM0NDdmMjkwNDY",
+  "email": "john.andersen@example.com",
+  "licenses": [
+    "Y2lzY29zcGFyazovL3VzL0xJQ0VOU0UvOTZhYmMyYWEtM2RjYy0xMWU1LWExNTItZmUzNDgxOWNkYzlh"
+  ],
+  "siteUrls": [
+    {
+      "siteUrl": "mysite.webex.com",
+      "accountType": "attendee"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. Specific error codes indicate license assignment issues.
+  Location not found:
+```json
+{
+  "message": "Unable to find location",
+  "errors": [
+    {
+      "errorCode": 400,
+      "description": "Unable to find location."
+    }
+  ],
+  "trackingId": "NA_88b8b4ce-6338-4d3a-8d6c-22b37e62354f"
+}
+```
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
 - **404**: Not Found: The URI requested is invalid or the resource requested, such as a user, does not exist. Also returned when the requested format is not supported by the requested method.
@@ -115,6 +185,9 @@ When assigning licenses and attendee siteUrls to a user who does not belong to t
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

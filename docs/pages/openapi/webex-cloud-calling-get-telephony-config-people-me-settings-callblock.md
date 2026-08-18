@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-people-me-settings-callblock
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/people/me/settings/callBlock
+operation_id: getMyCallBlockSettings
+tags: Call Settings For Me
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.565384+00:00
+retrieved_at: 2026-08-18T23:45:43.184793+00:00
 ---
 
 # GET /telephony/config/people/me/settings/callBlock
@@ -24,11 +29,43 @@ Call block settings allow you to get the User Call Block Number List.
 
 This API requires a user auth token with a scope of `spark:telephony_config_read`.
 
-## Respuestas
-- **200**: OK
-  - `numbers` (array) **(requerido)**: Numbers for the call block list.
-    - `id` (string) **(requerido)**: Unique identifier of the phone number.
-    - `phoneNumber` (string) **(requerido)**: Phone number which is blocked by user.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/people/me/settings/callBlock' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `numbers` (array) (**requerido**): Numbers for the call block list.
+  - `id` (string) (**requerido**): Unique identifier of the phone number.
+  - `phoneNumber` (string) (**requerido**): Phone number which is blocked by user.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "numbers": [
+    {
+      "id": "KzE4OTc2NTQzMjE1",
+      "phoneNumber": "+18976543215"
+    },
+    {
+      "id": "KzE4OTc2NTQzMzE1",
+      "phoneNumber": "+18976543315"
+    },
+    {
+      "id": "KzE4OTc2NTQzNDE1",
+      "phoneNumber": "+18976543415"
+    },
+    {
+      "id": "KzE5OTc2NTQzNDE1",
+      "phoneNumber": "+19976543415"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -44,6 +81,9 @@ This API requires a user auth token with a scope of `spark:telephony_config_read
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

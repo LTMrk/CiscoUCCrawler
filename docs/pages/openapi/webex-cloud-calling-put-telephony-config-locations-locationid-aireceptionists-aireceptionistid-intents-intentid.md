@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-locations-locationid-aireceptionists-aireceptionistid-intents-intentid
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/aiReceptionists/{aiReceptionistId}/intents/{intentId}
+operation_id: modifyAiReceptionistIntent
+tags: AI Receptionist for Webex Calling, AI Receptionist
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.548919+00:00
+retrieved_at: 2026-08-18T23:45:43.154996+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/aiReceptionists/{aiReceptionistId}/intents/{intentId}
@@ -25,20 +30,20 @@ AI Receptionist is a Webex Calling feature that uses AI to greet callers and int
 This API requires a full administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: Location ID.
-- `aiReceptionistId` [path] (string) **(requerido)**: Unique identifier for the AI Receptionist.
-- `intentId` [path] (string) **(requerido)**: Unique identifier for a specific AI Receptionist intent within a given location and AI Receptionist instance.
+- `locationId` [path] (string) (**requerido**): Location ID.
+- `aiReceptionistId` [path] (string) (**requerido**): Unique identifier for the AI Receptionist.
+- `intentId` [path] (string) (**requerido**): Unique identifier for a specific AI Receptionist intent within a given location and AI Receptionist instance.
 - `orgId` [query] (string): Optional target organization identifier. Defaults to token's organization if not provided.
 
 ## Cuerpo de la petición (application/json)
-- `name` (string): Name of the intent.
-- `description` (string): Description of the intent (Action).
+- `name` (string): Name of the intent. Long. max: 64.
+- `description` (string): Description of the intent (Action). Long. max: 1024.
 - `transferTo` (object): Transfer destination configuration for the intent.
-  - `contactType` (string) **(requerido)**: Contact type. - PEOPLE - A person in the organization. - RESOURCE_GROUP - A group resource such as a call queue or hunt group. - CONTACT - An organization contact. - PHONE_NUMBER - A raw phone number or extension. Valores: PEOPLE, RESOURCE_GROUP, CONTACT, PHONE_NUMBER.
+  - `contactType` (string) (**requerido**): Contact type. - PEOPLE - A person in the organization. - RESOURCE_GROUP - A group resource such as a call queue or hunt group. - CONTACT - An organization contact. - PHONE_NUMBER - A raw phone number or extension. Valores: PEOPLE, RESOURCE_GROUP, CONTACT, PHONE_NUMBER.
   - `contactId` (string): Unique identifier for the transfer destination, encoded using the resource type indicated by contactType (PEOPLE, RESOURCE_GROUP, or CONTACT). Not required when contactType is PHONE_NUMBER.
   - `phoneNumber` (string): Phone number for intent transfer.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "name": "For Physical Therapy",
@@ -51,8 +56,18 @@ This API requires a full administrator auth token with a scope of `spark-admin:t
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/locations/<locationId>/aiReceptionists/<aiReceptionistId>/intents/<intentId>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -68,6 +83,9 @@ This API requires a full administrator auth token with a scope of `spark-admin:t
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

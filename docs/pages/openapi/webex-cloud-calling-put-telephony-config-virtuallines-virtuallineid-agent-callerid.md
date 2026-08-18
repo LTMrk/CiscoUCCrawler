@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-virtuallines-virtuallineid-agent-callerid
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}/agent/callerId
+operation_id: Modify Agent's Caller ID Information
+tags: Virtual Line Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.660364+00:00
+retrieved_at: 2026-08-18T23:45:43.396158+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/agent/callerId
@@ -25,21 +30,31 @@ Each Agent is able to set their outgoing Caller ID as either the designated Call
 This API requires a full, user, or location administrator auth token with the `spark-admin:telephony_config_write` scope.
 
 ## Parámetros
-- `virtualLineId` [path] (string) **(requerido)**: Unique identifier for the Virtual Line.
+- `virtualLineId` [path] (string) (**requerido**): Unique identifier for the Virtual Line.
 - `orgId` [query] (string): ID of the organization in which the virtual line resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access API.
 
 ## Cuerpo de la petición (application/json)
-- `selectedCallerId` (string) **(requerido)**: The unique identifier of the call queue or hunt group to use for the agent's caller ID. Set to null to use the agent's own caller ID.
+- `selectedCallerId` (string) (**requerido**): The unique identifier of the call queue or hunt group to use for the agent's caller ID. Set to null to use the agent's own caller ID.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "selectedCallerId": "Y2lzY29zcGFyazovL3VzL0hVTlRfR1JPVVAvZWZkN2JjYzAtMjNkNS00NWM2LTk1N2YtZWNhYWEyZDU0M2Uw"
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/virtualLines/<virtualLineId>/agent/callerId' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"selectedCallerId": "<selectedCallerId>"}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -55,6 +70,9 @@ This API requires a full, user, or location administrator auth token with the `s
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

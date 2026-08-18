@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-215666-expected-behaviour-when-using-the-maxpee-html-511c7c8f52
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215666-expected-behaviour-when-using-the-maxpee.html
-retrieved_at: 2026-08-16T14:22:14.966268+00:00
+retrieved_at: 2026-08-18T23:49:28.142627+00:00
 ---
 
 Expected Behavior When Using the maxPeerVideoStreams Parameter in CMS Clusters
 
 # Expected Behavior When Using the maxPeerVideoStreams Parameter in CMS Clusters
-
-Log in to Save Content
 
 ### Download Options
 
@@ -157,12 +155,6 @@ Cisco TAC Engineer
 Edited by Lidiya Bogdanova
 
 Cisco TAC Engineer
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 

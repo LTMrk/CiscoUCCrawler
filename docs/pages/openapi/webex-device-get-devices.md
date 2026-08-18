@@ -2,10 +2,15 @@
 doc_id: webex-device-get-devices
 source: webex-openapi-specs/public-spec/webex-device.json
 api: Webex Device
+api_version: 1.0.0
 method: GET
 path: /devices
+operation_id: List Devices
+tags: Devices
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.133733+00:00
+retrieved_at: 2026-08-18T23:45:44.206112+00:00
 ---
 
 # GET /devices
@@ -28,54 +33,98 @@ Lists all active Webex devices associated with the authenticated user, such as d
 - `workspaceId` [query] (string): List devices by workspace ID.
 - `orgId` [query] (string): List devices in this organization. Only admin users of another organization (such as partners) may use this parameter.
 - `connectionStatus` [query] (string): List devices with this connection status.
-- `product` [query] (string): List devices with this product name.
-- `type` [query] (string): List devices with this type.
+- `product` [query] (string): List devices with this product name. Valores: DX-80, RoomKit, SX-80.
+- `type` [query] (string): List devices with this type. Valores: roomdesk, phone, accessory, webexgo, unknown.
 - `serial` [query] (string): List devices with this serial number.
 - `tag` [query] (string): List devices which have a tag. Searching for multiple tags (logical AND) can be done by comma separating the `tag` values or adding several `tag` parameters.
 - `software` [query] (string): List devices with this software version.
 - `upgradeChannel` [query] (string): List devices with this upgrade channel.
 - `errorCode` [query] (string): List devices with this error code.
-- `capability` [query] (string): List devices with this capability.
+- `capability` [query] (string): List devices with this capability. Valores: xapi.
 - `permission` [query] (string): List devices with this permission.
 - `locationId` [query] (string): List devices by location ID.
 - `workspaceLocationId` [query] (string): List devices by workspace location ID. Deprecated, prefer `locationId`.
 - `mac` [query] (string): List devices with this MAC address.
-- `devicePlatform` [query] (string): List devices with this device platform.
-- `plannedMaintenance` [query] (string): List devices with this planned maintenance.
+- `devicePlatform` [query] (string): List devices with this device platform. Valores: cisco, microsoftTeamsRoom.
+- `plannedMaintenance` [query] (string): List devices with this planned maintenance. Valores: off, on, upcoming.
 
-## Respuestas
-- **200**: OK
-  - `items` (array):
-    - `id` (string): A unique identifier for the device.
-    - `displayName` (string): A friendly name for the device.
-    - `placeId` (string): The `placeId` field has been deprecated. Please use `workspaceId` instead.
-    - `workspaceId` (string): The workspace associated with the device.
-    - `personId` (string): The person associated with the device.
-    - `orgId` (string): The organization associated with the device.
-    - `capabilities` (array): The capabilities of the device.
-    - `permissions` (array): The permissions the user has for this device. For example, `xapi` means this user is entitled to using the `xapi` against this device.
-    - `connectionStatus` (string): The connection status of the device. Valores: connected, disconnected, connected_with_issues, offline_expired, activating, pending, unknown, offline_deep_sleep.
-    - `product` (string): The product name. A display friendly version of the device's `model`.
-    - `type` (string): The product type.
-    - `tags` (array): Tags assigned to the device.
-    - `ip` (string): The current IP address of the device.
-    - `activeInterface` (string): The current network connectivity for the device. Valores: wired.
-    - `mac` (string): The unique address for the network adapter.
-    - `primarySipUrl` (string): The primary SIP address to dial this device.
-    - `sipUrls` (array): All SIP addresses to dial this device.
-    - `serial` (string): Serial number for the device.
-    - `software` (string): The operating system name data and version tag.
-    - `upgradeChannel` (string): The upgrade channel the device is assigned to.
-    - `created` (string) **(requerido)**: The date and time that the device was registered, in ISO8601 format.
-    - `locationId` (string): The location associated with the device.
-    - `workspaceLocationId` (string): The workspace location associated with the device. Deprecated, prefer `locationId`.
-    - `errorCodes` (array): Error codes coming from the device.
-    - `firstSeen` (string): Timestamp of the first time device sent a status post.
-    - `lastSeen` (string): Timestamp of the last time device sent a status post.
-    - `managedBy` (string): Entity managing the device configuration. Valores: CISCO, CUSTOMER, PARTNER.
-    - `devicePlatform` (string): Device platform Valores: cisco, microsoftTeamsRoom.
-    - `plannedMaintenance` (object): The planned maintenance for the device.
-      - `mode` (string): The planned maintenance mode for the device Valores: off, on, upcoming.
+## Ejemplo de invocación
+```bash
+curl -X GET '/devices' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array):
+  - `id` (string): A unique identifier for the device.
+  - `displayName` (string): A friendly name for the device.
+  - `placeId` (string): The `placeId` field has been deprecated. Please use `workspaceId` instead.
+  - `workspaceId` (string): The workspace associated with the device.
+  - `personId` (string): The person associated with the device.
+  - `orgId` (string): The organization associated with the device.
+  - `capabilities` (array): The capabilities of the device.
+  - `permissions` (array): The permissions the user has for this device. For example, `xapi` means this user is entitled to using the `xapi` against this device.
+  - `connectionStatus` (string): The connection status of the device. Valores: connected, disconnected, connected_with_issues, offline_expired, activating, pending, unknown, offline_deep_sleep.
+  - `product` (string): The product name. A display friendly version of the device's `model`.
+  - `type` (string): The product type.
+  - `tags` (array): Tags assigned to the device.
+  - `ip` (string): The current IP address of the device.
+  - `activeInterface` (string): The current network connectivity for the device. Valores: wired.
+  - `mac` (string): The unique address for the network adapter.
+  - `primarySipUrl` (string): The primary SIP address to dial this device.
+  - `sipUrls` (array): All SIP addresses to dial this device.
+  - `serial` (string): Serial number for the device.
+  - `software` (string): The operating system name data and version tag.
+  - `upgradeChannel` (string): The upgrade channel the device is assigned to.
+  - `created` (string) (**requerido**): The date and time that the device was registered, in ISO8601 format.
+  - `locationId` (string): The location associated with the device.
+  - `workspaceLocationId` (string): The workspace location associated with the device. Deprecated, prefer `locationId`.
+  - `errorCodes` (array): Error codes coming from the device.
+  - `firstSeen` (string): Timestamp of the first time device sent a status post.
+  - `lastSeen` (string): Timestamp of the last time device sent a status post.
+  - `managedBy` (string): Entity managing the device configuration. Valores: CISCO, CUSTOMER, PARTNER.
+  - `devicePlatform` (string): Device platform Valores: cisco, microsoftTeamsRoom.
+  - `plannedMaintenance` (object): The planned maintenance for the device.
+    - `mode` (string): The planned maintenance mode for the device Valores: off, on, upcoming.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLWVhc3QtMV9pbnQxMy9ERVZJQ0UvNTEwMUIwN0ItNEY4Ri00RUY3LUI1NjUtREIxOUM3QjcyM0Y3",
+      "callingDeviceId": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLWVhc3QtMV9pbnQxMy9DQUxMSU5HX0RFVklDRS81MTAxQjA3Qi00RjhGLTRFRjctQjU2NS1EQjE5QzdCNzIzRjc=",
+      "webexDeviceId": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLWVhc3QtMV9pbnQxMy9ERVZJQ0UvNTEwMUIwN0ItNEY4Ri00RUY3LUI1NjUtREIxOUM3QjcyM0Y3",
+      "deviceId": "Y2lzY29zcGFyazovL29yZ0lkPTk2YWJjMmFhLTNkY2MtMTFlNS1hMTUyLWZlMzQ4MTljZGM5YS9ERVZJQ0VfSUQvNTEwMWIwN2ItNGY4Zi00ZWY3LWI1NjUtZGIxOWM3YjcyM2Y3",
+      "displayName": "SFO12-3-PanHandle",
+      "placeId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS83MTZlOWQxYy1jYTQ0LTRmZWQtOGZjYS05ZGY0YjRmNDE3ZjU",
+      "workspaceId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS83MTZlOWQxYy1jYTQ0LTRmZWQtOGZjYS05ZGY0YjRmNDE3ZjU",
+      "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS83MTZlOWQxYy1jYTQ0LTRmZWQtOGZjYS05ZGY0YjRmNDE3ZjU",
+      "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi85NmFiYzJhYS0zZGNjLTExZTUtYTE1Mi1mZTM0ODE5Y2RjOWE",
+      "capabilities": [
+        "xapi"
+      ],
+      "permissions": [
+        "xapi:readonly"
+      ],
+      "connectionStatus": "connected",
+      "product": "Cisco Webex DX80",
+      "type": "roomdesk",
+      "tags": [
+        "First Tag",
+        "Second Tag"
+      ],
+      "ip": "100.110.120.130",
+      "activeInterface": "wired",
+      "mac": "11:22:33:44:AA:FF",
+      "primarySipUrl": "sample_device@sample_workspacename.orgname.org",
+      "sipUrls"
+  ... (truncado)
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -91,6 +140,9 @@ Lists all active Webex devices associated with the authenticated user, such as d
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Device APIs provide endpoints for managing and monitoring Webex devices, including registration, configuration, status retrieval, workspace assignment, and firmware management. These APIs support automation of device onboarding, health monitoring, remote troubleshooting, and bulk configuration updates. Integration scenarios include custom device dashboards, proactive alerting, and seamless workspace management for meeting rooms and shared spaces. The APIs are essential for IT teams managing large fleets of Webex devices across distributed environments.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

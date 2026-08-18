@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-delete-telephony-config-locations-locationid-numbers
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: DELETE
 path: /telephony/config/locations/{locationId}/numbers
+operation_id: Remove phone numbers from a location
+tags: Numbers
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.631879+00:00
+retrieved_at: 2026-08-18T23:45:43.350325+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/numbers
@@ -33,13 +38,13 @@ A location's main number cannot be removed.
 <div><Callout type="warning">This API is only supported for non-integrated PSTN connection types of Local Gateway (LGW) and Non-integrated CPP. It should never be used for locations with integrated PSTN connection types like Cisco Calling Plans or Integrated CCP because backend data issues may occur.</Callout></div>
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: `LocationId` to which numbers should be added.
+- `locationId` [path] (string) (**requerido**): `LocationId` to which numbers should be added.
 - `orgId` [query] (string): Organization of the Route Group.
 
 ## Cuerpo de la petición (application/json)
-- `phoneNumbers` (array) **(requerido)**: List of phone numbers that need to be deleted. The maximum limit is 5.
+- `phoneNumbers` (array) (**requerido**): List of phone numbers that need to be deleted. The maximum limit is 5.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "phoneNumbers": [
@@ -49,8 +54,18 @@ A location's main number cannot be removed.
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X DELETE '/telephony/config/locations/<locationId>/numbers' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"phoneNumbers": []}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -66,6 +81,9 @@ A location's main number cannot be removed.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

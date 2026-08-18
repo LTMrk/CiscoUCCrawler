@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-premisepstn-routegroups-routegroupid-usage
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/routeGroups/{routeGroupId}/usage
+operation_id: Read the Usage of a Routing Group
+tags: Call Routing
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.557072+00:00
+retrieved_at: 2026-08-18T23:45:43.169893+00:00
 ---
 
 # GET /telephony/config/premisePstn/routeGroups/{routeGroupId}/usage
@@ -27,15 +32,33 @@ Route Lists are a list of numbers that can be reached via a route group and can 
 Retrieving usage information requires a full or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `routeGroupId` [path] (string) **(requerido)**: ID of the requested Route group.
+- `routeGroupId` [path] (string) (**requerido**): ID of the requested Route group.
 - `orgId` [query] (string): Organization associated with the specific route group.
 
-## Respuestas
-- **200**: OK
-  - `pstnConnectionCount` (string) **(requerido)**: Number of PSTN connection locations associated to this route group.
-  - `callToExtensionCount` (string) **(requerido)**: Number of call to extension locations associated to this route group.
-  - `dialPlanCount` (string) **(requerido)**: Number of dial plan locations associated to this route group.
-  - `routeListCount` (string) **(requerido)**: Number of route list locations associated to this route group.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/premisePstn/routeGroups/<routeGroupId>/usage' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `pstnConnectionCount` (string) (**requerido**): Number of PSTN connection locations associated to this route group.
+- `callToExtensionCount` (string) (**requerido**): Number of call to extension locations associated to this route group.
+- `dialPlanCount` (string) (**requerido**): Number of dial plan locations associated to this route group.
+- `routeListCount` (string) (**requerido**): Number of route list locations associated to this route group.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "pstnConnectionCount": "1",
+  "callToExtensionCount": "1",
+  "dialPlanCount": "1",
+  "routeListCount": "1"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -51,6 +74,9 @@ Retrieving usage information requires a full or read-only administrator auth tok
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

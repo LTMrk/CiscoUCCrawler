@@ -2,10 +2,15 @@
 doc_id: webex-meeting-post-meetingparticipants-cancelcallout
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: POST
 path: /meetingParticipants/cancelCallout
+operation_id: Cancel Calling Out a SIP Participant
+tags: Participants
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.387203+00:00
+retrieved_at: 2026-08-18T23:45:44.467699+00:00
 ---
 
 # POST /meetingParticipants/cancelCallout
@@ -25,17 +30,27 @@ If a user invoking the API is not a [Service App](/docs/service-apps), the user 
 The authenticated user calling this API must have the `meeting:participants_write` scope.
 
 ## Cuerpo de la petición (application/json)
-- `participantId` (string) **(requerido)**: ID of the SIP participant on whom the callout is to be cancelled. It can be retrieved from the response of the "Call Out a SIP Participant" API.
+- `participantId` (string) (**requerido**): ID of the SIP participant on whom the callout is to be cancelled. It can be retrieved from the response of the "Call Out a SIP Participant" API.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "participantId": "d8c3347d7ec04242ba9b856184b334ac_I_630641605678082408_57514861-50f7-3f5b-864f-ce0e308bf653"
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X POST '/meetingParticipants/cancelCallout' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"participantId": "<participantId>"}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -51,6 +66,9 @@ The authenticated user calling this API must have the `meeting:participants_writ
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

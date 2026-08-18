@@ -2,10 +2,15 @@
 doc_id: webex-meeting-post-meetings-join
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: POST
 path: /meetings/join
+operation_id: meetingJoin
+tags: Meetings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.395095+00:00
+retrieved_at: 2026-08-18T23:45:44.482506+00:00
 ---
 
 # POST /meetings/join
@@ -56,7 +61,7 @@ Retrieves links for a meeting with a specified `meetingId`, `meetingNumber`, or 
 - `createJoinLinkAsWebLink` (boolean): When `createJoinLinkAsWebLink` is true, the returned `joinLink` is the webLink of the meeting, otherwise, the normal `joinLink` is returned. This parameter is applicable when the option to force the user to log in is set in Control Hub. When true, a user cannot join the meeting by the link directly and must go through the login flow.
 - `createStartLinkAsWebLink` (boolean): When `createStartLinkAsWebLink` is true, the returned `startLink` is the webLink of the meeting, otherwise, the normal `startLink` is returned. This parameter is applicable when the option to force the user to log in is set in Control Hub. When true, a user cannot start the meeting using the link and must go through the login flow.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "meetingId": "98d8c2212c9d62b162b9565932735e59",
@@ -73,11 +78,30 @@ Retrieves links for a meeting with a specified `meetingId`, `meetingNumber`, or 
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `startLink` (string): The link is used to start a meeting as the meeting host. Only the meeting host or cohost can generate the `startLink`.
-  - `joinLink` (string): The link is used to join the meeting.
-  - `expiration` (string): Expiration time of `joinLink`. When both `createJoinLinkAsWebLink` and `createStartLinkAsWebLink` are true, this attribute is not returned in the response.
+## Ejemplo de invocación
+```bash
+curl -X POST '/meetings/join' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `startLink` (string): The link is used to start a meeting as the meeting host. Only the meeting host or cohost can generate the `startLink`.
+- `joinLink` (string): The link is used to join the meeting.
+- `expiration` (string): Expiration time of `joinLink`. When both `createJoinLinkAsWebLink` and `createStartLinkAsWebLink` are true, this attribute is not returned in the response.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "startLink": "https://convergedint.dmz.webex.com/wbxmjs/joinservice/sites/convergedint/meeting/download/b711f29256e54ed780f2a1b7f96d202f?siteurl=convergedint&integrationJoinToken=QUhTSwAAAIXWmx57bQgiYLuAYZvEKAN6taYj3h2th5jIusReBmnOZBLmjPHQIhknV9%2FVOtZTRfvHek%2FbN%2BUA3CcmfqiYEisTZyWhIWboxRG3KGzVQxijZV0z%2B%2FTdXqgX3Cvo%2B3FfO3tIgh1dcP5bprqYxuwJu%2BhW13nctAZPsLuyLaCuADQ%2FsQ%3D%3D&principal=QUhTSwAAAIUNvqV715wdKSiJfpQz9G2uUjyNlBeu0bcNYoXwvYPyHeysQAgve3XrsM83KS10rU34VjuJjPyOi225Po2n3q2MTUmMgIk9hgkDXHxO476xlMoDPsQONMp8vBY9uVybKgBOyTkJsMa%2F2pFES4hk101q&integrationEndUrl=https%3A%2F%2Fconvergedint.dmz.webex.com%2Fmc3300%2Fmeetingcenter%2Fmeetingend%2Fmeetingend.do%3Fsiteurl%3Dconvergedint%26from%3Dmeeting%26backurl%3D",
+  "joinLink": "https://convergedint.dmz.webex.com/wbxmjs/joinservice/sites/convergedint/meeting/download/b711f29256e54ed780f2a1b7f96d202f?siteurl=convergedint&integrationJoinToken=QUhTSwAAAIXWmx57bQgiYLuAYZvEKAN6taYj3h2th5jIusReBmnOZBLmjPHQIhknV9%2FVOtZTRfvHek%2FbN%2BUA3CcmfqiYEisTZyWhIWboxRG3KGzVQxijZV0z%2B%2FTdXqgX3Cvo%2B3FfO3tIgh1dcP5bprqYxuwJu%2BhW13nctAZPsLuyLaCuADQ%2FsQ%3D%3D&principal=QUhTSwAAAIUNvqV715wdKSiJfpQz9G2uUjyNlBeu0bcNYoXwvYPyHeysQAgve3XrsM83KS10rU34VjuJjPyOi225Po2n3q2MTUmMgIk9hgkDXHxO476xlMoDPsQONMp8vBY9uVybKgBOyTkJsMa%2F2pFES4hk101q&integrationEndUrl=https%3A%2F%2Fconvergedint.dmz.webex.com%2Fmc3300%2Fmeetingcenter%2Fmeetingend%2Fmeetingend.do%3Fsiteurl%3Dconvergedint%26from%3Dmeeting%26backurl%3D",
+  "expiration": "2022-05-30T09:44:08Z"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -93,6 +117,9 @@ Retrieves links for a meeting with a specified `meetingId`, `meetingNumber`, or 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

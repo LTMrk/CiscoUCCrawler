@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-virtuallines-virtuallineid-agent-callerid
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/agent/callerId
+operation_id: Retrieve Agent's Caller ID Information
+tags: Virtual Line Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.660257+00:00
+retrieved_at: 2026-08-18T23:45:43.396006+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/agent/callerId
@@ -25,17 +30,38 @@ Each agent will be able to set their outgoing Caller ID as either the Call Queue
 This API requires a full admin or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `virtualLineId` [path] (string) **(requerido)**: Unique identifier for the Virtual Line.
+- `virtualLineId` [path] (string) (**requerido**): Unique identifier for the Virtual Line.
 - `orgId` [query] (string): ID of the organization in which the virtual line resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access API.
 
-## Respuestas
-- **200**: OK
-  - `selectedCallerId` (object) **(requerido)**:
-    - `id` (string) **(requerido)**: When not null, this is the call queue or hunt group's unique identifier.
-    - `type` (string) **(requerido)**: * `CALL_QUEUE` - A call queue has been selected for the agent's caller ID.  * `HUNT_GROUP` - A hunt group has been selected for the agent's caller ID. Valores: CALL_QUEUE, HUNT_GROUP.
-    - `name` (string) **(requerido)**: When not null, indicates the call queue's or hunt group's name.
-    - `phoneNumber` (string) **(requerido)**: When not null, indicates the call queue's or hunt group's phone number.
-    - `extension` (string) **(requerido)**: When not null, indicates the call queue's or hunt group's extension number.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/virtualLines/<virtualLineId>/agent/callerId' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `selectedCallerId` (object) (**requerido**):
+  - `id` (string) (**requerido**): When not null, this is the call queue or hunt group's unique identifier.
+  - `type` (string) (**requerido**): * `CALL_QUEUE` - A call queue has been selected for the agent's caller ID.  * `HUNT_GROUP` - A hunt group has been selected for the agent's caller ID. Valores: CALL_QUEUE, HUNT_GROUP.
+  - `name` (string) (**requerido**): When not null, indicates the call queue's or hunt group's name.
+  - `phoneNumber` (string) (**requerido**): When not null, indicates the call queue's or hunt group's phone number.
+  - `extension` (string) (**requerido**): When not null, indicates the call queue's or hunt group's extension number.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "selectedCallerId": {
+    "id": "Y2lzY29zcGFyazovL3VzL0NBTExfUVVFVUUvMzc4NzRjOGUtMzRhOS00NzFjLWI1N2QtMzAxNTJkZjlmMjQx",
+    "type": "CALL_QUEUE",
+    "name": "new ram",
+    "phoneNumber": "+81123456890",
+    "extension": "09899"
+  }
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -51,6 +77,9 @@ This API requires a full admin or read-only administrator auth token with a scop
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -2,10 +2,15 @@
 doc_id: webex-meeting-delete-meetingsummaries-summaryid
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: DELETE
 path: /meetingSummaries/{summaryId}
+operation_id: deleteSummary
+tags: Summaries
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.390641+00:00
+retrieved_at: 2026-08-18T23:45:44.473801+00:00
 ---
 
 # DELETE /meetingSummaries/{summaryId}
@@ -21,10 +26,18 @@ Delete a Summary
 Removes a summary with a specified summary ID. The deleted summary cannot be recovered. A deleted summary can not be accessed by regular users, i.e. host or attendees, but can be access by compliance officers
 
 ## Parámetros
-- `summaryId` [path] (string) **(requerido)**: Unique identifier for the meeting summary.
+- `summaryId` [path] (string) (**requerido**): Unique identifier for the meeting summary.
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X DELETE '/meetingSummaries/<summaryId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -40,6 +53,9 @@ Removes a summary with a specified summary ID. The deleted summary cannot be rec
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

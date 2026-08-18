@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-jobs-devices-applylinekeytemplate-jobid-errors
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/jobs/devices/applyLineKeyTemplate/{jobId}/errors
+operation_id: getJobErrorsForApplyLineKeyTemplateJob
+tags: Device Call Settings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.585403+00:00
+retrieved_at: 2026-08-18T23:45:43.266855+00:00
 ---
 
 # GET /telephony/config/jobs/devices/applyLineKeyTemplate/{jobId}/errors
@@ -27,16 +32,41 @@ This API allows users to retrieve all the errors of an apply line key templates 
 Retrieving all the errors of an apply line key templates job in an organization requires a full, user or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `jobId` [path] (string) **(requerido)**: Retrieve job errors for this `jobId`.
+- `jobId` [path] (string) (**requerido**): Retrieve job errors for this `jobId`.
 - `orgId` [query] (string): Retrieve list of errors for an apply line key template job in this organization.
 
-## Respuestas
-- **200**: OK
-  - `trackingId` (string) **(requerido)**: Unique identifier to track the HTTP requests.
-  - `error` (object):
-    - `description` (string): Error message.
-    - `code` (string): Internal error code.
-    - `locationId` (string): Error messages describing the location ID in which the error occurs. For a move operation, this is the target location ID.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/jobs/devices/applyLineKeyTemplate/<jobId>/errors' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `trackingId` (string) (**requerido**): Unique identifier to track the HTTP requests.
+- `error` (object):
+  - `description` (string): Error message.
+  - `code` (string): Internal error code.
+  - `locationId` (string): Error messages describing the location ID in which the error occurs. For a move operation, this is the target location ID.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "error": {
+    "key": "500",
+    "message": [
+      {
+        "description": null,
+        "code": "BATCH-0",
+        "locationId": null
+      }
+    ]
+  },
+  "trackingId": "NA_b5352f89-dee8-4eca-bb6f-edabfb175688"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -52,6 +82,9 @@ Retrieving all the errors of an apply line key templates job in an organization 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

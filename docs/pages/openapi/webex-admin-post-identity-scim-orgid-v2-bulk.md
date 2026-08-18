@@ -2,10 +2,15 @@
 doc_id: webex-admin-post-identity-scim-orgid-v2-bulk
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: POST
 path: /identity/scim/{orgId}/v2/Bulk
+operation_id: User bulk API
+tags: Bulk Manage SCIM 2 Users and Groups
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.159200+00:00
+retrieved_at: 2026-08-18T23:45:42.579903+00:00
 ---
 
 # POST /identity/scim/{orgId}/v2/Bulk
@@ -68,18 +73,18 @@ One of the following OAuth scopes is required:
       It is REQUIRED when "method" is "POST".
 
 ## Parámetros
-- `orgId` [path] (string) **(requerido)**: Webex Identity assigned organization identifier for user's organization.
+- `orgId` [path] (string) (**requerido**): Webex Identity assigned organization identifier for user's organization.
 
 ## Cuerpo de la petición (application/json)
-- `schemas` (array) **(requerido)**: Input JSON schemas.
-- `failOnErrors` (number) **(requerido)**: An integer specifying the maximum number of errors that the service provider will accept before the operation is terminated and an error response is returned.
-- `operations` (array) **(requerido)**: Contains a list of bulk operations for POST/PATCH/DELETE operations.
-  - `method` (string) **(requerido)**: The HTTP method of the current operation. Valores: POST, PATCH, DELETE.
-  - `path` (string) **(requerido)**: The resource's relative path. If the method is POST, the value must specify a resource type endpoint, for example `/Users` or `/Groups`. All other method values must specify the path to a specific resource.
+- `schemas` (array) (**requerido**): Input JSON schemas.
+- `failOnErrors` (number) (**requerido**): An integer specifying the maximum number of errors that the service provider will accept before the operation is terminated and an error response is returned.
+- `operations` (array) (**requerido**): Contains a list of bulk operations for POST/PATCH/DELETE operations.
+  - `method` (string) (**requerido**): The HTTP method of the current operation. Valores: POST, PATCH, DELETE.
+  - `path` (string) (**requerido**): The resource's relative path. If the method is POST, the value must specify a resource type endpoint, for example `/Users` or `/Groups`. All other method values must specify the path to a specific resource.
   - `data` (string): The Resource JSON data as it appears for a single POST or PATCH resource operation.
   - `bulkId` (string): The transient identifier of a newly created resource, unique within a bulk request and created by the client.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "schemas": [
@@ -97,15 +102,54 @@ One of the following OAuth scopes is required:
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `schemas` (array) **(requerido)**: Input JSON schemas.
-  - `failOnErrors` (number) **(requerido)**: An integer specifying the maximum number of errors that the service provider will accept before the operation is terminated and an error response is returned.
-  - `operations` (array) **(requerido)**: Contains a list of bulk operations for POST/PATCH/DELETE operations.
-    - `method` (string) **(requerido)**: The HTTP method of the current operation. Valores: POST, PATCH, DELETE.
-    - `path` (string) **(requerido)**: The resource's relative path. If the method is POST, the value must specify a resource type endpoint, for example `/Users` or `/Groups`. All other method values must specify the path to a specific resource.
-    - `data` (string): The Resource JSON data as it appears for a single POST or PATCH resource operation.
-    - `bulkId` (string): The transient identifier of a newly created resource, unique within a bulk request and created by the client.
+## Ejemplo de invocación
+```bash
+curl -X POST '/identity/scim/<orgId>/v2/Bulk' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"schemas": [], "failOnErrors": 0, "operations": []}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `schemas` (array) (**requerido**): Input JSON schemas.
+- `failOnErrors` (number) (**requerido**): An integer specifying the maximum number of errors that the service provider will accept before the operation is terminated and an error response is returned.
+- `operations` (array) (**requerido**): Contains a list of bulk operations for POST/PATCH/DELETE operations.
+  - `method` (string) (**requerido**): The HTTP method of the current operation. Valores: POST, PATCH, DELETE.
+  - `path` (string) (**requerido**): The resource's relative path. If the method is POST, the value must specify a resource type endpoint, for example `/Users` or `/Groups`. All other method values must specify the path to a specific resource.
+  - `data` (string): The Resource JSON data as it appears for a single POST or PATCH resource operation.
+  - `bulkId` (string): The transient identifier of a newly created resource, unique within a bulk request and created by the client.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "schemas": [
+    "urn:ietf:params:scim:api:messages:2.0:BulkResponse"
+  ],
+  "Operations": [
+    {
+      "location": "https://example.com/v2/Users/92b725cd-9465-4e7d-8c16-01f8e146b87a",
+      "method": "POST",
+      "bulkId": "qwerty",
+      "version": "W/\"oY4m4wn58tkVjJxK\"",
+      "status": "201"
+    },
+    {
+      "location": "https://example.com/v2/Users/5d8d29d3-342c-4b5f-8683-a3cb6763ffcc",
+      "method": "PATCH",
+      "version": "W/\"huJj29dMNgu3WXPD\"",
+      "status": "200"
+    },
+    {
+      "location": "https://example.com/v2/Users/e9025315-6bea-44e1-899c-1e07454e468b",
+      "method": "DELETE",
+      "status": "204"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -121,6 +165,9 @@ One of the following OAuth scopes is required:
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

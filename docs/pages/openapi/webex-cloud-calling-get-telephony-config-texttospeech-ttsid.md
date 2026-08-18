@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-texttospeech-ttsid
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/textToSpeech/{ttsId}
+operation_id: getTextToSpeechGenerationStatus
+tags: Features: Announcement Repository
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.596470+00:00
+retrieved_at: 2026-08-18T23:45:43.287032+00:00
 ---
 
 # GET /telephony/config/textToSpeech/{ttsId}
@@ -33,20 +38,42 @@ Text-to-speech (TTS) efficiently generates prompts, greetings, and announcements
 This API requires a full or read-only administrator or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
 ## Parámetros
-- `ttsId` [path] (string) **(requerido)**: Unique identifier of the text-to-speech generation request.
+- `ttsId` [path] (string) (**requerido**): Unique identifier of the text-to-speech generation request.
 - `orgId` [query] (string): Get text-to-speech status for this organization.
 
-## Respuestas
-- **200**: OK
-  - `id` (string) **(requerido)**: Unique identifier of the text-to-speech generation request.
-  - `voice` (string) **(requerido)**: The voice ID used to generate the audio prompt.
-  - `text` (string) **(requerido)**: The input text used to generate the audio prompt.
-  - `languageCode` (string) **(requerido)**: The language code used to generate the audio prompt.
-  - `status` (string) **(requerido)**: The status of the text-to-speech generation request. Valores: IN_PROGRESS, SUCCESS, FAILURE.
-  - `promptUrl` (string): A URL to download the encrypted audio prompt. Only available when status is `SUCCESS`.
-  - `kmsKeyUri` (string): The KMS key URI required to decrypt the prompt downloaded from `promptUrl`. Only available when status is `SUCCESS`.
-  - `fileUri` (string): A file URI you can use when configuring an announcement. Only available when status is `SUCCESS`.
-  - `errorMessage` (string): A detailed message describing why generation failed. Only present when status is `FAILURE`.
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/textToSpeech/<ttsId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string) (**requerido**): Unique identifier of the text-to-speech generation request.
+- `voice` (string) (**requerido**): The voice ID used to generate the audio prompt.
+- `text` (string) (**requerido**): The input text used to generate the audio prompt.
+- `languageCode` (string) (**requerido**): The language code used to generate the audio prompt.
+- `status` (string) (**requerido**): The status of the text-to-speech generation request. Valores: IN_PROGRESS, SUCCESS, FAILURE.
+- `promptUrl` (string): A URL to download the encrypted audio prompt. Only available when status is `SUCCESS`.
+- `kmsKeyUri` (string): The KMS key URI required to decrypt the prompt downloaded from `promptUrl`. Only available when status is `SUCCESS`.
+- `fileUri` (string): A file URI you can use when configuring an announcement. Only available when status is `SUCCESS`.
+- `errorMessage` (string): A detailed message describing why generation failed. Only present when status is `FAILURE`.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1RFWFRfVE9fU1BFRUNILzMyMDE2NGY0LWU1YTMtNDFmZi1hMzI2LTY3YzA5OGU0MWQxZA",
+  "voice": "ashley",
+  "text": "Welcome to our service. Please hold while we connect you.",
+  "languageCode": "en_us",
+  "status": "SUCCESS",
+  "promptUrl": "https://wxc-int-media-file.ciscospark.com/b535b87e-0994-4387-ace1-56facfba9b75/tmp/af01164f-ed87-44d9-bc41-f63f26fb8663",
+  "kmsKeyUri": "kms://kms-cisco.wbx2.com/keys/b56642f3-d597-420c-8a55-41aaa8c5b6e7",
+  "fileUri": "cmf://customers/bf01164f-ed87-44d9-bc41-f63f26fb9663/media/tmp/af01164f-ed87-44d9-bc41-f63f26fb8663"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -58,6 +85,9 @@ This API requires a full or read-only administrator or location administrator au
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

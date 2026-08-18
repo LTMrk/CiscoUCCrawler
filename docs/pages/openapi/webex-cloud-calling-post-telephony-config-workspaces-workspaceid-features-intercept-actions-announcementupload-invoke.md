@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-workspaces-workspaceid-features-intercept-actions-announcementupload-invoke
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/workspaces/{workspaceId}/features/intercept/actions/announcementUpload/invoke
+operation_id: Upload Call Intercept Announcement file for a Workspace
+tags: Workspace Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.668222+00:00
+retrieved_at: 2026-08-18T23:45:43.407919+00:00
 ---
 
 # POST /telephony/config/workspaces/{workspaceId}/features/intercept/actions/announcementUpload/invoke
@@ -28,10 +33,18 @@ This API requires a full, device or location administrator auth token with a sco
 
 ## Parámetros
 - `orgId` [query] (string): Create an announcement in this organization.
-- `workspaceId` [path] (string) **(requerido)**: Unique identifier for the workspace.
+- `workspaceId` [path] (string) (**requerido**): Unique identifier for the workspace.
 
-## Respuestas
-- **201**: Created
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/workspaces/<workspaceId>/features/intercept/actions/announcementUpload/invoke' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**201**: Created
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -47,6 +60,9 @@ This API requires a full, device or location administrator auth token with a sco
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

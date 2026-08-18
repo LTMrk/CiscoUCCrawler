@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-people-personid-settings-msteams
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/people/{personId}/settings/msTeams
+operation_id: configurePersonMSTeamsSetting
+tags: User Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.648236+00:00
+retrieved_at: 2026-08-18T23:45:43.377750+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/settings/msTeams
@@ -27,14 +32,14 @@ MS Teams settings can be configured at the person level.
 Requires a full administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `personId` [path] (string) **(requerido)**: Unique identifier for the person.
+- `personId` [path] (string) (**requerido**): Unique identifier for the person.
 - `orgId` [query] (string): ID of the organization in which the person resides. Only admin users of another organization (such as partners) may use this parameter since the default is the same organization as the token used to access the API.
 
 ## Cuerpo de la petición (application/json)
-- `settingName` (string) **(requerido)**: The enum value to be set to `HIDE_WEBEX_APP`.  * `HIDE_WEBEX_APP` - Webex will continue to run but its windows will be closed by default. Users can still access Webex from the system tray on Windows or the Menu Bar on Mac. Valores: HIDE_WEBEX_APP.
-- `value` (boolean) **(requerido)**: The boolean value to update the `HIDE_WEBEX_APP` setting, either `true` or `false`. Set to `null` to delete the `HIDE_WEBEX_APP` setting.
+- `settingName` (string) (**requerido**): The enum value to be set to `HIDE_WEBEX_APP`.  * `HIDE_WEBEX_APP` - Webex will continue to run but its windows will be closed by default. Users can still access Webex from the system tray on Windows or the Menu Bar on Mac. Valores: HIDE_WEBEX_APP.
+- `value` (boolean) (**requerido**): The boolean value to update the `HIDE_WEBEX_APP` setting, either `true` or `false`. Set to `null` to delete the `HIDE_WEBEX_APP` setting.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "settingName": "HIDE_WEBEX_APP",
@@ -42,8 +47,18 @@ Requires a full administrator auth token with a scope of `spark-admin:telephony_
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/people/<personId>/settings/msTeams' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"settingName": "<settingName>", "value": true}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -59,6 +74,9 @@ Requires a full administrator auth token with a scope of `spark-admin:telephony_
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

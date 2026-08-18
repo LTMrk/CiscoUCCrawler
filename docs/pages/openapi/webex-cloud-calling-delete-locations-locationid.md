@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-delete-locations-locationid
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: DELETE
 path: /locations/{locationId}
+operation_id: deleteLocation
+tags: Locations
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.631030+00:00
+retrieved_at: 2026-08-18T23:45:43.348629+00:00
 ---
 
 # DELETE /locations/{locationId}
@@ -27,11 +32,19 @@ Delete a location, by ID.
 * NOTE: Disabling Webex Calling for a Webex Calling enabled location is required prior to deleting a location.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: A unique identifier for the location.
+- `locationId` [path] (string) (**requerido**): A unique identifier for the location.
 - `orgId` [query] (string): Specify the organization for the location to be deleted.
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X DELETE '/locations/<locationId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -47,6 +60,9 @@ Delete a location, by ID.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

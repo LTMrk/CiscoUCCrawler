@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-people-me-settings-simultaneousring-criteria-id
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/people/me/settings/simultaneousRing/criteria/{id}
+operation_id: updateMySimultaneousRingCriteria
+tags: Call Settings For Me Phase 4
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.576184+00:00
+retrieved_at: 2026-08-18T23:45:43.249651+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/simultaneousRing/criteria/{id}
@@ -25,7 +30,7 @@ The Simultaneous Ring feature allows you to configure your office phone and othe
 Modifying criteria requires a user auth token with a scope of `spark:telephony_config_write`.
 
 ## Parámetros
-- `id` [path] (string) **(requerido)**: Unique identifier for the criteria.
+- `id` [path] (string) (**requerido**): Unique identifier for the criteria.
 
 ## Cuerpo de la petición (application/json)
 - `scheduleName` (string): Name of the schedule which determines when the simultaneous ring is in effect.
@@ -37,7 +42,7 @@ Modifying criteria requires a user auth token with a scope of `spark:telephony_c
 - `phoneNumbers` (array): The list of phone numbers that will checked against incoming calls for a match. Value for this attribute is required if `callsFrom` is `SELECT_PHONE_NUMBERS`.
 - `ringEnabled` (boolean): When set to `true` simultaneous ringing is enabled for calls that meet this criteria. Criteria with `ringEnabled` set to `false` take priority.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "scheduleName": "Business Vacation YearEnd",
@@ -54,8 +59,18 @@ Modifying criteria requires a user auth token with a scope of `spark:telephony_c
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/people/me/settings/simultaneousRing/criteria/<id>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -71,6 +86,9 @@ Modifying criteria requires a user auth token with a scope of `spark:telephony_c
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

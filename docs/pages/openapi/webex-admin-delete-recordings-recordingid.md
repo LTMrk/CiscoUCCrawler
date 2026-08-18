@@ -2,10 +2,15 @@
 doc_id: webex-admin-delete-recordings-recordingid
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: DELETE
 path: /recordings/{recordingId}
+operation_id: deleteRecordingByRecordId
+tags: Recordings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.156913+00:00
+retrieved_at: 2026-08-18T23:45:42.575903+00:00
 ---
 
 # DELETE /recordings/{recordingId}
@@ -25,14 +30,14 @@ Only recordings of meetings hosted by the authenticated user can be deleted.
 The `temporaryDirectDownloadLinks` of a recording which are retrieved by the [Get Recording Details](/docs/api/v1/recordings/get-recording-details) API are still available to Compliance Officers even if the recording has been deleted.
 
 ## Parámetros
-- `recordingId` [path] (string) **(requerido)**: A unique identifier for the recording.
+- `recordingId` [path] (string) (**requerido**): A unique identifier for the recording.
 - `hostEmail` [query] (string): Email address for the meeting host. Only used if the user or application calling the API has the required [admin-level meeting scopes](/docs/meetings#adminorganization-level-authentication-and-scopes). If set, the admin may specify the email of a user in a site they manage and the API will delete a recording of that user.
 
 ## Cuerpo de la petición (application/json)
 - `reason` (string): Reason for deleting a recording. Only required when a Compliance Officer is operating on another user's recording.
 - `comment` (string): Compliance Officer's explanation for deleting a recording. The comment can be a maximum of 255 characters long.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "reason": "audit",
@@ -40,8 +45,18 @@ The `temporaryDirectDownloadLinks` of a recording which are retrieved by the [Ge
 }
 ```
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X DELETE '/recordings/<recordingId>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -57,6 +72,9 @@ The `temporaryDirectDownloadLinks` of a recording which are retrieved by the [Ge
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

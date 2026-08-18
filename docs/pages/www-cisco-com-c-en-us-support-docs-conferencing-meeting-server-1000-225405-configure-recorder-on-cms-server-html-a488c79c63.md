@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-1000-225405-configure-recorder-on-cms-server-html-a488c79c63
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/225405-configure-recorder-on-cms-server.html
-retrieved_at: 2026-08-16T14:08:24.943680+00:00
+retrieved_at: 2026-08-18T23:48:13.177227+00:00
 ---
 
 Configure Recorder on CMS Server
 
 # Configure Recorder on CMS Server
-
-Log in to Save Content
 
 ### Download Options
 

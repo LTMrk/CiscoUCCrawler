@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-get-telephony-config-workspaces-workspaceid-selectivereject-criteria-id
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: GET
 path: /telephony/config/workspaces/{workspaceId}/selectiveReject/criteria/{id}
+operation_id: Retrieve Selective Reject Criteria for a Workspace
+tags: Workspace Call Settings (2/2)
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.673078+00:00
+retrieved_at: 2026-08-18T23:45:43.415366+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/selectiveReject/criteria/{id}
@@ -28,21 +33,47 @@ This API requires a full, read-only or location administrator auth token with a 
 **NOTE**: This API is only available for professional licensed workspaces.
 
 ## Parámetros
-- `workspaceId` [path] (string) **(requerido)**: Unique identifier for the workspace.
-- `id` [path] (string) **(requerido)**: Unique identifier for the criteria.
+- `workspaceId` [path] (string) (**requerido**): Unique identifier for the workspace.
+- `id` [path] (string) (**requerido**): Unique identifier for the criteria.
 - `orgId` [query] (string): ID of the organization within which the workspace resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access the API.
 
-## Respuestas
-- **200**: OK
-  - `id` (string) **(requerido)**: Unique identifier for criteria.
-  - `scheduleName` (string): Name of the location's schedule which determines when the selective reject is in effect.
-  - `scheduleType` (string): * `businessHours` - The Schedule type that specifies the business or working hours during the day.  * `holidays` - The Schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
-  - `scheduleLevel` (string): * `GROUP` - Indicates the schedule level that specifies that criteria is of Group level. Valores: GROUP.
-  - `callsFrom` (string) **(requerido)**: * `ANY_PHONE_NUMBER` - The Schedule applies to any phone number.  * `SELECT_PHONE_NUMBERS` - The Schedule applies to select phone number defined in the `phoneNumbers` property.  * `FORWARDED` - The Schedule applies to the forwarded calls only. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, FORWARDED.
-  - `anonymousCallersEnabled` (boolean): When `true`, enables selective reject to calls from anonymous callers.
-  - `unavailableCallersEnabled` (boolean): When `true`, enables selective reject to calls if the callers are unavailable.
-  - `phoneNumbers` (array): the list of phone numbers that will checked against incoming calls for a match.
-  - `rejectEnabled` (boolean): Indicates whether the calls, that fit within these parameters, will be rejected (if rejectEnabled = `true`) or not (if rejectEnabled = `false`).
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/workspaces/<workspaceId>/selectiveReject/criteria/<id>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string) (**requerido**): Unique identifier for criteria.
+- `scheduleName` (string): Name of the location's schedule which determines when the selective reject is in effect.
+- `scheduleType` (string): * `businessHours` - The Schedule type that specifies the business or working hours during the day.  * `holidays` - The Schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
+- `scheduleLevel` (string): * `GROUP` - Indicates the schedule level that specifies that criteria is of Group level. Valores: GROUP.
+- `callsFrom` (string) (**requerido**): * `ANY_PHONE_NUMBER` - The Schedule applies to any phone number.  * `SELECT_PHONE_NUMBERS` - The Schedule applies to select phone number defined in the `phoneNumbers` property.  * `FORWARDED` - The Schedule applies to the forwarded calls only. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, FORWARDED.
+- `anonymousCallersEnabled` (boolean): When `true`, enables selective reject to calls from anonymous callers.
+- `unavailableCallersEnabled` (boolean): When `true`, enables selective reject to calls if the callers are unavailable.
+- `phoneNumbers` (array): the list of phone numbers that will checked against incoming calls for a match.
+- `rejectEnabled` (boolean): Indicates whether the calls, that fit within these parameters, will be rejected (if rejectEnabled = `true`) or not (if rejectEnabled = `false`).
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL0NSSVRFUklBLzg2NTAxZDFlLTg1MWMtNDgwYi1hZmE2LTA5MTU4NzQ3NzdmZQ",
+  "scheduleName": "Business Vacation",
+  "scheduleType": "holidays",
+  "scheduleLevel": "GROUP",
+  "callsFrom": "ANY_PHONE_NUMBER",
+  "anonymousCallersEnabled": true,
+  "unavailableCallersEnabled": true,
+  "phoneNumbers": [
+    "+19075552859",
+    "+19186663950"
+  ],
+  "rejectEnabled": true
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -58,6 +89,9 @@ This API requires a full, read-only or location administrator auth token with a 
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

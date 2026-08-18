@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-put-telephony-config-people-me-settings-executive-alert
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: PUT
 path: /telephony/config/people/me/settings/executive/alert
+operation_id: updateMyExecutiveAlertSettings
+tags: Beta Call Settings For Me With Userhub Phase1
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.568254+00:00
+retrieved_at: 2026-08-18T23:45:43.189564+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/executive/alert
@@ -37,7 +42,7 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 - `clidPhoneNumberMode` (string): Controls which Caller ID phone number is displayed on assistant's phone.  * `EXECUTIVE` - Display executive's phone number.  * `ORIGINATOR` - Display caller's phone number.  * `CUSTOM` - Display a custom phone number. Valores: EXECUTIVE, ORIGINATOR, CUSTOM.
 - `customCLIDPhoneNumber` (string): Custom caller ID phone number to display on assistant's phone when `clidPhoneNumberMode` is set to `CUSTOM`.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "alertingMode": "SEQUENTIAL",
@@ -53,8 +58,18 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 }
 ```
 
-## Respuestas
-- **204**: User executive alert settings modified successfully.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/telephony/config/people/me/settings/executive/alert' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**204**: User executive alert settings modified successfully.
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -62,6 +77,9 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 - **429**: Too Many Requests: Too many requests have been sent in a given amount of time and the request has been rate limited. A Retry-After header should be present that specifies how many seconds you need to wait before a successful request can be made.
 - **500**: Internal Server Error: Something went wrong on the server. If the issue persists, feel free to contact the [Webex Developer Support team](/explore/support).
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

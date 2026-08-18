@@ -2,10 +2,15 @@
 doc_id: webex-admin-get-workspacedurationmetrics
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: GET
 path: /workspaceDurationMetrics
+operation_id: Workspace Duration Metrics
+tags: Workspace Metrics
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.165450+00:00
+retrieved_at: 2026-08-18T23:45:42.594092+00:00
 ---
 
 # GET /workspaceDurationMetrics
@@ -31,24 +36,51 @@ but the bucket would only aggregate data timestamped after `10:34:56`.
 time span is 30 days.
 
 ## Parámetros
-- `workspaceId` [query] (string) **(requerido)**: ID of the workspace to get metrics for.
-- `aggregation` [query] (string): Unit of time over which to aggregate measurements.
-- `measurement` [query] (string): The measurement to return duration for.
+- `workspaceId` [query] (string) (**requerido**): ID of the workspace to get metrics for.
+- `aggregation` [query] (string): Unit of time over which to aggregate measurements. Valores: hourly, daily. Por defecto: hourly.
+- `measurement` [query] (string): The measurement to return duration for. Valores: timeUsed, timeBooked. Por defecto: timeUsed.
 - `from` [query] (string): Include data points after a specific date and time (ISO 8601 timestamp).
 - `to` [query] (string): Include data points before a specific date and time (ISO 8601 timestamp).
 
-## Respuestas
-- **200**: OK
-  - `workspaceId` (string) **(requerido)**:
-  - `aggregation` (string):  Valores: hourly, daily.
-  - `measurement` (string):  Valores: timeUsed, timeBooked.
-  - `from` (string):
-  - `to` (string):
-  - `unit` (string): The time unit.
-  - `items` (array):
-    - `start` (string): Timestamp indicating the start of the aggregation bucket (ISO 8601).
-    - `end` (string): Timestamp indicating the end of the aggregation bucket (ISO 8601).
-    - `duration` (number): The time duration (in a given state) in the bucket.
+## Ejemplo de invocación
+```bash
+curl -X GET '/workspaceDurationMetrics?workspaceId=<workspaceId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `workspaceId` (string) (**requerido**):
+- `aggregation` (string):  Valores: hourly, daily.
+- `measurement` (string):  Valores: timeUsed, timeBooked.
+- `from` (string):
+- `to` (string):
+- `unit` (string): The time unit.
+- `items` (array):
+  - `start` (string): Timestamp indicating the start of the aggregation bucket (ISO 8601).
+  - `end` (string): Timestamp indicating the end of the aggregation bucket (ISO 8601).
+  - `duration` (number): The time duration (in a given state) in the bucket.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "workspaceId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi85NmFiYzJhYS0zZGNjLTExZTUtYTE1Mi1mZTM0ODE5Y2RjOWE",
+  "aggregation": "hourly",
+  "measurement": "timeBooked",
+  "from": "2020-10-21T13:33:37.789Z",
+  "to": "2020-10-31T16:00:00.532Z",
+  "unit": "minutes",
+  "items": [
+    {
+      "start": "2021-10-21T12:00:00Z",
+      "end": "2021-10-21T13:00:00Z",
+      "duration": 13
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -64,6 +96,9 @@ time span is 30 days.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

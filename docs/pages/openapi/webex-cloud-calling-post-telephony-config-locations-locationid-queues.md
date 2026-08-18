@@ -2,10 +2,15 @@
 doc_id: webex-cloud-calling-post-telephony-config-locations-locationid-queues
 source: webex-openapi-specs/public-spec/webex-cloud-calling.json
 api: Webex Cloud Calling
+api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/queues
+operation_id: createCallQueue
+tags: Features:  Call Queue
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.602517+00:00
+retrieved_at: 2026-08-18T23:45:43.297467+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/queues
@@ -15,7 +20,7 @@ retrieved_at: 2026-08-16T11:30:32.602517+00:00
 **operationId:** `createCallQueue`
 
 ## Resumen
-Create a Call Queue with Customer Assist
+Create Call Queue or Customer Assist Queue
 
 ## Descripción
 Create new Call Queues for the given location.
@@ -28,22 +33,22 @@ which can be dialed internally to reach the users assigned to the call queue.
 Creating a call queue requires a full administrator or location administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
-- `locationId` [path] (string) **(requerido)**: The location ID where the call queue needs to be created.
+- `locationId` [path] (string) (**requerido**): The location ID where the call queue needs to be created.
 - `orgId` [query] (string): The organization ID where the call queue needs to be created.
 - `hasCxEssentials` [query] (boolean): Creates a Customer Assist call queue, when `true`. This requires Customer Assist licensed agents.
 
 ## Cuerpo de la petición (application/json)
-- `name` (string) **(requerido)**: Unique name for the call queue.
+- `name` (string) (**requerido**): Unique name for the call queue.
 - `phoneNumber` (string): Primary phone number of the call queue. Either a `phoneNumber` or `extension` is mandatory.
 - `extension` (string): Primary phone extension of the call queue. Either a `phoneNumber` or extension is mandatory.
 - `languageCode` (string): Language code.
 - `firstName` (string): First name to be shown when calls are forwarded out of this call queue. Defaults to ".". This field has been deprecated. Please use `directLineCallerIdName` and `dialByName` instead.
 - `lastName` (string): Last name to be shown when calls are forwarded out of this call queue. Defaults to `phoneNumber` if set, otherwise defaults to call group name. This field has been deprecated. Please use `directLineCallerIdName` and `dialByName` instead.
 - `timeZone` (string): Time zone for the call queue.
-- `callPolicies` (object) **(requerido)**:
-  - `routingType` (string) **(requerido)**: * `PRIORITY_BASED` - Default routing type which directly uses the routing policy to dispatch calls to the agents.  * `SKILL_BASED` - This option uses skill level as the criteria to route calls to agents. When there is more than one agent with the same skill level, the selected `policy` helps dispatch the calls to the agents. Valores: PRIORITY_BASED, SKILL_BASED.
-  - `policy` (string) **(requerido)**: * `CIRCULAR` - This option cycles through all agents after the last agent that took a call. It sends calls to the next available agent.  * `REGULAR` - Send the call through the queue of agents in order, starting from the top each time.  * `SIMULTANEOUS` - Sends calls to all agents at once  * `UNIFORM` - Sends calls to the agent that has been idle the longest. If they don't answer, proceed to the next agent who has been idle the second longest, and so on until the call is answered.  * `WEIGHTED` - Sends call to idle agents based on percentages you assign to each agent (up to 100%). Valores: CIRCULAR, REGULAR, SIMULTANEOUS, UNIFORM, WEIGHTED.
-  - `callBounce` (object) **(requerido)**: Settings for when the call into the hunt group is not answered.
+- `callPolicies` (object) (**requerido**):
+  - `routingType` (string) (**requerido**): * `PRIORITY_BASED` - Default routing type which directly uses the routing policy to dispatch calls to the agents.  * `SKILL_BASED` - This option uses skill level as the criteria to route calls to agents. When there is more than one agent with the same skill level, the selected `policy` helps dispatch the calls to the agents. Valores: PRIORITY_BASED, SKILL_BASED.
+  - `policy` (string) (**requerido**): * `CIRCULAR` - This option cycles through all agents after the last agent that took a call. It sends calls to the next available agent.  * `REGULAR` - Send the call through the queue of agents in order, starting from the top each time.  * `SIMULTANEOUS` - Sends calls to all agents at once  * `UNIFORM` - Sends calls to the agent that has been idle the longest. If they don't answer, proceed to the next agent who has been idle the second longest, and so on until the call is answered.  * `WEIGHTED` - Sends call to idle agents based on percentages you assign to each agent (up to 100%). Valores: CIRCULAR, REGULAR, SIMULTANEOUS, UNIFORM, WEIGHTED.
+  - `callBounce` (object) (**requerido**): Settings for when the call into the hunt group is not answered.
     - `callBounceEnabled` (boolean): If enabled, bounce calls after the set number of rings.
     - `callBounceMaxRings` (number): Number of rings after which to bounce call, if `callBounce` is enabled.
     - `agentUnavailableEnabled` (boolean): Bounce if agent becomes unavailable.
@@ -51,21 +56,21 @@ Creating a call queue requires a full administrator or location administrator au
     - `alertAgentMaxSeconds` (number): Number of second after which to alert agent if `alertAgentEnabled`.
     - `callBounceOnHoldEnabled` (boolean): Bounce if call on hold more than `callBounceMaxSeconds`.
     - `callBounceOnHoldMaxSeconds` (number): Number of second after which to bounce if `callBounceEnabled`.
-  - `distinctiveRing` (object) **(requerido)**: Whether or not the call queue has the `distinctiveRing` option enabled.
-    - `enabled` (boolean) **(requerido)**: Whether or not the `distinctiveRing` is enabled.
+  - `distinctiveRing` (object) (**requerido**): Whether or not the call queue has the `distinctiveRing` option enabled.
+    - `enabled` (boolean) (**requerido**): Whether or not the `distinctiveRing` is enabled.
     - `ringPattern` (string): * `NORMAL` - Normal incoming ring pattern.  * `LONG_LONG` - Incoming ring pattern of two long rings.  * `SHORT_SHORT_LONG` - Incoming ring pattern of two short rings, followed by a short ring.  * `SHORT_LONG_SHORT` - Incoming ring pattern of a short ring, followed by a long ring, followed by a short ring. Valores: NORMAL, LONG_LONG, SHORT_SHORT_LONG, SHORT_LONG_SHORT.
-- `queueSettings` (object) **(requerido)**:
-  - `queueSize` (number) **(requerido)**: The maximum number of calls for this call queue. Once this number is reached, the `overflow` settings are triggered.
+- `queueSettings` (object) (**requerido**):
+  - `queueSize` (number) (**requerido**): The maximum number of calls for this call queue. Once this number is reached, the `overflow` settings are triggered.
   - `callOfferToneEnabled` (boolean): Play ringing tone to callers when their call is set to an available agent.
   - `resetCallStatisticsEnabled` (boolean): Reset caller statistics upon queue entry.
-  - `overflow` (object) **(requerido)**: Settings for incoming calls exceed queueSize.
-    - `action` (string) **(requerido)**: Indicates how to handle new calls when the queue is full.  * `PERFORM_BUSY_TREATMENT` - The caller hears a fast-busy tone.  * `PLAY_RINGING_UNTIL_CALLER_HANGS_UP` - The caller hears ringing until they disconnect.  * `TRANSFER_TO_PHONE_NUMBER` - Number where you want to transfer overflow calls. Valores: PERFORM_BUSY_TREATMENT, PLAY_RINGING_UNTIL_CALLER_HANGS_UP, TRANSFER_TO_PHONE_NUMBER.
+  - `overflow` (object) (**requerido**): Settings for incoming calls exceed queueSize.
+    - `action` (string) (**requerido**): Indicates how to handle new calls when the queue is full.  * `PERFORM_BUSY_TREATMENT` - The caller hears a fast-busy tone.  * `PLAY_RINGING_UNTIL_CALLER_HANGS_UP` - The caller hears ringing until they disconnect.  * `TRANSFER_TO_PHONE_NUMBER` - Number where you want to transfer overflow calls. Valores: PERFORM_BUSY_TREATMENT, PLAY_RINGING_UNTIL_CALLER_HANGS_UP, TRANSFER_TO_PHONE_NUMBER.
     - `sendToVoicemail` (boolean): When `true`, forwards all calls to a voicemail service of an internal number. This option is ignored when an external `transferNumber` is entered.
     - `transferNumber` (string): Destination number for overflow calls when `action` is set to `TRANSFER_TO_PHONE_NUMBER`.
     - `overflowAfterWaitEnabled` (boolean): After calls wait for the configured number of seconds and no agent is available, the overflow treatment is triggered.
     - `overflowAfterWaitTime` (number): Number of seconds to wait before the overflow treatment is triggered when no agent is available. The minimum value 0, The maximum value is 7200 seconds.
     - `playOverflowGreetingEnabled` (boolean): Indicate overflow audio to be played, otherwise, callers will hear the hold music until the call is answered by a user.
-    - `greeting` (string) **(requerido)**: Indicates how to handle new calls when the queue is full.  * `CUSTOM` - Play the custom announcement specified by the `fileName` field.  * `DEFAULT` - Play default announcement. Valores: CUSTOM, DEFAULT.
+    - `greeting` (string) (**requerido**): Indicates how to handle new calls when the queue is full.  * `CUSTOM` - Play the custom announcement specified by the `fileName` field.  * `DEFAULT` - Play default announcement. Valores: CUSTOM, DEFAULT.
     - `audioAnnouncementFiles` (array): Array of announcement files to be played as `overflow` greetings. These files are from the list of announcement files associated with this call queue. For `CUSTOM` announcement, a minimum of 1 file is mandatory, and the maximum is 4.
       - `id` (string): Unique identifier of the Announcement file.
       - `name` (string): Name of the announcement file. `name`, `mediaFileType`, `level` are mandatory if `id` is not provided for uploading an announcement.
@@ -74,7 +79,7 @@ Creating a call queue requires a full administrator or location administrator au
   - `welcomeMessage` (object): Play a message when callers first reach the queue. For example, “Thank you for calling. An agent will be with you shortly.” It can be set as mandatory. If the mandatory option is not selected and a caller reaches the call queue while there is an available agent, the caller will not hear this announcement and is transferred to an agent. The welcome message feature is enabled by default.
     - `enabled` (boolean): If enabled play entrance message. The default value is `true`.
     - `alwaysEnabled` (boolean): Mandatory entrance message. The default value is `false`.
-    - `greeting` (string) **(requerido)**: Indicates how to handle new calls when the queue is full.  * `CUSTOM` - Play the custom announcement specified by the `fileName` field.  * `DEFAULT` - Play default announcement. Valores: CUSTOM, DEFAULT.
+    - `greeting` (string) (**requerido**): Indicates how to handle new calls when the queue is full.  * `CUSTOM` - Play the custom announcement specified by the `fileName` field.  * `DEFAULT` - Play default announcement. Valores: CUSTOM, DEFAULT.
     - `audioAnnouncementFiles` (array): Array of announcement files to be played as `welcomeMessage` greetings. These files are from the list of announcement files associated with this call queue. For `CUSTOM` announcement, a minimum of 1 file is mandatory, and the maximum is 4.
       - `id` (string): Unique identifier of the Announcement file.
       - `name` (string): Name of the announcement file. `name`, `mediaFileType`, `level` are mandatory if `id` is not provided for uploading an announcement.
@@ -82,7 +87,7 @@ Creating a call queue requires a full administrator or location administrator au
       - `level` (string): The level at which this announcement exists. Valores: LOCATION, ORGANIZATION, ENTITY.
   - `waitMessage` (object): Notify the caller with either their estimated wait time or position in the queue. If this option is enabled, it plays after the welcome message and before the comfort message. By default, it is not enabled.
     - `enabled` (boolean): If enabled play Wait Message.
-    - `waitMode` (string) **(requerido)**: Estimated wait message operating mode. Supported values `TIME` and `POSITION`.  * `TIME` - Announce the waiting time.  * `POSITION` - Announce queue position. Valores: TIME, POSITION.
+    - `waitMode` (string) (**requerido**): Estimated wait message operating mode. Supported values `TIME` and `POSITION`.  * `TIME` - Announce the waiting time.  * `POSITION` - Announce queue position. Valores: TIME, POSITION.
     - `handlingTime` (number): The number of minutes for which the estimated wait is played. The minimum time is 10 minutes. The maximum time is 100 minutes.
     - `defaultHandlingTime` (number): The default number of call handling minutes. The minimum time is 1 minutes, The maximum time is 100 minutes.
     - `queuePosition` (number): The number of the position for which the estimated wait is played. The minimum positions are 10, The maximum positions are 100.
@@ -93,69 +98,8 @@ Creating a call queue requires a full administrator or location administrator au
     - `internationalCallbackEnabled` (boolean): The international numbers for callback is enabled/disabled. The default value is `false`.
     - `playUpdatedEstimatedWaitMessage` (boolean): Play updated estimated wait message.
   - `comfortMessage` (object): Play a message after the welcome message and before hold music. This is typically a `CUSTOM` announcement that plays information, such as current promotions or information about products and services.
-    - `enabled` (boolean): If enabled play periodic comfort message.
-    - `timeBetweenMessages` (number): The interval in seconds between each repetition of the comfort message played to queued users. The minimum time is 10 seconds.The maximum time is 600 seconds.
-    - `greeting` (string) **(requerido)**: Indicates how to handle new calls when the queue is full.  * `CUSTOM` - Play the custom announcement specified by the `fileName` field.  * `DEFAULT` - Play default announcement. Valores: CUSTOM, DEFAULT.
-    - `audioAnnouncementFiles` (array): Array of announcement files to be played as `comfortMessage` greetings. These files are from the list of announcement files associated with this call queue. For `CUSTOM` announcement, a minimum of 1 file is mandatory, and the maximum is 4.
-      - `id` (string): Unique identifier of the Announcement file.
-      - `name` (string): Name of the announcement file. `name`, `mediaFileType`, `level` are mandatory if `id` is not provided for uploading an announcement.
-      - `mediaFileType` (string): Media file type of announcement file.
-      - `level` (string): The level at which this announcement exists. Valores: LOCATION, ORGANIZATION, ENTITY.
-  - `comfortMessageBypass` (object): Play a shorter comfort message instead of the usual Comfort or Music On Hold announcement to all the calls that should be answered quickly. This feature prevents a caller from hearing a short portion of the standard comfort message that abruptly ends when they are connected to an agent.
-    - `enabled` (boolean): If enabled play comfort bypass message.
-    - `callWaitingAgeThreshold` (number): The interval in seconds between each repetition of the comfort bypass message played to queued users. The minimum time is 1 seconds. The maximum time is 120 seconds.
-    - `greeting` (string) **(requerido)**: Indicates how to handle new calls when the queue is full.  * `CUSTOM` - Play the custom announcement specified by the `fileName` field.  * `DEFAULT` - Play default announcement. Valores: CUSTOM, DEFAULT.
-    - `audioAnnouncementFiles` (array): Array of announcement files to be played as `comfortMessageBypass` greetings. These files are from the list of announcements files associated with this call queue. For `CUSTOM` announcement, a minimum of 1 file is mandatory, and the maximum is 4.
-      - `id` (string): Unique identifier of the Announcement file.
-      - `name` (string): Name of the announcement file. `name`, `mediaFileType`, `level` are mandatory if `id` is not provided for uploading an announcement.
-      - `mediaFileType` (string): Media file type of announcement file.
-      - `level` (string): The level at which this announcement exists. Valores: LOCATION, ORGANIZATION, ENTITY.
-  - `mohMessage` (object): Play music after the comforting message in a repetitive loop.
-    - `normalSource` (object) **(requerido)**:
-      - `enabled` (boolean): Enable media on hold for queued calls.
-      - `greeting` (string) **(requerido)**: Indicates how to handle new calls when the queue is full.  * `CUSTOM` - Play the custom announcement specified by the `fileName` field.  * `DEFAULT` - Play default announcement. Valores: CUSTOM, DEFAULT.
-      - `audioAnnouncementFiles` (array): Array of announcement files to be played as `mohMessage` greetings. These files are from the list of announcement files associated with this call queue. For `CUSTOM` announcement, a minimum of 1 file is mandatory, and the maximum is 4.
-        - `id` (string): Unique identifier of the Announcement file.
-        - `name` (string): Name of the announcement file. `name`, `mediaFileType`, `level` are mandatory if `id` is not provided for uploading an announcement.
-        - `mediaFileType` (string): Media file type of announcement file.
-        - `level` (string): The level at which this announcement exists. Valores: LOCATION, ORGANIZATION, ENTITY.
-      - `audioPlaylistId` (string): Identifier of the playlist used for this MOH source.
-    - `alternateSource` (object) **(requerido)**:
-      - `enabled` (boolean): Enable media on hold for queued calls.
-      - `greeting` (string) **(requerido)**: Indicates how to handle new calls when the queue is full.  * `CUSTOM` - Play the custom announcement specified by the `fileName` field.  * `DEFAULT` - Play default announcement. Valores: CUSTOM, DEFAULT.
-      - `audioAnnouncementFiles` (array): Array of announcement files to be played as `mohMessage` greetings. These files are from the list of announcement files associated with this call queue. For `CUSTOM` announcement, a minimum of 1 file is mandatory, and the maximum is 4.
-        - `id` (string): Unique identifier of the Announcement file.
-        - `name` (string): Name of the announcement file. `name`, `mediaFileType`, `level` are mandatory if `id` is not provided for uploading an announcement.
-        - `mediaFileType` (string): Media file type of announcement file.
-        - `level` (string): The level at which this announcement exists. Valores: LOCATION, ORGANIZATION, ENTITY.
-      - `audioPlaylistId` (string): Identifier of the playlist used for this MOH source.
-  - `whisperMessage` (object): Play a message to the agent immediately before the incoming call is connected. The message typically announces the identity of the call queue from which the call is coming.
-    - `enabled` (boolean): If enabled play the Whisper Message.
-    - `greeting` (string) **(requerido)**: Indicates how to handle new calls when the queue is full.  * `CUSTOM` - Play the custom announcement specified by the `fileName` field.  * `DEFAULT` - Play default announcement. Valores: CUSTOM, DEFAULT.
-    - `audioAnnouncementFiles` (array): Array of announcement files to be played as `whisperMessage` greetings. These files are from the list of announcement files associated with this call queue. For `CUSTOM` announcement, a minimum of 1 file is mandatory, and the maximum is 4.
-      - `id` (string): Unique identifier of the Announcement file.
-      - `name` (string): Name of the announcement file. `name`, `mediaFileType`, `level` are mandatory if `id` is not provided for uploading an announcement.
-      - `mediaFileType` (string): Media file type of announcement file.
-      - `level` (string): The level at which this announcement exists. Valores: LOCATION, ORGANIZATION, ENTITY.
-  - `useEnterprisePlayToneToAgentSettingsEnabled` (boolean): When `true`, the call queue uses the organization-level play tone settings and ignores the queue-level `playToneToAgent*` values. When `false`, the queue-level `playToneToAgent*` values are used.
-  - `playToneToAgentForBargeInEnabled` (boolean): Queue-specific setting that plays a tone to agents when a supervisor joins an active call using barge in. Applies only when `useEnterprisePlayToneToAgentSettingsEnabled` is `false`.
-  - `playToneToAgentForSilentMonitoringEnabled` (boolean): Queue-specific setting that plays a tone to agents when a supervisor monitors their active call without joining. Applies only when `useEnterprisePlayToneToAgentSettingsEnabled` is `false`.
-  - `playToneToAgentForSupervisorCoachingEnabled` (boolean): Queue-specific setting that plays a tone to agents when a supervisor coaches an agent during an active call. Applies only when `useEnterprisePlayToneToAgentSettingsEnabled` is `false`.
-- `agents` (array) **(requerido)**: People, workspaces and virtual lines that are eligible to receive calls.
-  - `id` (string) **(requerido)**: ID of person, workspace or virtual line.
-  - `weight` (string): Weight of person, workspace or virtual line. Only applied when call policy is `WEIGHTED`.
-  - `skillLevel` (number): Skill level of person, workspace or virtual line. Only applied when call routing type is `SKILL_BASED`.
-- `callingLineIdPolicy` (string): Which type of Calling Line ID Policy Selected for Call Queue.  * `DIRECT_LINE` - Calling Line ID Policy will show the caller's direct line number.  * `LOCATION_NUMBER` - Calling Line ID Policy will show the main number for the location.  * `CUSTOM` - Calling Line ID Policy will show the value from the `callingLineIdPhoneNumber` field. Valores: DIRECT_LINE, LOCATION_NUMBER, CUSTOM.
-- `callingLineIdPhoneNumber` (string): Calling line ID Phone number which will be shown if CUSTOM is selected.
-- `allowAgentJoinEnabled` (boolean): Whether or not to allow agents to join or unjoin a queue.
-- `phoneNumberForOutgoingCallsEnabled` (boolean): When `true`, indicates that the agent's configuration allows them to use the queue's Caller ID for outgoing calls.
-- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this workspace.
-  - `selection` (string): * `DISPLAY_NAME` - When this option is selected, `displayName` is to be shown for this workspace.  * `CUSTOM_NAME` - When this option is selected, `customName` is to be shown for this workspace. Valores: CUSTOM_NAME, DISPLAY_NAME.
-  - `customName` (string): The custom direct line caller ID name. Required if `selection` is set to `CUSTOM_NAME`.
-- `dialByName` (string): The name to be used for dial by name functions. Characters of `%`,  `+`, `\`, `"` and Unicode characters are not allowed.
-- `digitalInboxEnabled` (boolean): Digital Inbox enabled for Queue. This field is applicable for queue which has `hasCxEssentials=true`.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "name": "CallQueue-1",
@@ -207,116 +151,30 @@ Creating a call queue requires a full administrator or location administrator au
       "alwaysEnabled": false,
       "greeting": "DEFAULT",
       "audioAnnouncementFiles": [
-        {
-          "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC9jZWRkODcwYS1lMTkzLTQxNmQtYmM3OS1mNzkyYmUyMzlhOGI",
-          "fileName": "announcement.wav",
-          "mediaFileType": "WAV",
-          "level": "LOCATION"
-        }
-      ]
-    },
-    "waitMessage": {
-      "enabled": true,
-      "waitMode": "POSITION",
-      "handlingTime": 100,
-      "defaultHandlingTime": 100,
-      "queuePosition": 100,
-      "highVolumeMessageEnabled": false,
-      "estimatedWaitingTime": 600,
-      "playUpdatedEstimatedWaitMessage": true
-    },
-    "comfortMessage": {
-      "enabled": true,
-      "timeBetweenMessages": 10,
-      "greeting": "DEFAULT",
-      "audioAnnouncementFiles": [
-        {
-          "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC9jZWRkODcwYS1lMTkzLTQxNmQtYmM3OS1mNzkyYmUyMzlhOGI",
-          "fileName": "announcement.wav",
-          "mediaFileType": "WAV",
-          "level": "LOCATION"
-        }
-      ]
-    },
-    "mohMessage": {
-      "normalSource": {
-        "enabled": true,
-        "greeting": "DEFAULT",
-        "audioAnnouncementFiles": [
-          {
-            "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC9jZWRkODcwYS1lMTkzLTQxNmQtYmM3OS1mNzkyYmUyMzlhOGI",
-            "fileName": "announcement.wav",
-            "mediaFileType": "WAV",
-            "level": "LOCATION"
-          }
-        ]
-      },
-      "alternateSource": {
-        "enabled": true,
-        "greeting": "DEFAULT",
-        "audioAnnouncementFiles": [
-          {
-            "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC9jZWRkODcwYS1lMTkzLTQxNmQtYmM3OS1mNzkyYmUyMzlhOGI",
-            "fileName": "announcement.wav",
-            "mediaFileType": "WAV",
-            "level": "LOCATION"
-          }
-        ]
-      }
-    },
-    "comfortMessageBypass": {
-      "enabled": true,
-      "callWaitingAgeThreshold": 30,
-      "greeting": "CUSTOM",
-      "audioAnnouncementFiles": [
-        {
-          "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC9jZWRkODcwYS1lMTkzLTQxNmQtYmM3OS1mNzkyYmUyMzlhOGI",
-          "fileName": "announcement.wav",
-          "mediaFileType": "WAV",
-          "level": "LOCATION"
-        }
-      ]
-    },
-    "whisperMessage": {
-      "enabled": true,
-      "greeting": "DEFAULT",
-      "audioAnnouncementFiles": [
-        {
-          "id": "Y2lzY29zcGFyazovL3VzL0FOTk9VTkNFTUVOVC9jZWRkODcwYS1lMTkzLTQxNmQtYmM3OS1mNzkyYmUyMzlhOGI",
-          "fileName": "announcement.wav",
-          "mediaFileType": "WAV",
-          "level": "LOCATION"
-        }
-      ]
-    }
-  },
-  "agents": [
-    {
-      "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS83MGU3MjYzMC1mZjlmLTExZWItODU5YS0xZjhiYjRjNzc1MWQ",
-      "skillLevel": 7
-    },
-    {
-      "id": "Y2lzY29zcGFyazovL3VzL1BMQUNFLzgzYjQ0OTIyLWZlOWYtMTFlYi1hNGI4LTMzNjI3YmVkNjdiNQ",
-      "skillLevel": 1
-    }
-  ],
-  "enabled": true,
-  "phoneNumberForOutgoingCallsEnabled": true,
-  "callingLineIdPolicy": "DIRECT_LINE",
-  "callingLineIdPhoneNumber": "+12072342368",
-  "allowAgentJoinEnabled": true,
-  "directLineCallerIdName": {
-    "selection": "CUSTOM_NAME",
-    "customName": "Hakim Smith"
-  },
-  "dialByName": "Hakim Smith",
-  "digitalInboxEnabled": true
+       
+  ... (truncado)
+```
+
+## Ejemplo de invocación
+```bash
+curl -X POST '/telephony/config/locations/<locationId>/queues' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"name": "<name>", "callPolicies": {}, "queueSettings": {}, "agents": []}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string) (**requerido**): ID of the newly created call queue.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL0hVTlRfR1JPVVAvYUhaaFpUTjJNRzh5YjBBMk5EazBNVEk1Tnk1cGJuUXhNQzVpWTJ4a0xuZGxZbVY0TG1OdmJRPT0"
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `id` (string) **(requerido)**: ID of the newly created call queue.
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -332,6 +190,9 @@ Creating a call queue requires a full administrator or location administrator au
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

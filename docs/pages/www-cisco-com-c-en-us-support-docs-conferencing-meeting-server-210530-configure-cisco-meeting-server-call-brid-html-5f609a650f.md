@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-210530-configure-cisco-meeting-server-call-brid-html-5f609a650f
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/210530-configure-cisco-meeting-server-call-brid.html
-retrieved_at: 2026-08-16T14:32:29.633406+00:00
+retrieved_at: 2026-08-18T23:48:25.394534+00:00
 ---
 
 Configure Meeting Server (CMS) Call Bridge Database Cluster
 
 # Configure Meeting Server (CMS) Call Bridge Database Cluster
-
-Log in to Save Content
 
 ### Download Options
 

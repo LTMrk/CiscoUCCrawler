@@ -2,10 +2,15 @@
 doc_id: webex-meeting-get-videomesh-callredirects
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: GET
 path: /videoMesh/callRedirects
+operation_id: List Cluster Redirect details
+tags: Video Mesh
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.405530+00:00
+retrieved_at: 2026-08-18T23:45:44.502725+00:00
 ---
 
 # GET /videoMesh/callRedirects
@@ -21,18 +26,71 @@ List Cluster Redirect details
 Returns the redirect details of all Video Mesh clusters in an organization.
 
 ## Parámetros
-- `from` [query] (string) **(requerido)**: The starting date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `from` cannot be after `to`.
-- `to` [query] (string) **(requerido)**: The ending date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
-- `orgId` [query] (string) **(requerido)**: The unique Video Mesh organization ID.
+- `from` [query] (string) (**requerido**): The starting date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format. `from` cannot be after `to`.
+- `to` [query] (string) (**requerido**): The ending date and time of the requested data in any [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) compliant format.
+- `orgId` [query] (string) (**requerido**): The unique Video Mesh organization ID.
 
-## Respuestas
-- **200**: OK
-  - `items` (array):
-    - `orgId` (string): The unique ID for the organization.
-    - `from` (string): Start date and time (inclusive) for the Call Redirect details.
-    - `to` (string): End date and time (inclusive) of the Call Redirect details.
-    - `aggregationInterval` (string): The aggregation period of the trend data.
-    - `items` (array): Redirect details for the organization.
+## Ejemplo de invocación
+```bash
+curl -X GET '/videoMesh/callRedirects?from=<from>&to=<to>&orgId=<orgId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array):
+  - `orgId` (string): The unique ID for the organization.
+  - `from` (string): Start date and time (inclusive) for the Call Redirect details.
+  - `to` (string): End date and time (inclusive) of the Call Redirect details.
+  - `aggregationInterval` (string): The aggregation period of the trend data.
+  - `items` (array): Redirect details for the organization.
+    - (cualquiera de:)
+      - `timestamp` (string): Timestamp.
+      - `clusters` (array):
+        - (cualquiera de:)
+      - `timestamp` (string): Timestamp.
+      - `clusters` (array):
+        - (cualquiera de:)
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi8zNmQ4OTRmNy0yYjU3LTQzYzEtYWNlZS1kNDdlNjc3NjE0MTQ",
+      "from": "2022-03-23T10:22:03Z",
+      "to": "2022-03-24T10:22:03Z",
+      "aggregationInterval": "10m",
+      "items": [
+        {
+          "timestamp": "2022-03-23T10:30:00Z",
+          "clusters": [
+            {
+              "clusterId": "Y2lzY29zcGFyazovL3VzL0hZQlJJRF9DTFVTVEVSLzM2ZDg5NGY3LTJiNTctNDNjMS1hY2VlLWQ0N2U2Nzc2MTQxNDo1ODJhMWFlYy03YTMwLTQ2MDItYTI2NS02YTE5NDcwOWZkOTg",
+              "clusterName": "bangalore",
+              "redirectDetails": [
+                {
+                  "redirectReason": "Capacity exceeded",
+                  "redirectCount": 10,
+                  "possibleRemediation": "Video Mesh exceeded its capacity. If this happens frequently, consider adding more nodes to your clusters."
+                },
+                {
+                  "redirectReason": "Connectivity issues",
+                  "redirectCount": 78,
+                  "possibleRemediation": "Connectivity Issues between Video Mesh Node and Cloud. Check your network configuration."
+                }
+              ]
+            },
+            {
+              "clusterId": "Y2lzY29zcGFyazovL3VzL0hZQlJJRF9DTFVTVEVSLzM2ZDg5NGY3LTJiNTctNDNjMS1hY2VlLWQ0N2U2Nzc2MTQxNDo1ODJhMWFlYy03YTMwLTQ2MDItYTI2NS02YTE5NDcwOTEyMzQ=",
+              "clusterName": "sanjose",
+              "redirectDetails": [
+                {
+                  "redirectReason": "Capacity 
+  ... (truncado)
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -48,6 +106,9 @@ Returns the redirect details of all Video Mesh clusters in an organization.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

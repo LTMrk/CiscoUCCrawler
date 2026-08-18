@@ -2,10 +2,15 @@
 doc_id: webex-contact-center-put-datasources-datasourceid
 source: webex-openapi-specs/public-spec/webex-contact-center.json
 api: Webex Contact Center
+api_version: 1.0.0
 method: PUT
 path: /dataSources/{dataSourceId}
+operation_id: Update a Data Source
+tags: Data Sources
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.959610+00:00
+retrieved_at: 2026-08-18T23:45:43.843750+00:00
 ---
 
 # PUT /dataSources/{dataSourceId}
@@ -23,7 +28,7 @@ You can set `status` from `active` to `disabled` only if you provide an `errorMe
 Update tokens before they expire to prevent service interruption.
 
 ## Parámetros
-- `dataSourceId` [path] (string) **(requerido)**: The unique identifier for the data source.
+- `dataSourceId` [path] (string) (**requerido**): The unique identifier for the data source.
 
 ## Cuerpo de la petición (application/json)
 - `audience` (string): The JWT `aud` (audience) claim. This is usually the DAP application's name.
@@ -35,17 +40,42 @@ Update tokens before they expire to prevent service interruption.
 - `tokenLifetimeMinutes` (number): The JWT lifetime, in minutes. Before the token expires, provide a new token or Webex will stop delivering data. Must be 1440 or less.
 - `url` (string): The URL of the endpoint where Webex will send the data.
 
-## Respuestas
-- **200**: OK
-  - `audience` (string): The JWT `aud` (audience) claim. This is usually the DAP application's name.
-  - `errorMessage` (string): The error message shown in Control Hub when `status` is set to `disabled`.
-  - `id` (string): The data source ID.
-  - `nonce` (string): A unique nonce used when encrypting the JWT.
-  - `schemaId` (string): The schema ID used for the data exchange.
-  - `status` (string): The data source status: `active` or `disabled`.
-  - `subject` (string): The JWT `sub` (subject) claim. This usually describes the application's function.
-  - `tokenLifetimeMinutes` (number): The JWT lifetime, in minutes. Before the token expires, provide a new token or Webex will stop delivering data.
-  - `url` (string): The URL of the endpoint where Webex will send the data.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/dataSources/<dataSourceId>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `audience` (string): The JWT `aud` (audience) claim. This is usually the DAP application's name.
+- `errorMessage` (string): The error message shown in Control Hub when `status` is set to `disabled`.
+- `id` (string): The data source ID.
+- `nonce` (string): A unique nonce used when encrypting the JWT.
+- `schemaId` (string): The schema ID used for the data exchange.
+- `status` (string): The data source status: `active` or `disabled`.
+- `subject` (string): The JWT `sub` (subject) claim. This usually describes the application's function.
+- `tokenLifetimeMinutes` (number): The JWT lifetime, in minutes. Before the token expires, provide a new token or Webex will stop delivering data.
+- `url` (string): The URL of the endpoint where Webex will send the data.
+
+### response — respuesta 200
+```json
+{
+  "audience": "MedDocVirtualAgent",
+  "errorMessage": "down for maintenance",
+  "id": "f29bb291-5db0-411b-834a-e64f8dee0658",
+  "nonce": "jeieu38udue83u398",
+  "schemaId": "78efc775-dccb-45ca-9acf-989a4a59f788",
+  "status": "active",
+  "subject": "callAudioData",
+  "tokenLifetimeMinutes": 60,
+  "url": "https://www.byods.com/service1"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -61,6 +91,9 @@ Update tokens before they expire to prevent service interruption.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Contact Center APIs allow developers to deeply integrate, configure, and manage cloud-based contact center solutions. These APIs cover agent lifecycle management, queue and routing configuration, customer journey tracking, and access to real-time and historical analytics. Use cases include embedding agent controls in custom UIs, automating workforce management, integrating with CRM and ticketing systems, and building custom reporting dashboards. The APIs empower organizations to deliver personalized, efficient customer experiences and optimize contact center operations.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

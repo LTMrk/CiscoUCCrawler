@@ -2,10 +2,15 @@
 doc_id: webex-meeting-delete-meetings-meetingid-interpreters-interpreterid
 source: webex-openapi-specs/public-spec/webex-meeting.json
 api: Webex Meetings
+api_version: 1.0.0
 method: DELETE
 path: /meetings/{meetingId}/interpreters/{interpreterId}
+operation_id: deleteInterpreterById
+tags: Meetings
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.398429+00:00
+retrieved_at: 2026-08-18T23:45:44.488639+00:00
 ---
 
 # DELETE /meetings/{meetingId}/interpreters/{interpreterId}
@@ -21,13 +26,21 @@ Delete a Meeting Interpreter
 Removes a meeting interpreter identified by `meetingId` and `interpreterId` in the URI. The deleted meeting interpreter cannot be recovered.
 
 ## Parámetros
-- `meetingId` [path] (string) **(requerido)**: Unique identifier for the meeting whose interpreters were belong to.
-- `interpreterId` [path] (string) **(requerido)**: Unique identifier for the interpreter to be removed.
+- `meetingId` [path] (string) (**requerido**): Unique identifier for the meeting whose interpreters were belong to.
+- `interpreterId` [path] (string) (**requerido**): Unique identifier for the interpreter to be removed.
 - `hostEmail` [query] (string): Email address for the meeting host. This parameter is only used if the user or application calling the API has the admin on-behalf-of scopes. If set, the admin may specify the email of a user in a site they manage and the API will delete an interpreter of the meeting that is hosted by that user.
-- `sendEmail` [query] (boolean): If `true`, send email to the interpreter.
+- `sendEmail` [query] (boolean): If `true`, send email to the interpreter. Por defecto: True.
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X DELETE '/meetings/<meetingId>/interpreters/<interpreterId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -43,6 +56,9 @@ Removes a meeting interpreter identified by `meetingId` and `interpreterId` in t
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Meetings APIs enable developers to schedule, manage, and retrieve information about Webex meetings, webinars, and events. They provide endpoints for meeting creation, participant management, recordings, transcripts, in-meeting features such as chat and closed captions, and post-meeting analytics. Common use cases include integrating meeting scheduling into calendar apps, automating follow-ups with recordings and transcripts, embedding meeting controls in custom portals, and extracting insights for compliance or productivity analysis. The APIs support both real-time and asynchronous w...
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

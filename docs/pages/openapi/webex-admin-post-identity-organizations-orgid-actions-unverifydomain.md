@@ -2,10 +2,15 @@
 doc_id: webex-admin-post-identity-organizations-orgid-actions-unverifydomain
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: POST
 path: /identity/organizations/{orgId}/actions/unverifyDomain
+operation_id: Unverify Domain
+tags: API - Domain Management
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.148456+00:00
+retrieved_at: 2026-08-18T23:45:42.561983+00:00
 ---
 
 # POST /identity/organizations/{orgId}/actions/unverifyDomain
@@ -41,13 +46,13 @@ The following administrators can use this API:
 - `id_full_admin`
 
 ## Parámetros
-- `orgId` [path] (string) **(requerido)**: The Webex Identity-assigned organization identifier for a user's organization.
+- `orgId` [path] (string) (**requerido**): The Webex Identity-assigned organization identifier for a user's organization.
 
 ## Cuerpo de la petición (application/json)
-- `domain` (string) **(requerido)**: Domain name to be verified.
+- `domain` (string) (**requerido**): Domain name to be verified.
 - `removePending` (boolean): Specify whether to remove pending domain. Default is false (backward compatibility). If true, domains will be deleted from pending domain list.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "domain": "abc.com",
@@ -55,11 +60,36 @@ The following administrators can use this API:
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `verifiedDomains` (array) **(requerido)**: A list of verified domains for a given organization.
-  - `claimedDomains` (array) **(requerido)**: A list of claimed domains for a given organization.
-  - `url` (string) **(requerido)**: Use this URL for unverifying domain ownership and managing the domain lifecycle within the organization.
+## Ejemplo de invocación
+```bash
+curl -X POST '/identity/organizations/<orgId>/actions/unverifyDomain' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"domain": "<domain>"}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `verifiedDomains` (array) (**requerido**): A list of verified domains for a given organization.
+- `claimedDomains` (array) (**requerido**): A list of claimed domains for a given organization.
+- `url` (string) (**requerido**): Use this URL for unverifying domain ownership and managing the domain lifecycle within the organization.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "verifiedDomains": [
+    "cisco.com",
+    "webex.com"
+  ],
+  "claimedDomains": [
+    "cisco.com",
+    "webex.com"
+  ],
+  "url": "https://identity.webex.com/organization/bf732c85-68ca-4867-94e4-937286ad2fd4/v1/actions/DomainVerification/Unverify/invoke"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -75,6 +105,9 @@ The following administrators can use this API:
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

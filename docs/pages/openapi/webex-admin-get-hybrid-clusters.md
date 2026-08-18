@@ -2,10 +2,15 @@
 doc_id: webex-admin-get-hybrid-clusters
 source: webex-openapi-specs/public-spec/webex-admin.json
 api: Webex Admin
+api_version: 1.0.0
 method: GET
 path: /hybrid/clusters
+operation_id: List Hybrid Clusters
+tags: Hybrid Clusters
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.150925+00:00
+retrieved_at: 2026-08-18T23:45:42.565859+00:00
 ---
 
 # GET /hybrid/clusters
@@ -25,13 +30,35 @@ Only an admin auth token with the `spark-admin:hybrid_clusters_read` scope can l
 ## Parámetros
 - `orgId` [query] (string): List hybrid clusters in this organization. If an organization is not specified, the organization of the caller will be used.
 
-## Respuestas
-- **200**: OK
-  - `items` (array): An array of hybrid cluster objects.
-    - `id` (string): A unique identifier for the cluster.
-    - `orgId` (string): The ID of the organization to which this hybrid cluster belongs.
-    - `name` (string): The name of the cluster.
-    - `resourceGroupId` (string): The ID of the resource group this cluster belongs to.
+## Ejemplo de invocación
+```bash
+curl -X GET '/hybrid/clusters' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): An array of hybrid cluster objects.
+  - `id` (string): A unique identifier for the cluster.
+  - `orgId` (string): The ID of the organization to which this hybrid cluster belongs.
+  - `name` (string): The name of the cluster.
+  - `resourceGroupId` (string): The ID of the resource group this cluster belongs to.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "items": [
+    {
+      "id": "Y2lZY76123abbb",
+      "orgId": "Y2lzY29zcGFyazovL3",
+      "name": "EMEA Oslo 1",
+      "resourceGroupId": "Y2lzY29zcGFyazovL3"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -47,6 +74,9 @@ Only an admin auth token with the `spark-admin:hybrid_clusters_read` scope can l
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Admin APIs provide comprehensive programmatic access to administrative functions for managing Webex organizations, users, licenses, and settings. These APIs enable automation of user provisioning, license assignment, compliance management, and audit event retrieval. Administrators can integrate with enterprise identity systems, enforce security policies, monitor usage, and streamline onboarding/offboarding processes. The APIs support granular control over organizational resources, making them ideal for large-scale deployments and custom admin tooling.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
