@@ -56,17 +56,29 @@ def _seccion_openapi(d, lineas):
         lineas.append("\n</details>\n")
 
 
+def _contar(valor):
+    """El esquema v1 guardaba `operaciones` como int y el v2 como dict.
+    El reporte nunca debe tumbar el workflow por un estado antiguo."""
+    if isinstance(valor, dict):
+        return len(valor)
+    if isinstance(valor, int):
+        return valor
+    return 0
+
+
 def _seccion_inventario(estado, lineas):
-    if not estado:
+    if not isinstance(estado, dict):
         return
     filas = []
     for nombre, datos in sorted(estado.items()):
-        if not isinstance(datos, dict):
+        if nombre.startswith("_") or not isinstance(datos, dict):
             continue
-        ops = datos.get("operaciones") or {}
-        deps = datos.get("deprecadas") or {}
-        filas.append((datos.get("api", nombre), len(ops), len(deps),
-                      (datos.get("actualizado") or "")[:10]))
+        filas.append((
+            datos.get("api", nombre),
+            _contar(datos.get("operaciones")),
+            _contar(datos.get("deprecadas")),
+            (datos.get("actualizado") or "")[:10],
+        ))
     if not filas:
         return
     lineas.append("### Inventario de la API indexada")
@@ -126,3 +138,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
