@@ -62,17 +62,110 @@ def _get_texto(url):
         return resp.read().decode("utf-8")
 
 
+SCHEMA_VERSION = 2
+
+
+def _reconstruir_ops_desde_disco():
+    """Reconstruye el mapa {spec: {"METODO ruta": slug}} leyendo el front
+    matter de los .md ya generados.
+
+    Se usa al migrar del esquema v1, que guardaba `operaciones` como un simple
+    contador y por tanto no permitía diffear. Sin esta reconstrucción, la
+    primera ejecución tras la migración reportaría el catálogo entero como
+    "endpoints nuevos" — cientos de falsos positivos en el resumen.
+    """
+    reconstruido = {}
+    if not os.path.isdir(DIR_DOCS_API):
+        return reconstruido
+
+    for fichero in os.listdir(DIR_DOCS_API):
+        if not fichero.endswith(".md"):
+            continue
+        campos = {}
+        try:
+            with open(os.path.join(DIR_DOCS_API, fichero), "r", encoding="utf-8") as f:
+                if f.readline().strip() != "---":
+                    continue
+                for linea in f:
+                    if linea.strip() == "---":
+                        break
+                    if ":" in linea:
+                        clave, valor = linea.split(":", 1)
+                        campos[clave.strip()] = valor.strip()
+        except Exception:
+            continue
+
+        origen = campos.get("source", "")
+        metodo = campos.get("method", "")
+        ruta = campos.get("path", "")
+        doc_id = campos.get("doc_id") or fichero[:-3]
+        if not (origen and metodo and ruta):
+            continue
+
+        nombre_spec = origen.rsplit("/", 1)[-1]
+        entrada = reconstruido.setdefault(nombre_spec, {"operaciones": {}, "deprecadas": {}})
+        entrada["operaciones"][f"{metodo} {ruta}"] = doc_id
+        if campos.get("deprecated", "").lower() == "true":
+            entrada["deprecadas"][f"{metodo} {ruta}"] = True
+
+    return reconstruido
+
+
+def _migrar_estado(estado):
+    """Normaliza estados de esquemas anteriores.
+
+    v1: `operaciones` era un int. No se puede diffear contra un contador, así
+    que se reconstruye el mapa desde los .md en disco. Si un spec no se puede
+    reconstruir, se le pone sha=None para forzar su regeneración completa.
+    """
+    if estado.get("_schema_version") == SCHEMA_VERSION:
+        return estado, False
+
+    reconstruido = _reconstruir_ops_desde_disco()
+    migrado = {"_schema_version": SCHEMA_VERSION}
+    hubo_migracion = False
+
+    for nombre, datos in estado.items():
+        if nombre.startswith("_") or not isinstance(datos, dict):
+            continue
+
+        ops = datos.get("operaciones")
+        if isinstance(ops, dict):
+            migrado[nombre] = datos
+            continue
+
+        # Formato v1 (o corrupto): se reconstruye o se fuerza regeneración.
+        hubo_migracion = True
+        desde_disco = reconstruido.get(nombre, {})
+        nuevo = dict(datos)
+        nuevo["operaciones"] = desde_disco.get("operaciones", {})
+        nuevo["deprecadas"] = desde_disco.get("deprecadas", {})
+        if not nuevo["operaciones"]:
+            # Sin nada que reconstruir: se invalida el SHA para regenerar.
+            nuevo["sha"] = None
+        migrado[nombre] = nuevo
+
+    return migrado, hubo_migracion
+
+
 def _cargar_estado():
     if os.path.exists(RUTA_ESTADO_SPECS):
         try:
             with open(RUTA_ESTADO_SPECS, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            pass
-    return {}
+                crudo = json.load(f)
+            estado, migrado = _migrar_estado(crudo)
+            if migrado:
+                print("[openapi] Estado migrado del esquema v1 a v2: "
+                      "operaciones reconstruidas desde el front matter en disco.",
+                      flush=True)
+            return estado
+        except Exception as e:
+            print(f"[openapi] Estado ilegible ({e}); se regenera desde cero.", flush=True)
+    return {"_schema_version": SCHEMA_VERSION}
 
 
 def _guardar_estado(estado):
+    estado["_schema_version"] = SCHEMA_VERSION
     os.makedirs(os.path.dirname(RUTA_ESTADO_SPECS), exist_ok=True)
     with open(RUTA_ESTADO_SPECS, "w", encoding="utf-8") as f:
         json.dump(estado, f, indent=2, sort_keys=True)
@@ -136,11 +229,19 @@ def ingerir_openapi(token=None, forzar=False, specs_permitidos=None):
 
         vistos.add(nombre)
         sha_remoto = fichero.get("sha")
-        previo = estado.get(nombre, {})
-        ops_previas = previo.get("operaciones", {}) or {}
-        deprecadas_previas = previo.get("deprecadas", {}) or {}
+        previo = estado.get(nombre, {}) if isinstance(estado.get(nombre), dict) else {}
 
-        if previo.get("sha") == sha_remoto and not forzar:
+        # Normalización defensiva: si el estado trae un tipo inesperado (por
+        # ejemplo un contador de un esquema antiguo que la migración no pudo
+        # reconstruir), se trata como vacío en lugar de reventar la ejecución.
+        ops_previas = previo.get("operaciones")
+        if not isinstance(ops_previas, dict):
+            ops_previas = {}
+        deprecadas_previas = previo.get("deprecadas")
+        if not isinstance(deprecadas_previas, dict):
+            deprecadas_previas = {}
+
+        if previo.get("sha") == sha_remoto and sha_remoto and not forzar:
             resumen[nombre] = {"estado": "sin cambios", "operaciones": len(ops_previas)}
             continue
 
@@ -221,15 +322,21 @@ def ingerir_openapi(token=None, forzar=False, specs_permitidos=None):
         }
 
     # Un spec que desaparece del repo se limpia entero.
-    for nombre in [n for n in list(estado) if n not in vistos]:
+    for nombre in [n for n in list(estado) if n not in vistos and not n.startswith("_")]:
+        datos = estado.get(nombre)
+        if not isinstance(datos, dict):
+            estado.pop(nombre, None)
+            continue
         if specs_permitidos and not any(nombre.startswith(p) for p in specs_permitidos):
             continue
-        api = estado[nombre].get("api", nombre)
-        for clave, slug in (estado[nombre].get("operaciones") or {}).items():
-            deltas["removed"].append(f"{api}: {clave}")
-            ruta_md = os.path.join(DIR_DOCS_API, f"{slug}.md")
-            if os.path.exists(ruta_md):
-                os.remove(ruta_md)
+        api = datos.get("api", nombre)
+        ops = datos.get("operaciones")
+        if isinstance(ops, dict):
+            for clave, slug in ops.items():
+                deltas["removed"].append(f"{api}: {clave}")
+                ruta_md = os.path.join(DIR_DOCS_API, f"{slug}.md")
+                if os.path.exists(ruta_md):
+                    os.remove(ruta_md)
         estado.pop(nombre, None)
 
     _guardar_estado(estado)
@@ -257,3 +364,4 @@ if __name__ == "__main__":
         print(f"  - {clave}")
     for clave in dl["deprecated"][:20]:
         print(f"  ! {clave}")
+      
