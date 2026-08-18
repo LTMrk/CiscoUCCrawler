@@ -60,6 +60,16 @@ jobs:
           pip install -r requirements.txt
           playwright install --with-deps chromium
 
+      - name: Pruebas de regresión
+        # Corren en segundos y sin red. Detectan fallos de contrato (esquemas
+        # de estado, regex de URL, extractor OpenAPI) ANTES de gastar el
+        # presupuesto del runner en un crawl que va a morir a mitad.
+        run: |
+          python3 tests/test_migracion.py
+          python3 tests/test_openapi.py
+          python3 tests/test_pipeline.py
+          python3 tests/test_url_policy.py
+
       - name: Ejecutar pipeline
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
