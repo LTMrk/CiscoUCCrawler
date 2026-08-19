@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-integration-cucme-sccp-b-15cucintcucmesccp-html-c8146d4136
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/integration/cucme_sccp/b_15cucintcucmesccp.html
-retrieved_at: 2026-08-16T14:18:05.704159+00:00
+retrieved_at: 2026-08-19T01:29:35.160681+00:00
 ---
 
 Cisco Unified Communications Manager Express SCCP Integration Guide for Cisco Unity Connection Release 15
 
 # Cisco Unified Communications Manager Express SCCP Integration Guide for Cisco Unity Connection Release 15
-
-Log in to Save Content
 
 ### Download Options
 
@@ -72,8 +70,6 @@ If this
                            			 integration is a second or subsequent integration, add the applicable new user
                            			 templates for the new phone system. See the “Adding
                               				New User Templates for Multiple Integrations” section .
-
-Note
 
 While
                                     			 integrating the Cisco Unity Connection with Cisco Unified Call Manager through
@@ -556,8 +552,6 @@ This procedure
                      		configures the Message button on Cisco IP phones to dial the Unity Connection
                      		pilot number when pressed.
 
-Note
-
 Do the procedures
                               		in this section only if you are integrating a single Cisco Unified CM Express
                               		router with Unity Connection server (without a Unity Connection cluster). If
@@ -570,10 +564,6 @@ Do the procedures
 
 #### Configuring the
                      	 Message Button Access to Unity Connection (without a Cluster)
-
-Procedure
-
-##### Procedure
 
 Step 1
 
@@ -613,10 +603,6 @@ voicemail 4001
 #### Configuring the
                      	 Router for Unity Connection (without a Cluster)
 
-Procedure
-
-##### Procedure
-
 Step 1
 
 Go into the
@@ -643,8 +629,6 @@ To set the
 
 number <Voice messaging
                                           				  port extension>
-
-Note
 
 The voice
                                                 				message port extension must be the Unity Connection pilot number (configured by
@@ -702,8 +686,6 @@ huntstop
 Step 8
 
 Repeat 1 through 7 for all remaining ports.
-
-Note
 
 The
                                                 				number of voice messaging ports set up to connect to Unity Connection must be
@@ -802,10 +784,6 @@ The port number
 #### Associating a
                      	 Voicemail Port to Cisco Unified CM Express Router
 
-Procedure
-
-##### Procedure
-
 Step 1
 
 Go into the
@@ -851,8 +829,6 @@ For example,
 Step 4
 
 Repeat 1 through 3 for all remaining voice messaging port names.
-
-Note
 
 The number
                                                 				of voice messaging port names configured with the vm-device-id command must be
@@ -906,10 +882,6 @@ MWI configuration
                            		  processing ephone-dn extensions are configured to match the MWI extensions
                            		  configured on Unity Connection.
 
-Procedure
-
-##### Procedure
-
 Step 1
 
 Go into the
@@ -925,8 +897,6 @@ Configure two
                                     			 valid directory numbers for the Cisco IP phone to be used for MWIs—the first
                                     			 number turns MWIs on, and the second number turns MWIs off—by entering the
                                     			 following command:
-
-Note
 
 The MWI
                                                    				  on and off numbers must match the settings of the MWI On
@@ -971,8 +941,6 @@ For extensions
                            		  associated with analog telephone adaptors (ATAs), the MWI is a lit function
                            		  button on the ATA and a stutter dial tone on the connected analog phone.
 
-Note
-
 After
                                     		  completing the procedures in this section, continue to the “Creating
                                        			 a New Integration with Cisco Unified CM Express” section .
@@ -984,8 +952,6 @@ After
 This procedure
                      		configures the Message button on Cisco IP phones to dial the Unity Connection
                      		pilot number when pressed.
-
-Note
 
 Do the procedures
                               		in this section only if you are integrating a single Cisco Unified CM Express
@@ -999,10 +965,6 @@ Do the procedures
 
 #### Configuring the
                      	 Message Button Access to a Unity Connection Cluster
-
-Procedure
-
-##### Procedure
 
 Step 1
 
@@ -1042,10 +1004,6 @@ voicemail 4001
 #### Configuring the
                      	 Router for a Unity Connection Cluster
 
-Procedure
-
-##### Procedure
-
 Step 1
 
 Go into the
@@ -1072,8 +1030,6 @@ To set the
 
 number <Voice messaging
                                           				  port extension>
-
-Note
 
 The voice
                                                    				  message port extension must be the Unity Connection pilot number (configured by
@@ -1113,8 +1069,6 @@ To set the
 preference <Preference
                                           				  order>
 
-Note
-
 The
                                                 				preference order must route calls first to the subscriber server in the Unity
                                                 				Connection cluster, then to the publisher server. See the example configuration
@@ -1132,8 +1086,6 @@ huntstop
 Step 8
 
 Repeat 1 through 7 for all remaining ports.
-
-Note
 
 The number
                                                 				of voice messaging ports set up to connect to Unity Connection must be the same
@@ -1267,10 +1219,6 @@ The port number part (for example, “1”) must match the number part
 #### Associating a
                      	 Voice Messaging Port to Cisco Unified CM Express Router
 
-Procedure
-
-##### Procedure
-
 Step 1
 
 Go into the
@@ -1316,8 +1264,6 @@ For example,
 Step 4
 
 Repeat 1 through 3 for all remaining voice messaging port names.
-
-Note
 
 The number
                                                 				of voice messaging port names configured with the vm-device-id command must be
@@ -1387,10 +1333,6 @@ MWI configuration
                            		  processing ephone-dn extensions are configured to match the MWI extensions
                            		  configured on Unity Connection.
 
-Procedure
-
-##### Procedure
-
 Step 1
 
 Go into the
@@ -1409,8 +1351,6 @@ Configure two
 
 number <MWI on
                                           				  number> secondary <MWI off number>
-
-Note
 
 The MWI on
                                                 				and off numbers must match the settings of the MWI On
@@ -1455,8 +1395,6 @@ For extensions
                            		  associated with analog telephone adaptors (ATAs), the MWI is a lit function
                            		  button on the ATA and a stutter dial tone on the connected analog phone.
 
-Note
-
 After
                                     		  completing the procedures in this section, continue to the “Creating
                                        			 a New Integration with Cisco Unified CM Express” section .
@@ -1476,8 +1414,6 @@ Unity Connection can
                      		the SIP MWI server (the Cisco Unified CM Express router that is on the same LAN
                      		as Unity Connection), not with the SIP MWI clients.
 
-Note
-
 Do the
                               		procedures in this section only if you are integrating multiple Cisco Unified
                               		CM Express routers. If Unity Connection is not configured for a cluster, see
@@ -1491,10 +1427,6 @@ Do the
 #### Configuring the
                      	 Message Button Access to Unity Connection (Multiple Cisco Unified CM Express
                      	 Routers)
-
-Procedure
-
-##### Procedure
 
 Step 1
 
@@ -1534,10 +1466,6 @@ voicemail 4001
 #### Configuring the
                      	 Router for Unity Connection (Multiple Cisco Unified CM Express Routers)
 
-Procedure
-
-##### Procedure
-
 Step 1
 
 Go into the
@@ -1561,8 +1489,6 @@ Step 2
 
 To set the
                                     			 extension number for the voice messaging port, enter the following command:
-
-Note
 
 The voice
                                                    				  message port extension must be the Unity Connection pilot number (configured by
@@ -1602,8 +1528,6 @@ To set the
 preference <Preference
                                           				  order>
 
-Note
-
 The
                                                 				preference order must route calls first to the subscriber server in the Unity
                                                 				Connection cluster, then to the publisher server. See the example configuration
@@ -1629,8 +1553,6 @@ Step 8
 Repeat Step
                                        				1 through Step
                                        				7 for all remaining ports.
-
-Note
 
 The number
                                                 				of voice messaging ports set up to connect to Unity Connection must be the same
@@ -1813,10 +1735,6 @@ The port number
 #### Associating a
                      	 Voicemail Device with Cisco Unified CM Express Router
 
-Procedure
-
-##### Procedure
-
 Step 1
 
 Go into the
@@ -1861,8 +1779,6 @@ For example,
 Step 4
 
 Repeat 1 through 3 for all remaining voice messaging port names.
-
-Note
 
 The number
                                                 				of voice messaging port names configured with the vm-device-id command must be
@@ -1943,10 +1859,6 @@ button 1:39
 
 #### Configuring the
                      	 SIP MWI Server (Multiple Cisco Unified CM Express Routers)
-
-Procedure
-
-##### Procedure
 
 Step 1
 
@@ -2035,10 +1947,6 @@ Continue to
 #### Configuring MWIs
                      	 for Each Directory Number (Multiple Cisco Unified CM Express Routers)
 
-Procedure
-
-##### Procedure
-
 Step 1
 
 Go into the
@@ -2077,8 +1985,6 @@ This command
                                        				integrates the Cisco Unified CM Express with the MWI service based on SIP
                                        				protocol.
 
-Note
-
 The “mwi
                                                 				sip-server” command under telephony-service configuration mode or the
                                                 				“mwi-server” command under SIP user-agent configuration mode must be set before
@@ -2103,10 +2009,6 @@ MWI configuration
                            		  processing ephone-dn extensions are configured to match the MWI extensions
                            		  configured on Unity Connection.
 
-Procedure
-
-##### Procedure
-
 Step 1
 
 Go into the
@@ -2125,8 +2027,6 @@ Configure two
 
 number <MWI on
                                           				  number> secondary <MWI off number>
-
-Note
 
 The MWI on
                                                 				and off numbers must match the settings of the MWI On
@@ -2176,10 +2076,6 @@ MWI relay is
                            		  and notifier mechanism for MWI relay. The Cisco Unified CM Express router that
                            		  is the SIP MWI relay server acts as the SIP notifier. The other Cisco Unified
                            		  CM Express routers (the SIP MWI clients) act as the SIP subscribers.
-
-Procedure
-
-##### Procedure
 
 Step 1
 
@@ -2297,10 +2193,6 @@ The Catalyst 6000
                            		  T1/PRI and FXS gateways enable DTMF relay by default and do not need additional
                            		  configuration to enable this feature.
 
-Procedure
-
-##### Procedure
-
 Step 1
 
 On a VoIP
@@ -2332,10 +2224,6 @@ After ensuring that
 
 ### Creating an
                   	 Integration
-
-Procedure
-
-#### Procedure
 
 Step 1
 
@@ -2544,8 +2432,6 @@ On the
                                  			 Search Ports page, select the display name of the first voice messaging port
                                  			 that you created for this answering port group.
 
-Note
-
 By
                                              				default, the display names for the voice messaging ports are composed of the
                                              				port group display name followed by incrementing numbers.
@@ -2616,8 +2502,6 @@ Outgoing Hunt Order
 Security Mode
 
 Select Non-secure .
-
-Note
 
 (Cisco Unified Communications Manager authentication and
                                                          						  encryption are not available for Cisco Unified CM Express.)
@@ -2802,8 +2686,6 @@ On the
                                  			 Search Ports page, select the display name of the first voice messaging port
                                  			 that you created for this dial-out port group.
 
-Note
-
 By
                                              				default, the display names for the voice messaging ports are composed of the
                                              				port group display name followed by incrementing numbers.
@@ -2868,8 +2750,6 @@ Enter the priority order in which Unity Connection uses the
                                                 						  that has been idle the longest.
 
 Security Mode
-
-Note
 
 (Cisco Unified Communications Manager authentication and
                                                             							 encryption are not available for Cisco Unified CM Express.)
@@ -3045,8 +2925,6 @@ On the
                                  			 Search Ports page, select the display name of the first voice messaging port
                                  			 that you created for this answering port group.
 
-Note
-
 By
                                              				default, the display names for the voice messaging ports are composed of the
                                              				port group display name followed by incrementing numbers.
@@ -3115,8 +2993,6 @@ Outgoing Hunt Order
 Security Mode
 
 Select Non-secure .
-
-Note
 
 (Cisco Unified Communications Manager authentication and
                                                          						  encryption are not available for Cisco Unified CM Express.)
@@ -3291,8 +3167,6 @@ On the
                                  			 Search Ports page, select the display name of the first voice messaging port
                                  			 that you created for this dial-out port group.
 
-Note
-
 By
                                              				default, the display names for the voice messaging ports are composed of the
                                              				port group display name followed by incrementing numbers.
@@ -3355,8 +3229,6 @@ Enter the priority order in which Unity Connection uses the
 Security Mode
 
 Select Non-secure .
-
-Note
 
 (Cisco Unified Communications Manager authentication and
                                                          						  encryption are not available for Cisco Unified CM Express.)
@@ -3457,10 +3329,6 @@ Troubleshooting Guide for Cisco Unity Connection, Release 14 at https://www.cisc
 
 ### Setting Up the
                   	 Test Configuration
-
-Procedure
-
-#### Procedure
 
 Step 1
 
@@ -3601,10 +3469,6 @@ In the right
 ### Testing an
                   	 External Call with Release Transfer
 
-Procedure
-
-#### Procedure
-
 Step 1
 
 From Phone 2,
@@ -3670,10 +3534,6 @@ Confirm that
 ### Testing Listening
                   	 to Messages
 
-Procedure
-
-#### Procedure
-
 Step 1
 
 From Phone 1,
@@ -3725,10 +3585,6 @@ On the Port
 ### Setting Up
                   	 Supervised Transfer on Cisco Unity Connection
 
-Procedure
-
-#### Procedure
-
 Step 1
 
 In Cisco Unity
@@ -3757,10 +3613,6 @@ Do not close
 
 ### Testing
                   	 Supervised Transfer
-
-Procedure
-
-#### Procedure
 
 Step 1
 
@@ -3834,12 +3686,6 @@ However, for each additional phone system integration that you create, you must 
                   assign users to the new phone system. You must add the new templates before you add new users who are assigned to the new
                   phone system. For details on adding new user templates, or on selecting a user template when adding a new user, see the “User
                   Templates” section of the “User Attributes” chapter of the System Administration Guide for Cisco Unity Connection, Release 15 , available at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/administration/guide/b_15cucsag.html .
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 

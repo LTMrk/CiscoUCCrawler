@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-integration-cucme-sip-b-15cucmesip-html-172c70ba8e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/integration/cucme_sip/b_15cucmesip.html
-retrieved_at: 2026-08-16T14:19:44.144323+00:00
+retrieved_at: 2026-08-19T01:29:38.939380+00:00
 ---
 
 Cisco Unified Communications Manager Express SIP Trunk Integration Guide for Cisco Unity Connection Release 15
 
 # Cisco Unified Communications Manager Express SIP Trunk Integration Guide for Cisco Unity Connection Release 15
-
-Log in to Save Content
 
 ### Download Options
 
@@ -52,8 +50,6 @@ Create the integration. See the “Creating a New Integration with
 If this integration is a second or subsequent integration, add the
                            			 applicable new user templates for the new phone system. See the “Adding New
                            			 User Templates for Multiple Integrations” section on page 16.
-
-Note
 
 While integrating the Cisco Unity Connection with Cisco Unified Call
                               		Manager through a SIP trunk uncheck the Synchronize guest time to host option
@@ -404,10 +400,6 @@ For Cisco
 ### To Configure the
                   	 Cisco Unified Communications Manager Express Router 4.1 and Later
 
-Procedure
-
-#### Procedure
-
 Step 1
 
 On the Cisco Unified CM
@@ -442,10 +434,6 @@ exit
 ### To Configure the
                   	 Cisco Unified Communications Manager Express Router for a Unity Connection
                   	 Cluster
-
-Procedure
-
-#### Procedure
 
 Step 1
 
@@ -702,10 +690,6 @@ After ensuring that Cisco Unified Communications Manager Express and
                      		  Unity Connection are ready for the integration, do the following procedure to
                      		  set up the integration and to enter the port settings.
 
-Procedure
-
-### Procedure
-
 Step 1
 
 In Cisco Unity Connection
@@ -764,8 +748,6 @@ Enter the voice messaging line name (or pilot number) that
                                              						  users use to contact Unity Connection and registers with the Cisco Unified CM
                                              						  Express router.
 
-Note
-
 Cisco Unified CM Express does not support Cisco Unified
                                                       						  CM authentication and encryption.
 
@@ -798,8 +780,6 @@ On the New Port page, enter the following settings and select Save .
 Enter the number of voice messaging ports that you want to
                                              						  create in this port group.
 
-Note
-
 For a Unity Connection cluster, you must enter the
                                                       						  total number of voice messaging ports that are used by all Unity Connection
                                                       						  servers. Each port is later assigned to a specific Unity Connection server.
@@ -808,8 +788,6 @@ Step 10
 
 On the Search Ports page, select the display name of the first
                               			 voice messaging port that you created for this phone integration.
-
-Note
 
 By default, the display names for the voice messaging ports are
                                           				composed of the port group display name followed by incrementing numbers.
@@ -913,10 +891,6 @@ The “ Installing Unity Connection ” chapter of the Install, Upgrade, and Mai
 - Troubleshooting Guide for Cisco Unity Connection , Release 15 at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/troubleshooting/guide/b_15cuctsg.html .
 
 ### Setting Up the Test Configuration
-
-Procedure
-
-#### Procedure
 
 Step 1
 
@@ -1031,10 +1005,6 @@ In the right pane, select Start Polling . The Port Monitor displays which port i
 
 ### Testing an External Call with Release Transfer
 
-Procedure
-
-#### Procedure
-
 Step 1
 
 From Phone 2, enter the access code necessary to get an outside
@@ -1092,10 +1062,6 @@ Confirm that the MWI on Phone 1 is activated. The activated MWI
 
 ### Testing Listening to Messages
 
-Procedure
-
-#### Procedure
-
 Step 1
 
 From Phone 1, enter the internal pilot number for Unity
@@ -1141,10 +1107,6 @@ On the Port Monitor, confirm that the state of the port handling
 
 ### Setting Up Supervised Transfer on Cisco Unity Connection
 
-Procedure
-
-#### Procedure
-
 Step 1
 
 In Cisco Unity Connection Administration, on the Edit Transfer
@@ -1177,12 +1139,6 @@ However, for each additional phone system integration that you create, you must 
                   assign users to the new phone system. You must add the new templates before you add new users who are assigned to the new
                   phone system. For details on adding new user templates, or on selecting a user template when adding a new user, see the User
                   Templates section of the “User Attributes” chapter of the System Administration Guide for Cisco Unity Connection, Release 15 , available at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/administration/guide/b_15cucsag.html .
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 
