@@ -69,6 +69,7 @@ jobs:
           python3 tests/test_openapi.py
           python3 tests/test_pipeline.py
           python3 tests/test_url_policy.py
+          python3 tests/test_copilot_pack.py
 
       - name: Ejecutar pipeline
         env:
