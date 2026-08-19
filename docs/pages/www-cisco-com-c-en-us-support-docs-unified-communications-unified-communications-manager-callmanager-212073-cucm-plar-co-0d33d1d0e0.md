@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-212073-cucm-plar-co-0d33d1d0e0
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212073-CUCM-PLAR-Configuration-Example.html
-retrieved_at: 2026-08-16T14:16:35.490592+00:00
+retrieved_at: 2026-08-19T00:03:30.559338+00:00
 ---
 
 Configure CUCM Private Line Automatic Ring-down (PLAR)
 
 # Configure CUCM Private Line Automatic Ring-down (PLAR)
-
-Log in to Save Content
 
 ### Download Options
 

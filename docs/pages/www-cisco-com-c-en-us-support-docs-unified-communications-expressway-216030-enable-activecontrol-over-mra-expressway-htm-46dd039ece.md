@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-expressway-216030-enable-activecontrol-over-mra-expressway-htm-46dd039ece
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway.html
-retrieved_at: 2026-08-16T14:22:06.484562+00:00
+retrieved_at: 2026-08-18T23:58:39.112407+00:00
 ---
 
 Enable ActiveControl over MRA/Expressway
 
 # Enable ActiveControl over MRA/Expressway
-
-Log in to Save Content
 
 ### Download Options
 
@@ -259,12 +257,6 @@ Cisco TAC Engineer
 Bruno Van Turnhout
 
 Cisco TAC Engineer
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 
