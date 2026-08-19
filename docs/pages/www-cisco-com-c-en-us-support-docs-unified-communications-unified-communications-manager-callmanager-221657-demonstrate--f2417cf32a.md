@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-221657-demonstrate--f2417cf32a
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221657-demonstrate-ip-phone-migration-from-secu.html
-retrieved_at: 2026-08-16T18:00:38.946581+00:00
+retrieved_at: 2026-08-19T00:07:56.174235+00:00
 ---
 
 Demonstrate IP Phone Migration from Secure to Non-secure CUCM
@@ -233,16 +233,6 @@ There is currently no specific troubleshooting information available for this co
 08-Feb-2024
 
 Initial Release
-
-### Contributed by Cisco Engineers
-
-Ramesh Balakrishnan
-
-Cisco TAC Engineer
-
-### This Document Applies to These Products
-
-- Unified Communications Manager (CallManager)
 
 | Revision | Publish Date | Comments |
 |---|---|---|

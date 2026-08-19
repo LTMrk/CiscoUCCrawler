@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unity-connection-version-15-226218-troubleshoot-upgrade-failur-2f56dfb1cc
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection-version-15/226218-troubleshoot-upgrade-failure-in-unity.html
-retrieved_at: 2026-08-16T18:57:10.620631+00:00
+retrieved_at: 2026-08-19T00:09:45.714473+00:00
 ---
 
 Troubleshoot Upgrade Failure in Unity Connection 15 Due to Missing AVX CPU Instructions
@@ -137,18 +137,6 @@ Note: Since the previous upgrade attempt invalidated the inactive partition, the
 04-Aug-2026
 
 Initial Release
-
-### Contributed by Cisco Engineers
-
-Cisco TAC Engineers
-
-Cisco TAC
-
-### This Document Applies to These Products
-
-- Unity Connection
-
-- Unity Connection Version 15
 
 | Revision | Publish Date | Comments |
 |---|---|---|

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-14074-in-dial-peer-match-html-f9c5d3695c
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/14074-in-dial-peer-match.html
-retrieved_at: 2026-08-16T23:24:35.612740+00:00
+retrieved_at: 2026-08-19T00:12:25.199916+00:00
 ---
 
 Understand Matching Inbound/Outbound Dial Peers on IOS Platforms
@@ -10,7 +10,7 @@ Understand Matching Inbound/Outbound Dial Peers on IOS Platforms
 
 ### Download Options
 
-Updated: May 19, 2025
+Updated: August 18, 2026
 
 Document ID: 14074
 
@@ -38,10 +38,6 @@ This document is not restricted to specific software and hardware versions.
 
 The information in this document was created from the devices in a specific lab environment. All of the devices used in this document started with a cleared (default) configuration. If your network is live, ensure that you understand the potential impact of any command.
 
-### Conventions
-
-Refer to Cisco Technical Tips Conventions for more information on document conventions.
-
 ## Matching Inbound Dial Peers
 
 ### Inbound Dial Peers Elements and Attributes
@@ -50,7 +46,7 @@ Three information elements sent in the call setup message and four configurable 
 
 Inbound POTS dial peers are associated to incoming POTS call legs on the initial router or gateway.
 
-Inbound Voice-Network dial peers are associated to incoming Voice-Network call legs of the terminating router or gateway. Examples of Voice-Network calls legs are Voice over IP (VoIP), Voice over Frame Relay (VoFR), Voice over ATM (VoATM), and Multimedia Mail over IP (MMoIP).
+Inbound  Voice-Network dial peers are associated to incoming Voice-Network call legs of the terminating router or gateway. Examples of Voice-Network calls legs are Voice over IP (VoIP), Voice over Frame Relay (VoFR), Voice over ATM (VoATM), and Multimedia Mail over IP (MMoIP).
 
 The four configurable Cisco IOS dial peer attributes and related call setup elements are shown here:
 
@@ -60,7 +56,7 @@ The three call setup elements are:
 
 ### Inbound Dial Peers Matching Process
 
-When the Cisco IOS router or gateway receives a call setup request, a dial peer match is made for the incoming call in order to facilitate routing the call to different session applications. This is not a digit-by-digit match, rather the full digit string received in the setup request is used to match against configured dial peers.
+When the Cisco IOS® router or gateway receives a call setup request, a dial peer match is made for the incoming call in order to facilitate routing the call to different session applications. This is not a digit-by-digit match, rather the full digit string received in the setup request is used to match against configured dial peers.
 
 Note : The maximum number of dial peers that can be configured on a Cisco IOS gateway depends on the available memory (DRAM). Each dial peer consumes approximately 6KB of memory. Make sure that you have at least 20% of the total memory reserved for other CPU processes. If the dial peers are used for call routing, a larger number of dial peers can add to the delay to route a call. This can be significant as the Cisco IOS voice stack looks through dial peers from the top down, similar to an Access Control List.
 
@@ -107,13 +103,13 @@ Note : For inbound dial peers, the session target command is ignored.
 
 ### The Default Dial-Peer 0 peer_tag=0, pid:0
 
-If no incoming dial peer is matched by the router or gateway, the inbound call leg is automatically routed to a default dial peer (POTS or Voice-Network). This default dial peer is referred to as dial-peer 0 or pid:0 .
+If no incoming dial peer is matched by the router or gateway, the inbound call leg is automatically routed to a default dial peer (POTS or Voice-Network). This default dial peer is referred to as dial-peer 0 or pid:0.
 
 Note : There is an exception to this statement. Cisco voice and dial platforms, such as the AS53xx and AS5800, require that a configured inbound dial peer is matched for incoming POTS calls to be accepted as voice calls. If there is no inbound dial peer match, the call is treated and processed as a dial-up (modem) call.
 
-Dial-peer 0 ( pid:0 ) has a default configuration that cannot be changed. The default dial-peer 0 fails to negotiate non-default capabilities, services, and applications such as:
+Dial-peer 0 (pid:0) has a default configuration that cannot be changed. The default dial-peer 0 fails to negotiate non-default capabilities, services, and applications such as:
 
-Non-default Voice-Network capabilities: dtmf-relay , no vad , and so forth.
+Non-default Voice-Network capabilities: dtmf-relay, no vad, and so forth.
 
 Direct Inward Dial (DID)
 
@@ -151,7 +147,7 @@ dial-peer voice 1 pots
    port 1/0:1
 ```
 
-Assume that an incoming call arrives with no calling number information and is matched with the POTS dial peer based on the destination-pattern 9T command. In this case, the Cisco IOS router or gateway uses the "9" digit as the calling number and forwards the call to the related device, such as CallManager or the .Cisco IOS Gateway. In order to not replace the empty calling number field, create a dummy POTS dial peer with just the incoming called-number command configured. Because the incoming called-number< /strong> statement has higher priority than destination pattern for inbound POTS matching, dial-peer voice 2 becomes the POTS dial peer used.
+Assume that an incoming call arrives with no calling number information and is matched with the POTS dial peer based on the destination-pattern 9T command. In this case, the Cisco IOS router or gateway uses the 9 digit as the calling number and forwards the call to the related device, such as CallManager or the .Cisco IOS Gateway. In order to not replace the empty calling number field, create a dummy POTS dial peer with just the incoming called-number command configured. Because the incoming called-number< /strong> statement has higher priority than destination pattern for inbound POTS matching, dial-peer voice 2 becomes the POTS dial peer used.
 
 ```
 dial-peer voice 1 pots 
@@ -164,7 +160,7 @@ dial-peer voice 2 pots
 
 ### Special Note on Empty Called Number
 
-The Warning message shown here, which displays when dial-peer is configured with incoming called-number T , can raise questions in regard to the dial-peer selection with an empty called number from an actual router.
+The Warning message shown here, which displays when dial-peer is configured with incoming called-number T, can raise questions in regard to the dial-peer selection with an empty called number from an actual router.
 
 ```
 RTR(config)# dial-peer voice 1 pots RTR(config-dial-peer)# incoming called-number T Warning: Pattern T defines a match with zero or more digits and hence could 
@@ -191,7 +187,7 @@ On Voice-Network dial peers, the session target command is then used to forward 
 
 Also, when outbound peers are matched, there are two cases to consider: DID case and non-DID.
 
-### DID (Direct Inward Dial) Case
+### Direct Inward Dial (DID) Case
 
 An incoming dial peer configured with DID direct-inward-dial looks like this:
 
@@ -204,7 +200,7 @@ dial-peer voice 1 pots
 
 On DID calls, also referred to as one-stage dialing, the setup message contains all the digits necessary to route the call, and the router or gateway must not do subsequent digit collection. When the router or gateway searches for an outbound dial peer, the device uses the entire incoming dial string. This matching is variable-length by default. This match is not done digit-by-digit because by DID definition, all digits have been received. This example helps clarify this concept:
 
-Assume the DID dial-string is 81690 . In this case, the router matches dial peer 4 and forwards the complete dial-string 81690 .
+Assume the DID dial-string is 81690. In this case, the router matches dial peer 4 and forwards the complete dial-string 81690.
 
 ```
 dial-peer voice 3 voip
@@ -222,7 +218,7 @@ For more information on DID, refer to Voice - Understanding Direct-Inward-Dial (
 
 This case is also referred to as two-stage dialing. If DID is not configured on the matched incoming dial peer, the router or gateway enters the digit collection mode (digits are collected inbound). Outbound dial peer matching is done on a digit-by-digit basis. The router or gateway checks for dial peer matches after the device has received each digit and then routes the call when a full match is made. These examples help clarify this concept:
 
-Assume the dial-string is 81690 . Immediately after the router receives the digit 6 , the router matches dial peer 3 and routes the call (forwarding only the digits 816 ).
+Assume the dial-string is 81690. Immediately after the router receives the digit 6, the router matches dial peer 3 and routes the call (forwarding only the digits 816).
 
 ```
 dial-peer voice 3 voip
@@ -252,21 +248,21 @@ In this case, the longest-prefix rule applies, and dial peer 4 is matched for th
 
 There are situations where expected dial-strings do not have a set number of digits. In such cases, Cisco recommends you configure the T terminator on the dial peer destination-pattern command in order to use variable-length dial-peers.
 
-The T terminator forces the router or gateway to wait until the full dial-string is received. In order to achieve this, the T terminator forces the router or gateway to wait until the full dial-string is received. The router or gateway:
+The T terminator forces the router or gateway to wait until the full dial-string is received. In order to achieve this, the T terminator forces the router or gateway to wait until the full dial-string is received. The router or gateway:
 
 Waits for a set interdigit timeout before the device routes the call.
 
-Routes the call once the device receives the # termination character in the dial-string. For example, if you dialed 5551212# , the # indicates to the router that you dialed all the digits and that all digits prior to the # must be used to match a dial peer.
+Routes the call once the device receives the # termination character in the dial-string. For example, if you dialed 5551212#, the # indicates to the router that you dialed all the digits and that all digits prior to the # must be used to match a dial peer.
 
 This example helps clarify this concept:
 
-Assume the router in this example receives a call setup with dial-string 95551212 from the network. Dial peer 2 then forwards to the PSTN the digits 5551212 :
+Assume the router in this example receives a call setup with dial-string 95551212 from the network. Dial peer 2 then forwards to the PSTN the digits 5551212:
 
 ```
 dial-peer voice 2 pots destination-pattern 9T port 2/0:23
 ```
 
-Assume the dial-string from an inbound POTS interface is 81690 :
+Assume the dial-string from an inbound POTS interface is 81690:
 
 ```
 dial-peer voice 3 voip
@@ -282,11 +278,11 @@ In this case, the longest-prefix rule applies, and dial peer 4 is matched for th
 
 The default interdigit timeout is set for 10 seconds. In order to modify this value, issue the timeouts interdigit seconds voice-port command.
 
-Anytime the T is used, T must be preceded by a full stop ( . ) or digits ( T or 555T for example). If you use T alone, the dial peers act improperly and effect how calls are handled by the router.
+Anytime the T is used, T must be preceded by a full stop (.) or digits (T or 555T for example). If you use T alone, the dial peers act improperly and effect how calls are handled by the router.
 
 ## Dial Peer Operational Status
 
-A dial peer operational status must be administratively up and valid for the dial peer to be matched. In order to be considered operational, dial peers must meet one of these conditions:
+A dial peer operational status must be administratively set up and valid for the dial peer to be matched. In order to be considered operational, dial peers must meet one of these conditions:
 
 Destination-pattern is configured, and a voice-port or session target is also configured.
 
@@ -488,6 +484,12 @@ SignalingType=cas
 
 ### Revision History
 
+3.0
+
+18-Aug-2026
+
+Recertification - Updatted Formatting.
+
 2.0
 
 19-May-2025
@@ -500,11 +502,11 @@ Updated and Recertification, reformatting.
 
 Initial Release
 
-| Dial Peer Attribute | Description | Call Setup Element (See the next table.) |
+| Dial Peer Attribute | Description | Call Setup Element (See the next table) |
 |---|---|---|
 | gwy(config-dial-peer)# incoming called-number DNIS_string | This dial peer command defines the called number destination or dialed number identification service (DNIS) string. When properly configured, this dial peer command uses the called number to match the incoming call leg to an inbound dial peer. | Called number (DNIS) |
 | gwy(config-dial-peer)# answer-address ANI_string | This dial peer command defines the initial calling number or automatic number identification (ANI) string. When properly configured, this dial peer command uses the calling number to match the incoming call leg to an inbound dial peer. | Calling Number (ANI) |
-| gwy(config-dial-peer)# destination-pattern string | When inbound call legs are matched, this command uses the calling number (initial or ANI string) to match the incoming call leg to an inbound dial peer. | Calling Number (ANI) for inbound or the Called number (DNIS) strings for outbound |
+| gwy(config-dial-peer)# destination-pattern string | When inbound call legs are matched, this command uses the calling number (initial or ANI string) to match the incoming call leg to an inbound dial peer. | Calling Number (ANI) for inbound or the Called number (DNIS) strings for outbound |
 | gwy(config-dial-peer)# port port | This dial peer command defines the POTS voice port through which calls to this dial peer are placed. | Voice Port |
 
 | Call Setup Element | Description |
@@ -638,5 +640,6 @@ SignalingType=cas |
 
 | Revision | Publish Date | Comments |
 |---|---|---|
+| 3.0 | 18-Aug-2026 | Recertification - Updatted Formatting. |
 | 2.0 | 19-May-2025 | Updated and Recertification, reformatting. |
 | 1.0 | 11-Dec-2001 | Initial Release |

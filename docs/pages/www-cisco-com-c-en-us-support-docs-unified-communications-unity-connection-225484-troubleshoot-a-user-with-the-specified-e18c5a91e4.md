@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unity-connection-225484-troubleshoot-a-user-with-the-specified-e18c5a91e4
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/225484-troubleshoot-a-user-with-the-specified.html
-retrieved_at: 2026-08-16T18:57:23.313225+00:00
+retrieved_at: 2026-08-19T00:11:22.292996+00:00
 ---
 
 Troubleshoot "A User with the Specified Extension Already Exists in the Partition" Error
@@ -83,6 +83,18 @@ Step 7 . Once identified the user, modify the configuration as needed.
 16-Feb-2026
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Fernando Garrido
+
+Technical Consulting Engineer
+
+### This Document Applies to These Products
+
+- Unity Connection
+
+- Unity Connection Version 15
 
 | Revision | Publish Date | Comments |
 |---|---|---|

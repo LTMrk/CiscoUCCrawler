@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-conferencing-ciscomeetingserver-installation-virtualization-cisco-meeting-server-html-a51f1e78d2
 source_url: https://www.cisco.com/c/en/us/td/docs/conferencing/ciscoMeetingServer/Installation/virtualization-cisco-meeting-server.html
-retrieved_at: 2026-08-16T14:20:20.514050+00:00
+retrieved_at: 2026-08-19T00:13:53.247310+00:00
 ---
 
 Virtualization for Cisco Meeting Server
 
 # Virtualization for Cisco Meeting Server
-
-Log in to Save Content
 
 # Virtualization for Cisco Meeting Server
 

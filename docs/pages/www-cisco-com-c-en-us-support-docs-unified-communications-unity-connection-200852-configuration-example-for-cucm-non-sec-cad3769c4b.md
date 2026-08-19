@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unity-connection-200852-configuration-example-for-cucm-non-sec-cad3769c4b
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/200852-Configuration-Example-for-CUCM-non-secur.html
-retrieved_at: 2026-08-16T18:54:14.700139+00:00
+retrieved_at: 2026-08-19T00:10:43.938901+00:00
 ---
 
 Configuration Example for CUCM Non-Secure SCCP Integration with CUC
@@ -131,6 +131,18 @@ There is currently no specific troubleshooting information available for this co
 10-Nov-2016
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Antara Sargam
+
+Cisco TAC Engineer
+
+### This Document Applies to These Products
+
+- Unified Communications Manager (CallManager)
+
+- Unity Connection
 
 | Revision | Publish Date | Comments |
 |---|---|---|

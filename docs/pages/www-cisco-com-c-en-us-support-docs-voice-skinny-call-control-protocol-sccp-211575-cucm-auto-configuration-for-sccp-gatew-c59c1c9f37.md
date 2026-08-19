@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-skinny-call-control-protocol-sccp-211575-cucm-auto-configuration-for-sccp-gatew-c59c1c9f37
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/skinny-call-control-protocol-sccp/211575-CUCM-Auto-Configuration-for-SCCP-Gateway.html
-retrieved_at: 2026-08-16T23:42:19.973692+00:00
+retrieved_at: 2026-08-19T00:13:07.657630+00:00
 ---
 
 CUCM Auto Configuration for SCCP Gateways
@@ -298,6 +298,10 @@ Jun 22 05:31:23.061: cmapp_sccp_cfg_global_parms: stcapp has been enabled
 Luis Ramirez
 
 Cisco TAC
+
+### Customers Also Viewed
+
+- Fax Troubleshoot Guide
 
 |  | Command or Action | Purpose |
 |---|---|---|
