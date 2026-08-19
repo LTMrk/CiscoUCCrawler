@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-readme-b-15su4cucrn-html-6f3715f399
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/readme/b_15su4cucrn.html
-retrieved_at: 2026-08-17T02:20:33.139882+00:00
+retrieved_at: 2026-08-19T01:36:52.142508+00:00
 ---
 
 Release Notes for Cisco Unity Connection Release 15 Service Update 4
@@ -379,6 +379,14 @@ Related Caveats—Cisco Unified Communications Manager 15SU4 Components that are
 Click a link in the Caveat Number column to view the latest information on the caveat in Bug Toolkit. (Caveats are listed
                         in order by severity, then by component, then by caveat number.)
 
+CSCwv45223
+
+Installation and Upgrade
+
+2
+
+CUC Release 15 Install/Upgrade Hangs on Server with Various AMD EPYC CPUs
+
 2
 
 3
@@ -574,6 +582,7 @@ https://research.ucdavis.edu/wp-content/uploads/Export-Control-Overview-of-Regul
 
 | Caveat Number | Component | Severity | Description |
 |---|---|---|---|
+| CSCwv45223 | Installation and Upgrade | 2 | CUC Release 15 Install/Upgrade Hangs on Server with Various AMD EPYC CPUs |
 | CSCwu52456 | messaging | 2 | CUC15SU4 Unified Messaging not working with Graph API due to parsing failure in Json response from O365. |
 | CSCwt99240 | messaging | 3 | CUC 15SU4 Mailbox Sync failure with Invalid Graph API URL after upgrade if Active Directory Site Name was not set to Empty
                                  on UMS Page before upgrade. |

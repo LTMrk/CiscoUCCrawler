@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-unified-messaging-guide-b-15cucumgx-b-15cucumgx-chapter-01-htm-111408aab8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/unified_messaging/guide/b_15cucumgx/b_15cucumgx_chapter_01.html
-retrieved_at: 2026-08-16T14:20:01.471718+00:00
+retrieved_at: 2026-08-19T01:42:39.626724+00:00
 ---
 
 Unified Messaging Guide for Cisco Unity Connection Release 15
@@ -40,8 +40,6 @@ If you allow Unity Connection to search for Exchange servers, you need to give p
                                     below section to grant permissions to the applicable Exchange server:
 
 Granting Permissions for Exchange 2016 or Exchange 2019
-
-Note
 
 Exchange Versions with Mailboxes That You Want Unity Connection to be Able to Access
 
@@ -186,8 +184,6 @@ Select Edit on the user page and then select Unified Messaging Account . On the 
 
 ### Task List for Configuring Unified Messaging with Exchange 2016 or Exchange 2019
 
-#### Procedure
-
 Step 1
 
 Make sure that
@@ -209,8 +205,6 @@ Granting Permissions for Exchange 2016 or Exchange 2019
 
 (Optional) Confirming Exchange 2016 or Exchange 2019 Authentication and SSL Settings
 
-Note
-
 Step 4
 
 If Unity
@@ -218,8 +212,6 @@ If Unity
                                           			 configure DNS:
 
 - set network dns
-
-Note
 
 For more
                                              				information on the CLI commands, see the applicable Command Line
@@ -278,8 +270,6 @@ Test unified
 
 #### Steps for Registering the Application on the Azure Portal
 
-##### Procedure
-
 Step 1
 
 Sign in to Azure portal global endpoint at (e.g., portal.azure.com) with Azure portal Administrator to create Unified Messaging
@@ -297,16 +287,12 @@ Step 4
 
 Select Certificates & secrets and create a new Client Secret that provides a Client Secret value, used for configuring Unified Messaging.
 
-Note
-
 Make sure to copy the value of Client secret at the time of creation otherwise you have to create a new Client Secret for
                                                             the application.
 
 Step 5
 
 Click Application permissions and add full_access_as_app permission in your application. To restrict the permissions, see steps mentioned in Task List for restricting Application Permissions to mailboxes .
-
-Note
 
 Ensure that full_access_as_app is the only permission assigned to the application.
 
@@ -317,16 +303,12 @@ On API permissions window, select Grant admin consent for "Customer Tenant Name 
 
 Step 7
 
-Note
-
 If you are configuring multiple Unified Messaging Services (UMS) on a single cluster, or if you have multiple clusters, you
                                                          must repeat steps 1 through 6 for each UMS or cluster.
 
 #### Steps for Configuring Unified Messaging with Office 365
 
 Following are the steps to be followed for configuring Unified Messaging with Office 365:
-
-##### Procedure
 
 Step 1
 
@@ -341,8 +323,6 @@ Navigate to Unified Messaging > Unified Messaging Services in Cisco Unity Connec
 On the New Unified Messaging Service page, select OAuth2 from the Web-Based Authentication Mode field.
 
 - OAuth2 : OAuth 2.0 based authentication mode.
-
-Note
 
 Basic and NTLM authentication modes are no longer supported, as Microsoft has deprecated Basic authentication. Cisco Unity
                                                             Connection supports only the OAuth2 authentication mode for configuring Unified Messaging with Office 365.
@@ -361,11 +341,7 @@ AD Authentication Endpoint. Its default value is https://login.microsoftonline.c
 
 Resource URI. Its default value is https://outlook.office365.com .
 
-Note
-
 For other applicable AD Authentication Endpoints, refer section Microsoft Entra ID authentication endpoints and Resource URI in Microsoft documentation available at link https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-national-cloud
-
-Note
 
 Repeat Steps 3 for the following:
 
@@ -388,8 +364,6 @@ set network dns
 
 set network dns options
 
-Note
-
 For more information on the CLI commands, see the applicable Command Line Interface Reference Guide for Cisco Unified Communications Solutions at http://www.cisco.com/en/US/products/ps6509/prod_maintenance_guides_list.html .
 
 Step 6
@@ -406,8 +380,6 @@ For more information, see the Uploading the Public Certificates to the Unity Con
 Step 7
 
 Create one Unified Messaging Service and configure all the users with that service account.
-
-Note
 
 If Unity Connection server is being shared by tenants for voicemail service, then multiple Unified Messaging Service accounts are required.
 
@@ -448,8 +420,6 @@ run cuc dbquery unitydirdb execute procedure csp_ConfigurationModifyBool(pFullNa
 
 You must restart Connection Mailbox Sync service for above CLI changes to come into effect.
 
-Note
-
 In case of cluster, execute the commands only on publisher server and after that make sure that database replication is working
                                                             fine.
 
@@ -460,8 +430,6 @@ Test the unified messaging service. For more information, see the Test Unified M
 ### Task List for Configuring Unified Messaging with Office 365 (Graph API)
 
 #### Steps for Registering the Application on the Azure Portal
-
-##### Procedure
 
 Step 1
 
@@ -479,8 +447,6 @@ On Microsoft Entra ID window, select App registrations and create a new applicat
 Step 4
 
 Select Certificates & secrets and create a new Client Secret that provides a Client Secret value, used for configuring Unified Messaging.
-
-Note
 
 Make sure to copy the value of Client secret at the time of creation otherwise you have to create a new Client Secret for
                                                             the application.
@@ -511,8 +477,6 @@ Contacts
 
 Contacts.ReadWrite
 
-Note
-
 For the API permissions the type should be "Application" .
 
 Customers upgrading to 15SU4 and later releases, can update API permissions before upgrade to have a seamless experience.
@@ -524,8 +488,6 @@ On API permissions window, select Grant admin consent for "Customer Tenant Name 
 
 Step 7
 
-Note
-
 If you are configuring multiple Unified Messaging Services (UMS) on a single cluster, or if you have multiple clusters, you
                                                          must repeat steps 1 through 6 for each UMS or cluster. In addition, it is recommended that you use a unique Application ID
                                                          for each cluster.
@@ -533,8 +495,6 @@ If you are configuring multiple Unified Messaging Services (UMS) on a single clu
 #### Steps for Configuring Unified Messaging with Office 365 on Cisco Unity Connection Admin page
 
 Following are the steps to be followed for configuring Unified Messaging with Office 365:
-
-##### Procedure
 
 Step 1
 
@@ -545,8 +505,6 @@ Navigate to Unified Messaging > Unified Messaging Services in Cisco Unity Connec
 On the New Unified Messaging Service page, select OAuth2 from the Web-Based Authentication Mode field.
 
 - OAuth2 : OAuth 2.0 based authentication mode.
-
-Note
 
 Basic and NTLM authentication modes are no longer supported, as Microsoft has deprecated Basic authentication. Cisco Unity
                                                             Connection supports only the OAuth2 authentication mode for configuring Unified Messaging with Office 365.
@@ -565,13 +523,9 @@ AD Authentication Endpoint. Its default value is https://login.microsoftonline.c
 
 Resource URI Its default value is https://graph.microsoft.com .
 
-Note
-
 For other applicable AD Authentication Endpoints (Microsoft Entra ID endpoint) and Resource URI (Microsoft Graph) , refer respective service root endpoints in Microsoft documentation available at link https://learn.microsoft.com/en-us/graph/deployments .
 
 Upon upgrade to 15SU4 and later releases, Resource URI will change from https://outlook.office365.com to https://graph.microsoft.com automatically for seamless experience.
-
-Note
 
 Repeat Steps 3 for the following:
 
@@ -586,8 +540,6 @@ Run the following CLI commands to configure DNS:
 set network dns
 
 set network dns options
-
-Note
 
 We recommend that you configure Unity Connection to use the same DNS environment in which the Active Directory environment
                                                                         is publishing its records.
@@ -607,15 +559,11 @@ Secure communication when you have configured Unity Connection to search for and
 
 For more information, see the Uploading the Public Certificates to the Unity Connection Server and https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/unified_messaging/guide/b_15cucumgx/b_15cucumgx_chapter_01.html#task_0EA8EF95E7274B5A81A2D4E7175FE7C8
 
-Note
-
 It is recommended to complete this configuration before upgrading to 15SU4 (or later releases).
 
 Step 5
 
 Create one Unified Messaging Service and configure all the users with that service account.
-
-Note
 
 If Unity Connection server is being shared by tenants for voicemail service, then multiple Unified Messaging Service accounts are required.
 
@@ -627,15 +575,11 @@ Step 7
 
 Test the unified messaging service. For more information, see the Test Unified Messaging Configuration
 
-Note
-
 When migrating from EWS to Microsoft Graph API-based integration for Office 365 during the upgrade to Cisco Unity Connection
                                                             15SU4 or later releases, the Unified Messaging Service (UMS) may require up to 4 hours to achieve full stability and operational
                                                             readiness.
 
 ### Task List for restricting Application Permissions to mailboxes
-
-#### Procedure
 
 Step 1
 
@@ -676,20 +620,14 @@ Run the New-ApplicationAccessPolicy cmdlet by the following command:.
 New-ApplicationAccessPolicy -AppId "**" -PolicyScopeGroupId "**" -AccessRight RestrictAccess -Description "Restrict this app to members."
 ```
 
-Note
-
 AppId is the Application Id of the Application for which you want to restrict the access. It will be the client id mentioned
                                                          in Microsoft Entra ID Portal for the application. You can also provide multiple appid's separated by commas. PolicyScopeGroupId
                                                          is Id to identify the group. It will be the Mail enabled security group mentioned in Step 1 .
-
-Note
 
 The steps may be changed or modified as per the latest updates available from Microsoft.
 
 ### Accessing Office
                            	 365 Using Remote Exchange Management Power Shell
-
-#### Procedure
 
 Step 1
 
@@ -721,8 +659,6 @@ $Session = New-PSSession
                                                 				  https://ps.outlook.com/powershell/ -Credential $LiveCred -Authentication Basic
                                                 				  -AllowRedirection
 
-Note
-
 Step 4
 
 Run the
@@ -753,8 +689,6 @@ http://community.office365.com/en-us/forums/158/t/71614.aspx .
 
 Gmail API provides server push notifications through which, user examine the changes in user mailbox on Gmail server. Whenever
                                  there is a change in user mailbox, Gmail API sends notification to Unity Connection.
-
-#### Procedure
 
 Step 1
 
@@ -924,8 +858,6 @@ Unity Connection accesses mailboxes on configured mail servers using an Active D
 
 For Office 365, Exchange 2019, Exchange 2016 following operations are performed through Exchange Web Services (EWS).
 
-Note
-
 Starting with Release 15SU4 and later, for office 365 the following operations are performed through the Microsoft Graph API.
 
 Tracking changes to messages in Exchange
@@ -974,8 +906,6 @@ When administrator is configuring unified messaging for intersite networking or 
 
 #### Granting Permissions for Exchange 2016 or Exchange 2019
 
-##### Procedure
-
 Step 1
 
 Sign in to a
@@ -996,8 +926,6 @@ New-ManagementRoleAssignment -Name: <RoleName> - Role:ApplicationImpersonation -
 
 If you have created more than one unified messaging services account, repeat Step 2 for the remaining accounts. Specify a different value for RoleName for each unified messaging services account.
 
-Note
-
 ### Confirming
                            	 Authentication and SSL Settings
 
@@ -1015,8 +943,6 @@ After configuring the authentication mode and web-based protocols on
                               		specify in the servers.
 
 #### Confirming Exchange 2016 or Exchange 2019 Authentication and SSL Settings
-
-##### Procedure
 
 Step 1
 
@@ -1134,8 +1060,6 @@ To enable the paged view functionality for messages, you must
 Do the following
                                  		  to configure paged view functionality:
 
-#### Procedure
-
 Step 1
 
 Run the following CLI command:
@@ -1143,8 +1067,6 @@ Run the following CLI command:
 ```
 run cuc dbquery unitydirdb execute procedure csp_ConfigurationModifyBool(pFullName='System.Messaging.MbxSynch.MbxSynchUsePaging',pvalue=1)
 ```
-
-Note
 
 Step 2
 
@@ -1162,15 +1084,11 @@ where new value specifies the value of the voicemails count
                                              				delay in message synchronization between Unity Connection and Exchange server.
                                              				This voicemail count limit can be increased maximum up to 75000.
 
-Note
-
 ### Creating a Unified
                            	 Messaging Service to Access Mail Server
 
 Do the following procedure to create one or more unified
                               		messaging services in Unity Connection to access the supported mail server.
-
-Note
 
 #### Creating Unified
                               	 Messaging Services in Unity Connection
@@ -1178,8 +1096,6 @@ Note
 If you are configuring Unity Connection to communicate with
                                     		  individual mail servers, you need to configure unified messaging services for
                                     		  each mail server.
-
-##### Procedure
 
 Step 1
 
@@ -1256,8 +1172,6 @@ Upload the public certificates to the Unity Connection server.
 #### Saving the Public
                               	 Certificate for Microsoft Certificate Services or Active Directory Certificate
                               	 Services to a File
-
-##### Procedure
 
 Step 1
 
@@ -1336,8 +1250,6 @@ If you issued SSL certificates for all of the servers listed in Step 1 using di
 #### Uploading the
                               	 Public Certificates to the Unity Connection Server
 
-##### Procedure
-
 Step 1
 
 In Cisco Unified Operating System Administration, expand
@@ -1382,8 +1294,6 @@ At the time of
                                  		  Exchange Servers" for Office 365, you must perform the following steps to
                                  		  upload Office 365 root certificate to the tomcat-trust of Cisco Unity
                                  		  Connection.
-
-#### Procedure
 
 Step 1
 
@@ -1430,8 +1340,6 @@ Caution
 At the time of creating unified messaging services, if you select "Validate Certificates for Exchange Servers" for Office
                                  365, you must perform the following steps to upload Office 365 root certificate to the tomcat-trust of Cisco Unity Connection.
 
-#### Procedure
-
 Step 1
 
 Select the Office 365 Microsoft Graph API endpoint URL http://graph.microsoft.com and download the Office 365 root certificate.
@@ -1462,14 +1370,10 @@ Select Upload File.
 
 Caution
 
-Note
-
 It is recommended to upload the certificate before performing the upgrade. If you upload the certificate after upgrading the
                                              setup, you must restart the Connection Mailbox Sync service after the certificate upload.
 
 ### Settings Configured on Unity Connection Users
-
-#### Procedure
 
 Step 1
 
@@ -1489,8 +1393,6 @@ On the Edit Class of Service page, in the Licensed
 Step 3
 
 You must configure message aging or message quotas. For more information, see the “ Message Storage ” chapter of the System Administration Guide for Cisco Unity Connection, Release 15 , available at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/administration/guide/b_15cucsag.html
-
-Note
 
 Step 4
 
@@ -1537,8 +1439,6 @@ You can create a large number of unified messaging accounts using Bulk Administr
                                     or deleting unified messaging accounts using BAT tool, see the “ Bulk Administration Tool ” section of the “Tools” chapter of the System Administration Guide for Cisco Unity Connection, Release 14 , available at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/administration/guide/b_14cucsag.html .
 
 For information on synchronization behavior if you later disable single inbox in a unified messaging account, see the “Moving and Restoring Exchange Mailboxes” chapter.
-
-##### Procedure
 
 Step 1
 
@@ -1609,8 +1509,6 @@ The current unified messaging settings for each unified
 ##### Viewing a Summary
                                  	 of Configuration of Unified Messaging Accounts for Unity Connection
 
-###### Procedure
-
 Step 1
 
 In Cisco Unity Connection Administration, expand Unified
@@ -1644,8 +1542,6 @@ You can run a Unity Connection system test that includes tests
 Do the following to check the system configuration and unified
                                     		  messaging configuration:
 
-##### Procedure
-
 Step 1
 
 In Cisco Unity Connection Administration, expand Tools and select Task Management .
@@ -1668,8 +1564,6 @@ Review the results, resolve problems, if any, and re-run the Check System Config
 
 If you configured Unity Connection to calendars, do the
                                     		  following procedure to test the access to calendars.
-
-##### Procedure
 
 Step 1
 
@@ -1719,8 +1613,6 @@ When a single inbox user receives a voicemail, it is
 Do the following
                                     		  procedure to resolve SMTP domain name configuration issues:
 
-##### Procedure
-
 Step 1
 
 In Cisco Unity Connection Administration, expand System
@@ -1733,8 +1625,6 @@ On the Smart Host page, enter the values of the required fields
                                              			 and select Save (For
                                              			 information on each field, see Help> This
                                                 				Page ).
-
-Note
 
 Step 3
 
@@ -1769,8 +1659,6 @@ In Cisco Unity Connection Administration, expand Users and select Users .
 On the Edit User Basics page, in the Edit menu, select Message
                                                       					 Actions . On the Edit Message Actions page, select the Accept the
                                                       					 Message option from the Voicemail drop- down list.
-
-Note
 
 Step 7
 
