@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-enterprise-14-pa-14-add-html-e265f3606e
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/14/PA_14_Add.html
-retrieved_at: 2026-08-16T14:17:34.901271+00:00
+retrieved_at: 2026-08-19T00:34:23.732189+00:00
 ---
 
 Addendum: Preferred Architecture for Cisco Collaboration 14 Enterprise On-Premises Deployments
 
 # Addendum: Preferred Architecture for Cisco Collaboration 14 Enterprise On-Premises Deployments
-
-Log in to Save Content
 
 ### Download Options
 
@@ -47,12 +45,6 @@ This information belongs in the following sections/subsections of the Call Contr
 ■ Architecture > Integration with Apple Push Notification Service (APNs)
 
 ■ Deployment Overview > Initial Cisco Unified CM Configuration > Onboarding for Push Notifications via Apple Push Notification Service (APNs)
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 
