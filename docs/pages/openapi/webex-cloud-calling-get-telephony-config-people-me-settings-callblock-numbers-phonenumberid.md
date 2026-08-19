@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:43.185160+00:00
+retrieved_at: 2026-08-19T19:15:07.963639+00:00
 ---
 
 # GET /telephony/config/people/me/settings/callBlock/numbers/{phoneNumberId}

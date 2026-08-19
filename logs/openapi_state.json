@@ -197,10 +197,10 @@
     "sha": "760edc4f4265e70aa2991c7ed622ea4bd8a5f249"
   },
   "webex-cloud-calling.json": {
-    "actualizado": "2026-08-18T23:45:43.433439+00:00",
+    "actualizado": "2026-08-19T19:15:08.223322+00:00",
     "api": "Webex Cloud Calling",
     "api_version": "1.0.0",
-    "content_sha": "26835d87e7d347cf5199f34a69d7854bbee275b2f7e3dde6b7fcdbe494b0ab4a",
+    "content_sha": "05b6e28f47b867cbc2c489148845d97ee39b0d94d8f37bcbf2a4d4b2571fa490",
     "deprecadas": {
       "GET /people/{personId}/features/applications": true,
       "GET /telephony/config/people/{personId}/applications/{applicationId}/availableMembers": true,
@@ -303,6 +303,7 @@
       "DELETE /telephony/config/workspaces/{workspaceId}/sequentialRing/criteria/{id}": "webex-cloud-calling-delete-telephony-config-workspaces-workspaceid-sequentialring-criteria-id",
       "DELETE /telephony/config/workspaces/{workspaceId}/simultaneousRing/criteria/{id}": "webex-cloud-calling-delete-telephony-config-workspaces-workspaceid-simultaneousring-criteria-id",
       "DELETE /telephony/voiceMessages/{messageId}": "webex-cloud-calling-delete-telephony-voicemessages-messageid",
+      "DELETE /telephony/webhookInterestRegistrations": "webex-cloud-calling-delete-telephony-webhookinterestregistrations",
       "DELETE /workspaces/{workspaceId}": "webex-cloud-calling-delete-workspaces-workspaceid",
       "DELETE /workspaces/{workspaceId}/features/outgoingPermission/accessCodes": "webex-cloud-calling-delete-workspaces-workspaceid-features-outgoingpermission-accesscodes",
       "GET /admin/convergedRecordings": "webex-cloud-calling-get-admin-convergedrecordings",
@@ -813,8 +814,10 @@
       "GET /telephony/config/workspaces/{workspaceId}/voicemail": "webex-cloud-calling-get-telephony-config-workspaces-workspaceid-voicemail",
       "GET /telephony/pstn/locations/{locationId}/connection": "webex-cloud-calling-get-telephony-pstn-locations-locationid-connection",
       "GET /telephony/pstn/locations/{locationId}/connectionOptions": "webex-cloud-calling-get-telephony-pstn-locations-locationid-connectionoptions",
+      "GET /telephony/queues/{queueId}/calls": "webex-cloud-calling-get-telephony-queues-queueid-calls",
       "GET /telephony/voiceMessages": "webex-cloud-calling-get-telephony-voicemessages",
       "GET /telephony/voiceMessages/summary": "webex-cloud-calling-get-telephony-voicemessages-summary",
+      "GET /telephony/webhookInterestRegistrations": "webex-cloud-calling-get-telephony-webhookinterestregistrations",
       "GET /workspaces": "webex-cloud-calling-get-workspaces",
       "GET /workspaces/{workspaceId}": "webex-cloud-calling-get-workspaces-workspaceid",
       "GET /workspaces/{workspaceId}/capabilities": "webex-cloud-calling-get-workspaces-workspaceid-capabilities",
@@ -1018,6 +1021,7 @@
       "POST /telephony/pstn/locations/{locationId}/emergencyAddress/lookup": "webex-cloud-calling-post-telephony-pstn-locations-locationid-emergencyaddress-lookup",
       "POST /telephony/voiceMessages/markAsRead": "webex-cloud-calling-post-telephony-voicemessages-markasread",
       "POST /telephony/voiceMessages/markAsUnread": "webex-cloud-calling-post-telephony-voicemessages-markasunread",
+      "POST /telephony/webhookInterestRegistrations": "webex-cloud-calling-post-telephony-webhookinterestregistrations",
       "POST /workspaces": "webex-cloud-calling-post-workspaces",
       "POST /workspaces/{workspaceId}/features/outgoingPermission/accessCodes": "webex-cloud-calling-post-workspaces-workspaceid-features-outgoingpermission-accesscodes",
       "PUT /locations/{locationId}": "webex-cloud-calling-put-locations-locationid",
@@ -1296,7 +1300,7 @@
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/accessCodes": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-accesscodes",
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/autoTransferNumbers": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-autotransfernumbers"
     },
-    "sha": "bc4425b2081bc50108d7477b929669d9650488de"
+    "sha": "55c160f4f37c7e538e0b0628dbffa32bd38958a0"
   },
   "webex-contact-center.json": {
     "actualizado": "2026-08-18T23:45:43.879040+00:00",

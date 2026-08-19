@@ -10,7 +10,7 @@ tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:43.416050+00:00
+retrieved_at: 2026-08-19T19:15:08.204458+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/numbers

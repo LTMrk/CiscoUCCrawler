@@ -10,7 +10,7 @@ tags: Features: Announcement Playlist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:43.282534+00:00
+retrieved_at: 2026-08-19T19:15:08.013770+00:00
 ---
 
 # GET /telephony/config/announcements/playlists/{playlistId}

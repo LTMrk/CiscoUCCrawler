@@ -10,7 +10,7 @@ tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:43.363086+00:00
+retrieved_at: 2026-08-19T19:15:08.144076+00:00
 ---
 
 # GET /people/{personId}/features/executiveAssistant

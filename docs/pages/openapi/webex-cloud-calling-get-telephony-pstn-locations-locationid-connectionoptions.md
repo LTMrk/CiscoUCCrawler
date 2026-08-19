@@ -10,7 +10,7 @@ tags: PSTN
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:43.355536+00:00
+retrieved_at: 2026-08-19T19:15:08.136067+00:00
 ---
 
 # GET /telephony/pstn/locations/{locationId}/connectionOptions

@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:43.370555+00:00
+retrieved_at: 2026-08-19T19:15:08.152392+00:00
 ---
 
 # POST /telephony/config/jobs/person/moveLocation/{jobId}/actions/resume/invoke

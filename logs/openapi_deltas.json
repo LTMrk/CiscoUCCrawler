@@ -1,7 +1,14 @@
 {
-  "run_at": "2026-08-19T01:57:51.183349+00:00",
-  "added": [],
+  "run_at": "2026-08-19T19:15:08.227266+00:00",
+  "added": [
+    "Webex Cloud Calling: GET /telephony/queues/{queueId}/calls",
+    "Webex Cloud Calling: POST /telephony/webhookInterestRegistrations",
+    "Webex Cloud Calling: GET /telephony/webhookInterestRegistrations",
+    "Webex Cloud Calling: DELETE /telephony/webhookInterestRegistrations"
+  ],
   "removed": [],
   "deprecated": [],
-  "specs_cambiados": []
+  "specs_cambiados": [
+    "webex-cloud-calling.json"
+  ]
 }

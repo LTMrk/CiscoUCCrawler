@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:43.299865+00:00
+retrieved_at: 2026-08-19T19:15:08.031332+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/queues/{queueId}/callForwarding/selectiveRules/{ruleId}
