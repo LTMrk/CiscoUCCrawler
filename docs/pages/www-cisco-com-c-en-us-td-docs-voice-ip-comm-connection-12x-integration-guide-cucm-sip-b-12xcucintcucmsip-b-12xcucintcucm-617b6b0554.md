@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-integration-guide-cucm-sip-b-12xcucintcucmsip-b-12xcucintcucm-617b6b0554
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/integration/guide/cucm_sip/b_12xcucintcucmsip/b_12xcucintcucmsip_chapter_010.html
-retrieved_at: 2026-08-16T14:20:06.309408+00:00
+retrieved_at: 2026-08-19T00:45:25.822378+00:00
 ---
 
 Cisco Unified Communications Manager SIP Integration Guide for Cisco Unity Connection Release 12.x
@@ -19,8 +19,6 @@ Chapter: Setting Up a Cisco Unified Communications Manager SIP Trunk Integration
 This chapter provides instructions for setting up a Cisco Unified Communications Manager SIP trunk integration with Cisco Unity
                         Connection. This document does not apply to the configuration in which Unity Connection is installed as Cisco Business Edition—on
                         the same server with Cisco Unified CM.
-
-Note
 
 If you are configuring MWI relay across trunks in a distributed phone system, you must see the Cisco Unified CM documentation
                                     for requirements and instructions. Configuring MWI relay across trunks does not involve Unity Connection settings.
@@ -104,8 +102,6 @@ Integration between Cisco Unified CM and Unity Connection
 Integration between Cisco Unified CM and Unity Connection
                                           					 (Cluster mode)
 
-Note
-
 If this is the first integration, the first phone system is
                                           			 automatically selected in the default user template. The users that you add
                                           			 after creating the phone system integration are assigned to this phone system
@@ -121,8 +117,6 @@ If this is the first integration, the first phone system is
 There must be a c alling search space that is used by all user phones (directory numbers). Otherwise, the integration does
                               not function correctly. For instructions on setting up a calling search space and assigning user phones to it, see the Cisco
                               Unified CM Help.
-
-### Procedure
 
 Step 1
 
@@ -169,8 +163,6 @@ The Device Security Mode
                                                             								setting on the Cisco Unified CM server must match the Security Mode setting on
                                                             								the Unity Connection server (Authenticated or Encrypted).
 
-Note
-
 If Next Generation Encryption is enabled on Cisco Unity Connection, " Encrypted " must be selected on Cisco Unified CM server.
 
 X.509 Subject Name
@@ -182,8 +174,6 @@ If you enable Cisco Unified CM authentication and encryption,
                                                       						  enter Connection or another
                                                       						  name. This name must match the Subject Name field for the SIP certificate on
                                                       						  the Unity Connection server.
-
-Note
 
 X.509 Subject Name must match the FQDN of Unity Connection server.
 
@@ -204,8 +194,6 @@ Step 4
 Select Save .
 
 ## Creating SIP Profile
-
-### Procedure
 
 Step 1
 
@@ -252,8 +240,6 @@ Select Save .
 
 ## Creating SIP
                         	 Trunk
-
-### Procedure
 
 Step 1
 
@@ -372,8 +358,6 @@ The IPv6 address should
                                                       						  be in canonical textual representation format proposed by “RFC 5952” standard for
                                                       						  IPv6 Address Text Representation.
 
-Note
-
 IPv6 is supported for SIP
                                                                   							 integrations between Unity Connection and Cisco Unified CM .
 
@@ -419,8 +403,6 @@ Select Save .
 
 ## Creating Route Pattern
 
-### Procedure
-
 Step 1
 
 On the Call Routing menu, navigate to Route/Hunt > and select > Route Pattern .
@@ -455,8 +437,6 @@ Step 4
 Select Save .
 
 ## Creating Route Group
-
-### Procedure
 
 Step 1
 
@@ -508,8 +488,6 @@ Step 7
 Select Save .
 
 ## Creating Route List
-
-### Procedure
 
 Step 1
 
@@ -582,8 +560,6 @@ Select Close .
 
 ## Creating Voice Mail Pilot
 
-### Procedure
-
 Step 1
 
 On the Advanced Features menu, navigate to Voice Mail > and select > Voice Mail Pilot .
@@ -632,8 +608,6 @@ Step 4
 Select Save .
 
 ## Setting Up Voice Mail Profile
-
-### Procedure
 
 Step 1
 
@@ -699,8 +673,6 @@ If you do not want to set up SIP digest
                               		  authentication, continue to the “Configuring Unity
                                  			 Connection for Integration” section on page 3-12 .
 
-### Procedure
-
 Step 1
 
 In Cisco Unified CM Administration,
@@ -737,8 +709,6 @@ If you changed any settings, select Save . Then shut down and
 
 ## (Optional) Setting Up SIP Digest Authentication
 
-### Procedure
-
 Step 1
 
 On the System menu, navigate to Security > and sele ct > SIP Trunk Security
@@ -761,8 +731,6 @@ Step 4
 Select Save .
 
 ## (Optional) Creating Application User
-
-### Procedure
 
 Step 1
 
@@ -858,8 +826,6 @@ Select Save .
 Do the following
                               		  configurations if Unity Connection connects to an AXL server.
 
-### Procedure
-
 Step 1
 
 Expand Telephony
@@ -882,8 +848,6 @@ Connecting to
                                           				Unified CM database for importing Cisco Unified CM users and for changing
                                           				certain phone settings for users of Cisco Unity Connection personal call
                                           				transfer rules.
-
-Note
 
 Step 4
 
@@ -915,11 +879,7 @@ Under AXL
 
 Username
 
-Note
-
 Password
-
-Note
 
 Cisco
                                                       						  Unified Communications Manager Version
@@ -1028,8 +988,6 @@ After ensuring that Cisco Unified Communications Manager and Unity Connection ar
 
 ### Creating an
                            	 Integration
-
-#### Procedure
 
 Step 1
 
@@ -1143,8 +1101,6 @@ Select the SIP security profile that Unity Connection uses.
 
 Enable Next Generation Encryption
 
-Note
-
 ( Only when a secure TLS
                                                                         								port is used ) Check this check box if you want Unity Connection to use RSA
                                                                      							 key based or EC key based certificates (self signed and third party
@@ -1217,8 +1173,6 @@ You must enter an IP
                                                          						  Address or Host Name field (or, if applicable, enter information in both
                                                          						  fields). You cannot leave both fields blank.
 
-Note
-
 IPv6 is supported for SIP
                                                                      							 integrations with Cisco Unified CM 10.0.
 
@@ -1283,8 +1237,6 @@ You must enter an IP
                                                                								Address or Host Name field (or, if applicable, enter information in both
                                                                								fields). You cannot leave both fields blank.
 
-Note
-
 IPv6 is supported for SIP
                                                                            								  integrations with Cisco Unified CM 10.0.
 
@@ -1347,8 +1299,6 @@ You must enter an IP
                                                                								Address or Host Name field (or, if applicable, enter information in both
                                                                								fields). You cannot leave both fields blank.
 
-Note
-
 - IPv6 is supported for SIP
                                                                                  									 integrations with Cisco Unified CM 10.0.
 
@@ -1392,8 +1342,6 @@ Number of Ports
 Enter the number of voice
                                                          						  messaging ports that you want to create in this port group.
 
-Note
-
 For a Unity Connection
                                                                      							 cluster, you must enter the total number of voice messaging ports that are used
                                                                      							 by all Unity Connection servers. Each port is later assigned to a specific
@@ -1418,8 +1366,6 @@ Step 13
 
 On the Search Ports page, select the display name of the first
                                           			 voice messaging port that you created for this phone system integration.
-
-Note
 
 By default, the display names for the voice messaging ports are
                                                          				  composed of the port group display name followed by incrementing numbers.
@@ -1600,8 +1546,6 @@ Below are the steps to generate
                                        		  RSA key based certificates of Unity Connection and uploading them on Cisco
                                        		  Unified CM:
 
-###### Procedure
-
 Step 1
 
 On Unity Connection, sign in to Cisco
@@ -1701,8 +1645,6 @@ Navigate to Upload File, select Browse and
                                                 			 Connection third party certificates, browse to the root/chain certificate of
                                                 			 third party Certification Authority saved in Step 12 .
 
-Note
-
 In case of Unity Connection cluster,
                                                                				  generate and upload self signed certificates of both publisher and subscriber
                                                                				  in CallManager-trust of Cisco Unified CM.
@@ -1717,8 +1659,6 @@ Select Upload .
 Below are the
                                        		  steps to generate RSA based certificates of Cisco Unified CM and uploading them
                                        		  on Unity Connection:
-
-###### Procedure
 
 Step 1
 
@@ -1798,8 +1738,6 @@ Step 16
 
 Select Upload .
 
-Note
-
 #### Settings for EC
                               	 Key Based certificates
 
@@ -1809,8 +1747,6 @@ Note
 Below are the
                                        		  steps to generate EC key based certificates of Unity Connection and uploading
                                        		  them on Cisco Unified CM:
-
-###### Procedure
 
 Step 1
 
@@ -1915,8 +1851,6 @@ Navigate to Upload File, select Browse and upload the Unity
                                                 			 Connection third party certificates, browse to the root/chain certificate of
                                                 			 third party Certification Authority saved in Step 12.
 
-Note
-
 In case of Unity Connection cluster, generate and upload self
                                                                				  signed certificates of both publisher and subscriber in CallManager-trust of
                                                                				  Cisco Unified CM.
@@ -1931,8 +1865,6 @@ Select Upload.
 Below are the
                                        		  steps to generate EC key based certificates of Cisco Unified CM and uploading
                                        		  them on Unity Connection:
-
-###### Procedure
 
 Step 1
 
@@ -2011,12 +1943,8 @@ Step 16
 
 Select Upload .
 
-Note
-
 ### Security Mode
                            	 Settings
-
-#### Procedure
 
 Step 1
 
@@ -2066,8 +1994,6 @@ Configure TLS Ciphers as mentioned in section TLS
 Below are the steps to configure TLS Cipher option in Unity
                                  		  Connection and Cisco Unified CM:
 
-#### Procedure
-
 Step 1
 
 Sign in to Cisco Unified CM Administration page, navigate to Systems > Enterprise
@@ -2094,8 +2020,6 @@ Step 5
 
 Select Restart .
 
-Note
-
 In case of Cisco Unified CM cluster, the Cisco Call Manager
                                                          				  service needs to be restarted on both publisher and subscriber server.
 
@@ -2121,8 +2045,6 @@ Go to Tools > Service
                                              				Management and stop Connection
                                              				Conversation Manager . Once the Connection Conversation Manager service is
                                           			 stopped, start it again.
-
-Note
 
 In case of Unity Connection cluster, Connection Conversation Manager needs to be restarted on
                                                          				  both publisher and subscriber.
@@ -2221,8 +2143,6 @@ If you want to
                                  		  enable Next Generation Security over RTP interface, configure SRTP Ciphers as
                                  		  mentioned below:
 
-#### Procedure
-
 Step 1
 
 Sign in to Cisco Unified CM Administration page, navigate to Systems > Enterprise
@@ -2249,8 +2169,6 @@ Step 5
 
 Select Restart .
 
-Note
-
 In case of Cisco Unified CM cluster, the Cisco Call Manager
                                                          				  service needs to be restarted on both publisher and subscriber server.
 
@@ -2276,8 +2194,6 @@ Go to Tools > Service
                                              				Management and stop Connection
                                              				Conversation Manager . Once the Connection Conversation Manager service is
                                           			 stopped, start it again.
-
-Note
 
 In case of Unity Connection cluster, Connection
                                                             					 Conversation Manager needs to be restarted on both publisher and

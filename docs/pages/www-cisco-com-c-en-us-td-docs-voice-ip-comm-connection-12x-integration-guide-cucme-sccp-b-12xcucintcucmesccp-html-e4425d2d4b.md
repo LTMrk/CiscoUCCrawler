@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-integration-guide-cucme-sccp-b-12xcucintcucmesccp-html-e4425d2d4b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/integration/guide/cucme_sccp/b_12xcucintcucmesccp.html
-retrieved_at: 2026-08-16T14:19:06.312922+00:00
+retrieved_at: 2026-08-19T00:45:34.213244+00:00
 ---
 
 Cisco Unified Communications Manager Express SCCP Integration Guide for Cisco Unity Connection Release 12.x
 
 # Cisco Unified Communications Manager Express SCCP Integration Guide for Cisco Unity Connection Release 12.x
-
-Log in to Save Content
 
 ### Download Options
 
@@ -586,10 +584,6 @@ Do the procedures
 #### Configuring the
                      	 Message Button Access to Unity Connection (without a Cluster)
 
-Procedure
-
-##### Procedure
-
 On the Cisco
                                     			 Unified CM Express router, go into the telephony-service configuration mode by
                                     			 entering the following command:
@@ -621,10 +615,6 @@ voicemail 4001
 
 #### Configuring the
                      	 Router for Unity Connection (without a Cluster)
-
-Procedure
-
-##### Procedure
 
 Go into the
                                     			 ephone-dn configuration mode and configure the directory number tag for the
@@ -789,10 +779,6 @@ The port number
 #### Associating a
                      	 Voicemail Port to Cisco Unified CM Express Router
 
-Procedure
-
-##### Procedure
-
 Go into the
                                     			 ephone configuration mode and register the Cisco IP phones by entering the
                                     			 following command:
@@ -879,10 +865,6 @@ MWI configuration
                            		  processing ephone-dn extensions are configured to match the MWI extensions
                            		  configured on Unity Connection.
 
-Procedure
-
-##### Procedure
-
 Go into the
                                     			 ephone-dn configuration mode and configure the directory numbers for the Cisco
                                     			 IP phone lines by entering the following command:
@@ -959,10 +941,6 @@ Do the procedures
 #### Configuring the
                      	 Message Button Access to a Unity Connection Cluster
 
-Procedure
-
-##### Procedure
-
 On the Cisco
                                     			 Unified CM Express router, go into the telephony-service configuration mode by
                                     			 entering the following command:
@@ -994,10 +972,6 @@ voicemail 4001
 
 #### Configuring the
                      	 Router for a Unity Connection Cluster
-
-Procedure
-
-##### Procedure
 
 Go into the
                                     			 ephone-dn configuration mode and configure the directory number tag for the
@@ -1196,10 +1170,6 @@ The port number part (for example, “1”) must match the number part
 #### Associating a
                      	 Voice Messaging Port to Cisco Unified CM Express Router
 
-Procedure
-
-##### Procedure
-
 Go into the
                                     			 ephone configuration mode and register the Cisco IP phones by entering the
                                     			 following command:
@@ -1302,10 +1272,6 @@ MWI configuration
                            		  processing ephone-dn extensions are configured to match the MWI extensions
                            		  configured on Unity Connection.
 
-Procedure
-
-##### Procedure
-
 Go into the
                                     			 ephone-dn configuration mode and configure the directory numbers for the Cisco
                                     			 IP phone lines by entering the following command:
@@ -1393,10 +1359,6 @@ Do the
                      	 Message Button Access to Unity Connection (Multiple Cisco Unified CM Express
                      	 Routers)
 
-Procedure
-
-##### Procedure
-
 On the Cisco
                                     			 Unified CM Express router, go into the telephony-service configuration mode by
                                     			 entering the following command:
@@ -1428,10 +1390,6 @@ voicemail 4001
 
 #### Configuring the
                      	 Router for Unity Connection (Multiple Cisco Unified CM Express Routers)
-
-Procedure
-
-##### Procedure
 
 Go into the
                                     			 ephone-dn configuration mode and configure the directory number tag for the
@@ -1684,10 +1642,6 @@ The port number
 #### Associating a
                      	 Voicemail Device with Cisco Unified CM Express Router
 
-Procedure
-
-##### Procedure
-
 Go into the
                                     			 ephone configuration mode and register the Cisco IP phones by entering the
                                     			 following command:
@@ -1801,10 +1755,6 @@ button 1:39
 #### Configuring the
                      	 SIP MWI Server (Multiple Cisco Unified CM Express Routers)
 
-Procedure
-
-##### Procedure
-
 Go into the
                                     			 SIP user-agent configuration mode by entering the following command:
 
@@ -1878,10 +1828,6 @@ Continue to
 #### Configuring MWIs
                      	 for Each Directory Number (Multiple Cisco Unified CM Express Routers)
 
-Procedure
-
-##### Procedure
-
 Go into the
                                     			 ephone-dn configuration mode and configure the directory numbers for the Cisco
                                     			 IP phone lines by entering the following command:
@@ -1933,10 +1879,6 @@ MWI configuration
                            		  processing ephone-dn for each MWI ephone-dnvoice messaging port. The MWI
                            		  processing ephone-dn extensions are configured to match the MWI extensions
                            		  configured on Unity Connection.
-
-Procedure
-
-##### Procedure
 
 Go into the
                                     			 ephone-dn configuration mode and configure the directory numbers for the Cisco
@@ -1997,10 +1939,6 @@ MWI relay is
                            		  and notifier mechanism for MWI relay. The Cisco Unified CM Express router that
                            		  is the SIP MWI relay server acts as the SIP notifier. The other Cisco Unified
                            		  CM Express routers (the SIP MWI clients) act as the SIP subscribers.
-
-Procedure
-
-##### Procedure
 
 Go into the
                                     			 telephony-service configuration mode by entering the following command:
@@ -2100,10 +2038,6 @@ The Catalyst 6000
                            		  T1/PRI and FXS gateways enable DTMF relay by default and do not need additional
                            		  configuration to enable this feature.
 
-Procedure
-
-##### Procedure
-
 On a VoIP
                                     			 dial-peer that points to a Cisco Unified CM Express router integrated with
                                     			 Unity Connection (the dial-peer must have a session target of the Cisco Unified
@@ -2129,10 +2063,6 @@ After ensuring that
 
 ### Creating an
                   	 Integration
-
-Procedure
-
-#### Procedure
 
 In Cisco Unity
                                  			 Connection Administration, expand Telephony
@@ -3119,10 +3049,6 @@ Troubleshooting Guide for
 ### Setting Up the
                   	 Test Configuration
 
-Procedure
-
-#### Procedure
-
 Set up two
                                  			 test extensions (Phone 1 and Phone 2) on the same phone system that Unity
                                  			 Connection is connected to.
@@ -3220,10 +3146,6 @@ In the right
 ### Testing an
                   	 External Call with Release Transfer
 
-Procedure
-
-#### Procedure
-
 From Phone 2,
                                  			 enter the access code necessary to get an outside line, then enter the number
                                  			 outside callers use to dial directly to Unity Connection.
@@ -3269,10 +3191,6 @@ Confirm that
 ### Testing Listening
                   	 to Messages
 
-Procedure
-
-#### Procedure
-
 From Phone 1,
                                  			 enter the internal pilot number for Unity Connection.
 
@@ -3308,10 +3226,6 @@ On the Port
 ### Setting Up
                   	 Supervised Transfer on Cisco Unity Connection
 
-Procedure
-
-#### Procedure
-
 In Cisco Unity
                                  			 Connection Administration, on the Edit Transfer Rule page for the test user, in
                                  			 the Transfer
@@ -3332,10 +3246,6 @@ Do not close
 
 ### Testing
                   	 Supervised Transfer
-
-Procedure
-
-#### Procedure
 
 From Phone 2,
                                  			 enter the access code necessary to get an outside line, then enter the number
@@ -3393,12 +3303,6 @@ However, for each
                   		template when adding a new user, see the “ User Templates ” section
                   		of the “User Attributes” chapter of the System
                      		  Administration Guide for Cisco Unity Connection, Release 12.x , available at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/administration/guide/b_12xcucsag.html .
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 

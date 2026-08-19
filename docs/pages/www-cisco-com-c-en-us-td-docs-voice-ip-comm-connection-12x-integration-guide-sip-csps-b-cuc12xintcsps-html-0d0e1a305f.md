@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-integration-guide-sip-csps-b-cuc12xintcsps-html-0d0e1a305f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/integration/guide/sip-csps/b_cuc12xintcsps.html
-retrieved_at: 2026-08-16T14:19:00.579338+00:00
+retrieved_at: 2026-08-19T00:47:31.271841+00:00
 ---
 
 Cisco SIP Proxy Server Integration Guide for Cisco Unity Connection Release 12.x
 
 # Cisco SIP Proxy Server Integration Guide for Cisco Unity Connection Release 12.x
-
-Log in to Save Content
 
 ### Download Options
 
@@ -422,10 +420,6 @@ Repeat Step 1 and Step 2 for all remaining VoIP dial-peers servicing Cisco Un
 ### Disabling the SIP
                   	 Media Inactivity Timer
 
-Procedure
-
-#### Procedure
-
 On the gateway, go into the gateway configuration mode by
                                  			 entering the following command:
 
@@ -448,10 +442,6 @@ Router(config-gateway)# exit
 
 ### Enabling DTMF
                   	 Relay for SIP Calls by Using Named Telephony Events
-
-Procedure
-
-#### Procedure
 
 On the gateway, go into dial-peer configuration mode and define
                                  			 the VoIP dial peer by entering the following command:
@@ -1278,12 +1268,6 @@ To enable call forwarding when Cisco Unity Connection is
                            				configured for failover, set the forwarding destinations in MySQL to be
                            				<contact line name>@proxy instead of <contact line name>@Unity
                            				Connection.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 

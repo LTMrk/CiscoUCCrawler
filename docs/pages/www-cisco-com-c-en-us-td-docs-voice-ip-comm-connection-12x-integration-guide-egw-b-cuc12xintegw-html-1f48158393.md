@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-integration-guide-egw-b-cuc12xintegw-html-1f48158393
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/integration/guide/egw/b_cuc12xintegw.html
-retrieved_at: 2026-08-16T14:19:35.264361+00:00
+retrieved_at: 2026-08-19T00:45:42.116556+00:00
 ---
 
 QSIG/DPNSS Phone System with Cisco EGW 2200 Integration Guide for Cisco Unity Connection Release 12.x
 
 # QSIG/DPNSS Phone System with Cisco EGW 2200 Integration Guide for Cisco Unity Connection Release 12.x
-
-Log in to Save Content
 
 ### Download Options
 
@@ -398,10 +396,6 @@ After ensuring that QSIG/DPNSS phone system and Unity Connection
                      		  are ready for the integration, do the following procedure to set up the
                      		  integration and to enter the port settings.
 
-Procedure
-
-### Procedure
-
 In Cisco Unity Connection Administration, expand Telephony Integrations , then select Phone System .
 
 On the Search Phone Systems page, under Display Name, select the
@@ -710,10 +704,6 @@ The setup information earlier in this guide.
 ### Setting Up Test
                   	 Configuration
 
-Procedure
-
-#### Procedure
-
 Set up two test extensions (Phone 1 and Phone 2) on the same
                                  			 phone system that Unity Connection is connected to.
 
@@ -791,10 +781,6 @@ In the right
 ### Testing an
                   	 External Call with Release Transfer
 
-Procedure
-
-#### Procedure
-
 From Phone 2, enter the access code necessary to get an outside
                                  			 line, then enter the number outside callers use to dial directly to Unity
                                  			 Connection.
@@ -834,10 +820,6 @@ Confirm that the MWI on Phone 1 is activated. The activated MWI
 ### Testing Listening
                   	 to the Messages
 
-Procedure
-
-#### Procedure
-
 From Phone 1, enter the internal pilot number for Unity
                                  			 Connection.
 
@@ -868,10 +850,6 @@ On the Port Monitor, confirm that the state of the port handling
 ### Setting Up
                   	 Supervised Transfer on Unity Connection
 
-Procedure
-
-#### Procedure
-
 In Cisco Unity Connection Administration, on the Edit Transfer
                                  			 Rule page for the test user, in the Transfer Type field, select Supervise Transfer .
 
@@ -887,10 +865,6 @@ Do not close
 
 ### Testing Supervised
                   	 Transfer
-
-Procedure
-
-#### Procedure
 
 From Phone 2, enter the access code necessary to get an outside
                                  			 line, then enter the number outside callers use to dial directly to Unity
@@ -959,12 +933,6 @@ Any Internet Protocol (IP)
 
 © 2015 Cisco Systems, Inc.
                      		  All rights reserved.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 

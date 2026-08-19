@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-integration-guide-multiple-integration-b-cuc12xintmultiple-ht-77a2f2f29a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/integration/guide/multiple_integration/b_cuc12xintmultiple.html
-retrieved_at: 2026-08-16T14:19:22.428422+00:00
+retrieved_at: 2026-08-19T00:45:45.982219+00:00
 ---
 
 Multiple Phone System Integration Guide for Cisco Unity Connection Release 12.x
 
 # Multiple Phone System Integration Guide for Cisco Unity Connection Release 12.x
-
-Log in to Save Content
 
 ### Download Options
 
@@ -272,12 +270,6 @@ Any Internet Protocol (IP)
 
 © 2015 Cisco Systems, Inc.
                                     				  All rights reserved.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 

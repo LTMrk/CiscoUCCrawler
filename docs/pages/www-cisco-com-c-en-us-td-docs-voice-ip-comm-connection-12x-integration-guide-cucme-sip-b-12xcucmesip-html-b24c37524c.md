@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-integration-guide-cucme-sip-b-12xcucmesip-html-b24c37524c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/integration/guide/cucme_sip/b_12xcucmesip.html
-retrieved_at: 2026-08-16T14:19:10.232546+00:00
+retrieved_at: 2026-08-19T00:45:37.933352+00:00
 ---
 
 Cisco Unified Communications Manager Express SIP Trunk Integration Guide for Cisco Unity Connection Release 12.x
 
 # Cisco Unified Communications Manager Express SIP Trunk Integration Guide for Cisco Unity Connection Release 12.x
-
-Log in to Save Content
 
 ### Download Options
 
@@ -417,10 +415,6 @@ For Cisco
 ### To Configure the
                   	 Cisco Unified Communications Manager Express Router 4.1 and Later
 
-Procedure
-
-#### Procedure
-
 On the Cisco Unified CM
                                  			 Express router connected to a Cisco Unified Communications Manager SIP trunk,
                                  			 go into the global configuration mode by entering the following command:
@@ -447,10 +441,6 @@ exit
 ### To Configure the
                   	 Cisco Unified Communications Manager Express Router for a Unity Connection
                   	 Cluster
-
-Procedure
-
-#### Procedure
 
 On the Cisco
                                  			 Unified CM Express router, go into the global configuration mode by entering
@@ -659,10 +649,6 @@ After ensuring that Cisco Unified Communications Manager Express and
                      		  Unity Connection are ready for the integration, do the following procedure to
                      		  set up the integration and to enter the port settings.
 
-Procedure
-
-### Procedure
-
 In Cisco Unity Connection
                               			 Administration, expand Telephony Integrations , then select Phone System .
 
@@ -829,10 +815,6 @@ The “ Installing Cisco Unity
 
 ### Setting Up the Test Configuration
 
-Procedure
-
-#### Procedure
-
 Set up two test extensions (Phone 1 and Phone 2) on the same
                                  			 phone system that Unity Connection is connected to.
 
@@ -904,10 +886,6 @@ In the right pane, select Start Polling . The Port Monitor displays which port i
 
 ### Testing an External Call with Release Transfer
 
-Procedure
-
-#### Procedure
-
 From Phone 2, enter the access code necessary to get an outside
                                  			 line, then enter the number outside callers use to dial directly to Unity
                                  			 Connection.
@@ -945,10 +923,6 @@ Confirm that the MWI on Phone 1 is activated. The activated MWI
 
 ### Testing Listening to Messages
 
-Procedure
-
-#### Procedure
-
 From Phone 1, enter the internal pilot number for Unity
                                  			 Connection.
 
@@ -978,10 +952,6 @@ On the Port Monitor, confirm that the state of the port handling
 
 ### Setting Up Supervised Transfer on Cisco Unity Connection
 
-Procedure
-
-#### Procedure
-
 In Cisco Unity Connection Administration, on the Edit Transfer
                                  			 Rule page for the test user, in the Transfer Type field, select Supervise Transfer .
 
@@ -1010,12 +980,6 @@ However, for each
                   		template when adding a new user, see the User Templates section of the “ User Attributes ”
                   		chapter of the System
                      		  Administration Guide for Cisco Unity Connection, Release 12.x , available at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/administration/guide/b_12xcucsag.html .
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 ### This Document Applies to These Products
 
