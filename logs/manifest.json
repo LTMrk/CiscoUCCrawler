@@ -45413,6 +45413,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory/w88x_b_wireless-ip-phone-882x-accessory_chapter_01.html": {
+      "content_sha": "d3bfd5eac0222bf39cef0324ec0ee95831633207d53ff51220e4ebe3dd4f38f9",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-accessories-w88x-b-wireless-ip-phone-882x-accessory-w88x-8ecef1d7b3",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T20:43:22.513712+00:00",
+      "last_changed": "2026-08-20T20:43:22.513712+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T20:43:22.513712+00:00",
+      "next_check": "2026-08-21T20:43:22.513712+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide.html": {
       "content_sha": "adc0d802f0dbce9bc31a68142bf7eb3b02a4ef37f003cd853b725c85a3740d57",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-adminguide-w88x-b-wireless-8821-8821ex-admin-guide-html-c8b9e73715",
@@ -78856,5 +78869,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T20:40:43.013780+00:00"
+  "updated_at": "2026-08-20T20:43:22.595079+00:00"
 }

@@ -1,49 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-6900-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-sip-phone-3900-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvc65418",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCve44412",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/release.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-wireless-ip-phone-7925g/200032-How-to-get-your-792x-wireless-phones-per.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/wireless-ip-phone-8821/212534-cisco-8821-microphone-troubleshooting.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/wireless-ip-phone-8821/212534-cisco-8821-microphone-troubleshooting.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCve15706",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvg06985",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory/w88x_b_wireless-ip-phone-882x-accessory_chapter_01.html",
-    "depth": 1
-  },
-  {
     "url": "https://tools.cisco.com/bugsearch/bug/CSCve17188",
     "depth": 1
   },
@@ -16145,6 +16101,154 @@
   },
   {
     "url": "https://supportforums.cisco.com/t5/collaboration-voice-and-video/how-to-login-to-a-cisco-ip-phone-to-set-debug-level/ta-p/3111075",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/9-4-1-SR3/p690_b_6900-series-release-notes-941sr3.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/firmware/9_3_1_SR3/p069_b_6901-rn-931sr3.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/firmware/9_0_2/english/release/notes/69x1_902.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/9-4-1SR2/Release_Notes/P690_BK_619CA545_00_6900-series-release_notes-941sr2.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/firmware/9_3_1_SR2/releasenotes/P069_BK_C7BA3EDD_00_cuip-6900-series-rn-931sr2.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/9_3_1SR1/release_notes/P069_BK_RF63D36F_00_rn-9_3_1_sr1-6900-series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/931/6900_931.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/firmware/9_2_2/english/release/notes/6900_922.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/firmware/9_2_1/english/release/notes/6900_921.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/firmware/9_1_1/english/release/notes/6900_911.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/9-4-1-SR1/Release_Notes/P690_BK_6AA8901D_00_6900-series-release-notes-9_4_1sr1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/6901-6911/P691_BK_A900284C_00_accessibility-features-6901-6911.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/6921-6941-6945-6961/P690_BK_A96E3D37_00_accessibility-features-6921_41_45_61.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/all_models/regulatory_compliance/english/install/guide/iphrcsi3.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/user_guide/P691_BK_U69F61BF_00_user-guide-6901-6911-10_0.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/ip_phones/6901_6911/english/user/guide/b_6901_11_ug_release9_0.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/8_5/english/quick_reference/6901-11_qrc.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/admin_guide/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/282933048/type/282074289/release",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/282933048/type/282074288/release/9.3%25281%2529SR3",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/firmware/9-4-1-SR4/releasenotes/ip05_b_3905-release-notes-941sr4.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/firmware/9-4-1-SR3/releasenotes/ip05_b_3905-release-notes-941sr3.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/firmware/9-4-1-SR2/releasenotes/ip05_b_3905-release-notes-941sr2.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/firmware/9_4_1/english/releasenotes/IP05_BK_3FA956FD_00_3905-release-notes-9_4_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/firmware/9-4-1-SR1/english/releasenotes/IP05_BK_304441DA_00_3905-rn-941-sr1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/firmware/9_2_2/english/release/notes/3905_922.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/firmware/english/release/notes/3905_921.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/3905/IP05_BK_A694F299_00_accessibility-features-3905.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/user_guide/IP05_BK_U2FC56CE_00_user-guide-3905_10_0.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/ip_phones/3905/english/user/guide/b_3905_ug_release8_8.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/283734772/type/282074288/release/9.4%25281%2529SR4",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/283734772/type/282074291/release/14.3%25281.5000%2529",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/283734772/type/282074291/release/12.0%25281.1000%2529",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/283734772/type/282074291/release/11.7%25281.1000%2529",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/283734772/type/282074291/release/11.5%25281%2529",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/cucm-configuration-overview-for-integrating-with-nice-recording/ta-p/3153787",
     "depth": 2
   }
 ]
