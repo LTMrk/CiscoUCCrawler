@@ -4869,6 +4869,45 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12164-dialpeer-call-leg.html": {
+      "content_sha": "eae63dba92bc1715974f2ca81d9e87275d4c309d3c58aa60ed0b3805689663a6",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12164-dialpeer-call-leg-html-4b3ccfed88",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:24:19.983862+00:00",
+      "last_changed": "2026-08-20T23:24:19.983862+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:24:19.983862+00:00",
+      "next_check": "2026-08-21T23:24:19.983862+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12425-in-out-dial-peers.html": {
+      "content_sha": "8e0b8da91cc3f51af5f824f70730d8ea23116d7f76708e57634839291da5fb95",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12425-in-out-dial-peers-html-b216997fc9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:24:23.924876+00:00",
+      "last_changed": "2026-08-20T23:24:23.924876+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:24:23.924876+00:00",
+      "next_check": "2026-08-21T23:24:23.924876+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12426-valid-dial-peers.html": {
+      "content_sha": "455d1ed8c07cd217ee032de386d2151bc912696e0c625db92559ac00bd361883",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12426-valid-dial-peers-html-d82c673d78",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:24:31.963687+00:00",
+      "last_changed": "2026-08-20T23:24:31.963687+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:24:31.963687+00:00",
+      "next_check": "2026-08-21T23:24:31.963687+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/14074-in-dial-peer-match.html": {
       "content_sha": "7b817de1519476da184509a16faeecb1c41b2f5ca1ddbd13bf64a12feae6ecb0",
       "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-14074-in-dial-peer-match-html-f9c5d3695c",
@@ -4879,6 +4918,19 @@
       "last_modified": null,
       "last_seen": "2026-08-19T00:12:25.199840+00:00",
       "next_check": "2026-08-20T00:12:25.199840+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/61083-voice-transla-rules.html": {
+      "content_sha": "8def854587797ececb246ff548375fe1f3aecb32159ae61bbe9b1921373fd57a",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-61083-voice-transla-rules-html-2b7677e467",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:24:40.275572+00:00",
+      "last_changed": "2026-08-20T23:24:40.275572+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:24:40.275572+00:00",
+      "next_check": "2026-08-21T23:24:40.275572+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -4907,6 +4959,32 @@
       "next_check": "2026-08-21T00:12:33.774953+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/digital-ccs/14072-direct-inward-dial.html": {
+      "content_sha": "a3f737c800e67e368590374516d9ecc1d3ac56f328621d71a19aa16c5c57f92f",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-digital-ccs-14072-direct-inward-dial-html-3dc77f15f4",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:24:28.399009+00:00",
+      "last_changed": "2026-08-20T23:24:28.399009+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:24:28.399009+00:00",
+      "next_check": "2026-08-21T23:24:28.399009+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/h323/14069-codec-complexity.html": {
+      "content_sha": "1e2d7556521c0c9ac415c31aa2dba9018428ecf98a5002ec3629a529af9747e5",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-h323-14069-codec-complexity-html-7a69e117a0",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:24:36.087584+00:00",
+      "last_changed": "2026-08-20T23:24:36.087584+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:24:36.087584+00:00",
+      "next_check": "2026-08-21T23:24:36.087584+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/h323/14081-voip-debugcalls.html": {
       "content_sha": "350a4d34471684d84c1f846b45ff2ade52cdb65d472d52b8fe4457f064336e21",
@@ -79402,5 +79480,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T23:22:10.386966+00:00"
+  "updated_at": "2026-08-20T23:24:49.462396+00:00"
 }
