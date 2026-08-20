@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-exchange-integration-15-cup0-b-ms-outlook-calendar-integrat-2a215b3280
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/exchange_integration/15/cup0_b_ms-outlook-calendar-integration-15/cup0_b_ms-outlook-calender-integration-1251_chapter_010.html
-retrieved_at: 2026-08-16T16:15:16.584893+00:00
+retrieved_at: 2026-08-20T15:29:00.594340+00:00
 ---
 
 Microsoft Outlook Calendar Integration for the IM and Presence Service, Release 15 and SUs
@@ -247,10 +247,6 @@ http://technet.microsoft.com/en-us/library/bb124558%28exchg.150%29.aspx
                               		  Directory 2008 Documentation
 
 http://www.microsoft.com/windowsserver2008/en/us/ad-main.aspx
-
-### Customers Also Viewed
-
-- Microsoft Outlook Calendar Integration for the IM and Presence Service, Release 15 and SUs --- Configure Microsoft Exchange for Calendaring Integration
 
 | Component | Install Compatible Version |
 |---|---|
