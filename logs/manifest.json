@@ -3439,6 +3439,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118718-technote-cucm-00.html": {
+      "content_sha": "26af1c84193a1a5abe113d50bcecef65b238d3fecafd8f7bd8a9ffab78646742",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-118718-technote-cuc-3c9aace2b0",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:52:05.162743+00:00",
+      "last_changed": "2026-08-20T22:52:05.162743+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:52:05.162743+00:00",
+      "next_check": "2026-08-21T22:52:05.162743+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118722-configure-cucm-00.html": {
       "content_sha": "aaf1584d914080bf02e8a4dab65f6b365424cf3a35af819df3138ff5c6fa50eb",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-118722-configure-cu-2df116cf56",
@@ -79285,5 +79298,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T22:49:46.798030+00:00"
+  "updated_at": "2026-08-20T22:52:22.327702+00:00"
 }
