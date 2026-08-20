@@ -9039,6 +9039,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/hybridcalldevices/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call_chapter_00.html": {
+      "content_sha": "a34c390701b5056da05bb3180d8a7d12b69a24d8bbd10809b49d0b25b193395f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-hybridservices-hybridcalldevices-wbxhs-m-deployment--8ef4de6a39",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:57:22.570379+00:00",
+      "last_changed": "2026-08-20T23:57:22.570379+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:57:22.570379+00:00",
+      "next_check": "2026-08-21T23:57:22.570379+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/hybridcalldevices/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call_chapter_01.html": {
       "content_sha": "47d45c25be0773ead244032929b1a648b7b3ecfad81d46fb238fe1c643261965",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-hybridservices-hybridcalldevices-wbxhs-m-deployment--d20e40483d",
@@ -9064,6 +9077,32 @@
       "next_check": "2026-08-21T00:38:30.173485+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/hybridcalldevices/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call_chapter_011.html": {
+      "content_sha": "36f8aee8e84b1930c02413db7adbcfed43246b99c2068fafbb3b4438d56a1706",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-hybridservices-hybridcalldevices-wbxhs-m-deployment--9e996b3500",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:57:27.144624+00:00",
+      "last_changed": "2026-08-20T23:57:27.144624+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:57:27.144624+00:00",
+      "next_check": "2026-08-21T23:57:27.144624+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/hybridcalldevices/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call_preface_0100.html": {
+      "content_sha": "3a9f1351716b26464d11e8fbc9fbc1ba398ca728f4d50a1d03ecbcdc40ab4d57",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-hybridservices-hybridcalldevices-wbxhs-m-deployment--f2ff1f4563",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:57:18.248033+00:00",
+      "last_changed": "2026-08-20T23:57:18.248033+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:57:18.248033+00:00",
+      "next_check": "2026-08-21T23:57:18.248033+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/migration/wbxhs_b_hybrid-calling-webex-domain-migration-guide.html": {
       "content_sha": "812019d2afba68d0cca2f4b9f623639ec6066532d4ef967b5fda679d33b388d3",
@@ -80208,5 +80247,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T23:54:52.118435+00:00"
+  "updated_at": "2026-08-20T23:57:27.218358+00:00"
 }
