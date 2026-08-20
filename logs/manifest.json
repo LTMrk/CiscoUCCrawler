@@ -566,6 +566,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://quickview.cloudapps.cisco.com/quickview/bug/CSCve17188": {
+      "content_sha": "dcaf89d35b30a79c3d634767911b51a165ec40fa9894dc4ea8c8ea2d13ce1a5e",
+      "doc_id": "quickview-cloudapps-cisco-com-quickview-bug-cscve17188-6c000b5fb5",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T20:45:24.463971+00:00",
+      "last_changed": "2026-08-20T20:45:24.463971+00:00",
+      "last_modified": "Wed, 05 Aug 2026 15:07:26 GMT",
+      "last_seen": "2026-08-20T20:45:24.463971+00:00",
+      "next_check": "2026-08-21T20:45:24.463971+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://sec.cloudapps.cisco.com/security/center/home.x": {
       "content_sha": "1a8cf73aa6a637ef00ff14b0aae0a6a24aae435c983662056866d1fbbf982078",
       "doc_id": "sec-cloudapps-cisco-com-security-center-home-x-4e5839834d",
@@ -45439,6 +45452,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_011.html": {
+      "content_sha": "7bf82c7c8a7d74947be04c1ff0838ee816afef98bcbe787289a4ae6a07670260",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-adminguide-w88x-b-wireless-8821-8821ex-admin-guide-w88x--9861d30c13",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T20:45:32.739038+00:00",
+      "last_changed": "2026-08-20T20:45:32.739038+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T20:45:32.739038+00:00",
+      "next_check": "2026-08-21T20:45:32.739038+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide.html": {
       "content_sha": "9126540d6cb87e9760043c4fee3cde99d89ffa999074fcc5c9aefe9256b61aec",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-userguide-w88x-b-wireless-8821-8821ex-user-guide-html-899e087b3a",
@@ -45451,6 +45477,19 @@
       "next_check": "2026-08-22T16:30:47.318699+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_00.html": {
+      "content_sha": "31023d347dcccad2ecfd83aa3bc20124fe97af646e839bd25587d6aa07e9ffa0",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-userguide-w88x-b-wireless-8821-8821ex-user-guide-w88x-b--40831a0cff",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T20:45:28.623026+00:00",
+      "last_changed": "2026-08-20T20:45:28.623026+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T20:45:28.623026+00:00",
+      "next_check": "2026-08-21T20:45:28.623026+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR6/w881-b-wireless-8821-rln-1106sr6.html": {
       "content_sha": "02f1c6830d7cd02ce0c2b2176cb979b7cc424ec0c1ab3d453ad833791e042a6b",
@@ -78869,5 +78908,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T20:43:22.595079+00:00"
+  "updated_at": "2026-08-20T20:45:49.674095+00:00"
 }

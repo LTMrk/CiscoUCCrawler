@@ -1,8 +1,10 @@
 {
-  "run_at": "2026-08-20T20:43:22.657247+00:00",
+  "run_at": "2026-08-20T20:45:49.726805+00:00",
   "modo": "incremental",
   "added": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-accessories-w88x-b-wireless-ip-phone-882x-accessory-w88x-8ecef1d7b3"
+    "quickview-cloudapps-cisco-com-quickview-bug-cscve17188-6c000b5fb5",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-adminguide-w88x-b-wireless-8821-8821ex-admin-guide-w88x--9861d30c13",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-userguide-w88x-b-wireless-8821-8821ex-user-guide-w88x-b--40831a0cff"
   ],
   "modified": [],
   "removed": [],
