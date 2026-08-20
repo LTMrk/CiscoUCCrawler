@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-jabber-for-everyone-12-5-1-cup0-b-jabber-for-everyone-solut-f655fe9d11
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/jabber_for_everyone/12_5_1/cup0_b_jabber-for-everyone-solution-guide.html
-retrieved_at: 2026-08-16T14:15:36.116933+00:00
+retrieved_at: 2026-08-20T15:39:26.204819+00:00
 ---
 
 Jabber for Everyone Quick Start Guide
 
 # Jabber for Everyone Quick Start Guide
-
-Log in to Save Content
 
 ### Download Options
 
@@ -236,10 +234,6 @@ Jabber for Everyone is also supported in Centralized Deployments of the IM and P
 
 The Cisco Jabber clients retrieve user details from Cisco Unified Communications Manager . For this reason, you must add users to Cisco Unified Communications Manager , including users who are not Cisco IP phone users.
 
-Procedure
-
-##### Procedure
-
 Add users to Cisco Unified Communications Manager using one of the following methods:
 
 Provisioning Method
@@ -306,10 +300,6 @@ A number of essential services must be activated and in a started state on Cisco
 Most services automatically activate and start when you install the node. However, you should verify that the services that
                                        are listed in the following procedure are in a started state before you proceed with any other deployment tasks.
 
-Procedure
-
-##### Procedure
-
 Verify that the Cisco AXL Web Service feature service is activated and in a started state on Cisco Unified Communications Manager :
 
 For procedures on how to activate feature services, see the “Services” chapter in the Cisco Unified Serviceability Administration Guide .
@@ -331,10 +321,6 @@ Verify that all network services on IM and Presence Service are activated and st
 #### Specify End-user Capabilities on Cisco Unified Communications Manager
 
 You must assign IM and Presence Service capabilities to users in Cisco Unified Communications Manager .
-
-Procedure
-
-##### Procedure
 
 Log in to the Cisco Unified Communications Manager Administration interface.
 
@@ -382,10 +368,6 @@ Before you begin
 
 ###### Before you begin
 
-Procedure
-
-###### Procedure
-
 Review configuration parameters for Cisco Jabber.
 
 In most environments, Cisco Jabber for Windows does not require any configuration and can connect automatically to the IM and Presence Service and Microsoft Active Directory . Before you create a configuration file, review the default configuration parameters to determine if your deployment requires
@@ -413,10 +395,6 @@ For additional information on Jabber feature configuration, refer to Feature Con
 
 The Cisco Jabber Web SDK enables you to integrate Cisco Unified Communications capabilities in web applications. To integrate IM capabilities in a web application, you use the Cisco AJAX XMPP Library
                               (CAXL). CAXL is a client-side JavaScript library that runs in a web browser and sends and receives XMPP messages as HTTP POSTs.
-
-Procedure
-
-###### Procedure
 
 Set up a web server.
 
@@ -501,10 +479,6 @@ Associate line appearances to IM and Presence Service enabled users.
 
 Cisco Unified Communications Manager communicates with the IM and Presence Service through a SIP trunk.
 
-Procedure
-
-###### Procedure
-
 Configure the SIP trunk on Cisco Unified Communications Manager .
 
 For instructions, see the "SIP Trunk Configuration on Cisco Unified Communications Manager " section in Configuration and Administration of the IM and Presence Service .
@@ -522,10 +496,6 @@ Click Save .
 ##### Set Up Presence Gateway for Cisco Unified Communications Manager
 
 You must configure Cisco Unified Communications Manager as a Presence Gateway on the IM and Presence Service . The Presence Gateway enables Cisco Unified Communications Manager and the IM and Presence Service to share availability status for users.
-
-Procedure
-
-###### Procedure
 
 Log in to the Cisco Unified Communications Manager IM and Presence Administration interface.
 
@@ -552,10 +522,6 @@ For more information about configuring a Presence Gateway, see Configuration and
 ##### Associate Line Appearances with Users
 
 To enable telephony presence, you must associate each IM and Presence Service enabled user with a line appearance in Cisco Unified Communications Manager .
-
-Procedure
-
-###### Procedure
 
 Log in to  the Cisco Unified Communications Manager Administration interface.
 
