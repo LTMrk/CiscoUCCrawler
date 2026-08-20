@@ -1,49 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214338-rtp-source-validation-in-ios-and-ios-xe.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvo15141",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214622-troubleshoot-no-audio-issues-with-hairpi.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214622-troubleshoot-no-audio-issues-with-hairpi.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214634-voice-router-internal-call-disconnect-ca.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214634-voice-router-internal-call-disconnect-ca.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/tdm-gateways/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215412-configure-sip-tls-between-cucm-cube-cube.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215412-configure-sip-tls-between-cucm-cube-cube.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/217860-troubleshooting-busyout-dial-peers-on-cu.epub",
     "depth": 1
   },
@@ -16445,6 +16401,18 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/tdm-gateways/223040-troubleshoot-dsp-pvdm-issue-on-voice.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/tdm-gateways/223092-configure-pri-multi-clocking-on-c8300.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/basic-sip-call-flows-amp-troubleshooting-commands/ta-p/3110162",
     "depth": 2
   }
 ]
