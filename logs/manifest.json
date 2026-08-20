@@ -1515,6 +1515,32 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200418-Configure-an-Auto-Answer-with-Finesse.html": {
+      "content_sha": "a74212bb34a36e972f5b2c4f62ced5fde722fc7af18624125b6165fb1fb17857",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-finesse-200418-configure-an-auto-answer-with-finesse-html-7e0910cd16",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T21:16:30.692466+00:00",
+      "last_changed": "2026-08-20T21:16:30.692466+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T21:16:30.692466+00:00",
+      "next_check": "2026-08-21T21:16:30.692466+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200641-SANs-issue-with-a-Third-Party-Signed-Cer.html": {
+      "content_sha": "95d690de49b8f37371315929f07f98d238933ea40382bcee18fb21e942a2e840",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-finesse-200641-sans-issue-with-a-third-party-signed-cer-html-f8e03b777e",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T21:16:22.359016+00:00",
+      "last_changed": "2026-08-20T21:16:22.359016+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T21:16:22.359016+00:00",
+      "next_check": "2026-08-21T21:16:22.359016+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200859-Troubleshoot-Cisco-VOS-Based-Finesse-Ser.html": {
       "content_sha": "c1c4416dd2dd45182281ef31a5cabc937f5febfcb561aa1853583e635b976869",
       "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-finesse-200859-troubleshoot-cisco-vos-based-finesse-ser-html-eadff5a000",
@@ -1540,6 +1566,19 @@
       "next_check": "2026-08-20T23:51:04.084183+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/212634-troubleshoot-cisco-finesse-desktop-persi.html": {
+      "content_sha": "9a15d90e2ec3b2dd5c79e4dc225acd49bf6266b7a2062ca26ff1c7a52736725d",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-finesse-212634-troubleshoot-cisco-finesse-desktop-persi-html-1666f938f4",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T21:16:26.625952+00:00",
+      "last_changed": "2026-08-20T21:16:26.625952+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T21:16:26.625952+00:00",
+      "next_check": "2026-08-21T21:16:26.625952+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/packaged-contact-center-enterprise/200323-Cisco-Packaged-Contact-Center-Enterprise.html": {
       "content_sha": "8889ac1cb9138a14dd6f8af5da8841b66977594369938864d81ed594b3ef60b5",
@@ -1930,6 +1969,19 @@
       "next_check": "2026-08-20T23:53:10.409956+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/211537-Troubleshoot-CVP-Courtesy-Callback-CCB.html": {
+      "content_sha": "520f38912fe372010e750975758fc0c870d8b696406abdc2ef2f1197e0daa8e1",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-customer-voice-portal-211537-troubleshoot-cvp-courtesy-de98063518",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T21:16:37.496426+00:00",
+      "last_changed": "2026-08-20T21:16:37.496426+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T21:16:37.496426+00:00",
+      "next_check": "2026-08-21T21:16:37.496426+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/212334-how-to-deploy-and-configure-with-the-tru.html": {
       "content_sha": "4f388c7113c76d6f18972d2bb264594767f6410658a424e8ae4f5bd29cd117e9",
@@ -78986,5 +79038,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T21:13:06.594205+00:00"
+  "updated_at": "2026-08-20T21:17:02.247745+00:00"
 }
