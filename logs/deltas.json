@@ -1,12 +1,11 @@
 {
-  "run_at": "2026-08-20T19:19:46.746757+00:00",
+  "run_at": "2026-08-20T19:30:53.556609+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-ucce-b-1501-a707510cfe",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-user-ucce-b-019050b348"
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-admin-guide-x14-2-rest-api-exwy-b-cisco-expressway-rest-api-summa-b3900423fe"
   ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 118
+  "unchanged_count": 119
 }
