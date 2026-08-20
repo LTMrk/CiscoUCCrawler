@@ -1,53 +1,5 @@
 [
   {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx35891",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/220339-verify-expressways-files-with-vi-editor.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/220339-verify-expressways-files-with-vi-editor.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/221017-configure-and-troubleshoot-expressway-sm.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/221017-configure-and-troubleshoot-expressway-sm.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCwh22349",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/222547-enable-shared-lines-and-multi-lines-for.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/222547-enable-shared-lines-and-multi-lines-for.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/series.html",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.epub",
     "depth": 1
   },
@@ -16233,6 +16185,14 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/exwy_b_vm-install-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube_map/configuration/xe-16/cube-map-xe-16x.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/leading-enterprise-voice-modernization-projects/ta-p/5563932",
     "depth": 2
   }
 ]
