@@ -68592,6 +68592,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1023/DX00_BK_RB889E3E_00_release-notes-dx-series-1023.html": {
+      "content_sha": "ca3191dca27ed097c7036ccb56015a0844eae69c30abcccc94b2a2c80b52cbad",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-rel-notes-1023-dx00-bk-rb889e3e-00-release-notes-dx-series-1023-ht-54d7924ad2",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T20:37:19.875640+00:00",
+      "last_changed": "2026-08-20T20:37:19.875640+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T20:37:19.875640+00:00",
+      "next_check": "2026-08-21T20:37:19.875640+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0-1/exwy_b_cisco-expressway-administrator-guide-x14-0-1/exwy_m_applications.html": {
       "content_sha": "c3bae088921e5eaa5fb5d688d283c7ca220748e8b2a4c472cb7c2975255a0692",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-admin-guide-x14-0-1-exwy-b-cisco-expressway-administrator-guide-x-e1b6e43dc4",
@@ -78817,5 +78830,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T20:34:58.736710+00:00"
+  "updated_at": "2026-08-20T20:37:49.480464+00:00"
 }
