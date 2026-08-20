@@ -5090,6 +5090,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/voice/skinny-call-control-protocol-sccp/118646-technote-sccp-00.html": {
+      "content_sha": "ce9e9117ab35ba54c3725df2e904dfcb15f2c154b196dd0a8e8c0644ac6f3b97",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-skinny-call-control-protocol-sccp-118646-technote-sccp-00-html-4de5f10d1a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:29:51.541022+00:00",
+      "last_changed": "2026-08-20T23:29:51.541022+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:29:51.541022+00:00",
+      "next_check": "2026-08-21T23:29:51.541022+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/voice/skinny-call-control-protocol-sccp/211575-CUCM-Auto-Configuration-for-SCCP-Gateway.html": {
       "content_sha": "78ee08a9c7965ee5a5a9dccbae11bb68e84328113de253abed45859a4021b469",
       "doc_id": "www-cisco-com-c-en-us-support-docs-voice-skinny-call-control-protocol-sccp-211575-cucm-auto-configuration-for-sccp-gatew-c59c1c9f37",
@@ -79519,5 +79532,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T23:27:28.624032+00:00"
+  "updated_at": "2026-08-20T23:29:51.601539+00:00"
 }
