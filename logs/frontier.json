@@ -1,49 +1,5 @@
 [
   {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvb58580",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvd56174",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuv89545",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/210528-Understand-ECDSA-certificates-in-an-UCCX.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200662-ADFS-IdS-Troubleshooting-and-Common-Prob.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200662-ADFS-IdS-Troubleshooting-and-Common-Prob.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200612-Configure-the-Identity-Provider-for-UCCX.html",
-    "depth": 1
-  },
-  {
-    "url": "https://supportforums.cisco.com/document/61856/tech-tip-collecting-mivr-logs-uccx-ip-ivr-8x-later",
-    "depth": 1
-  },
-  {
-    "url": "http://cbabu-wiki.cisco.com:8080/download/attachments/93796945/RTMT_Ids.jpg",
-    "depth": 1
-  },
-  {
-    "url": "http://cbabu-wiki.cisco.com:8080/download/thumbnails/93796945/metrics_image.jpg",
-    "depth": 1
-  },
-  {
-    "url": "http://cbabu-wiki.cisco.com:8080/download/attachments/93796945/ADFS_Location.jpg",
-    "depth": 1
-  },
-  {
     "url": "http://cbabu-wiki.cisco.com:8080/download/attachments/93796945/Flow_Diagram.jpg",
     "depth": 1
   },
@@ -16749,6 +16705,14 @@
   },
   {
     "url": "https://community.cisco.com/t5/collaboration-knowledge-base/webex-calling-training-for-customers-admin-and-user-users-oct25/ta-p/5010442",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200651-UCCX-Version-11-5-Prerelease-Field-Commu.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/release.html",
     "depth": 2
   }
 ]

@@ -1801,6 +1801,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/210528-Understand-ECDSA-certificates-in-an-UCCX.html": {
+      "content_sha": "bc0634e7a1ffb3dd4faa34df74667fef02db6ac6e8e948cb79c79447b9d6a328",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-210528-understand-ecdsa-certifi-b6bbe6945a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T21:21:41.070791+00:00",
+      "last_changed": "2026-08-20T21:21:41.070791+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T21:21:41.070791+00:00",
+      "next_check": "2026-08-21T21:21:41.070791+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/210888-Tech-Note-on-UCCX-Tracing-Levels.html": {
       "content_sha": "a51e11bd3b5af8273447bf1ffabf15cd921a29d3532e498b2820f33f7b9d3abb",
       "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-210888-tech-note-on-uccx-tracin-f08dd6aa62",
@@ -79038,5 +79051,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T21:19:32.918593+00:00"
+  "updated_at": "2026-08-20T21:22:04.358290+00:00"
 }
