@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-15-0-cup0-b-config-and-admin-guide-15-cup0-2626f01864
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/15_0/cup0_b_config-and-admin-guide-15/cup0_b_config-and-admin-guide-1401_chapter_01010.html
-retrieved_at: 2026-08-16T14:16:40.707973+00:00
+retrieved_at: 2026-08-20T15:20:03.865399+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 15 and SUs
@@ -50,8 +50,6 @@ The IM and Presence Service also supports multi-server SAN certificates for some
 
 Within the IM and Presence Service, the different system components require different types of certificates. The following
                               table describes the different certificates that are required for clients and services on the IM and Presence Service.
-
-Note
 
 If the certificate name ends in -ECDSA, then the certificate/key type is Elliptic Curve (EC). Otherwise, it is RSA.
 
@@ -164,12 +162,8 @@ Configure the SIP trunk with the subject Common Name (CN) of the IM and Presence
 
 Complete these tasks to exchange certificates with Cisco Unified Communications Manager.
 
-Note
-
 The certificate exchange between Cisco Unified Communications Manager and the IM and Presence Service gets handled during
                                           the installation process automatically. However, complete these tasks if you need to complete the certificate exchange manually.
-
-### Procedure
 
 Step 1
 
@@ -195,8 +189,6 @@ To complete the certificate exchange, import the IM and Presence Service certifi
 
 Use this procedure to import a certificate from Cisco Unified Communications Manager into the IM and Presence Service.
 
-#### Procedure
-
 Step 1
 
 In Cisco Unified CM IM and Presence Administration , choose System > Security > Certificate Import Tool .
@@ -217,14 +209,10 @@ Step 5
 
 Click Submit .
 
-Note
-
 After the Certificate Import Tool completes the import operation, it reports whether or not it successfully connected to Cisco
                                                          Unified Communications Manager, and whether or not it successfully downloaded the certificate from Cisco Unified Communications
                                                          Manager. If the Certificate Import Tool reports a failure, see the Online Help for a recommended action. You can also manually
                                                          import the certificate by choosing Cisco Unified IM and Presence OS Administration > Security > Certificate Management .
-
-Note
 
 Depending on the negotiated TLS cipher, the Certificate Import Tool will download either an RSA-based certificate or an ECDSA-based
                                                          certificate.
@@ -248,8 +236,6 @@ Download Certificate from IM and Presence Service
 Use this procedure to download a certificate from the IM and Presence Service. The certificate will need to be imported into
                                  Cisco Unified Communications Manager.
 
-#### Procedure
-
 Step 1
 
 From Cisco Unified IM and Presence OS Administration , choose Security > Certificate Management on IM and Presence Service.
@@ -261,8 +247,6 @@ Click Find .
 Step 3
 
 Choose the cup.pem file.
-
-Note
 
 cup-ECDSA.pem is also an available option.
 
@@ -287,8 +271,6 @@ To complete the certificate exchange, import the IM and Presence Service certifi
 #### Before you begin
 
 Download Certificate from IM and Presence Service
-
-#### Procedure
 
 Step 1
 
@@ -329,8 +311,6 @@ Select the Cisco CallManager service and click Restart .
 In order to use certificates signed by a third-party Certificate Authority (CA) in the IM and Presence Service, you must
                               first install that CA's root certificate chain of trust on the IM and Presence Service.
 
-### Procedure
-
 Step 1
 
 Upload CA Root Certificate Chain
@@ -356,8 +336,6 @@ Use this procedure to upload the certificate chain from the signing Certificate 
                                  publisher node. The chain may consist of multiple certificates in a chain, with each certificate signing the subsequent certificate:
 
 Root Certificate > Intermediate 1 Certificate > Intermediate 2 Certificate
-
-#### Procedure
 
 Step 1
 
@@ -405,8 +383,6 @@ After you upload the Root and Intermediate certificates to the IM and Presence d
                                  Cisco Intercluster Sync Agent service on that node. This restart ensures that the CA certificates are synced immediately to
                                  all other clusters.
 
-#### Procedure
-
 Step 1
 
 From Cisco Unified IM and Presence Serviceability, choose Tools > Control Center - Network Services .
@@ -414,8 +390,6 @@ From Cisco Unified IM and Presence Serviceability, choose Tools > Control Center
 Step 2
 
 From the Server drop-down list box, select the IM and Presence Service node on which you imported the certificate and click Go .
-
-Note
 
 You can also restart the Cisco Intercluster Sync Agent service from the Command Line Interface with the utils service restart Cisco Intercluster Sync Agent command.
 
@@ -432,11 +406,7 @@ Verify Intercluster Syncing
 After the Cisco Intercluster Sync Agent service has restarted, you must ensure that the CA certificate(s) have been correctly
                                  synchronized to other clusters. Complete the following procedure on each of the other IM and Presence database publisher nodes.
 
-Note
-
 The information in the following procedure also applies to certificates ending in -ECDSA .
-
-#### Procedure
 
 Step 1
 
@@ -495,8 +465,6 @@ Complete these tasks to upload certificates to the IM and Presence Service.  You
 To use CA-signed certificates that are signed by a third-party Certificate Authority (CA), you must already have installed
                               that CA's root certificate chain on the IM and Presence Service. For details, Install Certificate Authority (CA) on IM and Presence Service .
 
-### Procedure
-
 Step 1
 
 Upload Certificates
@@ -540,12 +508,8 @@ Enable Wildcards in XMPP Federation Security Certificates
 
 Use this procedure to upload certificates to each IM and Presence Service node.
 
-Note
-
 Cisco recommends that you sign all required tomcat certificates for a cluster and upload them at the same time. This process
                                              reduces the time to recover intercluster communications.
-
-Note
 
 The information in the following procedure also applies to certificates ending in -ECDSA .
 
@@ -554,8 +518,6 @@ The information in the following procedure also applies to certificates ending i
 If the certificate is signed by a CA, you must have also installed that CA's root certificate chain or the CA-signed certificate
                                  will be untrusted. When the CA certificates have correctly synced to all clusters, you can upload the appropriate signed certificate
                                  to each IM and Presence Service node.
-
-#### Procedure
 
 Step 1
 
@@ -594,8 +556,6 @@ Restart the Cisco Tomcat service.
 After you upload tomcat certificates to each IM and Presence Service node, you must restart the Cisco Tomcat service on each
                                  node.
 
-#### Procedure
-
 Step 1
 
 Log into the admin CLI.
@@ -617,8 +577,6 @@ Verify that intercluster syncing is operating correctly.
 After the Cisco Tomcat service has restarted for all affected nodes within the cluster, you must verify that intercluster
                                  syncing is operating correctly. Complete the following procedure on each IM and Presence database publisher node in the other
                                  clusters.
-
-#### Procedure
 
 Step 1
 
@@ -672,11 +630,7 @@ Verify that the Certificate Status now shows "Connection is secure". This means 
 After you upload a cup-xmpp and/or cup-xmpp-ECDSA certificate to each IM and Presence Service node, you must restart the Cisco
                                  XCP Router service on each node.
 
-Note
-
 You can also restart the Cisco XCP Router service from the Cisco Unified IM and Presence Serviceability GUI.
-
-#### Procedure
 
 Step 1
 
@@ -694,8 +648,6 @@ Repeat for each node.
 
 After you upload the cup-xmpp-s2s and/or cup-xmpp-s2s-ECDSA certificate to each IM and Presence Service federation node, you
                                  must restart the Cisco XCP XMPP Federation Connection Manager service on each federation node.
-
-#### Procedure
 
 Step 1
 
@@ -719,11 +671,7 @@ By default, the XMPP federation security certificates cup-xmpp-s2s and cup-xmpp-
                                  because the group chat server aliases are sub-domains of one of the hosted domains on the IM and Presence Service system.
                                  For example: “conference.example.com”.
 
-Note
-
 To view the cup-xmpp-s2s or cup-xmpp-s2s-ECDSA certificates on any node, choose Cisco Unified IM and Presence OS Administration > Security > Certificate Management and click on the cup-xmpp-s2s or cup-xmpp-s2s-ECDSA links.
-
-#### Procedure
 
 Step 1
 
@@ -747,8 +695,6 @@ You must regenerate the XMPP federation security certificates on all nodes withi
 
 Use this procedure to generate a Certificate Signing Request (CSR).  You will need the CSR to submit to the third-pary CA
                               so that they can provide you with a CA-signed certificate.
-
-### Procedure
 
 Step 1
 
@@ -1011,15 +957,11 @@ Y
 
 Y
 
-Note
-
 Ensure that ‘Data Encipherment’ bit is not changed or removed as part of the CA-signing certificate process.
 
 ## Generate a Self-Signed Certificate
 
 Use this procedure to generate a self-signed certificate.
-
-### Procedure
 
 Step 1
 
@@ -1073,8 +1015,6 @@ Important
 If you added CA-signed certificates, make sure that you have waited 30 minutes for the Cisco Intercluster Sync Agent Service
                                              to perform its periodic clean-up task on a given IM and Presence Service node.
 
-#### Procedure
-
 Step 1
 
 From Cisco Unified IM and Presence Operating System Administration, choose Security > Certificate Management .
@@ -1084,8 +1024,6 @@ Step 2
 Click Find .
 
 The Certificate List appears.
-
-Note
 
 The certificate name is composed of two parts, the service name and the certificate type. For example tomcat-trust where tomcat
                                                          is the service and trust is the certificate type.
@@ -1116,8 +1054,6 @@ Step 4
 
 Click Delete .
 
-Note
-
 The Delete button appears only if you have the authority to delete that certificate.
 
 Step 5
@@ -1135,16 +1071,12 @@ If the service is Tomcat, you must check for the IM and Presence Service node's 
 There is a self-signed tomcat-trust certificate in the Cisco Unified Communications Manager service trust store for each node
                                  in the cluster. These are the only certificates that you delete from the Cisco Unified Communications Manager node.
 
-Note
-
 The information in the following procedure also applies to -EC certificates.
 
 #### Before you begin
 
 Ensure that you have configured the cluster's IM and Presence Service nodes with CA-signed certificates, and you have waited
                                  for 30 minutes to allow the certificates to propagate to the Cisco Unified Communications Manager node.
-
-#### Procedure
 
 Step 1
 
@@ -1179,8 +1111,6 @@ Step 6
 If you have confirmed that it is a self-signed certificate and you are certain that the CA-signed certificate has propagated
                                           to the Cisco Unified Communications Manager node, click Delete .
 
-Note
-
 The Delete button only appears for certificates that you have the authority to delete.
 
 Step 7
@@ -1194,8 +1124,6 @@ Complete these tasks to configure the system to monitor certificate status and e
 Email you when certificates are approaching expiration.
 
 Revoke expired certificates.
-
-### Procedure
 
 Step 1
 
@@ -1215,12 +1143,8 @@ Configure the OCSP so that the system revokes expired certificates automatically
 Configure automated certificate monitoring for Unified Communications Manager or the IM and Presence Service. The system
                                  periodically checks the status of certificates and emails you when a certificate is approaching expiration.
 
-Note
-
 The Cisco Certificate Expiry Monitor network service must be running. This service is enabled by default, but you can confirm the service is running in Cisco
                                              Unified Serviceability by choosing Tools > Control Center - Network Services and verifying that the Cisco Certificate Expiry Monitor Service status is Running .
-
-#### Procedure
 
 Step 1
 
@@ -1259,8 +1183,6 @@ Step 8
 
 Click Save .
 
-Note
-
 The certificate monitor service runs once every 24 hours by default. When you restart the certificate monitor service, it
                                                          starts the service and then calculates the next schedule to run only after 24 hours. The interval does not change even when
                                                          the certificate is close to the expiry date of seven days. It runs every 1 hour when the certificate either has expired or
@@ -1282,8 +1204,6 @@ Enable the Online
 Make sure that your system has the certificates that are required for OCSP checks. You can use Root or Intermediate CA certificates
                                  that are configured with the OCSP response attribute or you can use a designated OCSP signing certificate that has been uploaded
                                  to the tomcat-trust.
-
-#### Procedure
 
 Step 1
 
@@ -1332,8 +1252,6 @@ Under Certificate Revocation and Expiry , set
 
 Configure a value for the Validity Check
                                                    Frequency parameter.
-
-Note
 
 Click Save .
 
