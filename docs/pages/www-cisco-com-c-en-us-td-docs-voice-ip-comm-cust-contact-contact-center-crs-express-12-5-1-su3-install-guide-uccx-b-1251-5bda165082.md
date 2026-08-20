@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su3-install-guide-uccx-b-1251-5bda165082
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su3/install/guide/uccx_b_1251su3_install-and-upgrade-guide/uccx_m_1251su2_installation-preparation.html
-retrieved_at: 2026-08-16T21:11:48.183910+00:00
+retrieved_at: 2026-08-20T17:19:56.053913+00:00
 ---
 
 Cisco Unified Contact Center Express Install and Upgrade Guide, Release 12.5(1) SU3
@@ -193,10 +193,6 @@ Step 5
 
 If you choose to apply a patch during installation, use a Secure File Transfer Protocol (SFTP) server that is certified by
                                        Cisco through the Cisco Technology Developer Partner program (CTDP). For more information about Supported SFTP Servers, see System Requirements section in Cisco Unified Contact Center Express Admin and Operations Guide .
-
-### Customers Also Viewed
-
-- Cisco Unified Contact Center Express Install and Upgrade Guide, Release 12.5(1) SU3 --- Unified CCX Installation
 
 | Note | For more information, see the Unified CCX Virtualization related information located at: https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/uc_system/virtualization/virtualization-cisco-unified-contact-center-express.html . |
 |---|---|
