@@ -10,7 +10,7 @@ tags: Journey - Trigger Actions API
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:43.868963+00:00
+retrieved_at: 2026-08-20T13:57:48.747884+00:00
 ---
 
 # DELETE /admin/v1/api/journey-actions/workspace-id/{workspaceId}/template-id/{templateId}/action-id/{actionId}

@@ -1303,10 +1303,10 @@
     "sha": "55c160f4f37c7e538e0b0628dbffa32bd38958a0"
   },
   "webex-contact-center.json": {
-    "actualizado": "2026-08-18T23:45:43.879040+00:00",
+    "actualizado": "2026-08-20T13:57:48.756068+00:00",
     "api": "Webex Contact Center",
     "api_version": "1.0.0",
-    "content_sha": "d8080ec974a8a7494c0feea3571b1190ec51c373d7fd04f04467259e90c5ee26",
+    "content_sha": "d9e488737711e1f14171adecbfa6d4fb7c68e2a33c4f925ed9cf0e24c5b27227",
     "deprecadas": {
       "DELETE /organization/{orgid}/address-book/{id}": true,
       "DELETE /organization/{orgid}/agent-personal-greeting/{id}": true,
@@ -1560,6 +1560,7 @@
       "GET /organization/{orgid}/work-type/bulk-export": "webex-contact-center-get-organization-orgid-work-type-bulk-export",
       "GET /organization/{orgid}/work-type/{id}": "webex-contact-center-get-organization-orgid-work-type-id",
       "GET /organization/{orgid}/work-type/{id}/incoming-references": "webex-contact-center-get-organization-orgid-work-type-id-incoming-references",
+      "GET /search/v2/meta": "webex-contact-center-get-search-v2-meta",
       "GET /templates": "webex-contact-center-get-templates",
       "GET /templates/{id}": "webex-contact-center-get-templates-id",
       "GET /v1/agents/activities": "webex-contact-center-get-v1-agents-activities",
@@ -1810,7 +1811,7 @@
       "PUT /v2/agents/logout": "webex-contact-center-put-v2-agents-logout",
       "PUT /v2/agents/session/state": "webex-contact-center-put-v2-agents-session-state"
     },
-    "sha": "ea9854b5f5f3902677d175c8b69119a0f17bda07"
+    "sha": "e2b894165b9a9d2eb58545a664f9f863ee1e28d6"
   },
   "webex-device.json": {
     "actualizado": "2026-08-18T23:45:44.215661+00:00",

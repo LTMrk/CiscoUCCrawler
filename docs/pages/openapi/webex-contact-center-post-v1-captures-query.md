@@ -10,7 +10,7 @@ tags: Captures
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:43.870873+00:00
+retrieved_at: 2026-08-20T13:57:48.749384+00:00
 ---
 
 # POST /v1/captures/query

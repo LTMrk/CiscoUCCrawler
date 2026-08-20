@@ -10,7 +10,7 @@ tags: Skill
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:43.820108+00:00
+retrieved_at: 2026-08-20T13:57:48.708291+00:00
 ---
 
 # POST /organization/{orgid}/skill/populate-json-attr/{id}

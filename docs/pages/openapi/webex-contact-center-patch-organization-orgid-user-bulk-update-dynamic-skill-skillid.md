@@ -10,7 +10,7 @@ tags: Users
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:43.832694+00:00
+retrieved_at: 2026-08-20T13:57:48.718556+00:00
 ---
 
 # PATCH /organization/{orgid}/user/bulk/update-dynamic-skill/{skillId}
