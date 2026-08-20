@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-1e3f01ffa2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/product_architecture.html
-retrieved_at: 2026-08-16T14:36:40.248954+00:00
+retrieved_at: 2026-08-20T18:59:22.950785+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -77,8 +77,6 @@ Peripheral Gateway —Act as a gateway to a peripheral device, like an IP PBX or
 Administration & Data Server —A server implementation that provides configuration data (from the Logger), an interface for real-time data, and a platform
                                  for the historical data server (HDS). The Administration & Data Server also offers an interface for administrators to alter
                                  configuration and routing scripts (Script Editor, Internet Script Editor).
-
-Note
 
 Unified CCE applications do not report their resource usage to monitoring solutions, like Cisco Prime Collaboration. The monitoring
                                        solution retrieves CPU and memory usage data directly from the Windows Server operating system. On multicore systems, Windows
@@ -620,12 +618,6 @@ Outbound Option Guide for Unified Contact Center Enterprise at https://www.cisco
 ### Customers Also Viewed
 
 - Configure Webex AI Agent for CCE
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Unified CCE applications do not report their resource usage to monitoring solutions, like Cisco Prime Collaboration. The monitoring
                                        solution retrieves CPU and memory usage data directly from the Windows Server operating system. On multicore systems, Windows

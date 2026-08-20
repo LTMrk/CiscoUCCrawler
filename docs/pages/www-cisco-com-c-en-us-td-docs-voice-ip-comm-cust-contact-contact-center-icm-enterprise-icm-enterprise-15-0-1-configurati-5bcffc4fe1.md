@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-5bcffc4fe1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/understanding_snmp_notifications.html
-retrieved_at: 2026-08-16T14:36:49.239565+00:00
+retrieved_at: 2026-08-20T18:59:44.252245+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -161,8 +161,6 @@ A dual state Unified CCE SNMP notification contains a raise(4) or clear(0) value
                            a unique identifier that you can use to correlate common raise and clear notifications to a single managed object.
 
 The following example shows a pair of raise and clear notifications with the same cccaEventComponentId.
-
-Note
 
 ```
 snmpTrapOID.0 = cccaIcmEvent
@@ -324,8 +322,6 @@ Acknowledge();
 
 There is no one-to-one mapping of alarms by event message ID.
 
-Note
-
 ## Single State
                         	 Objects
 
@@ -457,8 +453,6 @@ CorrelationId
 
 n/a
 
-Note
-
 The heartbeat notification is sent periodically by the Logger CSFS process to indicate a healthy connection exists between
                            the Router and the Logger, and that the Logger SNMP notification feed is active. The heartbeat interval is set to 720 minutes
                            (12 hours) by default. The reason the
@@ -472,12 +466,6 @@ The interval can be as much as one minute longer than the configured interval, s
                            employ a certain "deadband" – in other words, allow for at least 60 seconds beyond the scheduled interval before assuming the worst.
 
 Important
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Object Name | Description |
 |---|---|

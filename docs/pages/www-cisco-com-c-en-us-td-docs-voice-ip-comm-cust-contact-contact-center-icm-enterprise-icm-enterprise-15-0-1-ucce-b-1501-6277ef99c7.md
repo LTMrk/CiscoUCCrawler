@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-ucce-b-1501-6277ef99c7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/ucce_b_1501_features-guide/rcct_m_1501_call-transcription.html
-retrieved_at: 2026-08-16T20:09:11.800669+00:00
+retrieved_at: 2026-08-20T19:07:57.832547+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -1254,6 +1254,9 @@ recorder profile 105 siprec
 
 Run the following CLI commands on the SBC terminal to receive and match incoming calls at the dial-peer level:
 
+This configuration represents the default Contact Center call flow behavior, and the values shown below are for illustration
+                                       purposes only.
+
 ```
 dial-peer voice 800555 voip
  description GW ingress dial-peer
@@ -1267,6 +1270,9 @@ dial-peer voice 800555 voip
 ```
 
 Run the following CLI Commands on the SBC terminal to forward calls to the required destination:
+
+This configuration represents the default Contact Center call flow behavior, and the values shown below are for illustration
+                                       purposes only.
 
 ```
 dial-peer voice 80055 voip
@@ -1287,9 +1293,9 @@ The values for the incoming called-number and destination-pattern shown in the f
                                        only. Ensure you configure these parameters with the appropriate values that correspond to your specific environment and setup.
 
 ```
-dial-peer voice 80055 voip
+dial-peer voice 939393 voip
  description SIPREC Destination Recorder
- destination-pattern 8005551199T
+ destination-pattern 9393939393
  session protocol sipv2
  session target ipv4: <CVP_IP_Address> session transport tcp
  voice-class sip profiles 999
@@ -1718,6 +1724,14 @@ If the value is updated, any existing enabled service gets overwritten. If the v
 | 26 | Canada | Canada | CA1 | CA1 |
 
 | Note | After you enable the POD.ID , you must restart the VRU PG during non-production time or a scheduled maintenance window for the changes to take full effect. |
+|---|---|
+
+| Note | This configuration represents the default Contact Center call flow behavior, and the values shown below are for illustration
+                                       purposes only. |
+|---|---|
+
+| Note | This configuration represents the default Contact Center call flow behavior, and the values shown below are for illustration
+                                       purposes only. |
 |---|---|
 
 | Note | The values for the incoming called-number and destination-pattern shown in the following example are for illustration purposes

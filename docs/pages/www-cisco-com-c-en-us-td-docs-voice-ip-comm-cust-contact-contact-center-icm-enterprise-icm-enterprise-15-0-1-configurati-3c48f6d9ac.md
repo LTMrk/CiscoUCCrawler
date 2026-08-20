@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-3c48f6d9ac
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_snmp_guide_1501/ucce_m_cisco-snmp-installation-and-basic-configuration_1501.html
-retrieved_at: 2026-08-16T14:35:23.311625+00:00
+retrieved_at: 2026-08-20T18:59:59.726556+00:00
 ---
 
 SNMP Guide for Cisco Contact Center Enterprise, Release 15.0(1)
@@ -24,8 +24,6 @@ Unified CCE SNMP support is automatically installed during the course of normal 
 
 Install the appropriate Microsoft Windows SNMP component(s) before installing any CCE components that require SNMP monitoring.
                               Following are the instructions to install the Microsoft Windows SNMP components.
-
-Note
 
 ### Install Microsoft Windows SNMP Components on Windows Server
 
@@ -59,16 +57,12 @@ For trap forwarding, configure an SNMP trap destination on each CCE Logger serve
 You can use the Cisco SNMP Agent Management
                                  		  MMC Snap-in to configure all properties.
 
-Note
-
 ### Add Cisco SNMP Agent
                            	 Management Snap-In
 
 You can configure
                                  		  Cisco SNMP Agent Management settings using a Windows Management Console
                                  		  Snap-in. To add the Snap-in and change Cisco SNMP Management settings:
-
-#### Procedure
 
 Step 1
 
@@ -141,8 +135,6 @@ SNMP Community Names
 To configure the
                                  		  Community Name for SNMP v1 and v2c:
 
-#### Procedure
-
 Step 1
 
 Follow the steps
@@ -194,8 +186,6 @@ The community
                                              				name appears in the Configured Communities section at the top of the
                                              				dialog box.
 
-Note
-
 Changes become
                                  		  effective when you click OK .
 
@@ -209,8 +199,6 @@ If you are using
 
 To configure a User
                                  		  Name for SNMP v3:
-
-#### Procedure
 
 Step 1
 
@@ -253,15 +241,11 @@ If you wish to
 This setting
                                              				encrypts the password information as it is sent over the network.
 
-Note
-
 Step 8
 
 If you wish to
                                           			 use SNMP v3 privacy, check Required? under Privacy, choose an encryption type,
                                           			 and enter and confirm a password.
-
-Note
 
 This
                                                                   						setting encrypts all SNMP information as it is sent over the network. If
@@ -286,8 +270,6 @@ The User Name
                                              				appears in the Configured Users section at the top of the dialog
                                              				box.
 
-Note
-
 Changes become
                                  		  effective when you click OK .
 
@@ -307,8 +289,6 @@ You can configure
 
 To configure general
                                  		  information properties:
-
-#### Procedure
 
 Step 1
 
@@ -410,8 +390,6 @@ Click OK to save changes that you made.
 
 Use the Cisco SNMP Agent Management Snap-in to access the configuration screens.
 
-Note
-
 ### Configure SNMP Trap
                            	 Destinations
 
@@ -421,8 +399,6 @@ You can configure
 
 Follow these steps
                                  		  to configure the trap destinations:
-
-#### Procedure
 
 Step 1
 
@@ -489,8 +465,6 @@ The Trap Entity
                                              				Name appears in the Trap
                                                 				  Entities section at the top of the dialog box.
 
-Note
-
 Step 12
 
 Changes become
@@ -513,8 +487,6 @@ In the Additonal Options area, check the Enable Syslog check box to enable the s
 These steps runs the CW2KFEED process when the logger is started.
 
 Follow these steps to configure Syslog destinations:
-
-#### Procedure
 
 Step 1
 
@@ -563,13 +535,9 @@ Step 8
 (Optional)  In the Port field, enter the collector port number on which
                                           			 syslog collector is listening.
 
-Note
-
 Step 9
 
 Click Insert to add the IP address to the list.
-
-Note
 
 Step 10
 
@@ -597,8 +565,6 @@ In general, the Cisco Contact Center SNMP Management Service is always
 
 To confirm that the Cisco Contact Center SNMP Management Service is
                               		  running or to restart or stop it, follow these steps:
-
-### Procedure
 
 Step 1
 
@@ -630,12 +596,6 @@ To stop the Cisco Contact Center SNMP Management Service, right-click
 
 To restart the Cisco Contact Center SNMP Management Service,
                               		  right-click Cisco Contact Center SNMP Management and choose Restart .
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | The Microsoft
                                        		  SNMP component(s) are required for Cisco SNMP support. The Microsoft Windows

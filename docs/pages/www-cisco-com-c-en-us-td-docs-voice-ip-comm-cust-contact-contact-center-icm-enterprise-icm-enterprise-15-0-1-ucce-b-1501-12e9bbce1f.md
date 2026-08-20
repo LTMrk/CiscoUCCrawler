@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-ucce-b-1501-12e9bbce1f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/ucce_b_1501_features-guide/rcct_m_1501_virtual-agent-voice-call-transcription.html
-retrieved_at: 2026-08-16T20:09:56.943874+00:00
+retrieved_at: 2026-08-20T19:08:37.407036+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -121,10 +121,6 @@ Once enabled, the Transcript gadget appears on the Home tab. For details on how 
 
 Gadget auto-hide/un-hide and notifications capability is available only if the gadget is configured as a multitab gadget in
                                                       Cisco Finesse. For more details, see Call Transcript Gadget in the Cisco Finesse Administration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-maintenance-guides-list.html .
-
-### Customers Also Viewed
-
-- Configure Webex AI Agent for CCE
 
 | Note | The Search box is disabled when the call is not active. If redaction or advance security settings are not enabled, PII and PCI information is also reflected in the gadget. |
 |---|---|

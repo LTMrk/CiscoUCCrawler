@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-9bc81af4aa
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_snmp_guide_1501/ucce_m_response-to-alarms_1501.html
-retrieved_at: 2026-08-16T14:35:26.674845+00:00
+retrieved_at: 2026-08-20T19:00:11.688308+00:00
 ---
 
 SNMP Guide for Cisco Contact Center Enterprise, Release 15.0(1)
@@ -48,8 +48,6 @@ To provide an organized view of events you need to create rules in your NMS to m
 
 These Raise and Clear are defined in the file <INSTALL_DRIVE>/icm/snmp/ccca-Notifications.txt , which is found in the SNMP folder of your installation.
 
-Note
-
 The ccca-Notifications.txt file contains a list of all alarms and each alarm contains an ccaEventState (Raise/Clear) and correlation ID . Based on correlation ID , you can determine if a Raise event has a corresponding Clear event or must be manually cleared.
 
 This information is also available as part of the event; RAISE=9 requires a manual Clear and RAISE=4 is an event that has a corresponding Clear.
@@ -64,12 +62,6 @@ Unified CCE SNMP
                               		  a trap destination. These properties specify security parameters to use for
                               		  notification transport and the network management station that will receive the
                               		  Unified CCE notifications.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Some raise event have no automatic clear and must be manually cleared. You should set up an escalation path within your NMS
                                        for events that do not have a corresponding clear event. |

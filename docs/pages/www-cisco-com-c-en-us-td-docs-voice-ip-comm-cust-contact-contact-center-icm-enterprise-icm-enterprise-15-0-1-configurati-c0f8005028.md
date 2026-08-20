@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-c0f8005028
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/performance_counters.html
-retrieved_at: 2026-08-16T14:37:07.246950+00:00
+retrieved_at: 2026-08-20T18:59:19.269500+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -35,12 +35,8 @@ The performance
                               		  counter log files that this Data Collector Set generates are created as CSV
                               		  files.
 
-Note
-
 Follow these steps
                               		  to import the template file and create the Data Collector set.
-
-### Procedure
 
 Step 1
 
@@ -171,8 +167,6 @@ Description
 
 % Idle Time reports the percentage of time during the sample interval that the disk was idle.
 
-Note
-
 % Idle Time (1 E:)
 
 Component
@@ -190,8 +184,6 @@ Percentage (0 - 100%)
 Description
 
 % Idle Time reports the percentage of time during the sample interval that the disk was idle.
-
-Note
 
 Avg. Disk Queue Length (0 C:)
 
@@ -212,8 +204,6 @@ Description
 Avg. Disk Queue Length is the average number of both read and write requests that were queued for the selected disk during
                                        the sample interval.
 
-Note
-
 Avg. Disk Queue Length (1 E:)
 
 Component
@@ -233,8 +223,6 @@ Description
 Avg. Disk Queue Length is the average number of both read and write requests that were queued for the selected disk during
                                        the sample interval.
 
-Note
-
 Avg. Disk sec/Read (0 C:)
 
 Component
@@ -252,8 +240,6 @@ seconds
 Description
 
 Avg. Disk sec/Read is the average time, in seconds, of a read of data from the disk.
-
-Note
 
 Avg. Disk sec/Read (1 E:)
 
@@ -273,8 +259,6 @@ Description
 
 Avg. Disk sec/Read is the average time, in seconds, of a read of data from the disk.
 
-Note
-
 Avg. Disk sec/Write (0 C:)
 
 Component
@@ -293,8 +277,6 @@ Description
 
 Avg. Disk sec/Write is the average time, in seconds, of a write of data to the disk.
 
-Note
-
 Avg. Disk sec/Write (1 E:)
 
 Component
@@ -312,8 +294,6 @@ seconds
 Description
 
 Avg. Disk sec/Write is the average time, in seconds, of a write of data to the disk.
-
-Note
 
 ### Platform Diagnostic Counters
 
@@ -497,8 +477,6 @@ sqlservr
 
 Working Set
 
-Note
-
 Logger Processes:
                                           		configlogger, histlogger, recovery, replication
 
@@ -584,8 +562,6 @@ Memory Grants Pending
 Performance counters that measure time durations in milliseconds,
                            		provide granular measurements of at least 16 milliseconds.
 
-Note
-
 Performance counter-objects that are being captured or monitored as "per second" or rate values, are interpreted as average
                            number of operations completed during each second of the sample interval. This is a computed value, and the performance monitor
                            tool essentially uses the following formula to represent the counter value.
@@ -607,8 +583,6 @@ The denominator (D) represents the number of ticks elapsed during the last sampl
 F
 
 F is the frequency of the ticks.
-
-Note
 
 For example, if the VRU
                                           PIM perfmon counter for "New Calls/sec" is set up to capture the counter value in every 5 seconds, and during that interval the VRU PIM
@@ -709,24 +683,14 @@ This counter
 #### Enable
                                  		  optional counters
 
-Note
-
 ### QoS
 
 #### Enable
                                  		  Optional Counters
 
-Note
-
 The amount of
                                              			 overhead is dependent on the periodic update interval. This interval should be
                                              			 set reasonably high to minimize the impact on the system.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | The template
                                           			 file may contain component-specific counters for Unified CCE components that are not

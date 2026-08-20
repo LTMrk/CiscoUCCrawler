@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-2b7b7b463d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/serviceability_for_vos_based_contact_center_applications.html
-retrieved_at: 2026-08-16T14:37:22.772746+00:00
+retrieved_at: 2026-08-20T18:59:27.143177+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -61,8 +61,6 @@ RTMT has extensive
 
 ### Install and Launch RTMT
 
-#### Procedure
-
 Step 1
 
 Based on the component, do one of the following:
@@ -100,8 +98,6 @@ In the Authentication Required dialog box, enter the user name and password for 
 If a message appears indicating that a time zone mismatch exists, click No to launch RTMT in your current time zone.
 
 Click OK to accept the default configuration.
-
-Note
 
 The performance counters are documented in the Administration Console User Guide for Cisco Unified Intelligence Center at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-maintenance-guides-list.html . The performance counters are not documented in the Online help.
 
@@ -203,8 +199,6 @@ AuditLog Viewer - Allows you to view system audit logs.
 Perform the following steps to download the trace and log files for Cisco Unified Intelligence Center, Live Data, Cisco IdS
                                  and Cloud Connect.
 
-#### Procedure
-
 Step 1
 
 Run RTMT to connect to the target server, then choose Tools > Trace & Log 
@@ -244,8 +238,6 @@ Click Finish .
 
 ### View the Status of Services
 
-#### Procedure
-
 Run RTMT to connect to the target server, then choose Server > Critical Services in the System pane.
 
 Live Data and Cisco IdS services are also included on the System tab. To view the Unified Intelligence Center services, click the Intelligence Center tab.
@@ -256,8 +248,6 @@ When RTMT is connected to either a Unified Intelligence Center standalone server
 When RTMT is connected to standalone cloud connect server. Cloud Connect services will be included as part of the System tab.
 
 ### Alert Central
-
-#### Procedure
 
 Run RTMT to connect to the target server, then choose Tools > Alert 
                                                 			 Central in the System pane.
@@ -358,8 +348,6 @@ This
                                                 						alert occurs whenever a system error results in the IdS Application failing to
                                                 						start.
 
-Note
-
 To view or
                                                    				edit values for any alert, right-click the alert and select Set
                                                       				  Alert/Properties .
@@ -400,8 +388,6 @@ Cloud Connect Service encountered an error requiring manual intervention
 
 ### View Performance Counters
 
-#### Procedure
-
 Run RTMT to connect to the target server, then choose Performance > Performance in the System pane.
 
 ## Disaster Recovery
@@ -420,12 +406,6 @@ To back up and restore a Unified Intelligence Center standalone or coresident (U
 
 Disaster recovery does not completely cover the Live Data application. After you complete a disaster recovery, reconfigure
                               the Live Data application. To reconfigure Live Data, complete the tasks in the Live Data Installation procedure in the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide at https://www.cisco.com/en/US/products/sw/custcosw/ps1844/prod_installation_guides_list.html .
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Step 1 | Based on the component, do one of the following: For Cisco Unified Intelligence Center, log into your Cisco Unified Intelligence Center Administration page through your browser. The Live Data and the Cisco IdS servers do not provide the RTMT download link. For VVB. |
 |---|---|

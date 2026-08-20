@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-c734c1bccf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/services_and_processes.html
-retrieved_at: 2026-08-16T14:36:57.062837+00:00
+retrieved_at: 2026-08-20T18:59:31.184358+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -328,8 +328,6 @@ The following illustration shows the set of processes associated with the Cisco 
                            value; it appears without the .exe file extension. If the ProcDisabled value is set to 0—as is the case for the Router process—the
                            RouterA Node Manager process starts  and manages the process.
 
-Note
-
 ## Using the Remote SNMP Management Station
 
 In addition to the information available using the local desktop tools and registry, the Contact Center SNMP agent returns
@@ -362,12 +360,6 @@ cccaComponentElmtName.0.2.8 = configlogger
 cccaComponentElmtRunID.0.2.8 = 0
 cccaComponentElmtStatus.0.2.5 = stopped(3)
 ```
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Component | Process | Description |
 |---|---|---|

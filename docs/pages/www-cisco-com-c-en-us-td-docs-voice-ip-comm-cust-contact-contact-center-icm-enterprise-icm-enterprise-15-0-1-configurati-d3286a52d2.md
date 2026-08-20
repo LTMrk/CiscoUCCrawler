@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-d3286a52d2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/unified_icm_unified_cce_snmp_notifications.html
-retrieved_at: 2026-08-16T14:37:52.029403+00:00
+retrieved_at: 2026-08-20T18:59:51.740926+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -18,8 +18,6 @@ Chapter: Unified CCE SNMP Notifications
 
 ## SNMP
                            		  Notifications
-
-Note
 
 The message ID also contains the severity in the two most significant
                                              							bits of the integer value. The message ID value shown is with these two
@@ -1067,8 +1065,6 @@ Single-State Raise
 Description
 
 The attempt to update the central controller configuration was rejected because none of the Loggers are operational.
-
-Note
 
 This SNMP Notification is supported with UCCE 12.6(2) if CCE 12.6(2)_ES 36 is installed.
 
@@ -2155,8 +2151,6 @@ Single-State Raise
 Description
 
 PG has failed activation and will be restarted.
-
-Note
 
 This SNMP Notification is supported with UCCE 12.6(2) if CCE 12.5(2) ES 23 is installed.
 
@@ -5301,12 +5295,6 @@ Action
 Run import corresponding to table with overwrite flag enabled or increase the threshold limit.
 
 ## ICM Network Interface Controller SNMP Notifications
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | The message ID also contains the severity in the two most significant
                                              							bits of the integer value. The message ID value shown is with these two

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-c74b02e2ec
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/live_data_serviceability.html
-retrieved_at: 2026-08-16T14:37:31.428788+00:00
+retrieved_at: 2026-08-20T18:59:05.572826+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -65,8 +65,6 @@ Database - logs messages specific to the database
 
 Event-store - logs messages specific to the storage of agent call-log and state-log events
 
-Note
-
 You cannot apply a tracemask to the event-store subsystem.
 
 #### Setting the
@@ -94,8 +92,6 @@ set live-data trace subsystem loglevel value
 - ALERT
 
 - EMERGENCY
-
-Note
 
 Only the following log levels are applicable to the event-store subsystem: DEBUG, INFO, WARN, and ERROR.
 
@@ -175,8 +171,6 @@ Required Minimum Privilege Level: Advanced
 Use this command
                                  		  to enable detailed tracing for specific agents.
 
-Note
-
 This command
                                              			 requires in-depth system knowledge. Use detailed tracing only for advanced
                                              			 troubleshooting. Enabling detailed tracing adds many messages to the log files.
@@ -188,8 +182,6 @@ This command
                                     				Syntax
 
 set live-data trace agent AgentSkillTargetIDs
-
-Note
 
 Running this
                                              			 command overwrites any previous setting.
@@ -257,14 +249,10 @@ Required Minimum Privilege Level: Advanced
 Use this command
                                  		  to enable detailed tracing for specific skill-groups.
 
-Note
-
 ### Command
                                     				Syntax
 
 set live-data trace skill-group Skill-GroupSkillTargetIDs
-
-Note
 
 Running this
                                              			 command overwrites any previous setting.
@@ -329,8 +317,6 @@ Required Minimum Privilege Level: Advanced
 Use this command
                                  		  to enable tracing for specific precision-queues.
 
-Note
-
 This command
                                              			 requires in-depth system knowledge. Use detailed tracing only for advanced
                                              			 troubleshooting. Enabling detailed tracing for a precision-queue adds many
@@ -342,8 +328,6 @@ This command
                                     				Syntax
 
 set live-data trace precision-queue Precision-QueueIDs
-
-Note
 
 Running this
                                              			 command overwrites any previous setting.
@@ -491,8 +475,6 @@ Syslog servers and
                               		  Intelligence Center OAMP interface in the same way as the Unified Intelligence
                               		  Center servers.
 
-Note
-
 If Live Data Service goes down, an alert
                                           			 CUIC_LIVE_DATA_FEEDS_STOPPED is displayed in the RTMT counters
                                           			 ( Alert Central > Intelligence Center ). Use
@@ -600,8 +582,6 @@ Polling Client Count
 
 The number of polling clients.
 
-Note
-
 If the server cannot establish a JMX connection, the server status is Unavailable. No other status is displayed. If the JMS
                                              Brokers, Active Broker, Client Count, or Polling Client Count are not available, the information related to that status does
                                              not display.
@@ -652,8 +632,6 @@ Event Table -
 Exposed as a table and as SNMP notifications/traps.
 
 Each of these tables is described in more detail below.
-
-Note
 
 The MIB  defines a single notification type; all nodes in all clusters may emit notifications.
 
@@ -1600,12 +1578,6 @@ new_vtimestamp
 
 New
                                              					 virtual time stamp (used for Live Data cluster messaging).
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | You cannot apply a tracemask to the event-store subsystem. |
 |---|---|

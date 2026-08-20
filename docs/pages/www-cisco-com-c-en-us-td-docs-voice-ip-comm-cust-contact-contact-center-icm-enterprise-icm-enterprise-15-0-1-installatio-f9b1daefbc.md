@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-f9b1daefbc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide/cce_orchestration.html
-retrieved_at: 2026-08-16T19:57:19.042674+00:00
+retrieved_at: 2026-08-20T19:01:27.676493+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -450,13 +450,6 @@ Expected Outcome
 
 Displays message on the CLI if the authentication method configuration is a success or a failure.
 
-Identity Token is the default authentication method that is configured in release 15.0(1)SU2 and later.
-
-You can run this command only from the publisher node of the Cloud Connect server. When the utils image-repository authentication-type set command runs successfully on the publisher node, the authentication method configured on the publisher node is replicated
-                                                      automatically on the subscriber node.
-
-After configuring the authentication method using the utils image-repository authentication-type set command, configure Identity Token by running the utils image-repository set command.
-
 #### Generate Artifactory Authentication Credentials
 
 Artifactory supports authentication via Identity Token. For details on configuring the authentication method, refer to the
@@ -841,6 +834,9 @@ In case the upgrade or rollback on VOS node fails, then the respective VOS node
 
 To check the currently installed software version and patches on a node or group of nodes or all nodes in either Windows
                                  or VOS systems, run the utils deployment show status command.
+
+After a manual or orchestration upgrade of a Unified CVP node, utils deployment show status displays the previous version because the Cloud Connect deployment cache is stale. To resolve this, on the Cloud Connect
+                                             publisher, run utils deployment cache initiate , select Refresh Deployment Nodes Cache Data , and then rerun utils deployment show status .
 
 #### Install or Roll Back Patch or Upgrade Cloud Connect Server
 
@@ -1860,6 +1856,9 @@ Orchestration patch manager CLIs : Uses cache when Cloud Connect is running vers
 
 Orchestration upgrade manager CLIs for VOS nodes : Uses cache when Cloud Connect is running version 15.0(1) SU2 or later.
 
+utils deployment show status : Version and patch information can remain stale after a component is manually/orchestration upgraded or patched outside Orchestration.
+                                       Refresh the deployment-nodes cache before relying on this output for a subsequent upgrade, rollback, or patch operation.
+
 Manual component upgrades or patch operations do not automatically update the internal cache. To ensure the cache reflects
                                  the current system state, perform the following steps based on the installed version:
 
@@ -2103,10 +2102,6 @@ Version Reversion: When reverting Cloud Connect from 15.0(1) to 12.6(x), ensure 
 | Expected Inputs | CLI displays the currently configured authentication method and user confirmation is required to proceed to switch the authentication
                                                 method. |
 | Expected Outcome | Displays message on the CLI if the authentication method configuration is a success or a failure. |
-
-| Note | Identity Token is the default authentication method that is configured in release 15.0(1)SU2 and later. You can run this command only from the publisher node of the Cloud Connect server. When the utils image-repository authentication-type set command runs successfully on the publisher node, the authentication method configured on the publisher node is replicated
-                                                      automatically on the subscriber node. After configuring the authentication method using the utils image-repository authentication-type set command, configure Identity Token by running the utils image-repository set command. |
-|---|---|
 
 | Note | The CCO ID used to generate Artifactory authentication credentials must possess valid software entitlements, such as an active
                                                    SWSS (service contract) or Flex subscription. Cisco recommends generating unique credentials for each distinct deployment (e.g., test, staging, production) using different
@@ -2407,6 +2402,10 @@ Version Reversion: When reverting Cloud Connect from 15.0(1) to 12.6(x), ensure 
                                           node or group of nodes or all nodes from the inventory. If there is no
                                           patch installed, a message "No patch installed" is displayed to indicate
                                           that along with software version. |
+
+| Note | After a manual or orchestration upgrade of a Unified CVP node, utils deployment show status displays the previous version because the Cloud Connect deployment cache is stale. To resolve this, on the Cloud Connect
+                                             publisher, run utils deployment cache initiate , select Refresh Deployment Nodes Cache Data , and then rerun utils deployment show status . |
+|---|---|
 
 | Note | The Cloud Connect publisher should be upgraded before upgrading the subscriber. The
                                              switch version on publisher should be done first before doing switch version on

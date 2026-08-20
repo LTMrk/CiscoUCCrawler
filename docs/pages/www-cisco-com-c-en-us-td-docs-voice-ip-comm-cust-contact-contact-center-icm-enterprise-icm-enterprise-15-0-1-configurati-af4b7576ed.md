@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-af4b7576ed
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/diagnostic_tools.html
-retrieved_at: 2026-08-16T14:37:19.056330+00:00
+retrieved_at: 2026-08-20T18:59:01.263872+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -65,8 +65,6 @@ The Diagnostic Framework is hosted on top of the HTTP service built in the Windo
                               panel to automatically start the HTTP SSL service when you start the Diagnostic Framework
                               service.
 
-Note
-
 ### Configure Service Port
 
 The Diagnostic Framework listens on TCP port 7890.
@@ -76,11 +74,7 @@ You can change the port number. To change the port number, update the Diagnostic
                                  the
                                  port number on every other Unified ICM server where other instances of the Diagnostics Framework are running.
 
-Note
-
 Consider changing the port number only if necessary.
-
-#### Procedure
 
 Step 1
 
@@ -105,8 +99,6 @@ In same command window, run DiagFwCertMgr /task:UnbindCert command to remove cer
 Step 6
 
 Launch Notepad and open service configuration file <ICM_Drive>:\icm\serviceability\diagnostics\bin\DiagFwSvc.exe.config
-
-Note
 
 Step 7
 
@@ -146,8 +138,6 @@ Installer generates self-signed ECDSA certificate, imports to the windows local
                                  store, and updates the ECDSA thumbprint registry at SOFTWARE\\WOW6432Node\\Cisco Systems,
                                     Inc.\\ICM\\Serviceability\\DiagnosticFramework .
 
-#### Procedure
-
 Step 1
 
 In Windows service control, stop Diagnostic Framework service.
@@ -168,16 +158,12 @@ Step 4
 
 To bind the ECDSA certificate to the current port, run the command DiagFwCertMgr /task:CreateAndBindCertECDSA .
 
-Note
-
 Certificate matching to the thumbprint of ECDSA registry will be used to
                                                          bind the port.
 
 To remove ECDSA certificate, you can run the command DiagFwCertMgr /task:UnbindAndDeleteCertECDSA .
                                                          This command will remove the certificate binding from the current port
                                                          and will delete the self-signed ECDSA certificate created by the option CreateAndBindCertECDSA .
-
-Note
 
 For more commands of ECDSA, refer, to the table Diagnostic Framework
                                                             Certificate Manager Utility Tasks in the chapter Diagnostic
@@ -258,8 +244,6 @@ The percent value to compare the current %CPU to. If the %CPU is greater than th
                                           telling the user that the server is too busy, and to try the command later.
 
 ### Change Maximum Number of Concurrent Requests
-
-#### Procedure
 
 Step 1
 
@@ -351,8 +335,6 @@ For security purpose logout when you are finished using the Diagnostic Framework
                                  tool. To log out, click Log Out at the top-right of the page.
                                  This returns you to the login page.
 
-Note
-
 ### Authentication,
                            	 Authorization, and Auditing
 
@@ -391,8 +373,6 @@ Save the file and quit Notepad.
 
 Restart the Diagnostic Framework service.
 
-Note
-
 The user
                               		authentication, validating username and password, is managed by Windows or
                               		Active Directory. Therefore, all valid or invalid sign in attempts are logged
@@ -400,8 +380,6 @@ The user
                               		The user authorization, validating group membership and optionally Unified ICM
                               		instance access, is managed by the Diagnostic Framework service. Hence, all
                               		authorization requests can be audited through the Diagnostic Framework logs.
-
-Note
 
 Because the Diagnostic Framework user is managed by Windows or by Active Directory, the user is subjected to the password
                               policies of the server or the domain. Always set strong password policies. For more information about system hardening and
@@ -730,8 +708,6 @@ The CLI allows an optional user input named Instance. In Unified CCE environment
 
 #### Unified CLI Architecture
 
-Note
-
 - Run a single command (in system mode) on any Unified CCE system to gather information about all supported solution components.
 
 - In system mode, you can optionally provide the seed devices in WSC_CLI_DIR\conf directory or give a flat CSV file with a device
@@ -789,8 +765,6 @@ The common CLI syntax matches closely with Cisco IOS gateway CLI
 The following tables list and describe the CLI commands that are
                                  		available for diagnostic purposes.
 
-Note
-
 Ifyou do not specify component/sub-component, then the list
                                                 		includesall the installed components/sub-components on the server.
 
@@ -845,8 +819,6 @@ Shows the current active sessions/calls. (Not supported by Unified
 
 tech-support
 
-Note
-
 This command is exactly the same as "show all" .
 
 trace
@@ -885,8 +857,6 @@ capture
 
 Captures the network packets. (Not supported by Unified CCE)
 
-Note
-
 You can enter the start of a command and press Tab to complete the command.
                                                 	 For example, if you enter show all comp and press Tab , show all component is completed.
 
@@ -901,8 +871,6 @@ To get detailed help, at the CLI prompt, enter help <command> where command spec
 
 To query only command syntax, at the CLI prompt, enter <command> ? where command represents the command name or the command and
                                     	 parameter.
-
-Note
 
 The filter and match features of the CLI are not supported for trace
                                                 	 files because the framework returns a zip file that contains not just the text
@@ -929,8 +897,6 @@ narrow the
 narrow the
                                              				  output to the specified time range in the form of start time and end time. Time
                                              				  format is "mm-dd-yyyy:hh:mm" .
-
-Note
 
 This command is used only in Unified CCE to avoid collecting
                                                             						OPC and VRU capture files by default.
@@ -1029,8 +995,6 @@ This command
                                        		  filters similar to the "show all" command.
 
 ###### Options
-
-Note
 
 show
                                           			 tech-support brief
@@ -1653,8 +1617,6 @@ To save the output to a text file, debug level 1 redirect file c:\temp\output.tx
 
 Following is the system mode syntax.
 
-Note
-
 You can add product specific extensions; however. any
                                                 	 extension must be reviewed by this common cross-product team for clarity and
                                                 	 consistency.
@@ -1686,8 +1648,6 @@ The system command can also be run by prefixing the "system" on any regular comm
                                        			 [server server(s) ][sysmatch <string value>][devicetype
                                        			 <product type>]
 
-Note
-
 The options
                                                 			 highlighted in bold above are included to commands in system mode.
 
@@ -1701,8 +1661,6 @@ narrows the
 
 match a
                                           				  particular string as specified by <string value>.
-
-Note
 
 The
                                                       					 command notifies about a possible impact to system performance and asks you if
@@ -1853,8 +1811,6 @@ type clicmds.txt | wsccli.bat inplace nointeractive "user:wsmadmin" "passwd:<pas
 
 - Automated script can be invoked from a Windows scheduled job for automated tasks.
 
-Note
-
 #### Import File Syntax
 
 The file to be imported is <ICM_Drive>:\icm\serviceability\wsccli\conf\devices.csv .
@@ -1897,8 +1853,6 @@ HOSTNAME, DESCRIPTION, PRODUCT_TYPE, GROUP, USERNAME, PASSWORD, PORT_NUMBER, ENA
 IS_SEED_SERVER #10.86.129.109, IOS GW, IOS, Location_1, cisco, cisco, 22, cisco,
 ```
 
-Note
-
 #### Device, Protocol
                               	 and Command Mapping Table
 
@@ -1924,12 +1878,8 @@ TELNET/
 
 — Not supported — Actual
 
-Note
-
 Cisco Finesse does
                                              		not support System CLI for system trace settings.
-
-Note
 
 By default from the release 12.5(2) onwards, for IOS GW
                                              				in the sample devices CSV file the port number is 22. When you want to use Telnet
@@ -1949,8 +1899,6 @@ The CLI output is in
                                  	 aggregate response from all servers.
 
 #### Mapping of System CLI Commands to IOS CLI Commands
-
-Note
 
 This mapping table is available in the configuration file, so that mapping can be easily altered.
 
@@ -1990,8 +1938,6 @@ You can find all logs generated by the CLI process under the directory <ICM_Driv
 
 ### Accessing the
                            	 Diagnostic Framework Through the Built-In User Interface (Portico)
-
-Note
 
 Starting release 12.6(2), Diagnostic Framework will use only HTTPS to communicate with Framework.
 
@@ -2085,8 +2031,6 @@ There are two
 
 #### Configure System CLI with CVP OAMP
 
-##### Procedure
-
 Step 1
 
 Sign in to CVP Operations Console from a web browser and select Device Management > Unified ICM .
@@ -2127,8 +2071,6 @@ Repeat the above process for all other devices such as UCCE, CUIC, UCM, Gateways
 
 #### Modify or Add User to CVP OAMP for System CLI
 
-##### Procedure
-
 Step 1
 
 Click User Management > Users in CVP Operations Console.
@@ -2152,8 +2094,6 @@ Click Save .
 #### Install CVP Remote
                               	 Operations
 
-##### Procedure
-
 Step 1
 
 Run CVP
@@ -2166,8 +2106,6 @@ Apply security
                                              			 hardening if desired and complete installation.
 
 #### Add Remote Operations Machines to CVP Operations Console
-
-##### Procedure
 
 Step 1
 
@@ -2205,8 +2143,6 @@ Click Refresh button until status changes to "Success" .
 
 #### Confirm Windows Environment Variables Set Correctly for CVP Web Services
 
-##### Procedure
-
 Step 1
 
 Click Start > Run and enter systempropertiesadvanced on the Remote Operations machine.
@@ -2224,8 +2160,6 @@ Step 4
 Verify path variable contains C:\Cisco\CVP\wsm\CLI; .
 
 #### Use Unified System CLI with CVP OAMP
-
-##### Procedure
 
 Step 1
 
@@ -2255,8 +2189,6 @@ We will use the ADS as our main machine for running the System CLI.
 
 #### Create Devices.csv from Sample File
 
-##### Procedure
-
 Step 1
 
 Navigate to C:\icm\serviceability\wsccli\conf\ .
@@ -2267,8 +2199,6 @@ Copy file devices-sample.csv and save as devices.csv .
 
 #### Add Connection
                               	 Information to Devices.csv File
-
-##### Procedure
 
 Step 1
 
@@ -2306,8 +2236,6 @@ Downloaded certificates have to be added to Cisco custom trust store “cacerts�
 
 #### Designate Users for Diagnostic Framework
 
-##### Procedure
-
 Step 1
 
 Click Start > Run .
@@ -2325,8 +2253,6 @@ Step 4
 Add users to group and click OK .
 
 #### Use Unified System CLI with Devices.csv
-
-##### Procedure
 
 Step 1
 
@@ -2384,8 +2310,6 @@ If the
                                              					 trace level does not match any pre-defined levels (for example, a manually
                                              					 configured, specific trace mask), Diagnostic Framework returns "custom
                                                 						(99)" .
-
-Note
 
 The minimum and default trace level for the CMS, CMSJServer and ISE components is 2.
 
@@ -2536,28 +2460,14 @@ Reply example:
 </dp:ListTraceFilesReply>
 ```
 
-Note
-
-Note
-
-Note
-
-Note
-
-Note
-
 ### DownloadTraceFile
 
 Download the trace
                                  		  files that were returned by the ListTraceFiles API.
 
-Note
-
 However, for trace
                                  		  files, the ListTraceFiles API returns one zip file (including trace files,
                                  		  capture files, and others). You need only one download request.
-
-Note
 
 Request:
 
@@ -2643,8 +2553,6 @@ Reply example:
 
 Download the log
                                  		  files that were returned by the ListLogFiles API.
-
-Note
 
 In the case of
                                  		  downloading the log files, a user may request a subsequent download with the
@@ -3311,8 +3219,6 @@ If you are using
 SNMP community
                                  		names are used to authenticate data exchange of SNMP information. An NMS can
                                  		exchange SNMP information only with servers that use the same community name.
-
-Note
 
 SNMP community
                                                 			 name along with the SNMP Version forms an unique entity and acts as a primary
@@ -4679,10 +4585,6 @@ When the EMS files are copied to a system in a different timezone, or if the tim
                                           option, all the queries made will be relative to the machine on which the logfiles were generated. Otherwise, /tzadjustoff
                                           is used in order to switch the behavior where queries are made with respect to this machine time.
 
-Note
-
-Note
-
 Field
 
 Description
@@ -4713,8 +4615,6 @@ The timestamp
                               		displayed in DUMPLOG standard format is in local time relative to the server on
                               		which DUMPLOG is run. The timestamp displayed in Cisco Log format is in GMT
                               		time independent of the server on which DUMPLOG is run.
-
-Note
 
 ### Multi-line Entries
 
@@ -4793,16 +4693,12 @@ Note the line beginning with sequence number 32, where [part=19.14/14] :
 
 #1 = 19. #2 = 14 / #3 = 14
 
-Note
-
 The log files are zipped according to the parameters specified in the EMS registry settings. While dumping the logs, if one
                                           log file transitions to the next log file very quickly, then do one of the following to avoid an error:
 
 Provide an EndTime (/et) with BeginTime (/bt)
 
 Increase the file size per log
-
-Note
 
 Collecting logs on the UCCE system using dumplog utility impacts CPU and disk utilization. Running dumplog simultaneously
                                           on multiple VMs sharing the same disk can cause problems for the disk during peak busy hour if system resources are being
@@ -4861,8 +4757,6 @@ If you are remote (on another PG) and the system name is UCCEPG1A, type:
 
 EMSMON ucce PG1A jgw1 UCCEPG1A
 
-Note
-
 The language identification parameter is also optional. As logging is only supported in the English language, it needs to
                               be set to "1033" (for English) whenever the OS is running any other language.
 
@@ -4889,8 +4783,6 @@ You can have one
 Running EMSMON against a process that is under heavy load is not supported, and can lead to instability in the target process.
                               If your system is running a heavy call load, your EMSMON connections may disconnect and the message "You are being disconnected because the system is running a heavy call load; this connection may impact the performance of
                                  the system. Ensure not to reconnect your EMSMON sessions until your system returns to a normal call load." appear.
-
-Note
 
 ## Unified CCE Certificate Monitoring Service
 
@@ -4956,8 +4848,6 @@ Format Type
 
 Integrity
 
-Note
-
 PEM is the only supported certificate format.
 
 Case 1: When the certificate is not available in the defined path:
@@ -5021,8 +4911,6 @@ Chain Validation
 
 The certificate chain is validated end-to-end.
 
-Note
-
 The root and intermediate CA certificates must be present at the trusted certificates location on the system.
 
 Case: When a certificate in the chain is not found:
@@ -5035,8 +4923,6 @@ Certificate chain validation failed. Ensure that the root/trust certificates are
 
 The Unified CCE Certificate Monitor uses EMS Framework to create and manage its trace files. The certificate monitoring trace
                                  files are created in the folder: <ICM_Drive>:\icm\certmon\logfiles . You can use the DUMPLOG utility to extract trace files.
-
-#### Procedure
 
 Step 1
 
@@ -5112,12 +4998,6 @@ A self-signed
 ### Customers Also Viewed
 
 - Configure Webex AI Agent for CCE
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Note: The Diagnostic Framework or HTTP SSL service does not require IIS. However, if IIS is installed, the HTTP SSL service
                                        adds a dependency on the IIS service. Therefore, for HTTP SSL and the Diagnostic Framework to work, start IIS. |

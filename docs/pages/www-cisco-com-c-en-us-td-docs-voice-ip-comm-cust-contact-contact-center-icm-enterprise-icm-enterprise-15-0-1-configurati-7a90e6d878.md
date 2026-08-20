@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-7a90e6d878
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/monitoring_snmp_health.html
-retrieved_at: 2026-08-16T14:36:45.018571+00:00
+retrieved_at: 2026-08-20T18:59:14.298985+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -207,8 +207,6 @@ hrSWRunPerfCPU.4040 = 20
 hrSWRunPerfMem.4040 = 6428
 ```
 
-Note
-
 ### MIB2
 
 The MIB2 is defined in RFC-1213.  It contains objects such as interfaces, IP, ICMP.
@@ -284,8 +282,6 @@ The Cisco Contact Center Applications MIB SNMP subagent provides access to compo
 
 The CISCO-CONTACT-CENTER-APPS-MIB is implemented on all major components of the Unified CCE solution. That is, the Router,
                               Logger, Peripheral Gateway and the AW/HDS.
-
-Note
 
 The SNMP agent infrastructure is installed on all of these component servers with a subagent that serves CISCO-CONTACT-CENTER-APPS-MIB
                               instrumentation for that server. The MIB defines a number of tables of instrumentation – one set for discovery and basic health
@@ -373,8 +369,6 @@ Real-time status of
 
 The Component Element table lists all Unified CCE processes that should be running, and exposes the (operating system) process
                               identifier and the current status of the process.
-
-Note
 
 ### Mapping CCCA-MIB
                            	 to Standard Host MIBs
@@ -1158,15 +1152,11 @@ Unified CCE SNMP support is automatically installed during setup. No extra steps
                            to be enabled. However, you must install Microsoft Windows SNMP optional components on the Unified CCE servers for any SNMP
                            agents to function.
 
-Note
-
 You require the Microsoft SNMP components are required for Cisco SNMP support. However, the Microsoft Windows SNMP service
                            is disabled as part of the Unified ICM setup and is replaced by the Cisco Contact Center SNMP Management service to process
                            SNMP requests in its place. The Cisco
                            Contact Center SNMP Management service provides for more sophisticated SNMP capabilities than the standard Microsoft SNMP
                            Service.
-
-Note
 
 The AppInfo feature provided by the VMware tools has to be disabled. For instructions to disable the AppInfo feature, see
                                        the VMware documentation.
@@ -1181,8 +1171,6 @@ While all SNMP components are installed and enabled by default, the device is no
                         	 Agent Management Snap-In
 
 ### Before you begin
-
-### Procedure
 
 Step 1
 
@@ -1234,8 +1222,6 @@ The Cisco SNMP
 ## Save Snap-In
                         	 View
 
-### Procedure
-
 Step 1
 
 Click Console > Save
@@ -1264,8 +1250,6 @@ SNMP Community Names are used to authenticate data exchange of SNMP information.
                               with servers that use the same Community Name.
 
 To configure the Community Name for SNMP v1 and v2c:
-
-### Procedure
 
 Step 1
 
@@ -1304,8 +1288,6 @@ Click Save .
 
 The community name appears in the Configured Communities section at the top of the dialog box.
 
-Note
-
 You can remove the community name by highlighting the name in the Configured Communities section and clicking Remove Community.
 
 Step 9
@@ -1316,8 +1298,6 @@ Click OK .
 
 If you are using SNMP v3 you must configure a User Name so that Network Management Stations (NMSs) can access the data provided
                               by your server. By default, these names are left blank for security reasons.
-
-### Procedure
 
 Step 1
 
@@ -1349,8 +1329,6 @@ choose an authentication protocol
 
 Enter and confirm a password.
 
-Note
-
 This setting encrypts the password information as it is sent over the network. You must use these settings on your NMS to
                                                       access SNMP data from this server.
 
@@ -1361,8 +1339,6 @@ Step 7
 Choose an encryption type.
 
 Enter and confirm a password.
-
-Note
 
 This setting encrypts all SNMP information as it is sent over the network. If privacy is configured, authentication is required,
                                                       but you can configure authentication without configuring privacy. You must use these settings on your NMS to access SNMP data
@@ -1379,8 +1355,6 @@ Step 9
 
 Click Save
 
-Note
-
 You can remove the user by highlighting the name in the Configured Users section and clicking Remove User .
 
 Step 10
@@ -1388,8 +1362,6 @@ Step 10
 Click OK .
 
 ## Configure General Information Properties
-
-### Procedure
 
 Step 1
 
@@ -1434,8 +1406,6 @@ Enable Authentication Traps
 Check if you wish to enable Authentication Traps. When an NMS attempts to poll this device with inappropriate authentication
                                                       credentials (for example, wrong community name), the device generates a failed authentication trap.
 
-Note
-
 Step 4
 
 (Optional) Change Windows Execution Priority of Cisco SNMP agents in Agent Performance section under Execution Priority .
@@ -1460,8 +1430,6 @@ Important
 
 Change this value only under direction from Cisco Technical Assistance (TAC).
 
-#### Procedure
-
 Step 1
 
 Change Agent Log Quantity setting in General Information Properties dialog.
@@ -1472,8 +1440,6 @@ Change Agent Log Quantity setting in General Information Properties dialog.
 
 - Terse (least information)
 
-Note
-
 You can retrieve logs using the Analysis Manager.
 
 Step 2
@@ -1481,8 +1447,6 @@ Step 2
 Click OK to save changes.
 
 ## Configure SNMP Trap Destinations
-
-### Procedure
 
 Step 1
 
@@ -1524,8 +1488,6 @@ Click Save to save trap destination.
 
 The Trap Entity Name appears in the Trap Entities section at the top of the dialog box.
 
-Note
-
 You can remove the Trap Entity by highlighting the name in the Trap Entities section and clicking Remove Trap Entity .
 
 Step 10
@@ -1550,12 +1512,6 @@ Continue to use the public high-priority network interface. Configure the networ
 Use Web Setup to change the IP addresses for the Routers. Use the public high network interface for public (normal priority)
                                     traffic. Use the  public nonhigh interface for high priority traffic. Ensure that you specify the appropriate priority (high
                                     or normal) for all nodes.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | The implementation approach for standardized MIBs, such as the Host Resources MIB, can vary from vendor to vendor, subject
                                        to interpretation. For example, the hrSWRunStatusobject value (notRunnable) shown in the preceding example is subjective;
