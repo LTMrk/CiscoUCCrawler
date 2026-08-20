@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-push-notifications-cucm-b-push-notifications-deployment-guide-cucm-b-pu-42c78ff175
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_010.html
-retrieved_at: 2026-08-16T16:07:38.828683+00:00
+retrieved_at: 2026-08-20T15:56:43.330687+00:00
 ---
 
 Push Notifications Deployment Guide
@@ -55,3 +55,7 @@ If Webex Messenger shuts down gracefully, a terminated push notification gets se
 If the Webex Messenger server fails, no terminated push notification is sent. All queued instant messages, Presence updates,
                               and XMPP stanzas that are queued on the server and waiting to be delivered to the client, are lost. The user must move Cisco
                               Jabber or Cisco Webex back to the foreground to begin a new session with Push Notifications enabled in the new session.
+
+### Customers Also Viewed
+
+- Push Notifications Deployment Guide --- Push Notifications (On-Premises Deployments)

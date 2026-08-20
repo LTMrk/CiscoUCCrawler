@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-push-notifications-cucm-b-push-notifications-deployment-guide-cucm-b-pu-882c0f30b0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_01.html
-retrieved_at: 2026-08-16T14:16:19.258554+00:00
+retrieved_at: 2026-08-20T15:56:40.000842+00:00
 ---
 
 Push Notifications Deployment Guide
@@ -203,8 +203,6 @@ Not Supported
 
 * For messaging, Webex App clients register to the Webex App cloud rather than the IM and Presence Service.
 
-Note
-
 ### How Push Notifications Work
 
 At startup, Cisco Jabber clients that are installed on Android and iOS platform devices register to Unified Communications
@@ -216,8 +214,6 @@ At startup, Cisco Jabber clients that are installed on Android and iOS platform 
 However, once the client moves to background mode (for example, this may happen to maintain battery life), the standard communication
                               channels are unavailable, preventing direct communication with the client. Push Notifications provides an alternative channel
                               to reach the clients through the partner clouds (Apple or Google).
-
-Note
 
 Cisco Jabber and Webex App clients are considered to be running in suspended mode if any of the following conditions are true:
 
@@ -236,8 +232,6 @@ The figure illustrates: (1) an MRA deployment where a Jabber client connects wit
                               and IM and Presence Service deployment through Expressway, and (2) a Cisco Jabber for Android or iOS client that connects
                               directly to the on-premises deployment from within the enterprise network.
 
-Note
-
 For Jabber users who have simultaneously logged in to Windows and iOS devices:
 
 If two users are in an active call, and another user sends a message, a push notification is sent to the iOS device.
@@ -248,10 +242,6 @@ If a user is not in an active call, and another user sends a message, no push no
 
 The following table shows Push Notifications client behavior with on-premises deployments of Unified Communications Manager
                               and the IM and Presence Service.
-
-Note
-
-Note
 
 Cisco Jabber or Webex client is in...
 
@@ -298,8 +288,6 @@ Standard channel is unavailable. The IM and Presence Service uses Push Notificat
                                           Jabber. When the user clicks the notification, the client moves to foreground mode, resumes the session with the IM and Presence
                                           Service, and downloads the message.
 
-Note
-
 Voice and Video Calls
 
 SIP channel is unavailable for calls. Unified CM uses the Push Notifications ‘VoIP’ channel. Upon receiving the push notification,
@@ -311,8 +299,6 @@ Messages (Jabber only)
 Standard channel is unavailable. The IM and Presence Service uses Push Notifications ‘message’ channel to send the IM notification
                                           to Jabber. When the user clicks the notification, the client moves to foreground mode, resumes the session with the IM and
                                           Presence Service, and downloads the message.
-
-Note
 
 ### Apple Push Notification
 
@@ -342,8 +328,6 @@ Shared Line : When the Push Notification enabled device that has a shared line w
                                     from the other device.
 
 Push Notifications of type "VoIP" are considered high priority and are delivered without delay.
-
-Note
 
 The following image provides a breakdown of what happens when a VoIP Push Notification is sent under iOS13 and above versions.
 
@@ -384,8 +368,6 @@ Client gets the push notification.
 The notification causes Cisco Jabber app to register and users see call information in it.
 
 Users can answer the call directly from the app.
-
-Note
 
 There is no change in user experience behavior for message push notifications.
 
@@ -428,8 +410,6 @@ The VoIP call Push Notification message causes the application to show a message
 This allows the end-user to be assured of the caller's identity before answering the call. Tap on the message notification
                                     for the application to start and register with Unified Communications Manager . After successful registration, the Unified Communications Manager routes the incoming call to the application.
 
-Note
-
 We recommend that the user quickly tap on the message notification on the Cisco Jabber and Cisco Webex client for Unified Communications Manager to route calls to the user. If the user doesn’t tap on the message notification within the set time (13 seconds), the incoming
                                                 call doesn’t alert the receiver over a CallKit and a missed call message notification is sent to the user.
 
@@ -446,8 +426,6 @@ As of 12.5(1)SU3, Unified Communications Manager supports VoIP Push Notification
 When there's an incoming call, the Unified Communications Manager Push Notification Service (CPNS) sends a push notification over the Google cloud to the Android clients that is running in
                               suspended or background mode. After receiving the notification, the Cisco Jabber or Webex client registers back to Unified Communications Manager to receive the call.
 
-Note
-
 Android Push Notification for Cisco Webex is only for voice call notifications. For messaging, Cisco Webex doesn't use an
                                                 on-premises IM and Presence Service server.
 
@@ -458,8 +436,6 @@ On Android, there's no guarantee that the foreground service always works on the
                                                 during a memory constraint or system components update. Hence, we recommend that you enable Cisco Cloud Onboarding to use
                                                 FCM (Firebase Cloud Messaging) which ensures that you receive chat messages (Cisco Jabber Only) and calls while the Cisco
                                                 Jabber or Webex client is in the background.
-
-Note
 
 As part of Cisco Jabber and Cisco Webex client user sign-in with Android push notifications service from the Google cloud,
                                           the subscriber services FCM (Firebase Cloud Messaging) and FCM: dev are supported.
@@ -486,8 +462,6 @@ The Unified Communications Manager Push Notification Service (CPNS) aims to avoi
                               or Cisco Webex register to the correct active node, whenever a Push Notification is sent. This Push Notification request contains
                               the current active node information and enables the clients to quickly register back to the same node or to the current active
                               node.
-
-Note
 
 The active node is only included in the Push Notification from 12.5(1)SU3 release onwards.
 
@@ -525,8 +499,6 @@ For the proxy server to Cisco cloud connection, we recommend that you configure 
                                        in order to speed up the failover process for connection failures.
 
 If you are deploying the Cisco Web Security Appliance, the FQDN must map to the WSA’s virtual IP address.
-
-Note
 
 ### Push Notifications High Availability for IM and Presence
 
@@ -575,8 +547,6 @@ Cisco XCP Router restarts—If an administrator restarts the Cisco XCP Router, s
                                        both the IM history and the unread message queue are maintained. Once the router restarts, the IM and Presence Service resumes
                                        sending Push Notifications. The unread message queue is sent once the Jabber client logs in again.
 
-Note
-
 For voice and video calls, redundancy and failover is handled by Cisco Unified Communications Manager Groups.
 
 #### Supported Re-login Rate during HA Event for Push v3 Enabled Devices
@@ -600,8 +570,6 @@ If the client re-login lower limit is set to 200, then the client re-login upper
 
 7500/(2075-200)= 4 users/sec
 
-Note
-
 The above result is measured for UCS-C220-M4S Intel Xeon CPU E5-2660 v4@2.00GHz platform.
 
 This calculation is applicable to IM and Presence Release 11.5 deployments only.
@@ -611,8 +579,6 @@ This calculation is applicable to IM and Presence Release 11.5 deployments only.
 ### Minimum Releases
 
 The following table highlights minimum releases for basic Push Notifications support.
-
-Note
 
 Operating System
 
@@ -632,8 +598,6 @@ Not supported on Android
 
 iOS12 (APNS)
 
-Note
-
 Unified Communications Manager 11.5(1)SU4 or higher (Recommended: 11.5(1)SU7 or 12.5(1)SU2)
 
 IM and Presence Service 11.5(1)SU4 or higher (Recommended: 11.5(1)SU7 or 12.5(1)SU2)
@@ -651,8 +615,6 @@ IM and Presence Service 11.5(1)SU8 for 11.x releases, 12.5(1)SU3 for 12.x releas
 Cisco Jabber 12.9
 
 Cisco Expressway X12.6 (if MRA is deployed)
-
-Note
 
 If upgrading to minimum releases and push notifications feature is already enabled, you must upgrade all IM and Presence service
                                                       clusters first before upgrading Expressway.
@@ -672,8 +634,6 @@ Cisco Jabber 12.9.1
 Cisco Expressway X12.6.2 (if MRA is deployed)
 
 For more information, see the latest X12.6.2 Expressway release notes.
-
-Note
 
 If upgrading to minimum releases and push notifications feature is already enabled, you must upgrade all IM and Presence service
                                                       clusters first before upgrading Expressway.
@@ -806,8 +766,6 @@ Push REST service at push.webexconnect.com — Unified Communications Manager an
 
 Common Identity service at idbroker.webex.com — Unified Communications Manager and IM and Presence Service authenticates to this service before sending a Push Notification.
 
-Note
-
 Add fos-a.wbx2.com , push.webexconnect.com and idbroker.webex.com to the SSL Decryption Exclusion list in the firewall.
 
 For messaging Push Notifications to Cisco Jabber, the Instant Messaging must be enabled, and the Multiple Device Messaging
@@ -850,11 +808,7 @@ For Unified Communications Manager , issue a CSR to request CA-signed Cisco Tomc
 
 For the IM and Presence Service, issue a CSR to request CA-signed Cisco Tomcat certificates.
 
-Note
-
 If you use different CAs, you must install each CA's root certificate chain on Unified Communications Manager , IM and Presence Service, and Expressway-C.
-
-Note
 
 You can also use self-signed certificates for both Unified Communications Manager and the IM and Presence Service. In this case, you must upload onto Expressway-C the Cisco Tomcat and Cisco CallManager certificates
                                                 for Unified Communications Manager and a Cisco Tomcat certificate for the IM and Presence Service.
@@ -863,16 +817,12 @@ You can also use self-signed certificates for both Unified Communications Manage
 
 ### Before you begin
 
-### Procedure
-
 Step 1
 
 Synchronize Licenses
 
 Release 11.5(1)SUx only. Synchronize your system licensing in Cisco Prime License Manager. This is a mandatory task regardless
                                           of whether you have added new licenses.
-
-Note
 
 You can skip this task for Cisco Unified Communications Manager Release 12.0(1) and later as Prime License Manager is replaced
                                                       by Smart Licensing.
@@ -921,19 +871,13 @@ Configure Troubleshooting Options
 Configure troubleshooting parameters that determine how often Cisco Unified Communications Manager sends Push Notifications
                                           alarms to the Cisco Cloud, and for which alarm severities.
 
-Note
-
 For Mobile and Remote Access (MRA) deployments with Cisco Expressway, see the Mobile and Remote Access via Cisco Expressway Deployment Guide for information about Push Notifications with Expressway.
 
 ### Synchronize Licenses
 
-Note
-
 #### Before you begin
 
 For details on licensing, including procedures for adding licenses or product instances, refer to the Cisco Prime License Manager User Guide .
-
-#### Procedure
 
 Step 1
 
@@ -972,13 +916,9 @@ Push notifications to the Push REST service at push.webexconnect.com
 
 This port should be open for all cluster nodes.
 
-Note
-
 For Apple devices, refer to Use Apple products on enterprise networks - Apple Support .
 
 For Android devices, refer to Android Enterprise Network Requirements - Android Enterprise Help (google.com) .
-
-Note
 
 ### Enable Push Notifications
 
@@ -992,8 +932,6 @@ Make sure of the following:
 Port 443 must be open from the Unified Communications Manager publisher node for outbound HTTPS requests.
 
 Both the Cisco Push Notification Service and the Cisco Management Agent Service network services must be running in Cisco Unified Serviceability. Both services are enabled by default.
-
-#### Procedure
 
 Step 1
 
@@ -1015,8 +953,6 @@ Step 5
 
 Check the I want Cisco to manage the Cisco Cloud Service CA Certificates required for this trust check box to have the system update certificates automatically.
 
-Note
-
 If you check this check box, Cisco installs your cloud certificate requirements automatically. However, if a new certificate
                                                          requirement is added that was not included in the file that you used to install your system, you may need to obtain cloud
                                                          certificates manually. For information on uploading certificates manually, see Certificates for Cloud Connection .
@@ -1024,8 +960,6 @@ If you check this check box, Cisco installs your cloud certificate requirements 
 Step 6
 
 If you require an HTTP(S) Proxy to reach the Cisco cloud, check the Enable HTTP(S) Proxy check box and enter the server details.
-
-Note
 
 Cisco supports Basic and Digest authentication for the proxy server. The recommended authentication method is digest authentication.
 
@@ -1057,8 +991,6 @@ Step 11
 
 Click Save .
 
-Note
-
 Restart the Unified Communications Manager Push Notification Service (CPNS).
 
 Step 12
@@ -1075,29 +1007,17 @@ Select the Cisco XCP Router service and click Restart .
 
 Repeat this step for all IM and Presence cluster nodes.
 
-Note
-
 If you get a message that says " No phones are enabled in the Device Defaults page to use Activation Code Onboarding ", it doesn't mean that the onboarding has failed, but it indicates that no devices in the Device Defaults window have been configured to use the activation code for the On-premise Onboarding method.
-
-Note
 
 The Unified Communications Manager Push Notification Service (CPNS) needs to be restarted whenever there are updates in the
                                              Unified CM onboarding page.
 
-Note
-
 Restarting the Cisco XCP Router does not update the Status message in the Cisco Cloud Onboarding Configuration window. If you complete the above procedure for all nodes and then return to the Cisco Cloud Onboarding Configuration window, the Status message will still say that you need to restart the Cisco XCP router. However, you need restart it only once on each IM and
                                              Presence cluster node.
-
-Note
 
 To disable Push Notifications, uncheck the Enable Push Notifications check box and click Save . After saving, restart the Cisco XCP Router on all IM and Presence Service cluster nodes.
 
 ### Enable Push Notifications High Availability
-
-Note
-
-#### Procedure
 
 Step 1
 
@@ -1133,19 +1053,13 @@ Repeat this procedure on all IM and Presence cluster nodes.
 
 ### Configure OAuth Refresh Logins
 
-Note
-
 OAuth Refresh Logins are enabled by default in Cisco Expressway, but are disabled by default in Unified Communications Manager . If you use the default settings for both systems, a configuration mismatch occurs.
-
-#### Procedure
 
 Step 1
 
 Configure OAuth Refresh Logins in Unified Communications Manager
 
 Configure Refresh Logins with OAuth access tokens and refresh tokens in Unified Communications Manager .
-
-Note
 
 OAuth Refresh Logins are an optional deployment in Unified Communications Manager .
 
@@ -1166,8 +1080,6 @@ In Cisco Unity Connection, enable OAuth Refresh Logins and assign the Unified Co
 Use this procedure in Unified Communications Manager to configure Refresh Logins with OAuth access tokens and refresh tokens for Cisco Jabber and Cisco Webex clients. OAuth Refresh
                                     Logins provide a streamlined login flow that doesn't require users to re-login after network changes.
 
-Note
-
 To ensure compatibility, make sure that the various Unified Communications components of your deployment all support refresh
                                                 logins. Once OAuth Refresh Logins are enabled, disabling the feature requires you to reset all Jabber and Webex clients.
 
@@ -1175,8 +1087,6 @@ Caution
 
 We recommend that you enable OAuth Refresh Logins, which are disabled by default in Unified Communications Manager , but are enabled by default in Cisco Expressway. If you are have both systems deployed, and you are using the default settings,
                                                 you must either enable Refresh Logins in Unified Communications Manager or disable them in Cisco Expressway. Otherwise, a configuration mismatch results.
-
-##### Procedure
 
 Step 1
 
@@ -1210,8 +1120,6 @@ Step 4
 
 Click Save .
 
-Note
-
 ##### What to do next
 
 Make sure that the OAuth Refresh Login configuration in Cisco Expressway matches your Unified Communications Manager setting. For details, Confirm OAuth Configuration in Expressway .
@@ -1220,11 +1128,7 @@ Make sure that the OAuth Refresh Login configuration in Cisco Expressway matches
 
 If you have Cisco Expressway deployed, make sure that the OAuth Refresh Login configuration on Expressway matches your Unified Communications Manager configuration.
 
-Note
-
 OAuth Refresh Logins are enabled by default in Cisco Expressway, but are disabled by default in Unified Communications Manager . If you use the default settings for both systems, a configuration mismatch occurs. In Unified Communications Manager , OAuth Refresh Logins are configured via the OAuth with Refresh Login Flow enterprise parameter.
-
-##### Procedure
 
 Step 1
 
@@ -1245,8 +1149,6 @@ Step 3
 Click Save .
 
 #### Enable OAuth on Unity Connection
-
-##### Procedure
 
 Step 1
 
@@ -1281,11 +1183,7 @@ Click Save .
 Use this procedure to refresh settings on Cisco Expressway for Push Notifications. This will allow Expressway to sync configurations
                                  and certificates with Unified Communications Manager .
 
-Note
-
 For detailed information on Cisco Expressway configurations, see the Cisco Expressway Administrator Guide for your release at the Expressway Maintain and Operate Guides page.
-
-#### Procedure
 
 Step 1
 
@@ -1310,10 +1208,6 @@ Click Restart .
 
 ### Restart Expressway-E
 
-Note
-
-#### Procedure
-
 Step 1
 
 Log in to Expressway-E.
@@ -1334,8 +1228,6 @@ Use this procedure on the Unified Communications Manager publisher node to confi
 #### Before you begin
 
 The Cisco Management Agent Service network service must be running for Unified Communications Manager to send Push Notifications alarms to the Cisco Cloud. You can confirm that the service is running in the Control Center - Network Services window of Cisco Unified Serviceability. The service is enabled by default.
-
-#### Procedure
 
 Step 1
 
@@ -1466,8 +1358,6 @@ If you are upgrading from the 11.5(1)SU2
 After you upgrade your system to the new release, do the
                                  following:
 
-#### Procedure
-
 Step 1
 
 Disable Push Notifications
@@ -1597,8 +1487,6 @@ The length of the delay depends on the system load. Testing has shown that for a
                                                 in an high-availability pair, it takes 10–20 minutes for Push Notifications to be sent following a failover. This delay is
                                                 observed when the backup node takes over, and again after the main node recovers.
 
-Note
-
 Stopping Push Notifications
 
 If you want to stop Push Notifications from being delivered to your device, log out of the Cisco Jabber or Webex application.
@@ -1620,16 +1508,12 @@ Important
 
 This section is applicable from Release 14SU3 onwards.
 
-Note
-
 iOS devices running on iOS16.5 or later with Webex App 43.6 or later or Cisco Jabber 14.2 or later support this feature. Ensure
                                              that your iOS device is connected in on-premises mode.
 
 In this release, Local Push Notification Service (LPNS) supports notification for voice calls only.
 
 LPNS is not supported on Android devices and MRA users.
-
-Note
 
 Currently, Webex App does not receive incoming VoIP call notifications when an iOS device operates in a Wi-Fi constrained
                            network with no internet connection. For example, hospitals, cruise ships, airplanes, and so on. Due to lack of internet connectivity,
@@ -1646,8 +1530,6 @@ When the client is in any of the configured Wi-Fi networks, it establishes a per
 
 To enable Local Push Notifications for on-premises deployments, onboard the Unified CM clusters for APNS. For more information,
                                  see Enable Push Notifications .
-
-Note
 
 You do not have to perform Step 12 in the referenced section.
 
@@ -1671,8 +1553,6 @@ Unified Communications Manager
 
 9560/Secure WebSocket
 
-Note
-
 The LPNS in a cluster uses the 9560 port to enable the mesh for High Availability.
 
 ### How Local Push Connectivity Works
@@ -1693,8 +1573,6 @@ To enable efficient usage of resources, the LPNS server must know whenever the O
                                  LPNS server every 120 seconds. The LPNS server acknowledges this message and maintains the WebSocket connection. If the LPNS
                                  server doesn't receive a keepalive message (either due to token expiry or the Webex App client disconnecting from the Wi-Fi
                                  network) within 120 seconds, it closes the connection to the client and sends a 401 error message.
-
-Note
 
 In addition to the above, LPNS session for a particular iOS device would be closed:
 
@@ -1724,8 +1602,6 @@ Webex App is woken up, registers to Unified CM, and a SIP channel is established
 To enable LPNS notifications, you must first configure the Wi-Fi SSID.
 
 #### Before you begin
-
-#### Procedure
 
 Step 1
 
@@ -1762,8 +1638,6 @@ Click Save .
 ### Associate Jabber Service Profile to the End User
 
 After you configure the Wi-Fi SSID, you must create a service profile and associate it with an end user.
-
-#### Procedure
 
 Step 1
 
