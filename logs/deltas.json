@@ -1,9 +1,11 @@
 {
-  "run_at": "2026-08-20T21:10:28.824537+00:00",
+  "run_at": "2026-08-20T21:13:06.665796+00:00",
   "modo": "incremental",
   "added": [
-    "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220504-deploy-and-use-of-webex-call-integration-html-6cf88413aa",
-    "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222952-troubleshoot-webex-scheduling-error-html-cb1a9fad6b"
+    "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218072-configure-a-user-as-a-full-external-admi-html-b6dcc42180",
+    "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218104-configure-directory-connector-to-soft-de-html-4329b170a0",
+    "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220198-configure-business-texting-for-webex-cal-html-95d993a7d7",
+    "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220476-clear-azure-ad-integration-error-reques-html-6723829a4a"
   ],
   "modified": [],
   "removed": [],

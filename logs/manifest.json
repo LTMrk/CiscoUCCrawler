@@ -1346,6 +1346,32 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.html": {
+      "content_sha": "36c4a1a68117641fbdfc372e915a504f0cd2112ef1b58adfe7e36ae93a3bdc9c",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218072-configure-a-user-as-a-full-external-admi-html-b6dcc42180",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T21:12:36.661050+00:00",
+      "last_changed": "2026-08-20T21:12:36.661050+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T21:12:36.661050+00:00",
+      "next_check": "2026-08-21T21:12:36.661050+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de.html": {
+      "content_sha": "fa860d29ffa2c93080f24d77decbdff8d399da7d71bb29487eb370d0320942b3",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218104-configure-directory-connector-to-soft-de-html-4329b170a0",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T21:12:44.865724+00:00",
+      "last_changed": "2026-08-20T21:12:44.865724+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T21:12:44.865724+00:00",
+      "next_check": "2026-08-21T21:12:44.865724+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search.html": {
       "content_sha": "dda64f4c81f8cbe62686dce79cef6c3548d680ec8e0efd5bfa31eb391376078c",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218127-understand-ediscovery-reports-to-search-html-e179c25824",
@@ -1359,6 +1385,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal.html": {
+      "content_sha": "4119fd7444f0721c755a46f8f7b34098fd76af9df4fdb46a7108f63bf5a94056",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220198-configure-business-texting-for-webex-cal-html-95d993a7d7",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T21:12:40.500731+00:00",
+      "last_changed": "2026-08-20T21:12:40.500731+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T21:12:40.500731+00:00",
+      "next_check": "2026-08-21T21:12:40.500731+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r.html": {
       "content_sha": "0780c589aa9b50d7d2ebeba1f5edf4e8d087eaf6cea810775a3719f9db6b1d3d",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220390-troubleshoot-single-sign-on-admin-self-r-html-fa526c467b",
@@ -1371,6 +1410,19 @@
       "next_check": "2026-08-20T23:50:34.986998+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques.html": {
+      "content_sha": "9d7d3464a76ce4b3646b298ad98bd98dce72b85c2b8877758d6b0a9317c4fd8e",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220476-clear-azure-ad-integration-error-reques-html-6723829a4a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T21:12:32.779821+00:00",
+      "last_changed": "2026-08-20T21:12:32.779821+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T21:12:32.779821+00:00",
+      "next_check": "2026-08-21T21:12:32.779821+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration.html": {
       "content_sha": "f6ba6f379532c2402b1f4dfa7e3867aa5a9ac8de093dd18a343fc32f6ac80af9",
@@ -78934,5 +78986,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T21:10:28.750330+00:00"
+  "updated_at": "2026-08-20T21:13:06.594205+00:00"
 }
