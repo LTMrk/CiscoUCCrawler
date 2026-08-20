@@ -4921,6 +4921,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/42720-configuring-cor.html": {
+      "content_sha": "b3562bf6c7fdd923a5415667345827e6a039ca737797f92818ddb22541f4e392",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-42720-configuring-cor-html-832089bfb1",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:27:11.160904+00:00",
+      "last_changed": "2026-08-20T23:27:11.160904+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:27:11.160904+00:00",
+      "next_check": "2026-08-21T23:27:11.160904+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/61083-voice-transla-rules.html": {
       "content_sha": "8def854587797ececb246ff548375fe1f3aecb32159ae61bbe9b1921373fd57a",
       "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-61083-voice-transla-rules-html-2b7677e467",
@@ -5087,6 +5100,19 @@
       "last_modified": null,
       "last_seen": "2026-08-19T00:13:07.657548+00:00",
       "next_check": "2026-08-20T00:13:07.657548+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/voice-quality/7934-bwidth-consume.html": {
+      "content_sha": "095abeff1fb9b7d4c6b467afbdef940c8bad514be7128f4bfee174aece1b0847",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-voice-quality-7934-bwidth-consume-html-ebc0ac6835",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:26:57.755775+00:00",
+      "last_changed": "2026-08-20T23:26:57.755775+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:26:57.755775+00:00",
+      "next_check": "2026-08-21T23:26:57.755775+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -45400,6 +45426,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmefac.html": {
+      "content_sha": "1041898bb710e7c8dde83cb7a1d36982448d7e14edbfd9f1c725ff401daa4e04",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmefac-html-298e951f7c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:27:15.226711+00:00",
+      "last_changed": "2026-08-20T23:27:15.226711+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:27:15.226711+00:00",
+      "next_check": "2026-08-21T23:27:15.226711+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/feature/guide/EnhancedTrustedFirewallControll.html": {
       "content_sha": "a228fc02dcea2dbfbaa55601a83bed648b44423b294bad3924adb8853dc9b793",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-feature-guide-enhancedtrustedfirewallcontroll-html-f3e0e8f473",
@@ -79480,5 +79519,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T23:24:49.462396+00:00"
+  "updated_at": "2026-08-20T23:27:28.624032+00:00"
 }
