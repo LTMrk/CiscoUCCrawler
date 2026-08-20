@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://collaborationhelp.cisco.com/en-us/article/n4hssfr/Demand-PRT-(problem-report-tool)-collection-in-Control-Hub",
-    "depth": 1
-  },
-  {
-    "url": "https://collaborationhelp.cisco.com/en-us/article/4t8yy0/Report-All-Phone-Issues",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7900-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-ex-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/116684-technote-ipphone-00.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/116684-technote-ipphone-00.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/200410-Troubleshoot-IP-Phone-Unregistration-A.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/212061-How-To-Make-A-Cisco-IP-Phone-Console-Cab.html",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-6900-series/series.html",
     "depth": 1
   },
@@ -16145,6 +16105,46 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/dx80/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/cisco-ucs-monitoring-resource-handbook/ta-p/3646478",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/how-to-configure-freeftpd-for-unified-communications/ta-p/3115265",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/cisco-compute-hyperconverged-with-nutanix-ism-field-guide/ta-p/5101084",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/200410-Troubleshoot-IP-Phone-Unregistration-A.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/200410-Troubleshoot-IP-Phone-Unregistration-A.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://supportforums.cisco.com/document/44376/packet-capture-cucm-appliance-model",
+    "depth": 2
+  },
+  {
+    "url": "https://supportforums.cisco.com/document/44741/collecting-packet-capture-cisco-ip-phone",
+    "depth": 2
+  },
+  {
+    "url": "https://supportforums.cisco.com/document/126666/collecting-cucm-traces-cucm-862-tac-sr",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://supportforums.cisco.com/t5/collaboration-voice-and-video/how-to-login-to-a-cisco-ip-phone-to-set-debug-level/ta-p/3111075",
     "depth": 2
   }
 ]

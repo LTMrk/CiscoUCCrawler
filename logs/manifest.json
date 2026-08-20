@@ -761,6 +761,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/200410-Troubleshoot-IP-Phone-Unregistration-A.html": {
+      "content_sha": "fb2ad4ffa148e5a0a87fd2f35dda96febc907a312e7ab0b231be207b1e79fc8c",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-unified-ip-phone-7900-series-200410-troubleshoot-ip-phone-unr-014e9563ea",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T20:40:38.919721+00:00",
+      "last_changed": "2026-08-20T20:40:38.919721+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T20:40:38.919721+00:00",
+      "next_check": "2026-08-21T20:40:38.919721+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/212061-How-To-Make-A-Cisco-IP-Phone-Console-Cab.html": {
+      "content_sha": "f7ddbf8fc0caa2fd30072626ae062c76a00827fd8d6d3f906052c9de43759420",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-unified-ip-phone-7900-series-212061-how-to-make-a-cisco-ip-ph-e8c87373af",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T20:40:42.937951+00:00",
+      "last_changed": "2026-08-20T20:40:42.937951+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T20:40:42.937951+00:00",
+      "next_check": "2026-08-21T20:40:42.937951+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/wireless-ip-phone-8821/201021-troubleshoot-8821-ip-phone-display-mic.html": {
       "content_sha": "992c3fd4a0623a16d7d9ae04cca99079ed77399ada487cf814904bb6266b8c6c",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-wireless-ip-phone-8821-201021-troubleshoot-8821-ip-phone-disp-e675f06b6c",
@@ -78830,5 +78856,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T20:37:49.480464+00:00"
+  "updated_at": "2026-08-20T20:40:43.013780+00:00"
 }
