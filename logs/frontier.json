@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://ucshcltool.cloudapps.cisco.com/public",
-    "depth": 1
-  },
-  {
-    "url": "https://mce.cisco.com/mce",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/223082-uc-on-ucs-hardware-replacement-for.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/223082-uc-on-ucs-hardware-replacement-for.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/collaboration-systems-release/217288-how-to-build-a-linux-server-and-untar-th.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/collaboration-systems-release/217288-how-to-build-a-linux-server-and-untar-th.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://mycase2-stage.cloudapps.cisco.com/start",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/collaboration-systems-release/218061-configure-idle-user-logout-timer-in-epnm.epub",
     "depth": 1
   },
@@ -16661,6 +16621,34 @@
   },
   {
     "url": "https://supportforums.cisco.com/t5/collaboration-voice-and-video/a-guide-to-sip-normalization-on-cucm-and-lua-scripting/ba-p/3099409",
+    "depth": 2
+  },
+  {
+    "url": "https://ucshcltool.cloudapps.cisco.com",
+    "depth": 2
+  },
+  {
+    "url": "https://ucshcltool.cloudapps.cisco.com/release",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/unified/communications/system/Compatibility/CSR-Compatibility-Matrix-InteractiveHTML.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/unified/communications/system/ucstart.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/14/hybcvd.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/secure-access-announcements/announcement-ga-release-of-client-endpoint-diagnostic-tool/ta-p/5565830",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/ise-berg/ta-p/5041171",
     "depth": 2
   }
 ]

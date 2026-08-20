@@ -618,6 +618,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://ucshcltool.cloudapps.cisco.com/public": {
+      "content_sha": "40c826491f0bf650d0933aeafc339816566481e5e43768f4af3d180c28444f4d",
+      "doc_id": "ucshcltool-cloudapps-cisco-com-public-3fec81b994",
+      "etag": "\"6a3519f5-249\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-20T21:36:03.527660+00:00",
+      "last_changed": "2026-08-20T21:36:03.527660+00:00",
+      "last_modified": "Fri, 19 Jun 2026 10:29:09 GMT",
+      "last_seen": "2026-08-20T21:36:03.527660+00:00",
+      "next_check": "2026-08-21T21:36:03.527660+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://video.cisco.com/detail/video/6232772471001": {
       "content_sha": "ea81cb3e374516b391d6097b28eb24c0f8d63a1396a51c2838fd574349d2fb47",
       "doc_id": "video-cisco-com-detail-video-6232772471001-c75b346fdd",
@@ -79077,5 +79090,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T21:33:48.526208+00:00"
+  "updated_at": "2026-08-20T21:36:37.415108+00:00"
 }
