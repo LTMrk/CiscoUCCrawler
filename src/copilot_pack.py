@@ -50,6 +50,7 @@ import json
 import os
 import re
 import sys
+import zipfile
 
 # ---------------------------------------------------------------------------
 # Parametros
@@ -63,6 +64,28 @@ LIMITE_CHARS = 36_000
 # render_paquete separa cada capitulo con una regla de 60 guiones y cuatro
 # saltos de linea. Sin reservarlo, un paquete lleno se pasa del limite.
 COSTE_SEPARADOR = 70
+
+# PERFILES DE SALIDA
+# ------------------
+# Copilot tiene dos superficies distintas para consumir ficheros, con limites
+# distintos, y lo que sirve para una es contraproducente en la otra:
+#
+#   sharepoint  El agente referencia una CARPETA como origen de conocimiento.
+#               Microsoft recomienda <=36.000 caracteres por fichero; por
+#               encima deja de escanear el fichero entero. Muchos ficheros
+#               pequenos, sin tope de cantidad.
+#
+#   chat        Se adjuntan ficheros sueltos a una conversacion. El tope es de
+#               20 ficheros por conversacion y 50 MB por fichero, y Copilot
+#               indexa 1,8 M de caracteres por fichero. Aqui interesa lo
+#               contrario: pocos ficheros y grandes.
+#
+# En el perfil `chat` se permite mezclar capitulos de libros distintos en el
+# mismo fichero, porque con 20 huecos no hay margen para respetar fronteras.
+PERFILES = {
+    "sharepoint": {"limite": 36_000, "max_ficheros": None, "mezclar_libros": False},
+    "chat": {"limite": 1_500_000, "max_ficheros": 20, "mezclar_libros": True},
+}
 
 DIR_ENTRADA = os.path.join("docs", "pages")
 DIR_SALIDA = os.path.join("dist", "copilot")
@@ -423,11 +446,21 @@ def partir_por_parrafos(texto, limite):
     return trozos
 
 
-def empaquetar(documentos, limite):
-    """Agrupa capitulos consecutivos del mismo libro en ficheros <= limite."""
+def empaquetar(documentos, limite, mezclar_libros=False):
+    """Agrupa capitulos consecutivos en ficheros de <= limite caracteres.
+
+    Por defecto no mezcla libros: un fichero que salta de la guia de
+    administracion a la de troubleshooting produce un chunk incoherente. Con
+    `mezclar_libros` se relaja esa frontera, necesario en el perfil `chat`
+    donde solo caben 20 ficheros por producto.
+    """
     paquetes = []
     documentos.sort(key=lambda d: (d["libro"], d["url"]))
-    for libro, capitulos in itertools.groupby(documentos, key=lambda d: d["libro"]):
+    if mezclar_libros:
+        agrupado = [("todos", iter(documentos))]
+    else:
+        agrupado = itertools.groupby(documentos, key=lambda d: d["libro"])
+    for libro, capitulos in agrupado:
         actual, tam = [], 0
         for capitulo in capitulos:
             bloque = encabezado(capitulo) + "\n\n" + capitulo["texto"]
@@ -611,19 +644,29 @@ def marcar_vigencia(documentos):
     return documentos
 
 
-def escribir(documentos, dir_salida, limite, dry_run=False):
+def escribir(documentos, dir_salida, perfil, dry_run=False):
+    limite = perfil["limite"]
     grupos = collections.defaultdict(list)
     for doc in documentos:
-        grupos[(doc["producto"], doc["vigencia"], doc["subgrupo"])].append(doc)
+        # En el perfil `chat` el tope de 20 ficheros es POR PRODUCTO, asi que
+        # los subgrupos de webex-api no pueden ir a carpetas separadas: se
+        # funden para que el reparto cuente sobre el producto entero.
+        subgrupo = "" if perfil["mezclar_libros"] else doc["subgrupo"]
+        grupos[(doc["producto"], doc["vigencia"], subgrupo)].append(doc)
 
     manifiesto = {}
     resumen = []
+    avisos = []
     for (producto, vigencia, subgrupo), docs in sorted(grupos.items()):
         partes = [dir_salida, producto, vigencia]
         if subgrupo:
             partes.append(subgrupo)
         destino = os.path.join(*partes)
-        paquetes = empaquetar(docs, limite)
+        paquetes = empaquetar(docs, limite, perfil["mezclar_libros"])
+        tope = perfil["max_ficheros"]
+        if tope and len(paquetes) > tope and vigencia == "vigente":
+            avisos.append(f"{producto}/{vigencia}: {len(paquetes)} ficheros, "
+                          f"por encima del tope de {tope} del perfil chat.")
         if not dry_run:
             os.makedirs(destino, exist_ok=True)
         usados = collections.Counter()
@@ -654,7 +697,7 @@ def escribir(documentos, dir_salida, limite, dry_run=False):
         with open(os.path.join(dir_salida, "_manifiesto.json"), "w",
                   encoding="utf-8") as fh:
             json.dump(manifiesto, fh, indent=1, ensure_ascii=False)
-    return resumen
+    return resumen, avisos
 
 
 GUIA_CABECERA = """# Despliegue de los agentes de M365 Copilot
@@ -708,6 +751,64 @@ Sugerencia de instrucciones para cada agente:
 """
 
 
+def comprimir(dir_salida, vigencia="vigente"):
+    """Un ZIP por producto, como CONTENEDOR DE TRANSPORTE.
+
+    Aviso importante: Copilot NO lee dentro de un ZIP. El formato no aparece en
+    ninguna de las listas de tipos soportados, ni como origen de conocimiento
+    del agente ni como adjunto de chat; se sube sin error y su contenido queda
+    invisible. Estos ZIP sirven para MOVER los ficheros (subirlos a SharePoint
+    de una vez en lugar de arrastrar miles, o pasarlos a otra maquina), no para
+    que el agente los consuma. Hay que descomprimirlos en destino.
+    """
+    dir_zips = os.path.join(dir_salida, "_zips")
+    os.makedirs(dir_zips, exist_ok=True)
+    generados = []
+    for producto in sorted(os.listdir(dir_salida)):
+        origen = os.path.join(dir_salida, producto, vigencia)
+        if not os.path.isdir(origen):
+            continue
+        destino = os.path.join(dir_zips, f"{producto}-{vigencia}.zip")
+        n = 0
+        with zipfile.ZipFile(destino, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
+            for raiz, _, ficheros in os.walk(origen):
+                for fichero in sorted(ficheros):
+                    ruta = os.path.join(raiz, fichero)
+                    z.write(ruta, os.path.relpath(ruta, origen))
+                    n += 1
+        generados.append((producto, n, os.path.getsize(destino)))
+    return generados
+
+
+def comprimir_todo(dir_salida, vigencia="vigente",
+                   nombre="copilot-vigente-completo.zip"):
+    """Un unico ZIP con el contenido vigente de TODOS los productos.
+
+    Conserva la carpeta de producto dentro del archivo, para que al
+    descomprimir siga sabiendose a que tecnologia pertenece cada fichero.
+
+    Mismo aviso que en comprimir(): Copilot no lee dentro de un ZIP. Esto es
+    transporte.
+    """
+    dir_zips = os.path.join(dir_salida, "_zips")
+    os.makedirs(dir_zips, exist_ok=True)
+    destino = os.path.join(dir_zips, nombre)
+    total = 0
+    with zipfile.ZipFile(destino, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
+        for producto in sorted(os.listdir(dir_salida)):
+            origen = os.path.join(dir_salida, producto, vigencia)
+            if not os.path.isdir(origen):
+                continue
+            for raiz, _, ficheros in os.walk(origen):
+                for fichero in sorted(ficheros):
+                    ruta = os.path.join(raiz, fichero)
+                    interno = os.path.join(producto,
+                                           os.path.relpath(ruta, origen))
+                    z.write(ruta, interno.replace("\\", "/"))
+                    total += 1
+    return destino, total, os.path.getsize(destino)
+
+
 def _miles(n):
     """Separador de miles con punto, como se escribe en espanol."""
     return f"{n:,}".replace(",", ".")
@@ -749,11 +850,23 @@ def main(argv=None):
                     "agentes de M365 Copilot.")
     ap.add_argument("--entrada", default=DIR_ENTRADA)
     ap.add_argument("--salida", default=DIR_SALIDA)
-    ap.add_argument("--limite", type=int, default=LIMITE_CHARS,
-                    help="Caracteres maximos por fichero de salida.")
+    ap.add_argument("--perfil", choices=sorted(PERFILES), default="sharepoint",
+                    help="sharepoint: muchos ficheros de 36.000 chars para "
+                         "referenciar una carpeta. chat: hasta 20 ficheros "
+                         "grandes por producto para adjuntar a una conversacion.")
+    ap.add_argument("--limite", type=int, default=None,
+                    help="Sobrescribe el limite de caracteres del perfil.")
+    ap.add_argument("--zip", action="store_true",
+                    help="Genera un ZIP por producto en _zips/. Es un "
+                         "contenedor de transporte: Copilot NO lee dentro de "
+                         "un ZIP, hay que descomprimirlo en destino.")
     ap.add_argument("--dry-run", action="store_true",
                     help="Calcula el reparto sin escribir nada.")
     args = ap.parse_args(argv)
+
+    perfil = dict(PERFILES[args.perfil])
+    if args.limite:
+        perfil["limite"] = args.limite
 
     print(f"Leyendo {args.entrada} ...", file=sys.stderr)
     documentos = recolectar(args.entrada)
@@ -762,7 +875,7 @@ def main(argv=None):
           file=sys.stderr)
 
     marcar_vigencia(documentos)
-    resumen = escribir(documentos, args.salida, args.limite, args.dry_run)
+    resumen, avisos = escribir(documentos, args.salida, perfil, args.dry_run)
 
     print(f"\n{'producto':12s} {'vigencia':10s} {'grupo':22s} "
           f"{'docs':>6s} {'M chars':>8s} {'ficheros':>9s} {'max':>7s}")
@@ -775,9 +888,21 @@ def main(argv=None):
           f"{sum(r[4] for r in resumen) / 1e6:7.1f}M "
           f"{sum(r[5] for r in resumen):9d}")
 
+    for aviso in avisos:
+        print(f"AVISO: {aviso}", file=sys.stderr)
+
     if not args.dry_run:
-        ruta_guia = escribir_guia(args.salida, resumen, args.limite)
+        ruta_guia = escribir_guia(args.salida, resumen, perfil["limite"])
         print(f"\nGuia de despliegue: {ruta_guia}")
+        if args.zip:
+            print("\nZIP por producto (solo transporte; Copilot no lee dentro "
+                  "de un ZIP):")
+            for producto, nficheros, tam in comprimir(args.salida):
+                print(f"  {producto:12s} {nficheros:5d} ficheros  "
+                      f"{tam / 1e6:7.1f} MB")
+            ruta, nficheros, tam = comprimir_todo(args.salida)
+            print(f"\nZIP unico con todo lo vigente:\n  {ruta}\n"
+                  f"  {nficheros} ficheros, {tam / 1e6:.1f} MB")
     return 0
 
 

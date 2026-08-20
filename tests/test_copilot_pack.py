@@ -7,9 +7,12 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(
 
 from copilot_pack import (
     LIMITE_CHARS,
+    PERFILES,
     a_texto_plano,
     clasificar_producto,
     clave_version,
+    comprimir,
+    comprimir_todo,
     empaquetar,
     encabezado,
     etiqueta_version,
@@ -245,6 +248,79 @@ def test_capitulos_pequenos_se_agrupan():
 def test_no_se_mezclan_libros_distintos():
     capitulos = [_capitulo("libro-a", 0, 500), _capitulo("libro-b", 1, 500)]
     assert len(empaquetar(capitulos, LIMITE_CHARS)) == 2
+
+
+def test_perfil_chat_cabe_en_20_ficheros():
+    """En adjuntos de chat el tope es 20 ficheros por conversacion. El perfil
+    `chat` debe mezclar libros para no desbordarlo."""
+    perfil = PERFILES["chat"]
+    # 300 capitulos de 30.000 chars = 9 M, el tamano de cucm/vigente.
+    capitulos = [_capitulo(f"libro-{i // 10}", i, 30_000) for i in range(300)]
+    paquetes = empaquetar(capitulos, perfil["limite"], perfil["mezclar_libros"])
+    assert len(paquetes) <= perfil["max_ficheros"], len(paquetes)
+    for _, grupo in paquetes:
+        assert len(render_paquete(grupo)) <= perfil["limite"]
+
+
+def test_perfil_sharepoint_no_mezcla_libros():
+    perfil = PERFILES["sharepoint"]
+    capitulos = [_capitulo("libro-a", 0, 500), _capitulo("libro-b", 1, 500)]
+    paquetes = empaquetar(capitulos, perfil["limite"], perfil["mezclar_libros"])
+    assert len(paquetes) == 2
+
+
+def test_los_dos_perfiles_declaran_lo_que_usa_escribir():
+    for nombre, perfil in PERFILES.items():
+        assert set(perfil) == {"limite", "max_ficheros", "mezclar_libros"}, nombre
+        assert perfil["limite"] > 0
+
+
+def test_zip_contiene_los_txt_y_avisa_de_que_es_transporte():
+    """El ZIP es un contenedor de transporte: Copilot no lee dentro de un ZIP.
+    La prueba fija que el contenido llega intacto y con rutas relativas."""
+    import tempfile, zipfile, shutil
+    tmp = tempfile.mkdtemp()
+    try:
+        destino = os.path.join(tmp, "cucm", "vigente")
+        os.makedirs(destino)
+        for i in range(3):
+            with open(os.path.join(destino, f"doc-{i}.txt"), "w", encoding="utf-8") as fh:
+                fh.write(f"Producto: CUCM\nContenido {i}\n")
+        generados = comprimir(tmp)
+        assert len(generados) == 1
+        producto, nficheros, tam = generados[0]
+        assert producto == "cucm" and nficheros == 3 and tam > 0
+        ruta = os.path.join(tmp, "_zips", "cucm-vigente.zip")
+        with zipfile.ZipFile(ruta) as z:
+            assert sorted(z.namelist()) == ["doc-0.txt", "doc-1.txt", "doc-2.txt"]
+            assert b"Contenido 1" in z.read("doc-1.txt")
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_zip_unico_agrupa_todos_los_productos_conservando_la_carpeta():
+    """El ZIP unico debe mantener el producto dentro del archivo: si se pierde,
+    al descomprimir no hay forma de saber a que tecnologia pertenece cada .txt."""
+    import tempfile, zipfile, shutil
+    tmp = tempfile.mkdtemp()
+    try:
+        for producto in ("cucm", "ucce"):
+            destino = os.path.join(tmp, producto, "vigente")
+            os.makedirs(destino)
+            with open(os.path.join(destino, "guia.txt"), "w", encoding="utf-8") as fh:
+                fh.write(f"Producto: {producto}\n")
+        # Lo historico no debe entrar.
+        historico = os.path.join(tmp, "cucm", "historico")
+        os.makedirs(historico)
+        with open(os.path.join(historico, "vieja.txt"), "w", encoding="utf-8") as fh:
+            fh.write("version antigua\n")
+
+        ruta, total, tam = comprimir_todo(tmp)
+        assert total == 2 and tam > 0
+        with zipfile.ZipFile(ruta) as z:
+            assert sorted(z.namelist()) == ["cucm/guia.txt", "ucce/guia.txt"]
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
 
 
 def test_encabezado_lleva_producto_version_y_fuente():

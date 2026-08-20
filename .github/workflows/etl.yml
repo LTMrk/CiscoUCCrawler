@@ -7,6 +7,10 @@ on:
         description: "Regenerar todos los docs OpenAPI aunque no haya cambios"
         type: boolean
         default: false
+      generar_paquete:
+        description: "Generar el paquete de Copilot aunque queden URLs pendientes"
+        type: boolean
+        default: false
   schedule:
     # Semanal. La documentación de producto no cambia a diario; un cron
     # agresivo solo aumenta la probabilidad de que el WAF nos clasifique
@@ -27,7 +31,21 @@ jobs:
   process-documents:
     runs-on: ubuntu-latest
     timeout-minutes: 50
+    outputs:
+      # Lo consume el job del paquete para saber si el corpus ya esta completo.
+      pendientes: ${{ steps.frontera.outputs.pendientes }}
+    env:
+      # Debe coincidir con timeout-minutes del job. El pipeline lo usa para
+      # calcular cuanto tiempo real le queda tras instalar dependencias.
+      TIMEOUT_JOB_MIN: "50"
+      # Reserva para guardar frontera, commitear, subir artefactos y encadenar.
+      MARGEN_MIN: "6"
     steps:
+      - name: Marcar inicio del job
+        # Sin esta marca no hay forma de saber cuanto tiempo consumio la
+        # instalacion, y el crawl no puede ajustar su propio limite.
+        run: echo "JOB_INICIO=$(date +%s)" >> "$GITHUB_ENV"
+
       - name: Checkout repositorio
         uses: actions/checkout@v4
         with:
@@ -54,11 +72,37 @@ jobs:
           restore-keys: |
             playwright-${{ runner.os }}-
 
-      - name: Instalar dependencias
+      - name: Instalar dependencias de Python
+        timeout-minutes: 10
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          playwright install --with-deps chromium
+
+      - name: Instalar Chromium para Playwright
+        timeout-minutes: 8
+        run: |
+          # `--with-deps` lanzaba apt-get como root en el mismo comando que la
+          # descarga del navegador. En los runners hospedados el mirror
+          # azure.archive.ubuntu.com falla de forma intermitente y apt se queda
+          # reintentando: el 2026-08-19 se comio los 50 minutos del job entero
+          # y GitHub lo cancelo antes de rastrear una sola pagina.
+          #
+          # Ahora van separados. Las librerias del sistema se reintentan y, si
+          # aun asi fallan, NO se aborta: la imagen ubuntu-latest ya trae
+          # Chrome y casi todas las dependencias de Chromium, asi que merece
+          # la pena intentar el crawl antes que tirar el lote.
+          for intento in 1 2 3; do
+            # Sin `sudo` delante: install-deps ya escala a root por su cuenta
+            # ("Switching to root user to install dependencies"). Prefijarlo
+            # con sudo rompe la resolucion del binario en el PATH del venv.
+            if playwright install-deps chromium; then
+              break
+            fi
+            echo "::warning::apt fallo (intento ${intento}/3). Reintento en 15s."
+            sleep 15
+          done
+          # Esto si es indispensable, pero sale de la cache y no toca apt.
+          playwright install chromium
 
       - name: Pruebas de regresión
         # Corren en segundos y sin red. Detectan fallos de contrato (esquemas
@@ -72,10 +116,30 @@ jobs:
           python3 tests/test_copilot_pack.py
 
       - name: Ejecutar pipeline
+        # El presupuesto en URLs no acota el tiempo: 400 URLs a 15 peticiones
+        # por minuto son 27 minutos solo de rate limit. Se le pasa al crawler
+        # el tiempo que REALMENTE queda del job para que cierre el lote por su
+        # cuenta y alcance a guardar frontera y commitear. Si se deja que lo
+        # cancele GitHub, se pierde el lote entero.
+        #
+        # 45 = TIMEOUT_JOB_MIN - MARGEN_MIN + 1. Es solo una red de seguridad
+        # por si el crawler se queda colgado en una peticion y no llega a
+        # evaluar su propio limite; en marcha normal nunca se dispara, porque
+        # `restante` siempre es menor.
+        timeout-minutes: 45
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FORZAR_OPENAPI: ${{ inputs.forzar_openapi }}
-        run: python3 src/crawler_ai.py
+        run: |
+          transcurrido=$(( ($(date +%s) - JOB_INICIO) / 60 ))
+          restante=$(( TIMEOUT_JOB_MIN - transcurrido - MARGEN_MIN ))
+          echo "Preparacion: ${transcurrido} min. Presupuesto del crawl: ${restante} min."
+          if [ "$restante" -lt 5 ]; then
+            echo "::error::Solo quedan ${restante} min utiles: la preparacion" \
+                 "consumio ${transcurrido} min. Se aborta sin gastar el runner."
+            exit 1
+          fi
+          MINUTOS_LIMITE="$restante" python3 src/crawler_ai.py
 
       - name: Publicar resumen del lote
         if: always()
@@ -90,6 +154,7 @@ jobs:
           retention-days: 7
 
       - name: Encadenar siguiente lote
+        id: frontera
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -98,8 +163,69 @@ jobs:
           # comprobaba el flag pero nunca lo escribía, así que el encadenado
           # de lotes jamás se disparaba.
           if [ -f "logs/more_work.flag" ]; then
-            echo "Pendientes: $(cat logs/more_work.flag) URLs. Encolando lote."
+            pendientes=$(cat logs/more_work.flag)
+            echo "Pendientes: ${pendientes} URLs. Encolando lote."
             gh workflow run etl.yml
           else
+            pendientes=0
             echo "Frontera vacía. ETL completo."
           fi
+          echo "pendientes=${pendientes}" >> "$GITHUB_OUTPUT"
+
+  # ---------------------------------------------------------------------------
+  # Paquete para los agentes de M365 Copilot.
+  #
+  # Va en un job aparte por dos razones. La primera es de presupuesto: el job
+  # del crawl reparte sus 50 minutos al segundo y meterle 15 minutos mas lo
+  # desbordaba. La segunda es que copilot_pack.py solo usa la libreria estandar
+  # — ni crawl4ai, ni playwright, ni apt — asi que aqui la preparacion son
+  # segundos en lugar de los ~10 minutos del otro job.
+  #
+  # Solo corre cuando la frontera queda vacia, es decir cuando el corpus esta
+  # completo. Generarlo en cada uno de los ~15 lotes encadenados seria tirar
+  # runner para producir quince veces un paquete incompleto.
+  # ---------------------------------------------------------------------------
+  paquete-copilot:
+    needs: process-documents
+    if: >-
+      always() &&
+      (needs.process-documents.outputs.pendientes == '0' ||
+       github.event.inputs.generar_paquete == 'true')
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+        with:
+          # Sin historia: aqui solo se lee el docs/ del ultimo commit y el
+          # arbol ya pesa mas de 300 MB.
+          fetch-depth: 1
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generar paquete
+        run: |
+          # Dos perfiles porque Copilot tiene dos superficies con limites
+          # opuestos: carpeta de SharePoint (muchos ficheros de 36.000 chars)
+          # y adjunto de chat (hasta 20 ficheros grandes por conversacion).
+          python3 src/copilot_pack.py --salida dist/copilot --perfil sharepoint --zip
+          python3 src/copilot_pack.py --salida dist/copilot-chat --perfil chat --zip
+          echo "### Paquete para Copilot" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          ls -lh dist/copilot/_zips dist/copilot-chat/_zips >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publicar paquete
+        uses: actions/upload-artifact@v4
+        with:
+          name: copilot-vigente
+          # Solo los ZIP y la guia: subir los ~10.000 .txt sueltos como
+          # artefacto tarda mas que volver a generarlos.
+          path: |
+            dist/copilot/_zips/
+            dist/copilot/_DESPLIEGUE.md
+            dist/copilot-chat/_zips/
+          retention-days: 30

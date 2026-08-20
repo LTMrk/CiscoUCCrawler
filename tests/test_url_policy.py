@@ -55,6 +55,20 @@ DEBE_PASAR = [
     # help.webex.com en sus dos formatos de articulo
     "https://help.webex.com/article/en-us/ig9wh2",
     "https://help.webex.com/en-us/article/ngcto76/End-of-Life-EoL-Announcement-for-End-Users",
+    # Las cinco APIs REST de Unity Connection, no solo CUPI
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/APIs_Pages/b_Cisco_Unity_Connection_APIs.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_01.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI_API.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUNI_API/b_CUNI_API.html",
+    # Gateways de voz: SRST vive en voice_ip_comm, pero los VG analogicos
+    # cuelgan de /td/docs/routers/access/, fuera del arbol de colaboracion.
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_overview.html",
+    "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/vg450-scg_chapter_01.html",
+    "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/software/configuration/guide/vg400-scg.html",
+    # Ejemplos de configuracion: el tipo de documento que mas se consulta en
+    # soporte y que la allowlist no contemplaba.
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-configuration-examples-list.html",
 ]
 
 DEBE_BLOQUEAR = [
@@ -82,6 +96,14 @@ DEBE_BLOQUEAR = [
     "https://www.cisco.com/c/en/us/solutions/enterprise-networks/index.html",
     # Otros idiomas
     "https://www.cisco.com/c/es-es/support/unified-communications/products-list.html",
+    # La regex de gateways se acota a vg\\d+: el resto del arbol de routers
+    # sigue fuera. Sin esta frontera, admitir el VG450 arrastraria todo el
+    # arbol de routing y switching del ISR y del Catalyst 8000.
+    "https://www.cisco.com/c/en/us/td/docs/routers/access/4000/software/configuration/guide/isr4000.html",
+    "https://www.cisco.com/c/en/us/td/docs/routers/access/800/software/configuration/guide/800-scg.html",
+    "https://www.cisco.com/c/en/us/td/docs/routers/cloud_edge/c8000v/config.html",
+    # Y las guias de IOS ajenas a voz tampoco entran.
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipaddr/configuration/guide/ipaddr.html",
 ]
 
 SOLO_DESCUBRIMIENTO = [

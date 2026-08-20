@@ -33,6 +33,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 from datetime import datetime
 from urllib.parse import urljoin, urlparse
 
@@ -86,6 +87,17 @@ def load_config():
 
 CONFIG = load_config()
 GS = CONFIG.get("global_settings", {})
+
+# LIMITE POR RELOJ, ademas del presupuesto por URLs.
+# --------------------------------------------------
+# El presupuesto en URLs no acota el tiempo: 400 URLs a 15 peticiones/minuto
+# son 27 minutos SOLO de espera por rate limit, sin contar el renderizado de
+# cada pagina ni lo que tarde la instalacion de dependencias en el runner.
+# Si el job de GitHub se cancela por timeout, se pierde todo el lote: la
+# frontera, el manifiesto y el commit se escriben solo al final de
+# deep_crawl(). Con este limite el lote se cierra por su cuenta antes de que
+# eso ocurra, guarda estado y encadena el siguiente.
+MINUTOS_LIMITE = int(os.environ.get("MINUTOS_LIMITE", "0") or 0)
 BLOCKED_PATTERNS = CONFIG.get("blocked_patterns", [])
 SELECTORES_RUIDO_CSS = CONFIG.get("SELECTORES_RUIDO_CSS", [])
 
@@ -284,7 +296,9 @@ async def deep_crawl():
     modo = manifiesto.modo
     presupuesto = (GS.get("bootstrap_budget", 400) if modo == ManifestStore.MODO_BOOTSTRAP
                    else GS.get("incremental_budget", 120))
-    log_info(f"Modo: {modo.upper()} | presupuesto de este lote: {presupuesto} URLs")
+    limite_reloj = time.monotonic() + MINUTOS_LIMITE * 60 if MINUTOS_LIMITE else None
+    log_info(f"Modo: {modo.upper()} | presupuesto de este lote: {presupuesto} URLs"
+             + (f" | limite de tiempo: {MINUTOS_LIMITE} min" if limite_reloj else ""))
 
     # -- Paso 1: referencia de la API desde la fuente oficial ---------------
     # El workflow expone `forzar_openapi` como input; sin leerlo aquí la
@@ -370,6 +384,12 @@ async def deep_crawl():
             if politica.breaker.abierto:
                 log_info("Circuit breaker abierto: demasiados errores. "
                          "Se detiene el lote y se conserva la frontera.")
+                break
+
+            if limite_reloj and time.monotonic() >= limite_reloj:
+                log_info(f"Limite de tiempo alcanzado ({MINUTOS_LIMITE} min) tras "
+                         f"{procesadas} URLs. Se cierra el lote de forma limpia "
+                         f"para no perder el trabajo hecho.")
                 break
 
             url, profundidad = await cola.get()

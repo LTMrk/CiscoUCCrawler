@@ -23,8 +23,9 @@
       "^https://www\\.cisco\\.com/c/en/us/td/docs/collaboration/",
       "^https://www\\.cisco\\.com/c/en/us/td/docs/solutions/CVD/Collaboration/",
       "^https://www\\.cisco\\.com/c/en/us/td/docs/ios-xml/ios/voice/",
+      "^https://www\\.cisco\\.com/c/en/us/td/docs/routers/access/vg\\d+/",
       "^https://www\\.cisco\\.com/c/en/us/support/docs/(voice|unified-communications|customer-collaboration|collaboration-endpoints|conferencing)/",
-      "^https://www\\.cisco\\.com/c/en/us/support/[^/]+/[^/]+/products-(installation-and-configuration|installation|maintenance|troubleshooting|programming-reference|command-reference|system-management|technical-reference|implementation-design|release-notes|field-notices|security-advisories)[a-z-]*-(list|listing)\\.html$",
+      "^https://www\\.cisco\\.com/c/en/us/support/[^/]+/[^/]+/products-(installation-and-configuration|installation|maintenance|troubleshooting|programming-reference|command-reference|system-management|technical-reference|implementation-design|configuration-examples|release-notes|field-notices|security-advisories)[a-z-]*-(list|listing)\\.html$",
       "^https://www\\.cisco\\.com/c/en/us/support/[^/]+/[^/]+/(series|model|tsd-products-support-series-home)\\.html$"
     ],
     "community.cisco.com": [
@@ -114,6 +115,8 @@
     ".visually-hidden"
   ],
   "_doc_seeds": "Semillas reorientadas: se entra por products-*-list.html (indice de guias) en lugar de series.html, ahorrando un salto y saltando las paginas de producto cargadas de marketing.",
+  "_doc_seeds_apis_unity": "Unity Connection expone CINCO APIs REST, no solo CUPI: CUPI (aprovisionamiento), CUMI (mensajeria), CUTI (telefonia), CUNI (notificaciones) y CUII (imaging). Todas cuelgan de /connection/REST-API/, ya permitido por la allowlist, pero el crawler solo habia alcanzado CUPI. Se seedea la pagina indice, que enlaza los cinco libros, en lugar de adivinar el nombre de fichero de cada uno.",
+  "_doc_seeds_gateways": "Gateways de voz. SRST y las guias de IOS voice viven bajo voice_ip_comm/ios-xml y ya estaban permitidas, pero sin semilla propia apenas se alcanzaban. Los VG analogicos viven en /td/docs/routers/access/vg450/, fuera de la allowlist: se ha anadido una regex acotada a vg\\d+ para admitirlos sin abrir el arbol entero de routers, que es mayoritariamente routing y switching.",
   "seeds": [
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-installation-and-configuration-guides-list.html",
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-troubleshooting-guides-list.html",
@@ -128,7 +131,16 @@
     "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-installation-and-configuration-guides-list.html",
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-series/products-maintenance-guides-list.html",
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/products-implementation-design-guides-list.html",
-    "https://help.webex.com/en-us/all-products"
+    "https://help.webex.com/en-us/all-products",
+
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/APIs_Pages/b_Cisco_Unity_Connection_APIs.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_01.html",
+
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_overview.html",
+    "https://www.cisco.com/c/en/us/support/unified-communications/vg-series-gateways/products-installation-and-configuration-guides-list.html",
+    "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/vg450-scg_chapter_00.html",
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-configuration-examples-list.html"
   ],
   "_doc_degradadas": "Retiradas de las semillas. Motivo tecnico en cada entrada.",
   "degraded_seeds": [
@@ -186,7 +198,7 @@
     },
     {
       "url": "https://www.cisco.com/c/en/us/support/unified-communications/vg-series-gateways/series.html",
-      "motivo": "Gateways analogicos VG: volumen de consulta bajo y docs mayoritariamente de instalacion hardware. Prioridad baja, no ruido. Reactivable si el agente recibe consultas de FXS/FXO."
+      "motivo": "REACTIVADA el 2026-08-20 a peticion expresa (configuracion de gateways de voz). Se entra por products-installation-and-configuration-guides-list.html en lugar de series.html, y se ha anadido la regex de allowlist para /td/docs/routers/access/vg\\d+/ porque el arbol real del VG450 cuelga de routers, no de voice_ip_comm: sin esa regex la semilla se descartaba en silencio."
     },
     {
       "url": "https://help.webexconnect.io/docs/welcome",
