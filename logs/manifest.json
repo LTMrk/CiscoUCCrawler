@@ -3088,6 +3088,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.html": {
+      "content_sha": "2345acec4e55dd5f78ffd9c4ec42d27cd2609fa2e2500c01bd90d7db59584dcd",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-225476-unde-5dd28dc2ac",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:17:21.120466+00:00",
+      "last_changed": "2026-08-20T22:17:21.120466+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:17:21.120466+00:00",
+      "next_check": "2026-08-21T22:17:21.120466+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225693-navigate-client-eku-sunset-with.html": {
       "content_sha": "9ce09ca2a4093505e18bdf6960ef369b0ad2256c45c0773464e132bc79b70491",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-225693-navi-4664e51a64",
@@ -8024,6 +8037,19 @@
       "next_check": "2026-08-21T00:37:54.830379+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_appendix_01010.html": {
+      "content_sha": "a82fb9fc254147d4ad3f6fea46fc6ac28e5154564ee8bdead4bac6e7f2adb10c",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-calendarservice-cmgt-b-deploy-spark--3f8e0d1778",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:17:08.354234+00:00",
+      "last_changed": "2026-08-20T22:17:08.354234+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:17:08.354234+00:00",
+      "next_check": "2026-08-21T22:17:08.354234+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_chapter_010.html": {
       "content_sha": "fd2caef6902b0b43428e999f94d56b116a59f7dfa76fc2dd75a47cc4a416e6c7",
@@ -79246,5 +79272,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T22:14:53.625034+00:00"
+  "updated_at": "2026-08-20T22:17:21.883095+00:00"
 }
