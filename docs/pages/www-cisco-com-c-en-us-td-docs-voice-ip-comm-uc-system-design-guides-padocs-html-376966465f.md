@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-uc-system-design-guides-padocs-html-376966465f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/design/guides/PAdocs.html
-retrieved_at: 2026-08-16T14:17:26.597075+00:00
+retrieved_at: 2026-08-20T20:27:46.367736+00:00
 ---
 
 Cisco Collaboration Preferred Architectures
 
 # Cisco Collaboration Preferred Architectures
-
-Log in to Save Content
 
 ### Download Options
 

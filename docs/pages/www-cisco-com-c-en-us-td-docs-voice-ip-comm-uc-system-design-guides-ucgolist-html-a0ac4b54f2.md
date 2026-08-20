@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-uc-system-design-guides-ucgolist-html-a0ac4b54f2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/design/guides/UCgoList.html
-retrieved_at: 2026-08-16T14:17:21.967150+00:00
+retrieved_at: 2026-08-20T20:27:50.230295+00:00
 ---
 
 Cisco Collaboration Solutions Design Guidance
 
 # Cisco Collaboration Solutions Design Guidance
-
-Log in to Save Content
 
 ### Download Options
 

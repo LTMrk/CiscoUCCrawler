@@ -1,493 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/IPv6/vtgs_b_ipv6-deployment-guide-for-cisco/vtgs_b_ipv6-deployment-guide-for-cisco_chapter_01010.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/IPv6/vtgs_b_ipv6-deployment-guide-for-cisco/vtgs_b_ipv6-deployment-guide-for-cisco_chapter_01011.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/IPv6/vtgs_b_ipv6-deployment-guide-for-cisco/vtgs_b_ipv6-deployment-guide-for-cisco_chapter_011.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/IPv6/vtgs_b_ipv6-deployment-guide-for-cisco/vtgs_b_ipv6-deployment-guide-for-cisco_chapter_0110.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/IPv6/vtgs_b_ipv6-deployment-guide-for-cisco/vtgs_b_ipv6-deployment-guide-for-cisco_chapter_01100.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/IPv6/vtgs_b_ipv6-deployment-guide-for-cisco/vtgs_b_ipv6-deployment-guide-for-cisco_chapter_01101.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/IPv6/vtgs_b_ipv6-deployment-guide-for-cisco/vtgs_b_ipv6-deployment-guide-for-cisco_chapter_0111.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/IPv6/vtgs_b_ipv6-deployment-guide-for-cisco/vtgs_b_ipv6-deployment-guide-for-cisco_chapter_01110.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/IPv6/vtgs_b_ipv6-deployment-guide-for-cisco/vtgs_b_ipv6-deployment-guide-for-cisco_chapter_01111.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/SizingTool/CST_ReleaseNote_15.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/SizingTool/CST_ReleaseNotes_1402.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/TLS/TLS-1-2-Configuration-Overview-Guide.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/TLS/TLS-1-3-Configuration-Overview-Guide.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12-5-1/TIS/CC-PCCE-CSR1251-TestBed.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12-5-1/TIS/CC-UCCX-CSR1251-TestBed.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12-5-1/TIS/COL-CSR1251-TestBed.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12-5-1/vtgs_b_csr-collaboration-release-notes-1251.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12-5-1/vtgs_b_csr-contactcenter-release-notes-1251.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12_6_1/vtgs_b_csr-collaboration-release-notes-1261.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12_7_1/TIS/CC-PCCE-CSR1271-TestBed.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12_7_1/TIS/CC-UCCX-CSR1271-TestBed.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12_7_1/vtgs_b_csr-contact-center-rns-1271.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12_7_1/vtgs_b_release-notes-csr-collab-1271.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12_8_1/CSR_COL_TestBed_12_8.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12_8_1/uccx_testbed_csr_12_8.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V14/CSR_COL_TestBed_14.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V14/vtgs_b_release-notes-collab-14.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/design/guides/PAdocs.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/design/guides/UCgoList.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/unified/communications/system/Compatibility/CSR-Compatibility-Matrix.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/unified/communications/system/Compatibility/TLS/TLS1-2-Compatibility-Matrix.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/unified/communications/system/Compatibility/TLS/TLS1-3-Compatibility-Matrix.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/unified/communications/system/versions/IPTMtrix.html",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/codeexchange/search",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/WindowsEventMonitorExtension",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/agent-control-center",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/dotnet-remote-management-powershell-extension",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.cisco.com/codeexchange/github/repo/jbsouthe/AppDynamics-LogMonitor-MachineAgent-Extension",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/Command-Watcher-Extension",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/cloud-calling.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/webinar.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/customer-interaction-management.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/security.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/control-hub.html",
-    "depth": 1
-  },
-  {
-    "url": "https://hardware.webex.com/products/headsets",
-    "depth": 1
-  },
-  {
-    "url": "https://hardware.webex.com/products/cameras",
-    "depth": 1
-  },
-  {
-    "url": "https://hardware.webex.com/products/desk-series",
-    "depth": 1
-  },
-  {
-    "url": "https://hardware.webex.com/products/room-series-and-kits",
-    "depth": 1
-  },
-  {
-    "url": "https://hardware.webex.com/products/board-series",
-    "depth": 1
-  },
-  {
-    "url": "https://hardware.webex.com/products/phones",
-    "depth": 1
-  },
-  {
-    "url": "https://hardware.webex.com/products/accessories",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/education.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/healthcare.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/government.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/financial-services.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/sports-entertainment.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/frontline.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/nonprofits.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/industries/start-ups.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/hybrid-work.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/downloads.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/test-meeting.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/products/integrations/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/accessibility.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/inclusive-collaboration.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/learn/webinars-demos.html",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.webex.com",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/resources/whats-new.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/us/en/dg/contact-sales.html",
-    "depth": 1
-  },
-  {
-    "url": "https://blog.webex.com",
-    "depth": 1
-  },
-  {
-    "url": "https://webexahead.webex.com",
-    "depth": 1
-  },
-  {
-    "url": "https://www.webex.com/company/careers.html",
-    "depth": 1
-  },
-  {
-    "url": "https://marketplace.cisco.com/en-US/listing",
-    "depth": 1
-  },
-  {
-    "url": "https://marketplace.cisco.com/en-US/apps/380727/pagerduty-platform-for-action",
-    "depth": 1
-  },
-  {
-    "url": "https://experiences.cisco.com/amer/integrating-protection-into-your-network-infrastructure",
-    "depth": 1
-  },
-  {
-    "url": "https://marketplace.cisco.com/en-US/apps/381243/servicenow-for-meraki",
-    "depth": 1
-  },
-  {
-    "url": "https://marketplace.cisco.com/en-US/apps/410018/hamina-network-planner",
-    "depth": 1
-  },
-  {
-    "url": "https://marketplace.cisco.com/en-US/apps/381939",
-    "depth": 1
-  },
-  {
-    "url": "https://marketplace.cisco.com/en-US/apps/380853/splash-access",
-    "depth": 1
-  },
-  {
-    "url": "https://marketplace.cisco.com/en-US/apps/381939/ordr-ai-protect",
-    "depth": 1
-  },
-  {
-    "url": "https://marketplace.cisco.com/en-US/apps/380640/algosec",
-    "depth": 1
-  },
-  {
-    "url": "https://marketplace.cisco.com/en-US/apps/422515/red-hat-ansible-automation-platform",
-    "depth": 1
-  },
-  {
-    "url": "https://marketplace.cisco.com/en-US/apps/456330/configuration-backup-recovery-by-boundle",
-    "depth": 1
-  },
-  {
-    "url": "https://marketplace.cisco.com/en-US/apps/539747/megaport-for-cisco-catalyst-sd-wan",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.cisco.com/meraki",
-    "depth": 1
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/home.x",
-    "depth": 1
-  },
-  {
-    "url": "https://meeting-infohub.cisco.com/faq/category/55/lync_skype-for-business_office-365-integration.html",
-    "depth": 1
-  },
-  {
-    "url": "https://meeting-infohub.cisco.com/faq/category/25/cisco-meeting-server.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-programming-reference-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_port_utilization_12_6_1.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_port-utilization_12_5.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-programming-reference-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/bre_20/wcc_b_cisco-webex-contact-center-business.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/campaign_reports_20/m_CM20_ReportsBookMIF.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/campaign_user_20/webexcc_b_20-campaign-manager-user-guide.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/developer_20/webexcc_b_20-desktop-developer-guide-.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/webex-contact-center/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-7800-series/200850-Troubleshoot-Cisco-Phone-7800-8800-Serie.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-7800-series/200850-Troubleshoot-Cisco-Phone-7800-8800-Serie.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://mycase.cloudapps.cisco.com/start",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7800-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-7800-series/200903-Troubleshoot-One-Way-Audio-Issue-Using-C.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-7800-series/200903-Troubleshoot-One-Way-Audio-Issue-Using-C.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-7800-series/215573-cisco-ip-phones-7800-8800-series-fails-t.epub",
     "depth": 1
   },
@@ -15494,5 +15006,1101 @@
   {
     "url": "https://www.cisco.com/c/en/us/support/switches/catalyst-3850-series-switches/products-installation-and-configuration-guides-list.html",
     "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/security/asa-5500-series-next-generation-firewalls/products-installation-and-configuration-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/switches/catalyst-6500-series-switches/products-installation-and-configuration-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-mx-series/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-quick-set-series/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-ex-series/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-3s/products-installation-and-configuration-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-survivable-remote-site-telephony/products-installation-and-configuration-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://cucst.cloudapps.cisco.com",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_11_5_1/Design/Guide/ucce_b_soldg-for-unified-cce.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/products-configuration-examples-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-conductor/products-maintenance-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7800-series/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-plus/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/telepresence/ix_sw/8_x/release/notes/ix_release_notes.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/products-installation-and-configuration-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/products-technical-reference-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/virtualized-voice-browser/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12-0-1/VTGS_BK_S43B1656_00_system-release-notes-for-contact-center_1201.html",
+    "depth": 1
+  },
+  {
+    "url": "https://developer.cisco.com/site/context-service/discover/overview",
+    "depth": 1
+  },
+  {
+    "url": "http://vtgsca.cloudapps.cisco.com/ITDIT/vtgsca/VTGServlet",
+    "depth": 1
+  },
+  {
+    "url": "https://cisco.com/go/unified-techinfo",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_0_1/deprecated_phones/cucm_b_deprecated-phone-models-for-1201.html",
+    "depth": 1
+  },
+  {
+    "url": "http://tools.cisco.com/ITDIT/CFN/jsp/index.jsp",
+    "depth": 1
+  },
+  {
+    "url": "http://tools.cisco.com/gct/Upgrade/jsp/index.jsp",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/cisco-meeting-app/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-management/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvi49092",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvd91119",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCve56223",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCuo89949",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj93746",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm60911",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn32181",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn35907",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn50468",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn55141",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn65359",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn75705",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn77809",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn82784",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/ITDIT/vtgsca",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvo04890",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvo12799",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj72294",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp72978",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/products-release-notes-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/3900-series-integrated-services-routers-isr/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://upgrad.cloudapps.cisco.com/upgrad/jsp/index.jsp",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-500-series/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-700-series/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-board/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-phone/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-share/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/webex-cloud-connected-uc/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-sip-proxy-software/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/ata-180-series-analog-telephone-adaptors/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/ata-190-series-analog-telephone-adapters/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/vg-series-gateways/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/asr-1000-series-aggregation-services-routers/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs94916",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-mcu-mse-8510/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unity-express/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp11701",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr96670",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs38748",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs80927",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs88408",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu81967",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv03282",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv11252",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv20152",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv23410",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv23379",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv29379",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv33567",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12-0-1/VTGS_BK_C938C6B9_00_collaboration-system-release-notes-ip-telephony_1201.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V11-5-1/TIS/CC-UCCX-CSR1151-TestBed.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8300-series-edge-platforms/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm84478",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs58554",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw17487",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw68373",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx22242",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx22651",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx25564",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx64219",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx70719",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx74452",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx85953",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12xy/hybcvd.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/14/collbcvd.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/14/PA_14_Add.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/12x/120/collbcvd.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12x/hybcvd.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/11x/116/collbcvd.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/11x/collbcvd.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/collbcvd.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab11/collab11.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/products-implementation-design-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-survivable-remote-site-telephony/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-management-suite-extension-microsoft-exchange/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-provisioning-extension/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-server/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-conductor/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/webex-meetings-server/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/collaboration/CWMS/2_7/Release_Notes/cwms_b_release-notes-cwms-2-7.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-console-standard/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-console-advanced/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ix5000-series/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-integrator-c-series/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-profile-series/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-tx9000-series/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-1100/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-500/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/cloud-systems-management/prime-license-manager/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-sip-proxy-software/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/vg-series-gateways/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/vg300-series-gateways/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/TLS/TLS-1-2-for-On-Premises-Cisco-Collaboration-Deployments.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/products-installation-and-configuration-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "http://tools.cisco.com/ITDIT/vtgsca",
+    "depth": 1
+  },
+  {
+    "url": "http://cisco.com/en/US/products/sw/custcosw/ps1844/products_implementation_design_guides_list.html",
+    "depth": 1
+  },
+  {
+    "url": "http://docwiki.cisco.com/wiki/Unified_Communications_Virtualization_Supported_Applications",
+    "depth": 1
+  },
+  {
+    "url": "http://docwiki.cisco.com/wiki/Unified_Communications_VMware_Requirements",
+    "depth": 1
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/dmatsumu/c9800-RESTCONF",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/grpc-getting-started",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/edergernot/webnetworkdump",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/hpreston/webexteamsbot",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/ERICK-ZABALA/Webex-Connect-Labs",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/bgillies95/day0_code_exchange",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/spie-ics-ag/netconfBulkOps",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/sieteunoseis/salesforce-webex-contact-sync",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/jillesca/netconf-hello-world-ios-xr",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/gve-sw/gve_devnet_webex_calling_partner_report",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/ObjectIsAdvantag/macros-env",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/botkit-template",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/process-monitoring-extension",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/netscaler-monitoring-extension",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/f5-monitoring-extension",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/activemq-monitoring-extension",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/jbsouthe/AppDynamics-LicenseMonitoring-MAExtension",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/apigee-monitoring-extension",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/redis-monitoring-extension",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/apache-spark-monitoring-extension",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/aws-rds-monitoring-extension",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/log-monitoring-extension",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/websphere-mq-monitoring-extension",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/linux-monitoring-extension",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/381795/splash-access-ipsk-wpn-education-campus",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/747861/pagerduty-for-catalyst-center",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/747863/servicenow-for-catalyst-center",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/747862/ansible-for-catalyst-center",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/420402/logicmonitor-|-lm-envision",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/380676/auvik-network-management",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/494235/ise-+-catalyst-udn-ipsk-solutions",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/381225/cloud4wi-|-guest-wifi",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/418010/aurora---advanced-retail-analytics",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/380727/pagerduty-platform-for-action/add-lead",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/706478/switch-config-migration-for-ldos-by-boundless",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/806592/bitb-network-state-intelligence",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/436028/terraform-for-meraki",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/381243/servicenow-for-meraki/add-lead",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/381366/dna-nucleus-automation",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/410018/hamina-network-planner/add-lead",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/381711/monitoring-and-observability-for-sd-wanfirewalls",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/380763/vision+",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/381939/ordr-ai-protect/add-lead",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/381723/trackerwave-hospital-rtls",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/566439/avaca-meraki-copilot",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/380853/splash-access/add-lead",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/380703/aislelabs-connect",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/380862/cloudi-fi",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/381288/iot-builder",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/380658/aislelabs-flow",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/391155/ai-network-operations",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/539073/elastiflow",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/380622/basking-automation",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/380640/algosec/add-lead",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/457231/setyl-\u2014-it-asset-and-license-management-platform-(itam)",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/380898/firemon-security-manager",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/381375/forescout",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/381384/audit-compliance-by-boundless",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/422515/red-hat-ansible-automation-platform/add-lead",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/456330/configuration-backup-recovery-by-boundless/add-lead",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/426592/backup-meraki",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/456330/configuration-backup-recovery-by-boundless",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/394857/dna-assure",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/502978/selentai",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/539747/megaport-for-cisco-catalyst-sd-wan/add-lead",
+    "depth": 2
+  },
+  {
+    "url": "https://marketplace.cisco.com/en-US/apps/426593/tufin-orchestration-suite",
+    "depth": 2
+  },
+  {
+    "url": "https://sec.cloudapps.cisco.com/security/center/Search.x",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/site/PSIRT",
+    "depth": 2
+  },
+  {
+    "url": "https://sec.cloudapps.cisco.com/security/center/resources/risk-based-disclosure",
+    "depth": 2
+  },
+  {
+    "url": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
+    "depth": 2
+  },
+  {
+    "url": "https://sec.cloudapps.cisco.com/security/center/tacticalresources.x",
+    "depth": 2
+  },
+  {
+    "url": "https://sec.cloudapps.cisco.com/security/center/securityResources.x",
+    "depth": 2
+  },
+  {
+    "url": "https://sec.cloudapps.cisco.com/security/center/navigation.x",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/conferencing/ciscoMeetingServer/Installation/virtualization-cisco-meeting-server.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217365-configure-cisco-meeting-server-ldap-inte.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214618-generate-csr-and-apply-certificates-to-c.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217367-configuring-cisco-meeting-server-schedul.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/210800-configure-cms-webrtc-proxy-over-expressw.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214620-upgrade-downgrade-cms-server.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-security-advisories-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217062-guidance-for-smooth-upgrade-from-cisco-m.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217319-replace-x-series-servers-with-cisco-meet.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/225405-configure-recorder-on-cms-server.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-2000/222767-configure-port-mirroring-or-port-span-on.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221573-configure-and-troubleshoot-the-webapp-ss.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221776-configure-av1-feature-on-cms.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221729-configure-example-of-cms-edge.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221687-configure-dtmf-sequences-in-cisco-meetin.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221044-configure-and-troubleshoot-survey-featur.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/218117-configure-and-troubleshoot-meetingapps-f.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217658-configure-csr-for-cms-with-openssl-for-e.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217320-configure-cisco-meeting-server-cms-ver.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212217-configure-cisco-meeting-server-and-skype.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/222766-troubleshoot-common-issues-regarding-cms.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214745-ip-routing-rules-on-acano-and-cisco-meet.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214744-call-routing-logic-on-cisco-meeting-serv.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221698-enable-secure-communication-between-cms.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/218141-troubleshoot-cisco-smart-licensing-cloud.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217375-disable-maximum-transmission-unit-check.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215662-explanation-and-work-around-on-cscvt7372.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215666-expected-behaviour-when-using-the-maxpee.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214623-analysis-of-callbridge-and-xmpp-connecti.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214392-cms-screencast-video-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213816-troubleshoot-cisco-meeting-server-cms.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/looking-for-info-on-cisco-collab-solutions/ta-p/3649062",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/cisco-meeting-server",
+    "depth": 2
+  },
+  {
+    "url": "https://learninglabs.cisco.com:8867/modules/cisco-meeting-server",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214691-configure-nfs-share-to-use-as-storage-fo.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-field-notices-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-security-advisories-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/ucce_b_ucce-features-guide-12_5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/cisco-mediasense-end-of-life-faq/ta-p/3636105",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-security-advisories-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/Voiceonboarding2/wcc-voice-onboarding-2-book.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/technical_paper/b_webexcc-arch-doc.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/Analyzer_2/b_analyzeronloinehelp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/desktop_20/webexcc_b_20-desktop-user-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7800-series/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-8800/english/accessories/p881_b_accessorie-guide-for-cisco-ip.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/admin-guide/pa2d_b_7800-series-admin-guide-cucm.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/adminguide/cs78_b_conference-7832-admin-guide-cucm.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/cucm-generating-lsc-certificates-for-secure-phones/ta-p/3119717",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/small-business-support-knowledge-base/spa50xg-ip-phone-recovery-utility-sos-mode-recovery/ta-p/3294366",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/upgrade-downgrade-firmware-of-specific-ip-phone/ta-p/3137526",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/QSG/p875_m_quick-started-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8851/218093-configure-debug-level-in-mpp-phones-regi.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/user_guide/p875_m_8875-user-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/adminguide/P881_BK_C136782F_00_cisco-ip-phone-8800_series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/admin_guide/p875_m_8875-administration-guide.html",
+    "depth": 2
   }
 ]
