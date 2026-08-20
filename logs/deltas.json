@@ -1,7 +1,20 @@
 {
-  "run_at": "2026-08-20T22:11:12.459096+00:00",
+  "run_at": "2026-08-20T22:14:53.696474+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "video-cisco-com-detail-video-5818769244001-05dd60ebba",
+    "video-cisco-com-detail-video-5823009225001-519b0f9c52",
+    "video-cisco-com-detail-video-5979219646001-0ab449aff5",
+    "video-cisco-com-detail-video-5982647314001-8371351814",
+    "video-cisco-com-detail-video-6008102189001-340ec36abc",
+    "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212109-how-to-use-ldp-exe-to-search-ldap-server-html-f4cf2d5e7e",
+    "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-215572-cisco-jabber-and-sip-oauth-mode-html-a1fdbd8fa3",
+    "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-217294-how-to-collect-jabber-prt-logs-remotely-html-65eb441100",
+    "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-220328-troubleshoot-when-jabber-crashes-html-24566f6259",
+    "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-220616-troubleshoot-jabber-softphone-for-vdi-html-12ece0ea95",
+    "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-213869-jabber-for-windows-quick-start-guide-htm-676ebe4286",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-0-cjab-b-deploy-jabber-on-premises-14-0-cjab-b-deploy-jabber-on-pr-a0746b9919"
+  ],
   "modified": [],
   "removed": [],
   "blocked": [],

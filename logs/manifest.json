@@ -631,6 +631,71 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://video.cisco.com/detail/video/5818769244001": {
+      "content_sha": "eeb0d66d150a254a79f19f4dba531dc0b8868d4fb431f7ec29e676329e25d5d2",
+      "doc_id": "video-cisco-com-detail-video-5818769244001-05dd60ebba",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:13:31.958078+00:00",
+      "last_changed": "2026-08-20T22:13:31.958078+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:13:31.958078+00:00",
+      "next_check": "2026-08-21T22:13:31.958078+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://video.cisco.com/detail/video/5823009225001": {
+      "content_sha": "65a18eef8bb9eb809368eb6f2b95f84a711b081f90f793bd0ce1fd29eade7eca",
+      "doc_id": "video-cisco-com-detail-video-5823009225001-519b0f9c52",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:13:27.596493+00:00",
+      "last_changed": "2026-08-20T22:13:27.596493+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:13:27.596493+00:00",
+      "next_check": "2026-08-21T22:13:27.596493+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://video.cisco.com/detail/video/5979219646001": {
+      "content_sha": "93c12c9bb7adc25b6e10d696e9c478a10e13830a84b989b9a84b6fab2ff72587",
+      "doc_id": "video-cisco-com-detail-video-5979219646001-0ab449aff5",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:13:15.029079+00:00",
+      "last_changed": "2026-08-20T22:13:15.029079+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:13:15.029079+00:00",
+      "next_check": "2026-08-21T22:13:15.029079+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://video.cisco.com/detail/video/5982647314001": {
+      "content_sha": "a5e863a3657c6969a9005890c897126d8833849e5eef968f4a60d780db9dd4ab",
+      "doc_id": "video-cisco-com-detail-video-5982647314001-8371351814",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:13:36.417570+00:00",
+      "last_changed": "2026-08-20T22:13:36.417570+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:13:36.417570+00:00",
+      "next_check": "2026-08-21T22:13:36.417570+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://video.cisco.com/detail/video/6008102189001": {
+      "content_sha": "a49ab3891c3cf95b0f438335f763f415fe6ec583114e344c0ccee7ead109e652",
+      "doc_id": "video-cisco-com-detail-video-6008102189001-340ec36abc",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:13:19.449181+00:00",
+      "last_changed": "2026-08-20T22:13:19.449181+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:13:19.449181+00:00",
+      "next_check": "2026-08-21T22:13:19.449181+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://video.cisco.com/detail/video/6232772471001": {
       "content_sha": "ea81cb3e374516b391d6097b28eb24c0f8d63a1396a51c2838fd574349d2fb47",
       "doc_id": "video-cisco-com-detail-video-6232772471001-c75b346fdd",
@@ -2867,6 +2932,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide.html": {
+      "content_sha": "cc1618191ce818fd2fae934a2d4ddc200f526be92788cbb0a4baf6961e6ece89",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-213869-jabber-for-windows-quick-start-guide-htm-676ebe4286",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:13:40.862402+00:00",
+      "last_changed": "2026-08-20T22:13:40.862402+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:13:40.862402+00:00",
+      "next_check": "2026-08-21T22:13:40.862402+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/200957-How-to-Collect-Logs-for-UC-Applications.html": {
       "content_sha": "a58e30d026926e845414b84e37d497d10d3e92215223ad277820dee2d52a4244",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-200957-how-to-collect-logs-for-uc-applications-html-1ea7545cdd",
@@ -2879,6 +2957,19 @@
       "next_check": "2026-08-21T00:00:11.748384+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212109-How-to-Use-LDP-EXE-to-Search-LDAP-Server.html": {
+      "content_sha": "b6a9381c16ae3488904db195b7bbe520617bc8a5459751ccb78801280cbe5ad2",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212109-how-to-use-ldp-exe-to-search-ldap-server-html-f4cf2d5e7e",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:13:58.909739+00:00",
+      "last_changed": "2026-08-20T22:13:58.909739+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:13:58.909739+00:00",
+      "next_check": "2026-08-21T22:13:58.909739+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213403-configure-jabber-version-12-0-in-phone-m.html": {
       "content_sha": "39da2ab6e74b2901f6ea6afafa7464d1ebed3f74af9fd8d01cfc783957f32dac",
@@ -2905,6 +2996,58 @@
       "next_check": "2026-08-21T00:00:21.359087+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.html": {
+      "content_sha": "d719ceffeb04bca30c36a941b6ab637207daedfb75af0c54c4c21a8cabab4ec5",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-215572-cisco-jabber-and-sip-oauth-mode-html-a1fdbd8fa3",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:13:45.623561+00:00",
+      "last_changed": "2026-08-20T22:13:45.623561+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:13:45.623561+00:00",
+      "next_check": "2026-08-21T22:13:45.623561+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.html": {
+      "content_sha": "694f1bbd633199b89897e6c675c34905b155faaf13da9aed616ebb5ea6ab7f2c",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-217294-how-to-collect-jabber-prt-logs-remotely-html-65eb441100",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:13:54.804403+00:00",
+      "last_changed": "2026-08-20T22:13:54.804403+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:13:54.804403+00:00",
+      "next_check": "2026-08-21T22:13:54.804403+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.html": {
+      "content_sha": "5ed8e2d6ae119ee3185b5ec5dec37ca863e0462bf79f88908c54f185c2483457",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-220328-troubleshoot-when-jabber-crashes-html-24566f6259",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:13:49.450319+00:00",
+      "last_changed": "2026-08-20T22:13:49.450319+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:13:49.450319+00:00",
+      "next_check": "2026-08-21T22:13:49.450319+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.html": {
+      "content_sha": "1f91b8f92ecc05c9396dd5a7fc2608e24f65064dffdb6376b0c258ea8f59023b",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-220616-troubleshoot-jabber-softphone-for-vdi-html-12ece0ea95",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:14:02.872923+00:00",
+      "last_changed": "2026-08-20T22:14:02.872923+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:14:02.872923+00:00",
+      "next_check": "2026-08-21T22:14:02.872923+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/221845-troubleshoot-jabber-log-in-common-issu.html": {
       "content_sha": "a164661b016960b029b33607dcc5ec0c475427acd899c28acdaa543b0aa108b9",
@@ -78433,6 +78576,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_b_deploy-jabber-on-premises-14_0/cjab_b_deploy-jabber-on-premises-129_chapter_01101.html": {
+      "content_sha": "ddbcf638f5c11f0d0698fe8235d251546ddd038322e7b9f3f7040a03e89baa37",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-0-cjab-b-deploy-jabber-on-premises-14-0-cjab-b-deploy-jabber-on-pr-a0746b9919",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:14:43.972646+00:00",
+      "last_changed": "2026-08-20T22:14:43.972646+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:14:43.972646+00:00",
+      "next_check": "2026-08-21T22:14:43.972646+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_b_feature-configuration-cisco-jabber-14_0.html": {
       "content_sha": "42f1992332bf69438565eb905e88adcb6a1c889d3ce2dcd67fafe2f90371861d",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-0-cjab-b-feature-configuration-cisco-jabber-14-0-html-f539e9a4fd",
@@ -79090,5 +79246,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T22:11:12.388008+00:00"
+  "updated_at": "2026-08-20T22:14:53.625034+00:00"
 }
