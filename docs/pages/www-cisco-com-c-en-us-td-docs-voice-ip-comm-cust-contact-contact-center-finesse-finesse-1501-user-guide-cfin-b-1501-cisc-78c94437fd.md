@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-user-guide-cfin-b-1501-cisc-78c94437fd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/user/guide/cfin_b_1501_cisco-desktop-user-guide/cfin_m_1501_cisco-finesse-desktop-interface.html
-retrieved_at: 2026-08-16T20:31:09.164237+00:00
+retrieved_at: 2026-08-20T17:38:27.516865+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide, Release 15.0(1)
@@ -448,6 +448,177 @@ The Cisco Finesse administrator cannot configure notification settings for third
 Accessibility
 
 Multi-Tab gadget tabs can be switched using keyboard shortcuts. For more information see Agent Keyboard Shortcuts .
+
+## Cisco AI Assistant in Cisco Finesse Desktop
+
+Cisco AI Assistant is integrated into the Cisco Finesse desktop offers a suite of AI-powered features designed to enhance
+                           agent and supervisor productivity, improve customer interactions, and support agent well-being within the CCE environment.
+                           These features are accessible through the Cisco Finesse agent desktop, which provides a customizable, web-based platform for
+                           managing customer interactions efficiently.
+
+CCE administrator controls the Cisco AI Assistant features that are available to agent(s) in the Cisco Finesse desktop. From
+                           the Unified CCE Administration console, the CCE administrator can enable or disable specific Cisco AI Assistant feature(s)
+                           for individual agent(s) based on business and operational requirements. These features can include Virtual Agent Transfer
+                           Summaries, Wrap-up Summaries, Mid-call Summaries, and Real-time Assist. For more information, see the Contact Center AI Features topic in the Web Based CCE Administration chapter of Administration Guide for Cisco Unified Contact Center Enterprise Release, 15.0(1) .
+
+The Cisco AI Assistant icon is displayed on the Cisco Finesse desktop only when at least one supported Cisco AI Assistant
+                           feature is enabled for your agent profile.
+
+During an active interaction between the agent and the caller, the Cisco Finesse desktop continues to operate according to
+                           the current configuration. If the CCE administrator enables or disables Cisco AI Assistant features while the agent(s) is
+                           handling a live interaction, those changes are not applied immediately to the current desktop session. To see the updated
+                           configuration, agent must refresh the Cisco Finesse desktop. After the desktop is refreshed, the updated Cisco AI Assistant
+                           settings take effect.
+
+The key features of the Cisco AI Assistant in Cisco Finesse agent desktop are as follows:
+
+Virtual agent transfer summaries
+
+'Virtual agent transfer summaries' is same as 'AI agent transfer summary'.
+
+Call transcript
+
+'Call transcript' is same as 'Real-Time Transcription'.
+
+Real-Time Assist
+
+Wrap-up summaries
+
+For more information about enabling and configuring AI Assistant features, see the Cisco AI Assistant chapter in Cisco Unified Contact Center Enterprise Feature Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-feature-guides-list.html .
+
+### Virtual Agent Transfer Summaries
+
+When a call is transferred from a Virtual Agent to a human agent, the Cisco Finesse Desktop displays an automated summary
+                              to help the agent quickly understand the context of the interaction.
+
+Cisco AI Assistant automates summarization between the virtual agent and caller to provide the human agent with:
+
+What the customer was trying to accomplish during the virtual agent interaction.
+
+Key subjects or issues raised during the conversation.
+
+Steps or resolutions already attempted.
+
+What the virtual agent could not handle, prompting the transfer.
+
+Contextual information gathered during the interaction.
+
+When a call is transferred from a Virtual Agent to a human agent, the conversation summary is displayed as shown below:
+
+You can click on View Transcript to view the complete call transcript between the Virtual Agent and the caller.
+
+### Call Transcript
+
+The Call transcript feature in Cisco Finesse Desktop provide a written record of conversations between human agents agents
+                              and caller. This feature transforms spoken dialogue into text format, enabling better documentation, quality assurance, compliance,
+                              and knowledge management.
+
+Ongoing, real-time transcriptions of the conversation appear directly on the Cisco Finesse Desktop, allowing agents to follow
+                                    the dialogue as it happens.
+
+The transcription automatically scrolls to show the latest spoken words, while agents can scroll back to review earlier parts
+                                    of the conversation.
+
+In calls involving transfers or conferences, transcripts are shown live from the point each participant joins, ensuring continuity.
+
+If transcription is not enabled for a call, an error message explains why transcriptions are missing.
+
+Transcriptions may contain personal data but are not stored after the call; future updates will include redaction for privacy.
+
+Agents access the transcription on the Cisco Finesse Desktop once they answer a call.
+
+You can filter the conversation based on the Caller or the Agent as shown below:
+
+### Accessing and Using Real-Time Assist
+
+The Cisco AI Assistant provides real-time assist, contextual suggestions to help live agents during customer interactions.
+                                 These assistance dynamically adapt as the conversation evolves, ensuring live agent always have the most relevant guidance.
+                                 When a customer asks multiple questions to live agent, the Cisco AI Assistant provides comprehensive suggestions to cover
+                                 all aspects of their query. For immediate context, the customer’s most recent query is displayed with each suggestion in the
+                                 Cisco AI Assistant gadget. All suggestions remain visible on the pane until the interaction concludes.
+
+Step 1
+
+On the Cisco Finesse Agent Desktop, change live agent status to Ready to accept incoming calls.
+
+Step 2
+
+When you receive a customer call, click Answer in the incoming call popover.
+
+Step 3
+
+Click on the notification popover to open the assistant, or directly click on the Cisco AI Assistant > Real-Time Assist icon.
+
+Step 4
+
+On the Cisco AI Assistant gadget, click Get assistance .
+
+Live agent can request real-time assists at any point during an active interaction by clicking the Get  assistance icon, even if agent missed or dismissed the initial notification.
+
+Step 5
+
+Review the suggestions provided in the Cisco AI Assistant gadget carefully before using them. This helps ensure the responses
+                                          are as per the customer’s specific situation. To view the source or knowledge base article for a suggestion, expand the Source section next to the suggestion.
+
+Step 6
+
+If the real-time assist is incorrect or misleading because the AI Assistant misunderstood the customer's voice, live agent
+                                          can refine the suggestions using the text box at the bottom of the AI Assistant gadget. This will help you receive a more
+                                          accurate response.
+
+Step 7
+
+Provide feedback on the generated responses by clicking the Thumbs up or Thumbs down icon to indicate whether the responses were helpful.
+
+Step 8
+
+If needed, click the timestamp next to the suggestion to view the transcript of the conversation with the customer at that
+                                          moment.
+
+The timestamp indicates when the customer requested the information.
+
+Step 9
+
+If you have enough information about the customer’s request or prefer not to receive suggestions, click Stop assistance .
+
+Step 10
+
+If the customer requests interaction details during the call, the AI Assistant will automatically email the information to
+                                          them.
+
+Step 11
+
+Continue the conversation, using suggestions to address queries efficiently.
+
+### Wrap-Up Summary
+
+The Cisco AI Assistant enhances operational efficiency by automating post-call summarization, significantly reducing the time
+                              agents spend on administrative wrap-up tasks. Upon selecting the Wrap Up option, the assistant instantly generates a concise summary as soon as the customer call concludes. The summary intelligently
+                              captures essential interaction elements, including the call's purpose, steps completed, outcomes achieved, and any necessary
+                              follow-up actions. By automating this documentation process, the solution eliminates tedious manual note-taking, guarantees
+                              standardized and reliable records, and promotes consistency across all customer interactions.
+
+The Wrap-Up interaction displays the following:
+
+The initial reason and any additional issues raised.
+
+Steps completed during the call.
+
+Whether the issue was resolved, partially resolved, or unresolved.
+
+Any pending tasks or commitments made.
+
+The summary of the conversation is displayed as shown below:
+
+Select the appropriate reason for the wrap-up in the Wrap-up reason dropdown:
+
+To wrap an interaction, the agent can choose the required wrap-up reason and click Complete wrap-up .
+
+An AI-generated summary of the conversation is ready to be viewed in the Cisco AI Assistant panel as shown below:
+
+Click on View summary to view the wrap-up summary of the conversation of the agent with the caller as shown below:
+
+Wrap-up summaries remain available for review after the interaction between caller and the agent has concluded
 
 ## Finesse Desktop Failover
 
@@ -1279,6 +1450,34 @@ If you are using Mac machine running Firefox browser, then set the Full Keyboard
 |---|---|
 
 | Note | Notification functionality is unavailable for screen readers. |
+|---|---|
+
+| Note | 'Virtual agent transfer summaries' is same as 'AI agent transfer summary'. |
+|---|---|
+
+| Note | 'Call transcript' is same as 'Real-Time Transcription'. |
+|---|---|
+
+| Step 1 | On the Cisco Finesse Agent Desktop, change live agent status to Ready to accept incoming calls. |
+|---|---|
+| Step 2 | When you receive a customer call, click Answer in the incoming call popover. A Cisco AI Assistant summary notification popover appears in the top-right corner. |
+| Step 3 | Click on the notification popover to open the assistant, or directly click on the Cisco AI Assistant > Real-Time Assist icon. |
+| Step 4 | On the Cisco AI Assistant gadget, click Get assistance . Note Live agent can request real-time assists at any point during an active interaction by clicking the Get  assistance icon, even if agent missed or dismissed the initial notification. Figure 11. Get assistance | Note | Live agent can request real-time assists at any point during an active interaction by clicking the Get  assistance icon, even if agent missed or dismissed the initial notification. |
+| Note | Live agent can request real-time assists at any point during an active interaction by clicking the Get  assistance icon, even if agent missed or dismissed the initial notification. |
+| Step 5 | Review the suggestions provided in the Cisco AI Assistant gadget carefully before using them. This helps ensure the responses
+                                          are as per the customer’s specific situation. To view the source or knowledge base article for a suggestion, expand the Source section next to the suggestion. |
+| Step 6 | If the real-time assist is incorrect or misleading because the AI Assistant misunderstood the customer's voice, live agent
+                                          can refine the suggestions using the text box at the bottom of the AI Assistant gadget. This will help you receive a more
+                                          accurate response. |
+| Step 7 | Provide feedback on the generated responses by clicking the Thumbs up or Thumbs down icon to indicate whether the responses were helpful. |
+| Step 8 | If needed, click the timestamp next to the suggestion to view the transcript of the conversation with the customer at that
+                                          moment. The timestamp indicates when the customer requested the information. |
+| Step 9 | If you have enough information about the customer’s request or prefer not to receive suggestions, click Stop assistance . Figure 12. Real-Time Assist |
+| Step 10 | If the customer requests interaction details during the call, the AI Assistant will automatically email the information to
+                                          them. |
+| Step 11 | Continue the conversation, using suggestions to address queries efficiently. |
+
+| Note | Live agent can request real-time assists at any point during an active interaction by clicking the Get  assistance icon, even if agent missed or dismissed the initial notification. |
 |---|---|
 
 | Note | When the desktop tries to connect to the alternate server, you may see the following pop-up message: Following certificates should be accepted before using Cisco Finesse Desktop.... . If you are unable to accept the security certificates, and keep seeing the message to accept the certificates, close the pop-up

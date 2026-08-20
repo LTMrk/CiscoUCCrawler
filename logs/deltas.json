@@ -1,12 +1,14 @@
 {
-  "run_at": "2026-08-20T17:28:28.611393+00:00",
+  "run_at": "2026-08-20T17:39:31.503936+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su3-install-guide-uccx-b-1251-5bda165082",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-15-0-configuration-guide-uccx-b-1501-994122cd63"
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-compatibility-matrix-unified-ccx-sof-eaee682b13",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-user-guide-cfin-b-1501-cisc-78c94437fd",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-user-guide-cfin-b-1501-cisc-aa41ed20b1",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-user-guide-cfin-b-1501-cisc-dbdf5c125e"
   ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 118
+  "unchanged_count": 116
 }

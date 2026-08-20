@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-user-guide-cfin-b-1501-cisc-aa41ed20b1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/user/guide/cfin_b_1501_cisco-desktop-user-guide/cfin_m_1501_common-tasks.html
-retrieved_at: 2026-08-16T20:31:14.010700+00:00
+retrieved_at: 2026-08-20T17:38:32.822473+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide, Release 15.0(1)
@@ -182,33 +182,34 @@ Enabling automatic device selection is supported when a single active
                                                             Active Device in Cisco Finesse Administration
                                                             Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/series.html#MaintainandOperate
 
-### Sign In to Cisco Finesse Desktop Single Sign-On Mode
+### Sign In to Finesse Desktop Single Sign-On Mode
 
-Cisco Finesse supports custom logon message for Finesse desktop users. For more information on custom messages see the .
+Use this procedure for SSO deployments.
 
 Step 1
 
-In the address bar of your browser, enter https://FQDN of Finesse Server: 8445/desktop, where FQDN of Finesse Server is the
-                                          fully qualified domain name of the Cisco Finesse server.
+In the address bar of your browser, enter https://FQDN of Finesse Server:8445/desktop , where FQDN of Finesse Server is the fully qualified domain name of the Cisco Finesse server.
 
 Step 2
 
 If your contact center has installed a language pack for Cisco Finesse, on first sign-in, a Language Selector screen appears on the desktop. From the language selector drop-down, choose the language that you want to appear on the desktop.
                                           Click Next .
 
-You can also select a language by passing the locale as part of the URL (for example, https:// FQDN of Primary Server:8445 /desktop?locale=fr_FR) or by changing your browser preferred language. The default language is English (en_US).
+You can also select a language by passing the locale as part of the URL (for example, https:// FQDN of Primary Server:8445 /desktop?locale=fr_FR ) or by changing your browser preferred language. The default language is English (en_US).
 
 If your contact center does not have a language pack installed for Cisco Finesse, the desktop locale is English only.
 
 Step 3
 
-On the IdP page, enter Username and Password , and click Sign in .
+If Webex Common Identity (WxCI) is not enabled, Cisco Finesse identity page is not displayed, and you are redirected to the
+                                          Identity Provider (IdP) page.
 
-You must enter the AWDB username.
+If you have enabled Webex Common Identity (WxCI), enter your Username on the Cisco Finesse identity page. Cisco Finesse identifies the user type and routes the sign-in flow.
 
-Step 4
+If you are an SSO user, you are redirected to the Identity Provider (IdP) page. Enter your Username and Password , and click Sign in . On the Cisco Finesse login page, enter your Extension and click Submit .
 
-In the Extension field, enter your extension and click Submit .
+If you are a WxCI user, you are redirected to the Webex Control Hub sign-in page. After the sign-in is successful, you are
+                                             redirected to the Cisco Finesse login page. Enter your Extension and click Submit .
 
 If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
                                                                in Select Your Preferred Device screen. For more information see Agent Device Selection . Even if an agent has signed into only one device, this screen is displayed. Therefore, this screen offers a chance to determine
@@ -221,68 +222,112 @@ If sign in fails due to device errors the desktop attempts to automatically sign
 
 To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language.
 
-You are signed in to the Cisco Finesse desktop and your status is set to Not
-                                             Ready. On clicking the user options on the top right corner, your role
-                                             (agent or supervisor), agent name, agent ID, extension, and mobile number
-                                             appear in the drop-down.
+Step 4
 
-On first sign-in, you are prompted to set your preference for
-                                                         notifications. On the sign-in page, Username field is auto populated and
-                                                         disabled. Choose the option to always receive or allow toaster
-                                                         notifications. Toaster notifications will not appear if your browser is
-                                                         set to private mode that is New incognito window in Chrome, or New private window in Firefox.
+When sign-in is complete, you are signed in to the Cisco Finesse desktop and your state is set to Not Ready . On clicking the user options on the top right corner, your role (agent or supervisor), agent name, agent ID, extension,
+                                          and mobile number appear in the drop-down.
 
-### Sign In to Finesse Desktop Hybrid Mode
+On first sign-in, you are prompted to set your preference for notifications. On the sign-in page, Username field is auto populated
+                                                         and disabled. Choose the option to always receive or allow toaster notifications. Toaster notifications will not appear if
+                                                         your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox.
+
+### Sign In to Finesse Desktop Non Single Sign-On Mode
+
+Use this procedure for Non-SSO deployments.
 
 Step 1
 
-In the address bar of your browser, enter https://FQDN of Finesse Server:8445/desktop, where FQDN of Finesse Server is the
-                                          fully qualified domain name of the Cisco Finesse server.
+In the address bar of your browser, enter https://FQDN of Finesse Server:8445/desktop , where FQDN of Finesse Server is the fully qualified domain name of the Cisco Finesse server.
 
 Step 2
 
-If your contact center has installed a language pack for Cisco Finesse, on first login, a Language Selector screen appears on the desktop. From the language selector drop-down, choose the language that you want to appear on the desktop
-                                          and click Next .
+If your contact center has installed a language pack for Cisco Finesse, on first sign-in, a Language Selector screen appears on the desktop. From the language selector drop-down, choose the language that you want to appear on the desktop.
+                                          Click Next .
 
-You can also select a language by passing the locale as part of the URL (for example, https://FQDN of Finesse server/desktop?locale=fr_FR)
-                                                         or by changing your browser preferred language. The default language is English (en_US).
+You can also select a language by passing the locale as part of the URL (for example, https:// FQDN of Primary Server:8445 /desktop?locale=fr_FR ) or by changing your browser preferred language. The default language is English (en_US).
 
 If your contact center does not have a language pack installed for Cisco Finesse, the desktop locale is English only.
 
 Step 3
 
-In non-SSO mode, enter Username , Password and Extension on the Cisco Finesse login page. Click Sign In .
+If you have not enabled Webex Common Identity (WxCI), enter your Username , Password , and Extension , and click Sign In .
 
 Step 4
 
-In SSO mode, you are re-directed to the IdP page. Enter Username , Password and click Sign in on the IdP page. You are re-directed to Cisco Finesse login page
+If WxCI is enabled, Cisco Finesse identity page is displayed. Enter your Username . Cisco Finesse identifies the user type and routes the sign-in flow.
 
-On the Cisco Finesse login page, enter your Extension and click Submit .
+If you are a Non-SSO user, enter your Password and Extension , and click Sign In .
 
-Step 5
+If you are a WxCI user, you are redirected to the Webex Control Hub sign-in page. After the sign-in is successful, you are
+                                             redirected to the Cisco Finesse login page. Enter your Extension and click Submit .
 
-In Hybrid mode, enter Username (AWDB) and click Next on the Cisco Finesse identity page. You are re-directed to IdP page.
+If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
+                                                               in Select Your Preferred Device screen. For more information see Agent Device Selection . Even if an agent has signed into only one device, this screen is displayed. Therefore, this screen offers a chance to determine
+                                                               if an agent has missed logging into the selected device and thereby retrying the login.
 
-On the IdP page, enter Username (AWDB), Password and click Sign in . You are re-directed to Cisco Finesse login page.
-
-On the Finesse login page, enter your Extension and click Submit .
+If there is only one device, the agent device selection page is not displayed.
 
 If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
-                                                                     the number of remaining retries and the time left for the next retry attempt.
-
-Device selection is applicable for hybrid login too.
-
-Step 6
+                                                               the number of remaining retries and the time left for the next retry attempt.
 
 To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language.
 
-You are signed in to the Cisco Finesse desktop and your status is set to Not Ready. On clicking the user options on the top
-                                             right corner, your role (agent or supervisor), agent name, agent ID, extension, and mobile number appear in the drop-down.
+Step 5
 
-Non SSO users in Hybrid Mode can log in with a different username by clicking the Sign in as a different user link. This will direct you to the sign in page to enter your credentials.
+When sign-in is complete, you are signed in to the Cisco Finesse desktop and your state is set to Not Ready . On clicking the user options on the top right corner, your role (agent or supervisor), agent name, agent ID, extension,
+                                          and mobile number appear in the drop-down.
 
-On first login, you are prompted to set your preference for notifications. Choose the option to always receive or allow toaster
-                                                               notifications. Notifications may not appear if your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox.
+On first sign-in, you are prompted to set your preference for notifications. On the sign-in page, Username field is auto populated
+                                                         and disabled. Choose the option to always receive or allow toaster notifications. Toaster notifications will not appear if
+                                                         your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox.
+
+### Sign In to Finesse Desktop Hybrid Mode
+
+Use this procedure for Hybrid deployments.
+
+Step 1
+
+In the address bar of your browser, enter https://FQDN of Finesse Server:8445/desktop , where FQDN of Finesse Server is the fully qualified domain name of the Cisco Finesse server.
+
+Step 2
+
+If your contact center has installed a language pack for Cisco Finesse, on first sign-in, a Language Selector screen appears on the desktop. From the language selector drop-down, choose the language that you want to appear on the desktop.
+                                          Click Next .
+
+You can also select a language by passing the locale as part of the URL (for example, https:// FQDN of Primary Server:8445 /desktop?locale=fr_FR ) or by changing your browser preferred language. The default language is English (en_US).
+
+If your contact center does not have a language pack installed for Cisco Finesse, the desktop locale is English only.
+
+Step 3
+
+On the Cisco Finesse identity page, enter your Username and click Next . Cisco Finesse identifies the user type and routes the sign-in flow.
+
+If you are a Non-SSO user, enter your Password and Extension , and click Sign In .
+
+If you are an SSO user, you are redirected to the Identity Provider (IdP) page. Enter your Username ( AWDB ) and Password , and click Sign in . On the Cisco Finesse login page, enter your Extension and click Submit .
+
+If you are a Webex Common Identity (WxCI) user, you are redirected to the Webex Control Hub sign-in page. After the sign-in
+                                             is successful, you are redirected to the Cisco Finesse login page. Enter your Extension and click Submit .
+
+If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
+                                                               in Select Your Preferred Device screen. For more information see Agent Device Selection . Even if an agent has signed into only one device, this screen is displayed. Therefore, this screen offers a chance to determine
+                                                               if an agent has missed logging into the selected device and thereby retrying the login.
+
+If there is only one device, the agent device selection page is not displayed.
+
+If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
+                                                               the number of remaining retries and the time left for the next retry attempt.
+
+To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language.
+
+Step 4
+
+When sign-in is complete, you are signed in to the Cisco Finesse desktop and your state is set to Not Ready . On clicking the user options on the top right corner, your role (agent or supervisor), agent name, agent ID, extension,
+                                          and mobile number appear in the drop-down.
+
+On first sign-in, you are prompted to set your preference for notifications. On the sign-in page, Username field is auto populated
+                                                         and disabled. Choose the option to always receive or allow toaster notifications. Toaster notifications will not appear if
+                                                         your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox.
 
 ### Sign In Using IPv6
 
@@ -1870,103 +1915,117 @@ For more information about using the Manage Digital Channels gadget, see the Cis
                                                             Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/series.html#MaintainandOperate |
 |---|---|
 
-| Step 1 | In the address bar of your browser, enter https://FQDN of Finesse Server: 8445/desktop, where FQDN of Finesse Server is the
-                                          fully qualified domain name of the Cisco Finesse server. |
+| Step 1 | In the address bar of your browser, enter https://FQDN of Finesse Server:8445/desktop , where FQDN of Finesse Server is the fully qualified domain name of the Cisco Finesse server. |
 |---|---|
 | Step 2 | If your contact center has installed a language pack for Cisco Finesse, on first sign-in, a Language Selector screen appears on the desktop. From the language selector drop-down, choose the language that you want to appear on the desktop.
-                                          Click Next . Note You can also select a language by passing the locale as part of the URL (for example, https:// FQDN of Primary Server:8445 /desktop?locale=fr_FR) or by changing your browser preferred language. The default language is English (en_US). If your contact center does not have a language pack installed for Cisco Finesse, the desktop locale is English only. | Note | You can also select a language by passing the locale as part of the URL (for example, https:// FQDN of Primary Server:8445 /desktop?locale=fr_FR) or by changing your browser preferred language. The default language is English (en_US). If your contact center does not have a language pack installed for Cisco Finesse, the desktop locale is English only. |
-| Note | You can also select a language by passing the locale as part of the URL (for example, https:// FQDN of Primary Server:8445 /desktop?locale=fr_FR) or by changing your browser preferred language. The default language is English (en_US). If your contact center does not have a language pack installed for Cisco Finesse, the desktop locale is English only. |
-| Step 3 | On the IdP page, enter Username and Password , and click Sign in . Note You must enter the AWDB username. | Note | You must enter the AWDB username. |
-| Note | You must enter the AWDB username. |
-| Step 4 | In the Extension field, enter your extension and click Submit . Note If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
+                                          Click Next . You can also select a language by passing the locale as part of the URL (for example, https:// FQDN of Primary Server:8445 /desktop?locale=fr_FR ) or by changing your browser preferred language. The default language is English (en_US). If your contact center does not have a language pack installed for Cisco Finesse, the desktop locale is English only. |
+| Step 3 | If Webex Common Identity (WxCI) is not enabled, Cisco Finesse identity page is not displayed, and you are redirected to the
+                                          Identity Provider (IdP) page. If you have enabled Webex Common Identity (WxCI), enter your Username on the Cisco Finesse identity page. Cisco Finesse identifies the user type and routes the sign-in flow. If you are an SSO user, you are redirected to the Identity Provider (IdP) page. Enter your Username and Password , and click Sign in . On the Cisco Finesse login page, enter your Extension and click Submit . If you are a WxCI user, you are redirected to the Webex Control Hub sign-in page. After the sign-in is successful, you are
+                                             redirected to the Cisco Finesse login page. Enter your Extension and click Submit . Note If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
                                                                in Select Your Preferred Device screen. For more information see Agent Device Selection . Even if an agent has signed into only one device, this screen is displayed. Therefore, this screen offers a chance to determine
-                                                               if an agent has missed logging into the selected device and thereby retrying the login. Note If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
-                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. You are signed in to the Cisco Finesse desktop and your status is set to Not
-                                             Ready. On clicking the user options on the top right corner, your role
-                                             (agent or supervisor), agent name, agent ID, extension, and mobile number
-                                             appear in the drop-down. Note On first sign-in, you are prompted to set your preference for
-                                                         notifications. On the sign-in page, Username field is auto populated and
-                                                         disabled. Choose the option to always receive or allow toaster
-                                                         notifications. Toaster notifications will not appear if your browser is
-                                                         set to private mode that is New incognito window in Chrome, or New private window in Firefox. | Note | If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
+                                                               if an agent has missed logging into the selected device and thereby retrying the login. If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
+                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. | Note | If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
                                                                in Select Your Preferred Device screen. For more information see Agent Device Selection . Even if an agent has signed into only one device, this screen is displayed. Therefore, this screen offers a chance to determine
-                                                               if an agent has missed logging into the selected device and thereby retrying the login. Note If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
-                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. | Note | If there is only one device, the agent device selection page is not displayed. | Note | On first sign-in, you are prompted to set your preference for
-                                                         notifications. On the sign-in page, Username field is auto populated and
-                                                         disabled. Choose the option to always receive or allow toaster
-                                                         notifications. Toaster notifications will not appear if your browser is
-                                                         set to private mode that is New incognito window in Chrome, or New private window in Firefox. |
+                                                               if an agent has missed logging into the selected device and thereby retrying the login. If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
+                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. |
 | Note | If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
                                                                in Select Your Preferred Device screen. For more information see Agent Device Selection . Even if an agent has signed into only one device, this screen is displayed. Therefore, this screen offers a chance to determine
-                                                               if an agent has missed logging into the selected device and thereby retrying the login. Note If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
-                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. | Note | If there is only one device, the agent device selection page is not displayed. |
-| Note | If there is only one device, the agent device selection page is not displayed. |
-| Note | On first sign-in, you are prompted to set your preference for
-                                                         notifications. On the sign-in page, Username field is auto populated and
-                                                         disabled. Choose the option to always receive or allow toaster
-                                                         notifications. Toaster notifications will not appear if your browser is
-                                                         set to private mode that is New incognito window in Chrome, or New private window in Firefox. |
-
-| Note | You can also select a language by passing the locale as part of the URL (for example, https:// FQDN of Primary Server:8445 /desktop?locale=fr_FR) or by changing your browser preferred language. The default language is English (en_US). If your contact center does not have a language pack installed for Cisco Finesse, the desktop locale is English only. |
-|---|---|
-
-| Note | You must enter the AWDB username. |
-|---|---|
+                                                               if an agent has missed logging into the selected device and thereby retrying the login. If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
+                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. |
+| Step 4 | When sign-in is complete, you are signed in to the Cisco Finesse desktop and your state is set to Not Ready . On clicking the user options on the top right corner, your role (agent or supervisor), agent name, agent ID, extension,
+                                          and mobile number appear in the drop-down. Note On first sign-in, you are prompted to set your preference for notifications. On the sign-in page, Username field is auto populated
+                                                         and disabled. Choose the option to always receive or allow toaster notifications. Toaster notifications will not appear if
+                                                         your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. | Note | On first sign-in, you are prompted to set your preference for notifications. On the sign-in page, Username field is auto populated
+                                                         and disabled. Choose the option to always receive or allow toaster notifications. Toaster notifications will not appear if
+                                                         your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. |
+| Note | On first sign-in, you are prompted to set your preference for notifications. On the sign-in page, Username field is auto populated
+                                                         and disabled. Choose the option to always receive or allow toaster notifications. Toaster notifications will not appear if
+                                                         your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. |
 
 | Note | If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
                                                                in Select Your Preferred Device screen. For more information see Agent Device Selection . Even if an agent has signed into only one device, this screen is displayed. Therefore, this screen offers a chance to determine
-                                                               if an agent has missed logging into the selected device and thereby retrying the login. Note If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
-                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. | Note | If there is only one device, the agent device selection page is not displayed. |
-|---|---|---|---|
-| Note | If there is only one device, the agent device selection page is not displayed. |
-
-| Note | If there is only one device, the agent device selection page is not displayed. |
+                                                               if an agent has missed logging into the selected device and thereby retrying the login. If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
+                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. |
 |---|---|
 
-| Note | On first sign-in, you are prompted to set your preference for
-                                                         notifications. On the sign-in page, Username field is auto populated and
-                                                         disabled. Choose the option to always receive or allow toaster
-                                                         notifications. Toaster notifications will not appear if your browser is
-                                                         set to private mode that is New incognito window in Chrome, or New private window in Firefox. |
+| Note | On first sign-in, you are prompted to set your preference for notifications. On the sign-in page, Username field is auto populated
+                                                         and disabled. Choose the option to always receive or allow toaster notifications. Toaster notifications will not appear if
+                                                         your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. |
 |---|---|
 
-| Step 1 | In the address bar of your browser, enter https://FQDN of Finesse Server:8445/desktop, where FQDN of Finesse Server is the
-                                          fully qualified domain name of the Cisco Finesse server. |
+| Step 1 | In the address bar of your browser, enter https://FQDN of Finesse Server:8445/desktop , where FQDN of Finesse Server is the fully qualified domain name of the Cisco Finesse server. |
 |---|---|
-| Step 2 | If your contact center has installed a language pack for Cisco Finesse, on first login, a Language Selector screen appears on the desktop. From the language selector drop-down, choose the language that you want to appear on the desktop
-                                          and click Next . Note You can also select a language by passing the locale as part of the URL (for example, https://FQDN of Finesse server/desktop?locale=fr_FR)
-                                                         or by changing your browser preferred language. The default language is English (en_US). If your contact center does not have a language pack installed for Cisco Finesse, the desktop locale is English only. | Note | You can also select a language by passing the locale as part of the URL (for example, https://FQDN of Finesse server/desktop?locale=fr_FR)
-                                                         or by changing your browser preferred language. The default language is English (en_US). If your contact center does not have a language pack installed for Cisco Finesse, the desktop locale is English only. |
-| Note | You can also select a language by passing the locale as part of the URL (for example, https://FQDN of Finesse server/desktop?locale=fr_FR)
-                                                         or by changing your browser preferred language. The default language is English (en_US). If your contact center does not have a language pack installed for Cisco Finesse, the desktop locale is English only. |
-| Step 3 | In non-SSO mode, enter Username , Password and Extension on the Cisco Finesse login page. Click Sign In . |
-| Step 4 | In SSO mode, you are re-directed to the IdP page. Enter Username , Password and click Sign in on the IdP page. You are re-directed to Cisco Finesse login page Note You must enter the AWDB username. On the Cisco Finesse login page, enter your Extension and click Submit . | Note | You must enter the AWDB username. |
-| Note | You must enter the AWDB username. |
-| Step 5 | In Hybrid mode, enter Username (AWDB) and click Next on the Cisco Finesse identity page. You are re-directed to IdP page. On the IdP page, enter Username (AWDB), Password and click Sign in . You are re-directed to Cisco Finesse login page. On the Finesse login page, enter your Extension and click Submit . Note If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
-                                                                     the number of remaining retries and the time left for the next retry attempt. Device selection is applicable for hybrid login too. | Note | If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
-                                                                     the number of remaining retries and the time left for the next retry attempt. Device selection is applicable for hybrid login too. |
-| Note | If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
-                                                                     the number of remaining retries and the time left for the next retry attempt. Device selection is applicable for hybrid login too. |
-| Step 6 | To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. You are signed in to the Cisco Finesse desktop and your status is set to Not Ready. On clicking the user options on the top
-                                             right corner, your role (agent or supervisor), agent name, agent ID, extension, and mobile number appear in the drop-down. Note Non SSO users in Hybrid Mode can log in with a different username by clicking the Sign in as a different user link. This will direct you to the sign in page to enter your credentials. On first login, you are prompted to set your preference for notifications. Choose the option to always receive or allow toaster
-                                                               notifications. Notifications may not appear if your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. | Note | Non SSO users in Hybrid Mode can log in with a different username by clicking the Sign in as a different user link. This will direct you to the sign in page to enter your credentials. On first login, you are prompted to set your preference for notifications. Choose the option to always receive or allow toaster
-                                                               notifications. Notifications may not appear if your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. |
-| Note | Non SSO users in Hybrid Mode can log in with a different username by clicking the Sign in as a different user link. This will direct you to the sign in page to enter your credentials. On first login, you are prompted to set your preference for notifications. Choose the option to always receive or allow toaster
-                                                               notifications. Notifications may not appear if your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. |
+| Step 2 | If your contact center has installed a language pack for Cisco Finesse, on first sign-in, a Language Selector screen appears on the desktop. From the language selector drop-down, choose the language that you want to appear on the desktop.
+                                          Click Next . You can also select a language by passing the locale as part of the URL (for example, https:// FQDN of Primary Server:8445 /desktop?locale=fr_FR ) or by changing your browser preferred language. The default language is English (en_US). If your contact center does not have a language pack installed for Cisco Finesse, the desktop locale is English only. |
+| Step 3 | If you have not enabled Webex Common Identity (WxCI), enter your Username , Password , and Extension , and click Sign In . |
+| Step 4 | If WxCI is enabled, Cisco Finesse identity page is displayed. Enter your Username . Cisco Finesse identifies the user type and routes the sign-in flow. If you are a Non-SSO user, enter your Password and Extension , and click Sign In . If you are a WxCI user, you are redirected to the Webex Control Hub sign-in page. After the sign-in is successful, you are
+                                             redirected to the Cisco Finesse login page. Enter your Extension and click Submit . Note If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
+                                                               in Select Your Preferred Device screen. For more information see Agent Device Selection . Even if an agent has signed into only one device, this screen is displayed. Therefore, this screen offers a chance to determine
+                                                               if an agent has missed logging into the selected device and thereby retrying the login. If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
+                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. | Note | If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
+                                                               in Select Your Preferred Device screen. For more information see Agent Device Selection . Even if an agent has signed into only one device, this screen is displayed. Therefore, this screen offers a chance to determine
+                                                               if an agent has missed logging into the selected device and thereby retrying the login. If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
+                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. |
+| Note | If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
+                                                               in Select Your Preferred Device screen. For more information see Agent Device Selection . Even if an agent has signed into only one device, this screen is displayed. Therefore, this screen offers a chance to determine
+                                                               if an agent has missed logging into the selected device and thereby retrying the login. If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
+                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. |
+| Step 5 | When sign-in is complete, you are signed in to the Cisco Finesse desktop and your state is set to Not Ready . On clicking the user options on the top right corner, your role (agent or supervisor), agent name, agent ID, extension,
+                                          and mobile number appear in the drop-down. Note On first sign-in, you are prompted to set your preference for notifications. On the sign-in page, Username field is auto populated
+                                                         and disabled. Choose the option to always receive or allow toaster notifications. Toaster notifications will not appear if
+                                                         your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. | Note | On first sign-in, you are prompted to set your preference for notifications. On the sign-in page, Username field is auto populated
+                                                         and disabled. Choose the option to always receive or allow toaster notifications. Toaster notifications will not appear if
+                                                         your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. |
+| Note | On first sign-in, you are prompted to set your preference for notifications. On the sign-in page, Username field is auto populated
+                                                         and disabled. Choose the option to always receive or allow toaster notifications. Toaster notifications will not appear if
+                                                         your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. |
 
-| Note | You can also select a language by passing the locale as part of the URL (for example, https://FQDN of Finesse server/desktop?locale=fr_FR)
-                                                         or by changing your browser preferred language. The default language is English (en_US). If your contact center does not have a language pack installed for Cisco Finesse, the desktop locale is English only. |
-|---|---|
-
-| Note | You must enter the AWDB username. |
-|---|---|
-
-| Note | If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
-                                                                     the number of remaining retries and the time left for the next retry attempt. Device selection is applicable for hybrid login too. |
+| Note | If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
+                                                               in Select Your Preferred Device screen. For more information see Agent Device Selection . Even if an agent has signed into only one device, this screen is displayed. Therefore, this screen offers a chance to determine
+                                                               if an agent has missed logging into the selected device and thereby retrying the login. If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
+                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. |
 |---|---|
 
-| Note | Non SSO users in Hybrid Mode can log in with a different username by clicking the Sign in as a different user link. This will direct you to the sign in page to enter your credentials. On first login, you are prompted to set your preference for notifications. Choose the option to always receive or allow toaster
-                                                               notifications. Notifications may not appear if your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. |
+| Note | On first sign-in, you are prompted to set your preference for notifications. On the sign-in page, Username field is auto populated
+                                                         and disabled. Choose the option to always receive or allow toaster notifications. Toaster notifications will not appear if
+                                                         your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. |
+|---|---|
+
+| Step 1 | In the address bar of your browser, enter https://FQDN of Finesse Server:8445/desktop , where FQDN of Finesse Server is the fully qualified domain name of the Cisco Finesse server. |
+|---|---|
+| Step 2 | If your contact center has installed a language pack for Cisco Finesse, on first sign-in, a Language Selector screen appears on the desktop. From the language selector drop-down, choose the language that you want to appear on the desktop.
+                                          Click Next . You can also select a language by passing the locale as part of the URL (for example, https:// FQDN of Primary Server:8445 /desktop?locale=fr_FR ) or by changing your browser preferred language. The default language is English (en_US). If your contact center does not have a language pack installed for Cisco Finesse, the desktop locale is English only. |
+| Step 3 | On the Cisco Finesse identity page, enter your Username and click Next . Cisco Finesse identifies the user type and routes the sign-in flow. If you are a Non-SSO user, enter your Password and Extension , and click Sign In . If you are an SSO user, you are redirected to the Identity Provider (IdP) page. Enter your Username ( AWDB ) and Password , and click Sign in . On the Cisco Finesse login page, enter your Extension and click Submit . If you are a Webex Common Identity (WxCI) user, you are redirected to the Webex Control Hub sign-in page. After the sign-in
+                                             is successful, you are redirected to the Cisco Finesse login page. Enter your Extension and click Submit . Note If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
+                                                               in Select Your Preferred Device screen. For more information see Agent Device Selection . Even if an agent has signed into only one device, this screen is displayed. Therefore, this screen offers a chance to determine
+                                                               if an agent has missed logging into the selected device and thereby retrying the login. If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
+                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. | Note | If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
+                                                               in Select Your Preferred Device screen. For more information see Agent Device Selection . Even if an agent has signed into only one device, this screen is displayed. Therefore, this screen offers a chance to determine
+                                                               if an agent has missed logging into the selected device and thereby retrying the login. If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
+                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. |
+| Note | If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
+                                                               in Select Your Preferred Device screen. For more information see Agent Device Selection . Even if an agent has signed into only one device, this screen is displayed. Therefore, this screen offers a chance to determine
+                                                               if an agent has missed logging into the selected device and thereby retrying the login. If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
+                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. |
+| Step 4 | When sign-in is complete, you are signed in to the Cisco Finesse desktop and your state is set to Not Ready . On clicking the user options on the top right corner, your role (agent or supervisor), agent name, agent ID, extension,
+                                          and mobile number appear in the drop-down. Note On first sign-in, you are prompted to set your preference for notifications. On the sign-in page, Username field is auto populated
+                                                         and disabled. Choose the option to always receive or allow toaster notifications. Toaster notifications will not appear if
+                                                         your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. | Note | On first sign-in, you are prompted to set your preference for notifications. On the sign-in page, Username field is auto populated
+                                                         and disabled. Choose the option to always receive or allow toaster notifications. Toaster notifications will not appear if
+                                                         your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. |
+| Note | On first sign-in, you are prompted to set your preference for notifications. On the sign-in page, Username field is auto populated
+                                                         and disabled. Choose the option to always receive or allow toaster notifications. Toaster notifications will not appear if
+                                                         your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. |
+
+| Note | If your administrator has enabled the device selection feature for you, the devices associated to your extension are displayed
+                                                               in Select Your Preferred Device screen. For more information see Agent Device Selection . Even if an agent has signed into only one device, this screen is displayed. Therefore, this screen offers a chance to determine
+                                                               if an agent has missed logging into the selected device and thereby retrying the login. If there is only one device, the agent device selection page is not displayed. If sign in fails due to device errors the desktop attempts to automatically sign in again. An alert is displayed detailing
+                                                               the number of remaining retries and the time left for the next retry attempt. To change the language that appears on your desktop, use the Change the Language link. On the language selector screen, choose the language. |
+|---|---|
+
+| Note | On first sign-in, you are prompted to set your preference for notifications. On the sign-in page, Username field is auto populated
+                                                         and disabled. Choose the option to always receive or allow toaster notifications. Toaster notifications will not appear if
+                                                         your browser is set to private mode that is New incognito window in Chrome, or New private window in Firefox. |
 |---|---|
 
 | Step 1 | In the address bar of your browser, enter https ://FQDN of Finesse Server: 8445/desktop, where FQDN of Finesse Server is the fully qualified domain name of the Cisco Finesse

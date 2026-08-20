@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-user-guide-cfin-b-1501-cisc-dbdf5c125e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/user/guide/cfin_b_1501_cisco-desktop-user-guide/cfin_m_1501_preface-desktop-guide.html
-retrieved_at: 2026-08-16T20:31:04.235790+00:00
+retrieved_at: 2026-08-20T17:38:36.352658+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide, Release 15.0(1)
@@ -83,7 +83,7 @@ To get the business results you’re looking for with the technologies that matt
 
 To submit a service request, visit Cisco Support .
 
-To discover and browse secure, validated enterprise-class apps, products, solutions and services, visit Cisco DevNet .
+To discover and browse secure, validated enterprise-class apps, products, solutions and services, visit Cisco Marketplace .
 
 To obtain general networking, training, and certification titles, visit Cisco Press .
 
@@ -91,8 +91,8 @@ To find warranty information for a specific product or product family, access Ci
 
 ### Cisco Bug Search Tool
 
-Cisco Bug Search Tool (BST) is a web-based tool that acts as a gateway to the Cisco bug tracking system that maintains a comprehensive list of
-                              defects and vulnerabilities in Cisco products and software. BST provides you with detailed defect information about your products
+Cisco Bug Search Tool (BST) is a web-based tool that acts as a gateway to the Cisco bug tracking system that maintains a comprehensive list of defects
+                              and vulnerabilities in Cisco products and software. BST provides you with detailed defect information about your products
                               and software.
 
 ## Field Notice
