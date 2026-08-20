@@ -4739,6 +4739,58 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220377-understand-detailed-call-history-report.html": {
+      "content_sha": "79b13f1789cc41310fa74fb6c1b33ea7e53c07b4f3157d9e2e537fa8edc2b753",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220377-understand-detailed-call-history-report-h-e3ffe62bc7",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:21:36.387195+00:00",
+      "last_changed": "2026-08-20T23:21:36.387195+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:21:36.387195+00:00",
+      "next_check": "2026-08-21T23:21:36.387195+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis.html": {
+      "content_sha": "36e91ca7b72b4acba14a45b3445d6133be3cdcf4d5535d2a072673bc5966ee2a",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221021-troubleshoot-mpp-phone-in-wxc-for-provis--ed15ef3298",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:21:49.022013+00:00",
+      "last_changed": "2026-08-20T23:21:49.022013+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:21:49.022013+00:00",
+      "next_check": "2026-08-21T23:21:49.022013+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221052-generate-prt-manually-for-mpp-phones-reg.html": {
+      "content_sha": "ac888e8a4c68bf0d8639a81ec761f0577268a4c0f245d8d20412aa5fb7d9714c",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221052-generate-prt-manually-for-mpp-phones-reg--cd5445b67a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:21:44.498902+00:00",
+      "last_changed": "2026-08-20T23:21:44.498902+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:21:44.498902+00:00",
+      "next_check": "2026-08-21T23:21:44.498902+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221890-troubleshoot-voicemail-issues-in-webex-c.html": {
+      "content_sha": "e70d3c6a76422ddf595ceae3bc4241f1c1bc2d1681db8af9de16be5005e806f4",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221890-troubleshoot-voicemail-issues-in-webex-c--3b371927b9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:21:32.574319+00:00",
+      "last_changed": "2026-08-20T23:21:32.574319+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:21:32.574319+00:00",
+      "next_check": "2026-08-21T23:21:32.574319+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222133-fix-488-sip-error-for-fax-t-38-reinvite.html": {
       "content_sha": "d4a4285bca7793ab806f55543a101c4a4f9ad636fe126b5001f9fe5c081ff658",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222133-fix-488-sip-error-for-fax-t-38-reinvite-h-33caa46efc",
@@ -4751,6 +4803,19 @@
       "next_check": "2026-08-21T00:12:08.351732+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222147-download-call-recordings-through-api-wit.html": {
+      "content_sha": "1a4e03156d1fb92a8df4d1aa5937a9b05b50e0ff9de8e8a74da662b765a28aad",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222147-download-call-recordings-through-api-wit--61107c614c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:21:40.474655+00:00",
+      "last_changed": "2026-08-20T23:21:40.474655+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:21:40.474655+00:00",
+      "next_check": "2026-08-21T23:21:40.474655+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-teams/215414-troubleshooting-webex-teams-call-failure.html": {
       "content_sha": "5ac59e36741e96b7eddc703e50573c82b4f98dd6b3def64b7591a8fb3949dca5",
@@ -4790,6 +4855,19 @@
       "next_check": "2026-08-21T00:12:21.322371+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-teams/218148-troubleshoot-phone-services-disconnected.html": {
+      "content_sha": "76b8cb5a0cb079bba31d589b815bd29eb3e41063af46f1e5fe8ae5cee3e05b67",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-teams-218148-troubleshoot-phone-services-disconnected-ht-4964431eae",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:21:27.882581+00:00",
+      "last_changed": "2026-08-20T23:21:27.882581+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:21:27.882581+00:00",
+      "next_check": "2026-08-21T23:21:27.882581+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/14074-in-dial-peer-match.html": {
       "content_sha": "7b817de1519476da184509a16faeecb1c41b2f5ca1ddbd13bf64a12feae6ecb0",
@@ -8076,6 +8154,19 @@
       "next_check": "2026-08-21T00:37:59.231294+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_chapter_01001.html": {
+      "content_sha": "10acd986ce0e5398412c49dfce4f298ccf8b8020c000defa9971f490aa85329d",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-calendarservice-cmgt-b-deploy-spark--3a12d21962",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:21:15.771585+00:00",
+      "last_changed": "2026-08-20T23:21:15.771585+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:21:15.771585+00:00",
+      "next_check": "2026-08-21T23:21:15.771585+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_chapter_0111.html": {
       "content_sha": "23653b53b42a94ed95bd1b245625fa6cf04611a992e9ecd417600d202b2d7f31",
@@ -79311,5 +79402,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T23:19:07.231435+00:00"
+  "updated_at": "2026-08-20T23:22:10.386966+00:00"
 }
