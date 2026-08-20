@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-8d93bfceae
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_auditing_12_6_1.html
-retrieved_at: 2026-08-16T14:40:17.078674+00:00
+retrieved_at: 2026-08-20T18:34:22.151159+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -21,14 +21,10 @@ Chapter: Auditing
 You can set auditing policies to track significant events, such as
                            		account logon attempts. Always set Local policies.
 
-Note
-
 To set local auditing policies, select Start > Programs > Administrative
                                  			 Tools > Local Security Policies .
 
 ## View Auditing Policies
-
-### Procedure
 
 Step 1
 
@@ -57,8 +53,6 @@ View or change the auditing policies by double-clicking the policy
 
 To view the Security
                               		  Log:
-
-### Procedure
 
 Choose Start > Programs > Administrative
                                              				  Tools > Event Viewer .
@@ -244,12 +238,6 @@ TableNames - skill_target and t_skill_group .
 DateTime - the exact timestamp when the skill group was added.
 
 ConfigMessage - the field names impacted, such as Peripheral Name , Enterprise Name , and so on.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Domain auditing policies always overwrite local auditing policies.
                                     		Make the two sets of policies identical where possible. |

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-78c1f01a62
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-routing-call-ucce-config.html
-retrieved_at: 2026-08-16T14:38:04.212278+00:00
+retrieved_at: 2026-08-20T18:31:29.007313+00:00
 ---
 
 Configuration Guide for Cisco Unified ICM Enterprise, Release 12.6(2)
@@ -259,8 +259,6 @@ If the system software
 
 For example, the skill
                                  		target for a call might be the skill group Denver.PostSales and the associated service might be Denver.TechSupport . Another call might also be routed to the Denver.PostSales group with the associated service Denver.Upgrades .
-
-Note
 
 #### Determine Trunk
                               	 Group and DNIS
@@ -612,8 +610,6 @@ Service levels are
                                  		  set at the System Information level for all call types. To view or change the
                                  		  default system-level settings for all call types:
 
-#### Procedure
-
 Step 1
 
 In the
@@ -650,8 +646,6 @@ Click Save .
 
 To configure service
                                  		  levels for specific call types that override the System Information settings:
-
-#### Procedure
 
 Step 1
 
@@ -697,8 +691,6 @@ Click Save .
 Service level
                                  		  settings for media routing domains (MRDs), peripherals, and skill groups are
                                  		  hierarchical and are interpreted as follows:
-
-#### Procedure
 
 MRD - The
                                     			 highest level. It is set in Configuration
@@ -754,8 +746,6 @@ This example
 To configure the
                                  		  service level settings for the MRD:
 
-#### Procedure
-
 Step 1
 
 In the
@@ -796,8 +786,6 @@ Click Save .
 
 To configure service
                                  		  level settings for a peripheral:
-
-#### Procedure
 
 Step 1
 
@@ -849,8 +837,6 @@ Click Save .
 
 To configure service
                                  		  level settings for a skill group:
-
-#### Procedure
 
 Step 1
 
@@ -908,8 +894,6 @@ Click Save .
 To configure
                                  		  service levels for precision queues:
 
-#### Procedure
-
 Step 1
 
 Use the
@@ -930,8 +914,6 @@ Click Save .
 
 To configure service
                                  		  level settings for an Aspect Call Center PG:
-
-#### Procedure
 
 Step 1
 
@@ -961,12 +943,6 @@ For all
 For Aspect Call
                                              				Center, choose the type of calculation to be performed by default. You can
                                              				override the default for each individual service.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | If the destination
                                           		is itself a service, for example Chicago.Sales ,

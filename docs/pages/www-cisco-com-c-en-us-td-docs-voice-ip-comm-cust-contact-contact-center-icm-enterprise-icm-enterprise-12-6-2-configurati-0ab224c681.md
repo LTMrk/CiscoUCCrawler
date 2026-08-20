@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-0ab224c681
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/rcct_m_1261es2_security-considerations-for-mobile-agent-deployments.html
-retrieved_at: 2026-08-16T14:40:29.694373+00:00
+retrieved_at: 2026-08-20T18:34:13.868503+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -20,8 +20,6 @@ Chapter: Security Considerations for Reverse Proxy Deployment
 
 To allow VPN-less access, reverse-proxy hosts are deployed in the DMZ and they are directly accessible from the internet. Therefore, security is crucial in a reverse-proxy deployment. This section provides a set of guidelines to secure a reverse-proxy
                               deployment.
-
-Note
 
 The guidelines and recommendations provided are intended to be used as a minimum required guidance for administrators to secure
                                           the deployment. The deployment, configuration, and security of reverse-proxy and the network is the Contact Center’s responsibility.
@@ -64,8 +62,6 @@ It is a best practice to maintain security hardened golden images of the reverse
                                        changes. Installing from these golden images ensure that all the reverse-proxy instances are consistent and are as secure
                                        as possible.
 
-Note
-
 For OpenResty Nginx-based reverse-proxy rules, installation, configuration, and security hardening instructions, see the Reverse-Proxy Configuration chapter in Cisco Unified Contact Center Express Administration and Operations Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-maintenance-guides-list.html . You can use any reverse-proxy meeting the required criteria (mentioned in the Reverse-Proxy Selection Criteria section of Cisco Unified Contact Center Express Administration and Operations Guide ) instead of OpenResty Nginx for this feature.
 
 ### Demilitarized Zone Security
@@ -91,8 +87,6 @@ Unified CCX and Customer Collaboration Platform rely on host-level firewall rule
                                  to it. Therefore, packet rate limits and reverse-proxy-based rate-limiting rules should be enforced to ensure that the traffic
                                  routed to the hosts through the reverse-proxy are regulated for each individual IP. This ensures higher availability of the
                                  reverse-proxy and the hosts.
-
-Note
 
 Consider imposing general network packet rate limits on ISP routers that connect your network to the DMZ. Implementing rate
                                              limits on the perimeter router is not effective against DoS attacks that are aimed at saturating the ISP links.
@@ -140,12 +134,6 @@ Brute Force Attack Prevention
 Mutual TLS Verification
 
 SELinux Rules
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | The guidelines and recommendations provided are intended to be used as a minimum required guidance for administrators to secure
                                           the deployment. The deployment, configuration, and security of reverse-proxy and the network is the Contact Center’s responsibility. |

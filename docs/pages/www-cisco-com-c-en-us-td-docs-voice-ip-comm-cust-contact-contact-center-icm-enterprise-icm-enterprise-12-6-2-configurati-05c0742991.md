@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-05c0742991
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_remote-administration_12_6_1.html
-retrieved_at: 2026-08-16T14:40:25.890828+00:00
+retrieved_at: 2026-08-20T18:34:56.874070+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -21,8 +21,6 @@ Chapter: Remote Administration
 
 Remote Desktop permits users to remotely run applications on Windows Server from a range of devices over virtually any network
                               connection. You can run Remote Desktop in either Application Server or Remote Administration modes. Unified ICM / Unified CCE only supports Remote Administration mode.
-
-Note
 
 - Use of any remote
                                              				administration applications can cause adverse effects during load.
@@ -45,12 +43,8 @@ Run
 Run Script
                                     				Editor
 
-Note
-
 Remote Desktop
                                                 				  is not supported for software installation or upgrade.
-
-Note
 
 Administration
                                           			 Clients and Administration Workstations can support remote desktop access. But,
@@ -79,8 +73,6 @@ Remote Desktop
 
 Use the following
                                  		  procedure to set up per-user terminal services settings for each user.
-
-#### Procedure
 
 Step 1
 
@@ -135,13 +127,9 @@ Logging events
 For more information
                            		about pcAnywhere, see the Symantec web site .
 
-Note
-
 This discussion
                                        		  applies to all approved versions of pcAnywhere. Refer to the Compatibility
                                        		  Matrix for the versions qualified and approved for your release of ICM.
-
-Note
 
 Administration
                                        		  Clients and Administration Workstations can support remote desktop access. But,
@@ -418,12 +406,6 @@ SSH Server allows
                               		  the use of VNC through an encrypted tunnel to create secure remote control
                               		  sessions. However, Cisco does not support this configuration. The performance
                               		  impact of running an SSH server has not been determined.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Use of any remote
                                              				administration applications can cause adverse effects during load. Use of remote administration

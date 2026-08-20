@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-83908adf60
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-network-ivrs-vrus-config.html
-retrieved_at: 2026-08-16T14:38:53.677568+00:00
+retrieved_at: 2026-08-20T18:31:15.899266+00:00
 ---
 
 Configuration Guide for Cisco Unified ICM Enterprise, Release 12.6(2)
@@ -26,8 +26,6 @@ This tool allows a
                                  		  labels, and their associations. The system software can send a customer call to
                                  		  a network VRU.
 
-Note
-
 To begin, select the
                                  		  filters you want and click Retrieve .
 
@@ -44,8 +42,6 @@ This tool allows you to list the network VRU scripts currently defined
 Network VRU scripts are created by VRU engineers for VRUs. This List
                                  		  tool defines these previously created scripts for the system software so it can
                                  		  interact with the scripts.
-
-Note
 
 ### VRU Currency List Tool
 
@@ -99,8 +95,6 @@ Resource
                                           					 label type and a correlation ID. The routing client can automatically take back
                                           					 the call from the VRU when the system software returns a destination label.
 
-Note
-
 Optional:
                                           					 Send to VRU, Queue, and Run VRU Script.
 
@@ -108,8 +102,6 @@ Optional:
 
 Resource
                                           					 label type and either a correlation ID or a DNIS.
-
-Note
 
 Required:
                                           					 Send to VRU. Optional: Queue and Run VRU Script.
@@ -131,8 +123,6 @@ Optional:
 Similar to
                                           					 Type 3, but the system software automatically instructs the VRU to release the
                                           					 call when it sends a destination label to the routing client.
-
-Note
 
 Optional:
                                           					 Send to VRU, Queue, and Run VRU Script.
@@ -260,8 +250,6 @@ Each row identifies a script used by a network VRU to handle a call. A
                                  		  VRU script is managed by the VRU itself. It is not stored in the Unified ICM database or directly managed by the system software. The system
                                  		  software can only direct the VRU to run the script.
 
-Note
-
 Field
 
 Description
@@ -321,8 +309,6 @@ Define each logical VRU in the database before continuing to the following secti
 
 #### Create Network VRU Target
 
-##### Procedure
-
 Step 1
 
 Within the Configuration Manager, select Tools > Explorer
@@ -360,8 +346,6 @@ Click Save to apply your changes.
 You must associate all VRU Types (except Type 6) with a Network VRU
                                     		label.
 
-##### Procedure
-
 Step 1
 
 In the Network VRU Explorer window, click Retrieve and select the Network VRU you want
@@ -382,8 +366,6 @@ Click Save to apply your changes.
 For Network VRUs, you must use the System Information dialog to define a
                                     		range of correlation IDs so the system software can communicate with the VRU
                                     		about the call.
-
-##### Procedure
 
 Step 1
 
@@ -415,10 +397,6 @@ To allow a routing script to control the processing on the VRU, you
                                     		  must configure VRU-based scripts within the system software. A routing script
                                     		  can then direct the VRU to run a specific script.
 
-Note
-
-##### Procedure
-
 Step 1
 
 Within the Configuration Manager, select Tools > Network VRU
@@ -436,8 +414,6 @@ Click Add . The Attributes property tab appears.
 Step 4
 
 Complete the Attributes property tab.
-
-Note
 
 Step 5
 
@@ -461,12 +437,6 @@ You can queue a call
                                     		  to an enterprise skill group, or to one or more scheduled targets. As soon as
                                     		  an agent becomes available at one of the specified targets, the call is removed
                                     		  from the queue and sent to the target.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | The Network VRU
                                           		  Explorer is not available on a limited (single Instance) Administration &

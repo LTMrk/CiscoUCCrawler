@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-070dcbd269
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-configuration-manager-ucce-config.html
-retrieved_at: 2026-08-16T14:38:15.127756+00:00
+retrieved_at: 2026-08-20T18:30:59.806277+00:00
 ---
 
 Configuration Guide for Cisco Unified ICM Enterprise, Release 12.6(2)
@@ -17,8 +17,6 @@ Chapter: Configuration Manager
 # Configuration Manager
 
 ## Access Configuration Manager
-
-### Procedure
 
 Double-click the Unified CCE Administration Tools folder icon,
                                  			 then double-click the Configuration Manager icon.
@@ -112,10 +110,6 @@ Outbound Option
 Adds outbound dialing functionality to the existing inbound
                                           					 capabilities of the system software.
 
-Note
-
-Note
-
 ### Bulk Configuration
                            	 Tools
 
@@ -171,8 +165,6 @@ Services
 Skill groups
 
 VRU port maps
-
-Note
 
 ### Explorer and List
                            	 Tools
@@ -232,8 +224,6 @@ Skill group
 
 Translation route
                                        			 Explorer
-
-Note
 
 Refer to each tool's
                                              		  online help for detailed information.
@@ -324,8 +314,6 @@ VRU defaults list
 
 VRU locale list
 
-Note
-
 Refer to each tool's
                                              		  online help for detailed information.
 
@@ -407,8 +395,6 @@ Description
 A green
                                              					 check mark means the object has not changed since you retrieved it from the
                                              					 database or made a save.
-
-Note
 
 A red X
                                              					 means the object is marked for deletion and will be deleted when you click the Save button.
@@ -528,8 +514,6 @@ Options menu
 In the Explorer
                                        				and List tool windows, right clicking on a retrieved record displays an options
                                        				menu containing all the editing options for that record.
-
-Note
 
 ### Database Records
                            	 Access
@@ -663,8 +647,6 @@ If you
 The system software saves the configuration data and immediately
                                  		  applies your changes to both the local and central Unified ICM database.
 
-Note
-
 - Whenever any data is
                                                 				retrieved by a configuration tool, the tool notes the last change mark on that data
                                                 				at this point in time. If you attempt to change that item, the tool first checks
@@ -755,8 +737,6 @@ Selecting the script nodes available in a feature controls set (see Select Scrip
 The system administrator can create a feature control set using the
                                        		  Configuration Manager on the Unified ICM Administration & Data Server:
 
-###### Procedure
-
 Step 1
 
 Ensure any users to be assigned a feature set are configured.
@@ -791,8 +771,6 @@ Enter a description (optional).
 
 The system administrator can assign users to a feature control set:
 
-###### Procedure
-
 Step 1
 
 Start the Configuration Manager by clicking open Administration Tools > Configuration Manager . . The Configuration Manager dialog opens.
@@ -807,8 +785,6 @@ Step 3
 Select the 
                                                 			 user to whom a feature control set is to be assigned.
 
-Note
-
 Step 4
 
 On the Attribute tab, select the feature set for the selected user.
@@ -821,8 +797,6 @@ Click Save when you are finished assigning feature
 ##### Select Script Nodes for a Feature Control Set
 
 To select script nodes:
-
-###### Procedure
 
 Step 1
 
@@ -854,14 +828,10 @@ Click Save .
 After making changes or additions to your configuration, you must always
                               		check that the configuration is internally consistent and complete.
 
-Note
-
 #### Check Integrity of Configuration Data
 
 To check the integrity of your configuration data, perform the
                                     		  following:
-
-##### Procedure
 
 Step 1
 
@@ -901,8 +871,6 @@ Many database records need references to related records. For example,
 
 To check record references, perform the following:
 
-##### Procedure
-
 Step 1
 
 In the Configuration Manager menu, select Miscellaneous
@@ -926,8 +894,6 @@ At some point, you might want to remove configuration records from your
 
 To delete a record:
 
-##### Procedure
-
 Step 1
 
 Within Configuration Manager, open any one of the tools in which
@@ -947,8 +913,6 @@ Step 4
 
 Click Save to save the deletion to the database. The
                                              			 record is deleted from the database and is removed from the window.
-
-Note
 
 Step 5
 
@@ -1012,8 +976,6 @@ The Configuration Manager lets you view logically deleted records. It
 
 To view deleted records, perform the following:
 
-###### Procedure
-
 Step 1
 
 In Configuration Manager menu, select Tools > Miscellaneous
@@ -1050,8 +1012,6 @@ You can configure call type intervals in relation to your service
 
 #### Associate Bucket
                               	 Intervals with Call Types
-
-##### Procedure
 
 Step 1
 
@@ -1090,8 +1050,6 @@ Access the Configuration Manager on the Child Administration & Data
 
 To  configure call
                                     		  types on the Child Central Controller with  the Configuration Manager Call Type List Tool:
-
-##### Procedure
 
 Step 1
 
@@ -1139,19 +1097,11 @@ Click Save next to the green checkmark, and then Close to exit the Call Type Lis
 You cannot assign agents from different peripherals to the same supervisor's team. However, you can create supervisors on
                               multiple peripherals that use the same Person record.
 
-Note
-
 Use the Select Person drop-down list to create separate supervisors for each peripheral.
 
 To see all their teams, the supervisor uses a different URL to open the Finesse instance for each peripheral. Open each Finesse
                               instance in a different browser window. Each browser shows only the teams from the Finesse instance that is configured for
                               that peripheral.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Tools | Description |
 |---|---|

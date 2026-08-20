@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-f89281a021
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2/ucce_b_port-utilization_12_5_chapter_0100.html
-retrieved_at: 2026-08-16T14:39:06.344907+00:00
+retrieved_at: 2026-08-20T18:33:49.037645+00:00
 ---
 
 Port Utilization Guide for Cisco Unified Contact Center Solutions, Release 12.6(2)
@@ -41,15 +41,11 @@ The remote port is used to make an outgoing connection to the corresponding list
 
 The direction that traffic flows through the port: Inbound, Bidirectional, Outbound.
 
-Note
-
 The operating system dynamically assigns the source port that the local application or service uses to connect to the destination
                                                 port of a remote device. In most cases, this port is assigned randomly from unused ports in the ephemeral port range 1024 - 65535 .
 
 For security reasons, keep open only the ports mentioned in this guide and those required by your application. Keep the rest
                                                 of the ports blocked.
-
-Note
 
 The preceding column descriptions apply to all the tables in this Port Utilization guide.
 

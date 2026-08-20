@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-fe3060d49f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2/ucce_b_port-utilization_12_5_chapter_0111.html
-retrieved_at: 2026-08-16T14:39:35.698555+00:00
+retrieved_at: 2026-08-20T18:34:09.630645+00:00
 ---
 
 Port Utilization Guide for Cisco Unified Contact Center Solutions, Release 12.6(2)
@@ -77,8 +77,6 @@ Random
 Bi-Directional
 
 HTTPS - OAMP
-
-Note
 
 The port 8447 is deprecated and will be removed in future releases. Unified Intelligence Center Online Help will be available
                                           on Port 8444.
@@ -176,8 +174,6 @@ Random
 Bi-Directional
 
 Live Data Web Service and Live Data Socket.IO listening port.
-
-Note
 
 The ports 12005 and 12008 are deprecated and will be removed in future releases. The port 443 will be used for Live Data Web
                                           Service and Live Data Socket.IO Service.

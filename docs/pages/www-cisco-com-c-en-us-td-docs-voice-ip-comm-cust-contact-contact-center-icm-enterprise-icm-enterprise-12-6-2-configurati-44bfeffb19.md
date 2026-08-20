@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-44bfeffb19
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce-m-cce-orchestration-windows-openssh-hardening-126.html
-retrieved_at: 2026-08-16T14:40:42.808762+00:00
+retrieved_at: 2026-08-20T18:34:17.693920+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -37,8 +37,6 @@ Restrict SSH connection
 
 AllowUsers localuser@CloudConnectIP
 
-Note
-
 Enable DNS hostname check
 
 UseDNS yes
@@ -60,10 +58,6 @@ By default, RSA is used as the default cipher while establishing SSH connection 
 
 You can choose Cipher such as ECDSA. Uncomment the ECDSA and comment out RSA.
 
-Note
-
-Note
-
 While you upgrade the ICM or Cisco Unified Customer Voice Portal, the latest version will not retain the custom configuration
                                                    modified on the setting %programdata%\ssh\sshd_config . Back up the file sshd_config before the upgrade, and post upgrade restore the sshd_config file or redo the custom changes on sshd_config after upgrade.
 
@@ -72,8 +66,6 @@ Restart the OpenSSH services after updating sshd_config , and run the command ut
 Common Vulnerability and Exposures (CVE-2023-48795) for OpenSSH
 
 Use the following set of strong ciphers and MACs in the sshd_config file to avoid weak ciphers:
-
-Note
 
 You should use the below format.
 
@@ -111,8 +103,6 @@ Initially, appropriate user-based permissions have been configured for sshd_conf
 In case if the platform Orchestration administrator user is changed by the administrator, then the permissions must be set
                                  to restrict access to OpenSSH sshd_config for the new user. To restrict the access to OpenSSH sshd_config perform the following steps:
 
-#### Procedure
-
 Step 1
 
 Log in to Windows node (CVP or ICM) with new platform Orchestration administrator user.
@@ -145,12 +135,6 @@ Step 8
 
 Run the command utils deployment test-connection in Cloud Connect CLI, from both publisher and subscriber against this particular Windows node. This is to make sure the Cloud
                                           Connect server is able to establish password-less Secure Shell (SSH) connection to Windows nodes (ICM and CVP) for Orchestration.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Settings | Compliance Configuration | Description |
 |---|---|---|

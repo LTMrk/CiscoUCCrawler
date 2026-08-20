@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-3d05bef3fb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_sql-server-hardening.html
-retrieved_at: 2026-08-16T14:40:13.539281+00:00
+retrieved_at: 2026-08-20T18:35:01.082257+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -36,8 +36,6 @@ Always install SQL Server service to run using a least privilege account. Never 
 See the Staging Guide for Cisco Unified ICM/Contact Center Enterprise at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html for more information.
 
 Enable SQL Server Agent Service and set to Automatic for database maintenance in Unified ICM.
-
-Note
 
 Installing the latest updates for SQL Server from Microsoft might require you to disable
                                                    							the SQL Server Agent service. So before performing the cumulative update
@@ -140,8 +138,6 @@ UCCE supports renaming or removal of default built-in MS SQL sa account. If the 
                                  solution components like Finesse, CUIC or any other third-party integrations, the login credentials have to be reconfigured
                                  with the renamed sa account.
 
-Note
-
 Renaming or removing the sa account has no correlation with SQL Server hardening that happens during installation or upgrade.
 
 ## SQL Server Security Considerations
@@ -180,8 +176,6 @@ You can optionally apply the SQL Server
                                  		  running the Windows PowerShell script ICMSQLSecurity.ps1. You can also apply the hardening by directly running the PowerShell
                                  script.
 
-Note
-
 Run the Security Wizard tool or Windows PowerShell script as an administrator.
 
 #### Utility
@@ -201,8 +195,6 @@ At the Windows
 Powershell
                                     			 .\ICMSQLSecurity.ps1 HARDEN
 
-Note
-
 The current SQL
                                              			 Server configuration is backed up to <ICMInstallDrive>:\CiscoUtils\SQLSecurity\icmsqlsecuritybkp.xml before the utility applies the SQL Server hardening.
 
@@ -218,8 +210,6 @@ To roll back to
 
 Powershell
                                     			 .\ICMSQLSecurity.ps1 ROLLBACK
-
-Note
 
 The following
                                              			 settings are required for Unified CCE to function properly. They are not
@@ -247,11 +237,7 @@ All output logs
 
 ### Manual SQL Server Hardening
 
-#### Procedure
-
 Enable both Named Pipes and TCP/IP endpoints during SQL Server setup. Make sure that the Named Pipes endpoint has a higher order of priority than TCP/IP.
-
-Note
 
 The SQL Server Security Hardening utility checks for the availability and order of these endpoints.
 
@@ -293,12 +279,6 @@ CCE supports connecting to an external SQL Server configured with a custom SQL S
 Database Lookup Authentication section in Contact Categorization chapter in Scripting and Media Routing Guide for Cisco Unified ICM/Contact Center Enterprise .
 
 CCEDataProtect Tool chapter in Administration Guide for Cisco Unified Contact Center Enterprise .
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Installing the latest updates for SQL Server from Microsoft might require you to disable
                                                    							the SQL Server Agent service. So before performing the cumulative update

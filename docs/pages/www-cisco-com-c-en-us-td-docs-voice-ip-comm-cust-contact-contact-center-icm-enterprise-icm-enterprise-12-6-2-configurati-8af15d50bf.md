@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-8af15d50bf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2/ucce_b_port-utilization_12_5_chapter_0110.html
-retrieved_at: 2026-08-16T14:39:19.156915+00:00
+retrieved_at: 2026-08-20T18:34:06.032841+00:00
 ---
 
 Port Utilization Guide for Cisco Unified Contact Center Solutions, Release 12.6(2)
@@ -155,8 +155,6 @@ SIP Heartbeat Local Listen Port
 UDP 5067
 
 TCP 5067
-
-Note
 
 SIP endpoints
 
@@ -649,8 +647,6 @@ UDP 1051
 
 UDP Optima VNET
 
-Note
-
 Ephemeral loopback client ports may be opened locally for CVP services to talk to port 1529 for communications with Derby
                                                 database.
 
@@ -663,8 +659,6 @@ The above ports are closed when the services concerned are shut down.
 
 From a security perspective, it is recommended to review the ports opened by the underlying Windows operating system or other
                                           services running on a machine and close all ports except those required for system operation.
-
-Note
 
 For more information on Windows authentication and remote administration ports,
                                           					see Service overview and network port requirements for the Windows Server in
