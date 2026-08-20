@@ -1,57 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
-    "depth": 1
-  },
-  {
-    "url": "https://search.cisco.com/search",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/8x/uc8x/trunks.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212090-Configure-SIP-TLS-between-CUCM-CUBE-CUBE.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212090-Configure-SIP-TLS-between-CUCM-CUBE-CUBE.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212649-troubleshoot-cube-sp-rejects-internal-ca.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212649-troubleshoot-cube-sp-rejects-internal-ca.mobi",
-    "depth": 1
-  },
-  {
-    "url": "http://tools.cisco.com/support/serviceordertool/orderDetails.svo",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCup67940",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCup67940",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/213843-troubleshoot-session-refresh-on-cube.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/213843-troubleshoot-session-refresh-on-cube.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214338-rtp-source-validation-in-ios-and-ios-xe.epub",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214338-rtp-source-validation-in-ios-and-ios-xe.mobi",
     "depth": 1
   },
@@ -16489,6 +16437,14 @@
   },
   {
     "url": "https://tools.cisco.com/bugsearch/bug/CSCwa12894",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/cloud-services-router-1000v-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/series.html",
     "depth": 2
   }
 ]
