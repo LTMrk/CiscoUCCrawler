@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-4d4e00db12
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_010.html
-retrieved_at: 2026-08-16T14:44:05.585209+00:00
+retrieved_at: 2026-08-20T18:11:47.160809+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
@@ -41,8 +41,6 @@ CUIC reporting users can either use
                               				to gain access to reporting, and not the local MD5 password stored in the
                               				configuration database.
 
-Note
-
 Unified CCE cannot read, set, or change user passwords in Active Directory. It is possible and likely that the Supervisor
                                           reporting users may use a password (their AD password) to login to CUIC that is different from their agent password set by
                                           the configuration administrator.
@@ -63,8 +61,6 @@ For more information, see About IPsec and Manage Secured PII in Transit .
 
 ## Internet Script
                         	 Editor
-
-Note
 
 If you use Unified Contact Center Management Portal (Unified CCMP) or Unified Contact Center Domain Manager (Unified CCDM),
                                        you cannot use Transport Layer Security (TLS) v1.0 for Internet Script Editor.
@@ -102,8 +98,6 @@ ECDHE-RSA-AES128-GCM-SHA256
 
 ECDHE-RSA-AES256-GCM-SHA384
 
-Note
-
 This is a mandatory cipher. It's required to support TLS access.
 
 ECDHE-RSA-AES128-SHA256
@@ -111,8 +105,6 @@ ECDHE-RSA-AES128-SHA256
 ECDHE-RSA-AES128-SHA
 
 ECDHE-RSA-AES256-SHA384
-
-Note
 
 This is a mandatory cipher. It's required to support TLS access.
 
@@ -152,12 +144,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Cisco Systems, Inc.\ICM\Cisco SSL
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Cisco Systems, Inc.\ICM\Cisco SSL
                                  		  Configuration\ClientCiphers
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Unified CCE cannot read, set, or change user passwords in Active Directory. It is possible and likely that the Supervisor
                                           reporting users may use a password (their AD password) to login to CUIC that is different from their agent password set by

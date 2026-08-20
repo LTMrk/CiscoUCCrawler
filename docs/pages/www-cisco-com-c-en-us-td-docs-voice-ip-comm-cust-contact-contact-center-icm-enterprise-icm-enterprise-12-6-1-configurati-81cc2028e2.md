@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-81cc2028e2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_01100.html
-retrieved_at: 2026-08-16T14:43:02.582336+00:00
+retrieved_at: 2026-08-20T18:08:50.907731+00:00
 ---
 
 Configuration Guide for Cisco Unified ICM Enterprise-Release 12.6(1)
@@ -42,14 +42,10 @@ user.Cisco.AcctNum
 Using this naming convention prevents naming conflicts with any
                               		  third-party applications that interface with the system software.
 
-Note
-
 ECC variables follow these size rules:
 
 An ECC variable can be either a scalar variable or an array
                                     				element, each with a maximum length of 210 bytes.
-
-Note
 
 Array types are not supported for an agent request.
 
@@ -85,8 +81,6 @@ Specifies the name of the campaign from which the contact is selected.
 
 Specifies the account number for the contact.
 
-Note
-
 You can modify the length of POD.ID within the range of 1-210.
 
 ### ECC Payloads
@@ -96,8 +90,6 @@ You can define as many ECC variables as necessary. But, you can only pass 2000 b
 
 An ECC payload is a defined set of ECC variables with a maximum size of 2000 bytes. You can create ECC payloads to suit the necessary information for a given operation. You can include a specific ECC variable
                                     in multiple ECC payloads. The particular ECC variables in a given ECC payload are called its members .
-
-Note
 
 For ECC payloads to a CTI client, the size limit is 2000 bytes plus an extra 500 bytes for the ECC variable names. Unlike
                                              other interfaces, the CTI message includes ECC variable names.
@@ -130,8 +122,6 @@ The solution includes an ECC payload named "Default" for backward compatibility.
 If your solution only has the Default payload, the solution automatically adds any new ECC variables to the Default payload
                                  until it reaches the 2000-byte limit.
 
-Note
-
 You cannot delete the Default payload. But, you can change its members.
 
 Important
@@ -145,8 +135,6 @@ In a fresh install, the Default payload includes the predefined system ECC varia
 ECC payloads not supported —During the upgrade, a script adds your existing ECC variables to the Default payload.
 
 ECC payloads are supported —The upgrade brings forward the existing definition of your Default payload.
-
-Note
 
 If your solution includes PGs from a previous release that does not support ECC payloads, the Router always sends the Default
                                              payload to those PGs. Those PGs can properly handle the Default payload.
@@ -220,8 +208,6 @@ Pre-route to Gateway PG on Parent in Parent/Child
 
 Always Default payload
 
-Note
-
 If you do not create another ECC payload, the solution uses the Default payload for everything.
 
 ### ECC Variables for Blended Collaboration or Voice MRDs with Collaboration
@@ -259,14 +245,10 @@ For Web Callback and
                            		Before an ECC variable can be used, it must be defined in the Unified ICM ECC
                            		variable database table.
 
-Note
-
 For more
                                        		  information, refer to the Database Schema Handbook for Cisco Unified Contact Center Enterprise .
 
 ### Enable ECC Variables
-
-#### Procedure
 
 Step 1
 
@@ -284,8 +266,6 @@ Step 3
 Click Save to apply your changes.
 
 ### Define ECC Variables
-
-#### Procedure
 
 Step 1
 
@@ -319,8 +299,6 @@ If you change the configuration of any ECC variable with the Expanded Call Varia
 
 Before you can use the new ECC variable, you must add it to an ECC payload.
 
-Note
-
 If your solution only has a Default payload, the solution automatically adds any new ECC variables to the Default payload
                                              until it reaches the 2000-byte limit.
 
@@ -328,15 +306,11 @@ If your solution only has a Default payload, the solution automatically adds any
 
 You can create and modify ECC payloads in the Expanded Call Variable Payload List tool.
 
-Note
-
 The tool checks that the ECC payload does not exceed the 2000-byte limit only when you save your changes. The counters on
                                              the Members tab only show what the current size is with all the selected members. They are only informational and do not enforce the
                                              limit. The limit is enforced when you attempt to save the changes.
 
 To define an ECC payload, you create the ECC payload and then add its members.
-
-#### Procedure
 
 Step 1
 
@@ -416,16 +390,12 @@ Each user variable must:
 
 Have a name that begins with user .
 
-Note
-
 Be associated with an object type, for example, Service. (This
                                     				enables the system software to maintain an instance of that variable for each
                                     				object of that type in the system.)
 
 Be checked as persistent. A persistent variable maintians its value between script invocations. This allows you to set  the
                                     variable in one script and reference later in another script.
-
-Note
 
 Because these variables may be persisted, do not use User Variables to store sensitive information belonging to the customer
                                                 or company. Using these variables to store confidential information could lead to violation of security standards, such as
@@ -434,8 +404,6 @@ Because these variables may be persisted, do not use User Variables to store sen
 A user variable can store a value up to 40 characters long.
 
 ## Define User Variables
-
-### Procedure
 
 Step 1
 
@@ -458,17 +426,9 @@ Step 4
 
 Complete the Attributes property tab.
 
-Note
-
 Step 5
 
 Click Save to apply your changes.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | For a large corporation, you can break <VariableDescription> down to include the Business Unit, Division, or other organizational entities. |
 |---|---|

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-bf328971a3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_port_utilization_12_6_1/ucce_b_port-utilization_12_5_chapter_0100.html
-retrieved_at: 2026-08-16T14:43:19.255976+00:00
+retrieved_at: 2026-08-20T18:11:05.602367+00:00
 ---
 
 Port Utilization Guide for Cisco Unified Contact Center Solutions, Release 12.6(1)
@@ -41,15 +41,11 @@ The remote port is used to make an outgoing connection to the corresponding list
 
 The direction that traffic flows through the port: Inbound, Bidirectional, Outbound.
 
-Note
-
 The operating system dynamically assigns the source port that the local application or service uses to connect to the destination
                                                 port of a remote device. In most cases, this port is assigned randomly from unused ports in the ephemeral port range 1024 - 65535 .
 
 For security reasons, keep open only the ports mentioned in this guide and those required by your application. Keep the rest
                                                 of the ports blocked.
-
-Note
 
 The preceding column descriptions apply to all the tables in this Port Utilization guide.
 
@@ -444,12 +440,6 @@ The following considerations apply to the Simple Object Access Protocol (SOAP) p
 SOAP monitor uses specific ports to send the corresponding SOAP API requests.
 
 Access to the ports are always authenticated with the Username and Password authentication.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | The operating system dynamically assigns the source port that the local application or service uses to connect to the destination
                                                 port of a remote device. In most cases, this port is assigned randomly from unused ports in the ephemeral port range 1024 - 65535 . For security reasons, keep open only the ports mentioned in this guide and those required by your application. Keep the rest

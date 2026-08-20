@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-f79d8830a7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_01011.html
-retrieved_at: 2026-08-16T14:44:43.804070+00:00
+retrieved_at: 2026-08-20T18:12:12.311572+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
@@ -21,8 +21,6 @@ Chapter: Remote Administration
 
 Remote Desktop permits users to remotely run applications on Windows Server from a range of devices over virtually any network
                               connection. You can run Remote Desktop in either Application Server or Remote Administration modes. Unified ICM / Unified CCE only supports Remote Administration mode.
-
-Note
 
 - Use of any remote
                                              				administration applications can cause adverse effects during load.
@@ -45,12 +43,8 @@ Run
 Run Script
                                     				Editor
 
-Note
-
 Remote Desktop
                                                 				  is not supported for software installation or upgrade.
-
-Note
 
 Administration
                                           			 Clients and Administration Workstations can support remote desktop access. But,
@@ -79,8 +73,6 @@ Remote Desktop
 
 Use the following
                                  		  procedure to set up per-user terminal services settings for each user.
-
-#### Procedure
 
 Step 1
 
@@ -112,12 +104,6 @@ SSH Server allows
                               		  the use of VNC through an encrypted tunnel to create secure remote control
                               		  sessions. However, Cisco does not support this configuration. The performance
                               		  impact of running an SSH server has not been determined.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Use of any remote
                                              				administration applications can cause adverse effects during load. Use of remote administration

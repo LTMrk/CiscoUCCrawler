@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-b4cd797196
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_011.html
-retrieved_at: 2026-08-16T14:44:09.879806+00:00
+retrieved_at: 2026-08-20T18:12:16.917941+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
@@ -23,8 +23,6 @@ Internet Protocol
                            		security (IPsec) is a framework of open standards for ensuring private, secure
                            		communications over Internet Protocol (IP) networks, by using cryptographic
                            		security services.
-
-Note
 
 You can deploy
                                        		  IPsec in many different ways. This chapter explains what IPsec is and how to
@@ -221,8 +219,6 @@ IP Traffic
 Authentication Method: Active Directory _Kerberos V5 protocol
                                           				  (Default)
 
-Note
-
 X.509 certificates can also be used in a production environment depending on customer preference. With Unified ICM requiring
                                                             Active Directory in all deployment models, relying on Kerberos as the authentication method does not require any extra security
                                                             credential management. For PG to Unified CM connections, use a pre-shared key (PSK).
@@ -244,8 +240,6 @@ Encryption
                                           				  algorithm: 3DES
 
 Diffie-Hellman group: Medium (DH Group 2, 1024-bit key)
-
-Note
 
 For enhanced security, use a Diffie-Hellman key of at least 2048-bit strength to mitigate the threat from LogJam vulnerability
                                                             attacks (CVE - CVE-2015-4000). For more information, see https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4000 . Strong Diffie-Hellman groups combined with longer key lengths increase the computational difficulty of determining a secret
@@ -276,8 +270,6 @@ If your policies do
                                  		  association process. This log is called an Oakley log. The log is difficult to
                                  		  read, but it can help you track down the location of the failure in the
                                  		  process. The following steps enable IPsec logging.
-
-#### Procedure
 
 Step 1
 
@@ -440,12 +432,6 @@ See Microsoft documentation for details on Windows
                                  					Server.
 
 Windows Firewall and IPsec: https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | You can deploy
                                        		  IPsec in many different ways. This chapter explains what IPsec is and how to

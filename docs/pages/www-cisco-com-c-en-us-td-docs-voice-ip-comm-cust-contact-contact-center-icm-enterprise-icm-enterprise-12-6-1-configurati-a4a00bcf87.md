@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-a4a00bcf87
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_01110.html
-retrieved_at: 2026-08-16T14:43:10.554978+00:00
+retrieved_at: 2026-08-20T18:09:08.973402+00:00
 ---
 
 Configuration Guide for Cisco Unified ICM Enterprise-Release 12.6(1)
@@ -72,8 +72,6 @@ Trunk
 Trunk
                                           					 group
 
-Note
-
 In some cases the Unified ICM concept is very close to the corresponding ACD feature. For example, the Unified ICM concept of a service is very similar to the Aspect concept of an application.
                               		  In other cases, the ACD does not have a feature that maps exactly to the Unified ICM feature. In these cases, you might choose a different mapping than shown in the
                               		  above table. For example, although it might make sense to associate each VDN on
@@ -121,12 +119,6 @@ If an ECS is
 
 A contact center
                                     				instrument can be a trunk, a teleset, or a workstation.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Unified ICM term | Peripheral-specific
                                              						equivalent |

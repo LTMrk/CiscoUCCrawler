@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-2a2eeb67bd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/rcct_m_1261es2_security-considerations-for-mobile-agent-deployments.html
-retrieved_at: 2026-08-16T14:44:48.346850+00:00
+retrieved_at: 2026-08-20T18:11:30.535958+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
@@ -20,8 +20,6 @@ Chapter: Security Considerations for Reverse Proxy Deployment
 
 To allow VPN-less access, reverse-proxy hosts must be directly accessible from the internet. Therefore, security is crucial in a reverse-proxy deployment. This section provides a set of guidelines to secure a reverse-proxy
                               deployment.
-
-Note
 
 The guidelines and recommendations provided are intended to be used as a minimum required guidance for administrators to secure
                                           the deployment. The deployment, configuration, and security of reverse-proxy and the network is the Contact Center’s responsibility.
@@ -60,8 +58,6 @@ Regulate the WebSocket connections of Finesse, IdS, and CUIC servers for each do
 It is a best practice to maintain security hardened golden images of the reverse-proxy with updated patches and configuration
                                        changes. Installing from these golden images ensure that all the reverse-proxy instances are consistent and are as secure
                                        as possible.
-
-Note
 
 For Nginx-based reverse-proxy rules, installation, configuration, and security hardening instructions, refer to the Nginx TechNote article . Any reverse-proxy supporting the required criteria (as mentioned in the Reverse-Proxy Selection Criteria section of Cisco Unified Contact Center Enterprise Features Guide, Release 12.6(1) ) can be used in place of Nginx for supporting this feature.
 
@@ -120,12 +116,6 @@ Brute Force Attack Prevention
 Mutual TLS Verification
 
 SELinux Rules
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | The guidelines and recommendations provided are intended to be used as a minimum required guidance for administrators to secure
                                           the deployment. The deployment, configuration, and security of reverse-proxy and the network is the Contact Center’s responsibility. |

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-09e022410b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_0101.html
-retrieved_at: 2026-08-16T14:42:32.288317+00:00
+retrieved_at: 2026-08-20T18:08:22.035463+00:00
 ---
 
 Configuration Guide for Cisco Unified ICM Enterprise-Release 12.6(1)
@@ -17,8 +17,6 @@ Chapter: Multiple Record Configuration
 # Multiple Record Configuration
 
 ## Access Bulk Configuration Tools
-
-### Procedure
 
 Step 1
 
@@ -44,8 +42,6 @@ In the next menu selection list, select the type of table
 Start by selecting the Bulk Configuration Insert or Edit menu. Then select the database table you
                               		  want to modify.
 
-Note
-
 If you have any questions, refer to the online help. The help contains
                                           		  table record and field definitions and procedures for all that you can do with
                                           		  the Bulk Configuration tool.
@@ -64,8 +60,6 @@ Same Options
 
 Both windows have the same options except for Insert (Insert
                                     				window) and Retrieve (Edit window).
-
-Note
 
 The reason for having both an Insert and an Edit window is to
                                                 				prevent confusion when editing records since some configuration objects can
@@ -139,8 +133,6 @@ The Bulk Configuration
                            		supplements the Configuration Manager Explorer and List tools, which allow you
                            		to insert and update single records.
 
-Note
-
 ## Bulk Configuration
                         	 Features
 
@@ -190,8 +182,6 @@ Use the Select filter data box in the
 
 To retrieve and edit existing records, follow these steps:
 
-##### Procedure
-
 Step 1
 
 Within the Bulk Configuration > Edit menu, select the name of the database
@@ -239,8 +229,6 @@ To sort records by multiple columns, see the following procedure.
 
 #### Sort Records by Multiple Columns
 
-##### Procedure
-
 Step 1
 
 In the Insert or Edit window, click Sort . The Sort dialog displays.
@@ -271,16 +259,12 @@ After you have retrieved a set of records, you can use the Find area
 
 To find data in a list of records, follow these steps:
 
-##### Procedure
-
 Step 1
 
 In 
                                              			 the Find box of the 
                                              			 Edit or Insert window, select the database column in which you want to
                                              			 search for data.
-
-Note
 
 Step 2
 
@@ -322,8 +306,6 @@ Press Ctrl, then click on each field you wish to select. This
 
 ### Edit Range of Data
 
-#### Procedure
-
 Apply a single value to a range of edit-control fields
 
 Apply a single value to a range of selection-box fields
@@ -336,8 +318,6 @@ An edit-control field is one you can edit that does not contain a
                                     		  selection box.
 
 To apply a single value to a range of edit-control fields:
-
-##### Procedure
 
 Step 1
 
@@ -357,8 +337,6 @@ Click Enter or Tab . This applies the change to all the
 #### Apply a Single Value to a Range of Selection-Box Fields
 
 To apply a single value to a range of selection-box fields:
-
-##### Procedure
 
 Step 1
 
@@ -392,13 +370,9 @@ Click Enter or Tab (or any other field). This applies the
 
 To apply a range of values to a range of fields in a column:
 
-##### Procedure
-
 Step 1
 
 Select the range of fields in a database column. This enables the Edit Range button.
-
-Note
 
 Step 2
 
@@ -414,8 +388,6 @@ In the Prefix and Suffix fields, you can optionally enter
                                              			 substrings to appear before or after each value. The Edit Range
                                              			 dialog lists the generated values.
 
-Note
-
 Step 5
 
 Click OK . This applies the changes to the fields you
@@ -427,8 +399,6 @@ In Release 11.5, the SSO feature added a requirement that supervisor usernames u
                                  solutions also had to follow this requirement. Supervisors could no longer sign in with an unqualified username.
 
 With the addition of the Default domain name option on the System Information dialog, non-SSO solutions can revert to using unqualified usernames for supervisor sign-ins. To do so, you assign a Default domain name and use the Bulk Configuration tool to remove the domain name that is in LoginName on the Person table.
-
-#### Procedure
 
 Step 1
 
@@ -483,8 +453,6 @@ Step 4
 
 Verify that the query retrieved the correct records and save the file.
 
-Note
-
 The column values must be Tab-delimited.
 
 Step 5
@@ -518,8 +486,6 @@ You can also edit the data you insert when you insert it.
 
 To insert a new record:
 
-##### Procedure
-
 Step 1
 
 In the Bulk
@@ -542,8 +508,6 @@ If you want to edit individual fields in the new rows, type
 
 If you want to edit a column in multiple rows so that a range
                                                    				  of values is entered, continue to Step 4.
-
-Note
 
 For other ways of entering data into multiple rows, see Edit Range of Data
 
@@ -570,16 +534,12 @@ Step 8
 When you have finished setting fields in the new rows, press Enter to apply your changes to the 
                                              			 Unified CCE database.
 
-Note
-
 #### Import Data
 
 You can import data from a specified text file into the opened database
                                     		table. You can import whole records or only columns of data if the data
                                     		matches (see Step 3 of the following procedure). The process cancels if any error occurs during the
                                     		import process.
-
-##### Procedure
 
 Step 1
 
@@ -654,8 +614,6 @@ If any field in the import record is null, the
                                                             						  corresponding field value in the grid window becomes blank for an edit cell or
                                                             						  uses the default value for a drop-down list cell.
 
-Note
-
 Step 4
 
 If the imported data does not contain headers, in the Available
@@ -719,8 +677,6 @@ String values may include spaces.
 An error occurs on import if a line contains too few or too
                                              					 many values.
 
-Note
-
 ### Export Function
 
 The export function saves the selected records or fields to a
@@ -731,19 +687,13 @@ The export function saves the selected records or fields to a
 
 To export data, follow these steps:
 
-#### Procedure
-
 Step 1
 
 Select the rows with fields you want to export.
 
-Note
-
 If you intend to import this data into the Edit window, you
                                                          				must export a primary key field along with any other fields. The primary key
                                                          				field has the same column name as the database table name.
-
-Note
 
 All rows selected (including records marked for deletion) are
                                                          				exported.
@@ -786,13 +736,9 @@ You can delete one or more records at a time and you can undelete
 
 To delete records, follow these steps:
 
-##### Procedure
-
 Step 1
 
 Select the rows to be deleted.
-
-Note
 
 Step 2
 
@@ -804,13 +750,9 @@ Step 3
 Click Save . The rows marked for deletion are deleted
                                              			 from the database.
 
-Note
-
 #### Undelete a Record
 
 To undelete a record:
-
-##### Procedure
 
 Step 1
 
@@ -824,12 +766,6 @@ Click Undelete . The deletion mark is removed from
 Step 3
 
 Click Save . The change is saved to the database.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Step 1 | Double-click Configuration Manager in the Administration
                                        			 Data Server group or the Administration Client group. |

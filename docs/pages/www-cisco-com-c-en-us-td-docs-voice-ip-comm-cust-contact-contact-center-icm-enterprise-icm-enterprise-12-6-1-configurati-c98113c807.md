@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-c98113c807
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_011.html
-retrieved_at: 2026-08-16T14:42:24.082306+00:00
+retrieved_at: 2026-08-20T18:08:37.509463+00:00
 ---
 
 Configuration Guide for Cisco Unified ICM Enterprise-Release 12.6(1)
@@ -73,15 +73,11 @@ Use the Features tool to view and configure features like Single Sign-on.
 To access Unified CCE administration remotely using Internet Explorer 11 , you must add the configuration
                               				sever address to the list of trusted sites.
 
-Note
-
 Administration
                                           			 clients and administration workstations can support remote desktop access. But,
                                           			 only one user can access a client or workstation at a time. Unified CCE does
                                           			 not support simultaneous access by several users on the same client or
                                           			 workstation.
-
-### Procedure
 
 Step 1
 
@@ -256,8 +252,6 @@ You can use the Cisco SSM On-Prem in either Connected or Disconnected mode, depe
 
 Configure Transport URL for Cisco SSM On-Prem with Smart Call-Home URL: https://<OnpremCSSM>/Transportgateway/services/DeviceRequestHandler
 
-Note
-
 The <OnpremCSSM> value must match with the SSM Tomcat Certificate Common Name or Subject Alternative Name. In the above URL,
                                              replace <OnpremCSSM> with FQDN or IP, based on the SSM Tomcat Certificate.
 
@@ -272,8 +266,6 @@ For more information on Cisco SSM On-Prem , see https://www.cisco.com/c/en/us/bu
 Perform these steps to get the correct URL for the customer's environment:
 
 Log in to the On-Prem CSSM GUI with your virtual account.
-
-Note
 
 The URL for the interface is https://<hostname_or_fqdn_of_CSSM>:8443
 
@@ -338,8 +330,6 @@ You can register Unified CCE with Cisco SSM or Cisco SSM On-Prem .
 
 For more information, see Register with Cisco Smart Software Manager .
 
-Note
-
 After performing the above steps, wait for 10-15 minutes for the correct status to get reflected in the UI. There is no need
                                        to restart the services.
 
@@ -347,11 +337,7 @@ After performing the above steps, wait for 10-15 minutes for the correct status 
 
 Obtain the product instance registration token from Cisco SSM or Cisco SSM On-Prem to register the product instance. Generate the registration token with or without enabling the Export-Controlled functionality.
 
-Note
-
 The Allow export-controlled functionality on the products that are registered with this token check box does not appear for Smart Accounts that are not permitted to use the Export-Controlled functionality.
-
-#### Procedure
 
 Step 1
 
@@ -364,8 +350,6 @@ Navigate to the virtual account with which you want to associate the product ins
 Step 3
 
 Generate the Product Instance Registration Token.
-
-Note
 
 Select the Allow export-controlled functionality on the products registered with this token check box to turn on the Export-Controlled functionality for a product instance you want in this smart account. When you
                                                                select this check box and accept the terms, you enable higher levels of encryption for products that are registered with this
@@ -380,8 +364,6 @@ Copy the generated token. This token is required when registering Smart Licensin
 ### Configure Transport Settings for Smart Licensing
 
 Configure the connection mode between Unified CCE and Cisco SSM .
-
-#### Procedure
 
 Step 1
 
@@ -400,8 +382,6 @@ Direct — Unified CCE connects directly to Cisco SSM on cisco.com. This is the 
 Transport Gateway — Unified CCE connects to Cisco SSM On-Prem for smart licensing. Enter the Cisco SSM On-Prem URL.
 
 HTTP/HTTPS Proxy — Unified CCE connects to a proxy server, which connects to Cisco SSM . Enter the Fully Qualified Domain Name (FQDN) of the proxy server along with the port.
-
-Note
 
 Step 4
 
@@ -422,16 +402,10 @@ Production —Production mode is when the licenses are used on live systems to h
 Non-Production —Non-production mode is used for labs, testing and/or staging areas, and not for live systems handling actual end-consumer
                                        traffic.
 
-Note
-
 If you select the incorrect license type, the product instance is placed in the Out-of-Compliance state. If this issue is
                                              unresolved, the product instance is placed in the Enforcement state where the system operations are impacted.
 
-Note
-
 If you select the Deployment Type as ICM Rogger/Logger , the system automatically updates to Perpetual even when the License Type is configured as Flex .
-
-#### Procedure
 
 Step 1
 
@@ -506,16 +480,10 @@ The product instance has 90 days of evaluation period, within which, the registr
 
 Register your product instance with Cisco SSM or Cisco SSM On-Prem to exit the Evaluation or Enforcement state.
 
-Note
-
 After you register the product instance, you cannot change the license type. To change the license type, deregister the product
                                              instance.
 
-Note
-
 You can register your product instance with Cisco SSM or Cisco SSM On-Prem from any ADS server. After the registration, all the AWs show the same registration status.
-
-#### Procedure
 
 Step 1
 
@@ -524,8 +492,6 @@ In Unified CCE Administration , navigate to Overview > Infrastructure Settings >
 Step 2
 
 Click Register .
-
-Note
 
 Before you register the product instance, ensure to select the License Type and the communication mechanism in Transport Settings .
 
@@ -742,8 +708,6 @@ Evaluation expiry : When the license evaluation period of 90 days has expired an
 
 Register the Product Instance with Cisco SSM to exit the Evaluation expiry state.
 
-Note
-
 In the Enforcement state, addition of new agents is blocked in Unified CCE .
 
 ## License States
@@ -757,8 +721,6 @@ Unregistered —Product Instance is unregistered.
 Registered —After you purchase the license, you need to register the Product Instance with Cisco SSM . To register with Cisco SSM , generate a registration token from the Cisco SSM portal. Use the registration token to register your Product Instance.
 
 Registration Expired —Product Instance registration has expired because the ID Certificate issued by Cisco SSM is not renewed for more than 12 months. Reregister the Product Instance.
-
-Note
 
 Use SPOG/CCEAdmin > License Management to manually renew your registration.
 
@@ -783,8 +745,6 @@ The out-of-compliance period is for 90 days, within which you need to purchase t
                                        corrective action within the 90 days period, the Product Instance is transitioned to the Enforcement state.
 
 Authorization Expired —Product Instance authorization has expired. This usually happens when the product has not communicated with Cisco SSM for more than 90 days. It is in an overage period for 90 days before restrictions are enforced.
-
-Note
 
 Use SPOG/CCEAdmin > License Management to manually renew your authorization.
 
@@ -882,8 +842,6 @@ In the example, the Product Instance is back to In-compliance state after two in
                               Instance goes Out-of-Compliance, the count will be 1 of 5. So, you get 45 min (after the first Out-of-Compliance notification
                               from Cisco SSM ) to bring back the consumption within the acceptable range to stay in the In-compliance state.
 
-Note
-
 To know about the agent license that is consumed by the Standard and Premium licenses, see the Cisco Collaboration Flex Plan Contact Center Data Sheet at https://www.cisco.com/c/en/us/products/collateral/unified-communications/cisco-collaboration-flex-plan/datasheet-c78-741220.html
 
 ## New Deployments
@@ -921,8 +879,6 @@ Deregister —Use this option to release all the licenses from the current virtu
 Renew Authorization and Renew Registration are automated tasks that take place at regular intervals. If there is a failure
                               in the automated process, you can manually renew authorization and registration.
 
-Note
-
 You have to Deregister and Reregister manually.
 
 ### Renew Authorization
@@ -931,8 +887,6 @@ The license authorization is renewed automatically every 30 days. The authorizat
                                  is not connected to Cisco SSM or Cisco SSM On-Prem .
 
 Use this procedure to manually renew the License Authorization Status for all the licenses listed in the License Type.
-
-#### Procedure
 
 Step 1
 
@@ -951,8 +905,6 @@ Use this procedure to manually renew your certificates.
 The initial registration is valid for one year. Renewal of registration is automatically done every six months, provided the
                                  product is connected to Cisco SSM or Cisco SSM On-Prem .
 
-#### Procedure
-
 Step 1
 
 In Unified CCE Administration , navigate to Overview > Infrastructure Settings > License Management .
@@ -965,11 +917,7 @@ This process takes a few seconds to renew the authorization and close the window
 
 ### Reregister License
 
-Note
-
 Product can migrate to a different virtual account when reregistering with the token from a new virtual account.
-
-#### Procedure
 
 Step 1
 
@@ -993,17 +941,11 @@ Close the window.
 
 ### Deregister License
 
-Note
-
 If Unified CCE is unable to connect to Cisco SSM or Cisco SSM on-Prem , and the product is deregistered, then a confirmation message notifies you to remove the product manually from Cisco SSM or Cisco SSM on-Prem to free up licenses.
-
-Note
 
 After deregistering, the product reverts to the Evaluation state if the evaluation period is not expired. All the license
                                              entitlements that are used for the product are immediately released to the virtual account and are available for other product
                                              instances to use it.
-
-#### Procedure
 
 Step 1
 
@@ -1025,12 +967,6 @@ Before purchasing your licenses, run the License Consumption report on the exist
                                  to make the right purchase decisions on the license requirement.
 
 Configure Admin email address in Cisco SSM to receive notifications and alerts from Cisco SSM .
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Administration
                                           			 clients and administration workstations can support remote desktop access. But,

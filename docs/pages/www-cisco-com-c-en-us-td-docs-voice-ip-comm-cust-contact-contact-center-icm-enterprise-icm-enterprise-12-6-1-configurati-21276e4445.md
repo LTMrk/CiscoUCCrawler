@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-21276e4445
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_port_utilization_12_6_1/ucce_b_port-utilization_12_5_chapter_011.html
-retrieved_at: 2026-08-16T14:43:37.288639+00:00
+retrieved_at: 2026-08-20T18:11:17.928641+00:00
 ---
 
 Port Utilization Guide for Cisco Unified Contact Center Solutions, Release 12.6(1)
@@ -158,18 +158,10 @@ Bidirectional
 
 Generic ephemeral TCP and UDP ports
 
-Note
-
 SIP signalling is possible over TCP or TLS. For RTP, underlying protocol is UDP always (not configurable). If TLS is used
                                           for SIP signalling, then the same exchanged keys will be used to encrypt and decrypt the RTP packets - for SRTP
 
 To view the system services for port utilization for Cisco Virtualized Voice Browser, see System Services Port Utilization
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Listener (Process or Application Protocol) | Listener Protocol and Port | Remote Device (Process or Application Protocol) | Remote Port | Traffic Direction | Notes |
 |---|---|---|---|---|---|

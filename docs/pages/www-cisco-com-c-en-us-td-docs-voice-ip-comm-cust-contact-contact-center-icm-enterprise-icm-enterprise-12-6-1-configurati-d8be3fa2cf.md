@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-d8be3fa2cf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_0101.html
-retrieved_at: 2026-08-16T14:44:18.532350+00:00
+retrieved_at: 2026-08-20T18:12:04.266140+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
@@ -214,8 +214,6 @@ The Network Isolation policy allows only those computers that have the
                            		cannot access a trusted computer. But, without encryption enabled, a hacker can
                            		still see the traffic coming and going from that computer. Therefore, consider
                            		encrypting that traffic.
-
-Note
 
 - You cannot encrypt traffic
                                           			 to one Trusted Device alone. Encrypt traffic on either all Trusted Devices or
@@ -524,8 +522,6 @@ You can run the
                               		  Network Isolation Utility either from the command line or from the Unified
                               		  Contact Center Security Wizard.
 
-Note
-
 To run the utility
                               		  from the command line, go to the C:\CiscoUtils\NetworkIsolation directory,
                               		  where the utility is located, and run it from there:
@@ -538,8 +534,6 @@ The following is the
 ```
 cscript ICMNetworkIsolation.vbe <arguments>
 ```
-
-Note
 
 You can add Boundary
                               		  Devices with multiple filters. You can filter them by:
@@ -599,8 +593,6 @@ cscript
                                           					 ICMNetworkIsolation.vbe /enablePolicy <36+ characters PreSharedKey in double
                                           					 quotes> [/encrypt]
 
-Note
-
 The only
                                                       						nonsupported character for use in the PresharedKey is double quotes because
                                                       						that character marks the beginning and end of the key. You can enter any other
@@ -621,8 +613,6 @@ Creates a
                                           					 new policy in Windows IPsec policy store and adds all Boundary Devices listed
                                           					 in the XML file. If the XML file does not exist, then it creates a new XML
                                           					 file. The /encrypt option overrides the value set in the XML file.
-
-Note
 
 ADD BOUNDARY
 
@@ -871,8 +861,6 @@ Deletes
 Use the following steps to
                               		troubleshoot the Network Isolation IPsec policy:
 
-### Procedure
-
 Step 1
 
 Disable the
@@ -908,12 +896,6 @@ Step 6
 
 Check for any listed
                                        			 caveats.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | You cannot encrypt traffic
                                           			 to one Trusted Device alone. Encrypt traffic on either all Trusted Devices or

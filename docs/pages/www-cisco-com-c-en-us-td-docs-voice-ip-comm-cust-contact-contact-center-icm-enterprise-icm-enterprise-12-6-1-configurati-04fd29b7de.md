@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-04fd29b7de
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_01100.html
-retrieved_at: 2026-08-16T14:44:52.463734+00:00
+retrieved_at: 2026-08-20T18:12:25.510304+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
@@ -51,8 +51,6 @@ AccountLockoutResetCountDuration: The default is 15. Number of minutes before th
                                        account doesn’t get locked out, but you have unsuccessful login attempts less than the value mentioned in AccountLockoutThreshold.
 
 AccountLockoutThreshold: The default is 3. This is the number of unsuccessful login attempts after which the account is locked out.
-
-Note
 
 These settings are applicable only on Desktop solutions other than Cisco Finesse, such as CTI OS with a System Peripheral
                                                    Gateway.
@@ -146,8 +144,6 @@ PatchInfo_ICM_* within <install_drive>\icm\AdminClient\lib\setup.war
 
 For Unified CVP—Patchinfo_CVP_* within <install_drive>\Cisco\CVP
 
-Note
-
 You can delete the files in the backup folders. However, ensure to take a backup of these files if you need to roll back.
 
 ## Java Upgrades
@@ -164,8 +160,6 @@ You can download and install the OpenJDK Java updates from the OpenLogic website
 
 Modify the Windows CCE_JAVA_HOME environment variable to point to the new OpenJDK Java Runtime Environment (JRE) location if it has changed.
 
-Note
-
 AppDynamics machine agent that is packaged with Unified ICM and Unified CVP uses a separate copy of OpenJDK. Any vulnerability
                                        fix for OpenJDK requires an upgrade of the AppDynamics machine agent. This update is delivered through an engineering special
                                        (ES) for Unified ICM and Unified CVP.
@@ -173,8 +167,6 @@ AppDynamics machine agent that is packaged with Unified ICM and Unified CVP uses
 ## Change Java certificate store password
 
 Follow these steps to change the store password:
-
-### Procedure
 
 Step 1
 
@@ -256,11 +248,7 @@ Download link: https://software.cisco.com/download/home/284360381/type/284416107
 
 For detailed information on the results from each step, see the ../UpgradeTomcatResults/UpgradeTomcat.log file.
 
-Note
-
 Stop Unified CCE services on the VM before using the Tomcat Utility.
-
-#### Procedure
 
 Step 1
 
@@ -287,8 +275,6 @@ Step 5
 
 Repeat these steps for all unified CCE component VMs.
 
-Note
-
 ## Microsoft Security and Software Updates
 
 Applying security and software update patches automatically from third-party vendors involves risk. Subtle changes in functionality
@@ -297,8 +283,6 @@ Applying security and software update patches automatically from third-party ven
 Assess all security and software update patches released by Microsoft and install those patches deemed appropriate for your
                            environment. Do not automatically enable Microsoft Windows Update. The update schedule can conflict with other Unified ICM / Unified CCE activity. Consider using Microsoft Software Update Service or similar patch management products to selectively apply Critical
                            and Important security and software update patches. Follow the Microsoft guidelines about when and how you apply these updates.
-
-Note
 
 Refer to Cisco Customer Contact Software Policy for Third-Party Software/Security Updates at https://www.cisco.com/c/en/us/products/contact-center/unified-contact-center-enterprise/bulletin-listing.html
 
@@ -325,8 +309,6 @@ Contact center enterprise solutions use the Global Catalog for Active Directory.
                               Unified CCE Hosts reside must publish the Global Catalog for that domain. This includes all domains with which your solution
                               interacts, for example, Authentication, user lookups, and group lookups.
 
-Note
-
 This does not imply cross-forest operation. Cross-forest operation is not supported.
 
 ### Active Directory Site Topology
@@ -344,8 +326,6 @@ When you install the solution software, the AD Domain in which the VMs are membe
                                  adds several OU objects, containers, users, and groups for the solution. You need delegated control over the Organizational
                                  Unit in AD to install those objects. You can locate the OU anywhere in the domain hierarchy. The AD Administrator determines
                                  how deeply nested the contact center enterprise solution OU hierarchy is created and populated.
-
-Note
 
 All created groups are Domain Local Security Groups, and all user accounts are domain accounts. The Service Logon domain account
                                              is added to the Local Administrators' group of the application servers.
@@ -415,8 +395,6 @@ Windows Management Instrumentation (WMI) is used to manage Windows
 
 To configure the WMI
                                  		  namespace-level security:
-
-#### Procedure
 
 Step 1
 
@@ -620,8 +598,6 @@ Warning
 Configure agents in accordance to the antivirus policies described in this document. Do not run Polling or intrusive scans
                                        during peak hours, but rather schedule these activities for maintenance windows.
 
-Note
-
 Install SNMP services as instructed by these third-party management
                                        		  applications to take full advantage of the management capabilities provided
                                        		  with your servers. Without SNMP, enterprise management applications do not
@@ -771,12 +747,6 @@ https://<server>/setup/api/peripheralGateway/
 https://<server>/setup/api/router/1
 
 https://<server>/setup/api/logger/1
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | These settings are applicable only on Desktop solutions other than Cisco Finesse, such as CTI OS with a System Peripheral
                                                    Gateway. Finesse blocks access to user accounts, if agents or supervisors try to sign in to the desktop five times consecutively with

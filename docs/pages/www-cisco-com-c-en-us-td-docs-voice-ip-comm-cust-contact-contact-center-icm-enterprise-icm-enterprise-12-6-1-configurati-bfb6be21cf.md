@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-bfb6be21cf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_01010.html
-retrieved_at: 2026-08-16T14:42:54.406624+00:00
+retrieved_at: 2026-08-20T18:08:26.838275+00:00
 ---
 
 Configuration Guide for Cisco Unified ICM Enterprise-Release 12.6(1)
@@ -48,8 +48,6 @@ Refer to the Cisco Unified Contact Center Enterprise Installation and Upgrade Gu
                                  		  Administration & Data Server setup.
 
 To install the  application interface:
-
-#### Procedure
 
 Step 1
 
@@ -103,12 +101,8 @@ Verify that the MSSQL server has started. Submit sample calls
                                        				through all routing clients and all call types. Use the Call Tracer tool in the
                                        				Script Editor to test router call handling functionality.
 
-Note
-
 ## Software
                         	 Configuration for Integration
-
-Note
 
 This chapter discusses integrations with Enterprise Chat and
                                                 						Email . You also can also use third-party multichannel applications. For all information about configuring Task Routing for third-party multichannel applications, see the Cisco Unified Contact Center Enterprise Features Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-feature-guides-list.html .
@@ -152,8 +146,6 @@ The following
                               		  each configuration. Refer to a configuration tool's online help if you have any
                               		  questions.
 
-Note
-
 ### Media Routing
                            	 Domains
 
@@ -187,8 +179,6 @@ The media class for
 ### Configure the Media
                            	 Routing Domain
 
-#### Procedure
-
 Step 1
 
 Start the
@@ -216,8 +206,6 @@ Step 3
 After entering
                                           			 the required fields, save the configuration and close the window.
 
-Note
-
 ### Media Routing
                            	 Peripheral Gateway
 
@@ -238,8 +226,6 @@ The MR PG interface provides routing instructions to the integrated
                                  		applications, while the Agent PG configuration is used to report agent state
                                  		and status to the system software.
 
-Note
-
 The system software media routing mechanism leverages and takes
                                  		advantage of the existing Unified ICM Network VRU operational infrastructures. To set up for
                                  		media routing, you must configure a Network VRU in the Unified ICM configuration. This Network VRU configuration has no relationship
@@ -248,8 +234,6 @@ The system software media routing mechanism leverages and takes
 ##### Configure MR PG
 
 To configure the MR PG:
-
-###### Procedure
 
 Step 1
 
@@ -317,8 +301,6 @@ On the Routing Client tab, enter a routing client name (for
 Save the configuration. After you save the configuration, the
                                                          					 system assigns a Logical Controller ID and a Physical Controller ID.
 
-Note
-
 Step 9
 
 Close the window.
@@ -341,13 +323,9 @@ Handle the new task with a Unified ICM –determined best available agent that h
                                        			 within the enterprise or a label the application uses to determine the best
                                        			 available agent for the task.
 
-Note
-
 #### Set Up MR PG
 
 To set up the MR PG, follow these steps:
-
-##### Procedure
 
 Step 1
 
@@ -365,8 +343,6 @@ Step 3
 Do the following:
 
 Choose Production Mode.
-
-Note
 
 Specify whether the PG is part of a duplexed pair.
 
@@ -405,8 +381,6 @@ To put the PIM into service, check the Enabled option. This allows the PIM to co
 
 Enter the peripheral name in the Peripheral name field. In most cases, you must use the enterprise name from the associated
                                                       Peripheral record.
-
-Note
 
 Enter the Peripheral ID from the Peripheral record.
 
@@ -465,8 +439,6 @@ When agents and skill
 To configure the
                                     		  Unified Communications Manager PG, follow these steps:
 
-##### Procedure
-
 Step 1
 
 Start the
@@ -516,8 +488,6 @@ Do the
 Use the
                                                       					 default name or change the name.
 
-Note
-
 Because Unified CCE uses
                                                       					 post routing, do not un-select the Enable Post Routing checkbox.
 
@@ -544,8 +514,6 @@ Close the
 To install the
                                     		  Unified Communications Manager PG, follow these steps:
 
-##### Procedure
-
 Step 1
 
 Run the PG Setup
@@ -564,8 +532,6 @@ Do the
                                              			 following:
 
 Choose Production Mode .
-
-Note
 
 Specify
                                                       					 whether the PG is part of a duplexed pair.
@@ -609,8 +575,6 @@ Enter the
                                                       					 peripheral name in the Peripheral Name field. In most cases, you must use the
                                                       					 enterprise name from the associated Peripheral record.
 
-Note
-
 Enter the
                                                       					 Peripheral ID from the Peripheral record.
 
@@ -636,8 +600,6 @@ You need to install a
                                  		Media Routing PG). Each PG uses a CTI Server to provide the interface between
                                  		the integrated application and the system software.
 
-Note
-
 - It is important that when you
                                                 			 install a CTI Server, you pick the Custom Gateway (CG) that corresponds to the
                                                 			 Agent PG that you just installed. For example, if you just installed a MR PG as
@@ -650,8 +612,6 @@ Note
 #### Install a CTI Server
 
 To install a CTI Server, follow these steps:
-
-##### Procedure
 
 Step 1
 
@@ -671,8 +631,6 @@ Do the following:
 
 Choose Production Mode .
 
-Note
-
 Specify whether the CTI Server is part of a duplexed pair.
 
 In the ID field, specify the number of the CTI Server node
@@ -680,8 +638,6 @@ In the ID field, specify the number of the CTI Server node
 
 In the ICM System ID field, enter the DMP device number of the
                                                       					 Agent PG that you want associated with the CTI Server.
-
-Note
 
 If the CTI Server is duplex, specify whether you are installing Side A or Side B. If the CTI Server is simplex, select Side A .
 
@@ -692,8 +648,6 @@ The CTI Server Component Properties window displays.
 Enter the appropriate Connection Port Number. For more information about setting up CTI Server Component Properties, see Cisco Unified Contact Center Enterprise Installation and Upgrade Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html .
 
 Check the Enable Secure-Only Mode check box to enable secure connection. When you check the Enable Secure-Only Mode check box, the Non-Secured Connection Port field is disabled.
-
-Note
 
 Before you enable secured connection between the components, ensure to complete the security certificate management process.
 
@@ -715,14 +669,10 @@ You can create persons (records that contain personal information about an
                                  		  agent) and agents (person who handles customer contact) in the system
                                  		  software. Creating them in Unified ICMs does not make them immediately available to Unified ICM ; the application must enable the agent.
 
-Note
-
 Configuring an agent for multi-media means assigning that agent to at
                                  		  least two skill groups (one for each media). For example, the agent might
                                  		  handle both email and phones, chat and phones, or blended collaboration and
                                  		  email.
-
-Note
 
 If you want to configure phone agents in the system software, you must
                                  		  first create Person records for them in the Configuration Manager's Person List
@@ -736,8 +686,6 @@ The purpose of the Person record is so that, in a multi-channel
                                  		  contact center, one person can be assigned as an agent on different peripherals
                                  		  since the system software defines an agent as belonging to only one peripheral.
 
-Note
-
 The second step in creating an agent in the system software is to use
                                  		  the Configuration Manager's Agent Explorer tool to create the agent. When you
                                  		  do so, the agent is associated with a person.
@@ -750,8 +698,6 @@ Add VRU PG
 Add VRU PIM
 
 #### Add VRU PG
-
-##### Procedure
 
 Step 1
 
@@ -793,8 +739,6 @@ Caution
 Before you enable secured connection between the components, ensure to complete the security certificate management process.
 
 For more information, see the Security Guide for Cisco Unified ICM/Contact Center Enterprise at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html .
-
-##### Procedure
 
 Step 1
 
@@ -872,8 +816,6 @@ Important
 To configure the
                                     		  application instance, follow these steps:
 
-##### Procedure
-
 Step 1
 
 Start the
@@ -900,8 +842,6 @@ Application
 Application
                                                       					 type. Available option is <Other> .
 
-Note
-
 Select <Other> when using Enterprise Chat and
                                                                         						Email .
 
@@ -912,8 +852,6 @@ Step 3
 
 After entering
                                              			 the required fields, save the configuration and close the window.
-
-Note
 
 ### Application Connections
 
@@ -930,13 +868,9 @@ Within the Application tab, the Application Connections table lists
                                  		  the current application connections, where you can add, edit, and delete
                                  		  application connections.
 
-Note
-
 #### Configure CMS Server Connections
 
 To configure CMS Server connections, follow these steps:
-
-##### Procedure
 
 Step 1
 
@@ -976,8 +910,6 @@ Step 5
 Click OK twice. This restarts the Cms_Jserver on the
                                              			 Administration & Data Server or Administration Client.
 
-Note
-
 The CmsJServer process is about to be cycled. Click OK to
                                                                				proceed or Cancel to quit.
 
@@ -985,15 +917,11 @@ Step 6
 
 Click OK to proceed.
 
-Note
-
 ### Additional Configuration Setups
 
 After configuring the system software, you need to perform the following configurations in the Enterprise Chat and Email application:
 
 After you configure the system software and Enterprise Chat and Email , more configuration must occur on the Cisco Media Blender server.
-
-Note
 
 Unified ICM and ACD queues:
 
@@ -1080,8 +1008,6 @@ If your Central
                                  	 side of the Central Controller. This allows each side to communicate with a
                                  	 local copy of the external application.
 
-Note
-
 A - side A of the NAM prefers this connection
 
 B - side B of the NAM prefers this connection
@@ -1093,8 +1019,6 @@ R - both sides of the NAM prefer this connection
 #### Configure an  Application Gateway
 
 To configure an application gateway, follow these steps:
-
-##### Procedure
 
 Step 1
 
@@ -1114,8 +1038,6 @@ Step 4
 
 Complete the Attributes property tab.
 
-Note
-
 Select TLS in the Encryption field to secure the application gateway connection.
 
 For additional information, see the online help.
@@ -1132,8 +1054,6 @@ Next, configure the connection information for the application
 To configure an application gateway connection and set the default
                                     		  connection parameters, follow these steps:
 
-##### Procedure
-
 Step 1
 
 Within the Application Gateway List window, click Retrieve and select the desired Application
@@ -1142,8 +1062,6 @@ Within the Application Gateway List window, click Retrieve and select the desire
 Step 2
 
 Complete the Connection property tabs.
-
-Note
 
 Step 3
 
@@ -1211,8 +1129,6 @@ The Queue to Agent node enables an agent to receive and operate on
                                  		  depends on what task that agent is currently handling. For this level of
                                  		  control, the system software must have exclusive access to task assignment.
 
-Note
-
 The CallRouter can move tasks out of the present script
                                  		  execution and resubmit them into the system as a new invocation.
 
@@ -1272,14 +1188,10 @@ In this case, where it
                                  		is obvious who the agent is, the node property sheet displays a choice of
                                  		routes for the peripheral that the agent is assigned to.
 
-Note
-
 #### Select Multiple Skill Groups and Routes by Agent
 
 To select multiple skill groups and routes for different media by
                                     		  agent, follow these steps:
-
-##### Procedure
 
 Step 1
 
@@ -1342,8 +1254,6 @@ Since the agent and
 
 To select multiple skill groups and routes for different media by
                                     		  agent expression, follow these steps:
-
-##### Procedure
 
 Step 1
 
@@ -1421,8 +1331,6 @@ Disabling the application object filter allows administrators to
 
 To disable an application object filter, follow these steps:
 
-#### Procedure
-
 Step 1
 
 Click Options > Application Object Filter .
@@ -1446,12 +1354,6 @@ Open tools are not affected by the change in the application
 
 Each time the Configuration Manager opens, the application
                                                    				object filter reverts to its default status – enabled.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Important | Do not install the system software and the integrated
                                        		  applications on the same machine. |

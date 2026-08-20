@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-f325ffc197
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_port_utilization_12_6_1/ucce_b_port-utilization_12_5_chapter_01.html
-retrieved_at: 2026-08-16T14:43:24.773031+00:00
+retrieved_at: 2026-08-20T18:11:01.630595+00:00
 ---
 
 Port Utilization Guide for Cisco Unified Contact Center Solutions, Release 12.6(1)
@@ -24,12 +24,8 @@ Some port definitions use a formula. For example:
 
 In this example, instance 0 uses port 40007, instance 1 uses port 40047, instance 2 uses port 40087, and so on.
 
-Note
-
 In the following table, PG1, PG2, and PG3 are not specific PG numbers or DMP IDs. They are the order in which the PGs get
                                           installed.
-
-Note
 
 This document does not include the Enterprise Chat and Email (ECE) port details. For more information on ECE ports, see the
                                           ECE documentation at: https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/tsd-products-support-series-home.html .
@@ -85,8 +81,6 @@ Router (side A) (MDS)
 Bi-directional
 
 Private network at the central controller site
-
-Note
 
 UDP ports are not used, if QoS is enabled on the router private interface.
 
@@ -176,8 +170,6 @@ Bi-directional
 
 Private network
 
-Note
-
 UDP ports are not used, if QoS is enabled on the ICM PG private interface.
 
 ICM PG2 (side A and B) (MDS)
@@ -206,8 +198,6 @@ Bi-directional
 
 Private network
 
-Note
-
 UDP ports are not used if QoS is enabled on the ICM PG private interface.
 
 ICM PG3 (side A and B) (MDS)
@@ -235,8 +225,6 @@ ICM PG3 (Opposite Side: A or B)
 Bi-directional
 
 Private network
-
-Note
 
 UDP ports are not used if QoS is enabled on the ICM PG private interface.
 
@@ -339,8 +327,6 @@ Router (side B) (MDS)
 Bi-directional
 
 Private network at the central controller site
-
-Note
 
 UDP ports are not used if QoS is enabled on the router private interface.
 
@@ -448,8 +434,6 @@ Public network connecting the PG to the central controller
 
 Router to pre-5.0 PG communication.
 
-Note
-
 UDP ports are not used if QoS is enabled on the ICM PG private interface.
 
 Router (side B) DMP (ccagent)
@@ -475,8 +459,6 @@ Bi-directional
 Public network connecting the PG to the central controller
 
 Router to pre-5.0 PG communication.
-
-Note
 
 UDP ports are not used if QoS is enabled on the ICM PG private interface.
 
@@ -927,8 +909,6 @@ Bi-directional
 
 TDM Process Communications
 
-Note
-
 For more information on peripheral communication, see the "ACD Supplement" user documentation for the specific switch you are using.
 
 Avaya ACD
@@ -954,8 +934,6 @@ UCCE Gateway PIM
 Bi-directional
 
 Port number is configurable
-
-Note
 
 For port utilization information about Network Interface Controllers (NICs), refer to the TCP/IP-based NIC System Management
                                           Guide Supplements and setup parameters of the NIC or SCP connections.
@@ -1059,8 +1037,6 @@ TCP 88
 UDP 88
 
 Bi-directional
-
-Note
 
 For more information on Windows authentication, see Service overview and network port requirements for the Windows in Microsoft
                                           documentation.
@@ -1298,8 +1274,6 @@ These assume the Server Name field in ICE is configured with either a TCP/IP add
 Ports are also required to access all Unified Contact Center Management Portal servers for support reasons (either pcAnywhere
                               or terminal services).
 
-Note
-
 This list does not include standard Windows ports such as DNS and Kerberos.
 
 * MSDTC response ports by default use a dynamically allocated port in the range of 1024 to 5000. You can configure this range
@@ -1391,12 +1365,6 @@ Server Administration Tool
 
 Configurable under \Program Files\Cisco\CRM Connector\MCIS\Config.ini and \Program Files\Cisco\CRM Connector\ Server Administration
                                           Tool\WebComponent\ server.config
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | In the following table, PG1, PG2, and PG3 are not specific PG numbers or DMP IDs. They are the order in which the PGs get
                                           installed. |

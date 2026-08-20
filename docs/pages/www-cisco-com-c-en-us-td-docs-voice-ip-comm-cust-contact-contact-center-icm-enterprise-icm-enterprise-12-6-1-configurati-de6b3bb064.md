@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-de6b3bb064
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_0110.html
-retrieved_at: 2026-08-16T14:42:36.484995+00:00
+retrieved_at: 2026-08-20T18:08:44.550967+00:00
 ---
 
 Configuration Guide for Cisco Unified ICM Enterprise-Release 12.6(1)
@@ -87,8 +87,6 @@ The NIC Explorer generates records that set up a logical interface
 ### View NIC and Routing Clients
 
 To view a NIC and its routing clients, follow these steps:
-
-#### Procedure
 
 Step 1
 
@@ -356,8 +354,6 @@ The congestion
 3 - Use
                                                    					 global user-defined label for call treatment.
 
-Note
-
 To
                                                                						configure a user-defined label, use the Congestion Setting Configuration tool.
 
@@ -399,8 +395,6 @@ When a GK NIC
 
 To modify a NIC and or its routing clients, follow these steps:
 
-##### Procedure
-
 Step 1
 
 Follow the steps for viewing a NIC.
@@ -429,8 +423,6 @@ The modified data in the Unified ICM database is saved and the Changed icon is r
 
 To define a NIC,
                                     		  follow these steps:
-
-##### Procedure
 
 Step 1
 
@@ -470,8 +462,6 @@ Click Save . The newly defined NIC is saved in the database
 
 To define a routing client, follow these steps:
 
-##### Procedure
-
 Step 1
 
 Follow the steps for viewing a NIC. The selected NIC's
@@ -500,8 +490,6 @@ Click Save .
 #### Delete NIC
 
 Follow these steps to delete a NIC:
-
-##### Procedure
 
 Step 1
 
@@ -545,12 +533,8 @@ The Configuration Manager's Dialed Number/Script Selector List tool
 
 ### Manage Dialed Number/Script Selectors
 
-Note
-
 Follow the steps below to view, define, delete, or modify dialed
                                  		  number/script selectors:
-
-#### Procedure
 
 Step 1
 
@@ -562,8 +546,6 @@ From within the Configuration Manager menu, select Tools > List
 Step 2
 
 In the Select filter data area, select the Routing client and Customer associated with the dialed number/script selector.
-
-Note
 
 Once you have saved a Dialed Number record to the Unified ICM database, you cannot update the Routing Client field.
 
@@ -622,8 +604,6 @@ Access the Configuration Manager on the Child Administration &
 
 To configure dialed numbers on the Child Central Controller with  the Configuration Manager Dialed Number/Script Selector
                                     List Tool:
-
-##### Procedure
 
 Step 1
 
@@ -728,8 +708,6 @@ The string value by which the routing client identifies this
                                              				dialed number/script selector. This must be the value the routing client passes
                                              				to the system software for calls to this number. For example: 8005551212.
 
-Note
-
 Wildcard pattern is supported in dialed number configuration.
 
 Only the last two characters of the dialed number can be configured as wildcards. The supported wildcard character is X.
@@ -759,8 +737,6 @@ Default label
 (optional) (selection list) The name of the default label for this
                                              				dialed number/script selector. The label must have been previously defined for
                                              				it to be in the selection list.
-
-Note
 
 Use the Configuration Manager's Label List tool
                                                          				to define labels.
@@ -880,19 +856,11 @@ To assign a label to the dialed number/script selector selected in
                                              				the Dialed Number/Script Selector list box, click Add . Then in the Add Label dialog, select a
                                              				label name and click OK .
 
-Note
-
 Remove
 
 To remove a label from the dialed number/list selector selected in
                                              				the Dialed Number/Script Selector list box, select the label
                                              				name and click Remove .
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Step 1 | From the Configuration Manager menu, select Tools > Explorer
                                                 				  Tools > NIC Explorer . The NIC Explorer window appears. |

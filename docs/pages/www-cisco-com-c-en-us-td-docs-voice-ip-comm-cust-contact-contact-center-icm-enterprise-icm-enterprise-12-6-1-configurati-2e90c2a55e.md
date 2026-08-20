@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-2e90c2a55e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_01010.html
-retrieved_at: 2026-08-16T14:44:39.747201+00:00
+retrieved_at: 2026-08-20T18:12:08.426215+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
@@ -162,19 +162,9 @@ Omit files with the following file extensions from the drive and on-access scann
 
 *.localrepl
 
-Note
-
 If you are using Outbound High Availability replication, the repl directory, which is at /icm/<cust>/la or lb/repl should be excluded from antivirus scanning.
 
-Note
-
 Exclude the c:\icm folder from all antivirus scans.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Warning | Often, the default AV configuration settings increase CPU load and memory and disk usage, adversely affecting software performance.
                                        Cisco tests specific configurations to maximize product performance. It is critical that you use the following guidelines
