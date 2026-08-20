@@ -1,11 +1,7 @@
 {
-  "run_at": "2026-08-20T13:57:48.758352+00:00",
-  "added": [
-    "Webex Contact Center: GET /search/v2/meta"
-  ],
+  "run_at": "2026-08-20T14:08:20.116731+00:00",
+  "added": [],
   "removed": [],
   "deprecated": [],
-  "specs_cambiados": [
-    "webex-contact-center.json"
-  ]
+  "specs_cambiados": []
 }
