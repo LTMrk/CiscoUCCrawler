@@ -1,49 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/wireless-ip-phone-8821/217219-troubleshoot-cp-8821-wireless-phones.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.cisco.com/docs/wireless-troubleshooting-tools",
-    "depth": 1
-  },
-  {
-    "url": "https://community.cisco.com/t5/wireless-mobility-documents/how-to-use-the-wireless-lan-controller-configuration-analyzer/ta-p/3370004",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm03681",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217062-guidance-for-smooth-upgrade-from-cisco-m.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217062-guidance-for-smooth-upgrade-from-cisco-m.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-release-notes-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217367-configuring-cisco-meeting-server-schedul.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217367-configuring-cisco-meeting-server-schedul.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217658-configure-csr-for-cms-with-openssl-for-e.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217658-configure-csr-for-cms-with-openssl-for-e.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/218117-configure-and-troubleshoot-meetingapps-f.epub",
     "depth": 1
   },
@@ -16181,6 +16137,10 @@
   },
   {
     "url": "https://community.cisco.com/t5/collaboration-knowledge-base/cucm-configuration-overview-for-integrating-with-nice-recording/ta-p/3153787",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/series.html",
     "depth": 2
   }
 ]
