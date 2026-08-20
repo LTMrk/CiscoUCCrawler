@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/10_0_1/secugd/CUCM_BK_C68276B4_00_cucm-security-guide-100/CUCM_BK_C68276B4_00_cucm-security-guide-100_chapter_01010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118893-technote-cucm-00.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118893-technote-cucm-00.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU2/releasenotes/cplm_b_release-notes-cplm-1151su2/cplm_b_release-notes-cplm-1151su2_chapter_01.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200396-Steps-to-Troubleshoot-Database-Replicati.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200396-Steps-to-Troubleshoot-Database-Replicati.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/10_0_1/ipchange/CUCM_BK_C3782AAB_00_change-ipaddress-hostname-100/CUCM_BK_C3782AAB_00_change-ipaddress-hostname-100_chapter_011.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/port/10_0_1/CUCM_BK_T537717B_00_tcp-port-usage-guide-100/CUCM_BK_T537717B_00_tcp-port-usage-guide-100_chapter_01.html",
-    "depth": 1
-  },
-  {
     "url": "https://community.cisco.com/t5/collaboration-knowledge-base/understanding-the-output-of-utils-dbreplication-runtimestate-for/ta-p/3161327",
     "depth": 1
   },
@@ -16249,6 +16209,26 @@
   },
   {
     "url": "https://community.cisco.com/t5/networking-knowledge-base/sd-wan-community-resources/ta-p/4604647",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU2/releasenotes/cplm_b_release-notes-cplm-1151su2.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU2/releasenotes/cplm_b_release-notes-cplm-1151su2/cplm_b_release-notes-cplm-1151su2_chapter_00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU2/releasenotes/cplm_b_release-notes-cplm-1151su2/cplm_b_release-notes-cplm-1151su2_chapter_010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU2/releasenotes/cplm_b_release-notes-cplm-1151su2/cplm_b_release-notes-cplm-1151su2_chapter_011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://mycase2-stage.cloudapps.cisco.com/start",
     "depth": 2
   }
 ]

@@ -41019,6 +41019,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU2/releasenotes/cplm_b_release-notes-cplm-1151su2/cplm_b_release-notes-cplm-1151su2_chapter_01.html": {
+      "content_sha": "0e245192939c0dee6a1098a36db964f0c69cd75ea5d645a13ad36465f86add16",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-5-1-su2-releasenotes-cplm-b-release-notes-cplm-1151su2-cplm-b-re-9ee44c808c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T22:35:48.996415+00:00",
+      "last_changed": "2026-08-20T22:35:48.996415+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T22:35:48.996415+00:00",
+      "next_check": "2026-08-21T22:35:48.996415+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_00.html": {
       "content_sha": "2370c66bd0f10d03c91d6ed08d0a3a5f8920062da76c444101fa174faab9fd86",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-push-notifications-cucm-b-push-notifications-deployment-guide-cucm-b-pu-f97c69eac3",
@@ -79272,5 +79285,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T22:33:26.965063+00:00"
+  "updated_at": "2026-08-20T22:36:14.383333+00:00"
 }
