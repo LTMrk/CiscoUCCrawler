@@ -1372,6 +1372,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration.html": {
+      "content_sha": "f6ba6f379532c2402b1f4dfa7e3867aa5a9ac8de093dd18a343fc32f6ac80af9",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220504-deploy-and-use-of-webex-call-integration-html-6cf88413aa",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T21:10:28.666757+00:00",
+      "last_changed": "2026-08-20T21:10:28.666757+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T21:10:28.666757+00:00",
+      "next_check": "2026-08-21T21:10:28.666757+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222020-troubleshoot-e911-location-with-webex-uc.html": {
       "content_sha": "e388b6c0ff7ba3c0208b6983aee15c71335d4011e5cb1c4ecba7db434049a33f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222020-troubleshoot-e911-location-with-webex-uc-html-a9431514b6",
@@ -1410,6 +1423,19 @@
       "next_check": "2026-08-20T23:50:47.443106+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error.html": {
+      "content_sha": "3af91712f1e70431e312b0b8890e6dd083ed4a09e1159575d74770e8c31bc277",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222952-troubleshoot-webex-scheduling-error-html-cb1a9fad6b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T21:10:03.594304+00:00",
+      "last_changed": "2026-08-20T21:10:03.594304+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T21:10:03.594304+00:00",
+      "next_check": "2026-08-21T21:10:03.594304+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225038-troubleshoot-hybrid-calendar-with.html": {
       "content_sha": "8c7ff7f606519ca9e274936174de2704fc6fb2e786ba486e31c71d8357d466ce",
@@ -78908,5 +78934,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T21:07:35.274342+00:00"
+  "updated_at": "2026-08-20T21:10:28.750330+00:00"
 }
