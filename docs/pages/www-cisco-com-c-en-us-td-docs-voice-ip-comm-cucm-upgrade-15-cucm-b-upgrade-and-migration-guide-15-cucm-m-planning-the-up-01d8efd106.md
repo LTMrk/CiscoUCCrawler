@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-cucm-m-planning-the-up-01d8efd106
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_m_planning-the-upgrade-15.html
-retrieved_at: 2026-08-16T16:01:55.929511+00:00
+retrieved_at: 2026-08-20T16:25:10.541677+00:00
 ---
 
 Upgrade and Migration Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 15 and SUs
@@ -110,10 +110,6 @@ Cisco NFVIS-for-UC is a special edition of NFVIS that introduces a new commercia
 Cisco NFVIS-for-UC supports only select on-premises calling applications.
 
 Cisco NFVIS-for-UC supports only select Cisco Calling Appliances.
-
-Important
-
-Cisco NFVIS-for-UC is not currently orderable, nor is it supported by TAC. Availability will be announced shortly.
 
 For more information, see the Cisco Virtualization Guide for Cisco On-premises Calling Applications , as well as the Installation Guide for Cisco Unified Communications Manager and the IM and Presence Service for details on virtualization requirements for hypervisors supported prior to migration.
 
@@ -1473,14 +1469,13 @@ Cisco Collaboration Sizing Tool at http://tools.cisco.com/cucst .
 | Direct migration | A direct migration involves a 'repave' where multiple factors exist that can't address with just a direct upgrade. Direct
                                           Migration is used in the following cases: Site moves Move or change the Hypervisor. Starting with Release 15SU4, the following two hypervisors are supported: Nutanix AHV and Cisco
                                                 NFVIS-for-UC. Cisco NFVIS-for-UC is a special edition of NFVIS that introduces a new commercial offer with a separate product ID, distinct
-                                                pricing, new licensing, and a slightly different administrative GUI. Cisco NFVIS-for-UC supports only select on-premises calling applications. Cisco NFVIS-for-UC supports only select Cisco Calling Appliances. Important Cisco NFVIS-for-UC is not currently orderable, nor is it supported by TAC. Availability will be announced shortly. For more information, see the Cisco Virtualization Guide for Cisco On-premises Calling Applications , as well as the Installation Guide for Cisco Unified Communications Manager and the IM and Presence Service for details on virtualization requirements for hypervisors supported prior to migration. The desired upgrade requires you to change the infrastructure hardware and platform. Example : Upgrades from Unified CM 10.5(x) on ESXi 5.5 and Cisco UCS M3 generation hardware to 12.5(x) on ESXi 7.0 and Cisco UCS M5
+                                                pricing, new licensing, and a slightly different administrative GUI. Cisco NFVIS-for-UC supports only select on-premises calling applications. Cisco NFVIS-for-UC supports only select Cisco Calling Appliances. For more information, see the Cisco Virtualization Guide for Cisco On-premises Calling Applications , as well as the Installation Guide for Cisco Unified Communications Manager and the IM and Presence Service for details on virtualization requirements for hypervisors supported prior to migration. The desired upgrade requires you to change the infrastructure hardware and platform. Example : Upgrades from Unified CM 10.5(x) on ESXi 5.5 and Cisco UCS M3 generation hardware to 12.5(x) on ESXi 7.0 and Cisco UCS M5
                                                 generation hardware. ESXi upgrade and/or Unified CM virtual machine configuration change Unified CM address/hostname change The desired upgrade requires a direct upgrade path that does not exist for the source release. Example : Unified CM 8.5(1) on ESXi to 12.5(x) on ESXi—No direct upgrade path exists making a migration mandatory. "Virtual to Virtual (V2V)" migration, where even if a direct upgrade path exists, direct migration is preferred to mitigate
                                                 upgrade path complexity factors such as duration, service impact, and a short outage window. Note Version 15 running on VMware ESXi requires updating the virtual machine settings to meet the new release requirements. This
                                                       includes changes such as a higher virtual hardware version and selecting a different Guest OS type. For detailed instructions,
-                                                      refer to the readme of the base OVA for Release 15SU4 or the Change the Virtualization Software section. | Important | Cisco NFVIS-for-UC is not currently orderable, nor is it supported by TAC. Availability will be announced shortly. | Note | Version 15 running on VMware ESXi requires updating the virtual machine settings to meet the new release requirements. This
+                                                      refer to the readme of the base OVA for Release 15SU4 or the Change the Virtualization Software section. | Note | Version 15 running on VMware ESXi requires updating the virtual machine settings to meet the new release requirements. This
                                                       includes changes such as a higher virtual hardware version and selecting a different Guest OS type. For detailed instructions,
                                                       refer to the readme of the base OVA for Release 15SU4 or the Change the Virtualization Software section. | The following tool is used to complete migrations: PCD Migration Fresh Install with Data Import |
-| Important | Cisco NFVIS-for-UC is not currently orderable, nor is it supported by TAC. Availability will be announced shortly. |
 | Note | Version 15 running on VMware ESXi requires updating the virtual machine settings to meet the new release requirements. This
                                                       includes changes such as a higher virtual hardware version and selecting a different Guest OS type. For detailed instructions,
                                                       refer to the readme of the base OVA for Release 15SU4 or the Change the Virtualization Software section. |
@@ -1505,9 +1500,6 @@ Cisco Collaboration Sizing Tool at http://tools.cisco.com/cucst .
 | Note | Version 15 running on VMware ESXi requires updating the virtual machine settings to meet the new release requirements. This
                                                       includes changes such as a higher virtual hardware version and selecting a different Guest OS type. For detailed instructions,
                                                       refer to the readme of the base OVA for Release 15SU4 or the Change the Virtualization Software section. |
-|---|---|
-
-| Important | Cisco NFVIS-for-UC is not currently orderable, nor is it supported by TAC. Availability will be announced shortly. |
 |---|---|
 
 | Note | Version 15 running on VMware ESXi requires updating the virtual machine settings to meet the new release requirements. This
