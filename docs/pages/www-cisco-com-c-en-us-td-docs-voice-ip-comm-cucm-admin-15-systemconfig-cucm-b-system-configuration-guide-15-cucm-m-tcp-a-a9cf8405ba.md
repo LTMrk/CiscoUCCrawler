@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-systemconfig-cucm-b-system-configuration-guide-15-cucm-m-tcp-a-a9cf8405ba
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/systemConfig/cucm_b_system-configuration-guide-15/cucm_m_tcp-and-udp-port-usage-12-0.html
-retrieved_at: 2026-08-16T14:16:27.738382+00:00
+retrieved_at: 2026-08-20T14:43:50.811522+00:00
 ---
 
 System Configuration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -56,8 +56,6 @@ Special Ports on
 See "Port Descriptions" for port details in each of the
                            		above categories.
 
-Note
-
 Cisco has not
                                        		  verified all possible configuration scenarios for these ports. If you are
                                        		  having configuration problems using this list, contact Cisco technical support
@@ -100,18 +98,12 @@ Configuration
                            		devices, and which applications and telephony extensions are in use. Also, bear
                            		in mind that ACLs vary in format with different devices and versions.
 
-Note
-
 You can also
                                        		  configure Multicast Music on Hold (MOH) ports in Cisco
                                           			 Unified Communications Manager . Port values for multicast MOH are not
                                        		  provided because the administrator specifies the actual port values.
 
-Note
-
 The ephemeral port range for the system is 32768 to 61000 , and the ports needs to be open to keep the phones registered . For more information, see http://www.cisco.com/c/en/us/support/security/asa-5500-series-next-generation-firewalls/tsd-products-support-series-home.html .
-
-Note
 
 Make sure that you configure your firewall so that connections to port 22 are open, and are not throttled. During the installation
                                        of IM and Presence subscriber nodes, multiple connections to the Cisco Unified Communications Manager publisher node are opened
@@ -439,8 +431,6 @@ Unified Communications Manager (DHCP Server)
 
 Cisco Unified Communications Manager acting as a DHCP server
 
-Note
-
 Cisco does not recommend running DHCP server on Cisco Unified Communications Manager.
 
 Unified Communications Manager
@@ -450,8 +440,6 @@ DHCP Server
 68 / UDP
 
 Cisco Unified Communications Manager acting as a DHCP client
-
-Note
 
 Cisco does not recommend running DHCP client on Cisco Unified Communications Manager. Configure Cisco Unified Communications
                                                          Manager with static IP addresses instead.)
@@ -771,8 +759,6 @@ DNS server
 
 Session Initiation Protocol (SIP) phones resolve the Fully Qualified Domain Name (FQDN) using a Domain Name System (DNS)
 
-Note
-
 By default, some wireless access points block TCP 53 port, which prevents wireless SIP phones from registering when CUCM
                                                          is configured using FQDN.
 
@@ -895,8 +881,6 @@ Phone
 
 Real-Time Protocol (RTP), Secure Real-Time Protocol (SRTP)
 
-Note
-
 Cisco Unified Communications Manager only uses 24576-32767 although other devices use the full range.
 
 Phone
@@ -994,8 +978,6 @@ Ephemeral / TCP
 
 H.245 signaling services for establishing voice, video, and data
 
-Note
-
 The H.245 port used by the remote system depends on the type of gateway.
 
 For IOS gateways, the H.245 port range is from 11000 to 65535.
@@ -1052,8 +1034,6 @@ Unified Communications Manager
 
 Media Gateway Control Protocol (MGCP)
 
-Note
-
 For IOS gateways, the source MGCP backhaul TCP port range is from 11000 to 65535.
 
 --
@@ -1096,8 +1076,6 @@ Unified Communications Manager
 16384 - 32767 / UDP
 
 Real-Time Protocol (RTP), Secure Real-Time Protocol (SRTP)
-
-Note
 
 Cisco Unified Communications Manager only uses 24576-32767 although other devices use the full range.
 

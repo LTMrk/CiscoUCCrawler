@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-systemconfig-cucm-b-system-configuration-guide-15-cucm-b-syste-f8e573729f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/systemConfig/cucm_b_system-configuration-guide-15/cucm_b_system-configuration-guide-14_chapter_01.html
-retrieved_at: 2026-08-16T14:16:32.098745+00:00
+retrieved_at: 2026-08-20T14:41:05.924464+00:00
 ---
 
 System Configuration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -43,8 +43,6 @@ Renew the License Registration
 
 Deregister with Cisco Smart Software Manager or Cisco Smart Software Manager satellite
 
-Note
-
 The License authorization is valid for 90 days with a renewal at least once in 30 days. The authorization will expire after
                                        90 days if it is not connected to Cisco Smart Software Manager or Cisco Smart Software Manager satellite.
 
@@ -75,8 +73,6 @@ Remove registered product instance
 Optionally, if Unified Communications Manager cannot connect directly to Cisco Smart Software Manager, you can deploy a proxy
                               server to manage the connection.
 
-Note
-
 For additional information about Cisco Smart Software Manager, go to https://software.cisco.com .
 
 ### Cisco Smart Software Manager Satellite
@@ -95,11 +91,7 @@ Connected—Used when there is connectivity to cisco.com directly from the Smart
 Disconnected—Used when there is no connectivity to cisco.com from the Smart Software Manager satellite. Smart Account synchronization
                                     must be manually uploaded and downloaded.
 
-Note
-
 The Unified CM running in Dual Stack mode supports satellite configured with IPv4 and IPv6 address.
-
-Note
 
 For Cisco Smart Software Manager satellite information and documentation, go to https://www.cisco.com/c/en/us/buy/smart-accounts/software-manager-satellite.html .
 
@@ -156,19 +148,13 @@ Session Management Edition can be registered to either Cisco Smart Software Mana
                                        virtual account that Cisco Unified Communications Manager is registered or a separate virtual account, and fulfill a minimal
                                        set of licenses requirement.
 
-Note
-
 The SME registered in Specific License Reservation (SLR) requires a minimum set of licenses reserved in CSSM while generating
                                                    an SLR authorization code.
 
 ### Product Instance
                            	 Evaluation Mode
 
-Note
-
 Evaluation period is before the product is registered.
-
-Note
 
 ## System Licensing Prerequisites
 
@@ -186,8 +172,6 @@ Direct connection to Cisco Smart Software Manager on cisco.com—Unified Communi
 
 Connection to Smart Software Manager via proxy server—Unified Communications Manager connects to a proxy server, or transport gateway , which connects to the Cisco Smart Software Manager service on cisco.com. DNS is not required on Unified Communications Manager,
                                     but you do need to configure DNS on the proxy server that can resolve tools.cisco.com for Call Home and smartreceiver.cisco.com for Smart Transport .
-
-Note
 
 Connection to Smart Software Manager via Transport Gateway—Unified Communications Manager connects to a transport gateway,
                                     which connects to the Cisco Smart Software Manager service on cisco.com . DNS is not required on Unified Communications Manager, but you do need to configure DNS on the proxy server that can resolve tools.cisco.com . Smart Transport is not supported for Transport gateway.
@@ -208,8 +192,6 @@ Set
                         	 Licensing Task Flow
 
 Complete these tasks to set up system licensing for Unified Communications Manager.
-
-### Procedure
 
 Step 1
 
@@ -244,8 +226,6 @@ Obtain the product
                                  		  generated with or without the Export-Controlled functionality feature being
                                  		  enabled.
 
-#### Procedure
-
 Step 1
 
 Log in to
@@ -261,8 +241,6 @@ Step 3
 Generate a "Product
                                              				Instance Registration Token" .
 
-Note
-
 Select the Allow export-controlled functionality on the products
                                                             					 registered with this token check box to turn on the
                                                          				  Export-Controlled functionality for tokens of a product instance you wish in
@@ -276,8 +254,6 @@ Caution
 
 Use this option only if you are compliant with the
                                                          				  Export-Controlled functionality.
-
-Note
 
 The Allow export-controlled functionality on the products
                                                             					 registered with this token check box is not displayed for the Smart
@@ -294,8 +270,6 @@ For more
 ### Configure Connection to Smart Software Licensing (Applicable Until Release 14SU4 and 15SU2)
 
 Complete this task to connect Unified Communications Manager to the Smart Software Licensing service.
-
-#### Procedure
 
 Step 1
 
@@ -345,8 +319,6 @@ Click Save .
 
 Complete this task to connect Unified Communications Manager to the Smart Software Licensing service.
 
-#### Procedure
-
 Step 1
 
 From Cisco Unified CM Administration, choose System > Licensing > License Management .
@@ -380,8 +352,6 @@ User Name
 
 Password
 
-Note
-
 Important
 
 From Release 15SU5 onwards, Transport Gateway requires version 4.2.2 or later, which includes support for compatible cipher
@@ -406,8 +376,6 @@ Click Switch to change the transport mode from Call Home to Smart Transport. Cis
                                           switch process. This option is available only for Direct or HTTP/HTTPS Proxy server or Cisco Smart Software Manager satellite
                                           in Call Home Mode.
 
-Note
-
 Step 8
 
 Click Close .
@@ -419,8 +387,6 @@ Use this procedure
                                  		  to register your product with Cisco Smart Software Manager or Cisco Smart
                                  		  Software Manager satellite. Until you register, your product is still in
                                  		  Evaluation Mode.
-
-#### Procedure
 
 Step 1
 
@@ -455,21 +421,15 @@ In the License
                                              				Usage Details to manually update the system license usage
                                           			 information.
 
-Note
-
 Usage information is updated once every 24 hours automatically. For more information, see the online help.
 
 ## Additional Tasks with Smart Software Licensing
-
-### Procedure
 
 Step 1
 
 Renew Authorization
 
 Complete this task to manually renew the License Authorization Status for all the license listed under the License Type.
-
-Note
 
 The license authorization is renewed automatically every 30 days. The authorization status will expire after 90 days if it
                                                       is not connected to Cisco Smart Software Manager or Cisco Smart Software Manager satellite.
@@ -483,8 +443,6 @@ Step 2
 Renew Registration
 
 Complete this task to renew the registration information manually.
-
-Note
 
 The initial registration is valid for one year. Renewal of registration is automatically done every six months provided the
                                                       product is connected to Cisco Smart Software Manager or Cisco Smart Software Manager satellite.
@@ -505,8 +463,6 @@ Reregister License with Cisco Smart Software Manager
 Complete this task to reregister Unified Communications Manager with Cisco Smart Software Manager or Cisco Smart Software
                                           Manager satellite.
 
-Note
-
 Product may migrate to a different virtual account by reregistering with token from a new virtual account.
 
 ### Renew
@@ -515,8 +471,6 @@ Product may migrate to a different virtual account by reregistering with token f
 Use this procedure
                                  		  to manually renew the License Authorization Status for all the licenses listed
                                  		  under the License Type.
-
-Note
 
 The license authorization is renewed automatically every 30 days. The authorization status will expire after 90 days if it
                                              is not connected to Cisco Smart Software Manager or Cisco Smart Software Manager satellite.
@@ -530,8 +484,6 @@ If the Cisco Smart Software Manager satellite option is selected, the satellite 
 The product should
                                  		  be registered with Cisco Smart Software Manager or Cisco Smart Software Manager
                                  		  satellite.
-
-#### Procedure
 
 Step 1
 
@@ -561,8 +513,6 @@ In the License
                                              				Usage Details to manually update the system license usage
                                           			 information.
 
-Note
-
 Usage information is updated once every 24 hours automatically. For more information on the fields and their configuration
                                                          options, see the system Online Help.
 
@@ -583,8 +533,6 @@ During product
 The product should
                                  		  be registered with Cisco Smart Software Manager or Cisco Smart Software Manager
                                  		  satellite.
-
-#### Procedure
 
 Step 1
 
@@ -614,8 +562,6 @@ In the License
                                              				Usage Details to manually update the system license usage
                                           			 information.
 
-Note
-
 Usage information is updated once every 24 hours automatically. For more information on the fields and their configuration
                                                          options, see the system Online Help.
 
@@ -624,8 +570,6 @@ Usage information is updated once every 24 hours automatically. For more informa
 Use this procedure to unregister from Cisco Smart Software Manager or Cisco Smart Software Manager satellite and release all
                                  the licenses from the current virtual account. This procedure also disconnects Unified Communications Manager cluster from Cisco Smart Software Manager or Cisco Smart Software Manager satellite. All license entitlements used for the
                                  product are released back to the virtual account and is available for other product instances to use.
-
-Note
 
 If Unified Communications Manager is unable to connect with the Cisco Smart Software Manager or Cisco Smart Software Manager satellite, and the product is
                                              still deregistered, then a warning message is displayed. This message notifies you to remove the product manually from Cisco
@@ -636,8 +580,6 @@ If Unified Communications Manager is unable to connect with the Cisco Smart Soft
 The product should
                                  		  be registered with Cisco Smart Software Manager or Cisco Smart Software Manager
                                  		  satellite.
-
-#### Procedure
 
 Step 1
 
@@ -664,12 +606,8 @@ In the License
                                              				Usage Details to manually update the system license usage
                                           			 information.
 
-Note
-
 Usage information is updated once every 24 hours automatically. For more information on the fields and their configuration
                                                          options, see the system Online Help.
-
-Note
 
 If the data plane encryption (Unified Communications Manager cluster in mixed-mode) has been enabled after registered with
                                                                Cisco Smart Software Manager or Cisco Smart Software Manager satellite and the product is later deregistered, then mixed-mode
@@ -695,8 +633,6 @@ Use this procedure
                                  		  Cisco Smart Software Manager satellite.
 
 #### Before you begin
-
-#### Procedure
 
 Step 1
 
@@ -744,8 +680,6 @@ In the License
                                              				Usage Details to manually update the system license usage
                                           			 information.
 
-Note
-
 Usage information is updated once every 24 hours automatically. For more information on the fields and their configuration
                                                          options, see the system Online Help.
 
@@ -757,8 +691,6 @@ Specific License Reservation is a feature that is used in highly secure networks
 The user can specify and reserve perpetual or term-based licenses against the Unified Communications Manager product. After
                            authorization code is exchanged, regular product synchronization is not required until there are changes in the reservation.
                            Reserved licenses remain blocked in Cisco Smart Software Manager unless released from the product with a return code.
-
-Note
 
 For an offline deployment that uses Specific License Reservation (SLR) or Permanent License Reservation (PLR), the License
                                        Authorization Status displays NOT AUTHRORIZED - RESERVED. This status is expected and does not indicate an authorization failure.
@@ -776,10 +708,6 @@ Product Instance is operational (graceful removal): User can return the Specific
                            (which removes the Authorization Code) and then enter the Reservation Return code into Cisco Smart Software Manager.
 
 Product Instance is not operational (failure/RMA or due to destroying the VM/container): User must contact TAC, who can remove the Product Instance from thier smart account.
-
-Note
-
-Note
 
 Customer who is entitled to License reservation feature on their Smart Account can reserve licenses from their virtual account,
                            tie them to a devices UDI and use their device with these reserved licenses in a disconnected mode. The customer reserves
@@ -861,8 +789,6 @@ Use this procedure to enable Specific License Reservation.
 
 Unified Communications Manager is unregistered with Cisco Smart Software Manager or satellite.
 
-##### Procedure
-
 From Cisco Unified CM Admin Console execute the below CLI command.
 
 license smart reservation enable
@@ -874,8 +800,6 @@ Use this procedure to generate reservation request code generate request code fr
 ##### Before you begin
 
 Make sure Unified Communications Manager Registration Status is Reservation in progress, by executing license smart reservation enable .
-
-##### Procedure
 
 Step 1
 
@@ -905,8 +829,6 @@ license smart reservation enable
 
 license smart reservation request
 
-##### Procedure
-
 From Cisco Unified CM Admin Console execute the below CLI command.
 
 license smart reservation install "<authorization-code>"
@@ -923,13 +845,9 @@ license smart reservation enable
 
 license smart reservation request
 
-Note
-
 url is mandatory Path to the authorization-code file on SFTP server in below format:
 
 sftp://<HostName/IP>:<port>/<Path to Authorization-Code file>
-
-##### Procedure
 
 From Cisco Unified CM Admin Console execute the below CLI command.
 
@@ -946,8 +864,6 @@ Use this procedure to disable specific license reservation.
 ##### Before you begin
 
 Specific License Reservation is enabled on  Unified Communications Manager
-
-##### Procedure
 
 From Cisco Unified CM Admin Console execute the below CLI command.
 
@@ -968,12 +884,8 @@ license smart reservation request
 
 license smart reservation install "<authorization-code>"
 
-Note
-
 License borrowing from a higher tier does not happen automatically when a Specific License Reservation is enabled on Unified
                                                 Communications Manager. License Reservation has to be updated manually to the Unified Communications Manager license consumption/usage.
-
-##### Procedure
 
 Step 1
 
@@ -1009,8 +921,6 @@ license smart reservation enable
 
 license smart reservation request
 
-##### Procedure
-
 From Cisco Unified CM Admin Console execute the below CLI command.
 
 license smart reservation cancel
@@ -1030,8 +940,6 @@ license smart reservation enable
 license smart reservation request
 
 license smart reservation install "<authorization-code>"
-
-##### Procedure
 
 Step 1
 
@@ -1054,8 +962,6 @@ Make sure Unified Communcations Manager Registration Status is Reservation In Pr
 license smart reservation enable
 
 license smart reservation request
-
-##### Procedure
 
 Step 1
 
@@ -1155,8 +1061,6 @@ The command returns an export authorization key if regulatory export license is 
 Cisco Unified Communications Manager is registered with Cisco Smart Software Manager or satellite. Make sure <CUCM Export
                                  Restricted Authorization Key> license is available on Cisco Smart Software Manager.
 
-#### Procedure
-
 From Cisco Unified CM Admin Console, execute the following CLI command:
 
 license smart export request local <exportfeaturename>
@@ -1170,8 +1074,6 @@ The command allows to return a previously requested export restricted license to
 
 Export authorization key is generated for the feature.
 
-#### Procedure
-
 From Cisco Unified CM Admin Console, execute the following CLI command:
 
 license smart export return local <exportfeaturename>
@@ -1184,8 +1086,6 @@ This command allows user with Smart Account for whom Export Restrictions apply, 
 #### Before you begin
 
 Cisco Unified Communications Manager is registered with Cisco Smart Software Manager or satellite.
-
-#### Procedure
 
 From Cisco Unified CM Admin Console, execute the following CLI command:
 

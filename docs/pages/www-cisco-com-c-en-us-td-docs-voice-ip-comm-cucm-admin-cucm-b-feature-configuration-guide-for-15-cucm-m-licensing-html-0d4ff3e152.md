@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-cucm-b-feature-configuration-guide-for-15-cucm-m-licensing-html-0d4ff3e152
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/cucm_b_feature-configuration-guide-for-15/cucm_m_licensing.html
-retrieved_at: 2026-08-16T14:16:22.878666+00:00
+retrieved_at: 2026-08-20T14:45:27.204091+00:00
 ---
 
 Feature Configuration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -199,8 +199,6 @@ Flex Plan 3.0 offers both Enterprise Agreement (EA) and Named User (NU) buying m
 Customers with older perpetual licenses (such as FLEX Subscription v10.x) should transition to On-Premises or Partner Hosted
                               Smart Licensing under Cisco Collaboration Flex Plan 3.0. For comprehensive details on license types and ordering, refer to
                               the Flex Plan 3.0 ordering guide .
-
-Note
 
 Legacy license types, such as Enhanced and Enhanced Plus, are no longer valid under Flex Plan 3.0.
 
@@ -493,8 +491,6 @@ User Only means a user configured in Cisco Unified Communications Manager that d
 Bold text in the above table indicates that a device is supported through license substitution where an available license of the license
                               type listed may be used to meet lower-level license requirements. This is done in Cisco Smart Software Manager.
 
-Note
-
 MGCP FXS ports do not require any license because they are not considered analog phones.
 
 ## Maximum Number of Devices Per User
@@ -522,14 +518,10 @@ The Cisco Smart Software Manager (CSSM) allows for tiered license substitution o
                               UC Manager CUWL license available to be loaned to lower tiers. Of the 90 UC Manager CUWL available licenses 50 CUWL would
                               then be used to meet the requirements for the 50 Enhanced Plus licenses. CSSM will show 40 UC Manager CUWL licenses as available.
 
-Note
-
 When Cisco Smart Software Manager On-Prem (Cisco SSM On-Prem) or Smart Software Manager satellite is used in Unified Communications
                                           Manager for licensing, there is a difference in the way the license Hierarchy Substitution breakdown is displayed in CSSM,
                                           when compared to Cisco SSM On-Prem. See the Cisco SSM On-Prem user interface for details on the insufficient license information
                                           if the license authorization status of Unified CM is Out of Compliance. Refer CSCwf47221 for more details.
-
-Note
 
 If the Virtual account is already used by Product Instance using direct communication and license reserved for Specific License
                                           Reservation, the available license quantities are shown incorrectly. Refer CSCwf47223 for more details.
@@ -553,8 +545,6 @@ UserID
 Licensed User Feature
 
 License Required
-
-Note
 
 UserA
 
@@ -587,8 +577,6 @@ There are currently no devices that require an Enhanced Plus, CUWL Standard, or 
 Device
 
 License Required
-
-Note
 
 Device6901
 
@@ -718,8 +706,6 @@ License Usage Reports are also available summarized by Users and Unassigned devi
                               of users configured on the system. View Usage Report for the users provides a report for all users configured on the system
                               and their corresponding license requirements. View Usage Report for the Unassigned Devices shows the total number of unassigned
                               devices (devices with no associated user).
-
-Note
 
 Assigning a user ID to a device using Cisco Unified Communications Administration moves the device from "Unassigned Devices"
                                           to "Users" in the License Usage Report. However, adding a device to the list of controlled devices for an end-user does not
