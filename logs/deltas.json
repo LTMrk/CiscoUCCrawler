@@ -1,8 +1,21 @@
 {
-  "run_at": "2026-08-20T23:43:00.676794+00:00",
+  "run_at": "2026-08-20T23:48:52.732731+00:00",
   "modo": "incremental",
   "added": [
-    "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-over-html-b4dd3b4b1c"
+    "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-sip-config-15-mt-book-inde-8b41df0e0a",
+    "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-aaa-html-19b48a5136",
+    "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-call-transfer-html-ca2c88494f",
+    "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-dtmf-html-2e3cf6b213",
+    "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-hookflash-html-27704bf27f",
+    "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-isdn-html-6012479414",
+    "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-mlpp-html-291676cbb1",
+    "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-mwi-html-1ed60db6c7",
+    "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-pai-ppi-html-5b26660120",
+    "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-srtp-html-7c35d2b346",
+    "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-tdm-html-debd22d77b",
+    "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-trunks-html-781b84da37",
+    "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-verify-html-ede4f1a397",
+    "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-warning-header-htm-e6b3ff4a78"
   ],
   "modified": [],
   "removed": [],
