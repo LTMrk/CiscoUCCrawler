@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-bb40090fc6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_appendix_01110.html
-retrieved_at: 2026-08-16T14:42:06.587116+00:00
+retrieved_at: 2026-08-20T18:37:42.024565+00:00
 ---
 
 Serviceability Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -21,8 +21,6 @@ Chapter: Unified
 
 ## SNMP
                            		  Notifications
-
-Note
 
 The message ID also contains the severity in the two most significant
                                              							bits of the integer value. The message ID value shown is with these two
@@ -1089,8 +1087,6 @@ Single-State Raise
 Description
 
 The attempt to update the central controller configuration was rejected because none of the Loggers are operational.
-
-Note
 
 This SNMP Notification is supported with UCCE 12.6(2) if CCE 12.6(2)_ES 36 is installed.
 
@@ -9075,12 +9071,6 @@ The request for initial SEI events failed.
 Action
 
 Make sure the Symposium services are started and functioning properly.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | The message ID also contains the severity in the two most significant
                                              							bits of the integer value. The message ID value shown is with these two

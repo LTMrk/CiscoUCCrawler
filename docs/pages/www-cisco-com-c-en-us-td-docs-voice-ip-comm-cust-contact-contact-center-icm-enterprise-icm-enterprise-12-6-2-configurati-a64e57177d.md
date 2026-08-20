@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-a64e57177d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_01001.html
-retrieved_at: 2026-08-16T14:41:33.687440+00:00
+retrieved_at: 2026-08-20T18:38:13.526816+00:00
 ---
 
 Serviceability Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -62,18 +62,12 @@ RTMT has extensive
 ### Install and Launch
                            	 RTMT
 
-#### Procedure
-
 Step 1
 
 Log in to your
                                           			 Cisco Unified Intelligence Center  Administration page through your browser.
 
-Note
-
 The Live Data and the Cisco IdS servers do not provide the RTMT download link.
-
-Note
 
 For Cloud Connect, download and install RTMT on a client computer. Use the following URL https://FQDN:8443/plugins/CcmServRtmtPlugin.exe.
                                                          Where, FQDN is the Fully Qualified Domain Name of the Cloud Connect Primary or Secondary Node.
@@ -126,8 +120,6 @@ Enter the
 If a message appears indicating that a time zone mismatch exists, click No to launch RTMT in your current time zone.
 
 Click OK to accept the default configuration.
-
-Note
 
 The
                                                                						performance counters are documented in the Administration Console User Guide for Cisco Unified Intelligence
@@ -231,8 +223,6 @@ AuditLog Viewer - Allows you to view system audit logs.
 Perform the following steps to download the trace and log files for Cisco Unified Intelligence Center, Live Data, Cisco IdS
                                  and Cloud Connect.
 
-#### Procedure
-
 Step 1
 
 Run RTMT to connect to the target server, then choose Tools > Trace & Log 
@@ -272,8 +262,6 @@ Click Finish .
 
 ### View the Status of Services
 
-#### Procedure
-
 Run RTMT to connect to the target server, then choose Server > Critical Services in the System pane.
 
 Live Data and Cisco IdS services are also included on the System tab. To view the Unified Intelligence Center services, click the Intelligence Center tab.
@@ -284,8 +272,6 @@ When RTMT is connected to either a Unified Intelligence Center standalone server
 When RTMT is connected to standalone cloud connect server. Cloud Connect services will be included as part of the System tab.
 
 ### Alert Central
-
-#### Procedure
 
 Run RTMT to connect to the target server, then choose Tools > Alert 
                                                 			 Central in the System pane.
@@ -386,8 +372,6 @@ This
                                                 						alert occurs whenever a system error results in the IdS Application failing to
                                                 						start.
 
-Note
-
 To view or
                                                    				edit values for any alert, right-click the alert and select Set
                                                       				  Alert/Properties .
@@ -428,8 +412,6 @@ Cloud Connect Service encountered an error requiring manual intervention
 
 ### View Performance Counters
 
-#### Procedure
-
 Run RTMT to connect to the target server, then choose Performance > Performance in the System pane.
 
 ## Disaster Recovery
@@ -448,12 +430,6 @@ To back up and restore a Unified Intelligence Center standalone or coresident (U
 
 Disaster recovery does not completely cover the Live Data application. After you complete a disaster recovery, reconfigure
                               the Live Data application. To reconfigure Live Data, complete the tasks in the Live Data Installation procedure in the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide at https://www.cisco.com/en/US/products/sw/custcosw/ps1844/prod_installation_guides_list.html .
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Step 1 | Log in to your
                                           			 Cisco Unified Intelligence Center  Administration page through your browser. Note The Live Data and the Cisco IdS servers do not provide the RTMT download link. Note For Cloud Connect, download and install RTMT on a client computer. Use the following URL https://FQDN:8443/plugins/CcmServRtmtPlugin.exe.

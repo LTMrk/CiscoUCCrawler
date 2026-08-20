@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-b7cec7a14f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_preface_01111.html
-retrieved_at: 2026-08-16T14:40:46.858781+00:00
+retrieved_at: 2026-08-20T18:38:43.464771+00:00
 ---
 
 Serviceability Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -57,8 +57,6 @@ Dedicated Forest/Domain Model
 Chilc Domain Model
 
 Hosted Network Applications Manager (NAM) / Customer ICM (CICM) Model
-
-Note
 
 ## Audience
 
@@ -185,12 +183,6 @@ For
 A
                                              						  character string that the user enters but that does not appear on the window
                                              						  such as a password.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Change | See | Date |
 |---|---|---|

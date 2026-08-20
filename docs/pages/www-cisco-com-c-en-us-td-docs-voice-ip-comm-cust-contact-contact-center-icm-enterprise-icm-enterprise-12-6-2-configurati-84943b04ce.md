@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-84943b04ce
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_00.html
-retrieved_at: 2026-08-16T14:40:51.098898+00:00
+retrieved_at: 2026-08-20T18:37:45.583896+00:00
 ---
 
 Serviceability Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -77,8 +77,6 @@ Peripheral Gateway —Act as a gateway to a peripheral device, like an IP PBX or
 Administration & Data Server —A server implementation that provides configuration data (from the Logger), an interface for real-time data, and a platform
                                  for the historical data server (HDS). The Administration & Data Server also offers an interface for administrators to alter
                                  configuration and routing scripts (Script Editor, Internet Script Editor).
-
-Note
 
 Unified CCE applications do not report their resource usage to monitoring solutions, like Cisco Prime Collaboration. The monitoring
                                        solution retrieves CPU and memory usage data directly from the Windows Server operating system. On multicore systems, Windows
@@ -678,12 +676,6 @@ The following
 Enable the Outbound Option
                            		high availability option to provides continuous service without any
                            		disruptions, using redundant SIP Dialers and Campaign Managers.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Unified CCE applications do not report their resource usage to monitoring solutions, like Cisco Prime Collaboration. The monitoring
                                        solution retrieves CPU and memory usage data directly from the Windows Server operating system. On multicore systems, Windows

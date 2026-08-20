@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-29a6f9be2a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_appendix_01101.html
-retrieved_at: 2026-08-16T14:41:55.327513+00:00
+retrieved_at: 2026-08-20T18:37:30.986685+00:00
 ---
 
 Serviceability Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -164,9 +164,3 @@ cccaPimPeripheralType.0.3.1 = acmiCRS(19)
 cccaPimStatus.0.3.1 = started(4)
 cccaPimPeripheralHostName.0.3.1 = LabHost
 ```
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )

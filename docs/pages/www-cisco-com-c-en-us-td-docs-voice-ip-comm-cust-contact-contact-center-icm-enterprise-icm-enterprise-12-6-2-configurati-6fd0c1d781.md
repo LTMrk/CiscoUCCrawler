@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-6fd0c1d781
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_your-security-strategy-and-unified-cce.html
-retrieved_at: 2026-08-16T14:39:48.193260+00:00
+retrieved_at: 2026-08-20T18:37:23.529184+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -477,8 +477,6 @@ The SNMP Event Translator facility converts Windows events, in real time, into a
 Microsoft SQL server includes events capturing and reporting through its new audit
                                        					capabilities. See Microsoft documentation for details.
 
-Note
-
 Cisco does not support C2 event capturing for audits in Microsoft SQL Server in contact center enterprise solutions due to
                                                    degradation in transaction performance.
 
@@ -801,12 +799,6 @@ Data that could be used to discriminate (such as, race, ethnic origin, religions
                                     trade union memberships, sexual lifestyle, physical or mental health)
 
 Data that could be used to facilitate identity theft (such as mother’s maiden name)
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Cisco does not support C2 event capturing for audits in Microsoft SQL Server in contact center enterprise solutions due to
                                                    degradation in transaction performance. |

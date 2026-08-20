@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-8e4f76a0fd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_0101.html
-retrieved_at: 2026-08-16T14:41:12.752554+00:00
+retrieved_at: 2026-08-20T18:38:18.343097+00:00
 ---
 
 Serviceability Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -62,8 +62,6 @@ Debug
 
 Log most detailed (plus error and warning and default level) trace messages, high performance impact.
 
-Note
-
 If you have enabled the debug trace levels, disable them after collecting the logs to avoid an unnecessary performance impact
                                        to your solution.
 
@@ -75,8 +73,6 @@ Most EMSTraceMasks
                               		  Inc.\ICM\<Instance>\<Component>\EMS\CurrentVersion\Library\Processes\<process>\EMSTraceMask
 
 Get and Set trace level and collect trace files are supported only for the following processes.
-
-Note
 
 If the trace mask is the same for multiple levels, the GetTraceLevel returns the highest level. For example, GetTraceLevel
                                        returns Level 3 for Logger/baimport.
@@ -226,8 +222,6 @@ ISEMAN
 0x00
 
 0x01
-
-Note
 
 The minimum and default trace level for the CMS, CMSJServer and ISE components is 2.
 
@@ -649,8 +643,6 @@ Procmon:
 
 > trace mr* /off
 
-Note
-
 Level 2 is the default level for MRPIM.
 
 EMSUserData = 0x40
@@ -1019,8 +1011,6 @@ mr_outgoing_opc
 
 - CTI OS Server
 
-Note
-
 ### Dumplog
 
 Dumplog handles the compressed EMS files and can be used in the general way. Dumplog looks for gzip.exe in <Install Drive>\icm\bin
@@ -1044,16 +1034,10 @@ The following two other registry keys are also available in …\EMS\CurrentVersi
 
 - EMSZipExtension
 
-Note
-
 ## Set Router Tracing
 
 To set the Unified ICM/CCE Router, use the Router Trace utility. This utility is a single-form Windows GUI utility that is
                               loaded on the Unified ICM/Unified CCE server.
-
-Note
-
-Note
 
 Business Hours tracing has to be set or reset using RTR Trace utility or RTTEST utility only. Setting the trace level for
                                           Router in Diagnostic portico will not change the Business Hours setting.
@@ -1066,8 +1050,6 @@ You can observe specific status of call routing, call type, skill group, and sch
 You can monitor a particular variable and determine if its value is incremented or decremented by enabling the RTTEST "watch" command on router logs: rttest: watch <variable> .
 
 The logs are written only when value is changed.
-
-### Procedure
 
 Step 1
 
@@ -1162,8 +1144,6 @@ opctest:debug /on
 opctest:debug /on
 opctest:debug /NCT
 ```
-
-Note
 
 ### Diagnosing Multimedia Issues
 
@@ -1283,8 +1263,6 @@ Commands
 >>>trace <bit> /on
 
 >>>trace <bit> /off
-
-Note
 
 "ra" and "rb" = Router A or B
 
@@ -1431,8 +1409,6 @@ If the VRU CAP file is still being buffered, the file is not present in the dire
 
 To obtain VRU CAP files, do the following:
 
-#### Procedure
-
 Step 1
 
 Run the VRU TRACE tool in the following directory: \icm<inst><pg>\vrucap
@@ -1446,8 +1422,6 @@ Navigate to the VRU CAP directory: C:\icm\<instance>\<pg><pg number>\vrucap
 Flush the buffered data into a VRU CAP file by running the following command: vrutrace pim<pg number> /debug /last /o
 
 Capture a trace for a specific time window by running the following command: vrutrace pim<pg number> /debug /bt hh:mm:ss /et hh:mm:ss /o
-
-Note
 
 Using /last ensures that all buffered data is written to the VRU CAP file before you run the timed trace with /bt .
 
@@ -1524,8 +1498,6 @@ The maximum number of trace log files permitted for this process.
 
 The total space allowed for all trace log files (combined size) for this process.
 
-Note
-
 EMSLogFileMax multiplied by EMSLogFileCountMax may be greater than EMSAllLogFilesMax and it often is by default; this is to
                                           ensure trace log files created by frequent process restarts (where a number of small trace log files are created) are not
                                           lost when the max count is exceeded but very
@@ -1554,15 +1526,7 @@ The middle six digits of the registry key value determine the number of dumps th
 
 If the CCE Router crashes, provide the full dump (the .mdmp file generated under the icm\<instanceid>ra\logfiles directory), the PDB file (for example, router.pdb ) from the icm\bin directory, and the associated executable ( router.exe ) from the icm\bin directory.
 
-Note
-
 The registry key value is set to the default value of 0x20000032 on a new install or upgrade, or whenever you run Web Setup.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Trace
                                        					 Level | Trace

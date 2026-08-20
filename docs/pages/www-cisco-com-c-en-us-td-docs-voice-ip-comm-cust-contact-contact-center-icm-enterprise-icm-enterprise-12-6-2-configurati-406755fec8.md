@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-406755fec8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_windows-security-hardening_12_6_1.html
-retrieved_at: 2026-08-16T14:40:38.408215+00:00
+retrieved_at: 2026-08-20T18:37:18.974051+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -65,8 +65,6 @@ Copy the *.admx files from the PolicyDefinitions folder to \<Domain>\SYSVOL<Doma
 Copy the *.adml files from the PolicyDefinitions<applicable-language>
                                        folder to \<Domain>\SYSVOL<Domain>\Policies\PolicyDefinitions\en-US
 
-Note
-
 The domain controller automatically copies the admx and adml files to
                                                    all the domain-joined machines.
 
@@ -99,8 +97,6 @@ Create the custom GPO in the Domain Controller to override the policies outlined
 Ensure that the exception policy imported (see Step-5) has higher priority such
                                  that the exception policy is applied after the Microsoft and CIS policies are
                                  applied.
-
-Note
 
 Step 6 is applicable only on domain controllers.
 
@@ -143,8 +139,6 @@ Unified ICM and Unified CVP 15.0(1) upgrade via Orchestration requires Automatic
 Enable the following policies after you install the ICM server. Refer to the Remarks
                               column for the deviations observed.
 
-Note
-
 The CIS benchmark versions 1.2.1 for Windows Server 2019, version 1.3.0 for Windows Server 2016, Microsoft baseline Windows Server 2019 version 1809,
                                              and Microsoft baseline Windows Server 2016 version 1607 are validated. Before applying the higher version of CIS and Microsoft benchmark, analyze the additional policies introduced in the new
                                        version for the impact on ICM functionality and performance. We recommend the GPOs must be tailored according to your organization’s
@@ -157,20 +151,12 @@ NetBIOS
 
 SMBv1
 
-Note
-
 CCE software requires Windows PowerShell to be available and not blocked by Group Policy during installation, uninstallation,
                                        and upgrade processes of main releases, maintenance releases, and Engineering Specials (ES). Additionally, certain CCE tools
                                        depend on PowerShell and may invoke it dynamically at any time after the CCE software installation. Therefore, access to PowerShell
                                        must not be blocked post-installation.
 
 Ensure that Windows PowerShell execution is permitted and not restricted by Group Policy settings to avoid operational issues.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | The domain controller automatically copies the admx and adml files to
                                                    all the domain-joined machines. Select the applicable language code (en-US) based on your

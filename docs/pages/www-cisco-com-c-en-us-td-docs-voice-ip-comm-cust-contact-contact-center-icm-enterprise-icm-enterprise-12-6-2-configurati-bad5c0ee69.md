@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-bad5c0ee69
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_011.html
-retrieved_at: 2026-08-16T14:41:03.578712+00:00
+retrieved_at: 2026-08-20T18:38:30.423526+00:00
 ---
 
 Serviceability Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -190,8 +190,6 @@ Before you
 These steps
                               		  runs the CW2KFEED process when the logger is started.
 
-### Procedure
-
 Step 1
 
 Go to Start menu and select Run .
@@ -240,13 +238,9 @@ Step 9
 (Optional)  In the Port field, enter the collector port number on which
                                        			 syslog collector is listening.
 
-Note
-
 Step 10
 
 Click Insert to add the IP address to the list.
-
-Note
 
 Step 11
 
@@ -264,12 +258,6 @@ Click Save .
 Step 14
 
 Click OK .
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Field | Description |
 |---|---|

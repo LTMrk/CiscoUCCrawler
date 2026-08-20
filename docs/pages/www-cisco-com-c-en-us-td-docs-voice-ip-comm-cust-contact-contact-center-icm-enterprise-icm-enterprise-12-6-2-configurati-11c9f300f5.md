@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-11c9f300f5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_unified-contact-center-security-wizard.html
-retrieved_at: 2026-08-16T14:40:00.618253+00:00
+retrieved_at: 2026-08-20T18:37:10.544263+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -64,8 +64,6 @@ You can run the
                               		  wizard using the shortcut installed under Start > Programs > Cisco Unified CCE
                                     				Tools > Security Wizard .
 
-Note
-
 Before you use the
                                           			 wizard, read the chapters in this guide about each of the utilities included in
                                           			 the wizard to understand what the utilities do.
@@ -115,8 +113,6 @@ The Default
 
 Disable the
                                  			 Windows firewall.
-
-Note
 
 You cannot disable the firewall using the security wizard when the Windows server hardening
                                              						is applied. See Windows Server
@@ -181,14 +177,10 @@ Shows the status
 Can be used to
                                  			 enable, modify, browse, or disable the policy.
 
-Note
-
 To enable or
                                              				modify a device as Trusted, enter a Preshared Key of 36 characters or more. The
                                              				length of the typed-in key updates as you enter it to help you enter the
                                              				correct length.
-
-Note
 
 You can
                                              				permanently delete the Network Isolation Utility policy at the command line
@@ -266,19 +258,11 @@ Apply or Upgrade SQL Server Security Hardening
 
 Roll back Previously Applied SQL Server Security Hardening
 
-Note
-
 The Rollback is disabled if there is no prior history of SQL Server security hardening or if the hardening was already rolled
                                                 back.
 
 The status bar at
                               		  the top of the panel tells you when the configuration is complete.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Before you use the
                                           			 wizard, read the chapters in this guide about each of the utilities included in

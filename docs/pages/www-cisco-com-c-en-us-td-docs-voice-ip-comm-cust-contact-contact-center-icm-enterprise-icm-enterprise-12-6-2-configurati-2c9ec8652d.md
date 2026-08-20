@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-2c9ec8652d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_010000.html
-retrieved_at: 2026-08-16T14:41:51.184073+00:00
+retrieved_at: 2026-08-20T18:38:09.971059+00:00
 ---
 
 Serviceability Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -28,16 +28,12 @@ Automated alerting mechanism in case of anomaly detection
 
 For ordering and setting up AppDynamics SAAS controller, License key, and Beacon URL please contact appd_ucce_sales@cisco.com
 
-Note
-
 For AppDynamics, CCE supports SaaS and On-Prem controller (version 21.4.10-24683) over secure connection only.
 
 ## Supported Applications
 
 All CCE solution components are supported except ECE, Customer Collaboration Platform (CCP), and Cloud Connect server. Here
                            is a table depicting what is instrumented in each component and monitored:
-
-Note
 
 End-user monitoring is supported for Finesse.
 
@@ -60,8 +56,6 @@ CallServer
 VXMLServer
 
 WebServicesManager
-
-Note
 
 CCESERVERAGENT JVM is an extension of machine agent for ICM nodes. Each ICM node will have one CCESERVERAGENT instance mapped
                                              to it.
@@ -108,8 +102,6 @@ Before the applications can be configured for performance monitoring, ensure tha
                               This access key is required later during the configuration procedure.
 
 For details on how to acquire agent licenses, please contact appd_ucce_sales@cisco.com and for details on application group, access keys etc., see the documentation on AppDynamics at: https://docs.appdynamics.com/display/PRO45/AppDynamics+Essentials .
-
-Note
 
 For end user monitoring on Finesse, you must procure AppDynamics ENUM license.
 
@@ -165,8 +157,6 @@ PCCE-4000-Agents
 
 PCCE-12000-Agents
 
-Note
-
 For information about how to onboard nodes to Cloud Connect server, refer to the Orchestration Deployment Task Flow section in the Unified CCE or Packaged CCE Install and Upgrade Guide .
 
 ### CCE Solution Components
@@ -180,17 +170,11 @@ The CCE solution components existing in domain should have a unique FQDN. The co
 In order to monitor the performance of CCE applications, platforms, and end-user-facing application such as Finesse desktop
                            using AppDynamics, an administrator must configure and enable performance monitoring on target node.
 
-Note
-
 Parallel execution of same or different CLI for AppDynamics on Cloud Connect server is not allowed.
-
-Note
 
 If Cloud Connect is on 12.6(2), you can enable or check the status of performance monitoring or test the connection with AppDynamics
                                        controller only after upgrading the target node to 12.6(2). However, you can disable performance monitoring if the target
                                        node is on 12.6(1).
-
-Note
 
 Before upgrading the Distributor node from 12.6(1) to 12.6(2), disable AppDynamics performance monitoring on 12.6(1) and re-enable
                                        it after upgrading to 12.6(2). If AppDynamics performance monitoring is not disabled before the Distributor node is upgraded
@@ -209,11 +193,7 @@ Performance monitoring is enabled only after restarting the target node. If you 
 All the supported AppDynamics agents on the target nodes are enabled for monitoring; the administrator can’t control the enable
                               or disable of a specific AppDynamics agent on the target node.
 
-Note
-
 You can also use this command to update any existing configuration details on selected nodes.
-
-Note
 
 Controller Host: The hostname/URL of the AppDyanmics Controller. Agents may connect directly to the Controller or through
                                                 a proxy.
@@ -239,31 +219,21 @@ Username: Username of the AppDynamics controller account.
 
 Password: Password of the AppDynamics controller account.
 
-Note
-
 Username and Password are used for enabling Windows Event monitoring on ICM nodes. The administrator has an option to confirm
                                                       on whether AppDynamics Windows event monitoring must be enabled or not, when the ICM node is selected for enabling AppDynamics.
                                                       The Username and Password will be requested only when the administrator confirms to enable Windows Event Monitoring on ICM
                                                       nodes.
 
-Note
-
 Proxy Host and Proxy Port will be requested only when the administrator confirms to use proxy for application monitoring.
                                                       Using proxy for application monitoring is optional.
 
-Note
-
 Beacon URL and Beacon Access Key used for end-user monitoring are applicable only for Finesse node. For more information on
                                                       how to generate a Beacon Access Key, refer to the Generate a Beacon Access Key section below:
-
-Note
 
 Application monitoring configuration on Unified ICM and Unified CVP will be removed as part of Unified ICM 12.6(2) or Unified
                                           CVP 12.6(2) uninstall only when you upgrade from 12.5(x). If application monitoring is already enabled and if you want to
                                           uninstall and reinstall Unified ICM 12.6(2) or Unified CVP 12.6(2) software, after the reinstallation, reconfigure application
                                           performance monitoring using the utils app-monitoring enable CLI.
-
-Note
 
 If performance monitoring is already enabled, and if you want to add or delete the component in Unified ICM, then follow the
                                           below steps to update the performance counters for monitoring.
@@ -279,8 +249,6 @@ When application performance monitoring is enabled, the system specific and CCE-
                               will be reset to the default value if you disable or enable application performance monitoring. The counters added to the
                               monitoring list includes all the installed CCE services including the disabled services. Hence, delete the disabled CCE services
                               from the server if they are not required.
-
-Note
 
 Performance monitoring starts on VOS components approximately 15 to 20 minutes after reboot. During this period, performance
                                           monitoring status for the target node in utils app-monitoring status CLI will be shown as Disabled.
@@ -315,8 +283,6 @@ To update the configuration details for performance monitoring, run the app-moni
 To disable performance monitoring on Windows and VOS nodes, run the app-monitoring disable command. Performance monitoring will be disabled after restart of target node. The configurations will, however, be retained. Administrator will not be allowed to disable any specific AppDynamics agent on the target node. All supported AppDynamics
                                  agents will be disabled by default.
 
-Note
-
 If the Cloud Connect is on 12.6(2), you can enable or disable AppDynamics only after upgrading the target node to 12.6(2).
 
 ### Check Status of Performance Monitoring
@@ -343,8 +309,6 @@ To test whether the configured Windows and VOS nodes are able to connect to the 
 To import private or public CA certificate chains of App-Monitoring Controller into the respective App-Monitoring Machine
                                  Agent and App-Monitoring Application Server Agent trust stores of the VOS-based components (Finesse, IdS, CUIC, LD, and VVB),
                                  run the utils app-monitoring controller-certificate import command.
-
-Note
 
 This command is available only when you install the ucos.appdAgentsCertImportCLI.1262.cop file.
 
@@ -381,8 +345,6 @@ Displays whether the certificates have been successfully imported to the App-Mon
 To view the certificates in the App-Monitoring Machine Agent trust store of the VOS-based components (Finesse, IdS, CUIC,
                                  LD, and VVB), run the utils app-monitoring display machine-agent-trust-store-certs command.
 
-Note
-
 This command is available only when you install the ucos.appdAgentsCertImportCLI.1262.cop file.
 
 Run this CLI separately on publisher and subscriber nodes.
@@ -409,8 +371,6 @@ Displays the certificate aliases present in the App-Monitoring Machine Agent tru
 
 To view the certificates in the App-Monitoring Application Server Agent trust store of the VOS-based components (Finesse,
                                  IdS, CUIC, LD, and VVB), run the utils app-monitoring display appserver-agent-trust-store-certs command.
-
-Note
 
 This command is available only when you install the ucos.appdAgentsCertImportCLI.1262.cop file.
 
@@ -450,8 +410,6 @@ Adding at least one valid email address is mandatory. However, you can add
 
 Threshold for alerts is enabled by default as part of Cisco-delivered
                                     template.
-
-Note
 
 You can also view, create, overwrite, delete, export, apply and disable the
                                                 template on the application. For details on managing templates, see https://docs.appdynamics.com/display/PRO21/Configure+and+Manage+Alerting+Templates .
@@ -516,8 +474,6 @@ Edit the following strings in the template:
 "applicationName" - Update this with the corresponding application name for which
                                     you want to create a dashboard.
 
-Note
-
 "entityName" - Set the name of the system that is monitored.
 
 If the "entityType" is set to "APPLICATION_COMPONENT_NODE", update this string with the corresponding AW component node name.
@@ -525,8 +481,6 @@ If the "entityType" is set to "APPLICATION_COMPONENT_NODE", update this string w
 
 Once the template file is edited and imported, the dashboard will display the
                                     performance and health status of the system.
-
-Note
 
 If the "entityType" is set to "APPLICATION_COMPONENT", then do not
                                                       make any changes to the "entityName".
@@ -566,8 +520,6 @@ Cisco Finesse provides important JMX counters with associated threshold values t
                                  can be used to monitor the health of Finesse. The following tables list the JMX
                                  counters with corresponding threshold values at the login phase and steady
                                  phase.
-
-Note
 
 The JMX counter IntervalLoginOperations with the JMX object
                                              name com.cisco.ccbu:category=LoginStats,component0=LoginStats-webservices will be used to determine the total number of logins.
@@ -834,8 +786,6 @@ file get activelogappdynamics/machineagent/logs
 
 file get activelog appdynamics/appserveragent/<version>/logs
 
-Note
-
 Ensure that you use the exact regular expression to accurately retrieve the details of the nested directory.
 
 <Install Directory>:\Cisco\AppDynamics\log\AppDynamics_Perf_Configuration.log
@@ -843,8 +793,6 @@ Ensure that you use the exact regular expression to accurately retrieve the deta
 <Install Directory>:\Cisco\AppDynamics\log\AppDynamics_Configuration.log
 
 <Install Directory>:\Cisco\CVP\AppDynamics\log\AppDynamics_Configuration.log
-
-Note
 
 For ICM and CVP, the install directory location changes based on your system
                                        configuration.
@@ -878,12 +826,6 @@ You can disable or enable AppDynamics through AppDynamics CLI on Cloud Connect.
                                  with the new application name.
 
 Performance monitoring for ECE, CCP and Cloud Connect is currently not supported.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | For AppDynamics, CCE supports SaaS and On-Prem controller (version 21.4.10-24683) over secure connection only. |
 |---|---|

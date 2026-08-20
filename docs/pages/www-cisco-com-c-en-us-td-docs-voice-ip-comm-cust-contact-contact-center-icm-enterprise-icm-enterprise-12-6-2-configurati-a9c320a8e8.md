@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-a9c320a8e8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_01011.html
-retrieved_at: 2026-08-16T14:41:46.735506+00:00
+retrieved_at: 2026-08-20T18:38:26.040304+00:00
 ---
 
 Serviceability Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -25,8 +25,6 @@ You set the level of logging you want by using Cisco Identity Service Management
 ### Set the Cisco Identity Service Log Levels
 
 You set log levels for the Cisco Identity Service using Cisco Identity Service Management.
-
-#### Procedure
 
 Step 1
 
@@ -64,8 +62,6 @@ Click Save .
 
 To help in troubleshooting, you can  identify a remote Syslog server as a repository for receiving errors in Syslog format.
 
-### Procedure
-
 Step 1
 
 In Unified CCE Administration, navigate to System > Single Sign-On .
@@ -97,14 +93,6 @@ To receive errors in Syslog format, enter the name of the Remote Syslog Server i
 Step 8
 
 Click Save .
-
-Note
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Step 1 | In Unified CCE Administration, navigate to System > Single Sign-On . |
 |---|---|
