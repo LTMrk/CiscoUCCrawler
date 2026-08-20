@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-c86aecaf52
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization/ucce_m_1501_unified-intelligence-center.html
-retrieved_at: 2026-08-16T14:34:57.984913+00:00
+retrieved_at: 2026-08-20T18:55:30.422832+00:00
 ---
 
 Port Utilization Guide for Cisco Unified Contact Center Solutions, Release 15.0(1)
@@ -77,8 +77,6 @@ Random
 Bi-Directional
 
 HTTPS - OAMP
-
-Note
 
 The port 8447 is deprecated and will be removed in future releases. Unified Intelligence Center Online Help will be available
                                           on Port 8444.
@@ -177,8 +175,6 @@ Bi-Directional
 
 Live Data Web Service and Live Data Socket.IO listening port.
 
-Note
-
 The ports 12005 and 12008 are deprecated and will be removed in future releases. The port 443 will be used for Live Data Web
                                           Service and Live Data Socket.IO Service.
 
@@ -222,12 +218,6 @@ Cisco Unified Intelligence Center, which runs on the Cisco VOS operating system 
                               and TCP 5003 for SOAP monitoring. For more information on these ports, see Port Utilization for System Services section.
 
 For more information on other port usages, see: https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-maintenance-guides-list.html
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Listener (Process or Application Protocol) | Listener Protocol and Port | Remote Device (Process or Application Protocol) | Remote Port | Traffic Direction | Notes |
 |---|---|---|---|---|---|

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-d91cf8d5e2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/certificate_management_for_secured_connections.html
-retrieved_at: 2026-08-16T14:36:02.786113+00:00
+retrieved_at: 2026-08-20T18:55:44.443656+00:00
 ---
 
 Security Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -41,15 +41,11 @@ CiscoCertUtil used for creating and installing self-signed certificates and CA-s
 
 Diagnostic Framework Cert Utility used for Diagnostic Portico applications.
 
-Note
-
 The Unified CCE Certificate Monitoring service monitors the self-signed and CA-signed certificates and keys that are used
                                        for certificate management. The service alerts the system administrator about the validity and expiry of these certificates.
                                        For more information, see the Serviceability Guide for Cisco Unified Contact Center Enterprise at http://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html
 
 ### SSL Encryption Utility
-
-Note
 
 Although this utility currently has its original name, the SSL
                                              Encryption Utility now configures web applications for use
@@ -120,8 +116,6 @@ To uninstall and deactivate the existing ECDSA
 
 To activate the RSA certificate, click Install.
 
-Note
-
 The ECDSA certificate can be generated and installed only via
                                              the command line.
 
@@ -129,8 +123,6 @@ The ECDSA certificate can be generated and installed only via
                               	 During Setup
 
 By default, setup enables TLS for the Unified CCE Internet Script Editor application.
-
-Note
 
 The SSL Configuration Utility can be used to create self-signed certificates, to install the
                                  			certificates in IIS, and to remove certificates from IIS. When invoked as part of setup,
@@ -142,8 +134,6 @@ To use TLS for
 
 During setup, the utility generates a self-signed certificate, imports it into the Local Machine Store, and installs it on
                                  the web server. Virtual directories are enabled and configured for TLS with 256-bit encryption .
-
-Note
 
 During setup, if a certificate exists or the web server has an existing server certificate installed, a log entry is added
                                              and no changes take effect. Use the utility in standalone mode or use the IIS Services Manager to make certificate management
@@ -184,8 +174,6 @@ Generates self-signed certificates in the PEM format, which is an X509 extension
 
 Generates the corresponding key with the filename host.key .
 
-Note
-
 The default host.key file is created during Unified CCE setup. The /generateCSR command reuses the existing key; therefore, you do not need to generate or replace host.key when requesting a CA-signed certificate. Do not modify, move, or replace this file unless the private key is compromised
                                                    and you are performing a planned certificate-and-key rotation.
 
@@ -193,8 +181,6 @@ Does not validate any certificate.
 
 Does not create any log file pertaining to the operations that it performs. If there are errors, the error log appears on
                                        the console.
-
-Note
 
 Use the CiscoCertUtil utility to install or delete selfsigned certificates only.
 
@@ -230,8 +216,6 @@ Install the CA-signed certificate and the applicable root and intermediate CA ce
 /generateCSR/curve The command generates ECDSA CSR with
                                        						P384 as the default curve.
 
-Note
-
 When you generate a certificate signing request (CSR), you will be prompted to key in the Organization Unit (OU). Based on
                                                    the RFC5280 standard and baseline requirement, the Organization Unit is not required. You can leave this field blank so that
                                                    the Certificate Authorities will not include the field in the certificate.
@@ -251,10 +235,6 @@ CiscoCertUtil /install c:\icm\ssl\certs\host.pem.
 
 /help displays the usage of the commands.
 
-Note
-
-Note
-
 During CCE installation, self-signed certificates for RSA and ECDSA are already generated. RSA certificate is available at <Install_drive>\icm\ssl\RSA , and ECDSA certificate is available at <Install_drive>\icm\ssl\ecdsa . Run the following commands to generate new certificates (in cases where the certificate key is compromised or if the selfsigned
                                                    certificate has expired):
 
@@ -270,8 +250,6 @@ Diagnostic Framework Certificate Manager utility can perform the following tasks
 
 The Diagnostic Framework Certificate Manager utility is a command-line utility used to manage certificate creation and binding
                                  for the Diagnostic Portico. It is installed at <ICM_Drive>:\icm\serviceability\diagnostics\bin\DiagFwCertMgr.exe .
-
-#### Procedure
 
 Step 1
 
@@ -379,8 +357,6 @@ The Diagnostic Framework Certificate Manager utility stores the thumbprints  of 
 
 - HKLM\SOFTWARE\Cisco Systems, Inc.\ICM\Serviceability\ DiagnosticFramework\CertUsedByDiagFwSvc
 
-Note
-
 For more information see, Serviceability Guide for Cisco Unified Contact Center Enterprise at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html
 
 ## Enabling ECDSA for Unified CCE Solutions
@@ -397,8 +373,6 @@ For example, before enabling ECDSA on the CTI Server, the CTI Server's ECDSA cer
 The administrator can enable ECDSA individually on each solution component, after the
                            certificate exchange is completed. The administrator has the option to enable ECDSA on
                            different solution components across multiple maintenance windows.
-
-Note
 
 A component operates on ECDSA only if the server is configured to use ECDSA.
 
@@ -643,8 +617,6 @@ Copy and install the self-signed certificate available on the CTI Server  into t
 
 Copy and install the self-signed certificate that is available on the Dialer  into the CTI Server.
 
-Note
-
 If the client and the server are on the same machine, the security
                                                    certificate that is available on the machine needs to be placed on the
                                                    trusted store once, by the server or the client. The second attempt to
@@ -667,12 +639,8 @@ Cisco Unified Contact Center Enterprise Installation and Upgrade Guide at https:
 
 Outbound Option Guide for Unified Contact Center Enterprise at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-user-guide-list.html
 
-Note
-
 Exchange certificates and establish secured connection separately on both Side A
                                              and Side B of the Unified CCE solution.
-
-Note
 
 If you add, delete, or renew a certificate, restart the service to establish a
                                              new connection.
@@ -701,8 +669,6 @@ Ensure that appropriate certificates are exchanged before changing this
 
 To establish a secured connection between CCP and MR PG by exchanging self-signed certificates, perform the following steps:
 
-#### Procedure
-
 Step 1
 
 Check the Enable Secured Connection check box in the MRPIM Properties window and in CCP to ensure that the security is enabled using VOS CLI.
@@ -720,8 +686,6 @@ Copy and install the self-signed certificate that is available on MR PG (RSA or 
 Step 4
 
 Import the certificate in the respective component trust store/keystore.
-
-Note
 
 In Unified CCE deployments, the certificate should be installed at ICM install drive>\ssl\cacerts in Unified CCE AW VM. Use the following command:
 
@@ -859,8 +823,6 @@ Refer to the following steps for security certificate management for Finesse ser
 
 Use this procedure to export security certificates from the Finesse server.
 
-###### Procedure
-
 Step 1
 
 Sign in to Cisco Unified Operating System Administration console on Finesse
@@ -895,8 +857,6 @@ Click the certificate to select it. Click Download .pem file and save the file t
 
 Ensure that the certificate you select includes the hostname for the server.
 
-Note
-
 ###### What to do next
 
 Perform these steps for all the Finesse server nodes.
@@ -904,10 +864,6 @@ Perform these steps for all the Finesse server nodes.
 ##### Importing a Certificate to Finesse Server
 
 Use this procedure to import security certificates to the Finesse server.
-
-Note
-
-###### Procedure
 
 Step 1
 
@@ -952,8 +908,6 @@ Refer to the following sections for security certificate management for Cloud Co
 
 ##### Export a Certificate from Cloud Connect
 
-###### Procedure
-
 Step 1
 
 Sign in to Cisco Unified OS Administration on the Cloud Connect server using the following URL: https://FQDN of Cloud Connect server:8443/cmplatform .
@@ -977,8 +931,6 @@ Step 4
 
 Click the tomcat certificate hyperlink in the Common Name column.
 
-Note
-
 Ensure that the certificate you select includes the hostname for the server. For CA-signed certificate, find and download
                                                                the CA-signed application certificate, Root CA certificate, and Intermediate Authority certificate.
 
@@ -996,8 +948,6 @@ Follow the same steps for the other node of Cloud Connect for the self-signed ce
                                        The Root CA certificate and Intermediate Authority certificate are common for both the nodes of Cloud Connect.
 
 ##### Import a Certificate into Cloud Connect
-
-###### Procedure
 
 Step 1
 
@@ -1058,14 +1008,10 @@ Install the CA-signed application certificate using the command CiscoCertUtil / 
                                           is Personal if no option is provided. If the root or ca folder is the same for both the coreicm.cer and the Cloud Connect Tomcat certificates, no additional configuration is required. Else, the steps outlined above must be
                                           performed because Cloud Connect may be configured for external-facing traffic, requiring distinct certificate validation.
 
-Note
-
 For VOS components, the procedure to upload or download the CA certificate is similar to the procedure to download the ECDSA
                                                 certificate, except that, for ECDSA, the certificate purpose as tomcat-ECDSA instead of tomcat.
 
 #### Generate and Copy CA Certificates of VOS Components
-
-##### Procedure
 
 Step 1
 
@@ -1121,13 +1067,9 @@ For more information about CA-signed certificates, see the Security topics in th
 
 #### Delete Expired Trust Certificates for VOS Components
 
-Note
-
 Identify trust certificates that are no longer required or have expired. Do not delete base certificates such as tomcat.pem
                                                 and ipsec.pem. Delete trust certificates only when appropriate. Restarting services will clear any legacy certificate information
                                                 stored in memory.
-
-##### Procedure
 
 Step 1
 
@@ -1148,8 +1090,6 @@ Locate and delete expired trust certificates:
 From Cisco Unified OS Administration , navigate to Security > Certificate Management > Find .
 
 Identify the expired trust certificates.
-
-Note
 
 The same trust certificate may exist on multiple nodes. Delete each instance individually.
 
@@ -1186,8 +1126,6 @@ Restart the Cisco Certificate Change Notification service you stopped in Step 1.
 
 ### Manage CCE Web Application Security (HTTPS)
 
-Note
-
 Starting release 12.6(2), Unified CCE web applications (like CCE Admin, Web Setup, Diagnostic Portico and Internet Script
                                              Editor tools) will use only HTTPS to communicate with the interface.
 
@@ -1203,8 +1141,6 @@ SSL Encryption Utility tool is used to generate certificates for WebSetup, Unifi
 
 Follow the procedure below to bind ECDSA certificate to IIS port.
 
-##### Procedure
-
 Step 1
 
 Login to Unified CCE VM, where SSLUtility based webservices are used. Open the
@@ -1215,8 +1151,6 @@ Step 2
 To verify, in IIS Manager server , go to Site
                                                 Binding . Select Port 443.
 
-Note
-
 ECDSA certificates can be generated and bound only with the
                                                                   command line option.
 
@@ -1224,8 +1158,6 @@ For CA certificate, the administrator can use Windows tools (IIS
                                                                   manager) to generate and bind to IIS port 443.
 
 To revert to RSA or to bind with different curve certificate, see SSL Encryption Utility in the Security Guide for Cisco Unified Contact Center at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html
-
-Note
 
 P384 curve is used when curve_name is not specified.
 
@@ -1236,8 +1168,6 @@ For CA certificate, the administrator can generate CSR and install self-signed c
 
 ##### Before you begin
 
-##### Procedure
-
 Step 1
 
 Stop the service in Diagnostic Framework through Windows service control.
@@ -1245,8 +1175,6 @@ Stop the service in Diagnostic Framework through Windows service control.
 Step 2
 
 Open the command prompt and change the directory to <ICM_Drive>:\icm\serviceability\diagnostics\bin .
-
-Note
 
 Before binding, ensure that the certificate is placed in the personal
                                                             store. For more information, see CiscoCertUtil
@@ -1256,8 +1184,6 @@ Step 3
 
 To bind the Cisco ICM Diagnostic certifcate ECDSA, run the DiagFwCertMgr.exe /task:BindCertFromStore
                                                 /certhash:certificate_thumbprint command.
-
-Note
 
 Get the certificate_thumbprint from registry key SelfSignedCertECDSAForDiagFwSvc available under the
                                                             path HKEY_LOCAL_MACHINE\SOFTWARE\Cisco Systems,
@@ -1277,8 +1203,6 @@ Restart the Diagnostic Framework service. You can use the commands:
 sc stop diagfwsvc
 
 sc start diagfwsvc
-
-Note
 
 For CA certificate, the administrator can use Windows tool to generate
                                                             and bind. For more information, refer to the TechNotes at https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200755-Configure-HTTPS-Access-for-UCCE-Diagnost.html
@@ -1322,8 +1246,6 @@ To use ECDSA certificate for Unified CCE web services, see Manage CCE Web Applic
 Refer to the section Manage Secured PII in
                                        Transit on how to enable ECDSA for Unified CCE component.
 
-##### Procedure
-
 Step 1
 
 For secure connections, exchange the certificate based on the server-to-client
@@ -1341,14 +1263,10 @@ Step 3
 The system will restart the Unified CCE. Once the reboot is complete, ECDSA
                                              mode is enabled.
 
-Note
-
 ECDSA will be enabled only after the system restart.
 
 System restart time is as per RebootWaitSecs (default is 5 mins).
                                                                   This can be modified.
-
-Note
 
 For CA certificate, the administrators, can generate CSR and install the signed certificates to the Windows store. For more
                                                             information, see Manage Secured PII in Transit in Security Guide for Cisco Unified Contact Center Enterprise at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1.html
@@ -1362,8 +1280,6 @@ To disable ECDSA, set the ECDSAEnabled Registry flag to False . The system will 
 #### Before you begin
 
 Perform the following steps to enable ECDSA for VOS components.
-
-#### Procedure
 
 Step 1
 
@@ -1384,8 +1300,6 @@ Download ECDSA certificate from tomcat-trust with -EC
 For more information, on how to download the ECDSA certificate, see Download the Server Certificate from VOS Node
 
 Import the certificate in the respective component trust store/keystore.
-
-Note
 
 In Unified CCE deployments, the certificate should be installed at ICM install drive>\ssl\cacerts in Unified CCE
                                                          AW VM. Use the following command:
@@ -1416,8 +1330,6 @@ This section is also applicable for Cisco Unified Intelligence Center Administra
 If you are using self-signed certificates, add the certificates to the Client OS trust store to access the administrative
                               web applications.
 
-Note
-
 #### Download the Server Certificate from VOS Node
 
 Run the show server tls cert_type command on your server and identify the certificate type that your server
@@ -1425,8 +1337,6 @@ Run the show server tls cert_type command on your server and identify the certif
                                        Console User Guide for Cisco Unified Intelligence Center at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/products-maintenance-guides-list.html
 
 This section provides instructions to download the server certificate from VOS node .
-
-##### Procedure
 
 Step 1
 
@@ -1460,8 +1370,6 @@ In the new window, click Download .DER File or Download .PEM File and save it.
 
 To add the certificate to the Trusted Root Certification Authorities on Windows Client system, do the following:
 
-##### Procedure
-
 Step 1
 
 In the Control Panel search for Manage User Certificates and click Manage User Certificates .
@@ -1494,8 +1402,6 @@ For example: https://<FQDN>:8443/cmplatform . The Chrome browser now shows the l
 
 This section is applicable for Mac OS Catalina version 10.15 and above. To add the certificate to Keychain Access in Mac Client
                                  machine, do the following:
-
-#### Procedure
 
 Step 1
 
@@ -1565,13 +1471,9 @@ utils cloudconnect start digitalrouting
 The connection between Cloud Connect and MR PG is secured by default. You can disable the secure connection in the Unified
                                  CCE Administration portal. For instructions, see the Manage connection between Cloud Connect and MR PG section in the Cisco Unified Contact Center Enterprise Features Guide .
 
-Note
-
 Mutual TLS (mTLS) authentication is enforced when the secure connection is enabled.
 
 The RSA mode is enabled by default. To switch to the ECDSA mode, see Enabling ECDSA for Unified CCE Component and Enabling ECDSA for VOS components .
-
-Note
 
 Ensure that appropriate certificates are exchanged before you switch between RSA and ECDSA.
 
@@ -1618,16 +1520,12 @@ Locate the intermediate certificate, right-click the certificate, and then selec
 
 Choose the format based on the peer system requirement, and then save the certificate.
 
-Note
-
 Repeat the above steps to export all intermediate certificates.
 
 ### Set up Nginx reverse proxy certificate
 
 Set up the Nginx reverse proxy certificate for TLS connections that is digital channel tasks that originate from Webex Connect
                                  and stops at the Nginx reverse proxy server and for agent synchronization requests from Webex Engage.
-
-#### Procedure
 
 Step 1
 
@@ -1676,8 +1574,6 @@ A challenge password []:cisco
 An optional company name []:Cisco
 ```
 
-Note
-
 Make a note of the PEM pass phrase that you must decrypt the private key during the deployment.
 
 Step 3
@@ -1718,8 +1614,6 @@ Restart the Nginx reverse proxy server.
 Access to Customer Collaboration Platform Administration UI is restricted
                                  to clients that have been explicitly granted access using the Admin CLI. For any
                                  modification to the allowed list to take effect, Cisco Tomcat must be restarted.
-
-Note
 
 #### utils permitlist admin_ui list
 
@@ -1849,8 +1743,6 @@ Due to changes in the Firefox security model, there are additional self-signed c
 
 When accessing a Customer Collaboration Platform server using a newly installed Firefox browser (any version), Firefox attempts to connect to the main port that Customer Collaboration Platform uses first (port 443). If it cannot connect, it prompts the user to accept the self-signed certificate.
 
-Note
-
 If pop ups are
                                                 			 blocked, you are given instructions on how to manually launch the certificate
                                                 			 page. Also, if the certificate window is closed before the certificate is
@@ -1903,8 +1795,6 @@ Click Proceed to
 
 - Upon clicking "Proceed to <Server IP Address>", the Customer Collaboration Platform log on page is displayed.
 
-Note
-
 Users need to go
                                              		  through this process only the first time they use a new Chrome browser and
                                              		  self-signed certificates.
@@ -1925,8 +1815,6 @@ Log in with an account that has administrator privileges.
 
 After installation, the system binds the certificate to SQL Server automatically by default. Administrators can later run
                            the script manually  to view, update, or disable the certificate binding.
-
-Procedure
 
 Open a PowerShell window with administrator privileges.
 
@@ -1954,8 +1842,6 @@ To reimport or rebind TLS certificate:
 
 The -force parameter rebinds or reimports the TLS certificate to SQL Server.
 
-Note
-
 Ensure that you restart SQL Server after rebinding the TLS certificate.
 
 To restart the SQL Server:
@@ -1973,8 +1859,6 @@ To disable certificate binding:
 ```
 
 The -disable parameter disables the SQL Server certificate binding.
-
-Note
 
 Ensure that you restart SQL Server after certificate binding.
 
@@ -2003,8 +1887,6 @@ If the certificate type changes from RSA to ECDSA or from ECDSA to RSA, the Cisc
 Contact center enterprise solutions use Transport Layer Security (TLS). Refer to your browser's documentation for details
                            on how to configure support for TLS. See the Contact Center Enterprise Compatibility Matrix at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-device-support-tables-list.html for the supported TLS versions.
 
-Note
-
 For backward compatibility with the earlier versions of clients, you can downgrade the Unified CCE Windows systems to earlier
                                        versions of TLS by following Microsoft procedures.
 
@@ -2014,12 +1896,6 @@ If you apply security hardening without configuring support for TLS, your browse
 ### Customers Also Viewed
 
 - Configure Webex AI Agent for CCE
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | The Unified CCE Certificate Monitoring service monitors the self-signed and CA-signed certificates and keys that are used
                                        for certificate management. The service alerts the system administrator about the validity and expiry of these certificates.

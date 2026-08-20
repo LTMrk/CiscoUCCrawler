@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-ed978a5f70
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/encryption_support.html
-retrieved_at: 2026-08-16T14:35:39.920768+00:00
+retrieved_at: 2026-08-20T18:55:48.074470+00:00
 ---
 
 Security Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -41,8 +41,6 @@ CUIC reporting users can either use
                               				to gain access to reporting, and not the local MD5 password stored in the
                               				configuration database.
 
-Note
-
 Unified CCE cannot read, set, or change user passwords in Active Directory. It is possible and likely that the Supervisor
                                           reporting users may use a password (their AD password) to login to CUIC that is different from their agent password set by
                                           the configuration administrator.
@@ -63,8 +61,6 @@ For more information, see About IPsec and Manage Secured PII in Transit .
 
 ## Internet Script
                         	 Editor
-
-Note
 
 If you use Unified Contact Center Management Portal (Unified CCMP) or Unified Contact Center Domain Manager (Unified CCDM),
                                        you cannot use Transport Layer Security (TLS) v1.0 for Internet Script Editor.
@@ -210,16 +206,12 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Cisco Systems, Inc.\ICM\Cisco SSL Configuration\Serv
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Cisco Systems, Inc.\ICM\Cisco SSL Configuration\ClientCiphers
 
-Note
-
 If the client and/or server cipher list was customized before the 15.0 upgrade, all the customised ciphers are retained post-upgrade.
                                                 In such cases, manual configuration of the ciphers is needed to meet the Cisco recommended cipher list.
 
 #### Manage TLS Cipher Suites on VOS systems
 
 To keep the ciphers upto date, use the following commands that are applicable for VOS components Cisco VVB , Cisco Unified Intelligence Center , Cisco IdS , Finesse , and Cloud Connect :
-
-Note
 
 The CLIs are node specific.
 
@@ -395,8 +387,6 @@ Restart the system using the command 'utils system restart' for the changes to t
 
 The Windows registry key Cisco SSH configuration is available for SSH clients while establishing SSH connections.
 
-Note
-
 This configuration is available only for Packaged CCE 2000 / 4000/ 12000 agent deployments and in lab mode. The configuration
                                           is used when a gateway is added in inventory. The client is Unified CCE Admin and the server is gateway.
 
@@ -482,12 +472,6 @@ To update these configurations, modify the corresponding registries under the Ci
 ### Customers Also Viewed
 
 - Configure Webex AI Agent for CCE
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Unified CCE cannot read, set, or change user passwords in Active Directory. It is possible and likely that the Supervisor
                                           reporting users may use a password (their AD password) to login to CUIC that is different from their agent password set by

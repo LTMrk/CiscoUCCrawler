@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-5ccc6df64f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/remote_administration.html
-retrieved_at: 2026-08-16T14:36:15.032172+00:00
+retrieved_at: 2026-08-20T18:56:04.676924+00:00
 ---
 
 Security Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -22,8 +22,6 @@ Chapter: Remote Administration
 Remote Desktop permits users to remotely run applications on Windows Server from a range of devices over virtually any network
                               connection. You can run Remote Desktop in either Application Server or Remote Administration modes. Unified CCE only supports Remote Administration mode.
 
-Note
-
 Use of any remote administration applications can cause adverse effects during load.
 
 Use of remote administration tools that employ encryption can affect server performance. The performance level impact is tied
@@ -42,12 +40,8 @@ Run
 Run Script
                                     				Editor
 
-Note
-
 Remote Desktop
                                                 				  is not supported for software installation or upgrade.
-
-Note
 
 Administration
                                           			 Clients and Administration Workstations can support remote desktop access. But,
@@ -99,8 +93,6 @@ Consider setting high encryption levels to protect against unauthorized monitori
                                     Editor, navigate to Computer Configuration > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session
                                           Host > Security . Click the Set client connection encryption level policy, select the Enabled option, and then set Encryption Level to High Level .
 
-Note
-
 Microsoft network client: Digitally sign communications (always)
 
 Microsoft network client: Digitally sign communications (if server agrees)
@@ -114,8 +106,6 @@ Microsoft network server: Digitally sign communications (if client agrees)
 
 Use the following
                                  		  procedure to set up per-user terminal services settings for each user.
-
-#### Procedure
 
 Step 1
 
@@ -170,13 +160,9 @@ Logging events
 For more information
                            		about pcAnywhere, see the Symantec web site .
 
-Note
-
 This discussion
                                        		  applies to all approved versions of pcAnywhere. Refer to the Compatibility
                                        		  Matrix for the versions qualified and approved for your release of ICM.
-
-Note
 
 Administration
                                        		  Clients and Administration Workstations can support remote desktop access. But,
@@ -453,12 +439,6 @@ SSH Server allows
                               		  the use of VNC through an encrypted tunnel to create secure remote control
                               		  sessions. However, Cisco does not support this configuration. The performance
                               		  impact of running an SSH server has not been determined.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Use of any remote administration applications can cause adverse effects during load. Use of remote administration tools that employ encryption can affect server performance. The performance level impact is tied
                                                 to the level of encryption used. More encryption results in more impact to the server performance. |

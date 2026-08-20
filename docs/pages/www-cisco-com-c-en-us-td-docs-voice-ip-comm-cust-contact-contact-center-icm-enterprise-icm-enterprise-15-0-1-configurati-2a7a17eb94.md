@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-2a7a17eb94
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/other_security_considerations.html
-retrieved_at: 2026-08-16T14:36:23.831808+00:00
+retrieved_at: 2026-08-20T18:56:00.847422+00:00
 ---
 
 Security Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -51,8 +51,6 @@ AccountLockoutResetCountDuration: The default is 15. Number of minutes before th
                                        account doesn’t get locked out, but you have unsuccessful login attempts less than the value mentioned in AccountLockoutThreshold.
 
 AccountLockoutThreshold: The default is 3. This is the number of unsuccessful login attempts after which the account is locked out.
-
-Note
 
 Finesse blocks access to user accounts, if agents or supervisors try to sign in to the desktop five times consecutively with
                                                    a wrong password. The lockout period is five minutes. For more information about these settings, see the Cisco Finesse Administration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-maintenance-guides-list.html .
@@ -141,8 +139,6 @@ PatchInfo_ICM_* within <install_drive>\icm\AdminClient\lib\setup.war
 
 For Unified CVP—Patchinfo_CVP_* within <install_drive>\Cisco\CVP
 
-Note
-
 You can delete the files in the backup folders. However, ensure to take a backup of these files if you need to roll back.
 
 ## Java Upgrades
@@ -160,8 +156,6 @@ Modify the Windows CCE_JAVA_HOME environment variable to point to the new OpenJD
 ## Change Java certificate store password
 
 Follow these steps to change the store password:
-
-### Procedure
 
 Step 1
 
@@ -246,8 +240,6 @@ Download link for 15.0(1): https://software.cisco.com/download/home/284360381/ty
 
 For detailed information on the results from each step, see the ../UpgradeTomcatResults/UpgradeTomcat.log file.
 
-Note
-
 Stop Unified CCE services on the VM before using the Tomcat Utility.
 
 ### SUMMARY STEPS
@@ -290,8 +282,6 @@ Step 5
 
 Repeat these steps for all unified CCE component VMs.
 
-Note
-
 ## Microsoft Security
                         	 Updates
 
@@ -303,8 +293,6 @@ Automatically applying security and software update patches from
 Assess all security patches released by Microsoft and install those patches deemed appropriate for your environment. Do not
                            automatically enable Microsoft Windows Update. The update schedule can conflict with other Unified CCE activity. Consider using Microsoft Software Update Service or similar patch management products to selectively apply Critical
                            and Important security patches. Follow the Microsoft guidelines about when and how you apply these updates.
-
-Note
 
 Assess the security exposure of the critical security patches or cumulative updates released by Microsoft for Windows, IIS,
                                        and SQL. Apply critical security patches or cumulative updates as you deem necessary for your site.
@@ -345,8 +333,6 @@ Contact center enterprise solutions use the Global Catalog for Active Directory.
                               Unified CCE Hosts reside must publish the Global Catalog for that domain. This includes all domains with which your solution
                               interacts, for example, Authentication, user lookups, and group lookups.
 
-Note
-
 This does not imply cross-forest operation. Cross-forest operation is not supported.
 
 ### Active Directory Site Topology
@@ -364,8 +350,6 @@ When you install the solution software, the AD Domain in which the VMs are membe
                                  adds several OU objects, containers, users, and groups for the solution. You need delegated control over the Organizational
                                  Unit in AD to install those objects. You can locate the OU anywhere in the domain hierarchy. The AD Administrator determines
                                  how deeply nested the contact center enterprise solution OU hierarchy is created and populated.
-
-Note
 
 All created groups are Domain Local Security Groups, and all user accounts are domain accounts. The Service Logon domain account
                                              is added to the Local Administrators' group of the application servers.
@@ -435,8 +419,6 @@ Windows Management Instrumentation (WMI) is used to manage Windows
 
 To configure the WMI
                                  		  namespace-level security:
-
-#### Procedure
 
 Step 1
 
@@ -775,8 +757,6 @@ Warning
 
 Configure agents in accordance to the antivirus policies described in this document. Do not run Polling or intrusive scans
                                        during peak hours, but rather schedule these activities for maintenance windows.
-
-Note
 
 Install SNMP services as instructed by these third-party management
                                        		  applications to take full advantage of the management capabilities provided
@@ -1154,12 +1134,6 @@ https://<CUIC_FQDN:8444/{locale}/reportdefinitions/{repDefId}
 ### Customers Also Viewed
 
 - Configure Webex AI Agent for CCE
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Finesse blocks access to user accounts, if agents or supervisors try to sign in to the desktop five times consecutively with
                                                    a wrong password. The lockout period is five minutes. For more information about these settings, see the Cisco Finesse Administration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-maintenance-guides-list.html . |

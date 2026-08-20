@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-4e94b50d8e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/capacity_planning.html
-retrieved_at: 2026-08-16T14:37:11.313284+00:00
+retrieved_at: 2026-08-20T18:56:37.824165+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -379,12 +379,6 @@ Calls In Progress
 Agents Logged On
 
 Graphing these data sets relative to resource data sets may provide a compelling visual message.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 |  |
 |---|

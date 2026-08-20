@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-e7fb16fea3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_skill-targets.html
-retrieved_at: 2026-08-16T14:33:37.024711+00:00
+retrieved_at: 2026-08-20T18:54:22.874289+00:00
 ---
 
 Configuration Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -67,8 +67,6 @@ The following sections show you how to use the Service Explorer to
 
 To view a service, follow these steps:
 
-##### Procedure
-
 Step 1
 
 In the Configuration Manager menu, select Tools > Explorer
@@ -80,8 +78,6 @@ Step 2
 In the Select filter data box, select the peripheral
                                              			 associated with the service you want to view. You can choose the name from the
                                              			 drop-down list.
-
-Note
 
 Once you have saved a service record to the Unified ICM database, you cannot change the peripheral to which it is
                                                             				associated.
@@ -95,8 +91,6 @@ Step 4
 
 Click Retrieve . This lists in the tree list
                                              			 box the names of retrieved services.
-
-Note
 
 A tree object is unassigned if it was made by another
                                                             				configuration tool and was not assigned (mapped) to a parent object; for
@@ -215,8 +209,6 @@ The extension number for the skill group. For all other peripheral types, leave 
 This tab allows you to view service members information for the service
                                  		that is currently selected. If you have maintenance access, this tab also lets
                                  		you add or remove service members.
-
-Note
 
 A service can support a maximum of 350 skill groups.
 
@@ -359,8 +351,6 @@ The following sections show you how to modify, define, and delete
 
 To modify a service, do the following:
 
-##### Procedure
-
 Step 1
 
 Follow the steps for viewing a service.
@@ -368,8 +358,6 @@ Follow the steps for viewing a service.
 Step 2
 
 Edit the configuration information.
-
-Note
 
 You cannot modify fields that are greyed out.
 
@@ -394,8 +382,6 @@ The modified data is saved in the Unified ICM database and the Changed icon is r
 #### Define a Service or Associated Record
 
 To define a service and/or its associated records, follow these steps:
-
-##### Procedure
 
 Step 1
 
@@ -443,14 +429,10 @@ Click Save .
 
 To delete a record:
 
-##### Procedure
-
 Step 1
 
 In the Explorer tree list box, select the item or associated items
                                              			 whose records you want to delete.
-
-Note
 
 Step 2
 
@@ -488,8 +470,6 @@ The following sections show you how to use the Skill Group Explorer to
 
 To view a skill group, follow these steps:
 
-##### Procedure
-
 Step 1
 
 In the Configuration Manager's menu, select Tools > Explorer
@@ -525,8 +505,6 @@ If the skill group has a route associated with it, click its icon
                                              			 a peripheral target associated with the route and a label associated with the
                                              			 peripheral target.
 
-Note
-
 ### Skill Group Explorer Tab Descriptions
 
 The tables in the following sections describe the tabbed fields in the
@@ -550,15 +528,11 @@ Media routing domain
 (selection list)
                                              				The MRD associated with the skill group.
 
-Note
-
 Peripheral Number (required)
 
 The skill group
                                              				number as known by the peripheral. This value must be unique among all skill
                                              				groups for a peripheral, but need not be unique across peripherals.
-
-Note
 
 Change this number from 0 unless you want this to be the default
                                                          				  skill group.
@@ -569,10 +543,6 @@ The local name
                                              				for this skill group. This value must be unique among all skill groups
                                              				associated with the peripheral, but need not be unique across peripherals. For
                                              				example, each peripheral can have a skill group named International_Orders.
-
-Note
-
-Note
 
 For skill groups that support sub-skill groups, sub-skill group names are comprised of the base skill group name plus a suffix.
                                                          A suffix can have a maximum of 4 characters. Therefore, the maximum length for a base skill group name is 28 characters when
@@ -623,8 +593,6 @@ Unchecked,
 This option
                                              				applies to pre-routed requests.
 
-Note
-
 ConfigParam
 
 (optional) A
@@ -649,8 +617,6 @@ The Skill Group Members tab allows you to view skill group member
                                  		information for the currently selected skill group. If you have maintenance
                                  		access, this tab also lets you add or remove skill group members. It also lets
                                  		you assign this skill group as the default skill group for one or more agents.
-
-Note
 
 Field/Button
 
@@ -687,8 +653,6 @@ The Subgroup Mask tab
                                  		sub-skill groups.
 
 Important
-
-Note
 
 Field
 
@@ -922,8 +886,6 @@ The following sections show you how to modify, define skill groups.
 
 To modify a skill group, follow these steps:
 
-#### Procedure
-
 Step 1
 
 Follow the steps to view a skill group.
@@ -939,8 +901,6 @@ With the mouse, you can select an object and move it to
                                              				highlighted, lift your finger off the mouse. You can also use the Bulk
                                              				Configuration tool to take the output of a switch and create 20 or 30 labels.
                                              				Then, using the Explorer, you can attach the labels to an appropriate location.
-
-Note
 
 You cannot modify fields that are greyed out.
 
@@ -960,12 +920,8 @@ The modified data is saved in the Unified ICM database and the Changed icon is r
 ### Define a Skill Group
                            	 or Its Associated Records
 
-Note
-
 To define a skill
                                  		  group and/or its associated records, follow these steps:
-
-#### Procedure
 
 Step 1
 
@@ -991,8 +947,6 @@ Step 4
 
 Fill in the
                                           			 tabbed fields.
-
-Note
 
 These fields
                                                          				  are not automatically populated.
@@ -1032,8 +986,6 @@ Use the Configuration Manager Skill Group Explorer Tool to configure
                                     		  skill groups SG01 and SG02 on the Child Central Controller.
 
 To configure skill groups on the Child Central Controller:
-
-##### Procedure
 
 Step 1
 
@@ -1106,8 +1058,6 @@ You can define some service member skill groups as being primary for
 
 To map skill groups to services, follow these steps:
 
-#### Procedure
-
 Step 1
 
 Within the Configuration Manager menu, select Tools > Explorer
@@ -1174,13 +1124,9 @@ The Configuration
 
 To change the skill groups per agent limit using the Configuration Limit tool, complete the following steps:
 
-#### Procedure
-
 Step 1
 
 From the Windows menu, select Start > Run , type configlimit , and then click Enter .
-
-Note
 
 Run the Configuration Limit tool on the same machine as the Distributor for the
                                                          				instance you want to configure. If more than one instance of the Administration
@@ -1217,8 +1163,6 @@ For example, to change the skill groups per agent limit to 5,
 cl /id 1 /value 5 /update
 ```
 
-Note
-
 Using the Configuration Limit tool, you can change the
                                                          				ConfigLimitCurrentValue only. You cannot change the ConfigLimitDefaultValue.
 
@@ -1250,8 +1194,6 @@ Associate every
 The Person List tool
                               		  allows you to list the persons currently defined in the Unified ICM database, to define new ones, and to view, edit, or delete the records of
                               		  existing ones.
-
-Note
 
 If you are using the Enterprise Chat and
                                                 						Email feature, you can create Agents in CCE Configuration Manager. Creating Agents in
@@ -1354,8 +1296,6 @@ The login name supports the use of all characters from 33 to 126 in the ASCII ch
                                              quotation mark ("), forward slash (/), backward slash (\), square brackets ([ ]), colon (:), semicolon (;), pipe (|), equal
                                              to (=), comma (,), plus sign (+), asterisk (*), question mark (?), angle brackets (< >), hash (#), percent (%), and SPACE.
 
-Note
-
 Domain name
 
 (optional) The domain name of the selected agent's login.
@@ -1368,13 +1308,9 @@ Password
                                              				allowed. This means passwords cannot be entered in a non-Western alphabet, such
                                              				as Kanji.
 
-Note
-
 Change Password
 
 Click to change your password.
-
-Note
 
 Confirm Password
 
@@ -1392,13 +1328,9 @@ Enable logins (optional)
                                              				access to the system during vacation or certain hours, and to do so without
                                              				disturbing any of the entered information for this person.
 
-Note
-
 ##### Change Your Password
 
 Follow these steps to change your password:
-
-###### Procedure
 
 Step 1
 
@@ -1431,8 +1363,6 @@ Use the Configuration Manager's Agent Explorer to configure agents.
 ### Modify Agent Record
 
 To view or modify agents records, follow these steps:
-
-#### Procedure
 
 Step 1
 
@@ -1469,8 +1399,6 @@ An agent is a person who handles calls from a peripheral or supervises
 
 When you create a new agent, you can also identify the agent as a supervisor.
 
-Note
-
 Caution
 
 Out of Compliance expiry: The system is operating with an insufficient number of licenses and system in enforcement mode.
@@ -1480,8 +1408,6 @@ Authorization expiry: The system has not communicated with Cisco Smart Software 
 Evaluation expiry: The license evaluation period expired.
 
 To create an agent:
-
-#### Procedure
 
 Step 1
 
@@ -1504,8 +1430,6 @@ In the property tabs on the right side of the window, enter the appropriate prop
                                           definitions.) Use the Agent tab to define the agent (and optionally designate the agent as a supervisor) and the Skill Group
                                           Membership tab to map the agent to any skill groups.
 
-Note
-
 Step 5
 
 When finished, click Save .
@@ -1520,15 +1444,11 @@ Access the Configuration Manager on the Child Administration & Data
 Use the Configuration Manager Agent Explorer tool to configure agents
                                     		  on the Child Central Controller.
 
-Note
-
 When  you configure an agent on the Child Central Controller, the agent is automatically assigned to a default skill group.
                                                 However, if you log onto the parent to view the agent (that you configured on the child), the default skill group appears
                                                 in the list of assigned skill groups and not in the default skill group box.
 
 To configure agents on the Child Central Controller:
-
-##### Procedure
 
 Step 1
 
@@ -1573,8 +1493,6 @@ If single sign-on is enabled either globally or for the agent you want to design
 
 To create an agent who is a supervisor:
 
-#### Procedure
-
 Step 1
 
 In the
@@ -1594,8 +1512,6 @@ Step 3
 Click Add
                                              				Agent .
 
-Note
-
 You must add the agent supervisor, as both member and supervisor, to the Member tab on the agent team list. To get the benefit from the Team layout in Finesse, the agent supervisor must be a member of
                                                          the team.
 
@@ -1604,8 +1520,6 @@ Step 4
 In the property tabs on the right side of the window, enter the appropriate property values. Use the Agent Tab to define the
                                           agent and designate the agent as a supervisor. Use the Skill Group Membership Tab to map the agent to any skill groups. (See
                                           the Configuration Manager online help for more information.)
-
-Note
 
 Step 5
 
@@ -1621,8 +1535,6 @@ The tables in the following sections describe the tabbed fields in the
 
 The Agent tab allows you to view (and define, delete, or edit, if you have maintenance access) the properties of the selected
                                     agent's account. The tab also allows you to designate an agent as a supervisor.
-
-Note
 
 If the Cisco Contact Center Gateway Peripheral owns records, the skill groups might be automatically configured. However,
                                                 subskill groups might be allowed for configuration in the Unified CCE. The Person record remains available for assignment
@@ -1676,8 +1588,6 @@ You can
                                                 					 use this to temporarily suspend a person's access to the system during vacation
                                                 					 or certain hours. This approach does not disturb any of the entered information
                                                 					 for the person.
-
-Note
 
 Enable
                                                 					 single sign-on (SSO)
@@ -1749,8 +1659,6 @@ SSO-enabled (globally or individually) —Enter the name as required by your SSO
 
 Non-SSO —Enter the name according to your organization's policy.
 
-Note
-
 If you have set a default domain name for your solution, it does not append to the login name for an agent.
 
 For supervisors ( Supervisor checked):
@@ -1769,8 +1677,6 @@ Change
 Click to
                                                 					 change your password.
 
-Note
-
 This enables you to change your password and confirm the change.
 
 Change Password is available only for non-sso agents
@@ -1781,10 +1687,6 @@ Password
 An MD5 encrypted password, used for authentication by Unified CCE and by applications integrated with Unified CCE.
 
 This password is used only when the global SSO Enabled setting is Disabled or when the global SSO Enabled setting is Hybrid and the Enable single sign-on (SSO) check box is not checked.
-
-Note
-
-Note
 
 The password is limited to 32 characters. The password is restricted to the 7-bit printable ASCII characters (any of the 94
                                                 characters with the numeric values from 32 to 126). Control characters (for example, 'tab') and international characters are
@@ -1840,8 +1742,6 @@ Check
                                                 					 the check box if the agent is also a supervisor. (Uncheck the check box for an
                                                 					 agent who is no longer a supervisor.)
 
-Note
-
 If your agent is also a supervisor, before you check the Supervisor check box, ensure that the
                                                             						agent has an Active Directory account.
 
@@ -1869,8 +1769,6 @@ Remove
 Click this button to remove the selected agent from the selected
                                              				skill group.
 
-Note
-
 To save any edits made in this tab, in the Agent Explorer window, click Save .
 
 ### Agent to Skill Group Assignment
@@ -1885,8 +1783,6 @@ You can use the Configuration Manager's Skill Group Explorer to map
 #### Assign Agents to a Skill Group
 
 Follow these steps to assign agents to a skill group:
-
-##### Procedure
 
 Step 1
 
@@ -1924,8 +1820,6 @@ When finished, in the Agent Explorer window, click Save .
 
 Follow these steps to enable/disable agent data at a peripheral and
                                  		  define an agent distribution:
-
-#### Procedure
 
 Step 1
 
@@ -1975,8 +1869,6 @@ Click Save to apply your changes.
 You can set Agent State Trace to track every state (available, talking, and so on) that an agent passes through. To turn on
                                  this feature for an agent, in the Agent Explorer , on the Advanced tab, check the Agent State Trace check box.
 
-Note
-
 When you check the Enable agent reporting check box, configure the Agent distribution entries in the PG Explorer tool, and check the Agent State Trace check box, the Agent_State_Trace table in the database is populated.
 
 ### Agent Configuration Data from Peripheral
@@ -2002,8 +1894,6 @@ Each peripheral requires the Agent configuration process to run.
 #### Import Agent Data
 
 Follow these steps to import agent data:
-
-##### Procedure
 
 Step 1
 
@@ -2199,8 +2089,6 @@ The system generates agent passwords using advanced hashing.
 Advanced hashing helps you to ensure greater security of agent passwords in non-SSO mode. To enforce advanced hashing of agent
                                  passwords, you must enable the Enforce button under the tab, Manage Security .
 
-Note
-
 Local and Setup Administrators can perform enforcement.
 
 Before you enforce the global switch, consider the following to ensure that the agent authentication is successful.
@@ -2210,8 +2098,6 @@ All the PG's must be version 12.6 (1) or later.
 All the agent passwords must be re-entered.
 
 When you disable Enforce , the system authenticates passwords using old and advanced hashing. When you enable Enforce , the system authenticates passwords only using advanced hashing.
-
-Note
 
 You will be able to disable the global switch from the API. For more information, on how to disable the global switch in UCCE
                                              deployment, see Agent Security API at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-programming-reference-guides-list.html
@@ -2247,8 +2133,6 @@ Within a routing script, you can use an enterprise service as a
 
 Follow these steps to create an enterprise service and assign specific
                                  		  services:
-
-#### Procedure
 
 Step 1
 
@@ -2310,8 +2194,6 @@ Just as you can use an enterprise service as a shorthand for a
 
 Follow these steps to create an enterprise skill group:
 
-#### Procedure
-
 Step 1
 
 In the Configuration Manager menu, select Tools > List
@@ -2356,8 +2238,6 @@ In the Add Enterprise Skill Group Member dialog, select the skill
                                           			 groups you want to add and click OK . The dialog closes and the selected skill
                                           			 groups are listed as members in the Members tab.
 
-Note
-
 The Skill Group list includes base skill groups as well as
                                                          				primary and secondary groups for those switches that support them. Typically,
                                                          				add either the base group or the associated primary and secondary groups, but
@@ -2381,12 +2261,6 @@ For more information on precision queues and precision routing, see the Cisco Un
 ### Customers Also Viewed
 
 - Configure Webex AI Agent for CCE
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Step 1 | In the Configuration Manager menu, select Tools > Explorer
                                                    				  Tools > Service Explorer . The

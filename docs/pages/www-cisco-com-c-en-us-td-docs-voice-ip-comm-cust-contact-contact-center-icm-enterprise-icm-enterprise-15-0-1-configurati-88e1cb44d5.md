@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-88e1cb44d5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_configuration-overview.html
-retrieved_at: 2026-08-16T14:33:06.451210+00:00
+retrieved_at: 2026-08-20T18:53:38.750265+00:00
 ---
 
 Configuration Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -98,8 +98,6 @@ Unified ICM configuration information is permanently stored in the Central Contr
                               Manager (referred to as "Configuration Manager" in this guide) to create and modify configuration data. When you apply a change in Configuration Manager, it is immediately
                               applied to the central database.
 
-Note
-
 You cannot have more than 60 active configuration connections at the same time. If more than 60 connections are required,
                                           you must add another distributor. These connections include:
 
@@ -144,12 +142,6 @@ Within the Script Editor, you can open a script for browsing,
                               		  automatically obtains the lock for that script.
 
 To get started using the Script Editor to create or maintain scripts, refer to the Scripting and Media Routing Guide for Cisco Unified Contact Center Enterprise .
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | You cannot have more than 60 active configuration connections at the same time. If more than 60 connections are required,
                                           you must add another distributor. These connections include: Configuration Manager windows: Each open window establishes a connection to the backend. Script Editor/ISE sessions: Each instance creates its own connection to the system. Web configuration applications: Includes Tomcat-based web sessions such as cceadmin, unifiedconfig, and other admin web interfaces. Other Manager Tools: Any UCCE admin tool launched from the AW that communicates with backend services. |

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-9b805cb412
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/windows_security_hardening.html
-retrieved_at: 2026-08-16T14:36:27.662134+00:00
+retrieved_at: 2026-08-20T18:56:29.772145+00:00
 ---
 
 Security Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -59,8 +59,6 @@ Copy the *.admx files from the PolicyDefinitions folder to \<Domain>\SYSVOL<Doma
 Copy the *.adml files from the PolicyDefinitions<applicable-language>
                                        folder to \<Domain>\SYSVOL<Domain>\Policies\PolicyDefinitions\en-US
 
-Note
-
 The domain controller automatically copies the admx and adml files to
                                                    all the domain-joined machines.
 
@@ -94,8 +92,6 @@ Ensure that the exception policy imported (see Step-5) has higher priority such
                                  that the exception policy is applied after the Microsoft and CIS policies are
                                  applied.
 
-Note
-
 Step 6 is applicable only on domain controllers.
 
 Create the OU Cisco_ICM_Servers (or a similar identifiable
@@ -106,8 +102,6 @@ Link the created GPO (see Step-4 and Step-5) to the OU created (see Step-7).
 
 Restart the ICM servers in the organizational unit or run the gpupdate command on the respective target ICM nodes to
                                  apply the security baseline.
-
-Note
 
 You can set the Turn on Virtualization Based Security policy to Disabled when Secure Boot is not enabled on Unified ICM machines.
 
@@ -127,8 +121,6 @@ You can enable this only after configuring the
 
 The following policies are optional. You can enable these policies as per the IT
                               policy after considering the remarks column carefully.
-
-Note
 
 This policy is removed in CIS benchmark for Windows Server 2022.
 
@@ -155,8 +147,6 @@ Unified ICM and Unified CVP 15.0(1) upgrade via Orchestration requires Elevate w
 Enable the following policies after you install the ICM server. Refer to the Remarks
                               column for the deviations observed.
 
-Note
-
 The CIS benchmark versions 3.0.0 for Windows Server 2022, version 1.2.1 for Windows Server 2019, Microsoft baseline Windows Server 2019 version 1809,
                                              and latest Microsoft baseline Windows Server 2022 are validated. Before applying the higher version of CIS and Microsoft benchmark, analyze the additional policies introduced in the new
                                        version for the impact on ICM functionality and performance. We recommend the GPOs must be tailored according to your organization’s
@@ -168,8 +158,6 @@ In addition to the GPO settings, disable the following settings in Windows Serve
 NetBIOS
 
 SMBv1
-
-Note
 
 CCE software requires Windows PowerShell to be available and not blocked by Group Policy during installation, uninstallation,
                                        and upgrade processes of main releases, maintenance releases, and Engineering Specials (ES). Additionally, certain CCE tools
@@ -404,12 +392,6 @@ Launches applications associated with still image acquisition events. The WIA pl
 Manual
 
 Yes
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | The domain controller automatically copies the admx and adml files to
                                                    all the domain-joined machines. Select the applicable language code (en-US) based on your

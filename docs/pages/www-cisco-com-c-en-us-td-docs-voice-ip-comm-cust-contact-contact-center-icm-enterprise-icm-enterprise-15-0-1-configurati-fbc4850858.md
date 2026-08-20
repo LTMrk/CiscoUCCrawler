@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-fbc4850858
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/cce_serviceability_and_monitoring_using_appdynamics.html
-retrieved_at: 2026-08-16T14:37:40.154866+00:00
+retrieved_at: 2026-08-20T18:56:42.858717+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -28,8 +28,6 @@ Automated alerting mechanism in case of anomaly detection.
 
 For ordering and setting up the AppDynamics SaaS controller, license key, and Beacon URL, please contact appd_ucce_sales@cisco.com .
 
-Note
-
 In Unified CCE 15.0(x), the AppDynamics Agents are not included by default. When you upgrade from Unified CCE 12.6(x), any
                                        existing AppDynamics Agents are removed. To install the AppDynamics Agents on 15.0(x) for the first time, or to upgrade, or
                                        to downgrade the installed AppDynamics Agents, see the section Install, Upgrade, or Downgrade AppDynamics Agents . The AppDynamics Agents install, upgrade or downgrade are supported on Cloud Connect 15.0(1) ES202511, 15.0(1) SU1, and all
@@ -41,8 +39,6 @@ For AppDynamics, CCE supports SaaS and On-Prem controller (version 21.4.10-24683
 
 All CCE solution components are supported except ECE, Customer Collaboration Platform (CCP), and Cloud Connect server. Here
                            is a table depicting what is instrumented in each component and monitored:
-
-Note
 
 End-user monitoring is supported for Finesse.
 
@@ -68,8 +64,6 @@ VXMLServer
 
 WebServicesManager
 
-Note
-
 LiveData-Worker JVM App Agent is disabled by default. You can enable it using the set live-data appd-monitoring enable CLI. For more information on the CLI, see the Live Data CLI Commands section in the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide .
 
 ## Prerequisites
@@ -81,8 +75,6 @@ Before the applications can be configured for performance monitoring, ensure tha
                               This access key is required later during the configuration procedure.
 
 For details on how to acquire agent licenses, please contact appd_ucce_sales@cisco.com . If your AppDynamics agents are prior to 25.4.0 version, refer to Getting Started , else refer to Agent License Considerations .
-
-Note
 
 For end user monitoring on Finesse, you must procure AppDynamics ENUM license.
 
@@ -127,8 +119,6 @@ No Mandatory ES is required.
 
 Unified CVP
 
-Note
-
 CCE 15.0(1) SU1 and subsequent versions do not require mandatory Engineering Specials (ES) for AppDynamics.
 
 AppDynamics performance monitoring is supported in the following deployment types:
@@ -160,8 +150,6 @@ The CCE solution components existing in domain should have a unique FQDN. The co
 To download AppDynamics Agents, go to https://download.appdynamics.com , select the Agent type, operating system (Windows or Linux), and the required version.
 
 To download the DotNetAgentExtensionManager developed by Cisco DevNet, go to https://developer.cisco.com/codeexchange/github/repo/Appdynamics/DotNetAgentExtensionManager and go to the GitHub link and select the Publish folder.
-
-Note
 
 Before you download the DotNetAgentExtensionManager, refer to the note mentioned in the link Import AppDynamics Agents
 
@@ -197,8 +185,6 @@ DotNetAgentExtensionManager
 
 Supported for Windows only. Latest available version 1.5.2 (zip) is supported.
 
-Note
-
 Ensure you import the Machine Agent, Java Agent, and .NET Agent (importing .NET Agent Extension is optional) separately for
                                              Windows, and import the Machine Agent and Java Agent separately for the Linux (VOS) components.
 
@@ -219,8 +205,6 @@ To import the AppDynamics Agents (Machine Agents, Java Agents, .NET Agent, and D
 
 For more information on supported AppDynamics Agents versions and instructions on how to download the Agents from AppDynamics,
                                  see section Install, Upgrade, or Downgrade AppDynamics Agents .
-
-Note
 
 Only one version of each Windows/Linux (VOS)-specific agent type (such as the Machine Agent, Java Agent, .NET Agent or DotNetAgentExtensionManager)
                                                    is imported into the Cloud Connect publisher at any given time. When you import a new version of an agent, the previously
@@ -277,8 +261,6 @@ Expected Outcome
 
 The update (install, upgrade, or downgrade) of the AppDynamics Agents or extensions is initiated.
 
-Note
-
 Updating AppDynamics Agents on the target system is permitted only when AppDynamics monitoring is disabled and the target
                                                    system is running version 15.0(1) or later.
 
@@ -319,16 +301,12 @@ Expected Outcome
 Displays whether the AppDynamics Agents are successfully updated. If the update fails, the CLI displays the failure details
                                              and provides a reference to the log file.
 
-Note
-
 The CLI displays the status of the most recently initiated update operation for AppDynamics Agents.
 
 If the update is successful, you receive a confirmation message.
 
 If the update fails or is not initiated, the CLI displays the relevant details and provides a reference to the log file. The
                                                          CLI shows only the status of the last update operation, not a consolidated summary of all updates.
-
-Note
 
 When updating AppDynamics agents for the first time on CCE 15.0(1) SU1 VOS systems, an automatic certificate import to agent
                                              trust store occurs, which may extend the deployment time by approximately 5 to 7 minutes.
@@ -341,8 +319,6 @@ Certificate import for Agent(s) is in progress. AppDynamics Agent(s) deployment 
 
 You can import the AppDynamics Controller certificate into the trust stores of Machine Agents and App Server Agents on their
                                  respective VOS components. To import or display the certificates, use the appropriate CLI commands on each VOS component.
-
-Note
 
 - Updated SaaS Controller certificates are automatically imported into the Machine Agent and App Server Agent trust stores.
                                                    This process occurs as part of the agent update for VOS 15.0(1) SU1 and later, or by applying the ucos.appdAgentsCertImportCLI.1501.cop.sha512 COP file on VOS 15.0(1) systems.
@@ -424,8 +400,6 @@ Expected Outputs
 In order to monitor the performance of CCE applications, platforms, and end-user-facing application such as Finesse desktop
                            using AppDynamics, an administrator must configure and enable performance monitoring on the target node.
 
-Note
-
 Parallel execution of same or different CLI for AppDynamics on Cloud Connect server is not allowed.
 
 ### Enable Performance Monitoring
@@ -441,16 +415,12 @@ Performance monitoring is enabled only after restarting the target node. If you 
 All the supported AppDynamics agents on the target nodes are enabled for monitoring; the administrator can’t control the enable
                               or disable of a specific AppDynamics agent on the target node.
 
-Note
-
 You can also use this command to update any existing configuration details on selected nodes.
 
 The AppDynamics CLI operation is allowed only if the required AppDynamics agents are deployed on the target node. If AppDynamics
                                                 agents are not deployed, the CLI operation is rejected with details displayed on the console.
 
 The AppDynamics CLI operation is not allowed when the agent update is in progress on the target node.
-
-Note
 
 Controller Host: The hostname/URL of the AppDynamics Controller. Agents may connect directly to the Controller or through a proxy.
 
@@ -475,24 +445,16 @@ Username: Username of the AppDynamics controller account.
 
 Password: Password of the AppDynamics controller account.
 
-Note
-
 Username and Password are used for enabling Windows Event monitoring on ICM nodes. The administrator has an option to confirm
                                                       on whether AppDynamics Windows Event monitoring must be enabled or not, when the ICM node is selected for enabling AppDynamics.
                                                       AppDynamics Windows Event monitoring can be enabled only when the DotNetAgentExtensionManager is installed. The Username and
                                                       Password will be requested only when the administrator confirms to enable Windows Event Monitoring on ICM nodes.
 
-Note
-
 Proxy Host and Proxy Port will be requested only when the administrator confirms to use proxy for application monitoring.
                                                       Using proxy for application monitoring is optional.
 
-Note
-
 Beacon URL and Beacon Access Key used for end-user monitoring are applicable only for Finesse node. For more information on
                                                       how to generate a Beacon Access Key, refer to the Generate a Beacon Access Key section below:
-
-Note
 
 The DotNetAgentExtensionManager is an optional .NET Agent extension used for Windows Event Viewer Monitoring on ICM core components.
 
@@ -504,8 +466,6 @@ AppDynamics monitoring can be enabled without the optional Windows Event Viewer 
                                                 Viewer Monitoring, you must install the DotNetAgentExtensionManager extension for the .NET Agent.
 
 If AppDynamics agents fail to connect to the controller following agent installation, refer the AppDynamics Agents Controller Certificate Management section of the CCE 15.0(1)  Serviceability Guide to import the necessary certificates into the VOS node agent trust store.
-
-Note
 
 If performance monitoring is already enabled, and if you want to add or delete the component in Unified ICM, then follow the
                                           below steps to update the performance counters for monitoring.
@@ -521,8 +481,6 @@ When application performance monitoring is enabled, the system specific and CCE-
                               be reset to the default value if you disable or enable application performance monitoring. The counters added to the monitoring
                               list includes all the installed CCE services including the disabled services. Hence, delete the disabled CCE services from
                               the server if they are not required.
-
-Note
 
 Performance monitoring starts on VOS components approximately 15 to 20 minutes after reboot. During this period, performance
                                           monitoring status for the target node in utils app-monitoring status CLI will be shown as Disabled.
@@ -574,8 +532,6 @@ config.adrumExtUrlHttps and config.beaconUrlHttps for HTTPS values
 
 config.appKey for beacon access key details
 
-Note
-
 Use only the HTTPS values. Regenerate the Beacon Access Key only if the existing Browser App or key is no longer available,
                                              or if you must move Finesse monitoring to a new Browser App. If you generate a new key, update the AppDynamics monitoring
                                              configuration with the new Beacon URL and Beacon Access Key.
@@ -589,8 +545,6 @@ To update the configuration details for performance monitoring, run the app-moni
 To disable performance monitoring on Windows and VOS nodes, run the app-monitoring disable command. Performance monitoring will be disabled after restart of target node. The configurations will, however, be retained. The administrator will not be allowed to disable any specific AppDynamics agent on the target node. All supported AppDynamics
                                  agents will be disabled by default.
 
-Note
-
 The AppDynamics CLI operation is allowed only if the required AppDynamics agents are deployed and monitoring is enabled on
                                           the target node. If AppDynamics agents are not deployed, the CLI operation is rejected with details displayed on the console.
 
@@ -598,8 +552,6 @@ The AppDynamics CLI operation is allowed only if the required AppDynamics agents
 
 To check whether performance monitoring is enabled, disabled, or just configured but not enabled, on selected Windows or VOS
                               nodes, run the utils app-monitoring status command.
-
-Note
 
 The AppDynamics CLI operation is allowed only if the required AppDynamics agents are deployed on the target node. If AppDynamics
                                           agents are not deployed, the CLI operation is rejected with details displayed on the console.
@@ -617,8 +569,6 @@ If an update is made to the existing configuration and the node is not restarted
 ### Test Connection with AppDynamics Controller
 
 To test whether the configured Windows and VOS nodes are able to connect to the AppDynamics controller, run the utils app-monitoring test-connection command.
-
-Note
 
 The AppDynamics CLI operation is allowed only if the required AppDynamics agents are deployed on the target node. If AppDynamics
                                           agents are not deployed, the CLI operation is rejected with details displayed on the console.
@@ -638,8 +588,6 @@ Adding at least one valid email address is mandatory. However, you can add
 
 Threshold for alerts is enabled by default as part of Cisco-delivered
                                     template.
-
-Note
 
 You can also view, create, overwrite, delete, export, apply and disable the template on the application. For details on managing templates, if your AppDynamics agents are prior to 25.4.0 version, see Configure and Manage Alerting Templates , else see Configure and Manage Alerting Templates .
 
@@ -703,8 +651,6 @@ Edit the following strings in the template:
 "applicationName" - Update this with the corresponding application name for which
                                     you want to create a dashboard.
 
-Note
-
 "entityName" - Set the name of the system that is monitored.
 
 If the "entityType" is set to "APPLICATION_COMPONENT_NODE", update this string with the corresponding AW component node name.
@@ -712,8 +658,6 @@ If the "entityType" is set to "APPLICATION_COMPONENT_NODE", update this string w
 
 Once the template file is edited and imported, the dashboard will display the
                                     performance and health status of the system.
-
-Note
 
 If the "entityType" is set to "APPLICATION_COMPONENT", then do not
                                                       make any changes to the "entityName".
@@ -763,8 +707,6 @@ Cisco Finesse provides important JMX counters with associated threshold values t
                                  can be used to monitor the health of Finesse. The following tables list the JMX
                                  counters with corresponding threshold values at the login phase and steady
                                  phase.
-
-Note
 
 The JMX counter IntervalLoginOperations with the JMX object
                                              name com.cisco.ccbu:category=LoginStats,component0=LoginStats-webservices will be used to determine the total number of logins.
@@ -1033,15 +975,11 @@ file get activelogappdynamics/machineagent/logs
 
 file get activelog appdynamics/appserveragent/logs/<APM Folder Name>
 
-Note
-
 Ensure that you use the exact regular expression to accurately retrieve the details of the nested directory.
 
 file get activelog appdynamics/appdynamics_default_certificate_import.log
 
 file get activelog appdynamics/appdynamics_agents_deploy.log
-
-Note
 
 This log is available only for target nodes and not for Cloud Connect.
 
@@ -1059,8 +997,6 @@ log\AppDynamics_Perf_Configuration.log
 <Install Directory>:\Cisco\CVP\
 AppDynamics\log\AppDynamics_Configuration.log
 ```
-
-Note
 
 For ICM and CVP, the install directory location changes based on your system configuration.
 
@@ -1098,12 +1034,6 @@ Performance monitoring for ECE, CCP and Cloud Connect is currently not supported
 ### Customers Also Viewed
 
 - Configure Webex AI Agent for CCE
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | In Unified CCE 15.0(x), the AppDynamics Agents are not included by default. When you upgrade from Unified CCE 12.6(x), any
                                        existing AppDynamics Agents are removed. To install the AppDynamics Agents on 15.0(x) for the first time, or to upgrade, or

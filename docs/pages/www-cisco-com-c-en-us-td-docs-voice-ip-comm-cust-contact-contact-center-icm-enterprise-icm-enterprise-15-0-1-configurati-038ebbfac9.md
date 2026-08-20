@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-038ebbfac9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_unified-cce-user-integration-for-unified-intelligence-center.html
-retrieved_at: 2026-08-16T14:33:49.453481+00:00
+retrieved_at: 2026-08-20T18:54:35.291373+00:00
 ---
 
 Configuration Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -31,8 +31,6 @@ Supervisors are
                               		  automatically given Unified Intelligence Center user roles and can log in to
                               		  Unified Intelligence Center to access collections and run reports for their
                               		  agent teams.
-
-Note
 
 You cannot run User Integration until you upload the license for Unified Intelligence Center.
 
@@ -80,8 +78,6 @@ Users who you configure as agent supervisors in Unified CCE Configuration manage
                               be integrated into Unified Intelligence Center.
 
 To enable Unified CCE user integration:
-
-### Procedure
 
 Step 1
 
@@ -138,8 +134,6 @@ The All Collections panel displays when you select a
                               		  Collections for that Value List. The collections are presented in two
                               		  panels: Collection Name and Collection Type.
 
-Note
-
 ### Actions for Collections
 
 Create —click this to open the Create/Edit
@@ -190,12 +184,6 @@ The first time the Super User administrator who installed the system opens this 
 
 Unified CCE User Integration is configured and scheduled in the Unified Intelligence Center Operations Console (Cluster Configuration
                               > ICM User Integration). It is documented in the online help for the Operations Console.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | You cannot run User Integration until you upload the license for Unified Intelligence Center. There are
                                                 				  five tasks in the initial setup for Unified CCE User Integration. Some are

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-c175750202
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_routing-and-routing-targets.html
-retrieved_at: 2026-08-16T14:33:40.981049+00:00
+retrieved_at: 2026-08-20T18:54:13.173221+00:00
 ---
 
 Configuration Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -97,8 +97,6 @@ The skill target (agent, skill group, service, translation route,
 
 The service by which the peripheral classifies the call.
 
-Note
-
 ### Define a Route
 
 - Agent Explorer
@@ -115,8 +113,6 @@ With the Explorer tools, you can define and update a route at the same
                                  		  time you define and update its target. To access all the tools for creating
                                  		  routes:
 
-#### Procedure
-
 Click ICM
                                                 				  Configure > Targets > Route .
 
@@ -130,8 +126,6 @@ Use the Configuration Manager's Route Bulk tool to create multiple
                                  		  help.
 
 To modify routes with the Explorer tools:
-
-#### Procedure
 
 Step 1
 
@@ -188,8 +182,6 @@ By defining a default route for each peripheral, you ensure that the
 
 To set a default for each peripheral:
 
-#### Procedure
-
 Step 1
 
 In the Configuration Manager menu, select Tools > Explorer
@@ -232,8 +224,6 @@ A peripheral target is a combination of a network trunk group and a
 
 To define peripheral targets:
 
-#### Procedure
-
 Step 1
 
 In the Configuration Manager menu, select Configure
@@ -264,8 +254,6 @@ You must provide information about any announcements to which you want
 
 To add announcement configuration information:
 
-#### Procedure
-
 Step 1
 
 In the Configuration Manager menu, select Tools > Explorer
@@ -290,8 +278,6 @@ Name . A unique name for the
 Description . Text identifying the
                                                    					 announcement.
 
-Note
-
 Step 5
 
 To associate a label with the announcement:
@@ -301,8 +287,6 @@ In the tree list window select one from the UNASSIGNED group
 
 Select the announcement and click Add Label . Then in the Label tab, enter
                                                    					 the appropriate field information.
-
-Note
 
 Step 6
 
@@ -319,16 +303,12 @@ After defining announcements and peripheral targets, you must define
                               		  target (trunk group and DNIS) that the peripheral will convert to the skill
                               		  target and service you specify.
 
-Note
-
 ### Label Types
 
 In defining a label,
                                  		  you must specify a label type by
                                  		  selecting an option from the Type drop-down list in the Label Configuration
                                  		  selection box.
-
-Note
 
 The following table
                                  		  lists the configured label types the system software supports. In addition to
@@ -415,8 +395,6 @@ To set up a label, you create configuration information and associate
 To create a label,
                                     		  follow these steps:
 
-##### Procedure
-
 Step 1
 
 In the
@@ -493,8 +471,6 @@ Target type
                                                       					 list) Indicates the type of the network target associated with the label:
                                                       					 Network Announcement, PBX/ACD Peripheral (that is, a peripheral target), a
                                                       					 scheduled target, or a network VRU.
-
-Note
 
 Network target . (list and bulk tools only)
 
@@ -608,8 +584,6 @@ For some routing
 To map specific labels to a dialed number/script selector, follow
                                  		  these steps:
 
-#### Procedure
-
 Step 1
 
 In the Configuration Manager menu, select Tools > List
@@ -634,8 +608,6 @@ Click the Dialed Number Label tab.
 The Name column displays a list of all labels currently associated
                                              				with that dialed number/script selector.
 
-Note
-
 Step 5
 
 Click Add .
@@ -644,8 +616,6 @@ Step 6
 
 In the Add Label dialog, select a label name and
                                           			 click OK .
-
-Note
 
 Step 7
 
@@ -664,8 +634,6 @@ You can use Configuration Manager's Dialed Number Bulk tool to
                                  		  instructions show how to use the Dialed Number/Script Selector List tool.
 
 To set a default label for each dialed number/script selector:
-
-#### Procedure
 
 Step 1
 
@@ -693,8 +661,6 @@ Step 5
 
 After choosing the label, click Save .
 
-Note
-
 ## Service Arrays
 
 Service arrays are closely tied to network trunk groups. Typically,
@@ -714,8 +680,6 @@ By grouping the services of multiple VRUs into a service array, you
 
 To configure service arrays, proceed along the following steps:
 
-#### Procedure
-
 Step 1
 
 In the Configuration Manager menu, select Configure
@@ -734,8 +698,6 @@ Step 3
 You can define a new service array or modify an existing one:
 
 To set up a new service array, click Add Service array .
-
-Note
 
 To modify an existing service array, select it in the tree
                                                    					 list window.
@@ -838,15 +800,11 @@ Before starting the
                               		  Within the Application wizard you can create dialed numbers, labels, peripheral
                               		  targets, and routes.
 
-Note
-
 ## Use the Application
                         	 Wizard
 
 To use the
                               		  Application wizard, follow these steps:
-
-### Procedure
 
 Step 1
 
@@ -873,8 +831,6 @@ Routing Client . Click to
 Dialed Number . Click the
                                                 					 row and select a number from the drop-down list or enter a new dialed number
                                                 					 value.
-
-Note
 
 Step 4
 
@@ -958,12 +914,6 @@ A single translation route can be used to send information to any
                               		  call, you cannot perform translation routing on two calls to the same
                               		  peripheral target simultaneously. To avoid this, you typically define a set of
                               		  peripheral targets and routes, for each translation route.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | You must have defined the skill target and service before you can
                                        		  configure a route. Follow the steps in the Configuration Manager's Step by Step

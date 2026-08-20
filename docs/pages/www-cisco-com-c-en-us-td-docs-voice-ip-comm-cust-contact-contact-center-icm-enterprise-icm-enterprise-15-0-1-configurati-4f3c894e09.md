@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-4f3c894e09
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization/rcct_m_1501_social-miner.html
-retrieved_at: 2026-08-16T14:34:53.568077+00:00
+retrieved_at: 2026-08-20T18:55:13.199604+00:00
 ---
 
 Port Utilization Guide for Cisco Unified Contact Center Solutions, Release 15.0(1)
@@ -90,12 +90,6 @@ Port 38001 (configurable)
 Inward, from the CCE MR PG to the Customer Collaboration Platform server.
 
 The CCE Media Routing Peripheral Gateway (MR PG) communicates over a socket connection to Customer Collaboration Platform to support the media routing connection.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Listener (Process or Application Protocol) | Listener Protocol and Port | Remote Device (Process or Application Protocol) | Remote Port | Traffic Direction | Notes |
 |---|---|---|---|---|---|

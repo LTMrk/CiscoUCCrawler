@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-2e48560c41
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization/rcct_m_1501_cvp.html
-retrieved_at: 2026-08-16T14:34:41.272034+00:00
+retrieved_at: 2026-08-20T18:55:05.095582+00:00
 ---
 
 Port Utilization Guide for Cisco Unified Contact Center Solutions, Release 15.0(1)
@@ -155,8 +155,6 @@ SIP Heartbeat Local Listen Port
 UDP 5067
 
 TCP 5067
-
-Note
 
 SIP endpoints
 
@@ -649,8 +647,6 @@ UDP 1051
 
 UDP Optima VNET
 
-Note
-
 Ephemeral loopback client ports may be opened locally for CVP services to talk to port 1529 for communications with Derby
                                                 database.
 
@@ -664,8 +660,6 @@ The above ports are closed when the services concerned are shut down.
 From a security perspective, it is recommended to review the ports opened by the underlying Windows operating system or other
                                           services running on a machine and close all ports except those required for system operation.
 
-Note
-
 For more information on Windows authentication and remote administration ports,
                                           					see Service overview and network port requirements for the Windows Server in
                                           					Microsoft documentation.
@@ -673,12 +667,6 @@ For more information on Windows authentication and remote administration ports,
 ### Customers Also Viewed
 
 - Configure Webex AI Agent for CCE
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Listener (Process or Application Protocol) | Listener Protocol and Port | Remote Device (Process or Application Protocol) | Remote Port | Traffic Direction | Notes |
 |---|---|---|---|---|---|

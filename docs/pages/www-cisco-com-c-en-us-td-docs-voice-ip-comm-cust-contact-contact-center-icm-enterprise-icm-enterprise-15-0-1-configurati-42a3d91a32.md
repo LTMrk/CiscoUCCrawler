@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-42a3d91a32
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/cloud_connect_serviceability.html
-retrieved_at: 2026-08-16T14:37:26.959399+00:00
+retrieved_at: 2026-08-20T18:56:50.994280+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -154,8 +154,6 @@ admin:set cloudconnect log_level cloudconnectmgmt trace
 The result for the command is as follows:
 
 The log level will be changed to TRACE for the container cloudconnectmgmt within 30 seconds
-
-Note
 
 ### Download Cloud Connect Management logs
 
@@ -903,8 +901,6 @@ Click on an Attribute to view the attribute value.
 
 To access the statistics for Digital Channel and Redis service running on the Cloud Connect:
 
-##### Procedure
-
 In Unified Contact Center Enterprise Management , navigate to Overview > Digital Channels > Digital Channel Statistics .
 
 The Digital Channel Statistics page displays the Digital Routing and Redis service Host, Status, Role, and Up Since.
@@ -1121,12 +1117,6 @@ utils cloudconnect stop cache-service
 utils cloudconnect start cache-service
 ```
 ```
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Step 1 | Run RTMT to connect to the target server. |
 |---|---|

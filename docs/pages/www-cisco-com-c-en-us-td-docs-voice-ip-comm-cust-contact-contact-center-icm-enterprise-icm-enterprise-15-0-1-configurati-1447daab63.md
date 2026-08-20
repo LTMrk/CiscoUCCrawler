@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-1447daab63
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/security_considerations_for_mobile_agent_deployments.html
-retrieved_at: 2026-08-16T14:36:19.345815+00:00
+retrieved_at: 2026-08-20T18:56:08.588205+00:00
 ---
 
 Security Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -23,8 +23,6 @@ To enable VPN-less access, reverse proxy hosts must be directly accessible from 
                               role in enhancing the security posture of the deployment . Therefore, security is crucial in a reverse-proxy deployment. This
                               section provides a set of guidelines to secure a reverse-proxy deployment.
 
-Note
-
 The guidelines and recommendations provided are intended to be used as a minimum required guidance for administrators to secure
                                           the deployment. The deployment, configuration, and security of reverse-proxy and the network is the Contact Center’s responsibility.
 
@@ -34,8 +32,6 @@ The reverse proxy is the first application-level landing point for all requests 
                                  from the internet. Therefore, the reverse proxy must have a high level of security to withstand attacks.
 
 The following are the general set of guidelines to secure a generic reverse proxy deployment:
-
-Note
 
 All these are automatically available and configured when the Reverse Proxy Installer is used.
 
@@ -76,8 +72,6 @@ It is a best practice to maintain security hardened golden images of the reverse
 
 The rules configured should be compared against known vulnerabilities specific to the type of proxy being deployed.
 
-Note
-
 For Nginx-based reverse proxy rules, installation, configuration, and security hardening instructions, refer to the Reverse Proxy Automated Installer chapter in the Cisco Unified Contact Center Enterprise Features Guide . Any reverse proxy supporting the required criteria as mentioned in the above chapter can be used in place of Nginx for supporting
                                              this feature.
 
@@ -103,8 +97,6 @@ Finesse, IdS, and CUIC rely on host-level firewall rules for protection from DoS
                                  the required throughput for the proxy which is serving multiple clients that are connected to it. Therefore, packet rate limits
                                  and request rate limits (if available) should be enforced to ensure that the traffic routed to the hosts through the reverse-proxy
                                  are regulated for each individual IP. This ensures higher availability of the reverse-proxy and the hosts.
-
-Note
 
 Consider imposing general network packet rate limits on ISP routers that connect your network to the DMZ. Implementing rate
                                              limits on the perimeter router is not effective against DoS attacks that are aimed at saturating the ISP links.
@@ -163,12 +155,6 @@ Automatic TCP Rate Limits – TCP rate limits are useful in protecting applicati
 
 Request Rate Limits – The proxy configurations are used to check the rate limits at application protocol level (HTTP / HTTP2), providing additional
                                        protection in addition to packet rate limits.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | The guidelines and recommendations provided are intended to be used as a minimum required guidance for administrators to secure
                                           the deployment. The deployment, configuration, and security of reverse-proxy and the network is the Contact Center’s responsibility. |

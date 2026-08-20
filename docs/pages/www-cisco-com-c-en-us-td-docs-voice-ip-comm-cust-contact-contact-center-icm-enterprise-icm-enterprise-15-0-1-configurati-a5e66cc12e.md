@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-a5e66cc12e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization/ucce_m_1501_preface-port.html
-retrieved_at: 2026-08-16T14:34:23.364987+00:00
+retrieved_at: 2026-08-20T18:55:26.380793+00:00
 ---
 
 Port Utilization Guide for Cisco Unified Contact Center Solutions, Release 15.0(1)
@@ -137,12 +137,6 @@ For
 A
                                              						  character string that the user enters but that does not appear on the window
                                              						  such as a password.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Change | See | Date |
 |---|---|---|

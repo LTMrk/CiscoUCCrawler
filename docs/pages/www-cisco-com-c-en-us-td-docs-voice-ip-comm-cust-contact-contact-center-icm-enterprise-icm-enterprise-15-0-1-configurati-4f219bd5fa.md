@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-4f219bd5fa
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/cce_orchestration_windows_openssh_hardening.html
-retrieved_at: 2026-08-16T14:36:31.856483+00:00
+retrieved_at: 2026-08-20T18:55:38.949317+00:00
 ---
 
 Security Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -33,8 +33,6 @@ Restrict SSH connection
 
 AllowUsers localuser@CloudConnectIP
 
-Note
-
 Enable DNS hostname check
 
 UseDNS yes
@@ -56,10 +54,6 @@ By default, RSA is used as the default cipher while establishing SSH connection 
 
 You can choose Cipher such as ECDSA. Uncomment the ECDSA and comment out RSA.
 
-Note
-
-Note
-
 While you upgrade the ICM or Cisco Unified Customer Voice Portal, the latest version will not retain the custom configuration
                                                    modified on the setting %programdata%\ssh\sshd_config . Back up the file sshd_config before the upgrade, and post upgrade restore the sshd_config file or redo the custom changes on sshd_config after upgrade.
 
@@ -68,8 +62,6 @@ Restart the OpenSSH services after updating sshd_config , and run the command ut
 Common Vulnerability and Exposures (CVE-2023-48795) for OpenSSH
 
 Use the following set of strong ciphers and MACs in the sshd_config file to avoid weak ciphers:
-
-Note
 
 You should use the below format.
 
@@ -106,8 +98,6 @@ Initially, appropriate user-based permissions have been configured for sshd_conf
 
 In case if the platform Orchestration administrator user is changed by the administrator, then the permissions must be set
                                  to restrict access to OpenSSH sshd_config for the new user. To restrict the access to OpenSSH sshd_config perform the following steps:
-
-#### Procedure
 
 Step 1
 
@@ -170,8 +160,6 @@ Reset and enforce strict permissions by running the following command:
 icacls.exe "C:\ProgramData\ssh\logs" /inheritance:r /grant "Administrators:(OI)(CI)F" /grant "SYSTEM:(OI)(CI)F" /grant "Authenticated
                                        Users:(OI)(CI)RX"
 
-Note
-
 This command disables permission inheritance ( /inheritance:r ), grants Full Control to the Administrators group and the SYSTEM account, and provides Read/Execute (RX) access to Authenticated
                                                    Users.
 
@@ -187,12 +175,6 @@ The OpenSSH configuration file that is packaged with Cisco ICM and CVP contains
 When upgrading to version 15.0, the existing preconfigured OpenSSH configuration remains unchanged. Ensure that the OpenSSH
                               configuration file located at %programdata%\ssh\sshd_config includes the recommended default customization as mentioned in the table below. Restart the OpenSSH services after making
                               any manual changes to the OpenSSH configuration file.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Settings | Compliance Configuration | Description |
 |---|---|---|

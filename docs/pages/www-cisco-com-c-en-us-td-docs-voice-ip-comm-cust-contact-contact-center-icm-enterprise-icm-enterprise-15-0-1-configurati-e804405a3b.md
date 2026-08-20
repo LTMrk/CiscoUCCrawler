@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-e804405a3b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_icm-to-icm-gateway-user-guide/ucce_m_1501_icm-to-icm-gateway-configuration.html
-retrieved_at: 2026-08-16T14:34:19.704631+00:00
+retrieved_at: 2026-08-20T18:54:43.938229+00:00
 ---
 
 ICM to ICM Gateway User Guide for Unified CCE, Release 15.0(1)
@@ -40,8 +40,6 @@ Setting up the necessary translation route labels.
 Making the necessary script changes for returning calls and labels
                               			 to the Client ICM.
 
-Note
-
 ## Client ICM Configuration
 
 This section provides instructions for the configuration tasks you must  perform on the Client ICM.
@@ -53,11 +51,7 @@ To identify the ICM
                               		  Gateway Client for the ICM Gateway Server, run a full Web Setup Tool on the
                               		  Client Router machine.
 
-Note
-
 For more information on CallRouter installation, refer to the Installation Guide for Cisco Contact Center Enterprise .
-
-### Procedure
 
 Step 1
 
@@ -78,8 +72,6 @@ Must be a unique number for each Client ICM in the configuration.
 The maximum Client ID number can be 127.
 
 ### What to do next
-
-Note
 
 Make a note of this Client ICM ID number and use the same number for the Client ID setting in the Server ICM configuration.
 
@@ -178,8 +170,6 @@ To set up your
                               Client ICM configuration, run Configuration Manager on a Client ICM Admin
                               Workstation.
 
-Note
-
 ### Configure New
                            	 Gateway
 
@@ -187,8 +177,6 @@ An Application
                                  		  Gateway process must be configured on the Client ICM for each Server ICM that
                                  		  the Client ICM is going to communicate with. To configure a new
                                  		  Application Gateway, perform the following steps.
-
-#### Procedure
 
 Step 1
 
@@ -237,8 +225,6 @@ Step 5
 Click the Save button
                                           			 to create the gateway.
 
-Note
-
 Step 6
 
 To set the
@@ -279,8 +265,6 @@ None . Neither side of the
 Both Side A and B . Both
                                                          						  sides of the Client ICM prefer to use this connection.
 
-Note
-
 Step 9
 
 When finished,
@@ -305,8 +289,6 @@ If the gateway
                                  		  process is already present on the CallRouter, perform the following steps to
                                  		  configure it for ICM-to-ICM Gateway use.
 
-#### Procedure
-
 Step 1
 
 From the ICM Configuration Manager on an Admin Workstation associated with the Client ICM, select Tools > List Tools > Application Gateway List screen.
@@ -326,8 +308,6 @@ Step 4
 
 Configure the
                                           			 Connection Side A and Connection Side B tabs as needed.
-
-Note
 
 Step 5
 
@@ -351,8 +331,6 @@ Typically, the
 From the Script
                               		  Editor, you can specify a local definition of the label that the ICM Gateway
                               		  node returns. Perform the following steps:
-
-### Procedure
 
 Step 1
 
@@ -425,8 +403,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Cisco Systems,
 
 Specify the type of this entry as a DWORD.
 
-Note
-
 The Web Setup Tool program does not manage this registry entry.
                                           		  If you upgrade Unified CCE , you must add the registry entry again.
 
@@ -446,8 +422,6 @@ This section provides instructions for the
 
 ### Define and Configure INCRP NIC
 
-#### Procedure
-
 Install the INCRP NIC, if you have not already done so.
 
 Define the INCRP NIC using the NIC Explorer tool.
@@ -456,10 +430,6 @@ Add INCRP NIC information using the Web Setup Tool.
 
 #### Define INCRP
                               	 NIC
-
-Note
-
-##### Procedure
 
 Step 1
 
@@ -503,8 +473,6 @@ Name . A name for the NIC. The name can be up to 32 characters. The valid
 Client Type . (Drop-down
                                                    				  list.) The type of routing client serviced by the NIC. Select INCRP .
 
-Note
-
 Step 7
 
 Click the Add Physical Interface Controller button. The Physical Interface Controller dialog box appears.
@@ -514,8 +482,6 @@ Step 8
 In the Create
                                              			 Single Physical Interface Controller section, specify an Enterprise Name and,
                                              			 optionally, a Description.
-
-Note
 
 Step 9
 
@@ -557,8 +523,6 @@ Configuration parameters .
 
 /customerid A:X- where A is the Client ID specified in Setup and X is the Routing Client on the Client ICM.
 
-Note
-
 Client Type . (Drop-down
                                                    				  list.) The type of routing client that ultimately routes the call on the
                                                    				  requesting ICM system. This type must match the type of NIC running on the Client
@@ -570,8 +534,6 @@ Click Save . The
                                              			 newly defined NIC is saved in the database, a Physical Controller ID is
                                              			 assigned, and the To Be
                                                 				Inserted icon is removed from the tree window.
-
-Note
 
 Step 12
 
@@ -585,12 +547,8 @@ To configure the
                                     		  INCRP NIC on the Server ICM, run Web Setup Tool and edit the CallRouter from
                                     		  the Server Router machine (rather than from the installation CD).
 
-Note
-
 Perform the
                                     		  following steps:
-
-##### Procedure
 
 Step 1
 
@@ -635,8 +593,6 @@ From the ICM-to-ICM Gateway server's point of view it is doing a
                                  		  IXC. This method allows the call to be initially sent to the translation route at the
                                  		  peripheral.
 
-Note
-
 ### Modify Routing
                            	 Scripts
 
@@ -648,8 +604,6 @@ From the Script
                                  		  Editor, you can specify the label that the server script returns to the client.
                                  		  For example, you could create a Select node that routes calls to specified
                                  		  services under certain conditions. Perform the following steps.
-
-#### Procedure
 
 Step 1
 
@@ -665,14 +619,6 @@ Step 3
 
 Specify the
                                           			 criteria for selecting services.
-
-Note
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | If you are implementing a bidirectional ICM-to-ICM Gateway link (see the section, ICM-to-ICM Gateway Overview ), perform Client and Server tasks on both Unified CCE instances. |
 |---|---|

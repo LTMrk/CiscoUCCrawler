@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-8ed291a672
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_network-ivrs-vrus.html
-retrieved_at: 2026-08-16T14:33:58.241488+00:00
+retrieved_at: 2026-08-20T18:53:52.099352+00:00
 ---
 
 Configuration Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -25,8 +25,6 @@ This tool allows a
                                  		  network applications manager (NAM) to view, edit, or define network VRUs,
                                  		  labels, and their associations. The system software can send a customer call to
                                  		  a network VRU.
-
-Note
 
 To begin, select the
                                  		  filters you want and click Retrieve .
@@ -242,8 +240,6 @@ Network VRU scripts are created by VRU engineers for VRUs. This List
                                  		  tool defines these previously created scripts for the system software so it can
                                  		  interact with the scripts.
 
-Note
-
 #### Select Filter Data Box
 
 Use the Select filter data box to select and retrieve data from the
@@ -388,8 +384,6 @@ When the Media Server URL is a DNS name and if the DNS Server is
                                                 				attempt to get the media files from each Media Server IP address in sequence
                                                 				with the priority to the closest IP address (as determined by the subnet mask).
 
-Note
-
 Locale (required)
 
 (selection list) A combination of language and country which
@@ -401,16 +395,12 @@ The name of the system library of media files and prompts for
                                                 				individual digits, months, default error messages, and so on. The maximum
                                                 				string size is 10 characters. The default is sys.
 
-Note
-
 Application media library
 
 The name of the application library of media files and prompts for
                                                 				individual digits, months, default error messages, and so on. Indicates the
                                                 				application media library that contains the application media file to be played
                                                 				to the caller. The maximum string size is 10 characters. The default is app.
-
-Note
 
 Currency (required)
 
@@ -524,8 +514,6 @@ Resource
                                           					 label type and a correlation ID. The routing client can automatically take back
                                           					 the call from the VRU when the system software returns a destination label.
 
-Note
-
 Optional:
                                           					 Send to VRU, Queue, and Run VRU Script.
 
@@ -533,8 +521,6 @@ Optional:
 
 Resource
                                           					 label type and either a correlation ID or a DNIS.
-
-Note
 
 Required:
                                           					 Send to VRU. Optional: Queue and Run VRU Script.
@@ -556,8 +542,6 @@ Optional:
 Similar to
                                           					 Type 3, but the system software automatically instructs the VRU to release the
                                           					 call when it sends a destination label to the routing client.
-
-Note
 
 Optional:
                                           					 Send to VRU, Queue, and Run VRU Script.
@@ -680,8 +664,6 @@ Each row identifies a script used by a network VRU to handle a call. A
                                  		  VRU script is managed by the VRU itself. It is not stored in the Unified ICM database or directly managed by the system software. The system
                                  		  software can only direct the VRU to run the script.
 
-Note
-
 Field
 
 Description
@@ -741,8 +723,6 @@ Define each logical VRU in the database before continuing to the following secti
 
 #### Create Network VRU Target
 
-##### Procedure
-
 Step 1
 
 Within the Configuration Manager, select Tools > Explorer
@@ -780,8 +760,6 @@ Click Save to apply your changes.
 You must associate all VRU Types (except Type 6) with a Network VRU
                                     		label.
 
-##### Procedure
-
 Step 1
 
 In the Network VRU Explorer window, click Retrieve and select the Network VRU you want
@@ -802,8 +780,6 @@ Click Save to apply your changes.
 For Network VRUs, you must use the System Information dialog to define a
                                     		range of correlation IDs so the system software can communicate with the VRU
                                     		about the call.
-
-##### Procedure
 
 Step 1
 
@@ -835,10 +811,6 @@ To allow a routing script to control the processing on the VRU, you
                                     		  must configure VRU-based scripts within the system software. A routing script
                                     		  can then direct the VRU to run a specific script.
 
-Note
-
-##### Procedure
-
 Step 1
 
 Within the Configuration Manager, select Tools > Network VRU
@@ -856,8 +828,6 @@ Click Add . The Attributes property tab appears.
 Step 4
 
 Complete the Attributes property tab.
-
-Note
 
 Step 5
 
@@ -910,8 +880,6 @@ Trunk
 Trunk
                                           					 group
 
-Note
-
 In some cases the Unified ICM concept is very close to the corresponding ACD feature. In other cases, the ACD does not have a feature that maps exactly
                               to the Unified ICM feature. In these cases, you might choose a different mapping than shown in the above table.
 
@@ -925,12 +893,6 @@ Some ACDs have
 
 Refer to the Pre-installation Planning Guide for Cisco Unified ICM for the current list of supported peripherals with any
                               		  peripheral-specific limitations.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | The Network VRU
                                           		  Explorer is not available on a limited (single Instance) Administration &

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-8927dda1a7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/window_server_firewall_configuration.html
-retrieved_at: 2026-08-16T14:35:53.318950+00:00
+retrieved_at: 2026-08-20T18:56:25.739060+00:00
 ---
 
 Security Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -70,8 +70,6 @@ Optional ports that you can open:
 
 5631/TCP and 5632/UDP - pcAnywhere
 
-Note
-
 For a complete list of port usage, see Port Utilization Guide for Cisco Unified Contact Center Solutions , at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html .
 
 ## Cisco Firewall
@@ -83,8 +81,6 @@ Install the
 For information on operating system, see the Compatibility Matrix at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-device-support-tables-list.html .
 
 Unified CCE components
-
-Note
 
 ## Run Cisco Firewall
                         	 Configuration Utility
@@ -102,8 +98,6 @@ If you attempt
 
 Use the Cisco
                               		  Firewall Configuration Utility on each server running a Unified ICM component. To use the utility, follow these steps:
-
-### Procedure
 
 Step 1
 
@@ -140,8 +134,6 @@ Reboot the
 You can verify that
                               		  the Unified ICM components and ports were added to the Windows Firewall exception list by
                               		  following these steps:
-
-### Procedure
 
 Step 1
 
@@ -188,8 +180,6 @@ Define the following
 
 For more information about restricting File Replication Service (FRS) traffic to a specific static port, see https://support.microsoft.com/en-in/help/832017/service-overview-and-network-port-requirements-for-windows .
 
-#### Procedure
-
 Step 1
 
 Start Registry Editor (regedit.exe).
@@ -211,8 +201,6 @@ Value: 10000 (decimal)
 ### Restrict Active Directory Replication Traffic to Specific Port
 
 For more information about restricting Active Directory replication traffic to a specific port, see https://support.microsoft.com/en-in/help/832017/service-overview-and-network-port-requirements-for-windows .
-
-#### Procedure
 
 Step 1
 
@@ -237,8 +225,6 @@ Value: 10001
                            	 Procedure Call (RPC) Port Allocation
 
 For more information about configuring RPC port allocation, see https://support.microsoft.com/en-in/help/832017/service-overview-and-network-port-requirements-for-windows .
-
-#### Procedure
 
 Step 1
 
@@ -413,8 +399,6 @@ A layer 3 protocol suite in the TCP/IP suite. This is used in pings and traces. 
 To test connectivity and show the FRS configuration in Active
                                  		  Directory, use the Ntfrsult tool.
 
-#### Procedure
-
 From the command line, run the Windows File Replication utility: Ntfrsutl version <server_name> .
 
 When communications between the domain controllers are configured
@@ -426,8 +410,6 @@ To validate connectivity between the domain controllers,
                                  use the Portqry tool.
 
 To download Portqry utility and to learn more about it, see https://support.microsoft.com/en-in/help/310099/description-of-the-portqry-exe-command-line-utility .
-
-#### Procedure
 
 Step 1
 
@@ -476,8 +458,6 @@ Applications: The
 The script
                                     				automatically excludes all the applications listed in the CiscoICMfwConfig_exc.xml file.
 
-Note
-
 The behavior of the Applications section is opposite to that of the other two sections in the file. The Ports and Services
                                                 sections allow access, whereas the Application section denies access.
 
@@ -489,8 +469,6 @@ You can manually add
 
 <Port Number="9000"
                                  			 Protocol="TCP" Name="CORBA" /> .
-
-Note
 
 This change is
                                           			 only needed if remote Jaguar administration is required. Usually, this change
@@ -563,12 +541,8 @@ You can use the
                                  		  firewall configuration utility to undo the last application of the firewall
                                  		  settings. You need the CiscoICMfwConfig_undo.xml file.
 
-Note
-
 To undo the firewall
                                  		  settings:
-
-#### Procedure
 
 Step 1
 
@@ -598,12 +572,6 @@ Step 6
 
 Reboot the
                                           			 server.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | You can edit the XML file to add port-based exceptions outside of this list. |
 |---|---|

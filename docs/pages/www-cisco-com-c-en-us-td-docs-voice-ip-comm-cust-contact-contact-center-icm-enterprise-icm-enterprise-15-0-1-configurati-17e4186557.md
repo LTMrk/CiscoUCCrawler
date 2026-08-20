@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-17e4186557
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_icm-to-icm-gateway-user-guide/ucce_m_1501_icm-to-icm-gateway-overview.html
-retrieved_at: 2026-08-16T14:34:14.749493+00:00
+retrieved_at: 2026-08-20T18:54:47.585848+00:00
 ---
 
 ICM to ICM Gateway User Guide for Unified CCE, Release 15.0(1)
@@ -148,8 +148,6 @@ The agent sends a call transfer request to the CTI Server (not
                                              					 shown). This transfer request must have the post-route flag set, so that a
                                              					 post-route request is issued to the Client ICM before transferring the call.
 
-Note
-
 While the ICM Gateway works regardless of the Routing Client type,
                                        				the NICCallID data is only provided if the original Routing Client can
                                        				perform a network transfer. Since Peripheral Gateways are not capable of
@@ -205,12 +203,8 @@ In the case of a link failure, each INCRP NIC has a link to both
 If an INCRP NIC fails, the Client CallRouters are synchronized and
                                     				can communicate via the remaining INCRP NIC.
 
-Note
-
 If an ICM-to-ICM Gateway fails, the CallRouters on the Server ICMs are
                                     				synchronized and can communicate via the remaining ICM-to-ICM Gateway.
-
-Note
 
 ## ICM-to-ICM Gateway Requirements
 
@@ -219,12 +213,6 @@ Both the Client ICM and Server ICM must be supported releases of ICM, and they m
                               lowest numbered release are available.
 
 Refer to the Unified Contact Center Enterprise (Unified CCE) Software Compatibility Guide for more information.
-
-### Contact Cisco
-
-- Open a Support Case
-
-- (Requires a Cisco Service Contract )
 
 | Note | Network transfers do not work across instances. You cannot perform a Network Transfer from one Remote ICM instance to another Remote ICM instance, even if you have a mesh configuration. With a mesh configuration, you can only perform a local transfer within
                                                 your ICM instance. For example, if one side of the Client ICM is co-located with only one side of the Server ICM, you can
