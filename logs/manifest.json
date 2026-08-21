@@ -142260,6 +142260,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_planning-guide-for-cisco-jabber/cjab_b_planning-guide-for-cisco-jabber_chapter_01.html": {
+      "content_sha": "5153559639ea81e394ad559ce149e0fb7ced13fbf673c12a3dca6da65ab243cb",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-cjab-b-planning-guide-for-cisco-jabber-cjab-b-planning-guide-for-6696261fc9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T18:59:29.577108+00:00",
+      "last_changed": "2026-08-21T18:59:29.577108+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T18:59:29.577108+00:00",
+      "next_check": "2026-08-22T18:59:29.577108+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_planning-guide-for-cisco-jabber/cjab_b_planning-guide-for-cisco-jabber_chapter_010.html": {
+      "content_sha": "88da2b5da1924f796194b97eb165496b2fcc6e8b68c1bc3624aa121ae3c3ddfc",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-cjab-b-planning-guide-for-cisco-jabber-cjab-b-planning-guide-for-6809ea39ef",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T18:59:35.224066+00:00",
+      "last_changed": "2026-08-21T18:59:35.224066+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T18:59:35.224066+00:00",
+      "next_check": "2026-08-22T18:59:35.224066+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/rn/jabi_b_release-notes-for-cisco-jabber_121.html": {
       "content_sha": "30b5720a12c437439efa1da38f99ae1392288dff143819b8c1b5374d1d243bae",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-rn-jabi-b-release-notes-for-cisco-jabber-121-html-3a1a5595bc",
@@ -146180,5 +146206,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T18:56:42.265110+00:00"
+  "updated_at": "2026-08-21T18:59:35.305085+00:00"
 }

@@ -1,13 +1,12 @@
 {
-  "run_at": "2026-08-21T18:56:42.398200+00:00",
+  "run_at": "2026-08-21T18:59:35.441887+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-cjab-b-planning-guide-for-cisco-jabber-cjab-b-planning-guide-for-6696261fc9",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-cjab-b-planning-guide-for-cisco-jabber-cjab-b-planning-guide-for-6809ea39ef"
+  ],
   "modified": [],
   "removed": [],
-  "blocked": [
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvj95514-bd75288d72",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvk04627-0037acd7b1",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvk08387-44593d77a9"
-  ],
+  "blocked": [],
   "unchanged_count": 0
 }
