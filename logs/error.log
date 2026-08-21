@@ -3579,3 +3579,21 @@
 [2026-08-21T01:30:54.727130] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq05867
 [2026-08-21T01:33:17.363246] Omitida: excluida por robots.txt | https://tools.cisco.com/security/center/publicationListing.x
 [2026-08-21T01:33:17.363311] Omitida: excluida por robots.txt | https://tools.cisco.com/security/center/resources/security_vulnerability_policy.html
+[2026-08-21T01:42:42.034118] HTTP 599 o DOM vacío. | http://upgrad.cloudapps.cisco.com/upgrad/jsp/index.jsp
+[2026-08-21T01:42:49.778038] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq22312
+[2026-08-21T01:42:49.963829] Omitida: excluida por robots.txt | https://software.cisco.com/download/home
+[2026-08-21T01:42:54.232875] HTTP 301 o DOM vacío. | https://developer.cisco.com/site/jtapi/cti-tapi-jtapi-supported-device-matrix
+[2026-08-21T01:42:54.451942] Omitida: excluida por robots.txt | http://developer.cisco.com/web/emapi/home
+[2026-08-21T01:42:58.425332] HTTP 301 o DOM vacío. | https://developer.cisco.com/site/tapi
+[2026-08-21T01:42:58.425401] Omitida: excluida por robots.txt | http://developer.cisco.com/web/wd/home
+[2026-08-21T01:42:58.425429] Omitida: excluida por robots.txt | http://developer.cisco.com/web/curri/home
+[2026-08-21T01:43:02.692577] HTTP 301 o DOM vacío. | https://developer.cisco.com/site/tapi/supported-windows-os
+[2026-08-21T01:43:02.871813] Omitida: excluida por robots.txt | http://tools.cisco.com/Support/SNMP/do/BrowseMIB.do
+[2026-08-21T01:43:02.953285] Omitida: excluida por robots.txt | https://tools.cisco.com/ServiceRequestTool/create
+[2026-08-21T01:43:36.502387] Markdown insuficiente tras sanitizar (99 chars). | https://cway.cisco.com/mynotifications
+[2026-08-21T01:43:43.842534] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvb14399
+[2026-08-21T01:43:45.132289] HTTP 599 o DOM vacío. | http://ucs.cloudapps.cisco.com
+[2026-08-21T01:43:45.132375] Omitida: excluida por robots.txt | http://tools.cisco.com/cucst
+[2026-08-21T01:43:47.800808] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/12_5_1/www.cisco.com/go/virtualized-collaboration
+[2026-08-21T01:43:50.914091] HTTP 301 o DOM vacío. | https://developer.cisco.com/site/axl/learn/how-to/upgrade-to-a-new-axl-schema.gsp
+[2026-08-21T01:43:55.152554] HTTP 301 o DOM vacío. | https://developer.cisco.com/site/axl/documents/operations-by-release
