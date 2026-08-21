@@ -190,6 +190,16 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvg67078": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvg67078-15b36dfc6d",
+      "fail_count": 1,
+      "first_seen": "2026-08-21T15:23:44.352528+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-21T15:23:44.352535+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvh72096": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvh72096-d5823cc87c",
@@ -207,6 +217,16 @@
       "first_seen": "2026-08-21T09:37:04.497762+00:00",
       "http_status": 403,
       "last_seen": "2026-08-21T09:37:04.497770+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvh75486": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvh75486-6b215d00ee",
+      "fail_count": 1,
+      "first_seen": "2026-08-21T15:23:48.475540+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-21T15:23:48.475547+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -267,6 +287,16 @@
       "first_seen": "2026-08-21T09:39:49.629375+00:00",
       "http_status": 403,
       "last_seen": "2026-08-21T09:39:49.629382+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm19834": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvm19834-2e57a155ea",
+      "fail_count": 1,
+      "first_seen": "2026-08-21T15:23:52.767139+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-21T15:23:52.767144+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -124760,5 +124790,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T15:21:04.162652+00:00"
+  "updated_at": "2026-08-21T15:23:52.853034+00:00"
 }
