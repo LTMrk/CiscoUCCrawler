@@ -10,7 +10,7 @@ tags: Contact List Management
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-20T13:57:48.751347+00:00
+retrieved_at: 2026-08-21T15:48:41.823873+00:00
 ---
 
 # PATCH /v3/campaign-management/campaigns/{campaignId}/contacts/{contactId}

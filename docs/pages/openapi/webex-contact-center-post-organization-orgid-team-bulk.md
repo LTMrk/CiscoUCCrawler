@@ -10,7 +10,7 @@ tags: Team
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-20T13:57:48.712758+00:00
+retrieved_at: 2026-08-21T15:48:41.775464+00:00
 ---
 
 # POST /organization/{orgid}/team/bulk

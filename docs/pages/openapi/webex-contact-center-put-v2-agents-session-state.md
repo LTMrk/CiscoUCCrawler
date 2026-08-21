@@ -10,7 +10,7 @@ tags: Agents
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-20T13:57:48.731624+00:00
+retrieved_at: 2026-08-21T15:48:41.798247+00:00
 ---
 
 # PUT /v2/agents/session/state

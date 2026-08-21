@@ -10,7 +10,7 @@ tags: Activities
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-20T13:57:48.736702+00:00
+retrieved_at: 2026-08-21T15:48:41.804159+00:00
 ---
 
 # GET /{orgId}/project/{projectId}/v2/activities/{activityName}

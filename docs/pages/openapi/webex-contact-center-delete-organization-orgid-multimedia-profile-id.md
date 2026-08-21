@@ -10,7 +10,7 @@ tags: Multimedia Profile
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-20T13:57:48.699186+00:00
+retrieved_at: 2026-08-21T15:48:41.758900+00:00
 ---
 
 # DELETE /organization/{orgid}/multimedia-profile/{id}

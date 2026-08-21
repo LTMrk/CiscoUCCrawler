@@ -10,7 +10,7 @@ tags: Notification
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-20T13:57:48.727817+00:00
+retrieved_at: 2026-08-21T15:48:41.793771+00:00
 ---
 
 # POST /v1/notification/subscribe
@@ -23,7 +23,7 @@ retrieved_at: 2026-08-20T13:57:48.727817+00:00
 Subscribe Notification
 
 ## Descripción
-Access this endpoint when the user has to register for a WebSocket Session. Requires 'cjp:user' scope or roles 'id_full_admin', 'id_readonly_admin', 'atlas-portal.partner.salesadmin', 'cjp.supervisor', 'cjp.admin', 'atlas-portal.partner.provision_admin', 'cloud-contact-center:pod_conv' for authorization
+Access this endpoint when the user has to register for a WebSocket Session. Requires one of the following accepted registration scopes: `cjp:user` or `cloud-contact-center:pod_conv`. The `cjp-hybrid-conn:read` scope is also accepted when CCE authentication is enabled. Tokens with only admin or partner roles and no accepted registration scope are rejected.
 
 ## Cuerpo de la petición (application/json)
 - `isKeepAliveEnabled` (boolean): This represents that a json message {\"keepalive\":\"true\"} is expected over the websocket connection from Client. This should be sent periodically (usually 4s). If there are no keep-alive messages from the client for a period of 16 seconds, the server will drop the websocket. Por defecto: False.
@@ -42,7 +42,15 @@ curl -X POST '/v1/notification/subscribe' \
 ## Respuestas correctas
 **200**: OK
 - `webSocketUrl` (string) (**requerido**): Url used by the client to setup websocket.
-- `subscriptionId` (object/uuid) (**requerido**): Id used by client to subscribe to interested events.
+- `subscriptionId` (string) (**requerido**): Id used by client to subscribe to interested events.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "webSocketUrl": "wss://api.wxcc-us1.cisco.com/v1/notification/subscription/AgentDesktop-ffffffac0f-39fa-4122-80d8-f2c2266e6391",
+  "subscriptionId": "AgentDesktop-ffffffac0f-39fa-4122-80d8-f2c2266e6391"
+}
+```
 
 ## Respuestas de error
 - **401**: Unauthorized, Token is Invalid

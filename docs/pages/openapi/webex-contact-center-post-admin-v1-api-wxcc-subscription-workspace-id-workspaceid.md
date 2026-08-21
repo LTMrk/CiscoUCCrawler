@@ -10,7 +10,7 @@ tags: Journey - Subscription API
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-20T13:57:48.746730+00:00
+retrieved_at: 2026-08-21T15:48:41.817624+00:00
 ---
 
 # POST /admin/v1/api/wxcc-subscription/workspace-id/{workspaceId}

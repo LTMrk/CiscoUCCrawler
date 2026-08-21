@@ -10,7 +10,7 @@ tags: Users
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-20T13:57:48.724731+00:00
+retrieved_at: 2026-08-21T15:48:41.790193+00:00
 ---
 
 # GET /organization/{orgid}/v2/user

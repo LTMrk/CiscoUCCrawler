@@ -10,7 +10,7 @@ tags: Call Monitoring
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-20T13:57:48.732140+00:00
+retrieved_at: 2026-08-21T15:48:41.798862+00:00
 ---
 
 # POST /v1/monitor/{taskId}/hold
