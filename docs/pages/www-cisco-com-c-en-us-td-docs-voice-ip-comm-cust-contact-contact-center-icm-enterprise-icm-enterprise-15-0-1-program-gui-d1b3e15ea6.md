@@ -1,0 +1,919 @@
+---
+doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-program-gui-d1b3e15ea6
+source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/Program/guide/pcce_b_cisco_packaged_cce_developer_reference_release_1501/pcce_m_working-with-cisco-packaged-contact-center-enterprise-apis_1501.html
+retrieved_at: 2026-08-21T16:42:33.209297+00:00
+---
+
+Cisco Packaged Contact Center Enterprise Developer Reference, Release 15.0(1)
+
+# Cisco Packaged Contact Center Enterprise Developer Reference, Release 15.0(1)
+
+Updated: April 9, 2026
+
+Chapter: Working with Cisco Packaged Contact Center Enterprise APIs
+
+## Chapter: Working with Cisco Packaged Contact Center Enterprise APIs
+
+# Working with Cisco Packaged Contact Center Enterprise APIs
+
+## Change History
+
+This section notes the new and changed APIs in this Packaged CCE release.
+
+### New APIs
+
+Webex Common Identity User Sync Config API
+
+Webex Common Identity User Sync API
+
+Webex Common Identity User Sync Status API
+
+Webex Common Identity User Sync Failedusers API
+
+Config Summary API
+
+Agent Config Summary API
+
+Call Type Config Summary API
+
+GeneralSetting API with Agent Event Detail Extended support
+
+Peripheral API
+
+Person API
+
+### Updated APIs
+
+See
+
+Change
+
+Date
+
+Contact Center AI Features
+
+Added a new topic in 'Working with Unified CCE APIs' chapter.
+
+This 'Contact Center AI Features' topic has  a table with list of all available AI features.
+
+Contact Center AI API
+
+Added new chapter with CCAI to retrieve global configuration for AI services
+
+April 2026
+
+Added new API for AI Assistant
+
+Config Summary API
+
+Agent Config Summary API
+
+Call Type Config Summary API
+
+November 2025
+
+Webex Common Identity User Synch
+
+Webex User Sync Status API
+
+Webex Common Identity User Synch Config API
+
+November 2025
+
+Bulk API
+
+Added 'Webex CI Content Migration Template' file for migration of Webex CI users
+
+November 2025
+
+Agent API and Person API
+
+WebexCiUUID-new field is added
+
+November 2025
+
+Bulk Job
+
+The new job type 9, for Webex CI Migration is added.
+
+November 2025
+
+Replaced CUSP with CCCSP and Cisco Unified SIP Proxy with Cisco Contact Center SIP Proxy
+
+Throughout the document.
+
+November 2025
+
+Agent API
+
+Added a note related to API access for supervisors and administrators.
+
+March 2025
+
+## Working with Cisco
+                        	 Packaged Contact Center Enterprise APIs
+
+Cisco Packaged
+                           		Contact Center Enterprise (Packaged CCE) uses REST -based API
+                           		functions accessed over HTTP. Each API Operation is mapped to an HTTP method.
+                           		For more information, see API Operations .
+
+This document
+                           		explains the operations and parameters for each configurable item in Packaged
+                           		CCE.
+
+For more information on managing the system, see the Cisco Packaged Contact Center Enterprise Administration and Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html .
+
+To review examples
+                           		on how to interact with the Unified Config and Outbound REST web services in Java, see the 
+                           		CCE Config Sample REST
+                           		  Toolkit at https://developer.cisco.com/site/packaged-contact-center/documentation/ .
+
+## API
+                        	 Operations
+
+There are five API
+                              		  operations, and they are invoked by HTTP methods.
+
+Responses are
+                              		  provided using HTTP headers and HTTP body containing XML. For information on
+                              		  XML, see XML .
+
+### create
+
+The create
+                              		  operation uses the HTTP POST method to make one new item and return the URL of
+                              		  that item in the HTTP location header. That URL can then be used to perform the
+                              		  get, update, and delete operations. An XML body containing the parameters and
+                              		  values for the new item must be specified.
+
+### delete
+
+The delete
+                              		  operation uses the HTTP DELETE method to delete one item. The item may be
+                              		  marked for deletion or permanently deleted depending on the item type.
+
+To delete more than one item at a
+                              		  time, refer to the Operation API.
+
+You cannot
+                              		  delete BuiltIn items (those automatically created by the system, such as the BuiltIn bucket interval), items referenced in scripts, or items referenced by other
+                              		  items.
+
+### get
+
+The get operation
+                              		  uses the HTTP GET method to retrieve one item. For example, to return one
+                              		  bucket interval record, perform the get operation using the URL: https://<server>/unifiedconfig/config/bucketinterval/<id> .
+
+In all Packaged CCE API URLs or examples, replace <server> with the Fully Qualified Domain Name (FQDN) of your Admin Workstation.
+
+### list
+
+The list
+                              		  operation uses the HTTP GET method to retrieve a list of items. For example, to
+                              		  retrieve a list of bucket intervals, perform the list operation using the URL: https://<server>/unifiedconfig/config/bucketinterval .
+                              		  See also Permissions , Pagination , Search ,
+                              		  and Sort .
+
+Query parameters:
+
+Summary list: Some APIs have parameters that include a large amount of data when returned, such as collections of references.
+                                    Use this query parameter to reduce the number of parameters returned for each item in the list. For example, in the Skill
+                                    Group API, if skill groups contain a large number of agents, a large amount of data may be returned. Use this query option
+                                    to return the basic skill group data along with the number of agents having the skill. Append the query parameter summary=true to the URL for the API; for example, https://<server>/unifiedconfig/config/skillgroup?summary=true .
+
+### update
+
+The update
+                              		  operation uses the HTTP PUT method to modify one item. An XML body containing
+                              		  the parameters and values to update must be specified. For example, to update
+                              		  the name of a bucket interval, perform the update operation on the URL https://<server>/unifiedconfig/config/bucketinterval/(id) with the following body:
+
+```
+<bucketInterval>
+   <name>newName</name>
+   <changeStamp>0</changeStamp>
+</bucketInterval>
+```
+
+## Cross-Origin Resources Sharing for CCE
+
+Cross-Origin Resource Sharing (CORS) for Cisco Contact Center Enterprise (CCE) allows web applications running on different
+                           origins (domains, protocols, or ports) to securely access CCE APIs.
+
+CORS enables the server to dynamically return appropriate CORS headers based on defined configurations, ensuring secure and
+                           controlled browser-based access to the APIs.
+
+### Enabling CORS for CCE
+
+To enable CORS configuration from Windows Registry, do the following:
+
+Launch the Registry Editor on the required Administrator and Data Server(s).
+
+Navigate to the following path:
+
+Right-click the WebConfig and select New > Key to create CORS key.
+
+Create the enabled string value:
+
+Right-click the CORS folder and select New > String Value to create new string value and provide string value as enabled .
+
+Right-click the enabled string value.
+
+The Edit String dialog box appears.
+
+In the Value data field, enter true .
+
+Click OK .
+
+Create the Access-Control-Allow-Origin string value:
+
+Right-click the CORS folder and select New > String Value to create new string value and provide string value as Access-Control-Allow-Origin .
+
+Right-click the Access-Control-Allow-Origin string value.
+
+The Edit String dialog box appears.
+
+In the Value data field, enter a valid origin URL.
+
+Click OK .
+
+The origin value must be valid URL. To specify multiple origins, separate each entry with a comma.
+
+CORS configuration updates do not require a service restart, as changes take effect within one minute.
+
+### CORS Header Configuration - Required String Values
+
+String Value
+
+Description
+
+Value data
+
+Specifies the allowed origin(s).
+
+Maximum string length of the Value data field must be less than 4000 characters.
+
+Ensure wildcard (*) is not present the Value data field in the Edit String dialog box.
+
+The Value data field cannot be empty.
+
+https://<domain:port>
+
+For example, https://domain.com:8000,https:// domain.com:8001
+
+### CORS Header Configuration - Optional String Values
+
+The following table as the default values configured for the CORS. You can create the required string value to edit the CORS
+                              configuration by providing custom values as per requirement.
+
+String Value
+
+Description
+
+Default Value
+
+Specifies the HTTP methods permitted for cross-origin requests
+
+CONTENT-TYPE,
+
+AUTHORIZATION
+
+### Disabling CORS
+
+CORS isdisabled by default.If the CORS registry key does not exist, CORS remains inactive. The following conditions also result
+                              in CORS being disabled:
+
+String Value
+
+Value Data
+
+false
+
+Note : Set as 'false' to void all other settings.
+
+## Access
+
+### Administrator
+                              		  Access
+
+Administrator
+                              		  access to Packaged CCE Administration APIs and items is defined by the role and
+                              		  by the departments for which the administrator is responsible.
+
+### Supervisor
+                              		  Access
+
+The following APIs
+                              		  are read only:
+
+- Agent Team API
+
+- Precision Queue API
+
+The following APIs
+                              		  allow update with restrictions:
+
+When
+                                          					 updating an attribute, supervisors can only modify the collection of
+                                          					 agentAttributes by adding, removing, or changing the value of agents who are on
+                                          					 their teams.
+
+Agent Call APIs
+
+- Supervisors can only see and update agents who are on their teams.
+
+- skillGroups
+
+- defaultSkillGroup
+
+- skillGroupsAdded
+
+- skillGroupsRemoved
+
+- agentAttributes
+
+- agentAttributesAdded
+
+- agentAttributesRemoved
+
+- password
+
+- The Operation API can also be used to perform updates on agents.
+
+Skill Group API :
+
+- When updating a skill
+                                       				  group, supervisors can only modify the collections of agents by adding or
+                                       				  removing agents who are on their teams.
+
+### Agent
+                              		  Access
+
+Agents have no
+                              		  access to the Packaged CCE Administration APIs.
+
+### Authentication
+
+To authenticate administrators and supervisors must
+                              			 provide a fully qualified user name (for example, user@domain.com) and password.
+
+## Usage and
+                        	 Behavior
+
+### Duplicate
+                              		  Parameters
+
+If a parameter is
+                              		  duplicated, the final value that is specified will be used by the API.
+
+### Read-Only
+                              		  Fields
+
+Read-only
+                              		  parameters are ignored on create and update operations.
+
+### References
+
+References are a
+                              		  type of parameter that provide a way to connect one item to another item,
+                              		  defining the relationship between them.
+
+For example, to
+                              		  define which team an agent belongs to, the agent contains a reference to a
+                              		  team. When performing list or get operations, the reference contains the refURL
+                              		  of the item and the name. For example:
+
+```
+<agent>
+   <team>
+     <refURL>/unifiedconfig/team/5000</refURL>
+     <name>NameOfTeam</name>
+   </team>
+  …
+</agent>
+```
+
+For items that
+                              		  do not have a name parameter, other parameters such as firstName and lastName
+                              		  are included.
+
+```
+<agent>
+  <refURL>/unifiedconfig/config/agent/5000</refURL>
+  <firstName>Jane</firstName>
+  <lastName>Doe</lastName>
+  <userName>username</userName>
+  <agentId>8007</agentId>
+  <canRemove>true</canRemove>
+</agent>
+```
+
+When doing
+                              		  create or update, only the refURL parameter is required. Additional parameters
+                              		  are ignored. For example:
+
+```
+<agent>
+   <team>
+     <refURL>/unifiedconfig/team/5000</refURL>
+   </team>
+  …
+</agent>
+```
+
+Items can also
+                              		  contain a collection of references. For example, if an agent belongs to
+                              		  multiple skill groups, the skillGroups parameter contains a reference to each
+                              		  associated skill group:
+
+```
+<agent>
+  <skillGroups>
+    <skillGroup>
+      <refURL>/unifiedconfig/config/skillgroup/5001</refURL>
+      <name>FirstSkill</name>
+    </skillGroup>
+    <skillGroup>
+      <refURL>/unifiedconfig/config/skillgroup/5005</refURL>
+      <name>AnotherSkill</name>
+    </skillGroup>
+  </skillGroups>
+  …
+</agent>
+```
+
+If the referenced item
+                              		  belongs to a department, then department information is included within that
+                              		  reference:
+
+```
+<agentDeskSettings>
+   <refURL>/unifiedconfig/config/agentdesksetting/5001</refURL>
+   <name>mike</name>
+   <department>
+      <refURL>/unifiedconfig/config/department/5003</refURL>
+      <name>d1</name>
+   </department>
+</agentDeskSettings>
+```
+
+If the referenced item
+                              		  is a global item, then department information is omitted from the reference.
+
+### XML
+
+XML is case
+                              		  sensitive. When XML data is sent to the server, the tag names must match.
+                              		  <Name> and <name> are two different XML elements.
+
+## Error Responses
+
+Operations that fail return an HTTP status code ( HTTP 1.1 Status
+                                 			 Codes ) indicating if there was a client error or server error. The body
+                              		  of the response contains a collection of API error items to provide additional
+                              		  information about the failure.
+
+### Parameters
+
+- errorType: Indicates the
+                                 			 type of error. This is the primary identifier for the problem and can be used
+                                 			 to map the type to a user readable string. For example, if your application
+                                 			 receives an error with the errorType of invalidInput.fieldRequired, then you
+                                 			 could display "This field is a required field; it cannot be left blank" to the
+                                 			 user.
+
+- errorData: The name of the parameter that had the error.
+
+- errorMessage: Extra
+                                 			 information about the error that is intended for the developer. This
+                                 			 information is typically a sentence or other string. It is not localized, so it
+                                 			 should not be shown to the user.
+
+- min: The minimum
+                                             						value allowed.
+
+- max: The maximum
+                                             						value allowed.
+
+- referenceType: The
+                                             						type of item that references the item you tried to delete.
+
+- references: A
+                                             						collection of references, referencing the item you tried to delete, including
+                                             						the name and refURL of each referencing item.
+
+- totalCount: The
+                                             						total number of items referencing the item you attempted to delete.
+
+- totalShown: The
+                                             						total number of items included in the references collection.
+
+### Example Error Response
+
+The following error is returned when attempting to create a call type
+                              		  with a negative value for the serviceLevelThreshold parameter:
+
+```
+<apiErrors>
+    <apiError>
+        <errorData>serviceLevelThreshold</errorData>
+        <errorDetail>
+            <min>1</min>
+            <max>2147483647</max>
+        </errorDetail>
+        <errorMessage>This field must contain a value from 1 to 2147483647</errorMessage>
+        <errorType>invalidInput.outOfRange</errorType>
+    </apiError>
+</apiErrors>
+```
+
+## Pagination
+
+Pagination allows
+                              		  you to limit the number of items returned by the list operation and provides
+                              		  information on how to get other pages.
+
+### Query
+                              		  Parameters
+
+- startIndex: Specfies the
+                                 			 index of the item at which to start. Zero-based: 0 is the first item.
+
+- resultsPerPage: Specifies
+                                 			 the number of items to retrieve. Minimum:1. Default: 25. Maximum: 100.
+
+### Returned
+                              		  Parameters
+
+- totalResults: Total
+                                 			 number of items.
+
+- resultsPerPage: Number of
+                                 			 items requested per page.
+
+- startIndex: The index of
+                                 			 the first item returned. If you request a startIndex that is greater than total
+                                 			 items, a full last page is returned.
+
+- nextPage: The URL to get
+                                 			 the next page. This parameter is not returned if you are on the last page.
+
+- prevPage: The URL to get
+                                 			 the previous page. This parameter is not returned if you are on the first page.
+
+- firstPage: The URL to get
+                                 			 the first page.
+
+- lastPage: The URL to get
+                                 			 the last page.
+
+- searchTerm: The value
+                                 			 specified in the search query parameter. See Search .
+
+- sortTerm: The value
+                                 			 specified in the sort query parameters. See Sort .
+
+Query
+                                          			 parameters for search and sort are included in the URL.
+
+### Example
+                              		  Response
+
+```
+<pageInfo>
+      <resultsPerPage>2</resultsPerPage>
+      <startindex>0</startIndex>
+      <totalResults>10</totalResults>
+       <firstPage>  http://<server>/bucketIntervals/?resultsPerPage=2</firstPage>
+       <lastPage> http://<server>/bucketIntervals/?startIndex=8&resultsPerPage=2</lastPage>
+      <prevPage/>
+      <nextPage> http://<server>/bucketIntervals/?startIndex=2&resultsPerPage=2</nextPage>
+ </pageInfo>
+
+<bucketIntervals>
+   <bucketInterval/>
+   <bucketInterval/>
+</bucketIntervals>
+```
+
+## Shared
+                        	 Parameters
+
+### changeStamp
+
+The version of
+                                    				the item. Initially set during a create ( create )
+                                    				operation.
+
+A changeStamp
+                                    				is a required parameter for the body of a PUT ( update )
+                                    				operation for items. If you do not provide a changeStamp, the update fails.
+                                    				This mechanism is in place so that two clients cannot edit the record at the
+                                    				same time.
+
+If the update
+                                    				is successful, the changeStamp is incremented.
+
+### description
+
+A description
+                                    				for this item.
+
+Optional
+                                    				parameter.
+
+No restriction of characters; OEM locale supported characters are allowed. For information on how to configure your system
+                                    to support built-in character sets, see the latest version of the document Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-installation-guides-list.html .
+
+Maximum length
+                                    				of 255 characters.
+
+### name
+
+Required
+                                    				parameter.
+
+Maximum length
+                                    				of 32 characters allowed.
+
+Valid
+                                    				characters are period (.), underscore (_), and alphanumeric. The first
+                                    				character must be alphanumeric.
+
+Does not allow
+                                    				internationalized characters.
+
+### refURL
+
+The identifier
+                                    				for an item.
+
+Read-only
+                                    				parameter.
+
+## Permissions
+
+Permissions
+                              		  information is included in list responses to indicate the write operations that
+                              		  the user is allowed to perform. If the API does not support any write
+                              		  operations, then permissions information is not returned.
+
+### Parameters
+
+- canCreate: Indicates
+                                 			 whether a create operation is allowed. Values are true/false. If the create
+                                 			 operation is not supported by the API, then this parameter is not returned.
+
+- canUpdate: Indicates
+                                 			 whether an update operation is allowed. Values are true/false. If the update
+                                 			 operation is not supported by the API, then this parameter is not returned.
+
+- canDelete: Indicates
+                                 			 whether a delete operation is allowed. Values are true/false. If the delete
+                                 			 operation is not supported by the API, then this parameter is not returned.
+
+- role: Type of role of the
+                                 			 user performing the request. Values are administrator/supervisor.
+
+- departmentAdmin: Indicates whether or not an administrator is
+                                 			 restricted to specific departments only (true), or is a global administrator
+                                 			 (false). Values are true/false.
+
+### Example Get
+                              		  Response
+
+```
+<permissionInfo>
+    <canCreate>false</canCreate>
+    <canUpdate>true</canUpdate>
+    <canDelete>false</canDelete>
+    <role>Administrator</role>
+    <departmentAdmin>false</departmentAdmin>
+</permissionInfo>
+```
+
+## Synchronous vs.
+                        	 Asynchronous Writes
+
+Synchronous API
+                              		  calls are blocking calls that do not return until either the change has been
+                              		  completed or there has been an error. For asynchronous calls, the response to
+                              		  the API call is returned immediately with a polling URL while the request
+                              		  continues to be processed. In heavier load conditions, it can be more efficient
+                              		  to submit multiple async calls and periodically check the status than to wait
+                              		  for each call to complete before submitting the next one.
+
+The following
+                              		  examples describe how to use the asynchronous feature to create a call type.
+
+### Performing Asynchronous Operations
+
+The create, update, and delete operations can be performed
+                              		  asynchronously by including the query parameter async=true . The request is accepted if the
+                              		  operation is valid and the number of outstanding requests does not exceed the
+                              		  capacity. If the request is accepted, the response includes the following
+                              		  items:
+
+- The response code is HTTP
+                                 			 202, indicating that the request has been accepted for processing.
+
+- The location header
+                                 			 specifies a URL that can be polled to receive updated information on the
+                                 			 progress of the request.
+
+- The response includes a
+                                 			 body. See the next section Asynchronous result parameters .
+
+### Asynchronous Result Parameters
+
+IN_QUEUE: The request passed validation and capacity checks
+                                          					 and was put in the queue.
+
+IN_PROGRESS: The request is being processed.
+
+### Polling the Asynchronous Request Status
+
+Use the URL from the location header of an asynchronous operation
+                              		  request to get updated status. Responses of this request are:
+
+- If the request has not
+                                 			 completed yet, the response contains the HTTP 202 response code, a location
+                                 			 header with polling URL, and a response body.
+
+- For a successful
+                                       				  create, the response code is HTTP 201 and the location header has the URL of
+                                       				  the created item.
+
+- For a successful
+                                       				  update or delete, the response code will be HTTP 200.
+
+- For an unsuccessful
+                                       				  update, a body will provide information about the failure.
+
+- If the request has been
+                                 			 in queue for over 30 seconds, then it is removed and an error indicates that
+                                 			 the request timed out.
+
+## Search
+
+The list operation can be modified to return data you are looking for by applying the search query parameter.
+
+### Default Search Parameters
+
+Typically, the name and description fields are searched when specifying a search string. Refer to each API section for the
+                              default search parameters permitted. For example, a query parameter of q=abc causes the list operation to return only entries with a name or description containing abc . The search value for default parameters has the following behaviors and restrictions:
+
+Values:
+
+Are case-insensitive.
+
+Can be contained anywhere in the parameter value.
+
+Can match any of the default parameters.
+
+Cannot include SQL wildcards. They are not supported.
+
+Must be URL encoded. For example, & must be converted to %26 so that it is not treated as a separator for additional query parameters.
+
+The default search is a case-insensitive substring search on multiple columns and hence may take a longer time to respond,
+                                          depending on the number of records and columns to search for.
+
+### Advanced Search
+
+Advanced search parameters allow specific parameters to be searched. Refer to each API section for the advanced search parameters
+                              permitted. Advanced search parameters can be combined with a default search value. For example, applying the search query
+                              parameter of q=abc routingType:1 to a dialed number list operation returns results where the routingType is set to one, and one of the default search parameters
+                              contains abc . Advanced search also has the following restrictions:
+
+Search terms must be separated by a space.
+
+Search terms can be specified in any order.
+
+### Advanced Departmental Search
+
+For APIs that include a department reference, the following advanced search parameters are allowed:
+
+departments: Search for items that belong to the any of the specified departments. For example: q=departments:(dept1|dept2) search for items that belong to a department whose name exactly matches dept1 or dept2 . The departments search must follow these guidelines:
+
+Department names must match exactly.
+
+Departments are separated by the pipe character.
+
+Up to 10 departments can be specified.
+
+globaldepartment: Specifies if the search should return items from the global department. Values include:
+
+both: Return items from the global department and those specified in the departments search.
+
+only: Return items from the global department only. The departments search term is ignored.
+
+none: Do not return items from the global department.
+
+## Sort
+
+A sort query parameter can be used to specify the order of the results in a list response.
+
+The query parameter is sort=<parameterName> order, where:
+
+parameterName: The name of the parameter that you want to sort on. This is case sensitive, so it must match the parameter
+                                    in the API exactly.
+
+order: Specifies the order of the sort. Values are as follows:
+
+asc: Perform an ascending sort. This is the default if no order is specified.
+
+desc: Perform a descending sort.
+
+### Example
+
+For example, to
+                              		  find all the CallTypes whose name or description contains supervisor ,
+                              		  sorted in ascending order by name :
+
+```
+https://<server>/unifiedconfig/config/calltype?q=supervisor&sort=name
+```
+
+## Contact Center AI Features
+
+You can enable Contact Center AI feature(s) for an agent.
+
+The type of Contact Center AI features and supported values are VAVTranscript , Transcript, VATransferSummaries, RealTimeAssist, and WrapUpSummaries .
+
+The following table has the list of all the Contact Center AI features:
+
+agentservices type
+
+CCAI Feature
+
+VAVTranscript
+
+Virtual agent transcript
+
+Transcript
+
+Call transcript
+
+VATransferSummaries
+
+Virtual agent transfer summaries
+
+RealTimeAssist
+
+Real-Time Assist
+
+WrapUpSummaries
+
+Wrap-up summaries
+
+| See | Change | Date |
+|---|---|---|
+| Contact Center AI Features | Added a new topic in 'Working with Unified CCE APIs' chapter. This 'Contact Center AI Features' topic has  a table with list of all available AI features. | April 2026 |
+| Contact Center AI API | Added new chapter with CCAI to retrieve global configuration for AI services | April 2026 |
+| Added new API for AI Assistant | Config Summary API Agent Config Summary API Call Type Config Summary API | November 2025 |
+| Added new Webex Common Identity APIs | Webex Common Identity User Synch Webex User Sync Status API Webex Common Identity User Synch Config API | November 2025 |
+| Bulk API | Added 'Webex CI Content Migration Template' file for migration of Webex CI users | November 2025 |
+| Agent API and Person API | WebexCiUUID-new field is added | November 2025 |
+| Bulk Job | The new job type 9, for Webex CI Migration is added. | November 2025 |
+| Replaced CUSP with CCCSP and Cisco Unified SIP Proxy with Cisco Contact Center SIP Proxy | Throughout the document. | November 2025 |
+| Agent API | Added a note related to API access for supervisors and administrators. | March 2025 |
+
+| Note | In all Packaged CCE API URLs or examples, replace <server> with the Fully Qualified Domain Name (FQDN) of your Admin Workstation. |
+|---|---|
+
+| Note | The origin value must be valid URL. To specify multiple origins, separate each entry with a comma. CORS configuration updates do not require a service restart, as changes take effect within one minute. |
+|---|---|
+
+| String Value | Description | Value data |
+|---|---|---|
+| enabled | Enables CORS when set to true | True |
+| Access-Control-Allow-Origin | Specifies the allowed origin(s). Maximum string length of the Value data field must be less than 4000 characters. Ensure wildcard (*) is not present the Value data field in the Edit String dialog box. The Value data field cannot be empty. | https://<domain:port> For example, https://domain.com:8000,https:// domain.com:8001 |
+
+| String Value | Description | Default Value |
+|---|---|---|
+| Access-Control-Allow-Methods | Specifies the HTTP methods permitted for cross-origin requests | GET, POST, PUT, DELETE, OPTIONS |
+| Access-Control-Max-Age | Defines the duration (in seconds) that preflight request results are cached | 3600 (seconds) |
+| Access-Control-Allow-Credentials | Indicates whether credentials are included in cross-origin requests | true |
+| Access-Control-Request-Headers | Specifies the headers allowed in cross-origin requests | CONTENT-TYPE, AUTHORIZATION |
+
+| String Value | Value Data |
+|---|---|
+| enabled | false Note : Set as 'false' to void all other settings. |
+
+| Note | Query
+                                          			 parameters for search and sort are included in the URL. |
+|---|---|
+
+| Note | The default search is a case-insensitive substring search on multiple columns and hence may take a longer time to respond,
+                                          depending on the number of records and columns to search for. |
+|---|---|
+
+| agentservices type | CCAI Feature |
+|---|---|
+| VAVTranscript | Virtual agent transcript |
+| Transcript | Call transcript |
+| VATransferSummaries | Virtual agent transfer summaries |
+| RealTimeAssist | Real-Time Assist |
+| WrapUpSummaries | Wrap-up summaries |
