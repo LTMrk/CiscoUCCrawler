@@ -2699,6 +2699,32 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/116215-configure-dblookup-00.html": {
+      "content_sha": "c1616f86b194c3a1628c3d095e57cd3197ea0b73ca8e38ddfe05a3cab7b62f62",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-enterprise-116215-configure-dblookup-00-2d0acd5465",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T04:22:07.058163+00:00",
+      "last_changed": "2026-08-21T04:22:07.058163+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T04:22:07.058163+00:00",
+      "next_check": "2026-08-22T04:22:07.058163+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/117777-config-ucce-00.html": {
+      "content_sha": "fbebe8a2cce84f6c39c7d152eae0068ee4cd0ac8eb1680063f96ac613690bdef",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-enterprise-117777-config-ucce-00-html-a9105cbd5c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T04:21:23.816177+00:00",
+      "last_changed": "2026-08-21T04:21:23.816177+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T04:21:23.816177+00:00",
+      "next_check": "2026-08-22T04:21:23.816177+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200755-Configure-HTTPS-Access-for-UCCE-Diagnost.html": {
       "content_sha": "14b16a65c5dfc3fd7d6422f07f71980ac8f9e23e37795552b894005feff4a20a",
       "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-enterprise-200755-configure-https-acces-1957a475f1",
@@ -51365,6 +51391,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmemoh.html": {
+      "content_sha": "27a69ece9f5b06e9270b502e9ee0ab45dc62dd1e30dbf16d5d847b9324b90128",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmemoh-html-2aee710805",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T04:22:16.656177+00:00",
+      "last_changed": "2026-08-21T04:22:16.656177+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T04:22:16.656177+00:00",
+      "next_check": "2026-08-22T04:22:16.656177+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/feature/guide/EnhancedTrustedFirewallControll.html": {
       "content_sha": "a228fc02dcea2dbfbaa55601a83bed648b44423b294bad3924adb8853dc9b793",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-feature-guide-enhancedtrustedfirewallcontroll-html-f3e0e8f473",
@@ -90112,5 +90151,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T04:19:14.878359+00:00"
+  "updated_at": "2026-08-21T04:23:58.287699+00:00"
 }
