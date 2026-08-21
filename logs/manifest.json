@@ -8408,10 +8408,10 @@
       "first_seen": "2026-08-16T19:13:00.324460+00:00",
       "last_changed": "2026-08-16T19:13:00.324460+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:02:48.113418+00:00",
-      "next_check": "2026-08-21T00:02:48.113418+00:00",
+      "last_seen": "2026-08-21T13:16:35.616097+00:00",
+      "next_check": "2026-08-25T13:16:35.616097+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html": {
       "content_sha": "d56532d3b5a0417458dc90a6a5c7747adb4daf1b3ebe46c3422a97c0561f73ba",
@@ -8525,10 +8525,10 @@
       "first_seen": "2026-08-16T19:13:04.106067+00:00",
       "last_changed": "2026-08-16T19:13:04.106067+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:03:21.973366+00:00",
-      "next_check": "2026-08-21T00:03:21.973366+00:00",
+      "last_seen": "2026-08-21T13:16:39.742262+00:00",
+      "next_check": "2026-08-25T13:16:39.742262+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211351-Collect-Communication-Manager-Logs-via-t.html": {
       "content_sha": "28b4ab84f09532226ec3f3d0f0f209b0103377dad1cba2984b99765a42def149",
@@ -30915,10 +30915,10 @@
       "first_seen": "2026-08-16T16:56:56.500991+00:00",
       "last_changed": "2026-08-16T16:56:56.500991+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T02:01:43.964558+00:00",
-      "next_check": "2026-08-21T02:01:43.964558+00:00",
+      "last_seen": "2026-08-21T13:16:44.042397+00:00",
+      "next_check": "2026-08-25T13:16:44.042397+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/featureConfig/cucm_b_feature-configuration-guide-1251/cucm_b_feature-configuration-guide-1251_chapter_0110101.html": {
       "content_sha": "ad8be575a581b573f60b3e780c7a84794f2493415ed33d7d86ff2448bf2866d2",
@@ -118313,5 +118313,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T13:14:22.225967+00:00"
+  "updated_at": "2026-08-21T13:16:58.249943+00:00"
 }
