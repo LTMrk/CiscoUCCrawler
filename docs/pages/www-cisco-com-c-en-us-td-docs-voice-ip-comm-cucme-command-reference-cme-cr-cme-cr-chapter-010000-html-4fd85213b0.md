@@ -1,0 +1,4693 @@
+---
+doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-010000-html-4fd85213b0
+source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_010000.html
+retrieved_at: 2026-08-21T22:57:03.321425+00:00
+---
+
+Cisco Unified Communications Manager Express Command Reference
+
+# Cisco Unified Communications Manager Express Command Reference
+
+Updated: July 19, 2018
+
+Chapter: Cisco Unified CME Commands: S1
+
+## Chapter: Cisco Unified CME Commands: S1
+
+# Cisco Unified CME Commands: S1
+
+## sast1 trustpoint
+
+To specify the name of the SAST1 trustpoint, use the sast1 trustpoint command in CTL-client configuration
+                              		  mode. To return to the default, use the no form of this command.
+
+sast1 trustpoint label
+
+no sast1
+
+### Syntax Description
+
+label
+
+Name of the SAST1 trustpoint.
+
+### Command Default
+
+No SAST1 trustpoint name is specified
+
+### Command Modes
+
+CTL-client configuration (config-ctl-client)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+12.4(4)XC
+
+Cisco Unified CME 4.0
+
+This command was introduced.
+
+12.4(9)T
+
+Cisco Unified CME 4.0
+
+This command was integrated into Cisco IOS Release
+                                          						12.4(9)T.
+
+### Usage Guidelines
+
+This command is used with Cisco Unified CME phone authentication.
+
+The sast1 trustpoint and sast2 trustpoint commands are used to set up the System
+                              		  Administrator Security Token (SAST) credentials, which are used to sign the CTL
+                              		  file. The SAST1 and SAST2 certificates must be different from each other, but
+                              		  to conserve memory either one of them can use the same certificate as Cisco
+                              		  Unified CME. The CTL file is always signed by SAST1 credentials. The SAST2
+                              		  credentials are included in the CTL file so that if the SAST1 certificate is
+                              		  compromised, the CTL file can be signed by SAST2 to prevent the phones from
+                              		  being reset to their factory defaults.
+
+## Examples
+
+The following example names sast1tp as the SAST1 trustpoint.
+
+```
+Router(config)# ctl-client Router(config-ctl-client)# server capf 10.2.2.2 trustpoint capftrust Router(config-ctl-client)# server cme 10.2.2.3 trustpoint cmetp Router(config-ctl-client)# server tftp 10.2.2.4 trustpoint tftptp Router(config-ctl-client)# sast1 trustpoint sast1tp Router(config-ctl-client)# sast2 trustpoint sast2tp Router(config-ctl-client)# regenerate
+```
+
+### Related Commands
+
+Command
+
+Description
+
+sast2 trustpoint
+
+Specifies the name of the SAST2 trustpoint.
+
+## sast2 trustpoint
+
+To specify the name of the SAST2 trustpoint, use the sast2 trustpoint command in CTL-client configuration
+                              		  mode. To return to the default, use the no form of this command.
+
+sast2 trustpoint label
+
+no sast2
+
+### Syntax Description
+
+label
+
+Name of the SAST2 trustpoint.
+
+### Command Default
+
+No SAST2 trustpoint name is specified.
+
+### Command Modes
+
+CTL-client configuration (config-ctl-client)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+12.4(4)XC
+
+Cisco Unified CME 4.0
+
+This command was introduced.
+
+12.4(9)T
+
+Cisco Unified CME 4.0
+
+This command was integrated into Cisco IOS Release
+                                          						12.4(9)T.
+
+### Usage Guidelines
+
+This command is used with Cisco Unified CME phone authentication.
+
+The sast1 trustpoint and sast2 trustpoint commands are used to set up the System
+                              		  Administrator Security Token (SAST) credentials, which are used to sign the CTL
+                              		  file. The SAST1 and SAST2 certificates must be different from each other, but
+                              		  to conserve memory either one of them can use the same certificate as Cisco
+                              		  CME. The CTL file is always signed by SAST1 credentials. The SAST2 credentials
+                              		  are included in the CTL file so that if the SAST1 certificate is compromised,
+                              		  the CTL file can be signed by SAST2 to prevent the phones from being reset to
+                              		  their factory defaults.
+
+## Examples
+
+The following example names sast2tp as the SAST2 trustpoint.
+
+```
+Router(config)# ctl-client Router(config-ctl-client)# server capf 10.2.2.2 trustpoint capftrust Router(config-ctl-client)# server cme 10.2.2.3 trustpoint cmetp Router(config-ctl-client)# server tftp 10.2.2.4 trustpoint tftptp Router(config-ctl-client)# sast1 trustpoint sast1tp Router(config-ctl-client)# sast2 trustpoint sast2tp Router(config-ctl-client)# regenerate
+```
+
+### Related Commands
+
+Command
+
+Description
+
+sast1 trustpoint
+
+Specifies the name of the SAST1 trustpoint.
+
+## sdspfarm conference lecture mode on
+
+To permit a participant in a video conference call to switch back and
+                              		  forth between lecture mode and the the configured default mode in DSP farm, use
+                              		  the sdspfarm conference command in telephony-service configuration mode. The
+                              		  participant who enters the FAC becomes the lecturer and is displayed on all
+                              		  other screens. The lecturer’s screen displays a scanning stream of the other
+                              		  participants.
+
+To delete a tag generated by the sdspfarm conference command, use the no form of this command.
+
+sdspfarm conference lecture mode on FAC release FAC
+
+no sdspfarm conference lecture mode on FAC release FAC
+
+### Syntax Description
+
+FAC
+
+Sets the Feature Access Codes (FAC) that a participants
+                                          						enters on the keypad to switch to the lecture mode. Valid values are the
+                                          						numbers on the keypad. Maximum 3 digits
+
+release FAC
+
+Sets the Feature Access Codes (FAC) that a participants
+                                          						enters on the keypad to exit lecture mode. Valid values are the numbers on the
+                                          						keypad. Maximum 3 digits
+
+### Command Default
+
+Lecture mode is not enabled by default.
+
+### Command Modes
+
+Telephony-service configuration (config-telephony)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+15.1(4)M
+
+Cisco Unified CME 8.6
+
+This command was introduced.
+
+### Usage Guidelines
+
+You can define any three digits to be FAC for lecture mode. A
+                              		  participant cannot enter lecture mode on a phone with unsupported video
+                              		  formats, for example an audio-only phone. The lecture mode participant must
+                              		  exit lecture mode before anyone else can become the lecturer.
+
+## Examples
+
+The following example configure lecture mode to be activated when the
+                              		  user presses a FAC number of 111.
+
+```
+Router(config)# telephony-service outer(config-telephony)# sdspfarm conference lecture-mode on 111 release 222
+```
+
+### Related Commands
+
+Command
+
+Description
+
+dspfarm profile
+
+Enters DSP farm profile configuration mode and defines a
+                                          						profile for DSP farm services.
+
+sdspfarm transcode
+
+Specifies the maximum number of transcoding sessions
+                                          						allowed per Cisco CME router.
+
+sdspfarm units
+
+Specifies the maximum number of DSP farms that are allowed
+                                          						to be registered to the SCCP server.
+
+## sdspfarm conference mute-on mute-off
+
+To define mute-on and mute-off DTMF digits for use during
+                              		  conferencing, use the sdspfarm conference mute-on mute-off command in telephony-service
+                              		  configuration mode. To disable the mute-on and mute-off digits, use the no form of this command.
+
+sdspfarm conference mute-on mute-on-digits mute-off mute-off-digits
+
+no sdspfarm conference mute-on mute-on-digits mute-off mute-off-digits
+
+### Syntax Description
+
+mute-on mute-on-digits
+
+Defines the buttons you press on your phone to mute during
+                                          						a conference. Maximum: 3 digits. Valid values are the numbers and symbols that
+                                          						appear on your telephone keypad: 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, *, and #.
+
+mute-off mute-off-digits
+
+Defines the buttons you press on your IP phone to unmute
+                                          						during a conference. Maximum: 3 digits. Valid values are the numbers and
+                                          						symbols that appear on your telephone keypad: 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, *,
+                                          						and #.
+
+### Command Default
+
+No mute-on or mute-off digits are defined.
+
+### Command Modes
+
+Telephony-service configuration (config-telephony)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+12.4(11)XJ2
+
+Cisco Unified CME 4.1
+
+This command was introduced.
+
+12.4(15)T
+
+Cisco Unified CME 4.1
+
+This command was integrated into Cisco IOS Release
+                                          						12.4(15)T.
+
+### Usage Guidelines
+
+You must define mute-on and mute-off digits to mute or unmute your
+                              		  phone using the keypad during a conference. The mute-on digits and mute-off
+                              		  digits can be the same or different. You can mute and unmute your phone using
+                              		  the phone’s mute button also. You must unmute the phone in the same way that
+                              		  you muted it, either with the keypad or the mute button.
+
+## Examples
+
+The following example configures #5 as the buttons to press to mute
+                              		  and unmute the phone during a conference:
+
+```
+Router(config-telephony)# sdspfarm conference mute-on #5 mute-off #5
+```
+
+## sdspfarm tag
+
+To permit a digital-signal-processor (DSP) farm to be to registered
+                              		  to Cisco Unified CME and associate it with the MAC address of a Skinny Client
+                              		  Control Protocol (SCCP) interface, use the sdspfarm tag command in telephony-service configuration
+                              		  mode. To delete a tag generated by the sdspfarm tag command, use the no form of this command.
+
+sdspfarm tag number device-name
+
+no sdspfarm tag number device-name
+
+### Syntax Description
+
+number
+
+Numeric name for a DSP farm. Number from 1 to 10.
+
+device-name
+
+Word describing the device, such as the MAC address, of the
+                                          						SCCP client interface that is preceded by the Message Transfer Part (MTP).
+
+### Command Default
+
+DSP farm is not created.
+
+### Command Modes
+
+Telephony-service configuration (config-telephony)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+12.3(11)T
+
+Cisco Unified CME 3.2
+
+This command was introduced.
+
+15.1(4)M
+
+Cisco Unified CME 8.6
+
+Increased support for the number of DSP farms to 10.
+
+### Usage Guidelines
+
+DSP farm profiles are sets of DSP resources used for conferencing and
+                              		  transcoding only. DSP farms do not include voice termination resources. Use the show interface command to find the MAC address of the SCCP client interface.
+
+## Examples
+
+The following example declares tag 1 as the MAC address of
+                              		  mac000a.8aea.ca80. The show interface command is used to obtain the MAC address.
+
+```
+Router# show interface FastEthernet 0/0 .
+.
+.
+FastEthernet0/0 is up, line protocol is up
+Hardware is AmdFE, address is 000a.8aea.ca80 (bia 000a.8aea.ca80) 
+.
+.
+.
+Router(config)# telephony-service Router(config-telephony)# sdspfarm tag 1 mac000a.8aea.ca80
+```
+
+### Related Commands
+
+Command
+
+Description
+
+sdspfarm transcode
+
+Specifies the maximum number of transcoding sessions
+                                          						allowed per Cisco CME router.
+
+sdspfarm units
+
+Specifies the maximum number of DSP farms that are allowed
+                                          						to be registered to the SCCP server.
+
+## sdspfarm transcode sessions
+
+To specify the maximum number of transcoding sessions allowed per
+                              		  Cisco CallManager Express (Cisco CME) router, use the sdspfarm transcode sessions command in telephony-service configuration mode. To return to
+                              		  the default transcode session of 0, use the no form of this command.
+
+sdspfarm transcode sessions number
+
+no sdspfarm transcode sessions number
+
+### Syntax Description
+
+number
+
+Declares the number of DSP farm sessions. Valid values are
+                                          						numbers from 1 to 128.
+
+### Command Default
+
+The default is 0.
+
+### Command Modes
+
+Telephony-service configuration (config-telephony)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+12.3(11)T
+
+Cisco Unified CME 3.2
+
+This command was introduced.
+
+### Usage Guidelines
+
+The transcoding is allowed between G.711 and G.729. A session
+                              		  consists of two transcode streams. To configure this information, you must know
+                              		  how many digital-signal-processor (DSP) farms are configured on the network
+                              		  module (NM) farms in your Cisco CME router. DSP farms are sets of DSP resources
+                              		  used for conferencing and transcoding only. DSP farms do not include voice
+                              		  termination resources. To learn how many DSP farms have been configured on your
+                              		  Cisco CME router, use the show sdspfarm command.
+
+## Examples
+
+The following example sets the maximum number of transcoding sessions
+                              		  allowed on the Cisco CME router to 20:
+
+```
+Router(config)# telephony-service Router(config-telephony)# sdspfarm transcode sessions 20
+```
+
+### Related Commands
+
+Command
+
+Description
+
+sdspfarm tag
+
+Declares a DSP farm and associates it with an SCCP client
+                                          						interface’s MAC address.
+
+sdspfarm unit
+
+Specifies the maximum number of DSP farms that are allowed
+                                          						to be registered to the SCCP server.
+
+show sdspfarm
+
+Displays the status of the configured DSP farms and
+                                          						transcoding streams.
+
+## sdspfarm units
+
+To specify the maximum number of digital-signal-processor (DSP) farm
+                              		  profiles that are allowed to be registered to the Skinny Client Control
+                              		  Protocol (SCCP) server, use the sdspfarm units command in telephony-service configuration
+                              		  mode. To set the number of DSP farm profiles to the default value of 0, use the no form of this command.
+
+sdspfarm units number
+
+no sdspfarm units number
+
+### Syntax Description
+
+number
+
+Number of DSP farms. Valid values are numbers from 0 to 10.
+
+### Command Default
+
+The default number is 0.
+
+### Command Modes
+
+Telephony-service configuration
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+12.3(11)T
+
+Cisco Unified CME 3.2
+
+This command was introduced.
+
+15.1(4)M
+
+Cisco Unified CME 8.6
+
+Increased support for the number of DSP farms to 10.
+
+### Usage Guidelines
+
+DSP farm profiles are sets of DSP resources used for conferencing and
+                              		  transcoding only. DSP farm profiles do not include voice termination resources.
+
+## Examples
+
+The following example configures a Cisco CME router to register one
+                              		  DSP farm:
+
+```
+Router(config)# telephony-service Router(config-telephony)# sdspfarm units 1
+```
+
+### Related Commands
+
+Command
+
+Description
+
+sdspfarm tag
+
+Declares a DSP farm and associates it with the MAC address
+                                          						of an SCCP client interface.
+
+sdspfarm transcode
+
+Specifies the maximum number of transcoding sessions
+                                          						allowed per Cisco CME router.
+
+## sdspfarm unregister force
+
+To remove all transcoding streams associated with active calls, use
+                              		  the sdspfarm unregister force command in telephony-service configuration
+                              		  mode. To deactivate the removal of transcoding streams, use the no form of this command.
+
+sdspfarm unregister force
+
+no sdspfarm unregister force
+
+### Syntax Description
+
+This command has no arguments or keywords.
+
+### Command Default
+
+The default is transcoding streams are not removed.
+
+### Command Modes
+
+Telephony-service configuration (config-telephony)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco product
+
+Modification
+
+12.3(11)T
+
+Cisco Unified CME 3.2
+
+This command was introduced.
+
+### Usage Guidelines
+
+If any of the SCCP server’s associated streams are functioning in
+                              		  active calls, the default response for the sdspfarm unregister force command is to reject them. If no stream is used in a call, all
+                              		  of the transcoding streams associated with the DSP farm will be released, and
+                              		  SCCP server can recycle those streams for other DSP farms.
+
+## Examples
+
+The following example removes all transcoding streams for active
+                              		  calls.
+
+```
+Router(config)# telephony-service Router(config-telephony)# sdspfarm unregister force
+```
+
+### Related Commands
+
+Command
+
+Description
+
+sdspfarm tag
+
+Declares a DSP farm and associates it with an SCCP client
+                                          						interface’s MAC address.
+
+sdspfarm unit
+
+Specifies the maximum number of DSP farms that are allowed
+                                          						to be registered to the SCCP server.
+
+show sdspfarm
+
+Displays the status of the configured DSP farms and
+                                          						transcoding streams.
+
+## secondary dialtone (voice port)
+
+To allow dialed digits to be collected from the remote switch when
+                              		  “connection plar” is not defined from the analog FXO voice-port, use the
+                              		  secondary dialtone command in global configuration mode. To disable the
+                              		  secondary dialtone, use the no form of the command.
+
+secondary dialtone
+
+no secondary dialtone
+
+### Syntax Description
+
+This command has no arguments or keywords.
+
+### Command Default
+
+The secondary dialtone command is disabled.
+
+### Command Modes
+
+Global configuration.
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+15.1(2)T
+
+Cisco Unified CME 8.1
+
+This command was introduced.
+
+### Usage Guidelines
+
+Use the secondary dialtone command to allow dialed digits to be
+                              		  collected from the remote switch when “connection plar” is not defined from the
+                              		  analog FXO voice-port.
+
+The following is a sample output from this command:
+
+```
+Router(config)# voice-port 2/0/0
+Router (config-voiceport)#no secondary ?
+  dialtone  Secondary dialtone option for FXO port
+Router (config-voiceport)#no secondary dialtone
+"secondary dialtone" is used to enable 2-stage dialing for an
+incoming call
+!
+```
+
+### Related Commands
+
+Command
+
+Description
+
+voice service
+
+Enters voice service configuration mode.
+
+## secondary start
+
+To specify the ephone hunt group agent to receive parked calls that
+                              		  are forwarded to the secondary pilot number, use the secondary start command in ephone-hunt configuration mode.
+                              		  To disable this setting, use the no form of this command.
+
+secondary start [ current | next | list-position ]
+
+no secondary start [ current | next | list-position ]
+
+### Syntax Description
+
+current
+
+The ephone-dn that parked this call.
+
+next
+
+The ephone-dn that follows the parking ephone-dn in the
+                                          						list specified by the list command.
+
+list-position
+
+The ephone-dn at the specified position in the list
+                                          						specified by the list command. Range is from 1 to
+                                          						20.
+
+### Command Default
+
+No hunt-group agent is specified for receiving parked calls that are
+                              		  forwarded to the secondary pilot number.
+
+### Command Modes
+
+Ephone-hunt configuration (config-ephone)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+12.4(4)XC
+
+Cisco Unified CME 4.0
+
+This command was introduced.
+
+12.4(9)T
+
+Cisco Unified CME 4.0
+
+This command was integrated into Cisco IOS Release
+                                          						12.4(9)T.
+
+### Usage Guidelines
+
+When a call that has been parked by a hunt group agent meets either
+                              		  of these conditions, the hunt group agent to receive the call can be specified
+                              		  with the secondary start command:
+
+- The call is recalled from call park to the hunt group secondary
+                                 			 pilot number.
+
+- The call is transferred from call park to an ephone-dn that
+                                 			 forwards the call to the hunt group secondary pilot number.
+
+## Examples
+
+The following example specifies that the third hunt group member
+                              		  (3031) will receive calls that are recalled or forwarded to the secondary group
+                              		  hunt pilot number (3001) after the calls have been parked by an ephone-dn.
+
+```
+ephone-hunt 17 sequential
+ pilot 3000 secondary 3001
+ list 3011, 3021, 3031
+ timeout 10
+ final 7600
+ secondary start 3
+```
+
+### Related Commands
+
+Command
+
+Description
+
+ephone-hunt
+
+Defines an ephone hunt group and enters ephone-hunt
+                                          						configuration mode.
+
+list
+
+Creates a list of extensions that are members of an ephone
+                                          						hunt group
+
+## secondary-dialtone
+
+To activate a
+                              		  secondary dial tone when a Cisco IP phone user dials a defined public switched
+                              		  telephone network (PSTN) access prefix, use the secondary-dialtone command in telephony-service
+                              		  configuration mode. To disable the secondary dial tone, use the no form of
+                              		  this command.
+
+secondary-dialtone digit-string
+
+no secondary-dialtone
+
+### Syntax Description
+
+digit-string
+
+String
+                                          						of up to 32 numbers that defines an access prefix.
+
+### Command Default
+
+No secondary dial
+                              		  tone is enabled.
+
+### Command Modes
+
+Telephony-service configuration (config-ephone)
+
+## Command History
+
+Cisco
+                                          						IOS Release
+
+Cisco
+                                          						Product
+
+Modification
+
+12.2(15)ZJ
+
+Cisco
+                                          						CME 3.0
+
+This
+                                          						command was introduced.
+
+12.3(4)T
+
+Cisco
+                                          						CME 3.0
+
+This
+                                          						command was integrated into Cisco IOS Release 12.3(4)T.
+
+### Usage Guidelines
+
+The secondary
+                              		  dial tone is turned off when the next number after the access prefix is
+                              		  pressed. For example, if 8 is the access prefix and a person dials 8 555-0145,
+                              		  the secondary dial tone is turned off when the digit 5 is pressed.
+
+The symbol # is considered to be the terminating string of a dial
+                                          			 string. Hence, it is not supported under secondary-dialtone , to avoid conflict with
+                                          			 dial-peer matching.
+
+## Examples
+
+The following
+                              		  example enables a secondary dial tone when a Cisco IP phone users press the
+                              		  digit 9 to get an outside line:
+
+```
+Router(config)# telephony-service Router(config-telephony)# secondary-dialtone 9
+```
+
+### Related Commands
+
+Command
+
+Description
+
+telephony-service
+
+Enters
+                                          						telephony-service configuration mode.
+
+## secure-signaling trustpoint
+
+To specify the name of the PKI trustpoint with the certificate to use
+                              		  for TLS handshakes with IP phones on TCP port 2443, use the secure-signaling trustpoint command in telephony-service
+                              		  configuration mode. To return to the default, use the no form of this command.
+
+secure-signaling trustpoint label
+
+no secure-signaling trustpoint
+
+### Syntax Description
+
+label
+
+Name of a configured PKI trustpoint with a valid
+                                          						certificate.
+
+### Command Default
+
+No trustpoint is specified.
+
+### Command Modes
+
+Telephony-service configuration (config-telephony)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+12.4(4)XC
+
+Cisco Unified CME 4.0
+
+This command was introduced.
+
+12.4(9)T
+
+Cisco Unified CME 4.0
+
+This command was integrated into Cisco IOS Release
+                                          						12.4(9)T.
+
+### Usage Guidelines
+
+This command is used with Cisco Unified CME phone authentication to
+                              		  name the trustpoint that enables handshaking between Cisco Unified CME and a
+                              		  phone to ensure secure SCCP signaling on TCP port 2443.
+
+## Examples
+
+The following example names server25, the CAPF server, as the
+                              		  trustpoint to enable secure SCCP signaling:
+
+```
+Router(config)# telephony-service Router(config-telephony)# device-security-mode authenticated Router(config-telephony)# secure-signaling trustpoint server25 Router(config-telephony)# tftp-server-credentials trustpoint server12 Router(config-telephony)# load-cfg-file slot0:Ringlist.xml alias Ringlist.xml sign create Router(config-telephony)# exit
+```
+
+## semi-attended enable (voice register template)
+
+To enable call transfer at the alert call stage for supported SIP
+                              		  phones in Cisco Unified CME, use the semi-attended enable command in the voice register template
+                              		  mode. To disable call transfer, use the no form of this command.
+
+semi-attended enable
+
+no semi-attended enable
+
+### Syntax Description
+
+This command has no arguments or keywords.
+
+### Command Default
+
+Call transfer at the alert call stage is enabled.
+
+### Command Modes
+
+Voice register template (config-register-temp)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+12.4(4)T
+
+Cisco CME 3.4
+
+This command was introduced.
+
+### Usage Guidelines
+
+This command enables a call transfer at the alert stage in the
+                              		  specified template which can then be applied to SIP phones in Cisco Unified
+                              		  CME. Semi-attended call transfer is enabled by default. To disable
+                              		  semi-attended call transfer, use the no semi-attended command.
+
+To apply the template to a SIP phone, use the template command in voice register pool
+                              		  configuration mode.
+
+## Examples
+
+The following partial output from the show-running config command shows that the semi-attended call
+                              		  transfer is disabled in voice register template 1:
+
+```
+Router# show running-config !
+.
+.
+.
+!
+voice register template 1
+ no semi-attended enabled
+!
+ 
+The following example shows how to enable semi-attended call transfer in a template:
+Router(config)# voice register template 1 Router(config-register-temp)# semi-attend enable
+```
+
+### Related Commands
+
+Command
+
+Description
+
+template (voice register pool)
+
+Applies template to SIP IP phone being configured.
+
+## server (CTL-client)
+
+To enter trustpoint information for the CAPF server, Cisco Unified
+                              		  CME router, or TFTP server into the router configuration, use the server command in CTL-client configuration mode. To return to the
+                              		  default, use the no form of this command.
+
+server { capf | cme | cme-tftp | tftp } ip-address trustpoint label
+
+no server { capf | cme | cme-tftp | tftp } ip-address
+
+### Syntax Description
+
+capf
+
+CAPF server.
+
+cme
+
+Cisco Unified CME router.
+
+cme-tftp
+
+Combined Cisco Unified CME router and TFTP server.
+
+tftp
+
+TFTP server.
+
+ip-address
+
+IP address of the entity.
+
+trustpoint label
+
+Name of the PKI trustpoint for the entity.
+
+### Command Default
+
+Trustpoint information about the CAPF server, Cisco Unified CME
+                              		  router, or TFTP server is not present in the security configuration.
+
+### Command Modes
+
+CTL-client configuration (config-ctl-client)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+12.4(4)XC
+
+Cisco Unified CME 4.0
+
+This command was introduced.
+
+12.4(9)T
+
+Cisco Unified CME 4.0
+
+This command was integrated into Cisco IOS Release
+                                          						12.4(9)T.
+
+### Usage Guidelines
+
+This command is used with Cisco Unified CME phone authentication.
+                              		  Cisco IOS software stores credential information in a trustpoint. The
+                              		  trustpoint label in this command names the specified PKI trustpoint.
+
+## Examples
+
+The following example defines trustpoint names and IP addresses for
+                              		  the CAPF server, the Cisco Unified CME router, and the TFTP server:
+
+```
+Router(config)# ctl-client Router(config-ctl-client)# server capf 10.2.2.2 trustpoint capftrust Router(config-ctl-client)# server cme 10.2.2.3 trustpoint cmetp Router(config-ctl-client)# server tftp 10.2.2.4 trustpoint tftptp Router(config-ctl-client)# sast1 trustpoint sast1tp Router(config-ctl-client)# sast2 trustpoint sast2tp Router(config-ctl-client)# regenerate
+```
+
+## server (presence)
+
+To specify the IP address of a presence server for sending presence
+                              		  requests from internal watchers to external presence entities, use the server command in presence configuration
+                              		  mode. To remove the server, use the no form of this command.
+
+server ip-address
+
+no server
+
+### Syntax Description
+
+ip-address
+
+IP address of the remote presence server.
+
+### Command Default
+
+A remote presence server is not used.
+
+### Command Modes
+
+Presence configuration (config-presence)
+
+## Command History
+
+Release
+
+Modification
+
+12.4(11)XJ
+
+This command was introduced.
+
+12.4(15)T
+
+This command was integrated into Cisco IOS Release
+                                          						12.4(15)T.
+
+### Usage Guidelines
+
+This command specifies the IP address of a presence server that
+                              		  handles presence requests when the watcher and presence entity (presentity) are
+                              		  not collocated. The router acts as the presence server and processes all
+                              		  presence requests and status notifications when a watcher and presentity are
+                              		  both internal. If a subscription request is for an external presentity, the
+                              		  request is sent to the remote server specified by this command.
+
+## Examples
+
+The following example shows a presence server with IP address
+                              		  10.10.10.1:
+
+```
+Router(config)# presence Router(config-presence)# allow subscribe Router(config-presence)# server 10.10.10.1
+```
+
+### Related Commands
+
+Command
+
+Description
+
+allow subscribe
+
+Allows internal watchers to monitor external presence
+                                          						entities (directory numbers).
+
+allow watch
+
+Allows a directory number on a phone registered to Cisco
+                                          						Unified CME to be watched in a presence service.
+
+max-subscription
+
+Sets the maximum number of concurrent watch sessions that
+                                          						are allowed.
+
+show presence global
+
+Displays configuration information about the presence
+                                          						service.
+
+show presence subscription
+
+Displays information about active presence subscriptions.
+
+watcher all
+
+Allows external watchers to monitor internal presence
+                                          						entities (directory numbers).
+
+## server-security-mode
+
+To change the security mode of the Cisco Unified CME phone
+                              		  authentication server, use the server-security-mode command in
+                              		  telephony-service configuration mode. To change the mode from secure to
+                              		  nonsecure, use the no form of this command.
+
+server-security-mode { erase | non-secure | secure }
+
+no server-security-mode
+
+### Syntax Description
+
+erase
+
+Deletes the certificate trust list (CTL) file.
+
+non-secure
+
+Enables nonsecure mode.
+
+secure
+
+Secure mode.
+
+### Command Default
+
+When the CTL file is initially generated, the mode is set to secure.
+
+### Command Modes
+
+Telephony-service configuration (config-telephony)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+12.4(4)XC
+
+Cisco Unified CME 4.0
+
+This command was introduced.
+
+12.4(9)T
+
+Cisco Unified CME 4.0
+
+This command was integrated into Cisco IOS Release
+                                          						12.4(9)T.
+
+12.4(22)T
+
+Cisco Unified CME 7.0
+
+The erase keyword was added.
+
+### Usage Guidelines
+
+This command is used with Cisco Unified CME phone authentication.
+
+This command has no effect until the CTL file is initially generated
+                              		  by the CTL client. When the CTL file is successfully generated, the CTL client
+                              		  automatically sets the server security mode to secure. You can then toggle the
+                              		  mode from secure to nonsecure using this command.
+
+After toggling between secure and non-secure mode, you must use the regenerate command in CTL-client
+                              		  configuration mode to generate the CTL file. This is necessary because if the
+                              		  security mode is nonsecure, its credentials are zeroed out in the CTL file. If
+                              		  the security mode is secure, the CTL file contains the server’s credentials.
+
+The no version of this command sets the mode to
+                              		  non-secure; it does not remove the command from your configuration.
+
+To remove this command from your configuration and revert to the
+                              		  state before the Cisco Unified CME security feature was activated, use the erase keyword and follow the instructions
+                              		  displayed on the console. When you use this command with the erase keyword, the router checks whether the
+                              		  Cisco IOS CTL-provider process is running, and if not, it deletes the CTL file
+                              		  from router storage. After using this command to delete the CTL file, you must
+                              		  manually delete the CTL file from any SCCP phones that had downloaded it
+                              		  previously.
+
+## Examples
+
+The following example changes the mode of the server to non-secure.
+
+```
+telephony-service
+ server-security-mode non-secure
+```
+
+### Related Commands
+
+Command
+
+Description
+
+regenerate
+
+Creates a new CTLFile.tlv file after changes are made to
+                                          						the CTL client configuration.
+
+## service
+                        	 directed-pickup
+
+To enable Directed
+                              		  Call Pickup and modify the function of the GPickUp and PickUp soft keys, use
+                              		  the service
+                                    				directed-pickup command in telephony-service configuration mode.
+                              		  To disable Directed Call Pickup, use the no form of
+                              		  this command.
+
+service directed-pickup [gpickup]
+
+no service
+                                 				  directed-pickup [gpickup]
+
+## Syntax Description
+
+(Optional)
+                                       					 Enables phone users to perform Directed Call Pickup using the GPickUp soft key.
+
+### Command Default
+
+For SCCP phones,
+                              		  Directed Call Pickup using the PickUp soft key is enabled.
+
+For SIP phones,
+                              		  Directed Call Pickup is not enabled.
+
+### Command Modes
+
+Telephony-service configuration (config-telephony)
+
+## Command History
+
+This
+                                       					 command was integrated into Cisco IOS Release 12.4(9)T.
+
+The gpickup keyword and support for SIP phones was added.
+
+This
+                                       					 command was integrated into Cisco IOS Release 12.4(24)T.
+
+### Usage Guidelines
+
+This command
+                              		  modifies the function of the GPickUp and PickUp soft keys for the Directed Call
+                              		  Pickup and Local Group Pickup features.
+
+To globally
+                              		  disable Directed Call Pickup on all phones, use the no form of this command.
+                              		  The no form of this command also changes the behavior of the PickUp soft key on
+                              		  IP phones so that a user pressing it invokes Local Group Pickup instead of
+                              		  Directed Call Pickup.
+
+To selectively
+                              		  remove the PickUp soft key from one or more SCCP phones, use the features
+                                    				blocked command in ephone-template mode. The features blocked command removes the PickUp soft
+                              		  key from SCCP IP phones and blocks Directed Call Pickup on analog phones to
+                              		  which you apply the template.
+
+The table
+                              		  describes the use of the GPickUp and PickUp soft keys for each feature
+                              		  depending on the setting of this command.
+
+## Task ID
+
+Cisco IOS
+                                       				  Command Syntax SIP Phones service directed-pickup gpickup
+
+Directed
+                                       				  Call Pickup (Call on any ringing extension)
+
+Local Group
+                                       				  Pickup (Call in same group)
+
+Other Group
+                                       				  Pickup (Call in different group)
+
+GPickUp soft
+                                       				  key and * or Pickup soft key
+
+## Examples
+
+The following
+                              		  example shows that Directed Call Pickup is disabled globally:
+
+```
+telephony-service
+no service directed-pickup
+```
+
+```
+telephony-service
+service directed-pickup gpickup
+```
+
+### Related Commands
+
+Command
+
+Description
+
+call-feature-uri
+
+Creates a new CTLFile.tlv file after changes are made to the CTL client
+                                          						configuration. Specifies the uniform resource identifier (URI) for soft keys on
+                                          						SIP phones registered to Cisco Unified CME.
+
+features
+                                                							 blocked
+
+Prevents one or more features from being used on SCCP phones.
+
+pickup-group
+
+Assigns an extension to a call-pickup group.
+
+## service dnis dir-lookup
+
+To allow the display of names associated with called numbers for
+                              		  incoming calls on IP phones, use the service dnis dir-lookup command in telephony-service
+                              		  configuration mode. To deactivate directory lookup, use the no form of this command.
+
+service dnis dir-lookup
+
+no service dnis dir-lookup
+
+### Command Default
+
+The default is directory service lookup is inactive.
+
+### Command Modes
+
+Telephony-service configuration (config-telephony)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+12.3(11)T
+
+Cisco CME 3.2
+
+This command was introduced.
+
+### Usage Guidelines
+
+The service dnis dir-lookup command provides a called number to the
+                              		  name-lookup service to support display of the name associated with the called
+                              		  number for incoming calls to IP phones. The display name is obtained from the
+                              		  Cisco CME system’s list of Cisco CME directory names created using the directory entry command in the telephony-service
+                              		  configuration mode.
+
+Called numbers can be displayed for overlaid ephone-dn and for
+                              		  ephone-dns that are not overlaid. Secondary line are supported.
+
+To allow a single ephone-dn to receive calls for multiple different
+                              		  called numbers (with different names), you must use wildcard “.” characters in
+                              		  the number field for the ephone-dn.
+
+To use the service dnis dir-lookup command in conjunction with
+                              		  the ephone-hunt , you can configure the
+                              		  ephone-hunt group to use a pilot number that contains wildcard “.” characters.
+                              		  This command allows the ephone-hunt group to receive calls from different
+                              		  numbers. Individual ephone-dns that are configured as members of the hunt group
+                              		  with the ephone-hunt list must not have wildcard characters in their
+                              		  number fields.
+
+If the service dnis dir-lookup is used at the same time as the service dnis overlay , the directory-lookup service takes
+                              		  precedence in resolving the name for the called number.
+
+## Examples
+
+The following is an example of an overlaid ephone-dn configuration,
+                              		  where the service dnis dir-lookup allows one of three directory entry
+                              		  names to be displayed on three IP phones when a call is placed to a number
+                              		  declared in the directory entry command.
+
+```
+telephony-service 
+ service dnis dir-lookup
+ directory entry 1 0001 name dept1
+ directory entry 2 0002 name dept2
+ directory entry 3 0003 name dept3
+ephone-dn 1
+ number 0001
+ephone-dn 2
+ number 0002
+ephone-dn 2
+ number 0002
+ephone 1
+ button 1o1,2,3
+ephone 2
+ button 1o1,2,3
+ephone 3
+ button 1o1,2,3
+```
+
+The following is an example of an ephone-dn configuration in which
+                              		  the overlay function is not in use. There are three IP phones, each with two
+                              		  buttons. Button 1 receives calls from user1, user2, and user3; button 2
+                              		  receives calls from user4, user5, and user6.
+
+```
+telephony-service 
+ service dnis dir-lookup
+ directory entry 1 5550001 name user1
+ directory entry 2 5550002 name user2
+ directory entry 3 5550003 name user3
+ directory entry 4 5550010 name user4
+ directory entry 5 5550011 name user5
+ directory entry 6 5550012 name user6
+ephone-dn 1
+ number 555000.
+ephone-dn 2
+ number 5552001.
+ephone 1
+ button 1:1
+ button 2:2
+ mac-address 1111.1111.1111
+ephone 2
+ button 1:1
+ button 2:2
+ mac-address 2222.2222.2222
+```
+
+The following is an example of a hunt-group configuration. There are
+                              		  three phones, each with two buttons, and each button is assigned two numbers.
+                              		  When a person calls 5550341, Cisco CME matches the hunt-group pilot secondary
+                              		  number (555....) and rings button 1 on one of the two phones and displays
+                              		  “user1.” The selection of the phone is dependent on the ephone-hunt settings.
+
+```
+telephony-service 
+ service dnis dir-lookup
+ max-redirect 20
+ directory entry 1 5550341 name user1
+ directory entry 2 5550772 name user2
+ directory entry 3 5550263 name user3
+ directory entry 4 5550150 name user4
+ephone-dn 1
+ number 1001
+ephone-dn 2
+ number 1002
+ephone-dn 3
+ number 1003
+ephone-dn 4
+ number 1004
+ephone 1
+ button 1o1,2
+ button 2o3,4
+ mac-address 1111.1111.1111
+ephone 2
+ button 1o1,2
+ button 2o3,4
+ mac-address 2222.2222.2222
+ephone-hunt 1 peer
+ pilot 1000 secondary 555....
+ list 1001, 1002, 1003, 1004
+ final 5556000
+ hops 5
+ preference 1 
+ timeout 20 
+ no-reg
+```
+
+The following is an example of a secondary-line configuration.
+                              		  Ephone-dn 1 can accept calls from extension 1001 and from 5550000, 5550001, and
+                              		  5550002.
+
+```
+telephony-service 
+ service dnis dir-lookup
+ directory entry 1 5550000 name doctor1
+ directory entry 2 5550001 name doctor2
+ directory entry 3 5550002 name doctor3
+ephone-dn 1
+ number 1001 secondary 555000.
+ephone 1
+ button 1:1
+ mac-address 2222.2222.2222
+```
+
+### Related Commands
+
+Command
+
+Description
+
+directory entry
+
+Adds an entry to a local phone directory that can be
+                                          						displayed on IP phones.
+
+ephone-hunt
+
+Enters ephone-hunt configuration mode to create a hunt
+                                          						group for use in a Cisco CME system.
+
+list
+
+Creates a list of extensions that are members of a Cisco
+                                          						CME ephone hunt group.
+
+service dnis overlay
+
+Allows an ephone-dn name to appear on receiving IP phones’
+                                          						displays when the ephone-dn’s number is called.
+
+## service dnis overlay
+
+To allow incoming calls to an ephone-dn overlay to display called
+                              		  ephone-dn names, use the service dnis overlay command in telephony-service configuration
+                              		  mode. To deactivate the service dialed number identification service (DNIS)
+                              		  overlay, use the no form of this command.
+
+service dnis overlay
+
+no service dnis overlay
+
+### Command Default
+
+The ephone-dn names in an ephone-dn overlay are not displayed on IP
+                              		  phones.
+
+### Command Modes
+
+Telephony-service configuration (config-telephony)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco CME Version
+
+Modification
+
+12.3(11)T
+
+Cisco Unified CME 3.2
+
+This command was introduced.
+
+### Usage Guidelines
+
+The service dnis overlay allows phone users to determine which
+                              		  ephone-dn within an overlay set is being called. Up to ten ephone-dns are
+                              		  allowed per overlay set. When an incoming call is presented under a service dnis overlay configuration, the phone displays the name
+                              		  of the individual ephone-dn according to the name configured under the ephone-dn
+                              		  configuration mode. Note that for an ephone-dn name to be displayed on IP
+                              		  phones, you must first assign ephone-dn names with the name command in ephone-dn configuration mode.
+
+The number of the first ephone-dn listed in the button is the default display for all phones
+                              		  using the same set of overlaid ephone-dns. Calls to the first ephone-dn display
+                              		  the caller ID. Calls to the remaining ephone-dns display ephone-dn names. For
+                              		  example, if there are three phones with one overlay set containing five
+                              		  ephone-dns, the first ephone-dn’s number listed is the default display for all
+                              		  three phones. A call to the first ephone-dn displays the caller ID on all
+                              		  phones until the call is picked up. When the call is answered by phone 1, the
+                              		  displays in phone 2 and phone 3 return to the default display. Calls to the
+                              		  last four ephone-dns display ephone-dn names.
+
+If the service dnis overlay is used at the same time as
+                              		  the service dnis dir-lookup , the service dnis dir-lookup takes precedence in determining the
+                              		  name to be displayed.
+
+## Examples
+
+The following is an overlay configuration for two phones with button
+                              		  1 assigned to pick up three 800 numbers from three ephone-dns that have been
+                              		  assigned names. The default display for button 1 is 18005550100. A call to
+                              		  18005550100 displays the caller ID. Calls to 18005550001 and 18005550002
+                              		  display “name1” and “name2,” respectively.
+
+```
+telephony-service
+ service dnis overlay
+ephone-dn 1
+ name mainnumber
+ number 18005550100
+ephone-dn 2
+ name name1
+ number 18005550001
+ephone-dn 3
+ name name2
+ number 18005550002
+ephone 1
+ button 1o1,2,3
+ephone 2
+ button 1o1,2,3
+```
+
+### Related Commands
+
+Command
+
+Description
+
+name
+
+Associates a name with a Cisco CME extension (ephone-dn).
+
+service dnis dir-lookup
+
+Allows directory entry lookup for the display of directory
+                                          						entry names on IP phones.
+
+## service dss
+
+To enable DSS (Direct Station Select) in a Cisco Unified CME system,
+                              		  use the service dss command in telephony-service configuration
+                              		  mode. To globally disable the DSS feature, use the no form of this command.
+
+service dss
+
+no service dss
+
+### Syntax Description
+
+This command has no arguments or keywords.
+
+### Command Default
+
+DSS service is disabled.
+
+### Command Modes
+
+Telephony-service configuration (config-telephony)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+12.4(6)XE
+
+Cisco Unified CME 4.0(2)
+
+This command was introduced.
+
+12.4(4)XC4
+
+Cisco Unified CME 4.0(3)
+
+This command was introduced.
+
+12.4(11)T
+
+Cisco Unified CME 4.0(3)
+
+This command is integrated into Cisco IOS Release
+                                          						12.4(11)T.
+
+### Usage Guidelines
+
+This command enables phone users to quickly transfer calls to an
+                              		  extension selected by a speed-dial or monitor line button without having to
+                              		  press the Transfer button. If this command is enabled, a user can transfer a
+                              		  call when the call is in the connected state by simply pressing a speed-dial or
+                              		  monitor line button to select the transfer destination. The transfer action is
+                              		  automatically implied by CME if the service dss is enabled.
+
+This feature is supported only on phones on which monitor-line
+                              		  buttons for speed dial or speed-dial line buttons are configured.
+
+Using the no form of the changes the behavior of the
+                              		  speed-dial line button on all IP phones so that a user pressing a speed-dial
+                              		  button in the middle of a connected call will play out the speed-dial digits
+                              		  into the call without transferring the call. If the service dss is disabled, the phone user must press the
+                              		  Transfer button before pressing the speed-dial line button or monitor line
+                              		  button to transfer the call.
+
+For Cisco Unified CME 4.0 and earlier, the transfer-system full-consult dss is used to select between blind transfers and consult transfers
+                              		  for the DSS case.
+
+## Examples
+
+The following example globally enables directed call pickup.
+
+```
+telephony-service
+ service dss
+```
+
+### Related Commands
+
+Command
+
+Description
+
+button
+
+Associates ephone-dns with individual buttons on a Cisco
+                                          						Unified IP phone and to specify line type, such as monitor mode for a shared
+                                          						line.
+
+speed-dial
+
+Defines a unique speed-dial identifier, a digit string to
+                                          						dial, and an optional label to display next to a line button.
+
+## service https (ephone-template)
+
+To locally provision Hypertext Transfer Protocol Secure (HTTPS)
+                              		  services access from Cisco Unified SCCP IP phones on Cisco Unified CME, use the service https command in ephone-template configuration
+                              		  mode. To disable access to HTTPS services, use the no form of this command.
+
+service https
+
+no service https
+
+### Syntax Description
+
+This command has no arguments or keywords.
+
+### Command Default
+
+Cisco Unified SCCP IP phones are unable to access HTTPS services on
+                              		  Cisco Unified CME.
+
+### Command Modes
+
+Ephone-template configuration (config-ephone-template)
+
+## Command History
+
+Release
+
+Modification
+
+15.3(2)T
+
+This command was introduced.
+
+### Usage Guidelines
+
+Use the service https command to enable access to HTTPS services
+                              		  like local-directory lookup, My Phone Apps, and Extension Mobility.
+
+## Examples
+
+The following example shows how to locally provision HTTPS services
+                              		  from Cisco Unified SCCP IP phones:
+
+```
+configure terminal
+ephone-template 1 service https
+```
+
+Command
+
+Description
+
+ephone-template
+
+Enters ephone-template configuration mode and creates an
+                                          						ephone template to configure a set of phone features.
+
+## service https (telephony-service)
+
+To globally provision Hypertext Transfer Protocol Secure (HTTPS)
+                              		  services access from Cisco Unified SCCP IP phones on Cisco Unified CME, use the service https command in telephony-service configuration
+                              		  mode. To disable accesss to HTTPS services, use the no form of this command.
+
+service https
+
+no service https
+
+### Syntax Description
+
+This command has no arguments or keywords.
+
+### Command Default
+
+Cisco Unified SCCP IP phones are unable to access HTTPS services on
+                              		  Cisco Unified CME.
+
+### Command Modes
+
+Telephony-service configuration (config-telephony)
+
+## Command History
+
+Release
+
+Modification
+
+15.3(2)T
+
+This command was introduced.
+
+### Usage Guidelines
+
+Use the service https command to enable access to HTTPS services
+                              		  like local-directory lookup, My Phone Apps, and Extension Mobility.
+
+## Examples
+
+The following example shows how to globally provision HTTPS services
+                              		  from Cisco Unified SCCP IP phones:
+
+```
+configure terminal
+telephony-service
+     cnf-file perphone service https
+```
+
+### Related Commands
+
+Command
+
+Description
+
+telephony-service
+
+Enters telephony-service configuration mode.
+
+## service https (voice register global)
+
+To globally provision Hypertext Transfer Protocol Secure (HTTPS)
+                              		  services access from Cisco Unified SIP IP phones on Cisco Unified CME, use the service https command in voice register global
+                              		  configuration mode. To disable access to HTTPS services, use the no form of this command.
+
+service https
+
+no service https
+
+### Syntax Description
+
+This command has no arguments or keywords.
+
+### Command Default
+
+Cisco Unified SIP IP phones are unable to access HTTPS services on
+                              		  Cisco Unified CME.
+
+### Command Modes
+
+Voice register global configuration (config-register-global)
+
+## Command History
+
+Release
+
+Modification
+
+15.3(2)T
+
+This command was introduced.
+
+### Usage Guidelines
+
+Use the service https command to enable access to HTTPS services
+                              		  like local-directory lookup, My Phone Apps, and Extension Mobility.
+
+## Examples
+
+The following example shows how to globally provision HTTPS services
+                              		  from Cisco Unified SIP IP phones:
+
+```
+configure terminal
+voice register global service https
+```
+
+### Related Commands
+
+Command
+
+Description
+
+voice register global
+
+Enters voice register global configuration mode and sets
+                                          						global parameters for all supported Cisco Unified SIP IP phones in a Cisco
+                                          						Unified CME or Cisco Unified SIP SRST environment.
+
+## service https (voice register template)
+
+To locally provision Hypertext Transfer Protocol Secure (HTTPS)
+                              		  services access from Cisco Unified SIP IP phones on Cisco Unified CME, use the service https command in voice register template
+                              		  configuration mode. To disable access to HTTPS services, use the no form of this command.
+
+service https
+
+no service https
+
+### Syntax Description
+
+This command has no arguments or keywords.
+
+### Command Default
+
+Cisco Unified SIP IP phones are unable to access HTTPS services on
+                              		  Cisco Unified CME.
+
+### Command Modes
+
+Voice register template configuration (config-register-temp)
+
+## Command History
+
+Release
+
+Modification
+
+15.3(2)T
+
+This command was introduced.
+
+### Usage Guidelines
+
+Use the service https command to enable access to HTTPS services
+                              		  like local-directory lookup, My Phone Apps, and Extension Mobility.
+
+## Examples
+
+The following example shows how to globally provision HTTPS services
+                              		  from Cisco Unified SIP IP phones:
+
+```
+configure terminal
+voice register template 1 service https
+```
+
+### Related Commands
+
+Command
+
+Description
+
+voice register template
+
+Enters voice register template configuration mode and
+                                          						defines a template of common parameters for SIP phones.
+
+## service
+                        	 local-directory
+
+To enable the
+                              		  availability of the local directory service on IP phones served by the Cisco
+                              		  Unified Communications Manager Express (Unified CME) router, use the service local-directory command in telephony service
+                              		  configuration mode. To disable the display, use the no form of
+                              		  this command.
+
+service local-directory [ authenticate ] [ username ] [ password ] [0|6] password
+
+no service local-directory [ authenticate ] [ username ] [ password ]
+
+### Syntax Description
+
+authenticate
+
+(Optional) Requires authentication for local directory search requests.
+
+username
+
+(Optional) Provides username for authentication of local
+                                          						directory server.
+
+password [0|6]
+
+(Optional) Provides password for authentication of local
+                                          						directory server.
+
+The 0 in the parameter [0|6] mentioned in the CLI command represents plain, unencrypted text and 6 represents level 6 password
+                                          encryption.
+
+### Command Default
+
+Local directory
+                              		  service is available on IP Phones.
+
+### Command Modes
+
+Telephony-service configuration (config-telephony)
+
+## Command History
+
+Cisco
+                                          						IOS Release
+
+Cisco
+                                          						Product
+
+Modifications
+
+12.2(11)YT
+
+Cisco
+                                          						ITS 2.1
+
+This
+                                          						command was introduced.
+
+12.2(15)T
+
+Cisco
+                                          						ITS 2.1
+
+This
+                                          						command was integrated into Cisco IOS Release 12.2(15)T.
+
+12.2(15)ZJ
+
+Cisco
+                                          						CME 3.0
+
+The authenticate keyword was introduced.
+
+12.3(4)
+
+Cisco
+                                          						CME 3.0
+
+This
+                                          						command was integrated into Cisco IOS Release 12.3(4)T.
+
+Cisco
+                                          						IOS XE Everest 16.6.1
+
+Unified CME 12.0
+
+This
+                                          						command was enhanced to authenticate the username and password for accessing
+                                          						the local directory service.
+
+Cisco IOS XE Gibraltar 16.11.1a Release
+
+Unified CME 12.6
+
+The command was enhanced for password encryption, based on Unified CME password policy.
+
+### Usage Guidelines
+
+Use this command
+                              		  with Cisco IOS Telephony Services V2.1, Cisco CME 3.0, or a later version.
+
+When you
+                              		  configure the url
+                                    				directories command with the URL and credentials of the server
+                              		  that hosts the local directory, the command takes precedence over service local-directory [authenticate] [username] [password] . When you configure the url
+                                    				directories command with only the URL of the server that hosts
+                              		  the local directory, Unified CME tries to fetch the username and password
+                              		  credentials from the command service local-directory [authenticate] [username] [password] , if it is configured.
+
+From Unified CME 12.6 onwards, you must configure password encryption using the parameters [0|6] . This in accordance with Unified CME Password Policy. The 0 in the parameter [0|6] mentioned in the CLI command represents
+                              plain, unencrypted text and 6 represents level 6 password encryption.
+
+### Example
+                              		  1
+
+The following
+                              		  example specifies that the directory service should not be available on the IP
+                              		  phones served by this ITS router:
+
+```
+Router(config)# telephony-service Router(config-telephony-service)# no service local-directory
+```
+
+### Example
+                              		  2
+
+```
+Router(config)# telephony-service Router(config-telephony-service)# service local-directory authenticate admin cisco12345
+```
+
+```
+<directoryURL>http://admin:cisco12345/8.39.16.26:80/localdirectory</directoryURL>
+```
+
+### Example
+                              		  3
+
+```
+Router(config)# telephony-service Router(config-telephony-service)# service local-directory authenticate root cisco Router(config-telephony-service)# url directories http://8.39.16.26:80/localdirectory
+```
+
+```
+<directoryURL>http://root:cisco/8.39.16.26:80/localdirectory</directoryURL>
+```
+
+### Example
+                              		  4
+
+```
+Router(config)# telephony-service Router(config-telephony-service)# service local-directory authenticate admin cisco Router(config-telephony-service)# url directories http://root:cisco123@8.39.16.26:80/localdirectory
+```
+
+```
+<directoryURL>http://root:cisco123@8.39.16.26:80/localdirectory</directoryURL>
+```
+
+### Example
+                              		  5
+
+```
+Router(config)# telephony-service Router(config-telephony-service)# service local-directory
+```
+
+```
+Router# show telephony-service tftp-bindings more flash:/its/vrf1/SEP5057A88797E0.cnf.xml
+ <directoryURL>http://8.39.16.26:80/localdirectory</directoryURL>
+```
+
+### Related Commands
+
+Command
+
+Description
+
+telephony - service
+
+Enters
+                                          						telephony-service configuration mode.
+
+## service
+                        	 phone
+
+To modify the
+                              		  vendorConfig parameters in the configuration file, use the service phone command in telephony-service or ephone-template configuration
+                              		  mode. To disable a setting, use the no form of
+                              		  this command.
+
+service phone parameter-name parameter-value
+
+no service phone parameter-name parameter-value
+
+### Syntax Description
+
+parameter-name
+
+Name of
+                                          						the vendorConfig parameter in the configuration file. For valid parameter
+                                          						names, see the table below. Parameter names are word and case-sensitive and
+                                          						must be entered exactly as shown.
+
+parameter-value
+
+Value
+                                          						for the vendorConfig parameter. For valid values and defaults, see the table
+                                          						below.
+
+### Command Default
+
+The vendorConfig
+                              		  parameters in phone configuration files are set to default values.
+
+### Command Modes
+
+Telephony-service configuration (config-telephony) Ephone-template configuration (config-ephone-template)
+
+## Command History
+
+Cisco
+                                          						IOS Release
+
+Cisco
+                                          						Product
+
+Modification
+
+12.3(11)XL
+
+Cisco
+                                          						CME 3.2.1
+
+This
+                                          						command was introduced.
+
+12.3(14)T
+
+Cisco
+                                          						CME 3.3
+
+This
+                                          						command was integrated into Cisco IOS Release 12.3(14)T.
+
+12.4(4)XC
+
+Cisco
+                                          						Unified CME 4.0
+
+This
+                                          						command was made available in ephone-template configuration mode for certain
+                                          						parameters.
+
+12.4(9)T
+
+Cisco
+                                          						Unified CME 4.0
+
+This
+                                          						command in ephone-template configuration mode was integrated into Cisco IOS
+                                          						Release 12.4(9)T.
+
+15.1(4)M
+
+Cisco
+                                          						Unified CME 8.6
+
+This
+                                          						command was modified. The xml config file argument was added.
+
+Cisco
+                                          						IOS XE Fuji 16.9.1
+
+Unified CME 12.3
+
+This
+                                          						command service phone lineMode
+                                                							 1 introduces support for Enhanced Line Mode (ELM) for Cisco IP
+                                          						Phone 8800 Series on Unified CME.
+
+### Usage Guidelines
+
+This command in
+                              		  telephony-service configuration mode modifies vendorConfig parameters in
+                              		  configuration file for phones in a Cisco Unified CME system.
+
+The vendorConfig
+                              		  section of a configuration file is read by a phone’s firmware when that Cisco
+                              		  Unified IP phone is booted. The number and type of parameters may vary from one
+                              		  firmware version to the next.
+
+If a firmware
+                              		  version does not support a particular parameter, that parameter cannot be
+                              		  implemented. For example, Cisco phone firmware 8.2.1 or a later version is
+                              		  required to support the G.722-64K codec on G.722-capable SCCP phones and Cisco
+                              		  phone firmware 8.3.1 or a later version is required to support the G.722-64K
+                              		  codec on G.722-capable SIP phones. If your phones are loaded with an earlier
+                              		  version of phone firmware, they cannot support the G.722-64K codec regardless
+                              		  of how the g722CodecSupport parameter is configured.
+
+The IP phone that
+                              		  downloads the configuration file will implement only those parameters that it
+                              		  can support and ignore configured parameters that it cannot implement. For
+                              		  example, a Cisco IP phone without a backlit display cannot implement backlight
+                              		  parameters regardless of how they are configured.
+
+In Cisco Unified
+                              		  CME 4.0 and later versions, support for creating configuration files at a phone
+                              		  level was added for SCCP phones. This command in ephone-template configuration
+                              		  mode creates an template of vendorConfig parameters that can be applied to
+                              		  individual SCCP phones in Cisco Unified CME. This command in ephone-template
+                              		  configuration mode does not work for all vendorConfig parameters. See the table
+                              		  below for information about individual parameters.
+
+In Cisco Unified
+                              		  CME 4.0 and later versions, if you use an ephone template to apply this command
+                              		  to one or more phones, you must also configure the cnf-file perphone command so that a separate configuration file is created for each phone, by MAC
+                              		  address. To apply this command in telephony-service mode to all phones of a
+                              		  particular type in Cisco Unified CME 4.0 and later versions, you can configure
+                              		  the cnf-file perphonetype command to specify that configuration
+                              		  files are generated by phone type.
+
+To apply this
+                              		  command in telephony-service configuration mode to all phones in your Cisco
+                              		  Unified CME system, ensure that the system is configured for the default single
+                              		  per-system configuration file for all phones.
+
+If you use an
+                              		  ephone template to apply this command to a phone and you also use this command
+                              		  in telephony-service configuration mode for the same phone, the value that you
+                              		  set in ephone-template configuration mode has priority.
+
+After modifying
+                              		  the vendorConfig parameters, you must generate new configuration files.
+
+After
+                              		  generating configuration files, reset or reboot the IP phone to be configured
+                              		  to download the new configuration file.
+
+From Unified CME Release 12.3, you can enable Enhanced Line Mode on Unified for Cisco IP Phone 8800 Series (except 8821, 8831,
+                              8832 models) by configuring the CLI command service phone lineMode 1 under telephony-service configuration mode. The Cisco IP Phone 8800 Series configured on Unified CME uses the vendor config XML body in the CNF file
+                              to verify if the CLI command service phone lineMode 1 is added to enable ELM mode. By default, ELM is not enabled on Unified CME. To disable ELM on the Unified CME router, you
+                              need to configure no service phone lineMode .
+
+The parameters for the service phone CLI command are case
+                                          			 sensitive. For example, the command to configure ELM for Cisco IP Phone Series
+                                          			 8800 must be service phone lineMode 1 . If the command
+                                          			 input is service phone LineMode 1 , service phone linemode 1 , and so on, ELM is
+                                          			 not configured.
+
+Use the show telephony-service tftp-binding command to view the SEP*.cnf.xml
+                              		  files that are associated with individual phones. The following example entry
+                              		  from a Sep*.conf.xml file disables the PC port on a phone:
+
+```
+<vendorConfig>
+<pcPort>1</pcPort>
+</vendorConfig>
+```
+
+The below table
+                              		  lists the basic vendorConfig parameters in alphabetical order.
+
+Parameter Name and Value
+
+Description
+
+actionableAlert { 0 | 1}
+
+Replaces the traditional incoming call pop-up notification with an alert that you must respond to.
+
+- 0 —Disabled.
+
+- 1 —Enabled (default).
+
+adminPassword password
+
+(For
+                                          					 the Cisco Unified IP Phone 7921G only) Creates a password for accessing the web
+                                          					 interface on a phone.
+
+- passwor d—String of up to 32 characters.
+
+autoSelectLineEnable { 0 | 1}
+
+Enables
+                                          					 and disables auto line selection.
+
+- 0 —Disabled.
+
+- 1 —Enabled
+                                             						(default).
+
+backlightIdleTimeout HH : MM
+
+Sets
+                                          					 the length of time in hours and minutes after which the backlighting of the IP
+                                          					 phone displays will switch off again once the phone is inactive.
+
+- This parameter is
+                                             						applicable only on the days specified using the daysBacklightNotActive parameter.
+
+- This parameter does not
+                                             						affect the display during the period of time specified using the backlightOnDuration parameter.
+
+- Hour ( HH ) and
+                                             						minute ( MM ). You
+                                             						must enter all four characters. For example, 9:05 a.m. must be entered as
+                                             						09:05. Default is one hour (01:00).
+
+backlightOnDuration HH : MM
+
+Sets
+                                          					 the length of time in hours and minutes for which IP phone displays will be
+                                          					 backlit.
+
+- This parameter does not
+                                             						affect the display on the days specified using the daysBacklightNotActive parameter.
+
+- Hour ( HH ) and
+                                             						minute ( MM ). You
+                                             						must enter all four characters. For example, 9:05 a.m. must be entered as
+                                             						09:05. Default is 10 hours (10:00).
+
+backlightOnTime HH : MM
+
+Sets
+                                          					 the time of day at which backlighting of the IP phone displays is switched on,
+                                          					 using a 24-hour time format.
+
+- This parameter does not
+                                             						affect the display on the days specified using the daysBacklightNotActive parameter.
+
+- Hour ( HH ) and
+                                             						minute ( MM ). You
+                                             						must enter all four characters. For example, 9:05 a.m. must be entered as
+                                             						09:05. Default is 07:30.
+
+daysBacklightNotActive number [ , number ...]
+
+Sets
+                                          					 the days of the week on which backlighting of the IP phone displays is switched
+                                          					 off unless there is user interaction with the IP phone.
+
+- number —Represents the days of the week
+                                             						numerically, starting with Sunday (1) and ending with Saturday (7). Each number
+                                             						must be separated with a comma, without spaces: daysBacklightNotActive 1,2,3 .
+
+- Default is no
+                                             						backlighting on Sun (1) and Sat (7).
+
+daysDisplayNotActive number [ , number ...]
+
+Sets
+                                          					 the days of the week on which IP phone displays will be blank.
+
+- number —Represents the days of the week
+                                             						numerically, starting with Sunday (1) and ending with Saturday (7). Each number
+                                             						must be separated with a comma, without spaces: daysDisplayNotActive 1,2,3
+
+- Default is an inactive display on Sun
+                                             						(1) and Sat (7).
+
+- To disable this parameter so that IP
+                                             						phone displays are always active, configure this parameter in telephony-service
+                                             						configuration mode using a space plus a comma ( ,): daysDisplayNotActive , for the parameter-value .
+
+displayIdleTimeout HH : MM
+
+Sets
+                                          					 the length of time in hours and minutes for which IP phone displays will remain
+                                          					 active, starting from the last time that the phone was used.
+
+- Hour ( HH ) and
+                                             						minute ( MM ). You
+                                             						must enter all four characters. For example, 9:05 a.m. must be entered as
+                                             						09:05. Default is one hour (01:00).
+
+displayOnDuration HH : MM
+
+Sets
+                                          					 the length of time in hours and minutes for which IP phone displays will be
+                                          					 active.
+
+- Hour
+                                             						( HH ) and
+                                             						minute ( MM ). You
+                                             						must enter all four characters. For example, 9:05 a.m. must be entered as
+                                             						09:05. Default is 10 hours (10:00).
+
+displayOnTime HH : MM
+
+Sets
+                                          					 the time of day at which IP phone displays are activated, using a 24-hour time
+                                          					 format.
+
+- Hour
+                                             						( HH ) and
+                                             						minute ( MM ). You
+                                             						must enter all four characters. For example, 9:05 a.m. must be entered as
+                                             						09:05. Default is 07:30.
+
+displayOnWhenIncomingCall { 0 | 1 }
+
+Enables
+                                          					 and disables an IP phone display to be activated when an incoming call is
+                                          					 received (Line state is Ring in). The display will switch off again once the
+                                          					 ringing stops if the user has not touched the phone and if the phone display is
+                                          					 supposed to be off.
+
+- 0 —Disabled
+                                             						(default).
+
+- 1 —Enabled.
+
+disableSpeaker { true | false }
+
+Enables
+                                          					 and disables the speakerphone.
+
+- true —Disabled.
+
+- false —Enabled (default).
+
+disableSpeakerAndHeadset { true | false }
+
+Enables
+                                          					 and disables the speakerphone and headset.
+
+- true —Disabled.
+
+- false —Enabled (default).
+
+enableGroupListen { true | false }
+
+(For
+                                          					 Cisco Unified IP Phone 7906 and 7911 only) Enables and disables Group Listen
+                                          					 mode in which the handset and speaker are both active to allow multiple
+                                          					 listeners to hear the conversation over the speaker while one user talks on the
+                                          					 handset.
+
+- true —Enabled.
+
+- false —Disabled (default).
+
+forwardingDelay { 0 | 1 }
+
+Enables
+                                          					 and disables the activation of the IP phone’s PC Ethernet switch port when the
+                                          					 IP phone boots to prevent Ethernet traffic from interfering with the bootup
+                                          					 process.
+
+- 0 —Disabled.
+
+- 1 —Enabled
+                                             						(default).
+
+garp { 0 | 1 }
+
+Enables
+                                          					 and disables IP phone response to gratuitous Address Resolution Protocol (ARP)
+                                          					 messages from the IP phone’s Ethernet interface.
+
+- 0 —Disabled.
+
+- 1 —Enabled
+                                             						(default).
+
+g722CodecSupport { 0 | 1 | 2 }
+
+Enables
+                                          					 and disables the registration of the G.722 codec on the IP phone.
+
+- 0 —Phone
+                                             						default (default), equal to disabled or enabled and set by manufacturer.
+
+- 1 —Disabled.
+                                             						Disables G.722-64K2 codec on phone.
+
+- 2 —Enabled.
+                                             						Enables G.722-64K codec on phone.
+
+handsetWidebandEnable { 0 | 1 | 2 }
+
+Enables
+                                          					 or disables wideband handset option on supported IP phones.
+
+- If
+                                             						the handsetWidebandUIControl parameter is set to
+                                             						Enable (1), the option set in the phone UI, by the phone user, has priority
+                                             						over the value set for this parameter.
+
+- 0 —Phone
+                                             						default (default), equal to disabled or enabled and set by manufacturer.
+
+- 1 —Enabled.
+                                             						Enables wideband handset on phone.
+
+- 2 —Disabled.
+                                             						Disables wideband headset on phone.
+
+- Wideband handset should only be used on supported IP phones with firmware
+                                             						version 8.3 or a later version.
+
+handsetWidebandUIControl { 0 | 1 }
+
+Enables
+                                          					 or disables control of handset options by phone user.
+
+- 0 —Enabled
+                                             						(default). Allows phone user to select either narrowband or wideband handset in
+                                             						the phone UI.
+
+- 1 —Disabled.
+
+headsetWidebandEnable { 0 | 1 }
+
+Enables
+                                          					 or disables wideband headset option on supported IP phones.
+
+- If
+                                             						the headsetWidebandUIControl parameter is set to
+                                             						Enable (0), the option set in the phone UI, by the phone user, has priority
+                                             						over the value set for this parameter.
+
+- 0 —Enabled
+                                             						(default). Enables wideband headset on phone.
+
+- 1 —Disabled.
+                                             						Disables wideband headset on phone.
+
+- Wideband handset should only be used on supported IP phones with firmware
+                                             						version 8.3 or a later version.
+
+headsetWidebandUIControl { 0 | 1 }
+
+Enables
+                                          					 or disables control of headset option by phone user.
+
+- 0 —Enabled
+                                             						(default). Allows phone user to select either narrowband or wideband headset
+
+- 1 —Disabled.
+
+homeScreen { 0 | 1 }
+
+(For
+                                          					 Cisco Unified Wireless Phone 7921G only) Specifies view to be displayed on
+                                          					 phone home screen.
+
+- 0 —Display
+                                             						main phone screen (default).
+
+- 1 —Display
+                                             						line view.
+
+- Implemented only on supported IP phones with firmware version 1.2.1 or a later
+                                             						version.
+
+LineKeyBarge { 0 | 2 }
+
+Activates the Line keys on the phones so that it displays the remote-in-use state softkeys correctly, and supports Barge functionality
+                                          on Cisco IP Phone 7800 Series phones. The command is disabled by default.
+
+0 —Enables cBarge.
+
+2 —Enabales Barge.
+
+no service phone LineKeyBarge —Disables Line Keys, so that the 7800 series IP phones will not display the remote-in-use state softkeys. .
+
+If the remote-in-use state softkey configuration has both Barge and cBarge configured, then cBarge is taken as the preferential
+                                                      feature. The phones will ignore the Barge configuration.
+
+lineMode { 1 }
+
+(For
+                                          					 Cisco IP Phone 8800 Series only) Enables Enhanced Line Mode (ELM) for Unified
+                                          					 CME. The no form of the command disables the ELM functionality. By default, ELM
+                                          					 is disabled for Unified CME.
+
+- no service phone
+                                                   							 lineMode —Disables Enhanced Line Mode (default).
+
+- service phone lineMode
+                                                   							 1 —Enables Enhanced Line Mode.
+
+loadServer [ hostname | IPaddress ]
+
+(For
+                                          					 the Cisco Unified IP Phone 7921G only) Directs the IP phone to use an
+                                          					 alternative TFTP server such as a local server to obtain firmware loads and
+                                          					 upgrades. Using this parameter can help to reduce installation time,
+                                          					 particularly for upgrades over a WAN. The specified server must be running TFTP
+                                          					 services and have the firmware file in the TFTP path.
+
+- hostname —Name of the server from which the IP
+                                             						phone must retrieve phone firmware. Maximum length: 256 characters.
+
+- IPaddress —IP address of server from which the IP
+                                             						phone must retrieve phone firmware.
+
+- To
+                                             						disable this command and redirect the phone to use the TFTP server specified by
+                                             						the option 150 ip command to obtain its load files and upgrades, use
+                                             						this parameter name without the hostname or IPaddress argument.
+
+pcPort { 0 | 1 }
+
+Enables
+                                          					 and disables the Ethernet switch port on the phone so the IP phone can have
+                                          					 access to an Ethernet connection for a PC connection through the phone.
+
+- 0 —Enabled
+                                             						(default).
+
+- 1 —Disabled.
+
+PushToTalkURL url
+
+(For
+                                          					 the Cisco Unified IP Phone 7921G only) Provisions the URL to be contacted for
+                                          					 application services such as Push-To-Talk services.
+
+- url —URL as
+                                             						defined in RFC 2396. Maximum length is 256 characters.
+
+settingsAccess { 0 | 1 | 2 }
+
+Enables
+                                          					 and disables the Settings button on an IP phone.
+
+- 0 —Disabled.
+
+- 1 —Enabled
+                                             						(default). The phone user can modify features by using the Settings menu.
+
+- 2 —Restricted. The phone user is allowed to access
+                                             						User Preferences and volume settings only.
+
+spanToPCPort { 0 | 1 }
+
+Enables
+                                          					 and disables the path between the Ethernet switch port of an IP phone and a
+                                          					 connection to a PC.
+
+- 0 —Enabled
+                                             						(default).
+
+- 1 —Disabled.
+
+specialNumbers number [ , number ...]
+
+(For
+                                          					 the Cisco Unified IP Phone 7921G only) Identifies a number that can be dialed
+                                          					 on a phone regardless of whether the phone is locked or unlocked. For example,
+                                          					 in the United States, the 911 emergency number is a good special number
+                                          					 candidate to be dialed without unlocking the phone.
+
+- number —Numerical string. Maximum length: 16
+                                             						characters.
+
+- To
+                                             						identify more than one special number, separate the numbers with a comma
+                                             						( , ). Do not
+                                             						include spaces between numbers.
+
+- The
+                                             						following example shows how to configure 411, 511, and 911 as special numbers:
+
+```
+Router(config)# telephony-service Router(config telephony-service)# service phone specialNumbers 411,511,911
+```
+
+sshAccess { 0 | 1 }
+
+Enables
+                                          					 and disables SSH access.
+
+- 0 —Enabled
+                                             						(default).
+
+- 1 —Disabled.
+
+thumbButton1 PTTH button_number
+
+(For
+                                          					 Cisco Unified Wireless IP Phone 7921 and 7925) Associates thumb button on Cisco
+                                          					 wireless IP phone with a phone button for one-way Push-To-Talk (PTT)
+                                          					 functionality in Cisco Unified CME without requiring an external server.
+
+- button_number —Button on phone that is configured
+                                             						with an intercom dn that targets a paging number when user presses the thumb
+                                             						button. Range is 1 to 6.
+
+- The PTTH button_number keyword/argument combination is a
+                                             						contiguous character string and cannot contain spaces.
+
+- Implemented on supported phones with firmware version 1.0.4 or a later version.
+
+videoCapability { 0 | 1 }
+
+Enables
+                                          					 and disables video capability for all applicable IP phones associated with a
+                                          					 Cisco Unified CME router.
+
+- 0—Disabled (default).
+
+- 1—Enabled.
+
+- After using this parameter to enable video at a system level, you must
+                                             						configure the video command in ephone configuration mode for each video-capable phone.
+
+voiceVlanAccess { 0 | 1 }
+
+Enables
+                                          					 and disables spanning, which is the IP phone’s access to the voice VLAN of the
+                                          					 PC to which the IP phone’s Ethernet port is connected.
+
+- 0 —Enabled
+                                             						(default).
+
+- 1 —Disabled.
+
+webAccess { 0 | 1 | 2 }
+
+Enables
+                                          					 and disables web access that allows phone users to configure settings and
+                                          					 features on User Option web pages.
+
+- 0 —Enabled
+                                             						(default).
+
+- 1 —Disabled.
+
+- 2 —Read
+                                             						Only. For the Cisco Unified IP Phone 7921G only. The phone user can view only
+                                             						User Option web pages and cannot modify settings and features on the pages.
+
+WLanProfile tag { 0 | 1 }
+
+(For
+                                          					 Cisco Unified IP Phone 7921G only) Locks or unlocks a specific profile.
+
+- tag — Unique
+                                             						number assigned to profile. Range is 1 to 4.
+
+- 0 —Locked
+                                             						(default).
+
+- 1 —Unlocked.
+                                             						User can modify a profile.
+
+- Repeat this command for each profile to be locked or unlocked.
+
+## Examples
+
+The following
+                              		  example shows how to configure multiple service phone parameters. This configuration is applied
+                              		  only in as much as IP phone firmware supports each parameter.
+
+```
+Router(config)# telephony-service Router(config-telephony)# service phone disableSpeaker true Router(config-telephony)# service phone disableSpeakerAndHeadset true Router(config-telephony)# service phone forwardingDelay 1 Router(config-telephony)# service phone garp 1 Router(config-telephony)# service phone pcPort 1 Router(config-telephony)# service phone voiceVlanAccess 0 Router(config-telephony)# service phone settingsAccess 1 Router(config-telephony)# service phone videoCapability 1 Router(config-telephony)# service phone daysDisplayNotActive 1,7 Router(config-telephony)# service phone displayOnTime 07:30 Router(config-telephony)# service phone displayOnDuration 10:00 Router(config-telephony)# s ervice phone displayIdleTimeout 01:00 Router(config-telephony)# service phone daysBacklightNotActive 1,7 Router(config-telephony)# service phone backlightOnTime 07:30 Router(config-telephony)# service phone backlightOnDuration 10:00 Router(config-telephony)# s ervice phone backlightIdleTimeout 01:00 Router(config-telephony)# create cnf-files Router(config-telephony)# reset all The following example shows how to set the default values for backlighting the phone display for all Cisco Unified IP phones with backlight capabilities in Cisco Unified CME:
+Router(config)# telephony-service Router(config-telephony)# service phone daysBacklightNotActive 1,7 Router(config-telephony)# service phone backlightOnTime 07:30 Router(config-telephony)# service phone backlightOnDuration 10:00 Router(config-telephony)# s ervice phone backlightIdleTimeout 01:00 Router(config-telephony)# create cnf-files Router(config-telephony)# reset all
+```
+
+The following
+                              		  example shows how to set the backlighting parameters so that there is no
+                              		  backlighting of the phone display for all Cisco Unified IP phones with
+                              		  backlight capabilities until there is user interaction with the phone. The backlightIdleTimeout parameter is configured so
+                              		  that the backlight will switch off again after 60 seconds of inactivity.
+
+```
+Router(config)# telephony-service Router(config-telephony)# service phone daysBacklightNotActive 1,2,3,4,5,6,7 Router(config-telephony)# service phone backlightOnTime 07:30 Router(config-telephony)# service phone backlightOnDuration 10:00 Router(config-telephony)# s ervice phone backlightIdleTimeout 00.01 Router(config-telephony)# create cnf-files Router(config-telephony)# reset all
+```
+
+The following
+                              		  example shows how to set the display parameters so that the phone display for
+                              		  all Cisco Unified IP phones with luminous displays are blank on Sunday (1),
+                              		  Monday (2), and Saturday (7):
+
+```
+Router(config)# telephony-service Router(config-telephony)# service phone daysDisplayNotActive 1,2,7 Router(config-telephony)# create cnf-files Router(config-telephony)# reset all
+```
+
+The following
+                              		  example shows how to disable the PC port on an individual IP phone (ephone 15)
+                              		  using an ephone template:
+
+```
+Router(config)# ephone-template 8 Router(config-ephone-template)# service phone pcPort 1 Router(config-ephone-template)# exit Router(config)# ephone 15 Router(config-ephone)# ephone-template 8 Router(config-ephone)# exit Router(config)# telephony-service Router(config-telephony)# create cnf-files Router(config-telephony)# exit Router(config)# ephone 15 Router(config-ephone)# reset
+```
+
+The following
+                              		  examples shows how to enable ELM on Unified CME for Cisco IP Phones. Also, it
+                              		  provides steps to configure create
+                                    				profile and restart the
+                              		  phones under voice register
+                                    				global configuration mode to enable ELM for the Cisco IP Phone
+                              		  8800 series phones on Unified CME:
+
+```
+Router(config)#telephony-service
+Router(config-telephony)#service phone lineMode ?
+  WORD  enter the phone xml file parameter text for the previously entered
+        parameter name
+Router(config-telephony)#service phone lineMode 1
+Router(config-telephony)#create cnf-files
+Router(config-telephony)#end
+```
+
+```
+Router(config)#voice register global
+Router(config-register-global)#create profile
+Router(config-register-global)#restart
+Router(config-register-global)#end
+```
+
+### Related Commands
+
+Command
+
+Description
+
+cnf-file
+
+Specifies that separate configuration files be generated for individual SCCP
+                                          						phones or types of SCCP phones.
+
+create cnf-files
+
+Builds XML configuration files that set IP phone displays and functionality.
+
+create profile
+
+Generates configuration profile files required for SIP phones
+
+ephone-template (ephone)
+
+Applies a template to the ephone being configured.
+
+reset (telephony-service)
+
+Performs a complete reboot of one or all phones associated with a Cisco Unified
+                                          						CME router.
+
+show telephony-service tftp-binding
+
+Displays the current configuration files accessible to IP phones.
+
+show voice register tftp-bind
+
+Displays the current configuration files accessible to IP phones.
+
+video (ephone)
+
+Enables video capabilities on specified phones.
+
+## service profile
+
+To set the parameters under the commonProfile section in IP phone
+                              		  SEP*.cnf.xml configuration files, use the service profile command in telephony-service configuration mode. To disable the
+                              		  settings, use the no form of this command.
+
+service profile [ phonePassword password | callLogBlfEnabled | backgroundImageAccess false ]
+
+no service profile [ phonePassword password | callLogBlfEnabled | backgroundImageAccess false ]
+
+### Syntax Description
+
+phonePassword password
+
+Enters the phone password.
+
+callLogBlfEnabled
+
+Enables the call log.
+
+backgroundImageAccess false
+
+Disables the background image access.
+
+### Command Default
+
+Parameters in the commonProfile section in IP phone SEP*.cnf.xml
+                              		  configuration files are not set.
+
+### Command Modes
+
+Telephony-service configuration (config-telephony)
+
+## Command History
+
+Release
+
+Modification
+
+15.2(2)T2
+
+This command was introduced.
+
+### Usage Guidelines
+
+You can use the service profile command to set the parameters under the commonProfile section
+                              		  in IP phone SEP*.cnf.xml configuration files. Invoke the create cnf-file command to update phone configuration
+                              		  files.
+
+## Examples
+
+The following example shows the service profile command is used at the router prompt:
+
+```
+Router# configure terminal Router(config)# telephony-service Router( config-telephony )# service profile phonePassword cisco
+```
+
+### Related Commands
+
+Command
+
+Description
+
+telephony-service
+
+Enters telephony-service configuration mode.
+
+## service-digit
+
+To enable phone users to dial a service digit to request off-net
+                              		  services, use the service-digit command in voice MLPP configuration mode. To reset to the
+                              		  default, use the no form of this command.
+
+service-digit
+
+no service-digit
+
+### Syntax Description
+
+This command has no arguments or keywords.
+
+### Command Default
+
+Service digit is disabled.
+
+### Command Modes
+
+Voice MLPP configuration (config-voice-mlpp)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+15.0(1)XA
+
+Cisco Unified CME 8.0
+
+This command was introduced.
+
+15.1(1)T
+
+Cisco Unified CME 8.0
+
+This command was integrated into Cisco IOS Release
+                                          						15.1(1)T.
+
+### Usage Guidelines
+
+This command enables users to request off-net services by dialing a
+                              		  service digit, after dialing the MLPP access digit. The service digit provides
+                              		  information to the switch when connecting calls to government or public
+                              		  telephone services or networks that are not part of the Defense Switched
+                              		  Network (DSN).
+
+Phone users request a service by dialing the access code NS, where N
+                              		  is the preconfigured MLPP access digit and S is the service digit. The service
+                              		  digit is a number from 5 to 9.
+
+In Cisco Unified CME, the dial plan must be configured to play
+                              		  secondary dial-tone and the rest of the dialed digits are collected and passed
+                              		  to the off-net trunk. The digits that follow the prefix NS must be E.164
+                              		  compliant.
+
+## Examples
+
+The following example shows how to enable users to dial a service
+                              		  digit:
+
+```
+Router(config)# voice mlpp Router(config-voice-mlpp)# service-digit
+```
+
+### Related Commands
+
+Command
+
+Description
+
+access-digit
+
+Defines the access digit that phone users dial to request a
+                                          						precedence call.
+
+mlpp preemption
+
+Enables preemption capability on an SCCP phone or analog
+                                          						FXS port.
+
+## service-enable
+                        	 (auto-register)
+
+To re-enable the
+                              		  auto-registration of SIP phones on Unified CME that is temporarily disabled,
+                              		  use the service-enable command in voice auto register configuration mode. This
+                              		  command is a sub-mode CLI of the command auto-register . To temporarily disable the auto registration process without
+                              		  losing configurations such as password and DN range, use the no form of
+                              		  this command.
+
+service-enable
+
+no service-enable
+
+### Syntax Description
+
+no service-enable
+
+Temporarily disables the auto registration process, but retains the password
+                                          						and DN range configurations. Once auto-register command is entered, the service
+                                          						is enabled by default.
+
+### Command Default
+
+By default, this
+                              		  command is enabled.
+
+### Command Modes
+
+voice auto register configuration (config-voice-auto-register)
+
+## Command History
+
+Cisco
+                                          						IOS Release
+
+Cisco
+                                          						Product
+
+Modification
+
+15.6(3)M
+
+16.3.1
+
+Cisco
+                                          						Unified CME 11.5
+
+This
+                                          						command was introduced.
+
+### Usage Guidelines
+
+This command is
+                              		  enabled by default.
+
+If the
+                              		  administrator needs to temporarily disable or enable auto registration without
+                              		  losing configurations such as DN range, and password, the no form of this
+                              		  command, no service-enable is used.
+
+## Examples
+
+The following
+                              		  example shows how to temporarily disable auto registration using the no form of
+                              		  the sub-mode option, service-enable:
+
+```
+Router(config)#voice register global
+Router(config-register-global)#auto-register
+Router(config-voice-auto-register)# ?
+
+VOICE auto register configuration commands: auto-assign Define DN range for auto assignment default Set a command to its defaults exit Exit from voice register group configuration mode no Negate a command or set its defaults password Default password for auto-register phones service-enable Enable SIP phone Auto-Registration template Default template for auto-register phones
+
+Router(config-voice-auto-register)#no service-enable ?
+ <cr>
+```
+
+### Related Commands
+
+Command
+
+Description
+
+auto-register
+
+Enables
+                                          						automatic registration of SIP phones with the Cisco Unified CME system.
+
+password (auto-register)
+
+Configures the mandatory password that administrator sets for
+                                          						auto registration of SIP phones on Unified CME.
+
+auto-assign (auto-register)
+
+Configures the mandatory range of directory numbers for phones
+                                          						auto registering on Unified CME.
+
+template (auto-register)
+
+Creates
+                                          						a basic configuration template that supports all the configurations available
+                                          						on the voice register template.
+
+auto-reg-ephone
+
+Enables automatic registration of ephones with the Cisco Unified CME system.
+
+## service-domain
+
+To set the global MLPP domain type and number, use the service-domain command in voice MLPP
+                              		  configuration mode. To reset to the default, use the no form of this command.
+
+service-domain { drsn | dsn } identifier domain-number
+
+no service-domain
+
+### Syntax Description
+
+drsn
+
+Defense Red Switched Network (DRSN).
+
+dsn
+
+Defense Switched Network (DSN). This is the default value.
+
+domain-number
+
+Number to identify the global domain, in three-octet
+                                          						format. Range: 0x000000 to 0xFFFFFF. Default: 0.
+
+### Command Default
+
+Domain type is dsn ; domain number is 0.
+
+### Command Modes
+
+Voice MLPP configuration (config-voice-mlpp)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+15.0(1)XA
+
+Cisco Unified CME 8.0
+
+This command was introduced.
+
+15.1(1)T
+
+Cisco Unified CME 8.0
+
+This command was integrated into Cisco IOS Release
+                                          						15.1(1)T.
+
+### Usage Guidelines
+
+This command sets the global domain type and number in Cisco Unified
+                              		  CME. Use the mlpp service-domain command to assign registered phones
+                              		  to different service domains. Any phone not configured with a specific service
+                              		  domain uses this global domain for MLPP calls.
+
+## Examples
+
+The following example shows the global domain set to DSN with
+                              		  identifier 0010:
+
+```
+Router(config)# voice mlpp Router(config-voice-mlpp)# service-domain dsn identifier 0010
+```
+
+### Related Commands
+
+Command
+
+Description
+
+mlpp service-domain
+
+Sets the service domain and maximum precedence (priority)
+                                          						level for MLPP calls.
+
+preemption trunkgroup
+
+Enables preemption capabilities on a trunk group.
+
+service-domain (voice class)
+
+Sets the service domain name in the MLPP voice class.
+
+## service-domain (voice class)
+
+To set the service domain name in the MLPP voice class, use the service-domain command in voice class
+                              		  configuration mode. To reset to the default, use the no form of this command.
+
+service-domain { drsn | dsn }
+
+no service-domain
+
+### Syntax Description
+
+drsn
+
+Defense Red Switched Network (DRSN).
+
+dsn
+
+Defense Switched Network (DSN).
+
+### Command Default
+
+Domain name is dsn .
+
+### Command Modes
+
+Voice class configuration (config-class)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+15.0(1)XA
+
+Cisco Unified CME 8.0
+
+This command was introduced.
+
+15.1(1)T
+
+Cisco Unified CME 8.0
+
+This command was integrated into Cisco IOS Release
+                                          						15.1(1)T.
+
+### Usage Guidelines
+
+This command sets the domain name that is used for off-net MLPP
+                              		  calls.
+
+After using this command, assign the voice class to an outbound POTS
+                              		  or VoIP dial peer by using the voice-class mlpp command.
+
+## Examples
+
+The following example shows the domain name set to DSN:
+
+```
+Router(config)# voice class mlpp Router(config-class)# service-domain dsn
+```
+
+### Related Commands
+
+Command
+
+Description
+
+mlpp service-domain
+
+Sets the domain number and maximum precedence (priority)
+                                          						level for an MLPP call.
+
+service-domain
+
+Sets the global MLPP domain type and number.
+
+voice-class mlpp
+
+Assigns an MLPP voice class to a POTS or VoIP dial peer.
+
+## service-domain midcall-mismatch
+
+To define the behavior when there is a domain mismatch between the
+                              		  two legs of a call, use the service-domain midcall-mismatch command in voice MLPP configuration mode. To reset to the
+                              		  default, use the no form of this command.
+
+service-domain midcall-mismatch { method1 | method2 | method3 | method4 }
+
+no service-domain midcall-mismatch
+
+### Syntax Description
+
+method1
+
+Domain remains unchanged for each of the connections and
+                                          						the precedence level of the lower priority call changes to that of the higher
+                                          						priority call. This is the default value.
+
+method2
+
+Domain and precedence level of the lower priority call
+                                          						changes to that of the higher priority call.
+
+method3
+
+Domain remains unchanged for each of the connections and
+                                          						the precedence levels change to Routine for both calls.
+
+method4
+
+Domains change to that of the connection for which
+                                          						supplementary service was invoked (for example, transferee in case of
+                                          						transfer). Precedence levels change to Routine for both calls.
+
+### Command Default
+
+The default is method1 .
+
+### Command Modes
+
+Voice MLPP configuration (config-voice-mlpp)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+15.0(1)XA
+
+Cisco Unified CME 8.0
+
+This command was introduced.
+
+15.1(1)T
+
+Cisco Unified CME 8.0
+
+This command was integrated into Cisco IOS Release
+                                          						15.1(1)T.
+
+### Usage Guidelines
+
+This command determines the service domain and precedence level to
+                              		  apply in the case of a mismatch of these values between the two connections
+                              		  (call legs) of a call. This typically occurs when supplementary services such
+                              		  as Call Transfer or Conferencing are invoked during a call.
+
+## Examples
+
+The following example shows the domain mismatch method set to 2:
+
+```
+Router(config)# voice mlpp Router(config-voice-mlpp)# service-domain midcall-mismatch method2
+```
+
+### Related Commands
+
+Command
+
+Description
+
+mlpp service-domain
+
+Sets the domain number and maximum precedence (priority)
+                                          						level for an MLPP call.
+
+preemption trunkgroup
+
+Enables preemption capabilities on a trunk group.
+
+service-domain
+
+Sets the default MLPP domain name and number.
+
+## session-server
+
+To specify a session manager to manage and monitor Register and
+                              		  Subscribe messages during a feature-server session, use the session-server command in voice register dn
+                              		  configuration mode, voice register pool configuration mode, or ephone-dn
+                              		  configuration mode. To return to the default, use the no form of this command.
+
+session-server session-server-tag [,
+                                 				  ...session-server-tag]
+
+no session-server session-server-tag
+
+### Syntax Description
+
+session-server-tag
+
+Unique identifier of previously configured session manager
+                                          						in Cisco Unified CME. Range: 1 to 8. When configured in voice register dn
+                                          						configuration mode or in ephone-dn configuration mode, this argument can
+                                          						contain up to eight session-server-tags, separated by commas
+                                          						( , ).
+
+### Command Default
+
+Session manager is not assigned.
+
+### Command Modes
+
+Ephone-dn configuration (ephone-dn) Voice register dn configuration (voice-register-dn) Voice register pool configuration (voice-register-pool)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+12.4(11)XW2
+
+Cisco Unified CME 4.2
+
+This command was introduced.
+
+12.4(15)XY
+
+Cisco Unified CME 4.2(1)
+
+This command was introduced.
+
+12.4(15)XZ
+
+Cisco Unified CME 4.3
+
+This command was introduced.
+
+12.4(20)T
+
+Cisco Unified CME 7.0
+
+This command was integrated into Cisco IOS Release
+                                          						12.4(20)T.
+
+### Usage Guidelines
+
+Cisco Unified CME 4.2 and later versions provide a general interface
+                              		  for interoperating with external feature servers, such as the Cisco Unified CCX
+                              		  application on Cisco CRS, including call monitoring and device monitoring based
+                              		  on SIP presence and dialog event package. A session manager in Cisco Unified
+                              		  CME can manage and monitor Register and Subscribe messages.
+
+Before configuring this command, a session manager must already
+                              		  configured in Cisco Unified CME by using the voice register session-server command.
+
+Use the session-server command in voice register pool
+                              		  configuration mode to specify that Register and Subscribe messages for an
+                              		  external feature-server route point must contain a Cisco-referenceID field.
+                              		  Registration or subscription will be granted only for the specified route
+                              		  point. The route point for which Register and Subscribe messages are to be
+                              		  managed by this session manager must already be configured as a SIP endpoint in
+                              		  Cisco Unified CME. Typically, the configuration for the route point is provided
+                              		  from the feature server. If the configuration for the route point is deleted or
+                              		  must be modified, it can be reconfigured directly in Cisco Unified CME by using
+                              		  Cisco IOS commands. Each route point can be managed by only one session
+                              		  manager. Each session manager can manage multiple route points.
+
+Use the session-server command in ephone-dn
+                              		  configuration mode or in voice register dn configuration mode to specify that
+                              		  Subscribe messages for a directory number must contain a Cisco-referenceID
+                              		  field. Registration or subscription will be granted only for the specified
+                              		  directory number. The directory number for which Subscribe messages are to be
+                              		  monitored by this session manager must already be configured in Cisco Unified
+                              		  CME. Each directory number can be monitored by up to eight session managers.
+                              		  Each session manager can subscribe for multiple directory numbers.
+
+## Examples
+
+The following example shows the configuration for specifying that
+                              		  session manager 1 can control a route point (voice register pool) for an
+                              		  external feature server:
+
+```
+voice register pool 1
+ session-server 1
+```
+
+The following example shows the configuration specifying which
+                              		  session managers can monitor Register and Subscribe messages to directory
+                              		  numbers associated with Cisco Unified CCX agent phones. Notice that several
+                              		  session managers (1, 3, 5, and 7) can subscribe for both directory numbers.
+
+```
+ephone-dn 1
+ session-server 1,2,3,4,5,6,7,8
+.
+ephone-dn 2
+ session-server 1,3,5,7
+```
+
+### Related Commands
+
+Command
+
+Description
+
+voice register session-server
+
+Enters voice register session configuration mode for the
+                                          						purpose of configuring a session manager.
+
+## session-transport
+
+To specify the transport layer protocol that a SIP phone uses to
+                              		  connect to Cisco Unified CME, use the session-transport command in voice register
+                              		  pool or voice register template configuration mode. To reset to the default
+                              		  value, use the no form of this command.
+
+session-transport { tcp | udp }
+
+no session-transport
+
+### Syntax Description
+
+tcp
+
+Transmission Control Protocol (TCP) is used.
+
+udp
+
+User Datagram Protocol (UDP) is used. This is the default.
+
+### Command Default
+
+UDP is the default protocol.
+
+### Command Modes
+
+Voice register pool configuration (config-register-pool) Voice register template configuration (config-register-temp)
+
+## Command History
+
+Cisco IOS Release
+
+Cisco Product
+
+Modification
+
+12.4(11)XJ
+
+Cisco Unified CME 4.1
+
+This command was introduced.
+
+12.4(15)T
+
+Cisco Unified CME 4.1
+
+This command was integrated into Cisco IOS Release
+                                          						12.4(15)T.
+
+### Usage Guidelines
+
+This command sets the transport layer protocol parameter in the
+                              		  phone’s configuration file.
+
+If you use a voice register template to apply a to a phone and you
+                              		  also use the same command in voice register pool configuration mode for the
+                              		  same phone, the value that you set in voice register pool configuration mode
+                              		  has priority.
+
+This command is not supported on the Cisco Unified IP Phone 7905,
+                              		  7912, 7940, or 7960.
+
+## Examples
+
+The following example sets the transport layer protocol to TCP for
+                              		  SIP phone 10:
+
+```
+Router(config)# voice register pool 10 Router(config-register-pool)# session-transport tcp
+```
+
+### Related Commands
+
+Command
+
+Description
+
+create profile
+
+Generates the configuration profile files required for SIP
+                                          						phones.
+
+show sip-ua status
+
+Displays the status of SIP call service on a SIP gateway.
+
+template (voice register pool)
+
+Applies template to voice register pool being configured.
+
+| label | Name of the SAST1 trustpoint. |
+|---|---|
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 12.4(4)XC | Cisco Unified CME 4.0 | This command was introduced. |
+| 12.4(9)T | Cisco Unified CME 4.0 | This command was integrated into Cisco IOS Release
+                                          						12.4(9)T. |
+
+| Command | Description |
+|---|---|
+| sast2 trustpoint | Specifies the name of the SAST2 trustpoint. |
+
+| label | Name of the SAST2 trustpoint. |
+|---|---|
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 12.4(4)XC | Cisco Unified CME 4.0 | This command was introduced. |
+| 12.4(9)T | Cisco Unified CME 4.0 | This command was integrated into Cisco IOS Release
+                                          						12.4(9)T. |
+
+| Command | Description |
+|---|---|
+| sast1 trustpoint | Specifies the name of the SAST1 trustpoint. |
+
+| FAC | Sets the Feature Access Codes (FAC) that a participants
+                                          						enters on the keypad to switch to the lecture mode. Valid values are the
+                                          						numbers on the keypad. Maximum 3 digits |
+|---|---|
+| release FAC | Sets the Feature Access Codes (FAC) that a participants
+                                          						enters on the keypad to exit lecture mode. Valid values are the numbers on the
+                                          						keypad. Maximum 3 digits |
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 15.1(4)M | Cisco Unified CME 8.6 | This command was introduced. |
+
+| Command | Description |
+|---|---|
+| dspfarm profile | Enters DSP farm profile configuration mode and defines a
+                                          						profile for DSP farm services. |
+| sdspfarm transcode | Specifies the maximum number of transcoding sessions
+                                          						allowed per Cisco CME router. |
+| sdspfarm units | Specifies the maximum number of DSP farms that are allowed
+                                          						to be registered to the SCCP server. |
+
+| mute-on mute-on-digits | Defines the buttons you press on your phone to mute during
+                                          						a conference. Maximum: 3 digits. Valid values are the numbers and symbols that
+                                          						appear on your telephone keypad: 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, *, and #. |
+|---|---|
+| mute-off mute-off-digits | Defines the buttons you press on your IP phone to unmute
+                                          						during a conference. Maximum: 3 digits. Valid values are the numbers and
+                                          						symbols that appear on your telephone keypad: 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, *,
+                                          						and #. |
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 12.4(11)XJ2 | Cisco Unified CME 4.1 | This command was introduced. |
+| 12.4(15)T | Cisco Unified CME 4.1 | This command was integrated into Cisco IOS Release
+                                          						12.4(15)T. |
+
+| number | Numeric name for a DSP farm. Number from 1 to 10. |
+|---|---|
+| device-name | Word describing the device, such as the MAC address, of the
+                                          						SCCP client interface that is preceded by the Message Transfer Part (MTP). |
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 12.3(11)T | Cisco Unified CME 3.2 | This command was introduced. |
+| 15.1(4)M | Cisco Unified CME 8.6 | Increased support for the number of DSP farms to 10. |
+
+| Command | Description |
+|---|---|
+| sdspfarm transcode | Specifies the maximum number of transcoding sessions
+                                          						allowed per Cisco CME router. |
+| sdspfarm units | Specifies the maximum number of DSP farms that are allowed
+                                          						to be registered to the SCCP server. |
+
+| number | Declares the number of DSP farm sessions. Valid values are
+                                          						numbers from 1 to 128. |
+|---|---|
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 12.3(11)T | Cisco Unified CME 3.2 | This command was introduced. |
+
+| Command | Description |
+|---|---|
+| sdspfarm tag | Declares a DSP farm and associates it with an SCCP client
+                                          						interface’s MAC address. |
+| sdspfarm unit | Specifies the maximum number of DSP farms that are allowed
+                                          						to be registered to the SCCP server. |
+| show sdspfarm | Displays the status of the configured DSP farms and
+                                          						transcoding streams. |
+
+| number | Number of DSP farms. Valid values are numbers from 0 to 10. |
+|---|---|
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 12.3(11)T | Cisco Unified CME 3.2 | This command was introduced. |
+| 15.1(4)M | Cisco Unified CME 8.6 | Increased support for the number of DSP farms to 10. |
+
+| Command | Description |
+|---|---|
+| sdspfarm tag | Declares a DSP farm and associates it with the MAC address
+                                          						of an SCCP client interface. |
+| sdspfarm transcode | Specifies the maximum number of transcoding sessions
+                                          						allowed per Cisco CME router. |
+
+| Cisco IOS Release | Cisco product | Modification |
+|---|---|---|
+| 12.3(11)T | Cisco Unified CME 3.2 | This command was introduced. |
+
+| Command | Description |
+|---|---|
+| sdspfarm tag | Declares a DSP farm and associates it with an SCCP client
+                                          						interface’s MAC address. |
+| sdspfarm unit | Specifies the maximum number of DSP farms that are allowed
+                                          						to be registered to the SCCP server. |
+| show sdspfarm | Displays the status of the configured DSP farms and
+                                          						transcoding streams. |
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 15.1(2)T | Cisco Unified CME 8.1 | This command was introduced. |
+
+| Command | Description |
+|---|---|
+| voice service | Enters voice service configuration mode. |
+
+| current | The ephone-dn that parked this call. |
+|---|---|
+| next | The ephone-dn that follows the parking ephone-dn in the
+                                          						list specified by the list command. |
+| list-position | The ephone-dn at the specified position in the list
+                                          						specified by the list command. Range is from 1 to
+                                          						20. |
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 12.4(4)XC | Cisco Unified CME 4.0 | This command was introduced. |
+| 12.4(9)T | Cisco Unified CME 4.0 | This command was integrated into Cisco IOS Release
+                                          						12.4(9)T. |
+
+| Command | Description |
+|---|---|
+| ephone-hunt | Defines an ephone hunt group and enters ephone-hunt
+                                          						configuration mode. |
+| list | Creates a list of extensions that are members of an ephone
+                                          						hunt group |
+
+| digit-string | String
+                                          						of up to 32 numbers that defines an access prefix. |
+|---|---|
+
+| Cisco
+                                          						IOS Release | Cisco
+                                          						Product | Modification |
+|---|---|---|
+| 12.2(15)ZJ | Cisco
+                                          						CME 3.0 | This
+                                          						command was introduced. |
+| 12.3(4)T | Cisco
+                                          						CME 3.0 | This
+                                          						command was integrated into Cisco IOS Release 12.3(4)T. |
+
+| Note | The symbol # is considered to be the terminating string of a dial
+                                          			 string. Hence, it is not supported under secondary-dialtone , to avoid conflict with
+                                          			 dial-peer matching. |
+|---|---|
+
+| Command | Description |
+|---|---|
+| telephony-service | Enters
+                                          						telephony-service configuration mode. |
+
+| label | Name of a configured PKI trustpoint with a valid
+                                          						certificate. |
+|---|---|
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 12.4(4)XC | Cisco Unified CME 4.0 | This command was introduced. |
+| 12.4(9)T | Cisco Unified CME 4.0 | This command was integrated into Cisco IOS Release
+                                          						12.4(9)T. |
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 12.4(4)T | Cisco CME 3.4 | This command was introduced. |
+
+| Command | Description |
+|---|---|
+| template (voice register pool) | Applies template to SIP IP phone being configured. |
+
+| capf | CAPF server. |
+|---|---|
+| cme | Cisco Unified CME router. |
+| cme-tftp | Combined Cisco Unified CME router and TFTP server. |
+| tftp | TFTP server. |
+| ip-address | IP address of the entity. |
+| trustpoint label | Name of the PKI trustpoint for the entity. |
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 12.4(4)XC | Cisco Unified CME 4.0 | This command was introduced. |
+| 12.4(9)T | Cisco Unified CME 4.0 | This command was integrated into Cisco IOS Release
+                                          						12.4(9)T. |
+
+| Note | Repeat this command for each entity that requires a trustpoint. |
+|---|---|
+
+| ip-address | IP address of the remote presence server. |
+|---|---|
+
+| Release | Modification |
+|---|---|
+| 12.4(11)XJ | This command was introduced. |
+| 12.4(15)T | This command was integrated into Cisco IOS Release
+                                          						12.4(15)T. |
+
+| Command | Description |
+|---|---|
+| allow subscribe | Allows internal watchers to monitor external presence
+                                          						entities (directory numbers). |
+| allow watch | Allows a directory number on a phone registered to Cisco
+                                          						Unified CME to be watched in a presence service. |
+| max-subscription | Sets the maximum number of concurrent watch sessions that
+                                          						are allowed. |
+| show presence global | Displays configuration information about the presence
+                                          						service. |
+| show presence subscription | Displays information about active presence subscriptions. |
+| watcher all | Allows external watchers to monitor internal presence
+                                          						entities (directory numbers). |
+
+| erase | Deletes the certificate trust list (CTL) file. |
+|---|---|
+| non-secure | Enables nonsecure mode. |
+| secure | Secure mode. |
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 12.4(4)XC | Cisco Unified CME 4.0 | This command was introduced. |
+| 12.4(9)T | Cisco Unified CME 4.0 | This command was integrated into Cisco IOS Release
+                                          						12.4(9)T. |
+| 12.4(22)T | Cisco Unified CME 7.0 | The erase keyword was added. |
+
+| Command | Description |
+|---|---|
+| regenerate | Creates a new CTLFile.tlv file after changes are made to
+                                          						the CTL client configuration. |
+
+| gpickup | (Optional)
+                                       					 Enables phone users to perform Directed Call Pickup using the GPickUp soft key. |
+|---|---|
+
+| Cisco IOS Release | Cisco
+                                    				  Product | Modification |
+|---|---|---|
+| 12.4(4)XC | Cisco
+                                    				  Unified CME 4.0 | This command was
+                                    				  introduced. |
+| 12.4(9)T | Cisco
+                                    				  Unified CME 4.0 | This
+                                       					 command was integrated into Cisco IOS Release 12.4(9)T. |
+| 12.4(22)YB | Cisco
+                                    				  Unified CME 7.1 | The gpickup keyword and support for SIP phones was added. |
+| 12.4(24)T | Cisco
+                                    				  Unified CME 7.1 | This
+                                       					 command was integrated into Cisco IOS Release 12.4(24)T. |
+
+| Cisco IOS
+                                       				  Command Syntax SIP Phones service directed-pickup gpickup | SCCP Phones | SIP Phones |
+|---|---|---|
+| Directed
+                                       				  Call Pickup (Call on any ringing extension) | GPickUp soft key and
+                                    				extension |
+| Local Group
+                                       				  Pickup (Call in same group) | GPickUp soft key and * or
+                                    				PickUp soft key |
+| Other Group
+                                       				  Pickup (Call in different group) | GPickUp soft key and pickup
+                                    				group number |
+| service directed-pickup (default) |
+| Directed Call Pickup | PickUp soft key and extension | — |
+| Local Group Pickup | GPickUp soft key and * | GPickUp soft
+                                       				  key and * or Pickup soft key |
+| Other Group Pickup | GPickUp soft key and pickup
+                                    				group number |
+| no service directed-pickup |
+| Directed Call Pickup | — |
+| Local Group Pickup | GPickUp soft key and * or
+                                    				PickUp soft key |
+| Other Group Pickup | GPickUp soft key and pickup
+                                    				group number |
+
+| Command | Description |
+|---|---|
+| call-feature-uri | Creates a new CTLFile.tlv file after changes are made to the CTL client
+                                          						configuration. Specifies the uniform resource identifier (URI) for soft keys on
+                                          						SIP phones registered to Cisco Unified CME. |
+| features
+                                                							 blocked | Prevents one or more features from being used on SCCP phones. |
+| pickup-group | Assigns an extension to a call-pickup group. |
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 12.3(11)T | Cisco CME 3.2 | This command was introduced. |
+
+| Command | Description |
+|---|---|
+| directory entry | Adds an entry to a local phone directory that can be
+                                          						displayed on IP phones. |
+| ephone-hunt | Enters ephone-hunt configuration mode to create a hunt
+                                          						group for use in a Cisco CME system. |
+| list | Creates a list of extensions that are members of a Cisco
+                                          						CME ephone hunt group. |
+| service dnis overlay | Allows an ephone-dn name to appear on receiving IP phones’
+                                          						displays when the ephone-dn’s number is called. |
+
+| Cisco IOS Release | Cisco CME Version | Modification |
+|---|---|---|
+| 12.3(11)T | Cisco Unified CME 3.2 | This command was introduced. |
+
+| Command | Description |
+|---|---|
+| name | Associates a name with a Cisco CME extension (ephone-dn). |
+| service dnis dir-lookup | Allows directory entry lookup for the display of directory
+                                          						entry names on IP phones. |
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 12.4(6)XE | Cisco Unified CME 4.0(2) | This command was introduced. |
+| 12.4(4)XC4 | Cisco Unified CME 4.0(3) | This command was introduced. |
+| 12.4(11)T | Cisco Unified CME 4.0(3) | This command is integrated into Cisco IOS Release
+                                          						12.4(11)T. |
+
+| Command | Description |
+|---|---|
+| button | Associates ephone-dns with individual buttons on a Cisco
+                                          						Unified IP phone and to specify line type, such as monitor mode for a shared
+                                          						line. |
+| speed-dial | Defines a unique speed-dial identifier, a digit string to
+                                          						dial, and an optional label to display next to a line button. |
+
+| Release | Modification |
+|---|---|
+| 15.3(2)T | This command was introduced. |
+
+| Command | Description |
+|---|---|
+| ephone-template | Enters ephone-template configuration mode and creates an
+                                          						ephone template to configure a set of phone features. |
+
+| Release | Modification |
+|---|---|
+| 15.3(2)T | This command was introduced. |
+
+| Command | Description |
+|---|---|
+| telephony-service | Enters telephony-service configuration mode. |
+
+| Release | Modification |
+|---|---|
+| 15.3(2)T | This command was introduced. |
+
+| Command | Description |
+|---|---|
+| voice register global | Enters voice register global configuration mode and sets
+                                          						global parameters for all supported Cisco Unified SIP IP phones in a Cisco
+                                          						Unified CME or Cisco Unified SIP SRST environment. |
+
+| Release | Modification |
+|---|---|
+| 15.3(2)T | This command was introduced. |
+
+| Command | Description |
+|---|---|
+| voice register template | Enters voice register template configuration mode and
+                                          						defines a template of common parameters for SIP phones. |
+
+| authenticate | (Optional) Requires authentication for local directory search requests. |
+|---|---|
+| username | (Optional) Provides username for authentication of local
+                                          						directory server. |
+| password [0\|6] | (Optional) Provides password for authentication of local
+                                          						directory server. The 0 in the parameter [0\|6] mentioned in the CLI command represents plain, unencrypted text and 6 represents level 6 password
+                                          encryption. |
+
+| Cisco
+                                          						IOS Release | Cisco
+                                          						Product | Modifications |
+|---|---|---|
+| 12.2(11)YT | Cisco
+                                          						ITS 2.1 | This
+                                          						command was introduced. |
+| 12.2(15)T | Cisco
+                                          						ITS 2.1 | This
+                                          						command was integrated into Cisco IOS Release 12.2(15)T. |
+| 12.2(15)ZJ | Cisco
+                                          						CME 3.0 | The authenticate keyword was introduced. |
+| 12.3(4) | Cisco
+                                          						CME 3.0 | This
+                                          						command was integrated into Cisco IOS Release 12.3(4)T. |
+| Cisco
+                                          						IOS XE Everest 16.6.1 | Unified CME 12.0 | This
+                                          						command was enhanced to authenticate the username and password for accessing
+                                          						the local directory service. |
+| Cisco IOS XE Gibraltar 16.11.1a Release | Unified CME 12.6 | The command was enhanced for password encryption, based on Unified CME password policy. |
+
+| Command | Description |
+|---|---|
+| telephony - service | Enters
+                                          						telephony-service configuration mode. |
+
+| parameter-name | Name of
+                                          						the vendorConfig parameter in the configuration file. For valid parameter
+                                          						names, see the table below. Parameter names are word and case-sensitive and
+                                          						must be entered exactly as shown. |
+|---|---|
+| parameter-value | Value
+                                          						for the vendorConfig parameter. For valid values and defaults, see the table
+                                          						below. |
+
+| Cisco
+                                          						IOS Release | Cisco
+                                          						Product | Modification |
+|---|---|---|
+| 12.3(11)XL | Cisco
+                                          						CME 3.2.1 | This
+                                          						command was introduced. |
+| 12.3(14)T | Cisco
+                                          						CME 3.3 | This
+                                          						command was integrated into Cisco IOS Release 12.3(14)T. |
+| 12.4(4)XC | Cisco
+                                          						Unified CME 4.0 | This
+                                          						command was made available in ephone-template configuration mode for certain
+                                          						parameters. |
+| 12.4(9)T | Cisco
+                                          						Unified CME 4.0 | This
+                                          						command in ephone-template configuration mode was integrated into Cisco IOS
+                                          						Release 12.4(9)T. |
+| 15.1(4)M | Cisco
+                                          						Unified CME 8.6 | This
+                                          						command was modified. The xml config file argument was added. |
+| Cisco
+                                          						IOS XE Fuji 16.9.1 | Unified CME 12.3 | This
+                                          						command service phone lineMode
+                                                							 1 introduces support for Enhanced Line Mode (ELM) for Cisco IP
+                                          						Phone 8800 Series on Unified CME. |
+
+| Note | The parameters for the service phone CLI command are case
+                                          			 sensitive. For example, the command to configure ELM for Cisco IP Phone Series
+                                          			 8800 must be service phone lineMode 1 . If the command
+                                          			 input is service phone LineMode 1 , service phone linemode 1 , and so on, ELM is
+                                          			 not configured. |
+|---|---|
+
+| Note | Parameter
+                                       		  names are word and case-sensitive and must be typed exactly as shown. |
+|---|---|
+
+| Parameter Name and Value | Description |
+|---|---|
+| actionableAlert { 0 \| 1} | Replaces the traditional incoming call pop-up notification with an alert that you must respond to. 0 —Disabled. 1 —Enabled (default). |
+| adminPassword password | (For
+                                          					 the Cisco Unified IP Phone 7921G only) Creates a password for accessing the web
+                                          					 interface on a phone. passwor d—String of up to 32 characters. |
+| autoSelectLineEnable { 0 \| 1} | Enables
+                                          					 and disables auto line selection. 0 —Disabled. 1 —Enabled
+                                             						(default). |
+| backlightIdleTimeout HH : MM | Sets
+                                          					 the length of time in hours and minutes after which the backlighting of the IP
+                                          					 phone displays will switch off again once the phone is inactive. This parameter is
+                                             						applicable only on the days specified using the daysBacklightNotActive parameter. This parameter does not
+                                             						affect the display during the period of time specified using the backlightOnDuration parameter. Hour ( HH ) and
+                                             						minute ( MM ). You
+                                             						must enter all four characters. For example, 9:05 a.m. must be entered as
+                                             						09:05. Default is one hour (01:00). |
+| backlightOnDuration HH : MM | Sets
+                                          					 the length of time in hours and minutes for which IP phone displays will be
+                                          					 backlit. This parameter does not
+                                             						affect the display on the days specified using the daysBacklightNotActive parameter. Hour ( HH ) and
+                                             						minute ( MM ). You
+                                             						must enter all four characters. For example, 9:05 a.m. must be entered as
+                                             						09:05. Default is 10 hours (10:00). |
+| backlightOnTime HH : MM | Sets
+                                          					 the time of day at which backlighting of the IP phone displays is switched on,
+                                          					 using a 24-hour time format. This parameter does not
+                                             						affect the display on the days specified using the daysBacklightNotActive parameter. Hour ( HH ) and
+                                             						minute ( MM ). You
+                                             						must enter all four characters. For example, 9:05 a.m. must be entered as
+                                             						09:05. Default is 07:30. |
+| daysBacklightNotActive number [ , number ...] | Sets
+                                          					 the days of the week on which backlighting of the IP phone displays is switched
+                                          					 off unless there is user interaction with the IP phone. number —Represents the days of the week
+                                             						numerically, starting with Sunday (1) and ending with Saturday (7). Each number
+                                             						must be separated with a comma, without spaces: daysBacklightNotActive 1,2,3 . Default is no
+                                             						backlighting on Sun (1) and Sat (7). |
+| daysDisplayNotActive number [ , number ...] | Sets
+                                          					 the days of the week on which IP phone displays will be blank. number —Represents the days of the week
+                                             						numerically, starting with Sunday (1) and ending with Saturday (7). Each number
+                                             						must be separated with a comma, without spaces: daysDisplayNotActive 1,2,3 Default is an inactive display on Sun
+                                             						(1) and Sat (7). To disable this parameter so that IP
+                                             						phone displays are always active, configure this parameter in telephony-service
+                                             						configuration mode using a space plus a comma ( ,): daysDisplayNotActive , for the parameter-value . Note This
+                                                   					 parameter is not supported in ephone-template configuration mode. | Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+| Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+| displayIdleTimeout HH : MM | Sets
+                                          					 the length of time in hours and minutes for which IP phone displays will remain
+                                          					 active, starting from the last time that the phone was used. Hour ( HH ) and
+                                             						minute ( MM ). You
+                                             						must enter all four characters. For example, 9:05 a.m. must be entered as
+                                             						09:05. Default is one hour (01:00). Note This
+                                                   					 parameter is not supported in ephone-template configuration mode. | Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+| Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+| displayOnDuration HH : MM | Sets
+                                          					 the length of time in hours and minutes for which IP phone displays will be
+                                          					 active. Hour
+                                             						( HH ) and
+                                             						minute ( MM ). You
+                                             						must enter all four characters. For example, 9:05 a.m. must be entered as
+                                             						09:05. Default is 10 hours (10:00). Note This
+                                                   					 parameter is not supported in ephone-template configuration mode. | Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+| Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+| displayOnTime HH : MM | Sets
+                                          					 the time of day at which IP phone displays are activated, using a 24-hour time
+                                          					 format. Hour
+                                             						( HH ) and
+                                             						minute ( MM ). You
+                                             						must enter all four characters. For example, 9:05 a.m. must be entered as
+                                             						09:05. Default is 07:30. Note This
+                                                   					 parameter is not supported in ephone-template configuration mode. | Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+| Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+| displayOnWhenIncomingCall { 0 \| 1 } | Enables
+                                          					 and disables an IP phone display to be activated when an incoming call is
+                                          					 received (Line state is Ring in). The display will switch off again once the
+                                          					 ringing stops if the user has not touched the phone and if the phone display is
+                                          					 supposed to be off. 0 —Disabled
+                                             						(default). 1 —Enabled. Note This
+                                                   					 parameter is not supported in ephone-template configuration mode. | Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+| Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+| disableSpeaker { true \| false } | Enables
+                                          					 and disables the speakerphone. true —Disabled. false —Enabled (default). |
+| disableSpeakerAndHeadset { true \| false } | Enables
+                                          					 and disables the speakerphone and headset. true —Disabled. false —Enabled (default). |
+| enableGroupListen { true \| false } | (For
+                                          					 Cisco Unified IP Phone 7906 and 7911 only) Enables and disables Group Listen
+                                          					 mode in which the handset and speaker are both active to allow multiple
+                                          					 listeners to hear the conversation over the speaker while one user talks on the
+                                          					 handset. true —Enabled. false —Disabled (default). Note To
+                                                   					 support Group Listen, the speaker and headset must be enabled. See the diasableSpeakerandHeadset parameter for this
+                                                   					 command. | Note | To
+                                                   					 support Group Listen, the speaker and headset must be enabled. See the diasableSpeakerandHeadset parameter for this
+                                                   					 command. |
+| Note | To
+                                                   					 support Group Listen, the speaker and headset must be enabled. See the diasableSpeakerandHeadset parameter for this
+                                                   					 command. |
+| forwardingDelay { 0 \| 1 } | Enables
+                                          					 and disables the activation of the IP phone’s PC Ethernet switch port when the
+                                          					 IP phone boots to prevent Ethernet traffic from interfering with the bootup
+                                          					 process. 0 —Disabled. 1 —Enabled
+                                             						(default). |
+| garp { 0 \| 1 } | Enables
+                                          					 and disables IP phone response to gratuitous Address Resolution Protocol (ARP)
+                                          					 messages from the IP phone’s Ethernet interface. 0 —Disabled. 1 —Enabled
+                                             						(default). |
+| g722CodecSupport { 0 \| 1 \| 2 } | Enables
+                                          					 and disables the registration of the G.722 codec on the IP phone. 0 —Phone
+                                             						default (default), equal to disabled or enabled and set by manufacturer. 1 —Disabled.
+                                             						Disables G.722-64K2 codec on phone. 2 —Enabled.
+                                             						Enables G.722-64K codec on phone. |
+| handsetWidebandEnable { 0 \| 1 \| 2 } | Enables
+                                          					 or disables wideband handset option on supported IP phones. If
+                                             						the handsetWidebandUIControl parameter is set to
+                                             						Enable (1), the option set in the phone UI, by the phone user, has priority
+                                             						over the value set for this parameter. 0 —Phone
+                                             						default (default), equal to disabled or enabled and set by manufacturer. 1 —Enabled.
+                                             						Enables wideband handset on phone. 2 —Disabled.
+                                             						Disables wideband headset on phone. Wideband handset should only be used on supported IP phones with firmware
+                                             						version 8.3 or a later version. |
+| handsetWidebandUIControl { 0 \| 1 } | Enables
+                                          					 or disables control of handset options by phone user. 0 —Enabled
+                                             						(default). Allows phone user to select either narrowband or wideband handset in
+                                             						the phone UI. 1 —Disabled. |
+| headsetWidebandEnable { 0 \| 1 } | Enables
+                                          					 or disables wideband headset option on supported IP phones. If
+                                             						the headsetWidebandUIControl parameter is set to
+                                             						Enable (0), the option set in the phone UI, by the phone user, has priority
+                                             						over the value set for this parameter. 0 —Enabled
+                                             						(default). Enables wideband headset on phone. 1 —Disabled.
+                                             						Disables wideband headset on phone. Wideband handset should only be used on supported IP phones with firmware
+                                             						version 8.3 or a later version. |
+| headsetWidebandUIControl { 0 \| 1 } | Enables
+                                          					 or disables control of headset option by phone user. 0 —Enabled
+                                             						(default). Allows phone user to select either narrowband or wideband headset 1 —Disabled. |
+| homeScreen { 0 \| 1 } | (For
+                                          					 Cisco Unified Wireless Phone 7921G only) Specifies view to be displayed on
+                                          					 phone home screen. 0 —Display
+                                             						main phone screen (default). 1 —Display
+                                             						line view. Implemented only on supported IP phones with firmware version 1.2.1 or a later
+                                             						version. |
+| LineKeyBarge { 0 \| 2 } | Activates the Line keys on the phones so that it displays the remote-in-use state softkeys correctly, and supports Barge functionality
+                                          on Cisco IP Phone 7800 Series phones. The command is disabled by default. 0 —Enables cBarge. 2 —Enabales Barge. no service phone LineKeyBarge —Disables Line Keys, so that the 7800 series IP phones will not display the remote-in-use state softkeys. . Note If the remote-in-use state softkey configuration has both Barge and cBarge configured, then cBarge is taken as the preferential
+                                                      feature. The phones will ignore the Barge configuration. | Note | If the remote-in-use state softkey configuration has both Barge and cBarge configured, then cBarge is taken as the preferential
+                                                      feature. The phones will ignore the Barge configuration. |
+| Note | If the remote-in-use state softkey configuration has both Barge and cBarge configured, then cBarge is taken as the preferential
+                                                      feature. The phones will ignore the Barge configuration. |
+| lineMode { 1 } | (For
+                                          					 Cisco IP Phone 8800 Series only) Enables Enhanced Line Mode (ELM) for Unified
+                                          					 CME. The no form of the command disables the ELM functionality. By default, ELM
+                                          					 is disabled for Unified CME. no service phone
+                                                   							 lineMode —Disables Enhanced Line Mode (default). service phone lineMode
+                                                   							 1 —Enables Enhanced Line Mode. |
+| loadServer [ hostname \| IPaddress ] | (For
+                                          					 the Cisco Unified IP Phone 7921G only) Directs the IP phone to use an
+                                          					 alternative TFTP server such as a local server to obtain firmware loads and
+                                          					 upgrades. Using this parameter can help to reduce installation time,
+                                          					 particularly for upgrades over a WAN. The specified server must be running TFTP
+                                          					 services and have the firmware file in the TFTP path. Note If
+                                                   					 the firmware file is not found, the firmware will not install. The phone will
+                                                   					 not be redirected to the TFTP server specified by the option 150 ip command. hostname —Name of the server from which the IP
+                                             						phone must retrieve phone firmware. Maximum length: 256 characters. IPaddress —IP address of server from which the IP
+                                             						phone must retrieve phone firmware. To
+                                             						disable this command and redirect the phone to use the TFTP server specified by
+                                             						the option 150 ip command to obtain its load files and upgrades, use
+                                             						this parameter name without the hostname or IPaddress argument. | Note | If
+                                                   					 the firmware file is not found, the firmware will not install. The phone will
+                                                   					 not be redirected to the TFTP server specified by the option 150 ip command. |
+| Note | If
+                                                   					 the firmware file is not found, the firmware will not install. The phone will
+                                                   					 not be redirected to the TFTP server specified by the option 150 ip command. |
+| pcPort { 0 \| 1 } | Enables
+                                          					 and disables the Ethernet switch port on the phone so the IP phone can have
+                                          					 access to an Ethernet connection for a PC connection through the phone. 0 —Enabled
+                                             						(default). 1 —Disabled. |
+| PushToTalkURL url | (For
+                                          					 the Cisco Unified IP Phone 7921G only) Provisions the URL to be contacted for
+                                          					 application services such as Push-To-Talk services. url —URL as
+                                             						defined in RFC 2396. Maximum length is 256 characters. |
+| settingsAccess { 0 \| 1 \| 2 } | Enables
+                                          					 and disables the Settings button on an IP phone. 0 —Disabled. 1 —Enabled
+                                             						(default). The phone user can modify features by using the Settings menu. 2 —Restricted. The phone user is allowed to access
+                                             						User Preferences and volume settings only. |
+| spanToPCPort { 0 \| 1 } | Enables
+                                          					 and disables the path between the Ethernet switch port of an IP phone and a
+                                          					 connection to a PC. 0 —Enabled
+                                             						(default). 1 —Disabled. Note The
+                                                   					 path must be disabled to support Desktop Monitoring and Recording in a Cisco
+                                                   					 UCCX/Cisco Unified CME integration. | Note | The
+                                                   					 path must be disabled to support Desktop Monitoring and Recording in a Cisco
+                                                   					 UCCX/Cisco Unified CME integration. |
+| Note | The
+                                                   					 path must be disabled to support Desktop Monitoring and Recording in a Cisco
+                                                   					 UCCX/Cisco Unified CME integration. |
+| specialNumbers number [ , number ...] | (For
+                                          					 the Cisco Unified IP Phone 7921G only) Identifies a number that can be dialed
+                                          					 on a phone regardless of whether the phone is locked or unlocked. For example,
+                                          					 in the United States, the 911 emergency number is a good special number
+                                          					 candidate to be dialed without unlocking the phone. number —Numerical string. Maximum length: 16
+                                             						characters. To
+                                             						identify more than one special number, separate the numbers with a comma
+                                             						( , ). Do not
+                                             						include spaces between numbers. The
+                                             						following example shows how to configure 411, 511, and 911 as special numbers: Router(config)# telephony-service Router(config telephony-service)# service phone specialNumbers 411,511,911 |
+| sshAccess { 0 \| 1 } | Enables
+                                          					 and disables SSH access. 0 —Enabled
+                                             						(default). 1 —Disabled. |
+| thumbButton1 PTTH button_number | (For
+                                          					 Cisco Unified Wireless IP Phone 7921 and 7925) Associates thumb button on Cisco
+                                          					 wireless IP phone with a phone button for one-way Push-To-Talk (PTT)
+                                          					 functionality in Cisco Unified CME without requiring an external server. button_number —Button on phone that is configured
+                                             						with an intercom dn that targets a paging number when user presses the thumb
+                                             						button. Range is 1 to 6. The PTTH button_number keyword/argument combination is a
+                                             						contiguous character string and cannot contain spaces. Implemented on supported phones with firmware version 1.0.4 or a later version. |
+| videoCapability { 0 \| 1 } | Enables
+                                          					 and disables video capability for all applicable IP phones associated with a
+                                          					 Cisco Unified CME router. 0—Disabled (default). 1—Enabled. After using this parameter to enable video at a system level, you must
+                                             						configure the video command in ephone configuration mode for each video-capable phone. Note This
+                                                   					 parameter is not supported in ephone-template configuration mode. | Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+| Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+| voiceVlanAccess { 0 \| 1 } | Enables
+                                          					 and disables spanning, which is the IP phone’s access to the voice VLAN of the
+                                          					 PC to which the IP phone’s Ethernet port is connected. 0 —Enabled
+                                             						(default). 1 —Disabled. Note For
+                                                   					 Cisco Unified IP Phone 7985, the default is Disabled ( 1 ). | Note | For
+                                                   					 Cisco Unified IP Phone 7985, the default is Disabled ( 1 ). |
+| Note | For
+                                                   					 Cisco Unified IP Phone 7985, the default is Disabled ( 1 ). |
+| webAccess { 0 \| 1 \| 2 } | Enables
+                                          					 and disables web access that allows phone users to configure settings and
+                                          					 features on User Option web pages. 0 —Enabled
+                                             						(default). 1 —Disabled. 2 —Read
+                                             						Only. For the Cisco Unified IP Phone 7921G only. The phone user can view only
+                                             						User Option web pages and cannot modify settings and features on the pages. Note For
+                                                   					 the Cisco Unified IP Phone 7921G, the default is Read Only ( 2 ). | Note | For
+                                                   					 the Cisco Unified IP Phone 7921G, the default is Read Only ( 2 ). |
+| Note | For
+                                                   					 the Cisco Unified IP Phone 7921G, the default is Read Only ( 2 ). |
+| WLanProfile tag { 0 \| 1 } | (For
+                                          					 Cisco Unified IP Phone 7921G only) Locks or unlocks a specific profile. tag — Unique
+                                             						number assigned to profile. Range is 1 to 4. 0 —Locked
+                                             						(default). 1 —Unlocked.
+                                             						User can modify a profile. Repeat this command for each profile to be locked or unlocked. |
+
+| Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+|---|---|
+
+| Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+|---|---|
+
+| Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+|---|---|
+
+| Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+|---|---|
+
+| Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+|---|---|
+
+| Note | To
+                                                   					 support Group Listen, the speaker and headset must be enabled. See the diasableSpeakerandHeadset parameter for this
+                                                   					 command. |
+|---|---|
+
+| Note | If the remote-in-use state softkey configuration has both Barge and cBarge configured, then cBarge is taken as the preferential
+                                                      feature. The phones will ignore the Barge configuration. |
+|---|---|
+
+| Note | If
+                                                   					 the firmware file is not found, the firmware will not install. The phone will
+                                                   					 not be redirected to the TFTP server specified by the option 150 ip command. |
+|---|---|
+
+| Note | The
+                                                   					 path must be disabled to support Desktop Monitoring and Recording in a Cisco
+                                                   					 UCCX/Cisco Unified CME integration. |
+|---|---|
+
+| Note | This
+                                                   					 parameter is not supported in ephone-template configuration mode. |
+|---|---|
+
+| Note | For
+                                                   					 Cisco Unified IP Phone 7985, the default is Disabled ( 1 ). |
+|---|---|
+
+| Note | For
+                                                   					 the Cisco Unified IP Phone 7921G, the default is Read Only ( 2 ). |
+|---|---|
+
+| Command | Description |
+|---|---|
+| cnf-file | Specifies that separate configuration files be generated for individual SCCP
+                                          						phones or types of SCCP phones. |
+| create cnf-files | Builds XML configuration files that set IP phone displays and functionality. |
+| create profile | Generates configuration profile files required for SIP phones |
+| ephone-template (ephone) | Applies a template to the ephone being configured. |
+| reset (telephony-service) | Performs a complete reboot of one or all phones associated with a Cisco Unified
+                                          						CME router. |
+| show telephony-service tftp-binding | Displays the current configuration files accessible to IP phones. |
+| show voice register tftp-bind | Displays the current configuration files accessible to IP phones. |
+| video (ephone) | Enables video capabilities on specified phones. |
+
+| phonePassword password | Enters the phone password. |
+|---|---|
+| callLogBlfEnabled | Enables the call log. |
+| backgroundImageAccess false | Disables the background image access. |
+
+| Release | Modification |
+|---|---|
+| 15.2(2)T2 | This command was introduced. |
+
+| Command | Description |
+|---|---|
+| telephony-service | Enters telephony-service configuration mode. |
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 15.0(1)XA | Cisco Unified CME 8.0 | This command was introduced. |
+| 15.1(1)T | Cisco Unified CME 8.0 | This command was integrated into Cisco IOS Release
+                                          						15.1(1)T. |
+
+| Command | Description |
+|---|---|
+| access-digit | Defines the access digit that phone users dial to request a
+                                          						precedence call. |
+| mlpp preemption | Enables preemption capability on an SCCP phone or analog
+                                          						FXS port. |
+
+| no service-enable | Temporarily disables the auto registration process, but retains the password
+                                          						and DN range configurations. Once auto-register command is entered, the service
+                                          						is enabled by default. |
+|---|---|
+
+| Cisco
+                                          						IOS Release | Cisco
+                                          						Product | Modification |
+|---|---|---|
+| 15.6(3)M 16.3.1 | Cisco
+                                          						Unified CME 11.5 | This
+                                          						command was introduced. |
+
+| Command | Description |
+|---|---|
+| auto-register | Enables
+                                          						automatic registration of SIP phones with the Cisco Unified CME system. |
+| password (auto-register) | Configures the mandatory password that administrator sets for
+                                          						auto registration of SIP phones on Unified CME. |
+| auto-assign (auto-register) | Configures the mandatory range of directory numbers for phones
+                                          						auto registering on Unified CME. |
+| template (auto-register) | Creates
+                                          						a basic configuration template that supports all the configurations available
+                                          						on the voice register template. |
+| auto-reg-ephone | Enables automatic registration of ephones with the Cisco Unified CME system. |
+
+| drsn | Defense Red Switched Network (DRSN). |
+|---|---|
+| dsn | Defense Switched Network (DSN). This is the default value. |
+| domain-number | Number to identify the global domain, in three-octet
+                                          						format. Range: 0x000000 to 0xFFFFFF. Default: 0. |
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 15.0(1)XA | Cisco Unified CME 8.0 | This command was introduced. |
+| 15.1(1)T | Cisco Unified CME 8.0 | This command was integrated into Cisco IOS Release
+                                          						15.1(1)T. |
+
+| Command | Description |
+|---|---|
+| mlpp service-domain | Sets the service domain and maximum precedence (priority)
+                                          						level for MLPP calls. |
+| preemption trunkgroup | Enables preemption capabilities on a trunk group. |
+| service-domain (voice class) | Sets the service domain name in the MLPP voice class. |
+
+| drsn | Defense Red Switched Network (DRSN). |
+|---|---|
+| dsn | Defense Switched Network (DSN). |
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 15.0(1)XA | Cisco Unified CME 8.0 | This command was introduced. |
+| 15.1(1)T | Cisco Unified CME 8.0 | This command was integrated into Cisco IOS Release
+                                          						15.1(1)T. |
+
+| Command | Description |
+|---|---|
+| mlpp service-domain | Sets the domain number and maximum precedence (priority)
+                                          						level for an MLPP call. |
+| service-domain | Sets the global MLPP domain type and number. |
+| voice-class mlpp | Assigns an MLPP voice class to a POTS or VoIP dial peer. |
+
+| method1 | Domain remains unchanged for each of the connections and
+                                          						the precedence level of the lower priority call changes to that of the higher
+                                          						priority call. This is the default value. |
+|---|---|
+| method2 | Domain and precedence level of the lower priority call
+                                          						changes to that of the higher priority call. |
+| method3 | Domain remains unchanged for each of the connections and
+                                          						the precedence levels change to Routine for both calls. |
+| method4 | Domains change to that of the connection for which
+                                          						supplementary service was invoked (for example, transferee in case of
+                                          						transfer). Precedence levels change to Routine for both calls. |
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 15.0(1)XA | Cisco Unified CME 8.0 | This command was introduced. |
+| 15.1(1)T | Cisco Unified CME 8.0 | This command was integrated into Cisco IOS Release
+                                          						15.1(1)T. |
+
+| Command | Description |
+|---|---|
+| mlpp service-domain | Sets the domain number and maximum precedence (priority)
+                                          						level for an MLPP call. |
+| preemption trunkgroup | Enables preemption capabilities on a trunk group. |
+| service-domain | Sets the default MLPP domain name and number. |
+
+| session-server-tag | Unique identifier of previously configured session manager
+                                          						in Cisco Unified CME. Range: 1 to 8. When configured in voice register dn
+                                          						configuration mode or in ephone-dn configuration mode, this argument can
+                                          						contain up to eight session-server-tags, separated by commas
+                                          						( , ). |
+|---|---|
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 12.4(11)XW2 | Cisco Unified CME 4.2 | This command was introduced. |
+| 12.4(15)XY | Cisco Unified CME 4.2(1) | This command was introduced. |
+| 12.4(15)XZ | Cisco Unified CME 4.3 | This command was introduced. |
+| 12.4(20)T | Cisco Unified CME 7.0 | This command was integrated into Cisco IOS Release
+                                          						12.4(20)T. |
+
+| Command | Description |
+|---|---|
+| voice register session-server | Enters voice register session configuration mode for the
+                                          						purpose of configuring a session manager. |
+
+| tcp | Transmission Control Protocol (TCP) is used. |
+|---|---|
+| udp | User Datagram Protocol (UDP) is used. This is the default. |
+
+| Cisco IOS Release | Cisco Product | Modification |
+|---|---|---|
+| 12.4(11)XJ | Cisco Unified CME 4.1 | This command was introduced. |
+| 12.4(15)T | Cisco Unified CME 4.1 | This command was integrated into Cisco IOS Release
+                                          						12.4(15)T. |
+
+| Note | Although this command is not supported for the Cisco Unified IP
+                                       		  Phone 7905, 7912, 7940, or 7960, it can be used to assign TCP as the session
+                                       		  transport type for these phones. If TCP is selected for an unsupported phone
+                                       		  using this command, calls to that phone will not complete successfully. The
+                                       		  phone can originate calls but it uses UDP, although TCP has been assigned. |
+|---|---|
+
+| Command | Description |
+|---|---|
+| create profile | Generates the configuration profile files required for SIP
+                                          						phones. |
+| show sip-ua status | Displays the status of SIP call service on a SIP gateway. |
+| template (voice register pool) | Applies template to voice register pool being configured. |
