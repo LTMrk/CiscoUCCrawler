@@ -1,39 +1,13 @@
 {
-  "run_at": "2026-08-21T15:04:36.783009+00:00",
+  "run_at": "2026-08-21T15:07:13.174728+00:00",
   "modo": "incremental",
-  "added": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-05d5f89faa",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-1a2d417e92",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-239b7b496d",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-339d5bb519",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-4b12749850",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-562d4cdd38",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-59e6705a76",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-5ffe0bb2f2",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-7146bb636f",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-7ea75dde04",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-96f697df96",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-a445702998",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-af6a6dde93",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-b8063c676c",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-c00ce85f6c",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-c419647c37",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-cc098dc96f",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-cc36f7e032",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-dbbd6c793a",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-def6b14577",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-e3bcce026e",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-ed529e73e8",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-f0af50378e",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-f133e98096",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-f44b46eeb8"
-  ],
+  "added": [],
   "modified": [],
   "removed": [],
   "blocked": [
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwk75221-1d33deeeaf",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwm85123-3f29b0e381",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwn81862-a64db089d7"
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvx66288-bf078ff9d2",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvy50277-12199e04a6",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvy52346-b0c3cf610e"
   ],
-  "unchanged_count": 9
+  "unchanged_count": 0
 }
