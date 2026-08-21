@@ -12435,10 +12435,10 @@
       "first_seen": "2026-08-16T23:07:49.215483+00:00",
       "last_changed": "2026-08-16T23:07:49.215483+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:12:42.692644+00:00",
-      "next_check": "2026-08-21T00:12:42.692644+00:00",
+      "last_seen": "2026-08-21T20:31:38.889965+00:00",
+      "next_check": "2026-08-25T20:31:38.889965+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/212133-In-Depth-Analysis-of-Ringback-for-all-Vo.html": {
       "content_sha": "2c7d34c3d8b3bed9130f7555da5fb68402d0aa9ac8680c6408d343371ae0361b",
@@ -148522,5 +148522,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T20:28:58.802909+00:00"
+  "updated_at": "2026-08-21T20:31:38.958669+00:00"
 }
