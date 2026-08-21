@@ -53214,6 +53214,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/userguide/cs78_b_conference_7832-mpp-ug/cs78_b_conference_7832-mpp-ug_chapter_00.html": {
+      "content_sha": "e77356b3cc507b7317eb1d6d292a209da62c918cf2650e50c7fa7f6f0f8f3a58",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-userguide-cs78-b-conference-7832-mpp-ug-cs78-b-confe-098560c557",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:27:09.102680+00:00",
+      "last_changed": "2026-08-21T02:27:09.102680+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:27:09.102680+00:00",
+      "next_check": "2026-08-22T02:27:09.102680+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/firmware/12-0-6/cs78_b_7832mpp-rn-1206.html": {
       "content_sha": "0ea19657677ee1be6049486744ddee018fade8ef0753e9c8fced663cff9363e0",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-firmware-12-0-6-cs78-b-7832mpp-rn-1206-html-6d0f53b81b",
@@ -86124,5 +86137,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T02:24:11.719910+00:00"
+  "updated_at": "2026-08-21T02:27:09.169289+00:00"
 }
