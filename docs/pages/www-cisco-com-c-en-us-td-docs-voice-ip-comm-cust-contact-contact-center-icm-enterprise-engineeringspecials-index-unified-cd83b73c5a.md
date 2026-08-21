@@ -1,0 +1,825 @@
+---
+doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-engineeringspecials-index-unified-cd83b73c5a
+source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/EngineeringSpecials/index/Unified-CCE-Engineering-Specials-for-Release-12-0.html
+retrieved_at: 2026-08-21T03:13:03.335715+00:00
+---
+
+Cisco Unified Contact Center Enterprise Engineering Specials (ES) Information
+
+# Cisco Unified Contact Center Enterprise Engineering Specials (ES) Information
+
+Updated: February 29, 2024
+
+Chapter: Unified Contact Center Enterprise Engineering Specials (ES) for Release 12.0
+
+## Chapter: Unified Contact Center Enterprise Engineering Specials (ES) for Release 12.0
+
+Run the mandatory update before applying any ES, if you have a fresh install or Technology Refresh upgrade planned for Unified CCE or PCCE 12.0(1) on the Windows Server 2016. You can download CCE 12.0 Mandatory update for Fresh Install/Tech Refresh from https://software.cisco.com/download/home/268439622/type/280840583/release/12.0(1) .
+
+Run the mandatory ES18 for inline OS upgrade. For details on how to upgrade, See Windows Server and SQL Server Upgrade .
+
+ES37 is a mandatory Engineering Special patch, applicable only for Packaged CCE deployments in 12.0(1) if CVPs are upgraded to 12.5(1). Installing this patch for non-PCCE deployments is not supported.1
+
+ES
+
+Component
+
+Defects resolved
+
+Release Note
+
+ES26
+
+Router, AW/HDS/DDS
+
+CSCvn99825 , CSCvo46854 , CSCvo78127 , CSCvp03348 , CSCvp11040 ,
+
+CSCvp18469 , CSCvp28792 , CSCvp37092 , CSCvp47032 , CSCvp47242 ,
+
+CSCvp57531 , CSCvp58853 , CSCvp59306 , CSCvp60962 , CSCvp64750 ,
+
+CSCvp76696 , CSCvp89228 , CSCvq12348 , CSCvn77418 , CSCvn77421 ,
+
+CSCvn78159 , CSCvn78163 , CSCvn79565 , CSCvn82112 , CSCvn92277 ,
+
+CSCvo15059 , CSCvo28848 , CSCvo45192 , CSCvo59157 , CSCvo61931 ,
+
+CSCvo66492 , CSCvo85717 , CSCvo98128 , CSCvp11036 , CSCvp20793 ,
+
+CSCvp38942 , CSCvp47136 , CSCvp86341 , CSCvn71946 , CSCvn78580 ,
+
+CSCvo35666 , CSCvo61941 , CSCvo94307 , CSCvp28327 , CSCvq14472 ,
+
+CSCvp12852 , CSCvp36907 , CSCvp19303 , CSCvp34995 , CSCvq27248 ,
+
+CSCvp20817 , CSCvp2111 , CSCvq07040 , CSCvp92559 , CSCvq88066 ,
+
+CSCvo71587
+
+Notes
+
+ES27
+
+VRU PG
+
+CSCvn75302
+
+Notes
+
+ES30
+
+Agent PG
+
+CSCvp13531
+
+Notes
+
+ES33
+
+Dialer, Logger
+
+Notes
+
+ES34
+
+AW, Router, Logger, PG
+
+CSCvp23552 , CSCvq54170 , CSCvp21111 , CSCvq13988 , CSCvp28803 ,
+
+CSCvq44602 , CSCvq06932 , CSCvq63352 , CSCvq67966 , CSCvp98528 ,
+
+CSCvp36895 , CSCvq64857 , CSCvp48927 , CSCvq32445 , CSCvq01988 ,
+
+CSCvq00400 , CSCvp93416 , CSCvq47995 , CSCvr90903 , CSCvo91661 ,
+
+CSCvq85125 , CSCvq33281 , CSCvp66880 , CSCvp48558 , CSCvp37039 ,
+
+CSCvq46558 , CSCvq33205 , CSCvq45077 , CSCvq62990 , CSCvq35784 ,
+
+CSCvq03677 , CSCvq27469 , CSCvp36973 , CSCvp83276 , CSCvq12588 ,
+
+CSCvp86346 , CSCvp98507 , CSCvp68561 , CSCvp89228, CSCvp20793 ,
+
+CSCvp11040 , CSCvo28848 , CSCvq27248 , CSCvo45192 , CSCvp92559 ,
+
+CSCvn78163 , CSCvo61931 , CSCvp59306 , CSCvp36907 , CSCvo35666 ,
+
+CSCvp64750 , CSCvp57531 , CSCvp86341 , CSCvn78580 , CSCvo85717 ,
+
+CSCvn77421 , CSCvo61941 , CSCvp28327 , CSCvp28792 , CSCvp20817 ,
+
+CSCvp47136 , CSCvp11036 , CSCvp58853 , CSCvp03348 , CSCvo94307 ,
+
+CSCvn99825 , CSCvn77418 , CSCvq14472 , CSCvo46854 , CSCvp37092 ,
+
+CSCvo15059 , CSCvp76696 , CSCvp60962 , CSCvn71946 , CSCvp19303 ,
+
+CSCvp47032 , CSCvn82112 , CSCvn78159 , CSCvp38942 , CSCvp34995 ,
+
+CSCvo66492 , CSCvn92277 , CSCvo98128 , CSCvp47242 , CSCvo78127 ,
+
+CSCvq88066 , CSCvq07040 , CSCvp12852 , CSCvp18469 , CSCvo59157 ,
+
+CSCvo71587 , CSCvn79565 , CSCvq12348
+
+Notes
+
+ES37
+
+Router, Logger, PG, AW/HDS/DDS
+
+CSCvp30895 , CSCvs12341 , CSCvs25265 , CSCvs40373 , CSCvs41895 ,
+
+CSCvr72636 , CSCvp32924 , CSCvp23552 , CSCvq54170 , CSCvp21111 ,
+
+CSCvq13988 , CSCvp28803 , CSCvq44602 , CSCvq06932 , CSCvq63352 ,
+
+CSCvq67966 , CSCvp98528 , CSCvp36895 , CSCvq64857 , CSCvp48927 ,
+
+CSCvq32445 , CSCvq01988 , CSCvq00400 , CSCvp93416 , CSCvq47995 ,
+
+CSCvr90903 , CSCvo91661 , CSCvq85125 , CSCvq33281 , CSCvp66880 ,
+
+CSCvp48558 , CSCvp37039 , CSCvq46558 , CSCvq33205 , CSCvq45077 ,
+
+CSCvq62990 , CSCvq35784 , CSCvq03677 , CSCvq27469 , CSCvp36973 ,
+
+CSCvp83276 , CSCvq12588 , CSCvp86346 , CSCvp98507 , CSCvp68561 ,
+
+CSCvp89228, CSCvp20793 , CSCvp11040 , CSCvo28848 , CSCvq27248 ,
+
+CSCvo45192 , CSCvp92559 , CSCvn78163 , CSCvo61931 , CSCvp59306 ,
+
+CSCvp36907 , CSCvo35666 , CSCvp64750 , CSCvp57531 , CSCvp86341 ,
+
+CSCvn78580 , CSCvo85717 , CSCvn77421 , CSCvo61941 , CSCvp28327 ,
+
+CSCvp28792 , CSCvp20817 , CSCvp47136 , CSCvp11036 , CSCvp58853 ,
+
+CSCvp03348 , CSCvo94307 , CSCvn99825 , CSCvn77418 , CSCvq14472 ,
+
+CSCvo46854 , CSCvp37092 , CSCvo15059 , CSCvp76696 , CSCvp60962 ,
+
+CSCvn71946 , CSCvp19303 , CSCvp47032 , CSCvn82112 , CSCvn78159 ,
+
+CSCvp38942 , CSCvp34995 , CSCvo66492 , CSCvn92277 , CSCvo98128 ,
+
+CSCvp47242 , CSCvo78127 , CSCvq88066 , CSCvq07040 , CSCvp12852 ,
+
+CSCvp18469 , CSCvo59157 , CSCvo71587 , CSCvn79565 , CSCvq12348
+
+Notes
+
+ES40
+
+Avaya PG
+
+CSCvr99349
+
+Notes
+
+ES41
+
+PG
+
+CSCvm45006
+
+Notes
+
+ES42
+
+AW, Admin Client
+
+CSCvn33915 , CSCvr51665 , CSCvs56604 , CSCvs59785
+
+Notes
+
+ES43
+
+Router
+
+CSCvo30215
+
+Notes
+
+ES44
+
+AW
+
+CSCvp96392 , CSCvr51613 , CSCvs23301 , CSCvs42013 , CSCvq03314 ,
+
+CSCvq99289 , CSCvr17986 , CSCvr51586 , CSCvr72278 , CSCvr99898 ,
+
+CSCvs08501 , CSCvs13583 , CSCvs17596 , CSCvs21511 , CSCvs24355 ,
+
+CSCvs31166 , CSCvs32861 , CSCvs33853 , CSCvs36134 , CSCvs41738 ,
+
+CSCvs60065 , CSCvs64183 , CSCvs77949 , CSCvs45079 , CSCvs46900 ,
+
+CSCvr21614 , CSCvq78029 , CSCvq95029 , CSCvr09420 , CSCvr55052 ,
+
+CSCvr84124 , CSCvs16800 , CSCvs23235 , CSCvs26988 , CSCvs39941 ,
+
+CSCvs48546 , CSCvs56462 , CSCvt05248 , CSCvq95394 , CSCvs04669 ,
+
+CSCvs77189 , CSCvr05766 , CSCvr33101 , CSCvr49943 , CSCvr81939
+
+Notes
+
+ES46
+
+Router, AW/HDS, Logger
+
+CSCvs59403 , CSCvr49057
+
+Notes
+
+ES48
+
+Agent PG
+
+CSCvm42433 , CSCvr81353 , CSCvp89209 , CSCvq26916 , CSCvq78870 , CSCvq80059
+
+Notes
+
+ES49
+
+AW and PG 1
+
+CSCvs96235 , CSCvt07963 , CSCvu09271 , CSCvs64057 , CSCvt60373 ,
+
+CSCvu12137 , CSCvt09634 , CSCvt65656 , CSCvt65662 , CSCvt79918 ,
+
+CSCvr99317 , CSCvt98590 , CSCvt98567 , CSCvs21205 , CSCvt75129 ,
+
+CSCvp30895 , CSCvs12341 , CSCvs25265 , CSCvs40373 , CSCvs41895 ,
+
+CSCvr72636 , CSCvp32924 , CSCvp23552 , CSCvq54170 , CSCvp21111 ,
+
+CSCvq13988 , CSCvp28803 , CSCvq44602 , CSCvq06932 , CSCvq63352 ,
+
+CSCvq67966 , CSCvp98528 , CSCvp36895 , CSCvq64857 , CSCvp48927 ,
+
+CSCvq32445 , CSCvq01988 , CSCvq00400 , CSCvp93416 , CSCvq47995 ,
+
+CSCvr90903 , CSCvo91661 , CSCvq85125 , CSCvq33281 , CSCvp66880 ,
+
+CSCvp48558 , CSCvp37039 , CSCvq46558 , CSCvq33205 , CSCvq45077 ,
+
+CSCvq62990 , CSCvq35784 , CSCvq03677 , CSCvq27469 , CSCvp36973 ,
+
+CSCvp83276 , CSCvq12588 , CSCvp86346 , CSCvp98507 , CSCvp68561 ,
+
+CSCvp89228, CSCvp20793 , CSCvp11040 , CSCvo28848 , CSCvq27248 ,
+
+CSCvo45192 , CSCvp92559 , CSCvn78163 , CSCvo61931 , CSCvp59306 ,
+
+CSCvp36907 , CSCvo35666 , CSCvp64750 , CSCvp57531 , CSCvp86341 ,
+
+CSCvn78580 , CSCvo85717 , CSCvn77421 , CSCvo61941 , CSCvp28327 ,
+
+CSCvp28792 , CSCvp20817 , CSCvp47136 , CSCvp11036 , CSCvp58853 ,
+
+CSCvp03348 , CSCvo94307 , CSCvn99825 , CSCvn77418 , CSCvq14472 ,
+
+CSCvo46854 , CSCvp37092 , CSCvo15059 , CSCvp76696 , CSCvp60962 ,
+
+CSCvn71946 , CSCvp19303 , CSCvp47032 , CSCvn82112 , CSCvn78159 ,
+
+CSCvp38942 , CSCvp34995 , CSCvo66492 , CSCvn92277 , CSCvo98128 ,
+
+CSCvp47242 , CSCvo78127 , CSCvq88066 , CSCvq07040 , CSCvp12852 ,
+
+CSCvp18469 , CSCvo59157 , CSCvo71587 , CSCvn79565 , CSCvq12348 ,
+
+CSCvp96392 , CSCvr51613 , CSCvs23301 , CSCvs42013 , CSCvq03314 ,
+
+CSCvq99289 , CSCvr17986 , CSCvr51586 , CSCvr72278 , CSCvr99898 ,
+
+CSCvs08501 , CSCvs13583 , CSCvs17596 , CSCvs21511 , CSCvs24355 ,
+
+CSCvs31166 , CSCvs32861 , CSCvs33853 , CSCvs36134 , CSCvs41738 ,
+
+CSCvs60065 , CSCvs64183 , CSCvs77949 , CSCvs45079 , CSCvr21614 ,
+
+CSCvq78029 , CSCvq95029 , CSCvr09420 , CSCvr55052 , CSCvr84124 ,
+
+CSCvs16800 , CSCvs23235 , CSCvs26988 , CSCvs39941 , CSCvs48546 ,
+
+CSCvs56462 , CSCvt05248 , CSCvq95394 , CSCvs04669 , CSCvs77189 ,
+
+CSCvr05766 , CSCvr33101 , CSCvr49943 , CSCvr81939
+
+Notes
+
+ES50
+
+CCE Agent PG VM
+
+CSCvu46688
+
+ES51
+
+Router Node and Peripheral Gateway Node
+
+CSCvq16162
+
+ES52
+
+CSCvt31436
+
+CSCvt60447
+
+ES53
+
+PG
+
+CSCvu46483
+
+Notes
+
+ES54
+
+AW, Router, Logger, PG, Administration Client
+
+CSCvv43532
+
+Notes
+
+ES55
+
+AW, Administration Client
+
+CSCvp89228 , CSCvq99289 , CSCvp28803 , CSCvo28848 , CSCvs96235 ,
+
+CSCvo45192 , CSCvp92559 , CSCvn78163 , CSCvq63352 , CSCvr21614 ,
+
+CSCvr99317 , CSCvo35666 , CSCvu25431 , CSCvp64750 , CSCvs04669 ,
+
+CSCvq67966 , CSCvp86341 , CSCvp36895 , CSCvo85717 , CSCvq64857 ,
+
+CSCvo61941 , CSCvp48927 , CSCvs08501 , CSCvq32445 , CSCvs41895 ,
+
+CSCvr72636 , CSCvq01988 , CSCvq00400 , CSCvp28792 , CSCvp20817 ,
+
+CSCvs17596 , CSCvr90903 , CSCvq95394 , CSCvp58853 , CSCvp03348 ,
+
+CSCvn99825 , CSCvn77418 , CSCvp66880 , CSCvv01580 , CSCvo15059 ,
+
+CSCvn33915 , CSCvp60962 , CSCvn71946 , CSCvs77189 , CSCvt99220 ,
+
+CSCvp30895 , CSCvq46558 , CSCvu12137 , CSCvt99253 , CSCvq95029 ,
+
+CSCvs45079 , CSCvp38942 , CSCvr49943 , CSCvp34995 , CSCvt65656 ,
+
+CSCvo66492 , CSCvo98128 , CSCvr51665 , CSCvq35784 , CSCvt98567 ,
+
+CSCvr81939 , CSCvs36134 , CSCvs25265 , CSCvo78127 , CSCvq03677 ,
+
+CSCvq88066 , CSCvq27469 , CSCvs46900 , CSCvu09271 , CSCvt75129 ,
+
+CSCvp12852 , CSCvt99089 , CSCvp83276 , CSCvs21205 , CSCvt73896 ,
+
+CSCvp98507 , CSCvs33853 , CSCvp68561 , CSCvo59157 , CSCvr33101 ,
+
+CSCvq54170 , CSCvp21111 , CSCvq13988 , CSCvp20793 , CSCvp11040 ,
+
+CSCvr55052 , CSCvq44602 , CSCvq27248 , CSCvs59785 , CSCvq06932 ,
+
+CSCvs21511 , CSCvs40373 , CSCvs41738 , CSCvs48546 , CSCvo61931 ,
+
+CSCvt60373 , CSCvs64057 , CSCvr51613 , CSCvp59306 , CSCvp36907 ,
+
+CSCvr99898 , CSCvp57531 , CSCvt98590 , CSCvr51586 , CSCvp98528 ,
+
+CSCvt99148 , CSCvn78580 , CSCvr05766 , CSCvn77421 , CSCvs60065 ,
+
+CSCvs42013 , CSCvp28327 , CSCvt05248 , CSCvr84124 , CSCvr09420 ,
+
+CSCvs32861 , CSCvp23552 , CSCvp93416 , CSCvq47995 , CSCvp47136 ,
+
+CSCvo91661 , CSCvs26988 , CSCvq85125 , CSCvp11036 , CSCvq33281 ,
+
+CSCvo94307 , CSCvq14472 , CSCvo46854 , CSCvp48558 , CSCvq03314 ,
+
+CSCvp37092 , CSCvp96392 , CSCvp76696 , CSCvs12341 , CSCvn78578 ,
+
+CSCvp37039 , CSCvp19303 , CSCvq78029 , CSCvs77716 , CSCvs56462 ,
+
+CSCvp32924 , CSCvp47032 , CSCvn82112 , CSCvn78159 , CSCvs13583 ,
+
+CSCvs16800 , CSCvq33205 , CSCvr72278 , CSCvs24355 , CSCvr17986 ,
+
+CSCvn92277 , CSCvs23301 , CSCvq45077 , CSCvq62990 , CSCvt09634 ,
+
+CSCvp47242 , CSCvu90562 , CSCvs64183 , CSCvs23235 , CSCvt65662 ,
+
+CSCvs56604 , CSCvs31166 , CSCvq07040 , CSCvp18469 , CSCvp36973 ,
+
+CSCvt07963 , CSCvq12588 , CSCvs39941 , CSCvp86346 , CSCvo71587 ,
+
+CSCvn79565 , CSCvs77949 , CSCvq12348
+
+Notes
+
+ES57
+
+AW
+
+CSCvu62776
+
+Notes
+
+ES58
+
+Agent PG
+
+CSCvq26916 , CSCvr81353 , CSCvm42433 , CSCvp89209 , CSCvq78870 ,
+
+CSCvq80059 , CSCvs67053
+
+Notes
+
+ES60
+
+AW and Rogger
+
+CSCvs24809
+
+Notes
+
+ES62
+
+Agent PG
+
+CSCvr01146 , CSCvm42433 , CSCvr81353 , CSCvp89209 , CSCvq26916 ,
+
+CSCvq78870 , CSCvq80059 , CSCvs67053
+
+Notes
+
+ES63
+
+AW
+
+CSCvv65592
+
+Notes
+
+ES64
+
+PG
+
+CSCvp83424
+
+Notes
+
+ES65
+
+Unified CCE Adminclient installed on Windows 10 and/or Windows Server 2016.
+
+none
+
+ES66
+
+Media Routing PG
+
+CSCvo41348
+
+CSCvw64084
+
+Notes
+
+ES67
+
+PG
+
+CSCvw23924
+
+Notes
+
+ES68
+
+AW, Router, Logger, PG, and Admin Client
+
+CSCvw77880
+
+Notes
+
+ES69
+
+PG
+
+CSCvw80444
+
+Notes
+
+ES70
+
+CCE PG
+
+CSCvx18675
+
+Notes
+
+ES73
+
+AW
+
+CSCvv21519
+
+Notes
+
+ES74
+
+PG
+
+CSCvt06136
+
+Notes
+
+ES76
+
+AW, Logger / Rogger, PG / Dialer
+
+CSCvx88803 , CSCvy11544
+
+Notes
+
+ES77
+
+Router
+
+CSCvq93914 , CSCvy09187 , CSCvx61700
+
+Notes
+
+ES78
+
+AW, Router, Logger, PG
+
+CSCvv61706
+
+Notes
+
+ES79
+
+Dialer
+
+CSCvx81625
+
+Notes
+
+ES82
+
+All types of AW including HDS and admin client, Logger, Router, and Peripheral Gateway
+
+CSCvs77161 , CSCvy35697
+
+Notes
+
+ES83
+
+AW
+
+CSCvu85364
+
+Notes
+
+ES85
+
+PG
+
+CSCvu76997
+
+Notes
+
+ES86
+
+CCE Agent PG
+
+CSCvz77097
+
+Notes
+
+ES87
+
+Dialer (Agent PG server where dialer is installed)
+
+CSCvm80720 , CSCvx81625
+
+Notes
+
+ES88
+
+CCE Agent PG
+
+CSCvz60907
+
+This is addressed in
+
+ES90
+
+ES89
+
+AW
+
+CSCvp37522 , CSCvz64032
+
+Notes
+
+ES90
+
+PG
+
+CSCvz60907
+
+Notes
+
+ES91
+
+AW, Router, Logger, PG and Admin Client machine(s)
+
+CSCwa47273 , CSCwa47274
+
+Notes
+
+ES92
+
+AW
+
+CSCvy31427
+
+Notes
+
+ES93
+
+CCE Agent PG
+
+CSCwa52376
+
+Notes
+
+ES94
+
+AW, Router, Logger, PG
+
+CSCvz53823
+
+Notes
+
+ES95
+
+AW
+
+CSCvw45522
+
+Notes
+
+ES96
+
+CCE Agent PG
+
+CSCvv99629 , CSCwa31480
+
+Notes
+
+ES97
+
+AW, Logger, Router
+
+CSCvo28609
+
+Notes
+
+ES100
+
+Dialer
+
+CSCvq29971
+
+Notes
+
+ES101
+
+AW, PG, Rogger
+
+CSCwb64316
+
+This is addressed in
+
+ES102
+
+ES102
+
+All ICM servers that has websetup (AW, Router, Logger, PG) and admin client machines
+
+CSCwb64316
+
+Notes
+
+ES104
+
+PG
+
+CSCvv38840
+
+Notes
+
+- For hostname or IP address change of 12.0(1) PG in Packaged CCE Technology Refresh upgrade (supported in future releases). ↩
+
+For the list of ESs that apply only to CCE deployments on Windows Server 2012, see https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/EngineeringSpecials/ucce_g_es-120-community-page-2012.html .
+
+### Unified Contact Center Enterprise ES 12.0-CTIOS
+
+ES
+
+Component
+
+Defects resolved
+
+Release Note
+
+ES3
+
+CTIOS Server
+
+CSCvu46050
+
+This is addressed in ES4
+
+ES4
+
+CTIOS Server
+
+CSCvu46050
+
+Notes
+
+| Note | Run the mandatory update before applying any ES, if you have a fresh install or Technology Refresh upgrade planned for Unified CCE or PCCE 12.0(1) on the Windows Server 2016. You can download CCE 12.0 Mandatory update for Fresh Install/Tech Refresh from https://software.cisco.com/download/home/268439622/type/280840583/release/12.0(1) . Run the mandatory ES18 for inline OS upgrade. For details on how to upgrade, See Windows Server and SQL Server Upgrade . ES37 is a mandatory Engineering Special patch, applicable only for Packaged CCE deployments in 12.0(1) if CVPs are upgraded to 12.5(1). Installing this patch for non-PCCE deployments is not supported.1 |
+|---|---|
+
+| ES | Component | Defects resolved | Release Note |
+|---|---|---|---|
+| ES26 | Router, AW/HDS/DDS | CSCvn99825 , CSCvo46854 , CSCvo78127 , CSCvp03348 , CSCvp11040 , CSCvp18469 , CSCvp28792 , CSCvp37092 , CSCvp47032 , CSCvp47242 , CSCvp57531 , CSCvp58853 , CSCvp59306 , CSCvp60962 , CSCvp64750 , CSCvp76696 , CSCvp89228 , CSCvq12348 , CSCvn77418 , CSCvn77421 , CSCvn78159 , CSCvn78163 , CSCvn79565 , CSCvn82112 , CSCvn92277 , CSCvo15059 , CSCvo28848 , CSCvo45192 , CSCvo59157 , CSCvo61931 , CSCvo66492 , CSCvo85717 , CSCvo98128 , CSCvp11036 , CSCvp20793 , CSCvp38942 , CSCvp47136 , CSCvp86341 , CSCvn71946 , CSCvn78580 , CSCvo35666 , CSCvo61941 , CSCvo94307 , CSCvp28327 , CSCvq14472 , CSCvp12852 , CSCvp36907 , CSCvp19303 , CSCvp34995 , CSCvq27248 , CSCvp20817 , CSCvp2111 , CSCvq07040 , CSCvp92559 , CSCvq88066 , CSCvo71587 | Notes |
+| ES27 | VRU PG | CSCvn75302 | Notes |
+| ES30 | Agent PG | CSCvp13531 | Notes |
+| ES33 | Dialer, Logger | CSCvq36093 , CSCvp75515 , CSCvp73847 , CSCvn65050 , CSCvp31885 | Notes |
+| ES34 | AW, Router, Logger, PG | CSCvp23552 , CSCvq54170 , CSCvp21111 , CSCvq13988 , CSCvp28803 , CSCvq44602 , CSCvq06932 , CSCvq63352 , CSCvq67966 , CSCvp98528 , CSCvp36895 , CSCvq64857 , CSCvp48927 , CSCvq32445 , CSCvq01988 , CSCvq00400 , CSCvp93416 , CSCvq47995 , CSCvr90903 , CSCvo91661 , CSCvq85125 , CSCvq33281 , CSCvp66880 , CSCvp48558 , CSCvp37039 , CSCvq46558 , CSCvq33205 , CSCvq45077 , CSCvq62990 , CSCvq35784 , CSCvq03677 , CSCvq27469 , CSCvp36973 , CSCvp83276 , CSCvq12588 , CSCvp86346 , CSCvp98507 , CSCvp68561 , CSCvp89228, CSCvp20793 , CSCvp11040 , CSCvo28848 , CSCvq27248 , CSCvo45192 , CSCvp92559 , CSCvn78163 , CSCvo61931 , CSCvp59306 , CSCvp36907 , CSCvo35666 , CSCvp64750 , CSCvp57531 , CSCvp86341 , CSCvn78580 , CSCvo85717 , CSCvn77421 , CSCvo61941 , CSCvp28327 , CSCvp28792 , CSCvp20817 , CSCvp47136 , CSCvp11036 , CSCvp58853 , CSCvp03348 , CSCvo94307 , CSCvn99825 , CSCvn77418 , CSCvq14472 , CSCvo46854 , CSCvp37092 , CSCvo15059 , CSCvp76696 , CSCvp60962 , CSCvn71946 , CSCvp19303 , CSCvp47032 , CSCvn82112 , CSCvn78159 , CSCvp38942 , CSCvp34995 , CSCvo66492 , CSCvn92277 , CSCvo98128 , CSCvp47242 , CSCvo78127 , CSCvq88066 , CSCvq07040 , CSCvp12852 , CSCvp18469 , CSCvo59157 , CSCvo71587 , CSCvn79565 , CSCvq12348 | Notes |
+| ES37 | Router, Logger, PG, AW/HDS/DDS | CSCvp30895 , CSCvs12341 , CSCvs25265 , CSCvs40373 , CSCvs41895 , CSCvr72636 , CSCvp32924 , CSCvp23552 , CSCvq54170 , CSCvp21111 , CSCvq13988 , CSCvp28803 , CSCvq44602 , CSCvq06932 , CSCvq63352 , CSCvq67966 , CSCvp98528 , CSCvp36895 , CSCvq64857 , CSCvp48927 , CSCvq32445 , CSCvq01988 , CSCvq00400 , CSCvp93416 , CSCvq47995 , CSCvr90903 , CSCvo91661 , CSCvq85125 , CSCvq33281 , CSCvp66880 , CSCvp48558 , CSCvp37039 , CSCvq46558 , CSCvq33205 , CSCvq45077 , CSCvq62990 , CSCvq35784 , CSCvq03677 , CSCvq27469 , CSCvp36973 , CSCvp83276 , CSCvq12588 , CSCvp86346 , CSCvp98507 , CSCvp68561 , CSCvp89228, CSCvp20793 , CSCvp11040 , CSCvo28848 , CSCvq27248 , CSCvo45192 , CSCvp92559 , CSCvn78163 , CSCvo61931 , CSCvp59306 , CSCvp36907 , CSCvo35666 , CSCvp64750 , CSCvp57531 , CSCvp86341 , CSCvn78580 , CSCvo85717 , CSCvn77421 , CSCvo61941 , CSCvp28327 , CSCvp28792 , CSCvp20817 , CSCvp47136 , CSCvp11036 , CSCvp58853 , CSCvp03348 , CSCvo94307 , CSCvn99825 , CSCvn77418 , CSCvq14472 , CSCvo46854 , CSCvp37092 , CSCvo15059 , CSCvp76696 , CSCvp60962 , CSCvn71946 , CSCvp19303 , CSCvp47032 , CSCvn82112 , CSCvn78159 , CSCvp38942 , CSCvp34995 , CSCvo66492 , CSCvn92277 , CSCvo98128 , CSCvp47242 , CSCvo78127 , CSCvq88066 , CSCvq07040 , CSCvp12852 , CSCvp18469 , CSCvo59157 , CSCvo71587 , CSCvn79565 , CSCvq12348 | Notes |
+| ES40 | Avaya PG | CSCvr99349 | Notes |
+| ES41 | PG | CSCvm45006 | Notes |
+| ES42 | AW, Admin Client | CSCvn33915 , CSCvr51665 , CSCvs56604 , CSCvs59785 | Notes |
+| ES43 | Router | CSCvo30215 | Notes |
+| ES44 | AW | CSCvp96392 , CSCvr51613 , CSCvs23301 , CSCvs42013 , CSCvq03314 , CSCvq99289 , CSCvr17986 , CSCvr51586 , CSCvr72278 , CSCvr99898 , CSCvs08501 , CSCvs13583 , CSCvs17596 , CSCvs21511 , CSCvs24355 , CSCvs31166 , CSCvs32861 , CSCvs33853 , CSCvs36134 , CSCvs41738 , CSCvs60065 , CSCvs64183 , CSCvs77949 , CSCvs45079 , CSCvs46900 , CSCvr21614 , CSCvq78029 , CSCvq95029 , CSCvr09420 , CSCvr55052 , CSCvr84124 , CSCvs16800 , CSCvs23235 , CSCvs26988 , CSCvs39941 , CSCvs48546 , CSCvs56462 , CSCvt05248 , CSCvq95394 , CSCvs04669 , CSCvs77189 , CSCvr05766 , CSCvr33101 , CSCvr49943 , CSCvr81939 | Notes |
+| ES46 | Router, AW/HDS, Logger | CSCvs59403 , CSCvr49057 | Notes |
+| ES48 | Agent PG | CSCvm42433 , CSCvr81353 , CSCvp89209 , CSCvq26916 , CSCvq78870 , CSCvq80059 | Notes |
+| ES49 | AW and PG 1 | CSCvs96235 , CSCvt07963 , CSCvu09271 , CSCvs64057 , CSCvt60373 , CSCvu12137 , CSCvt09634 , CSCvt65656 , CSCvt65662 , CSCvt79918 , CSCvr99317 , CSCvt98590 , CSCvt98567 , CSCvs21205 , CSCvt75129 , CSCvp30895 , CSCvs12341 , CSCvs25265 , CSCvs40373 , CSCvs41895 , CSCvr72636 , CSCvp32924 , CSCvp23552 , CSCvq54170 , CSCvp21111 , CSCvq13988 , CSCvp28803 , CSCvq44602 , CSCvq06932 , CSCvq63352 , CSCvq67966 , CSCvp98528 , CSCvp36895 , CSCvq64857 , CSCvp48927 , CSCvq32445 , CSCvq01988 , CSCvq00400 , CSCvp93416 , CSCvq47995 , CSCvr90903 , CSCvo91661 , CSCvq85125 , CSCvq33281 , CSCvp66880 , CSCvp48558 , CSCvp37039 , CSCvq46558 , CSCvq33205 , CSCvq45077 , CSCvq62990 , CSCvq35784 , CSCvq03677 , CSCvq27469 , CSCvp36973 , CSCvp83276 , CSCvq12588 , CSCvp86346 , CSCvp98507 , CSCvp68561 , CSCvp89228, CSCvp20793 , CSCvp11040 , CSCvo28848 , CSCvq27248 , CSCvo45192 , CSCvp92559 , CSCvn78163 , CSCvo61931 , CSCvp59306 , CSCvp36907 , CSCvo35666 , CSCvp64750 , CSCvp57531 , CSCvp86341 , CSCvn78580 , CSCvo85717 , CSCvn77421 , CSCvo61941 , CSCvp28327 , CSCvp28792 , CSCvp20817 , CSCvp47136 , CSCvp11036 , CSCvp58853 , CSCvp03348 , CSCvo94307 , CSCvn99825 , CSCvn77418 , CSCvq14472 , CSCvo46854 , CSCvp37092 , CSCvo15059 , CSCvp76696 , CSCvp60962 , CSCvn71946 , CSCvp19303 , CSCvp47032 , CSCvn82112 , CSCvn78159 , CSCvp38942 , CSCvp34995 , CSCvo66492 , CSCvn92277 , CSCvo98128 , CSCvp47242 , CSCvo78127 , CSCvq88066 , CSCvq07040 , CSCvp12852 , CSCvp18469 , CSCvo59157 , CSCvo71587 , CSCvn79565 , CSCvq12348 , CSCvp96392 , CSCvr51613 , CSCvs23301 , CSCvs42013 , CSCvq03314 , CSCvq99289 , CSCvr17986 , CSCvr51586 , CSCvr72278 , CSCvr99898 , CSCvs08501 , CSCvs13583 , CSCvs17596 , CSCvs21511 , CSCvs24355 , CSCvs31166 , CSCvs32861 , CSCvs33853 , CSCvs36134 , CSCvs41738 , CSCvs60065 , CSCvs64183 , CSCvs77949 , CSCvs45079 , CSCvr21614 , CSCvq78029 , CSCvq95029 , CSCvr09420 , CSCvr55052 , CSCvr84124 , CSCvs16800 , CSCvs23235 , CSCvs26988 , CSCvs39941 , CSCvs48546 , CSCvs56462 , CSCvt05248 , CSCvq95394 , CSCvs04669 , CSCvs77189 , CSCvr05766 , CSCvr33101 , CSCvr49943 , CSCvr81939 | Notes |
+| ES50 | CCE Agent PG VM | CSCvu46688 CSCvq30489 | Notes |
+| ES51 | Router Node and Peripheral Gateway Node | CSCvq16162 CSCvt36779 | Notes |
+| ES52 | AW, Router, Logger, PG – all CCE machines which has tomcat installed. | CSCvt31436 CSCvt60447 | Notes |
+| ES53 | PG | CSCvu46483 | Notes |
+| ES54 | AW, Router, Logger, PG, Administration Client | CSCvv43532 | Notes |
+| ES55 | AW, Administration Client | CSCvp89228 , CSCvq99289 , CSCvp28803 , CSCvo28848 , CSCvs96235 , CSCvo45192 , CSCvp92559 , CSCvn78163 , CSCvq63352 , CSCvr21614 , CSCvr99317 , CSCvo35666 , CSCvu25431 , CSCvp64750 , CSCvs04669 , CSCvq67966 , CSCvp86341 , CSCvp36895 , CSCvo85717 , CSCvq64857 , CSCvo61941 , CSCvp48927 , CSCvs08501 , CSCvq32445 , CSCvs41895 , CSCvr72636 , CSCvq01988 , CSCvq00400 , CSCvp28792 , CSCvp20817 , CSCvs17596 , CSCvr90903 , CSCvq95394 , CSCvp58853 , CSCvp03348 , CSCvn99825 , CSCvn77418 , CSCvp66880 , CSCvv01580 , CSCvo15059 , CSCvn33915 , CSCvp60962 , CSCvn71946 , CSCvs77189 , CSCvt99220 , CSCvp30895 , CSCvq46558 , CSCvu12137 , CSCvt99253 , CSCvq95029 , CSCvs45079 , CSCvp38942 , CSCvr49943 , CSCvp34995 , CSCvt65656 , CSCvo66492 , CSCvo98128 , CSCvr51665 , CSCvq35784 , CSCvt98567 , CSCvr81939 , CSCvs36134 , CSCvs25265 , CSCvo78127 , CSCvq03677 , CSCvq88066 , CSCvq27469 , CSCvs46900 , CSCvu09271 , CSCvt75129 , CSCvp12852 , CSCvt99089 , CSCvp83276 , CSCvs21205 , CSCvt73896 , CSCvp98507 , CSCvs33853 , CSCvp68561 , CSCvo59157 , CSCvr33101 , CSCvq54170 , CSCvp21111 , CSCvq13988 , CSCvp20793 , CSCvp11040 , CSCvr55052 , CSCvq44602 , CSCvq27248 , CSCvs59785 , CSCvq06932 , CSCvs21511 , CSCvs40373 , CSCvs41738 , CSCvs48546 , CSCvo61931 , CSCvt60373 , CSCvs64057 , CSCvr51613 , CSCvp59306 , CSCvp36907 , CSCvr99898 , CSCvp57531 , CSCvt98590 , CSCvr51586 , CSCvp98528 , CSCvt99148 , CSCvn78580 , CSCvr05766 , CSCvn77421 , CSCvs60065 , CSCvs42013 , CSCvp28327 , CSCvt05248 , CSCvr84124 , CSCvr09420 , CSCvs32861 , CSCvp23552 , CSCvp93416 , CSCvq47995 , CSCvp47136 , CSCvo91661 , CSCvs26988 , CSCvq85125 , CSCvp11036 , CSCvq33281 , CSCvo94307 , CSCvq14472 , CSCvo46854 , CSCvp48558 , CSCvq03314 , CSCvp37092 , CSCvp96392 , CSCvp76696 , CSCvs12341 , CSCvn78578 , CSCvp37039 , CSCvp19303 , CSCvq78029 , CSCvs77716 , CSCvs56462 , CSCvp32924 , CSCvp47032 , CSCvn82112 , CSCvn78159 , CSCvs13583 , CSCvs16800 , CSCvq33205 , CSCvr72278 , CSCvs24355 , CSCvr17986 , CSCvn92277 , CSCvs23301 , CSCvq45077 , CSCvq62990 , CSCvt09634 , CSCvp47242 , CSCvu90562 , CSCvs64183 , CSCvs23235 , CSCvt65662 , CSCvs56604 , CSCvs31166 , CSCvq07040 , CSCvp18469 , CSCvp36973 , CSCvt07963 , CSCvq12588 , CSCvs39941 , CSCvp86346 , CSCvo71587 , CSCvn79565 , CSCvs77949 , CSCvq12348 | Notes |
+| ES57 | AW | CSCvu62776 | Notes |
+| ES58 | Agent PG | CSCvq26916 , CSCvr81353 , CSCvm42433 , CSCvp89209 , CSCvq78870 , CSCvq80059 , CSCvs67053 | Notes |
+| ES60 | AW and Rogger | CSCvs24809 | Notes |
+| ES62 | Agent PG | CSCvr01146 , CSCvm42433 , CSCvr81353 , CSCvp89209 , CSCvq26916 , CSCvq78870 , CSCvq80059 , CSCvs67053 | Notes |
+| ES63 | AW | CSCvv65592 | Notes |
+| ES64 | PG | CSCvp83424 | Notes |
+| ES65 | Unified CCE Adminclient installed on Windows 10 and/or Windows Server 2016. | none | Notes |
+| ES66 | Media Routing PG | CSCvo41348 CSCvw64084 | Notes |
+| ES67 | PG | CSCvw23924 | Notes |
+| ES68 | AW, Router, Logger, PG, and Admin Client | CSCvw77880 | Notes |
+| ES69 | PG | CSCvw80444 | Notes |
+| ES70 | CCE PG | CSCvx18675 | Notes |
+| ES73 | AW | CSCvv21519 | Notes |
+| ES74 | PG | CSCvt06136 | Notes |
+| ES76 | AW, Logger / Rogger, PG / Dialer | CSCvx88803 , CSCvy11544 | Notes |
+| ES77 | Router | CSCvq93914 , CSCvy09187 , CSCvx61700 | Notes |
+| ES78 | AW, Router, Logger, PG | CSCvv61706 | Notes |
+| ES79 | Dialer | CSCvx81625 | Notes |
+| ES82 | All types of AW including HDS and admin client, Logger, Router, and Peripheral Gateway | CSCvs77161 , CSCvy35697 | Notes |
+| ES83 | AW | CSCvu85364 | Notes |
+| ES85 | PG | CSCvu76997 | Notes |
+| ES86 | CCE Agent PG | CSCvz77097 | Notes |
+| ES87 | Dialer (Agent PG server where dialer is installed) | CSCvm80720 , CSCvx81625 | Notes |
+| ES88 | CCE Agent PG | CSCvz60907 | This is addressed in ES90 |
+| ES89 | AW | CSCvp37522 , CSCvz64032 | Notes |
+| ES90 | PG | CSCvz60907 | Notes |
+| ES91 | AW, Router, Logger, PG and Admin Client machine(s) | CSCwa47273 , CSCwa47274 | Notes |
+| ES92 | AW | CSCvy31427 | Notes |
+| ES93 | CCE Agent PG | CSCwa52376 | Notes |
+| ES94 | AW, Router, Logger, PG | CSCvz53823 | Notes |
+| ES95 | AW | CSCvw45522 | Notes |
+| ES96 | CCE Agent PG | CSCvv99629 , CSCwa31480 | Notes |
+| ES97 | AW, Logger, Router | CSCvo28609 | Notes |
+| ES100 | Dialer | CSCvq29971 | Notes |
+| ES101 | AW, PG, Rogger | CSCwb64316 | This is addressed in ES102 |
+| ES102 | All ICM servers that has websetup (AW, Router, Logger, PG) and admin client machines | CSCwb64316 | Notes |
+| ES104 | PG | CSCvv38840 | Notes |
+
+| ES | Component | Defects resolved | Release Note |
+|---|---|---|---|
+| ES3 | CTIOS Server | CSCvu46050 | This is addressed in ES4 |
+| ES4 | CTIOS Server | CSCvu46050 | Notes |

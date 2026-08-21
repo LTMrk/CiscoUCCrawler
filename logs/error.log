@@ -3869,3 +3869,9 @@
 [2026-08-21T03:00:25.016245] HTTP 302 o DOM vacío. | https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/products-implementation-design-guides-list.html
 [2026-08-21T03:00:45.720010] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/tsd-products-support-series-home.html
 [2026-08-21T03:00:49.886957] HTTP 301 o DOM vacío. | https://developer.cisco.com/docs/customer-voice-portal
+[2026-08-21T03:08:01.870623] HTTP 301 o DOM vacío. | https://developer.cisco.com/site/customer-voice-portal/documents/rest-api
+[2026-08-21T03:12:45.994325] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/268439622/type/286337858/release/15.0(1)
+[2026-08-21T03:12:45.994412] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/284360381/type/286337858/release/15.0(1)
+[2026-08-21T03:12:49.895860] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/EngineeringSpecials/index.html
+[2026-08-21T03:13:03.343878] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/549ec0d4415b822ac3f46f1843f6416c
+[2026-08-21T03:13:07.842700] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu33262
