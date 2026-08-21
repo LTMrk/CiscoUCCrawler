@@ -1734,10 +1734,10 @@
       "first_seen": "2026-08-17T01:42:59.393012+00:00",
       "last_changed": "2026-08-17T01:42:59.393012+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-18T23:45:59.805726+00:00",
-      "next_check": "2026-08-20T23:45:59.805726+00:00",
+      "last_seen": "2026-08-21T07:40:49.583906+00:00",
+      "next_check": "2026-08-25T07:40:49.583906+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://engage2demand.cisco.com/LP=6097": {
       "content_sha": "e26c1b5eba3599f279756b96ea0099b4760f1d11bead458d6b320766bad2ab5a",
@@ -6700,10 +6700,10 @@
       "first_seen": "2026-08-16T14:16:35.490484+00:00",
       "last_changed": "2026-08-19T00:03:30.559253+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:03:30.559253+00:00",
-      "next_check": "2026-08-20T00:03:30.559253+00:00",
+      "last_seen": "2026-08-21T07:43:16.107593+00:00",
+      "next_check": "2026-08-23T07:43:16.107593+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html": {
       "content_sha": "5241d033e974353f1dc4272d34175984b36a9c0a3ff43d9a7fa7c28659c2af8b",
@@ -12019,6 +12019,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su1/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251SU1/cer0_b_cisco-emergency-responder-administration-guide-1251SU1_chapter_011.html": {
+      "content_sha": "06164c67af2c960a81c28add57ea03fe2ca7c591f4317d003fdb011a186273e3",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-su1-english-administration-guide-cer0-b-cisco-emergency-responder-33c476f061",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T07:46:35.363849+00:00",
+      "last_changed": "2026-08-21T07:46:35.363849+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T07:46:35.363849+00:00",
+      "next_check": "2026-08-22T07:46:35.363849+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su1/english/cli/guide/cer0_b_cisco-emergency-responder-cli-guide-1251su1.html": {
       "content_sha": "cc1c90994a8ec88b1c7439fc9d65c15401a670536cf5c1eaa9bfadcc0d0b23df",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-su1-english-cli-guide-cer0-b-cisco-emergency-responder-cli-guide--1731dca6fc",
@@ -12120,6 +12133,19 @@
       "last_modified": null,
       "last_seen": "2026-08-21T06:40:39.225559+00:00",
       "next_check": "2026-08-22T06:40:39.225559+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-14.html": {
+      "content_sha": "f82e0b16c76bc02749cf71f52be88af7f60dbb430a53e4cfaad7e49da8c71776",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14-english-release-notes-guide-cer0-b-cisco-emergency-responder-release--0d42935b16",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T07:46:31.378164+00:00",
+      "last_changed": "2026-08-21T07:46:31.378164+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T07:46:31.378164+00:00",
+      "next_check": "2026-08-22T07:46:31.378164+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -87689,6 +87715,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022.html": {
+      "content_sha": "d73fdc96967fd9757cc17fbc57636383398df541bf6f76f148cd25a288852a12",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1022-dx00-bk-c9fcbae4-00-cisco-dx-series-ag1022-html-00c9af0583",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T07:43:45.758580+00:00",
+      "last_changed": "2026-08-21T07:43:45.758580+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T07:43:45.758580+00:00",
+      "next_check": "2026-08-22T07:43:45.758580+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1024/DX00_BK_C12F3FF5_00_cisco-dx-series-ag1024/DX00_BK_C12F3FF5_00_cisco-dx-series-ag1024_appendix_01111.html": {
       "content_sha": "5397ce9634ec68fa4601d4659b7870cc13459ceab156663cbb74e747860dd697",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1024-dx00-bk-c12f3ff5-00-cisco-dx-series-ag1024-dx00-bk-c12f-092f3e24af",
@@ -101268,5 +101307,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T07:38:34.938081+00:00"
+  "updated_at": "2026-08-21T07:47:13.324441+00:00"
 }
