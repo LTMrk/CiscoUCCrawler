@@ -380,6 +380,26 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs48546": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvs48546-e6f539c479",
+      "fail_count": 1,
+      "first_seen": "2026-08-21T10:18:24.439120+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-21T10:18:24.439127+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs77189": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvs77189-1d6341b3b0",
+      "fail_count": 1,
+      "first_seen": "2026-08-21T10:18:28.685307+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-21T10:18:28.685313+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs88408": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvs88408-dde608afd4",
@@ -387,6 +407,16 @@
       "first_seen": "2026-08-21T05:42:19.931671+00:00",
       "http_status": 403,
       "last_seen": "2026-08-21T05:42:19.931680+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt07963": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvt07963-cf9bc53e45",
+      "fail_count": 1,
+      "first_seen": "2026-08-21T10:18:20.279506+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-21T10:18:20.279515+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -81351,6 +81381,32 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_appendix_010000.html": {
+      "content_sha": "641aacf57fdf8902dbeca0b43982b4187e4edb442a1f59738f1c2f5185d5465e",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-57de99b9da",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T10:17:12.991049+00:00",
+      "last_changed": "2026-08-21T10:17:12.991049+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T10:17:12.991049+00:00",
+      "next_check": "2026-08-22T10:17:12.991049+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_appendix_010010.html": {
+      "content_sha": "185a817b7f9a31e2af2aeca4b5216d11e903d03777d0f2d5a6aa020fe306fbab",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-17adb6ec57",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T10:17:17.062500+00:00",
+      "last_changed": "2026-08-21T10:17:17.062500+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T10:17:17.062500+00:00",
+      "next_check": "2026-08-22T10:17:17.062500+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_appendix_01111.html": {
       "content_sha": "fb8be95ec8564d9868836a0f87242e125604165ac3e878df07f03fef21e1dd34",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-6531d8316e",
@@ -81403,6 +81459,45 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_chapter_01000.html": {
+      "content_sha": "4e8366c317285608252aa444d161dd9e3f6bc80318ee20cd97be79f24afb2335",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-8293c4d933",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T10:16:44.338514+00:00",
+      "last_changed": "2026-08-21T10:16:44.338514+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T10:16:44.338514+00:00",
+      "next_check": "2026-08-22T10:16:44.338514+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_chapter_010001.html": {
+      "content_sha": "a7dc3b5e86f5853edfa42528ae64b63423a2dab80c0e2bd30cf104ded7875930",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-77e3ccab04",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T10:17:04.848317+00:00",
+      "last_changed": "2026-08-21T10:17:04.848317+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T10:17:04.848317+00:00",
+      "next_check": "2026-08-22T10:17:04.848317+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_chapter_01001.html": {
+      "content_sha": "1bde77dcd87c83822324b5574440a7582e0242f2261c03c3b2a1dfc5613691c3",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-464139e0fb",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T10:16:48.037126+00:00",
+      "last_changed": "2026-08-21T10:16:48.037126+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T10:16:48.037126+00:00",
+      "next_check": "2026-08-22T10:16:48.037126+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_chapter_010011.html": {
       "content_sha": "65ecc817e6d59f28772ca8cb086c49cc2402cacd62f19e2220baaec64f7f9f92",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-0c8448fb4d",
@@ -81426,6 +81521,32 @@
       "last_modified": null,
       "last_seen": "2026-08-21T10:14:35.984784+00:00",
       "next_check": "2026-08-22T10:14:35.984784+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_chapter_01010.html": {
+      "content_sha": "c05630a5ed7ed2ec4819f446df50d06e9b3b6e5b13248813abc12cd90a663621",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-9e99b1642d",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T10:16:52.531480+00:00",
+      "last_changed": "2026-08-21T10:16:52.531480+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T10:16:52.531480+00:00",
+      "next_check": "2026-08-22T10:16:52.531480+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_chapter_01011.html": {
+      "content_sha": "7e114e5688a4e69c434f0965a6eec8bc8bd7f23da9e80c1d8ba83991cceeca0d",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-4a46183dac",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T10:16:56.255894+00:00",
+      "last_changed": "2026-08-21T10:16:56.255894+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T10:16:56.255894+00:00",
+      "next_check": "2026-08-22T10:16:56.255894+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -81455,6 +81576,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_chapter_01100.html": {
+      "content_sha": "73de366ca973d0bbe4e59d009e9bc090f2da69f6a8f0e2b6b7f09a4229ec9038",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-44a19b19ce",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T10:17:00.630263+00:00",
+      "last_changed": "2026-08-21T10:17:00.630263+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T10:17:00.630263+00:00",
+      "next_check": "2026-08-22T10:17:00.630263+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_chapter_01101.html": {
       "content_sha": "db1541094ee4957ff931fd47c6ff6e21c56ba1daaa346db12c3628fcb4fdc541",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-5a75fbbea6",
@@ -81478,6 +81612,19 @@
       "last_modified": null,
       "last_seen": "2026-08-21T10:14:40.086194+00:00",
       "next_check": "2026-08-22T10:14:40.086194+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_chapter_01110.html": {
+      "content_sha": "2065e9056762bb03b483238798cd03f5976354f70dd9a3c9ee7fa2418c49b023",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-2881541bd5",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T10:17:08.861135+00:00",
+      "last_changed": "2026-08-21T10:17:08.861135+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T10:17:08.861135+00:00",
+      "next_check": "2026-08-22T10:17:08.861135+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -81595,6 +81742,45 @@
       "last_modified": null,
       "last_seen": "2026-08-21T03:11:44.842230+00:00",
       "next_check": "2026-08-22T03:11:44.842230+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/admin/guide/cfin_b_1261-cisco-finesse-administration-guide/cfin_m_1261-cisco-finesse-cli.html": {
+      "content_sha": "5a1a29bdacad047372c428523cab771df07fe1fe87466669dc09567a8af4c7c6",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1261-admin-guide-cfin-b-1261-cis-0bee52e0b8",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T10:17:43.246543+00:00",
+      "last_changed": "2026-08-21T10:17:43.246543+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T10:17:43.246543+00:00",
+      "next_check": "2026-08-22T10:17:43.246543+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/admin/guide/cfin_b_1261-cisco-finesse-administration-guide/cfin_m_1261-manage-desktop-layout.html": {
+      "content_sha": "7c304ab899c602c49b5d38b6938903996229b1dfab97ded8206c12ba727b7d84",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1261-admin-guide-cfin-b-1261-cis-9fbefbff26",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T10:17:47.840905+00:00",
+      "last_changed": "2026-08-21T10:17:47.840905+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T10:17:47.840905+00:00",
+      "next_check": "2026-08-22T10:17:47.840905+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/admin/guide/cfin_b_1261-cisco-finesse-administration-guide/cfin_m_1261-manage-reasons.html": {
+      "content_sha": "0a1cb8af97f6873edc20bed796185c4239d99fea984322b85ffb62b78f257226",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1261-admin-guide-cfin-b-1261-cis-28e1b9272c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T10:17:38.489649+00:00",
+      "last_changed": "2026-08-21T10:17:38.489649+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T10:17:38.489649+00:00",
+      "next_check": "2026-08-22T10:17:38.489649+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -112324,5 +112510,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T10:14:40.199237+00:00"
+  "updated_at": "2026-08-21T10:18:28.836543+00:00"
 }
