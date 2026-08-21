@@ -12084,6 +12084,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su1/english/release_notes/guide/cer_b_cisco-emergency-responder-version-1251su1.html": {
+      "content_sha": "5ddedb3f8d7d7df298cada4b5b63e1e735f1fb2ba9e1407e1d00b90f159a3932",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-su1-english-release-notes-guide-cer-b-cisco-emergency-responder-v-ca090e4253",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:27:03.354563+00:00",
+      "last_changed": "2026-08-21T08:27:03.354563+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:27:03.354563+00:00",
+      "next_check": "2026-08-22T08:27:03.354563+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su6/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251su6.html": {
       "content_sha": "dbc4595318700a4ff5cf62cecb9fa63dfe3a4d36a65f1ff0dc1acaac9bce7635",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-su6-english-release-notes-guide-cer0-b-cisco-emergency-responder--1514d65105",
@@ -12094,6 +12107,19 @@
       "last_modified": null,
       "last_seen": "2026-08-21T06:39:10.449017+00:00",
       "next_check": "2026-08-22T06:39:10.449017+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su8/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251su8.html": {
+      "content_sha": "67719998c555e19919ac777d463157ab7fc061fabef0ebdfeff8f58cc5b61047",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-su8-english-release-notes-guide-cer0-b-cisco-emergency-responder--28bec89b99",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:26:40.033433+00:00",
+      "last_changed": "2026-08-21T08:26:40.033433+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:26:40.033433+00:00",
+      "next_check": "2026-08-22T08:26:40.033433+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -12110,6 +12136,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1a/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251a.html": {
+      "content_sha": "e15a8946da2dccaebc93df10918abdc9080aeb57c4a9f90a9648e888c722d39f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1a-english-release-notes-guide-cer0-b-cisco-emergency-responder-rel-7ad3234eb0",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:27:07.852314+00:00",
+      "last_changed": "2026-08-21T08:27:07.852314+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:27:07.852314+00:00",
+      "next_check": "2026-08-22T08:27:07.852314+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su2/english/release_notes/guide/cer0_b_cisco-emergency-responder-version-1251su2.html": {
+      "content_sha": "58e4e0445563818b709ff01e4e36ae9436182c4f125053747477c725d4b97294",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su2-english-release-notes-guide-cer0-b-cisco-emergency-responder-v-35523d2dff",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:26:59.035767+00:00",
+      "last_changed": "2026-08-21T08:26:59.035767+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:26:59.035767+00:00",
+      "next_check": "2026-08-22T08:26:59.035767+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su3/english/cli/guide/cer0_b_cisco-emergency-responder-cli-guide-1251su3.html": {
       "content_sha": "d1c627706177f1cb93e9ef936b0ab61579ea206b06a2af146d99d04b0b7e11f5",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su3-english-cli-guide-cer0-b-cisco-emergency-responder-cli-guide-1-3a17cdf5e1",
@@ -12120,6 +12172,45 @@
       "last_modified": null,
       "last_seen": "2026-08-21T06:40:05.577279+00:00",
       "next_check": "2026-08-22T06:40:05.577279+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su3/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251su3.html": {
+      "content_sha": "122a76620f6415f1cc894a6f35475e22d30f3aa444f2f2b980fc0e7b7a4cc984",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su3-english-release-notes-guide-cer0-b-cisco-emergency-responder-r-248928dfa2",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:26:54.426181+00:00",
+      "last_changed": "2026-08-21T08:26:54.426181+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:26:54.426181+00:00",
+      "next_check": "2026-08-22T08:26:54.426181+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su4/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251su4.html": {
+      "content_sha": "a1199d1b64ec964989b62276e81ceb7ce6b701fd9bc260d8bb79b6d0110a7893",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su4-english-release-notes-guide-cer0-b-cisco-emergency-responder-r-1cf1107966",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:26:49.409689+00:00",
+      "last_changed": "2026-08-21T08:26:49.409689+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:26:49.409689+00:00",
+      "next_check": "2026-08-22T08:26:49.409689+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su5/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251su5.html": {
+      "content_sha": "2fba3a90ee726dd7fe64ffd7a67eaeced67cd9fb9561bfd42af2ab60fa8886e6",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su5-english-release-notes-guide-cer0-b-cisco-emergency-responder-r-fa1b0d6f22",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:26:44.729998+00:00",
+      "last_changed": "2026-08-21T08:26:44.729998+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:26:44.729998+00:00",
+      "next_check": "2026-08-22T08:26:44.729998+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -102916,5 +103007,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T08:24:42.343279+00:00"
+  "updated_at": "2026-08-21T08:27:36.497244+00:00"
 }
