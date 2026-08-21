@@ -4058,6 +4058,32 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-bar/221018-collect-packet-capture-from-mtr-register.html": {
+      "content_sha": "7f282ead72a78e2720e6103164447bc39c3af88b0475ddbd0dae1a8af5a8d7ac",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-bar-221018-collect-packet-capture-from-mtr-register-html-cfb82982d0",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:48:52.437402+00:00",
+      "last_changed": "2026-08-21T12:48:52.437402+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:48:52.437402+00:00",
+      "next_check": "2026-08-22T12:48:52.437402+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-kit-eq/221037-configure-mtr-device-to-join-third-party.html": {
+      "content_sha": "ef58f54bddb460db13bc2951fc05739441e791ce9d27c00b03e37d84c6c53f9b",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-kit-eq-221037-configure-mtr-device-to-join-third-party-h-2c0c2818bf",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:48:43.832554+00:00",
+      "last_changed": "2026-08-21T12:48:43.832554+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:48:43.832554+00:00",
+      "next_check": "2026-08-22T12:48:43.832554+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-kit/222702-troubleshoot-a-video-endpoint-showing-me.html": {
       "content_sha": "d325688f861ebedb1b7c5f0484b96eb13d075f6a76ace374885f93aa92cbf009",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-kit-222702-troubleshoot-a-video-endpoint-showing-me-html-472290c2bd",
@@ -4237,6 +4263,19 @@
       "last_modified": null,
       "last_seen": "2026-08-21T12:39:16.682816+00:00",
       "next_check": "2026-08-22T12:39:16.682816+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li.html": {
+      "content_sha": "02742a4c9be0027a7306982e433c10df9b7baea4974893ce22dd8e98c51b95e2",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-share-220489-configure-device-onboarding-and-cloud-li-h-d0e521724c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:48:56.798623+00:00",
+      "last_changed": "2026-08-21T12:48:56.798623+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:48:56.798623+00:00",
+      "next_check": "2026-08-22T12:48:56.798623+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -6268,6 +6307,19 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/ata-190-series-analog-telephone-adapters/211318-Configure-and-Troubleshoot-PLAR-for-Anal.html": {
+      "content_sha": "f7d8e502a38932ea70c87a338efc6a15901b60f03a4b23910c37a8cf557dba7f",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-ata-190-series-analog-telephone-adapters-211318-configure-and--92e78fcb35",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:51:07.973375+00:00",
+      "last_changed": "2026-08-21T12:51:07.973375+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:51:07.973375+00:00",
+      "next_check": "2026-08-22T12:51:07.973375+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/bulk-administration-tool/200596-Bulk-Configure-Changes-with-Import-Expor.html": {
       "content_sha": "5702b1496009e0d76a2961e588e3ac775c079554dd3b1aa638a51f6911f97358",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-bulk-administration-tool-200596-bulk-configure-changes-with-im-57b0aeb703",
@@ -7958,6 +8010,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n.html": {
+      "content_sha": "6cc3e3ddf421408effe5934830463bea1d05cae3cec5aa4ae5521b0e1b66de5d",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-applications-220225-troubleshoot-jabber-c1829d4876",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:49:05.140420+00:00",
+      "last_changed": "2026-08-21T12:49:05.140420+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:49:05.140420+00:00",
+      "next_check": "2026-08-22T12:49:05.140420+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/115785-anyconnect-vpn-00.html": {
       "content_sha": "edeb8a546f066da2664dce85d3e9c0d9b17ff7dafe8892b094f26891bbeeef05",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-115785-anyconnect-v-ed2e4d224c",
@@ -8291,10 +8356,10 @@
       "first_seen": "2026-08-16T23:12:25.256045+00:00",
       "last_changed": "2026-08-16T23:12:25.256045+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:03:34.383039+00:00",
-      "next_check": "2026-08-21T00:03:34.383039+00:00",
+      "last_seen": "2026-08-21T12:53:29.359342+00:00",
+      "next_check": "2026-08-25T12:53:29.359342+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html": {
       "content_sha": "0ea2010275b292fc812bddeb6198a35f435e1597eb6457e6173488825cd8f0a6",
@@ -9401,6 +9466,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/vg-series-gateways/212138-Configure-VG224-SCCP-Secure-Encrypted.html": {
+      "content_sha": "4e7275d343566e679744265591946760c5689578b3f207f67542b62df15bf68d",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-vg-series-gateways-212138-configure-vg224-sccp-secure-encrypte-948a4673f7",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:52:10.031870+00:00",
+      "last_changed": "2026-08-21T12:52:10.031870+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:52:10.031870+00:00",
+      "next_check": "2026-08-22T12:52:10.031870+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-app/220861-troubleshoot-error-couldn-t-save-the-mi.html": {
       "content_sha": "784ac1d86e7bf8a814b90e58811b4762b34bb6c037ad38e313eaecd9fb98eabb",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-app-220861-troubleshoot-error-couldn-t-save-the-mi-html-85986364fc",
@@ -9804,6 +9882,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation.html": {
+      "content_sha": "785484b4cabaf8629a90036c108be106c9b1ca19aa2225fc78fadeb6717916ee",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-cloud-connected-uc-218136-troubleshoot-webex-connect-cha-a9c466f974",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:49:13.468742+00:00",
+      "last_changed": "2026-08-21T12:49:13.468742+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:49:13.468742+00:00",
+      "next_check": "2026-08-22T12:49:13.468742+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with.html": {
+      "content_sha": "b70f844fc419d617ced3e2dbe957e90e463c22b458208d288a2da89a632c5b9a",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-cloud-connected-uc-218139-configure-webex-connect-email--7e189e19c0",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:49:09.442186+00:00",
+      "last_changed": "2026-08-21T12:49:09.442186+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:49:09.442186+00:00",
+      "next_check": "2026-08-22T12:49:09.442186+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m.html": {
       "content_sha": "1655fd499751527c62ab1f51f555bc36f1166af76418f8154a4988ab3a254778",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-cloud-connected-uc-220387-configure-hybrid-calendar-serv-5b3d1da5a3",
@@ -10128,6 +10232,19 @@
       "next_check": "2026-08-21T00:12:46.451839+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/64282-impedance-choice.html": {
+      "content_sha": "404bf21ff69e59ec872d05190f08a2a3f9c26aba51548dd5a4a7b516db6841ce",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-ip-telephony-voice-over-ip-voip-64282-impedance-choice-html-547fdb85a2",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:52:35.453136+00:00",
+      "last_changed": "2026-08-21T12:52:35.453136+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:52:35.453136+00:00",
+      "next_check": "2026-08-22T12:52:35.453136+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/111980-cpa-00.html": {
       "content_sha": "57bf8fe1b67ea78cec627ca076e979c5be8075e6d8f19945bd75a7d1df5d995a",
@@ -12807,6 +12924,97 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/routers/access/vg350/hardware/installation/guide/vg350_hig/vg350higovw.html": {
+      "content_sha": "55d2d2555411cf399cedeb057b9ecd782d414496354f4bbaf05f4e559a81b685",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-routers-access-vg350-hardware-installation-guide-vg350-hig-vg350higovw-html-472968b36a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:51:20.647587+00:00",
+      "last_changed": "2026-08-21T12:51:20.647587+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:51:20.647587+00:00",
+      "next_check": "2026-08-22T12:51:20.647587+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig.html": {
+      "content_sha": "f76b6e3651d4d28c430f419c4c2615b6b442c0d727c678925e1e732867d8a12f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-routers-access-vg400-hardware-installation-guide-b-vg400-hig-html-14a1664d18",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:51:57.536077+00:00",
+      "last_changed": "2026-08-21T12:51:57.536077+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:51:57.536077+00:00",
+      "next_check": "2026-08-22T12:51:57.536077+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig/b_vg400_hig_chapter_00.html": {
+      "content_sha": "9f5a63dc9f3f6034e8719372015fcf389d2d0d4da03a57dd2bfab11dcf1b9d77",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-routers-access-vg400-hardware-installation-guide-b-vg400-hig-b-vg400-hig-chapter-00-html-5feac517ff",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:51:12.319714+00:00",
+      "last_changed": "2026-08-21T12:51:12.319714+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:51:12.319714+00:00",
+      "next_check": "2026-08-22T12:51:12.319714+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/hardware-installation/b-vg410-hardware-intallation-guide.html": {
+      "content_sha": "4085c93b89fd9f9e6fda553e78b6a241aa76ccbf98dd4eeeed497193596fe04a",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-routers-access-vg410-hardware-installation-b-vg410-hardware-intallation-guide-html-145948e5c4",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:51:53.503736+00:00",
+      "last_changed": "2026-08-21T12:51:53.503736+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:51:53.503736+00:00",
+      "next_check": "2026-08-22T12:51:53.503736+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/hardware-installation/b-vg410-hardware-intallation-guide/m-overview-cisco-vg410.html": {
+      "content_sha": "17e5e3d90241392302454cfeea75176b7a07f1e75ac886ae38a83db18126ed2c",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-routers-access-vg410-hardware-installation-b-vg410-hardware-intallation-guide-m-overview-c-eaf6e14f22",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:51:16.432166+00:00",
+      "last_changed": "2026-08-21T12:51:16.432166+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:51:16.432166+00:00",
+      "next_check": "2026-08-22T12:51:16.432166+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/hardware/installation/guide/b_Vg450_hig.html": {
+      "content_sha": "94696a668977df2ab38d1cc0a1993c76636e8e62edf90fdee71815fde2f5ef64",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-routers-access-vg450-hardware-installation-guide-b-vg450-hig-html-e0ef342709",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:51:44.929761+00:00",
+      "last_changed": "2026-08-21T12:51:44.929761+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:51:44.929761+00:00",
+      "next_check": "2026-08-22T12:51:44.929761+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg.html": {
+      "content_sha": "ee83d49f3bcc792d37185baca7c160b49298bdafd878836263817239b863745d",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-routers-access-vg450-software-configuration-guide-vg450-scg-html-9c264b2316",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:51:40.849190+00:00",
+      "last_changed": "2026-08-21T12:51:40.849190+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:51:40.849190+00:00",
+      "next_check": "2026-08-22T12:51:40.849190+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/12x/120/collbcvd.html": {
       "content_sha": "428a0ce69e5d4afbd22caf7a79d9386ec6fbc40329a37c6baa545e582cbdb425",
       "doc_id": "www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-enterprise-12x-120-collbcvd-html-141cd1f5fb",
@@ -13280,10 +13488,10 @@
       "first_seen": "2026-08-16T18:26:14.154123+00:00",
       "last_changed": "2026-08-16T18:26:14.154123+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:36:08.862259+00:00",
-      "next_check": "2026-08-21T00:36:08.862259+00:00",
+      "last_seen": "2026-08-21T12:55:43.068752+00:00",
+      "next_check": "2026-08-25T12:55:43.068752+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12xy/hybcvd/calendar.html": {
       "content_sha": "fd1acac5de8d7e8e39cda7d0544164d535d5873052f7bc1794198afffa3c86d8",
@@ -13293,10 +13501,10 @@
       "first_seen": "2026-08-16T18:25:58.965897+00:00",
       "last_changed": "2026-08-16T18:25:58.965897+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:36:12.784055+00:00",
-      "next_check": "2026-08-21T00:36:12.784055+00:00",
+      "last_seen": "2026-08-21T12:55:30.137132+00:00",
+      "next_check": "2026-08-25T12:55:30.137132+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12xy/hybcvd/directory.html": {
       "content_sha": "afe861255bc8e9ad2c610292e6dbacf1543241f309330345a6951113dc89598c",
@@ -13306,10 +13514,10 @@
       "first_seen": "2026-08-16T18:25:54.466390+00:00",
       "last_changed": "2026-08-16T18:25:54.466390+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:36:16.814147+00:00",
-      "next_check": "2026-08-21T00:36:16.814147+00:00",
+      "last_seen": "2026-08-21T12:55:25.772582+00:00",
+      "next_check": "2026-08-25T12:55:25.772582+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12xy/hybcvd/hcallsvc.html": {
       "content_sha": "970821a01b0006ace1534d57ce95359ef8087cd4682c9eb77261ab88b24afde0",
@@ -13319,10 +13527,10 @@
       "first_seen": "2026-08-16T18:26:09.928126+00:00",
       "last_changed": "2026-08-16T18:26:09.928126+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:36:21.172626+00:00",
-      "next_check": "2026-08-21T00:36:21.172626+00:00",
+      "last_seen": "2026-08-21T12:55:38.695389+00:00",
+      "next_check": "2026-08-25T12:55:38.695389+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12xy/hybcvd/hms.html": {
       "content_sha": "12cde37e6ce00b05997887fbfb81e01ef77e77a281737b2f6967d2867f0ba351",
@@ -13332,10 +13540,10 @@
       "first_seen": "2026-08-16T18:26:06.045976+00:00",
       "last_changed": "2026-08-16T18:26:06.045976+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:36:25.377830+00:00",
-      "next_check": "2026-08-21T00:36:25.377830+00:00",
+      "last_seen": "2026-08-21T12:55:34.624250+00:00",
+      "next_check": "2026-08-25T12:55:34.624250+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12xy/hybcvd/intro.html": {
       "content_sha": "236c11f3227d12fa6bab1277e24813a993b27849cad8531d9af0be146097fd80",
@@ -13345,10 +13553,10 @@
       "first_seen": "2026-08-16T18:25:50.196300+00:00",
       "last_changed": "2026-08-16T18:25:50.196300+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:36:29.041812+00:00",
-      "next_check": "2026-08-21T00:36:29.041812+00:00",
+      "last_seen": "2026-08-21T12:55:21.357842+00:00",
+      "next_check": "2026-08-25T12:55:21.357842+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12xy/hybcvd/preface.html": {
       "content_sha": "721ad97dd7beb0bc0becab59acc8455f309067470035f2b6d5026d2d91aa5d64",
@@ -13358,10 +13566,10 @@
       "first_seen": "2026-08-16T18:25:46.071551+00:00",
       "last_changed": "2026-08-16T18:25:46.071551+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:36:33.164942+00:00",
-      "next_check": "2026-08-21T00:36:33.164942+00:00",
+      "last_seen": "2026-08-21T12:55:17.476614+00:00",
+      "next_check": "2026-08-25T12:55:17.476614+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12xy/hybcvd/sizing.html": {
       "content_sha": "667b2660d0ee8af5850cfa5f77ea914c90605bdb2f8de86589d648f49b50a7a3",
@@ -13371,10 +13579,10 @@
       "first_seen": "2026-08-16T18:26:18.004232+00:00",
       "last_changed": "2026-08-16T18:26:18.004232+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:36:37.336636+00:00",
-      "next_check": "2026-08-21T00:36:37.336636+00:00",
+      "last_seen": "2026-08-21T12:55:46.994769+00:00",
+      "next_check": "2026-08-25T12:55:46.994769+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/14/hybcvd.html": {
       "content_sha": "a53a0bf433fe8a94f1c8bee6edb7fef20937c16bf82107666581246e47186488",
@@ -13724,6 +13932,318 @@
       "last_modified": null,
       "last_seen": "2026-08-21T09:47:16.205447+00:00",
       "next_check": "2026-08-22T09:47:16.205447+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/english/admin-guide/at91_b_ata191-admin-guide.html": {
+      "content_sha": "323e6bf338d8846e21f2785e6de4f0b57a86243682bddc90cbd1824dcd66f4a2",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-english-admin-guide-at91-b-ata191-admin-guide-html-015c78d1ab",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:51:03.677181+00:00",
+      "last_changed": "2026-08-21T12:51:03.677181+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:51:03.677181+00:00",
+      "next_check": "2026-08-22T12:51:03.677181+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/english/user-guide/at91_b_ata191-user-guide-for-cucm.html": {
+      "content_sha": "f0fb3c9f55d036fd6b23f5db815ff8ce6f713781861ea3157174d66b5a0c66db",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-english-user-guide-at91-b-ata191-user-guide-for-cucm-html-bca087a8df",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:50:55.225031+00:00",
+      "last_changed": "2026-08-21T12:50:55.225031+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:50:55.225031+00:00",
+      "next_check": "2026-08-22T12:50:55.225031+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/english/user-guide/at91_b_ata191-user-guide-for-cucm/at91_b_ata191-user-guide-for-cucm_chapter_00.html": {
+      "content_sha": "0e19bcf4b3260b5531210f360db8700a809c50c5f23f87e963b576fed7618eff",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-english-user-guide-at91-b-ata191-user-guide-for-cucm-at91-b-ata191--480ca7846a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:49:21.744147+00:00",
+      "last_changed": "2026-08-21T12:49:21.744147+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:49:21.744147+00:00",
+      "next_check": "2026-08-22T12:49:21.744147+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/english/user-guide/at91_b_ata191-user-guide-for-cucm/at91_b_ata191-user-guide-for-cucm_chapter_01.html": {
+      "content_sha": "6a0c8a1bac9dbd3cdd7cecd03028ebe3938d06664dce3cc048e06b1b5404775f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-english-user-guide-at91-b-ata191-user-guide-for-cucm-at91-b-ata191--6799be895a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:49:34.865094+00:00",
+      "last_changed": "2026-08-21T12:49:34.865094+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:49:34.865094+00:00",
+      "next_check": "2026-08-22T12:49:34.865094+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/firmware/12-0-1SR4/at91_b_cisco-ata-191-rn-1201sr4.html": {
+      "content_sha": "a186baf7097bc280807fba2891beb4191a47a8a19985a389eb2ad5c5305372f6",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-firmware-12-0-1sr4-at91-b-cisco-ata-191-rn-1201sr4-html-94f46716f4",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:50:30.008634+00:00",
+      "last_changed": "2026-08-21T12:50:30.008634+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:50:30.008634+00:00",
+      "next_check": "2026-08-22T12:50:30.008634+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/firmware/12-0-2/at91_b_cisco-ata-191-1202.html": {
+      "content_sha": "99a594be0dd59c13db26f0a0a50c2ba6505057aa628b93becacbf3c703642e61",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-firmware-12-0-2-at91-b-cisco-ata-191-1202-html-a8e2eea899",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:50:09.011185+00:00",
+      "last_changed": "2026-08-21T12:50:09.011185+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:50:09.011185+00:00",
+      "next_check": "2026-08-22T12:50:09.011185+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/firmware/12-0-3-sr1/at91_b_cisco-ata-191-1203sr1.html": {
+      "content_sha": "e3477ea62095b7f79693b28a5ad79f1804d9f51953ac840a915cd68f50093037",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-firmware-12-0-3-sr1-at91-b-cisco-ata-191-1203sr1-html-ab81043804",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:49:52.085564+00:00",
+      "last_changed": "2026-08-21T12:49:52.085564+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:49:52.085564+00:00",
+      "next_check": "2026-08-22T12:49:52.085564+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/firmware/12-0-3/at91_b_cisco-ata-191-1203.html": {
+      "content_sha": "1fc34f8427a8bb41cb1872a0625b17320bb8005b5497bf8e42ba4bc659341c18",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-firmware-12-0-3-at91-b-cisco-ata-191-1203-html-a3866d409a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:49:56.296541+00:00",
+      "last_changed": "2026-08-21T12:49:56.296541+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:49:56.296541+00:00",
+      "next_check": "2026-08-22T12:49:56.296541+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/admin-guide/at9x_b_ata191-192-admin-mp/at9x_b_ata191-192-admin-mp_chapter_010.html": {
+      "content_sha": "9d258f0393d951cc64dc71426e27a2ebff980ea0162911c05f02c71600096715",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-admin-guide-at9x-b-ata191-192-admin-mp-at9x-b-ata191-1-948fae8fc6",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:49:17.927542+00:00",
+      "last_changed": "2026-08-21T12:49:17.927542+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:49:17.927542+00:00",
+      "next_check": "2026-08-22T12:49:17.927542+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/admin-guide/at9x_b_ata191-192-admin-mp/at9x_b_ata191-192-admin-mp_chapter_011.html": {
+      "content_sha": "dd773ea0f7092c44b23908ffd6f19db0429b3f70cfde2fd661d845ad3ff4f2f6",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-admin-guide-at9x-b-ata191-192-admin-mp-at9x-b-ata191-1-15b7da2a2d",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:49:27.355841+00:00",
+      "last_changed": "2026-08-21T12:49:27.355841+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:49:27.355841+00:00",
+      "next_check": "2026-08-22T12:49:27.355841+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/provguide/at1x_b_ata191-ata192-mpp-prov.html": {
+      "content_sha": "c8fa206197135480f558cdb65e076732fff63ca2f7bc7c5ed92c74ab5cb89b81",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-provguide-at1x-b-ata191-ata192-mpp-prov-html-ef1a990568",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:50:46.952937+00:00",
+      "last_changed": "2026-08-21T12:50:46.952937+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:50:46.952937+00:00",
+      "next_check": "2026-08-22T12:50:46.952937+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/provguide/at1x_b_ata191-ata192-mpp-prov/at1x_b_ata191-ata192-mpp-prov_chapter_00.html": {
+      "content_sha": "bf6b4017dc1c1ca47a4ba3d66579fdd2fda4fceabcde854cbb30a13ed3c21000",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-provguide-at1x-b-ata191-ata192-mpp-prov-at1x-b-ata191--c173b4208b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:49:39.146024+00:00",
+      "last_changed": "2026-08-21T12:49:39.146024+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:49:39.146024+00:00",
+      "next_check": "2026-08-22T12:49:39.146024+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/user-guide/at1x_b_ata191-ata192-user-mpp.html": {
+      "content_sha": "7f2135748511e5f3c24f0d7318ee0c17c7f1d140ada6114924860e2793d78ece",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-user-guide-at1x-b-ata191-ata192-user-mpp-html-352eb24d87",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:50:50.768935+00:00",
+      "last_changed": "2026-08-21T12:50:50.768935+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:50:50.768935+00:00",
+      "next_check": "2026-08-22T12:50:50.768935+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/user-guide/at1x_b_ata191-ata192-user-mpp/at1x_b_ata191-ata192-user-mpp_chapter_00.html": {
+      "content_sha": "df5fde8259613e2872df6bf150f911f4feb9b29fba005cfea2e6271f9711529d",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-user-guide-at1x-b-ata191-ata192-user-mpp-at1x-b-ata191-31d2d768f9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:49:30.671752+00:00",
+      "last_changed": "2026-08-21T12:49:30.671752+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:49:30.671752+00:00",
+      "next_check": "2026-08-22T12:49:30.671752+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-1-0SR4/releasenotes/at92_b_ata-191_192_rn-1110msr4.html": {
+      "content_sha": "82e4a219347e6ae4eac3b457f57002611f9f2828a3997119986336c4715287af",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-firmware-11-1-0sr4-releasenotes-at92-b-ata-191-192-rn-1110msr4-c7df130ac2",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:50:38.145889+00:00",
+      "last_changed": "2026-08-21T12:50:38.145889+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:50:38.145889+00:00",
+      "next_check": "2026-08-22T12:50:38.145889+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-2-1/releasenotes/at9x_b_ata-191_192-rn-1121.html": {
+      "content_sha": "e9b772e7df91ff79b1b0ab21cd54d53dd0765ac87775a4d0542c666111389080",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-firmware-11-2-1-releasenotes-at9x-b-ata-191-192-rn-1121-html-a20882f85a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:50:33.997626+00:00",
+      "last_changed": "2026-08-21T12:50:33.997626+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:50:33.997626+00:00",
+      "next_check": "2026-08-22T12:50:33.997626+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-2-2/releasenotes/at9x_b_ata-191_192-rn-1122.html": {
+      "content_sha": "6757544824931ef721dbd1246c9a391f201232323ac44720fd9f3233c325292a",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-firmware-11-2-2-releasenotes-at9x-b-ata-191-192-rn-1122-html-d4023a9bc1",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:50:26.074024+00:00",
+      "last_changed": "2026-08-21T12:50:26.074024+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:50:26.074024+00:00",
+      "next_check": "2026-08-22T12:50:26.074024+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-2-3/ATA-Release-Notes-for-MPP-11-2-3.html": {
+      "content_sha": "12246e4733bb915489576874404022d18452078754f7540b8c9472d6be30832d",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-firmware-11-2-3-ata-release-notes-for-mpp-11-2-3-html-83dae327d9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:50:17.630172+00:00",
+      "last_changed": "2026-08-21T12:50:17.630172+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:50:17.630172+00:00",
+      "next_check": "2026-08-22T12:50:17.630172+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-2-4/releasenotes/at9x_b_ata-191_192-rn-1124.html": {
+      "content_sha": "c731561e1c208e692d8977778573900bfeb8efbd70887ca7e97bb8766cdfcd53",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-firmware-11-2-4-releasenotes-at9x-b-ata-191-192-rn-1124-html-0b79b55f50",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:50:13.442501+00:00",
+      "last_changed": "2026-08-21T12:50:13.442501+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:50:13.442501+00:00",
+      "next_check": "2026-08-22T12:50:13.442501+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-2-5/releasenotes/at9x_b_ata-191_192-rn-1125.html": {
+      "content_sha": "5cf6cd3c2668609d75058fba48e567d697be49e596b279d724e495a43eafd1a8",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-firmware-11-2-5-releasenotes-at9x-b-ata-191-192-rn-1125-html-d0fb034dd2",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:50:04.832128+00:00",
+      "last_changed": "2026-08-21T12:50:04.832128+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:50:04.832128+00:00",
+      "next_check": "2026-08-22T12:50:04.832128+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-3-1/releasenotes/at9x_b_ata-191_192-rn-1131.html": {
+      "content_sha": "28314c2d376e4dcfbffd211fff9d70cc294d19ee8b06d2d964a9e86266c78823",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-firmware-11-3-1-releasenotes-at9x-b-ata-191-192-rn-1131-html-c09954d69b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:50:00.595687+00:00",
+      "last_changed": "2026-08-21T12:50:00.595687+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:50:00.595687+00:00",
+      "next_check": "2026-08-22T12:50:00.595687+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-3-2/releasenotes/at9x_b_ata-191_192-rn-1132.html": {
+      "content_sha": "87b052c1be91806ca54b75907a558149e62025dcec92bebfa24e9e1933999ec0",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-firmware-11-3-2-releasenotes-at9x-b-ata-191-192-rn-1132-html-a1d3ad2825",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:49:47.762062+00:00",
+      "last_changed": "2026-08-21T12:49:47.762062+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:49:47.762062+00:00",
+      "next_check": "2026-08-22T12:49:47.762062+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-3-2SR1/releasenotes/at9x_b_ata-191_192-rn-1132sr1.html": {
+      "content_sha": "b5f244726615ba9a51e1bb73f4644887f4a71792b23ce833bc2d132bef54efae",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-firmware-11-3-2sr1-releasenotes-at9x-b-ata-191-192-rn-1132sr1--64bb63ea65",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:49:43.343828+00:00",
+      "last_changed": "2026-08-21T12:49:43.343828+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:49:43.343828+00:00",
+      "next_check": "2026-08-22T12:49:43.343828+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/12-2-2SR1/releasenotes/at9x_b_ata-191-192-rn_11_2_2_sr1.html": {
+      "content_sha": "b2d8d9e1a17005c8677ba37d82396ff227e1a80b7d67509e5632d7bba2293332",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-firmware-12-2-2sr1-releasenotes-at9x-b-ata-191-192-rn-11-2-2-s-e100a389bc",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:50:21.824204+00:00",
+      "last_changed": "2026-08-21T12:50:21.824204+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:50:21.824204+00:00",
+      "next_check": "2026-08-22T12:50:21.824204+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -117396,6 +117916,84 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_0/english/configuration/guide/soft_con.html": {
+      "content_sha": "1a1f5d5a1794207a5133709798849117615f6398adf4a7e3b79348defb0e2037",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-vg248-1-0-english-configuration-guide-soft-con-html-e3a5ee42ba",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:52:30.815968+00:00",
+      "last_changed": "2026-08-21T12:52:30.815968+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:52:30.815968+00:00",
+      "next_check": "2026-08-22T12:52:30.815968+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_0/english/install/guide/hard_ins.html": {
+      "content_sha": "bfa80bcced3d48d630b2c09d1e88ad4ccd9e758f6776571f37ca12e118204e4b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-vg248-1-0-english-install-guide-hard-ins-html-e8841d7c26",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:52:01.576600+00:00",
+      "last_changed": "2026-08-21T12:52:01.576600+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:52:01.576600+00:00",
+      "next_check": "2026-08-22T12:52:01.576600+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_0_1/english/release/notes/vg248rn.html": {
+      "content_sha": "4b053e989fe556bac1f945565e7f2cff9c41f89dee428705191deb79cb37f380",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-vg248-1-0-1-english-release-notes-vg248rn-html-4fea7aadf7",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:51:36.846945+00:00",
+      "last_changed": "2026-08-21T12:51:36.846945+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:51:36.846945+00:00",
+      "next_check": "2026-08-22T12:51:36.846945+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_0_2/english/release/notes/vg248rn2.html": {
+      "content_sha": "3e6a05d3aabee8f8faf1364a1103a547a7e43e231e9bc90ff772b1bd64b73e25",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-vg248-1-0-2-english-release-notes-vg248rn2-html-c784d0761f",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:51:32.848530+00:00",
+      "last_changed": "2026-08-21T12:51:32.848530+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:51:32.848530+00:00",
+      "next_check": "2026-08-22T12:51:32.848530+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_1/english/release/notes/vg248rn3.html": {
+      "content_sha": "51268b1aa5915408ac42f2607dea954dbeb658a1fb833ca751ff6775d613f972",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-vg248-1-1-english-release-notes-vg248rn3-html-3c1fd4ba3d",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:51:29.239206+00:00",
+      "last_changed": "2026-08-21T12:51:29.239206+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:51:29.239206+00:00",
+      "next_check": "2026-08-22T12:51:29.239206+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_1_2/english/release/notes/vg248rn4.html": {
+      "content_sha": "dfe3924e317fce75100dc3bf7f83f5e048288a06340c55ef0853fc3660cd55b8",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-vg248-1-1-2-english-release-notes-vg248rn4-html-9c36624b70",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:51:24.836305+00:00",
+      "last_changed": "2026-08-21T12:51:24.836305+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:51:24.836305+00:00",
+      "next_check": "2026-08-22T12:51:24.836305+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/all-new-webex.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-all-new-webex-html-f2a378deda",
@@ -117468,5 +118066,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T12:45:37.362912+00:00"
+  "updated_at": "2026-08-21T12:55:50.908053+00:00"
 }
