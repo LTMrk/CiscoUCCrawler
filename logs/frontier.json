@@ -1,237 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118999-config-imaddress-jabber-00.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/admintasks/cjab_b_cisco-jabber-administration-tasks.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116433-probsol-jabber-00.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118161-technote-jabber-00.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200120-Troubleshoot-Call-Decline-Issues-in-Jabb.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212429-configure-jabber-to-use-custom-audio-and.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212180-Troubleshoot-Jabber-for-Windows-auto-upd.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/201016-TechNote-on-Customization-of-Jabber-MSI.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200637-Avoid-Jabber-Authentication-with-the-Web.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116517-problem-jabber-00.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116446-technote-product-00.html",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/283880684/type/284006014",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/213951-jabber-for-mac-quick-start-guide.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/116682-technote-jabber-00.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/jabm_b_release-notes-128.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/jabm_b_release-notes-12-7.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_6/jabm_b_release-notes_12-6.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_5/jabm_b_releasenotes_125.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_1/RN/jabm_b_release-notes-for-cisco-jabber_121_mac.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-mac/products-installation-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/how-to-read-cisco-jabber-problem-report-logs-with-translatorx/ta-p/3164819",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/small-business-support-knowledge-base/video-problem-cisco-jabber-mac-client/ta-p/5088806",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/278875338",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_automatic-answering-guide.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/jabi_b_release-notes-128.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/jabi_b_release-notes-12-7.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iOS/12_6/jabi_b_releasenotes-12-6.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iOS/jabi_b_releasenotes_125.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/rn/jabi_b_release-notes-for-cisco-jabber_121.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_x/JABP_BK_CC0E0575_00_cisco-jabber-for-ipad-932.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_J5F7220D_00_jabber-video-ipad-release-notes-9-3-5.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_C5B016A9_00_cisco-jabber-video-for-ipad.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/jabber-iphone-ipad/products-installation-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_x/JABP_BK_CB31C807_00_cisco-jabber-for-ipad-931.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_x/JABP_BK_CFB4249A_00_cisco-jabber-for-ipad-932.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/security-knowledge-base/flexvpn-ikev2-eap-secure-connection-between-iphone-ipad-and-a/ta-p/3136285",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide.epub",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide.mobi",
-    "depth": 2
-  },
-  {
-    "url": "https://video.cisco.com/detail/video/5835977589001/jabber---how-to-clear-cache",
-    "depth": 2
-  },
-  {
-    "url": "https://video.cisco.com/video/5817625377001",
-    "depth": 2
-  },
-  {
-    "url": "https://video.cisco.com/video/5997132499001",
-    "depth": 2
-  },
-  {
-    "url": "https://video.cisco.com/video/6008102189001",
-    "depth": 2
-  },
-  {
-    "url": "https://video.cisco.com/video/6130175365001",
-    "depth": 2
-  },
-  {
-    "url": "https://video.cisco.com/video/6213152158001",
-    "depth": 2
-  },
-  {
-    "url": "https://video.cisco.com/video/6248914756001",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212471-jabber-login.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/series.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.epub",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.mobi",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.epub",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.mobi",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_b_planning-guide-cisco-jabber-14_0/cjab_b_planning-guide-cisco-jabber-129_chapter_01010.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.epub",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.mobi",
-    "depth": 2
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.epub",
     "depth": 2
   },
@@ -25725,6 +25493,786 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200539-Configuration-of-Enterprise-Group-via-ED.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://collaborationhelp.cisco.com/article/WBX000026976",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116433-probsol-jabber-00.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116433-probsol-jabber-00.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118161-technote-jabber-00.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118161-technote-jabber-00.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200120-Troubleshoot-Call-Decline-Issues-in-Jabb.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200120-Troubleshoot-Call-Decline-Issues-in-Jabb.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212429-configure-jabber-to-use-custom-audio-and.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212429-configure-jabber-to-use-custom-audio-and.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212180-Troubleshoot-Jabber-for-Windows-auto-upd.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212180-Troubleshoot-Jabber-for-Windows-auto-upd.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvd85090",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/201016-TechNote-on-Customization-of-Jabber-MSI.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/201016-TechNote-on-Customization-of-Jabber-MSI.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_0/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110_chapter_01100.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_0/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110_chapter_0100.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_0/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110_chapter_01010.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/213951-jabber-for-mac-quick-start-guide.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/213951-jabber-for-mac-quick-start-guide.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw93559",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu89568",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv06604",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu00490",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu00496",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq52820",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr12551",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr39510",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr42550",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr44644",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr52618",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr82895",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr87405",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr88304",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs05055",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs06450",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs09317",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs18528",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs39539",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs51098",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/jabm_b_release-notes-12-7.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/jabm_b_release-notes-12-7.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvr43256",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvr39510",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvr58963",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvr12551",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvq46893",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp61058",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvq03999",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvq10625",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvq28009",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvq66901",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvq97047",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_6/jabm_b_release-notes_12-6.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_6/jabm_b_release-notes_12-6.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp22805",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp13607",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp13633",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp13646",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp13667",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp13693",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp13702",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp45112",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp74650",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp95654",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvq13800",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvo43107",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvm60187",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn42926",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn50852",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvo13089",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvo27156",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvo59911",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_5/jabm_b_releasenotes_125.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_5/jabm_b_releasenotes_125.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn57810%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn45751",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvj58903%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvj58906%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvk48746%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvm77105%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvm85867%20",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_1/RN/jabm_b_release-notes-for-cisco-jabber_121_mac.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_1/RN/jabm_b_release-notes-for-cisco-jabber_121_mac.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm47906",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm44563",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj47601",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm49327",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj58903",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj58906",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj85070",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj95503",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj62636",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj53345",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvf88433",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvf92476",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_b_planning-guide-cisco-jabber-14_0.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_b_deploy-jabber-webex-messenger-14_0.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_planning-guide-cisco-jabber-129.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_deploy-jabber-on-premises-129.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_planning-guide-cisco-jabber-128.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_deploy-jabber-webex-messenger-128.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_planning-guide-cisco-jabber-127.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_cloud-and-hybrid-deployments-cisco-jabber-12-6.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Planning_Guide/cjab_b_planning-guide-for-cisco-jabber-125.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_planning-guide-for-cisco-jabber.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_onprem-deployment-for-jabber141.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_planning-guide-for-jabber141.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_webex-messenger-deploy-jabber141.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCux83785",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt95763",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt17368",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs56188",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs58595",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr12542",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr97701",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs51394",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/jabi_b_release-notes-12-7.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/jabi_b_release-notes-12-7.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvr55497",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvr40957",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvr66108",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvr61388",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvr12542",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp25135",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvq70474",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvq95562",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iOS/12_6/jabi_b_releasenotes-12-6.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iOS/12_6/jabi_b_releasenotes-12-6.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvq55546",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvq65242",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp45050",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp42829",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp24475",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvq13803",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp13523",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp13630",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp13640",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp13659",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp13684",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp13698",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvo43104",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn75049",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn76823",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn82423",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvo13245",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvo31907",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvo42923",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iOS/jabi_b_releasenotes_125.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iOS/jabi_b_releasenotes_125.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn85471",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn88873",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn83242",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn57594",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn45734",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn20659%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvj58867%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvj58876%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvk48133%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvk48728%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvk54389%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvm21505%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvm84398%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvm91213%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvi23850%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvk64132%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvk79433%20",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn45734%20",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/rn/jabi_b_release-notes-for-cisco-jabber_121.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/rn/jabi_b_release-notes-for-cisco-jabber_121.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm67800",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm17626",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm33760",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm52895",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj58867",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj58876",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj71504",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj72793",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj53337",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj95723",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad_chapter_00.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad_chapter_01.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad_chapter_010.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad_chapter_011.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad_chapter_0100.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad_chapter_0101.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad_chapter_0110.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad_chapter_0111.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/200957-How-to-Collect-Logs-for-UC-Applications.html",
     "depth": 3
   }
 ]
