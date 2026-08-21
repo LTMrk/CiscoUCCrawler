@@ -1,93 +1,5 @@
 [
   {
-    "url": "https://software.cisco.com/download/specialrelease/f25411074370639cf30fb30ae876b7c9",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa43069",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/42b8604af5ceaea86372f943fb36c197",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwe07211",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwe46199",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/15f8fe4d2249bdad5aecf64e1dad0324",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/adf287c5b499cfe87925d8ad37aa1a0f",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy35697",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/bd126b770cfda92ee232271c46dbc4a9",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/abeac3b0173f23dca7849a933e7b999d",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw82963",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/8e05fdc25ff5f2fcc3700c95cb295298",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/55a3baef82ac7c5e1bb962c81c30ef5b",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/ab9a38ec8848a554235f505716f65829",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwe06554",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/45d8dcdd8947ca846c7eee7ea17b3093",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/ddf2907b9e97ea13a740875f817edde0",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/4bc2ed84b24f3611efe6f98e7b534d0e",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/administration/guide/ucce_b_administration-guide-for-cisco-unified12_5.html",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.cisco.com/site/task-routing",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-installation-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-maintenance-guides-list.html",
-    "depth": 1
-  },
-  {
     "url": "https://software.cisco.com/software/csws/ws/platform/home",
     "depth": 1
   },
@@ -15601,6 +15513,10 @@
   },
   {
     "url": "https://software.cisco.com/download/specialrelease/052604c9f14c8229c2e5ef407209fc56",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-enterprise-12-5-1/model.html",
     "depth": 2
   }
 ]
