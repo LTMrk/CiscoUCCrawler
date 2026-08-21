@@ -3692,6 +3692,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i.html": {
+      "content_sha": "538fa321c12e4897327d432e6daa2d5c86891b78f6764bcece0288ac230d2f6b",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222013-troubleshoot-invalid-email-invitations-i-html-f6ce484adc",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T06:32:43.639382+00:00",
+      "last_changed": "2026-08-21T06:32:43.639382+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T06:32:43.639382+00:00",
+      "next_check": "2026-08-22T06:32:43.639382+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222020-troubleshoot-e911-location-with-webex-uc.html": {
       "content_sha": "e388b6c0ff7ba3c0208b6983aee15c71335d4011e5cb1c4ecba7db434049a33f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222020-troubleshoot-e911-location-with-webex-uc-html-a9431514b6",
@@ -3704,6 +3717,19 @@
       "next_check": "2026-08-20T23:50:39.177317+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal.html": {
+      "content_sha": "8799b23c2828d61e8262c83fb5dfd969658e58b952e7ad1541147af5e45b15f3",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222059-fix-serviceability-connector-error-anal-html-020d492d34",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T06:32:39.541671+00:00",
+      "last_changed": "2026-08-21T06:32:39.541671+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T06:32:39.541671+00:00",
+      "next_check": "2026-08-22T06:32:39.541671+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the.html": {
       "content_sha": "e7958f06b2fa793526d51a8796609351ad02d2886151419459e1e76e7118f07e",
@@ -3728,6 +3754,19 @@
       "last_modified": null,
       "last_seen": "2026-08-21T06:29:42.714010+00:00",
       "next_check": "2026-08-22T06:29:42.714010+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222698-troubleshoot-saml-response-error-in-dire.html": {
+      "content_sha": "99fefa4e664034a7f4a9b65d30c38198fae6c8db4c84f01367be495bac081f7d",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222698-troubleshoot-saml-response-error-in-dire-html-0c66ff09a1",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T06:32:35.351366+00:00",
+      "last_changed": "2026-08-21T06:32:35.351366+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T06:32:35.351366+00:00",
+      "next_check": "2026-08-22T06:32:35.351366+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -3757,6 +3796,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an.html": {
+      "content_sha": "35efd0bb1652ee002a6268f2bfbf46c801e8251f847cad888a8891bde0e36ae1",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222958-troubleshoot-hybrid-calendar-error-an-html-a688ed3b07",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T06:32:31.027087+00:00",
+      "last_changed": "2026-08-21T06:32:31.027087+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T06:32:31.027087+00:00",
+      "next_check": "2026-08-22T06:32:31.027087+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222997-add-required-attribute-uid-in-adfs.html": {
       "content_sha": "58f72161a9080df104987a05dc0fb45714526e30888043e9c5695e17eccf94bb",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222997-add-required-attribute-uid-in-adfs-html-8d9f4f8e3a",
@@ -3767,6 +3819,45 @@
       "last_modified": null,
       "last_seen": "2026-08-21T06:29:46.940367+00:00",
       "next_check": "2026-08-22T06:29:46.940367+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222998-troubleshoot-saml-assertion-expired-sso.html": {
+      "content_sha": "2d2f8766db5b472b757e933be92b55397113710ea8bf0e7d24dd9c2db6d9f000",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222998-troubleshoot-saml-assertion-expired-sso-html-5a8fffdd19",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T06:32:27.038477+00:00",
+      "last_changed": "2026-08-21T06:32:27.038477+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T06:32:27.038477+00:00",
+      "next_check": "2026-08-22T06:32:27.038477+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223200-troubleshoot-hybrid-management.html": {
+      "content_sha": "903551dea33a00c3b5f11aca6baf30997639964b5e5efe6703e4d8ef11f428f4",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-223200-troubleshoot-hybrid-management-html-144e6aa12b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T06:32:23.412339+00:00",
+      "last_changed": "2026-08-21T06:32:23.412339+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T06:32:23.412339+00:00",
+      "next_check": "2026-08-22T06:32:23.412339+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain.html": {
+      "content_sha": "239831f5d8b04cf3bfd49c4c9b647435c4bb58d73c3a0916f3d872e587b570fe",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-223574-troubleshoot-errors-when-adding-domain-html-96087625d2",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T06:32:17.937521+00:00",
+      "last_changed": "2026-08-21T06:32:17.937521+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T06:32:17.937521+00:00",
+      "next_check": "2026-08-22T06:32:17.937521+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -3782,6 +3873,32 @@
       "next_check": "2026-08-20T23:50:51.927306+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in.html": {
+      "content_sha": "ec1e30acab083f7ade0240b95d2a89457d8c9c9d7756154dc89d8cecb9b190e6",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-225439-identify-if-webex-app-is-restricted-in-html-ad5d6cef7a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T06:32:09.646325+00:00",
+      "last_changed": "2026-08-21T06:32:09.646325+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T06:32:09.646325+00:00",
+      "next_check": "2026-08-22T06:32:09.646325+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225553-how-to-resolve-impaired-service-error.html": {
+      "content_sha": "983bcb35e7765b0b4a0d49c93b6aed3220abcea7ee89df827daae2499268e83b",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-225553-how-to-resolve-impaired-service-error-html-cf1282c588",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T06:32:14.170160+00:00",
+      "last_changed": "2026-08-21T06:32:14.170160+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T06:32:14.170160+00:00",
+      "next_check": "2026-08-22T06:32:14.170160+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco.html": {
       "content_sha": "6ec14661f431c6102f58bd69519098c2c0e288aab36e35c5c3e0840650f27fb8",
@@ -97267,5 +97384,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T06:29:59.860609+00:00"
+  "updated_at": "2026-08-21T06:33:26.150759+00:00"
 }
