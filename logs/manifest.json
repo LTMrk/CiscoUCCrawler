@@ -141961,6 +141961,45 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_0/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110_chapter_0100.html": {
+      "content_sha": "e3e8c13ac9c4ffe06ca2a1a9cb7bf1cc3ce5b83215850db298bd9bd4684254b5",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-11-0-cjab-bk-d657a25f-00-deployment-installation-guide-jabber-110-cja-9d5c5469d6",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T19:21:00.109829+00:00",
+      "last_changed": "2026-08-21T19:21:00.109829+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T19:21:00.109829+00:00",
+      "next_check": "2026-08-22T19:21:00.109829+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_0/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110_chapter_01010.html": {
+      "content_sha": "fdde1b213ecfe70a550f942def69b50e50bd7024a64ad2eaca926bab2ba5ade5",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-11-0-cjab-bk-d657a25f-00-deployment-installation-guide-jabber-110-cja-9509de10d9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T19:21:04.802923+00:00",
+      "last_changed": "2026-08-21T19:21:04.802923+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T19:21:04.802923+00:00",
+      "next_check": "2026-08-22T19:21:04.802923+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_0/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110_chapter_01100.html": {
+      "content_sha": "24fdb69eff2ba46adfb352e111bc3bc6d66ab249416b34e8ad1ba548d859d761",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-11-0-cjab-bk-d657a25f-00-deployment-installation-guide-jabber-110-cja-fb8e938837",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T19:20:56.319144+00:00",
+      "last_changed": "2026-08-21T19:20:56.319144+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T19:20:56.319144+00:00",
+      "next_check": "2026-08-22T19:20:56.319144+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_8/cjab_b_documentation-guide.html": {
       "content_sha": "489e17b1ba62294991d7c09ab519ca2551405bf30c2f2ddccce3ae6b91c504b3",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-11-8-cjab-b-documentation-guide-html-7fa2f4cf7d",
@@ -148273,5 +148312,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T19:18:35.995460+00:00"
+  "updated_at": "2026-08-21T19:21:21.014012+00:00"
 }
