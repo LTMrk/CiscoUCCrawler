@@ -6593,3 +6593,16 @@
 [2026-08-21T15:56:33.246411] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/admin/guide/cfin_b_1262_cisco-finesse-administration-guide/cfin_b_1262_cisco-finesse-administration-guide_index.html
 [2026-08-21T16:00:16.550530] HTTP 599 o DOM vacío. | http://docwiki.cisco.com/wiki/Logging:_Enable_debug_level_logging
 [2026-08-21T16:05:41.202891] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/serviceability/guide/1_0_2/sadmnIX.html
+[2026-08-21T16:13:34.498850] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.epub
+[2026-08-21T16:13:38.528753] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.mobi
+[2026-08-21T16:13:38.854753] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvj09515
+[2026-08-21T16:13:38.854869] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvq63308
+[2026-08-21T16:13:43.397887] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvg94247
+[2026-08-21T16:13:43.397957] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCur25679
+[2026-08-21T16:13:43.596820] Omitida: excluida por robots.txt | https://community.cisco.com/t5/collaboration-knowledge-base/how-to-configure-managed-file-transfer-in-cucm-cm-im-presence-10/ta-p/3161766
+[2026-08-21T16:17:05.992072] Markdown insuficiente tras sanitizar (176 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/APIs_Pages/b_CUC_Draft.html
+[2026-08-21T16:17:11.204998] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUII_API/b_CUII_API.html
+[2026-08-21T16:17:14.479519] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API.html
+[2026-08-21T16:17:22.771582] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User.html
+[2026-08-21T16:17:31.370068] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API.html
+[2026-08-21T16:18:10.009970] HTTP 303 o DOM vacío. | https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/connection/15/unified_messaging/guide/b_15cucumgx/b_15cucumgx_chapter_01.html
