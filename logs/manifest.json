@@ -53227,6 +53227,84 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/userguide/cs78_b_conference_7832-mpp-ug/cs78_b_conference_7832-mpp-ug_chapter_01.html": {
+      "content_sha": "f0add5f867f194f14c4a3a6461785b39c661fa8ee17d176ecdc1650c4121e18b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-userguide-cs78-b-conference-7832-mpp-ug-cs78-b-confe-e683a640fd",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:29:12.882317+00:00",
+      "last_changed": "2026-08-21T02:29:12.882317+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:29:12.882317+00:00",
+      "next_check": "2026-08-22T02:29:12.882317+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/userguide/cs78_b_conference_7832-mpp-ug/cs78_b_conference_7832-mpp-ug_chapter_010.html": {
+      "content_sha": "74bdd8e27cf9f59ffd2d3cc83af89770d540c620427822c00c34cefbe354fa6b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-userguide-cs78-b-conference-7832-mpp-ug-cs78-b-confe-0dffd76c0e",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:29:17.397115+00:00",
+      "last_changed": "2026-08-21T02:29:17.397115+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:29:17.397115+00:00",
+      "next_check": "2026-08-22T02:29:17.397115+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/userguide/cs78_b_conference_7832-mpp-ug/cs78_b_conference_7832-mpp-ug_chapter_01000.html": {
+      "content_sha": "9c444d319de8ea0fddc5641c110356643bb7c58e1a16f0049effdaa89cd17e12",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-userguide-cs78-b-conference-7832-mpp-ug-cs78-b-confe-ac16dea3b9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:29:25.192506+00:00",
+      "last_changed": "2026-08-21T02:29:25.192506+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:29:25.192506+00:00",
+      "next_check": "2026-08-22T02:29:25.192506+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/userguide/cs78_b_conference_7832-mpp-ug/cs78_b_conference_7832-mpp-ug_chapter_0101.html": {
+      "content_sha": "cb0e7d98013fb4854564b19a1d268470e697290ad3d9891844d1103c840d954b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-userguide-cs78-b-conference-7832-mpp-ug-cs78-b-confe-505a5bfd69",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:29:29.833441+00:00",
+      "last_changed": "2026-08-21T02:29:29.833441+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:29:29.833441+00:00",
+      "next_check": "2026-08-22T02:29:29.833441+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/userguide/cs78_b_conference_7832-mpp-ug/cs78_b_conference_7832-mpp-ug_chapter_0110.html": {
+      "content_sha": "4371d5e9505a78084a3ee267fe38340235a056723da129cca04f427328a52937",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-userguide-cs78-b-conference-7832-mpp-ug-cs78-b-confe-0f69e2b92b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:29:33.511307+00:00",
+      "last_changed": "2026-08-21T02:29:33.511307+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:29:33.511307+00:00",
+      "next_check": "2026-08-22T02:29:33.511307+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/userguide/cs78_b_conference_7832-mpp-ug/cs78_b_conference_7832-mpp-ug_chapter_0111.html": {
+      "content_sha": "43c3269a902ef5bae54932947b3d8bfc4439ff9ca00d99c5f6beff220e0b7d89",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-userguide-cs78-b-conference-7832-mpp-ug-cs78-b-confe-60fd7c0283",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:29:21.071715+00:00",
+      "last_changed": "2026-08-21T02:29:21.071715+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:29:21.071715+00:00",
+      "next_check": "2026-08-22T02:29:21.071715+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/firmware/12-0-6/cs78_b_7832mpp-rn-1206.html": {
       "content_sha": "0ea19657677ee1be6049486744ddee018fade8ef0753e9c8fced663cff9363e0",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-firmware-12-0-6-cs78-b-7832mpp-rn-1206-html-6d0f53b81b",
@@ -86137,5 +86215,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T02:27:09.169289+00:00"
+  "updated_at": "2026-08-21T02:29:54.836754+00:00"
 }
