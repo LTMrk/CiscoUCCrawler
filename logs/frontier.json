@@ -1,493 +1,5 @@
 [
   {
-    "url": "https://tp-tools-web01.cisco.com/interop/glossary",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X14-0/virtual-machine/exwy_b_cisco-expressway-on-virtual-machine-installation-guide-x14-0.html",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs59766",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X14-2/virtual-machine/exwy_b_cisco-expressway-on-virtual-machine-installation-guide-x142.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X14-2/virtual-machine/exwy_b_cisco-expressway-on-virtual-machine-installation-guide-x142/exwy_b_cisco-expressway-on-virtual-machine-installation-guide-x142_index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X14-3/virtual-machine/exwy_b_cisco-expressway-on-virtual-machine-installation-guide-x143.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X14-3/virtual-machine/exwy_b_cisco-expressway-on-virtual-machine-installation-guide-x143/exwy_b_cisco-expressway-on-virtual-machine-installation-guide-x143_index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X15-0-2/virtual-machine/exwy_b_cisco-expressway-on-virtual-machine-installation-guide-x1502.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X15-0/virtual-machine/exwy_b_cisco-expressway-on-virtual-machine-installation-guide-x150.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X15-4/install-upgrade/exwy_b_cisco-expressway-install-and-upgrade-guide-x154.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab10/collab10.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/collaboration-systems-release-15/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/enterprise-nfv-infrastructure-software/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/x14-0-2/virtual-machine/exwy_b_cisco-expressway-on-virtual-machine-installation-guide-x14-0-2.html",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/search",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCva36208",
-    "depth": 1
-  },
-  {
-    "url": "https://cway.cisco.com/tools/CollaborationSolutionsAnalyzer",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCup29823",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/%20%20CSCvy29217",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_01.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_011.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-and-installation-guide-for_chapter_00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_0101.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_0110.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_0111.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_01000.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_01011.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_01100.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_01001.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_01010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1_preface_00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1_chapter_01.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1_chapter_010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1_chapter_011.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1_chapter_0100.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1_chapter_0101.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1_chapter_0110.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1_index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-android/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1/cjab_b_parameters-reference-guide-for-cisco_12_1_preface_00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1/cjab_b_parameters-reference-guide-for-cisco_12_1_chapter_01.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1/cjab_b_parameters-reference-guide-for-cisco_12_1_chapter_010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1/cjab_b_parameters-reference-guide-for-cisco_12_1_chapter_011.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1/cjab_b_parameters-reference-guide-for-cisco_12_1_chapter_0100.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1/cjab_b_parameters-reference-guide-for-cisco_12_1_chapter_0101.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1/cjab_b_parameters-reference-guide-for-cisco_12_1_chapter_0110.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1/cjab_b_parameters-reference-guide-for-cisco_12_1_chapter_0111.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1/cjab_b_parameters-reference-guide-for-cisco_12_1_chapter_01000.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1/cjab_b_parameters-reference-guide-for-cisco_12_1_chapter_01001.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1/cjab_b_parameters-reference-guide-for-cisco_12_1_chapter_01010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1/cjab_b_parameters-reference-guide-for-cisco_12_1_index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Features_Guide/cjab_b_feature-config-125.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Features_Guide/cjab_b_feature-config-125.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Features_Guide/cjab_b_feature-config-125/cjab_b_feature-config-125_preface_00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Features_Guide/cjab_b_feature-config-125/cjab_b_feature-config-125_chapter_01.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Features_Guide/cjab_b_feature-config-125/cjab_b_feature-config-125_chapter_010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Features_Guide/cjab_b_feature-config-125/cjab_b_feature-config-125_chapter_011.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Features_Guide/cjab_b_feature-config-125/cjab_b_feature-config-125_chapter_0100.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Features_Guide/cjab_b_feature-config-125/cjab_b_feature-config-125_chapter_0101.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Features_Guide/cjab_b_feature-config-125/cjab_b_feature-config-125_chapter_0110.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Features_Guide/cjab_b_feature-config-125/cjab_b_feature-config-125_index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Parameter_Guide/cjab_b_parameters-reference-guide-jabber_125/cjab_b_parameters-reference-guide-jabber_125_preface_00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Parameter_Guide/cjab_b_parameters-reference-guide-jabber_125/cjab_b_parameters-reference-guide-jabber_125_chapter_01.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Parameter_Guide/cjab_b_parameters-reference-guide-jabber_125/cjab_b_parameters-reference-guide-jabber_125_chapter_010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Parameter_Guide/cjab_b_parameters-reference-guide-jabber_125/cjab_b_parameters-reference-guide-jabber_125_chapter_011.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Parameter_Guide/cjab_b_parameters-reference-guide-jabber_125/cjab_b_parameters-reference-guide-jabber_125_chapter_0100.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Parameter_Guide/cjab_b_parameters-reference-guide-jabber_125/cjab_b_parameters-reference-guide-jabber_125_chapter_0101.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Parameter_Guide/cjab_b_parameters-reference-guide-jabber_125/cjab_b_parameters-reference-guide-jabber_125_chapter_0110.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Parameter_Guide/cjab_b_parameters-reference-guide-jabber_125/cjab_b_parameters-reference-guide-jabber_125_chapter_0111.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Parameter_Guide/cjab_b_parameters-reference-guide-jabber_125/cjab_b_parameters-reference-guide-jabber_125_chapter_01000.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Parameter_Guide/cjab_b_parameters-reference-guide-jabber_125/cjab_b_parameters-reference-guide-jabber_125_chapter_01001.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Parameter_Guide/cjab_b_parameters-reference-guide-jabber_125/cjab_b_parameters-reference-guide-jabber_125_chapter_01010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_feature-configuration-cisco-jabber_12-6.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_feature-configuration-cisco-jabber_12-6.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_feature-configuration-cisco-jabber_12-6/cjab_b_feature-configuration-cisco-jabber_12-6_preface_00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_feature-configuration-cisco-jabber_12-6/cjab_b_feature-configuration-cisco-jabber_12-6_chapter_01.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_feature-configuration-cisco-jabber_12-6/cjab_b_feature-configuration-cisco-jabber_12-6_chapter_010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_feature-configuration-cisco-jabber_12-6/cjab_b_feature-configuration-cisco-jabber_12-6_chapter_011.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_feature-configuration-cisco-jabber_12-6/cjab_b_feature-configuration-cisco-jabber_12-6_chapter_0100.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_feature-configuration-cisco-jabber_12-6/cjab_b_feature-configuration-cisco-jabber_12-6_chapter_0101.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_feature-configuration-cisco-jabber_12-6/cjab_b_feature-configuration-cisco-jabber_12-6_chapter_0110.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_parameters-reference-guide-cisco-jabber_12-6/cjab_b_parameters-reference-guide-cisco-jabber_12-6_preface_00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_parameters-reference-guide-cisco-jabber_12-6/cjab_b_parameters-reference-guide-cisco-jabber_12-6_chapter_01.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_parameters-reference-guide-cisco-jabber_12-6/cjab_b_parameters-reference-guide-cisco-jabber_12-6_chapter_010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_parameters-reference-guide-cisco-jabber_12-6/cjab_b_parameters-reference-guide-cisco-jabber_12-6_chapter_011.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_parameters-reference-guide-cisco-jabber_12-6/cjab_b_parameters-reference-guide-cisco-jabber_12-6_chapter_0100.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_parameters-reference-guide-cisco-jabber_12-6/cjab_b_parameters-reference-guide-cisco-jabber_12-6_chapter_0101.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_parameters-reference-guide-cisco-jabber_12-6/cjab_b_parameters-reference-guide-cisco-jabber_12-6_chapter_0110.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_parameters-reference-guide-cisco-jabber_12-6/cjab_b_parameters-reference-guide-cisco-jabber_12-6_chapter_0111.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_parameters-reference-guide-cisco-jabber_12-6/cjab_b_parameters-reference-guide-cisco-jabber_12-6_chapter_01000.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_parameters-reference-guide-cisco-jabber_12-6/cjab_b_parameters-reference-guide-cisco-jabber_12-6_chapter_01001.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_parameters-reference-guide-cisco-jabber_12-6/cjab_b_parameters-reference-guide-cisco-jabber_12-6_chapter_01010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_preface_00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_chapter_01.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_chapter_011.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_chapter_0100.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_chapter_0101.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_chapter_0110.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_chapter_0111.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_chapter_01000.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_chapter_01001.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_chapter_01010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_9/rns/jvdi_b_release-notes-jvdi-129.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_feature-configuration-for-jabber-127.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_feature-configuration-for-jabber-127.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_feature-configuration-for-jabber-127/cjab_b_feature-configuration-for-jabber-127_preface_00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_feature-configuration-for-jabber-127/cjab_b_feature-configuration-for-jabber-127_chapter_01.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_feature-configuration-for-jabber-127/cjab_b_feature-configuration-for-jabber-127_chapter_010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_feature-configuration-for-jabber-127/cjab_b_feature-configuration-for-jabber-127_chapter_011.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_feature-configuration-for-jabber-127/cjab_b_feature-configuration-for-jabber-127_chapter_0100.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_feature-configuration-for-jabber-127/cjab_b_feature-configuration-for-jabber-127_chapter_0101.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_feature-configuration-for-jabber-127/cjab_b_feature-configuration-for-jabber-127_chapter_0110.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_parameter-reference-guide-jabber-127/cjab_b_parameter-reference-guide-jabber-127_preface_00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_parameter-reference-guide-jabber-127/cjab_b_parameter-reference-guide-jabber-127_chapter_01.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_parameter-reference-guide-jabber-127/cjab_b_parameter-reference-guide-jabber-127_chapter_010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_parameter-reference-guide-jabber-127/cjab_b_parameter-reference-guide-jabber-127_chapter_011.html",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_parameter-reference-guide-jabber-127/cjab_b_parameter-reference-guide-jabber-127_chapter_0100.html",
     "depth": 1
   },
@@ -14957,6 +14469,146 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c220-m5-rack-server/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-express/tsd-products-support-series-home.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/tsd-products-support-series-home.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unity-express/tsd-products-support-series-home.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/telepresence-video-communication-server-vcs/tsd-products-support-series-home.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/socialminer/tsd-products-support-series-home.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/tsd-products-support-series-home.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-mac/tsd-products-support-series-home.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/tsd-products-support-series-home.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/cloud-systems-management/prime-collaboration/tsd-products-support-series-home.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/ata-190-series-analog-telephone-adapters/tsd-products-support-series-home.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/enterprise-nfv-infrastructure-software/products-security-advisories-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/enterprise-nfv-infrastructure-software/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/service-providers-knowledge-base/ios-xr-flexible-consumption-model-fcm-fcm-2-0-resource/ta-p/5565797",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/data-center-and-cloud-knowledge-base/ios-xr-fcm-fcm-2-0-smart-licensing-resource-repository/ta-p/5565381",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/cisco-sd-access-resources/ta-p/3812030",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/secure-campus-networks-solution-brief/ta-p/5367533",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/site/jtapi/overview",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/docs/jabber-bots",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/webex-meeting-center/products-installation-and-configuration-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/283812787/type/284006014",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/213902-jabber-for-android-quick-start-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-android/products-installation-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/Android/9_1/JABA_BK_J0AE313A_00_jabber-voice-android-faq-9-1-4.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/master-phone-list-for-cisco-jabber-for-android/ta-p/3122043",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-installation-and-configuration-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_0_1/systemConfig/cucm_b_system-configuration-guide-1201/cucm_b_system-configuration-guide-1201_chapter_01110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_0_1/systemConfig/cucm_b_system-configuration-guide-1201/cucm_b_system-configuration-guide-1201_chapter_010100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/products-installation-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/products-installation-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_9/rns/jvdi_b_release-notes-jvdi-129/jvdi_b_release-notes-jvdi-129_chapter_00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_9/rns/jvdi_b_release-notes-jvdi-129/jvdi_b_release-notes-jvdi-129_chapter_01.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_9/rns/jvdi_b_release-notes-jvdi-129/jvdi_b_release-notes-jvdi-129_chapter_010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_9/rns/jvdi_b_release-notes-jvdi-129/jvdi_b_release-notes-jvdi-129_chapter_011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_9/rns/jvdi_b_release-notes-jvdi-129/jvdi_b_release-notes-jvdi-129_chapter_0100.html",
     "depth": 2
   }
 ]
