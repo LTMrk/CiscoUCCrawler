@@ -26566,10 +26566,10 @@
       "first_seen": "2026-08-16T18:51:04.659385+00:00",
       "last_changed": "2026-08-16T18:51:04.659385+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T01:07:58.961918+00:00",
-      "next_check": "2026-08-21T01:07:58.961918+00:00",
+      "last_seen": "2026-08-21T16:21:00.672808+00:00",
+      "next_check": "2026-08-25T16:21:00.672808+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/roadmap/b_14cucdg.html": {
       "content_sha": "a7dcfccaf9141fbb4e179dddd2a07360290359ed3af223cde95f0999994e7347",
@@ -26631,10 +26631,10 @@
       "first_seen": "2026-08-16T18:38:42.870909+00:00",
       "last_changed": "2026-08-16T18:38:42.870909+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T01:08:20.195056+00:00",
-      "next_check": "2026-08-21T01:08:20.195056+00:00",
+      "last_seen": "2026-08-21T16:21:04.412984+00:00",
+      "next_check": "2026-08-25T16:21:04.412984+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/security/guide/b_14cucsecx/b_14cucsecx_chapter_01000.html": {
       "content_sha": "e55ced702259685d2f653384f9f06a57dc22be7f35a85d2174a74201e8e8b175",
@@ -27489,10 +27489,10 @@
       "first_seen": "2026-08-16T18:39:12.831345+00:00",
       "last_changed": "2026-08-16T18:39:12.831345+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T01:15:05.150259+00:00",
-      "next_check": "2026-08-21T01:15:05.150259+00:00",
+      "last_seen": "2026-08-21T16:21:32.766950+00:00",
+      "next_check": "2026-08-25T16:21:32.766950+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/unified_messaging/guide/b_14cucumgx/b_14cucumgx_chapter_01.html": {
       "content_sha": "b231443fedf38636418e7240b337212c074cea6798202b018f96ffc7fe2658c5",
@@ -27515,10 +27515,10 @@
       "first_seen": "2026-08-16T18:39:21.219514+00:00",
       "last_changed": "2026-08-16T18:39:21.219514+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T01:15:13.470624+00:00",
-      "next_check": "2026-08-21T01:15:13.470624+00:00",
+      "last_seen": "2026-08-21T16:21:36.965754+00:00",
+      "next_check": "2026-08-25T16:21:36.965754+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/unified_messaging/guide/b_14cucumgx/b_14cucumgx_chapter_0100.html": {
       "content_sha": "a216f69af467ca585a2daf361a71872ac6b7122c668da3b83bd7bbd4a783ec6c",
@@ -131849,5 +131849,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T16:18:44.586981+00:00"
+  "updated_at": "2026-08-21T16:21:37.050864+00:00"
 }
