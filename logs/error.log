@@ -4692,3 +4692,19 @@
 [2026-08-21T05:58:25.947973] HTTP 302 o DOM vacío. | http://cisco.com/en/US/products/sw/custcosw/ps1844/products_implementation_design_guides_list.html
 [2026-08-21T05:58:26.093449] HTTP 599 o DOM vacío. | http://docwiki.cisco.com/wiki/Unified_Communications_Virtualization_Supported_Applications
 [2026-08-21T05:58:30.252561] HTTP 599 o DOM vacío. | http://docwiki.cisco.com/wiki/Unified_Communications_VMware_Requirements
+[2026-08-21T06:03:42.571032] Markdown insuficiente tras sanitizar (152 chars). | https://marketplace.cisco.com/en-US/apps/381723/trackerwave-hospital-rtls
+[2026-08-21T06:05:21.719024] HTTP 301 o DOM vacío. | https://developer.cisco.com/site/PSIRT
+[2026-08-21T06:05:36.256637] Markdown insuficiente tras sanitizar (99 chars). | https://sec.cloudapps.cisco.com/security/center/tacticalresources.x
+[2026-08-21T06:05:40.407514] Markdown insuficiente tras sanitizar (0 chars). | https://sec.cloudapps.cisco.com/security/center/securityResources.x
+[2026-08-21T06:05:44.391556] Markdown insuficiente tras sanitizar (85 chars). | https://sec.cloudapps.cisco.com/security/center/navigation.x
+[2026-08-21T06:08:01.793540] Omitida: excluida por robots.txt | https://community.cisco.com/t5/collaboration-knowledge-base/looking-for-info-on-cisco-collab-solutions/ta-p/3649062
+[2026-08-21T06:08:05.102804] HTTP 301 o DOM vacío. | https://developer.cisco.com/cisco-meeting-server
+[2026-08-21T06:17:50.605350] HTTP 599 o DOM vacío. | https://learninglabs.cisco.com:8867/modules/cisco-meeting-server
+[2026-08-21T06:18:06.360344] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/ucce_b_ucce-features-guide-12_5.html
+[2026-08-21T06:18:06.360400] Omitida: excluida por robots.txt | https://community.cisco.com/t5/collaboration-knowledge-base/cisco-mediasense-end-of-life-faq/ta-p/3636105
+[2026-08-21T06:18:26.539140] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/Voiceonboarding2/wcc-voice-onboarding-2-book.html
+[2026-08-21T06:18:31.687621] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/technical_paper/b_webexcc-arch-doc.html
+[2026-08-21T06:18:42.581020] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/Analyzer_2/b_analyzeronloinehelp.html
+[2026-08-21T06:18:46.466246] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/desktop_20/webexcc_b_20-desktop-user-guide.html
+[2026-08-21T06:18:54.720298] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-8800/english/accessories/p881_b_accessorie-guide-for-cisco-ip.html
+[2026-08-21T06:18:58.733744] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/admin-guide/pa2d_b_7800-series-admin-guide-cucm.html
