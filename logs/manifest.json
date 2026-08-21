@@ -210,6 +210,36 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa00652": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwa00652-aafb682c7c",
+      "fail_count": 1,
+      "first_seen": "2026-08-21T04:08:20.915852+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-21T04:08:20.915860+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa16619": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwa16619-2ac41bc2b5",
+      "fail_count": 1,
+      "first_seen": "2026-08-21T04:08:29.339483+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-21T04:08:29.339491+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa45756": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwa45756-10bf227d79",
+      "fail_count": 1,
+      "first_seen": "2026-08-21T04:08:25.072985+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-21T04:08:25.072992+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa47273": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwa47273-c8c6c81854",
@@ -90022,5 +90052,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T04:05:38.577873+00:00"
+  "updated_at": "2026-08-21T04:08:29.411507+00:00"
 }
