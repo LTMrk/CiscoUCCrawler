@@ -6101,3 +6101,15 @@
 [2026-08-21T12:23:04.895556] HTTP 302 o DOM vacío. | http://cisco.com/en/US/docs/voice_ip_comm/unified_communications/cubecc.html
 [2026-08-21T12:23:16.514955] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab12/collab12/presence.html
 [2026-08-21T12:23:20.569529] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/voi-cube-media-proxy.html
+[2026-08-21T12:25:24.312160] HTTP 599 o DOM vacío. | http://docwiki.cisco.com/wiki/Virtualization_for_Cisco_Packaged_CCE
+[2026-08-21T12:25:28.374233] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/7c303e105c079568c88f746bacf63567
+[2026-08-21T12:25:28.385782] Omitida: excluida por robots.txt | http://software.cisco.com/download/type.html
+[2026-08-21T12:25:40.606122] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/virtual/CHCS_BK_C7C7ED05_00_cisco-collaboration-on-virtual-servers/CHCS_BK_C7C7ED05_00_cisco-collaboration-on-virtual-servers_chapter_01.html
+[2026-08-21T12:25:44.362669] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/268439622/type
+[2026-08-21T12:25:49.188847] HTTP 302 o DOM vacío. | https://devhub-download.cisco.com/console
+[2026-08-21T12:25:49.188923] Omitida: excluida por robots.txt | https://software.cisco.com/download/eula
+[2026-08-21T12:25:56.534202] HTTP 599 o DOM vacío. | https://rpfa.cloudapps.cisco.com/rpfa/profile/profile_management.do
+[2026-08-21T12:25:56.534293] Omitida: excluida por robots.txt | https://software.cisco.com/download/k9
+[2026-08-21T12:26:00.574612] HTTP 302 o DOM vacío. | https://devhub-download.cisco.com/binaries
+[2026-08-21T12:26:00.574690] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/284360381/type/284416107/release/12.6(2)
+[2026-08-21T12:26:03.961062] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262.html

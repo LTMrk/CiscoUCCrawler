@@ -1,69 +1,5 @@
 [
   {
-    "url": "http://docwiki.cisco.com/wiki/Virtualization_for_Cisco_Packaged_CCE",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-implementation-design-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/7c303e105c079568c88f746bacf63567",
-    "depth": 2
-  },
-  {
-    "url": "http://software.cisco.com/download/type.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/virtualized-voice-browser/products-installation-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/products-installation-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/virtual/CHCS_BK_C7C7ED05_00_cisco-collaboration-on-virtual-servers/CHCS_BK_C7C7ED05_00_cisco-collaboration-on-virtual-servers_chapter_01.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/hyperconverged-systems/hyperflex-hx-data-platform-software/products-installation-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/268439622/type",
-    "depth": 2
-  },
-  {
-    "url": "https://devhub-download.cisco.com/console",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/eula",
-    "depth": 2
-  },
-  {
-    "url": "https://rpfa.cloudapps.cisco.com/rpfa/profile/profile_management.do",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/k9",
-    "depth": 2
-  },
-  {
-    "url": "https://devhub-download.cisco.com/binaries",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/284360381/type/284416107/release/12.6(2)",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262.html",
-    "depth": 2
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/maintenance/guide/pcce_b_features-guide-1262/pcce_b_features-guide-1261_preface_00.html",
     "depth": 2
   },
@@ -26145,6 +26081,78 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/security/anyconnect-secure-mobility-client/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/virtualized-voice-browser/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/hyperconverged-systems/hyperflex-hx-data-platform-software/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_preface.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_your-security-strategy-and-unified-cce.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_encryption-support.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_ipsec-and-nat-support-1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_unified-contact-center-security-wizard.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_ipsec-and-nat-support-2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_window-server-firewall-configuration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_sql-server-hardening.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_certificate-management-for-secured-connections_12_6_1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_auditing_12_6_1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_general-antivirus-guidelines_12_6_1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_remote-administration_12_6_1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/rcct_m_1261es2_security-considerations-for-mobile-agent-deployments.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_other-security-considerations_12_6_1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_windows-security-hardening_12_6_1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce-m-cce-orchestration-windows-openssh-hardening-126.html",
     "depth": 3
   }
 ]
