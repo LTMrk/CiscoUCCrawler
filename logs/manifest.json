@@ -1067,10 +1067,10 @@
       "first_seen": "2026-08-17T01:09:17.389007+00:00",
       "last_changed": "2026-08-18T23:47:30.706136+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-18T23:47:30.706136+00:00",
-      "next_check": "2026-08-19T23:47:30.706136+00:00",
+      "last_seen": "2026-08-21T01:49:29.944833+00:00",
+      "next_check": "2026-08-23T01:49:29.944833+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/200410-Troubleshoot-IP-Phone-Unregistration-A.html": {
       "content_sha": "fb2ad4ffa148e5a0a87fd2f35dda96febc907a312e7ab0b231be207b1e79fc8c",
@@ -50856,6 +50856,71 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide_chapter_010.html": {
+      "content_sha": "5a618461912b9021a12a2c1bc1259f49a6a23d546df8a929cc3e639ddc6d44c2",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-user-guide-pa2d-bk-i89be38f-00-ip-phone-7800-seri-45ffc2d1d6",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:49:37.843915+00:00",
+      "last_changed": "2026-08-21T01:49:37.843915+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:49:37.843915+00:00",
+      "next_check": "2026-08-22T01:49:37.843915+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide_chapter_01000.html": {
+      "content_sha": "3da3956edfdee50b1481a17fd461e876a65b9931d511df434f417290a4eac743",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-user-guide-pa2d-bk-i89be38f-00-ip-phone-7800-seri-d8a12541c5",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:49:54.854304+00:00",
+      "last_changed": "2026-08-21T01:49:54.854304+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:49:54.854304+00:00",
+      "next_check": "2026-08-22T01:49:54.854304+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide_chapter_0101.html": {
+      "content_sha": "0ed58ef468e9024b7dcd161deff9f690925edd725e7a4bb370bcde096b08268b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-user-guide-pa2d-bk-i89be38f-00-ip-phone-7800-seri-f1254ec221",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:49:46.163837+00:00",
+      "last_changed": "2026-08-21T01:49:46.163837+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:49:46.163837+00:00",
+      "next_check": "2026-08-22T01:49:46.163837+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide_chapter_011.html": {
+      "content_sha": "2051ffca4913d6a0847a3dec99d35ae9051794dab1300b801e1d5438f9a3b896",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-user-guide-pa2d-bk-i89be38f-00-ip-phone-7800-seri-8f37b2cc38",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:49:42.176109+00:00",
+      "last_changed": "2026-08-21T01:49:42.176109+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:49:42.176109+00:00",
+      "next_check": "2026-08-22T01:49:42.176109+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide_chapter_0110.html": {
+      "content_sha": "648ded04a9e3e60b289029fc6f8254180598e6015f7819f88bd7b4f97a3bc446",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-user-guide-pa2d-bk-i89be38f-00-ip-phone-7800-seri-c030e2410c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:49:50.262116+00:00",
+      "last_changed": "2026-08-21T01:49:50.262116+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:49:50.262116+00:00",
+      "next_check": "2026-08-22T01:49:50.262116+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide_chapter_0111.html": {
       "content_sha": "05dea6be625971d603d0eb1a3c76c522825a6f53b48ead200b175fbe5cb1e3cd",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-user-guide-pa2d-bk-i89be38f-00-ip-phone-7800-seri-82130b4134",
@@ -50907,6 +50972,84 @@
       "next_check": "2026-08-22T16:29:02.607477+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/userguide/cs78_b_conference-7832-user-guide-cucm/cs78_b_conference-7832-user-guide-cucm_chapter_00.html": {
+      "content_sha": "e614408b4fa895edd3de27c749fcf690d0a5e9aab9449f68272c0eee44631e11",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--75bec89b58",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:50:28.661044+00:00",
+      "last_changed": "2026-08-21T01:50:28.661044+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:50:28.661044+00:00",
+      "next_check": "2026-08-22T01:50:28.661044+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/userguide/cs78_b_conference-7832-user-guide-cucm/cs78_b_conference-7832-user-guide-cucm_chapter_01.html": {
+      "content_sha": "3da6a3b874ac0a48c4434885198f2dece5570e3cadf2b0e4459bcb403415d7e0",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--a5d5666421",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:50:32.564619+00:00",
+      "last_changed": "2026-08-21T01:50:32.564619+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:50:32.564619+00:00",
+      "next_check": "2026-08-22T01:50:32.564619+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/userguide/cs78_b_conference-7832-user-guide-cucm/cs78_b_conference-7832-user-guide-cucm_chapter_010.html": {
+      "content_sha": "a007111d26520c7c8feed95986532d3802dc37ebebb363f734897765d6fdf628",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--b835c600e7",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:50:36.585508+00:00",
+      "last_changed": "2026-08-21T01:50:36.585508+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:50:36.585508+00:00",
+      "next_check": "2026-08-22T01:50:36.585508+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/userguide/cs78_b_conference-7832-user-guide-cucm/cs78_b_conference-7832-user-guide-cucm_chapter_011.html": {
+      "content_sha": "2dc0f8d55572d0032e5a75f19a0c99249c344fc1e34c0f16cf7de397039d06bc",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--c2b756314a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:50:40.614002+00:00",
+      "last_changed": "2026-08-21T01:50:40.614002+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:50:40.614002+00:00",
+      "next_check": "2026-08-22T01:50:40.614002+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/userguide/cs78_b_conference-7832-user-guide-cucm/cs78_b_conference-7832-user-guide-cucm_chapter_0110.html": {
+      "content_sha": "e3b57af75ea76c4bfbb987705a140cd1b861f8ec38e070a160ee5c2ee83af55a",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--562b0f1f86",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:50:45.174426+00:00",
+      "last_changed": "2026-08-21T01:50:45.174426+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:50:45.174426+00:00",
+      "next_check": "2026-08-22T01:50:45.174426+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/userguide/cs78_b_conference-7832-user-guide-cucm/cs78_b_conference-7832-user-guide-cucm_chapter_0111.html": {
+      "content_sha": "a52b040725d305e5309bd1f30dd3bcc24e727087afe1b2797fb5fc0908633c64",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--3ac5f190d1",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:50:49.459737+00:00",
+      "last_changed": "2026-08-21T01:50:49.459737+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:50:49.459737+00:00",
+      "next_check": "2026-08-22T01:50:49.459737+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/installguide/cs78_b_conference-phone-7832-installation.html": {
       "content_sha": "beaa2c21da9c21a7db69c9be1659689bbd82b9261adc191543a729e505ded170",
@@ -50972,6 +51115,45 @@
       "next_check": "2026-08-22T16:29:26.737184+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/user-guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide_chapter_01001.html": {
+      "content_sha": "08820c78cf2f8200ab6cd6f204918b946ed8481a84ad00e43f3f03d2d21b86ca",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-english-user-guide-p881-bk-c3a802a0-00-cisco-ip-phone-880-b5b12147da",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:51:06.553125+00:00",
+      "last_changed": "2026-08-21T01:51:06.553125+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:51:06.553125+00:00",
+      "next_check": "2026-08-22T01:51:06.553125+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/user-guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide_chapter_0101.html": {
+      "content_sha": "f1e4e18d844baad81edb91ddb07fd4fb74f854bb2914f9c13c9ffcabae50185c",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-english-user-guide-p881-bk-c3a802a0-00-cisco-ip-phone-880-7cde499961",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:51:02.033132+00:00",
+      "last_changed": "2026-08-21T01:51:02.033132+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:51:02.033132+00:00",
+      "next_check": "2026-08-22T01:51:02.033132+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/user-guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide_chapter_011.html": {
+      "content_sha": "bf7c4b901a24702e3cef388d1b63dea770dc12019887ab0231da7f2b3b791c5b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-english-user-guide-p881-bk-c3a802a0-00-cisco-ip-phone-880-7f2b72d03e",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:50:57.959817+00:00",
+      "last_changed": "2026-08-21T01:50:57.959817+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:50:57.959817+00:00",
+      "next_check": "2026-08-22T01:50:57.959817+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/user-guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide_chapter_0110.html": {
       "content_sha": "7c635d9d6dbc4ab8dc9aab96fc744fac5b21782e265af03fbb7db5ffceac4a01",
@@ -84728,5 +84910,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T01:46:28.645737+00:00"
+  "updated_at": "2026-08-21T01:51:11.573808+00:00"
 }

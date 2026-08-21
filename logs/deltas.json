@@ -1,9 +1,24 @@
 {
-  "run_at": "2026-08-21T01:46:28.720786+00:00",
+  "run_at": "2026-08-21T01:51:11.650218+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-user-guide-pa2d-bk-i89be38f-00-ip-phone-7800-seri-45ffc2d1d6",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-user-guide-pa2d-bk-i89be38f-00-ip-phone-7800-seri-8f37b2cc38",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-user-guide-pa2d-bk-i89be38f-00-ip-phone-7800-seri-c030e2410c",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-user-guide-pa2d-bk-i89be38f-00-ip-phone-7800-seri-d8a12541c5",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-user-guide-pa2d-bk-i89be38f-00-ip-phone-7800-seri-f1254ec221",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--3ac5f190d1",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--562b0f1f86",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--75bec89b58",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--a5d5666421",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--b835c600e7",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--c2b756314a",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-english-user-guide-p881-bk-c3a802a0-00-cisco-ip-phone-880-7cde499961",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-english-user-guide-p881-bk-c3a802a0-00-cisco-ip-phone-880-7f2b72d03e",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-english-user-guide-p881-bk-c3a802a0-00-cisco-ip-phone-880-b5b12147da"
+  ],
   "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 0
+  "unchanged_count": 1
 }
