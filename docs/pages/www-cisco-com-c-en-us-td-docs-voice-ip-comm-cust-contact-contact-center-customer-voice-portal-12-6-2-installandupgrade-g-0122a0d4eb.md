@@ -1,0 +1,89 @@
+---
+doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-installandupgrade-g-0122a0d4eb
+source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/installandupgrade/guide/ccvp_b_1262-installation-and-upgrade-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-installation-and-upgrade-guide-for-cisco-unified-customer-voice-portal_preface_00.html
+retrieved_at: 2026-08-21T11:56:25.001872+00:00
+---
+
+Installation and Upgrade Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
+
+# Installation and Upgrade Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
+
+Updated: April 28, 2023
+
+Chapter: Preface
+
+## Chapter: Preface
+
+# Preface
+
+## Change History
+
+This table lists changes made to this guide. Most recent changes appear at the top.
+
+Change
+
+See
+
+Date
+
+Initial Release of Document for Release 12.6(2)
+
+Added task list for upgrading to Cisco Unified CVP Release 12.6(2).
+
+Added Specific License Reservation section.
+
+Added steps to export system configuration.
+
+Unified CVP Minor Release Upgrade
+
+## About this
+                        	 Guide
+
+This document explains how to install and upgrade Cisco Unified Customer Voice Portal (CVP). It is prepared for partners and
+                           service providers who will be implementing Unified CVP, who are familiar with Cisco contact center applications, and are experienced
+                           regarding the deployment and management of virtual machines.
+
+## Audience
+
+This guide is intended for network administrators to install or upgrade
+                           		the Unified CVP software.
+
+## Related
+                        	 Documents
+
+Documentation Guide for
+                                    				  Cisco Unified Customer Voice Portal at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/products-documentation-roadmaps-list.html .
+
+## Communications, Services, and Additional Information
+
+To receive timely, relevant information from Cisco, sign up at Cisco Profile Manager .
+
+To get the business results you’re looking for with the technologies that matter, visit Cisco Services .
+
+To submit a service request, visit Cisco Support .
+
+To discover and browse secure, validated enterprise-class apps, products, solutions and services, visit Cisco DevNet .
+
+To obtain general networking, training, and certification titles, visit Cisco Press .
+
+To find warranty information for a specific product or product family, access Cisco Warranty Finder .
+
+### Cisco Bug Search Tool
+
+Cisco Bug Search Tool (BST) is a web-based tool that acts as a gateway to the Cisco bug tracking system that maintains a comprehensive list of defects
+                              and vulnerabilities in Cisco products and software. BST provides you with detailed defect information about your products
+                              and software.
+
+## Documentation
+                        	 Feedback
+
+Provide your comments about this document to: mailto:contactcenterproducts_docfeedback@cisco.com .
+
+| Change | See | Date |
+|---|---|---|
+| Added system requirements for Windows Defender. | Preinstallation Tasks | June 2023 |
+| Added prerequisite to apply ES-02 if VVB is on 12.5(1)_SU before upgrading to 12.6(2). | Preinstallation | May 2023 |
+| Initial Release of Document for Release 12.6(2) | April 2023 |
+| Added task list for upgrading to Cisco Unified CVP Release 12.6(2). | Unified CVP Minor Release Upgrade |
+| Added Specific License Reservation section. | Unified CVP Licensing |
+| Added steps to export system configuration. | Unified CVP Minor Release Upgrade |
