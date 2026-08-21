@@ -6749,6 +6749,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/213902-jabber-for-android-quick-start-guide.html": {
+      "content_sha": "29383a6cbda81bbc556da3da99564c7ccf96532513c6f112c3a76287c62f8a68",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-android-213902-jabber-for-android-quick-start-guide-htm-00e68db5b6",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:33:58.365421+00:00",
+      "last_changed": "2026-08-21T12:33:58.365421+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:33:58.365421+00:00",
+      "next_check": "2026-08-22T12:33:58.365421+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho.html": {
       "content_sha": "901652d612ee6df226957e0cdb5ef2fc46f2c5152e8379e378591638843be207",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-guest-221621-htz-01-2024-download-jabber-profile-pho-ht-d3404908ec",
@@ -116883,5 +116896,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T12:31:26.791321+00:00"
+  "updated_at": "2026-08-21T12:34:01.872229+00:00"
 }
