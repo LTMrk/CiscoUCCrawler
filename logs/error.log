@@ -5963,3 +5963,13 @@
 [2026-08-21T11:42:20.126337] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/4e0c96162eafdca7d7f259db7fcc8e2f
 [2026-08-21T11:42:20.126420] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/d3628f41c6562fb4aea656be70f69aed
 [2026-08-21T11:42:24.537932] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/SCvq64857
+[2026-08-21T11:44:29.493282] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/SCvq32445
+[2026-08-21T11:44:33.127391] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv01580
+[2026-08-21T11:44:37.298245] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt99220
+[2026-08-21T11:44:41.671483] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt99253
+[2026-08-21T11:44:45.886600] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt99089
+[2026-08-21T11:44:50.136135] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt73896
+[2026-08-21T11:44:50.285458] HTTP 599 o DOM vacío. | http://cdets.cisco.com/apps/goto
+[2026-08-21T11:44:54.486448] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvo61931
+[2026-08-21T11:44:57.431019] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt99148
+[2026-08-21T11:45:01.450673] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn78578
