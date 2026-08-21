@@ -1,165 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis.mobi",
-    "depth": 2
-  },
-  {
-    "url": "https://activate.cisco.com:443/software/edos/callhome/rc",
-    "depth": 2
-  },
-  {
-    "url": "https://activate.cisco.com:443/software/edos/callhome",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222146-identify-procedure-to-modify-caller-id-n.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222143-identify-migration-process-from-cloud-co.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220632-configure-and-dial-international-calling.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220178-configure-webex-calling-esim-webex-go.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/223294-open-a-cisco-tac-case-for-webex-calling.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/226122-troubleshoot-phone-services-in-webex.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling-app/223101-troubleshoot-phone-services-sso-login.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222804-collect-the-connector-logs-webex-calli.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222153-recognize-how-dial-by-name-works.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222122-troubleshoot-status-400-user-error-in.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221935-troubleshoot-hoteling-in-mpp-devices-for.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221643-troubleshoot-pdd-in-webex-calling-with-p.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling-app/221619-collect-pcap-trace-from-mpp-ip-phones.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12164-dialpeer-call-leg.epub",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12164-dialpeer-call-leg.mobi",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/14074-in-dial-peer-match.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12425-in-out-dial-peers.epub",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12425-in-out-dial-peers.mobi",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/digital-ccs/14072-direct-inward-dial.epub",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/digital-ccs/14072-direct-inward-dial.mobi",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12426-valid-dial-peers.epub",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12426-valid-dial-peers.mobi",
-    "depth": 2
-  },
-  {
-    "url": "https://tools.cisco.com/RPF/register/register.do",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/h323/14003-e-m-overview.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/h323/22372-no-dialtone.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/h323/14368-plar-config.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/h323/5244-understand-gatekeepers.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/h323/22983-ringback.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/h323/14068-cdr-logging.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/61083-voice-transla-rules.epub",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/61083-voice-transla-rules.mobi",
-    "depth": 2
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/voice/voice-quality/7934-bwidth-consume.epub",
     "depth": 2
   },
@@ -27189,6 +27029,194 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222143-identify-migration-process-from-cloud-co.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222143-identify-migration-process-from-cloud-co.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220632-configure-and-dial-international-calling.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220632-configure-and-dial-international-calling.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220178-configure-webex-calling-esim-webex-go.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220178-configure-webex-calling-esim-webex-go.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/223294-open-a-cisco-tac-case-for-webex-calling.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/223294-open-a-cisco-tac-case-for-webex-calling.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://mycase.cloudapps.cisco.com/case",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/226122-troubleshoot-phone-services-in-webex.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/226122-troubleshoot-phone-services-in-webex.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_chapter_010.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_preface_011.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_chapter_011.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222804-collect-the-connector-logs-webex-calli.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222804-collect-the-connector-logs-webex-calli.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222153-recognize-how-dial-by-name-works.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222153-recognize-how-dial-by-name-works.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222122-troubleshoot-status-400-user-error-in.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222122-troubleshoot-status-400-user-error-in.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221935-troubleshoot-hoteling-in-mpp-devices-for.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221935-troubleshoot-hoteling-in-mpp-devices-for.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221643-troubleshoot-pdd-in-webex-calling-with-p.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221643-troubleshoot-pdd-in-webex-calling-with-p.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling-app/221619-collect-pcap-trace-from-mpp-ip-phones.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling-app/221619-collect-pcap-trace-from-mpp-ip-phones.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-wireless-phone/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/14074-in-dial-peer-match.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/14074-in-dial-peer-match.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/211306-In-Depth-Explanation-of-Cisco-IOS-and-IO.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/64020-number-voice-translation-profiles.html",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/ServiceRequestTool/create",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/Support/CLILookup/cltSearchAction.do",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-command-reference-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCds11354",
     "depth": 3
   }
 ]
