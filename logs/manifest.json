@@ -6791,10 +6791,10 @@
       "first_seen": "2026-08-16T18:01:21.234130+00:00",
       "last_changed": "2026-08-16T18:01:21.234130+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:03:50.919627+00:00",
-      "next_check": "2026-08-21T00:03:50.919627+00:00",
+      "last_seen": "2026-08-21T08:10:59.929883+00:00",
+      "next_check": "2026-08-25T08:10:59.929883+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213534-installation-of-phone-locale-on-ip-phone.html": {
       "content_sha": "0d2feea6cb30cee11dc9819a6c13d2da5ba36c1b234c4aaaf9fdbe469f53f2bd",
@@ -6921,10 +6921,10 @@
       "first_seen": "2026-08-16T17:57:03.897481+00:00",
       "last_changed": "2026-08-16T17:57:03.897481+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:04:24.644283+00:00",
-      "next_check": "2026-08-21T00:04:24.644283+00:00",
+      "last_seen": "2026-08-21T08:11:04.205239+00:00",
+      "next_check": "2026-08-25T08:11:04.205239+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215438-how-to-export-tls-certifcate-from-cucm-p.html": {
       "content_sha": "3296e87a451a6d7d43592ce13857faa7824e9f52b01c0344f719eb95aec97868",
@@ -11806,10 +11806,10 @@
       "first_seen": "2026-08-16T17:54:35.042683+00:00",
       "last_changed": "2026-08-16T17:54:35.042683+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:37:10.595271+00:00",
-      "next_check": "2026-08-21T00:37:10.595271+00:00",
+      "last_seen": "2026-08-21T08:11:08.184379+00:00",
+      "next_check": "2026-08-25T08:11:08.184379+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/telepresence/cucm_cts/cucm_cts_admin_book/guide/cucm_cts_admin/cucm_cts_adminIX.html": {
       "content_sha": "53dc91aa51bcb5bff4ba17bd399f03ac4be8d5f7879f8b21d45b2e8160deb85a",
@@ -26845,6 +26845,19 @@
       "next_check": "2026-08-21T01:54:20.751079+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE7000/installationguide/14/cucm_b_installation-be7k-14.html": {
+      "content_sha": "17f64b25699c6b14f6d2f06911e511402d95dbd13ab924aca198c47d58193930",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be7000-installationguide-14-cucm-b-installation-be7k-14-html-dac6a2f47f",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:10:30.279978+00:00",
+      "last_changed": "2026-08-21T08:10:30.279978+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:10:30.279978+00:00",
+      "next_check": "2026-08-22T08:10:30.279978+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE7000/releasenotes/BE7000_SoftwareLoadSummary-11X12X-K9-12.html": {
       "content_sha": "a3d9878325532f6524b9720a47ff182798ee6d8841ecddbc47fe2adc5e609342",
@@ -102851,5 +102864,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T08:08:33.761085+00:00"
+  "updated_at": "2026-08-21T08:11:08.245710+00:00"
 }
