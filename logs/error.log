@@ -3398,3 +3398,24 @@
 [2026-08-21T01:04:15.186264] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvf75449
 [2026-08-21T01:04:19.343341] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvi26611
 [2026-08-21T01:04:22.557113] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj00275
+[2026-08-21T01:07:02.653016] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/virtual/CUCM_BK_C90D1BE9_00_cisco-collaboration-on-virtual-servers.html
+[2026-08-21T01:07:28.885227] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq78479
+[2026-08-21T01:07:36.153207] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V10-5-1/config/CSR10-5-SAMLSSO-MicroSoft-ADFS-on-Windows-Configuration.html
+[2026-08-21T01:07:42.672462] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V10-5-1/config/CSR10-5-SAMLSSO-OpenAM-on-Linux-Configuration.html
+[2026-08-21T01:07:45.884266] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V10-5-1/config/CSR10-5-SAMLSSO-PingFederate-on-Windows-Configuration.html
+[2026-08-21T01:07:54.096248] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_administration-guide-1251.html
+[2026-08-21T01:09:56.246635] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/tsd-products-support-series-home.html
+[2026-08-21T01:10:00.501816] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/voi-cube-media-proxy.html
+[2026-08-21T01:10:01.487254] Omitida: excluida por robots.txt | https://developer.cisco.com/web/sip/wiki/-/wiki/Main/Unified+CM+Recording+Gateway+Requirements
+[2026-08-21T01:10:01.723246] HTTP 599 o DOM vacío. | http://cfn.cloudapps.cisco.com/ITDIT/CFN
+[2026-08-21T01:10:09.614090] HTTP 302 o DOM vacío. | https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-programming-reference-guides-list.html
+[2026-08-21T01:10:18.073083] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/unified-communications/unity-express/products-maintenance-guides-list.html
+[2026-08-21T01:10:25.999831] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/unified-communications/unity-express/products-implementation-design-guides-list.html
+[2026-08-21T01:10:30.312504] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/unified-communications/unity-express/tsd-products-support-series-home.html
+[2026-08-21T01:10:34.638491] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/systemConfig/cucm_b_system-configuration-guide-1251/cucm_b_system-configuration-guide-1251_chapter_00.html
+[2026-08-21T01:10:38.900434] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/systemConfig/cucm_b_system-configuration-guide-1251/cucm_b_system-configuration-guide-1251_chapter_0110100.html
+[2026-08-21T01:10:43.251297] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/systemConfig/cucm_b_system-configuration-guide-1251/cucm_b_system-configuration-guide-1251_chapter_0110101.html
+[2026-08-21T01:10:50.874059] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com
+[2026-08-21T01:10:54.732967] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/unified-communications/ata-180-series-analog-telephone-adaptors/tsd-products-support-series-home.html
+[2026-08-21T01:10:59.428614] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/unified-communications/ata-190-series-analog-telephone-adapters/tsd-products-support-series-home.html
+[2026-08-21T01:11:05.447158] HTTP 301 o DOM vacío. | http://www-author.cisco.com/c/en/us/td/docs/security/fwsm/fwsm31/configuration/guide/fwsm_cfg/inspct_f.html
