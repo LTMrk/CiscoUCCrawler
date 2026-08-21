@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200788-call-recordi-76e7861bad
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200788-Call-Recording-Basic-Configuration-and-T.html
-retrieved_at: 2026-08-16T23:39:38.901008+00:00
+retrieved_at: 2026-08-21T13:57:56.778336+00:00
 ---
 
 Configure and Troubleshoot Basic Call Recording
@@ -10,7 +10,7 @@ Configure and Troubleshoot Basic Call Recording
 
 ### Download Options
 
-Updated: January 18, 2024
+Updated: August 20, 2026
 
 Document ID: 200788
 
@@ -116,7 +116,7 @@ This section describes how to setup the SIP integration of a recording server.
 
 - Create a SIP trunk with the settings as shown in the image.
 
-- Input the appropriate Device Name, Device Pool, MRGL, SIP trunk security profile, and SIP profile.
+- Input the appropriate Device Name , Device Pool , MRGL , SIP trunk security profile , and SIP profile .
 
 - The destination address configured is the address of the recording application server.
 
@@ -1880,6 +1880,12 @@ INTERNAL_CSS              INFORMACAST_PT              5
 
 ### Revision History
 
+4.0
+
+20-Aug-2026
+
+Recertification
+
 3.0
 
 18-Jan-2024
@@ -1901,6 +1907,7 @@ Initial Release
 
 | Revision | Publish Date | Comments |
 |---|---|---|
+| 4.0 | 20-Aug-2026 | Recertification |
 | 3.0 | 18-Jan-2024 | Updated SEO and Formatting. |
 | 2.0 | 05-Dec-2022 | Removed PII.
 Updated Alt Text, Introduction, machine translation, style requirements, gerunds and fomatting. |
