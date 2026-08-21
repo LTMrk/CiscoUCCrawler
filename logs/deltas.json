@@ -1,13 +1,13 @@
 {
-  "run_at": "2026-08-21T14:05:07.014873+00:00",
+  "run_at": "2026-08-21T14:07:30.233480+00:00",
   "modo": "incremental",
-  "added": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-10-0-english-admin-guide-p691-bk-af85a164-00-admin-guide-69-15ebec5758",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-10-0-english-admin-guide-p691-bk-af85a164-00-admin-guide-69-84486585f1",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-10-0-english-admin-guide-p691-bk-af85a164-00-admin-guide-69-d5baeea1ac"
-  ],
+  "added": [],
   "modified": [],
   "removed": [],
-  "blocked": [],
-  "unchanged_count": 4
+  "blocked": [
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscuq30042-61c81ce444",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscuq60455-c529b91add",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscuq61271-d01d542f82"
+  ],
+  "unchanged_count": 0
 }
