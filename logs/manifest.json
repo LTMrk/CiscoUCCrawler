@@ -190,6 +190,16 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwi61514": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwi61514-4cb70ac765",
+      "fail_count": 1,
+      "first_seen": "2026-08-21T03:15:43.629451+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-21T03:15:43.629460+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwj34819": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwj34819-16e73362df",
@@ -450,6 +460,16 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwq61499": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwq61499-29eca86454",
+      "fail_count": 1,
+      "first_seen": "2026-08-21T03:15:35.430034+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-21T03:15:35.430041+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwq61805": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwq61805-d2902ad918",
@@ -537,6 +557,16 @@
       "first_seen": "2026-08-21T00:54:47.024400+00:00",
       "http_status": 403,
       "last_seen": "2026-08-21T00:54:47.024406+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu20937": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwu20937-2eebfd3feb",
+      "fail_count": 1,
+      "first_seen": "2026-08-21T03:15:39.494384+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-21T03:15:39.494389+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -89452,5 +89482,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T03:13:07.911864+00:00"
+  "updated_at": "2026-08-21T03:15:43.702646+00:00"
 }
