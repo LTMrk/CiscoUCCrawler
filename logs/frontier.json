@@ -1,53 +1,5 @@
 [
   {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwk63494",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwk75669",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwk63447",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286328117/type/286319173/release/COP-Files",
-    "depth": 1
-  },
-  {
-    "url": "https://cdetsng.cisco.com/summary",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/guide/b_15ucsecx.html",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286328409/type",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwh93696",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwj49918",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/user/guide/email/b_14cucugemail.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/connection/15/install_upgrade/b_15cuciumg/b_15cuciumg_chapter_010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/troubleshooting/guide/b_14cuctsg/b_14cuctsg_chapter_010001.html",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/unified_messaging/guide/b_14cucumgx/unified_messaging/guide/11xcucumg050.fm",
     "depth": 1
   },
@@ -15305,6 +15257,14 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/117555-probsol-cucorcucm-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-version-14/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/products-maintenance-guides-list.html",
     "depth": 2
   }
 ]
