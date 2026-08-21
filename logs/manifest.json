@@ -5464,10 +5464,10 @@
       "first_seen": "2026-08-17T00:53:37.924722+00:00",
       "last_changed": "2026-08-17T00:53:37.924722+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-18T23:50:26.864660+00:00",
-      "next_check": "2026-08-20T23:50:26.864660+00:00",
+      "last_seen": "2026-08-21T14:49:52.393306+00:00",
+      "next_check": "2026-08-25T14:49:52.393306+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.html": {
       "content_sha": "36c4a1a68117641fbdfc372e915a504f0cd2112ef1b58adfe7e36ae93a3bdc9c",
@@ -5503,10 +5503,10 @@
       "first_seen": "2026-08-17T00:53:41.942174+00:00",
       "last_changed": "2026-08-17T00:53:41.942174+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-18T23:50:30.916506+00:00",
-      "next_check": "2026-08-20T23:50:30.916506+00:00",
+      "last_seen": "2026-08-21T14:49:56.753482+00:00",
+      "next_check": "2026-08-25T14:49:56.753482+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal.html": {
       "content_sha": "4119fd7444f0721c755a46f8f7b34098fd76af9df4fdb46a7108f63bf5a94056",
@@ -5633,10 +5633,10 @@
       "first_seen": "2026-08-17T00:53:46.093141+00:00",
       "last_changed": "2026-08-17T00:53:46.093141+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-18T23:50:43.245459+00:00",
-      "next_check": "2026-08-20T23:50:43.245459+00:00",
+      "last_seen": "2026-08-21T14:50:00.673229+00:00",
+      "next_check": "2026-08-25T14:50:00.673229+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex.html": {
       "content_sha": "40bd18c69a0b72bf7fed607fb5f4f8c0dd8ce10d8b2a05e56897189b081766a9",
@@ -5802,10 +5802,10 @@
       "first_seen": "2026-08-17T00:53:50.423489+00:00",
       "last_changed": "2026-08-17T00:53:50.423489+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-18T23:50:56.196170+00:00",
-      "next_check": "2026-08-20T23:50:56.196170+00:00",
+      "last_seen": "2026-08-21T14:50:04.877296+00:00",
+      "next_check": "2026-08-25T14:50:04.877296+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage.html": {
       "content_sha": "e6a82141ddefac14b634680820a0e8edb4766e64558ec97c34248f3b9c3278d8",
@@ -124235,5 +124235,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T14:47:40.953629+00:00"
+  "updated_at": "2026-08-21T14:50:05.811853+00:00"
 }
