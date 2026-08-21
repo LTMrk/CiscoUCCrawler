@@ -12903,6 +12903,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/7_0/english/release/notes/cer_70.html": {
+      "content_sha": "9c3c244460619a00eeecf6d2a012d4a1b289ee91a7ec44191fc421d1c3932cf8",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-7-0-english-release-notes-cer-70-html-6371f53a65",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:30:05.824236+00:00",
+      "last_changed": "2026-08-21T08:30:05.824236+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:30:05.824236+00:00",
+      "next_check": "2026-08-22T08:30:05.824236+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/bell_canada/user/guide/user_can.html": {
       "content_sha": "81c302578460acb3908d73f1bc1a5d3579774b27044dee11dd95ad3bf14fa37f",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-bell-canada-user-guide-user-can-html-f58a3f850c",
@@ -29692,6 +29705,58 @@
       "next_check": "2026-08-21T19:17:29.115943+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/adminGd/cucm_b_administration-guide-1251SU1/cucm_b_test-adminguide_chapter_00.html": {
+      "content_sha": "401d776a1e9b1c9dcbd602294fccaac15f6627088c06cbff6777e80daec44856",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su1-admingd-cucm-b-administration-guide-1251su1-cucm-b-test-9bd38557b8",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:30:09.197611+00:00",
+      "last_changed": "2026-08-21T08:30:09.197611+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:30:09.197611+00:00",
+      "next_check": "2026-08-22T08:30:09.197611+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/adminGd/cucm_b_administration-guide-1251SU1/cucm_b_test-adminguide_chapter_01.html": {
+      "content_sha": "da17b98ab1346a7fd5d9f0218fed52812fa7439fe437f2565b2ef77c93ac71c7",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su1-admingd-cucm-b-administration-guide-1251su1-cucm-b-test-87c743c569",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:30:13.291194+00:00",
+      "last_changed": "2026-08-21T08:30:13.291194+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:30:13.291194+00:00",
+      "next_check": "2026-08-22T08:30:13.291194+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/adminGd/cucm_b_administration-guide-1251SU1/cucm_b_test-adminguide_chapter_010.html": {
+      "content_sha": "ae28df2fa228a62edf69ec82ef242663fb3edb95c02ce78a27d99dfc26342eeb",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su1-admingd-cucm-b-administration-guide-1251su1-cucm-b-test-334f6a0378",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:30:18.407014+00:00",
+      "last_changed": "2026-08-21T08:30:18.407014+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:30:18.407014+00:00",
+      "next_check": "2026-08-22T08:30:18.407014+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/adminGd/cucm_b_administration-guide-1251SU1/cucm_b_test-adminguide_chapter_011.html": {
+      "content_sha": "753e581c2bc390c7e3d44405b207a1a90a5aae265c6dc29749efe317cba6e491",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su1-admingd-cucm-b-administration-guide-1251su1-cucm-b-test-387a7200f6",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:30:22.286691+00:00",
+      "last_changed": "2026-08-21T08:30:22.286691+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:30:22.286691+00:00",
+      "next_check": "2026-08-22T08:30:22.286691+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/cucm_b_feature-configuration-guide-for-cisco1251SU1/cucm_b_feature-configuration-guide-for-cisco1251SU2_chapter_00.html": {
       "content_sha": "2d58c27109d74ef68931f1078d9b9ae14f99cec83d3af7cf9e5d2d1d50847d9c",
@@ -103007,5 +103072,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T08:27:36.497244+00:00"
+  "updated_at": "2026-08-21T08:30:22.379226+00:00"
 }
