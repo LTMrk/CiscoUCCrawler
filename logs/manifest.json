@@ -3910,10 +3910,10 @@
       "first_seen": "2026-08-16T19:01:55.586681+00:00",
       "last_changed": "2026-08-16T19:01:55.586681+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-18T23:46:23.926901+00:00",
-      "next_check": "2026-08-20T23:46:23.926901+00:00",
+      "last_seen": "2026-08-21T13:04:16.382352+00:00",
+      "next_check": "2026-08-25T13:04:16.382352+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/dx80/212294-how-to-upload-background-image-on-dx80-a.html": {
       "content_sha": "2ed6f6e48c17113a1eb4aee2f293de2c540b6780865af6504a2380ca7c593991",
@@ -4521,10 +4521,10 @@
       "first_seen": "2026-08-16T18:59:30.490282+00:00",
       "last_changed": "2026-08-16T18:59:30.490282+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-18T23:48:37.636358+00:00",
-      "next_check": "2026-08-20T23:48:37.636358+00:00",
+      "last_seen": "2026-08-21T13:03:53.122703+00:00",
+      "next_check": "2026-08-25T13:03:53.122703+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213816-troubleshoot-cisco-meeting-server-cms.html": {
       "content_sha": "7e0d8d7cfc92dbd9a05efe9ffa33de1d2929de7fd9f6c8b0cf2af5ee78f199d2",
@@ -10410,10 +10410,10 @@
       "first_seen": "2026-08-16T19:01:40.668917+00:00",
       "last_changed": "2026-08-16T19:01:40.668917+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:13:45.114826+00:00",
-      "next_check": "2026-08-21T00:13:45.114826+00:00",
+      "last_seen": "2026-08-21T13:04:01.885515+00:00",
+      "next_check": "2026-08-25T13:04:01.885515+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/conferencing/Advisories/SW_Advisory_CSCvo51143.html": {
       "content_sha": "bb753f5d8486ae3ea692976214d8059275fcc22f7f58cbe91e5652117e5f4340",
@@ -10423,10 +10423,10 @@
       "first_seen": "2026-08-16T19:01:36.738018+00:00",
       "last_changed": "2026-08-16T19:01:36.738018+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:13:49.229595+00:00",
-      "next_check": "2026-08-21T00:13:49.229595+00:00",
+      "last_seen": "2026-08-21T13:03:57.257151+00:00",
+      "next_check": "2026-08-25T13:03:57.257151+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/conferencing/Cisco-Meeting-Management/Installation/virtualization-cisco-meeting-management.html": {
       "content_sha": "3e9f8e810e5a24a139dc94a34391023316b8db6d5096aa583557e94ea1b3d73b",
@@ -118066,5 +118066,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T13:01:12.321369+00:00"
+  "updated_at": "2026-08-21T13:04:20.988967+00:00"
 }
