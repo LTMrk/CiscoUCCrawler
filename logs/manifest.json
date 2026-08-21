@@ -2295,6 +2295,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/bulk-administration-tool/200596-Bulk-Configure-Changes-with-Import-Expor.html": {
+      "content_sha": "5702b1496009e0d76a2961e588e3ac775c079554dd3b1aa638a51f6911f97358",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-bulk-administration-tool-200596-bulk-configure-changes-with-im-57b0aeb703",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T00:00:09.843988+00:00",
+      "last_changed": "2026-08-21T00:00:09.843988+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T00:00:09.843988+00:00",
+      "next_check": "2026-08-22T00:00:09.843988+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/118847-technote-ucs-00.html": {
       "content_sha": "e366f6f5090c1b69ebe566bd095b339db4a15803b06cbbcc2d07f1f7b88884e8",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-118847-technote-ucs-00-html-abcc027bad",
@@ -2656,6 +2669,19 @@
       "last_modified": null,
       "last_seen": "2026-08-18T23:58:39.112323+00:00",
       "next_check": "2026-08-19T23:58:39.112323+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216950-cisco-webex-root-ca-certificate-update.html": {
+      "content_sha": "5adfa0de9f3379471e8f4a4c6012c0087ba26da871260838fcf7711d130f5772",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-216950-cisco-webex-root-ca-certificate-update-html-1d1d4df524",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:59:33.498421+00:00",
+      "last_changed": "2026-08-20T23:59:33.498421+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:59:33.498421+00:00",
+      "next_check": "2026-08-21T23:59:33.498421+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -3620,6 +3646,19 @@
       "next_check": "2026-08-21T00:03:17.348758+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210541-CUCM-Certificate-Management-and-Change-N.html": {
+      "content_sha": "701b73dc046c8282f7c6ebc2649aa353740e49fe0d11e96f06327156f5ce0586",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-210541-cucm-certifi-2aae407ed8",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T00:00:37.114023+00:00",
+      "last_changed": "2026-08-21T00:00:37.114023+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T00:00:37.114023+00:00",
+      "next_check": "2026-08-22T00:00:37.114023+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211304-Collaboration-Edge-TC-based-Endpoints-Co.html": {
       "content_sha": "8401a5fc9131ffbdb02c05c2602836ac915f73947511fe991673f0f0f71f8931",
@@ -9117,6 +9156,45 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/migration/wbxhs_b_hybrid-calling-webex-domain-migration-guide/wbxhs_b_migrate-call-service-to-webex_chapter_00.html": {
+      "content_sha": "9f233d3e33c19168e044b7757b232dd0b863eeb4f85fcebc89f44d6b26c7a5f9",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-hybridservices-migration-wbxhs-b-hybrid-calling-webe-72dbba4376",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:59:42.244218+00:00",
+      "last_changed": "2026-08-20T23:59:42.244218+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:59:42.244218+00:00",
+      "next_check": "2026-08-21T23:59:42.244218+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/migration/wbxhs_b_hybrid-calling-webex-domain-migration-guide/wbxhs_b_migrate-call-service-to-webex_chapter_010.html": {
+      "content_sha": "743e7cd9139ffff3afaf2948494eb36ac0653d06e56c87dfee0c445400a202f4",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-hybridservices-migration-wbxhs-b-hybrid-calling-webe-f873e4bd6c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:59:46.672279+00:00",
+      "last_changed": "2026-08-20T23:59:46.672279+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:59:46.672279+00:00",
+      "next_check": "2026-08-21T23:59:46.672279+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/migration/wbxhs_b_hybrid-calling-webex-domain-migration-guide/wbxhs_b_migrate-call-service-to-webex_chapter_011.html": {
+      "content_sha": "97ff3b6a4a4052d4f6c3b000b4da89a319672e185f48d81c1e85ed28d6804bb7",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-hybridservices-migration-wbxhs-b-hybrid-calling-webe-cf3bcb652c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:59:50.237862+00:00",
+      "last_changed": "2026-08-20T23:59:50.237862+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:59:50.237862+00:00",
+      "next_check": "2026-08-21T23:59:50.237862+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide.html": {
       "content_sha": "b59e648b4cb4b2353bf9bfb14fb1ecf557399f3f0fd8b426b2bf596b98e579c9",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-ucmcalling-unified-cm-wbx-teams-deployment-guide-htm-67d6478655",
@@ -9129,6 +9207,19 @@
       "next_check": "2026-08-21T00:38:37.600916+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_appendix_0100.html": {
+      "content_sha": "f1d36ba814a4447a93f9467e62cf609b8bc07482c3e408232f2c4809a6a36954",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-ucmcalling-unified-cm-wbx-teams-deployment-guide-uni-7e4f56d84c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:59:59.484797+00:00",
+      "last_changed": "2026-08-20T23:59:59.484797+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:59:59.484797+00:00",
+      "next_check": "2026-08-21T23:59:59.484797+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_chapter_01.html": {
       "content_sha": "c81a0cc670b80d654c0c73652bc5b7e3284f93b5f3b4ef5e563ff0be998539f4",
@@ -9155,6 +9246,19 @@
       "next_check": "2026-08-21T00:38:48.455931+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_chapter_0101.html": {
+      "content_sha": "29ca0b01c8ea55f08a787d9176e19a653548001f63c48b07ffe23dbd7e93e659",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-ucmcalling-unified-cm-wbx-teams-deployment-guide-uni-dffbbe0411",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-20T23:59:54.620485+00:00",
+      "last_changed": "2026-08-20T23:59:54.620485+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-20T23:59:54.620485+00:00",
+      "next_check": "2026-08-21T23:59:54.620485+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_chapter_011.html": {
       "content_sha": "1aaf070a47441696d96476f26b8736fa9d797423ef68f5f3ace5138c3456bf77",
@@ -79551,6 +79655,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_deploy-jabber-on-premises-129/cjab_b_deploy-jabber-on-premises-129_chapter_01100.html": {
+      "content_sha": "78ead4c5d9d4e7f83433c63c502d83a05df75529f501a6be6600723edaa3faee",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-9-cjab-b-deploy-jabber-on-premises-129-cjab-b-deploy-jabber-on-pre-8e22ea9a32",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T00:00:19.013353+00:00",
+      "last_changed": "2026-08-21T00:00:19.013353+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T00:00:19.013353+00:00",
+      "next_check": "2026-08-22T00:00:19.013353+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_feature-configuration-for-jabber-129.html": {
       "content_sha": "d3cc465a434ce27fc50a5596102aded5adcd023ab3f2f0877f6ce4346e0eba08",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-9-cjab-b-feature-configuration-for-jabber-129-html-224412d21c",
@@ -80247,5 +80364,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-20T23:57:27.218358+00:00"
+  "updated_at": "2026-08-21T00:01:18.819092+00:00"
 }

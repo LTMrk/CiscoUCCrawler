@@ -3141,3 +3141,19 @@
 [2026-08-20T23:57:06.528477] HTTP 599 o DOM vacío. | https://collaborationhelp.cisco.com/article/ndl247o
 [2026-08-20T23:57:10.570032] HTTP 599 o DOM vacío. | https://collaborationhelp.cisco.com/article/nlkiw8e
 [2026-08-20T23:57:13.992235] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/hybridcalldevices/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call.html
+[2026-08-20T23:59:38.585076] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCus63305
+[2026-08-21T00:00:02.832258] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/Details%20about%20Headset%20Support
+[2026-08-21T00:00:06.217404] HTTP 301 o DOM vacío. | http://cway.cisco.com/csa
+[2026-08-21T00:00:15.378116] HTTP 303 o DOM vacío. | https://cdetsng.cisco.com/webui
+[2026-08-21T00:00:15.446734] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286331940/type/286319173/release/COP-Files
+[2026-08-21T00:00:23.790675] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/featureConfig/CUCM_BK_C7DC69D3_00_cucm-feature-configuration-guide_115/CUCM_BK_C7DC69D3_00_cucm-feature-configuration-guide_115_chapter_010.html
+[2026-08-21T00:00:42.840702] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/sysConfig/CUCM_BK_SE5DAF88_00_cucm-system-configuration-guide-1151.html
+[2026-08-21T00:00:42.840776] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/282421576/type
+[2026-08-21T00:00:46.063880] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/install_upgrade/guide/b_12xcuciumg.html
+[2026-08-21T00:00:46.966102] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/10x/release/notes/chapter.xml
+[2026-08-21T00:00:54.455763] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/guide/b_12xcucsecx.html
+[2026-08-21T00:00:58.473970] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch
+[2026-08-21T00:01:01.875816] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwc37421
+[2026-08-21T00:01:06.751357] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwc08253
+[2026-08-21T00:01:06.751427] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/280082558
+[2026-08-21T00:01:18.737705] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/design/guide/b_11xcucdg.html
