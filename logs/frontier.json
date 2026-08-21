@@ -1,53 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/enterprise-chat-email-12-5-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://tools.cisco.com/security/center/publicationListing.x",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/ucce_b_features-guide-1261/ucce_m_mobile_agent-1261.html",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/283613135/type/284259728/release/12.6(1)ES3",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/webex-workforce-optimization/series.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/enterprise-chat-and-email",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/search",
-    "depth": 2
-  },
-  {
-    "url": "http://cisco.com/en/US/docs/voice_ip_comm/unified_communications/cubecc.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/security/anyconnect-secure-mobility-client/products-installation-and-configuration-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-implementation-design-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab12/collab12/presence.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/voi-cube-media-proxy.html",
-    "depth": 2
-  },
-  {
     "url": "http://docwiki.cisco.com/wiki/Virtualization_for_Cisco_Packaged_CCE",
     "depth": 2
   },
@@ -26181,6 +26133,18 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-contact-center/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/minimum-resource-requirements-for-appqoe-thousandeyes-amp-utd/ta-p/4728550",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/unlocking-universal-ztna-the-next-step-in-cisco-zero-trust/ta-p/5349887",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/security/anyconnect-secure-mobility-client/series.html",
     "depth": 3
   }
 ]
