@@ -1,9 +1,18 @@
 {
-  "run_at": "2026-08-21T00:06:44.653289+00:00",
+  "run_at": "2026-08-21T00:11:57.500153+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-https-networking-guide-b-12xcuchttpsnet-b-12xcuchttpsnet-chap-125badc282",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-https-networking-guide-b-12xcuchttpsnet-b-12xcuchttpsnet-chap-6e0ee34c80",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-https-networking-guide-b-12xcuchttpsnet-b-12xcuchttpsnet-chap-7e91876d7a",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-https-networking-guide-b-12xcuchttpsnet-b-12xcuchttpsnet-chap-ad03897659",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-https-networking-guide-b-12xcuchttpsnet-b-12xcuchttpsnet-chap-f292a7bd8e",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-https-networking-guide-b-12xcuchttpsnet-b-12xcuchttpsnet-inde-7bfbad8a09"
+  ],
   "modified": [],
   "removed": [],
-  "blocked": [],
+  "blocked": [
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-security-b-12xcucsecx-htm-e2b8100dc8"
+  ],
   "unchanged_count": 0
 }

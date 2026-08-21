@@ -9819,6 +9819,84 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/https_networking/guide/b_12xcuchttpsnet/b_12xcuchttpsnet_chapter_00.html": {
+      "content_sha": "41e0a9778ab9c12b61e46df587227a79457a052ae03af9787ed2b3101bbf8f5a",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-https-networking-guide-b-12xcuchttpsnet-b-12xcuchttpsnet-chap-6e0ee34c80",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T00:10:54.536238+00:00",
+      "last_changed": "2026-08-21T00:10:54.536238+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T00:10:54.536238+00:00",
+      "next_check": "2026-08-22T00:10:54.536238+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/https_networking/guide/b_12xcuchttpsnet/b_12xcuchttpsnet_chapter_01.html": {
+      "content_sha": "7dd3a2a5da1876b1039b939691dda4d91d935218d0fad26d663283a0128d24f2",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-https-networking-guide-b-12xcuchttpsnet-b-12xcuchttpsnet-chap-ad03897659",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T00:10:59.324332+00:00",
+      "last_changed": "2026-08-21T00:10:59.324332+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T00:10:59.324332+00:00",
+      "next_check": "2026-08-22T00:10:59.324332+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/https_networking/guide/b_12xcuchttpsnet/b_12xcuchttpsnet_chapter_010.html": {
+      "content_sha": "77687b3c47723bd2b8471b5de03b54af8d8f312e8299a686d8893ce4bba51825",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-https-networking-guide-b-12xcuchttpsnet-b-12xcuchttpsnet-chap-7e91876d7a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T00:11:02.975933+00:00",
+      "last_changed": "2026-08-21T00:11:02.975933+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T00:11:02.975933+00:00",
+      "next_check": "2026-08-22T00:11:02.975933+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/https_networking/guide/b_12xcuchttpsnet/b_12xcuchttpsnet_chapter_0100.html": {
+      "content_sha": "07cc62169c5e28fe9f6ed67890e4d91ed81c4cb36ad1554f70aea97fbf06dbee",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-https-networking-guide-b-12xcuchttpsnet-b-12xcuchttpsnet-chap-f292a7bd8e",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T00:11:07.571749+00:00",
+      "last_changed": "2026-08-21T00:11:07.571749+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T00:11:07.571749+00:00",
+      "next_check": "2026-08-22T00:11:07.571749+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/https_networking/guide/b_12xcuchttpsnet/b_12xcuchttpsnet_chapter_011.html": {
+      "content_sha": "9c836ea244a9312361d9cb00054c820667bc264421dd78006cd9dfc8daa9ca4a",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-https-networking-guide-b-12xcuchttpsnet-b-12xcuchttpsnet-chap-125badc282",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T00:10:29.059508+00:00",
+      "last_changed": "2026-08-21T00:10:29.059508+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T00:10:29.059508+00:00",
+      "next_check": "2026-08-22T00:10:29.059508+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/https_networking/guide/b_12xcuchttpsnet/b_12xcuchttpsnet_index.html": {
+      "content_sha": "ecd050cf92d777aad9b7bf7ea8b8fb386e32da8a6f72e3ca42cbb4d14daeccee",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-https-networking-guide-b-12xcuchttpsnet-b-12xcuchttpsnet-inde-7bfbad8a09",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T00:11:11.417724+00:00",
+      "last_changed": "2026-08-21T00:11:11.417724+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T00:11:11.417724+00:00",
+      "next_check": "2026-08-22T00:11:11.417724+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/install_upgrade/guide/b_12xcuciumg/b_12xcuciumg_chapter_00.html": {
       "content_sha": "e80fb282450ada0d231a4694eac98aeb39aff8016f1501236d9bfbadd0ef8c84",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-install-upgrade-guide-b-12xcuciumg-b-12xcuciumg-chapter-00-ht-89d114083e",
@@ -10988,6 +11066,16 @@
       "next_check": "2026-08-21T00:50:13.997883+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/b_12xcucsecx.htm": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-security-b-12xcucsecx-htm-e2b8100dc8",
+      "fail_count": 1,
+      "first_seen": "2026-08-21T00:11:22.145914+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-21T00:11:22.145918+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/b_12xcucsecx/b_12xcucsecx_chapter_00.html": {
       "content_sha": "cf884ff98cd89fdd3227ca5e64afdbafa3a56d303ebeeb21c112ccde636c6f7d",
@@ -80364,5 +80452,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T00:06:44.591861+00:00"
+  "updated_at": "2026-08-21T00:11:57.428598+00:00"
 }
