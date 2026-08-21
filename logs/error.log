@@ -3282,3 +3282,23 @@
 [2026-08-21T00:31:19.204711] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/user/guide/email/b_14cucugemail.html
 [2026-08-21T00:31:23.563383] HTTP 303 o DOM vacío. | https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/connection/15/install_upgrade/b_15cuciumg/b_15cuciumg_chapter_010.html
 [2026-08-21T00:31:27.020766] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/troubleshooting/guide/b_14cuctsg/b_14cuctsg_chapter_010001.html
+[2026-08-21T00:33:47.928183] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/security/b_11xcucsecx/b_11xcucsecx_chapter_0111.html
+[2026-08-21T00:33:52.192267] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/user/guide/phone/b_11xcucugphone/Managing_Meetings.html
+[2026-08-21T00:35:50.390573] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/278875240
+[2026-08-21T00:35:54.928536] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu52448
+[2026-08-21T00:35:58.423970] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/design/b_15cucdesg.html
+[2026-08-21T00:36:50.218291] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/design/b_15cucdg.html
+[2026-08-21T00:37:02.157413] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/design/b_15cucsag.html
+[2026-08-21T00:37:10.618504] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/install_upgrade/b_15cuciumg.html
+[2026-08-21T00:37:18.418392] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/283062758/type/282074348/release/OVA-15
+[2026-08-21T00:37:27.821540] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/15_0/cucm_b_security-guide-release-15.html
+[2026-08-21T00:37:51.903346] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwi99392
+[2026-08-21T00:37:56.017723] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwi88482
+[2026-08-21T00:38:00.319522] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwj19609
+[2026-08-21T00:38:04.459730] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwj33065
+[2026-08-21T00:38:08.303481] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwi58750
+[2026-08-21T00:38:12.234752] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwi62194
+[2026-08-21T00:38:15.498882] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwn42420
+[2026-08-21T00:38:19.858843] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwq85838
+[2026-08-21T00:38:24.113429] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwq61805
+[2026-08-21T00:38:28.138254] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwq27598
