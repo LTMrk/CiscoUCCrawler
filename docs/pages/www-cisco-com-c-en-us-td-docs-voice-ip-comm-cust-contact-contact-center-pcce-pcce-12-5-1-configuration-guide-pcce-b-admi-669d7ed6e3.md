@@ -1,0 +1,143 @@
+---
+doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-configuration-guide-pcce-b-admi-669d7ed6e3
+source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/configuration/guide/pcce_b_admin-and-config-guide_12_5/pcce_b_admin-and-config-guide_12_5_chapter_0111.html
+retrieved_at: 2026-08-21T04:44:29.612543+00:00
+---
+
+Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.5(1)
+
+# Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.5(1)
+
+Updated: June 11, 2024
+
+Chapter: Call Types, Contact Data, and Scripting
+
+## Chapter: Call Types, Contact Data, and Scripting
+
+# Call Types, Contact Data, and Scripting
+
+## Call Types
+
+When writing scripts
+                              		  to route contacts, you must understand call types and contact data.
+
+A call type is the
+                              		  first-level category of a contact and is determined by data associated with the
+                              		  contact. You associate a script with a call type. When a contact of a certain
+                              		  call type is received, the associated script runs on that contact.
+
+You create call types through the Call Type tool in Unified CCE Administration. See the section on call types for more information.
+
+## Default Call
+                        	 Types
+
+A default call type
+                              		  is the call type used when a contact does not map to a defined call type.
+
+You specify the system default call type in the Settings tool of Unified CCE Administration. For more information, see the
+                              section on system settings for call reporting.
+
+## Relation Between Call Types and Scripts
+
+Scripts are scheduled by call type . In other words, when the system receives a request to route a contact, it
+                              determines the call type of that contact, then runs the associated script.
+
+Call types provide the first level of categorization of contacts , enabling you to write scripts to route contacts differently depending on their call type. While other types of categorization
+                              take place within a script, call types enable you to provide contacts with different treatment by running different scripts
+                              to begin with. Call types enable categorization before a script begins to run.
+
+## Call Type Qualifiers
+
+The following data determine the call type. This data is referred to as the call type qualifier.
+
+The call type qualifiers described in this section apply to
+                              contacts from all media. The terminology used is applicable to voice
+                              contacts; where the terminology differs for other media, the differences
+                              are explained in this section.
+
+You can also use the call type qualifiers for categorization within a script.
+
+### Dialed Number (DN)
+
+A Dialed number (DN) is a string that represents the telephone number dialed by the caller, preceded by the name of the routing
+                                 client and a period. For example, " ucm.18005551212 " might be a dialed number.
+
+Typically, a dialed number is associated with one or more call types.
+
+## Association of Contacts with Call Types
+
+Following is the general process of how   the system attempts to associate a contact with a
+                              call type:
+
+If the dialed number of the contact maps to a defined call type, the system uses that call type.
+
+If no call type matches the contact, the system uses the default call type.
+
+If no default call type is defined, the system returns an error to the routing client.
+
+## Determination of Call Type for Voice Contact
+
+The following example demonstrates how the system determines the call type for a voice contact and runs the appropriate script:
+
+When configuring Unified CCE , you create a call type called "MASSACHUSETTS_SALES". This call type is defined as:
+
+Having a dialed number of " ucm.8005551234 ".
+
+You create a script called "MASSACHUSETTS_SALES_SCRIPT," which finds the longest available agent in the "NORTHEAST_SALES"
+                                    skill group.
+
+You schedule the script to run for the "MASSACHUSETTS_SALES" call type.
+
+Packaged CCE Unified CCE determines that the call type is "MASSACHUSETTS_SALES" and runs the "MASSACHUSETTS_SALES_SCRIPT" script.
+
+Packaged CCE Unified CCE assigns the task to a particular agent.
+
+## Determination of Call Type for ECE Web Request
+
+The following basic example demonstrates how the system determines the call type for a Enterprise Chat and
+                                    						Email chat web request:
+
+When configuring Unified CCE Packaged CCE , you create a call type called "SSC_CT". This call type is defined as having a Script Selector (Dialed Number) of "SSC_DN".
+
+When configuring ECE , set the value of the Script Selector for Media Routing Domain to "SSC_DN".
+
+You create a script called "SSC_SCRIPT," which finds the longest available agent in the "COLLABORATION_SALES" skill group.
+
+You schedule the script to run for the "SSC_CT" call type.
+
+A n e-mail is sent or a web user requests a chat session.
+
+A route request is sent to Unified CCE Packaged CCE .
+
+Unified CCE Packaged CCE determines that the Call Type is "SSC_CT" and runs the "SSC_SCRIPT" script.
+
+Unified CCE Packaged CCE instructs ECE to assign the task to a particular agent.
+
+## Determination of Call Type for a Task
+                              					Routing Task
+
+This example is for a multichannel task from a third-party multichannel application that uses the Task
+                                    					Routing APIs.  It demonstrates how  the system determines the call type for the task and runs the appropriate script.  In this example,
+                              the task is a chat task.
+
+When configuring CCE, you create a multichannel MRD called "Chat_Task_MRD".  You create a  call type called "Chat".  You create
+                                    a dialed number/script selector "Chat_DN", and associate it with "Chat_Task_MRD" and the "Chat" call type.
+
+You create a Customer Collaboration Platform Chat application from which a user can request to chat with an agent. You set the value of the script selector in the chat
+                                    form to the "Chat_DN" dialed number.
+
+You create a script called "Universal_Queue_script" that finds the longest available agent in the "Sales" skill group in the
+                                    "Chat" MRD.
+
+You schedule the script to run for the "Chat" call type.
+
+A user requests a chat session from the Customer Collaboration Platform Chat application, using the Customer Collaboration Platform Task API.
+
+Customer Collaboration Platform submits the task request to CCE, including the dialed number/script selector.
+
+CCE uses the script selector to determine the call type, and runs the "Universal_Queue_script".
+
+CCE assigns the task to an agent who is logged into the "Sales" skill group in the "Chat" MRD.
+
+| Note | You can also use the call type qualifiers for categorization within a script. |
+|---|---|
