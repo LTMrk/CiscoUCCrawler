@@ -6810,10 +6810,10 @@
       "first_seen": "2026-08-16T20:54:36.773615+00:00",
       "last_changed": "2026-08-16T20:54:36.773615+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-18T23:51:29.008610+00:00",
-      "next_check": "2026-08-20T23:51:29.008610+00:00",
+      "last_seen": "2026-08-21T23:44:25.797543+00:00",
+      "next_check": "2026-08-25T23:44:25.797543+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/116165-trouble-ucce-trace-00.html": {
       "content_sha": "c5e43f33fb57a6a1a64f678812214bc75663aac9c9ab33d17a56f00ba77013d4",
@@ -155923,5 +155923,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T23:42:10.376553+00:00"
+  "updated_at": "2026-08-21T23:44:30.971054+00:00"
 }
