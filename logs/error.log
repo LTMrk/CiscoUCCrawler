@@ -7961,3 +7961,45 @@
 [2026-08-21T23:33:14.188445] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-10-2/w800_b_cisco-wireless-phone-840-and-860_1102.epub
 [2026-08-21T23:33:18.437180] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-10-2/w800_b_cisco-wireless-phone-840-and-860_1102.mobi
 [2026-08-21T23:33:23.248280] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd73349
+[2026-08-21T23:35:34.164223] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-10-1/w800_b_cisco-wireless-phone-840-and-860_1101.epub
+[2026-08-21T23:35:38.067891] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-10-1/w800_b_cisco-wireless-phone-840-and-860_1101.mobi
+[2026-08-21T23:35:42.585271] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwh97778
+[2026-08-21T23:36:45.268239] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide.html
+[2026-08-21T23:36:49.102959] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/mgcp/configuration/15-mt/vm-15-mt-book/vm-gw-med-sig.html
+[2026-08-21T23:37:31.705331] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr2/vcr2-cr-book/vcr2-cr-book_CLT_chapter.html
+[2026-08-21T23:37:43.878019] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/overview.html
+[2026-08-21T23:38:22.106341] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/viewing_cucm_profile.html
+[2026-08-21T23:38:34.320842] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/viewing_cucm_cluster_nodes.html
+[2026-08-21T23:39:54.853812] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/core_config_control_panel.html
+[2026-08-21T23:40:49.793669] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/admin/guide/cfin_b_150_cisco-finesse-administration-guide.html
+[2026-08-21T23:40:54.005498] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/admin/guide/cfin_b_1262_cisco-finesse-administration-guide.html
+[2026-08-21T23:40:58.603345] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/admin/guide/cfin_b_1261-cisco-finesse-administration-guide.html
+[2026-08-21T23:41:02.696486] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide.html
+[2026-08-21T23:41:23.697443] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286330811/type/282364313/release/5.1.19.1862
+[2026-08-21T23:41:23.697548] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286330811/type/282364313/release/Translations
+[2026-08-21T23:41:23.844394] Omitida: excluida por robots.txt | https://community.cisco.com/t5/security-knowledge-base/cisco-secure-client-xdr-ms-intune/ta-p/5346661
+[2026-08-21T23:41:23.844506] Omitida: excluida por robots.txt | https://community.cisco.com/t5/secure-access-software-release-notes/cisco-secure-client-5-1-18-314-mr-18/ta-p/5563145
+[2026-08-21T23:41:23.844537] Omitida: excluida por robots.txt | https://community.cisco.com/t5/security-knowledge-base/cisco-secure-client-nvm-endpoint-telemetry-for-cisco-xdr/ta-p/5378494
+[2026-08-21T23:41:23.844563] Omitida: excluida por robots.txt | https://community.cisco.com/t5/umbrella-announcements/end-of-support-for-cisco-umbrella-roaming-client/ta-p/5254950
+[2026-08-21T23:41:28.002834] Omitida: excluida por robots.txt | https://community.cisco.com/t5/additional-resources-technology-and-support-events/apjc-expert-insights-series-nx-recordings/ta-p/5340869
+[2026-08-21T23:41:28.002874] Omitida: excluida por robots.txt | https://community.cisco.com/t5/additional-resources-technology-and-support-events/2025-26-apjc-expert-insights-series-nx-recordings/ta-p/5340869
+[2026-08-21T23:41:28.002900] Omitida: excluida por robots.txt | https://community.cisco.com/t5/data-center-and-cloud-knowledge-base/data-center-networking-success-capsules-video-series/ta-p/5564707
+[2026-08-21T23:41:28.002926] Omitida: excluida por robots.txt | https://community.cisco.com/t5/security-knowledge-base/cisco-identity-training/ta-p/4782361
+[2026-08-21T23:41:28.002948] Omitida: excluida por robots.txt | https://community.cisco.com/t5/additional-resources-technology-and-support-events/apjc-expert-insights-series/ta-p/5314645
+[2026-08-21T23:41:28.752148] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-intelligence-center/201003-Collecting-the-Logs-for-CUIC-Performance.epub
+[2026-08-21T23:41:32.954933] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-intelligence-center/201003-Collecting-the-Logs-for-CUIC-Performance.mobi
+[2026-08-21T23:41:32.954996] Omitida: excluida por robots.txt | https://software.cisco.com/download/release.html
+[2026-08-21T23:41:36.492234] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur70829
+[2026-08-21T23:41:37.049643] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCua46681
+[2026-08-21T23:41:37.049757] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCua47572
+[2026-08-21T23:41:37.049789] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCun82152
+[2026-08-21T23:41:37.049815] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCur39984
+[2026-08-21T23:41:37.049839] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCuy08053
+[2026-08-21T23:41:37.049862] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCuu10923
+[2026-08-21T23:41:37.331862] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express-1101/200423-SHA-256-Support-for-UCCX.epub
+[2026-08-21T23:41:41.553201] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express-1101/200423-SHA-256-Support-for-UCCX.mobi
+[2026-08-21T23:41:50.060617] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/212428-contact-center-sso-with-okta-identity-pr.epub
+[2026-08-21T23:41:54.205593] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/212428-contact-center-sso-with-okta-identity-pr.mobi
+[2026-08-21T23:42:01.613744] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_11_6_1/Configuration/Guide/ucce_b_ucce-features-guide/ucce_b_ucce-features-guide_chapter_01000.html
+[2026-08-21T23:42:05.888664] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_11_6/maintain_and_operate/guide/uccx_b_unified-ccx-administartion-guide/uccx_b_unified-ccx-administartion-guide_chapter_01101.html
+[2026-08-21T23:42:10.319691] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V11-5-1/config/CSR1151-UCCX-SSO.html
