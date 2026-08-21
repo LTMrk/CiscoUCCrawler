@@ -53721,6 +53721,97 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/userguide/cs88_b_conference-8832-mpp-userguide/cs88_b_conference-8832-user-guide_chapter_00.html": {
+      "content_sha": "1a19b98b495a30ffa8ea52ddee079ed550d72563b1eb6968a7bb50d875240a4f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-userguide-cs88-b-conference-8832-mpp-userguide-cs88--996f9349cb",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:38:50.187121+00:00",
+      "last_changed": "2026-08-21T02:38:50.187121+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:38:50.187121+00:00",
+      "next_check": "2026-08-22T02:38:50.187121+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/userguide/cs88_b_conference-8832-mpp-userguide/cs88_b_conference-8832-user-guide_chapter_01.html": {
+      "content_sha": "f64a6af8013906193b86190cbb3b0ba6f85cffdd484d01feca995b9838cfb4ec",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-userguide-cs88-b-conference-8832-mpp-userguide-cs88--6d62c1ab8f",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:38:54.610585+00:00",
+      "last_changed": "2026-08-21T02:38:54.610585+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:38:54.610585+00:00",
+      "next_check": "2026-08-22T02:38:54.610585+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/userguide/cs88_b_conference-8832-mpp-userguide/cs88_b_conference-8832-user-guide_chapter_010.html": {
+      "content_sha": "38001504779b126a559c2eec212af805c5b035a06dcfcac3aa0f90aa25be1268",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-userguide-cs88-b-conference-8832-mpp-userguide-cs88--4ab8083e45",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:38:59.158675+00:00",
+      "last_changed": "2026-08-21T02:38:59.158675+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:38:59.158675+00:00",
+      "next_check": "2026-08-22T02:38:59.158675+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/userguide/cs88_b_conference-8832-mpp-userguide/cs88_b_conference-8832-user-guide_chapter_0100.html": {
+      "content_sha": "6e21c4c738423ed4664aace43cb1a50c60293ab537c2bb24c7118ee235beeaab",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-userguide-cs88-b-conference-8832-mpp-userguide-cs88--5b7f0a8852",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:39:06.993816+00:00",
+      "last_changed": "2026-08-21T02:39:06.993816+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:39:06.993816+00:00",
+      "next_check": "2026-08-22T02:39:06.993816+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/userguide/cs88_b_conference-8832-mpp-userguide/cs88_b_conference-8832-user-guide_chapter_011.html": {
+      "content_sha": "c0258d9f4c96e33f637c1c81ffeff2eed10927edf490443342c9a433ab773262",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-userguide-cs88-b-conference-8832-mpp-userguide-cs88--35fa3961bc",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:39:02.918229+00:00",
+      "last_changed": "2026-08-21T02:39:02.918229+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:39:02.918229+00:00",
+      "next_check": "2026-08-22T02:39:02.918229+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/userguide/cs88_b_conference-8832-mpp-userguide/cs88_b_conference-8832-user-guide_chapter_0110.html": {
+      "content_sha": "d5610119d007d41f74a115253cb5dd2a961bfef3ddf245a425423043d596eea2",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-userguide-cs88-b-conference-8832-mpp-userguide-cs88--369b6ec16f",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:39:12.229366+00:00",
+      "last_changed": "2026-08-21T02:39:12.229366+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:39:12.229366+00:00",
+      "next_check": "2026-08-22T02:39:12.229366+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/userguide/cs88_b_conference-8832-mpp-userguide/cs88_b_conference-8832-user-guide_chapter_0111.html": {
+      "content_sha": "f3274a76db5d320b6c90f00a240e1c407d8fd24d5d89fdbdad865e754d569362",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-userguide-cs88-b-conference-8832-mpp-userguide-cs88--1378e3080c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:39:16.091110+00:00",
+      "last_changed": "2026-08-21T02:39:16.091110+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:39:16.091110+00:00",
+      "next_check": "2026-08-22T02:39:16.091110+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/firmware/12-0-6/cs88_b_8832mpp-rn-1206.html": {
       "content_sha": "4d0901571d1f2a85fcd5aaec863d364ba548be893ac644020c24d0fc6d12009e",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-firmware-12-0-6-cs88-b-8832mpp-rn-1206-html-0edc49c747",
@@ -86449,5 +86540,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T02:36:43.703756+00:00"
+  "updated_at": "2026-08-21T02:39:42.203044+00:00"
 }
