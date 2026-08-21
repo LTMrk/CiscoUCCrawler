@@ -70340,6 +70340,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs145spc.html": {
+      "content_sha": "c6e987bb6e06e5525a926ec642e6572ab8f3acee68d45fd503583d8972a0f41b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs145spc-html-0d5c9ac61b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T10:03:35.709995+00:00",
+      "last_changed": "2026-08-21T10:03:35.709995+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T10:03:35.709995+00:00",
+      "next_check": "2026-08-22T10:03:35.709995+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs150spc.html": {
+      "content_sha": "f6c38e8d573d0b4b148fa3a0016b9fc78418a2001acac230ae1ce84f9577219f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs150spc-html-aaa7e307f5",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T10:03:31.630047+00:00",
+      "last_changed": "2026-08-21T10:03:31.630047+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T10:03:31.630047+00:00",
+      "next_check": "2026-08-22T10:03:31.630047+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/configuration/guide/ccvb_b_1251-ciscovvb-administrationconfiguration-guide.html": {
       "content_sha": "d960577a81a1ea8a1b306cb8ecf59b9ddb51a35be7ddd1bf926dcaf71614b8d5",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-5-configuration-guide-ccvb-b-12-63ed8047fd",
@@ -112103,5 +112129,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T10:00:43.786943+00:00"
+  "updated_at": "2026-08-21T10:03:35.788356+00:00"
 }

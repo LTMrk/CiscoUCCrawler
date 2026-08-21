@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/user/1_0_1/ippmmes_files/96533y.jpg",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/user/1_0_1/ippmmes_files/96533aa.jpg",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/user/1_0_1/ippmmes_files/96533n.jpg",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/user/1_0_1/ippmmes_files/96533o.jpg",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/user/1_0_1/ippmmes_files/96533p.jpg",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/user/1_0_1/ippmmes_files/96533q.jpg",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/user/1_0_1/ippmmes_files/96533r.jpg",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/user/1_0_1/ippmmes_files/96533.jpg",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs150spc.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs145spc.html",
-    "depth": 2
-  },
-  {
     "url": "https://developer.cisco.com/docs/ios-xe-voip",
     "depth": 2
   },
@@ -28377,6 +28337,14 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/developersguide/w800_b_wireless-800-developers-guide/w800_b_wireless-800-developers-guide_index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/mgcp/configuration/15-mt/vm-15-mt-book/vm-gw-med-sig.html",
     "depth": 3
   }
 ]
