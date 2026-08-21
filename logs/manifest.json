@@ -54098,6 +54098,45 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/operating_system/guide/1_0_1/iptpch1.html": {
+      "content_sha": "21d0e636437edb38ce266315d43fc803439f58340bb9b67ae065ec582d0b73ac",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-operating-system-guide-1-0-1-iptpch1-html-d5f7c5345b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:45:01.832963+00:00",
+      "last_changed": "2026-08-21T02:45:01.832963+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:45:01.832963+00:00",
+      "next_check": "2026-08-22T02:45:01.832963+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/operating_system/guide/1_0_1/iptpch2.html": {
+      "content_sha": "90ddb547b49f165ee2dc34bf42b0beeaa6db0623c19b230b4daa61102b1cde5f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-operating-system-guide-1-0-1-iptpch2-html-a14cc54464",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:45:06.154249+00:00",
+      "last_changed": "2026-08-21T02:45:06.154249+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:45:06.154249+00:00",
+      "next_check": "2026-08-22T02:45:06.154249+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/operating_system/guide/1_0_1/iptppref.html": {
+      "content_sha": "36e603bbcd5454a921647119cb267d4b2381de7c8e5ba6929d3aee4333b6cb8b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-operating-system-guide-1-0-1-iptppref-html-f62b390237",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T02:44:57.880009+00:00",
+      "last_changed": "2026-08-21T02:44:57.880009+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T02:44:57.880009+00:00",
+      "next_check": "2026-08-22T02:44:57.880009+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/user/1_0_1.html": {
       "content_sha": "45bb03bc4658362c0d57f8b9514727f1fd32ece864fb188d2eb1d6e7ed3814ef",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-user-1-0-1-html-bc23f6dfa3",
@@ -86540,5 +86579,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T02:42:21.567077+00:00"
+  "updated_at": "2026-08-21T02:45:06.239176+00:00"
 }

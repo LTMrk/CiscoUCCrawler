@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://developer.cisco.com/site/ip-phone-services/documentation",
-    "depth": 1
-  },
-  {
-    "url": "https://cisco.com/go/deskphone9800",
-    "depth": 1
-  },
-  {
-    "url": "https://cisco.com/go/dp9800help",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desk-phone-9800-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-wireless-phone/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://cisco.com/go/wp9821help",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/tsd-products-support-series-home.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/operating_system/guide/1_0_1/iptppref.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/operating_system/guide/1_0_1/iptpch1.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/operating_system/guide/1_0_1/iptpch2.html",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/operating_system/guide/1_0_1/iptpch3.html",
     "depth": 1
   },
@@ -15269,6 +15229,126 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/userguide/cs88_b_conference-8832-mpp-userguide.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/9800-series/release_notes/p980_m_cisco-desk-phone-9800-release-notes.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/9800-series/guides/p980_m_kem-configuration-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/9800-series/guides/p980_m_help-doc.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/9800-series/guides/p980_m_get-started.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/9800-series/guides/p980_m_help-admin-doc.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/userguide/w800_b_wireless-800-user-guide/w800_m_your-phone.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/adminguide/w800_b_wireless-800-administration-guide/w800_m_cisco-unified-communications-manager-phoneconfiguration.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/userguide/w800_b_wireless-800-user-guide/w800_m_accessories.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/adminguide/w800_b_wireless-800-administration-guide/w800_m_configuration-on-the-phone.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/adminguide/w800_b_wireless-800-administration-guide/w800_m_configuration-on-a-mobile-device.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/adminguide/w800_b_wireless-800-administration-guide/w800_m_maintenance.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/2-4-1/w800_b_cisco-wireless-phone-860-241.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/2-4-0/w800_b_cisco-wireless-phone-860-240.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/2-3-1/w800_b_cisco-wireless-phone-860-231.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-11-2/w800_b_cisco-wireless-phone-840_1112.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/2_1_0-new/w800_b_cisco-wireless-phone-860_rn-210.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/2-3-0/w800_b_cisco-wireless-phone-860_230.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/2-2-0/w800_b_cisco-wireless-phone-860_220.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-11-1/w800_b_cisco-wireless-phone-840_1111.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-11-0/w800_b_cisco-wireless-phone-840_1110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-10-4/w800_b_cisco-wireless-phone-840-and-860_1104.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-10-3/w800_b_cisco-wireless-phone-840-and-860_1103.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-10-2/w800_b_cisco-wireless-phone-840-and-860_1102.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-10-1/w800_b_cisco-wireless-phone-840-and-860_1101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-wireless-phone/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/developersguide/w800_b_wireless-800-developers-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/9821/help_doc/p9821-wireless-phone-9821-help-doc_user.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/userguide/w800_b_wireless-800-user-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/9821/help_doc/p9821_wireless-phone-9821-help-doc_admin.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/adminguide/w800_b_wireless-800-administration-guide.html",
     "depth": 2
   }
 ]
