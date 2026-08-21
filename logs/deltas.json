@@ -1,9 +1,22 @@
 {
-  "run_at": "2026-08-21T20:34:03.727300+00:00",
+  "run_at": "2026-08-21T20:48:37.306478+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-version-15-226131-configure-nfvis-for-uc-f31fd541fd",
+    "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-version-15-226133-determine-nfvis-for-uc-56387b75b9",
+    "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-version-15-226136-configure-nfvis-for-uc-ed291d9098",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-english-admin-guide-at91-b-ata191-admin-guide-at91-b-ata191-admin-g-bee476d7b2",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-english-admin-guide-at91-b-ata191-admin-guide-at91-b-ata191-admin-g-ee11783109",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-english-admin-guide-at91-b-ata191-admin-guide-at91-b-ata191-admin-g-ee46e5d722",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-english-user-guide-at91-b-ata191-user-guide-for-cucm-at91-b-ata191--dfc9cc857d",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-c1ht-html-b337018498",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-00-html-73806c88b0",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-010-html-8590f66ea4",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-010001-html-b191aa6698",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-s1ht-html-b03e0be493"
+  ],
   "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 1
+  "unchanged_count": 53
 }
