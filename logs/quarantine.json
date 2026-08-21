@@ -119,6 +119,12 @@
     "ultima_vez": "2026-08-21T15:23:44.352422+00:00",
     "veces": 1
   },
+  "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvh29610": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-21T18:39:30.588447+00:00",
+    "veces": 1
+  },
   "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvh72096": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
