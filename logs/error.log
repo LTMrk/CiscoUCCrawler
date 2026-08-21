@@ -3222,3 +3222,14 @@
 [2026-08-21T00:14:25.612763] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/open_source/1201cucopnsrc.epub
 [2026-08-21T00:14:29.830308] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/open_source/1201cucopnsrc.mobi
 [2026-08-21T00:14:33.848984] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/open_source/1201su1cucopnsrc.epub
+[2026-08-21T00:16:26.043441] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/open_source/1201su1cucopnsrc.mobi
+[2026-08-21T00:16:33.484964] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/install_upgrade/guide/b_14cuciumg.html
+[2026-08-21T00:16:38.511277] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/12_0_1/cucm_b_saml-sso-deployment-guide-1201/cucm_b_saml-sso-deployment-guide-1201_chapter_01.html
+[2026-08-21T00:16:38.597711] Omitida: excluida por robots.txt | https://supportforums.cisco.com/document/55391/cucmssowhitepaperedcs-911568pdf
+[2026-08-21T00:16:38.659617] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/readme/b_1251su7cucrn_chapter_00.xml
+[2026-08-21T00:16:43.321809] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwf13979
+[2026-08-21T00:16:46.711938] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp40778
+[2026-08-21T00:16:50.937919] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd91126
+[2026-08-21T00:16:55.160175] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/search
+[2026-08-21T00:16:59.326106] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvf61828
+[2026-08-21T00:17:03.660298] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvf73846
