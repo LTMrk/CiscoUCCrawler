@@ -51064,6 +51064,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/adminguide/P881_BK_C136782F_00_cisco-ip-phone-8800_series/P881_BK_C136782F_00_cisco-ip-phone-8811-8841_chapter_01111.html": {
+      "content_sha": "8d88b343e76595aa021f172ac8bb0e59b518f55eaf4445428a67b93e23ca38f6",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-english-adminguide-p881-bk-c136782f-00-cisco-ip-phone-880-cf1b8f0878",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:53:29.356986+00:00",
+      "last_changed": "2026-08-21T01:53:29.356986+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:53:29.356986+00:00",
+      "next_check": "2026-08-22T01:53:29.356986+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/compatibility/p881_b_phone-8800-series-compatibility.html": {
       "content_sha": "409e4e4436fdf4815f66635c2114222e7ac65183fabeb1883e8cf30a6616eb52",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-english-compatibility-p881-b-phone-8800-series-compatibil-96a8319b08",
@@ -51363,6 +51376,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/Compatibility/w88x_b_wireless-8821-8821ex-compatibility-matrix/w88x_m_wireless-8821-8821ex-compatibility-matrix.html": {
+      "content_sha": "76f47a985070e93c3989e6fec388b69a0f4f302eae6f9213990ca723029f0f4e",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-compatibility-w88x-b-wireless-8821-8821ex-compatibility--cd0dd4f10a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:53:54.939928+00:00",
+      "last_changed": "2026-08-21T01:53:54.939928+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:53:54.939928+00:00",
+      "next_check": "2026-08-22T01:53:54.939928+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory.html": {
       "content_sha": "f6fb131de37ba9b93f137d1041be9b9729cc9e92d3871a5e96908f7849021256",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-accessories-w88x-b-wireless-ip-phone-882x-accessory-html-369ec7c1e4",
@@ -51375,6 +51401,19 @@
       "next_check": "2026-08-22T16:30:38.988819+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory/w88x_b_wireless-ip-phone-882x-accessory_chapter_00.html": {
+      "content_sha": "3ae6b614dcb9b9f9af3fe5c6d5f9cb42a3a4baecbdf4d6c33cf827a5fb07dc56",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-accessories-w88x-b-wireless-ip-phone-882x-accessory-w88x-3c59c7dc52",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:54:07.624524+00:00",
+      "last_changed": "2026-08-21T01:54:07.624524+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:54:07.624524+00:00",
+      "next_check": "2026-08-22T01:54:07.624524+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory/w88x_b_wireless-ip-phone-882x-accessory_chapter_01.html": {
       "content_sha": "d3bfd5eac0222bf39cef0324ec0ee95831633207d53ff51220e4ebe3dd4f38f9",
@@ -51596,6 +51635,19 @@
       "next_check": "2026-08-22T16:35:54.505704+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_b_headset-compatibility_chapter_011.html": {
+      "content_sha": "d34dd519bbfefebd700f70f4716891823b0a7badadfd0ce1311ef6a1246577c6",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-compatibility-guide-n500-b-headset-compatibility-n500-b-head-3328a1d3ff",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T01:53:33.836045+00:00",
+      "last_changed": "2026-08-21T01:53:33.836045+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T01:53:33.836045+00:00",
+      "next_check": "2026-08-22T01:53:33.836045+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide.html": {
       "content_sha": "8baf9662f7583dd9c8257e3295cdb62337f4462d2bad6334aa31ac861bba6ef7",
@@ -84910,5 +84962,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T01:51:11.573808+00:00"
+  "updated_at": "2026-08-21T01:54:07.693275+00:00"
 }
