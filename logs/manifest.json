@@ -11274,6 +11274,19 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-125/215014-troubleshoot-cisco-headset-5xx-series.html": {
+      "content_sha": "1596504fb4fd87089775c5aa255a35c18f51ffc24fe00178aa9d7cb61b35f0c2",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-version-125-215014-troubleshoot-c45b0d7bb1",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T23:10:59.221810+00:00",
+      "last_changed": "2026-08-21T23:10:59.221810+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T23:10:59.221810+00:00",
+      "next_check": "2026-08-22T23:10:59.221810+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati.html": {
       "content_sha": "1ee5a165f6c489e2da576c2c5abe4fd38a049ffaa30119cc3f74e8b0c090003b",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-version-14-222048-set-up-radkit-42a9de78c3",
@@ -84858,6 +84871,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-6/p680_b_6800mpp-rn-1136.html": {
+      "content_sha": "71cfdd82341f55fcd00afafa6286146292515c14c631892b3c3f424fd9bde528",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-firmware-11-3-6-p680-b-6800mpp-rn-1136-html-7806689933",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T23:11:11.468786+00:00",
+      "last_changed": "2026-08-21T23:11:11.468786+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T23:11:11.468786+00:00",
+      "next_check": "2026-08-22T23:11:11.468786+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-7/p680_b_6800mpp-rn-1137.html": {
+      "content_sha": "3986e33f3ad28a19b64cb2f1ec2d50d41e690df56fc6ed2c5644ba9165cfb394",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-firmware-11-3-7-p680-b-6800mpp-rn-1137-html-ee29cf184a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T23:11:07.436629+00:00",
+      "last_changed": "2026-08-21T23:11:07.436629+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T23:11:07.436629+00:00",
+      "next_check": "2026-08-22T23:11:07.436629+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-1/p680_b_6800mpp-rn-1201.html": {
       "content_sha": "7370bc2e63e2c6152de5e1541f070b5e38c304056ead9b42a4bda66721967ebe",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-firmware-12-0-1-p680-b-6800mpp-rn-1201-html-749906c194",
@@ -153193,5 +153232,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T23:08:23.762893+00:00"
+  "updated_at": "2026-08-21T23:11:11.535853+00:00"
 }
