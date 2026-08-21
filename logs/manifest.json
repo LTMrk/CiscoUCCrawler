@@ -3983,10 +3983,10 @@
       "first_seen": "2026-08-16T18:57:52.513797+00:00",
       "last_changed": "2026-08-16T18:57:52.513797+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-18T23:50:59.986358+00:00",
-      "next_check": "2026-08-20T23:50:59.986358+00:00",
+      "last_seen": "2026-08-21T08:02:40.868288+00:00",
+      "next_check": "2026-08-25T08:02:40.868288+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200937-Finesse-Agent-Supervisor-Queue-SkillGrou.html": {
       "content_sha": "bf8077675fbb01f8bf8e3e09e268bec8b8bddc2d0ee08b94cbdbac789cf173be",
@@ -5556,10 +5556,10 @@
       "first_seen": "2026-08-16T18:54:39.608526+00:00",
       "last_changed": "2026-08-16T18:54:39.608526+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-18T23:59:59.121345+00:00",
-      "next_check": "2026-08-20T23:59:59.121345+00:00",
+      "last_seen": "2026-08-21T08:01:33.501107+00:00",
+      "next_check": "2026-08-25T08:01:33.501107+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118774-configure-jabber-00.html": {
       "content_sha": "96d300ef1bd879dc2f4fbcd853d87640a8649339ade466f0b0e4d7af3e18b169",
@@ -5569,10 +5569,10 @@
       "first_seen": "2026-08-16T18:54:31.732803+00:00",
       "last_changed": "2026-08-16T18:54:31.732803+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:00:03.540665+00:00",
-      "next_check": "2026-08-21T00:00:03.540665+00:00",
+      "last_seen": "2026-08-21T08:01:45.913782+00:00",
+      "next_check": "2026-08-25T08:01:45.913782+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118999-config-imaddress-jabber-00.html": {
       "content_sha": "f0a1819fb4d1a04346a5e78aab224be84ab6ee4c5743316123fe6fe5e5ee6b38",
@@ -6063,10 +6063,10 @@
       "first_seen": "2026-08-16T18:57:40.191914+00:00",
       "last_changed": "2026-08-16T18:57:40.191914+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:00:33.862823+00:00",
-      "next_check": "2026-08-21T00:00:33.862823+00:00",
+      "last_seen": "2026-08-21T08:02:28.095527+00:00",
+      "next_check": "2026-08-25T08:02:28.095527+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/tdm-gateways/223040-troubleshoot-dsp-pvdm-issue-on-voice.html": {
       "content_sha": "774ea7ca08d2e7564d6dd35d1e2ccb9d31ca8636fbb1c5d22d80addfe8e314b8",
@@ -6466,10 +6466,10 @@
       "first_seen": "2026-08-16T18:54:27.271071+00:00",
       "last_changed": "2026-08-16T18:54:27.271071+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:02:27.313682+00:00",
-      "next_check": "2026-08-21T00:02:27.313682+00:00",
+      "last_seen": "2026-08-21T08:01:16.878764+00:00",
+      "next_check": "2026-08-25T08:01:16.878764+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118731-configure-san-00.html": {
       "content_sha": "e6750e3c55775e28aca4e4ba0241dc1766cfb7abe971afccafbf72857405384e",
@@ -6505,10 +6505,10 @@
       "first_seen": "2026-08-16T18:51:55.744607+00:00",
       "last_changed": "2026-08-16T18:51:55.744607+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:02:39.333456+00:00",
-      "next_check": "2026-08-21T00:02:39.333456+00:00",
+      "last_seen": "2026-08-21T08:01:12.714080+00:00",
+      "next_check": "2026-08-25T08:01:12.714080+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118779-configure-cucm-00.html": {
       "content_sha": "398022ead81dab23443cd75793ed416c70f8b89bd8a9c3bf689d7d6923e56bb5",
@@ -6557,10 +6557,10 @@
       "first_seen": "2026-08-16T16:01:59.572660+00:00",
       "last_changed": "2026-08-16T16:01:59.572660+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:02:56.621701+00:00",
-      "next_check": "2026-08-21T00:02:56.621701+00:00",
+      "last_seen": "2026-08-21T08:03:48.678836+00:00",
+      "next_check": "2026-08-25T08:03:48.678836+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html": {
       "content_sha": "d85d417f629f925c6d8711cb1af4cc622f28fb959eb1ce317dcbe3156b8ed918",
@@ -6596,10 +6596,10 @@
       "first_seen": "2026-08-16T16:02:07.787746+00:00",
       "last_changed": "2026-08-16T16:02:07.787746+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:03:08.950846+00:00",
-      "next_check": "2026-08-21T00:03:08.950846+00:00",
+      "last_seen": "2026-08-21T08:03:56.708574+00:00",
+      "next_check": "2026-08-25T08:03:56.708574+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200788-Call-Recording-Basic-Configuration-and-T.html": {
       "content_sha": "5de53ffb150102b11fc1a901f417d6577dfe3f2f562a1e59ad4c2efbce5b413f",
@@ -6856,10 +6856,10 @@
       "first_seen": "2026-08-16T16:01:51.126484+00:00",
       "last_changed": "2026-08-16T16:01:51.126484+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:04:07.739202+00:00",
-      "next_check": "2026-08-21T00:04:07.739202+00:00",
+      "last_seen": "2026-08-21T08:03:44.946788+00:00",
+      "next_check": "2026-08-25T08:03:44.946788+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214381-smart-license-reservation-for-cucm-versi.html": {
       "content_sha": "0aa8ce13786ed5ba2d739e32818d9c9752907e55d76066061273e43eeb274568",
@@ -6986,10 +6986,10 @@
       "first_seen": "2026-08-16T18:57:44.292184+00:00",
       "last_changed": "2026-08-16T18:57:44.292184+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:04:46.105676+00:00",
-      "next_check": "2026-08-21T00:04:46.105676+00:00",
+      "last_seen": "2026-08-21T08:02:32.396293+00:00",
+      "next_check": "2026-08-25T08:02:32.396293+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html": {
       "content_sha": "49d3c86541a03e6fed47ed7990588254667c7e9d67125caa63f1ea35b5a7d96e",
@@ -7012,10 +7012,10 @@
       "first_seen": "2026-08-16T18:00:22.182089+00:00",
       "last_changed": "2026-08-16T18:00:22.182089+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:07:43.859460+00:00",
-      "next_check": "2026-08-21T00:07:43.859460+00:00",
+      "last_seen": "2026-08-21T08:02:19.942215+00:00",
+      "next_check": "2026-08-25T08:02:19.942215+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html": {
       "content_sha": "a453242af7d11ce1254031df2fb742099617b20929a0bfc89eb9fc6f72b8064a",
@@ -7077,10 +7077,10 @@
       "first_seen": "2026-08-16T16:02:03.735642+00:00",
       "last_changed": "2026-08-16T16:02:03.735642+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:08:04.997823+00:00",
-      "next_check": "2026-08-21T00:08:04.997823+00:00",
+      "last_seen": "2026-08-21T08:03:52.608672+00:00",
+      "next_check": "2026-08-25T08:03:52.608672+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/222878-troubleshoot-issues-when-tftp-reaches-ma.html": {
       "content_sha": "772925c8f9fbdcad78192962f8e213796706bb31b0477cfb2345e67c68bb81a9",
@@ -7428,10 +7428,10 @@
       "first_seen": "2026-08-16T18:57:35.814984+00:00",
       "last_changed": "2026-08-16T18:57:35.814984+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:09:49.974672+00:00",
-      "next_check": "2026-08-21T00:09:49.974672+00:00",
+      "last_seen": "2026-08-21T08:02:24.119136+00:00",
+      "next_check": "2026-08-25T08:02:24.119136+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/116942-technote-uc-00.html": {
       "content_sha": "32c9bfe7a7fcabb094a401216ffe7d3d1bd29cf739c21fc8f8259fa6a2ef3b45",
@@ -7441,10 +7441,10 @@
       "first_seen": "2026-08-16T18:57:56.958888+00:00",
       "last_changed": "2026-08-16T18:57:56.958888+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:09:53.698099+00:00",
-      "next_check": "2026-08-21T00:09:53.698099+00:00",
+      "last_seen": "2026-08-21T08:02:45.051967+00:00",
+      "next_check": "2026-08-25T08:02:45.051967+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/117237-technote-uc-00.html": {
       "content_sha": "ba1d50008c879bf1956e481e1129ad2f1154d040e065c647dfbf07f47ad032e7",
@@ -7480,10 +7480,10 @@
       "first_seen": "2026-08-17T02:23:57.560249+00:00",
       "last_changed": "2026-08-17T02:23:57.560249+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:10:06.168371+00:00",
-      "next_check": "2026-08-21T00:10:06.168371+00:00",
+      "last_seen": "2026-08-21T08:02:57.377114+00:00",
+      "next_check": "2026-08-25T08:02:57.377114+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/118299-technote-cuc-00.html": {
       "content_sha": "0c3923c949ea591dd5a2e2d53cc68d8d3e6c09d090a5269d1bab569912826b25",
@@ -7519,10 +7519,10 @@
       "first_seen": "2026-08-16T18:51:30.926098+00:00",
       "last_changed": "2026-08-16T18:51:30.926098+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:10:18.896057+00:00",
-      "next_check": "2026-08-21T00:10:18.896057+00:00",
+      "last_seen": "2026-08-21T08:01:00.511042+00:00",
+      "next_check": "2026-08-25T08:01:00.511042+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/118883-technote-cuc-00.html": {
       "content_sha": "0dd7bf304e2f66e94d4586fdde9c23d6c315dd842ccb6af514564914de42d3ea",
@@ -7532,10 +7532,10 @@
       "first_seen": "2026-08-16T18:58:05.531921+00:00",
       "last_changed": "2026-08-16T18:58:05.531921+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:10:23.175492+00:00",
-      "next_check": "2026-08-21T00:10:23.175492+00:00",
+      "last_seen": "2026-08-21T08:02:53.223066+00:00",
+      "next_check": "2026-08-25T08:02:53.223066+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/119337-technote-cuc-00.html": {
       "content_sha": "c954746a5d3ba250856491c6dbec024d7fcf29cb7b46a48f1df2dec8edb0d795",
@@ -7545,10 +7545,10 @@
       "first_seen": "2026-08-16T18:58:01.446760+00:00",
       "last_changed": "2026-08-16T18:58:01.446760+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:10:27.195949+00:00",
-      "next_check": "2026-08-21T00:10:27.195949+00:00",
+      "last_seen": "2026-08-21T08:02:49.134716+00:00",
+      "next_check": "2026-08-25T08:02:49.134716+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/200504-Configure-and-Troubleshoot-Secure-Integr.html": {
       "content_sha": "7966271a65bfd060f8e98b9376b77d8c53cce1874dcb956e122eafcb359229c5",
@@ -7558,10 +7558,10 @@
       "first_seen": "2026-08-16T18:51:39.374852+00:00",
       "last_changed": "2026-08-16T18:51:39.374852+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:10:31.485801+00:00",
-      "next_check": "2026-08-21T00:10:31.485801+00:00",
+      "last_seen": "2026-08-21T08:01:41.964325+00:00",
+      "next_check": "2026-08-25T08:01:41.964325+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/200689-Unity-Connection-Procedure-to-change-De.html": {
       "content_sha": "1e0930593c009c65d77f6eb77a2a70fd7d2a1683c4b7aa91207e4ccd947391b7",
@@ -7571,10 +7571,10 @@
       "first_seen": "2026-08-16T18:54:22.645968+00:00",
       "last_changed": "2026-08-16T18:54:22.645968+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:10:35.254315+00:00",
-      "next_check": "2026-08-21T00:10:35.254315+00:00",
+      "last_seen": "2026-08-21T08:01:54.651430+00:00",
+      "next_check": "2026-08-25T08:01:54.651430+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/200851-Configuration-Example-for-CUCM-non-secur.html": {
       "content_sha": "0a18a12e415c2c11f4e44307bf7a9d8702e6857962b53d6a89001265f74abe48",
@@ -7584,10 +7584,10 @@
       "first_seen": "2026-08-16T18:54:18.508835+00:00",
       "last_changed": "2026-08-16T18:54:18.508835+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:10:39.949266+00:00",
-      "next_check": "2026-08-21T00:10:39.949266+00:00",
+      "last_seen": "2026-08-21T08:01:21.222529+00:00",
+      "next_check": "2026-08-25T08:01:21.222529+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/200852-Configuration-Example-for-CUCM-non-secur.html": {
       "content_sha": "ceb512f1466c77d8c378f9ea739dad2c4991e287be82aab03ba88682429423c9",
@@ -7610,10 +7610,10 @@
       "first_seen": "2026-08-16T18:51:52.112648+00:00",
       "last_changed": "2026-08-16T18:51:52.112648+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:10:48.266689+00:00",
-      "next_check": "2026-08-21T00:10:48.266689+00:00",
+      "last_seen": "2026-08-21T08:01:25.288144+00:00",
+      "next_check": "2026-08-25T08:01:25.288144+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/212450-how-do-you-bulk-migrate-um-accounts-from.html": {
       "content_sha": "b82317d2d888d4d29bb52b970b9edbbd0d63d75828cfe8ca5f096920c1e47cee",
@@ -7623,10 +7623,10 @@
       "first_seen": "2026-08-16T17:59:48.872521+00:00",
       "last_changed": "2026-08-16T17:59:48.872521+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:10:52.436309+00:00",
-      "next_check": "2026-08-21T00:10:52.436309+00:00",
+      "last_seen": "2026-08-21T08:01:58.563001+00:00",
+      "next_check": "2026-08-25T08:01:58.563001+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/213808-configure-direct-transfer-to-unity-conne.html": {
       "content_sha": "ee6fbebdd966fd2e039586f4de303f05b84f27745327cc76aca1377d89ebb417",
@@ -7636,10 +7636,10 @@
       "first_seen": "2026-08-16T18:51:47.392203+00:00",
       "last_changed": "2026-08-16T18:51:47.392203+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:10:56.768967+00:00",
-      "next_check": "2026-08-21T00:10:56.768967+00:00",
+      "last_seen": "2026-08-21T08:01:29.363121+00:00",
+      "next_check": "2026-08-25T08:01:29.363121+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/215926-cisco-unity-connection-rtmt-trace-locati.html": {
       "content_sha": "7f1bf996145941b1e7b63ee881914947163f1d01993916645a3ee4f8ef9e3f20",
@@ -7649,10 +7649,10 @@
       "first_seen": "2026-08-16T18:57:48.861785+00:00",
       "last_changed": "2026-08-16T18:57:48.861785+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:11:01.351642+00:00",
-      "next_check": "2026-08-21T00:11:01.351642+00:00",
+      "last_seen": "2026-08-21T08:02:36.746460+00:00",
+      "next_check": "2026-08-25T08:02:36.746460+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/217075-configure-speechview-for-unity-connectio.html": {
       "content_sha": "7326015f010f0910df206f2e9dc13daac4f6c2204bcf9a9ae9f83e7016842107",
@@ -7662,10 +7662,10 @@
       "first_seen": "2026-08-16T18:51:43.106466+00:00",
       "last_changed": "2026-08-16T18:51:43.106466+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:11:05.516982+00:00",
-      "next_check": "2026-08-21T00:11:05.516982+00:00",
+      "last_seen": "2026-08-21T08:01:37.612387+00:00",
+      "next_check": "2026-08-25T08:01:37.612387+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/224871-reset-your-voicemail-pin-on-cisco-unity.html": {
       "content_sha": "81252b36a4111d72f53d3b4ec819374576a0e152fbc621abf7d0ad23a674604e",
@@ -7675,10 +7675,10 @@
       "first_seen": "2026-08-16T18:57:06.649872+00:00",
       "last_changed": "2026-08-16T18:57:06.649872+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:11:09.354951+00:00",
-      "next_check": "2026-08-21T00:11:09.354951+00:00",
+      "last_seen": "2026-08-21T08:00:56.265762+00:00",
+      "next_check": "2026-08-25T08:00:56.265762+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/224884-delete-end-user-on-cuc-when-error.html": {
       "content_sha": "fc67206991d31b1999f67851b3db1faa841dcd8444c19395a00aaf53e4c4e856",
@@ -7688,10 +7688,10 @@
       "first_seen": "2026-08-16T18:57:31.309139+00:00",
       "last_changed": "2026-08-16T18:57:31.309139+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:11:13.784318+00:00",
-      "next_check": "2026-08-21T00:11:13.784318+00:00",
+      "last_seen": "2026-08-21T08:02:15.303997+00:00",
+      "next_check": "2026-08-25T08:02:15.303997+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/224893-troubleshoot-cuc-with-google-workspace.html": {
       "content_sha": "04bea36fbf9329d3e24a6c166f4855a4589163cc0a0cb8c0bf82081a9baddcce",
@@ -7701,10 +7701,10 @@
       "first_seen": "2026-08-16T18:57:27.239716+00:00",
       "last_changed": "2026-08-16T18:57:27.239716+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:11:17.964539+00:00",
-      "next_check": "2026-08-21T00:11:17.964539+00:00",
+      "last_seen": "2026-08-21T08:02:11.028400+00:00",
+      "next_check": "2026-08-25T08:02:11.028400+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/225484-troubleshoot-a-user-with-the-specified.html": {
       "content_sha": "00757b1c4c9042d3e3d0396c537df43260d17f6c1515e4b711efb2e899da6d17",
@@ -7727,10 +7727,10 @@
       "first_seen": "2026-08-16T18:57:15.107430+00:00",
       "last_changed": "2026-08-16T18:57:15.107430+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:11:26.602638+00:00",
-      "next_check": "2026-08-21T00:11:26.602638+00:00",
+      "last_seen": "2026-08-21T08:02:06.739028+00:00",
+      "next_check": "2026-08-25T08:02:06.739028+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/Technote-SpeechView-Cisco-Webex-in-house-transcription-service-for-Unity-Connection.html": {
       "content_sha": "760f392b0f82e0cf3606ba89377f205f074ca48f562534de04ad7f990e1ca0e9",
@@ -7740,10 +7740,10 @@
       "first_seen": "2026-08-16T18:51:35.458748+00:00",
       "last_changed": "2026-08-16T18:51:35.458748+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:11:30.965998+00:00",
-      "next_check": "2026-08-21T00:11:30.965998+00:00",
+      "last_seen": "2026-08-21T08:01:50.299157+00:00",
+      "next_check": "2026-08-25T08:01:50.299157+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-app/220861-troubleshoot-error-couldn-t-save-the-mi.html": {
       "content_sha": "784ac1d86e7bf8a814b90e58811b4762b34bb6c037ad38e313eaecd9fb98eabb",
@@ -20232,6 +20232,16 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/administration/guide/b_15cucsag/.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-administration-guide-b-15cucsag-html-564a0db5d8",
+      "fail_count": 1,
+      "first_seen": "2026-08-21T08:03:13.665771+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-21T08:03:13.665776+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/administration/guide/b_15cucsag//b_15cucsag_chapter_010.html": {
       "content_sha": "51c31637eab02649087a06685e3214102e2795a46413babd2a630b7da7b11415",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-administration-guide-b-15cucsag-b-15cucsag-chapter-010-html-60a0ab7283",
@@ -23040,6 +23050,71 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_0100.html": {
+      "content_sha": "13c266b7b7b333326be3b4f6c95887fb8187a366987f17ed73ffae9d2c946b33",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-0100-html-81fbac222f",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:00:26.511372+00:00",
+      "last_changed": "2026-08-21T08:00:26.511372+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:00:26.511372+00:00",
+      "next_check": "2026-08-22T08:00:26.511372+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_01000.html": {
+      "content_sha": "dba75c790276c3716e8c7884f5cbdae44615d10b20c6d53c01d7f8de90f46422",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-01000-html-4d6c969789",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:00:43.383339+00:00",
+      "last_changed": "2026-08-21T08:00:43.383339+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:00:43.383339+00:00",
+      "next_check": "2026-08-22T08:00:43.383339+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_01001.html": {
+      "content_sha": "a70c7ffea2cff6a6e864736a1a83816602c76d4417b6498e79a0cf75c78e5f49",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-01001-html-f50cf78924",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:00:47.522626+00:00",
+      "last_changed": "2026-08-21T08:00:47.522626+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:00:47.522626+00:00",
+      "next_check": "2026-08-22T08:00:47.522626+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_0101.html": {
+      "content_sha": "082b1c479af4454f33b3721f2e3a24509541267cdba241c8e46b9a8236b29b50",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-0101-html-cf9a5470f6",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:00:30.309840+00:00",
+      "last_changed": "2026-08-21T08:00:30.309840+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:00:30.309840+00:00",
+      "next_check": "2026-08-22T08:00:30.309840+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_01010.html": {
+      "content_sha": "39aec27e67e3672bdc115c59d07792069b5699a15416d82fbaa9f863ea398a6b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-01010-html-39b568d4cc",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:00:51.742900+00:00",
+      "last_changed": "2026-08-21T08:00:51.742900+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:00:51.742900+00:00",
+      "next_check": "2026-08-22T08:00:51.742900+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_01011.html": {
       "content_sha": "d423a530363f6c45f56f3a0d3fd26e15163a28d9843ec49ec1a9aab86a00a05c",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-01011-html-a3ed6104dd",
@@ -23050,6 +23125,45 @@
       "last_modified": null,
       "last_seen": "2026-08-21T00:37:32.026051+00:00",
       "next_check": "2026-08-22T00:37:32.026051+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_011.html": {
+      "content_sha": "49ead371d850a1eed633c6df78a7113400ccd41ae019451f5b12640edc8cbf68",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-011-html-83f41b67cb",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:00:22.233908+00:00",
+      "last_changed": "2026-08-21T08:00:22.233908+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:00:22.233908+00:00",
+      "next_check": "2026-08-22T08:00:22.233908+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_0110.html": {
+      "content_sha": "e9f29879c95896fad6c83f91112033d058fd25467b0ecc8b0daa719eeb188e2b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-0110-html-331b5162e6",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:00:34.862791+00:00",
+      "last_changed": "2026-08-21T08:00:34.862791+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:00:34.862791+00:00",
+      "next_check": "2026-08-22T08:00:34.862791+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_0111.html": {
+      "content_sha": "58656d6771e5d3a0b35523336d8f52c5a1b70dad81940e809d55c5b00dc7ec5f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-0111-html-3c9f7edd45",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:00:38.678435+00:00",
+      "last_changed": "2026-08-21T08:00:38.678435+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:00:38.678435+00:00",
+      "next_check": "2026-08-22T08:00:38.678435+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -24925,6 +25039,32 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/APIs_Pages/b_CUC_Draft/b_CUC_Draft_chapter_00.html": {
+      "content_sha": "f0ffe6d9d4baa4469766bec836aeee5f41419818677acae8fbaf464e9644ce2a",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-apis-pages-b-cuc-draft-b-cuc-draft-chapter-00-html-8b73895357",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:07:59.995385+00:00",
+      "last_changed": "2026-08-21T08:07:59.995385+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:07:59.995385+00:00",
+      "next_check": "2026-08-22T08:07:59.995385+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/APIs_Pages/b_CUC_Draft/b_CUC_Draft_chapter_01.html": {
+      "content_sha": "7417db19e441c1b75255cdaab7fd02cb32d4f4faaa63d6ac2632c5826d5ee74f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-apis-pages-b-cuc-draft-b-cuc-draft-chapter-01-html-7800ffbde3",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:08:04.222788+00:00",
+      "last_changed": "2026-08-21T08:08:04.222788+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:08:04.222788+00:00",
+      "next_check": "2026-08-22T08:08:04.222788+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/APIs_Pages/b_Cisco-Unity-Connection-on-UCSE.html": {
       "content_sha": "77299b22bb6008c0ac7045132dc994032a405d948e7583a95ad804fe5985c94c",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-apis-pages-b-cisco-unity-connection-on-ucse-html-8af957b66f",
@@ -24951,6 +25091,97 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUII_API/b_CUII_API/b_CUII_API_chapter_00.html": {
+      "content_sha": "c688f59bde6a74c603235012be29398f2fa9612c72e213628fbfd9da126bb595",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuii-api-b-cuii-api-b-cuii-api-chapter-00-html-227b4b9728",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:07:30.571407+00:00",
+      "last_changed": "2026-08-21T08:07:30.571407+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:07:30.571407+00:00",
+      "next_check": "2026-08-22T08:07:30.571407+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUII_API/b_CUII_API/b_CUII_API_chapter_01.html": {
+      "content_sha": "0a773df4f2694a1799bda16994da3d0737ac5f39a0764d17b6e5b356ff5f4156",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuii-api-b-cuii-api-b-cuii-api-chapter-01-html-f958dba929",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:07:34.935687+00:00",
+      "last_changed": "2026-08-21T08:07:34.935687+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:07:34.935687+00:00",
+      "next_check": "2026-08-22T08:07:34.935687+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUII_API/b_CUII_API/b_CUII_API_chapter_010.html": {
+      "content_sha": "42a530c2ded116117e495c05df0da5584a2ff18ea671acd41d6d82586305c39a",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuii-api-b-cuii-api-b-cuii-api-chapter-010-html-29ffe82a8b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:07:38.925924+00:00",
+      "last_changed": "2026-08-21T08:07:38.925924+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:07:38.925924+00:00",
+      "next_check": "2026-08-22T08:07:38.925924+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUII_API/b_CUII_API/b_CUII_API_chapter_0100.html": {
+      "content_sha": "e0f952aeb45d44c0416b87e2b3c62f12afd33a8e555e94773d380b62ccdba539",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuii-api-b-cuii-api-b-cuii-api-chapter-0100-html-a715ba8c9a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:07:51.727772+00:00",
+      "last_changed": "2026-08-21T08:07:51.727772+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:07:51.727772+00:00",
+      "next_check": "2026-08-22T08:07:51.727772+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUII_API/b_CUII_API/b_CUII_API_chapter_0101.html": {
+      "content_sha": "ca980df59275c153601b260d9dc9fd9eed9d6f46c4b01042fdd86654fef8359c",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuii-api-b-cuii-api-b-cuii-api-chapter-0101-html-95c336ca38",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:07:47.554068+00:00",
+      "last_changed": "2026-08-21T08:07:47.554068+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:07:47.554068+00:00",
+      "next_check": "2026-08-22T08:07:47.554068+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUII_API/b_CUII_API/b_CUII_API_chapter_011.html": {
+      "content_sha": "e4e471302ee1c67ee2e568d5cd8f54d999946a4ed66fd0de0493fb41d010a99c",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuii-api-b-cuii-api-b-cuii-api-chapter-011-html-512d1dab58",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:07:43.302934+00:00",
+      "last_changed": "2026-08-21T08:07:43.302934+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:07:43.302934+00:00",
+      "next_check": "2026-08-22T08:07:43.302934+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_00.html": {
+      "content_sha": "8a7a96f0fec57e3eecddaf4e7a64cac0f93aa69d6a3462094f523f670ff40845",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-00-html-c3c6fc4886",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:06:10.793944+00:00",
+      "last_changed": "2026-08-21T08:06:10.793944+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:06:10.793944+00:00",
+      "next_check": "2026-08-22T08:06:10.793944+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_01.html": {
       "content_sha": "9d0d26d7555c7beba0c985e1a866b4dafbcc34229a2704adfd8e2108db0f64af",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-01-html-0073336728",
@@ -24961,6 +25192,123 @@
       "last_modified": null,
       "last_seen": "2026-08-21T01:00:52.462312+00:00",
       "next_check": "2026-08-22T01:00:52.462312+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_010.html": {
+      "content_sha": "ba4d0354c873f932e5bac8372fa8320aa4c01d21a8e9a73df323d08b311dc815",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-010-html-e41e65dd24",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:06:15.062799+00:00",
+      "last_changed": "2026-08-21T08:06:15.062799+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:06:15.062799+00:00",
+      "next_check": "2026-08-22T08:06:15.062799+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_0100.html": {
+      "content_sha": "f78736d4d2ce42ee32a43c03b55481f33036513057fc27e79f9d3b710ecc5a04",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-0100-html-0ba03c0059",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:06:23.034748+00:00",
+      "last_changed": "2026-08-21T08:06:23.034748+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:06:23.034748+00:00",
+      "next_check": "2026-08-22T08:06:23.034748+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_01000.html": {
+      "content_sha": "936433729fc52e7fac80ffadf7c6f687eb5e01ae51950f217ff0d6720071a9a8",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-01000-html-37eb68b752",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:06:40.373599+00:00",
+      "last_changed": "2026-08-21T08:06:40.373599+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:06:40.373599+00:00",
+      "next_check": "2026-08-22T08:06:40.373599+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_01001.html": {
+      "content_sha": "1436e1aae0335501404b17a41db8c3a69feb50cdcd511d7d6d61c4e067efed59",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-01001-html-2b251e3c59",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:06:44.230714+00:00",
+      "last_changed": "2026-08-21T08:06:44.230714+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:06:44.230714+00:00",
+      "next_check": "2026-08-22T08:06:44.230714+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_0101.html": {
+      "content_sha": "204a84024990957958deb168afd075ed0528ef514aea14a0a8bbb8d8cce89d90",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-0101-html-df03b605b3",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:06:27.432388+00:00",
+      "last_changed": "2026-08-21T08:06:27.432388+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:06:27.432388+00:00",
+      "next_check": "2026-08-22T08:06:27.432388+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_01010.html": {
+      "content_sha": "cc3c8a6d3b5ce989c3d60a189ba6c3abce76e00040a4f68ccb30d64d1cccdc78",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-01010-html-5e4b5feb5c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:06:48.282624+00:00",
+      "last_changed": "2026-08-21T08:06:48.282624+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:06:48.282624+00:00",
+      "next_check": "2026-08-22T08:06:48.282624+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_011.html": {
+      "content_sha": "0bdc20d4db4c2662c7dfa52ac2ed69dce1b71a63a8656a882eac213933d8331f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-011-html-12449a23a9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:06:19.004584+00:00",
+      "last_changed": "2026-08-21T08:06:19.004584+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:06:19.004584+00:00",
+      "next_check": "2026-08-22T08:06:19.004584+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_0110.html": {
+      "content_sha": "7a7a7c87fc6ccaaebc169d362546fc0dc44a5dfd11048f700b62b2461d6dc96e",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-0110-html-0f6736ee6a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:06:31.670939+00:00",
+      "last_changed": "2026-08-21T08:06:31.670939+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:06:31.670939+00:00",
+      "next_check": "2026-08-22T08:06:31.670939+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_0111.html": {
+      "content_sha": "794900880c3931e0a0c3b3928e6f3b8bf8b410bd806816529a8513920db23621",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-0111-html-f0ddcf7b15",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:06:36.107305+00:00",
+      "last_changed": "2026-08-21T08:06:36.107305+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:06:36.107305+00:00",
+      "next_check": "2026-08-22T08:06:36.107305+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -25653,6 +26001,357 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_00.html": {
+      "content_sha": "c019061d74520c1b9fcbb48587285012c829eb091a3fda9c7a1e673619f832a4",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-8f6a64dbdb",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:04:17.346652+00:00",
+      "last_changed": "2026-08-21T08:04:17.346652+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:04:17.346652+00:00",
+      "next_check": "2026-08-22T08:04:17.346652+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_01.html": {
+      "content_sha": "b1613498b2312033618680e8c8f686b5591733c30b6e3f9f256664b610e7501a",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-aeee158c5a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:04:21.527137+00:00",
+      "last_changed": "2026-08-21T08:04:21.527137+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:04:21.527137+00:00",
+      "next_check": "2026-08-22T08:04:21.527137+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_010.html": {
+      "content_sha": "b01aa0a5cc827aec6869d2ecb496452da4f21b7e4490200d403938dba457eacb",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-fe7a30f9d4",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:04:25.835153+00:00",
+      "last_changed": "2026-08-21T08:04:25.835153+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:04:25.835153+00:00",
+      "next_check": "2026-08-22T08:04:25.835153+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_0100.html": {
+      "content_sha": "89729f75ea2be7785745d49302698e25ef5e047f4725387cc71f705ec50950ae",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-ab7a7c9c0f",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:04:34.167746+00:00",
+      "last_changed": "2026-08-21T08:04:34.167746+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:04:34.167746+00:00",
+      "next_check": "2026-08-22T08:04:34.167746+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_01000.html": {
+      "content_sha": "888e63a73866404b4b7ab3ca85f6c536bf27aa357a389e259a903c12b7e99890",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-0d44d707e8",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:04:50.950842+00:00",
+      "last_changed": "2026-08-21T08:04:50.950842+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:04:50.950842+00:00",
+      "next_check": "2026-08-22T08:04:50.950842+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_010000.html": {
+      "content_sha": "efa248d6fbb19c7a7b249bea9ef2194223e45a585bca3081ec90d91f61e4dac5",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-dd27ab6cbb",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:05:24.522382+00:00",
+      "last_changed": "2026-08-21T08:05:24.522382+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:05:24.522382+00:00",
+      "next_check": "2026-08-22T08:05:24.522382+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_010001.html": {
+      "content_sha": "6f71ec09276d76f7c78605e949397fc1c41ca6a859187176dddf8085770c4bae",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-2bdbeea47c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:05:28.708901+00:00",
+      "last_changed": "2026-08-21T08:05:28.708901+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:05:28.708901+00:00",
+      "next_check": "2026-08-22T08:05:28.708901+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_01001.html": {
+      "content_sha": "597c7175f1e140e478107d8c3930996366ed2374fdad50cbfb7cfeec9e398bc6",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-70b636fcb5",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:04:55.154392+00:00",
+      "last_changed": "2026-08-21T08:04:55.154392+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:04:55.154392+00:00",
+      "next_check": "2026-08-22T08:04:55.154392+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_010010.html": {
+      "content_sha": "edcf5089275be505d4546d692d94c8d65aa0591f126a8823ca46f3318da2f7f5",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-afc809922f",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:05:33.295394+00:00",
+      "last_changed": "2026-08-21T08:05:33.295394+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:05:33.295394+00:00",
+      "next_check": "2026-08-22T08:05:33.295394+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_010011.html": {
+      "content_sha": "36540fd293a99aa0af50d5a97158a54bc92071571fe70f102c3062ccdc0a7828",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-3611e4862e",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:05:37.427205+00:00",
+      "last_changed": "2026-08-21T08:05:37.427205+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:05:37.427205+00:00",
+      "next_check": "2026-08-22T08:05:37.427205+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_0101.html": {
+      "content_sha": "78fe8c22fe2f5977b4ad44d7cc7b5afa14adbc2b7dde84a8eaa765aa11269a30",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-539c4415b5",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:04:38.217822+00:00",
+      "last_changed": "2026-08-21T08:04:38.217822+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:04:38.217822+00:00",
+      "next_check": "2026-08-22T08:04:38.217822+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_01010.html": {
+      "content_sha": "f45a3f510a72f92420dbe60d43aba70bab497d198c2056e6575e60180a1a4dcf",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-b74708006a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:04:59.382734+00:00",
+      "last_changed": "2026-08-21T08:04:59.382734+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:04:59.382734+00:00",
+      "next_check": "2026-08-22T08:04:59.382734+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_010100.html": {
+      "content_sha": "0e72544059ecbe4f33a59e2aac785c71b4e597a71f253ff68d21b2e9d5a9e987",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-2f5eb64c84",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:05:41.630711+00:00",
+      "last_changed": "2026-08-21T08:05:41.630711+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:05:41.630711+00:00",
+      "next_check": "2026-08-22T08:05:41.630711+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_010101.html": {
+      "content_sha": "5916abce7e2beedc2edd573d0fbd655ceba484697debc72e0e643cec8356f059",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-09a10dcd76",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:05:49.737889+00:00",
+      "last_changed": "2026-08-21T08:05:49.737889+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:05:49.737889+00:00",
+      "next_check": "2026-08-22T08:05:49.737889+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_01011.html": {
+      "content_sha": "659ff0a061d619f2b26f07780c3a7d938d27304a41aeca983f49179f80e4d920",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-846a52fb42",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:05:03.783894+00:00",
+      "last_changed": "2026-08-21T08:05:03.783894+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:05:03.783894+00:00",
+      "next_check": "2026-08-22T08:05:03.783894+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_010110.html": {
+      "content_sha": "c6011918cdb91a7b04fc960a109cc982ea30f33846f15a337bdf922f9e4ac88f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-54c2e0077a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:05:45.474743+00:00",
+      "last_changed": "2026-08-21T08:05:45.474743+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:05:45.474743+00:00",
+      "next_check": "2026-08-22T08:05:45.474743+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_010111.html": {
+      "content_sha": "0712d1483af914251a22fb00ad2d2b16ad3a2fe2fa6b1569fe4c61af65acb880",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-dc4947076b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:05:53.770796+00:00",
+      "last_changed": "2026-08-21T08:05:53.770796+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:05:53.770796+00:00",
+      "next_check": "2026-08-22T08:05:53.770796+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_011.html": {
+      "content_sha": "970703959d447a8e8e1e92e2d919cbecbc9577046bad33f4848323cb52180845",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-cbd9e661ac",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:04:30.005890+00:00",
+      "last_changed": "2026-08-21T08:04:30.005890+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:04:30.005890+00:00",
+      "next_check": "2026-08-22T08:04:30.005890+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_0110.html": {
+      "content_sha": "5db8daed966d26e3b1e4d1d533d800529d46854a8acdb8ac12f55f1037796223",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-f868bd6b51",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:04:42.726587+00:00",
+      "last_changed": "2026-08-21T08:04:42.726587+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:04:42.726587+00:00",
+      "next_check": "2026-08-22T08:04:42.726587+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_01100.html": {
+      "content_sha": "a66951b7353feecf34396e4cccf8428b47300d6acf769c4a2b5396fb0f351f65",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-d68b301af3",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:05:08.082964+00:00",
+      "last_changed": "2026-08-21T08:05:08.082964+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:05:08.082964+00:00",
+      "next_check": "2026-08-22T08:05:08.082964+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_011000.html": {
+      "content_sha": "2a6d041b19b9edd7c4be98dead214efcc826e289980de27c804179c54d6ee87a",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-20e8812ce0",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:05:58.068479+00:00",
+      "last_changed": "2026-08-21T08:05:58.068479+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:05:58.068479+00:00",
+      "next_check": "2026-08-22T08:05:58.068479+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_011001.html": {
+      "content_sha": "b9a34cedb093c88317c01300941a3723296f818cfee2c39b82e0819475bf100e",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-948b580fca",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:06:02.115849+00:00",
+      "last_changed": "2026-08-21T08:06:02.115849+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:06:02.115849+00:00",
+      "next_check": "2026-08-22T08:06:02.115849+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_01101.html": {
+      "content_sha": "61e07ff918bda546c6515d3a66e0e6a696ee33547d25fd43d4be2d72ed1def32",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-a1e05b8a5a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:05:12.194313+00:00",
+      "last_changed": "2026-08-21T08:05:12.194313+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:05:12.194313+00:00",
+      "next_check": "2026-08-22T08:05:12.194313+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_0111.html": {
+      "content_sha": "eccab1d6c63796a5021eda32037b67728d914e914eae6da8342ce0ae31fdedfc",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-854a7f914c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:04:46.789758+00:00",
+      "last_changed": "2026-08-21T08:04:46.789758+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:04:46.789758+00:00",
+      "next_check": "2026-08-22T08:04:46.789758+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_01110.html": {
+      "content_sha": "5c49dcfd52ebfed596555ef271788af14cec097fe2421a39bc2fc70130452f2d",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-2d597ddbc0",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:05:16.301096+00:00",
+      "last_changed": "2026-08-21T08:05:16.301096+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:05:16.301096+00:00",
+      "next_check": "2026-08-22T08:05:16.301096+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_01111.html": {
+      "content_sha": "a174d9ec9aa62d6c97cdf46b26015ffb7a80f4a9907e8f76b6050a7c82138291",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-4264eb0f2a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:05:20.367165+00:00",
+      "last_changed": "2026-08-21T08:05:20.367165+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:05:20.367165+00:00",
+      "next_check": "2026-08-22T08:05:20.367165+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_00.html": {
+      "content_sha": "6ee546d78601803e09edbb4c783491c8f56167e8f096d5af8da5763a06556476",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuti-api-b-cuti-api-b-cuti-api-chapter-00-html-5fb03a94ad",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:06:56.791832+00:00",
+      "last_changed": "2026-08-21T08:06:56.791832+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:06:56.791832+00:00",
+      "next_check": "2026-08-22T08:06:56.791832+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_01.html": {
       "content_sha": "6646257e56291e668595bdb2afeb42e5799818d80df31676cdd50d94cb3a796b",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuti-api-b-cuti-api-b-cuti-api-chapter-01-html-1d9ef9d639",
@@ -25663,6 +26362,84 @@
       "last_modified": null,
       "last_seen": "2026-08-21T01:01:05.398620+00:00",
       "next_check": "2026-08-22T01:01:05.398620+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_010.html": {
+      "content_sha": "621b47d4b3df4417890fcc878b87a01128b717189fcb8a4daeb6e758d677105c",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuti-api-b-cuti-api-b-cuti-api-chapter-010-html-47d25b7fd6",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:07:01.003650+00:00",
+      "last_changed": "2026-08-21T08:07:01.003650+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:07:01.003650+00:00",
+      "next_check": "2026-08-22T08:07:01.003650+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_0100.html": {
+      "content_sha": "7c02f14ef23fc63de861cb75b732f7e09881b1b1db35bcc6b4842f0ef89b788e",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuti-api-b-cuti-api-b-cuti-api-chapter-0100-html-d2e2470099",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:07:09.445990+00:00",
+      "last_changed": "2026-08-21T08:07:09.445990+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:07:09.445990+00:00",
+      "next_check": "2026-08-22T08:07:09.445990+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_0101.html": {
+      "content_sha": "6535cfef8da44921d87e89ce1c96b631fe23a5d860e878a52018e7c384ca050b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuti-api-b-cuti-api-b-cuti-api-chapter-0101-html-67fb31f3b1",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:07:13.929756+00:00",
+      "last_changed": "2026-08-21T08:07:13.929756+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:07:13.929756+00:00",
+      "next_check": "2026-08-22T08:07:13.929756+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_011.html": {
+      "content_sha": "0327bc4a50ed31ac0e920044e385a4d179e1d252fa6e7c6882ed71d973e32871",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuti-api-b-cuti-api-b-cuti-api-chapter-011-html-c625db2c86",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:07:05.406011+00:00",
+      "last_changed": "2026-08-21T08:07:05.406011+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:07:05.406011+00:00",
+      "next_check": "2026-08-22T08:07:05.406011+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_0110.html": {
+      "content_sha": "c8d9e273f0ad4fb6c0bb2a9db1f419ca2d968dbe31df3f9c8c2c82357e3d33a7",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuti-api-b-cuti-api-b-cuti-api-chapter-0110-html-d1ead6ca75",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:07:18.219510+00:00",
+      "last_changed": "2026-08-21T08:07:18.219510+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:07:18.219510+00:00",
+      "next_check": "2026-08-22T08:07:18.219510+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_0111.html": {
+      "content_sha": "4e2d52b2b78f6a5c03bd216dc032db8bcff8ec75bbea675eabb3ac831ae19d73",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuti-api-b-cuti-api-b-cuti-api-chapter-0111-html-561fbdaac8",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:07:22.469405+00:00",
+      "last_changed": "2026-08-21T08:07:22.469405+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:07:22.469405+00:00",
+      "next_check": "2026-08-22T08:07:22.469405+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -102074,5 +102851,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T07:58:09.388164+00:00"
+  "updated_at": "2026-08-21T08:08:33.761085+00:00"
 }

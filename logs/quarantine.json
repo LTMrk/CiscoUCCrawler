@@ -797,6 +797,12 @@
     "ultima_vez": "2026-08-21T00:11:22.145874+00:00",
     "veces": 1
   },
+  "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/administration/guide/b_15cucsag/.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-21T08:03:13.665728+00:00",
+    "veces": 1
+  },
   "https://www.webex.com/all-new-webex.html": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",

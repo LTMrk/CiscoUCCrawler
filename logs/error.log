@@ -5196,3 +5196,31 @@
 [2026-08-21T07:57:46.575289] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/install_upgrade/guide/b_11xcuciumg/b_11xcuciumg_chapter_0100.html
 [2026-08-21T07:57:50.715922] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/troubleshooting/guide/b_11xcuctsg.html
 [2026-08-21T07:57:57.395060] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/troubleshooting/guide/b_11xcuctsg/b_11xcuctsg_chapter_010011.html
+[2026-08-21T08:01:04.530248] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/design/guide/b_14cucdg.html
+[2026-08-21T08:01:08.547850] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/install_upgrade/guide/b_14cuciumg.html
+[2026-08-21T08:02:02.396260] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/troubleshooting/guide/b_14cuctsg.html
+[2026-08-21T08:03:10.051842] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/user/guide/phone/b_14cucugphone.html
+[2026-08-21T08:03:13.665846] HTTP 403: en cuarentena, sin reintento automático. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/administration/guide/b_15cucsag/.html
+[2026-08-21T08:03:18.710892] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/administration/guide/b_15cucsag.html
+[2026-08-21T08:03:23.020190] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/user/guide/phone/b_15cucugphone.html
+[2026-08-21T08:03:27.321978] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/user/guide/assistant/b_15cucugasst.html
+[2026-08-21T08:03:32.047010] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/install_upgrade/guide/b_15cuciumg.html
+[2026-08-21T08:03:35.850430] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/design/guide/b_15cucdg.html
+[2026-08-21T08:03:40.056255] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/troubleshooting/guide/b_15cuctsg.html
+[2026-08-21T08:04:00.616862] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx.html
+[2026-08-21T08:04:04.837919] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/serv_administration/guide/b_15cucservag.html
+[2026-08-21T08:04:08.687875] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-21T08:06:06.280241] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_index.html
+[2026-08-21T08:06:52.396302] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_index.html
+[2026-08-21T08:07:26.341991] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_index.html
+[2026-08-21T08:07:55.942665] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUII_API/b_CUII_API/b_CUII_API_index.html
+[2026-08-21T08:08:08.550691] Markdown insuficiente tras sanitizar (144 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/APIs_Pages/b_CUC_Draft/b_CUC_Draft_index.html
+[2026-08-21T08:08:17.681027] HTTP 301 o DOM vacío. | https://developer.cisco.com/site/unity-connection/overview
+[2026-08-21T08:08:17.771193] Omitida: excluida por robots.txt | https://communities.cisco.com/community/developer/collaboration/voicemail
+[2026-08-21T08:08:17.863294] Omitida: excluida por robots.txt | https://software.cisco.com/download/navigator.html
+[2026-08-21T08:08:17.988568] HTTP 599 o DOM vacío. | https://edelivery.cisco.com/esd
+[2026-08-21T08:08:22.170729] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/tsd-products-support-series-home.html
+[2026-08-21T08:08:24.333531] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE7000/installationguide/12_5/be7k_b_installation-guide-M5-1251/www.cisco.com/go/license
+[2026-08-21T08:08:24.498591] HTTP 599 o DOM vacío. | http://docwiki.cisco.com/wiki/Cucm-phone-locale-installers
+[2026-08-21T08:08:29.657280] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/InstallationGuide/15/cucm_b_installation-guide-6k_7k_m7_15.html
+[2026-08-21T08:08:33.666222] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/InstallationGuide/15/cucm_b_installation-guide-6k_7k_m6_15.html
