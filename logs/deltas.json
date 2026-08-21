@@ -1,32 +1,13 @@
 {
-  "run_at": "2026-08-21T22:44:38.770540+00:00",
+  "run_at": "2026-08-21T22:47:25.012617+00:00",
   "modo": "incremental",
-  "added": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-14-cucm-b-installation-guide-6k-7k-m6-14-cucm--62deb45d52",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-14-cucm-b-installation-guide-6k-7k-m6-14-cucm--6722ec949d",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-14-cucm-b-installation-guide-6k-7k-m6-14-cucm--9d26c8e42c",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-14-cucm-b-installation-guide-6k-7k-m6-14-cucm--b6e20e657c",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-14-cucm-b-installation-guide-6k-7k-m6-14-cucm--d8094bc2d2",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-14-cucm-b-installation-guide-6k-7k-m6-14-cucm--ff28b3f04c",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m6-15-cucm--51953f53ae",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m6-15-cucm--5c9bc6ee53",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m6-15-cucm--6a18499c25",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m6-15-cucm--bc49ea34d7",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m6-15-cucm--d757f29159",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m6-15-cucm--e9146739ee",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m7-15-cucm--1be00a4b12",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m7-15-cucm--2d5e3d95b0",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m7-15-cucm--545e890934",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m7-15-cucm--662c5d586e",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m7-15-cucm--97206ef562",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m7-15-cucm--ad76e3c156",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be7000-installationguide-14-cucm-b-installation-be7k-14-cucm-m-installa-5f910f5c98",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be7000-installationguide-14-cucm-b-installation-be7k-14-cucm-m-introduc-db1149a33c",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be7000-installationguide-14-cucm-b-installation-be7k-14-cucm-m-post-ins-cf6dbf8a9b",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be7000-installationguide-14-cucm-b-installation-be7k-14-cucm-m-rebuildi-6b4ae09942"
-  ],
+  "added": [],
   "modified": [],
   "removed": [],
-  "blocked": [],
-  "unchanged_count": 20
+  "blocked": [
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvo90743-a55bb2fc31",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvq37709-746cf5aab6",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvq77533-942c97c52a"
+  ],
+  "unchanged_count": 0
 }
