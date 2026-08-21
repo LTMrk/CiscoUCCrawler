@@ -1,0 +1,592 @@
+---
+doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-firmware-11-0-4-sr2-w881-b-wireless-8821-rns-110004sr2-html-3252e91e8a
+source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr2/w881_b_wireless-8821-rns-110004sr2.html
+retrieved_at: 2026-08-21T13:35:14.186550+00:00
+---
+
+Cisco Wireless IP Phone 8821 Release Notes for Firmware Release 11.0(4)SR2
+
+# Cisco Wireless IP Phone 8821 Release Notes for Firmware Release 11.0(4)SR2
+
+### Download Options
+
+Updated: February 11, 2019
+
+First Published: October 30, 2018
+
+Last Updated: February 11, 2019
+
+# Cisco Wireless IP Phone 8821 Release Notes for Firmware Release 11.0(4)SR2
+
+These release notes support the Cisco Wireless IP Phone 8821 Firmware Release 11.0(4)SR2.
+
+The following table describes the systems and versions that the phone requires.
+
+System
+
+Minimum Version
+
+Recommended Versions
+
+Cisco Unified Communications Manager
+
+9.1(2)
+
+10.5(2), 11.0(1), 11.5(1), and later
+
+Cisco Unified Communications Manager Express
+
+10.5 through Fast Track
+
+11.0, 11.5, 11.7 (native support), and later
+
+Cisco Unified Survivable Remote Site Telephony
+
+10.5
+
+11.0, 11.5, 11.7, and later
+
+Cisco Wireless LAN Controller
+
+8.0.121.0
+
+8.0.152.0, 8.2.170.0, 8.3.143.0, 8.5.135.0
+
+Cisco IOS Access Points (Autonomous)
+
+12.4(21a)JY
+
+12.4(25d)JA2, 15.2(4)JB6, 15.3(3)JF1
+
+Cisco Meraki
+
+MR 25.9, MX 13.33
+
+MR 25.11, MX 13.33
+
+## New and Changed Features
+
+This release contains no new or changed features.
+
+## Related
+               	 Documentation
+
+Use the following sections to obtain related information.
+
+### Cisco Wireless IP Phone 882x Series Documentation
+
+Refer to
+                        		  publications that are specific to your language, phone model, and call control
+                        		  system. Navigate from the following documentation URL:
+
+https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/tsd-products-support-series-home.html
+
+The Deployment Guide is located at the following URL:
+
+https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/products-implementation-design-guides-list.html
+
+### Cisco Unified
+                     				Communications Manager Documentation
+
+See the Cisco Unified
+                              				Communications Manager Documentation Guide and other publications that are specific to your Cisco Unified
+                           				Communications Manager release. Navigate from the following documentation URL:
+
+https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/tsd-products-support-series-home.html
+
+### Cisco Unified
+                     				Communications Manager Express Documentation
+
+See the publications that are specific to your language, phone model and Cisco Unified
+                           				Communications Manager Express release. Navigate from the following documentation URL:
+
+https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-express/tsd-products-support-series-home.html
+
+## Installation
+
+### Installation Requirements
+
+Before you install the firmware release, you must ensure that your Cisco Unified Communications Manager is running the latest
+                     device pack. After you install a device pack on the Cisco Unified Communications Manager servers in the cluster, you need
+                     to reboot all the servers.
+
+If your Cisco Unified Communications Manager does not have the required device pack to support this firmware release, the
+                                 firmware may not work correctly.
+
+For information on the Cisco Unified Communications Manager Device Packs, see http://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/devpack_comp_mtx.html .
+
+### Install Firmware Release 11.0(4)SR2 on Cisco Unified Communications Manager
+
+Before you can use the phone firmware release on the Cisco Unified Communications Manager, you must install the latest Cisco
+                        Unified Communications Manager firmware on all Cisco Unified Communications Manager servers in the cluster.
+
+Go to the following URL:
+
+http://software.cisco.com/download/navigator.html?mdfid=284883944&i=rm
+
+Choose Cisco IP Phone 8800 Series .
+
+Choose Cisco Wireless IP Phone 8821 .
+
+Choose Session Initiation Protocol (SIP) Software .
+
+In the Latest Releases folder, choose 11.0(4)SR2 .
+
+Select the firmware file, click the Download or Add to cart button, and follow the prompts.
+
+Firmware file: cmterm-8821-sip.11-0-4SR2-15.k3.cop.sgn
+
+If you added the firmware file to the cart, click the Download Cart link when you are ready to download the file.
+
+Click the + next to the firmware file name in the Download Cart section to access additional information about this file. The hyperlink
+                                 for the readme file is in the Additional Information section, which contains installation instructions for the corresponding
+                                 firmware.
+
+Follow the instructions in the readme file to install the firmware.
+
+### Install Firmware Release 11.0(4)SR2 on Cisco Communications Manager Express
+
+You must download the Cisco Wireless IP Phone 8821 firmware image file from the software download center.
+
+For information on Cisco Unified Communications Manager Express support, see http://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/feature/phone_feature/phone_feature_support_guide.html .
+
+For more information about this procedure, refer to the "Install and Upgrade Cisco Unified CME Software" chapter in the Cisco Unified Communications Manager Express System Administrator Guide at this URL:
+
+http://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm.html
+
+To access the firmware files, go to this URL:
+
+https://software.cisco.com/download/navigator.html?mdfid=284729655&flowid=75283
+
+Choose Cisco Wireless IP Phone 8821 .
+
+Choose Session Initiation Protocol (SIP) Software .
+
+Choose 11.0(4)SR2 in the Latest Releases folder.
+
+Click Download or Add to cart and follow the prompts.
+
+The file to download is cmterm-8821.11-0-4SR2-15.zip
+
+Extract the files from the zip file, manually copy them to the Cisco Unified Communications Manager Express TFTP server (router
+                                 flash), and enable them for TFTP.
+
+## Limitations and Restrictions
+
+### Phone Behavior
+                  	 During Times of Network Congestion
+
+Administrative
+                              				tasks, such as an internal port scan or security scan
+
+Attacks that
+                              				occur on your network, such as a Denial of Service attack
+
+### Health-Care
+                  	 Environment Use
+
+This product is not a
+                     		medical device and uses an unlicensed frequency band that is susceptible to
+                     		interference from other devices or equipment.
+
+### Recording Tone Volume Limitation
+
+If you use the recording feature, we recommend that you change the Recording Tone Local Volume configured in Cisco Unified
+                        Communications Manager. Change the field from the default of 100 to 20.
+
+The CUCM device packs (October 2017 and later) have the default set to 20.
+
+For more information, look at CSCvc14605 using https://tools.cisco.com/bugsearch .
+
+## Caveats
+
+### View Caveats
+
+You can search for caveats using the Cisco Bug Search tool.
+
+Known caveats (bugs) are graded according to severity level, and can be either open or resolved.
+
+Before you begin
+
+#### Before you begin
+
+To view caveats, you need the following items:
+
+Internet connection
+
+Web browser
+
+Cisco.com user ID and password
+
+Perform one of the following actions:
+
+Use this URL for all caveats:
+
+https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=286308995&rls=11.0%284%29SR2&sb=anfr&bt=custV
+
+Use this URL for all open caveats:
+
+https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=286308995&rls=11.0%284%29SR2&sb=afr&bt=custV
+
+Use this URL for all resolved caveats:
+
+https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=286308995&rls=11.0%284%29SR2&sb=fr&bt=custV
+
+When prompted, log in with your Cisco.com user ID and password.
+
+(Optional) Enter the bug ID number in the Search for field, then press Enter .
+
+### Open Caveats
+
+The following list contains the severity 1, 2, and 3 defects that are open for the Cisco Wireless IP Phone 8821 that use Firmware
+                        Release 11.0(4)SR2.
+
+For more information about an individual defect, you can access the online record for the defect from the Bug Search Toolkit.
+                        You must be a registered Cisco.com user to access this online information.
+
+Because defect status continually changes, the list reflects a snapshot of the defects that were open at the time this report
+                        was compiled. For an updated view of open defects or to view specific bugs, access the Bug Search Toolkit as described in View Caveats .
+
+CSCuw10789 Configuration: RTP/sRTP Port Range Configuration
+
+CSCuz22603 Phone may fail to update trust list files after reset
+
+CSCvd72816 RSSI value for connected AP is slow to update when phone is in Single AP mode
+
+CSCvg59066 Speed Dial & BLF SD are not working when on call
+
+CSCvh15285 DNS info got lost after phone power off/on when DHCP in off status
+
+CSCvh27418 Transfer soft key shall be grey before C answer while semi-transfer is diabled.
+
+CSCvh27809 Focus and soft key error while press up-down hard key during conference
+
+CSCvh31648 Call should be disconnected while BT headset out of range for more than 30 seconds
+
+CSCvh38919 8821: Speaker fail to ring when insert headset
+
+CSCvh40589 Call disconnected while power off Jabra MOTION BT headset during call
+
+CSCvh47665 No Secure tone played on protected phones while enable speaker
+
+CSCvh50578 Pressing red button can not cancel new call when PTT is opened
+
+CSCvh50994 No error toast prompts while cBarge failed due to maximum participants has been reached
+
+CSCvh55508 WFi chip is not waking up at regular interval in single AP mode
+
+CSCvh64535 Random roaming timeouts seen on conducted roaming testbed
+
+CSCvh72297 Voice mail speed dial is not working if services provisioning set to External URL
+
+CSCvh74215 No \"CAL Text#\" logo displayed in incoming call toast & call details
+
+CSCvh82172 8821 Not send DHCP decline message to DHCP server when duplicated ip detected
+
+CSCvh89574 Pressing Green button to make a call - missing in PD/CD & Line View
+
+CSCvh94433 cp8821Ôºöno \"CAL Text#1\" displayed in call details when do CAL test
+
+CSCvh99185 WLAN diags AP details only shows channels 36-48
+
+CSCvi16796 Phone does not use the configured SIP phone port to register with CUCM
+
+CSCvi16962 Phone dials out from line 2 even if toggle up to line 1 before dialing out
+
+CSCvi24947 Display will not off while phone has one-way incoming intercom call
+
+CSCvi66235 PB: When configuring a Favorite, middle button can dial number by mistake when in Contact details
+
+CSCvi66773 PB: Pressing green button should not bring up call view when highlight on Unassigned
+
+CSCvi68937 8821 advertises dongle MAC instead of phone MAC via CDP
+
+CSCvi74261 Phone may crash if disable-enable Wi-Fi profile via admin webpage
+
+CSCvi78358 8821 can't save debug command after reset or power-cycle
+
+CSCvi80433 Phone doesn't process the EAP request frame, causing de-registration
+
+CSCvj02218 Park resume is greyed out in 8821 registered in CME
+
+CSCvj07546 Phone de-registered due to re-IP during overnight testing
+
+CSCvj23342 Call could be dropped when OOR more than 1 minute
+
+CSCvj31950 Intermittent \"Device or resource busy\" can still happen
+
+CSCvj42007 DUT don't vibrate sometimes when pickup call with DND enable
+
+CSCvj42039 Voice volume setting of BT headset hasn't been saved after headset power off and on
+
+CSCvj43956 New call soft key not work while focus on BLF speed dial
+
+CSCvj44014 Back from intercom call details, phone's UI turn to blank
+
+CSCvj44036 The cancel&dial softkey disappeared in callback indication UI when ending another incoming call
+
+CSCvj45498 Ringer shouldn't play thu headset in Australia network locale when inserting headset during ringing
+
+CSCvj46981 \"Battery charging\" toast not display when power charging with USB cable.
+
+CSCvj47001 Ringer for incoming call switches to headset after docked when ringer output is set to speaker
+
+CSCvj53208 White screen flash while charging powered off phone
+
+CSCvj54504 Blank call view after end the call on one line and then resume call on another line
+
+CSCvj54731 Should delay ringer output for 4 sec if 2nd call comes in immediately after 1st call is ended
+
+CSCvj55168 ip can be pinged after dhcp address released through \"wifi interface\"
+
+CSCvj55253 Can't move focus to other lines with nav-button when phone is in dialing.
+
+CSCvj64735 Voicemail icon shows on the second line and intercom line even there is only vm on first line
+
+CSCvj70382 Back to use correct username from wrong one, phone failed to connect to Auto AP with EAP-FAST
+
+CSCvj75229 Phone does not re-connect to first WLAN profile after disable/enable
+
+CSCvj84131 Decline not work on the line not configured to VM, when another line configured to VM
+
+CSCvj88754 Failed to Log Out from personal directory
+
+CSCvj94399 Sometimes(90%) ringer is very small in hold reversion state when ringer volume is maximized
+
+CSCvj94952 On Phone's LCD, the DN has not been changed after access hCluster successfully with EMCC method
+
+CSCvj96861 Application Button still works when DUT is not idle Although button priority is low
+
+CSCvk03109 When DNR is enabled and a higher priority MLPP call comes in, the ringer is not played on the phone.
+
+CSCvk09649 Incoming call will be auto answered when connect bluetooth headset to phone and hold the first call.
+
+CSCvk22665 8821 display comes on sometimes when on call with shared line
+
+CSCvk25979 Phone eventually not able to receive auth response
+
+CSCvk30176 No response while press conf soft key after merge all on secured SRST
+
+CSCvk33875 Screenpng does not work when 8821 is sleeping
+
+CSCvk59324 CCKM roaming failure then call dropped on roaming stress test bed
+
+CSCvk65315 Download application multiple times when press the application button
+
+CSCvm04637 Continuous scan busy is reproducible on Conducted test bed with channel setting 36/44@20Mhz
+
+CSCvm16421 EAP authentication triggered by wpa_supplicant got interrupted and causing de-registration
+
+CSCvm23580 8821 dhcp exit and reboot after switching wlan profiles
+
+CSCvm37991 Phone will not remove stale entry in neighbor list while in \"auto-scan\" mode
+
+CSCvm40695 4-way handshake got interrupted by reassoc request thereby causing de-registration
+
+CSCvm46026 8821 : Java crash and connectivity lost
+
+CSCvm47856 Multiple Vulnerabilities in linux
+
+CSCvm50336 CIAM alerts of Linux/Linux for cygnus: CVE-2018-1130, CVE-2018-11506, CVE-2018-11508
+
+CSCvm50340 CIAM alerts of Linux/Linux for cygnus for all phone models
+
+CSCvm50348 Multiple Vulnerabilities in linux, port CSCvk55910 to 8821
+
+CSCvm50349 Multiple Vulnerabilities in linux, port CSCvm11633 to 8821
+
+CSCvm50527 Linux Kernel Kerberos RxRPC Ticket Decoding Local Privilege Escalati ...
+
+CSCvm55587 Java crashed when accessing phone admin webpage
+
+CSCvm55729 Phone can't associate to AP after inter-profile roaming, enable new profile after OOR
+
+CSCvm58866 4-way handshake failure due to invalid MIC in M2
+
+CSCvm59233 cURL and libcurl NTLM Password Buffer Overflow Vulnerability (CVE-2018-14618)
+
+CSCvm60777 Linux Kernel alarm_timer_nsleep() Function Integer Overflow Vulnerability (CVE-2018-13053)
+
+CSCvm66028 Phone will eventually loose WiFi when roaming between 2 AP's set at 80MHz/40MHz
+
+CSCvm69293 Network configuration info not displayed on current wlan profile
+
+CSCvm69529 CDP shows previous IP for WLAN interface via CDP instead of wired USB dongle interface when docked
+
+CSCvm70313 Unable to reconnect to wifi after undock a station with ethernet over USB then enable wifi profile
+
+CSCvm70501 8821 should not download WLAN config file from hCluster after EMCC login
+
+CSCvm74978 8821 phone sometimes couldn't receive the EAP identity request on 2.4G JFW test bed.
+
+CSCvm75499 Phone will bypass higher priority profiles enabled when profile 1 is disabled
+
+CSCvm75535 Phone will not connect to 2.4GHz enabled WiFi profile from a 5GHz enabled WiFi profile vice versa
+
+CSCvm85526 Phone crashed when DHCP option 66 field configured with MaxLength
+
+CSCvm87368 Phone can't get ip address when DHCP option 150 field configured with MaxLength
+
+CSCvm91129 WLAN power mode not correct when making calls via XSI
+
+CSCvm91396 No beep tone for hold revert while the other line in RIU status
+
+CSCvm91475 Can't answer incoming call for a while when hold reversion is 20s with about 20 call sessions
+
+CSCvm92798 Multiple Vulnerabilities in linux
+
+CSCvm92833 Linux Kernel MIDI Driver Local Privilege Escalation Vulnerability (CVE-2018-10902)
+
+CSCvm94269 DTIM period in WLAN Diags shows as 3 sometimes
+
+CSCvm95451 XMLSoft libxml2 xmlXPathCompOpEval() Function NULL Pointer Dereference Vulnera... (CVE-2018-14404)
+
+CSCvm95611 XML message does not display on lock screen if http url priority is 1 or 2
+
+CSCvm98027 GreenKey failed to work when setting phone to offhook dialing mode
+
+CSCvm99883 \"Feature is unavailable\" pops up on recipient phone UI on CME
+
+CSCvn04670 To define/implement new status message for 8821 battery drain to power off
+
+CSCvn04676 8821: Misleading unregistration reason code when 8821 is manually powered off
+
+### Resolved Caveats
+
+The following list contains the severity 1, 2, and 3 defects that are resolved for the Cisco Wireless IP Phone 8821 that use
+                        Firmware Release 11.0(4)SR2.
+
+For more information about an individual defect, you can access the online record for the defect from the Bug Search Toolkit.
+                        You must be a registered Cisco.com user to access this online information.
+
+Because defect status continually changes, the list reflects a snapshot of the defects that were resolved at the time this
+                        report was compiled. For an updated view of resolved defects or to view specific bugs, access the Bug Search Toolkit as described
+                        in View Caveats .
+
+CSCvi16877 Phone always sends keep-alive every 92 seconds regardless of keep-alive timer configuration
+
+CSCvi50362 Transferor didn't turn to idle status after Consultative Transfer finished over SRST
+
+CSCvj58595 Phone lost connection to WLAN then FW stuck in unresponsive state
+
+CSCvk49252 Memory leak each time to apply config file downloaded
+
+CSCvk52958 Check in WLAN firmware release 6.50.0.16
+
+CSCvk61217 Check in WLAN firmware release 6.50.0.18
+
+CSCvk65204 PRT should not trigger fresh/full association
+
+CSCvk73764 Phone unable to connect to BTheadset after phone power cycle
+
+CSCvm01072 Bluetooth Pairing Protocols - ECDH Parameters Insufficient Validation Vulnerability (CVE-2018-5383)
+
+CSCvm37965 Phone not scanning when on call in \"auto-scan\" mode
+
+CSCvm81319 Vibrate URI doesn't execute if \"Vibrate:\" is sent to the 8821 phone
+
+## Cisco Unified Communication Manager Public Keys
+
+To improve software integrity protection, new public keys are used to sign cop files for Cisco Unified Communications Manager
+                     Release 10.0.1 and later. These cop files have "k3" in their name. To install a k3 cop file on a pre-10.0.1 Cisco Unified Communications Manager, consult the README for the
+                     ciscocm.version3-keys.cop.sgn to determine if this additional cop file must first be installed on your specific Cisco Unified
+                     Communications Manager version. If these keys are not present and are required, you will see the error "The selected file is not valid" when you try to install the software package.
+
+## Unified
+               	 Communications Manager Endpoints Locale Installer
+
+By default, Cisco
+                     		  IP Phones are set up for the English (United States) locale. To use the Cisco
+                     		  IP Phones in other locales, you must install the locale-specific version of the
+                     		  Unified Communications Manager Endpoints Locale Installer on every Cisco
+                     		  Unified Communications Manager server in the cluster. The Locale Installer
+                     		  installs the latest translated text for the phone user interface and
+                     		  country-specific phone tones on your system so that they are available for the
+                     		  Cisco IP Phones.
+
+To access the Locale Installer required for a release, access https://software.cisco.com/download/navigator.html?mdfid=286037605&flowid=46245 , navigate to your phone model, and select the Unified Communications Manager Endpoints Locale Installer link.
+
+For more information, see the documentation for your particular Cisco Unified Communications Manager release.
+
+The latest
+                                 			 Locale Installer may not be immediately available; continue to check the
+                                 			 website for updates.
+
+## Cisco IP Phone Documentation Updates on Cisco Unified Communications Manager
+
+The Cisco Unified Communications Manager Self Care Portal (Release 10.0 and later) and User Options web pages (Release 9.1
+                     and earlier) provide  links to the IP Phone user guides in PDF format. These user guides are stored on the Cisco Unified Communications
+                     Manager and are up to date when the Cisco Unified Communications Manager release is first made available to customers.
+
+After a Cisco Unified Communications Manager release, subsequent updates to the user guides appear only on the Cisco website.
+                     The phone firmware release notes contain the applicable documentation URLs. In the web pages, updated documents display "Updated" beside the document link.
+
+The Cisco Unified Communications Manager Device Packages and the Unified Communications Manager Endpoints Locale Installer
+                                 do not update the English user guides on the Cisco Unified Communications Manager.
+
+You and your users should check the Cisco website for updated user guides and download the PDF files. You can also make the
+                     files available to your users on your company website.
+
+You may want to bookmark the web pages for the phone models that are deployed in your company and send these URLs to your
+                                 users.
+
+## Cisco IP Phone
+               	 Firmware Support Policy
+
+For information on the support policy for phones, see https://cisco.com/go/phonefirmwaresupport .
+
+| System | Minimum Version | Recommended Versions |
+|---|---|---|
+| Cisco Unified Communications Manager | 9.1(2) | 10.5(2), 11.0(1), 11.5(1), and later |
+| Cisco Unified Communications Manager Express | 10.5 through Fast Track | 11.0, 11.5, 11.7 (native support), and later |
+| Cisco Unified Survivable Remote Site Telephony | 10.5 | 11.0, 11.5, 11.7, and later |
+| Cisco Wireless LAN Controller | 8.0.121.0 | 8.0.152.0, 8.2.170.0, 8.3.143.0, 8.5.135.0 |
+| Cisco IOS Access Points (Autonomous) | 12.4(21a)JY | 12.4(25d)JA2, 15.2(4)JB6, 15.3(3)JF1 |
+| Cisco Meraki | MR 25.9, MX 13.33 | MR 25.11, MX 13.33 |
+
+| Note | If your Cisco Unified Communications Manager does not have the required device pack to support this firmware release, the
+                                 firmware may not work correctly. |
+|---|---|
+
+| Step 1 | Go to the following URL: http://software.cisco.com/download/navigator.html?mdfid=284883944&i=rm |
+|---|---|
+| Step 2 | Choose Cisco IP Phone 8800 Series . |
+| Step 3 | Choose Cisco Wireless IP Phone 8821 . |
+| Step 4 | Choose Session Initiation Protocol (SIP) Software . |
+| Step 5 | In the Latest Releases folder, choose 11.0(4)SR2 . |
+| Step 6 | Select the firmware file, click the Download or Add to cart button, and follow the prompts. Firmware file: cmterm-8821-sip.11-0-4SR2-15.k3.cop.sgn Note If you added the firmware file to the cart, click the Download Cart link when you are ready to download the file. | Note | If you added the firmware file to the cart, click the Download Cart link when you are ready to download the file. |
+| Note | If you added the firmware file to the cart, click the Download Cart link when you are ready to download the file. |
+| Step 7 | Click the + next to the firmware file name in the Download Cart section to access additional information about this file. The hyperlink
+                                 for the readme file is in the Additional Information section, which contains installation instructions for the corresponding
+                                 firmware. |
+| Step 8 | Follow the instructions in the readme file to install the firmware. |
+
+| Note | If you added the firmware file to the cart, click the Download Cart link when you are ready to download the file. |
+|---|---|
+
+| Step 1 | To access the firmware files, go to this URL: https://software.cisco.com/download/navigator.html?mdfid=284729655&flowid=75283 |
+|---|---|
+| Step 2 | Choose Cisco Wireless IP Phone 8821 . |
+| Step 3 | Choose Session Initiation Protocol (SIP) Software . |
+| Step 4 | Choose 11.0(4)SR2 in the Latest Releases folder. |
+| Step 5 | Click Download or Add to cart and follow the prompts. The file to download is cmterm-8821.11-0-4SR2-15.zip |
+| Step 6 | Extract the files from the zip file, manually copy them to the Cisco Unified Communications Manager Express TFTP server (router
+                                 flash), and enable them for TFTP. |
+
+| Step 1 | Perform one of the following actions: Use this URL for all caveats: https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=286308995&rls=11.0%284%29SR2&sb=anfr&bt=custV Use this URL for all open caveats: https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=286308995&rls=11.0%284%29SR2&sb=afr&bt=custV Use this URL for all resolved caveats: https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=286308995&rls=11.0%284%29SR2&sb=fr&bt=custV |
+|---|---|
+| Step 2 | When prompted, log in with your Cisco.com user ID and password. |
+| Step 3 | (Optional) Enter the bug ID number in the Search for field, then press Enter . |
+
+| Note | The latest
+                                 			 Locale Installer may not be immediately available; continue to check the
+                                 			 website for updates. |
+|---|---|
+
+| Note | The Cisco Unified Communications Manager Device Packages and the Unified Communications Manager Endpoints Locale Installer
+                                 do not update the English user guides on the Cisco Unified Communications Manager. |
+|---|---|
+
+| Tip | You may want to bookmark the web pages for the phone models that are deployed in your company and send these URLs to your
+                                 users. |
+|---|---|
