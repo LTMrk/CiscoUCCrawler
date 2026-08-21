@@ -1609,6 +1609,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/codeexchange/github/repo/bsingh23/nornir_crc_errors": {
+      "content_sha": "eafd20ddbb1e3baa2c0034951d0d0c4fdbdfde41932179c5cb718dbee0b05b3b",
+      "doc_id": "developer-cisco-com-codeexchange-github-repo-bsingh23-nornir-crc-errors-3579da48d3",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:17:26.462223+00:00",
+      "last_changed": "2026-08-21T08:17:26.462223+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T08:17:26.462223+00:00",
+      "next_check": "2026-08-22T08:17:26.462223+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/codeexchange/github/repo/dmatsumu/c9800-RESTCONF": {
       "content_sha": "a82f1a94ccf9c9fab83470eb2ed6c79d9e918d82d1d63d6f66d117ac5a4df4d2",
       "doc_id": "developer-cisco-com-codeexchange-github-repo-dmatsumu-c9800-restconf-2c71fe4026",
@@ -2427,6 +2440,19 @@
       "next_check": "2026-08-20T23:46:12.553222+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://netascode.cisco.com": {
+      "content_sha": "bdf2807293f8bdec4f261880fb748a4cc33e87359ed889b67e3691a470d7bf81",
+      "doc_id": "netascode-cisco-com-fa4920fa04",
+      "etag": "\"6a87f342-f1db\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-21T08:16:48.599288+00:00",
+      "last_changed": "2026-08-21T08:16:48.599288+00:00",
+      "last_modified": "Fri, 21 Aug 2026 06:42:10 GMT",
+      "last_seen": "2026-08-21T08:16:48.599288+00:00",
+      "next_check": "2026-08-22T08:16:48.599288+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://pricing.webex.com": {
       "content_sha": "81280f5793cfb0b910d7b569f12122b86df628d9960d7536a678c6c178fe7bad",
@@ -102877,5 +102903,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T08:14:00.626224+00:00"
+  "updated_at": "2026-08-21T08:17:34.170905+00:00"
 }
