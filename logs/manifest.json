@@ -68458,6 +68458,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/931/6900_931/6900_931_chapter_00.html": {
+      "content_sha": "b9b76c11626400450b2663df9c1baebe5d62502295b4a9139df7e2cd873944a8",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6900-series-firmware-931-6900-931-6900-931-chapter-00-html-15de2e3ece",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T14:23:24.515610+00:00",
+      "last_changed": "2026-08-21T14:23:24.515610+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T14:23:24.515610+00:00",
+      "next_check": "2026-08-22T14:23:24.515610+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/931/6900_931/6900_931_index.html": {
+      "content_sha": "450166f939192f9b8beaaf48de6e19959e8bb5f8ba0291201fe93e8a56d0a514",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6900-series-firmware-931-6900-931-6900-931-index-html-f001297aa3",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T14:23:27.898836+00:00",
+      "last_changed": "2026-08-21T14:23:27.898836+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T14:23:27.898836+00:00",
+      "next_check": "2026-08-22T14:23:27.898836+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/9_3_1SR1/release_notes/P069_BK_RF63D36F_00_rn-9_3_1_sr1-6900-series.html": {
       "content_sha": "f9c125823e125470d81f93b088c881a9400e6dbb5ba05df807c3da841b96952d",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6900-series-firmware-9-3-1sr1-release-notes-p069-bk-rf63d36f-00-rn-9--df36590a05",
@@ -68533,6 +68559,32 @@
       "last_modified": null,
       "last_seen": "2026-08-21T06:24:45.243838+00:00",
       "next_check": "2026-08-22T06:24:45.243838+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/user_guide/P691_BK_U69F61BF_00_user-guide-6901-6911-10_0/P691_BK_U69F61BF_00_user-guide-6901-6911-10_0_chapter_00.html": {
+      "content_sha": "be06d5ace7307f43c0666dda4f4e2faa9cda5081159bf0b6fef8fcc9afa34290",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-10-0-english-user-guide-p691-bk-u69f61bf-00-user-guide-6901-b9a0e49b83",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T14:23:59.301205+00:00",
+      "last_changed": "2026-08-21T14:23:59.301205+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T14:23:59.301205+00:00",
+      "next_check": "2026-08-22T14:23:59.301205+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/user_guide/P691_BK_U69F61BF_00_user-guide-6901-6911-10_0/P691_BK_U69F61BF_00_user-guide-6901-6911-10_0_chapter_01.html": {
+      "content_sha": "bfb53c5e0f652b61c6df9c63c81196ac54d48a426c2bcdcbe5bdd2e7b39565be",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-10-0-english-user-guide-p691-bk-u69f61bf-00-user-guide-6901-491fbd99c6",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T14:24:02.606168+00:00",
+      "last_changed": "2026-08-21T14:24:02.606168+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T14:24:02.606168+00:00",
+      "next_check": "2026-08-22T14:24:02.606168+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -123572,5 +123624,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T14:21:19.233727+00:00"
+  "updated_at": "2026-08-21T14:24:02.691363+00:00"
 }
