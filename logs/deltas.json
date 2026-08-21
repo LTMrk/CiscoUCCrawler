@@ -1,13 +1,18 @@
 {
-  "run_at": "2026-08-21T19:41:22.691330+00:00",
+  "run_at": "2026-08-21T19:44:45.405050+00:00",
   "modo": "incremental",
   "added": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-cceaf656-00-cisco-jabber-video-for-ipad-jabi-bk-cc-c2233f4dbb"
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-11-6-cjab-b-planning-guide-cisco-jabber-116-cjab-b-planning-guide-cis-9db0ca4e52",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-cceaf656-00-cisco-jabber-video-for-ipad-jabi-bk-cc-1ed46b8d01",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-cceaf656-00-cisco-jabber-video-for-ipad-jabi-bk-cc-79b3cc82b3",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-cceaf656-00-cisco-jabber-video-for-ipad-jabi-bk-cc-8bfe7439cc",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-cceaf656-00-cisco-jabber-video-for-ipad-jabi-bk-cc-9cbe42ec5e",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-cceaf656-00-cisco-jabber-video-for-ipad-jabi-bk-cc-d9da564bee",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-cceaf656-00-cisco-jabber-video-for-ipad-jabi-bk-cc-f825aad081",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-cceaf656-00-cisco-jabber-video-for-ipad-jabi-bk-cc-fa9fa7bfa5"
   ],
   "modified": [],
   "removed": [],
-  "blocked": [
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvj95723-d99647ce0a"
-  ],
-  "unchanged_count": 0
+  "blocked": [],
+  "unchanged_count": 1
 }
