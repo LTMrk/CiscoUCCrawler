@@ -5372,3 +5372,37 @@
 [2026-08-21T09:42:27.161622] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCve61037
 [2026-08-21T09:42:31.228623] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvk22395
 [2026-08-21T09:42:35.596923] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn78563
+[2026-08-21T09:44:51.130620] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn90001
+[2026-08-21T09:44:54.431242] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvo01877
+[2026-08-21T09:44:57.910455] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1_SU1/cucm_b_security-guide-125SU1.html
+[2026-08-21T09:45:14.506661] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251.html
+[2026-08-21T09:45:19.060391] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/cdrdef/cucm_b_cdr-admin-guide-1251.html
+[2026-08-21T09:45:20.302433] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214134-upgrade-enhancements-in-cisco-unified-c.epub
+[2026-08-21T09:45:24.234089] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214134-upgrade-enhancements-in-cisco-unified-c.mobi
+[2026-08-21T09:45:31.482003] Markdown insuficiente tras sanitizar (197 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/virtual/chcs_b_cisco-collaboration-on-virtual-servers.html
+[2026-08-21T09:45:36.109927] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/12_0_1/cucm_b_installation-guide-cucm-imp-1201.html
+[2026-08-21T09:45:39.749194] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/12_0_1/cucm_b_upgrade-and-migration-guide-1201.html
+[2026-08-21T09:45:48.056376] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/InstallationGuide/14/cucm_b_installation-guide-m5_14.html
+[2026-08-21T09:45:52.610027] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/InstallationGuide/12_5/be6k_b_installation-guide-M5-1251.html
+[2026-08-21T09:45:56.747441] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/InstallationGuide/12_5/cucm_b_installation-guide-m5-14.html
+[2026-08-21T09:46:22.113150] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr.html
+[2026-08-21T09:46:44.095031] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/srnd/design/guide/cmesrnd.html
+[2026-08-21T09:46:48.281757] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/bcs/installation/guide/bcsvd_in.html
+[2026-08-21T09:48:05.416117] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286327511/type/282786567/release/14.1
+[2026-08-21T09:48:05.565044] Omitida: excluida por robots.txt | https://community.cisco.com/t5/collaboration-knowledge-base/block-incoming-call-based-on-the-caller-id-using-translation/ta-p/4767042
+[2026-08-21T09:48:05.565153] Omitida: excluida por robots.txt | https://community.cisco.com/t5/collaboration-knowledge-base/after-hours-call-blocking-on-cme/ta-p/3118480
+[2026-08-21T09:48:05.565180] Omitida: excluida por robots.txt | https://community.cisco.com/t5/collaboration-knowledge-base/basics-of-globalized-call-routing/ta-p/3121674
+[2026-08-21T09:48:06.119930] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/116684-technote-ipphone-00.epub
+[2026-08-21T09:48:10.149553] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/116684-technote-ipphone-00.mobi
+[2026-08-21T09:49:40.199156] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility.html
+[2026-08-21T09:50:52.540103] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility.epub
+[2026-08-21T09:50:56.696702] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility.mobi
+[2026-08-21T09:51:05.113716] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/adminguide/n500_b_500-series-ag-new.html
+[2026-08-21T09:51:08.624650] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/730/adminguide/h700_b_cisco-headset-700-series-administration.html
+[2026-08-21T09:51:13.414733] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory.epub
+[2026-08-21T09:51:17.797364] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory.mobi
+[2026-08-21T09:51:25.458368] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000/tsd-products-support-series-home.html
+[2026-08-21T09:51:28.830408] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286037605
+[2026-08-21T09:51:30.137697] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831.epub
+[2026-08-21T09:51:34.377619] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831.mobi
+[2026-08-21T09:51:42.006398] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/tsd-products-support-series-home.html
