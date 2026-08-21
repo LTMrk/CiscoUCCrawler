@@ -66934,6 +66934,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm/cs88_b_conference-8832-admin-guide-cucm_chapter_010.html": {
+      "content_sha": "0f9d8fda8d28a6cf025dd93c2415f6fea756ed09d7f78f8b9720658a07837e09",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-adminguide-cs88-b-conference-8832-admin-guide-cucm-cs88--7c05712ff4",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T09:53:54.089971+00:00",
+      "last_changed": "2026-08-21T09:53:54.089971+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T09:53:54.089971+00:00",
+      "next_check": "2026-08-22T09:53:54.089971+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/userguide/cs88_b_conference-8832-user-guide.html": {
       "content_sha": "d6b4ce7c350ff232089582fa98ad70a6d32ad8641b3747a234969042d6128e89",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-userguide-cs88-b-conference-8832-user-guide-html-13bc17148e",
@@ -111531,5 +111544,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T09:51:42.080169+00:00"
+  "updated_at": "2026-08-21T09:54:38.327369+00:00"
 }
