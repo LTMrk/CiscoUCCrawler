@@ -1,69 +1,5 @@
 [
   {
-    "url": "https://software.cisco.com/software/csws/ws/platform/home",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/ucce_b_unified-contact-center-enterprise-engineering/ucce_b_unified-contact-center-enterprise-engineering_chapter_0110.html",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/c5b78f6f2886d0ccac0a2deff528901b",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/home/284360381/type/284416107/release/12.6(1)",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/home/284360381/type/284416107/release/12.5(1)",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-integrated-management-controller/products-installation-and-configuration-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/tsd-products-support-series-home.html",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/f54ab678281738104e2c6ae1ca0c85cf",
-    "depth": 1
-  },
-  {
-    "url": "http://tools.cisco.com/cucst/faces/landing.jsp",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-configuration-examples-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_ucce-features-guide-12_5.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-call-studio/tsd-products-support-series-home.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/products-installation-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/tsd-products-support-series-home.html",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.cisco.com/site/finesse/documents",
-    "depth": 1
-  },
-  {
     "url": "https://developer.cisco.com/site/extension-mobility",
     "depth": 1
   },
@@ -15517,6 +15453,26 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-enterprise-12-5-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-integrated-management-controller/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-integrated-management-controller/products-programming-reference-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200755-Configure-HTTPS-Access-for-UCCE-Diagnost.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200876-Unified-Contact-Center-Enterprise-UCCE.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE.html",
     "depth": 2
   }
 ]
