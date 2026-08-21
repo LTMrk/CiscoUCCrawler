@@ -84442,6 +84442,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_cisco-wireless-phone-9821.html": {
+      "content_sha": "bc9bc286f90937e0b09cb70b3d6c2111e728e443e8f4433c64b236a7de5110fc",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-compatibility-guide-n500-b-headset-compatibility-n500-m-cisc-0a052b3706",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T23:07:49.882701+00:00",
+      "last_changed": "2026-08-21T23:07:49.882701+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T23:07:49.882701+00:00",
+      "next_check": "2026-08-22T23:07:49.882701+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_cisco_accessory_hub.html": {
       "content_sha": "566aa56681d8ba6422cacf022f14f87a4d3a8177833ca3323f50e5730925119f",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-compatibility-guide-n500-b-headset-compatibility-n500-m-cisc-0f9260f4b9",
@@ -153180,5 +153193,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T23:05:15.726319+00:00"
+  "updated_at": "2026-08-21T23:08:23.762893+00:00"
 }
