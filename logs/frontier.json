@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8300-series-edge-platforms/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm84478",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs58554",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw17487",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw68373",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx22242",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx22651",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx25564",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx64219",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx70719",
-    "depth": 1
-  },
-  {
     "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx74452",
     "depth": 1
   },
@@ -14269,6 +14229,98 @@
   },
   {
     "url": "https://community.cisco.com/t5/networking-knowledge-base/configuring-type-6-passwords-in-ios-xe/ta-p/4438495",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8300-series-edge-platforms/products-installation-and-configuration-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/286308587/release/17.18.3a",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/286308587/release/17.12.7b",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/286308587/release/17.12.5c",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/286308587/release/17.15.6",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/286334034/release/79.0.0",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/286334034/release/78.0.0",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/286334034/release/77.0.0",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/286334034/release/76.0.0",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/286321647/release/A39t",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/284509011/release/79.0.0",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/284509011/release/78.0.0",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/284509011/release/77.0.0",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/284509011/release/76.0.0",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/282046486/release/17.18%25281r%2529",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/282046477/release/IOSXE-17.18.4",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/282046477/release/IOSXE-17.15.6",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/282046477/release/Dublin-17.12.8",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/282046477/release/IOSXE-26.1.2",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/286285284/release/26.1.2",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/286321980/release/26.1.1",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286324476/type/286326638/release/26.1.2",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/emea-expert-insights-series-cisco-catalyst-sd-wan/ta-p/5289279",
     "depth": 2
   }
 ]
