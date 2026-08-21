@@ -1,9 +1,13 @@
 {
-  "run_at": "2026-08-21T19:38:34.302700+00:00",
+  "run_at": "2026-08-21T19:41:22.691330+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-cceaf656-00-cisco-jabber-video-for-ipad-jabi-bk-cc-c2233f4dbb"
+  ],
   "modified": [],
   "removed": [],
-  "blocked": [],
+  "blocked": [
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvj95723-d99647ce0a"
+  ],
   "unchanged_count": 0
 }

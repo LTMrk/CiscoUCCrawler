@@ -340,6 +340,16 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj95723": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvj95723-d99647ce0a",
+      "fail_count": 1,
+      "first_seen": "2026-08-21T19:41:14.608986+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-21T19:41:14.608996+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvk04627": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvk04627-0037acd7b1",
@@ -147188,6 +147198,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad_chapter_00.html": {
+      "content_sha": "958b98636bbee36c516fa8b9c0f13246db1f42b2548840c039f9d46151609292",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-cceaf656-00-cisco-jabber-video-for-ipad-jabi-bk-cc-c2233f4dbb",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T19:41:22.484132+00:00",
+      "last_changed": "2026-08-21T19:41:22.484132+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T19:41:22.484132+00:00",
+      "next_check": "2026-08-22T19:41:22.484132+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_J5F7220D_00_jabber-video-ipad-release-notes-9-3-5.html": {
       "content_sha": "8b56059ac0bdd948c4654985065c4dea95723342d7dd404890847aa95cf5b4f2",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-j5f7220d-00-jabber-video-ipad-release-notes-9-3-5--8af83a0425",
@@ -148352,5 +148375,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T19:38:34.168637+00:00"
+  "updated_at": "2026-08-21T19:41:22.555926+00:00"
 }
