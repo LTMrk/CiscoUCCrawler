@@ -3733,6 +3733,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_11": {
+      "content_sha": "10c39a9873817dd8699c1ac9d1f3e9acb91fd4150f5ca8b544691c900f9b9167",
+      "doc_id": "roomos-cisco-com-doc-whatsnew-releasenotesroomos-11-0fb8b628ac",
+      "etag": "W/\"35a-19f033af3d8\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:43:53.872052+00:00",
+      "last_changed": "2026-08-21T12:43:53.872052+00:00",
+      "last_modified": "Fri, 26 Jun 2026 09:20:23 GMT",
+      "last_seen": "2026-08-21T12:43:53.872052+00:00",
+      "next_check": "2026-08-22T12:43:53.872052+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://sec.cloudapps.cisco.com/security/center/Search.x": {
       "content_sha": "ec85ab250c589e1ff8e0a8345e9dfbbd4189357b4bf0a0cb068ba48f96d3dcfa",
       "doc_id": "sec-cloudapps-cisco-com-security-center-search-x-612f125e83",
@@ -3901,6 +3914,19 @@
       "next_check": "2026-08-20T23:46:23.926901+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/dx80/212294-how-to-upload-background-image-on-dx80-a.html": {
+      "content_sha": "2ed6f6e48c17113a1eb4aee2f293de2c540b6780865af6504a2380ca7c593991",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-dx80-212294-how-to-upload-background-image-on-dx80-a-html-3a4a8d556f",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:45:00.015018+00:00",
+      "last_changed": "2026-08-21T12:45:00.015018+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:45:00.015018+00:00",
+      "next_check": "2026-08-22T12:45:00.015018+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series.html": {
       "content_sha": "eb2c9d4e703b3ce903634fa5d1e67bc4fce5a1f9d4c20fe8487d9b72217e1616",
@@ -13570,6 +13596,19 @@
       "next_check": "2026-08-21T00:37:50.751492+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/telepresence/endpoint/desk-series/compliance-safety-guide/RCSI-0430-book.html": {
+      "content_sha": "dc9ef27611802896c68117a0919e92590fe1377f845e95cc801f5f834980d77a",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-telepresence-endpoint-desk-series-compliance-safety-guide-rcsi-0430-book-html-f78cad1832",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T12:44:55.430966+00:00",
+      "last_changed": "2026-08-21T12:44:55.430966+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T12:44:55.430966+00:00",
+      "next_check": "2026-08-22T12:44:55.430966+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/telepresence/infrastructure/articles/mcu_tms_configure_work_together_kb_288.html": {
       "content_sha": "5afa30a70e35be51c9bfde2d1f74c2a66651062290651b0afb121d521482eb20",
@@ -117429,5 +117468,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T12:41:40.782180+00:00"
+  "updated_at": "2026-08-21T12:45:37.362912+00:00"
 }
