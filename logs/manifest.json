@@ -5529,10 +5529,10 @@
       "first_seen": "2026-08-16T22:06:07.905302+00:00",
       "last_changed": "2026-08-16T22:06:07.905302+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-18T23:50:34.986998+00:00",
-      "next_check": "2026-08-20T23:50:34.986998+00:00",
+      "last_seen": "2026-08-21T14:58:33.837367+00:00",
+      "next_check": "2026-08-25T14:58:33.837367+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques.html": {
       "content_sha": "9d7d3464a76ce4b3646b298ad98bd98dce72b85c2b8877758d6b0a9317c4fd8e",
@@ -5672,10 +5672,10 @@
       "first_seen": "2026-08-17T00:53:54.336986+00:00",
       "last_changed": "2026-08-17T00:53:54.336986+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-18T23:50:47.443106+00:00",
-      "next_check": "2026-08-20T23:50:47.443106+00:00",
+      "last_seen": "2026-08-21T14:58:37.901799+00:00",
+      "next_check": "2026-08-25T14:58:37.901799+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error.html": {
       "content_sha": "3af91712f1e70431e312b0b8890e6dd083ed4a09e1159575d74770e8c31bc277",
@@ -5763,10 +5763,10 @@
       "first_seen": "2026-08-16T22:05:47.492540+00:00",
       "last_changed": "2026-08-16T22:05:47.492540+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-18T23:50:51.927306+00:00",
-      "next_check": "2026-08-20T23:50:51.927306+00:00",
+      "last_seen": "2026-08-21T14:58:42.030881+00:00",
+      "next_check": "2026-08-25T14:58:42.030881+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in.html": {
       "content_sha": "ec1e30acab083f7ade0240b95d2a89457d8c9c9d7756154dc89d8cecb9b190e6",
@@ -10950,10 +10950,10 @@
       "first_seen": "2026-08-16T22:05:51.270400+00:00",
       "last_changed": "2026-08-16T22:05:51.270400+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:11:47.726433+00:00",
-      "next_check": "2026-08-21T00:11:47.726433+00:00",
+      "last_seen": "2026-08-21T14:58:46.706112+00:00",
+      "next_check": "2026-08-25T14:58:46.706112+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-app/223105-ascertain-if-users-can-use-unmanaged.html": {
       "content_sha": "0a675e3819488f67d15a3e22829d1305e514a6a0a4dcd6a97e4778117dd90568",
@@ -16888,10 +16888,10 @@
       "first_seen": "2026-08-16T15:37:48.029482+00:00",
       "last_changed": "2026-08-16T15:37:48.029482+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:38:07.639721+00:00",
-      "next_check": "2026-08-21T00:38:07.639721+00:00",
+      "last_seen": "2026-08-21T14:58:50.705137+00:00",
+      "next_check": "2026-08-25T14:58:50.705137+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/messageservice/cmgt_b_spark-hybrid-message-deployment-guide/cmgt_b_spark-hybrid-message-deployment-guide_chapter_01.html": {
       "content_sha": "6428e3d5a993e7b83ce1a4881f930c288a4685af7ab7a89050a56d9fb50fd59a",
@@ -124235,5 +124235,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T14:55:55.438600+00:00"
+  "updated_at": "2026-08-21T14:58:50.777608+00:00"
 }
