@@ -45402,7 +45402,7 @@
       "content_sha": "d3876b3bf38f57fef0a796be2ff8bdced9282cf0ec4f80bfde0827de2f0b261f",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-0-1-deprecated-phones-cucm-b-deprecated-phone-models-for-1-96249d85bc",
       "etag": null,
-      "fail_count": 1,
+      "fail_count": 2,
       "first_seen": "2026-08-17T02:04:07.099776+00:00",
       "last_changed": "2026-08-17T02:04:07.099776+00:00",
       "last_modified": null,
@@ -95598,5 +95598,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T05:33:17.035607+00:00"
+  "updated_at": "2026-08-21T05:35:57.417350+00:00"
 }
