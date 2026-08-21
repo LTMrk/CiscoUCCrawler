@@ -6113,3 +6113,16 @@
 [2026-08-21T12:26:00.574612] HTTP 302 o DOM vacío. | https://devhub-download.cisco.com/binaries
 [2026-08-21T12:26:00.574690] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/284360381/type/284416107/release/12.6(2)
 [2026-08-21T12:26:03.961062] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262.html
+[2026-08-21T12:30:14.246334] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/maintenance/guide/pcce_b_1501_features-guide.html
+[2026-08-21T12:30:19.292311] HTTP 301 o DOM vacío. | https://developer.cisco.com/docs/packaged-contact-center/api-dev-guide
+[2026-08-21T12:30:22.572960] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/customer-collaboration/mediasense/tsd-products-support-series-home.html
+[2026-08-21T12:30:22.684822] Omitida: excluida por robots.txt | http://software.cisco.com/download/release.html
+[2026-08-21T12:30:26.576701] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/switches/catalyst-6500-series-switches/tsd-products-support-series-home.html
+[2026-08-21T12:30:26.576774] Omitida: excluida por robots.txt | http://software.cisco.com/download/navigator.html
+[2026-08-21T12:31:01.582528] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-express/tsd-products-support-series-home.html
+[2026-08-21T12:31:05.300709] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/tsd-products-support-series-home.html
+[2026-08-21T12:31:09.114266] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/unified-communications/unity-express/tsd-products-support-series-home.html
+[2026-08-21T12:31:13.210516] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/unified-communications/telepresence-video-communication-server-vcs/tsd-products-support-series-home.html
+[2026-08-21T12:31:17.731053] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/customer-collaboration/socialminer/tsd-products-support-series-home.html
+[2026-08-21T12:31:22.590432] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/tsd-products-support-series-home.html
+[2026-08-21T12:31:26.705336] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/unified-communications/jabber-mac/tsd-products-support-series-home.html
