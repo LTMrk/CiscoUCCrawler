@@ -11294,6 +11294,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-15/cer0_m_cisco-emergency-responder-administration-installation.html": {
+      "content_sha": "ac326d7ed3c8e9550eb9874a12d228a4a172ca59c889df057cd7cf665a5eedaf",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-0d1470f249",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T06:36:18.647314+00:00",
+      "last_changed": "2026-08-21T06:36:18.647314+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T06:36:18.647314+00:00",
+      "next_check": "2026-08-22T06:36:18.647314+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_appendix_01010.html": {
       "content_sha": "a82fb9fc254147d4ad3f6fea46fc6ac28e5154564ee8bdead4bac6e7f2adb10c",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-calendarservice-cmgt-b-deploy-spark--3f8e0d1778",
@@ -11467,7 +11480,7 @@
       "content_sha": "a7097ec8c63616a553fdef36550b9f2e4dcc179d7f3ca3c6c6134e48076fbd31",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-messageservice-cmgt-b-spark-hybrid-m-7aa7dba3e1",
       "etag": null,
-      "fail_count": 1,
+      "fail_count": 2,
       "first_seen": "2026-08-16T14:12:53.365785+00:00",
       "last_changed": "2026-08-16T14:12:53.365785+00:00",
       "last_modified": null,
@@ -97384,5 +97397,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T06:33:26.150759+00:00"
+  "updated_at": "2026-08-21T06:36:18.732601+00:00"
 }
