@@ -1,22 +1,13 @@
 {
-  "run_at": "2026-08-21T18:12:06.441463+00:00",
+  "run_at": "2026-08-21T18:15:07.927910+00:00",
   "modo": "incremental",
-  "added": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-vm-install-guide-exwy-b-vm-install-guide-app-12e596189c",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-vm-install-guide-exwy-b-vm-install-guide-app-4392dc352b",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-vm-install-guide-exwy-b-vm-install-guide-cha-040d1c2ad2",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-vm-install-guide-exwy-b-vm-install-guide-cha-0d62d2971d",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-vm-install-guide-exwy-b-vm-install-guide-cha-372509ae86",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-vm-install-guide-exwy-b-vm-install-guide-cha-5160ce52b0",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-vm-install-guide-exwy-b-vm-install-guide-cha-e2385eae0c",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-vm-install-guide-exwy-b-vm-install-guide-cha-ef0266861c",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-vm-install-guide-exwy-b-vm-install-guide-cha-ef1bbfd4bc",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-chat-ug-html-1f4da9a325",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-customization-ug-html-177ec79c06",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-meetings-ug-html-a87d810065"
-  ],
+  "added": [],
   "modified": [],
   "removed": [],
-  "blocked": [],
-  "unchanged_count": 2
+  "blocked": [
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvr25302-d0fd0282bd",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvt90771-a0055ce0b6",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvu20056-0e16298b82"
+  ],
+  "unchanged_count": 0
 }
