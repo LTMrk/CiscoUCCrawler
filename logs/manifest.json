@@ -21870,10 +21870,10 @@
       "first_seen": "2026-08-16T21:59:51.913049+00:00",
       "last_changed": "2026-08-16T21:59:51.913049+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:38:48.455931+00:00",
-      "next_check": "2026-08-21T00:38:48.455931+00:00",
+      "last_seen": "2026-08-21T20:25:53.796635+00:00",
+      "next_check": "2026-08-25T20:25:53.796635+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_chapter_0101.html": {
       "content_sha": "29ca0b01c8ea55f08a787d9176e19a653548001f63c48b07ffe23dbd7e93e659",
@@ -21896,10 +21896,23 @@
       "first_seen": "2026-08-16T19:34:14.908062+00:00",
       "last_changed": "2026-08-16T19:34:14.908062+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-19T00:38:53.068257+00:00",
-      "next_check": "2026-08-21T00:38:53.068257+00:00",
+      "last_seen": "2026-08-21T20:26:14.251257+00:00",
+      "next_check": "2026-08-25T20:26:14.251257+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_preface_011.html": {
+      "content_sha": "0bd42753b88f377c1a5e72064a6519f15e90fa2e5b4ffb1ef210bc922cf9c162",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-ucmcalling-unified-cm-wbx-teams-deployment-guide-uni-2b6d7e87e9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-21T20:26:03.629571+00:00",
+      "last_changed": "2026-08-21T20:26:03.629571+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-21T20:26:03.629571+00:00",
+      "next_check": "2026-08-22T20:26:03.629571+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/10x/release/notes/b_1052su10cucrn.html": {
       "content_sha": "70880a45c213b104a7f94c7e6e0384ecbad2c91aa85095b5ed34b602f0a4bec4",
@@ -148509,5 +148522,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-21T20:23:13.036546+00:00"
+  "updated_at": "2026-08-21T20:26:18.840294+00:00"
 }
