@@ -5110,6 +5110,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-navigator/221673-create-replacement-for-slow-touch-panels.html": {
+      "content_sha": "c7e668302a6f24916168bddaa8306a17753320e11ee05136f3821ab929ad1ba5",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-navigator-221673-create-replacement-for-slow-touch-panel-b1a734a759",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-22T00:48:09.849311+00:00",
+      "last_changed": "2026-08-22T00:48:09.849311+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-22T00:48:09.849311+00:00",
+      "next_check": "2026-08-23T00:48:09.849311+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du.html": {
       "content_sha": "ee8084cc100bd8ebbc54a16be3ea52933cf57e2c978caa8e14ca85720a173284",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-series-222708-troubleshoot-video-endpoint-shut-down-du-h-eb06fdf0c6",
@@ -159236,5 +159249,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-22T00:45:59.634023+00:00"
+  "updated_at": "2026-08-22T00:48:39.856544+00:00"
 }
