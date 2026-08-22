@@ -8109,3 +8109,97 @@
 [2026-08-22T00:07:38.300065] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvo85717
 [2026-08-22T00:07:42.434488] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvo61941
 [2026-08-22T00:07:46.442311] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp11036
+[2026-08-22T00:09:56.026666] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvo59157
+[2026-08-22T00:09:59.408685] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp03348
+[2026-08-22T00:09:59.598588] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/5fa3aec23410f6998aa305ed4b798a03
+[2026-08-22T00:10:04.028424] HTTP 302 o DOM vacío. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp91082
+[2026-08-22T00:10:07.789862] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce.html
+[2026-08-22T00:10:12.051023] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide.html
+[2026-08-22T00:10:16.077846] Markdown insuficiente tras sanitizar (191 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_ctios-supervisor-desktop-user-guide-125.html
+[2026-08-22T00:10:20.238359] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting_user_guide-1251.html
+[2026-08-22T00:10:24.920550] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting-concepts-for-cisco-unified12_5.html
+[2026-08-22T00:10:28.779252] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_scripting-and-media-routing-guide_12_5.html
+[2026-08-22T00:10:41.337867] Omitida: excluida por robots.txt | https://community.cisco.com/t5/security-knowledge-base/ise-byod-flow-using-entra-id/ta-p/4400675
+[2026-08-22T00:10:41.337960] Omitida: excluida por robots.txt | https://community.cisco.com/t5/security-knowledge-base/secure-firewall-success-capsules-video-series/ta-p/5268785
+[2026-08-22T00:10:41.338014] Omitida: excluida por robots.txt | https://community.cisco.com/t5/security-knowledge-base/cisco-ise-success-capsules-video-series/ta-p/5270514
+[2026-08-22T00:10:41.338064] Omitida: excluida por robots.txt | https://community.cisco.com/t5/secure-access-announcements/announcement-ga-release-of-cisco-sase-with-meraki/ta-p/5550365
+[2026-08-22T00:10:41.338111] Omitida: excluida por robots.txt | https://community.cisco.com/t5/networking-knowledge-base/understanding-virtual-routing-and-forwarding-vrf/ta-p/5053788
+[2026-08-22T00:10:41.338190] Omitida: excluida por robots.txt | https://community.cisco.com/t5/umbrella-announcements/cisco-umbrella-transitioning-from-digicert-to-identrust/ta-p/5281257
+[2026-08-22T00:11:48.738041] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262.html
+[2026-08-22T00:11:52.901111] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262.html
+[2026-08-22T00:11:57.141276] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62.html
+[2026-08-22T00:12:01.381610] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/user/guide/ucce_b_cisco-unified-contact-center-enterprise-reporting-user-guide-release1262.html
+[2026-08-22T00:12:50.047135] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5.html
+[2026-08-22T00:12:54.356473] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1.html
+[2026-08-22T00:12:58.488939] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1.html
+[2026-08-22T00:13:03.197761] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6.html
+[2026-08-22T00:13:06.960758] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/ucce_b_cisco-unified-contact-center-enterprise-1261.html
+[2026-08-22T00:13:10.997274] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/ucce_b_scripting-and-media-routing-guide_12_6.html
+[2026-08-22T00:13:16.040601] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/tsd-products-support-series-home.html
+[2026-08-22T00:13:16.148031] Omitida: excluida por robots.txt | https://techzone.cisco.com/t5/Unified-Contact-Center/ct-p/ucc_ucce
+[2026-08-22T00:13:50.293738] Markdown insuficiente tras sanitizar (99 chars). | https://cway.cisco.com/mynotifications
+[2026-08-22T00:14:18.915417] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/tsd-products-support-series-home.html
+[2026-08-22T00:14:27.543301] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/tsd-products-support-series-home.html
+[2026-08-22T00:14:36.514550] HTTP 301 o DOM vacío. | https://developer.cisco.com/site/extension-mobility
+[2026-08-22T00:14:44.205890] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/release/guide/rcct_b_cce-solutions-rns-12-6-2/rcct_m_ece_12_6_2.html
+[2026-08-22T00:14:47.784054] HTTP 599 o DOM vacío. | https://connectthedots.cisco.com/connectdots/serviceWarrantyFinderRequest
+[2026-08-22T00:14:51.583103] HTTP 302 o DOM vacío. | https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/products-technical-reference-list.html
+[2026-08-22T00:14:51.583228] Omitida: excluida por robots.txt | https://software.cisco.com/web/fw/softwareworkspace/smartlicensing/ssmcompiledhelps/c_conversion_settings.html
+[2026-08-22T00:14:51.583297] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/270563413/type/280840592/release/12.6(1)
+[2026-08-22T00:14:59.626598] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusp/rel9_0/cli_configuration/cusp_cli_config/configuration.html
+[2026-08-22T00:15:04.601784] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/ES_MR/ES/ccvp_b_ccvp-eng-es-spl.html
+[2026-08-22T00:15:04.601868] Omitida: excluida por robots.txt | https://software.cisco.com/download/type.html
+[2026-08-22T00:15:21.194506] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/customer-collaboration/unified-email-interaction-manager/products-installation-guides-list.html
+[2026-08-22T00:15:28.983777] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release.html
+[2026-08-22T00:15:33.026739] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0.html
+[2026-08-22T00:15:37.134122] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0.html
+[2026-08-22T00:15:44.325663] HTTP 301 o DOM vacío. | https://developer.cisco.com/docs
+[2026-08-22T00:15:51.588821] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/270563413/type
+[2026-08-22T00:15:56.243401] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html
+[2026-08-22T00:16:00.243129] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/CUCIS_API/CUCIS_API_Guide.html
+[2026-08-22T00:16:01.344540] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-management-portal/200895-CCMP-Reskill-attempt-generates-error-Gl.epub
+[2026-08-22T00:16:05.494295] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-management-portal/200895-CCMP-Reskill-attempt-generates-error-Gl.mobi
+[2026-08-22T00:16:05.802474] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCup34703
+[2026-08-22T00:16:25.744348] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/tsd-products-support-series-home.html
+[2026-08-22T00:16:29.133517] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/virtualization/pcce_virt_index.html
+[2026-08-22T00:16:33.599349] Markdown insuficiente tras sanitizar (197 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/virtual/chcs_b_cisco-collaboration-on-virtual-servers.html
+[2026-08-22T00:16:37.678889] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/268439622/type/280840583/release/15.0(1)ES202511
+[2026-08-22T00:16:37.678962] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/268439622/type/286325642/release/15.0(1)SU2
+[2026-08-22T00:16:37.679014] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/268439622/type/286325642/release/12.6(2)ES4
+[2026-08-22T00:16:37.679065] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/283613135/type/284236523/release/15.0(1)SU2
+[2026-08-22T00:16:37.679114] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/283613135/type/284259728/release/12.6(2)ES7
+[2026-08-22T00:16:37.679188] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286338554/type/286289787/release/15.0%25281%2529SU2
+[2026-08-22T00:16:37.679248] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286331734/type/286289787/release/12.6(2)_ES08
+[2026-08-22T00:16:37.679297] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/282163829/type/283776220/release/15.0%25281%2529SU2
+[2026-08-22T00:16:37.679344] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/282163829/type/282377062/release/12.6(2)ES8
+[2026-08-22T00:16:37.679390] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/268439689/type/280840583/release/15.0(1)ES202607
+[2026-08-22T00:16:37.679434] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/3ee2a76a81a36b4fb473cb0a334ebf93
+[2026-08-22T00:16:37.679481] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/9145092cc0f9f05aae64cfaf35f66e16
+[2026-08-22T00:16:37.679527] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/34ec145730cf0acb036d0318794b18b1
+[2026-08-22T00:16:37.679573] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/4633bbd0fdccd1141ab72c80d9bf4f3e
+[2026-08-22T00:16:37.679619] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/268439622/type/286310764/release/12.6(1)_ES13
+[2026-08-22T00:16:37.679668] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/280810493/type/281558204/release/12.6(1)_ES15
+[2026-08-22T00:16:42.150295] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/270563413/type/280840592/release/15.0%25281%2529ES202607
+[2026-08-22T00:16:42.150356] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286311237/type/286310764/release/15.0(1)ES202607
+[2026-08-22T00:16:42.150408] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/280810493/type/284452241/release/15.0(1)ES202607
+[2026-08-22T00:16:42.150456] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/268439622/type/283914286/release/15.0(1)ES202607
+[2026-08-22T00:16:46.093683] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/release/guide/rcct_b_cce-solutions-rns-12-6-2.html
+[2026-08-22T00:16:46.093803] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/282163829/type/282377062/release/12.6(2)
+[2026-08-22T00:16:49.799371] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/268439622/type/280840583/release/15.0(1)ES202508
+[2026-08-22T00:16:49.799431] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/284360381/type/284416107/release/15.0(1)
+[2026-08-22T00:16:54.149112] HTTP 301 o DOM vacío. | https://www.cisco.com/c/en/us/support/customer-collaboration/socialminer/products-installation-guides-list.html
+[2026-08-22T00:17:02.401847] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/268439622/type/286325642/release/12.6(2)ES1
+[2026-08-22T00:17:06.951000] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/268439622/type/286310764/release/12.6(1)_ES3
+[2026-08-22T00:17:06.951062] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/268439622/type/286310764/release/12.6(1)_ES10
+[2026-08-22T00:17:06.951115] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/283613135/type/284259728/release/12.6(2)ES5
+[2026-08-22T00:17:11.051903] HTTP 301 o DOM vacío. | https://developer.cisco.com/site/customer-voice-portal/downloads/courtesy-callback-scripts
+[2026-08-22T00:17:15.158884] HTTP 301 o DOM vacío. | https://developer.cisco.com/docs/packaged-contact-center
+[2026-08-22T00:17:15.158960] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/c359e375005563ceec2081c9151b482e
+[2026-08-22T00:17:18.382042] HTTP 415 o DOM vacío. | https://insight-orchestrator.wxcc-us1.cisco.com
+[2026-08-22T00:17:26.298740] HTTP 302 o DOM vacío. | http://cisco.com
+[2026-08-22T00:17:29.409069] HTTP 301 o DOM vacío. | https://developer.cisco.com/site/customer-voice-portal
+[2026-08-22T00:17:33.818827] HTTP 301 o DOM vacío. | https://developer.cisco.com/site/devnet/home/index.gsp
+[2026-08-22T00:17:36.995390] Omitida: excluida por robots.txt | https://software.cisco.com
+[2026-08-22T00:17:41.554125] HTTP 302 o DOM vacío. | https://apps.cisco.com/Commerce
+[2026-08-22T00:17:44.902678] HTTP 302 o DOM vacío. | https://apps.cisco.com
+[2026-08-22T00:17:45.063190] HTTP 599 o DOM vacío. | https://slexui.cloudapps.cisco.com/SWIFT/LicensingUI/Quickstart
