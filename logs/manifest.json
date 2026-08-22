@@ -138728,6 +138728,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1022/DX00_BK_R515C747_00_release-notes-dx-series-1022.html": {
+      "content_sha": "ea8a667c2c19b13f5b3225560f2689bd0a046584c558be4d92b4603a77e2a307",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-rel-notes-1022-dx00-bk-r515c747-00-release-notes-dx-series-1022-ht-555b66746b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-22T00:57:31.447949+00:00",
+      "last_changed": "2026-08-22T00:57:31.447949+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-22T00:57:31.447949+00:00",
+      "next_check": "2026-08-23T00:57:31.447949+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1023/DX00_BK_RB889E3E_00_release-notes-dx-series-1023.html": {
       "content_sha": "ca3191dca27ed097c7036ccb56015a0844eae69c30abcccc94b2a2c80b52cbad",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-rel-notes-1023-dx00-bk-rb889e3e-00-release-notes-dx-series-1023-ht-54d7924ad2",
@@ -138738,6 +138751,123 @@
       "last_modified": null,
       "last_seen": "2026-08-20T20:37:19.875640+00:00",
       "next_check": "2026-08-21T20:37:19.875640+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1023sr1/DX00_BK_R1761000_00_release-notes-dx-series-1023sr.html": {
+      "content_sha": "ef978f08a65e638fec1d63d346df774417061d00bf002dfe4656dd20c77cace8",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-rel-notes-1023sr1-dx00-bk-r1761000-00-release-notes-dx-series-1023-e8ff67df13",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-22T00:57:26.936603+00:00",
+      "last_changed": "2026-08-22T00:57:26.936603+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-22T00:57:26.936603+00:00",
+      "next_check": "2026-08-23T00:57:26.936603+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1024/DX00_BK_RF53F53D_00_release-notes-dx-series-1024.html": {
+      "content_sha": "7b56b3ca1556d315ef3d14ede4802816cb4209989e54655cfbfa18d32e94d750",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-rel-notes-1024-dx00-bk-rf53f53d-00-release-notes-dx-series-1024-ht-2576c2771a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-22T00:57:18.481030+00:00",
+      "last_changed": "2026-08-22T00:57:18.481030+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-22T00:57:18.481030+00:00",
+      "next_check": "2026-08-23T00:57:18.481030+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1024sr/DX00_BK_R548EF3A_00_release-notes-dx-series-1024sr.html": {
+      "content_sha": "808b3b66fa68ca5f39edd76b5aa33c34f32fa4d17ec722f21e76e12b991a5c92",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-rel-notes-1024sr-dx00-bk-r548ef3a-00-release-notes-dx-series-1024s-2dc00006e0",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-22T00:57:22.787250+00:00",
+      "last_changed": "2026-08-22T00:57:22.787250+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-22T00:57:22.787250+00:00",
+      "next_check": "2026-08-23T00:57:22.787250+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025/dx00_b_release-notes-dx-series-1025.html": {
+      "content_sha": "8a9120e55e8f274c57d199be08b087df1055a396decf91265606662737ebd323",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-rel-notes-1025-dx00-b-release-notes-dx-series-1025-html-be0cd93d32",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-22T00:56:53.361960+00:00",
+      "last_changed": "2026-08-22T00:56:53.361960+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-22T00:56:53.361960+00:00",
+      "next_check": "2026-08-23T00:56:53.361960+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025es/dx00_b_release-notes-dx-series-1025es.html": {
+      "content_sha": "75d0b06e4bf62bc8dde46191818972a7014f3e98adedce9aaa378e4c30b83800",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-rel-notes-1025es-dx00-b-release-notes-dx-series-1025es-html-3d2264d4f7",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-22T00:56:57.430812+00:00",
+      "last_changed": "2026-08-22T00:56:57.430812+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-22T00:56:57.430812+00:00",
+      "next_check": "2026-08-23T00:56:57.430812+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr/dx00_b_release-notes-dx-series-1025sr.html": {
+      "content_sha": "da14cafb4548eb2569ae10ddaab8bb8f0361e306f38b5023e7115ea422c0a0b7",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-rel-notes-1025sr-dx00-b-release-notes-dx-series-1025sr-html-a665fa2227",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-22T00:57:01.658295+00:00",
+      "last_changed": "2026-08-22T00:57:01.658295+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-22T00:57:01.658295+00:00",
+      "next_check": "2026-08-23T00:57:01.658295+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr2/dx00_b_release-notes-dx-series-1025sr2.html": {
+      "content_sha": "7a598d89334244297581119af17e568b1e0ba3cf2bd26be2676ffb10c7df9d4d",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-rel-notes-1025sr2-dx00-b-release-notes-dx-series-1025sr2-html-7089b43596",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-22T00:57:14.238845+00:00",
+      "last_changed": "2026-08-22T00:57:14.238845+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-22T00:57:14.238845+00:00",
+      "next_check": "2026-08-23T00:57:14.238845+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr3/dx00_b_release-notes-dx-series-1025sr3.html": {
+      "content_sha": "e4c0c4966162758b600b04abb667ce0d0d09297c5cc543ba822c32a179e073cc",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-rel-notes-1025sr3-dx00-b-release-notes-dx-series-1025sr3-html-837e1a8121",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-22T00:57:10.113791+00:00",
+      "last_changed": "2026-08-22T00:57:10.113791+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-22T00:57:10.113791+00:00",
+      "next_check": "2026-08-23T00:57:10.113791+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr4/dx00_b_release-notes-dx-series-1025sr4.html": {
+      "content_sha": "4cfdad7c02837a4608442feb51609a994ade78766bbb22e48472b76a313a603d",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-rel-notes-1025sr4-dx00-b-release-notes-dx-series-1025sr4-html-5d3f6ae84c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-22T00:57:05.593643+00:00",
+      "last_changed": "2026-08-22T00:57:05.593643+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-22T00:57:05.593643+00:00",
+      "next_check": "2026-08-23T00:57:05.593643+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -159288,5 +159418,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-22T00:54:19.195479+00:00"
+  "updated_at": "2026-08-22T00:58:34.973398+00:00"
 }
