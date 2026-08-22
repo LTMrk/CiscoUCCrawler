@@ -16495,6 +16495,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/admin-guide/at9x_b_ata191-192-admin-mp/at9x_b_ata191-192-admin-mp_chapter_00.html": {
+      "content_sha": "0ec268396c5c289d0e59a72c71a479fbcb7c169e69cab1b0acbf30f2ff2f5e64",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-admin-guide-at9x-b-ata191-192-admin-mp-at9x-b-ata191-1-5b18170e1a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-22T01:01:28.671649+00:00",
+      "last_changed": "2026-08-22T01:01:28.671649+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-22T01:01:28.671649+00:00",
+      "next_check": "2026-08-23T01:01:28.671649+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/admin-guide/at9x_b_ata191-192-admin-mp/at9x_b_ata191-192-admin-mp_chapter_01.html": {
+      "content_sha": "accae4ed789450f0ba17aadb6f89cba65d7aabe25b1a1a2f295c506d1e03943d",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-admin-guide-at9x-b-ata191-192-admin-mp-at9x-b-ata191-1-30a60f66e8",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-22T01:01:36.305589+00:00",
+      "last_changed": "2026-08-22T01:01:36.305589+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-22T01:01:36.305589+00:00",
+      "next_check": "2026-08-23T01:01:36.305589+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/admin-guide/at9x_b_ata191-192-admin-mp/at9x_b_ata191-192-admin-mp_chapter_010.html": {
       "content_sha": "9d258f0393d951cc64dc71426e27a2ebff980ea0162911c05f02c71600096715",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-admin-guide-at9x-b-ata191-192-admin-mp-at9x-b-ata191-1-948fae8fc6",
@@ -16518,6 +16544,19 @@
       "last_modified": null,
       "last_seen": "2026-08-21T12:49:27.355841+00:00",
       "next_check": "2026-08-22T12:49:27.355841+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/admin-guide/at9x_b_ata191-192-admin-mp/at9x_m_ag-new-and-changed-information.html": {
+      "content_sha": "679ffe243afb3ee340c1b160d4a979d76a6a8753c5693338dfe1c220a32536e4",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-admin-guide-at9x-b-ata191-192-admin-mp-at9x-m-ag-new-a-74c2816c00",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-22T01:01:32.293210+00:00",
+      "last_changed": "2026-08-22T01:01:32.293210+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-22T01:01:32.293210+00:00",
+      "next_check": "2026-08-23T01:01:32.293210+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -159418,5 +159457,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-22T00:58:34.973398+00:00"
+  "updated_at": "2026-08-22T01:01:36.373096+00:00"
 }
