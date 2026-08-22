@@ -4915,6 +4915,19 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://video.cisco.com/detail/video/6342088039112": {
+      "content_sha": "956e7ab1a2cd7985e062d90aab2f4dcde3152b7c25c42486fe24ad850785907c",
+      "doc_id": "video-cisco-com-detail-video-6342088039112-d3f0401ead",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-22T00:50:52.969945+00:00",
+      "last_changed": "2026-08-22T00:50:52.969945+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-22T00:50:52.969945+00:00",
+      "next_check": "2026-08-23T00:50:52.969945+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/dx80/212294-how-to-upload-background-image-on-dx80-a.html": {
       "content_sha": "2ed6f6e48c17113a1eb4aee2f293de2c540b6780865af6504a2380ca7c593991",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-dx80-212294-how-to-upload-background-image-on-dx80-a-html-3a4a8d556f",
@@ -159249,5 +159262,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-22T00:48:39.856544+00:00"
+  "updated_at": "2026-08-22T00:51:24.834420+00:00"
 }
