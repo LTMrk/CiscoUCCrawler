@@ -39,7 +39,12 @@ from urllib.parse import urljoin, urlparse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from crawl4ai import AsyncWebCrawler, BrowserConfig, CacheMode, CrawlerRunConfig
+# crawl4ai NO se importa aqui a proposito: arrastra Playwright y, con el, la
+# descarga de un navegador. Solo deep_crawl() lo necesita, asi que el import
+# vive dentro de esa funcion. El resto del modulo (politicas de URL,
+# decisiones de redireccion, parseo de sitemap) queda importable sin instalar
+# nada de eso, que es lo que permite probarlo en CI en segundos.
+# tests/test_crawler.py verifica que esta propiedad se mantiene.
 
 from fetch_policy import (
     HOSTS_BARRA_FINAL, USER_AGENT, PoliticaAcceso, canonicalizar_url,
@@ -258,7 +263,7 @@ def git_commit_and_push(mensaje):
         log_error("GIT_PUSH", str(e))
 
 
-def _destino_redireccion(url, resultado):
+def destino_redireccion(url, resultado):
     """URL de destino de un 3xx, normalizada, o None si no se puede deducir.
 
     crawl4ai expone `redirected_url` cuando el navegador ya siguió el salto;
@@ -276,13 +281,62 @@ def _destino_redireccion(url, resultado):
     return normalize_url(urljoin(url, destino.strip()))
 
 
+def decidir_redireccion(url, destino, saltos_previos=0,
+                        max_saltos=None, es_aceptable=None):
+    """Decide que hacer ante un 3xx. Funcion pura: no toca cola, manifiesto
+    ni log, para poder probar cada rama sin levantar un navegador.
+
+    Devuelve (accion, saltos), donde accion es una de:
+      'seguir'            -> encolar `destino` con ese numero de saltos
+      'sin_destino'       -> el 3xx no dice adonde ir
+      'bucle'             -> el destino es la propia URL ya normalizada
+      'demasiados_saltos' -> cadena mas larga que max_saltos
+      'no_aceptable'      -> el destino cae fuera de la politica de rastreo
+    """
+    if max_saltos is None:
+        max_saltos = MAX_SALTOS_REDIRECCION
+    if es_aceptable is None:
+        es_aceptable = url_aceptable
+
+    if not destino:
+        return "sin_destino", saltos_previos
+
+    # La normalizacion ya devuelve la forma canonica: si el origen redirige a
+    # donde ya estabamos, encolarlo otra vez seria un bucle infinito.
+    if destino == url:
+        return "bucle", saltos_previos
+
+    saltos = saltos_previos + 1
+    if saltos > max_saltos:
+        return "demasiados_saltos", saltos
+
+    if not es_aceptable(destino):
+        return "no_aceptable", saltos
+
+    return "seguir", saltos
+
+
+def parsear_sitemap(contenido):
+    """Interpreta el XML de un sitemap. Devuelve (es_indice, locs).
+
+    Separado de la descarga para poder probar el caso <sitemapindex> sin red:
+    un indice no contiene URLs de paginas sino de otros sitemaps, y no
+    distinguirlo hacia que el descubrimiento devolviera cero.
+    """
+    import xml.etree.ElementTree as ET
+
+    raiz = ET.fromstring(contenido)
+    ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    locs = [(l.text or "").strip() for l in raiz.findall(".//s:loc", ns)]
+    return raiz.tag.endswith("sitemapindex"), [l for l in locs if l]
+
+
 async def descubrir_por_sitemap(politica, semillas):
     """Descubrimiento vía sitemap declarado en robots.txt. Es la vía que el
     operador expone deliberadamente: una petición devuelve cientos de URLs en
     lugar de rastrear el sitio enlace a enlace."""
     import urllib.error
     import urllib.request
-    import xml.etree.ElementTree as ET
 
     encontradas = set()
     sitemaps = list(CONFIG.get("sitemaps", []))
@@ -306,26 +360,17 @@ async def descubrir_por_sitemap(politica, semillas):
         try:
             req = urllib.request.Request(sm, headers=politica.cabeceras())
             with urllib.request.urlopen(req, timeout=60) as resp:
-                raiz = ET.fromstring(resp.read())
-            ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-
-            # El nombre de la etiqueta raíz distingue un índice de un sitemap
-            # normal; en ambos casos los hijos se llaman <loc>.
-            es_indice = raiz.tag.endswith("sitemapindex")
+                es_indice, locs = parsear_sitemap(resp.read())
 
             if es_indice:
-                hijos = 0
-                for loc in raiz.findall(".//s:loc", ns):
-                    hijo = (loc.text or "").strip()
-                    if hijo and nivel + 1 <= MAX_NIVELES_SITEMAP:
-                        pendientes.append((hijo, nivel + 1))
-                        hijos += 1
-                log_info(f"Sitemap index con {hijos} sitemaps hijos: {sm}")
+                hijos = [l for l in locs if nivel + 1 <= MAX_NIVELES_SITEMAP]
+                pendientes.extend((l, nivel + 1) for l in hijos)
+                log_info(f"Sitemap index con {len(hijos)} sitemaps hijos: {sm}")
                 continue
 
             nuevas = 0
-            for loc in raiz.findall(".//s:loc", ns):
-                u = normalize_url((loc.text or "").strip())
+            for loc in locs:
+                u = normalize_url(loc)
                 if url_aceptable(u):
                     encontradas.add(u)
                     nuevas += 1
@@ -349,6 +394,11 @@ async def descubrir_por_sitemap(politica, semillas):
 # ---------------------------------------------------------------------------
 
 async def deep_crawl():
+    # Import diferido: ver la nota de la cabecera del modulo.
+    from crawl4ai import (
+        AsyncWebCrawler, BrowserConfig, CacheMode, CrawlerRunConfig,
+    )
+
     os.makedirs("docs", exist_ok=True)
     os.makedirs("logs", exist_ok=True)
 
@@ -527,27 +577,23 @@ async def deep_crawl():
                     continue
 
                 if accion == "redirigido":
-                    destino = _destino_redireccion(url, resultado)
+                    destino = destino_redireccion(url, resultado)
                     manifiesto.registrar_redireccion(url, destino, codigo)
 
-                    if not destino:
+                    que_hacer, saltos = decidir_redireccion(
+                        url, destino, saltos_redireccion.get(url, 0))
+
+                    if que_hacer == "sin_destino":
                         log_error(url, f"HTTP {codigo} sin destino de redirección.")
                         continue
-
-                    if destino == url:
-                        # La normalización ya devuelve la forma canónica: el
-                        # origen redirige a donde ya estábamos. Encolarlo otra
-                        # vez sería un bucle infinito.
+                    if que_hacer == "bucle":
                         log_info(f"HTTP {codigo} a sí misma, se descarta: {url}")
                         continue
-
-                    saltos = saltos_redireccion.get(url, 0) + 1
-                    if saltos > MAX_SALTOS_REDIRECCION:
+                    if que_hacer == "demasiados_saltos":
                         log_error(url, f"Cadena de redirección demasiado larga "
                                        f"({saltos} saltos), se abandona.")
                         continue
-
-                    if not url_aceptable(destino):
+                    if que_hacer == "no_aceptable":
                         log_info(f"HTTP {codigo} hacia URL no aceptable, se "
                                  f"descarta: {url} -> {destino}")
                         continue
