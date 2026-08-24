@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-adminguide-w800-b-wireless-800-administration-guide-w800-m-0c47317de1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/adminguide/w800_b_wireless-800-administration-guide/w800_m_configuration-on-the-phone.html
-retrieved_at: 2026-08-21T09:58:39.324884+00:00
+retrieved_at: 2026-08-24T12:43:09.972286+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 Administration Guide for Cisco Unified Communications Manager
@@ -794,6 +794,10 @@ Choose one of the following options in the Call server mode.
 Step 6
 
 Tap the back arrow in the upper left corner twice to save your changes and exit the menu.
+
+### Customers Also Viewed
+
+- Cisco Wireless Phone 840 and 860 User Guide --- Your phone
 
 | Note | You may need to add the Google Keyboard (Gboard) app, based on your EMM application . There are also several Cisco apps that are on the Google Play Store you may want to add. |
 |---|---|
