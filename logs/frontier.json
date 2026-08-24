@@ -1,485 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/212061-How-To-Make-A-Cisco-IP-Phone-Console-Cab.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-pro/217223-collaboration-endpoint-file-is-too-larg.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-70-panorama/217262-how-to-convert-a-webex-room-70d-g2-to-a.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/215671-console-access-for-webex-room-series-dev.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-management/217203-how-to-configure-blast-dial-for-cms-spac.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-management/218237-configure-dial-blast-on-cisco-meeting-ma.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/216271-how-to-configure-ldap-import-on-cms-vers.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217062-guidance-for-smooth-upgrade-from-cisco-m.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217201-how-to-customize-content-security-policy.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217204-how-to-configure-in-meeting-chat-for-cms.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217205-how-to-configure-meeting-title-displayed.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217367-configuring-cisco-meeting-server-schedul.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217658-configure-csr-for-cms-with-openssl-for-e.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/218117-configure-and-troubleshoot-meetingapps-f.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/225405-configure-recorder-on-cms-server.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-2000/222767-configure-port-mirroring-or-port-span-on.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/202722-Configure-Recorder-in-CMS-Acano-Call-Bri.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/210441-H-323-SIP-on-CMS-Acano-Call-Bridge.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/210530-configure-cisco-meeting-server-call-brid.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/210800-configure-cms-webrtc-proxy-over-expressw.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/211261-Configure-and-Troubleshoot-CMS-live-stre.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212217-configure-cisco-meeting-server-and-skype.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212298-cisco-meeting-server-acano-tms-integ.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212326-step-by-step-guide-for-multiparty-licens.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212580-overview-on-cms-presentation-sharing-wit.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213413-configure-and-troubleshoot-dual-screen-f.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213481-configure-verify-and-troubleshoot-multi.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213552-configure-and-troubleshoot-guest-and-hos.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213812-cisco-meeting-server-basic-api-functions.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213816-troubleshoot-cisco-meeting-server-cms.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213820-configure-cisco-meeting-server-and-cucm.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214392-cms-screencast-video-list.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214618-generate-csr-and-apply-certificates-to-c.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214620-upgrade-downgrade-cms-server.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214623-analysis-of-callbridge-and-xmpp-connecti.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214691-configure-nfs-share-to-use-as-storage-fo.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214744-call-routing-logic-on-cisco-meeting-serv.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214745-ip-routing-rules-on-acano-and-cisco-meet.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215421-disband-cisco-meeting-server-cms-datab.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215638-add-participants-to-existing-conference.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215662-explanation-and-work-around-on-cscvt7372.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215666-expected-behaviour-when-using-the-maxpee.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215910-configuring-ldap-users-on-cisco-meeting.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/216549-how-to-renew-expired-database-cluster-ce.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217246-how-to-enable-cms-detailed-tracing-via-a.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217249-how-to-move-web-app-users-from-spaces-me.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217319-replace-x-series-servers-with-cisco-meet.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217320-configure-cisco-meeting-server-cms-ver.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217365-configure-cisco-meeting-server-ldap-inte.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217375-disable-maximum-transmission-unit-check.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/218141-troubleshoot-cisco-smart-licensing-cloud.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221044-configure-and-troubleshoot-survey-featur.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221573-configure-and-troubleshoot-the-webapp-ss.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221687-configure-dtmf-sequences-in-cisco-meetin.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221698-enable-secure-communication-between-cms.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221729-configure-example-of-cms-edge.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221776-configure-av1-feature-on-cms.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/222766-troubleshoot-common-issues-regarding-cms.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-server/200162-Troubleshoot-Telepresence-Endpoint-Added.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200263-Configure-TMS-to-change-Provisioning-of.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200915-Install-a-Telepresence-Management-Suite.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211266-How-to-Create-a-File-Based-Phonebook-in.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211279-How-to-Troubleshoot-No-HTTPS-response.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212319-tms-sql-database-migration-from-one-sql.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212378-tms-webex-sso-certificate-renewal-cisc.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212421-windows-ciphers-cause-tls-issue-between.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/213287-create-a-local-server-site-administrator.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/214388-tms-xe-pe-screencast-video-list.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215223-tms-phone-books-troubleshoot-guide.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215426-configure-conference-end-notifications-f.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217245-how-to-configure-office-365-hybrid-calen.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-mcu-4203/112803-pqa-112803-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/215012-configure-the-remember-me-api-for-persis.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222698-troubleshoot-saml-response-error-in-dire.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222997-add-required-attribute-uid-in-adfs.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222998-troubleshoot-saml-assertion-expired-sso.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223200-troubleshoot-hybrid-management.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225553-how-to-resolve-impaired-service-error.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200418-Configure-an-Auto-Answer-with-Finesse.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200641-SANs-issue-with-a-Third-Party-Signed-Cer.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200937-Finesse-Agent-Supervisor-Queue-SkillGrou.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/211321-Finesse-Silent-Monitoring-Getting-Una.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/212634-troubleshoot-cisco-finesse-desktop-persi.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/212684-troubleshoot-finesse-mobile-agent.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/116215-configure-dblookup-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/117777-config-ucce-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200876-Unified-Contact-Center-Enterprise-UCCE.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200651-UCCX-Version-11-5-Prerelease-Field-Commu.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/210528-Understand-ECDSA-certificates-in-an-UCCX.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211530-Unsupported-configurations-for-UCCX-and.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211579-Install-and-Configure-the-OpenAM-Identit.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211580-Install-and-Configure-the-PingFederate-I.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-management-portal/200895-CCMP-Reskill-attempt-generates-error-Gl.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-901/200266-Configure-Fetch-Audio-Feature-to-Reduce.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/211537-Troubleshoot-CVP-Courtesy-Callback-CCB.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/virtualized-voice-browser/200746-Installation-Steps-for-Cisco-Unified-Vir.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ata-190-series-analog-telephone-adapters/211318-Configure-and-Troubleshoot-PLAR-for-Anal.html",
-    "depth": 0
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/bulk-administration-tool/118882-config-vg-00.html",
     "depth": 0
   },
@@ -44693,6 +44213,1102 @@
   },
   {
     "url": "https://supportforums.cisco.com/document/126666/collecting-cucm-traces-cucm-862-tac-sr",
+    "depth": 1
+  },
+  {
+    "url": "https://supportforums.cisco.com/t5/collaboration-voice-and-video/how-to-login-to-a-cisco-ip-phone-to-set-debug-level/ta-p/3111075",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-board/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-desk-limited-edition/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-pro/217223-collaboration-endpoint-file-is-too-larg.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-pro/217223-collaboration-endpoint-file-is-too-larg.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/video/5828526514001",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/video/5828524113001",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/video/5828525578001",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-desk-pro/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-70-panorama/217262-how-to-convert-a-webex-room-70d-g2-to-a.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-70-panorama/217262-how-to-convert-a-webex-room-70d-g2-to-a.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://software.cisco.com/download/home/268439621",
+    "depth": 1
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286325718/type/280886992/release/RoomOS%2010.3.2.0",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-70-g2/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-70-panorama/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/215671-console-access-for-webex-room-series-dev.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/215671-console-access-for-webex-room-series-dev.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/conferencing-cameras/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-55/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-55-dual/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-70/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-share/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-management/217203-how-to-configure-blast-dial-for-cms-spac.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-management/217203-how-to-configure-blast-dial-for-cms-spac.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-management/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-management/218237-configure-dial-blast-on-cisco-meeting-ma.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-management/218237-configure-dial-blast-on-cisco-meeting-ma.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/216271-how-to-configure-ldap-import-on-cms-vers.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/216271-how-to-configure-ldap-import-on-cms-vers.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217062-guidance-for-smooth-upgrade-from-cisco-m.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217062-guidance-for-smooth-upgrade-from-cisco-m.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-installation-and-configuration-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-release-notes-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217201-how-to-customize-content-security-policy.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217201-how-to-customize-content-security-policy.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217204-how-to-configure-in-meeting-chat-for-cms.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217204-how-to-configure-in-meeting-chat-for-cms.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217205-how-to-configure-meeting-title-displayed.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217205-how-to-configure-meeting-title-displayed.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217367-configuring-cisco-meeting-server-schedul.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217367-configuring-cisco-meeting-server-schedul.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217658-configure-csr-for-cms-with-openssl-for-e.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217658-configure-csr-for-cms-with-openssl-for-e.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/218117-configure-and-troubleshoot-meetingapps-f.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/218117-configure-and-troubleshoot-meetingapps-f.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/225405-configure-recorder-on-cms-server.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/225405-configure-recorder-on-cms-server.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/video-recording-with-cms-recorder/ta-p/3652909",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/202722-Configure-Recorder-in-CMS-Acano-Call-Bri.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/202722-Configure-Recorder-in-CMS-Acano-Call-Bri.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/210441-H-323-SIP-on-CMS-Acano-Call-Bridge.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/210441-H-323-SIP-on-CMS-Acano-Call-Bridge.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://techzone.cisco.com/t5/image/serverpage/image-id/128278iC4616FAD528C6E00/image-size/large",
+    "depth": 1
+  },
+  {
+    "url": "https://techzone.cisco.com/t5/image/serverpage/image-id/128279i426735765C1BF859/image-size/large",
+    "depth": 1
+  },
+  {
+    "url": "https://techzone.cisco.com/t5/image/serverpage/image-id/128499iC0D170EF6BD49896/image-size/large",
+    "depth": 1
+  },
+  {
+    "url": "https://techzone.cisco.com/t5/image/serverpage/image-id/128280i70416CBEBCED156D/image-size/large",
+    "depth": 1
+  },
+  {
+    "url": "https://techzone.cisco.com/t5/image/serverpage/image-id/128497iEE82AF35D9EE9595/image-size/large",
+    "depth": 1
+  },
+  {
+    "url": "https://techzone.cisco.com/t5/image/serverpage/image-id/128498i88BA934645995101/image-size/medium",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/210530-configure-cisco-meeting-server-call-brid.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/210530-configure-cisco-meeting-server-call-brid.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/210800-configure-cms-webrtc-proxy-over-expressw.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/210800-configure-cms-webrtc-proxy-over-expressw.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/211261-Configure-and-Troubleshoot-CMS-live-stre.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/211261-Configure-and-Troubleshoot-CMS-live-stre.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212217-configure-cisco-meeting-server-and-skype.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212217-configure-cisco-meeting-server-and-skype.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212298-cisco-meeting-server-acano-tms-integ.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212298-cisco-meeting-server-acano-tms-integ.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212326-step-by-step-guide-for-multiparty-licens.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212326-step-by-step-guide-for-multiparty-licens.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212580-overview-on-cms-presentation-sharing-wit.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212580-overview-on-cms-presentation-sharing-wit.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213413-configure-and-troubleshoot-dual-screen-f.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213413-configure-and-troubleshoot-dual-screen-f.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213481-configure-verify-and-troubleshoot-multi.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213481-configure-verify-and-troubleshoot-multi.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213552-configure-and-troubleshoot-guest-and-hos.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213552-configure-and-troubleshoot-guest-and-hos.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213812-cisco-meeting-server-basic-api-functions.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213812-cisco-meeting-server-basic-api-functions.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213816-troubleshoot-cisco-meeting-server-cms.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213816-troubleshoot-cisco-meeting-server-cms.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213820-configure-cisco-meeting-server-and-cucm.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213820-configure-cisco-meeting-server-and-cucm.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214392-cms-screencast-video-list.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214392-cms-screencast-video-list.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/detail/videos/collaboration/video/5811871386001/installing-license-to-cms",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/detail/videos/collaboration/video/5820051825001/how-to-backup-the-configuration-of-a-cms-cisco-meeting-server",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214618-generate-csr-and-apply-certificates-to-c.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214618-generate-csr-and-apply-certificates-to-c.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/video/6174375380001",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214620-upgrade-downgrade-cms-server.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214620-upgrade-downgrade-cms-server.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286309710",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214623-analysis-of-callbridge-and-xmpp-connecti.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214623-analysis-of-callbridge-and-xmpp-connecti.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214691-configure-nfs-share-to-use-as-storage-fo.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214691-configure-nfs-share-to-use-as-storage-fo.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214744-call-routing-logic-on-cisco-meeting-serv.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214744-call-routing-logic-on-cisco-meeting-serv.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://cway.cisco.com/csa",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214745-ip-routing-rules-on-acano-and-cisco-meet.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214745-ip-routing-rules-on-acano-and-cisco-meet.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215421-disband-cisco-meeting-server-cms-datab.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215421-disband-cisco-meeting-server-cms-datab.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215638-add-participants-to-existing-conference.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215638-add-participants-to-existing-conference.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu72374",
+    "depth": 1
+  },
+  {
+    "url": "https://cway.cisco.com/docs/tools/CollaborationSolutionsAnalyzer/supercharge",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-maintenance-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215662-explanation-and-work-around-on-cscvt7372.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215662-explanation-and-work-around-on-cscvt7372.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt73723",
+    "depth": 1
+  },
+  {
+    "url": "https://meeting-infohub.cisco.com/faq/content/43/450/en/how-do-you-check-the-number-of-active-sessions-on-a-web-bridge.html",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvt73723",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215666-expected-behaviour-when-using-the-maxpee.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215666-expected-behaviour-when-using-the-maxpee.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215910-configuring-ldap-users-on-cisco-meeting.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215910-configuring-ldap-users-on-cisco-meeting.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/216549-how-to-renew-expired-database-cluster-ce.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/216549-how-to-renew-expired-database-cluster-ce.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217246-how-to-enable-cms-detailed-tracing-via-a.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217246-how-to-enable-cms-detailed-tracing-via-a.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217249-how-to-move-web-app-users-from-spaces-me.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217249-how-to-move-web-app-users-from-spaces-me.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217319-replace-x-series-servers-with-cisco-meet.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217319-replace-x-series-servers-with-cisco-meet.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-installation-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/video/5810051601001",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217320-configure-cisco-meeting-server-cms-ver.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217320-configure-cisco-meeting-server-cms-ver.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217365-configure-cisco-meeting-server-ldap-inte.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217365-configure-cisco-meeting-server-ldap-inte.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217375-disable-maximum-transmission-unit-check.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217375-disable-maximum-transmission-unit-check.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/218141-troubleshoot-cisco-smart-licensing-cloud.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/218141-troubleshoot-cisco-smart-licensing-cloud.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286309725/type/280886992/release/CMS3.6",
+    "depth": 1
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286318491/type/280886992/release/CMM3.6.0",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221044-configure-and-troubleshoot-survey-featur.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221044-configure-and-troubleshoot-survey-featur.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221573-configure-and-troubleshoot-the-webapp-ss.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221573-configure-and-troubleshoot-the-webapp-ss.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCwm28758",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221687-configure-dtmf-sequences-in-cisco-meetin.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221687-configure-dtmf-sequences-in-cisco-meetin.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221698-enable-secure-communication-between-cms.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221698-enable-secure-communication-between-cms.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221729-configure-example-of-cms-edge.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221729-configure-example-of-cms-edge.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221776-configure-av1-feature-on-cms.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221776-configure-av1-feature-on-cms.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-server/200162-Troubleshoot-Telepresence-Endpoint-Added.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-server/200162-Troubleshoot-Telepresence-Endpoint-Added.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200263-Configure-TMS-to-change-Provisioning-of.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200263-Configure-TMS-to-change-Provisioning-of.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-quick-set-series/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200915-Install-a-Telepresence-Management-Suite.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200915-Install-a-Telepresence-Management-Suite.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/products-installation-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://software.cisco.com/download/release.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211266-How-to-Create-a-File-Based-Phonebook-in.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211266-How-to-Create-a-File-Based-Phonebook-in.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211279-How-to-Troubleshoot-No-HTTPS-response.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211279-How-to-Troubleshoot-No-HTTPS-response.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCuz71542",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212319-tms-sql-database-migration-from-one-sql.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212319-tms-sql-database-migration-from-one-sql.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212378-tms-webex-sso-certificate-renewal-cisc.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212378-tms-webex-sso-certificate-renewal-cisc.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/telepresence/infrastructure/tms/config_guide/cmr_hybrid_15_0/cmrh_b_cmr-hybrid-configuration-guide/cmrh_b_cmr-hybrid-configuration-guide_chapter_01001.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212421-windows-ciphers-cause-tls-issue-between.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212421-windows-ciphers-cause-tls-issue-between.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-server/118387-technote-tms-00.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/214388-tms-xe-pe-screencast-video-list.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/214388-tms-xe-pe-screencast-video-list.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/detail/videos/tac-videos/video/5973150572001/tms-and-tmsxe-log-collection-from-the-web-ui-and-tms-log-collection-utility",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/detail/videos/collaboration/video/5810206387001/how-to-take-a-backup-of-tms-tmspe-databases",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/detail/videos/tac-videos/video/5828827151001/renewing-a-tms-web-certificate",
+    "depth": 1
+  },
+  {
+    "url": "https://video-es.cisco.com/detail/videos/tac-vid%C3%A9os/video/6004960045001/renovar-certificado-de-tms",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/detail/videos/tac-videos/video/5843469327001/how-to-download-conference-event-log-from-tms",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/detail/videos/tac-videos/video/5843478096001/installing-tms-licenses",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215223-tms-phone-books-troubleshoot-guide.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215223-tms-phone-books-troubleshoot-guide.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215426-configure-conference-end-notifications-f.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215426-configure-conference-end-notifications-f.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217245-how-to-configure-office-365-hybrid-calen.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217245-how-to-configure-office-365-hybrid-calen.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur49008",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/215012-configure-the-remember-me-api-for-persis.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/215012-configure-the-remember-me-api-for-persis.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/webex-control-hub/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/directoryconnector/cmgt_b_directory-connector-guide-admins/cmgt_b_directory-connector-guide-admins_chapter_0111.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222997-add-required-attribute-uid-in-adfs.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222997-add-required-attribute-uid-in-adfs.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222998-troubleshoot-saml-assertion-expired-sso.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222998-troubleshoot-saml-assertion-expired-sso.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/webex-meeting-center/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/series.html",
+    "depth": 1
+  },
+  {
+    "url": "http://docwiki.cisco.com/wiki/Logging:_Enable_debug_level_logging",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvf93030",
+    "depth": 1
+  },
+  {
+    "url": "https://techzone.cisco.com",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200612-Configure-the-Identity-Provider-for-UCCX.html",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvb58580",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211530-Unsupported-configurations-for-UCCX-and.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://developer.cisco.com/site/socialminer/documentation",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/socialminer/200892-Integrate-UCCX-with-SocialMiner-for-Agen.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211579-Install-and-Configure-the-OpenAM-Identit.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211579-Install-and-Configure-the-OpenAM-Identit.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-installation-and-configuration-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/tsd-products-support-series-home.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211580-Install-and-Configure-the-PingFederate-I.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211580-Install-and-Configure-the-PingFederate-I.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-management-portal/200895-CCMP-Reskill-attempt-generates-error-Gl.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-management-portal/200895-CCMP-Reskill-attempt-generates-error-Gl.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCup34703",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-management-portal/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-12-6-1/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-901/200266-Configure-Fetch-Audio-Feature-to-Reduce.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-901/200266-Configure-Fetch-Audio-Feature-to-Reduce.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCub05699",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCuq86400",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/virtualized-voice-browser/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ata-190-series-analog-telephone-adapters/211318-Configure-and-Troubleshoot-PLAR-for-Anal.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ata-190-series-analog-telephone-adapters/211318-Configure-and-Troubleshoot-PLAR-for-Anal.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/ata-190-series-analog-telephone-adapters/series.html",
     "depth": 1
   }
 ]
