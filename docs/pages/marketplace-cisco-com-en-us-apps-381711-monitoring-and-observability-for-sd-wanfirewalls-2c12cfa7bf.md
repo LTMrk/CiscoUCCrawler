@@ -1,7 +1,7 @@
 ---
 doc_id: marketplace-cisco-com-en-us-apps-381711-monitoring-and-observability-for-sd-wanfirewalls-2c12cfa7bf
 source_url: https://marketplace.cisco.com/en-US/apps/381711/monitoring-and-observability-for-sd-wanfirewalls
-retrieved_at: 2026-08-21T06:03:30.355591+00:00
+retrieved_at: 2026-08-24T04:59:54.562427+00:00
 ---
 
 # Monitoring and Observability for SD-WAN/Firewalls
@@ -108,17 +108,17 @@ Read below to get answers to frequently asked questions.
 
 - Absolutely! Highlight is designed from the ground up for unlimited levels of tenancy. For example; a service provider can share visibility with a reseller, who in turn shares with a retail customer, who in turn has region managers and even store managers, every level can be shared with just that ‘branch’ of the network visible for that user or group of users. Security is also hugely important in Highlight, we work very hard to ensure data is never exposed to users that shouldn’t see it.
 
-#### What server resources are required to run Highlight?
+#### How do you collect data on the underlay/uplink connections?
 
-- Highlight is a 100% cloud-based service so no hardware/server/data centre resources are required. That said, collecting data from service provider management networks or private LANs can be tricky when properly secured and behind firewalls, so Highlight also has a software agent that can be used to collect data within a secure environment and post the data back to Highlight's cloud platform. The Highlight agent is incredibly efficient, supporting well over 20,000 devices on a single vCPU 2GB server. More info on our agent is available on our Help and Support site .
+- Underlay connectivity services, such as copper or fibre line broadband, dedicated access (or fibre Ethernet in some regions), cellular or satellite, typically have their own router device. If this device supports SNMP, Highlight can collect data and bring the service into our platform.
 
 #### I have a big network, can you scale?
 
 - Absolutely, Highlight is designed for the size and scale of large global service providers, so networks with many thousand locations and tens of thousand devices is tried and tested in our platform, coexisting with other customers and networks of similar size. Our scale isn’t infinite (nothing is infinite) but ultimately scale is our problem as Highlight is a cloud service.
 
-#### How do you collect data on the underlay/uplink connections?
+#### What server resources are required to run Highlight?
 
-- Underlay connectivity services, such as copper or fibre line broadband, dedicated access (or fibre Ethernet in some regions), cellular or satellite, typically have their own router device. If this device supports SNMP, Highlight can collect data and bring the service into our platform.
+- Highlight is a 100% cloud-based service so no hardware/server/data centre resources are required. That said, collecting data from service provider management networks or private LANs can be tricky when properly secured and behind firewalls, so Highlight also has a software agent that can be used to collect data within a secure environment and post the data back to Highlight's cloud platform. The Highlight agent is incredibly efficient, supporting well over 20,000 devices on a single vCPU 2GB server. More info on our agent is available on our Help and Support site .
 
 ## Resources
 

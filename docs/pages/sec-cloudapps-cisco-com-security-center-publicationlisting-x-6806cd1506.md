@@ -1,7 +1,7 @@
 ---
 doc_id: sec-cloudapps-cisco-com-security-center-publicationlisting-x-6806cd1506
 source_url: https://sec.cloudapps.cisco.com/security/center/publicationListing.x
-retrieved_at: 2026-08-21T06:05:33.574250+00:00
+retrieved_at: 2026-08-24T05:02:22.206224+00:00
 ---
 
 Home / Cisco Security / Security Advisories
@@ -38,6 +38,22 @@ Informational
 
 Done
 
+Cisco Crosswork Security Hardening Release: August 2026
+
+CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359
+
+CVE: CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359
+
+Publication ID: cisco-sa-hardening-crosswork-UzDTU9Vh
+
+Version: 2.0
+
+First Published: 2026 Aug 19 16:00 GMT
+
+Workaround: No
+
+Summary: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered Read More...
+
 Cisco Secure Workload Software Security Hardening Release: August 2026
 
 CVE-2026-20231 CVE-2026-20315 ... CVE-2026-20231,CVE-2026-20315,CVE-2026-20317,CVE-2026-20318,CVE-2026-20319
@@ -53,22 +69,6 @@ First Published: 2026 Aug 19 16:00 GMT
 Workaround: No
 
 Summary: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Workload engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered Read More...
-
-Cisco Crosswork Security Hardening Release: August 2026
-
-CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359
-
-CVE: CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359
-
-Publication ID: cisco-sa-hardening-crosswork-UzDTU9Vh
-
-Version: 1.0
-
-First Published: 2026 Aug 19 16:00 GMT
-
-Workaround: No
-
-Summary: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered Read More...
 
 Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability
 
@@ -394,12 +394,12 @@ Cisco Security Advisories and other Cisco security content are provided on an "a
 | Advisory | Impact | CVE | Last Updated | Version |
 |---|---|---|---|---|
 |  | All All Critical High Medium Low Informational Done |  |  |  |
+| Cisco Crosswork Security Hardening Release: August 2026 Critical CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 2026 Aug 21 2.0 CVE: CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 Publication ID: cisco-sa-hardening-crosswork-UzDTU9Vh Version: 2.0 First Published: 2026 Aug 19 16:00 GMT Workaround: No Summary: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered Read More... | Cisco Crosswork Security Hardening Release: August 2026 | Critical | CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 | 2026 Aug 21 | 2.0 | CVE: CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 Publication ID: cisco-sa-hardening-crosswork-UzDTU9Vh Version: 2.0 First Published: 2026 Aug 19 16:00 GMT Workaround: No Summary: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered Read More... |
+| Cisco Crosswork Security Hardening Release: August 2026 | Critical | CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 | 2026 Aug 21 | 2.0 |
+| CVE: CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 Publication ID: cisco-sa-hardening-crosswork-UzDTU9Vh Version: 2.0 First Published: 2026 Aug 19 16:00 GMT Workaround: No Summary: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered Read More... |
 | Cisco Secure Workload Software Security Hardening Release: August 2026 Critical CVE-2026-20231 CVE-2026-20315 ... CVE-2026-20231,CVE-2026-20315,CVE-2026-20317,CVE-2026-20318,CVE-2026-20319 2026 Aug 19 1.0 CVE: CVE-2026-20231 CVE-2026-20315 ... CVE-2026-20231,CVE-2026-20315,CVE-2026-20317,CVE-2026-20318,CVE-2026-20319 Publication ID: cisco-sa-hardening-csw1-shSvndWP Version: 1.0 First Published: 2026 Aug 19 16:00 GMT Workaround: No Summary: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Workload engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered Read More... | Cisco Secure Workload Software Security Hardening Release: August 2026 | Critical | CVE-2026-20231 CVE-2026-20315 ... CVE-2026-20231,CVE-2026-20315,CVE-2026-20317,CVE-2026-20318,CVE-2026-20319 | 2026 Aug 19 | 1.0 | CVE: CVE-2026-20231 CVE-2026-20315 ... CVE-2026-20231,CVE-2026-20315,CVE-2026-20317,CVE-2026-20318,CVE-2026-20319 Publication ID: cisco-sa-hardening-csw1-shSvndWP Version: 1.0 First Published: 2026 Aug 19 16:00 GMT Workaround: No Summary: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Workload engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered Read More... |
 | Cisco Secure Workload Software Security Hardening Release: August 2026 | Critical | CVE-2026-20231 CVE-2026-20315 ... CVE-2026-20231,CVE-2026-20315,CVE-2026-20317,CVE-2026-20318,CVE-2026-20319 | 2026 Aug 19 | 1.0 |
 | CVE: CVE-2026-20231 CVE-2026-20315 ... CVE-2026-20231,CVE-2026-20315,CVE-2026-20317,CVE-2026-20318,CVE-2026-20319 Publication ID: cisco-sa-hardening-csw1-shSvndWP Version: 1.0 First Published: 2026 Aug 19 16:00 GMT Workaround: No Summary: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Workload engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered Read More... |
-| Cisco Crosswork Security Hardening Release: August 2026 Critical CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 2026 Aug 19 1.0 CVE: CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 Publication ID: cisco-sa-hardening-crosswork-UzDTU9Vh Version: 1.0 First Published: 2026 Aug 19 16:00 GMT Workaround: No Summary: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered Read More... | Cisco Crosswork Security Hardening Release: August 2026 | Critical | CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 | 2026 Aug 19 | 1.0 | CVE: CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 Publication ID: cisco-sa-hardening-crosswork-UzDTU9Vh Version: 1.0 First Published: 2026 Aug 19 16:00 GMT Workaround: No Summary: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered Read More... |
-| Cisco Crosswork Security Hardening Release: August 2026 | Critical | CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 | 2026 Aug 19 | 1.0 |
-| CVE: CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 Publication ID: cisco-sa-hardening-crosswork-UzDTU9Vh Version: 1.0 First Published: 2026 Aug 19 16:00 GMT Workaround: No Summary: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered Read More... |
 | Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability High CVE-2026-20320 2026 Aug 19 1.0 CVE: CVE-2026-20320 Publication ID: cisco-sa-bworks-xxe-uwUd7CEt Version: 1.0 First Published: 2026 Aug 19 16:00 GMT Workaround: No Summary: A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.This vulnerability exists because XML entries are improperly parsed due to external Read More... | Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability | High | CVE-2026-20320 | 2026 Aug 19 | 1.0 | CVE: CVE-2026-20320 Publication ID: cisco-sa-bworks-xxe-uwUd7CEt Version: 1.0 First Published: 2026 Aug 19 16:00 GMT Workaround: No Summary: A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.This vulnerability exists because XML entries are improperly parsed due to external Read More... |
 | Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability | High | CVE-2026-20320 | 2026 Aug 19 | 1.0 |
 | CVE: CVE-2026-20320 Publication ID: cisco-sa-bworks-xxe-uwUd7CEt Version: 1.0 First Published: 2026 Aug 19 16:00 GMT Workaround: No Summary: A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.This vulnerability exists because XML entries are improperly parsed due to external Read More... |
@@ -458,13 +458,13 @@ Cisco Security Advisories and other Cisco security content are provided on an "a
 | Showing  1 - 20 of 5329 |
 | Items per page: Showing  1 - 20 of 5329 \| |
 
+| Cisco Crosswork Security Hardening Release: August 2026 | Critical | CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 | 2026 Aug 21 | 2.0 |
+|---|---|---|---|---|
+| CVE: CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 Publication ID: cisco-sa-hardening-crosswork-UzDTU9Vh Version: 2.0 First Published: 2026 Aug 19 16:00 GMT Workaround: No Summary: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered Read More... |
+
 | Cisco Secure Workload Software Security Hardening Release: August 2026 | Critical | CVE-2026-20231 CVE-2026-20315 ... CVE-2026-20231,CVE-2026-20315,CVE-2026-20317,CVE-2026-20318,CVE-2026-20319 | 2026 Aug 19 | 1.0 |
 |---|---|---|---|---|
 | CVE: CVE-2026-20231 CVE-2026-20315 ... CVE-2026-20231,CVE-2026-20315,CVE-2026-20317,CVE-2026-20318,CVE-2026-20319 Publication ID: cisco-sa-hardening-csw1-shSvndWP Version: 1.0 First Published: 2026 Aug 19 16:00 GMT Workaround: No Summary: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Workload engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered Read More... |
-
-| Cisco Crosswork Security Hardening Release: August 2026 | Critical | CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 | 2026 Aug 19 | 1.0 |
-|---|---|---|---|---|
-| CVE: CVE-2026-20030 CVE-2026-20357 ... CVE-2026-20030,CVE-2026-20357,CVE-2026-20358,CVE-2026-20359 Publication ID: cisco-sa-hardening-crosswork-UzDTU9Vh Version: 1.0 First Published: 2026 Aug 19 16:00 GMT Workaround: No Summary: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered Read More... |
 
 | Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability | High | CVE-2026-20320 | 2026 Aug 19 | 1.0 |
 |---|---|---|---|---|

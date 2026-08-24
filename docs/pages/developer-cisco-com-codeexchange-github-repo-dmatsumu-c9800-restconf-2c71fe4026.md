@@ -1,7 +1,7 @@
 ---
 doc_id: developer-cisco-com-codeexchange-github-repo-dmatsumu-c9800-restconf-2c71fe4026
 source_url: https://developer.cisco.com/codeexchange/github/repo/dmatsumu/c9800-RESTCONF
-retrieved_at: 2026-08-21T05:58:35.310659+00:00
+retrieved_at: 2026-08-24T04:57:41.248032+00:00
 ---
 
 # c9800-RESTCONF
@@ -197,3 +197,5 @@ bssid-stats bssid-stats-frequency 30
 - Client information is updated. (2024/1/17)
 
 - Client information is updated. (2024/1/19)
+
+How do you like this sample code?

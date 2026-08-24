@@ -1,7 +1,7 @@
 ---
 doc_id: developer-cisco-com-codeexchange-github-repo-appdynamics-command-watcher-extension-777ee0054d
 source_url: https://developer.cisco.com/codeexchange/github/repo/Appdynamics/Command-Watcher-Extension
-retrieved_at: 2026-08-20T20:28:37.783538+00:00
+retrieved_at: 2026-08-24T04:56:03.315955+00:00
 ---
 
 # Command watcher extension
@@ -116,8 +116,6 @@ Always feel free to fork and contribute any changes directly via GitHub .
 ## Version
 
 Note : While extensions are maintained and supported by customers under the open-source licensing model, they interact with agents and Controllers that are subject to AppDynamics’ maintenance and support policy . Some extensions have been tested with AppDynamics 4.5.13+ artifacts, but you are strongly recommended against using versions that are no longer supported.
-
-How do you like this sample code?
 
 | Name | Version |
 |---|---|

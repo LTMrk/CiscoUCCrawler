@@ -1,7 +1,7 @@
 ---
 doc_id: developer-cisco-com-codeexchange-github-repo-ciscodevnet-grpc-getting-started-1a8aaf8f06
 source_url: https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/grpc-getting-started
-retrieved_at: 2026-08-21T06:00:43.879867+00:00
+retrieved_at: 2026-08-24T04:57:20.417579+00:00
 ---
 
 # Getting Started With gRPC in Cisco IOS XR
@@ -57,3 +57,5 @@ grpc
 ## Examples
 
 You can find configuration examples in the getting started guides for OpenConfig . Examples in JSON and CLI format are relevant for gRPC.
+
+How do you like this sample code?
