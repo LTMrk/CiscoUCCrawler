@@ -230,6 +230,60 @@ def test_comportamiento_personalizado_de_devnet():
     assert declarado and declarado[0] in js
 
 
+def test_allowlist_filtra_el_sitemap_de_pubhub():
+    """URLs reales del sitemap de PubHub (sondeo del 2026-08-24).
+
+    Ese sitemap trae 449 URLs de /docs/ y /site/, pero la mayoria no son de
+    colaboracion: cubre todo DevNet. Es justo el trabajo de la allowlist
+    dejar pasar unas y no otras, asi que se comprueba con ejemplos de ambas.
+    """
+    admitidas = [
+        "https://developer.cisco.com/site/sxml/",
+        "https://developer.cisco.com/docs/axl/",
+        "https://developer.cisco.com/docs/contact-center-express/",
+    ]
+    rechazadas = [
+        "https://developer.cisco.com/docs/cisco-nexus-openconfig-yang-release-10-1x/",
+        "https://developer.cisco.com/docs/legacy-umbrella-api/",
+        "https://developer.cisco.com/site/security/",
+        "https://developer.cisco.com/docs/appdynamics/agent-installer-platform-service/",
+        "https://developer.cisco.com/site/zero-trust/",
+        "https://developer.cisco.com/docs/cisco-spaces-firehose/api/",
+        "https://developer.cisco.com/docs/nx-api-dme-model-9-3-1-reference/",
+        "https://developer.cisco.com/docs/quick-start-cloud-security-api/",
+        "https://developer.cisco.com/site/network-visibility-module/",
+        "https://developer.cisco.com/site/nso/video/",
+    ]
+    for u in admitidas:
+        assert ca.url_aceptable(u), f"la allowlist rechaza colaboracion: {u}"
+    for u in rechazadas:
+        assert not ca.url_aceptable(u), f"la allowlist admite lo ajeno: {u}"
+
+
+def test_sitemap_de_pubhub_declarado():
+    """El indice de /docs/ lo construye JavaScript y no enlaza nada en el HTML
+    crudo (0 doc-sets encontrados en el sondeo). Sin este sitemap declarado no
+    hay forma de descubrir los doc-sets: solo entrarian las semillas."""
+    with open(os.path.join(RAIZ, "config.json"), encoding="utf-8") as fh:
+        cfg = json.load(fh)
+    assert any("pubhub" in s for s in cfg["sitemaps"]), \
+        "falta el sitemap de PubHub en config.sitemaps"
+
+
+def test_semillas_devnet_vivas():
+    """/docs/jabber-bots devolvia 404 en el sondeo: el doc-set desaparecio.
+    Una semilla muerta se reencola y falla en cada ejecucion."""
+    with open(os.path.join(RAIZ, "config.json"), encoding="utf-8") as fh:
+        semillas = json.load(fh)["seeds"]
+    assert not any("jabber-bots" in s for s in semillas), \
+        "jabber-bots devuelve 404: no debe ser semilla"
+    devnet = [s for s in semillas if "developer.cisco.com" in s]
+    assert devnet, "no quedan semillas de developer.cisco.com"
+    for s in devnet:
+        assert ca.url_aceptable(s), f"semilla que la propia allowlist rechaza: {s}"
+        assert ca.normalize_url(s) == s, f"semilla no canonica (barra final): {s}"
+
+
 def test_config_declara_developer_cisco_com():
     """Contrato de configuración: si alguien quita la allowlist del dominio,
     esta_en_allowlist() vuelve a 'todo permitido' para él y el corpus se llena

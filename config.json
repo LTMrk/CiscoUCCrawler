@@ -42,7 +42,7 @@
     "developer.cisco.com": [
       "^https?://developer\\.cisco\\.com/docs/?$",
       "^https?://developer\\.cisco\\.com/docs/(axl|finesse|contact-center-express|packaged-contact-center|customer-voice-portal|customer-collaboration-platform|enterprise-chat-and-email|jabber-bots|ios-xe-voip|cer-config|cisco-emergency-responder[a-z0-9-]*|meeting-server|unity-connection|roomdevices|xapi|webex-contact-center|task-routing|socialminer|serviceability|intelligence-center)(/|$)",
-      "^https?://developer\\.cisco\\.com/site/(collaboration|axl|unity-connection|roomdevices|contact-center-express|finesse|customer-voice-portal|socialminer|cer|tapi|jtapi|ip-phone-services|extension-mobility|webdialer|task-routing|cisco-meeting-server|hcs)(/|$)"
+      "^https?://developer\\.cisco\\.com/site/(collaboration|axl|unity-connection|roomdevices|contact-center-express|finesse|customer-voice-portal|socialminer|cer|tapi|jtapi|ip-phone-services|extension-mobility|webdialer|task-routing|cisco-meeting-server|hcs|sxml)(/|$)"
     ]
   },
   "_doc_discovery_only_regex": "Paginas que SI se rastrean para extraer enlaces pero NO se indexan como documentos. Son indices de navegacion: su texto es una lista de titulos, que como chunk vectorial es puro ruido y ademas compite en similitud con los documentos reales.",
@@ -159,7 +159,6 @@
     "https://developer.cisco.com/docs/packaged-contact-center/",
     "https://developer.cisco.com/docs/customer-voice-portal/",
     "https://developer.cisco.com/docs/enterprise-chat-and-email/",
-    "https://developer.cisco.com/docs/jabber-bots/",
     "https://developer.cisco.com/docs/ios-xe-voip/",
     "https://developer.cisco.com/docs/cer-config/",
     "https://developer.cisco.com/site/axl/",
@@ -234,7 +233,9 @@
       "motivo": "Excluida por el robots.txt del propio dominio. Se respeta: mantenerla en seeds solo genera una linea de log por ejecucion sin recuperar nada. Si esa documentacion es necesaria, la via es pedir acceso a Cisco, no ignorar el robots."
     }
   ],
-  "sitemaps": [],
+  "sitemaps": [
+    "https://developer.cisco.com/data/sitemaps/pubhub.xml"
+  ],
   "custom_behaviors": [
     {
       "pattern": "www.cisco.com/c/en/us/td/docs",
@@ -295,5 +296,6 @@
     "webex-ucm"
   ],
   "_doc_openapi_specs_allowlist": "Prefijos de fichero de public-spec/ a ingerir. Vacio o ausente = todos. Excluidos por defecto: webex-broadworks y webex-wholesale (escenarios de service provider). Cada spec fuera del ambito del agente son cientos de operaciones que compiten en el espacio vectorial sin poder responder nunca.",
-  "_doc_developer_cisco_com": "developer.cisco.com SI se rastrea, al contrario de lo que decia la version anterior de este proyecto. La causa real de que no entrara no era una SPA vacia: DevNet canonicaliza sus rutas CON barra final y normalize_url la quitaba, asi que cada URL respondia 301 y, al no haber rama 3xx en fetch_policy, se contaba como fallo. Quedaron 127 rebotes en logs/error.log sobre /docs/finesse, /docs/customer-voice-portal, /docs/packaged-contact-center, /docs/enterprise-chat-and-email y /docs/contact-center-express, entre otros. Se arregla con global_settings.hosts_barra_final y el manejo de redirecciones. El alcance es deliberadamente colaboracion: al declarar el dominio aqui, esta_en_allowlist() pasa a deny-by-default y quedan fuera Meraki, DNA Center, SD-WAN, NSO, Crosswork, XDR, Spaces, UCS/HyperFlex y PSIRT, que son la mayor parte del sitio. /codeexchange/ tambien queda fuera: duplica repos_ingest.py y lo unico que habia ingerido eran extensiones de AppDynamics. La lista de doc-sets se construyo con URLs realmente observadas en logs/error.log y logs/frontier.json; tools/probe_devnet.py la revalida contra el sitio vivo. robots.txt prohibe /web/ (JTAPI, TAPI, AXL legacy, SXML, wiki de CUPI) y ahi no se entra."
+  "_doc_developer_cisco_com": "developer.cisco.com SI se rastrea, al contrario de lo que decia la version anterior de este proyecto. La causa real de que no entrara no era una SPA vacia: DevNet canonicaliza sus rutas CON barra final y normalize_url la quitaba, asi que cada URL respondia 301 y, al no haber rama 3xx en fetch_policy, se contaba como fallo. Quedaron 127 rebotes en logs/error.log sobre /docs/finesse, /docs/customer-voice-portal, /docs/packaged-contact-center, /docs/enterprise-chat-and-email y /docs/contact-center-express, entre otros. Se arregla con global_settings.hosts_barra_final y el manejo de redirecciones. El alcance es deliberadamente colaboracion: al declarar el dominio aqui, esta_en_allowlist() pasa a deny-by-default y quedan fuera Meraki, DNA Center, SD-WAN, NSO, Crosswork, XDR, Spaces, UCS/HyperFlex y PSIRT, que son la mayor parte del sitio. /codeexchange/ tambien queda fuera: duplica repos_ingest.py y lo unico que habia ingerido eran extensiones de AppDynamics. La lista de doc-sets se construyo con URLs realmente observadas en logs/error.log y logs/frontier.json; tools/probe_devnet.py la revalida contra el sitio vivo. robots.txt prohibe /web/ (JTAPI, TAPI, AXL legacy, SXML, wiki de CUPI) y ahi no se entra.",
+  "_doc_sitemaps": "El sitemap de PubHub es la via de descubrimiento de /docs/: el indice que se ve en developer.cisco.com/docs/ lo construye JavaScript y no enlaza nada en el HTML crudo, asi que rastrearlo no descubre doc-sets. El robots.txt del sitio declara cuatro sitemaps; de ellos solo pubhub aporta documentacion (449 URLs de /docs/ y /site/ sobre 569). Los otros tres son codeexchange (1.407), learninglab (1.421) y nso (1), todos fuera de alcance por decision. La allowlist filtra despues: del sitemap entran solo los doc-sets de colaboracion declarados."
 }
