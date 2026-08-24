@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-15-cucm-b-cli-reference-guide-release-15-cucm-b-cli-reference-g-74692f7af4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/15/cucm_b_cli_reference_guide_release_15/cucm_b_cli_reference_guide_release_1401_chapter_01001.html
-retrieved_at: 2026-08-16T23:53:29.702712+00:00
+retrieved_at: 2026-08-24T09:56:15.545950+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 15 and SUs
@@ -5183,9 +5183,9 @@ Applies to: Unified Communications Manager and IM and Presence Service on Unifie
 ## utils
                         	 PlatformWebAccess disable
 
-Use this command
-                              		  to restrict the user sign-in to Cisco OS Administration and Disaster Recovery
-                              		  System applications when SSO is enabled.
+Use this command to disable browser-based sign-in to Cisco Unified OS Administration and Disaster Recovery System on the server.
+                              When platform web access is disabled, users cannot sign in to these applications, including with platform administrator credentials.
+                              Before disabling platform web access, verify that you have working administrator CLI access.
 
 utils PlatformWebAccess disable
 
@@ -5206,8 +5206,7 @@ Applies to: Unified Communications Manager , IM and Presence Service on Unified 
 ## utils
                         	 PlatformWebAccess enable
 
-Use this command to enable the user sign-in to Cisco OS Administration
-                              		  and Disaster Recovery System applications.
+Use this command to enable browser-based sign-in to Cisco Unified OS Administration and Disaster Recovery System on the server.
 
 utils PlatformWebAccess enable
 
@@ -5226,9 +5225,8 @@ Applies to: Unified Communications Manager , IM and Presence Service on Unified 
 ## utils
                         	 PlatformWebAccess status
 
-Use this command to display the status of the web access of the
-                              		  system—whether the platform web access is enabled or disabled for Cisco OS
-                              		  Administration and Disaster Recovery System applications.
+Use this command to display whether browser-based sign-in to Cisco Unified OS Administration and Disaster Recovery System
+                              is enabled or disabled on the server.
 
 utils PlatformWebAccess status
 
@@ -6891,32 +6889,6 @@ Allowed during
 
 Applies to: Unified Communications Manager , IM and Presence Service on Unified Communications Manager , and Cisco Unity Connection
 
-## utils syslog logging rfc3339
-
-This command controls the syslog logging format in the system.
-
-utils syslog logging rfc3339 { enable | disable | status }
-
-## Syntax Description
-
-Enables RFC 3339-compliant timestamps for system logs.
-
-Disables RFC 3339-compliant timestamps and reverts logging to the default timestamp format.
-
-Displays the status of the RFC3339 syslog logging format.
-
-### Command Modes
-
-Administrator (admin:)
-
-### Requirements
-
-Command privilege level: Level 4 can execute enable and disable commands, Level 0 can execute only status command
-
-Allowed during upgrade: No
-
-Applies to: Unified Communications Manager and IM and Presence Service
-
 ## utils system
                         	 restart
 
@@ -7602,114 +7574,6 @@ Command privilege level: 1
 Allowed during upgrade: Yes
 
 Applies to: Unified Communications Manager, IM and Presence Service on Unified Communications Manager, and Cisco Unity Connection
-
-## utils tls client-auth-validation disable
-
-This command disables validation of the Client Authentication Extended Key Usage (EKU) for certificates presented during mutual
-                              TLS handshakes across the cluster.
-
-utils tls client-auth-validation disable
-
-### Command Modes
-
-Administrator (admin:)
-
-### Requirements
-
-Command privilege level: 1
-
-Applies to: Unified Communications Manager, IM and Presence Service on Unified Communications Manager
-
-### Example
-
-```
-admin:utils tls client-auth-validation disable
-
-Warning: Restart the following services on all nodes for the change to take
-effect.
-
-On Unified Communications Manager:
-   Cisco Tomcat
-   utils ipsec restart
-
-On IM and Presence Service:
-   Cisco Config Agent
-   Cisco XCP Config Manager
-   Cisco XCP Router
-   Cisco XCP Connection Manager
-   Cisco Tomcat
-   utils ipsec restart
-
-Proceed with this operation (yes|no)? yes
-Client Authentication validation has been disabled successfully across all
-nodes in the cluster.
-```
-
-## utils tls client-auth-validation enable
-
-This command enables validation of the Client Authentication EKU for certificates presented during mutual TLS handshakes across
-                              the cluster.
-
-utils tls client-auth-validation enable
-
-### Command Modes
-
-Administrator (admin:)
-
-### Requirements
-
-Command privilege level: 1
-
-Applies to: Unified Communications Manager, IM and Presence Service on Unified Communications Manager
-
-### Example
-
-```
-admin:utils tls client-auth-validation enable
-
-Warning: Restart the following services on all nodes for the change to take
-effect.
-
-On Unified Communications Manager:
-   Cisco Tomcat
-   utils ipsec restart
-
-On IM and Presence Service:
-   Cisco Config Agent
-   Cisco XCP Config Manager
-   Cisco XCP Router
-   Cisco XCP Connection Manager
-   Cisco Tomcat
-   utils ipsec restart
-
-Proceed with this operation (yes|no)? yes
-Client Authentication validation has been enabled successfully across all nodes
-in the cluster.
-```
-
-## utils tls client-auth-validation status
-
-This command shows the validation status of the Client Authentication EKU for certificates presented during mutual TLS handshakes
-                              across the cluster.
-
-utils tls client-auth-validation status
-
-### Command Modes
-
-Administrator (admin:)
-
-### Requirements
-
-Command privilege level: 1
-
-Applies to: Unified Communications Manager, IM and Presence Service on Unified Communications Manager
-
-### Example
-
-```
-admin:utils tls client-auth-validation status
-Client Authentication EKU validation is currently: DISABLED
-```
 
 ## utils ucmgmt agent disable
 
@@ -9301,12 +9165,6 @@ admin:utils ucmgmt proxy list
                                        					 recovery URL for SAML SSO based authentication. |
 | disable | Disables
                                        					 recovery URL for SAML SSO based authentication. |
-
-| Parameters | Description |
-|---|---|
-| enable | Enables RFC 3339-compliant timestamps for system logs. |
-| disable | Disables RFC 3339-compliant timestamps and reverts logging to the default timestamp format. |
-| status | Displays the status of the RFC3339 syslog logging format. |
 
 | Caution | If the server is forced to shutdown and restart from your virtual machine, the file system may become corrupted. |
 |---|---|

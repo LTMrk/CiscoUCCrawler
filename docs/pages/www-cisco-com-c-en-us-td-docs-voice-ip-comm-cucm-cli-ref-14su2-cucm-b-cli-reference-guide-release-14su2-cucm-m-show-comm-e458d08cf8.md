@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-14su2-cucm-b-cli-reference-guide-release-14su2-cucm-m-show-comm-e458d08cf8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/14SU2/cucm_b_cli_reference_guide_release_14su2/cucm_m_show-commands.html
-retrieved_at: 2026-08-16T23:54:13.425884+00:00
+retrieved_at: 2026-08-24T09:55:47.122570+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 14 and SUs
@@ -2024,6 +2024,8 @@ Client authentication on the port 6971 is currently set to required.
 ## show hardware
 
 This command displays hardware-related information about the platform.
+
+The output of some fields will vary by hypervisor, depending on the information reported to the workload by the hypervisor.
 
 show hardware
 
@@ -4672,6 +4674,8 @@ Applies to: Unified Communications Manager , IM and Presence Service on Unified 
 This command
                               		  displays information about the network interfaces.
 
+The output of some fields will vary by hypervisor, depending on the information reported to the workload by the hypervisor.
+
 show tech network interfaces [ page ] [ search text ] [ file filename ]
 
 ## Syntax Description
@@ -5056,8 +5060,9 @@ Applies to: Unified Communications Manager , IM and Presence Service on Unified 
 ## show tech
                         	 system
 
-This command
-                              		  displays all the system information.
+This command displays all the system information.
+
+The output of some fields will vary by hypervisor, depending on the information reported to the workload by the hypervisor.
 
 show tech system { all | bus | hardware | host | kernel modules | software | tools } page file filename
 
@@ -5826,6 +5831,9 @@ Applies to Unified Communications Manager and IM and Presence Service
 | Note | The supported port numbers are 6971, 6972 and 9443. |
 |---|---|
 
+| Note | The output of some fields will vary by hypervisor, depending on the information reported to the workload by the hypervisor. |
+|---|---|
+
 | Parameters | Description |
 |---|---|
 | policy_group |  |
@@ -6213,6 +6221,9 @@ Applies to Unified Communications Manager and IM and Presence Service
 | search text | Searches the output for the string that text specifies. Be aware that the search is case insensitive. |
 | file filename | Outputs the information to a file. |
 
+| Note | The output of some fields will vary by hypervisor, depending on the information reported to the workload by the hypervisor. |
+|---|---|
+
 | Parameters | Description |
 |---|---|
 | page | Displays one
@@ -6288,6 +6299,9 @@ Applies to Unified Communications Manager and IM and Presence Service
 | Note | This
                                                    						option saves the information to platform/cli/<filename>.txt. Ensure that
                                                    						the file name does not contain the "." character. |
+|---|---|
+
+| Note | The output of some fields will vary by hypervisor, depending on the information reported to the workload by the hypervisor. |
 |---|---|
 
 | Parameters | Description |

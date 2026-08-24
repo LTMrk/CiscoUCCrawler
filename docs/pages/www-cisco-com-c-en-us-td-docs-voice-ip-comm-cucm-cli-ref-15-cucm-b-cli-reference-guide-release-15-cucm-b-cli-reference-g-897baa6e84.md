@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-15-cucm-b-cli-reference-guide-release-15-cucm-b-cli-reference-g-897baa6e84
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/15/cucm_b_cli_reference_guide_release_15/cucm_b_cli_reference_guide_release_1401_chapter_0110.html
-retrieved_at: 2026-08-16T23:53:09.162500+00:00
+retrieved_at: 2026-08-24T09:56:29.511823+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 15 and SUs
@@ -557,7 +557,7 @@ set cert delete unit name
 
 ## Syntax Description
 
-Specifies the name of the trust category, as "own" or "trust" .
+Specifies the name of the trust category.
 
 Certificate file name.
 
@@ -584,11 +584,6 @@ admin:set cert delete cucm siptest.pem
 
 This command imports
                               		  the specified certificate for the specified certificate type.
-
-Important
-
-From Release 15SU5 onwards, during uploads, you're given an option to copy the certificate from the server units to the applicable
-                                          client units.
 
 set cert import type name [caCert]
 
@@ -630,11 +625,6 @@ become active.
 
 This command regenerates the certificate for the specified unit.
 
-Important
-
-From Release 15SU5 onwards, during certificate regeneration, you're given an option to copy the certificate from the server
-                                          units to the applicable client units.
-
 set cert regen name
 
 ## Syntax Description
@@ -658,27 +648,6 @@ Applies to: Unified Communications Manager , IM and Presence Service on Unified 
 ```
 admin:set cert regen tomcat
 Successfully regenerated certificate for tomcat.
-```
-
-### Example (Applicable from Release 15SU5 Onwards)
-
-```
-admin:set cert regen tomcat
-
-WARNING: This operation will overwrite any CA signed certificate previously imported
-for  tomcat
-Proceed with regeneration (yes|no)? yes
-
-Do you want to use the same certificate for tomcat-client (yes|no) ? yes
-
-Successfully Regenerated Certificate for tomcat and tomcat-client.
-You must restart services related to tomcat for the regenerated certificates to become
-active.
-Restart the Cisco DRF Master and Cisco DRF Local services on the publisher node. Restart
-ONLY the Cisco DRF Local service on the subscriber node(s). These services can be 
-restarted with the 'utils service restart <service>' command from the CLI.If SAML SSO 
-is enabled with tomcat certificate, please disable and re-enable it. Also re-provision
-the SP metadata on the IDP.
 ```
 
 ## set cert regen
@@ -4207,12 +4176,8 @@ Applies to: Unified Communications Manager , IM and Presence Service on Unified 
 
 | Parameters | Description |
 |---|---|
-| unit | Specifies the name of the trust category, as "own" or "trust" . |
+| unit | Specifies the name of the trust category. |
 | name | Certificate file name. |
-
-| Important | From Release 15SU5 onwards, during uploads, you're given an option to copy the certificate from the server units to the applicable
-                                          client units. |
-|---|---|
 
 | Parameters | Description |
 |---|---|
@@ -4222,10 +4187,6 @@ Applies to: Unified Communications Manager , IM and Presence Service on Unified 
                                        					 the unit name. |
 | [caCert] | Represents
                                        					 the name of the CA certificate file name. |
-
-| Important | From Release 15SU5 onwards, during certificate regeneration, you're given an option to copy the certificate from the server
-                                          units to the applicable client units. |
-|---|---|
 
 | Parameters | Description |
 |---|---|

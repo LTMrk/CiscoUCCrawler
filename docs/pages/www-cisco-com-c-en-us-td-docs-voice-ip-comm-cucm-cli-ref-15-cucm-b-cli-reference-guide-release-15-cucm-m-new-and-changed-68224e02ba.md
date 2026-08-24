@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-15-cucm-b-cli-reference-guide-release-15-cucm-m-new-and-changed-68224e02ba
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/15/cucm_b_cli_reference_guide_release_15/cucm_m_new-and-changed-information.html
-retrieved_at: 2026-08-16T23:52:40.791407+00:00
+retrieved_at: 2026-08-24T09:56:37.056942+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 15 and SUs
@@ -30,6 +30,12 @@ Date
 Description
 
 See
+
+August 20, 2026
+
+Updated the set cert delete command
+
+set cert delete
 
 April 06, 2026
 
@@ -199,6 +205,7 @@ utils cuc cluster overwritedb
 
 | Date | Description | See |
 |---|---|---|
+| August 20, 2026 | Updated the set cert delete command | set cert delete |
 | April 06, 2026 | Introduced the utils addon-input-validation enable command for 15SU4. | utils addon-input-validation enable |
 | April 06, 2026 | Introduced the utils addon-input-validation disable command for 15SU4. | utils addon-input-validation disable |
 | April 06, 2026 | Introduced the utils addon-input-validation status command for 15SU4. | utils addon-input-validation status |

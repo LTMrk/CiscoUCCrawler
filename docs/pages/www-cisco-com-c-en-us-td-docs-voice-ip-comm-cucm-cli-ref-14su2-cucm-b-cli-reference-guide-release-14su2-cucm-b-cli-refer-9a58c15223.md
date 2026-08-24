@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-14su2-cucm-b-cli-reference-guide-release-14su2-cucm-b-cli-refer-9a58c15223
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/14SU2/cucm_b_cli_reference_guide_release_14su2/cucm_b_cli_reference_guide_release_1401_chapter_01001.html
-retrieved_at: 2026-08-16T23:54:26.127026+00:00
+retrieved_at: 2026-08-24T09:55:19.076005+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 14 and SUs
@@ -5092,9 +5092,9 @@ Applies to: Unified Communications Manager and IM and Presence Service on Unifie
 ## utils
                         	 PlatformWebAccess disable
 
-Use this command
-                              		  to restrict the user sign-in to Cisco OS Administration and Disaster Recovery
-                              		  System applications when SSO is enabled.
+Use this command to disable browser-based sign-in to Cisco Unified OS Administration and Disaster Recovery System on the server.
+                              When platform web access is disabled, users cannot sign in to these applications, including with platform administrator credentials.
+                              Before disabling platform web access, verify that you have working administrator CLI access.
 
 utils PlatformWebAccess disable
 
@@ -5115,8 +5115,7 @@ Applies to: Unified Communications Manager , IM and Presence Service on Unified 
 ## utils
                         	 PlatformWebAccess enable
 
-Use this command to enable the user sign-in to Cisco OS Administration
-                              		  and Disaster Recovery System applications.
+Use this command to enable browser-based sign-in to Cisco Unified OS Administration and Disaster Recovery System on the server.
 
 utils PlatformWebAccess enable
 
@@ -5135,9 +5134,8 @@ Applies to: Unified Communications Manager , IM and Presence Service on Unified 
 ## utils
                         	 PlatformWebAccess status
 
-Use this command to display the status of the web access of the
-                              		  system—whether the platform web access is enabled or disabled for Cisco OS
-                              		  Administration and Disaster Recovery System applications.
+Use this command to display whether browser-based sign-in to Cisco Unified OS Administration and Disaster Recovery System
+                              is enabled or disabled on the server.
 
 utils PlatformWebAccess status
 

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-14su2-cucm-b-cli-reference-guide-release-14su2-cucm-b-cli-refer-394cfad0d1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/14SU2/cucm_b_cli_reference_guide_release_14su2/cucm_b_cli_reference_guide_release_1401_chapter_0110.html
-retrieved_at: 2026-08-16T23:54:06.228786+00:00
+retrieved_at: 2026-08-24T09:55:32.928154+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 14 and SUs
@@ -557,7 +557,7 @@ set cert delete unit name
 
 ## Syntax Description
 
-Specifies the name of the trust category, as "own" or "trust" .
+Specifies the name of the trust category.
 
 Certificate file name.
 
@@ -4176,7 +4176,7 @@ Applies to: Unified Communications Manager , IM and Presence Service on Unified 
 
 | Parameters | Description |
 |---|---|
-| unit | Specifies the name of the trust category, as "own" or "trust" . |
+| unit | Specifies the name of the trust category. |
 | name | Certificate file name. |
 
 | Parameters | Description |
