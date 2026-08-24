@@ -102,6 +102,24 @@ def _seccion_paginas(d, lineas):
         f"-{len(d.get('removed', []))} retiradas · "
         f"{d.get('unchanged_count', 0)} sin cambios"
     )
+
+    semillas = d.get("semillas_encoladas", 0)
+    if semillas:
+        lineas.append("")
+        lineas.append(f"{semillas} URL(s) encoladas desde semillas y sitemaps "
+                      "de `config.json`, por delante de la frontera arrastrada.")
+
+    redirecciones = d.get("redirected", [])
+    if redirecciones:
+        lineas.append("")
+        lineas.append(f"### {len(redirecciones)} redirección(es) seguida(s)")
+        lineas.append("El origen movio el recurso y el rastreo continuo en el "
+                      "destino. No son fallos.")
+        lineas.append("")
+        for salto in redirecciones[:20]:
+            lineas.append(f"- {salto}")
+        if len(redirecciones) > 20:
+            lineas.append(f"- ...y {len(redirecciones) - 20} mas")
     lineas.append("")
 
 
