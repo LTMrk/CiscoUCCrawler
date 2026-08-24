@@ -2,7 +2,7 @@
 
 Inventario de lo que contiene el corpus RAG. Lo regenera `src/resumen_rag.py` en cada ejecución del ETL: **no editar a mano**.
 
-Actualizado: 2026-08-24 16:32 UTC
+Actualizado: 2026-08-24 17:07 UTC
 
 ## Totales
 
@@ -12,9 +12,9 @@ Actualizado: 2026-08-24 16:32 UTC
 | Operaciones de API (OpenAPI) | 2.061 |
 | Documentación de repositorios | 651 documentos |
 | Volumen total | 562.8 M caracteres |
-| URLs pendientes de rastrear | 6.864 |
+| URLs pendientes de rastrear | 7.388 |
 
-> El rastreo **no ha terminado**: quedan 6.864 URLs en la frontera. Las cifras de abajo son cobertura parcial y crecerán en las siguientes ejecuciones.
+> El rastreo **no ha terminado**: quedan 7.388 URLs en la frontera. Las cifras de abajo son cobertura parcial y crecerán en las siguientes ejecuciones.
 
 ## Cobertura por producto
 
