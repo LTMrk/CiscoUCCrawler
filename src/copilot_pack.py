@@ -168,20 +168,34 @@ ETIQUETAS["webex-repos"] = "Documentacion de repositorios GitHub (SDKs, ejemplos
 # no lo hacen son justo las mas densas: axl, contact-center-express,
 # ios-xe-voip, cer-config y roomdevices.
 DOCSETS_DEVNET = [
-    (r"/(docs|site)/(axl|tapi|jtapi|serviceability|ip-phone-services"
-     r"|extension-mobility|webdialer)(/|$)", "cucm"),
+    # CUCM y sus interfaces de administracion: AXL y su esquema, TAPI/JTAPI,
+    # serviceability y SXML, UDS, CURRI, WebDialer, Extension Mobility, PAWS
+    # (instalacion y upgrade) y UC Express.
+    (r"/(docs|site)/(axl[a-z-]*|tapi|jtapi|serviceability|sxml|paws"
+     r"|ip-phone-services|extension-mobility[a-z-]*|webdialer[a-z-]*"
+     r"|user-data-services|curri|uc-manager-sip|uc-express-services)(/|$)",
+     "cucm"),
     (r"/(docs|site)/(finesse|customer-voice-portal|socialminer"
      r"|customer-collaboration-platform|intelligence-center)(/|$)", "cvp"),
     (r"/(docs|site)/contact-center-express(/|$)", "uccx"),
+    # UCCE/PCCE, incluidos los interfaces heredados de ICM: CTI, CTI OS y la
+    # especificacion de VRU.
     (r"/(docs|site)/(packaged-contact-center|enterprise-chat-and-email"
-     r"|task-routing)(/|$)", "ucce"),
+     r"|task-routing|enterprise-icm-vru-interface-specification"
+     r"|cti-protocol|ctios)(/|$)", "ucce"),
     (r"/(docs|site)/(unity-connection|cer|cer-config"
      r"|cisco-emergency-responder[a-z0-9-]*)(/|$)", "cuc"),
-    (r"/(docs|site)/(roomdevices|xapi)(/|$)", "endpoints"),
+    # Endpoints: RoomOS/xAPI y el firmware multiplataforma de los telefonos IP.
+    (r"/(docs|site)/(roomdevices|xapi|multiplatform-phones)(/|$)", "endpoints"),
     (r"/(docs|site)/(cisco-)?meeting-server(/|$)", "cms"),
-    (r"/(docs|site)/jabber[a-z-]*(/|$)", "impresence"),
-    (r"/(docs|site)/ios-xe-voip(/|$)", "cube"),
-    (r"/(docs|site)/webex-contact-center(/|$)", "webexcloud"),
+    (r"/(docs|site)/(jabber[a-z-]*|im-and-presence)(/|$)", "impresence"),
+    # Gateways de voz: IOS-XE VoIP y los servicios de gateway de UC.
+    (r"/(docs|site)/(ios-xe-voip|uc-gateway-services)(/|$)", "cube"),
+    # Nube de Webex, incluida la XML API de Meetings y BroadWorks, que es la
+    # via de Webex Calling para operadores.
+    (r"/(docs|site)/(webex-contact-center|webex-calling|webex-meetings"
+     r"|webex-xml-api-reference-guide|webex-connect-partner-resources"
+     r"|webex-developer|webex-integration|broadworks)(/|$)", "webexcloud"),
 ]
 
 DOCSETS_DEVNET = [(re.compile(p, re.I), clave) for p, clave in DOCSETS_DEVNET]
