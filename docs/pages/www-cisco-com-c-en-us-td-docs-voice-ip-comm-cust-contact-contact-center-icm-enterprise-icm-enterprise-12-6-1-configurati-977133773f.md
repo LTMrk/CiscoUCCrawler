@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-977133773f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_010000.html
-retrieved_at: 2026-08-16T14:48:00.360124+00:00
+retrieved_at: 2026-08-24T22:54:12.983423+00:00
 ---
 
 Serviceability Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
@@ -68,6 +68,131 @@ CCESERVERAGENT JVM is an extension of machine agent for ICM nodes. Each ICM node
 
 CCESERVERAGENT is not used for application performance monitoring. It is used only for mapping the windows server to the application
                                              in AppDynamics controller.
+
+## AppDynamics License Planning
+
+AppDynamics license consumption in a UCCE or PCCE deployment is determined by the number and type of AppDynamics agents used
+                           for instrumentation on each CCE component node, rather than by the overall deployment size (for example, 2000-agent or 4000-agent
+                           deployment). This section outlines the licensing rules for each agent type and provides a procedure for calculating the total
+                           license requirements for a given deployment.
+
+This information is provided for planning purposes only.
+
+### AppDynamics Agent Types and Licensing Rules
+
+Three types of agents are used for instrumentation in a CCE deployment. Each is licensed independently, as described below.
+
+Agent Type
+
+License Consumption
+
+JVM App Agent
+
+1 license per JVM app agent instance. A single component may run more than one JVM app agent per node.
+
+.NET Agent
+
+1 license per Windows OS instance (VM), covering all CLRs (.Net Application Common Language Runtime) on that VM.
+
+Machine Agent
+
+1 license per VM (Server Visibility).
+
+Refer to the table in Supported Applications section to determine which agent types apply to each CCE component, and how many JVM app agents each component runs.
+
+Example: CCE Finesse Cluster
+
+Finesse runs two JVM app agents per node: Finesse-Desktop and Finesse-Notification.
+
+Node
+
+JVM App Agent Licenses
+
+Machine Agent Licenses
+
+Total
+
+Finesse Publisher
+
+2
+
+1
+
+3
+
+Finesse Subscriber
+
+2
+
+1
+
+3
+
+Total License Required
+
+6
+
+Example: CCE Router Pair
+
+Router use Machine Agent and .NET Agent; no JVM app agents apply.
+
+Node
+
+Machine Agent Licenses
+
+.NET Agent Licenses
+
+Total
+
+Finesse Publisher
+
+1
+
+1
+
+2
+
+Finesse Subscriber
+
+1
+
+1
+
+2
+
+Total License Required
+
+4
+
+### Calculate the License Requirement
+
+Follow these steps to calculate the license requirements for each monitored component in your deployment:
+
+Identify the total number of nodes for each component (for example, Publisher and Subscriber, or Side A and Side B).
+
+Refer to the CCE Serviceability Guide to identify the applicable agent types required for each component.
+
+Calculate component license count using this formula for each component: Total = (JVM App Agents per node × Number of nodes) + (1 × Number of nodes, if Machine Agent applies) + (1 × Number of nodes,
+                                       if .NET Agent applies)
+
+If LiveData-Worker monitoring is enabled, add one license per LiveData node.
+
+Repeat steps 1 through 4 for every component to be monitored: Finesse, CUIC, LiveData, IdS, VVB, CVP OAMP, CVP Reporting Server, CVP Call/VXML Server, Router, Logger, PG, AW-HDS, and AW-HDS-DDS.
+
+Add the calculated totals from all components to determine the final license requirement for the deployment.
+
+Only components selected for monitoring need to be included in the calculation. It is not required to include the nodes which
+                                          are not planned to be instrumented in the deployment.
+
+### Licensing Model Considerations
+
+The preceding calculation applies to AppDynamics Agent-Based Licensing (ABL). If AppDynamics Infrastructure-Based Licensing
+                              (IBL) is used instead, license consumption is based on vCPU/core count per host, regardless of the number of Java, .NET, or
+                              Machine Agents running on that host. License requirement changes based on AppDynamics ABL or IBL license is planned to be
+                              used.
+
+Machine Agent (Release 20.11 or later) is required on each host for accurate CPU core detection; if Machine Agent is not present
+                                          or CPU count cannot be detected, a default of 4 CPU cores per host is assumed for APM-monitored hosts.
 
 ## Prerequisites
 
@@ -274,6 +399,96 @@ If an update is made to the existing configuration and the node is not restarted
 ### Test Connection with AppDynamics Controller
 
 To test whether the configured Windows and VOS nodes are able to connect to the AppDynamics controller, run the utils app-monitoring test-connection command.
+
+### Import Application Monitoring Controller certificates to Machine Agent and Application Server Agent Trust Stores
+
+To import private or public CA certificate chains of App-Monitoring Controller into the respective App-Monitoring Machine
+                                 Agent and App-Monitoring Application Server Agent trust stores of the VOS-based components (Finesse, IdS, CUIC, LD, and VVB),
+                                 run the utils app-monitoring controller-certificate import command.
+
+This command is available only when you install the ucos.appdAgentsCertImportCLI.1262.cop file.
+
+Run this CLI separately on publisher and subscriber nodes.
+
+Command
+
+utils app-monitoring controller-certificate import
+
+Description
+
+This command is used to import private or public CA certificate chains into App-Monitoring Machine Agent and App-Monitoring
+                                             Application Server Agent trust stores of the VOS-based components from an SFTP server location. Ensure that you run this command
+                                             on the respective VOS-based component servers.
+
+Expected Inputs
+
+SFTP Server
+
+SFTP User
+
+SFTP User's Password
+
+SFTP Directory
+
+Certificate File Name
+
+Expected Outcome
+
+Displays whether the certificates have been successfully imported to the App-Monitoring Agent trust stores.
+
+### View certificates available in the App-Monitoring Machine Agent Trust Store
+
+To view the certificates in the App-Monitoring Machine Agent trust store of the VOS-based components (Finesse, IdS, CUIC,
+                                 LD, and VVB), run the utils app-monitoring display machine-agent-trust-store-certs command.
+
+This command is available only when you install the ucos.appdAgentsCertImportCLI.1262.cop file.
+
+Run this CLI separately on publisher and subscriber nodes.
+
+Command
+
+utils app-monitoring display machine-agent-trust-store-certs
+
+Description
+
+This command is used to view the certificate aliases that are present in the App-Monitoring Machine Agent trust store of the
+                                             VOS-based components. Ensure that you run this command on the respective component servers.
+
+Expected Inputs
+
+None.
+
+Expected Outcome
+
+Displays the certificate aliases present in the App-Monitoring Machine Agent trust store. In case of any failure, details
+                                             about failure is displayed in the CLI along with reference to log for more details.
+
+### View certificates available in the App-Monitoring Application Server Agent Trust Store
+
+To view the certificates in the App-Monitoring Application Server Agent trust store of the VOS-based components (Finesse,
+                                 IdS, CUIC, LD, and VVB), run the utils app-monitoring display appserver-agent-trust-store-certs command.
+
+This command is available only when you install the ucos.appdAgentsCertImportCLI.1262.cop file.
+
+Run this CLI separately on publisher and subscriber nodes.
+
+Command
+
+utils app-monitoring display appserver-agent-trust-store-certs
+
+Description
+
+This command is used to view the certificate aliases that are present in the App-Monitoring Application Server Agent trust
+                                             store of the VOS-based components. Ensure that you run this command on the respective VOS component servers.
+
+Expected Inputs
+
+None.
+
+Expected Outcome
+
+Displays the certificate aliases present in the App-Monitoring Application Server Agent trust store. In case of any failure,
+                                             details about failure is displayed in the CLI along with reference to log for more details.
 
 ### Configure Thresholds and Alerts for Monitoring
 
@@ -736,6 +951,38 @@ HTTPS App Monitoring proxy is not supported by AppDynamics Agents on Windows nod
                                              in AppDynamics controller. |
 |---|---|
 
+| Note | This information is provided for planning purposes only. |
+|---|---|
+
+| Agent Type | License Consumption |
+|---|---|
+| JVM App Agent | 1 license per JVM app agent instance. A single component may run more than one JVM app agent per node. |
+| .NET Agent | 1 license per Windows OS instance (VM), covering all CLRs (.Net Application Common Language Runtime) on that VM. |
+| Machine Agent | 1 license per VM (Server Visibility). |
+
+| Note | The LiveData-Worker JVM App Agent is disabled by default. If monitoring is enabled using the set live-data appd-monitoring enable CLI, an additional license is consumed for each node in the LiveData cluster. |
+|---|---|
+
+| Node | JVM App Agent Licenses | Machine Agent Licenses | Total |
+|---|---|---|---|
+| Finesse Publisher | 2 | 1 | 3 |
+| Finesse Subscriber | 2 | 1 | 3 |
+| Total License Required |  |  | 6 |
+
+| Node | Machine Agent Licenses | .NET Agent Licenses | Total |
+|---|---|---|---|
+| Finesse Publisher | 1 | 1 | 2 |
+| Finesse Subscriber | 1 | 1 | 2 |
+| Total License Required |  |  | 4 |
+
+| Note | Only components selected for monitoring need to be included in the calculation. It is not required to include the nodes which
+                                          are not planned to be instrumented in the deployment. |
+|---|---|
+
+| Note | Machine Agent (Release 20.11 or later) is required on each host for accurate CPU core detection; if Machine Agent is not present
+                                          or CPU count cannot be detected, a default of 4 CPU cores per host is assumed for APM-monitored hosts. |
+|---|---|
+
 | Note | For end user monitoring on Finesse, you must procure AppDynamics ENUM license. |
 |---|---|
 
@@ -847,6 +1094,39 @@ HTTPS App Monitoring proxy is not supported by AppDynamics Agents on Windows nod
 | Description | This command is used to test the connectivity of selected Windows or VOS nodes to the AppDynamics controller. |
 | Expected Inputs | Select the nodes for which you want to test the connectivity status. |
 | Expected Outcome | Shows whether the selected nodes are able to connect to the AppDynamics controller. |
+
+| Note | This command is available only when you install the ucos.appdAgentsCertImportCLI.1262.cop file. Run this CLI separately on publisher and subscriber nodes. |
+|---|---|
+
+| Command | utils app-monitoring controller-certificate import |
+|---|---|
+| Description | This command is used to import private or public CA certificate chains into App-Monitoring Machine Agent and App-Monitoring
+                                             Application Server Agent trust stores of the VOS-based components from an SFTP server location. Ensure that you run this command
+                                             on the respective VOS-based component servers. |
+| Expected Inputs | SFTP Server SFTP User SFTP User's Password SFTP Directory Certificate File Name |
+| Expected Outcome | Displays whether the certificates have been successfully imported to the App-Monitoring Agent trust stores. |
+
+| Note | This command is available only when you install the ucos.appdAgentsCertImportCLI.1262.cop file. Run this CLI separately on publisher and subscriber nodes. |
+|---|---|
+
+| Command | utils app-monitoring display machine-agent-trust-store-certs |
+|---|---|
+| Description | This command is used to view the certificate aliases that are present in the App-Monitoring Machine Agent trust store of the
+                                             VOS-based components. Ensure that you run this command on the respective component servers. |
+| Expected Inputs | None. |
+| Expected Outcome | Displays the certificate aliases present in the App-Monitoring Machine Agent trust store. In case of any failure, details
+                                             about failure is displayed in the CLI along with reference to log for more details. |
+
+| Note | This command is available only when you install the ucos.appdAgentsCertImportCLI.1262.cop file. Run this CLI separately on publisher and subscriber nodes. |
+|---|---|
+
+| Command | utils app-monitoring display appserver-agent-trust-store-certs |
+|---|---|
+| Description | This command is used to view the certificate aliases that are present in the App-Monitoring Application Server Agent trust
+                                             store of the VOS-based components. Ensure that you run this command on the respective VOS component servers. |
+| Expected Inputs | None. |
+| Expected Outcome | Displays the certificate aliases present in the App-Monitoring Application Server Agent trust store. In case of any failure,
+                                             details about failure is displayed in the CLI along with reference to log for more details. |
 
 | Note | You can also view, create, overwrite, delete, export, apply and disable the
                                                 template on the application. For details on managing templates, see https://docs.appdynamics.com/display/PRO21/Configure+and+Manage+Alerting+Templates . |
