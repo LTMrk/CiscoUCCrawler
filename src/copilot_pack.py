@@ -152,7 +152,47 @@ ETIQUETAS["webex-api"] = "APIs REST de Webex (OpenAPI)"
 ETIQUETAS["webex-repos"] = "Documentacion de repositorios GitHub (SDKs, ejemplos de integracion)"
 
 
+# Doc-sets de developer.cisco.com (DevNet) -> producto al que pertenecen.
+#
+# Se consulta ANTES que PRODUCTOS y no se fusiona con esa lista a proposito:
+# ETIQUETAS se construye por comprension sobre PRODUCTOS, asi que repetir una
+# clave con etiqueta distinta pisaria la buena.
+#
+# El criterio es integrar, no separar: la referencia de API de AXL pertenece al
+# mismo bloque que la guia de administracion de CUCM. Si el agente responde
+# sobre CUCM, quiere las dos cosas a la vez.
+#
+# Sin esto, la mayoria de rutas de DevNet caeria en "misc", porque las regex de
+# PRODUCTOS estan escritas sobre rutas de www.cisco.com. Algunas ya casan por
+# casualidad (/docs/finesse -> cvp, /docs/jabber-bots -> impresence); las que
+# no lo hacen son justo las mas densas: axl, contact-center-express,
+# ios-xe-voip, cer-config y roomdevices.
+DOCSETS_DEVNET = [
+    (r"/(docs|site)/(axl|tapi|jtapi|serviceability|ip-phone-services"
+     r"|extension-mobility|webdialer)(/|$)", "cucm"),
+    (r"/(docs|site)/(finesse|customer-voice-portal|socialminer"
+     r"|customer-collaboration-platform|intelligence-center)(/|$)", "cvp"),
+    (r"/(docs|site)/contact-center-express(/|$)", "uccx"),
+    (r"/(docs|site)/(packaged-contact-center|enterprise-chat-and-email"
+     r"|task-routing)(/|$)", "ucce"),
+    (r"/(docs|site)/(unity-connection|cer|cer-config"
+     r"|cisco-emergency-responder[a-z0-9-]*)(/|$)", "cuc"),
+    (r"/(docs|site)/(roomdevices|xapi)(/|$)", "endpoints"),
+    (r"/(docs|site)/(cisco-)?meeting-server(/|$)", "cms"),
+    (r"/(docs|site)/jabber[a-z-]*(/|$)", "impresence"),
+    (r"/(docs|site)/ios-xe-voip(/|$)", "cube"),
+    (r"/(docs|site)/webex-contact-center(/|$)", "webexcloud"),
+]
+
+DOCSETS_DEVNET = [(re.compile(p, re.I), clave) for p, clave in DOCSETS_DEVNET]
+
+
 def clasificar_producto(url):
+    if "developer.cisco.com" in url:
+        for patron, clave in DOCSETS_DEVNET:
+            if patron.search(url):
+                return clave
+
     for clave, _, patron in PRODUCTOS:
         if re.search(patron, url, re.I):
             return clave

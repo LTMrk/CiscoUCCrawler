@@ -212,9 +212,14 @@ def generar(ruta_salida=RUTA_SALIDA, fecha=None):
         "",
         "Decisiones deliberadas, documentadas en `config.json`:",
         "",
-        "- **developer.webex.com y developer.cisco.com**: son aplicaciones "
-        "JavaScript que devuelven un shell vacío. La referencia de API se "
-        "obtiene de los OpenAPI oficiales en su lugar.",
+        "- **developer.webex.com**: la referencia de API se obtiene de los "
+        "OpenAPI oficiales en su lugar (`webex-openapi-specs`), que es el "
+        "mismo origen del que se publica ese portal.",
+        "- **De developer.cisco.com, todo lo que no es colaboración**: Meraki, "
+        "DNA Center, SD-WAN, NSO, Crosswork, XDR, Spaces, UCS/HyperFlex y "
+        "PSIRT quedan fuera por allowlist. También `/codeexchange/`, que "
+        "duplica la ingesta de repositorios de GitHub, y `/web/`, que el "
+        "`robots.txt` del sitio prohíbe.",
         "- **Productos en EoL** (Webex Experience Management) y **repos "
         "deprecados** (`spark-ios-sdk`, `spark-android-sdk`): documentar algo "
         "retirado produce respuestas activamente incorrectas.",

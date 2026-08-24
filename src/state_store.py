@@ -15,7 +15,8 @@ Un único manifiesto (logs/manifest.json) con una entrada por URL:
       "last_changed":  ISO timestamp del último cambio real de contenido
       "unchanged_runs": nº de ejecuciones consecutivas sin cambio
       "next_check":    ISO timestamp — antes de esta fecha no se revisita
-      "status":        "active" | "gone" | "blocked"
+      "status":        "active" | "gone" | "blocked" | "redirect"
+      "redirect_to":   URL destino, solo si status == "redirect"
       "fail_count":    fallos consecutivos
     }
 
@@ -122,6 +123,11 @@ class ManifestStore:
         if entrada.get("status") == "blocked":
             # No se reintenta automáticamente: requiere revisión manual.
             return False
+        if (entrada.get("status") == "redirect"
+                and entrada.get("http_status") in (301, 308)):
+            # Redirección permanente: esta URL no volverá a servir contenido.
+            # Las temporales (302/303/307) sí se revisan cuando toca su TTL.
+            return False
         proxima = parse_iso(entrada.get("next_check", ""))
         if proxima is None:
             return True
@@ -227,6 +233,29 @@ class ManifestStore:
         ruta = os.path.join(DIR_DOCS, f"{entrada['doc_id']}.md")
         if os.path.exists(ruta):
             os.remove(ruta)
+
+    def registrar_redireccion(self, url, destino, codigo=301):
+        """3xx: el recurso existe, pero en otra URL.
+
+        No es un fallo (no incrementa fail_count) ni un tombstone (no borra
+        nada ni emite delta 'removed'): el documento se indexará bajo su URL
+        canónica, que es la que se encola en su lugar. Confundir esto con un
+        fallo era justo lo que aparcaba las URLs de developer.cisco.com.
+        """
+        entrada = self.entradas.setdefault(url, {
+            "doc_id": doc_id_para(url), "content_sha": None,
+            "first_seen": iso(ahora()), "unchanged_runs": 0, "fail_count": 0,
+        })
+        t = ahora()
+        entrada["status"] = "redirect"
+        entrada["redirect_to"] = destino
+        entrada["http_status"] = codigo
+        entrada["last_seen"] = iso(t)
+        entrada["next_check"] = iso(t + self._calcular_ttl(
+            entrada.get("unchanged_runs", 0)))
+        # Limpia los intentos que la URL arrastrase de cuando un 3xx se
+        # clasificaba como fallo.
+        entrada["fail_count"] = 0
 
     def registrar_bloqueo(self, url, codigo):
         entrada = self.entradas.setdefault(url, {

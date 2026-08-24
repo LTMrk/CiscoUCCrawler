@@ -7,12 +7,16 @@
     "respect_robots": true,
     "bootstrap_budget": 400,
     "incremental_budget": 120,
-    "boilerplate_threshold": 0.25
+    "boilerplate_threshold": 0.25,
+    "hosts_barra_final": [
+      "developer.cisco.com"
+    ]
   },
   "domain_depths": {
     "www.cisco.com": 3,
     "community.cisco.com": 1,
-    "help.webex.com": 2
+    "help.webex.com": 2,
+    "developer.cisco.com": 3
   },
   "_doc_path_allowlist_regex": "Deny-by-default. Si un dominio aparece aqui, la URL DEBE casar con alguna de sus regex para ser rastreada. Un dominio ausente de este mapa se rige solo por la blocklist.",
   "path_allowlist_regex": {
@@ -34,13 +38,20 @@
     "help.webex.com": [
       "^https://help\\.webex\\.com/(en-us/)?article/",
       "^https://help\\.webex\\.com/en-us/all-products"
+    ],
+    "developer.cisco.com": [
+      "^https?://developer\\.cisco\\.com/docs/?$",
+      "^https?://developer\\.cisco\\.com/docs/(axl|finesse|contact-center-express|packaged-contact-center|customer-voice-portal|customer-collaboration-platform|enterprise-chat-and-email|jabber-bots|ios-xe-voip|cer-config|cisco-emergency-responder[a-z0-9-]*|meeting-server|unity-connection|roomdevices|xapi|webex-contact-center|task-routing|socialminer|serviceability|intelligence-center)(/|$)",
+      "^https?://developer\\.cisco\\.com/site/(collaboration|axl|unity-connection|roomdevices|contact-center-express|finesse|customer-voice-portal|socialminer|cer|tapi|jtapi|ip-phone-services|extension-mobility|webdialer|task-routing|cisco-meeting-server|hcs)(/|$)"
     ]
   },
   "_doc_discovery_only_regex": "Paginas que SI se rastrean para extraer enlaces pero NO se indexan como documentos. Son indices de navegacion: su texto es una lista de titulos, que como chunk vectorial es puro ruido y ademas compite en similitud con los documentos reales.",
   "discovery_only_regex": [
     "^https://www\\.cisco\\.com/c/en/us/support/[^/]+/[^/]+/(series|model|tsd-products-support-series-home)\\.html$",
     "^https://www\\.cisco\\.com/c/en/us/support/[^/]+/[^/]+/products-[a-z-]+-(list|listing)\\.html$",
-    "^https://help\\.webex\\.com/en-us/all-products"
+    "^https://help\\.webex\\.com/en-us/all-products",
+    "^https?://developer\\.cisco\\.com/docs/?$",
+    "^https?://developer\\.cisco\\.com/site/collaboration/?$"
   ],
   "_doc_blocked_regex": "Segundo filtro: ruido que vive DENTRO de rutas permitidas o en dominios sin allowlist.",
   "blocked_regex": [
@@ -59,7 +70,8 @@
     "/t5/custom/page/",
     "\\.(pdf|zip|exe|tar|gz|iso|bin|sgn|k9|msi|dmg)$",
     "[?&](print|pdf|download)=",
-    "/print/?$"
+    "/print/?$",
+    "^https?://developer\\.cisco\\.com/codeexchange/"
   ],
   "blocked_patterns": [
     "careers.cisco.com",
@@ -132,15 +144,32 @@
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-series/products-maintenance-guides-list.html",
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/products-implementation-design-guides-list.html",
     "https://help.webex.com/en-us/all-products",
-
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/APIs_Pages/b_Cisco_Unity_Connection_APIs.html",
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html",
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_01.html",
-
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_overview.html",
     "https://www.cisco.com/c/en/us/support/unified-communications/vg-series-gateways/products-installation-and-configuration-guides-list.html",
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/vg450-scg_chapter_00.html",
-    "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-configuration-examples-list.html"
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-configuration-examples-list.html",
+    "https://developer.cisco.com/docs/",
+    "https://developer.cisco.com/site/collaboration/",
+    "https://developer.cisco.com/docs/axl/",
+    "https://developer.cisco.com/docs/finesse/",
+    "https://developer.cisco.com/docs/contact-center-express/",
+    "https://developer.cisco.com/docs/packaged-contact-center/",
+    "https://developer.cisco.com/docs/customer-voice-portal/",
+    "https://developer.cisco.com/docs/enterprise-chat-and-email/",
+    "https://developer.cisco.com/docs/jabber-bots/",
+    "https://developer.cisco.com/docs/ios-xe-voip/",
+    "https://developer.cisco.com/docs/cer-config/",
+    "https://developer.cisco.com/site/axl/",
+    "https://developer.cisco.com/site/unity-connection/",
+    "https://developer.cisco.com/site/roomdevices/",
+    "https://developer.cisco.com/site/contact-center-express/",
+    "https://developer.cisco.com/site/socialminer/",
+    "https://developer.cisco.com/site/ip-phone-services/",
+    "https://developer.cisco.com/site/extension-mobility/",
+    "https://developer.cisco.com/site/webdialer/"
   ],
   "_doc_degradadas": "Retiradas de las semillas. Motivo tecnico en cada entrada.",
   "degraded_seeds": [
@@ -216,6 +245,11 @@
       "pattern": "help.webex.com",
       "css_selector": null,
       "js_code": "await new Promise(r => setTimeout(r, 2000));"
+    },
+    {
+      "pattern": "developer.cisco.com",
+      "css_selector": null,
+      "js_code": "await new Promise(r => setTimeout(r, 2500));"
     }
   ],
   "_doc_repos_allowlist": "Repos de github.com/webex cuyo Markdown se ingiere. Aportan la documentacion de integracion (SDKs, widgets, embedded apps) que vive en developer.webex.com, que es una SPA no rastreable. La organizacion tiene 68 repos y NO se ingieren todos: quedan fuera los deprecados por su propio README (spark-ios-sdk, spark-android-sdk, spark-ios-sdk-example, SparkBotDemo), porque documentacion de algo retirado da respuestas activamente incorrectas; la fontaneria de bajo nivel (webrtc-core, webrtc-sframe, ts-sdp, ts-events, web-capabilities), que no responde a ninguna pregunta de colaboracion; y web-styleguide, que es guia de estilo interna.",
@@ -237,7 +271,6 @@
     "webex/webexconnect-android-sdk",
     "webex/webexconnect-javascript-sdk",
     "webex/dataSourceSchemas",
-
     "CiscoDevNet/cvp-sample-code",
     "CiscoDevNet/finesse-sample-code",
     "CiscoDevNet/webexcc-digital-channels",
@@ -261,5 +294,6 @@
     "webex-device",
     "webex-ucm"
   ],
-  "_doc_openapi_specs_allowlist": "Prefijos de fichero de public-spec/ a ingerir. Vacio o ausente = todos. Excluidos por defecto: webex-broadworks y webex-wholesale (escenarios de service provider). Cada spec fuera del ambito del agente son cientos de operaciones que compiten en el espacio vectorial sin poder responder nunca."
+  "_doc_openapi_specs_allowlist": "Prefijos de fichero de public-spec/ a ingerir. Vacio o ausente = todos. Excluidos por defecto: webex-broadworks y webex-wholesale (escenarios de service provider). Cada spec fuera del ambito del agente son cientos de operaciones que compiten en el espacio vectorial sin poder responder nunca.",
+  "_doc_developer_cisco_com": "developer.cisco.com SI se rastrea, al contrario de lo que decia la version anterior de este proyecto. La causa real de que no entrara no era una SPA vacia: DevNet canonicaliza sus rutas CON barra final y normalize_url la quitaba, asi que cada URL respondia 301 y, al no haber rama 3xx en fetch_policy, se contaba como fallo. Quedaron 127 rebotes en logs/error.log sobre /docs/finesse, /docs/customer-voice-portal, /docs/packaged-contact-center, /docs/enterprise-chat-and-email y /docs/contact-center-express, entre otros. Se arregla con global_settings.hosts_barra_final y el manejo de redirecciones. El alcance es deliberadamente colaboracion: al declarar el dominio aqui, esta_en_allowlist() pasa a deny-by-default y quedan fuera Meraki, DNA Center, SD-WAN, NSO, Crosswork, XDR, Spaces, UCS/HyperFlex y PSIRT, que son la mayor parte del sitio. /codeexchange/ tambien queda fuera: duplica repos_ingest.py y lo unico que habia ingerido eran extensiones de AppDynamics. La lista de doc-sets se construyo con URLs realmente observadas en logs/error.log y logs/frontier.json; tools/probe_devnet.py la revalida contra el sitio vivo. robots.txt prohibe /web/ (JTAPI, TAPI, AXL legacy, SXML, wiki de CUPI) y ahi no se entra."
 }
