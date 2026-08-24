@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-pcdadmin-12-5-1-cucm-b-pcd-rns-1251-cucm-b-pcd-rns-1251-chapter-01-html-54793eaed4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-rns-1251/cucm_b_pcd-rns-1251_chapter_01.html
-retrieved_at: 2026-08-21T01:29:10.742448+00:00
+retrieved_at: 2026-08-24T10:57:27.066707+00:00
 ---
 
 Release Notes for Cisco Prime Collaboration Deployment, Release 12.5(1)
@@ -12,7 +12,7 @@ Find Matches in This Book
 
 ## Results
 
-Updated: January 22, 2019
+Updated: January 23, 2019
 
 Chapter: New and Changed Information
 
@@ -79,14 +79,14 @@ Upgrade Migrate—Enables you to upgrade a cluster chained with a migration task
 
 For example: Prime Collaboration Deployment upgrade followed by a Virtual-to-Virtual Prime Collaboration Deployment Migration.
 
-## Meltdown Vulnerabilities During Upgrade
+## Spectre/Meltdown Vulnerabilities During Upgrade
 
 This release of Unified Communications Manager, Cisco IM and Presence Service, Cisco Emergency Responder, and Cisco Prime
                               Collaboration Deployment contain software patches to address the Meltdown and Spectre microprocessor vulnerabilities.
 
 Before you upgrade to Release 12.5(1) or above, we recommend that you work with your channel partner or account team to use
-                              the Cisco Collaboration Sizing Tool to compare your current deployment to an upgraded 12.5(1)SU1 deployment. If required,
-                              change VM resources to ensure that your upgraded deployment provides the best performance.
+                              the Cisco Collaboration Sizing Tool to compare your current deployment to an upgraded deployment. If required, change VM resources
+                              to ensure that your upgraded deployment provides the best performance.
 
 | Note | If the user select the multiple cop files for upgrade then the task sequence will load up according to the selected COP files. |
 |---|---|

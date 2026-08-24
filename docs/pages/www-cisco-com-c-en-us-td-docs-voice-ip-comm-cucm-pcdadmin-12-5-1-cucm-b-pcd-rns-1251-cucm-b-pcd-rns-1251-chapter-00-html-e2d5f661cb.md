@@ -1,14 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-pcdadmin-12-5-1-cucm-b-pcd-rns-1251-cucm-b-pcd-rns-1251-chapter-00-html-e2d5f661cb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-rns-1251/cucm_b_pcd-rns-1251_chapter_00.html
-retrieved_at: 2026-08-21T01:29:06.755695+00:00
+retrieved_at: 2026-08-24T10:57:22.964598+00:00
 ---
 
 Release Notes for Cisco Prime Collaboration Deployment, Release 12.5(1)
 
 # Release Notes for Cisco Prime Collaboration Deployment, Release 12.5(1)
-
-Find Matches in This Book
 
 ## Results
 

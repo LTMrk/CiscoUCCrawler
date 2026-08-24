@@ -1,12 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-5-1-su2-cucm-b-release-notes-for-cucm-imp-1251su2-cucm-b-r-5bb2d31758
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/SU2/cucm_b_release-notes-for-cucm-imp-1251su2/cucm_b_release-notes-for-cucm-imp-1251su2_chapter_011.html
-retrieved_at: 2026-08-21T01:30:17.181382+00:00
+retrieved_at: 2026-08-24T11:02:16.068102+00:00
 ---
 
 Release Notes for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)SU2
 
 # Release Notes for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)SU2
+
+## Results
 
 Updated: February 3, 2020
 

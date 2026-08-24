@@ -1,18 +1,5 @@
 {
- "added": [
-  "CiscoDevNet/jabber-web-sample/README.md"
- ],
- "modified": [
-  "webex/webex-js-sdk/packages/calling/ai-docs/patterns/error-handling-patterns.md",
-  "webex/webex-js-sdk/packages/calling/ai-docs/patterns/event-patterns.md",
-  "webex/webex-js-sdk/packages/calling/src/CallingClient/line/ai-docs/AGENTS.md",
-  "webex/webex-js-sdk/packages/calling/src/CallingClient/line/ai-docs/ARCHITECTURE.md",
-  "webex/webex-js-sdk/packages/calling/src/CallingClient/line/ai-docs/line-spec.md",
-  "webex/webex-js-sdk/packages/calling/src/CallingClient/registration/ai-docs/AGENTS.md",
-  "webex/webex-js-sdk/packages/calling/src/CallingClient/registration/ai-docs/ARCHITECTURE.md",
-  "webex/webex-js-sdk/packages/calling/src/CallingClient/registration/ai-docs/registration-spec.md",
-  "webex/webex-js-sdk/packages/calling/src/mobius-socket/ai-docs/AGENTS.md",
-  "webex/webex-js-sdk/packages/calling/src/mobius-socket/ai-docs/mobius-socket-spec.md"
- ],
+ "added": [],
+ "modified": [],
  "removed": []
 }
