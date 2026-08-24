@@ -2,7 +2,9 @@
 
 Pipeline ETL que construye y mantiene una base de conocimiento sobre **Cisco
 Unified Communications y Webex**, lista para alimentar un RAG (Retrieval-
-Augmented Generation) — en concreto, agentes especialistas de M365 Copilot.
+Augmented Generation) — en concreto, Microsoft 365 Copilot, ya sea desde un
+chat normal (un único ZIP compartido por enlace) o desde un agente
+especialista de Agent Builder para quien tenga esa licencia.
 
 No es un scraper puntual. Corre semanalmente vía GitHub Actions, detecta
 cambios, actualiza lo modificado, retira lo que ha desaparecido en origen y
@@ -10,7 +12,7 @@ deja un inventario legible de qué sabe en cada momento.
 
 ## Para qué sirve
 
-Un agente de soporte de Cisco UC necesita responder con precisión sobre
+Un asistente de soporte de Cisco UC necesita responder con precisión sobre
 CUCM, Unity Connection, Expressway, Contact Center, gateways de voz y las
 APIs de Webex — y que la respuesta cite una fuente real, no que el modelo
 improvise sobre su conocimiento general (que suele ir desactualizado y no
@@ -25,8 +27,10 @@ conocimiento**:
 3. Ingiere documentación de integración desde repositorios GitHub curados
    (SDKs, ejemplos de código).
 4. Detecta y descarta duplicados entre versiones de una misma guía.
-5. Empaqueta el resultado en el formato que un agente de M365 Copilot puede
-   consumir de verdad.
+5. Empaqueta el resultado en el formato que Copilot puede consumir de
+   verdad: por defecto, un único ZIP con todo el conocimiento vigente, listo
+   para subir a OneDrive/SharePoint y compartir por enlace en un chat
+   normal, sin necesitar licencia de agentes.
 6. Publica un inventario (`RESUMEN-CONOCIMIENTO.md`) que dice, en cada
    ejecución, qué cubre el corpus y qué falta.
 
@@ -92,7 +96,7 @@ crawler_ai.py ──┬── openapi_ingest.py   (specs de Webex)
                          │
                          ▼
                   resumen_rag.py                  ──▶  copilot_pack.py
-                  → RESUMEN-CONOCIMIENTO.md              → dist/copilot/  (paquete para el agente)
+                  → RESUMEN-CONOCIMIENTO.md              → dist/copilot/_zips/  (1 ZIP final)
 ```
 
 ## Estructura del repositorio
@@ -107,7 +111,7 @@ src/
   openapi_render.py       conversión de operación OpenAPI a documento
   repos_ingest.py         ingesta de Markdown desde repos GitHub curados
   resumen_rag.py           genera RESUMEN-CONOCIMIENTO.md
-  copilot_pack.py           empaqueta el corpus para un agente de M365 Copilot
+  copilot_pack.py           empaqueta el corpus en un ZIP para Microsoft 365 Copilot
   report.py                  resumen de la ejecución para GitHub Actions
 
 config.json            seeds, allowlists, blocklists, listas curadas de repos y specs
@@ -129,5 +133,5 @@ RESUMEN-CONOCIMIENTO.md inventario del corpus, se regenera en cada ejecución
   contenido retirado quedan registrados y son recuperables en la siguiente
   ejecución, no se tragan.
 - **El corpus se audita solo.** `RESUMEN-CONOCIMIENTO.md` es la fuente de
-  verdad sobre qué cubre el agente hoy, versionada junto al contenido que
+  verdad sobre qué cubre el conocimiento hoy, versionada junto al contenido que
   describe.

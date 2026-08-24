@@ -1,43 +1,53 @@
 """
-copilot_pack.py — Reempaqueta docs/ para agentes especialistas de M365 Copilot.
+copilot_pack.py — Reempaqueta docs/ para consumo desde Microsoft 365 Copilot.
 
 POR QUE EXISTE
 --------------
-El corpus de docs/pages son 8.000+ ficheros .md y ~326 M de caracteres. Eso no
-es consumible por un agente de M365 Copilot tal cual, por tres motivos que la
-documentacion de Microsoft fija de forma explicita:
+El corpus de docs/pages + docs/repos son miles de ficheros .md. Eso no es
+consumible por Copilot tal cual, por motivos que la documentacion de
+Microsoft fija de forma explicita:
 
-  1. `.md` NO esta en la lista de tipos sobre los que el agente razona. Los
+  1. `.md` NO esta en la lista de tipos sobre los que Copilot razona. Los
      formatos de texto plano admitidos son .txt (y .html solo via SharePoint).
      Un .md se sube sin error y despues simplemente no responde nada.
 
-  2. Para conocimiento referenciado como CARPETA de SharePoint, Microsoft
-     recomienda ficheros de <=36.000 caracteres (~15-20 paginas). Por encima de
-     ese umbral "Copilot puede tener problemas para identificar el contenido
-     correcto" porque deja de escanear el fichero entero.
+  2. Sin licencia de Copilot con agentes, la unica via es un chat normal:
+     adjuntar ficheros sueltos (limite de 3 por conversacion cada 24h en la
+     version no licenciada) o compartir un enlace a una carpeta de
+     OneDrive/SharePoint. Un ZIP no sirve como fuente directa: Copilot no lee
+     dentro de un .zip, asi que hay que descomprimirlo en destino.
 
-  3. Copilot no parsea tablas ni formato especial en contenido de SharePoint.
-     Las tablas markdown que emite el sanitizador hay que linealizarlas o su
-     contenido se pierde en el indice.
+  3. Copilot no parsea tablas ni formato especial. Las tablas markdown que
+     emite el sanitizador hay que linealizarlas o su contenido se pierde.
 
 ESTRATEGIA
 ----------
-Un agente por producto. Cada producto es una carpeta de SharePoint que el
-agente referencia como fuente de conocimiento: una URL de carpeta cubre todos
-sus subpaths y consume 1 de las 100 fuentes permitidas.
+Dos perfiles, porque hay dos formas de consumir el resultado con requisitos
+opuestos:
 
-Dentro de cada producto se separa `vigente/` de `historico/`:
+  chat (por defecto)  Pensado para un chat normal de Copilot SIN licencia de
+                       agentes: pocos ficheros grandes (hasta 20 por
+                       producto), empaquetados en un UNICO ZIP final. Se sube
+                       ese ZIP a OneDrive/SharePoint, se descomprime y se
+                       comparte el enlace a la carpeta.
+
+  sharepoint           Pensado para un agente por producto en Agent Builder
+                       (requiere licencia de Copilot con agentes): muchos
+                       ficheros pequenos (<=36.000 caracteres) organizados en
+                       carpetas, una por producto, para que cada agente
+                       referencie solo la suya.
+
+En ambos perfiles se separa `vigente/` de `historico/`:
 
     dist/copilot/cucm/vigente/...    <- ultima version de cada guia
     dist/copilot/cucm/historico/...  <- versiones anteriores
 
-No se borra nada. Pero el agente apunta solo a `vigente/`, porque seis service
-releases de la misma guia producen chunks casi identicos que compiten entre si
-en el indice y hunden el recall. Si hace falta un agente de CUCM 12.5, se
-apunta a `historico/`.
+No se borra nada, pero solo `vigente/` entra en el ZIP final o se referencia
+desde un agente, porque seis service releases de la misma guia producen
+chunks casi identicos que compiten entre si en el indice y hunden el recall.
 
 Los capitulos consecutivos de un mismo libro se concatenan hasta llenar el
-presupuesto de 36.000 caracteres, lo que reduce el numero de ficheros sin
+presupuesto de caracteres del perfil, lo que reduce el numero de ficheros sin
 cruzar el umbral. Un capitulo que por si solo pase del limite se parte por
 parrafos.
 """
@@ -751,10 +761,61 @@ def escribir(documentos, dir_salida, perfil, dry_run=False):
     return resumen, avisos
 
 
-GUIA_CABECERA = """# Despliegue de los agentes de M365 Copilot
+# Dos guias distintas porque cada perfil se consume de una forma incompatible
+# con la otra: "chat" es un chat normal de Copilot sin licencia de agentes
+# (un ZIP, un enlace, arrastrar ficheros), "sharepoint" es un agente con
+# carpeta propia (requiere licencia de Copilot con agentes). Mezclar las
+# instrucciones en una sola guia le daria al lector pasos que no puede seguir.
 
-Generado por `src/copilot_pack.py`. No editar a mano: se reescribe en cada
-ejecucion.
+GUIA_CABECERA_CHAT = """# Como usar este conocimiento en Microsoft 365 Copilot
+
+Generado por `src/copilot_pack.py --perfil chat`. No editar a mano: se
+reescribe en cada ejecucion.
+
+## Que hay aqui
+
+Un ZIP unico (`_zips/copilot-vigente-completo.zip`) con TODO el conocimiento
+vigente, organizado en una carpeta por producto dentro del archivo. Pensado
+para un chat normal de Copilot, **sin** licencia de agentes: no hace falta
+crear nada en Agent Builder, solo compartir un enlace o arrastrar ficheros.
+
+Los ficheros son `.txt` porque `.md` no esta entre los tipos que Copilot lee:
+un `.md` se sube sin dar error y despues no responde nada. Ninguno pasa de
+{limite} caracteres.
+
+## Aviso importante: el ZIP es solo transporte
+
+**Copilot no lee dentro de un archivo .zip.** Si compartes el enlace al .zip
+tal cual, Copilot lo vera pero no podra usar su contenido. Hay que
+descomprimirlo antes de que el chat lo use.
+
+## Como montarlo
+
+1. Descarga y descomprime `copilot-vigente-completo.zip`.
+2. Sube la carpeta descomprimida (no el .zip) a tu OneDrive o SharePoint.
+3. Comparte el enlace **a la carpeta**, con permiso de lectura para quien
+   vaya a usar el chat.
+4. En una conversacion de Microsoft 365 Copilot, pega ese enlace, o bien
+   arrastra directamente hasta 20 de los `.txt` de la carpeta que necesites
+   como adjuntos (limite de la version sin licencia de agentes: 3 ficheros
+   por conversacion cada 24h, hasta 512 MB cada uno).
+5. En el primer mensaje, indica el comportamiento esperado, por ejemplo:
+
+> Eres un especialista en Cisco Unified Communications. Responde solo a
+> partir de los ficheros adjuntos. Cita siempre la linea `Fuente:` del
+> documento en el que te bases. Si la respuesta depende de la version,
+> dilo de forma explicita. Si la documentacion no cubre la pregunta, dilo
+> en lugar de deducir la respuesta.
+
+## Inventario
+
+"""
+
+GUIA_CABECERA_SHAREPOINT = """# Despliegue de los agentes de M365 Copilot
+
+Generado por `src/copilot_pack.py --perfil sharepoint`. No editar a mano: se
+reescribe en cada ejecucion. **Requiere licencia de Copilot con agentes
+(Agent Builder)**; sin ella, usa el perfil `chat` en su lugar.
 
 ## Que hay aqui
 
@@ -802,44 +863,20 @@ Sugerencia de instrucciones para cada agente:
 """
 
 
-def comprimir(dir_salida, vigencia="vigente"):
-    """Un ZIP por producto, como CONTENEDOR DE TRANSPORTE.
-
-    Aviso importante: Copilot NO lee dentro de un ZIP. El formato no aparece en
-    ninguna de las listas de tipos soportados, ni como origen de conocimiento
-    del agente ni como adjunto de chat; se sube sin error y su contenido queda
-    invisible. Estos ZIP sirven para MOVER los ficheros (subirlos a SharePoint
-    de una vez en lugar de arrastrar miles, o pasarlos a otra maquina), no para
-    que el agente los consuma. Hay que descomprimirlos en destino.
-    """
-    dir_zips = os.path.join(dir_salida, "_zips")
-    os.makedirs(dir_zips, exist_ok=True)
-    generados = []
-    for producto in sorted(os.listdir(dir_salida)):
-        origen = os.path.join(dir_salida, producto, vigencia)
-        if not os.path.isdir(origen):
-            continue
-        destino = os.path.join(dir_zips, f"{producto}-{vigencia}.zip")
-        n = 0
-        with zipfile.ZipFile(destino, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
-            for raiz, _, ficheros in os.walk(origen):
-                for fichero in sorted(ficheros):
-                    ruta = os.path.join(raiz, fichero)
-                    z.write(ruta, os.path.relpath(ruta, origen))
-                    n += 1
-        generados.append((producto, n, os.path.getsize(destino)))
-    return generados
-
-
 def comprimir_todo(dir_salida, vigencia="vigente",
                    nombre="copilot-vigente-completo.zip"):
-    """Un unico ZIP con el contenido vigente de TODOS los productos.
+    """Empaqueta TODO el conocimiento vigente en un unico ZIP.
 
-    Conserva la carpeta de producto dentro del archivo, para que al
-    descomprimir siga sabiendose a que tecnologia pertenece cada fichero.
+    Salida final del pipeline: un solo archivo, listo para subir a OneDrive y
+    compartir un unico enlace. Conserva la carpeta de producto dentro del
+    archivo, para que al descomprimir siga sabiendose a que tecnologia
+    pertenece cada fichero.
 
-    Mismo aviso que en comprimir(): Copilot no lee dentro de un ZIP. Esto es
-    transporte.
+    Aviso importante: Copilot NO lee dentro de un ZIP. El formato no aparece
+    en ninguna lista de tipos soportados, ni como origen de conocimiento de
+    un agente ni como adjunto de chat; se sube sin error y su contenido queda
+    invisible. Este ZIP es transporte: hay que descomprimirlo en destino y
+    compartir el enlace a la CARPETA resultante, no al .zip.
     """
     dir_zips = os.path.join(dir_salida, "_zips")
     os.makedirs(dir_zips, exist_ok=True)
@@ -865,9 +902,10 @@ def _miles(n):
     return f"{n:,}".replace(",", ".")
 
 
-def escribir_guia(dir_salida, resumen, limite):
+def escribir_guia(dir_salida, resumen, limite, perfil="chat"):
     """Emite la guia de despliegue junto a la salida, con el inventario real."""
-    lineas = [GUIA_CABECERA.format(limite=_miles(limite))]
+    cabecera = GUIA_CABECERA_SHAREPOINT if perfil == "sharepoint" else GUIA_CABECERA_CHAT
+    lineas = [cabecera.format(limite=_miles(limite))]
     lineas.append("| Producto | Carpeta a subir | Ficheros | M caracteres |")
     lineas.append("|---|---|---:|---:|")
     vigentes = [r for r in resumen if r[1] == "vigente"]
@@ -895,28 +933,47 @@ def escribir_guia(dir_salida, resumen, limite):
     return ruta
 
 
-def main(argv=None):
+# PERFIL_POR_DEFECTO en una constante propia (no solo un default= suelto en
+# argparse) para que un test pueda fijar "el default es chat" importando este
+# valor, en vez de re-parsear texto de ayuda o grepear el fuente.
+PERFIL_POR_DEFECTO = "chat"
+
+
+def construir_parser():
+    """Parser de linea de comandos, en funcion propia para que los tests
+    puedan verificar defaults y choices sin invocar main()."""
     ap = argparse.ArgumentParser(
-        description="Reempaqueta docs/ en carpetas .txt por producto para "
-                    "agentes de M365 Copilot.")
+        description="Reempaqueta docs/ en .txt para Microsoft 365 Copilot. "
+                    "Por defecto (--perfil chat) produce un unico ZIP listo "
+                    "para compartir por enlace, sin necesitar un agente.")
     ap.add_argument("--entrada", default=DIR_ENTRADA)
     ap.add_argument("--entrada-repos", default=DIR_ENTRADA_REPOS,
                     help="Documentacion de repos GitHub (repos_ingest.py). "
                          "Se omite si el directorio no existe.")
     ap.add_argument("--salida", default=DIR_SALIDA)
-    ap.add_argument("--perfil", choices=sorted(PERFILES), default="sharepoint",
-                    help="sharepoint: muchos ficheros de 36.000 chars para "
-                         "referenciar una carpeta. chat: hasta 20 ficheros "
-                         "grandes por producto para adjuntar a una conversacion.")
+    ap.add_argument("--perfil", choices=sorted(PERFILES), default=PERFIL_POR_DEFECTO,
+                    help="chat (por defecto): hasta 20 ficheros grandes por "
+                         "producto, pensado para un unico ZIP que se sube a "
+                         "OneDrive/SharePoint y se comparte por enlace, sin "
+                         "necesitar un agente. sharepoint: muchos ficheros de "
+                         "36.000 chars para referenciar una carpeta desde un "
+                         "agente por producto (requiere licencia de Copilot "
+                         "con agentes).")
     ap.add_argument("--limite", type=int, default=None,
                     help="Sobrescribe el limite de caracteres del perfil.")
     ap.add_argument("--zip", action="store_true",
-                    help="Genera un ZIP por producto en _zips/. Es un "
-                         "contenedor de transporte: Copilot NO lee dentro de "
-                         "un ZIP, hay que descomprimirlo en destino.")
+                    help="Empaqueta todo el conocimiento vigente en UN UNICO "
+                         "ZIP en _zips/. Es un contenedor de transporte: "
+                         "Copilot NO lee dentro de un ZIP, hay que "
+                         "descomprimirlo en destino y compartir el enlace a "
+                         "la carpeta resultante.")
     ap.add_argument("--dry-run", action="store_true",
                     help="Calcula el reparto sin escribir nada.")
-    args = ap.parse_args(argv)
+    return ap
+
+
+def main(argv=None):
+    args = construir_parser().parse_args(argv)
 
     perfil = dict(PERFILES[args.perfil])
     if args.limite:
@@ -949,16 +1006,12 @@ def main(argv=None):
         print(f"AVISO: {aviso}", file=sys.stderr)
 
     if not args.dry_run:
-        ruta_guia = escribir_guia(args.salida, resumen, perfil["limite"])
+        ruta_guia = escribir_guia(args.salida, resumen, perfil["limite"], args.perfil)
         print(f"\nGuia de despliegue: {ruta_guia}")
         if args.zip:
-            print("\nZIP por producto (solo transporte; Copilot no lee dentro "
-                  "de un ZIP):")
-            for producto, nficheros, tam in comprimir(args.salida):
-                print(f"  {producto:12s} {nficheros:5d} ficheros  "
-                      f"{tam / 1e6:7.1f} MB")
             ruta, nficheros, tam = comprimir_todo(args.salida)
-            print(f"\nZIP unico con todo lo vigente:\n  {ruta}\n"
+            print(f"\nZIP final (solo transporte; Copilot no lee dentro de un "
+                  f"ZIP, descomprimir en destino):\n  {ruta}\n"
                   f"  {nficheros} ficheros, {tam / 1e6:.1f} MB")
     return 0
 

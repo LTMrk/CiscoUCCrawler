@@ -11,10 +11,12 @@ from copilot_pack import (
     a_texto_plano,
     clasificar_producto,
     clave_version,
-    comprimir,
+    PERFIL_POR_DEFECTO,
     comprimir_todo,
+    construir_parser,
     empaquetar,
     encabezado,
+    escribir_guia,
     etiqueta_version,
     familia_documental,
     marcar_vigencia,
@@ -302,50 +304,85 @@ def test_los_dos_perfiles_declaran_lo_que_usa_escribir():
         assert perfil["limite"] > 0
 
 
-def test_zip_contiene_los_txt_y_avisa_de_que_es_transporte():
-    """El ZIP es un contenedor de transporte: Copilot no lee dentro de un ZIP.
-    La prueba fija que el contenido llega intacto y con rutas relativas."""
-    import tempfile, zipfile, shutil
-    tmp = tempfile.mkdtemp()
-    try:
-        destino = os.path.join(tmp, "cucm", "vigente")
-        os.makedirs(destino)
-        for i in range(3):
-            with open(os.path.join(destino, f"doc-{i}.txt"), "w", encoding="utf-8") as fh:
-                fh.write(f"Producto: CUCM\nContenido {i}\n")
-        generados = comprimir(tmp)
-        assert len(generados) == 1
-        producto, nficheros, tam = generados[0]
-        assert producto == "cucm" and nficheros == 3 and tam > 0
-        ruta = os.path.join(tmp, "_zips", "cucm-vigente.zip")
-        with zipfile.ZipFile(ruta) as z:
-            assert sorted(z.namelist()) == ["doc-0.txt", "doc-1.txt", "doc-2.txt"]
-            assert b"Contenido 1" in z.read("doc-1.txt")
-    finally:
-        shutil.rmtree(tmp, ignore_errors=True)
-
-
 def test_zip_unico_agrupa_todos_los_productos_conservando_la_carpeta():
-    """El ZIP unico debe mantener el producto dentro del archivo: si se pierde,
-    al descomprimir no hay forma de saber a que tecnologia pertenece cada .txt."""
+    """El ZIP final debe ser UNO SOLO (no uno por producto) y mantener el
+    producto como carpeta dentro del archivo: si se pierde, al descomprimir no
+    hay forma de saber a que tecnologia pertenece cada .txt. Tambien fija que
+    el contenido llega intacto (Copilot no lee dentro de un ZIP; esto es
+    transporte, y un byte alterado en el transporte se cuela en silencio)."""
     import tempfile, zipfile, shutil
     tmp = tempfile.mkdtemp()
     try:
         for producto in ("cucm", "ucce"):
             destino = os.path.join(tmp, producto, "vigente")
             os.makedirs(destino)
-            with open(os.path.join(destino, "guia.txt"), "w", encoding="utf-8") as fh:
-                fh.write(f"Producto: {producto}\n")
+            # newline="" para que el fichero en disco tenga exactamente los
+            # bytes escritos: en Windows, "w" sin esto traduce \n a \r\n y la
+            # comparacion byte-a-byte de mas abajo fallaria por plataforma,
+            # no por un bug real de comprimir_todo().
+            with open(os.path.join(destino, "guia.txt"), "w", encoding="utf-8",
+                      newline="") as fh:
+                fh.write(f"Producto: {producto}\nContenido de {producto}.\n")
         # Lo historico no debe entrar.
         historico = os.path.join(tmp, "cucm", "historico")
         os.makedirs(historico)
-        with open(os.path.join(historico, "vieja.txt"), "w", encoding="utf-8") as fh:
+        with open(os.path.join(historico, "vieja.txt"), "w", encoding="utf-8",
+                  newline="") as fh:
             fh.write("version antigua\n")
 
         ruta, total, tam = comprimir_todo(tmp)
         assert total == 2 and tam > 0
+        # Es EL UNICO zip: no debe haber generado ningun otro fichero en _zips/.
+        dir_zips = os.path.join(tmp, "_zips")
+        assert os.listdir(dir_zips) == [os.path.basename(ruta)]
         with zipfile.ZipFile(ruta) as z:
             assert sorted(z.namelist()) == ["cucm/guia.txt", "ucce/guia.txt"]
+            assert z.read("cucm/guia.txt") == b"Producto: cucm\nContenido de cucm.\n"
+            assert b"version antigua" not in b"".join(
+                z.read(n) for n in z.namelist())
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_perfil_por_defecto_es_chat():
+    """Sin licencia de agentes, sharepoint no es una opcion viable: el default
+    debe ser lo unico que el usuario puede usar de verdad. Se parsean los
+    argumentos reales del parser de main() (sin invocar main, que leeria
+    docs/pages del repo), no una copia que pueda divergir."""
+    args = construir_parser().parse_args([])
+    assert args.perfil == "chat" == PERFIL_POR_DEFECTO
+
+
+def test_guia_de_chat_no_menciona_agentes():
+    """La guia del perfil chat es para quien NO tiene licencia de agentes: no
+    debe darle pasos de Agent Builder que no puede seguir."""
+    import tempfile, shutil
+    tmp = tempfile.mkdtemp()
+    try:
+        resumen = [("cucm", "vigente", "", 1, 1000, 1, 500)]
+        ruta = escribir_guia(tmp, resumen, LIMITE_CHARS, perfil="chat")
+        texto = open(ruta, encoding="utf-8").read()
+        # Puede citar "Agent Builder" para aclarar que no hace falta, pero no
+        # debe darle pasos de configuracion que no puede seguir sin licencia.
+        assert "Nuevo agente" not in texto
+        assert "Configurar" not in texto
+        assert "OneDrive" in texto
+        assert "no lee dentro de un" in texto.lower()
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_guia_de_sharepoint_menciona_licencia_de_agentes():
+    """Al reves: quien use el perfil sharepoint SI tiene licencia de agentes,
+    y debe saber que ese perfil la requiere si alguien mas lo reutiliza."""
+    import tempfile, shutil
+    tmp = tempfile.mkdtemp()
+    try:
+        resumen = [("cucm", "vigente", "", 1, 1000, 1, 500)]
+        ruta = escribir_guia(tmp, resumen, LIMITE_CHARS, perfil="sharepoint")
+        texto = open(ruta, encoding="utf-8").read()
+        assert "licencia" in texto.lower() and "agentes" in texto.lower()
+        assert "Agent Builder" in texto
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
 

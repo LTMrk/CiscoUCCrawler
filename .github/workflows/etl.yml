@@ -209,24 +209,25 @@ jobs:
 
       - name: Generar paquete
         run: |
-          # Dos perfiles porque Copilot tiene dos superficies con limites
-          # opuestos: carpeta de SharePoint (muchos ficheros de 36.000 chars)
-          # y adjunto de chat (hasta 20 ficheros grandes por conversacion).
-          python3 src/copilot_pack.py --salida dist/copilot --perfil sharepoint --zip
-          python3 src/copilot_pack.py --salida dist/copilot-chat --perfil chat --zip
+          # Perfil "chat" (default): sin licencia de Copilot con agentes, la
+          # unica via es un chat normal, y ahi el resultado debe ser UN UNICO
+          # ZIP que se sube a OneDrive/SharePoint y se comparte por enlace.
+          # El perfil "sharepoint" (agentes por producto) sigue disponible
+          # via CLI manual para quien tenga esa licencia, pero no se genera
+          # aqui: nadie lo consume y solo alargaria el job.
+          python3 src/copilot_pack.py --salida dist/copilot --zip
           echo "### Paquete para Copilot" >> "$GITHUB_STEP_SUMMARY"
           echo '```' >> "$GITHUB_STEP_SUMMARY"
-          ls -lh dist/copilot/_zips dist/copilot-chat/_zips >> "$GITHUB_STEP_SUMMARY"
+          ls -lh dist/copilot/_zips >> "$GITHUB_STEP_SUMMARY"
           echo '```' >> "$GITHUB_STEP_SUMMARY"
 
       - name: Publicar paquete
         uses: actions/upload-artifact@v4
         with:
           name: copilot-vigente
-          # Solo los ZIP y la guia: subir los ~10.000 .txt sueltos como
-          # artefacto tarda mas que volver a generarlos.
+          # Solo el ZIP y la guia: subir los .txt sueltos como artefacto
+          # tarda mas que volver a generarlos.
           path: |
             dist/copilot/_zips/
             dist/copilot/_DESPLIEGUE.md
-            dist/copilot-chat/_zips/
           retention-days: 30
