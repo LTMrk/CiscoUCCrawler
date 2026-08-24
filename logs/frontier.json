@@ -1,485 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/bulk-administration-tool/118882-config-vg-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/bulk-administration-tool/200596-Bulk-Configure-Changes-with-Import-Expor.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/117811-configure-vcs-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/200923-Install-an-Expressway-Series-Option-Key.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/200928-Jabber-SIP-URI-calls-over-MRA.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211288-Mobile-and-Remote-Access-MRA-License-K.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211301-Configure-Proxy-WebRTC-With-CMS-over-Exp.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212347-mra-phone-services-failing-due-to-source.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212383-configure-and-troubleshoot-dns-and-certi.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213863-troubleshoot-most-common-issues-for-busi.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216950-cisco-webex-root-ca-certificate-update.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200122-How-to-set-Calling-Line-ID-Presentation.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ip-manager-assistant-cisco-unified-callmanager-40/200159-Configure-and-Troubleshoot-Cisco-IP-Mana.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/213902-jabber-for-android-quick-start-guide.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/116682-technote-jabber-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/213951-jabber-for-mac-quick-start-guide.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116433-probsol-jabber-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116446-technote-product-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116517-problem-jabber-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118161-technote-jabber-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118999-config-imaddress-jabber-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/119432-config-jabber-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200120-Troubleshoot-Call-Decline-Issues-in-Jabb.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200539-Configuration-of-Enterprise-Group-via-ED.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200637-Avoid-Jabber-Authentication-with-the-Web.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/201016-TechNote-on-Customization-of-Jabber-MSI.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212180-Troubleshoot-Jabber-for-Windows-auto-upd.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212429-configure-jabber-to-use-custom-audio-and.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/217563-enable-jabber-log-in-for-cucm-local-user.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221643-troubleshoot-pdd-in-webex-calling-with-p.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212044-Configure-Charles-Proxy-to-Capture-HTTPS.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212059-How-to-Gather-Microsoft-Outlook-Logs-for.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212081-Jabber-Log-in-Failure-Due-To-Proxy-Setti.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212082-How-to-collect-Jabber-Crash-Dump-on-Appl.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212084-Troubleshoot-Cisco-Jabber-Directory-Sear.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212088-How-to-Pull-Crash-Dumps-for-Jabber-for-i.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212109-How-to-Use-LDP-EXE-to-Search-LDAP-Server.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213406-test-directory-attribute-mapping-for-jab.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213803-configure-ldap-as-a-directory-contact-so.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217615-configure-and-log-analysis-of-jabber-e91.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/212079-Configure-InformaCast-Paging-Server-Cisc.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216176-change-network-settings-in-informacast-w.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/tdm-gateways/223040-troubleshoot-dsp-pvdm-issue-on-voice.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/tdm-gateways/223092-configure-pri-multi-clocking-on-c8300.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/118884-config-vcs-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/119398-configure-mra-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212911-migration-procedure-for-cuaca-10-5-x-to.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118718-technote-cucm-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118886-config-mgcp-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118892-config-cucm-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118928-configure-cucm-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200119-Configure-CUCM-TFTP-for-Jabber-Automatic.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200180-Configure-SIP-TLS-Trunk-on-the-Communica.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200181-Configure-Conference-Now-Feature-on-CUCM.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200411-Install-Touchless-VM-for-CUCM.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200452-Usage-of-Native-Emergency-Call-Routing-F.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200453-Configure-CUCM-Native-Call-Queuing-Featu.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200458-Steps-to-Configure-Cisco-Aironet-1142-an.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200477-Urgent-Priority-Configuration-on-Directo.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200532-Configure-Single-SAML-IDP-Connection-Agr.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200571-Customised-Organizational-Unit-for-LDAP.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200576-Cisco-IP-Phones-Firmware-upload-on-Callm.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200579-Dial-Tone-Settings-For-Cisco-SIP-IP-Phon.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200591-OPUS-Codec-Overview.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200599-Enable-UC-servers-for-Extension-Mobility.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200613-Configure-Media-Termination-Point.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200694-Configure-and-Troubleshoot-Joining-Clust.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200710-Configure-Wireless-Endpoint-Tracking-Fea.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200788-Call-Recording-Basic-Configuration-and-T.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200978-How-to-Enable-Common-PIN-for-UCM-and-UC.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210536-Supporting-Variable-Length-Dial-Plans-fo.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210537-Native-Call-Queueing-Enhancement-in-CUCM.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210541-CUCM-Certificate-Management-and-Change-N.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211280-Configuration-and-Troubleshoot-of-Logica.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211297-Configure-Opus-Support-on-Cisco-Unified.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211385-CUCM-Network-based-recording-for-mobile.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211393-Change-CUCM-Server-Definition-from-IP-Ad.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211427-Configure-Jabber-Extend-and-Connect-and.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211535-Configure-and-Troubleshoot-Device-Mobili.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211543-Install-Configure-and-Troubleshoot-Int.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211544-How-to-Configure-Conference-Now-Feature.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212051-Secure-External-Phone-Services-Configura.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212052-Configure-Display-Name-in-Communications.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212058-Configure-Real-Time-Monitoring-Tool-to-A.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212073-CUCM-PLAR-Configuration-Example.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212074-Configure-Read-only-Command-Line-Interfa.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212083-CUCM-12-X-Extension-Mobility-EM-and-Ext.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213251-configure-and-troubleshoot-extension-mob.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213256-install-device-pack-in-cisco-unified-com.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213261-understanding-media-resource-groups-and.html",
-    "depth": 0
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213290-configure-device-pack-on-cisco-call-mana.html",
     "depth": 0
   },
@@ -45309,6 +44829,1294 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/unified-communications/ata-190-series-analog-telephone-adapters/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/bulk-administration-tool/200596-Bulk-Configure-Changes-with-Import-Expor.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/bulk-administration-tool/200596-Bulk-Configure-Changes-with-Import-Expor.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000-version-15/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/117811-configure-vcs-00.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/117811-configure-vcs-00.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://supportforums.cisco.com/document/106926/jabber-config-file-generator",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCuo82526",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCuo83458",
+    "depth": 1
+  },
+  {
+    "url": "https://cway.cisco.com/tools/CollaborationSolutionsAnalyzer",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/telepresence-video-communication-server-vcs/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/200923-Install-an-Expressway-Series-Option-Key.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/200923-Install-an-Expressway-Series-Option-Key.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/200928-Jabber-SIP-URI-calls-over-MRA.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/200928-Jabber-SIP-URI-calls-over-MRA.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211288-Mobile-and-Remote-Access-MRA-License-K.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211288-Mobile-and-Remote-Access-MRA-License-K.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211301-Configure-Proxy-WebRTC-With-CMS-over-Exp.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211301-Configure-Proxy-WebRTC-With-CMS-over-Exp.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212347-mra-phone-services-failing-due-to-source.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212347-mra-phone-services-failing-due-to-source.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212383-configure-and-troubleshoot-dns-and-certi.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212383-configure-and-troubleshoot-dns-and-certi.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213863-troubleshoot-most-common-issues-for-busi.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213863-troubleshoot-most-common-issues-for-busi.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCts00642",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuv11790",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuw85626",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuw85715",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216950-cisco-webex-root-ca-certificate-update.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216950-cisco-webex-root-ca-certificate-update.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/video/6241489762001",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200122-How-to-set-Calling-Line-ID-Presentation.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200122-How-to-set-Calling-Line-ID-Presentation.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCtg21509",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCup52338",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCuq44874",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCud90278",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCud11654",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCte60089",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCun74352",
+    "depth": 1
+  },
+  {
+    "url": "https://cdetsng.cisco.com/webui",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-android/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/213902-jabber-for-android-quick-start-guide.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/213902-jabber-for-android-quick-start-guide.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/jabber-iphone-ipad/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-mac/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/213951-jabber-for-mac-quick-start-guide.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/213951-jabber-for-mac-quick-start-guide.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-proximity-ssl-cert-gBBu3RB",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116433-probsol-jabber-00.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116433-probsol-jabber-00.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118161-technote-jabber-00.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118161-technote-jabber-00.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200120-Troubleshoot-Call-Decline-Issues-in-Jabb.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200120-Troubleshoot-Call-Decline-Issues-in-Jabb.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200539-Configuration-of-Enterprise-Group-via-ED.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200539-Configuration-of-Enterprise-Group-via-ED.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/products-installation-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/201016-TechNote-on-Customization-of-Jabber-MSI.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/201016-TechNote-on-Customization-of-Jabber-MSI.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212180-Troubleshoot-Jabber-for-Windows-auto-upd.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212180-Troubleshoot-Jabber-for-Windows-auto-upd.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvd85090",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212429-configure-jabber-to-use-custom-audio-and.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212429-configure-jabber-to-use-custom-audio-and.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/detail/video/5835977589001/jabber---how-to-clear-cache",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/video/5817625377001",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/video/5997132499001",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/video/6008102189001",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/video/6130175365001",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/video/6213152158001",
+    "depth": 1
+  },
+  {
+    "url": "https://video.cisco.com/video/6248914756001",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212471-jabber-login.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/217563-enable-jabber-log-in-for-cucm-local-user.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/217563-enable-jabber-log-in-for-cucm-local-user.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221643-troubleshoot-pdd-in-webex-calling-with-p.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221643-troubleshoot-pdd-in-webex-calling-with-p.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212059-How-to-Gather-Microsoft-Outlook-Logs-for.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212059-How-to-Gather-Microsoft-Outlook-Logs-for.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212081-Jabber-Log-in-Failure-Due-To-Proxy-Setti.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212081-Jabber-Log-in-Failure-Due-To-Proxy-Setti.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212082-How-to-collect-Jabber-Crash-Dump-on-Appl.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212082-How-to-collect-Jabber-Crash-Dump-on-Appl.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212084-Troubleshoot-Cisco-Jabber-Directory-Sear.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212084-Troubleshoot-Cisco-Jabber-Directory-Sear.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212088-How-to-Pull-Crash-Dumps-for-Jabber-for-i.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212088-How-to-Pull-Crash-Dumps-for-Jabber-for-i.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/10_0_1/CUCM_BK_SB003832_00_saml-sso-deployment-guide-for.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-105/118770-configure-cucm-00.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-version-12-5/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213406-test-directory-attribute-mapping-for-jab.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213406-test-directory-attribute-mapping-for-jab.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213803-configure-ldap-as-a-directory-contact-so.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213803-configure-ldap-as-a-directory-contact-so.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217615-configure-and-log-analysis-of-jabber-e91.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217615-configure-and-log-analysis-of-jabber-e91.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/products-maintenance-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/featureConfig/CUCM_BK_C7DC69D3_00_cucm-feature-configuration-guide_115/CUCM_BK_C7DC69D3_00_cucm-feature-configuration-guide_115_chapter_0110000.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab10/collab10/cmapps.html",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCtb70375",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/212079-Configure-InformaCast-Paging-Server-Cisc.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/212079-Configure-InformaCast-Paging-Server-Cisc.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216176-change-network-settings-in-informacast-w.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216176-change-network-settings-in-informacast-w.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://cway.cisco.com/csc",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCve47332",
+    "depth": 1
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-voice-and-video/integrating-basic-cisco-paging-basic-informacast-with-cucm/ta-p/3161322",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCuy56088",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCut91894",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/tdm-gateways/223040-troubleshoot-dsp-pvdm-issue-on-voice.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/tdm-gateways/223040-troubleshoot-dsp-pvdm-issue-on-voice.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/tdm-gateways/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/t1-pri-line-clock-design-considerations-on-isr4k/ta-p/3163800",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvz45074",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCwa12894",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/118884-config-vcs-00.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/118884-config-vcs-00.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvz20720",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212911-migration-procedure-for-cuaca-10-5-x-to.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212911-migration-procedure-for-cuaca-10-5-x-to.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/webex-cloud-connected-uc/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118718-technote-cucm-00.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118718-technote-cucm-00.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCue18813",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCuq70611",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCui85967",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCtw46611",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCur94973",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/Support/CLILookup/cltSearchAction.do",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/RPF/register/register.do",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCuo53813",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCud20328",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/10_0_1/rtmt/CUCM_BK_CA30A928_00_cisco-unified-rtmt-administration-100/CUCM_BK_CA30A928_00_cisco-unified-rtmt-administration-100_chapter_01000.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/9971_9951_8961/10_0/english/adminguide/P567_BK_A27DADFD_00_adminguide-8961-9951-9971-10_0/P567_BK_A27DADFD_00_adminguide-8961-9951-9971-10_0_chapter_010100.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cucos/8_6_1/cucos/osg_861_cm/iptpch6.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200119-Configure-CUCM-TFTP-for-Jabber-Automatic.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200119-Configure-CUCM-TFTP-for-Jabber-Automatic.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200181-Configure-Conference-Now-Feature-on-CUCM.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200181-Configure-Conference-Now-Feature-on-CUCM.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCuw79671",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCuw81520",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200411-Install-Touchless-VM-for-CUCM.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200411-Install-Touchless-VM-for-CUCM.mobi",
+    "depth": 1
+  },
+  {
+    "url": "http://docwiki.cisco.com/wiki/How_to_Use_the_AFG_with_the_Virtual_Floppy_Drive",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200452-Usage-of-Native-Emergency-Call-Routing-F.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200452-Usage-of-Native-Emergency-Call-Routing-F.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200453-Configure-CUCM-Native-Call-Queuing-Featu.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200458-Steps-to-Configure-Cisco-Aironet-1142-an.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200458-Steps-to-Configure-Cisco-Aironet-1142-an.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200477-Urgent-Priority-Configuration-on-Directo.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200477-Urgent-Priority-Configuration-on-Directo.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200532-Configure-Single-SAML-IDP-Connection-Agr.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200532-Configure-Single-SAML-IDP-Connection-Agr.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200571-Customised-Organizational-Unit-for-LDAP.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200571-Customised-Organizational-Unit-for-LDAP.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200576-Cisco-IP-Phones-Firmware-upload-on-Callm.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200576-Cisco-IP-Phones-Firmware-upload-on-Callm.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200579-Dial-Tone-Settings-For-Cisco-SIP-IP-Phon.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200579-Dial-Tone-Settings-For-Cisco-SIP-IP-Phon.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200591-OPUS-Codec-Overview.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200599-Enable-UC-servers-for-Extension-Mobility.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200599-Enable-UC-servers-for-Extension-Mobility.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214535-troubleshoot-extension-mobility-cross-cl.html",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCuy43181",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvd78861",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn19301",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn30046",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvw78247",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvw50430",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn52593",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn57656",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvt97890",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCvs39175",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200613-Configure-Media-Termination-Point.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200613-Configure-Media-Termination-Point.mobi",
+    "depth": 1
+  },
+  {
+    "url": "http://cway.cisco.com/go/sa",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCtg96408",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCso40251",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsh98792",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCud66570",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCui49910",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCus67416",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCtb49726",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsh20977",
+    "depth": 1
+  },
+  {
+    "url": "https://supportforums.cisco.com/discussion/12590696/how-can-i-do-peer-firmware-sharing-78xx-series-phones-862-or-105-cm",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200694-Configure-and-Troubleshoot-Joining-Clust.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200694-Configure-and-Troubleshoot-Joining-Clust.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200710-Configure-Wireless-Endpoint-Tracking-Fea.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200710-Configure-Wireless-Endpoint-Tracking-Fea.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200788-Call-Recording-Basic-Configuration-and-T.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200788-Call-Recording-Basic-Configuration-and-T.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab11/collab11/recordng.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200978-How-to-Enable-Common-PIN-for-UCM-and-UC.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200978-How-to-Enable-Common-PIN-for-UCM-and-UC.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/administration/guide/b_cucsag/b_cucsag_appendix_01111.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210536-Supporting-Variable-Length-Dial-Plans-fo.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210536-Supporting-Variable-Length-Dial-Plans-fo.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210537-Native-Call-Queueing-Enhancement-in-CUCM.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210537-Native-Call-Queueing-Enhancement-in-CUCM.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210541-CUCM-Certificate-Management-and-Change-N.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210541-CUCM-Certificate-Management-and-Change-N.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCul78787",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCto86463",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCth79451",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCup28852",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCtn50405",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCtt95983",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCup71297",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCup54818",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCud49047",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCup88555",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211280-Configuration-and-Troubleshoot-of-Logica.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211280-Configuration-and-Troubleshoot-of-Logica.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsz91044",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo85770",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsq79192",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsr91423",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsy73509",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCtb33479",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCtb05434",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsv65724",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsq73894",
+    "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsr38397",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211297-Configure-Opus-Support-on-Cisco-Unified.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211297-Configure-Opus-Support-on-Cisco-Unified.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCva48193",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211385-CUCM-Network-based-recording-for-mobile.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211385-CUCM-Network-based-recording-for-mobile.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-sip-proxy-software/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211393-Change-CUCM-Server-Definition-from-IP-Ad.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211393-Change-CUCM-Server-Definition-from-IP-Ad.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://supportforums.cisco.com/document/52421/troubleshooting-cucm-database-replication-linux-appliance-model",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211427-Configure-Jabber-Extend-and-Connect-and.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211427-Configure-Jabber-Extend-and-Connect-and.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211535-Configure-and-Troubleshoot-Device-Mobili.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211535-Configure-and-Troubleshoot-Device-Mobili.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211543-Install-Configure-and-Troubleshoot-Int.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211543-Install-Configure-and-Troubleshoot-Int.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211544-How-to-Configure-Conference-Now-Feature.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211544-How-to-Configure-Conference-Now-Feature.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212051-Secure-External-Phone-Services-Configura.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212051-Secure-External-Phone-Services-Configura.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212052-Configure-Display-Name-in-Communications.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212052-Configure-Display-Name-in-Communications.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212058-Configure-Real-Time-Monitoring-Tool-to-A.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212058-Configure-Real-Time-Monitoring-Tool-to-A.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/Admin/cucm_b_serviceability-admin-guide-1151su1/cucm_b_serviceability-admin-guide-1151su1_chapter_0111.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212073-CUCM-PLAR-Configuration-Example.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212073-CUCM-PLAR-Configuration-Example.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/configuring-plar-hotline-using-sip-phones-on-call-manager/ta-p/3155930",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212074-Configure-Read-only-Command-Line-Interfa.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212074-Configure-Read-only-Command-Line-Interfa.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212083-CUCM-12-X-Extension-Mobility-EM-and-Ext.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212083-CUCM-12-X-Extension-Mobility-EM-and-Ext.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212214-Tech-Note-on-CAPF-Certificate-Signed-by.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://supportforums.cisco.com/t5/collaboration-voice-and-video/configuring-extension-mobility-on-cucm-10-x/ta-p/3137666",
+    "depth": 1
+  },
+  {
+    "url": "http://cdets.cisco.com/apps/dumpcr",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/18772-extension-mobility.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213256-install-device-pack-in-cisco-unified-com.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213256-install-device-pack-in-cisco-unified-com.mobi",
     "depth": 1
   }
 ]
