@@ -88,6 +88,7 @@ PERFILES = {
 }
 
 DIR_ENTRADA = os.path.join("docs", "pages")
+DIR_ENTRADA_REPOS = os.path.join("docs", "repos")
 DIR_SALIDA = os.path.join("dist", "copilot")
 
 FRONTMATTER = re.compile(r"^---\r?\n(.*?)\r?\n---\r?\n", re.S)
@@ -138,6 +139,7 @@ PRODUCTOS = [
 ETIQUETAS = {clave: etiqueta for clave, etiqueta, _ in PRODUCTOS}
 ETIQUETAS["misc"] = "Documentos varios de colaboracion Cisco"
 ETIQUETAS["webex-api"] = "APIs REST de Webex (OpenAPI)"
+ETIQUETAS["webex-repos"] = "Documentacion de repositorios GitHub (SDKs, ejemplos de integracion)"
 
 
 def clasificar_producto(url):
@@ -199,9 +201,23 @@ def clave_version(url):
 
 # Un segmento de version es lo que queda tras un prefijo alfabetico opcional:
 # `icm_enterprise_15_0_1` -> `15_0_1`, `X15-5` -> `15-5`, `express_12_5_1_su1`.
-RE_SEGMENTO_VERSION = re.compile(
-    r"^(?:[a-z][a-z_]*_)?"
-    r"(x?\d{1,2}(?:[._-]\d+)*(?:[._-]?su\d+)?|x?\d{1,2}x|\d{3,4}(?:su\d+)?)$",
+# Con prefijo alfabetico (`icm_enterprise_15_0_1`, `finesse_1501`) se admite
+# tambien la forma condensada de 3-4 digitos: el prefijo garantiza que es una
+# release del producto y no otra cosa.
+RE_VERSION_CON_PREFIJO = re.compile(
+    r"^[a-z][a-z_]*_(x?\d{1,2}(?:[._-]\d+)*(?:[._-]?su\d+)?|\d{3,4}(?:su\d+)?)$",
+    re.I)
+
+# Sin prefijo hay que ser mucho mas estricto. El primer componente se limita a
+# dos digitos, y la forma condensada de 3-4 digitos NO se admite: los arboles
+# de telefonos usan segmentos como `7832`, `8832` o `6800`, que son modelos y
+# no releases. Admitirlos llenaba el inventario de versiones inexistentes.
+RE_VERSION_SUELTA = re.compile(
+    r"^(x\d{1,2}(?:[-_.]\d+)*"
+    r"|\d{1,2}(?:[._-]\d+)+(?:[._-]?su\d+)?"
+    r"|\d{1,2}su\d+"
+    r"|\d{1,2}x"
+    r"|\d{1,2})$",
     re.I)
 
 
@@ -222,9 +238,17 @@ def etiqueta_version(url):
     for segmento in ruta.split("/"):
         if not segmento or segmento.endswith((".html", ".htm")):
             continue
-        encontrado = RE_SEGMENTO_VERSION.match(segmento)
+        encontrado = (RE_VERSION_CON_PREFIJO.match(segmento)
+                      or RE_VERSION_SUELTA.match(segmento))
         if encontrado:
-            version = encontrado.group(1).upper().replace("_", ".")
+            version = encontrado.group(1).upper()
+            # Expressway se nombra oficialmente con guion (X15-5); el resto se
+            # normaliza a puntos para que `15-0-1` y `15_0_1` no aparezcan como
+            # dos versiones distintas en el inventario.
+            if not version.startswith("X"):
+                version = version.replace("_", ".").replace("-", ".")
+            else:
+                version = version.replace("_", "-")
             return re.sub(r"\.?(SU\d+)$", r"\1", version)
     return ""
 
@@ -528,6 +552,29 @@ def recolectar(dir_entrada):
                     "retrieved_at": meta.get("retrieved_at", ""),
                     "texto": texto,
                 })
+            elif meta.get("repo"):
+                # Documento emitido por repos_ingest.py (SDKs, ejemplos de
+                # integracion en GitHub). Se detecta por el campo `repo:` del
+                # frontmatter, no por la ruta, para que la clasificacion no
+                # dependa de en que directorio se le pase a recolectar().
+                # Sin esta rama caian en clasificar_producto(), que no tiene
+                # reglas para github.com y los mandaba a "misc", perdiendo la
+                # etiqueta de producto y mezclandolos con paginas huerfanas.
+                repo = meta["repo"]
+                url = meta.get("source_url", "")
+                documentos.append({
+                    "ruta": ruta,
+                    "url": url,
+                    "producto": "webex-repos",
+                    "subgrupo": nombre_seguro(repo.split("/")[-1], 40),
+                    "familia": url,  # cada fichero de repo es unico, sin versiones que fusionar
+                    "version": "",
+                    "orden": (),
+                    "libro": repo,
+                    "titulo": titulo_de(texto, url),
+                    "retrieved_at": meta.get("retrieved_at", ""),
+                    "texto": texto,
+                })
             else:
                 url = meta.get("source_url", "")
                 documentos.append({
@@ -599,10 +646,14 @@ def marcar_vigencia(documentos):
     se determina con dos senales que se fusionan: la ruta normalizada y la
     similitud de contenido dentro del mismo producto.
     """
-    candidatos = [d for d in documentos if d["producto"] != "webex-api"]
+    # webex-api: la spec OpenAPI ya trae una sola version por endpoint.
+    # webex-repos: cada fichero de un repo es unico (README, guia de un SDK...),
+    # no hay "releases" del mismo documento que fusionar por familia.
+    SIN_VERSIONADO = {"webex-api", "webex-repos"}
+    candidatos = [d for d in documentos if d["producto"] not in SIN_VERSIONADO]
     for doc in documentos:
-        if doc["producto"] == "webex-api":
-            doc["vigencia"] = "vigente"  # la spec OpenAPI ya trae una sola version
+        if doc["producto"] in SIN_VERSIONADO:
+            doc["vigencia"] = "vigente"
 
     union = _Union()
     for i, doc in enumerate(candidatos):
@@ -849,6 +900,9 @@ def main(argv=None):
         description="Reempaqueta docs/ en carpetas .txt por producto para "
                     "agentes de M365 Copilot.")
     ap.add_argument("--entrada", default=DIR_ENTRADA)
+    ap.add_argument("--entrada-repos", default=DIR_ENTRADA_REPOS,
+                    help="Documentacion de repos GitHub (repos_ingest.py). "
+                         "Se omite si el directorio no existe.")
     ap.add_argument("--salida", default=DIR_SALIDA)
     ap.add_argument("--perfil", choices=sorted(PERFILES), default="sharepoint",
                     help="sharepoint: muchos ficheros de 36.000 chars para "
@@ -870,6 +924,9 @@ def main(argv=None):
 
     print(f"Leyendo {args.entrada} ...", file=sys.stderr)
     documentos = recolectar(args.entrada)
+    if os.path.isdir(args.entrada_repos):
+        print(f"Leyendo {args.entrada_repos} ...", file=sys.stderr)
+        documentos += recolectar(args.entrada_repos)
     print(f"  {len(documentos)} documentos, "
           f"{sum(len(d['texto']) for d in documentos) / 1e6:.1f} M chars tras limpieza",
           file=sys.stderr)

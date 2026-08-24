@@ -114,6 +114,7 @@ jobs:
           python3 tests/test_pipeline.py
           python3 tests/test_url_policy.py
           python3 tests/test_copilot_pack.py
+          python3 tests/test_repos_ingest.py
 
       - name: Ejecutar pipeline
         # El presupuesto en URLs no acota el tiempo: 400 URLs a 15 peticiones

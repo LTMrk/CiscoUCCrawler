@@ -103,6 +103,33 @@ def test_modelos_de_telefono_no_se_confunden_con_version():
     assert etiqueta_version(url) == "10.1"
 
 
+def test_modelo_suelto_de_cuatro_digitos_no_es_version():
+    """Los arboles de telefonos usan /7832/, /8832/, /6800/ como segmento. Sin
+    prefijo alfabetico no puede tomarse por una release: el inventario acababa
+    listando 7832 y 8832 como si fueran versiones de producto."""
+    for modelo in ("7832", "8832", "6800", "8845", "191"):
+        url = f"https://x/voice_ip_comm/cuipph/{modelo}/english/g.html"
+        assert etiqueta_version(url) == "", modelo
+
+
+def test_version_condensada_solo_con_prefijo():
+    """`finesse_1501` si es una release; el prefijo lo garantiza."""
+    assert etiqueta_version("https://x/contact_center/finesse/finesse_1501/g.html") == "1501"
+
+
+def test_guiones_y_guiones_bajos_dan_la_misma_version():
+    """Sin normalizar, `15-0-1` y `15_0_1` figuraban como dos versiones
+    distintas en el inventario del RAG."""
+    a = etiqueta_version("https://x/contact_center/customer_voice_portal/15-0-1/g.html")
+    b = etiqueta_version("https://x/contact_center/customer_voice_portal/15_0_1/g.html")
+    assert a == b == "15.0.1"
+
+
+def test_expressway_conserva_su_notacion_con_guion():
+    """Expressway se nombra oficialmente X15-5, no X15.5."""
+    assert etiqueta_version("https://x/expressway/admin_guide/X15-5/g.html") == "X15-5"
+
+
 def test_documento_sin_version_no_inventa_una():
     url = ("https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/"
            "ip-phone-7800-series/200850-Troubleshoot-Cisco-Phone.html")

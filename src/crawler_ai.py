@@ -47,6 +47,8 @@ from state_store import (
     ManifestStore, cargar_frontera, guardar_frontera,
 )
 import openapi_ingest
+import repos_ingest
+import resumen_rag
 
 
 # ---------------------------------------------------------------------------
@@ -325,6 +327,20 @@ async def deep_crawl():
     for clave in deltas_api["removed"][:15]:
         log_info(f"  RETIRADO: {clave}")
 
+    # -- Paso 1b: documentacion de integracion desde github.com/webex -------
+    # Va aqui, antes del crawl, por la misma razon que la ingesta OpenAPI: son
+    # peticiones a la API de GitHub, no al WAF de Cisco, y no consumen el
+    # presupuesto de rate limit del crawler.
+    resumen_repos, deltas_repos = repos_ingest.ingerir_repos(
+        token=os.environ.get("GITHUB_TOKEN"),
+        repos_permitidos=CONFIG.get("repos_allowlist"),
+        forzar=forzar_api,
+    )
+    log_info(f"Repos: {resumen_repos['documentos']} documentos de "
+             f"{resumen_repos['repos']} repositorios | "
+             f"+{len(deltas_repos['added'])} ~{len(deltas_repos['modified'])} "
+             f"-{len(deltas_repos['removed'])}")
+
     politica = PoliticaAcceso(
         peticiones_por_minuto=GS.get("requests_per_minute", 20),
         respetar_robots=GS.get("respect_robots", True),
@@ -553,6 +569,18 @@ async def deep_crawl():
              f"{len(resumen['blocked'])} bloqueados.")
     log_info(f"Frontera pendiente: {len(restantes)} URLs.")
     print(politica.cuarentena.informe(), flush=True)
+
+    # El inventario se regenera ANTES del commit: si se hiciera despues,
+    # quedaria fuera y describiria un corpus distinto al commiteado.
+    try:
+        ruta_resumen, stats = resumen_rag.generar()
+        log_info(f"Inventario: {ruta_resumen} | {stats['documentos']} documentos, "
+                 f"{stats['operaciones']} operaciones de API, "
+                 f"{stats['pendientes']} URLs pendientes.")
+    except Exception as e:  # noqa: BLE001
+        # Un fallo aqui no debe tirar el lote: el corpus ya esta en disco y lo
+        # que importa es commitearlo.
+        log_error("RESUMEN", f"No se pudo generar el inventario: {e}")
 
     git_commit_and_push(
         f"docs({modo}): +{len(resumen['added'])} ~{len(resumen['modified'])} "

@@ -1,0 +1,326 @@
+---
+doc_id: webex-webex-byova-gateway-python-src-connectors-readme-md
+source_url: https://github.com/webex/webex-byova-gateway-python/blob/main/src/connectors/README.md
+repo: webex/webex-byova-gateway-python
+ruta: src/connectors/README.md
+licencia: NOASSERTION
+retrieved_at: 2026-08-24T09:10:48.164132+00:00
+---
+
+# webex-byova-gateway-python — src/connectors/README.md
+
+Repositorio: webex/webex-byova-gateway-python
+
+# Connectors
+
+This directory contains vendor connector implementations for the Webex Contact Center BYOVA Gateway.
+
+## Purpose
+
+Connectors handle communication with different vendor systems and platforms, providing a unified interface for the core gateway. They implement the `IVendorConnector` abstract base class to ensure consistent behavior across different virtual agent providers.
+
+## Architecture
+
+### Abstract Base Class
+
+All connectors must implement `IVendorConnector` which defines:
+
+- **Conversation Management**: `start_conversation()`, `end_conversation()`
+- **Message Handling**: `send_message()`
+- **Agent Discovery**: `get_available_agents()`
+- **Data Conversion**: `convert_wxcc_to_vendor()`, `convert_vendor_to_wxcc()`
+- **Optional Streaming Coordination**: asynchronous response delivery, held
+  speech-turn pause/resume/commit, and current-input acknowledgement hooks
+
+### Interface Contract
+
+```python
+class IVendorConnector(ABC):
+    @abstractmethod
+    def __init__(self, config: dict) -> None:
+        """Initialize connector with configuration"""
+        pass
+    
+    @abstractmethod
+    def start_conversation(self, conversation_id: str, request_data: dict) -> dict:
+        """Start a virtual agent conversation"""
+        pass
+    
+    @abstractmethod
+    def send_message(self, conversation_id: str, message_data: dict) -> dict:
+        """Send a message/audio to the virtual agent"""
+        pass
+    
+    @abstractmethod
+    def end_conversation(self, conversation_id: str, message_data: dict = None) -> None:
+        """End a virtual agent conversation"""
+        pass
+    
+    @abstractmethod
+    def get_available_agents(self) -> list[str]:
+        """Return list of available agent IDs"""
+        pass
+```
+
+## Available Connectors
+
+### Local Audio Connector (`local_audio_connector.py`)
+
+**Purpose**: Testing and development with local audio files
+
+For a step-by-step local smoke test and Webex Contact Center sandbox setup, see
+the [Local Audio Connector Configuration Guide](../../docs/LOCAL_AUDIO_CONFIGURATION.md).
+
+**Features**:
+- Plays predefined audio files for different scenarios
+- Simulates virtual agent responses
+- Supports welcome, transfer, and goodbye messages
+- Ideal for development and testing
+
+**Configuration**:
+```yaml
+connectors:
+  - name: "my_local_test_agent"
+    type: "local_audio_connector"
+    class: "LocalAudioConnector"
+    module: "connectors.local_audio_connector"
+    config:
+      agent_id: "Local Playback"
+      audio_base_path: "audio"
+      audio_files:
+        welcome: "welcome.wav"
+        transfer: "transferring.wav"
+        goodbye: "goodbye.wav"
+        error: "error.wav"
+        default: "default_response.wav"
+```
+
+### AWS Lex Connector (`aws_lex_connector.py`)
+
+**Purpose**: Integration with Amazon Lex v2 for virtual agent capabilities
+
+**Features**:
+- Connects to existing AWS Lex v2 instances
+- Automatically discovers and lists available Lex bots as agents
+- Supports multiple AWS credential methods
+- Foundation for full conversation handling
+
+**Prerequisites**:
+1. AWS account with Lex v2 bots configured
+2. AWS credentials configured (via AWS CLI, environment variables, or IAM roles)
+3. Python packages: `boto3` and `botocore`
+4. IAM permissions: `lex:ListBots`, `lex:ListBotAliases`, `lex:RecognizeUtterance`, `lex:RecognizeText`
+   - See [AWS Lex Configuration Guide](../../docs/AWS_LEX_CONFIGURATION.md#required-aws-iam-permissions) for detailed permission requirements
+
+**Configuration**:
+```yaml
+connectors:
+  - name: "aws_lex_connector_dev"
+    type: "aws_lex_connector"
+    class: "AWSLexConnector"
+    module: "connectors.aws_lex_connector"
+    config:
+      region_name: "us-east-1"  # Your AWS region
+      # Note: Bot aliases are discovered automatically. The connector uses the most recent alias for each bot.
+      aws_access_key_id: "YOUR_DEV_ACCESS_KEY"  # Explicit AWS access key (for dev only)
+      aws_secret_access_key: "YOUR_DEV_SECRET_KEY"  # Explicit AWS secret (for dev only)
+      initial_trigger_text: "hello"  # Text sent when starting conversation (default: "hello")
+      barge_in_enabled: false
+      audio_logging:
+        enabled: true
+        output_dir: "logs/audio_recordings"
+        filename_format: "{conversation_id}_{timestamp}_{source}.wav"
+        log_all_audio: true
+        max_file_size: 10485760
+        sample_rate: 8000
+        bit_depth: 8
+        channels: 1
+        encoding: "ulaw"
+      agents: []
+```
+
+
+**Note:** For production, use environment variables or IAM roles for credentials. Explicit credentials in config files are for development/testing only.
+
+### Setting AWS Credentials with Environment Variables
+
+For production or secure development, set your AWS credentials as environment variables instead of hardcoding them in your config file:
+
+```sh
+export AWS_ACCESS_KEY_ID=your_access_key
+export AWS_SECRET_ACCESS_KEY=your_secret_key
+```
+
+You can add these lines to your shell profile (e.g., `.bashrc`, `.zshrc`) or set them in your deployment environment. The connector will automatically use these credentials if they are set.
+
+**AWS Credentials**:
+The connector supports multiple ways to provide AWS credentials:
+
+1. **Default credentials** (recommended): Configure via AWS CLI (`aws configure`) or environment variables
+2. **Explicit credentials**: Provide in config file (less secure)
+3. **IAM roles**: When running on EC2 or ECS with appropriate IAM roles
+
+**Current Limitations**:
+- Basic connectivity and bot listing only
+- Full conversation handling not yet implemented
+- Audio processing integration pending
+
+### GECX / CX Agent Studio Connector (`gecx_connector.py`)
+
+**Purpose**: Integration with CX Agent Studio (Gemini Enterprise for Customer
+Experience) through the CES `BidiRunSession` API.
+
+**Features**:
+- Streams WxCC caller audio to Google as it arrives
+- Maps CES recognition, text, audio, interruption, and end-session messages
+- Isolates each gateway-detected caller turn until CES acknowledges the input,
+  suppressing an overlapping stale no-input prompt without dropping the reply
+- Can report current-turn CES recognition to the gateway so an opt-in,
+  recognition-assisted policy shortens only the cancellable post-VAD grace
+- Streams WxCC-compatible 8 kHz mu-law as BYOVA `CHUNK` responses, either
+  directly from CES or converted once from CES 24 kHz Linear16 output
+- Pushes autonomous CES no-input prompts directly to the active WxCC stream and
+  optionally enables barge-in for those open prompts (disabled by default)
+- Suppresses only a long low-energy prefix before detected prompt speech;
+  normal short CES frames retain the direct streaming path
+- Emits exactly one normal or terminal `FINAL` after the ordered chunks
+- Maps CES escalation metadata to WxCC human-transfer events
+- Supports service-account credentials, ADC, OAuth, and short-lived access tokens
+
+**Prerequisites**:
+1. CX Agent Studio application with API access
+2. GCP identity with `roles/ces.client`
+3. Python package `google-cloud-ces`
+
+**Configuration**:
+```yaml
+gecx_connector:
+  type: "gecx_connector"
+  class: "GECXConnector"
+  module: "connectors.gecx_connector"
+  config:
+    project_id: "YOUR_PROJECT_ID"
+    location: "us"
+    application_id: "YOUR_APPLICATION_ID"
+    # deployment_id: "YOUR_DEPLOYMENT_ID"
+    input_sample_rate_hertz: 8000
+    input_audio_encoding: "MULAW"
+    # Recommended quality path: request high-quality CES output, then perform
+    # the final anti-aliased 8 kHz mu-law conversion in the connector.
+    output_sample_rate_hertz: 24000
+    output_audio_encoding: "LINEAR16"
+    suppress_long_leading_audio: true
+    output_leading_audio_min_ms: 5000
+    output_speech_rms_threshold: 200
+    output_speech_start_frames: 2
+    output_speech_preroll_ms: 100
+    force_input_format: "wxcc"
+    turn_response_timeout_seconds: 30
+    # service_account_key: "/path/to/ces-key.json"
+    agents:
+      - "My GECX Agent"
+```
+
+See the [GECX setup guide](../../docs/guides/byova-gecx-setup.md) and
+[`config/gecx_example.yaml`](../../config/gecx_example.yaml).
+
+## Adding New Connectors
+
+### 1. Create Connector Class
+
+```python
+from connectors.i_vendor_connector import IVendorConnector
+
+class MyVendorConnector(IVendorConnector):
+    def __init__(self, config: dict) -> None:
+        # Initialize with configuration
+        self.config = config
+        self.logger = logging.getLogger(__name__)
+    
+    def start_conversation(self, conversation_id: str, request_data: dict) -> dict:
+        # Implement conversation start logic
+        return {"status": "started", "message": "Welcome"}
+    
+    def send_message(self, conversation_id: str, message_data: dict) -> dict:
+        # Implement message handling
+        return {"status": "processed", "response": "Hello"}
+    
+    def end_conversation(self, conversation_id: str, message_data: dict = None) -> None:
+        # Implement conversation cleanup
+        pass
+    
+    def get_available_agents(self) -> list[str]:
+        # Return available agent IDs
+        return ["My Agent 1", "My Agent 2"]
+```
+
+### 2. Add Configuration
+
+```yaml
+connectors:
+  - name: "my_vendor_connector"
+    type: "my_vendor"
+    class: "MyVendorConnector"
+    module: "connectors.my_vendor_connector"
+    config:
+      api_key: "${MY_VENDOR_API_KEY}"
+      endpoint: "https://api.myvendor.com"
+      timeout: 30
+```
+
+### 3. Test Implementation
+
+```bash
+# Test connector loading
+python -c "from src.connectors.my_vendor_connector import MyVendorConnector; print('OK')"
+
+# Test with gateway
+python main.py
+```
+
+## Best Practices
+
+### Error Handling
+- Implement proper exception handling
+- Log errors with context
+- Return meaningful error responses
+
+### Configuration
+- Use environment variables for sensitive data
+- Validate configuration on initialization
+- Provide sensible defaults
+
+### Logging
+- Use structured logging
+- Include session IDs in log messages
+- Log at appropriate levels (DEBUG, INFO, ERROR)
+
+### Testing
+- Write unit tests for each connector
+- Test error conditions
+- Mock external dependencies
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Import Errors**: Ensure connector class is properly imported
+2. **Configuration Errors**: Validate YAML syntax and required fields
+3. **Session Management**: Implement proper session cleanup
+4. **Data Conversion**: Handle WxCC format conversion correctly
+
+### Debug Mode
+
+Enable debug logging to see detailed connector behavior:
+
+```yaml
+logging:
+  level: "DEBUG"
+```
+
+## License
+
+This code is licensed under the [Cisco Sample Code License v1.1](../../LICENSE). See the main project README for details.
+
+---
+> Fuente: https://github.com/webex/webex-byova-gateway-python/blob/main/src/connectors/README.md (licencia NOASSERTION)
