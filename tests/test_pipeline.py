@@ -131,6 +131,42 @@ def test_deltas_incrementales():
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def test_redirecciones_llegan_a_deltas():
+    """Las redirecciones seguidas solo se veian en el stdout del job, asi que
+    no habia forma de comprobar si el manejo de 3xx funcionaba sin bucear en
+    el log de Actions. Ahora quedan en deltas.json y en el resumen del lote.
+    """
+    tmp = tempfile.mkdtemp()
+    cwd = os.getcwd()
+    try:
+        os.chdir(tmp)
+        os.makedirs("docs/pages", exist_ok=True)
+        os.makedirs("logs", exist_ok=True)
+
+        m = ManifestStore()
+        m.registrar_redireccion("https://developer.cisco.com/docs/axl",
+                                "https://developer.cisco.com/docs/axl/", 301)
+        m.deltas["semillas"] = 48
+        resumen = m.guardar_deltas()
+
+        assert resumen["redirected"] == [
+            "https://developer.cisco.com/docs/axl"
+            " -> https://developer.cisco.com/docs/axl/"]
+        assert resumen["semillas_encoladas"] == 48
+
+        # Y el informe del job lo muestra, que es donde se mira de verdad.
+        import report
+        texto = report.construir_resumen()
+        assert "1 redirección(es) seguida(s)" in texto
+        assert "docs/axl -> https://developer.cisco.com/docs/axl/" in texto
+        assert "48 URL(s) encoladas desde semillas" in texto
+
+        print("  OK observabilidad: redirecciones y semillas en deltas y resumen")
+    finally:
+        os.chdir(cwd)
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def test_backoff_y_clasificacion():
     from fetch_policy import PoliticaAcceso
     p = PoliticaAcceso()
@@ -237,6 +273,7 @@ if __name__ == "__main__":
     print("\nstate_store:")
     test_deltas_incrementales()
     test_estado_redireccion()
+    test_redirecciones_llegan_a_deltas()
     print("\nfetch_policy:")
     test_backoff_y_clasificacion()
     test_redirecciones()

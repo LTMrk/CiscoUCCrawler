@@ -476,12 +476,7 @@ async def deep_crawl():
     semillas = [normalize_url(s.strip()) for s in CONFIG.get("seeds", []) if s.strip()]
     candidatas = set()
 
-    if pendientes:
-        for u, d in pendientes:
-            await cola.put((u, d))
-            encolados.add(u)
-        log_info(f"Frontera restaurada: {len(pendientes)} URLs pendientes.")
-    else:
+    if not pendientes:
         if modo == ManifestStore.MODO_BOOTSTRAP:
             candidatas |= await descubrir_por_sitemap(politica, semillas)
         else:
@@ -489,31 +484,43 @@ async def deep_crawl():
             candidatas |= {u for u in manifiesto.entradas if manifiesto.debe_visitar(u)}
 
     # Las semillas y los sitemaps declarados en config.json entran SIEMPRE,
-    # haya frontera previa o no.
-    #
-    # Antes solo se leían con la frontera vacía, y eso las hacía inertes: al
-    # añadir developer.cisco.com quedaban 7.388 URLs pendientes, asi que 11 de
-    # las 19 semillas nuevas no habrían entrado hasta vaciar la frontera —
-    # horas de rastreo, y creciendo. Una semilla es una declaración del
-    # operador ("empieza siempre por aquí"): añadir una debe surtir efecto en
-    # la ejecución siguiente. El barrido por robots.txt sí sigue siendo solo
-    # de arranque, porque es la exploración cara.
+    # haya frontera previa o no. Una semilla es una declaración del operador
+    # ("empieza siempre por aquí"): añadir una debe surtir efecto en la
+    # ejecución siguiente. El barrido por robots.txt sí sigue siendo solo de
+    # arranque, porque es la exploración cara.
     candidatas |= set(s for s in semillas if url_aceptable(s))
     candidatas |= await descubrir_por_sitemap(politica, [], solo_config=True)
 
+    # ORDEN: primero las semillas, después la frontera arrastrada.
+    #
+    # Encolarlas al final las dejaba detrás de 7.388 URLs pendientes. Con un
+    # presupuesto de 120 por lote son 62 lotes —más de once horas de rastreo—
+    # antes de tocar la primera, y la frontera crece por el camino, así que
+    # podían no llegar nunca. Se vio en la ejecución del 2026-08-24T21:16:
+    # 120 URLs procesadas, cero de developer.cisco.com.
+    #
+    # Ponerlas delante no las recrawlea en cada lote: debe_visitar las filtra
+    # en cuanto tienen TTL vigente, así que el coste es de un solo lote.
     nuevas = 0
     for u in sorted(candidatas):
-        # debe_visitar evita reencolar en cada lote lo que ya se rastreó y
-        # cuyo TTL no ha vencido: sin esto, las semillas se recrawlearían
-        # enteras en cada ejecución.
         if u in encolados or not manifiesto.debe_visitar(u):
             continue
         await cola.put((u, 0))
         encolados.add(u)
         nuevas += 1
 
-    log_info(f"Frontera: {cola.qsize()} URLs "
-             f"({nuevas} nuevas desde semillas y sitemaps de config).")
+    arrastradas = 0
+    for u, d in pendientes:
+        if u in encolados:
+            continue
+        await cola.put((u, d))
+        encolados.add(u)
+        arrastradas += 1
+
+    manifiesto.deltas["semillas"] = nuevas
+    log_info(f"Frontera: {cola.qsize()} URLs | {nuevas} desde semillas y "
+             f"sitemaps de config (encoladas primero) | {arrastradas} "
+             f"arrastradas del lote anterior.")
 
     procesadas = 0
     visitadas_este_lote = set()

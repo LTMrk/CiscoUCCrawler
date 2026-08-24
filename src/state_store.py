@@ -94,7 +94,8 @@ class ManifestStore:
         self.ruta = ruta
         self.entradas = {}
         self.deltas = {"added": [], "modified": [], "unchanged": [],
-                       "removed": [], "blocked": []}
+                       "removed": [], "blocked": [], "redirected": [],
+                       "semillas": 0}
         self._cargar()
 
     def _cargar(self):
@@ -249,6 +250,7 @@ class ManifestStore:
         t = ahora()
         entrada["status"] = "redirect"
         entrada["redirect_to"] = destino
+        self.deltas["redirected"].append(f"{url} -> {destino}")
         entrada["http_status"] = codigo
         entrada["last_seen"] = iso(t)
         entrada["next_check"] = iso(t + self._calcular_ttl(
@@ -317,6 +319,12 @@ class ManifestStore:
             "removed": sorted(set(self.deltas["removed"])),
             "blocked": sorted(set(self.deltas["blocked"])),
             "unchanged_count": len(self.deltas["unchanged"]),
+            # Las redirecciones seguidas solo aparecian en el stdout del job,
+            # asi que no habia forma de comprobar si el manejo de 3xx estaba
+            # funcionando sin bucear en el log de Actions o abrir el
+            # manifiesto a mano.
+            "redirected": sorted(set(self.deltas["redirected"])),
+            "semillas_encoladas": self.deltas.get("semillas", 0),
         }
         with open(ruta, "w", encoding="utf-8") as f:
             json.dump(resumen, f, indent=2)
