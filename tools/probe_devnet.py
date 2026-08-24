@@ -19,8 +19,10 @@ rastreo y que no se pueden contestar mirando el codigo:
      blob de estado (__NEXT_DATA__, window.__...). Si el contenido sale de
      ficheros estaticos, una ingesta estructurada al estilo de
      openapi_ingest.py seria mejor que rascar el DOM.
-  6. Inventario real de doc-sets bajo /docs/, para revalidar la allowlist de
-     config.json, que se construyo con URLs observadas en los logs.
+  6. Inventario de doc-sets DESDE EL SITEMAP, contrastado con la allowlist de
+     config.json. No desde el HTML de /docs/: ese indice lo construye
+     JavaScript y no enlaza nada en el HTML crudo, asi que rastrearlo no
+     descubre ningun doc-set.
 
 Solo stdlib: tiene que poder ejecutarse sin instalar crawl4ai ni Playwright.
 
@@ -51,19 +53,23 @@ except Exception:                                    # ejecucion fuera del repo
 BASE = "https://developer.cisco.com"
 TIMEOUT = 45
 
-# URLs representativas, todas observadas realmente en logs/error.log o
-# logs/frontier.json. Se sondean SIN barra final a proposito: es la forma que
-# generaba el 301.
+# URLs representativas. Se sondean SIN barra final a proposito: es la forma
+# que generaba el 301.
+#
+# Se han retirado /docs/finesse/rest-api-dev-guide y /docs/jabber-bots, que
+# un sondeo real confirmo como 404: eran doc-sets vivos cuando quedaron
+# registrados en logs/error.log y ya no existen. Una URL muerta no dice nada
+# sobre barra final ni sobre renderizado, que es lo que mide esta seccion.
 URLS_MUESTRA = [
     "/docs",
     "/docs/axl",
     "/docs/axl/axl-developer-guide",
     "/docs/finesse",
-    "/docs/finesse/rest-api-dev-guide",
+    "/docs/unity-connection",
     "/docs/contact-center-express",
     "/docs/customer-voice-portal",
     "/docs/packaged-contact-center",
-    "/docs/jabber-bots",
+    "/site/sxml",
     "/site/collaboration",
     "/site/unity-connection/documentation",
     "/site/roomdevices",
@@ -181,9 +187,15 @@ def sondear_robots():
 # ---------------------------------------------------------------------------
 
 def sondear_sitemaps(declarados):
+    """Devuelve el conjunto de URLs de /docs/ y /site/ vistas en los sitemaps.
+
+    Es la salida mas util del sondeo: el indice de /docs/ lo construye
+    JavaScript y no enlaza nada en el HTML crudo, asi que el sitemap es la
+    unica forma de saber que doc-sets existen realmente.
+    """
     titulo("2. Sitemaps")
     candidatos = list(dict.fromkeys(declarados + [f"{BASE}/sitemap.xml"]))
-    interesantes = 0
+    documentacion = set()
 
     for sm in candidatos:
         codigo, _, cuerpo = pedir(sm, seguir=True)
@@ -213,12 +225,12 @@ def sondear_sitemaps(declarados):
         else:
             colab = [u for u in locs
                      if re.search(r"/(docs|site)/", urlparse(u).path)]
-            interesantes += len(colab)
+            documentacion.update(colab)
             print(f"  URLs bajo /docs/ o /site/: {len(colab)}")
-            for u in colab[:10]:
-                print(f"    - {u}")
 
-    print(f"\nTotal de URLs de /docs/ o /site/ vistas en sitemaps: {interesantes}")
+    print(f"\nTotal de URLs de /docs/ o /site/ vistas en sitemaps: "
+          f"{len(documentacion)}")
+    return documentacion
 
 
 # ---------------------------------------------------------------------------
@@ -239,7 +251,7 @@ def sondear_paginas(rutas):
     print(f"{'ruta':52} {'sin/':>5} {'con/':>5} {'chars':>7}  rastros")
     print("-" * 100)
 
-    resumen = {"redirigen": 0, "ssr": 0, "shell": 0}
+    resumen = {"redirigen": 0, "ssr": 0, "shells": []}
 
     for ruta in rutas:
         sin_barra = urljoin(BASE, ruta)
@@ -263,7 +275,7 @@ def sondear_paginas(rutas):
         if n >= 2000:
             resumen["ssr"] += 1
         elif n < 200:
-            resumen["shell"] += 1
+            resumen["shells"].append(con_barra)
 
         rastros = [k for k, r in RASTROS.items() if r.search(cuerpo)]
         print(f"{ruta:52} {str(cod_sin):>5} {str(cod_con):>5} {n:>7}  "
@@ -274,63 +286,80 @@ def sondear_paginas(rutas):
     print("-" * 100)
     print(f"Redirigen sin barra final : {resumen['redirigen']}/{len(rutas)}")
     print(f"Traen contenido sin JS    : {resumen['ssr']}/{len(rutas)}  (>=2000 chars)")
-    print(f"Shell vacio sin JS        : {resumen['shell']}/{len(rutas)}  (<200 chars)")
+    print(f"Shell vacio sin JS        : {len(resumen['shells'])}/{len(rutas)}  (<200 chars)")
     print()
     if resumen["redirigen"]:
         print("=> Confirma la causa raiz: sin barra final el origen responde 3xx.")
         print("   Lo cubren global_settings.hosts_barra_final y la rama 3xx de")
         print("   fetch_policy.tras_respuesta.")
-    if resumen["shell"] > resumen["ssr"]:
-        print("=> El contenido NO viene servido: hay que mantener (o subir) el")
-        print("   js_code de custom_behaviors para developer.cisco.com, y revisar")
-        print("   si text_mode=True en BrowserConfig rompe la hidratacion.")
+    if resumen["shells"]:
+        # Una mayoria de paginas servidas NO permite bajar la espera: basta
+        # con que una pagina que interesa llegue vacia para perderla. Lo que
+        # decide es si alguna de las que se quiere indexar es un shell.
+        print("=> Hay paginas que llegan VACIAS sin JavaScript:")
+        for u in resumen["shells"]:
+            print(f"     {u}")
+        print("   Mantener el js_code de custom_behaviors para")
+        print("   developer.cisco.com. Si alguna de estas es solo un indice de")
+        print("   navegacion, lo suyo es marcarla en discovery_only_regex en")
+        print("   lugar de intentar rescatarla.")
     else:
-        print("=> El contenido viene servido en el HTML: se puede bajar la espera")
-        print("   de custom_behaviors y ahorrar tiempo de lote.")
+        print("=> Ninguna pagina de la muestra depende de JavaScript: se puede")
+        print("   bajar la espera de custom_behaviors y ahorrar tiempo de lote.")
 
 
 # ---------------------------------------------------------------------------
 # 6. inventario de doc-sets
 # ---------------------------------------------------------------------------
 
-def sondear_docsets():
-    titulo("6. Doc-sets enlazados desde /docs/")
-    codigo, _, cuerpo = pedir(f"{BASE}/docs/", seguir=True)
-    print(f"HTTP {codigo} ({len(cuerpo)} bytes)")
-    if not cuerpo:
-        return
+def inventariar_docsets(urls_sitemap):
+    """Inventario de doc-sets contrastado con la allowlist de config.json.
 
-    hallados = sorted(set(
-        m.decode() for m in re.findall(rb"/docs/([a-z0-9][a-z0-9-]{2,})/", cuerpo)
-    ))
-    print(f"\n{len(hallados)} doc-sets referenciados en el HTML crudo:")
-    for d in hallados:
-        print(f"  - {d}")
+    Se construye desde el sitemap y no desde el HTML de /docs/: ese indice lo
+    genera JavaScript, asi que rastrearlo no descubre nada. Esta es la lista
+    que hay que revisar para decidir que entra y que no.
+    """
+    titulo("6. Doc-sets del sitemap frente a la allowlist")
+
+    if not urls_sitemap:
+        print("Sin URLs de sitemap: no se puede inventariar. Revisar la")
+        print("seccion 2 (robots.txt puede haber dejado de declararlos).")
+        return
 
     try:
         with open("config.json", encoding="utf-8") as fh:
             patrones = json.load(fh)["path_allowlist_regex"]["developer.cisco.com"]
+        compiladas = [re.compile(p) for p in patrones]
     except Exception as e:
-        print(f"\n(No se pudo leer la allowlist de config.json: {e})")
-        return
+        print(f"No se pudo leer la allowlist de config.json: {e}")
+        compiladas = []
 
-    compiladas = [re.compile(p) for p in patrones]
+    # Agrupa por doc-set: /docs/<set>/... y /site/<set>/...
+    grupos = {}
+    for u in urls_sitemap:
+        partes = [p for p in urlparse(u).path.split("/") if p]
+        if len(partes) < 2:
+            continue
+        grupos.setdefault(f"{partes[0]}/{partes[1]}", []).append(u)
+
     dentro, fuera = [], []
-    for d in hallados:
-        (dentro if any(r.match(f"{BASE}/docs/{d}/") for r in compiladas)
-         else fuera).append(d)
+    for clave, miembros in sorted(grupos.items()):
+        admitido = any(r.match(m) for m in miembros for r in compiladas)
+        (dentro if admitido else fuera).append((clave, len(miembros)))
 
-    print(f"\nYa en la allowlist ({len(dentro)}): {', '.join(dentro) or '-'}")
-    print(f"\nFuera de la allowlist ({len(fuera)}):")
-    print("  Revisar cuales son de colaboracion y anadirlos; el resto (Meraki,")
-    print("  DNA Center, SD-WAN, NSO...) se queda fuera a proposito.")
-    for d in fuera:
-        print(f"  - {d}")
+    print(f"{len(grupos)} doc-sets en el sitemap "
+          f"({len(dentro)} admitidos, {len(fuera)} fuera)\n")
 
-    if codigo == 200 and len(hallados) < 5:
-        print("\nAVISO: se han encontrado muy pocos doc-sets. Probablemente el")
-        print("indice se construye por JavaScript, asi que este inventario no es")
-        print("fiable: usar el sitemap o las semillas explicitas de config.json.")
+    print(f"-- ADMITIDOS por la allowlist ({len(dentro)}) " + "-" * 30)
+    for clave, n in dentro:
+        print(f"  {n:4d} URLs  {clave}")
+
+    print(f"\n-- FUERA de la allowlist ({len(fuera)}) " + "-" * 33)
+    print("  Repasar esta lista: lo que sea de colaboracion hay que anadirlo")
+    print("  a path_allowlist_regex. El resto (Meraki, DNA Center, SD-WAN,")
+    print("  NSO, AppDynamics, seguridad...) se queda fuera a proposito.\n")
+    for clave, n in fuera:
+        print(f"  {n:4d} URLs  {clave}")
 
 
 def main():
@@ -345,8 +374,9 @@ def main():
     print(f"User-Agent: {USER_AGENT}")
 
     declarados = sondear_robots()
+    urls_sitemap = set()
     if not args.saltar_sitemaps:
-        sondear_sitemaps(declarados)
+        urls_sitemap = sondear_sitemaps(declarados)
 
     rutas = list(URLS_MUESTRA)
     for u in (args.url or []):
@@ -355,7 +385,7 @@ def main():
             rutas.append(ruta)
     sondear_paginas(rutas)
 
-    sondear_docsets()
+    inventariar_docsets(urls_sitemap)
 
     titulo("Fin")
     print("Pegar esta salida en el PR: es lo que justifica los valores de")

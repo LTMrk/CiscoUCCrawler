@@ -331,17 +331,25 @@ def parsear_sitemap(contenido):
     return raiz.tag.endswith("sitemapindex"), [l for l in locs if l]
 
 
-async def descubrir_por_sitemap(politica, semillas):
-    """Descubrimiento vía sitemap declarado en robots.txt. Es la vía que el
-    operador expone deliberadamente: una petición devuelve cientos de URLs en
-    lugar de rastrear el sitio enlace a enlace."""
+async def descubrir_por_sitemap(politica, semillas, solo_config=False):
+    """Descubrimiento vía sitemap. Es la vía que el operador expone
+    deliberadamente: una petición devuelve cientos de URLs en lugar de
+    rastrear el sitio enlace a enlace.
+
+    Con solo_config=True se consultan unicamente los sitemaps declarados en
+    config.json, sin barrer los que anuncia cada robots.txt. La distincion
+    importa: los de config son una eleccion explicita del operador y salen
+    baratos, mientras que el barrido por robots es la exploracion amplia del
+    arranque y cuesta una peticion por dominio semilla.
+    """
     import urllib.error
     import urllib.request
 
     encontradas = set()
     sitemaps = list(CONFIG.get("sitemaps", []))
-    for semilla in semillas:
-        sitemaps.extend(politica.robots.sitemaps(semilla))
+    if not solo_config:
+        for semilla in semillas:
+            sitemaps.extend(politica.robots.sitemaps(semilla))
 
     # Cola de trabajo en lugar de un simple bucle: un <sitemapindex> no
     # contiene URLs de páginas sino de otros sitemaps, y sin seguirlos el
@@ -465,25 +473,47 @@ async def deep_crawl():
     saltos_redireccion = {}
 
     pendientes = cargar_frontera()
+    semillas = [normalize_url(s.strip()) for s in CONFIG.get("seeds", []) if s.strip()]
+    candidatas = set()
+
     if pendientes:
         for u, d in pendientes:
             await cola.put((u, d))
             encolados.add(u)
         log_info(f"Frontera restaurada: {len(pendientes)} URLs pendientes.")
     else:
-        semillas = [normalize_url(s.strip()) for s in CONFIG.get("seeds", []) if s.strip()]
-        candidatas = set(s for s in semillas if url_aceptable(s))
-
         if modo == ManifestStore.MODO_BOOTSTRAP:
             candidatas |= await descubrir_por_sitemap(politica, semillas)
         else:
             # En incremental se reevalúa lo conocido cuyo TTL haya vencido.
             candidatas |= {u for u in manifiesto.entradas if manifiesto.debe_visitar(u)}
 
-        for u in sorted(candidatas):
-            await cola.put((u, 0))
-            encolados.add(u)
-        log_info(f"Frontera inicial: {cola.qsize()} URLs.")
+    # Las semillas y los sitemaps declarados en config.json entran SIEMPRE,
+    # haya frontera previa o no.
+    #
+    # Antes solo se leían con la frontera vacía, y eso las hacía inertes: al
+    # añadir developer.cisco.com quedaban 7.388 URLs pendientes, asi que 11 de
+    # las 19 semillas nuevas no habrían entrado hasta vaciar la frontera —
+    # horas de rastreo, y creciendo. Una semilla es una declaración del
+    # operador ("empieza siempre por aquí"): añadir una debe surtir efecto en
+    # la ejecución siguiente. El barrido por robots.txt sí sigue siendo solo
+    # de arranque, porque es la exploración cara.
+    candidatas |= set(s for s in semillas if url_aceptable(s))
+    candidatas |= await descubrir_por_sitemap(politica, [], solo_config=True)
+
+    nuevas = 0
+    for u in sorted(candidatas):
+        # debe_visitar evita reencolar en cada lote lo que ya se rastreó y
+        # cuyo TTL no ha vencido: sin esto, las semillas se recrawlearían
+        # enteras en cada ejecución.
+        if u in encolados or not manifiesto.debe_visitar(u):
+            continue
+        await cola.put((u, 0))
+        encolados.add(u)
+        nuevas += 1
+
+    log_info(f"Frontera: {cola.qsize()} URLs "
+             f"({nuevas} nuevas desde semillas y sitemaps de config).")
 
     procesadas = 0
     visitadas_este_lote = set()
