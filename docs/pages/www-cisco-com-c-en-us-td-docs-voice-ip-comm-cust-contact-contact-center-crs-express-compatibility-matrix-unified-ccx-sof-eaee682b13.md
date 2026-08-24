@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-compatibility-matrix-unified-ccx-sof-eaee682b13
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_compatibility/matrix/Unified_CCX_Software_Compatibility_Matrix_for_1251_SU2.html
-retrieved_at: 2026-08-20T17:35:07.681481+00:00
+retrieved_at: 2026-08-24T15:13:52.357291+00:00
 ---
 
 Unified CCX Software Compatibility Matrix for 12.5(1) SU2
@@ -1519,10 +1519,6 @@ Cisco and the Cisco logo are trademarks or registered trademarks of Cisco and
 ## Cisco Copyright (all documentation)
 
 © 2023 Cisco Systems, Inc. All rights reserved.
-
-### This Document Applies to These Products
-
-- Unified Contact Center Express 12.5(1)
 
 | Unified CCX and Unified IP IVR | Supported Unified UCCX and Unified IP IVR Upgrade Paths (FN1,2) | Standalone Unified Intelligence Center | APIs |
 |---|---|---|---|
