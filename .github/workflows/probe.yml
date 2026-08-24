@@ -1,0 +1,116 @@
+name: Sondeo DevNet
+
+# SOLO bajo demanda. Este workflow hace peticiones reales a
+# developer.cisco.com, asi que deliberadamente NO se engancha a pull_request
+# ni a push:
+#
+#   - No tiene semantica de pasa/falla: produce un informe que se lee.
+#   - Golpear un sitio de terceros en cada push contradice el principio de
+#     acceso responsable del proyecto (ver la cabecera de fetch_policy.py).
+#   - Una caida de Cisco o un rechazo del WAF pondria PRs en rojo por algo
+#     ajeno al cambio.
+#
+# Si algun dia interesa detectar deriva del sitio sin acordarse de lanzarlo
+# (doc-sets nuevos, cambios en robots.txt), basta con anadir aqui un
+# `schedule:` mensual. No se pone por defecto para no sumar trafico
+# recurrente contra Cisco sin que nadie mire el resultado.
+on:
+  workflow_dispatch:
+    inputs:
+      url_extra:
+        description: "Ruta o URL adicional a sondear (p. ej. /docs/meeting-server/)"
+        type: string
+        required: false
+      saltar_sitemaps:
+        description: "Omitir la parte de sitemaps (es la mas lenta)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+# El sondeo hace peticiones a un tercero: dos ejecuciones a la vez serian el
+# doble de carga sobre el mismo origen sin ningun beneficio.
+concurrency:
+  group: sondeo-devnet
+  cancel-in-progress: false
+
+jobs:
+  sondear:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Sin paso de instalacion: probe_devnet.py es solo stdlib, justamente
+      # para poder ejecutarse en cualquier sitio sin preparar un entorno.
+      - name: Comprobar que el sondeo arranca
+        run: python3 tools/probe_devnet.py --help > /dev/null
+
+      - name: Ejecutar sondeo
+        id: sondeo
+        # Las entradas van por env y NO interpoladas en el run: un
+        # ${{ }} dentro del script se sustituye ANTES de que bash lo vea, asi
+        # que un valor con comillas o `;` se ejecutaria como codigo. Por env
+        # llegan como datos.
+        env:
+          URL_EXTRA: ${{ inputs.url_extra }}
+          SALTAR_SITEMAPS: ${{ inputs.saltar_sitemaps }}
+        run: |
+          argumentos=()
+          if [ -n "$URL_EXTRA" ]; then
+            argumentos+=(--url "$URL_EXTRA")
+          fi
+          if [ "$SALTAR_SITEMAPS" = "true" ]; then
+            argumentos+=(--saltar-sitemaps)
+          fi
+          # Se captura la salida pase lo que pase: un sondeo que falla a
+          # medias sigue diciendo algo util (que el origen no responde, que
+          # robots cambio). Por eso no se corta el job aqui.
+          set +e
+          python3 tools/probe_devnet.py "${argumentos[@]}" 2>&1 | tee sondeo-devnet.txt
+          echo "codigo=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+          set -e
+
+      - name: Publicar el informe en el resumen del job
+        # El resumen se lee en la propia pagina de la ejecucion, sin
+        # descargar nada. Es el mismo canal que usa report.py para el ETL.
+        if: always()
+        run: |
+          {
+            echo "## Sondeo de developer.cisco.com"
+            echo
+            echo "Commit: \`${GITHUB_SHA:0:7}\` · Codigo de salida: \`${{ steps.sondeo.outputs.codigo }}\`"
+            echo
+            echo "Ajustar \`config.json\` con lo que diga este informe:"
+            echo "allowlist por doc-set, \`sitemaps\`, y el \`js_code\` de"
+            echo "\`custom_behaviors\` para developer.cisco.com."
+            echo
+            echo '```'
+            # El resumen admite 1 MB; el sondeo produce unos pocos KB, pero
+            # se acota por si alguien pasa muchas --url.
+            head -c 900000 sondeo-devnet.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Guardar el informe como artefacto
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sondeo-devnet
+          path: sondeo-devnet.txt
+          retention-days: 30
+
+      - name: Fallar si el sondeo se rompio
+        # Distinto de "el sitio respondio raro": esto es que el script
+        # reviento. El informe ya esta publicado antes de llegar aqui.
+        if: always() && steps.sondeo.outputs.codigo != '0'
+        run: |
+          echo "::error::probe_devnet.py termino con codigo ${{ steps.sondeo.outputs.codigo }}. Ver el resumen del job."
+          exit 1

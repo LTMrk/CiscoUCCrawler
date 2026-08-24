@@ -133,7 +133,8 @@ docs/pages/             corpus rastreado de cisco.com / community / help.webex.c
 docs/repos/             corpus ingerido de repositorios GitHub
 logs/                   estado, deltas y diagnóstico de cada ejecución
 tests/                  pruebas de regresión (contrato de config, políticas de URL, extractores)
-.github/workflows/      etl.yml (ingesta semanal), tests.yml (pruebas en cada PR), purge_docs.yml
+.github/workflows/      etl.yml (ingesta), tests.yml (pruebas en cada PR),
+                        probe.yml (sondeo de DevNet, bajo demanda), purge_docs.yml
 RESUMEN-CONOCIMIENTO.md inventario del corpus, se regenera en cada ejecución
 ```
 
