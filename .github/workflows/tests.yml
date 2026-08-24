@@ -36,16 +36,22 @@ jobs:
 
       - name: Verificar que las pruebas siguen siendo offline
         # Contrato que hace que este workflow tarde segundos en vez de
-        # minutos: ninguna prueba importa crawler_ai, que es el unico modulo
-        # que depende de crawl4ai (y con el, de Playwright y su navegador).
-        # Si alguna vez deja de cumplirse, conviene enterarse con un mensaje
-        # claro y no con un ModuleNotFoundError a mitad de la ejecucion.
+        # minutos: ningun modulo bajo prueba necesita crawl4ai, que arrastra
+        # Playwright y la descarga de un navegador. crawler_ai SI se importa
+        # en las pruebas, pero su import de crawl4ai es diferido a
+        # deep_crawl(); esto comprueba esa propiedad directamente en vez de
+        # inferirla, y falla con un mensaje claro en vez de con un
+        # ModuleNotFoundError a mitad de la ejecucion.
         run: |
-          if grep -rnE '^\s*(from|import)\s+crawler_ai\b' tests/; then
-            echo "::error::Alguna prueba importa crawler_ai, que arrastra crawl4ai. O se evita el import, o hay que instalar requirements.txt completo en este workflow."
+          if python3 -c "import crawl4ai" 2>/dev/null; then
+            echo "::error::crawl4ai esta instalado en este job: la comprobacion de import diferido no significa nada. Revisar el paso de instalacion."
             exit 1
           fi
-          echo "OK: ninguna prueba depende de crawl4ai."
+          if ! PYTHONPATH=src python3 -c "import crawler_ai"; then
+            echo "::error::crawler_ai no se puede importar sin crawl4ai. El import debe seguir dentro de deep_crawl(); ver la nota de la cabecera del modulo."
+            exit 1
+          fi
+          echo "OK: crawler_ai importable sin crawl4ai."
 
       - name: Instalar dependencias
         run: |
@@ -66,3 +72,4 @@ jobs:
           python3 tests/test_url_policy.py
           python3 tests/test_copilot_pack.py
           python3 tests/test_repos_ingest.py
+          python3 tests/test_crawler.py
