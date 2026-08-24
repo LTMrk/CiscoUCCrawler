@@ -41,14 +41,23 @@ conocimiento**:
 | **www.cisco.com** (`/td/docs/`, `/support/`) | Guías de administración, configuración, troubleshooting, diseño (CVD/SRND) y command reference de CUCM, Unity Connection, Expressway, Contact Center (UCCE/UCCX/CVP/Finesse), gateways de voz (CUBE, VG, SRST) y endpoints | Rastreo con `crawl4ai` + Playwright, con **allowlist de rutas por dominio** (deny-by-default: solo entra lo declarado útil) |
 | **community.cisco.com** | Artículos técnicos curados (knowledge base) | Solo `/ta-p/` (artículos), nunca hilos de discusión sin validar |
 | **help.webex.com** | Documentación de producto de Webex | Rastreo acotado a `/article/` |
+| **developer.cisco.com** (DevNet) | Referencia de API de colaboración: AXL, Finesse, Contact Center Express, PCCE, CVP, ECE, Unity Connection, RoomOS/xAPI, Jabber Bots, IOS-XE VoIP, Emergency Responder | Rastreo de `/docs/` y `/site/`, con allowlist por doc-set: entra colaboración y queda fuera el resto del portal (Meraki, DNA Center, SD-WAN, NSO...) |
 | **github.com/webex/webex-openapi-specs** | Especificación completa de las APIs REST de Webex (Cloud Calling, Contact Center, Messaging, Meetings, Admin, Device...) | Fuente estructurada, licencia CC-BY-4.0. Es el mismo pipeline que usa Cisco para publicar developer.webex.com, así que no va por detrás |
 | **github.com/webex/** y **github.com/CiscoDevNet/** (lista curada) | Documentación de integración: cómo se autentica un SDK, qué devuelve un widget, ejemplos de AXL/CUPI/CVP/Finesse | Markdown de 29 repositorios seleccionados, filtrando ficheros de gobernanza (LICENSE, CHANGELOG) y código generado |
 
 ### Lo que se excluye deliberadamente
 
-- **developer.webex.com y developer.cisco.com**: son aplicaciones
-  JavaScript que devuelven un shell vacío al rastreo; la referencia de API
-  se obtiene de los OpenAPI oficiales en su lugar.
+- **developer.webex.com**: la referencia de API se obtiene de los OpenAPI
+  oficiales en su lugar. Es el mismo origen del que Cisco publica ese
+  portal, así que no se pierde nada y se evita el WAF.
+- **De developer.cisco.com, todo lo que no sea colaboración**: el portal es
+  mayoritariamente Meraki, DNA Center, SD-WAN, NSO, Crosswork, XDR, Spaces,
+  UCS/HyperFlex y PSIRT. La allowlist por doc-set los deja fuera. Tampoco
+  entra `/codeexchange/` (es un espejo de READMEs de GitHub, y lo cubre ya
+  la ingesta de repositorios) ni `/web/`, que el `robots.txt` prohíbe: ahí
+  viven las guías legacy de JTAPI, TAPI, AXL y el wiki de CUPI, y no se
+  entra. La mayor parte de ese contenido tiene equivalente vigente bajo
+  `/docs/` o ya está en el corpus vía `www.cisco.com/td/docs/`.
 - **Productos en fin de vida** (p. ej. Webex Experience Management) y
   **repositorios deprecados** por su propio README: documentar algo
   retirado produce respuestas activamente incorrectas.
@@ -87,6 +96,7 @@ config.json (seeds, allowlists)
 crawler_ai.py ──┬── openapi_ingest.py   (specs de Webex)
                 ├── repos_ingest.py     (repos GitHub curados)
                 └── rastreo www.cisco.com / community / help.webex.com
+                    / developer.cisco.com (DevNet)
                          │
                          ▼
                   sanitizer.py  (poda de ruido: nav, banners, boilerplate)
@@ -104,7 +114,7 @@ crawler_ai.py ──┬── openapi_ingest.py   (specs de Webex)
 ```
 src/
   crawler_ai.py       orquestador del pipeline
-  fetch_policy.py      rate limiting, backoff, respeto de robots.txt
+  fetch_policy.py      rate limiting, backoff, redirecciones, respeto de robots.txt
   sanitizer.py          poda de ruido del HTML (3 capas: estructural, heurística, estadística)
   state_store.py        manifiesto de estado, detección de cambios, tombstones
   openapi_ingest.py      ingesta de specs OpenAPI de Webex
@@ -114,11 +124,16 @@ src/
   copilot_pack.py           empaqueta el corpus en un ZIP para Microsoft 365 Copilot
   report.py                  resumen de la ejecución para GitHub Actions
 
+tools/
+  probe_devnet.py     sondeo de diagnóstico de developer.cisco.com (fuera del ETL)
+
 config.json            seeds, allowlists, blocklists, listas curadas de repos y specs
 docs/pages/             corpus rastreado de cisco.com / community / help.webex.com
+                        / developer.cisco.com
 docs/repos/             corpus ingerido de repositorios GitHub
 logs/                   estado, deltas y diagnóstico de cada ejecución
 tests/                  pruebas de regresión (contrato de config, políticas de URL, extractores)
+.github/workflows/      etl.yml (ingesta semanal), tests.yml (pruebas en cada PR), purge_docs.yml
 RESUMEN-CONOCIMIENTO.md inventario del corpus, se regenera en cada ejecución
 ```
 

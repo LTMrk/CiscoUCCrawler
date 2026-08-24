@@ -6,8 +6,16 @@ import re
 import sys
 from urllib.parse import urlparse
 
-CONFIG = json.load(open(os.path.join(os.path.dirname(os.path.dirname(
-    os.path.abspath(__file__))), "config.json")))
+RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(RAIZ, "src"))
+
+# fetch_policy no importa crawl4ai, asi que la canonicalizacion se prueba de
+# verdad en lugar de reimplementarla como el resto de este fichero.
+from fetch_policy import canonicalizar_url
+
+CONFIG = json.load(open(os.path.join(RAIZ, "config.json")))
+
+HOSTS_BARRA_FINAL = CONFIG["global_settings"].get("hosts_barra_final")
 
 ALLOW = {d: [re.compile(p) for p in ps]
          for d, ps in CONFIG["path_allowlist_regex"].items()}
@@ -69,6 +77,19 @@ DEBE_PASAR = [
     # Ejemplos de configuracion: el tipo de documento que mas se consulta en
     # soporte y que la allowlist no contemplaba.
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-configuration-examples-list.html",
+    # developer.cisco.com (DevNet). En forma canonica, CON barra final: es la
+    # que produce canonicalizar_url y la unica que el origen sirve sin 301.
+    "https://developer.cisco.com/docs/axl/",
+    "https://developer.cisco.com/docs/axl/axl-developer-guide/",
+    "https://developer.cisco.com/docs/finesse/rest-api-dev-guide/",
+    "https://developer.cisco.com/docs/contact-center-express/cti-protocol-overview/",
+    "https://developer.cisco.com/docs/packaged-contact-center/api-dev-guide/",
+    "https://developer.cisco.com/docs/customer-voice-portal/",
+    "https://developer.cisco.com/docs/jabber-bots/",
+    "https://developer.cisco.com/docs/ios-xe-voip/",
+    "https://developer.cisco.com/site/unity-connection/documentation/",
+    "https://developer.cisco.com/site/roomdevices/",
+    "https://developer.cisco.com/site/collaboration/call-control/unified-presence/documentation/",
 ]
 
 DEBE_BLOQUEAR = [
@@ -104,6 +125,24 @@ DEBE_BLOQUEAR = [
     "https://www.cisco.com/c/en/us/td/docs/routers/cloud_edge/c8000v/config.html",
     # Y las guias de IOS ajenas a voz tampoco entran.
     "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipaddr/configuration/guide/ipaddr.html",
+    # developer.cisco.com fuera de colaboracion. Es la mayor parte del sitio, y
+    # la razon de declarar el dominio en path_allowlist_regex: sin allowlist,
+    # esta_en_allowlist() lo deja pasar todo y el corpus se llena de ruido.
+    "https://developer.cisco.com/docs/meraki/",
+    "https://developer.cisco.com/docs/dna-center/",
+    "https://developer.cisco.com/docs/sd-wan/",
+    "https://developer.cisco.com/docs/ucs-dev-center-hyperflex/",
+    "https://developer.cisco.com/docs/wireless-troubleshooting-tools/",
+    "https://developer.cisco.com/meraki/api-v1/",
+    "https://developer.cisco.com/psirt/",
+    "https://developer.cisco.com/learning/labs/collab-xapi-intro/",
+    # Code Exchange: duplica repos_ingest.py y lo que habia ingerido eran
+    # extensiones de AppDynamics.
+    "https://developer.cisco.com/codeexchange/github/repo/Appdynamics/activemq-monitoring-extension",
+    "https://developer.cisco.com/codeexchange/search",
+    # robots.txt de developer.cisco.com prohibe /web/. No se entra ahi.
+    "http://developer.cisco.com/web/axl/home",
+    "https://developer.cisco.com/web/sip/wiki/-/wiki/Main/Requirements",
 ]
 
 SOLO_DESCUBRIMIENTO = [
@@ -111,11 +150,46 @@ SOLO_DESCUBRIMIENTO = [
     "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/series.html",
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-version-15/model.html",
     "https://help.webex.com/en-us/all-products",
+    # Indices de DevNet: se recorren por sus enlaces, no se indexan. Su texto
+    # es una lista de titulos y ademas renderizan vacios sin JavaScript.
+    "https://developer.cisco.com/docs/",
+    "https://developer.cisco.com/site/collaboration/",
 ]
 
 NO_SOLO_DESCUBRIMIENTO = [
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/systemConfig/cucm_b_system-configuration-guide-15.html",
     "https://help.webex.com/en-us/article/ngcto76/algo",
+    "https://developer.cisco.com/docs/finesse/",
+    "https://developer.cisco.com/docs/axl/axl-developer-guide/",
+]
+
+# Canonicalizacion de URL. (entrada, salida esperada).
+#
+# Es la prueba que protege el corpus existente: si canonicalizar_url dejara de
+# quitar la barra en www.cisco.com, cambiarian los doc_id de los mas de 12.000
+# documentos ya rastreados (se derivan de la URL en state_store.doc_id_para) y
+# el manifiesto los tomaria por documentos nuevos.
+CANONICALIZACION = [
+    # developer.cisco.com canonicaliza CON barra: quitarla provocaba un 301 por
+    # URL, que sin rama 3xx se contaba como fallo. Causa raiz de que este
+    # dominio nunca entrara en el corpus.
+    ("https://developer.cisco.com/docs/finesse",
+     "https://developer.cisco.com/docs/finesse/"),
+    ("https://developer.cisco.com/docs/finesse/",
+     "https://developer.cisco.com/docs/finesse/"),
+    ("https://developer.cisco.com/docs/axl/axl-developer-guide?x=1#frag",
+     "https://developer.cisco.com/docs/axl/axl-developer-guide/"),
+    # La raiz y los ficheros con extension no llevan barra.
+    ("https://developer.cisco.com/", "https://developer.cisco.com"),
+    ("https://developer.cisco.com/docs/foo/spec.json",
+     "https://developer.cisco.com/docs/foo/spec.json"),
+    # Resto de dominios: comportamiento de siempre.
+    ("https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/x.html",
+     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/x.html"),
+    ("https://www.cisco.com/c/en/us/support/foo/",
+     "https://www.cisco.com/c/en/us/support/foo"),
+    ("https://help.webex.com/en-us/article/abc/#seccion",
+     "https://help.webex.com/en-us/article/abc"),
 ]
 
 
@@ -139,17 +213,29 @@ def main():
         if solo_descubrimiento(u):
             fallos.append(f"  Marcada como descubrimiento por error: {u}")
 
-    total = (len(DEBE_PASAR) + len(DEBE_BLOQUEAR)
-             + len(SOLO_DESCUBRIMIENTO) + len(NO_SOLO_DESCUBRIMIENTO))
+    for entrada, esperada in CANONICALIZACION:
+        obtenida = canonicalizar_url(entrada, HOSTS_BARRA_FINAL)
+        if obtenida != esperada:
+            fallos.append(f"  Canonicalizacion: {entrada}\n"
+                          f"      esperada  {esperada}\n"
+                          f"      obtenida  {obtenida}")
+        # Idempotencia: es lo que impide el ping-pong "barra si / barra no"
+        # al seguir la redireccion que la propia normalizacion provoco.
+        if canonicalizar_url(obtenida, HOSTS_BARRA_FINAL) != obtenida:
+            fallos.append(f"  Canonicalizacion no idempotente: {obtenida}")
+
+    total = (len(DEBE_PASAR) + len(DEBE_BLOQUEAR) + len(SOLO_DESCUBRIMIENTO)
+             + len(NO_SOLO_DESCUBRIMIENTO) + len(CANONICALIZACION))
 
     if fallos:
         print(f"{len(fallos)} fallo(s) de {total} casos:\n")
         print("\n".join(fallos))
         sys.exit(1)
 
-    print(f"Las {total} URLs se clasifican correctamente.")
+    print(f"Los {total} casos se clasifican correctamente.")
     print(f"  {len(DEBE_PASAR)} admitidas | {len(DEBE_BLOQUEAR)} bloqueadas | "
-          f"{len(SOLO_DESCUBRIMIENTO)} solo-descubrimiento")
+          f"{len(SOLO_DESCUBRIMIENTO)} solo-descubrimiento | "
+          f"{len(CANONICALIZACION)} canonicalizaciones")
 
 
 if __name__ == "__main__":

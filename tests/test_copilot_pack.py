@@ -43,6 +43,53 @@ def test_clasificacion_por_producto():
         assert clasificar_producto(url) == esperado, url
 
 
+def test_clasificacion_devnet():
+    """Los doc-sets de developer.cisco.com se integran en el producto al que
+    pertenecen, no en un bucket aparte: la referencia de API de AXL va con la
+    documentacion de CUCM porque es lo que el agente necesita a la vez.
+
+    Sin DOCSETS_DEVNET la mayoria caeria en "misc", porque las regex de
+    PRODUCTOS estan escritas sobre rutas de www.cisco.com.
+    """
+    casos = [
+        # Los que NO casaban con ninguna regex previa.
+        ("https://developer.cisco.com/docs/axl/axl-developer-guide/", "cucm"),
+        ("https://developer.cisco.com/docs/contact-center-express/"
+         "cti-protocol-overview/", "uccx"),
+        ("https://developer.cisco.com/docs/ios-xe-voip/", "cube"),
+        ("https://developer.cisco.com/docs/cer-config/", "cuc"),
+        ("https://developer.cisco.com/site/roomdevices/", "endpoints"),
+        ("https://developer.cisco.com/site/webdialer/", "cucm"),
+        ("https://developer.cisco.com/site/tapi/", "cucm"),
+        # Los que ya casaban: el mapeo nuevo no debe desviarlos.
+        ("https://developer.cisco.com/docs/finesse/rest-api-dev-guide/", "cvp"),
+        ("https://developer.cisco.com/docs/customer-voice-portal/", "cvp"),
+        ("https://developer.cisco.com/docs/packaged-contact-center/"
+         "api-dev-guide/", "ucce"),
+        ("https://developer.cisco.com/docs/enterprise-chat-and-email/", "ucce"),
+        ("https://developer.cisco.com/docs/jabber-bots/", "impresence"),
+        ("https://developer.cisco.com/site/unity-connection/documentation/",
+         "cuc"),
+    ]
+    for url, esperado in casos:
+        assert clasificar_producto(url) == esperado, \
+            f"{url} -> {clasificar_producto(url)}, esperado {esperado}"
+
+
+def test_devnet_no_altera_cisco_com():
+    """El gancho de DevNet se activa solo para developer.cisco.com. Si tocara
+    el resto, reclasificaria los 12.000 documentos ya empaquetados."""
+    casos = [
+        ("https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/x.html",
+         "cucm"),
+        ("https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/"
+         "contact_center/finesse/finesse_1251/y.html", "cvp"),
+        ("https://help.webex.com/en-us/article/abc/z", "webexcloud"),
+    ]
+    for url, esperado in casos:
+        assert clasificar_producto(url) == esperado, url
+
+
 def test_impresence_gana_a_cucm():
     """im_presence vive bajo /cucm/ pero es un producto distinto: su regex debe
     evaluarse antes o todo IM&P acabaria en el agente de CUCM."""

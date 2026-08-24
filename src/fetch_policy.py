@@ -60,6 +60,53 @@ USER_AGENT = (
     "documentation indexing for internal RAG; contact: tu-email@dominio)"
 )
 
+# Códigos que indican "el recurso está en otra URL". Se tratan como respuesta
+# válida del origen, no como fallo de acceso: ver tras_respuesta().
+REDIRECCIONES = (301, 302, 303, 307, 308)
+
+# Hosts que canonicalizan sus rutas CON barra final. Para ellos, quitarla
+# provoca un 301 en cada petición.
+#
+# El caso que motivó esto: developer.cisco.com sirve la documentación en
+# `/docs/finesse/`, y la normalización estándar (rstrip("/")) la convertía en
+# `/docs/finesse`, que redirige. Sin rama 3xx, ese 301 se clasificaba como
+# fallo y la URL acababa aparcada 14 días. El resultado era que el rastreo
+# nunca llegó a renderizar una sola página de /docs/: 127 rebotes registrados
+# en logs/error.log, incluidos Finesse, CVP, PCCE, ECE, UCCX y Jabber Bots.
+#
+# La lista es deliberadamente corta y explícita en vez de una heurística
+# global: los doc_id del corpus se derivan de la URL (state_store.doc_id_para),
+# así que cambiar la normalización de www.cisco.com re-indexaría de cero los
+# más de 12.000 documentos ya rastreados.
+HOSTS_BARRA_FINAL = ("developer.cisco.com",)
+
+
+def canonicalizar_url(url, hosts_barra_final=None):
+    """Normaliza una URL a la forma que el origen considera canónica.
+
+    Quita fragmento y query siempre. La barra final se quita por defecto, pero
+    se AÑADE en los hosts declarados en HOSTS_BARRA_FINAL, salvo en la raíz del
+    sitio y en rutas que terminan en fichero con extensión.
+
+    Es idempotente: canonicalizar_url(canonicalizar_url(u)) == canonicalizar_url(u).
+    Esa propiedad es la que impide el ping-pong "barra sí / barra no" cuando se
+    sigue la redirección que la propia normalización había provocado.
+    """
+    limpia = url.split("#")[0].split("?")[0]
+    hosts = (HOSTS_BARRA_FINAL if hosts_barra_final is None
+             else tuple(h.lower() for h in hosts_barra_final))
+
+    netloc = urlparse(limpia).netloc.lower()
+    if any(h in netloc for h in hosts):
+        ruta = urlparse(limpia).path
+        ultimo = ruta.rstrip("/").rsplit("/", 1)[-1]
+        # La raíz se deja como está; un último segmento con punto es un
+        # fichero (foo.html, spec.json) y no lleva barra.
+        if ruta.strip("/") and "." not in ultimo:
+            return limpia.rstrip("/") + "/"
+
+    return limpia.rstrip("/")
+
 
 class RobotsCache:
     """Cachea y respeta robots.txt por dominio."""
@@ -302,7 +349,8 @@ class PoliticaAcceso:
 
     def tras_respuesta(self, url, codigo, retry_after=None, intento=0):
         """Clasifica el resultado. Devuelve una de:
-        'ok' | 'no_modificado' | 'reintentar' | 'cuarentena' | 'desaparecido' | 'fallo'
+        'ok' | 'no_modificado' | 'redirigido' | 'reintentar' | 'cuarentena' |
+        'desaparecido' | 'fallo'
         y los segundos de espera si procede."""
         if codigo == 304:
             self.breaker.registrar(True)
@@ -310,6 +358,13 @@ class PoliticaAcceso:
         if 200 <= codigo < 300:
             self.breaker.registrar(True)
             return "ok", 0
+        if codigo in REDIRECCIONES:
+            # El origen ha respondido correctamente: el recurso existe, solo
+            # que en otra URL. Cuenta como éxito para el breaker; tratarlo como
+            # fallo abriría el circuito en sitios que redirigen de forma
+            # rutinaria (canonicalización de barra final, http -> https).
+            self.breaker.registrar(True)
+            return "redirigido", 0
         if codigo in (404, 410):
             self.breaker.registrar(True)  # respuesta válida, no fallo de acceso
             return "desaparecido", 0

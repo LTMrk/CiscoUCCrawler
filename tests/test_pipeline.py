@@ -152,6 +152,72 @@ def test_backoff_y_clasificacion():
           "304->no modificado")
 
 
+def test_redirecciones():
+    """Un 3xx es una respuesta válida del origen, no un fallo de acceso.
+
+    Sin esta rama, developer.cisco.com respondía 301 en cada URL (canonicaliza
+    con barra final) y el pipeline lo contaba como fallo: 127 rebotes en
+    error.log sobre /docs/finesse, /docs/customer-voice-portal y compañía, y
+    ni una sola página de /docs/ llegó a rastrearse.
+    """
+    from fetch_policy import REDIRECCIONES, PoliticaAcceso
+    p = PoliticaAcceso()
+
+    for codigo in REDIRECCIONES:
+        accion, espera = p.tras_respuesta(f"http://x/{codigo}", codigo)
+        assert accion == "redirigido", f"HTTP {codigo} no se clasificó como redirección"
+        assert espera == 0
+
+    # No debe abrir el circuito: hay sitios que redirigen de forma rutinaria.
+    assert p.breaker.abierto is False, "Las redirecciones abrieron el breaker"
+    # Y no son cuarentena: la URL no está bloqueada, solo movida.
+    assert not p.cuarentena.contiene("http://x/301")
+    print(f"  OK redirecciones: {len(REDIRECCIONES)} códigos 3xx -> 'redirigido', "
+          "sin abrir el breaker")
+
+
+def test_estado_redireccion():
+    """registrar_redireccion no es ni tombstone ni fallo."""
+    tmp = tempfile.mkdtemp()
+    cwd = os.getcwd()
+    try:
+        os.chdir(tmp)
+        os.makedirs("docs/pages", exist_ok=True)
+        os.makedirs("logs", exist_ok=True)
+
+        m = ManifestStore()
+        origen = "https://developer.cisco.com/docs/finesse"
+        destino = "https://developer.cisco.com/docs/finesse/"
+
+        # Una URL conocida que arrastraba fallos de cuando el 3xx se tomaba
+        # por error: registrar_fallo solo actúa sobre entradas ya existentes.
+        m.registrar_contenido(origen, "# Finesse\n\n" + "contenido. " * 40)
+        m.registrar_fallo(origen)
+        m.registrar_fallo(origen)
+        assert m.entradas[origen]["fail_count"] == 2
+
+        m.registrar_redireccion(origen, destino, 301)
+        entrada = m.entradas[origen]
+        assert entrada["status"] == "redirect"
+        assert entrada["redirect_to"] == destino
+        assert entrada["fail_count"] == 0, "La redirección no limpió los fallos"
+        assert entrada["doc_id"] not in m.deltas["removed"], \
+            "Una redirección no debe emitir tombstone"
+
+        # 301 es permanente: no se vuelve a pedir.
+        assert m.debe_visitar(origen) is False
+        # 302 es temporal: se revisa cuando venza su TTL.
+        temporal = "https://developer.cisco.com/site/axl"
+        m.registrar_redireccion(temporal, "https://developer.cisco.com/site/axl/", 302)
+        assert m.entradas[temporal]["status"] == "redirect"
+        assert m.entradas[temporal].get("next_check"), "Un 302 se queda sin TTL"
+
+        print("  OK redirección: sin tombstone, sin fail_count, 301 no se revisita")
+    finally:
+        os.chdir(cwd)
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def test_circuit_breaker():
     from fetch_policy import CircuitBreaker
     cb = CircuitBreaker(ventana=20, umbral_error=0.5, minimo_muestras=10)
@@ -170,8 +236,10 @@ if __name__ == "__main__":
     test_boilerplate_cross_documento()
     print("\nstate_store:")
     test_deltas_incrementales()
+    test_estado_redireccion()
     print("\nfetch_policy:")
     test_backoff_y_clasificacion()
+    test_redirecciones()
     test_circuit_breaker()
     print("\n--- Markdown resultante de ejemplo ---")
     print(md[:600])

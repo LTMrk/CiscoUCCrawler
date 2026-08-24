@@ -41,7 +41,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CacheMode, CrawlerRunConfig
 
-from fetch_policy import USER_AGENT, PoliticaAcceso
+from fetch_policy import (
+    HOSTS_BARRA_FINAL, USER_AGENT, PoliticaAcceso, canonicalizar_url,
+)
 from sanitizer import DetectorBoilerplate, sanitizar
 from state_store import (
     ManifestStore, cargar_frontera, guardar_frontera,
@@ -103,6 +105,14 @@ MINUTOS_LIMITE = int(os.environ.get("MINUTOS_LIMITE", "0") or 0)
 BLOCKED_PATTERNS = CONFIG.get("blocked_patterns", [])
 SELECTORES_RUIDO_CSS = CONFIG.get("SELECTORES_RUIDO_CSS", [])
 
+# Hosts que canonicalizan con barra final. Si no se declara en config.json se
+# usa el valor por defecto del módulo de política.
+HOSTS_BARRA_FINAL_CFG = tuple(GS.get("hosts_barra_final") or HOSTS_BARRA_FINAL)
+
+# Tope de saltos por cadena de redirección. Cinco cubre los encadenamientos
+# reales (http -> https -> barra final -> ruta nueva) y corta los bucles.
+MAX_SALTOS_REDIRECCION = 5
+
 
 def _compilar(patrones, etiqueta):
     """Compila regex tolerando errores: un patrón malformado se registra y se
@@ -129,7 +139,9 @@ PATH_ALLOWLIST = {
 # ---------------------------------------------------------------------------
 
 def normalize_url(url):
-    return url.split("#")[0].split("?")[0].rstrip("/")
+    """Forma canónica de una URL. La lógica vive en fetch_policy para poder
+    probarla sin importar crawl4ai; aquí solo se le inyecta la configuración."""
+    return canonicalizar_url(url, HOSTS_BARRA_FINAL_CFG)
 
 
 def is_blocked_by_user(url):
@@ -246,6 +258,24 @@ def git_commit_and_push(mensaje):
         log_error("GIT_PUSH", str(e))
 
 
+def _destino_redireccion(url, resultado):
+    """URL de destino de un 3xx, normalizada, o None si no se puede deducir.
+
+    crawl4ai expone `redirected_url` cuando el navegador ya siguió el salto;
+    si no está, se recurre a la cabecera Location, que puede ser relativa.
+    """
+    destino = getattr(resultado, "redirected_url", None)
+
+    if not destino:
+        cabeceras = getattr(resultado, "response_headers", None) or {}
+        if isinstance(cabeceras, dict):
+            destino = cabeceras.get("location") or cabeceras.get("Location")
+
+    if not destino:
+        return None
+    return normalize_url(urljoin(url, destino.strip()))
+
+
 async def descubrir_por_sitemap(politica, semillas):
     """Descubrimiento vía sitemap declarado en robots.txt. Es la vía que el
     operador expone deliberadamente: una petición devuelve cientos de URLs en
@@ -259,12 +289,40 @@ async def descubrir_por_sitemap(politica, semillas):
     for semilla in semillas:
         sitemaps.extend(politica.robots.sitemaps(semilla))
 
-    for sm in dict.fromkeys(sitemaps):
+    # Cola de trabajo en lugar de un simple bucle: un <sitemapindex> no
+    # contiene URLs de páginas sino de otros sitemaps, y sin seguirlos el
+    # descubrimiento devuelve cero. Se limita a MAX_NIVELES_SITEMAP para que un
+    # índice mal formado que se apunte a sí mismo no cuelgue el arranque.
+    MAX_NIVELES_SITEMAP = 2
+    pendientes = [(sm, 0) for sm in dict.fromkeys(sitemaps)]
+    vistos = set()
+
+    while pendientes:
+        sm, nivel = pendientes.pop(0)
+        if sm in vistos:
+            continue
+        vistos.add(sm)
+
         try:
             req = urllib.request.Request(sm, headers=politica.cabeceras())
             with urllib.request.urlopen(req, timeout=60) as resp:
                 raiz = ET.fromstring(resp.read())
             ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+
+            # El nombre de la etiqueta raíz distingue un índice de un sitemap
+            # normal; en ambos casos los hijos se llaman <loc>.
+            es_indice = raiz.tag.endswith("sitemapindex")
+
+            if es_indice:
+                hijos = 0
+                for loc in raiz.findall(".//s:loc", ns):
+                    hijo = (loc.text or "").strip()
+                    if hijo and nivel + 1 <= MAX_NIVELES_SITEMAP:
+                        pendientes.append((hijo, nivel + 1))
+                        hijos += 1
+                log_info(f"Sitemap index con {hijos} sitemaps hijos: {sm}")
+                continue
+
             nuevas = 0
             for loc in raiz.findall(".//s:loc", ns):
                 u = normalize_url((loc.text or "").strip())
@@ -353,6 +411,8 @@ async def deep_crawl():
     # -- Paso 2: frontera ----------------------------------------------------
     cola = asyncio.Queue()
     encolados = set()
+    # Saltos acumulados por cadena de redirección, para cortar los bucles.
+    saltos_redireccion = {}
 
     pendientes = cargar_frontera()
     if pendientes:
@@ -464,6 +524,42 @@ async def deep_crawl():
 
                 if accion == "no_modificado":
                     manifiesto.registrar_no_modificado(url)
+                    continue
+
+                if accion == "redirigido":
+                    destino = _destino_redireccion(url, resultado)
+                    manifiesto.registrar_redireccion(url, destino, codigo)
+
+                    if not destino:
+                        log_error(url, f"HTTP {codigo} sin destino de redirección.")
+                        continue
+
+                    if destino == url:
+                        # La normalización ya devuelve la forma canónica: el
+                        # origen redirige a donde ya estábamos. Encolarlo otra
+                        # vez sería un bucle infinito.
+                        log_info(f"HTTP {codigo} a sí misma, se descarta: {url}")
+                        continue
+
+                    saltos = saltos_redireccion.get(url, 0) + 1
+                    if saltos > MAX_SALTOS_REDIRECCION:
+                        log_error(url, f"Cadena de redirección demasiado larga "
+                                       f"({saltos} saltos), se abandona.")
+                        continue
+
+                    if not url_aceptable(destino):
+                        log_info(f"HTTP {codigo} hacia URL no aceptable, se "
+                                 f"descarta: {url} -> {destino}")
+                        continue
+
+                    saltos_redireccion[destino] = saltos
+                    if destino not in encolados:
+                        encolados.add(destino)
+                        # Se retira de las visitadas del lote: si el destino ya
+                        # se descartó por normalización, ahora sí debe entrar.
+                        visitadas_este_lote.discard(destino)
+                        await cola.put((destino, profundidad))
+                    log_info(f"HTTP {codigo}: {url} -> {destino}")
                     continue
 
                 if accion == "desaparecido":

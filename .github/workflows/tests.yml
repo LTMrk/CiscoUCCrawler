@@ -1,0 +1,68 @@
+name: Pruebas
+
+# Solo pull requests (y disparo manual). Deliberadamente NO se engancha a
+# push sobre main: ahi el propio ETL commitea en cada lote y dispararia una
+# ejecucion por cada "docs(incremental)", que no aporta senal.
+on:
+  pull_request:
+  workflow_dispatch:
+
+# Este job no escribe nada en el repositorio.
+permissions:
+  contents: read
+
+# Un push nuevo sobre la misma PR cancela la ejecucion anterior: lo que
+# importa es el veredicto del ultimo commit.
+concurrency:
+  group: pruebas-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          # Igual que en etl.yml: sin esto la accion busca
+          # **/requirements.txt o **/pyproject.toml y aborta si no encuentra.
+          cache-dependency-path: requirements.txt
+
+      - name: Verificar que las pruebas siguen siendo offline
+        # Contrato que hace que este workflow tarde segundos en vez de
+        # minutos: ninguna prueba importa crawler_ai, que es el unico modulo
+        # que depende de crawl4ai (y con el, de Playwright y su navegador).
+        # Si alguna vez deja de cumplirse, conviene enterarse con un mensaje
+        # claro y no con un ModuleNotFoundError a mitad de la ejecucion.
+        run: |
+          if grep -rnE '^\s*(from|import)\s+crawler_ai\b' tests/; then
+            echo "::error::Alguna prueba importa crawler_ai, que arrastra crawl4ai. O se evita el import, o hay que instalar requirements.txt completo en este workflow."
+            exit 1
+          fi
+          echo "OK: ninguna prueba depende de crawl4ai."
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          # requirements.txt menos crawl4ai, derivado del fichero real para
+          # que no haya una segunda lista de dependencias que mantener: si
+          # alguien sube la version de lxml, esto la recoge solo.
+          grep -v '^crawl4ai' requirements.txt > /tmp/requirements-pruebas.txt
+          pip install -r /tmp/requirements-pruebas.txt
+
+      - name: Pruebas de regresión
+        # La misma lista que corre etl.yml antes del crawl. Si se anade un
+        # fichero de pruebas, hay que anadirlo en los dos sitios.
+        run: |
+          python3 tests/test_migracion.py
+          python3 tests/test_openapi.py
+          python3 tests/test_pipeline.py
+          python3 tests/test_url_policy.py
+          python3 tests/test_copilot_pack.py
+          python3 tests/test_repos_ingest.py
