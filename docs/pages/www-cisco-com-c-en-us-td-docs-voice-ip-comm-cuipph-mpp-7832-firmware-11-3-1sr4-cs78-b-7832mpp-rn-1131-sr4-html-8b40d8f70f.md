@@ -1,12 +1,16 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-firmware-11-3-1sr4-cs78-b-7832mpp-rn-1131-sr4-html-8b40d8f70f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/firmware/11-3-1sr4/cs78_b_7832mpp-rn-1131_sr4.html
-retrieved_at: 2026-08-21T23:17:50.424671+00:00
+retrieved_at: 2026-08-24T13:29:27.642250+00:00
 ---
 
 Cisco IP Conference Phone 7832 Multiplatform Phones Release Notes for Firmware Release 11.3(1)SR4
 
 # Cisco IP Conference Phone 7832 Multiplatform Phones Release Notes for Firmware Release 11.3(1)SR4
+
+### Download Options
+
+Updated: March 1, 2021
 
 First Published: March 2, 2021
 
