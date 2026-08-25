@@ -3658,6 +3658,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://cdetsng.cisco.com/webui": {
+      "content_sha": null,
+      "doc_id": "cdetsng-cisco-com-webui-6b3865aa31",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T06:55:38.753081+00:00",
+      "http_status": 303,
+      "last_seen": "2026-08-25T06:55:38.753095+00:00",
+      "next_check": "2026-08-26T06:55:38.753095+00:00",
+      "redirect_to": "https://cisco.login.duosecurity.com/email_first",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://cway.cisco.com/docs/tools/CollaborationSolutionsAnalyzer/csa.callengine.supportedproducts.html": {
       "content_sha": "520e16d9b5206293f7202a64628152183889dcfdf29bf45f7492adf25dbe4854",
       "doc_id": "cway-cisco-com-docs-tools-collaborationsolutionsanalyzer-csa-callengine-supportedproducts-html-134e06d7f5",
@@ -163380,5 +163392,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T06:51:08.561144+00:00"
+  "updated_at": "2026-08-25T06:56:13.000835+00:00"
 }
