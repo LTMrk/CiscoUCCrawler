@@ -1,53 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/tsd-products-support-series-home.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-4000/tsd-products-support-series-home.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/userguide/cs88_b_conference-8832-user-guide.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/userguide/cs88_b_conference-8832-user-guide.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-0-1-SR3/cs88_b_conference-8832-rn-for-12_0_1_sr3.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-0-1-SR3/cs88_b_conference-8832-rn-for-12_0_1_sr3.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-1-1/cs88_b_conference-8832-rn-for-12_1_1.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-1-1/cs88_b_conference-8832-rn-for-12_1_1.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-5-1SR2/releasenotes/cs88_b_conference-8832-rn-1251sr2.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-5-1SR2/releasenotes/cs88_b_conference-8832-rn-1251sr2.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-5-1SR3/releasenotes/cs88_b_8832-release-notes-1251sr3.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-5-1SR3/releasenotes/cs88_b_8832-release-notes-1251sr3.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-6-1/releasenotes/cs88_b_8832-release-notes-1261.epub",
     "depth": 1
   },
@@ -37430,5 +37382,13 @@
   {
     "url": "http://tools.cisco.com/Support/BugToolKit/search/getBugDetails.do",
     "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/117300-configure-cube-00.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/series.html",
+    "depth": 1
   }
 ]

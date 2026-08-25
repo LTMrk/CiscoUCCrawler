@@ -18603,6 +18603,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-4000/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-business-edition-4000-tsd-products-support-series-home-html-b5f96a46ef",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T13:57:01.190471+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T13:57:01.190482+00:00",
+      "next_check": "2026-08-26T13:57:01.190482+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-5000/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-business-edition-5000-tsd-products-support-series-home-html-949a94eec3",
@@ -18636,6 +18648,18 @@
       "last_seen": "2026-08-25T11:09:47.941251+00:00",
       "next_check": "2026-08-26T11:09:47.941251+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-hosted-collaboration-solution-hcs-tsd-products-support-series-home--0e335701ef",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T13:56:56.661964+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T13:56:56.661973+00:00",
+      "next_check": "2026-08-26T13:56:56.661973+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -168992,5 +169016,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T13:52:43.555253+00:00"
+  "updated_at": "2026-08-25T13:57:39.522731+00:00"
 }
