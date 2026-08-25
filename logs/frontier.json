@@ -1,77 +1,5 @@
 [
   {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCve47332",
-    "depth": 1
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-voice-and-video/integrating-basic-cisco-paging-basic-informacast-with-cucm/ta-p/3161322",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCuy56088",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCut91894",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/tdm-gateways/223040-troubleshoot-dsp-pvdm-issue-on-voice.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/tdm-gateways/223040-troubleshoot-dsp-pvdm-issue-on-voice.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/tdm-gateways/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/t1-pri-line-clock-design-considerations-on-isr4k/ta-p/3163800",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvz45074",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCwa12894",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/118884-config-vcs-00.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/118884-config-vcs-00.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://tools.cisco.com/bugsearch/bug/CSCvz20720",
     "depth": 1
   },
@@ -41597,6 +41525,14 @@
   },
   {
     "url": "https://community.cisco.com/t5/security-knowledge-base/login-page-auto-redirect-to-create-an-account-page/ta-p/3640490",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/webex-calling-lgw-local-gateway-dna-essentials-or-advantage/ta-p/4992250",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/basic-sip-call-flows-amp-troubleshooting-commands/ta-p/3110162",
     "depth": 2
   }
 ]
