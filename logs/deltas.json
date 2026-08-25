@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-08-25T08:19:06.316705+00:00",
+  "run_at": "2026-08-25T08:24:23.381810+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
@@ -7,10 +7,12 @@
   "blocked": [],
   "unchanged_count": 0,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuq75767 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/18772-extension-mobility.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-tech-notes-list.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/10_5_1/CUCM_BK_S52C3A64_00_saml-sso-deployment-guide-105/CUCM_BK_S52C3A64_00_saml-sso-deployment-guide-105_chapter_010.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/11_5_1/CUCM_BK_S12EF288_00_saml-sso-deployment-guide--1151.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuy43181 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/8_6_1/ccmcfg/bccm-861-cm/b06phtmp.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/10_0_1/rtmt/CUCM_BK_CA30A928_00_cisco-unified-rtmt-administration-100/CUCM_BK_CA30A928_00_cisco-unified-rtmt-administration-100_chapter_0101.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/sip_tn/8_5_1/sip_t_n/1-overview.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/sip_tn/8_5_1/sip_t_n/4-sdp_api.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/sip_tn/8_5_1/sip_t_n/8-trace.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html"
   ],
   "semillas_encoladas": 20
 }

@@ -464,6 +464,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuy43181": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscuy43181-d123b412c2",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:23:23.835986+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T08:23:23.835998+00:00",
+      "next_check": "2026-08-26T08:23:23.835998+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvb58580": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvb58580-9200662249",
@@ -54607,6 +54619,18 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/8_6_1/ccmcfg/bccm-861-cm/b06phtmp.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-8-6-1-ccmcfg-bccm-861-cm-b06phtmp-html-e674b97844",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:23:48.204778+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:23:48.204789+00:00",
+      "next_check": "2026-08-26T08:23:48.204789+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/cucm_b_feature-configuration-guide-for-15/cucm_b_feature-configuration-guide-for-cisco1251su3_chapter_01000011.html": {
       "content_sha": "224f4924b2225627f76d9aa930feaab5b3780fa780e3b66693a087ad3be23098",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-cucm-b-feature-configuration-guide-for-15-cucm-b-feature-configur-bd1b08736b",
@@ -77043,6 +77067,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/10_0_1/rtmt/CUCM_BK_CA30A928_00_cisco-unified-rtmt-administration-100/CUCM_BK_CA30A928_00_cisco-unified-rtmt-administration-100_chapter_0101.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-10-0-1-rtmt-cucm-bk-ca30a928-00-cisco-unified-rtmt-administrati-1a31821513",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:24:00.983015+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:24:00.983027+00:00",
+      "next_check": "2026-08-26T08:24:00.983027+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_01.html": {
       "content_sha": "d9b1a9067df6cdf94e964c20249303f2995ab7d1a2405143e10bf366d1ce8047",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--5f68f6831f",
@@ -78745,6 +78781,42 @@
       "next_check": "2026-08-28T11:44:32.188753+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/sip_tn/8_5_1/sip_t_n/1-overview.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-sip-tn-8-5-1-sip-t-n-1-overview-html-8585e5ff65",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:23:31.313120+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:23:31.313131+00:00",
+      "next_check": "2026-08-26T08:23:31.313131+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/sip_tn/8_5_1/sip_t_n/4-sdp_api.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-sip-tn-8-5-1-sip-t-n-4-sdp-api-html-e099b0c30c",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:23:27.396087+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:23:27.396099+00:00",
+      "next_check": "2026-08-26T08:23:27.396099+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/sip_tn/8_5_1/sip_t_n/8-trace.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-sip-tn-8-5-1-sip-t-n-8-trace-html-8b85d19071",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:23:35.605346+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:23:35.605357+00:00",
+      "next_check": "2026-08-26T08:23:35.605357+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab10/collab10/cmapps.html": {
       "content_sha": null,
@@ -163829,5 +163901,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T08:19:06.168517+00:00"
+  "updated_at": "2026-08-25T08:24:23.194767+00:00"
 }
