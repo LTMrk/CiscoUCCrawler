@@ -1,69 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215638-add-participants-to-existing-conference.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215638-add-participants-to-existing-conference.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu72374",
-    "depth": 1
-  },
-  {
-    "url": "https://cway.cisco.com/docs/tools/CollaborationSolutionsAnalyzer/supercharge",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-maintenance-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215662-explanation-and-work-around-on-cscvt7372.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215662-explanation-and-work-around-on-cscvt7372.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt73723",
-    "depth": 1
-  },
-  {
-    "url": "https://meeting-infohub.cisco.com/faq/content/43/450/en/how-do-you-check-the-number-of-active-sessions-on-a-web-bridge.html",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvt73723",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215666-expected-behaviour-when-using-the-maxpee.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215666-expected-behaviour-when-using-the-maxpee.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215910-configuring-ldap-users-on-cisco-meeting.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215910-configuring-ldap-users-on-cisco-meeting.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/216549-how-to-renew-expired-database-cluster-ce.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/216549-how-to-renew-expired-database-cluster-ce.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217246-how-to-enable-cms-detailed-tracing-via-a.epub",
     "depth": 1
   },
@@ -42437,6 +42373,10 @@
   },
   {
     "url": "https://video.cisco.com/detail/videos/latest-videos/video/6403678606112",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/matrix/10_x/CUCM_BK_CD1DB914_00_compat_matrix.html",
     "depth": 2
   }
 ]
