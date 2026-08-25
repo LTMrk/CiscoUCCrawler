@@ -280,6 +280,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun16461": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscun16461-a7872bb95f",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:28:52.754241+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T08:28:52.754252+00:00",
+      "next_check": "2026-08-26T08:28:52.754252+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo54855": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscuo54855-7475e9f4be",
@@ -40737,6 +40749,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/10_0_1/ccmfeat/CUCM_BK_F3AC1C0F_00_cucm-features-services-guide-100/CUCM_BK_F3AC1C0F_00_cucm-features-services-guide-100_chapter_011100.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-10-0-1-ccmfeat-cucm-bk-f3ac1c0f-00-cucm-features-services-guide-1-63891939eb",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:29:21.470136+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:29:21.470146+00:00",
+      "next_check": "2026-08-26T08:29:21.470146+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/Admin/cucm_b_serviceability-admin-guide-1151su1/cucm_b_serviceability-admin-guide-1151su1_chapter_0111.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-11-5-1-admin-cucm-b-serviceability-admin-guide-1151su1-cucm-b-ser-05c3c595eb",
@@ -40757,6 +40781,30 @@
       "http_status": 301,
       "last_seen": "2026-08-25T07:25:45.842217+00:00",
       "next_check": "2026-08-26T07:25:45.842217+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/sysConfig/11_5_1_SU1/cucm_b_system-configuration-guide-1151su1/cucm_b_system-configuration-guide-1151su1_chapter_01010000.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-11-5-1-sysconfig-11-5-1-su1-cucm-b-system-configuration-guide-115-7655d69623",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:29:17.083214+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:29:17.083225+00:00",
+      "next_check": "2026-08-26T08:29:17.083225+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/sysConfig/11_5_1_SU1/cucm_b_system-configuration-guide-1151su1/cucm_b_system-configuration-guide-1151su1_chapter_01010001.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-11-5-1-sysconfig-11-5-1-su1-cucm-b-system-configuration-guide-115-c0ee7f83ae",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:29:13.061744+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:29:13.061754+00:00",
+      "next_check": "2026-08-26T08:29:13.061754+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -163901,5 +163949,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T08:24:23.194767+00:00"
+  "updated_at": "2026-08-25T08:29:26.833417+00:00"
 }
