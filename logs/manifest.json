@@ -4205,6 +4205,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/socialminer/documentation/": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-socialminer-documentation-97fef34dda",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T06:35:22.778077+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T06:35:22.778088+00:00",
+      "next_check": "2026-08-26T06:35:22.778088+00:00",
+      "redirect_to": "https://developer.cisco.com/site/socialminer/overview/",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/socialminer/overview/": {
       "content_sha": "cccc8d894cdb815e8beffc4a2893091dbf9af6ffea0a53b485c1c4feb52bdf68",
       "doc_id": "developer-cisco-com-site-socialminer-overview-fe520b13a0",
@@ -6660,6 +6672,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-packaged-contact-center-enterprise-tsd-products-support-series-home-15d6912512",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T06:35:38.953581+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T06:35:38.953597+00:00",
+      "next_check": "2026-08-26T06:35:38.953597+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/dx80/212294-how-to-upload-background-image-on-dx80-a.html": {
       "content_sha": "2ed6f6e48c17113a1eb4aee2f293de2c540b6780865af6504a2380ca7c593991",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-dx80-212294-how-to-upload-background-image-on-dx80-a-html-3a4a8d556f",
@@ -8595,6 +8619,18 @@
       "next_check": "2026-08-25T20:08:51.165524+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/socialminer/200892-Integrate-UCCX-with-SocialMiner-for-Agen.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-socialminer-200892-integrate-uccx-with-socialminer-for-agen-ht-642734366b",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T06:35:26.606150+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T06:35:26.606162+00:00",
+      "next_check": "2026-08-26T06:35:26.606162+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/socialminer/200892-integrate-uccx-with-socialminer-for-agen.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1001/213399-configure-mobile-agent-on-ucce.html": {
       "content_sha": "4ac278c47b09c2e5d8bc04ad8400bdf137f9e8d3b4f5258f755708aeb956b1f5",
@@ -163284,5 +163320,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T06:30:46.885692+00:00"
+  "updated_at": "2026-08-25T06:36:17.212429+00:00"
 }

@@ -1,69 +1,5 @@
 [
   {
-    "url": "https://developer.cisco.com/site/socialminer/documentation/",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/socialminer/200892-Integrate-UCCX-with-SocialMiner-for-Agen.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211579-Install-and-Configure-the-OpenAM-Identit.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211579-Install-and-Configure-the-OpenAM-Identit.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/tsd-products-support-series-home.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211580-Install-and-Configure-the-PingFederate-I.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211580-Install-and-Configure-the-PingFederate-I.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-management-portal/200895-CCMP-Reskill-attempt-generates-error-Gl.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-management-portal/200895-CCMP-Reskill-attempt-generates-error-Gl.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCup34703",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-management-portal/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-12-6-1/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-901/200266-Configure-Fetch-Audio-Feature-to-Reduce.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-901/200266-Configure-Fetch-Audio-Feature-to-Reduce.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://tools.cisco.com/bugsearch/bug/CSCub05699",
     "depth": 1
   },
@@ -42029,6 +41965,38 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-security-advisories-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/site/socialminer/overview/",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/socialminer/200892-integrate-uccx-with-socialminer-for-agen.html",
+    "depth": 1
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/building-a-voice-infrastructure-risk-and-resiliency-dashboard/ta-p/5564920",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/measuring-contact-center-performance-beyond-asa-in-cisco-ucce/ta-p/5563870",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/beyond-rtmt-layered-enterprise-voice-monitoring/ta-p/5563696",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/smart-call-home-knowledge-base/overview-of-smart-call-home-and-device-diagnostics-faq-from-live/ta-p/3125384",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/services-knowledge-base/overview-of-smart-call-home-and-device-diagnostics-faq-from-live/ta-p/3125384",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/threat-centric-nac-service-integrate-cisco-ise-with-tenable-sc/ta-p/5141349",
     "depth": 2
   }
 ]
