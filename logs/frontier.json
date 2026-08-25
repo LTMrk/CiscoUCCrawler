@@ -1,121 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-125/215014-troubleshoot-cisco-headset-5xx-series.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286323239/type/286323289/release/1.5(1)",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn41271",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp96968",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp32795",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvq03392",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn47014",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn66483",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn73816",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvo70826",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvp97802",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvo01194",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn79632",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn77884",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvn76631",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://radkit.cisco.com",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/cloud-systems-management/remote-automation-development-kit/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-15/222534-implement-reuse-of-multi-san-tomcat-cert.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-15/222534-implement-reuse-of-multi-san-tomcat-cert.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-version-15/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-system-release-80/220162-configure-customer-voice-portal-cvp-re.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-system-release-80/220162-configure-customer-voice-portal-cvp-re.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp12_0/installation/guide/ccvp_b_installation-and-upgrade-guide-12-0/New_ccvp_b_installation-and-upgrade-guide-12-0_chapter_011.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-survivable-remote-site-telephony/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-survivable-remote-site-telephony/201114-SIP-Phones-do-not-Register-to-SRST-route.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-survivable-remote-site-telephony/201114-SIP-Phones-do-not-Register-to-SRST-route.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-survivable-remote-site-telephony/213805-configure-secure-sip-srst-on-isr4000.epub",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-survivable-remote-site-telephony/213805-configure-secure-sip-srst-on-isr4000.mobi",
     "depth": 1
   },
@@ -40693,6 +40577,34 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-version-12-5/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/interdomain_federation/12_5_1/cup0_b_interdomain-federation-1251.html",
+    "depth": 1
+  },
+  {
+    "url": "https://radkit.cisco.com/docs/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://radkit.cisco.com/videos.html",
+    "depth": 2
+  },
+  {
+    "url": "https://radkit.cisco.com/docs",
+    "depth": 2
+  },
+  {
+    "url": "https://radkit.cisco.com/contact.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/mib/reference/guide/srst34/srst34mb.html",
     "depth": 2
   }
 ]

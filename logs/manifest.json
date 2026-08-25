@@ -6481,6 +6481,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://radkit.cisco.com": {
+      "content_sha": "8320daa64adf7391a6702ac7e073514d7105eafc42a72c3508f17b3ac34e0db1",
+      "doc_id": "radkit-cisco-com-3308049573",
+      "etag": "\"6a674884-ae26\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:48:22.382280+00:00",
+      "last_changed": "2026-08-25T08:48:22.382280+00:00",
+      "last_modified": "Mon, 27 Jul 2026 12:01:08 GMT",
+      "last_seen": "2026-08-25T08:48:22.382280+00:00",
+      "next_check": "2026-08-26T08:48:22.382280+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_11": {
       "content_sha": "10c39a9873817dd8699c1ac9d1f3e9acb91fd4150f5ca8b544691c900f9b9167",
       "doc_id": "roomos-cisco-com-doc-whatsnew-releasenotesroomos-11-0fb8b628ac",
@@ -111035,6 +111048,18 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp12_0/installation/guide/ccvp_b_installation-and-upgrade-guide-12-0/New_ccvp_b_installation-and-upgrade-guide-12-0_chapter_011.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp12-0-installation-guide-71494164e6",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:48:50.733912+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:48:50.733922+00:00",
+      "next_check": "2026-08-26T08:48:50.733922+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/administration/guide/ccvp_b_1251-administration-guide-for-cisco-unified-customer-voice-portal.html": {
       "content_sha": "645ae2da6f6dcb18335babc229335d63b1e521bce014d77cf7a039daef67b0b3",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-administration-gu-47db5b2fa4",
@@ -164010,5 +164035,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T08:43:58.923224+00:00"
+  "updated_at": "2026-08-25T08:49:04.203110+00:00"
 }
