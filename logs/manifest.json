@@ -332,6 +332,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuq75767": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscuq75767-b7e7b46b7d",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:18:44.994669+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T08:18:44.994680+00:00",
+      "next_check": "2026-08-26T08:18:44.994680+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur49008": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscur49008-e846b028fc",
@@ -11844,6 +11856,18 @@
       "next_check": "2026-08-25T20:17:14.545276+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/18772-extension-mobility.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-18772-extension-mob-d424e9eb2c",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:18:35.297792+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:18:35.297804+00:00",
+      "next_check": "2026-08-26T08:18:35.297804+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-tech-notes-list.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200119-Configure-CUCM-TFTP-for-Jabber-Automatic.html": {
       "content_sha": "f0f444e59ed4cf5022b1ae0e3097260dfaf34af8aa218290a555ef1efd4a127a",
@@ -40361,6 +40385,30 @@
       "http_status": 301,
       "last_seen": "2026-08-25T07:20:44.256261+00:00",
       "next_check": "2026-08-26T07:20:44.256261+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/10_5_1/CUCM_BK_S52C3A64_00_saml-sso-deployment-guide-105/CUCM_BK_S52C3A64_00_saml-sso-deployment-guide-105_chapter_010.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-saml-sso-deployment-guide-10-5-1-cucm-bk-s52c3a64-00-saml-sso-deploymen-3f57052ff7",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:19:01.331953+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:19:01.331963+00:00",
+      "next_check": "2026-08-26T08:19:01.331963+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/11_5_1/CUCM_BK_S12EF288_00_saml-sso-deployment-guide--1151.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-saml-sso-deployment-guide-11-5-1-cucm-bk-s12ef288-00-saml-sso-deploymen-c9427ee84e",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:18:56.882629+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:18:56.882640+00:00",
+      "next_check": "2026-08-26T08:18:56.882640+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -163781,5 +163829,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T08:14:13.382998+00:00"
+  "updated_at": "2026-08-25T08:19:06.168517+00:00"
 }
