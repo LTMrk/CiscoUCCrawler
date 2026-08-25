@@ -1,61 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/42720-configuring-cor.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/61083-voice-transla-rules.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/61083-voice-transla-rules.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/voice-translation-rules-in-media-gateways/ta-p/3127278",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/dial-plan/118822-configure-cucm-00.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/dial-plan/118822-configure-cucm-00.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/digital-ccs/14072-direct-inward-dial.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/digital-ccs/14072-direct-inward-dial.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/h323/14081-voip-debugcalls.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/h323/14081-voip-debugcalls.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/ServiceRequestTool/create",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-command-reference-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCds11354",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-operating-system/212430-troubleshoot-basic-paging-upgrade-error.epub",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-operating-system/212430-troubleshoot-basic-paging-upgrade-error.mobi",
     "depth": 1
   },
@@ -40386,5 +40330,13 @@
   {
     "url": "https://help.webex.com/en-us/article/n6cwujdb/Deployment-guide-for-Hybrid-Calendar",
     "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr4/vcr4-cr-book.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-technical-reference-list.html",
+    "depth": 2
   }
 ]

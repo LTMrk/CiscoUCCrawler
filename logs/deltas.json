@@ -1,13 +1,11 @@
 {
-  "run_at": "2026-08-25T09:22:46.962103+00:00",
+  "run_at": "2026-08-25T09:27:25.855211+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCul58705 -> https://id.cisco.com/oauth2/default/v1/authorize"
-  ],
+  "redirected": [],
   "semillas_encoladas": 20
 }
