@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-08-25T07:21:23.317849+00:00",
+  "run_at": "2026-08-25T07:26:08.360020+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
@@ -7,8 +7,7 @@
   "blocked": [],
   "unchanged_count": 0,
   "redirected": [
-    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-105/118770-configure-cucm-00.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/10_0_1/CUCM_BK_SB003832_00_saml-sso-deployment-guide-for.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html"
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/featureConfig/CUCM_BK_C7DC69D3_00_cucm-feature-configuration-guide_115/CUCM_BK_C7DC69D3_00_cucm-feature-configuration-guide_115_chapter_0110000.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html"
   ],
   "semillas_encoladas": 20
 }
