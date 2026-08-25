@@ -7068,6 +7068,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://cisco.com/go/deskphone9800": {
+      "content_sha": null,
+      "doc_id": "cisco-com-go-deskphone9800-f0b4bc72c0",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T16:54:15.932387+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T16:54:15.932397+00:00",
+      "next_check": "2026-08-26T16:54:15.932397+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/29odsb/Get-started-with-Cisco-Desk-Phone-9800-Series",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://cisco.com/go/dp9800help": {
       "content_sha": null,
       "doc_id": "cisco-com-go-dp9800help-af4c24675f",
@@ -7764,6 +7776,19 @@
       "last_modified": "Mon, 22 Jun 2026 12:02:27 GMT",
       "last_seen": "2026-08-24T22:14:26.873173+00:00",
       "next_check": "2026-08-25T22:14:26.873173+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/ip-phone-services/documentation/": {
+      "content_sha": "985767d2ac8b795071b9118402790548b9122e114e324a6d53549c9024cf4c64",
+      "doc_id": "developer-cisco-com-site-ip-phone-services-documentation-04a11c6614",
+      "etag": "W/\"d269d43feeadca3a2f2db67c7b5bdda4\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T16:54:07.154811+00:00",
+      "last_changed": "2026-08-25T16:54:07.154811+00:00",
+      "last_modified": "Mon, 08 Jun 2026 22:24:56 GMT",
+      "last_seen": "2026-08-25T16:54:07.154811+00:00",
+      "next_check": "2026-08-26T16:54:07.154811+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -98773,6 +98798,19 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/MPP-conversion/enterprise-to-mpp/cuip_b_conversion-guide-ipphone/cuip_b_conversion-guide-ipphone_chapter_01.html": {
+      "content_sha": "dddecf813f23c787aed4fcb3b595fcc88e87c6cd41a0e1372d193cc5461042a7",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-mpp-conversion-enterprise-to-mpp-cuip-b-conversion-guide-ipphone--e9bfb0e592",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T16:53:40.438381+00:00",
+      "last_changed": "2026-08-25T16:53:40.438381+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T16:53:40.438381+00:00",
+      "next_check": "2026-08-26T16:53:40.438381+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_b_8832-mpp-adminguide_appendix_010011.html": {
       "content_sha": "c2a383cb3ccfb3b987a9b50b6f4dba1e36b2c0096a864609d53c4a406b33bee2",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-a3b0289e93",
@@ -99344,6 +99382,18 @@
       "next_check": "2026-08-26T13:48:13.315793+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/xml_ref_guide/serverport": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-xml-ref-guide-serverport-6375061b11",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T16:53:56.145507+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T16:53:56.145518+00:00",
+      "next_check": "2026-08-26T16:53:56.145518+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/xml_ref_guide/serverport/index.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/xml_ref_guide/tpcc_b_xml-command-ref.html": {
       "content_sha": "c70e17f75ea916115532ecf2892092d61119fb74ee68f1af153ea76e56bdaa00",
@@ -169282,5 +169332,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T16:48:22.872832+00:00"
+  "updated_at": "2026-08-25T16:54:36.903522+00:00"
 }
