@@ -10555,6 +10555,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-7800-series-multiplatform-firmware/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-ip-phone-7800-series-multiplatform-firmware-tsd-products-support-s-2477b95116",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:49:36.731901+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T14:49:36.731912+00:00",
+      "next_check": "2026-08-26T14:49:36.731912+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-7800-series-multiplatform-firmware/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-1100/model.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-1100-model-html-2f1038f303",
@@ -29869,6 +29881,18 @@
       "last_seen": "2026-08-25T14:14:08.232215+00:00",
       "next_check": "2026-08-26T14:14:08.232215+00:00",
       "redirect_to": "https://help.webex.com/en-us/article/no4dlj3/Webex-for-Cisco-BroadWorks-Solution-Guide",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wx4bwks/device_Integration/wbxbw_b_device-integration-guide.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wx4bwks-device-integration-wbxbw-b-device-integration-gui-c438d61bd9",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:49:19.781480+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T14:49:19.781492+00:00",
+      "next_check": "2026-08-26T14:49:19.781492+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/n5wdm6c/Device-Integration-Guide-for-Webex-for-Cisco-BroadWorks",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -169234,5 +169258,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T14:43:57.417652+00:00"
+  "updated_at": "2026-08-25T14:49:45.674972+00:00"
 }

@@ -1,11 +1,14 @@
 {
-  "run_at": "2026-08-25T14:43:57.612209+00:00",
+  "run_at": "2026-08-25T14:49:45.866989+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [],
+  "redirected": [
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-7800-series-multiplatform-firmware/tsd-products-support-series-home.html -> https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-7800-series-multiplatform-firmware/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wx4bwks/device_Integration/wbxbw_b_device-integration-guide.html -> https://help.webex.com/en-us/article/n5wdm6c/Device-Integration-Guide-for-Webex-for-Cisco-BroadWorks"
+  ],
   "semillas_encoladas": 20
 }
