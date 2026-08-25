@@ -920,6 +920,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCup69749": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscup69749-b1d910969b",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:37:54.005339+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T21:37:54.005349+00:00",
+      "next_check": "2026-08-26T21:37:54.005349+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCup92230": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscup92230-fcdf352ff1",
@@ -1334,6 +1346,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCva24598": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscva24598-9505edb591",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:37:58.010915+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T21:37:58.010926+00:00",
+      "next_check": "2026-08-26T21:37:58.010926+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvb14399": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvb14399-5ed9a4c582",
@@ -1366,6 +1390,18 @@
       "http_status": 302,
       "last_seen": "2026-08-25T13:31:17.317500+00:00",
       "next_check": "2026-08-26T13:31:17.317500+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvc44073": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvc44073-656761aada",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:37:20.374527+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T21:37:20.374538+00:00",
+      "next_check": "2026-08-26T21:37:20.374538+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -178616,5 +178652,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T21:32:43.306583+00:00"
+  "updated_at": "2026-08-25T21:38:06.039986+00:00"
 }
