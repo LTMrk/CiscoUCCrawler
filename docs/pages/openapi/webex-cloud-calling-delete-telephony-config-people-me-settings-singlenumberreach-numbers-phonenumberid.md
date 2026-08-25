@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-19T19:15:07.960398+00:00
+retrieved_at: 2026-08-25T10:28:32.358144+00:00
 ---
 
 # DELETE /telephony/config/people/me/settings/singleNumberReach/numbers/{phoneNumberId}

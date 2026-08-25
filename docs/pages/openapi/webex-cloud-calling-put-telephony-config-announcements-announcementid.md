@@ -10,7 +10,7 @@ tags: Features: Announcement Repository
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-19T19:15:08.015965+00:00
+retrieved_at: 2026-08-25T10:28:32.459131+00:00
 ---
 
 # PUT /telephony/config/announcements/{announcementId}

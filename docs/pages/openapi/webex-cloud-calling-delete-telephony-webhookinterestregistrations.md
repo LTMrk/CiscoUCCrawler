@@ -10,7 +10,7 @@ tags: Webhook Interest Registrations
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-19T19:15:08.188965+00:00
+retrieved_at: 2026-08-25T10:28:32.585930+00:00
 ---
 
 # DELETE /telephony/webhookInterestRegistrations

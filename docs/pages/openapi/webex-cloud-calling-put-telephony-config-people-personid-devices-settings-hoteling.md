@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-19T19:15:07.994030+00:00
+retrieved_at: 2026-08-25T10:28:32.398560+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/devices/settings/hoteling

@@ -10,7 +10,7 @@ tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-19T19:15:08.195676+00:00
+retrieved_at: 2026-08-25T10:28:32.593583+00:00
 ---
 
 # DELETE /telephony/config/workspaces/{workspaceId}/outgoingPermission/digitPatterns/{digitPatternId}

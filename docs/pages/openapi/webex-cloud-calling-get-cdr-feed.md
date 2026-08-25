@@ -10,7 +10,7 @@ tags: Reports: Detailed Call History
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-19T19:15:08.139638+00:00
+retrieved_at: 2026-08-25T10:28:32.535548+00:00
 ---
 
 # GET /cdr_feed
