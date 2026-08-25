@@ -1,11 +1,14 @@
 {
-  "run_at": "2026-08-25T07:06:11.421400+00:00",
+  "run_at": "2026-08-25T07:11:29.347356+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [],
+  "redirected": [
+    "https://video.cisco.com/detail/video/5835977589001/jabber---how-to-clear-cache -> https://video.cisco.com",
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212471-jabber-login.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html"
+  ],
   "semillas_encoladas": 20
 }
