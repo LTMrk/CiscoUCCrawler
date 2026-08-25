@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-08-25T22:58:57.541861+00:00",
+  "run_at": "2026-08-25T23:03:51.194558+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
@@ -7,7 +7,11 @@
   "blocked": [],
   "unchanged_count": 0,
   "redirected": [
-    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/virtualization-experience-media-engine/tsd-products-support-series-home.html -> https://www.cisco.com/c/en/us/support/collaboration-endpoints/virtualization-experience-media-engine/series.html"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvk25632 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp53045 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp53311 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp64224 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq00090 -> https://id.cisco.com/oauth2/default/v1/authorize"
   ],
   "semillas_encoladas": 20
 }
