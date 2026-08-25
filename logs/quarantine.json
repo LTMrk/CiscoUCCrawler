@@ -1,4 +1,16 @@
 {
+  "http://www-china.cisco.com": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:34:53.932286+00:00",
+    "veces": 1
+  },
+  "http://www-europe.cisco.com": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:34:56.709456+00:00",
+    "veces": 1
+  },
   "https://activate.cisco.com:443/software/edos/callhome/rc": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
@@ -6119,6 +6131,30 @@
     "ultima_vez": "2026-08-17T04:55:21.479461+00:00",
     "veces": 1
   },
+  "https://www.webex.com/suite/collaboration-suite.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:36:13.087837+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/suite/enterprise-cloud-calling.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:34:59.316150+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/suite/messaging.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:36:21.360576+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/suite/polling.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:36:29.565795+00:00",
+    "veces": 1
+  },
   "https://www.webex.com/team-collaboration.html": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
@@ -6131,10 +6167,70 @@
     "ultima_vez": "2026-08-25T04:35:09.973018+00:00",
     "veces": 1
   },
+  "https://www.webex.com/us/en/devices/headsets.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:37:19.761576+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/devices/phone-series.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:37:09.913776+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/devices/room-devices.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:36:50.153557+00:00",
+    "veces": 1
+  },
   "https://www.webex.com/us/en/dg/contact-sales.html": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-25T04:35:35.182752+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/products/customer-experience/cpaas.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:35:03.372940+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/products/suite/events.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:36:25.526562+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/solutions/cross-platform/inclusive-collaboration.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:36:02.467750+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/solutions/cross-platform/security.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:35:07.504248+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/solutions/industries/education.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:35:27.437636+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/solutions/interoperability.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:37:30.145750+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/solutions/return-to-office.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:37:34.294598+00:00",
     "veces": 1
   },
   "https://www.webex.com/video-conferencing.html": {

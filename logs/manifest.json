@@ -120,6 +120,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "http://cisco.com/en/US/products/sw/custcosw/ps1844/products_implementation_design_guides_list.html": {
+      "content_sha": null,
+      "doc_id": "cisco-com-en-us-products-sw-custcosw-ps1844-products-implementation-design-guides-list-html-6be9b7fda6",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:34:38.901309+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T23:34:38.901319+00:00",
+      "next_check": "2026-08-26T23:34:38.901319+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-implementation-design-guides-list.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "http://cisco.com/en/US/tech/tk652/tk90/technologies_tech_note09186a0080325e8e.shtml": {
       "content_sha": null,
       "doc_id": "cisco-com-en-us-tech-tk652-tk90-technologies-tech-note09186a0080325e8e-shtml-b64d9c96c4",
@@ -250,6 +262,26 @@
       "next_check": "2026-08-26T11:08:45.104438+00:00",
       "redirect_to": "https://cisco.login.duosecurity.com/email_first",
       "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "http://www-china.cisco.com": {
+      "content_sha": null,
+      "doc_id": "www-china-cisco-com-74146ce174",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:34:53.932327+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:34:53.932334+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "http://www-europe.cisco.com": {
+      "content_sha": null,
+      "doc_id": "www-europe-cisco-com-5b4d664fd4",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:34:56.709497+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:34:56.709503+00:00",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://activate.cisco.com:443/software/edos/callhome/rc": {
@@ -10092,6 +10124,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx85953": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvx85953-c6ce102a36",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:32:34.412700+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T23:32:34.412710+00:00",
+      "next_check": "2026-08-26T23:32:34.412710+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx86254": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvx86254-4fa6e2d067",
@@ -17128,6 +17172,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://cart.webex.com/sign-up": {
+      "content_sha": null,
+      "doc_id": "cart-webex-com-sign-up-47512e7d9e",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:36:06.382250+00:00",
+      "http_status": 308,
+      "last_seen": "2026-08-25T23:36:06.382263+00:00",
+      "next_check": "2026-08-26T23:36:06.382263+00:00",
+      "redirect_to": "https://signup.webex.com/sign-up",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://cdetsng.cisco.com/summary": {
       "content_sha": null,
       "doc_id": "cdetsng-cisco-com-summary-cbda7da0cd",
@@ -21116,6 +21172,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://pricing.webex.com/us/en": {
+      "content_sha": null,
+      "doc_id": "pricing-webex-com-us-en-a6572dd47e",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:36:10.793280+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T23:36:10.793289+00:00",
+      "next_check": "2026-08-26T23:36:10.793289+00:00",
+      "redirect_to": "https://pricing.webex.com/us/en",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://quickview.cloudapps.cisco.com/quickview/bug/CSCve17188": {
       "content_sha": "dcaf89d35b30a79c3d634767911b51a165ec40fa9894dc4ea8c8ea2d13ce1a5e",
       "doc_id": "quickview-cloudapps-cisco-com-quickview-bug-cscve17188-6c000b5fb5",
@@ -21817,6 +21885,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/cloud-systems-management/prime-license-manager/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-cloud-systems-management-prime-license-manager-tsd-products-support-series-home-html-827119403c",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:34:12.535941+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:34:12.535950+00:00",
+      "next_check": "2026-08-26T23:34:12.535950+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/cloud-systems-management/prime-license-manager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-desktop-collaboration-experience-dx600-series-tsd-products-support-5ee2d68632",
@@ -21889,6 +21969,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ix5000-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-ix5000-series-tsd-products-support-series-home-html-5e705a487b",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:33:46.566912+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:33:46.566921+00:00",
+      "next_check": "2026-08-26T23:33:46.566921+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ix5000-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-spark-room-kit-series-tsd-products-support-series-home-html-ad07e25884",
@@ -21913,6 +22005,30 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-integrator-c-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-integrator-c-series-tsd-products-support-series-home--ed0c420077",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:33:51.337335+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:33:51.337344+00:00",
+      "next_check": "2026-08-26T23:33:51.337344+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-management-suite-extension-microsoft-exchange/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-management-suite-extension-microsoft-exchange-model-h-4e38cd5f6b",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:33:00.559696+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:33:00.559705+00:00",
+      "next_check": "2026-08-26T23:33:00.559705+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-extensions/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-mx-series/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-mx-series-tsd-products-support-series-home-html-b2610ed4aa",
@@ -21922,6 +22038,18 @@
       "last_seen": "2026-08-25T23:19:36.048505+00:00",
       "next_check": "2026-08-26T23:19:36.048505+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-mx-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-profile-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-profile-series-tsd-products-support-series-home-html-1861a831c9",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:33:55.141846+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:33:55.141856+00:00",
+      "next_check": "2026-08-26T23:33:55.141856+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/obsolete/collaboration-endpoints/cisco-telepresence-profile-series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -21937,6 +22065,30 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-1100/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-system-1100-tsd-products-support-series-home-html-9168c9a8b8",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:34:03.900854+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:34:03.900864+00:00",
+      "next_check": "2026-08-26T23:34:03.900864+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/category.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-500/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-system-500-tsd-products-support-series-home-html-d1f1f8b9da",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:34:08.214450+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:34:08.214460+00:00",
+      "next_check": "2026-08-26T23:34:08.214460+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/obsolete/collaboration-endpoints/cisco-telepresence-system-500-32.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-ex-series/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-system-ex-series-tsd-products-support-series-home-htm-b168ef8531",
@@ -21946,6 +22098,18 @@
       "last_seen": "2026-08-25T23:19:44.229789+00:00",
       "next_check": "2026-08-26T23:19:44.229789+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-ex-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-tx9000-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-tx9000-series-tsd-products-support-series-home-html-d788134849",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:33:59.844321+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:33:59.844334+00:00",
+      "next_check": "2026-08-26T23:33:59.844334+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/category.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -22105,6 +22269,30 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-conductor/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-conductor-tsd-products-support-series-home-html-8b83d8b044",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:33:13.157027+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:33:13.157036+00:00",
+      "next_check": "2026-08-26T23:33:13.157036+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-provisioning-extension/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-management-suite-provisioning-extension-model-html-39e3b166db",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:33:04.960731+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:33:04.960741+00:00",
+      "next_check": "2026-08-26T23:33:04.960741+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-extensions/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-management-suite-tms-tsd-products-support-series-home-html-83198394e7",
@@ -22129,6 +22317,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-server/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-server-tsd-products-support-series-home-html-1f48f74f99",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:33:08.318635+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:33:08.318645+00:00",
+      "next_check": "2026-08-26T23:33:08.318645+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/conferencing/unified-meetingplace/products-maintenance-guides-list.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-conferencing-unified-meetingplace-products-maintenance-guides-list-html-0f1f150a96",
@@ -22137,6 +22337,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T10:49:33.573590+00:00",
       "next_check": "2026-08-26T10:49:33.573590+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/webex-meetings-server/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-webex-meetings-server-tsd-products-support-series-home-html-506ead5fff",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:33:16.637510+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:33:16.637520+00:00",
+      "next_check": "2026-08-26T23:33:16.637520+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -22390,6 +22602,18 @@
       "last_seen": "2026-08-25T21:14:39.963137+00:00",
       "next_check": "2026-08-26T21:14:39.963137+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/contact-center/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/products-implementation-design-guides-list.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-intelligence-center-products-implementation-design-guides-l-5463072d49",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:32:55.761856+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T23:32:55.761866+00:00",
+      "next_check": "2026-08-26T23:32:55.761866+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -30501,6 +30725,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-emergency-responder-tsd-products-support-series-home-html-8dbc497f03",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:33:25.411280+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:33:25.411289+00:00",
+      "next_check": "2026-08-26T23:33:25.411289+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-expressway-series-tsd-products-support-series-home-html-738b55d779",
@@ -30561,6 +30797,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-paging-server-tsd-products-support-series-home-html-409fb65962",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:33:29.921040+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:33:29.921050+00:00",
+      "next_check": "2026-08-26T23:33:29.921050+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/telepresence-video-communication-server-vcs/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-telepresence-video-communication-server-vcs-tsd-products-support-se-40631b93f4",
@@ -30570,6 +30818,30 @@
       "last_seen": "2026-08-25T21:43:47.018205+00:00",
       "next_check": "2026-08-26T21:43:47.018205+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/telepresence-video-communication-server-vcs/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-console-advanced/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-attendant-console-advanced-model-html-167581091a",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:33:39.180554+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:33:39.180563+00:00",
+      "next_check": "2026-08-26T23:33:39.180563+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-consoles/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-console-standard/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-attendant-console-standard-model-html-b62f3ce863",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:33:34.862252+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:33:34.862262+00:00",
+      "next_check": "2026-08-26T23:33:34.862262+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-consoles/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -30657,6 +30929,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-sip-proxy-software/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-sip-proxy-software-tsd-products-support-series-home-html-4ae49f0dda",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:34:16.288198+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:34:16.288208+00:00",
+      "next_check": "2026-08-26T23:34:16.288208+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-sip-proxy-software/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-survivable-remote-site-telephony/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-survivable-remote-site-telephony-tsd-products-support-serie-da1cdb8092",
@@ -30666,6 +30950,18 @@
       "last_seen": "2026-08-25T11:49:41.660946+00:00",
       "next_check": "2026-08-26T11:49:41.660946+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-survivable-remote-site-telephony/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unity-connection-tsd-products-support-series-home-html-11f370b52d",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:33:42.914063+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:33:42.914074+00:00",
+      "next_check": "2026-08-26T23:33:42.914074+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -30717,6 +31013,42 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unity/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unity-tsd-products-support-series-home-html-417330e24d",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:34:51.443188+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:34:51.443198+00:00",
+      "next_check": "2026-08-26T23:34:51.443198+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/vg-series-gateways/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-vg-series-gateways-tsd-products-support-series-home-html-7326385416",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:34:20.837055+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:34:20.837065+00:00",
+      "next_check": "2026-08-26T23:34:20.837065+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/vg-series-gateways/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/vg300-series-gateways/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-vg300-series-gateways-tsd-products-support-series-home-html-66930249a2",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:34:24.543817+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:34:24.543827+00:00",
+      "next_check": "2026-08-26T23:34:24.543827+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/category.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/products-installation-and-configuration-guides-list.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-webex-calling-products-installation-and-configuration-guides-list-h-604002d218",
@@ -30750,6 +31082,18 @@
       "last_seen": "2026-08-25T21:48:02.421408+00:00",
       "next_check": "2026-08-26T21:48:02.421408+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/collaboration/CWMS/2_7/Release_Notes/cwms_b_release-notes-cwms-2-7.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-collaboration-cwms-2-7-release-notes-cwms-b-release-notes-cwms-2-7-html-396b6d4ef7",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:33:20.419143+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:33:20.419153+00:00",
+      "next_check": "2026-08-26T23:33:20.419153+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -34436,6 +34780,30 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/11x/116/collbcvd.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-enterprise-11x-116-collbcvd-html-aeb30701ee",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:32:37.411944+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:32:37.411955+00:00",
+      "next_check": "2026-08-26T23:32:37.411955+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000/tsd-products-support-series-home-backup.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/11x/collbcvd.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-enterprise-11x-collbcvd-html-e629b68fb6",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:32:42.187495+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:32:42.187504+00:00",
+      "next_check": "2026-08-26T23:32:42.187504+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/12x/120/collbcvd.html": {
       "content_sha": "428a0ce69e5d4afbd22caf7a79d9386ec6fbc40329a37c6baa545e582cbdb425",
       "doc_id": "www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-enterprise-12x-120-collbcvd-html-141cd1f5fb",
@@ -34770,6 +35138,18 @@
       "next_check": "2026-08-25T12:58:51.404477+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/collbcvd.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-enterprise-collbcvd-html-159fc763e7",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:32:46.395058+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:32:46.395067+00:00",
+      "next_check": "2026-08-26T23:32:46.395067+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12x/hybcvd.html": {
       "content_sha": "eabf3f668b1aa8907c85dd7a159dfc889227e9ef2dde683fe0341ec70a671a12",
@@ -95474,6 +95854,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T07:30:32.665446+00:00",
       "next_check": "2026-08-26T07:30:32.665446+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab11/collab11.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-srnd-collab11-collab11-html-e20b001d40",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:32:50.801798+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:32:50.801808+00:00",
+      "next_check": "2026-08-26T23:32:50.801808+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -181159,6 +181551,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/TLS/TLS-1-2-for-On-Premises-Cisco-Collaboration-Deployments.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-uc-system-tls-tls-1-2-for-on-premises-cisco-collaboration-deployments-html-32433ac423",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:34:28.938822+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:34:28.938831+00:00",
+      "next_check": "2026-08-26T23:34:28.938831+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/TLS/TLS-1-3-Configuration-Overview-Guide.html": {
       "content_sha": "991248b0c4804a66234f0f7c8a6ac9a0176c402b6881cd20770852a6b6cdcbe2",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-uc-system-tls-tls-1-3-configuration-overview-guide-html-5c604f7f80",
@@ -182198,6 +182602,85 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/suite/collaboration-suite.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-suite-collaboration-suite-html-fe178e1263",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:36:13.087873+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:36:13.087879+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/suite/enterprise-cloud-calling.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-suite-enterprise-cloud-calling-html-c113292e92",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:34:59.316198+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:34:59.316205+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/suite/meetings.html": {
+      "content_sha": "44e8641bc6a7726321672acf55257712d58d84f3a5729c2ab573d1873ab1f7f8",
+      "doc_id": "www-webex-com-suite-meetings-html-d8ff880222",
+      "etag": "W/\"3a959-659cedc620cdb-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:36:18.316018+00:00",
+      "last_changed": "2026-08-25T23:36:18.316018+00:00",
+      "last_modified": "Mon, 24 Aug 2026 18:07:35 GMT",
+      "last_seen": "2026-08-25T23:36:18.316018+00:00",
+      "next_check": "2026-08-26T23:36:18.316018+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/suite/messaging.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-suite-messaging-html-ea114e87a7",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:36:21.360611+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:36:21.360616+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/suite/polling.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-suite-polling-html-9e67eabd8f",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:36:29.565830+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:36:29.565834+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/suite/webinar.html": {
+      "content_sha": "feeb3262a7ca9943d7f9e4155663fdeca4a0802f6d2d60a579b0790e67c41855",
+      "doc_id": "www-webex-com-suite-webinar-html-795f3d308f",
+      "etag": "W/\"60479-659c820458bd6-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:36:34.860968+00:00",
+      "last_changed": "2026-08-25T23:36:34.860968+00:00",
+      "last_modified": "Mon, 24 Aug 2026 10:05:30 GMT",
+      "last_seen": "2026-08-25T23:36:34.860968+00:00",
+      "next_check": "2026-08-26T23:36:34.860968+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/suite/whiteboard.html": {
+      "content_sha": "5b1381d6d96391d437d94a607f32ab3caeee90a00e3a0642c197bbf846608534",
+      "doc_id": "www-webex-com-suite-whiteboard-html-d5ec559602",
+      "etag": "W/\"2b8ef-659e05714851f-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:36:38.751438+00:00",
+      "last_changed": "2026-08-25T23:36:38.751438+00:00",
+      "last_modified": "Tue, 25 Aug 2026 14:58:48 GMT",
+      "last_seen": "2026-08-25T23:36:38.751438+00:00",
+      "next_check": "2026-08-26T23:36:38.751438+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/team-collaboration.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-team-collaboration-html-18c780ad07",
@@ -182218,6 +182701,101 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/us/en/devices.html": {
+      "content_sha": "7e5c1ad04bf1d690b50a56d49aa2d0b320bb68230c59aa188e66b32e0148e4b2",
+      "doc_id": "www-webex-com-us-en-devices-html-a2e90c5411",
+      "etag": "W/\"2c98f-659cdf3e807c2-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:35:25.138870+00:00",
+      "last_changed": "2026-08-25T23:35:25.138870+00:00",
+      "last_modified": "Mon, 24 Aug 2026 17:02:35 GMT",
+      "last_seen": "2026-08-25T23:35:25.138870+00:00",
+      "next_check": "2026-08-26T23:35:25.138870+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/devices/accessories.html": {
+      "content_sha": "4bcb19121f2e2365a950a5fd28b492a7781e0191e78b3baa5319c6e319012093",
+      "doc_id": "www-webex-com-us-en-devices-accessories-html-c543884ca6",
+      "etag": "W/\"226f3-659ca7dd977a5-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:37:27.843212+00:00",
+      "last_changed": "2026-08-25T23:37:27.843212+00:00",
+      "last_modified": "Mon, 24 Aug 2026 12:54:49 GMT",
+      "last_seen": "2026-08-25T23:37:27.843212+00:00",
+      "next_check": "2026-08-26T23:37:27.843212+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/devices/cameras.html": {
+      "content_sha": "a0030a373103ced6e29e1f378e4083adf687da8dd97b4319641dafdb2230fa35",
+      "doc_id": "www-webex-com-us-en-devices-cameras-html-f2044862f5",
+      "etag": "\"1ebee-659b32fd5b66e-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:37:17.445295+00:00",
+      "last_changed": "2026-08-25T23:37:17.445295+00:00",
+      "last_modified": "Sun, 23 Aug 2026 09:06:36 GMT",
+      "last_seen": "2026-08-25T23:37:17.445295+00:00",
+      "next_check": "2026-08-26T23:37:17.445295+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/devices/desk-series.html": {
+      "content_sha": "31a335b9c26c0e9806dfc05676f07dd28a93d140da343014da5c54cac705f542",
+      "doc_id": "www-webex-com-us-en-devices-desk-series-html-fb5078085c",
+      "etag": "\"259f7-659cc030573c8-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:36:58.273227+00:00",
+      "last_changed": "2026-08-25T23:36:58.273227+00:00",
+      "last_modified": "Mon, 24 Aug 2026 14:43:39 GMT",
+      "last_seen": "2026-08-25T23:36:58.273227+00:00",
+      "next_check": "2026-08-26T23:36:58.273227+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/devices/digital-whiteboards.html": {
+      "content_sha": "455ee9cde9052379e5c115a81d054dcb3dc686340d6e55b43b54c93eddceb0fd",
+      "doc_id": "www-webex-com-us-en-devices-digital-whiteboards-html-fefd192342",
+      "etag": "W/\"20e77-659e0570c8a84-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:37:07.616464+00:00",
+      "last_changed": "2026-08-25T23:37:07.616464+00:00",
+      "last_modified": "Tue, 25 Aug 2026 14:58:48 GMT",
+      "last_seen": "2026-08-25T23:37:07.616464+00:00",
+      "next_check": "2026-08-26T23:37:07.616464+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/devices/headsets.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-devices-headsets-html-9c640b7908",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:37:19.761610+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:37:19.761615+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/devices/phone-series.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-devices-phone-series-html-862d329397",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:37:09.913812+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:37:09.913817+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/devices/room-devices.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-devices-room-devices-html-6a4fd79218",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:36:50.153593+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:36:50.153598+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/us/en/dg/contact-sales.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-us-en-dg-contact-sales-html-cd8cf2f659",
@@ -182225,6 +182803,180 @@
       "first_seen": "2026-08-25T04:35:35.182792+00:00",
       "http_status": 403,
       "last_seen": "2026-08-25T04:35:35.182797+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/products/customer-experience/contact-center.html": {
+      "content_sha": "0b1ae38dd93581c6dbf3410950352b22ed9b79ccf29d587e2b7f6267e22d86fe",
+      "doc_id": "www-webex-com-us-en-products-customer-experience-contact-center-html-1026c17ead",
+      "etag": "\"23c7f-659c6eb444777-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:36:47.857712+00:00",
+      "last_changed": "2026-08-25T23:36:47.857712+00:00",
+      "last_modified": "Mon, 24 Aug 2026 08:39:05 GMT",
+      "last_seen": "2026-08-25T23:36:47.857712+00:00",
+      "next_check": "2026-08-26T23:36:47.857712+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/products/customer-experience/cpaas.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-products-customer-experience-cpaas-html-e55799eb0f",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:35:03.372978+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:35:03.372984+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/products/suite/events.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-products-suite-events-html-24e8990df5",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:36:25.526596+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:36:25.526600+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/cross-platform/accessibility.html": {
+      "content_sha": "93a0142442dc887c0ae8e6667083cc0fac88793fcdf6e18b1a17b871ebc1e60d",
+      "doc_id": "www-webex-com-us-en-solutions-cross-platform-accessibility-html-29362ebbdd",
+      "etag": "\"190ef-659b4c9c05e29-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:36:00.169471+00:00",
+      "last_changed": "2026-08-25T23:36:00.169471+00:00",
+      "last_modified": "Sun, 23 Aug 2026 11:01:14 GMT",
+      "last_seen": "2026-08-25T23:36:00.169471+00:00",
+      "next_check": "2026-08-26T23:36:00.169471+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/cross-platform/control-hub.html": {
+      "content_sha": "2a42f6fd9fe088d68f076c342fdef8f54694dde4256996f73ad62a5c112ad227",
+      "doc_id": "www-webex-com-us-en-solutions-cross-platform-control-hub-html-bb6eed8945",
+      "etag": "W/\"1c14c-659cc4d11b8dc-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:35:15.097196+00:00",
+      "last_changed": "2026-08-25T23:35:15.097196+00:00",
+      "last_modified": "Mon, 24 Aug 2026 15:04:21 GMT",
+      "last_seen": "2026-08-25T23:35:15.097196+00:00",
+      "next_check": "2026-08-26T23:35:15.097196+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/cross-platform/inclusive-collaboration.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-solutions-cross-platform-inclusive-collaboration-html-dacb47b16d",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:36:02.467795+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:36:02.467802+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/cross-platform/security.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-solutions-cross-platform-security-html-2b9749e413",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:35:07.504292+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:35:07.504299+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/hybrid-work.html": {
+      "content_sha": "81e9168c0bb8a25f4ca8b55becbf1f72635827322880aa32ae647f892c6a0f9c",
+      "doc_id": "www-webex-com-us-en-solutions-hybrid-work-html-dc37f0064a",
+      "etag": "W/\"1f391-659df52d9c24a-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:35:55.039815+00:00",
+      "last_changed": "2026-08-25T23:35:55.039815+00:00",
+      "last_modified": "Tue, 25 Aug 2026 13:46:02 GMT",
+      "last_seen": "2026-08-25T23:35:55.039815+00:00",
+      "next_check": "2026-08-26T23:35:55.039815+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/industries/education.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-solutions-industries-education-html-7ac774e980",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:35:27.437671+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:35:27.437676+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/industries/financial-services.html": {
+      "content_sha": "03456ccf319f889ee9d6dd260880d04164d1f4903310526b3749582fffe14f92",
+      "doc_id": "www-webex-com-us-en-solutions-industries-financial-services-html-a25c1250b1",
+      "etag": "\"19435-659e0724fa258-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:35:44.837665+00:00",
+      "last_changed": "2026-08-25T23:35:44.837665+00:00",
+      "last_modified": "Tue, 25 Aug 2026 15:06:25 GMT",
+      "last_seen": "2026-08-25T23:35:44.837665+00:00",
+      "next_check": "2026-08-26T23:35:44.837665+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/industries/government.html": {
+      "content_sha": "1a263afa15e88bdb392316654519ad8b4e66da3cf58798b5612b46614b280285",
+      "doc_id": "www-webex-com-us-en-solutions-industries-government-html-0b8672ebd0",
+      "etag": "\"1be60-659b271e486ee-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:35:39.713552+00:00",
+      "last_changed": "2026-08-25T23:35:39.713552+00:00",
+      "last_modified": "Sun, 23 Aug 2026 08:13:30 GMT",
+      "last_seen": "2026-08-25T23:35:39.713552+00:00",
+      "next_check": "2026-08-26T23:35:39.713552+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/industries/healthcare.html": {
+      "content_sha": "0168982ee2115ad572adcafae4aabbc4e71e7c1a263bec8354890be6b3a6e708",
+      "doc_id": "www-webex-com-us-en-solutions-industries-healthcare-html-02fcbecd68",
+      "etag": "W/\"1f68c-659cb0d742e70-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:35:34.750961+00:00",
+      "last_changed": "2026-08-25T23:35:34.750961+00:00",
+      "last_modified": "Mon, 24 Aug 2026 13:34:59 GMT",
+      "last_seen": "2026-08-25T23:35:34.750961+00:00",
+      "next_check": "2026-08-26T23:35:34.750961+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/industries/nonprofits.html": {
+      "content_sha": "686c245409edfce12bb4eb5a9681007ee8f86904e2eaa66d59cf031b79a1fa2a",
+      "doc_id": "www-webex-com-us-en-solutions-industries-nonprofits-html-6448309b68",
+      "etag": "\"1bb46-659d4935fab9d-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:35:50.013383+00:00",
+      "last_changed": "2026-08-25T23:35:50.013383+00:00",
+      "last_modified": "Tue, 25 Aug 2026 00:56:40 GMT",
+      "last_seen": "2026-08-25T23:35:50.013383+00:00",
+      "next_check": "2026-08-26T23:35:50.013383+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/interoperability.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-solutions-interoperability-html-55a5099809",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:37:30.145786+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:37:30.145790+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/return-to-office.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-solutions-return-to-office-html-656058b461",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:37:34.294634+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:37:34.294639+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -182262,5 +183014,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T23:28:23.570048+00:00"
+  "updated_at": "2026-08-25T23:37:34.821485+00:00"
 }
