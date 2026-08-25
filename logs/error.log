@@ -10426,3 +10426,16 @@
 [2026-08-25T13:26:12.109086] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5/w881_b_wireless-8821-rns-110005.epub
 [2026-08-25T13:26:16.408239] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5/w881_b_wireless-8821-rns-110005.mobi
 [2026-08-25T13:26:20.275267] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5sr1/w881_b_wireless-8821-rns-110005sr1.epub
+[2026-08-25T13:29:21.484247] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-25T13:29:25.485106] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-25T13:30:46.210546] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-25T13:30:47.393650] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5sr1/w881_b_wireless-8821-rns-110005sr1.mobi
+[2026-08-25T13:30:51.616114] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5sr2/w881_b_wireless-8821-rns-110005sr2.epub
+[2026-08-25T13:30:55.874562] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5sr2/w881_b_wireless-8821-rns-110005sr2.mobi
+[2026-08-25T13:31:00.336106] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR1/w881-b-wireless-8821-rln-1106sr1.epub
+[2026-08-25T13:31:04.442726] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR1/w881-b-wireless-8821-rln-1106sr1.mobi
+[2026-08-25T13:31:08.573011] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR2/w881-b-wireless-8821-rln-1106sr2.epub
+[2026-08-25T13:31:12.955234] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR2/w881-b-wireless-8821-rln-1106sr2.mobi
+[2026-08-25T13:31:45.610540] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvo82607
+[2026-08-25T13:31:49.688795] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv45769
+[2026-08-25T13:31:53.903702] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvo05996
