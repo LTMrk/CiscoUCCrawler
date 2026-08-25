@@ -40677,6 +40677,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/Admin/cucm_b_serviceability-admin-guide-1151su1/cucm_b_serviceability-admin-guide-1151su1_chapter_0111.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-11-5-1-admin-cucm-b-serviceability-admin-guide-1151su1-cucm-b-ser-05c3c595eb",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:13:55.230574+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:13:55.230584+00:00",
+      "next_check": "2026-08-26T08:13:55.230584+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/featureConfig/CUCM_BK_C7DC69D3_00_cucm-feature-configuration-guide_115/CUCM_BK_C7DC69D3_00_cucm-feature-configuration-guide_115_chapter_0110000.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-11-5-1-featureconfig-cucm-bk-c7dc69d3-00-cucm-feature-configurati-05998e1977",
@@ -163769,5 +163781,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T08:09:34.112018+00:00"
+  "updated_at": "2026-08-25T08:14:13.382998+00:00"
 }
