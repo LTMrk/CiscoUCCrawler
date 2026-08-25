@@ -1,11 +1,14 @@
 {
-  "run_at": "2026-08-25T05:34:03.989833+00:00",
+  "run_at": "2026-08-25T05:39:05.449102+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [],
+  "redirected": [
+    "https://video.cisco.com/detail/videos/collaboration/video/5811871386001/installing-license-to-cms -> https://video.cisco.com",
+    "https://video.cisco.com/detail/videos/collaboration/video/5820051825001/how-to-backup-the-configuration-of-a-cms-cisco-meeting-server -> https://video.cisco.com"
+  ],
   "semillas_encoladas": 20
 }

@@ -6576,6 +6576,30 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://video.cisco.com/detail/videos/collaboration/video/5811871386001/installing-license-to-cms": {
+      "content_sha": null,
+      "doc_id": "video-cisco-com-detail-videos-collaboration-video-5811871386001-installing-license-to-cms-7084b502fc",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T05:38:48.340171+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T05:38:48.340181+00:00",
+      "next_check": "2026-08-26T05:38:48.340181+00:00",
+      "redirect_to": "https://video.cisco.com",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://video.cisco.com/detail/videos/collaboration/video/5820051825001/how-to-backup-the-configuration-of-a-cms-cisco-meeting-server": {
+      "content_sha": null,
+      "doc_id": "video-cisco-com-detail-videos-collaboration-video-5820051825001-how-to-backup-the-configuration-of-a-cms-cisco-meeting-s-6137b528e9",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T05:38:52.351754+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T05:38:52.351766+00:00",
+      "next_check": "2026-08-26T05:38:52.351766+00:00",
+      "redirect_to": "https://video.cisco.com",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/dx80/212294-how-to-upload-background-image-on-dx80-a.html": {
       "content_sha": "2ed6f6e48c17113a1eb4aee2f293de2c540b6780865af6504a2380ca7c593991",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-dx80-212294-how-to-upload-background-image-on-dx80-a-html-3a4a8d556f",
@@ -163152,5 +163176,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T05:34:03.838634+00:00"
+  "updated_at": "2026-08-25T05:39:05.295348+00:00"
 }
