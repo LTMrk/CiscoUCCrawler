@@ -1,5 +1,17 @@
 {
   "entradas": {
+    "http://activate.cisco.com": {
+      "content_sha": null,
+      "doc_id": "activate-cisco-com-9d6516ee80",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:19:36.746108+00:00",
+      "http_status": 308,
+      "last_seen": "2026-08-25T14:19:36.746119+00:00",
+      "next_check": "2026-08-26T14:19:36.746119+00:00",
+      "redirect_to": "https://activate.cisco.com",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "http://bst.cloudapps.cisco.com/bugsearch": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-c7cd34c396",
@@ -117,6 +129,18 @@
       "last_seen": "2026-08-25T09:53:56.624210+00:00",
       "next_check": "2026-08-26T09:53:56.624210+00:00",
       "redirect_to": "https://video.cisco.com",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "http://webapps.cisco.com": {
+      "content_sha": null,
+      "doc_id": "webapps-cisco-com-760dbc3166",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:19:40.007497+00:00",
+      "http_status": 308,
+      "last_seen": "2026-08-25T14:19:40.007509+00:00",
+      "next_check": "2026-08-26T14:19:40.007509+00:00",
+      "redirect_to": "https://webapps.cisco.com",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -169210,5 +169234,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T14:14:38.419414+00:00"
+  "updated_at": "2026-08-25T14:20:09.285979+00:00"
 }
