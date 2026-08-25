@@ -1,397 +1,5 @@
 [
   {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa35479",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/d956f01235b03cf3fa51ab9713ba05a3",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy33970",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv24397",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy78579",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy18139",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy13352",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy56211",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy50813",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/ffca99d8bf18ee202a6690951c0280f1",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-12-5-1/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/configuration/guide/ccvp_b_configuration-guide-12-5-1.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/ES_MR/ES/ccvp_b_ccvp-eng-es-spl/ccvp_m_1251-customer-voice-portal-engineering-specials-for-release.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/reference/guide/ccvp_b_1251-element-specification-guide-cvp.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/reference/guide/ccvp_b_1251-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio.html",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.cisco.com/site/customer-voice-portal/documents/rest-api/",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/elementspecification/guide/ccvp_b_1261-element-specifications-guide.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/programming/guide/ccvp_b_1261-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/packaged-contact-center-enterprise-12-6-2/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/packaged-contact-center-enterprise-15-0-1/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-enterprise-12-6-2/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-enterprise-15-0-1/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/tsd-products-support-series-home.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-installation-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-contact-center/products-installation-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-contact-center/tsd-products-support-series-home.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-enterprise-12-5-1/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/admin/guide/cfin_b_1261-cisco-finesse-administration-guide.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-enterprise-12-6-1/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/admin/guide/cfin_b_1262_cisco-finesse-administration-guide.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/admin/guide/cfin_b_1262_cisco-finesse-administration-guide/cfin_b_1262_cisco-finesse-administration-guide_index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/home/268439622/type/286325642/release/12.6(2)",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/admin/guide/cfin_b_150_cisco-finesse-administration-guide.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/admin/guide/cfin_b_150_cisco-finesse-administration-guide/cfin_b_150_cisco-finesse-administration-guide_index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.cisco.com/docs/finesse/notification-popover-service/",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.cisco.com/docs/finesse/rest-api-dev-guide/",
-    "depth": 1
-  },
-  {
-    "url": "https://wwwin-si.cisco.com/psb-requirements",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.cisco.com/docs/finesse/finesse-desktop-interface-api/",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/home/268439622/type/286337858/release/15.0(1)",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/home/284360381/type/286337858/release/15.0(1)",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/home/284526699",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCMF_12_5_1_SU2/Install_Configure_Guide/chcs_b_hcm-f-install-and-configure-guide.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/cloud-systems-management/prime-collaboration/products-installation-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "http://docwiki.cisco.com/wiki/troubleshooting_cisco_prime_collaboration",
-    "depth": 1
-  },
-  {
-    "url": "https://upload.cisco.com/cgi-bin/swc/fileexg/main.cgi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-version-10-6-1/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/asr-1000-series-aggregation-services-routers/products-installation-and-configuration-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/asr-1000-series-aggregation-services-routers/products-maintenance-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-contact-center/products-installation-and-configuration-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286323226/type/284274761/release/12.0%25281%2529",
-    "depth": 1
-  },
-  {
-    "url": "https://devhub-download.cisco.com/console",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/eula",
-    "depth": 1
-  },
-  {
-    "url": "https://rpfa.cloudapps.cisco.com/rpfa/profile/profile_management.do",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/k9",
-    "depth": 1
-  },
-  {
-    "url": "https://devhub-download.cisco.com/binaries",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_5_1/Solution_Design_Guide/hcscc_b_soldg-for-hcs-cc-12_5.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/enterprise-chat-email-12-5-1/model.html",
-    "depth": 1
-  },
-  {
-    "url": "http://cisco.com/en/US/docs/voice_ip_comm/unified_communications/cubecc.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/products-implementation-design-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_0_1/Configuration/Guide/ucce_b_ucce-features-guide-12.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-implementation-design-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-installation-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-maintenance-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.cisco.com/site/customer-voice-portal/documents/virtual-voice-browser/",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_5_1/Solution_Release_Notes/html/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_5_2/Solution_Release_Notes/html/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_5_2/Solution_Release_Notes/html/index/Cisco-Unified-Contact-Center-Domain-Manager-HCSCC-Release-12-5-2.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_5_2/Solution_Release_Notes/html/index/Cisco-Enterprise-Chat-and-Email-HCSCC-Release-12-5-2.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_5_2/Solution_Release_Notes/html/index/Cisco-Unified-Intelligence-Center-HCSCC-Release-12-5-2.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_5_2/Solution_Release_Notes/html/index/Cisco-Unified-Customer-Voice-Portal-HCSCC-Release-12-5-2.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_5_2/Solution_Release_Notes/html/index/Cisco-Finesse-HCSCC-Release-12-5-2.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_5_2/Solution_Release_Notes/html/index/Cisco-Hosted-Collaboration-Solution-for-Contact-Center-Release-12-5-2_443065874.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_5_2/Solution_Release_Notes/html/index/Cisco-Unified-Contact-Center-Management-Portal-HCSCC-Release-12-5-2_443065888.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/EngineeringSpecials/index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/home/268439622/type/280840583/release/12.0(1)",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/60cc617f633ae3bfe2dcf418474b4f45",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/7779234b1cb167ee442b383bc6caf4ed",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/specialrelease/71ebe8470e5b56d73b41124e00c5ae41",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn99825",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvo46854",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvo78127",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp03348",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp37092",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp47032",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp47242",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp57531",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp58853",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp59306",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp60962",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq12348",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn77418",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn78159",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn78163",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn79565",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn82112",
-    "depth": 1
-  },
-  {
     "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvo45192",
     "depth": 1
   },
@@ -35174,5 +34782,57 @@
   {
     "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-15-0-1/model.html",
     "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200662-ADFS-IdS-Troubleshooting-and-Common-Prob.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/packaged-contact-center-enterprise/211291-Packaged-Contact-Center-Enterprise-PCCE.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/212337-troubleshoot-unified-contact-center-ente.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1001/213399-configure-mobile-agent-on-ucce.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/services-knowledge-base/uncovered-assets-faq/ta-p/5547367",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/config-guide-thousandeyes-sso-w-cisco-identity-amp-azure-entra/ta-p/5366178",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/troubleshooting-certificate-issues-amp-ssl-errors-on-catalyst/ta-p/5366951",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_0_1/Install_Upgrade_Guide/hcs-cc_b_installing-and-upgrading-guide-12-0.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/cc_landing_page_poc/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_5_1/Config_Guide/hcs-cc_b_cisco-hcs-for-config-guide_12_5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_0_1/Config_Guide/hcscc_b_configuration_guide_12_0.html",
+    "depth": 2
+  },
+  {
+    "url": "https://devhub-download.cisco.com/ui",
+    "depth": 1
   }
 ]
