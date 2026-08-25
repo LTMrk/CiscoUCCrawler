@@ -15137,6 +15137,30 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/voi-cube-overview.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-cube-configuration-cube-book-voi-cube-overview-html-92de615efc",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:32:46.542915+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T09:32:46.542926+00:00",
+      "next_check": "2026-08-26T09:32:46.542926+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/voi-sip-param-mod.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-cube-configuration-cube-book-voi-sip-param-mod-html-178695343c",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:32:50.704943+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T09:32:50.704954+00:00",
+      "next_check": "2026-08-26T09:32:50.704954+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book/configure-and-troubleshoot-dns-lookup-on-cube.html": {
       "content_sha": "28329cabd49bfba8a46f449e23ce16484c4ec8559d664613bb8cae7301adb9b1",
       "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-cube-ios-xe-config-ios-xe-book-configure-and-troubleshoot-dns-lookup-on--21c0cea14a",
@@ -164107,5 +164131,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T09:27:25.660698+00:00"
+  "updated_at": "2026-08-25T09:33:08.413502+00:00"
 }
