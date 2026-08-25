@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-maintenance-guide-pcce-b-1501-f-f59fe6763d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/maintenance/guide/pcce_b_1501_features-guide/pcce_m_1501-webex-ai-agent.html
-retrieved_at: 2026-08-21T04:33:10.308095+00:00
+retrieved_at: 2026-08-25T01:24:23.460960+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -336,10 +336,6 @@ See the section Set up scripted AI agent and Setup Autonomous AI Agent in the We
 Create and configure the flows of Webex Connect
 
 See the section Flow Configurations of the Webex Connect Documentation at https://help.webexconnect.io/docs/cce-flow-configurations .
-
-### Customers Also Viewed
-
-- Implement CA-Signed Certificates in a CCE 12.6 Solution
 
 | Note | CCE supports AI Agent capabilities for digital channels by providing agents with access to the customer interactions, rather
                                        than delivering real-time transcription of the conversation. This functionality is available across a variety of digital engagement

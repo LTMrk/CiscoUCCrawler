@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-configuration-guide-pcce-b-admi-b0d8315804
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/configuration/guide/pcce_b_admin-and-config-guide-15_0_1/pcce_m_post-installation-configuration_15_0.html
-retrieved_at: 2026-08-21T16:49:29.192970+00:00
+retrieved_at: 2026-08-25T01:21:33.774715+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1)
@@ -737,13 +737,7 @@ The System Inventory is a visual display of the machines in your deployment, inc
 
 Access the System Inventory by navigating to Unified CCE Administration > Infrastructure > Inventory .
 
-System Inventory contents are updated when you select or change the deployment type and after regular system scans. If a system
-                                             scan detects VMs that don’t conform to Packaged CCE requirements, the Configure your deployment pop-up window opens automatically, detailing the errors. You can access the System Inventory again after you have corrected
-                                             the errors and completed the Configure your deployment pop-up window.
-
 For more details about the Packaged CCE requirements, see the Server Status pop-up window, see Monitor Server Status Rules for Packaged CCE 2000 Agents Deployment .
-
-If a system scan detects an error or warning for validation rules, correct the error, and then click Validate to run an immediate scan and verify that you corrected the problem.
 
 Location
 
@@ -1562,6 +1556,26 @@ Cloud Connect Publisher and Subscriber
 Customer Collaboration Platform
 
 Live Data Publisher and Subscriber
+
+Finesse
+
+AWDB
+
+Import and Export SSC of Finesse to Administration and Data Server
+
+Import and Export SSC of Administration and Data Server to Finesse
+
+PG
+
+Import and Export Self-Signed Certificate of PG to Finesse
+
+Import and Export self-signed certificate of Cisco Finesse to PG
+
+Cloud Connect
+
+Export Cloud Connect Certificate
+
+Import Cloud Connect Certificate
 
 CUCM Publisher
 
@@ -7583,14 +7597,8 @@ Enter
                                              information, see Initialize the Packaged CCE 2000 Agents Deployment Type ). Periodic inventory validation is turned off for both VMware and Nutanix platforms. |
 |---|---|
 
-| Note | System Inventory contents are updated when you select or change the deployment type and after regular system scans. If a system
-                                             scan detects VMs that don’t conform to Packaged CCE requirements, the Configure your deployment pop-up window opens automatically, detailing the errors. You can access the System Inventory again after you have corrected
-                                             the errors and completed the Configure your deployment pop-up window. |
-|---|---|
-
 | Item | Notes | Actions |
 |---|---|---|
-| Validate | If a system scan detects an error or warning for validation rules, correct the error, and then click Validate to run an immediate scan and verify that you corrected the problem. | Click Validate . |
 | Location | This column indicates that the VMs are either on OnBox Side A , OnBox Side B , or OffBox ( External Machine ). |  |
 | Side A | All VMs on Side A are indicated as OnBox Side A in the Location column. . | The System Inventory displays read-only information for the following VMs: Unified CCE Rogger Unified CCE PG Unified CM Subscriber 1 (if on-box) To edit the following VMs, click on the respective rows: Note If you change the password of any of the Packaged CCE components, you must update the password in the respective VM in the
                                                          system inventory. Unified CCE AW-HDS-DDS —Diagnostic Framework Service Domain, Username, and Password. Unified CM Publisher (if on-box)—AXL Username and Password. These are the credentials for connecting to the Unified CM Publisher. CUIC-LD-IdS Publisher —Username and Password for Unified Intelligence Center Administration. Username and Password for Identity Service Administration. Unified CVP Server — Unified CVP Server Windows credentials. Configure FTP. For more information on the FTP attributes, see FTP Section in the Add Media Server as External Machine . Finesse Primary —Username and Password for Cisco Finesse Administration. You can launch the administration tool for these VMs by clicking the VM arrow icon: CUIC-LD-IdS Publisher Unified CM Publisher You can perform the full synchronization or differential synchronization of the configurations of various components. For
@@ -7913,6 +7921,9 @@ An optional company name []:cisco The client certificate and key are generated a
 | Cloud Connect Publisher and Subscriber |
 | Customer Collaboration Platform |
 | Live Data Publisher and Subscriber |
+| Finesse | AWDB | Import and Export SSC of Finesse to Administration and Data Server Import and Export SSC of Administration and Data Server to Finesse |
+| PG | Import and Export Self-Signed Certificate of PG to Finesse Import and Export self-signed certificate of Cisco Finesse to PG |
+| Cloud Connect | Export Cloud Connect Certificate Import Cloud Connect Certificate |
 | PG | CUCM Publisher | Import VOS Components Certificate |
 | Logger | AW | Import Unified CCE Component Certificates |
 | Rogger |

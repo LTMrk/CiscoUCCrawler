@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-configuration-guide-pcce-b-admi-4db6487637
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/configuration/guide/pcce_b_admin-and-config-guide-15_0_1/pcce_m_packaged-cce-administration_15_0.html
-retrieved_at: 2026-08-21T16:49:56.477340+00:00
+retrieved_at: 2026-08-25T01:21:25.974965+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1)
@@ -5709,10 +5709,12 @@ Dot (.) must not be the last character.
 
 Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address.
 
+When ECE and Webex Connect Digital Channels are configured in the same deployment, select both Support Digital Channel and Support Email & Chat (ECE) for an agent who handles interactions from both platforms. Ensure that SSO is enabled for both ECE and Webex Connect and
+                                                            that the agent belongs to the skill groups associated with the applicable ECE and Webex Connect Media Routing Domains.
+
 Step 8
 
-Complete the Contact Center AI tab if Cloud Connect is added to the inventory and registered in the Control Hub. The tab displays the list of features 
-                                             for an agent and allows you to enable or disable the feature.
+Complete the Contact Center AI tab if Cloud Connect is added to the inventory and registered in the Control Hub. The tab displays the list of features ( VAVTranscript, Transcript, VATransferSummaries, RealTimeAssist, and WrapUpSummaries ) for an agent and allows you to enable or disable the feature.
 
 To enable a feature, check the check box corresponding to the feature.
 
@@ -13844,8 +13846,18 @@ Packaged CCE webadmin provides the following optional features that you can conf
 
 #### Contact Center AI Configuration
 
-In the Unified CCE Administration console, the Contact Center AI feature tab allows administrators to view the Default Configuration (created or configured in the Cisco Webex Control Hub at https://admin.webex.com/ ) with all the call types (default configuration). Upon associating a configuration with a specific call type, the default
-                                 configuration (if any) gets overridden for the specific call type.
+In the Unified CCE Administration Console, navigate to Overview > Features > Contact Center AI. Select Cisco-billed AI Features . The following tabs appear:
+
+Overview tab: Displays the following details in a table format:
+
+The available AI features enabled across configured agents.
+
+The type of connectors and their corresponding call types.
+
+The Contact Center AI configurations used for different call types, along with their associated connector types.
+
+Contact Center AI Configs tab: Displays the default configuration (created or configured in the Cisco Webex Control Hub at https://admin.webex.com/ ) along with all other available Contact Center AI configurations, each showing its corresponding connector type. Click the Sync button to retrieve the latest configuration from the Control Hub and show them in CCE. The last synced time gets updated.
+                                       For more information, see the Sync Contact Center AI Global Configuration section in this Guide.
 
 To access this feature, Cloud Connect must be added to the inventory in the Unified CCE Administration console and  registered
                                              in Control Hub. For more information, see the Configure Cloud Connect section in the Cisco Packaged Contact Center Enterprise Administration and Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html .
@@ -14350,6 +14362,125 @@ Cisco Unified Contact Center Enterprise Features Guide at https://www.cisco.com/
 Cisco Packaged Contact Center Enterprise Features Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html
 
 Configure the Cisco Identity Service
+
+#### Overview of Webex Common Identity For Single Sign-On
+
+Webex Common Identity (Webex CI) for SSO enables centralized management of user profiles and access permissions across Packaged CCE. It delivers a unified identity framework that consolidates user identities, authentication, and authorization. Webex
+                                 CI enables and supports many hybrid features for Packaged CCE deployments. Webex CI enables simplified access and seamless collaboration for hybrid services.
+
+Webex CI is a Controlled Availability feature. To join Controlled Availability testing or enable this feature, email the Product
+                                             Management team at cce-pm-team@cisco.com .
+
+Prerequisites
+
+Ensure you consider the following requirements:
+
+Install ICM_ES202511 or later cumulative releases to enable Webex CI capabilities.
+
+Place an order for webex Common Identity on Cisco Commerce Workspace (CCW), see the Cisco Webex Contact Center Ordering Guide and the Cisco Collaboration Flex Plan Contact Center Ordering Guide at Cisco Collaboration Ordering Guides .
+
+Install Cloud Connect ES202511 COP in your CCE environment. Ensure Cloud Connect is added to the inventory and registered with Control Hub.
+
+For more information, see the Install Cloud Connect section in the Installation chapter of the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html
+
+Enable Webex CI endpoints in your proxy settings.
+
+For more information, see the Internal cloud connect API section in the Other Security Considerations chapter of the Security Guide for Cisco Unified Contact Center Enterprise at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html
+
+Webex CI is enabled only for agents and supervisors but not for administrators.
+
+Key features of Webex Common Identity
+
+Some of the key features of Webex CI are as follows:
+
+Single Sign-On (SSO)
+
+Users authenticate once to securely access all CCE applications, enhancing productivity and overall user experience.
+
+Flexible Authentication
+
+Supports both Cisco Identity Service (IdS) and Webex CI-based SSO.
+
+Webex CI enabled agents are redirected to CI-based SSO for authentication using OAuth flows when signing in to the  CCE Administration
+                                             console, Cisco Finesse, or Cisco Unified Intelligence Center.
+
+Hybrid services
+
+Seamless integration with hybrid services-including on-premises deployments simplifies identity management using Webex CI
+                                       for CCE environments.
+
+Automated Agent Synchronization
+
+Periodically synchronize agent from Webex Common Identity to CCE.
+
+Supports synchronization of agents based on system generated groups, such as PCCE User .
+
+Migrate existing agents to Webex CI using a bulk migration process.
+
+#### Webex Common Identity Taskflow
+
+Consider the following taskflow of Webex Common Identity (Webex CI) for SSO:
+
+Steps
+
+Description
+
+Onboarding Users to Webex Common Identity
+
+Place an order for Webex Common Identity on Cisco Commerce Workspace (CCW) to provision new or existing Organization, see
+                                                   the CiscoWebex Contact Center Ordering Guide and the Cisco Collaboration Flex Plan Contact Center Ordering Guide at Cisco Collaboration Ordering Guides .
+
+Onboard users from the Customer Active Directory to the Webex CI Control Hub using Cisco Directory Connector.
+
+Add users to the system generated group- PCCE Users .
+
+Ensure you do not rename or delete the PCCE Users group
+
+For more information, see the Onboarding users to Webex Common Identity section in the Webex Common Identity for Single Sign-On chapter of the Cisco Packaged Contact Center Enterprise Features Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html
+
+Synchronizing Webex Common Identity Contact Center Users to CCE
+
+You can manually or periodically synchronize users from Webex CI to CCE.
+
+For more information, see the Synchronizing Webex Common Identity Contact Center Users to CCE section in the Webex Common Identity for Single Sign-On chapter of the Cisco Packaged Contact Center Enterprise Features Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html
+
+Mapping Webex Common Identity Contact Center Users to CCE
+
+Each Webex CI user is assigned a unique identifier, and its used to identify corresponding users and facilitate periodic synchronization
+                                             with the CCE.
+
+For more information, see the Mapping Webex Common Identity Contact Center Users to CCE section in the Webex Common Identity for Single Sign-On chapter of the Cisco Packaged Contact Center Enterprise Features Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html
+
+Enabling Webex Common Identity for Existing CCE Users
+
+You can enable Webex Common Identity for existing CCE users using the bulk migration process.
+
+For more information, see the Enabling Webex Common Identity for Existing CCE users section in the Webex Common Identity for Single Sign-On chapter of the Cisco Packaged Contact Center Enterprise Features Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html
+
+From Control Hub, you can remove Webex CI users assigned to the Contact Center specific group - PCCE Users .
+
+During the next periodic synchronization, the CCE updates the user details for the corresponding group accordingly.
+
+It takes 24 hours for the latest changes to reflect in CCE.
+
+For more information, see the Removing Users from Webex Common Identity section in the Webex Common Identity for Single Sign-On chapter of the Cisco Packaged Contact Center Enterprise Features Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html
+
+##### Licensing - Webex Common Identity
+
+Users who belong to system-generated groups, such as PCCE Users within their respective organizations are entitled as Webex CI users. If the Webex CI offer is canceled, suspended, expired,
+                                    or removed, the user will lose their roles and entitlements, and all the users migrate to non-CI users in CCE. However, they
+                                    will still be available in Webex CI.
+
+The following process is involved in Webex CI offer:
+
+Cancel : If the Webex CI offer is canceled, the user role and entitlement are removed for the Webex CI user and organization.
+
+Suspend : If the Webex CI offer is suspended, the user role and entitlement are suspended for the Webex CI user and organization.
+                                          Whenever possible you can resume the Webex CI license.
+
+Renew : If the Webex CI offer is renewed, the Webex CI user role and entitlement gets restored for the Webex CI user and organization.
+
+Expire : If the Webex CI offer expires, the Webex CI user role and entitlement gets expired from the Webex CI user and organization.
 
 #### Third-party Integration
 
@@ -15678,7 +15809,7 @@ aiFeatures
 
 Yes (to enable Contact Center AI Features )
 
-The type of Contact Center AI Features to be associated with the agent. . To associate more than one features, seperate the values using semicolon (;).
+The type of Contact Center AI Features to be associated with the agent. Supported values are VAVTranscript, Transcript, VATransferSummaries, RealTimeAssist, and WrapUpSummaries . To associate more than one features, seperate the values using semicolon (;).
 
 If the value is updated, any existing enabled service gets overwritten. If the value is left empty, no service gets associated
                                                 with the agent.
@@ -18787,13 +18918,15 @@ Login.submitLoginRequest = function () {
                                                             following characters can be used in screen names: Uppercase and lowercase alpha numeric characters (A-Z, a-z, 0-9); at sign
                                                             (@); space ( ); colon (:); period (.); underscore (_); hyphen (-); ampersand (&); and all the characters above ASCII codeset
                                                             128. This field is required if Support Email & Chat is checked. Email Address no Note The Email Address field is enabled only for IDS SSO and non-Webex Common Identity users. For Webex Common Identity users, the email address
-                                                                        is auto-populated and remains unaltered. The email address of the  agent. Maximum length is 50 characters. Email address is mandatory when this check box is selected. The following must be true for any email address: Must include only one @ character. Must include at least one character between @ and dot ( . ). Must include one dot (.) after @ character. Dot (.) must not be the last character. Note Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. | Field | Required? | Description | Support Digital Channel | No | Check the check box to enable the agent for digital channel interaction. This check box appears only if you have added Cloud Connect in your inventory and you have registered it in the Control Hub.
+                                                                        is auto-populated and remains unaltered. The email address of the  agent. Maximum length is 50 characters. Email address is mandatory when this check box is selected. The following must be true for any email address: Must include only one @ character. Must include at least one character between @ and dot ( . ). Must include one dot (.) after @ character. Dot (.) must not be the last character. Note Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. Note When ECE and Webex Connect Digital Channels are configured in the same deployment, select both Support Digital Channel and Support Email & Chat (ECE) for an agent who handles interactions from both platforms. Ensure that SSO is enabled for both ECE and Webex Connect and
+                                                            that the agent belongs to the skill groups associated with the applicable ECE and Webex Connect Media Routing Domains. | Field | Required? | Description | Support Digital Channel | No | Check the check box to enable the agent for digital channel interaction. This check box appears only if you have added Cloud Connect in your inventory and you have registered it in the Control Hub.
                                                             For more information, see https://help.webex.com/en-us/article/n24wo0fb/Register-Cloud-Connect . | Support Email & Chat (ECE) | no | This check box appears only when ECE is configured for a peripheral set or a data center. By default, it is not checked. | Screen Name | yes | The screen name of the ECE-enabled agent. The screen name must be at least 1 character and no more than 30 characters. The
                                                             following characters can be used in screen names: Uppercase and lowercase alpha numeric characters (A-Z, a-z, 0-9); at sign
                                                             (@); space ( ); colon (:); period (.); underscore (_); hyphen (-); ampersand (&); and all the characters above ASCII codeset
                                                             128. This field is required if Support Email & Chat is checked. | Email Address | no | Note The Email Address field is enabled only for IDS SSO and non-Webex Common Identity users. For Webex Common Identity users, the email address
                                                                         is auto-populated and remains unaltered. The email address of the  agent. Maximum length is 50 characters. Email address is mandatory when this check box is selected. The following must be true for any email address: Must include only one @ character. Must include at least one character between @ and dot ( . ). Must include one dot (.) after @ character. Dot (.) must not be the last character. Note Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. | Note | The Email Address field is enabled only for IDS SSO and non-Webex Common Identity users. For Webex Common Identity users, the email address
-                                                                        is auto-populated and remains unaltered. | Note | Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. |
+                                                                        is auto-populated and remains unaltered. | Note | Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. | Note | When ECE and Webex Connect Digital Channels are configured in the same deployment, select both Support Digital Channel and Support Email & Chat (ECE) for an agent who handles interactions from both platforms. Ensure that SSO is enabled for both ECE and Webex Connect and
+                                                            that the agent belongs to the skill groups associated with the applicable ECE and Webex Connect Media Routing Domains. |
 | Field | Required? | Description |
 | Support Digital Channel | No | Check the check box to enable the agent for digital channel interaction. This check box appears only if you have added Cloud Connect in your inventory and you have registered it in the Control Hub.
                                                             For more information, see https://help.webex.com/en-us/article/n24wo0fb/Register-Cloud-Connect . |
@@ -18808,8 +18941,9 @@ Login.submitLoginRequest = function () {
 | Note | The Email Address field is enabled only for IDS SSO and non-Webex Common Identity users. For Webex Common Identity users, the email address
                                                                         is auto-populated and remains unaltered. |
 | Note | Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. |
-| Step 8 | Complete the Contact Center AI tab if Cloud Connect is added to the inventory and registered in the Control Hub. The tab displays the list of features 
-                                             for an agent and allows you to enable or disable the feature. To enable a feature, check the check box corresponding to the feature. To disable a feature, uncheck the check box corresponding to the feature. |
+| Note | When ECE and Webex Connect Digital Channels are configured in the same deployment, select both Support Digital Channel and Support Email & Chat (ECE) for an agent who handles interactions from both platforms. Ensure that SSO is enabled for both ECE and Webex Connect and
+                                                            that the agent belongs to the skill groups associated with the applicable ECE and Webex Connect Media Routing Domains. |
+| Step 8 | Complete the Contact Center AI tab if Cloud Connect is added to the inventory and registered in the Control Hub. The tab displays the list of features ( VAVTranscript, Transcript, VATransferSummaries, RealTimeAssist, and WrapUpSummaries ) for an agent and allows you to enable or disable the feature. To enable a feature, check the check box corresponding to the feature. To disable a feature, uncheck the check box corresponding to the feature. |
 | Step 9 | Click Save to return to the List window, where a message
                                              			 confirms the successful creation of the agent. Caution You cannot add a new agent in the following conditions: Out of Compliance expiry: The system is operating with an insufficient number of licenses and the system is in enforcement
                                                                   mode. Authorization expiry: The system has not communicated with Cisco Smart Software Manager or satellite for 90 days and the system has not automatically renewed the entitlement authorizations. Evaluation expiry: The license evaluation period has expired. | Caution | You cannot add a new agent in the following conditions: Out of Compliance expiry: The system is operating with an insufficient number of licenses and the system is in enforcement
@@ -18920,6 +19054,10 @@ Login.submitLoginRequest = function () {
 |---|---|
 
 | Note | Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. |
+|---|---|
+
+| Note | When ECE and Webex Connect Digital Channels are configured in the same deployment, select both Support Digital Channel and Support Email & Chat (ECE) for an agent who handles interactions from both platforms. Ensure that SSO is enabled for both ECE and Webex Connect and
+                                                            that the agent belongs to the skill groups associated with the applicable ECE and Webex Connect Media Routing Domains. |
 |---|---|
 
 | Caution | You cannot add a new agent in the following conditions: Out of Compliance expiry: The system is operating with an insufficient number of licenses and the system is in enforcement
@@ -22514,6 +22652,31 @@ and state history of an agent. -->
 | Note | If no dialed numbers are present in the Allowed Dialed Number Patterns list, then Courtesy Callback does not allow any callbacks. |
 |---|---|
 
+| Note | Webex CI is a Controlled Availability feature. To join Controlled Availability testing or enable this feature, email the Product
+                                             Management team at cce-pm-team@cisco.com . |
+|---|---|
+
+| Note | Webex CI is enabled only for agents and supervisors but not for administrators. |
+|---|---|
+
+| Steps | Description |
+|---|---|
+| Onboarding Users to Webex Common Identity | Place an order for Webex Common Identity on Cisco Commerce Workspace (CCW) to provision new or existing Organization, see
+                                                   the CiscoWebex Contact Center Ordering Guide and the Cisco Collaboration Flex Plan Contact Center Ordering Guide at Cisco Collaboration Ordering Guides . Onboard users from the Customer Active Directory to the Webex CI Control Hub using Cisco Directory Connector. Add users to the system generated group- PCCE Users . Note Ensure you do not rename or delete the PCCE Users group For more information, see the Onboarding users to Webex Common Identity section in the Webex Common Identity for Single Sign-On chapter of the Cisco Packaged Contact Center Enterprise Features Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html | Note | Ensure you do not rename or delete the PCCE Users group |
+| Note | Ensure you do not rename or delete the PCCE Users group |
+| Synchronizing Webex Common Identity Contact Center Users to CCE | You can manually or periodically synchronize users from Webex CI to CCE. For more information, see the Synchronizing Webex Common Identity Contact Center Users to CCE section in the Webex Common Identity for Single Sign-On chapter of the Cisco Packaged Contact Center Enterprise Features Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html |
+| Mapping Webex Common Identity Contact Center Users to CCE | Each Webex CI user is assigned a unique identifier, and its used to identify corresponding users and facilitate periodic synchronization
+                                             with the CCE. For more information, see the Mapping Webex Common Identity Contact Center Users to CCE section in the Webex Common Identity for Single Sign-On chapter of the Cisco Packaged Contact Center Enterprise Features Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html |
+| Enabling Webex Common Identity for Existing CCE Users | You can enable Webex Common Identity for existing CCE users using the bulk migration process. For more information, see the Enabling Webex Common Identity for Existing CCE users section in the Webex Common Identity for Single Sign-On chapter of the Cisco Packaged Contact Center Enterprise Features Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html |
+| Removing Users from Webex Common Identity | From Control Hub, you can remove Webex CI users assigned to the Contact Center specific group - PCCE Users . During the next periodic synchronization, the CCE updates the user details for the corresponding group accordingly. Note It takes 24 hours for the latest changes to reflect in CCE. For more information, see the Removing Users from Webex Common Identity section in the Webex Common Identity for Single Sign-On chapter of the Cisco Packaged Contact Center Enterprise Features Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html | Note | It takes 24 hours for the latest changes to reflect in CCE. |
+| Note | It takes 24 hours for the latest changes to reflect in CCE. |
+
+| Note | Ensure you do not rename or delete the PCCE Users group |
+|---|---|
+
+| Note | It takes 24 hours for the latest changes to reflect in CCE. |
+|---|---|
+
 | Note | Third-party gadgets can be added or modified only from a principal AW machine. |
 |---|---|
 
@@ -22811,8 +22974,8 @@ and state history of an agent. -->
 
 | Step 1 | In Unified CCE Administration , choose Overview > Features > Cloud Connect Integration . |
 |---|---|
-| Step 2 | On Cloud Connect Integration page, registration information is displayed. To register or deregister click Cisco Webex . Table 30. 15.0(1) ES202511 and earlier Field Required? Description Registration Registration - Cloud Connect registration status of Control Hub is displayed. Click the Cisco Webex Control Hub link, you will be re-directed to Webex Control Hub login page. Cluster Information Proxy Details NO Enter the proxy details used by Cloud Connect and AW-HDS for hybrid integrations on the publisher. The same proxy settings
-                                                            will apply to the subscriber. Example proxy: abc.cisco.com:8080 Note By default, HTTP uses the port 80, but you can specify a different port number in the proxy. Deployment ID - Read-only field that displays the Deployment ID, an auto-generated identifier of the Unified CCE instance. Deployment Name NO Enter a valid deployment name. Table 31. 15.0(1) ES202603 and later : Field Required? Description Cluster Configuration tab Publisher Hostname NO Read-only field that displays the hostname of the publisher. Proxy Details NO Enter the proxy details used by Cloud Connect and AW-HDS for hybrid integrations for the publisher. Example proxy: abc.cisco.com:8080 Note By default, HTTP uses the port 80, but you can specify a different port number in the proxy. Subscriber Hostname N/A Read-only field that displays the hostname of the subscriber. Proxy Details NO Enter the proxy details used by Cloud Connect and AW-HDS for hybrid integrations for the subscriber. Alternatively, select
+| Step 2 | On Cloud Connect Integration page, registration information is displayed. To register or deregister click Cisco Webex . Table 31. 15.0(1) ES202511 and earlier Field Required? Description Registration Registration - Cloud Connect registration status of Control Hub is displayed. Click the Cisco Webex Control Hub link, you will be re-directed to Webex Control Hub login page. Cluster Information Proxy Details NO Enter the proxy details used by Cloud Connect and AW-HDS for hybrid integrations on the publisher. The same proxy settings
+                                                            will apply to the subscriber. Example proxy: abc.cisco.com:8080 Note By default, HTTP uses the port 80, but you can specify a different port number in the proxy. Deployment ID - Read-only field that displays the Deployment ID, an auto-generated identifier of the Unified CCE instance. Deployment Name NO Enter a valid deployment name. Table 32. 15.0(1) ES202603 and later : Field Required? Description Cluster Configuration tab Publisher Hostname NO Read-only field that displays the hostname of the publisher. Proxy Details NO Enter the proxy details used by Cloud Connect and AW-HDS for hybrid integrations for the publisher. Example proxy: abc.cisco.com:8080 Note By default, HTTP uses the port 80, but you can specify a different port number in the proxy. Subscriber Hostname N/A Read-only field that displays the hostname of the subscriber. Proxy Details NO Enter the proxy details used by Cloud Connect and AW-HDS for hybrid integrations for the subscriber. Alternatively, select
                                                             the Same as publisher checkbox to apply the publisher's proxy settings to the subscriber. Note After the ES is installed, the subscriber proxy defaults to the publisher's proxy. To configure a different proxy for the
                                                                         subscriber, manually update the subscriber field. Node Registration tab Cluster Configuration NO Click the link to navigate to the Cluster Configuration tab. Note If your development environment requires a proxy server, the proxy settings must be configured before proceeding with Cloud
                                                                      Connect node registration. Cloud Connect Registration Status NO Click to refresh and retrieve the latest registration status of your Cloud Connect node. Webex Control Hub NO Click to access Webex Control Hub and register or un-register Cloud Connect. | Field | Required? | Description | Registration | Registration | - | Cloud Connect registration status of Control Hub is displayed. Click the Cisco Webex Control Hub link, you will be re-directed to Webex Control Hub login page. | Cluster Information | Proxy Details | NO | Enter the proxy details used by Cloud Connect and AW-HDS for hybrid integrations on the publisher. The same proxy settings
@@ -22940,7 +23103,7 @@ and state history of an agent. -->
 | agentId | Agent ID or Username | Existing agentId for which you want to enable or disable the Contact Center AI Features . You must provide either an agentId or the userName. If both are provided, agentId takes precedence over the userName. If the
                                                 agentId value is left blank, the userName will reference an existing agent. |
 | userName | Username or Agent ID | Username of the agent for which you want to enable or disable the Contact Center AI Features . If no agent is found with the given username, the Contact Center AI Features association fails. |
-| aiFeatures | Yes (to enable Contact Center AI Features ) | The type of Contact Center AI Features to be associated with the agent. . To associate more than one features, seperate the values using semicolon (;). If the value is updated, any existing enabled service gets overwritten. If the value is left empty, no service gets associated
+| aiFeatures | Yes (to enable Contact Center AI Features ) | The type of Contact Center AI Features to be associated with the agent. Supported values are VAVTranscript, Transcript, VATransferSummaries, RealTimeAssist, and WrapUpSummaries . To associate more than one features, seperate the values using semicolon (;). If the value is updated, any existing enabled service gets overwritten. If the value is left empty, no service gets associated
                                                 with the agent. |
 
 | Note | Ensure that the number of agent records do not exceed 1000. |

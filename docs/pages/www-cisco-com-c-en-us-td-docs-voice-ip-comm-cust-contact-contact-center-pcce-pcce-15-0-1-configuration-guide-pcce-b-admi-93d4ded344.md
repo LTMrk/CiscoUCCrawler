@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-configuration-guide-pcce-b-admi-93d4ded344
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/configuration/guide/pcce_b_admin-and-config-guide-15_0_1/pcce_m_security-certificates_15_0.html
-retrieved_at: 2026-08-21T16:51:07.914844+00:00
+retrieved_at: 2026-08-25T01:21:58.849494+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1)
@@ -85,6 +85,18 @@ Obtain CA Signed Certificate of PG
 Finesse
 
 AWDB
+
+Import and Export CA Certificate of Administration and Data Server to Cisco Finesse
+
+Import and Export CA Certificate of Cisco Finesse to Administration and Data Server
+
+PG
+
+Import and Export CA Certificate of PG to Cisco Finesse
+
+Import and Export CA Certificate of Cisco Finesse to PG
+
+Cloud Connect
 
 Logger
 
@@ -739,6 +751,269 @@ Step 2
 Import the certificate to the CVP Call Server keystore - %CVP_HOME%\jre\bin\keytool.exe -import -trustcacerts -keystore %CVP_HOME%\conf\security\.keystore -storetype JCEKS -alias
                                              AW_cert -file %CVP_HOME%\conf\security\<AW certificate> .
 
+### CA-Signed Certificate for Administration and Data Server
+
+Obtain the CA-signed certificate from the certification authority for Administration and Data Server (AWDB) by performing
+                              the following steps:
+
+Import and Export CA Certificate of Administration and Data Server to Cisco Finesse
+
+Import and Export CA Certificate of Cisco Finesse to Administration and Data Server
+
+#### Import and Export CA Certificate of Administration and Data Server to Cisco Finesse
+
+##### Obtain CA Certificate of Administration and Data Server
+
+Perform the following steps to obtain CA certificate of Administration and Data Server (AWDB):
+
+##### Import CA Certificates into Cisco Finesse
+
+### SUMMARY STEPS
+
+- Log in to the Finesse server.
+
+- Run this command: cd %CCE_JAVA_HOME%\bin .
+
+- Copy the root or intermediate certificates to a location on the Finesse server.
+
+- Remove the existing certificate by running keytool.exe -delete -alias <CVP_alias> -keystore .
+
+- Enter the truststore password when prompted.
+
+- At the Finesse machine terminal, run the following commands:
+
+- Enter the truststore password when prompted.
+
+- In Services , restart Apache Tomcat .
+
+### DETAILED STEPS
+
+Step 1
+
+Log in to the Finesse server.
+
+Step 2
+
+Run this command: cd %CCE_JAVA_HOME%\bin .
+
+Step 3
+
+Copy the root or intermediate certificates to a location on the Finesse server.
+
+Step 4
+
+Remove the existing certificate by running keytool.exe -delete -alias <CVP_alias> -keystore .
+
+Step 5
+
+Enter the truststore password when prompted.
+
+The default truststore password is changeit
+
+To change the truststore password. For more information, see the Change Java Truststore Password topic in this guide.
+
+Step 6
+
+At the Finesse machine terminal, run the following commands:
+
+Run cd %CCE_JAVA_HOME%\bin .
+
+Run keytool.exe -import -file <certificate with fully qualified path> -alias <alias name> <FQDN of the component server> -keystore .
+
+Step 7
+
+Enter the truststore password when prompted.
+
+Step 8
+
+In Services , restart Apache Tomcat .
+
+For more information, see Custom Truststore to Store Component Certificate .
+
+##### Import CA-Signed Certificate of Administration and Data Server to Cisco Finesse
+
+###### Before you begin
+
+Export the Tomcat certificate for all AWDB nodes and save the certificate files to your local machine. For more information,
+                                             see Export Administration and Data Server Certificate.
+
+### SUMMARY STEPS
+
+- Sign in to Cisco Unified OS Administration on the primary Finesse server by using https://FQDN_of_Finesse_server:8443/cmplatform .
+
+- Select Security > Certificate Management > Upload Certificate/Certificate chain .
+
+- Upload the AWDB certificate.
+
+- Reboot the Cisco Finesse server to apply the certificate changes.
+
+### DETAILED STEPS
+
+Step 1
+
+Sign in to Cisco Unified OS Administration on the primary Finesse server by using https://FQDN_of_Finesse_server:8443/cmplatform .
+
+Step 2
+
+Select Security > Certificate Management > Upload Certificate/Certificate chain .
+
+Step 3
+
+Upload the AWDB certificate.
+
+From the Certificate Purpose drop-down list, select tomcat-trust .
+
+In the Upload File field, click Browse and browse to the Cloud Connect certificate file.
+
+Click Upload .
+
+Step 4
+
+Reboot the Cisco Finesse server to apply the certificate changes.
+
+#### Import and Export CA Certificate of Cisco Finesse to Administration and Data Server
+
+##### Obtain the CA-Signed Certificate
+
+Obtain the CA-signed certificate from the certification authority for the Finesse server.
+
+Sign in to Cisco Unified OS Administration on the Finesse server by using https://<FQDN of Cloud Connect server>:8443/cmplatform .
+
+Generate the CSR and have it signed by the certification authority. For more information on generating the CSR, see the Certificate Management section in the Getting Started chapter of this guide.
+
+##### Import the CA Certificate of Cisco Finesse to Administration and Data Server
+
+To import the CA certificate of Cisco Finesse (VOS-based component) into the AWDB server, see Import CA Certificate into Finesse .
+
+### CA-Signed Certificate for PG
+
+Obtain the CA-signed certificate from the certification authority for Pheripheral Gateway (PG) by performing the following
+                              steps:
+
+Import and Export CA Certificate of PG to Cisco Finesse
+
+Import and Export CA Certificate of Cisco Finesse to PG
+
+#### Import and Export CA Certificate of PG to Cisco Finesse
+
+##### Obtain CA Certificate of PG
+
+Perform the following steps to obtain CA certificate of PG:
+
+For more information about the steps to obtain CA certificate of PG, see the Security Certificates chapter in Cisco Packaged Contact Center Enterprise Administration and Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html .
+
+##### Import CA Certificate into Finesse
+
+Step 1
+
+Log in to the Finesse server.
+
+Step 2
+
+Run the following command:
+
+```
+cd %CCE_JAVA_HOME%\bin
+```
+
+Step 3
+
+Copy the Root or intermediate certificates to a location in Finesse server.
+
+Step 4
+
+Remove the existing certificate by running the following command:
+
+```
+keytool.exe -delete -alias <Finesse FQDN> -keystore <ICM install directory>\ssl\cacerts
+```
+
+Step 5
+
+Enter the truststore password when prompted.
+
+The default truststore password is changeit .
+
+To change the truststore password, see Change Java Truststore Password .
+
+Step 6
+
+At the Finesse machine terminal, run the following command:
+
+```
+cd %CCE_JAVA_HOME%\bin
+```
+
+```
+keytool.exe -import -file <certificate with fully qualified path> -alias <alias name> <PG FQDN> -keystore <ICM install directory>\ssl\cacerts
+```
+
+Step 7
+
+Enter the truststore password when prompted.
+
+Step 8
+
+Go to Services and restart Apache Tomcat.
+
+For more information, refer to Custom Truststore to Store Component Certificate section.
+
+##### Import CA Certificate of PG to Cisco Finesse
+
+Import the CA-signed certificate of PG to the Cisco Finesse server trust store as tomcat-trust .
+
+Export tomcat certificate for all Cloud Connect nodes and save in your local machine. For more information, see Export Cloud Connect Certificate .
+
+Step 1
+
+Sign in to Cisco Unified OS Administration on the primary Finesse server using the following URL: https://FQDN of Finesse server:8443/cmplatform
+
+Step 2
+
+Select Security > Certificate Management > Upload Certificate/Certificate chain .
+
+Step 3
+
+Upload the Cloud Connect certificate.
+
+From the Certificate Purpose drop-down list, select tomcat-trust .
+
+In the Upload File field, click Browse and browse to the Cloud Connect certificate file.
+
+Click Upload .
+
+Step 4
+
+Reboot the Cisco Finesse server to apply the certificate changes.
+
+#### Import and Export CA Certificate of Cisco Finesse to Agent PG
+
+##### Obtain CA Certificate for Cisco Finesse
+
+Obtain the CA-signed certificate from the certification authority for Finesse server.
+
+Sign in to Cisco Unified OS Administration on the Finesse server using the following URL: https://FQDN of Cloud Connect server:8443/cmplatform .
+
+Generate the CSR and sign it from the certification authority. For more information on generating the CSR, see the Certificate Management section in the Getting Started chapter of this guide.
+
+##### Import CA Certificate of Cisco Finesse to PG
+
+To perform the import of CA certificate of Finesse (VOS-based component) to PG server, see Import VOS CA Certificate into PG topic in Security Certificates chapter of Cisco Packaged Contact Center Enterprise Administration and Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html
+
+### CA-Signed Certificate
+
+Step 1
+
+Obtain the CA-signed certificate from the certification authority for Cloud Connect server.
+
+Sign in to Cisco Unified OS Administration on the Cloud Connect server using the following URL: https://FQDN of Cloud Connect server:8443/cmplatform .
+
+Generate the CSR and sign it from the certification authority. For more information on generating the CSR, see the Generate CSR section in the Security Certificates chapter of Cisco Packaged Contact Center Enterprise Administration and Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html .
+
+Step 2
+
+Import the CA-signed certificate of Cloud Connect server to the Cisco Finesse server trust store as tomcat-trust . For more information, see Import Cloud Connect Certificate .
+
 ## Self-signed Certificates
 
 The following table lists components from which self-signed certificates are generated and components into which self-signed
@@ -777,6 +1052,26 @@ Cloud Connect Publisher and Subscriber
 Customer Collaboration Platform
 
 Live Data Publisher and Subscriber
+
+Finesse
+
+AWDB
+
+Import and Export SSC of Finesse to Administration and Data Server
+
+Import and Export SSC of Administration and Data Server to Finesse
+
+PG
+
+Import and Export Self-Signed Certificate of PG to Finesse
+
+Import and Export self-signed certificate of Cisco Finesse to PG
+
+Cloud Connect
+
+Export Cloud Connect Certificate
+
+Import Cloud Connect Certificate
 
 CUCM Publisher
 
@@ -886,24 +1181,6 @@ Import the certificate to the CVP Call Server keystore - %CVP_HOME%\jre\bin\keyt
 
 Follow the steps below to Import Diagnostic Framework Portico Certificate for RSA or ECDSA
 
-### SUMMARY STEPS
-
-- Log in to the CCE component server.
-
-- From the Unified CCE Tools, open the Diagnostic Framework Portico.
-
-- Download the self-signed certificate from the browser.
-
-- Copy the certificate to a location in AW Machine.
-
-- Run the following command at the AW machine terminal:
-
-- Enter the truststore password when prompted.
-
-- Go to Services and restart Apache Tomcat.
-
-### DETAILED STEPS
-
 Step 1
 
 Log in to the CCE component server.
@@ -914,7 +1191,11 @@ From the Unified CCE Tools, open the Diagnostic Framework Portico.
 
 Step 3
 
-Download the self-signed certificate from the browser.
+Download the Diagnostic Framework (Portico) self-signed certificate from the browser.
+
+URL: https://<FQDN>:<port_number>/icm-dp/rest/DiagnosticPortal
+
+Ensure you download the certificate in .pem or .crt format.
 
 Step 4
 
@@ -1200,6 +1481,240 @@ Step 9
 
 Go to Services and restart Apache Tomcat.
 
+### Self-Signed Certificate For Administration and Data Server
+
+Step 1
+
+Export the self-signed Administration and Data Server certificate from the Cisco Unified Operating System Administration.
+                                          For more information, see Import and Export Self-Signed Certificate of Finesse to Administration and Data Server .
+
+Step 2
+
+Import the downloaded self-signed Administration and Data Server certificate to the Cisco Finesse trust store as tomcat-trust . For more information, see Import and Export Self-Signed Certificate of AWDB to Finesse .
+
+#### Import and Export Self-Signed Certificate of Finesse to Administration and Data Server
+
+Step 1
+
+Sign in to Cisco Unified OS Administration on the Administration and Data Server (AWDB) using the following URL: https://FQDN of Finesse server:8443/cmplatform .
+
+Step 2
+
+Select Security > Certificate Management .
+
+Step 3
+
+Enter the search criteria as tomcat and then click Find to filter the certificate.
+
+The tomcat certificates list is displayed.
+
+Step 4
+
+Click Download .PEM File .
+
+Step 5
+
+Save the .PEM file in your local machine.
+
+##### What to do next
+
+Follow the same steps for both publisher and subscriber nodes.
+
+Import Self-signed Certificate of Finesse to Administration and Data Server
+
+For more information, see Import VOS Components Certificate .
+
+Now restart the agent AWDB services.
+
+#### Import and Export Self-Signed Certificate of AWDB to Finesse
+
+##### Obtain Self-Signed Certificate of AWDB
+
+Before you begin
+
+If there is an existing host.pem certificate in c:\icm\ssl\certs , then skip the following procedure and go to the section, On Call Server.
+
+Log into the ICM (AWDB) box. Go to the command prompt and type CiscoCertUtil.exe /generatecert
+
+```
+C:\icm\bin>ciscocertutil.exe /generatecert SSL config path = C:\icm\ssl\cfg\openssl.cfg
+SYSTEM command is C:\icm\ssl\bin\openssl.exe req -x509 -newkey rsa:2048 -days 7300 -nodes -subj /CN=AWDB-SIDEA.pcce.com -out
+C:\icm\ssl\certs\host.pem -keyout C:\icm\ssl\keys\host.key
+Generating a RSA private key
+..................
+....
+writing new private key to 'C:\icm\ssl\keys\host.key
+```
+
+Result : The client certificate and key are generated and stored as host.csr and host.key in C:\icm\ssl\certs folder.
+
+Reboot the AWBD.
+
+##### Import Self-Signed Certificate of AWDB to Finesse
+
+Before you begin
+
+Export tomcat certificate for all AWDB nodes and save in your local machine. For more information, see Obtain Self-Signed Certificate of Finesse .
+
+Sign in to Cisco Unified OS Administration on the primary Finesse server using the following URL: https://FQDN of Finesse server:8443/cmplatform
+
+Select Security > Certificate Management > Upload Certificate/Certificate chain .
+
+Upload the Cloud Connect certificate.
+
+From the Certificate Purpose drop-down list, select tomcat-trust .
+
+In the Upload File field, click Browse and browse to the AWDB certificate file.
+
+Click Upload .
+
+Reboot the Cisco Finesse server to apply the certificate changes.
+
+### Self-Signed Certificate for PG
+
+Step 1
+
+Export the self-signed PG certificate from the Cisco Unified Operating System Administration. For more information, see Import and Export Self-signed Certificate of Finesse to PG .
+
+Step 2
+
+Import the downloaded self-signed PG certificate to the Cisco Finesse trust store as tomcat-trust . For more information, see Import and Export Self-signed Certificate of PG to Finesse .
+
+#### Import and Export Self-Signed Certificate of PG to Cisco Finesse
+
+##### Obtain Self-Signed Certificate of PG
+
+Before you begin
+
+If there is an existing host.pem certificate in c:\icm\ssl\certs , then skip the following procedure and go to the Section, On Call Server.
+
+Log into the ICM (PG) .
+
+Execute this command CiscoCertUtil.exe /generatecert
+
+```
+C:\icm\bin>ciscocertutil.exe /generatecert SSL config path = C:\icm\ssl\cfg\openssl.cfg
+SYSTEM command is C:\icm\ssl\bin\openssl.exe req -x509 -newkey rsa:2048 -days 7300 -nodes -subj /CN=PG-SIDEA.pcce.com -out
+C:\icm\ssl\certs\host.pem -keyout C:\icm\ssl\keys\host.key
+Generating a RSA private key
+..................
+....
+writing new private key to 'C:\icm\ssl\keys\host.key
+```
+
+Result : The client certificate and key are generated and stored as host.csr and host.key in C:\icm\ssl\certs folder.
+
+Reboot the PG.
+
+##### Import Self-Signed Certificate of PG to Finesse
+
+Before you begin
+
+Export tomcat certificate for all PG nodes and save in your local machine. For more information, see Obtain Self-Signed Certificate of Finesse .
+
+Sign in to Cisco Unified OS Administration on the primary Finesse server using the following URL: https://FQDN of Finesse server:8443/cmplatform
+
+Select Security > Certificate Management > Upload Certificate/Certificate chain .
+
+Upload the PG certificate.
+
+From the Certificate Purpose drop-down list, select tomcat-trust .
+
+In the Upload File field, click Browse and browse to the PG certificate file.
+
+Click Upload .
+
+Reboot the Cisco Finesse server to apply the certificate changes.
+
+#### Import and Export Self-Signed Certificate of Cisco Finesse to PG
+
+##### Obtain Self-Signed Certificate of Finesse
+
+Sign in to Cisco Unified OS Administration on the Finesse server using the following URL: https://FQDN of Finesse server:8443/cmplatform .
+
+Select Security > Certificate Management .
+
+Enter the search criteria as tomcat and then click Find to filter the certificate.
+
+The tomcat certificates list is displayed.
+
+Click Download .PEM File .
+
+Save the .PEM file in your local machine.
+
+##### Import Self-Signed Certificate of Finesse to PG
+
+For more information, see the Import VOS Components Certificate .
+
+Now restart the agent PG services.
+
+### Self-Signed Certificate
+
+Step 1
+
+Export the self-signed Cloud Connect certificate from the Cisco Unified Operating System Administration. For more information,
+                                          see Export Cloud Connect Certificate .
+
+Step 2
+
+Import the downloaded self-signed Cloud Connect certificate to the Cisco Finesse trust store as tomcat-trust . For more information, see Import Cloud Connect Certificate .
+
+#### Export Cloud Connect Certificate
+
+Step 1
+
+Sign in to Cisco Unified OS Administration on the Cloud Connect server using the following URL: https://FQDN of Cloud Connect server:8443/cmplatform .
+
+Step 2
+
+Select Security > Certificate Management .
+
+Step 3
+
+Enter the search criteria as tomcat and then click Find to filter the certificate.
+
+The tomcat certificates list is displayed.
+
+Step 4
+
+Click Download .PEM File .
+
+Step 5
+
+Save the .PEM file in your local machine.
+
+##### What to do next
+
+Follow the same steps for both publisher and subscriber nodes.
+
+#### Import Cloud Connect Certificate
+
+##### Before you begin
+
+Export tomcat certificate for all Cloud Connect nodes and save in your local machine. For more information, see Export Cloud Connect Certificate .
+
+Step 1
+
+Sign in to Cisco Unified OS Administration on the primary Finesse server using the following URL: https://FQDN of Finesse server:8443/cmplatform
+
+Step 2
+
+Select Security > Certificate Management > Upload Certificate/Certificate chain .
+
+Step 3
+
+Upload the Cloud Connect certificate.
+
+From the Certificate Purpose drop-down list, select tomcat-trust .
+
+In the Upload File field, click Browse and browse to the Cloud Connect certificate file.
+
+Click Upload .
+
+Step 4
+
+Reboot the Cisco Finesse server to apply the certificate changes.
+
 ### Customers Also Viewed
 
 - Implement CA-Signed Certificates in a CCE 12.6 Solution
@@ -1228,7 +1743,9 @@ Go to Services and restart Apache Tomcat.
 | PG | CUCM Publisher | CA-Signed Certificate |
 | VOS components | Import VOS CA Certificate into PG |
 | Finesse | Obtain CA Signed Certificate of PG |
-| Finesse | AWDB |  |
+| Finesse | AWDB | Import and Export CA Certificate of Administration and Data Server to Cisco Finesse Import and Export CA Certificate of Cisco Finesse to Administration and Data Server |
+| PG | Import and Export CA Certificate of PG to Cisco Finesse Import and Export CA Certificate of Cisco Finesse to PG |
+| Cloud Connect | CA-Signed Certificate for Cloud Connect |
 | Logger | AW |  |
 | Rogger |
 | CVP | Import CA Certificate into Cisco Unified CVP |
@@ -1437,6 +1954,50 @@ admin: |
 | Step 2 | Import the certificate to the CVP Call Server keystore - %CVP_HOME%\jre\bin\keytool.exe -import -trustcacerts -keystore %CVP_HOME%\conf\security\.keystore -storetype JCEKS -alias
                                              AW_cert -file %CVP_HOME%\conf\security\<AW certificate> . |
 
+| Step 1 | Log in to the Finesse server. |
+|---|---|
+| Step 2 | Run this command: cd %CCE_JAVA_HOME%\bin . |
+| Step 3 | Copy the root or intermediate certificates to a location on the Finesse server. |
+| Step 4 | Remove the existing certificate by running keytool.exe -delete -alias <CVP_alias> -keystore . |
+| Step 5 | Enter the truststore password when prompted. The default truststore password is changeit . To change the truststore password. For more information, see the Change Java Truststore Password topic in this guide. |
+| Step 6 | At the Finesse machine terminal, run the following commands: Run cd %CCE_JAVA_HOME%\bin . Run keytool.exe -import -file <certificate with fully qualified path> -alias <alias name> <FQDN of the component server> -keystore . |
+| Step 7 | Enter the truststore password when prompted. |
+| Step 8 | In Services , restart Apache Tomcat . |
+
+| Step 1 | Sign in to Cisco Unified OS Administration on the primary Finesse server by using https://FQDN_of_Finesse_server:8443/cmplatform . |
+|---|---|
+| Step 2 | Select Security > Certificate Management > Upload Certificate/Certificate chain . |
+| Step 3 | Upload the AWDB certificate. From the Certificate Purpose drop-down list, select tomcat-trust . In the Upload File field, click Browse and browse to the Cloud Connect certificate file. Click Upload . |
+| Step 4 | Reboot the Cisco Finesse server to apply the certificate changes. |
+
+| Step 1 | Log in to the Finesse server. |
+|---|---|
+| Step 2 | Run the following command: cd %CCE_JAVA_HOME%\bin |
+| Step 3 | Copy the Root or intermediate certificates to a location in Finesse server. |
+| Step 4 | Remove the existing certificate by running the following command: keytool.exe -delete -alias <Finesse FQDN> -keystore <ICM install directory>\ssl\cacerts |
+| Step 5 | Enter the truststore password when prompted. The default truststore password is changeit . Note To change the truststore password, see Change Java Truststore Password . | Note | To change the truststore password, see Change Java Truststore Password . |
+| Note | To change the truststore password, see Change Java Truststore Password . |
+| Step 6 | At the Finesse machine terminal, run the following command: cd %CCE_JAVA_HOME%\bin keytool.exe -import -file <certificate with fully qualified path> -alias <alias name> <PG FQDN> -keystore <ICM install directory>\ssl\cacerts |
+| Step 7 | Enter the truststore password when prompted. |
+| Step 8 | Go to Services and restart Apache Tomcat. Note For more information, refer to Custom Truststore to Store Component Certificate section. | Note | For more information, refer to Custom Truststore to Store Component Certificate section. |
+| Note | For more information, refer to Custom Truststore to Store Component Certificate section. |
+
+| Note | To change the truststore password, see Change Java Truststore Password . |
+|---|---|
+
+| Note | For more information, refer to Custom Truststore to Store Component Certificate section. |
+|---|---|
+
+| Step 1 | Sign in to Cisco Unified OS Administration on the primary Finesse server using the following URL: https://FQDN of Finesse server:8443/cmplatform |
+|---|---|
+| Step 2 | Select Security > Certificate Management > Upload Certificate/Certificate chain . |
+| Step 3 | Upload the Cloud Connect certificate. From the Certificate Purpose drop-down list, select tomcat-trust . In the Upload File field, click Browse and browse to the Cloud Connect certificate file. Click Upload . |
+| Step 4 | Reboot the Cisco Finesse server to apply the certificate changes. |
+
+| Step 1 | Obtain the CA-signed certificate from the certification authority for Cloud Connect server. Sign in to Cisco Unified OS Administration on the Cloud Connect server using the following URL: https://FQDN of Cloud Connect server:8443/cmplatform . Generate the CSR and sign it from the certification authority. For more information on generating the CSR, see the Generate CSR section in the Security Certificates chapter of Cisco Packaged Contact Center Enterprise Administration and Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html . |
+|---|---|
+| Step 2 | Import the CA-signed certificate of Cloud Connect server to the Cisco Finesse server trust store as tomcat-trust . For more information, see Import Cloud Connect Certificate . |
+
 | Note | To establish a secure communication, run the commands (given in the links below) in the Command Prompt as an Administrator
                                     (right click over the Command Prompt and select Run as administrator ). |
 |---|---|
@@ -1454,6 +2015,9 @@ admin: |
 | Cloud Connect Publisher and Subscriber |
 | Customer Collaboration Platform |
 | Live Data Publisher and Subscriber |
+| Finesse | AWDB | Import and Export SSC of Finesse to Administration and Data Server Import and Export SSC of Administration and Data Server to Finesse |
+| PG | Import and Export Self-Signed Certificate of PG to Finesse Import and Export self-signed certificate of Cisco Finesse to PG |
+| Cloud Connect | Export Cloud Connect Certificate Import Cloud Connect Certificate |
 | PG | CUCM Publisher | Import VOS Components Certificate |
 | Logger | AW | Import Unified CCE Component Certificates |
 | Rogger |
@@ -1514,7 +2078,7 @@ writing new private key to 'C:\icm\ssl\keys\host.key The client certificate and 
 | Step 1 | Log in to the CCE component server. |
 |---|---|
 | Step 2 | From the Unified CCE Tools, open the Diagnostic Framework Portico. |
-| Step 3 | Download the self-signed certificate from the browser. |
+| Step 3 | Download the Diagnostic Framework (Portico) self-signed certificate from the browser. URL: https://<FQDN>:<port_number>/icm-dp/rest/DiagnosticPortal Ensure you download the certificate in .pem or .crt format. |
 | Step 4 | Copy the certificate to a location in AW Machine. |
 | Step 5 | Run the following command at the AW machine terminal: cd %CCE_JAVA_HOME%\bin keytool.exe -import -file <certificate with fully qualified path> -alias <alias name> <FQDN of the CCE component Server> -keystore <ICM install dir>\ssl\cacerts Note The alias name of the CCE component server must be different from the alias name given while creating the CCE component server's
                                                          self-signed certificate. | Note | The alias name of the CCE component server must be different from the alias name given while creating the CCE component server's
@@ -1615,3 +2179,37 @@ keytool.exe –keystore %CCE_JAVA_HOME%\lib\security\cacerts -trustcacerts -impo
 
 | Note | To change the truststore password, see Change Java Truststore Password . |
 |---|---|
+
+| Step 1 | Export the self-signed Administration and Data Server certificate from the Cisco Unified Operating System Administration.
+                                          For more information, see Import and Export Self-Signed Certificate of Finesse to Administration and Data Server . |
+|---|---|
+| Step 2 | Import the downloaded self-signed Administration and Data Server certificate to the Cisco Finesse trust store as tomcat-trust . For more information, see Import and Export Self-Signed Certificate of AWDB to Finesse . |
+
+| Step 1 | Sign in to Cisco Unified OS Administration on the Administration and Data Server (AWDB) using the following URL: https://FQDN of Finesse server:8443/cmplatform . |
+|---|---|
+| Step 2 | Select Security > Certificate Management . |
+| Step 3 | Enter the search criteria as tomcat and then click Find to filter the certificate. The tomcat certificates list is displayed. |
+| Step 4 | Click Download .PEM File . |
+| Step 5 | Save the .PEM file in your local machine. |
+
+| Step 1 | Export the self-signed PG certificate from the Cisco Unified Operating System Administration. For more information, see Import and Export Self-signed Certificate of Finesse to PG . |
+|---|---|
+| Step 2 | Import the downloaded self-signed PG certificate to the Cisco Finesse trust store as tomcat-trust . For more information, see Import and Export Self-signed Certificate of PG to Finesse . |
+
+| Step 1 | Export the self-signed Cloud Connect certificate from the Cisco Unified Operating System Administration. For more information,
+                                          see Export Cloud Connect Certificate . |
+|---|---|
+| Step 2 | Import the downloaded self-signed Cloud Connect certificate to the Cisco Finesse trust store as tomcat-trust . For more information, see Import Cloud Connect Certificate . |
+
+| Step 1 | Sign in to Cisco Unified OS Administration on the Cloud Connect server using the following URL: https://FQDN of Cloud Connect server:8443/cmplatform . |
+|---|---|
+| Step 2 | Select Security > Certificate Management . |
+| Step 3 | Enter the search criteria as tomcat and then click Find to filter the certificate. The tomcat certificates list is displayed. |
+| Step 4 | Click Download .PEM File . |
+| Step 5 | Save the .PEM file in your local machine. |
+
+| Step 1 | Sign in to Cisco Unified OS Administration on the primary Finesse server using the following URL: https://FQDN of Finesse server:8443/cmplatform |
+|---|---|
+| Step 2 | Select Security > Certificate Management > Upload Certificate/Certificate chain . |
+| Step 3 | Upload the Cloud Connect certificate. From the Certificate Purpose drop-down list, select tomcat-trust . In the Upload File field, click Browse and browse to the Cloud Connect certificate file. Click Upload . |
+| Step 4 | Reboot the Cisco Finesse server to apply the certificate changes. |

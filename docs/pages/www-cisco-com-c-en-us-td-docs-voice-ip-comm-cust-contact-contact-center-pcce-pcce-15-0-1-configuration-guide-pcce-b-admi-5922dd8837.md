@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-configuration-guide-pcce-b-admi-5922dd8837
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/configuration/guide/pcce_b_admin-and-config-guide-15_0_1/pcce_m_multichannel-routing_15_0.html
-retrieved_at: 2026-08-21T16:50:33.625332+00:00
+retrieved_at: 2026-08-25T01:21:02.465942+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1)
@@ -102,19 +102,25 @@ Media Routing Domains (MRDs) organize how requests for each communication medium
                                     						Email uses a Packaged CCE MRD to route a task to an agent who is associated with a skill group or precision queue and a particular channel.
 
 For Enterprise Chat and
-                                    						Email , configure MRDs in Configuration Manager. For custom multichannel applications that use the Task Routing APIs, configure MRDs in Unified CCE Administration.
+                                    						Email , configure MRDs in Configuration Manager. Associate each ECE MRD with the application path for the corresponding ECE application
+                              instance. For each Agent PG, create one ECE application path and add all applicable MRD-peripheral combinations for that Agent
+                              PG to the application-path member list. Do not add the Cisco_Voice MRD to the ECE application path.
 
-For Digital Channel tasks that are initiated from Webex Connect, you can create MRDs either using the Media Routing Domain
-                              List tool in Configuration Manager, or through Unified CCE Administration tool. If you create the MRDs through the Unified
-                              CCE Administration portal, the MRDs get automatically associated to the system-defined application paths. If you have created
-                              the MRDs using the Media Routing Domain List tool in Configuration Manager, you must explicitly associate the MRD with the
-                              application path.
+For custom multichannel applications that use the Task Routing APIs, configure MRDs in Unified CCE Administration.
 
-For every agent peripheral gateway, there is a system-defined application path that gets created with a suffix "UQ.Desktop".
-                              There is also an associated system-defined application called UQ.Desktop that automatically gets created in the sytem and
-                              identifies the Cisco Finesse server as a client to the Agent PG, to control Agent states in MRDs created for digital channels.
-                              The first number in the application path identifies the Logical Controller ID of the Agent PG. An example of the system-defined
-                              application path is 5000.UQ.Desktop .
+For Digital Channel tasks initiated from Webex Connect, you can create MRDs using either the Media Routing Domain List tool
+                              in Configuration Manager or Unified CCE Administration. MRDs created through Unified CCE Administration are automatically
+                              associated with the system-defined application paths. If you create an MRD using the Media Routing Domain List tool, explicitly
+                              associate it with the appropriate system-defined application path.
+
+For every agent peripheral gateway, a system-defined application path with a suffix "UQ.Desktop" is created for Webex Connect
+                              Digital Channels. There is also an associated system-defined application called UQ.Desktop that automatically gets created
+                              in the sytem and identifies the Cisco Finesse server as a client to the Agent PG, to control Agent states in MRDs created
+                              for digital channels. The first number in the application path identifies the Logical Controller ID of the Agent PG. An example
+                              of the system-defined application path is 5000.UQ.Desktop .
+
+Do not use the UQ.Desktop application path as the ECE application path. ECE MRDs must be associated with the application path belonging to the corresponding
+                                          ECE application instance.
 
 ### Media Routing Domains and Interruptibility
 
@@ -524,6 +530,10 @@ Note that a Run External Script node is required to send the EstimatedWaitTime t
 
 For example Enterprise Chat and
                                     						Email scripts, see the Scripting and Media Routing Guide for Cisco Unified Contact Center Enterprise at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-user-guide-list.html .
+
+| Note | Do not use the UQ.Desktop application path as the ECE application path. ECE MRDs must be associated with the application path belonging to the corresponding
+                                          ECE application instance. |
+|---|---|
 
 | Note | Whenever there are changes to the MRD interruptibility settings, the agent must log out and then log in to the desktop for
                                              the changes to take effect. |

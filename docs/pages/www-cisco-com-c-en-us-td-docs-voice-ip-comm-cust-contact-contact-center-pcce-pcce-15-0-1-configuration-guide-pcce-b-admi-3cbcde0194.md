@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-configuration-guide-pcce-b-admi-3cbcde0194
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/configuration/guide/pcce_b_admin-and-config-guide-15_0_1/pcce_m_optional-configurations_15_0.html
-retrieved_at: 2026-08-21T16:49:34.806014+00:00
+retrieved_at: 2026-08-25T01:21:11.604871+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1)
@@ -502,6 +502,10 @@ While updating the inventory for routers in Unified CCE Administration, at least
 After updating the hostname in the virtual machine, regenerate and update CA or self-signed certificate on the machine. This
                                              should be done before updating the hostname in the inventory.
 
+References to VM_HOST in this topic apply only to VMware-based Packaged CCE 2000 Agents deployments before the 15.0(1) SU2/ES202607
+                                             ES is installed. References to VM_HOST remain in the CSV file even after the ES is applied; however, this field is no longer
+                                             validated.
+
 Task
 
 Core Machines in Main Site
@@ -722,6 +726,9 @@ Caution
 Before performing the step to enable the secured connection between the components, ensure that the security certificate management
                                              process is completed.
 
+For Webex Connect Digital Channels, establish certificate trust between both Cloud Connect nodes and the Media Routing PG.
+                                             For more information, see Certificate management for digital channels interaction in the Security Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1) .
+
 Step 1
 
 In the Peripheral Gateway Component Properties window, click Add .
@@ -744,8 +751,8 @@ In the Peripheral name field, enter the peripheral name.
 
 Step 6
 
-In the Peripheral ID field, enter the logical controller ID of the Unified CCE component you are adding. The following are the names by which
-                                          the Unified CCE components are represented in the database. Refer Peripheral Gateway page in CCE Admin to get the peripheral ID of the corresponding PIM.
+In the Peripheral ID field, enter the logical controller ID of the Unified CCE peripheral component you are adding. The following are the names
+                                          by which the Unified CCE components are represented in the database. Refer Peripheral Gateway page in CCE Admin to get the peripheral ID of the corresponding PIM.
 
 Name of Outbound is Outbound
 
@@ -753,21 +760,20 @@ Name of ECE is Multichannel
 
 Name of CCP is Multichannel2
 
-Name of THIRD_PARTY_MULTICHANNEL is MutliChannel3
+Name of THIRD_PARTY_MULTICHANNEL is MultiChannel3
 
 Name of Digital Routing is DigitalRouting
 
-#### Example:
-
 Step 7
 
-In the Application Hostname (1) field, enter the hostname or the IP address of the ECE services server.
+In the Application Hostname (1) field, enter the hostname or the IP address of the multichannel application server to which the MR PIM connects.
 
 Step 8
 
-In the Application connection port (1) field, enter the port number.
+In the Application connection port (1) field, enter the port on which the multichannel application accepts connections from the MR PIM.
 
-Use the port number that is on the ECE services server that PIM uses to communicate with the application. The default port is 38001.
+Obtain the hostname and connection-port information from the documentation or configuration of the multichannel application
+                                                         that you are integrating.
 
 Step 9
 
@@ -804,6 +810,9 @@ Step 1
 Configure LDAP in the ECE Administration Web Interface.
 
 For more information, see Single Sign-On (for Partition Administrators) in the Enterprise Chat and Email Administrator’s Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-maintenance-guides-list.html .
+
+If agents are enabled for both ECE and Webex Connect Digital Channels, enable Agent Single Sign-On in ECE. For instructions,
+                                                      see Agent Single Sign-On in the Enterprise Chat and Email Administrator’s Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-maintenance-guides-list.html .
 
 Step 2
 
@@ -1703,6 +1712,9 @@ Caution
 Before performing the step to enable the secured connection between the components, ensure that the security certificate management
                                           process is completed.
 
+For Webex Connect Digital Channels, establish certificate trust between both Cloud Connect nodes and the Media Routing PG.
+                                          For more information, see Certificate management for digital channels interaction in the Security Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1) .
+
 Step 1
 
 In the Peripheral Gateway Component Properties window, click Add .
@@ -2431,7 +2443,9 @@ For more information on the configuration limits for external machines, see the 
                                              all CCE machines. Ensure that the Side A AW user is part of the local Administrators group on all CCE machines. If you have rebuilt a CCE_ROGGER or a CCE_AW, do not create a service account manually. Side A AW user account will be used
                                              as a service account for Logger and distributor services. While updating the inventory for routers in Unified CCE Administration, at least one side of the router needs to be running
                                              successfully if both the sides were rebuilt. If not, you must manually add the router on one side through the web setup. After updating the hostname in the virtual machine, regenerate and update CA or self-signed certificate on the machine. This
-                                             should be done before updating the hostname in the inventory. |
+                                             should be done before updating the hostname in the inventory. References to VM_HOST in this topic apply only to VMware-based Packaged CCE 2000 Agents deployments before the 15.0(1) SU2/ES202607
+                                             ES is installed. References to VM_HOST remain in the CSV file even after the ES is applied; however, this field is no longer
+                                             validated. |
 |---|---|
 
 | Machines | Task |
@@ -2518,7 +2532,8 @@ For more information on the configuration limits for external machines, see the 
 |---|---|
 
 | Caution | Before performing the step to enable the secured connection between the components, ensure that the security certificate management
-                                             process is completed. |
+                                             process is completed. For Webex Connect Digital Channels, establish certificate trust between both Cloud Connect nodes and the Media Routing PG.
+                                             For more information, see Certificate management for digital channels interaction in the Security Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1) . |
 |---|---|
 
 | Step 1 | In the Peripheral Gateway Component Properties window, click Add . |
@@ -2527,11 +2542,14 @@ For more information on the configuration limits for external machines, see the 
 | Step 3 | From the Available PIMS list, select MR PIM1 , then click OK . |
 | Step 4 | In the Configuration dialog box, check the Enabled check box. |
 | Step 5 | In the Peripheral name field, enter the peripheral name. |
-| Step 6 | In the Peripheral ID field, enter the logical controller ID of the Unified CCE component you are adding. The following are the names by which
-                                          the Unified CCE components are represented in the database. Refer Peripheral Gateway page in CCE Admin to get the peripheral ID of the corresponding PIM. Name of Outbound is Outbound Name of ECE is Multichannel Name of CCP is Multichannel2 Name of THIRD_PARTY_MULTICHANNEL is MutliChannel3 Name of Digital Routing is DigitalRouting Example: If you are adding ECE, find the component of the name Multichannel in the database. Enter the logical controller ID of that component in the Peripheral ID field. |
-| Step 7 | In the Application Hostname (1) field, enter the hostname or the IP address of the ECE services server. |
-| Step 8 | In the Application connection port (1) field, enter the port number. Note Use the port number that is on the ECE services server that PIM uses to communicate with the application. The default port is 38001. | Note | Use the port number that is on the ECE services server that PIM uses to communicate with the application. The default port is 38001. |
-| Note | Use the port number that is on the ECE services server that PIM uses to communicate with the application. The default port is 38001. |
+| Step 6 | In the Peripheral ID field, enter the logical controller ID of the Unified CCE peripheral component you are adding. The following are the names
+                                          by which the Unified CCE components are represented in the database. Refer Peripheral Gateway page in CCE Admin to get the peripheral ID of the corresponding PIM. Name of Outbound is Outbound Name of ECE is Multichannel Name of CCP is Multichannel2 Name of THIRD_PARTY_MULTICHANNEL is MultiChannel3 Name of Digital Routing is DigitalRouting |
+| Step 7 | In the Application Hostname (1) field, enter the hostname or the IP address of the multichannel application server to which the MR PIM connects. |
+| Step 8 | In the Application connection port (1) field, enter the port on which the multichannel application accepts connections from the MR PIM. Note Obtain the hostname and connection-port information from the documentation or configuration of the multichannel application
+                                                         that you are integrating. | Note | Obtain the hostname and connection-port information from the documentation or configuration of the multichannel application
+                                                         that you are integrating. |
+| Note | Obtain the hostname and connection-port information from the documentation or configuration of the multichannel application
+                                                         that you are integrating. |
 | Step 9 | In the Application Hostname (2) field, leave the field blank. |
 | Step 10 | In the Application connection port (2) field, leave the field blank. |
 | Step 11 | In the Heartbeat interval (sec) field, enter 5 . |
@@ -2539,12 +2557,21 @@ For more information on the configuration limits for external machines, see the 
 | Step 13 | Check the Enable Secured Connection option. This establishes a secured connection between the MR PIM and the application server. Ensure that you provide the correct information in the application hostname(1) and Application Connection Port(1) fields. |
 | Step 14 | Click OK . |
 
-| Note | Use the port number that is on the ECE services server that PIM uses to communicate with the application. The default port is 38001. |
+| Note | Obtain the hostname and connection-port information from the documentation or configuration of the multichannel application
+                                                         that you are integrating. |
 |---|---|
 
-| Step 1 | Configure LDAP in the ECE Administration Web Interface. For more information, see Single Sign-On (for Partition Administrators) in the Enterprise Chat and Email Administrator’s Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-maintenance-guides-list.html . |
-|---|---|
+| Step 1 | Configure LDAP in the ECE Administration Web Interface. For more information, see Single Sign-On (for Partition Administrators) in the Enterprise Chat and Email Administrator’s Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-maintenance-guides-list.html . Note If agents are enabled for both ECE and Webex Connect Digital Channels, enable Agent Single Sign-On in ECE. For instructions,
+                                                      see Agent Single Sign-On in the Enterprise Chat and Email Administrator’s Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-maintenance-guides-list.html . | Note | If agents are enabled for both ECE and Webex Connect Digital Channels, enable Agent Single Sign-On in ECE. For instructions,
+                                                      see Agent Single Sign-On in the Enterprise Chat and Email Administrator’s Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-maintenance-guides-list.html . |
+|---|---|---|---|
+| Note | If agents are enabled for both ECE and Webex Connect Digital Channels, enable Agent Single Sign-On in ECE. For instructions,
+                                                      see Agent Single Sign-On in the Enterprise Chat and Email Administrator’s Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-maintenance-guides-list.html . |
 | Step 2 | Accept the certificate in the Unified CCE Administration . Do the following: Enter https://<fqdn of ecewebserver> in the address bar of the web browser. Accept the certificate. Reload the Unified CCE Administration page. |
+
+| Note | If agents are enabled for both ECE and Webex Connect Digital Channels, enable Agent Single Sign-On in ECE. For instructions,
+                                                      see Agent Single Sign-On in the Enterprise Chat and Email Administrator’s Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-maintenance-guides-list.html . |
+|---|---|
 
 | Task |
 |---|
@@ -2870,7 +2897,8 @@ ftpEnabled=<true or false>
                                        then check the error message and resolve the issue before attempting to delete again. |
 
 | Caution | Before performing the step to enable the secured connection between the components, ensure that the security certificate management
-                                          process is completed. |
+                                          process is completed. For Webex Connect Digital Channels, establish certificate trust between both Cloud Connect nodes and the Media Routing PG.
+                                          For more information, see Certificate management for digital channels interaction in the Security Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1) . |
 |---|---|
 
 | Step 1 | In the Peripheral Gateway Component Properties window, click Add . |
