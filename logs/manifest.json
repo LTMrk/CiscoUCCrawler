@@ -5994,6 +5994,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://mycase.cloudapps.cisco.com/start": {
+      "content_sha": null,
+      "doc_id": "mycase-cloudapps-cisco-com-start-ac7746ddee",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T04:53:28.216689+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T04:53:28.216699+00:00",
+      "next_check": "2026-08-26T04:53:28.216699+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://netascode.cisco.com": {
       "content_sha": "bdf2807293f8bdec4f261880fb748a4cc33e87359ed889b67e3691a470d7bf81",
       "doc_id": "netascode-cisco-com-fa4920fa04",
@@ -141195,6 +141207,18 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-7de1c56f5b",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T04:52:55.104137+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T04:52:55.104149+00:00",
+      "next_check": "2026-08-26T04:52:55.104149+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/b_cc-release-2_chapter_0100.html": {
       "content_sha": "bb3468b59da079c34e4ef76f829013b2f270bf9b033b9763fe5d62d0efeb6f72",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-3de98861ec",
@@ -141207,6 +141231,54 @@
       "next_check": "2026-08-29T01:30:01.821160+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/bre_20/wcc_b_cisco-webex-contact-center-business.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-bre-20-wcc-b-cisco-webex-contact-center--45ca66a827",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T04:53:01.607898+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T04:53:01.607908+00:00",
+      "next_check": "2026-08-26T04:53:01.607908+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/nve6qddb/Webex-Contact-Center-Business-Rules-Engine-User-Guide",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/campaign_reports_20/m_CM20_ReportsBookMIF.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-campaign-reports-20-m-cm20-reportsbookmi-2ad645601e",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T04:53:07.037350+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T04:53:07.037361+00:00",
+      "next_check": "2026-08-26T04:53:07.037361+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/nrkcquf/Webex-Contact-Center-Campaign-Manager-Reports-Manual",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/campaign_user_20/webexcc_b_20-campaign-manager-user-guide.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-campaign-user-20-webexcc-b-20-campaign-m-6f45b6d744",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T04:53:10.793238+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T04:53:10.793250+00:00",
+      "next_check": "2026-08-26T04:53:10.793250+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/ngtxjux/Webex-Contact-Center-Campaign-Manager-User-Guide",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/developer_20/webexcc_b_20-desktop-developer-guide-.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-developer-20-webexcc-b-20-desktop-develo-2e15fcfdd0",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T04:53:13.580342+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T04:53:13.580356+00:00",
+      "next_check": "2026-08-26T04:53:13.580356+00:00",
+      "redirect_to": "https://developer.webex-cx.com/documentation/guides/desktop",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cvlt/2_3_1/english/user/guide/xlog231.html": {
       "content_sha": "def7543ebe30893a14286050ccc8542e6fc41b7035cb6a4a646166cbb52a0179",
@@ -163080,5 +163152,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T04:47:30.151851+00:00"
+  "updated_at": "2026-08-25T04:54:02.572859+00:00"
 }
