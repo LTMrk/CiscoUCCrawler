@@ -12491,3 +12491,57 @@
 [2026-08-25T22:02:05.187516] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu89568
 [2026-08-25T22:02:09.314977] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv06604
 [2026-08-25T22:02:13.623100] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu00490
+[2026-08-25T22:04:48.163082] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-25T22:04:52.131657] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-25T22:06:02.968291] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-25T22:06:34.926470] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr88304
+[2026-08-25T22:06:38.972916] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs05055
+[2026-08-25T22:06:43.154824] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs06450
+[2026-08-25T22:06:47.464406] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs09317
+[2026-08-25T22:06:51.708645] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs18528
+[2026-08-25T22:06:55.806945] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs39539
+[2026-08-25T22:06:59.865271] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs51098
+[2026-08-25T22:07:00.099672] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu27580
+[2026-08-25T22:07:00.099767] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu62704
+[2026-08-25T22:07:00.099819] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvs44353
+[2026-08-25T22:07:00.099866] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvs57616
+[2026-08-25T22:07:00.099912] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvs88159
+[2026-08-25T22:07:00.099955] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvt79915
+[2026-08-25T22:07:00.100024] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu25845
+[2026-08-25T22:07:00.100078] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu38469
+[2026-08-25T22:07:00.100128] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu40378
+[2026-08-25T22:07:00.100171] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu60143
+[2026-08-25T22:07:00.100213] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu67532
+[2026-08-25T22:07:00.100255] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu96763
+[2026-08-25T22:07:00.100298] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvv04594
+[2026-08-25T22:07:00.100339] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvv17590
+[2026-08-25T22:07:00.100387] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvv48257
+[2026-08-25T22:07:00.100430] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvv50578
+[2026-08-25T22:07:00.100471] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvv53586
+[2026-08-25T22:07:00.100512] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvs58596
+[2026-08-25T22:07:00.100553] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu25647
+[2026-08-25T22:07:00.100594] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu33113
+[2026-08-25T22:07:00.100635] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu64467
+[2026-08-25T22:07:00.100675] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu74172
+[2026-08-25T22:07:00.100717] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvt01967
+[2026-08-25T22:07:00.100759] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu30275
+[2026-08-25T22:07:00.100800] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu37567
+[2026-08-25T22:07:00.100846] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu48152
+[2026-08-25T22:07:00.100890] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu54694
+[2026-08-25T22:07:00.100934] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu61316
+[2026-08-25T22:07:00.100976] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu61968
+[2026-08-25T22:07:00.101043] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu73173
+[2026-08-25T22:07:00.101092] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu99870
+[2026-08-25T22:07:00.101135] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvv04450
+[2026-08-25T22:07:00.101177] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvv04694
+[2026-08-25T22:07:00.101219] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvv10379
+[2026-08-25T22:07:00.101273] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvv15165
+[2026-08-25T22:07:00.101317] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvv45086
+[2026-08-25T22:07:00.101359] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvv51458
+[2026-08-25T22:07:00.101400] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu38455
+[2026-08-25T22:07:00.101442] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvu20056
+[2026-08-25T22:07:00.101485] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvs42313
+[2026-08-25T22:07:00.101527] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvt93560
+[2026-08-25T22:07:04.232369] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp28473
+[2026-08-25T22:07:08.559953] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs42313
+[2026-08-25T22:07:12.673645] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs44353
