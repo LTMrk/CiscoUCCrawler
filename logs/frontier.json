@@ -1,69 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/11-0-1/english/firmware/releasenotes/p881_b_ip-phone-8800-release-notes.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/firmware/11-0-1sr1/p881_b_8800-mpp-rns-110001sr1.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/firmware/11-0-1sr1/p881_b_8800-mpp-rns-110001sr1.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/11-0-1/releasenotes/p881_b_cisco-ip-phone-8800-series.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/11-0-1/releasenotes/p881_b_cisco-ip-phone-8800-series.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/tsd-products-support-series-home.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/products-implementation-design-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/adminguide/P881_BK_C136782F_00_cisco-ip-phone-8800_series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://cisco.com/go/vphone8875help",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/releasenotes/P881_BK_CAB208A2_00_cisco-ip-phone-8800-series.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/releasenotes/P881_BK_CAB208A2_00_cisco-ip-phone-8800-series.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCut64844",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/user-guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/user-guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/user-guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/11-5-1-SR1/release_notes/p881_b_release-notes-8800-series-1151sr1.epub",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/11-5-1-SR1/release_notes/p881_b_release-notes-8800-series-1151sr1.mobi",
     "depth": 1
   },
@@ -37957,6 +37893,10 @@
   },
   {
     "url": "http://bst.cloudapps.cisco.com/bugsearch/bug/CSCuj95943",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series/200770-How-to-Collect-a-Collaboration-Endpoint.html",
     "depth": 2
   }
 ]

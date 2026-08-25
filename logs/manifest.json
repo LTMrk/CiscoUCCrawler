@@ -6722,6 +6722,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://cisco.com/go/vphone8875help": {
+      "content_sha": null,
+      "doc_id": "cisco-com-go-vphone8875help-6f93deace7",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T13:01:22.499742+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T13:01:22.499753+00:00",
+      "next_check": "2026-08-26T13:01:22.499753+00:00",
+      "redirect_to": "https://help.webex.com/en-us/landing/ld-j5p6vfb-Phones/User",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://configure.cisco.com": {
       "content_sha": null,
       "doc_id": "configure-cisco-com-ff39eb3274",
@@ -10134,6 +10146,18 @@
       "last_seen": "2026-08-25T11:55:50.585301+00:00",
       "next_check": "2026-08-26T11:55:50.585301+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-6900-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-unified-ip-phone-8800-series-tsd-products-support-series-home-html-c94ca8fcdf",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T13:01:10.780724+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T13:01:10.780733+00:00",
+      "next_check": "2026-08-26T13:01:10.780733+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -168546,5 +168570,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T12:57:07.800403+00:00"
+  "updated_at": "2026-08-25T13:01:43.564055+00:00"
 }

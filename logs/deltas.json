@@ -1,11 +1,14 @@
 {
-  "run_at": "2026-08-25T12:57:07.992603+00:00",
+  "run_at": "2026-08-25T13:01:43.754324+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [],
+  "redirected": [
+    "https://cisco.com/go/vphone8875help -> https://help.webex.com/en-us/landing/ld-j5p6vfb-Phones/User",
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/tsd-products-support-series-home.html -> https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/series.html"
+  ],
   "semillas_encoladas": 20
 }

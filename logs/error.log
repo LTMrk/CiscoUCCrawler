@@ -10343,3 +10343,19 @@
 [2026-08-25T12:56:59.141913] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/11-0-0/english/release-notes/p881_b_8800-mpp-1101.epub
 [2026-08-25T12:57:03.311710] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/11-0-0/english/release-notes/p881_b_8800-mpp-1101.mobi
 [2026-08-25T12:57:07.693502] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/11-0-1/english/firmware/releasenotes/p881_b_ip-phone-8800-release-notes.epub
+[2026-08-25T12:59:30.130151] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-25T12:59:34.131024] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-25T13:00:44.721185] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-25T13:00:46.082597] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/11-0-1/english/firmware/releasenotes/p881_b_ip-phone-8800-release-notes.mobi
+[2026-08-25T13:00:50.039163] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/firmware/11-0-1sr1/p881_b_8800-mpp-rns-110001sr1.epub
+[2026-08-25T13:00:54.176137] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/firmware/11-0-1sr1/p881_b_8800-mpp-rns-110001sr1.mobi
+[2026-08-25T13:00:58.428733] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/11-0-1/releasenotes/p881_b_cisco-ip-phone-8800-series.epub
+[2026-08-25T13:01:02.692545] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/11-0-1/releasenotes/p881_b_cisco-ip-phone-8800-series.mobi
+[2026-08-25T13:01:18.660964] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/adminguide/P881_BK_C136782F_00_cisco-ip-phone-8800_series.html
+[2026-08-25T13:01:22.724151] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/releasenotes/P881_BK_CAB208A2_00_cisco-ip-phone-8800-series.epub
+[2026-08-25T13:01:26.907406] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/releasenotes/P881_BK_CAB208A2_00_cisco-ip-phone-8800-series.mobi
+[2026-08-25T13:01:28.145533] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCut64844
+[2026-08-25T13:01:33.872060] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/user-guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide.html
+[2026-08-25T13:01:34.903498] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/user-guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide.epub
+[2026-08-25T13:01:39.093525] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/user-guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide.mobi
+[2026-08-25T13:01:43.481466] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/11-5-1-SR1/release_notes/p881_b_release-notes-8800-series-1151sr1.epub
