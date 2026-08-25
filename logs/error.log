@@ -12935,3 +12935,16 @@
 [2026-08-25T23:03:50.186433] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvo51948
 [2026-08-25T23:03:50.186468] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvo61811
 [2026-08-25T23:03:50.903964] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_7/dig/jvdi_b_deploy-install-jvdi-12-7.epub
+[2026-08-25T23:06:24.247028] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-25T23:06:28.475720] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-25T23:07:39.173587] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-25T23:07:40.457546] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_7/dig/jvdi_b_deploy-install-jvdi-12-7.mobi
+[2026-08-25T23:08:19.791380] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq33970
+[2026-08-25T23:08:24.020290] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr13324
+[2026-08-25T23:08:24.185609] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_8/dig/jvdi_b_deployment-installation-12-8.epub
+[2026-08-25T23:08:28.469183] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_8/dig/jvdi_b_deployment-installation-12-8.mobi
+[2026-08-25T23:08:30.788281] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs56982
+[2026-08-25T23:08:34.827758] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs64535
+[2026-08-25T23:08:39.150501] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs77883
+[2026-08-25T23:08:43.279639] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs87113
+[2026-08-25T23:08:47.313987] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs98123

@@ -1,77 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_7/dig/jvdi_b_deploy-install-jvdi-12-7.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/virtualization-experience-media-engine/products-release-notes-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr46635",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr63558",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq09123",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq22868",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq59211",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr15121",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp95567",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq33970",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr13324",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_8/dig/jvdi_b_deployment-installation-12-8.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_8/dig/jvdi_b_deployment-installation-12-8.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs56982",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs64535",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs77883",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs87113",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs98123",
-    "depth": 1
-  },
-  {
     "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt15602",
     "depth": 1
   },
@@ -28461,6 +28389,26 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_webex-messenger-deploy-jabber141.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_6/hp_ubuntu/rns/jvdi_b_release-notes-jvdi-hp-ubuntu-12-6.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_release-notes-jvdi-hp-ubuntu-12-5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/hp_ubuntu/rns/jvdi_b_release-notes-jvdi-hp-ubuntu-12-1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_6/elux/rns/jvdi_b_release-notes-jvdi-elux-12-6.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/rns/jvdi_b_release-notes-jvdi-elux-12-1.html",
     "depth": 2
   }
 ]
