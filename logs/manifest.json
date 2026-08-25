@@ -7032,6 +7032,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://cisco.com/go/dp9800help": {
+      "content_sha": null,
+      "doc_id": "cisco-com-go-dp9800help-af4c24675f",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:12:57.980265+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T14:12:57.980276+00:00",
+      "next_check": "2026-08-26T14:12:57.980276+00:00",
+      "redirect_to": "https://help.webex.com/en-us/landing/ld-n0mkkj8-CiscoDeskPhone9800Series/Get-Started",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://cisco.com/go/phonefirmwaresupport": {
       "content_sha": null,
       "doc_id": "cisco-com-go-phonefirmwaresupport-93afff0acd",
@@ -7065,6 +7077,18 @@
       "last_seen": "2026-08-25T13:01:22.499753+00:00",
       "next_check": "2026-08-26T13:01:22.499753+00:00",
       "redirect_to": "https://help.webex.com/en-us/landing/ld-j5p6vfb-Phones/User",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://cisco.com/go/wp9821help": {
+      "content_sha": null,
+      "doc_id": "cisco-com-go-wp9821help-3ae060262a",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:13:03.261245+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T14:13:03.261257+00:00",
+      "next_check": "2026-08-26T14:13:03.261257+00:00",
+      "redirect_to": "https://help.webex.com/en-us/landing/ld-a7ewqi-CiscoWirelessPhone9821/Get-Started",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -10459,6 +10483,54 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-desktop-collaboration-experience-dx600-series-tsd-products-support-5ee2d68632",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:13:18.297638+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T14:13:18.297650+00:00",
+      "next_check": "2026-08-26T14:13:18.297650+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-500-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-headset-500-series-tsd-products-support-series-home-html-20c516d043",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:13:08.535186+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T14:13:08.535198+00:00",
+      "next_check": "2026-08-26T14:13:08.535198+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-500-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-700-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-headset-700-series-tsd-products-support-series-home-html-1375a32bd9",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:13:13.269404+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T14:13:13.269415+00:00",
+      "next_check": "2026-08-26T14:13:13.269415+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-700-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-6800-series-multiplatform-firmware/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-ip-phone-6800-series-multiplatform-firmware-tsd-products-support-s-f2691d1db3",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:12:53.760577+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T14:12:53.760593+00:00",
+      "next_check": "2026-08-26T14:12:53.760593+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-6800-series-multiplatform-firmware/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-1100/model.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-1100-model-html-2f1038f303",
@@ -10492,6 +10564,18 @@
       "last_seen": "2026-08-25T13:01:10.780733+00:00",
       "next_check": "2026-08-26T13:01:10.780733+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8900-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-unified-ip-phone-8900-series-tsd-products-support-series-home-html-99fd3630b1",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:13:22.832528+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T14:13:22.832540+00:00",
+      "next_check": "2026-08-26T14:13:22.832540+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -29751,6 +29835,18 @@
       "next_check": "2026-08-26T06:35:11.182679+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wx4bwks/Solution_Guide/wbxbw_b_solution-guide.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wx4bwks-solution-guide-wbxbw-b-solution-guide-html-0c6de40de0",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:14:08.232204+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T14:14:08.232215+00:00",
+      "next_check": "2026-08-26T14:14:08.232215+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/no4dlj3/Webex-for-Cisco-BroadWorks-Solution-Guide",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/10x/administration/guide/10xcucsagx/10xcucsag115.html": {
       "content_sha": null,
@@ -93749,6 +93845,30 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/730/adminguide/h700_b_cisco-headset-700-series-administration.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-730-adminguide-h700-b-cisco-headset-700-series-administratio-e17818629f",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:12:49.519239+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T14:12:49.519250+00:00",
+      "next_check": "2026-08-26T14:12:49.519250+00:00",
+      "redirect_to": "https://help.webex.com/article/njt5dbz",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/730/userguide/h730_b_cisco-headset-730-user-guide/h730_b_cisco-headset-730-user-guide_chapter_00.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-730-userguide-h730-b-cisco-headset-730-user-guide-h730-b-cis-4305b56b56",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:14:24.899030+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T14:14:24.899040+00:00",
+      "next_check": "2026-08-26T14:14:24.899040+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/nxxey0cb/Get-started-with-your-Cisco-Headset-730",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500-m-cisco-ip-phone-7800-series-with-multiplatform-firmware.html": {
       "content_sha": "08575b7bfa684ce8e87122d225de2d095b220253e0e85fc7247efb3673e43c2f",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-compatibility-guide-n500-b-headset-compatibility-n500-m-cisc-5e02b6932e",
@@ -93996,6 +94116,18 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/adminguide/n500_b_500-series-ag-new.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-adminguide-n500-b-500-series-ag-new-html-b9ef28311b",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:12:44.384272+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T14:12:44.384283+00:00",
+      "next_check": "2026-08-26T14:12:44.384283+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/njt5dbz/Cisco-Headset-administration",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/compatibility_matrix/n500_b_headset-serviceability-matrix.html": {
       "content_sha": "81a8e252315b123384f2314bb174ea4f95319a7d4a7ff28f66430832b7c45115",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-compatibility-matrix-n500-b-headset-serviceability-m-fd9e02f73c",
@@ -94008,6 +94140,42 @@
       "next_check": "2026-08-26T13:09:03.272901+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-userguide-h56x-b-cisco-500-series-user-guide-epub-4a82aee511",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:13:46.452674+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T14:13:46.452685+00:00",
+      "next_check": "2026-08-26T14:13:46.452685+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/32bbhq/Get-Started-with-the-Cisco-Headset-500-Series",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-userguide-h56x-b-cisco-500-series-user-guide-html-9690189199",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:13:40.116546+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T14:13:40.116557+00:00",
+      "next_check": "2026-08-26T14:13:40.116557+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/32bbhq/Get-Started-with-the-Cisco-Headset-500-Series",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-userguide-h56x-b-cisco-500-series-user-guide-mobi-456f90182b",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:13:50.705423+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T14:13:50.705433+00:00",
+      "next_check": "2026-08-26T14:13:50.705433+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/32bbhq/Get-Started-with-the-Cisco-Headset-500-Series",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide/h56x_b_cisco-500-series-user-guide_chapter_00.html": {
       "content_sha": "fc0464fa6df0c5a229a4da3dba33c382304b97b0a9c7f664b207f1e5e306b019",
@@ -169042,5 +169210,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T14:07:40.902762+00:00"
+  "updated_at": "2026-08-25T14:14:38.419414+00:00"
 }
