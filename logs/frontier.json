@@ -1,101 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://onesearch.cisco.com/ciscoit/chatgpt/home",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286325128/type/280886992/release/CE9.15.6%20StepUpgrade",
-    "depth": 1
-  },
-  {
-    "url": "https://roomos.cisco.com",
-    "depth": 1
-  },
-  {
-    "url": "https://roomos.cisco.com/doc/WhatsNew",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-ex-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/116684-technote-ipphone-00.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/116684-technote-ipphone-00.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7800-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-6900-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-sip-phone-3900-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/200410-Troubleshoot-IP-Phone-Unregistration-A.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/200410-Troubleshoot-IP-Phone-Unregistration-A.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://supportforums.cisco.com/document/44376/packet-capture-cucm-appliance-model",
-    "depth": 1
-  },
-  {
-    "url": "https://supportforums.cisco.com/document/44741/collecting-packet-capture-cisco-ip-phone",
-    "depth": 1
-  },
-  {
-    "url": "https://supportforums.cisco.com/document/126666/collecting-cucm-traces-cucm-862-tac-sr",
-    "depth": 1
-  },
-  {
-    "url": "https://supportforums.cisco.com/t5/collaboration-voice-and-video/how-to-login-to-a-cisco-ip-phone-to-set-debug-level/ta-p/3111075",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-board/series.html",
     "depth": 1
   },
@@ -42641,6 +42545,110 @@
   },
   {
     "url": "https://community.cisco.com/t5/networking-knowledge-base/the-smart-hospital-revolution-cisco-spaces-for-healthcare/ta-p/5555129",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/Welcome/Welcome",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/TechDocs",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/Features",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/UseCases",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/MTR",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/UsefulLinks/Resources",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_10",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_26",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesCloud",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/ucs-platform-emulator-downloads-ucspe-4-2-2a-ucspe-4-1-2c/ta-p/3648177",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/cisco-compute-hyperconverged-with-nutanix-ism-field-guide/ta-p/5101084",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/cisco-standalone-c-series-host-update-utility-usb-image-utility/ta-p/3638625",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7800-series/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/QSG/p875_m_quick-started-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/user_guide/p875_m_8875-user-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/admin_guide/p875_m_8875-administration-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/282933048/type/282074288/release/9.3%25281%2529SR3",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/282933048/type/282074289/release",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/283734772/type/282074288/release/9.4%25281%2529SR4",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/283734772/type/282074291/release/14.3%25281.5000%2529",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/283734772/type/282074291/release/12.0%25281.1000%2529",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/283734772/type/282074291/release/11.7%25281.1000%2529",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/283734772/type/282074291/release/11.5%25281%2529",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/cucm-configuration-overview-for-integrating-with-nice-recording/ta-p/3153787",
     "depth": 2
   }
 ]
