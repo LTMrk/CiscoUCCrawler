@@ -9707,3 +9707,25 @@
 [2026-08-25T10:09:28.893048] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-3-2/releasenotes/at9x_b_ata-191_192-rn-1132.epub
 [2026-08-25T10:09:33.206907] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-3-2/releasenotes/at9x_b_ata-191_192-rn-1132.mobi
 [2026-08-25T10:09:37.425758] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-3-2SR1/releasenotes/at9x_b_ata-191_192-rn-1132sr1.epub
+[2026-08-25T10:12:24.850773] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-25T10:12:28.749687] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-25T10:13:41.296588] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-25T10:13:41.866482] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-3-2SR1/releasenotes/at9x_b_ata-191_192-rn-1132sr1.mobi
+[2026-08-25T10:13:45.860919] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/12-2-2SR1/releasenotes/at9x_b_ata-191-192-rn_11_2_2_sr1.epub
+[2026-08-25T10:13:49.983252] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/12-2-2SR1/releasenotes/at9x_b_ata-191-192-rn_11_2_2_sr1.mobi
+[2026-08-25T10:13:57.092037] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251.html
+[2026-08-25T10:14:10.431522] Omitida: excluida por robots.txt | https://community.cisco.com/t5/cisco-software-documents/how-to-register-your-device-using-https-to-satellite-smart/ta-p/3747976
+[2026-08-25T10:14:23.717615] Omitida: excluida por robots.txt | https://tools.cisco.com/its/service/oddce/services/DDCEService
+[2026-08-25T10:14:49.804686] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su1/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251SU1.html
+[2026-08-25T10:14:56.177357] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp18565
+[2026-08-25T10:15:00.231377] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvo92909
+[2026-08-25T10:15:04.604749] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvo88459
+[2026-08-25T10:15:08.781663] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvo26409
+[2026-08-25T10:15:11.957926] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su6/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su6.html
+[2026-08-25T10:15:11.958880] Omitida: excluida por robots.txt | https://tools.cisco.com
+[2026-08-25T10:15:18.170688] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz87962
+[2026-08-25T10:15:22.390829] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa17653
+[2026-08-25T10:15:26.738212] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz13019
+[2026-08-25T10:15:30.838958] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx38439
+[2026-08-25T10:15:35.196096] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa49483
+[2026-08-25T10:15:39.534307] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa59812
