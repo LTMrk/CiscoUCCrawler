@@ -3670,6 +3670,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://cway.cisco.com/csc": {
+      "content_sha": null,
+      "doc_id": "cway-cisco-com-csc-55adeb1e2f",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:30:55.694100+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T07:30:55.694110+00:00",
+      "next_check": "2026-08-26T07:30:55.694110+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://cway.cisco.com/docs/tools/CollaborationSolutionsAnalyzer/csa.callengine.supportedproducts.html": {
       "content_sha": "520e16d9b5206293f7202a64628152183889dcfdf29bf45f7492adf25dbe4854",
       "doc_id": "cway-cisco-com-docs-tools-collaborationsolutionsanalyzer-csa-callengine-supportedproducts-html-134e06d7f5",
@@ -78404,6 +78416,18 @@
       "next_check": "2026-08-28T11:44:32.188753+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab10/collab10/cmapps.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-srnd-collab10-collab10-cmapps-html-05ca3f677b",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:30:32.665436+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T07:30:32.665446+00:00",
+      "next_check": "2026-08-26T07:30:32.665446+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/sustaining/cucm_b_readme-1251su2.html": {
       "content_sha": "7aaa4604a7ddad6dddb7e7f4b0528ffb7c632377607b9f1e058b021147aeb3e4",
@@ -163452,5 +163476,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T07:26:08.178281+00:00"
+  "updated_at": "2026-08-25T07:31:00.186120+00:00"
 }

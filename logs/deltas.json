@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-08-25T07:26:08.360020+00:00",
+  "run_at": "2026-08-25T07:31:00.378880+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
@@ -7,7 +7,8 @@
   "blocked": [],
   "unchanged_count": 0,
   "redirected": [
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/featureConfig/CUCM_BK_C7DC69D3_00_cucm-feature-configuration-guide_115/CUCM_BK_C7DC69D3_00_cucm-feature-configuration-guide_115_chapter_0110000.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html"
+    "https://cway.cisco.com/csc -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab10/collab10/cmapps.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html"
   ],
   "semillas_encoladas": 20
 }
