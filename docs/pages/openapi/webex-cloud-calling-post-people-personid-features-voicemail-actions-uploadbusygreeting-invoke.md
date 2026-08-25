@@ -10,7 +10,7 @@ tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-19T19:15:08.150701+00:00
+retrieved_at: 2026-08-25T10:28:32.546469+00:00
 ---
 
 # POST /people/{personId}/features/voicemail/actions/uploadBusyGreeting/invoke

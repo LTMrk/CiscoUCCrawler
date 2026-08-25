@@ -1,81 +1,5 @@
 [
   {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs36001",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su2/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-14su2.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-command-reference-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa77227",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx00538",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd16211",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd71121",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd95902",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd56980",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwc76921",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwc41268",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwc85872",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwe24363",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwi97789",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwi96690",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwh82026",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwf99494",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwi70220",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwm63368",
-    "depth": 1
-  },
-  {
     "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwn78985",
     "depth": 1
   },
@@ -39909,6 +39833,14 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder-12-5/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder-14/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1/cucm_b_cli-reference-guide-1251.html",
     "depth": 2
   }
 ]

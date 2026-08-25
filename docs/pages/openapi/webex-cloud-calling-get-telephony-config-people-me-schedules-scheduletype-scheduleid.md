@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase2
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-19T19:15:07.969445+00:00
+retrieved_at: 2026-08-25T10:28:32.369384+00:00
 ---
 
 # GET /telephony/config/people/me/schedules/{scheduleType}/{scheduleId}

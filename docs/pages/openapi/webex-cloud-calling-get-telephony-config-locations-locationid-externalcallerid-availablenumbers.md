@@ -10,7 +10,7 @@ tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-19T19:15:08.115377+00:00
+retrieved_at: 2026-08-25T10:28:32.510542+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/externalCallerId/availableNumbers
@@ -61,6 +61,7 @@ curl -X GET '/telephony/config/locations/<locationId>/externalCallerId/available
   - `routingProfile` (string): Routing Profile for the number if the number is MOBILE_NUMBER.
   - `tollFreeNumber` (boolean) (**requerido**): If `true`, the phone number is a toll-free number.
   - `isServiceNumber` (boolean) (**requerido**): If `true`, the phone number is a service number; otherwise, it is a standard number.
+  - `elinEnabled` (boolean) (**requerido**): If `true`, the phone number is used as an Emergency Location Identification Number (ELIN) for callback purposes when an emergency call is made.
   - `isReservedNumber` (boolean) (**requerido**): Flag to indicate if the number is a reserved number. Reserved numbers cannot be assigned to people, features, or services.
   - `location` (object):
     - `id` (string) (**requerido**): ID of location in which phone number exists.
@@ -70,6 +71,7 @@ curl -X GET '/telephony/config/locations/<locationId>/externalCallerId/available
     - `type` (string): * `PLACE` - PSTN phone number's owner is a workspace.  * `PEOPLE` - PSTN phone number's owner is a person.  * `VIRTUAL_LINE` - PSTN phone number's owner is a Virtual Profile.  * `AUTO_ATTENDANT` - PSTN phone number's owner is an auto-attendant.  * `CALL_QUEUE` - PSTN phone number's owner is a call queue.  * `GROUP_PAGING` - PSTN phone number's owner is a group paging.  * `HUNT_GROUP` - PSTN phone number's owner is a hunt group.  * `VOICE_MESSAGING` - PSTN phone number's owner is a voice messaging.  * `OFFICE_ANYWHERE` - PSTN phone number's owner is a Single Number Reach.  * `CONTACT_CENTER_LINK` - PSTN phone number's owner is a Contact Center link.  * `CONTACT_CENTER_ADAPTER` - PSTN phone number's owner is a Contact Center adapter.  * `ROUTE_LIST` - PSTN phone number's owner is a route list.  * `VOICEMAIL_GROUP` - PSTN phone number's owner is a voicemail group.  * `COLLABORATE_BRIDGE` - PSTN phone number's owner is a collaborate bridge. Valores: PLACE, PEOPLE, VIRTUAL_LINE, AUTO_ATTENDANT, CALL_QUEUE, GROUP_PAGING, HUNT_GROUP, VOICE_MESSAGING, OFFICE_ANYWHERE, CONTACT_CENTER_LINK, CONTACT_CENTER_ADAPTER, ROUTE_LIST, VOICEMAIL_GROUP, COLLABORATE_BRIDGE.
     - `firstName` (string): First name of the phone number's owner.
     - `lastName` (string): Last name of the phone number's owner.
+    - `elinExpiryTime` (string): UTC Timestamp indicating the date and time of expiration of the temporary Emergency Location Identification Number (ELIN) assignment set to this owner when an emergency call is made.
 
 ### Ejemplo — respuesta 200
 ```json

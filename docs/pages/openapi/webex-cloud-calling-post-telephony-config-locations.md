@@ -10,7 +10,7 @@ tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-19T19:15:08.061209+00:00
+retrieved_at: 2026-08-25T10:28:32.506260+00:00
 ---
 
 # POST /telephony/config/locations

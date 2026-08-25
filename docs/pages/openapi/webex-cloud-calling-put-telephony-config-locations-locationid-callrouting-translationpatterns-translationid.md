@@ -10,7 +10,7 @@ tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-19T19:15:07.953229+00:00
+retrieved_at: 2026-08-25T10:28:32.349220+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/callRouting/translationPatterns/{translationId}

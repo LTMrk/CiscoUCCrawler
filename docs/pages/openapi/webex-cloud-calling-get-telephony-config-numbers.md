@@ -10,7 +10,7 @@ tags: Numbers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-19T19:15:08.131565+00:00
+retrieved_at: 2026-08-25T10:28:32.527714+00:00
 ---
 
 # GET /telephony/config/numbers
@@ -39,13 +39,14 @@ Retrieving this list requires a full or read-only administrator or location admi
 - `max` [query] (integer): Limit the number of phone numbers returned to this maximum count. The default is 2000.
 - `start` [query] (integer): Start at the zero-based offset in the list of matching phone numbers. The default is 0.
 - `phoneNumber` [query] (string): Search for this `phoneNumber`.
-- `available` [query] (boolean): Search among the available phone numbers. This parameter cannot be used along with `ownerType` parameter when set to `true`.
+- `available` [query] (boolean): Search among the available phone numbers. This parameter cannot be used along with the `numberType` parameter when set to `EXTENSION`.
+- `assigned` [query] (boolean): Return the list of phone numbers that are assigned to an owner when set to `true`. When set to `false`, returns the list of phone numbers that are unassigned. This parameter cannot be used along with the `numberType` parameter when set to `EXTENSION`.
 - `order` [query] (string): Sort the list of phone numbers based on the following:`lastName`,`dn`,`extension`. Sorted by number and extension in ascending order.
 - `ownerName` [query] (string): Return the list of phone numbers that are owned by the given `ownerName`. Maximum length is 255.
 - `ownerId` [query] (string): Returns only the matched number/extension entries assigned to the feature with the specified UUID or `broadsoftId`.
 - `ownerType` [query] (string): Returns the list of phone numbers of the given `ownerType`. Possible input values: Valores: PEOPLE, PLACE, AUTO_ATTENDANT, CALL_QUEUE, PAGING_GROUP, HUNT_GROUP, VOICE_MESSAGING, BROADWORKS_ANYWHERE, CONTACT_CENTER_LINK, ROUTE_LIST, VOICEMAIL_GROUP, VIRTUAL_LINE.
 - `extension` [query] (string): Returns the list of phone numbers with the given extension.
-- `numberType` [query] (string): Returns the filtered list of phone numbers that contain a given type of number. `available` or `state` query parameters cannot be used when `numberType=EXTENSION`. Possible input values: Valores: NUMBER, EXTENSION.
+- `numberType` [query] (string): Returns the filtered list of phone numbers that contain a given type of number. `numberType` set to `EXTENSION` cannot be used along with the `available`, `assigned`, or `state` query parameters. Possible input values: Valores: NUMBER, EXTENSION.
 - `phoneNumberType` [query] (string): Returns the filtered list of phone numbers of the given `phoneNumberType`. Response excludes any extensions without numbers. Possible input values: Valores: PRIMARY, ALTERNATE, FAX, DNIS, Default.
 - `state` [query] (string): Returns the list of phone numbers with the matching state. Response excludes any extensions without numbers. Possible input values: Valores: ACTIVE, INACTIVE, Default.
 - `details` [query] (boolean): Returns the overall count of the phone numbers along with other details for a given organization.
@@ -54,6 +55,7 @@ Retrieving this list requires a full or read-only administrator or location admi
 - `includedTelephonyTypes` [query] (string): Returns the list of phone numbers that are of given `includedTelephonyTypes`. By default, if this query parameter is not provided, it will list both PSTN and Mobile Numbers. Possible input values are PSTN_NUMBER or MOBILE_NUMBER.
 - `serviceNumber` [query] (boolean): Returns the list of service phone numbers.
 - `reservedNumber` [query] (boolean): Filters reserved phone numbers. When set to `true`, returns only reserved phone numbers. When set to `false`, returns only non-reserved phone numbers. When omitted, no reserved-number filter is applied. Reserved numbers cannot be assigned to people, features, or services. This parameter cannot be used along with the `available` filter, whether `available` is set to `true` for available numbers or `false` for assigned numbers; using both returns a `400` error. This parameter also cannot be used along with the `assigned` filter; using both returns a `400` error.
+- `elinEnabled` [query] (boolean): When true, returns the list of phone numbers that are used as an Emergency Location Identification Number (ELIN) in an emergency call scenario. When `false`, returns the list of phone numbers that are not used as an ELIN.
 
 ## Ejemplo de invocación
 ```bash
@@ -76,6 +78,7 @@ curl -X GET '/telephony/config/numbers' \
   - `routingProfile` (string): Routing Profile for the number if the number is MOBILE_NUMBER.
   - `tollFreeNumber` (boolean) (**requerido**): If `true`, the phone number is a toll-free number.
   - `isServiceNumber` (boolean) (**requerido**): If `true`, the phone number is a service number; otherwise, it is a standard number.
+  - `elinEnabled` (boolean) (**requerido**): If `true`, the phone number is used as an Emergency Location Identification Number (ELIN) for callback purposes when an emergency call is made.
   - `isReservedNumber` (boolean) (**requerido**): Flag to indicate if the number is a reserved number. Reserved numbers cannot be assigned to people, features, or services.
   - `location` (object):
     - `id` (string) (**requerido**): ID of location in which phone number exists.
@@ -85,6 +88,7 @@ curl -X GET '/telephony/config/numbers' \
     - `type` (string): * `PLACE` - PSTN phone number's owner is a workspace.  * `PEOPLE` - PSTN phone number's owner is a person.  * `VIRTUAL_LINE` - PSTN phone number's owner is a Virtual Profile.  * `AUTO_ATTENDANT` - PSTN phone number's owner is an auto-attendant.  * `CALL_QUEUE` - PSTN phone number's owner is a call queue.  * `GROUP_PAGING` - PSTN phone number's owner is a group paging.  * `HUNT_GROUP` - PSTN phone number's owner is a hunt group.  * `VOICE_MESSAGING` - PSTN phone number's owner is a voice messaging.  * `OFFICE_ANYWHERE` - PSTN phone number's owner is a Single Number Reach.  * `CONTACT_CENTER_LINK` - PSTN phone number's owner is a Contact Center link.  * `CONTACT_CENTER_ADAPTER` - PSTN phone number's owner is a Contact Center adapter.  * `ROUTE_LIST` - PSTN phone number's owner is a route list.  * `VOICEMAIL_GROUP` - PSTN phone number's owner is a voicemail group.  * `COLLABORATE_BRIDGE` - PSTN phone number's owner is a collaborate bridge. Valores: PLACE, PEOPLE, VIRTUAL_LINE, AUTO_ATTENDANT, CALL_QUEUE, GROUP_PAGING, HUNT_GROUP, VOICE_MESSAGING, OFFICE_ANYWHERE, CONTACT_CENTER_LINK, CONTACT_CENTER_ADAPTER, ROUTE_LIST, VOICEMAIL_GROUP, COLLABORATE_BRIDGE.
     - `firstName` (string): First name of the phone number's owner.
     - `lastName` (string): Last name of the phone number's owner.
+    - `elinExpiryTime` (string): UTC Timestamp indicating the date and time of expiration of the temporary Emergency Location Identification Number (ELIN) assignment set to this owner when an emergency call is made.
 - `count` (object):
   - `assigned` (integer): Count of phone numbers that are in the assigned state.
   - `unAssigned` (integer): Count of phone numbers which are in the un-assigned state.
@@ -94,6 +98,7 @@ curl -X GET '/telephony/config/numbers' \
   - `total` (integer): Total phone numbers and extensions available.
   - `mobileNumber` (integer): Count of phone numbers of type `MOBILE_NUMBER` only without `PSTN_NUMBER` and extension.
   - `serviceNumber` (integer): Count of phone numbers with `includedTelephonyTypes` as `PSTN_NUMBER` and `isServiceNumber` value as `true`.
+  - `elin` (integer): Count of phone numbers that are used as Emergency Location Identification Number (ELIN). ELINs are used for callback purposes when an emergency call is made.
   - `reservedNumber` (integer): Count of reserved phone numbers.
 
 ### Ejemplo — respuesta 200
@@ -108,7 +113,8 @@ curl -X GET '/telephony/config/numbers' \
     "total": 839,
     "mobileNumber": 6,
     "serviceNumber": 1,
-    "reservedNumber": 1
+    "reservedNumber": 1,
+    "elin": 1
   },
   "phoneNumbers": [
     {
@@ -124,6 +130,7 @@ curl -X GET '/telephony/config/numbers' \
       "routingProfile": "AttRtPf",
       "tollFreeNumber": false,
       "isServiceNumber": false,
+      "elinEnabled": true,
       "location": {
         "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2E4Mjg5NzIyLTFiODAtNDFiNy05Njc4LTBlNzdhZThjMTA5OA",
         "name": "Banglore"
@@ -132,7 +139,8 @@ curl -X GET '/telephony/config/numbers' \
         "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9jODhiZGIwNC1jZjU5LTRjMjMtODQ4OC00NTNhOTE3ZDFlMjk",
         "type": "PEOPLE",
         "firstName": "sadiqhussain96",
-        "lastName": "sadiqhussain96"
+        "lastName": "sadiqhussain96",
+        "elinExpiryTime": "2023-12-31T23:59:59.000Z"
       },
       "isReservedNumber": false
     },
@@ -147,9 +155,8 @@ curl -X GET '/telephony/config/numbers' \
       "includedTelephonyTypes": "PSTN_NUMBER",
       "tollFreeNumber": false,
       "isServiceNumber": false,
-      "location": {
-        "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2M2MDliOGE1LTAxNmQtNDAwNy1hN2E0LTJhMThiZmZjY2FmNg",
-        "na
+      "elinEnabled": false,
+      "
   ... (truncado)
 ```
 
