@@ -2171,6 +2171,42 @@
     "ultima_vez": "2026-08-17T04:55:37.959905+00:00",
     "veces": 1
   },
+  "https://www.webex.com/downloads.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T04:35:05.905471+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/industries/frontline.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T04:34:49.137806+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/industries/sports-entertainment.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T04:34:44.847219+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/industries/start-ups.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T04:34:57.515895+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/learn/webinars-demos.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T04:35:26.957452+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/products/integrations/index.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T04:35:14.153270+00:00",
+    "veces": 1
+  },
   "https://www.webex.com/screen-sharing.html": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
@@ -2183,10 +2219,28 @@
     "ultima_vez": "2026-08-17T04:55:17.365560+00:00",
     "veces": 1
   },
+  "https://www.webex.com/test-meeting.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T04:35:09.973018+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/dg/contact-sales.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T04:35:35.182752+00:00",
+    "veces": 1
+  },
   "https://www.webex.com/video-conferencing.html": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-17T04:55:08.794675+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/webinar.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T04:33:45.618712+00:00",
     "veces": 1
   }
 }

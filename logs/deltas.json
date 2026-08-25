@@ -1,11 +1,46 @@
 {
-  "run_at": "2026-08-25T04:24:57.986302+00:00",
+  "run_at": "2026-08-25T04:35:55.681965+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "marketplace-cisco-com-en-us-apps-380622-basking-automation-add-lead-5c2c379f81",
+    "marketplace-cisco-com-en-us-apps-380907-envoy-visitors-8252d6fe6e",
+    "www-webex-com-resources-whats-new-html-22fc4442de"
+  ],
   "modified": [],
   "removed": [],
-  "blocked": [],
-  "unchanged_count": 100,
-  "redirected": [],
+  "blocked": [
+    "www-webex-com-downloads-html-0ea09610b5",
+    "www-webex-com-industries-frontline-html-bb8ce6b21e",
+    "www-webex-com-industries-sports-entertainment-html-e187b373a8",
+    "www-webex-com-industries-start-ups-html-9231452a1c",
+    "www-webex-com-learn-webinars-demos-html-df26210732",
+    "www-webex-com-products-integrations-index-html-bcd7625e64",
+    "www-webex-com-test-meeting-html-a20e882fba",
+    "www-webex-com-us-en-dg-contact-sales-html-cd8cf2f659",
+    "www-webex-com-webinar-html-7ed110cc20"
+  ],
+  "unchanged_count": 65,
+  "redirected": [
+    "https://hardware.webex.com/products/accessories -> https://www.webex.com/us/en/devices.html",
+    "https://hardware.webex.com/products/board-series -> https://www.webex.com/us/en/devices.html",
+    "https://hardware.webex.com/products/cameras -> https://www.webex.com/us/en/devices.html",
+    "https://hardware.webex.com/products/desk-series -> https://www.webex.com/us/en/devices.html",
+    "https://hardware.webex.com/products/headsets -> https://www.webex.com/us/en/devices.html",
+    "https://hardware.webex.com/products/phones -> https://www.webex.com/us/en/devices.html",
+    "https://hardware.webex.com/products/room-series-and-kits -> https://www.webex.com/us/en/devices.html",
+    "https://www.webex.com/accessibility.html -> https://www.webex.com/us/en/solutions/cross-platform/accessibility.html",
+    "https://www.webex.com/cloud-calling.html -> https://www.webex.com/suite/enterprise-cloud-calling.html",
+    "https://www.webex.com/company/careers.html -> https://careers.cisco.com/global/en/home",
+    "https://www.webex.com/control-hub.html -> https://www.webex.com/us/en/solutions/cross-platform/control-hub.html",
+    "https://www.webex.com/customer-interaction-management.html -> https://www.webex.com/us/en/products/customer-experience/cpaas.html",
+    "https://www.webex.com/hybrid-work.html -> https://www.webex.com/us/en/solutions/hybrid-work.html",
+    "https://www.webex.com/inclusive-collaboration.html -> https://www.webex.com/us/en/solutions/cross-platform/inclusive-collaboration.html",
+    "https://www.webex.com/industries/education.html -> https://www.webex.com/us/en/solutions/industries/education.html",
+    "https://www.webex.com/industries/financial-services.html -> https://www.webex.com/us/en/solutions/industries/financial-services.html",
+    "https://www.webex.com/industries/government.html -> https://www.webex.com/us/en/solutions/industries/government.html",
+    "https://www.webex.com/industries/healthcare.html -> https://www.webex.com/us/en/solutions/industries/healthcare.html",
+    "https://www.webex.com/industries/nonprofits.html -> https://www.webex.com/us/en/solutions/industries/nonprofits.html",
+    "https://www.webex.com/security.html -> https://www.webex.com/us/en/solutions/cross-platform/security.html"
+  ],
   "semillas_encoladas": 20
 }
