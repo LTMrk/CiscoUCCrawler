@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-6-1/releasenotes/cs88_b_8832-release-notes-1261.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-6-1/releasenotes/cs88_b_8832-release-notes-1261.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-7-1/releasenotes/cs88_b_rns-8832-1271.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-7-1/releasenotes/cs88_b_rns-8832-1271.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-7-1SR1/cs88_b_rns-8832-1271sr1.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-7-1SR1/cs88_b_rns-8832-1271sr1.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-8-1-SR1/cs88_b_rns-8832-1281sr1.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-8-1-SR1/cs88_b_rns-8832-1281sr1.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-8-1/cs88_b_rns-8832-1281.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-8-1/cs88_b_rns-8832-1281.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8841_8851_8861/firmware/10-2-1/english/ReleaseNotes/P881_BK_R7A58C22_00_rn-10_2_1-8841-8851-8861/P881_BK_R7A58C22_00_rn-10_2_1-8841-8851-8861_chapter_00.html",
     "depth": 1
   },
@@ -37389,6 +37349,10 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214218-configure-options-ping-between-cucm-and.html",
     "depth": 1
   }
 ]
