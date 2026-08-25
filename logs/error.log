@@ -12584,3 +12584,55 @@
 [2026-08-25T22:26:47.229077] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs01312
 [2026-08-25T22:26:51.582529] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs01667
 [2026-08-25T22:26:55.799735] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs07458
+[2026-08-25T22:29:25.553754] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-25T22:29:29.666598] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-25T22:30:57.746247] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-25T22:31:29.620096] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs31214
+[2026-08-25T22:31:32.890916] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_deploy-jabber-on-premises-129.html
+[2026-08-25T22:31:36.985224] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_deploy-jabber-webex-messenger-129.html
+[2026-08-25T22:31:41.383336] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_planning-guide-cisco-jabber-129.html
+[2026-08-25T22:31:45.412020] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_b_deploy-jabber-on-premises-14_0.html
+[2026-08-25T22:31:49.684114] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_b_deploy-jabber-webex-messenger-14_0.html
+[2026-08-25T22:31:53.924145] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_b_planning-guide-cisco-jabber-14_0.html
+[2026-08-25T22:31:58.521163] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_book_parameters-reference-guide-for-cisco-jabber-14_0.html
+[2026-08-25T22:32:00.798590] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz75206
+[2026-08-25T22:32:03.954520] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_onprem-deployment-for-jabber141.html
+[2026-08-25T22:32:08.724440] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_param-reference-for-jabber141.html
+[2026-08-25T22:32:13.594386] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_planning-guide-for-jabber141.html
+[2026-08-25T22:32:16.927750] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_webex-messenger-deploy-jabber141.html
+[2026-08-25T22:32:18.101427] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/Android/9_1/JABA_BK_J0AE313A_00_jabber-voice-android-faq-9-1-4.epub
+[2026-08-25T22:32:18.259286] Omitida: excluida por robots.txt | http://supportforums.cisco.com
+[2026-08-25T22:32:20.535764] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn47352
+[2026-08-25T22:32:20.535856] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn47527
+[2026-08-25T22:32:20.535881] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvk79417
+[2026-08-25T22:32:20.535902] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvk79452
+[2026-08-25T22:32:20.535922] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvk79629
+[2026-08-25T22:32:20.535942] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvk79635
+[2026-08-25T22:32:20.535970] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvm41653
+[2026-08-25T22:32:20.535990] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvm51685
+[2026-08-25T22:32:20.536010] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvm68457
+[2026-08-25T22:32:20.536029] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvm82911
+[2026-08-25T22:32:20.536048] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn01127
+[2026-08-25T22:32:20.536067] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn01149
+[2026-08-25T22:32:20.536085] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn04975
+[2026-08-25T22:32:20.536104] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn05357
+[2026-08-25T22:32:20.536123] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn18692
+[2026-08-25T22:32:20.536142] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn22235
+[2026-08-25T22:32:20.536161] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn26127
+[2026-08-25T22:32:20.536180] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn30437
+[2026-08-25T22:32:20.536199] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn53649
+[2026-08-25T22:32:20.536217] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn56005
+[2026-08-25T22:32:20.536237] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn57177
+[2026-08-25T22:32:20.536255] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn62888
+[2026-08-25T22:32:20.536285] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn57707
+[2026-08-25T22:32:20.536303] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvk79500
+[2026-08-25T22:32:20.536320] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn68292
+[2026-08-25T22:32:20.536338] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvk59161
+[2026-08-25T22:32:22.815027] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm51685
+[2026-08-25T22:32:27.188009] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm44162
+[2026-08-25T22:32:31.527872] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm41653
+[2026-08-25T22:32:35.607880] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm12053
+[2026-08-25T22:32:39.675263] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvi49056
+[2026-08-25T22:32:44.035990] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCvk23475
+[2026-08-25T22:32:48.209011] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvk75843
+[2026-08-25T22:32:52.501666] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj26171
