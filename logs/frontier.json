@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-hardening-iosxe-V8NMuMZJ/cvrf/cisco-sa-hardening-iosxe-V8NMuMZJ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cimc-arg-inject-upSHdMfU/cvrf/cisco-sa-cimc-arg-inject-upSHdMfU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ts-agent-fw-bypass-MYBTMrev/cvrf/cisco-sa-ts-agent-fw-bypass-MYBTMrev_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-hardening-sdwan-faLcR3K/cvrf/cisco-sa-hardening-sdwan-faLcR3K_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webui-dos-qdc7qx3/cvrf/cisco-sa-webui-dos-qdc7qx3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2/cvrf/cisco-sa-onprem-fmc-authbypass-5JPp45V2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx/cvrf/cisco-sa-sdwan-privesc-4uxFrdzx_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-xss-42tgsdMG/cvrf/cisco-sa-ise-xss-42tgsdMG_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-notice-ILh3ZrP5/cvrf/cisco-sa-notice-ILh3ZrP5_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-hardening-roomos-AqNMbEq/cvrf/cisco-sa-hardening-roomos-AqNMbEq_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-traversal-xNt7wb2Y/cvrf/cisco-sa-ise-traversal-xNt7wb2Y_cvrf.xml",
     "depth": 2
   },
