@@ -1,69 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222998-troubleshoot-saml-assertion-expired-sso.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222998-troubleshoot-saml-assertion-expired-sso.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/webex-meeting-center/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/series.html",
-    "depth": 1
-  },
-  {
-    "url": "http://docwiki.cisco.com/wiki/Logging:_Enable_debug_level_logging",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCvf93030",
-    "depth": 1
-  },
-  {
-    "url": "https://techzone.cisco.com",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200612-Configure-the-Identity-Provider-for-UCCX.html",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvb58580",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211530-Unsupported-configurations-for-UCCX-and.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://developer.cisco.com/site/socialminer/documentation/",
     "depth": 1
   },
@@ -41998,5 +41934,101 @@
   {
     "url": "https://help.webex.com/en-us/article/zqvufbb/Deployment-Guide-for-Directory-Connector",
     "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/222768-record-webex-sessions-automatically.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/223078-troubleshoot-webex-desktop-error.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220168-configure-webex-scheduler-add-in-for-a-h.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/215430-how-to-retrieve-a-webex-user-id-and-pass.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224955-configure-guest-email-requirement-for.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/webex-meeting-center/products-security-advisories-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220244-understand-webex-meetings-video-resoluti.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/collaboration/meeting_center/wvdi/wvdi-b-admin-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings-online/217863-configure-graphics-card-to-fix-webex-vid.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/214861-exception-meetings-on-google-calendar.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/215434-how-to-contact-the-customer-success-mana.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/225637-troubleshoot-cloud-devices-failed-to.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224954-fix-scheduling-and-paid-feature-issues.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224869-troubleshoot-meeting-stuck-in-calendar.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/223083-troubleshoot-webex-scheduling-error.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/222607-troubleshoot-hybrid-calendar-error-erro.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221842-use-qr-code-on-android-phone-to-join-web.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221074-understand-the-different-webex-webinar-t.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286309260/type/283802941",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286304695/type/283802941",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286304684/type/283802941",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/services-knowledge-base/upgrading-from-webex-meetings-to-starter-plan/ta-p/4065791",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-security-advisories-list.html",
+    "depth": 2
   }
 ]

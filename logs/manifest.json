@@ -184,6 +184,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvb58580": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvb58580-9200662249",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T06:30:46.549385+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T06:30:46.549395+00:00",
+      "next_check": "2026-08-26T06:30:46.549395+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvd85721": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvd85721-afdb1774b9",
@@ -8778,6 +8790,18 @@
       "next_check": "2026-08-25T10:09:31.643165+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200612-Configure-the-Identity-Provider-for-UCCX.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-200612-configure-the-identity-p-7fa5ce2675",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T06:30:42.194664+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T06:30:42.194680+00:00",
+      "next_check": "2026-08-26T06:30:42.194680+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200651-UCCX-Version-11-5-Prerelease-Field-Commu.html": {
       "content_sha": "61448d4eb686f4471783a55a596456eb105034f7cdbde271efce1a2941c19041",
@@ -163260,5 +163284,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T06:26:07.437168+00:00"
+  "updated_at": "2026-08-25T06:30:46.885692+00:00"
 }
