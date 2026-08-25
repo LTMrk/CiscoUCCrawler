@@ -1,11 +1,15 @@
 {
-  "run_at": "2026-08-25T06:07:32.925281+00:00",
+  "run_at": "2026-08-25T06:12:31.594615+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [],
+  "redirected": [
+    "https://video.cisco.com/detail/videos/collaboration/video/5810206387001/how-to-take-a-backup-of-tms-tmspe-databases -> https://video.cisco.com",
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-server/118387-technote-tms-00.html -> https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/products-tech-notes-list.html",
+    "https://www.cisco.com/c/en/us/td/docs/telepresence/infrastructure/tms/config_guide/cmr_hybrid_15_0/cmrh_b_cmr-hybrid-configuration-guide/cmrh_b_cmr-hybrid-configuration-guide_chapter_01001.html -> https://www.cisco.com/c/en/us/support/conferencing/retired.html"
+  ],
   "semillas_encoladas": 20
 }

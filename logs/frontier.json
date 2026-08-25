@@ -1,77 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/telepresence/infrastructure/tms/config_guide/cmr_hybrid_15_0/cmrh_b_cmr-hybrid-configuration-guide/cmrh_b_cmr-hybrid-configuration-guide_chapter_01001.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212421-windows-ciphers-cause-tls-issue-between.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212421-windows-ciphers-cause-tls-issue-between.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-server/118387-technote-tms-00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/214388-tms-xe-pe-screencast-video-list.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/214388-tms-xe-pe-screencast-video-list.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://video.cisco.com/detail/videos/tac-videos/video/5973150572001/tms-and-tmsxe-log-collection-from-the-web-ui-and-tms-log-collection-utility",
-    "depth": 1
-  },
-  {
-    "url": "https://video.cisco.com/detail/videos/collaboration/video/5810206387001/how-to-take-a-backup-of-tms-tmspe-databases",
-    "depth": 1
-  },
-  {
-    "url": "https://video.cisco.com/detail/videos/tac-videos/video/5828827151001/renewing-a-tms-web-certificate",
-    "depth": 1
-  },
-  {
-    "url": "https://video-es.cisco.com/detail/videos/tac-vid%C3%A9os/video/6004960045001/renovar-certificado-de-tms",
-    "depth": 1
-  },
-  {
-    "url": "https://video.cisco.com/detail/videos/tac-videos/video/5843469327001/how-to-download-conference-event-log-from-tms",
-    "depth": 1
-  },
-  {
-    "url": "https://video.cisco.com/detail/videos/tac-videos/video/5843478096001/installing-tms-licenses",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215223-tms-phone-books-troubleshoot-guide.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215223-tms-phone-books-troubleshoot-guide.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215426-configure-conference-end-notifications-f.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215426-configure-conference-end-notifications-f.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217245-how-to-configure-office-365-hybrid-calen.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217245-how-to-configure-office-365-hybrid-calen.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme.epub",
     "depth": 1
   },
@@ -42198,5 +42126,9 @@
   {
     "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/series.html",
     "depth": 2
+  },
+  {
+    "url": "https://video.cisco.com",
+    "depth": 1
   }
 ]
