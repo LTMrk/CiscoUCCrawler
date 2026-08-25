@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-6e8075ac62
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide/common_upgrade_tasks.html
-retrieved_at: 2026-08-16T19:57:00.407389+00:00
+retrieved_at: 2026-08-25T00:09:31.514909+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -829,24 +829,6 @@ Go to Services and restart Apache Tomcat on target servers.
 
 ##### Import Diagnostic Framework Portico Certificate into AW Machines
 
-### SUMMARY STEPS
-
-- Log in to the CCE component server.
-
-- From the Unified CCE Tools, open the Diagnostic Framework Portico.
-
-- Download the self-signed certificate from the browser.
-
-- Copy the certificate to a location in AW Machine.
-
-- Run the following command at the AW machine terminal:
-
-- Enter the truststore password when prompted.
-
-- Go to Services and restart Apache Tomcat.
-
-### DETAILED STEPS
-
 Step 1
 
 Log in to the CCE component server.
@@ -857,7 +839,11 @@ From the Unified CCE Tools, open the Diagnostic Framework Portico.
 
 Step 3
 
-Download the self-signed certificate from the browser.
+Download the Diagnostic Framework (Portico) self-signed certificate from the browser.
+
+URL: https://<FQDN>:<port_number>/icm-dp/rest/DiagnosticPortal
+
+Ensure you download the certificate in .pem or .crt format.
 
 Step 4
 
@@ -1324,10 +1310,6 @@ New keystore password:  <new-password>
 Re-enter new keystore password:  <new-password>
 ```
 
-### Customers Also Viewed
-
-- Configure Webex AI Agent for CCE
-
 | Step 1 | For VXML gateways only, perform this step. For all other gateways, proceed to the next step. Run the #copy tftp flash <IP Address> <filename>.bin command to copy the flash from a remote machine to the gateway. |
 |---|---|
 | Step 2 | Run the #sh flash command to check the version. |
@@ -1612,7 +1594,7 @@ GO Note For example, <SQL Server TempDB path> = C:\Program Files\Microsoft SQL S
 | Step 1 | Log in to the CCE component server. |
 |---|---|
 | Step 2 | From the Unified CCE Tools, open the Diagnostic Framework Portico. |
-| Step 3 | Download the self-signed certificate from the browser. |
+| Step 3 | Download the Diagnostic Framework (Portico) self-signed certificate from the browser. URL: https://<FQDN>:<port_number>/icm-dp/rest/DiagnosticPortal Ensure you download the certificate in .pem or .crt format. |
 | Step 4 | Copy the certificate to a location in AW Machine. |
 | Step 5 | Run the following command at the AW machine terminal: cd %CCE_JAVA_HOME%\bin keytool.exe -import -file <certificate with fully qualified path> -alias <alias name> <FQDN of the CCE component Server> -keystore <ICM install dir>\ssl\cacerts Note The alias name of the CCE component server must be different from the alias name given while creating the CCE component server's
                                                                self-signed certificate. | Note | The alias name of the CCE component server must be different from the alias name given while creating the CCE component server's

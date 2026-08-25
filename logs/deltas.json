@@ -1,14 +1,19 @@
 {
-  "run_at": "2026-08-25T00:03:59.249160+00:00",
+  "run_at": "2026-08-25T00:16:22.492790+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-5a0aeb8373",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-fbc4850858"
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-6171536405",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-6e8075ac62",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-8192688d0c",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-reference-g-9275666f4b",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-release-gui-e3c7b8717a",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-ucce-b-1501-30b32b45e8",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-ucce-b-1501-6277ef99c7"
   ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 98,
+  "unchanged_count": 93,
   "redirected": [],
   "semillas_encoladas": 20
 }

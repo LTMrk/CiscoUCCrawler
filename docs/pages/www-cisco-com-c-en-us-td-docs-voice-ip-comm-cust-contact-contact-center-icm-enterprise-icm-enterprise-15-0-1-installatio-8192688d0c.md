@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-8192688d0c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide/technology_refresh_upgrade.html
-retrieved_at: 2026-08-16T19:57:04.669772+00:00
+retrieved_at: 2026-08-25T00:10:24.843101+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -821,10 +821,6 @@ Microsoft supports in-place Operating System upgrade from Windows 10 to Windows 
 
 For Windows 11, the SecureBoot and TPM devices are mandatory which must be added before performing in-place Operating System
                                              upgrade from Windows 10 to Windows 11. For more information about installing Microsoft Windows 11, see the Install Microsoft Windows 11 for Administration Client .
-
-### Customers Also Viewed
-
-- Configure Webex AI Agent for CCE
 
 | Note | During the Technology Refresh (TR) Upgrade process, the installer is designed to identify any unsupported features present
                                        in the source deployment. These features are then listed in a dialog box for you to review. You have two options on how to

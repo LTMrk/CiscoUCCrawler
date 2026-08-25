@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-6171536405
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide/preparation.html
-retrieved_at: 2026-08-16T19:56:11.848006+00:00
+retrieved_at: 2026-08-25T00:10:12.893513+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -186,14 +186,11 @@ For more information, see Virtualization for Unified Contact Center Enterprise a
 ### Transport Layer
                            	 Security Version 1.2 Required
 
-Contact center enterprise solutions require the use of TLS 1.2 only
-                              		connections in this release. Our services accept incoming TLS connections only
-                              		over TLS 1.2. All outgoing TLS connection use only TLS 1.2.
+Contact center enterprise solutions require the use of TLS 1.2 connections in this release. Our services accept incoming TLS
+                              connections over TLS 1.2. All outgoing TLS connection use TLS 1.2.
 
 All clients that connect to either our web interfaces or databases must
                               		support TLS 1.2.
-
-The older versions of the TLS/SSL are disabled by installer.
 
 For more information see, Contact Center Enterprise Compatibility Matrix at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-device-support-tables-list.html .
 
@@ -329,9 +326,6 @@ Administration Client machine will remain in OpenLogic-OpenJDK JRE 8 (32-bit).
 | UCS C-series (TRC): | VMware vSphere ESXi VMware vCenter (Optional) | Virtualization for Unified Contact Center Enterprise at https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/uc_system/virtualization/cisco-collaboration-virtualization.html |
 | UCS C-series (Specs-based): | VMware vCenter VMware vSphere ESXi |
 | Third-party (Specs-based) | VMware vCenter VMware vSphere ESXi |
-
-| Note | The older versions of the TLS/SSL are disabled by installer. |
-|---|---|
 
 | Note | For detailed information about the software editions and versions supported for this release, see the Contact Center Enterprise Compatibility Matrix at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-device-support-tables-list.html . |
 |---|---|

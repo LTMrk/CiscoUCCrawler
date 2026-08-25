@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-ucce-b-1501-30b32b45e8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/ucce_b_1501_features-guide/rcct_m_1501_mobile-agent.html
-retrieved_at: 2026-08-20T19:08:06.781792+00:00
+retrieved_at: 2026-08-25T00:15:56.758562+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -1504,6 +1504,10 @@ Connect the Run External Script node's success path to the existing Release Call
 This fix may add a short delay of one to two seconds to the call flow.
 
 For information about Agent Greeting Play Script, on page 32 .
+
+### Customers Also Viewed
+
+- Configure Webex AI Agent for CCE
 
 | Note | The administrator can select the Agent chooses option, which allows an agent to select a call delivery mode at login. |
 |---|---|

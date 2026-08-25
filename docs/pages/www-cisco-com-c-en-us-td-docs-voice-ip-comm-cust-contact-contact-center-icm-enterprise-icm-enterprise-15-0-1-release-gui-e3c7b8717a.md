@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-release-gui-e3c7b8717a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-1501_es202607/rcct-m-introduction-1501-es202607.html
-retrieved_at: 2026-08-16T19:35:42.648199+00:00
+retrieved_at: 2026-08-25T00:14:27.043515+00:00
 ---
 
 Release notes for Cisco Contact Center Enterprise Solutions Engineering Specials, 15.0(1) SU2/ES202607
@@ -134,6 +134,20 @@ For Cisco Unified Customer Voice Portal (Unified CVP), the SIP.EnableSIPREC prop
 
 After upgrading to ES202607, SIPREC/Port API users must synchronize the routing configuration data to the CVP CallServers
                                  using OAMP/CCE admin.
+
+If secure communication is enabled between OAMP and the Call Server or VXML Server, you must update the OAMP registry settings
+                                 to ensure compatibility.
+
+```
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Apache Software\Foundation\Procrun
+      2.0\OPSConsoleServer\Parameters\Java
+```
+
+Update Java Options: In the Options string value, append the following parameter (ensure it is separated from existing entries by a space): -Djdk.rmi.ssl.client.enableEndpointIdentification=false
+
+Restart Service: Restart the Cisco CVP OPSConsoleServer service to apply the changes.
+
+Always back up the registry before making modifications to ensure system stability.
 
 ## Software Downloads for 15.0(1) SU2/ES202607
 
