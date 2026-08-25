@@ -21157,6 +21157,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/virtualization-experience-media-engine/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-virtualization-experience-media-engine-tsd-products-support-series-08900a5fdb",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T22:58:48.659421+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T22:58:48.659431+00:00",
+      "next_check": "2026-08-26T22:58:48.659431+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/virtualization-experience-media-engine/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/wireless-ip-phone-8821-ex/model.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-wireless-ip-phone-8821-ex-model-html-7f7a776b49",
@@ -181087,5 +181099,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T22:54:06.291125+00:00"
+  "updated_at": "2026-08-25T22:58:57.371825+00:00"
 }
