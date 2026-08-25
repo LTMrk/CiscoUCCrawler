@@ -1,14 +1,11 @@
 {
-  "run_at": "2026-08-25T06:16:58.474699+00:00",
+  "run_at": "2026-08-25T06:21:24.856335+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur49008 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/directoryconnector/cmgt_b_directory-connector-guide-admins/cmgt_b_directory-connector-guide-admins_chapter_0111.html -> https://help.webex.com/en-us/article/zqvufbb/Deployment-Guide-for-Directory-Connector"
-  ],
+  "redirected": [],
   "semillas_encoladas": 20
 }
