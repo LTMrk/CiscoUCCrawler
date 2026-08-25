@@ -1,30 +1,15 @@
 {
-  "run_at": "2026-08-25T13:36:58.712669+00:00",
+  "run_at": "2026-08-25T13:42:38.847010+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
-  "blocked": [
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvh47665-c3ce204306",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvm66028-f64fab22d4",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvm74978-1a196ef671",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwe09200-92e4d06882",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwe95522-2df5c14ab1",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwf62223-370a6c6c1f",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwi83126-7d5fae8589",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwi84357-bc8930398f",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwm80997-cb820f80ce",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwm96750-19d2b730cb"
-  ],
+  "blocked": [],
   "unchanged_count": 0,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm69293 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn18501 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn58894 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn63992 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr86735 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs85963 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt02503 -> https://id.cisco.com/oauth2/default/v1/authorize"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwm96898 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwm96908 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831/CS38_BK_U841D454_00_userguide-8831_chapter_01010.html -> https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/products-user-guide-list.html"
   ],
   "semillas_encoladas": 20
 }
