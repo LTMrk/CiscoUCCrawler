@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-08-25T12:42:55.697882+00:00",
+  "run_at": "2026-08-25T12:47:36.200661+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
@@ -7,7 +7,8 @@
   "blocked": [],
   "unchanged_count": 0,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwj42171 -> https://id.cisco.com/oauth2/default/v1/authorize"
+    "https://webexphoneupgrade.cisco.com -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/cuipph/800-series/adminguide/w800_b_wireless-800-administration-guide/w800_m_configuration-on-the-phone.html -> https://cisco.login.duosecurity.com/email_first"
   ],
   "semillas_encoladas": 20
 }

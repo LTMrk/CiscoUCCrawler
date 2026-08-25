@@ -9969,6 +9969,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://webexphoneupgrade.cisco.com": {
+      "content_sha": null,
+      "doc_id": "webexphoneupgrade-cisco-com-5671357281",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T12:47:35.682512+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T12:47:35.682523+00:00",
+      "next_check": "2026-08-26T12:47:35.682523+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www-author.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/administration/guide/b_12xcucsag/b_12xcucsag_chapter_0111.html": {
       "content_sha": null,
       "doc_id": "www-author-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-administration-guide-b-12xcucsag-b-12xcucsag-chapter-0-8273757cb4",
@@ -10025,6 +10037,18 @@
       "http_status": 303,
       "last_seen": "2026-08-25T11:10:08.998935+00:00",
       "next_check": "2026-08-26T11:10:08.998935+00:00",
+      "redirect_to": "https://cisco.login.duosecurity.com/email_first",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/cuipph/800-series/adminguide/w800_b_wireless-800-administration-guide/w800_m_configuration-on-the-phone.html": {
+      "content_sha": null,
+      "doc_id": "www-author3-cisco-com-content-en-us-td-docs-voice-ip-comm-cuipph-800-series-adminguide-w800-b-wireless-800-administratio-bafa71d9b2",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T12:47:31.562247+00:00",
+      "http_status": 303,
+      "last_seen": "2026-08-25T12:47:31.562258+00:00",
+      "next_check": "2026-08-26T12:47:31.562258+00:00",
       "redirect_to": "https://cisco.login.duosecurity.com/email_first",
       "status": "redirect",
       "unchanged_runs": 0
@@ -168462,5 +168486,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T12:42:55.506447+00:00"
+  "updated_at": "2026-08-25T12:47:35.981319+00:00"
 }
