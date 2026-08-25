@@ -1,30 +1,30 @@
 {
-  "run_at": "2026-08-25T19:48:01.462997+00:00",
+  "run_at": "2026-08-25T19:54:09.633830+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvt93549-d2270c107c",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvu20611-b4264ae734",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvu25506-246cc86190",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvu54806-8c449d7809",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvu85367-fb9fe408d1",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvu89253-86a6f2783c",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvv04451-a98542b55f",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvv51017-e2c848461a",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvv74905-e406b8016b",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvw90939-719ed50438"
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvt09463-a83eda45c8",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvt92064-ce49ecf331",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvu80248-04b43e4573",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvv53842-c744a875d7",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvw05139-58aabe646b",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvx52770-78603a493d",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvx82605-4974ebdc7d",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvx88533-ecd04bcd66",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvx98655-e98b245b6d",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvx99134-14f2cfded0"
   ],
   "unchanged_count": 0,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs39240 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs85018 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt01048 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt74130 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu91063 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu96298 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv12160 -> https://id.cisco.com/oauth2/default/v1/authorize"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu91011 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv53307 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv86000 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw23695 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw80256 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw90640 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx13801 -> https://id.cisco.com/oauth2/default/v1/authorize"
   ],
   "semillas_encoladas": 20
 }
