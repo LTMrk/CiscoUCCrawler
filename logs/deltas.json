@@ -1,15 +1,11 @@
 {
-  "run_at": "2026-08-25T07:40:38.743360+00:00",
+  "run_at": "2026-08-25T07:45:07.461331+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cucos/8_6_1/cucos/osg_861_cm/iptpch6.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/10_0_1/rtmt/CUCM_BK_CA30A928_00_cisco-unified-rtmt-administration-100/CUCM_BK_CA30A928_00_cisco-unified-rtmt-administration-100_chapter_01000.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/9971_9951_8961/10_0/english/adminguide/P567_BK_A27DADFD_00_adminguide-8961-9951-9971-10_0/P567_BK_A27DADFD_00_adminguide-8961-9951-9971-10_0_chapter_010100.html -> https://www.cisco.com/c/en/us/support/collaboration-endpoints/retired.html"
-  ],
+  "redirected": [],
   "semillas_encoladas": 20
 }
