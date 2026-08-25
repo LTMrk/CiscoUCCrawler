@@ -8189,6 +8189,30 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www-author.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/administration/guide/b_12xcucsag/b_12xcucsag_chapter_0111.html": {
+      "content_sha": null,
+      "doc_id": "www-author-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-administration-guide-b-12xcucsag-b-12xcucsag-chapter-0-8273757cb4",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:47:58.637509+00:00",
+      "http_status": 303,
+      "last_seen": "2026-08-25T10:47:58.637548+00:00",
+      "next_check": "2026-08-26T10:47:58.637548+00:00",
+      "redirect_to": "https://cisco.login.duosecurity.com/email_first",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/collaboration-meeting-rooms-cmr/products-installation-and-configuration-guides-list.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-collaboration-meeting-rooms-cmr-products-installation-and-configuration-guide-b1de58e2bf",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:46:50.166696+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T10:46:50.166707+00:00",
+      "next_check": "2026-08-26T10:46:50.166707+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/category.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/conferencing/meeting-management/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-conferencing-meeting-management-tsd-products-support-series-home-html-130cc576eb",
@@ -8198,6 +8222,18 @@
       "last_seen": "2026-08-25T09:44:35.864799+00:00",
       "next_check": "2026-08-26T09:44:35.864799+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/meeting-management/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/unified-meetingplace/products-maintenance-guides-list.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-unified-meetingplace-products-maintenance-guides-list-html-0f1f150a96",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:49:33.573579+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:49:33.573590+00:00",
+      "next_check": "2026-08-26T10:49:33.573590+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -26885,6 +26921,30 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/callservices/cmgt_b_ciscospark-hybrid-call-service-config-guide/cmgt_b_ciscospark-hybrid-call-service-config-guide_chapter_011.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-callservices-cmgt-b-ciscospark-hybri-8af8f9ef8c",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:46:54.319341+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:46:54.319351+00:00",
+      "next_check": "2026-08-26T10:46:54.319351+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/nm1m8zv/Get-Started-with-Webex-Hybrid-Services",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/callservices/cmgt_b_ciscospark-hybrid-call-service-config-guide/cmgt_b_ciscospark-hybrid-call-service-config-guide_chapter_0110.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-callservices-cmgt-b-ciscospark-hybri-2d62e5426f",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:47:00.590899+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:47:00.590910+00:00",
+      "next_check": "2026-08-26T10:47:00.590910+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/nm1m8zv/Get-Started-with-Webex-Hybrid-Services",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/directoryconnector/cmgt_b_directory-connector-guide-admins/cmgt_b_directory-connector-guide-admins_chapter_0111.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-directoryconnector-cmgt-b-directory--3c99e60fd4",
@@ -27195,6 +27255,30 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/administration/guide/b_cucsag.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-administration-guide-b-cucsag-html-57fa58d86e",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:47:12.415259+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:47:12.415270+00:00",
+      "next_check": "2026-08-26T10:47:12.415270+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/administration/guide/b_cucsag/b_cucsag_appendix_010001.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-administration-guide-b-cucsag-b-cucsag-appendix-010001-html-cc3daafee6",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:50:36.337360+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:50:36.337370+00:00",
+      "next_check": "2026-08-26T10:50:36.337370+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/administration/guide/b_cucsag/b_cucsag_appendix_01111.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-administration-guide-b-cucsag-b-cucsag-appendix-01111-html-effa656eef",
@@ -27203,6 +27287,126 @@
       "http_status": 301,
       "last_seen": "2026-08-25T07:59:29.258026+00:00",
       "next_check": "2026-08-26T07:59:29.258026+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/administration/guide/b_cucsag/b_cucsag_chapter_0100.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-administration-guide-b-cucsag-b-cucsag-chapter-0100-html-9fc4f17a74",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:49:59.027105+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:49:59.027115+00:00",
+      "next_check": "2026-08-26T10:49:59.027115+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/administration/guide/b_cucsag/b_cucsag_chapter_010010.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-administration-guide-b-cucsag-b-cucsag-chapter-010010-html-06f33990cc",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:48:51.998697+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:48:51.998707+00:00",
+      "next_check": "2026-08-26T10:48:51.998707+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/administration/guide/b_cucsag/b_cucsag_chapter_0101.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-administration-guide-b-cucsag-b-cucsag-chapter-0101-html-154ec58601",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:49:00.001781+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:49:00.001792+00:00",
+      "next_check": "2026-08-26T10:49:00.001792+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/administration/guide/b_cucsag/b_cucsag_chapter_010100.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-administration-guide-b-cucsag-b-cucsag-chapter-010100-html-81053ac7cb",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:49:54.945894+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:49:54.945905+00:00",
+      "next_check": "2026-08-26T10:49:54.945905+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/administration/guide/b_cucsag/b_cucsag_chapter_010101.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-administration-guide-b-cucsag-b-cucsag-chapter-010101-html-5cc1a6b537",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:50:44.729555+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:50:44.729565+00:00",
+      "next_check": "2026-08-26T10:50:44.729565+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/administration/guide/b_cucsag/b_cucsag_chapter_011.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-administration-guide-b-cucsag-b-cucsag-chapter-011-html-06e582b0d8",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:48:06.059908+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:48:06.059918+00:00",
+      "next_check": "2026-08-26T10:48:06.059918+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/administration/guide/b_cucsag/b_cucsag_chapter_01110.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-administration-guide-b-cucsag-b-cucsag-chapter-01110-html-1ee1a91dc1",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:49:12.687584+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:49:12.687594+00:00",
+      "next_check": "2026-08-26T10:49:12.687594+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/install_upgrade/guide/b_11xcuciumg.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-install-upgrade-guide-b-11xcuciumg-html-3709941d39",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:48:31.079976+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:48:31.079986+00:00",
+      "next_check": "2026-08-26T10:48:31.079986+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/install_upgrade/guide/b_11xcuciumg/b_11xcuciumg_chapter_0100.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-install-upgrade-guide-b-11xcuciumg-b-11xcuciumg-chapter-0100--8ccea8482c",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:48:10.129188+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:48:10.129200+00:00",
+      "next_check": "2026-08-26T10:48:10.129200+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/requirements/b_11xcucsysreqs.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-requirements-b-11xcucsysreqs-html-beab3f41c0",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:48:55.868250+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:48:55.868261+00:00",
+      "next_check": "2026-08-26T10:48:55.868261+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -27219,6 +27423,102 @@
       "next_check": "2026-08-25T16:16:44.054830+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/security/b_11xcucsecx.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-security-b-11xcucsecx-html-448b167f35",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:50:07.253055+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:50:07.253065+00:00",
+      "next_check": "2026-08-26T10:50:07.253065+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/security/b_11xcucsecx/b_11xcucsecx_chapter_0101.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-security-b-11xcucsecx-b-11xcucsecx-chapter-0101-html-b48b74c1bc",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:50:03.232642+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:50:03.232653+00:00",
+      "next_check": "2026-08-26T10:50:03.232653+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/serv_administration/b_11xcucservag.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-serv-administration-b-11xcucservag-html-5e201faad7",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:49:50.651879+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:49:50.651889+00:00",
+      "next_check": "2026-08-26T10:49:50.651889+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/serv_administration/b_11xcucservag/b_11xcucservag_chapter_010.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-serv-administration-b-11xcucservag-b-11xcucservag-chapter-010-a907fdd379",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:50:19.650914+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:50:19.650925+00:00",
+      "next_check": "2026-08-26T10:50:19.650925+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/serv_administration/b_11xcucservag/b_11xcucservag_chapter_0110.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-serv-administration-b-11xcucservag-b-11xcucservag-chapter-011-e99730fbf7",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:49:04.261645+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:49:04.261656+00:00",
+      "next_check": "2026-08-26T10:49:04.261656+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/supported_platforms/b_11xcucspl.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-supported-platforms-b-11xcucspl-html-aae95fc5e0",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:47:08.232036+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:47:08.232046+00:00",
+      "next_check": "2026-08-26T10:47:08.232046+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/troubleshooting/guide/b_11xcuctsg.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-troubleshooting-guide-b-11xcuctsg-html-dceff3d9b0",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:50:11.546550+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:50:11.546560+00:00",
+      "next_check": "2026-08-26T10:50:11.546560+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/troubleshooting/guide/b_11xcuctsg/b_11xcuctsg_chapter_010011.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-troubleshooting-guide-b-11xcuctsg-b-11xcuctsg-chapter-010011--ea05019860",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:51:10.250608+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:51:10.250619+00:00",
+      "next_check": "2026-08-26T10:51:10.250619+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/administration/guide/b_12xcucsag/b_12xcucsag_appendix_010011.html": {
       "content_sha": "d0c1b1803189d54fd0b1a3e001f1be1c9fa9ea02395ca6faca2dde132fb62689",
@@ -42164,6 +42464,30 @@
       "last_seen": "2026-08-25T09:53:05.608750+00:00",
       "next_check": "2026-08-26T09:53:05.608750+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_0_1/systemConfig/cucm_b_system-configuration-guide-1201.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-0-1-systemconfig-cucm-b-system-configuration-guide-1201-html-2e20ec6d6d",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:48:26.972015+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:48:26.972026+00:00",
+      "next_check": "2026-08-26T10:48:26.972026+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_0_1/systemConfig/cucm_b_system-configuration-guide-1201/cucm_b_system-configuration-guide-1201_chapter_01011001.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-0-1-systemconfig-cucm-b-system-configuration-guide-1201-cucm-b-972a1bcd80",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:48:22.727740+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:48:22.727750+00:00",
+      "next_check": "2026-08-26T10:48:22.727750+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -64058,6 +64382,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_0_1/cucm_b_cli-reference-guide-1201.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-12-0-1-cucm-b-cli-reference-guide-1201-html-354cb293b8",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:50:40.700509+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:50:40.700540+00:00",
+      "next_check": "2026-08-26T10:50:40.700540+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1/cucm_b_cli-reference-guide-1251.html": {
       "content_sha": "c66627d5d975da8e1975a5ab0f23b73a967587a34e2a8e7c07b892c2559add2f",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-12-5-1-cucm-b-cli-reference-guide-1251-html-cc9acffabd",
@@ -65356,6 +65692,18 @@
       "last_seen": "2026-08-24T09:55:47.122487+00:00",
       "next_check": "2026-08-25T09:55:47.122487+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/14_0_1/cucm_b_cli_reference_guide_release_1401.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-14-0-1-cucm-b-cli-reference-guide-release-1401-html-d2d217611f",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:52:42.996461+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:52:42.996471+00:00",
+      "next_check": "2026-08-26T10:52:42.996471+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/14SU2/cucm_b_cli_reference_guide_release_14su2.html",
+      "status": "redirect",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/15/cucm_b_cli_reference_guide_release_15.html": {
@@ -78493,6 +78841,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T08:24:00.983027+00:00",
       "next_check": "2026-08-26T08:24:00.983027+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_0_1/rtmt/cucm_b_cisco-unified-rtmt-administration-1201.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-0-1-rtmt-cucm-b-cisco-unified-rtmt-administration-1201-html-bb187cd654",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T10:50:15.792151+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T10:50:15.792162+00:00",
+      "next_check": "2026-08-26T10:50:15.792162+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -165355,5 +165715,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T10:42:02.916636+00:00"
+  "updated_at": "2026-08-25T10:52:43.097105+00:00"
 }
