@@ -6233,6 +6233,12 @@
     "ultima_vez": "2026-08-25T23:37:34.294598+00:00",
     "veces": 1
   },
+  "https://www.webex.com/us/en/solutions/sustainability.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T23:42:07.562823+00:00",
+    "veces": 1
+  },
   "https://www.webex.com/video-conferencing.html": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",

@@ -294,6 +294,19 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://adopt.webex.com": {
+      "content_sha": "4dcd374d3efaa36bdc7fb0c602b3e2571152b891a6543277a8d54aa37db8b376",
+      "doc_id": "adopt-webex-com-e248bca3ee",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:42:11.214960+00:00",
+      "last_changed": "2026-08-25T23:42:11.214960+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:42:11.214960+00:00",
+      "next_check": "2026-08-26T23:42:11.214960+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://apps.cisco.com": {
       "content_sha": null,
       "doc_id": "apps-cisco-com-50b6d891ee",
@@ -19681,6 +19694,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/380715/genea-security/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-380715-genea-security-add-lead-90500bfbf1",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:45:47.087828+00:00",
+      "last_changed": "2026-08-25T23:45:47.087828+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:45:47.087828+00:00",
+      "next_check": "2026-08-26T23:45:47.087828+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/380727/pagerduty-platform-for-action": {
       "content_sha": "d8049cfbaa83f021c8f8467ef2502d91516127001770fd78a0776121fbc5f3e8",
       "doc_id": "marketplace-cisco-com-en-us-apps-380727-pagerduty-platform-for-action-0557742941",
@@ -19717,6 +19743,45 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:41:52.022696+00:00",
       "next_check": "2026-08-26T04:41:52.022696+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/380739/panaseer/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-380739-panaseer-add-lead-784bd12d66",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:44:30.719108+00:00",
+      "last_changed": "2026-08-25T23:44:30.719108+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:44:30.719108+00:00",
+      "next_check": "2026-08-26T23:44:30.719108+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/380745/presence-analytics": {
+      "content_sha": "9dcfbb77878f7ecd57953c0a4c0380a37c35d374375d6daaadf336ff3d6b7e85",
+      "doc_id": "marketplace-cisco-com-en-us-apps-380745-presence-analytics-0a56bfff14",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:43:52.942716+00:00",
+      "last_changed": "2026-08-25T23:43:52.942716+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:43:52.942716+00:00",
+      "next_check": "2026-08-26T23:43:52.942716+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/380748/everyangle-%7C-next-gen-footfall": {
+      "content_sha": "e62e556981a7d79a4a36443faa5cc3c85de45157dab9699aedd35844f8cebc35",
+      "doc_id": "marketplace-cisco-com-en-us-apps-380748-everyangle-7c-next-gen-footfall-fc01cd4c9b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:44:04.993542+00:00",
+      "last_changed": "2026-08-25T23:44:04.993542+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:44:04.993542+00:00",
+      "next_check": "2026-08-26T23:44:04.993542+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -19772,6 +19837,45 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/380790/adentro-engage/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-380790-adentro-engage-add-lead-2a2be606b9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:43:10.944540+00:00",
+      "last_changed": "2026-08-25T23:43:10.944540+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:43:10.944540+00:00",
+      "next_check": "2026-08-26T23:43:10.944540+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/380811/syslog-cloud-collector": {
+      "content_sha": "db50372e2c7a123015987e76d4aa7e6cf23407e44284f41d463c82c6b9f723ff",
+      "doc_id": "marketplace-cisco-com-en-us-apps-380811-syslog-cloud-collector-244289c8ea",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:46:16.922522+00:00",
+      "last_changed": "2026-08-25T23:46:16.922522+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:46:16.922522+00:00",
+      "next_check": "2026-08-26T23:46:16.922522+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/380820/easy-guest-wi-fi": {
+      "content_sha": "268dea200a11de703457ad94d954a51b41268e7e2a571efe04f3e78e93441c96",
+      "doc_id": "marketplace-cisco-com-en-us-apps-380820-easy-guest-wi-fi-42e111042c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:45:09.188245+00:00",
+      "last_changed": "2026-08-25T23:45:09.188245+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:45:09.188245+00:00",
+      "next_check": "2026-08-26T23:45:09.188245+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/380853/splash-access": {
       "content_sha": "a097d0deaf169f3c63bb5e7e95c1ef418e106f3a70b3217b8cd1d4f752b93250",
       "doc_id": "marketplace-cisco-com-en-us-apps-380853-splash-access-c88c37819a",
@@ -19797,6 +19901,19 @@
       "next_check": "2026-08-26T04:59:12.476885+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://marketplace.cisco.com/en-US/apps/380856/eleven": {
+      "content_sha": "b96707a76cd94f27645d1925949ce3fc0aaf3d4073c73aa7c2e64463d94ba154",
+      "doc_id": "marketplace-cisco-com-en-us-apps-380856-eleven-20229d84dc",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:45:00.788011+00:00",
+      "last_changed": "2026-08-25T23:45:00.788011+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:45:00.788011+00:00",
+      "next_check": "2026-08-26T23:45:00.788011+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://marketplace.cisco.com/en-US/apps/380862/cloudi-fi": {
       "content_sha": "6a612523f28ed296bc30d2962c07d4b3fb2a08c422d2b43aaf9a375ec8dd947b",
@@ -19837,6 +19954,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/380883/backup-versioning/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-380883-backup-versioning-add-lead-c703441699",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:46:04.180857+00:00",
+      "last_changed": "2026-08-25T23:46:04.180857+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:46:04.180857+00:00",
+      "next_check": "2026-08-26T23:46:04.180857+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/380895/armis": {
       "content_sha": "ebdb192ae3834d93f9cf0f91c9a0a07209b6eed04b1dbd61849e21340e33ec29",
       "doc_id": "marketplace-cisco-com-en-us-apps-380895-armis-6dce89b4e2",
@@ -19847,6 +19977,19 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:43:54.039322+00:00",
       "next_check": "2026-08-26T04:43:54.039322+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/380895/armis/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-380895-armis-add-lead-f509f56f76",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:46:37.451385+00:00",
+      "last_changed": "2026-08-25T23:46:37.451385+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:46:37.451385+00:00",
+      "next_check": "2026-08-26T23:46:37.451385+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -19889,6 +20032,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/380907/envoy-visitors/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-380907-envoy-visitors-add-lead-d45d440b42",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:42:28.183083+00:00",
+      "last_changed": "2026-08-25T23:42:28.183083+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:42:28.183083+00:00",
+      "next_check": "2026-08-26T23:42:28.183083+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/381225/cloud4wi-%7C-guest-wifi": {
       "content_sha": "595385634ddc510919550187290159a26f11a7c9e9e192d9802fd97cf55129e2",
       "doc_id": "marketplace-cisco-com-en-us-apps-381225-cloud4wi-7c-guest-wifi-b75c5bd66f",
@@ -19928,6 +20084,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/381234/room-booking-%7C-placeos": {
+      "content_sha": "75ae5a374ffa16a52ed151ffbae65dd319f7f1e4109694f51a6cffec44d669c5",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381234-room-booking-7c-placeos-db7ffa4a90",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:44:25.770129+00:00",
+      "last_changed": "2026-08-25T23:44:25.770129+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:44:25.770129+00:00",
+      "next_check": "2026-08-26T23:44:25.770129+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/381234/room-booking-|-placeos": {
       "content_sha": "75ae5a374ffa16a52ed151ffbae65dd319f7f1e4109694f51a6cffec44d669c5",
       "doc_id": "marketplace-cisco-com-en-us-apps-381234-room-booking-placeos-985a0fbe39",
@@ -19938,6 +20107,19 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:41:35.383683+00:00",
       "next_check": "2026-08-26T04:41:35.383683+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/381234/room-booking-|-placeos/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381234-room-booking-placeos-add-lead-705ecddb46",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:44:22.173397+00:00",
+      "last_changed": "2026-08-25T23:44:22.173397+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:44:22.173397+00:00",
+      "next_check": "2026-08-26T23:44:22.173397+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -19967,6 +20149,32 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://marketplace.cisco.com/en-US/apps/381246/n-able-n-central": {
+      "content_sha": "a0bd67ac7e6e5e8402ad410f52896a060552edce7021a460da53798dbe173194",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381246-n-able-n-central-4c7db5d9a2",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:46:59.171541+00:00",
+      "last_changed": "2026-08-25T23:46:59.171541+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:46:59.171541+00:00",
+      "next_check": "2026-08-26T23:46:59.171541+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/381252/desk-booking-%7C-placeos": {
+      "content_sha": "93e73ce4bfaf635d6086b0d4322f8742450e4bd756e2cbeaccaa21601010bc63",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381252-desk-booking-7c-placeos-3f3117ac2d",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:43:39.807305+00:00",
+      "last_changed": "2026-08-25T23:43:39.807305+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:43:39.807305+00:00",
+      "next_check": "2026-08-26T23:43:39.807305+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/381252/desk-booking-|-placeos": {
       "content_sha": "93e73ce4bfaf635d6086b0d4322f8742450e4bd756e2cbeaccaa21601010bc63",
       "doc_id": "marketplace-cisco-com-en-us-apps-381252-desk-booking-placeos-0a2e3806e7",
@@ -19980,6 +20188,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/381252/desk-booking-|-placeos/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381252-desk-booking-placeos-add-lead-650933a6a4",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:43:36.218830+00:00",
+      "last_changed": "2026-08-25T23:43:36.218830+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:43:36.218830+00:00",
+      "next_check": "2026-08-26T23:43:36.218830+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/381285/splash-access-ipsk-wpn-mdu-solution": {
       "content_sha": "290e7217f23efdebabc19550c03caee50737b01d70cf6036156b6f50a3e854ab",
       "doc_id": "marketplace-cisco-com-en-us-apps-381285-splash-access-ipsk-wpn-mdu-solution-6e0c9f519f",
@@ -19990,6 +20211,19 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:42:50.853499+00:00",
       "next_check": "2026-08-26T04:42:50.853499+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/381285/splash-access-ipsk-wpn-mdu-solution/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381285-splash-access-ipsk-wpn-mdu-solution-add-lead-f77d1f15b9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:45:51.535561+00:00",
+      "last_changed": "2026-08-25T23:45:51.535561+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:45:51.535561+00:00",
+      "next_check": "2026-08-26T23:45:51.535561+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -20016,6 +20250,19 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:41:39.834630+00:00",
       "next_check": "2026-08-26T04:41:39.834630+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/381297/hot-desking-by-penguinin": {
+      "content_sha": "84b3cf63e7020d0209b673c4e21bde6529f448b85efb54e82e4a33ecfd0273bb",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381297-hot-desking-by-penguinin-6c2527194a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:42:54.080318+00:00",
+      "last_changed": "2026-08-25T23:42:54.080318+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:42:54.080318+00:00",
+      "next_check": "2026-08-26T23:42:54.080318+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -20110,6 +20357,45 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/381393/viana-people-counting/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381393-viana-people-counting-add-lead-8fe55dc220",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:44:17.628675+00:00",
+      "last_changed": "2026-08-25T23:44:17.628675+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:44:17.628675+00:00",
+      "next_check": "2026-08-26T23:44:17.628675+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/381405/cloud4wi-|-cloud-nac": {
+      "content_sha": "c6cf7486176e784ddb277f4fa55ea82db51350dfa84a7d6b111a400d894ef7e7",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381405-cloud4wi-cloud-nac-169dd25281",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:46:33.340408+00:00",
+      "last_changed": "2026-08-25T23:46:33.340408+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:46:33.340408+00:00",
+      "next_check": "2026-08-26T23:46:33.340408+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/381414/viana-audience-measurement": {
+      "content_sha": "f4924c4fe1912062b6b8b9467e461b7522342d536396070cc889f2301acd3b40",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381414-viana-audience-measurement-58c766667a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:44:14.003285+00:00",
+      "last_changed": "2026-08-25T23:44:14.003285+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:44:14.003285+00:00",
+      "next_check": "2026-08-26T23:44:14.003285+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/381498/meraki-org-migration-network-moves-by-boundless": {
       "content_sha": "4937e6fe9e6d2e13e4989efba7de34656c8173c45f456ac88d334c8ea1658700",
       "doc_id": "marketplace-cisco-com-en-us-apps-381498-meraki-org-migration-network-moves-by-boundless-7eb668ec18",
@@ -20120,6 +20406,19 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:42:58.758073+00:00",
       "next_check": "2026-08-26T04:42:58.758073+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/381498/meraki-org-migration-network-moves-by-boundless/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381498-meraki-org-migration-network-moves-by-boundless-add-lead-7816dc4c72",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:45:59.439188+00:00",
+      "last_changed": "2026-08-25T23:45:59.439188+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:45:59.439188+00:00",
+      "next_check": "2026-08-26T23:45:59.439188+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -20146,6 +20445,71 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:42:09.059642+00:00",
       "next_check": "2026-08-26T04:42:09.059642+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/381723/trackerwave-hospital-rtls/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381723-trackerwave-hospital-rtls-add-lead-77e1bc59c7",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:45:43.395519+00:00",
+      "last_changed": "2026-08-25T23:45:43.395519+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:45:43.395519+00:00",
+      "next_check": "2026-08-26T23:45:43.395519+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/381729/innerspace-smart-office": {
+      "content_sha": "4b1dff380a868bb374edba3e1c038b95c171cab8a4c381023da5b748e49b5d13",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381729-innerspace-smart-office-4a7bb04402",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:42:45.862789+00:00",
+      "last_changed": "2026-08-25T23:42:45.862789+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:42:45.862789+00:00",
+      "next_check": "2026-08-26T23:42:45.862789+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/381753/aireye": {
+      "content_sha": "a4c22f8b40164e1aafb198207ea082b2f716e0f8e041b057d53fb12072a83272",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381753-aireye-fff80a2c46",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:44:48.025602+00:00",
+      "last_changed": "2026-08-25T23:44:48.025602+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:44:48.025602+00:00",
+      "next_check": "2026-08-26T23:44:48.025602+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/381756/connected-customer-experience": {
+      "content_sha": "21270f2e8ecc7a1be26a8e24a11877ba6f776afc9ab5b81c3687a67820597107",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381756-connected-customer-experience-891dc5804a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:42:50.057188+00:00",
+      "last_changed": "2026-08-25T23:42:50.057188+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:42:50.057188+00:00",
+      "next_check": "2026-08-26T23:42:50.057188+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/381789/viana-zone-engagement-with-destinations": {
+      "content_sha": "954b6be95595c8a487cf83f869080d849da04ebe5a4b00d82f15ea421912cef9",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381789-viana-zone-engagement-with-destinations-880dd0da7f",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:43:56.998048+00:00",
+      "last_changed": "2026-08-25T23:43:56.998048+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:43:56.998048+00:00",
+      "next_check": "2026-08-26T23:43:56.998048+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -20188,6 +20552,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/381816/armis-for-healthcare/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381816-armis-for-healthcare-add-lead-f968279c3d",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:44:52.162974+00:00",
+      "last_changed": "2026-08-25T23:44:52.162974+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:44:52.162974+00:00",
+      "next_check": "2026-08-26T23:44:52.162974+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/381819/indoor50---customervisitor-analytics": {
       "content_sha": "01a5bb7564dfe031ffa6cde65fd8ad6bb692988f0ab014f796cfc4c1441ec889",
       "doc_id": "marketplace-cisco-com-en-us-apps-381819-indoor50-customervisitor-analytics-70cbfa213e",
@@ -20201,6 +20578,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/381819/indoor50---customervisitor-analytics/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381819-indoor50-customervisitor-analytics-add-lead-5ed400bf52",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:46:21.022142+00:00",
+      "last_changed": "2026-08-25T23:46:21.022142+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:46:21.022142+00:00",
+      "next_check": "2026-08-26T23:46:21.022142+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/381840/alertops": {
       "content_sha": "6a62e5c483de879e53a29d2dcd5319bf29608cb1722170e7193173550bc01aa9",
       "doc_id": "marketplace-cisco-com-en-us-apps-381840-alertops-f6dfffbd9c",
@@ -20211,6 +20601,32 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:44:43.870638+00:00",
       "next_check": "2026-08-26T04:44:43.870638+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/381840/alertops/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381840-alertops-add-lead-5f336a5b6d",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:46:54.814297+00:00",
+      "last_changed": "2026-08-25T23:46:54.814297+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:46:54.814297+00:00",
+      "next_check": "2026-08-26T23:46:54.814297+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/381867/flow-offices": {
+      "content_sha": "a882e817ba797ef2d76091cd1e213d4a0c3d7b3d8487a9f9887abb568261cb91",
+      "doc_id": "marketplace-cisco-com-en-us-apps-381867-flow-offices-39d896b1df",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:44:00.728643+00:00",
+      "last_changed": "2026-08-25T23:44:00.728643+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:44:00.728643+00:00",
+      "next_check": "2026-08-26T23:44:00.728643+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -20252,6 +20668,19 @@
       "next_check": "2026-08-26T05:00:10.601606+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://marketplace.cisco.com/en-US/apps/389454/securonix-security-operations-management-platform": {
+      "content_sha": "f757ed83f4013f8964836f0594a3f87f3d726082f34c56993e1c01d32e9c431f",
+      "doc_id": "marketplace-cisco-com-en-us-apps-389454-securonix-security-operations-management-platform-03ffead9ae",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:44:34.914136+00:00",
+      "last_changed": "2026-08-25T23:44:34.914136+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:44:34.914136+00:00",
+      "next_check": "2026-08-26T23:44:34.914136+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://marketplace.cisco.com/en-US/apps/391155/ai-network-operations": {
       "content_sha": "d553f6f271f16cc5e6aa07d7b76409f9a8ce82a34c87fe2e5dd44acd3a682694",
@@ -20318,6 +20747,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/404921/ekahau-sidekick-2/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-404921-ekahau-sidekick-2-add-lead-56227b8631",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:43:31.832199+00:00",
+      "last_changed": "2026-08-25T23:43:31.832199+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:43:31.832199+00:00",
+      "next_check": "2026-08-26T23:43:31.832199+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/407276/prtg-network-monitor": {
       "content_sha": "5a082cd36611db64157a01e74284253c1856311554d88f48158d56b701037985",
       "doc_id": "marketplace-cisco-com-en-us-apps-407276-prtg-network-monitor-556e136563",
@@ -20328,6 +20770,32 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:40:39.817923+00:00",
       "next_check": "2026-08-26T04:40:39.817923+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/407276/prtg-network-monitor/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-407276-prtg-network-monitor-add-lead-f18ddd75db",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:43:27.835510+00:00",
+      "last_changed": "2026-08-25T23:43:27.835510+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:43:27.835510+00:00",
+      "next_check": "2026-08-26T23:43:27.835510+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/407352/ea-license-tracker-true-forward-by-boundless": {
+      "content_sha": "9db42d25fbca124ad8d02f3d8403e3fb931b961ae1d5a3a64347b02ea53c6b66",
+      "doc_id": "marketplace-cisco-com-en-us-apps-407352-ea-license-tracker-true-forward-by-boundless-727d383582",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:46:12.764678+00:00",
+      "last_changed": "2026-08-25T23:46:12.764678+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:46:12.764678+00:00",
+      "next_check": "2026-08-26T23:46:12.764678+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -20344,6 +20812,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/407374/prtg-enterprise-monitor/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-407374-prtg-enterprise-monitor-add-lead-3dd034d4e7",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:43:19.057354+00:00",
+      "last_changed": "2026-08-25T23:43:19.057354+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:43:19.057354+00:00",
+      "next_check": "2026-08-26T23:43:19.057354+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/409889/sciencelogic-sl1": {
       "content_sha": "f20166213a54830f7341f6b3e5baa4f90d579c244ecd3a0ba036f1d4db9770e2",
       "doc_id": "marketplace-cisco-com-en-us-apps-409889-sciencelogic-sl1-1958dd8ad0",
@@ -20354,6 +20835,19 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:44:31.460945+00:00",
       "next_check": "2026-08-26T04:44:31.460945+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/409889/sciencelogic-sl1/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-409889-sciencelogic-sl1-add-lead-7004302e3a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:46:45.975965+00:00",
+      "last_changed": "2026-08-25T23:46:45.975965+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:46:45.975965+00:00",
+      "next_check": "2026-08-26T23:46:45.975965+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -20383,6 +20877,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://marketplace.cisco.com/en-US/apps/411282/gospace-ai": {
+      "content_sha": "4de99d05d47682a13fe3585e8ce7a45c3cb0624ff35be6cd08845fd632aeea72",
+      "doc_id": "marketplace-cisco-com-en-us-apps-411282-gospace-ai-3fc9525e5c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:43:02.508676+00:00",
+      "last_changed": "2026-08-25T23:43:02.508676+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:43:02.508676+00:00",
+      "next_check": "2026-08-26T23:43:02.508676+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/411930/airquay-smart-workplace": {
       "content_sha": "f5d03e6d5d16c19729b3ddd8629704c39c47adb6d50b212e72a07a14ca155f85",
       "doc_id": "marketplace-cisco-com-en-us-apps-411930-airquay-smart-workplace-bc939a7d52",
@@ -20396,6 +20903,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/411930/airquay-smart-workplace/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-411930-airquay-smart-workplace-add-lead-7411115131",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:42:37.271766+00:00",
+      "last_changed": "2026-08-25T23:42:37.271766+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:42:37.271766+00:00",
+      "next_check": "2026-08-26T23:42:37.271766+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/415669/airia,-ai-spatial-intelligence": {
+      "content_sha": "df291e90dd9c94b6fee920e1ccb631ba24007ccb23199c51dfd7350994667a6a",
+      "doc_id": "marketplace-cisco-com-en-us-apps-415669-airia-ai-spatial-intelligence-4e871bdd66",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:44:09.593010+00:00",
+      "last_changed": "2026-08-25T23:44:09.593010+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:44:09.593010+00:00",
+      "next_check": "2026-08-26T23:44:09.593010+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/417346/monitoring-and-observability-for-managed-services": {
       "content_sha": "3df6a5f4a49a34536fb54b35cb61f16fb58351c74c6198652235fa1a5d330670",
       "doc_id": "marketplace-cisco-com-en-us-apps-417346-monitoring-and-observability-for-managed-services-1dfae00051",
@@ -20406,6 +20939,19 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:44:39.557609+00:00",
       "next_check": "2026-08-26T04:44:39.557609+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/417346/monitoring-and-observability-for-managed-services/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-417346-monitoring-and-observability-for-managed-services-add-lead-42d3392839",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:46:50.211725+00:00",
+      "last_changed": "2026-08-25T23:46:50.211725+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:46:50.211725+00:00",
+      "next_check": "2026-08-26T23:46:50.211725+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -20445,6 +20991,19 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:40:19.326624+00:00",
       "next_check": "2026-08-26T04:40:19.326624+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/419770/camect-smart-camera-hub/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-419770-camect-smart-camera-hub-add-lead-2735b05e91",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:43:06.768970+00:00",
+      "last_changed": "2026-08-25T23:43:06.768970+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:43:06.768970+00:00",
+      "next_check": "2026-08-26T23:43:06.768970+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -20513,6 +21072,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://marketplace.cisco.com/en-US/apps/423718/ipsk-wpn-visitor-manager-solution": {
+      "content_sha": "639d160fdcb4402b3120bc069b6501e3b81e34e7a6b8f9c242c2d3600a3a37ed",
+      "doc_id": "marketplace-cisco-com-en-us-apps-423718-ipsk-wpn-visitor-manager-solution-b12aa46769",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:45:38.962557+00:00",
+      "last_changed": "2026-08-25T23:45:38.962557+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:45:38.962557+00:00",
+      "next_check": "2026-08-26T23:45:38.962557+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/423721/splashaccess-ipsk-wpn-senior-living-solution": {
       "content_sha": "29dc26ed002813698ffbb0895f5eed715f31b9c7835cea787c8247553005762f",
       "doc_id": "marketplace-cisco-com-en-us-apps-423721-splashaccess-ipsk-wpn-senior-living-solution-65d8fa41b7",
@@ -20523,6 +21095,19 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:42:25.937935+00:00",
       "next_check": "2026-08-26T04:42:25.937935+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/423721/splashaccess-ipsk-wpn-senior-living-solution/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-423721-splashaccess-ipsk-wpn-senior-living-solution-add-lead-ea6857e379",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:45:35.066020+00:00",
+      "last_changed": "2026-08-25T23:45:35.066020+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:45:35.066020+00:00",
+      "next_check": "2026-08-26T23:45:35.066020+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -20578,6 +21163,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/427463/cloud4wi-%7C-mdu-wifi": {
+      "content_sha": "1dc5e4cb08c2b6cc119fb32947ea2c7ca5f5880945920f93bdc0f56d34a972f9",
+      "doc_id": "marketplace-cisco-com-en-us-apps-427463-cloud4wi-7c-mdu-wifi-305bf1c19c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:45:25.790882+00:00",
+      "last_changed": "2026-08-25T23:45:25.790882+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:45:25.790882+00:00",
+      "next_check": "2026-08-26T23:45:25.790882+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/427463/cloud4wi-|-mdu-wifi": {
       "content_sha": "1dc5e4cb08c2b6cc119fb32947ea2c7ca5f5880945920f93bdc0f56d34a972f9",
       "doc_id": "marketplace-cisco-com-en-us-apps-427463-cloud4wi-mdu-wifi-9156637b11",
@@ -20591,6 +21189,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/427463/cloud4wi-|-mdu-wifi/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-427463-cloud4wi-mdu-wifi-add-lead-2218aa1ccc",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:45:22.126693+00:00",
+      "last_changed": "2026-08-25T23:45:22.126693+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:45:22.126693+00:00",
+      "next_check": "2026-08-26T23:45:22.126693+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/428858/claroty-xdome": {
       "content_sha": "b88136916f73182fdc04307cd1095a713f676dd3c570d255549623453f8e8490",
       "doc_id": "marketplace-cisco-com-en-us-apps-428858-claroty-xdome-f76752f97e",
@@ -20601,6 +21212,32 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:41:56.185614+00:00",
       "next_check": "2026-08-26T04:41:56.185614+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/428858/claroty-xdome/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-428858-claroty-xdome-add-lead-dc958fbf40",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:44:43.391646+00:00",
+      "last_changed": "2026-08-25T23:44:43.391646+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:44:43.391646+00:00",
+      "next_check": "2026-08-26T23:44:43.391646+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/435746/purple-staff-wifi": {
+      "content_sha": "a3e68230adbb130b7e4e49a15115c1a99242162b688888925fb67abaa8eaa583",
+      "doc_id": "marketplace-cisco-com-en-us-apps-435746-purple-staff-wifi-791bf68985",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:45:13.502842+00:00",
+      "last_changed": "2026-08-25T23:45:13.502842+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:45:13.502842+00:00",
+      "next_check": "2026-08-26T23:45:13.502842+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -20682,6 +21319,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/456746/monitoring-and-observability-for-digital-experience-and-apm/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-456746-monitoring-and-observability-for-digital-experience-and-apm-add-lead-2fb05c85fa",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:43:14.989726+00:00",
+      "last_changed": "2026-08-25T23:43:14.989726+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:43:14.989726+00:00",
+      "next_check": "2026-08-26T23:43:14.989726+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/457231/setyl-%E2%80%94-it-asset-and-license-management-platform-(itam)": {
       "content_sha": "1980bc3256751eac4f751d334a8321e3f93a4a811b03ca74f8aeae22a72e5b6c",
       "doc_id": "marketplace-cisco-com-en-us-apps-457231-setyl-e2-80-94-it-asset-and-license-management-platform-itam-a696b0bf25",
@@ -20734,6 +21384,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/462572/thing-it-smart-workplace-platform-and-app/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-462572-thing-it-smart-workplace-platform-and-app-add-lead-3b9652349a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:42:58.021087+00:00",
+      "last_changed": "2026-08-25T23:42:58.021087+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:42:58.021087+00:00",
+      "next_check": "2026-08-26T23:42:58.021087+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/475544/bluecat-micetro": {
       "content_sha": "ea58bea2c352a388cb668be9d769900113ddd3078af48f7614023c498a36daaf",
       "doc_id": "marketplace-cisco-com-en-us-apps-475544-bluecat-micetro-48ef4f877a",
@@ -20744,6 +21407,19 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:42:55.097883+00:00",
       "next_check": "2026-08-26T04:42:55.097883+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/475544/bluecat-micetro/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-475544-bluecat-micetro-add-lead-84a304eeed",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:45:55.389349+00:00",
+      "last_changed": "2026-08-25T23:45:55.389349+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:45:55.389349+00:00",
+      "next_check": "2026-08-26T23:45:55.389349+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -20773,6 +21449,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/495790/vault": {
+      "content_sha": "386f6498d7fd0e01517a17e54c07842798f69f34dd9ac6d3e69712368fa84289",
+      "doc_id": "marketplace-cisco-com-en-us-apps-495790-vault-283751e907",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:46:29.385728+00:00",
+      "last_changed": "2026-08-25T23:46:29.385728+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:46:29.385728+00:00",
+      "next_check": "2026-08-26T23:46:29.385728+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/502978/selentai": {
       "content_sha": "a014e375ccd3c0bb4b42406c5cb1fc23454af8eeac64c8aa310fee8b1b443369",
       "doc_id": "marketplace-cisco-com-en-us-apps-502978-selentai-f178bb7ddd",
@@ -20799,6 +21488,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/530194/greymatter": {
+      "content_sha": "bbe555359ed1b60102ad88ba9652a713a7f4b167a59ed8125957fd94f6641ca3",
+      "doc_id": "marketplace-cisco-com-en-us-apps-530194-greymatter-19e65a3c30",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:44:39.113408+00:00",
+      "last_changed": "2026-08-25T23:44:39.113408+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:44:39.113408+00:00",
+      "next_check": "2026-08-26T23:44:39.113408+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/537008/backbox-cyber-resilience-platform": {
       "content_sha": "9af1af6cbf5a16833278b34f61039eb66d6369af76f9b997aeb1cf9589897d85",
       "doc_id": "marketplace-cisco-com-en-us-apps-537008-backbox-cyber-resilience-platform-65b5c5f13a",
@@ -20809,6 +21511,19 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:44:02.688979+00:00",
       "next_check": "2026-08-26T04:44:02.688979+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/537008/backbox-cyber-resilience-platform/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-537008-backbox-cyber-resilience-platform-add-lead-407b20e816",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:46:41.765014+00:00",
+      "last_changed": "2026-08-25T23:46:41.765014+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:46:41.765014+00:00",
+      "next_check": "2026-08-26T23:46:41.765014+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -20890,6 +21605,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/581077/isofy": {
+      "content_sha": "af630df397a75c0127ea445ceb615e5fad25fe64e7702dbe467abe45a4d6a1be",
+      "doc_id": "marketplace-cisco-com-en-us-apps-581077-isofy-d03a074f2b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:42:41.574589+00:00",
+      "last_changed": "2026-08-25T23:42:41.574589+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:42:41.574589+00:00",
+      "next_check": "2026-08-26T23:42:41.574589+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/601642/splashauth": {
       "content_sha": "7eae7906282697b24acb2ddf55b823af552b38dd08d37d020a24fb18970d856c",
       "doc_id": "marketplace-cisco-com-en-us-apps-601642-splashauth-05b87a1e3d",
@@ -20900,6 +21628,19 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:43:50.163812+00:00",
       "next_check": "2026-08-26T04:43:50.163812+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/601642/splashauth/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-601642-splashauth-add-lead-59743911f9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:46:25.229379+00:00",
+      "last_changed": "2026-08-25T23:46:25.229379+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:46:25.229379+00:00",
+      "next_check": "2026-08-26T23:46:25.229379+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -21020,6 +21761,58 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/783498/storebit/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-783498-storebit-add-lead-89cad3aba7",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:43:48.635412+00:00",
+      "last_changed": "2026-08-25T23:43:48.635412+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:43:48.635412+00:00",
+      "next_check": "2026-08-26T23:43:48.635412+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/790132/netgraph-endpoint-manager-for-ise": {
+      "content_sha": "2c0626a6d8936826b8fefaddd1d5980a16b882c0d59974ed5ddb0d4af19ba42f",
+      "doc_id": "marketplace-cisco-com-en-us-apps-790132-netgraph-endpoint-manager-for-ise-54efcba56e",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:43:23.573956+00:00",
+      "last_changed": "2026-08-25T23:43:23.573956+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:43:23.573956+00:00",
+      "next_check": "2026-08-26T23:43:23.573956+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/790138/netgraph-entrypoint---radius-as-a-service": {
+      "content_sha": "7cc5f7144677dba45e5b0fe053bbf39a325d73efd1dd2b9872252d9b0c5dfa66",
+      "doc_id": "marketplace-cisco-com-en-us-apps-790138-netgraph-entrypoint-radius-as-a-service-9deb7bf97f",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:45:30.845679+00:00",
+      "last_changed": "2026-08-25T23:45:30.845679+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:45:30.845679+00:00",
+      "next_check": "2026-08-26T23:45:30.845679+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/790140/netgraph-easypsk-%E2%80%93-personal-wi-fi-segmentation-for-cisco-networks": {
+      "content_sha": "7a4264c8342db288979ef2ea82e30bb18d91132628eef79cfa62627b3abf0b9d",
+      "doc_id": "marketplace-cisco-com-en-us-apps-790140-netgraph-easypsk-e2-80-93-personal-wi-fi-segmentation-for-cisco-networks-cf5455c989",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:45:04.515362+00:00",
+      "last_changed": "2026-08-25T23:45:04.515362+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:45:04.515362+00:00",
+      "next_check": "2026-08-26T23:45:04.515362+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/790140/netgraph-easypsk-\u2013-personal-wi-fi-segmentation-for-cisco-networks": {
       "content_sha": "7a4264c8342db288979ef2ea82e30bb18d91132628eef79cfa62627b3abf0b9d",
       "doc_id": "marketplace-cisco-com-en-us-apps-790140-netgraph-easypsk-personal-wi-fi-segmentation-for-cisco-networks-d538042254",
@@ -21030,6 +21823,19 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:42:17.832376+00:00",
       "next_check": "2026-08-26T04:42:17.832376+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/790140/netgraph-easypsk-\u2013-personal-wi-fi-segmentation-for-cisco-networks/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-790140-netgraph-easypsk-personal-wi-fi-segmentation-for-cisco-networks-add-lead-c7fa406449",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:44:56.383266+00:00",
+      "last_changed": "2026-08-25T23:44:56.383266+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:44:56.383266+00:00",
+      "next_check": "2026-08-26T23:44:56.383266+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -21072,6 +21878,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://marketplace.cisco.com/en-US/apps/835678/cisco-agentic-workflows/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-835678-cisco-agentic-workflows-add-lead-4311c8d152",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:43:44.317871+00:00",
+      "last_changed": "2026-08-25T23:43:44.317871+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:43:44.317871+00:00",
+      "next_check": "2026-08-26T23:43:44.317871+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://marketplace.cisco.com/en-US/apps/851506/onbackup---meraki-backup": {
       "content_sha": "ae85866fec209c3f0323b2f51295ff0c333c53f2b3a1173657502ff3020e812f",
       "doc_id": "marketplace-cisco-com-en-us-apps-851506-onbackup-meraki-backup-c5881dab84",
@@ -21082,6 +21901,32 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:43:20.725388+00:00",
       "next_check": "2026-08-26T04:43:20.725388+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/851506/onbackup---meraki-backup/add-lead": {
+      "content_sha": "c0f07f07dc062a158658272e644408c7c354775a4a0ffa3d0a0de4571493df25",
+      "doc_id": "marketplace-cisco-com-en-us-apps-851506-onbackup-meraki-backup-add-lead-195b76eeba",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:46:08.555258+00:00",
+      "last_changed": "2026-08-25T23:46:08.555258+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:46:08.555258+00:00",
+      "next_check": "2026-08-26T23:46:08.555258+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com/en-US/apps/857023/wiacom-|-guest-connect": {
+      "content_sha": "dd5941b37719a1d4b19d6bf4bd19f043e6c23dde0d293fac36eb3427a734929a",
+      "doc_id": "marketplace-cisco-com-en-us-apps-857023-wiacom-guest-connect-4bf97eed74",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:45:17.855006+00:00",
+      "last_changed": "2026-08-25T23:45:17.855006+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:45:17.855006+00:00",
+      "next_check": "2026-08-26T23:45:17.855006+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -21534,6 +22379,18 @@
       "next_check": "2026-08-26T05:02:12.919010+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://sec.cloudapps.cisco.com/security/center/publicationListing": {
+      "content_sha": null,
+      "doc_id": "sec-cloudapps-cisco-com-security-center-publicationlisting-2d2d8acede",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:47:07.131229+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T23:47:07.131238+00:00",
+      "next_check": "2026-08-26T23:47:07.131238+00:00",
+      "redirect_to": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://sec.cloudapps.cisco.com/security/center/publicationListing.x": {
       "content_sha": "f142c1d9efa8f0e28204d28d5f244864c3cbd2fa84b9c5f57b0f2a7f0ac95d13",
@@ -182806,6 +183663,19 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/us/en/dg/customer-advocacy-program.html": {
+      "content_sha": "f4fb30b3587db9bb98d1d2a93588a47d7fbd15e35de15628ad5900e73efae2c3",
+      "doc_id": "www-webex-com-us-en-dg-customer-advocacy-program-html-1d9cc88bb7",
+      "etag": "\"228a8-659d4739a073a-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:42:17.458703+00:00",
+      "last_changed": "2026-08-25T23:42:17.458703+00:00",
+      "last_modified": "Tue, 25 Aug 2026 00:47:47 GMT",
+      "last_seen": "2026-08-25T23:42:17.458703+00:00",
+      "next_check": "2026-08-26T23:42:17.458703+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/us/en/products/customer-experience/contact-center.html": {
       "content_sha": "0b1ae38dd93581c6dbf3410950352b22ed9b79ccf29d587e2b7f6267e22d86fe",
       "doc_id": "www-webex-com-us-en-products-customer-experience-contact-center-html-1026c17ead",
@@ -182980,6 +183850,16 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/us/en/solutions/sustainability.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-solutions-sustainability-html-ee230e1d97",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:42:07.562912+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:42:07.562918+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/video-conferencing.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-video-conferencing-html-b298ee10db",
@@ -183014,5 +183894,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T23:37:34.821485+00:00"
+  "updated_at": "2026-08-25T23:47:44.991303+00:00"
 }

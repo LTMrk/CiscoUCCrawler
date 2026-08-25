@@ -13027,3 +13027,23 @@
 [2026-08-25T23:37:19.761659] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/us/en/devices/headsets.html
 [2026-08-25T23:37:30.145838] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/us/en/solutions/interoperability.html
 [2026-08-25T23:37:34.294683] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/us/en/solutions/return-to-office.html
+[2026-08-25T23:40:48.667769] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-25T23:40:52.724482] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-25T23:42:04.953991] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-25T23:42:07.562963] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/us/en/solutions/sustainability.html
+[2026-08-25T23:42:11.513096] Omitida: excluida por robots.txt | https://apphub.webex.com
+[2026-08-25T23:42:23.518666] Markdown insuficiente tras sanitizar (0 chars). | https://experiences.cisco.com/amer/integrating-protection-into-your-network-infrastructure
+[2026-08-25T23:42:28.537160] Omitida: excluida por robots.txt | https://developer.webex.com
+[2026-08-25T23:42:28.719091] Omitida: excluida por robots.txt | https://blog.webex.com
+[2026-08-25T23:42:28.913222] Omitida: excluida por robots.txt | https://webexahead.webex.com
+[2026-08-25T23:42:32.631544] Markdown insuficiente tras sanitizar (0 chars). | https://marketplace.cisco.com/en-US/listing
+[2026-08-25T23:47:07.210579] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh/cvrf/cisco-sa-hardening-crosswork-UzDTU9Vh_cvrf.xml
+[2026-08-25T23:47:11.271738] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d/cvrf/cisco-sa-notice-LDquvx5d_cvrf.xml
+[2026-08-25T23:47:15.616654] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-hardening-csw1-shSvndWP/cvrf/cisco-sa-hardening-csw1-shSvndWP_cvrf.xml
+[2026-08-25T23:47:19.685637] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ie1k-NgXUFF52/cvrf/cisco-sa-ie1k-NgXUFF52_cvrf.xml
+[2026-08-25T23:47:23.942891] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucce-pcce-ssrf-TghHxD/cvrf/cisco-sa-ucce-pcce-ssrf-TghHxD_cvrf.xml
+[2026-08-25T23:47:27.998009] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cuic-sql-inject-2qbfWSm5/cvrf/cisco-sa-cuic-sql-inject-2qbfWSm5_cvrf.xml
+[2026-08-25T23:47:32.216630] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ie1k-uxq86Lnx/cvrf/cisco-sa-ie1k-uxq86Lnx_cvrf.xml
+[2026-08-25T23:47:36.472789] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-roomos-bof-vTMANZgu/cvrf/cisco-sa-roomos-bof-vTMANZgu_cvrf.xml
+[2026-08-25T23:47:40.566253] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt/cvrf/cisco-sa-bworks-xxe-uwUd7CEt_cvrf.xml
+[2026-08-25T23:47:44.865379] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26/cvrf/cisco-sa-clamav-WuuvVd26_cvrf.xml
