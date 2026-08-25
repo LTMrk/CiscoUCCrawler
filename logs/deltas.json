@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-08-25T06:46:24.809292+00:00",
+  "run_at": "2026-08-25T06:51:08.742459+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
@@ -7,7 +7,10 @@
   "blocked": [],
   "unchanged_count": 0,
   "redirected": [
-    "https://cway.cisco.com/tools/CollaborationSolutionsAnalyzer -> https://id.cisco.com/oauth2/default/v1/authorize"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCts00642 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuv11790 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuw85626 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuw85715 -> https://id.cisco.com/oauth2/default/v1/authorize"
   ],
   "semillas_encoladas": 20
 }
