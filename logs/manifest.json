@@ -87886,6 +87886,32 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/10-2-1-SR1/english/releasenotes/PA2D_BK_741D8CED_00_7800-series-rn-1021sr1/PA2D_BK_741D8CED_00_7800-series-rn-1021sr1_chapter_00.html": {
+      "content_sha": "5a39bd72bf962654e97a687776397e5511158ef6580758f81f37ead07582e0c5",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-10-2-1-sr1-english-releasenotes-pa2d-bk-741d8ced-00-7800--4854b2846a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T12:12:09.891782+00:00",
+      "last_changed": "2026-08-25T12:12:09.891782+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T12:12:09.891782+00:00",
+      "next_check": "2026-08-26T12:12:09.891782+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/10-2-1-SR1/english/releasenotes/PA2D_BK_741D8CED_00_7800-series-rn-1021sr1/PA2D_BK_741D8CED_00_7800-series-rn-1021sr1_index.html": {
+      "content_sha": "14e409cc6680bdd59fa692f72abc650de4e56599ee96dc34911d4c9dea51979f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-10-2-1-sr1-english-releasenotes-pa2d-bk-741d8ced-00-7800--a457e2c119",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T12:12:13.250684+00:00",
+      "last_changed": "2026-08-25T12:12:13.250684+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T12:12:13.250684+00:00",
+      "next_check": "2026-08-26T12:12:13.250684+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/10-3-1/english/releasenotes/PA2D_BK_70AD4CFB_00_7811_7821_7841_7861-rn-1031.html": {
       "content_sha": "c740f83ef6748266b551ceaac6188c6588dcda1f4eda8f303fccb20837845930",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-10-3-1-english-releasenotes-pa2d-bk-70ad4cfb-00-7811-7821-d9dc904af3",
@@ -87898,6 +87924,32 @@
       "next_check": "2026-08-26T12:33:05.685197+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/10-3-1/english/releasenotes/PA2D_BK_70AD4CFB_00_7811_7821_7841_7861-rn-1031/PA2D_BK_70AD4CFB_00_7811_7821_7841_7861-rn-1031_chapter_00.html": {
+      "content_sha": "8d05237b6facaf3aeeadb3e370dc3477377e83ce7f4d4ff19548c2094e1f3b1f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-10-3-1-english-releasenotes-pa2d-bk-70ad4cfb-00-7811-7821-f98a408ecb",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T12:12:18.301415+00:00",
+      "last_changed": "2026-08-25T12:12:18.301415+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T12:12:18.301415+00:00",
+      "next_check": "2026-08-26T12:12:18.301415+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/10-3-1/english/releasenotes/PA2D_BK_70AD4CFB_00_7811_7821_7841_7861-rn-1031/PA2D_BK_70AD4CFB_00_7811_7821_7841_7861-rn-1031_index.html": {
+      "content_sha": "41164d0d585e305e022f7f0564974f9bcf0ed8ec328caf5a5129caae39c5a3d2",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-10-3-1-english-releasenotes-pa2d-bk-70ad4cfb-00-7811-7821-e072a49731",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T12:12:21.883762+00:00",
+      "last_changed": "2026-08-25T12:12:21.883762+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T12:12:21.883762+00:00",
+      "next_check": "2026-08-26T12:12:21.883762+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/11-0-1/releasenotes/pa2d_b_cisco-ip-phone-7800-series.html": {
       "content_sha": "1dddbb7222cb042cc93c9a0d4808b9278dfa3f4a9103f4494cf482648d026ba3",
@@ -94566,6 +94618,19 @@
       "next_check": "2026-08-26T13:19:58.912725+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/adminguide/administration/pa2d_b_7800-mpp-ag-11/pa2d_b_7800-mpp-ag-11_chapter_01000.html": {
+      "content_sha": "fc6046e3cea1dfc9c62f5e3337206cdda13fb76a296f52dcd7d033a62d815643",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-adminguide-administration-pa2d-b-7800-mpp-ag-11-pa2d-60e3745741",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T12:12:05.798223+00:00",
+      "last_changed": "2026-08-25T12:12:05.798223+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T12:12:05.798223+00:00",
+      "next_check": "2026-08-26T12:12:05.798223+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/provisioning/pa2d_b_mpp-7800-provisioning-guide.html": {
       "content_sha": "de91f8dcaa8bf682b45c0c3244577aadd9fc0656b736a5e1f5767cc55bc5e313",
@@ -168209,5 +168274,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T12:07:31.130091+00:00"
+  "updated_at": "2026-08-25T12:13:13.649324+00:00"
 }

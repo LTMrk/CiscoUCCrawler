@@ -1,24 +1,17 @@
 {
-  "run_at": "2026-08-25T12:07:31.328320+00:00",
+  "run_at": "2026-08-25T12:13:13.806838+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-10-2-1-sr1-english-releasenotes-pa2d-bk-741d8ced-00-7800--4854b2846a",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-10-2-1-sr1-english-releasenotes-pa2d-bk-741d8ced-00-7800--a457e2c119",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-10-3-1-english-releasenotes-pa2d-bk-70ad4cfb-00-7811-7821-e072a49731",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-10-3-1-english-releasenotes-pa2d-bk-70ad4cfb-00-7811-7821-f98a408ecb",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-adminguide-administration-pa2d-b-7800-mpp-ag-11-pa2d-60e3745741"
+  ],
   "modified": [],
   "removed": [],
-  "blocked": [
-    "bst-cloudapps-cisco-com-bugsearch-bug-20cscur24122-b2f090846d",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscut46189-98230e4a91",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscuu55228-298d5a7c73"
-  ],
+  "blocked": [],
   "unchanged_count": 0,
-  "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCuq61271 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCur16878 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo31475 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCup99597 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuq05680 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuq06176 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuq60463 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/9_3_1SR1/release_notes/P069_BK_RF63D36F_00_rn-9_3_1_sr1-6900-series/P069_BK_RF63D36F_00_rn-9_3_1_sr1-6900-series_chapter_00.html -> https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-6900-series/series.html"
-  ],
+  "redirected": [],
   "semillas_encoladas": 20
 }
