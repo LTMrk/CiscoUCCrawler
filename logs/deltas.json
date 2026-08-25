@@ -1,14 +1,23 @@
 {
-  "run_at": "2026-08-25T08:00:00.724712+00:00",
+  "run_at": "2026-08-25T08:05:07.900087+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
-  "blocked": [],
+  "blocked": [
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscsq73894-4e253e8d19",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscsr38397-dbd4bb4697",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscsv65724-5b9a5ba7d2"
+  ],
   "unchanged_count": 0,
   "redirected": [
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/administration/guide/b_cucsag/b_cucsag_appendix_01111.html -> https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab11/collab11/recordng.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsq79192 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsr91423 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsy73509 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsz91044 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCtb05434 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCtb33479 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo85770 -> https://id.cisco.com/oauth2/default/v1/authorize"
   ],
   "semillas_encoladas": 20
 }
