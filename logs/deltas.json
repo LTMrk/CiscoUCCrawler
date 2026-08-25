@@ -1,11 +1,24 @@
 {
-  "run_at": "2026-08-25T07:49:36.121726+00:00",
+  "run_at": "2026-08-25T07:54:59.471981+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214535-troubleshoot-fa73844b57"
+  ],
   "modified": [],
   "removed": [],
-  "blocked": [],
+  "blocked": [
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscsh20977-6136164086"
+  ],
   "unchanged_count": 0,
-  "redirected": [],
+  "redirected": [
+    "http://cway.cisco.com/go/sa -> https://cway.cisco.com/cli",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsh98792 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCso40251 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCtb49726 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCtg96408 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCud66570 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCui49910 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCus67416 -> https://id.cisco.com/oauth2/default/v1/authorize"
+  ],
   "semillas_encoladas": 20
 }

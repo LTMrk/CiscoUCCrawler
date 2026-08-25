@@ -1,5 +1,17 @@
 {
   "entradas": {
+    "http://cway.cisco.com/go/sa": {
+      "content_sha": null,
+      "doc_id": "cway-cisco-com-go-sa-d62dc94c11",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:54:06.044668+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T07:54:06.044677+00:00",
+      "next_check": "2026-08-26T07:54:06.044677+00:00",
+      "redirect_to": "https://cway.cisco.com/cli",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://activate.cisco.com:443/software/edos/callhome/rc": {
       "content_sha": null,
       "doc_id": "activate-cisco-com-443-software-edos-callhome-rc-376c17ca56",
@@ -52,6 +64,64 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsh20977": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscsh20977-6136164086",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T07:54:37.984561+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T07:54:37.984569+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsh98792": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscsh98792-c76de9cdb9",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:54:18.116114+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T07:54:18.116125+00:00",
+      "next_check": "2026-08-26T07:54:18.116125+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCso40251": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscso40251-44d008c8cc",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:54:14.321459+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T07:54:14.321469+00:00",
+      "next_check": "2026-08-26T07:54:14.321469+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCtb49726": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-csctb49726-67bee1e51f",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:54:34.767631+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T07:54:34.767641+00:00",
+      "next_check": "2026-08-26T07:54:34.767641+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCtg96408": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-csctg96408-2ae0021920",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:54:10.361548+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T07:54:10.361558+00:00",
+      "next_check": "2026-08-26T07:54:10.361558+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCts00642": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscts00642-f3900073cd",
@@ -60,6 +130,30 @@
       "http_status": 302,
       "last_seen": "2026-08-25T06:50:43.194705+00:00",
       "next_check": "2026-08-26T06:50:43.194705+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCud66570": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscud66570-30a64fff39",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:54:22.245727+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T07:54:22.245737+00:00",
+      "next_check": "2026-08-26T07:54:22.245737+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCui49910": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscui49910-901dc7c1ab",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:54:26.435097+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T07:54:26.435108+00:00",
+      "next_check": "2026-08-26T07:54:26.435108+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -164,6 +258,18 @@
       "http_status": 403,
       "last_seen": "2026-08-21T14:18:28.926455+00:00",
       "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCus67416": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscus67416-e54c297d27",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:54:30.540543+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T07:54:30.540553+00:00",
+      "next_check": "2026-08-26T07:54:30.540553+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCus81356": {
@@ -12638,6 +12744,19 @@
       "next_check": "2026-08-26T05:28:31.427493+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214535-troubleshoot-extension-mobility-cross-cl.html": {
+      "content_sha": "0c33abc8283f346fb21fd6ddc77c68e324a8549e89a59a018e852d9fbd67edc0",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214535-troubleshoot-fa73844b57",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:53:57.182625+00:00",
+      "last_changed": "2026-08-25T07:53:57.182625+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T07:53:57.182625+00:00",
+      "next_check": "2026-08-26T07:53:57.182625+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html": {
       "content_sha": "90a412cc015fb187f2a29a2d1cb52da3f620de5e16e5c251e0e595ac6e1e10f0",
@@ -163512,5 +163631,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T07:49:35.974821+00:00"
+  "updated_at": "2026-08-25T07:54:59.324211+00:00"
 }
