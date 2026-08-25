@@ -1,18 +1,11 @@
 {
-  "run_at": "2026-08-25T04:54:02.719925+00:00",
+  "run_at": "2026-08-25T04:59:06.129874+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [
-    "https://mycase.cloudapps.cisco.com/start -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2.html -> https://help.webex.com/en-us/collection/cl-np50asw",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/bre_20/wcc_b_cisco-webex-contact-center-business.html -> https://help.webex.com/en-us/article/nve6qddb/Webex-Contact-Center-Business-Rules-Engine-User-Guide",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/campaign_reports_20/m_CM20_ReportsBookMIF.html -> https://help.webex.com/en-us/article/nrkcquf/Webex-Contact-Center-Campaign-Manager-Reports-Manual",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/campaign_user_20/webexcc_b_20-campaign-manager-user-guide.html -> https://help.webex.com/en-us/article/ngtxjux/Webex-Contact-Center-Campaign-Manager-User-Guide",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/developer_20/webexcc_b_20-desktop-developer-guide-.html -> https://developer.webex-cx.com/documentation/guides/desktop"
-  ],
+  "redirected": [],
   "semillas_encoladas": 20
 }
