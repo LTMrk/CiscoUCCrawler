@@ -12862,3 +12862,22 @@
 [2026-08-25T22:48:34.338457] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad.epub
 [2026-08-25T22:48:34.338555] Omitida: excluida por robots.txt | https://tools.cisco.com/Support/BugToolKit/search/getBugDetails.do
 [2026-08-25T22:48:38.440585] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_1/RN/jabm_b_release-notes-for-cisco-jabber_121_mac.epub
+[2026-08-25T22:51:44.504647] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-25T22:51:48.480928] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-25T22:53:02.742780] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-25T22:53:03.871311] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_1/RN/jabm_b_release-notes-for-cisco-jabber_121_mac.mobi
+[2026-08-25T22:53:36.378203] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj95503
+[2026-08-25T22:53:40.774768] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj62636
+[2026-08-25T22:53:45.122075] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj53345
+[2026-08-25T22:53:49.460291] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvf88433
+[2026-08-25T22:53:53.619833] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvf92476
+[2026-08-25T22:53:53.789963] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_5/jabm_b_releasenotes_125.epub
+[2026-08-25T22:53:57.893265] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_5/jabm_b_releasenotes_125.mobi
+[2026-08-25T22:53:58.426955] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvn57810%20
+[2026-08-25T22:53:58.427056] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvj58903%20
+[2026-08-25T22:53:58.427111] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvj58906%20
+[2026-08-25T22:53:58.427159] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvk48746%20
+[2026-08-25T22:53:58.427206] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvm77105%20
+[2026-08-25T22:53:58.427251] Omitida: excluida por robots.txt | https://tools.cisco.com/bugsearch/bug/CSCvm85867%20
+[2026-08-25T22:54:02.181210] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_6/jabm_b_release-notes_12-6.epub
+[2026-08-25T22:54:06.199333] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_6/jabm_b_release-notes_12-6.mobi
