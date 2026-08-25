@@ -25699,6 +25699,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/administration/guide/b_cucsag/b_cucsag_appendix_01111.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-administration-guide-b-cucsag-b-cucsag-appendix-01111-html-effa656eef",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:59:29.258015+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T07:59:29.258026+00:00",
+      "next_check": "2026-08-26T07:59:29.258026+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/roadmap/b_11xcucdg.html": {
       "content_sha": "b57e31b22ed8aacba77ff219cad5f8a1b2f9d6da8795ac7807e979f3417075ce",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-roadmap-b-11xcucdg-html-6092a218ad",
@@ -78568,6 +78580,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T07:30:32.665446+00:00",
       "next_check": "2026-08-26T07:30:32.665446+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab11/collab11/recordng.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-srnd-collab11-collab11-recordng-html-3cbe214598",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:59:16.370341+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T07:59:16.370352+00:00",
+      "next_check": "2026-08-26T07:59:16.370352+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -163631,5 +163655,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T07:54:59.324211+00:00"
+  "updated_at": "2026-08-25T08:00:00.536075+00:00"
 }

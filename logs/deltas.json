@@ -1,24 +1,14 @@
 {
-  "run_at": "2026-08-25T07:54:59.471981+00:00",
+  "run_at": "2026-08-25T08:00:00.724712+00:00",
   "modo": "incremental",
-  "added": [
-    "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214535-troubleshoot-fa73844b57"
-  ],
+  "added": [],
   "modified": [],
   "removed": [],
-  "blocked": [
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscsh20977-6136164086"
-  ],
+  "blocked": [],
   "unchanged_count": 0,
   "redirected": [
-    "http://cway.cisco.com/go/sa -> https://cway.cisco.com/cli",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsh98792 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCso40251 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCtb49726 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCtg96408 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCud66570 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCui49910 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCus67416 -> https://id.cisco.com/oauth2/default/v1/authorize"
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/administration/guide/b_cucsag/b_cucsag_appendix_01111.html -> https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab11/collab11/recordng.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html"
   ],
   "semillas_encoladas": 20
 }
