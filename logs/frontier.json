@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh/cvrf/cisco-sa-fmc-static-cred-BET3Cjh_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-dos-dzv4mQFF/cvrf/cisco-sa-asaftd-vpn-dos-dzv4mQFF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-infodis-SPuJBDCe/cvrf/cisco-sa-sdwan-infodis-SPuJBDCe_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-notice-L4XfJg8S/cvrf/cisco-sa-notice-L4XfJg8S_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-xe-webui-dos-PtAODAWW/cvrf/cisco-sa-xe-webui-dos-PtAODAWW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cimc-xss-7EhBFxBp/cvrf/cisco-sa-cimc-xss-7EhBFxBp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-roomos-infodisc-qBXjfmWm/cvrf/cisco-sa-roomos-infodisc-qBXjfmWm_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-bing-MGHrFAkd/cvrf/cisco-sa-iosxe-bing-MGHrFAkd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-snmp-dos-ZAqNm4MD/cvrf/cisco-sa-iosxe-snmp-dos-ZAqNm4MD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-xmcp-thbAr34t/cvrf/cisco-sa-ios-xmcp-thbAr34t_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-hardening-iosxe-V8NMuMZJ/cvrf/cisco-sa-hardening-iosxe-V8NMuMZJ_cvrf.xml",
     "depth": 2
   },
@@ -28218,5 +28178,17 @@
   {
     "url": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
     "depth": 2
+  },
+  {
+    "url": "https://developer.webex.com",
+    "depth": 1
+  },
+  {
+    "url": "https://blog.webex.com",
+    "depth": 1
+  },
+  {
+    "url": "https://webexahead.webex.com",
+    "depth": 1
   }
 ]
