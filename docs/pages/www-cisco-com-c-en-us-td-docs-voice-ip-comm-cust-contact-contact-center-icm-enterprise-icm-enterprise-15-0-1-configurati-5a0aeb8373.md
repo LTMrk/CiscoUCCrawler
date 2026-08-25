@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-5a0aeb8373
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/ucce_m_preface_15_0.html
-retrieved_at: 2026-08-20T18:59:39.353321+00:00
+retrieved_at: 2026-08-25T00:03:16.867762+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -16,112 +16,82 @@ Chapter: Preface
 
 # Preface
 
-## Change History
+## Change history
 
-This table lists changes made to this guide. The most recent changes appear at the top.
-
-Change
-
-See
+This table lists the changes made to this guide. The most recent changes appear at the top.
 
 Date
 
-Initial Release of Document for Release 15.0
+Initial Release of Document for Release 15(0)
 
-Added this Manage SQL Server Certificate topic. Certificate binding for Microsoft SQL Server.
+Added AppDynamics - Loose Coupling details
 
-Certificate Management for Secured Connections > Manage SQL Server Certificate
+Chapter: CCE Serviceability and Monitoring using AppDynamics
 
-July 2026
+Topic: Prerequistes
 
-Added this Custom SQL Server Port topic
+Topic: Install, Upgrade, or Downgrade AppDynamics Agents
 
-SQL Server Hardening > Custom SQL Server Port
+Topic: Performance Monitoring
 
-July 2026
+Topic: Dashboards
 
-TLS secure connection between CCE components such as Router, Logger, Peripheral Gateway, Administration and Data Server, Administration
-                                       Client, and Dialer
+Topic: Check Logs
 
-Added endpoint URLs to the Internal Cloud Connect API Endpoints
+December
 
-Other Security Considerations > Internal Cloud Connect API Endpoints
+Added serviceability details for cache service
 
-Added the topic Manage Ciphers on Windows .
+Chapter: Cloud Connect Serviceability
 
-Encryption Support > TLS Encryption Support > Cipher Suite Management
+Topic: Serviceability for Cache Service
 
-Added the topic Manage Ciphers on VOS systems .
+December 2025
 
-Encryption Support > TLS Encryption Support > Cipher Suite Management
+Added trace for Unified Config
 
-Added the following CLIs:
+Chapter: Contact Center Trace Levels
 
-utils system tls_ciphers config list
+Topic: Trace - Unified Config (CCE API Server)
 
-utils system tls_ciphers config export
+December 2025
 
-utils system tls_ciphers config import
+Added MRD configuration counter details
 
-utils system tls_ciphers config reset
+Access JMX Counters using API
 
-Encryption Support > TLS Encryption Support > Cipher Suite Management > Manage Ciphers on VOS systems
-
-Updated the Cipher Suite Management topic
-
-Encryption Support > TLS Encryption Support
+Access Counters using JConsole
 
 ## About This Guide
 
-This document describes security hardening configuration guidelines for Cisco Unified Intelligent Contact Management ( Unified ICM ) on Windows Server. The term “Unified ICM” includes: Unified Contact Center Enterprise, and Cisco Unified Intelligent Contact Management Enterprise.
-                              Optional Unified ICM applications that apply to these server configurations are also addressed here, except for the following
+This document contains system diagrams, staging steps and sample test cases for supported models of Unified CCE.
 
-Enterprise Chat and
-                                       						Email
-
-Dynamic Content
-                                 			 Adapter
-
-References throughout this document to " Cisco Unified Contact Center Enterprise ( Unified CCE )" assume these configurations. Do not use with security hardening on any accompanying applications in the customer's particular
-                           solution, whether provided by a Cisco partner or Cisco, such as PSO applications, with security hardening. Consider special
-                           testing and qualification to ensure that security configurations do not hinder the operation of those applications.
-
-The configurations
-                           		presented in this document represent the parameters that Cisco uses internally
-                           		to develop and test the applications. Other than the base Operating System and
-                           		application installations, any deviation from this set cannot be guaranteed to
-                           		provide a compatible operating environment. You cannot always uniformly
-                           		implement the configurations in this document. Your implementation can modify
-                           		or limit the application of these guidelines to meet certain corporate
-                           		policies, specific IT utilities (for example, backup accounts), or other
-                           		external guidelines.
+The Serviceability Guide for Cisco Unified CCE provides tools and procedures to monitor, troubleshoot, and maintain system
+                           health across UCCE components. It covers diagnostics, logs, service control, SNMP/syslog integration, and high availability
+                           features to ensure optimal system performance and reliability.
 
 ## Audience
 
-This document is
-                           		primarily intended for server administrators and OS and application installers.
+Individuals
+                              		utilizing this document must have knowledge and experience with the following
+                              		tools/software/hardware to stage the system software as described in this
+                              		document:
 
-The target reader of this document is an experienced administrator familiar with SQL Server and Windows Server installations.
-                           The reader is also fully familiar with the applications in the Unified CCE solution, as well as with the installation and
-                           administration of these systems. The intent of these guidelines is to additionally provide a consolidated view of securing
-                           the various third-party applications on which the Cisco contact center applications depend.
+Cisco Unified
+                                    			 ICM Scripting and Configuration Tools
 
-## Related Documents
+Third-party
+                                    			 software (if installed)
 
-Documentation for Cisco Unified Contact Center Enterprise, as well as related documentation, is accessible from Cisco.com
-                           at: https://www.cisco.com/cisco/web/psa/default.html .
+Microsoft
+                                    			 Windows Server
+                                    			 and Windows Active Directory administration
 
-Related documentation
-                           		includes the documentation sets for Cisco
-                           		Unified Contact Center Management Portal, Cisco Unified Customer Voice Portal
-                           		(CVP), Cisco Unified IP IVR, and Cisco Unified Intelligence Center. The
-                           		following list provides more information:
+Microsoft SQL
+                                    			 Server administration
 
-For documentation for the Cisco Unified Contact Center products, go to https://www.cisco.com/cisco/web/psa/default.html , and select Voice and Unified Communications > Customer Collaboration > Cisco Unified Contact Center Products or Cisco Unified Voice Self-Service Products . Then, select the product or option that you are interested in.
-
-For troubleshooting tips for these Cisco Unified Contact Center products, go to https://docwiki.cisco.com/wiki/Category:Troubleshooting , then select the product or option you are interested in.
-
-Documentation for Cisco Unified Communications Manager is accessible from: https://www.cisco.com/cisco/web/psa/default.html .
+## Related
+                        	 Documents
 
 ## Communications, Services, and Additional Information
 
@@ -228,16 +198,16 @@ A
 
 | Change | See | Date |
 |---|---|---|
-| Initial Release of Document for Release 15.0 |
-| Added this Manage SQL Server Certificate topic. Certificate binding for Microsoft SQL Server. | Certificate Management for Secured Connections > Manage SQL Server Certificate | July 2026 |
-| Added this Custom SQL Server Port topic | SQL Server Hardening > Custom SQL Server Port | July 2026 |
-| TLS secure connection between CCE components such as Router, Logger, Peripheral Gateway, Administration and Data Server, Administration
-                                       Client, and Dialer | Certificate Management for Secured Connections > CCE Internal Interface Secure Connection | March 2026 |
-| Added endpoint URLs to the Internal Cloud Connect API Endpoints | Other Security Considerations > Internal Cloud Connect API Endpoints | March 2025 |
-| Added the topic Manage Ciphers on Windows . | Encryption Support > TLS Encryption Support > Cipher Suite Management | March 2025 |
-| Added the topic Manage Ciphers on VOS systems . | Encryption Support > TLS Encryption Support > Cipher Suite Management | March 2025 |
-| Added the following CLIs: utils system tls_ciphers config list utils system tls_ciphers config export utils system tls_ciphers config import utils system tls_ciphers config reset | Encryption Support > TLS Encryption Support > Cipher Suite Management > Manage Ciphers on VOS systems | February 2025 |
-| Updated the Cipher Suite Management topic | Encryption Support > TLS Encryption Support | January 2025 |
+| Initial Release of Document for Release 15(0) |  |
+| Added AppDynamics - Loose Coupling details | Chapter: CCE Serviceability and Monitoring using AppDynamics Topic: Prerequistes Topic: Install, Upgrade, or Downgrade AppDynamics Agents Topic: Performance Monitoring Topic: Dashboards Topic: Check Logs | December 2025 |
+| Added serviceability details for cache service | Chapter: Cloud Connect Serviceability Topic: Serviceability for Cache Service | December 2025 |
+| Added trace for Unified Config | Chapter: Contact Center Trace Levels Topic: Trace - Unified Config (CCE API Server) | December 2025 |
+| Added MRD configuration counter details | Access JMX Counters using API Access Counters using JConsole | Oct 2024 |
+| Added 'Download Certificate for System CLI' topic | Diagnostic Tools > Download Certificate for System CLI | Oct 2024 |
+
+| Document or Resource | Link |
+|---|---|
+| Cisco Unified Communications Manager | https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-express/tsd-products-support-series-home.html |
 
 | Convention | Description |
 |---|---|
