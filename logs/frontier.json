@@ -1,61 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-quick-set-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200915-Install-a-Telepresence-Management-Suite.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200915-Install-a-Telepresence-Management-Suite.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/products-installation-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://software.cisco.com/download/release.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211266-How-to-Create-a-File-Based-Phonebook-in.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211266-How-to-Create-a-File-Based-Phonebook-in.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211279-How-to-Troubleshoot-No-HTTPS-response.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211279-How-to-Troubleshoot-No-HTTPS-response.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCuz71542",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212319-tms-sql-database-migration-from-one-sql.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212319-tms-sql-database-migration-from-one-sql.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212378-tms-webex-sso-certificate-renewal-cisc.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212378-tms-webex-sso-certificate-renewal-cisc.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/td/docs/telepresence/infrastructure/tms/config_guide/cmr_hybrid_15_0/cmrh_b_cmr-hybrid-configuration-guide/cmrh_b_cmr-hybrid-configuration-guide_chapter_01001.html",
     "depth": 1
   },
@@ -42242,5 +42186,17 @@
   {
     "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-maintenance-guides-list.html",
     "depth": 1
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/asr-920-series-routers-console-port/ta-p/3754675",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/telepresence/infrastructure/articles/cisco_telepresence_content_server_tms_connect_scheduled_call_kb_459.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/series.html",
+    "depth": 2
   }
 ]
