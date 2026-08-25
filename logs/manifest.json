@@ -63909,6 +63909,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cucos/8_6_1/cucos/osg_861_cm/iptpch6.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cucos-8-6-1-cucos-osg-861-cm-iptpch6-html-1cc60a79e9",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:40:25.642032+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T07:40:25.642053+00:00",
+      "next_check": "2026-08-26T07:40:25.642053+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/device_packs/1401-devpack-for-feb-2026.html": {
       "content_sha": "50cf6cf14c0efc6d4ea7a47fbe2cc801e88cdf828ca1d2ab3d5efd8afa35c459",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-device-packs-1401-devpack-for-feb-2026-html-19e06df637",
@@ -76714,6 +76726,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/10_0_1/rtmt/CUCM_BK_CA30A928_00_cisco-unified-rtmt-administration-100/CUCM_BK_CA30A928_00_cisco-unified-rtmt-administration-100_chapter_01000.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-10-0-1-rtmt-cucm-bk-ca30a928-00-cisco-unified-rtmt-administrati-56befd5257",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:40:15.520342+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T07:40:15.520350+00:00",
+      "next_check": "2026-08-26T07:40:15.520350+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_01.html": {
       "content_sha": "d9b1a9067df6cdf94e964c20249303f2995ab7d1a2405143e10bf366d1ce8047",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--5f68f6831f",
@@ -88126,6 +88150,18 @@
       "next_check": "2026-08-26T13:07:00.990993+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/9971_9951_8961/10_0/english/adminguide/P567_BK_A27DADFD_00_adminguide-8961-9951-9971-10_0/P567_BK_A27DADFD_00_adminguide-8961-9951-9971-10_0_chapter_010100.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-9971-9951-8961-10-0-english-adminguide-p567-bk-a27dadfd-00-adminguide-dc6e297ea4",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:40:19.362741+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T07:40:19.362750+00:00",
+      "next_check": "2026-08-26T07:40:19.362750+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/3905/IP05_BK_A694F299_00_accessibility-features-3905.html": {
       "content_sha": "cdcae6d900f92f59a9d392270327213cd7e80c3179ad55ab4339035655255521",
@@ -163476,5 +163512,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T07:35:46.807198+00:00"
+  "updated_at": "2026-08-25T07:40:38.620884+00:00"
 }
