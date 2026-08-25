@@ -1,14 +1,11 @@
 {
-  "run_at": "2026-08-25T13:15:58.469702+00:00",
+  "run_at": "2026-08-25T13:21:18.159020+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [
-    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/wireless-ip-phone-8821-ex/model.html -> https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/series.html",
-    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/wireless-ip-phone-8821/model.html -> https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/series.html"
-  ],
+  "redirected": [],
   "semillas_encoladas": 20
 }
