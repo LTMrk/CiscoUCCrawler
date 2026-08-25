@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-1-cjab-b-param-reference-for-jabber141-cjab-b-parameter-reference--64d4e664f3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_param-reference-for-jabber141/cjab_b_parameter-reference-guide-jabber-129_chapter_0100.html
-retrieved_at: 2026-08-21T21:16:40.785194+00:00
+retrieved_at: 2026-08-25T03:59:39.005947+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 14.1
@@ -681,6 +681,10 @@ Specifies the pattern for conference service in the client. For example, if the 
                               This parameter is used with the EnableBridgeConferencing .
 
 Example: <UserBridgeUriAdmin>%%uid%%@example.com</UserBridgeUriAdmin>
+
+### Customers Also Viewed
+
+- Parameters Reference Guide for Cisco Jabber 14.1 --- Common Policies
 
 | Note | A high frequency refresh may affect performance of the IBM Lotus Notes server. |
 |---|---|
