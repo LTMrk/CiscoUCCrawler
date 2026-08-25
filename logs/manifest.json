@@ -3623,6 +3623,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://cway.cisco.com/tools/CollaborationSolutionsAnalyzer": {
+      "content_sha": null,
+      "doc_id": "cway-cisco-com-tools-collaborationsolutionsanalyzer-3c1d62784f",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T06:45:47.064732+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T06:45:47.064743+00:00",
+      "next_check": "2026-08-26T06:45:47.064743+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://cway.cisco.com/tools/SipProfileTest": {
       "content_sha": "e933be2b485800231141f8a64cf8a7547f95c39d543f81bed89a498ad7f463b2",
       "doc_id": "cway-cisco-com-tools-sipprofiletest-4e0fd20d75",
@@ -163320,5 +163332,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T06:41:08.254616+00:00"
+  "updated_at": "2026-08-25T06:46:24.623814+00:00"
 }

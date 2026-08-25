@@ -1,69 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/117811-configure-vcs-00.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/117811-configure-vcs-00.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://supportforums.cisco.com/document/106926/jabber-config-file-generator",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCuo82526",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCuo83458",
-    "depth": 1
-  },
-  {
-    "url": "https://cway.cisco.com/tools/CollaborationSolutionsAnalyzer",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/telepresence-video-communication-server-vcs/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/200923-Install-an-Expressway-Series-Option-Key.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/200923-Install-an-Expressway-Series-Option-Key.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/200928-Jabber-SIP-URI-calls-over-MRA.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/200928-Jabber-SIP-URI-calls-over-MRA.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211288-Mobile-and-Remote-Access-MRA-License-K.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211288-Mobile-and-Remote-Access-MRA-License-K.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211301-Configure-Proxy-WebRTC-With-CMS-over-Exp.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211301-Configure-Proxy-WebRTC-With-CMS-over-Exp.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/series.html",
     "depth": 1
   },
@@ -41969,6 +41905,26 @@
   },
   {
     "url": "https://community.cisco.com/t5/security-knowledge-base/cisco-fmc-intrusion-policy-management-export-edit-amp-apply/ta-p/5144417",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/products-security-advisories-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/secure-web-appliance-step-by-step-guides-and-troubleshooting/ta-p/5550147",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/what-you-need-to-know-to-be-a-successful-uc-engineer/ta-p/4100618",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-voice-and-video/how-to-take-diagnostic-logs-from-a-vcs-and-upload-them-to-a-tac/ta-p/3157170",
     "depth": 2
   }
 ]
