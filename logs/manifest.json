@@ -224,6 +224,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCti08882": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscti08882-91c7847df5",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:54:15.287955+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T08:54:15.287966+00:00",
+      "next_check": "2026-08-26T08:54:15.287966+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCts00642": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscts00642-f3900073cd",
@@ -14062,6 +14074,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-express/116060-cue-jtapi-tshooting-00.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unity-express-116060-cue-jtapi-tshooting-00-html-0a05a0db70",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:53:57.809385+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:53:57.809397+00:00",
+      "next_check": "2026-08-26T08:53:57.809397+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-express/211258-Configure-and-Troubleshoot-CUE-MWI-Mecha.html": {
       "content_sha": "5cd12c8f738441bc8b59abe1cf2adad6d42f643517362887fc080daf79d95099",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unity-express-211258-configure-and-troubleshoot-cue-mwi-mecha--50612c15b4",
@@ -25885,6 +25909,18 @@
       "next_check": "2026-08-26T06:35:11.182679+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/10x/administration/guide/10xcucsagx/10xcucsag115.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-10x-administration-guide-10xcucsagx-10xcucsag115-html-186b01f909",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:53:36.572272+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:53:36.572283+00:00",
+      "next_check": "2026-08-26T08:53:36.572283+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/10x/release/notes/b_1052su10cucrn.html": {
       "content_sha": "70880a45c213b104a7f94c7e6e0384ecbad2c91aa85095b5ed34b602f0a4bec4",
@@ -77152,6 +77188,18 @@
       "next_check": "2026-08-28T11:31:17.846135+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/8_6_1/secugd/sec-861-cm/secuphne.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-8-6-1-secugd-sec-861-cm-secuphne-html-57148baa84",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:54:10.795619+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:54:10.795631+00:00",
+      "next_check": "2026-08-26T08:54:10.795631+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/10_0_1/rtmt/CUCM_BK_CA30A928_00_cisco-unified-rtmt-administration-100/CUCM_BK_CA30A928_00_cisco-unified-rtmt-administration-100_chapter_01000.html": {
       "content_sha": null,
@@ -164035,5 +164083,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T08:49:04.203110+00:00"
+  "updated_at": "2026-08-25T08:54:19.653636+00:00"
 }
