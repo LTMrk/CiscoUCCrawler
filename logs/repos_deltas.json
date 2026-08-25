@@ -1,5 +1,15 @@
 {
- "added": [],
- "modified": [],
+ "added": [
+  "webex/widgets/ai-docs/features/participant-drop-intake.md"
+ ],
+ "modified": [
+  "webex/widgets/ai-docs/CONTRACTS.md",
+  "webex/widgets/ai-docs/SPEC_INDEX.md",
+  "webex/widgets/ai-docs/features/consult-transfer-list-policy/spec/feature-spec.md",
+  "webex/widgets/packages/contact-center/cc-components/ai-docs/cc-components-spec.md",
+  "webex/widgets/packages/contact-center/cc-widgets/ai-docs/cc-widgets-spec.md",
+  "webex/widgets/packages/contact-center/store/ai-docs/store-spec.md",
+  "webex/widgets/packages/contact-center/task/ai-docs/task-spec.md"
+ ],
  "removed": []
 }
