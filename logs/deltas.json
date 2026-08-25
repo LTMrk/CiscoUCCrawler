@@ -1,16 +1,17 @@
 {
-  "run_at": "2026-08-25T08:29:26.985449+00:00",
+  "run_at": "2026-08-25T08:34:31.047593+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200981-cucm-11-5-x--b7aa4ab11e"
+  ],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun16461 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/10_0_1/ccmfeat/CUCM_BK_F3AC1C0F_00_cucm-features-services-guide-100/CUCM_BK_F3AC1C0F_00_cucm-features-services-guide-100_chapter_011100.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/sysConfig/11_5_1_SU1/cucm_b_system-configuration-guide-1151su1/cucm_b_system-configuration-guide-1151su1_chapter_01010000.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/sysConfig/11_5_1_SU1/cucm_b_system-configuration-guide-1151su1/cucm_b_system-configuration-guide-1151su1_chapter_01010001.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html"
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/sysConfig/CUCM_BK_SE5DAF88_00_cucm-system-configuration-guide-1151/CUCM_BK_SE5DAF88_00_cucm-system-configuration-guide-1151_chapter_01000100.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab11/collab11/netstruc.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V10-5-1/config/CSR10-5-SAMLSSO-PingFederate-on-Windows-Configuration.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html"
   ],
   "semillas_encoladas": 20
 }

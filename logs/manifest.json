@@ -12218,6 +12218,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200981-CUCM-11-5-x-TFTP-Scale-Architectural-Imp.html": {
+      "content_sha": "eb9ffd2ea151d2dc5e39cb85ad07ca5e12fb02884506a58bdc0ce51cf4ea94c6",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200981-cucm-11-5-x--b7aa4ab11e",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:33:39.780781+00:00",
+      "last_changed": "2026-08-25T08:33:39.780781+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T08:33:39.780781+00:00",
+      "next_check": "2026-08-26T08:33:39.780781+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210536-Supporting-Variable-Length-Dial-Plans-fo.html": {
       "content_sha": "840d7a10711daa1a14896aa7328c8e898d129e86b420a85e9a38e48c693d088c",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-210536-supporting-v-a2719cda07",
@@ -40806,6 +40819,18 @@
       "last_seen": "2026-08-25T08:29:13.061754+00:00",
       "next_check": "2026-08-26T08:29:13.061754+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/sysConfig/CUCM_BK_SE5DAF88_00_cucm-system-configuration-guide-1151/CUCM_BK_SE5DAF88_00_cucm-system-configuration-guide-1151_chapter_01000100.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-11-5-1-sysconfig-cucm-bk-se5daf88-00-cucm-system-configuration-gu-002eff2768",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:33:43.597381+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:33:43.597391+00:00",
+      "next_check": "2026-08-26T08:33:43.597391+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -78874,6 +78899,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T07:30:32.665446+00:00",
       "next_check": "2026-08-26T07:30:32.665446+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab11/collab11/netstruc.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-srnd-collab11-collab11-netstruc-html-3e9fdb83c5",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:33:47.859003+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:33:47.859013+00:00",
+      "next_check": "2026-08-26T08:33:47.859013+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -162955,6 +162992,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V10-5-1/config/CSR10-5-SAMLSSO-PingFederate-on-Windows-Configuration.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-uc-system-v10-5-1-config-csr10-5-samlsso-pingfederate-on-windows-configurati-bea7252141",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T08:34:20.952170+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T08:34:20.952181+00:00",
+      "next_check": "2026-08-26T08:34:20.952181+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12-5-1/TIS/CC-PCCE-CSR1251-TestBed.html": {
       "content_sha": "b9629146c7caf3c6bd66b9e41719b568e56ad388a6999705031fc62cac96897a",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-uc-system-v12-5-1-tis-cc-pcce-csr1251-testbed-html-62799d1f64",
@@ -163949,5 +163998,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T08:29:26.833417+00:00"
+  "updated_at": "2026-08-25T08:34:30.863820+00:00"
 }
