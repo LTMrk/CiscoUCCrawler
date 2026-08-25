@@ -1,57 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8841_8851_8861/firmware/10-2-1/english/ReleaseNotes/P881_BK_R7A58C22_00_rn-10_2_1-8841-8851-8861/P881_BK_R7A58C22_00_rn-10_2_1-8841-8851-8861_chapter_00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8841_8851_8861/firmware/10-2-1/english/ReleaseNotes/P881_BK_R7A58C22_00_rn-10_2_1-8841-8851-8861/P881_BK_R7A58C22_00_rn-10_2_1-8841-8851-8861_index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/3905/IP05_BK_A694F299_00_accessibility-features-3905.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/3905/IP05_BK_A694F299_00_accessibility-features-3905.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/6800_series/p680_b_accessibility-features-6800.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/6800_series/p680_b_accessibility-features-6800.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-6800-series-multiplatform-firmware/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/6901-6911/P691_BK_A900284C_00_accessibility-features-6901-6911.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/6901-6911/P691_BK_A900284C_00_accessibility-features-6901-6911.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/6921-6941-6945-6961/P690_BK_A96E3D37_00_accessibility-features-6921_41_45_61.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/6921-6941-6945-6961/P690_BK_A96E3D37_00_accessibility-features-6921_41_45_61.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/7800-series/PA2D_BK_A16369B6_00_accessibility-features-7800-series.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/7800-series/PA2D_BK_A16369B6_00_accessibility-features-7800-series.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-7800-series-multiplatform-firmware/series.html",
     "depth": 1
   },
@@ -37354,5 +37302,857 @@
   {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214218-configure-options-ping-between-cucm-and.html",
     "depth": 1
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCum62659",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCum64968",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCum75600",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun19698",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun24183",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun29272",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun30024",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun38032",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun41637",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun47590",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun62056",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun64117",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun72773",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun75414",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun77699",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun78088",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun78115",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun80759",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun83523",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun88493",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun88943",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun93340",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun93597",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun94444",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun96422",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun98930",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun99543",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo02024",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo04139",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo10939",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo10969",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo18535",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo18546",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo18779",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo21617",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo23873",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo26551",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo26761",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo31268",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo31577",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo33582",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo34073",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo35638",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo35834",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo38121",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo38272",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo40264",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo40482",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo40517",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo42529",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo42726",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo42755",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo43206",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo45443",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo45740",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo47255",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo47261",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo47265",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo47545",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo47565",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo47589",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo48017",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo50527",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo50761",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo50988",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo51021",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo51154",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo51278",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo52950",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo52962",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo52966",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo53035",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo53058",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo53169",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo53422",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo53623",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo53938",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo55437",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo55493",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo55998",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo56015",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo56065",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo59730",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo59782",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo59994",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo61369",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo61370",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo61390",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo61398",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo61740",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo61741",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo61789",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo61817",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo61867",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo61925",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo62126",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo62506",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo62527",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo62589",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo62598",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo62648",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo62944",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo64323",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo64598",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo64696",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo64830",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo64846",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo64877",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo64886",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo65174",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo65477",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo67334",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo67572",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo67644",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo69658",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo69759",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo69840",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo70043",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo72112",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo72121",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo72163",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo72296",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo72678",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo72827",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo72954",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo74475",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo74718",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo75197",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo75227",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo77225",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo77424",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo77499",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo77660",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo77666",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo77670",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo77812",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo79553",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo79598",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo79658",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo79673",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo79884",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo80147",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo80369",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo80570",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo80732",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo82084",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo82111",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo82199",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo82286",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo82365",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo82402",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo82446",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo82498",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo82535",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo82546",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo84744",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo84750",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo84763",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo84769",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo84772",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo84831",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo84921",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo85029",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo85149",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo85499",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo86592",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo87108",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo87177",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo87682",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo87718",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo87758",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo89344",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo89379",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo89418",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo89460",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo89850",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo89883",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo89906",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo89992",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo90088",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo90121",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo90186",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo90211",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo90309",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo90322",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo90335",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo90375",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo90406",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo90422",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo91754",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo91778",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo91807",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo91834",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo91857",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo91875",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo91983",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo92047",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo92062",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo92106",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo92160",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo92242",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo92371",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo92400",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo92489",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo92541",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo92596",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo92639",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo94496",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo94536",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo94552",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCup01256",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series/211425-Perform-a-Hard-Factory-Reset-on-an-8831.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-6800-series-multiplatform-firmware/products-release-notes-list.html",
+    "depth": 2
   }
 ]

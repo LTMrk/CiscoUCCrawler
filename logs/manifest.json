@@ -93594,6 +93594,32 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8841_8851_8861/firmware/10-2-1/english/ReleaseNotes/P881_BK_R7A58C22_00_rn-10_2_1-8841-8851-8861/P881_BK_R7A58C22_00_rn-10_2_1-8841-8851-8861_chapter_00.html": {
+      "content_sha": "44d15b7be878318b0609deb063f31db7b96ade9298137d421eaa17758d75fc4e",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8841-8851-8861-firmware-10-2-1-english-releasenotes-p881-bk-r7a58c22--ef4b51d89f",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:06:54.027986+00:00",
+      "last_changed": "2026-08-25T14:06:54.027986+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T14:06:54.027986+00:00",
+      "next_check": "2026-08-26T14:06:54.027986+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8841_8851_8861/firmware/10-2-1/english/ReleaseNotes/P881_BK_R7A58C22_00_rn-10_2_1-8841-8851-8861/P881_BK_R7A58C22_00_rn-10_2_1-8841-8851-8861_index.html": {
+      "content_sha": "5715ca832c4498032415cb0e72064b83a0d82c646a8590024cb92508de4da682",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8841-8851-8861-firmware-10-2-1-english-releasenotes-p881-bk-r7a58c22--14d9435f6c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T14:06:57.458952+00:00",
+      "last_changed": "2026-08-25T14:06:57.458952+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T14:06:57.458952+00:00",
+      "next_check": "2026-08-26T14:06:57.458952+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/9971_9951_8961/10_0/english/adminguide/P567_BK_A27DADFD_00_adminguide-8961-9951-9971-10_0/P567_BK_A27DADFD_00_adminguide-8961-9951-9971-10_0_chapter_010100.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-9971-9951-8961-10-0-english-adminguide-p567-bk-a27dadfd-00-adminguide-dc6e297ea4",
@@ -169016,5 +169042,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T14:02:44.653070+00:00"
+  "updated_at": "2026-08-25T14:07:40.902762+00:00"
 }
