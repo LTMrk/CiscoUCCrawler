@@ -1554,6 +1554,30 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvd91119": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvd91119-f5e41ea553",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:21:16.399707+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T23:21:16.399719+00:00",
+      "next_check": "2026-08-26T23:21:16.399719+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCve56223": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscve56223-e84686e501",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:21:20.755715+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T23:21:20.755726+00:00",
+      "next_check": "2026-08-26T23:21:20.755726+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCve61037": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscve61037-7a84c0bda9",
@@ -1822,6 +1846,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvi49092": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvi49092-b90754dda2",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:21:12.999027+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T23:21:12.999037+00:00",
+      "next_check": "2026-08-26T23:21:12.999037+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj00275": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvj00275-c73a0246d3",
@@ -2060,6 +2096,16 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj72294": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvj72294-2d439d84c3",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:21:45.197184+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:21:45.197191+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj72793": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvj72793-eceb463b1d",
@@ -2166,6 +2212,18 @@
       "http_status": 302,
       "last_seen": "2026-08-25T22:47:57.389253+00:00",
       "next_check": "2026-08-26T22:47:57.389253+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj93746": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvj93746-5f14d56b30",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:21:25.025930+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T23:21:25.025941+00:00",
+      "next_check": "2026-08-26T23:21:25.025941+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -2828,6 +2886,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm60911": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvm60911-0de802709a",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:21:28.208501+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:21:28.208509+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm63696": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvm63696-645935977f",
@@ -3141,6 +3209,16 @@
       "first_seen": "2026-08-25T11:38:59.566356+00:00",
       "http_status": 403,
       "last_seen": "2026-08-25T11:38:59.566361+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn35907": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvn35907-3a3583658e",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:21:32.336347+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:21:32.336353+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -3468,6 +3546,16 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn65359": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvn65359-21b0c5dc55",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:21:36.671887+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:21:36.671893+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn68387": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvn68387-ee3fdd7203",
@@ -3587,6 +3675,16 @@
       "first_seen": "2026-08-22T00:05:02.728210+00:00",
       "http_status": 403,
       "last_seen": "2026-08-22T00:05:02.728215+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn77809": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvn77809-9d26db4871",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:21:40.922362+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:21:40.922367+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -4250,6 +4348,16 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp11701": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvp11701-bc54070d79",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:22:31.274913+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:22:31.274919+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp12852": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvp12852-ca19c5a48e",
@@ -4695,6 +4803,16 @@
       "first_seen": "2026-08-25T19:06:53.914360+00:00",
       "http_status": 403,
       "last_seen": "2026-08-25T19:06:53.914367+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp72978": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvp72978-9f9e49254d",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:21:49.485967+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:21:49.485972+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -6036,6 +6154,16 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr96670": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvr96670-f274e3f796",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:22:35.277156+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:22:35.277162+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr97701": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvr97701-f0d8f2295e",
@@ -7278,6 +7406,16 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs94916": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvs94916-b91e4c9a1a",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T23:22:21.526089+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T23:22:21.526096+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs96235": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvs96235-9b37714cf8",
@@ -8186,6 +8324,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu37138": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvu37138-178b2f0b3a",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:17:52.416280+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T23:17:52.416291+00:00",
+      "next_check": "2026-08-26T23:17:52.416291+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu40378": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvu40378-c93c9bec36",
@@ -8408,6 +8558,18 @@
       "http_status": 403,
       "last_seen": "2026-08-21T05:42:24.008677+00:00",
       "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu82405": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvu82405-5381acdd8d",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:17:48.866794+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T23:17:48.866806+00:00",
+      "next_check": "2026-08-26T23:17:48.866806+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu83690": {
@@ -10846,6 +11008,18 @@
       "http_status": 403,
       "last_seen": "2026-08-21T10:43:10.534268+00:00",
       "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa33411": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwa33411-8f5728b343",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:17:56.382924+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T23:17:56.382935+00:00",
+      "next_check": "2026-08-26T23:17:56.382935+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa35479": {
@@ -16854,6 +17028,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://cisco.com/go/unified-techinfo": {
+      "content_sha": null,
+      "doc_id": "cisco-com-go-unified-techinfo-8b9dea907b",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:20:56.657611+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T23:20:56.657623+00:00",
+      "next_check": "2026-08-26T23:20:56.657623+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://cisco.com/go/vphone8875help": {
       "content_sha": null,
       "doc_id": "cisco-com-go-vphone8875help-6f93deace7",
@@ -16898,6 +17084,18 @@
       "http_status": 302,
       "last_seen": "2026-08-25T09:44:40.212454+00:00",
       "next_check": "2026-08-26T09:44:40.212454+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://cucst.cloudapps.cisco.com": {
+      "content_sha": null,
+      "doc_id": "cucst-cloudapps-cisco-com-e4fec9ac2b",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:20:06.858241+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T23:20:06.858252+00:00",
+      "next_check": "2026-08-26T23:20:06.858252+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -21423,6 +21621,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/cloud-systems-management/prime-collaboration/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-cloud-systems-management-prime-collaboration-tsd-products-support-series-home-html-02358b480e",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:20:01.463906+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:20:01.463918+00:00",
+      "next_check": "2026-08-26T23:20:01.463918+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-desktop-collaboration-experience-dx600-series-tsd-products-support-5ee2d68632",
@@ -21495,6 +21705,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-spark-room-kit-series-tsd-products-support-series-home-html-ad07e25884",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:21:08.962996+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:21:08.963007+00:00",
+      "next_check": "2026-08-26T23:21:08.963007+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-1100/model.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-1100-model-html-2f1038f303",
@@ -21507,6 +21729,42 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-mx-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-mx-series-tsd-products-support-series-home-html-b2610ed4aa",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:19:36.048494+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:19:36.048505+00:00",
+      "next_check": "2026-08-26T23:19:36.048505+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-mx-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-quick-set-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-quick-set-series-tsd-products-support-series-home-htm-758085f074",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:19:39.989756+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:19:39.989768+00:00",
+      "next_check": "2026-08-26T23:19:39.989768+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-quick-set-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-ex-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-system-ex-series-tsd-products-support-series-home-htm-b168ef8531",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:19:44.229776+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:19:44.229789+00:00",
+      "next_check": "2026-08-26T23:19:44.229789+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-ex-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-6900-series/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-unified-ip-phone-6900-series-tsd-products-support-series-home-html-83762e548e",
@@ -21516,6 +21774,18 @@
       "last_seen": "2026-08-25T11:55:50.585301+00:00",
       "next_check": "2026-08-26T11:55:50.585301+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-6900-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7800-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-unified-ip-phone-7800-series-tsd-products-support-series-home-html-a96c7e7350",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:20:27.497616+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:20:27.497629+00:00",
+      "next_check": "2026-08-26T23:20:27.497629+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7800-series/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -21591,6 +21861,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/conferencing/cisco-meeting-app/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-cisco-meeting-app-tsd-products-support-series-home-html-be377e43b8",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:21:04.896414+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:21:04.896426+00:00",
+      "next_check": "2026-08-26T23:21:04.896426+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/conferencing/collaboration-meeting-rooms-cmr/products-installation-and-configuration-guides-list.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-conferencing-collaboration-meeting-rooms-cmr-products-installation-and-configuration-guide-b1de58e2bf",
@@ -21612,6 +21894,54 @@
       "last_seen": "2026-08-25T09:44:35.864799+00:00",
       "next_check": "2026-08-26T09:44:35.864799+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/meeting-management/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-meeting-server-tsd-products-support-series-home-html-165b8c3cad",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:19:53.488425+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:19:53.488436+00:00",
+      "next_check": "2026-08-26T23:19:53.488436+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-conductor/products-maintenance-guides-list.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-conductor-products-maintenance-guides-list-html-4678db6d70",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:20:18.238159+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:20:18.238170+00:00",
+      "next_check": "2026-08-26T23:20:18.238170+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-management-suite-tms-tsd-products-support-series-home-html-83198394e7",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:19:57.625946+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:19:57.625957+00:00",
+      "next_check": "2026-08-26T23:19:57.625957+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-mcu-mse-8510/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-mcu-mse-8510-model-html-4fead85957",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:22:24.986593+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:22:24.986605+00:00",
+      "next_check": "2026-08-26T23:22:24.986605+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -29915,6 +30245,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/ata-180-series-analog-telephone-adaptors/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-ata-180-series-analog-telephone-adaptors-series-html-b0624a4042",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:22:09.871196+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:22:09.871207+00:00",
+      "next_check": "2026-08-26T23:22:09.871207+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-3000/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-business-edition-3000-tsd-products-support-series-home-html-2d8e404cd4",
@@ -30047,6 +30389,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-border-element-tsd-products-support-series-home-html-faf29ba9fb",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:20:47.925517+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:20:47.925528+00:00",
+      "next_check": "2026-08-26T23:20:47.925528+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-call-studio/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-call-studio-tsd-products-support-series-home-html-bd9597ab92",
@@ -30151,6 +30505,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T11:08:28.686543+00:00",
       "next_check": "2026-08-26T11:08:28.686543+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unity-express/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unity-express-series-html-0cf38e350a",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:22:28.920512+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:22:28.920523+00:00",
+      "next_check": "2026-08-26T23:22:28.920523+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -30287,6 +30653,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T09:32:46.542926+00:00",
       "next_check": "2026-08-26T09:32:46.542926+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/voi-cube-sip-tls.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-cube-configuration-cube-book-voi-cube-sip-tls-html-c07ee9a6d5",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:20:22.851624+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:20:22.851635+00:00",
+      "next_check": "2026-08-26T23:20:22.851635+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -89066,14 +89444,14 @@
       "content_sha": "d3876b3bf38f57fef0a796be2ff8bdced9282cf0ec4f80bfde0827de2f0b261f",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-0-1-deprecated-phones-cucm-b-deprecated-phone-models-for-1-96249d85bc",
       "etag": null,
-      "fail_count": 3,
+      "fail_count": 0,
       "first_seen": "2026-08-17T02:04:07.099776+00:00",
       "last_changed": "2026-08-17T02:04:07.099776+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-17T02:04:07.099776+00:00",
-      "next_check": "2026-08-18T02:04:07.099776+00:00",
+      "last_seen": "2026-08-25T23:21:00.066247+00:00",
+      "next_check": "2026-08-27T23:21:00.066247+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/SU1/cucm_b_release-notes-for-cucm-imp-1251su1.html": {
       "content_sha": "ab5c35ad86b062aa02a35045d04f82c216e36b551053cfb424a1bdd4ea2eaff9",
@@ -135304,6 +135682,18 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_11_5_1/Design/Guide/ucce_b_soldg-for-unified-cce.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-11-5-1-design-guid-04371b128d",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:20:11.006260+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:20:11.006271+00:00",
+      "next_check": "2026-08-26T23:20:11.006271+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_0_1/Configuration/Guide/ucce_b_icmtoicm-gateway-user-guide-120.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-0-1-configurati-60863aca25",
@@ -179455,6 +179845,58 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_0/rns/jvdi_b_release-notes-14/jvdi_m_caveats.html": {
+      "content_sha": "142effa75e077849c53d594c2f426417105f71cdafbf5483125af51ae5399b6f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-0-rns-jvdi-b-release-notes-14-jvdi-m-caveats-html-05c41ad28a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:18:12.565504+00:00",
+      "last_changed": "2026-08-25T23:18:12.565504+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:18:12.565504+00:00",
+      "next_check": "2026-08-26T23:18:12.565504+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_0/rns/jvdi_b_release-notes-14/jvdi_m_requirements-14-0.html": {
+      "content_sha": "4d314a083a1e2920e0ff849a29e7b213b5d71e8e9ecf0c3ba3c0be47d906b9f4",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-0-rns-jvdi-b-release-notes-14-jvdi-m-requirements-14-0-html-141c64faae",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:18:04.473010+00:00",
+      "last_changed": "2026-08-25T23:18:04.473010+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:18:04.473010+00:00",
+      "next_check": "2026-08-26T23:18:04.473010+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_0/rns/jvdi_b_release-notes-14/jvdi_m_whats-new-14-0.html": {
+      "content_sha": "f8f1cc01b708413264ce00e9f2f6866505343e1ddef8e88118a91bf04b463703",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-0-rns-jvdi-b-release-notes-14-jvdi-m-whats-new-14-0-html-a824c57b24",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:18:00.003973+00:00",
+      "last_changed": "2026-08-25T23:18:00.003973+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:18:00.003973+00:00",
+      "next_check": "2026-08-26T23:18:00.003973+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_0/rns/jvdi_b_release-notes-14/limitations-and-restrictions-14-0.html": {
+      "content_sha": "4f14b873b9b3a92711c1d7cefcd056f05971f11542df08799e80d3d9f946986f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-0-rns-jvdi-b-release-notes-14-limitations-and-restrictions-14-0-html-fc7fa23372",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:18:08.694049+00:00",
+      "last_changed": "2026-08-25T23:18:08.694049+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:18:08.694049+00:00",
+      "next_check": "2026-08-26T23:18:08.694049+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_1/jvdi_b_deploy-install-jvdi-141.html": {
       "content_sha": "836a3354d56fc28b61e49961017951650d3084d14ca1e3440dc012c85a1484d4",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-1-jvdi-b-deploy-install-jvdi-141-html-6ea4a008fa",
@@ -179611,6 +180053,58 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_1/jvdi_b_jvdi-release-notes-141/jvdi_m_caveats-141.html": {
+      "content_sha": "57096cb79eadb9c4353f3750661885f0691b9dd53c175625c49541768230b371",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-1-jvdi-b-jvdi-release-notes-141-jvdi-m-caveats-141-html-2ef0375247",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:18:29.580237+00:00",
+      "last_changed": "2026-08-25T23:18:29.580237+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:18:29.580237+00:00",
+      "next_check": "2026-08-26T23:18:29.580237+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_1/jvdi_b_jvdi-release-notes-141/jvdi_m_limit-and-restrict-141.html": {
+      "content_sha": "13068a471bb8453873ceecf2bb48ad508a2720382475ae34fb1ce54e4486119e",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-1-jvdi-b-jvdi-release-notes-141-jvdi-m-limit-and-restrict-141-html-6e02cbcf75",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:18:25.688916+00:00",
+      "last_changed": "2026-08-25T23:18:25.688916+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:18:25.688916+00:00",
+      "next_check": "2026-08-26T23:18:25.688916+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_1/jvdi_b_jvdi-release-notes-141/jvdi_m_requirements-141.html": {
+      "content_sha": "eca6af31184ad18ad73cdc90eacaa0767ad2d24bd55dcd0480f93e261f1b7fbe",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-1-jvdi-b-jvdi-release-notes-141-jvdi-m-requirements-141-html-9ebe39c1e8",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:18:21.633292+00:00",
+      "last_changed": "2026-08-25T23:18:21.633292+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:18:21.633292+00:00",
+      "next_check": "2026-08-26T23:18:21.633292+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_1/jvdi_b_jvdi-release-notes-141/jvdi_m_whats-new-141.html": {
+      "content_sha": "45f9c45605b92ca03f96e32c54e959c6a58dc9b3b6e12cd0e987f7c630675f73",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-1-jvdi-b-jvdi-release-notes-141-jvdi-m-whats-new-141-html-0fbc4961ca",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:18:16.855221+00:00",
+      "last_changed": "2026-08-25T23:18:16.855221+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:18:16.855221+00:00",
+      "next_check": "2026-08-26T23:18:16.855221+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_2/jvdi_b_jvdi-release-notes-142.html": {
       "content_sha": "fe06566a04225022b83c619b56bce612c788077207e3bf697a9d988f51d93003",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-2-jvdi-b-jvdi-release-notes-142-html-3c13b2ea3a",
@@ -179624,6 +180118,32 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_2/jvdi_b_jvdi-release-notes-142/jvdi_m_caveats-142.html": {
+      "content_sha": "ae7834b4adf742826fef6ee46073db30c019f5106bdc30c6de6f5fe5a19e1c4d",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-2-jvdi-b-jvdi-release-notes-142-jvdi-m-caveats-142-html-f38868bcd4",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:18:41.960725+00:00",
+      "last_changed": "2026-08-25T23:18:41.960725+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:18:41.960725+00:00",
+      "next_check": "2026-08-26T23:18:41.960725+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_2/jvdi_b_jvdi-release-notes-142/jvdi_m_limit-and-restrict-142.html": {
+      "content_sha": "d0358079eff6c02d71c42bf40f8ab0b16acda4b6d32c94a136dd75cd80915adc",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-2-jvdi-b-jvdi-release-notes-142-jvdi-m-limit-and-restrict-142-html-40c3a96839",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:18:38.233396+00:00",
+      "last_changed": "2026-08-25T23:18:38.233396+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:18:38.233396+00:00",
+      "next_check": "2026-08-26T23:18:38.233396+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_2/jvdi_b_jvdi-release-notes-142/jvdi_m_requirements-142.html": {
       "content_sha": "e189d2f937215649ad4aae4910b2dc253ffecf71f29de691f87d8b6502408ffb",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-2-jvdi-b-jvdi-release-notes-142-jvdi-m-requirements-142-html-6be22da59d",
@@ -179636,6 +180156,19 @@
       "next_check": "2026-08-27T04:21:35.890468+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_2/jvdi_b_jvdi-release-notes-142/jvdi_m_whats-new-142.html": {
+      "content_sha": "fecbb8c26e2036ad6fd791cb60c64292f7d93d9964c98bc4fa852ed1177a5140",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-2-jvdi-b-jvdi-release-notes-142-jvdi-m-whats-new-142-html-97ba6dae39",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:18:34.009376+00:00",
+      "last_changed": "2026-08-25T23:18:34.009376+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T23:18:34.009376+00:00",
+      "next_check": "2026-08-26T23:18:34.009376+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/dell-wyse/jvdi_b_release-notes-jvdi-dell-wyse-thin-os.html": {
       "content_sha": "987e1f5d7d2543907548ac18d584905b4853be160bf7fcd3e2c55adc21b422d2",
@@ -179935,6 +180468,18 @@
       "next_check": "2026-08-27T04:23:11.704756+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/overview.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-overview-html-78b77260e4",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:18:58.369602+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:18:58.369614+00:00",
+      "next_check": "2026-08-26T23:18:58.369614+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/overview_of_tasks.html": {
       "content_sha": "048d7c3517724c6806b1032aa8cb657a721f9bb764723bd9cb580feb3f790965",
@@ -180487,6 +181032,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T08:34:20.952181+00:00",
       "next_check": "2026-08-26T08:34:20.952181+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/V12-0-1/VTGS_BK_S43B1656_00_system-release-notes-for-contact-center_1201.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-uc-system-v12-0-1-vtgs-bk-s43b1656-00-system-release-notes-for-contact-cente-fcc8edf6ca",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T23:20:51.793564+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T23:20:51.793575+00:00",
+      "next_check": "2026-08-26T23:20:51.793575+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -181497,5 +182054,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T23:13:48.930383+00:00"
+  "updated_at": "2026-08-25T23:22:35.377022+00:00"
 }
