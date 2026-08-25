@@ -25456,6 +25456,18 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-calendarservice-cmgt-b-deploy-spark--dd4d5788a7",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:18:01.434622+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T09:18:01.434633+00:00",
+      "next_check": "2026-08-26T09:18:01.434633+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/n6cwujdb/Deployment-guide-for-Hybrid-Calendar",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_appendix_01010.html": {
       "content_sha": "a82fb9fc254147d4ad3f6fea46fc6ac28e5154564ee8bdead4bac6e7f2adb10c",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-calendarservice-cmgt-b-deploy-spark--3f8e0d1778",
@@ -164083,5 +164095,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T09:13:13.293602+00:00"
+  "updated_at": "2026-08-25T09:18:10.202889+00:00"
 }

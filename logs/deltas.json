@@ -1,11 +1,13 @@
 {
-  "run_at": "2026-08-25T09:13:13.482830+00:00",
+  "run_at": "2026-08-25T09:18:10.399838+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [],
+  "redirected": [
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service.html -> https://help.webex.com/en-us/article/n6cwujdb/Deployment-guide-for-Hybrid-Calendar"
+  ],
   "semillas_encoladas": 20
 }
