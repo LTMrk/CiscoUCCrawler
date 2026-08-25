@@ -1,14 +1,14 @@
 {
-  "run_at": "2026-08-25T13:11:12.559406+00:00",
+  "run_at": "2026-08-25T13:15:58.469702+00:00",
   "modo": "incremental",
-  "added": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8811-8841-8851-8861-firmware-10-2-2-releasenotes-p881-bk-81c61ba9-00--95670655cb",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8811-8841-8851-8861-firmware-10-2-2-releasenotes-p881-bk-81c61ba9-00--a81bc63332"
-  ],
+  "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [],
+  "redirected": [
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/wireless-ip-phone-8821-ex/model.html -> https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/series.html",
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/wireless-ip-phone-8821/model.html -> https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/series.html"
+  ],
   "semillas_encoladas": 20
 }
