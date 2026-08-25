@@ -1,17 +1,11 @@
 {
-  "run_at": "2026-08-25T16:54:37.058874+00:00",
+  "run_at": "2026-08-25T16:59:21.341167+00:00",
   "modo": "incremental",
-  "added": [
-    "developer-cisco-com-site-ip-phone-services-documentation-04a11c6614",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-mpp-conversion-enterprise-to-mpp-cuip-b-conversion-guide-ipphone--e9bfb0e592"
-  ],
+  "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [
-    "https://cisco.com/go/deskphone9800 -> https://help.webex.com/en-us/article/29odsb/Get-started-with-Cisco-Desk-Phone-9800-Series",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/xml_ref_guide/serverport -> https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/xml_ref_guide/serverport/index.html"
-  ],
+  "redirected": [],
   "semillas_encoladas": 20
 }
