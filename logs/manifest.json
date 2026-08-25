@@ -88809,6 +88809,32 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/10_1/english/release_notes/PA2D_BK_C93ADAA2_00_cisco-unified-ip-phone-7821/PA2D_BK_C93ADAA2_00_cisco-unified-ip-phone-7821_chapter_00.html": {
+      "content_sha": "8aee2530426c73a5a81346379051627a93998977deb1a0ddd6f86b3665938583",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7821-7841-7861-10-1-english-release-notes-pa2d-bk-c93adaa2-00-cisco-u-cf21042578",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T12:23:04.902520+00:00",
+      "last_changed": "2026-08-25T12:23:04.902520+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T12:23:04.902520+00:00",
+      "next_check": "2026-08-26T12:23:04.902520+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/10_1/english/release_notes/PA2D_BK_C93ADAA2_00_cisco-unified-ip-phone-7821/PA2D_BK_C93ADAA2_00_cisco-unified-ip-phone-7821_index.html": {
+      "content_sha": "61b1fae43b19cc1167f86ea861bc5eb1fe25b5ec93cb6918c4a30f76e15da1e5",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7821-7841-7861-10-1-english-release-notes-pa2d-bk-c93adaa2-00-cisco-u-9bbbe39163",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T12:23:08.990822+00:00",
+      "last_changed": "2026-08-25T12:23:08.990822+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T12:23:08.990822+00:00",
+      "next_check": "2026-08-26T12:23:08.990822+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/10_1/english/release_notes/PA2D_BK_R1B754C7_00_rn-10_1_1-7821-41-61-sr1.html": {
       "content_sha": "7f0c7227ca9ca8e0e00c6bb8cb4f6e1c2225a261ed1127e77b3cd9e0dc59be0e",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7821-7841-7861-10-1-english-release-notes-pa2d-bk-r1b754c7-00-rn-10-1-ea37db868d",
@@ -88821,6 +88847,32 @@
       "next_check": "2026-08-26T12:37:49.049555+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/10_1/english/release_notes/PA2D_BK_R1B754C7_00_rn-10_1_1-7821-41-61-sr1/PA2D_BK_R1B754C7_00_rn-10_1_1-7821-41-61-sr1_index.html": {
+      "content_sha": "8e4d889c142acd7fc716d25f99552e72ea83127422b54f7e4a2fec1426c33d8e",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7821-7841-7861-10-1-english-release-notes-pa2d-bk-r1b754c7-00-rn-10-1-3431bbabe7",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T12:23:17.804864+00:00",
+      "last_changed": "2026-08-25T12:23:17.804864+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T12:23:17.804864+00:00",
+      "next_check": "2026-08-26T12:23:17.804864+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/10_1/english/release_notes/PA2D_BK_R1B754C7_00_rn-10_1_1-7821-41-61-sr1/PA2D_BK_R1B754C7_00_rn-10_1_1-7821-41-64-sr1_chapter_00.html": {
+      "content_sha": "2ce261c7ff4e9ff4fa8cf569cba5aa2d9736d51bb3e65f1cababe3918b5d92e7",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7821-7841-7861-10-1-english-release-notes-pa2d-bk-r1b754c7-00-rn-10-1-163fe234b2",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T12:23:13.447908+00:00",
+      "last_changed": "2026-08-25T12:23:13.447908+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T12:23:13.447908+00:00",
+      "next_check": "2026-08-26T12:23:13.447908+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/firmware/10-1-1SR2/english/releasenotes/PA2D_BK_R264634B_00_rn-7821-7841-7861-10_1_1_sr2.html": {
       "content_sha": "2690bd8caca14feb111524ee34200bd733e08a363381749627fb34d1bf658b54",
@@ -168274,5 +168326,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T12:18:04.422511+00:00"
+  "updated_at": "2026-08-25T12:23:18.712096+00:00"
 }
