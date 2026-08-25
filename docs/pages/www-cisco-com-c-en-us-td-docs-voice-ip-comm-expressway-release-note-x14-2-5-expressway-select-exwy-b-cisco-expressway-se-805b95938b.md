@@ -1,12 +1,16 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-release-note-x14-2-5-expressway-select-exwy-b-cisco-expressway-se-805b95938b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/release_note/X14-2-5/Expressway-Select/exwy_b_cisco-expressway-select-release-note-x1425.html
-retrieved_at: 2026-08-20T20:21:27.276929+00:00
+retrieved_at: 2026-08-25T03:01:36.928031+00:00
 ---
 
 Cisco Expressway Select Release Note (X14.2.5)
 
 # Cisco Expressway Select Release Note (X14.2.5)
+
+- (X14.2.6)
+
+- (X14.2.5)
 
 ### Download Options
 
