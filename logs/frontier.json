@@ -1,73 +1,5 @@
 [
   {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCub05699",
-    "depth": 1
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCuq86400",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/virtualized-voice-browser/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ata-190-series-analog-telephone-adapters/211318-Configure-and-Troubleshoot-PLAR-for-Anal.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ata-190-series-analog-telephone-adapters/211318-Configure-and-Troubleshoot-PLAR-for-Anal.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/ata-190-series-analog-telephone-adapters/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/bulk-administration-tool/200596-Bulk-Configure-Changes-with-Import-Expor.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/bulk-administration-tool/200596-Bulk-Configure-Changes-with-Import-Expor.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000-version-15/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/117811-configure-vcs-00.epub",
     "depth": 1
   },
@@ -41997,6 +41929,46 @@
   },
   {
     "url": "https://community.cisco.com/t5/security-knowledge-base/threat-centric-nac-service-integrate-cisco-ise-with-tenable-sc/ta-p/5141349",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-12-6-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/ise-profiling-design-guide/ta-p/3739456",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/how-to-cisco-ise-captive-portals-with-aruba-wireless/ta-p/4633904",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/inline-dtmf-digits-grammar/ta-p/3615379",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/webex-calling-training-for-customers-admin-and-user-users-oct25/ta-p/5010442",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/understanding-virtual-routing-and-forwarding-vrf/ta-p/5053788",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/umbrella-announcements/cisco-umbrella-transitioning-from-digicert-to-identrust/ta-p/5281257",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/thousandeyes-enterprise-agent-how-to-renew-a-self-signed/ta-p/5150190",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/ata-190-series-analog-telephone-adapters/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/cisco-fmc-intrusion-policy-management-export-edit-amp-apply/ta-p/5144417",
     "depth": 2
   }
 ]
