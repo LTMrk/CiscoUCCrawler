@@ -13238,6 +13238,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-105/118770-configure-cucm-00.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-version-105-118770-configure-cu-3de319e959",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:20:48.740119+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T07:20:48.740129+00:00",
+      "next_check": "2026-08-26T07:20:48.740129+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-125/215014-troubleshoot-cisco-headset-5xx-series.html": {
       "content_sha": "1596504fb4fd87089775c5aa255a35c18f51ffc24fe00178aa9d7cb61b35f0c2",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-version-125-215014-troubleshoot-c45b0d7bb1",
@@ -40083,6 +40095,18 @@
       "next_check": "2026-08-26T07:23:52.799217+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/10_0_1/CUCM_BK_SB003832_00_saml-sso-deployment-guide-for.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-saml-sso-deployment-guide-10-0-1-cucm-bk-sb003832-00-saml-sso-deploymen-7bdb0194c6",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T07:20:44.256250+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T07:20:44.256261+00:00",
+      "next_check": "2026-08-26T07:20:44.256261+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/12_5_1/cucm_b_saml-sso-deployment-guide-12_5.html": {
       "content_sha": "66b8aff903a5ee5bc13ad46289d6641aecc7b0d6ba926461fee9854806a7a1db",
@@ -163416,5 +163440,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T07:16:26.680893+00:00"
+  "updated_at": "2026-08-25T07:21:23.133936+00:00"
 }
