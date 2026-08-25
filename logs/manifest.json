@@ -88887,6 +88887,32 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/firmware/10-1-1SR2/english/releasenotes/PA2D_BK_R264634B_00_rn-7821-7841-7861-10_1_1_sr2/PA2D_BK_R264634B_00_rn-7821-7841-7861-10_1_1_sr2_chapter_00.html": {
+      "content_sha": "fce28192dfeaebef68701d4da1f2252bdec86f2ca6b79d350fe436ee53da75cc",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7821-7841-7861-firmware-10-1-1sr2-english-releasenotes-pa2d-bk-r26463-f431bb6d05",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T12:27:30.946765+00:00",
+      "last_changed": "2026-08-25T12:27:30.946765+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T12:27:30.946765+00:00",
+      "next_check": "2026-08-26T12:27:30.946765+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/firmware/10-1-1SR2/english/releasenotes/PA2D_BK_R264634B_00_rn-7821-7841-7861-10_1_1_sr2/PA2D_BK_R264634B_00_rn-7821-7841-7861-10_1_1_sr2_index.html": {
+      "content_sha": "2168efa4665a73b2c632068abb47c17e57a6b814ad9125e0a2a364aef2fa6636",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7821-7841-7861-firmware-10-1-1sr2-english-releasenotes-pa2d-bk-r26463-c4bd262ca4",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T12:27:34.747189+00:00",
+      "last_changed": "2026-08-25T12:27:34.747189+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T12:27:34.747189+00:00",
+      "next_check": "2026-08-26T12:27:34.747189+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/firmware/10_1_1/english/release_notes/PA2D_BK_RFC9D799_00_rn-10_1_1-7821-7841-7861.html": {
       "content_sha": "51fc4ace318ee0013925fee975954e05381a56972851c066c7af6a73ad2c166b",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7821-7841-7861-firmware-10-1-1-english-release-notes-pa2d-bk-rfc9d799-ee7d83db16",
@@ -88899,6 +88925,32 @@
       "next_check": "2026-08-26T12:37:57.508712+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/firmware/10_1_1/english/release_notes/PA2D_BK_RFC9D799_00_rn-10_1_1-7821-7841-7861/PA2D_BK_RFC9D799_00_rn-10_1_1-7821-7841-7861_chapter_00.html": {
+      "content_sha": "faa389365a32bde474584c1eab92e1809071fc4eeb65987c9e1e26438264a55c",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7821-7841-7861-firmware-10-1-1-english-release-notes-pa2d-bk-rfc9d799-cadc8b26ec",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T12:27:39.397953+00:00",
+      "last_changed": "2026-08-25T12:27:39.397953+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T12:27:39.397953+00:00",
+      "next_check": "2026-08-26T12:27:39.397953+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/firmware/10_1_1/english/release_notes/PA2D_BK_RFC9D799_00_rn-10_1_1-7821-7841-7861/PA2D_BK_RFC9D799_00_rn-10_1_1-7821-7841-7861_index.html": {
+      "content_sha": "5ddb3f7b65ff59b35a02b0193c49d5da2545aaa855317d4b0352539a9c401b53",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7821-7841-7861-firmware-10-1-1-english-release-notes-pa2d-bk-rfc9d799-b2055167b5",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T12:27:42.891884+00:00",
+      "last_changed": "2026-08-25T12:27:42.891884+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T12:27:42.891884+00:00",
+      "next_check": "2026-08-26T12:27:42.891884+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832-mpp/11-0-1/firmware/releasenotes/cs78_b_7832-mpp-rn.html": {
       "content_sha": "eda7ba1df77762cf89ad97802dc0b04ba0ea7550713bab9fdf4f531f5d617747",
@@ -168326,5 +168378,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T12:23:18.712096+00:00"
+  "updated_at": "2026-08-25T12:28:22.362171+00:00"
 }
