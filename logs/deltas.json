@@ -1,33 +1,30 @@
 {
-  "run_at": "2026-08-25T10:15:39.813679+00:00",
+  "run_at": "2026-08-25T10:20:41.216553+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvo26409-aba12dc423",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvo88459-2dbe0a8525",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvo92909-bc8ff3ade7",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvp18565-aa4c2e0a87",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvx38439-ac17d5af9f",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvz13019-a72f614102",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvz87962-6952e9e805",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwa17653-449ddff635",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwa49483-a902976f1f",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwa59812-1b1c590293"
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvq23460-f7ef1d0011",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvq27914-9ebaa02af4",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvq81487-790ad2c495",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvr39563-e03e803116",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvs87729-caf65093f9",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvt73209-e4661e5a47",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvt97450-05539b9ce4",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvu69590-a9867b6ef7",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvv22092-05e18a3df7",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwe04145-1145a3b7ba"
   ],
   "unchanged_count": 0,
   "redirected": [
-    "http://cisco.com -> https://www.cisco.com",
-    "http://www-author.cisco.com/c/en/us/support/unified-communications/emergency-responder/products-command-reference-list.html -> https://cisco.login.duosecurity.com/email_first",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsx52550 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvf48761 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvg02661 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvk60451 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm07949 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm49766 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp45885 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/11_5_1/english/CLI_guide/guide/CER_BK_C70FA646_00_cisco-emergency-responder-user-guide-1151/CER_BK_C70FA646_00_cisco-emergency-responder-user-guide-1151_chapter_01.html -> https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/series.html"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz80450 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa18371 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa77818 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwe61617 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwj11507 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwj11516 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwj54976 -> https://id.cisco.com/oauth2/default/v1/authorize"
   ],
   "semillas_encoladas": 20
 }
