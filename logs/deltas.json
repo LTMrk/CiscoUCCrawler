@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-08-25T09:33:08.595748+00:00",
+  "run_at": "2026-08-25T09:45:25.571611+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
@@ -7,8 +7,16 @@
   "blocked": [],
   "unchanged_count": 0,
   "redirected": [
-    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/voi-cube-overview.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
-    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/voi-sip-param-mod.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCdw73527 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCdx36894 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCdy27331 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCdy57722 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCea15121 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://cqc.cloudapps.cisco.com -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://cway.cisco.com/tools/vccalc -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://www.cisco.com/c/en/us/support/conferencing/meeting-management/tsd-products-support-series-home.html -> https://www.cisco.com/c/en/us/support/conferencing/meeting-management/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-basic-config.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-bind.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html"
   ],
   "semillas_encoladas": 20
 }

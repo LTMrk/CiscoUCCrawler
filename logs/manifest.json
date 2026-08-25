@@ -64,6 +64,66 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCdw73527": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscdw73527-9bcc256de2",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:37:41.142469+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T09:37:41.142480+00:00",
+      "next_check": "2026-08-26T09:37:41.142480+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCdx36894": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscdx36894-5c314dac06",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:37:45.159703+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T09:37:45.159714+00:00",
+      "next_check": "2026-08-26T09:37:45.159714+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCdy27331": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscdy27331-fe390c93bd",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:37:53.909676+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T09:37:53.909687+00:00",
+      "next_check": "2026-08-26T09:37:53.909687+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCdy57722": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscdy57722-0eac6e3365",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:37:49.559458+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T09:37:49.559469+00:00",
+      "next_check": "2026-08-26T09:37:49.559469+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCea15121": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscea15121-4be31bef5a",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:37:37.503602+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T09:37:37.503613+00:00",
+      "next_check": "2026-08-26T09:37:37.503613+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCsh20977": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscsh20977-6136164086",
@@ -3962,6 +4022,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://cqc.cloudapps.cisco.com": {
+      "content_sha": null,
+      "doc_id": "cqc-cloudapps-cisco-com-537c9d5bbe",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:44:40.212443+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T09:44:40.212454+00:00",
+      "next_check": "2026-08-26T09:44:40.212454+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://cway.cisco.com/csc": {
       "content_sha": null,
       "doc_id": "cway-cisco-com-csc-55adeb1e2f",
@@ -4011,6 +4083,18 @@
       "next_check": "2026-08-28T04:55:52.455546+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://cway.cisco.com/tools/vccalc": {
+      "content_sha": null,
+      "doc_id": "cway-cisco-com-tools-vccalc-ff39fb6b03",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:39:08.904965+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T09:39:08.904977+00:00",
+      "next_check": "2026-08-26T09:39:08.904977+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://developer.cisco.com/docs/axl/": {
       "content_sha": "1f9855c30c39d4fd623224b395e38aa7f143f154844be4a83123d4c66a10217e",
@@ -7070,6 +7154,18 @@
       "last_seen": "2026-08-25T05:38:52.351766+00:00",
       "next_check": "2026-08-26T05:38:52.351766+00:00",
       "redirect_to": "https://video.cisco.com",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/meeting-management/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-meeting-management-tsd-products-support-series-home-html-130cc576eb",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:44:35.864789+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T09:44:35.864799+00:00",
+      "next_check": "2026-08-26T09:44:35.864799+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/meeting-management/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -16759,6 +16855,30 @@
       "next_check": "2026-08-26T05:35:33.532592+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-basic-config.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-basic-config-html-6abaa11d70",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:45:00.430004+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T09:45:00.430014+00:00",
+      "next_check": "2026-08-26T09:45:00.430014+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-bind.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-bind-html-a19c524c68",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:45:04.177658+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T09:45:04.177668+00:00",
+      "next_check": "2026-08-26T09:45:04.177668+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-call-transfer.html": {
       "content_sha": "ae99d6694b8f35cef329f123b65f99dd1ebbe6b6e1ee58b39e0e6a9ca728922b",
@@ -164131,5 +164251,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T09:33:08.413502+00:00"
+  "updated_at": "2026-08-25T09:45:25.421472+00:00"
 }
