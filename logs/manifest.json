@@ -84,6 +84,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "http://www-author.cisco.com/c/en/us/td/docs/security/fwsm/fwsm31/configuration/guide/fwsm_cfg/inspct_f.html": {
+      "content_sha": null,
+      "doc_id": "www-author-cisco-com-c-en-us-td-docs-security-fwsm-fwsm31-configuration-guide-fwsm-cfg-inspct-f-html-e23e0707c0",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:08:45.104428+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:08:45.104438+00:00",
+      "next_check": "2026-08-26T11:08:45.104438+00:00",
+      "redirect_to": "https://cisco.login.duosecurity.com/email_first",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://activate.cisco.com:443/software/edos/callhome/rc": {
       "content_sha": null,
       "doc_id": "activate-cisco-com-443-software-edos-callhome-rc-376c17ca56",
@@ -4032,6 +4044,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwi85184": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwi85184-7239f3ef01",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:10:13.421252+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T11:10:13.421262+00:00",
+      "next_check": "2026-08-26T11:10:13.421262+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwi94173": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwi94173-ac312dbce8",
@@ -4648,6 +4672,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwo55959": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwo55959-b54e0fbaad",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:10:54.385881+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T11:10:54.385892+00:00",
+      "next_check": "2026-08-26T11:10:54.385892+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwo56062": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwo56062-cf19b9fd48",
@@ -4894,6 +4930,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCws04517": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscws04517-859f680748",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:10:58.776195+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T11:10:58.776205+00:00",
+      "next_check": "2026-08-26T11:10:58.776205+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCws08883": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscws08883-bc0bcc42ce",
@@ -4998,6 +5046,30 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCws76199": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscws76199-7e03568196",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:10:42.104353+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T11:10:42.104364+00:00",
+      "next_check": "2026-08-26T11:10:42.104364+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCws76200": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscws76200-9a77a6afac",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:10:46.337271+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T11:10:46.337282+00:00",
+      "next_check": "2026-08-26T11:10:46.337282+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCws76538": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscws76538-28557da58f",
@@ -5062,6 +5134,30 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt02954": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwt02954-1fc098176c",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:10:37.971901+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T11:10:37.971912+00:00",
+      "next_check": "2026-08-26T11:10:37.971912+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt03065": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwt03065-14ccf8ac9c",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:10:50.078177+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T11:10:50.078189+00:00",
+      "next_check": "2026-08-26T11:10:50.078189+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt07007": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwt07007-cee49e88fa",
@@ -5084,6 +5180,16 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt39204": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwt39204-bab8c9b596",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T11:11:05.565590+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T11:11:05.565597+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt99240": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwt99240-50b6011d0a",
@@ -5094,6 +5200,16 @@
       "next_check": "2026-08-26T10:58:19.735284+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu02324": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwu02324-552938dfea",
+      "fail_count": 1,
+      "first_seen": "2026-08-25T11:11:01.551286+00:00",
+      "http_status": 403,
+      "last_seen": "2026-08-25T11:11:01.551291+00:00",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu20937": {
@@ -5190,6 +5306,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://cisco.com": {
+      "content_sha": null,
+      "doc_id": "cisco-com-89bb66337a",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:10:04.504377+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T11:10:04.504389+00:00",
+      "next_check": "2026-08-26T11:10:04.504389+00:00",
+      "redirect_to": "https://www.cisco.com",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://cisco.com/go/phonefirmwaresupport": {
       "content_sha": null,
       "doc_id": "cisco-com-go-phonefirmwaresupport-93afff0acd",
@@ -5222,6 +5350,18 @@
       "http_status": 302,
       "last_seen": "2026-08-25T09:44:40.212454+00:00",
       "next_check": "2026-08-26T09:44:40.212454+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://cucst.cloudapps.cisco.com/landing": {
+      "content_sha": null,
+      "doc_id": "cucst-cloudapps-cisco-com-landing-b3f2c753dd",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:13:06.177988+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T11:13:06.178000+00:00",
+      "next_check": "2026-08-26T11:13:06.178000+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -5639,6 +5779,18 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/collaboration/call-control/unified-presence/documentation/index.gsp": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-collaboration-call-control-unified-presence-documentation-index-gsp-7fce0ad12b",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:13:18.180268+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:13:18.180280+00:00",
+      "next_check": "2026-08-26T11:13:18.180280+00:00",
+      "redirect_to": "https://developer.cisco.com/site/collaboration/call-control/unified-presence/documentation/",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/contact-center-express/": {
       "content_sha": "7b44298ad66660832d910ddfb7a065406582c57b4f346535b59a98edd4debf14",
       "doc_id": "developer-cisco-com-site-contact-center-express-d18fc10653",
@@ -5728,6 +5880,18 @@
       "last_seen": "2026-08-24T22:14:08.938681+00:00",
       "next_check": "2026-08-25T22:14:08.938681+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/extension-mobility/develop-and-test/documentation/latest-version/emapi-developer-guide.gsp": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-extension-mobility-develop-and-test-documentation-latest-version-emapi-developer-guide-gsp-8d81999b5d",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:13:55.149801+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:13:55.149813+00:00",
+      "next_check": "2026-08-26T11:13:55.149813+00:00",
+      "redirect_to": "https://developer.cisco.com/site/extension-mobility/develop-and-test/documentation/latest-version/emapi-developer-guide.html",
+      "status": "redirect",
       "unchanged_runs": 0
     },
     "https://developer.cisco.com/site/finesse/": {
@@ -6012,6 +6176,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/webdialer/develop-and-test/documentation/latest-version/": {
+      "content_sha": "be9e861027b17f6fee997ede5ffd96cbfc9eddb919c46ec82e6bccafe5354fd3",
+      "doc_id": "developer-cisco-com-site-webdialer-develop-and-test-documentation-latest-version-9929dcf85f",
+      "etag": "W/\"eb66bbab3b068ae76edb2dc3fe9a933b\"",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:14:00.042304+00:00",
+      "last_changed": "2026-08-25T11:14:00.042304+00:00",
+      "last_modified": "Wed, 10 Jun 2026 05:36:12 GMT",
+      "last_seen": "2026-08-25T11:14:00.042304+00:00",
+      "next_check": "2026-08-26T11:14:00.042304+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/webex-developer/": {
       "content_sha": null,
       "doc_id": "developer-cisco-com-site-webex-developer-c5ab507c0c",
@@ -6062,6 +6239,18 @@
       "next_check": "2026-08-25T09:22:34.309925+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://globalcontacts.cloudapps.cisco.com/contacts": {
+      "content_sha": null,
+      "doc_id": "globalcontacts-cloudapps-cisco-com-contacts-d60903653a",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:12:58.291477+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T11:12:58.291502+00:00",
+      "next_check": "2026-08-26T11:12:58.291502+00:00",
+      "redirect_to": "https://www.cisco.com/site/us/en/about/contact-cisco/index.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://hardware.webex.com/products/accessories": {
       "content_sha": null,
@@ -8234,6 +8423,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://snmp.cloudapps.cisco.com/Support/SNMP/do/BrowseMIB.do": {
+      "content_sha": null,
+      "doc_id": "snmp-cloudapps-cisco-com-support-snmp-do-browsemib-do-f7e9fa112d",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:07:59.145397+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T11:07:59.145409+00:00",
+      "next_check": "2026-08-26T11:07:59.145409+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://ucshcltool.cloudapps.cisco.com/public": {
       "content_sha": "40c826491f0bf650d0933aeafc339816566481e5e43768f4af3d180c28444f4d",
       "doc_id": "ucshcltool-cloudapps-cisco-com-public-3fec81b994",
@@ -8422,6 +8623,42 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/15SU2/cucm_b_pcd-rns_15su2.html": {
+      "content_sha": null,
+      "doc_id": "www-author3-cisco-com-content-en-us-td-docs-voice-ip-comm-cucm-pcdadmin-15su2-cucm-b-pcd-rns-15su2-html-a116b70eb2",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:12:45.040872+00:00",
+      "http_status": 303,
+      "last_seen": "2026-08-25T11:12:45.040882+00:00",
+      "next_check": "2026-08-26T11:12:45.040882+00:00",
+      "redirect_to": "https://cisco.login.duosecurity.com/email_first",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_m_sequencing-rules-time-requirements-15.html": {
+      "content_sha": null,
+      "doc_id": "www-author3-cisco-com-content-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-cucm-m-s-661331165f",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:10:08.998923+00:00",
+      "http_status": 303,
+      "last_seen": "2026-08-25T11:10:08.998935+00:00",
+      "next_check": "2026-08-26T11:10:08.998935+00:00",
+      "redirect_to": "https://cisco.login.duosecurity.com/email_first",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-1100/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-1100-model-html-2f1038f303",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:09:38.851523+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:09:38.851535+00:00",
+      "next_check": "2026-08-26T11:09:38.851535+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/conferencing/collaboration-meeting-rooms-cmr/products-installation-and-configuration-guides-list.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-conferencing-collaboration-meeting-rooms-cmr-products-installation-and-configuration-guide-b1de58e2bf",
@@ -8467,6 +8704,30 @@
       "last_seen": "2026-08-25T06:35:38.953597+00:00",
       "next_check": "2026-08-26T06:35:38.953597+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-programming-reference-guides-list.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-contact-center-express-products-programming-reference-guide-61d16c8211",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:08:19.919977+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T11:08:19.919987+00:00",
+      "next_check": "2026-08-26T11:08:19.919987+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-contact-center-express-tsd-products-support-series-home-htm-f11f58ca4f",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:08:07.440459+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:08:07.440470+00:00",
+      "next_check": "2026-08-26T11:08:07.440470+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -16470,6 +16731,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-business-edition-7000-tsd-products-support-series-home-html-5165b410a6",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:09:47.941241+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:09:47.941251+00:00",
+      "next_check": "2026-08-26T11:09:47.941251+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-manager-callmanager-tsd-products-support-ser-0c20e54b8d",
@@ -16494,6 +16767,30 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-version-11-5/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-manager-version-11-5-model-html-7a14a3e065",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:12:49.035156+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:12:49.035166+00:00",
+      "next_check": "2026-08-26T11:12:49.035166+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-version-12-0/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-manager-version-12-0-model-html-74d168d6c9",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:12:53.047041+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:12:53.047054+00:00",
+      "next_check": "2026-08-26T11:12:53.047054+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-system-tsd-products-support-series-home-html-03dfb91b50",
@@ -16503,6 +16800,42 @@
       "last_seen": "2026-08-25T11:02:45.872231+00:00",
       "next_check": "2026-08-26T11:02:45.872231+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unity-express/products-implementation-design-guides-list.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unity-express-products-implementation-design-guides-list-html-0036004302",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:08:36.116087+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:08:36.116098+00:00",
+      "next_check": "2026-08-26T11:08:36.116098+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unity-express/products-maintenance-guides-list.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unity-express-products-maintenance-guides-list-html-e357bea652",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:08:28.686531+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:08:28.686543+00:00",
+      "next_check": "2026-08-26T11:08:28.686543+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unity-express/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unity-express-tsd-products-support-series-home-html-9d31d42194",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:08:40.403574+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:08:40.403586+00:00",
+      "next_check": "2026-08-26T11:08:40.403586+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -16578,6 +16911,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T09:49:48.096997+00:00",
       "next_check": "2026-08-26T09:49:48.096997+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/voi-cube-media-proxy.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-cube-configuration-cube-book-voi-cube-media-proxy-html-9b781a9e63",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:08:11.358901+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:08:11.358912+00:00",
+      "next_check": "2026-08-26T11:08:11.358912+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -47836,6 +48181,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU2/cucm_b_feature-configuration-guide-for-cisco1251SU2/cucm_b_feature-configuration-guide-for-cisco1251SU2_chapter_0110110.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su2-cucm-b-feature-configuration-guide-for-cisco1251su2-cuc-6f46f40da3",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:08:48.573703+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:08:48.573715+00:00",
+      "next_check": "2026-08-26T11:08:48.573715+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/15/fieldNotices/cucm_b_deprecated-ccd-cucm.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU2/cucm_b_feature-configuration-guide-for-cisco1251SU2/cucm_b_feature-configuration-guide-for-cisco1251SU2_chapter_0110111.html": {
       "content_sha": "a7731bc3ea575d8620d56ac305f14a794982b5bfa9e7bcb501ccf8ce5ef7f1f2",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su2-cucm-b-feature-configuration-guide-for-cisco1251su2-cuc-4946f9e3c0",
@@ -66461,6 +66818,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/dna/12_0_1/cucm_b_cucm-dna-guide-1201.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-dna-12-0-1-cucm-b-cucm-dna-guide-1201-html-bb8c9d6e43",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:11:54.911905+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:11:54.911918+00:00",
+      "next_check": "2026-08-26T11:11:54.911918+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/docguide/12_5_1/cucm_b_documentation-guide-cucm_imp_1251.html": {
       "content_sha": "1e56fb871eca324a1404a6ccfde9bb31df4c5d4cd59ab2c5f35c78375670fcbc",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-docguide-12-5-1-cucm-b-documentation-guide-cucm-imp-1251-html-132db22563",
@@ -66538,6 +66907,18 @@
       "next_check": "2026-08-28T10:00:25.954762+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/idp/1001/dpdep.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-idp-1001-dpdep-html-29fca58e4f",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:11:50.431643+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:11:50.431654+00:00",
+      "next_check": "2026-08-26T11:11:50.431654+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1/cup0_b_config-and-admin-guide-1251/cup0_b_config-and-admin-guide-1251_chapter_00.html": {
       "content_sha": "99992f233c9085b12ca463728f3cd52e620ba28b82a0066f0dc9053895dfdfa9",
@@ -72714,6 +73095,18 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/12_0_1/replace/cucm_b_replacing-single-server-or-cluster-1201.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-12-0-1-replace-cucm-b-replacing-single-server-or-cluster-1201-h-4a8268d9ba",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:11:13.295821+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:11:13.295832+00:00",
+      "next_check": "2026-08-26T11:11:13.295832+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/12_5_1/cucm_b_install-guide-cucm-imp-1251.html": {
       "content_sha": "0ec8c2593692406f7c4f2f35ab55651472319bb861c54a45fe3fa2da63f8c815",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-12-5-1-cucm-b-install-guide-cucm-imp-1251-html-a30d4a4f28",
@@ -75196,6 +75589,18 @@
       "next_check": "2026-08-28T11:01:25.864375+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/11_5_1/fieldNotice/cucm_b_fn-deprecated-phone-models-1151.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-11-5-1-fieldnotice-cucm-b-fn-deprecated-phone-models-1151-htm-78ff68737a",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:09:43.441532+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:09:43.441544+00:00",
+      "next_check": "2026-08-26T11:09:43.441544+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_0_1/deprecated_phones/cucm_b_deprecated-phone-models-for-1201.html": {
       "content_sha": "d3876b3bf38f57fef0a796be2ff8bdced9282cf0ec4f80bfde0827de2f0b261f",
@@ -81059,6 +81464,30 @@
       "http_status": 301,
       "last_seen": "2026-08-25T07:59:16.370352+00:00",
       "next_check": "2026-08-26T07:59:16.370352+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab12/collab12.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-srnd-collab12-collab12-html-432faa648f",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:12:11.215732+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:12:11.215744+00:00",
+      "next_check": "2026-08-26T11:12:11.215744+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/collab12/collab12/callpros.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-srnd-collab12-collab12-callpros-html-61b8296952",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T11:13:47.168133+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T11:13:47.168149+00:00",
+      "next_check": "2026-08-26T11:13:47.168149+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -166182,5 +166611,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T11:03:33.318281+00:00"
+  "updated_at": "2026-08-25T11:14:12.433476+00:00"
 }
