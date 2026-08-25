@@ -1,57 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr4b/cs38_b_rns-8831-883nr-1031sr4b.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr4b/cs38_b_rns-8831-883nr-1031sr4b.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr5/cs38_b_rns-8831-8831nr-1031sr5.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr5/cs38_b_rns-8831-8831nr-1031sr5.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10_3_1/english/release_note/CS38_BK_CF3CC967_00_cisco-unified-ip-conference-phone.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10_3_1/english/release_note/CS38_BK_CF3CC967_00_cisco-unified-ip-conference-phone.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/9_3_3/english/release_notes_new/CS38_BK_R67E3E94_00_rn-9_3_3-8831.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/9_3_3/english/release_notes_new/CS38_BK_R67E3E94_00_rn-9_3_3-8831.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/9_3_3/english/release_notes_new/CS38_BK_R67E3E94_00_rn-9_3_3-8831/CS38_BK_R67E3E94_00_rn-9_3_2-8831_chapter_00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/9_3_3/english/release_notes_new/CS38_BK_R67E3E94_00_rn-9_3_3-8831/CS38_BK_R67E3E94_00_rn-9_3_3-8831_index.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/tsd-products-support-series-home.html",
     "depth": 1
   },
@@ -37473,6 +37421,14 @@
   },
   {
     "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/cisco-ucs-platform-emulator-4-2-2ape1/ta-p/4618767",
+    "depth": 2
+  },
+  {
+    "url": "http://tools.cisco.com/support/bugtoolkit/search/getbugdetails.do",
+    "depth": 2
+  },
+  {
+    "url": "http://tools.cisco.com/Support/BugToolKit/search/getBugDetails.do",
     "depth": 2
   }
 ]

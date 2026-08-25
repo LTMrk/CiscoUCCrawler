@@ -93089,6 +93089,32 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/9_3_3/english/release_notes_new/CS38_BK_R67E3E94_00_rn-9_3_3-8831/CS38_BK_R67E3E94_00_rn-9_3_2-8831_chapter_00.html": {
+      "content_sha": "6645bd6f2bb1dc03340ed504bb554ae8b81b7da0a7b01431e903fa065f2db665",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-firmware-9-3-3-english-release-notes-new-cs38-bk-r67e3e94-00-rn--2e9daaf978",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T13:52:30.617507+00:00",
+      "last_changed": "2026-08-25T13:52:30.617507+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T13:52:30.617507+00:00",
+      "next_check": "2026-08-26T13:52:30.617507+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/9_3_3/english/release_notes_new/CS38_BK_R67E3E94_00_rn-9_3_3-8831/CS38_BK_R67E3E94_00_rn-9_3_3-8831_index.html": {
+      "content_sha": "68bde0356da415d991dcb8f3e29ba466cdd97857ac49c6e03dc24d0e051340f8",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-firmware-9-3-3-english-release-notes-new-cs38-bk-r67e3e94-00-rn--d408040921",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T13:52:34.516037+00:00",
+      "last_changed": "2026-08-25T13:52:34.516037+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T13:52:34.516037+00:00",
+      "next_check": "2026-08-26T13:52:34.516037+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm/cs88_b_conference-8832-admin-guide-cucm_chapter_00.html": {
       "content_sha": "0d8011be0f5f348e6dafd614fefb4cf3eb21747b3fd69d96db66c55d8b97910a",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-adminguide-cs88-b-conference-8832-admin-guide-cucm-cs88--b181510b96",
@@ -168966,5 +168992,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T13:47:41.303440+00:00"
+  "updated_at": "2026-08-25T13:52:43.555253+00:00"
 }
