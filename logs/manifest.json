@@ -42062,10 +42062,10 @@
       "first_seen": "2026-08-17T02:20:49.377142+00:00",
       "last_changed": "2026-08-17T02:20:49.377142+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T16:16:57.594128+00:00",
-      "next_check": "2026-08-25T16:16:57.594128+00:00",
+      "last_seen": "2026-08-25T16:21:49.499399+00:00",
+      "next_check": "2026-09-02T16:21:49.499399+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUII_API/b_CUII_API/b_CUII_API_chapter_00.html": {
       "content_sha": "c688f59bde6a74c603235012be29398f2fa9612c72e213628fbfd9da126bb595",
@@ -169282,5 +169282,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T16:16:44.196983+00:00"
+  "updated_at": "2026-08-25T16:22:36.682491+00:00"
 }
