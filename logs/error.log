@@ -11304,3 +11304,22 @@
 [2026-08-25T18:34:26.172152] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/57fc741bd0138a4fe0c6b0e3af7e659c
 [2026-08-25T18:34:26.172202] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/4abe1c0c1efdd712866ca3437e7b6396
 [2026-08-25T18:34:30.198270] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwh31701
+[2026-08-25T18:37:43.501269] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-25T18:37:47.751465] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-25T18:39:05.371057] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-25T18:39:05.565515] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/4dd3df4b441897d5ffa34fce5c48d1a0
+[2026-08-25T18:39:05.565609] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/cd8638e5dbe9ffe18ceb62db81e571a7
+[2026-08-25T18:39:21.961256] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/7de1c9174de06b3597c10c0f027433d1
+[2026-08-25T18:39:37.765691] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa86866
+[2026-08-25T18:39:41.975021] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb23036
+[2026-08-25T18:39:46.002586] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb31964
+[2026-08-25T18:39:50.036338] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa82772
+[2026-08-25T18:39:54.238516] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb04933
+[2026-08-25T18:39:58.348180] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa46959
+[2026-08-25T18:39:58.348250] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/2b037c9c48f6882c092e3ce96112945b
+[2026-08-25T18:39:58.348302] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/43c391845db2f5ee9bdd000f7d6cb598
+[2026-08-25T18:39:58.348338] Omitida: excluida por robots.txt | https://software.cisco.com/download/specialrelease/09ca31082d8734e825ab756051e07994
+[2026-08-25T18:40:02.380419] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz09503
+[2026-08-25T18:40:06.700520] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz18167
+[2026-08-25T18:40:11.097218] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz11016
+[2026-08-25T18:40:15.391379] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz16729
