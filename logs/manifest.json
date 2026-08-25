@@ -15431,6 +15431,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/customer-voice-portal/downloads/courtesy-callback-scripts/": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-customer-voice-portal-downloads-courtesy-callback-scripts-937d2150f6",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:22:33.699503+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:22:33.699513+00:00",
+      "next_check": "2026-08-26T21:22:33.699513+00:00",
+      "redirect_to": "https://developer.cisco.com/site/customer-voice-portal/",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/enterprise-chat-and-email/": {
       "content_sha": "d868875a431e92b8a54b917b5424de3ea6fba373148627616d816980263282df",
       "doc_id": "developer-cisco-com-site-enterprise-chat-and-email-5dbb2d0a59",
@@ -15800,6 +15812,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T21:16:05.161627+00:00",
       "next_check": "2026-08-26T21:16:05.161627+00:00",
+      "redirect_to": "https://developer.cisco.com/docs/packaged-contact-center/",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/packaged-contact-center/documentation/index.gsp": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-packaged-contact-center-documentation-index-gsp-3338f13e7b",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:22:38.238701+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:22:38.238712+00:00",
+      "next_check": "2026-08-26T21:22:38.238712+00:00",
       "redirect_to": "https://developer.cisco.com/docs/packaged-contact-center/",
       "status": "redirect",
       "unchanged_runs": 0
@@ -27394,6 +27418,18 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/switches/catalyst-6500-series-switches/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-switches-catalyst-6500-series-switches-tsd-products-support-series-home-html-4cc8f34400",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:26:29.256545+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:26:29.256555+00:00",
+      "next_check": "2026-08-26T21:26:29.256555+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/switches/catalyst-6500-series-switches/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-3000/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-business-edition-3000-tsd-products-support-series-home-html-2d8e404cd4",
@@ -27451,6 +27487,18 @@
       "last_seen": "2026-08-25T11:09:47.941251+00:00",
       "next_check": "2026-08-26T11:09:47.941251+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-expressway-series-tsd-products-support-series-home-html-738b55d779",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:26:47.250034+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:26:47.250044+00:00",
+      "next_check": "2026-08-26T21:26:47.250044+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -94507,6 +94555,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/virtual/CHCS_BK_C7C7ED05_00_cisco-collaboration-on-virtual-servers/CHCS_BK_C7C7ED05_00_cisco-collaboration-on-virtual-servers_chapter_01.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-virtual-chcs-bk-c7c7ed05-00-cisco-collaboration-on-virtual-servers-chcs-6f1dfcab7b",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:22:21.436533+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:22:21.436544+00:00",
+      "next_check": "2026-08-26T21:22:21.436544+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/virtual/CUCM_BK_C90D1BE9_00_cisco-collaboration-on-virtual-servers.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-virtual-cucm-bk-c90d1be9-00-cisco-collaboration-on-virtual-servers-html-a3e4268ebf",
@@ -132699,6 +132759,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_0_1/Reference/Guide/ucce_b_cisco-unified-icm-acd-supplement-1201.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-0-1-reference-g-6b12ae2609",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:22:08.757056+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:22:08.757067+00:00",
+      "next_check": "2026-08-26T21:22:08.757067+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/administration/guide/ucce_b_administration-guide-for-cisco-unified12_5/ucce_b_administration-guide-for-cisco-unified12_5_chapter_01.html": {
       "content_sha": "8b6907dda51b7f19a16d39bfe83d4be35727b52bea1aa2d3cca150efbd8c5a99",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-administrat-8c6f45d673",
@@ -156251,6 +156323,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/b_cc-release-2_chapter_01.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-3089950999",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:23:56.970389+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:23:56.970400+00:00",
+      "next_check": "2026-08-26T21:23:56.970400+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/b_cc-release-2_chapter_0100.html": {
       "content_sha": "bb3468b59da079c34e4ef76f829013b2f270bf9b033b9763fe5d62d0efeb6f72",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-3de98861ec",
@@ -156263,6 +156347,270 @@
       "next_check": "2026-08-29T01:30:01.821160+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/b_cc-release-2_chapter_01000.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-e1b03f5584",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:26:11.491656+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:26:11.491666+00:00",
+      "next_check": "2026-08-26T21:26:11.491666+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/b_cc-release-2_chapter_01001.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-430463a261",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:26:17.423659+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:26:17.423671+00:00",
+      "next_check": "2026-08-26T21:26:17.423671+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/b_cc-release-2_chapter_0101.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-caecca6d06",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:24:31.759034+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:24:31.759043+00:00",
+      "next_check": "2026-08-26T21:24:31.759043+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/b_cc-release-2_chapter_011.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-98f627d0f8",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:24:06.971119+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:24:06.971131+00:00",
+      "next_check": "2026-08-26T21:24:06.971131+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/b_cc-release-2_chapter_0111.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-a3e6f85bb6",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:24:51.472567+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:24:51.472578+00:00",
+      "next_check": "2026-08-26T21:24:51.472578+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/b_cc-release-2_preface_00.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-ac03199784",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:23:51.336669+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:23:51.336681+00:00",
+      "next_check": "2026-08-26T21:23:51.336681+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/contact_routing.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-6640b0578a",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:24:18.466904+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:24:18.466915+00:00",
+      "next_check": "2026-08-26T21:24:18.466915+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/integrate-wxcc-with-wxm.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-131db5f02b",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:26:05.341488+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:26:05.341498+00:00",
+      "next_check": "2026-08-26T21:26:05.341498+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/m_call-recording.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-58568513b1",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:24:37.020812+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:24:37.020824+00:00",
+      "next_check": "2026-08-26T21:24:37.020824+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/m_getting-started.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-4ba6751aec",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:24:02.474477+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:24:02.474488+00:00",
+      "next_check": "2026-08-26T21:24:02.474488+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/wcc-business-rules.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-c4a57ab97d",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:24:12.144812+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:24:12.144825+00:00",
+      "next_check": "2026-08-26T21:24:12.144825+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/wcc-flow-designer.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-b14f6d9039",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:24:27.034124+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:24:27.034134+00:00",
+      "next_check": "2026-08-26T21:24:27.034134+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/wcc-opt-out-in-queue.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-bb3dad6723",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:25:26.817969+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:25:26.817980+00:00",
+      "next_check": "2026-08-26T21:25:26.817980+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/wcc-streo-recording.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-d50c209f4d",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:25:21.361811+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:25:21.361828+00:00",
+      "next_check": "2026-08-26T21:25:21.361828+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/wcc_blended-routing.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-3ac046b21a",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:25:40.680563+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:25:40.680574+00:00",
+      "next_check": "2026-08-26T21:25:40.680574+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/wcc_courtesy-callback.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-fc92ca80ab",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:25:46.612144+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:25:46.612154+00:00",
+      "next_check": "2026-08-26T21:25:46.612154+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/wcc_m-outdial-transfer-2-queue.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-c68a1bc5e3",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:25:08.917593+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:25:08.917605+00:00",
+      "next_check": "2026-08-26T21:25:08.917605+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/wcc_m_linkage_feature_summary.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-aaf2fdeaa0",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:25:34.575688+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:25:34.575698+00:00",
+      "next_check": "2026-08-26T21:25:34.575698+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/wcc_oem-integration-with-acqueon.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-79684fc753",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:25:52.323449+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:25:52.323460+00:00",
+      "next_check": "2026-08-26T21:25:52.323460+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/wxcc-agent-transfer-to-an-ep.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-80caf32916",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:25:16.218795+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:25:16.218805+00:00",
+      "next_check": "2026-08-26T21:25:16.218805+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/wxcc-new-digital-channels.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-3826adf7a0",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:25:01.582773+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:25:01.582785+00:00",
+      "next_check": "2026-08-26T21:25:01.582785+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/wxcc_self-service.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-c450282f0b",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T21:25:59.036334+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T21:25:59.036345+00:00",
+      "next_check": "2026-08-26T21:25:59.036345+00:00",
+      "redirect_to": "https://help.webex.com/en-us/collection/cl-np50asw",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/bre_20/wcc_b_cisco-webex-contact-center-business.html": {
       "content_sha": null,
@@ -178268,5 +178616,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T21:17:15.919737+00:00"
+  "updated_at": "2026-08-25T21:27:25.990191+00:00"
 }
