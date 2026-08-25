@@ -1,5 +1,41 @@
 {
   "entradas": {
+    "http://cisco.com/en/US/docs/routers/access/vg350/software/configuration/guide/vg350scg": {
+      "content_sha": null,
+      "doc_id": "cisco-com-en-us-docs-routers-access-vg350-software-configuration-guide-vg350scg-23903ede6d",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:49:56.128411+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T09:49:56.128422+00:00",
+      "next_check": "2026-08-26T09:49:56.128422+00:00",
+      "redirect_to": "https://www.cisco.com/en/US/docs/routers/access/vg350/software/configuration/guide/vg350scg",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "http://csr.cisco.com": {
+      "content_sha": null,
+      "doc_id": "csr-cisco-com-b1a684efde",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:54:00.441910+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T09:54:00.441920+00:00",
+      "next_check": "2026-08-26T09:54:00.441920+00:00",
+      "redirect_to": "https://www.cisco.com/site/us/en/about/purpose/environmental-sustainability/supplier-code-of-conduct.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "http://csr.cisco.com/pages/environment": {
+      "content_sha": null,
+      "doc_id": "csr-cisco-com-pages-environment-dd8cb11ed1",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:54:04.493959+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T09:54:04.493970+00:00",
+      "next_check": "2026-08-26T09:54:04.493970+00:00",
+      "redirect_to": "https://www.cisco.com/site/us/en/about/purpose/environmental-sustainability/supplier-code-of-conduct.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "http://cway.cisco.com/go/sa": {
       "content_sha": null,
       "doc_id": "cway-cisco-com-go-sa-d62dc94c11",
@@ -9,6 +45,18 @@
       "last_seen": "2026-08-25T07:54:06.044677+00:00",
       "next_check": "2026-08-26T07:54:06.044677+00:00",
       "redirect_to": "https://cway.cisco.com/cli",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "http://video.cisco.com": {
+      "content_sha": null,
+      "doc_id": "video-cisco-com-ce769ec954",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:53:56.624201+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T09:53:56.624210+00:00",
+      "next_check": "2026-08-26T09:53:56.624210+00:00",
+      "redirect_to": "https://video.cisco.com",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -4010,6 +4058,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/search": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-search-cf7254412d",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:54:38.979798+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T09:54:38.979808+00:00",
+      "next_check": "2026-08-26T09:54:38.979808+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://cdetsng.cisco.com/webui": {
       "content_sha": null,
       "doc_id": "cdetsng-cisco-com-webui-6b3865aa31",
@@ -4019,6 +4079,30 @@
       "last_seen": "2026-08-25T06:55:38.753095+00:00",
       "next_check": "2026-08-26T06:55:38.753095+00:00",
       "redirect_to": "https://cisco.login.duosecurity.com/email_first",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://cisco.com/go/phonefirmwaresupport": {
+      "content_sha": null,
+      "doc_id": "cisco-com-go-phonefirmwaresupport-93afff0acd",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:54:42.794378+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T09:54:42.794389+00:00",
+      "next_check": "2026-08-26T09:54:42.794389+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/116684-technote-ipphone-00.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://cisco.com/go/tls13compatmatrix": {
+      "content_sha": null,
+      "doc_id": "cisco-com-go-tls13compatmatrix-6854bcbab0",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:54:21.094148+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T09:54:21.094158+00:00",
+      "next_check": "2026-08-26T09:54:21.094158+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/unified/communications/system/Compatibility/TLS/TLS1-3-Compatibility-Matrix.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -4939,6 +5023,30 @@
       "last_seen": "2026-08-25T04:34:13.192189+00:00",
       "next_check": "2026-08-26T04:34:13.192189+00:00",
       "redirect_to": "https://www.webex.com/us/en/devices.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/openBasicSearch.do": {
+      "content_sha": null,
+      "doc_id": "locatr-cloudapps-cisco-com-wwchannels-locatr-openbasicsearch-do-f6b4219243",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:53:51.830227+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T09:53:51.830237+00:00",
+      "next_check": "2026-08-26T09:53:51.830237+00:00",
+      "redirect_to": "https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp;jsessionid=A06E9C48F80F055162834C5442B8EAA7",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://marketplace.cisco.com": {
+      "content_sha": null,
+      "doc_id": "marketplace-cisco-com-6e79c7ad07",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:53:47.960098+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T09:53:47.960107+00:00",
+      "next_check": "2026-08-26T09:53:47.960107+00:00",
+      "redirect_to": "https://marketplace.cisco.com/en-US/home",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -15169,6 +15277,30 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-manager-callmanager-tsd-products-support-ser-0c20e54b8d",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:54:33.464941+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T09:54:33.464951+00:00",
+      "next_check": "2026-08-26T09:54:33.464951+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-express/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-manager-express-tsd-products-support-series--1875c37733",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:54:55.580111+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T09:54:55.580120+00:00",
+      "next_check": "2026-08-26T09:54:55.580120+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-express/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/products-installation-and-configuration-guides-list.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-webex-calling-products-installation-and-configuration-guides-list-h-604002d218",
@@ -15232,6 +15364,18 @@
       "next_check": "2026-08-28T05:35:14.886624+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/multiple-outbound-dial-peer.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-cube-configuration-cube-book-multiple-outbound-dial-peer-html-ab68b393f7",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:49:48.096985+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T09:49:48.096997+00:00",
+      "next_check": "2026-08-26T09:49:48.096997+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/voi-cube-overview.html": {
       "content_sha": null,
@@ -17750,6 +17894,18 @@
       "next_check": "2026-08-28T05:41:50.795220+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/voiceport/configuration/15-mt/vp-15-mt-book.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-voiceport-configuration-15-mt-vp-15-mt-book-html-2e99f1db3a",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:53:09.507033+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T09:53:09.507044+00:00",
+      "next_check": "2026-08-26T09:53:09.507044+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/obsolete/ios-nx-os-software/cisco-ios-15-4m-t.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg350/hardware/installation/guide/vg350_hig/vg350higcabl.html": {
       "content_sha": "648b8100b035a988dc10c9ff8e50534e675852611c09f04e30fc9c532cf3de3e",
@@ -41059,6 +41215,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T08:33:43.597391+00:00",
       "next_check": "2026-08-26T08:33:43.597391+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/sysConfig/CUCM_BK_SE5DAF88_00_cucm-system-configuration-guide-1151/CUCM_BK_SE5DAF88_00_cucm-system-configuration-guide-1151_chapter_01001.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-11-5-1-sysconfig-cucm-bk-se5daf88-00-cucm-system-configuration-gu-0ecd25f894",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T09:53:05.608740+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T09:53:05.608750+00:00",
+      "next_check": "2026-08-26T09:53:05.608750+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -164251,5 +164419,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T09:45:25.421472+00:00"
+  "updated_at": "2026-08-25T09:55:08.542060+00:00"
 }

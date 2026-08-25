@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-08-25T09:45:25.571611+00:00",
+  "run_at": "2026-08-25T09:55:08.724862+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
@@ -7,16 +7,20 @@
   "blocked": [],
   "unchanged_count": 0,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCdw73527 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCdx36894 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCdy27331 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCdy57722 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCea15121 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://cqc.cloudapps.cisco.com -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://cway.cisco.com/tools/vccalc -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://www.cisco.com/c/en/us/support/conferencing/meeting-management/tsd-products-support-series-home.html -> https://www.cisco.com/c/en/us/support/conferencing/meeting-management/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-basic-config.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
-    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-bind.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html"
+    "http://cisco.com/en/US/docs/routers/access/vg350/software/configuration/guide/vg350scg -> https://www.cisco.com/en/US/docs/routers/access/vg350/software/configuration/guide/vg350scg",
+    "http://csr.cisco.com -> https://www.cisco.com/site/us/en/about/purpose/environmental-sustainability/supplier-code-of-conduct.html",
+    "http://csr.cisco.com/pages/environment -> https://www.cisco.com/site/us/en/about/purpose/environmental-sustainability/supplier-code-of-conduct.html",
+    "http://video.cisco.com -> https://video.cisco.com",
+    "https://bst.cloudapps.cisco.com/bugsearch/search -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://cisco.com/go/phonefirmwaresupport -> https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/116684-technote-ipphone-00.html",
+    "https://cisco.com/go/tls13compatmatrix -> https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/unified/communications/system/Compatibility/TLS/TLS1-3-Compatibility-Matrix.html",
+    "https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/openBasicSearch.do -> https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp;jsessionid=A06E9C48F80F055162834C5442B8EAA7",
+    "https://marketplace.cisco.com -> https://marketplace.cisco.com/en-US/home",
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/tsd-products-support-series-home.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-express/tsd-products-support-series-home.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-express/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/multiple-outbound-dial-peer.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/voiceport/configuration/15-mt/vp-15-mt-book.html -> https://www.cisco.com/c/en/us/obsolete/ios-nx-os-software/cisco-ios-15-4m-t.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/11_5_1/sysConfig/CUCM_BK_SE5DAF88_00_cucm-system-configuration-guide-1151/CUCM_BK_SE5DAF88_00_cucm-system-configuration-guide-1151_chapter_01001.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html"
   ],
   "semillas_encoladas": 20
 }
