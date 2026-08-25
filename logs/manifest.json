@@ -112,6 +112,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur49008": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscur49008-e846b028fc",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T06:16:14.911632+00:00",
+      "http_status": 302,
+      "last_seen": "2026-08-25T06:16:14.911643+00:00",
+      "next_check": "2026-08-26T06:16:14.911643+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur84461": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscur84461-6db167229b",
@@ -25089,6 +25101,18 @@
       "next_check": "2026-08-26T06:31:49.454778+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/directoryconnector/cmgt_b_directory-connector-guide-admins/cmgt_b_directory-connector-guide-admins_chapter_0111.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-directoryconnector-cmgt-b-directory--3c99e60fd4",
+      "fail_count": 0,
+      "first_seen": "2026-08-25T06:16:54.019752+00:00",
+      "http_status": 301,
+      "last_seen": "2026-08-25T06:16:54.019766+00:00",
+      "next_check": "2026-08-26T06:16:54.019766+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/zqvufbb/Deployment-Guide-for-Directory-Connector",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/messageservice/cmgt_b_spark-hybrid-message-deployment-guide.html": {
       "content_sha": "a7097ec8c63616a553fdef36550b9f2e4dcc179d7f3ca3c6c6134e48076fbd31",
@@ -163236,5 +163260,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T06:12:31.395769+00:00"
+  "updated_at": "2026-08-25T06:16:58.292356+00:00"
 }

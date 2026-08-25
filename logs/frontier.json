@@ -1,57 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur49008",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/215012-configure-the-remember-me-api-for-persis.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/215012-configure-the-remember-me-api-for-persis.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/webex-control-hub/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/directoryconnector/cmgt_b_directory-connector-guide-admins/cmgt_b_directory-connector-guide-admins_chapter_0111.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques.epub",
     "depth": 1
   },
@@ -42129,6 +42077,10 @@
   },
   {
     "url": "https://video.cisco.com",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/zqvufbb/Deployment-Guide-for-Directory-Connector",
     "depth": 1
   }
 ]

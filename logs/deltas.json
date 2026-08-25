@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-08-25T06:12:31.594615+00:00",
+  "run_at": "2026-08-25T06:16:58.474699+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
@@ -7,9 +7,8 @@
   "blocked": [],
   "unchanged_count": 0,
   "redirected": [
-    "https://video.cisco.com/detail/videos/collaboration/video/5810206387001/how-to-take-a-backup-of-tms-tmspe-databases -> https://video.cisco.com",
-    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-server/118387-technote-tms-00.html -> https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/products-tech-notes-list.html",
-    "https://www.cisco.com/c/en/us/td/docs/telepresence/infrastructure/tms/config_guide/cmr_hybrid_15_0/cmrh_b_cmr-hybrid-configuration-guide/cmrh_b_cmr-hybrid-configuration-guide_chapter_01001.html -> https://www.cisco.com/c/en/us/support/conferencing/retired.html"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur49008 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/directoryconnector/cmgt_b_directory-connector-guide-admins/cmgt_b_directory-connector-guide-admins_chapter_0111.html -> https://help.webex.com/en-us/article/zqvufbb/Deployment-Guide-for-Directory-Connector"
   ],
   "semillas_encoladas": 20
 }
