@@ -1,53 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221657-demonstrate-ip-phone-migration-from-secu.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221657-demonstrate-ip-phone-migration-from-secu.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/222343-configure-secure-ad-hoc-conference-on-cu.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/222343-configure-secure-ad-hoc-conference-on-cu.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-express/211257-CUCME-Configuration-Best-Practices.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-express/211257-CUCME-Configuration-Best-Practices.mobi",
-    "depth": 1
-  },
-  {
-    "url": "http://stsapp-prd-11.cisco.com:8080/rulemanager/as/as.Details.action",
-    "depth": 1
-  },
-  {
-    "url": "http://tools.cisco.com/squish/E8220",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-express/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-express/211270-Basic-Configuration-Guide-for-CUCME-CME.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-express/211270-Basic-Configuration-Guide-for-CUCME-CME.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-express/212091-Configure-and-Troubleshoot-Directory-Ser.epub",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-express/212091-Configure-and-Troubleshoot-Directory-Ser.mobi",
     "depth": 1
   },
@@ -40789,6 +40741,22 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200787-How-to-Collect-Traces-for-CUCM-9-x-10-x.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/286327511/type/282786567/release/14.1",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/block-incoming-call-based-on-the-caller-id-using-translation/ta-p/4767042",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/after-hours-call-blocking-on-cme/ta-p/3118480",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/basics-of-globalized-call-routing/ta-p/3121674",
     "depth": 2
   }
 ]
