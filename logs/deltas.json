@@ -1,30 +1,24 @@
 {
-  "run_at": "2026-08-25T12:01:57.234800+00:00",
+  "run_at": "2026-08-25T12:07:31.328320+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscum37544-33446a1279",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscun08119-89539caf07",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscun13192-cc20267b75",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscun21008-f112d9c7ee",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscun22302-7b02de4fdf",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscun95157-3c28cdb75d",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscut46191-f483337c88",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscuu21964-6cf442d16b",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscuu51912-0457f30385",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscuu95425-35c6a9c6e9"
+    "bst-cloudapps-cisco-com-bugsearch-bug-20cscur24122-b2f090846d",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscut46189-98230e4a91",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscuu55228-298d5a7c73"
   ],
   "unchanged_count": 0,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCus91722 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCus91884 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCut19771 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur16878 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur24122 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCus28530 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCus31298 -> https://id.cisco.com/oauth2/default/v1/authorize"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCuq61271 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCur16878 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo31475 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCup99597 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuq05680 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuq06176 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuq60463 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/9_3_1SR1/release_notes/P069_BK_RF63D36F_00_rn-9_3_1_sr1-6900-series/P069_BK_RF63D36F_00_rn-9_3_1_sr1-6900-series_chapter_00.html -> https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-6900-series/series.html"
   ],
   "semillas_encoladas": 20
 }

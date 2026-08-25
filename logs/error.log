@@ -10186,3 +10186,19 @@
 [2026-08-25T12:01:48.798025] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun21008
 [2026-08-25T12:01:52.837037] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun22302
 [2026-08-25T12:01:56.929843] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCun95157
+[2026-08-25T12:04:53.494506] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-25T12:04:57.609709] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-25T12:06:12.135523] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-25T12:06:44.190151] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCur24122
+[2026-08-25T12:06:48.595110] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCut46189
+[2026-08-25T12:06:52.640788] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuu55228
+[2026-08-25T12:06:52.787850] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/931/6900_931.epub
+[2026-08-25T12:06:57.076604] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/931/6900_931.mobi
+[2026-08-25T12:07:01.471477] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/9_3_1SR1/release_notes/P069_BK_RF63D36F_00_rn-9_3_1_sr1-6900-series.epub
+[2026-08-25T12:07:05.834629] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/9_3_1SR1/release_notes/P069_BK_RF63D36F_00_rn-9_3_1_sr1-6900-series.mobi
+[2026-08-25T12:07:17.265074] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/admin_guide/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0.html
+[2026-08-25T12:07:18.361187] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/admin_guide/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0.epub
+[2026-08-25T12:07:22.700581] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/admin_guide/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0.mobi
+[2026-08-25T12:07:22.888657] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/282933048/type
+[2026-08-25T12:07:30.165395] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-8800/english/accessories/p881_b_accessorie-guide-for-cisco-ip.html
+[2026-08-25T12:07:31.025218] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-8800/english/accessories/p881_b_accessorie-guide-for-cisco-ip.epub
