@@ -2057,6 +2057,12 @@
     "ultima_vez": "2026-08-25T10:20:40.931801+00:00",
     "veces": 1
   },
+  "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt98261": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T19:59:19.538108+00:00",
+    "veces": 1
+  },
   "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt98590": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
@@ -2429,6 +2435,12 @@
     "ultima_vez": "2026-08-25T18:28:49.033481+00:00",
     "veces": 1
   },
+  "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw17119": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T19:58:54.208311+00:00",
+    "veces": 1
+  },
   "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw23924": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
@@ -2469,6 +2481,12 @@
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-21T10:35:44.221206+00:00",
+    "veces": 1
+  },
+  "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw62772": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T19:58:50.145991+00:00",
     "veces": 1
   },
   "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw64084": {
@@ -2789,10 +2807,22 @@
     "ultima_vez": "2026-08-25T18:28:53.424423+00:00",
     "veces": 1
   },
+  "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy63692": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T19:59:28.155470+00:00",
+    "veces": 1
+  },
   "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy73950": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-25T17:42:47.564092+00:00",
+    "veces": 1
+  },
+  "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy91067": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T19:59:02.736643+00:00",
     "veces": 1
   },
   "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy98070": {
@@ -2831,6 +2861,12 @@
     "ultima_vez": "2026-08-25T18:40:02.380334+00:00",
     "veces": 1
   },
+  "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz10953": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T19:59:06.869951+00:00",
+    "veces": 1
+  },
   "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz11016": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
@@ -2853,6 +2889,12 @@
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-25T18:40:06.700434+00:00",
+    "veces": 1
+  },
+  "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz21484": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T19:59:11.157578+00:00",
     "veces": 1
   },
   "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz26111": {
@@ -2909,6 +2951,12 @@
     "ultima_vez": "2026-08-25T17:42:26.637148+00:00",
     "veces": 1
   },
+  "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz50705": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T19:59:15.163846+00:00",
+    "veces": 1
+  },
   "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz64032": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
@@ -2931,6 +2979,12 @@
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-21T10:43:01.973387+00:00",
+    "veces": 1
+  },
+  "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz74481": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T19:58:58.373477+00:00",
     "veces": 1
   },
   "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz87713": {
@@ -3063,6 +3117,12 @@
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-25T10:15:39.534196+00:00",
+    "veces": 1
+  },
+  "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa69468": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-08-25T19:59:23.883116+00:00",
     "veces": 1
   },
   "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa82772": {
