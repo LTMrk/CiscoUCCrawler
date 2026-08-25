@@ -91224,6 +91224,32 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8811_8841_8851_8861/firmware/10-2-2/releasenotes/P881_BK_81C61BA9_00_8800-phone-series-rn-10_2_2/P881_BK_81C61BA9_00_8800-phone-series-rn-10_2_2_chapter_00.html": {
+      "content_sha": "cd1efb4aaa56e93d66a81f2bb34c41569df8cb5897586cb417b8ae267b17bdf0",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8811-8841-8851-8861-firmware-10-2-2-releasenotes-p881-bk-81c61ba9-00--a81bc63332",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T13:11:07.605093+00:00",
+      "last_changed": "2026-08-25T13:11:07.605093+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T13:11:07.605093+00:00",
+      "next_check": "2026-08-26T13:11:07.605093+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8811_8841_8851_8861/firmware/10-2-2/releasenotes/P881_BK_81C61BA9_00_8800-phone-series-rn-10_2_2/P881_BK_81C61BA9_00_8800-phone-series-rn-10_2_2_index.html": {
+      "content_sha": "ab1310e90f0086288d05b913f208fb3e1f226c632765d9314771a6bcd4daf9a4",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8811-8841-8851-8861-firmware-10-2-2-releasenotes-p881-bk-81c61ba9-00--95670655cb",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-08-25T13:11:11.331963+00:00",
+      "last_changed": "2026-08-25T13:11:11.331963+00:00",
+      "last_modified": null,
+      "last_seen": "2026-08-25T13:11:11.331963+00:00",
+      "next_check": "2026-08-26T13:11:11.331963+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8811_8841_8851_8861/firmware/10-3-1/releasenotes/P881_BK_CA4C768A_00_cisco-ip-phone-8800-series.html": {
       "content_sha": "50c49ad56e4fce01f5a7b6eca4e61ebaf195e576e3012bcacaf9ade8450c8f8f",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8811-8841-8851-8861-firmware-10-3-1-releasenotes-p881-bk-ca4c768a-00--84efe53e4a",
@@ -168570,5 +168596,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-25T13:06:10.781648+00:00"
+  "updated_at": "2026-08-25T13:11:12.408098+00:00"
 }
