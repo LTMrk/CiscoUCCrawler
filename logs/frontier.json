@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-pi-epn-codex/cvrf/cisco-sa-20191106-pi-epn-codex_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-wsa-unauth-devreset/cvrf/cisco-sa-20191106-wsa-unauth-devreset_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-idn-xss/cvrf/cisco-sa-20191106-idn-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-spa500-script/cvrf/cisco-sa-20191106-spa500-script_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-wbs-privilege/cvrf/cisco-sa-20191106-wbs-privilege_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-sbr-cominj/cvrf/cisco-sa-20191106-sbr-cominj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-msa-open-redirect/cvrf/cisco-sa-20191106-msa-open-redirect_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-telepres-roomos-privesc/cvrf/cisco-sa-20191106-telepres-roomos-privesc_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-rv32x/cvrf/cisco-sa-20191106-rv32x_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-rv0x2/cvrf/cisco-sa-20191106-rv0x2_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-telece-ros-eve/cvrf/cisco-sa-20191106-telece-ros-eve_cvrf.xml",
     "depth": 2
   },

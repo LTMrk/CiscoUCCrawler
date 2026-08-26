@@ -15492,3 +15492,16 @@
 [2026-08-26T14:50:01.019060] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190925-ftp/cvrf/cisco-sa-20190925-ftp_cvrf.xml
 [2026-08-26T14:50:05.122177] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-asa-dos/cvrf/cisco-sa-20191002-asa-dos_cvrf.xml
 [2026-08-26T14:50:09.328604] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-ise-xss/cvrf/cisco-sa-20191002-ise-xss_cvrf.xml
+[2026-08-26T14:54:51.484839] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-26T14:54:55.488886] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-26T14:56:07.843907] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-26T14:56:08.714989] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-pi-epn-codex/cvrf/cisco-sa-20191106-pi-epn-codex_cvrf.xml
+[2026-08-26T14:56:12.442343] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-wsa-unauth-devreset/cvrf/cisco-sa-20191106-wsa-unauth-devreset_cvrf.xml
+[2026-08-26T14:56:16.711386] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-idn-xss/cvrf/cisco-sa-20191106-idn-xss_cvrf.xml
+[2026-08-26T14:56:21.018818] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-spa500-script/cvrf/cisco-sa-20191106-spa500-script_cvrf.xml
+[2026-08-26T14:56:25.194396] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-wbs-privilege/cvrf/cisco-sa-20191106-wbs-privilege_cvrf.xml
+[2026-08-26T14:56:29.581991] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-sbr-cominj/cvrf/cisco-sa-20191106-sbr-cominj_cvrf.xml
+[2026-08-26T14:56:33.851674] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-msa-open-redirect/cvrf/cisco-sa-20191106-msa-open-redirect_cvrf.xml
+[2026-08-26T14:56:37.998867] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-telepres-roomos-privesc/cvrf/cisco-sa-20191106-telepres-roomos-privesc_cvrf.xml
+[2026-08-26T14:56:42.230200] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-rv32x/cvrf/cisco-sa-20191106-rv32x_cvrf.xml
+[2026-08-26T14:56:46.527295] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-rv0x2/cvrf/cisco-sa-20191106-rv0x2_cvrf.xml
