@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-secure-nam-priv-esc-szu2vYpZ/cvrf/cisco-sa-secure-nam-priv-esc-szu2vYpZ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cnfd-rwpesc-ZAOufyx8/cvrf/cisco-sa-cnfd-rwpesc-ZAOufyx8_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ipphone-multi-vulns-cXAhCvS/cvrf/cisco-sa-ipphone-multi-vulns-cXAhCvS_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-websrvs-dos-X8gNucD2/cvrf/cisco-sa-asaftd-websrvs-dos-X8gNucD2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-persist-rce-FLsNXF4h/cvrf/cisco-sa-asaftd-persist-rce-FLsNXF4h_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snmp-uwBXfqww/cvrf/cisco-sa-snmp-uwBXfqww_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-dos-Hq4d3tZG/cvrf/cisco-sa-ios-dos-Hq4d3tZG_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ndfc-dir-trav-SSn3AYDw/cvrf/cisco-sa-ndfc-dir-trav-SSn3AYDw_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cem-csrf-suCmNjFr/cvrf/cisco-sa-cem-csrf-suCmNjFr_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-ssrf-FtSTh5Oz/cvrf/cisco-sa-ise-ssrf-FtSTh5Oz_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ndfccsrf-TEmZEfJ9/cvrf/cisco-sa-ndfccsrf-TEmZEfJ9_cvrf.xml",
     "depth": 2
   },
