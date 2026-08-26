@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwclici-cvrQpH9v/cvrf/cisco-sa-sdwclici-cvrQpH9v_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200226-fxos-cli-file/cvrf/cisco-sa-20200226-fxos-cli-file_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200226-fxos-nxos-cdp/cvrf/cisco-sa-20200226-fxos-nxos-cdp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200226-fxos-ucs-cli-cmdinj/cvrf/cisco-sa-20200226-fxos-ucs-cli-cmdinj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200226-fxos-ucs-cmdinj/cvrf/cisco-sa-20200226-fxos-ucs-cmdinj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-resource-exhaust-D7RQAhnD/cvrf/cisco-sa-esa-resource-exhaust-D7RQAhnD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cpnr-csrf-WWTrDkyL/cvrf/cisco-sa-cpnr-csrf-WWTrDkyL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-ipsec-dos-q8UPX6m/cvrf/cisco-sa-iosxr-ipsec-dos-q8UPX6m_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-prim-collab-disclo-FAnX4DKB/cvrf/cisco-sa-prim-collab-disclo-FAnX4DKB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-xss-BR7nEDjG/cvrf/cisco-sa-ise-xss-BR7nEDjG_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-prime-collab-xss-RjRCe9n7/cvrf/cisco-sa-prime-collab-xss-RjRCe9n7_cvrf.xml",
     "depth": 2
   },
