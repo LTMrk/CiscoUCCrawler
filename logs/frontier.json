@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-mltvnps2-JxpWm7R/cvrf/cisco-sa-sdwan-mltvnps2-JxpWm7R_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nso-dos-7Egqyc/cvrf/cisco-sa-nso-dos-7Egqyc_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-unity-rce-ssrf-hENhuASy/cvrf/cisco-sa-unity-rce-ssrf-hENhuASy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ece-lite-agent-BCgSN8eb/cvrf/cisco-sa-ece-lite-agent-BCgSN8eb_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-unauth-bypass-uxjRXGpb/cvrf/cisco-sa-ise-unauth-bypass-uxjRXGpb_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-pi-unauth-infodiscl-LFnLgmey/cvrf/cisco-sa-pi-unauth-infodiscl-LFnLgmey_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-slido-idor-CpsFmKxN/cvrf/cisco-sa-slido-idor-CpsFmKxN_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iot-fnd-dos-n8N26Q4u/cvrf/cisco-sa-iot-fnd-dos-n8N26Q4u_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sg350-snmp-dos-GEFZr2Tj/cvrf/cisco-sa-sg350-snmp-dos-GEFZr2Tj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-rce-traversal-8bYndVrZ/cvrf/cisco-sa-ise-rce-traversal-8bYndVrZ_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-aci-cloudsec-enc-Vs5Wn2sX/cvrf/cisco-sa-aci-cloudsec-enc-Vs5Wn2sX_cvrf.xml",
     "depth": 2
   },
