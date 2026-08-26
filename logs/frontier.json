@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rv340-cmdinj-rcedos-pY8J3qfy/cvrf/cisco-sa-rv340-cmdinj-rcedos-pY8J3qfy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-epnm-info-disc-PjTZ5r6C/cvrf/cisco-sa-epnm-info-disc-PjTZ5r6C_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rv-code-execution-9UVJr7k4/cvrf/cisco-sa-rv-code-execution-9UVJr7k4_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-packettracer-dll-inj-Qv8Mk5Jx/cvrf/cisco-sa-packettracer-dll-inj-Qv8Mk5Jx_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rv-multi-lldp-u7e4chCe/cvrf/cisco-sa-rv-multi-lldp-u7e4chCe_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sb-wap-inject-Mp9FSdG/cvrf/cisco-sa-sb-wap-inject-Mp9FSdG_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-scr-web-priv-esc-k3HCGJZ/cvrf/cisco-sa-scr-web-priv-esc-k3HCGJZ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cvp-xss-yvE6L8Zq/cvrf/cisco-sa-cvp-xss-yvE6L8Zq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cuic-xss-csHUdtrL/cvrf/cisco-sa-cuic-xss-csHUdtrL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucsi2-iptaclbp-L8Dzs8m8/cvrf/cisco-sa-ucsi2-iptaclbp-L8Dzs8m8_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdw-mpls-infodisclos-MSSRFkZq/cvrf/cisco-sa-sdw-mpls-infodisclos-MSSRFkZq_cvrf.xml",
     "depth": 2
   },
