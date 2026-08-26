@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-FTD-snort3-DOS-Aq38LVdM/cvrf/cisco-sa-FTD-snort3-DOS-Aq38LVdM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-infdisc-guJWRwQu/cvrf/cisco-sa-fmc-infdisc-guJWRwQu_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-sidns-bypass-3PzA5pO/cvrf/cisco-sa-ftd-sidns-bypass-3PzA5pO_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-snort-dos-hd2hFgM/cvrf/cisco-sa-ftd-snort-dos-hd2hFgM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-tcp-dos-kM9SHhOu/cvrf/cisco-sa-ftd-tcp-dos-kM9SHhOu_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-xmlinj-8GWjGzKe/cvrf/cisco-sa-ftd-xmlinj-8GWjGzKe_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-xss-qXz4uAkM/cvrf/cisco-sa-fmc-xss-qXz4uAkM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-amp-local-dos-CUfwRJXT/cvrf/cisco-sa-ftd-amp-local-dos-CUfwRJXT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snort-dos-9D3hJLuj/cvrf/cisco-sa-snort-dos-9D3hJLuj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucm-dos-zHS9X9kD/cvrf/cisco-sa-ucm-dos-zHS9X9kD_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vim-privesc-T2tsFUf/cvrf/cisco-sa-vim-privesc-T2tsFUf_cvrf.xml",
     "depth": 2
   },
