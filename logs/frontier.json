@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-comp3acl-vGmp6BQ3/cvrf/cisco-sa-comp3acl-vGmp6BQ3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-bw-auth-bypass-kCggMWhX/cvrf/cisco-sa-bw-auth-bypass-kCggMWhX_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-hyperflex-redirect-UxLgqdUF/cvrf/cisco-sa-hyperflex-redirect-UxLgqdUF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sb-rv-stack-SHYv2f5N/cvrf/cisco-sa-sb-rv-stack-SHYv2f5N_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-radius-dos-W7cNn7gt/cvrf/cisco-sa-ise-radius-dos-W7cNn7gt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-commpilot-xss-jC46sezF/cvrf/cisco-sa-commpilot-xss-jC46sezF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-priv-esc-D8Bky5eg/cvrf/cisco-sa-cucm-priv-esc-D8Bky5eg_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-clamav-rNwNEEee/cvrf/cisco-sa-clamav-rNwNEEee_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-remoteauth-dos-XB6pv74m/cvrf/cisco-sa-nxos-remoteauth-dos-XB6pv74m_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-apic-uapa-F4TAShk/cvrf/cisco-sa-apic-uapa-F4TAShk_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fxos-arbitrary-file-BLk6YupL/cvrf/cisco-sa-fxos-arbitrary-file-BLk6YupL_cvrf.xml",
     "depth": 2
   },
@@ -25829,6 +25789,10 @@
   },
   {
     "url": "https://webexahead.webex.com",
+    "depth": 1
+  },
+  {
+    "url": "https://www.webex.com/resources/whats-new.html",
     "depth": 1
   }
 ]
