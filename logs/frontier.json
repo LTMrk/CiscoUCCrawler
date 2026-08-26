@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-container-esc-FmYqFBQV/cvrf/cisco-sa-ftd-container-esc-FmYqFBQV_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-bypass-3eCfd24j/cvrf/cisco-sa-ftd-bypass-3eCfd24j_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-hidcmd-pFDeWVBd/cvrf/cisco-sa-ftd-hidcmd-pFDeWVBd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftdfmc-sft-mitm-tc8AzFs2/cvrf/cisco-sa-ftdfmc-sft-mitm-tc8AzFs2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-cacauthbyp-NCLGZm3Q/cvrf/cisco-sa-fmc-cacauthbyp-NCLGZm3Q_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftdfmc-dirtrav-NW8XcuSB/cvrf/cisco-sa-ftdfmc-dirtrav-NW8XcuSB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fxos-cmdinj-b63rwKPm/cvrf/cisco-sa-fxos-cmdinj-b63rwKPm_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-dos-3WymYWKh/cvrf/cisco-sa-fmc-dos-3WymYWKh_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-icmp-dos-hxxcycM/cvrf/cisco-sa-ftd-icmp-dos-hxxcycM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fxosfcm-csrf-uhO4e5BZ/cvrf/cisco-sa-fxosfcm-csrf-uhO4e5BZ_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-tcp-intercept-bypass-xG9M3PbY/cvrf/cisco-sa-tcp-intercept-bypass-xG9M3PbY_cvrf.xml",
     "depth": 2
   },
