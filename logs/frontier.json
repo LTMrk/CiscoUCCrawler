@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwanarbfile-2zKhKZwJ/cvrf/cisco-sa-sdwanarbfile-2zKhKZwJ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-fileoverwrite-Uc9tXWH/cvrf/cisco-sa-sdwan-fileoverwrite-Uc9tXWH_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-c2960-3560-sboot-ZtqADrHq/cvrf/cisco-sa-c2960-3560-sboot-ZtqADrHq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webui-multi-ARNHM4v6/cvrf/cisco-sa-webui-multi-ARNHM4v6_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-wlc-wncd-p6Gvt6HL/cvrf/cisco-sa-wlc-wncd-p6Gvt6HL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-netconf-nacm-bypass-TGZV9pmQ/cvrf/cisco-sa-netconf-nacm-bypass-TGZV9pmQ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sisf-dos-ZGwt4DdY/cvrf/cisco-sa-sisf-dos-ZGwt4DdY_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-privesc-su7scvdp/cvrf/cisco-sa-iosxe-privesc-su7scvdp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vmanage-xss-xhN8M5jt/cvrf/cisco-sa-vmanage-xss-xhN8M5jt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webui-cmdinj-gVn3OKNC/cvrf/cisco-sa-webui-cmdinj-gVn3OKNC_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-priviesc-WCk7bmmt/cvrf/cisco-sa-sdwan-priviesc-WCk7bmmt_cvrf.xml",
     "depth": 2
   },
