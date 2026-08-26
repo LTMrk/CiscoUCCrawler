@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-finesse-opn-rdrct-epDeh7R/cvrf/cisco-sa-finesse-opn-rdrct-epDeh7R_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cuic-xss-U2WTsUg6/cvrf/cisco-sa-cuic-xss-U2WTsUg6_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucm-dos-OO4SRYEf/cvrf/cisco-sa-ucm-dos-OO4SRYEf_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-hyperflex-upload-KtCK8Ugz/cvrf/cisco-sa-hyperflex-upload-KtCK8Ugz_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-waas-infdisc-Twb4EypK/cvrf/cisco-sa-waas-infdisc-Twb4EypK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdw-auth-bypass-65aYqcS2/cvrf/cisco-sa-sdw-auth-bypass-65aYqcS2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vmanage-enumeration-64eNnDKy/cvrf/cisco-sa-vmanage-enumeration-64eNnDKy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-vmanageinfdis-LKrFpbv/cvrf/cisco-sa-sdwan-vmanageinfdis-LKrFpbv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ipcameras-dos-fc3F6LzT/cvrf/cisco-sa-ipcameras-dos-fc3F6LzT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nfvis-cmdinj-DkFjqg2j/cvrf/cisco-sa-nfvis-cmdinj-DkFjqg2j_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rv-34x-privesc-GLN8ZAQE/cvrf/cisco-sa-rv-34x-privesc-GLN8ZAQE_cvrf.xml",
     "depth": 2
   },
