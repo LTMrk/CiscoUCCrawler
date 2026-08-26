@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-proximity-dll-UvW4VHPM/cvrf/cisco-sa-proximity-dll-UvW4VHPM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-logging-6QSWKRYz/cvrf/cisco-sa-cucm-logging-6QSWKRYz_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dnac-xss-HfV73cS3/cvrf/cisco-sa-dnac-xss-HfV73cS3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rv-command-inject-LBdQ2KRN/cvrf/cisco-sa-rv-command-inject-LBdQ2KRN_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-stored-xss-djKfCzf2/cvrf/cisco-sa-fmc-stored-xss-djKfCzf2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-xee-DFzARDcs/cvrf/cisco-sa-fmc-xee-DFzARDcs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cmxpe-75Asy9k/cvrf/cisco-sa-cmxpe-75Asy9k_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cmxapi-KsKwCmfp/cvrf/cisco-sa-cmxapi-KsKwCmfp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ipcameras-dos-9zdZcUfq/cvrf/cisco-sa-ipcameras-dos-9zdZcUfq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nfvis-xss-smsz5Vhb/cvrf/cisco-sa-nfvis-xss-smsz5Vhb_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-brutef-hostkey-FWRMxVF/cvrf/cisco-sa-webex-brutef-hostkey-FWRMxVF_cvrf.xml",
     "depth": 2
   },
@@ -22889,6 +22849,10 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/15_0/cup0_b_config-and-admin-guide-15/cup0_b_config-and-admin-guide-1401_chapter_01010.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/jabber_for_everyone/12_5_1/cup0_b_jabber-for-everyone-solution-guide.html",
     "depth": 1
   }
 ]
