@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-aci-cloudsec-enc-Vs5Wn2sX/cvrf/cisco-sa-aci-cloudsec-enc-Vs5Wn2sX_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cimc-xss-A2tkgVAB/cvrf/cisco-sa-cimc-xss-A2tkgVAB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cimc-cmd-inj-3hKN3bVt/cvrf/cisco-sa-cimc-cmd-inj-3hKN3bVt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-authbp-qwCX8D4v/cvrf/cisco-sa-sdwan-authbp-qwCX8D4v_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-cui-cert-8jSZYhWL/cvrf/cisco-sa-webex-cui-cert-8jSZYhWL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-wsa-auth-bypass-6YZkTQhd/cvrf/cisco-sa-wsa-auth-bypass-6YZkTQhd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-rce-4fverepv/cvrf/cisco-sa-ise-rce-4fverepv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-cmd-inj-5WSJcYJB/cvrf/cisco-sa-ise-cmd-inj-5WSJcYJB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-isexss-BS8ctE7U/cvrf/cisco-sa-isexss-BS8ctE7U_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-te-agentfilewrite-tqUw3SMU/cvrf/cisco-sa-te-agentfilewrite-tqUw3SMU_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-unity-file-download-RmKEVWPx/cvrf/cisco-sa-unity-file-download-RmKEVWPx_cvrf.xml",
     "depth": 2
   },
