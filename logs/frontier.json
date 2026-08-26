@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-expressway-csrf-KnnZDMj3/cvrf/cisco-sa-expressway-csrf-KnnZDMj3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-snort3acp-bypass-3bdR2BEh/cvrf/cisco-sa-ftd-snort3acp-bypass-3bdR2BEh_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cuc-unauth-afu-FROYsCsD/cvrf/cisco-sa-cuc-unauth-afu-FROYsCsD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-rce-bWNzQcUm/cvrf/cisco-sa-cucm-rce-bWNzQcUm_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cuc-xss-9TFuu5MS/cvrf/cisco-sa-cuc-xss-9TFuu5MS_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sb-bus-acl-bypass-5zn9hNJk/cvrf/cisco-sa-sb-bus-acl-bypass-5zn9hNJk_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-cli-xkGwmqKu/cvrf/cisco-sa-sdwan-privesc-cli-xkGwmqKu_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sd-wan-file-access-VW36d28P/cvrf/cisco-sa-sd-wan-file-access-VW36d28P_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-broadworks-xss-6syj82Ju/cvrf/cisco-sa-broadworks-xss-6syj82Ju_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-tms-portal-xss-AXNeVg3s/cvrf/cisco-sa-tms-portal-xss-AXNeVg3s_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ISE-XSS-bL4VTML/cvrf/cisco-sa-ISE-XSS-bL4VTML_cvrf.xml",
     "depth": 2
   },
