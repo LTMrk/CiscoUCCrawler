@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ftd-acl-bypass-mtPze9Yh/cvrf/cisco-sa-asa-ftd-acl-bypass-mtPze9Yh_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-vpnwebs-dos-hjBhmBsX/cvrf/cisco-sa-asaftd-vpnwebs-dos-hjBhmBsX_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-ftd-cmdinj-PhE7kmT/cvrf/cisco-sa-fmc-ftd-cmdinj-PhE7kmT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-cmd-inj-HCRLpFyN/cvrf/cisco-sa-fmc-cmd-inj-HCRLpFyN_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-cmdinj-VEhFeZQ3/cvrf/cisco-sa-asaftd-cmdinj-VEhFeZQ3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-dos-mfPekA6e/cvrf/cisco-sa-asaftd-vpn-dos-mfPekA6e_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ftd-ios-dos-DOESHWHy/cvrf/cisco-sa-asa-ftd-ios-dos-DOESHWHy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-dos-SvKhtjgt/cvrf/cisco-sa-ftd-dos-SvKhtjgt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-dhcp-qj7nGs4N/cvrf/cisco-sa-asaftd-dhcp-qj7nGs4N_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-buffer-overflow-PyRUhWBC/cvrf/cisco-sa-asa-buffer-overflow-PyRUhWBC_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-xss-JtNmcusP/cvrf/cisco-sa-fmc-xss-JtNmcusP_cvrf.xml",
     "depth": 2
   },
