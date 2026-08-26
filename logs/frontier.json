@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-info-disclosure-V4BmJBNF/cvrf/cisco-sa-info-disclosure-V4BmJBNF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ewlc-icmpv6-qb9eYyCR/cvrf/cisco-sa-ewlc-icmpv6-qb9eYyCR_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-ctbypass-7QHAfHkK/cvrf/cisco-sa-iosxe-ctbypass-7QHAfHkK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-iox-app-host-mcZcnsBt/cvrf/cisco-sa-iosxe-iox-app-host-mcZcnsBt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-wpa-dos-cXshjerc/cvrf/cisco-sa-wpa-dos-cXshjerc_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-bgp-evpn-dos-LNfYJxfF/cvrf/cisco-sa-ios-bgp-evpn-dos-LNfYJxfF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-xe-webui-multi-vfTkk7yr/cvrf/cisco-sa-ios-xe-webui-multi-vfTkk7yr_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iox-usb-guestshell-WmevScDj/cvrf/cisco-sa-iox-usb-guestshell-WmevScDj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dclass-dos-VKh9D8k3/cvrf/cisco-sa-dclass-dos-VKh9D8k3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ipsla-jw2DJmSv/cvrf/cisco-sa-ipsla-jw2DJmSv_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-dhcp-dos-JSCKX43h/cvrf/cisco-sa-iosxe-dhcp-dos-JSCKX43h_cvrf.xml",
     "depth": 2
   },
