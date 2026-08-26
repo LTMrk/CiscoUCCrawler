@@ -56435,10 +56435,10 @@
       "first_seen": "2026-08-21T01:01:05.398620+00:00",
       "last_changed": "2026-08-21T01:01:05.398620+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T07:14:12.056688+00:00",
-      "next_check": "2026-08-26T07:14:12.056688+00:00",
+      "last_seen": "2026-08-26T07:18:21.103528+00:00",
+      "next_check": "2026-08-30T07:18:21.103528+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_010.html": {
       "content_sha": "621b47d4b3df4417890fcc878b87a01128b717189fcb8a4daeb6e758d677105c",
@@ -183894,5 +183894,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-26T07:14:16.122352+00:00"
+  "updated_at": "2026-08-26T07:18:58.985421+00:00"
 }
