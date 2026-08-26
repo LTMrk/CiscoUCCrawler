@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-aws-static-cred-FPMjUcm7/cvrf/cisco-sa-ise-aws-static-cred-FPMjUcm7_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vos-command-inject-65s2UCYy/cvrf/cisco-sa-vos-command-inject-65s2UCYy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucs-ssh-priv-esc-2mZDtdjM/cvrf/cisco-sa-ucs-ssh-priv-esc-2mZDtdjM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ndfc-shkv-snQJtjrp/cvrf/cisco-sa-ndfc-shkv-snQJtjrp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-te-endagent-filewrt-zNcDqNRJ/cvrf/cisco-sa-te-endagent-filewrt-zNcDqNRJ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-uccx-editor-rce-ezyYZte8/cvrf/cisco-sa-uccx-editor-rce-ezyYZte8_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ccp-info-disc-ZyGerQpd/cvrf/cisco-sa-ccp-info-disc-ZyGerQpd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-icm-xss-cfcqhXAg/cvrf/cisco-sa-icm-xss-cfcqhXAg_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-uccx-multi-UhOTvPGL/cvrf/cisco-sa-uccx-multi-UhOTvPGL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-meraki-mx-vpn-dos-QTRHzG2/cvrf/cisco-sa-meraki-mx-vpn-dos-QTRHzG2_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-meraki-mx-vpn-dos-by-QWUkqV7X/cvrf/cisco-sa-meraki-mx-vpn-dos-by-QWUkqV7X_cvrf.xml",
     "depth": 2
   },
