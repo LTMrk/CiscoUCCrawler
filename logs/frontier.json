@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-expressway-redirect-KJsFuXgj/cvrf/cisco-sa-expressway-redirect-KJsFuXgj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-xr-secure-boot-quD5g8Ap/cvrf/cisco-sa-xr-secure-boot-quD5g8Ap_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cimc-cmd-inj-bLuPcb/cvrf/cisco-sa-cimc-cmd-inj-bLuPcb_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cimc-cmd-inj-mUx4c5AJ/cvrf/cisco-sa-cimc-cmd-inj-mUx4c5AJ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-finesse-ssrf-rfi-Um7wT8Ew/cvrf/cisco-sa-finesse-ssrf-rfi-Um7wT8Ew_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-sma-wsa-xss-bgG5WHOD/cvrf/cisco-sa-esa-sma-wsa-xss-bgG5WHOD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-http-split-GLrnnOwS/cvrf/cisco-sa-esa-http-split-GLrnnOwS_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-sqli-WFFDnNOs/cvrf/cisco-sa-fmc-sqli-WFFDnNOs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-ssl-dos-uu7mV5p6/cvrf/cisco-sa-asaftd-ssl-dos-uu7mV5p6_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-ogsnsg-aclbyp-3XB8q6jX/cvrf/cisco-sa-asaftd-ogsnsg-aclbyp-3XB8q6jX_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-saml-bypass-KkNvXyKW/cvrf/cisco-sa-asaftd-saml-bypass-KkNvXyKW_cvrf.xml",
     "depth": 2
   },
