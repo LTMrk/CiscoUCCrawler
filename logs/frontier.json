@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-ir800-img-verif-wHhLYHjK/cvrf/cisco-sa-ios-ir800-img-verif-wHhLYHjK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-nxos-onepk-rce-6Hhyt4dC/cvrf/cisco-sa-ios-nxos-onepk-rce-6Hhyt4dC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-uccx-api-auth-WSx4v7sB/cvrf/cisco-sa-uccx-api-auth-WSx4v7sB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-web-cmdinj3-44st5CcA/cvrf/cisco-sa-web-cmdinj3-44st5CcA_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-digsig-bypass-FYQ3bmVq/cvrf/cisco-sa-iosxe-digsig-bypass-FYQ3bmVq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webui-PZgQxjfG/cvrf/cisco-sa-webui-PZgQxjfG_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webui-cmdinj-zM283Zdw/cvrf/cisco-sa-webui-cmdinj-zM283Zdw_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-ewlc-dos-TkuPVmZN/cvrf/cisco-sa-iosxe-ewlc-dos-TkuPVmZN_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webui-filerd-HngnDYGk/cvrf/cisco-sa-webui-filerd-HngnDYGk_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ngwc-cmdinj-KEwWVWR/cvrf/cisco-sa-ngwc-cmdinj-KEwWVWR_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webui-unauthprxy-KXXsbWh/cvrf/cisco-sa-webui-unauthprxy-KXXsbWh_cvrf.xml",
     "depth": 2
   },
