@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-rxss-L54Htxp/cvrf/cisco-sa-asa-rxss-L54Htxp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-sipdos-3DGvdjvg/cvrf/cisco-sa-asaftd-sipdos-3DGvdjvg_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-ftpbypass-HY3UTxYu/cvrf/cisco-sa-asaftd-ftpbypass-HY3UTxYu_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-frag-memleak-mCtqdP9n/cvrf/cisco-sa-asaftd-frag-memleak-mCtqdP9n_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-fileup-dos-zvC7wtys/cvrf/cisco-sa-asaftd-fileup-dos-zvC7wtys_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-webdos-fBzM5Ynw/cvrf/cisco-sa-asaftd-webdos-fBzM5Ynw_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-sslvpndma-dos-HRrqB9Yx/cvrf/cisco-sa-asaftd-sslvpndma-dos-HRrqB9Yx_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-ospflls-37Xy2q6r/cvrf/cisco-sa-asaftd-ospflls-37Xy2q6r_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-rule-bypass-P73ABNWQ/cvrf/cisco-sa-asaftd-rule-bypass-P73ABNWQ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ftd-tcp-dos-N3DMnU4T/cvrf/cisco-sa-asa-ftd-tcp-dos-N3DMnU4T_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-container-esc-FmYqFBQV/cvrf/cisco-sa-ftd-container-esc-FmYqFBQV_cvrf.xml",
     "depth": 2
   },
