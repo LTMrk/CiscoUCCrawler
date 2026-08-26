@@ -35606,10 +35606,10 @@
       "first_seen": "2026-08-22T01:15:01.084530+00:00",
       "last_changed": "2026-08-22T01:15:01.084530+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:47:21.431998+00:00",
-      "next_check": "2026-08-26T05:47:21.431998+00:00",
+      "last_seen": "2026-08-26T05:52:32.747030+00:00",
+      "next_check": "2026-08-30T05:52:32.747030+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/vg450-scg_chapter_01.html": {
       "content_sha": "dccbe0dbc43fb4fec98aca834c714be45f630b2cafc57fc522eccce3e1170f5b",
@@ -183894,5 +183894,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-08-26T05:48:25.288263+00:00"
+  "updated_at": "2026-08-26T05:53:15.070700+00:00"
 }
