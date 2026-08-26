@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-vpn-nyH3fhp/cvrf/cisco-sa-asa-vpn-nyH3fhp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ssh-dos-eEDWu5RM/cvrf/cisco-sa-asa-ssh-dos-eEDWu5RM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-bf-dos-vDZhLqrW/cvrf/cisco-sa-asaftd-bf-dos-vDZhLqrW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-cmd-inj-2HBkA97G/cvrf/cisco-sa-fmc-cmd-inj-2HBkA97G_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-sql-inj-LOYAFcfq/cvrf/cisco-sa-fmc-sql-inj-LOYAFcfq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snort-bypass-PTry37fX/cvrf/cisco-sa-snort-bypass-PTry37fX_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-persist-lce-vU3ekMJ3/cvrf/cisco-sa-asaftd-persist-lce-vU3ekMJ3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-snmp-dos-7TcnzxTU/cvrf/cisco-sa-asaftd-snmp-dos-7TcnzxTU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-vdb-snort-djj4cnbR/cvrf/cisco-sa-ftd-vdb-snort-djj4cnbR_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ftd-priv-esc-hBS9gnwq/cvrf/cisco-sa-asa-ftd-priv-esc-hBS9gnwq_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-nsgacl-bypass-77XnEAsL/cvrf/cisco-sa-asaftd-nsgacl-bypass-77XnEAsL_cvrf.xml",
     "depth": 2
   },
