@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-saml-LktTrwZP/cvrf/cisco-sa-asaftd-saml-LktTrwZP_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-ospf-ZH8PhbSW/cvrf/cisco-sa-asaftd-ospf-ZH8PhbSW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-clamav-css-Fn4QSZ/cvrf/cisco-sa-clamav-css-Fn4QSZ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-cmd-inj-mTzGZexf/cvrf/cisco-sa-ftd-cmd-inj-mTzGZexf_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-dnd-dos-bpEcg7B7/cvrf/cisco-sa-ftd-dnd-dos-bpEcg7B7_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-snort-bypass-rLggKzVF/cvrf/cisco-sa-ftd-snort-bypass-rLggKzVF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-snort3ssl-FBEKYXpH/cvrf/cisco-sa-ftd-snort3ssl-FBEKYXpH_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-tcp-dos-rHfqnwRg/cvrf/cisco-sa-ftd-tcp-dos-rHfqnwRg_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-cmd-inject-S9ZM4EJf/cvrf/cisco-sa-fmc-cmd-inject-S9ZM4EJf_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-luainject-VescqgmS/cvrf/cisco-sa-asaftd-luainject-VescqgmS_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-webvpn-xss-uwjc4HR/cvrf/cisco-sa-asaftd-webvpn-xss-uwjc4HR_cvrf.xml",
     "depth": 2
   },
