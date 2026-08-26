@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-lfi-OWLbKUGe/cvrf/cisco-sa-sdwan-lfi-OWLbKUGe_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-aaascp-Tyj4fEJm/cvrf/cisco-sa-aaascp-Tyj4fEJm_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-ravpn-auth-8LyfCkeC/cvrf/cisco-sa-asaftd-ravpn-auth-8LyfCkeC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-confd-priv-esc-LsGtCRx4/cvrf/cisco-sa-confd-priv-esc-LsGtCRx4_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rdocker-uATbukKn/cvrf/cisco-sa-rdocker-uATbukKn_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cer-priv-esc-B9t3hqk9/cvrf/cisco-sa-cer-priv-esc-B9t3hqk9_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-wlc-wncd-HFGMsfSD/cvrf/cisco-sa-wlc-wncd-HFGMsfSD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-getvpn-rce-g8qR68sx/cvrf/cisco-sa-getvpn-rce-g8qR68sx_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-appqoe-utd-dos-p8O57p5y/cvrf/cisco-sa-appqoe-utd-dos-p8O57p5y_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cat3k-dos-ZZA4Gb3r/cvrf/cisco-sa-cat3k-dos-ZZA4Gb3r_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dnac-ins-acc-con-nHAVDRBZ/cvrf/cisco-sa-dnac-ins-acc-con-nHAVDRBZ_cvrf.xml",
     "depth": 2
   },
