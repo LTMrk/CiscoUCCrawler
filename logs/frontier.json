@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vmxss2-NL4KSSVR/cvrf/cisco-sa-vmxss2-NL4KSSVR_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-teams-xss-zLW9tD3/cvrf/cisco-sa-webex-teams-xss-zLW9tD3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vsoln-arbfile-gtsEYxns/cvrf/cisco-sa-vsoln-arbfile-gtsEYxns_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vman-traversal-hQh24tmk/cvrf/cisco-sa-vman-traversal-hQh24tmk_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vepestd-8C3J9Vc/cvrf/cisco-sa-vepestd-8C3J9Vc_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-imp-dos-uTx2dqu2/cvrf/cisco-sa-imp-dos-uTx2dqu2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-CIMC-CIV-pKDBe9x5/cvrf/cisco-sa-CIMC-CIV-pKDBe9x5_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-anyconnect-file-read-LsvDD6Uh/cvrf/cisco-sa-anyconnect-file-read-LsvDD6Uh_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vepegr-4xynYLUj/cvrf/cisco-sa-vepegr-4xynYLUj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-nbr-NOS6FQ24/cvrf/cisco-sa-webex-nbr-NOS6FQ24_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-eff-incperm-9E6h4yBz/cvrf/cisco-sa-eff-incperm-9E6h4yBz_cvrf.xml",
     "depth": 2
   },
@@ -22693,6 +22653,10 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/jabber_for_everyone/12_5_1/cup0_b_jabber-for-everyone-solution-guide.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_01.html",
     "depth": 1
   }
 ]
