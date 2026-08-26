@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-unity-file-download-RmKEVWPx/cvrf/cisco-sa-unity-file-download-RmKEVWPx_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-unity-vulns-n2EJSbbw/cvrf/cisco-sa-unity-vulns-n2EJSbbw_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webexcc-xss-WEX5nUnA/cvrf/cisco-sa-webexcc-xss-WEX5nUnA_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-mntc-dos-LZweQcyq/cvrf/cisco-sa-iosxe-mntc-dos-LZweQcyq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ssm-cli-execution-cHUcWuNr/cvrf/cisco-sa-ssm-cli-execution-cHUcWuNr_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nd-cbid-5YqkOSHu/cvrf/cisco-sa-nd-cbid-5YqkOSHu_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nd-ssrf-NAen4O7r/cvrf/cisco-sa-nd-ssrf-NAen4O7r_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ndi-afw-rJuRC5dZ/cvrf/cisco-sa-ndi-afw-rJuRC5dZ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cimc-auth-bypass-AgG2BxTn/cvrf/cisco-sa-cimc-auth-bypass-AgG2BxTn_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cssm-priv-esc-xRAnOuO8/cvrf/cisco-sa-cssm-priv-esc-xRAnOuO8_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-epnm-improp-auth-mUwFWUU3/cvrf/cisco-sa-epnm-improp-auth-mUwFWUU3_cvrf.xml",
     "depth": 2
   },
