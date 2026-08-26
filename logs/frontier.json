@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-priviesc-WCk7bmmt/cvrf/cisco-sa-sdwan-priviesc-WCk7bmmt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-ikev1-dos-XHk3HzFC/cvrf/cisco-sa-iosxe-ikev1-dos-XHk3HzFC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dnac-api-nBPZcJCM/cvrf/cisco-sa-dnac-api-nBPZcJCM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-dhcpsn-dos-xBn8Mtks/cvrf/cisco-sa-iosxe-dhcpsn-dos-xBn8Mtks_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-http-privesc-wCRd5e3/cvrf/cisco-sa-ios-http-privesc-wCRd5e3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asr903-rsp3-arp-dos-WmfzdvJZ/cvrf/cisco-sa-asr903-rsp3-arp-dos-WmfzdvJZ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ewlc-cdp-dos-fpeks9K/cvrf/cisco-sa-ewlc-cdp-dos-fpeks9K_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snmpv3-qKEYvzsy/cvrf/cisco-sa-snmpv3-qKEYvzsy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vmanage-html-inj-GxVtK6zj/cvrf/cisco-sa-vmanage-html-inj-GxVtK6zj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-twamp-kV4FHugn/cvrf/cisco-sa-twamp-kV4FHugn_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ipsgacl-pg6qfZk/cvrf/cisco-sa-ipsgacl-pg6qfZk_cvrf.xml",
     "depth": 2
   },
