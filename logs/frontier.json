@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-ipv6-netstack-edXPGV7K/cvrf/cisco-sa-nxos-ipv6-netstack-edXPGV7K_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-nxapi-csrf-wRMzWL9z/cvrf/cisco-sa-nxos-nxapi-csrf-wRMzWL9z_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-pim-dos-Y8SjMz4/cvrf/cisco-sa-nxos-pim-dos-Y8SjMz4_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-n9kaci-bgp-De9dPKSK/cvrf/cisco-sa-n9kaci-bgp-De9dPKSK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-case-mvuln-dYrDPC6w/cvrf/cisco-sa-case-mvuln-dYrDPC6w_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-anyconnect-fileread-PbHbgHMj/cvrf/cisco-sa-anyconnect-fileread-PbHbgHMj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-sbsms-xss/cvrf/cisco-sa-20200122-sbsms-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200129-smlbus-switch-disclos/cvrf/cisco-sa-20200129-smlbus-switch-disclos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-info-exp-8RsuEu8S/cvrf/cisco-sa-ise-info-exp-8RsuEu8S_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-desktop-app-OVSfpVMj/cvrf/cisco-sa-webex-desktop-app-OVSfpVMj_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-StarOS-DoS-RLLvGFJj/cvrf/cisco-sa-StarOS-DoS-RLLvGFJj_cvrf.xml",
     "depth": 2
   },
