@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-priv-esc2-A6jVRu7C/cvrf/cisco-sa-priv-esc2-A6jVRu7C_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-iot-vds-cred-uPMp9zbY/cvrf/cisco-sa-ios-iot-vds-cred-uPMp9zbY_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-iot-gos-vuln-s9qS8kYL/cvrf/cisco-sa-ios-iot-gos-vuln-s9qS8kYL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-iot-rce-xYRSeMNH/cvrf/cisco-sa-ios-iot-rce-xYRSeMNH_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-priv-esc3-GMgnGCHx/cvrf/cisco-sa-priv-esc3-GMgnGCHx_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sxp-68TEVzR/cvrf/cisco-sa-sxp-68TEVzR_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-rce-uk8BXcUD/cvrf/cisco-sa-iosxe-webui-rce-uk8BXcUD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-path-JE3azWw43/cvrf/cisco-sa-asaftd-path-JE3azWw43_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-dos-2-sS2h7aWe/cvrf/cisco-sa-ftd-dos-2-sS2h7aWe_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-dos-Rdpe34sd8/cvrf/cisco-sa-ftd-dos-Rdpe34sd8_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-ipv6-67pA658k/cvrf/cisco-sa-asaftd-ipv6-67pA658k_cvrf.xml",
     "depth": 2
   },
