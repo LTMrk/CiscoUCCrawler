@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-ipv6-67pA658k/cvrf/cisco-sa-asaftd-ipv6-67pA658k_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-mgcp-SUqB8VKH/cvrf/cisco-sa-asaftd-mgcp-SUqB8VKH_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-mgmt-interface-dos-FkG4MuTU/cvrf/cisco-sa-ftd-mgmt-interface-dos-FkG4MuTU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-dos-N2vQZASR/cvrf/cisco-sa-ftd-dos-N2vQZASR_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ftd-ospf-dos-RhMQY8qx/cvrf/cisco-sa-asa-ftd-ospf-dos-RhMQY8qx_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ftd-ospf-memleak-DHpsgfnv/cvrf/cisco-sa-asa-ftd-ospf-memleak-DHpsgfnv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-tls-dos-4v5nmWtZ/cvrf/cisco-sa-ftd-tls-dos-4v5nmWtZ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ssl-vpn-dos-qY7BHpjN/cvrf/cisco-sa-asa-ssl-vpn-dos-qY7BHpjN_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-ipip-dos-kCT9X4/cvrf/cisco-sa-nxos-ipip-dos-kCT9X4_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200219-ucs-boot-bypass/cvrf/cisco-sa-20200219-ucs-boot-bypass_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200226-mds-ovrld-dos/cvrf/cisco-sa-20200226-mds-ovrld-dos_cvrf.xml",
     "depth": 2
   },
