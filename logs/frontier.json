@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-ios-xr-routes/cvrf/cisco-sa-20200122-ios-xr-routes_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-telepresence-path-tr-wdrnYEZZ/cvrf/cisco-sa-telepresence-path-tr-wdrnYEZZ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190703-iosxr-bgp-dos/cvrf/cisco-sa-20190703-iosxr-bgp-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-on-prem-dos/cvrf/cisco-sa-20200122-on-prem-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-jabber-guest-xss-6urXhkqv/cvrf/cisco-sa-jabber-guest-xss-6urXhkqv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-email-sec-xss-EbjXuXwP/cvrf/cisco-sa-email-sec-xss-EbjXuXwP_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-ios-xr-bgp-dos/cvrf/cisco-sa-20200122-ios-xr-bgp-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-uc-xss/cvrf/cisco-sa-20200122-uc-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-fmc-auth/cvrf/cisco-sa-20200122-fmc-auth_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-umbrella-msi-install/cvrf/cisco-sa-20200122-umbrella-msi-install_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-hcm-f-csrf/cvrf/cisco-sa-20200122-hcm-f-csrf_cvrf.xml",
     "depth": 2
   },
