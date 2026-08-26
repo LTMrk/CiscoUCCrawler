@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-multicast-ERMrSvq7/cvrf/cisco-sa-multicast-ERMrSvq7_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-priv-esc-GFQjxvOF/cvrf/cisco-sa-iosxr-priv-esc-GFQjxvOF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-modular-ACL-u5MEPXMm/cvrf/cisco-sa-modular-ACL-u5MEPXMm_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ncs-hybridacl-crMZFfKQ/cvrf/cisco-sa-ncs-hybridacl-crMZFfKQ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-xrike-9wYGpRGq/cvrf/cisco-sa-xrike-9wYGpRGq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-bgp-dos-O7stePhX/cvrf/cisco-sa-iosxr-bgp-dos-O7stePhX_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snmp-dos-sdxnSUcW/cvrf/cisco-sa-snmp-dos-sdxnSUcW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sbr042-multi-vuln-ej76Pke5/cvrf/cisco-sa-sbr042-multi-vuln-ej76Pke5_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-tms-xss-vuln-WbTcYwxG/cvrf/cisco-sa-tms-xss-vuln-WbTcYwxG_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-secure-dll-injection-AOyzEqSg/cvrf/cisco-sa-secure-dll-injection-AOyzEqSg_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-n3kn9k-healthdos-eOqSWK4g/cvrf/cisco-sa-n3kn9k-healthdos-eOqSWK4g_cvrf.xml",
     "depth": 2
   },
