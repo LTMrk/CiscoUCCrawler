@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-cards-dos-FWzNcXPq/cvrf/cisco-sa-webex-cards-dos-FWzNcXPq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-sdwan-cmd-inject/cvrf/cisco-sa-20200122-sdwan-cmd-inject_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sd-wan-cred-EVGSF259/cvrf/cisco-sa-sd-wan-cred-EVGSF259_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190703-ccapic-restapi/cvrf/cisco-sa-20190703-ccapic-restapi_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-auth-bypass/cvrf/cisco-sa-20200102-dcnm-auth-bypass_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-comm-inject/cvrf/cisco-sa-20200102-dcnm-comm-inject_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-path-trav/cvrf/cisco-sa-20200102-dcnm-path-trav_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-xml-ext-entity/cvrf/cisco-sa-20200102-dcnm-xml-ext-entity_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-sql-inject/cvrf/cisco-sa-20200102-dcnm-sql-inject_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200102-dcnm-unauth-access/cvrf/cisco-sa-20200102-dcnm-unauth-access_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200108-webex-video/cvrf/cisco-sa-20200108-webex-video_cvrf.xml",
     "depth": 2
   },
