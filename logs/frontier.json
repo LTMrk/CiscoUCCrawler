@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200108-ucs-dir-infodis/cvrf/cisco-sa-20200108-ucs-dir-infodis_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200108-cvp-direct-obj-ref/cvrf/cisco-sa-20200108-cvp-direct-obj-ref_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-spa-rce/cvrf/cisco-sa-20191016-spa-rce_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191120-webex-teams-dll/cvrf/cisco-sa-20191120-webex-teams-dll_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191120-iosxr-ssh-bypass/cvrf/cisco-sa-20191120-iosxr-ssh-bypass_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190513-secureboot/cvrf/cisco-sa-20190513-secureboot_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191120-dna-priv-esca/cvrf/cisco-sa-20191120-dna-priv-esca_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191120-esa-mp3-bypass/cvrf/cisco-sa-20191120-esa-mp3-bypass_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191120-dna-cmd-injection/cvrf/cisco-sa-20191120-dna-cmd-injection_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191120-dna-sqlinjection/cvrf/cisco-sa-20191120-dna-sqlinjection_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191120-webex-centers-infodis/cvrf/cisco-sa-20191120-webex-centers-infodis_cvrf.xml",
     "depth": 2
   },
