@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-duo-mac-bypass-OyZpVPnx/cvrf/cisco-sa-duo-mac-bypass-OyZpVPnx_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sd-wan-Fhqh8pKX/cvrf/cisco-sa-sd-wan-Fhqh8pKX_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-imp-dos-49GL7rzT/cvrf/cisco-sa-cucm-imp-dos-49GL7rzT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-smb-sxss-OPYJZUmE/cvrf/cisco-sa-smb-sxss-OPYJZUmE_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-dos-4Ag3yWbD/cvrf/cisco-sa-cucm-dos-4Ag3yWbD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-expressway-priv-esc-Ls2B9t7b/cvrf/cisco-sa-expressway-priv-esc-Ls2B9t7b_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-csw-auth-openapi-kTndjdNX/cvrf/cisco-sa-csw-auth-openapi-kTndjdNX_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iox-8whGn5dL/cvrf/cisco-sa-iox-8whGn5dL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cuis-xss-Omm8jyBX/cvrf/cisco-sa-cuis-xss-Omm8jyBX_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-file-write-SHVcmQVc/cvrf/cisco-sa-ftd-file-write-SHVcmQVc_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-info-disc-nrORXjO/cvrf/cisco-sa-iosxe-info-disc-nrORXjO_cvrf.xml",
     "depth": 2
   },
@@ -25673,6 +25633,10 @@
   },
   {
     "url": "https://www.webex.com/resources/whats-new.html",
+    "depth": 1
+  },
+  {
+    "url": "https://mycase.cloudapps.cisco.com/start",
     "depth": 1
   }
 ]
