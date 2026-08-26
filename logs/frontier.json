@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-nsgacl-bypass-77XnEAsL/cvrf/cisco-sa-asaftd-nsgacl-bypass-77XnEAsL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-xss-yjj7ZjVq/cvrf/cisco-sa-asaftd-xss-yjj7ZjVq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-csc-dos-XvPhM3bj/cvrf/cisco-sa-csc-dos-XvPhM3bj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-file-read-5q4mQRn/cvrf/cisco-sa-fmc-file-read-5q4mQRn_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-priv-esc-CMQ4S6m7/cvrf/cisco-sa-fmc-priv-esc-CMQ4S6m7_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-xss-dhJxQYZs/cvrf/cisco-sa-fmc-xss-dhJxQYZs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-ikev2-dos-9FgEyHsF/cvrf/cisco-sa-asaftd-ikev2-dos-9FgEyHsF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-tls-dos-QXYE5Ufy/cvrf/cisco-sa-ftd-tls-dos-QXYE5Ufy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd2100-snort-dos-M9HuMt75/cvrf/cisco-sa-ftd2100-snort-dos-M9HuMt75_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ssh-rce-gRAuPEUF/cvrf/cisco-sa-asa-ssh-rce-gRAuPEUF_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-dap-dos-bhEkP7n/cvrf/cisco-sa-asaftd-dap-dos-bhEkP7n_cvrf.xml",
     "depth": 2
   },
