@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-xe-secureboot-bypass-B6uYxYSZ/cvrf/cisco-sa-xe-secureboot-bypass-B6uYxYSZ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-tls-dos-TVgLDEZL/cvrf/cisco-sa-iosxe-tls-dos-TVgLDEZL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe_infodis-6J847uEB/cvrf/cisco-sa-iosxe_infodis-6J847uEB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-scp-dos-duAdXtCg/cvrf/cisco-sa-scp-dos-duAdXtCg_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-rce-NKhnULJh/cvrf/cisco-sa-fmc-rce-NKhnULJh_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-xrncs-epni-int-dos-TWMffUsN/cvrf/cisco-sa-xrncs-epni-int-dos-TWMffUsN_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cc-xss-MrNAH5Jh/cvrf/cisco-sa-cc-xss-MrNAH5Jh_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-privesc-bF8D5U4W/cvrf/cisco-sa-iosxr-privesc-bF8D5U4W_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-isis-dos-kDMxpSzK/cvrf/cisco-sa-isis-dos-kDMxpSzK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-sql-inject-2EnmTC8v/cvrf/cisco-sa-fmc-sql-inject-2EnmTC8v_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-cmd-inj-ZJV8Wysm/cvrf/cisco-sa-asaftd-cmd-inj-ZJV8Wysm_cvrf.xml",
     "depth": 2
   },
