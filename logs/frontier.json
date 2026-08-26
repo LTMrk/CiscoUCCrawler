@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-APIC-EPU-F8y5kUOP/cvrf/cisco-sa-APIC-EPU-F8y5kUOP_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-APIC-KSV-3wzbHYT4/cvrf/cisco-sa-APIC-KSV-3wzbHYT4_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snmp-dos-USxSyTk5/cvrf/cisco-sa-snmp-dos-USxSyTk5_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-iot-udp-vds-inj-f2D5Jzrt/cvrf/cisco-sa-ios-iot-udp-vds-inj-f2D5Jzrt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ewlc-dos-AnvKvMxR/cvrf/cisco-sa-ewlc-dos-AnvKvMxR_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ioxxss-wc6CqUws/cvrf/cisco-sa-ioxxss-wc6CqUws_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ssh-dos-Un22sd2A/cvrf/cisco-sa-ssh-dos-Un22sd2A_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-auth-b-NzwhJHH7/cvrf/cisco-sa-auth-b-NzwhJHH7_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-priv-esc1-OKMKFRhV/cvrf/cisco-sa-priv-esc1-OKMKFRhV_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sip-Cv28sQw2/cvrf/cisco-sa-sip-Cv28sQw2_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-priv-esc2-A6jVRu7C/cvrf/cisco-sa-priv-esc2-A6jVRu7C_cvrf.xml",
     "depth": 2
   },

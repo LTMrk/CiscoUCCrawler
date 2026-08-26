@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/in
 repo: webex/webex-js-sdk
 ruta: packages/@webex/internal-plugin-metrics/README.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:07:17.405042+00:00
+retrieved_at: 2026-08-26T13:18:56.429436+00:00
 ---
 
 # webex-js-sdk — packages/@webex/internal-plugin-metrics/README.md
@@ -22,6 +22,7 @@ This is an internal Cisco Webex plugin. As such, it does not strictly adhere to 
 
 - [Install](#install)
 - [Usage](#usage)
+- [Unhandled exception telemetry](#unhandled-exception-telemetry)
 - [Contribute](#contribute)
 - [Maintainers](#maintainers)
 - [License](#license)
@@ -41,6 +42,41 @@ import WebexCore from '@webex/webex-core';
 
 const webex = new WebexCore();
 webex.internal.metrics.WHATEVER;
+```
+
+## Unhandled exception telemetry
+
+Unhandled exception telemetry is currently supported only in browser environments. It starts after
+the Webex SDK emits `ready`. It does not install a standalone collector, capture errors before SDK
+initialization, persist events, or retry failed telemetry submissions.
+
+The reporter captures uncaught errors, unhandled promise rejections, and resource load failures.
+Matching failures captured in the same one-second in-memory window are submitted once with an
+`occurrenceCount`. Non-HTTP(S) URLs are redacted; URL credentials, query parameters, and fragments
+are stripped; and error names, messages, and stacks are truncated before submission.
+
+Telemetry is disabled by default. Enable it with
+`metrics.unhandledExceptionTelemetry.enabled: true`. Applications may provide a synchronous
+`getMetadata` callback in the same configuration object. It must return an object whose fields can
+include application context such as `orgId` and `dataCenter`. Metadata must not contain personally
+identifiable information or credentials.
+
+```js
+import Webex from 'webex';
+
+const webex = Webex.init({
+  config: {
+    metrics: {
+      unhandledExceptionTelemetry: {
+        enabled: true,
+        getMetadata: () => ({
+          orgId: 'your-organization-id',
+          dataCenter: 'your-data-center',
+        }),
+      },
+    },
+  },
+});
 ```
 
 ## Maintainers
