@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esc-dos-4Gw6D527/cvrf/cisco-sa-esc-dos-4Gw6D527_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dcnm-authbypass-OHBPbxu/cvrf/cisco-sa-dcnm-authbypass-OHBPbxu_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-imp-trav-inj-dM687ZD6/cvrf/cisco-sa-imp-trav-inj-dM687ZD6_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cssmor-MDCWkT2x/cvrf/cisco-sa-cssmor-MDCWkT2x_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-infodis-2-UPO232DG/cvrf/cisco-sa-sdwan-infodis-2-UPO232DG_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cssm-sqi-h5fDvZWp/cvrf/cisco-sa-cssm-sqi-h5fDvZWp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-vinfdis-MC8L58dj/cvrf/cisco-sa-sdwan-vinfdis-MC8L58dj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-umb-dos-dgKzDEBP/cvrf/cisco-sa-umb-dos-dgKzDEBP_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vman-pathtrav-Z5mCVsjf/cvrf/cisco-sa-vman-pathtrav-Z5mCVsjf_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asr-mem-leak-dos-MTWGHKk3/cvrf/cisco-sa-asr-mem-leak-dos-MTWGHKk3_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vman-sqlinjm-xV8dsjq5/cvrf/cisco-sa-vman-sqlinjm-xV8dsjq5_cvrf.xml",
     "depth": 2
   },
