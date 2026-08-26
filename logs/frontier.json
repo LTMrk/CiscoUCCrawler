@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ata19x-multivuln-GEZYVvs/cvrf/cisco-sa-ata19x-multivuln-GEZYVvs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-NFVIS-ISV-BQrvEv2h/cvrf/cisco-sa-NFVIS-ISV-BQrvEv2h_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-bw-thinrcpt-xss-gSj4CecU/cvrf/cisco-sa-bw-thinrcpt-xss-gSj4CecU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-apvlan-TDTtb4FY/cvrf/cisco-sa-apvlan-TDTtb4FY_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-wsa-prv-esc-8PdRU8t8/cvrf/cisco-sa-wsa-prv-esc-8PdRU8t8_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-duo-macOS-bypass-uKZNpXE6/cvrf/cisco-sa-duo-macOS-bypass-uKZNpXE6_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-wlc-dos-mKGRrsCB/cvrf/cisco-sa-wlc-dos-mKGRrsCB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-arb-file-delete-VB2rVcQv/cvrf/cisco-sa-arb-file-delete-VB2rVcQv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-xe-cat-verify-D4NEQA6q/cvrf/cisco-sa-ios-xe-cat-verify-D4NEQA6q_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-alg-dos-KU9Z8kFX/cvrf/cisco-sa-alg-dos-KU9Z8kFX_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ap-assoc-dos-EgVqtON8/cvrf/cisco-sa-ap-assoc-dos-EgVqtON8_cvrf.xml",
     "depth": 2
   },
