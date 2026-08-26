@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdw-mpls-infodisclos-MSSRFkZq/cvrf/cisco-sa-sdw-mpls-infodisclos-MSSRFkZq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucsi2-dtcinj-yH5U4RSx/cvrf/cisco-sa-ucsi2-dtcinj-yH5U4RSx_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-vmanage-infdis-LggOP9sE/cvrf/cisco-sa-sdwan-vmanage-infdis-LggOP9sE_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-imc-openred-zAYrU6d2/cvrf/cisco-sa-imc-openred-zAYrU6d2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ftd-ipsec-dos-TFKQbgWC/cvrf/cisco-sa-asa-ftd-ipsec-dos-TFKQbgWC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-proximity-ssl-cert-gBBu3RB/cvrf/cisco-sa-proximity-ssl-cert-gBBu3RB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-cmdinj-1735/cvrf/cisco-sa-20190515-nxos-cmdinj-1735_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-conf-bypass/cvrf/cisco-sa-20190515-nxos-conf-bypass_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-snmp-dos/cvrf/cisco-sa-20190515-nxos-snmp-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-broad-as-inf-disc-ZUXGFFXQ/cvrf/cisco-sa-broad-as-inf-disc-ZUXGFFXQ_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-vmaninfdis3-OvdR6uu8/cvrf/cisco-sa-sdwan-vmaninfdis3-OvdR6uu8_cvrf.xml",
     "depth": 2
   },
