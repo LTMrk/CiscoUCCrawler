@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vman-sqlinjm-xV8dsjq5/cvrf/cisco-sa-vman-sqlinjm-xV8dsjq5_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vmanage-cql-inject-72EhnUc/cvrf/cisco-sa-vmanage-cql-inject-72EhnUc_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-wsa-xss-RuB5WGqL/cvrf/cisco-sa-wsa-xss-RuB5WGqL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-wsa-sma-info-RHp44vAC/cvrf/cisco-sa-esa-wsa-sma-info-RHp44vAC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-voip-phone-flood-dos-YnU9EXOv/cvrf/cisco-sa-voip-phone-flood-dos-YnU9EXOv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rv-overflow-WUnUgv4U/cvrf/cisco-sa-rv-overflow-WUnUgv4U_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rv-stored-xss-LPTQ3EQC/cvrf/cisco-sa-rv-stored-xss-LPTQ3EQC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-anyconnect-dll-injec-pQnryXLf/cvrf/cisco-sa-anyconnect-dll-injec-pQnryXLf_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-open-redirect-PWvBQ2q/cvrf/cisco-sa-webex-open-redirect-PWvBQ2q_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-infodisc-RJdktM6f/cvrf/cisco-sa-fmc-infodisc-RJdktM6f_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-proximity-dll-UvW4VHPM/cvrf/cisco-sa-proximity-dll-UvW4VHPM_cvrf.xml",
     "depth": 2
   },
