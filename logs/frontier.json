@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180620-nx-os-cli-execution/cvrf/cisco-sa-20180620-nx-os-cli-execution_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-pim-memleak-dos-tC8eP7uw/cvrf/cisco-sa-nxos-pim-memleak-dos-tC8eP7uw_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucs-cli-dos-GQUxCnTe/cvrf/cisco-sa-ucs-cli-dos-GQUxCnTe_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190821-imc-cmdinject-1896/cvrf/cisco-sa-20190821-imc-cmdinject-1896_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-treck-ip-stack-JyBQ5GyC/cvrf/cisco-sa-treck-ip-stack-JyBQ5GyC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-HYP-WSV-yT3j5hSB/cvrf/cisco-sa-HYP-WSV-yT3j5hSB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dcnm-pa-trav-bMdfSTTq/cvrf/cisco-sa-dcnm-pa-trav-bMdfSTTq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-waas-encsw-cspw-cred-hZzL29A7/cvrf/cisco-sa-waas-encsw-cspw-cred-hZzL29A7_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dcnm-authbypass-YVJzqgk2/cvrf/cisco-sa-dcnm-authbypass-YVJzqgk2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dcnm-auth-bypass-MYeFpFcF/cvrf/cisco-sa-dcnm-auth-bypass-MYeFpFcF_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cmx-rshell-esc-L6hBwjbg/cvrf/cisco-sa-cmx-rshell-esc-L6hBwjbg_cvrf.xml",
     "depth": 2
   },
