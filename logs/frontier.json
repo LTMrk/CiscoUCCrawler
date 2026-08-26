@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-vmaninfdis3-OvdR6uu8/cvrf/cisco-sa-sdwan-vmaninfdis3-OvdR6uu8_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-bpa-priv-esc-dgubwbH4/cvrf/cisco-sa-bpa-priv-esc-dgubwbH4_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-brcm-mxc-jul2021-26LqUZUh/cvrf/cisco-sa-brcm-mxc-jul2021-26LqUZUh_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ipcamera-lldp-mem-wGqundTq/cvrf/cisco-sa-ipcamera-lldp-mem-wGqundTq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vvb-xss-wG4zXRp3/cvrf/cisco-sa-vvb-xss-wG4zXRp3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ipcamera-lldpcdp-mem-yTQDmjRO/cvrf/cisco-sa-ipcamera-lldpcdp-mem-yTQDmjRO_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-xss-multiple-FCB3vPZe/cvrf/cisco-sa-asaftd-xss-multiple-FCB3vPZe_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ade-xcvAQEOZ/cvrf/cisco-sa-ade-xcvAQEOZ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwanbo-QKcABnS2/cvrf/cisco-sa-sdwanbo-QKcABnS2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwpresc-ySJGvE9/cvrf/cisco-sa-sdwpresc-ySJGvE9_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-jabber-GuC5mLwG/cvrf/cisco-sa-jabber-GuC5mLwG_cvrf.xml",
     "depth": 2
   },
@@ -23777,6 +23737,10 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_index.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/systemConfig/cucm_b_system-configuration-guide-15/cucm_b_system-configuration-guide-14_chapter_01.html",
     "depth": 1
   }
 ]
