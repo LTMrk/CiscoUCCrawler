@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-redirect-XuZFU3PH/cvrf/cisco-sa-webex-redirect-XuZFU3PH_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-anyconnect-ipc-KfQO9QhK/cvrf/cisco-sa-anyconnect-ipc-KfQO9QhK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-http-fp-bp-KfDdcQhc/cvrf/cisco-sa-http-fp-bp-KfDdcQhc_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snort-tfo-bypass-MmzZrtes/cvrf/cisco-sa-snort-tfo-bypass-MmzZrtes_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-cli-bypass/cvrf/cisco-sa-20190515-nxos-cli-bypass_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cml-cmd-inject-N4VYeQXB/cvrf/cisco-sa-cml-cmd-inject-N4VYeQXB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dnasp-conn-cmdinj-HOj4YV5n/cvrf/cisco-sa-dnasp-conn-cmdinj-HOj4YV5n_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dnasp-conn-prvesc-q6T6BzW/cvrf/cisco-sa-dnasp-conn-prvesc-q6T6BzW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-pi-epnm-cmd-inj-YU5e6tB3/cvrf/cisco-sa-pi-epnm-cmd-inj-YU5e6tB3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-finesse-strd-xss-bUKqffFW/cvrf/cisco-sa-finesse-strd-xss-bUKqffFW_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-finesse-opn-rdrct-epDeh7R/cvrf/cisco-sa-finesse-opn-rdrct-epDeh7R_cvrf.xml",
     "depth": 2
   },
