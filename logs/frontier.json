@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-snmpaccess-M6yOweq3/cvrf/cisco-sa-asaftd-snmpaccess-M6yOweq3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-wsa-dos-fmHdKswk/cvrf/cisco-sa-wsa-dos-fmHdKswk_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ata19x-multivuln-A4J57F3/cvrf/cisco-sa-ata19x-multivuln-A4J57F3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-dhcp-dos-pjPVReLU/cvrf/cisco-sa-iosxr-dhcp-dos-pjPVReLU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-2FmKd7T/cvrf/cisco-sa-webex-2FmKd7T_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-imc-gui-dos-TZjrFyZh/cvrf/cisco-sa-imc-gui-dos-TZjrFyZh_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-file-download-B3BR5KQA/cvrf/cisco-sa-ise-file-download-B3BR5KQA_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sec-work-xss-t6SYtu8Q/cvrf/cisco-sa-sec-work-xss-t6SYtu8Q_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-tms-xss-CwjZJSQc/cvrf/cisco-sa-tms-xss-CwjZJSQc_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cvdsd-xss-fvdj6HK/cvrf/cisco-sa-cvdsd-xss-fvdj6HK_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-tpce-rmos-mem-dos-rck56tT/cvrf/cisco-sa-tpce-rmos-mem-dos-rck56tT_cvrf.xml",
     "depth": 2
   },
