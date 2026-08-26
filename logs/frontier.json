@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-dos-4ygzLKU9/cvrf/cisco-sa-asaftd-dos-4ygzLKU9_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-dir-traversal-95UyW5tk/cvrf/cisco-sa-fmc-dir-traversal-95UyW5tk_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-cmdinject-FmzsLN8/cvrf/cisco-sa-ftd-cmdinject-FmzsLN8_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-dos-rUDseW3r/cvrf/cisco-sa-ftd-dos-rUDseW3r_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-tls-decrypt-dos-BMxYjm8M/cvrf/cisco-sa-ftd-tls-decrypt-dos-BMxYjm8M_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-rule-bypass-ejjOgQEY/cvrf/cisco-sa-asaftd-rule-bypass-ejjOgQEY_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snort-dos-RywH7ezM/cvrf/cisco-sa-snort-dos-RywH7ezM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-xss-webui-gQLSFyPM/cvrf/cisco-sa-asaftd-xss-webui-gQLSFyPM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-infodisc-Ft2WVmNU/cvrf/cisco-sa-fmc-infodisc-Ft2WVmNU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-xss-openredir-TVPMWJyg/cvrf/cisco-sa-fmc-xss-openredir-TVPMWJyg_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-snmpaccess-M6yOweq3/cvrf/cisco-sa-asaftd-snmpaccess-M6yOweq3_cvrf.xml",
     "depth": 2
   },
