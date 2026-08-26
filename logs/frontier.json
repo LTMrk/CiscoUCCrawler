@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-mpls-oam-dos-sGO9x5GM/cvrf/cisco-sa-nxos-mpls-oam-dos-sGO9x5GM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asdm-rce-gqjShXW/cvrf/cisco-sa-asdm-rce-gqjShXW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fxos-cmdinj-TxcLNZNH/cvrf/cisco-sa-fxos-cmdinj-TxcLNZNH_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-cdp-dos-ce-wWvPucC9/cvrf/cisco-sa-nxos-cdp-dos-ce-wWvPucC9_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-mso-prvesc-BPFp9cZs/cvrf/cisco-sa-mso-prvesc-BPFp9cZs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-ospfv3-dos-48qutcu/cvrf/cisco-sa-nxos-ospfv3-dos-48qutcu_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-asdm-sig-NPKvwDjm/cvrf/cisco-sa-asa-asdm-sig-NPKvwDjm_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-dos-tL4uA4AA/cvrf/cisco-sa-asa-dos-tL4uA4AA_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-rsa-key-leak-Ms7UEfZz/cvrf/cisco-sa-asaftd-rsa-key-leak-Ms7UEfZz_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-file-delete-N2VPmOnE/cvrf/cisco-sa-cucm-file-delete-N2VPmOnE_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-xss-frmhijck-kO3wmkuS/cvrf/cisco-sa-webex-xss-frmhijck-kO3wmkuS_cvrf.xml",
     "depth": 2
   },
