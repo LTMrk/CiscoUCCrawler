@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-aaa-Yx47ZT8Q/cvrf/cisco-sa-aaa-Yx47ZT8Q_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-nxos-xr-udld-dos-W5hGHgtQ/cvrf/cisco-sa-ios-nxos-xr-udld-dos-W5hGHgtQ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-h323alg-bypass-4vy2MP2Q/cvrf/cisco-sa-iosxe-h323alg-bypass-4vy2MP2Q_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxesdwan-arbfileov-MVOF3ZZn/cvrf/cisco-sa-iosxesdwan-arbfileov-MVOF3ZZn_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-zbfw-pP9jfzwL/cvrf/cisco-sa-zbfw-pP9jfzwL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fxo-pattern-bypass-jUXgygYv/cvrf/cisco-sa-fxo-pattern-bypass-jUXgygYv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-ewc-dos-g6JruHRT/cvrf/cisco-sa-iosxe-ewc-dos-g6JruHRT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ratenat-pYVLA7wM/cvrf/cisco-sa-ratenat-pYVLA7wM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-cmd-inj-wbZKvPxc/cvrf/cisco-sa-iosxr-cmd-inj-wbZKvPxc_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-openssl-2021-GHY28dJd/cvrf/cisco-sa-openssl-2021-GHY28dJd_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-privescal-dZYMrKf/cvrf/cisco-sa-iosxr-privescal-dZYMrKf_cvrf.xml",
     "depth": 2
   },
