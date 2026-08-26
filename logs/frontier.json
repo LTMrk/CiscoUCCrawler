@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-n3kn9k_aci_lldp_dos-NdgRrrA3/cvrf/cisco-sa-n3kn9k_aci_lldp_dos-NdgRrrA3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-cpdos-qLsv6pFD/cvrf/cisco-sa-nxos-cpdos-qLsv6pFD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-dsnmp-cNN39Uh/cvrf/cisco-sa-nxos-dsnmp-cNN39Uh_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-ether-dos-Kv8YNWZ4/cvrf/cisco-sa-nxos-ether-dos-Kv8YNWZ4_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucsfxosxss-7skVE8Zv/cvrf/cisco-sa-ucsfxosxss-7skVE8Zv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucsm-afwae-mOgUfyLn/cvrf/cisco-sa-ucsm-afwae-mOgUfyLn_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-wsa-archive-bypass-Scx2e8zF/cvrf/cisco-sa-wsa-archive-bypass-Scx2e8zF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-voice-rce-mORhqY4b/cvrf/cisco-sa-voice-rce-mORhqY4b_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snort3-mime-vulns-tTL8PgVH/cvrf/cisco-sa-snort3-mime-vulns-tTL8PgVH_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-tce-roomos-dos-9V9jrC2q/cvrf/cisco-sa-tce-roomos-dos-9V9jrC2q_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snort3-dcerpc-vulns-J9HNF4tH/cvrf/cisco-sa-snort3-dcerpc-vulns-J9HNF4tH_cvrf.xml",
     "depth": 2
   },
