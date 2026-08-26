@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ndfccsrf-TEmZEfJ9/cvrf/cisco-sa-ndfccsrf-TEmZEfJ9_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ndo-upav-YRqsCcSP/cvrf/cisco-sa-ndo-upav-YRqsCcSP_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-tms-xss-kGw4DX9Y/cvrf/cisco-sa-tms-xss-kGw4DX9Y_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-imps-xss-quWkd9yF/cvrf/cisco-sa-cucm-imps-xss-quWkd9yF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ece-xss-CSQxgxfM/cvrf/cisco-sa-ece-xss-CSQxgxfM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-csrf-NfAKXrp5/cvrf/cisco-sa-ise-csrf-NfAKXrp5_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ndidv-LmXdvAf2/cvrf/cisco-sa-ndidv-LmXdvAf2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ndru-pesc-kZ2PQLZH/cvrf/cisco-sa-ndru-pesc-kZ2PQLZH_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sbiz-rv-xss-OQeRTup/cvrf/cisco-sa-sbiz-rv-xss-OQeRTup_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-utd-cmd-JbL8KvHT/cvrf/cisco-sa-iosxe-utd-cmd-JbL8KvHT_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-wlc-privesc-RjSMrmPK/cvrf/cisco-sa-iosxe-wlc-privesc-RjSMrmPK_cvrf.xml",
     "depth": 2
   },
