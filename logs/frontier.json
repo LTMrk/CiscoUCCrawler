@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-wlc-privesc-RjSMrmPK/cvrf/cisco-sa-iosxe-wlc-privesc-RjSMrmPK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dmi-acl-bypass-Xv8FO8Vz/cvrf/cisco-sa-dmi-acl-bypass-Xv8FO8Vz_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-airo-ap-dos-PPPtcVW/cvrf/cisco-sa-airo-ap-dos-PPPtcVW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ap-dos-h9TGGX6W/cvrf/cisco-sa-ap-dos-h9TGGX6W_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ap-secureboot-bypass-zT5vJkSD/cvrf/cisco-sa-ap-secureboot-bypass-zT5vJkSD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dhcp-dos-T3CXPO9z/cvrf/cisco-sa-dhcp-dos-T3CXPO9z_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ikev1-NO2ccFWz/cvrf/cisco-sa-ikev1-NO2ccFWz_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-xe-sda-edge-dos-qZWuWXWG/cvrf/cisco-sa-ios-xe-sda-edge-dos-qZWuWXWG_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-ospf-dos-dR9Sfrxp/cvrf/cisco-sa-iosxe-ospf-dos-dR9Sfrxp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-isis-sGjyOUHX/cvrf/cisco-sa-isis-sGjyOUHX_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-lisp-3gYXs3qP/cvrf/cisco-sa-lisp-3gYXs3qP_cvrf.xml",
     "depth": 2
   },
