@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-accsc-dos-9SLzkZ8/cvrf/cisco-sa-accsc-dos-9SLzkZ8_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-mult-j-KxpNynR/cvrf/cisco-sa-ise-mult-j-KxpNynR_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-appd-php-authpriv-gEBwTvu5/cvrf/cisco-sa-appd-php-authpriv-gEBwTvu5_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-secure-endpoint-dos-RzOgFKnd/cvrf/cisco-sa-secure-endpoint-dos-RzOgFKnd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-icmpv6-t5TzqwNd/cvrf/cisco-sa-asa-icmpv6-t5TzqwNd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-webvpn-dos-3GhZQBAS/cvrf/cisco-sa-asa-webvpn-dos-3GhZQBAS_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-webvpn-LOeKsNmO/cvrf/cisco-sa-asa-webvpn-LOeKsNmO_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-injection-QeXegrCw/cvrf/cisco-sa-ise-injection-QeXegrCw_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-saml-hijack-ttuQfyz/cvrf/cisco-sa-asaftd-saml-hijack-ttuQfyz_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-logview-dos-AYJdeX55/cvrf/cisco-sa-fmc-logview-dos-AYJdeX55_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cms-segfault-G6ES4Ve8/cvrf/cisco-sa-cms-segfault-G6ES4Ve8_cvrf.xml",
     "depth": 2
   },
