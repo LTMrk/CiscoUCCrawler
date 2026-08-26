@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ISE-XSS-bL4VTML/cvrf/cisco-sa-ISE-XSS-bL4VTML_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-pi-epnm-wkZJeyeq/cvrf/cisco-sa-pi-epnm-wkZJeyeq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-thouseyes-privesc-DmzHG3Qv/cvrf/cisco-sa-thouseyes-privesc-DmzHG3Qv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sb-wap-inject-bHStWgXO/cvrf/cisco-sa-sb-wap-inject-bHStWgXO_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-priv-esc-KJLp2Aw/cvrf/cisco-sa-ise-priv-esc-KJLp2Aw_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-struts-C2kCMkmT/cvrf/cisco-sa-struts-C2kCMkmT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-http2-reset-d8Kf32vZ/cvrf/cisco-sa-http2-reset-d8Kf32vZ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ssl-vpn-Y88QOm77/cvrf/cisco-sa-asa-ssl-vpn-Y88QOm77_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-icmpv6-dos-4eMkLuN/cvrf/cisco-sa-ftd-icmpv6-dos-4eMkLuN_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-uipphone-xss-NcmUykqA/cvrf/cisco-sa-uipphone-xss-NcmUykqA_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-accsc-dos-9SLzkZ8/cvrf/cisco-sa-accsc-dos-9SLzkZ8_cvrf.xml",
     "depth": 2
   },
