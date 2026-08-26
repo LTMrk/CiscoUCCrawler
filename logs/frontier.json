@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-clamav-dos-prVGcHLd/cvrf/cisco-sa-clamav-dos-prVGcHLd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snort-smb-3nfhJtr/cvrf/cisco-sa-snort-smb-3nfhJtr_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esasmawsa-vulns-YRuSW5mD/cvrf/cisco-sa-esasmawsa-vulns-YRuSW5mD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a/cvrf/cisco-sa-openssl-W9sdCc2a_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-stor-xss-kpRBWXY/cvrf/cisco-sa-ise-stor-xss-kpRBWXY_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-csrf-vgNtTpAs/cvrf/cisco-sa-ise-csrf-vgNtTpAs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-path-trav-f6M7cs6r/cvrf/cisco-sa-ise-path-trav-f6M7cs6r_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-mgmt-privesc-7GqR2th/cvrf/cisco-sa-ftd-mgmt-privesc-7GqR2th_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asafdt-webvpn-dos-tzPSYern/cvrf/cisco-sa-asafdt-webvpn-dos-tzPSYern_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-xss-LATZYzxs/cvrf/cisco-sa-fmc-xss-LATZYzxs_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ftd-vp-authz-N2GckjN6/cvrf/cisco-sa-asa-ftd-vp-authz-N2GckjN6_cvrf.xml",
     "depth": 2
   },
