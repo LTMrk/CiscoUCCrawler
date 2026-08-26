@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-uccx-xss-GO9L9xxr/cvrf/cisco-sa-uccx-xss-GO9L9xxr_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sb-rv32x-cmdinject-cKQsZpxL/cvrf/cisco-sa-sb-rv32x-cmdinject-cKQsZpxL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-stealthsmc-rce-sfNBPjcS/cvrf/cisco-sa-stealthsmc-rce-sfNBPjcS_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-expressway-overwrite-3buqW8LH/cvrf/cisco-sa-expressway-overwrite-3buqW8LH_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-stealth-rce-2hYb9KFK/cvrf/cisco-sa-stealth-rce-2hYb9KFK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-wsa-bypass-bwBfugek/cvrf/cisco-sa-wsa-bypass-bwBfugek_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-access-contol-EeufSUCx/cvrf/cisco-sa-ise-access-contol-EeufSUCx_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-xss-twLnpy3M/cvrf/cisco-sa-ise-xss-twLnpy3M_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-7Q4TNYUx/cvrf/cisco-sa-ise-7Q4TNYUx_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-capic-csrfv-DMx6KSwV/cvrf/cisco-sa-capic-csrfv-DMx6KSwV_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vman-csrf-76RDbLEh/cvrf/cisco-sa-vman-csrf-76RDbLEh_cvrf.xml",
     "depth": 2
   },
