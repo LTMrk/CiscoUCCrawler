@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-snmp-dos-R8ENPbOs/cvrf/cisco-sa-ftd-snmp-dos-R8ENPbOs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200205-iosxr-cdp-rce/cvrf/cisco-sa-20200205-iosxr-cdp-rce_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-teams-dll-drsnH5AN/cvrf/cisco-sa-webex-teams-dll-drsnH5AN_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cdp-memleak-heyebx9/cvrf/cisco-sa-cdp-memleak-heyebx9_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cdp-rcedos-mAHR8vNx/cvrf/cisco-sa-cdp-rcedos-mAHR8vNx_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cvdsd-missing-auth-rQO88rnj/cvrf/cisco-sa-cvdsd-missing-auth-rQO88rnj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-expressway-vcs-dos-n6xxTMZB/cvrf/cisco-sa-expressway-vcs-dos-n6xxTMZB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-xss-yLrjqqU/cvrf/cisco-sa-fmc-xss-yLrjqqU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-url-bypass-zZtugtg3/cvrf/cisco-sa-esa-url-bypass-zZtugtg3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ind-dos-BwG634zn/cvrf/cisco-sa-ind-dos-BwG634zn_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-auth-bypass-uJWqLTZM/cvrf/cisco-sa-ise-auth-bypass-uJWqLTZM_cvrf.xml",
     "depth": 2
   },
