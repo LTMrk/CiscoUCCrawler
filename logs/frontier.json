@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-xss-frmhijck-kO3wmkuS/cvrf/cisco-sa-webex-xss-frmhijck-kO3wmkuS_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-pwd-WH64AhQF/cvrf/cisco-sa-ise-pwd-WH64AhQF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-broadworks-xss-xbhfr4cD/cvrf/cisco-sa-broadworks-xss-xbhfr4cD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sb-mult-vuln-CbVp4SUR/cvrf/cisco-sa-sb-mult-vuln-CbVp4SUR_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sma-esa-auth-bypass-66kEcxQD/cvrf/cisco-sa-sma-esa-auth-bypass-66kEcxQD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nd-tlsvld-TbAQLp3N/cvrf/cisco-sa-nd-tlsvld-TbAQLp3N_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iotcc-xss-WQrCLRVd/cvrf/cisco-sa-iotcc-xss-WQrCLRVd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ndb-afw-2MT9tb99/cvrf/cisco-sa-ndb-afw-2MT9tb99_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sb-rv-rce-overflow-ygHByAK/cvrf/cisco-sa-sb-rv-rce-overflow-ygHByAK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ndb-mhcvuln-vpsBPJ9y/cvrf/cisco-sa-ndb-mhcvuln-vpsBPJ9y_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-lifetime-pwd-GpCs76mb/cvrf/cisco-sa-ise-lifetime-pwd-GpCs76mb_cvrf.xml",
     "depth": 2
   },
