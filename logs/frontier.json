@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-multi-cert-dzA3h5PT/cvrf/cisco-sa-asaftd-multi-cert-dzA3h5PT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-ssl-dos-kxG8mpUA/cvrf/cisco-sa-asaftd-ssl-dos-kxG8mpUA_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-cmdinj-bTEgufOX/cvrf/cisco-sa-fmc-cmdinj-bTEgufOX_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-snort3-uAnUntcV/cvrf/cisco-sa-ftd-snort3-uAnUntcV_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftdsnort3sip-bypass-LMz2ThKn/cvrf/cisco-sa-ftdsnort3sip-bypass-LMz2ThKn_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snort-ftd-zXYtnjOM/cvrf/cisco-sa-snort-ftd-zXYtnjOM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-j22SaA4z/cvrf/cisco-sa-iosxe-webui-privesc-j22SaA4z_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-vman-sc-LRLfu2z/cvrf/cisco-sa-sdwan-vman-sc-LRLfu2z_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nso-priv-esc-XXqRtTfT/cvrf/cisco-sa-nso-priv-esc-XXqRtTfT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-webcmdinjsh-UFJxTgZD/cvrf/cisco-sa-iosxe-webcmdinjsh-UFJxTgZD_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-lfi-OWLbKUGe/cvrf/cisco-sa-sdwan-lfi-OWLbKUGe_cvrf.xml",
     "depth": 2
   },
