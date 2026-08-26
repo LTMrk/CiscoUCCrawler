@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iox-dos-4Fgcjh6/cvrf/cisco-sa-iox-dos-4Fgcjh6_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ncs520-tcp-ZpzzOxB/cvrf/cisco-sa-ncs520-tcp-ZpzzOxB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ap-privesc-wEVfp8Ud/cvrf/cisco-sa-ap-privesc-wEVfp8Ud_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ewlc-capwap-dos-2OA3JgKS/cvrf/cisco-sa-ewlc-capwap-dos-2OA3JgKS_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-alg-dos-hbBS7SZE/cvrf/cisco-sa-alg-dos-hbBS7SZE_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-decnet-dos-cuPWDkyL/cvrf/cisco-sa-iosxe-decnet-dos-cuPWDkyL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-romvar-cmd-inj-N56fYbrw/cvrf/cisco-sa-iosxe-romvar-cmd-inj-N56fYbrw_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-XE-SAP-OPLbze68/cvrf/cisco-sa-XE-SAP-OPLbze68_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-sdwdos-4zeEeC9w/cvrf/cisco-sa-iosxe-sdwdos-4zeEeC9w_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-xe-pnp-priv-esc-AmG3kuVL/cvrf/cisco-sa-ios-xe-pnp-priv-esc-AmG3kuVL_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-buffover-CqdRWLc/cvrf/cisco-sa-iosxe-buffover-CqdRWLc_cvrf.xml",
     "depth": 2
   },
