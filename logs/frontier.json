@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cms-segfault-G6ES4Ve8/cvrf/cisco-sa-cms-segfault-G6ES4Ve8_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-ac-acl-bypass-bwd7q6Gb/cvrf/cisco-sa-asaftd-ac-acl-bypass-bwd7q6Gb_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-snort3-8U4HHxH8/cvrf/cisco-sa-ftd-snort3-8U4HHxH8_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-file-download-7js4ug2J/cvrf/cisco-sa-fmc-file-download-7js4ug2J_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-xss-sK2gkfvJ/cvrf/cisco-sa-fmc-xss-sK2gkfvJ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-smbsnort3-dos-pfOjOYUV/cvrf/cisco-sa-ftd-smbsnort3-dos-pfOjOYUV_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-cmd-inj-29MP49hN/cvrf/cisco-sa-fmc-cmd-inj-29MP49hN_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sa-ftd-snort3-urldos-OccFQTeX/cvrf/cisco-sa-sa-ftd-snort3-urldos-OccFQTeX_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-intrusion-dos-DfT7wyGC/cvrf/cisco-sa-ftd-intrusion-dos-DfT7wyGC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-file-upload-FceLP4xs/cvrf/cisco-sa-ise-file-upload-FceLP4xs_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-multi-cert-dzA3h5PT/cvrf/cisco-sa-asaftd-multi-cert-dzA3h5PT_cvrf.xml",
     "depth": 2
   },
