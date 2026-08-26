@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-epnm-improp-auth-mUwFWUU3/cvrf/cisco-sa-epnm-improp-auth-mUwFWUU3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ndfc-cmdinj-UvYZrKfr/cvrf/cisco-sa-ndfc-cmdinj-UvYZrKfr_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-lobby-privesc-KwxBqJy/cvrf/cisco-sa-iosxe-lobby-privesc-KwxBqJy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iox-crlf-NvgKTKJZ/cvrf/cisco-sa-iox-crlf-NvgKTKJZ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iox-xss-LpGkzwtJ/cvrf/cisco-sa-iox-xss-LpGkzwtJ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-bootp-WuBhNBxA/cvrf/cisco-sa-bootp-WuBhNBxA_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-http-dos-sbv8XRpL/cvrf/cisco-sa-ios-http-dos-sbv8XRpL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ftd-ios-dos-kPEpQGGK/cvrf/cisco-sa-asa-ftd-ios-dos-kPEpQGGK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vmanage-xss-ZqkhP9W9/cvrf/cisco-sa-vmanage-xss-ZqkhP9W9_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-wlc-dos-hnX5KGOm/cvrf/cisco-sa-wlc-dos-hnX5KGOm_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-xe-secureboot-bypass-B6uYxYSZ/cvrf/cisco-sa-xe-secureboot-bypass-B6uYxYSZ_cvrf.xml",
     "depth": 2
   },
