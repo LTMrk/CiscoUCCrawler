@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200226-fpwr-cmdinj/cvrf/cisco-sa-20200226-fpwr-cmdinj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200226-ucs-cli-cmdinj/cvrf/cisco-sa-20200226-ucs-cli-cmdinj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200205-voip-phones-rce-dos/cvrf/cisco-sa-20200205-voip-phones-rce-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-sd-wan-bypass/cvrf/cisco-sa-20190807-sd-wan-bypass_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200205-fxnxos-iosxr-cdp-dos/cvrf/cisco-sa-20200205-fxnxos-iosxr-cdp-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-ios-xr-dos/cvrf/cisco-sa-20200122-ios-xr-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200219-esa-dos/cvrf/cisco-sa-20200219-esa-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200219-dcnm-priv-esc/cvrf/cisco-sa-20200219-dcnm-priv-esc_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-finesse-xss-6OgfQkUT/cvrf/cisco-sa-finesse-xss-6OgfQkUT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200219-dcnm-csrf/cvrf/cisco-sa-20200219-dcnm-csrf_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-on-prem-static-cred-sL8rDs8/cvrf/cisco-sa-on-prem-static-cred-sL8rDs8_cvrf.xml",
     "depth": 2
   },
