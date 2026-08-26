@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-pi-epnm-TET4GxBX/cvrf/cisco-sa-pi-epnm-TET4GxBX_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-authproxlog-SxczXQ63/cvrf/cisco-sa-authproxlog-SxczXQ63_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180328-smi2/cvrf/cisco-sa-20180328-smi2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-ssltls-dos-eHw76vZe/cvrf/cisco-sa-asaftd-ssltls-dos-eHw76vZe_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-ravpn-geobypass-9h38M37Z/cvrf/cisco-sa-ftd-ravpn-geobypass-9h38M37Z_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-nat-dns-dos-bqhynHTM/cvrf/cisco-sa-asaftd-nat-dns-dos-bqhynHTM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-authz-bypass-M7xhnAu/cvrf/cisco-sa-fmc-authz-bypass-M7xhnAu_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-xpathinj-COrThdMb/cvrf/cisco-sa-fmc-xpathinj-COrThdMb_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-http-file-hUyX2jL4/cvrf/cisco-sa-asaftd-http-file-hUyX2jL4_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-html-inj-MqjrZrny/cvrf/cisco-sa-fmc-html-inj-MqjrZrny_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ftd-acl-bypass-mtPze9Yh/cvrf/cisco-sa-asa-ftd-acl-bypass-mtPze9Yh_cvrf.xml",
     "depth": 2
   },
