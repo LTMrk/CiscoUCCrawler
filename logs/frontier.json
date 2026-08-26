@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200226-mds-ovrld-dos/cvrf/cisco-sa-20200226-mds-ovrld-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-amp4elinux-h33dkrvb/cvrf/cisco-sa-amp4elinux-h33dkrvb_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-uccx-rce-GMSC6RKN/cvrf/cisco-sa-uccx-rce-GMSC6RKN_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-pcp-sql-inj-22Auwt66/cvrf/cisco-sa-pcp-sql-inj-22Auwt66_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cpnr-dhcp-dos-BkEZfhLP/cvrf/cisco-sa-cpnr-dhcp-dos-BkEZfhLP_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-amp4emac-dos-kfKjUGtM/cvrf/cisco-sa-amp4emac-dos-kfKjUGtM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180418-fpsnort/cvrf/cisco-sa-20180418-fpsnort_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191106-wlc-dos/cvrf/cisco-sa-20191106-wlc-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fp2100-arp-dos-kLdCK8ks/cvrf/cisco-sa-fp2100-arp-dos-kLdCK8ks_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190417-air-ap-dos/cvrf/cisco-sa-20190417-air-ap-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snort_filepolbypass-m4X5DgOP/cvrf/cisco-sa-snort_filepolbypass-m4X5DgOP_cvrf.xml",
     "depth": 2
   },
