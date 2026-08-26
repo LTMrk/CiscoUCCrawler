@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-sma-xss-WCk2WcuG/cvrf/cisco-sa-esa-sma-xss-WCk2WcuG_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-expressway-xss-uexUZrEW/cvrf/cisco-sa-expressway-xss-uexUZrEW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cmm-privesc-uy2Vf8pc/cvrf/cisco-sa-cmm-privesc-uy2Vf8pc_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-clamav-ole2-H549rphA/cvrf/cisco-sa-clamav-ole2-H549rphA_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-bw-sip-dos-mSySbrmt/cvrf/cisco-sa-bw-sip-dos-mSySbrmt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-thousandeyes-cert-pqtJUv9N/cvrf/cisco-sa-thousandeyes-cert-pqtJUv9N_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snort-rf-bypass-OY8f3pnM/cvrf/cisco-sa-snort-rf-bypass-OY8f3pnM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-xwork-xss-KCcg7WwU/cvrf/cisco-sa-xwork-xss-KCcg7WwU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cspc-xss-CDOJZyH/cvrf/cisco-sa-cspc-xss-CDOJZyH_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ap-dos-capwap-DDMCZS4m/cvrf/cisco-sa-ap-dos-capwap-DDMCZS4m_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-CVE-2014-2120/cvrf/cisco-sa-CVE-2014-2120_cvrf.xml",
     "depth": 2
   },
