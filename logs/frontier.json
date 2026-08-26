@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-visio-dir-sql-inj-fPm3MPfT/cvrf/cisco-sa-visio-dir-sql-inj-fPm3MPfT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rv-auth-bypass-cGv9EruZ/cvrf/cisco-sa-rv-auth-bypass-cGv9EruZ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rv-rce-AQKREqp/cvrf/cisco-sa-rv-rce-AQKREqp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-code-exec-wH3BNFb/cvrf/cisco-sa-code-exec-wH3BNFb_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-telnetd-EFJrEzPx/cvrf/cisco-sa-telnetd-EFJrEzPx_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-xss-bLZw4Ctq/cvrf/cisco-sa-cucm-xss-bLZw4Ctq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-anyconnect-mac-dos-36s2y3Lv/cvrf/cisco-sa-anyconnect-mac-dos-36s2y3Lv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-cuc-imp-xss-OWuSYAp/cvrf/cisco-sa-cucm-cuc-imp-xss-OWuSYAp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sbswitch-session-JZAS5jnY/cvrf/cisco-sa-sbswitch-session-JZAS5jnY_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-mlt-ise-strd-xss-nqFhTtx7/cvrf/cisco-sa-mlt-ise-strd-xss-nqFhTtx7_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dnac-info-disc-6xsCyDYy/cvrf/cisco-sa-dnac-info-disc-6xsCyDYy_cvrf.xml",
     "depth": 2
   },
