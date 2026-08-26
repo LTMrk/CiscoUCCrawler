@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-lifetime-pwd-GpCs76mb/cvrf/cisco-sa-ise-lifetime-pwd-GpCs76mb_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ndb-mprvesc-EMhDgXe5/cvrf/cisco-sa-ndb-mprvesc-EMhDgXe5_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ISE-SAML-nuukMPf9/cvrf/cisco-sa-ISE-SAML-nuukMPf9_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-xss-ksKd5yfA/cvrf/cisco-sa-cucm-xss-ksKd5yfA_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucm-access-dMKvV2DY/cvrf/cisco-sa-ucm-access-dMKvV2DY_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-imp-afr-YBFLNyzd/cvrf/cisco-sa-cucm-imp-afr-YBFLNyzd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucm-file-read-qgjhEc3A/cvrf/cisco-sa-ucm-file-read-qgjhEc3A_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-roomos-infodisc-YOTz9Ct7/cvrf/cisco-sa-roomos-infodisc-YOTz9Ct7_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucm-timing-JVbHECOK/cvrf/cisco-sa-ucm-timing-JVbHECOK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-onprem-privesc-tP6uNZOS/cvrf/cisco-sa-onprem-privesc-tP6uNZOS_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-xss-RgH7MpKA/cvrf/cisco-sa-cucm-xss-RgH7MpKA_cvrf.xml",
     "depth": 2
   },
