@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-repacl-9eXgnBpD/cvrf/cisco-sa-repacl-9eXgnBpD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nso-auth-bypass-QnTEesp/cvrf/cisco-sa-nso-auth-bypass-QnTEesp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-xss-9zmfHyZ/cvrf/cisco-sa-cucm-xss-9zmfHyZ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-cmd-injection-xD9OhyOP/cvrf/cisco-sa-nxos-cmd-injection-xD9OhyOP_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-openssh-rce-2024/cvrf/cisco-sa-openssh-rce-2024_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-l2services-2mvHdNuC/cvrf/cisco-sa-l2services-2mvHdNuC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-priv-esc-CrG5vhCq/cvrf/cisco-sa-iosxr-priv-esc-CrG5vhCq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-pak-mem-exhst-3ke9FeFy/cvrf/cisco-sa-pak-mem-exhst-3ke9FeFy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-xml-tcpdos-ZEXvrU2S/cvrf/cisco-sa-iosxr-xml-tcpdos-ZEXvrU2S_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-isis-xehpbVNe/cvrf/cisco-sa-isis-xehpbVNe_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-shellutil-HCb278wD/cvrf/cisco-sa-iosxr-shellutil-HCb278wD_cvrf.xml",
     "depth": 2
   },
