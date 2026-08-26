@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rv-34x-privesc-GLN8ZAQE/cvrf/cisco-sa-rv-34x-privesc-GLN8ZAQE_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-dos-Ckn5cVqW/cvrf/cisco-sa-sdwan-dos-Ckn5cVqW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-tp-rmos-fileread-pE9sL3g/cvrf/cisco-sa-tp-rmos-fileread-pE9sL3g_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vmanage-xss-eN75jxtW/cvrf/cisco-sa-vmanage-xss-eN75jxtW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-wsa-sma-info-gY2AEz2H/cvrf/cisco-sa-esa-wsa-sma-info-gY2AEz2H_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-arbfile-7Qhd9mCn/cvrf/cisco-sa-sdwan-arbfile-7Qhd9mCn_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-imp-inj-ereCOKjR/cvrf/cisco-sa-imp-inj-ereCOKjR_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-bwms-xxe-uSLrZgKs/cvrf/cisco-sa-bwms-xxe-uSLrZgKs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-anyconnect-code-exec-jR3tWTA6/cvrf/cisco-sa-anyconnect-code-exec-jR3tWTA6_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sd-wan-vmanage-9VZO4gfU/cvrf/cisco-sa-sd-wan-vmanage-9VZO4gfU_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-anyconnect-profile-AggMUCDg/cvrf/cisco-sa-anyconnect-profile-AggMUCDg_cvrf.xml",
     "depth": 2
   },
