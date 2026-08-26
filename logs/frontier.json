@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdavc-ZA5fpXX2/cvrf/cisco-sa-sdavc-ZA5fpXX2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-6vpe-dos-tJBtf5Zv/cvrf/cisco-sa-iosxe-6vpe-dos-tJBtf5Zv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ssh-excpt-dos-FzOBQTnk/cvrf/cisco-sa-ssh-excpt-dos-FzOBQTnk_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vmanage-msg-serv-AqTup7vs/cvrf/cisco-sa-vmanage-msg-serv-AqTup7vs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180620-nxosbgp/cvrf/cisco-sa-20180620-nxosbgp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-xr-cdp-wnALzvT2/cvrf/cisco-sa-xr-cdp-wnALzvT2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-bng-Gmg5Gxt/cvrf/cisco-sa-iosxr-bng-Gmg5Gxt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ncs4k-tl1-GNnLwC6/cvrf/cisco-sa-ncs4k-tl1-GNnLwC6_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-mlx5-jbPCrqD8/cvrf/cisco-sa-mlx5-jbPCrqD8_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sb-rv-vpnbypass-Cpheup9O/cvrf/cisco-sa-sb-rv-vpnbypass-Cpheup9O_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-mpls-oam-dos-sGO9x5GM/cvrf/cisco-sa-nxos-mpls-oam-dos-sGO9x5GM_cvrf.xml",
     "depth": 2
   },
