@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nfvis-file-overwrite-UONzPMkr/cvrf/cisco-sa-nfvis-file-overwrite-UONzPMkr_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-media-znjfwHD6/cvrf/cisco-sa-webex-media-znjfwHD6_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-ro-path-KJuQhB86/cvrf/cisco-sa-asaftd-ro-path-KJuQhB86_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fxos-nxos-cfs-dos-dAmnymbd/cvrf/cisco-sa-fxos-nxos-cfs-dos-dAmnymbd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-dme-rce-cbE3nhZS/cvrf/cisco-sa-nxos-dme-rce-cbE3nhZS_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-n3n9k-priv-escal-3QhXJBC/cvrf/cisco-sa-n3n9k-priv-escal-3QhXJBC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxosbgp-mvpn-dos-K8kbCrJp/cvrf/cisco-sa-nxosbgp-mvpn-dos-K8kbCrJp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxosbgp-nlri-dos-458rG2OQ/cvrf/cisco-sa-nxosbgp-nlri-dos-458rG2OQ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-callhome-cmdinj-zkxzSCY/cvrf/cisco-sa-callhome-cmdinj-zkxzSCY_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180620-nx-os-cli-injection/cvrf/cisco-sa-20180620-nx-os-cli-injection_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180620-nx-os-cli-execution/cvrf/cisco-sa-20180620-nx-os-cli-execution_cvrf.xml",
     "depth": 2
   },
