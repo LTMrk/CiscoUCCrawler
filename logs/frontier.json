@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-uccsmi-prvesc-BQHGe4cm/cvrf/cisco-sa-uccsmi-prvesc-BQHGe4cm_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cdp-dos-G8DPLWYG/cvrf/cisco-sa-cdp-dos-G8DPLWYG_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-dos-MxZvGtgU/cvrf/cisco-sa-esa-dos-MxZvGtgU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cfsoip-dos-tpykyDr/cvrf/cisco-sa-cfsoip-dos-tpykyDr_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-nxapi-cmdinject-ULukNMZ2/cvrf/cisco-sa-nxos-nxapi-cmdinject-ULukNMZ2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-n9kaci-tcp-dos-YXukt6gM/cvrf/cisco-sa-n9kaci-tcp-dos-YXukt6gM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-scp-inject-QwZOCv2/cvrf/cisco-sa-iosxr-scp-inject-QwZOCv2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sd-wan-rhpbE34A/cvrf/cisco-sa-sd-wan-rhpbE34A_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rcm-tcp-dos-2Wh8XjAQ/cvrf/cisco-sa-rcm-tcp-dos-2Wh8XjAQ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-pi-epnm-xss-P8fBz2FW/cvrf/cisco-sa-pi-epnm-xss-P8fBz2FW_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-smb-mult-vuln-KA9PK6D/cvrf/cisco-sa-smb-mult-vuln-KA9PK6D_cvrf.xml",
     "depth": 2
   },
