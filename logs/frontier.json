@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdbufof-h5f5VSeL/cvrf/cisco-sa-sdbufof-h5f5VSeL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190206-tms-soap/cvrf/cisco-sa-20190206-tms-soap_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dcnm-path-trav-2xZOnJdR/cvrf/cisco-sa-dcnm-path-trav-2xZOnJdR_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dcnm-rest-inj-BCt8pwAJ/cvrf/cisco-sa-dcnm-rest-inj-BCt8pwAJ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dcnm-bypass-dyEejUMs/cvrf/cisco-sa-dcnm-bypass-dyEejUMs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dcnm-sql-inject-8hk6PwmF/cvrf/cisco-sa-dcnm-sql-inject-8hk6PwmF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dcnm-xss-3jkDLsLV/cvrf/cisco-sa-dcnm-xss-3jkDLsLV_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-devmgr-cmd-inj-Umc8RHNh/cvrf/cisco-sa-devmgr-cmd-inj-Umc8RHNh_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-uabvman-SYGzt8Bv/cvrf/cisco-sa-uabvman-SYGzt8Bv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dcnm-auth-bypass-JkubGpu3/cvrf/cisco-sa-dcnm-auth-bypass-JkubGpu3_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dcnm-improper-auth-7Krd9TDT/cvrf/cisco-sa-dcnm-improper-auth-7Krd9TDT_cvrf.xml",
     "depth": 2
   },
