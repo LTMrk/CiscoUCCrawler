@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-CVE-2014-2120/cvrf/cisco-sa-CVE-2014-2120_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-swa-priv-esc-7uHpZsCC/cvrf/cisco-sa-swa-priv-esc-7uHpZsCC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-load-infodisc-9rdOr5Fq/cvrf/cisco-sa-iosxr-load-infodisc-9rdOr5Fq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-3550-acl-bypass-mhskZc2q/cvrf/cisco-sa-3550-acl-bypass-mhskZc2q_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ccmp-sxss-qBTDBZDD/cvrf/cisco-sa-ccmp-sxss-qBTDBZDD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cmm-info-disc-9ZEMAhGA/cvrf/cisco-sa-cmm-info-disc-9ZEMAhGA_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-xss-SVCkMMW/cvrf/cisco-sa-cucm-xss-SVCkMMW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-backhaul-ap-cmdinj-R7E28Ecs/cvrf/cisco-sa-backhaul-ap-cmdinj-R7E28Ecs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ece-dos-Oqb9uFEv/cvrf/cisco-sa-ece-dos-Oqb9uFEv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-epnmpi-sxss-yyf2zkXs/cvrf/cisco-sa-epnmpi-sxss-yyf2zkXs_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-wsa-sma-xss-zYm3f49n/cvrf/cisco-sa-esa-wsa-sma-xss-zYm3f49n_cvrf.xml",
     "depth": 2
   },
