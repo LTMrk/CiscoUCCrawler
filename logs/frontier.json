@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snmp-uhv6ZDeF/cvrf/cisco-sa-snmp-uhv6ZDeF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-pppma-JKWFgneW/cvrf/cisco-sa-iosxr-pppma-JKWFgneW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-ssh-privesc-eWDMKew3/cvrf/cisco-sa-iosxr-ssh-privesc-eWDMKew3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vmanage-unauthapi-sphCLYPA/cvrf/cisco-sa-vmanage-unauthapi-sphCLYPA_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-secure-client-crlf-W43V4G7/cvrf/cisco-sa-secure-client-crlf-W43V4G7_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-duo-infodisc-rLCEqm6T/cvrf/cisco-sa-duo-infodisc-rLCEqm6T_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-appd-traversal-m7N8mZpF/cvrf/cisco-sa-appd-traversal-m7N8mZpF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-secure-privesc-sYxQO6ds/cvrf/cisco-sa-secure-privesc-sYxQO6ds_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-duo-win-bypass-pn42KKBm/cvrf/cisco-sa-duo-win-bypass-pn42KKBm_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sb-wap-multi-85G83CRB/cvrf/cisco-sa-sb-wap-multi-85G83CRB_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-appd-xss-3JwqSMNT/cvrf/cisco-sa-appd-xss-3JwqSMNT_cvrf.xml",
     "depth": 2
   },
