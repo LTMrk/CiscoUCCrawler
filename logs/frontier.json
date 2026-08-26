@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-smb-mult-vuln-KA9PK6D/cvrf/cisco-sa-smb-mult-vuln-KA9PK6D_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dnac-info-disc-8QEynKEj/cvrf/cisco-sa-dnac-info-disc-8QEynKEj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-swg-fbyps-3z4qT7p/cvrf/cisco-sa-swg-fbyps-3z4qT7p_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sma-wsa-esa-info-dis-vsvPzOHP/cvrf/cisco-sa-sma-wsa-esa-info-dis-vsvPzOHP_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cpsc-info-disc-zkJBDJ9F/cvrf/cisco-sa-cpsc-info-disc-zkJBDJ9F_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd/cvrf/cisco-sa-apache-log4j-qRuKNEbd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-tetr-cmd-injc-skrwGO/cvrf/cisco-sa-tetr-cmd-injc-skrwGO_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-apache-httpd-2.4.49-VWL69sWQ/cvrf/cisco-sa-apache-httpd-2.4.49-VWL69sWQ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-xss-FmbPu2pe/cvrf/cisco-sa-webex-xss-FmbPu2pe_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cli-cmdinj-4MttWZPB/cvrf/cisco-sa-cli-cmdinj-4MttWZPB_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-confdcli-cmdinj-wybQDSSh/cvrf/cisco-sa-confdcli-cmdinj-wybQDSSh_cvrf.xml",
     "depth": 2
   },
