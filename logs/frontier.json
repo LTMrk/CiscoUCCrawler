@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snmpwred-x3MJyf5M/cvrf/cisco-sa-snmpwred-x3MJyf5M_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cat9k-acl-L4K7VXgD/cvrf/cisco-sa-cat9k-acl-L4K7VXgD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-9800cl-openscep-SB4xtxzP/cvrf/cisco-sa-9800cl-openscep-SB4xtxzP_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-action-frame-inj-QqCNcz8H/cvrf/cisco-sa-action-frame-inj-QqCNcz8H_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-arg-inject-EyDDbh4e/cvrf/cisco-sa-iosxe-arg-inject-EyDDbh4e_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snmp-bypass-HHUVujdn/cvrf/cisco-sa-snmp-bypass-HHUVujdn_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-xrsig-UY4zRUCG/cvrf/cisco-sa-xrsig-UY4zRUCG_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-acl-packetio-Swjhhbtz/cvrf/cisco-sa-acl-packetio-Swjhhbtz_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-arp-storm-EjUU55yM/cvrf/cisco-sa-iosxr-arp-storm-EjUU55yM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fp2k-IPsec-dos-tjwgdZCO/cvrf/cisco-sa-fp2k-IPsec-dos-tjwgdZCO_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-xss-55bv8hhm/cvrf/cisco-sa-webex-xss-55bv8hhm_cvrf.xml",
     "depth": 2
   },
