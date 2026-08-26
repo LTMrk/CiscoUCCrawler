@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-wsa-sma-xss-zYm3f49n/cvrf/cisco-sa-esa-wsa-sma-xss-zYm3f49n_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-multi-vuln-DBQdWRy/cvrf/cisco-sa-ise-multi-vuln-DBQdWRy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-mpp-xss-8tAV2TvF/cvrf/cisco-sa-mpp-xss-8tAV2TvF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-imp-inf-disc-cUPKuA5n/cvrf/cisco-sa-imp-inf-disc-cUPKuA5n_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-auth-bypass-BBRf7mkE/cvrf/cisco-sa-ise-auth-bypass-BBRf7mkE_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-multi-vulns-AF544ED5/cvrf/cisco-sa-ise-multi-vulns-AF544ED5_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ndfc-sqli-CyPPAxrL/cvrf/cisco-sa-ndfc-sqli-CyPPAxrL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-phone-infodisc-sbyqQVbG/cvrf/cisco-sa-phone-infodisc-sbyqQVbG_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-acl-bypass-VvnLNKqf/cvrf/cisco-sa-asaftd-acl-bypass-VvnLNKqf_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-xss-infodisc-RL4mJFer/cvrf/cisco-sa-fmc-xss-infodisc-RL4mJFer_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ata19x-multi-RDTEqRsy/cvrf/cisco-sa-ata19x-multi-RDTEqRsy_cvrf.xml",
     "depth": 2
   },
