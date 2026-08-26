@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sb-dos-ZN5GvNH7/cvrf/cisco-sa-sb-dos-ZN5GvNH7_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fpdos-hORBfd9f/cvrf/cisco-sa-fpdos-hORBfd9f_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rv-rce-m4FEEGWX/cvrf/cisco-sa-rv-rce-m4FEEGWX_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdw-dos-KWOdyHnB/cvrf/cisco-sa-sdw-dos-KWOdyHnB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cmd-shell-injection-9jOQn9Dy/cvrf/cisco-sa-cmd-shell-injection-9jOQn9Dy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-emvman-3y6LuTcZ/cvrf/cisco-sa-emvman-3y6LuTcZ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rv-info-dis-FEWBWgsD/cvrf/cisco-sa-rv-info-dis-FEWBWgsD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dcnm-privescal-zxfCH7Dg/cvrf/cisco-sa-dcnm-privescal-zxfCH7Dg_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dncm-xss-AvMyAwd2/cvrf/cisco-sa-dncm-xss-AvMyAwd2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vmanwebid-5QWMcCvt/cvrf/cisco-sa-vmanwebid-5QWMcCvt_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-clibypvman-sKcLf2L/cvrf/cisco-sa-clibypvman-sKcLf2L_cvrf.xml",
     "depth": 2
   },
