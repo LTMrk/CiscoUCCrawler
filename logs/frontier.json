@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-spa-http-vulns-RJZmX2Xz/cvrf/cisco-sa-spa-http-vulns-RJZmX2Xz_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-xss-V2bm9JCY/cvrf/cisco-sa-ise-xss-V2bm9JCY_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-ipxe-sigbypass-pymfyqgB/cvrf/cisco-sa-iosxr-ipxe-sigbypass-pymfyqgB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cssm-auth-sLw3uhUy/cvrf/cisco-sa-cssm-auth-sLw3uhUy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-file-upload-krW2TxA9/cvrf/cisco-sa-ise-file-upload-krW2TxA9_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-afw-bGG2UsjH/cvrf/cisco-sa-esa-afw-bGG2UsjH_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sb-rv34x-rce-7pqFU2e/cvrf/cisco-sa-sb-rv34x-rce-7pqFU2e_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-priv-esc-ssti-xNO2EOGZ/cvrf/cisco-sa-esa-priv-esc-ssti-xNO2EOGZ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-inode-static-key-VUVCeynn/cvrf/cisco-sa-inode-static-key-VUVCeynn_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-app-ZjNm8X8j/cvrf/cisco-sa-webex-app-ZjNm8X8j_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-expressway-redirect-KJsFuXgj/cvrf/cisco-sa-expressway-redirect-KJsFuXgj_cvrf.xml",
     "depth": 2
   },
