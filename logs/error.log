@@ -15427,3 +15427,16 @@
 [2026-08-26T14:24:56.437261] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-uc-xss/cvrf/cisco-sa-20200122-uc-xss_cvrf.xml
 [2026-08-26T14:25:00.831428] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-fmc-auth/cvrf/cisco-sa-20200122-fmc-auth_cvrf.xml
 [2026-08-26T14:25:05.065743] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-umbrella-msi-install/cvrf/cisco-sa-20200122-umbrella-msi-install_cvrf.xml
+[2026-08-26T14:27:53.596944] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-26T14:27:57.749383] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-26T14:29:10.854829] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-26T14:29:11.597407] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-hcm-f-csrf/cvrf/cisco-sa-20200122-hcm-f-csrf_cvrf.xml
+[2026-08-26T14:29:15.364508] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-sdwan-sqlinj/cvrf/cisco-sa-20200122-sdwan-sqlinj_cvrf.xml
+[2026-08-26T14:29:19.521555] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-sdwan-sql-inject/cvrf/cisco-sa-20200122-sdwan-sql-inject_cvrf.xml
+[2026-08-26T14:29:23.560437] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-sdwan-priv-esc/cvrf/cisco-sa-20200122-sdwan-priv-esc_cvrf.xml
+[2026-08-26T14:29:27.867642] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cuc-dirtrv-M9HpnME4/cvrf/cisco-sa-cuc-dirtrv-M9HpnME4_cvrf.xml
+[2026-08-26T14:29:32.208725] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-dos-87mBkc8n/cvrf/cisco-sa-esa-dos-87mBkc8n_cvrf.xml
+[2026-08-26T14:29:36.398811] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iptable-bypass-GxW88XjL/cvrf/cisco-sa-iptable-bypass-GxW88XjL_cvrf.xml
+[2026-08-26T14:29:40.751191] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucm-csrf-NbhZTxL/cvrf/cisco-sa-ucm-csrf-NbhZTxL_cvrf.xml
+[2026-08-26T14:29:45.037058] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200122-cuc-info-disclosure/cvrf/cisco-sa-20200122-cuc-info-disclosure_cvrf.xml
+[2026-08-26T14:29:49.411870] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-bypass-5Cdv2HMA/cvrf/cisco-sa-esa-bypass-5Cdv2HMA_cvrf.xml
