@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cv-xss-rwRAKAJ9/cvrf/cisco-sa-cv-xss-rwRAKAJ9_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-stored-xss-Fnj66YLy/cvrf/cisco-sa-cucm-stored-xss-Fnj66YLy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cat9k-PtmD7bgy/cvrf/cisco-sa-cat9k-PtmD7bgy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ap-ipv6-gw-tUAzpn9O/cvrf/cisco-sa-ap-ipv6-gw-tUAzpn9O_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webui-xss-VWyDgjOU/cvrf/cisco-sa-webui-xss-VWyDgjOU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-cli-EB7cZ6yO/cvrf/cisco-sa-ios-cli-EB7cZ6yO_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-defaultacl-pSJk9nVF/cvrf/cisco-sa-defaultacl-pSJk9nVF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nbar-dos-LAvwTmeT/cvrf/cisco-sa-nbar-dos-LAvwTmeT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-xe-cmd-inject-rPJM8BGL/cvrf/cisco-sa-ios-xe-cmd-inject-rPJM8BGL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-invalid-url-dos-Nvxszf6u/cvrf/cisco-sa-ios-invalid-url-dos-Nvxszf6u_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snmpwred-x3MJyf5M/cvrf/cisco-sa-snmpwred-x3MJyf5M_cvrf.xml",
     "depth": 2
   },
