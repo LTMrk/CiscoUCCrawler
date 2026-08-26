@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-capic-chvul-CKfGYBh8/cvrf/cisco-sa-capic-chvul-CKfGYBh8_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-ipsec-mitm-CKnLr4/cvrf/cisco-sa-asaftd-ipsec-mitm-CKnLr4_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-mgmt-privesc-BMFMUvye/cvrf/cisco-sa-asaftd-mgmt-privesc-BMFMUvye_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ssl-vpn-heap-zLX3FdX/cvrf/cisco-sa-asa-ssl-vpn-heap-zLX3FdX_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-UCS-XSS-uQSME3L7/cvrf/cisco-sa-UCS-XSS-uQSME3L7_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snort-app-bypass-cSBYCATq/cvrf/cisco-sa-snort-app-bypass-cSBYCATq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ewlc-priv-esc-ybvHKO5/cvrf/cisco-sa-ewlc-priv-esc-ybvHKO5_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iox-yuXQ6hFj/cvrf/cisco-sa-iox-yuXQ6hFj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ROS-DOS-X7H7XhkK/cvrf/cisco-sa-ROS-DOS-X7H7XhkK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-clamav-dos-vL9x58p4/cvrf/cisco-sa-clamav-dos-vL9x58p4_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-NFVIS-MUL-7DySRX9/cvrf/cisco-sa-NFVIS-MUL-7DySRX9_cvrf.xml",
     "depth": 2
   },
