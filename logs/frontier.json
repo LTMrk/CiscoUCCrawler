@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cspc-info-disc-KM3bGVL/cvrf/cisco-sa-cspc-info-disc-KM3bGVL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-pi-sql-inj-KGLLsFw8/cvrf/cisco-sa-pi-sql-inj-KGLLsFw8_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cms-LAHe8z5v/cvrf/cisco-sa-cms-LAHe8z5v_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-wifi-faf-22epcEWu/cvrf/cisco-sa-wifi-faf-22epcEWu_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-CSPC-ILR-8qmW8y8X/cvrf/cisco-sa-CSPC-ILR-8qmW8y8X_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-CSPC-XSS-KjrNbM3p/cvrf/cisco-sa-CSPC-XSS-KjrNbM3p_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-CSPC-SQLI-unVPTn5/cvrf/cisco-sa-CSPC-SQLI-unVPTn5_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-xss1-rgxYry2V/cvrf/cisco-sa-ise-xss1-rgxYry2V_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cps-static-key-JmS92hNv/cvrf/cisco-sa-cps-static-key-JmS92hNv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-dos-JOm9ETfO/cvrf/cisco-sa-esa-dos-JOm9ETfO_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-smb-switches-tokens-UzwpR4e5/cvrf/cisco-sa-smb-switches-tokens-UzwpR4e5_cvrf.xml",
     "depth": 2
   },
