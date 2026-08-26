@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-StarOS-DoS-RLLvGFJj/cvrf/cisco-sa-StarOS-DoS-RLLvGFJj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-xss-Lz6HbGCt/cvrf/cisco-sa-webex-xss-Lz6HbGCt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-anyconnect-dll-hijac-JrcTOQMC/cvrf/cisco-sa-anyconnect-dll-hijac-JrcTOQMC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-wda-pt-msh-6LWOcZ5/cvrf/cisco-sa-wda-pt-msh-6LWOcZ5_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vepescm-BjgQm4vJ/cvrf/cisco-sa-vepescm-BjgQm4vJ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-xr-cp-dos-ej8VB9QY/cvrf/cisco-sa-xr-cp-dos-ej8VB9QY_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-csm-java-rce-mWJEedcD/cvrf/cisco-sa-csm-java-rce-mWJEedcD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snmp-7MKrW7Nq/cvrf/cisco-sa-snmp-7MKrW7Nq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-dos-WwDdghs2/cvrf/cisco-sa-iosxr-dos-WwDdghs2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rv160-260-filewrite-7x9mnKjn/cvrf/cisco-sa-rv160-260-filewrite-7x9mnKjn_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-msx-dos-4j7sytvU/cvrf/cisco-sa-msx-dos-4j7sytvU_cvrf.xml",
     "depth": 2
   },
