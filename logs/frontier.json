@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-smb-switches-tokens-UzwpR4e5/cvrf/cisco-sa-smb-switches-tokens-UzwpR4e5_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-catpon-multivulns-CE3DSYGr/cvrf/cisco-sa-catpon-multivulns-CE3DSYGr_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-anyconnect-nam-priv-yCsRNUGT/cvrf/cisco-sa-anyconnect-nam-priv-yCsRNUGT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cpar-strd-xss-A4DCVETG/cvrf/cisco-sa-cpar-strd-xss-A4DCVETG_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-path-trav-dKCvktvO/cvrf/cisco-sa-cucm-path-trav-dKCvktvO_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-pi-epnm-xss-U2JK537j/cvrf/cisco-sa-pi-epnm-xss-U2JK537j_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sbrv-cmdinjection-Z5cWFdK/cvrf/cisco-sa-sbrv-cmdinjection-Z5cWFdK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-smb-switches-web-dos-xMyFFkt8/cvrf/cisco-sa-smb-switches-web-dos-xMyFFkt8_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucm-csrf-xrTkDu3H/cvrf/cisco-sa-ucm-csrf-xrTkDu3H_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-umbrella-user-enum-S7XfJwDE/cvrf/cisco-sa-umbrella-user-enum-S7XfJwDE_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-videomesh-xss-qjm2BDQf/cvrf/cisco-sa-videomesh-xss-qjm2BDQf_cvrf.xml",
     "depth": 2
   },
