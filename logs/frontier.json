@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-xxe-jWSbSDKt/cvrf/cisco-sa-ise-xxe-jWSbSDKt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-react-flight-TYw32Ddb/cvrf/cisco-sa-react-flight-TYw32Ddb_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-multiple-vulns-O9BESWJH/cvrf/cisco-sa-ise-multiple-vulns-O9BESWJH_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cc-mult-vuln-gK4TFXSn/cvrf/cisco-sa-cc-mult-vuln-gK4TFXSn_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-privesc-catc-rYjReeLU/cvrf/cisco-sa-privesc-catc-rYjReeLU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-catc-open-redirect-3W5Bk3Je/cvrf/cisco-sa-catc-open-redirect-3W5Bk3Je_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-catc-priv-esc-VS8EeCuX/cvrf/cisco-sa-catc-priv-esc-VS8EeCuX_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dnac-ci-ZWLQVSwT/cvrf/cisco-sa-dnac-ci-ZWLQVSwT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dnac-xss-weXtVZ59/cvrf/cisco-sa-dnac-xss-weXtVZ59_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cc-unauth-rce-QeN8h7mQ/cvrf/cisco-sa-cc-unauth-rce-QeN8h7mQ_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-webvpn-YROOTUW/cvrf/cisco-sa-asaftd-webvpn-YROOTUW_cvrf.xml",
     "depth": 2
   },
