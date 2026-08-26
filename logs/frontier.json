@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-tcp-intercept-bypass-xG9M3PbY/cvrf/cisco-sa-tcp-intercept-bypass-xG9M3PbY_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftdfmc-dos-NjYvDcLA/cvrf/cisco-sa-ftdfmc-dos-NjYvDcLA_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-ssl-dcrpt-dos-RYEkX4yy/cvrf/cisco-sa-ftd-ssl-dcrpt-dos-RYEkX4yy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fxos-sbbp-XTuPkYTn/cvrf/cisco-sa-fxos-sbbp-XTuPkYTn_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-tcp-dos-GDcZDqAf/cvrf/cisco-sa-ftd-tcp-dos-GDcZDqAf_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-ssl-mf3822Z/cvrf/cisco-sa-ftd-ssl-mf3822Z_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-tls-bb-2g9uWkP/cvrf/cisco-sa-asaftd-tls-bb-2g9uWkP_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-inline-dos-nXqUyEqM/cvrf/cisco-sa-ftd-inline-dos-nXqUyEqM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-redirect-NYDuSEQn/cvrf/cisco-sa-fmc-redirect-NYDuSEQn_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-xss-6VqH4rpZ/cvrf/cisco-sa-fmc-xss-6VqH4rpZ_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-snmp-dos-R8ENPbOs/cvrf/cisco-sa-ftd-snmp-dos-R8ENPbOs_cvrf.xml",
     "depth": 2
   },
