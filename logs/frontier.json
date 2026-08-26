@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-saml-bypass-KkNvXyKW/cvrf/cisco-sa-asaftd-saml-bypass-KkNvXyKW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-object-bypass-fTH8tDjq/cvrf/cisco-sa-fmc-object-bypass-fTH8tDjq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-archive-bypass-z4wQjwcN/cvrf/cisco-sa-ftd-archive-bypass-z4wQjwcN_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snort3-ips-bypass-uE69KBMd/cvrf/cisco-sa-snort3-ips-bypass-uE69KBMd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-dos-nJVAwOeq/cvrf/cisco-sa-asaftd-dos-nJVAwOeq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-apidos-PGsDcdNF/cvrf/cisco-sa-cucm-apidos-PGsDcdNF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nso-hcc-priv-esc-OWBWCs5D/cvrf/cisco-sa-nso-hcc-priv-esc-OWBWCs5D_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nso-rwpesc-qrQGnh3f/cvrf/cisco-sa-nso-rwpesc-qrQGnh3f_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-appd-netvisdos-9zNbsJtK/cvrf/cisco-sa-appd-netvisdos-9zNbsJtK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nso-ordir-MNM8YqzO/cvrf/cisco-sa-nso-ordir-MNM8YqzO_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-secure-nam-priv-esc-szu2vYpZ/cvrf/cisco-sa-secure-nam-priv-esc-szu2vYpZ_cvrf.xml",
     "depth": 2
   },
