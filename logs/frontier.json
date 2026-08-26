@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-appd-xss-3JwqSMNT/cvrf/cisco-sa-appd-xss-3JwqSMNT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-ebgp-dos-L3QCwVJ/cvrf/cisco-sa-nxos-ebgp-dos-L3QCwVJ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ipv6-mpls-dos-R9ycXkwM/cvrf/cisco-sa-ipv6-mpls-dos-R9ycXkwM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucsfi-imm-syn-p6kZTDQC/cvrf/cisco-sa-ucsfi-imm-syn-p6kZTDQC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-lldp-dos-z7PncTgt/cvrf/cisco-sa-nxos-lldp-dos-z7PncTgt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-po-acl-TkyePgvL/cvrf/cisco-sa-nxos-po-acl-TkyePgvL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cimc-xss-UMYtYEtr/cvrf/cisco-sa-cimc-xss-UMYtYEtr_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cuic-access-control-jJsZQMjj/cvrf/cisco-sa-cuic-access-control-jJsZQMjj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-info-disclose-9eJtycMB/cvrf/cisco-sa-asaftd-info-disclose-9eJtycMB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-clamav-hDffu6t/cvrf/cisco-sa-clamav-hDffu6t_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-expressway-csrf-KnnZDMj3/cvrf/cisco-sa-expressway-csrf-KnnZDMj3_cvrf.xml",
     "depth": 2
   },
