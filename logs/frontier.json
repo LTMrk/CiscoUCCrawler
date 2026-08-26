@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vim-privesc-T2tsFUf/cvrf/cisco-sa-vim-privesc-T2tsFUf_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-uva-static-key-6RQTRs4c/cvrf/cisco-sa-uva-static-key-6RQTRs4c_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ce-roomos-dos-c65x2Qf2/cvrf/cisco-sa-ce-roomos-dos-c65x2Qf2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-xss-6MCe4kPF/cvrf/cisco-sa-cucm-xss-6MCe4kPF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucm-csrf-jrKP4eNT/cvrf/cisco-sa-ucm-csrf-jrKP4eNT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-imp-sqlinj-GrpUuQEJ/cvrf/cisco-sa-imp-sqlinj-GrpUuQEJ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-xss-w47AMqAk/cvrf/cisco-sa-webex-xss-w47AMqAk_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-arb-write-74QzruUU/cvrf/cisco-sa-cucm-arb-write-74QzruUU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-bgpevpn-zWTRtPBb/cvrf/cisco-sa-bgpevpn-zWTRtPBb_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-java-spring-scf-rce-DQrHhJxH/cvrf/cisco-sa-java-spring-scf-rce-DQrHhJxH_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ncossh-dos-ZAkfOdq8/cvrf/cisco-sa-ncossh-dos-ZAkfOdq8_cvrf.xml",
     "depth": 2
   },
