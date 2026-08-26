@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snort3-dcerpc-vulns-J9HNF4tH/cvrf/cisco-sa-snort3-dcerpc-vulns-J9HNF4tH_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-pi-xss-bYeVKCD/cvrf/cisco-sa-pi-xss-bYeVKCD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cmm-file-up-kY47n8kK/cvrf/cisco-sa-cmm-file-up-kY47n8kK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-epnm-pi-redirect-6sX82dN/cvrf/cisco-sa-epnm-pi-redirect-6sX82dN_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iec6400-Pem5uQ7v/cvrf/cisco-sa-iec6400-Pem5uQ7v_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-intersight-privesc-p6tBm6jk/cvrf/cisco-sa-intersight-privesc-p6tBm6jk_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sma-attack-N9bf4/cvrf/cisco-sa-sma-attack-N9bf4_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-xss-9TDh2kx/cvrf/cisco-sa-ise-xss-9TDh2kx_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-epnm-pi-stored-xss-GEkX8yWK/cvrf/cisco-sa-epnm-pi-stored-xss-GEkX8yWK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-xss-964cdxW5/cvrf/cisco-sa-ise-xss-964cdxW5_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-xxe-jWSbSDKt/cvrf/cisco-sa-ise-xxe-jWSbSDKt_cvrf.xml",
     "depth": 2
   },
