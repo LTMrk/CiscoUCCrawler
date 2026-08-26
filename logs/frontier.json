@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-webui-priv-esc-K8zvEWM/cvrf/cisco-sa-ios-webui-priv-esc-K8zvEWM_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-capwap-dos-TPdNTdyq/cvrf/cisco-sa-capwap-dos-TPdNTdyq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-umbrella-dos-t2QMUX37/cvrf/cisco-sa-iosxe-umbrella-dos-t2QMUX37_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-ewlc-snmp-dos-wNkedg9K/cvrf/cisco-sa-iosxe-ewlc-snmp-dos-wNkedg9K_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-rsp3-rce-jVHg8Z7c/cvrf/cisco-sa-iosxe-rsp3-rce-jVHg8Z7c_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-confacl-HbPtfSuO/cvrf/cisco-sa-confacl-HbPtfSuO_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-zbfw-94ckG4G/cvrf/cisco-sa-zbfw-94ckG4G_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esp20-arp-dos-GvHVggqJ/cvrf/cisco-sa-esp20-arp-dos-GvHVggqJ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-cmdinj-2MzhjM6K/cvrf/cisco-sa-iosxe-cmdinj-2MzhjM6K_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-WEB-UI-exNFmcPO/cvrf/cisco-sa-WEB-UI-exNFmcPO_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-file-overwrite-Ynu5PrJD/cvrf/cisco-sa-file-overwrite-Ynu5PrJD_cvrf.xml",
     "depth": 2
   },
@@ -22337,6 +22297,10 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_01.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/sip_msg/line_std/12_0_1/cucm_b_sip-line-messaging-standard-1201.html",
     "depth": 1
   }
 ]
