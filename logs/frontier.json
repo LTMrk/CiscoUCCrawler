@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ncossh-dos-ZAkfOdq8/cvrf/cisco-sa-ncossh-dos-ZAkfOdq8_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-vman-infodis-73sHJNEq/cvrf/cisco-sa-sdwan-vman-infodis-73sHJNEq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ap-ip-flood-dos-6hxxENVQ/cvrf/cisco-sa-ap-ip-flood-dos-6hxxENVQ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-appnav-xe-dos-j5MXTR4/cvrf/cisco-sa-appnav-xe-dos-j5MXTR4_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cdb-cmicr-vulns-KJjFtNb/cvrf/cisco-sa-cdb-cmicr-vulns-KJjFtNb_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cgr1k-ap-dos-mSZR4QVh/cvrf/cisco-sa-cgr1k-ap-dos-mSZR4QVh_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-c9800-capwap-mdns-6PSn7gKU/cvrf/cisco-sa-c9800-capwap-mdns-6PSn7gKU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webuiapi-inj-Nyrq92Od/cvrf/cisco-sa-webuiapi-inj-Nyrq92Od_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-priv-esc-grbtubU/cvrf/cisco-sa-iosxe-priv-esc-grbtubU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxe-rpki-dos-2EgCNeKE/cvrf/cisco-sa-iosxe-rpki-dos-2EgCNeKE_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-qfp-ipsec-GQmqvtqV/cvrf/cisco-sa-qfp-ipsec-GQmqvtqV_cvrf.xml",
     "depth": 2
   },
