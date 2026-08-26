@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-n3kn9k-healthdos-eOqSWK4g/cvrf/cisco-sa-n3kn9k-healthdos-eOqSWK4g_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-ici-dpOjbWxk/cvrf/cisco-sa-nxos-ici-dpOjbWxk_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-apic-multi-vulns-9ummtg5/cvrf/cisco-sa-apic-multi-vulns-9ummtg5_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-mailpol-bypass-5nVcJZMw/cvrf/cisco-sa-esa-mailpol-bypass-5nVcJZMw_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-broadworks-xss-GDPgJ58P/cvrf/cisco-sa-broadworks-xss-GDPgJ58P_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-phone-info-disc-YyxsWStK/cvrf/cisco-sa-phone-info-disc-YyxsWStK_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-multivuls-FTW9AOXF/cvrf/cisco-sa-ise-multivuls-FTW9AOXF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-sma-wsa-multi-yKUJhS34/cvrf/cisco-sa-esa-sma-wsa-multi-yKUJhS34_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-swa-range-bypass-2BsEHYSu/cvrf/cisco-sa-swa-range-bypass-2BsEHYSu_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-sma-wsa-snmp-inf-FqPvL8sX/cvrf/cisco-sa-esa-sma-wsa-snmp-inf-FqPvL8sX_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-sma-xss-WCk2WcuG/cvrf/cisco-sa-esa-sma-xss-WCk2WcuG_cvrf.xml",
     "depth": 2
   },
