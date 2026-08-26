@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-mso-authbyp-bb5GmBQv/cvrf/cisco-sa-mso-authbyp-bb5GmBQv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-3000-9000-fileaction-QtLzDRy2/cvrf/cisco-sa-3000-9000-fileaction-QtLzDRy2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nso-path-trvsl-dZRQE8Lc/cvrf/cisco-sa-nso-path-trvsl-dZRQE8Lc_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdw-sqlinj-HDJUeEAX/cvrf/cisco-sa-sdw-sqlinj-HDJUeEAX_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-vman-kth3c82B/cvrf/cisco-sa-sdwan-privesc-vman-kth3c82B_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-sigverbypass-gPYXd6Mk/cvrf/cisco-sa-sdwan-sigverbypass-gPYXd6Mk_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwan-vdaemon-bo-RuzzEA2/cvrf/cisco-sa-sdwan-vdaemon-bo-RuzzEA2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sdwanvman-infodis1-YuQScHB/cvrf/cisco-sa-sdwanvman-infodis1-YuQScHB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-staros-ipsecmgr-dos-3gkHXwvS/cvrf/cisco-sa-staros-ipsecmgr-dos-3gkHXwvS_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vman-authorization-b-GUEpSLK/cvrf/cisco-sa-vman-authorization-b-GUEpSLK_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vman-dir-trav-Bpwc5gtm/cvrf/cisco-sa-vman-dir-trav-Bpwc5gtm_cvrf.xml",
     "depth": 2
   },
