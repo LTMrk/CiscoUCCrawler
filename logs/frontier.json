@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-traversal-xNt7wb2Y/cvrf/cisco-sa-ise-traversal-xNt7wb2Y_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv/cvrf/cisco-sa-ise-multi-G5WP8vv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-catc-file-read-wLH2vf8X/cvrf/cisco-sa-catc-file-read-wLH2vf8X_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-clamav-88cFYyxR/cvrf/cisco-sa-clamav-88cFYyxR_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-notice-vwL7b0S7/cvrf/cisco-sa-notice-vwL7b0S7_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cucm-ssrf-cXPnHcW/cvrf/cisco-sa-cucm-ssrf-cXPnHcW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-finesse-rfi-gwpkdc89/cvrf/cisco-sa-finesse-rfi-gwpkdc89_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucce-pcce-xss-2JVyg3uD/cvrf/cisco-sa-ucce-pcce-xss-2JVyg3uD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-umbrella-priv-esc-F4wJB7AU/cvrf/cisco-sa-umbrella-priv-esc-F4wJB7AU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cnc-inj-QNMeEmxk/cvrf/cisco-sa-cnc-inj-QNMeEmxk_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-app-redirect-KOyxhffH/cvrf/cisco-sa-webex-app-redirect-KOyxhffH_cvrf.xml",
     "depth": 2
   },
