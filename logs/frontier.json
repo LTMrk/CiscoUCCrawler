@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucsd-info-disclosure-gSMU8EKT/cvrf/cisco-sa-ucsd-info-disclosure-gSMU8EKT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-xracl-zbWSWREt/cvrf/cisco-sa-xracl-zbWSWREt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dcnm-stored-xss-eUyGPqxm/cvrf/cisco-sa-dcnm-stored-xss-eUyGPqxm_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dcnm-stored-xss-yJyqBJGU/cvrf/cisco-sa-dcnm-stored-xss-yJyqBJGU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nso-info-disclosure-WdNvBTNq/cvrf/cisco-sa-nso-info-disclosure-WdNvBTNq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucsd-task-path-trav-d67ZuAk7/cvrf/cisco-sa-ucsd-task-path-trav-d67ZuAk7_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-umbrella-open-redire-UgK9dWK4/cvrf/cisco-sa-umbrella-open-redire-UgK9dWK4_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rv-routers-injection-tWC7krKQ/cvrf/cisco-sa-rv-routers-injection-tWC7krKQ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-rv-routers-stack-vUxHmnNz/cvrf/cisco-sa-rv-routers-stack-vUxHmnNz_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-tp-cmd-inj-7ZpWhvZb/cvrf/cisco-sa-tp-cmd-inj-7ZpWhvZb_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-client-mac-X7vp65BL/cvrf/cisco-sa-webex-client-mac-X7vp65BL_cvrf.xml",
     "depth": 2
   },
