@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-brutef-hostkey-FWRMxVF/cvrf/cisco-sa-webex-brutef-hostkey-FWRMxVF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-staros-file-read-L3RDvtey/cvrf/cisco-sa-staros-file-read-L3RDvtey_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191112-asa-ftd-lua-rce/cvrf/cisco-sa-20191112-asa-ftd-lua-rce_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cedge-filt-bypass-Y6wZMqm4/cvrf/cisco-sa-cedge-filt-bypass-Y6wZMqm4_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-auth-token-3vg57A5r/cvrf/cisco-sa-webex-auth-token-3vg57A5r_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-jabber-ZktzjpgO/cvrf/cisco-sa-jabber-ZktzjpgO_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ios-profinet-dos-65qYG3W5/cvrf/cisco-sa-ios-profinet-dos-65qYG3W5_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-profinet-J9QMCHPB/cvrf/cisco-sa-profinet-J9QMCHPB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-iosxr-pxe-unsign-code-exec-qAa78fD2/cvrf/cisco-sa-iosxr-pxe-unsign-code-exec-qAa78fD2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-info-leak-PhpzB3sG/cvrf/cisco-sa-webex-info-leak-PhpzB3sG_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-infodisc-4tvQzn4/cvrf/cisco-sa-webex-infodisc-4tvQzn4_cvrf.xml",
     "depth": 2
   },
