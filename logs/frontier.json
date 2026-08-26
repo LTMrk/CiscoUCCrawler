@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vman-dir-trav-Bpwc5gtm/cvrf/cisco-sa-vman-dir-trav-Bpwc5gtm_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-distupd-N87eB6Z3/cvrf/cisco-sa-webex-distupd-N87eB6Z3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-snort-ethernet-dos-HGXgJH8n/cvrf/cisco-sa-snort-ethernet-dos-HGXgJH8n_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ipphone-rce-dos-U2PsSkz3/cvrf/cisco-sa-ipphone-rce-dos-U2PsSkz3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-xss-euRCwX9/cvrf/cisco-sa-ise-xss-euRCwX9_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cimc-auth-zWkppJxL/cvrf/cisco-sa-cimc-auth-zWkppJxL_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-n9kaci-unauth-access-5PWzDx2w/cvrf/cisco-sa-n9kaci-unauth-access-5PWzDx2w_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-udld-rce-xetH6w35/cvrf/cisco-sa-nxos-udld-rce-xetH6w35_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-apic-lldap-dos-WerV9CFj/cvrf/cisco-sa-apic-lldap-dos-WerV9CFj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fxos-nxos-icmpv6-dos-YD55jVCq/cvrf/cisco-sa-fxos-nxos-icmpv6-dos-YD55jVCq_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nxos-ipv6-netstack-edXPGV7K/cvrf/cisco-sa-nxos-ipv6-netstack-edXPGV7K_cvrf.xml",
     "depth": 2
   },
