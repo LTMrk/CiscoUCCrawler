@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucm-file-read-h8h4HEJ3/cvrf/cisco-sa-ucm-file-read-h8h4HEJ3_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-aclconfig-wVK52f3z/cvrf/cisco-sa-asaftd-aclconfig-wVK52f3z_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-bw-priv-esc-qTgUZOsQ/cvrf/cisco-sa-bw-priv-esc-qTgUZOsQ_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-spa-web-multi-7kvPmu2F/cvrf/cisco-sa-spa-web-multi-7kvPmu2F_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-sma-wsa-xss-cP9DuEmq/cvrf/cisco-sa-esa-sma-wsa-xss-cP9DuEmq_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-duo-auth-info-JgkSWBLz/cvrf/cisco-sa-duo-auth-info-JgkSWBLz_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ac-csc-privesc-wx4U4Kw/cvrf/cisco-sa-ac-csc-privesc-wx4U4Kw_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-bw-privesc-yw4ekrXW/cvrf/cisco-sa-bw-privesc-yw4ekrXW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sxsscsrf-2L24bBx6/cvrf/cisco-sa-sxsscsrf-2L24bBx6_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-duo-replay-knuNKd/cvrf/cisco-sa-duo-replay-knuNKd_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-duo-mac-bypass-OyZpVPnx/cvrf/cisco-sa-duo-mac-bypass-OyZpVPnx_cvrf.xml",
     "depth": 2
   },
