@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-cmdinj-TKyQfDcU/cvrf/cisco-sa-asa-cmdinj-TKyQfDcU_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-cmdinj-vWY5wqZT/cvrf/cisco-sa-ftd-cmdinj-vWY5wqZT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-file-overwrite-XknRjGdB/cvrf/cisco-sa-ftd-file-overwrite-XknRjGdB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-iac-pZDMQ4wC/cvrf/cisco-sa-fmc-iac-pZDMQ4wC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ftd-sipdos-GGwmMerC/cvrf/cisco-sa-asa-ftd-sipdos-GGwmMerC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ftd-vpn-dos-fpBcpEcD/cvrf/cisco-sa-asa-ftd-vpn-dos-fpBcpEcD_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ftd-cmd-inj-SELprvG/cvrf/cisco-sa-asa-ftd-cmd-inj-SELprvG_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-xss-yT8LNSeA/cvrf/cisco-sa-fmc-xss-yT8LNSeA_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fdm-dos-nFES8xTN/cvrf/cisco-sa-fdm-dos-nFES8xTN_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fdm-xxe-zR7sxPfs/cvrf/cisco-sa-fdm-xxe-zR7sxPfs_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-vmanage-info-disclos-gGvm9Mfu/cvrf/cisco-sa-vmanage-info-disclos-gGvm9Mfu_cvrf.xml",
     "depth": 2
   },
