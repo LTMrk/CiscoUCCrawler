@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-jabber-GuC5mLwG/cvrf/cisco-sa-jabber-GuC5mLwG_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-wsa-cert-vali-n8L97RW/cvrf/cisco-sa-esa-wsa-cert-vali-n8L97RW_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-anyconnect-dos-hMhyDfb8/cvrf/cisco-sa-anyconnect-dos-hMhyDfb8_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-meetingserver-dos-NzVWMMQT/cvrf/cisco-sa-meetingserver-dos-NzVWMMQT_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ciscosb-multivulns-Wwyb7s5E/cvrf/cisco-sa-ciscosb-multivulns-Wwyb7s5E_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-dnac-certvalid-USEj2CZk/cvrf/cisco-sa-dnac-certvalid-USEj2CZk_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-anyconnect-pos-dll-ff8j6dFv/cvrf/cisco-sa-anyconnect-pos-dll-ff8j6dFv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-teams-7ZMcXG99/cvrf/cisco-sa-webex-teams-7ZMcXG99_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ftd-ssl-decrypt-dos-DdyLuK6c/cvrf/cisco-sa-ftd-ssl-decrypt-dos-DdyLuK6c_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-player-rCFDeVj2/cvrf/cisco-sa-webex-player-rCFDeVj2_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-CSPC-CIV-kDuBfNfu/cvrf/cisco-sa-CSPC-CIV-kDuBfNfu_cvrf.xml",
     "depth": 2
   },
@@ -23741,6 +23701,14 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/systemConfig/cucm_b_system-configuration-guide-15/cucm_b_system-configuration-guide-14_chapter_01.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/cucm_b_feature-configuration-guide-for-15/cucm_m_licensing.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/systemConfig/cucm_b_system-configuration-guide-15/cucm_m_tcp-and-udp-port-usage-12-0.html",
     "depth": 1
   }
 ]
