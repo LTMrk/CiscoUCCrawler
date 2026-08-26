@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-webvpn-xss-uwjc4HR/cvrf/cisco-sa-asaftd-webvpn-xss-uwjc4HR_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-m9sx6MbC/cvrf/cisco-sa-asaftd-vpn-m9sx6MbC_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asaftd-desync-n5AVzEQw/cvrf/cisco-sa-asaftd-desync-n5AVzEQw_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-asa-ssh-keybypass-cr5xPUSf/cvrf/cisco-sa-asa-ssh-keybypass-cr5xPUSf_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-fmc-sql-injection-2qH6CcJd/cvrf/cisco-sa-fmc-sql-injection-2qH6CcJd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-webex-xss-TZFTbbwN/cvrf/cisco-sa-webex-xss-TZFTbbwN_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-sd-wan-priv-E6e8tEdF/cvrf/cisco-sa-sd-wan-priv-E6e8tEdF_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucsm-cmdinj-GvxLPeSB/cvrf/cisco-sa-ucsm-cmdinj-GvxLPeSB_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucsciv-wGYtC78q/cvrf/cisco-sa-ucsciv-wGYtC78q_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-apic-dos-rNus8EFw/cvrf/cisco-sa-apic-dos-rNus8EFw_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-n3kn9k_aci_lldp_dos-NdgRrrA3/cvrf/cisco-sa-n3kn9k_aci_lldp_dos-NdgRrrA3_cvrf.xml",
     "depth": 2
   },
