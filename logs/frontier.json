@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-on-prem-static-cred-sL8rDs8/cvrf/cisco-sa-on-prem-static-cred-sL8rDs8_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-nfvis-codex-shs4NhvS/cvrf/cisco-sa-nfvis-codex-shs4NhvS_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-esa-shrt-dos-wM54R8qA/cvrf/cisco-sa-esa-shrt-dos-wM54R8qA_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ise-xss-s3ekcKch/cvrf/cisco-sa-ise-xss-s3ekcKch_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200219-dcnm-xss/cvrf/cisco-sa-20200219-dcnm-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200219-esa-sma-dos/cvrf/cisco-sa-20200219-esa-sma-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cms-xmpp-dos-ptfGUsBx/cvrf/cisco-sa-cms-xmpp-dos-ptfGUsBx_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-ucce-tip-dos-7cdLUASb/cvrf/cisco-sa-ucce-tip-dos-7cdLUASb_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-cws-inject-6YTdx7AO/cvrf/cisco-sa-cws-inject-6YTdx7AO_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-esa-bypass/cvrf/cisco-sa-20191002-esa-bypass_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20200205-nxos-cdp-rce/cvrf/cisco-sa-20200205-nxos-cdp-rce_cvrf.xml",
     "depth": 2
   },
