@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190501-esa-bypass/cvrf/cisco-sa-20190501-esa-bypass_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190417-es-tvcs-dos/cvrf/cisco-sa-20190417-es-tvcs-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190501-asa-frpwrtd-dos/cvrf/cisco-sa-20190501-asa-frpwrtd-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190501-sd-cpu-dos/cvrf/cisco-sa-20190501-sd-cpu-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190501-firepower-dos/cvrf/cisco-sa-20190501-firepower-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190501-frpwr-smb-snort/cvrf/cisco-sa-20190501-frpwr-smb-snort_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190501-asa-ftds-ldapdos/cvrf/cisco-sa-20190501-asa-ftds-ldapdos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190501-asa-ftd-entropy/cvrf/cisco-sa-20190501-asa-ftd-entropy_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190501-asa-ftdtcp-dos/cvrf/cisco-sa-20190501-asa-ftdtcp-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190501-asa-ftd-dos/cvrf/cisco-sa-20190501-asa-ftd-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190501-asa-ftd-bypass/cvrf/cisco-sa-20190501-asa-ftd-bypass_cvrf.xml",
     "depth": 2
   },
