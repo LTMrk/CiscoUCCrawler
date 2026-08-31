@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-directory/cvrf/cisco-sa-20190306-nxos-directory_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-pe/cvrf/cisco-sa-20190306-nxos-pe_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-cmdinj-1607/cvrf/cisco-sa-20190306-nxos-cmdinj-1607_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-cmdinj-1609/cvrf/cisco-sa-20190306-nxos-cmdinj-1609_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-tetra-ace/cvrf/cisco-sa-20190306-tetra-ace_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-info-poap/cvrf/cisco-sa-20190306-info-poap_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-cmdinj-1612/cvrf/cisco-sa-20190306-nxos-cmdinj-1612_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nx-os-api-ex/cvrf/cisco-sa-20190306-nx-os-api-ex_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nx-os-lan-auth/cvrf/cisco-sa-20190306-nx-os-lan-auth_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-privesca/cvrf/cisco-sa-20190306-nxos-privesca_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-escalation/cvrf/cisco-sa-20190306-nxos-escalation_cvrf.xml",
     "depth": 2
   },
