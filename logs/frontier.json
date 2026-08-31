@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-ssh-info/cvrf/cisco-sa-20190515-nxos-ssh-info_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-pi-rce/cvrf/cisco-sa-20190515-pi-rce_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-sisv/cvrf/cisco-sa-20190515-nxos-sisv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-sisv2/cvrf/cisco-sa-20190515-nxos-sisv2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-webex-player/cvrf/cisco-sa-20190515-webex-player_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-sb300sms-dhcp/cvrf/cisco-sa-20190515-sb300sms-dhcp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-fxos-info/cvrf/cisco-sa-20190515-nxos-fxos-info_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-pi-pathtrav-1818/cvrf/cisco-sa-20190515-pi-pathtrav-1818_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-pi-pathtrav-1820/cvrf/cisco-sa-20190515-pi-pathtrav-1820_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-nxapi-xss/cvrf/cisco-sa-20190515-nxos-nxapi-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-rpm-injec/cvrf/cisco-sa-20190515-nxos-rpm-injec_cvrf.xml",
     "depth": 2
   },
