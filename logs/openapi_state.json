@@ -197,10 +197,10 @@
     "sha": "760edc4f4265e70aa2991c7ed622ea4bd8a5f249"
   },
   "webex-cloud-calling.json": {
-    "actualizado": "2026-08-25T10:28:32.623165+00:00",
+    "actualizado": "2026-08-31T10:47:27.407805+00:00",
     "api": "Webex Cloud Calling",
     "api_version": "1.0.0",
-    "content_sha": "b1c0a3badb5482aa4794129482cd3820968aa295a2ae8c4ce000a85c7e6fe347",
+    "content_sha": "f093e73d3479d803213b3e349a386a9b7cc981241c34a3846372481b671ca3db",
     "deprecadas": {
       "GET /people/{personId}/features/applications": true,
       "GET /telephony/config/people/{personId}/applications/{applicationId}/availableMembers": true,
@@ -1300,13 +1300,13 @@
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/accessCodes": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-accesscodes",
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/autoTransferNumbers": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-autotransfernumbers"
     },
-    "sha": "46bddee302c80b670c6930b7dc1dae80affd34e7"
+    "sha": "2c11f3cfbc3df07156ec452cbe5aba2c079f17d5"
   },
   "webex-contact-center.json": {
-    "actualizado": "2026-08-21T15:48:41.829799+00:00",
+    "actualizado": "2026-08-31T10:47:27.780899+00:00",
     "api": "Webex Contact Center",
     "api_version": "1.0.0",
-    "content_sha": "b7c67d7cb9877e0156fb6504dcb80a544902d28be6fa91aa177c3f6d484195cf",
+    "content_sha": "d955abd72f742cddc76dda1b2a6eaec6320eb92d0441533d442f4278cd966e8c",
     "deprecadas": {
       "DELETE /organization/{orgid}/address-book/{id}": true,
       "DELETE /organization/{orgid}/agent-personal-greeting/{id}": true,
@@ -1335,6 +1335,7 @@
       "GET /organization/{orgid}/generated-summaries/{id}": true,
       "GET /organization/{orgid}/multimedia-profile/bulk-export": true,
       "GET /organization/{orgid}/site/bulk-export": true,
+      "GET /organization/{orgid}/skill": true,
       "GET /organization/{orgid}/user": true,
       "GET /organization/{orgid}/user/by-ci-user-id/{id}": true,
       "GET /organization/{orgid}/v2/address-book": true,
@@ -1692,7 +1693,6 @@
       "POST /organization/{orgid}/skill-profile": "webex-contact-center-post-organization-orgid-skill-profile",
       "POST /organization/{orgid}/skill-profile/bulk": "webex-contact-center-post-organization-orgid-skill-profile-bulk",
       "POST /organization/{orgid}/skill/bulk": "webex-contact-center-post-organization-orgid-skill-bulk",
-      "POST /organization/{orgid}/skill/populate-json-attr/{id}": "webex-contact-center-post-organization-orgid-skill-populate-json-attr-id",
       "POST /organization/{orgid}/skill/purge-inactive-entities": "webex-contact-center-post-organization-orgid-skill-purge-inactive-entities",
       "POST /organization/{orgid}/team": "webex-contact-center-post-organization-orgid-team",
       "POST /organization/{orgid}/team/bulk": "webex-contact-center-post-organization-orgid-team-bulk",
@@ -1811,7 +1811,7 @@
       "PUT /v2/agents/logout": "webex-contact-center-put-v2-agents-logout",
       "PUT /v2/agents/session/state": "webex-contact-center-put-v2-agents-session-state"
     },
-    "sha": "50fcec4bce7b923832e89a36ed26099db9577fef"
+    "sha": "d7c398f70a737aa44beaf04b60d366ed5ca7c76f"
   },
   "webex-device.json": {
     "actualizado": "2026-08-18T23:45:44.215661+00:00",

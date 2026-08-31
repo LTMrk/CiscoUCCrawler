@@ -5,29 +5,29 @@ api: Webex Contact Center
 api_version: 1.0.0
 method: POST
 path: /organization/{orgid}/skill/purge-inactive-entities
-operation_id: purgeInactiveConfig_2
+operation_id: purgeInactiveConfigSkill
 tags: Skill
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.770341+00:00
+retrieved_at: 2026-08-31T10:47:27.717289+00:00
 ---
 
 # POST /organization/{orgid}/skill/purge-inactive-entities
 
 **API:** Webex Contact Center
 **Área:** Skill
-**operationId:** `purgeInactiveConfig_2`
+**operationId:** `purgeInactiveConfigSkill`
 
 ## Resumen
-Purge inactive Skill(s)
+Purge inactive Skills
 
 ## Descripción
-Purge inactive Skill(s) older than the configured interval for a given organization.
+Purge inactive Skills older than the configured interval for a given organization.
 
 ## Parámetros
 - `orgid` [path] (string) (**requerido**): Organization ID to be used for this operation. The specified security token must have permission to interact with the organization.
-- `nextStartId` [query] (string): This is the entity ID from which items for the next purge batch with be selected. Por defecto: .
+- `nextStartId` [query] (string): This is the entity ID from which items for the next purge batch will be selected. Por defecto: .
 
 ## Ejemplo de invocación
 ```bash

@@ -5,19 +5,19 @@ api: Webex Contact Center
 api_version: 1.0.0
 method: GET
 path: /organization/{orgid}/skill/{id}/incoming-references
-operation_id: getIncomingReferences_2
+operation_id: getIncomingReferencesSkill
 tags: Skill
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.771526+00:00
+retrieved_at: 2026-08-31T10:47:27.718610+00:00
 ---
 
 # GET /organization/{orgid}/skill/{id}/incoming-references
 
 **API:** Webex Contact Center
 **Área:** Skill
-**operationId:** `getIncomingReferences_2`
+**operationId:** `getIncomingReferencesSkill`
 
 ## Resumen
 List references for a specific Skill

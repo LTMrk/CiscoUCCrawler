@@ -1,7 +1,14 @@
 {
-  "run_at": "2026-08-26T14:58:56.046607+00:00",
+  "run_at": "2026-08-31T10:47:27.784217+00:00",
   "added": [],
-  "removed": [],
-  "deprecated": [],
-  "specs_cambiados": []
+  "removed": [
+    "Webex Contact Center: POST /organization/{orgid}/skill/populate-json-attr/{id}"
+  ],
+  "deprecated": [
+    "Webex Contact Center: GET /organization/{orgid}/skill"
+  ],
+  "specs_cambiados": [
+    "webex-cloud-calling.json",
+    "webex-contact-center.json"
+  ]
 }

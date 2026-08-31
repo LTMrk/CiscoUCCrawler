@@ -10,7 +10,7 @@ tags: Work Types
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.791260+00:00
+retrieved_at: 2026-08-31T10:47:27.739591+00:00
 ---
 
 # GET /organization/{orgid}/work-type/bulk-export

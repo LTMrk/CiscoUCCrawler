@@ -5,26 +5,28 @@ api: Webex Contact Center
 api_version: 1.0.0
 method: GET
 path: /organization/{orgid}/skill
-operation_id: getAllConfig_2
+operation_id: getAllConfigSkill
 tags: Skill
-deprecated: false
+deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.769067+00:00
+retrieved_at: 2026-08-31T10:47:27.716161+00:00
 ---
 
 # GET /organization/{orgid}/skill
 
+> **ENDPOINT DEPRECADO.** No usar en integraciones nuevas.
+
 **API:** Webex Contact Center
 **Área:** Skill
-**operationId:** `getAllConfig_2`
+**operationId:** `getAllConfigSkill`
 
 ## Resumen
-List Skill(s)
+List Skills
 
 ## Descripción
-Retrieve a list of Skill(s) in a given organization.
- Note: Returning array fields in the List (Get All) API response is deprecated. To retrieve the complete resource with all fields, please use the Get-by-ID API instead.
+Retrieve a list of Skills in a given organization.
+ Note: Returning array fields in the List (Get All) API response is deprecated. To retrieve the complete resource with all fields, please use the Get-by-ID API instead. Deprecated. Use GET /v2/skill instead.
 
 ## Parámetros
 - `orgid` [path] (string) (**requerido**): Organization ID to be used for this operation. The specified security token must have permission to interact with the organization.
@@ -32,7 +34,7 @@ Retrieve a list of Skill(s) in a given organization.
 - `attributes` [query] (string/string): Specify the attributes to be returned. By default, all attributes are returned along with the specified columns. All attributes are supported. except (enumSkillValues)
 - `page` [query] (integer): Defines the number of displayed page. The page number starts from 0. Por defecto: 0.
 - `pageSize` [query] (integer): Defines the number of items to be displayed on a page. If the number specified is more than allowed max page size, the API will automatically adjust the page size to the max page size. Por defecto: 100.
-- `singleObjectResponse` [query] (boolean): Specifiy whether to include array fields in the response, This query param should use only if the response contain single record, if we are using for multiple objects response query param not supported and throws an exception. Por defecto: False.
+- `singleObjectResponse` [query] (boolean): Specify whether to include array fields in the response. This query parameter should be used only when the response contains a single record. It is not supported for responses with multiple objects and throws an exception. Por defecto: False.
 
 ## Ejemplo de invocación
 ```bash
@@ -49,7 +51,7 @@ curl -X GET '/organization/<orgid>/skill' \
   - `name` (string) (**requerido**): Indicates the name of the skill. Once created, name cannot be modified. Long. max: 80.
   - `description` (string): Indicates the description of the skill. Long. max: 255.
   - `serviceLevelThreshold` (integer/int32) (**requerido**): Allows to set the time that a customer request can be in a queue before the system flags it as outside the service level.    If the agent completes a customer service request within this time interval, the system considers it within the service level.  It is required only for a create or an update operation.
-  - `enumSkillValues` (array):
+  - `enumSkillValues` (array): List of Enum Skill Values.
     - `organizationId` (string/uuid): ID of the contact center organization. This field is required for all bulk save operations. Long. max: 36.
     - `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
     - `version` (integer/int32): The version of this resource. For a newly created resource, it will be 0 unless specified otherwise.
@@ -61,6 +63,7 @@ curl -X GET '/organization/<orgid>/skill' \
   - `active` (boolean) (**requerido**): Indicates the status of the skill whether it is active(when true) or not active(when false). It is required only during a create or an update operation.
   - `dynamicSkill` (boolean): Indicates whether the skill is a dynamic skill or not. Default value is false.
   - `skillType` (string) (**requerido**): This can be of the following types  PROFICIENCY: id = 0  BOOLEAN: id = 1  TEXT: id = 2  ENUM: id = 3  Once created, skillType cannot be modified. Valores: Proficiency, Boolean, Text, enum.
+  - `systemDefault` (boolean): Indicates whether the created resource is system created or not
   - `createdTime` (integer/int64): This is the created time of the entity.
   - `lastUpdatedTime` (integer/int64): This is the updated time of the entity.
 

@@ -10,7 +10,7 @@ tags: Tasks
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.802444+00:00
+retrieved_at: 2026-08-31T10:47:27.753003+00:00
 ---
 
 # POST /v1/tasks/{taskId}/assign

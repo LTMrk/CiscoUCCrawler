@@ -10,7 +10,7 @@ tags: Global Variables
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.756897+00:00
+retrieved_at: 2026-08-31T10:47:27.703717+00:00
 ---
 
 # DELETE /organization/{orgid}/cad-variable/{id}

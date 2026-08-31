@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-25T10:28:32.479336+00:00
+retrieved_at: 2026-08-31T10:47:27.268932+00:00
 ---
 
 # GET /telephony/config/queues/agents/{id}

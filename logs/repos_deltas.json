@@ -1,5 +1,10 @@
 {
  "added": [],
- "modified": [],
+ "modified": [
+  "webex/widgets/ai-docs/CONTRACTS.md",
+  "webex/widgets/packages/contact-center/cc-components/ai-docs/cc-components-spec.md",
+  "webex/widgets/packages/contact-center/store/ai-docs/store-spec.md",
+  "webex/widgets/packages/contact-center/task/ai-docs/task-spec.md"
+ ],
  "removed": []
 }

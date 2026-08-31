@@ -10,7 +10,7 @@ tags: Journey - Profile Creation & Insights API
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.817081+00:00
+retrieved_at: 2026-08-31T10:47:27.768284+00:00
 ---
 
 # GET /v1/api/events/workspace-id/{workspaceId}

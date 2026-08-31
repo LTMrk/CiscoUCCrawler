@@ -10,7 +10,7 @@ tags: Users
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.789359+00:00
+retrieved_at: 2026-08-31T10:47:27.737491+00:00
 ---
 
 # PATCH /organization/{orgid}/user/{id}/reskill

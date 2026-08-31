@@ -5,19 +5,19 @@ api: Webex Contact Center
 api_version: 1.0.0
 method: GET
 path: /organization/{orgid}/skill/{id}
-operation_id: getConfig_3
+operation_id: getConfigSkill
 tags: Skill
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.770606+00:00
+retrieved_at: 2026-08-31T10:47:27.717564+00:00
 ---
 
 # GET /organization/{orgid}/skill/{id}
 
 **API:** Webex Contact Center
 **Área:** Skill
-**operationId:** `getConfig_3`
+**operationId:** `getConfigSkill`
 
 ## Resumen
 Get specific Skill by ID
@@ -43,7 +43,7 @@ curl -X GET '/organization/<orgid>/skill/<id>' \
 - `name` (string) (**requerido**): Indicates the name of the skill. Once created, name cannot be modified. Long. max: 80.
 - `description` (string): Indicates the description of the skill. Long. max: 255.
 - `serviceLevelThreshold` (integer/int32) (**requerido**): Allows to set the time that a customer request can be in a queue before the system flags it as outside the service level.    If the agent completes a customer service request within this time interval, the system considers it within the service level.  It is required only for a create or an update operation.
-- `enumSkillValues` (array):
+- `enumSkillValues` (array): List of Enum Skill Values.
   - `organizationId` (string/uuid): ID of the contact center organization. This field is required for all bulk save operations. Long. max: 36.
   - `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
   - `version` (integer/int32): The version of this resource. For a newly created resource, it will be 0 unless specified otherwise.
@@ -55,6 +55,7 @@ curl -X GET '/organization/<orgid>/skill/<id>' \
 - `active` (boolean) (**requerido**): Indicates the status of the skill whether it is active(when true) or not active(when false). It is required only during a create or an update operation.
 - `dynamicSkill` (boolean): Indicates whether the skill is a dynamic skill or not. Default value is false.
 - `skillType` (string) (**requerido**): This can be of the following types  PROFICIENCY: id = 0  BOOLEAN: id = 1  TEXT: id = 2  ENUM: id = 3  Once created, skillType cannot be modified. Valores: Proficiency, Boolean, Text, enum.
+- `systemDefault` (boolean): Indicates whether the created resource is system created or not
 - `createdTime` (integer/int64): This is the created time of the entity.
 - `lastUpdatedTime` (integer/int64): This is the updated time of the entity.
 

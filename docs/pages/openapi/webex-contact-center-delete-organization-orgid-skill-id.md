@@ -5,19 +5,19 @@ api: Webex Contact Center
 api_version: 1.0.0
 method: DELETE
 path: /organization/{orgid}/skill/{id}
-operation_id: deleteConfig_3
+operation_id: deleteConfigSkill
 tags: Skill
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.771259+00:00
+retrieved_at: 2026-08-31T10:47:27.718338+00:00
 ---
 
 # DELETE /organization/{orgid}/skill/{id}
 
 **API:** Webex Contact Center
 **Área:** Skill
-**operationId:** `deleteConfig_3`
+**operationId:** `deleteConfigSkill`
 
 ## Resumen
 Delete specific Skill by ID

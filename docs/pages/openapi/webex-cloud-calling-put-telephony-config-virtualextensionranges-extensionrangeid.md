@@ -10,7 +10,7 @@ tags: Features: Virtual Extensions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-25T10:28:32.505107+00:00
+retrieved_at: 2026-08-31T10:47:27.292145+00:00
 ---
 
 # PUT /telephony/config/virtualExtensionRanges/{extensionRangeId}

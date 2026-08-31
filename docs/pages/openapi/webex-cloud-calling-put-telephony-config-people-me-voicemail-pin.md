@@ -10,7 +10,7 @@ tags: Call Settings For Me Phase 5
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-25T10:28:32.385257+00:00
+retrieved_at: 2026-08-31T10:47:27.173002+00:00
 ---
 
 # PUT /telephony/config/people/me/voicemail/pin

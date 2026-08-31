@@ -10,7 +10,7 @@ tags: Work Types
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.792110+00:00
+retrieved_at: 2026-08-31T10:47:27.740628+00:00
 ---
 
 # GET /organization/{orgid}/work-type/{id}/incoming-references

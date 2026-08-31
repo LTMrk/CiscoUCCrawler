@@ -10,7 +10,7 @@ tags: Features:  Paging Group
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-25T10:28:32.500043+00:00
+retrieved_at: 2026-08-31T10:47:27.287723+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/paging/{pagingId}

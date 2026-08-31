@@ -10,7 +10,7 @@ tags: Client Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-25T10:28:32.389535+00:00
+retrieved_at: 2026-08-31T10:47:27.176618+00:00
 ---
 
 # PUT /telephony/config/settings/msTeams

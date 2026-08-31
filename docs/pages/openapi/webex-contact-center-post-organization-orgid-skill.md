@@ -5,19 +5,19 @@ api: Webex Contact Center
 api_version: 1.0.0
 method: POST
 path: /organization/{orgid}/skill
-operation_id: createConfig_3
+operation_id: createConfigSkill
 tags: Skill
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.769371+00:00
+retrieved_at: 2026-08-31T10:47:27.716514+00:00
 ---
 
 # POST /organization/{orgid}/skill
 
 **API:** Webex Contact Center
 **Área:** Skill
-**operationId:** `createConfig_3`
+**operationId:** `createConfigSkill`
 
 ## Resumen
 Create a new Skill
@@ -27,23 +27,15 @@ Create a new Skill in a given organization.
 
 ## Parámetros
 - `orgid` [path] (string) (**requerido**): Organization ID to be used for this operation. The specified security token must have permission to interact with the organization.
-- `payloadDTO` [query] (object) (**requerido**): Skill configuration data
 
-## Ejemplo de invocación
-```bash
-curl -X POST '/organization/<orgid>/skill?payloadDTO=<payloadDTO>' \
-  -H 'Authorization: Bearer <TOKEN>'
-```
-
-## Respuestas correctas
-**201**: Created
+## Cuerpo de la petición (application/json)
 - `organizationId` (string/uuid): ID of the contact center organization. This field is required for all bulk save operations. Long. max: 36.
 - `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
 - `version` (integer/int32): The version of this resource. For a newly created resource, it will be 0 unless specified otherwise.
 - `name` (string) (**requerido**): Indicates the name of the skill. Once created, name cannot be modified. Long. max: 80.
 - `description` (string): Indicates the description of the skill. Long. max: 255.
 - `serviceLevelThreshold` (integer/int32) (**requerido**): Allows to set the time that a customer request can be in a queue before the system flags it as outside the service level.    If the agent completes a customer service request within this time interval, the system considers it within the service level.  It is required only for a create or an update operation.
-- `enumSkillValues` (array):
+- `enumSkillValues` (array): List of Enum Skill Values.
   - `organizationId` (string/uuid): ID of the contact center organization. This field is required for all bulk save operations. Long. max: 36.
   - `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
   - `version` (integer/int32): The version of this resource. For a newly created resource, it will be 0 unless specified otherwise.
@@ -55,6 +47,50 @@ curl -X POST '/organization/<orgid>/skill?payloadDTO=<payloadDTO>' \
 - `active` (boolean) (**requerido**): Indicates the status of the skill whether it is active(when true) or not active(when false). It is required only during a create or an update operation.
 - `dynamicSkill` (boolean): Indicates whether the skill is a dynamic skill or not. Default value is false.
 - `skillType` (string) (**requerido**): This can be of the following types  PROFICIENCY: id = 0  BOOLEAN: id = 1  TEXT: id = 2  ENUM: id = 3  Once created, skillType cannot be modified. Valores: Proficiency, Boolean, Text, enum.
+- `systemDefault` (boolean): Indicates whether the created resource is system created or not
+- `createdTime` (integer/int64): This is the created time of the entity.
+- `lastUpdatedTime` (integer/int64): This is the updated time of the entity.
+
+### Ejemplo — petición
+```json
+{
+  "name": "German Speaking",
+  "description": "Skill to speak fluent German",
+  "serviceLevelThreshold": 0,
+  "active": true,
+  "skillType": "Boolean"
+}
+```
+
+## Ejemplo de invocación
+```bash
+curl -X POST '/organization/<orgid>/skill' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"active": true, "name": "<name>", "serviceLevelThreshold": 0, "skillType": "<skillType>"}'
+```
+
+## Respuestas correctas
+**201**: Created
+- `organizationId` (string/uuid): ID of the contact center organization. This field is required for all bulk save operations. Long. max: 36.
+- `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
+- `version` (integer/int32): The version of this resource. For a newly created resource, it will be 0 unless specified otherwise.
+- `name` (string) (**requerido**): Indicates the name of the skill. Once created, name cannot be modified. Long. max: 80.
+- `description` (string): Indicates the description of the skill. Long. max: 255.
+- `serviceLevelThreshold` (integer/int32) (**requerido**): Allows to set the time that a customer request can be in a queue before the system flags it as outside the service level.    If the agent completes a customer service request within this time interval, the system considers it within the service level.  It is required only for a create or an update operation.
+- `enumSkillValues` (array): List of Enum Skill Values.
+  - `organizationId` (string/uuid): ID of the contact center organization. This field is required for all bulk save operations. Long. max: 36.
+  - `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
+  - `version` (integer/int32): The version of this resource. For a newly created resource, it will be 0 unless specified otherwise.
+  - `name` (string) (**requerido**): Indicates the name of the enumSkillValue. Long. max: 80.
+  - `description` (string): Indicates the description of the enumSkillValue. Long. max: 255.
+  - `skillId` (string): Represents the skillId of the enumSkillValue.
+  - `createdTime` (integer/int64): This is the created time of the entity.
+  - `lastUpdatedTime` (integer/int64): This is the updated time of the entity.
+- `active` (boolean) (**requerido**): Indicates the status of the skill whether it is active(when true) or not active(when false). It is required only during a create or an update operation.
+- `dynamicSkill` (boolean): Indicates whether the skill is a dynamic skill or not. Default value is false.
+- `skillType` (string) (**requerido**): This can be of the following types  PROFICIENCY: id = 0  BOOLEAN: id = 1  TEXT: id = 2  ENUM: id = 3  Once created, skillType cannot be modified. Valores: Proficiency, Boolean, Text, enum.
+- `systemDefault` (boolean): Indicates whether the created resource is system created or not
 - `createdTime` (integer/int64): This is the created time of the entity.
 - `lastUpdatedTime` (integer/int64): This is the updated time of the entity.
 

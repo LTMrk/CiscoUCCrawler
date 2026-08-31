@@ -5,25 +5,25 @@ api: Webex Contact Center
 api_version: 1.0.0
 method: GET
 path: /organization/{orgid}/v2/skill
-operation_id: getAllConfigWithMetaData_4
+operation_id: getAllConfigWithMetaDataSkill
 tags: Skill
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.771810+00:00
+retrieved_at: 2026-08-31T10:47:27.718925+00:00
 ---
 
 # GET /organization/{orgid}/v2/skill
 
 **API:** Webex Contact Center
 **Área:** Skill
-**operationId:** `getAllConfigWithMetaData_4`
+**operationId:** `getAllConfigWithMetaDataSkill`
 
 ## Resumen
-List Skill(s)
+List Skills
 
 ## Descripción
-Retrieve a list of Skill(s) in a given organization.
+Retrieve a list of Skills in a given organization.
  Note: Returning array fields in the List (Get All) API response is deprecated. To retrieve the complete resource with all fields, please use the Get-by-ID API instead.
 
 ## Parámetros
@@ -33,7 +33,8 @@ Retrieve a list of Skill(s) in a given organization.
 - `search` [query] (string): Filter data based on the search keyword.Supported search columns(name)  The examples below show some search queries - "Cisco" - field=="name";value=="Cisco" - fields=in=("name");value=="Cisco"
 - `page` [query] (integer): Defines the number of displayed page. The page number starts from 0. Por defecto: 0.
 - `pageSize` [query] (integer): Defines the number of items to be displayed on a page. If the number specified is more than allowed max page size, the API will automatically adjust the page size to the max page size. Por defecto: 100.
-- `singleObjectResponse` [query] (boolean): Specifiy whether to include array fields in the response, This query param should use only if the response contain single record, if we are using for multiple objects response query param not supported and throws an exception. Por defecto: False.
+- `singleObjectResponse` [query] (boolean): Specify whether to include array fields in the response. This query parameter should be used only when the response contains a single record. It is not supported for responses with multiple objects and throws an exception. Por defecto: False.
+- `include` [query] (string): Fetch array fields on demand only. Supported array fields are enumSkillValues.
 
 ## Ejemplo de invocación
 ```bash
@@ -43,15 +44,15 @@ curl -X GET '/organization/<orgid>/v2/skill' \
 
 ## Respuestas correctas
 **200**: OK
-- `meta` (object):
-- `data` (array):
+- `meta` (object): Additional properties for Meta.
+- `data` (array): List of Data.
   - `organizationId` (string/uuid): ID of the contact center organization. This field is required for all bulk save operations. Long. max: 36.
   - `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
   - `version` (integer/int32): The version of this resource. For a newly created resource, it will be 0 unless specified otherwise.
   - `name` (string) (**requerido**): Indicates the name of the skill. Once created, name cannot be modified. Long. max: 80.
   - `description` (string): Indicates the description of the skill. Long. max: 255.
   - `serviceLevelThreshold` (integer/int32) (**requerido**): Allows to set the time that a customer request can be in a queue before the system flags it as outside the service level.    If the agent completes a customer service request within this time interval, the system considers it within the service level.  It is required only for a create or an update operation.
-  - `enumSkillValues` (array):
+  - `enumSkillValues` (array): List of Enum Skill Values.
     - `organizationId` (string/uuid): ID of the contact center organization. This field is required for all bulk save operations. Long. max: 36.
     - `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
     - `version` (integer/int32): The version of this resource. For a newly created resource, it will be 0 unless specified otherwise.
@@ -63,6 +64,7 @@ curl -X GET '/organization/<orgid>/v2/skill' \
   - `active` (boolean) (**requerido**): Indicates the status of the skill whether it is active(when true) or not active(when false). It is required only during a create or an update operation.
   - `dynamicSkill` (boolean): Indicates whether the skill is a dynamic skill or not. Default value is false.
   - `skillType` (string) (**requerido**): This can be of the following types  PROFICIENCY: id = 0  BOOLEAN: id = 1  TEXT: id = 2  ENUM: id = 3  Once created, skillType cannot be modified. Valores: Proficiency, Boolean, Text, enum.
+  - `systemDefault` (boolean): Indicates whether the created resource is system created or not
   - `createdTime` (integer/int64): This is the created time of the entity.
   - `lastUpdatedTime` (integer/int64): This is the updated time of the entity.
 

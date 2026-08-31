@@ -10,7 +10,7 @@ tags: Callbacks
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.799874+00:00
+retrieved_at: 2026-08-31T10:47:27.749991+00:00
 ---
 
 # PUT /v1/callbacks/organization/{orgId}/scheduled-callback/{id}

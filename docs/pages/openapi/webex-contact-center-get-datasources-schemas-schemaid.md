@@ -10,7 +10,7 @@ tags: Data Sources
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.792956+00:00
+retrieved_at: 2026-08-31T10:47:27.741657+00:00
 ---
 
 # GET /dataSources/schemas/{schemaId}

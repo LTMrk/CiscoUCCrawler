@@ -5,25 +5,25 @@ api: Webex Contact Center
 api_version: 1.0.0
 method: POST
 path: /organization/{orgid}/skill/bulk
-operation_id: saveAllConfig_2
+operation_id: saveAllConfigSkill
 tags: Skill
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-21T15:48:41.769707+00:00
+retrieved_at: 2026-08-31T10:47:27.717010+00:00
 ---
 
 # POST /organization/{orgid}/skill/bulk
 
 **API:** Webex Contact Center
 **Área:** Skill
-**operationId:** `saveAllConfig_2`
+**operationId:** `saveAllConfigSkill`
 
 ## Resumen
-Bulk save Skill(s)
+Bulk save Skills
 
 ## Descripción
-Create, Update or delete Skill(s) in bulk in a given organization.
+Create, Update or delete Skills in bulk in a given organization.
 
 ## Parámetros
 - `orgid` [path] (string) (**requerido**): Organization ID to be used for this operation. The specified security token must have permission to interact with the organization.
@@ -31,14 +31,14 @@ Create, Update or delete Skill(s) in bulk in a given organization.
 ## Cuerpo de la petición (application/json)
 - `items` (array): List of items in the bulk request.
   - `itemIdentifier` (integer/int32): Unique item identifier for a bulk operation.
-  - `item` (object):
+  - `item` (object): Skill schema.
     - `organizationId` (string/uuid): ID of the contact center organization. This field is required for all bulk save operations. Long. max: 36.
     - `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
     - `version` (integer/int32): The version of this resource. For a newly created resource, it will be 0 unless specified otherwise.
     - `name` (string) (**requerido**): Indicates the name of the skill. Once created, name cannot be modified. Long. max: 80.
     - `description` (string): Indicates the description of the skill. Long. max: 255.
     - `serviceLevelThreshold` (integer/int32) (**requerido**): Allows to set the time that a customer request can be in a queue before the system flags it as outside the service level.    If the agent completes a customer service request within this time interval, the system considers it within the service level.  It is required only for a create or an update operation.
-    - `enumSkillValues` (array):
+    - `enumSkillValues` (array): List of Enum Skill Values.
       - `organizationId` (string/uuid): ID of the contact center organization. This field is required for all bulk save operations. Long. max: 36.
       - `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
       - `version` (integer/int32): The version of this resource. For a newly created resource, it will be 0 unless specified otherwise.
@@ -50,6 +50,7 @@ Create, Update or delete Skill(s) in bulk in a given organization.
     - `active` (boolean) (**requerido**): Indicates the status of the skill whether it is active(when true) or not active(when false). It is required only during a create or an update operation.
     - `dynamicSkill` (boolean): Indicates whether the skill is a dynamic skill or not. Default value is false.
     - `skillType` (string) (**requerido**): This can be of the following types  PROFICIENCY: id = 0  BOOLEAN: id = 1  TEXT: id = 2  ENUM: id = 3  Once created, skillType cannot be modified. Valores: Proficiency, Boolean, Text, enum.
+    - `systemDefault` (boolean): Indicates whether the created resource is system created or not
     - `createdTime` (integer/int64): This is the created time of the entity.
     - `lastUpdatedTime` (integer/int64): This is the updated time of the entity.
   - `requestAction` (string): Identifier for action type. Possible values are `SAVE` and `DELETE`.
