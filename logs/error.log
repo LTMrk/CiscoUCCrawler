@@ -15544,3 +15544,16 @@
 [2026-08-31T10:58:20.030627] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-ise-stored-xss/cvrf/cisco-sa-20191016-ise-stored-xss_cvrf.xml
 [2026-08-31T10:58:24.402993] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-ise-xss/cvrf/cisco-sa-20191016-ise-xss_cvrf.xml
 [2026-08-31T10:58:28.745603] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-spa-credentials/cvrf/cisco-sa-20191016-spa-credentials_cvrf.xml
+[2026-08-31T11:01:09.555567] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-31T11:01:13.573993] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-31T11:02:23.194073] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-31T11:02:24.134503] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-spa-dhcp-xss/cvrf/cisco-sa-20191016-spa-dhcp-xss_cvrf.xml
+[2026-08-31T11:02:27.565458] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-spa-running-config/cvrf/cisco-sa-20191016-spa-running-config_cvrf.xml
+[2026-08-31T11:02:31.855208] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-wlc-ssh-dos/cvrf/cisco-sa-20191016-wlc-ssh-dos_cvrf.xml
+[2026-08-31T11:02:36.237283] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-spa-reflected-xss/cvrf/cisco-sa-20191016-spa-reflected-xss_cvrf.xml
+[2026-08-31T11:02:40.241324] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-telepres-escalation/cvrf/cisco-sa-20191016-telepres-escalation_cvrf.xml
+[2026-08-31T11:02:44.498106] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-airo-dos/cvrf/cisco-sa-20191016-airo-dos_cvrf.xml
+[2026-08-31T11:02:48.636597] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-ise-infodis/cvrf/cisco-sa-20191016-ise-infodis_cvrf.xml
+[2026-08-31T11:02:53.016027] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-cucm-csrf/cvrf/cisco-sa-20191002-cucm-csrf_cvrf.xml
+[2026-08-31T11:02:57.385579] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190925-webui-cmd-injection/cvrf/cisco-sa-20190925-webui-cmd-injection_cvrf.xml
+[2026-08-31T11:03:01.616369] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-ftd-fpmc-dos/cvrf/cisco-sa-20191002-ftd-fpmc-dos_cvrf.xml
