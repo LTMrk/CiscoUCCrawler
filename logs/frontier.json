@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20160831-vmp/cvrf/cisco-sa-20160831-vmp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130226-CVE-2013-1138/cvrf/Cisco-SA-20130226-CVE-2013-1138_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20160413-nms/cvrf/cisco-sa-20160413-nms_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20160817-ise/cvrf/cisco-sa-20160817-ise_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20160824-anyconnect/cvrf/cisco-sa-20160824-anyconnect_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20160810-csa/cvrf/cisco-sa-20160810-csa_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20160817-fmc/cvrf/cisco-sa-20160817-fmc_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20160817-apic/cvrf/cisco-sa-20160817-apic_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20160817-asa-cli/cvrf/cisco-sa-20160817-asa-cli_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20160817-ipp/cvrf/cisco-sa-20160817-ipp_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20160817-aap1/cvrf/cisco-sa-20160817-aap1_cvrf.xml",
     "depth": 2
   },
