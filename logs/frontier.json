@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20171115-firepower1/cvrf/cisco-sa-20171115-firepower1_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190821-imcs-usercred/cvrf/cisco-sa-20190821-imcs-usercred_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190821-imcs-ucs-cmdinj/cvrf/cisco-sa-20190821-imcs-ucs-cmdinj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190821-imcs-ucs-authby/cvrf/cisco-sa-20190821-imcs-ucs-authby_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-asa-multi/cvrf/cisco-sa-20190807-asa-multi_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190828-nxos-snmp-bypass/cvrf/cisco-sa-20190828-nxos-snmp-bypass_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190828-nexus-aci-dos/cvrf/cisco-sa-20190828-nexus-aci-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190828-nxos-api-dos/cvrf/cisco-sa-20190828-nxos-api-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190828-nxos-ipv6-dos/cvrf/cisco-sa-20190828-nxos-ipv6-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190821-imc-cmdinj-1850/cvrf/cisco-sa-20190821-imc-cmdinj-1850_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190821-ucsd-authbypass/cvrf/cisco-sa-20190821-ucsd-authbypass_cvrf.xml",
     "depth": 2
   },
