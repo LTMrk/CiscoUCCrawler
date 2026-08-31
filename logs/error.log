@@ -16090,3 +16090,16 @@
 [2026-08-31T14:22:17.276606] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190109-ise-multi-xss/cvrf/cisco-sa-20190109-ise-multi-xss_cvrf.xml
 [2026-08-31T14:22:21.672594] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180221-ucm/cvrf/cisco-sa-20180221-ucm_cvrf.xml
 [2026-08-31T14:22:25.952121] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190123-webex-rce/cvrf/cisco-sa-20190123-webex-rce_cvrf.xml
+[2026-08-31T14:24:57.917805] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-31T14:25:01.846783] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-31T14:26:12.953024] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-31T14:26:13.741948] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190123-sdwan-unaccess/cvrf/cisco-sa-20190123-sdwan-unaccess_cvrf.xml
+[2026-08-31T14:26:17.539088] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190123-sdwan-bo/cvrf/cisco-sa-20190123-sdwan-bo_cvrf.xml
+[2026-08-31T14:26:21.724771] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-waas-priv-escalation/cvrf/cisco-sa-20180606-waas-priv-escalation_cvrf.xml
+[2026-08-31T14:26:25.761716] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20181101-ap/cvrf/cisco-sa-20181101-ap_cvrf.xml
+[2026-08-31T14:26:29.949096] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190123-miner-chat-xss/cvrf/cisco-sa-20190123-miner-chat-xss_cvrf.xml
+[2026-08-31T14:26:34.072914] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190123-sdwan-sol-escal/cvrf/cisco-sa-20190123-sdwan-sol-escal_cvrf.xml
+[2026-08-31T14:26:38.286032] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190123-frpwr-mc-xss/cvrf/cisco-sa-20190123-frpwr-mc-xss_cvrf.xml
+[2026-08-31T14:26:42.551357] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190123-nfvis-shell-access/cvrf/cisco-sa-20190123-nfvis-shell-access_cvrf.xml
+[2026-08-31T14:26:46.864270] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190123-threat-grid/cvrf/cisco-sa-20190123-threat-grid_cvrf.xml
+[2026-08-31T14:26:51.124083] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190123-iot-fnd-dos/cvrf/cisco-sa-20190123-iot-fnd-dos_cvrf.xml
