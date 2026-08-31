@@ -16441,3 +16441,16 @@
 [2026-08-31T16:35:23.942092] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-nso/cvrf/cisco-sa-20180606-nso_cvrf.xml
 [2026-08-31T16:35:28.039311] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-prime-access/cvrf/cisco-sa-20180606-prime-access_cvrf.xml
 [2026-08-31T16:35:32.298917] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-ise-xss/cvrf/cisco-sa-20180606-ise-xss_cvrf.xml
+[2026-08-31T16:38:48.461258] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-31T16:38:52.534479] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-31T16:40:03.359304] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-31T16:40:04.195162] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-prime-bypass/cvrf/cisco-sa-20180606-prime-bypass_cvrf.xml
+[2026-08-31T16:40:07.705608] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-ucsdimcs/cvrf/cisco-sa-20180606-ucsdimcs_cvrf.xml
+[2026-08-31T16:40:11.770843] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-ucs-access/cvrf/cisco-sa-20180606-ucs-access_cvrf.xml
+[2026-08-31T16:40:16.128079] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-ip-phone-dos/cvrf/cisco-sa-20180606-ip-phone-dos_cvrf.xml
+[2026-08-31T16:40:20.187195] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-AnyConnect-cert-bypass/cvrf/cisco-sa-20180606-AnyConnect-cert-bypass_cvrf.xml
+[2026-08-31T16:40:24.209725] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-cuc-xss/cvrf/cisco-sa-20180606-cuc-xss_cvrf.xml
+[2026-08-31T16:40:28.250737] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-webex-xss/cvrf/cisco-sa-20180606-webex-xss_cvrf.xml
+[2026-08-31T16:40:32.328226] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-cucm-xfs/cvrf/cisco-sa-20180606-cucm-xfs_cvrf.xml
+[2026-08-31T16:40:36.391340] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-cpcp-id/cvrf/cisco-sa-20180606-cpcp-id_cvrf.xml
+[2026-08-31T16:40:40.680135] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-FireSIGHT-vpn-bypass/cvrf/cisco-sa-20180606-FireSIGHT-vpn-bypass_cvrf.xml
