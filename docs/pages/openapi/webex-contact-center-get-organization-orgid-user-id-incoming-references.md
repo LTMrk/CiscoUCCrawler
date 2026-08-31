@@ -10,7 +10,7 @@ tags: Users
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.737021+00:00
+retrieved_at: 2026-08-31T18:15:55.129400+00:00
 ---
 
 # GET /organization/{orgid}/user/{id}/incoming-references

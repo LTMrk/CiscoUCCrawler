@@ -10,7 +10,7 @@ tags: Journey - Workspace management API
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.770810+00:00
+retrieved_at: 2026-08-31T18:15:55.215463+00:00
 ---
 
 # PUT /admin/v1/api/workspace/workspace-id/{workspaceId}

@@ -10,7 +10,7 @@ tags: Entry Point
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.701024+00:00
+retrieved_at: 2026-08-31T18:15:55.094233+00:00
 ---
 
 # GET /organization/{orgid}/entry-point/bulk-export

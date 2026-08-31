@@ -10,7 +10,7 @@ tags: Templates
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.763208+00:00
+retrieved_at: 2026-08-31T18:15:55.208102+00:00
 ---
 
 # GET /templates/{id}

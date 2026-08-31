@@ -10,7 +10,7 @@ tags: Campaign Manager
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.771744+00:00
+retrieved_at: 2026-08-31T18:15:55.216420+00:00
 ---
 
 # GET /v1/organization/{orgId}/getValidCampaignTimes
@@ -28,12 +28,13 @@ Gets valid campaign times for a campaign and agent. This request is accepted for
 ## Parámetros
 - `orgId` [path] (string/uuid) (**requerido**): The organization ID for which valid campaign times are being requested.
 - `campaignId` [query] (string) (**requerido**): The campaign ID for which valid campaign times are being requested.
+- `interactionId` [query] (string/uuid) (**requerido**): The unique identifier of the interaction associated with this request.
 - `agentId` [query] (string/uuid) (**requerido**): The agent ID for whom valid campaign times are being requested.
 - `trackingId` [query] (string/uuid): Optional tracking identifier for request tracing.
 
 ## Ejemplo de invocación
 ```bash
-curl -X GET '/v1/organization/<orgId>/getValidCampaignTimes?campaignId=<campaignId>&agentId=<agentId>' \
+curl -X GET '/v1/organization/<orgId>/getValidCampaignTimes?campaignId=<campaignId>&interactionId=<interactionId>&agentId=<agentId>' \
   -H 'Authorization: Bearer <TOKEN>'
 ```
 
