@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180104-cpusidechannel/cvrf/cisco-sa-20180104-cpusidechannel_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180620-nxos-cdp/cvrf/cisco-sa-20180620-nxos-cdp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180620-fxos-ace/cvrf/cisco-sa-20180620-fxos-ace_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180620-fxos-dos/cvrf/cisco-sa-20180620-fxos-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180620-fx-os-fabric-execution/cvrf/cisco-sa-20180620-fx-os-fabric-execution_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180620-nx-os-api-execution/cvrf/cisco-sa-20180620-nx-os-api-execution_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180620-fx-os-cli-execution/cvrf/cisco-sa-20180620-fx-os-cli-execution_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180620-fxnxos-fab-ace/cvrf/cisco-sa-20180620-fxnxos-fab-ace_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180620-fxnxos-dos/cvrf/cisco-sa-20180620-fxnxos-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180620-fx-os-fabric-dos/cvrf/cisco-sa-20180620-fx-os-fabric-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180620-nx-os-fabric-dos/cvrf/cisco-sa-20180620-nx-os-fabric-dos_cvrf.xml",
     "depth": 2
   },
