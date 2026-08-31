@@ -1,5 +1,11 @@
 {
- "added": [],
- "modified": [],
+ "added": [
+  "webex/webex-byova-gateway-python/docs/BYOVA_HANDOFF_CONTEXT.md"
+ ],
+ "modified": [
+  "webex/webex-byova-gateway-python/README.md",
+  "webex/webex-byova-gateway-python/docs/README.md",
+  "webex/webex-byova-gateway-python/docs/index.md"
+ ],
  "removed": []
 }

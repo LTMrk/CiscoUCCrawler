@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-byova-gateway-python/blob/main/README
 repo: webex/webex-byova-gateway-python
 ruta: README.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:10:40.060395+00:00
+retrieved_at: 2026-08-31T15:15:11.805523+00:00
 ---
 
 # webex-byova-gateway-python — README.md
@@ -191,6 +191,7 @@ endpoint testing, logs, and troubleshooting.
 | Install and run the sample locally | [Local Development](docs/LOCAL_DEVELOPMENT.md) |
 | Configure the gateway and connectors | [Configuration Reference](config/README.md) |
 | Configure runtime JWT validation | [gRPC JWT Authentication](docs/JWT_AUTHENTICATION.md) |
+| Pass a virtual-agent summary to a human agent | [BYOVA Handoff Summary](docs/BYOVA_HANDOFF_CONTEXT.md) |
 | Run automated and service tests | [Testing Guide](docs/TESTING.md) |
 | Configure the monitoring dashboard | [Monitoring Interface](src/monitoring/README.md) |
 | Add or configure connectors | [Connector Guide](src/connectors/README.md) |

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-byova-gateway-python/blob/main/docs/R
 repo: webex/webex-byova-gateway-python
 ruta: docs/README.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:10:44.319880+00:00
+retrieved_at: 2026-08-31T15:15:12.221573+00:00
 ---
 
 # webex-byova-gateway-python — docs/README.md
@@ -37,6 +37,8 @@ code, not a managed connector or a production-ready service.
   connectors, including known sample-only placeholders.
 - [Testing Guide](TESTING.md): Automated tests, HTTP smoke tests, gRPC health checks, and
   end-to-end validation.
+- [BYOVA Handoff Summary](BYOVA_HANDOFF_CONTEXT.md): Provider-neutral summary metadata
+  contract for human-agent transfer, including validated Agent Desktop behavior.
 - [Connector Guide](../src/connectors/README.md): Connector interface, available connectors,
   and extension pattern.
 - [Monitoring Interface](../src/monitoring/README.md): Dashboard behavior, Webex OAuth, APIs,
