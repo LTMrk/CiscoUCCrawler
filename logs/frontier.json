@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-cucm-xss-12716/cvrf/cisco-sa-20191002-cucm-xss-12716_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-asa-ftd-sip-dos/cvrf/cisco-sa-20191002-asa-ftd-sip-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-asa-xss/cvrf/cisco-sa-20191002-asa-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-fmc-dir-trav/cvrf/cisco-sa-20191002-fmc-dir-trav_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-fire-bypass/cvrf/cisco-sa-20191002-fire-bypass_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-fxos-cmd-inject/cvrf/cisco-sa-20191002-fxos-cmd-inject_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-sm-java-deserial/cvrf/cisco-sa-20191002-sm-java-deserial_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-asa-ssl-vpn-dos/cvrf/cisco-sa-20191002-asa-ssl-vpn-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-cuc-inject/cvrf/cisco-sa-20191002-cuc-inject_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-ftd-container-esc/cvrf/cisco-sa-20191002-ftd-container-esc_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191002-uccx-http/cvrf/cisco-sa-20191002-uccx-http_cvrf.xml",
     "depth": 2
   },
