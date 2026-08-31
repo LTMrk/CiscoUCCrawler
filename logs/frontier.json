@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-rv-routers-traversal/cvrf/cisco-sa-20180905-rv-routers-traversal_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-cimc-injection/cvrf/cisco-sa-20180905-cimc-injection_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-rv-routers-disclosure/cvrf/cisco-sa-20180905-rv-routers-disclosure_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-rv-routers-injection/cvrf/cisco-sa-20180905-rv-routers-injection_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-rv-routers-overflow/cvrf/cisco-sa-20180905-rv-routers-overflow_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-cdcnm-escalation/cvrf/cisco-sa-20180905-cdcnm-escalation_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-cpar-dos/cvrf/cisco-sa-20180905-cpar-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-webex-id-mod/cvrf/cisco-sa-20180905-webex-id-mod_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-nfvis-infodis/cvrf/cisco-sa-20180905-nfvis-infodis_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-tetration-vulns/cvrf/cisco-sa-20180905-tetration-vulns_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-tetration-xss/cvrf/cisco-sa-20180905-tetration-xss_cvrf.xml",
     "depth": 2
   },

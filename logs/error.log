@@ -16285,3 +16285,16 @@
 [2026-08-31T15:36:43.036019] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-acsxxe/cvrf/cisco-sa-20180905-acsxxe_cvrf.xml
 [2026-08-31T15:36:47.226520] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-csp2100-injection/cvrf/cisco-sa-20180905-csp2100-injection_cvrf.xml
 [2026-08-31T15:36:51.491878] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-pcce/cvrf/cisco-sa-20180905-pcce_cvrf.xml
+[2026-08-31T15:39:36.662667] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-31T15:39:40.677005] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-31T15:40:52.685211] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-31T15:40:53.583212] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-rv-routers-traversal/cvrf/cisco-sa-20180905-rv-routers-traversal_cvrf.xml
+[2026-08-31T15:40:57.129386] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-cimc-injection/cvrf/cisco-sa-20180905-cimc-injection_cvrf.xml
+[2026-08-31T15:41:01.485503] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-rv-routers-disclosure/cvrf/cisco-sa-20180905-rv-routers-disclosure_cvrf.xml
+[2026-08-31T15:41:05.667605] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-rv-routers-injection/cvrf/cisco-sa-20180905-rv-routers-injection_cvrf.xml
+[2026-08-31T15:41:10.047267] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-rv-routers-overflow/cvrf/cisco-sa-20180905-rv-routers-overflow_cvrf.xml
+[2026-08-31T15:41:14.288795] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-cdcnm-escalation/cvrf/cisco-sa-20180905-cdcnm-escalation_cvrf.xml
+[2026-08-31T15:41:18.685803] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-cpar-dos/cvrf/cisco-sa-20180905-cpar-dos_cvrf.xml
+[2026-08-31T15:41:22.801117] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-webex-id-mod/cvrf/cisco-sa-20180905-webex-id-mod_cvrf.xml
+[2026-08-31T15:41:27.143943] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-nfvis-infodis/cvrf/cisco-sa-20180905-nfvis-infodis_cvrf.xml
+[2026-08-31T15:41:31.185532] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180905-tetration-vulns/cvrf/cisco-sa-20180905-tetration-vulns_cvrf.xml
