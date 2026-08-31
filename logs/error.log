@@ -16467,3 +16467,16 @@
 [2026-08-31T16:45:14.584286] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-nfvis/cvrf/cisco-sa-20180516-nfvis_cvrf.xml
 [2026-08-31T16:45:18.713016] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-dna2/cvrf/cisco-sa-20180516-dna2_cvrf.xml
 [2026-08-31T16:45:22.984904] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-ident-se-xss/cvrf/cisco-sa-20180516-ident-se-xss_cvrf.xml
+[2026-08-31T16:48:51.544203] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-31T16:48:55.545300] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-31T16:50:06.864877] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-31T16:50:07.631445] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-ise-xss/cvrf/cisco-sa-20180516-ise-xss_cvrf.xml
+[2026-08-31T16:50:11.150676] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-socmin-dos/cvrf/cisco-sa-20180516-socmin-dos_cvrf.xml
+[2026-08-31T16:50:15.438954] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-fnd/cvrf/cisco-sa-20180516-fnd_cvrf.xml
+[2026-08-31T16:50:19.690076] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-msms/cvrf/cisco-sa-20180516-msms_cvrf.xml
+[2026-08-31T16:50:23.773459] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-nfvis-path-traversal/cvrf/cisco-sa-20180516-nfvis-path-traversal_cvrf.xml
+[2026-08-31T16:50:27.906191] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-nfvis-cli-command-injection/cvrf/cisco-sa-20180516-nfvis-cli-command-injection_cvrf.xml
+[2026-08-31T16:50:32.107255] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-dna/cvrf/cisco-sa-20180516-dna_cvrf.xml
+[2026-08-31T16:50:36.252567] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-dnac/cvrf/cisco-sa-20180516-dnac_cvrf.xml
+[2026-08-31T16:50:40.363562] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-firepwr-pb/cvrf/cisco-sa-20180516-firepwr-pb_cvrf.xml
+[2026-08-31T16:50:44.686194] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20171018-aaavty/cvrf/cisco-sa-20171018-aaavty_cvrf.xml
