@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-prime-password-reset/cvrf/cisco-sa-20180606-prime-password-reset_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-prime-sql/cvrf/cisco-sa-20180606-prime-sql_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180606-prime-escalation/cvrf/cisco-sa-20180606-prime-escalation_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20160608-aironet/cvrf/cisco-sa-20160608-aironet_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-cucm-cup-xss/cvrf/cisco-sa-20180516-cucm-cup-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20171212-bleichenbacher/cvrf/cisco-sa-20171212-bleichenbacher_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180129-asa1/cvrf/cisco-sa-20180129-asa1_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-nfvis/cvrf/cisco-sa-20180516-nfvis_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-dna2/cvrf/cisco-sa-20180516-dna2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-ident-se-xss/cvrf/cisco-sa-20180516-ident-se-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180516-ise-xss/cvrf/cisco-sa-20180516-ise-xss_cvrf.xml",
     "depth": 2
   },
