@@ -16038,3 +16038,16 @@
 [2026-08-31T14:02:39.363011] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nx-os-api-ex/cvrf/cisco-sa-20190306-nx-os-api-ex_cvrf.xml
 [2026-08-31T14:02:43.739526] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nx-os-lan-auth/cvrf/cisco-sa-20190306-nx-os-lan-auth_cvrf.xml
 [2026-08-31T14:02:47.935931] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-privesca/cvrf/cisco-sa-20190306-nxos-privesca_cvrf.xml
+[2026-08-31T14:05:34.664073] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-31T14:05:38.747134] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-31T14:06:57.005688] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-31T14:06:58.001775] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-escalation/cvrf/cisco-sa-20190306-nxos-escalation_cvrf.xml
+[2026-08-31T14:07:01.326764] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-cmdinj-1608/cvrf/cisco-sa-20190306-nxos-cmdinj-1608_cvrf.xml
+[2026-08-31T14:07:05.472491] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-netstack/cvrf/cisco-sa-20190306-nxos-netstack_cvrf.xml
+[2026-08-31T14:07:09.673796] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-NXAPI-cmdinj/cvrf/cisco-sa-20190306-nxos-NXAPI-cmdinj_cvrf.xml
+[2026-08-31T14:07:13.825490] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nexus-fbr-dos/cvrf/cisco-sa-20190306-nexus-fbr-dos_cvrf.xml
+[2026-08-31T14:07:17.894373] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-aci-controller-privsec/cvrf/cisco-sa-20190306-aci-controller-privsec_cvrf.xml
+[2026-08-31T14:07:22.025081] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-chatmail-xss/cvrf/cisco-sa-20190306-chatmail-xss_cvrf.xml
+[2026-08-31T14:07:26.394269] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-dna-xss/cvrf/cisco-sa-20190306-dna-xss_cvrf.xml
+[2026-08-31T14:07:30.567729] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190227-wmda-cmdinj/cvrf/cisco-sa-20190227-wmda-cmdinj_cvrf.xml
+[2026-08-31T14:07:34.845961] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190206-webex-injection/cvrf/cisco-sa-20190206-webex-injection_cvrf.xml

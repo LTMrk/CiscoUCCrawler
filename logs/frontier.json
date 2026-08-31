@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-escalation/cvrf/cisco-sa-20190306-nxos-escalation_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-cmdinj-1608/cvrf/cisco-sa-20190306-nxos-cmdinj-1608_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-netstack/cvrf/cisco-sa-20190306-nxos-netstack_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nxos-NXAPI-cmdinj/cvrf/cisco-sa-20190306-nxos-NXAPI-cmdinj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-nexus-fbr-dos/cvrf/cisco-sa-20190306-nexus-fbr-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-aci-controller-privsec/cvrf/cisco-sa-20190306-aci-controller-privsec_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-chatmail-xss/cvrf/cisco-sa-20190306-chatmail-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190306-dna-xss/cvrf/cisco-sa-20190306-dna-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190227-wmda-cmdinj/cvrf/cisco-sa-20190227-wmda-cmdinj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190206-webex-injection/cvrf/cisco-sa-20190206-webex-injection_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190220-pca-access/cvrf/cisco-sa-20190220-pca-access_cvrf.xml",
     "depth": 2
   },
