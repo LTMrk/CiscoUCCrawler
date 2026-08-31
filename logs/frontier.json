@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180718-ps-osgi-unauth-access/cvrf/cisco-sa-20180718-ps-osgi-unauth-access_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180718-pspb-unauth-access/cvrf/cisco-sa-20180718-pspb-unauth-access_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180718-policy-cm-default-psswrd/cvrf/cisco-sa-20180718-policy-cm-default-psswrd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180718-webex-dos/cvrf/cisco-sa-20180718-webex-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180718-webex-DOM-xss/cvrf/cisco-sa-20180718-webex-DOM-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180718-policy-suite-change/cvrf/cisco-sa-20180718-policy-suite-change_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180718-ucmim-ps-xss/cvrf/cisco-sa-20180718-ucmim-ps-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180718-csp2100-injection/cvrf/cisco-sa-20180718-csp2100-injection_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180718-sdwan-fo/cvrf/cisco-sa-20180718-sdwan-fo_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180620-fxnxos-ace/cvrf/cisco-sa-20180620-fxnxos-ace_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20180711-phone-webui-inject/cvrf/cisco-sa-20180711-phone-webui-inject_cvrf.xml",
     "depth": 2
   },
