@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-ise-store-xss/cvrf/cisco-sa-20191016-ise-store-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-spa-ui-disclosure/cvrf/cisco-sa-20191016-spa-ui-disclosure_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-tele-ce-cmdinj/cvrf/cisco-sa-20191016-tele-ce-cmdinj_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-tele-ce-privescal/cvrf/cisco-sa-20191016-tele-ce-privescal_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-spa-webui-dos/cvrf/cisco-sa-20191016-spa-webui-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-tele-ce-file-ovrwrt/cvrf/cisco-sa-20191016-tele-ce-file-ovrwrt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-tele-ce-filewrite/cvrf/cisco-sa-20191016-tele-ce-filewrite_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-ise-stored-xss/cvrf/cisco-sa-20191016-ise-stored-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-ise-xss/cvrf/cisco-sa-20191016-ise-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-spa-credentials/cvrf/cisco-sa-20191016-spa-credentials_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20191016-spa-dhcp-xss/cvrf/cisco-sa-20191016-spa-dhcp-xss_cvrf.xml",
     "depth": 2
   },
