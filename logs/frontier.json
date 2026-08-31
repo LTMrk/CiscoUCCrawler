@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190816-ftd-http/cvrf/cisco-sa-20190816-ftd-http_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190816-ftd-nspd/cvrf/cisco-sa-20190816-ftd-nspd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190816-ftd-null/cvrf/cisco-sa-20190816-ftd-null_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-spa112-xss/cvrf/cisco-sa-20190807-spa112-xss_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-webex-player/cvrf/cisco-sa-20190807-webex-player_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-fnd-dos/cvrf/cisco-sa-20190807-fnd-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-wms-oredirect/cvrf/cisco-sa-20190807-wms-oredirect_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-nfv-cli-path/cvrf/cisco-sa-20190807-nfv-cli-path_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-asa-privescala/cvrf/cisco-sa-20190807-asa-privescala_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-nfv-commandinj/cvrf/cisco-sa-20190807-nfv-commandinj_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-nfv-privescal/cvrf/cisco-sa-20190807-nfv-privescal_cvrf.xml",
     "depth": 2
   },
