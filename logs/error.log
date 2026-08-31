@@ -15713,3 +15713,16 @@
 [2026-08-31T12:01:08.614466] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-nfv-cli-path/cvrf/cisco-sa-20190807-nfv-cli-path_cvrf.xml
 [2026-08-31T12:01:12.792492] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-asa-privescala/cvrf/cisco-sa-20190807-asa-privescala_cvrf.xml
 [2026-08-31T12:01:17.178953] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-nfv-commandinj/cvrf/cisco-sa-20190807-nfv-commandinj_cvrf.xml
+[2026-08-31T12:04:10.588383] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-08-31T12:04:14.603805] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-08-31T12:05:25.996914] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-08-31T12:05:26.756344] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-nfv-privescal/cvrf/cisco-sa-20190807-nfv-privescal_cvrf.xml
+[2026-08-31T12:05:30.772184] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-nfv-pwrecov/cvrf/cisco-sa-20190807-nfv-pwrecov_cvrf.xml
+[2026-08-31T12:05:34.833547] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-nfvis-authbypass/cvrf/cisco-sa-20190807-nfvis-authbypass_cvrf.xml
+[2026-08-31T12:05:38.968101] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-hypflex-csrf/cvrf/cisco-sa-20190807-hypflex-csrf_cvrf.xml
+[2026-08-31T12:05:43.355341] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-nfv-fileread/cvrf/cisco-sa-20190807-nfv-fileread_cvrf.xml
+[2026-08-31T12:05:47.406344] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-nfv-read/cvrf/cisco-sa-20190807-nfv-read_cvrf.xml
+[2026-08-31T12:05:51.467052] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-nfv-xss/cvrf/cisco-sa-20190807-nfv-xss_cvrf.xml
+[2026-08-31T12:05:55.576427] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190807-nfvis-vnc-authbypass/cvrf/cisco-sa-20190807-nfvis-vnc-authbypass_cvrf.xml
+[2026-08-31T12:05:59.680250] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190717-ise-xss/cvrf/cisco-sa-20190717-ise-xss_cvrf.xml
+[2026-08-31T12:06:03.892863] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190605-ucs-biossig-bypass/cvrf/cisco-sa-20190605-ucs-biossig-bypass_cvrf.xml
