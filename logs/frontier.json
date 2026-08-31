@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-sb-snmpdos/cvrf/cisco-sa-20190515-sb-snmpdos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-fxos-cmdinj-1779/cvrf/cisco-sa-20190515-nxos-fxos-cmdinj-1779_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-fxos-nxos-cmdinj-1781-1782/cvrf/cisco-sa-20190515-fxos-nxos-cmdinj-1781-1782_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-ftd-ssltls-bypass/cvrf/cisco-sa-20190515-ftd-ssltls-bypass_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-cvsm/cvrf/cisco-sa-20190515-cvsm_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-ise-certcreation/cvrf/cisco-sa-20190515-ise-certcreation_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-cmdinj-1790/cvrf/cisco-sa-20190515-nxos-cmdinj-1790_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-cmdinj-1791/cvrf/cisco-sa-20190515-nxos-cmdinj-1791_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-cmdinj-1795/cvrf/cisco-sa-20190515-nxos-cmdinj-1795_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-psvb/cvrf/cisco-sa-20190515-nxos-psvb_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20190515-nxos-file-write/cvrf/cisco-sa-20190515-nxos-file-write_cvrf.xml",
     "depth": 2
   },
