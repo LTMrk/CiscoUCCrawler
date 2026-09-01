@@ -1,35 +1,30 @@
 {
-  "run_at": "2026-09-01T18:03:23.192510+00:00",
+  "run_at": "2026-09-01T18:08:51.738003+00:00",
   "modo": "incremental",
-  "added": [
-    "developer-cisco-com-site-jtapi-documentation-2c46a0fff8",
-    "developer-cisco-com-site-jtapi-overview-start-e778a439e0",
-    "developer-cisco-com-site-jtapi-overview-technical-9a5f61fa9f",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-elux-rns-jvdi-b-release-notes-jvdi-elux-12-1-html-8c4291968d",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-hp-ubuntu-rns-jvdi-b-release-notes-jvdi-hp-ubuntu-12-1-html-2bf23152c9",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-release-notes-jvdi-hp-ubuntu-12-5-html-4755f62c85",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-6-elux-rns-jvdi-b-release-notes-jvdi-elux-12-6-html-ac6b8a95f9",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-6-hp-ubuntu-rns-jvdi-b-release-notes-jvdi-hp-ubuntu-12-6-html-6bd64be47d"
-  ],
+  "added": [],
   "modified": [],
   "removed": [],
   "blocked": [
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvu89114-9d5e854084",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvv06418-983799fbe2",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvv74185-69217f823a",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvw37435-85e42e7b63",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvx00555-3a0340aebf"
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvy80559-6cd545ba5c",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwa75037-adf92f6bf0",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwb00609-73b8aba3e4",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwb53316-0dc0339a9f",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwc14388-89936ca199",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwc26870-38ea5756d2",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwc36902-94f6e350ec",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwd50790-a5bffb62e8",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwd63866-f264b4277d",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwd85202-9c05d202d3"
   ],
-  "unchanged_count": 47,
+  "unchanged_count": 0,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv06425 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx82792 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy40988 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz44632 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz44805 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz79812 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa38601 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_0/CJAB_BK_C1247C0B_00_cisco-jabber-parameters-reference-guide.html -> https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/products-installation-guides-list.html"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs60636 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx13782 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb80658 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd21433 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd21535 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd95193 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwf28064 -> https://id.cisco.com/oauth2/default/v1/authorize"
   ],
   "semillas_encoladas": 20
 }
