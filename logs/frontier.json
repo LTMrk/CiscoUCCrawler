@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130128-CVE-2013-1112/cvrf/Cisco-SA-20130128-CVE-2013-1112_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130109-lms/cvrf/cisco-sa-20130109-lms_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130123-CVE-2013-1102/cvrf/Cisco-SA-20130123-CVE-2013-1102_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130122-CVE-2012-5444/cvrf/Cisco-SA-20130122-CVE-2012-5444_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130122-CVE-2012-5429/cvrf/Cisco-SA-20130122-CVE-2012-5429_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20120926-c10k-tunnels/cvrf/cisco-sa-20120926-c10k-tunnels_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130116-asa1000v/cvrf/cisco-sa-20130116-asa1000v_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130109-CVE-2012-5445/cvrf/Cisco-SA-20130109-CVE-2012-5445_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20121213-CVE-2012-5991/cvrf/Cisco-SA-20121213-CVE-2012-5991_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20121213-CVE-2012-5992/cvrf/Cisco-SA-20121213-CVE-2012-5992_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20121031-mp/cvrf/cisco-sa-20121031-mp_cvrf.xml",
     "depth": 2
   },
