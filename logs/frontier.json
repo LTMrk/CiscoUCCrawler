@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020619-ons-tos/cvrf/cisco-sa-20020619-ons-tos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020619-unix-vpn-buffer-overflow/cvrf/cisco-sa-20020619-unix-vpn-buffer-overflow_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020617-cmts-md5-bypass/cvrf/cisco-sa-20020617-cmts-md5-bypass_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020523-cbos-dos/cvrf/cisco-sa-20020523-cbos-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020522-ip-phone-vulnerability/cvrf/cisco-sa-20020522-ip-phone-vulnerability_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020515-css-http-post/cvrf/cisco-sa-20020515-css-http-post_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020515-transparent-cache-tcp-relay/cvrf/cisco-sa-20020515-transparent-cache-tcp-relay_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020508-ntp-vulnerability/cvrf/cisco-sa-20020508-ntp-vulnerability_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020415-ms02-018/cvrf/cisco-sa-20020415-ms02-018_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020410-solaris-bin-login/cvrf/cisco-sa-20020410-solaris-bin-login_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020409-aironet-telnet/cvrf/cisco-sa-20020409-aironet-telnet_cvrf.xml",
     "depth": 2
   },
