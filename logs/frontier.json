@@ -1,525 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_2/cjab_b_release-notes-for-jabber-142.html",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwh14654",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwh08984",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/switches/catalyst-3850-series-switches/series.html",
-    "depth": 2
-  },
-  {
-    "url": "http://docwiki.cisco.com/wiki/Cisco_Application_Control_Engine_(ACE)_Module_Troubleshooting_Guide,_Release_A2(x)",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-mx-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-quick-set-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-ex-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/Azure/cucm_b_saml-sso-microsoft-azure-idp.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/collaboration-systems-release/218061-configure-idle-user-logout-timer-in-epnm.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/collaboration-systems-release/217288-how-to-build-a-linux-server-and-untar-th.html",
-    "depth": 2
-  },
-  {
-    "url": "http://refreshcollab.cisco.com/webportal/46/CUCM%20Readiness%20Assessment",
-    "depth": 2
-  },
-  {
-    "url": "http://tools.cisco.com/ServiceRequestTool/create",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/security-knowledge-base/router-security-snort-ips-on-routers-step-by-step-configuration/ta-p/3369186",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/730/userguide/h730_b_cisco-headset-730-user-guide.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Conference/firmware/1-2-0SR2/releasenotes/cswb-b-webex-room-phone-release-notes-for-firmware-release-1-2-0sr2.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Conference/firmware/1-2-0SR1/releasenotes/cswb_b_bookmap-webex-room-phone-release.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Conference/firmware/1-2-0/releasenotes/cswd_b_release-notes-for-cisco-webex.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Conference/firmware/1-1-0/releasenotes/cswb_b_cisco-webex-room-phone-release.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Room/Install/cswb-b-webex-room-phone-installation-guide.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Room/userguide/cswb_b_cisco-webex-room-phone-user.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Room/adminguide/cswb_b_cisco-webex-room-phone-adminguide.html",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286326830/type/286326861/release/RoomPhone%201.2.0SR3",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/asr-1000-series-aggregation-services-routers/products-field-notices-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/asr-1000-series-aggregation-services-routers/products-release-notes-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/asr-1000-series-aggregation-services-routers/products-command-reference-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/asr-1000-series-aggregation-services-routers/products-installation-and-configuration-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-knowledge-base/understanding-span-rspan-and-erspan/ta-p/3144951",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-knowledge-base/cisco-isr-amp-asr-1k-routers-ios-xe-firmware-upgrade-install/ta-p/4426457",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-knowledge-base/cannot-break-to-rommon-because-the-no-service-password-recovery/ta-p/3131504",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/4221-integrated-services-router-isr/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/4321-integrated-services-router/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/4331-integrated-services-router-isr/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/4351-integrated-services-router/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/4441-x-integrated-services-router-isr/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/4451-x-integrated-services-router-isr/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/4461-integrated-services-router/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/products-release-notes-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/products-command-reference-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212640-troubleshoot-music-on-hold-failure-when.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17-13-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17-14-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17-15-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17-16-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17-17-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17-18-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-amsterdam-17-1-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-amsterdam-17-2-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-amsterdam-17-3-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-amsterdam-17-3-2/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-bengaluru-17-4-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-bengaluru-17-5-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-bengaluru-17-6-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-cupertino-17-7-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-cupertino-17-8-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-cupertino-17-9-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-dublin-17-10-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-dublin-17-11-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-dublin-17-12-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17/products-security-advisories-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17/products-release-notes-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17/products-command-reference-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17/products-technical-reference-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17/products-installation-and-configuration-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-knowledge-base/configuring-type-6-passwords-in-ios-xe/ta-p/4438495",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8300-series-edge-platforms/products-installation-and-configuration-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/286285284/release/26.1.2",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/286308587/release/17.18.3a",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/286308587/release/17.12.7b",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/286308587/release/17.15.6",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/282046477/release/IOSXE-17.18.4",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/282046477/release/IOSXE-17.15.6",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/282046477/release/Dublin-17.12.8",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/282046477/release/IOSXE-26.1.2",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/286321980/release/26.1.1",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/284509011/release/79.0.0",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/284509011/release/78.0.0",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/284509011/release/77.0.0",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/284509011/release/76.0.0",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/286326638/release/26.1.2",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/282046486/release/17.18%25281r%2529",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/286334034/release/79.0.0",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/286334034/release/78.0.0",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/286334034/release/77.0.0",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/286334034/release/76.0.0",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286324476/type/286321647/release/A39t",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-knowledge-base/emea-expert-insights-series-cisco-catalyst-sd-wan/ta-p/5289279",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-extensions/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-consoles/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ix5000-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/cloud-systems-management/prime-license-manager/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-implementation-design-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "http://cisco.com/en/US/docs/routers/access/interfaces/nm/hardware/installation/guide/cuenme.html",
-    "depth": 2
-  },
-  {
-    "url": "http://cisco.com/en/US/docs/routers/access/interfaces/nm/hardware/installation/guide/srvicenm.html",
-    "depth": 2
-  },
-  {
-    "url": "http://docwiki.cisco.com/wiki/Cisco_Unity_Express_--_Programmatic_Interface_Service_Programming_Guide",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/gp/webex-platform-advantage.html",
-    "depth": 2
-  },
-  {
-    "url": "https://blog.webex.com/collaboration-devices/user-management-in-webex-control-hub",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/control-hub-cisco-devices.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/adopt/index.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/products/customer-experience.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/products/customer-experience/ai-agent.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/products/customer-experience/ai-assistant-for-contact-center.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/products/customer-experience/ai-workforce-engagement-management.html",
-    "depth": 2
-  },
-  {
-    "url": "https://designer.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/workspaces.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/cameras/cisco-room-vision-ptz-camera.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/room-series/cisco-room-kit-pro.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/phone-series/cisco-phone-9800-series.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/desk-series/cisco-desk-pro.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/accessories/cisco-ceiling-microphone-pro.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/devices/headsets/bang-and-olufsen-cisco-950.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/industries/sports-entertainment.html",
-    "depth": 2
-  },
-  {
-    "url": "http://webex.com/us/en/solutions/industries/nonprofits.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/camera-intelligence-cisco-devices.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/microsoft-teams-rooms-cisco-devices.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/av-over-ip-video-conferencing.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/solutions/roomos.html",
-    "depth": 2
-  },
-  {
-    "url": "https://academy.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/insider",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/customers.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/us/en/event-webinar.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/whats-new",
-    "depth": 2
-  },
-  {
-    "url": "https://pricing.webex.com/us/en/hybrid-work/meetings",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/pt/index.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/fr/index.html",
-    "depth": 2
-  },
-  {
     "url": "https://www.webex.com/de/index.html",
     "depth": 2
   },
@@ -26298,5 +25778,741 @@
   {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/rns/jvdi_b_release-notes-jvdi-elux-12-1.mobi",
     "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-survivable-remote-site-telephony/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/srstroadmap.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/workflow.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/interfaces.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/core_welcome.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/overview_of_tasks.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/logging_in.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/config_esrst.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/set_up_wizard.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/configuser.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/add_central_call_agent_wizard.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/viewing_cucm_profile.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/viewing_cucm_srst_references.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/viewing_central_call_agent.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/viewing_cucm_cluster_nodes.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/viewing_sites.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/changing_srst_site_info_one_site.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/changing_srst_site_info_multiple_sites.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/using_site_templates.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/creating_site_templates.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/core_config_dns.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/core_config_ntp.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/system_info.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/security.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/system_tls_certs.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/monitoring_provisioning.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/monitoring_learned_cme.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/configurationchanges.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/maintain_system.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/core_reports.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/back_rest.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/core_config_bu.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/back_rest_cli_options.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/core_config_control_panel.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/troubleshooting.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/trouble.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/srstmgr_use.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/scheduling_cli_cmds.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/c_cmds.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/s_cmds.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/t_cmds.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/glossary.html",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/cisco-3850-ios-xe-firmware-upgrade/ta-p/4504721",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/switches/catalyst-3850-series-switches/products-command-reference-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/switches/catalyst-3850-series-switches/products-installation-and-configuration-guides-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/elevate-with-catalyst-center-expert-insights-series/ta-p/5365621",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/asr-920-series-routers-console-port/ta-p/3754675",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/collaboration-systems-release/218061-configure-idle-user-logout-timer-in-epnm.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/collaboration-systems-release/218061-configure-idle-user-logout-timer-in-epnm.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/collaboration-systems-release/217288-how-to-build-a-linux-server-and-untar-th.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/collaboration-systems-release/217288-how-to-build-a-linux-server-and-untar-th.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nxxey0cb/Get-started-with-your-Cisco-Headset-730",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_compatibility-introduction.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_cisco-ip-phone-6800-series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_cisco-ip-phone-7800-series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500-m-cisco-ip-phone-7800-series-with-multiplatform-firmware.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_cisco-ip-phone-8800-series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500-m-cisco-ip-phone-8800-series-with-multiplatform-firmware.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_cisco-ip-phone-9800-series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_cisco-wireless-phone-9821.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_eol-unified-phones.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_spa-series-phone.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_dx-devices.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_ip-phone-800.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_cisco_accessory_hub.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_cisco-jaber-options.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_cisco-webex-teams.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_webex-meetings.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_uc-one.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_other-devices.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_b_headset-compatibility_chapter_011.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-500-series/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-700-series/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-900-series/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/6wcs7c/What's-New-for-Cisco-Room-Phone",
+    "depth": 2
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/p7ybst/Install-your-Cisco-Room-Phone",
+    "depth": 2
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/1ois7l/Your-Cisco-Room-Phone",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/asr-1000-series-aggregation-services-routers/products-security-advisories-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/asr-1000-series-aggregation-services-routers/products-technical-reference-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/products-installation-and-configuration-guides-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/286316806/release",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/286321647/release/A39t",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/286321980/release/16.12.5",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/286326638/release/17.9.5a",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/286334034/release/74.0.0",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/286334034/release/73.0.0",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/286334034/release/72.0.0",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/286334034/release/71.0.0",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/282046477/release/Dublin-17.12.8",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/282046477/release/Cupertino-17.9.10",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/282046477/release/Bengaluru-17.6.8a",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/282046477/release/Amsterdam-17.3.8a",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/282821780/release/16.6_39t",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/286317642/release/2.0",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/286285292/release/31240.11.s",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/282046486/release/16.12%25282r%2529",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/284509011/release/74.0.0",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/284509011/release/73.0.0",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/284509011/release/72.0.0",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/284509011/release/71.0.0",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/283425232/release/15.5%25282%2529S3",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/286285284/release/17.6.8a",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/286285284/release/17.9.10",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/284389362/type/286308587/release/17.12.7b",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/products-technical-reference-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/ios-nx-os-software/ios-xe-17/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/routers/catalyst-8300-series-edge-platforms/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-extensions/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-extensions/products-installation-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-extensions/products-programming-reference-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/283694653/type/280886992/release/TMSXE_5.13",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/cisco-license-central/new-clarity-added-to-buying-programs-in-cisco-license-central/ta-p/5339611",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/cisco-license-central/features-currently-supported-in-clc-what-s-coming/ta-p/5335556",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216176-change-network-settings-in-informacast-w.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/212079-Configure-InformaCast-Paging-Server-Cisc.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/products-maintenance-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-operating-system/212430-troubleshoot-basic-paging-upgrade-error.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/data-center-and-cloud-knowledge-base/cisco-intersight-essentials-feature-overview/ta-p/3616371",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/cisco-ucs-platform-emulator-3-2-3epe1/ta-p/3650977",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/cisco-ise-identity-services-engine-ipv6-support/ta-p/4480704",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/cisco-ucs-platform-emulator-4-1-2cpe1/ta-p/4103651",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/login-page-auto-redirect-to-create-an-account-page/ta-p/3640490",
+    "depth": 2
+  },
+  {
+    "url": "https://communities.cisco.com/message/152963",
+    "depth": 2
+  },
+  {
+    "url": "https://communities.cisco.com/docs/DOC-51097",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-consoles/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucmac/os_license/cuac_lic.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212911-migration-procedure-for-cuaca-10-5-x-to.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200513-Installation-of-Replication-for-CUAC-Adv.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200067-Configure-Logging-Path-for-CUAC-Advanced.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-standard/119249-config-cuac-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-consoles/products-maintenance-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200514-CUAC-60-Day-Evaulation-License-Has-Expir.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-enterprise-edition/200175-Cisco-Unified-Attendant-Console-Licensin.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217618-resolve-the-not-available-failover-statu.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217614-solve-cryptokey-error-at-cuac-a-subscrib.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217593-troubleshoot-no-replication-records-fou.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212100-Windows-Server-Hardening-for-CUAC.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-consoles/118863-technote-cuac-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/211568-Activating-and-Installing-a-CUAC-Advance.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-consoles/118860-technote-cuacs-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/202617-technote-on-attendant-console-multiple-t.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200118-Troubleshoot-unregistered-CTI-ports-afte.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/285974824/type/283910832/release/11.x",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1SU11/cplm-b-release-notes-plm-1151su11.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1SU10/cplm-b-release-notes-plm-1151su10.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1Su9/cplm-b-release-notes-plm-1151su9.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU7/ReleaseNotes/cplm_b_release-notes-plm-1151-su7.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU8/cucm_b_cplm_b_releasenotes_plm_1157_su8.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU6/ReleaseNotes/cucm_b_release-notes-plm-1151-su6.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU_1/releasenotes/cplm_b_plm-rn-1151SU1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1/releasenotes/CPLM_BK_RBE149CB_00_plm-rn-1151.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU5/releasenotes/CPLM_b_release-notes-1151-SU5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU2/releasenotes/cplm_b_release-notes-cplm-1151su2.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_0_1/releasenotes/CPLM_BK_PFC9D799_00_plm-rn-1101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_2SU10/cucm_b_cplm_b_release-notes-plm-1052-su10.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_2_SU9/cplm_b_release-notes-cplm-1052su9.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_2_SU8/cplm_b_release-notes_1052su8.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_2_SU1/releasenotes/cplm_b_release-notes-1052su1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_1/releasenotes/CUCM_BK_P7EB4EA9_00_plm-rn-1052.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_1/releasenotes/CUCM_BK_P5EA9B41_00_plm-rn-1051su1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_1/releasenotes/CUCM_BK_P64D2D8C_00_plm-rn-1051.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_0_1/releasenotes/CUCM_BK_P73D8919_00_plm_rn_1001.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU6/userguide/cplm_b_userguide_11_5_1_SU6.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU5/userguide/CPLM_b_userguide_1151_SU5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU_1/userguide/cplm_b_user-guide-rel-1151SU1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1/userguide/CPLM_BK_CE0970F4_00_user-guide-rel-1151.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU2/userguide/cplm_b_user-guide-1151su2.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_0_1/userguide/CPLM_BK_U2C0C808_00_user-guide-rel-1101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_2_SU1/userguide/cplm_b_user-guide-1052su1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_1/userguide/CPLM_BK_U9B156B7_00_user-guide-rel-1052.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_1/userguide/CPLM_BK_U8D47ED5_00_user-guide-1051su1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_1/userguide/CPLM_BK_UD1156AD_00_user-guide-rel-1051.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_0_1/userguide/CPLM_BK_U7066CD8_00_user-guide-rel-10-0-1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/smart-licensing-enterprise-agreements-saas-knowledge-base/enterprise-agreement-educational-tutorials/ta-p/4923461",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/cisco-ise-device-administration-prescriptive-deployment-guide/ta-p/3738365",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/cisco-security-licensing-guide/ta-p/4445140",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/catalyst-center-expert-insights-series/ta-p/5149125",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/design/guide/ucce_b_soldg-for-unified-cce-12_5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://academy.webex.com/public/static-content/browser-support/unsupported-browser.html",
+    "depth": 2
   }
 ]

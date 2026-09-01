@@ -20623,3 +20623,56 @@
 [2026-09-01T18:08:43.257069] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb53316
 [2026-09-01T18:08:47.314670] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy80559
 [2026-09-01T18:08:51.472913] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa75037
+[2026-09-01T18:12:04.289235] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-09-01T18:12:08.167360] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-09-01T18:13:27.857808] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-09-01T18:13:29.387268] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_2/cjab_b_release-notes-for-jabber-142.html
+[2026-09-01T18:13:40.152885] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide.html
+[2026-09-01T18:13:44.176524] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book.html
+[2026-09-01T18:13:49.494431] HTTP 599 o DOM vacío. | http://docwiki.cisco.com/wiki/Cisco_Application_Control_Engine_(ACE)_Module_Troubleshooting_Guide,_Release_A2(x)
+[2026-09-01T18:17:16.730116] HTTP 599 o DOM vacío. | http://refreshcollab.cisco.com/webportal/46/CUCM%20Readiness%20Assessment
+[2026-09-01T18:17:16.809450] Omitida: excluida por robots.txt | http://tools.cisco.com/ServiceRequestTool/create
+[2026-09-01T18:17:17.023456] Omitida: excluida por robots.txt | https://community.cisco.com/t5/security-knowledge-base/router-security-snort-ips-on-routers-step-by-step-configuration/ta-p/3369186
+[2026-09-01T18:17:24.787630] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility.html
+[2026-09-01T18:17:55.645785] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286326830/type/286326861/release/RoomPhone%201.2.0SR3
+[2026-09-01T18:18:12.809960] Omitida: excluida por robots.txt | https://community.cisco.com/t5/networking-knowledge-base/understanding-span-rspan-and-erspan/ta-p/3144951
+[2026-09-01T18:18:12.810006] Omitida: excluida por robots.txt | https://community.cisco.com/t5/networking-knowledge-base/cisco-isr-amp-asr-1k-routers-ios-xe-firmware-upgrade-install/ta-p/4426457
+[2026-09-01T18:18:12.810025] Omitida: excluida por robots.txt | https://community.cisco.com/t5/networking-knowledge-base/cannot-break-to-rommon-because-the-no-service-password-recovery/ta-p/3131504
+[2026-09-01T18:20:46.594898] Omitida: excluida por robots.txt | https://community.cisco.com/t5/networking-knowledge-base/configuring-type-6-passwords-in-ios-xe/ta-p/4438495
+[2026-09-01T18:20:51.544981] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/286285284/release/26.1.2
+[2026-09-01T18:20:51.545013] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/286308587/release/17.18.3a
+[2026-09-01T18:20:51.545030] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/286308587/release/17.12.7b
+[2026-09-01T18:20:51.545047] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/286308587/release/17.15.6
+[2026-09-01T18:20:51.545062] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/282046477/release/IOSXE-17.18.4
+[2026-09-01T18:20:51.545077] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/282046477/release/IOSXE-17.15.6
+[2026-09-01T18:20:51.545098] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/282046477/release/Dublin-17.12.8
+[2026-09-01T18:20:51.545117] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/282046477/release/IOSXE-26.1.2
+[2026-09-01T18:20:51.545131] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/286321980/release/26.1.1
+[2026-09-01T18:20:51.545146] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/284509011/release/79.0.0
+[2026-09-01T18:20:51.545160] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/284509011/release/78.0.0
+[2026-09-01T18:20:51.545174] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/284509011/release/77.0.0
+[2026-09-01T18:20:51.545187] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/284509011/release/76.0.0
+[2026-09-01T18:20:51.545202] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/286326638/release/26.1.2
+[2026-09-01T18:20:51.545216] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/282046486/release/17.18%25281r%2529
+[2026-09-01T18:20:51.545229] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/286334034/release/79.0.0
+[2026-09-01T18:20:51.545242] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/286334034/release/78.0.0
+[2026-09-01T18:20:51.545255] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/286334034/release/77.0.0
+[2026-09-01T18:20:51.545269] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/286334034/release/76.0.0
+[2026-09-01T18:20:51.545298] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286324476/type/286321647/release/A39t
+[2026-09-01T18:20:51.545320] Omitida: excluida por robots.txt | https://community.cisco.com/t5/networking-knowledge-base/emea-expert-insights-series-cisco-catalyst-sd-wan/ta-p/5289279
+[2026-09-01T18:21:24.274159] HTTP 599 o DOM vacío. | http://docwiki.cisco.com/wiki/Cisco_Unity_Express_--_Programmatic_Interface_Service_Programming_Guide
+[2026-09-01T18:21:26.892017] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/gp/webex-platform-advantage.html
+[2026-09-01T18:21:27.045762] Omitida: excluida por robots.txt | https://blog.webex.com/collaboration-devices/user-management-in-webex-control-hub
+[2026-09-01T18:21:31.206888] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/us/en/solutions/control-hub-cisco-devices.html
+[2026-09-01T18:21:35.591113] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/us/en/adopt/index.html
+[2026-09-01T18:21:41.929526] Markdown insuficiente tras sanitizar (0 chars). | https://www.webex.com
+[2026-09-01T18:21:44.200819] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/us/en/products/customer-experience.html
+[2026-09-01T18:21:59.441089] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/us/en/products/customer-experience/ai-workforce-engagement-management.html
+[2026-09-01T18:22:04.813391] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/us/en/workspaces.html
+[2026-09-01T18:22:16.708216] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/us/en/devices/room-series/cisco-room-kit-pro.html
+[2026-09-01T18:22:52.891312] Omitida: excluida por robots.txt | http://webex.com/us/en/solutions/industries/nonprofits.html
+[2026-09-01T18:22:55.173826] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/us/en/solutions/camera-intelligence-cisco-devices.html
+[2026-09-01T18:23:15.236125] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/us/en/solutions/roomos.html
+[2026-09-01T18:23:24.865956] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/customers.html
+[2026-09-01T18:23:33.838467] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/whats-new
+[2026-09-01T18:23:40.084005] HTTP 403: en cuarentena, sin reintento automático. | https://www.webex.com/pt/index.html

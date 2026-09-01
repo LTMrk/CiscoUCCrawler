@@ -1164,6 +1164,30 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "http://cisco.com/en/US/docs/routers/access/interfaces/nm/hardware/installation/guide/cuenme.html": {
+      "content_sha": null,
+      "doc_id": "cisco-com-en-us-docs-routers-access-interfaces-nm-hardware-installation-guide-cuenme-html-1615ff7f56",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:21:20.471084+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-01T18:21:20.471095+00:00",
+      "next_check": "2026-09-02T18:21:20.471095+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/routers/access/interfaces/nm/hardware/installation/guide/cuenme.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "http://cisco.com/en/US/docs/routers/access/interfaces/nm/hardware/installation/guide/srvicenm.html": {
+      "content_sha": null,
+      "doc_id": "cisco-com-en-us-docs-routers-access-interfaces-nm-hardware-installation-guide-srvicenm-html-a0407c34a9",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:21:24.171500+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-01T18:21:24.171515+00:00",
+      "next_check": "2026-09-02T18:21:24.171515+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/routers/access/interfaces/nm/hardware/installation/guide/srvicenm.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "http://cisco.com/en/US/docs/routers/access/vg350/software/configuration/guide/vg350scg": {
       "content_sha": null,
       "doc_id": "cisco-com-en-us-docs-routers-access-vg350-software-configuration-guide-vg350scg-23903ede6d",
@@ -1386,6 +1410,18 @@
       "http_status": 403,
       "last_seen": "2026-08-25T23:34:56.709503+00:00",
       "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://academy.webex.com": {
+      "content_sha": null,
+      "doc_id": "academy-webex-com-9ceca00cc8",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:23:18.540365+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:23:18.540376+00:00",
+      "next_check": "2026-09-02T18:23:18.540376+00:00",
+      "redirect_to": "https://academy.webex.com/public/static-content/browser-support/unsupported-browser.html",
+      "status": "redirect",
       "unchanged_runs": 0
     },
     "https://activate.cisco.com": {
@@ -18116,6 +18152,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwh08984": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwh08984-916a715c20",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:13:36.905856+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-01T18:13:36.905868+00:00",
+      "next_check": "2026-09-02T18:13:36.905868+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwh11185": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwh11185-8473c213ad",
@@ -18136,6 +18184,18 @@
       "http_status": 302,
       "last_seen": "2026-08-25T20:14:13.452879+00:00",
       "next_check": "2026-08-26T20:14:13.452879+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwh14654": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscwh14654-2ec0b2cf33",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:13:33.715176+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-01T18:13:33.715187+00:00",
+      "next_check": "2026-09-02T18:13:33.715187+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -22301,6 +22361,19 @@
       "next_check": "2026-08-26T09:39:08.904977+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://designer.webex.com": {
+      "content_sha": "7a10f9b5abe66dce11b68ccd8de2210d13d856433b68008f80b85d442b4c78a7",
+      "doc_id": "designer-webex-com-226f6eabc8",
+      "etag": "\"6a913366-987\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:22:02.538615+00:00",
+      "last_changed": "2026-09-01T18:22:02.538615+00:00",
+      "last_modified": "Fri, 28 Aug 2026 07:06:14 GMT",
+      "last_seen": "2026-09-01T18:22:02.538615+00:00",
+      "next_check": "2026-09-02T18:22:02.538615+00:00",
+      "status": "active",
       "unchanged_runs": 0
     },
     "https://developer.cisco.com/docs/axl/": {
@@ -28591,6 +28664,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://pricing.webex.com/us/en/hybrid-work/meetings": {
+      "content_sha": null,
+      "doc_id": "pricing-webex-com-us-en-hybrid-work-meetings-36598a86cf",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:23:37.764787+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-01T18:23:37.764797+00:00",
+      "next_check": "2026-09-02T18:23:37.764797+00:00",
+      "redirect_to": "https://pricing.webex.com/us/en/hybrid-work/meetings",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://quickview.cloudapps.cisco.com/quickview/bug/CSCve17188": {
       "content_sha": "dcaf89d35b30a79c3d634767911b51a165ec40fa9894dc4ea8c8ea2d13ce1a5e",
       "doc_id": "quickview-cloudapps-cisco-com-quickview-bug-cscve17188-6c000b5fb5",
@@ -30282,6 +30367,18 @@
       "last_seen": "2026-08-25T23:34:08.214460+00:00",
       "next_check": "2026-08-26T23:34:08.214460+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/obsolete/collaboration-endpoints/cisco-telepresence-system-500-32.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-ex-series/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-system-ex-series-series-html-0af72060f5",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:14:00.725441+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:14:00.725452+00:00",
+      "next_check": "2026-09-02T18:14:00.725452+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -34222,10 +34319,10 @@
       "first_seen": "2026-08-16T18:27:59.445833+00:00",
       "last_changed": "2026-08-16T18:27:59.445833+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T12:39:12.352578+00:00",
-      "next_check": "2026-08-25T12:39:12.352578+00:00",
+      "last_seen": "2026-09-01T18:14:13.606871+00:00",
+      "next_check": "2026-09-09T18:14:13.606871+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/collaboration-systems-release/218061-configure-idle-user-logout-timer-in-epnm.html": {
       "content_sha": "6c3d3a02f6c953718b858726b0286d268727abc5213c6934706412fb8a99d051",
@@ -34235,10 +34332,10 @@
       "first_seen": "2026-08-16T18:27:55.167411+00:00",
       "last_changed": "2026-08-16T18:27:55.167411+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T12:39:08.178657+00:00",
-      "next_check": "2026-08-25T12:39:08.178657+00:00",
+      "last_seen": "2026-09-01T18:14:09.141838+00:00",
+      "next_check": "2026-09-09T18:14:09.141838+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/200473-Configure-and-Troubleshoot-CER-Onsite-Al.html": {
       "content_sha": "56734ebc1da2af0bdf5efe8d03d5971543af617098e50aeed7582f8ead251a1e",
@@ -36988,10 +37085,10 @@
       "first_seen": "2026-08-16T23:12:25.256045+00:00",
       "last_changed": "2026-08-16T23:12:25.256045+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T12:53:29.359342+00:00",
-      "next_check": "2026-08-25T12:53:29.359342+00:00",
+      "last_seen": "2026-09-01T18:19:05.882793+00:00",
+      "next_check": "2026-09-09T18:19:05.882793+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html": {
       "content_sha": "0ea2010275b292fc812bddeb6198a35f435e1597eb6457e6173488825cd8f0a6",
@@ -66967,10 +67064,10 @@
       "first_seen": "2026-08-16T18:27:51.104216+00:00",
       "last_changed": "2026-08-16T18:27:51.104216+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T12:39:04.023717+00:00",
-      "next_check": "2026-08-25T12:39:04.023717+00:00",
+      "last_seen": "2026-09-01T18:14:04.947323+00:00",
+      "next_check": "2026-09-09T18:14:04.947323+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/okta/12_0_1/cucm_b_saml-sso-okta-identity-provider.html": {
       "content_sha": "d6a242c625328227c51e5a1cd9fc5e21721159ec222c3c0ce2c2cef0f970e18d",
@@ -115931,6 +116028,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/730/userguide/h730_b_cisco-headset-730-user-guide.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-730-userguide-h730-b-cisco-headset-730-user-guide-html-26275bd65c",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:17:20.034794+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:17:20.034804+00:00",
+      "next_check": "2026-09-02T18:17:20.034804+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/nxxey0cb/Get-started-with-your-Cisco-Headset-730",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/730/userguide/h730_b_cisco-headset-730-user-guide/h730_b_cisco-headset-730-user-guide_chapter_00.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-730-userguide-h730-b-cisco-headset-730-user-guide-h730-b-cis-4305b56b56",
@@ -121728,6 +121837,54 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Conference/firmware/1-1-0/releasenotes/cswb_b_cisco-webex-room-phone-release.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-webex-conference-firmware-1-1-0-releasenotes-cswb-b-cisco-webex-room--5118d7c10f",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:17:43.888241+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:17:43.888251+00:00",
+      "next_check": "2026-09-02T18:17:43.888251+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/6wcs7c/What's-New-for-Cisco-Room-Phone",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Conference/firmware/1-2-0/releasenotes/cswd_b_release-notes-for-cisco-webex.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-webex-conference-firmware-1-2-0-releasenotes-cswd-b-release-notes-for-f589502c7a",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:17:37.798861+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:17:37.798871+00:00",
+      "next_check": "2026-09-02T18:17:37.798871+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/6wcs7c/What's-New-for-Cisco-Room-Phone",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Conference/firmware/1-2-0SR1/releasenotes/cswb_b_bookmap-webex-room-phone-release.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-webex-conference-firmware-1-2-0sr1-releasenotes-cswb-b-bookmap-webex--ff78319af8",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:17:34.206814+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:17:34.206825+00:00",
+      "next_check": "2026-09-02T18:17:34.206825+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/6wcs7c/What's-New-for-Cisco-Room-Phone",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Conference/firmware/1-2-0SR2/releasenotes/cswb-b-webex-room-phone-release-notes-for-firmware-release-1-2-0sr2.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-webex-conference-firmware-1-2-0sr2-releasenotes-cswb-b-webex-room-pho-51626d03ce",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:17:30.554444+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:17:30.554455+00:00",
+      "next_check": "2026-09-02T18:17:30.554455+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/6wcs7c/What's-New-for-Cisco-Room-Phone",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Deskcamera/Desk-Camera-1080p/wdpv_m_1080p-RN-dummy-cco.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-webex-deskcamera-desk-camera-1080p-wdpv-m-1080p-rn-dummy-cco-html-ec5d06c468",
@@ -121785,6 +121942,42 @@
       "last_seen": "2026-09-01T14:48:19.908477+00:00",
       "next_check": "2026-09-02T14:48:19.908477+00:00",
       "redirect_to": "https://help.webex.com/en-us/article/ml8pm7/Cisco-Desk-Camera-4K-release-notes",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Room/Install/cswb-b-webex-room-phone-installation-guide.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-webex-room-install-cswb-b-webex-room-phone-installation-guide-html-bf9f46fc09",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:17:46.985262+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:17:46.985272+00:00",
+      "next_check": "2026-09-02T18:17:46.985272+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/p7ybst/Install-your-Cisco-Room-Phone",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Room/adminguide/cswb_b_cisco-webex-room-phone-adminguide.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-webex-room-adminguide-cswb-b-cisco-webex-room-phone-adminguide-html-5b88f1f2fb",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:17:55.528164+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:17:55.528175+00:00",
+      "next_check": "2026-09-02T18:17:55.528175+00:00",
+      "redirect_to": "https://help.webex.com/en-us/products",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Room/userguide/cswb_b_cisco-webex-room-phone-user.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-webex-room-userguide-cswb-b-cisco-webex-room-phone-user-html-b0a5441b8a",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:17:51.561554+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:17:51.561564+00:00",
+      "next_check": "2026-09-02T18:17:51.561564+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/1ois7l/Your-Cisco-Room-Phone",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -192775,6 +192968,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/customers.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-customers-html-75b77a2c55",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:23:24.865908+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:23:24.865913+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/downloads.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-downloads-html-0ea09610b5",
@@ -192782,6 +192985,29 @@
       "first_seen": "2026-08-25T04:35:05.905518+00:00",
       "http_status": 403,
       "last_seen": "2026-08-25T04:35:05.905525+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/fr/index.html": {
+      "content_sha": "f4b07afd3a30e14d877ea934e1c62a2819eb17399308f5309af4ca6851ee2212",
+      "doc_id": "www-webex-com-fr-index-html-2452734c76",
+      "etag": "\"5177c-65a67104bb95f-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:23:45.289435+00:00",
+      "last_changed": "2026-09-01T18:23:45.289435+00:00",
+      "last_modified": "Tue, 01 Sep 2026 07:42:41 GMT",
+      "last_seen": "2026-09-01T18:23:45.289435+00:00",
+      "next_check": "2026-09-02T18:23:45.289435+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/gp/webex-platform-advantage.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-gp-webex-platform-advantage-html-8bebc12463",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:21:26.891967+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:21:26.891972+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -192899,6 +193125,19 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/insider": {
+      "content_sha": "7986667fcfa9fa80776c82349a025d1f133a5da15361fe652f6e84106e739e61",
+      "doc_id": "www-webex-com-insider-17b9eba72f",
+      "etag": "W/\"1f569-65a7003549dde-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:23:22.422629+00:00",
+      "last_changed": "2026-09-01T18:23:22.422629+00:00",
+      "last_modified": "Tue, 01 Sep 2026 18:23:18 GMT",
+      "last_seen": "2026-09-01T18:23:22.422629+00:00",
+      "next_check": "2026-09-02T18:23:22.422629+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/learn/webinars-demos.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-learn-webinars-demos-html-df26210732",
@@ -192916,6 +193155,16 @@
       "first_seen": "2026-08-25T04:35:14.153315+00:00",
       "http_status": 403,
       "last_seen": "2026-08-25T04:35:14.153322+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/pt/index.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-pt-index-html-d4946c1af9",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:23:40.083957+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:23:40.083963+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -193053,6 +193302,16 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/us/en/adopt/index.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-adopt-index-html-c3b4677757",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:21:35.591076+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:21:35.591079+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/us/en/devices.html": {
       "content_sha": "7e5c1ad04bf1d690b50a56d49aa2d0b320bb68230c59aa188e66b32e0148e4b2",
       "doc_id": "www-webex-com-us-en-devices-html-a2e90c5411",
@@ -193079,6 +193338,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/us/en/devices/accessories/cisco-ceiling-microphone-pro.html": {
+      "content_sha": "74ae81987da9f123ce72f592603a64ec53b21febd4f6b4373df4ae7837fe5418",
+      "doc_id": "www-webex-com-us-en-devices-accessories-cisco-ceiling-microphone-pro-html-bbed0c9ea3",
+      "etag": "W/\"2be0c-65a6abdf66f33-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:22:41.784389+00:00",
+      "last_changed": "2026-09-01T18:22:41.784389+00:00",
+      "last_modified": "Tue, 01 Sep 2026 12:06:00 GMT",
+      "last_seen": "2026-09-01T18:22:41.784389+00:00",
+      "next_check": "2026-09-02T18:22:41.784389+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/us/en/devices/cameras.html": {
       "content_sha": "a0030a373103ced6e29e1f378e4083adf687da8dd97b4319641dafdb2230fa35",
       "doc_id": "www-webex-com-us-en-devices-cameras-html-f2044862f5",
@@ -193092,6 +193364,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/us/en/devices/cameras/cisco-room-vision-ptz-camera.html": {
+      "content_sha": "66bedae1cfc9bad4be9626c0eacf228e9b647e92088865344780d6b6775521c0",
+      "doc_id": "www-webex-com-us-en-devices-cameras-cisco-room-vision-ptz-camera-html-4c514cf162",
+      "etag": "W/\"2ea79-65a676bb0b5e1-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:22:14.397772+00:00",
+      "last_changed": "2026-09-01T18:22:14.397772+00:00",
+      "last_modified": "Tue, 01 Sep 2026 08:08:15 GMT",
+      "last_seen": "2026-09-01T18:22:14.397772+00:00",
+      "next_check": "2026-09-02T18:22:14.397772+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/us/en/devices/desk-series.html": {
       "content_sha": "31a335b9c26c0e9806dfc05676f07dd28a93d140da343014da5c54cac705f542",
       "doc_id": "www-webex-com-us-en-devices-desk-series-html-fb5078085c",
@@ -193102,6 +193387,19 @@
       "last_modified": "Mon, 24 Aug 2026 14:43:39 GMT",
       "last_seen": "2026-08-25T23:36:58.273227+00:00",
       "next_check": "2026-08-26T23:36:58.273227+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/devices/desk-series/cisco-desk-pro.html": {
+      "content_sha": "dfb12465b3c66ecf7b6616dace9e42065ebfdacb1d0f54b7eb8b2324d192fdaf",
+      "doc_id": "www-webex-com-us-en-devices-desk-series-cisco-desk-pro-html-c79bea6d20",
+      "etag": "\"20b5f-65a6720b909c3-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:22:32.830776+00:00",
+      "last_changed": "2026-09-01T18:22:32.830776+00:00",
+      "last_modified": "Tue, 01 Sep 2026 07:47:17 GMT",
+      "last_seen": "2026-09-01T18:22:32.830776+00:00",
+      "next_check": "2026-09-02T18:22:32.830776+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -193128,6 +193426,19 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/us/en/devices/headsets/bang-and-olufsen-cisco-950.html": {
+      "content_sha": "c6c9b44975f9f20ce831060e9eb5a08882b2f4a75d8dd0c76b4a024c179e9916",
+      "doc_id": "www-webex-com-us-en-devices-headsets-bang-and-olufsen-cisco-950-html-2691bd2c12",
+      "etag": "\"204ae-65a5975dc070e-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:22:47.335268+00:00",
+      "last_changed": "2026-09-01T18:22:47.335268+00:00",
+      "last_modified": "Mon, 31 Aug 2026 15:28:56 GMT",
+      "last_seen": "2026-09-01T18:22:47.335268+00:00",
+      "next_check": "2026-09-02T18:22:47.335268+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/us/en/devices/phone-series.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-us-en-devices-phone-series-html-862d329397",
@@ -193138,6 +193449,19 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/us/en/devices/phone-series/cisco-phone-9800-series.html": {
+      "content_sha": "bcb081d901e8778caf4fdc3372873ceefff3125f7fd988d31a42c740058b8702",
+      "doc_id": "www-webex-com-us-en-devices-phone-series-cisco-phone-9800-series-html-6837de7ace",
+      "etag": "\"27fd3-65a67a902390a-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:22:25.824803+00:00",
+      "last_changed": "2026-09-01T18:22:25.824803+00:00",
+      "last_modified": "Tue, 01 Sep 2026 08:25:23 GMT",
+      "last_seen": "2026-09-01T18:22:25.824803+00:00",
+      "next_check": "2026-09-02T18:22:25.824803+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/us/en/devices/room-devices.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-us-en-devices-room-devices-html-6a4fd79218",
@@ -193145,6 +193469,16 @@
       "first_seen": "2026-08-25T23:36:50.153593+00:00",
       "http_status": 403,
       "last_seen": "2026-08-25T23:36:50.153598+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/devices/room-series/cisco-room-kit-pro.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-devices-room-series-cisco-room-kit-pro-html-1cc563455e",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:22:16.708155+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:22:16.708163+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -193169,6 +193503,65 @@
       "last_seen": "2026-08-25T23:42:17.458703+00:00",
       "next_check": "2026-08-26T23:42:17.458703+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/event-webinar.html": {
+      "content_sha": "99410c12ed1c6fded9cc85624b5506be2f73a5ea7d4e6ab54922877b02cda2a7",
+      "doc_id": "www-webex-com-us-en-event-webinar-html-61b6f605ee",
+      "etag": "\"476f5-65a6fc43b8d48-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:23:31.505978+00:00",
+      "last_changed": "2026-09-01T18:23:31.505978+00:00",
+      "last_modified": "Tue, 01 Sep 2026 18:05:40 GMT",
+      "last_seen": "2026-09-01T18:23:31.505978+00:00",
+      "next_check": "2026-09-02T18:23:31.505978+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/products/customer-experience.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-products-customer-experience-html-0ecf5914e4",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:21:44.200765+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:21:44.200770+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/products/customer-experience/ai-agent.html": {
+      "content_sha": "6d2186c57a65b5bfc9d5b5ea755bd63d9d7603d7fe8a21281a0f48e01619feaa",
+      "doc_id": "www-webex-com-us-en-products-customer-experience-ai-agent-html-b5cddd4847",
+      "etag": "\"26302-65a406feb0ef1-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:21:51.565446+00:00",
+      "last_changed": "2026-09-01T18:21:51.565446+00:00",
+      "last_modified": "Sun, 30 Aug 2026 09:37:42 GMT",
+      "last_seen": "2026-09-01T18:21:51.565446+00:00",
+      "next_check": "2026-09-02T18:21:51.565446+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/products/customer-experience/ai-assistant-for-contact-center.html": {
+      "content_sha": "e285831db8a606f3c9a20321233ba4e159e2effc4e6b89e057ef4aa98e9552e6",
+      "doc_id": "www-webex-com-us-en-products-customer-experience-ai-assistant-for-contact-center-html-cb2f4fb066",
+      "etag": "\"1dc8b-65a5a39bc7154-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:21:57.123782+00:00",
+      "last_changed": "2026-09-01T18:21:57.123782+00:00",
+      "last_modified": "Mon, 31 Aug 2026 16:23:42 GMT",
+      "last_seen": "2026-09-01T18:21:57.123782+00:00",
+      "next_check": "2026-09-02T18:21:57.123782+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/products/customer-experience/ai-workforce-engagement-management.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-products-customer-experience-ai-workforce-engagement-management-html-1025e5d56b",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:21:59.441053+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:21:59.441057+00:00",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://www.webex.com/us/en/products/customer-experience/contact-center.html": {
@@ -193201,6 +193594,39 @@
       "first_seen": "2026-08-25T23:36:25.526596+00:00",
       "http_status": 403,
       "last_seen": "2026-08-25T23:36:25.526600+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/av-over-ip-video-conferencing.html": {
+      "content_sha": "86127968200a2aea5abcdd3561786f7f80c81486eed17193498f100e5b62665d",
+      "doc_id": "www-webex-com-us-en-solutions-av-over-ip-video-conferencing-html-0e30d23b93",
+      "etag": "W/\"21f2f-65a70028f65a8-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:23:12.962264+00:00",
+      "last_changed": "2026-09-01T18:23:12.962264+00:00",
+      "last_modified": "Tue, 01 Sep 2026 18:23:06 GMT",
+      "last_seen": "2026-09-01T18:23:12.962264+00:00",
+      "next_check": "2026-09-02T18:23:12.962264+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/camera-intelligence-cisco-devices.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-solutions-camera-intelligence-cisco-devices-html-93ed9518bf",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:22:55.173778+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:22:55.173783+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/control-hub-cisco-devices.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-solutions-control-hub-cisco-devices-html-788a9995e6",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:21:31.206845+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:21:31.206850+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -193325,6 +193751,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/us/en/solutions/industries/sports-entertainment.html": {
+      "content_sha": "b52340aab306943a64226f3bb4b04f40bad919cf7240ab5b887f9e9482a871a0",
+      "doc_id": "www-webex-com-us-en-solutions-industries-sports-entertainment-html-39dd1cc645",
+      "etag": "\"19e7b-65a6fafa43efe-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:22:52.371339+00:00",
+      "last_changed": "2026-09-01T18:22:52.371339+00:00",
+      "last_modified": "Tue, 01 Sep 2026 17:59:54 GMT",
+      "last_seen": "2026-09-01T18:22:52.371339+00:00",
+      "next_check": "2026-09-02T18:22:52.371339+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/us/en/solutions/interoperability.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-us-en-solutions-interoperability-html-55a5099809",
@@ -193333,6 +193772,19 @@
       "http_status": 403,
       "last_seen": "2026-08-25T23:37:30.145790+00:00",
       "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/microsoft-teams-rooms-cisco-devices.html": {
+      "content_sha": "a2995649a3fcb282d2a0a02e04b61f8a7848b9ad8f55b9b5e610ce846ce7a978",
+      "doc_id": "www-webex-com-us-en-solutions-microsoft-teams-rooms-cisco-devices-html-e138a804f1",
+      "etag": "\"2f984-65a5a0fc6e106-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:23:05.736805+00:00",
+      "last_changed": "2026-09-01T18:23:05.736805+00:00",
+      "last_modified": "Mon, 31 Aug 2026 16:11:58 GMT",
+      "last_seen": "2026-09-01T18:23:05.736805+00:00",
+      "next_check": "2026-09-02T18:23:05.736805+00:00",
+      "status": "active",
       "unchanged_runs": 0
     },
     "https://www.webex.com/us/en/solutions/return-to-office.html": {
@@ -193345,6 +193797,16 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/us/en/solutions/roomos.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-solutions-roomos-html-ae54674515",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:23:15.236081+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:23:15.236087+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/us/en/solutions/sustainability.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-us-en-solutions-sustainability-html-ee230e1d97",
@@ -193352,6 +193814,16 @@
       "first_seen": "2026-08-25T23:42:07.562912+00:00",
       "http_status": 403,
       "last_seen": "2026-08-25T23:42:07.562918+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-workspaces-html-cf31c8e9dc",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:22:04.813350+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:22:04.813354+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -193375,6 +193847,16 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/whats-new": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-whats-new-b038cb9cf8",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:23:33.838425+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:23:33.838430+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://wwwin-si.cisco.com/psb-requirements": {
       "content_sha": null,
       "doc_id": "wwwin-si-cisco-com-psb-requirements-9da0b75a67",
@@ -193389,5 +193871,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-01T18:08:51.561903+00:00"
+  "updated_at": "2026-09-01T18:23:45.623647+00:00"
 }

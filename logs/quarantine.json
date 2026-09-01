@@ -7199,10 +7199,22 @@
     "ultima_vez": "2026-08-17T04:55:37.959905+00:00",
     "veces": 1
   },
+  "https://www.webex.com/customers.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:23:24.865856+00:00",
+    "veces": 1
+  },
   "https://www.webex.com/downloads.html": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-25T04:35:05.905471+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/gp/webex-platform-advantage.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:21:26.891914+00:00",
     "veces": 1
   },
   "https://www.webex.com/industries/frontline.html": {
@@ -7233,6 +7245,12 @@
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-25T04:35:14.153270+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/pt/index.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:23:40.083910+00:00",
     "veces": 1
   },
   "https://www.webex.com/screen-sharing.html": {
@@ -7277,6 +7295,12 @@
     "ultima_vez": "2026-08-25T04:35:09.973018+00:00",
     "veces": 1
   },
+  "https://www.webex.com/us/en/adopt/index.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:21:35.591027+00:00",
+    "veces": 1
+  },
   "https://www.webex.com/us/en/devices/headsets.html": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
@@ -7295,10 +7319,28 @@
     "ultima_vez": "2026-08-25T23:36:50.153557+00:00",
     "veces": 1
   },
+  "https://www.webex.com/us/en/devices/room-series/cisco-room-kit-pro.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:22:16.708094+00:00",
+    "veces": 1
+  },
   "https://www.webex.com/us/en/dg/contact-sales.html": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-25T04:35:35.182752+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/products/customer-experience.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:21:44.200715+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/products/customer-experience/ai-workforce-engagement-management.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:21:59.441012+00:00",
     "veces": 1
   },
   "https://www.webex.com/us/en/products/customer-experience/cpaas.html": {
@@ -7311,6 +7353,18 @@
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-25T23:36:25.526562+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/solutions/camera-intelligence-cisco-devices.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:22:55.173725+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/solutions/control-hub-cisco-devices.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:21:31.206799+00:00",
     "veces": 1
   },
   "https://www.webex.com/us/en/solutions/cross-platform/inclusive-collaboration.html": {
@@ -7343,10 +7397,22 @@
     "ultima_vez": "2026-08-25T23:37:34.294598+00:00",
     "veces": 1
   },
+  "https://www.webex.com/us/en/solutions/roomos.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:23:15.236029+00:00",
+    "veces": 1
+  },
   "https://www.webex.com/us/en/solutions/sustainability.html": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-25T23:42:07.562823+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/workspaces.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:22:04.813301+00:00",
     "veces": 1
   },
   "https://www.webex.com/video-conferencing.html": {
@@ -7359,6 +7425,12 @@
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-25T04:33:45.618712+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/whats-new": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:23:33.838383+00:00",
     "veces": 1
   }
 }
